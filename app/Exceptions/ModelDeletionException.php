@@ -9,9 +9,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Exceptions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Override;
+>>>>>>> 73eab74 (.)
 use Exception;
 use Illuminate\Http\Response;
 use Illuminate\Support\Str;
@@ -21,6 +25,9 @@ class ModelDeletionException extends ApplicationException
     private readonly string $model;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function __construct(
         private readonly int $id,
         string $model,
@@ -29,6 +36,7 @@ class ModelDeletionException extends ApplicationException
     }
 
     #[Override]
+<<<<<<< HEAD
 =======
     public function __construct(private readonly int $id, string $model)
     {
@@ -36,18 +44,24 @@ class ModelDeletionException extends ApplicationException
     }
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     public function status(): int
     {
         return Response::HTTP_BAD_REQUEST;
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     #[Override]
     public function help(): string
     {
         $res = trans('exception.model_not_deleted.help');
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 =======
     public function help(): string
     {
@@ -55,12 +69,17 @@ class ModelDeletionException extends ApplicationException
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         }
 
         return $res;
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     #[Override]
     public function error(): string
     {
@@ -70,6 +89,7 @@ class ModelDeletionException extends ApplicationException
         ]);
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 =======
     public function error(): string
     {
@@ -83,6 +103,8 @@ class ModelDeletionException extends ApplicationException
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         }
 
         return $res;

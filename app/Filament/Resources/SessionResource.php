@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Override;
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
@@ -28,6 +31,7 @@ class SessionResource extends XotBaseResource
             'last_activity' => TextInput::make('last_activity')->required()->numeric(),
         ];
     }
+<<<<<<< HEAD
 =======
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
@@ -66,4 +70,6 @@ class SessionResource extends XotBaseResource
 
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 }

@@ -6,9 +6,13 @@ namespace Modules\Xot\Filament\Resources\LogResource\Pages;
 
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Override;
+>>>>>>> 73eab74 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Grid;
 use Filament\Actions;
@@ -22,14 +26,21 @@ class ViewLog extends XotBaseViewRecord
     protected static string $resource = LogResource::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 >>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
     protected function getInfolistSchema(): array
     {
         $log = $this->getRecord()->getModel();
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             'log_info' => Section::make('Informazioni Log')->schema([
                 'log_grid' => Grid::make(['default' => 3])->schema([
                     'id' => TextEntry::make('id'),
@@ -46,6 +57,7 @@ class ViewLog extends XotBaseViewRecord
                     ),
                 ]),
             ]),
+<<<<<<< HEAD
 =======
             'log_info' => Section::make('Informazioni Log')
                 ->schema([
@@ -65,6 +77,8 @@ class ViewLog extends XotBaseViewRecord
                         ]),
                 ]),
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         ];
     }
 }

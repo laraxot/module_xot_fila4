@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica
@@ -421,6 +424,7 @@ ls Modules/*/lang/*/
 **🚀 Performance**: 98/100 score
 
 ## Documentation Archive & Legacy
+<<<<<<< HEAD
 =======
 # Xot Module - Framework Base Laraxot
 
@@ -458,10 +462,13 @@ Configurazione automatica tramite service providers.
 
 ## Documentation Archive
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Quick Links Legacy
 =======
@@ -474,6 +481,9 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 ## Links
 - [Root Documentation](../../../project_docs/)
 >>>>>>> f1d4085 (.)
+=======
+## Quick Links Legacy
+>>>>>>> 73eab74 (.)
 - [Root Documentation](../../../docs/)
 - [SaluteOra Module](../SaluteOra/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)

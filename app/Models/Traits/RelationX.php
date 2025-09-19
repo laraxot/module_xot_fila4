@@ -19,6 +19,9 @@ trait RelationX
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * @param class-string<Model>             $related         Related model class
      * @param class-string<Model>|string|null $_table          Pivot table name
      * @param string|null                     $foreignPivotKey Foreign pivot key
@@ -41,6 +44,7 @@ trait RelationX
             Model::class,
             '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
+<<<<<<< HEAD
 =======
      * @param class-string<Model>             $related         aaa
      * @param class-string<Model>|string|null $table           aaa
@@ -61,6 +65,8 @@ trait RelationX
     ): BelongsToMany {
         Assert::isInstanceOf($related_model = app($related), Model::class, '['.__LINE__.']['.class_basename($this).']');
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         $pivot = $this->guessPivot($related);
         $table = $pivot->getTable();
         $pivotFields = $pivot->getFillable();
@@ -70,11 +76,15 @@ trait RelationX
         $relatedDbName = $related_model->getConnection()->getDatabaseName();
         // if ($pivotDbName !== $dbName) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $table = $pivotDbName . '.' . $table;
         }
         // }
 
+<<<<<<< HEAD
 =======
         if ($pivotDbName != $dbName || $relatedDbName != $dbName) {
             $table = $pivotDbName.'.'.$table;
@@ -82,6 +92,8 @@ trait RelationX
         // }
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         return $this->belongsToMany(
             related: $related,
             table: $table,
@@ -97,9 +109,12 @@ trait RelationX
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     /**
      * Define a polymorphic many-to-many relationship.
      *
@@ -108,10 +123,14 @@ trait RelationX
      * @param  class-string<TRelatedModel>  $related
      * @param  string  $name
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string|null  $_table
 =======
      * @param  string|null  $table
 >>>>>>> f1d4085 (.)
+=======
+     * @param  string|null  $_table
+>>>>>>> 73eab74 (.)
      * @param  string|null  $foreignPivotKey
      * @param  string|null  $relatedPivotKey
      * @param  string|null  $parentKey
@@ -121,6 +140,9 @@ trait RelationX
      * @return MorphToMany<TRelatedModel, $this>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function morphToManyX(
         string $related,
         string $name,
@@ -132,6 +154,7 @@ trait RelationX
         null|string $relation = null,
         bool $inverse = false,
     ) {
+<<<<<<< HEAD
 =======
     public function morphToManyX($related, $name, $table = null, $foreignPivotKey = null,
                                 $relatedPivotKey = null, $parentKey = null,
@@ -139,6 +162,8 @@ trait RelationX
     {
        
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         $pivot = $this->guessMorphPivot($related);
         $table = $pivot->getTable();
         $pivotFields = $pivot->getFillable();
@@ -147,10 +172,14 @@ trait RelationX
         $dbName = $this->getConnection()->getDatabaseName();
         //$relatedDbName = $related_model->getConnection()->getDatabaseName();
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($table === null) {
 =======
         if($table==null){
 >>>>>>> f1d4085 (.)
+=======
+        if ($table === null) {
+>>>>>>> 73eab74 (.)
             $table = $pivot->getTable();
         }
         return $this->morphToMany(
@@ -165,6 +194,7 @@ trait RelationX
             inverse: $inverse,
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->using($pivot::class)
             ->withPivot($pivotFields)
             ->withTimestamps();
@@ -173,12 +203,20 @@ trait RelationX
         ->withPivot($pivotFields)
         ->withTimestamps();
 >>>>>>> f1d4085 (.)
+=======
+            ->using($pivot::class)
+            ->withPivot($pivotFields)
+            ->withTimestamps();
+>>>>>>> 73eab74 (.)
     }
 
     /**
      * @return MorphPivot
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function guessMorphPivot(string $related, null|string $_class = null)
     {
         $class = $this::class;
@@ -187,6 +225,7 @@ trait RelationX
         $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
         $pivot = app($pivot_class);
         Assert::isInstanceOf($pivot, MorphPivot::class);
+<<<<<<< HEAD
 =======
     public function guessMorphPivot(string $related,?string $class = null)
     {
@@ -197,6 +236,8 @@ trait RelationX
         $pivot = app($pivot_class);
         Assert::isInstanceOf($pivot,MorphPivot::class);
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         return $pivot;
     }
 
@@ -208,6 +249,7 @@ trait RelationX
      * @return Pivot
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function guessPivot(string $related, null|string $class = null)
     {
         $class ??= $this::class;
@@ -216,17 +258,26 @@ trait RelationX
     {
         $class = $class ?? $this::class;
 >>>>>>> f1d4085 (.)
+=======
+    public function guessPivot(string $related, null|string $class = null)
+    {
+        $class ??= $this::class;
+>>>>>>> 73eab74 (.)
         $model_names = [
             class_basename($class),
             class_basename($related),
         ];
         sort($model_names);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $msg = '';
         $pivot_name = implode('', $model_names);
 
         $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
 
+<<<<<<< HEAD
 =======
         $msg='';
         $pivot_name = implode('', $model_names);
@@ -234,6 +285,8 @@ trait RelationX
         $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         $pivot = app($pivot_class);
         Assert::isInstanceOf($pivot, Pivot::class);
 
@@ -241,6 +294,9 @@ trait RelationX
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
     {
         $class ??= $this::class;
@@ -257,6 +313,7 @@ trait RelationX
         if (!class_exists($pivot_class)) {
             if (get_parent_class($class) !== false) {
                 if (!Str::endsWith(get_parent_class($class), 'Morph')) {
+<<<<<<< HEAD
 =======
     public function guessPivotFullClass(string $pivot_name, string $related, ?string $class = null):string{
         $class = $class ?? $this::class;
@@ -275,6 +332,8 @@ trait RelationX
             if(get_parent_class($class)!==false){
                 if(!Str::endsWith(get_parent_class($class),'Morph')){
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
                     $model_names = [
                         class_basename(get_parent_class($class)),
                         class_basename($related),
@@ -282,9 +341,12 @@ trait RelationX
                     sort($model_names);
                     $pivot_name = implode('', $model_names);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
                 }
                 return $this->guessPivotFullClass($pivot_name, $related, get_parent_class($class));
             }

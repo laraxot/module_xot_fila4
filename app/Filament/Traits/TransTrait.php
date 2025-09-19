@@ -19,6 +19,9 @@ trait TransTrait
      * Get translation for a given key.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * @param array<string, bool|float|int|string|null> $params
      * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
      */
@@ -31,6 +34,7 @@ trait TransTrait
         if (is_string($res)) {
             if ($exceptionIfNotExist && $res === $tmp) {
                 throw new Exception('[' . __LINE__ . '][' . class_basename(__CLASS__) . ']');
+<<<<<<< HEAD
 =======
      * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
      */
@@ -44,6 +48,8 @@ trait TransTrait
             if ($exceptionIfNotExist && $res === $tmp) {
                 throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             }
 
             return $res;
@@ -53,11 +59,15 @@ trait TransTrait
             $first = current($res);
             if (is_string($first) || is_numeric($first)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                 return is_string($first) ? $first : ((string) $first);
             }
         }
 
         return 'fix:' . $tmp;
+<<<<<<< HEAD
 =======
                 return is_string($first) ? $first : (string) $first;
             }
@@ -65,6 +75,8 @@ trait TransTrait
 
         return 'fix:'.$tmp;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 
     /**
@@ -76,10 +88,14 @@ trait TransTrait
         $transKey = app(GetTransKeyAction::class)->execute(static::class);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $key = $transKey . '.' . $key;
 =======
         $key = $transKey.'.'.$key;
 >>>>>>> f1d4085 (.)
+=======
+        $key = $transKey . '.' . $key;
+>>>>>>> 73eab74 (.)
         $key = Str::of($key)->replace('.cluster.pages.', '.')->toString();
         if (Str::startsWith($key, 'edit_')) {
             $key = Str::after($key, 'edit_');
@@ -105,10 +121,14 @@ trait TransTrait
         $transKey = app(GetTransKeyAction::class)->execute(static::class);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $key = $transKey . '.' . $key;
 =======
         $key = $transKey.'.'.$key;
 >>>>>>> f1d4085 (.)
+=======
+        $key = $transKey . '.' . $key;
+>>>>>>> 73eab74 (.)
         $key = Str::of($key)->replace('.cluster.pages.', '.')->toString();
         $key = Str::of($key)->replace('::edit_', '::')->toString();
 
@@ -122,6 +142,9 @@ trait TransTrait
     {
         $piece = Str::of($class)->explode('\\')->toArray();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         Assert::string($type = $piece[2], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         $module = Str::of($class)->between('Modules\\', '\\' . $type . '\\')->toString();
 
@@ -130,6 +153,7 @@ trait TransTrait
         $model = Str::of($class)->between('\\' . $type . '\\', '\\')->toString();
         $model_snake = Str::of($model)->snake()->toString();
         $key = $module_low . '::' . $model_snake;
+<<<<<<< HEAD
 =======
         Assert::string($type = $piece[2]);
         $module = Str::of($class)->between('Modules\\', '\\'.$type.'\\')->toString();
@@ -140,6 +164,8 @@ trait TransTrait
         $model_snake = Str::of($model)->snake()->toString();
         $key = $module_low.'::'.$model_snake;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         return $key;
     }
@@ -151,10 +177,14 @@ trait TransTrait
     {
         $class_key = static::getKeyTransClass($class);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $key_full = $class_key . '.' . $key;
 =======
         $key_full = $class_key.'.'.$key;
 >>>>>>> f1d4085 (.)
+=======
+        $key_full = $class_key . '.' . $key;
+>>>>>>> 73eab74 (.)
 
         return trans($key_full);
     }
@@ -163,10 +193,14 @@ trait TransTrait
      * Get translation for a given function name.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function transFunc(string $func, bool $_exceptionIfNotExist = false): string
 =======
     public static function transFunc(string $func, bool $exceptionIfNotExist = false): string
 >>>>>>> f1d4085 (.)
+=======
+    public static function transFunc(string $func, bool $_exceptionIfNotExist = false): string
+>>>>>>> 73eab74 (.)
     {
         $key = static::getKeyTransFunc($func);
         /** @var string|array<int|string,mixed>|null */
@@ -184,10 +218,14 @@ trait TransTrait
         if ($key === $trans) {
             $group = Str::of($key)->before('.')->toString();
 <<<<<<< HEAD
+<<<<<<< HEAD
             $item = Str::of($key)->after($group . '.')->toString();
 =======
             $item = Str::of($key)->after($group.'.')->toString();
 >>>>>>> f1d4085 (.)
+=======
+            $item = Str::of($key)->after($group . '.')->toString();
+>>>>>>> 73eab74 (.)
             $group_arr = trans($group);
             if (is_array($group_arr)) {
                 $trans = Arr::get($group_arr, $item);
@@ -201,10 +239,14 @@ trait TransTrait
             $first = current($trans);
             if (is_string($first) || is_numeric($first)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return is_string($first) ? $first : ((string) $first);
 =======
                 return is_string($first) ? $first : (string) $first;
 >>>>>>> f1d4085 (.)
+=======
+                return is_string($first) ? $first : ((string) $first);
+>>>>>>> 73eab74 (.)
             }
         }
 
@@ -233,20 +275,28 @@ trait TransTrait
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return 'fix:' . $key;
 =======
         return 'fix:'.$key;
 >>>>>>> f1d4085 (.)
+=======
+        return 'fix:' . $key;
+>>>>>>> 73eab74 (.)
     }
 
     /**
      * Get a translation according to an integer value.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, bool|float|int|string|null> $replace
 =======
      * @param  array<string, mixed>  $replace
 >>>>>>> f1d4085 (.)
+=======
+     * @param array<string, bool|float|int|string|null> $replace
+>>>>>>> 73eab74 (.)
      */
     protected function transChoice(string $key, int $number, array $replace = []): string
     {

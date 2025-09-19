@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Modules\Xot\Providers\Filament;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Filament\Panel;
 use Filament\PanelProvider;
 use Illuminate\Support\Arr;
@@ -27,6 +30,7 @@ use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
+<<<<<<< HEAD
 =======
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -49,6 +53,8 @@ use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
 use Webmozart\Assert\Assert;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 abstract class XotBasePanelProvider extends PanelProvider
 {
@@ -68,10 +74,14 @@ abstract class XotBasePanelProvider extends PanelProvider
 
         $main_module = Str::lower(XotData::make()->main_module);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $default = $main_module === $moduleLow;
 =======
         $default = ($main_module === $moduleLow);
 >>>>>>> f1d4085 (.)
+=======
+        $default = $main_module === $moduleLow;
+>>>>>>> 73eab74 (.)
 
         $panel = $panel
             ->default($default)
@@ -85,11 +95,16 @@ abstract class XotBasePanelProvider extends PanelProvider
         app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
         // ---------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
         $panel
             ->maxContentWidth('full')
 =======
         $panel->maxContentWidth('full')
 >>>>>>> f1d4085 (.)
+=======
+        $panel
+            ->maxContentWidth('full')
+>>>>>>> 73eab74 (.)
             ->topNavigation($this->topNavigation)
             ->globalSearch($this->globalSearch)
             ->readOnlyRelationManagersOnResourceViewPagesByDefault(false)
@@ -98,6 +113,9 @@ abstract class XotBasePanelProvider extends PanelProvider
             // ->tenant($teamClass,ownershipRelationship:'users')
             // ->tenant($teamClass)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             ->id($moduleLow . '::admin')
             ->path($moduleLow . '/admin')
             // Configure Filament discovery for module components (unconditional; dirs are expected to exist)
@@ -134,6 +152,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 
        
 
+<<<<<<< HEAD
 =======
             ->id($moduleLow.'::admin')
             ->path($moduleLow.'/admin')
@@ -195,6 +214,8 @@ abstract class XotBasePanelProvider extends PanelProvider
 
        
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         return $panel;
     }
 
@@ -203,9 +224,13 @@ abstract class XotBasePanelProvider extends PanelProvider
         Assert::string($ns = config('modules.namespace'));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $ns . '\\' . $this->module;
 =======
         return $ns.'\\'.$this->module;
 >>>>>>> f1d4085 (.)
+=======
+        return $ns . '\\' . $this->module;
+>>>>>>> 73eab74 (.)
     }
 }

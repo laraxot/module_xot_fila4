@@ -6,6 +6,9 @@ namespace Modules\Xot\Providers\Filament;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Navigation\MenuItem;
@@ -26,6 +29,7 @@ use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
+<<<<<<< HEAD
 =======
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -47,6 +51,8 @@ use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Pages\MainDashboard;
 use Nwidart\Modules\Facades\Module;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 abstract class XotBaseMainPanelProvider extends PanelProvider
 {
@@ -57,6 +63,9 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
         $metatag = MetatagData::make();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $panel->id('admin')->path('admin');
 
         if (!Module::has('Cms')) {
@@ -64,6 +73,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
         }
 
         $panel = $panel->passwordReset()->sidebarFullyCollapsibleOnDesktop()->spa()->profile(null, true);
+<<<<<<< HEAD
 =======
         $panel
             ->id('admin')
@@ -79,11 +89,16 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             ->spa()
             ->profile(null, true);
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
 
         $panel = $panel
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             ->discoverResources(
                 in: app_path('Filament/Resources'),
                 for: 'App\\Filament\\Resources',
@@ -92,22 +107,31 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
                 in: app_path('Filament/Pages'),
                 for: 'App\\Filament\\Pages',
             )
+<<<<<<< HEAD
 =======
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             ->pages([
                 MainDashboard::class,
                 MyProfilePage::class,
             ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             ->discoverWidgets(
                 in: app_path('Filament/Widgets'),
                 for: 'App\\Filament\\Widgets',
             )
+<<<<<<< HEAD
 =======
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             ->widgets([
                 // Widgets\AccountWidget::class,
             ])
@@ -126,6 +150,9 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
                 Authenticate::class,
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $navs = app(GetModulesNavigationItems::class)->execute();
         $panel->navigationItems($navs);
         
@@ -137,6 +164,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             MenuItem::make()
                 ->label(__('user::default.profile.my_profile'))
                 ->url($profile_url)
+<<<<<<< HEAD
 =======
 
         $navs = app(GetModulesNavigationItems::class)->execute();
@@ -152,6 +180,8 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             MenuItem::make()
                 ->url(fn (): string => $profile_url)
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
                 ->icon('heroicon-o-user'),
         ]);
 

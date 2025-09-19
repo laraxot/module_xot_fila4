@@ -11,8 +11,12 @@ enum PdfEngineEnum: string
 {
     case SPIPU = 'spipu';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
     // TODO: Aggiungere altri engine se necessario
 }

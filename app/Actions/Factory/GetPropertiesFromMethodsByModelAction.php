@@ -19,6 +19,9 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -27,6 +30,7 @@ use function Safe\preg_replace;
 /**
  * Classe per estrarre proprietà dai metodi di relazione di un modello.
  *
+<<<<<<< HEAD
 =======
 
 use function Safe\preg_replace;
@@ -38,6 +42,8 @@ use Webmozart\Assert\Assert;
  * Classe per estrarre proprietà dai metodi di relazione di un modello.
  * 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
  * @see https://github.com/mpociot/laravel-test-factory-helper/blob/master/src/Console/GenerateCommand.php#L213
  */
 class GetPropertiesFromMethodsByModelAction
@@ -49,16 +55,23 @@ class GetPropertiesFromMethodsByModelAction
      *
      * @param Model $model Il modello da analizzare
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
      * 
 >>>>>>> f1d4085 (.)
+=======
+     *
+>>>>>>> 73eab74 (.)
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
     {
         Assert::isInstanceOf($model, Model::class, 'Il parametro deve essere un\'istanza di Model');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         $methods = get_class_methods($model);
         Assert::isArray($methods, 'get_class_methods deve restituire un array');
@@ -68,6 +81,7 @@ class GetPropertiesFromMethodsByModelAction
         foreach ($methods as $method) {
             Assert::string($method, 'Il nome del metodo deve essere una stringa');
 
+<<<<<<< HEAD
 =======
         
         $methods = get_class_methods($model);
@@ -79,20 +93,29 @@ class GetPropertiesFromMethodsByModelAction
             Assert::string($method, 'Il nome del metodo deve essere una stringa');
             
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             // Ignoriamo i metodi che iniziano con "get" e quelli ereditati da Model
             if (Str::startsWith($method, 'get') || method_exists(Model::class, $method)) {
                 continue;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
             // Utilizziamo la reflection per ispezionare il codice
             try {
                 $reflection = new ReflectionMethod($model, $method);
                 $filename = $reflection->getFileName();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
                 if ($filename === false) {
                     continue; // Saltiamo i metodi senza file (es. metodi interni)
@@ -118,6 +141,7 @@ class GetPropertiesFromMethodsByModelAction
                     'La linea finale deve essere maggiore o uguale a quella iniziale',
                 );
 
+<<<<<<< HEAD
 =======
                 
                 if ($filename === false) {
@@ -137,11 +161,16 @@ class GetPropertiesFromMethodsByModelAction
                 Assert::greaterThanEq($endLine, $startLine, 'La linea finale deve essere maggiore o uguale a quella iniziale');
                 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
                 // Leggiamo il contenuto del metodo
                 $code = '';
                 while ($file->key() < $endLine) {
                     $currentLine = $file->current();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
                     // Assicuriamoci che la linea corrente sia una stringa
                     Assert::string($currentLine, 'La linea corrente deve essere una stringa');
@@ -169,6 +198,7 @@ class GetPropertiesFromMethodsByModelAction
 
                 // Cerchiamo relazioni belongsTo
                 $this->extractBelongsToRelations($codeStr, $model, $method, $data);
+<<<<<<< HEAD
 =======
                     
                     // Assicuriamoci che la linea corrente sia una stringa
@@ -199,6 +229,8 @@ class GetPropertiesFromMethodsByModelAction
                 $this->extractBelongsToRelations($codeStr, $model, $method, $data);
                 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             } catch (Exception $e) {
                 // Se c'è un errore nell'analisi del metodo, lo ignoriamo e passiamo al successivo
                 continue;
@@ -208,10 +240,14 @@ class GetPropertiesFromMethodsByModelAction
         return $data;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
     /**
      * Estrae le relazioni belongsTo dal codice.
      *
@@ -220,6 +256,9 @@ class GetPropertiesFromMethodsByModelAction
      * @param string $method Il nome del metodo
      * @param array<string, string> &$data L'array in cui salvare i dati estratti
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      *
      * @return void
      */
@@ -236,6 +275,7 @@ class GetPropertiesFromMethodsByModelAction
             // Chiamiamo il metodo per ottenere la relazione
             $relationObj = $model->$method();
 
+<<<<<<< HEAD
 =======
      * 
      * @return void
@@ -258,20 +298,29 @@ class GetPropertiesFromMethodsByModelAction
             $relationObj = $model->$method();
             
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             // Verifichiamo che sia effettivamente una relazione
             if (!($relationObj instanceof Relation)) {
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
             // Verifichiamo che il metodo getForeignKeyName esista
             if (!method_exists($relationObj, 'getForeignKeyName')) {
                 throw new Exception('Il metodo getForeignKeyName non esiste nella relazione');
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
             // Otteniamo il nome della chiave esterna
             $foreignKeyName = $relationObj->getForeignKeyName();
@@ -287,6 +336,7 @@ class GetPropertiesFromMethodsByModelAction
 
             $type = 'factory(' . $relatedClass . '::class)';
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+<<<<<<< HEAD
 =======
             
             // Otteniamo il nome della chiave esterna
@@ -305,6 +355,8 @@ class GetPropertiesFromMethodsByModelAction
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
             
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         } catch (Exception $e) {
             // In caso di errore, ignoriamo la relazione
             return;

@@ -6,19 +6,27 @@ namespace Modules\Xot\Filament\Resources\RelationManagers;
 
 use Filament\Schemas\Schema;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Override;
+>>>>>>> 73eab74 (.)
 use Filament\Actions\EditAction;
 use Filament\Actions\DetachAction;
 use Filament\Actions\DetachBulkAction;
 use Filament\Actions\AttachAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Actions\CreateAction;
 =======
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> f1d4085 (.)
+=======
+use Filament\Actions\CreateAction;
+>>>>>>> 73eab74 (.)
 use Filament\Resources\RelationManagers\RelationManager as FilamentRelationManager;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -53,12 +61,16 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     final public function form(Schema $schema): Schema
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $schema->components($this->getFormSchema());
 =======
         return $schema->components(
             $this->getFormSchema()
         );
 >>>>>>> f1d4085 (.)
+=======
+        return $schema->components($this->getFormSchema());
+>>>>>>> 73eab74 (.)
     }
 
     public function getFormSchema(): array
@@ -66,6 +78,9 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         return $this->getResource()::getFormSchema();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
     //*
     #[Override]
@@ -73,6 +88,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     {
         $index = Arr::get($this->getResource()::getPages(), 'index');
         if (!$index) {
+<<<<<<< HEAD
 =======
 //*
     public function getTableColumns(): array
@@ -80,10 +96,13 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         $index=Arr::get($this->getResource()::getPages(),'index');
         if(!$index){
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             //throw new \Exception('Index page not found');
             return [];
         }
         /** @phpstan-ignore method.nonObject */
+<<<<<<< HEAD
 <<<<<<< HEAD
         $index_page = $index->getPage();
 
@@ -93,17 +112,26 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         
         if(!method_exists($index_page,'getTableColumns')){
 >>>>>>> f1d4085 (.)
+=======
+        $index_page = $index->getPage();
+
+        if (!method_exists($index_page, 'getTableColumns')) {
+>>>>>>> 73eab74 (.)
             //throw new \Exception('method  getTableColumns on '.print_r($index_page,true).' not found');
             return [];
         }
         /** @phpstan-ignore argument.type */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $res = app($index_page)->getTableColumns();
 
         return $res;
     }
 
     //*/
+<<<<<<< HEAD
 =======
         $res= app($index_page)->getTableColumns();
 
@@ -111,6 +139,8 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     }
 //*/
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     public function getTableActions(): array
     {
         return [
@@ -131,6 +161,9 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     public function getTableHeaderActions(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $actions = [];
         $resource = static::class;
         // @phpstan-ignore function.alreadyNarrowedType
@@ -150,11 +183,14 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 ->visible(fn(null|Model $_record): bool => $resource::canCreate());
         }
         return $actions;
+<<<<<<< HEAD
 =======
         return [
             AttachAction::make(),
         ];
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 
     public function getTableFilters(): array
@@ -165,11 +201,16 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     public function getResource(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         // @phpstan-ignore property.staticAccess
         $resource = static::$resource;
 =======
         $resource = static::$resourceClass;
 >>>>>>> f1d4085 (.)
+=======
+        // @phpstan-ignore property.staticAccess
+        $resource = static::$resource;
+>>>>>>> 73eab74 (.)
         Assert::classExists($resource);
         Assert::isAOf($resource, XotBaseResource::class);
 
@@ -177,14 +218,20 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     //public function getRelationship(): \Illuminate\Database\Eloquent\Relations\Relation|\Illuminate\Database\Eloquent\Builder
     //{
     //    return parent::getRelationship();
     //}
+<<<<<<< HEAD
 =======
     public function getRelationship(): Relation|Builder
     {
         return parent::getRelationship();
     }
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 }

@@ -9,9 +9,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Header;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Exception;
+>>>>>>> 73eab74 (.)
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
 use Illuminate\Database\Eloquent\Builder;
@@ -27,10 +31,14 @@ class ExportXlsLazyAction extends Action
     {
         parent::setUp();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
         $this->label(__('xot::actions.export_xls.label'))
             ->tooltip(__('xot::actions.export_xls.tooltip'))
             ->icon(__('xot::actions.export_xls.icon'))
@@ -42,14 +50,20 @@ class ExportXlsLazyAction extends Action
             ->requiresConfirmation()
             ->action(static function (ListRecords $livewire) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                 $filename =
                     class_basename($livewire) .
                     '-' .
                     collect($livewire->tableFilters)->flatten()->implode('-') .
                     '.xlsx';
+<<<<<<< HEAD
 =======
                 $filename = class_basename($livewire).'-'.collect($livewire->tableFilters)->flatten()->implode('-').'.xlsx';
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
 
@@ -74,6 +88,9 @@ class ExportXlsLazyAction extends Action
 
                 $lazy = $livewire->getFilteredTableQuery();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                 if ($lazy === null) {
                     throw new Exception('Query is null');
                 }
@@ -85,6 +102,7 @@ class ExportXlsLazyAction extends Action
                     $stringFields = array_values($fields);
 
                     return app(ExportXlsByQuery::class)->execute($lazy, $filename, $stringFields, null);
+<<<<<<< HEAD
 =======
                 
                 if ($lazy->count() < 7) {
@@ -100,12 +118,17 @@ class ExportXlsLazyAction extends Action
                         null
                     );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
                 }
 
                 $lazyCursor = $lazy->cursor();
 
                 if ($lazyCursor->count() > 3000) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                     return app(ExportXlsStreamByLazyCollection::class)
                         ->execute($lazyCursor, $filename, $transKey, array_values($fields));
                 }
@@ -115,6 +138,7 @@ class ExportXlsLazyAction extends Action
     }
 
     public static function getDefaultName(): null|string
+<<<<<<< HEAD
 =======
                     return app(ExportXlsStreamByLazyCollection::class)->execute(
                         $lazyCursor, 
@@ -134,6 +158,8 @@ class ExportXlsLazyAction extends Action
 
     public static function getDefaultName(): ?string
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     {
         return 'export_xls';
     }

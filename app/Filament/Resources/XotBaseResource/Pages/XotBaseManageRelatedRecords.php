@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\XotBaseResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 use Filament\Actions\CreateAction;
@@ -20,6 +23,7 @@ use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 =======
 use Filament\Actions\AttachAction;
 use Filament\Actions\Action;
@@ -40,6 +44,8 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -76,11 +82,15 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * @return array<string, TextColumn>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     #[Override]
     public function getTableColumns(): array
     {
         return [
             'id' => TextColumn::make('id')->label('ID')->sortable(),
+<<<<<<< HEAD
 =======
     public function getTableColumns(): array
     {
@@ -90,14 +100,19 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
                 ->sortable(),
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             'name' => TextColumn::make('name')
                 ->label('Nome')
                 ->searchable()
                 ->sortable(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             'created_at' => TextColumn::make('created_at')
                 ->label('Data Creazione')
                 ->dateTime('d/m/Y H:i')
@@ -113,6 +128,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      */
     public function getTableHeaderActions(): array
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return [
             'create' => CreateAction::make()->label('Crea Nuovo')->disableCreateAnother(),
@@ -150,6 +166,11 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         }
         return $actions;
 >>>>>>> f1d4085 (.)
+=======
+        return [
+            'create' => CreateAction::make()->label('Crea Nuovo')->disableCreateAnother(),
+        ];
+>>>>>>> 73eab74 (.)
     }
 
     /**
@@ -165,6 +186,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
                 ->label('Modifica')
                 ->icon('heroicon-o-pencil')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
 =======
                 ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
@@ -173,6 +195,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
             
 
 >>>>>>> f1d4085 (.)
+=======
+                ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+>>>>>>> 73eab74 (.)
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')
@@ -196,6 +221,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * ]);
      * }.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      *
      * public function table(Table $table): Table
      * {
@@ -211,6 +239,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * ]);
      * }
      */
+<<<<<<< HEAD
 =======
      
     public function table(Table $table): Table
@@ -228,16 +257,22 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     }
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     /**
      * Configura il form per la creazione/modifica dei record correlati.
      */
     public function form(Schema $form): Schema
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<Component> $schema */
 =======
         /** @var array<\Filament\Schemas\Components\Component> $schema */
 >>>>>>> f1d4085 (.)
+=======
+        /** @var array<Component> $schema */
+>>>>>>> 73eab74 (.)
         $schema = $this->getFormSchema();
         return $form->components($schema);
     }
@@ -261,10 +296,14 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return Str::of($relationship)
             ->title()
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->prepend($titleString . ' - ')
 =======
             ->prepend($titleString.' - ')
 >>>>>>> f1d4085 (.)
+=======
+            ->prepend($titleString . ' - ')
+>>>>>>> 73eab74 (.)
             ->toString();
     }
 }

@@ -44,9 +44,13 @@ class PwaData extends Data
     public static function make(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new static();
 =======
         return new static;
 >>>>>>> f1d4085 (.)
+=======
+        return new static();
+>>>>>>> 73eab74 (.)
     }
 }

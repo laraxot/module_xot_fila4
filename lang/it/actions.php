@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     // NAVIGATION & STRUCTURE
     'navigation' => [
         'label' => 'Azioni',
@@ -40,7 +43,10 @@ return [
         'success_operation' => 'Operazione completata con successo',
     ],
     // LEGACY SUPPORT - Compatibilità con codice esistente
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     'export_xls' => 'Esporta Dati',
 ];

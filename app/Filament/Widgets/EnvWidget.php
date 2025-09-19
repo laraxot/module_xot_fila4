@@ -5,9 +5,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Filament\Schemas\Components\Component;
+>>>>>>> 73eab74 (.)
 use Filament\Actions\Contracts\HasActions;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Schemas\Schema;
@@ -23,6 +27,7 @@ use Modules\Xot\Datas\EnvData;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Schema $form
  */
 class EnvWidget extends Widget implements HasForms, HasActions
@@ -31,16 +36,25 @@ class EnvWidget extends Widget implements HasForms, HasActions
  */
 class EnvWidget extends Widget implements HasForms, HasActions, HasActions
 >>>>>>> f1d4085 (.)
+=======
+ * @property Schema $form
+ */
+class EnvWidget extends Widget implements HasForms, HasActions
+>>>>>>> 73eab74 (.)
 {
     use InteractsWithActions;
     use InteractsWithForms;
 
     /** @var array<string, mixed>|null */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|array $data = [];
 =======
     public ?array $data = [];
 >>>>>>> f1d4085 (.)
+=======
+    public null|array $data = [];
+>>>>>>> 73eab74 (.)
 
     public array $only = [];
 
@@ -58,6 +72,7 @@ class EnvWidget extends Widget implements HasForms, HasActions, HasActions
     public function form(Schema $schema): Schema
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
 =======
         return $schema
@@ -65,15 +80,22 @@ class EnvWidget extends Widget implements HasForms, HasActions, HasActions
             ->columns(1)
             ->statePath('data');
 >>>>>>> f1d4085 (.)
+=======
+        return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
+>>>>>>> 73eab74 (.)
     }
 
     public function submit(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_array($this->data)) {
 =======
         if (! is_array($this->data)) {
 >>>>>>> f1d4085 (.)
+=======
+        if (!is_array($this->data)) {
+>>>>>>> 73eab74 (.)
             return;
         }
         EnvData::make()->update($this->data);
@@ -82,6 +104,9 @@ class EnvWidget extends Widget implements HasForms, HasActions, HasActions
             ->success()
             ->send();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         /*
          * dddx([
@@ -93,6 +118,7 @@ class EnvWidget extends Widget implements HasForms, HasActions, HasActions
 
     /**
      * @return array<Component>
+<<<<<<< HEAD
 =======
         /*
         dddx([
@@ -105,18 +131,24 @@ class EnvWidget extends Widget implements HasForms, HasActions, HasActions
     /**
      * @return array<\Filament\Schemas\Components\Component>
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
      */
     public function getFormSchema(): array
     {
         $all = [
             'app_url' => TextInput::make('app_url')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                 ->placeholder('http://localhost')
                 ->helperText('Required for file uploads and other internal configs')
                 ->required(),
             'debugbar_enabled' => Toggle::make('debugbar_enabled')->helperText(
                 'Enable/Disable debug mode to help debug errors',
             ),
+<<<<<<< HEAD
 =======
 
                 ->placeholder('http://localhost')
@@ -126,6 +158,8 @@ class EnvWidget extends Widget implements HasForms, HasActions, HasActions
 
                 ->helperText('Enable/Disable debug mode to help debug errors'),
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             'google_maps_api_key' => TextInput::make('google_maps_api_key')
                 ->placeholder('AIzaSyAuB_...')
                 ->helperText('google maps api key'),
@@ -136,10 +170,14 @@ class EnvWidget extends Widget implements HasForms, HasActions, HasActions
 
         /**
 <<<<<<< HEAD
+<<<<<<< HEAD
          * @var array<Component>
 =======
          * @var array<\Filament\Schemas\Components\Component>
 >>>>>>> f1d4085 (.)
+=======
+         * @var array<Component>
+>>>>>>> 73eab74 (.)
          */
         $fields = Arr::only($all, $this->only);
 

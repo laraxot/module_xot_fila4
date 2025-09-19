@@ -8,12 +8,16 @@ namespace Modules\Xot\Actions\Export;
 
 use Illuminate\Contracts\View\View;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\ViewExport;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -22,6 +26,8 @@ use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\ViewExport;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 /**
  * Classe per l'esportazione di viste in formato Excel.
@@ -45,10 +51,14 @@ class ExportXlsByView
         array $fields,
         string $filename = 'test.xlsx',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         null|string $transKey = null,
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(strval(...), array_values($fields));
+<<<<<<< HEAD
 =======
         ?string $transKey = null,
     ): BinaryFileResponse {
@@ -57,15 +67,21 @@ class ExportXlsByView
                 return strval($field);
             }, array_values($fields));
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         $export = new ViewExport(
             view: $view,
             transKey: $transKey,
 <<<<<<< HEAD
+<<<<<<< HEAD
             fields: $stringFields,
 =======
             fields: $stringFields
 >>>>>>> f1d4085 (.)
+=======
+            fields: $stringFields,
+>>>>>>> 73eab74 (.)
         );
 
         return Excel::download($export, $filename);

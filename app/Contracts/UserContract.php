@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Modules\Xot\Contracts;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Filament\Support\Contracts\HasLabel;
 use Spatie\Permission\Contracts\Permission;
 use Override;
@@ -29,6 +32,7 @@ use Spatie\Permission\Exceptions\GuardDoesNotMatch;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 use Spatie\Permission\Exceptions\RoleAlreadyExists;
 use Spatie\Permission\Exceptions\RoleDoesNotExist;
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Collection;
 use BackedEnum;
@@ -49,6 +53,8 @@ use Spatie\MediaLibrary\MediaCollections\FileAdder;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 // use Filament\Models\Contracts\HasTenants;
 /**
@@ -76,6 +82,9 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 interface UserContract extends
     Authenticatable,
     Authorizable,
@@ -93,6 +102,7 @@ interface UserContract extends
      * public function areas();
      * public function avatar();
      */
+<<<<<<< HEAD
 =======
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract,HasMedia
 {
@@ -103,6 +113,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     public function avatar();
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     public function profile(): HasOne;
 
     /**
@@ -135,22 +147,32 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * @return mixed|int|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 >>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
     public function getKey();
 
     /**
      * Determine if the model has (one of) the given role(s).
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function hasRole(
         string|int|array|Role|Collection $roles,
         null|string $guard = null,
     ): bool;
+<<<<<<< HEAD
 =======
     public function hasRole(string|int|array|Role|Collection $roles, ?string $guard = null): bool;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
     /**
      * Assign the given role to the model.
@@ -168,9 +190,13 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      */
     public function removeRole($role);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
     /**
      * Get the current access token being used by the user.
      *
@@ -190,15 +216,21 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 
     // public function canAccessSocialite(): bool;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     /**
      * Get all consents for the model (polymorphic).
      *
      */
     //public function consents(): MorphMany;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     /**
      * Determine if the role may perform the given permission.
      *
@@ -207,7 +239,10 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
+<<<<<<< HEAD
 =======
     
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 }

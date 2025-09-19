@@ -6,9 +6,13 @@ namespace Modules\Xot\Models;
 
 use Sushi\Sushi;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Override;
+>>>>>>> 73eab74 (.)
 use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
@@ -66,6 +70,9 @@ class Log extends BaseModel
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function getFileContentAttribute(null|string $value): null|string
     {
         return File::get(storage_path('logs/' . $this->id . '.log'));
@@ -73,6 +80,7 @@ class Log extends BaseModel
 
     /** @return array<string, string> */
     #[Override]
+<<<<<<< HEAD
 =======
     public function getFileContentAttribute(?string $value): ?string
     {
@@ -81,12 +89,15 @@ class Log extends BaseModel
 
     /** @return array<string, string> */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'name' => 'string',
             'size' => 'integer',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -98,6 +109,11 @@ class Log extends BaseModel
             'deleted_at' => 'datetime',
 
 >>>>>>> f1d4085 (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 73eab74 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -107,6 +123,9 @@ class Log extends BaseModel
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  * dddx([
  * 'getRelativePath' => $file->getRelativePath(), // ""
  * 'getRelativePathname' => $file->getRelativePathname(),
@@ -165,6 +184,7 @@ class Log extends BaseModel
  * "getLinkTarget" => "C:\var\www\_bases\base_camping_fila3\laravel\storage\logs\laravel-2024-03-01.log"
  * "getRealPath" => "C:\var\www\_bases\base_camping_fila3\laravel\storage\logs\laravel-2024-03-01.log"
  */
+<<<<<<< HEAD
 =======
            dddx([
                'getRelativePath' => $file->getRelativePath(), // ""
@@ -225,3 +245,5 @@ class Log extends BaseModel
    "getRealPath" => "C:\var\www\_bases\base_camping_fila3\laravel\storage\logs\laravel-2024-03-01.log"
    */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)

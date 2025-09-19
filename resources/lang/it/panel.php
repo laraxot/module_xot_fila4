@@ -1,8 +1,11 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
+=======
+>>>>>>> f1d4085 (.)
 return [
     'title' => 'Pannello di Amministrazione',
     'description' => 'Gestione del pannello di amministrazione',
@@ -104,3 +107,7 @@ return [
         'deleted_at' => 'Eliminato il',
     ],
 ];
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)

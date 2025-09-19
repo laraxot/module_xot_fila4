@@ -33,7 +33,14 @@ class ParsePrintPageStringCommand extends Command
      *
      * @return void
      */
+<<<<<<< HEAD
     
+=======
+    public function __construct()
+    {
+        parent::__construct();
+    }
+>>>>>>> f1d4085 (.)
 
     /**
      * Execute the console command.
@@ -41,7 +48,11 @@ class ParsePrintPageStringCommand extends Command
     public function handle(): void
     {
         $str = $this->argument('str');
+<<<<<<< HEAD
         if (!is_string($str)) {
+=======
+        if (! is_string($str)) {
+>>>>>>> f1d4085 (.)
             throw new Exception('argument str must be a string');
         }
         dddx(app(ParsePrintPageStringAction::class)->execute($str));

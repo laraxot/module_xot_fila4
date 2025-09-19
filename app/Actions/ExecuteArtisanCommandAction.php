@@ -20,7 +20,11 @@ class ExecuteArtisanCommandAction
 
     /**
      * Lista dei comandi consentiti per motivi di sicurezza.
+<<<<<<< HEAD
      *
+=======
+     * 
+>>>>>>> f1d4085 (.)
      * @var array<int, string>
      */
     private array $allowedCommands = [
@@ -51,8 +55,13 @@ class ExecuteArtisanCommandAction
     public function execute(string $command): array
     {
         Assert::stringNotEmpty($command, 'Il comando non può essere vuoto');
+<<<<<<< HEAD
 
         if (!$this->isCommandAllowed($command)) {
+=======
+        
+        if (! $this->isCommandAllowed($command)) {
+>>>>>>> f1d4085 (.)
             throw new RuntimeException("Comando non consentito: {$command}");
         }
 
@@ -71,20 +80,34 @@ class ExecuteArtisanCommandAction
             // Cattura l'output in tempo reale
             while ($process->running()) {
                 $data = $process->latestOutput();
+<<<<<<< HEAD
                 if (!empty($data)) {
                     $formattedData = trim($data);
                     if (!empty($formattedData)) {
+=======
+                if (! empty($data)) {
+                    $formattedData = trim($data);
+                    if (! empty($formattedData)) {
+>>>>>>> f1d4085 (.)
                         $output[] = $formattedData;
                         Event::dispatch('artisan-command.output', [$command, $formattedData]);
                     }
                 }
 
                 $errorData = $process->latestErrorOutput();
+<<<<<<< HEAD
                 if (!empty($errorData)) {
                     $formattedError = trim($errorData);
                     if (!empty($formattedError)) {
                         $output[] = '[ERROR] ' . $formattedError;
                         Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $formattedError]);
+=======
+                if (! empty($errorData)) {
+                    $formattedError = trim($errorData);
+                    if (! empty($formattedError)) {
+                        $output[] = '[ERROR] '.$formattedError;
+                        Event::dispatch('artisan-command.output', [$command, '[ERROR] '.$formattedError]);
+>>>>>>> f1d4085 (.)
                     }
                 }
 
@@ -95,15 +118,25 @@ class ExecuteArtisanCommandAction
 
             // Cattura qualsiasi output residuo
             $finalOutput = trim($result->output());
+<<<<<<< HEAD
             if (!empty($finalOutput)) {
+=======
+            if (! empty($finalOutput)) {
+>>>>>>> f1d4085 (.)
                 $output[] = $finalOutput;
                 Event::dispatch('artisan-command.output', [$command, $finalOutput]);
             }
 
             $finalErrorOutput = trim($result->errorOutput());
+<<<<<<< HEAD
             if (!empty($finalErrorOutput)) {
                 $output[] = '[ERROR] ' . $finalErrorOutput;
                 Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $finalErrorOutput]);
+=======
+            if (! empty($finalErrorOutput)) {
+                $output[] = '[ERROR] '.$finalErrorOutput;
+                Event::dispatch('artisan-command.output', [$command, '[ERROR] '.$finalErrorOutput]);
+>>>>>>> f1d4085 (.)
             }
 
             if ($result->successful()) {
@@ -123,9 +156,15 @@ class ExecuteArtisanCommandAction
         } catch (Throwable $e) {
             Event::dispatch('artisan-command.error', [$command, $e->getMessage()]);
             throw new RuntimeException(
+<<<<<<< HEAD
                 "Errore durante l'esecuzione del comando {$command}: {$e->getMessage()}",
                 (int) $e->getCode(),
                 $e,
+=======
+                "Errore durante l'esecuzione del comando {$command}: {$e->getMessage()}", 
+                (int) $e->getCode(), 
+                $e
+>>>>>>> f1d4085 (.)
             );
         }
     }

@@ -11,10 +11,17 @@ use Webmozart\Assert\Assert;
 
 /**
  * Action per gestire in modo sicuro i cast degli attributi Eloquent.
+<<<<<<< HEAD
  *
  * Questa action sostituisce completamente l'uso di property_exists() con modelli Eloquent
  * fornendo metodi robusti e type-safe per l'accesso agli attributi.
  *
+=======
+ * 
+ * Questa action sostituisce completamente l'uso di property_exists() con modelli Eloquent
+ * fornendo metodi robusti e type-safe per l'accesso agli attributi.
+ * 
+>>>>>>> f1d4085 (.)
  * Principi applicati:
  * - DRY: Evita duplicazione di logica di cast attributi
  * - KISS: Metodi semplici e diretti
@@ -22,7 +29,11 @@ use Webmozart\Assert\Assert;
  * - Laravel Way: Rispetta l'architettura Eloquent
  * - Assert: Utilizza webmozart/assert per validazioni robuste
  * - NO property_exists: Mai utilizzare property_exists con modelli Eloquent
+<<<<<<< HEAD
  *
+=======
+ * 
+>>>>>>> f1d4085 (.)
  * @package Modules\Xot\Actions\Cast
  */
 class SafeEloquentCastAction
@@ -41,7 +52,11 @@ class SafeEloquentCastAction
     {
         Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> f1d4085 (.)
         // Usa getAttribute invece di property_exists per evitare falsi positivi
         return $model->getAttribute($attribute) !== null;
     }
@@ -58,7 +73,11 @@ class SafeEloquentCastAction
     {
         Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> f1d4085 (.)
         $value = $model->getAttribute($attribute);
         return $value !== null && $value !== '';
     }
@@ -72,6 +91,7 @@ class SafeEloquentCastAction
      *
      * @return string Il valore dell'attributo convertito in string
      */
+<<<<<<< HEAD
     public function getStringAttribute(Model $model, string $attribute, null|string $default = ''): string
     {
         Assert::isInstanceOf($model, Model::class);
@@ -83,6 +103,19 @@ class SafeEloquentCastAction
             return $default ?? '';
         }
 
+=======
+    public function getStringAttribute(Model $model, string $attribute, ?string $default = ''): string
+    {
+        Assert::isInstanceOf($model, Model::class);
+        Assert::stringNotEmpty($attribute);
+        
+        $value = $model->getAttribute($attribute);
+        
+        if ($value === null) {
+            return $default ?? '';
+        }
+        
+>>>>>>> f1d4085 (.)
         return (string) $value;
     }
 
@@ -95,6 +128,7 @@ class SafeEloquentCastAction
      *
      * @return int Il valore dell'attributo convertito in int
      */
+<<<<<<< HEAD
     public function getIntAttribute(Model $model, string $attribute, null|int $default = 0): int
     {
         Assert::isInstanceOf($model, Model::class);
@@ -106,6 +140,19 @@ class SafeEloquentCastAction
             return $default ?? 0;
         }
 
+=======
+    public function getIntAttribute(Model $model, string $attribute, ?int $default = 0): int
+    {
+        Assert::isInstanceOf($model, Model::class);
+        Assert::stringNotEmpty($attribute);
+        
+        $value = $model->getAttribute($attribute);
+        
+        if ($value === null) {
+            return $default ?? 0;
+        }
+        
+>>>>>>> f1d4085 (.)
         return app(SafeIntCastAction::class)->execute($value, $default);
     }
 
@@ -118,6 +165,7 @@ class SafeEloquentCastAction
      *
      * @return float Il valore dell'attributo convertito in float
      */
+<<<<<<< HEAD
     public function getFloatAttribute(Model $model, string $attribute, null|float $default = 0.0): float
     {
         Assert::isInstanceOf($model, Model::class);
@@ -129,6 +177,19 @@ class SafeEloquentCastAction
             return $default ?? 0.0;
         }
 
+=======
+    public function getFloatAttribute(Model $model, string $attribute, ?float $default = 0.0): float
+    {
+        Assert::isInstanceOf($model, Model::class);
+        Assert::stringNotEmpty($attribute);
+        
+        $value = $model->getAttribute($attribute);
+        
+        if ($value === null) {
+            return $default ?? 0.0;
+        }
+        
+>>>>>>> f1d4085 (.)
         return app(SafeFloatCastAction::class)->execute($value, $default);
     }
 
@@ -141,6 +202,7 @@ class SafeEloquentCastAction
      *
      * @return bool Il valore dell'attributo convertito in boolean
      */
+<<<<<<< HEAD
     public function getBooleanAttribute(Model $model, string $attribute, null|bool $default = false): bool
     {
         Assert::isInstanceOf($model, Model::class);
@@ -152,6 +214,19 @@ class SafeEloquentCastAction
             return $default ?? false;
         }
 
+=======
+    public function getBooleanAttribute(Model $model, string $attribute, ?bool $default = false): bool
+    {
+        Assert::isInstanceOf($model, Model::class);
+        Assert::stringNotEmpty($attribute);
+        
+        $value = $model->getAttribute($attribute);
+        
+        if ($value === null) {
+            return $default ?? false;
+        }
+        
+>>>>>>> f1d4085 (.)
         return app(SafeBooleanCastAction::class)->execute($value, $default);
     }
 
@@ -164,6 +239,7 @@ class SafeEloquentCastAction
      *
      * @return array Il valore dell'attributo convertito in array
      */
+<<<<<<< HEAD
     public function getArrayAttribute(Model $model, string $attribute, null|array $default = []): array
     {
         Assert::isInstanceOf($model, Model::class);
@@ -175,6 +251,19 @@ class SafeEloquentCastAction
             return $default ?? [];
         }
 
+=======
+    public function getArrayAttribute(Model $model, string $attribute, ?array $default = []): array
+    {
+        Assert::isInstanceOf($model, Model::class);
+        Assert::stringNotEmpty($attribute);
+        
+        $value = $model->getAttribute($attribute);
+        
+        if ($value === null) {
+            return $default ?? [];
+        }
+        
+>>>>>>> f1d4085 (.)
         return app(SafeArrayCastAction::class)->execute($value, $default);
     }
 
@@ -193,14 +282,22 @@ class SafeEloquentCastAction
         Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> f1d4085 (.)
         return match ($type) {
             'string' => $this->getStringAttribute($model, $attribute, is_string($default) ? $default : ''),
             'int' => $this->getIntAttribute($model, $attribute, is_int($default) ? $default : 0),
             'float' => $this->getFloatAttribute($model, $attribute, is_float($default) ? $default : 0.0),
             'bool' => $this->getBooleanAttribute($model, $attribute, is_bool($default) ? $default : false),
             'array' => $this->getArrayAttribute($model, $attribute, is_array($default) ? $default : []),
+<<<<<<< HEAD
             default => throw new InvalidArgumentException("Tipo non supportato: {$type}"),
+=======
+            default => throw new InvalidArgumentException("Tipo non supportato: {$type}")
+>>>>>>> f1d4085 (.)
         };
     }
 
@@ -217,7 +314,11 @@ class SafeEloquentCastAction
     {
         Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> f1d4085 (.)
         $actualValue = $model->getAttribute($attribute);
         return $actualValue === $expectedValue;
     }
@@ -234,15 +335,24 @@ class SafeEloquentCastAction
      * @return mixed Il valore dell'attributo validato e convertito
      */
     public function getValidatedAttribute(
+<<<<<<< HEAD
         Model $model,
         string $attribute,
         string $type,
         null|callable $validator = null,
         mixed $default = null,
+=======
+        Model $model, 
+        string $attribute, 
+        string $type, 
+        ?callable $validator = null,
+        mixed $default = null
+>>>>>>> f1d4085 (.)
     ): mixed {
         Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);
+<<<<<<< HEAD
 
         $value = $this->getTypedAttribute($model, $attribute, $type, $default);
 
@@ -250,6 +360,15 @@ class SafeEloquentCastAction
             return $default;
         }
 
+=======
+        
+        $value = $this->getTypedAttribute($model, $attribute, $type, $default);
+        
+        if ($validator !== null && !$validator($value)) {
+            return $default;
+        }
+        
+>>>>>>> f1d4085 (.)
         return $value;
     }
 
@@ -266,6 +385,7 @@ class SafeEloquentCastAction
     {
         Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
+<<<<<<< HEAD
 
         $value = $model->getAttribute($attribute);
 
@@ -273,6 +393,15 @@ class SafeEloquentCastAction
             return false;
         }
 
+=======
+        
+        $value = $model->getAttribute($attribute);
+        
+        if ($value === null) {
+            return false;
+        }
+        
+>>>>>>> f1d4085 (.)
         return (bool) $condition($value);
     }
 
@@ -292,12 +421,17 @@ class SafeEloquentCastAction
         string $primaryAttribute,
         string $fallbackAttribute,
         string $type,
+<<<<<<< HEAD
         mixed $default = null,
+=======
+        mixed $default = null
+>>>>>>> f1d4085 (.)
     ): mixed {
         Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($primaryAttribute);
         Assert::stringNotEmpty($fallbackAttribute);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);
+<<<<<<< HEAD
 
         $primaryValue = $model->getAttribute($primaryAttribute);
 
@@ -305,6 +439,15 @@ class SafeEloquentCastAction
             return $this->getTypedAttribute($model, $primaryAttribute, $type, $default);
         }
 
+=======
+        
+        $primaryValue = $model->getAttribute($primaryAttribute);
+        
+        if ($primaryValue !== null) {
+            return $this->getTypedAttribute($model, $primaryAttribute, $type, $default);
+        }
+        
+>>>>>>> f1d4085 (.)
         return $this->getTypedAttribute($model, $fallbackAttribute, $type, $default);
     }
 

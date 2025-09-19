@@ -6,7 +6,10 @@ namespace Modules\Xot\States\Transitions;
 
 use TypeError;
 use Webmozart\Assert\InvalidArgumentException;
+<<<<<<< HEAD
 use Filament\Notifications\Notification as FilamentNotification;
+=======
+>>>>>>> f1d4085 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Str;
@@ -14,6 +17,7 @@ use Modules\Notify\Datas\RecordNotificationData;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\ModelStates\Transition;
+<<<<<<< HEAD
 
 abstract class XotBaseTransition extends Transition
 {
@@ -21,6 +25,15 @@ abstract class XotBaseTransition extends Transition
         public Model $record,
         public null|string $message = '',
     ) {}
+=======
+use Filament\Notifications\Notification as FilamentNotification;
+
+abstract class XotBaseTransition extends Transition
+{
+    public function __construct(public Model $record, public ?string $message = '')
+    {
+    }
+>>>>>>> f1d4085 (.)
 
     public function handle(): Model
     {
@@ -29,7 +42,11 @@ abstract class XotBaseTransition extends Transition
 
         $stateNamespace = Str::of($class)->beforeLast('\Transitions\\')->toString();
         $stateClassName = Str::of($class)->afterLast('To')->toString();
+<<<<<<< HEAD
         $newStateClass = $stateNamespace . '\\' . $stateClassName;
+=======
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+>>>>>>> f1d4085 (.)
 
         /* @phpstan-ignore-next-line */
         $this->record->state = new $newStateClass($this->record);
@@ -43,7 +60,13 @@ abstract class XotBaseTransition extends Transition
         $data = $this->getNotificationData();
         $recipients = $this->getNotificationRecipients();
         foreach ($recipients as $recipient) {
+<<<<<<< HEAD
             $this->sendRecipientNotification($recipient, $data);
+=======
+            
+            $this->sendRecipientNotification($recipient,$data);
+            
+>>>>>>> f1d4085 (.)
         }
     }
 
@@ -73,36 +96,66 @@ abstract class XotBaseTransition extends Transition
     public function getNotificationSlug(UserContract $recipient): string
     {
         $type = $recipient->type->value;
+<<<<<<< HEAD
         $slug =
             class_basename($this->record) .
             '-' .
             $type .
             '-' .
             Str::of(class_basename(static::class))->kebab()->toString();
+=======
+        $slug = class_basename($this->record).'-'.$type.'-'.Str::of(class_basename(static::class))->kebab()->toString();
+>>>>>>> f1d4085 (.)
         $slug = Str::slug($slug);
 
         return $slug;
     }
 
+<<<<<<< HEAD
     public function sendRecipientNotification(RecordNotificationData $recipient, array $data): void
     {
         $slug = $this->getNotificationSlug($recipient->record);
 
         $notify = new RecordNotification($this->record, $slug);
+=======
+    public function sendRecipientNotification(RecordNotificationData $recipient,array $data): void
+    {
+       
+
+        $slug = $this->getNotificationSlug($recipient->record);
+
+        $notify = new RecordNotification(
+            $this->record,
+            $slug
+        );
+>>>>>>> f1d4085 (.)
 
         //$data = $this->getNotificationData();
         $notify = $notify->mergeData($data);
         $notify = $notify->addAttachments($this->getNotificationAttachments());
+<<<<<<< HEAD
 
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);
         } catch (TypeError|InvalidArgumentException $e) {
             $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+=======
+        
+        try {
+            Notification::route($recipient->getChannel(), $recipient->getRoute())
+                ->notify($notify);
+        } catch (TypeError|InvalidArgumentException $e) {
+            $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+>>>>>>> f1d4085 (.)
             FilamentNotification::make()
                 ->title('Error')
                 ->danger()
                 ->body($message)
                 ->send();
+<<<<<<< HEAD
+=======
+            
+>>>>>>> f1d4085 (.)
         }
     }
 

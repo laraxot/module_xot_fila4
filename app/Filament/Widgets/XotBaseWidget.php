@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
+=======
+>>>>>>> f1d4085 (.)
 use Filament\Schemas\Schema;
 use Exception;
 use Filament\Schemas\Components\Wizard\Step;
@@ -32,12 +35,20 @@ use Webmozart\Assert\Assert;
  * @property string                    $title        Titolo del widget
  * @property string                    $icon         Icona del widget
  * @property array<string, mixed>|null $data         Dati del form
+<<<<<<< HEAD
  * @property Schema $form
+=======
+ * @property \Filament\Schemas\Schema $form
+>>>>>>> f1d4085 (.)
  */
 abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActions
 {
     use TransTrait;
+<<<<<<< HEAD
     // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
+=======
+    use InteractsWithPageFilters;
+>>>>>>> f1d4085 (.)
     // use InteractsWithPageTable;
     use InteractsWithForms;
     use InteractsWithActions;
@@ -52,7 +63,11 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
      * @var array<string, string>
      */
     public array $listener = [
+<<<<<<< HEAD
         // 'filters-updated' => 'filtersUpdated', // Rimosso per compatibilità Filament v4
+=======
+        'filters-updated' => 'filtersUpdated',
+>>>>>>> f1d4085 (.)
     ];
 
     /**
@@ -60,6 +75,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
      *
      * @var array<string, mixed>
      */
+<<<<<<< HEAD
     public null|array $data = [];
 
     /*
@@ -78,20 +94,50 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
      * $this->form->fill();
      * }
      */
+=======
+    public ?array $data = [];
+
+    /*
+    public function __construct()
+    {
+        //parent::__construct();//Cannot call constructor
+        $view = app(GetViewByClassAction::class)->execute(static::class);
+        if(view()->exists($view)){
+            $this->view = $view;
+        }
+    }
+    */
+    /*
+    public function mount(): void
+    {
+        $this->form->fill();
+    }
+    */
+>>>>>>> f1d4085 (.)
     /**
      * Ottiene lo schema del form.
      * Deve essere implementato nelle classi figlie.
      *
+<<<<<<< HEAD
      * @return array<int|string, Component>
+=======
+     * @return array<int|string, \Filament\Schemas\Components\Component>
+>>>>>>> f1d4085 (.)
      */
     abstract public function getFormSchema(): array;
 
     /**
      * Configura il form del widget.
      *
+<<<<<<< HEAD
      * @param Schema $schema Il form da configurare
      *
      * @return Schema Il form configurato
+=======
+     * @param \Filament\Schemas\Schema $schema Il form da configurare
+     *
+     * @return \Filament\Schemas\Schema Il form configurato
+>>>>>>> f1d4085 (.)
      */
     public function form(Schema $schema): Schema
     {
@@ -99,6 +145,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
         $schema->statePath('data');
         $data = $this->getFormFill();
 
+<<<<<<< HEAD
         $model = $this->getFormModel();
         if ($model !== null) {
             // Ensure model is compatible with Schema::model()
@@ -113,6 +160,10 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
             }
         }
         if (!empty($data)) {
+=======
+        $schema->model($this->getFormModel());
+        if (! empty($data)) {
+>>>>>>> f1d4085 (.)
             // $form->fill($data);
             // $this->data=$data;
         }
@@ -123,7 +174,11 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
+<<<<<<< HEAD
         if (null === $model) {
+=======
+        if (null == $model) {
+>>>>>>> f1d4085 (.)
             return [];
         }
         if (is_string($model)) {
@@ -137,11 +192,18 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
                 $res = $model->toArray();
 
                 if (method_exists($model, 'getDataDefaults')) {
+<<<<<<< HEAD
                     /** @var array<string, mixed> $defaults */
                     $defaults = $model->getDataDefaults();
                     $merge1 = array_merge($defaults, $res);
                     $merge1 = Arr::map($merge1, function ($value, string|int $key) use ($defaults) {
                         if (null === $value) {
+=======
+                    $defaults = $model->getDataDefaults();
+                    $merge1 = array_merge($defaults, $res);
+                    $merge1 = Arr::map($merge1, function ($value, $key) use ($defaults) {
+                        if (null == $value) {
+>>>>>>> f1d4085 (.)
                             $value = Arr::get($defaults, $key, null);
                         }
 
@@ -151,7 +213,10 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
                 }
 
                 return $res;
+<<<<<<< HEAD
 
+=======
+>>>>>>> f1d4085 (.)
                 // dddx($model->with('studio')->relationsToArray());
             } catch (Exception $e) {
                 // Se toArray() fallisce (problemi con enum), usa getAttributes()
@@ -176,7 +241,10 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
         $fields = array_fill_keys($fields, null);
         $fields = array_merge($fields, $attributes);
         if (method_exists($model, 'getDataDefaults')) {
+<<<<<<< HEAD
             /** @var array<string, mixed> $defaults */
+=======
+>>>>>>> f1d4085 (.)
             $defaults = $model->getDataDefaults();
             $fields = array_merge($fields, $defaults);
         }
@@ -218,24 +286,39 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
 
     /**
      * Eseguito quando i filtri vengono aggiornati.
+<<<<<<< HEAD
      * Rimosso per compatibilità Filament v4 - da reimplementare se necessario
      */
     // public function filtersUpdated(): void
     // {
     //     $this->reset('data');
     // }
+=======
+     */
+    public function filtersUpdated(): void
+    {
+        $this->reset('data');
+    }
+>>>>>>> f1d4085 (.)
 
     public static function getNavigationLabel(): string
     {
         /*
+<<<<<<< HEAD
          * return (string) (static::$navigationLabel ?? (string) str(static::getLabel())
          * ->headline());
          */
+=======
+        return (string) (static::$navigationLabel ?? (string) str(static::getLabel())
+            ->headline());
+        */
+>>>>>>> f1d4085 (.)
         return static::transFunc(__FUNCTION__);
     }
 
     protected function getStepByName(string $name): Step
     {
+<<<<<<< HEAD
         $schema = Str::of($name)
             ->snake()
             ->studly()
@@ -246,10 +329,17 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
         /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
         return Step::make($name)->schema($schemaComponents);
+=======
+        $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
+
+        return Step::make($name)
+            ->schema($this->$schema());
+>>>>>>> f1d4085 (.)
     }
 
     public function getWizardSubmitAction(): Action
     {
+<<<<<<< HEAD
         /** @var view-string $submit_view */
         $submit_view = 'pub_theme::filament.wizard.submit-button';
 
@@ -260,5 +350,16 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
             ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
             ->submit('save')
             ->view((string) $submit_view);
+=======
+        $submit_view = 'pub_theme::filament.wizard.submit-button';
+
+        // if(!view()->exists($submit_view)){
+        //    throw new \Exception("View {$submit_view} does not exist");
+        // }
+        return Action::make('submit')
+            ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
+            ->submit('save')
+            ->view($submit_view);
+>>>>>>> f1d4085 (.)
     }
 }

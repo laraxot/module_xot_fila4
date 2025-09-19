@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
 use Override;
+=======
+>>>>>>> f1d4085 (.)
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Builder;
@@ -66,7 +69,11 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
 
     public function scopeWithExtraAttributes(): Builder
     {
+<<<<<<< HEAD
         Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
+=======
+        Assert::notNull($this->extra_attributes, '['.__FILE__.']['.__LINE__.']');
+>>>>>>> f1d4085 (.)
 
         return $this->extra_attributes->modelScope();
     }
@@ -76,14 +83,25 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> f1d4085 (.)
     protected function casts(): array
     {
         return [
             'extra_attributes' => SchemalessAttributes::class,
+<<<<<<< HEAD
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+=======
+
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+
+>>>>>>> f1d4085 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

@@ -54,11 +54,19 @@ class MorphToOneAction
     private function prepareData(array $data): array
     {
         // Ensure the 'lang' key is set to the current locale if not provided
+<<<<<<< HEAD
         if (!isset($data['lang'])) {
+=======
+        if (! isset($data['lang'])) {
+>>>>>>> f1d4085 (.)
             $data['lang'] = App::getLocale();
         }
 
         // Return the prepared data
+<<<<<<< HEAD
         return array_filter($data, static fn($value) => null !== $value);
+=======
+        return array_filter($data, static fn ($value) => null !== $value);
+>>>>>>> f1d4085 (.)
     }
 }

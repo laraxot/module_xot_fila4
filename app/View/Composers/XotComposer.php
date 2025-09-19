@@ -7,10 +7,6 @@ namespace Modules\Xot\View\Composers;
 use Exception;
 use Jenssegers\Agent\Agent;
 use Modules\Xot\Actions\File\AssetAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
@@ -21,21 +17,6 @@ use Modules\Xot\Datas\XotData;
 use Nwidart\Modules\Facades\Module;
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-=======
-use Illuminate\View\View;
-use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
-use Webmozart\Assert\Assert;
-use Modules\Xot\Datas\XotData;
-use Modules\Xot\Datas\MetatagData;
-use Nwidart\Modules\Facades\Module;
-use Illuminate\Support\Facades\Auth;
-use Modules\Xot\Actions\File\AssetPathAction;
-use Nwidart\Modules\Laravel\Module as LaravelModule;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
 /**
  * Class XotComposer.
@@ -51,10 +32,6 @@ class XotComposer
     {
         $modules = Module::getOrdered();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         $module = Arr::first($modules, static function ($module) use ($name): bool {
             // Ensure the module is an instance of LaravelModule
             if (!($module instanceof LaravelModule)) {
@@ -75,32 +52,6 @@ class XotComposer
 
         Assert::isInstanceOf($module, LaravelModule::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
         $class = '\Modules\\' . $module->getName() . '\View\Composers\ThemeComposer';
-<<<<<<< HEAD
-=======
-        $module = Arr::first(
-            $modules,
-            static function ($module) use ($name): bool {
-                // Ensure the module is an instance of LaravelModule
-                if (! $module instanceof LaravelModule) {
-                    return false;
-                }
-
-                Assert::string($moduleName = $module->getName());
-                $class = '\Modules\\'.$moduleName.'\View\Composers\ThemeComposer';
-
-                return method_exists($class, $name);
-            }
-        );
-
-        if (! \is_object($module)) {
-            throw new Exception('Create a View\Composers\ThemeComposer.php inside a module with ['.$name.'] method');
-        }
-
-        Assert::isInstanceOf($module, LaravelModule::class, '['.__LINE__.']['.class_basename($this).']');
-        $class = '\Modules\\'.$module->getName().'\View\Composers\ThemeComposer';
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
         $app = app($class);
         $callback = [$app, $name];
@@ -118,15 +69,7 @@ class XotComposer
         $view->with('lang', $lang);
         $view->with('_theme', $this);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (class_exists('\Jenssegers\Agent\Agent')) {
-=======
-        if(class_exists('\Jenssegers\Agent\Agent')){
->>>>>>> f1d4085 (.)
-=======
-        if (class_exists('\Jenssegers\Agent\Agent')) {
->>>>>>> 73eab74 (.)
             $agent = new Agent();
             $view->with('isMobile', $agent->isMobile());
             $view->with('isTablet', $agent->isTablet());
@@ -147,29 +90,13 @@ class XotComposer
 
     public function path(string $str): string
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         return app(AssetPathAction::class)->execute($str);
-=======
-        return (app(AssetPathAction::class)->execute($str));
->>>>>>> f1d4085 (.)
-=======
-        return app(AssetPathAction::class)->execute($str);
->>>>>>> 73eab74 (.)
     }
 
     public function metatag(string $str): string|bool|null
     {
         $metatag = MetatagData::make();
-<<<<<<< HEAD
-<<<<<<< HEAD
         $fun = 'get' . Str::studly($str);
-=======
-        $fun = 'get'.Str::studly($str);
->>>>>>> f1d4085 (.)
-=======
-        $fun = 'get' . Str::studly($str);
->>>>>>> 73eab74 (.)
         if (method_exists($metatag, $fun)) {
             // @phpstan-ignore return.type
             return $metatag->{$fun}();

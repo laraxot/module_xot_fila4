@@ -15,10 +15,6 @@ class RenderContextNavigation
     /**
      * Undocumented function.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public function execute(string $module, string $_context): void
     {
         Filament::registerRenderHook(
@@ -39,26 +35,5 @@ class RenderContextNavigation
          * fn (): string => Blade::render('@livewire(\'switchable-team\')'),
          * );
          */
-<<<<<<< HEAD
-=======
-    public function execute(string $module, string $context): void
-    {
-        Filament::registerRenderHook(
-            'sidebar.start',
-            static fn (): string => Blade::render('<div class="p-2 px-6 bg-primary-100 font-black w-full">'.sprintf('%s Module</div>', $module))
-        );
-        Filament::registerRenderHook(
-            'sidebar.end',
-            static fn (): string => Blade::render('<a class="p-2 px-6 bg-primary-100 font-black w-full inline-flex space-x-2" href="'.route('filament.pages.dashboard').'"><x-heroicon-o-arrow-left class="w-5"/> Main Module</a>')
-        );
-        /* -- esiste in filament 3
-        Filament::registerRenderHook(
-            'user-menu.start',
-            fn (): string => Blade::render('@livewire(\'switchable-team\')'),
-        );
-        */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     }
 }

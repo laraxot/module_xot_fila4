@@ -44,25 +44,11 @@ class CustomRelation extends Relation
         /**
          * The eagerConstraints callback.
          */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         protected null|Closure $eagerConstraints,
         /**
          * The eager constraints model matcher.
          */
         protected null|Closure $eagerMatcher,
-<<<<<<< HEAD
-=======
-        protected ?Closure $eagerConstraints,
-        /**
-         * The eager constraints model matcher.
-         */
-        protected ?Closure $eagerMatcher,
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     ) {
         parent::__construct($query, $model);
     }
@@ -81,15 +67,7 @@ class CustomRelation extends Relation
     public function addEagerConstraints(array $models): void
     {
         // Parameter #1 $function of function call_user_func expects callable(): mixed, Closure|null given.
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!\is_callable($this->eagerConstraints)) {
-=======
-        if (! \is_callable($this->eagerConstraints)) {
->>>>>>> f1d4085 (.)
-=======
-        if (!\is_callable($this->eagerConstraints)) {
->>>>>>> 73eab74 (.)
             throw new Exception('eagerConstraints is not callable');
         }
 
@@ -119,15 +97,7 @@ class CustomRelation extends Relation
     public function match(array $models, Collection $collection, $relation): array
     {
         // Trying to invoke Closure|null but it might not be a callable.
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!\is_callable($this->eagerMatcher)) {
-=======
-        if (! \is_callable($this->eagerMatcher)) {
->>>>>>> f1d4085 (.)
-=======
-        if (!\is_callable($this->eagerMatcher)) {
->>>>>>> 73eab74 (.)
             throw new Exception('eagerMatcher is not callable');
         }
 
@@ -159,15 +129,7 @@ class CustomRelation extends Relation
         // models with the result of those columns as a separate model relation.
         $columns = $this->query->getQuery()->columns ? [] : $columns;
         if ($columns === ['*']) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             $columns = [$this->related->getTable() . '.*'];
-=======
-            $columns = [$this->related->getTable().'.*'];
->>>>>>> f1d4085 (.)
-=======
-            $columns = [$this->related->getTable() . '.*'];
->>>>>>> 73eab74 (.)
         }
 
         $query = $this->query->applyScopes();

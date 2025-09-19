@@ -47,16 +47,6 @@ use Illuminate\Support\Carbon;
  *
  * @mixin \Eloquent
  */
-<<<<<<< HEAD
-<<<<<<< HEAD
 interface ModelWithAuthorContract
 {
 }
-=======
-interface ModelWithAuthorContract {}
->>>>>>> f1d4085 (.)
-=======
-interface ModelWithAuthorContract
-{
-}
->>>>>>> 73eab74 (.)

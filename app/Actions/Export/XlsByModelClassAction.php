@@ -28,15 +28,7 @@ class XlsByModelClassAction
      * @param array<int, string> $includes Relazioni o campi da includere
      * @param array<int, string> $excludes Campi da escludere
      * @param callable|null $callback Callback per manipolare i dati
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
-=======
-     * 
->>>>>>> f1d4085 (.)
-=======
-     *
->>>>>>> 73eab74 (.)
      * @return BinaryFileResponse
      */
     public function execute(
@@ -44,43 +36,19 @@ class XlsByModelClassAction
         array $where = [],
         array $includes = [],
         array $excludes = [],
-<<<<<<< HEAD
-<<<<<<< HEAD
         null|callable $callback = null,
-=======
-        ?callable $callback = null,
->>>>>>> f1d4085 (.)
-=======
-        null|callable $callback = null,
->>>>>>> 73eab74 (.)
     ): BinaryFileResponse {
         // Verifichiamo che la classe del modello esista
         Assert::classExists($modelClass);
         Assert::subclassOf($modelClass, Model::class);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
         $with = $this->getWithByIncludes($includes);
 
         // Creiamo l'istanza del modello e costruiamo la query
         /** @var Model $model */
         $model = app($modelClass);
         $query = $model->query()->with($with);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
         // Applichiamo le condizioni where
         foreach ($where as $key => $value) {
             $query->where($key, $value);
@@ -89,10 +57,6 @@ class XlsByModelClassAction
         // Otteniamo i risultati
         /** @var Collection $rows */
         $rows = $query->get();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
         // Filtriamo i campi se sono specificati gli includes
         if ([] !== $includes) {
@@ -104,24 +68,6 @@ class XlsByModelClassAction
 
                 return $data;
             });
-<<<<<<< HEAD
-=======
-        
-        // Filtriamo i campi se sono specificati gli includes
-        if ([] !== $includes) {
-            $rows = $rows->map(
-                static function ($item) use ($includes) {
-                    $data = [];
-                    foreach ($includes as $include) {
-                        $data[$include] = data_get($item, $include);
-                    }
-
-                    return $data;
-                }
-            );
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         }
 
         // Nascondiamo i campi esclusi
@@ -152,15 +98,7 @@ class XlsByModelClassAction
      * Ottiene le relazioni da caricare in base ai campi inclusi.
      *
      * @param array<int, string> $includes Campi da includere
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
-=======
-     * 
->>>>>>> f1d4085 (.)
-=======
-     *
->>>>>>> 73eab74 (.)
      * @return array<int, string>
      */
     private function getWithByIncludes(array $includes): array
@@ -168,31 +106,13 @@ class XlsByModelClassAction
         $with = [];
         foreach ($includes as $include) {
             // Assicuriamo che $include sia una stringa
-<<<<<<< HEAD
-<<<<<<< HEAD
             $includeStr = is_string($include) ? $include : ((string) $include);
 
-=======
-            $includeStr = is_string($include) ? $include : (string) $include;
-            
->>>>>>> f1d4085 (.)
-=======
-            $includeStr = is_string($include) ? $include : ((string) $include);
-
->>>>>>> 73eab74 (.)
             // Verifichiamo se contiene un punto (indicatore di relazione)
             if (!Str::contains($includeStr, '.')) {
                 continue;
             }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
             // Estraiamo il nome della relazione (prima parte prima del punto)
             $parts = explode('.', $includeStr);
             if (!empty($parts[0])) {
@@ -207,31 +127,11 @@ class XlsByModelClassAction
      * Genera il nome del file di export.
      *
      * @param string $modelClass Classe del modello
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
-=======
-     * 
->>>>>>> f1d4085 (.)
-=======
-     *
->>>>>>> 73eab74 (.)
      * @return string
      */
     private function getExportName(string $modelClass): string
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         return sprintf('%s %s.xlsx', Str::slug(class_basename($modelClass)), Carbon::now()->format('d-m-Y His'));
-=======
-        return sprintf(
-            '%s %s.xlsx',
-            Str::slug(class_basename($modelClass)),
-            Carbon::now()->format('d-m-Y His'),
-        );
->>>>>>> f1d4085 (.)
-=======
-        return sprintf('%s %s.xlsx', Str::slug(class_basename($modelClass)), Carbon::now()->format('d-m-Y His'));
->>>>>>> 73eab74 (.)
     }
 }

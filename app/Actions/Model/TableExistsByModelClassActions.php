@@ -12,39 +12,17 @@ class TableExistsByModelClassActions
 {
     public function execute(string $modelClass): bool
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!class_exists($modelClass)) {
-=======
-        if (! class_exists($modelClass)) {
->>>>>>> f1d4085 (.)
-=======
-        if (!class_exists($modelClass)) {
->>>>>>> 73eab74 (.)
             return false;
         }
 
         Assert::isInstanceOf($model = app($modelClass), EloquentModel::class);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         // Controlla se il modello utilizza Sushi
         if (in_array('Sushi\Sushi', class_uses_recursive($modelClass), strict: true) || method_exists($model, 'sushiRows')) {
             return true; // I modelli Sushi sono considerati come se avessero sempre una tabella
         }
 
-<<<<<<< HEAD
-=======
-         // Controlla se il modello utilizza Sushi
-         if (in_array('Sushi\Sushi', class_uses_recursive($modelClass)) || method_exists($model, 'sushiRows')) {
-            return true; // I modelli Sushi sono considerati come se avessero sempre una tabella
-        }
-        
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         $tableName = $model->getTable();
 
         return Schema::connection($model->getConnectionName())->hasTable($tableName);

@@ -5,27 +5,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
-=======
->>>>>>> f1d4085 (.)
-=======
-use Illuminate\Database\Eloquent\Model;
->>>>>>> 73eab74 (.)
 use Filament\Actions;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\Array\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Models\Module;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 /**
  * @property Module $record
  */
@@ -48,10 +34,6 @@ class EditModule extends XotBaseEditRecord
     protected function afterSave(): void
     {
         $module = $this->record; // Ottiene il record corrente
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         if (!($module instanceof Model) || !isset($module->path)) {
             return;
         }
@@ -59,14 +41,6 @@ class EditModule extends XotBaseEditRecord
         $config_path = $module->path . '/config/config.php';
         $data = File::getRequire($config_path);
         if (!is_array($data)) {
-<<<<<<< HEAD
-=======
-        $config_path = $module->path.'/config/config.php';
-        $data = File::getRequire($config_path);
-        if (! is_array($data)) {
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
             $data = [];
         }
         $data = array_merge($data, $module->toArray());
@@ -74,10 +48,6 @@ class EditModule extends XotBaseEditRecord
         app(SaveArrayAction::class)->execute($data, $config_path);
 
         /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
          * $configPath = config_path('modules/colors.php');
          *
          * // Prepara l'array di colori
@@ -100,32 +70,5 @@ class EditModule extends XotBaseEditRecord
          * // Richiama il file di configurazione per essere sicuro che i colori siano caricati
          * Config::set('modules.colors', $colorsConfig);
          */
-<<<<<<< HEAD
-=======
-        $configPath = config_path('modules/colors.php');
-
-        // Prepara l'array di colori
-        $colorsConfig = [
-            $module->name => [
-                'colors' => $module->colors,
-                'icon' => $module->icon,
-            ],
-        ];
-
-        // Se il file di configurazione esiste già, unisci i colori
-        if (File::exists($configPath)) {
-            $existingConfig = include $configPath;
-            $colorsConfig = array_merge($existingConfig, $colorsConfig);
-        }
-
-        // Salva il nuovo file di configurazione
-        File::put($configPath, '<?php return ' . var_export($colorsConfig, true) . ';');
-
-        // Richiama il file di configurazione per essere sicuro che i colori siano caricati
-        Config::set('modules.colors', $colorsConfig);
-        */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     }
 }

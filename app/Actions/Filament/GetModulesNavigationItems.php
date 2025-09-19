@@ -8,40 +8,18 @@ use Exception;
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 use Filament\Facades\Filament;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Cache;
-=======
-use Illuminate\Support\Facades\File;
->>>>>>> f1d4085 (.)
-=======
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Cache;
->>>>>>> 73eab74 (.)
 use Filament\Navigation\NavigationItem;
 use Modules\Tenant\Services\TenantService;
 use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use function Safe\json_encode;
 
 /**
  * Classe per gestire gli elementi di navigazione per i moduli.
  * Ottimizzata per ridurre memory usage.
-<<<<<<< HEAD
-=======
-
-/**
- * Classe per gestire gli elementi di navigazione per i moduli.
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
  */
 class GetModulesNavigationItems
 {
@@ -59,10 +37,6 @@ class GetModulesNavigationItems
         $modules = TenantService::allModules();
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         // Pre-load user roles to avoid N+1 queries
         $user = auth()->user();
         
@@ -93,52 +67,12 @@ class GetModulesNavigationItems
                 continue;
             }
 
-<<<<<<< HEAD
-=======
-        foreach ($modules as $module) {
-            Assert::string($module, 'Il nome del modulo deve essere una stringa');
-            
-            $module_low = Str::lower($module);
-            Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
-            /*
-            // Otteniamo il percorso relativo della configurazione
-            $relativeConfigPath = config('modules.paths.generator.config.path');
-            $relativeConfigPathStr = is_string($relativeConfigPath) ? $relativeConfigPath : 'Config';
-            
-            try {
-                // Proviamo a ottenere il percorso del modulo
-                $configPath = module_path($module, $relativeConfigPathStr);
-                Assert::string($configPath, 'Il percorso di configurazione deve essere una stringa');
-            } catch (\Exception | \Error $e) {
-                // Se fallisce, costruiamo manualmente il percorso
-                $configPath = base_path('Modules/'.$module.'/'.$relativeConfigPathStr);
-            }
-            
-            // Verifichiamo che $configPath sia una stringa valida
-            Assert::stringNotEmpty($configPath, 'Il percorso di configurazione non può essere vuoto');
-            */
-            $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
-            // Costruiamo il percorso completo del file di configurazione
-            $configFilePath = $configPath.'/config.php';
-            
-            // Verifichiamo che il file esista
-            if (!File::exists($configFilePath)) {
-                continue; // Saltiamo questo modulo se il file di configurazione non esiste
-            }
-            
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
             // Carichiamo la configurazione
             try {
                 /** @var array<string, mixed> $config */
                 $config = File::getRequire($configFilePath);
                 Assert::isArray($config, 'Il file di configurazione deve restituire un array');
             } catch (Exception $e) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
                 continue;
             }
 
@@ -189,57 +123,12 @@ class GetModulesNavigationItems
 
                     return (bool) $user->hasRole($role);
                 });
-<<<<<<< HEAD
-=======
-                // Se non riusciamo a caricare la configurazione, passiamo al modulo successivo
-                continue;
-            }
-            
-            // Estraiamo i valori di configurazione con valori predefiniti
-            $icon = $config['icon'] ?? 'heroicon-o-question-mark-circle';
-            Assert::string($icon, "L'icona deve essere una stringa");
-            
-            $role = $module_low.'::admin';
-            Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
-            
-            $navigation_sort = $config['navigation_sort'] ?? 1;
-            Assert::integerish($navigation_sort, 'navigation_sort deve essere un intero');
-            $navigation_sort = (int) $navigation_sort;
-            
-            // Creiamo l'elemento di navigazione
-            $nav = NavigationItem::make($module)
-                ->url('/'.$module_low.'/admin')
-                ->icon($icon)
-                ->group('Modules')
-                ->sort($navigation_sort)
-                ->visible(
-                    static function () use ($role): bool {
-                        $user = Filament::auth()->user();
-                        if (null === $user) {
-                            return false;
-                        }
-
-                        // Verifichiamo che il metodo hasRole esista
-                        if (!method_exists($user, 'hasRole')) {
-                            return false;
-                        }
-
-                        return (bool) $user->hasRole($role);
-                    }
-                );
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
             $navs[] = $nav;
         }
 
         return $navs;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
     /**
      * Restituisce la versione cached e minimale dei moduli per UI rendering.
@@ -294,9 +183,4 @@ class GetModulesNavigationItems
 
         return $regen;
     }
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 }

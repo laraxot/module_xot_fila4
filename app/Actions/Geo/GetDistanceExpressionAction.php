@@ -10,7 +10,11 @@ use Spatie\QueueableAction\QueueableAction;
 
 /**
  * Action per generare l'espressione SQL per il calcolo della distanza.
+<<<<<<< HEAD
  *
+=======
+ * 
+>>>>>>> f76ebe6 (.)
  * Questa action centralizza la logica di generazione dell'espressione SQL
  * per il calcolo della distanza tra due punti geografici.
  */
@@ -24,6 +28,7 @@ class GetDistanceExpressionAction
      * @param float $latitude Latitudine del punto di riferimento
      * @param float $longitude Longitudine del punto di riferimento
      * @param string|null $alias Alias per l'espressione (opzionale)
+<<<<<<< HEAD
      * @return Expression Espressione SQL per il calcolo della distanza
      */
     public function execute(
@@ -43,8 +48,30 @@ class GetDistanceExpressionAction
 
         if (null !== $alias) {
             $sql .= " AS {$alias}";
+=======
+     * @return \Illuminate\Contracts\Database\Query\Expression Espressione SQL per il calcolo della distanza
+     */
+    public function execute(float $latitude, float $longitude, ?string $alias = null): \Illuminate\Contracts\Database\Query\Expression
+    {
+        $sql = "
+            (6371 * acos(
+                cos(radians($latitude)) *
+                cos(radians(latitude)) *
+                cos(radians(longitude) - radians($longitude)) +
+                sin(radians($latitude)) *
+                sin(radians(latitude))
+            ))
+        ";
+        
+        if (null !== $alias) {
+            $sql .= " AS $alias";
+>>>>>>> f76ebe6 (.)
         }
 
         return DB::raw($sql);
     }
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> f76ebe6 (.)

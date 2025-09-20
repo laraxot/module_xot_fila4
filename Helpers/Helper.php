@@ -721,40 +721,23 @@ if (!function_exists('getRelationships')) {
             }
 
             try {
-<<<<<<< HEAD
-                $modelInstance = is_string($model) ? new $model() : $model;
-                $return = $reflection->invoke($modelInstance);
-                $check = $return instanceof Relation;
-                
-                if ($check) {
-                    $related_model = new ReflectionClass($return->getRelated());
-                    $model=$related_model->getName();
-=======
                 $return = $reflection->invoke($model);
                 $check = $return instanceof Relation;
                 /*
                 if ($check) {
                     $related_model = new ReflectionClass($return->getRelated())->getName();
->>>>>>> c84488b (.)
                     $msg = [
                         'name' => $reflection->name,
                         'type' => class_basename($return),
                         // 'check'=>$check,
                         // $msg['type']=(new \ReflectionClass($return))->getShortName();
-<<<<<<< HEAD
-                        'model' => $model,
-                    ];
-                    $data[] = $msg;
-                }
-                
-=======
                         'model' => $related_model,
                     ];
                     $data[] = $msg;
                 }
                     */
->>>>>>> c84488b (.)
-            } catch (ErrorException) {
+            } catch (Exception|Throwable) {
+                // Ignore reflection invocation errors
             }
         }
 

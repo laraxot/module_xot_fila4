@@ -33,7 +33,7 @@ class AddStrictTypesDeclarationCommand extends Command
         $moduleOption = $this->option('module');
         $dryRun = $this->option('dry-run');
 
-        if ($moduleOption) {
+        if ($moduleOption && is_string($moduleOption)) {
             $modulePath .= '/' . $moduleOption;
             if (!File::isDirectory($modulePath)) {
                 $this->error("Il modulo {$moduleOption} non esiste");
@@ -52,12 +52,15 @@ class AddStrictTypesDeclarationCommand extends Command
                     continue;
                 }
 
+                $path = $file->getRealPath();
+                if ($path === false) {
+                    continue;
+                }
+                
+                // PHPStan hint: at this point $path is definitely a string
+                assert(is_string($path));
+
                 try {
-                    $path = $file->getRealPath();
-                    if ($path === false) {
-                        continue;
-                    }
-                    
                     $action->execute($path);
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;

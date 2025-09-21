@@ -4,7 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Staudenmeir\LaravelAdjacencyList\Eloquent\Collection;
@@ -180,7 +187,15 @@ interface HasRecursiveRelationshipsContract
      *
      * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
      *
+<<<<<<< HEAD
      * @return BelongsTo
+=======
+<<<<<<< HEAD
+     * @return BelongsTo
+=======
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
      */
     public function parent();
 

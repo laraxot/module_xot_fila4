@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 # ==============================================
 # LARAXOT MODULE XOT - .GITIGNORE
 # ==============================================
@@ -51,6 +59,16 @@ lerna-debug.log*
 # ==============================================
 # LARAVEL SPECIFIC
 # ==============================================
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -64,7 +82,21 @@ lerna-debug.log*
 package-lock.json
 yarn-error.log
 npm-debug.log
+<<<<<<< HEAD
 composer.lock
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+composer.lock
+=======
+>>>>>>> a12f125f4a (.)
+=======
+composer.lock
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 .phpunit.result.cache
 .php-cs-fixer.cache
 
@@ -86,6 +118,14 @@ public_html/storage
 public_html/hot
 storage/*.key
 .env
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 .env.*
 !.env.example
 
@@ -172,6 +212,16 @@ packages/temp/
 database/Factories_
 database/Factories_old
 database/Migrations_old
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 # Local configurations
 Homestead.yaml
@@ -195,18 +245,56 @@ Homestead.json
 *.exe
 *:Zone.Identifier
 .DS_Store
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+*.new
+
+# Backup files
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 *.old
 *.old1
 *.backup
 *.backup.*
 *.bak
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+*.bak
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+*.old
+*.old1
+*.backup
+*.bak
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 *.new
 
 # Documentation and cache
 docs/phpstan/
 docs/cache/
 cache/
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 # Development tools
 .windsurf/
 .cursor/
@@ -228,3 +316,13 @@ database_old
 *.fila2
 laravel
 public_html
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)

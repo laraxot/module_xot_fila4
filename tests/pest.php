@@ -5,6 +5,14 @@ declare(strict_types=1);
 use Modules\Xot\Tests\TestCase;
 
 /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
  * |--------------------------------------------------------------------------
  * | Test Case
  * |--------------------------------------------------------------------------
@@ -13,10 +21,39 @@ use Modules\Xot\Tests\TestCase;
  * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
  * |
  */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+|--------------------------------------------------------------------------
+| Test Case
+|--------------------------------------------------------------------------
+|
+| Il TestCase di default per tutti i test del modulo Xot.
+| Estende il TestCase specifico del modulo che fornisce il setup necessario.
+|
+*/
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 uses(TestCase::class)->in('Feature', 'Unit');
 
 /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
  * |--------------------------------------------------------------------------
  * | Expectations
  * |--------------------------------------------------------------------------
@@ -26,12 +63,42 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+|--------------------------------------------------------------------------
+| Expectations
+|--------------------------------------------------------------------------
+|
+| Qui puoi definire aspettative globali per il modulo Xot.
+| Quando definisci here expectation globali, saranno disponibili 
+| in tutti i test del modulo.
+|
+*/
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
 
 /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -40,7 +107,40 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * | Queste funzioni saranno disponibili in tutti i test.
  * |
  */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+|--------------------------------------------------------------------------
+| Functions
+|--------------------------------------------------------------------------
+|
+| Qui puoi definire funzioni helper globali per i test del modulo.
+| Queste funzioni saranno disponibili in tutti i test.
+|
+*/
+
+// function something() {
+//     // ...
+<<<<<<< HEAD
+// } 
+>>>>>>> a12f125f4a (.)
+=======
+
+// function something() {
+//     // ...
+// }
+>>>>>>> b93ef594b4 (.)
+=======
+// } 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)

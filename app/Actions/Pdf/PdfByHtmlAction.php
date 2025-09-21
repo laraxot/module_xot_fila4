@@ -4,10 +4,38 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Pdf;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
+<<<<<<< HEAD
+=======
+=======
+use Spipu\Html2Pdf\Html2Pdf;
+use Modules\Xot\Datas\PdfData;
+=======
+>>>>>>> b93ef594b4 (.)
+use Illuminate\Support\Facades\Storage;
+use Modules\Xot\Datas\PdfData;
+use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Spipu\Html2Pdf\Html2Pdf;
+>>>>>>> b93ef594b4 (.)
+=======
+use Spipu\Html2Pdf\Html2Pdf;
+use Modules\Xot\Datas\PdfData;
+use Illuminate\Support\Facades\Storage;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class PdfByHtmlAction
@@ -43,10 +71,36 @@ class PdfByHtmlAction
             'orientation' => $orientation,
             'engine' => $engine,
         ]);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
         // Genera il PDF utilizzando PdfData
         $data->fromHtml($html);
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        
+        // Genera il PDF utilizzando PdfData
+        $data->fromHtml($html);
+        
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+        // Genera il PDF utilizzando PdfData
+        $data->fromHtml($html);
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         // Restituisce il risultato in base al tipo di output richiesto
         return match ($out) {
             'download' => $data->download(),

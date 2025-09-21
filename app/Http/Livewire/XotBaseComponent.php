@@ -5,7 +5,14 @@ declare(strict_types=1);
 namespace Modules\Xot\Http\Livewire;
 
 // use Illuminate\Support\Carbon;
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Livewire\Component;
@@ -29,11 +36,40 @@ abstract class XotBaseComponent extends Component
         $comp_name = str_replace('\\', '.', $comp_name);
         $comp_name = Str::snake($comp_name);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
         $view = $module_name_low . '::livewire.' . $comp_name;
         $view = str_replace('._', '.', $view);
         // fare distinzione fra inAdmin o no ?
         if (!view()->exists($view)) {
             throw new Exception('View not Exists[' . $view . ']');
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        $view = $module_name_low.'::livewire.'.$comp_name;
+        $view = str_replace('._', '.', $view);
+        // fare distinzione fra inAdmin o no ?
+        if (! view()->exists($view)) {
+<<<<<<< HEAD
+            throw new Exception('View not Exists['.$view.']');
+>>>>>>> a12f125f4a (.)
+=======
+        $view = $module_name_low . '::livewire.' . $comp_name;
+        $view = str_replace('._', '.', $view);
+        // fare distinzione fra inAdmin o no ?
+        if (!view()->exists($view)) {
+            throw new Exception('View not Exists[' . $view . ']');
+>>>>>>> b93ef594b4 (.)
+=======
+            throw new \Exception('View not Exists['.$view.']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         }
 
         return $view;

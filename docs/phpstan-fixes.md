@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Correzioni PHPStan Livello 7 - Modulo Xot
 =======
 # Correzioni PHPStan - 6 Gennaio 2025
@@ -741,6 +742,12 @@ private function exportTablesToCSV(string $mdbFile): array
 }
 ```
 =======
+=======
+# Correzioni PHPStan - 6 Gennaio 2025
+
+## Errori Risolti
+
+>>>>>>> 6cba4fe (.)
 ### 1. Chart/app/Datas/AnswersChartData.php
 
 **Problema**: Errori `argument.type` e `offsetAccess.nonOffsetAccessible`
@@ -762,7 +769,10 @@ private function exportTablesToCSV(string $mdbFile): array
 - Aggiunto cast esplicito con `@var` per il risultato
 
 ### 3. Job/app/Actions/GetTaskFrequenciesAction.php
+<<<<<<< HEAD
 >>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
 
 **Problema**: Linea 21 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, mixed>` ma restituiva `array<mixed, mixed>`
@@ -776,6 +786,7 @@ private function exportTablesToCSV(string $mdbFile): array
 - Metodo doveva restituire `array<string, Component>` ma restituiva `array<int|string, Component>`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     foreach ($tables as $table) {
         // ... codice per importare i dati ...
     }
@@ -788,6 +799,8 @@ Queste modifiche garantiscono che:
 3. Il codice sia più robusto e gestisca correttamente i casi limite
 4. I tipi di dati siano coerenti e correttamente documentati
 =======
+=======
+>>>>>>> 6cba4fe (.)
 **Soluzione**:
 - Aggiunto PHPDoc con tipo di ritorno corretto
 - Aggiunto cast esplicito al risultato
@@ -822,7 +835,10 @@ Queste modifiche garantiscono che:
 
 **Problema**: Linea 39 - Tipo parametro errato
 - `sendRecipientNotification()` aspettava `UserContract|null` ma riceveva `Model|null`
+<<<<<<< HEAD
 >>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
 
 **Soluzione**:
 - Separato controllo per `UserContract` e `null`
@@ -850,6 +866,7 @@ Queste modifiche garantiscono che:
 - [Array Types Fixes](./phpstan-array-types-fixes.md)
 - [PHPStan Level 10 Guidelines](./phpstan-level10-guidelines.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### 18. Correzione in Console/Commands/SearchStringInDatabaseCommand.php
 
@@ -929,3 +946,6 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 =======
 *Ultimo aggiornamento: 6 Gennaio 2025*
 >>>>>>> abfbbdf (.)
+=======
+*Ultimo aggiornamento: 6 Gennaio 2025*
+>>>>>>> 6cba4fe (.)

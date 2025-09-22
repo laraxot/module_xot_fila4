@@ -105,8 +105,8 @@ class CreateTableIndexByModelClassColumnsAction
         AND index_name = ?;
     ';
 
-        $schemaName = $connection->getDatabaseName();
-        $result = $connection->selectOne($query, [$schemaName, $tableName, $indexName]);
+        $formName = $connection->getDatabaseName();
+        $result = $connection->selectOne($query, [$formName, $tableName, $indexName]);
 
         // @phpstan-ignore property.nonObject
         return $result && $result->{'COUNT(*)'} > 0;
@@ -116,8 +116,8 @@ class CreateTableIndexByModelClassColumnsAction
      * private function indexExists(string $connectionName, string $tableName, string $indexName): bool
      * {
      * $connection = DB::connection($connectionName);
-     * $schemaManager = $connection->getDoctrineSchemaManager();
-     * $indexes = $schemaManager->listTableIndexes($tableName);
+     * $formManager = $connection->getDoctrineSchemaManager();
+     * $indexes = $formManager->listTableIndexes($tableName);
      *
      * return array_key_exists($indexName, $indexes);
      * }

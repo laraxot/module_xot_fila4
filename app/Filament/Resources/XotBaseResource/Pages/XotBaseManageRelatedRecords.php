@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\XotBaseResource\Pages;
 
+use Filament\Forms\Form;
 use Filament\Schemas\Components\Component;
 use Override;
 use Filament\Actions\CreateAction;
 use Filament\Actions\Action;
-use Filament\Schemas\Schema;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
@@ -44,7 +44,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     }
 
     /*
-     * @return array<\Filament\Forms\Components\Component>
+     * @return array<\Filament\Schemas\Components\Component>
      */
     // abstract public static function getFormSchema(): array;
 
@@ -130,18 +130,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * 'create' => CreateAction::make()
      * ->label('Crea Nuovo')
      * ->disableCreateAnother(),
-     * ]);
-     * }
-     */
     /**
      * Configura il form per la creazione/modifica dei record correlati.
      */
-    public function form(Schema $form): Schema
-    {
-        /** @var array<Component> $schema */
-        $schema = $this->getFormSchema();
-        return $form->components($schema);
-    }
 
     /**
      * Restituisce il titolo della pagina.

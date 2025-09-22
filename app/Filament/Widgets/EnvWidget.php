@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+use Filament\Forms\Form;
 use Filament\Schemas\Components\Component;
 use Filament\Actions\Contracts\HasActions;
 use Filament\Actions\Concerns\InteractsWithActions;
-use Filament\Schemas\Schema;
 use Filament\Forms;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
@@ -42,9 +42,9 @@ class EnvWidget extends Widget implements HasForms, HasActions
         $this->form->fill($this->data);
     }
 
-    public function form(Schema $schema): Schema
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
-        return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
+        return $form->components($this->getFormSchema())->columns(1)->statePath('data');
     }
 
     public function submit(): void

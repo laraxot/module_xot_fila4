@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
-use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Actions\Action;
 use Filament\Forms\Components\ColorPicker;
@@ -20,6 +19,7 @@ use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
+use Filament\Forms\Form;
 
 /**
  * @property Schema $form
@@ -43,11 +43,11 @@ class MetatagPage extends Page implements HasForms
         $this->form->fill($data);
     }
 
-    public function form(Schema $schema): Schema
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         $metatag = MetatagData::make();
 
-        return $schema
+        return $form
             ->components([
                 TextInput::make('title')->required(),
                 TextInput::make('sitename'),
@@ -88,7 +88,7 @@ class MetatagPage extends Page implements HasForms
                             ->reactive(),
                         ColorPicker::make('hex')
                             ->label('Colore personalizzato')
-                            ->visible(fn(Get $get) => $get('color') === 'custom')
+                            ->visible(fn($get) => $get('color') === 'custom')
                             ->required(),
                     ])
                     ->columns(3),

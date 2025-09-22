@@ -106,7 +106,7 @@ class InformationSchemaTable extends Model
      *
      * @var array<string, string>
      */
-    protected $schema = [
+    protected $form = [
         'id' => 'integer',
         'table_schema' => 'string',
         'table_name' => 'string',

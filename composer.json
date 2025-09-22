@@ -39,7 +39,7 @@
         "livewire/volt": "^1.0",
         "maatwebsite/excel": "^3.1",
         "nwidart/laravel-modules": "*",
-        "predis/predis": "^2.2",
+        "predis/predis": "*",
         "spatie/cpu-load-health-check": "^1.0",
         "spatie/laravel-data": "^4.7",
         "spatie/laravel-health": "^1.29",

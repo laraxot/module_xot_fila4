@@ -20,8 +20,8 @@ class GetTableIndexesByModelClassAction
     {
         Assert::isInstanceOf($model = app($modelClass), Model::class);
         $table = $model->getTable();
-        $schemaManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
+        $formManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
 
-        return $schemaManager->listTableIndexes($table);
+        return $formManager->listTableIndexes($table);
     }
 }

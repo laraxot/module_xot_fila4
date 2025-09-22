@@ -7,7 +7,7 @@ namespace Modules\Xot\States;
 use Filament\Schemas\Components\Component;
 use Override;
 use Filament\Forms\Components\Textarea;
-use Filament\Forms\Components;
+use Filament\Schemas\Components;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;

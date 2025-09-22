@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\Pages;
 
+use Filament\Forms\Form;
 use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
 use Closure;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
@@ -98,9 +98,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     /**
      * Configure the form.
      */
-    public function form(Schema $schema): Schema
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
-        return $schema->components($this->getFormSchema())->statePath('data');
+        return $form->components($this->getFormSchema())->statePath('data');
     }
 
     /**

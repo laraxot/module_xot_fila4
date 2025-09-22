@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\LogResource\Pages;
 
-use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
-use Override;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Grid;
+use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
+use Override;
 use Filament\Actions;
 use Filament\Infolists\Components\TextEntry;
 use Modules\Xot\Filament\Resources\LogResource;

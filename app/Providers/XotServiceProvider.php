@@ -31,7 +31,7 @@ use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Str;
 use Modules\Xot\Datas\XotData;
-use Modules\Xot\Exceptions\Formatters\WebhookErrorFormatter;
+use \Filament\Forms\Formatters\WebhookErrorFormatter;
 use Modules\Xot\Exceptions\Handlers\HandlerDecorator;
 use Modules\Xot\Exceptions\Handlers\HandlersRepository;
 use Modules\Xot\View\Composers\XotComposer;
@@ -109,7 +109,7 @@ class XotServiceProvider extends XotBaseServiceProvider
     {
         TextInput::macro('generateSlug', function () {
             /** @phpstan-ignore-next-line */
-            $this->live(onBlur: true)->afterStateUpdated(function (string $operation, string $state, Set $set) {
+            $this->live(onBlur: true)->afterStateUpdated(function (string $operation, string $state, \Filament\Schemas\Components\Utilities\Set $set) {
                 if ($operation === 'create') {
                     return;
                 }

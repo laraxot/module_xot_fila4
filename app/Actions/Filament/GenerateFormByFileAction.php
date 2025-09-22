@@ -8,6 +8,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
+use Filament\Forms\Form;
+
 use ReflectionClass;
 use Filament\Resources\Resource;
 use Illuminate\Database\Eloquent\Model;
@@ -96,7 +98,7 @@ class GenerateFormByFileAction
             'class_name' => $class_name,
             'model_name' => $modelClass,
             'fillable' => $fillable,
-            // 't1'=>app($class_name)->form(app(\Filament\Forms\Form::class)),
+            // 't1'=>app($class_name)->form(app(\Filament\Schemas\Schema::class)),
             'methods' => $resourceMethods,
             'form_method' => $form_method,
             'form_method_methods' => get_class_methods($form_method),

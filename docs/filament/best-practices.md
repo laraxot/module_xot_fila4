@@ -77,7 +77,7 @@ class UserResource extends XotBaseResource
 ### **3. Metodi da NON Implementare**
 ```php
 // ❌ MAI implementare questi metodi nelle classi derivate
-public function form(Form $form): Form
+public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 {
     // Questo metodo è già implementato in XotBaseResource
 }

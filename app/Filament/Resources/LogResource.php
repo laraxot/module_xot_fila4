@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
+use Filament\Forms\Form;
 use Override;
-use Filament\Schemas\Schema;
 use Modules\Xot\Filament\Resources\LogResource\Pages\ListLogs;
 use Modules\Xot\Filament\Resources\LogResource\Pages\CreateLog;
 use Modules\Xot\Filament\Resources\LogResource\Pages\ViewLog;
@@ -36,9 +36,9 @@ class LogResource extends XotBaseResource
         ];
     }
 
-    public static function infolist(Schema $schema): Schema
+    public static function infolist(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
-        return $schema->components([
+        return $form->components([
             TextEntry::make('name')->columnSpanFull(),
             /*
              * Infolists\Components\TextEntry::make('email')

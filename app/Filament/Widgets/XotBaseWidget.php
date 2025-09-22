@@ -5,9 +5,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Form;
 use Filament\Forms\Form;
 =======
+=======
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> a5dccfe (.)
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Exception;
@@ -20,7 +24,10 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -34,7 +41,10 @@ use Webmozart\Assert\Assert;
  * Fornisce funzionalità comuni e standardizzate per la gestione dei widget.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a5dccfe (.)
  * @property bool                      $shouldRender Indica se il widget deve essere renderizzato
  * @property string                    $title        Titolo del widget
  * @property string                    $icon         Icona del widget
@@ -51,7 +61,10 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
 
     public string $title = '';
     public string $icon = '';
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
     protected int|string|array $columnSpan = 'full';
 
     /**
@@ -69,9 +82,13 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
      * @var array<string, mixed>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public null|array $data = [];
 >>>>>>> 0e51323 (.)
+=======
+    public null|array $data = [];
+>>>>>>> a5dccfe (.)
 
     /*
      * public function __construct()
@@ -101,16 +118,22 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
      * Configura il form del widget.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return Form Il form configurato
      */
     public function form(Form $form): Form
 =======
+=======
+>>>>>>> a5dccfe (.)
      * @param Schema $schema Il form da configurare
      *
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
     {
         $schema = $schema->components($this->getFormSchema());
         $schema->statePath('data');
@@ -130,9 +153,13 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (!empty($data)) {
 >>>>>>> 0e51323 (.)
+=======
+        if (!empty($data)) {
+>>>>>>> a5dccfe (.)
             // $form->fill($data);
             // $this->data=$data;
         }
@@ -144,9 +171,13 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
     {
         $model = $this->getFormModel();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (null === $model) {
 >>>>>>> 0e51323 (.)
+=======
+        if (null === $model) {
+>>>>>>> a5dccfe (.)
             return [];
         }
         if (is_string($model)) {
@@ -165,9 +196,13 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
                     $merge1 = array_merge($defaults, $res);
                     $merge1 = Arr::map($merge1, function ($value, string|int $key) use ($defaults) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         if (null === $value) {
 >>>>>>> 0e51323 (.)
+=======
+                        if (null === $value) {
+>>>>>>> a5dccfe (.)
                             $value = Arr::get($defaults, $key, null);
                         }
 
@@ -270,10 +305,14 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
             ->toString();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<Htmlable|string> $schemaComponents */
 =======
         /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
 >>>>>>> 0e51323 (.)
+=======
+        /** @var array<Htmlable|string> $schemaComponents */
+>>>>>>> a5dccfe (.)
         $schemaComponents = $this->$schema();
         return Step::make($name)->schema($schemaComponents);
     }
@@ -284,11 +323,17 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
         $submit_view = 'pub_theme::filament.wizard.submit-button';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
 >>>>>>> 0e51323 (.)
+=======
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+>>>>>>> a5dccfe (.)
         return Action::make('submit')
             ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
             ->submit('save')

@@ -41,7 +41,12 @@ mantenere sempre lo stesso pattern di namespace rispetto a filament, ma usando i
 namespace Filament\Resources\Pages;
 
 // namespace corretto nel modulo
+<<<<<<< HEAD
 namespace Modules\SaluteOra\Filament\Resources\Pages;
+=======
+namespace Modules\<nome modulo>\Filament\Resources\Pages;
+namespace Modules\<nome modulo>\Filament\Resources\Pages;
+>>>>>>> a5dccfe (.)
 ```
 
 ## metodi delle classi base
@@ -75,6 +80,15 @@ protected function getInfolistSchema(): array
 
 ## linkback
 
+<<<<<<< HEAD
 - [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
 
+=======
+- [errore override metodo final](/var/www/html/base_ptvx_fila3_mono/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_ptvx_fila3_mono/laravel/Modules/<nome modulo>/docs/filament-resources.md)
+- [errore override metodo final](/var/www/html/base_<nome progetto>/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/docs/filament-resources.md)
+- [errore override metodo final](/var/www/html/base_techplanner_fila3_mono/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](../<nome progetto>/docs/filament-resources.md)
+>>>>>>> a5dccfe (.)

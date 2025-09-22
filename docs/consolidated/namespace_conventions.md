@@ -65,10 +65,21 @@ Questo è l'errore più comune e grave nelle convenzioni di namespace:
 
 ```php
 // GRAVEMENTE ERRATO
+<<<<<<< HEAD
 namespace Modules\SaluteOra\App\Controllers;
 
 // CORRETTO
 namespace Modules\SaluteOra\Controllers;
+=======
+namespace Modules\<nome progetto>\App\Controllers;
+
+// CORRETTO
+namespace Modules\<nome progetto>\Controllers;
+namespace Modules\<nome modulo>\App\Controllers;
+
+// CORRETTO
+namespace Modules\<nome modulo>\Controllers;
+>>>>>>> a5dccfe (.)
 ```
 
 ## esempi corretti vs errati
@@ -76,19 +87,41 @@ namespace Modules\SaluteOra\Controllers;
 ### corretti ✓
 ```php
 namespace Modules\Xot\Console\Commands;
+<<<<<<< HEAD
 namespace Modules\SaluteOra\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\SaluteOra\Filament\Resources;
+=======
+namespace Modules\<nome progetto>\Models;
+namespace Modules\User\Services;
+namespace Modules\Tenant\Repositories;
+namespace Modules\<nome progetto>\Filament\Resources;
+namespace Modules\<nome modulo>\Models;
+namespace Modules\User\Services;
+namespace Modules\Tenant\Repositories;
+namespace Modules\<nome modulo>\Filament\Resources;
+>>>>>>> a5dccfe (.)
 ```
 
 ### errati ✗
 ```php
 namespace Modules\Xot\app\Console\Commands;       // errato: 'app' nel namespace
+<<<<<<< HEAD
 namespace Modules\SaluteOra\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completamente sbagliata
+=======
+namespace Modules\<nome progetto>\App\Models;           // errato: 'App' nel namespace
+namespace Modules\User\App\Services;              // errato: 'App' nel namespace
+namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
+namespace App\Modules\<nome progetto>\Controllers;      // errato: struttura completamente sbagliata
+namespace Modules\<nome modulo>\App\Models;           // errato: 'App' nel namespace
+namespace Modules\User\App\Services;              // errato: 'App' nel namespace
+namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
+namespace App\Modules\<nome modulo>\Controllers;      // errato: struttura completamente sbagliata
+>>>>>>> a5dccfe (.)
 ```
 
 ## struttura fisica vs namespace
@@ -98,22 +131,37 @@ namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completam
 Anche se i file sono fisicamente collocati in una directory `app/`, il namespace **non deve mai riflettere** questa struttura.
 
 ```
+<<<<<<< HEAD
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
+=======
+Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
+Namespace corretto: namespace Modules\<nome progetto>\Models;
+Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
+Namespace corretto: namespace Modules\<nome modulo>\Models;
+>>>>>>> a5dccfe (.)
 ```
 
 ### mappatura corretta percorso-namespace
 
 | percorso fisico | namespace corretto |
 |-----------------|--------------------|
+<<<<<<< HEAD
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+=======
+| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
+| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
+| `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome modulo>\Models` |
+| `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome modulo>\Filament\Resources` |
+>>>>>>> a5dccfe (.)
 | `/Modules/Xot/app/Providers/XotServiceProvider.php` | `Modules\Xot\Providers` |
 
 ### struttura directory completa
 
 ```
 Modules/
+<<<<<<< HEAD
   SaluteOra/
     app/                        // directory fisica
       Console/
@@ -124,6 +172,28 @@ Modules/
       Filament/
         Resources/
           PatientResource.php  // namespace Modules\SaluteOra\Filament\Resources;
+=======
+  <nome progetto>/
+    app/                        // directory fisica
+      Console/
+        Commands/
+          ImportPatient.php     // namespace Modules\<nome progetto>\Console\Commands;
+      Models/
+        Patient.php            // namespace Modules\<nome progetto>\Models;
+      Filament/
+        Resources/
+          PatientResource.php  // namespace Modules\<nome progetto>\Filament\Resources;
+  <nome progetto>/
+    app/                        // directory fisica
+      Console/
+        Commands/
+          ImportPatient.php     // namespace Modules\<nome modulo>\Console\Commands;
+      Models/
+        Patient.php            // namespace Modules\<nome modulo>\Models;
+      Filament/
+        Resources/
+          PatientResource.php  // namespace Modules\<nome modulo>\Filament\Resources;
+>>>>>>> a5dccfe (.)
 ```
 
 ## come verificare i namespace
@@ -141,7 +211,12 @@ Prima di committare un file, verifica sempre che:
 Utilizza phpstan per verificare automaticamente i namespace:
 
 ```bash
+<<<<<<< HEAD
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
+=======
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+>>>>>>> a5dccfe (.)
 ```
 
 ## motivazione di questa convenzione
@@ -164,10 +239,21 @@ Un errore comune è includere `App` nel namespace:
 
 ```php
 // ERRATO ❌
+<<<<<<< HEAD
 namespace Modules\SaluteOra\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\SaluteOra\Console\Commands;
+=======
+namespace Modules\<nome progetto>\App\Console\Commands;
+
+// CORRETTO ✓
+namespace Modules\<nome progetto>\Console\Commands;
+namespace Modules\<nome modulo>\App\Console\Commands;
+
+// CORRETTO ✓
+namespace Modules\<nome modulo>\Console\Commands;
+>>>>>>> a5dccfe (.)
 ```
 
 ### Conseguenze dell'Errore
@@ -183,7 +269,13 @@ namespace Modules\SaluteOra\Console\Commands;
 Utilizzare grep per trovare tutti i file con namespace errato:
 
 ```bash
+<<<<<<< HEAD
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
+>>>>>>> a5dccfe (.)
 ```
 
 ### PHP Stan

@@ -2,12 +2,23 @@
 
 ## Descrizione
 
+<<<<<<< HEAD
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
+=======
+La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di , fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
+La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di <nome progetto>, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
+>>>>>>> a5dccfe (.)
 
 ## Percorso del File
 
 ```
+<<<<<<< HEAD
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
+/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
+>>>>>>> a5dccfe (.)
 ```
 
 ## Gerarchia di Ereditarietà
@@ -67,7 +78,12 @@ public function form(Form $form): Form
 ### Estensione Corretta
 
 ```php
+<<<<<<< HEAD
 namespace Modules\SaluteOra\Filament\Pages;
+=======
+namespace Modules\<nome modulo>\Filament\Pages;
+namespace Modules\<nome modulo>\Filament\Pages;
+>>>>>>> a5dccfe (.)
 
 use Modules\Xot\Filament\Resources\Pages\XotBasePage;
 
@@ -88,7 +104,12 @@ class MyCustomPage extends XotBasePage
 
 ```php
 // ❌ ERRORE: Non estendere mai direttamente Page
+<<<<<<< HEAD
 namespace Modules\SaluteOra\Filament\Pages;
+=======
+namespace Modules\<nome modulo>\Filament\Pages;
+namespace Modules\<nome modulo>\Filament\Pages;
+>>>>>>> a5dccfe (.)
 
 use Filament\Pages\Page;
 
@@ -170,6 +191,18 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 ## Collegamenti
 
 - [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
+<<<<<<< HEAD
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
+=======
+- [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
+- [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
+- [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
+- [Pattern di Estensione](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
+- [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/class_inheritance_principles.md)
+- [Architettura Filament-Xot](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament_xot_architecture.md)
+- [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
+- [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
+- [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
+>>>>>>> a5dccfe (.)

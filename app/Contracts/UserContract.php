@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Contracts;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
@@ -17,6 +18,8 @@ use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
 use Spatie\Permission\Contracts\Permission;
 =======
+=======
+>>>>>>> a5dccfe (.)
 use Filament\Support\Contracts\HasLabel;
 use Spatie\Permission\Contracts\Permission;
 use Override;
@@ -36,7 +39,10 @@ use Laravel\Passport\Token;
 use Modules\User\Contracts\HasTeamsContract;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
 use Spatie\Permission\Contracts\Role;
 use Spatie\Permission\Exceptions\GuardDoesNotMatch;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
@@ -48,7 +54,10 @@ use Spatie\Permission\Exceptions\RoleDoesNotExist;
  * Modules\User\Contracts\UserContract.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a5dccfe (.)
  * @property ProfileContract|null                                                       $profile
  * @property string $id
  * @property string $handle
@@ -64,15 +73,23 @@ use Spatie\Permission\Exceptions\RoleDoesNotExist;
  * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
  *
  * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
  * @method bool canAccessSocialite()
  *
  * @phpstan-require-extends Model
  *
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
 =======
+=======
+ * @mixin IdeHelperUserContract
+ */
+>>>>>>> a5dccfe (.)
 interface UserContract extends
     Authenticatable,
     Authorizable,
@@ -83,7 +100,10 @@ interface UserContract extends
     MustVerifyEmail,
     PassportHasApiTokensContract,
     HasMedia
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
 {
     /*
      * public function isSuperAdmin();
@@ -102,10 +122,15 @@ interface UserContract extends
      * Get a relationship.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * @param string $key
      *
 >>>>>>> 0e51323 (.)
+=======
+     * @param string $key
+     *
+>>>>>>> a5dccfe (.)
      * @return mixed|null
      */
     public function getRelationValue($key);
@@ -114,11 +139,17 @@ interface UserContract extends
      * Create a new instance of the given model.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * @param array $attributes
      * @param bool  $exists
      *
 >>>>>>> 0e51323 (.)
+=======
+     * @param array $attributes
+     * @param bool  $exists
+     *
+>>>>>>> a5dccfe (.)
      * @return static
      */
     public function newInstance($attributes = [], $exists = false);
@@ -137,9 +168,13 @@ interface UserContract extends
     public function hasRole(
         string|int|array|Role|Collection $roles,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         null|string $guard = null,
 >>>>>>> 0e51323 (.)
+=======
+        null|string $guard = null,
+>>>>>>> a5dccfe (.)
     ): bool;
 
     /**
@@ -153,10 +188,15 @@ interface UserContract extends
      * Revoke the given role from the model.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * @param string|int|Role|BackedEnum $role
      *
 >>>>>>> 0e51323 (.)
+=======
+     * @param string|int|Role|BackedEnum $role
+     *
+>>>>>>> a5dccfe (.)
      * @return self
      */
     public function removeRole($role);
@@ -182,7 +222,10 @@ interface UserContract extends
     /**
      * Get all consents for the model (polymorphic).
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a5dccfe (.)
      *
      */
     //public function consents(): MorphMany;
@@ -194,5 +237,8 @@ interface UserContract extends
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
 }

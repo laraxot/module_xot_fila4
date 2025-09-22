@@ -3,7 +3,11 @@
 ## Data: 2025-01-06
 
 ## Contesto
+<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
 
 ## File Corretti
 
@@ -92,6 +96,10 @@ $res=Locality::query()
 
 ## Verifiche Post-Correzione
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a5dccfe (.)
 ### 2. Validazione PHPStan
 ```bash
 cd laravel
@@ -133,7 +141,10 @@ php artisan lang:check
 ### Modulo Xot
 - [Git Conflicts Resolution](laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 ## Best Practices Applicate
 
 ### 1. Gestione Conflitti
@@ -195,7 +206,10 @@ php artisan lang:check
 - [PHPStan Guidelines](../../docs/phpstan_usage.md)
 - [Git Best Practices](../../docs/git-best-practices.md)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 ---
 
 **Ultimo aggiornamento**: 2025-01-06

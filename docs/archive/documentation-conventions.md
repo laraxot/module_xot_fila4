@@ -59,14 +59,22 @@
 ### Collegamenti bidirezionali
 1. **Da modulo a root**: Ogni documento in un modulo deve linkare alla documentazione root correlata:
    ```markdown
+<<<<<<< HEAD
 Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 
+=======
+   Vedi anche: [Documentazione generale](/docs/nome_documento.md)
+>>>>>>> a5dccfe (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
    ```markdown
+<<<<<<< HEAD
 Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
+>>>>>>> a5dccfe (.)
    ```
 
 ## Manutenzione della documentazione
@@ -105,7 +113,10 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 - [Documentazione generale](../../../docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/docs/service_provider.md)
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
 *Ultimo aggiornamento: Giugno 2025*

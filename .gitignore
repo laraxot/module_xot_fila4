@@ -2,12 +2,17 @@
 # LARAXOT MODULE XOT - .GITIGNORE
 # ==============================================
 # Modulo base Laraxot - Template standardizzato
+<<<<<<< HEAD
 # Ultimo aggiornamento: 2025-01-31
+=======
+# Ultimo aggiornamento: 2025-01-06
+>>>>>>> 0e51323 (.)
 # ==============================================
 
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+<<<<<<< HEAD
 /vendor/
 /vendor
 /node_modules/
@@ -18,12 +23,22 @@ yarn.lock
 composer.lock
 yarn-error.log
 npm-debug.log
+=======
+vendor/
+node_modules/
+package-lock.json
+yarn.lock
+composer.lock
+>>>>>>> 0e51323 (.)
 
 # ==============================================
 # BUILD & COMPILED FILES
 # ==============================================
 /build
+<<<<<<< HEAD
 /build/
+=======
+>>>>>>> 0e51323 (.)
 build/
 dist/
 docs/cache/
@@ -57,6 +72,36 @@ lerna-debug.log*
 # ==============================================
 # LARAVEL SPECIFIC
 # ==============================================
+<<<<<<< HEAD
+=======
+# Dependencies and packages
+/vendor/
+/node_modules/
+/docs/vendor/
+
+# Lock files and cache
+*.lock
+*.cache
+*.phar
+*.jar
+package-lock.json
+yarn-error.log
+npm-debug.log
+composer.lock
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# Log files
+*.log
+error_log
+
+# Build directories
+/build/
+/build
+build/
+
+# Laravel specific
+>>>>>>> 0e51323 (.)
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -81,7 +126,10 @@ Homestead.json
 # GIT SPECIFIC
 # ==============================================
 .git-rewrite/
+<<<<<<< HEAD
 .git-rewrite
+=======
+>>>>>>> 0e51323 (.)
 .git-blame-ignore-revs
 
 # ==============================================
@@ -121,28 +169,42 @@ docs/phpstan/
 docs/cache/
 
 # ==============================================
+<<<<<<< HEAD
 # LANGUAGE FILES
 # ==============================================
 lang/lang/
 resources/lang/
 
 # ==============================================
+=======
+>>>>>>> 0e51323 (.)
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
+<<<<<<< HEAD
 database/Factories_
+=======
+>>>>>>> 0e51323 (.)
 database_old/
 
 # ==============================================
 # MODULE SPECIFIC - XOT
 # ==============================================
+<<<<<<< HEAD
+=======
+# File di test temporanei
+test.txt
+testbench.yaml
+
+>>>>>>> 0e51323 (.)
 # File di configurazione locale
 config/local.php
 config/development.php
 
+<<<<<<< HEAD
 # File temporanei
 packages/cache/
 packages/temp/
@@ -151,11 +213,77 @@ packages/temp/
 test.txt
 testbench.yaml
 
+=======
+# Cache specifiche del modulo
+packages/cache/
+packages/temp/
+
+>>>>>>> 0e51323 (.)
 # ==============================================
 # END OF XOT .GITIGNORE
 # ==============================================
 
+<<<<<<< HEAD
 # File specifici del progetto
+=======
+# Database directories
+database/Factories_
+database/Factories_old
+database/Migrations_old
+
+# Local configurations
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+# IDE specific
+/.idea
+.phpintel
+
+# Git specific
+.git-blame-ignore-revs
+.git-rewrite/
+.git-rewrite
+
+# Temporary and system files
+*.tmp
+*.swp
+*.swo
+*.stackdump
+*.exe
+*:Zone.Identifier
+.DS_Store
+*.old
+*.old1
+*.backup
+*.backup.*
+*.bak
+*.new
+
+# Documentation and cache
+docs/phpstan/
+docs/cache/
+cache/
+
+# Development tools
+.windsurf/
+.cursor/
+# Old directories
+resources/views/Components_old
+database/Migrations_old
+database/Seeders_old
+database/Factories_old
+database_old
+
+# Old directories to ignore
+resources/views/Components_old
+database/Migrations_old
+database/Seeders_old
+database/Factories_old
+database_old
+
+# 🚫 File specifici del progetto
+>>>>>>> 0e51323 (.)
 *.fila2
 laravel
 public_html

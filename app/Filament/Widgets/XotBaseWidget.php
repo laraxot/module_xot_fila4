@@ -4,8 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+<<<<<<< HEAD
 use Filament\Forms\Form;
 use Filament\Forms\Form;
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Exception;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Actions\Action;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Forms;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+>>>>>>> 0e51323 (.)
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -18,6 +33,25 @@ use Webmozart\Assert\Assert;
  * Classe base astratta per tutti i widget Filament.
  * Fornisce funzionalità comuni e standardizzate per la gestione dei widget.
  *
+<<<<<<< HEAD
+=======
+ * @property bool                      $shouldRender Indica se il widget deve essere renderizzato
+ * @property string                    $title        Titolo del widget
+ * @property string                    $icon         Icona del widget
+ * @property array<string, mixed>|null $data         Dati del form
+ * @property Schema $form
+ */
+abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActions
+{
+    use TransTrait;
+    // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
+    // use InteractsWithPageTable;
+    use InteractsWithForms;
+    use InteractsWithActions;
+
+    public string $title = '';
+    public string $icon = '';
+>>>>>>> 0e51323 (.)
     protected int|string|array $columnSpan = 'full';
 
     /**
@@ -34,6 +68,10 @@ use Webmozart\Assert\Assert;
      *
      * @var array<string, mixed>
      */
+<<<<<<< HEAD
+=======
+    public null|array $data = [];
+>>>>>>> 0e51323 (.)
 
     /*
      * public function __construct()
@@ -62,9 +100,17 @@ use Webmozart\Assert\Assert;
     /**
      * Configura il form del widget.
      *
+<<<<<<< HEAD
      * @return Form Il form configurato
      */
     public function form(Form $form): Form
+=======
+     * @param Schema $schema Il form da configurare
+     *
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+>>>>>>> 0e51323 (.)
     {
         $schema = $schema->components($this->getFormSchema());
         $schema->statePath('data');
@@ -83,6 +129,10 @@ use Webmozart\Assert\Assert;
                 $schema->model($model);
             }
         }
+<<<<<<< HEAD
+=======
+        if (!empty($data)) {
+>>>>>>> 0e51323 (.)
             // $form->fill($data);
             // $this->data=$data;
         }
@@ -93,6 +143,10 @@ use Webmozart\Assert\Assert;
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
+<<<<<<< HEAD
+=======
+        if (null === $model) {
+>>>>>>> 0e51323 (.)
             return [];
         }
         if (is_string($model)) {
@@ -110,6 +164,10 @@ use Webmozart\Assert\Assert;
                     $defaults = $model->getDataDefaults();
                     $merge1 = array_merge($defaults, $res);
                     $merge1 = Arr::map($merge1, function ($value, string|int $key) use ($defaults) {
+<<<<<<< HEAD
+=======
+                        if (null === $value) {
+>>>>>>> 0e51323 (.)
                             $value = Arr::get($defaults, $key, null);
                         }
 
@@ -211,7 +269,11 @@ use Webmozart\Assert\Assert;
             ->append('Schema')
             ->toString();
 
+<<<<<<< HEAD
         /** @var array<Htmlable|string> $schemaComponents */
+=======
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+>>>>>>> 0e51323 (.)
         $schemaComponents = $this->$schema();
         return Step::make($name)->schema($schemaComponents);
     }
@@ -221,6 +283,12 @@ use Webmozart\Assert\Assert;
         /** @var view-string $submit_view */
         $submit_view = 'pub_theme::filament.wizard.submit-button';
 
+<<<<<<< HEAD
+=======
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+>>>>>>> 0e51323 (.)
         return Action::make('submit')
             ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
             ->submit('save')

@@ -4,34 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-<<<<<<< HEAD
-use Exception;
-use Filament\Actions\Action;
-use Filament\Actions\Concerns\InteractsWithActions;
-use Filament\Actions\Contracts\HasActions;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Wizard\Step;
-use Filament\Schemas\Schema;
-use Filament\Widgets\Concerns\InteractsWithPageFilters;
-use Filament\Widgets\Widget as FilamentWidget;
-use Illuminate\Contracts\Support\Htmlable;
-=======
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-use Exception;
-use Filament\Schemas\Components\Wizard\Step;
-use Filament\Actions\Action;
-use Filament\Actions\Concerns\InteractsWithActions;
-use Filament\Actions\Contracts\HasActions;
-use Filament\Forms;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Widgets\Concerns\InteractsWithPageFilters;
-use Filament\Widgets\Widget as FilamentWidget;
->>>>>>> 0218cd5 (.)
+use Filament\Forms\Form;
+use Filament\Forms\Form;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -44,44 +18,6 @@ use Webmozart\Assert\Assert;
  * Classe base astratta per tutti i widget Filament.
  * Fornisce funzionalità comuni e standardizzate per la gestione dei widget.
  *
-<<<<<<< HEAD
- * @property bool $shouldRender Indica se il widget deve essere renderizzato
- * @property string $title Titolo del widget
- * @property string $icon Icona del widget
- * @property array<string, mixed>|null $data Dati del form
- * @property Schema $form
- */
-abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
-{
-    use InteractsWithActions;
-
-    // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
-    // use InteractsWithPageTable;
-    use InteractsWithForms;
-    use TransTrait;
-
-    public string $title = '';
-
-    public string $icon = '';
-
-=======
- * @property bool                      $shouldRender Indica se il widget deve essere renderizzato
- * @property string                    $title        Titolo del widget
- * @property string                    $icon         Icona del widget
- * @property array<string, mixed>|null $data         Dati del form
- * @property Schema $form
- */
-abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActions
-{
-    use TransTrait;
-    // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
-    // use InteractsWithPageTable;
-    use InteractsWithForms;
-    use InteractsWithActions;
-
-    public string $title = '';
-    public string $icon = '';
->>>>>>> 0218cd5 (.)
     protected int|string|array $columnSpan = 'full';
 
     /**
@@ -98,11 +34,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
      *
      * @var array<string, mixed>
      */
-<<<<<<< HEAD
-    public ?array $data = [];
-=======
-    public null|array $data = [];
->>>>>>> 0218cd5 (.)
 
     /*
      * public function __construct()
@@ -131,15 +62,9 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
     /**
      * Configura il form del widget.
      *
-<<<<<<< HEAD
-     * @param  Schema  $schema  Il form da configurare
-=======
-     * @param Schema $schema Il form da configurare
-     *
->>>>>>> 0218cd5 (.)
-     * @return Schema Il form configurato
+     * @return Form Il form configurato
      */
-    public function form(Schema $schema): Schema
+    public function form(Form $form): Form
     {
         $schema = $schema->components($this->getFormSchema());
         $schema->statePath('data');
@@ -158,11 +83,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
                 $schema->model($model);
             }
         }
-<<<<<<< HEAD
-        if (! empty($data)) {
-=======
-        if (!empty($data)) {
->>>>>>> 0218cd5 (.)
             // $form->fill($data);
             // $this->data=$data;
         }
@@ -173,11 +93,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
-<<<<<<< HEAD
-        if ($model === null) {
-=======
-        if (null === $model) {
->>>>>>> 0218cd5 (.)
             return [];
         }
         if (is_string($model)) {
@@ -195,11 +110,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
                     $defaults = $model->getDataDefaults();
                     $merge1 = array_merge($defaults, $res);
                     $merge1 = Arr::map($merge1, function ($value, string|int $key) use ($defaults) {
-<<<<<<< HEAD
-                        if ($value === null) {
-=======
-                        if (null === $value) {
->>>>>>> 0218cd5 (.)
                             $value = Arr::get($defaults, $key, null);
                         }
 
@@ -303,10 +213,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
 
         /** @var array<Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
-<<<<<<< HEAD
-
-=======
->>>>>>> 0218cd5 (.)
         return Step::make($name)->schema($schemaComponents);
     }
 
@@ -315,16 +221,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
         /** @var view-string $submit_view */
         $submit_view = 'pub_theme::filament.wizard.submit-button';
 
-<<<<<<< HEAD
-        if (! view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
-        }
-
-=======
-        if (!view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
-        }
->>>>>>> 0218cd5 (.)
         return Action::make('submit')
             ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
             ->submit('save')

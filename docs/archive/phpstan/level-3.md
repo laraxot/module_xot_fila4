@@ -1,6 +1,5 @@
 
 
-
 # Rapporto PHPStan Livello 3 per il modulo Xot
 
 Data analisi: 2025-04-15 21:53:24
@@ -57,23 +56,6 @@ aurmich/dev
 aurmich/dev
 
 ## Collegamenti tra versioni di level_3.md
-<<<<<<< HEAD
-* [level_3.md](laravel/Modules/Chart/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/Reporting/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/Gdpr/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/Notify/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/Xot/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/Dental/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/User/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/UI/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/Lang/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/Job/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/Media/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/Tenant/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/Activity/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/Patient/project_docs/phpstan/level_3.md)
-* [level_3.md](laravel/Modules/Cms/project_docs/phpstan/level_3.md)
-=======
 * [level_3.md](laravel/Modules/Chart/docs/phpstan/level_3.md)
 * [level_3.md](laravel/Modules/Reporting/docs/phpstan/level_3.md)
 * [level_3.md](laravel/Modules/Gdpr/docs/phpstan/level_3.md)
@@ -89,5 +71,5 @@ aurmich/dev
 * [level_3.md](laravel/Modules/Activity/docs/phpstan/level_3.md)
 * [level_3.md](laravel/Modules/Patient/docs/phpstan/level_3.md)
 * [level_3.md](laravel/Modules/Cms/docs/phpstan/level_3.md)
->>>>>>> 0218cd5 (.)
+
 

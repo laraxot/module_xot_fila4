@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
-<<<<<<< HEAD
 use Exception;
-=======
-<<<<<<< HEAD
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Support\Arr;
@@ -37,15 +30,7 @@ class MorphToManyAction
      * @param Model       $row         The model instance to update
      * @param RelationDTO $relationDTO Data transfer object containing relation information
      *
-<<<<<<< HEAD
      * @throws Exception When data is not in correct format or relation is invalid
-=======
-<<<<<<< HEAD
-     * @throws Exception When data is not in correct format or relation is invalid
-=======
-     * @throws \Exception When data is not in correct format or relation is invalid
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      */
     public function execute(Model $row, RelationDTO $relationDTO): void
     {
@@ -55,63 +40,17 @@ class MorphToManyAction
         $model = $row;
 
         if (\in_array('to', array_keys($data), false) || \in_array('from', array_keys($data), false)) {
-<<<<<<< HEAD
             if (!isset($data['to'])) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            if (!isset($data['to'])) {
-=======
-            if (! isset($data['to'])) {
->>>>>>> a12f125f4a (.)
-=======
-            if (!isset($data['to'])) {
->>>>>>> b93ef594b4 (.)
-=======
-            if (! isset($data['to'])) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                 $data['to'] = [];
             }
             $data = $data['to'];
         }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         if (!\is_array($data)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         }
 
         if (!Arr::isAssoc($data)) {
-<<<<<<< HEAD
-=======
-=======
-        if (! \is_array($data)) {
-            throw new Exception('['.__LINE__.']['.class_basename($this).']');
-        }
-
-        if (! Arr::isAssoc($data)) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!\is_array($data)) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
-        }
-
-        if (!Arr::isAssoc($data)) {
->>>>>>> b93ef594b4 (.)
-=======
-        if (! \is_array($data)) {
-            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
-        }
-
-        if (! Arr::isAssoc($data)) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             $relation->sync($data);
 
             return;
@@ -119,23 +58,7 @@ class MorphToManyAction
 
         foreach ($data as $k => $v) {
             if (\is_array($v)) {
-<<<<<<< HEAD
                 if (!isset($v['pivot'])) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                if (!isset($v['pivot'])) {
-=======
-                if (! isset($v['pivot'])) {
->>>>>>> a12f125f4a (.)
-=======
-                if (!isset($v['pivot'])) {
->>>>>>> b93ef594b4 (.)
-=======
-                if (! isset($v['pivot'])) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                     $v['pivot'] = [];
                 }
 

@@ -12,33 +12,9 @@ class CopyFromLastYearAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
     public function execute(string $modelClass, string $fieldName, null|string $year): void
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
-=======
-    public function execute(string $modelClass, string $fieldName, ?string $year): void
-    {
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
->>>>>>> a12f125f4a (.)
-=======
-    public function execute(string $modelClass, string $fieldName, null|string $year): void
-    {
-        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
->>>>>>> b93ef594b4 (.)
-=======
-    public function execute(string $modelClass, string $fieldName, ?string $year): void
-    {
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             return;
         }
 

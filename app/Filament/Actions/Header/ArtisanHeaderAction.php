@@ -21,25 +21,7 @@ class ArtisanHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
-<<<<<<< HEAD
             
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            
-=======
-
-            // 
->>>>>>> a12f125f4a (.)
-=======
-            
->>>>>>> b93ef594b4 (.)
-=======
-
-            // 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             // ->tooltip(__('xot::actions.export_xls'))
 
             // ->icon('heroicon-o-cloud-arrow-down')
@@ -57,23 +39,7 @@ class ArtisanHeaderAction extends Action
             });
     }
 
-<<<<<<< HEAD
     public static function getDefaultName(): null|string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public static function getDefaultName(): null|string
-=======
-    public static function getDefaultName(): ?string
->>>>>>> a12f125f4a (.)
-=======
-    public static function getDefaultName(): null|string
->>>>>>> b93ef594b4 (.)
-=======
-    public static function getDefaultName(): ?string
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     {
         return 'artisan_action';
     }

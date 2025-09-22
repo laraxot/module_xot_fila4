@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers\Filament;
 
-<<<<<<< HEAD
 use Exception;
-=======
-<<<<<<< HEAD
-use Exception;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Navigation\MenuItem;
@@ -32,64 +25,6 @@ use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
-<<<<<<< HEAD
-=======
-=======
-use Filament\Http\Middleware\Authenticate;
-use Filament\Http\Middleware\DisableBladeIconComponents;
-use Filament\Http\Middleware\DispatchServingFilamentEvent;
-use Filament\Navigation\MenuItem;
-=======
->>>>>>> b93ef594b4 (.)
-use Filament\Panel;
-use Filament\PanelProvider;
-use Filament\Navigation\MenuItem;
-use Modules\Xot\Datas\MetatagData;
-use Nwidart\Modules\Facades\Module;
-use Illuminate\Support\Facades\Auth;
-use Filament\Http\Middleware\Authenticate;
-use Modules\Xot\Filament\Pages\MainDashboard;
-use Modules\User\Filament\Pages\MyProfilePage;
-use Illuminate\Session\Middleware\StartSession;
-use Illuminate\Cookie\Middleware\EncryptCookies;
-use Illuminate\Routing\Middleware\SubstituteBindings;
-use Illuminate\Session\Middleware\AuthenticateSession;
-use Illuminate\View\Middleware\ShareErrorsFromSession;
-use Filament\Http\Middleware\DisableBladeIconComponents;
-use Modules\Xot\Actions\Panel\ApplyMetatagToPanelAction;
-<<<<<<< HEAD
-use Modules\Xot\Datas\MetatagData;
-use Modules\Xot\Filament\Pages\MainDashboard;
-use Nwidart\Modules\Facades\Module;
->>>>>>> a12f125f4a (.)
-=======
-use Filament\Http\Middleware\DispatchServingFilamentEvent;
-use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
-use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
-use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
->>>>>>> b93ef594b4 (.)
-=======
-use Filament\Http\Middleware\Authenticate;
-use Filament\Http\Middleware\DisableBladeIconComponents;
-use Filament\Http\Middleware\DispatchServingFilamentEvent;
-use Filament\Navigation\MenuItem;
-use Filament\Panel;
-use Filament\PanelProvider;
-use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
-use Illuminate\Cookie\Middleware\EncryptCookies;
-use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
-use Illuminate\Routing\Middleware\SubstituteBindings;
-use Illuminate\Session\Middleware\AuthenticateSession;
-use Illuminate\Session\Middleware\StartSession;
-use Illuminate\View\Middleware\ShareErrorsFromSession;
-use Modules\User\Filament\Pages\MyProfilePage;
-use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
-use Modules\Xot\Actions\Panel\ApplyMetatagToPanelAction;
-use Modules\Xot\Datas\MetatagData;
-use Modules\Xot\Filament\Pages\MainDashboard;
-use Nwidart\Modules\Facades\Module;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
 abstract class XotBaseMainPanelProvider extends PanelProvider
 {
@@ -99,12 +34,6 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
     {
         $metatag = MetatagData::make();
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         $panel->id('admin')->path('admin');
 
         if (!Module::has('Cms')) {
@@ -112,56 +41,10 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
         }
 
         $panel = $panel->passwordReset()->sidebarFullyCollapsibleOnDesktop()->spa()->profile(null, true);
-<<<<<<< HEAD
-=======
-=======
-        $panel
-            ->id('admin')
-            ->path('admin');
-=======
-        $panel->id('admin')->path('admin');
->>>>>>> b93ef594b4 (.)
-
-        if (!Module::has('Cms')) {
-            $panel->login();
-        }
-
-<<<<<<< HEAD
-=======
-        $panel
-            ->id('admin')
-            ->path('admin');
-
-        if (! Module::has('Cms')) {
-            $panel->login();
-        }
-
->>>>>>> origin/develop
-        $panel = $panel
-            ->passwordReset()
-            ->sidebarFullyCollapsibleOnDesktop()
-            ->spa()
-            ->profile(null, true);
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-        $panel = $panel->passwordReset()->sidebarFullyCollapsibleOnDesktop()->spa()->profile(null, true);
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
         app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
 
         $panel = $panel
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
             ->discoverResources(
                 in: app_path('Filament/Resources'),
                 for: 'App\\Filament\\Resources',
@@ -170,48 +53,14 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
                 in: app_path('Filament/Pages'),
                 for: 'App\\Filament\\Pages',
             )
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-            ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
-            ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-            ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
-            ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             ->pages([
                 MainDashboard::class,
                 MyProfilePage::class,
             ])
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
             ->discoverWidgets(
                 in: app_path('Filament/Widgets'),
                 for: 'App\\Filament\\Widgets',
             )
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-            ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-            ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             ->widgets([
                 // Widgets\AccountWidget::class,
             ])
@@ -229,12 +78,6 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             ->authMiddleware([
                 Authenticate::class,
             ]);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         $navs = app(GetModulesNavigationItems::class)->execute();
         $panel->navigationItems($navs);
         
@@ -246,44 +89,6 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             MenuItem::make()
                 ->label(__('user::default.profile.my_profile'))
                 ->url($profile_url)
-<<<<<<< HEAD
-=======
-=======
-
-=======
->>>>>>> b93ef594b4 (.)
-        $navs = app(GetModulesNavigationItems::class)->execute();
-        $panel->navigationItems($navs);
-        
-        // Temporaneamente disabilitato per debug tenancy
-        // $profile_url = MyProfilePage::getUrl(panel: $panel->getId());
-        $profile_url = '#';
-
-        $panel->userMenuItems([
-            MenuItem::make()
-<<<<<<< HEAD
-                ->url(fn (): string => $profile_url)
->>>>>>> a12f125f4a (.)
-=======
-                ->label(__('user::default.profile.my_profile'))
-                ->url($profile_url)
->>>>>>> b93ef594b4 (.)
-=======
-
-        $navs = app(GetModulesNavigationItems::class)->execute();
-        $panel->navigationItems($navs);
-
-        try {
-            $profile_url = MyProfilePage::getUrl(panel: $panel->getId());
-        } catch (\Exception $e) {
-            $profile_url = '#';
-        }
-
-        $panel->userMenuItems([
-            MenuItem::make()
-                ->url(fn (): string => $profile_url)
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                 ->icon('heroicon-o-user'),
         ]);
 

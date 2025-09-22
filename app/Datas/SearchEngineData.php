@@ -36,22 +36,6 @@ class SearchEngineData extends Data
      */
     public static function make(): static
     {
-<<<<<<< HEAD
         return new static();
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return new static();
-=======
-        return new static;
->>>>>>> a12f125f4a (.)
-=======
-        return new static();
->>>>>>> b93ef594b4 (.)
-=======
-        return new static;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 }

@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Datas;
 
-<<<<<<< HEAD
 use Exception;
-=======
-<<<<<<< HEAD
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Support\Facades\File;
 use Livewire\Wireable;
 use Spatie\LaravelData\Concerns\WireableData;
@@ -32,39 +25,11 @@ class EnvData extends Data implements Wireable
 
     public string $telegram_bot_token = '';
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     private static null|self $instance = null;
 
     public static function make(): self
     {
         if (!self::$instance) {
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-    private static ?self $instance = null;
-
-    public static function make(): self
-    {
-        if (! self::$instance) {
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    private static null|self $instance = null;
-
-    public static function make(): self
-    {
-        if (!self::$instance) {
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             $data = [];
 
             foreach ($_ENV as $k => $v) {
@@ -102,12 +67,6 @@ class EnvData extends Data implements Wireable
     {
         $key = str($key)->upper()->toString();
         $replace = $this->getLine($key, $value);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         $pos_start = mb_strpos($env_content, $key . '=');
         if (false === $pos_start) {
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -116,36 +75,6 @@ class EnvData extends Data implements Wireable
         $pos_end = mb_strpos($env_content, "\n", $pos_start);
         if (false === $pos_end) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
-<<<<<<< HEAD
-=======
-=======
-        $pos_start = mb_strpos($env_content, $key.'=');
-=======
-        $pos_start = mb_strpos($env_content, $key . '=');
->>>>>>> b93ef594b4 (.)
-        if (false === $pos_start) {
-            // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
-            return $env_content . "\n" . $replace;
-        }
-        $pos_end = mb_strpos($env_content, "\n", $pos_start);
-        if (false === $pos_end) {
-<<<<<<< HEAD
-            throw new Exception('['.__LINE__.']['.class_basename($this).']');
->>>>>>> a12f125f4a (.)
-=======
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
->>>>>>> b93ef594b4 (.)
-=======
-        $pos_start = mb_strpos($env_content, $key.'=');
-        if (false === $pos_start) {
-            // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
-            return $env_content."\n".$replace;
-        }
-        $pos_end = mb_strpos($env_content, "\n", $pos_start);
-        if (false === $pos_end) {
-            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
 
         $length = $pos_end - $pos_start;
@@ -158,44 +87,12 @@ class EnvData extends Data implements Wireable
 
     public function getLine(string $key, int|bool|string $value): string
     {
-<<<<<<< HEAD
         $replace = $key . '=';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $replace = $key . '=';
-=======
-        $replace = $key.'=';
->>>>>>> a12f125f4a (.)
-=======
-        $replace = $key . '=';
->>>>>>> b93ef594b4 (.)
-=======
-        $replace = $key.'=';
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         if (is_bool($value)) {
             $replace .= $value ? 'true' : 'false';
         }
         if (is_string($value)) {
-<<<<<<< HEAD
             $replace .= '"' . $value . '"';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $replace .= '"' . $value . '"';
-=======
-            $replace .= '"'.$value.'"';
->>>>>>> a12f125f4a (.)
-=======
-            $replace .= '"' . $value . '"';
->>>>>>> b93ef594b4 (.)
-=======
-            $replace .= '"'.$value.'"';
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
         if (is_int($value)) {
             $replace .= $value;

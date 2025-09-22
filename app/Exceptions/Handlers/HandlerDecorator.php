@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exceptions\Handlers;
 
-<<<<<<< HEAD
 use Throwable;
-=======
-<<<<<<< HEAD
-use Throwable;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 
@@ -34,15 +27,7 @@ class HandlerDecorator implements ExceptionHandler
         return \call_user_func_array($callable, $parameters);
     }
 
-<<<<<<< HEAD
     public function report(Throwable $e): void
-=======
-<<<<<<< HEAD
-    public function report(Throwable $e): void
-=======
-    public function report(\Throwable $e): void
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     {
         foreach ($this->repository->getReportersByException($e) as $reporter) {
             if (is_callable($reporter)) {
@@ -53,15 +38,7 @@ class HandlerDecorator implements ExceptionHandler
         $this->defaultHandler->report($e);
     }
 
-<<<<<<< HEAD
     public function render($request, Throwable $e): SymfonyResponse
-=======
-<<<<<<< HEAD
-    public function render($request, Throwable $e): SymfonyResponse
-=======
-    public function render($request, \Throwable $e): SymfonyResponse
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     {
         foreach ($this->repository->getRenderersByException($e) as $renderer) {
             if (is_callable($renderer)) {
@@ -78,15 +55,7 @@ class HandlerDecorator implements ExceptionHandler
     /**
      * @phpstan-ignore-next-line
      */
-<<<<<<< HEAD
     public function renderForConsole($output, Throwable $e): void
-=======
-<<<<<<< HEAD
-    public function renderForConsole($output, Throwable $e): void
-=======
-    public function renderForConsole($output, \Throwable $e): void
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     {
         foreach ($this->repository->getConsoleRenderersByException($e) as $renderer) {
             if (is_callable($renderer)) {
@@ -113,15 +82,7 @@ class HandlerDecorator implements ExceptionHandler
         return $this->repository->addConsoleRenderer($renderer);
     }
 
-<<<<<<< HEAD
     public function shouldReport(Throwable $e): bool
-=======
-<<<<<<< HEAD
-    public function shouldReport(Throwable $e): bool
-=======
-    public function shouldReport(\Throwable $e): bool
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     {
         return $this->defaultHandler->shouldReport($e);
     }

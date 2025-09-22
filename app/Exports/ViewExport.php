@@ -19,56 +19,16 @@ class ViewExport implements FromView
      *
      * @var array<string>
      */
-<<<<<<< HEAD
     public null|array $fields = null;
 
     public null|string $transKey = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public null|array $fields = null;
-
-    public null|string $transKey = null;
-=======
-    public ?array $fields = null;
-
-    public ?string $transKey = null;
->>>>>>> a12f125f4a (.)
-=======
-    public null|array $fields = null;
-
-    public null|string $transKey = null;
->>>>>>> b93ef594b4 (.)
-=======
-    public ?array $fields = null;
-
-    public ?string $transKey = null;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
     /**
      * Summary of __construct.
      *
      * @param array<string> $fields
      */
-<<<<<<< HEAD
     public function __construct(View $view, null|string $transKey = null, null|array $fields = null)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function __construct(View $view, null|string $transKey = null, null|array $fields = null)
-=======
-    public function __construct(View $view, ?string $transKey = null, ?array $fields = null)
->>>>>>> a12f125f4a (.)
-=======
-    public function __construct(View $view, null|string $transKey = null, null|array $fields = null)
->>>>>>> b93ef594b4 (.)
-=======
-    public function __construct(View $view, ?string $transKey = null, ?array $fields = null)
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     {
         $this->view = $view;
         $this->transKey = $transKey;

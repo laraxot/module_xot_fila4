@@ -30,50 +30,16 @@ class GetPdfContentByRecordActionTest extends TestCase
         // Arrange
         $user = User::factory()->create([
             'name' => 'Test User',
-<<<<<<< HEAD
             'email' => 'test@example.com',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'email' => 'test@example.com',
-=======
-            'email' => 'test@example.com'
->>>>>>> a12f125f4a (.)
-=======
-            'email' => 'test@example.com',
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         ]);
 
         // Mock view existence
         view()->addNamespace('user', resource_path('views'));
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         // Act & Assert
         $this->expectException(Exception::class);
         $this->expectExceptionMessage("View 'user::user.show.pdf' not found");
 
-<<<<<<< HEAD
-=======
-=======
-        
-        // Act & Assert
-        $this->expectException(Exception::class);
-        $this->expectExceptionMessage("View 'user::user.show.pdf' not found");
-        
->>>>>>> a12f125f4a (.)
-=======
-
-        // Act & Assert
-        $this->expectException(Exception::class);
-        $this->expectExceptionMessage("View 'user::user.show.pdf' not found");
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         $this->action->execute($user);
     }
 
@@ -82,47 +48,15 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         $user = User::factory()->create();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         // Use reflection to test protected method
         $reflection = new ReflectionClass($this->action);
         $method = $reflection->getMethod('generateViewName');
         $method->setAccessible(true);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         // Act
         $viewName = $method->invoke($this->action, $user);
 
-<<<<<<< HEAD
-=======
-=======
-        
-        // Act
-        $viewName = $method->invoke($this->action, $user);
-        
->>>>>>> a12f125f4a (.)
-=======
-
-        // Act
-        $viewName = $method->invoke($this->action, $user);
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         // Assert
         $this->assertEquals('user::user.show.pdf', $viewName);
     }
@@ -132,47 +66,15 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         $user = User::factory()->create(['id' => 123, 'name' => 'Test User']);
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         // Use reflection to test protected method
         $reflection = new ReflectionClass($this->action);
         $method = $reflection->getMethod('generateFilename');
         $method->setAccessible(true);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         // Act
         $filename = $method->invoke($this->action, $user);
 
-<<<<<<< HEAD
-=======
-=======
-        
-        // Act
-        $filename = $method->invoke($this->action, $user);
-        
->>>>>>> a12f125f4a (.)
-=======
-
-        // Act
-        $filename = $method->invoke($this->action, $user);
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         // Assert
         $this->assertEquals('user_123_test-user.pdf', $filename);
     }
@@ -184,79 +86,25 @@ class GetPdfContentByRecordActionTest extends TestCase
         $record = new class extends Model {
             protected $table = 'test_performance';
             protected $fillable = ['id', 'matr', 'cognome', 'nome'];
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
             public function getKey()
             {
                 return 456;
             }
         };
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         $record->matr = 'ABC123';
         $record->cognome = 'Rossi';
         $record->nome = 'Mario';
 
-<<<<<<< HEAD
-=======
-=======
-        
-        $record->matr = 'ABC123';
-        $record->cognome = 'Rossi';
-        $record->nome = 'Mario';
-        
->>>>>>> a12f125f4a (.)
-=======
-
-        $record->matr = 'ABC123';
-        $record->cognome = 'Rossi';
-        $record->nome = 'Mario';
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         // Use reflection to test protected method
         $reflection = new ReflectionClass($this->action);
         $method = $reflection->getMethod('generateFilename');
         $method->setAccessible(true);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         // Act
         $filename = $method->invoke($this->action, $record);
 
-<<<<<<< HEAD
-=======
-=======
-        
-        // Act
-        $filename = $method->invoke($this->action, $record);
-        
->>>>>>> a12f125f4a (.)
-=======
-
-        // Act
-        $filename = $method->invoke($this->action, $record);
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         // Assert
         $this->assertEquals('scheda_456_ABC123_Rossi_Mario.pdf', $filename);
     }
@@ -266,47 +114,15 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         $user = User::factory()->create(['name' => 'Test User']);
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         // Use reflection to test protected method
         $reflection = new ReflectionClass($this->action);
         $method = $reflection->getMethod('prepareViewParameters');
         $method->setAccessible(true);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         // Act
         $params = $method->invoke($this->action, $user, 'user::user.show.pdf');
 
-<<<<<<< HEAD
-=======
-=======
-        
-        // Act
-        $params = $method->invoke($this->action, $user, 'user::user.show.pdf');
-        
->>>>>>> a12f125f4a (.)
-=======
-
-        // Act
-        $params = $method->invoke($this->action, $user, 'user::user.show.pdf');
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         // Assert
         $this->assertIsArray($params);
         $this->assertArrayHasKey('view', $params);
@@ -322,33 +138,11 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         $user = User::factory()->create();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         // Act & Assert
         $this->expectException(Exception::class);
         $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
 
-<<<<<<< HEAD
-=======
-=======
-        
-        // Act & Assert
-        $this->expectException(Exception::class);
-        $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
-        
->>>>>>> a12f125f4a (.)
-=======
-
-        // Act & Assert
-        $this->expectException(Exception::class);
-        $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         $this->action->execute($user);
     }
 
@@ -366,30 +160,10 @@ class GetPdfContentByRecordActionTest extends TestCase
         // Arrange
         $user = User::factory()->create();
         $customFilename = 'custom-report.pdf';
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         // Act & Assert - Should use custom filename in error message
         $this->expectException(Exception::class);
 
-<<<<<<< HEAD
-=======
-=======
-        
-        // Act & Assert - Should use custom filename in error message
-        $this->expectException(Exception::class);
-        
->>>>>>> a12f125f4a (.)
-=======
-
-        // Act & Assert - Should use custom filename in error message
-        $this->expectException(Exception::class);
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         $this->action->execute($user, $customFilename);
     }
 
@@ -399,33 +173,11 @@ class GetPdfContentByRecordActionTest extends TestCase
         // Arrange
         $user = User::factory()->create();
         $filename = 'convenience-test.pdf';
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         // Act & Assert
         $this->expectException(Exception::class);
         $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
 
-<<<<<<< HEAD
-=======
-=======
-        
-        // Act & Assert
-        $this->expectException(Exception::class);
-        $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
-        
->>>>>>> a12f125f4a (.)
-=======
-
-        // Act & Assert
-        $this->expectException(Exception::class);
-        $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         $this->action->fromRecord($user, $filename);
     }
 

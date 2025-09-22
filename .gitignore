@@ -4,6 +4,7 @@
 # Modulo base Laraxot - Template standardizzato
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ultimo aggiornamento: 2025-01-31
 =======
 # Ultimo aggiornamento: 2025-01-06
@@ -11,11 +12,15 @@
 =======
 # Ultimo aggiornamento: 2025-01-06
 >>>>>>> a5dccfe (.)
+=======
+# Ultimo aggiornamento: 2025-01-06
+>>>>>>> 41ce293 (.)
 # ==============================================
 
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 /vendor/
@@ -31,15 +36,20 @@ npm-debug.log
 =======
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 vendor/
 node_modules/
 package-lock.json
 yarn.lock
 composer.lock
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 
 # ==============================================
 # BUILD & COMPILED FILES
@@ -47,11 +57,14 @@ composer.lock
 /build
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /build/
 =======
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 build/
 dist/
 docs/cache/
@@ -87,9 +100,12 @@ lerna-debug.log*
 # ==============================================
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -118,9 +134,12 @@ build/
 
 # Laravel specific
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -147,11 +166,14 @@ Homestead.json
 .git-rewrite/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .git-rewrite
 =======
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 .git-blame-ignore-revs
 
 # ==============================================
@@ -193,6 +215,7 @@ docs/cache/
 # ==============================================
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # LANGUAGE FILES
 # ==============================================
 lang/lang/
@@ -203,6 +226,8 @@ resources/lang/
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
@@ -211,11 +236,14 @@ database/Seeders_old/
 database/Factories_old/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 database/Factories_
 =======
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 database_old/
 
 # ==============================================
@@ -223,21 +251,28 @@ database_old/
 # ==============================================
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 # File di test temporanei
 test.txt
 testbench.yaml
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 # File di configurazione locale
 config/local.php
 config/development.php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # File temporanei
@@ -251,24 +286,32 @@ testbench.yaml
 =======
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 # Cache specifiche del modulo
 packages/cache/
 packages/temp/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 # ==============================================
 # END OF XOT .GITIGNORE
 # ==============================================
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # File specifici del progetto
 =======
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 # Database directories
 database/Factories_
 database/Factories_old
@@ -327,9 +370,12 @@ database_old
 
 # 🚫 File specifici del progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 *.fila2
 laravel
 public_html

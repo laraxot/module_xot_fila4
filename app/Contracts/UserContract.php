@@ -6,6 +6,7 @@ namespace Modules\Xot\Contracts;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
@@ -20,6 +21,8 @@ use Spatie\Permission\Contracts\Permission;
 =======
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 use Filament\Support\Contracts\HasLabel;
 use Spatie\Permission\Contracts\Permission;
 use Override;
@@ -40,9 +43,12 @@ use Modules\User\Contracts\HasTeamsContract;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 use Spatie\Permission\Contracts\Role;
 use Spatie\Permission\Exceptions\GuardDoesNotMatch;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
@@ -55,9 +61,12 @@ use Spatie\Permission\Exceptions\RoleDoesNotExist;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
  * @property ProfileContract|null                                                       $profile
  * @property string $id
  * @property string $handle
@@ -74,9 +83,12 @@ use Spatie\Permission\Exceptions\RoleDoesNotExist;
  *
  * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
  * @method bool canAccessSocialite()
  *
  * @phpstan-require-extends Model
@@ -85,11 +97,14 @@ use Spatie\Permission\Exceptions\RoleDoesNotExist;
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
  * @mixin IdeHelperUserContract
  */
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 interface UserContract extends
     Authenticatable,
     Authorizable,
@@ -101,9 +116,12 @@ interface UserContract extends
     PassportHasApiTokensContract,
     HasMedia
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 {
     /*
      * public function isSuperAdmin();
@@ -123,6 +141,7 @@ interface UserContract extends
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * @param string $key
      *
@@ -131,6 +150,10 @@ interface UserContract extends
      * @param string $key
      *
 >>>>>>> a5dccfe (.)
+=======
+     * @param string $key
+     *
+>>>>>>> 41ce293 (.)
      * @return mixed|null
      */
     public function getRelationValue($key);
@@ -140,6 +163,7 @@ interface UserContract extends
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * @param array $attributes
      * @param bool  $exists
@@ -150,6 +174,11 @@ interface UserContract extends
      * @param bool  $exists
      *
 >>>>>>> a5dccfe (.)
+=======
+     * @param array $attributes
+     * @param bool  $exists
+     *
+>>>>>>> 41ce293 (.)
      * @return static
      */
     public function newInstance($attributes = [], $exists = false);
@@ -169,12 +198,16 @@ interface UserContract extends
         string|int|array|Role|Collection $roles,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         null|string $guard = null,
 >>>>>>> 0e51323 (.)
 =======
         null|string $guard = null,
 >>>>>>> a5dccfe (.)
+=======
+        null|string $guard = null,
+>>>>>>> 41ce293 (.)
     ): bool;
 
     /**
@@ -189,6 +222,7 @@ interface UserContract extends
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * @param string|int|Role|BackedEnum $role
      *
@@ -197,6 +231,10 @@ interface UserContract extends
      * @param string|int|Role|BackedEnum $role
      *
 >>>>>>> a5dccfe (.)
+=======
+     * @param string|int|Role|BackedEnum $role
+     *
+>>>>>>> 41ce293 (.)
      * @return self
      */
     public function removeRole($role);
@@ -223,9 +261,12 @@ interface UserContract extends
      * Get all consents for the model (polymorphic).
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
      *
      */
     //public function consents(): MorphMany;
@@ -238,7 +279,10 @@ interface UserContract extends
      */
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 }

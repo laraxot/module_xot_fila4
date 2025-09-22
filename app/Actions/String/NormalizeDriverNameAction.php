@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\String;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 use Spatie\QueueableAction\QueueableAction;
@@ -17,6 +18,11 @@ use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
 >>>>>>> a5dccfe (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+
+use function Safe\preg_replace;
+>>>>>>> 41ce293 (.)
 
 /**
  * Action per normalizzare i nomi dei driver.
@@ -28,12 +34,16 @@ class NormalizeDriverNameAction
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     use QueueableAction;
 >>>>>>> 0e51323 (.)
 =======
     use QueueableAction;
 >>>>>>> a5dccfe (.)
+=======
+    use QueueableAction;
+>>>>>>> 41ce293 (.)
 
     /**
      * Normalizza il nome del driver eliminando caratteri non alfanumerici
@@ -41,12 +51,16 @@ class NormalizeDriverNameAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * @param string $driver Nome del driver da normalizzare
 >>>>>>> 0e51323 (.)
 =======
      * @param string $driver Nome del driver da normalizzare
 >>>>>>> a5dccfe (.)
+=======
+     * @param string $driver Nome del driver da normalizzare
+>>>>>>> 41ce293 (.)
      * @return string Nome normalizzato
      */
     public function execute(string $driver): string
@@ -54,11 +68,15 @@ class NormalizeDriverNameAction
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
 >>>>>>> 0e51323 (.)
 =======
         return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
 >>>>>>> a5dccfe (.)
+=======
+        return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
+>>>>>>> 41ce293 (.)
     }
 }

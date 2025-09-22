@@ -1,30 +1,20 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
 
-=======
->>>>>>> c06600c (.)
 return [
     /*
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
-<<<<<<< HEAD
      * |--------------------------------------------------------------------------
-=======
->>>>>>> c06600c (.)
      * |
      * | The following language lines are used in Exceptions thrown throughout the system.
      * | Regardless where it is placed, a button can be listed here so it is easily
      * | found in a intuitive way.
-<<<<<<< HEAD
      * |
      * |--------------------------------------------------------------------------
      */
 
-=======
-     */
->>>>>>> c06600c (.)
     'backend' => [
         'access' => [
             'roles' => [

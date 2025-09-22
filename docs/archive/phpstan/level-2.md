@@ -1,9 +1,6 @@
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> a5dccfe (.)
 # Rapporto PHPStan Livello 2 per il modulo Xot
 
 Data analisi: 2025-04-15 21:52:59
@@ -14,13 +11,7 @@ Trovati 4 errori al livello 2.
 
 ## Errori e suggerimenti
 
-<<<<<<< HEAD
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
-=======
-### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
-### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
-### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
->>>>>>> a5dccfe (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -38,13 +29,7 @@ Trovati 4 errori al livello 2.
 - Le variabili siano inizializzate prima dell'uso
 - I nomi di metodi e proprietà siano corretti
 
-<<<<<<< HEAD
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
-=======
-### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
-### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
-### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
->>>>>>> a5dccfe (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 
@@ -72,23 +57,19 @@ aurmich/dev
 aurmich/dev
 
 ## Collegamenti tra versioni di level_2.md
-* [level_2.md](laravel/Modules/Chart/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/Reporting/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/Gdpr/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/Notify/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/Xot/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/Dental/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/User/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/UI/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/Lang/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/Job/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/Media/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/Tenant/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/Activity/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/Patient/docs/phpstan/level_2.md)
-* [level_2.md](laravel/Modules/Cms/docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Chart/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Reporting/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Gdpr/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Notify/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Xot/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Dental/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/User/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/UI/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Lang/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Job/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Media/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Tenant/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Activity/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Patient/project_docs/phpstan/level_2.md)
+* [level_2.md](laravel/Modules/Cms/project_docs/phpstan/level_2.md)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)

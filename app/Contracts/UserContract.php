@@ -4,32 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use BackedEnum;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
-use Illuminate\Support\Collection;
-use Laravel\Passport\Token;
-use Modules\User\Contracts\HasTeamsContract;
-use Modules\User\Models\Tenant;
-use Override;
-use Spatie\MediaLibrary\HasMedia;
-use Spatie\MediaLibrary\MediaCollections\FileAdder;
-use Spatie\Permission\Contracts\Permission;
-=======
-=======
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 41ce293 (.)
-use Filament\Support\Contracts\HasLabel;
-use Spatie\Permission\Contracts\Permission;
-use Override;
-use Illuminate\Support\Collection;
-use BackedEnum;
-use Modules\User\Models\Tenant;
-use Filament\Models\Contracts\FilamentUser;
 use Illuminate\Contracts\Auth\Access\Authorizable;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\CanResetPassword;
@@ -38,90 +15,45 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Support\Collection;
 use Laravel\Passport\Token;
 use Modules\User\Contracts\HasTeamsContract;
+use Modules\User\Models\Tenant;
+use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 41ce293 (.)
+use Spatie\Permission\Contracts\Permission;
 use Spatie\Permission\Contracts\Role;
 use Spatie\Permission\Exceptions\GuardDoesNotMatch;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
-use Spatie\Permission\Exceptions\RoleAlreadyExists;
-use Spatie\Permission\Exceptions\RoleDoesNotExist;
 
 // use Filament\Models\Contracts\HasTenants;
 /**
  * Modules\User\Contracts\UserContract.
  *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 41ce293 (.)
- * @property ProfileContract|null                                                       $profile
+ * @property ProfileContract|null $profile
  * @property string $id
  * @property string $handle
- * @property string|null                                                                $first_name
- * @property string|null                                                                $last_name
- * @property string|null                                                                $full_name
+ * @property string|null $first_name
+ * @property string|null $last_name
+ * @property string|null $full_name
  * @property BackedEnum&HasLabel $type
- * @property string|null                                                                $password
- * @property string|int|null                                                            $current_team_id
- * @property string|null                                                                $phone
- * @property string|null                                                                $email
- * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role>   $roles
+ * @property string|null $password
+ * @property string|int|null $current_team_id
+ * @property string|null $phone
+ * @property string|null $email
+ * @property \DateTime|null $email_verified_at
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
  * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
  *
- * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 41ce293 (.)
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
  * @method bool canAccessSocialite()
  *
  * @phpstan-require-extends Model
  *
-<<<<<<< HEAD
  * @mixin \Eloquent
  */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
- * @mixin IdeHelperUserContract
- */
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 41ce293 (.)
-interface UserContract extends
-    Authenticatable,
-    Authorizable,
-    CanResetPassword,
-    FilamentUser,
-    HasTeamsContract,
-    ModelContract,
-    MustVerifyEmail,
-    PassportHasApiTokensContract,
-    HasMedia
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 41ce293 (.)
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
 {
     /*
      * public function isSuperAdmin();
@@ -139,21 +71,7 @@ interface UserContract extends
     /**
      * Get a relationship.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-     * @param string $key
-     *
->>>>>>> 0e51323 (.)
-=======
-     * @param string $key
-     *
->>>>>>> a5dccfe (.)
-=======
-     * @param string $key
-     *
->>>>>>> 41ce293 (.)
+     * @param  string  $key
      * @return mixed|null
      */
     public function getRelationValue($key);
@@ -161,24 +79,8 @@ interface UserContract extends
     /**
      * Create a new instance of the given model.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-     * @param array $attributes
-     * @param bool  $exists
-     *
->>>>>>> 0e51323 (.)
-=======
-     * @param array $attributes
-     * @param bool  $exists
-     *
->>>>>>> a5dccfe (.)
-=======
-     * @param array $attributes
-     * @param bool  $exists
-     *
->>>>>>> 41ce293 (.)
+     * @param  array  $attributes
+     * @param  bool  $exists
      * @return static
      */
     public function newInstance($attributes = [], $exists = false);
@@ -196,18 +98,7 @@ interface UserContract extends
      */
     public function hasRole(
         string|int|array|Role|Collection $roles,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        null|string $guard = null,
->>>>>>> 0e51323 (.)
-=======
-        null|string $guard = null,
->>>>>>> a5dccfe (.)
-=======
-        null|string $guard = null,
->>>>>>> 41ce293 (.)
+        ?string $guard = null,
     ): bool;
 
     /**
@@ -220,21 +111,7 @@ interface UserContract extends
     /**
      * Revoke the given role from the model.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-     * @param string|int|Role|BackedEnum $role
-     *
->>>>>>> 0e51323 (.)
-=======
-     * @param string|int|Role|BackedEnum $role
-     *
->>>>>>> a5dccfe (.)
-=======
-     * @param string|int|Role|BackedEnum $role
-     *
->>>>>>> 41ce293 (.)
+     * @param  string|int|Role|BackedEnum  $role
      * @return self
      */
     public function removeRole($role);
@@ -259,30 +136,14 @@ interface UserContract extends
     // public function canAccessSocialite(): bool;
     /**
      * Get all consents for the model (polymorphic).
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 41ce293 (.)
-     *
      */
-    //public function consents(): MorphMany;
+    // public function consents(): MorphMany;
     /**
      * Determine if the role may perform the given permission.
      *
-     * @param string|int|Permission|BackedEnum $permission
+     * @param  string|int|Permission|BackedEnum  $permission
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
-    public function hasPermissionTo($permission, null|string $guardName = null): bool;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 41ce293 (.)
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
 }

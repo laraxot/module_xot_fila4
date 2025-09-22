@@ -4,18 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\String;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-class SanitizeAction
-{
-=======
-=======
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 41ce293 (.)
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -24,38 +12,20 @@ use function Safe\preg_replace;
 class SanitizeAction
 {
     use QueueableAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 41ce293 (.)
 
     public function execute(string $str): string
     {
         $str = strip_tags($str);
         $str = html_entity_decode($str);
         $str = trim($str);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 41ce293 (.)
-        $str = preg_replace('/\s+/', ' ', $str);
+
+        $replaced = preg_replace('/\s+/', ' ', $str);
+        $str = is_string($replaced) ? $replaced : $str;
+
         if (Str::startsWith($str, '-')) {
-            $str = Str::after($str, '-');
-            $str = $this->execute($str);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 0e51323 (.)
-=======
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 41ce293 (.)
+            $afterStr = Str::after($str, '-');
+            // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
+            $str = $this->execute($afterStr);
         }
 
         return $str;

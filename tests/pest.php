@@ -5,7 +5,6 @@ declare(strict_types=1);
 use Modules\Xot\Tests\TestCase;
 
 /*
-<<<<<<< HEAD
  * |--------------------------------------------------------------------------
  * | Test Case
  * |--------------------------------------------------------------------------
@@ -14,21 +13,10 @@ use Modules\Xot\Tests\TestCase;
  * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
  * |
  */
-=======
-|--------------------------------------------------------------------------
-| Test Case
-|--------------------------------------------------------------------------
-|
-| Il TestCase di default per tutti i test del modulo Xot.
-| Estende il TestCase specifico del modulo che fornisce il setup necessario.
-|
-*/
->>>>>>> a5dccfe (.)
 
 uses(TestCase::class)->in('Feature', 'Unit');
 
 /*
-<<<<<<< HEAD
  * |--------------------------------------------------------------------------
  * | Expectations
  * |--------------------------------------------------------------------------
@@ -38,24 +26,12 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * | in tutti i test del modulo.
  * |
  */
-=======
-|--------------------------------------------------------------------------
-| Expectations
-|--------------------------------------------------------------------------
-|
-| Qui puoi definire aspettative globali per il modulo Xot.
-| Quando definisci here expectation globali, saranno disponibili 
-| in tutti i test del modulo.
-|
-*/
->>>>>>> a5dccfe (.)
 
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
 
 /*
-<<<<<<< HEAD
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -68,17 +44,3 @@ uses(TestCase::class)->in('Feature', 'Unit');
 // function something() {
 //     // ...
 // }
-=======
-|--------------------------------------------------------------------------
-| Functions
-|--------------------------------------------------------------------------
-|
-| Qui puoi definire funzioni helper globali per i test del modulo.
-| Queste funzioni saranno disponibili in tutti i test.
-|
-*/
-
-// function something() {
-//     // ...
-// } 
->>>>>>> a5dccfe (.)

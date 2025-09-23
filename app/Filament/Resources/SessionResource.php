@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
-<<<<<<< HEAD
 use Filament\Support\Components\Component;
-=======
->>>>>>> 54cbe5d (.)
 use Override;
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
@@ -19,31 +16,19 @@ class SessionResource extends XotBaseResource
 {
     protected static null|string $model = Session::class;
 
-<<<<<<< HEAD
     /**
      * @return array<int, Component>
      */
-=======
->>>>>>> 54cbe5d (.)
     #[Override]
     public static function getFormSchema(): array
     {
         return [
-<<<<<<< HEAD
             TextInput::make('id')->required()->maxLength(255),
             TextInput::make('user_id')->numeric(),
             TextInput::make('ip_address')->maxLength(45),
             TextInput::make('user_agent')->maxLength(255),
             KeyValue::make('payload')->columnSpanFull(),
             TextInput::make('last_activity')->required()->numeric(),
-=======
-            'id' => TextInput::make('id')->required()->maxLength(255),
-            'user_id' => TextInput::make('user_id')->numeric(),
-            'ip_address' => TextInput::make('ip_address')->maxLength(45),
-            'user_agent' => TextInput::make('user_agent')->maxLength(255),
-            'payload' => KeyValue::make('payload')->columnSpanFull(),
-            'last_activity' => TextInput::make('last_activity')->required()->numeric(),
->>>>>>> 54cbe5d (.)
         ];
     }
 }

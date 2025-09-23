@@ -5,10 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Pages;
 
 use LogicException;
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Schema;
->>>>>>> 54cbe5d (.)
 use RuntimeException;
 use Illuminate\Auth\Access\AuthorizationException;
 use Filament\Actions\Action;
@@ -25,10 +21,7 @@ use Illuminate\Support\Str;
 use Modules\Xot\Actions\View\GetViewByClassAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
 use Filament\Schemas\Schema;
-=======
->>>>>>> 54cbe5d (.)
 
 /**
  * Classe base astratta per tutte le pagine Filament non legate a risorse specifiche.
@@ -43,10 +36,7 @@ use Filament\Schemas\Schema;
  *
  * @property ?string              $model Il modello associato alla pagina
  * @property array<string, mixed> $data  I dati del form
-<<<<<<< HEAD
      * @property \Filament\Schemas\Schema $form Il form della pagina
-=======
->>>>>>> 54cbe5d (.)
  *
  * @see \Modules\Xot\docs\xotbasepage_implementation.md Documentazione completa
  */
@@ -199,30 +189,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         return $modelNamespace;
     }
 
-<<<<<<< HEAD
-=======
-    /**
-     * Configura il form della pagina.
-     * Imposta lo schema e il percorso dello stato per il form.
-     *
-     * @param \Filament\Schemas\Schema $schema Il form da configurare
-     *
-     * @return \Filament\Schemas\Schema Il form configurato
-     */
-    public function form(Schema $schema): Schema
-    {
-        $schema = $schema->components($this->getFormSchema());
-
-        $schema->statePath('data');
-
-        $debounce = $this->getAutosaveDebounce();
-        if (null !== $debounce && method_exists($schema, 'autosaveDebounce')) {
-            $schema->autosaveDebounce($debounce);
-        }
-
-        return $schema;
-    }
->>>>>>> 54cbe5d (.)
 
     /**
      * Ottiene il tempo di debounce per l'autosave in millisecondi.

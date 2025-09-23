@@ -56,13 +56,10 @@ class OptimizeFilamentMemoryCommand extends Command
 
         // Analizza i problemi di memoria
         $issues = $this->analyzeMemoryIssues($verbose);
-<<<<<<< HEAD
 
         if ($analyzeOnly) {
             $this->displayAnalysisResults($issues);
 
-=======
->>>>>>> a57150a (.)
             return self::SUCCESS;
         }
 
@@ -71,10 +68,7 @@ class OptimizeFilamentMemoryCommand extends Command
 
         $this->info('✅ Ottimizzazione completata!');
         $this->newLine();
-<<<<<<< HEAD
 
-=======
->>>>>>> a57150a (.)
         $this->info('Prossimi passi:');
         $this->line('1. Testa i pannelli admin per verificare le performance');
         $this->line('2. Monitora i log per eventuali errori');
@@ -89,13 +83,10 @@ class OptimizeFilamentMemoryCommand extends Command
     private function clearAllCaches(): void
     {
         $this->info('🧹 Pulizia cache...');
-<<<<<<< HEAD
 
         $caches = [
             'config:clear' => 'Config cache',
             'route:clear' => 'Route cache',
-=======
->>>>>>> a57150a (.)
             'view:clear' => 'View cache',
             'cache:clear' => 'Application cache',
         ];
@@ -117,10 +108,7 @@ class OptimizeFilamentMemoryCommand extends Command
     private function analyzeMemoryIssues(bool $verbose = false): array
     {
         $this->info('🔍 Analisi problemi di memoria...');
-<<<<<<< HEAD
 
-=======
->>>>>>> a57150a (.)
         $issues = [
             'models_with_eager_loading' => $this->findModelsWithEagerLoading(),
             'heavy_widgets' => $this->findHeavyWidgets(),
@@ -145,7 +133,6 @@ class OptimizeFilamentMemoryCommand extends Command
     {
         $models = [];
         $files = File::allFiles(base_path('Modules'));
-<<<<<<< HEAD
 
         foreach ($files as $file) {
             if ($file->getExtension() === 'php' && str_contains($file->getPathname(), '/Models/')) {
@@ -159,16 +146,11 @@ class OptimizeFilamentMemoryCommand extends Command
                         str_contains($withContent, 'teams') ||
                         str_contains($withContent, 'media')) {
                         $models[] = $file->getPathname();
-=======
->>>>>>> a57150a (.)
                     }
                 }
             }
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> a57150a (.)
         return $models;
     }
 
@@ -181,7 +163,6 @@ class OptimizeFilamentMemoryCommand extends Command
     {
         $widgets = [];
         $files = File::allFiles(base_path('Modules'));
-<<<<<<< HEAD
 
         foreach ($files as $file) {
             if ($file->getExtension() === 'php' && str_contains($file->getPathname(), '/Widgets/')) {
@@ -191,16 +172,11 @@ class OptimizeFilamentMemoryCommand extends Command
                 if (str_contains($content, '->get()') &&
                     ! str_contains($content, '->limit(') &&
                     ! str_contains($content, '->take(')) {
-=======
->>>>>>> a57150a (.)
                     $widgets[] = $file->getPathname();
                 }
             }
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> a57150a (.)
         return $widgets;
     }
 
@@ -213,24 +189,18 @@ class OptimizeFilamentMemoryCommand extends Command
     {
         $resources = [];
         $files = File::allFiles(base_path('Modules'));
-<<<<<<< HEAD
 
         foreach ($files as $file) {
             if ($file->getExtension() === 'php' && str_contains($file->getPathname(), '/Resources/') && str_ends_with($file->getFilename(), 'Resource.php')) {
                 $content = File::get($file->getPathname());
 
-=======
->>>>>>> a57150a (.)
                 // Cerca eager loading eccessivo
                 if (str_contains($content, '->with(') || str_contains($content, '->load(')) {
                     $resources[] = $file->getPathname();
                 }
             }
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> a57150a (.)
         return $resources;
     }
 
@@ -243,7 +213,6 @@ class OptimizeFilamentMemoryCommand extends Command
     {
         $forms = [];
         $files = File::allFiles(base_path('Modules'));
-<<<<<<< HEAD
 
         foreach ($files as $file) {
             if ($file->getExtension() === 'php' && (str_contains($file->getPathname(), '/Resources/') || str_contains($file->getPathname(), '/Forms/'))) {
@@ -251,18 +220,13 @@ class OptimizeFilamentMemoryCommand extends Command
 
                 // Cerca query di migrazione nei form
                 if (str_contains($content, '->whereNull(') &&
-=======
->>>>>>> a57150a (.)
                     str_contains($content, '->update(') &&
                     str_contains($content, 'getFormSchema')) {
                     $forms[] = $file->getPathname();
                 }
             }
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> a57150a (.)
         return $forms;
     }
 
@@ -275,7 +239,6 @@ class OptimizeFilamentMemoryCommand extends Command
     {
         $resources = [];
         $files = File::allFiles(base_path('Modules'));
-<<<<<<< HEAD
 
         foreach ($files as $file) {
             if ($file->getExtension() === 'php' && str_contains($file->getPathname(), '/Pages/List')) {
@@ -283,26 +246,18 @@ class OptimizeFilamentMemoryCommand extends Command
 
                 // Cerca liste senza paginazione
                 if (! str_contains($content, 'paginate') && ! str_contains($content, 'simplePaginate')) {
-=======
->>>>>>> a57150a (.)
                     $resources[] = $file->getPathname();
                 }
             }
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> a57150a (.)
         return $resources;
     }
 
     /**
      * Mostra i risultati dell'analisi.
      *
-<<<<<<< HEAD
      * @param  array<string, mixed>  $issues
-=======
->>>>>>> a57150a (.)
      */
     private function displayAnalysisResults(array $issues): void
     {
@@ -310,15 +265,12 @@ class OptimizeFilamentMemoryCommand extends Command
         $this->newLine();
 
         $totalIssues = 0;
-<<<<<<< HEAD
 
         foreach ($issues as $type => $items) {
             $count = is_array($items) ? count($items) : 0;
             $totalIssues += $count;
 
             $label = match ($type) {
-=======
->>>>>>> a57150a (.)
                 'models_with_eager_loading' => 'Modelli con eager loading eccessivo',
                 'heavy_widgets' => 'Widget pesanti',
                 'unoptimized_resources' => 'Risorse non ottimizzate',
@@ -326,10 +278,7 @@ class OptimizeFilamentMemoryCommand extends Command
                 'missing_pagination' => 'Risorse senza paginazione',
                 default => $type,
             };
-<<<<<<< HEAD
 
-=======
->>>>>>> a57150a (.)
             if ($count > 0) {
                 $this->warn("⚠️  {$label}: {$count}");
             } else {
@@ -338,10 +287,7 @@ class OptimizeFilamentMemoryCommand extends Command
         }
 
         $this->newLine();
-<<<<<<< HEAD
 
-=======
->>>>>>> a57150a (.)
         if ($totalIssues > 0) {
             $this->error("🚨 Trovati {$totalIssues} problemi di performance");
             $this->line('Esegui senza --analyze per applicare le correzioni automatiche');
@@ -353,10 +299,7 @@ class OptimizeFilamentMemoryCommand extends Command
     /**
      * Mostra dettagli sui problemi trovati.
      *
-<<<<<<< HEAD
      * @param  array<string, mixed>  $issues
-=======
->>>>>>> a57150a (.)
      */
     private function displayDetailedIssues(array $issues): void
     {
@@ -366,10 +309,7 @@ class OptimizeFilamentMemoryCommand extends Command
                 $this->warn("Dettagli {$type}:");
                 foreach ($items as $item) {
                     $itemString = is_string($item) ? $item : (string) $item;
-<<<<<<< HEAD
                     $this->line('  - '.str_replace(base_path(), '', $itemString));
-=======
->>>>>>> a57150a (.)
                 }
             }
         }
@@ -378,15 +318,11 @@ class OptimizeFilamentMemoryCommand extends Command
     /**
      * Applica le ottimizzazioni.
      *
-<<<<<<< HEAD
      * @param  array<string, mixed>  $issues
-=======
->>>>>>> a57150a (.)
      */
     private function applyOptimizations(array $issues, bool $verbose = false): void
     {
         $this->info('🔧 Applicazione ottimizzazioni...');
-<<<<<<< HEAD
 
         // Ottimizzazione 1: Cache delle configurazioni
         $this->optimizeConfigurations();
@@ -397,8 +333,6 @@ class OptimizeFilamentMemoryCommand extends Command
         // Ottimizzazione 3: Autoloader
         $this->optimizeAutoloader();
 
-=======
->>>>>>> a57150a (.)
         $this->info('✅ Ottimizzazioni applicate');
     }
 
@@ -408,10 +342,7 @@ class OptimizeFilamentMemoryCommand extends Command
     private function optimizeConfigurations(): void
     {
         $this->line('  - Ottimizzazione configurazioni...');
-<<<<<<< HEAD
 
-=======
->>>>>>> a57150a (.)
         Artisan::call('config:cache');
         Artisan::call('route:cache');
         Artisan::call('view:cache');
@@ -423,10 +354,7 @@ class OptimizeFilamentMemoryCommand extends Command
     private function optimizeDatabase(): void
     {
         $this->line('  - Ottimizzazione database...');
-<<<<<<< HEAD
 
-=======
->>>>>>> a57150a (.)
         // Ottimizza le tabelle MySQL se possibile
         try {
             if (config('database.default') === 'mysql') {
@@ -444,10 +372,7 @@ class OptimizeFilamentMemoryCommand extends Command
     private function optimizeAutoloader(): void
     {
         $this->line('  - Ottimizzazione autoloader...');
-<<<<<<< HEAD
 
-=======
->>>>>>> a57150a (.)
         $process = new Process(['composer', 'dump-autoload', '--optimize']);
         $process->setWorkingDirectory(base_path());
         $process->run();

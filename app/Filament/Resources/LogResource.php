@@ -28,22 +28,22 @@ class LogResource extends XotBaseResource
     protected static null|string $model = Log::class;
 
     /**
-     * @return array<int, Component>
+     * @return array<string, Component>
      */
     #[Override]
     public static function getFormSchema(): array
     {
         return [
-            TextInput::make('name')->required()->maxLength(255),
-            TextInput::make('path')->required()->maxLength(255),
-            Textarea::make('content')->columnSpanFull(),
+            'name' => TextInput::make('name')->required()->maxLength(255),
+            'path' => TextInput::make('path')->required()->maxLength(255),
+            'content' => Textarea::make('content')->columnSpanFull(),
         ];
     }
 
     public static function getInfolistSchema(): array
     {
         return [
-            TextEntry::make('name')->columnSpanFull(),
+            'name' => TextEntry::make('name')->columnSpanFull(),
             /*
              * Infolists\Components\TextEntry::make('email')
              * ->columnSpanFull(),
@@ -52,7 +52,7 @@ class LogResource extends XotBaseResource
              * ->formatStateUsing(static fn ($state) => new HtmlString(nl2br($state)))
              * ->columnSpanFull(),
              */
-            FileContentEntry::make('file-content'),
+            'file-content' => FileContentEntry::make('file-content'),
             /*
              * RepeatableEntry::make('lines')
              * ->schema([

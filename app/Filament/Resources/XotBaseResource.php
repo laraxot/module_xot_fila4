@@ -95,8 +95,10 @@ abstract class XotBaseResource extends FilamentResource
 
     final public static function form(Schema $schema): Schema
     {
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $components */
+        $components = array_values(static::getFormSchema());
         return $schema
-            ->components(static::getFormSchema());
+            ->components($components);
     }
 
     /**
@@ -114,7 +116,7 @@ abstract class XotBaseResource extends FilamentResource
      */
     final public static function infolist(Schema $schema): Schema
     {
-        return $schema->components(static::getInfolistSchema());
+        return $schema->components(array_values(static::getInfolistSchema()));
     }
 
     /**

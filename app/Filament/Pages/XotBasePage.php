@@ -21,7 +21,10 @@ use Illuminate\Support\Str;
 use Modules\Xot\Actions\View\GetViewByClassAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
+=======
+>>>>>>> 2850177 (.)
 
 /**
  * Classe base astratta per tutte le pagine Filament non legate a risorse specifiche.
@@ -189,6 +192,30 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         return $modelNamespace;
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * Configura il form della pagina.
+     * Imposta lo schema e il percorso dello stato per il form.
+     *
+     * @param \Filament\Schemas\Schema $schema Il form da configurare
+     *
+     * @return \Filament\Schemas\Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+    {
+        $schema = $schema->components($this->getFormSchema());
+
+        $schema->statePath('data');
+
+        $debounce = $this->getAutosaveDebounce();
+        if (null !== $debounce && method_exists($schema, 'autosaveDebounce')) {
+            $schema->autosaveDebounce($debounce);
+        }
+
+        return $schema;
+    }
+>>>>>>> 2850177 (.)
 
     /**
      * Ottiene il tempo di debounce per l'autosave in millisecondi.

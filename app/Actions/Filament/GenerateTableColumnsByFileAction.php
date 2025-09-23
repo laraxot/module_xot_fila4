@@ -33,6 +33,7 @@ class GenerateTableColumnsByFileAction
     /**
      * Genera colonne per tabelle e form Filament basate su un file di risorsa.
      *
+<<<<<<< HEAD
      * @param  File  $file  Il file della risorsa Filament
      */
     public function execute(File $file): void
@@ -41,6 +42,18 @@ class GenerateTableColumnsByFileAction
             return;
         }
         if (! \in_array($file->getExtension(), ['php'], false)) {
+=======
+     * @param File $file Il file della risorsa Filament
+     *
+     * @return void
+     */
+    public function execute(File $file): void
+    {
+        if (!$file->isFile()) {
+            return;
+        }
+        if (!\in_array($file->getExtension(), ['php'], false)) {
+>>>>>>> 2850177 (.)
             return;
         }
         $filename = $file->getPathname();
@@ -75,14 +88,22 @@ class GenerateTableColumnsByFileAction
         // *
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'table');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->columns(', '(', ')');
+<<<<<<< HEAD
         $body_new = '->columns(['.chr(13).'// TODO: Generate table columns'.chr(13).'])';
+=======
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+>>>>>>> 2850177 (.)
         $body_up = Str::of($body)->replace($body1, $body_new)->toString();
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
         // -------------------- FORM ------------------------------
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'form');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->schema(', '(', ')');
+<<<<<<< HEAD
         $body_new = '->schema(['.chr(13).'// TODO: Generate form schema'.chr(13).'])';
+=======
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+>>>>>>> 2850177 (.)
         $body_up = Str::of($body)->replace($body1, $body_new)->toString();
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
@@ -112,7 +133,13 @@ class GenerateTableColumnsByFileAction
     /**
      * Mostra informazioni di debug su un file.
      *
+<<<<<<< HEAD
      * @param  File  $file  Il file da analizzare
+=======
+     * @param File $file Il file da analizzare
+     *
+     * @return void
+>>>>>>> 2850177 (.)
      */
     public function ddFile(File $file): void
     {

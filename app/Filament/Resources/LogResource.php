@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
+<<<<<<< HEAD
 use Filament\Support\Components\Component;
+=======
+use Override;
+>>>>>>> 2850177 (.)
 use Filament\Schemas\Schema;
 use Override;
 use Modules\Xot\Filament\Resources\LogResource\Pages\ListLogs;
@@ -34,15 +38,25 @@ class LogResource extends XotBaseResource
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
             TextInput::make('name')->required()->maxLength(255),
             TextInput::make('path')->required()->maxLength(255),
             Textarea::make('content')->columnSpanFull(),
+=======
+            'name' => TextInput::make('name')->required()->maxLength(255),
+            'path' => TextInput::make('path')->required()->maxLength(255),
+            'content' => Textarea::make('content')->columnSpanFull(),
+>>>>>>> 2850177 (.)
         ];
     }
 
     public static function getInfolistSchema(): array
     {
+<<<<<<< HEAD
         return [
+=======
+        return $schema->components([
+>>>>>>> 2850177 (.)
             TextEntry::make('name')->columnSpanFull(),
             /*
              * Infolists\Components\TextEntry::make('email')

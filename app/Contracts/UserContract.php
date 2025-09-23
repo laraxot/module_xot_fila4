@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+<<<<<<< HEAD
 use DateTime;
 use BackedEnum;
 use Filament\Models\Contracts\FilamentUser;
@@ -16,6 +17,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> a57150a (.)
 use Illuminate\Support\Collection;
 use Laravel\Passport\Token;
 use Modules\User\Contracts\HasTeamsContract;
@@ -32,6 +38,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 /**
  * Modules\User\Contracts\UserContract.
  *
+<<<<<<< HEAD
  * @property ProfileContract|null $profile
  * @property string $id
  * @property string $handle
@@ -48,13 +55,18 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
  *
  * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+=======
+>>>>>>> a57150a (.)
  * @method bool canAccessSocialite()
  *
  * @phpstan-require-extends Model
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+=======
+>>>>>>> a57150a (.)
 {
     /*
      * public function isSuperAdmin();
@@ -72,7 +84,10 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Get a relationship.
      *
+<<<<<<< HEAD
      * @param  string  $key
+=======
+>>>>>>> a57150a (.)
      * @return mixed|null
      */
     public function getRelationValue($key);
@@ -80,8 +95,11 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Create a new instance of the given model.
      *
+<<<<<<< HEAD
      * @param  array  $attributes
      * @param  bool  $exists
+=======
+>>>>>>> a57150a (.)
      * @return static
      */
     public function newInstance($attributes = [], $exists = false);
@@ -99,7 +117,10 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      */
     public function hasRole(
         string|int|array|Role|Collection $roles,
+<<<<<<< HEAD
         ?string $guard = null,
+=======
+>>>>>>> a57150a (.)
     ): bool;
 
     /**
@@ -112,7 +133,10 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Revoke the given role from the model.
      *
+<<<<<<< HEAD
      * @param  string|int|Role|BackedEnum  $role
+=======
+>>>>>>> a57150a (.)
      * @return self
      */
     public function removeRole($role);
@@ -137,6 +161,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     // public function canAccessSocialite(): bool;
     /**
      * Get all consents for the model (polymorphic).
+<<<<<<< HEAD
      */
     // public function consents(): MorphMany;
     /**
@@ -147,4 +172,6 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
+=======
+>>>>>>> a57150a (.)
 }

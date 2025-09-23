@@ -8,7 +8,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
+<<<<<<< HEAD
 use Filament\Forms\Form;
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 518e053 (.)
 
 use ReflectionClass;
 use Filament\Resources\Resource;

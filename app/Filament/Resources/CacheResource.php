@@ -18,13 +18,25 @@ class CacheResource extends XotBaseResource
 {
     protected static null|string $model = Cache::class;
 
+<<<<<<< HEAD
+=======
+    /**
+     * @return array<int, \Filament\Support\Components\Component>
+     */
+>>>>>>> 518e053 (.)
     #[Override]
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
             'key' => TextInput::make('key')->required()->maxLength(255),
             'expiration' => TextInput::make('expiration')->required()->numeric(),
             'value' => KeyValue::make('value')->columnSpanFull(),
+=======
+            TextInput::make('key')->required()->maxLength(255),
+            TextInput::make('expiration')->required()->numeric(),
+            KeyValue::make('value')->columnSpanFull(),
+>>>>>>> 518e053 (.)
         ];
     }
 

@@ -22,7 +22,11 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 use Filament\Forms\Form;
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 518e053 (.)
 
 /**
  * Classe base astratta per tutti i widget Filament.
@@ -97,7 +101,11 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
      */
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
+<<<<<<< HEAD
         $form = $form->components($this->getFormSchema());
+=======
+        $form = $form->schema($this->getFormSchema());
+>>>>>>> 518e053 (.)
         $form->statePath('data');
         $data = $this->getFormFill();
 

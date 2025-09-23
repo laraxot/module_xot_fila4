@@ -6,7 +6,11 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace \Filament\Forms\Form;
+=======
+namespace Modules\Xot\Filament\Actions\Form;
+>>>>>>> 518e053 (.)
 
 use Filament\Actions\Action;
 

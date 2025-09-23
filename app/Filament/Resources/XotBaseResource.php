@@ -5,6 +5,11 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 use Filament\Forms;
+<<<<<<< HEAD
+=======
+use Filament\Infolists\Components\Component as InfolistComponent;
+use Filament\Infolists\Infolist;
+>>>>>>> 518e053 (.)
 use Filament\Pages\Enums\SubNavigationPosition;
 use Filament\Resources\Pages\Page;
 use Filament\Resources\Pages\PageRegistration;
@@ -12,10 +17,15 @@ use Filament\Resources\RelationManagers\RelationGroup;
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Resources\RelationManagers\RelationManagerConfiguration;
 use Filament\Resources\Resource as FilamentResource;
+<<<<<<< HEAD
 use Filament\Forms\Components\Component;
 use Filament\Forms\Components\Wizard\Step;
 use Exception;
 use ReflectionClass;
+=======
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
+>>>>>>> 518e053 (.)
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
@@ -25,7 +35,10 @@ use Modules\Media\Actions\GetAttachmentsSchemaAction;
 use Modules\Xot\Actions\ModelClass\CountAction;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 518e053 (.)
 use function Safe\glob;
 
 use Webmozart\Assert\Assert;
@@ -46,7 +59,11 @@ abstract class XotBaseResource extends FilamentResource
     // protected static ?string $navigationGroup = 'Parametri di Sistema';
     // protected static ?int $navigationSort = null;
 
+<<<<<<< HEAD
     protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
+=======
+    protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
+>>>>>>> 518e053 (.)
 
     public static function getModuleName(): string
     {
@@ -88,10 +105,40 @@ abstract class XotBaseResource extends FilamentResource
     }
 
     /**
+<<<<<<< HEAD
      * @return array<string|int, Component>
      */
     abstract public static function getFormSchema(): array;
 
+=======
+     * @return array<string, \Filament\Support\Components\Component>
+     */
+    abstract public static function getFormSchema(): array;
+
+    final public static function form(Schema $form): Schema
+    {
+        return $form
+            ->schema(static::getFormSchema());
+    }
+
+    /**
+     * Schema dell'infolist: tutte le risorse devono delegare qui.
+     *
+     * @return array<string, InfolistComponent>
+     */
+    public static function getInfolistSchema(): array
+    {
+        return [];
+    }
+
+    /**
+     * Metodo finale: obbliga l'uso di getInfolistSchema().
+     */
+    final public static function infolist(Schema $infolist): Schema
+    {
+        return $infolist->schema(static::getInfolistSchema());
+    }
+>>>>>>> 518e053 (.)
 
     /**
      * @return array<string, mixed>
@@ -117,7 +164,11 @@ abstract class XotBaseResource extends FilamentResource
             $count = app(CountAction::class)->execute(static::getModel());
 
             return number_format($count, 0).'';
+<<<<<<< HEAD
         } catch (Exception $e) {
+=======
+        } catch (\Exception $e) {
+>>>>>>> 518e053 (.)
             return '--';
         }
     }
@@ -164,7 +215,11 @@ abstract class XotBaseResource extends FilamentResource
      */
     public static function getRelations(): array
     {
+<<<<<<< HEAD
         $reflector = new ReflectionClass(static::class);
+=======
+        $reflector = new \ReflectionClass(static::class);
+>>>>>>> 518e053 (.)
         $filename = $reflector->getFileName();
         Assert::string($filename, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
@@ -200,7 +255,11 @@ abstract class XotBaseResource extends FilamentResource
         $submit_view = 'pub_theme::filament.wizard.submit-button';
         // @phpstan-ignore-next-line
         if (! view()->exists($submit_view)) {
+<<<<<<< HEAD
             throw new Exception("View {$submit_view} does not exist");
+=======
+            throw new \Exception("View {$submit_view} does not exist");
+>>>>>>> 518e053 (.)
         }
         $render = view($submit_view)->render();
 
@@ -210,7 +269,11 @@ abstract class XotBaseResource extends FilamentResource
     /**
      * Get attachments schema for forms.
      *
+<<<<<<< HEAD
      * @return array<int, Component>
+=======
+     * @return array<int, \Filament\Support\Components\Component>
+>>>>>>> 518e053 (.)
      */
     public static function getAttachmentsSchema(bool $multiple = true): array
     {

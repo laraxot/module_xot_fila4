@@ -15,7 +15,11 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     /**
      * Get the form schema.
      *
+<<<<<<< HEAD
      * @return array<string|int, Component>|array<Component>
+=======
+     * @return array<int, \Filament\Support\Components\Component>
+>>>>>>> 518e053 (.)
      */
     protected function getFormSchema(): array
     {

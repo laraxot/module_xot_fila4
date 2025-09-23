@@ -18,11 +18,18 @@ class ViewLog extends XotBaseViewRecord
 {
     protected static string $resource = LogResource::class;
 
+<<<<<<< HEAD
+=======
+    /**
+     * @return array<int, \Filament\Support\Components\Component>
+     */
+>>>>>>> 518e053 (.)
     #[Override]
     protected function getInfolistSchema(): array
     {
         $log = $this->getRecord()->getModel();
         return [
+<<<<<<< HEAD
             'log_info' => Section::make('Informazioni Log')->schema([
                 'log_grid' => Grid::make(['default' => 3])->schema([
                     'id' => TextEntry::make('id'),
@@ -35,6 +42,20 @@ class ViewLog extends XotBaseViewRecord
                         fn($state) => json_encode($state, JSON_PRETTY_PRINT),
                     ),
                     'extra' => TextEntry::make('extra')->formatStateUsing(
+=======
+            Section::make('Informazioni Log')->schema([
+                Grid::make(['default' => 3])->schema([
+                    TextEntry::make('id'),
+                    TextEntry::make('message'),
+                    TextEntry::make('level'),
+                    TextEntry::make('level_name'),
+                    TextEntry::make('channel'),
+                    TextEntry::make('datetime')->dateTime(),
+                    TextEntry::make('context')->formatStateUsing(
+                        fn($state) => json_encode($state, JSON_PRETTY_PRINT),
+                    ),
+                    TextEntry::make('extra')->formatStateUsing(
+>>>>>>> 518e053 (.)
                         fn($state) => json_encode($state, JSON_PRETTY_PRINT),
                     ),
                 ]),

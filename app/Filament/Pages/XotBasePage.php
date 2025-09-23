@@ -21,7 +21,11 @@ use Illuminate\Support\Str;
 use Modules\Xot\Actions\View\GetViewByClassAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 use Filament\Forms\Form;
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 518e053 (.)
 
 /**
  * Classe base astratta per tutte le pagine Filament non legate a risorse specifiche.
@@ -36,7 +40,11 @@ use Filament\Forms\Form;
  *
  * @property ?string              $model Il modello associato alla pagina
  * @property array<string, mixed> $data  I dati del form
+<<<<<<< HEAD
  * @property \Filament\Forms\Form $form Il form della pagina
+=======
+     * @property \Filament\Schemas\Schema $form Il form della pagina
+>>>>>>> 518e053 (.)
  *
  * @see \Modules\Xot\docs\xotbasepage_implementation.md Documentazione completa
  */

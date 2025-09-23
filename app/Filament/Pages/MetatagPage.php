@@ -19,10 +19,7 @@ use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
 use Filament\Schemas\Schema;
-=======
->>>>>>> 2850177 (.)
 
 /**
  * @property Schema $form

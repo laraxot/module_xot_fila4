@@ -11,10 +11,7 @@ namespace Modules\Xot\Actions\Filament;
 use Filament\Resources\Resource;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
-<<<<<<< HEAD
 use ReflectionClass;
-=======
->>>>>>> 2850177 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Finder\SplFileInfo as File;
 use Webmozart\Assert\Assert;
@@ -28,27 +25,15 @@ class GenerateFormByFileAction
     /**
      * Genera un form Filament basato su un file di risorsa.
      *
-<<<<<<< HEAD
      * @param  File  $file  Il file della risorsa Filament
-=======
-     * @param File $file Il file della risorsa Filament
-     *
->>>>>>> 2850177 (.)
      * @return int Numero di input aggiunti
      */
     public function execute(File $file): int
     {
-<<<<<<< HEAD
         if (! $file->isFile()) {
             return 0;
         }
         if (! \in_array($file->getExtension(), ['php'], false)) {
-=======
-        if (!$file->isFile()) {
-            return 0;
-        }
-        if (!\in_array($file->getExtension(), ['php'], false)) {
->>>>>>> 2850177 (.)
             return 0;
         }
 
@@ -98,11 +83,7 @@ class GenerateFormByFileAction
         // it's actually - 1, otherwise you wont get the function() block
         $end_line = $form_method->getEndLine();
         $length = $end_line - $start_line;
-<<<<<<< HEAD
         Assert::string($file_name = $form_method->getFileName(), '['.__LINE__.']['.class_basename($this).']');
-=======
-        Assert::string($file_name = $form_method->getFileName(), '[' . __LINE__ . '][' . class_basename($this) . ']');
->>>>>>> 2850177 (.)
         // $contents= $file->getContents();
         $source = file($file_name);
         $body = implode('', \array_slice($source, $start_line, $length));
@@ -125,13 +106,7 @@ class GenerateFormByFileAction
     /**
      * Mostra informazioni di debug su un file.
      *
-<<<<<<< HEAD
      * @param  File  $file  Il file da analizzare
-=======
-     * @param File $file Il file da analizzare
-     *
-     * @return void
->>>>>>> 2850177 (.)
      */
     public function ddFile(File $file): void
     {

@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\Pages;
 
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Components\Component;
->>>>>>> 2850177 (.)
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Component;
 use Closure;

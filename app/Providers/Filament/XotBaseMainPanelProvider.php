@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers\Filament;
 
-<<<<<<< HEAD
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
@@ -24,29 +23,6 @@ use Modules\Xot\Actions\Panel\ApplyMetatagToPanelAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Pages\MainDashboard;
 use Nwidart\Modules\Facades\Module;
-=======
-use Exception;
-use Filament\Panel;
-use Filament\PanelProvider;
-use Filament\Navigation\MenuItem;
-use Modules\Xot\Datas\MetatagData;
-use Nwidart\Modules\Facades\Module;
-use Illuminate\Support\Facades\Auth;
-use Filament\Http\Middleware\Authenticate;
-use Modules\Xot\Filament\Pages\MainDashboard;
-use Modules\User\Filament\Pages\MyProfilePage;
-use Illuminate\Session\Middleware\StartSession;
-use Illuminate\Cookie\Middleware\EncryptCookies;
-use Illuminate\Routing\Middleware\SubstituteBindings;
-use Illuminate\Session\Middleware\AuthenticateSession;
-use Illuminate\View\Middleware\ShareErrorsFromSession;
-use Filament\Http\Middleware\DisableBladeIconComponents;
-use Modules\Xot\Actions\Panel\ApplyMetatagToPanelAction;
-use Filament\Http\Middleware\DispatchServingFilamentEvent;
-use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
-use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
-use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
->>>>>>> 2850177 (.)
 
 abstract class XotBaseMainPanelProvider extends PanelProvider
 {
@@ -58,11 +34,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 
         $panel->id('admin')->path('admin');
 
-<<<<<<< HEAD
         if (! Module::has('Cms')) {
-=======
-        if (!Module::has('Cms')) {
->>>>>>> 2850177 (.)
             $panel->login();
         }
 
@@ -70,7 +42,6 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 
         app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
 
-<<<<<<< HEAD
         // Discovery sicura: verifica che le directory esistano
         $resourcesPath = app_path('Filament/Resources');
         $pagesPath = app_path('Filament/Pages');
@@ -79,11 +50,6 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
         if (is_dir($resourcesPath)) {
             $panel = $panel->discoverResources(
                 in: $resourcesPath,
-=======
-        $panel = $panel
-            ->discoverResources(
-                in: app_path('Filament/Resources'),
->>>>>>> 2850177 (.)
                 for: 'App\\Filament\\Resources',
             );
         }
@@ -92,7 +58,6 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             $panel = $panel->discoverPages(
                 in: $pagesPath,
                 for: 'App\\Filament\\Pages',
-<<<<<<< HEAD
             );
         }
 
@@ -108,17 +73,6 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             );
         }
         $panel = $panel
-=======
-            )
-            ->pages([
-                MainDashboard::class,
-                MyProfilePage::class,
-            ])
-            ->discoverWidgets(
-                in: app_path('Filament/Widgets'),
-                for: 'App\\Filament\\Widgets',
-            )
->>>>>>> 2850177 (.)
             ->widgets([
                 // Widgets\AccountWidget::class,
             ])

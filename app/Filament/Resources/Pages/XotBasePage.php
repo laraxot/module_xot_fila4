@@ -5,10 +5,14 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Form;
 =======
 use Filament\Schemas\Schema;
 >>>>>>> 518e053 (.)
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 6163c49 (.)
 use Filament\Schemas\Components\Component;
 use Closure;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -105,10 +109,14 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $form->components($this->getFormSchema())->statePath('data');
 =======
         return $form->schema($this->getFormSchema())->statePath('data');
 >>>>>>> 518e053 (.)
+=======
+        return $form->schema($this->getFormSchema())->statePath('data');
+>>>>>>> 6163c49 (.)
     }
 
     /**

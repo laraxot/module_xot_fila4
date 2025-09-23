@@ -6,10 +6,15 @@ namespace Modules\Xot\Filament\Resources;
 
 use Filament\Forms;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Filament\Infolists\Components\Component as InfolistComponent;
 use Filament\Infolists\Infolist;
 >>>>>>> 518e053 (.)
+=======
+use Filament\Infolists\Components\Component as InfolistComponent;
+use Filament\Infolists\Infolist;
+>>>>>>> 6163c49 (.)
 use Filament\Pages\Enums\SubNavigationPosition;
 use Filament\Resources\Pages\Page;
 use Filament\Resources\Pages\PageRegistration;
@@ -17,6 +22,7 @@ use Filament\Resources\RelationManagers\RelationGroup;
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Resources\RelationManagers\RelationManagerConfiguration;
 use Filament\Resources\Resource as FilamentResource;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Forms\Components\Component;
 use Filament\Forms\Components\Wizard\Step;
@@ -26,6 +32,10 @@ use ReflectionClass;
 use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
 >>>>>>> 518e053 (.)
+=======
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
+>>>>>>> 6163c49 (.)
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
@@ -60,10 +70,14 @@ abstract class XotBaseResource extends FilamentResource
     // protected static ?int $navigationSort = null;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
 =======
     protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
 >>>>>>> 518e053 (.)
+=======
+    protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
+>>>>>>> 6163c49 (.)
 
     public static function getModuleName(): string
     {
@@ -106,6 +120,7 @@ abstract class XotBaseResource extends FilamentResource
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string|int, Component>
      */
     abstract public static function getFormSchema(): array;
@@ -115,10 +130,37 @@ abstract class XotBaseResource extends FilamentResource
      */
     abstract public static function getFormSchema(): array;
 
+=======
+     * @return array<string, \Filament\Support\Components\Component>
+     */
+    abstract public static function getFormSchema(): array;
+
+>>>>>>> 6163c49 (.)
     final public static function form(Schema $form): Schema
     {
         return $form
             ->schema(static::getFormSchema());
+<<<<<<< HEAD
+=======
+    }
+
+    /**
+     * Schema dell'infolist: tutte le risorse devono delegare qui.
+     *
+     * @return array<string, InfolistComponent>
+     */
+    public static function getInfolistSchema(): array
+    {
+        return [];
+    }
+
+    /**
+     * Metodo finale: obbliga l'uso di getInfolistSchema().
+     */
+    final public static function infolist(Schema $infolist): Schema
+    {
+        return $infolist->schema(static::getInfolistSchema());
+>>>>>>> 6163c49 (.)
     }
 
     /**
@@ -165,10 +207,14 @@ abstract class XotBaseResource extends FilamentResource
 
             return number_format($count, 0).'';
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (Exception $e) {
 =======
         } catch (\Exception $e) {
 >>>>>>> 518e053 (.)
+=======
+        } catch (\Exception $e) {
+>>>>>>> 6163c49 (.)
             return '--';
         }
     }
@@ -216,10 +262,14 @@ abstract class XotBaseResource extends FilamentResource
     public static function getRelations(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $reflector = new ReflectionClass(static::class);
 =======
         $reflector = new \ReflectionClass(static::class);
 >>>>>>> 518e053 (.)
+=======
+        $reflector = new \ReflectionClass(static::class);
+>>>>>>> 6163c49 (.)
         $filename = $reflector->getFileName();
         Assert::string($filename, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
@@ -256,10 +306,14 @@ abstract class XotBaseResource extends FilamentResource
         // @phpstan-ignore-next-line
         if (! view()->exists($submit_view)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception("View {$submit_view} does not exist");
 =======
             throw new \Exception("View {$submit_view} does not exist");
 >>>>>>> 518e053 (.)
+=======
+            throw new \Exception("View {$submit_view} does not exist");
+>>>>>>> 6163c49 (.)
         }
         $render = view($submit_view)->render();
 
@@ -270,10 +324,14 @@ abstract class XotBaseResource extends FilamentResource
      * Get attachments schema for forms.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<int, Component>
 =======
      * @return array<int, \Filament\Support\Components\Component>
 >>>>>>> 518e053 (.)
+=======
+     * @return array<int, \Filament\Support\Components\Component>
+>>>>>>> 6163c49 (.)
      */
     public static function getAttachmentsSchema(bool $multiple = true): array
     {

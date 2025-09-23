@@ -9,15 +9,19 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Filament;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Form;
 =======
 use Filament\Schemas\Schema;
 >>>>>>> 518e053 (.)
 
 use ReflectionClass;
+=======
+>>>>>>> 6163c49 (.)
 use Filament\Resources\Resource;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+use ReflectionClass;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Finder\SplFileInfo as File;
 use Webmozart\Assert\Assert;
@@ -31,34 +35,33 @@ class GenerateFormByFileAction
     /**
      * Genera un form Filament basato su un file di risorsa.
      *
-     * @param File $file Il file della risorsa Filament
-     *
+     * @param  File  $file  Il file della risorsa Filament
      * @return int Numero di input aggiunti
      */
     public function execute(File $file): int
     {
-        if (!$file->isFile()) {
+        if (! $file->isFile()) {
             return 0;
         }
-        if (!\in_array($file->getExtension(), ['php'], false)) {
+        if (! \in_array($file->getExtension(), ['php'], false)) {
             return 0;
         }
 
         $class_name = Str::replace(base_path('Modules/'), 'Modules/', $file->getPathname());
         Assert::string(
             $class_name = Str::replace('/', '\\', $class_name),
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '['.__LINE__.']['.class_basename($this).']',
         );
         $class_name = Str::substr($class_name, 0, -4);
 
         // Verifichiamo che la classe esista e sia una risorsa Filament
         Assert::classExists($class_name);
 
-        /** @var Resource $resourceInstance */
+        /** @var resource $resourceInstance */
         $resourceInstance = app($class_name);
 
         // Verifichiamo che il metodo getModel esista
-        if (!method_exists($resourceInstance, 'getModel')) {
+        if (! method_exists($resourceInstance, 'getModel')) {
             return 0;
         }
 
@@ -72,7 +75,7 @@ class GenerateFormByFileAction
         $modelInstance = app($modelClass);
 
         // Verifichiamo che il metodo getFillable esista
-        if (!method_exists($modelInstance, 'getFillable')) {
+        if (! method_exists($modelInstance, 'getFillable')) {
             return 0;
         }
 
@@ -81,7 +84,7 @@ class GenerateFormByFileAction
         $reflection_class = new ReflectionClass($class_name);
 
         // Verifichiamo che il metodo form esista
-        if (!$reflection_class->hasMethod('form')) {
+        if (! $reflection_class->hasMethod('form')) {
             return 0;
         }
 
@@ -90,7 +93,7 @@ class GenerateFormByFileAction
         // it's actually - 1, otherwise you wont get the function() block
         $end_line = $form_method->getEndLine();
         $length = $end_line - $start_line;
-        Assert::string($file_name = $form_method->getFileName(), '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::string($file_name = $form_method->getFileName(), '['.__LINE__.']['.class_basename($this).']');
         // $contents= $file->getContents();
         $source = file($file_name);
         $body = implode('', \array_slice($source, $start_line, $length));
@@ -113,9 +116,7 @@ class GenerateFormByFileAction
     /**
      * Mostra informazioni di debug su un file.
      *
-     * @param File $file Il file da analizzare
-     *
-     * @return void
+     * @param  File  $file  Il file da analizzare
      */
     public function ddFile(File $file): void
     {
@@ -124,13 +125,13 @@ class GenerateFormByFileAction
             'getRelativePathname' => $file->getRelativePathname(), //  AssenzeResource.php
             'getFilenameWithoutExtension' => $file->getFilenameWithoutExtension(), // AssenzeResource
             // 'getContents' => $file->getContents(),
-            'getPath' => $file->getPath(), // = /var/www/html/ptvx/laravel/Modules/Progressioni/Filament/Resources
+            'getPath' => $file->getPath(),
             'getFilename' => $file->getFilename(), // = AssenzeResource.php
             'getExtension' => $file->getExtension(), // php
             'getBasename' => $file->getBasename(), // AssenzeResource.php
-            'getPathname' => $file->getPathname(), // "/var/www/html/ptvx/laravel/Modules/Progressioni/Filament/resources/AssenzeResource.php
+            'getPathname' => $file->getPathname(),
             'isFile' => $file->isFile(), // true
-            'getRealPath' => $file->getRealPath(), // /var/www/html/ptvx/laravel/Modules/Progressioni/Filament/resources/AssenzeResource.php
+            'getRealPath' => $file->getRealPath(),
             // 'getFileInfo' => $file->getFileInfo(),
             // 'getPathInfo' => $file->getPathInfo(),
             'methods' => get_class_methods($file),

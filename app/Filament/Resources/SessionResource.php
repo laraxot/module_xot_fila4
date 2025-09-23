@@ -16,15 +16,22 @@ class SessionResource extends XotBaseResource
     protected static null|string $model = Session::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     /**
      * @return array<int, \Filament\Support\Components\Component>
      */
 >>>>>>> 518e053 (.)
+=======
+    /**
+     * @return array<int, \Filament\Support\Components\Component>
+     */
+>>>>>>> 6163c49 (.)
     #[Override]
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'id' => TextInput::make('id')->required()->maxLength(255),
             'user_id' => TextInput::make('user_id')->numeric(),
@@ -33,13 +40,18 @@ class SessionResource extends XotBaseResource
             'payload' => KeyValue::make('payload')->columnSpanFull(),
             'last_activity' => TextInput::make('last_activity')->required()->numeric(),
 =======
+=======
+>>>>>>> 6163c49 (.)
             TextInput::make('id')->required()->maxLength(255),
             TextInput::make('user_id')->numeric(),
             TextInput::make('ip_address')->maxLength(45),
             TextInput::make('user_agent')->maxLength(255),
             KeyValue::make('payload')->columnSpanFull(),
             TextInput::make('last_activity')->required()->numeric(),
+<<<<<<< HEAD
 >>>>>>> 518e053 (.)
+=======
+>>>>>>> 6163c49 (.)
         ];
     }
 }

@@ -5,10 +5,14 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\XotBaseResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Form;
 =======
 use Filament\Schemas\Schema;
 >>>>>>> 518e053 (.)
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 6163c49 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 use Filament\Actions\CreateAction;
@@ -53,13 +57,19 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     // abstract public static function getFormSchema(): array;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6163c49 (.)
     public function form(\Filament\Schemas\Schema $schema): \Filament\Schemas\Schema
     {
         return $schema->schema($this->getFormSchema());
     }
 
+<<<<<<< HEAD
 >>>>>>> 518e053 (.)
+=======
+>>>>>>> 6163c49 (.)
     /**
      * Definisce le colonne della tabella per la visualizzazione dei record correlati.
      * Questo metodo può essere sovrascritto nelle classi figlie.

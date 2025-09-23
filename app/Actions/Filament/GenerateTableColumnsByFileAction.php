@@ -33,34 +33,32 @@ class GenerateTableColumnsByFileAction
     /**
      * Genera colonne per tabelle e form Filament basate su un file di risorsa.
      *
-     * @param File $file Il file della risorsa Filament
-     *
-     * @return void
+     * @param  File  $file  Il file della risorsa Filament
      */
     public function execute(File $file): void
     {
-        if (!$file->isFile()) {
+        if (! $file->isFile()) {
             return;
         }
-        if (!\in_array($file->getExtension(), ['php'], false)) {
+        if (! \in_array($file->getExtension(), ['php'], false)) {
             return;
         }
         $filename = $file->getPathname();
         $class_name = Str::replace(base_path('Modules/'), 'Modules/', $filename);
         Assert::string(
             $class_name = Str::replace('/', '\\', $class_name),
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '['.__LINE__.']['.class_basename($this).']',
         );
         $class_name = Str::substr($class_name, 0, -4);
 
         // Verifichiamo che la classe esista
         Assert::classExists($class_name);
 
-        /** @var Resource $resourceInstance */
+        /** @var resource $resourceInstance */
         $resourceInstance = app($class_name);
 
         // Verifichiamo che il metodo getModel esista
-        if (!method_exists($resourceInstance, 'getModel')) {
+        if (! method_exists($resourceInstance, 'getModel')) {
             return;
         }
 
@@ -77,14 +75,14 @@ class GenerateTableColumnsByFileAction
         // *
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'table');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->columns(', '(', ')');
-        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+        $body_new = '->columns(['.chr(13).'// TODO: Generate table columns'.chr(13).'])';
         $body_up = Str::of($body)->replace($body1, $body_new)->toString();
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
         // -------------------- FORM ------------------------------
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'form');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->schema(', '(', ')');
-        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+        $body_new = '->schema(['.chr(13).'// TODO: Generate form schema'.chr(13).'])';
         $body_up = Str::of($body)->replace($body1, $body_new)->toString();
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
@@ -114,9 +112,7 @@ class GenerateTableColumnsByFileAction
     /**
      * Mostra informazioni di debug su un file.
      *
-     * @param File $file Il file da analizzare
-     *
-     * @return void
+     * @param  File  $file  Il file da analizzare
      */
     public function ddFile(File $file): void
     {
@@ -125,13 +121,13 @@ class GenerateTableColumnsByFileAction
             'getRelativePathname' => $file->getRelativePathname(), //  AssenzeResource.php
             'getFilenameWithoutExtension' => $file->getFilenameWithoutExtension(), // AssenzeResource
             // 'getContents' => $file->getContents(),
-            'getPath' => $file->getPath(), // = /var/www/html/ptvx/laravel/Modules/Progressioni/Filament/Resources
+            'getPath' => $file->getPath(),
             'getFilename' => $file->getFilename(), // = AssenzeResource.php
             'getExtension' => $file->getExtension(), // php
             'getBasename' => $file->getBasename(), // AssenzeResource.php
-            'getPathname' => $file->getPathname(), // "/var/www/html/ptvx/laravel/Modules/Progressioni/Filament/resources/AssenzeResource.php
+            'getPathname' => $file->getPathname(),
             'isFile' => $file->isFile(), // true
-            'getRealPath' => $file->getRealPath(), // /var/www/html/ptvx/laravel/Modules/Progressioni/Filament/resources/AssenzeResource.php
+            'getRealPath' => $file->getRealPath(),
             // 'getFileInfo' => $file->getFileInfo(),
             // 'getPathInfo' => $file->getPathInfo(),
             'methods' => get_class_methods($file),

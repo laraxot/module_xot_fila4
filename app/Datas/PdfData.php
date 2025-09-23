@@ -10,17 +10,25 @@ namespace Modules\Xot\Datas;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
+=======
+>>>>>>> 6163c49 (.)
 use Illuminate\Support\Str;
-use Modules\Xot\Enums\PdfEngineEnum;
 use Spatie\LaravelData\Data;
-use Spatie\LaravelPdf\Enums\Format;
-use Spatie\LaravelPdf\Enums\Orientation;
+use Spipu\Html2Pdf\Html2Pdf;
+use Webmozart\Assert\Assert;
 use Spatie\LaravelPdf\Enums\Unit;
 use Spatie\LaravelPdf\Facades\Pdf;
-use Spipu\Html2Pdf\Html2Pdf;
+use Spatie\LaravelPdf\Enums\Format;
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Enums\PdfEngineEnum;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Storage;
+use Spatie\LaravelPdf\Enums\Orientation;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 =======
 use Illuminate\Support\Str;
@@ -37,6 +45,8 @@ use Illuminate\Support\Facades\Storage;
 use Spatie\LaravelPdf\Enums\Orientation;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 >>>>>>> 518e053 (.)
+=======
+>>>>>>> 6163c49 (.)
 
 /**
  * Undocumented class.
@@ -109,10 +119,13 @@ class PdfData extends Data
         switch ($this->engine) {
             case PdfEngineEnum::SPIPU:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $html2pdf = new Html2Pdf($this->orientation, $this->format, $this->lang);
                 $html2pdf->writeHTML($html);
                 $html2pdf->output($this->getPath(), $this->dest);
 =======
+=======
+>>>>>>> 6163c49 (.)
                 try {
                     $html2pdf = new Html2Pdf($this->orientation, $this->format, $this->lang);
                     $html2pdf->writeHTML($html);
@@ -121,7 +134,10 @@ class PdfData extends Data
                 } catch (\Spipu\Html2Pdf\Exception\HtmlParsingException $e) {
                     File::put($this->getPath().'.html', $html);
                 }
+<<<<<<< HEAD
 >>>>>>> 518e053 (.)
+=======
+>>>>>>> 6163c49 (.)
                 break;
 
             /*

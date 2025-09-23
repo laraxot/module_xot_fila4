@@ -20,10 +20,14 @@ use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Form;
 =======
 use Filament\Schemas\Schema;
 >>>>>>> 518e053 (.)
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 6163c49 (.)
 
 /**
  * @property Schema $form
@@ -53,10 +57,14 @@ class MetatagPage extends Page implements HasForms
 
         return $form
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->components([
 =======
             ->schema([
 >>>>>>> 518e053 (.)
+=======
+            ->schema([
+>>>>>>> 6163c49 (.)
                 TextInput::make('title')->required(),
                 TextInput::make('sitename'),
                 TextInput::make('subtitle'),

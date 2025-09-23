@@ -16,10 +16,14 @@ abstract class XotBaseViewRecord extends FilamentViewRecord
      * Questo metodo deve sempre restituire un array con chiavi di tipo stringa.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<int|string, Component>
 =======
      * @return array<int, \Filament\Support\Components\Component>
 >>>>>>> 518e053 (.)
+=======
+     * @return array<int, \Filament\Support\Components\Component>
+>>>>>>> 6163c49 (.)
      */
     abstract protected function getInfolistSchema(): array;
 }

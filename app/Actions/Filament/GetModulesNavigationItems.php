@@ -5,16 +5,16 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Filament;
 
 use Exception;
-use Illuminate\Support\Str;
-use Webmozart\Assert\Assert;
 use Filament\Facades\Filament;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Cache;
 use Filament\Navigation\NavigationItem;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Str;
 use Modules\Tenant\Services\TenantService;
-use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+
 use function Safe\json_encode;
 
 /**
@@ -39,31 +39,33 @@ class GetModulesNavigationItems
 
         // Pre-load user roles to avoid N+1 queries
         $user = auth()->user();
-        
+
         $userRoles = [];
         if ($user && method_exists($user, 'roles')) {
             try {
                 $userRoles = $user->roles()->pluck('name')->toArray();
             } catch (Exception $e) {
-                
                 $userRoles = [];
             }
         }
 
-        
-       
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');
 
             $module_low = Str::lower($module);
             Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
 
-            $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
-            $configFilePath = $configPath . '/config.php';
+            // Tolleranza: durante comandi CLI alcuni moduli possono non avere ancora struttura completa
+            try {
+                $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
+            } catch (\Throwable $e) {
+                // Skip modulo non pronto/senza generator path config
+                continue;
+            }
+            $configFilePath = $configPath.'/config.php';
 
             // Verifichiamo che il file esista
-            if (!File::exists($configFilePath)) {
-              
+            if (! File::exists($configFilePath)) {
                 continue;
             }
 
@@ -80,7 +82,7 @@ class GetModulesNavigationItems
             $icon = $config['icon'] ?? 'heroicon-o-question-mark-circle';
             Assert::string($icon, "L'icona deve essere una stringa");
 
-            $role = $module_low . '::admin';
+            $role = $module_low.'::admin';
             Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
 
             $navigation_sort = $config['navigation_sort'] ?? 1;
@@ -88,36 +90,36 @@ class GetModulesNavigationItems
             $navigation_sort = (int) $navigation_sort;
 
             // Check role using pre-loaded roles instead of hasRole() method
-           /*
-            $hasRole = in_array($role, $userRoles, true);
+            /*
+             $hasRole = in_array($role, $userRoles, true);
 
-            // Only create NavigationItem if user has the role (memory optimization)
-            if ($hasRole) {
-                $nav = NavigationItem::make($module)
-                    ->url('/' . $module_low . '/admin')
-                    ->icon($icon)
-                    ->group('Modules')
-                    ->sort($navigation_sort)
-                    ->visible(true); // Already checked above
+             // Only create NavigationItem if user has the role (memory optimization)
+             if ($hasRole) {
+                 $nav = NavigationItem::make($module)
+                     ->url('/' . $module_low . '/admin')
+                     ->icon($icon)
+                     ->group('Modules')
+                     ->sort($navigation_sort)
+                     ->visible(true); // Already checked above
 
-                $navs[] = $nav;
-            }
-            */
+                 $navs[] = $nav;
+             }
+             */
 
             // Creiamo l'elemento di navigazione
             $nav = NavigationItem::make($module)
-                ->url('/' . $module_low . '/admin')
+                ->url('/'.$module_low.'/admin')
                 ->icon($icon)
                 ->group('Modules')
                 ->sort($navigation_sort)
                 ->visible(static function () use ($role): bool {
                     $user = Filament::auth()->user();
-                    if (null === $user) {
+                    if ($user === null) {
                         return false;
                     }
 
                     // Verifichiamo che il metodo hasRole esista
-                    if (!method_exists($user, 'hasRole')) {
+                    if (! method_exists($user, 'hasRole')) {
                         return false;
                     }
 
@@ -141,7 +143,7 @@ class GetModulesNavigationItems
         $modules = TenantService::allModules();
         Assert::isArray($modules);
 
-        $cacheKey = 'xot:navigation:modules:' . md5(json_encode($modules));
+        $cacheKey = 'xot:navigation:modules:'.md5(json_encode($modules));
 
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $cached */
         $cached = Cache::get($cacheKey);
@@ -158,8 +160,8 @@ class GetModulesNavigationItems
                 $module_low = Str::lower($module);
                 Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
-                $configFilePath = $configPath . '/config.php';
-                if (!File::exists($configFilePath)) {
+                $configFilePath = $configPath.'/config.php';
+                if (! File::exists($configFilePath)) {
                     continue;
                 }
                 try {
@@ -178,6 +180,7 @@ class GetModulesNavigationItems
                     'sort' => $navigation_sort,
                 ];
             }
+
             return $out;
         });
 

@@ -26,10 +26,14 @@ abstract class XotBaseDashboard extends FilamentDashboard
     final public function filtersForm(Schema $form): Schema
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $form->components([
 =======
         return $form->schema([
 >>>>>>> 518e053 (.)
+=======
+        return $form->schema([
+>>>>>>> 6163c49 (.)
             Section::make()->schema($this->getFiltersFormSchema())->columns(3),
         ]);
     }

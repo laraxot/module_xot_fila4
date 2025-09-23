@@ -13,9 +13,12 @@ use Filament\Forms;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use \Filament\Forms\Forms\Components\IconPicker;
 =======
 >>>>>>> 518e053 (.)
+=======
+>>>>>>> 6163c49 (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Module;
@@ -34,10 +37,14 @@ class ModuleResource extends XotBaseResource
             'name' => TextInput::make('name')->required(),
             'description' => TextInput::make('description'),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'icon' => IconPicker::make('icon'),
 =======
             'icon' => TextInput::make('icon'),
 >>>>>>> 518e053 (.)
+=======
+            'icon' => TextInput::make('icon'),
+>>>>>>> 6163c49 (.)
             'priority' => TextInput::make('priority'),
             'status' => Toggle::make('status'),
         ];

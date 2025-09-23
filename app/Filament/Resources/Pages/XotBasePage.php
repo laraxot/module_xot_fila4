@@ -4,8 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\Pages;
 
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Component;
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+>>>>>>> 54cbe5d (.)
 use Closure;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;

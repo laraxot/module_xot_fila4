@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
+<<<<<<< HEAD
 use Filament\Support\Components\Component;
+=======
+>>>>>>> 54cbe5d (.)
 use Override;
 use Modules\Xot\Filament\Resources\CacheResource\Pages\ListCaches;
 use Modules\Xot\Filament\Resources\CacheResource\Pages\CreateCache;
@@ -19,16 +22,25 @@ class CacheResource extends XotBaseResource
 {
     protected static null|string $model = Cache::class;
 
+<<<<<<< HEAD
     /**
      * @return array<int, Component>
      */
+=======
+>>>>>>> 54cbe5d (.)
     #[Override]
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
             TextInput::make('key')->required()->maxLength(255),
             TextInput::make('expiration')->required()->numeric(),
             KeyValue::make('value')->columnSpanFull(),
+=======
+            'key' => TextInput::make('key')->required()->maxLength(255),
+            'expiration' => TextInput::make('expiration')->required()->numeric(),
+            'value' => KeyValue::make('value')->columnSpanFull(),
+>>>>>>> 54cbe5d (.)
         ];
     }
 

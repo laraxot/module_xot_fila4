@@ -31,7 +31,11 @@ use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Str;
 use Modules\Xot\Datas\XotData;
+<<<<<<< HEAD
 use \Filament\Forms\Formatters\WebhookErrorFormatter;
+=======
+use Modules\Xot\Exceptions\Formatters\WebhookErrorFormatter;
+>>>>>>> 54cbe5d (.)
 use Modules\Xot\Exceptions\Handlers\HandlerDecorator;
 use Modules\Xot\Exceptions\Handlers\HandlersRepository;
 use Modules\Xot\View\Composers\XotComposer;

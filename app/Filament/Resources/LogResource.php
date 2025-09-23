@@ -4,9 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
+<<<<<<< HEAD
 use Filament\Support\Components\Component;
 use Filament\Schemas\Schema;
 use Override;
+=======
+use Override;
+use Filament\Schemas\Schema;
+>>>>>>> 54cbe5d (.)
 use Modules\Xot\Filament\Resources\LogResource\Pages\ListLogs;
 use Modules\Xot\Filament\Resources\LogResource\Pages\CreateLog;
 use Modules\Xot\Filament\Resources\LogResource\Pages\ViewLog;
@@ -27,13 +32,17 @@ class LogResource extends XotBaseResource
 
     protected static null|string $model = Log::class;
 
+<<<<<<< HEAD
     /**
      * @return array<int, Component>
      */
+=======
+>>>>>>> 54cbe5d (.)
     #[Override]
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
             TextInput::make('name')->required()->maxLength(255),
             TextInput::make('path')->required()->maxLength(255),
             Textarea::make('content')->columnSpanFull(),
@@ -43,6 +52,17 @@ class LogResource extends XotBaseResource
     public static function getInfolistSchema(): array
     {
         return [
+=======
+            'name' => TextInput::make('name')->required()->maxLength(255),
+            'path' => TextInput::make('path')->required()->maxLength(255),
+            'content' => Textarea::make('content')->columnSpanFull(),
+        ];
+    }
+
+    public static function infolist(Schema $schema): Schema
+    {
+        return $schema->components([
+>>>>>>> 54cbe5d (.)
             TextEntry::make('name')->columnSpanFull(),
             /*
              * Infolists\Components\TextEntry::make('email')
@@ -59,10 +79,16 @@ class LogResource extends XotBaseResource
              * TextEntry::make('txt'),
              * ])
              */
+<<<<<<< HEAD
         ];
     }
 
 
+=======
+        ]);
+    }
+
+>>>>>>> 54cbe5d (.)
     #[Override]
     public static function getRelations(): array
     {

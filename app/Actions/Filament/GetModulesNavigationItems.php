@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
+<<<<<<< HEAD
 use Throwable;
 use Exception;
 use Filament\Facades\Filament;
@@ -16,6 +17,19 @@ use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
+=======
+use Exception;
+use Illuminate\Support\Str;
+use Webmozart\Assert\Assert;
+use Filament\Facades\Filament;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Cache;
+use Filament\Navigation\NavigationItem;
+use Modules\Tenant\Services\TenantService;
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+>>>>>>> 54cbe5d (.)
 use function Safe\json_encode;
 
 /**
@@ -40,22 +54,36 @@ class GetModulesNavigationItems
 
         // Pre-load user roles to avoid N+1 queries
         $user = auth()->user();
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 54cbe5d (.)
         $userRoles = [];
         if ($user && method_exists($user, 'roles')) {
             try {
                 $userRoles = $user->roles()->pluck('name')->toArray();
             } catch (Exception $e) {
+<<<<<<< HEAD
+=======
+                
+>>>>>>> 54cbe5d (.)
                 $userRoles = [];
             }
         }
 
+<<<<<<< HEAD
+=======
+        
+       
+>>>>>>> 54cbe5d (.)
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');
 
             $module_low = Str::lower($module);
             Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
 
+<<<<<<< HEAD
             // Tolleranza: durante comandi CLI alcuni moduli possono non avere ancora struttura completa
             try {
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
@@ -67,6 +95,14 @@ class GetModulesNavigationItems
 
             // Verifichiamo che il file esista
             if (! File::exists($configFilePath)) {
+=======
+            $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
+            $configFilePath = $configPath . '/config.php';
+
+            // Verifichiamo che il file esista
+            if (!File::exists($configFilePath)) {
+              
+>>>>>>> 54cbe5d (.)
                 continue;
             }
 
@@ -83,7 +119,11 @@ class GetModulesNavigationItems
             $icon = $config['icon'] ?? 'heroicon-o-question-mark-circle';
             Assert::string($icon, "L'icona deve essere una stringa");
 
+<<<<<<< HEAD
             $role = $module_low.'::admin';
+=======
+            $role = $module_low . '::admin';
+>>>>>>> 54cbe5d (.)
             Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
 
             $navigation_sort = $config['navigation_sort'] ?? 1;
@@ -91,6 +131,7 @@ class GetModulesNavigationItems
             $navigation_sort = (int) $navigation_sort;
 
             // Check role using pre-loaded roles instead of hasRole() method
+<<<<<<< HEAD
             /*
              $hasRole = in_array($role, $userRoles, true);
 
@@ -110,17 +151,46 @@ class GetModulesNavigationItems
             // Creiamo l'elemento di navigazione
             $nav = NavigationItem::make($module)
                 ->url('/'.$module_low.'/admin')
+=======
+           /*
+            $hasRole = in_array($role, $userRoles, true);
+
+            // Only create NavigationItem if user has the role (memory optimization)
+            if ($hasRole) {
+                $nav = NavigationItem::make($module)
+                    ->url('/' . $module_low . '/admin')
+                    ->icon($icon)
+                    ->group('Modules')
+                    ->sort($navigation_sort)
+                    ->visible(true); // Already checked above
+
+                $navs[] = $nav;
+            }
+            */
+
+            // Creiamo l'elemento di navigazione
+            $nav = NavigationItem::make($module)
+                ->url('/' . $module_low . '/admin')
+>>>>>>> 54cbe5d (.)
                 ->icon($icon)
                 ->group('Modules')
                 ->sort($navigation_sort)
                 ->visible(static function () use ($role): bool {
                     $user = Filament::auth()->user();
+<<<<<<< HEAD
                     if ($user === null) {
+=======
+                    if (null === $user) {
+>>>>>>> 54cbe5d (.)
                         return false;
                     }
 
                     // Verifichiamo che il metodo hasRole esista
+<<<<<<< HEAD
                     if (! method_exists($user, 'hasRole')) {
+=======
+                    if (!method_exists($user, 'hasRole')) {
+>>>>>>> 54cbe5d (.)
                         return false;
                     }
 
@@ -144,7 +214,11 @@ class GetModulesNavigationItems
         $modules = TenantService::allModules();
         Assert::isArray($modules);
 
+<<<<<<< HEAD
         $cacheKey = 'xot:navigation:modules:'.md5(json_encode($modules));
+=======
+        $cacheKey = 'xot:navigation:modules:' . md5(json_encode($modules));
+>>>>>>> 54cbe5d (.)
 
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $cached */
         $cached = Cache::get($cacheKey);
@@ -161,8 +235,13 @@ class GetModulesNavigationItems
                 $module_low = Str::lower($module);
                 Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
+<<<<<<< HEAD
                 $configFilePath = $configPath.'/config.php';
                 if (! File::exists($configFilePath)) {
+=======
+                $configFilePath = $configPath . '/config.php';
+                if (!File::exists($configFilePath)) {
+>>>>>>> 54cbe5d (.)
                     continue;
                 }
                 try {
@@ -181,7 +260,10 @@ class GetModulesNavigationItems
                     'sort' => $navigation_sort,
                 ];
             }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 54cbe5d (.)
             return $out;
         });
 

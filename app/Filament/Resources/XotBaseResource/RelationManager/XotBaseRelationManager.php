@@ -4,7 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\XotBaseResource\RelationManager;
 
+<<<<<<< HEAD
 use Filament\Forms\Components\Component;
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+>>>>>>> 54cbe5d (.)
 use Override;
 use Exception;
 use Filament\Resources\RelationManagers\RelationManager;
@@ -51,7 +56,14 @@ abstract class XotBaseRelationManager extends RelationManager
         return static::transFunc(__FUNCTION__);
     }
 
+<<<<<<< HEAD
     final 
+=======
+    final public function form(Schema $schema): Schema
+    {
+        return $schema->components($this->getFormSchema());
+    }
+>>>>>>> 54cbe5d (.)
 
     /**
      * Get form schema.

@@ -8,16 +8,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Forms\Form;
-=======
-use Filament\Schemas\Schema;
->>>>>>> 518e053 (.)
-
-use ReflectionClass;
-=======
->>>>>>> 6163c49 (.)
 use Filament\Resources\Resource;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;

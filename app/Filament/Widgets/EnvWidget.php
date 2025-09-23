@@ -4,15 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Forms\Form;
-=======
 use Filament\Schemas\Schema;
->>>>>>> 518e053 (.)
-=======
-use Filament\Schemas\Schema;
->>>>>>> 6163c49 (.)
 use Filament\Schemas\Components\Component;
 use Filament\Actions\Contracts\HasActions;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -50,17 +42,9 @@ class EnvWidget extends Widget implements HasForms, HasActions
         $this->form->fill($this->data);
     }
 
-    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+    public function form(Schema $schema): Schema
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $form->components($this->getFormSchema())->columns(1)->statePath('data');
-=======
-        return $form->schema($this->getFormSchema())->columns(1)->statePath('data');
->>>>>>> 518e053 (.)
-=======
-        return $form->schema($this->getFormSchema())->columns(1)->statePath('data');
->>>>>>> 6163c49 (.)
+        return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
     }
 
     public function submit(): void

@@ -19,15 +19,7 @@ use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Forms\Form;
-=======
 use Filament\Schemas\Schema;
->>>>>>> 518e053 (.)
-=======
-use Filament\Schemas\Schema;
->>>>>>> 6163c49 (.)
 
 /**
  * @property Schema $form
@@ -51,20 +43,12 @@ class MetatagPage extends Page implements HasForms
         $this->form->fill($data);
     }
 
-    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+    public function form(Schema $schema): Schema
     {
         $metatag = MetatagData::make();
 
-        return $form
-<<<<<<< HEAD
-<<<<<<< HEAD
+        return $schema
             ->components([
-=======
-            ->schema([
->>>>>>> 518e053 (.)
-=======
-            ->schema([
->>>>>>> 6163c49 (.)
                 TextInput::make('title')->required(),
                 TextInput::make('sitename'),
                 TextInput::make('subtitle'),

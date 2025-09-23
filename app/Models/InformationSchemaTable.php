@@ -4,29 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Carbon;
-=======
->>>>>>> 6163c49 (.)
+use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Schema;
 use Modules\Tenant\Models\Traits\SushiToJson;
 use Sushi\Sushi;
-<<<<<<< HEAD
-use Webmozart\Assert\Assert;
-=======
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Carbon;
-use Illuminate\Support\Facades\Schema;
-use Modules\Tenant\Models\Traits\SushiToJson;
-use Sushi\Sushi;
->>>>>>> 518e053 (.)
-=======
->>>>>>> 6163c49 (.)
 
 /**
  * Represents a table in the INFORMATION_SCHEMA.TABLES.
@@ -38,24 +22,8 @@ use Sushi\Sushi;
  * @property string|null $TABLE_NAME
  * @property string|null $TABLE_TYPE
  * @property string|null $ENGINE
-<<<<<<< HEAD
-<<<<<<< HEAD
- * @property int|null $VERSION
- * @property string|null $ROW_FORMAT
- * @property int|null $table_rows
- * @property int|null $AVG_ROW_LENGTH
- * @property int|null $DATA_LENGTH
- * @property int|null $MAX_DATA_LENGTH
- * @property int|null $INDEX_LENGTH
- * @property int|null $DATA_FREE
- * @property int|null $AUTO_INCREMENT
-=======
  * @property int|null    $VERSION
  * @property string|null $ROW_FORMAT
-=======
- * @property int|null    $VERSION
- * @property string|null $ROW_FORMAT
->>>>>>> 6163c49 (.)
  * @property int|null    $table_rows
  * @property int|null    $AVG_ROW_LENGTH
  * @property int|null    $DATA_LENGTH
@@ -63,34 +31,15 @@ use Sushi\Sushi;
  * @property int|null    $INDEX_LENGTH
  * @property int|null    $DATA_FREE
  * @property int|null    $AUTO_INCREMENT
-<<<<<<< HEAD
->>>>>>> 518e053 (.)
-=======
->>>>>>> 6163c49 (.)
  * @property Carbon|null $CREATE_TIME
  * @property Carbon|null $UPDATE_TIME
  * @property Carbon|null $CHECK_TIME
  * @property string|null $TABLE_COLLATION
-<<<<<<< HEAD
-<<<<<<< HEAD
- * @property int|null $CHECKSUM
- * @property string|null $CREATE_OPTIONS
- * @property string|null $TABLE_COMMENT
- * @property int $id
-=======
  * @property int|null    $CHECKSUM
  * @property string|null $CREATE_OPTIONS
  * @property string|null $TABLE_COMMENT
  * @property int         $id
  *
->>>>>>> 518e053 (.)
-=======
- * @property int|null    $CHECKSUM
- * @property string|null $CREATE_OPTIONS
- * @property string|null $TABLE_COMMENT
- * @property int         $id
- *
->>>>>>> 6163c49 (.)
  * @method static Builder<static>|InformationSchemaTable newModelQuery()
  * @method static Builder<static>|InformationSchemaTable newQuery()
  * @method static Builder<static>|InformationSchemaTable query()
@@ -116,28 +65,14 @@ use Sushi\Sushi;
  * @method static Builder<static>|InformationSchemaTable whereTABLETYPE($value)
  * @method static Builder<static>|InformationSchemaTable whereUPDATETIME($value)
  * @method static Builder<static>|InformationSchemaTable whereVERSION($value)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
  *
->>>>>>> 518e053 (.)
-=======
- *
->>>>>>> 6163c49 (.)
  * @property string|null $table_schema
  * @property string|null $table_name
  * @property string|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_at
  * @property string|null $created_by
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
  *
->>>>>>> 518e053 (.)
-=======
- *
->>>>>>> 6163c49 (.)
  * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
  * @method static Builder<static>|InformationSchemaTable whereTableName($value)
@@ -145,14 +80,7 @@ use Sushi\Sushi;
  * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
  *
->>>>>>> 518e053 (.)
-=======
- *
->>>>>>> 6163c49 (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model
@@ -193,11 +121,6 @@ class InformationSchemaTable extends Model
     ];
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6163c49 (.)
      * Alias compatibile per trait SushiToJson che attende getSchema().
      *
      * @return array<string, string>
@@ -208,10 +131,6 @@ class InformationSchemaTable extends Model
     }
 
     /**
-<<<<<<< HEAD
->>>>>>> 518e053 (.)
-=======
->>>>>>> 6163c49 (.)
      * Get the rows array for the Sushi model.
      * This method is required by Sushi to provide the data.
      *
@@ -224,35 +143,15 @@ class InformationSchemaTable extends Model
 
     public static function updateModelCount(string $modelClass, int $total): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!class_exists($modelClass)) {
+        if (! class_exists($modelClass)) {
             throw new InvalidArgumentException("Model class [{$modelClass}] does not exist");
-=======
-        if (! class_exists($modelClass)) {
-            throw new \InvalidArgumentException("Model class [{$modelClass}] does not exist");
->>>>>>> 518e053 (.)
-=======
-        if (! class_exists($modelClass)) {
-            throw new \InvalidArgumentException("Model class [{$modelClass}] does not exist");
->>>>>>> 6163c49 (.)
         }
 
         /** @var Model $model */
         $model = app($modelClass);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!($model instanceof Model)) {
-            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
-=======
         if (! ($model instanceof Model)) {
-            throw new \InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
->>>>>>> 518e053 (.)
-=======
-        if (! ($model instanceof Model)) {
-            throw new \InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
->>>>>>> 6163c49 (.)
+            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
         }
 
         $connection = $model->getConnection();
@@ -269,47 +168,19 @@ class InformationSchemaTable extends Model
      *
      * @param class-string<Model> $modelClass The fully qualified model class name
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @throws InvalidArgumentException If model class is invalid or not found
      */
     public static function getModelCount(string $modelClass): int
     {
-        if (!class_exists($modelClass)) {
+        if (! class_exists($modelClass)) {
             throw new InvalidArgumentException("Model class [{$modelClass}] does not exist");
-=======
-     * @throws \InvalidArgumentException If model class is invalid or not found
-     */
-    public static function getModelCount(string $modelClass): int
-    {
-        if (! class_exists($modelClass)) {
-            throw new \InvalidArgumentException("Model class [{$modelClass}] does not exist");
->>>>>>> 518e053 (.)
-=======
-     * @throws \InvalidArgumentException If model class is invalid or not found
-     */
-    public static function getModelCount(string $modelClass): int
-    {
-        if (! class_exists($modelClass)) {
-            throw new \InvalidArgumentException("Model class [{$modelClass}] does not exist");
->>>>>>> 6163c49 (.)
         }
 
         /** @var Model $model */
         $model = app($modelClass);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!($model instanceof Model)) {
-            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
-=======
         if (! ($model instanceof Model)) {
-            throw new \InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
->>>>>>> 518e053 (.)
-=======
-        if (! ($model instanceof Model)) {
-            throw new \InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
->>>>>>> 6163c49 (.)
+            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
         }
 
         $connection = $model->getConnection();
@@ -319,15 +190,7 @@ class InformationSchemaTable extends Model
 
         $where = ['table_schema' => $database, 'model_class' => $modelClass, 'table_name' => $table];
         $row = InformationSchemaTable::firstOrCreate($where);
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if ($row->table_rows === null) {
-=======
         if (null === $row->table_rows) {
->>>>>>> 518e053 (.)
-=======
-        if (null === $row->table_rows) {
->>>>>>> 6163c49 (.)
             $table_rows = $model->count();
             $row = tap($row)->update(['table_rows' => $table_rows]);
         }

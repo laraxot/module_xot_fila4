@@ -109,7 +109,7 @@ class XotServiceProvider extends XotBaseServiceProvider
     {
         TextInput::macro('generateSlug', function () {
             /** @phpstan-ignore-next-line */
-            $this->live(onBlur: true)->afterStateUpdated(function (string $operation, string $state, \Filament\Schemas\Components\Utilities\Set $set) {
+            $this->live(onBlur: true)->afterStateUpdated(function (string $operation, string $state, Set $set) {
                 if ($operation === 'create') {
                     return;
                 }

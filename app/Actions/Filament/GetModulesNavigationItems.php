@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
+use Throwable;
 use Exception;
 use Filament\Facades\Filament;
 use Filament\Navigation\NavigationItem;
@@ -58,7 +59,7 @@ class GetModulesNavigationItems
             // Tolleranza: durante comandi CLI alcuni moduli possono non avere ancora struttura completa
             try {
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
-            } catch (\Throwable $e) {
+            } catch (Throwable $e) {
                 // Skip modulo non pronto/senza generator path config
                 continue;
             }

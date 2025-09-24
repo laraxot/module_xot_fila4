@@ -184,7 +184,20 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     public function registerBladeComponents(): void
     {
         $componentViewPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');
+<<<<<<< HEAD
         Blade::anonymousComponentPath($componentViewPath);
+=======
+        try{
+            Blade::anonymousComponentPath($componentViewPath);
+        } catch (Exception|\BladeUI\Icons\Exceptions\CannotRegisterIconSet $e) {
+            // Ignore missing component view path
+            dddx([
+                'name'=>$this->name, 
+                'componentViewPath'=>$componentViewPath, 
+                'e'=>$e->getMessage()
+            ]);
+        }
+>>>>>>> 754c528 (.)
 
         $componentClassPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-class');
 

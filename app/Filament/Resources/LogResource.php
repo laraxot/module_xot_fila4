@@ -28,22 +28,36 @@ class LogResource extends XotBaseResource
     protected static null|string $model = Log::class;
 
     /**
+<<<<<<< HEAD
      * @return array<string, Component>
+=======
+     * @return array<int, Component>
+>>>>>>> 754c528 (.)
      */
     #[Override]
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
             'name' => TextInput::make('name')->required()->maxLength(255),
             'path' => TextInput::make('path')->required()->maxLength(255),
             'content' => Textarea::make('content')->columnSpanFull(),
+=======
+            TextInput::make('name')->required()->maxLength(255),
+            TextInput::make('path')->required()->maxLength(255),
+            Textarea::make('content')->columnSpanFull(),
+>>>>>>> 754c528 (.)
         ];
     }
 
     public static function getInfolistSchema(): array
     {
         return [
+<<<<<<< HEAD
             'name' => TextEntry::make('name')->columnSpanFull(),
+=======
+            TextEntry::make('name')->columnSpanFull(),
+>>>>>>> 754c528 (.)
             /*
              * Infolists\Components\TextEntry::make('email')
              * ->columnSpanFull(),
@@ -52,7 +66,11 @@ class LogResource extends XotBaseResource
              * ->formatStateUsing(static fn ($state) => new HtmlString(nl2br($state)))
              * ->columnSpanFull(),
              */
+<<<<<<< HEAD
             'file-content' => FileContentEntry::make('file-content'),
+=======
+            FileContentEntry::make('file-content'),
+>>>>>>> 754c528 (.)
             /*
              * RepeatableEntry::make('lines')
              * ->schema([

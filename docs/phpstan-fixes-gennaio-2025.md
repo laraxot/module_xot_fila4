@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
 
 **Data**: 27 Gennaio 2025  
@@ -208,4 +206,3 @@ public function getModels(): array
 
 
 
->>>>>>> b6d270b (.)

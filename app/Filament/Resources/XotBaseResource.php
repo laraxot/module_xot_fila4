@@ -5,6 +5,11 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 use Exception;
+<<<<<<< HEAD
+=======
+use ReflectionClass;
+use Filament\Support\Components\Component;
+>>>>>>> 15f4138 (.)
 use Filament\Forms;
 use Filament\Infolists\Infolist;
 use Filament\Pages\Enums\SubNavigationPosition;
@@ -16,7 +21,10 @@ use Filament\Resources\RelationManagers\RelationManagerConfiguration;
 use Filament\Resources\Resource as FilamentResource;
 use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
+<<<<<<< HEAD
 use Filament\Support\Components\Component;
+=======
+>>>>>>> 15f4138 (.)
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
@@ -25,7 +33,13 @@ use Illuminate\Support\Str;
 use Modules\Media\Actions\GetAttachmentsSchemaAction;
 use Modules\Xot\Actions\ModelClass\CountAction;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 use ReflectionClass;
+=======
+
+use function Safe\glob;
+
+>>>>>>> 15f4138 (.)
 use Webmozart\Assert\Assert;
 
 use function Safe\glob;
@@ -94,11 +108,16 @@ abstract class XotBaseResource extends FilamentResource
 
     final public static function form(Schema $schema): Schema
     {
+<<<<<<< HEAD
         /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $components */
         $components = array_values(static::getFormSchema());
 
         return $schema
             ->components($components);
+=======
+        return $schema
+            ->components(static::getFormSchema());
+>>>>>>> 15f4138 (.)
     }
 
     /**
@@ -116,7 +135,11 @@ abstract class XotBaseResource extends FilamentResource
      */
     final public static function infolist(Schema $schema): Schema
     {
+<<<<<<< HEAD
         return $schema->components(array_values(static::getInfolistSchema()));
+=======
+        return $schema->components(static::getInfolistSchema());
+>>>>>>> 15f4138 (.)
     }
 
     /**

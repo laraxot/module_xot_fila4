@@ -2,14 +2,10 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 namespace Modules\Xot\Filament\Forms\Components;
-=======
-namespace Modules\Notify\Filament\Forms\Components;
->>>>>>> 754c528 (.)
 
-use Illuminate\Contracts\Support\Htmlable;
 use Filament\Forms\Components\Field;
+use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
@@ -43,6 +39,7 @@ abstract class XotBaseFormComponent extends Field
         if ($label instanceof Htmlable) {
             return $label->toHtml();
         }
+
         return (string) $label;
     }
 

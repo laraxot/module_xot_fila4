@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 use Exception;
-use ReflectionClass;
-use Filament\Support\Components\Component;
 use Filament\Forms;
 use Filament\Infolists\Infolist;
 use Filament\Pages\Enums\SubNavigationPosition;
@@ -18,6 +16,7 @@ use Filament\Resources\RelationManagers\RelationManagerConfiguration;
 use Filament\Resources\Resource as FilamentResource;
 use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
+use Filament\Support\Components\Component;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
@@ -26,10 +25,10 @@ use Illuminate\Support\Str;
 use Modules\Media\Actions\GetAttachmentsSchemaAction;
 use Modules\Xot\Actions\ModelClass\CountAction;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use ReflectionClass;
+use Webmozart\Assert\Assert;
 
 use function Safe\glob;
-
-use Webmozart\Assert\Assert;
 
 /**
  * @method static string getUrl(string $name, array<string, mixed> $parameters = [], bool $isAbsolute = true)
@@ -64,7 +63,7 @@ abstract class XotBaseResource extends FilamentResource
      */
     public static function getModel(): string
     {
-        if (null !== static::$model) {
+        if (static::$model !== null) {
             $res = static::$model;
             Assert::subclassOf(
                 $res,
@@ -95,15 +94,11 @@ abstract class XotBaseResource extends FilamentResource
 
     final public static function form(Schema $schema): Schema
     {
-<<<<<<< HEAD
         /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $components */
         $components = array_values(static::getFormSchema());
+
         return $schema
             ->components($components);
-=======
-        return $schema
-            ->components(static::getFormSchema());
->>>>>>> 754c528 (.)
     }
 
     /**
@@ -121,11 +116,7 @@ abstract class XotBaseResource extends FilamentResource
      */
     final public static function infolist(Schema $schema): Schema
     {
-<<<<<<< HEAD
         return $schema->components(array_values(static::getInfolistSchema()));
-=======
-        return $schema->components(static::getInfolistSchema());
->>>>>>> 754c528 (.)
     }
 
     /**

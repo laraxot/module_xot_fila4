@@ -6,10 +6,13 @@ namespace Modules\Xot\Filament\Resources;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use ReflectionClass;
 use Filament\Support\Components\Component;
 >>>>>>> 15f4138 (.)
+=======
+>>>>>>> 2e4690c9 (.)
 use Filament\Forms;
 use Filament\Infolists\Infolist;
 use Filament\Pages\Enums\SubNavigationPosition;
@@ -22,9 +25,13 @@ use Filament\Resources\Resource as FilamentResource;
 use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\Components\Component;
 =======
 >>>>>>> 15f4138 (.)
+=======
+use Filament\Support\Components\Component;
+>>>>>>> 2e4690c9 (.)
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
@@ -33,6 +40,7 @@ use Illuminate\Support\Str;
 use Modules\Media\Actions\GetAttachmentsSchemaAction;
 use Modules\Xot\Actions\ModelClass\CountAction;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use ReflectionClass;
 =======
@@ -44,6 +52,13 @@ use Webmozart\Assert\Assert;
 
 use function Safe\glob;
 
+=======
+use ReflectionClass;
+use Webmozart\Assert\Assert;
+
+use function Safe\glob;
+
+>>>>>>> 2e4690c9 (.)
 /**
  * @method static string getUrl(string $name, array<string, mixed> $parameters = [], bool $isAbsolute = true)
  */
@@ -109,6 +124,7 @@ abstract class XotBaseResource extends FilamentResource
     final public static function form(Schema $schema): Schema
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $components */
         $components = array_values(static::getFormSchema());
 
@@ -118,6 +134,19 @@ abstract class XotBaseResource extends FilamentResource
         return $schema
             ->components(static::getFormSchema());
 >>>>>>> 15f4138 (.)
+=======
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $components */
+        //$components = array_values(static::getFormSchema());
+
+        return $schema
+            ->schema(static::getFormSchema())
+            ->columns(static::getFormSchemaColumns());
+    }
+
+    public static function getFormSchemaColumns(): int
+    {
+        return 1;
+>>>>>>> 2e4690c9 (.)
     }
 
     /**
@@ -136,10 +165,14 @@ abstract class XotBaseResource extends FilamentResource
     final public static function infolist(Schema $schema): Schema
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $schema->components(array_values(static::getInfolistSchema()));
 =======
         return $schema->components(static::getInfolistSchema());
 >>>>>>> 15f4138 (.)
+=======
+        return $schema->components(array_values(static::getInfolistSchema()));
+>>>>>>> 2e4690c9 (.)
     }
 
     /**

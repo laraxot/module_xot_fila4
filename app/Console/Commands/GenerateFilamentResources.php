@@ -51,7 +51,7 @@ class GenerateFilamentResources extends Command
             $panelName = strtolower($moduleName);
             $panel = $panelName . '::admin';
             $params = [
-                'name' => $modelName,
+                $modelName, // Resource name as positional argument
                 '--panel' => $panel,
                 '--model-namespace' => "Modules\\{$moduleName}\\Models",
                 '--generate' => true,

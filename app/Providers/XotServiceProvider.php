@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Providers;
 
 use Modules\Xot\Console\Commands\OptimizeFilamentMemoryCommand;
+use Modules\Xot\Console\Commands\GenerateFilamentResources;
 use Override;
 use Filament\Schemas\Components\Utilities\Set;
 use Filament\Forms\Components\DatePicker;
@@ -107,9 +108,11 @@ class XotServiceProvider extends XotBaseServiceProvider
 
     public function registerFilamentMacros(): void
     {
+        // Macro temporarily disabled due to compatibility issues with Filament version
+        // TODO: Re-implement when compatible with current Filament version
+        /*
         TextInput::macro('generateSlug', function () {
-            /** @phpstan-ignore-next-line */
-            $this->live(onBlur: true)->afterStateUpdated(function (string $operation, string $state, Set $set) {
+            $this->live(onBlur: true)->afterStateUpdated(function (string $operation, string $state, Set $set): void {
                 if ($operation === 'create') {
                     return;
                 }
@@ -117,6 +120,7 @@ class XotServiceProvider extends XotBaseServiceProvider
             });
             return $this;
         });
+        */
     }
 
     /*
@@ -251,6 +255,7 @@ class XotServiceProvider extends XotBaseServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
+                GenerateFilamentResources::class,
                 //\Modules\Xot\Console\Commands\OptimizeFilamentMemoryCommand::class,
             ]);
         }

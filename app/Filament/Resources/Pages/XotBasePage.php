@@ -10,7 +10,7 @@ use Closure;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Pages\Concerns\InteractsWithFormActions;
-use Filament\Pages\Page as FilamentPage;
+use Filament\Resources\Pages\Page as FilamentPage;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
@@ -115,10 +115,16 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 
     /**
      * Get the associated model class for this page.
+     * 
+     * This method must be non-static to properly override the parent method.
+     * Returns the model class string or throws an exception if not set.
      */
-    public static function getModel(): null|string
+    public function getModel(): string
     {
-        /** @phpstan-ignore property.staticAccess */
+        if (static::$model === null) {
+            throw new \LogicException('Model class not set for page: ' . static::class);
+        }
+        
         return static::$model;
     }
 

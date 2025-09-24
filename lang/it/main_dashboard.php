@@ -1,13 +1,19 @@
 <?php
 
-declare(strict_types=1);
-
-
-return [
-    'sections' => [
-        'empty' => [
-            'label' => '',
-            'heading' => '',
-        ],
-    ],
-];
+return array (
+  'sections' => 
+  array (
+    'empty' => 
+    array (
+      'label' => '',
+      'heading' => '',
+    ),
+  ),
+  'actions' => 
+  array (
+    'logout' => 
+    array (
+      'icon' => 'logout',
+    ),
+  ),
+);

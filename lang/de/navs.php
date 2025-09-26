@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 return [
     'general' => [
         'home' => [
@@ -21,7 +20,7 @@ return [
         ],
         'login' => [
             'label' => 'Login',
-            'icon' => 'heroicon-o-login',
+            'icon' => 'ui-login',
         ],
         'macros' => [
             'label' => 'Macro',

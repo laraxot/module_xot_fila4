@@ -1,19 +1,24 @@
 <?php
 
-return array (
-  'sections' => 
-  array (
-    'empty' => 
-    array (
-      'label' => '',
-      'heading' => '',
-    ),
-  ),
-  'actions' => 
-  array (
-    'logout' => 
-    array (
-      'icon' => 'logout',
-    ),
-  ),
-);
+return [
+    'sections' => [
+        'empty' => [
+            'label' => '',
+            'heading' => '',
+        ],
+    ],
+    'actions' => [
+        'logout' => [
+            'icon' => 'logout',
+            'label' => 'logout',
+        ],
+        'profile' => [
+            'icon' => 'profile',
+            'label' => 'profile',
+        ],
+        'il-mio-profilo' => [
+            'icon' => 'il-mio-profilo',
+            'label' => 'il-mio-profilo',
+        ],
+    ],
+];

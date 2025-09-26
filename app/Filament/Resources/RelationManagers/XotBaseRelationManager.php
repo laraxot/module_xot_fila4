@@ -15,6 +15,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Filament\Traits\HasXotTable;
+use Override;
 use Webmozart\Assert\Assert;
 
 /**
@@ -36,7 +37,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
      */
     public function getResource(): string
     {
-        if (isset(static::$resourceClass) && is_string(static::$resourceClass) && '' !== static::$resourceClass) {
+        if (isset(static::$resourceClass) && is_string(static::$resourceClass) && static::$resourceClass !== '') {
             return static::$resourceClass;
         }
 
@@ -76,7 +77,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     }
 
     // *
-    #[\Override]
+    #[Override]
     public function getTableColumns(): array
     {
         $index = Arr::get($this->getResource()::getPages(), 'index');
@@ -99,6 +100,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         foreach ($res as $key => $column) {
             if (is_string($key)) {
                 $assoc[$key] = $column;
+
                 continue;
             }
 
@@ -113,16 +115,16 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     public function getTableActions(): array
     {
         $actions = [];
-        $resource= static::class;
+        $resource = static::class;
         if (method_exists($resource, 'canEdit')) {
             $actions['edit'] = EditAction::make()
-            ->iconButton()
-            ->visible(fn (?Model $record): bool => $resource::canEdit($record));
+                ->iconButton()
+                ->visible(fn (?Model $record): bool => $resource::canEdit($record));
         }
         if (method_exists($resource, 'canDetach')) {
             $actions['detach'] = DetachAction::make()
-            ->iconButton()
-            ->visible(fn (?Model $record): bool => $resource::canDetach($record));
+                ->iconButton()
+                ->visible(fn (?Model $record): bool => $resource::canDetach($record));
         }
 
         return $actions;
@@ -134,14 +136,15 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         $resource = static::class;
         if (method_exists($resource, 'canDeleteBulk')) {
             $actions['delete_bulk'] = DeleteBulkAction::make()
-            ->iconButton()
-            ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+                ->iconButton()
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
         }
         if (method_exists($resource, 'canDetachBulk')) {
             $actions['detach_bulk'] = DetachBulkAction::make()
-            ->iconButton()
-            ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+                ->iconButton()
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
         }
+
         return $actions;
     }
 

@@ -20,7 +20,7 @@ return [
         ],
         'login' => [
             'label' => 'Login',
-            'icon' => 'heroicon-o-login',
+            'icon' => 'ui-login',
         ],
         'macros' => [
             'label' => 'Macro',

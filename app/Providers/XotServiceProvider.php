@@ -4,17 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers;
 
-use Modules\Xot\Console\Commands\OptimizeFilamentMemoryCommand;
-use Modules\Xot\Console\Commands\GenerateFilamentResources;
-use Override;
-use Filament\Schemas\Components\Utilities\Set;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\Field;
 use Filament\Forms\Components\Placeholder;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\TimePicker;
+use Filament\Forms\Formatters\WebhookErrorFormatter;
 use Filament\Infolists\Components\Entry;
+use Filament\Schemas\Components\Utilities\Set;
 use Filament\Support\Components\Component;
 use Filament\Support\Concerns\Configurable;
 use Filament\Tables\Columns\Column;
@@ -22,7 +20,6 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\BaseFilter;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Contracts\Debug\ExceptionHandler;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Events\MigrationsEnded;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Event;
@@ -31,11 +28,13 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Str;
+use Modules\Xot\Console\Commands\GenerateFilamentResources;
+use Modules\Xot\Console\Commands\OptimizeFilamentMemoryCommand;
 use Modules\Xot\Datas\XotData;
-use \Filament\Forms\Formatters\WebhookErrorFormatter;
 use Modules\Xot\Exceptions\Handlers\HandlerDecorator;
 use Modules\Xot\Exceptions\Handlers\HandlersRepository;
 use Modules\Xot\View\Composers\XotComposer;
+use Override;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Webmozart\Assert\Assert;
 
@@ -59,7 +58,7 @@ class XotServiceProvider extends XotBaseServiceProvider
         $this->redirectSSL();
         $this->registerViewComposers();
         $this->registerEvents();
-        //$this->registerExceptionHandler(); // guardare come fa sentry
+        // $this->registerExceptionHandler(); // guardare come fa sentry
         $this->registerTimezone();
         $this->registerFilamentMacros();
         $this->registerXotLivewireComponents();
@@ -72,8 +71,8 @@ class XotServiceProvider extends XotBaseServiceProvider
         parent::register();
         $this->registerConfig();
 
-        //$this->registerExceptionHandlersRepository();
-        //$this->extendExceptionHandler();
+        // $this->registerExceptionHandlersRepository();
+        // $this->extendExceptionHandler();
         $this->registerCommands();
     }
 
@@ -86,24 +85,24 @@ class XotServiceProvider extends XotBaseServiceProvider
     {
         Assert::string(
             $timezone = config('app.timezone') ?? 'Europe/Berlin',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '['.__LINE__.']['.class_basename($this).']',
         );
         Assert::string(
             $date_format = config('app.date_format') ?? 'd/m/Y',
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '['.__LINE__.']['.class_basename($this).']',
         );
-        Assert::string($locale = config('app.locale') ?? 'it', '[' . __LINE__ . '][' . class_basename($this) . ']');
+        Assert::string($locale = config('app.locale') ?? 'it', '['.__LINE__.']['.class_basename($this).']');
 
         app()->setLocale($locale);
         Carbon::setLocale($locale);
         date_default_timezone_set($timezone);
 
-        DateTimePicker::configureUsing(fn(DateTimePicker $component) => $component->timezone($timezone));
+        DateTimePicker::configureUsing(fn (DateTimePicker $component) => $component->timezone($timezone));
         DatePicker::configureUsing(
-            fn(DatePicker $component) => $component->timezone($timezone)->displayFormat($date_format),
+            fn (DatePicker $component) => $component->timezone($timezone)->displayFormat($date_format),
         );
-        TimePicker::configureUsing(fn(TimePicker $component) => $component->timezone($timezone));
-        TextColumn::configureUsing(fn(TextColumn $column) => $column->timezone($timezone));
+        TimePicker::configureUsing(fn (TimePicker $component) => $component->timezone($timezone));
+        TextColumn::configureUsing(fn (TextColumn $column) => $column->timezone($timezone));
     }
 
     public function registerFilamentMacros(): void
@@ -159,12 +158,12 @@ class XotServiceProvider extends XotBaseServiceProvider
     {
         $files = File::files($path);
         foreach ($files as $file) {
-            if ('php' !== $file->getExtension()) {
+            if ($file->getExtension() !== 'php') {
                 continue;
             }
 
             $realPath = $file->getRealPath();
-            if (false === $realPath) {
+            if ($realPath === false) {
                 continue;
             }
 
@@ -216,8 +215,8 @@ class XotServiceProvider extends XotBaseServiceProvider
         // --- meglio ficcare un controllo anche sull'env
 
         if (
-            //config('xra.forcessl') && (isset($_SERVER['SERVER_NAME']) && 'localhost' !== $_SERVER['SERVER_NAME']
-            //&& isset($_SERVER['REQUEST_SCHEME']) && 'http' === $_SERVER['REQUEST_SCHEME'])
+            // config('xra.forcessl') && (isset($_SERVER['SERVER_NAME']) && 'localhost' !== $_SERVER['SERVER_NAME']
+            // && isset($_SERVER['REQUEST_SCHEME']) && 'http' === $_SERVER['REQUEST_SCHEME'])
             XotData::make()->forceSSL()
         ) {
             URL::forceScheme('https');
@@ -225,9 +224,9 @@ class XotServiceProvider extends XotBaseServiceProvider
             /*
              * da fare in htaccess
              */
-            //if (! request()->secure() /* && in_array(env('APP_ENV'), ['stage', 'production']) */) {
+            // if (! request()->secure() /* && in_array(env('APP_ENV'), ['stage', 'production']) */) {
             //    exit(redirect()->secure(request()->getRequestUri()));
-            //}
+            // }
         }
     }
 
@@ -256,7 +255,7 @@ class XotServiceProvider extends XotBaseServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 GenerateFilamentResources::class,
-                //\Modules\Xot\Console\Commands\OptimizeFilamentMemoryCommand::class,
+                // \Modules\Xot\Console\Commands\OptimizeFilamentMemoryCommand::class,
             ]);
         }
     }

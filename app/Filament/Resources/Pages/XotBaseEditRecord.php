@@ -4,11 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\Pages;
 
+use Filament\Support\Components\Component;
 use Filament\Actions;
-use Illuminate\Database\Eloquent\Model;
-use Filament\Forms\Components\Component;
-use Modules\Xot\Filament\Traits\TransTrait;
+use Filament\Actions\DeleteAction;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Filament\Traits\TransTrait;
 
 abstract class XotBaseEditRecord extends FilamentEditRecord
 {
@@ -17,7 +18,7 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     /**
      * Get the form schema.
      *
-     * @return array<int, \Filament\Support\Components\Component>
+     * @return array<int, Component>
      */
     protected function getFormSchema(): array
     {
@@ -36,11 +37,11 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 
     protected function getHeaderActions(): array
     {
-        
+
         return [
-            'delete' => Actions\DeleteAction::make()
+            'delete' => DeleteAction::make()
                 ->icon('heroicon-o-trash')
-                ->visible(fn(Model $record) => static::canDelete($record)),
+                ->visible(fn (Model $record) => static::canDelete($record)),
             /*
             'forceDelete' => Actions\ForceDeleteAction::make()
                 ->icon('heroicon-o-trash')
@@ -55,19 +56,22 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 
     public static function canDelete(Model $record): bool
     {
-        $resource=static::$resource;
+        $resource = static::$resource;
+
         return $resource::canDelete($record);
     }
-    
+
     public static function canForceDelete(Model $record): bool
     {
-        $resource=static::$resource;
+        $resource = static::$resource;
+
         return $resource::canForceDelete($record);
     }
-    
+
     public static function canRestore(Model $record): bool
     {
-        $resource=static::$resource;
+        $resource = static::$resource;
+
         return $resource::canRestore($record);
     }
 }

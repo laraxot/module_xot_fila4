@@ -4,14 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-use Filament\Schemas\Components\Wizard\Step;
-use Filament\Schemas\Components\Component;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
@@ -22,7 +23,6 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
-use Filament\Schemas\Schema;
 
 /**
  * Classe base astratta per tutti i widget Filament.
@@ -42,6 +42,12 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     // use InteractsWithPageTable;
     use InteractsWithForms;
     use TransTrait;
+
+    /**
+     * Vista predefinita per widget che estendono XotBaseWidget.
+     * Deve essere sovrascritta nelle classi figlie.
+     */
+    protected string $view = 'xot::filament.widgets.base';
 
     public string $title = '';
 
@@ -92,7 +98,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     /**
      * Configura il form del widget.
      *
-     * @param Schema $schema Il form da configurare
+     * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema

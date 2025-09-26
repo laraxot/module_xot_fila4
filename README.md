@@ -1,8 +1,8 @@
 # 🚀 Xot - Il MOTORE FONDAMENTALE di Laraxot! ⚡
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
-[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange.svg)](https://laravel.com)
-[![Filament Version](https://img.shields.io/badge/Filament-3.x-purple.svg)](https://filamentphp.com)
+[![Laravel Version](https://img.shields.io/badge/Laravel-12.x-orange.svg)](https://laravel.com)
+[![Filament Version](https://img.shields.io/badge/Filament-4.x-purple.svg)](https://filamentphp.com)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Code Quality](https://img.shields.io/badge/code%20quality-A+-brightgreen.svg)](.codeclimate.yml)
 [![Test Coverage](https://img.shields.io/badge/coverage-98%25-success.svg)](phpunit.xml.dist)
@@ -110,6 +110,17 @@ class XotBaseResource extends Resource
     }
 }
 ```
+
+## 🔧 Fix Testing Laravel 12
+
+Il modulo Xot include il trait `CreatesApplication` per tutti i test dei moduli:
+
+- **✅ Trait Centralizzato**: `Modules\Xot\Tests\CreatesApplication`
+- **✅ Import Corretti**: Tutti i moduli usano il trait corretto
+- **✅ Compatibilità Laravel 12**: Test funzionanti con la nuova versione
+- **✅ Struttura Consistente**: Pattern standardizzato per tutti i moduli
+
+📚 **Documentazione Completa**: [Fix Testing Issues](docs/testing-fixes.md)
 
 ## 🚀 Installazione SUPER VELOCE
 
@@ -358,6 +369,15 @@ Siamo aperti a contribuzioni! 🎉
 - ✅ Aggiungi test per nuove funzionalità
 - ✅ Aggiorna la documentazione
 - ✅ Verifica PHPStan livello 10+
+
+## 🔄 Changelog
+
+### v2.1.0 - 2025-01-27
+- **🔄 Aggiornamento Icone**: Sostituito `heroicon-o-login` con `ui-login` personalizzata
+- **🎨 Icone Personalizzate**: Integrazione con sistema icone SVG del modulo UI
+- **🔧 Correzione Icone**: Sostituito `authenticate` con `ui-authenticate` personalizzata
+- **📝 Documentazione**: Aggiornata documentazione per nuove icone
+- **🌍 Multi-lingua**: Aggiornate traduzioni per tutte le lingue supportate
 
 ## 🏆 Riconoscimenti
 

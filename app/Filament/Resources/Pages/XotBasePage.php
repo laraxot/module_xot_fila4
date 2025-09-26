@@ -4,19 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\Pages;
 
-use Filament\Schemas\Schema;
-use Filament\Schemas\Components\Component;
-use Closure;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Pages\Concerns\InteractsWithFormActions;
 use Filament\Resources\Pages\Page as FilamentPage;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
+use LogicException;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Traits\TransTrait;
-use Webmozart\Assert\Assert;
 
 /**
  * Base class for all custom pages in the application.
@@ -30,22 +29,22 @@ use Webmozart\Assert\Assert;
  */
 abstract class XotBasePage extends FilamentPage implements HasForms
 {
+    use InteractsWithFormActions;
     use InteractsWithForms;
     use NavigationLabelTrait;
     use TransTrait;
-    use InteractsWithFormActions;
 
     /**
      * The model class associated with this page, if any.
      */
-    public static null|string $model = null;
+    public static ?string $model = null;
 
     /**
      * The form data.
      *
      * @var array<string, mixed>
      */
-    public null|array $data = [];
+    public ?array $data = [];
 
     /**
      * Get the view that should be used for the page.
@@ -115,16 +114,16 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 
     /**
      * Get the associated model class for this page.
-     * 
+     *
      * This method must be non-static to properly override the parent method.
      * Returns the model class string or throws an exception if not set.
      */
     public function getModel(): string
     {
         if (static::$model === null) {
-            throw new \LogicException('Model class not set for page: ' . static::class);
+            throw new LogicException('Model class not set for page: '.static::class);
         }
-        
+
         return static::$model;
     }
 

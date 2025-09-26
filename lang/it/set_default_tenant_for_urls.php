@@ -1,12 +1,10 @@
 <?php
 
-declare(strict_types=1);
-
-
 return [
     'actions' => [
         'authenticate' => [
             'label' => 'authenticate',
+            'icon' => 'ui-authenticate',
         ],
         'login' => [
             'label' => 'login',
@@ -31,6 +29,14 @@ return [
         ],
         'create' => [
             'label' => 'create',
+        ],
+        'hidePassword' => [
+            'icon' => 'hidePassword',
+            'label' => 'hidePassword',
+        ],
+        'showPassword' => [
+            'icon' => 'ui-showPassword',
+            'label' => 'showPassword',
         ],
     ],
     'fields' => [

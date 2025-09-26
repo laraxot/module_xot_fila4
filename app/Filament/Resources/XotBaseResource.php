@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 use Exception;
-use ReflectionClass;
 use Filament\Forms;
 use Filament\Infolists\Infolist;
 use Filament\Pages\Enums\SubNavigationPosition;
@@ -26,8 +25,11 @@ use Illuminate\Support\Str;
 use Modules\Media\Actions\GetAttachmentsSchemaAction;
 use Modules\Xot\Actions\ModelClass\CountAction;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use function Safe\glob;
+use ReflectionClass;
 use Webmozart\Assert\Assert;
+
+use function Safe\glob;
+
 /**
  * @method static string getUrl(string $name, array<string, mixed> $parameters = [], bool $isAbsolute = true)
  */
@@ -93,7 +95,7 @@ abstract class XotBaseResource extends FilamentResource
     final public static function form(Schema $schema): Schema
     {
         return $schema
-            ->schema(static::getFormSchema())
+            ->components(static::getFormSchema())
             ->columns(static::getFormSchemaColumns());
     }
 

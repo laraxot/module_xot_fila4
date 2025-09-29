@@ -13,15 +13,28 @@ node_modules/
 package-lock.json
 yarn.lock
 composer.lock
+docs/vendor/
 
 # ==============================================
 # BUILD & COMPILED FILES
 # ==============================================
-/build
 build/
 dist/
-docs/cache/
 cache/
+
+# ==============================================
+# LARAVEL SPECIFIC
+# ==============================================
+bootstrap/compiled.php
+app/storage/
+public/storage
+public/hot
+public_html/storage
+public_html/hot
+storage/*.key
+.env
+.env.*
+!.env.example
 
 # ==============================================
 # CACHE & TEMPORARY FILES
@@ -49,47 +62,6 @@ yarn-error.log*
 lerna-debug.log*
 
 # ==============================================
-# LARAVEL SPECIFIC
-# ==============================================
-# Dependencies and packages
-/vendor/
-/node_modules/
-/docs/vendor/
-
-# Lock files and cache
-*.lock
-*.cache
-*.phar
-*.jar
-package-lock.json
-yarn-error.log
-npm-debug.log
-composer.lock
-.phpunit.result.cache
-.php-cs-fixer.cache
-
-# Log files
-*.log
-error_log
-
-# Build directories
-/build/
-/build
-build/
-
-# Laravel specific
-bootstrap/compiled.php
-app/storage/
-public/storage
-public/hot
-public_html/storage
-public_html/hot
-storage/*.key
-.env
-.env.*
-!.env.example
-
-# ==============================================
 # ENVIRONMENT & CONFIGURATION
 # ==============================================
 Homestead.yaml
@@ -97,6 +69,7 @@ Homestead.json
 /.vagrant
 /.idea
 .phpintel
+.phpstorm.meta.php
 
 # ==============================================
 # GIT SPECIFIC
@@ -114,6 +87,7 @@ Homestead.json
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.exe
 
 # ==============================================
 # BACKUP FILES
@@ -132,7 +106,6 @@ Thumbs.db
 # ==============================================
 .windsurf/
 .cursor/
-.phpstorm.meta.php
 
 # ==============================================
 # DOCUMENTATION CACHE
@@ -148,6 +121,7 @@ database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
 database_old/
+database/Factories_
 
 # ==============================================
 # MODULE SPECIFIC - XOT
@@ -165,66 +139,10 @@ packages/cache/
 packages/temp/
 
 # ==============================================
+# PROJECT SPECIFIC
+# ==============================================
+*.fila2
+
+# ==============================================
 # END OF XOT .GITIGNORE
 # ==============================================
-
-# Database directories
-database/Factories_
-database/Factories_old
-database/Migrations_old
-
-# Local configurations
-Homestead.yaml
-Homestead.json
-/.vagrant
-
-# IDE specific
-/.idea
-.phpintel
-
-# Git specific
-.git-blame-ignore-revs
-.git-rewrite/
-.git-rewrite
-
-# Temporary and system files
-*.tmp
-*.swp
-*.swo
-*.stackdump
-*.exe
-*:Zone.Identifier
-.DS_Store
-*.old
-*.old1
-*.backup
-*.backup.*
-*.bak
-*.new
-
-# Documentation and cache
-docs/phpstan/
-docs/cache/
-cache/
-
-# Development tools
-.windsurf/
-.cursor/
-# Old directories
-resources/views/Components_old
-database/Migrations_old
-database/Seeders_old
-database/Factories_old
-database_old
-
-# Old directories to ignore
-resources/views/Components_old
-database/Migrations_old
-database/Seeders_old
-database/Factories_old
-database_old
-
-# 🚫 File specifici del progetto
-*.fila2
-laravel
-public_html

@@ -8,6 +8,7 @@ use function Safe\file_put_contents;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
+use Symfony\Component\VarExporter\VarExporter;
 
 class SavePhpArrayAction
 {
@@ -15,7 +16,9 @@ class SavePhpArrayAction
 
     public function execute(array $data, string $filename): bool
     {
-        $content = "<?php\n\nreturn " . var_export($data, true) . ";\n";
+        $exported = VarExporter::export($data);
+        //$exported = var_export($data, true);
+        $content = "<?php\n\ndeclare(strict_types=1);\n\nreturn " . $exported . ";\n";
         return (bool) file_put_contents($filename, $content);
     }
 }

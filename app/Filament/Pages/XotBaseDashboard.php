@@ -5,7 +5,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
-use Filament\Schemas\Schema;
+use Filament\Forms\Form;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\DatePicker;
 use Filament\Forms\Components\Select;
@@ -19,9 +19,9 @@ abstract class XotBaseDashboard extends FilamentDashboard
     protected static null|int $navigationSort = 1;
     protected bool $persistsFiltersInSession = true;
 
-    final public function filtersForm(Schema $schema): Schema
+    final public function filtersForm(Schema $form): Schema
     {
-        return $schema->components([
+        return $form->components([
             Section::make()->schema($this->getFiltersFormSchema())->columns(3),
         ]);
     }

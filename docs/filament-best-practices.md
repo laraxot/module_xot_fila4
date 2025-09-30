@@ -50,6 +50,16 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
    TextInput::make('name') // Label gestita da LangServiceProvider
    ```
 
+5. **SEMPRE** usare il tipo importato per `$subNavigationPosition`:
+   ```php
+   // ❌ ERRATO - Fully qualified name
+   protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
+   
+   // ✅ CORRETTO - Tipo importato
+   use Filament\Pages\Enums\SubNavigationPosition;
+   protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
+   ```
+
 ### Pagine
 
 1. **SEMPRE** estendere le classi base di Xot:
@@ -294,7 +304,7 @@ class CreateAppointment extends XotBaseCreateRecord
 
 ```php
 // NON FARE MAI QUESTO
-public static function form(Form $form): Form
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 {
     return $form->schema([
         // componenti...
@@ -520,6 +530,31 @@ Prima di considerare completa una risorsa Filament, verificare:
 3. **Inventare campi che non esistono nel modello**
 4. **Definire `navigationIcon` se si estende `XotBaseResource`**
 5. **Non implementare metodi obbligatori come `getFormSchema()`**
+6. **Usare fully qualified names per tipi già importati (es. `$subNavigationPosition`)**
+
+## Bugfix Documentati
+
+### Errore SubNavigationPosition Type (Gennaio 2025)
+
+**Problema**: Errore di tipo PHP `Type of Modules\Xot\Filament\Resources\XotBaseResource::$subNavigationPosition must be ?Filament\Pages\Enums\SubNavigationPosition`
+
+**Causa**: Uso di fully qualified name `\Filament\Pages\Enums\SubNavigationPosition` invece del tipo importato `SubNavigationPosition`
+
+**Soluzione**: 
+```php
+// PRIMA (errato)
+protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
+
+// DOPO (corretto)
+use Filament\Pages\Enums\SubNavigationPosition;
+protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
+```
+
+**File Corretti**:
+- `Modules/Xot/app/Filament/Resources/XotBaseResource.php`
+- `Modules/Incentivi/app/Filament/Resources/ProjectResource.php`
+
+**Prevenzione**: Sempre usare tipi importati invece di fully qualified names quando l'import è già presente nel file.
 
 ## File Corretti
 

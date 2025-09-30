@@ -275,3 +275,5 @@ class QuestionChartFilterWidget extends XotBaseWidget
 - [Filament 4 Migration Guide](./filament4_migration.md)
 
 Queste regole garantiscono coerenza con l'architettura Laraxot e compatibilità con Filament 4.
+
+

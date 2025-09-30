@@ -525,3 +525,5 @@ public function getTableActions(): array
 - ❌ Don't create N+1 query problems
 
 This document serves as a reference for avoiding common anti-patterns when extending Xot base classes and building modules on top of the Xot foundation.
+
+

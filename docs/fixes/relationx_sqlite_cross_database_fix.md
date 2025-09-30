@@ -88,3 +88,5 @@ echo $tenants->count(); // ✅ Output: 1
 
 *Fix implementato e verificato - Sistema multi-tenant completamente funzionante*
 
+
+

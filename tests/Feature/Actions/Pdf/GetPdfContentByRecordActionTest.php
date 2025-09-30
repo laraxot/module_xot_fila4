@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Feature\Actions\Pdf;
 
-use ReflectionClass;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Modules\User\Models\User;
 use Modules\Xot\Actions\Pdf\GetPdfContentByRecordAction;
+use ReflectionClass;
 use Tests\TestCase;
 
 /**
@@ -21,7 +21,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        $this->action = new GetPdfContentByRecordAction();
+        $this->action = new GetPdfContentByRecordAction;
     }
 
     /** @test */
@@ -83,8 +83,10 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_generates_enhanced_filename_for_performance_models(): void
     {
         // Arrange - Create a mock model with performance fields
-        $record = new class extends Model {
+        $record = new class extends Model
+        {
             protected $table = 'test_performance';
+
             protected $fillable = ['id', 'matr', 'cognome', 'nome'];
 
             public function getKey()

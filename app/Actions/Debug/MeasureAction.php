@@ -19,9 +19,8 @@ class MeasureAction
     /**
      * Esegue una closure misurando il tempo di esecuzione e l'utilizzo di memoria.
      *
-     * @param Closure():T $closure La closure da eseguire e misurare
-     * @param string $label Etichetta opzionale per identificare la misurazione
-     *
+     * @param  Closure():T  $closure  La closure da eseguire e misurare
+     * @param  string  $label  Etichetta opzionale per identificare la misurazione
      * @return T Il risultato dell'esecuzione della closure
      */
     public function execute(Closure $closure, string $label = ''): mixed
@@ -43,15 +42,15 @@ class MeasureAction
 
         $metrics = [
             'label' => $label,
-            'execution_time' => round($execution_time, 2) . ' ms',
-            'memory_usage' => round($memory_usage, 2) . ' KB',
+            'execution_time' => round($execution_time, 2).' ms',
+            'memory_usage' => round($memory_usage, 2).' KB',
             // 'peak_memory' => round(memory_get_peak_usage() / 1024 / 1024, 2).' MB',
         ];
 
         // Mostriamo una notifica con le metriche
         Notification::make()
-            ->title('Performance Metrics ' . ($label !== '' ? $label : 'Unnamed'))
-            ->body($metrics['execution_time'] . '  ' . $metrics['memory_usage'])
+            ->title('Performance Metrics '.($label !== '' ? $label : 'Unnamed'))
+            ->body($metrics['execution_time'].'  '.$metrics['memory_usage'])
             ->success()
             ->persistent()
             ->send();

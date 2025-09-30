@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Database\Factories\FeedFactory;
 
 /**
  * Modules\Xot\Models\Feed.
@@ -18,8 +18,10 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder|Feed newModelQuery()
  * @method static Builder|Feed newQuery()
  * @method static Builder|Feed query()
+ *
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+ *
  * @mixin IdeHelperFeed
  * @mixin \Eloquent
  */

@@ -40,7 +40,7 @@ trait HasExtraTrait
         Assert::isAOf(
             $extra_class,
             Model::class,
-            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
+            '['.__LINE__.']['.class_basename($this).']['.$extra_class.']',
         );
         // Assert::isInstanceOf($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
         // Assert::implementsInterface($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
@@ -68,7 +68,7 @@ trait HasExtraTrait
             /** @var array<string, mixed>|bool|int|string|null */
             return $value;
         }
-        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
     }
 
     /**
@@ -84,7 +84,7 @@ trait HasExtraTrait
             Assert::implementsInterface(
                 $extra,
                 ExtraContract::class,
-                '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra . ']',
+                '['.__LINE__.']['.class_basename($this).']['.$extra.']',
             );
         }
         Assert::notNull($extra);

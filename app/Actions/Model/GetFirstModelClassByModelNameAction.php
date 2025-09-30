@@ -23,7 +23,7 @@ class GetFirstModelClassByModelNameAction
         $models = app(GetAllModelsAction::class)->execute();
         Assert::string(
             $modelClass = collect($models)->get($modelName),
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '['.__LINE__.']['.class_basename($this).']',
         );
 
         return $modelClass;

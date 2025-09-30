@@ -35,9 +35,9 @@ class ExportXlsLazyAction extends Action
             ->requiresConfirmation()
             ->action(static function (ListRecords $livewire) {
                 $filename =
-                    class_basename($livewire) .
-                    '-' .
-                    collect($livewire->tableFilters)->flatten()->implode('-') .
+                    class_basename($livewire).
+                    '-'.
+                    collect($livewire->tableFilters)->flatten()->implode('-').
                     '.xlsx';
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
@@ -55,6 +55,7 @@ class ExportXlsLazyAction extends Action
                             if (is_scalar($field)) {
                                 return (string) $field;
                             }
+
                             return '';
                         }, $rawFields);
                     }
@@ -86,7 +87,7 @@ class ExportXlsLazyAction extends Action
             });
     }
 
-    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
     {
         return 'export_xls';
     }

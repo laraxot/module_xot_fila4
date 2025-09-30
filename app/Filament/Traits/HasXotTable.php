@@ -4,26 +4,26 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Traits;
 
-use Filament\Actions\BulkAction;
+use Exception;
+use Filament\Actions;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
-use Filament\Actions\CreateAction;
 use Filament\Actions\AssociateAction;
 use Filament\Actions\AttachAction;
-use Filament\Tables\Enums\RecordActionsPosition;
-use Exception;
-use Filament\Actions\ViewAction;
-use Filament\Actions\EditAction;
+use Filament\Actions\BulkAction;
+use Filament\Actions\CreateAction;
 use Filament\Actions\DeleteAction;
-use Filament\Actions\ReplicateAction;
-use Filament\Actions\DetachAction;
 use Filament\Actions\DeleteBulkAction;
-use Filament\Actions;
+use Filament\Actions\DetachAction;
+use Filament\Actions\EditAction;
+use Filament\Actions\ReplicateAction;
+use Filament\Actions\ViewAction;
 use Filament\Notifications\Notification;
 use Filament\Tables;
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Enums\FiltersLayout;
+use Filament\Tables\Enums\RecordActionsPosition;
 use Filament\Tables\Filters\BaseFilter;
 use Filament\Tables\Filters\TernaryFilter;
 use Filament\Tables\Table;
@@ -49,7 +49,9 @@ trait HasXotTable
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
     protected static bool $canReplicate = false;
+
     protected static bool $canView = true;
+
     protected static bool $canEdit = true;
 
     /**
@@ -90,13 +92,13 @@ trait HasXotTable
 
     protected function shouldShowAttachAction(): bool
     {
-        //@phpstan-ignore-next-line
+        // @phpstan-ignore-next-line
         return method_exists($this, 'getRelationship');
     }
 
     protected function shouldShowDetachAction(): bool
     {
-        //@phpstan-ignore-next-line
+        // @phpstan-ignore-next-line
         return method_exists($this, 'getRelationship');
     }
 
@@ -167,11 +169,11 @@ trait HasXotTable
     /**
      * Get table heading.
      */
-    public function getTableHeading(): null|string
+    public function getTableHeading(): ?string
     {
         $key = static::getKeyTrans('table.heading');
         /** @var string|array<int|string,mixed>|null $trans */
-        //@phpstan-ignore-next-line
+        // @phpstan-ignore-next-line
         $trans = trans($key);
 
         return is_string($trans) && $trans !== $key ? $trans : null;
@@ -207,8 +209,9 @@ trait HasXotTable
     public function table(Table $table): Table
     {
         $modelClass = $this->getModelClass();
-        if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+        if (! app(TableExistsByModelClassActions::class)->execute($modelClass)) {
             $this->notifyTableMissing();
+
             return $this->configureEmptyTable($table);
         }
 
@@ -233,6 +236,7 @@ trait HasXotTable
             ->emptyStateActions($this->getTableEmptyStateActions())
             ->striped()
             ->paginated($this->getTablePaginated());
+
         /*
          * ->defaultSort(
          * column: $this->getDefaultTableSortColumn(),
@@ -250,7 +254,7 @@ trait HasXotTable
     /**
      * Get default table sort column.
      */
-    protected function getDefaultTableSortColumn(): null|string
+    protected function getDefaultTableSortColumn(): ?string
     {
         try {
             $modelClass = $this->getModelClass();
@@ -258,7 +262,7 @@ trait HasXotTable
             $model = app($modelClass);
             Assert::isInstanceOf($model, Model::class);
 
-            return $model->getTable() . '.id';
+            return $model->getTable().'.id';
         } catch (Exception $e) {
             return null;
         }
@@ -267,7 +271,7 @@ trait HasXotTable
     /**
      * Get default table sort direction.
      */
-    protected function getDefaultTableSortDirection(): null|string
+    protected function getDefaultTableSortDirection(): ?string
     {
         return 'desc';
     }
@@ -321,11 +325,11 @@ trait HasXotTable
 
         // Check if class has the getRelationship method
         if ($this->shouldShowDetachAction()) {
-            //@phpstan-ignore-next-line
+            // @phpstan-ignore-next-line
             if (method_exists($this, 'getRelationship')) {
-                //@phpstan-ignore-next-line
+                // @phpstan-ignore-next-line
                 if (method_exists($this->getRelationship(), 'getTable')) {
-                    //@phpstan-ignore-next-line
+                    // @phpstan-ignore-next-line
                     $pivotClass = $this->getRelationship()->getPivotClass();
                     if (method_exists($pivotClass, 'getKeyName')) {
                         $actions['detach'] = DetachAction::make()
@@ -335,7 +339,8 @@ trait HasXotTable
                 }
             }
         }
-        //@phpstan-ignore-next-line
+
+        // @phpstan-ignore-next-line
         return $actions;
     }
 
@@ -358,13 +363,14 @@ trait HasXotTable
     /**
      * Get model class.
      *
-     * @throws Exception Se non viene trovata una classe modello valida
      *
      * @return class-string<Model>
+     *
+     * @throws Exception Se non viene trovata una classe modello valida
      */
     public function getModelClass(): string
     {
-        //@phpstan-ignore-next-line
+        // @phpstan-ignore-next-line
         if (method_exists($this, 'getRelationship')) {
             $relationship = $this->getRelationship();
             if ($relationship instanceof Relation) {
@@ -375,23 +381,24 @@ trait HasXotTable
 
         if (method_exists($this, 'getModel')) {
             $model = $this->getModel();
-            //@phpstan-ignore-next-line
+            // @phpstan-ignore-next-line
             if (is_string($model)) {
                 Assert::classExists($model);
-                //Assert::isAOf($model, Model::class);
+
+                // Assert::isAOf($model, Model::class);
                 /* @var class-string<Model> */
-                //@phpstan-ignore-next-line
+                // @phpstan-ignore-next-line
                 return $model;
             }
-            //@phpstan-ignore-next-line
+            // @phpstan-ignore-next-line
             if ($model instanceof Model) {
                 /* @var class-string<Model> */
-                //@phpstan-ignore-next-line
+                // @phpstan-ignore-next-line
                 return get_class($model);
             }
         }
 
-        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
     }
 
     /**
@@ -420,7 +427,7 @@ trait HasXotTable
     protected function configureEmptyTable(Table $table): Table
     {
         return $table
-            ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
+            ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
             ->columns([
                 TextColumn::make('message')->default(__('user::fields.message.default'))->html(),
             ])

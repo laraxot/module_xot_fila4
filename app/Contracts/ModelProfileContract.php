@@ -49,7 +49,7 @@ interface ModelProfileContract extends ModelContract
      */
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
-        null|string $guard = null,
+        ?string $guard = null,
     ): bool;
 
     /**
@@ -67,7 +67,7 @@ interface ModelProfileContract extends ModelContract
      *
      * @throws PermissionDoesNotExist
      */
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
 
     /**
      * Create a new Eloquent query builder for the model.

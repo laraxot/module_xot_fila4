@@ -4,12 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Cast;
 
-use ValueError;
 use Error;
 use Exception;
-use Doctrine\DBAL\Schema\Index;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
+use ValueError;
 
 class SafeArrayByModelCastAction
 {
@@ -40,7 +39,6 @@ class SafeArrayByModelCastAction
         }
 
         return $data;
-
 
     }
 }

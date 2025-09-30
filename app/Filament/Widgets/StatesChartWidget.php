@@ -4,21 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-use Override;
 use Exception;
-use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
+use Override;
 
 class StatesChartWidget extends XotBaseChartWidget
 {
-    protected null|string $heading = null;
-    protected static null|int $sort = 4;
+    protected ?string $heading = null;
+
+    protected static ?int $sort = 4;
+
     protected static bool $isLazy = true;
 
     public string $stateClass;
+
     public string $model;
 
     #[Override]
-    public function getHeading(): null|string
+    public function getHeading(): ?string
     {
         return static::transClass($this->model, 'widgets.states_chart.heading');
     }
@@ -46,18 +48,18 @@ class StatesChartWidget extends XotBaseChartWidget
                         'data' => $states->pluck('count')->toArray(),
                         'backgroundColor' => $states
                             ->keys()
-                            ->map(fn($state) => $colors[$state] ?? 'rgb(156, 163, 175)')
+                            ->map(fn ($state) => $colors[$state] ?? 'rgb(156, 163, 175)')
                             ->toArray(),
                         'borderColor' => $states
                             ->keys()
-                            ->map(fn($state) => $colors[$state] ?? 'rgb(156, 163, 175)')
+                            ->map(fn ($state) => $colors[$state] ?? 'rgb(156, 163, 175)')
                             ->toArray(),
                         'borderWidth' => 1,
                     ],
                 ],
                 'labels' => $states
                     ->keys()
-                    ->map(fn($state) => static::transClass($this->model, 'states.' . $state . '.label'))
+                    ->map(fn ($state) => static::transClass($this->model, 'states.'.$state.'.label'))
                     ->toArray(),
             ];
         } catch (Exception $e) {

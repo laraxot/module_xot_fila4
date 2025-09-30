@@ -4,24 +4,25 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Illuminate\Support\Carbon;
-use Modules\Xot\Database\Factories\SessionFactory;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Database\Factories\SessionFactory;
 
 /**
  * Modules\Xot\Models\Session.
  *
- * @property int                             $id
- * @property int|null                        $user_id
- * @property string|null                     $ip_address
- * @property string|null                     $user_agent
+ * @property int $id
+ * @property int|null $user_id
+ * @property string|null $ip_address
+ * @property string|null $user_agent
  * @property string $payload
- * @property int                             $last_activity
+ * @property int $last_activity
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
- * @property string|null                     $created_by
- * @property string|null                     $updated_by
+ * @property string|null $created_by
+ * @property string|null $updated_by
+ *
  * @method static SessionFactory factory($count = null, $state = [])
  * @method static Builder|Session newModelQuery()
  * @method static Builder|Session newQuery()
@@ -36,16 +37,18 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder|Session whereUpdatedBy($value)
  * @method static Builder|Session whereUserAgent($value)
  * @method static Builder|Session whereUserId($value)
- * @property int                             $id
- * @property int|null                        $user_id
- * @property string|null                     $ip_address
- * @property string|null                     $user_agent
+ *
+ * @property int $id
+ * @property int|null $user_id
+ * @property string|null $ip_address
+ * @property string|null $user_agent
  * @property string $payload
- * @property int                             $last_activity
+ * @property int $last_activity
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
- * @property string|null                     $created_by
- * @property string|null                     $updated_by
+ * @property string|null $created_by
+ * @property string|null $updated_by
+ *
  * @method static SessionFactory factory($count = null, $state = [])
  * @method static Builder|Session newModelQuery()
  * @method static Builder|Session newQuery()
@@ -60,12 +63,16 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder|Session whereUpdatedBy($value)
  * @method static Builder|Session whereUserAgent($value)
  * @method static Builder|Session whereUserId($value)
+ *
  * @property Carbon|null $deleted_at
- * @property string|null                     $deleted_by
+ * @property string|null $deleted_by
+ *
  * @method static Builder|Session whereDeletedAt($value)
  * @method static Builder|Session whereDeletedBy($value)
+ *
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+ *
  * @mixin IdeHelperSession
  * @mixin \Eloquent
  */

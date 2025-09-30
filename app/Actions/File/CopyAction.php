@@ -14,14 +14,14 @@ class CopyAction
 
     public function execute(string $from, string $to): void
     {
-        if (!File::exists(\dirname($to))) {
+        if (! File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
             } catch (Exception $e) {
                 dd(
                     'Caught exception: ',
                     $e->getMessage(),
-                    '\n[' . __LINE__ . '][' . class_basename(static::class) . ']',
+                    '\n['.__LINE__.']['.class_basename(static::class).']',
                 );
             }
         }
@@ -40,14 +40,14 @@ class CopyAction
         } catch (Exception $exception) {
             throw new Exception(
                 'Unable to copy
-                    from [' .
-                $from .
+                    from ['.
+                $from.
                 ']
-                    to [' .
-                $to .
+                    to ['.
+                $to.
                 ']
-                    message [' .
-                $exception->getMessage() .
+                    message ['.
+                $exception->getMessage().
                     ']',
                 $exception->getCode(),
                 $exception,

@@ -1177,11 +1177,11 @@ if (! function_exists('authId')) {
 function safe_object_call($object, string $method, ...$args)
 {
     if (! is_object($object)) {
-        return null;
+        return;
     }
 
     if (! method_exists($object, $method)) {
-        return null;
+        return;
     }
 
     return $object->$method(...$args);

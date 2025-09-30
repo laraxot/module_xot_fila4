@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exports;
 
-use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Query\Builder as QueryBuilder;
@@ -28,14 +28,14 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     /** @var array<int, string> */
     public array $fields = [];
 
-    public null|string $transKey = null;
+    public ?string $transKey = null;
 
     public QueryBuilder|EloquentBuilder $query;
 
     /**
-     * @param array<int, string> $fields
+     * @param  array<int, string>  $fields
      */
-    public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
+    public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
     {
         $this->query = $query;
         $this->transKey = $transKey;
@@ -61,14 +61,14 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 
     public function getHead(): Collection
     {
-        if (!empty($this->fields)) {
+        if (! empty($this->fields)) {
             return collect($this->fields);
         }
         /**
          * @var Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null
          */
         $first = $this->query->first();
-        if (null === $first) {
+        if ($first === null) {
             return collect([]);
         }
 
@@ -101,11 +101,11 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     }
 
     /**
-     * @param Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null $item
+     * @param  Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null  $item
      */
     public function map($item): array
     {
-        if (!empty($this->fields)) {
+        if (! empty($this->fields)) {
             return collect($item)->toArray();
         }
 

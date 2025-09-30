@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
-use Exception;
-use SplFileInfo;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
@@ -64,7 +62,7 @@ class AddStrictTypesDeclarationCommand extends Command
                     $action->execute($path);
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;
-                } catch (Exception $e) {
+                } catch (\Exception $e) {
                     $this->error("Errore nel processare {$path}: " . $e->getMessage());
                 }
             }
@@ -81,7 +79,7 @@ class AddStrictTypesDeclarationCommand extends Command
         return File::allFiles($path);
     }
 
-    private function shouldProcessFile(SplFileInfo $file): bool
+    private function shouldProcessFile(\SplFileInfo $file): bool
     {
         // Verifica l'estensione
         if (!str_ends_with($file->getFilename(), '.php')) {

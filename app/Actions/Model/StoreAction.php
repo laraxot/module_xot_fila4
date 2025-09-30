@@ -17,7 +17,7 @@ class StoreAction
 
     public function execute(Model $model, array $data, array $rules): Model
     {
-        if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+        if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
             $data['lang'] = app()->getLocale();
         }
         $data['updated_by'] = authId();
@@ -44,11 +44,11 @@ class StoreAction
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
 
-            $action_class = __NAMESPACE__ . '\\Store\\' . $relationshipType . 'Action';
+            $action_class = __NAMESPACE__.'\\Store\\'.$relationshipType.'Action';
             $action = app($action_class);
             Assert::object($action);
-            if (!method_exists($action, 'execute')) {
-                throw new Exception('method [execute] not found in [' . $action_class . ']');
+            if (! method_exists($action, 'execute')) {
+                throw new Exception('method [execute] not found in ['.$action_class.']');
             }
             $action->execute($model, $relation);
         }

@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\View\Components;
 
-use InvalidArgumentException;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
+use InvalidArgumentException;
 
 /**
  * Class XotBaseComponent.
@@ -65,10 +65,10 @@ abstract class XotBaseComponent extends IlluminateComponent
         $comp_name = str_replace('\\', '.', $comp_name);
         $comp_name = Str::snake($comp_name);
 
-        $view = $module_name_low . '::components.' . $comp_name;
+        $view = $module_name_low.'::components.'.$comp_name;
         $view = str_replace('._', '.', $view);
 
-        if (!view()->exists($view)) {
+        if (! view()->exists($view)) {
             throw new InvalidArgumentException("View [{$view}] does not exist.");
         }
         self::$viewCache[$class] = $view;

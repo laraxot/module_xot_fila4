@@ -29,7 +29,8 @@ class XotBaseCluster extends FilamentCluster
             'key' => $key,
             'res' => $res,
         ]);
-        //return Lang::get('broker::cliente.navigation_group');
+
+        // return Lang::get('broker::cliente.navigation_group');
         return 'AAAAAAAAA';
     }
 

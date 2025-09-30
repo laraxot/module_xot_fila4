@@ -4,11 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers;
 
-use PDO;
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\ServiceProvider;
 use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
+use PDO;
+
 use function Safe\preg_match;
 
 /**
@@ -64,7 +65,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         DB::listen(function ($query) {
             // Log query che superano la soglia di tempo
             $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
-            
+
             if ($query->time > $threshold) {
                 Log::warning('Slow query detected', [
                     'sql' => $query->sql,
@@ -89,13 +90,13 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         // Abilita query logging solo per richieste Filament admin
         if ($this->isFilamentAdminRequest()) {
             DB::enableQueryLog();
-            
+
             // Log delle query alla fine della richiesta
             app()->terminating(function () {
                 $queries = DB::getQueryLog();
                 $totalQueries = count($queries);
                 $totalTime = array_sum(array_column($queries, 'time'));
-                
+
                 if ($totalQueries > 50 || $totalTime > 1000) {
                     Log::info('High query count or time detected', [
                         'total_queries' => $totalQueries,
@@ -123,10 +124,10 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     {
         // Disabilita query logging in produzione per performance
         DB::disableQueryLog();
-        
+
         // Ottimizza la configurazione di Eloquent
         $this->optimizeEloquentConfiguration();
-        
+
         // Configura caching aggressivo
         $this->configureAggressiveCaching();
     }
@@ -140,7 +141,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         if (config('filament_optimization.query.disable_events', false)) {
             // Questo può essere fatto per modelli specifici se necessario
         }
-        
+
         // Configura connection pooling se disponibile
         $currentOptions = config('database.connections.mysql.options');
         if ($currentOptions) {
@@ -167,7 +168,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             // Implementa caching per configurazioni moduli
             $this->cacheModuleConfigurations();
         }
-        
+
         // Cache delle navigation items
         if (config('filament_optimization.cache.navigation', true)) {
             // Già implementato in GetModulesNavigationItems
@@ -186,14 +187,14 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 // Carica tutte le configurazioni dei moduli
                 $configs = [];
                 $modules = app('modules')->all();
-                
+
                 foreach ($modules as $module) {
-                    $configPath = $module->getPath() . '/Config/config.php';
+                    $configPath = $module->getPath().'/Config/config.php';
                     if (file_exists($configPath)) {
                         $configs[$module->getName()] = require $configPath;
                     }
                 }
-                
+
                 return $configs;
             });
         });
@@ -205,11 +206,11 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     private function limitQueriesInDevelopment(): void
     {
         $maxQueries = config('filament_optimization.development.max_queries_per_request', 100);
-        
+
         app()->terminating(function () use ($maxQueries) {
             $queries = DB::getQueryLog();
             $totalQueries = count($queries);
-            
+
             if ($totalQueries > $maxQueries) {
                 Log::warning("High query count detected: {$totalQueries} queries", [
                     'url' => request()->fullUrl(),
@@ -224,13 +225,14 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
      */
     private function isFilamentAdminRequest(): bool
     {
-        if (!app()->runningInConsole() && request()) {
+        if (! app()->runningInConsole() && request()) {
             $path = request()->path();
-            return str_contains($path, '/admin') || 
+
+            return str_contains($path, '/admin') ||
                    str_ends_with($path, '/admin') ||
-                   preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
+                   preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
         }
-        
+
         return false;
     }
 }

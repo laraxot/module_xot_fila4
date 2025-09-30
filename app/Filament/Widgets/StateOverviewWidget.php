@@ -4,14 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-use Filament\Schemas\Components\Component;
-use Override;
 use Error;
+use Filament\Schemas\Components\Component;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
-use Modules\SaluteOra\Models\Appointment;
 use Modules\Xot\Contracts\StateContract;
-use Modules\Xot\Filament\Widgets\XotBaseWidget;
+use Override;
 use Webmozart\Assert\Assert;
 
 /**
@@ -38,9 +36,10 @@ class StateOverviewWidget extends XotBaseWidget
     /**
      * Intervallo di polling disabilitato per performance.
      */
-    protected static null|string $pollingInterval = null;
+    protected static ?string $pollingInterval = null;
 
     public string $stateClass;
+
     public string $model;
 
     public string $cacheKey = '';
@@ -65,21 +64,23 @@ class StateOverviewWidget extends XotBaseWidget
     {
         return [
             'states' => $this->getStates(),
-            //'title' => $this->getWidgetTitle(),
+            // 'title' => $this->getWidgetTitle(),
         ];
     }
 
     protected function getCacheKey(): string
     {
         try {
-            $cacheKey = 'states-' . class_basename($this->model) . '-' . class_basename($this->stateClass);
+            $cacheKey = 'states-'.class_basename($this->model).'-'.class_basename($this->stateClass);
             $cacheKey = Str::slug($cacheKey);
             $this->cacheKey = $cacheKey;
+
             return $cacheKey;
         } catch (Error $e) {
             if ($this->cacheKey === '') {
                 $this->cacheKey = Str::uuid()->toString();
             }
+
             return $this->cacheKey;
         }
     }
@@ -94,6 +95,7 @@ class StateOverviewWidget extends XotBaseWidget
         $res = Cache::remember($this->getCacheKey(), now()->addMinutes(5), $this->calculateStates(...));
 
         Assert::isArray($res);
+
         return $res;
     }
 

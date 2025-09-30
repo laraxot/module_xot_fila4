@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\States\Transitions;
 
-use TypeError;
-use Webmozart\Assert\InvalidArgumentException;
 use Filament\Notifications\Notification as FilamentNotification;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Notification;
@@ -14,12 +12,14 @@ use Modules\Notify\Datas\RecordNotificationData;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\ModelStates\Transition;
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
 
 abstract class XotBaseTransition extends Transition
 {
     public function __construct(
         public Model $record,
-        public null|string $message = '',
+        public ?string $message = '',
     ) {}
 
     public function handle(): Model
@@ -29,7 +29,7 @@ abstract class XotBaseTransition extends Transition
 
         $stateNamespace = Str::of($class)->beforeLast('\Transitions\\')->toString();
         $stateClassName = Str::of($class)->afterLast('To')->toString();
-        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
 
         /* @phpstan-ignore-next-line */
         $this->record->state = new $newStateClass($this->record);
@@ -48,7 +48,7 @@ abstract class XotBaseTransition extends Transition
     }
 
     /**
-     * @return  array<string, RecordNotificationData>
+     * @return array<string, RecordNotificationData>
      */
     public function getNotificationRecipients(): array
     {
@@ -74,10 +74,10 @@ abstract class XotBaseTransition extends Transition
     {
         $type = $recipient->type->value;
         $slug =
-            class_basename($this->record) .
-            '-' .
-            $type .
-            '-' .
+            class_basename($this->record).
+            '-'.
+            $type.
+            '-'.
             Str::of(class_basename(static::class))->kebab()->toString();
         $slug = Str::slug($slug);
 
@@ -90,14 +90,14 @@ abstract class XotBaseTransition extends Transition
 
         $notify = new RecordNotification($this->record, $slug);
 
-        //$data = $this->getNotificationData();
+        // $data = $this->getNotificationData();
         $notify = $notify->mergeData($data);
         $notify = $notify->addAttachments($this->getNotificationAttachments());
 
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);
         } catch (TypeError|InvalidArgumentException $e) {
-            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+            $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
             FilamentNotification::make()
                 ->title('Error')
                 ->danger()

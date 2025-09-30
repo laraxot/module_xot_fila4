@@ -23,7 +23,7 @@ class GetClassNameByPathAction
         $namespace = $namespaceMatch[1] ?? '';
         $className = $classMatch[1] ?? '';
 
-        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
 
         return $fullClassName;
     }

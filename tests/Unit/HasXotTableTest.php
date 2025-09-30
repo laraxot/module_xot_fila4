@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Unit;
 
-use Tests\TestCase;
-use Mockery;
 use Filament\Tables\Table;
+use Mockery;
 use Modules\Xot\Tests\Unit\Support\DummyTestModel;
 use Modules\Xot\Tests\Unit\Support\HasTableWithoutOptionalMethodsTestClass;
 use Modules\Xot\Tests\Unit\Support\HasTableWithXotTestClass;
+use Tests\TestCase;
 
 uses(TestCase::class);
 

@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests;
 
-use Mockery;
-use Modules\SaluteOra\Models\User;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Illuminate\Support\Facades\Hash;
+use Mockery;
+use Modules\<main module>\Models\User;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 
@@ -17,7 +17,7 @@ abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
 
-    //use DatabaseMigrations;
+    // use DatabaseMigrations;
 
     // =============================================================================
     // SHARED TEST HELPER FUNCTIONS (DRY Pattern)
@@ -28,19 +28,16 @@ abstract class TestCase extends BaseTestCase
 
     /**
      * Generate a unique email for testing to prevent database conflicts.
-     *
-     * @return string
      */
     protected static function generateUniqueEmail(): string
     {
         $faker = fake();
+
         return $faker->unique()->safeEmail();
     }
 
     /**
      * Get the configured User class via XotData (correct architecture pattern).
-     *
-     * @return string
      */
     protected static function getUserClass(): string
     {
@@ -50,8 +47,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * Create a test user via XotData pattern with proper architecture.
      *
-     * @param array<string, mixed> $attributes
-     * @return UserContract
+     * @param  array<string, mixed>  $attributes
      */
     protected static function createTestUser(array $attributes = []): UserContract
     {
@@ -75,8 +71,6 @@ abstract class TestCase extends BaseTestCase
      *
      * Prevents "Class not found" errors and provides consistent behavior
      * across all widget tests.
-     *
-     * @return void
      */
     protected static function mockXotData(): void
     {
@@ -109,20 +103,19 @@ abstract class TestCase extends BaseTestCase
     /**
      * Create test user with specific type for multi-type testing.
      *
-     * @param string $type
-     * @param array<string, mixed> $attributes
-     * @return UserContract
+     * @param  array<string, mixed>  $attributes
      */
     protected static function createTestUserWithType(string $type, array $attributes = []): UserContract
     {
         $attributes['type'] = $type;
+
         return static::createTestUser($attributes);
     }
 
     /**
      * Generate test data array with common fields.
      *
-     * @param array<string, mixed> $overrides
+     * @param  array<string, mixed>  $overrides
      * @return array<string, mixed>
      */
     protected static function generateTestData(array $overrides = []): array
@@ -139,11 +132,8 @@ abstract class TestCase extends BaseTestCase
 
     /**
      * Assert that user is authenticated with correct type.
-     *
-     * @param string|null $expectedType
-     * @return void
      */
-    protected function assertUserAuthenticated(null|string $expectedType = null): void
+    protected function assertUserAuthenticated(?string $expectedType = null): void
     {
         $this->assertAuthenticated();
 

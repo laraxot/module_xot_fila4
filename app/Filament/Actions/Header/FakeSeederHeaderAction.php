@@ -46,7 +46,7 @@ class FakeSeederHeaderAction extends Action
 
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
 
-                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+                $title = 'On Queue '.$qty.' '.$modelClass;
                 Notification::make()
                     ->title($title)
                     ->success()
@@ -55,7 +55,7 @@ class FakeSeederHeaderAction extends Action
             ->visible(false);
     }
 
-    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
     {
         return 'fake_seeder';
     }

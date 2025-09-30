@@ -17,8 +17,8 @@ class DateTimeRule implements Rule
     /**
      * Determine if the validation rule passes.
      *
-     * @param string $_attribute The attribute name being validated
-     * @param mixed $value The value being validated
+     * @param  string  $_attribute  The attribute name being validated
+     * @param  mixed  $value  The value being validated
      */
     public function passes($_attribute, $value): bool
     {
@@ -26,13 +26,13 @@ class DateTimeRule implements Rule
         // dddx($value);//10/10/2019 13:43
         // return 5 === strlen($value);
 
-        if (!is_string($value)) {
+        if (! is_string($value)) {
             return false;
         }
 
         Assert::string(
             $value,
-            __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__) . ' - Value must be a string for datetime validation'
+            __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__).' - Value must be a string for datetime validation'
         );
 
         $format = 'd/m/Y H:i';

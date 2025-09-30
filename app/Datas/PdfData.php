@@ -104,18 +104,18 @@ class PdfData extends Data
                 }
                 break;
 
-            /*
-             * case PdfEngineEnum::SPATIE:
-             * Pdf::html($this->html)
-             * ->orientation(Orientation::Portrait)
-             * ->format(Format::A4)
-             * ->margins(10, 10, 20, 0, Unit::Pixel)
-             * // ->name(str_slug($project->nome).'-REPORT.pdf')
-             * ->save($this->getPath());
-             * ;
-             *
-             * break;
-             */
+                /*
+                 * case PdfEngineEnum::SPATIE:
+                 * Pdf::html($this->html)
+                 * ->orientation(Orientation::Portrait)
+                 * ->format(Format::A4)
+                 * ->margins(10, 10, 20, 0, Unit::Pixel)
+                 * // ->name(str_slug($project->nome).'-REPORT.pdf')
+                 * ->save($this->getPath());
+                 * ;
+                 *
+                 * break;
+                 */
         }
 
         $this->html = $html;
@@ -132,7 +132,7 @@ class PdfData extends Data
         /**
          * @var non-falsy-string&view-string
          */
-        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
         $view_params = [
             'view' => $view_name,
             'row' => $model,
@@ -147,7 +147,7 @@ class PdfData extends Data
     {
         Assert::notNull(
             $res = Storage::disk($this->disk)->get($this->filename),
-            '[' . __LINE__ . '][' . class_basename($this) . ']',
+            '['.__LINE__.']['.class_basename($this).']',
         );
 
         return $res;
@@ -155,17 +155,19 @@ class PdfData extends Data
 
     public function view(string $view, array $params = []): self
     {
-        if (!view()->exists($view)) {
-            throw new Exception('View ' . $view . ' not found');
+        if (! view()->exists($view)) {
+            throw new Exception('View '.$view.' not found');
         }
         $out = view($view, $params);
         $this->html = $out->render();
+
         return $this->fromHtml($this->html);
     }
 
     public function setEngine(PdfEngineEnum $engine): self
     {
         $this->engine = $engine;
+
         return $this;
     }
 }

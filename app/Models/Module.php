@@ -14,12 +14,13 @@ use Sushi\Sushi;
 use function Safe\json_encode;
 
 /**
- * @property int         $id
+ * @property int $id
  * @property string|null $name
  * @property string|null $description
- * @property bool|null   $status
- * @property int|null    $priority
+ * @property bool|null $status
+ * @property int|null $priority
  * @property string|null $path
+ *
  * @method static Builder|Module newModelQuery()
  * @method static Builder|Module newQuery()
  * @method static Builder|Module query()
@@ -29,10 +30,13 @@ use function Safe\json_encode;
  * @method static Builder|Module wherePath($value)
  * @method static Builder|Module wherePriority($value)
  * @method static Builder|Module whereStatus($value)
+ *
  * @property string|null $icon
  * @property array<string, string>|null $colors
+ *
  * @method static Builder|Module whereColors($value)
  * @method static Builder|Module whereIcon($value)
+ *
  * @mixin IdeHelperModule
  * @mixin \Eloquent
  */
@@ -59,7 +63,7 @@ class Module extends Model
         $modules = ModuleFacade::all();
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
-            if (!is_array($config)) {
+            if (! is_array($config)) {
                 $config = [];
             }
             $colors = Arr::get($config, 'colors', []);

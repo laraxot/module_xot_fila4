@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Database\Factories;
 
-use Modules\Xot\Models\PulseValue;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Modules\Xot\Models\PulseValue;
 
 class PulseValueFactory extends Factory
 {

@@ -4,13 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers;
 
-use Filament\Facades\Filament;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Str;
-use Modules\Xot\Http\Middleware\SetDefaultLocaleForUrls;
 use Modules\Xot\Http\Middleware\SetDefaultTenantForUrlsMiddleware;
 
 // public function boot(\Illuminate\Routing\Router $router)
@@ -122,23 +120,23 @@ class RouteServiceProvider extends ServiceProvider
             ? config('laravellocalization.supportedLocales')
             : ['it' => 'it', 'en' => 'en'];
 
-        if (!is_array($langs)) {
+        if (! is_array($langs)) {
             $langs = ['it' => 'it', 'en' => 'en'];
         }
 
         $lang_pattern = collect(array_keys($langs))->implode('|');
-        $lang_pattern = '/|' . $lang_pattern . '|/i';
+        $lang_pattern = '/|'.$lang_pattern.'|/i';
 
         $router->pattern('lang', $lang_pattern);
 
         $models = config('morph_map');
-        if (!is_array($models)) {
+        if (! is_array($models)) {
             $models = [];
         }
 
         $models_collect = collect(array_keys($models));
         $models_collect->implode('|');
-        $models_collect->map(fn($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
+        $models_collect->map(fn ($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
     }
 
     // end registerRoutePattern

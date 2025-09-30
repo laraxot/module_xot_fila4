@@ -51,13 +51,13 @@ trait NavigationLabelTrait
         return static::transFunc(__FUNCTION__);
     }
 
-    public static function getNavigationSort(): null|int
+    public static function getNavigationSort(): ?int
     {
         $res = static::transFunc(__FUNCTION__);
 
         $value = intval($res);
 
-        if (0 === $value) {
+        if ($value === 0) {
             $key = static::getKeyTransFunc(__FUNCTION__);
             $value = rand(1, 100);
             app(SaveTransAction::class)->execute($key, $value);

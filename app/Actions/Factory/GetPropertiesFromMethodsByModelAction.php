@@ -12,11 +12,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Factory;
 
-<<<<<<< HEAD
-=======
-use ReflectionMethod;
-use SplFileObject;
->>>>>>> c06600c (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
@@ -40,12 +35,7 @@ class GetPropertiesFromMethodsByModelAction
     /**
      * Estrae le proprietà dai metodi di relazione del modello.
      *
-<<<<<<< HEAD
      * @param  Model  $model  Il modello da analizzare
-=======
-     * @param Model $model Il modello da analizzare
-     *
->>>>>>> c06600c (.)
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
@@ -108,12 +98,8 @@ class GetPropertiesFromMethodsByModelAction
 
                 // Normalizziamo e analizziamo il codice
                 Assert::stringNotEmpty($code, 'Il codice del metodo non può essere vuoto');
-<<<<<<< HEAD
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-=======
-                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
->>>>>>> c06600c (.)
 
                 // Estrazione del corpo della funzione
                 $begin = mb_strpos($codeStr, 'function(');
@@ -142,19 +128,10 @@ class GetPropertiesFromMethodsByModelAction
     /**
      * Estrae le relazioni belongsTo dal codice.
      *
-<<<<<<< HEAD
      * @param  string  $codeStr  Il codice da analizzare
      * @param  Model  $model  Il modello
      * @param  string  $method  Il nome del metodo
      * @param  array<string, string>  &$data  L'array in cui salvare i dati estratti
-=======
-     * @param string $codeStr Il codice da analizzare
-     * @param Model $model Il modello
-     * @param string $method Il nome del metodo
-     * @param array<string, string> &$data L'array in cui salvare i dati estratti
-     *
-     * @return void
->>>>>>> c06600c (.)
      */
     private function extractBelongsToRelations(string $codeStr, Model $model, string $method, array &$data): void
     {
@@ -170,20 +147,12 @@ class GetPropertiesFromMethodsByModelAction
             $relationObj = $model->$method();
 
             // Verifichiamo che sia effettivamente una relazione
-<<<<<<< HEAD
             if (! ($relationObj instanceof Relation)) {
-=======
-            if (!($relationObj instanceof Relation)) {
->>>>>>> c06600c (.)
                 return;
             }
 
             // Verifichiamo che il metodo getForeignKeyName esista
-<<<<<<< HEAD
             if (! method_exists($relationObj, 'getForeignKeyName')) {
-=======
-            if (!method_exists($relationObj, 'getForeignKeyName')) {
->>>>>>> c06600c (.)
                 throw new Exception('Il metodo getForeignKeyName non esiste nella relazione');
             }
 
@@ -199,11 +168,7 @@ class GetPropertiesFromMethodsByModelAction
             $fakerAction = app(GetFakerAction::class);
             Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
 
-<<<<<<< HEAD
             $type = 'factory('.$relatedClass.'::class)';
-=======
-            $type = 'factory(' . $relatedClass . '::class)';
->>>>>>> c06600c (.)
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
         } catch (Exception $e) {
             // In caso di errore, ignoriamo la relazione

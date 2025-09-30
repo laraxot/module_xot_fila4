@@ -45,7 +45,13 @@ npm run copy
 
 ### Tema One
 ```bash
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+>>>>>>> a5dccfe (.)
 npm install          # Prima volta
 npm run build        # Compila Sass/JS
 npm run copy         # Copia in /public/
@@ -53,7 +59,13 @@ npm run copy         # Copia in /public/
 
 ### Tema Two
 ```bash
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+>>>>>>> a5dccfe (.)
 npm install
 npm run build
 npm run copy

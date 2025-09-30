@@ -5,11 +5,14 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\String;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 class SanitizeAction
 {
 =======
+=======
+>>>>>>> a5dccfe (.)
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -18,7 +21,10 @@ use function Safe\preg_replace;
 class SanitizeAction
 {
     use QueueableAction;
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
 
     public function execute(string $str): string
     {
@@ -26,12 +32,18 @@ class SanitizeAction
         $str = html_entity_decode($str);
         $str = trim($str);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a5dccfe (.)
         $str = preg_replace('/\s+/', ' ', $str);
         if (Str::startsWith($str, '-')) {
             $str = Str::after($str, '-');
             $str = $this->execute($str);
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
         }
 
         return $str;

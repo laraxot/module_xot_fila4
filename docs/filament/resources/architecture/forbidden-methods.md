@@ -72,11 +72,19 @@ grep -r "public static function getTableFilters" --include="*Resource.php" /var/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getTableBulkActions" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getNavigationGroup" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
+<<<<<<< HEAD
 grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getTableBulkActions" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getNavigationGroup" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
+=======
+grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
+grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
+grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
+grep -r "public static function getTableBulkActions" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
+grep -r "public static function getNavigationGroup" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
+>>>>>>> a5dccfe (.)
 ```
 
 ## Processo di refactoring

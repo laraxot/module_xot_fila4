@@ -12,7 +12,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Factory;
 
-<<<<<<< HEAD
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
@@ -21,12 +20,8 @@ use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
 use Webmozart\Assert\Assert;
-=======
-use ReflectionMethod;
-use Spatie\QueueableAction\QueueableAction;
-use SplFileObject;
->>>>>>> a57150a (.)
 
+use function Safe\preg_replace;
 
 /**
  * Classe per estrarre proprietà dai metodi di relazione di un modello.
@@ -35,17 +30,12 @@ use SplFileObject;
  */
 class GetPropertiesFromMethodsByModelAction
 {
-use ReflectionMethod;
-use Spatie\QueueableAction\QueueableAction;
-use SplFileObject;
+    use QueueableAction;
 
     /**
      * Estrae le proprietà dai metodi di relazione del modello.
      *
-<<<<<<< HEAD
      * @param  Model  $model  Il modello da analizzare
-=======
->>>>>>> a57150a (.)
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
@@ -108,11 +98,8 @@ use SplFileObject;
 
                 // Normalizziamo e analizziamo il codice
                 Assert::stringNotEmpty($code, 'Il codice del metodo non può essere vuoto');
-<<<<<<< HEAD
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
-=======
->>>>>>> a57150a (.)
 
                 // Estrazione del corpo della funzione
                 $begin = mb_strpos($codeStr, 'function(');
@@ -141,13 +128,10 @@ use SplFileObject;
     /**
      * Estrae le relazioni belongsTo dal codice.
      *
-<<<<<<< HEAD
      * @param  string  $codeStr  Il codice da analizzare
      * @param  Model  $model  Il modello
      * @param  string  $method  Il nome del metodo
      * @param  array<string, string>  &$data  L'array in cui salvare i dati estratti
-=======
->>>>>>> a57150a (.)
      */
     private function extractBelongsToRelations(string $codeStr, Model $model, string $method, array &$data): void
     {
@@ -163,18 +147,12 @@ use SplFileObject;
             $relationObj = $model->$method();
 
             // Verifichiamo che sia effettivamente una relazione
-<<<<<<< HEAD
             if (! ($relationObj instanceof Relation)) {
-=======
->>>>>>> a57150a (.)
                 return;
             }
 
             // Verifichiamo che il metodo getForeignKeyName esista
-<<<<<<< HEAD
             if (! method_exists($relationObj, 'getForeignKeyName')) {
-=======
->>>>>>> a57150a (.)
                 throw new Exception('Il metodo getForeignKeyName non esiste nella relazione');
             }
 
@@ -190,10 +168,7 @@ use SplFileObject;
             $fakerAction = app(GetFakerAction::class);
             Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
 
-<<<<<<< HEAD
             $type = 'factory('.$relatedClass.'::class)';
-=======
->>>>>>> a57150a (.)
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
         } catch (Exception $e) {
             // In caso di errore, ignoriamo la relazione

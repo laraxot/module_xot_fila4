@@ -44,11 +44,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     }
 
     /*
-<<<<<<< HEAD
      * @return array<\Filament\Forms\Components\Component>
-=======
-     * @return array<\Filament\Schemas\Components\Component>
->>>>>>> a5dccfe (.)
      */
     // abstract public static function getFormSchema(): array;
 

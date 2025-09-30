@@ -39,12 +39,7 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
-<<<<<<< HEAD
         ->andReturn(\Modules\SaluteOra\Models\User::class);
-=======
-        ->andReturn(\Modules\<nome modulo>\Models\User::class);
-        ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> a5dccfe (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -209,12 +204,8 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 
 ## 🔗 **Related Documentation**
 
-- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
-- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---

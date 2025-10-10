@@ -25,7 +25,23 @@ final class GeneratePdfAction
             $html2pdf->WriteHTML($html);
 
             return match ($outputMode) {
+<<<<<<< HEAD
                 'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+=======
+                'content' => $html2pdf->Output($filename.'.pdf', 'S'),
+>>>>>>> a12f125f4a (.)
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> b93ef594b4 (.)
+=======
+                'content' => $html2pdf->Output($filename.'.pdf', 'S'),
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                 'file' => $this->saveToFile($html2pdf, $filename),
                 default => $html2pdf->Output(),
             };

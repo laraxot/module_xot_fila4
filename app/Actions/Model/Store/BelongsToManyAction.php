@@ -15,6 +15,12 @@ class BelongsToManyAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
@@ -31,6 +37,49 @@ class BelongsToManyAction
             Assert::isArray($to = $relationDTO->data['to'] ?? []);
             $rows->sync($to);
             $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
+=======
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> b93ef594b4 (.)
+    {
+        Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
+        /*
+         * dddx(['message' => 'wip',
+         * 'row' => $row,
+         * 'relation' => $relation, ]);
+         */
+        if (
+            \in_array('to', array_keys($relationDTO->data), false) ||
+                \in_array('from', array_keys($relationDTO->data), false)
+        ) {
+            // $this->saveMultiselectTwoSides($row, $relation->name, $relation->data);
+            Assert::isArray($to = $relationDTO->data['to'] ?? []);
+            $rows->sync($to);
+<<<<<<< HEAD
+            $status = 'collegati ['.implode(', ', $to).'] ';
+>>>>>>> a12f125f4a (.)
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+>>>>>>> b93ef594b4 (.)
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    {
+        Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
+        /*
+        dddx(['message' => 'wip',
+            'row' => $row,
+            'relation' => $relation, ]);
+        */
+        if (\in_array('to', array_keys($relationDTO->data), false) || \in_array('from', array_keys($relationDTO->data), false)) {
+            // $this->saveMultiselectTwoSides($row, $relation->name, $relation->data);
+            Assert::isArray($to = $relationDTO->data['to'] ?? []);
+            $rows->sync($to);
+            $status = 'collegati ['.implode(', ', $to).'] ';
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             Session::flash('status', $status);
 
             return;

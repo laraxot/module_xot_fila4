@@ -4,12 +4,43 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\ModelClass;
 
+<<<<<<< HEAD
 use InvalidArgumentException;
+=======
+<<<<<<< HEAD
+use InvalidArgumentException;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+=======
+=======
+use Webmozart\Assert\Assert;
+use Illuminate\Support\Facades\DB;
+=======
+>>>>>>> b93ef594b4 (.)
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+use Modules\Xot\Models\InformationSchemaTable;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+>>>>>>> b93ef594b4 (.)
+=======
+use Webmozart\Assert\Assert;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Eloquent\Model;
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Xot\Models\InformationSchemaTable;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 /**
  * Counts records for a given model class using optimized table information.
@@ -23,7 +54,15 @@ class CountAction
      *
      * @param class-string<Model> $modelClass The fully qualified model class name
      *
+<<<<<<< HEAD
      * @throws InvalidArgumentException If model class is invalid or not found
+=======
+<<<<<<< HEAD
+     * @throws InvalidArgumentException If model class is invalid or not found
+=======
+     * @throws \InvalidArgumentException If model class is invalid or not found
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
      *
      * @return int The total count of records
      */

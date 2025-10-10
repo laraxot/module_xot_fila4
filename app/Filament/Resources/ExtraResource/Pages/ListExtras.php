@@ -4,6 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\ExtraResource\Pages;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Filament\Actions\BulkAction;
 use Filament\Tables\Filters\BaseFilter;
 use Filament\Actions\Action;
@@ -11,11 +17,50 @@ use Filament\Actions\ActionGroup;
 use Override;
 use Filament\Actions\EditAction;
 use Filament\Actions\DeleteBulkAction;
+<<<<<<< HEAD
 use Filament\Tables;
+=======
+=======
+use Filament\Actions\EditAction;
+use Filament\Actions\DeleteBulkAction;
+use Filament\Tables\Filters\BaseFilter;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> a12f125f4a (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Tables\Filters\BaseFilter;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+use Override;
+use Filament\Actions\EditAction;
+use Filament\Actions\DeleteBulkAction;
+>>>>>>> b93ef594b4 (.)
+use Filament\Tables;
+=======
+use Filament\Tables;
+use Filament\Tables\Actions\DeleteBulkAction;
+use Filament\Tables\Actions\EditAction;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\ExtraResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 /**
  * @see ExtraResource
  */
@@ -23,6 +68,12 @@ class ListExtras extends XotBaseListRecords
 {
     protected static string $resource = ExtraResource::class;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -31,22 +82,96 @@ class ListExtras extends XotBaseListRecords
             'model_type' => TextColumn::make('model_type')->searchable()->label('Model Type'),
             'model_id' => TextColumn::make('model_id')->sortable()->label('Model ID'),
             'extra_attributes' => TextColumn::make('extra_attributes')->searchable()->label('Extra Attributes'),
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+    public function getTableColumns(): array
+    {
+        return [
+            'id' => TextColumn::make('id')
+                ->sortable()
+                ->label('ID'),
+
+            'model_type' => TextColumn::make('model_type')
+                ->searchable()
+                ->label('Model Type'),
+
+            'model_id' => TextColumn::make('model_id')
+                ->sortable()
+                ->label('Model ID'),
+
+            'extra_attributes' => TextColumn::make('extra_attributes')
+                ->searchable()
+                ->label('Extra Attributes'),
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+    public function getTableColumns(): array
+    {
+        return [
+            'id' => TextColumn::make('id')->sortable()->label('ID'),
+            'model_type' => TextColumn::make('model_type')->searchable()->label('Model Type'),
+            'model_id' => TextColumn::make('model_id')->sortable()->label('Model ID'),
+            'extra_attributes' => TextColumn::make('extra_attributes')->searchable()->label('Extra Attributes'),
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         ];
     }
 
     /**
+<<<<<<< HEAD
      * @return array<BaseFilter>
      */
     #[Override]
+=======
+<<<<<<< HEAD
+     * @return array<BaseFilter>
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+     * @return array<Tables\Filters\BaseFilter>
+     */
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     public function getTableFilters(): array
     {
         return [];
     }
 
     /**
+<<<<<<< HEAD
      * @return array<string, Action|ActionGroup>
      */
     #[Override]
+=======
+<<<<<<< HEAD
+     * @return array<string, Action|ActionGroup>
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+     * @return array<string, Tables\Actions\Action|Tables\Actions\ActionGroup>
+     */
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     public function getTableActions(): array
     {
         return [
@@ -55,9 +180,31 @@ class ListExtras extends XotBaseListRecords
     }
 
     /**
+<<<<<<< HEAD
      * @return array<string, BulkAction>
      */
     #[Override]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<string, BulkAction>
+     */
+    #[Override]
+=======
+     * @return array<string, \Filament\Actions\BulkAction>
+     */
+>>>>>>> a12f125f4a (.)
+=======
+     * @return array<string, BulkAction>
+     */
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+     * @return array<string, Tables\Actions\BulkAction>
+     */
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     public function getTableBulkActions(): array
     {
         return [

@@ -4,6 +4,14 @@ declare(strict_types=1);
 
 return [
     /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -13,6 +21,28 @@ return [
      * | found in a intuitive way.
      * |
      * |--------------------------------------------------------------------------
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+      |--------------------------------------------------------------------------
+      | Exception Language Lines
+      |--------------------------------------------------------------------------
+      |
+      | The following language lines are used in Exceptions thrown throughout the system.
+      | Regardless where it is placed, a button can be listed here so it is easily
+      | found in a intuitive way.
+      |
+      |--------------------------------------------------------------------------
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
      */
 
     'backend' => [

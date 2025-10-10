@@ -16,6 +16,9 @@ class AddStrictTypesDeclarationCommand extends Command
 
     protected $description = 'Aggiunge la dichiarazione strict_types=1 ai file PHP che ne sono sprovvisti';
 
+    /**
+     * @var array<int, string>
+     */
     private array $excludedPaths = [
         'views',
         'config',
@@ -32,9 +35,10 @@ class AddStrictTypesDeclarationCommand extends Command
         $dryRun = $this->option('dry-run');
 
         if ($moduleOption && is_string($moduleOption)) {
-            $modulePath .= '/' . $moduleOption;
-            if (!File::isDirectory($modulePath)) {
+            $modulePath .= '/'.$moduleOption;
+            if (! File::isDirectory($modulePath)) {
                 $this->error("Il modulo {$moduleOption} non esiste");
+
                 return 1;
             }
         }
@@ -45,8 +49,10 @@ class AddStrictTypesDeclarationCommand extends Command
         foreach ($files as $file) {
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
-                    $this->info("Verrebbe processato: {$file}");
+                    $filePath = $file->getRealPath();
+                    $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
                     $count++;
+
                     continue;
                 }
 
@@ -54,7 +60,7 @@ class AddStrictTypesDeclarationCommand extends Command
                 if ($path === false) {
                     continue;
                 }
-                
+
                 // PHPStan hint: at this point $path is definitely a string
                 assert(is_string($path));
 
@@ -63,7 +69,7 @@ class AddStrictTypesDeclarationCommand extends Command
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;
                 } catch (\Exception $e) {
-                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
+                    $this->error("Errore nel processare {$path}: ".$e->getMessage());
                 }
             }
         }
@@ -74,15 +80,21 @@ class AddStrictTypesDeclarationCommand extends Command
         return 0;
     }
 
+    /**
+     * @return array<int, \Symfony\Component\Finder\SplFileInfo>
+     */
     private function findPhpFiles(string $path): array
     {
-        return File::allFiles($path);
+        /** @var array<int, \Symfony\Component\Finder\SplFileInfo> $files */
+        $files = array_values(File::allFiles($path));
+
+        return $files;
     }
 
-    private function shouldProcessFile(\SplFileInfo $file): bool
+    private function shouldProcessFile(\Symfony\Component\Finder\SplFileInfo $file): bool
     {
         // Verifica l'estensione
-        if (!str_ends_with($file->getFilename(), '.php')) {
+        if (! str_ends_with($file->getFilename(), '.php')) {
             return false;
         }
 
@@ -93,13 +105,14 @@ class AddStrictTypesDeclarationCommand extends Command
 
         // Verifica se il file è in un percorso escluso
         foreach ($this->excludedPaths as $excludedPath) {
-            if (str_contains($path, "/{$excludedPath}/")) {
+            if (str_contains($path, '/'.$excludedPath.'/')) {
                 return false;
             }
         }
 
         // Verifica se il file ha già la dichiarazione strict_types
         $content = File::get($path);
-        return !str_contains($content, 'declare(strict_types=1)');
+
+        return ! str_contains($content, 'declare(strict_types=1)');
     }
 }

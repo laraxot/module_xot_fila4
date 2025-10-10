@@ -7,9 +7,7 @@ namespace Modules\Xot\Tests\Unit\Support;
 use Filament\Tables\Contracts\HasTable;
 use Filament\Tables\Table;
 use Illuminate\Support\Collection;
-use Mockery;
 use Modules\Xot\Filament\Traits\HasXotTable;
-use Override;
 
 /**
  * Test class that uses HasTable and HasXotTable traits for testing.
@@ -21,8 +19,10 @@ class HasTableWithXotTestClass implements HasTable
     public function getLayoutView(): mixed
     {
         $mock = \Mockery::mock();
-        $mock->shouldReceive('getTableColumns')->andReturn([]);
-        $mock->shouldReceive('getTableContentGrid')->andReturn([]);
+        $mock->allows([
+            'getTableColumns' => [],
+            'getTableContentGrid' => [],
+        ]);
 
         return $mock;
     }
@@ -34,10 +34,11 @@ class HasTableWithXotTestClass implements HasTable
 
     public function getTable(): Table
     {
+        /** @var Table */
         return \Mockery::mock(Table::class);
     }
 
-    public function getTablePage(): ?int
+    public function getTablePage(): int|string
     {
         return 1;
     }
@@ -45,6 +46,16 @@ class HasTableWithXotTestClass implements HasTable
     public function getTableRecordsPerPage(): int
     {
         return 10;
+    }
+
+    public function getSelectedTableRecordsQuery(bool $shouldFetchSelectedRecords = true, ?int $chunkSize = 500): \Illuminate\Database\Eloquent\Builder
+    {
+        return \Illuminate\Database\Eloquent\Model::query();
+    }
+
+    public function getTableFilterFormState(string $name): array
+    {
+        return [];
     }
 
     public function getTableSortColumn(): ?string
@@ -62,9 +73,10 @@ class HasTableWithXotTestClass implements HasTable
         return [];
     }
 
-    public function getTableFiltersForm(): mixed
+    public function getTableFiltersForm(): \Filament\Schemas\Schema
     {
-        return null;
+        /** @var \Filament\Schemas\Schema */
+        return \Mockery::mock(\Filament\Schemas\Schema::class);
     }
 
     public function getTableFilterState(string $name): ?array
@@ -72,14 +84,15 @@ class HasTableWithXotTestClass implements HasTable
         return [];
     }
 
-    public function getTableGrouping(): ?string
+    public function getTableGrouping(): ?\Filament\Tables\Grouping\Group
     {
         return null;
     }
 
-    public function getTableSearchIndicator(): ?string
+    public function getTableSearchIndicator(): \Filament\Tables\Filters\Indicator
     {
-        return null;
+        /** @var \Filament\Tables\Filters\Indicator */
+        return \Mockery::mock(\Filament\Tables\Filters\Indicator::class);
     }
 
     public function getTableColumnSearchIndicators(): array
@@ -92,22 +105,22 @@ class HasTableWithXotTestClass implements HasTable
         return null;
     }
 
-    public function getTableRecords(): array
+    public function getTableRecords(): \Illuminate\Support\Collection|\Illuminate\Contracts\Pagination\Paginator|\Illuminate\Contracts\Pagination\CursorPaginator
     {
-        return [];
+        return new \Illuminate\Support\Collection;
     }
 
-    public function getTableRecord(): mixed
-    {
-        return null;
-    }
-
-    public function getTableRecordKey(): mixed
+    public function getTableRecord(mixed $key): array|\Illuminate\Database\Eloquent\Model|null
     {
         return null;
     }
 
-    public function getSelectedTableRecords(bool $shouldFetchSelectedRecords = true): Collection
+    public function getTableRecordKey(mixed $record): string
+    {
+        return '';
+    }
+
+    public function getSelectedTableRecords(bool $shouldFetchSelectedRecords = true, ?int $chunkSize = null): Collection
     {
         return new Collection;
     }
@@ -127,42 +140,42 @@ class HasTableWithXotTestClass implements HasTable
         return [];
     }
 
-    public function getTableQueryForExport(): mixed
+    public function getTableQueryForExport(): \Illuminate\Database\Eloquent\Builder
+    {
+        return \Illuminate\Database\Eloquent\Model::query();
+    }
+
+    public function getFilteredTableQuery(): ?\Illuminate\Database\Eloquent\Builder
     {
         return null;
     }
 
-    public function getFilteredTableQuery(): mixed
+    public function getFilteredSortedTableQuery(): ?\Illuminate\Database\Eloquent\Builder
     {
         return null;
     }
 
-    public function getFilteredSortedTableQuery(): mixed
+    public function getAllTableSummaryQuery(): ?\Illuminate\Database\Eloquent\Builder
     {
         return null;
     }
 
-    public function getAllTableSummaryQuery(): mixed
+    public function getPageTableSummaryQuery(): ?\Illuminate\Database\Eloquent\Builder
     {
         return null;
     }
 
-    public function getPageTableSummaryQuery(): mixed
+    public function getMountedTableAction(): ?\Filament\Actions\Action
     {
         return null;
     }
 
-    public function getMountedTableAction(): ?string
+    public function getMountedTableActionForm(): ?\Filament\Schemas\Schema
     {
         return null;
     }
 
-    public function getMountedTableActionForm(): mixed
-    {
-        return null;
-    }
-
-    public function getMountedTableActionRecord(): mixed
+    public function getMountedTableActionRecord(): ?\Illuminate\Database\Eloquent\Model
     {
         return null;
     }
@@ -172,12 +185,12 @@ class HasTableWithXotTestClass implements HasTable
         return null;
     }
 
-    public function getMountedTableBulkAction(): ?string
+    public function getMountedTableBulkAction(): ?\Filament\Actions\Action
     {
         return null;
     }
 
-    public function getMountedTableBulkActionForm(): mixed
+    public function getMountedTableBulkActionForm(): ?\Filament\Schemas\Schema
     {
         return null;
     }
@@ -202,12 +215,12 @@ class HasTableWithXotTestClass implements HasTable
         return false;
     }
 
-    public function isTableColumnToggledHidden(): bool
+    public function isTableColumnToggledHidden(string $name): bool
     {
         return false;
     }
 
-    public function callMountedTableAction(): mixed
+    public function callMountedTableAction(mixed $arguments = []): mixed
     {
         return null;
     }
@@ -219,31 +232,31 @@ class HasTableWithXotTestClass implements HasTable
 
     public function deselectAllTableRecords(): void {}
 
-    public function mountTableAction(): void {}
+    public function mountTableAction(string $name, mixed $record = null, mixed $arguments = []): void {}
 
-    public function mountTableBulkAction(): void {}
+    public function mountTableBulkAction(string $name, mixed $selectedRecords = []): void {}
 
     public function mountedTableActionRecord(): mixed
     {
         return null;
     }
 
-    public function replaceMountedTableAction(): void {}
+    public function replaceMountedTableAction(string $name, mixed $record = null, mixed $arguments = []): void {}
 
-    public function replaceMountedTableBulkAction(): void {}
+    public function replaceMountedTableBulkAction(string $name, mixed $selectedRecords = []): void {}
 
     public function resetTableSearch(): void {}
 
-    public function resetTableColumnSearch(): void {}
+    public function resetTableColumnSearch(string $column): void {}
 
     public function toggleTableReordering(): void {}
 
-    public function parseTableFilterName(): string
+    public function parseTableFilterName(string $name): string
     {
-        return '';
+        return $name;
     }
 
-    public function makeFilamentTranslatableContentDriver(): mixed
+    public function makeFilamentTranslatableContentDriver(): ?\Filament\Support\Contracts\TranslatableContentDriver
     {
         return null;
     }

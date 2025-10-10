@@ -6,18 +6,19 @@ namespace Modules\Xot\Models;
 
 // use Laravel\Scout\Searchable;
 // ---------- traits
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Modules\Xot\Traits\Updater;
 
 /**
  * Class BaseModel.
+ *
+ * @template TFactory of \Illuminate\Database\Eloquent\Factories\Factory
  */
 abstract class BaseModel extends Model
 {
-    use HasFactory;
+    /** @use HasFactory<TFactory> */
+    use Traits\HasXotFactory;
 
     // use Searchable;
     // //use Cachable;
@@ -51,17 +52,6 @@ abstract class BaseModel extends Model
     protected $hidden = [
         // 'password'
     ];
-
-    /**
-     * Create a new factory instance for the model.
-     *
-     * @return Factory<static>
-     */
-    protected static function newFactory(): Factory
-    {
-        // return app(\Modules\Xot\Actions\Factory\GetFactoryAction::class)->execute(static::class);
-        return app(GetFactoryAction::class)->execute(static::class);
-    }
 
     /** @return array<string, class-string|string> */
     protected function casts(): array

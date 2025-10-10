@@ -8,8 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Illuminate\Support\Facades\Hash;
-use Mockery;
-use Modules\<main module>\Models\User;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 
@@ -47,7 +45,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * Create a test user via XotData pattern with proper architecture.
      *
-     * @param  array<string, mixed>  $attributes
+     * @param array<string, mixed> $attributes
      */
     protected static function createTestUser(array $attributes = []): UserContract
     {
@@ -74,10 +72,11 @@ abstract class TestCase extends BaseTestCase
      */
     protected static function mockXotData(): void
     {
-        $mockXotData = Mockery::mock(XotData::class)->makePartial();
+        $mockXotData = \Mockery::mock(XotData::class)->makePartial();
 
         // Mock dei metodi critici con fallback sicuri
-        $mockXotData->shouldReceive('getUserClass')->andReturn(User::class);
+        $userClass = XotData::make()->getUserClass();
+        $mockXotData->shouldReceive('getUserClass')->andReturn($userClass);
 
         $mockXotData
             ->shouldReceive('getUserResourceClassByType')
@@ -91,7 +90,7 @@ abstract class TestCase extends BaseTestCase
 
         $mockXotData
             ->shouldReceive('getUserResourceClassByType')
-            ->with(Mockery::any())
+            ->with(\Mockery::any())
             ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
 
         $mockXotData->shouldReceive('make')->andReturn($mockXotData);
@@ -103,7 +102,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * Create test user with specific type for multi-type testing.
      *
-     * @param  array<string, mixed>  $attributes
+     * @param array<string, mixed> $attributes
      */
     protected static function createTestUserWithType(string $type, array $attributes = []): UserContract
     {
@@ -115,7 +114,8 @@ abstract class TestCase extends BaseTestCase
     /**
      * Generate test data array with common fields.
      *
-     * @param  array<string, mixed>  $overrides
+     * @param array<string, mixed> $overrides
+     *
      * @return array<string, mixed>
      */
     protected static function generateTestData(array $overrides = []): array
@@ -137,7 +137,7 @@ abstract class TestCase extends BaseTestCase
     {
         $this->assertAuthenticated();
 
-        if ($expectedType !== null) {
+        if (null !== $expectedType) {
             /** @var UserContract|null $user */
             $user = auth()->user();
             $this->assertNotNull($user);

@@ -87,7 +87,7 @@ class HealthPage extends Page
             $check = SmtpCheck::new();
             $checks[] = $check;
         }
-        /** @var array<Check> $checks */
+        /** @var array<int, \Spatie\Health\Checks\Check> $checks */
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');

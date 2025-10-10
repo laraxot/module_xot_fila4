@@ -37,9 +37,9 @@ use Modules\Xot\Database\Factories\PulseAggregateFactory;
  * @method static Builder|PulseAggregate whereType($value)
  * @method static Builder|PulseAggregate whereValue($value)
  *
- * @mixin IdeHelperPulseAggregate
  * @mixin \Eloquent
  */
+/** */
 class PulseAggregate extends BaseModel
 {
     /** @var list<string> */

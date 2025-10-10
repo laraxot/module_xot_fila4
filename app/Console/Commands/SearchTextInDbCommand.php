@@ -30,7 +30,7 @@ class SearchTextInDbCommand extends Command
         $tableProp = 'Tables_in_'.$databaseName;
 
         // Get tables either from specific option or all tables
-        if (empty($specificTables) || !is_array($specificTables)) {
+        if (empty($specificTables) || ! is_array($specificTables)) {
             $tables = collect(DB::select('SHOW TABLES'));
         } else {
             $tables = collect($specificTables);

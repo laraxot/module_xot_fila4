@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\Pages;
 
-use Filament\Forms\Components\Component;
 use Filament\Resources\Pages\ViewRecord as FilamentViewRecord;
 
 abstract class XotBaseViewRecord extends FilamentViewRecord

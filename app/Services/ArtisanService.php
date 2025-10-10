@@ -8,10 +8,10 @@ use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
+use Modules\Xot\Services\Artisan\CommandRegistry;
 
 use function Safe\define;
 use function Safe\fopen;
@@ -30,98 +30,36 @@ if (! defined('STDIN')) {
 class ArtisanService
 {
     /**
+     * Execute an artisan command using the command registry pattern.
+     *
      * @throws FileNotFoundException
      */
     public static function act(string $act): string
     {
-        // da fare anche in noconsole, e magari mettere un policy
-        $module_name = Request::input('module', '');
-        if (! is_string($module_name)) {
-            $module_name = '';
-        }
-        switch ($act) {
-            case 'migrate':
-                DB::purge('mysql');
-                DB::reconnect('mysql');
-                if ('' !== $module_name) {
-                    echo '<h3>Module '.$module_name.'</h3>';
+        $moduleName = self::getModuleName();
+        $registry = new CommandRegistry;
 
-                    return self::exe('module:migrate '.$module_name.' --force');
-                }
+        $handler = $registry->findHandler($act);
 
-                return self::exe('migrate --force');
-
-            case 'routelist':
-                return self::exe('route:list');
-            case 'queue:flush':
-                return self::exe('queue:flush');
-            case 'routelist1':
-                return self::showRouteList();
-            case 'optimize':
-                return self::exe('optimize');
-            case 'clear':
-                echo self::exe('cache:clear').PHP_EOL;
-                echo self::exe('config:clear').PHP_EOL;
-                echo self::exe('event:clear').PHP_EOL;
-                echo self::exe('route:clear').PHP_EOL;
-                echo self::exe('view:clear').PHP_EOL;
-                echo self::exe('debugbar:clear').PHP_EOL;
-                echo self::exe('opcache:clear').PHP_EOL;
-                echo self::exe('optimize:clear').PHP_EOL;
-                echo self::exe('key:generate').PHP_EOL;
-
-                // -- non artisan
-                echo self::sessionClear().PHP_EOL;
-                echo self::errorClear().PHP_EOL;
-                echo self::debugbarClear().PHP_EOL;
-                echo PHP_EOL.'DONE'.PHP_EOL;
-                break;
-            case 'clearcache':
-                return self::exe('cache:clear');
-            case 'routecache':
-                return self::exe('route:cache');
-            case 'routeclear':
-                return self::exe('route:clear');
-            case 'viewclear':
-                return self::exe('view:clear');
-            case 'configcache':
-                return self::exe('config:cache');
-                // -------------------------------------------------------------------
-            case 'debugbar:clear':
-                self::debugbarClear();
-                break;
-
-                // ------------------------------------------------------------------
-
-            case 'module-list':
-                return self::exe('module:list');
-            case 'module-disable':
-                return self::exe('module:disable '.$module_name);
-            case 'module-enable':
-                return self::exe('module:enable '.$module_name);
-                // ----------------------------------------------------------------------
-            case 'error':
-            case 'error-show':
-                return self::errorShow()->render();
-            case 'error-clear':
-                return self::errorClear();
-
-                // -------------------------------------------------------------------------
-            case 'spatiecache-clear':
-                /* da vedere se e' necessaria
-                 * try {
-                 * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
-                 * } catch (\Exception $e) {
-                 * dddx($e);
-                 * }
-                 */
-                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
-
-            default:
-                return '';
+        if ($handler === null) {
+            return '';
         }
 
-        return '';
+        return $handler->handle($moduleName);
+    }
+
+    /**
+     * Get the module name from the request.
+     */
+    private static function getModuleName(): string
+    {
+        $moduleName = Request::input('module', '');
+
+        if (! is_string($moduleName)) {
+            return '';
+        }
+
+        return $moduleName;
     }
 
     public static function errorShow(): Renderable
@@ -136,7 +74,7 @@ class ArtisanService
             $log = '';
         }
         $content = '';
-        if ('' !== $log && File::exists(storage_path('logs/'.$log))) {
+        if ($log !== '' && File::exists(storage_path('logs/'.$log))) {
             $content = File::get(storage_path('logs/'.$log));
         }
 
@@ -197,7 +135,7 @@ class ArtisanService
         $files = File::files(storage_path('logs'));
 
         foreach ($files as $file) {
-            if ('log' === $file->getExtension() && false !== $file->getRealPath()) {
+            if ($file->getExtension() === 'log' && $file->getRealPath() !== false) {
                 // Parameter #1 $paths of static method Illuminate\Filesystem\Filesystem::delete() expects array|string, Symfony\Component\Finder\SplFileInfo given.
                 echo '<br/>'.$file->getRealPath();
 
@@ -213,7 +151,7 @@ class ArtisanService
         $files = File::files(storage_path('framework/sessions'));
 
         foreach ($files as $file) {
-            if ('' === $file->getExtension() && false !== $file->getRealPath()) {
+            if ($file->getExtension() === '' && $file->getRealPath() !== false) {
                 // echo '<br/>'.$file->getRealPath();
 
                 File::delete($file->getRealPath());
@@ -229,7 +167,7 @@ class ArtisanService
     {
         $files = File::files(storage_path('debugbar'));
         foreach ($files as $file) {
-            if ('json' === $file->getExtension() && false !== $file->getRealPath()) {
+            if ($file->getExtension() === 'json' && $file->getRealPath() !== false) {
                 // echo '<br/>'.$file->getRealPath();
 
                 File::delete($file->getRealPath());
@@ -242,7 +180,7 @@ class ArtisanService
     }
 
     /**
-     * @param array<string, mixed> $arguments
+     * @param  array<string, mixed>  $arguments
      */
     public static function exe(string $command, array $arguments = []): string
     {

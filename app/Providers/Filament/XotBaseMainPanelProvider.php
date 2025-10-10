@@ -36,8 +36,8 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
         $panel->id('admin')->path('admin');
 
         if (! Module::has('Cms')) {
-           // $panel->login(Login::class);
-           $panel->login();
+            // $panel->login(Login::class);
+            $panel->login();
         }
 
         $panel = $panel->passwordReset()->sidebarFullyCollapsibleOnDesktop()->spa()->profile(null, true);

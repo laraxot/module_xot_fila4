@@ -29,28 +29,26 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 /**
  * Modules\User\Contracts\UserContract.
  *
- * @property ProfileContract|null                                                     $profile
- * @property string                                                                   $id
- * @property string                                                                   $handle
- * @property string|null                                                              $first_name
- * @property string|null                                                              $last_name
- * @property string|null                                                              $full_name
- * @property \BackedEnum&HasLabel                                                     $type
- * @property string|null                                                              $password
- * @property string|int|null                                                          $current_team_id
- * @property string|null                                                              $phone
- * @property string|null                                                              $email
- * @property \DateTime|null                                                           $email_verified_at
- * @property \DateTime|null                                                           $email_verified_at
+ * @property ProfileContract|null $profile
+ * @property string $id
+ * @property string $handle
+ * @property string|null $first_name
+ * @property string|null $last_name
+ * @property string|null $full_name
+ * @property \BackedEnum&HasLabel $type
+ * @property string|null $password
+ * @property string|int|null $current_team_id
+ * @property string|null $phone
+ * @property string|null $email
+ * @property \DateTime|null $email_verified_at
+ * @property \DateTime|null $email_verified_at
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
- * @property \Illuminate\Database\Eloquent\Collection<int, Tenant>                    $tenants
+ * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
  *
  * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
- * @method bool      canAccessSocialite()
+ * @method bool canAccessSocialite()
  *
  * @phpstan-require-extends Model
- *
- * @mixin \Eloquent
  */
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
 {
@@ -60,18 +58,20 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * public function areas();
      * public function avatar();
      */
+    /**
+     * Get the user's profile.
+     */
     public function profile(): HasOne;
 
     /**
      * Update the model in the database.
      *
+    /**
+     *
+     * @param  string  $key
      * @return bool
-     */
     /**
      * Get a relationship.
-     *
-     * @param string $key
-     *
      * @return mixed|null
      */
     public function getRelationValue($key);
@@ -79,9 +79,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Create a new instance of the given model.
      *
-     * @param array $attributes
-     * @param bool  $exists
-     *
+     * @param  array  $attributes
+     * @param  bool  $exists
      * @return static
      */
     public function newInstance($attributes = [], $exists = false);
@@ -112,8 +111,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Revoke the given role from the model.
      *
-     * @param string|int|Role|\BackedEnum $role
-     *
+     * @param  string|int|Role|\BackedEnum  $role
      * @return self
      */
     public function removeRole($role);
@@ -127,11 +125,15 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 
     /**
      * A model may have multiple roles.
+     *
+     * @return BelongsToMany
      */
     public function roles(): BelongsToMany;
 
     /**
      * Get all of the tenants the user belongs to.
+     *
+     * @return BelongsToMany
      */
     public function tenants(): BelongsToMany;
 
@@ -143,9 +145,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Determine if the role may perform the given permission.
      *
-     * @param string|int|Permission|\BackedEnum $permission
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
-    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|Permission|\BackedEnum $permission, ?string $guardName = null): bool;
 }

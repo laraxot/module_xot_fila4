@@ -36,9 +36,9 @@ use Sushi\Sushi;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
- * @mixin IdeHelperLog
  * @mixin \Eloquent
  */
+/** */
 class Log extends BaseModel
 {
     use Sushi;

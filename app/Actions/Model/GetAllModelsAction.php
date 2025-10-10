@@ -17,13 +17,26 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+     *
+     * @return array<int, string>
      */
     public function execute(): array
     {
+        /** @var array<int, string> $res */
         $res = [];
         $modules = Module::all();
         foreach ($modules as $module) {
-            $tmp = app(GetAllModelsByModuleNameAction::class)->execute($module->getName());
+            if (! is_object($module) || ! method_exists($module, 'getName')) {
+                continue;
+            }
+
+            $moduleName = $module->getName();
+            if (! is_string($moduleName)) {
+                continue;
+            }
+
+            $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleName);
+            /** @var array<int, string> $tmp */
             $res = array_merge($res, $tmp);
         }
 

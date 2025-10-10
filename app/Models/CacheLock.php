@@ -36,9 +36,9 @@ use Modules\Xot\Database\Factories\CacheLockFactory;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
- * @mixin IdeHelperCacheLock
  * @mixin \Eloquent
  */
+/** */
 class CacheLock extends BaseModel
 {
     /** @var list<string> */

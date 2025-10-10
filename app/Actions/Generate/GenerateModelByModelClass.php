@@ -27,22 +27,26 @@ class GenerateModelByModelClass
         Assert::classExists($model_class);
 
         $namespace = str_replace('\\', '/', $model_class);
-        Assert::string($namespace, 'Namespace must be a string');
 
         $this->generate($model_class);
         $filename = app(GetFilenameByClassnameAction::class)->execute($model_class);
 
         $content_old = File::get($filename);
+        Assert::string($content_old, 'File content must be a string');
+
         $content = $content_old;
         foreach ($this->replaces as $k => $v) {
+            Assert::string($k, 'Replace key must be string');
             if (method_exists($this, 'replace'.$k)) {
                 $content = $this->{'replace'.$k}($v, $content);
+                Assert::string($content, 'Content must remain string after replace');
             }
 
             // $content=$this->replace($content,$k,$v);
         }
+        Assert::string($content, 'Content must be string before final replacements');
         $content = str_replace(' extends Model', ' extends BaseModel', $content);
-        $content = str_replace('use HasFactory;', '', $content);
+        $content = str_replace('use \Modules\Xot\Models\Traits\HasXotFactory;', '', $content);
         Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
 
         if ($content !== $content_old) {

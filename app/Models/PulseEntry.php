@@ -31,9 +31,9 @@ use Modules\Xot\Database\Factories\PulseEntryFactory;
  * @method static Builder|PulseEntry whereType($value)
  * @method static Builder|PulseEntry whereValue($value)
  *
- * @mixin IdeHelperPulseEntry
  * @mixin \Eloquent
  */
+/** */
 class PulseEntry extends BaseModel
 {
     /** @var list<string> */

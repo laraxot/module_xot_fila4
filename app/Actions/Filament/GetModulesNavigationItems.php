@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
-use Throwable;
 use Exception;
 use Filament\Facades\Filament;
 use Filament\Navigation\NavigationItem;
@@ -14,6 +13,7 @@ use Illuminate\Support\Str;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Spatie\QueueableAction\QueueableAction;
+use Throwable;
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;

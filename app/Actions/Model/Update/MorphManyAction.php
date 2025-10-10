@@ -22,13 +22,28 @@ class MorphManyAction
         if ($relationDTO->data === []) {
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model
-            $model->{$relationDTO->name}()->saveMany($relationDTO->data);
+            $relation = $model->{$relationDTO->name}();
+            if (is_object($relation) && method_exists($relation, 'saveMany')) {
+                $relation->saveMany($relationDTO->data);
+            }
 
             return;
         }
 
-        $related = $relationDTO->related;
+        $relation = $model->{$relationDTO->name}();
+
+        if (! is_object($relation) || ! method_exists($relation, 'getRelated')) {
+            return;
+        }
+
+        $related = $relation->getRelated();
+
+        if (! is_object($related) || ! method_exists($related, 'getKeyName')) {
+            return;
+        }
+
         $keyName = $related->getKeyName();
+        Assert::string($keyName, 'Key name must be a string');
         $models = [];
         $ids = [];
         foreach ($relationDTO->data as $data) {
@@ -39,7 +54,10 @@ class MorphManyAction
                  * $row = $related->firstOrCreate([$keyName => $related_id]);
                  * $res = app(\Modules\Xot\Actions\Model\UpdateAction::class)->execute($row, $data, []);
                  */
-                $res = app(UpdateAction::class)->execute($related, $data, []);
+                /** @var array<string, mixed> $typedData */
+                $typedData = $data;
+                Assert::isInstanceOf($related, Model::class, 'Related must be a Model');
+                $res = app(UpdateAction::class)->execute($related, $typedData, []);
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {
@@ -47,7 +65,9 @@ class MorphManyAction
             }
         }
 
-        $model->{$relationDTO->name}()->saveMany($models);
+        if (method_exists($relation, 'saveMany')) {
+            $relation->saveMany($models);
+        }
 
         // dddx(['model' => $model, 'relationDTO' => $relationDTO]);
     }

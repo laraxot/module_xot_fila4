@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Schema;
+use InvalidArgumentException;
 use Modules\Tenant\Models\Traits\SushiToJson;
 use Sushi\Sushi;
 
@@ -22,23 +22,23 @@ use Sushi\Sushi;
  * @property string|null $TABLE_NAME
  * @property string|null $TABLE_TYPE
  * @property string|null $ENGINE
- * @property int|null    $VERSION
+ * @property int|null $VERSION
  * @property string|null $ROW_FORMAT
- * @property int|null    $table_rows
- * @property int|null    $AVG_ROW_LENGTH
- * @property int|null    $DATA_LENGTH
- * @property int|null    $MAX_DATA_LENGTH
- * @property int|null    $INDEX_LENGTH
- * @property int|null    $DATA_FREE
- * @property int|null    $AUTO_INCREMENT
+ * @property int|null $table_rows
+ * @property int|null $AVG_ROW_LENGTH
+ * @property int|null $DATA_LENGTH
+ * @property int|null $MAX_DATA_LENGTH
+ * @property int|null $INDEX_LENGTH
+ * @property int|null $DATA_FREE
+ * @property int|null $AUTO_INCREMENT
  * @property Carbon|null $CREATE_TIME
  * @property Carbon|null $UPDATE_TIME
  * @property Carbon|null $CHECK_TIME
  * @property string|null $TABLE_COLLATION
- * @property int|null    $CHECKSUM
+ * @property int|null $CHECKSUM
  * @property string|null $CREATE_OPTIONS
  * @property string|null $TABLE_COMMENT
- * @property int         $id
+ * @property int $id
  *
  * @method static Builder<static>|InformationSchemaTable newModelQuery()
  * @method static Builder<static>|InformationSchemaTable newQuery()
@@ -166,7 +166,7 @@ class InformationSchemaTable extends Model
      * Get the row count for a model class.
      * This method incorporates the logic from CountAction.
      *
-     * @param class-string<Model> $modelClass The fully qualified model class name
+     * @param  class-string<Model>  $modelClass  The fully qualified model class name
      *
      * @throws InvalidArgumentException If model class is invalid or not found
      */
@@ -190,7 +190,7 @@ class InformationSchemaTable extends Model
 
         $where = ['table_schema' => $database, 'model_class' => $modelClass, 'table_name' => $table];
         $row = InformationSchemaTable::firstOrCreate($where);
-        if (null === $row->table_rows) {
+        if ($row->table_rows === null) {
             $table_rows = $model->count();
             $row = tap($row)->update(['table_rows' => $table_rows]);
         }

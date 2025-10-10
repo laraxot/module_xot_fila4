@@ -100,6 +100,8 @@ class XotData extends Data implements Wireable
     public function isSuperAdmin(): bool
     {
         $profile = $this->getProfileModel();
+        /** @var \Modules\User\Models\Profile $profile */
+        $profile = $profile;
         if ($profile->isSuperAdmin()) {
             return true;
         }
@@ -364,8 +366,16 @@ class XotData extends Data implements Wireable
     {
         $user_class = $this->getUserClass();
         $userInstance = app($user_class);
-        $types = $userInstance->getChildTypes();
-        $class = Arr::get($types, $type);
+        if (is_object($userInstance) && method_exists($userInstance, 'getChildTypes')) {
+            $types = $userInstance->getChildTypes();
+            if (is_array($types)) {
+                $class = Arr::get($types, $type);
+            } else {
+                throw new Exception('getChildTypes() did not return an array in class '.$user_class);
+            }
+        } else {
+            throw new Exception('getChildTypes() method not found in class '.$user_class);
+        }
         if (is_null($class)) {
             throw new Exception('type '.$type.' not found in class '.$user_class);
         }
@@ -415,7 +425,14 @@ class XotData extends Data implements Wireable
     {
         $enum_class = $this->getUserChildTypeClass();
 
-        return $enum_class::cases();
+        if (! enum_exists($enum_class)) {
+            return [];
+        }
+
+        /** @var array<int, mixed> $cases */
+        $cases = $enum_class::cases();
+
+        return $cases;
 
         // $userInstance = app($user_class);
         // return $userInstance->getChildTypes();
@@ -426,7 +443,16 @@ class XotData extends Data implements Wireable
         $user_class = $this->getUserClass();
         $user_instance = app($user_class);
         // $enum_class = Arr::get($user_class::casts(),'type',null);
-        $enum_class = Arr::get($user_instance->getCasts(), 'type', null);
+        if (is_object($user_instance) && method_exists($user_instance, 'getCasts')) {
+            $casts = $user_instance->getCasts();
+            if (is_array($casts)) {
+                $enum_class = Arr::get($casts, 'type', null);
+            } else {
+                $enum_class = null;
+            }
+        } else {
+            $enum_class = null;
+        }
         if ($enum_class === null) {
             $enum_class = Str::of($user_class)
                 ->replace('\\Models\\', '\\Enums\\')

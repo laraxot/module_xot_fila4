@@ -36,9 +36,9 @@ use Modules\Xot\Database\Factories\CacheFactory;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
- * @mixin IdeHelperCache
  * @mixin \Eloquent
  */
+/** */
 class Cache extends BaseModel
 {
     protected $table = 'cache';

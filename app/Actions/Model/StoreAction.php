@@ -15,6 +15,10 @@ class StoreAction
 {
     use QueueableAction;
 
+    /**
+     * @param  array<string, mixed>  $data
+     * @param  array<string, mixed>  $rules
+     */
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
@@ -33,11 +37,15 @@ class StoreAction
         $validator = Validator::make($data, $rules);
         $validator->validate();
 
-        $model = $model->fill($data);
+        /** @var array<string, mixed> $validatedData */
+        $validatedData = $data;
+        $model = $model->fill($validatedData);
 
         $model->save();
 
-        $relations = app(FilterRelationsAction::class)->execute($model, $data);
+        /** @var array<string, mixed> $relationData */
+        $relationData = $data;
+        $relations = app(FilterRelationsAction::class)->execute($model, $relationData);
 
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe

@@ -79,8 +79,12 @@ class ContentPdfAction
      * @param  string  $filename  Nome del file PDF (per riferimento)
      * @return string Contenuto binario del PDF
      */
+    /**
+     * @param  array<string, mixed>  $data
+     */
     public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
     {
+        /** @var array<string, mixed> $data */
         return $this->execute(
             html: null,
             view: $view,

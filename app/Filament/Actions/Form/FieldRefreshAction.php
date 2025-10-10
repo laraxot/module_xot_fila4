@@ -9,13 +9,8 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Form;
 
 use Filament\Actions\Action;
-
 use Filament\Notifications\Notification;
-use Filament\Resources\Pages\ListRecords;
 use Illuminate\Support\Str;
-use Modules\Xot\Actions\Export\ExportXlsByCollection;
-use Modules\Xot\Actions\GetTransKeyAction;
-use Webmozart\Assert\Assert;
 
 class FieldRefreshAction extends Action
 {
@@ -25,24 +20,40 @@ class FieldRefreshAction extends Action
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
-            ->action(function ($state, $set, $record) {
+            ->action(function ($state, $set, $record): void {
                 $name = $this->getName();
                 if ($name === null) {
                     return;
                 }
 
-                $method = 'get' . Str::studly($name) . '';
-                $value = $record->$method();
-                $set($name, $value);
+                $method = 'get'.Str::studly($name).'';
+
+                if (! is_object($record) || ! method_exists($record, $method)) {
+                    return;
+                }
+
+                $callable = [$record, $method];
+                if (! is_callable($callable)) {
+                    return;
+                }
+
+                $value = call_user_func($callable);
+                if (is_callable($set)) {
+                    $set($name, $value);
+                }
+
+                $oldValue = is_scalar($state) ? (string) $state : 'non-scalar';
+                $newValue = is_scalar($value) ? (string) $value : 'non-scalar';
+
                 Notification::make()
-                    ->title('Ricalcolato ' . $name)
-                    ->body('vecchio valore: ' . $state . ' nuovo valore: ' . $value)
+                    ->title('Ricalcolato '.$name)
+                    ->body('vecchio valore: '.$oldValue.' nuovo valore: '.$newValue)
                     ->success()
                     ->send();
             });
     }
 
-    public static function getDefaultName(): null|string
+    public static function getDefaultName(): ?string
     {
         return 'field_refresh';
     }

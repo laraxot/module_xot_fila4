@@ -73,9 +73,9 @@ use Modules\Xot\Database\Factories\SessionFactory;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
- * @mixin IdeHelperSession
  * @mixin \Eloquent
  */
+/** */
 class Session extends BaseModel
 {
     protected $fillable = ['id', 'user_id', 'ip_address', 'user_agent', 'payload', 'last_activity'];

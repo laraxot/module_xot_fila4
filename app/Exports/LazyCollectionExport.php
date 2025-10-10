@@ -6,7 +6,6 @@ namespace Modules\Xot\Exports;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Support\Collection;
-// use Maatwebsite\Excel\Concerns\FromCollection;
 use Illuminate\Support\LazyCollection;
 use Iterator;
 use Maatwebsite\Excel\Concerns\Exportable;
@@ -15,6 +14,9 @@ use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
 use Modules\Lang\Actions\TransCollectionAction;
 
+/**
+ * @implements WithMapping<\Illuminate\Database\Eloquent\Model>
+ */
 class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, WithMapping
 {
     use Exportable;
@@ -27,6 +29,10 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     public array $fields = [];
 
     /**
+     * @param  array<int, string>  $fields
+     */
+    /**
+     * @param  LazyCollection<int, \Illuminate\Database\Eloquent\Model>  $collection
      * @param  array<int, string>  $fields
      */
     public function __construct(
@@ -43,15 +49,18 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     }
 
     /**
-     * Undocumented function.
-     *
-     * @param  Collection  $item
+     * @param  \Illuminate\Database\Eloquent\Model  $item
      */
     public function map($item): array
     {
-        $data = $item->only($this->fields);
+        if (! $item instanceof \Illuminate\Database\Eloquent\Model) {
+            return [];
+        }
 
-        return $data->toArray();
+        $fields = array_map('strval', $this->fields);
+        $data = $item->only($fields);
+
+        return $data;
 
         /*
          * return [
@@ -66,23 +75,61 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
             return collect($this->fields);
         }
 
-        /**
-         * @var array
-         */
         $head = $this->collection->first();
+        if ($head === null) {
+            return collect([]);
+        }
 
-        return collect($head)->keys();
+        if (is_array($head)) {
+            $keys = array_keys($head);
+            $stringKeys = [];
+            foreach ($keys as $key) {
+                $stringKeys[] = (string) $key;
+            }
+
+            return collect($stringKeys);
+        }
+
+        if ($head instanceof \Illuminate\Database\Eloquent\Model) {
+            $attributes = $head->getAttributes();
+            $keys = array_keys($attributes);
+            $stringKeys = [];
+            foreach ($keys as $key) {
+                $stringKeys[] = (string) $key;
+            }
+
+            return collect($stringKeys);
+        }
+
+        return collect([]);
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function headings(): array
     {
         $headings = $this->getHead();
         $transKey = $this->transKey;
-        $headings = app(TransCollectionAction::class)->execute($headings, $transKey);
+        $headingsArray = $headings->toArray();
+        $headingsCollection = collect($headingsArray);
+        $translatedHeadings = app(TransCollectionAction::class)->execute($headingsCollection, $transKey);
+
+        if (is_array($translatedHeadings)) {
+            /** @var array<int, string> $translatedHeadings */
+            $headings = collect($translatedHeadings);
+        } elseif ($translatedHeadings instanceof \Illuminate\Support\Collection) {
+            $headings = $translatedHeadings;
+        } else {
+            $headings = collect([]);
+        }
 
         return $headings->toArray();
     }
 
+    /**
+     * @return LazyCollection<int, \Illuminate\Database\Eloquent\Model>
+     */
     public function collection(): LazyCollection
     {
         return $this->collection;

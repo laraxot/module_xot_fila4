@@ -22,9 +22,9 @@ use Modules\Xot\Database\Factories\FeedFactory;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
- * @mixin IdeHelperFeed
  * @mixin \Eloquent
  */
+/** */
 class Feed extends BaseModel
 {
     /** @var list<string> */

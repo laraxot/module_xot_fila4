@@ -31,9 +31,9 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
  * @method static Builder|PulseValue whereType($value)
  * @method static Builder|PulseValue whereValue($value)
  *
- * @mixin IdeHelperPulseValue
  * @mixin \Eloquent
  */
+/** */
 class PulseValue extends BaseModel
 {
     /** @var list<string> */

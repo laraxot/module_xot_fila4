@@ -36,14 +36,16 @@ class StreamDownloadPdfAction
             if (! is_array($data)) {
                 $data = [];
             }
-            $html = view($view, $data)->render();
+            /** @var array<string, mixed> $viewData */
+            $viewData = $data;
+            $html = view($view, $viewData)->render();
         }
         Assert::string($html, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [10, 10, 10, 10]);
         $html2pdf->writeHTML($html);
 
         // Genera e scarica il PDF
-        return response()->streamDownload(function () use ($html2pdf) {
+        return response()->streamDownload(function () use ($html2pdf): void {
             $html2pdf->output();
         }, 'report-'.$filename);
     }

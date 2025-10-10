@@ -4,21 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
-use Filament\Schemas\Components\Component;
-use Override;
-use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
-use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
-use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
-use Filament\Forms;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
-use Modules\Xot\Filament\Resources\ModuleResource\Pages;
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Filament\Schemas\Components\Component;
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Models\Module;
+use Override;
 
 class ModuleResource extends XotBaseResource
 {
-    protected static null|string $model = Module::class;
+    protected static ?string $model = Module::class;
 
     /**
      * @return array<string, Component>

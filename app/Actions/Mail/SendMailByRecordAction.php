@@ -65,11 +65,12 @@ class SendMailByRecordAction
         $emailData = EmailData::from($data);
         SmtpData::make()->send($emailData);
 
-        $record
-            ->myLogs()
-            ->create([
+        $myLogs = $record->myLogs();
+        if (is_object($myLogs) && method_exists($myLogs, 'create')) {
+            $myLogs->create([
                 'act' => 'sendMail',
                 'handle' => authId(),
             ]);
+        }
     }
 }

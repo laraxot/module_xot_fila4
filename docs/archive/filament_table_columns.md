@@ -3,7 +3,7 @@
 ## Regola
 Tutte le Filament Table (Pages, RelationManagers, ecc.) nei moduli devono usare il metodo `getTableColumns` per definire le colonne della tabella.
 
-- **Non usare più:** `getListTableColumns`
+- **Non usare più:** `getTableColumns`
 - **Usare sempre:** `getTableColumns`
 
 ## Motivazione

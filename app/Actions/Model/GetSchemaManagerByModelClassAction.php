@@ -29,7 +29,10 @@ class GetSchemaManagerByModelClassAction
         // ma getDoctrineConnection() non esiste, dobbiamo usare getDoctrineSchemaManager direttamente
         if (method_exists($connection, 'getDoctrineSchemaManager')) {
             /** @phpstan-ignore deprecated.method */
-            return $connection->getDoctrineSchemaManager();
+            $schemaManager = $connection->getDoctrineSchemaManager();
+            Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class);
+
+            return $schemaManager;
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

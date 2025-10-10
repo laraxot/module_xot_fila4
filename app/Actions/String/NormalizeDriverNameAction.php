@@ -4,9 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\String;
 
-use Spatie\QueueableAction\QueueableAction;
 
-use function Safe\preg_replace;
 
 /**
  * Action per normalizzare i nomi dei driver.
@@ -16,29 +14,15 @@ use function Safe\preg_replace;
  */
 class NormalizeDriverNameAction
 {
-    use QueueableAction;
 
     /**
      * Normalizza il nome del driver eliminando caratteri non alfanumerici
      * e gestendo eventuali casi speciali/alias.
      *
-<<<<<<< HEAD
-     * @param  string  $driver  Nome del driver da normalizzare
-=======
-     * @param string $driver Nome del driver da normalizzare
->>>>>>> 0218cd5 (.)
      * @return string Nome normalizzato
      */
     public function execute(string $driver): string
     {
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
-<<<<<<< HEAD
-        $result = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
-
-        // Assicuriamo che il risultato sia sempre una stringa
-        return is_string($result) ? $result : '';
-=======
-        return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
->>>>>>> 0218cd5 (.)
     }
 }

@@ -1,20 +1,14 @@
 # Analisi e Miglioramenti del Prompt docs.txt
 
 > **Collegamenti correlati**
-<<<<<<< HEAD
-> - [README.md documentazione generale](../../../../project_docs/README.md)
-=======
 > - [README.md documentazione generale](../../../../docs/README.md)
->>>>>>> 0218cd5 (.)
+
 > - [Struttura dei Prompt](./prompts.md)
 > - [Regole per i Prompt](./PROMPT_RULES.md)
 > - [Regole per i Percorsi Relativi](./RELATIVE_PATHS_RULES.md)
 > - [Miglioramenti al Prompt docs.txt](./prompt_docs_improvements.md)
-<<<<<<< HEAD
-> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
-=======
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
->>>>>>> 0218cd5 (.)
+
 
 ## Analisi della Struttura Attuale
 

@@ -7,6 +7,9 @@ namespace Modules\Xot\Exports;
 use BackedEnum;
 use Illuminate\Contracts\Support\Arrayable;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -20,6 +23,7 @@ use Modules\Lang\Actions\TransCollectionAction;
 use Modules\Xot\Actions\Cast\SafeArrayByModelCastAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Arr;
 use Webmozart\Assert\Assert;
@@ -35,6 +39,8 @@ use Modules\Lang\Actions\TransCollectionAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Actions\Cast\SafeArrayByModelCastAction;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, WithMapping
 {
@@ -43,6 +49,9 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
     public Collection $collection;
     public array $headings;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public null|string $transKey;
 
     /** @var array<int, string> */
@@ -55,6 +64,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
      */
     public function __construct(Collection $collection, null|string $transKey = null, array $fields = [])
     {
+<<<<<<< HEAD
 =======
     public ?string $transKey;
 
@@ -73,6 +83,8 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
     ) {
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         $this->collection = $collection;
         $this->transKey = $transKey;
         $this->fields = $fields;
@@ -82,6 +94,9 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
     {
         if (\is_array($this->fields) && !empty($this->fields)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             return $this->fields;
         }
 
@@ -89,6 +104,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         Assert::isInstanceOf($head, Model::class);
         $head = array_keys($head->getAttributes());
         return $head;
+<<<<<<< HEAD
 =======
             
             return $this->fields;
@@ -103,6 +119,8 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 
     public function headings(): array
@@ -110,10 +128,14 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         $headings = $this->getHead();
         $transKey = $this->transKey;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
         $headings = app(TransArrayAction::class)->execute($headings, $transKey);
 
         return $headings;
@@ -122,9 +144,12 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
     public function collection(): Collection
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         return $this->collection;
     }
 
@@ -135,11 +160,15 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
     {
         if (null === $this->fields || empty($this->fields)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             Assert::isInstanceOf($item, Model::class);
             $res = app(SafeArrayByModelCastAction::class)->execute($item);
             $res = Arr::map($res, function ($value, $_key) {
                 if ($value instanceof BackedEnum) {
                     if (method_exists($value, 'getLabel')) {
+<<<<<<< HEAD
 =======
             
             Assert::isInstanceOf($item,Model::class);
@@ -149,11 +178,16 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
                 if ($value instanceof BackedEnum) {
                     if(method_exists($value,'getLabel')){
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
                         return $value->getLabel();
                     }
                     return $value->value;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
                 return SafeStringCastAction::cast($value);
             });
@@ -164,6 +198,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         // return collect($item)->only($this->fields)->toArray();
         $data = [];
 
+<<<<<<< HEAD
 =======
             
                 return SafeStringCastAction::cast($value);
@@ -176,6 +211,8 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         $data = [];
        
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         foreach ($this->fields as $field) {
             $value = data_get($item, $field);
             if (\is_object($value)) {
@@ -187,10 +224,13 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         return $data;
     }
 }

@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 @extends('adm_theme::layouts.app')
 @section('content')
 PASSO 1
@@ -31,7 +37,11 @@ PASSO 1
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @endsection
 =======
 @endsection
 >>>>>>> f1d4085 (.)
+=======
+@endsection
+>>>>>>> 73eab74 (.)

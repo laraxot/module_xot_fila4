@@ -14,6 +14,9 @@ class GetModulePathByGeneratorAction
     public function execute(string $moduleName, string $generatorPath): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $relativePath = Config::string('modules.paths.generator.' . $generatorPath . '.path');
         try {
             $res = module_path($moduleName, $relativePath);
@@ -30,6 +33,7 @@ class GetModulePathByGeneratorAction
                 ']');
         }
         Assert::string($res, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 =======
         $relativePath = Config::string('modules.paths.generator.'.$generatorPath.'.path');
         try {
@@ -39,6 +43,8 @@ class GetModulePathByGeneratorAction
         }
         Assert::string($res);
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         return $res;
     }

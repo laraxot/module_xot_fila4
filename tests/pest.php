@@ -6,6 +6,9 @@ use Modules\Xot\Tests\TestCase;
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  * |--------------------------------------------------------------------------
  * | Test Case
  * |--------------------------------------------------------------------------
@@ -14,6 +17,7 @@ use Modules\Xot\Tests\TestCase;
  * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
  * |
  */
+<<<<<<< HEAD
 =======
 |--------------------------------------------------------------------------
 | Test Case
@@ -24,11 +28,16 @@ use Modules\Xot\Tests\TestCase;
 |
 */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  * |--------------------------------------------------------------------------
  * | Expectations
  * |--------------------------------------------------------------------------
@@ -38,6 +47,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 =======
 |--------------------------------------------------------------------------
 | Expectations
@@ -49,6 +59,8 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 |
 */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
@@ -56,6 +68,9 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -68,6 +83,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 =======
 |--------------------------------------------------------------------------
 | Functions
@@ -82,3 +98,5 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 //     // ...
 // } 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)

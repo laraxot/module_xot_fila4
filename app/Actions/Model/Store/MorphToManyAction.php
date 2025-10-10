@@ -22,10 +22,14 @@ class MorphToManyAction
         $data = $relationDTO->data;
         if (\in_array('to', array_keys($data), false) || \in_array('from', array_keys($data), false)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!isset($data['to'])) {
 =======
             if (! isset($data['to'])) {
 >>>>>>> f1d4085 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 73eab74 (.)
                 $data['to'] = [];
             }
 
@@ -35,16 +39,23 @@ class MorphToManyAction
         // dddx(['row' => $row, 'relation' => $relation, 't1' => Arr::isAssoc($data)]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!Arr::isAssoc($data)) {
 =======
         if (! Arr::isAssoc($data)) {
 >>>>>>> f1d4085 (.)
+=======
+        if (!Arr::isAssoc($data)) {
+>>>>>>> 73eab74 (.)
             $relationDTO->rows->sync($data);
 
             return;
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         dddx([
             'message' => 'wip',
             'row' => $model,
@@ -73,6 +84,7 @@ class MorphToManyAction
          * }
          * }
          */
+<<<<<<< HEAD
 =======
         dddx(
             [
@@ -104,5 +116,7 @@ class MorphToManyAction
         }
         */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 }

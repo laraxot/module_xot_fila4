@@ -15,6 +15,9 @@ class RelationAction
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * Undocumented function.
      */
     public function execute(Model $model, array $data): void
@@ -30,6 +33,7 @@ class RelationAction
          * ]);
          * }
          * // */
+<<<<<<< HEAD
 =======
      * Execute relation updates with type-safe data.
      *
@@ -56,16 +60,22 @@ class RelationAction
         }
         // */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
 =======
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
 >>>>>>> f1d4085 (.)
+=======
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+>>>>>>> 73eab74 (.)
             Assert::object($action = app($actionClass));
 
             if (method_exists($action, 'execute')) {

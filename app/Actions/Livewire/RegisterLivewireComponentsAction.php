@@ -15,11 +15,15 @@ class RegisterLivewireComponentsAction
     public function execute(string $path, string $namespace, string $prefix = ''): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\Http\Livewire', $prefix);
 =======
         $comps = app(GetComponentsAction::class)
             ->execute($path, $namespace.'\Http\Livewire', $prefix);
 >>>>>>> f1d4085 (.)
+=======
+        $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\Http\Livewire', $prefix);
+>>>>>>> 73eab74 (.)
 
         foreach ($comps as $comp) {
             Livewire::component($comp->name, $comp->ns);

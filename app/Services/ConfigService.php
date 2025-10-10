@@ -14,10 +14,14 @@ namespace Modules\Xot\Services;
 class ConfigService
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static null|self $instance = null;
 =======
     private static ?self $instance = null;
 >>>>>>> f1d4085 (.)
+=======
+    private static null|self $instance = null;
+>>>>>>> 73eab74 (.)
 
     public function __construct()
     {
@@ -31,10 +35,14 @@ class ConfigService
     public static function getInstance(): self
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!(self::$instance instanceof self)) {
 =======
         if (! self::$instance instanceof self) {
 >>>>>>> f1d4085 (.)
+=======
+        if (!(self::$instance instanceof self)) {
+>>>>>>> 73eab74 (.)
             self::$instance = new self();
         }
 

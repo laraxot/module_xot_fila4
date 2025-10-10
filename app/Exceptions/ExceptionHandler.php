@@ -10,13 +10,18 @@ namespace Modules\Xot\Exceptions;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Configuration\Exceptions;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Illuminate\Foundation\Configuration\Exceptions;
+>>>>>>> 73eab74 (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\View;
 use Modules\Xot\Actions\View\GetViewPathAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
@@ -27,6 +32,11 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class ExceptionHandler 
 >>>>>>> f1d4085 (.)
+=======
+use Symfony\Component\HttpKernel\Exception\HttpException;
+
+class ExceptionHandler
+>>>>>>> 73eab74 (.)
 {
     /**
      * Configura la gestione delle eccezioni.
@@ -37,6 +47,7 @@ class ExceptionHandler
     public static function handles(Exceptions $exceptions): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $exceptions->render(function (HttpException $e, Request $request) {
             $status_code = $e->getStatusCode();
 =======
@@ -44,12 +55,19 @@ class ExceptionHandler
         $exceptions->render(function (HttpException $e,Request $request) {
             $status_code=$e->getStatusCode();
 >>>>>>> f1d4085 (.)
+=======
+        $exceptions->render(function (HttpException $e, Request $request) {
+            $status_code = $e->getStatusCode();
+>>>>>>> 73eab74 (.)
             if ($request->wantsJson()) {
                 return response()->json([
                     'message' => $e->getMessage(),
                 ], $status_code);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
             $view = 'pub_theme::errors.' . $status_code;
             if (!view()->exists($view)) {
@@ -58,6 +76,7 @@ class ExceptionHandler
                 );
             }
             $view_params = ['exception' => $e];
+<<<<<<< HEAD
 =======
             
 
@@ -68,6 +87,8 @@ class ExceptionHandler
             }
             $view_params=['exception'=>$e];
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             return response()->view($view, $view_params, $status_code);
         });
     }

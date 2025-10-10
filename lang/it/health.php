@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 declare(strict_types=1);
 
 
@@ -160,6 +163,7 @@ return [
     ],
     'title' => 'health',
 ];
+<<<<<<< HEAD
 =======
 return array (
   'navigation' => 
@@ -347,3 +351,5 @@ return array (
   'title' => 'health',
 );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)

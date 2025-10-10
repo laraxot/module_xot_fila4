@@ -6,17 +6,23 @@ namespace Modules\Xot\Actions\Pdf;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
 =======
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 use Webmozart\Assert\Assert;
 
 class StreamDownloadPdfAction
@@ -29,6 +35,9 @@ class StreamDownloadPdfAction
      * Genera un PDF dall'HTML fornito.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * @param string $html Contenuto HTML da convertire
      * @param string $filename Nome del file PDF
      * @return StreamedResponse
@@ -49,6 +58,7 @@ class StreamDownloadPdfAction
             $html = view($view, $data)->render();
         }
         Assert::string($html, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 =======
      * @param  string|null  $html  Contenuto HTML da convertire
      * @param  string|null  $view  Nome della vista Blade
@@ -81,10 +91,13 @@ class StreamDownloadPdfAction
         }
         Assert::string($html);
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [10, 10, 10, 10]);
         $html2pdf->writeHTML($html);
 
         // Genera e scarica il PDF
+<<<<<<< HEAD
 <<<<<<< HEAD
         return response()->streamDownload(function () use ($html2pdf) {
             $html2pdf->output();
@@ -97,5 +110,10 @@ class StreamDownloadPdfAction
             'report-'.$filename
         );
 >>>>>>> f1d4085 (.)
+=======
+        return response()->streamDownload(function () use ($html2pdf) {
+            $html2pdf->output();
+        }, 'report-' . $filename);
+>>>>>>> 73eab74 (.)
     }
 }

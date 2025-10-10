@@ -21,10 +21,14 @@ class ModuleService
     public string $name;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static null|self $_instance = null;
 =======
     private static ?self $_instance = null;
 >>>>>>> f1d4085 (.)
+=======
+    private static null|self $_instance = null;
+>>>>>>> 73eab74 (.)
 
     /**
      * getInstance.
@@ -34,10 +38,14 @@ class ModuleService
     public static function getInstance(): self
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!(self::$_instance instanceof self)) {
 =======
         if (! self::$_instance instanceof self) {
 >>>>>>> f1d4085 (.)
+=======
+        if (!(self::$_instance instanceof self)) {
+>>>>>>> 73eab74 (.)
             self::$_instance = new self();
         }
 
@@ -71,6 +79,9 @@ class ModuleService
     {
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
          * if (null == $module) {
          * return [];
          * }
@@ -81,6 +92,7 @@ class ModuleService
         }
 
         $mod_path = $mod->getPath() . '/Models';
+<<<<<<< HEAD
 =======
         if (null == $module) {
             return [];
@@ -93,15 +105,21 @@ class ModuleService
 
         $mod_path = $mod->getPath().'/Models';
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         $mod_path = str_replace(['\\', '/'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $mod_path);
 
         $files = File::files($mod_path);
         $data = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
         $ns = 'Modules\\' . $mod->getName() . '\\Models'; // con la barra davanti non va il search ?
 =======
         $ns = 'Modules\\'.$mod->getName().'\\Models';  // con la barra davanti non va il search ?
 >>>>>>> f1d4085 (.)
+=======
+        $ns = 'Modules\\' . $mod->getName() . '\\Models'; // con la barra davanti non va il search ?
+>>>>>>> 73eab74 (.)
         foreach ($files as $file) {
             $filename = $file->getRelativePathname();
             $ext = '.php';
@@ -112,10 +130,14 @@ class ModuleService
                 $name = mb_substr($filename, 0, -mb_strlen($ext));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                 /**
                  * @var class-string
                  */
                 $class = $ns . '\\' . $name;
+<<<<<<< HEAD
 =======
                 
                 /**
@@ -123,6 +145,8 @@ class ModuleService
                  */
                 $class = $ns.'\\'.$name;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
                 //Strict comparison using === between stdClass and null will always evaluate to false.
 
                 //if ($tmp === null) {
@@ -135,10 +159,14 @@ class ModuleService
                 try {
                     $reflection_class = new ReflectionClass($tmp->class);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (!$reflection_class->isAbstract()) {
 =======
                     if (! $reflection_class->isAbstract()) {
 >>>>>>> f1d4085 (.)
+=======
+                    if (!$reflection_class->isAbstract()) {
+>>>>>>> 73eab74 (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

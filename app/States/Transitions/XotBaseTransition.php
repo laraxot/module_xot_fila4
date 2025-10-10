@@ -7,9 +7,13 @@ namespace Modules\Xot\States\Transitions;
 use TypeError;
 use Webmozart\Assert\InvalidArgumentException;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Notifications\Notification as FilamentNotification;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Filament\Notifications\Notification as FilamentNotification;
+>>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Str;
@@ -18,6 +22,9 @@ use Modules\Notify\Notifications\RecordNotification;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\ModelStates\Transition;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
 abstract class XotBaseTransition extends Transition
 {
@@ -25,6 +32,7 @@ abstract class XotBaseTransition extends Transition
         public Model $record,
         public null|string $message = '',
     ) {}
+<<<<<<< HEAD
 =======
 use Filament\Notifications\Notification as FilamentNotification;
 
@@ -34,6 +42,8 @@ abstract class XotBaseTransition extends Transition
     {
     }
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
     public function handle(): Model
     {
@@ -43,10 +53,14 @@ abstract class XotBaseTransition extends Transition
         $stateNamespace = Str::of($class)->beforeLast('\Transitions\\')->toString();
         $stateClassName = Str::of($class)->afterLast('To')->toString();
 <<<<<<< HEAD
+<<<<<<< HEAD
         $newStateClass = $stateNamespace . '\\' . $stateClassName;
 =======
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
 >>>>>>> f1d4085 (.)
+=======
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+>>>>>>> 73eab74 (.)
 
         /* @phpstan-ignore-next-line */
         $this->record->state = new $newStateClass($this->record);
@@ -61,12 +75,16 @@ abstract class XotBaseTransition extends Transition
         $recipients = $this->getNotificationRecipients();
         foreach ($recipients as $recipient) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $this->sendRecipientNotification($recipient, $data);
 =======
             
             $this->sendRecipientNotification($recipient,$data);
             
 >>>>>>> f1d4085 (.)
+=======
+            $this->sendRecipientNotification($recipient, $data);
+>>>>>>> 73eab74 (.)
         }
     }
 
@@ -97,26 +115,36 @@ abstract class XotBaseTransition extends Transition
     {
         $type = $recipient->type->value;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $slug =
             class_basename($this->record) .
             '-' .
             $type .
             '-' .
             Str::of(class_basename(static::class))->kebab()->toString();
+<<<<<<< HEAD
 =======
         $slug = class_basename($this->record).'-'.$type.'-'.Str::of(class_basename(static::class))->kebab()->toString();
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         $slug = Str::slug($slug);
 
         return $slug;
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function sendRecipientNotification(RecordNotificationData $recipient, array $data): void
     {
         $slug = $this->getNotificationSlug($recipient->record);
 
         $notify = new RecordNotification($this->record, $slug);
+<<<<<<< HEAD
 =======
     public function sendRecipientNotification(RecordNotificationData $recipient,array $data): void
     {
@@ -129,16 +157,22 @@ abstract class XotBaseTransition extends Transition
             $slug
         );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         //$data = $this->getNotificationData();
         $notify = $notify->mergeData($data);
         $notify = $notify->addAttachments($this->getNotificationAttachments());
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);
         } catch (TypeError|InvalidArgumentException $e) {
             $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+<<<<<<< HEAD
 =======
         
         try {
@@ -147,15 +181,20 @@ abstract class XotBaseTransition extends Transition
         } catch (TypeError|InvalidArgumentException $e) {
             $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             FilamentNotification::make()
                 ->title('Error')
                 ->danger()
                 ->body($message)
                 ->send();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         }
     }
 

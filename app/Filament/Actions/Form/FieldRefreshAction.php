@@ -9,11 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Form;
 
 use Filament\Actions\Action;
-<<<<<<< HEAD
 
-=======
-use Filament\Schemas\Components\Utilities\Set;
->>>>>>> 54cbe5d (.)
 use Filament\Notifications\Notification;
 use Filament\Resources\Pages\ListRecords;
 use Illuminate\Support\Str;
@@ -29,11 +25,7 @@ class FieldRefreshAction extends Action
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
-<<<<<<< HEAD
             ->action(function ($state, $set, $record) {
-=======
-            ->action(function ($state, Set $set, $record) {
->>>>>>> 54cbe5d (.)
                 $name = $this->getName();
                 if ($name === null) {
                     return;

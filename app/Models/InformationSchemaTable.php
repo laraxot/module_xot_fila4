@@ -4,6 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+>>>>>>> 2850177 (.)
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -11,6 +19,10 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Schema;
 use Modules\Tenant\Models\Traits\SushiToJson;
 use Sushi\Sushi;
+<<<<<<< HEAD
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 2850177 (.)
 
 /**
  * Represents a table in the INFORMATION_SCHEMA.TABLES.
@@ -24,6 +36,7 @@ use Sushi\Sushi;
  * @property string|null $ENGINE
  * @property int|null    $VERSION
  * @property string|null $ROW_FORMAT
+<<<<<<< HEAD
  * @property int|null    $table_rows
  * @property int|null    $AVG_ROW_LENGTH
  * @property int|null    $DATA_LENGTH
@@ -31,6 +44,15 @@ use Sushi\Sushi;
  * @property int|null    $INDEX_LENGTH
  * @property int|null    $DATA_FREE
  * @property int|null    $AUTO_INCREMENT
+=======
+ * @property int|null $table_rows
+ * @property int|null $AVG_ROW_LENGTH
+ * @property int|null $DATA_LENGTH
+ * @property int|null $MAX_DATA_LENGTH
+ * @property int|null $INDEX_LENGTH
+ * @property int|null $DATA_FREE
+ * @property int|null $AUTO_INCREMENT
+>>>>>>> 2850177 (.)
  * @property Carbon|null $CREATE_TIME
  * @property Carbon|null $UPDATE_TIME
  * @property Carbon|null $CHECK_TIME
@@ -65,7 +87,10 @@ use Sushi\Sushi;
  * @method static Builder<static>|InformationSchemaTable whereTABLETYPE($value)
  * @method static Builder<static>|InformationSchemaTable whereUPDATETIME($value)
  * @method static Builder<static>|InformationSchemaTable whereVERSION($value)
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 2850177 (.)
  * @property string|null $table_schema
  * @property string|null $table_name
  * @property string|null $updated_at
@@ -80,7 +105,10 @@ use Sushi\Sushi;
  * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 2850177 (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model
@@ -120,6 +148,7 @@ class InformationSchemaTable extends Model
         'created_by' => 'string',
     ];
 
+<<<<<<< HEAD
     /**
      * Alias compatibile per trait SushiToJson che attende getSchema().
      *
@@ -130,6 +159,8 @@ class InformationSchemaTable extends Model
         return $this->form;
     }
 
+=======
+>>>>>>> 2850177 (.)
     /**
      * Get the rows array for the Sushi model.
      * This method is required by Sushi to provide the data.
@@ -172,15 +203,24 @@ class InformationSchemaTable extends Model
      */
     public static function getModelCount(string $modelClass): int
     {
+<<<<<<< HEAD
         if (! class_exists($modelClass)) {
+=======
+        if (!class_exists($modelClass)) {
+>>>>>>> 2850177 (.)
             throw new InvalidArgumentException("Model class [{$modelClass}] does not exist");
         }
 
         /** @var Model $model */
         $model = app($modelClass);
 
+<<<<<<< HEAD
         if (! ($model instanceof Model)) {
             throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
+=======
+        if (!($model instanceof Model)) {
+            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
+>>>>>>> 2850177 (.)
         }
 
         $connection = $model->getConnection();

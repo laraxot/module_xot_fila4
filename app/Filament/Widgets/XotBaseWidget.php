@@ -22,15 +22,7 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Forms\Form;
-=======
 use Filament\Schemas\Schema;
->>>>>>> 518e053 (.)
-=======
-use Filament\Schemas\Schema;
->>>>>>> 6163c49 (.)
 
 /**
  * Classe base astratta per tutti i widget Filament.
@@ -106,21 +98,13 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     /**
      * Configura il form del widget.
      *
-     * @param  Schema  $form  Il form da configurare
+     * @param Schema $schema Il form da configurare
      * @return Schema Il form configurato
      */
-    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+    public function form(Schema $schema): Schema
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $form = $form->components($this->getFormSchema());
-=======
-        $form = $form->schema($this->getFormSchema());
->>>>>>> 518e053 (.)
-=======
-        $form = $form->schema($this->getFormSchema());
->>>>>>> 6163c49 (.)
-        $form->statePath('data');
+        $schema = $schema->components($this->getFormSchema());
+        $schema->statePath('data');
         $data = $this->getFormFill();
 
         $model = $this->getFormModel();
@@ -129,11 +113,11 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             if (is_string($model)) {
                 if (class_exists($model) && is_subclass_of($model, Model::class)) {
                     /** @var class-string<Model> $model */
-                    $form->model($model);
+                    $schema->model($model);
                 }
             } else {
                 // $model is an instance of Model
-                $form->model($model);
+                $schema->model($model);
             }
         }
         if (! empty($data)) {
@@ -141,7 +125,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             // $this->data=$data;
         }
 
-        return $form;
+        return $schema;
     }
 
     public function getFormFill(): array

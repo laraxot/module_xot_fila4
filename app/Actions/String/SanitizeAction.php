@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\String;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 class SanitizeAction
@@ -13,6 +14,8 @@ class SanitizeAction
 =======
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -22,9 +25,12 @@ class SanitizeAction
 {
     use QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
 
     public function execute(string $str): string
     {
@@ -33,17 +39,23 @@ class SanitizeAction
         $str = trim($str);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
         $str = preg_replace('/\s+/', ' ', $str);
         if (Str::startsWith($str, '-')) {
             $str = Str::after($str, '-');
             $str = $this->execute($str);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 41ce293 (.)
         }
 
         return $str;

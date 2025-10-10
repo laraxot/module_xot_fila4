@@ -13,9 +13,21 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Factory;
 
 use ReflectionMethod;
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
 
+=======
+use SplFileObject;
+use Exception;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\Relation;
+use Illuminate\Support\Str;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+
+use function Safe\preg_replace;
+>>>>>>> 0e51323 (.)
 
 /**
  * Classe per estrarre proprietà dai metodi di relazione di un modello.
@@ -24,13 +36,22 @@ use SplFileObject;
  */
 class GetPropertiesFromMethodsByModelAction
 {
+<<<<<<< HEAD
 use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
+=======
+    use QueueableAction;
+>>>>>>> 0e51323 (.)
 
     /**
      * Estrae le proprietà dai metodi di relazione del modello.
      *
+<<<<<<< HEAD
+=======
+     * @param Model $model Il modello da analizzare
+     *
+>>>>>>> 0e51323 (.)
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
@@ -93,6 +114,10 @@ use SplFileObject;
 
                 // Normalizziamo e analizziamo il codice
                 Assert::stringNotEmpty($code, 'Il codice del metodo non può essere vuoto');
+<<<<<<< HEAD
+=======
+                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+>>>>>>> 0e51323 (.)
 
                 // Estrazione del corpo della funzione
                 $begin = mb_strpos($codeStr, 'function(');
@@ -121,6 +146,15 @@ use SplFileObject;
     /**
      * Estrae le relazioni belongsTo dal codice.
      *
+<<<<<<< HEAD
+=======
+     * @param string $codeStr Il codice da analizzare
+     * @param Model $model Il modello
+     * @param string $method Il nome del metodo
+     * @param array<string, string> &$data L'array in cui salvare i dati estratti
+     *
+     * @return void
+>>>>>>> 0e51323 (.)
      */
     private function extractBelongsToRelations(string $codeStr, Model $model, string $method, array &$data): void
     {
@@ -136,10 +170,18 @@ use SplFileObject;
             $relationObj = $model->$method();
 
             // Verifichiamo che sia effettivamente una relazione
+<<<<<<< HEAD
+=======
+            if (!($relationObj instanceof Relation)) {
+>>>>>>> 0e51323 (.)
                 return;
             }
 
             // Verifichiamo che il metodo getForeignKeyName esista
+<<<<<<< HEAD
+=======
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+>>>>>>> 0e51323 (.)
                 throw new Exception('Il metodo getForeignKeyName non esiste nella relazione');
             }
 
@@ -155,6 +197,10 @@ use SplFileObject;
             $fakerAction = app(GetFakerAction::class);
             Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
 
+<<<<<<< HEAD
+=======
+            $type = 'factory(' . $relatedClass . '::class)';
+>>>>>>> 0e51323 (.)
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
         } catch (Exception $e) {
             // In caso di errore, ignoriamo la relazione

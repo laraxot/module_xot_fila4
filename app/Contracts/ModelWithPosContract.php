@@ -51,26 +51,6 @@ use Spatie\ModelStatus\Status;
  *
  * @mixin \Eloquent
  */
-<<<<<<< HEAD
 interface ModelWithPosContract
 {
 }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-interface ModelWithPosContract
-{
-}
-=======
-interface ModelWithPosContract {}
->>>>>>> a12f125f4a (.)
-=======
-interface ModelWithPosContract
-{
-}
->>>>>>> b93ef594b4 (.)
-=======
-interface ModelWithPosContract {}
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)

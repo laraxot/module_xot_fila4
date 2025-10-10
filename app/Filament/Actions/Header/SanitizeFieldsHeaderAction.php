@@ -25,20 +25,6 @@ class SanitizeFieldsHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-            
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             ->tooltip('sanitize')
             ->icon('heroicon-o-shield-exclamation')
             ->action(function (ListRecords $livewire) {
@@ -46,23 +32,7 @@ class SanitizeFieldsHeaderAction extends Action
                 $modelClass = $resource::getModel();
                 // @phpstan-ignore staticMethod.nonObject
                 $rows = $modelClass::get();
-<<<<<<< HEAD
                 if (!is_iterable($rows)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                if (!is_iterable($rows)) {
-=======
-                if (! is_iterable($rows)) {
->>>>>>> a12f125f4a (.)
-=======
-                if (!is_iterable($rows)) {
->>>>>>> b93ef594b4 (.)
-=======
-                if (! is_iterable($rows)) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                     $rows = [];
                 }
                 $c = 0;
@@ -70,33 +40,9 @@ class SanitizeFieldsHeaderAction extends Action
                     Assert::isInstanceOf($row, Model::class);
                     $save = false;
                     foreach ($this->fields as $field) {
-<<<<<<< HEAD
                         Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
                         $string = app(SanitizeAction::class)->execute($item);
                         if ($string !== $item) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-                        $string = app(SanitizeAction::class)->execute($item);
-                        if ($string !== $item) {
-=======
-                        Assert::string($item = $row->{$field});
-                        $string = app(SanitizeAction::class)->execute($item);
-                        if ($string != $item) {
->>>>>>> a12f125f4a (.)
-=======
-                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-                        $string = app(SanitizeAction::class)->execute($item);
-                        if ($string !== $item) {
->>>>>>> b93ef594b4 (.)
-=======
-                        Assert::string($item = $row->{$field});
-                        $string = app(SanitizeAction::class)->execute($item);
-                        if ($string != $item) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                             $row->{$field} = $string;
                             $save = true;
                             ++$c;
@@ -107,23 +53,7 @@ class SanitizeFieldsHeaderAction extends Action
                     }
                 }
                 Notification::make()
-<<<<<<< HEAD
                     ->title('' . $c . ' record sanitized')
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    ->title('' . $c . ' record sanitized')
-=======
-                    ->title(''.$c.' record sanitized')
->>>>>>> a12f125f4a (.)
-=======
-                    ->title('' . $c . ' record sanitized')
->>>>>>> b93ef594b4 (.)
-=======
-                    ->title(''.$c.' record sanitized')
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                     ->success()
                     ->send();
             });
@@ -136,23 +66,7 @@ class SanitizeFieldsHeaderAction extends Action
         return $this;
     }
 
-<<<<<<< HEAD
     public static function getDefaultName(): null|string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public static function getDefaultName(): null|string
-=======
-    public static function getDefaultName(): ?string
->>>>>>> a12f125f4a (.)
-=======
-    public static function getDefaultName(): null|string
->>>>>>> b93ef594b4 (.)
-=======
-    public static function getDefaultName(): ?string
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     {
         return 'sanitize-fields-header';
     }

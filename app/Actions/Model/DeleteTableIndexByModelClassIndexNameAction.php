@@ -20,21 +20,7 @@ class DeleteTableIndexByModelClassIndexNameAction
         $doctrineTable = $formManager->introspectTable($table);
         // $doctrineTable=$formManager->listTableDetails($table);
         $doctrineTable->dropIndex($indexName);
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         // ALTER TABLE `roles` DROP INDEX `roles_name_guard_name_unique`;
         // dddx(['res'=>$res,'doctrineTable'=>$doctrineTable,'indexName'=>$indexName]);
     }

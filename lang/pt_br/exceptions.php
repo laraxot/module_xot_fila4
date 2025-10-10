@@ -1,15 +1,30 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> c84488b (.)
 return [
     /*
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
+<<<<<<< HEAD
+=======
+     * |--------------------------------------------------------------------------
+>>>>>>> c84488b (.)
      * |
      * | The following language lines are used in Exceptions thrown throughout the system.
      * | Regardless where it is placed, a button can be listed here so it is easily
      * | found in a intuitive way.
+<<<<<<< HEAD
      */
+=======
+     * |
+     * |--------------------------------------------------------------------------
+     */
+
+>>>>>>> c84488b (.)
     'backend' => [
         'access' => [
             'roles' => [

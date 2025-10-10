@@ -16,12 +16,15 @@ abstract class XotBaseDashboard extends FilamentDashboard
 {
     use FilamentDashboard\Concerns\HasFiltersForm;
 
+<<<<<<< HEAD
     /**
      * Navigation icon compatible with Filament 4.
      * Supports BackedEnum, string, or null values.
      */
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
     
+=======
+>>>>>>> c84488b (.)
     protected static null|int $navigationSort = 1;
     protected bool $persistsFiltersInSession = true;
 

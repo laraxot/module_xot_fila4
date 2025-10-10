@@ -25,15 +25,7 @@ class GetModelClassByModelNameAction
         if (null === $modelClass) {
             return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
         Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-=======
-        Assert::string($modelClass);
->>>>>>> f1d4085 (.)
-=======
-        Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
->>>>>>> 73eab74 (.)
 
         return $modelClass;
     }

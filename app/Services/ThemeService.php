@@ -49,12 +49,4 @@ class ThemeService
     {
         return resource_path('themes/' . self::$currentTheme);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-} 
->>>>>>> f1d4085 (.)
-=======
-}
->>>>>>> 73eab74 (.)

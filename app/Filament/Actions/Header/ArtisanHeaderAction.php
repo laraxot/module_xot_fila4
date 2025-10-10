@@ -21,16 +21,7 @@ class ArtisanHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
-<<<<<<< HEAD
-<<<<<<< HEAD
             
-=======
-
-            // 
->>>>>>> f1d4085 (.)
-=======
-            
->>>>>>> 73eab74 (.)
             // ->tooltip(__('xot::actions.export_xls'))
 
             // ->icon('heroicon-o-cloud-arrow-down')
@@ -48,15 +39,7 @@ class ArtisanHeaderAction extends Action
             });
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public static function getDefaultName(): null|string
-=======
-    public static function getDefaultName(): ?string
->>>>>>> f1d4085 (.)
-=======
-    public static function getDefaultName(): null|string
->>>>>>> 73eab74 (.)
     {
         return 'artisan_action';
     }

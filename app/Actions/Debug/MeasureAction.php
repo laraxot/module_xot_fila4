@@ -11,15 +11,7 @@ use Webmozart\Assert\Assert;
 
 /**
  * Classe per misurare le performance di esecuzione di un blocco di codice.
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-=======
- * 
->>>>>>> f1d4085 (.)
-=======
- *
->>>>>>> 73eab74 (.)
  * @template T
  */
 class MeasureAction
@@ -35,15 +27,7 @@ class MeasureAction
     public function execute(Closure $closure, string $label = ''): mixed
     {
         Assert::isCallable($closure, 'Il parametro $closure deve essere una funzione chiamabile');
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
         $start = microtime(true);
         $memory_start = memory_get_usage();
 
@@ -59,35 +43,15 @@ class MeasureAction
 
         $metrics = [
             'label' => $label,
-<<<<<<< HEAD
-<<<<<<< HEAD
             'execution_time' => round($execution_time, 2) . ' ms',
             'memory_usage' => round($memory_usage, 2) . ' KB',
-=======
-            'execution_time' => round($execution_time, 2).' ms',
-            'memory_usage' => round($memory_usage, 2).' KB',
->>>>>>> f1d4085 (.)
-=======
-            'execution_time' => round($execution_time, 2) . ' ms',
-            'memory_usage' => round($memory_usage, 2) . ' KB',
->>>>>>> 73eab74 (.)
             // 'peak_memory' => round(memory_get_peak_usage() / 1024 / 1024, 2).' MB',
         ];
 
         // Mostriamo una notifica con le metriche
         Notification::make()
-<<<<<<< HEAD
-<<<<<<< HEAD
             ->title('Performance Metrics ' . ($label !== '' ? $label : 'Unnamed'))
             ->body($metrics['execution_time'] . '  ' . $metrics['memory_usage'])
-=======
-            ->title('Performance Metrics '.($label !== '' ? $label : 'Unnamed'))
-            ->body($metrics['execution_time'].'  '.$metrics['memory_usage'])
->>>>>>> f1d4085 (.)
-=======
-            ->title('Performance Metrics ' . ($label !== '' ? $label : 'Unnamed'))
-            ->body($metrics['execution_time'] . '  ' . $metrics['memory_usage'])
->>>>>>> 73eab74 (.)
             ->success()
             ->persistent()
             ->send();

@@ -57,17 +57,7 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 
             return;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
         Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
-=======
-        Route::middleware('web')
-            ->namespace($this->moduleNamespace)
-            ->group($this->module_dir.'/../../routes/web.php');
->>>>>>> f1d4085 (.)
-=======
-        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
->>>>>>> 73eab74 (.)
     }
 
     /**
@@ -76,27 +66,11 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
     protected function mapApiRoutes(): void
     {
         if ('' === $this->name) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             throw new Exception('name is empty on [' . static::class . ']');
-=======
-            throw new Exception('name is empty on ['.static::class.']');
->>>>>>> f1d4085 (.)
-=======
-            throw new Exception('name is empty on [' . static::class . ']');
->>>>>>> 73eab74 (.)
         }
         Route::prefix('api')
             ->middleware('api')
             ->namespace($this->moduleNamespace)
-<<<<<<< HEAD
-<<<<<<< HEAD
             ->group($this->module_dir . '/../../routes/api.php');
-=======
-            ->group($this->module_dir.'/../../routes/api.php');
->>>>>>> f1d4085 (.)
-=======
-            ->group($this->module_dir . '/../../routes/api.php');
->>>>>>> 73eab74 (.)
     }
 }

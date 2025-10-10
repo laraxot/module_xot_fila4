@@ -1,220 +1,357 @@
-# 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
+# Script di Risoluzione Conflitti Git - FixCity Project
 
-## SCRIPT CREATI
+## Panoramica
 
-### 1. **resolve_merge_conflicts_incoming.sh** (Completo)
-**Percorso**: `Modules/Xot/bashscripts/git/resolve_merge_conflicts_incoming.sh`
+Questo documento fornisce una guida sistematica per la risoluzione dei conflitti Git nel progetto FixCity, basata sull'esperienza acquisita durante la risoluzione di 161 file con conflitti.
 
-**Caratteristiche**:
-- ✅ Interfaccia completa con colori e banner
-- ✅ Modalità interattiva con conferma utente
-- ✅ Backup automatico di tutti i file modificati
-- ✅ Verifica finale della risoluzione
-- ✅ Opzioni: `--help`, `--dry-run`, `--auto`
-- ✅ Gestione errori robusta
+## Workflow Sistematico
 
-**Utilizzo**:
+### 1. Identificazione Conflitti
+
 ```bash
-# Modalità interattiva (raccomandato)
-./Modules/Xot/bashscripts/git/resolve_merge_conflicts_incoming.sh
+# Trova tutti i file con conflitti Git
+git status --porcelain | grep "^UU\|^AA\|^DD"
 
-# Solo mostra conflitti senza risolvere
-./Modules/Xot/bashscripts/git/resolve_merge_conflicts_incoming.sh --dry-run
+# Lista dettagliata dei conflitti
+git diff --name-only --diff-filter=U
 
-# Risolve automaticamente senza conferma
-./Modules/Xot/bashscripts/git/resolve_merge_conflicts_incoming.sh --auto
-
-# Mostra aiuto
-./Modules/Xot/bashscripts/git/resolve_merge_conflicts_incoming.sh --help
+# Conta i conflitti per categoria
+grep -r "<<< HEAD" --include="*.php" . | wc -l
+grep -r "<<< HEAD" --include="*.md" . | wc -l
+grep -r "<<< HEAD" --include="*.svg" . | wc -l
 ```
 
-### 2. **fix_conflicts_now.sh** (Veloce)
-**Percorso**: `Modules/Xot/bashscripts/git/fix_conflicts_now.sh`
+### 2. Categorizzazione per Priorità
 
-**Caratteristiche**:
-- ⚡ Esecuzione immediata senza domande
-- ✅ Backup automatico (`.backup`)
-- ✅ Output minimalista ma chiaro
-- ✅ Perfetto per uso rapido
+**Priorità 1 - File Critici**
+- `composer.json`
+- File di configurazione (`config/`)
+- File `.env`
+- Service Provider
 
-**Utilizzo**:
+**Priorità 2 - Logica Business**
+- Models
+- Services
+- Controllers
+- Migrations
+
+**Priorità 3 - Interfaccia**
+- Views Blade
+- Componenti Filament
+- Assets (CSS, JS)
+
+**Priorità 4 - Documentazione**
+- File `.md`
+- README
+- Changelog
+
+**Priorità 5 - Assets**
+- File SVG
+- Immagini
+- File statici
+
+### 3. Strategie di Risoluzione
+
+#### File PHP
+```php
+<?php
+
+declare(strict_types=1);
+
+// 1. Mantenere sempre declare(strict_types=1)
+// 2. Usare type hints espliciti
+// 3. Seguire PSR-12
+// 4. Aggiungere PHPDoc per metodi pubblici
+```
+
+#### File di Configurazione
+```php
+<?php
+
+declare(strict_types=1);
+
+return [
+    /*
+     * |--------------------------------------------------------------------------
+     * | Section Name
+     * |--------------------------------------------------------------------------
+     * |
+     * | Description
+     * |
+     */
+    'key' => 'value',
+];
+```
+
+#### File di Documentazione
+```markdown
+# Titolo Documento - FixCity Project
+
+## Sezione
+
+Contenuto aggiornato con riferimenti corretti al progetto.
+
+## Collegamenti
+- [Documento Correlato](./related-document.md)
+- [Architettura](../architecture.md)
+```
+
+#### File SVG
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+     fill="none" 
+     viewBox="0 0 24 24" 
+     stroke="currentColor"
+     stroke-width="1.5"
+     aria-hidden="true" 
+     role="img"
+     aria-label="Description">
+    <!-- Contenuto SVG -->
+</svg>
+```
+
+## Comandi Utili
+
+### Verifica Sintassi PHP
 ```bash
-# Risolve TUTTI i conflitti immediatamente
-./Modules/Xot/bashscripts/git/fix_conflicts_now.sh
+# Verifica singolo file
+php -l path/to/file.php
+
+# Verifica tutti i file PHP modificati
+find . -name "*.php" -exec php -l {} \;
 ```
 
-## COME FUNZIONANO
-
-### Logica di Risoluzione
-Gli script risolvono i conflitti Git prendendo sempre la **"incoming change"** (develop):
-
-```
-<<<<<<< HEAD
-codice locale (viene RIMOSSO)
-=======
-codice incoming (viene MANTENUTO)
->>>>>>> develop
-```
-
-### Algoritmo AWK
-```awk
-BEGIN { skip = 0 }
-/^<<<<<<< HEAD/ { skip = 1; next }    # Inizia a saltare
-/^=======/ { skip = 0; next }         # Smette di saltare
-/^>>>>>>> / { next }                  # Rimuove marker finale
-!skip { print }                       # Stampa solo se non sta saltando
-```
-
-## RISULTATI OTTENUTI
-
-### 📊 **Statistiche Esecuzione**
-- **File processati**: ~100+ file
-- **Conflitti risolti**: 100%
-- **Backup creati**: Tutti i file modificati
-- **Errori**: 0
-- **Tempo esecuzione**: ~2 secondi
-
-### ✅ **File Risolti Include**
-- **PHP**: Tutti i file `.php` e `.blade.php`
-- **JavaScript**: File `.js`
-- **CSS**: File `.css`
-- **Markdown**: File `.md`
-- **JSON**: File `.json` e configurazioni
-- **Config**: File di configurazione vari
-
-### 🎯 **Moduli Interessati**
-- `Modules/Xot/`
-- `Modules/Geo/`
-- `Modules/User/`
-- `Modules/TechPlanner/`
-- `Modules/Employee/`
-- File di configurazione root
-
-## SICUREZZA E BACKUP
-
-### 🛡️ **Backup Automatico**
-Ogni file modificato viene automaticamente salvato con estensione `.backup`:
-```
-file.php → file.php.backup
-```
-
-### 🔄 **Ripristino**
-Per ripristinare un file:
+### Verifica PHPStan
 ```bash
-# Ripristina singolo file
-mv file.php.backup file.php
+# Verifica singolo file
+./vendor/bin/phpstan analyse --level=10 path/to/file.php
 
-# Ripristina tutti i file
-find . -name "*.backup" -exec sh -c 'mv "$1" "${1%.backup}"' _ {} \;
+# Verifica modulo completo
+./vendor/bin/phpstan analyse --level=10 Modules/ModuleName/
 ```
 
-### 🧹 **Pulizia Backup**
+### Verifica Struttura
 ```bash
-# Rimuovi tutti i backup
-find . -name "*.backup" -delete
+# Controlla namespace
+grep -r "namespace" --include="*.php" Modules/ModuleName/
+
+# Controlla import
+grep -r "use " --include="*.php" Modules/ModuleName/
 ```
 
-## VERIFICA POST-RISOLUZIONE
+## Checklist di Risoluzione
 
-### ✅ **Controlli Eseguiti**
-1. **Nessun marker rimasto**: `grep -r "<<<<<<< HEAD" .`
-2. **Sintassi PHP valida**: `php -l file.php`
-3. **Git status pulito**: `git status`
+### Per Ogni File PHP
+- [ ] `declare(strict_types=1)` presente
+- [ ] Type hints espliciti
+- [ ] Return types dichiarati
+- [ ] PHPDoc per metodi pubblici
+- [ ] PSR-12 compliance
+- [ ] Namespace corretto
+- [ ] Import statements appropriati
+- [ ] Sintassi valida (`php -l`)
 
-### 🔍 **Comandi Utili**
+### Per Ogni File di Configurazione
+- [ ] Sintassi PHP valida
+- [ ] Struttura array corretta
+- [ ] Commenti PHPDoc appropriati
+- [ ] Chiavi e valori coerenti
+- [ ] Compatibilità Laravel 11
+
+### Per Ogni File di Documentazione
+- [ ] Riferimenti aggiornati a FixCity
+- [ ] Backlink bidirezionali
+- [ ] Coerenza terminologica
+- [ ] Struttura markdown valida
+- [ ] Collegamenti funzionanti
+
+### Per Ogni File SVG
+- [ ] Sintassi XML valida
+- [ ] Attributi accessibilità
+- [ ] Dimensioni appropriate
+- [ ] Stili CSS corretti
+- [ ] Compatibilità browser
+
+## Errori Comuni da Evitare
+
+### ❌ Automazione Cieca
 ```bash
-# Verifica conflitti rimanenti
-grep -r "<<<<<<< HEAD\|=======\|>>>>>>> " . --include="*.php"
-
-# Mostra differenze
-git diff
-
-# Mostra file modificati
-git status
-
-# Committa le modifiche
-git add . && git commit -m "Risolti conflitti merge con Super Mucca"
+# NON fare mai questo
+git checkout --theirs .
+git checkout --ours .
 ```
 
-## BEST PRACTICES
-
-### ✅ **Prima di Eseguire**
-1. **Backup completo**: `git stash` o commit locale
-2. **Verifica branch**: `git branch` (assicurati di essere nel branch giusto)
-3. **Pull recente**: `git pull origin develop`
-
-### ✅ **Dopo l'Esecuzione**
-1. **Testa l'applicazione**: Verifica che tutto funzioni
-2. **Controlla differenze**: `git diff` per vedere i cambiamenti
-3. **Committa rapidamente**: Non lasciare modifiche uncommitted
-
-### ⚠️ **Attenzioni**
-- **Sempre incoming**: Lo script prende SEMPRE la versione develop
-- **Backup disponibili**: I file originali sono salvati come `.backup`
-- **Test necessario**: Testa sempre dopo la risoluzione
-
-## ESEMPI D'USO
-
-### Scenario 1: Merge Normale
+### ❌ Risoluzione Parziale
 ```bash
-git merge develop
-# CONFLICT (content): Merge conflict in file.php
-./Modules/Xot/bashscripts/git/fix_conflicts_now.sh
-git add .
-git commit -m "Merged develop"
+# NON lasciare mai conflitti parziali
+# Risolvere sempre completamente ogni file
 ```
 
-### Scenario 2: Pull con Conflitti
+### ❌ Ignorare Sintassi
 ```bash
-git pull origin develop
-# CONFLICT (content): Merge conflict in file.php
-./Modules/Xot/bashscripts/git/resolve_merge_conflicts_incoming.sh --auto
-git add .
-git commit -m "Resolved conflicts from pull"
+# SEMPRE verificare la sintassi
+php -l file.php
 ```
 
-### Scenario 3: Rebase con Conflitti
+### ❌ Saltare Documentazione
 ```bash
-git rebase develop
-# CONFLICT (content): Merge conflict in file.php
-./Modules/Xot/bashscripts/git/fix_conflicts_now.sh
-git add .
-git rebase --continue
+# SEMPRE aggiornare la documentazione correlata
 ```
 
-## TROUBLESHOOTING
+## Best Practices Specifiche
 
-### ❌ **Problema**: Script non eseguibile
+### Conflitti di Import
+```php
+// PRIMA (conflitto)
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\artisan;
+use function Pest\Laravel\assertDatabaseHas;
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\{artisan, assertDatabaseHas};
+
+// DOPO (risolto)
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\artisan;
+use function Pest\Laravel\assertDatabaseHas;
+```
+
+### Conflitti di Configurazione
+```php
+// PRIMA (conflitto)
+'languages' => [
+    'it' => [
+        'regional' => 'it_IT',
+    ],
+    'en' => [
+        'regional' => 'en_GB'
+    ]
+],
+
+// DOPO (risolto)
+'languages' => [
+    'it' => [
+        'regional' => 'it_IT',
+    ],
+    'en' => [
+        'regional' => 'en_GB',
+    ],
+],
+```
+
+### Conflitti di Documentazione
+```markdown
+<!-- PRIMA (conflitto) -->
+# Widget Translation Rules - SaluteOra Project
+# Widget Translation Rules - FixCity Project
+
+<!-- DOPO (risolto) -->
+# Widget Translation Rules - FixCity Project
+```
+
+## Verifica Finale
+
+### Checklist Completa
+- [ ] Tutti i conflitti risolti
+- [ ] Sintassi PHP valida
+- [ ] Documentazione aggiornata
+- [ ] Backlink creati
+- [ ] Test funzionali eseguiti
+- [ ] Commit con messaggio descrittivo
+
+### Comandi di Verifica
 ```bash
-chmod +x ./Modules/Xot/bashscripts/git/*.sh
+# Verifica finale
+git status --porcelain | grep "^UU\|^AA\|^DD"
+# Dovrebbe essere vuoto
+
+# Conta conflitti rimanenti
+grep -r "<<< HEAD" . | wc -l
+# Dovrebbe essere 0
 ```
 
-### ❌ **Problema**: Conflitti non risolti
-```bash
-# Verifica manualmente
-grep -r "<<<<<<< HEAD" .
-# Esegui di nuovo lo script
-./Modules/Xot/bashscripts/git/fix_conflicts_now.sh
+## Esempi di Risoluzione
+
+### Caso 1: File PHP con Import Duplicati
+```php
+// Conflitto
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\artisan;
+use function Pest\Laravel\assertDatabaseHas;
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\{artisan, assertDatabaseHas};
+
+// Risoluzione
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\artisan;
+use function Pest\Laravel\assertDatabaseHas;
 ```
 
-### ❌ **Problema**: File corrotto
-```bash
-# Ripristina dal backup
-mv file.php.backup file.php
+### Caso 2: File di Configurazione con Commenti
+```php
+// Conflitto
+'languages' => [
+    'it' => [
+        'regional' => 'it_IT',
+    ],
+],
+ * | Language Detection
+ * | This is the configuration
+'detect' => [
+
+// Risoluzione
+'languages' => [
+    'it' => [
+        'regional' => 'it_IT',
+    ],
+],
+/*
+ * |--------------------------------------------------------------------------
+ * | Language Detection
+ * |--------------------------------------------------------------------------
+ * |
+ * | This is the configuration
+ * |
+ */
+'detect' => [
 ```
 
----
+### Caso 3: File SVG con Versioni Diverse
+```xml
+<!-- Conflitto -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+</svg>
 
-## 🎉 SUCCESSO!
+<!-- Risoluzione (versione più completa) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+     fill="none" 
+     viewBox="0 0 24 24" 
+     stroke="currentColor"
+     stroke-width="1.5"
+     aria-hidden="true" 
+     role="img"
+     aria-label="Description">
+    <!-- Contenuto completo con animazioni -->
+</svg>
+```
 
-**Tutti i conflitti sono stati risolti con successo!**
+## Conclusioni
 
-La **SUPER MUCCA** 🐄 ha processato tutti i file e risolto ogni conflitto prendendo sempre la versione `develop` (incoming change).
+La risoluzione sistematica dei conflitti Git richiede:
 
-**Prossimi passi**:
-1. ✅ Testa l'applicazione
-2. ✅ Verifica con `git diff`
-3. ✅ Committa con `git add . && git commit -m "Risolti conflitti merge"`
+1. **Analisi manuale** di ogni conflitto
+2. **Categorizzazione** per priorità
+3. **Strategia appropriata** per ogni tipo di file
+4. **Verifica completa** della sintassi e struttura
+5. **Aggiornamento documentazione** correlata
 
-*Script creati il: 2025-09-18*  
-*Poteri della Super Mucca: ATTIVATI* 🐄✨
+Seguendo questo workflow, è possibile risolvere anche grandi quantità di conflitti mantenendo la qualità del codice e la coerenza del progetto.
+
+## Collegamenti Correlati
+
+- [Report Risoluzione Conflitti](./conflict_resolution_report.md)
+- [Regole Laraxot](../laraxot-rules.md)
+- [Best Practices PHP](../php-best-practices.md)
+- [Architettura Modulare](../modular-architecture.md)

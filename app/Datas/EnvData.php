@@ -25,25 +25,11 @@ class EnvData extends Data implements Wireable
 
     public string $telegram_bot_token = '';
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     private static null|self $instance = null;
 
     public static function make(): self
     {
         if (!self::$instance) {
-<<<<<<< HEAD
-=======
-    private static ?self $instance = null;
-
-    public static function make(): self
-    {
-        if (! self::$instance) {
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
             $data = [];
 
             foreach ($_ENV as $k => $v) {
@@ -81,10 +67,6 @@ class EnvData extends Data implements Wireable
     {
         $key = str($key)->upper()->toString();
         $replace = $this->getLine($key, $value);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         $pos_start = mb_strpos($env_content, $key . '=');
         if (false === $pos_start) {
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -93,19 +75,6 @@ class EnvData extends Data implements Wireable
         $pos_end = mb_strpos($env_content, "\n", $pos_start);
         if (false === $pos_end) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
-<<<<<<< HEAD
-=======
-        $pos_start = mb_strpos($env_content, $key.'=');
-        if (false === $pos_start) {
-            // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
-            return $env_content."\n".$replace;
-        }
-        $pos_end = mb_strpos($env_content, "\n", $pos_start);
-        if (false === $pos_end) {
-            throw new Exception('['.__LINE__.']['.class_basename($this).']');
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         }
 
         $length = $pos_end - $pos_start;
@@ -118,28 +87,12 @@ class EnvData extends Data implements Wireable
 
     public function getLine(string $key, int|bool|string $value): string
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         $replace = $key . '=';
-=======
-        $replace = $key.'=';
->>>>>>> f1d4085 (.)
-=======
-        $replace = $key . '=';
->>>>>>> 73eab74 (.)
         if (is_bool($value)) {
             $replace .= $value ? 'true' : 'false';
         }
         if (is_string($value)) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             $replace .= '"' . $value . '"';
-=======
-            $replace .= '"'.$value.'"';
->>>>>>> f1d4085 (.)
-=======
-            $replace .= '"' . $value . '"';
->>>>>>> 73eab74 (.)
         }
         if (is_int($value)) {
             $replace .= $value;

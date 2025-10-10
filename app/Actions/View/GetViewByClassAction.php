@@ -7,18 +7,8 @@ namespace Modules\Xot\Actions\View;
 use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 use Spatie\QueueableAction\QueueableAction;
-=======
-use Spatie\QueueableAction\QueueableAction;
-use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
->>>>>>> f1d4085 (.)
-=======
-use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
-use Spatie\QueueableAction\QueueableAction;
->>>>>>> 73eab74 (.)
 
 /**
  * Classe per la conversione di nomi di classi in nomi di viste.
@@ -42,15 +32,7 @@ class GetViewByClassAction
         $module = Str::of($class)->betweenFirst('Modules\\', '\\')->toString();
         $module_low = Str::of($module)->lower()->toString();
         $after = Str::of($class)
-<<<<<<< HEAD
-<<<<<<< HEAD
             ->after('Modules\\' . $module . '\\')
-=======
-            ->after('Modules\\'.$module.'\\')
->>>>>>> f1d4085 (.)
-=======
-            ->after('Modules\\' . $module . '\\')
->>>>>>> 73eab74 (.)
             ->explode('\\')
             ->toArray();
 
@@ -81,23 +63,10 @@ class GetViewByClassAction
         });
 
         $implode = implode('.', $mapped);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         $view = $module_low . '::' . $implode . $suffix;
 
         if (!view()->exists($view)) {
             throw new Exception('View not found: ' . $view);
-<<<<<<< HEAD
-=======
-        $view = $module_low.'::'.$implode.$suffix;
-
-        if (!view()->exists($view)) {
-            throw new Exception('View not found: '.$view);
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         }
 
         return $view;

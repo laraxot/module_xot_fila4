@@ -7,15 +7,9 @@ namespace Modules\Xot\Filament\Pages;
 
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
-<<<<<<< HEAD
 use Filament\Schemas\Components\DatePicker;
 use Filament\Forms\Components\Select;
 use Filament\Schemas\Get;
-=======
-use Filament\Forms\Components\DatePicker;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Get;
->>>>>>> 2850177 (.)
 use Filament\Pages\Dashboard as FilamentDashboard;
 
 abstract class XotBaseDashboard extends FilamentDashboard

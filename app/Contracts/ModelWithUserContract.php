@@ -45,6 +45,10 @@ use Illuminate\Support\Carbon;
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 interface ModelWithUserContract
 {
 }
+=======
+interface ModelWithUserContract {}
+>>>>>>> f1d4085 (.)

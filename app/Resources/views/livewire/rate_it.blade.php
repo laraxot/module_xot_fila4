@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> f1d4085 (.)
 <div>
     @component('ui::components.modal.simple', ['guid' => $modal_guid, 'title' => $modal_title])
         @slot('content')

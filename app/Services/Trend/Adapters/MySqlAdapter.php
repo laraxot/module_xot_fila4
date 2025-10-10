@@ -4,12 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Services\Trend\Adapters;
 
+<<<<<<< HEAD
 use Override;
+=======
+>>>>>>> f1d4085 (.)
 use Error;
 
 class MySqlAdapter extends AbstractAdapter
 {
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> f1d4085 (.)
     public function format(string $column, string $interval): string
     {
         $format = match ($interval) {

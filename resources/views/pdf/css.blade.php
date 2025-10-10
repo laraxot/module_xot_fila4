@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> f1d4085 (.)
 {{-- CSS Base per PDF - Componente riutilizzabile --}}
 {{-- 
     Motivazione DRY: Evita duplicazione di stili CSS tra diversi template PDF

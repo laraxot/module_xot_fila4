@@ -1,13 +1,21 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
+=======
+>>>>>>> f1d4085 (.)
 return [
     'backend' => [
         'takeaway' => [
             'newsletterSubscribe' => [
+<<<<<<< HEAD
                 'messages' => [],
+=======
+                'messages' => [
+                ],
+>>>>>>> f1d4085 (.)
             ],
             'category' => [
                 'create_error' => 'Create Error',

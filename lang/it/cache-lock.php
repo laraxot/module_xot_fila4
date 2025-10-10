@@ -1,8 +1,11 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
+=======
+>>>>>>> f1d4085 (.)
 return [
     'navigation' => [
         'name' => 'Cache Lock',
@@ -76,4 +79,8 @@ return [
             'lock_extended' => 'Durata del lock estesa',
         ],
     ],
+<<<<<<< HEAD
 ];
+=======
+]; 
+>>>>>>> f1d4085 (.)

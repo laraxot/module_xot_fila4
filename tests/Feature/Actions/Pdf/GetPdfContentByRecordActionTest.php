@@ -29,7 +29,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $user = User::factory()->create([
+        $user = User/** @phpstan-ignore-line */ ::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
@@ -52,7 +52,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $user = User::factory()->create();
+        $user = User/** @phpstan-ignore-line */ ::factory()->create();
 
         // Use reflection to test protected method
         /** @phpstan-ignore-next-line property.notFound */
@@ -76,7 +76,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $user = User::factory()->create(['id' => 123, 'name' => 'Test User']);
+        $user = User/** @phpstan-ignore-line */ ::factory()->create(['id' => 123, 'name' => 'Test User']);
 
         // Use reflection to test protected method
         /** @phpstan-ignore-next-line property.notFound */
@@ -141,7 +141,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $user = User::factory()->create(['name' => 'Test User']);
+        $user = User/** @phpstan-ignore-line */ ::factory()->create(['name' => 'Test User']);
 
         // Use reflection to test protected method
         /** @phpstan-ignore-next-line property.notFound */
@@ -177,7 +177,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $user = User::factory()->create();
+        $user = User/** @phpstan-ignore-line */ ::factory()->create();
 
         // Act & Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -203,7 +203,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $user = User::factory()->create();
+        $user = User/** @phpstan-ignore-line */ ::factory()->create();
         $customFilename = 'custom-report.pdf';
 
         // Act & Assert - Should use custom filename in error message
@@ -219,7 +219,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $user = User::factory()->create();
+        $user = User/** @phpstan-ignore-line */ ::factory()->create();
         $filename = 'convenience-test.pdf';
 
         // Act & Assert

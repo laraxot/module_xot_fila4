@@ -105,7 +105,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     }
 
     /**
-     * @return array<string, mixed>
+     * @return array<mixed>
      */
     public function headings(): array
     {

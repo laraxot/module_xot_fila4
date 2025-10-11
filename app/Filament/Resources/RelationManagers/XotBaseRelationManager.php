@@ -72,11 +72,11 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     }
 
     /**
-     * @return array<string, mixed>
+     * @return list<\Illuminate\Contracts\Support\Htmlable|string>
      */
     public function getFormSchema(): array
     {
-        return $this->getResource()::getFormSchema();
+        return array_values($this->getResource()::getFormSchema());
     }
 
     // *

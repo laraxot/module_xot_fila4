@@ -7,16 +7,22 @@ use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
 
 use function Safe\file_put_contents;
+use function Safe\json_encode;
 
 uses(TestCase::class);
 
+/**
+ * @property string $testSchemaPath
+ * @property string $testOutputDir
+ */
 beforeEach(function (): void {
     $this->testSchemaPath = storage_path('tests/schema.json');
     $this->testOutputDir = storage_path('tests/docs');
 
     // Create test directory if it doesn't exist
-    if (! File::exists(dirname($this->testSchemaPath))) {
-        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+    $schemaDir = dirname($this->testSchemaPath);
+    if (! File::exists($schemaDir)) {
+        File::makeDirectory($schemaDir, 0o755, true);
     }
 
     // Create a test schema file
@@ -64,10 +70,10 @@ beforeEach(function (): void {
 
 afterEach(function (): void {
     // Clean up test files
-    if (File::exists($this->testSchemaPath)) {
+    if (isset($this->testSchemaPath) && is_string($this->testSchemaPath) && File::exists($this->testSchemaPath)) {
         File::delete($this->testSchemaPath);
     }
-    if (File::exists($this->testOutputDir)) {
+    if (isset($this->testOutputDir) && is_string($this->testOutputDir) && File::exists($this->testOutputDir)) {
         File::deleteDirectory($this->testOutputDir);
     }
 });
@@ -132,3 +138,4 @@ test('it handles missing output directory', function (): void {
     // Assert command was successful and created the output directory
     expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
 });
+

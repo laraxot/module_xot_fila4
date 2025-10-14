@@ -3,20 +3,16 @@
 declare(strict_types=1);
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Mockery;
 use Modules\Notify\Datas\RecordNotificationData;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\States\Transitions\XotBaseTransition;
 use Modules\Xot\Tests\Unit\Support\TestModelForTransition;
 use Modules\Xot\Tests\Unit\Support\TestTransitionForTest;
 
-uses(RefreshDatabase::class);
-
 describe('XotBaseTransition', function (): void {
     beforeEach(function (): void {
         // Create a test record using concrete class
-        $this->record = new TestModelForTransition();
+        $this->record = new TestModelForTransition;
 
         // Create a concrete test transition class
         $this->transition = new TestTransitionForTest($this->record);
@@ -89,7 +85,7 @@ describe('XotBaseTransition', function (): void {
 
     it('processes recipients correctly in sendNotifications', function (): void {
         // Create a test model
-        $mockModel = new TestModelForTransition();
+        $mockModel = new TestModelForTransition;
 
         // Create transition with concrete model
         $transition = new TestTransitionForTest($mockModel);
@@ -117,7 +113,11 @@ describe('XotBaseTransition', function (): void {
         // Check sendNotifications method
         /** @phpstan-ignore-next-line method.nonObject */
         $sendMethod = $reflection->getMethod('sendNotifications');
-        expect($sendMethod->isPublic())->toBeTrue()->and($sendMethod->getReturnType()?->getName())->toBe('void');
+        $returnType = $sendMethod->getReturnType();
+        expect($sendMethod->isPublic())->toBeTrue();
+        if ($returnType instanceof \ReflectionNamedType) {
+            expect($returnType->getName())->toBe('void');
+        }
 
         // Check getRecord method
         /** @phpstan-ignore-next-line method.nonObject */

@@ -38,10 +38,17 @@ test('command registry finds correct handler for cache commands', function (): v
     expect($handler)->toBeInstanceOf(CacheCommandHandler::class);
 });
 
+/**
+ * @param string $command
+ */
 test('command registry supports multiple cache commands', function (string $command): void {
     $registry = new CommandRegistry;
 
     $handler = $registry->findHandler($command);
 
     expect($handler)->toBeInstanceOf(CacheCommandHandler::class);
-})->with(['clear', 'clearcache', 'configcache']);
+})->with([
+    ['clear'],
+    ['clearcache'],
+    ['configcache'],
+]);

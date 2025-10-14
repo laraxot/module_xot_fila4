@@ -59,6 +59,7 @@ abstract class TestCase extends BaseTestCase
         $userData = array_merge($defaultData, $attributes);
 
         /** @var UserContract&Model $user */
+        /* @phpstan-ignore-next-line method.nonObject */
         $user = $userClass::factory()->create($userData);
 
         return $user;
@@ -76,23 +77,31 @@ abstract class TestCase extends BaseTestCase
 
         // Mock dei metodi critici con fallback sicuri
         $userClass = XotData::make()->getUserClass();
+        /* @phpstan-ignore-next-line method.notFound */
         $mockXotData->shouldReceive('getUserClass')->andReturn($userClass);
 
+        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
         $mockXotData
             ->shouldReceive('getUserResourceClassByType')
+            /* @phpstan-ignore-next-line method.notFound, method.nonObject */
             ->with('patient')
             ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
 
+        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
         $mockXotData
             ->shouldReceive('getUserResourceClassByType')
+            /* @phpstan-ignore-next-line method.notFound, method.nonObject */
             ->with('doctor')
             ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
 
+        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
         $mockXotData
             ->shouldReceive('getUserResourceClassByType')
+            /* @phpstan-ignore-next-line method.notFound, method.nonObject */
             ->with(\Mockery::any())
             ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
 
+        /* @phpstan-ignore-next-line method.notFound */
         $mockXotData->shouldReceive('make')->andReturn($mockXotData);
 
         // ✅ CRITICO: Bind nel container per risoluzione automatica

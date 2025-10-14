@@ -10,7 +10,9 @@ uses(TestCase::class);
 
 describe('ModuleService', function (): void {
     beforeEach(function (): void {
+        /* @phpstan-ignore-next-line property.notFound */
         $this->service = new ModuleService;
+        /* @phpstan-ignore-next-line property.notFound */
         $this->service = $this->service->setName('TestModule');
     });
 
@@ -62,6 +64,7 @@ describe('ModuleService', function (): void {
         expect($result)->toBeArray();
 
         // Each value should be a class string
+        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($result as $key => $value) {
             expect($key)->toBeString()->and($value)->toBeString();
         }

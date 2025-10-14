@@ -16,10 +16,30 @@ use function Safe\json_encode;
 /**
  * @property int $id
  * @property string|null $name
+ * @property string|null $slug
+ * @property string|null $version
  * @property string|null $description
  * @property bool|null $status
+ * @property bool $enabled
  * @property int|null $priority
  * @property string|null $path
+ * @property string|null $icon
+ * @property array<string, string>|null $colors
+ * @property array<int, string>|null $dependencies
+ * @property array<string, mixed>|null $config
+ * @property array<string, mixed>|null $metadata
+ * @property \Illuminate\Support\Carbon|null $installed_at
+ * @property array<int, array<string, mixed>>|null $update_history
+ * @property string|null $laravel_version
+ * @property string|null $php_version
+ * @property array<int, string>|null $permissions
+ * @property array<string, mixed>|null $routes
+ * @property array<string, mixed>|null $assets
+ * @property array<string, mixed>|null $settings
+ * @property \Illuminate\Support\Carbon|null $activation_date
+ * @property \Illuminate\Support\Carbon|null $deactivation_date
+ * @property array<string, mixed>|null $usage_statistics
+ * @property array<int, array<string, mixed>>|null $error_log
  *
  * @method static Builder|Module newModelQuery()
  * @method static Builder|Module newQuery()
@@ -30,12 +50,10 @@ use function Safe\json_encode;
  * @method static Builder|Module wherePath($value)
  * @method static Builder|Module wherePriority($value)
  * @method static Builder|Module whereStatus($value)
- *
- * @property string|null $icon
- * @property array<string, string>|null $colors
- *
  * @method static Builder|Module whereColors($value)
  * @method static Builder|Module whereIcon($value)
+ * @method bool isEnabled()
+ * @method bool isDisabled()
  *
  * @mixin \Eloquent
  */

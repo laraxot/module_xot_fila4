@@ -76,14 +76,12 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
      */
     public function getFormSchema(): array
     {
-        return array_values($this->getResource()::getFormSchema());
+        $schema = $this->getResource()::getFormSchema();
+        return is_array($schema) ? array_values($schema) : [];
     }
 
     // *
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableColumns(): array
     {
         /** @var \Filament\Resources\Pages\PageRegistration $index */

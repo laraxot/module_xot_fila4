@@ -194,12 +194,8 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             $fieldsWithNull = array_merge($fieldsWithNull, $defaults);
         }
 
-<<<<<<< HEAD
-        return $fieldsWithNull;
-=======
         /** @var array<string, mixed> */
-        return $fields;
->>>>>>> c07dd86 (.)
+        return $fieldsWithNull;
     }
 
     /**
@@ -210,7 +206,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     protected function getFormActions(): array
     {
         return [
-            'save' => Action::make('save')
+            Action::make('save')
                 ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
                 ->submit('save'),
         ];

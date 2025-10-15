@@ -24,7 +24,15 @@ use Modules\Xot\Database\Factories\FeedFactory;
  *
  * @mixin \Eloquent
  */
-/** */
+/**
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Xot\Database\Factories\FeedFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Feed newModelQuery()
+ * @method static Builder<static>|Feed newQuery()
+ * @method static Builder<static>|Feed query()
+ * @mixin \Eloquent
+ */
 class Feed extends BaseModel
 {
     /** @var list<string> */

@@ -24,7 +24,6 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
  * @property string $batch
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
- *
  * @method static Builder|HealthCheckResultHistoryItem newModelQuery()
  * @method static Builder|HealthCheckResultHistoryItem newQuery()
  * @method static Builder|HealthCheckResultHistoryItem query()
@@ -39,13 +38,10 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
  * @method static Builder|HealthCheckResultHistoryItem whereShortSummary($value)
  * @method static Builder|HealthCheckResultHistoryItem whereStatus($value)
  * @method static Builder|HealthCheckResultHistoryItem whereUpdatedAt($value)
- *
  * @property string|null $updated_by
  * @property string|null $created_by
- *
  * @method static Builder|HealthCheckResultHistoryItem whereCreatedBy($value)
  * @method static Builder|HealthCheckResultHistoryItem whereUpdatedBy($value)
- *
  * @mixin \Eloquent
  */
 class HealthCheckResultHistoryItem extends BaseHealthCheckResultHistoryItem

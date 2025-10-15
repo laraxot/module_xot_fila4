@@ -12,12 +12,8 @@ use Modules\Xot\Tests\Unit\Support\TestTransitionForTest;
 describe('XotBaseTransition', function (): void {
     beforeEach(function (): void {
         // Create a test record using concrete class
-<<<<<<< HEAD
-        $this->record = new TestModelForTransition;
-=======
         /* @phpstan-ignore-next-line property.notFound, new.internalClass */
         $this->record = new TestModelForTransition();
->>>>>>> c07dd86 (.)
 
         // Create a concrete test transition class
         /* @phpstan-ignore-next-line property.notFound, new.internalClass */
@@ -25,17 +21,17 @@ describe('XotBaseTransition', function (): void {
     });
 
     it('can be instantiated', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
         expect($this->transition)->toBeInstanceOf(XotBaseTransition::class);
     });
 
     it('has static name property', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
         expect($this->transition::$name)->toBe('test_transition');
     });
 
     it('has record property', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
         expect(property_exists($this->transition, 'record'))->toBeTrue();
     });
 
@@ -43,23 +39,23 @@ describe('XotBaseTransition', function (): void {
         /** @phpstan-ignore-next-line property.notFound */
         $record = $this->transition->getRecord();
 
-        /** @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
         expect($record)->toBe($this->record);
     });
 
     it('has sendNotifications method', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
         expect(method_exists($this->transition, 'sendNotifications'))->toBeTrue();
     });
 
     it('can send notifications without errors', function (): void {
         // This should not throw an exception
-        /** @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
         expect($this->transition->sendNotifications(...))->not->toThrow(Exception::class);
     });
 
     it('has getNotificationRecipients method', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
         expect(method_exists($this->transition, 'getNotificationRecipients'))->toBeTrue();
     });
 
@@ -71,13 +67,13 @@ describe('XotBaseTransition', function (): void {
             ->toBeArray()
             ->and($recipients)
             ->toHaveKey('test_user')
-            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+            /* @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             ->and($recipients['test_user'])
             ->toBeInstanceOf(RecordNotificationData::class);
     });
 
     it('has sendRecipientNotification method', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
         expect(method_exists($this->transition, 'sendRecipientNotification'))->toBeTrue();
     });
 
@@ -85,21 +81,16 @@ describe('XotBaseTransition', function (): void {
         /** @phpstan-ignore-next-line property.notFound */
         $recipientData = RecordNotificationData::from(['record' => $this->record, 'channel' => 'mail']);
         // This should not throw an exception
-        /** @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
         expect(fn () => $this->transition->sendRecipientNotification($recipientData, []))->not->toThrow(Exception::class);
     });
 
     it('processes recipients correctly in sendNotifications', function (): void {
         // Create a test model
-<<<<<<< HEAD
-        $mockModel = new TestModelForTransition;
-=======
         /* @phpstan-ignore-next-line new.internalClass */
         $mockModel = new TestModelForTransition();
->>>>>>> c07dd86 (.)
 
         // Create transition with concrete model
-        /* @phpstan-ignore-next-line new.internalClass */
         $transition = new TestTransitionForTest($mockModel);
 
         // This should process without errors
@@ -111,10 +102,10 @@ describe('XotBaseTransition', function (): void {
 
         expect($reflection->isAbstract())
             ->toBeTrue()
-            /** @phpstan-ignore-next-line method.nonObject */
+            /* @phpstan-ignore-next-line method.nonObject */
             ->and($reflection->hasMethod('sendNotifications'))
             ->toBeTrue()
-            /** @phpstan-ignore-next-line method.nonObject */
+            /* @phpstan-ignore-next-line method.nonObject */
             ->and($reflection->hasMethod('getRecord'))
             ->toBeTrue();
     });
@@ -125,16 +116,9 @@ describe('XotBaseTransition', function (): void {
         // Check sendNotifications method
         /** @phpstan-ignore-next-line method.nonObject */
         $sendMethod = $reflection->getMethod('sendNotifications');
-<<<<<<< HEAD
-        $returnType = $sendMethod->getReturnType();
-        expect($sendMethod->isPublic())->toBeTrue();
-        if ($returnType instanceof \ReflectionNamedType) {
-            expect($returnType->getName())->toBe('void');
-        }
-=======
+
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
         expect($sendMethod->isPublic())->toBeTrue()->and($sendMethod->getReturnType()?->getName())->toBe('void');
->>>>>>> c07dd86 (.)
 
         // Check getRecord method
         /** @phpstan-ignore-next-line method.nonObject */
@@ -148,7 +132,7 @@ describe('XotBaseTransition', function (): void {
 
         /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($recipients as $recipient) {
-            if ($recipient !== null) {
+            if (null !== $recipient) {
                 expect($recipient instanceof UserContract || $recipient instanceof Model)->toBeTrue();
             }
         }
@@ -164,10 +148,10 @@ describe('XotBaseTransition', function (): void {
 
     it('validates inheritance requirements', function (): void {
         // Test that concrete implementations must provide required methods
-        /** @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
         expect(method_exists($this->transition, 'getNotificationRecipients'))
             ->toBeTrue()
-            /** @phpstan-ignore-next-line property.notFound */
+            /* @phpstan-ignore-next-line property.notFound */
             ->and(method_exists($this->transition, 'sendRecipientNotification'))
             ->toBeTrue();
     });

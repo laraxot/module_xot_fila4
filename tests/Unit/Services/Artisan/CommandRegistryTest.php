@@ -38,13 +38,7 @@ test('command registry finds correct handler for cache commands', function (): v
     expect($handler)->toBeInstanceOf(CacheCommandHandler::class);
 });
 
-<<<<<<< HEAD:tests/Unit/Services/Artisan/CommandRegistryTest.php
-/**
- * @param string $command
- */
-=======
 /* @phpstan-ignore-next-line method.notFound */
->>>>>>> c07dd86 (.):Tests/Unit/Services/Artisan/CommandRegistryTest.php
 test('command registry supports multiple cache commands', function (string $command): void {
     $registry = new CommandRegistry;
 

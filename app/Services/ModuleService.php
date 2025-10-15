@@ -23,16 +23,6 @@ class ModuleService
     private static ?self $_instance = null;
 
     /**
-     * Constructor.
-     *
-     * @param string $name Module name
-     */
-    public function __construct(string $name = '')
-    {
-        $this->name = $name;
-    }
-
-    /**
      * getInstance.
      *
      * this method will return instance of the class
@@ -40,7 +30,7 @@ class ModuleService
     public static function getInstance(): self
     {
         if (! (self::$_instance instanceof self)) {
-            self::$_instance = new self();
+            self::$_instance = new self;
         }
 
         return self::$_instance;

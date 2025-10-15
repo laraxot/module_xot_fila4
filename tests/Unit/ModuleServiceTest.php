@@ -10,9 +10,7 @@ uses(TestCase::class);
 
 describe('ModuleService', function (): void {
     beforeEach(function (): void {
-        /* @phpstan-ignore-next-line property.notFound */
         $this->service = new ModuleService;
-        /* @phpstan-ignore-next-line property.notFound */
         $this->service = $this->service->setName('TestModule');
     });
 

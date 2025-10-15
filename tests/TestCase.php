@@ -80,28 +80,34 @@ abstract class TestCase extends BaseTestCase
         /* @phpstan-ignore-next-line method.notFound */
         $mockXotData->shouldReceive('getUserClass')->andReturn($userClass);
 
-        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
+        /* @phpstan-ignore-next-line method.notFound */
         $mockXotData
+            /* @phpstan-ignore-next-line method.notFound */
             ->shouldReceive('getUserResourceClassByType')
             /* @phpstan-ignore-next-line method.notFound, method.nonObject */
             ->with('patient')
+            /* @phpstan-ignore-next-line method.nonObject */
             ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
 
-        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
+        /* @phpstan-ignore-next-line method.notFound */
         $mockXotData
+            /* @phpstan-ignore-next-line method.notFound */
             ->shouldReceive('getUserResourceClassByType')
             /* @phpstan-ignore-next-line method.notFound, method.nonObject */
             ->with('doctor')
+            /* @phpstan-ignore-next-line method.nonObject */
             ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
 
-        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
+        /* @phpstan-ignore-next-line method.notFound */
         $mockXotData
+            /* @phpstan-ignore-next-line method.notFound */
             ->shouldReceive('getUserResourceClassByType')
             /* @phpstan-ignore-next-line method.notFound, method.nonObject */
             ->with(\Mockery::any())
+            /* @phpstan-ignore-next-line method.nonObject */
             ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
 
-        /* @phpstan-ignore-next-line method.notFound */
+        /* @phpstan-ignore-next-line method.notFound, method.nonObject */
         $mockXotData->shouldReceive('make')->andReturn($mockXotData);
 
         // ✅ CRITICO: Bind nel container per risoluzione automatica

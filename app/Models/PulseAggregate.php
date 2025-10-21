@@ -49,8 +49,8 @@ use Modules\Xot\Database\Factories\PulseAggregateFactory;
  * @property string $aggregate
  * @property string $value
  * @property int|null $count
- * @property-read \Modules\Fixcity\Models\Profile|null $creator
- * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  * @method static \Modules\Xot\Database\Factories\PulseAggregateFactory factory($count = null, $state = [])
  * @method static Builder<static>|PulseAggregate newModelQuery()
  * @method static Builder<static>|PulseAggregate newQuery()

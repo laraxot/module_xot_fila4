@@ -41,6 +41,7 @@ return [
         'showPassword' => [
             'icon' => 'ui-showPassword',
             'label' => 'showPassword',
+            'tooltip' => 'showPassword',
         ],
     ],
     'fields' => [

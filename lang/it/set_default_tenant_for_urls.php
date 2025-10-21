@@ -36,6 +36,7 @@ return [
         'hidePassword' => [
             'icon' => 'hidePassword',
             'label' => 'hidePassword',
+            'tooltip' => 'hidePassword',
         ],
         'showPassword' => [
             'icon' => 'ui-showPassword',

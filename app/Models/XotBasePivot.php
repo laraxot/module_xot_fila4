@@ -11,10 +11,10 @@ use function Safe\preg_match;
 
 /**
  * Base Pivot class for all modules.
- * 
+ *
  * Centralizes common Pivot configurations and behaviors.
  * The $connection is automatically set based on the child class namespace.
- * 
+ *
  * @property string|int $id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
@@ -54,11 +54,9 @@ abstract class XotBasePivot extends EloquentPivot
 
     /**
      * Get the database connection for the model.
-     * 
+     *
      * Automatically determines connection from child class namespace.
      * Example: Modules\User\Models\MyPivot → 'user'
-     *
-     * @return string|null
      */
     public function getConnectionName(): ?string
     {

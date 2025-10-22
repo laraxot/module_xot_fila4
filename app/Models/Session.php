@@ -90,6 +90,7 @@ use Modules\Xot\Database\Factories\SessionFactory;
  * @property string|null $deleted_by
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
  * @method static \Modules\Xot\Database\Factories\SessionFactory factory($count = null, $state = [])
  * @method static Builder<static>|Session newModelQuery()
  * @method static Builder<static>|Session newQuery()
@@ -106,6 +107,7 @@ use Modules\Xot\Database\Factories\SessionFactory;
  * @method static Builder<static>|Session whereUpdatedBy($value)
  * @method static Builder<static>|Session whereUserAgent($value)
  * @method static Builder<static>|Session whereUserId($value)
+ *
  * @mixin \Eloquent
  */
 class Session extends BaseModel

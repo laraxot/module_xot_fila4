@@ -111,7 +111,7 @@ test('it supports json conversion', function (): void {
 
 test('it supports relationship loading', function (): void {
     $baseModel = new BaseModel;
-    
+
     expect(method_exists($baseModel, 'load'))->toBeTrue();
 });
 

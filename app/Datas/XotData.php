@@ -135,11 +135,11 @@ class XotData extends Data implements Wireable
             throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
         }
         $user = $user_class::firstWhere(['email' => $email]);
-        
+
         if (! $user) {
             throw new \Exception('user not found for email '.$email);
         }
-         
+
         Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
 
         return $user;
@@ -339,15 +339,15 @@ class XotData extends Data implements Wireable
         if (empty($this->pub_theme)) {
             return '';
         }
-        
+
         $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
-        
+
         // Check if path exists and is a directory before using realpath
         if (! is_dir($path0)) {
             // Return empty string if directory doesn't exist to prevent Folio errors
             return '';
         }
-        
+
         try {
             $path = realpath($path0);
             if ($path === false) {

@@ -138,4 +138,3 @@ test('it handles missing output directory', function (): void {
     // Assert command was successful and created the output directory
     expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
 });
-

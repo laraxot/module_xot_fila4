@@ -13,7 +13,7 @@ describe('XotBaseTransition', function (): void {
     beforeEach(function (): void {
         // Create a test record using concrete class
         /* @phpstan-ignore-next-line property.notFound, new.internalClass */
-        $this->record = new TestModelForTransition();
+        $this->record = new TestModelForTransition;
 
         // Create a concrete test transition class
         /* @phpstan-ignore-next-line property.notFound, new.internalClass */
@@ -88,7 +88,7 @@ describe('XotBaseTransition', function (): void {
     it('processes recipients correctly in sendNotifications', function (): void {
         // Create a test model
         /* @phpstan-ignore-next-line new.internalClass */
-        $mockModel = new TestModelForTransition();
+        $mockModel = new TestModelForTransition;
 
         // Create transition with concrete model
         $transition = new TestTransitionForTest($mockModel);
@@ -132,7 +132,7 @@ describe('XotBaseTransition', function (): void {
 
         /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($recipients as $recipient) {
-            if (null !== $recipient) {
+            if ($recipient !== null) {
                 expect($recipient instanceof UserContract || $recipient instanceof Model)->toBeTrue();
             }
         }

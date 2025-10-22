@@ -11,10 +11,10 @@ use function Safe\preg_match;
 
 /**
  * Base MorphPivot class for all modules.
- * 
+ *
  * Centralizes common MorphPivot configurations and behaviors.
  * The $connection is automatically set based on the child class namespace.
- * 
+ *
  * @property string|int $id
  * @property string $morph_type
  * @property string|int $morph_id
@@ -75,11 +75,9 @@ abstract class XotBaseMorphPivot extends EloquentMorphPivot
 
     /**
      * Get the database connection for the model.
-     * 
+     *
      * Automatically determines connection from child class namespace.
      * Example: Modules\Rating\Models\RatingMorph → 'rating'
-     *
-     * @return string|null
      */
     public function getConnectionName(): ?string
     {

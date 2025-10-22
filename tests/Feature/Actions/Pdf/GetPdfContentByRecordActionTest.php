@@ -106,7 +106,9 @@ class GetPdfContentByRecordActionTest extends TestCase
             protected $fillable = ['id', 'matr', 'cognome', 'nome'];
 
             public string $matr = '';
+
             public string $cognome = '';
+
             public string $nome = '';
 
             public function getKey(): int

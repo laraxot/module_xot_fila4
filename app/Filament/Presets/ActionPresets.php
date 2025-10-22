@@ -172,7 +172,7 @@ class ActionPresets
     /**
      * Header actions with custom actions.
      *
-     * @param array<string, Action> $customActions
+     * @param  array<string, Action>  $customActions
      * @return array<string, Action>
      */
     public static function headerWithCustom(array $customActions = []): array
@@ -198,8 +198,8 @@ class ActionPresets
     /**
      * Merge preset actions with custom actions.
      *
-     * @param array<string, Action> $preset
-     * @param array<string, Action> $custom
+     * @param  array<string, Action>  $preset
+     * @param  array<string, Action>  $custom
      * @return array<string, Action>
      */
     public static function merge(array $preset, array $custom): array
@@ -210,8 +210,8 @@ class ActionPresets
     /**
      * Add custom action before preset actions.
      *
-     * @param array<string, Action> $preset
-     * @param array<string, Action> $custom
+     * @param  array<string, Action>  $preset
+     * @param  array<string, Action>  $custom
      * @return array<string, Action>
      */
     public static function prepend(array $preset, array $custom): array

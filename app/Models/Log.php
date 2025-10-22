@@ -43,6 +43,7 @@ use Sushi\Sushi;
  * @property string|null $name
  * @property int|null $size
  * @property-read string|null $file_content
+ *
  * @method static \Modules\Xot\Database\Factories\LogFactory factory($count = null, $state = [])
  * @method static Builder<static>|Log newModelQuery()
  * @method static Builder<static>|Log newQuery()
@@ -50,8 +51,10 @@ use Sushi\Sushi;
  * @method static Builder<static>|Log whereId($value)
  * @method static Builder<static>|Log whereName($value)
  * @method static Builder<static>|Log whereSize($value)
+ *
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
  * @mixin \Eloquent
  */
 class Log extends BaseModel

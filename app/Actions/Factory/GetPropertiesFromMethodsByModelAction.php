@@ -12,9 +12,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Factory;
 
-use function Safe\file;
-
-
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
@@ -24,6 +21,7 @@ use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
 use Webmozart\Assert\Assert;
 
+use function Safe\file;
 use function Safe\preg_replace;
 
 /**

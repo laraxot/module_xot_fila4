@@ -84,8 +84,6 @@ interface ProfileContract extends HasMedia
 
     /**
      * Get the user that owns the profile.
-     *
-     * @return BelongsTo
      */
     public function user(): BelongsTo;
 

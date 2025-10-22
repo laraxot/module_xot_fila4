@@ -16,7 +16,6 @@ use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
-use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Checks;
 use Spatie\Health\Checks\Checks\CacheCheck;
 use Spatie\Health\Checks\Checks\DatabaseCheck;

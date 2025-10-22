@@ -45,7 +45,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * Create a test user via XotData pattern with proper architecture.
      *
-     * @param array<string, mixed> $attributes
+     * @param  array<string, mixed>  $attributes
      */
     protected static function createTestUser(array $attributes = []): UserContract
     {
@@ -117,7 +117,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * Create test user with specific type for multi-type testing.
      *
-     * @param array<string, mixed> $attributes
+     * @param  array<string, mixed>  $attributes
      */
     protected static function createTestUserWithType(string $type, array $attributes = []): UserContract
     {
@@ -129,8 +129,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * Generate test data array with common fields.
      *
-     * @param array<string, mixed> $overrides
-     *
+     * @param  array<string, mixed>  $overrides
      * @return array<string, mixed>
      */
     protected static function generateTestData(array $overrides = []): array
@@ -152,7 +151,7 @@ abstract class TestCase extends BaseTestCase
     {
         $this->assertAuthenticated();
 
-        if (null !== $expectedType) {
+        if ($expectedType !== null) {
             /** @var UserContract|null $user */
             $user = auth()->user();
             $this->assertNotNull($user);

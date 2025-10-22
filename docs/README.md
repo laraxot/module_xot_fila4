@@ -423,6 +423,7 @@ ls Modules/*/lang/*/
 **🚀 Performance**: 98/100 score
 
 ## Documentation Archive & Legacy
+# Xot Module - Framework Base Laraxot
 
 ## Overview
 Modulo base del framework Laraxot con funzionalità core e best practices.
@@ -467,6 +468,16 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - **Type Safety**: Tipizzazione rigorosa
 - **Documentation**: Documentazione essenziale
 ## Quick Links Legacy
+
+## Links
+- [Root Documentation](../../../project_docs/)
+## Quick Links Legacy
+=======
+## Principles
+- **DRY**: Un solo punto di verità
+- **KISS**: Semplicità e chiarezza
+- **Type Safety**: Tipizzazione rigorosa
+- **Documentation**: Documentazione essenziale
 
 ## Links
 - [Root Documentation](../../../project_docs/)

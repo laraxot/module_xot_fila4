@@ -15,6 +15,7 @@ abstract class XotBaseModel extends Model
 {
     use Traits\HasXotFactory;
     use Traits\RelationX;
+
     // use Searchable;
     // //use Cachable;
     use Updater;
@@ -34,7 +35,7 @@ abstract class XotBaseModel extends Model
 
     protected $perPage = 30;
 
-    //protected $connection = 'xot';
+    // protected $connection = 'xot';
 
     /** @var list<string> */
     protected $fillable = ['id'];

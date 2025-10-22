@@ -2,14 +2,9 @@
 
 declare(strict_types=1);
 
-use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
 
 use function Safe\chdir;
-use function Safe\chmod;
-use function Safe\exec;
-use function Safe\file_get_contents;
-use function Safe\file_put_contents;
 use function Safe\mkdir;
 use function Safe\rmdir;
 use function Safe\scandir;
@@ -46,7 +41,7 @@ function removeDirectory(string $dir): void
     if (is_dir($dir)) {
         $objects = scandir($dir);
         foreach ($objects as $object) {
-            if ('.' !== $object && '..' !== $object) {
+            if ($object !== '.' && $object !== '..') {
                 /* @phpstan-ignore-next-line binaryOp.invalid */
                 $fullPath = $dir.DIRECTORY_SEPARATOR.$object;
                 if (is_dir($fullPath) && ! is_link($fullPath)) {

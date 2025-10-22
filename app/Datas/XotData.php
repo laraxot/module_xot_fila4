@@ -38,23 +38,7 @@ class XotData extends Data implements Wireable
 
     public string $adm_home = '01';
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public ?string $adm_theme = ''; // ' => 'AdminLTE',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public null|string $adm_theme = ''; // ' => 'AdminLTE',
-=======
-    public ?string $adm_theme = ''; // ' => 'AdminLTE',
->>>>>>> f1d4085 (.)
-=======
-    public null|string $adm_theme = ''; // ' => 'AdminLTE',
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public null|string $adm_theme = ''; // ' => 'AdminLTE',
->>>>>>> 300ef70 (.)
 
     // public bool $enable_ads;//' => '1',
     public string $primary_lang = 'it';

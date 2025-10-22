@@ -47,6 +47,10 @@ abstract class BaseModel extends XotBaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

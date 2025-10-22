@@ -17,9 +17,9 @@ trait HasXotFactory
     /**
      * Create a new factory instance for the model.
      *
-     * @return Factory<static>
+     * @return Factory<static>|null
      */
-    protected static function newFactory(): Factory
+    protected static function newFactory()
     {
         return app(GetFactoryAction::class)->execute(static::class);
     }

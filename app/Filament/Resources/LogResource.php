@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Filament\Support\Components\Component;
 use Filament\Schemas\Schema;
@@ -13,6 +14,8 @@ use Modules\Xot\Filament\Resources\LogResource\Pages\ListLogs;
 use Modules\Xot\Filament\Resources\LogResource\Pages\CreateLog;
 use Modules\Xot\Filament\Resources\LogResource\Pages\ViewLog;
 >>>>>>> 15f4138 (.)
+=======
+>>>>>>> 2e4690c9 (.)
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Infolists;
@@ -37,15 +40,20 @@ class LogResource extends XotBaseResource
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, Component>
 =======
      * @return array<int, Component>
 >>>>>>> 15f4138 (.)
+=======
+     * @return array<string, Component>
+>>>>>>> 2e4690c9 (.)
      */
     #[Override]
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'name' => TextInput::make('name')->required()->maxLength(255),
             'path' => TextInput::make('path')->required()->maxLength(255),
@@ -55,6 +63,11 @@ class LogResource extends XotBaseResource
             TextInput::make('path')->required()->maxLength(255),
             Textarea::make('content')->columnSpanFull(),
 >>>>>>> 15f4138 (.)
+=======
+            'name' => TextInput::make('name')->required()->maxLength(255),
+            'path' => TextInput::make('path')->required()->maxLength(255),
+            'content' => Textarea::make('content')->columnSpanFull(),
+>>>>>>> 2e4690c9 (.)
         ];
     }
 
@@ -62,10 +75,14 @@ class LogResource extends XotBaseResource
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name' => TextEntry::make('name')->columnSpanFull(),
 =======
             TextEntry::make('name')->columnSpanFull(),
 >>>>>>> 15f4138 (.)
+=======
+            'name' => TextEntry::make('name')->columnSpanFull(),
+>>>>>>> 2e4690c9 (.)
             /*
              * Infolists\Components\TextEntry::make('email')
              * ->columnSpanFull(),
@@ -85,9 +102,12 @@ class LogResource extends XotBaseResource
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 15f4138 (.)
+=======
+>>>>>>> 2e4690c9 (.)
     #[Override]
     public static function getRelations(): array
     {

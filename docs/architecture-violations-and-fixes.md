@@ -11,7 +11,11 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 ```php
 // ❌ VIOLAZIONE CRITICA
 use Modules\<nome modulo>\Models\User;
+<<<<<<< HEAD
 use Modules\SaluteOra\Models\User;
+=======
+use Modules\<nome modulo>\Models\User;
+>>>>>>> a5dccfe (.)
 
 /** @var User $user */
 $user = User::factory()->create([...]);
@@ -20,7 +24,11 @@ $user = User::factory()->create([...]);
 ### **Perché è un Errore Grave**
 
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+<<<<<<< HEAD
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+=======
+1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
+>>>>>>> a5dccfe (.)
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -53,7 +61,11 @@ $user = $userClass::factory()->create($attributes);
     'users' => [
         'driver' => 'eloquent',
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+<<<<<<< HEAD
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+=======
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+>>>>>>> a5dccfe (.)
     ],
 ],
 ```
@@ -112,7 +124,11 @@ public function processUser(UserContract $user): void
 
 // ❌ MAI implementazione specifica
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
+<<<<<<< HEAD
 public function processUser(\Modules\SaluteOra\Models\User $user): void
+=======
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+>>>>>>> a5dccfe (.)
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -247,9 +263,15 @@ class ChangeTypeCommand extends Command
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
+<<<<<<< HEAD
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
+=======
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Doctor;
+>>>>>>> a5dccfe (.)
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -260,7 +282,11 @@ use Modules\Xot\Datas\XotData;
 ```php
 // ❌ VIETATO
 $user = \Modules\<nome modulo>\Models\User::find($id);
+<<<<<<< HEAD
 $user = \Modules\SaluteOra\Models\User::find($id);
+=======
+$user = \Modules\<nome modulo>\Models\User::find($id);
+>>>>>>> a5dccfe (.)
 
 // ✅ CONSENTITO  
 $userClass = XotData::make()->getUserClass();
@@ -271,7 +297,11 @@ $user = $userClass::find($id);
 ```php
 // ❌ VIETATO
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
+<<<<<<< HEAD
 function updateUser(\Modules\SaluteOra\Models\User $user): void
+=======
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+>>>>>>> a5dccfe (.)
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -350,7 +380,11 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
+<<<<<<< HEAD
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+=======
+- [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
+>>>>>>> a5dccfe (.)
 
 ---
 

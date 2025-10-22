@@ -1,5 +1,20 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')

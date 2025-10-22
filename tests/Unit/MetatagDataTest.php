@@ -2,8 +2,23 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Filament\Support\Colors\Color;
 use Modules\Xot\Datas\MetatagData;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Support\Colors\Color;
+use Modules\Xot\Datas\MetatagData;
+=======
+use Modules\Xot\Datas\MetatagData;
+use Filament\Support\Colors\Color;
+>>>>>>> f1d4085 (.)
+=======
+use Filament\Support\Colors\Color;
+use Modules\Xot\Datas\MetatagData;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
 /**
  * Test che la classe MetatagData possa essere istanziata correttamente.
@@ -24,6 +39,13 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
     /** @phpstan-ignore-next-line method.nonObject */
     $colors = $metatagData->getFilamentColors();
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     expect($colors)
         ->toBeArray()
         ->and($colors)
@@ -34,6 +56,18 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
         /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
         ->and($colors['primary'])
         ->toBe(Color::Amber);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    expect($colors)->toBeArray()
+        ->and($colors)->toHaveKeys(['danger', 'gray', 'info', 'primary', 'success', 'warning'])
+        ->and($colors['danger'])->toBe(Color::Red)
+        ->and($colors['primary'])->toBe(Color::Amber);
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 });
 
 /**
@@ -47,18 +81,53 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
         'custom_color' => [
             'key' => 'custom_color',
             'color' => 'custom',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             'hex' => '#FF5500',
         ],
         'primary' => [
             'key' => 'primary',
             'color' => 'amber',
         ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            'hex' => '#FF5500'
+        ],
+        'primary' => [
+            'key' => 'primary',
+            'color' => 'amber'
+        ]
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     ];
 
     /** @phpstan-ignore-next-line method.nonObject */
     $colors = $metatagData->getColors();
 
+<<<<<<< HEAD
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+=======
+    expect($colors)->toBeArray()
+        ->and($colors)->toHaveKey('custom_color')
+        ->and($colors)->toHaveKey('primary');
+>>>>>>> f1d4085 (.)
+=======
+    expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 });
 
 /**
@@ -81,6 +150,13 @@ test('getLogoHeight restituisce il valore corretto', function (): void {
 test('Le proprietà hanno i valori di default corretti', function (): void {
     $metatagData = new MetatagData;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     expect($metatagData->generator)
         ->toBe('xot')
         ->and($metatagData->charset)
@@ -91,4 +167,17 @@ test('Le proprietà hanno i valori di default corretti', function (): void {
         ->toBe('2em')
         ->and($metatagData->favicon)
         ->toBe('/favicon.ico');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    expect($metatagData->generator)->toBe('xot')
+        ->and($metatagData->charset)->toBe('UTF-8')
+        ->and($metatagData->author)->toBe('xot')
+        ->and($metatagData->logo_height)->toBe('2em')
+        ->and($metatagData->favicon)->toBe('/favicon.ico');
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 });

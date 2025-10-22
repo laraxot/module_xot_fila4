@@ -13,4 +13,51 @@ namespace Modules\Xot\Models;
 abstract class BaseModel extends XotBaseModel
 {
     protected $connection = 'xot';
+<<<<<<< HEAD
+=======
+
+    /** @var list<string> */
+    protected $fillable = ['id'];
+
+    protected $primaryKey = 'id';
+
+    protected $keyType = 'string';
+
+    /** @var list<string> */
+    protected $hidden = [
+        // 'password'
+    ];
+
+    /**
+     * Create a new factory instance for the model.
+     *
+     * @return Factory<static>
+     */
+    protected static function newFactory(): Factory
+    {
+        // return app(\Modules\Xot\Actions\Factory\GetFactoryAction::class)->execute(static::class);
+        return app(GetFactoryAction::class)->execute(static::class);
+    }
+
+    /** @return array<string, class-string|string> */
+    protected function casts(): array
+    {
+        return [
+            'published_at' => 'datetime',
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+        ];
+    }
+>>>>>>> d2b0a27 (.)
 }

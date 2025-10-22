@@ -28,7 +28,19 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 
     public array $headings;
 
+<<<<<<< HEAD
     public array $columns;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|string $transKey = null;
+=======
+    public ?string $transKey = null;
+>>>>>>> f1d4085 (.)
+=======
+    public null|string $transKey = null;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
     public string $filename;
 
@@ -39,6 +51,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
      * @param  array<int, string>  $headings
      * @param  array<int, string>  $columns
      */
+<<<<<<< HEAD
     public function __construct(Builder|QueryBuilder $query, array $headings = [], array $columns = [])
     {
         $this->query = $query;
@@ -46,6 +59,96 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
         $this->columns = $columns;
         $this->filename = 'export_'.date('Y-m-d_H-i-s').'.xlsx';
         $this->sheetName = 'Export';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
+=======
+    public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
+>>>>>>> f1d4085 (.)
+=======
+    public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
+>>>>>>> 73eab74 (.)
+    {
+        $this->query = $query;
+        $this->transKey = $transKey;
+        $this->fields = $fields;
+
+        /*
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+         * $this->headings = collect($query->first())
+         * ->keys()
+         * ->map(
+         * function ($item) use ($transKey) {
+         * $t = $transKey.'.'.$item;
+         * $trans = trans($t);
+         * if ($trans != $t) {
+         * return $trans;
+         * }
+         *
+         * return $item;
+         * }
+         * )
+         * ->toArray();
+         */
+<<<<<<< HEAD
+=======
+        $this->headings = collect($query->first())
+            ->keys()
+            ->map(
+                function ($item) use ($transKey) {
+                    $t = $transKey.'.'.$item;
+                    $trans = trans($t);
+                    if ($trans != $t) {
+                        return $trans;
+                    }
+
+                    return $item;
+                }
+            )
+            ->toArray();
+        */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+    }
+
+    public function getHead(): Collection
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!empty($this->fields)) {
+=======
+        if (! empty($this->fields)) {
+>>>>>>> f1d4085 (.)
+=======
+        if (!empty($this->fields)) {
+>>>>>>> 73eab74 (.)
+            return collect($this->fields);
+        }
+        /**
+         * @var Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null
+         */
+        $first = $this->query->first();
+        if (null === $first) {
+            return collect([]);
+        }
+
+        // Parameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
+        return collect($first)->keys();
+    }
+
+    public function headings(): array
+    {
+        $headings = $this->getHead();
+        $transKey = $this->transKey;
+        $headings = app(TransCollectionAction::class)->execute($headings, $transKey);
+
+        return $headings->toArray();
+>>>>>>> d2b0a27 (.)
     }
 
     /**
@@ -53,6 +156,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
      */
     public function collection(): Collection
     {
+<<<<<<< HEAD
         return $this->query->get();
     }
 
@@ -119,6 +223,18 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
         }
 
         return $data;
+=======
+        return $this->query;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+        // ->orderBy('id');
+>>>>>>> d2b0a27 (.)
     }
 
     public function chunkSize(): int
@@ -131,6 +247,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
      */
     public function getHead(): Collection
     {
+<<<<<<< HEAD
         return $this->query->limit(10)->get();
     }
 
@@ -154,5 +271,31 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
         $this->sheetName = $sheetName;
 
         return $this;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!empty($this->fields)) {
+=======
+        if (! empty($this->fields)) {
+>>>>>>> f1d4085 (.)
+=======
+        if (!empty($this->fields)) {
+>>>>>>> 73eab74 (.)
+            return collect($item)->toArray();
+        }
+
+        // rameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return collect($item)->only($this->fields)->toArray();
+=======
+        return collect($item)
+            ->only($this->fields)
+            ->toArray();
+>>>>>>> f1d4085 (.)
+=======
+        return collect($item)->only($this->fields)->toArray();
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     }
 }

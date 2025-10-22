@@ -23,7 +23,19 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 
     public array $headings;
 
+<<<<<<< HEAD
     public ?string $transKey;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|string $transKey;
+=======
+    public ?string $transKey;
+>>>>>>> f1d4085 (.)
+=======
+    public null|string $transKey;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
     /** @var array<int, string> */
     public array $fields = [];
@@ -35,16 +47,44 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
      * @param  LazyCollection<int, \Illuminate\Database\Eloquent\Model>  $collection
      * @param  array<int, string>  $fields
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     public function __construct(
         public LazyCollection $collection,
         ?string $transKey = null,
         array $fields = [],
     ) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    public function __construct(public LazyCollection $collection, ?string $transKey = null, array $fields = [])
+    {
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         // $this->headings = count($headings) > 0 ? $headings : collect($collection->first())->keys()->toArray();
 
         $this->transKey = $transKey;
         $this->fields = $fields;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         // $this->headings = $headings->toArray();
     }
 
@@ -57,21 +97,54 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
             return [];
         }
 
+<<<<<<< HEAD
         $fields = array_map('strval', $this->fields);
         $data = $item->only($fields);
 
         return $data;
+=======
+        return $data->toArray();
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
         /*
          * return [
          * $item->,
          * ];
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        /*
+        return [
+            $item->,
+        ];
+        */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     }
 
     public function getHead(): Collection
     {
+<<<<<<< HEAD
         if (! empty($this->fields)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!empty($this->fields)) {
+=======
+        if (! empty($this->fields)) {
+>>>>>>> f1d4085 (.)
+=======
+        if (!empty($this->fields)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             return collect($this->fields);
         }
 

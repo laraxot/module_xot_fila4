@@ -5,12 +5,36 @@ declare(strict_types=1);
 namespace Modules\Xot\Services;
 
 use Exception;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use function count;
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
 
+<<<<<<< HEAD
 use function count;
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use function count;
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+use function count;
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 /**
  * Class RouteService.
  * Modules\Xot\Services\RouteService.
@@ -40,12 +64,35 @@ class RouteService
 
         // Verifichiamo un caso speciale per le richieste Livewire
         $segments = Request::segments();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
         // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
         return
             (is_countable($segments) ? \count($segments) : 0) > 0 &&
+<<<<<<< HEAD
             $segments[0] === 'livewire' &&
             session('in_admin', false) === true;
+=======
+            'livewire' === $segments[0] &&
+            session('in_admin', false) === true
+        );
+<<<<<<< HEAD
+=======
+        
+        // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
+        return (is_countable($segments) ? \count($segments) : 0) > 0 && 
+               'livewire' === $segments[0] && 
+               session('in_admin', false) === true;
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     }
 
     /**
@@ -58,6 +105,13 @@ class RouteService
         $row = (object) [];
         extract($params);
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
          * $mutator = $act.'_url';
          * try {
          * $route = $row->$mutator;
@@ -65,16 +119,51 @@ class RouteService
          * $route = '#';
          * }
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        $mutator = $act.'_url';
+        try {
+            $route = $row->$mutator;
+        } catch (\Exception $e) {
+            $route = '#';
+        }
+        */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         $route_action = (string) Route::currentRouteAction();
         Str::snake(Str::after($route_action, '@'));
         // Cannot call method getName() on mixed.
         $routename = ''; // Request::route()->getName();
         $old_act_route = last(explode('.', $routename));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+        if (!\is_string($old_act_route)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename(self::class) . ']');
+        }
+
+        $routename_act = Str::before($routename, $old_act_route) . '' . $act;
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
         if (! \is_string($old_act_route)) {
             throw new Exception('['.__LINE__.']['.class_basename(self::class).']');
         }
 
         $routename_act = Str::before($routename, $old_act_route).''.$act;
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         $route_current = Route::current();
         $route_params = [];
         if ($route_current instanceof \Illuminate\Routing\Route) {
@@ -83,12 +172,33 @@ class RouteService
         }
 
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
          * try {
          * $route_params = optional(\Route::current())->parameters();
          * } catch (\Exception $e) {
          * $route_params = [];
          * }
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        try {
+            $route_params = optional(\Route::current())->parameters();
+        } catch (\Exception $e) {
+            $route_params = [];
+        }
+        */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         if (Route::has($routename_act)) {
             $parz = array_merge($route_params, [$row]);
             $parz = array_merge($parz, $query);
@@ -96,7 +206,19 @@ class RouteService
             return route($routename_act, $parz);
         }
 
+<<<<<<< HEAD
         return '#'.$routename_act;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return '#' . $routename_act;
+=======
+        return '#'.$routename_act;
+>>>>>>> f1d4085 (.)
+=======
+        return '#' . $routename_act;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     }
 
     // se n=0 => 'container0'
@@ -116,8 +238,21 @@ class RouteService
             $tmp[] = 'admin';
         }
 
+<<<<<<< HEAD
         for ($i = 0; $i <= $n; $i++) {
             $tmp[] = 'container'.$i;
+=======
+        for ($i = 0; $i <= $n; ++$i) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $tmp[] = 'container' . $i;
+=======
+            $tmp[] = 'container'.$i;
+>>>>>>> f1d4085 (.)
+=======
+            $tmp[] = 'container' . $i;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         }
 
         $tmp[] = $act;
@@ -126,6 +261,13 @@ class RouteService
     }
 
     /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
      * public static function urlRelatedPanel(array $params){
      * $act = 'show';
      * extract($params);
@@ -203,6 +345,91 @@ class RouteService
      * return $url;
      * }
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    public static function urlRelatedPanel(array $params){
+        $act = 'show';
+        extract($params);
+        if (! isset($panel)) {
+            dddx(['err' => 'panel is missing']);
+
+            return;
+        }
+        if (! isset($related_name)) {
+            dddx(['err' => 'related_name is missing']);
+
+            return;
+        }
+        $parents = collect([]);
+        $panel_curr = $panel;
+
+        while (null != $panel_curr->getParent()) {
+            $parents->prepend($panel_curr->getParent());
+            $panel_curr = $panel_curr->getParent();
+        }
+        $container_root = $panel->getRow();
+        if ($parents->count() > 0) {
+
+            //$tmp='['.$parents->count().']';
+            //foreach($parents as $parent){
+            //    $tmp.=$parent->getRow()->post_type.'-';
+            //}
+            //return $tmp;
+
+            $container_root = $parents->first()?->row;
+        }
+
+        //$containers_class = self::getContainersClass();
+        //$n = collect($containers_class)->search(get_class($container_root));
+        //if (null === $n) {
+        //    $n = 0;
+        //}
+
+        $n = 0;
+
+        $route_name = self::getRoutenameN(['n' => $n + 1 + $parents->count(), 'act' => $act]);
+        $route_current = \Route::current();
+        $route_params = is_object($route_current) ? $route_current->parameters() : [];
+
+        $i = 0;
+        foreach ($parents as $parent) {
+            $route_params['container'.($n + $i)] = $parent->postType();
+            $route_params['item'.($n + $i)] = $parent->guid();
+            ++$i;
+        }
+        $route_params['container'.($n + $i)] = $panel->postType();
+        $route_params['item'.($n + $i)] = $panel->guid();
+        ++$i;
+        $route_params['container'.($n + $i)] = $related_name;
+
+        $route_params['page'] = 1;
+        $route_params['_act'] = '';
+        unset($route_params['_act']);
+        try {
+            $url = str_replace(url(''), '', route($route_name, $route_params));
+        } catch (\Exception $e) {
+            if (request()->input('debug', false)) {
+                dd([
+                    'route_name' => $route_name,
+                    'route_params' => $route_params,
+                    'line' => __LINE__,
+                    'file' => __FILE__,
+                    'e' => $e->getMessage(),
+                ]);
+            }
+
+            return '#['.__LINE__.']['.class_basename($this).']';
+        }
+
+        return $url;
+    }
+    */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     /**
      * @param  array<string,string>  $params
      */
@@ -211,6 +438,13 @@ class RouteService
         extract($params);
 
         return '?';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
         /*
          * return '?'.$lang; //da fixare dopo
@@ -271,6 +505,73 @@ class RouteService
          * return url($lang);
          * }
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        /*
+        return '?'.$lang; //da fixare dopo
+        //$row=$this->row;
+        //$row->lang=$lang;
+        //return '/wip'.$this->url();
+        $route_name = \Route::currentRouteName();
+        $route_params = optional(\Route::current())->parameters();
+        $route_params['lang'] = $lang;
+        [$containers, $items] = params2ContainerItem($route_params);
+        $n_items = count($items);
+        //dddx($n_items);//1
+        //dddx($route_name); containers.show
+        for ($i = 0; $i < $n_items; ++$i) {
+            $v = $items[$i];
+            if (method_exists($v, 'postLang')) {
+                $tmp = $v->postLang($lang)->first();
+                if (is_object($tmp)) {
+                    $guid = $tmp->guid;
+                } else {
+                    $guid = '#';
+                    //dddx(app()->getLocale());
+                    $v_post = $v->post;
+                    if (null == $v_post) {
+                        break;
+                    }
+                    $new_post = $v_post->replicate();
+                    $fields = ['title', 'subtitle', 'txt', 'meta_description', 'meta_keywords'];
+                    foreach ($fields as $field) {
+                        $trans = ImportService::trans(['q' => $new_post->$field, 'from' => app()->getLocale(), 'to' => $lang]);
+
+                        //dddx([
+                        //    'from'=>app()->getLocale(),
+                        //    'to'=>$lang,
+                        //    'trans'=>$trans,
+
+                        //]);
+
+                        $new_post->$field = $trans;
+                    }
+                    $new_post->lang = $lang;
+                    $new_post->save();
+                    $guid = $new_post->guid;
+                }
+            } else {
+                $route_key_name = $v->getRouteKeyName();
+                $guid = $v->$route_key_name;
+            }
+
+            $route_params['item'.$i] = $guid;
+            //dddx($route_params['item'.$i]->guidLang);
+        }
+        //dddx($route_params);
+        //return '/wip['.__LINE__.']['.class_basename($this).']';
+        try {
+            return route($route_name, $route_params);
+        } catch (\Exception $e) {
+            return url($lang);
+        }
+        */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     }
 
     /**
@@ -340,12 +641,38 @@ class RouteService
         $params['containers'] = implode('.', $containers);
 
         return collect($tmp_arr)
+<<<<<<< HEAD
             ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+>>>>>>> d2b0a27 (.)
             ->map(static function ($item) use ($params) {
                 $item = Str::snake($item);
 
                 return $params[$item] ?? $item;
             })
             ->implode('.');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            ->filter(
+                static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false)
+            )
+            ->map(
+                static function ($item) use ($params) {
+                    $item = Str::snake($item);
+
+                    return $params[$item] ?? $item;
+                }
+            )->implode('.');
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     }
 }

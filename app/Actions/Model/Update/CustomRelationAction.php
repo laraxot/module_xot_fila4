@@ -30,9 +30,24 @@ class CustomRelationAction
         foreach ($relationDTO->data as $data) {
             Assert::isArray($data);
             if (\in_array($keyName, array_keys($data), false)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+=======
+                // Assicura che $data sia type-safe per UpdateAction
+>>>>>>> d2b0a27 (.)
                 /** @var array<string, mixed> $typedData */
                 $typedData = $data;
                 $res = app(UpdateAction::class)->execute($related, $typedData, []);
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {

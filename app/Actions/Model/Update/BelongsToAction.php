@@ -5,6 +5,16 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model\Update;
 
 use Exception;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use InvalidArgumentException;
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Arr;
@@ -22,6 +32,13 @@ class BelongsToAction
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsTo::class);
 
         /*$relationDTO->data e' un array
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
          * if (! \is_array($relationDTO->data)) {
          * $related = $rows->getRelated();
          * $related = $related->find($relationDTO->data);
@@ -32,9 +49,33 @@ class BelongsToAction
          * }
          */
 
+<<<<<<< HEAD
         if (! Arr::isAssoc($relationDTO->data) && \count($relationDTO->data) === 1) {
             $related_id = Arr::first($relationDTO->data);
             if ($related_id === null) {
+=======
+        if (!Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+            $related_id = Arr::first($relationDTO->data);
+            if (null === $related_id) {
+<<<<<<< HEAD
+=======
+        if (! \is_array($relationDTO->data)) {
+            $related = $rows->getRelated();
+            $related = $related->find($relationDTO->data);
+            $res = $rows->associate($related);
+            $res->save();
+
+            return;
+        }
+        */
+
+        if (! Arr::isAssoc($relationDTO->data) && \count($relationDTO->data) === 1) {
+            $related_id = Arr::first($relationDTO->data);
+            if ($related_id === null) {
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 return;
             }
 
@@ -42,7 +83,19 @@ class BelongsToAction
             Assert::notNull($relatedModel, 'Related model cannot be null');
             $related = $relatedModel->find($related_id);
 
+<<<<<<< HEAD
             if (! ($related instanceof Model)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!($related instanceof Model)) {
+=======
+            if (! $related instanceof Model) {
+>>>>>>> f1d4085 (.)
+=======
+            if (!($related instanceof Model)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 throw new Exception('Expected a single model, got null or invalid object.');
             }
             $res = $rows->associate($related);
@@ -54,8 +107,23 @@ class BelongsToAction
         if (Arr::isAssoc($relationDTO->data)) {
             $sub = $rows->firstOrCreate();
             // $sub = $rows->first() ?? $rows->getModel();
+<<<<<<< HEAD
             if ($sub === null) {
                 throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (null === $sub) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+=======
+            if ($sub === null) {
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
+=======
+            if (null === $sub) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             }
 
             app(RelationAction::class)->execute($sub, $relationDTO->data);
@@ -69,11 +137,32 @@ class BelongsToAction
 
         if ($rows->exists()) {
             // $rows->update($data); // non passa per il mutator
+<<<<<<< HEAD
             $relatedInstance = $model->{Str::camel($relationDTO->name)};
             if ($relatedInstance instanceof Model) {
                 $relatedInstance->update($data);
             }
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $model->{Str::camel($relationDTO->name)}->update($data);
+=======
+            $relationName = Str::camel($relationDTO->name);
+            $relatedModel = $model->{$relationName};
+
+            // Type assertion: la relazione deve restituire un modello che supporta update()
+            if (! $relatedModel instanceof Model) {
+                throw new InvalidArgumentException('Related model must be an instance of Model to support update()');
+            }
+
+            $relatedModel->update($data);
+>>>>>>> f1d4085 (.)
+=======
+            $model->{Str::camel($relationDTO->name)}->update($data);
+>>>>>>> 73eab74 (.)
+
+>>>>>>> d2b0a27 (.)
             return;
         }
 

@@ -1,17 +1,56 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 declare(strict_types=1);
 
 use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Storage;
+
+use function Pest\Laravel\artisan;
+use function Pest\Laravel\assertDatabaseHas;
+
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
 use Modules\Xot\Tests\TestCase;
 
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 uses(TestCase::class);
 
 beforeEach(function () {
     // Create a temporary directory for testing
+<<<<<<< HEAD
     $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
     mkdir($this->testDir, 0o755, true);
 
+=======
+    $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
+<<<<<<< HEAD
+<<<<<<< HEAD
+    mkdir($this->testDir, 0o755, true);
+
+=======
+    mkdir($this->testDir, 0755, true);
+    
+>>>>>>> f1d4085 (.)
+=======
+    mkdir($this->testDir, 0o755, true);
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     // Set the working directory
     chdir($this->testDir);
 });
@@ -22,6 +61,13 @@ afterEach(function () {
 });
 
 // Recursive function to remove a directory and its contents
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 function rrmdir($dir)
 {
     if (is_dir($dir)) {
@@ -31,7 +77,25 @@ function rrmdir($dir)
                 if (is_dir($dir.DIRECTORY_SEPARATOR.$object) && ! is_link($dir.'/'.$object)) {
                     rrmdir($dir.DIRECTORY_SEPARATOR.$object);
                 } else {
+<<<<<<< HEAD
                     unlink($dir.DIRECTORY_SEPARATOR.$object);
+=======
+                    unlink($dir . DIRECTORY_SEPARATOR . $object);
+<<<<<<< HEAD
+=======
+function rrmdir($dir) {
+    if (is_dir($dir)) {
+        $objects = scandir($dir);
+        foreach ($objects as $object) {
+            if ($object != "." && $object != "..") {
+                if (is_dir($dir. DIRECTORY_SEPARATOR .$object) && !is_link($dir."/".$object)) {
+                    rrmdir($dir. DIRECTORY_SEPARATOR .$object);
+                } else {
+                    unlink($dir. DIRECTORY_SEPARATOR .$object);
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
                 }
             }
         }
@@ -41,7 +105,20 @@ function rrmdir($dir)
 
 test('creates necessary directories and files', function () {
     // Run the command
+<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+=======
+    $this->artisan('xot:fix-structure')
+         ->assertExitCode(0);
+>>>>>>> f1d4085 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
     // Check if directories were created
     $directories = [
@@ -86,7 +163,20 @@ test('does not overwrite existing files', function () {
     file_put_contents($testFile, $testContent);
 
     // Run the command
+<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+=======
+    $this->artisan('xot:fix-structure')
+         ->assertExitCode(0);
+>>>>>>> f1d4085 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
     // Verify the file was not overwritten
     $this->assertStringEqualsFile($testFile, $testContent);
@@ -94,7 +184,15 @@ test('does not overwrite existing files', function () {
 
 test('handles errors gracefully', function () {
     // Make a directory non-writable to test error handling
+<<<<<<< HEAD
     $nonWritableDir = $this->testDir.'/app';
+=======
+    $nonWritableDir = $this->testDir . '/app';
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error
@@ -102,4 +200,20 @@ test('handles errors gracefully', function () {
 
     // Restore permissions
     chmod($nonWritableDir, 0o755);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    chmod($nonWritableDir, 0555);
+
+    // Run the command and expect an error
+    $this->artisan('xot:fix-structure')
+         ->assertExitCode(1);
+
+    // Restore permissions
+    chmod($nonWritableDir, 0755);
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 });

@@ -1,12 +1,40 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 return [
     'backend' => [
         'takeaway' => [
             'newsletterSubscribe' => [
+<<<<<<< HEAD
                 'messages' => [],
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                'messages' => [],
+=======
+                'messages' => [
+                ],
+>>>>>>> f1d4085 (.)
+=======
+                'messages' => [],
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             ],
             'category' => [
                 'create_error' => 'Create Error',

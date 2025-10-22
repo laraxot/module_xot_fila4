@@ -14,8 +14,21 @@ class GetStrBetweenStartsWithAction
     public function execute(string $body, string $start, string $open, string $close): string
     {
         $pos = mb_strpos($body, $start);
+<<<<<<< HEAD
         if ($pos === false) {
             throw new Exception("Cannot find {$start} in {$body} [".__LINE__.']['.__FILE__.']');
+=======
+        if (false === $pos) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            throw new Exception("Cannot find {$start} in {$body} [" . __LINE__ . '][' . __FILE__ . ']');
+=======
+            throw new Exception("Cannot find $start in $body [".__LINE__.']['.__FILE__.']');
+>>>>>>> f1d4085 (.)
+=======
+            throw new Exception("Cannot find {$start} in {$body} [" . __LINE__ . '][' . __FILE__ . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         }
         $pos1 = mb_strpos($body, $close, $pos);
 

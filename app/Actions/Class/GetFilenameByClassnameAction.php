@@ -23,12 +23,36 @@ class GetFilenameByClassnameAction
             }
         } catch (Exception $e) {
             $filename = str_replace('\\', '/', $class_name);
+<<<<<<< HEAD
             $filename = base_path($filename).'.php';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $filename = base_path($filename) . '.php';
+=======
+            $filename = base_path($filename).'.php';
+>>>>>>> f1d4085 (.)
+=======
+            $filename = base_path($filename) . '.php';
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         }
 
         if (is_string($filename)) {
             return $filename;
         }
+<<<<<<< HEAD
         throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+=======
+        throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
+>>>>>>> f1d4085 (.)
+=======
+        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     }
 }

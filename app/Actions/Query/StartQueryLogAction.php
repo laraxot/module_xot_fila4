@@ -24,10 +24,29 @@ class StartQueryLogAction
                 'driver' => 'daily',
                 'path' => storage_path('logs/querylog.log'),
             ]);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+            $log->debug('query : ' . $sql);
+            $log->debug('time ' . $time);
+            $log->debug('connection ' . $connection);
+            $log->debug('bindings ' . print_r($query->bindings, true));
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
             $log->debug('query : '.$sql);
             $log->debug('time '.$time);
             $log->debug('connection '.$connection);
             $log->debug('bindings '.print_r($query->bindings, true));
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         });
     }
 }

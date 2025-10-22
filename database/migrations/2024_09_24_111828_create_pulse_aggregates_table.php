@@ -13,12 +13,15 @@ return new class extends XotBaseMigration
     public function up(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
         if (!$this->shouldRun()) {
 >>>>>>> d2b0a27 (.)
             return;
@@ -45,6 +48,7 @@ return new class extends XotBaseMigration
             $table->index('type'); // For purging...
             $table->index(['period', 'type', 'aggregate', 'bucket']); // For aggregate queries...
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -80,5 +84,7 @@ return new class extends XotBaseMigration
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 };

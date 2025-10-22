@@ -58,6 +58,7 @@ final class MorphOneAction
     {
         // Ensure the 'lang' key is set to the current locale if not provided
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! isset($data['lang'])) {
 =======
 <<<<<<< HEAD
@@ -70,10 +71,14 @@ final class MorphOneAction
         if (!isset($data['lang'])) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 300ef70 (.)
             $data['lang'] = App::getLocale();
         }
 
         // Remove null values from the data array
+<<<<<<< HEAD
 <<<<<<< HEAD
         return array_filter($data, static fn ($value): bool => $value !== null);
 =======
@@ -89,5 +94,8 @@ final class MorphOneAction
         return array_filter($data, static fn($value): bool => null !== $value);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return array_filter($data, static fn($value): bool => null !== $value);
+>>>>>>> 300ef70 (.)
     }
 }

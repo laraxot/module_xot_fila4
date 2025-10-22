@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -17,6 +18,11 @@ declare(strict_types=1);
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 300ef70 (.)
 return [
     'failed' => 'Queste credenziali non corrispondono ai nostri dati.',
     'password' => 'La password fornita non è corretta.',
@@ -91,6 +97,7 @@ return [
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,3 +107,5 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

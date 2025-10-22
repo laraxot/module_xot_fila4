@@ -29,6 +29,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
     public array $headings;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public array $columns;
 =======
 <<<<<<< HEAD
@@ -41,6 +42,9 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
     public null|string $transKey = null;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    public null|string $transKey = null;
+>>>>>>> 300ef70 (.)
 
     public string $filename;
 
@@ -52,6 +56,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
      * @param  array<int, string>  $columns
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(Builder|QueryBuilder $query, array $headings = [], array $columns = [])
     {
         $this->query = $query;
@@ -62,23 +67,15 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-    public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
 =======
-    public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 300ef70 (.)
     public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
->>>>>>> 73eab74 (.)
     {
         $this->query = $query;
         $this->transKey = $transKey;
         $this->fields = $fields;
 
         /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
          * $this->headings = collect($query->first())
          * ->keys()
          * ->map(
@@ -94,39 +91,11 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
          * )
          * ->toArray();
          */
-<<<<<<< HEAD
-=======
-        $this->headings = collect($query->first())
-            ->keys()
-            ->map(
-                function ($item) use ($transKey) {
-                    $t = $transKey.'.'.$item;
-                    $trans = trans($t);
-                    if ($trans != $t) {
-                        return $trans;
-                    }
-
-                    return $item;
-                }
-            )
-            ->toArray();
-        */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     }
 
     public function getHead(): Collection
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!empty($this->fields)) {
-=======
-        if (! empty($this->fields)) {
->>>>>>> f1d4085 (.)
-=======
-        if (!empty($this->fields)) {
->>>>>>> 73eab74 (.)
             return collect($this->fields);
         }
         /**
@@ -225,14 +194,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
         return $data;
 =======
         return $this->query;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
         // ->orderBy('id');
 >>>>>>> d2b0a27 (.)
     }
@@ -247,6 +209,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
      */
     public function getHead(): Collection
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $this->query->limit(10)->get();
     }
@@ -274,20 +237,15 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-        if (!empty($this->fields)) {
 =======
-        if (! empty($this->fields)) {
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 300ef70 (.)
         if (!empty($this->fields)) {
->>>>>>> 73eab74 (.)
             return collect($item)->toArray();
         }
 
         // rameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
-<<<<<<< HEAD
-<<<<<<< HEAD
         return collect($item)->only($this->fields)->toArray();
+<<<<<<< HEAD
 =======
         return collect($item)
             ->only($this->fields)
@@ -297,5 +255,7 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
         return collect($item)->only($this->fields)->toArray();
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 }

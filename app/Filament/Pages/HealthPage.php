@@ -9,15 +9,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-use Spatie\Health\Checks\Check;
 =======
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 300ef70 (.)
 use Spatie\Health\Checks\Check;
->>>>>>> 73eab74 (.)
 use Spatie\Health\Checks\Checks\OptimizedAppCheck;
 use Spatie\Health\Checks\Checks\DebugModeCheck;
 use Spatie\Health\Checks\Checks\EnvironmentCheck;
@@ -39,12 +37,15 @@ use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Spatie\Health\Checks\Check;
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -138,6 +139,7 @@ class HealthPage extends Page
         return [
             Action::make('refresh')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,6 +149,8 @@ class HealthPage extends Page
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()

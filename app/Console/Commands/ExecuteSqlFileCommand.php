@@ -6,6 +6,7 @@ namespace Modules\Xot\Console\Commands;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Webmozart\Assert\Assert;
@@ -26,6 +27,11 @@ use Illuminate\Support\Facades\DB;
 use Webmozart\Assert\Assert;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
+use Webmozart\Assert\Assert;
+>>>>>>> 300ef70 (.)
 
 use function Safe\file_get_contents;
 
@@ -53,6 +59,7 @@ class ExecuteSqlFileCommand extends Command
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::string($filePath, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         if (! file_exists($filePath)) {
 =======
@@ -69,6 +76,10 @@ class ExecuteSqlFileCommand extends Command
         if (!file_exists($filePath)) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        Assert::string($filePath, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        if (!file_exists($filePath)) {
+>>>>>>> 300ef70 (.)
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -104,6 +115,7 @@ class ExecuteSqlFileCommand extends Command
             $this->info('File .sql eseguito con successo!');
         } catch (Exception $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $this->error("Errore durante l'esecuzione del file: ".$e->getMessage());
 =======
 <<<<<<< HEAD
@@ -116,6 +128,9 @@ class ExecuteSqlFileCommand extends Command
             $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
+>>>>>>> 300ef70 (.)
 
             return Command::FAILURE;
         } finally {

@@ -34,6 +34,7 @@ class MailData extends Data
         public readonly string $from_address = 'no-reply@example.com',
         public readonly string $from_name = 'Laraxot App',
 <<<<<<< HEAD
+<<<<<<< HEAD
         public readonly ?string $reply_to = null,
         public readonly bool $verify_peer = true,
     ) {}
@@ -55,6 +56,11 @@ class MailData extends Data
     ) {}
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        public readonly null|string $reply_to = null,
+        public readonly bool $verify_peer = true,
+    ) {}
+>>>>>>> 300ef70 (.)
 
     /**
      * Create a new instance of MailData with default values.

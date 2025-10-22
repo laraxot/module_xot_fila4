@@ -9,12 +9,15 @@ namespace Modules\Xot\Actions\Mail;
 use InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Relations\Relation;
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailable;
 use Illuminate\Support\Facades\Mail;
@@ -33,16 +36,20 @@ class SendMailByRecordAction
      * Invia una mail utilizzando un record come dati.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
      * @param Model  $record    Il record da utilizzare come dati per la mail
      * @param string $mailClass La classe Mailable da utilizzare
      */
     public function execute(Model $record, string $mailClass): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -58,6 +65,8 @@ class SendMailByRecordAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         Assert::classExists($mailClass);
         // Expected an implementation of "Illuminate\Mail\Mailable". Got: "Modules\Performance\Mail\SchedaMail"
         // Assert::implementsInterface($mailClass, Mailable::class);
@@ -66,6 +75,7 @@ class SendMailByRecordAction
         // in modo che possa ricevere le dipendenze necessarie
         // @var Mailable $mail
         // $mail = app($mailClass, ['record' => $record]);
+<<<<<<< HEAD
 <<<<<<< HEAD
         // Mail::send($mail);
         // dddx(Mail::to($record)->send(new $mailClass($record)));
@@ -87,6 +97,11 @@ class SendMailByRecordAction
         //$res=Mail::to('marco.sottana@gmail.com')->send($mail);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        //Mail::send($mail);
+        //dddx(Mail::to($record)->send(new $mailClass($record)));
+        //$res=Mail::to('marco.sottana@gmail.com')->send($mail);
+>>>>>>> 300ef70 (.)
 
         // Verifica che il model abbia le proprietà/metodi necessari
         if (($record->email ?? null) === null || empty($record->email)) {
@@ -94,16 +109,20 @@ class SendMailByRecordAction
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
         if (!method_exists($record, 'option')) {
             throw new InvalidArgumentException('Model must implement option method');
         }
 
         if (!method_exists($record, 'myLogs')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -118,6 +137,8 @@ class SendMailByRecordAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             throw new InvalidArgumentException('Model must implement myLogs method');
         }
 
@@ -127,16 +148,20 @@ class SendMailByRecordAction
             'body_html' => $record->option('mail_testo'),
             'attachments' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
                 app(PdfByModelAction::class)->execute(
                     model: $record,
                     out: 'path',
                 ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -146,11 +171,14 @@ class SendMailByRecordAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             ],
         ];
         $emailData = EmailData::from($data);
         SmtpData::make()->send($emailData);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         $myLogs = $record->myLogs();
         if (is_object($myLogs) && method_exists($myLogs, 'create')) {
@@ -164,12 +192,15 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
         $record
             ->myLogs()
             ->create([
                 'act' => 'sendMail',
                 'handle' => authId(),
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         // Type assertion: myLogs() deve restituire una relazione che supporta create()
@@ -189,5 +220,7 @@ class SendMailByRecordAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 }

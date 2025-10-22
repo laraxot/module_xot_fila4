@@ -35,6 +35,7 @@ trait Updater
 
         // @phpstan-ignore return.type
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
 =======
 <<<<<<< HEAD
@@ -51,6 +52,9 @@ trait Updater
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+>>>>>>> 300ef70 (.)
     }
 
     /**
@@ -64,6 +68,7 @@ trait Updater
         $profileClass = XotData::make()->getProfileClass();
 
         // @phpstan-ignore return.type
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
 =======
@@ -81,6 +86,9 @@ trait Updater
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+>>>>>>> 300ef70 (.)
     }
 
     /**
@@ -89,12 +97,15 @@ trait Updater
     protected static function bootUpdater(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         static::creating(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
 
@@ -114,6 +125,7 @@ trait Updater
                 $model->setAttribute('updated_by', authId());
             }
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -145,10 +157,13 @@ trait Updater
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         /*
          * Deleting a model is slightly different than creating or deleting.
          * For deletes we need to save the model first with the deleted_by field
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -156,6 +171,8 @@ trait Updater
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         static::deleting(static function (Model $model): void {
             Assert::isArray($attributes = $model->attributes);
 
@@ -167,6 +184,7 @@ trait Updater
 }
 
 // end trait Updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -186,3 +204,5 @@ trait Updater
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

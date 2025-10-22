@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Pdf;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
@@ -13,10 +14,13 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Spipu\Html2Pdf\Html2Pdf;
@@ -27,6 +31,8 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class PdfByHtmlAction
@@ -62,16 +68,20 @@ class PdfByHtmlAction
             'engine' => $engine,
         ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         // Genera il PDF utilizzando PdfData
         $data->fromHtml($html);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -84,6 +94,8 @@ class PdfByHtmlAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // Restituisce il risultato in base al tipo di output richiesto
         return match ($out) {
             'download' => $data->download(),

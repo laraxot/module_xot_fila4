@@ -370,4 +370,9 @@ public function getModels(): array
 **🌐 Translation Standards**: IT/EN complete ✅  
 **🚀 Performance**: 98/100 score  
 **✨ Test Coverage**: 90% ✅
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
+=======
+
+
+>>>>>>> 300ef70 (.)

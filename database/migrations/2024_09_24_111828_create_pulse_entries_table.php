@@ -13,12 +13,15 @@ return new class extends XotBaseMigration
     public function up(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
         if (!$this->shouldRun()) {
 >>>>>>> d2b0a27 (.)
             return;
@@ -42,6 +45,7 @@ return new class extends XotBaseMigration
             $table->index('key_hash'); // For mapping...
             $table->index(['timestamp', 'type', 'key_hash', 'value']); // For aggregate queries...
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -74,5 +78,7 @@ return new class extends XotBaseMigration
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 };

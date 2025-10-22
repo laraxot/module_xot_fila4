@@ -219,10 +219,6 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 
 ## 🔗 Collegamenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
@@ -235,14 +231,6 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 - [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/docs/container)
-<<<<<<< HEAD
-=======
-- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
-- [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
-- [Container Resolution Laravel](https://laravel.com/project_docs/container)
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
 ---
 
@@ -250,12 +238,13 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 **Priorità**: P0 (Critical) - Bloccava sistema completo  
 **Impatto**: Sistema completamente non funzionale  
 **Tempo di risoluzione**: 15 minuti  
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Pattern**: View Composer Loop Prevention 
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 =======
 **Pattern**: View Composer Loop Prevention 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

@@ -6,18 +6,22 @@ namespace Modules\Xot\Filament\Resources\CacheResource\Pages;
 
 use Modules\Xot\Filament\Resources\CacheResource;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> d2b0a27 (.)
 
 class EditCache extends XotBaseEditRecord
 {
     protected static string $resource = CacheResource::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -41,4 +45,6 @@ class EditCache extends XotBaseEditRecord
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 }

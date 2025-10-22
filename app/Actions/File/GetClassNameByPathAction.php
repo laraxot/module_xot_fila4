@@ -5,17 +5,21 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\File;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\file_get_contents;
 use function Safe\preg_match;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -29,6 +33,8 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 class GetClassNameByPathAction
 {
     use QueueableAction;
@@ -44,6 +50,7 @@ class GetClassNameByPathAction
         $className = $classMatch[1] ?? '';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
 =======
 <<<<<<< HEAD
@@ -56,6 +63,9 @@ class GetClassNameByPathAction
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+>>>>>>> 300ef70 (.)
 
         return $fullClassName;
     }
@@ -63,12 +73,15 @@ class GetClassNameByPathAction
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
  * $class = Str::of($path)
  * ->after(base_path('Modules'))
  * ->prepend('\Modules')
@@ -76,6 +89,7 @@ class GetClassNameByPathAction
  * ->replace('/', '\\')
  * ->toString();
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -91,3 +105,5 @@ $class = Str::of($path)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

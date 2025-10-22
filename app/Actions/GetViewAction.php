@@ -41,12 +41,15 @@ class GetViewAction
         $tmp = array_slice($arr, 4); // con "app"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $tmp = collect($tmp)
             ->map(static function ($item) {
                 $item = str_replace('.php', '', $item);
@@ -62,6 +65,7 @@ class GetViewAction
 
         if ('' !== $tpl) {
             $pub_view .= '.' . $tpl;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $tmp = collect($tmp)->map(
@@ -84,21 +88,27 @@ class GetViewAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         }
         if (view()->exists($pub_view)) {
             return $pub_view;
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
         $view = Str::lower($mod) . '::' . $tmp;
 
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -112,10 +122,13 @@ class GetViewAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         }
 
         // if (inAdmin()) {
         if (Str::contains($view, '::panels.actions.')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
 =======
@@ -129,12 +142,16 @@ class GetViewAction
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 300ef70 (.)
             $view = Str::replace('::panels.actions.', $to, $view);
             $view = Str::replace('-action', '', $view);
         }
 
         // }
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
         if (! view()->exists($view)) {
             throw new Exception('View ['.$view.'] not found');
@@ -155,6 +172,11 @@ class GetViewAction
             throw new Exception('View [' . $view . '] not found');
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 300ef70 (.)
         }
 
         return $view;

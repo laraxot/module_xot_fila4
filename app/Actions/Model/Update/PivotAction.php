@@ -18,12 +18,15 @@ class PivotAction
      * Undocumented function.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, Pivot::class);
@@ -40,6 +43,7 @@ class PivotAction
          *
          *
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -63,5 +67,7 @@ class PivotAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 }

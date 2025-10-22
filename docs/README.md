@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Xot Module - Framework Base Laraxot
 =======
 <<<<<<< HEAD
@@ -6,6 +7,8 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica
@@ -431,6 +434,7 @@ ls Modules/*/lang/*/
 
 ## Documentation Archive & Legacy
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -476,10 +480,13 @@ Configurazione automatica tramite service providers.
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Principles
 - **DRY**: Un solo punto di verità
@@ -511,6 +518,9 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 ## Quick Links Legacy
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+## Quick Links Legacy
+>>>>>>> 300ef70 (.)
 - [Root Documentation](../../../docs/)
 - [<main module> Module](../<main module>/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)

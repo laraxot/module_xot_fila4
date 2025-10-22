@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\Collection;
 // use Modules\Xot\Services\ArrayService;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Collection;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
@@ -25,6 +26,11 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Illuminate\Support\Collection;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 300ef70 (.)
 
 /**
  * Action per la traduzione di elementi di una collezione.
@@ -34,6 +40,7 @@ class TransCollectionAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $transKey;
 =======
 <<<<<<< HEAD
@@ -46,10 +53,14 @@ class TransCollectionAction
     public null|string $transKey;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    public null|string $transKey;
+>>>>>>> 300ef70 (.)
 
     /**
      * Esegue la traduzione di una collezione.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -57,6 +68,8 @@ class TransCollectionAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
      * @param  Collection<int|string, mixed>  $collection
      * @return Collection<int|string, string>
      */
@@ -64,6 +77,7 @@ class TransCollectionAction
     {
         if ($transKey === null) {
             return $collection->map(SafeStringCastAction::cast(...));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -79,10 +93,13 @@ class TransCollectionAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         }
 
         $this->transKey = $transKey;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $collection->map($this->trans(...));
 =======
@@ -96,11 +113,15 @@ class TransCollectionAction
         return $collection->map($this->trans(...));
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return $collection->map($this->trans(...));
+>>>>>>> 300ef70 (.)
     }
 
     /**
      * Traduce un singolo elemento.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  mixed  $item  L'elemento da tradurre
 =======
@@ -113,11 +134,15 @@ class TransCollectionAction
      * @param  mixed  $item  L'elemento da tradurre
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+     * @param  mixed  $item  L'elemento da tradurre
+>>>>>>> 300ef70 (.)
      * @return string L'elemento tradotto o l'elemento originale se la traduzione non esiste
      */
     public function trans(mixed $item): string
     {
         // Converte l'item in stringa se non lo è già
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! \is_string($item)) {
 =======
@@ -125,6 +150,8 @@ class TransCollectionAction
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
         if (!\is_string($item)) {
 >>>>>>> d2b0a27 (.)
             $item = SafeStringCastAction::cast($item);
@@ -132,6 +159,7 @@ class TransCollectionAction
 
         if (empty($item) || $this->transKey === null) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -140,11 +168,14 @@ class TransCollectionAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             return $item;
         }
 
         // Prima prova la traduzione diretta
 <<<<<<< HEAD
+<<<<<<< HEAD
         $key = $this->transKey.'.'.$item;
 =======
 <<<<<<< HEAD
@@ -157,6 +188,9 @@ class TransCollectionAction
         $key = $this->transKey . '.' . $item;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        $key = $this->transKey . '.' . $item;
+>>>>>>> 300ef70 (.)
         $trans = trans($key);
 
         // Se la traduzione esiste ed è una stringa, la restituisce
@@ -167,6 +201,7 @@ class TransCollectionAction
         // Seconda prova: sostituisce i punti con underscore
         $itemWithUnderscore = str_replace('.', '_', $item);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $keyWithUnderscore = $this->transKey.'.'.$itemWithUnderscore;
 =======
 <<<<<<< HEAD
@@ -179,6 +214,9 @@ class TransCollectionAction
         $keyWithUnderscore = $this->transKey . '.' . $itemWithUnderscore;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        $keyWithUnderscore = $this->transKey . '.' . $itemWithUnderscore;
+>>>>>>> 300ef70 (.)
         $transWithUnderscore = trans($keyWithUnderscore);
 
         // Se la traduzione con underscore esiste ed è una stringa, la restituisce

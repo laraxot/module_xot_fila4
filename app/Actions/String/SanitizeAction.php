@@ -6,16 +6,20 @@ namespace Modules\Xot\Actions\String;
 
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -29,6 +33,8 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 class SanitizeAction
 {
     use QueueableAction;
@@ -54,12 +60,15 @@ class SanitizeAction
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
  * $string = trim($item);
  *
  *
@@ -72,6 +81,7 @@ class SanitizeAction
  * // Additional removal of non-printable characters
  * $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -92,3 +102,5 @@ $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

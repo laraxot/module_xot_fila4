@@ -5,15 +5,19 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Filament\Actions\Action;
 >>>>>>> d2b0a27 (.)
 use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 use Modules\Xot\Filament\Traits\TransTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -30,6 +34,8 @@ use Filament\Actions\Action;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
 /**
  * Classe base per i widget StatsOverview del sistema Xot.
@@ -40,6 +46,7 @@ use Filament\Actions\Action;
 abstract class XotBaseStatsOverviewWidget extends FilamentStatsOverviewWidget
 {
     use TransTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 =======
@@ -55,3 +62,6 @@ abstract class XotBaseStatsOverviewWidget extends FilamentStatsOverviewWidget
 }
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+}
+>>>>>>> 300ef70 (.)

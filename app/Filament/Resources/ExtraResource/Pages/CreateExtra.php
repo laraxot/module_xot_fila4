@@ -6,6 +6,7 @@ namespace Modules\Xot\Filament\Resources\ExtraResource\Pages;
 
 use Modules\Xot\Filament\Resources\ExtraResource;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 
 =======
@@ -30,6 +31,10 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+>>>>>>> 300ef70 (.)
 class CreateExtra extends XotBaseCreateRecord
 {
     protected static string $resource = ExtraResource::class;

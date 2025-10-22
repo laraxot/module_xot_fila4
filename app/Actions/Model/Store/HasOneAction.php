@@ -17,12 +17,15 @@ class HasOneAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
@@ -34,6 +37,7 @@ class HasOneAction
             $related = $relationDTO->related->find($related_id);
             if (!($related instanceof Model)) {
                 throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public function execute(Model $model, RelationDTO $relationDTO): void
@@ -55,6 +59,8 @@ class HasOneAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             }
 
             $rows->save($related);
@@ -64,12 +70,15 @@ class HasOneAction
 
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
          * $rows = $relation->rows;
          * try {
          * $related = $rows->create($relation->data);
@@ -85,6 +94,7 @@ class HasOneAction
          * $model->update($data1);
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -108,5 +118,7 @@ class HasOneAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 }

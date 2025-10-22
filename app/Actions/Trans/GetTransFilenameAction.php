@@ -22,15 +22,19 @@ class GetTransFilenameAction
             Assert::string($langPath, 'Percorso lang non valido');
         } catch (Throwable $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
             $langPath = base_path('Modules/' . $ns . '/lang');
         }
 
         $lang_path_full = $langPath . '/' . $lang . '/' . $file . '.php';
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -44,6 +48,8 @@ class GetTransFilenameAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $lang_path_full = str_replace(['\\', '/'], [DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $lang_path_full);
 
         return $lang_path_full;

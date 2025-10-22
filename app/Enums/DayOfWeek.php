@@ -50,6 +50,7 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
     public function getColor(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return match ($this) {
 =======
 <<<<<<< HEAD
@@ -62,6 +63,9 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
         return match ($this) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return match ($this) {
+>>>>>>> 300ef70 (.)
             self::MONDAY => 'primary',
             self::TUESDAY => 'success',
             self::WEDNESDAY => 'warning',
@@ -79,6 +83,7 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
     public function getIcon(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return match ($this) {
 =======
 <<<<<<< HEAD
@@ -91,6 +96,9 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
         return match ($this) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return match ($this) {
+>>>>>>> 300ef70 (.)
             self::MONDAY => 'heroicon-o-calendar',
             self::TUESDAY => 'heroicon-o-calendar',
             self::WEDNESDAY => 'heroicon-o-calendar',
@@ -100,6 +108,7 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
             self::SUNDAY => 'heroicon-o-calendar',
         };
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -113,12 +122,16 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
     /**
      * Restituisce la descrizione dettagliata di questo giorno della settimana.
      * Implementazione dell'interfaccia HasDescription di Filament.
      */
     public function getDescription(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return match ($this) {
             self::MONDAY => __('<nome progetto>::common.days.description.monday'),
@@ -131,13 +144,9 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-        return match ($this) {
 =======
-        return match($this) {
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 300ef70 (.)
         return match ($this) {
->>>>>>> 73eab74 (.)
             self::MONDAY => __('saluteora::common.days.description.monday'),
             self::TUESDAY => __('saluteora::common.days.description.tuesday'),
             self::WEDNESDAY => __('saluteora::common.days.description.wednesday'),
@@ -184,6 +193,7 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
     {
         /** @var Collection<int, self> $filtered */
 <<<<<<< HEAD
+<<<<<<< HEAD
         $filtered = collect(self::cases())->filter(fn (self $day): bool => $day->value <= 5);
 
 =======
@@ -197,6 +207,9 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
         $filtered = collect(self::cases())->filter(fn(self $day): bool => $day->value <= 5);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        $filtered = collect(self::cases())->filter(fn(self $day): bool => $day->value <= 5);
+>>>>>>> 300ef70 (.)
         return $filtered;
     }
 
@@ -209,6 +222,7 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
     {
         /** @var Collection<int, self> $filtered */
 <<<<<<< HEAD
+<<<<<<< HEAD
         $filtered = collect(self::cases())->filter(fn (self $day): bool => $day->value > 5);
 
 =======
@@ -222,6 +236,9 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
         $filtered = collect(self::cases())->filter(fn(self $day): bool => $day->value > 5);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        $filtered = collect(self::cases())->filter(fn(self $day): bool => $day->value > 5);
+>>>>>>> 300ef70 (.)
         return $filtered;
     }
 
@@ -239,6 +256,7 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
     public function next(): self
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return match ($this) {
 =======
 <<<<<<< HEAD
@@ -251,6 +269,9 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
         return match ($this) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return match ($this) {
+>>>>>>> 300ef70 (.)
             self::MONDAY => self::TUESDAY,
             self::TUESDAY => self::WEDNESDAY,
             self::WEDNESDAY => self::THURSDAY,

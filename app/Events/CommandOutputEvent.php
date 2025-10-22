@@ -21,6 +21,7 @@ class CommandOutputEvent implements ShouldBroadcast
         public string $output,
         public string $type = 'output',
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 =======
 <<<<<<< HEAD
@@ -34,6 +35,9 @@ class CommandOutputEvent implements ShouldBroadcast
     ) {}
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    ) {}
+>>>>>>> 300ef70 (.)
 
     /**
      * @return list<Channel>

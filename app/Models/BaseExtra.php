@@ -5,15 +5,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-use Override;
 =======
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 300ef70 (.)
 use Override;
->>>>>>> 73eab74 (.)
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Support\Carbon;
 >>>>>>> d2b0a27 (.)
@@ -80,6 +78,7 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
     public function scopeWithExtraAttributes(): Builder
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::notNull($this->extra_attributes, '['.__FILE__.']['.__LINE__.']');
 =======
 <<<<<<< HEAD
@@ -92,6 +91,9 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
         Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
+>>>>>>> 300ef70 (.)
 
         return $this->extra_attributes->modelScope();
     }
@@ -102,6 +104,7 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
      * @return array<string, string>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 <<<<<<< HEAD
@@ -113,11 +116,15 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
     #[Override]
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    #[Override]
+>>>>>>> 300ef70 (.)
     protected function casts(): array
     {
         return [
             'extra_attributes' => SchemalessAttributes::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -140,6 +147,11 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
             'deleted_at' => 'datetime',
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 300ef70 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

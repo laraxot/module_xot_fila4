@@ -24,6 +24,7 @@ class GetFilenameByClassnameAction
         } catch (Exception $e) {
             $filename = str_replace('\\', '/', $class_name);
 <<<<<<< HEAD
+<<<<<<< HEAD
             $filename = base_path($filename).'.php';
 =======
 <<<<<<< HEAD
@@ -36,12 +37,16 @@ class GetFilenameByClassnameAction
             $filename = base_path($filename) . '.php';
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            $filename = base_path($filename) . '.php';
+>>>>>>> 300ef70 (.)
         }
 
         if (is_string($filename)) {
             return $filename;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
 =======
 <<<<<<< HEAD
@@ -54,5 +59,8 @@ class GetFilenameByClassnameAction
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+>>>>>>> 300ef70 (.)
     }
 }

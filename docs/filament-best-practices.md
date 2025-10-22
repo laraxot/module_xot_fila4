@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -172,11 +175,6 @@ public function getTableColumns(): array
         'created_at' => Tables\Columns\TextColumn::make('created_at')
             ->dateTime('d/m/Y H:i')
             ->sortable(),
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -232,10 +230,6 @@ public static function getFormSchema(): array
 }
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 ## Regole per XotBaseEditRecord
 
 ### Implementazione Corretta
@@ -305,11 +299,6 @@ class CreateAppointment extends XotBaseCreateRecord
 ## Esempi di Implementazione Corretta
 
 ### ReportResource.php - IMPLEMENTAZIONE CORRETTA
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 #### ❌ DON'T - Non utilizzare il metodo form()
 
 ```php
@@ -362,10 +351,6 @@ TextInput::make('nome')
 ```php
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 declare(strict_types=1);
 
 namespace Modules\SaluteMo\Filament\Resources;
@@ -416,11 +401,6 @@ class ReportResource extends XotBaseResource
             'create' => Pages\CreateReport::route('/create'),
             'edit' => Pages\EditReport::route('/{record}/edit'),
         ];
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 namespace Modules\Brain\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
@@ -510,10 +490,6 @@ class SocioResource extends XotBaseResource
 }
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 ## Checklist di Conformità
 
 Prima di considerare completa una risorsa Filament, verificare:
@@ -576,11 +552,6 @@ Prima di considerare completa una risorsa Filament, verificare:
    - **Indirizzo e contatti**: via, cap, regione_id, provincia_id, etc.
    - **Dati bancari**: iban, intestatario, banca, filiale
    - **Modalità di ricezione**: Lista di modalità selezionabili
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 ## Struttura delle Traduzioni
 
 ### File di Traduzione Completo
@@ -976,18 +947,8 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 ## Riferimenti
 
 - [Documentazione Filament](https://filamentphp.com/docs)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
-=======
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/best-practices.md)
->>>>>>> f1d4085 (.)
-=======
-- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
-- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
->>>>>>> 73eab74 (.)
 
 ## Regole per Widget Filament: Path View e Localizzazione
 

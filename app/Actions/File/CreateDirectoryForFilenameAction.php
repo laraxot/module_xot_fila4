@@ -14,6 +14,7 @@ class CreateDirectoryForFilenameAction
     public function execute(string $filename): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! File::exists(\dirname($filename))) {
             File::makeDirectory(\dirname($filename), 0o755, true, true);
 =======
@@ -30,6 +31,10 @@ class CreateDirectoryForFilenameAction
             File::makeDirectory(\dirname($filename), 0o755, true, true);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        if (!File::exists(\dirname($filename))) {
+            File::makeDirectory(\dirname($filename), 0o755, true, true);
+>>>>>>> 300ef70 (.)
         }
     }
 }

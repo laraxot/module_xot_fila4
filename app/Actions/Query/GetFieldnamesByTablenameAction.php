@@ -25,6 +25,7 @@ final class GetFieldnamesByTablenameAction
      * @throws InvalidArgumentException
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $table, ?string $connectionName = null): array
 =======
 <<<<<<< HEAD
@@ -37,6 +38,9 @@ final class GetFieldnamesByTablenameAction
     public function execute(string $table, null|string $connectionName = null): array
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    public function execute(string $table, null|string $connectionName = null): array
+>>>>>>> 300ef70 (.)
     {
         // Validate table name
         if (empty(trim($table))) {
@@ -45,12 +49,15 @@ final class GetFieldnamesByTablenameAction
 
         // Use default connection if none is provided
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         Assert::string($connectionName ??= config('database.default'));
 
         // Validate database connection
@@ -65,6 +72,7 @@ final class GetFieldnamesByTablenameAction
                 $table,
                 $connectionName,
             ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -83,6 +91,8 @@ final class GetFieldnamesByTablenameAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         }
 
         // Get and return column listing
@@ -93,12 +103,15 @@ final class GetFieldnamesByTablenameAction
 
             return $columns;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
             // return array_values(array_map(static fn ($value): string => is_string($value) ? $value : (string) $value, $columns));
         } catch (Throwable $e) {
@@ -107,6 +120,7 @@ final class GetFieldnamesByTablenameAction
                 $table,
                 $e->getMessage(),
             ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -118,6 +132,8 @@ final class GetFieldnamesByTablenameAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         }
     }
 

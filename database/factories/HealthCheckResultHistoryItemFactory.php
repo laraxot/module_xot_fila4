@@ -10,6 +10,7 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 /**
  * HealthCheckResultHistoryItem Factory
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 <<<<<<< HEAD
@@ -22,6 +23,9 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
  *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+ *
+>>>>>>> 300ef70 (.)
  * @extends Factory<HealthCheckResultHistoryItem>
  */
 class HealthCheckResultHistoryItemFactory extends Factory
@@ -33,6 +37,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return [
             'check_name' => $this->faker->randomElement([
                 'DatabaseCheck',
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'CacheCheck',
 =======
@@ -46,6 +51,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
                 'CacheCheck',
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+                'CacheCheck',
+>>>>>>> 300ef70 (.)
                 'QueueCheck',
                 'StorageCheck',
                 'MemoryCheck',
@@ -65,6 +73,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
     public function ok(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
 <<<<<<< HEAD
@@ -77,6 +86,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 300ef70 (.)
             'status' => 'ok',
             'notification_message' => null,
         ]);
@@ -85,6 +97,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
     public function failed(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
 <<<<<<< HEAD
@@ -97,6 +110,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 300ef70 (.)
             'status' => 'failed',
             'notification_message' => $this->faker->sentence(),
         ]);

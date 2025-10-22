@@ -6,6 +6,7 @@ namespace Modules\Xot\Services;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16,11 +17,14 @@ use function count;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function count;
 
 =======
@@ -35,6 +39,10 @@ use function count;
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use function count;
+
+>>>>>>> 300ef70 (.)
 /**
  * Class RouteService.
  * Modules\Xot\Services\RouteService.
@@ -65,12 +73,15 @@ class RouteService
         // Verifichiamo un caso speciale per le richieste Livewire
         $segments = Request::segments();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
         return
@@ -83,6 +94,7 @@ class RouteService
             session('in_admin', false) === true
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
         // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
@@ -93,6 +105,8 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 
     /**
@@ -106,12 +120,15 @@ class RouteService
         extract($params);
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
          * $mutator = $act.'_url';
          * try {
          * $route = $row->$mutator;
@@ -119,6 +136,7 @@ class RouteService
          * $route = '#';
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -134,22 +152,28 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $route_action = (string) Route::currentRouteAction();
         Str::snake(Str::after($route_action, '@'));
         // Cannot call method getName() on mixed.
         $routename = ''; // Request::route()->getName();
         $old_act_route = last(explode('.', $routename));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
         if (!\is_string($old_act_route)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename(self::class) . ']');
         }
 
         $routename_act = Str::before($routename, $old_act_route) . '' . $act;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -164,6 +188,8 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $route_current = Route::current();
         $route_params = [];
         if ($route_current instanceof \Illuminate\Routing\Route) {
@@ -173,18 +199,22 @@ class RouteService
 
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
          * try {
          * $route_params = optional(\Route::current())->parameters();
          * } catch (\Exception $e) {
          * $route_params = [];
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -199,6 +229,8 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         if (Route::has($routename_act)) {
             $parz = array_merge($route_params, [$row]);
             $parz = array_merge($parz, $query);
@@ -206,6 +238,7 @@ class RouteService
             return route($routename_act, $parz);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         return '#'.$routename_act;
 =======
@@ -219,6 +252,9 @@ class RouteService
         return '#' . $routename_act;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return '#' . $routename_act;
+>>>>>>> 300ef70 (.)
     }
 
     // se n=0 => 'container0'
@@ -243,9 +279,8 @@ class RouteService
             $tmp[] = 'container'.$i;
 =======
         for ($i = 0; $i <= $n; ++$i) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             $tmp[] = 'container' . $i;
+<<<<<<< HEAD
 =======
             $tmp[] = 'container'.$i;
 >>>>>>> f1d4085 (.)
@@ -253,6 +288,8 @@ class RouteService
             $tmp[] = 'container' . $i;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         }
 
         $tmp[] = $act;
@@ -262,12 +299,15 @@ class RouteService
 
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
      * public static function urlRelatedPanel(array $params){
      * $act = 'show';
      * extract($params);
@@ -345,6 +385,7 @@ class RouteService
      * return $url;
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -430,6 +471,8 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     /**
      * @param  array<string,string>  $params
      */
@@ -439,12 +482,15 @@ class RouteService
 
         return '?';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         /*
          * return '?'.$lang; //da fixare dopo
@@ -505,6 +551,7 @@ class RouteService
          * return url($lang);
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -572,6 +619,8 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 
     /**
@@ -642,12 +691,15 @@ class RouteService
 
         return collect($tmp_arr)
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
             ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
 >>>>>>> d2b0a27 (.)
             ->map(static function ($item) use ($params) {
@@ -656,6 +708,7 @@ class RouteService
                 return $params[$item] ?? $item;
             })
             ->implode('.');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -674,5 +727,7 @@ class RouteService
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 }

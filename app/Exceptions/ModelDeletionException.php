@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Exceptions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19,6 +20,9 @@ use Override;
 use Override;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Override;
+>>>>>>> 300ef70 (.)
 use Exception;
 use Illuminate\Http\Response;
 use Illuminate\Support\Str;
@@ -29,12 +33,15 @@ class ModelDeletionException extends ApplicationException
     private readonly string $model;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function __construct(
         private readonly int $id,
         string $model,
@@ -43,6 +50,7 @@ class ModelDeletionException extends ApplicationException
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -56,11 +64,14 @@ class ModelDeletionException extends ApplicationException
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function status(): int
     {
         return Response::HTTP_BAD_REQUEST;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -68,6 +79,8 @@ class ModelDeletionException extends ApplicationException
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     #[Override]
     public function help(): string
     {
@@ -79,6 +92,7 @@ class ModelDeletionException extends ApplicationException
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public function help(): string
     {
@@ -89,11 +103,14 @@ class ModelDeletionException extends ApplicationException
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         }
 
         return $res;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -101,6 +118,8 @@ class ModelDeletionException extends ApplicationException
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     #[Override]
     public function error(): string
     {
@@ -114,6 +133,7 @@ class ModelDeletionException extends ApplicationException
 =======
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public function error(): string
@@ -131,6 +151,8 @@ class ModelDeletionException extends ApplicationException
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         }
 
         return $res;

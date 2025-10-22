@@ -13,6 +13,7 @@ $middleware = [
 Route::middleware($middleware)
     ->namespace($namespace)
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->group(static function (): void {
         Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
     });
@@ -35,3 +36,8 @@ Route::middleware($middleware)
     });
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    ->group(static function (): void {
+        Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
+    });
+>>>>>>> 300ef70 (.)

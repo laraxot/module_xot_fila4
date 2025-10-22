@@ -34,6 +34,7 @@ class RouteData extends Data
     public static function make(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new static;
 =======
 <<<<<<< HEAD
@@ -46,5 +47,8 @@ class RouteData extends Data
         return new static();
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return new static();
+>>>>>>> 300ef70 (.)
     }
 }

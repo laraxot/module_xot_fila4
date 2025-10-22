@@ -54,6 +54,7 @@ class MorphToOneAction
     {
         // Ensure the 'lang' key is set to the current locale if not provided
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! isset($data['lang'])) {
 =======
 <<<<<<< HEAD
@@ -66,10 +67,14 @@ class MorphToOneAction
         if (!isset($data['lang'])) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 300ef70 (.)
             $data['lang'] = App::getLocale();
         }
 
         // Return the prepared data
+<<<<<<< HEAD
 <<<<<<< HEAD
         return array_filter($data, static fn ($value) => $value !== null);
 =======
@@ -83,5 +88,8 @@ class MorphToOneAction
         return array_filter($data, static fn($value) => null !== $value);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return array_filter($data, static fn($value) => null !== $value);
+>>>>>>> 300ef70 (.)
     }
 }

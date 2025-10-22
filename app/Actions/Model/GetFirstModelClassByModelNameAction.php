@@ -22,16 +22,20 @@ class GetFirstModelClassByModelNameAction
     {
         $models = app(GetAllModelsAction::class)->execute();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         Assert::string(
             $modelClass = collect($models)->get($modelName),
             '['.__LINE__.']['.class_basename($this).']',
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -41,6 +45,8 @@ class GetFirstModelClassByModelNameAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         return $modelClass;
     }

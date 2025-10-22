@@ -17,12 +17,15 @@ class MorphedByManyAction
      * Undocumented function.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function execute(Model $_model, RelationDTO $_relationDTO): void
     {
         // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
@@ -41,6 +44,7 @@ class MorphedByManyAction
          * $model->$name()->touch();
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -66,5 +70,7 @@ class MorphedByManyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 }

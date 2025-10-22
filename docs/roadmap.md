@@ -48,9 +48,8 @@ Il modulo Xot è il core del sistema, fornisce le funzionalità base, i contratt
 - [x] Collegamenti bidirezionali
 - [ ] Completamento esempi
 - [ ] Testi in italiano
-<<<<<<< HEAD
-<<<<<<< HEAD
   - [Dettagli e Passi](./roadmap/docs/status.md)
+<<<<<<< HEAD
 =======
   - [Dettagli e Passi](./roadmap/project_docs/status.md)
 >>>>>>> f1d4085 (.)
@@ -58,6 +57,8 @@ Il modulo Xot è il core del sistema, fornisce le funzionalità base, i contratt
   - [Dettagli e Passi](./roadmap/docs/status.md)
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
 ### Fase 2: Advanced Features (COMPLETATA)
 - ✅ Actions system
@@ -263,21 +264,9 @@ Il modulo Xot è il core del sistema, fornisce le funzionalità base, i contratt
 ## Collegamenti Bidirezionali
 
 ### Collegamenti ad Altri Moduli
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
-=======
-- [Roadmap Modulo User](../User/project_docs/roadmap.md)
-- [Roadmap Modulo Lang](../Lang/project_docs/roadmap.md)
-- [Roadmap Modulo UI](../UI/project_docs/roadmap.md)
->>>>>>> f1d4085 (.)
-=======
-- [Roadmap Modulo User](../User/docs/roadmap.md)
-- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
-- [Roadmap Modulo UI](../UI/docs/roadmap.md)
->>>>>>> 73eab74 (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -470,15 +459,7 @@ Il modulo Xot è il core del sistema, fornisce le funzionalità base, i contratt
 ## Riferimenti
 
 ### Documentazione
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Laravel Framework](https://laravel.com/docs/12.x)
-=======
-- [Laravel Framework](https://laravel.com/project_docs/12.x)
->>>>>>> f1d4085 (.)
-=======
-- [Laravel Framework](https://laravel.com/docs/12.x)
->>>>>>> 73eab74 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 
@@ -493,10 +474,6 @@ Il modulo Xot è il core del sistema, fornisce le funzionalità base, i contratt
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -513,6 +490,7 @@ Il modulo Xot è il core del sistema, fornisce le funzionalità base, i contratt
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
@@ -535,6 +513,8 @@ Il modulo Xot è il core del sistema, fornisce le funzionalità base, i contratt
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
 
 

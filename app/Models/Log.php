@@ -7,14 +7,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 =======
 use Sushi\Sushi;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Override;
-=======
->>>>>>> f1d4085 (.)
-=======
-use Override;
->>>>>>> 73eab74 (.)
 use Modules\Xot\Database\Factories\FeedFactory;
 >>>>>>> d2b0a27 (.)
 use Illuminate\Database\Eloquent\Builder;
@@ -98,11 +91,14 @@ class Log extends BaseModel
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function getFileContentAttribute(null|string $value): null|string
     {
         return File::get(storage_path('logs/' . $this->id . '.log'));
@@ -110,6 +106,7 @@ class Log extends BaseModel
 
     /** @return array<string, string> */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -126,12 +123,15 @@ class Log extends BaseModel
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'name' => 'string',
             'size' => 'integer',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -155,6 +155,11 @@ class Log extends BaseModel
             'deleted_at' => 'datetime',
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 300ef70 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -164,12 +169,15 @@ class Log extends BaseModel
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
  * dddx([
  * 'getRelativePath' => $file->getRelativePath(), // ""
  * 'getRelativePathname' => $file->getRelativePathname(),
@@ -228,6 +236,7 @@ class Log extends BaseModel
  * "getLinkTarget" => "C:\var\www\_bases\base_camping_fila3\laravel\storage\logs\laravel-2024-03-01.log"
  * "getRealPath" => "C:\var\www\_bases\base_camping_fila3\laravel\storage\logs\laravel-2024-03-01.log"
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -294,3 +303,5 @@ class Log extends BaseModel
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

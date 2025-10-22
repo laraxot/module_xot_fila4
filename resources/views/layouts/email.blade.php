@@ -1,15 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +22,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 <!DOCTYPE html>
 <html>
 <head>
@@ -65,6 +71,7 @@ declare(strict_types=1);
     </div>
 </body>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </html>
 =======
 <<<<<<< HEAD
@@ -77,3 +84,6 @@ declare(strict_types=1);
 </html>
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+</html>
+>>>>>>> 300ef70 (.)

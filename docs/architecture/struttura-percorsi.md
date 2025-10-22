@@ -1,51 +1,32 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
 # Struttura dei percorsi nel progetto 
 
 ## Regola fondamentale
 
 **Tutti i percorsi assoluti nel progetto PTVX DEVONO includere il segmento `laravel/` dopo `base_ptvx_fila3_mono/`.**
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 # Struttura dei percorsi nel progetto SaluteOra
 
 ## Regola fondamentale
 
 **Tutti i percorsi assoluti nel progetto SaluteOra DEVONO includere il segmento `laravel/` dopo `base_saluteora/`.**
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Tutti i percorsi assoluti nel progetto SaluteOra DEVONO includere il segmento `laravel/` dopo `base_techplanner_fila3_mono/`.**
-=======
->>>>>>> f1d4085 (.)
-=======
-**Tutti i percorsi assoluti nel progetto SaluteOra DEVONO includere il segmento `laravel/` dopo `base_techplanner_fila3_mono/`.**
->>>>>>> 73eab74 (.)
 
 Questa regola è **ASSOLUTA** e non ammette eccezioni.
 
 ## Anatomia di un percorso corretto
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
 /var/www/html/base_techplanner_fila3_mono/laravel/{componente}/{resto-del-percorso}
 /var/www/html/base_saluteora/laravel/{componente}/{resto-del-percorso}
 /var/www/html/base_techplanner_fila3_mono/laravel/{componente}/{resto-del-percorso}
-=======
-/var/www/html/base_saluteora/laravel/{componente}/{resto-del-percorso}
->>>>>>> f1d4085 (.)
-=======
-/var/www/html/base_techplanner_fila3_mono/laravel/{componente}/{resto-del-percorso}
-/var/www/html/base_saluteora/laravel/{componente}/{resto-del-percorso}
-/var/www/html/base_techplanner_fila3_mono/laravel/{componente}/{resto-del-percorso}
->>>>>>> 73eab74 (.)
                          ↑        ↑
                      progetto  segmento
                     principale OBBLIGATORIO
@@ -56,20 +37,11 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 ### ✅ Percorsi CORRETTI
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 /var/www/html/base_techplanner_fila3_mono/laravel/app/Models/User.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Patient/Models/Doctor.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Themes/One/resources/views/layouts/app.blade.php
 /var/www/html/base_techplanner_fila3_mono/laravel/resources/lang/it/validation.php
 /var/www/html/base_techplanner_fila3_mono/laravel/vendor/laravel/framework/...
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 /var/www/html/base_saluteora/laravel/app/Models/User.php
 /var/www/html/base_saluteora/laravel/Modules/Patient/Models/Doctor.php
 /var/www/html/base_saluteora/laravel/Themes/One/resources/views/layouts/app.blade.php
@@ -80,20 +52,11 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 ### ❌ Percorsi ERRATI
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 /var/www/html/base_techplanner_fila3_mono/app/Models/User.php
 /var/www/html/base_techplanner_fila3_mono/Modules/Patient/Models/Doctor.php
 /var/www/html/base_techplanner_fila3_mono/Themes/One/resources/views/layouts/app.blade.php
 /var/www/html/base_techplanner_fila3_mono/resources/lang/it/validation.php
 /var/www/html/base_techplanner_fila3_mono/vendor/laravel/framework/...
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 /var/www/html/base_saluteora/app/Models/User.php
 /var/www/html/base_saluteora/Modules/Patient/Models/Doctor.php
 /var/www/html/base_saluteora/Themes/One/resources/views/layouts/app.blade.php
@@ -104,19 +67,9 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 ## Struttura completa del progetto
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
 /var/www/html/base_techplanner_fila3_mono/
 /var/www/html/base_saluteora/
 /var/www/html/base_techplanner_fila3_mono/
-=======
-/var/www/html/base_saluteora/
->>>>>>> f1d4085 (.)
-=======
-/var/www/html/base_techplanner_fila3_mono/
-/var/www/html/base_saluteora/
-/var/www/html/base_techplanner_fila3_mono/
->>>>>>> 73eab74 (.)
 ├── .cursor/                            # Configurazioni editor
 ├── .windsurf/                          # Configurazioni di sistema
 ├── docs/                               # Documentazione generale
@@ -164,19 +117,10 @@ Prima di ogni commit, eseguire questi comandi per verificare la presenza di perc
 ```bash
 
 # Verifica percorsi errati
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 grep -r "/var/www/html/base_techplanner_fila3_mono/app" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
 grep -r "/var/www/html/base_techplanner_fila3_mono/Modules" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
 grep -r "/var/www/html/base_techplanner_fila3_mono/Themes" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
 grep -r "/var/www/html/base_techplanner_fila3_mono/resources" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 grep -r "/var/www/html/base_saluteora/app" --include="*.php" /var/www/html/base_saluteora/laravel
 grep -r "/var/www/html/base_saluteora/Modules" --include="*.php" /var/www/html/base_saluteora/laravel
 grep -r "/var/www/html/base_saluteora/Themes" --include="*.php" /var/www/html/base_saluteora/laravel
@@ -190,10 +134,6 @@ Se si trovano percorsi errati, è possibile correggerli automaticamente con:
 ```bash
 
 # Correzione automatica (uso con cautela)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/app|/var/www/html/base_techplanner_fila3_mono/laravel/app|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Modules|/var/www/html/base_techplanner_fila3_mono/laravel/Modules|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Themes|/var/www/html/base_techplanner_fila3_mono/laravel/Themes|g' {} \;
@@ -203,22 +143,10 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/app|/var/www/html/base_techplanner_fila3_mono/laravel/app|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Modules|/var/www/html/base_techplanner_fila3_mono/laravel/Modules|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Themes|/var/www/html/base_techplanner_fila3_mono/laravel/Themes|g' {} \;
-<<<<<<< HEAD
-=======
-find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_saluteora/app|/var/www/html/base_saluteora/laravel/app|g' {} \;
-find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_saluteora/Modules|/var/www/html/base_saluteora/laravel/Modules|g' {} \;
-find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_saluteora/Themes|/var/www/html/base_saluteora/laravel/Themes|g' {} \;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 ```
 
 ## Riferimenti correlati
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 - [Struttura del progetto](../Xot/docs/architecture/struttura-progetto.md)
 - [Regole di namespace](../Xot/docs/standards/namespace-conventions.md)
 - [Autoloading](../Xot/docs/standards/psr4-compliance.md)
@@ -229,6 +157,7 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 - [Regole di namespace](../Xot/docs/standards/namespace-conventions.md)
 - [Autoloading](../Xot/docs/standards/psr4-compliance.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Struttura del progetto](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/architecture/struttura-progetto.md)
 - [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
@@ -237,3 +166,5 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

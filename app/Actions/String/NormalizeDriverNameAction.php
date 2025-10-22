@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\String;
 
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -17,10 +18,14 @@ use Spatie\QueueableAction\QueueableAction;
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
 use function Safe\preg_replace;
 
 /**
  * Action per normalizzare i nomi dei driver.
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -34,6 +39,9 @@ use function Safe\preg_replace;
  *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+ *
+>>>>>>> 300ef70 (.)
  * Questa action centralizza la logica di normalizzazione dei nomi dei driver
  * per evitare duplicazione di codice e garantire consistenza in tutta l'applicazione.
  */
@@ -57,6 +65,7 @@ class NormalizeDriverNameAction
         return is_string($result) ? $result : '';
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 <<<<<<< HEAD
@@ -69,3 +78,6 @@ class NormalizeDriverNameAction
 }
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+}
+>>>>>>> 300ef70 (.)

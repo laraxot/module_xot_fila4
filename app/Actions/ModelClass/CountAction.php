@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\ModelClass;
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -14,11 +15,14 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Webmozart\Assert\Assert;
@@ -30,6 +34,8 @@ use Modules\Xot\Models\InformationSchemaTable;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
 /**
  * Counts records for a given model class using optimized table information.

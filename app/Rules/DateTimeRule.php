@@ -8,6 +8,7 @@ use Exception;
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Carbon;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 =======
 <<<<<<< HEAD
@@ -19,6 +20,9 @@ use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 300ef70 (.)
 
 /**
  * Class DateTimeRule.
@@ -27,18 +31,22 @@ class DateTimeRule implements Rule
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
      * Determine if the validation rule passes.
      *
      * @param  string  $_attribute  The attribute name being validated
      * @param  mixed  $value  The value being validated
      */
     public function passes($_attribute, $value): bool
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -53,11 +61,14 @@ class DateTimeRule implements Rule
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     {
         // dddx($attribute); //published_at
         // dddx($value);//10/10/2019 13:43
         // return 5 === strlen($value);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! is_string($value)) {
 =======
@@ -65,6 +76,8 @@ class DateTimeRule implements Rule
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
         if (!is_string($value)) {
 >>>>>>> d2b0a27 (.)
             return false;
@@ -76,6 +89,7 @@ class DateTimeRule implements Rule
         );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -83,6 +97,8 @@ class DateTimeRule implements Rule
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $format = 'd/m/Y H:i';
         try {
             $value_new = Carbon::createFromFormat($format, $value);
@@ -91,6 +107,7 @@ class DateTimeRule implements Rule
         }
 
         /* -- non fa il suo dovere --
+<<<<<<< HEAD
 <<<<<<< HEAD
          * request()->replace([$attribute=>$value_new]);
          */
@@ -108,6 +125,10 @@ class DateTimeRule implements Rule
          */
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+         * request()->replace([$attribute=>$value_new]);
+         */
+>>>>>>> 300ef70 (.)
 
         return true;
     }
@@ -115,6 +136,7 @@ class DateTimeRule implements Rule
     public function message(): string
     {
         return 'The :attribute is not a valid datetime';
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -127,11 +149,15 @@ class DateTimeRule implements Rule
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
         //    return trans('validation.only_uppercase');
     }
 }
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -139,6 +165,8 @@ class DateTimeRule implements Rule
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
  * class MyClassRequest extends FormRequest
  * {
  * ...
@@ -203,6 +231,7 @@ class DateTimeRule implements Rule
  *
  *
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -275,3 +304,5 @@ class StorePostRequest extends FormRequest
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

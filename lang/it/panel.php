@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -17,6 +18,11 @@ declare(strict_types=1);
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 300ef70 (.)
 return [
     'title' => 'Pannello di Amministrazione',
     'description' => 'Gestione del pannello di amministrazione',
@@ -118,6 +124,7 @@ return [
         'deleted_at' => 'Eliminato il',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 ];
 =======
 <<<<<<< HEAD
@@ -130,3 +137,6 @@ return [
 ];
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+];
+>>>>>>> 300ef70 (.)

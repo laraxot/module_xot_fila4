@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 # Best Practices
 
 ## Laravel
@@ -52,6 +55,7 @@
 - Controllare la manutenibilità
 - Verificare la testabilità
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -59,6 +63,8 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -775,6 +781,7 @@ public function createModel(array $data): MioModello
 - [**README.md**](README.md) - Documentazione principale del modulo
 - [**Architettura**](architecture.md) - Architettura del modulo Xot
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
 =======
@@ -788,6 +795,9 @@ public function createModel(array $data): MioModello
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+>>>>>>> 300ef70 (.)
 
 ---
 

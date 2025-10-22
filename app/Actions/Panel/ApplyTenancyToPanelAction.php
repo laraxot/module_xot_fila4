@@ -6,18 +6,22 @@ namespace Modules\Xot\Actions\Panel;
 
 use Filament\Panel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 use Modules\Xot\Datas\XotData;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -33,6 +37,8 @@ use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
 class ApplyTenancyToPanelAction
 {
@@ -56,9 +62,12 @@ class ApplyTenancyToPanelAction
         //if (Gate::allows('superadmin', $user)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // Configurazione completa per superadmin
         $panel
             ->tenant($tenant_class, 'slug', 'tenants')
@@ -71,19 +80,6 @@ class ApplyTenancyToPanelAction
         // }
 =======
         //$panel->tenant($tenant_class, slugAttribute: 'slug');
-<<<<<<< HEAD
-=======
-            // Configurazione completa per superadmin
-            $panel
-                ->tenant($tenant_class, 'slug', 'tenants')
-                ->tenantRegistration(RegisterTenant::class)
-                ->tenantProfile(EditTenantProfile::class);
-        //} else {
-            // Configurazione limitata per non-superadmin
-            //$panel->tenant($tenant_class, slugAttribute: 'slug');
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         //}
 >>>>>>> d2b0a27 (.)
 

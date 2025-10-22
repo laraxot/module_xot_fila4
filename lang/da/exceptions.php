@@ -5,12 +5,15 @@ declare(strict_types=1);
 return [
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -20,6 +23,7 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -37,6 +41,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
     'backend' => [
         'access' => [
@@ -51,6 +57,7 @@ return [
                 'update_error' => 'Der opstod et problem ved opdatering af denne rolle. Prøv venligst igen.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60,6 +67,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             'users' => [
                 'cant_deactivate_self' => 'Du kan ikke udføre denne handling på dig selv.',
                 'cant_delete_self' => 'Du kan ikke slette dig selv.',
@@ -78,6 +87,7 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,6 +97,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -100,6 +112,7 @@ return [
                 'resent' => 'En ny bekræftelsesmail er blevet sendt til den kendte e-mailadresse.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Din konto er blevet deaktiveret.',
             'email_taken' => 'Denne e-mailadresse er allerede i brug.',
 =======
@@ -118,6 +131,10 @@ return [
             'email_taken' => 'Denne e-mailadresse er allerede i brug.',
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            'deactivated' => 'Din konto er blevet deaktiveret.',
+            'email_taken' => 'Denne e-mailadresse er allerede i brug.',
+>>>>>>> 300ef70 (.)
             'password' => [
                 'change_mismatch' => 'Dette er ikke din gamle adgangskode.',
             ],

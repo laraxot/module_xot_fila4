@@ -8,10 +8,6 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 <<<<<<< HEAD
 =======
 use Filament\Actions;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> d2b0a27 (.)
 use Modules\Xot\Filament\Resources\SessionResource;
@@ -19,6 +15,7 @@ use Modules\Xot\Filament\Resources\SessionResource;
 class EditSession extends XotBaseEditRecord
 {
     protected static string $resource = SessionResource::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -43,4 +40,6 @@ class EditSession extends XotBaseEditRecord
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 }

@@ -7,15 +7,16 @@ namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 <<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 =======
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Filament\Actions;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
@@ -25,6 +26,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Xot\Models\Module;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34,6 +36,8 @@ use Modules\Xot\Models\Module;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 /**
  * @property Module $record
  */
@@ -57,6 +61,7 @@ class EditModule extends XotBaseEditRecord
     {
         $module = $this->record; // Ottiene il record corrente
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! ($module instanceof Model) || ! isset($module->path)) {
             return;
         }
@@ -69,6 +74,8 @@ class EditModule extends XotBaseEditRecord
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
         if (!($module instanceof Model) || !isset($module->path)) {
             return;
         }
@@ -76,6 +83,7 @@ class EditModule extends XotBaseEditRecord
         $config_path = $module->path . '/config/config.php';
         $data = File::getRequire($config_path);
         if (!is_array($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $config_path = $module->path.'/config/config.php';
@@ -85,6 +93,8 @@ class EditModule extends XotBaseEditRecord
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             $data = [];
         }
         $data = array_merge($data, $module->toArray());
@@ -93,12 +103,15 @@ class EditModule extends XotBaseEditRecord
 
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
          * $configPath = config_path('modules/colors.php');
          *
          * // Prepara l'array di colori
@@ -121,6 +134,7 @@ class EditModule extends XotBaseEditRecord
          * // Richiama il file di configurazione per essere sicuro che i colori siano caricati
          * Config::set('modules.colors', $colorsConfig);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -151,5 +165,7 @@ class EditModule extends XotBaseEditRecord
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 }

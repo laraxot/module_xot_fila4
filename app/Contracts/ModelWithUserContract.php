@@ -46,6 +46,7 @@ use Illuminate\Support\Carbon;
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface ModelWithUserContract {}
 =======
 <<<<<<< HEAD
@@ -62,3 +63,8 @@ interface ModelWithUserContract
 }
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+interface ModelWithUserContract
+{
+}
+>>>>>>> 300ef70 (.)

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\RawJs;
 =======
 <<<<<<< HEAD
@@ -12,9 +13,12 @@ use Filament\Support\RawJs;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Filament\Widgets\ChartWidget as FilamentChartWidget;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Modules\Xot\Filament\Traits\TransTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -29,6 +33,8 @@ use Filament\Widgets\ChartWidget as FilamentChartWidget;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
 /**
  * Widget per visualizzare il trend delle registrazioni pazienti.
@@ -39,6 +45,7 @@ use Filament\Widgets\ChartWidget as FilamentChartWidget;
 abstract class XotBaseChartWidget extends FilamentChartWidget
 {
     use InteractsWithPageFilters;
+<<<<<<< HEAD
 <<<<<<< HEAD
     use TransTrait;
 
@@ -51,6 +58,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
     protected static bool $isLazy = true;
 
@@ -69,6 +78,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
     public function getHeading(): null|string
     {
         return static::trans('navigation.heading');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     protected ?string $heading = null;
@@ -89,6 +99,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 
     /**
@@ -128,11 +140,14 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                     'intersect' => false,
                     'callbacks' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
                         'label' =>
 
                                 'function(context) {
@@ -141,6 +156,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                                 '".replace(":count", context.parsed.y);
                         }'
                             ,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -155,6 +171,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
                     ],
                 ],
             ],
@@ -193,16 +211,20 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
      * Restituisce l'altezza del widget.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
     protected function getHeight(): null|string
     {
         return '300px';
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -220,3 +242,5 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

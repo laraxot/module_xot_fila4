@@ -23,6 +23,7 @@ class GetFakerAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $name, ?string $type = null, ?string $_table = null): string
 =======
 <<<<<<< HEAD
@@ -35,6 +36,9 @@ class GetFakerAction
     public function execute(string $name, null|string $type = null, null|string $_table = null): string
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    public function execute(string $name, null|string $type = null, null|string $_table = null): string
+>>>>>>> 300ef70 (.)
     {
         if ($type !== null && Str::startsWith($type, 'factory(')) {
             return $type;

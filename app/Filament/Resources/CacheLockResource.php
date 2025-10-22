@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\CreateCacheLock;
@@ -15,29 +16,22 @@ use Override;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
 use Filament\Schemas\Components\Component;
 use Override;
-=======
->>>>>>> f1d4085 (.)
-=======
-use Filament\Schemas\Components\Component;
-use Override;
->>>>>>> 73eab74 (.)
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\ListCacheLocks;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\CreateCacheLock;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\EditCacheLock;
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\CacheLock;
 
 class CacheLockResource extends XotBaseResource
 {
     protected static null|string $model = CacheLock::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Modules\Xot\Models\CacheLock;
@@ -61,10 +55,13 @@ class CacheLockResource extends XotBaseResource
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
     /**
      * Get the form schema for the resource.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -72,6 +69,8 @@ class CacheLockResource extends XotBaseResource
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
      * @return array<string, Component>
      */
     #[Override]
@@ -91,6 +90,7 @@ class CacheLockResource extends XotBaseResource
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -124,6 +124,8 @@ class CacheLockResource extends XotBaseResource
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     public static function getPages(): array
     {
         return [

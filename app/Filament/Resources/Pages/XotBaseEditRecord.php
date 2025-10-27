@@ -37,7 +37,6 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 
     protected function getHeaderActions(): array
     {
-
         return [
             'delete' => DeleteAction::make()
                 ->icon('heroicon-o-trash')

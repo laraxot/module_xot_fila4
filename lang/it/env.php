@@ -92,6 +92,7 @@ return [
         'google_maps_api_key' => [
             'description' => 'google_maps_api_key',
             'helper_text' => 'google_maps_api_key',
+            'placeholder' => 'google_maps_api_key',
         ],
     ],
     'actions' => [

@@ -14,6 +14,8 @@ return [
         ],
         'request' => [
             'label' => 'request',
+            'tooltip' => 'request',
+            'icon' => 'request',
         ],
         'activeLocale' => [
             'label' => 'activeLocale',

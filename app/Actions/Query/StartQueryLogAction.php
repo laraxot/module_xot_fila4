@@ -15,7 +15,7 @@ class StartQueryLogAction
 
     public function execute(): void
     {
-        Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
             $sql = $query->sql;
             $time = $query->time;
             $connection = $query->connection->getName();
@@ -24,35 +24,10 @@ class StartQueryLogAction
                 'driver' => 'daily',
                 'path' => storage_path('logs/querylog.log'),
             ]);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-            $log->debug('query : ' . $sql);
-            $log->debug('time ' . $time);
-            $log->debug('connection ' . $connection);
-            $log->debug('bindings ' . print_r($query->bindings, true));
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d2b0a27 (.)
             $log->debug('query : '.$sql);
             $log->debug('time '.$time);
             $log->debug('connection '.$connection);
             $log->debug('bindings '.print_r($query->bindings, true));
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         });
     }
 }

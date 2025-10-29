@@ -8,12 +8,13 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
 use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
+use PDO;
 
 use function Safe\preg_match;
 
 /**
  * Service Provider per ottimizzazioni Filament.
- * SuperMucca Optimization Provider 🐄.
+ * SuperMucca Optimization Provider 🐄
  */
 class FilamentOptimizationServiceProvider extends ServiceProvider
 {
@@ -61,26 +62,16 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     private function applyMemoryOptimizations(): void
     {
         // Ottimizza le query di default
-        DB::listen(function ($query): void {
+        DB::listen(function ($query) {
             // Log query che superano la soglia di tempo
             $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
 
-            if (! is_object($query)) {
-                return;
-            }
-
-            $time = property_exists($query, 'time') ? $query->time : 0;
-            $timeValue = is_numeric($time) ? (float) $time : 0.0;
-
-            if ($timeValue > $threshold) {
-                $sql = property_exists($query, 'sql') ? (string) $query->sql : 'N/A';
-                $bindings = property_exists($query, 'bindings') && is_array($query->bindings) ? $query->bindings : [];
-                $connection = property_exists($query, 'connectionName') ? (string) $query->connectionName : 'unknown';
+            if ($query->time > $threshold) {
                 Log::warning('Slow query detected', [
-                    'sql' => $sql,
-                    'bindings' => $bindings,
-                    'time' => $timeValue,
-                    'connection' => $connection,
+                    'sql' => $query->sql,
+                    'bindings' => $query->bindings,
+                    'time' => $query->time,
+                    'connection' => $query->connectionName,
                 ]);
             }
         });
@@ -101,7 +92,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             DB::enableQueryLog();
 
             // Log delle query alla fine della richiesta
-            app()->terminating(function (): void {
+            app()->terminating(function () {
                 $queries = DB::getQueryLog();
                 $totalQueries = count($queries);
                 $totalTime = array_sum(array_column($queries, 'time'));
@@ -159,8 +150,8 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 'database.connections.mysql.options' => array_merge(
                     $optionsArray,
                     [
-                        \PDO::ATTR_PERSISTENT => true,
-                        \PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
+                        PDO::ATTR_PERSISTENT => true,
+                        PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
                     ]
                 ),
             ]);
@@ -198,24 +189,9 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 $modules = app('modules')->all();
 
                 foreach ($modules as $module) {
-                    if (! is_object($module)) {
-                        continue;
-                    }
-
-                    if (! method_exists($module, 'getPath') || ! method_exists($module, 'getName')) {
-                        continue;
-                    }
-
-                    $modulePath = $module->getPath();
-                    $moduleName = $module->getName();
-
-                    if (! is_string($modulePath) || ! is_string($moduleName)) {
-                        continue;
-                    }
-
-                    $configPath = $modulePath.'/Config/config.php';
+                    $configPath = $module->getPath().'/Config/config.php';
                     if (file_exists($configPath)) {
-                        $configs[$moduleName] = require $configPath;
+                        $configs[$module->getName()] = require $configPath;
                     }
                 }
 
@@ -231,7 +207,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     {
         $maxQueries = config('filament_optimization.development.max_queries_per_request', 100);
 
-        app()->terminating(function () use ($maxQueries): void {
+        app()->terminating(function () use ($maxQueries) {
             $queries = DB::getQueryLog();
             $totalQueries = count($queries);
 
@@ -252,9 +228,9 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         if (! app()->runningInConsole() && request()) {
             $path = request()->path();
 
-            return str_contains($path, '/admin')
-                   || str_ends_with($path, '/admin')
-                   || preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+            return str_contains($path, '/admin') ||
+                   str_ends_with($path, '/admin') ||
+                   preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
         }
 
         return false;

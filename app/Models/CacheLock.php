@@ -36,23 +36,7 @@ use Modules\Xot\Database\Factories\CacheLockFactory;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
- * @mixin \Eloquent
- */
-/**
- * @property string $key
- * @property string $owner
- * @property int $expiration
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static \Modules\Xot\Database\Factories\CacheLockFactory factory($count = null, $state = [])
- * @method static Builder<static>|CacheLock newModelQuery()
- * @method static Builder<static>|CacheLock newQuery()
- * @method static Builder<static>|CacheLock query()
- * @method static Builder<static>|CacheLock whereExpiration($value)
- * @method static Builder<static>|CacheLock whereKey($value)
- * @method static Builder<static>|CacheLock whereOwner($value)
- *
+ * @mixin IdeHelperCacheLock
  * @mixin \Eloquent
  */
 class CacheLock extends BaseModel

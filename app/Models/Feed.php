@@ -22,17 +22,7 @@ use Modules\Xot\Database\Factories\FeedFactory;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
- * @mixin \Eloquent
- */
-/**
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static \Modules\Xot\Database\Factories\FeedFactory factory($count = null, $state = [])
- * @method static Builder<static>|Feed newModelQuery()
- * @method static Builder<static>|Feed newQuery()
- * @method static Builder<static>|Feed query()
- *
+ * @mixin IdeHelperFeed
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

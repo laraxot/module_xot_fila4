@@ -65,38 +65,11 @@ abstract class XotBaseComponent extends IlluminateComponent
         $comp_name = str_replace('\\', '.', $comp_name);
         $comp_name = Str::snake($comp_name);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-        $view = $module_name_low . '::components.' . $comp_name;
-        $view = str_replace('._', '.', $view);
-
-        if (!view()->exists($view)) {
-            throw new InvalidArgumentException("View [{$view}] does not exist.");
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d2b0a27 (.)
         $view = $module_name_low.'::components.'.$comp_name;
         $view = str_replace('._', '.', $view);
 
         if (! view()->exists($view)) {
-<<<<<<< HEAD
             throw new InvalidArgumentException("View [{$view}] does not exist.");
-=======
-            throw new InvalidArgumentException("View [$view] does not exist.");
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         }
         self::$viewCache[$class] = $view;
 

@@ -11,7 +11,6 @@ use Filament\Resources\Pages\Page as FilamentPage;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Illuminate\Contracts\View\View;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use LogicException;
@@ -118,11 +117,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      *
      * This method must be non-static to properly override the parent method.
      * Returns the model class string or throws an exception if not set.
-     *
-     * @return class-string<\Illuminate\Database\Eloquent\Model>
-     */
-    /**
-     * @return class-string<Model>
      */
     public function getModel(): string
     {
@@ -130,13 +124,18 @@ abstract class XotBasePage extends FilamentPage implements HasForms
             throw new LogicException('Model class not set for page: '.static::class);
         }
 
-        /** @var class-string<\Illuminate\Database\Eloquent\Model> $model */
-        $model = static::$model;
-
-        return $model;
+        return static::$model;
     }
 
-   
+    /**
+     * Get the resources associated with this page.
+     *
+     * @return Collection<string>
+     */
+    public static function getResources(): Collection
+    {
+        return collect();
+    }
 
     /*
      * Hook chiamato all'inizializzazione del componente.

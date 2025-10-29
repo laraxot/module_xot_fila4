@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Xot Module - Framework Base Laraxot
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica

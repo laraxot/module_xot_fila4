@@ -677,3 +677,4 @@ test('no direct filament extensions in modules', function () {
 **Non Derogabile**: Questa regola NON ha eccezioni  
 **Filosofia**: "XotBase è il nostro contratto con il futuro"
 
+

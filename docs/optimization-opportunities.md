@@ -125,7 +125,7 @@ Modules/User/Models/BaseModel.php       ← Module-specific
 // Each module's models should extend XotBaseModel directly
 class User extends XotBaseModel
 {
-    use \Modules\Xot\Models\Traits\HasXotFactory;
+    use HasFactory;
     use UserSpecificTrait; // Module-specific behavior via traits
 }
 ```

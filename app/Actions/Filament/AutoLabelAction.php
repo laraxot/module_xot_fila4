@@ -27,23 +27,7 @@ class AutoLabelAction
     /**
      * Get the component name based on its actual type.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  Field|Component  $component  Il componente di cui ottenere il nome
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param Field|Component $component Il componente di cui ottenere il nome
-=======
-     * @param Field|\Filament\Schemas\Components\Component $component Il componente di cui ottenere il nome
->>>>>>> f1d4085 (.)
-=======
-     * @param Field|Component $component Il componente di cui ottenere il nome
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-     * @param Field|Component $component Il componente di cui ottenere il nome
->>>>>>> 300ef70 (.)
      * @return string Il nome del componente
      */
     private function getComponentName(Field|Component $component): string
@@ -51,24 +35,8 @@ class AutoLabelAction
         // Per i componenti Field di Filament
         if (method_exists($component, 'getName')) {
             $name = $component->getName();
-<<<<<<< HEAD
-<<<<<<< HEAD
 
             return is_string($name) ? $name : ((string) $name);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            return is_string($name) ? $name : ((string) $name);
-=======
-            return is_string($name) ? $name : (string) $name;
->>>>>>> f1d4085 (.)
-=======
-            return is_string($name) ? $name : ((string) $name);
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-            return is_string($name) ? $name : ((string) $name);
->>>>>>> 300ef70 (.)
         }
 
         // Per i componenti generali di Filament
@@ -77,24 +45,8 @@ class AutoLabelAction
         // @phpstan-ignore function.alreadyNarrowedType
         if (method_exists($component, 'getStatePath')) {
             $statePath = $component->getStatePath();
-<<<<<<< HEAD
-<<<<<<< HEAD
 
             return $statePath ?? class_basename($component);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            return $statePath ?? class_basename($component);
-=======
-            return $statePath;
->>>>>>> f1d4085 (.)
-=======
-            return $statePath ?? class_basename($component);
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-            return $statePath ?? class_basename($component);
->>>>>>> 300ef70 (.)
         }
 
         // Fallback a reflection per altri casi
@@ -113,32 +65,8 @@ class AutoLabelAction
     /**
      * Applica automaticamente le etichette ai componenti Filament.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
      * @return Field|Component Il componente con l'etichetta applicata
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param Field|Component $component Il componente a cui applicare l'etichetta
-     *
-     * @return Field|Component Il componente con l'etichetta applicata
-=======
-     * @param Field|\Filament\Schemas\Components\Component $component Il componente a cui applicare l'etichetta
-     *
-     * @return Field|\Filament\Schemas\Components\Component Il componente con l'etichetta applicata
->>>>>>> f1d4085 (.)
-=======
-     * @param Field|Component $component Il componente a cui applicare l'etichetta
-     *
-     * @return Field|Component Il componente con l'etichetta applicata
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-     * @param Field|Component $component Il componente a cui applicare l'etichetta
-     *
-     * @return Field|Component Il componente con l'etichetta applicata
->>>>>>> 300ef70 (.)
      */
     public function execute(Field|Component $component): Field|Component
     {

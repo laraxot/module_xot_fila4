@@ -81,10 +81,6 @@ use Sushi\Sushi;
  * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
  *
- * @property string|null $model_class
- *
- * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
- *
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model

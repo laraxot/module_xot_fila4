@@ -33,124 +33,46 @@ interface ProfileContract extends HasMedia
     /**
      * Grant the given permission(s) to a role.
      *
-     * @param  string|int|array|Permission|\Illuminate\Support\Collection  $permissions
      * @return $this
      */
-    public function givePermissionTo($permissions = []);
+    public function givePermissionTo(string|int|array|Permission|\Illuminate\Support\Collection $permissions = []);
 
     /**
      * Assign the given role to the model.
      *
-     * @param  array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection  $roles
      * @return $this
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function assignRole($roles = []);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
->>>>>>> f1d4085 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
->>>>>>> 300ef70 (.)
 
     /**
      * Determine if the model has (one of) the given role(s).
-     *
-     * @param  string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection  $roles
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function hasRole($roles, ?string $guard = null): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
-        null|string $guard = null,
+        ?string $guard = null,
     ): bool;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
     /**
      * Determine if the model has any of the given role(s).
      *
      * Alias to hasRole() but without Guard controls
-     *
-     * @param  string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection  $roles
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function hasAnyRole($roles = []): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]): bool;
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
->>>>>>> f1d4085 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
->>>>>>> 300ef70 (.)
 
     /**
      * Determine if the model may perform the given permission.
      *
      * @throws PermissionDoesNotExist
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function hasPermissionTo(string|Permission $permission, ?string $guardName = null): bool;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
-=======
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
->>>>>>> f1d4085 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
->>>>>>> 300ef70 (.)
 
     /**
      * Create a new Eloquent query builder for the model.
      *
      * @param  Builder  $query
-     * @return Builder
+     * @return \Illuminate\Database\Eloquent\Builder|static
      */
     public function newEloquentBuilder($query);
 
@@ -160,7 +82,7 @@ interface ProfileContract extends HasMedia
     public function toggleSuperAdmin(): void;
 
     /**
-     * Get the user that owns the profile.
+     * ---return BelongsTo<UserContract, self>.
      */
     public function user(): BelongsTo;
 

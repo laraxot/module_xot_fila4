@@ -87,7 +87,7 @@ class MetatagPage extends Page implements HasForms
                             ->reactive(),
                         ColorPicker::make('hex')
                             ->label('Colore personalizzato')
-                            ->visible(fn (callable $get) => $get('color') === 'custom')
+                            ->visible(fn ($get) => $get('color') === 'custom')
                             ->required(),
                     ])
                     ->columns(3),

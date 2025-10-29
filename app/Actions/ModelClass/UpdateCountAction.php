@@ -22,7 +22,6 @@ class UpdateCountAction
      */
     public function execute(string $modelClass, int $total): void
     {
-        /* @phpstan-ignore-next-line staticMethod.notFound */
         InformationSchemaTable::updateModelCount($modelClass, $total); // Method not implemented
     }
 }

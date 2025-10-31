@@ -4,8 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\XotBaseResource\RelationManager;
 
+<<<<<<< HEAD
 use Exception;
 use Filament\Forms\Components\Component;
+=======
+>>>>>>> a6ef6dc7 (.)
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -53,10 +56,11 @@ abstract class XotBaseRelationManager extends RelationManager
     /**
      * Get form schema.
      *
-     * @return array<string|int, Component>
+     * @return array<string|int, \Filament\Schemas\Components\Component>
      */
     final public function getFormSchema(): array
     {
+        /** @var array<string|int, \Filament\Schemas\Components\Component> */
         return $this->getResource()::getFormSchema();
     }
 
@@ -65,7 +69,10 @@ abstract class XotBaseRelationManager extends RelationManager
      *
      * @return array<string, Tables\Columns\Column>
      */
-    #[Override]
+    #[\Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableColumns(): array
     {
         return [];
@@ -105,11 +112,11 @@ abstract class XotBaseRelationManager extends RelationManager
         try {
             // @phpstan-ignore staticMethod.notFound
             $parentResource = parent::getResource();
-            if (is_subclass_of($parentResource, XotBaseResource::class)) {
-                /** @var class-string<XotBaseResource> $parentResource */
+            if (is_string($parentResource) && is_subclass_of($parentResource, XotBaseResource::class)) {
+                /* @var class-string<XotBaseResource> $parentResource */
                 return $parentResource;
             }
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             // Fallback if parent method fails
         }
 
@@ -127,11 +134,19 @@ abstract class XotBaseRelationManager extends RelationManager
         $resourceClass = $ns.'\\'.$resource_name;
 
         if (! class_exists($resourceClass)) {
+<<<<<<< HEAD
             throw new Exception("Cannot find resource class {$resourceClass}");
         }
 
         if (! is_subclass_of($resourceClass, XotBaseResource::class)) {
             throw new Exception("{$resourceClass} must extend XotBaseResource");
+=======
+            throw new \Exception("Cannot find resource class {$resourceClass}");
+        }
+
+        if (! is_subclass_of($resourceClass, XotBaseResource::class)) {
+            throw new \Exception("{$resourceClass} must extend XotBaseResource");
+>>>>>>> a6ef6dc7 (.)
         }
 
         return $resourceClass;

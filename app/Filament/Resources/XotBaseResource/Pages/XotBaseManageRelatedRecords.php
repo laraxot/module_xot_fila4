@@ -17,6 +17,10 @@ use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Override;
+<<<<<<< HEAD
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> a6ef6dc7 (.)
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -42,7 +46,11 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     }
 
     /*
+<<<<<<< HEAD
+     * @return array<\Filament\Forms\Components\Component>
+=======
      * @return array<\Filament\Schemas\Components\Component>
+>>>>>>> a5dccfe (.)
      */
     // abstract public static function getFormSchema(): array;
 
@@ -57,7 +65,10 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      *
      * @return array<string, TextColumn>
      */
-    #[Override]
+    #[\Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableColumns(): array
     {
         return [
@@ -98,7 +109,16 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
             'edit' => Action::make('edit')
                 ->label('Modifica')
                 ->icon('heroicon-o-pencil')
+<<<<<<< HEAD
                 ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+=======
+                ->url(function (Model $record): string {
+                    $url = static::getResource()::getUrl('edit', ['record' => $record]);
+                    Assert::string($url);
+
+                    return $url;
+                }),
+>>>>>>> a6ef6dc7 (.)
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')

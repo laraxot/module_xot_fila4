@@ -20,18 +20,42 @@ class FieldRefreshAction extends Action
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
-            ->action(function ($state, $set, $record) {
+            ->action(function ($state, $set, $record): void {
                 $name = $this->getName();
                 if ($name === null) {
                     return;
                 }
 
                 $method = 'get'.Str::studly($name).'';
+<<<<<<< HEAD
                 $value = $record->$method();
                 $set($name, $value);
                 Notification::make()
                     ->title('Ricalcolato '.$name)
                     ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
+=======
+
+                if (! is_object($record) || ! method_exists($record, $method)) {
+                    return;
+                }
+
+                $callable = [$record, $method];
+                if (! is_callable($callable)) {
+                    return;
+                }
+
+                $value = call_user_func($callable);
+                if (is_callable($set)) {
+                    $set($name, $value);
+                }
+
+                $oldValue = is_scalar($state) ? (string) $state : 'non-scalar';
+                $newValue = is_scalar($value) ? (string) $value : 'non-scalar';
+
+                Notification::make()
+                    ->title('Ricalcolato '.$name)
+                    ->body('vecchio valore: '.$oldValue.' nuovo valore: '.$newValue)
+>>>>>>> a6ef6dc7 (.)
                     ->success()
                     ->send();
             });

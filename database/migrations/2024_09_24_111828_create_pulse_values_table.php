@@ -12,7 +12,22 @@ return new class extends XotBaseMigration
      */
     public function up(): void
     {
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! $this->shouldRun()) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+        if (!$this->shouldRun()) {
+>>>>>>> d2b0a27 (.)
+>>>>>>> a6ef6dc7 (.)
             return;
         }
         // -- CREATE --
@@ -33,5 +48,39 @@ return new class extends XotBaseMigration
             $table->index('type'); // For fast lookups and purging...
             $table->unique(['type', 'key_hash']); // For data integrity and upserts...
         });
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        if (! $this->shouldRun()) {
+            return;
+        }
+        // -- CREATE --
+        $this->tableCreate(
+            function (Blueprint $table): void {
+                $table->id();
+                $table->unsignedInteger('timestamp');
+                $table->string('type');
+                $table->mediumText('key');
+                match ($this->driver()) {
+                    'mariadb', 'mysql' => $table->char('key_hash', 16)->charset('binary')->virtualAs('unhex(md5(`key`))'),
+                    'pgsql' => $table->uuid('key_hash')->storedAs('md5("key")::uuid'),
+                    'sqlite' => $table->string('key_hash'),
+                    default => throw new InvalidArgumentException('Unsupported driver: '.$this->driver()),
+                };
+                $table->mediumText('value');
+
+                $table->index('timestamp'); // For trimming...
+                $table->index('type'); // For fast lookups and purging...
+                $table->unique(['type', 'key_hash']); // For data integrity and upserts...
+            }
+        );
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 };

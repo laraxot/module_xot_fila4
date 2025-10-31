@@ -47,7 +47,8 @@ trait RelationX
         $pivotDbName = $pivot->getConnection()->getDatabaseName();
         $dbName = $this->getConnection()->getDatabaseName();
         $relatedDbName = $related_model->getConnection()->getDatabaseName();
-        // if ($pivotDbName !== $dbName) {
+
+        // Handle cross-database relationships
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
@@ -56,7 +57,6 @@ trait RelationX
                 $table = $pivotDbName.'.'.$table;
             }
         }
-        // }
 
         return $this->belongsToMany(
             related: $related,

@@ -57,11 +57,53 @@ final class MorphOneAction
     private function validateAndPrepareData(array $data): array
     {
         // Ensure the 'lang' key is set to the current locale if not provided
+<<<<<<< HEAD
         if (! isset($data['lang'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! isset($data['lang'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!isset($data['lang'])) {
+=======
+        if (! isset($data['lang'])) {
+>>>>>>> f1d4085 (.)
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
             $data['lang'] = App::getLocale();
         }
 
         // Remove null values from the data array
+<<<<<<< HEAD
         return array_filter($data, static fn ($value): bool => $value !== null);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return array_filter($data, static fn ($value): bool => $value !== null);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return array_filter($data, static fn($value): bool => null !== $value);
+=======
+        return array_filter($data, static function ($value): bool {
+            return null !== $value;
+        });
+>>>>>>> f1d4085 (.)
+=======
+        return array_filter($data, static fn($value): bool => null !== $value);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+        return array_filter($data, static fn($value): bool => null !== $value);
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
     }
 }

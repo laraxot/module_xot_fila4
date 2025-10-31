@@ -83,7 +83,7 @@ class FilamentMemoryMonitorMiddleware
         $adminPatterns = [
             '/admin',
             '/user/admin',
-            '/techplanner/admin',
+            '/<nome progetto>/admin',
             '/cms/admin',
             '/geo/admin',
             '/notify/admin',

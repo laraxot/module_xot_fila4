@@ -36,7 +36,27 @@ use Modules\Xot\Database\Factories\CacheFactory;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
+<<<<<<< HEAD
  * @mixin IdeHelperCache
+=======
+ * @mixin \Eloquent
+ */
+/**
+ * @property string $key
+ * @property string $value
+ * @property int $expiration
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Xot\Database\Factories\CacheFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Cache newModelQuery()
+ * @method static Builder<static>|Cache newQuery()
+ * @method static Builder<static>|Cache query()
+ * @method static Builder<static>|Cache whereExpiration($value)
+ * @method static Builder<static>|Cache whereKey($value)
+ * @method static Builder<static>|Cache whereValue($value)
+ *
+>>>>>>> a6ef6dc7 (.)
  * @mixin \Eloquent
  */
 class Cache extends BaseModel

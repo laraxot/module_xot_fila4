@@ -13,8 +13,32 @@ class CreateDirectoryForFilenameAction
 
     public function execute(string $filename): void
     {
+<<<<<<< HEAD
+        if (! File::exists(\dirname($filename))) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
         if (! File::exists(\dirname($filename))) {
             File::makeDirectory(\dirname($filename), 0o755, true, true);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!File::exists(\dirname($filename))) {
+>>>>>>> a6ef6dc7 (.)
+            File::makeDirectory(\dirname($filename), 0o755, true, true);
+=======
+        if (! File::exists(\dirname($filename))) {
+            File::makeDirectory(\dirname($filename), 0755, true, true);
+>>>>>>> f1d4085 (.)
+=======
+        if (!File::exists(\dirname($filename))) {
+            File::makeDirectory(\dirname($filename), 0o755, true, true);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+        if (!File::exists(\dirname($filename))) {
+            File::makeDirectory(\dirname($filename), 0o755, true, true);
+>>>>>>> 300ef70 (.)
         }
     }
 }

@@ -7,10 +7,42 @@ namespace Modules\Xot\Actions\Export;
 // use Modules\Xot\Services\ArrayService;
 
 use Illuminate\Contracts\View\View;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+use Illuminate\Support\Collection;
+>>>>>>> d2b0a27 (.)
+>>>>>>> a6ef6dc7 (.)
 use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\ViewExport;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Collection;
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Maatwebsite\Excel\Facades\Excel;
+use Modules\Xot\Exports\ViewExport;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
 /**
  * Classe per l'esportazione di viste in formato Excel.
@@ -31,15 +63,63 @@ class ExportXlsByView
         View $view,
         array $fields,
         string $filename = 'test.xlsx',
+<<<<<<< HEAD
+        ?string $transKey = null,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
         ?string $transKey = null,
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(strval(...), array_values($fields));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+        null|string $transKey = null,
+>>>>>>> a6ef6dc7 (.)
+    ): BinaryFileResponse {
+        // Assicuriamo che $fields sia un array di stringhe
+        $stringFields = array_map(strval(...), array_values($fields));
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ?string $transKey = null,
+    ): BinaryFileResponse {
+        // Assicuriamo che $fields sia un array di stringhe
+        $stringFields = array_map(function (string|int|float|bool $field): string {
+                return strval($field);
+            }, array_values($fields));
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         $export = new ViewExport(
             view: $view,
             transKey: $transKey,
+<<<<<<< HEAD
+<<<<<<< HEAD
             fields: $stringFields,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            fields: $stringFields,
+=======
+            fields: $stringFields
+>>>>>>> f1d4085 (.)
+=======
+            fields: $stringFields,
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+            fields: $stringFields,
+>>>>>>> 300ef70 (.)
         );
 
         return Excel::download($export, $filename);

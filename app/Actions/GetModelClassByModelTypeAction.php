@@ -22,8 +22,33 @@ class GetModelClassByModelTypeAction
     public function execute(string $model_type): string
     {
         $morph_map = config('morph_map');
+<<<<<<< HEAD
         if (! is_array($morph_map)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! is_array($morph_map)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!is_array($morph_map)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+=======
+        if (! is_array($morph_map)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
+=======
+        if (!is_array($morph_map)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+        if (!is_array($morph_map)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
         }
 
         Assert::string($res = collect($morph_map)->get($model_type));

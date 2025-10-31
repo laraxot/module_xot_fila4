@@ -17,14 +17,33 @@ abstract class XotBasePolicy
 {
     use HandlesAuthorization;
 
+<<<<<<< HEAD
     public function before(UserContract $user, string $_ability): ?bool
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function before(UserContract $user, string $_ability): ?bool
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function before(UserContract $user, string $_ability): null|bool
+=======
+    public function before(UserContract $user, string $ability): ?bool
+>>>>>>> f1d4085 (.)
+=======
+    public function before(UserContract $user, string $_ability): null|bool
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+    public function before(UserContract $user, string $_ability): null|bool
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
     {
         return once(function () use ($user) {
             if ($user->hasRole('super-admin')) {
                 return true;
             }
 
-            return null;
         });
     }
 

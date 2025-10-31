@@ -21,7 +21,27 @@ class GetViewByModelClassAction
         $module_low = Str::of($module)->lower()->toString();
         $model_name = class_basename($model_class);
         $model_name = Str::of($model_name)->snake()->toString();
+<<<<<<< HEAD
         $view = $module_low.'::'.$model_name.$suffix;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $view = $module_low.'::'.$model_name.$suffix;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $view = $module_low . '::' . $model_name . $suffix;
+=======
+        $view = $module_low.'::'.$model_name.$suffix;
+>>>>>>> f1d4085 (.)
+=======
+        $view = $module_low . '::' . $model_name . $suffix;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+        $view = $module_low . '::' . $model_name . $suffix;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
 
         return $view;
     }

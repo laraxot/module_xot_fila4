@@ -12,6 +12,8 @@ use Throwable;
 use function Safe\json_encode;
 >>>>>>> a6ef6dc7 (.)
 
+use function Safe\json_encode;
+
 class WebhookErrorFormatter
 {
     public function __construct(

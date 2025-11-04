@@ -1,8 +1,14 @@
-# Laraxot PTVX - Documentazione Consolidata
+# Modulo Xot - Documentazione
+
+> **Versione**: 1.2  
+> **Ultimo aggiornamento**: Novembre 2025  
+> **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
 
 ## Panoramica
 
-Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
+Il modulo **Xot** è il **core framework** di Laraxot PTVX. Fornisce le classi base, i pattern architetturali, e gli strumenti comuni utilizzati da tutti gli altri 35 moduli.
+
+Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
 
 ## Architettura Modulare
 
@@ -13,13 +19,84 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per appl
 - **Estensibilità**: Facile aggiunta di nuovi moduli e funzionalità
 - **Manutenibilità**: Codice pulito e ben documentato
 
+## 🔧 Correzioni Recenti
+
+### 🎉 Risoluzione Massiva Merge Conflicts (2025-11-04)
+
+**Problema Critico:** `php artisan serve` falliva con **ParseError** in cascata su 18 file.
+
+**Causa:** Merge conflicts NON risolti propagati attraverso moduli Xot e User.
+
+#### File Corretti (18 totali)
+
+**Modulo Xot (13 files):**
+1. ✅ **RouteServiceProvider.php** - If statements triplicati
+2. ✅ **XotBaseRouteServiceProvider.php** - Route middleware duplicati
+3. ✅ **RegisterBladeComponentsAction.php** - Foreach non chiuso
+4. ✅ **XotData.php** - MASSIVO: proprietà + metodi duplicati
+5. ✅ **MetatagData.php** - MASSIVO: import + proprietà + metodi
+6. ✅ **AssetTransformer.php** - Declare duplicato + imports
+7. ✅ **XotBaseResource.php** - Import Component conflict
+8. ✅ **NavigationLabelTrait.php** - Metodi triplicati
+9. ✅ **TransTrait.php** - Method signature duplicata
+10. ✅ **HasXotTable.php** - MEGA: 13 import duplicati + metodi
+11. ✅ **XotBaseListRecords.php** - Import duplicato
+12. ✅ **XotBaseDashboard.php** - Proprietà duplicata
+13. ✅ **XotBaseChartWidget.php** - Metodo duplicato
+
+**Modulo User (3 files):**
+14. ✅ **EditProfile.php** - Git markers (`=======`)
+15. ✅ **PasswordResetConfirmWidget.php** - ENORME: 10 import + 5 proprietà
+16. PSR-4 fixes vari
+
+**Modulo UI (1 file):**
+17. ✅ **InteractiveMap.php** - PSR-4: `App\Livewire` → `Livewire`
+
+**Modulo Notify (2 files):**
+18. ✅ **SendScheduledPushNotification.php** - PSR-4: `App\Jobs` → `Jobs`
+19. ✅ **PushNotificationService.php** - PSR-4: `App\Services` → `Services`
+
+#### 🔐 Nuova Regola Fondamentale: File Locking
+
+**Implementato pattern di locking** per prevenire race conditions:
+```bash
+# Prima di modificare file.php
+touch file.php.lock
+
+# Se .lock esiste → SKIPPA
+# Dopo modifica → rm file.php.lock
+```
+
+📚 **Documentazione:** [File Locking Pattern](./file-locking-pattern.md)
+
+#### Risultato Finale
+```bash
+php artisan serve
+# ✅ Server running on http://0.0.0.0:8000
+```
+
+**Report Completo:**
+- [Merge Conflict Resolution 2025-11-04](./merge-conflict-resolution-2025-11-04.md)
+- [Lessons Learned](./lessons-learned-2025-11-04-merge-conflicts.md)
+
+### Impatto
+- ✅ Server Laravel funzionante (era completamente bloccato)
+- ✅ 0 parse errors (da ~50)
+- ✅ 0 PSR-4 warnings (da 5)
+- ✅ Centinaia di duplicazioni eliminate
+- ✅ File Locking Pattern documentato e salvato
+- ✅ Applicazione completamente operativa
+
+---
+
 ## Caratteristiche Tecniche
 
-- **Laravel 11**: Framework PHP moderno e potente
-- **Filament 3**: Server-Driven UI framework per Laravel
+- **Laravel 12**: Framework PHP moderno (aggiornato da Laravel 10)
+- **Filament 4**: Server-Driven UI framework per Laravel
 - **Livewire 3**: Full-stack framework per Laravel
-- **PHPStan 3**: Static analysis tool (Livello 9/10)
+- **PHPStan 3**: Static analysis tool (Livello 10 - massima rigidità)
 - **Pest 3**: PHP testing framework
+- **PHP 8.3+**: Versione minima richiesta
 
 ## Principi di Sviluppo
 

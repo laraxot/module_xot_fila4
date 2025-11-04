@@ -1,6 +1,8 @@
 # Bug Fix: Duplicazione If Statement in HasXotTable.php
 
-**Data**: 2025-06-04  
+> **Versione**: 1.0  
+> **Ultima modifica**: Vedi [CHANGELOG.md](./CHANGELOG.md)
+
 **File**: `Modules/Xot/app/Filament/Traits/HasXotTable.php`  
 **Linee**: 226-228, 242-243  
 **Severità**: 🔴 CRITICA (Blocca avvio applicazione)
@@ -158,7 +160,8 @@ done
 - [ ] PHPStan livello 10 passa (da verificare)
 - [ ] Test suite passa (da verificare)
 
-**Stato**: ✅ RISOLTO (2025-06-04)  
+**Stato**: ✅ RISOLTO  
 **Autore Fix**: AI Assistant  
-**Review**: Pending
+**Review**: Pending  
+**Data**: Vedi [CHANGELOG.md](./CHANGELOG.md)
 

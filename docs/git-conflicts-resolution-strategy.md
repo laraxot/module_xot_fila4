@@ -10,7 +10,7 @@
 
 ### Perché i Conflitti Esistono
 
-I conflitti Git `<<<<<<< HEAD` presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
+I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
 
 1. **Bloccano l'esecuzione**: File con marker non sono validi PHP
 2. **Degradano qualità**: PHPStan e linter falliscono
@@ -145,13 +145,9 @@ public function test_example() {
 
 ### Fase 1: Analisi File
 
-```bash
 # Identifico conflitti
-grep -n "<<<<<<< HEAD" file.php
 
 # Conto sezioni conflittuali
-grep -c "<<<<<<< HEAD" file.php
-```
 
 ### Fase 2: Decisione Strategica
 
@@ -186,10 +182,8 @@ grep -c "<<<<<<< HEAD" file.php
 - **Performance:** Test suite < 30 secondi
 
 ### Tracking
-```bash
+
 # Conta conflitti rimanenti
-find . -type f -name "*.php" -exec grep -l "<<<<<<< HEAD" {} \; 2>/dev/null | wc -l
-```
 
 ## Best Practices Emerse
 
@@ -224,13 +218,7 @@ I conflitti sono stati causati da:
 ### Prevenzione Futura
 
 **Git Hooks:**
-```bash
 # pre-commit: blocca commit con conflitti
-if git diff --cached --name-only | xargs grep -l "<<<<<<< HEAD" 2>/dev/null; then
-    echo "ERRORE: Conflitti Git non risolti trovati!"
-    exit 1
-fi
-```
 
 **CI/CD:**
 - Aggiungere check per marker conflitti

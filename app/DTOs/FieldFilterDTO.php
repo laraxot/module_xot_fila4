@@ -14,37 +14,7 @@ class FieldFilterDTO extends Data
     public function __construct(
         public string $param_name,
         public string $field_name,
-<<<<<<< HEAD
-        public ?string $where_method,
-        public ?string $rules,
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
         public ?string $where_method,
         public ?string $rules,
     ) {}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        public null|string $where_method,
-        public null|string $rules,
->>>>>>> a6ef6dc7 (.)
-    ) {}
-=======
-        public ?string $where_method,
-        public ?string $rules,
-    ) {
-    }
->>>>>>> f1d4085 (.)
-=======
-        public null|string $where_method,
-        public null|string $rules,
-    ) {}
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        public null|string $where_method,
-        public null|string $rules,
-    ) {}
->>>>>>> 300ef70 (.)
 }

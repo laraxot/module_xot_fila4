@@ -34,65 +34,18 @@ class HealthOverviewWidget extends BaseWidget
             $label = $result->label;
             $value = $result->shortSummary;
             $stats[] = Stat::make($label, $value)
-<<<<<<< HEAD
                 ->description($result->notificationMessage.' '.$result->status)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                ->description($result->notificationMessage.' '.$result->status)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                ->description($result->notificationMessage . ' ' . $result->status)
-=======
-                ->description($result->notificationMessage.' '.$result->status)
->>>>>>> f1d4085 (.)
-=======
-                ->description($result->notificationMessage . ' ' . $result->status)
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-                ->description($result->notificationMessage . ' ' . $result->status)
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }
 
         /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
          * return [
          * Stat::make('Unique views', '192.1k'),
          * Stat::make('Bounce rate', '21%'),
          * Stat::make('Average time on page', '3:12'),
          * ];
          */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        return [
-            Stat::make('Unique views', '192.1k'),
-            Stat::make('Bounce rate', '21%'),
-            Stat::make('Average time on page', '3:12'),
-        ];
-        */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         return $stats;
     }
 }

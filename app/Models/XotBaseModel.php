@@ -6,6 +6,7 @@ namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Model;
 // use Laravel\Scout\Searchable;
+// ---- Traits ----
 use Modules\Xot\Traits\Updater;
 
 /**
@@ -13,11 +14,7 @@ use Modules\Xot\Traits\Updater;
  */
 abstract class XotBaseModel extends Model
 {
-    use Traits\HasXotFactory;
-    use Traits\RelationX;
-
     // use Searchable;
-    // //use Cachable;
     use Updater;
 
     /**
@@ -29,46 +26,6 @@ abstract class XotBaseModel extends Model
      */
     public static $snakeAttributes = true;
 
-    public $incrementing = true;
-
-    public $timestamps = true;
-
+    /** @var int */
     protected $perPage = 30;
-
-    // protected $connection = 'xot';
-
-    /** @var list<string> */
-    protected $fillable = ['id'];
-
-    protected $primaryKey = 'id';
-
-    protected $keyType = 'string';
-
-    /** @var list<string> */
-    protected $hidden = [
-        // 'password'
-    ];
-
-    /**
-     * The accessors to append to the model's array form.
-     *
-     * @var list<string>
-     */
-    protected $appends = [];
-
-    /** @return array<string, class-string|string> */
-    protected function casts(): array
-    {
-        return [
-            'id' => 'string',
-            'uuid' => 'string',
-            'published_at' => 'datetime',
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
-            'updated_by' => 'string',
-            'created_by' => 'string',
-            'deleted_by' => 'string',
-        ];
-    }
 }

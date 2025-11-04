@@ -47,10 +47,7 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
-<<<<<<< HEAD
  * @mixin IdeHelperExtra
-=======
->>>>>>> a6ef6dc7 (.)
  * @mixin \Eloquent
  */
 class Extra extends BaseExtra {}

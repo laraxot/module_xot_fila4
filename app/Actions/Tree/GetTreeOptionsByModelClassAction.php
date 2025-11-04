@@ -21,23 +21,7 @@ class GetTreeOptionsByModelClassAction
      * @param  class-string<HasRecursiveRelationshipsContract>  $class
      * @return array<int|string, string>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function execute(string $class, Model|callable|null $_where = null): array
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function execute(string $class, Model|callable|null $_where = null): array
-=======
-    public function execute(string $class, Model|callable|null $where = null): array
->>>>>>> f1d4085 (.)
-=======
-    public function execute(string $class, Model|callable|null $_where = null): array
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function execute(string $class, Model|callable|null $_where = null): array
->>>>>>> 300ef70 (.)
     {
         /** @var HasRecursiveRelationshipsContract $model */
         $model = new $class;
@@ -49,32 +33,10 @@ class GetTreeOptionsByModelClassAction
 
         foreach ($rows as $row) {
             /* @var HasRecursiveRelationshipsContract $row */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
             $key = $row->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] = is_string($row)
                 ? $row
                 : ((string) $row->getLabel());
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
             $this->parse($row);
         }
 
@@ -84,37 +46,10 @@ class GetTreeOptionsByModelClassAction
     public function parse(HasRecursiveRelationshipsContract $model): void
     {
         foreach ($model->children as $child) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             /** @var HasRecursiveRelationshipsContract $child */
             $key = $child->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] =
                 Str::repeat('---', $child->depth).'   '.$child->getLabel();
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-            /** @var HasRecursiveRelationshipsContract $child */
-            $key = $child->getKey();
-            $this->options[is_string($key) ? $key : ((string) $key)] =
-<<<<<<< HEAD
-                Str::repeat('---', $child->depth).'   '.$child->getLabel();
-=======
-                Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
         }
     }
 }

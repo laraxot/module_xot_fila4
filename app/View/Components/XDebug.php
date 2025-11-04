@@ -23,24 +23,7 @@ class XDebug extends Component
         // public Post $article,
         // public bool $showAuthor = false,
         public string $tpl = 'v1',
-<<<<<<< HEAD
-<<<<<<< HEAD
     ) {}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ) {}
-=======
-    ) {
-    }
->>>>>>> f1d4085 (.)
-=======
-    ) {}
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    ) {}
->>>>>>> 300ef70 (.)
 
     public function render(): Renderable
     {
@@ -59,27 +42,7 @@ class XDebug extends Component
 
     public function debugStack(): string
     {
-<<<<<<< HEAD
         if (! extension_loaded('xdebug')) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (! extension_loaded('xdebug')) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!extension_loaded('xdebug')) {
-=======
-        if (! extension_loaded('xdebug')) {
->>>>>>> f1d4085 (.)
-=======
-        if (!extension_loaded('xdebug')) {
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        if (!extension_loaded('xdebug')) {
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -99,22 +62,6 @@ class XDebug extends Component
         $out1 = ob_get_contents();
         ob_end_clean();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         return is_string($out1) ? $out1 : ((string) $out1);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return is_string($out1) ? $out1 : ((string) $out1);
-=======
-        return is_string($out1) ? $out1 : (string) $out1;
->>>>>>> f1d4085 (.)
-=======
-        return is_string($out1) ? $out1 : ((string) $out1);
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        return is_string($out1) ? $out1 : ((string) $out1);
->>>>>>> 300ef70 (.)
     }
 }

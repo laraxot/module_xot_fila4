@@ -789,15 +789,12 @@ if (! function_exists('removeQueryParams')) {
         $url = url()->current(); // get the base URL - everything to the left of the "?"
         $query = request()->query(); // get the query parameters (what follows the "?")
         Assert::isArray($query);
-        /** @var array<string, mixed> $cleanQuery */
-        $cleanQuery = $query;
         foreach ($params as $param) {
-            if (is_string($param) || is_int($param)) {
-                unset($cleanQuery[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
-            }
+            unset($query[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
         }
 
-        return $cleanQuery ? ($url.'?'.http_build_query($cleanQuery)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+        // 924    Parameter #1 $querydata of function http_build_query expects array|object, array|string given.
+        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
     }
 }
 
@@ -969,16 +966,24 @@ if (! function_exists('debugStack')) {
      */
     function debugStack(): void
     {
-        // Prefer using xdebug when available, otherwise fallback to PHP backtrace
-        if (extension_loaded('xdebug')) {
-            // Avoid direct calls to xdebug_* to keep static analysis satisfied
-            // and rely on generic backtrace instead.
-            debug_print_backtrace();
-
-            return;
+        if (! extension_loaded('xdebug')) {
+            throw new RuntimeException('XDebug must be installed to use this function');
         }
 
-        debug_print_backtrace();
+        if (
+            function_exists('xdebug_set_filter') &&
+                defined('XDEBUG_FILTER_TRACING') &&
+                defined('XDEBUG_PATH_EXCLUDE')
+        ) {
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+                '/../../vendor/']);
+        }
+
+        if (function_exists('xdebug_print_function_stack')) {
+            xdebug_print_function_stack();
+        } else {
+            debug_print_backtrace();
+        }
     }
 }
 
@@ -1172,11 +1177,11 @@ if (! function_exists('authId')) {
 function safe_object_call($object, string $method, ...$args)
 {
     if (! is_object($object)) {
-        return;
+        return null;
     }
 
     if (! method_exists($object, $method)) {
-        return;
+        return null;
     }
 
     return $object->$method(...$args);

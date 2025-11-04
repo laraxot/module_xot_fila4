@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers;
 
-<<<<<<< HEAD
 use BladeUI\Icons\Exceptions\CannotRegisterIconSet;
-=======
->>>>>>> a6ef6dc7 (.)
 use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
 use Illuminate\Support\Facades\Blade;
@@ -69,19 +66,15 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     public function registerBladeIcons(): void
     {
         if ($this->name === '') {
-<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
-=======
-            throw new \Exception('name is empty on ['.static::class.']');
->>>>>>> a6ef6dc7 (.)
         }
 
-        $this->callAfterResolving(BladeIconsFactory::class, function (BladeIconsFactory $factory): void {
+        $this->callAfterResolving(BladeIconsFactory::class, function (BladeIconsFactory $factory) {
             $assetsPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'assets');
             $svgPath = $assetsPath.'/../svg';
             try {
                 $factory->add($this->nameLower, ['path' => $svgPath, 'prefix' => $this->nameLower]);
-            } catch (\Throwable $e) {
+            } catch (Throwable $e) {
                 // Ignore missing SVG path
             }
         });
@@ -118,11 +111,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     public function registerViews(): void
     {
         if ($this->name === '') {
-<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
-=======
-            throw new \Exception('name is empty on ['.static::class.']');
->>>>>>> a6ef6dc7 (.)
         }
 
         $viewPath = module_path($this->name, 'resources/views');
@@ -140,11 +129,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     {
         try {
             return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'lang');
-<<<<<<< HEAD
         } catch (Throwable $e) {
-=======
-        } catch (\Throwable $e) {
->>>>>>> a6ef6dc7 (.)
             return base_path('Modules/'.$this->name.'/lang');
         }
     }
@@ -152,16 +137,12 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     /**
      * Registra le traduzioni del modulo.
      *
-     * @throws \Exception
+     * @throws Exception
      */
     public function registerTranslations(): void
     {
         if ($this->name === '') {
-<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
-=======
-            throw new \Exception('name is empty on ['.static::class.']');
->>>>>>> a6ef6dc7 (.)
         }
 
         $langPath = $this->getLangPath();
@@ -190,17 +171,12 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             $files = File::glob($configPath.'/*.php');
 
             foreach ($files as $file) {
-                Assert::string($file);
                 $content = File::getRequire($file);
                 $info = pathinfo($file);
-<<<<<<< HEAD
-=======
-                Assert::isArray($info);
->>>>>>> a6ef6dc7 (.)
                 $key = $this->nameLower.'::'.$info['filename'];
                 Config::set($key, $content);
             }
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             // Ignore missing configuration
             return;
         }
@@ -211,11 +187,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $componentViewPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');
         try {
             Blade::anonymousComponentPath($componentViewPath);
-<<<<<<< HEAD
         } catch (Exception|CannotRegisterIconSet $e) {
-=======
-        } catch (\Exception $e) {
->>>>>>> a6ef6dc7 (.)
             // Ignore missing component view path
             dddx([
                 'name' => $this->name,

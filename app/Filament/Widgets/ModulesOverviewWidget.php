@@ -95,11 +95,11 @@ class ModulesOverviewWidget extends Widget
                 'description' => $this->getModuleDescription('User'),
             ],
             [
-                'name' => '<main module>',
-                'name_lower' => '<nome progetto>',
-                'url' => '/<nome progetto>/admin',
+                'name' => 'TechPlanner',
+                'name_lower' => 'techplanner',
+                'url' => '/techplanner/admin',
                 'icon' => 'heroicon-o-clipboard-document-list',
-                'description' => $this->getModuleDescription('<main module>'),
+                'description' => $this->getModuleDescription('TechPlanner'),
             ],
         ];
     }
@@ -114,7 +114,7 @@ class ModulesOverviewWidget extends Widget
     {
         $descriptions = [
             'User' => 'Gestione utenti e autenticazione',
-            '<main module>' => 'Pianificazione tecnica e progetti',
+            'TechPlanner' => 'Pianificazione tecnica e progetti',
             'Geo' => 'Gestione dati geografici e mappe',
             'Cms' => 'Sistema di gestione contenuti',
             'Notify' => 'Sistema di notifiche',

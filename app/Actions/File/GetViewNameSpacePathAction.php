@@ -18,27 +18,7 @@ class GetViewNameSpacePathAction
      * @param  string  $ns  Il namespace della vista
      * @return string|null Il percorso del namespace o null se non trovato
      */
-<<<<<<< HEAD
     public function execute(string $ns): ?string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function execute(string $ns): ?string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function execute(string $ns): null|string
-=======
-    public function execute(string $ns): ?string
->>>>>>> f1d4085 (.)
-=======
-    public function execute(string $ns): null|string
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function execute(string $ns): null|string
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
     {
         $xot = XotData::make();
 
@@ -72,26 +52,6 @@ class GetViewNameSpacePathAction
             return null; // Restituiamo null se il tema non è una stringa
         }
 
-<<<<<<< HEAD
         return base_path('Themes/'.$theme_name);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return base_path('Themes/'.$theme_name);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return base_path('Themes/' . $theme_name);
-=======
-        return base_path('Themes/'.$theme_name);
->>>>>>> f1d4085 (.)
-=======
-        return base_path('Themes/' . $theme_name);
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        return base_path('Themes/' . $theme_name);
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
     }
 }

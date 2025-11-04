@@ -31,33 +31,7 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
  * @method static Builder|PulseValue whereType($value)
  * @method static Builder|PulseValue whereValue($value)
  *
-<<<<<<< HEAD
  * @mixin IdeHelperPulseValue
-=======
- * @mixin \Eloquent
- */
-/**
- * @property string $id
- * @property int $timestamp
- * @property string $type
- * @property string $key
- * @property string $key_hash
- * @property string $value
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static \Modules\Xot\Database\Factories\PulseValueFactory factory($count = null, $state = [])
- * @method static Builder<static>|PulseValue newModelQuery()
- * @method static Builder<static>|PulseValue newQuery()
- * @method static Builder<static>|PulseValue query()
- * @method static Builder<static>|PulseValue whereId($value)
- * @method static Builder<static>|PulseValue whereKey($value)
- * @method static Builder<static>|PulseValue whereKeyHash($value)
- * @method static Builder<static>|PulseValue whereTimestamp($value)
- * @method static Builder<static>|PulseValue whereType($value)
- * @method static Builder<static>|PulseValue whereValue($value)
- *
->>>>>>> a6ef6dc7 (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

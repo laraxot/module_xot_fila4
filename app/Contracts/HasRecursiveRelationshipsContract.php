@@ -142,7 +142,9 @@ interface HasRecursiveRelationshipsContract
     /**
      * Get the model's children.
      *
-     * @return HasMany<Model, Model>
+     * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
+     *
+     * @return HasMany
      */
     public function children();
 
@@ -176,7 +178,9 @@ interface HasRecursiveRelationshipsContract
     /**
      * Get the model's parent.
      *
-     * @return BelongsTo<Model, Model>
+     * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
+     *
+     * @return BelongsTo
      */
     public function parent();
 
@@ -192,28 +196,34 @@ interface HasRecursiveRelationshipsContract
     /**
      * Get the model's root ancestor.
      *
-     * @return RootAncestor<Model, Model>
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
+     *
+     * @return RootAncestor
      */
     public function rootAncestor();
 
     /**
      * Get the model's root ancestor or self.
      *
-     * @return RootAncestorOrSelf<Model, Model>
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestorOrSelf<static>
      */
     public function rootAncestorOrSelf(): RootAncestorOrSelf;
 
     /**
      * Get the model's siblings.
      *
-     * @return Siblings<Model, Model>
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
      */
     public function siblings();
 
     /**
      * Get the model's siblings and itself.
      *
-     * @return Siblings<Model, Model>
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
      */
     public function siblingsAndSelf();
 

@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
-<<<<<<< HEAD
 use Exception;
-=======
->>>>>>> a6ef6dc7 (.)
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
@@ -21,9 +18,6 @@ class AddStrictTypesDeclarationCommand extends Command
 
     protected $description = 'Aggiunge la dichiarazione strict_types=1 ai file PHP che ne sono sprovvisti';
 
-    /**
-     * @var array<int, string>
-     */
     private array $excludedPaths = [
         'views',
         'config',
@@ -54,8 +48,7 @@ class AddStrictTypesDeclarationCommand extends Command
         foreach ($files as $file) {
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
-                    $filePath = $file->getRealPath();
-                    $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
+                    $this->info("Verrebbe processato: {$file}");
                     $count++;
 
                     continue;
@@ -73,11 +66,7 @@ class AddStrictTypesDeclarationCommand extends Command
                     $action->execute($path);
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;
-<<<<<<< HEAD
                 } catch (Exception $e) {
-=======
-                } catch (\Exception $e) {
->>>>>>> a6ef6dc7 (.)
                     $this->error("Errore nel processare {$path}: ".$e->getMessage());
                 }
             }
@@ -89,18 +78,12 @@ class AddStrictTypesDeclarationCommand extends Command
         return 0;
     }
 
-    /**
-     * @return array<int, \Symfony\Component\Finder\SplFileInfo>
-     */
     private function findPhpFiles(string $path): array
     {
-        /** @var array<int, \Symfony\Component\Finder\SplFileInfo> $files */
-        $files = array_values(File::allFiles($path));
-
-        return $files;
+        return File::allFiles($path);
     }
 
-    private function shouldProcessFile(\Symfony\Component\Finder\SplFileInfo $file): bool
+    private function shouldProcessFile(SplFileInfo $file): bool
     {
         // Verifica l'estensione
         if (! str_ends_with($file->getFilename(), '.php')) {
@@ -114,7 +97,7 @@ class AddStrictTypesDeclarationCommand extends Command
 
         // Verifica se il file è in un percorso escluso
         foreach ($this->excludedPaths as $excludedPath) {
-            if (str_contains($path, '/'.$excludedPath.'/')) {
+            if (str_contains($path, "/{$excludedPath}/")) {
                 return false;
             }
         }

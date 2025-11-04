@@ -15,16 +15,6 @@ class BelongsToManyAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
@@ -40,36 +30,7 @@ class BelongsToManyAction
             // $this->saveMultiselectTwoSides($row, $relation->name, $relation->data);
             Assert::isArray($to = $relationDTO->data['to'] ?? []);
             $rows->sync($to);
-<<<<<<< HEAD
             $status = 'collegati ['.implode(', ', $to).'] ';
-=======
-<<<<<<< HEAD
-            $status = 'collegati ['.implode(', ', $to).'] ';
-=======
-            $status = 'collegati [' . implode(', ', $to) . '] ';
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public function execute(Model $model, RelationDTO $relationDTO): void
-    {
-        Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
-        /*
-        dddx(['message' => 'wip',
-            'row' => $row,
-            'relation' => $relation, ]);
-        */
-        if (\in_array('to', array_keys($relationDTO->data), false) || \in_array('from', array_keys($relationDTO->data), false)) {
-            // $this->saveMultiselectTwoSides($row, $relation->name, $relation->data);
-            Assert::isArray($to = $relationDTO->data['to'] ?? []);
-            $rows->sync($to);
-            $status = 'collegati ['.implode(', ', $to).'] ';
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
             Session::flash('status', $status);
 
             return;

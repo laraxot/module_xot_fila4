@@ -26,77 +26,17 @@ class GenerateModelClassCommand extends GeneratorCommand
 
     protected function getStub()
     {
-<<<<<<< HEAD
         return realpath(__DIR__.'/../stubs/model.stub');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return realpath(__DIR__.'/../stubs/model.stub');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return realpath(__DIR__ . '/../stubs/model.stub');
-=======
-        return realpath(__DIR__.'/../stubs/model.stub');
->>>>>>> f1d4085 (.)
-=======
-        return realpath(__DIR__ . '/../stubs/model.stub');
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        return realpath(__DIR__ . '/../stubs/model.stub');
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
     }
 
     protected function getDefaultNamespace($rootNamespace)
     {
-<<<<<<< HEAD
         return $rootNamespace.'\Models';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $rootNamespace.'\Models';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $rootNamespace . '\Models';
-=======
-        return $rootNamespace.'\Models';
->>>>>>> f1d4085 (.)
-=======
-        return $rootNamespace . '\Models';
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        return $rootNamespace . '\Models';
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
     }
 
     protected function replaceClass($stub, $name)
     {
-<<<<<<< HEAD
         $class = str_replace($this->getNamespace($name).'\\', '', $name);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $class = str_replace($this->getNamespace($name).'\\', '', $name);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $class = str_replace($this->getNamespace($name) . '\\', '', $name);
-=======
-        $class = str_replace($this->getNamespace($name).'\\', '', $name);
->>>>>>> f1d4085 (.)
-=======
-        $class = str_replace($this->getNamespace($name) . '\\', '', $name);
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        $class = str_replace($this->getNamespace($name) . '\\', '', $name);
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
 
         // Do string replacement
         return str_replace('{{service_name}}', $class, $stub);

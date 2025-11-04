@@ -83,7 +83,6 @@ class XotServiceProvider extends XotBaseServiceProvider
 
     public function registerTimezone(): void
     {
-<<<<<<< HEAD
         Assert::string(
             $timezone = config('app.timezone') ?? 'Europe/Berlin',
             '['.__LINE__.']['.class_basename($this).']',
@@ -93,15 +92,6 @@ class XotServiceProvider extends XotBaseServiceProvider
             '['.__LINE__.']['.class_basename($this).']',
         );
         Assert::string($locale = config('app.locale') ?? 'it', '['.__LINE__.']['.class_basename($this).']');
-=======
-        $timezone = config('app.timezone') ?? 'Europe/Berlin';
-        $date_format = config('app.date_format') ?? 'd/m/Y';
-        $locale = config('app.locale') ?? 'it';
-
-        Assert::string($timezone, '['.__LINE__.']['.class_basename($this).']');
-        Assert::string($date_format, '['.__LINE__.']['.class_basename($this).']');
-        Assert::string($locale, '['.__LINE__.']['.class_basename($this).']');
->>>>>>> a6ef6dc7 (.)
 
         app()->setLocale($locale);
         Carbon::setLocale($locale);

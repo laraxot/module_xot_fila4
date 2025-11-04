@@ -422,12 +422,6 @@ ls Modules/*/lang/*/
 **🚀 Performance**: 98/100 score
 
 ## Documentation Archive & Legacy
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> d2b0a27 (.)
 # Xot Module - Framework Base Laraxot
 
 ## Overview
@@ -463,20 +457,10 @@ composer require laraxot/xot
 Configurazione automatica tramite service providers.
 
 ## Documentation Archive
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -486,30 +470,7 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 
 ## Links
 - [Root Documentation](../../../project_docs/)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d2b0a27 (.)
 ## Quick Links Legacy
-=======
-## Principles
-- **DRY**: Un solo punto di verità
-- **KISS**: Semplicità e chiarezza
-- **Type Safety**: Tipizzazione rigorosa
-- **Documentation**: Documentazione essenziale
-
-## Links
-- [Root Documentation](../../../project_docs/)
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
-## Quick Links Legacy
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-## Quick Links Legacy
->>>>>>> 300ef70 (.)
 - [Root Documentation](../../../docs/)
 - [<main module> Module](../<main module>/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)

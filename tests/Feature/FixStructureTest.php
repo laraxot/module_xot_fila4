@@ -1,85 +1,17 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 declare(strict_types=1);
 
-use Modules\Xot\Tests\TestCase;
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-use function Safe\chdir;
-use function Safe\mkdir;
-use function Safe\rmdir;
-use function Safe\scandir;
-use function Safe\unlink;
-=======
-=======
->>>>>>> f1d4085 (.)
-=======
-declare(strict_types=1);
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
 namespace Modules\Xot\Tests\Feature;
->>>>>>> d2b0a27 (.)
 
-<<<<<<< HEAD
 use PHPUnit\Framework\Attributes\Test;
 use Tests\TestCase;
-=======
-uses(TestCase::class);
->>>>>>> a6ef6dc7 (.)
 
 /**
- * @property string $testDir
+ * Test per verificare il corretto funzionamento dello script fix_structure.sh.
  */
-beforeEach(function (): void {
-    // Create a temporary directory for testing
-    /* @phpstan-ignore-next-line property.notFound */
-    $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
-    /* @phpstan-ignore-next-line property.notFound */
-    mkdir($this->testDir, 0o755, true);
-
-    // Set the working directory
-    chdir($this->testDir);
-});
-
-afterEach(function (): void {
-    // Clean up the test directory
-    /* @phpstan-ignore-next-line property.notFound */
-    if (isset($this->testDir) && is_string($this->testDir)) {
-        /* @phpstan-ignore-next-line property.notFound */
-        removeDirectory($this->testDir);
-    }
-});
-
-// Recursive function to remove a directory and its contents
-function removeDirectory(string $dir): void
+class FixStructureTest extends TestCase
 {
-<<<<<<< HEAD
-    if (is_dir($dir)) {
-        $objects = scandir($dir);
-        foreach ($objects as $object) {
-            if ($object !== '.' && $object !== '..') {
-                /* @phpstan-ignore-next-line binaryOp.invalid */
-                $fullPath = $dir.DIRECTORY_SEPARATOR.$object;
-                if (is_dir($fullPath) && ! is_link($fullPath)) {
-                    removeDirectory($fullPath);
-                } else {
-                    unlink($fullPath);
-=======
     private string $testDir;
 
     protected function setUp(): void
@@ -116,13 +48,10 @@ function removeDirectory(string $dir): void
                     } else {
                         unlink($dir.DIRECTORY_SEPARATOR.$object);
                     }
->>>>>>> d2b0a27 (.)
                 }
             }
+            rmdir($dir);
         }
-<<<<<<< HEAD
-        rmdir($dir);
-=======
     }
 
     #[Test]
@@ -189,37 +118,10 @@ function removeDirectory(string $dir): void
         exec('cd '.$this->testDir.' && ./fix_structure.sh');
 
         // Verifichiamo che i contenuti siano stati uniti e che la cartella minuscola contenga tutto
-<<<<<<< HEAD
         static::assertDirectoryExists($this->testDir.'/config');
         static::assertFileExists($this->testDir.'/config/main.php');
         static::assertFileExists($this->testDir.'/config/secondary.php');
         static::assertDirectoryDoesNotExist($this->testDir.'/Config');
         static::assertDirectoryExists($this->testDir.'/config_old');
-=======
-        static::assertDirectoryExists($this->testDir . '/config');
-        static::assertFileExists($this->testDir . '/config/main.php');
-        static::assertFileExists($this->testDir . '/config/secondary.php');
-        static::assertDirectoryDoesNotExist($this->testDir . '/Config');
-        static::assertDirectoryExists($this->testDir . '/config_old');
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        $this->assertDirectoryExists($this->testDir . '/config');
-        $this->assertFileExists($this->testDir . '/config/main.php');
-        $this->assertFileExists($this->testDir . '/config/secondary.php');
-        $this->assertDirectoryDoesNotExist($this->testDir . '/Config');
-        $this->assertDirectoryExists($this->testDir . '/config_old');
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
     }
 }
-
-test('move to app functionality', function (): void {
-    // Test implementation here
-    expect(true)->toBeTrue();
-});

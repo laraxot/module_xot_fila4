@@ -25,27 +25,7 @@ class GetModelClassByModelNameAction
         if ($modelClass === null) {
             return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
         }
-<<<<<<< HEAD
         Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-=======
-        Assert::string($modelClass);
->>>>>>> f1d4085 (.)
-=======
-        Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
 
         return $modelClass;
     }

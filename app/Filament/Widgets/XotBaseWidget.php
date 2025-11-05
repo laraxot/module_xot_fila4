@@ -4,15 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Components\Component;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Wizard\Step;
-use Filament\Schemas\Schema;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
@@ -23,6 +22,7 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
+use Filament\Forms\Form;
 
 /**
  * Classe base astratta per tutti i widget Filament.
@@ -98,13 +98,13 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     /**
      * Configura il form del widget.
      *
-     * @param  Schema  $schema  Il form da configurare
+     * @param  Schema  $form  Il form da configurare
      * @return Schema Il form configurato
      */
-    public function form(Schema $schema): Schema
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
-        $schema = $schema->components($this->getFormSchema());
-        $schema->statePath('data');
+        $form = $form->components($this->getFormSchema());
+        $form->statePath('data');
         $data = $this->getFormFill();
 
         $model = $this->getFormModel();
@@ -113,11 +113,11 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             if (is_string($model)) {
                 if (class_exists($model) && is_subclass_of($model, Model::class)) {
                     /** @var class-string<Model> $model */
-                    $schema->model($model);
+                    $form->model($model);
                 }
             } else {
                 // $model is an instance of Model
-                $schema->model($model);
+                $form->model($model);
             }
         }
         if (! empty($data)) {
@@ -125,7 +125,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             // $this->data=$data;
         }
 
-        return $schema;
+        return $form;
     }
 
     public function getFormFill(): array

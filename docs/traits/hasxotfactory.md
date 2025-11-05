@@ -363,3 +363,4 @@ protected static function newFactory(): Factory
 **Stato**: ✅ Produzione  
 **PHPStan**: Level 9 compliant
 
+

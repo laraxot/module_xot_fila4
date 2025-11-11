@@ -2,7 +2,11 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace \Filament\Forms\Formatters;
+=======
+namespace Modules\Xot\Exceptions\Formatters;
+>>>>>>> 518e053 (.)
 
 <<<<<<< HEAD
 =======

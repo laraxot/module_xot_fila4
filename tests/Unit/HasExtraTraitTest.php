@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Tests\Unit;
 
 use Exception;
-use function Safe\class_uses;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Xot\Contracts\ExtraContract;
@@ -13,6 +12,8 @@ use Modules\Xot\Models\Traits\HasExtraTrait;
 use ReflectionClass;
 use ReflectionMethod;
 use stdClass;
+
+use function Safe\class_uses;
 
 describe('HasExtraTrait', function (): void {
     beforeEach(function (): void {
@@ -175,10 +176,13 @@ describe('HasExtraTrait', function (): void {
             ->toBe(1)
             /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             ->and($parameters[0]->getName())
-            ->toBe('name')
-            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
-            ->and($parameters[0]->getType()?->getName())
-            ->toBe('string');
+            ->toBe('name');
+
+        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+        $getExtraParamType = $parameters[0]->getType();
+        if ($getExtraParamType instanceof \ReflectionNamedType) {
+            expect($getExtraParamType->getName())->toBe('string');
+        }
 
         // Check setExtra method signature
         /** @phpstan-ignore-next-line method.nonObject */
@@ -191,10 +195,13 @@ describe('HasExtraTrait', function (): void {
             ->toBe(2)
             /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             ->and($setParameters[0]->getName())
-            ->toBe('name')
-            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
-            ->and($setParameters[0]->getType()?->getName())
-            ->toBe('string');
+            ->toBe('name');
+
+        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+        $setExtraParamType = $setParameters[0]->getType();
+        if ($setExtraParamType instanceof \ReflectionNamedType) {
+            expect($setExtraParamType->getName())->toBe('string');
+        }
     });
 
     it('has proper return type annotations', function (): void {

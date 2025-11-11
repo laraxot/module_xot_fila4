@@ -62,7 +62,8 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
     public function headings(): array
     {
         if (! empty($this->headings)) {
-            return $this->headings;
+            /** @var list<string> */
+            return array_values($this->headings);
         }
 
         $firstItem = $this->query->first();
@@ -82,7 +83,8 @@ class QueryExport implements FromCollection, WithChunkReading, WithHeadings, Wit
             }
         }
 
-        /** @var list<string> */ return array_values($columns);
+        /** @var list<string> */
+        return $columns;
     }
 
     /**

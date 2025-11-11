@@ -60,7 +60,8 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
     public function headings(): array
     {
         if (! empty($this->headings)) {
-            return $this->headings;
+            /** @var list<string> */
+            return array_values($this->headings);
         }
 
         if ($this->collection->isEmpty()) {
@@ -84,7 +85,8 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
             }
         }
 
-        /** @var list<string> */ return array_values($columns);
+        /** @var list<string> */
+        return $columns;
     }
 
     /**

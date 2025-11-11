@@ -56,30 +56,30 @@ trait HasXotTable
     /**
      * Get table header actions.
      *
-     * @return array<string, Action|ActionGroup>
+     * @return array<int|string, \Filament\Actions\Action|\Filament\Actions\ActionGroup>
      */
     public function getTableHeaderActions(): array
     {
         $actions = [];
 
-        $actions['create'] = CreateAction::make();
+        $actions[] = CreateAction::make();
 
         if ($this->shouldShowAssociateAction()) {
-            $actions['associate'] = AssociateAction::make()
+            $actions[] = AssociateAction::make()
                 ->label('')
                 ->icon('heroicon-o-paper-clip')
                 ->tooltip(__('user::actions.associate_user'));
         }
 
         if ($this->shouldShowAttachAction()) {
-            $actions['attach'] = AttachAction::make()
+            $actions[] = AttachAction::make()
                 ->label('')
                 ->icon('heroicon-o-link')
                 ->tooltip(__('user::actions.attach_user'))
                 ->preloadRecordSelect();
         }
 
-        $actions['layout'] = TableLayoutToggleTableAction::make('layout');
+        $actions[] = TableLayoutToggleTableAction::make('layout');
 
         return $actions;
     }
@@ -220,13 +220,13 @@ trait HasXotTable
             ->heading($this->getTableHeading())
             ->columns($this->layoutView->getTableColumns($this->getTableColumns(), $this->getGridTableColumns()))
             ->contentGrid($this->layoutView->getTableContentGrid())
-            ->filters(array_values($this->getTableFilters()))
+            ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->filtersFormColumns($this->getTableFiltersFormColumns())
             ->persistFiltersInSession()
-            ->headerActions(array_values($this->getTableHeaderActions()))
+            ->headerActions($this->getTableHeaderActions())
             ->recordActions($this->getTableActions())
-            ->toolbarActions(array_values($this->getTableBulkActions()))
+            ->toolbarActions($this->getTableBulkActions())
             ->recordActionsPosition(RecordActionsPosition::BeforeColumns)
             ->emptyStateActions($this->getTableEmptyStateActions())
             ->striped()
@@ -274,7 +274,7 @@ trait HasXotTable
     /**
      * Get table filters.
      *
-     * @return array<string|int, Tables\Filters\Filter|TernaryFilter|BaseFilter>
+     * @return array<int|string, \Filament\Tables\Filters\BaseFilter>
      */
     public function getTableFilters(): array
     {
@@ -284,7 +284,7 @@ trait HasXotTable
     /**
      * Get table actions.
      *
-     * @return array<string, Action|ActionGroup>
+     * @return array<Action|ActionGroup>
      */
     public function getTableActions(): array
     {
@@ -292,28 +292,28 @@ trait HasXotTable
         $resource = $this->getResource();
 
         if (method_exists($resource, 'canView')) {
-            $actions['view'] = ViewAction::make()
+            $actions[] = ViewAction::make()
                 ->iconButton()
                 ->tooltip(__('user::actions.view'))
                 ->visible($resource::canView(...));
         }
 
         if (method_exists($resource, 'canEdit')) {
-            $actions['edit'] = EditAction::make()
+            $actions[] = EditAction::make()
                 ->iconButton()
                 ->tooltip(__('user::actions.edit'))
                 ->visible($resource::canEdit(...));
         }
 
         if (method_exists($resource, 'canDelete')) {
-            $actions['delete'] = DeleteAction::make()
+            $actions[] = DeleteAction::make()
                 ->iconButton()
                 ->tooltip(__('user::actions.delete'))
                 ->visible($resource::canDelete(...));
         }
 
         if ($this->shouldShowReplicateAction()) {
-            $actions['replicate'] = ReplicateAction::make()
+            $actions[] = ReplicateAction::make()
                 ->iconButton()
                 ->tooltip(__('user::actions.replicate'));
         }
@@ -349,7 +349,7 @@ trait HasXotTable
             /** @var \Illuminate\Database\Eloquent\Relations\Relation $relationship */
             $relationship = $this->getRelationship();
             if ($relationship instanceof \Illuminate\Database\Eloquent\Relations\BelongsToMany) {
-                $actions['detach'] = DetachAction::make()
+                $actions[] = DetachAction::make()
                     ->iconButton()
                     ->tooltip(__('user::actions.detach'));
 >>>>>>> eeaa032 (.)
@@ -362,12 +362,12 @@ trait HasXotTable
     /**
      * Get table bulk actions.
      *
-     * @return array<string, BulkAction>
+     * @return array<int|string, \Filament\Actions\Action|\Filament\Actions\ActionGroup>
      */
     public function getTableBulkActions(): array
     {
         return [
-            'delete' => DeleteBulkAction::make()
+            DeleteBulkAction::make()
                 ->icon('heroicon-o-trash')
                 ->color('danger')
                 ->requiresConfirmation(),
@@ -437,7 +437,7 @@ trait HasXotTable
                 TextColumn::make('message')->default(__('user::fields.message.default'))->html(),
             ])
             ->headerActions([])
-            ->recordActions([]);
+            ->actions([]);
     }
 
     /**

@@ -46,7 +46,7 @@ public function getTitle(): string
 ### Form Standardizzato
 
 ```php
-public function form(Form $form): Form
+public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 {
     return $form
         ->schema($this->getFormSchema())

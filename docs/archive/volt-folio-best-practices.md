@@ -3,14 +3,10 @@
 ## Collegamenti correlati
 - [README modulo Xot](./README.md)
 - [Struttura dei moduli](./MODULE_STRUCTURE.md)
-- [Convenzioni di Path](../User/docs/PATH_CONVENTIONS.md)
-- [Implementazione Auth con Volt e Folio](../User/docs/VOLT_FOLIO_AUTH_IMPLEMENTATION.md)
-- [Analisi Logout Blade](../User/docs/LOGOUT_BLADE_ANALYSIS.md)
+- [Convenzioni di Path](../User/project_docs/PATH_CONVENTIONS.md)
+- [Implementazione Auth con Volt e Folio](../User/project_docs/VOLT_FOLIO_AUTH_IMPLEMENTATION.md)
+- [Analisi Logout Blade](../User/project_docs/LOGOUT_BLADE_ANALYSIS.md)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
 ## Introduzione
 
 Questo documento definisce le best practices per l'utilizzo di Laravel Folio e Livewire Volt , con particolare attenzione alle pagine di autenticazione e alle convenzioni di progetto.
@@ -261,20 +257,11 @@ return redirect()->to('/' . $locale);
 
 ## Conclusione
 
-<<<<<<< HEAD
 Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
-=======
-Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
-Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di <nome progetto>, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
->>>>>>> a5dccfe (.)
 
 ## Riferimenti
 
-- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
-- [Documentazione Folio](https://laravel.com/docs/10.x/folio)
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
+- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+- [Documentazione Folio](https://laravel.com/project_docs/10.x/folio)
 - [Documentazione Livewire](https://livewire.laravel.com/docs)
 - [Documentazione Filament](https://filamentphp.com/docs)

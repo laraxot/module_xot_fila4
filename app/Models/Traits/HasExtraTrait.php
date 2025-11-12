@@ -90,20 +90,16 @@ trait HasExtraTrait
 
 =======
         if (\is_array($value)) {
-            // PHPStan Level 10: Verify and cast to array<string, mixed>
-            foreach (array_keys($value) as $key) {
-                if (! \is_string($key) && ! \is_int($key)) {
-                    throw new \Exception('Array key must be string or int');
-                }
-            }
-            
-            /** @var array<string, mixed> $typedValue */
-            $typedValue = $value;
-
-            return $typedValue;
+            // PHPStan: Cast to ensure array<string, mixed> type
+            /** @var array<string, mixed> $value */
+            return $value;
         }
 
-        if (\is_int($value) || \is_bool($value) || \is_string($value) || $value === null) {
+        if ($value === null || \is_bool($value) || \is_string($value)) {
+            return $value;
+        }
+
+        if (\is_int($value) || \is_float($value)) {
             return $value;
         }
 

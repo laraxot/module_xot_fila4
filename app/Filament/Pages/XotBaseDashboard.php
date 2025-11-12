@@ -13,12 +13,8 @@ abstract class XotBaseDashboard extends FilamentDashboard
 {
     use FilamentDashboard\Concerns\HasFiltersForm;
 
-<<<<<<< HEAD
     protected static ?int $navigationSort = 1;
 
-=======
-    protected static null|int $navigationSort = 1;
->>>>>>> 87ade28 (.)
     protected bool $persistsFiltersInSession = true;
 
     final public function filtersForm(Schema $schema): Schema

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # Convenzioni per la documentazione in Laraxot PTVX
 
 ## Convenzioni di naming
@@ -61,6 +64,7 @@
 1. **Da modulo a root**: Ogni documento in un modulo deve linkare alla documentazione root correlata:
    ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
 <<<<<<< HEAD
@@ -70,10 +74,14 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+   Vedi anche: [Documentazione generale](/docs/nome_documento.md)
+>>>>>>> 5ea1401 (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 =======
@@ -84,6 +92,9 @@ Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_docu
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
+>>>>>>> 5ea1401 (.)
    ```
 
 ## Manutenzione della documentazione
@@ -123,6 +134,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 - [Convenzioni di naming in generale](../../../docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/docs/service_provider.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -134,3 +146,8 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 *Ultimo aggiornamento: Giugno 2025*
 =======
 >>>>>>> dfe51d0 (.)
+=======
+- [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
+
+*Ultimo aggiornamento: Giugno 2025*
+>>>>>>> 5ea1401 (.)

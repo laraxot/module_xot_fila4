@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # Best Practices nei Service Provider
 
 ## Decisione Architetturale (2025-05-13)
@@ -32,12 +35,15 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 - [Collegamento a docs/links.md della root](../../../../docs/links.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> 5ea1401 (.)
 ## Utilizzo di GetModulePathByGeneratorAction
 
 ### Panoramica
@@ -173,5 +179,8 @@ Questa implementazione:
 L'utilizzo di `GetModulePathByGeneratorAction` anziché chiamate dirette a `module_path` rappresenta una best practice importante nel progetto il progetto. Questo approccio migliora la robustezza, la leggibilità e la manutenibilità del codice nei service provider.
 
 Si raccomanda di seguire questo pattern in tutti i service provider personalizzati per garantire coerenza e affidabilità nell'accesso ai percorsi dei moduli. 
+<<<<<<< HEAD
 =======
 >>>>>>> dfe51d0 (.)
+=======
+>>>>>>> 5ea1401 (.)

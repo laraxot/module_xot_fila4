@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 ## Convenzioni di naming per le azioni (Actions)
 
 Per tutte le azioni che operano su chiavi di aggregazione specifiche (es. stabi, valutatore_id, ecc.), si raccomanda l'uso esplicito del suffisso `By<Chiave>` nel nome della classe. Esempio:
@@ -12,6 +15,7 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 
 ## Memo e regole operative permanenti (per tutti i moduli che seguono Xot)
 
+<<<<<<< HEAD
 ### 🚨 REGOLA CRITICA FONDAMENTALE: Estensione Classi XotBase
 
 **MAI ESTENDERE CLASSI FILAMENT DIRETTAMENTE - SEMPRE USARE XOTBASE***
@@ -39,6 +43,8 @@ class AdminPanelProvider extends Modules\Xot\Providers\Filament\XotBasePanelProv
 
 ### Altre Regole Operative
 
+=======
+>>>>>>> 5ea1401 (.)
 - **Un solo model per ogni concetto aggregato**: per ogni tipo di aggregazione (es. valutatore_id, stabi, ecc.), deve esistere un solo model, con nome e tabella coerenti e documentati. Usare sempre `BaseModel` come classe base.
 - **Un solo file per ogni azione di aggregazione**: mantenere solo la versione con il suffisso `By<Chiave>` (es. `ByValutatoreId`, `ByStabi`) per chiarezza, coerenza e ricerca.
 - **Tutte le azioni e i model devono essere documentati** e collegati alle regole generali del progetto (vedi root docs e docs di ogni modulo).
@@ -49,6 +55,7 @@ class AdminPanelProvider extends Modules\Xot\Providers\Filament\XotBasePanelProv
   - [Esempio e memo nel modulo Performance](../../Performance/docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
 =======
 <<<<<<< HEAD
@@ -58,3 +65,6 @@ class AdminPanelProvider extends Modules\Xot\Providers\Filament\XotBasePanelProv
 >>>>>>> 6821f7a (.)
 =======
 >>>>>>> dfe51d0 (.)
+=======
+> **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+>>>>>>> 5ea1401 (.)

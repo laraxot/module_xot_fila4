@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # Case Sensitivity e Struttura Corretta delle Directory nei Moduli Laravel
 
 ## Problemi Identificati
@@ -81,6 +84,10 @@ L'utilizzo di strutture di directory errate può causare:
 Per verificare la corretta struttura delle directory nei moduli:
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5ea1401 (.)
 # Verifica case sensitivity errata
 find /var/www/html/base_<nome progetto>/laravel/Modules -type d -name "Resources" -o -name "Config" -o -name "Views" -o -name "Lang" -o -name "Images"
 
@@ -93,6 +100,10 @@ find /var/www/html/base_<nome progetto>/laravel/Modules -type d -name "Filament"
 ### Per problemi di case sensitivity:
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5ea1401 (.)
 # Rinomina la directory (su sistemi Linux/Unix)
 mv /var/www/html/base_<nome progetto>/laravel/Modules/User/Resources /var/www/html/base_<nome progetto>/laravel/Modules/User/resources_temp
 mv /var/www/html/base_<nome progetto>/laravel/Modules/User/resources_temp /var/www/html/base_<nome progetto>/laravel/Modules/User/resources
@@ -104,6 +115,10 @@ mv /var/www/html/base_<nome progetto>/laravel/Modules/User/config_temp /var/www/
 ### Per problemi di posizione del codice PHP:
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5ea1401 (.)
 # Crea la directory app se non esiste
 mkdir -p /var/www/html/base_<nome progetto>/laravel/Modules/User/app/Filament
 
@@ -136,5 +151,8 @@ Rispettare la struttura corretta delle directory è fondamentale per garantire l
 - [NAMESPACE-RULES.md](./NAMESPACE-RULES.md) - Regole per i namespace nei moduli
 - [FOLIO_VOLT_FILAMENT_INTEGRATION.md](./FOLIO_VOLT_FILAMENT_INTEGRATION.md) - Integrazione Folio, Volt e Filament
 - [filament/widgets/xot-base-widget.md](./filament/widgets/xot-base-widget.md) - Documentazione su XotBaseWidget
+<<<<<<< HEAD
 =======
 >>>>>>> dfe51d0 (.)
+=======
+>>>>>>> 5ea1401 (.)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # Convenzioni di Naming nella Documentazione
 
 ## Regola: Nome del Progetto nei Moduli
@@ -39,12 +42,20 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 
 #### ✅ CORRETTO (in un modulo)
 ```markdown
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5ea1401 (.)
 # Modulo di Gestione Pazienti
 Questo modulo fornisce funzionalità per la gestione dei pazienti in una clinica odontoiatrica.
 ```
 
 #### ❌ ERRATO (in un modulo)
 ```markdown
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5ea1401 (.)
 # Modulo Pazienti il progetto
 Questo modulo gestisce i pazienti nella piattaforma il progetto.
 ```
@@ -73,6 +84,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 - [Struttura Moduli](module-structure.md)
 - [Convenzioni Generali](conventions.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices Documentazione](documentation-guidelines.md) 
 =======
 <<<<<<< HEAD
@@ -82,3 +94,6 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> 6821f7a (.)
 =======
 >>>>>>> dfe51d0 (.)
+=======
+- [Best Practices Documentazione](documentation-guidelines.md) 
+>>>>>>> 5ea1401 (.)

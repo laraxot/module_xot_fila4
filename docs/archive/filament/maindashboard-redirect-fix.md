@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # Fix Redirect Loop - MainDashboard
 
 ## Problema Risolto
@@ -161,12 +164,15 @@ performance::admin
 - [Filament Best Practices](../../../docs/FILAMENT-BEST-PRACTICES.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> 5ea1401 (.)
 ## Aggiornamenti
 
 ### 2025-01-27 - Fix Implementato
@@ -181,5 +187,8 @@ performance::admin
 - ✅ **Multi-Ruolo**: Supporto mantenuto
 - ✅ **Performance**: Nessun impatto negativo
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfe51d0 (.)
+=======
+>>>>>>> 5ea1401 (.)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # Risoluzione Conflitto: XotBaseServiceProvider
 
 ## Contesto
@@ -33,6 +36,7 @@ Questa scelta garantisce:
 ## Backlink
 - [docs/links.md](../../../../docs/links.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -43,3 +47,7 @@ Questa scelta garantisce:
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
 =======
 >>>>>>> dfe51d0 (.)
+=======
+- [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
+- [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
+>>>>>>> 5ea1401 (.)

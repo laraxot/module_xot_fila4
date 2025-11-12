@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # Aggiornamento File di Traduzione xot_base.php
 
 ## Data Aggiornamento
@@ -92,6 +95,7 @@ return [
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -101,3 +105,6 @@ return [
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 =======
 >>>>>>> dfe51d0 (.)
+=======
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> 5ea1401 (.)

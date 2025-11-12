@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 ---
 title: Getting Started
 description: Getting started with Jigsaw's docs starter template is as easy as 1, 2, 3.
@@ -69,10 +72,15 @@ Files that don't require processing (such as images and fonts) can be added dire
 Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5ea1401 (.)
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
 # compile assets with Laravel Mix
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -86,6 +94,16 @@ npm run dev
 # options: dev, prod
 npm run dev
 ```
+=======
+# options: dev, prod
+npm run dev
+```
+
+# options: dev, prod
+npm run dev
+```
+
+>>>>>>> 5ea1401 (.)
 ### Versione HEAD
 
 
@@ -102,5 +120,8 @@ npm run dev
 
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfe51d0 (.)
+=======
+>>>>>>> 5ea1401 (.)

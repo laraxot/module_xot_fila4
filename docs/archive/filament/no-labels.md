@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # DIVIETO ASSOLUTO DI USARE ->label(), ->placeholder() e ->helperText()
 
 ## Regola Fondamentale Inviolabile
@@ -109,6 +112,7 @@ Se trovi codice che viola questa regola:
 - [Regole per RelationManager](/docs/filament/relation_managers.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -118,3 +122,6 @@ Se trovi codice che viola questa regola:
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
 >>>>>>> dfe51d0 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 5ea1401 (.)

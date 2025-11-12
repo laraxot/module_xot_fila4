@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # Sistema di Traduzione 
 
 ## Regola Fondamentale: NO ->label()
@@ -146,6 +149,10 @@ Modules/
 ### 1. Identificare i File da Correggere
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5ea1401 (.)
 # Trova tutti i file PHP che usano ->label()
 grep -r "->label(" . --include="*.php"
 ```
@@ -225,6 +232,7 @@ php artisan view:clear
 - [Filament Form Components](https://filamentphp.com/project_docs/forms)
 - [Best Practices Filament](../project_docs/filament-best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 =======
 <<<<<<< HEAD
@@ -234,3 +242,6 @@ php artisan view:clear
 >>>>>>> 6821f7a (.)
 =======
 >>>>>>> dfe51d0 (.)
+=======
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+>>>>>>> 5ea1401 (.)

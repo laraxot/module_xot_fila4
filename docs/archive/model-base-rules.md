@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # Regole di Estensione dei Modelli Laraxot
 
 ## Regola Fondamentale di Ereditarietà
@@ -57,12 +60,15 @@ I modelli aggregati e di totali (es. `OrganizzativaTotValutatoreId` del modulo P
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> 5ea1401 (.)
 ## Eccezioni
 
 Non esistono eccezioni a questa regola. Tutti i modelli concreti devono seguirla.
@@ -100,6 +106,7 @@ abstract class BaseModel extends XotBaseModel
 - [modules/performance/docs/organizzativa-models.md](../Performance/docs/organizzativa-models.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -109,3 +116,6 @@ abstract class BaseModel extends XotBaseModel
 *Ultimo aggiornamento: maggio 2025* 
 =======
 >>>>>>> dfe51d0 (.)
+=======
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> 5ea1401 (.)

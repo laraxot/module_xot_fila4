@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # Risoluzione conflitto composer.json (Xot)
 
 ## Intent
 - Garantire coerenza delle dipendenze e corretta configurazione dell’autoload per il modulo Xot.
 
 ## Cosa
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Rimozione dei marker di conflitto in `composer.json`.
 
@@ -25,6 +29,8 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 =======
 
 =======
+=======
+>>>>>>> 5ea1401 (.)
 - Rimozione dei marker di conflitto Git in `composer.json`
 - Eliminazione dell'inserimento errato del branch alias `aurmich/dev` nelle sezioni `require-comment` e `require-dev-comment`, che non fanno parte della configurazione delle dipendenze
 - Conservazione delle sezioni `require` e `require-dev` pulite, mantenendo solo le dipendenze ufficiali documentate nel modulo Xot
@@ -32,7 +38,10 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 
 ## Collegamento alla doc root
 Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
+<<<<<<< HEAD
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 =======
 >>>>>>> dfe51d0 (.)
+=======
+>>>>>>> 5ea1401 (.)

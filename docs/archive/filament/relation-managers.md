@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # XotBaseRelationManager per Laraxot PTVX
 
 ## Panoramica
@@ -198,6 +201,7 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 - [Regole di Traduzione](/laravel/Modules/Xot/docs/translation_rules.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -207,3 +211,6 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
 >>>>>>> dfe51d0 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 5ea1401 (.)

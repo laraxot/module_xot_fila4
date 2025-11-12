@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ea1401 (.)
 # HasXotTable Trait per Filament in Laraxot PTVX
 
 ## Panoramica
@@ -238,6 +241,7 @@ class DatiRelationManager extends XotBaseRelationManager
 - [Filament Resources](/laravel/Modules/Xot/docs/filament/resources.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -247,3 +251,6 @@ class DatiRelationManager extends XotBaseRelationManager
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
 >>>>>>> dfe51d0 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 5ea1401 (.)

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Tests\Unit;
 
 use Exception;
+use function Safe\class_uses;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Xot\Contracts\ExtraContract;

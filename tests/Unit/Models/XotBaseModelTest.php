@@ -7,6 +7,8 @@ use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Traits\Updater;
 use Tests\TestCase;
 
+use function Safe\file_get_contents;
+
 uses(TestCase::class);
 
 test('xot base model extends eloquent model', function (): void {

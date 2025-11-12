@@ -55,7 +55,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
     }
 
     /**
-     * @return array<string, mixed>
+     * @return list<string>
      */
     public function headings(): array
     {
@@ -78,16 +78,17 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 
         $columns = [];
         foreach ($attributes as $key => $value) {
-            if (in_array($key, $fillable) || empty($guarded) || ! in_array($key, $guarded)) {
-                $columns[] = $key;
+            $keyStr = is_string($key) ? $key : (string) $key;
+            if (in_array($keyStr, $fillable) || empty($guarded) || ! in_array($keyStr, $guarded)) {
+                $columns[] = $keyStr;
             }
         }
 
-        return $columns;
+        /** @var list<string> */ return array_values($columns);
     }
 
     /**
-     * @return array<string, mixed>
+     * @return list<mixed>
      */
     public function map($row): array
     {

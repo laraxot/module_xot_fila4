@@ -7,10 +7,13 @@ use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
 
 use function Safe\file_put_contents;
+<<<<<<< HEAD:tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.php
 use function Safe\json_encode;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
+=======
+>>>>>>> 52cf850 (.):tests/Unit/Console/Commands/generatedbdocumentationcommandtest.pest.php
 
 uses(TestCase::class);
 

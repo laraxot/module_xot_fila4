@@ -30,7 +30,10 @@ class GetSchemaManagerByModelClassAction
         if (method_exists($connection, 'getDoctrineSchemaManager')) {
             /** @phpstan-ignore deprecated.method */
             $schemaManager = $connection->getDoctrineSchemaManager();
+<<<<<<< HEAD
 
+=======
+>>>>>>> eeaa032 (.)
             Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class);
 
             return $schemaManager;

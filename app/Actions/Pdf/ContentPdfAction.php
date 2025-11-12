@@ -80,10 +80,15 @@ class ContentPdfAction
      * @return string Contenuto binario del PDF
      */
     /**
+<<<<<<< HEAD
      * @param array<string, mixed> $data
+=======
+     * @param  array<string, mixed>  $data
+>>>>>>> eeaa032 (.)
      */
     public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
     {
+        /** @var array<string, mixed> $data */
         return $this->execute(
             html: null,
             view: $view,

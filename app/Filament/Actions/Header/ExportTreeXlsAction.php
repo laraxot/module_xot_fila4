@@ -43,6 +43,7 @@ class ExportTreeXlsAction extends Action
                     'id' => $record->getKey(),
                 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $filename = class_basename($livewire).'-'.collect($tableFilters)->flatten()->implode('-').'.xlsx';
 =======
                 $filename = class_basename($livewire) . '-' . collect($tableFilters)->flatten()->implode('-') . '.xlsx';
@@ -67,6 +68,9 @@ class ExportTreeXlsAction extends Action
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 15def8d (.)
+=======
+                $filename = class_basename($livewire).'-'.collect($tableFilters)->flatten()->implode('-').'.xlsx';
+>>>>>>> eeaa032 (.)
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
                 // $query = $livewire->getFilteredTableQuery(); // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
@@ -79,6 +83,7 @@ class ExportTreeXlsAction extends Action
                 if (method_exists($resource, 'getXlsFields')) {
                     $fields = $resource::getXlsFields($tableFilters);
                     // Convertiamo tutti i valori a stringhe
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     $fields = array_map(fn ($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
@@ -94,10 +99,14 @@ class ExportTreeXlsAction extends Action
 =======
                     $fields = array_map(fn($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
 >>>>>>> 73eab74 (.)
+=======
+                    $fields = array_map(fn ($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
+>>>>>>> eeaa032 (.)
                     Assert::isArray($fields);
 >>>>>>> 7d72abc (.)
                 }
 
+<<<<<<< HEAD
                 /** @var array<int, string> $fields */
                 return app(ExportXlsByCollection::class)->execute($rows, $filename, $transKey, $fields);
             });
@@ -121,6 +130,16 @@ class ExportTreeXlsAction extends Action
     public static function getDefaultName(): null|string
 >>>>>>> 73eab74 (.)
 >>>>>>> 15def8d (.)
+=======
+                /** @var array<int, string> $typedFields */
+                $typedFields = array_values($fields);
+
+                return app(ExportXlsByCollection::class)->execute($rows, $filename, $transKey, $typedFields);
+            });
+    }
+
+    public static function getDefaultName(): ?string
+>>>>>>> eeaa032 (.)
     {
         return 'export_tree_xls';
     }

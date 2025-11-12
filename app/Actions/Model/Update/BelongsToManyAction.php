@@ -42,18 +42,27 @@ class BelongsToManyAction
 
         $models = [];
         $ids = [];
-        $related = $relationDTO->related;
-        $keyName = $relationDTO->related->getKeyName();
+        $related = $rows->getRelated();
+        Assert::notNull($related, 'Related model cannot be null');
+        $keyName = $related->getKeyName();
 
         // Itera sui dati della relazione
         foreach ($relationDTO->data as $data) {
             Assert::isArray($data, 'Each item in RelationDTO->data must be an array.');
             if (\array_key_exists($keyName, $data)) {
                 // Aggiorna o crea il modello correlato
+<<<<<<< HEAD
                 /** @var array<string, mixed> $safeData */
                 $safeData = $data;
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $safeData, []);
+=======
+                Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+                /** @var array<string, mixed> $typedData */
+                $typedData = $data;
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $typedData, []);
+>>>>>>> eeaa032 (.)
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();

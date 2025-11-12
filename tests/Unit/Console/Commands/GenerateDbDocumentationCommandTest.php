@@ -14,10 +14,13 @@ use Modules\Xot\Tests\TestCase;
 
 uses(TestCase::class);
 
+<<<<<<< HEAD:tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.php
 /**
  * @property string $testSchemaPath
  * @property string $testOutputDir
  */
+=======
+>>>>>>> eeaa032 (.):tests/Unit/Console/Commands/generatedbdocumentationcommandtest.pest.php
 beforeEach(function (): void {
     $this->testSchemaPath = storage_path('tests/schema.json');
     $this->testOutputDir = storage_path('tests/docs');

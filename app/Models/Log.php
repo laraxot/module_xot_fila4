@@ -35,8 +35,15 @@ use Sushi\Sushi;
  * @method static Builder<static>|Log whereName($value)
  * @method static Builder<static>|Log whereSize($value)
  *
+<<<<<<< HEAD
+=======
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ *
+>>>>>>> eeaa032 (.)
  * @mixin \Eloquent
  */
+/** */
 class Log extends BaseModel
 {
     use Sushi;

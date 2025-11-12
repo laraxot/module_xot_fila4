@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-use Error;
 use Filament\Schemas\Components\Component;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\StateContract;
-use Override;
 use Webmozart\Assert\Assert;
 
 /**
@@ -38,8 +36,10 @@ class StateOverviewWidget extends XotBaseWidget
      */
     protected static ?string $pollingInterval = null;
 
+    /** @var class-string */
     public string $stateClass;
 
+    /** @var class-string<\Illuminate\Database\Eloquent\Model> */
     public string $model;
 
     public string $cacheKey = '';
@@ -49,7 +49,10 @@ class StateOverviewWidget extends XotBaseWidget
      *
      * @return array<int|string, Component>
      */
-    #[Override]
+    #[\Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getFormSchema(): array
     {
         return [];
@@ -76,7 +79,7 @@ class StateOverviewWidget extends XotBaseWidget
             $this->cacheKey = $cacheKey;
 
             return $cacheKey;
-        } catch (Error $e) {
+        } catch (\Error $e) {
             if ($this->cacheKey === '') {
                 $this->cacheKey = Str::uuid()->toString();
             }
@@ -92,6 +95,7 @@ class StateOverviewWidget extends XotBaseWidget
      */
     protected function getStates(): array
     {
+        /** @var array<int, array<string, mixed>> $res */
         $res = Cache::remember($this->getCacheKey(), now()->addMinutes(5), $this->calculateStates(...));
 
         Assert::isArray($res);
@@ -108,9 +112,15 @@ class StateOverviewWidget extends XotBaseWidget
     protected function calculateStates(): array
     {
         $states = [];
+        Assert::isArray($states);
+
+        if (! class_exists($this->model) || ! class_exists($this->stateClass)) {
+            return $states;
+        }
 
         $modelInstance = app($this->model);
 
+<<<<<<< HEAD
         $stateMappingCollection = $this->stateClass::getStateMapping();
         if (! is_object($stateMappingCollection) || ! method_exists($stateMappingCollection, 'toArray')) {
             return [];
@@ -121,6 +131,18 @@ class StateOverviewWidget extends XotBaseWidget
 
         foreach ($stateMapping as $name => $stateClass) {
             $stateName = is_string($name) ? $name : (string) $name;
+=======
+        $stateMappingResult = $this->stateClass::getStateMapping();
+        if (! is_object($stateMappingResult) || ! method_exists($stateMappingResult, 'toArray')) {
+            return $states;
+        }
+
+        $stateMapping = $stateMappingResult->toArray();
+        Assert::isArray($stateMapping);
+
+        foreach ($stateMapping as $name => $stateClass) {
+            Assert::string($name);
+>>>>>>> eeaa032 (.)
             $state = new $stateClass($modelInstance);
             Assert::isInstanceOf($state, StateContract::class);
             $states[] = [
@@ -142,11 +164,23 @@ class StateOverviewWidget extends XotBaseWidget
      */
     protected function getCountForState(string $stateName): int
     {
+<<<<<<< HEAD
         /** @var \Illuminate\Database\Eloquent\Builder<\Illuminate\Database\Eloquent\Model> $query */
         $query = $this->model::where('state', $stateName);
         $count = $query->count();
 
         return is_int($count) ? $count : (int) $count;
+=======
+        $query = $this->model::where('state', $stateName);
+        if (! is_object($query) || ! method_exists($query, 'count')) {
+            return 0;
+        }
+
+        $count = $query->count();
+        Assert::integer($count);
+
+        return $count;
+>>>>>>> eeaa032 (.)
     }
 
     /**

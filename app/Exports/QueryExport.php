@@ -4,112 +4,152 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exports;
 
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Contracts\Support\Arrayable;
-use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
-use Illuminate\Database\Eloquent\Relations\Relation;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromQuery;
+use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\WithChunkReading;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
-use Modules\Lang\Actions\TransCollectionAction;
 
-// use Staudenmeir\LaravelCte\Query\Builder as CteBuilder;
+use function Safe\json_encode;
 
-class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadings, WithMapping
+/**
+ * @implements WithMapping<Model>
+ */
+class QueryExport implements FromCollection, WithChunkReading, WithHeadings, WithMapping
 {
     use Exportable;
 
-    public array $headings = [];
+    /** @var Builder<Model>|QueryBuilder */
+    public Builder|QueryBuilder $query;
 
-    /** @var array<int, string> */
-    public array $fields = [];
+    public array $headings;
 
-    public ?string $transKey = null;
+    public array $columns;
 
-    public QueryBuilder|EloquentBuilder $query;
+    public string $filename;
+
+    public string $sheetName;
 
     /**
-     * @param  array<int, string>  $fields
+     * @param  Builder<Model>|QueryBuilder  $query
+     * @param  array<int, string>  $headings
+     * @param  array<int, string>  $columns
      */
-    public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
+    public function __construct(Builder|QueryBuilder $query, array $headings = [], array $columns = [])
     {
         $this->query = $query;
-        $this->transKey = $transKey;
-        $this->fields = $fields;
-
-        /*
-         * $this->headings = collect($query->first())
-         * ->keys()
-         * ->map(
-         * function ($item) use ($transKey) {
-         * $t = $transKey.'.'.$item;
-         * $trans = trans($t);
-         * if ($trans != $t) {
-         * return $trans;
-         * }
-         *
-         * return $item;
-         * }
-         * )
-         * ->toArray();
-         */
-    }
-
-    public function getHead(): Collection
-    {
-        if (! empty($this->fields)) {
-            return collect($this->fields);
-        }
-        /**
-         * @var Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null
-         */
-        $first = $this->query->first();
-        if ($first === null) {
-            return collect([]);
-        }
-
-        // Parameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
-        return collect($first)->keys();
-    }
-
-    public function headings(): array
-    {
-        $headings = $this->getHead();
-        $transKey = $this->transKey;
-        $headings = app(TransCollectionAction::class)->execute($headings, $transKey);
-
-        return $headings->toArray();
+        $this->headings = $headings;
+        $this->columns = $columns;
+        $this->filename = 'export_'.date('Y-m-d_H-i-s').'.xlsx';
+        $this->sheetName = 'Export';
     }
 
     /**
-     * se si usa scout aggiungere |ScoutBuilder.
+     * @return Collection<int, Model>
      */
-    public function query(): QueryBuilder|EloquentBuilder|Relation
+    public function collection(): Collection
     {
-        return $this->query;
+        return $this->query->get();
+    }
 
-        // ->orderBy('id');
+    /**
+     * @return array<string, mixed>
+     */
+    public function headings(): array
+    {
+        if (! empty($this->headings)) {
+            return $this->headings;
+        }
+
+        $firstItem = $this->query->first();
+        if ($firstItem === null || ! $firstItem instanceof Model) {
+            return [];
+        }
+
+        $attributes = $firstItem->getAttributes();
+        $fillable = $firstItem->getFillable();
+        $guarded = $firstItem->getGuarded();
+
+        $columns = [];
+        foreach ($attributes as $key => $value) {
+            if (in_array($key, $fillable) || empty($guarded) || ! in_array($key, $guarded)) {
+                $columns[] = $key;
+            }
+        }
+
+        return $columns;
+    }
+
+    /**
+     * @return array<string, mixed>
+     */
+    public function map($row): array
+    {
+        if (! $row instanceof Model) {
+            return [];
+        }
+
+        $data = [];
+        $headings = $this->headings();
+
+        foreach ($headings as $heading) {
+            if (! is_string($heading)) {
+                continue;
+            }
+            $value = $row->getAttribute($heading);
+
+            if (is_array($value)) {
+                $value = json_encode($value) ?: '[]';
+            } elseif (is_object($value)) {
+                if (method_exists($value, '__toString')) {
+                    $value = (string) $value;
+                } else {
+                    $value = get_class($value);
+                }
+            }
+
+            $data[] = $value ?? '';
+        }
+
+        return $data;
     }
 
     public function chunkSize(): int
     {
-        return 200;
+        return 1000;
     }
 
     /**
-     * @param  Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null  $item
+     * @return Collection<int, Model>
      */
-    public function map($item): array
+    public function getHead(): Collection
     {
-        if (! empty($this->fields)) {
-            return collect($item)->toArray();
-        }
+        return $this->query->limit(10)->get();
+    }
 
-        // rameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
-        return collect($item)->only($this->fields)->toArray();
+    /**
+     * @return Builder<Model>|QueryBuilder
+     */
+    public function query(): Builder|QueryBuilder
+    {
+        return $this->query;
+    }
+
+    public function setFilename(string $filename): self
+    {
+        $this->filename = $filename;
+
+        return $this;
+    }
+
+    public function setSheetName(string $sheetName): self
+    {
+        $this->sheetName = $sheetName;
+
+        return $this;
     }
 }

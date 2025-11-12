@@ -42,8 +42,15 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|Session whereUserAgent($value)
  * @method static Builder<static>|Session whereUserId($value)
  *
+<<<<<<< HEAD
+=======
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ *
+>>>>>>> eeaa032 (.)
  * @mixin \Eloquent
  */
+/** */
 class Session extends BaseModel
 {
     protected $fillable = ['id', 'user_id', 'ip_address', 'user_agent', 'payload', 'last_activity'];

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Traits;
 
-use Exception;
 use Filament\Actions;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
@@ -92,14 +91,12 @@ trait HasXotTable
 
     protected function shouldShowAttachAction(): bool
     {
-        // @phpstan-ignore-next-line
-        return method_exists($this, 'getRelationship');
+        return $this instanceof \Filament\Resources\RelationManagers\RelationManager;
     }
 
     protected function shouldShowDetachAction(): bool
     {
-        // @phpstan-ignore-next-line
-        return method_exists($this, 'getRelationship');
+        return $this instanceof \Filament\Resources\RelationManagers\RelationManager;
     }
 
     protected function shouldShowReplicateAction(): bool
@@ -120,7 +117,7 @@ trait HasXotTable
     /**
      * Get header actions.
      *
-     * @return array<string, Actions\Action>
+     * @return array<string, Action>
      */
     protected function getHeaderActions(): array
     {
@@ -172,8 +169,6 @@ trait HasXotTable
     public function getTableHeading(): ?string
     {
         $key = static::getKeyTrans('table.heading');
-        /** @var string|array<int|string,mixed>|null $trans */
-        // @phpstan-ignore-next-line
         $trans = trans($key);
 
         return is_string($trans) && $trans !== $key ? $trans : null;
@@ -263,7 +258,7 @@ trait HasXotTable
             Assert::isInstanceOf($model, Model::class);
 
             return $model->getTable().'.id';
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             return null;
         }
     }
@@ -323,6 +318,7 @@ trait HasXotTable
                 ->tooltip(__('user::actions.replicate'));
         }
 
+<<<<<<< HEAD
         // Check if class has the getRelationship method
         // Note: In some contexts (ListRecords), getRelationship() may not exist
         // @phpstan-ignore-next-line function.alreadyNarrowedType (needed for contexts where method doesn't exist)
@@ -347,6 +343,16 @@ trait HasXotTable
                         ->iconButton()
                         ->tooltip(__('user::actions.detach'));
                 }
+=======
+        // Only relation managers support detach on pivot relations
+        if ($this instanceof \Filament\Resources\RelationManagers\RelationManager) {
+            /** @var \Illuminate\Database\Eloquent\Relations\Relation $relationship */
+            $relationship = $this->getRelationship();
+            if ($relationship instanceof \Illuminate\Database\Eloquent\Relations\BelongsToMany) {
+                $actions['detach'] = DetachAction::make()
+                    ->iconButton()
+                    ->tooltip(__('user::actions.detach'));
+>>>>>>> eeaa032 (.)
             }
         }
 
@@ -362,7 +368,6 @@ trait HasXotTable
     {
         return [
             'delete' => DeleteBulkAction::make()
-                ->label('')
                 ->icon('heroicon-o-trash')
                 ->color('danger')
                 ->requiresConfirmation(),
@@ -375,39 +380,30 @@ trait HasXotTable
      *
      * @return class-string<Model>
      *
-     * @throws Exception Se non viene trovata una classe modello valida
+     * @throws \Exception Se non viene trovata una classe modello valida
      */
     public function getModelClass(): string
     {
-        // @phpstan-ignore-next-line
-        if (method_exists($this, 'getRelationship')) {
+        if ($this instanceof \Filament\Resources\RelationManagers\RelationManager) {
             $relationship = $this->getRelationship();
             if ($relationship instanceof Relation) {
-                /* @var class-string<Model> */
-                return get_class($relationship->getModel());
+                $model = $relationship->getModel();
+
+                /** @var class-string<Model> */
+                return get_class($model);
             }
         }
 
         if (method_exists($this, 'getModel')) {
             $model = $this->getModel();
-            // @phpstan-ignore-next-line
-            if (is_string($model)) {
-                Assert::classExists($model);
+            // If getModel() returns a string, it's already a class name
+            Assert::classExists($model);
 
-                // Assert::isAOf($model, Model::class);
-                /* @var class-string<Model> */
-                // @phpstan-ignore-next-line
-                return $model;
-            }
-            // @phpstan-ignore-next-line
-            if ($model instanceof Model) {
-                /* @var class-string<Model> */
-                // @phpstan-ignore-next-line
-                return get_class($model);
-            }
+            /** @var class-string<Model> */
+            return $model;
         }
 
-        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+        throw new \Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
     }
 
     /**

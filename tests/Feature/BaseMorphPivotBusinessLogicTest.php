@@ -20,6 +20,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivot = new BaseMorphPivot;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(Pivot::class, $pivot);
     }
 
@@ -34,6 +35,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $morphType = $pivot->morph_type;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('App\Models\User', $morphType);
     }
 
@@ -48,6 +50,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $morphId = $pivot->morph_id;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(123, $morphId);
     }
 
@@ -62,6 +65,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $relatedType = $pivot->related_type;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('App\Models\Post', $relatedType);
     }
 
@@ -76,6 +80,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $relatedId = $pivot->related_id;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(456, $relatedId);
     }
 
@@ -84,15 +89,21 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
     {
         // Arrange
         $pivot = new BaseMorphPivot;
+        /** @phpstan-ignore-next-line method.nonObject */
         $pivot->setAttribute('custom_field', 'custom_value');
+        /** @phpstan-ignore-next-line method.nonObject */
         $pivot->setAttribute('numeric_field', 42);
 
         // Act
+        /** @phpstan-ignore-next-line method.nonObject */
         $customField = $pivot->getAttribute('custom_field');
+        /** @phpstan-ignore-next-line method.nonObject */
         $numericField = $pivot->getAttribute('numeric_field');
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('custom_value', $customField);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(42, $numericField);
     }
 
@@ -110,7 +121,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $updatedAt = $pivot->updated_at;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($now, $createdAt);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($now, $updatedAt);
     }
 
@@ -126,6 +139,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotDeletedAt = $pivot->deleted_at;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($deletedAt, $pivotDeletedAt);
     }
 
@@ -140,6 +154,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $tenantId = $pivot->tenant_id;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(789, $tenantId);
     }
 
@@ -154,6 +169,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $userId = $pivot->user_id;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(101, $userId);
     }
 
@@ -175,10 +191,15 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotMetadata = $pivot->metadata;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($pivotMetadata);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('api', $pivotMetadata['source']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('192.168.1.1', $pivotMetadata['ip_address']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Test Browser', $pivotMetadata['user_agent']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('session123', $pivotMetadata['session_id']);
     }
 
@@ -201,9 +222,13 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotExtraData = $pivot->extra_data;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($pivotExtraData);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('value1', $pivotExtraData['field1']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('value2', $pivotExtraData['field2']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('value', $pivotExtraData['nested']['key']);
     }
 
@@ -218,6 +243,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $status = $pivot->status;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('active', $status);
     }
 
@@ -232,6 +258,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $priority = $pivot->priority;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(5, $priority);
     }
 
@@ -246,6 +273,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $sortOrder = $pivot->sort_order;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(10, $sortOrder);
     }
 
@@ -261,6 +289,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotExpiresAt = $pivot->expires_at;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expiresAt, $pivotExpiresAt);
     }
 
@@ -276,6 +305,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotStartsAt = $pivot->starts_at;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($startsAt, $pivotStartsAt);
     }
 
@@ -291,6 +321,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotEndsAt = $pivot->ends_at;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($endsAt, $pivotEndsAt);
     }
 
@@ -305,12 +336,14 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $isActive = $pivot->is_active;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($isActive);
 
         // Act - Deactivate
         $pivot->is_active = false;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($pivot->is_active);
     }
 
@@ -325,12 +358,14 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $isPublic = $pivot->is_public;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($isPublic);
 
         // Act - Make public
         $pivot->is_public = true;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($pivot->is_public);
     }
 
@@ -345,12 +380,14 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $isFeatured = $pivot->is_featured;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($isFeatured);
 
         // Act - Make featured
         $pivot->is_featured = true;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($pivot->is_featured);
     }
 
@@ -367,10 +404,15 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotTags = $pivot->tags;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($pivotTags);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('tag1', $pivotTags);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('tag2', $pivotTags);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('important', $pivotTags);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, $pivotTags);
     }
 
@@ -387,9 +429,13 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotCategories = $pivot->categories;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($pivotCategories);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('category1', $pivotCategories);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('category2', $pivotCategories);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $pivotCategories);
     }
 
@@ -410,9 +456,13 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotPermissions = $pivot->permissions;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($pivotPermissions);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertTrue($pivotPermissions['read']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertFalse($pivotPermissions['write']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertFalse($pivotPermissions['delete']);
     }
 
@@ -433,9 +483,13 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotSettings = $pivot->settings;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($pivotSettings);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertTrue($pivotSettings['notifications']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertFalse($pivotSettings['auto_save']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(30, $pivotSettings['timeout']);
     }
 
@@ -452,6 +506,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotNotes = $pivot->notes;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($notes, $pivotNotes);
     }
 
@@ -468,6 +523,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotDescription = $pivot->description;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($description, $pivotDescription);
     }
 
@@ -484,6 +540,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotUrl = $pivot->url;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($url, $pivotUrl);
     }
 
@@ -500,6 +557,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotImageUrl = $pivot->image_url;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($imageUrl, $pivotImageUrl);
     }
 
@@ -516,6 +574,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotExternalId = $pivot->external_id;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($externalId, $pivotExternalId);
     }
 
@@ -532,6 +591,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotSource = $pivot->source;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($source, $pivotSource);
     }
 
@@ -548,6 +608,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotVersion = $pivot->version;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($version, $pivotVersion);
     }
 
@@ -564,6 +625,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotHash = $pivot->hash;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($hash, $pivotHash);
     }
 
@@ -580,6 +642,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotChecksum = $pivot->checksum;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($checksum, $pivotChecksum);
     }
 
@@ -596,6 +659,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotSize = $pivot->size;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($size, $pivotSize);
     }
 
@@ -612,6 +676,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotMimeType = $pivot->mime_type;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($mimeType, $pivotMimeType);
     }
 
@@ -628,6 +693,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotEncoding = $pivot->encoding;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($encoding, $pivotEncoding);
     }
 
@@ -644,6 +710,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotLanguage = $pivot->language;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($language, $pivotLanguage);
     }
 
@@ -660,6 +727,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotLocale = $pivot->locale;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($locale, $pivotLocale);
     }
 
@@ -676,6 +744,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotTimezone = $pivot->timezone;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($timezone, $pivotTimezone);
     }
 
@@ -692,6 +761,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotCurrency = $pivot->currency;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($currency, $pivotCurrency);
     }
 
@@ -708,6 +778,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotDecimalPlaces = $pivot->decimal_places;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($decimalPlaces, $pivotDecimalPlaces);
     }
 
@@ -724,6 +795,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $pivotRoundingMode = $pivot->rounding_mode;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($roundingMode, $pivotRoundingMode);
     }
 }

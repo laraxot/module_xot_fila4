@@ -28,8 +28,25 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|CacheLock whereKey($value)
  * @method static Builder<static>|CacheLock whereOwner($value)
  *
+<<<<<<< HEAD
+=======
+ * @property int $expiration
+ *
+ * @method static CacheLockFactory factory($count = null, $state = [])
+ * @method static Builder|CacheLock newModelQuery()
+ * @method static Builder|CacheLock newQuery()
+ * @method static Builder|CacheLock query()
+ * @method static Builder|CacheLock whereExpiration($value)
+ * @method static Builder|CacheLock whereKey($value)
+ * @method static Builder|CacheLock whereOwner($value)
+ *
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ *
+>>>>>>> eeaa032 (.)
  * @mixin \Eloquent
  */
+/** */
 class CacheLock extends BaseModel
 {
     /** @var list<string> */

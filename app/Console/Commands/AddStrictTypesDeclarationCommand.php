@@ -17,7 +17,11 @@ class AddStrictTypesDeclarationCommand extends Command
     protected $description = 'Aggiunge la dichiarazione strict_types=1 ai file PHP che ne sono sprovvisti';
 
     /**
+<<<<<<< HEAD
      * @var array<string>
+=======
+     * @var array<int, string>
+>>>>>>> eeaa032 (.)
      */
     private array $excludedPaths = [
         'views',
@@ -50,11 +54,16 @@ class AddStrictTypesDeclarationCommand extends Command
             \Webmozart\Assert\Assert::isInstanceOf($file, \SplFileInfo::class);
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
+<<<<<<< HEAD
                     $fileName = $file->getRealPath();
                     if ($fileName === false) {
                         $fileName = $file->getPathname();
                     }
                     $this->info("Verrebbe processato: {$fileName}");
+=======
+                    $filePath = $file->getRealPath();
+                    $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
+>>>>>>> eeaa032 (.)
                     $count++;
 
                     continue;
@@ -85,14 +94,21 @@ class AddStrictTypesDeclarationCommand extends Command
     }
 
     /**
+<<<<<<< HEAD
      * @return array<\SplFileInfo>
+=======
+     * @return array<int, \Symfony\Component\Finder\SplFileInfo>
+>>>>>>> eeaa032 (.)
      */
     private function findPhpFiles(string $path): array
     {
-        return File::allFiles($path);
+        /** @var array<int, \Symfony\Component\Finder\SplFileInfo> $files */
+        $files = array_values(File::allFiles($path));
+
+        return $files;
     }
 
-    private function shouldProcessFile(\SplFileInfo $file): bool
+    private function shouldProcessFile(\Symfony\Component\Finder\SplFileInfo $file): bool
     {
         // Verifica l'estensione
         if (! str_ends_with($file->getFilename(), '.php')) {
@@ -106,7 +122,7 @@ class AddStrictTypesDeclarationCommand extends Command
 
         // Verifica se il file è in un percorso escluso
         foreach ($this->excludedPaths as $excludedPath) {
-            if (str_contains($path, "/{$excludedPath}/")) {
+            if (str_contains($path, '/'.$excludedPath.'/')) {
                 return false;
             }
         }

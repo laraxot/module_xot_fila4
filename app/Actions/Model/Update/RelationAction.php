@@ -16,11 +16,18 @@ class RelationAction
     /**
      * Undocumented function.
      *
+<<<<<<< HEAD
      * @param array<string, mixed> $data
+=======
+     * @param  array<string, mixed>  $data
+>>>>>>> eeaa032 (.)
      */
     public function execute(Model $model, array $data): void
     {
-        $relations = app(FilterRelationsAction::class)->execute($model, $data);
+        /** @var array<string, mixed> $typedData */
+        $typedData = $data;
+        $relations = app(FilterRelationsAction::class)->execute($model, $typedData);
+        Assert::isArray($relations, 'FilterRelationsAction must return an array');
         /*
          * if ('Operation' === class_basename($model)) {
          * dddx([

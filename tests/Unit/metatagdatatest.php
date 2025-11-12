@@ -20,7 +20,11 @@ use Modules\Xot\Datas\MetatagData;
  * Questo test verifica che la classe possa essere istanziata senza errori.
  */
 test('MetatagData può essere istanziata', function (): void {
+<<<<<<< HEAD
     $metatagData = new MetatagData();
+=======
+    $metatagData = new MetatagData;
+>>>>>>> eeaa032 (.)
     expect($metatagData)->toBeInstanceOf(MetatagData::class);
 });
 
@@ -30,7 +34,11 @@ test('MetatagData può essere istanziata', function (): void {
  * con i colori Filament corretti.
  */
 test('getFilamentColors restituisce i colori Filament corretti', function (): void {
+<<<<<<< HEAD
     $metatagData = new MetatagData();
+=======
+    $metatagData = new MetatagData;
+>>>>>>> eeaa032 (.)
     $colors = $metatagData->getFilamentColors();
 
 <<<<<<< HEAD
@@ -70,7 +78,11 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
  * personalizzati quando l'array colors contiene valori personalizzati.
  */
 test('getColors gestisce correttamente i colori personalizzati', function (): void {
+<<<<<<< HEAD
     $metatagData = new MetatagData();
+=======
+    $metatagData = new MetatagData;
+>>>>>>> eeaa032 (.)
     $metatagData->colors = [
         'custom_color' => [
             'key' => 'custom_color',
@@ -127,7 +139,11 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
  * della proprietà logo_height.
  */
 test('getLogoHeight restituisce il valore corretto', function (): void {
+<<<<<<< HEAD
     $metatagData = new MetatagData();
+=======
+    $metatagData = new MetatagData;
+>>>>>>> eeaa032 (.)
     $metatagData->logo_height = '3em';
 
     expect($metatagData->getLogoHeight())->toBe('3em');
@@ -139,7 +155,11 @@ test('getLogoHeight restituisce il valore corretto', function (): void {
  * corretti quando viene istanziata la classe.
  */
 test('Le proprietà hanno i valori di default corretti', function (): void {
+<<<<<<< HEAD
     $metatagData = new MetatagData();
+=======
+    $metatagData = new MetatagData;
+>>>>>>> eeaa032 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

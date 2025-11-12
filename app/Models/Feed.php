@@ -34,6 +34,7 @@ use Illuminate\Database\Eloquent\Builder;
  *
  * @mixin \Eloquent
  */
+/** */
 class Feed extends BaseModel
 {
     /** @var list<string> */

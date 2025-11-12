@@ -40,6 +40,7 @@ use Illuminate\Database\Eloquent\Builder;
  *
  * @mixin \Eloquent
  */
+/** */
 class PulseAggregate extends BaseModel
 {
     /** @var list<string> */

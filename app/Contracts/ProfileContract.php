@@ -33,46 +33,47 @@ interface ProfileContract extends HasMedia
     /**
      * Grant the given permission(s) to a role.
      *
+     * @param  string|int|array|Permission|\Illuminate\Support\Collection  $permissions
      * @return $this
      */
-    public function givePermissionTo(string|int|array|Permission|\Illuminate\Support\Collection $permissions = []);
+    public function givePermissionTo($permissions = []);
 
     /**
      * Assign the given role to the model.
      *
+     * @param  array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection  $roles
      * @return $this
      */
-    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]);
+    public function assignRole($roles = []);
 
     /**
      * Determine if the model has (one of) the given role(s).
+     *
+     * @param  string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection  $roles
      */
-    public function hasRole(
-        string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
-        ?string $guard = null,
-    ): bool;
+    public function hasRole($roles, ?string $guard = null): bool;
 
     /**
      * Determine if the model has any of the given role(s).
      *
      * Alias to hasRole() but without Guard controls
+     *
+     * @param  string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection  $roles
      */
-    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
-    ]): bool;
+    public function hasAnyRole($roles = []): bool;
 
     /**
      * Determine if the model may perform the given permission.
      *
      * @throws PermissionDoesNotExist
      */
-    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|Permission $permission, ?string $guardName = null): bool;
 
     /**
      * Create a new Eloquent query builder for the model.
      *
      * @param  Builder  $query
-     * @return \Illuminate\Database\Eloquent\Builder|static
+     * @return Builder
      */
     public function newEloquentBuilder($query);
 
@@ -82,7 +83,9 @@ interface ProfileContract extends HasMedia
     public function toggleSuperAdmin(): void;
 
     /**
-     * ---return BelongsTo<UserContract, self>.
+     * Get the user that owns the profile.
+     *
+     * @return BelongsTo
      */
     public function user(): BelongsTo;
 

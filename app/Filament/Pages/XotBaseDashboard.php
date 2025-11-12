@@ -6,6 +6,7 @@ namespace Modules\Xot\Filament\Pages;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Filament\Forms\Form;
 =======
@@ -27,13 +28,20 @@ use Filament\Forms\Get;
 >>>>>>> 3a08b27 (.)
 use Filament\Pages\Dashboard as FilamentDashboard;
 use Filament\Schemas\Components\Component;
+=======
+use Filament\Pages\Dashboard as FilamentDashboard;
+use Filament\Pages\Dashboard\Concerns\HasFiltersForm;
+>>>>>>> eeaa032 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 
 abstract class XotBaseDashboard extends FilamentDashboard
 {
-    use FilamentDashboard\Concerns\HasFiltersForm;
+    use HasFiltersForm;
 
+    protected static ?int $navigationSort = 1;
+
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     protected static ?int $navigationSort = 1;
@@ -55,10 +63,13 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> 3da9b2a (.)
     protected static null|int $navigationSort = 1;
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> eeaa032 (.)
     protected bool $persistsFiltersInSession = true;
 
     final public function filtersForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         /** @var array<Component> $filterSchema */
@@ -73,11 +84,22 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> dfe51d0 (.)
             Section::make()->schema($this->getFiltersFormSchema())->columns(3),
 >>>>>>> a8f8bb0 (.)
+=======
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->getFiltersFormSchema();
+
+        return $schema->components([
+            Section::make()->schema($schemaComponents)->columns(3),
+>>>>>>> eeaa032 (.)
         ]);
     }
 
     /**
+<<<<<<< HEAD
      * @return array<Component>
+=======
+     * @return array<\Illuminate\Contracts\Support\Htmlable|string>
+>>>>>>> eeaa032 (.)
      */
     public function getFiltersFormSchema(): array
     {

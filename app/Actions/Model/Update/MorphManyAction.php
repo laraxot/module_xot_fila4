@@ -23,16 +23,34 @@ class MorphManyAction
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model
             $relation = $model->{$relationDTO->name}();
+<<<<<<< HEAD
             if (! is_object($relation) || ! method_exists($relation, 'saveMany')) {
                 return;
             }
             $relation->saveMany($relationDTO->data);
+=======
+            if (is_object($relation) && method_exists($relation, 'saveMany')) {
+                $relation->saveMany($relationDTO->data);
+            }
+>>>>>>> eeaa032 (.)
 
             return;
         }
 
-        $related = $relationDTO->related;
+        $relation = $model->{$relationDTO->name}();
+
+        if (! is_object($relation) || ! method_exists($relation, 'getRelated')) {
+            return;
+        }
+
+        $related = $relation->getRelated();
+
+        if (! is_object($related) || ! method_exists($related, 'getKeyName')) {
+            return;
+        }
+
         $keyName = $related->getKeyName();
+        Assert::string($keyName, 'Key name must be a string');
         $models = [];
         $ids = [];
         foreach ($relationDTO->data as $data) {
@@ -43,9 +61,16 @@ class MorphManyAction
                  * $row = $related->firstOrCreate([$keyName => $related_id]);
                  * $res = app(\Modules\Xot\Actions\Model\UpdateAction::class)->execute($row, $data, []);
                  */
+<<<<<<< HEAD
                 /** @var array<string, mixed> $safeData */
                 $safeData = $data;
                 $res = app(UpdateAction::class)->execute($related, $safeData, []);
+=======
+                /** @var array<string, mixed> $typedData */
+                $typedData = $data;
+                Assert::isInstanceOf($related, Model::class, 'Related must be a Model');
+                $res = app(UpdateAction::class)->execute($related, $typedData, []);
+>>>>>>> eeaa032 (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {
@@ -53,11 +78,17 @@ class MorphManyAction
             }
         }
 
+<<<<<<< HEAD
         $relation = $model->{$relationDTO->name}();
         if (! is_object($relation) || ! method_exists($relation, 'saveMany')) {
             return;
         }
         $relation->saveMany($models);
+=======
+        if (method_exists($relation, 'saveMany')) {
+            $relation->saveMany($models);
+        }
+>>>>>>> eeaa032 (.)
 
         // dddx(['model' => $model, 'relationDTO' => $relationDTO]);
     }

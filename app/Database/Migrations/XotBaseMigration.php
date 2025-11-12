@@ -235,7 +235,7 @@ abstract class XotBaseMigration extends Migration
 
     public function renameColumn(string $from, string $to): void
     {
-        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to): void {
             $table->renameColumn($from, $to);
         });
     }

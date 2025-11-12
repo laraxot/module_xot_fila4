@@ -28,8 +28,25 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|Cache whereKey($value)
  * @method static Builder<static>|Cache whereValue($value)
  *
+<<<<<<< HEAD
+=======
+ * @property int $expiration
+ *
+ * @method static CacheFactory factory($count = null, $state = [])
+ * @method static Builder|Cache newModelQuery()
+ * @method static Builder|Cache newQuery()
+ * @method static Builder|Cache query()
+ * @method static Builder|Cache whereExpiration($value)
+ * @method static Builder|Cache whereKey($value)
+ * @method static Builder|Cache whereValue($value)
+ *
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ *
+>>>>>>> eeaa032 (.)
  * @mixin \Eloquent
  */
+/** */
 class Cache extends BaseModel
 {
     protected $table = 'cache';

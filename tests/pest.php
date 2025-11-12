@@ -7,6 +7,7 @@ use Modules\Xot\Tests\TestCase;
 /*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14,6 +15,8 @@ use Modules\Xot\Tests\TestCase;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 15def8d (.)
+=======
+>>>>>>> eeaa032 (.)
  * |--------------------------------------------------------------------------
  * | Test Case
  * |--------------------------------------------------------------------------
@@ -22,6 +25,7 @@ use Modules\Xot\Tests\TestCase;
  * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 7d72abc (.)
@@ -42,10 +46,13 @@ use Modules\Xot\Tests\TestCase;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 15def8d (.)
+=======
+>>>>>>> eeaa032 (.)
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -117,11 +124,9 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 | Qui puoi definire funzioni helper globali per i test del modulo.
 | Queste funzioni saranno disponibili in tutti i test.
 |
-*/
-
-// function something() {
-//     // ...
-// } 
->>>>>>> f1d4085 (.)
 =======
->>>>>>> 73eab74 (.)
+// expect()->extend('toBeOne', function () {
+//     return $this->toBe(1);
+// });
+>>>>>>> eeaa032 (.)
+*/

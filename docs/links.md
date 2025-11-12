@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Links
 
 ## Documentazione Generale
@@ -165,6 +166,8 @@
 **Data Creazione**: 27 Gennaio 2025  
 **Stato**: Consolidato da docs/ root  
 **Priorità**: MEDIA (Raccolta link)
+=======
+>>>>>>> 6cba4fe (.)
 # Collegamenti Documentazione Modulo Xot
 
 ## Documentazione Generica

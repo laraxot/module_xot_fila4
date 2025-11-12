@@ -71,27 +71,41 @@ public function mount(): void
 
 ### 1. Test Accesso Diretto al Panel
 ```bash
+<<<<<<< HEAD
 
 # Accedere direttamente al panel PDND
 curl -I http://personale2022.prov.tv.local/pdnd/admin
 
+=======
+# Accedere direttamente al panel PDND
+curl -I http://personale2022.prov.tv.local/pdnd/admin
+>>>>>>> 6cba4fe (.)
 # Risultato atteso: 200 OK (non più redirect loop)
 ```
 
 ### 2. Test Accesso al Dashboard Principale
 ```bash
+<<<<<<< HEAD
 
 # Accedere al dashboard principale
 curl -I http://personale2022.prov.tv.local/admin
 
+=======
+# Accedere al dashboard principale
+curl -I http://personale2022.prov.tv.local/admin
+>>>>>>> 6cba4fe (.)
 # Risultato atteso: 302 Redirect a /pdnd/admin (se utente ha ruolo pdnd::admin)
 ```
 
 ### 3. Test Utenti Multi-Ruolo
 ```bash
+<<<<<<< HEAD
 
 # Utente con più ruoli admin dovrebbe vedere la lista dei moduli
 
+=======
+# Utente con più ruoli admin dovrebbe vedere la lista dei moduli
+>>>>>>> 6cba4fe (.)
 # senza redirect automatico
 ```
 
@@ -115,7 +129,10 @@ class AdminPanelProvider extends XotBasePanelProvider
 I ruoli devono seguire il pattern `{module}::admin`:
 
 ```bash
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6cba4fe (.)
 # Esempi di ruoli corretti
 pdnd::admin
 user::admin
@@ -154,10 +171,17 @@ performance::admin
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [PDND Redirect Loop Fix](../../Pdnd/docs/redirect_loop_fix.md)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
 - [User Role Management](../../User/docs/console_commands/README.md)
 - [Filament Best Practices](../../../docs/FILAMENT-BEST-PRACTICES.md)
+=======
+- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
+- [XotBasePanelProvider](xotbasepanelprovider.md)
+- [User Role Management](../../User/project_docs/console_commands/README.md)
+- [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
+>>>>>>> 6cba4fe (.)
 
 ## Aggiornamenti
 
@@ -173,3 +197,7 @@ performance::admin
 - ✅ **Multi-Ruolo**: Supporto mantenuto
 - ✅ **Performance**: Nessun impatto negativo
 
+<<<<<<< HEAD
+=======
+*Ultimo aggiornamento: 2025-01-27* 
+>>>>>>> 6cba4fe (.)

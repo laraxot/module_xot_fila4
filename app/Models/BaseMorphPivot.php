@@ -44,17 +44,8 @@ abstract class BaseMorphPivot extends MorphPivot
     /** @var list<string> */
     protected $fillable = [
         'id',
-<<<<<<< HEAD
-<<<<<<< HEAD
         'post_id',
         'post_type',
-=======
-        'post_id', 'post_type',
->>>>>>> f1d4085 (.)
-=======
-        'post_id',
-        'post_type',
->>>>>>> 73eab74 (.)
         'related_type',
         'user_id',
         'note',
@@ -66,23 +57,9 @@ abstract class BaseMorphPivot extends MorphPivot
         return [
             'id' => 'string', // must be string else primary key of related model will be typed as int
             'uuid' => 'string',
-<<<<<<< HEAD
-<<<<<<< HEAD
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
-=======
-
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
-
->>>>>>> f1d4085 (.)
-=======
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
->>>>>>> 73eab74 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

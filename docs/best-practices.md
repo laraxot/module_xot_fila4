@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Best Practices
 
 ## Laravel
@@ -44,6 +45,8 @@
 - Verificare la performance
 - Controllare la manutenibilità
 - Verificare la testabilità
+=======
+>>>>>>> 6cba4fe (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**

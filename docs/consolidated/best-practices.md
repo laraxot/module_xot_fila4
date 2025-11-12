@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Best Practices per Laraxot
 =======
 <<<<<<< HEAD
@@ -141,3 +142,5 @@ public function process(\Modules\User\Models\User $user) {
     // Codice
 }
 ``` 
+=======
+>>>>>>> dfe51d0 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Download the latest cacert.pem file from
 https://curl.se/docs/caextract.html
 
@@ -78,3 +79,5 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> dfe51d0 (.)

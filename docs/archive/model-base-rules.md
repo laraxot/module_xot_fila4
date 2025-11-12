@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole di Estensione dei Modelli Laraxot
 
 ## Regola Fondamentale di Ereditarietà
@@ -106,3 +107,5 @@ abstract class BaseModel extends XotBaseModel
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 *Ultimo aggiornamento: maggio 2025* 
+=======
+>>>>>>> dfe51d0 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Conflitto: XotBaseServiceProvider
 
 ## Contesto
@@ -40,3 +41,5 @@ Questa scelta garantisce:
 >>>>>>> 6821f7a (.)
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
+=======
+>>>>>>> dfe51d0 (.)

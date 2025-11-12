@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Componenti Filament - Guida di Riferimento
 
 ## FileUpload Component
@@ -112,3 +113,5 @@ DatePicker::make('field_name')
 
 **Collegamento:** Vedi anche [FILAMENT_TABLE_COLUMNS.md](./FILAMENT_TABLE_COLUMNS.md)
 
+=======
+>>>>>>> dfe51d0 (.)

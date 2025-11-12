@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Conflitto in ModelWithPosContract
 
 ## Panoramica
@@ -135,3 +136,5 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> dfe51d0 (.)

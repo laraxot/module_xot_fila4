@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole generali per aggiornamento colonne e gestione errori schema
 
 ## Collegamento bidirezionale
@@ -30,3 +31,5 @@
 
 ## Note
 - Per casi specifici e casistiche di errore consultare la documentazione dei singoli moduli (es. Performance).
+=======
+>>>>>>> dfe51d0 (.)

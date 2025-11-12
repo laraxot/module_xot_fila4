@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HasXotTable Trait per Filament in Laraxot PTVX
 
 ## Panoramica
@@ -244,3 +245,5 @@ class DatiRelationManager extends XotBaseRelationManager
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
+=======
+>>>>>>> dfe51d0 (.)

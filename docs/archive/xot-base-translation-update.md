@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aggiornamento File di Traduzione xot_base.php
 
 ## Data Aggiornamento
@@ -98,3 +99,5 @@ return [
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
+=======
+>>>>>>> dfe51d0 (.)

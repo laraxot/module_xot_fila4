@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DIVIETO ASSOLUTO DI USARE ->label(), ->placeholder() e ->helperText()
 
 ## Regola Fondamentale Inviolabile
@@ -115,3 +116,5 @@ Se trovi codice che viola questa regola:
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
+=======
+>>>>>>> dfe51d0 (.)

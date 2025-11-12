@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architettura Folio + Volt + Filament in il progetto
 
 ## Panoramica
@@ -297,3 +298,5 @@ new class extends Component {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> dfe51d0 (.)

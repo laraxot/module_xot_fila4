@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni di Nomenclatura in <nome progetto>
 =======
 <<<<<<< HEAD
@@ -293,3 +294,5 @@ Descrizione dettagliata se necessaria
 ```
 
 Tipi: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
+=======
+>>>>>>> dfe51d0 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione del Conflitto in ModelWithPosContract.php
 
 ## Problema
@@ -50,3 +51,5 @@ La correzione è stata verificata assicurandosi che:
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> dfe51d0 (.)

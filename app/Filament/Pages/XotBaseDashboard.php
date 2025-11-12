@@ -5,8 +5,12 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Filament\Forms\Form;
+=======
+use Filament\Schemas\Schema;
+>>>>>>> dfe51d0 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\DatePicker;
 use Filament\Forms\Components\Select;
@@ -38,8 +42,9 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> 6821f7a (.)
     protected bool $persistsFiltersInSession = true;
 
-    final public function filtersForm(Schema $form): Schema
+    final public function filtersForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** @var array<Component> $filterSchema */
         $filterSchema = $this->getFiltersFormSchema();
@@ -48,6 +53,9 @@ abstract class XotBaseDashboard extends FilamentDashboard
             Section::make()->schema($filterSchema)->columns(3),
 =======
         return $form->components([
+=======
+        return $schema->components([
+>>>>>>> dfe51d0 (.)
             Section::make()->schema($this->getFiltersFormSchema())->columns(3),
 >>>>>>> a8f8bb0 (.)
         ]);

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Best Practices nei Service Provider
 
 ## Decisione Architetturale (2025-05-13)
@@ -172,3 +173,5 @@ Questa implementazione:
 L'utilizzo di `GetModulePathByGeneratorAction` anziché chiamate dirette a `module_path` rappresenta una best practice importante nel progetto il progetto. Questo approccio migliora la robustezza, la leggibilità e la manutenibilità del codice nei service provider.
 
 Si raccomanda di seguire questo pattern in tutti i service provider personalizzati per garantire coerenza e affidabilità nell'accesso ai percorsi dei moduli. 
+=======
+>>>>>>> dfe51d0 (.)

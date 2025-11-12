@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DIVIETO ASSOLUTO DI IMPLEMENTARE table()
 
 ## Regola Fondamentale Inviolabile
@@ -140,3 +141,5 @@ Se trovi un `RelationManager` che implementa il metodo `table()`:
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
+=======
+>>>>>>> dfe51d0 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestione Domini e Configurazioni
 
 ## Prerequisiti
@@ -186,3 +187,5 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Configurazione Generale](CONFIGURATION.md)
 - [Gestione Asset](assets.md)
 - [Struttura Temi](themes.md) 
+=======
+>>>>>>> dfe51d0 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni per la documentazione in Laraxot PTVX
 
 ## Convenzioni di naming
@@ -131,3 +132,5 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
 *Ultimo aggiornamento: Giugno 2025*
+=======
+>>>>>>> dfe51d0 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema di Traduzione 
 
 ## Regola Fondamentale: NO ->label()
@@ -231,3 +232,5 @@ php artisan view:clear
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> dfe51d0 (.)

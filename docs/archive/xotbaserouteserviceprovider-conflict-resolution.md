@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione conflitto XotBaseRouteServiceProvider.php
 
 ## Problema
@@ -18,3 +19,5 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> dfe51d0 (.)

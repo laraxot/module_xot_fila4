@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architettura Filament-Xot
 
 ## Panoramica
@@ -53,3 +54,5 @@ class MyPage extends XotBasePage
 - **Consistenza**: Comportamento uniforme tra moduli
 - **Manutenibilità**: Modifiche centralizzate nelle classi base
 - **Estensibilità**: Facile aggiunta di nuove funzionalità 
+=======
+>>>>>>> dfe51d0 (.)

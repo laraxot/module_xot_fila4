@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida al Riavvio del Sistema Dopo Validazione PHPStan
 
 ## Introduzione
@@ -134,3 +135,5 @@ php artisan route:cache
 ## Conclusione
 
 Un riavvio corretto del sistema dopo la validazione PHPStan è essenziale per garantire che tutte le modifiche vengano applicate correttamente e che il sistema funzioni in modo ottimale. Seguendo questa procedura, è possibile minimizzare i rischi e garantire una transizione fluida.
+=======
+>>>>>>> dfe51d0 (.)

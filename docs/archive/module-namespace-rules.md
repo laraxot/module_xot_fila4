@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regola generale: Label e traduzioni in Filament
 
 ## Regola
@@ -30,3 +31,5 @@
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 Ultimo aggiornamento: maggio 2025.
+=======
+>>>>>>> dfe51d0 (.)

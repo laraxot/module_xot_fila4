@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Determinazione del Logo Basata sul Dominio
 
 ## Introduzione
@@ -37,3 +38,5 @@ Questo documento descrive il processo per determinare il logo di un'applicazione
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> dfe51d0 (.)

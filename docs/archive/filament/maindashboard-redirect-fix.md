@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fix Redirect Loop - MainDashboard
 
 ## Problema Risolto
@@ -180,3 +181,5 @@ performance::admin
 - ✅ **Multi-Ruolo**: Supporto mantenuto
 - ✅ **Performance**: Nessun impatto negativo
 
+=======
+>>>>>>> dfe51d0 (.)

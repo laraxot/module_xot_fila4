@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Linee Guida per la Documentazione in Laraxot
 
@@ -280,3 +281,5 @@ Per implementare queste linee guida:
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Documentazione Laravel](https://laravel.com/docs)
 - [Documentazione PHPDoc](https://docs.phpdoc.org/)
+=======
+>>>>>>> dfe51d0 (.)

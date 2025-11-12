@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Strumenti di Correzione Automatica della Struttura delle Directory
 
 ## Introduzione
@@ -220,3 +221,5 @@ Lo script di correzione automatica della struttura delle directory è uno strume
 Lo script di correzione automatica della struttura delle directory è uno strumento essenziale per mantenere la coerenza e seguire le convenzioni del framework Laraxot <nome progetto>. Utilizzandolo regolarmente, è possibile garantire che il codice segua sempre la struttura richiesta, facilitando la manutenzione e l'interoperabilità tra i vari moduli. 
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> dfe51d0 (.)

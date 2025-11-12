@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestione della Documentazione e delle Regole
 
 ## Struttura della Documentazione
@@ -173,3 +174,5 @@ Quando si identifica una nuova regola o pattern importante:
    - [ ] Aggiornare .windsurfrules
    - [ ] Verificare coerenza
    - [ ] Testare applicabilità 
+=======
+>>>>>>> dfe51d0 (.)

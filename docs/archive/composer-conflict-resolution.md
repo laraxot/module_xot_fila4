@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione conflitto composer.json (Xot)
 
 ## Intent
@@ -33,3 +34,5 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+=======
+>>>>>>> dfe51d0 (.)

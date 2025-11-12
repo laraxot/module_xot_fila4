@@ -12,12 +12,6 @@ class PivotAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     public function execute(Model $_model, RelationDTO $_relationDTO): void
     {
         // Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
@@ -34,52 +28,5 @@ class PivotAction
          *
          *
          */
-<<<<<<< HEAD
-=======
-=======
-    public function execute(Model $model, RelationDTO $relationDTO): void
-=======
-    public function execute(Model $_model, RelationDTO $_relationDTO): void
->>>>>>> b93ef594b4 (.)
-    {
-        // Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
-        dddx('wip');
-
-        /*
-<<<<<<< HEAD
-=======
-    public function execute(Model $model, RelationDTO $relationDTO): void
-    {
-        // Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
-        dddx('wip');
-        /*
->>>>>>> origin/develop
-
-            $parent_panel = $this->panel->getParent();
-            if (null !== $parent_panel) {
-                $parent_row = $parent_panel->getRow();
-                $panel_name = $this->panel->getName();
-                $parent_row->{$panel_name}()->updateExistingPivot($model->getKey(), $data);
-            }
-
-
-        */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-         *
-         * $parent_panel = $this->panel->getParent();
-         * if (null !== $parent_panel) {
-         * $parent_row = $parent_panel->getRow();
-         * $panel_name = $this->panel->getName();
-         * $parent_row->{$panel_name}()->updateExistingPivot($model->getKey(), $data);
-         * }
-         *
-         *
-         */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 }

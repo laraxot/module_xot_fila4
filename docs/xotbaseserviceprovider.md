@@ -104,27 +104,12 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 - [Architettura dei Provider](../../../docs/architecture/providers.md)
 - [Struttura dei Moduli](../../../docs/architecture/modules.md)
 
 ### Collegamenti ai Moduli
 - [Notify ServiceProvider](../../Notify/docs/service-provider.md)
 - [User ServiceProvider](../../User/docs/service-provider.md)
-<<<<<<< HEAD
-=======
-- [Architettura dei Provider](../../../project_docs/architecture/providers.md)
-- [Struttura dei Moduli](../../../project_docs/architecture/modules.md)
-
-### Collegamenti ai Moduli
-- [Notify ServiceProvider](../../Notify/project_docs/service-provider.md)
-- [User ServiceProvider](../../User/project_docs/service-provider.md)
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
 ## Note Importanti
 
@@ -134,15 +119,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 4. Documentare ogni modifica o estensione
 5. Mantenere la coerenza tra i moduli 
 ## Collegamenti tra versioni di XotBaseServiceProvider.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
-=======
-* [XotBaseServiceProvider.md](../../../../project_docs/moduli/xot/XotBaseServiceProvider.md)
->>>>>>> f1d4085 (.)
-=======
-* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
->>>>>>> 73eab74 (.)
 
 ## Correzione, motivazione e miglioramenti (2025-05-13)
 

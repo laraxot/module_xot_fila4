@@ -32,6 +32,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     use InteractsWithFormActions;
     use InteractsWithForms;
     use NavigationLabelTrait;
+    use TransTrait;
 
     /**
      * The model class associated with this page, if any.

@@ -58,7 +58,7 @@ class CreateTableIndexByModelClassColumnsAction
         }
 
         // Add the index to the table
-        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns): void {
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
             $table->index($columns, $indexName);
         });
 

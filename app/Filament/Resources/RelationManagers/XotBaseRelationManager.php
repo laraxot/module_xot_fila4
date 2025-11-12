@@ -215,7 +215,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
             $actions['create'] = CreateAction::make()
                 ->icon('heroicon-o-plus')
                 ->iconButton()
-                ->tooltip(__('actions.create.tooltip'))
+                ->tooltip(static::trans('actions.create.tooltip'))
                 ->visible(fn (?Model $_record): bool => $resource::canCreate());
         }
 

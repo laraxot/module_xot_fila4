@@ -13,10 +13,8 @@ use ReflectionClass;
 use ReflectionMethod;
 use stdClass;
 
-use function Safe\class_uses;
-
-describe('HasExtraTrait', function (): void {
-    beforeEach(function (): void {
+describe('HasExtraTrait', function () {
+    beforeEach(function () {
         // Create a test model that uses the trait
         $this->testModel = new class extends Model
         {
@@ -47,42 +45,37 @@ describe('HasExtraTrait', function (): void {
                 ];
             }
 
-            public function model(): MorphTo
+            public function model()
             {
-                /** @phpstan-ignore-next-line property.notFound, method.nonObject */
                 return $this->morphTo();
             }
         };
     });
 
-    it('uses the trait correctly', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+    it('uses the trait correctly', function () {
         $traits = class_uses($this->testModel);
 
         expect($traits)->toContain(HasExtraTrait::class);
     });
 
-    it('has extra relationship method', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+    it('has extra relationship method', function () {
         expect(method_exists($this->testModel, 'extra'))->toBeTrue();
     });
 
-    it('returns null for non-existent extra', function (): void {
+    it('returns null for non-existent extra', function () {
         // Mock the extra relationship to be null
-        /** @phpstan-ignore-next-line property.notFound */
         $this->testModel->extra = null;
 
-        /** @phpstan-ignore-next-line property.notFound */
         $result = $this->testModel->getExtra('non_existent_key');
 
         expect($result)->toBeNull();
     });
 
-    it('can set and get extra attributes', function (): void {
+    it('can set and get extra attributes', function () {
         // Mock the extra relationship
         $mockExtra = new class
         {
-            public \Illuminate\Support\Collection $extra_attributes;
+            public $extra_attributes;
 
             public function __construct()
             {
@@ -90,19 +83,17 @@ describe('HasExtraTrait', function (): void {
             }
         };
 
-        /** @phpstan-ignore-next-line property.notFound */
         $this->testModel->extra = $mockExtra;
 
-        /** @phpstan-ignore-next-line property.notFound */
         $result = $this->testModel->getExtra('test_key');
 
         expect($result)->toBe('test_value');
     });
 
-    it('handles different data types correctly', function (): void {
+    it('handles different data types correctly', function () {
         $mockExtra = new class
         {
-            public \Illuminate\Support\Collection $extra_attributes;
+            public $extra_attributes;
 
             public function __construct()
             {
@@ -116,30 +107,24 @@ describe('HasExtraTrait', function (): void {
             }
         };
 
-        /** @phpstan-ignore-next-line property.notFound */
         $this->testModel->extra = $mockExtra;
 
-        /** @phpstan-ignore-next-line property.notFound */
         expect($this->testModel->getExtra('string_value'))
             ->toBe('test_string')
-            /** @phpstan-ignore-next-line property.notFound */
             ->and($this->testModel->getExtra('int_value'))
             ->toBe(123)
-            /** @phpstan-ignore-next-line property.notFound */
             ->and($this->testModel->getExtra('bool_value'))
             ->toBe(true)
-            /** @phpstan-ignore-next-line property.notFound */
             ->and($this->testModel->getExtra('array_value'))
             ->toBe(['nested', 'array'])
-            /** @phpstan-ignore-next-line property.notFound */
             ->and($this->testModel->getExtra('null_value'))
             ->toBeNull();
     });
 
-    it('throws exception for invalid data types', function (): void {
+    it('throws exception for invalid data types', function () {
         $mockExtra = new class
         {
-            public \Illuminate\Support\Collection $extra_attributes;
+            public $extra_attributes;
 
             public function __construct()
             {
@@ -149,90 +134,66 @@ describe('HasExtraTrait', function (): void {
             }
         };
 
-        /** @phpstan-ignore-next-line property.notFound */
         $this->testModel->extra = $mockExtra;
 
-        /** @phpstan-ignore-next-line property.notFound */
         expect(fn () => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
     });
 
-    it('has setExtra method', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+    it('has setExtra method', function () {
         expect(method_exists($this->testModel, 'setExtra'))->toBeTrue();
     });
 
-    it('validates method signatures', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+    it('validates method signatures', function () {
         $reflection = new ReflectionClass($this->testModel);
 
         // Check getExtra method signature
-        /** @phpstan-ignore-next-line method.nonObject */
         $getExtraMethod = $reflection->getMethod('getExtra');
         expect($getExtraMethod->isPublic())->toBeTrue();
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $parameters = $getExtraMethod->getParameters();
         expect(count($parameters))
             ->toBe(1)
-            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             ->and($parameters[0]->getName())
-            ->toBe('name');
-
-        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
-        $getExtraParamType = $parameters[0]->getType();
-        if ($getExtraParamType instanceof \ReflectionNamedType) {
-            expect($getExtraParamType->getName())->toBe('string');
-        }
+            ->toBe('name')
+            ->and($parameters[0]->getType()?->getName())
+            ->toBe('string');
 
         // Check setExtra method signature
-        /** @phpstan-ignore-next-line method.nonObject */
         $setExtraMethod = $reflection->getMethod('setExtra');
         expect($setExtraMethod->isPublic())->toBeTrue();
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $setParameters = $setExtraMethod->getParameters();
         expect(count($setParameters))
             ->toBe(2)
-            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             ->and($setParameters[0]->getName())
-            ->toBe('name');
-
-        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
-        $setExtraParamType = $setParameters[0]->getType();
-        if ($setExtraParamType instanceof \ReflectionNamedType) {
-            expect($setExtraParamType->getName())->toBe('string');
-        }
+            ->toBe('name')
+            ->and($setParameters[0]->getType()?->getName())
+            ->toBe('string');
     });
 
-    it('has proper return type annotations', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+    it('has proper return type annotations', function () {
         $reflection = new ReflectionClass($this->testModel);
-        /** @phpstan-ignore-next-line method.nonObject */
         $method = $reflection->getMethod('getExtra');
 
         // Check that method has return type hint
-        /** @phpstan-ignore-next-line method.nonObject */
         $returnType = $method->getReturnType();
         expect($returnType)->not->toBeNull();
     });
 
-    it('handles extra relationship correctly', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+    it('handles extra relationship correctly', function () {
         $extraMethod = new ReflectionMethod($this->testModel, 'extra');
 
         expect($extraMethod->isPublic())->toBeTrue();
     });
 
-    it('validates trait requirements', function (): void {
+    it('validates trait requirements', function () {
         // Check that the trait requires certain methods to be implemented
-        /** @phpstan-ignore-next-line property.notFound */
         expect(method_exists($this->testModel, 'getExtraClass'))->toBeTrue();
     });
 
-    it('handles empty extra attributes', function (): void {
+    it('handles empty extra attributes', function () {
         $mockExtra = new class
         {
-            /** @var \Illuminate\Support\Collection<int, mixed> */
             public $extra_attributes;
 
             public function __construct()
@@ -241,30 +202,24 @@ describe('HasExtraTrait', function (): void {
             }
         };
 
-        /** @phpstan-ignore-next-line property.notFound */
         $this->testModel->extra = $mockExtra;
 
-        /** @phpstan-ignore-next-line property.notFound */
         $result = $this->testModel->getExtra('non_existent');
         expect($result)->toBeNull();
     });
 
-    it('validates extra class contract', function (): void {
+    it('validates extra class contract', function () {
         // Test that the extra class implements the required contract
-        /** @phpstan-ignore-next-line property.notFound */
         $extraClass = $this->testModel->getExtraClass();
-        /* @phpstan-ignore-next-line argument.type */
         $reflection = new ReflectionClass($extraClass);
 
         expect($reflection->implementsInterface(ExtraContract::class))->toBeTrue();
     });
 
-    it('has proper documentation', function (): void {
+    it('has proper documentation', function () {
         $reflection = new ReflectionClass(HasExtraTrait::class);
-        /** @phpstan-ignore-next-line method.nonObject */
         $getExtraMethod = $reflection->getMethod('getExtra');
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $docComment = $getExtraMethod->getDocComment();
         expect($docComment)->toBeString()->and($docComment)->toContain('@return');
     });
@@ -299,7 +254,6 @@ class HasExtraTraitTest extends Model implements ExtraContract
      */
     public function model()
     {
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         return $this->morphTo();
     }
 }

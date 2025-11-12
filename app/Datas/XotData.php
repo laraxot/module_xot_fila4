@@ -100,8 +100,6 @@ class XotData extends Data implements Wireable
     public function isSuperAdmin(): bool
     {
         $profile = $this->getProfileModel();
-        /** @var \Modules\User\Models\Profile $profile */
-        $profile = $profile;
         if ($profile->isSuperAdmin()) {
             return true;
         }
@@ -115,14 +113,7 @@ class XotData extends Data implements Wireable
     public function getUserClass(): string
     {
         $class = config('auth.providers.users.model');
-        if (empty($class)) {
-            $class = env('AUTH_MODEL', 'Modules\User\Models\User');
-        }
         Assert::stringNotEmpty($class, 'check config auth');
-        if (! class_exists($class)) {
-            // Fallback to default User model if configured class doesn't exist
-            $class = 'Modules\User\Models\User';
-        }
         Assert::classExists($class, '['.$class.'] check config auth');
         Assert::implementsInterface(
             $class,
@@ -131,11 +122,6 @@ class XotData extends Data implements Wireable
         );
         Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
 
-        /**
-         * @var class-string<Model&UserContract> $class
-         *
-         * @phpstan-var class-string<Model&UserContract>
-         */
         return $class;
     }
 
@@ -146,12 +132,12 @@ class XotData extends Data implements Wireable
         if (! in_array('email', $userInstance->getFillable(), true)) {
             throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
         }
-        $user = $user_class::firstWhere(['email' => $email]);
-        
-        if (! $user) {
-            throw new \Exception('user not found for email '.$email);
-        }
-        
+        $user = $user_class::firstOrCreate(['email' => $email]);
+        /*
+         * if (! $user) {
+         * throw new \Exception('user not found for email '.$email);
+         * }
+         */
         Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
 
         return $user;
@@ -385,7 +371,6 @@ class XotData extends Data implements Wireable
     {
         $user_class = $this->getUserClass();
         $userInstance = app($user_class);
-<<<<<<< HEAD
 
         if (! is_object($userInstance) || ! method_exists($userInstance, 'getChildTypes')) {
             throw new Exception('getChildTypes method not found in class '.$user_class);
@@ -397,18 +382,6 @@ class XotData extends Data implements Wireable
         }
 
         $class = Arr::get($typesResult, $type);
-=======
-        if (is_object($userInstance) && method_exists($userInstance, 'getChildTypes')) {
-            $types = $userInstance->getChildTypes();
-            if (is_array($types)) {
-                $class = Arr::get($types, $type);
-            } else {
-                throw new Exception('getChildTypes() did not return an array in class '.$user_class);
-            }
-        } else {
-            throw new Exception('getChildTypes() method not found in class '.$user_class);
-        }
->>>>>>> eeaa032 (.)
         if (is_null($class)) {
             throw new Exception('type '.$type.' not found in class '.$user_class);
         }
@@ -493,20 +466,7 @@ class XotData extends Data implements Wireable
         }
 
         // $enum_class = Arr::get($user_class::casts(),'type',null);
-<<<<<<< HEAD
         $enum_class = Arr::get($castsResult, 'type', null);
-=======
-        if (is_object($user_instance) && method_exists($user_instance, 'getCasts')) {
-            $casts = $user_instance->getCasts();
-            if (is_array($casts)) {
-                $enum_class = Arr::get($casts, 'type', null);
-            } else {
-                $enum_class = null;
-            }
-        } else {
-            $enum_class = null;
-        }
->>>>>>> eeaa032 (.)
         if ($enum_class === null) {
             $enum_class = Str::of($user_class)
                 ->replace('\\Models\\', '\\Enums\\')

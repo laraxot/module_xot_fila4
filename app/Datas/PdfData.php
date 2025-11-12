@@ -9,19 +9,9 @@ declare(strict_types=1);
 namespace Modules\Xot\Datas;
 
 use Exception;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
-=======
-<<<<<<< HEAD
->>>>>>> 3a08b27 (.)
-=======
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Storage;
->>>>>>> eeaa032 (.)
 use Illuminate\Support\Str;
 use Modules\Xot\Enums\PdfEngineEnum;
 use Spatie\LaravelData\Data;
@@ -31,30 +21,8 @@ use Spatie\LaravelPdf\Enums\Unit;
 use Spatie\LaravelPdf\Facades\Pdf;
 use Spipu\Html2Pdf\Exception\HtmlParsingException;
 use Spipu\Html2Pdf\Html2Pdf;
-<<<<<<< HEAD
-use Symfony\Component\HttpFoundation\BinaryFileResponse;
-<<<<<<< HEAD
-use Webmozart\Assert\Assert;
-=======
-=======
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Storage;
-use Illuminate\Support\Str;
-use Modules\Xot\Enums\PdfEngineEnum;
-use Spatie\LaravelData\Data;
-use Spatie\LaravelPdf\Enums\Format;
-use Spatie\LaravelPdf\Enums\Orientation;
-use Spatie\LaravelPdf\Enums\Unit;
-use Spatie\LaravelPdf\Facades\Pdf;
-use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
->>>>>>> 2850177 (.)
->>>>>>> 3a08b27 (.)
-=======
-use Symfony\Component\HttpFoundation\BinaryFileResponse;
-use Webmozart\Assert\Assert;
->>>>>>> eeaa032 (.)
 
 /**
  * Undocumented class.
@@ -130,10 +98,6 @@ class PdfData extends Data
                     $html2pdf = new Html2Pdf($this->orientation, $this->format, $this->lang);
                     $html2pdf->writeHTML($html);
                     $html2pdf->output($this->getPath(), $this->dest);
-<<<<<<< HEAD
-=======
-
->>>>>>> eeaa032 (.)
                 } catch (HtmlParsingException $e) {
                     File::put($this->getPath().'.html', $html);
                 }
@@ -189,20 +153,14 @@ class PdfData extends Data
     }
 
     /**
-<<<<<<< HEAD
      * @param array<string, mixed> $params
-=======
-     * @param  array<string, mixed>  $params
->>>>>>> eeaa032 (.)
      */
     public function view(string $view, array $params = []): self
     {
         if (! view()->exists($view)) {
             throw new Exception('View '.$view.' not found');
         }
-        /** @var array<string, mixed> $typedParams */
-        $typedParams = $params;
-        $out = view($view, $typedParams);
+        $out = view($view, $params);
         $this->html = $out->render();
 
         return $this->fromHtml($this->html);

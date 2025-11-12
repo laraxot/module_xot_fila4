@@ -10,17 +10,15 @@ it('throws if record has no email', function (): void {
     $record = new class extends Model
     {
         // no email attribute
-        public function option(string $key): null
+        public function option(string $key): ?string
         {
             return null;
         }
 
-        /** @return object */
         public function myLogs()
         {
             return new class
             {
-                /** @param array<string, mixed> $data */
                 public function create(array $data): void {}
             };
         }

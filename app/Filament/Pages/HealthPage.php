@@ -82,7 +82,6 @@ class HealthPage extends Page
         if (class_exists(SmtpCheck::class)) {
             $checks[] = SmtpCheck::new();
         }
-<<<<<<< HEAD
 
         /**
          * PHPStan Level 10: CpuLoadCheck, SecurityAdvisoriesCheck, and SmtpCheck
@@ -91,9 +90,6 @@ class HealthPage extends Page
          *
          * @phpstan-ignore-next-line argument.type
          */
-=======
-        /** @var array<int, \Spatie\Health\Checks\Check> $checks */
->>>>>>> eeaa032 (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');

@@ -20,16 +20,16 @@ use Webmozart\Assert\Assert;
 /**
  * Base class for list records pages.
  *
- * @property ?string         $model
- * @property ?string         $resource
- * @property ?string         $slug
+ * @property ?string $model
+ * @property ?string $resource
+ * @property ?string $slug
  * @property TableLayoutEnum $layoutView
  */
 abstract class XotBaseListRecords extends FilamentListRecords
 {
     use HasXotTable;
 
-    /**
+    /*
      * Get the table columns.
      *
      * @return array<string, Tables\Columns\Column>
@@ -79,10 +79,9 @@ abstract class XotBaseListRecords extends FilamentListRecords
     protected function paginateTableQuery(Builder $query): Paginator
     {
         $paginator = $query->fastPaginate(
-            'all' === $this->getTableRecordsPerPage() ? $query->count() : $this->getTableRecordsPerPage(),
+            $this->getTableRecordsPerPage() === 'all' ? $query->count() : $this->getTableRecordsPerPage(),
         );
 
-<<<<<<< HEAD
         Assert::isInstanceOf($paginator, Paginator::class);
 
         if (! method_exists($paginator, 'total')) {
@@ -94,16 +93,6 @@ abstract class XotBaseListRecords extends FilamentListRecords
         $modelClass = $this->getModel();
         // dddx($modelClass);
         app(UpdateCountAction::class)->execute($modelClass, $count);
-=======
-        if (is_object($paginator) && method_exists($paginator, 'total')) {
-            $count = $paginator->total();
-            Assert::integer($count, 'Total must be an integer');
-
-            $modelClass = $this->getModel();
-            app(UpdateCountAction::class)->execute($modelClass, $count);
-        }
-        Assert::isInstanceOf($paginator, Paginator::class);
->>>>>>> eeaa032 (.)
 
         return $paginator;
     }

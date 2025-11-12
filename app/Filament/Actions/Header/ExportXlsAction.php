@@ -47,7 +47,6 @@ class ExportXlsAction extends Action
                 if (method_exists($resource, 'getXlsFields')) {
                     $rawFields = $resource::getXlsFields($livewire->tableFilters);
                     if (is_array($rawFields)) {
-<<<<<<< HEAD
                         $fields = array_map(
                             /**
                              * @param  mixed  $field
@@ -56,16 +55,6 @@ class ExportXlsAction extends Action
                                 // Handle objects with __toString method
                                 if (is_object($field) && method_exists($field, '__toString')) {
                                     $stringValue = $field->__toString();
-=======
-                        /** @var array<int, string> $fields */
-                        $fields = array_map(static function ($field): string {
-                            if (is_object($field) && method_exists($field, '__toString')) {
-                                return (string) $field->__toString();
-                            }
-                            if (is_scalar($field)) {
-                                return (string) $field;
-                            }
->>>>>>> eeaa032 (.)
 
                                     // Type narrowing for PHPStan Level 10
                                     return is_string($stringValue) ? $stringValue : '';

@@ -27,33 +27,22 @@ class ListFilamentPanels extends Command
                 continue;
             }
 
-<<<<<<< HEAD
             $providers = collect(scandir($providersPath))
                 ->filter(function ($file): bool {
                     return is_string($file) && str_ends_with($file, 'ServiceProvider.php');
                 });
-=======
-            /** @var Collection<int, string> $providerFiles */
-            $providerFiles = collect(scandir($providersPath));
-            $providers = $providerFiles
-                ->filter(fn (mixed $file): bool => str_ends_with((string) $file, 'ServiceProvider.php'));
->>>>>>> eeaa032 (.)
 
             foreach ($providers as $provider) {
                 if (! is_string($provider)) {
                     continue;
                 }
 
-<<<<<<< HEAD
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
-=======
-                $providerClass = "Modules\\{$moduleName}\\Providers\\".$provider;
->>>>>>> eeaa032 (.)
                 if (! class_exists($providerClass)) {
                     continue;
                 }
 
-                $this->info('Found panel in '.$moduleName.': '.$provider);
+                $this->info("Found panel in {$moduleName}: {$provider}");
             }
         }
 

@@ -127,9 +127,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         return $schema;
     }
 
-    /**
-     * @return array<string, mixed>
-     */
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
@@ -160,7 +157,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                     $res = $merge1;
                 }
 
-                /** @var array<string, mixed> */
                 return $res;
 
                 // dddx($model->with('studio')->relationsToArray());
@@ -174,7 +170,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 //    $attributes['type'] = $model->type->value;
                 // }
 
-                /** @var array<string, mixed> */
                 return $attributes;
             }
         }
@@ -185,17 +180,15 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $attributes = $model->attributesToArray();
 
         $fields = array_merge($fillable, $appends);
-        /** @var array<string, mixed> $fieldsWithNull */
-        $fieldsWithNull = array_fill_keys($fields, null);
-        $fieldsWithNull = array_merge($fieldsWithNull, $attributes);
+        $fields = array_fill_keys($fields, null);
+        $fields = array_merge($fields, $attributes);
         if (method_exists($model, 'getDataDefaults')) {
             /** @var array<string, mixed> $defaults */
             $defaults = $model->getDataDefaults();
-            $fieldsWithNull = array_merge($fieldsWithNull, $defaults);
+            $fields = array_merge($fields, $defaults);
         }
 
-        /** @var array<string, mixed> */
-        return $fieldsWithNull;
+        return $fields;
     }
 
     /**

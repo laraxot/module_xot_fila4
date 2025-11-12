@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model\Update;
 
 use Exception;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Arr;
@@ -38,9 +39,11 @@ class BelongsToAction
                 return;
             }
 
-            $relatedModel = $rows->getRelated();
-            Assert::notNull($relatedModel, 'Related model cannot be null');
-            $related = $relatedModel->find($related_id);
+            $related = $relationDTO->related->find($related_id);
+            // Verifica che $related non sia una Collection, ma un singolo modello
+            if ($related instanceof Collection) {
+                $related = $related->first(); // Prendi il primo modello della collezione
+            }
 
             if (! ($related instanceof Model)) {
                 throw new Exception('Expected a single model, got null or invalid object.');
@@ -61,15 +64,11 @@ class BelongsToAction
             app(RelationAction::class)->execute($sub, $relationDTO->data);
         }
 
-        $relatedModel = $rows->getRelated();
-        Assert::notNull($relatedModel, 'Related model cannot be null');
-
-        $fillable = collect($relatedModel->getFillable())->merge($relatedModel->getHidden());
+        $fillable = collect($relationDTO->related->getFillable())->merge($relationDTO->related->getHidden());
         $data = collect($relationDTO->data)->only($fillable)->all();
 
         if ($rows->exists()) {
             // $rows->update($data); // non passa per il mutator
-<<<<<<< HEAD
             $relationName = Str::camel($relationDTO->name);
             $relation = $model->{$relationName};
             
@@ -78,19 +77,13 @@ class BelongsToAction
             }
             
             $relation->update($data);
-=======
-            $relatedInstance = $model->{Str::camel($relationDTO->name)};
-            if ($relatedInstance instanceof Model) {
-                $relatedInstance->update($data);
-            }
->>>>>>> eeaa032 (.)
 
             return;
         }
 
         // dddx([$relation->related, $data]);
 
-        $related = $relatedModel->create($data);
+        $related = $relationDTO->related->create($data);
         $res = $rows->associate($related);
         $res->save();
     }

@@ -16,9 +16,6 @@ class InformationSchemaTableFactory extends Factory
 {
     protected $model = InformationSchemaTable::class;
 
-    /**
-     * @return array<string, mixed>
-     */
     public function definition(): array
     {
         /** @var string $tableName */
@@ -36,7 +33,7 @@ class InformationSchemaTableFactory extends Factory
 
         return [
             'table_catalog' => 'def',
-            'table_schema' => $this->faker->randomElement(['quaeris', 'public', 'main']),
+            'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
             'table_name' => $tableName,
             'table_type' => $this->faker->randomElement(['BASE TABLE', 'VIEW']),
             'engine' => $this->faker->randomElement(['InnoDB', 'MyISAM']),

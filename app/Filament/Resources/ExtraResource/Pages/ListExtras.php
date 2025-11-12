@@ -23,9 +23,6 @@ class ListExtras extends XotBaseListRecords
     protected static string $resource = ExtraResource::class;
 
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableColumns(): array
     {
         return [
@@ -40,9 +37,6 @@ class ListExtras extends XotBaseListRecords
      * @return array<BaseFilter>
      */
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableFilters(): array
     {
         return [];
@@ -52,9 +46,6 @@ class ListExtras extends XotBaseListRecords
      * @return array<string, Action|ActionGroup>
      */
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableActions(): array
     {
         return [
@@ -66,9 +57,6 @@ class ListExtras extends XotBaseListRecords
      * @return array<string, BulkAction>
      */
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableBulkActions(): array
     {
         return [

@@ -4,15 +4,15 @@ declare(strict_types=1);
 
 return [
     /*
-    |--------------------------------------------------------------------------
-    | Exception Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used in Exceptions thrown throughout the system.
-    | Regardless where it is placed, a button can be listed here so it is easily
-    | found in a intuitive way.
-    |
-    */
+     * |--------------------------------------------------------------------------
+     * | Exception Language Lines
+     * |--------------------------------------------------------------------------
+     * |
+     * | The following language lines are used in Exceptions thrown throughout the system.
+     * | Regardless where it is placed, a button can be listed here so it is easily
+     * | found in a intuitive way.
+     * |
+     */
 
     'backend' => [
         'access' => [
@@ -26,7 +26,6 @@ return [
                 'not_found' => 'Denne rolle findes ikke.',
                 'update_error' => 'Der opstod et problem ved opdatering af denne rolle. Prøv venligst igen.',
             ],
-
             'users' => [
                 'cant_deactivate_self' => 'Du kan ikke udføre denne handling på dig selv.',
                 'cant_delete_self' => 'Du kan ikke slette dig selv.',
@@ -44,7 +43,6 @@ return [
             ],
         ],
     ],
-
     'frontend' => [
         'auth' => [
             'confirmation' => [

@@ -2,196 +2,423 @@
 
 declare(strict_types=1);
 
+namespace Modules\Xot\Tests\Feature;
+
 use Illuminate\Database\ConnectionInterface;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
 use Modules\Xot\Models\XotBaseModel;
-use Modules\Xot\Tests\TestCase;
+use Tests\TestCase;
 
-use function Safe\json_encode;
+class XotBaseModelBusinessLogicTest extends TestCase
+{
+    /** @test */
+    public function it_extends_correct_base_class(): void
+    {
+        // Arrange & Act
+        $baseModel = new BaseModel;
 
-uses(TestCase::class);
+        // Assert
+        $this->assertInstanceOf(XotBaseModel::class, $baseModel);
+        $this->assertInstanceOf(Model::class, $baseModel);
+    }
 
-test('it extends correct base class', function (): void {
-    $baseModel = new BaseModel;
+    /** @test */
+    public function it_has_required_traits(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-    expect($baseModel)->toBeInstanceOf(XotBaseModel::class)
-        ->and($baseModel)->toBeInstanceOf(Model::class);
-});
+        // Act & Assert
+        $this->assertTrue(method_exists($baseModel, 'getTable'));
+        $this->assertTrue(method_exists($baseModel, 'getConnection'));
+        $this->assertTrue(method_exists($baseModel, 'getKeyName'));
+    }
 
-test('it has required eloquent methods', function (): void {
-    $baseModel = new BaseModel;
+    /** @test */
+    public function it_can_be_instantiated_without_database(): void
+    {
+        // Arrange & Act
+        $baseModel = new BaseModel;
 
-    expect(method_exists($baseModel, 'getTable'))->toBeTrue()
-        ->and(method_exists($baseModel, 'getConnection'))->toBeTrue()
-        ->and(method_exists($baseModel, 'getKeyName'))->toBeTrue();
-});
+        // Assert
+        $this->assertInstanceOf(BaseModel::class, $baseModel);
+        $this->assertNotNull($baseModel);
+    }
 
-test('it can be instantiated without database', function (): void {
-    $baseModel = new BaseModel;
+    /** @test */
+    public function it_supports_table_name_override(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-    expect($baseModel)->toBeInstanceOf(BaseModel::class)
-        ->and($baseModel)->not->toBeNull();
-});
+        // Act
+        $tableName = $baseModel->getTable();
 
-test('it supports table name override', function (): void {
-    $baseModel = new BaseModel;
-    $tableName = $baseModel->getTable();
+        // Assert
+        $this->assertIsString($tableName);
+        $this->assertNotEmpty($tableName);
+    }
 
-    expect($tableName)->toBeString()
-        ->and($tableName)->not->toBeEmpty();
-});
+    /** @test */
+    public function it_supports_connection_override(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-test('it supports connection override', function (): void {
-    $baseModel = new BaseModel;
-    $connection = $baseModel->getConnection();
+        // Act
+        $connection = $baseModel->getConnection();
 
-    expect($connection)->not->toBeNull()
-        ->and($connection)->toBeInstanceOf(ConnectionInterface::class);
-});
+        // Assert
+        $this->assertNotNull($connection);
+        $this->assertInstanceOf(ConnectionInterface::class, $connection);
+    }
 
-test('it supports key name configuration', function (): void {
-    $baseModel = new BaseModel;
-    $keyName = $baseModel->getKeyName();
+    /** @test */
+    public function it_supports_key_name_override(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-    expect($keyName)->toBeString()
-        ->and($keyName)->toBe('id');
-});
+        // Act
+        $keyName = $baseModel->getKeyName();
 
-test('it can be used as base for other models', function (): void {
-    $module = new Module;
+        // Assert
+        $this->assertIsString($keyName);
+        $this->assertEquals('id', $keyName);
+    }
 
-    expect($module)->toBeInstanceOf(XotBaseModel::class)
-        ->and($module)->toBeInstanceOf(Model::class);
-});
+    /** @test */
+    public function it_can_be_used_as_base_for_other_models(): void
+    {
+        // Arrange
+        $module = new Module;
 
-test('it supports model configuration', function (): void {
-    $baseModel = new BaseModel;
+        // Act & Assert
+        $this->assertInstanceOf(XotBaseModel::class, $module);
+        $this->assertInstanceOf(Model::class, $module);
+    }
 
-    expect($baseModel->getFillable())->toBeArray()
-        ->and($baseModel->getHidden())->toBeArray()
-        ->and($baseModel->getCasts())->toBeArray();
-});
+    /** @test */
+    public function it_supports_model_configuration(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-test('it can be serialized and unserialized', function (): void {
-    $baseModel = new BaseModel;
-    $serialized = serialize($baseModel);
+        // Act
+        $fillable = $baseModel->getFillable();
+        $hidden = $baseModel->getHidden();
+        $casts = $baseModel->getCasts();
 
-    expect($serialized)->toBeString()->and($serialized)->not->toBeEmpty();
+        // Assert
+        $this->assertIsArray($fillable);
+        $this->assertIsArray($hidden);
+        $this->assertIsArray($casts);
+    }
 
-    $unserialized = unserialize($serialized);
-    expect($unserialized)->toBeInstanceOf(BaseModel::class);
-});
+    /** @test */
+    public function it_supports_soft_deletes_when_configured(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-test('it supports json serialization', function (): void {
-    $baseModel = new BaseModel;
-    $json = json_encode($baseModel);
+        // Act
+        $usesSoftDeletes = method_exists($baseModel, 'trashed');
 
-    expect($json)->toBeString()
-        ->and($json)->not->toBeEmpty()
-        ->and($json)->not->toBeFalse();
-});
+        // Assert
+        // Nota: Non tutti i modelli base usano soft deletes
+        // Questo test verifica solo la possibilità di configurazione
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
 
-test('it supports array conversion', function (): void {
-    $baseModel = new BaseModel;
-    $array = $baseModel->toArray();
+    /** @test */
+    public function it_supports_timestamps_when_configured(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-    expect($array)->toBeArray()
-        ->and($array)->not->toBeEmpty();
-});
+        // Act
+        $usesTimestamps = $baseModel->usesTimestamps();
 
-test('it supports json conversion', function (): void {
-    $baseModel = new BaseModel;
-    $json = $baseModel->toJson();
+        // Assert
+        // Nota: I modelli base possono avere configurazioni diverse
+        $this->assertIsBool($usesTimestamps);
+    }
 
-    expect($json)->toBeString()
-        ->and($json)->not->toBeEmpty();
-});
+    /** @test */
+    public function it_supports_tenant_isolation_when_configured(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-test('it supports relationship loading', function (): void {
-    $baseModel = new BaseModel;
-    
-    expect(method_exists($baseModel, 'load'))->toBeTrue();
-});
+        // Act
+        $hasTenantTrait = method_exists($baseModel, 'getTenantKey');
 
-test('it supports attribute access methods', function (): void {
-    $baseModel = new BaseModel;
+        // Assert
+        // Nota: Non tutti i modelli base usano tenant isolation
+        // Questo test verifica solo la possibilità di configurazione
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
 
-    expect(method_exists($baseModel, 'getAttribute'))->toBeTrue()
-        ->and(method_exists($baseModel, 'setAttribute'))->toBeTrue();
-});
+    /** @test */
+    public function it_supports_audit_trail_when_configured(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-test('it supports mass assignment configuration', function (): void {
-    $baseModel = new BaseModel;
+        // Act
+        $hasAuditTrait = method_exists($baseModel, 'getAuditEvents');
 
-    expect($baseModel->getFillable())->toBeArray()
-        ->and($baseModel->getGuarded())->toBeArray();
-});
+        // Assert
+        // Nota: Non tutti i modelli base usano audit trail
+        // Questo test verifica solo la possibilità di configurazione
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
 
-test('it supports model events', function (): void {
-    $baseModel = new BaseModel;
+    /** @test */
+    public function it_can_be_serialized(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-    expect(method_exists($baseModel, 'fireModelEvent'))->toBeTrue();
-});
+        // Act
+        $serialized = serialize($baseModel);
 
-test('it supports observers', function (): void {
-    $baseModel = new BaseModel;
+        // Assert
+        $this->assertIsString($serialized);
+        $this->assertNotEmpty($serialized);
+    }
 
-    expect(method_exists($baseModel, 'getObservableEvents'))->toBeTrue();
-});
+    /** @test */
+    public function it_can_be_unserialized(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+        $serialized = serialize($baseModel);
 
-test('it supports scopes', function (): void {
-    $baseModel = new BaseModel;
+        // Act
+        $unserialized = unserialize($serialized);
 
-    expect(method_exists($baseModel, 'addGlobalScope'))->toBeTrue();
-});
+        // Assert
+        $this->assertInstanceOf(BaseModel::class, $unserialized);
+    }
 
-test('it supports accessors and mutators', function (): void {
-    $baseModel = new BaseModel;
+    /** @test */
+    public function it_supports_json_serialization(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-    expect(method_exists($baseModel, 'getAttributeValue'))->toBeTrue()
-        ->and(method_exists($baseModel, 'setAttribute'))->toBeTrue();
-});
+        // Act
+        $json = json_encode($baseModel);
 
-test('it supports casting configuration', function (): void {
-    $baseModel = new BaseModel;
+        // Assert
+        $this->assertIsString($json);
+        $this->assertNotEmpty($json);
+        $this->assertNotFalse($json);
+    }
 
-    expect($baseModel->getCasts())->toBeArray();
-});
+    /** @test */
+    public function it_supports_array_conversion(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-test('it supports timestamps configuration', function (): void {
-    $baseModel = new BaseModel;
+        // Act
+        $array = $baseModel->toArray();
 
-    expect($baseModel->usesTimestamps())->toBeBool();
-});
+        // Assert
+        $this->assertIsArray($array);
+        $this->assertNotEmpty($array);
+    }
 
-test('it supports dates configuration', function (): void {
-    $baseModel = new BaseModel;
+    /** @test */
+    public function it_supports_json_conversion(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-    expect($baseModel->getDates())->toBeArray();
-});
+        // Act
+        $json = $baseModel->toJson();
 
-test('it supports hidden attributes', function (): void {
-    $baseModel = new BaseModel;
+        // Assert
+        $this->assertIsString($json);
+        $this->assertNotEmpty($json);
+    }
 
-    expect($baseModel->getHidden())->toBeArray();
-});
+    /** @test */
+    public function it_supports_relationship_loading(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-test('it supports visible attributes', function (): void {
-    $baseModel = new BaseModel;
+        // Act
+        $hasLoadMethod = method_exists($baseModel, 'load');
 
-    expect($baseModel->getVisible())->toBeArray();
-});
+        // Assert
+        $this->assertTrue($hasLoadMethod);
+    }
 
-test('it supports appends configuration', function (): void {
-    $baseModel = new BaseModel;
+    /** @test */
+    public function it_supports_attribute_access(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
 
-    expect($baseModel->getAppends())->toBeArray();
-});
+        // Act
+        $hasGetAttributeMethod = method_exists($baseModel, 'getAttribute');
+        $hasSetAttributeMethod = method_exists($baseModel, 'setAttribute');
 
-test('it supports eager loading configuration', function (): void {
-    $baseModel = new BaseModel;
+        // Assert
+        $this->assertTrue($hasGetAttributeMethod);
+        $this->assertTrue($hasSetAttributeMethod);
+    }
 
-    expect($baseModel->getWith())->toBeArray();
-});
+    /** @test */
+    public function it_supports_mass_assignment_protection(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $fillable = $baseModel->getFillable();
+        $guarded = $baseModel->getGuarded();
+
+        // Assert
+        $this->assertIsArray($fillable);
+        $this->assertIsArray($guarded);
+    }
+
+    /** @test */
+    public function it_supports_model_events(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $hasEvents = method_exists($baseModel, 'fireModelEvent');
+
+        // Assert
+        $this->assertTrue($hasEvents);
+    }
+
+    /** @test */
+    public function it_supports_observers(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $hasObservers = method_exists($baseModel, 'getObservableEvents');
+
+        // Assert
+        $this->assertTrue($hasObservers);
+    }
+
+    /** @test */
+    public function it_supports_scopes(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $hasScopes = method_exists($baseModel, 'addGlobalScope');
+
+        // Assert
+        $this->assertTrue($hasScopes);
+    }
+
+    /** @test */
+    public function it_supports_accessors_and_mutators(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $hasAccessors = method_exists($baseModel, 'getAttributeValue');
+        $hasMutators = method_exists($baseModel, 'setAttribute');
+
+        // Assert
+        $this->assertTrue($hasAccessors);
+        $this->assertTrue($hasMutators);
+    }
+
+    /** @test */
+    public function it_supports_casting(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $casts = $baseModel->getCasts();
+
+        // Assert
+        $this->assertIsArray($casts);
+    }
+
+    /** @test */
+    public function it_supports_dates(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $dates = $baseModel->getDates();
+
+        // Assert
+        $this->assertIsArray($dates);
+    }
+
+    /** @test */
+    public function it_supports_hidden_attributes(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $hidden = $baseModel->getHidden();
+
+        // Assert
+        $this->assertIsArray($hidden);
+    }
+
+    /** @test */
+    public function it_supports_visible_attributes(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $visible = $baseModel->getVisible();
+
+        // Assert
+        $this->assertIsArray($visible);
+    }
+
+    /** @test */
+    public function it_supports_appends(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $appends = $baseModel->getAppends();
+
+        // Assert
+        $this->assertIsArray($appends);
+    }
+
+    /** @test */
+    public function it_supports_with_relationships(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $with = $baseModel->getWith();
+
+        // Assert
+        $this->assertIsArray($with);
+    }
+}

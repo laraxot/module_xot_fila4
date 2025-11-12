@@ -13,7 +13,6 @@ return [
                 'group' => 'Configuración',
                 'label' => 'Salud de la aplicación',
             ],
-
             'notifications' => [
                 'check_results' => 'Revisar resultados desde',
             ],

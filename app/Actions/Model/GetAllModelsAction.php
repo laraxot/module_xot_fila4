@@ -9,24 +9,8 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model;
 
 use Nwidart\Modules\Facades\Module;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
-=======
-<<<<<<< HEAD
->>>>>>> 7d72abc (.)
-=======
-<<<<<<< HEAD
->>>>>>> 15def8d (.)
 use Spatie\QueueableAction\QueueableAction;
-=======
-use Nwidart\Modules\Module as ModuleInstance;
-use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
->>>>>>> f1d4085 (.)
-=======
-use Spatie\QueueableAction\QueueableAction;
->>>>>>> 73eab74 (.)
 
 class GetAllModelsAction
 {
@@ -34,19 +18,8 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
      * @return array<int, class-string>
-=======
-<<<<<<< HEAD
->>>>>>> 7d72abc (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> 15def8d (.)
      */
     public function execute(): array
     {
@@ -67,56 +40,6 @@ class GetAllModelsAction
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleNameValue);
             /** @var array<int, class-string> $tmp */
             $res = array_merge($res, $tmp);
-<<<<<<< HEAD
-=======
-     *
-     * @return array<string, string> Array associativo con snake_case come chiave e FQCN come valore
-     */
-    public function execute(): array
-    {
-        /** @var array<string, string> $res */
-        $res = [];
-        $modules = Module::all();
-        foreach ($modules as $module) {
-            Assert::isInstanceOf($module, ModuleInstance::class, 'Module must be instance of ModuleInstance');
-            $moduleName = $module->getName();
-            Assert::string($moduleName, 'Module name must be a string');
-
-            $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleName);
-            Assert::isArray($tmp, 'GetAllModelsByModuleNameAction must return array');
-
-            // Type-safe merge per mantenere array<string, string>
-            foreach ($tmp as $key => $value) {
-                Assert::string($key, 'Key must be string');
-                Assert::string($value, 'Value must be string');
-                $res[$key] = $value;
-            }
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
-=======
-     *
-     * @return array<int, string>
-     */
-    public function execute(): array
-    {
-        /** @var array<int, string> $res */
-        $res = [];
-        $modules = Module::all();
-        foreach ($modules as $module) {
-            if (! is_object($module) || ! method_exists($module, 'getName')) {
-                continue;
-            }
-
-            $moduleName = $module->getName();
-            if (! is_string($moduleName)) {
-                continue;
-            }
-
-            $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleName);
-            /** @var array<int, string> $tmp */
-            $res = array_merge($res, $tmp);
->>>>>>> eeaa032 (.)
         }
 
         return $res;

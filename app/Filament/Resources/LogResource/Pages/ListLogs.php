@@ -24,9 +24,6 @@ class ListLogs extends XotBaseListRecords
     protected static string $resource = LogResource::class;
 
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableColumns(): array
     {
         return [
@@ -55,9 +52,6 @@ class ListLogs extends XotBaseListRecords
     }
 
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableFilters(): array
     {
         return [
@@ -78,9 +72,6 @@ class ListLogs extends XotBaseListRecords
      * @return array<string, Action|ActionGroup>
      */
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableActions(): array
     {
         return [
@@ -93,9 +84,6 @@ class ListLogs extends XotBaseListRecords
      * @return array<string, BulkAction>
      */
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableBulkActions(): array
     {
         return [

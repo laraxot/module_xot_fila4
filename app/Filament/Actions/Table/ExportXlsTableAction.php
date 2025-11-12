@@ -47,7 +47,7 @@ class ExportXlsTableAction extends Action
 
                     // Ensure fields are properly formatted as array<int, string>
                     $fields = [];
-                    foreach ($rawFields as $field) {
+                    foreach ($rawFields as $key => $field) {
                         if (is_string($field)) {
                             $fields[] = $field;
                         } elseif (is_array($field) && isset($field['name']) && is_string($field['name'])) {

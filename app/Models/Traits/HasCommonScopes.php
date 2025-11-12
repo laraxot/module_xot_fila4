@@ -33,7 +33,7 @@ trait HasCommonScopes
     /**
      * Scope query to only active records.
      *
-     * Found 100% identical in: Activity, Blog, Cms, User modules.
+     * Found 100% identical in: Activity, Blog, Cms, User, Fixcity modules.
      *
      * @return Builder<static>
      */
@@ -74,7 +74,7 @@ trait HasCommonScopes
      */
     public function scopeDraft(Builder $query): Builder
     {
-        return $query->where(static function ($q) {
+        return $query->where(function ($q) {
             $q->whereNull('published_at')
                 ->orWhere('published_at', '>', now());
         });
@@ -83,8 +83,8 @@ trait HasCommonScopes
     /**
      * Scope query to records created after a date.
      *
-     * @param Builder<static> $query
-     *
+     * @param  Builder<static>  $query
+     * @param  mixed  $date
      * @return Builder<static>
      */
     public function scopeCreatedAfter(Builder $query, $date): Builder
@@ -95,8 +95,8 @@ trait HasCommonScopes
     /**
      * Scope query to records created before a date.
      *
-     * @param Builder<static> $query
-     *
+     * @param  Builder<static>  $query
+     * @param  mixed  $date
      * @return Builder<static>
      */
     public function scopeCreatedBefore(Builder $query, $date): Builder
@@ -107,8 +107,8 @@ trait HasCommonScopes
     /**
      * Scope query to records updated after a date.
      *
-     * @param Builder<static> $query
-     *
+     * @param  Builder<static>  $query
+     * @param  mixed  $date
      * @return Builder<static>
      */
     public function scopeUpdatedAfter(Builder $query, $date): Builder
@@ -119,9 +119,8 @@ trait HasCommonScopes
     /**
      * Scope query to records created by a specific user.
      *
-     * @param Builder<static> $query
-     * @param string|int      $userId
-     *
+     * @param  Builder<static>  $query
+     * @param  string|int  $userId
      * @return Builder<static>
      */
     public function scopeCreatedBy(Builder $query, $userId): Builder
@@ -138,8 +137,8 @@ trait HasCommonScopes
             return false;
         }
 
-        return null !== $this->published_at
-               && $this->published_at->isPast();
+        return $this->published_at !== null &&
+               $this->published_at->isPast();
     }
 
     /**
@@ -155,6 +154,6 @@ trait HasCommonScopes
      */
     public function isActive(): bool
     {
-        return isset($this->is_active) && true === $this->is_active;
+        return isset($this->is_active) && $this->is_active === true;
     }
 }

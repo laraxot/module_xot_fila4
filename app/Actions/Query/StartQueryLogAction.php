@@ -15,7 +15,7 @@ class StartQueryLogAction
 
     public function execute(): void
     {
-        Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
             $sql = $query->sql;
             $time = $query->time;
             $connection = $query->connection->getName();

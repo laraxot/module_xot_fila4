@@ -18,6 +18,7 @@ class SanitizeAction
         $str = strip_tags($str);
         $str = html_entity_decode($str);
         $str = trim($str);
+<<<<<<< HEAD
 
         $replaced = preg_replace('/\s+/', ' ', $str);
         $str = is_string($replaced) ? $replaced : $str;
@@ -26,6 +27,12 @@ class SanitizeAction
             $afterStr = Str::after($str, '-');
             // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
             $str = $this->execute($afterStr);
+=======
+        $str = preg_replace('/\s+/', ' ', $str);
+        if (Str::startsWith($str, '-')) {
+            $str = Str::after($str, '-');
+            $str = $this->execute($str);
+>>>>>>> 0218cd5 (.)
         }
 
         return $str;

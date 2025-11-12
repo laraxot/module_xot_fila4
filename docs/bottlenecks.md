@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2de8cb7 (.)
 # Colli di Bottiglia e Soluzioni - Modulo Xot
 
 ## Panoramica
@@ -692,3 +698,9 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 * [BOTTLENECKS.md](../../../Media/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Cms/docs/BOTTLENECKS.md)
 
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> a0b522b (.)
+>>>>>>> a2de8cb7 (.)

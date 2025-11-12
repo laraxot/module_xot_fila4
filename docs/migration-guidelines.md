@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2de8cb7 (.)
 # Migration Guidelines for Project Modules
 
 ## Overview
@@ -40,3 +46,9 @@ return new class extends XotBaseMigration
 - [Code Quality](../CODE_QUALITY.md)
 - [Root Documentation](../../../../docs/collegamenti-documentazione.md)
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> a0b522b (.)
+>>>>>>> a2de8cb7 (.)

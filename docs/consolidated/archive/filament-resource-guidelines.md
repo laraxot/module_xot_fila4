@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Linee Guida per le Risorse Filament nel Progetto <nome progetto>
 
 ## Regole Generali
@@ -16,3 +17,5 @@
 ## Note
 
 Queste linee guida sono centrali per tutti i moduli del progetto <nome progetto>. Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
+=======
+>>>>>>> a2de8cb7 (.)

@@ -1,4 +1,18 @@
+<<<<<<< HEAD
 # Linee Guida Qualità del Codice (Modulo Xot)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+# Code Quality Guidelines for Laravel Modules
+>>>>>>> a2de8cb7 (.)
 
 > **Versione**: 1.1  
 > **Ultimo aggiornamento**: Novembre 2025  
@@ -56,6 +70,7 @@ $content = file_get_contents($path);
 
 ---
 
+<<<<<<< HEAD
 ## 🔄 Automazioni
 
 | Script | Descrizione |
@@ -96,3 +111,9 @@ Eseguire gli script in CI/CD e prima di merge critici.
 ---
 
 **Nota**: Ogni deroga alle presenti regole deve essere documentata nella cartella `docs/` del modulo interessato.
+=======
+*"Nel codice Laraxot, ogni riga è un verso della sinfonia dell'architettura perfetta."*
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> a0b522b (.)
+>>>>>>> a2de8cb7 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -73,3 +74,5 @@ aurmich/dev
 * [level_4.md](laravel/Modules/Patient/project_docs/phpstan/level_4.md)
 * [level_4.md](laravel/Modules/Cms/project_docs/phpstan/level_4.md)
 
+=======
+>>>>>>> a2de8cb7 (.)

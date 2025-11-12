@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Struttura dei percorsi nel progetto <nome progetto>
 
 ## Regola fondamentale
@@ -111,3 +112,5 @@ find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed 
 - [Struttura del progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/architecture/struttura-progetto.md)
 - [Regole di namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
 - [Autoloading](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/psr4-compliance.md)
+=======
+>>>>>>> a2de8cb7 (.)

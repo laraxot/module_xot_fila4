@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2de8cb7 (.)
 # Laravel XOT Architecture Documentation
 
 ## Overview
@@ -8833,3 +8839,9 @@ class ClientMapWidget extends Widget
 4. Gestire i casi di errore in modo graceful
 5. La reattività funziona automaticamente con Livewire 3
   - Contact section
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> a0b522b (.)
+>>>>>>> a2de8cb7 (.)

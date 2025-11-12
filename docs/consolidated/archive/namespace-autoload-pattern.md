@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pattern di Autoload nei Moduli Laravel
 
 ## Il Pattern Corretto
@@ -84,3 +85,5 @@ namespace Modules\ModuleName\App\Console\Commands;
 
 - [Convenzioni di Namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/namespace_conventions.md)
 - [Struttura Moduli](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/module_structure.md)
+=======
+>>>>>>> a2de8cb7 (.)

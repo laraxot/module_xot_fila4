@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2de8cb7 (.)
 ### Versione HEAD
 
 # Analisi della Discrepanza tra Namespace e Struttura Directory nei Moduli Laraxot
@@ -1072,3 +1078,9 @@ b6f667c (.)
 - Aggiornare la documentazione del modulo con esempi e riferimenti.
 
 Vedi anche la documentazione specifica del modulo per dettagli e casi particolari.
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> a0b522b (.)
+>>>>>>> a2de8cb7 (.)

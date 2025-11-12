@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2de8cb7 (.)
 # Real Data vs Mock Testing Strategy - Xot Module
 
 ## 🎯 Strategic Testing Approaches
@@ -390,3 +396,9 @@ test('legacy feature with mocks', function () {
 **Decision Authority**: Technical Architecture Committee  
 **Implementation Timeline**: 4-week migration  
 
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> a0b522b (.)
+>>>>>>> a2de8cb7 (.)

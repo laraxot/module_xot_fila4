@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Development Guidelines - Xot Module
 
 ## Panoramica
@@ -54,3 +55,5 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 1. **Type Safety**: Mantenere sempre type hints espliciti
 2. **Static Properties**: Evitare accesso statico a proprietà di istanza
 3. **Mixed Types**: Gestire sempre i tipi `mixed` con type casting appropriato
+=======
+>>>>>>> a2de8cb7 (.)

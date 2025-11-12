@@ -4,6 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
+=======
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Section;
+use Filament\Schemas\Components\DatePicker;
+use Filament\Forms\Components\Select;
+use Filament\Schemas\Get;
+>>>>>>> a0b522b (.)
 use Filament\Pages\Dashboard as FilamentDashboard;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Section;
@@ -23,11 +31,16 @@ abstract class XotBaseDashboard extends FilamentDashboard
 
     final public function filtersForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
         /** @var array<Component> $filterSchema */
         $filterSchema = $this->getFiltersFormSchema();
 
         return $schema->components([
             Section::make()->schema($filterSchema)->columns(3),
+=======
+        return $schema->components([
+            Section::make()->schema($this->getFiltersFormSchema())->columns(3),
+>>>>>>> a0b522b (.)
         ]);
     }
 

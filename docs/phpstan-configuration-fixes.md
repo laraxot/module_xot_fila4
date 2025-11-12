@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PHPStan Configuration Fixes - Modulo Xot
 
 ## Panoramica
@@ -204,3 +205,5 @@ La configurazione PHPStan implementata mantiene un alto livello di qualità del 
 **Laravel Version**: 10+  
 **Larastan Version**: 2.9+  
 **Stato**: ✅ Configurazione Stabile
+=======
+>>>>>>> a2de8cb7 (.)

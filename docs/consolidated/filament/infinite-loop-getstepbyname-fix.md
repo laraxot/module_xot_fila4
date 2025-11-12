@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 
 ## 🚨 **PROBLEMA CRITICO RISOLTO**
@@ -137,3 +138,5 @@ Questo fix dimostra l'importanza di:
 4. **Xdebug monitoring** per rilevazione loop infiniti
 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+=======
+>>>>>>> a2de8cb7 (.)

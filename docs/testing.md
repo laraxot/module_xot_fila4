@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2de8cb7 (.)
 # Testing Guidelines - Modulo Xot
 
 ## Framework di Testing: Pest
@@ -693,3 +699,9 @@ test('no memory leaks in repeated operations', function (): void {
 **Ultimo aggiornamento**: Dicembre 2024  
 **Framework**: Pest v2.x  
 **Coverage Target**: 90%+ per core framework  
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> a0b522b (.)
+>>>>>>> a2de8cb7 (.)

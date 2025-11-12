@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
@@ -114,3 +115,5 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 1. **Class not found**: Ensure the class name matches the filename exactly
 2. **Translation not working**: Verify the translation key exists in the language files
 3. **Backward compatibility issues**: Check that the alias is correctly defined
+=======
+>>>>>>> a2de8cb7 (.)

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2de8cb7 (.)
 # XotBaseServiceProvider
 
 ## Panoramica
@@ -228,3 +234,9 @@ $this->commands([
 ### Zen finale
 > "Il miglior comando è quello che non devi mai registrare a mano."
 
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> a0b522b (.)
+>>>>>>> a2de8cb7 (.)

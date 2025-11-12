@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotBaseServiceProvider
 
 ## Descrizione
@@ -173,3 +174,5 @@ try {
 3. I percorsi sono relativi alla root del modulo
 4. Le eccezioni vengono gestite con fallback appropriati
 5. La registrazione dei componenti è automatica ma configurabile 
+=======
+>>>>>>> a2de8cb7 (.)

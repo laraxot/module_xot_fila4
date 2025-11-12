@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Linee Guida per l'Ereditarietà da Classi Filament
 
 ## Problema di Compatibilità con Metodi Statici/Non Statici
@@ -95,3 +96,5 @@ public function getNavigationLabel(): string // Non static!
 - [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
 - [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
 - [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+=======
+>>>>>>> a2de8cb7 (.)

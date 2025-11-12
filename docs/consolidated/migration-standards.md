@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Standard per le Migrazioni in <nome progetto>
 
 ## Introduzione
@@ -208,3 +209,5 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 ## Conclusione
 
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in <nome progetto>. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+=======
+>>>>>>> a2de8cb7 (.)

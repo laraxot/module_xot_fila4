@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2de8cb7 (.)
 
 # Standard di Codice per il progetto
 
@@ -614,3 +620,9 @@ git commit -m "fix: correzione calcolo età paziente"
 - [Documentazione Xot](../CODE-STANDARDS.md)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> a0b522b (.)
+>>>>>>> a2de8cb7 (.)

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2de8cb7 (.)
 # Panel Provider in Modulo Xot
 
 ## XotBaseMainPanelProvider
@@ -91,4 +97,11 @@ public function panel(Panel $panel): Panel
 - [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
 - [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> a0b522b (.)
+>>>>>>> a2de8cb7 (.)

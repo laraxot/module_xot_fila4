@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Data Objects
 
 ## Principi Fondamentali
@@ -80,3 +81,5 @@
 - [Data Objects Patient](../Patient/docs/data-objects.md)
 - [Best Practices](./best-practices.md)
 - [Convenzioni di Codice](./coding-standards.md) 
+=======
+>>>>>>> a2de8cb7 (.)

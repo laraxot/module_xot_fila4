@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
@@ -200,3 +201,5 @@ php artisan lang:check
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
 **Stato**: ✅ Completato
+=======
+>>>>>>> a0b522b (.)

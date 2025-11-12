@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Correzioni PHPStan - 6 Gennaio 2025
 
 ## Errori Risolti
@@ -97,3 +98,5 @@
 - [PHPStan Level 10 Guidelines](./phpstan-level10-guidelines.md)
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
+=======
+>>>>>>> a2de8cb7 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestione dei File Upload in Filament
 
 ## Panoramica
@@ -132,3 +133,5 @@ Forms\Components\FileUpload::make('certifications')
 - [Gestione degli Utenti](/docs/user-management.md)
 - [Pattern di Ereditarietà dei Modelli](/docs/model-inheritance-patterns.md)
 - [Documentazione Ufficiale di Filament](https://filamentphp.com/docs/3.x/forms/fields/file-upload)
+=======
+>>>>>>> a2de8cb7 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # List Records in Filament
 
 > **AGGIORNAMENTO 2025-05-28:**
@@ -155,3 +156,5 @@ public function getTableColumns(): array
 
 ## PROPAGAZIONE (2025-05-28):
 La pagina ListStudios del modulo <nome progetto> implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [<nome progetto>/docs/resources/studio-resource.md](../../<nome progetto>/docs/resources/studio-resource.md).
+=======
+>>>>>>> a2de8cb7 (.)

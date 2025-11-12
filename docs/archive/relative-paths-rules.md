@@ -6,7 +6,10 @@
 > - [Regole per i Prompt](./PROMPT_RULES.md)
 > - [README.md toolkit bashscripts](../../../../bashscripts/docs/README.md)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 ## Regola Fondamentale
 
 **MAI UTILIZZARE PERCORSI ASSOLUTI NEI LINK DELLA DOCUMENTAZIONE. SEMPRE UTILIZZARE PERCORSI RELATIVI.**
@@ -19,43 +22,68 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 
 ```markdown
 [Modulo Xot](./laravel/Modules/Xot/docs/README.md)
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 ```
 
 ### Da un file in un modulo verso un altro modulo
 
 ```markdown
 [Altro Modulo](../../../AltroModulo/docs/README.md)
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 ```
 
 ### Da un file in un modulo verso la root
 
 ```markdown
 [Documentazione Root](../../../../docs/README.md)
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 ```
 
 ## Errori Comuni da Evitare
 
 1. **MAI utilizzare percorsi assoluti** come:
    ```markdown
+<<<<<<< HEAD
 [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/docs/README.md)
 
+=======
+   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/README.md)
+   [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/README.md)
+   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/README.md)
+>>>>>>> a5dccfe (.)
    ```
 
 2. **MAI utilizzare percorsi che iniziano con /**:
    ```markdown
+<<<<<<< HEAD
 [ERRATO](/docs/README.md)
    [ERRATO](/laravel/Modules/Xot/docs/README.md)
 
+=======
+   [ERRATO](/docs/README.md)
+   [ERRATO](/laravel/Modules/Xot/docs/README.md)
+>>>>>>> a5dccfe (.)
    ```
 
 3. **MAI utilizzare percorsi che non tengono conto della posizione relativa del file sorgente**:
    ```markdown
+<<<<<<< HEAD
 [ERRATO](Modules/Xot/docs/README.md) <!-- Da un file nella root -->
    [ERRATO](../Xot/docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
 
+=======
+   [ERRATO](Modules/Xot/docs/README.md) <!-- Da un file nella root -->
+   [ERRATO](../Xot/docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
+>>>>>>> a5dccfe (.)
    ```
 
 ## Come Calcolare Correttamente i Percorsi Relativi
@@ -75,7 +103,10 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 | `/laravel/Modules/Xot/docs/README.md` | `/laravel/Modules/User/docs/README.md` | `../../../User/docs/README.md` |
 | `/laravel/Modules/Xot/docs/structure.md` | `/laravel/Modules/Xot/docs/README.md` | `./README.md` |
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 ## Verifica dei Link
 
 Prima di committare modifiche alla documentazione:

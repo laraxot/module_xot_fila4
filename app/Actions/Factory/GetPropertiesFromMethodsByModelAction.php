@@ -14,10 +14,13 @@ namespace Modules\Xot\Actions\Factory;
 
 use ReflectionMethod;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
 
 =======
+=======
+>>>>>>> a5dccfe (.)
 use SplFileObject;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
@@ -27,7 +30,10 @@ use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_replace;
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
 
 /**
  * Classe per estrarre proprietà dai metodi di relazione di un modello.
@@ -37,21 +43,30 @@ use function Safe\preg_replace;
 class GetPropertiesFromMethodsByModelAction
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
 =======
     use QueueableAction;
 >>>>>>> 0e51323 (.)
+=======
+    use QueueableAction;
+>>>>>>> a5dccfe (.)
 
     /**
      * Estrae le proprietà dai metodi di relazione del modello.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * @param Model $model Il modello da analizzare
      *
 >>>>>>> 0e51323 (.)
+=======
+     * @param Model $model Il modello da analizzare
+     *
+>>>>>>> a5dccfe (.)
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
@@ -115,9 +130,13 @@ use SplFileObject;
                 // Normalizziamo e analizziamo il codice
                 Assert::stringNotEmpty($code, 'Il codice del metodo non può essere vuoto');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 $codeStr = trim(preg_replace('/\s\s+/', '', $code));
 >>>>>>> 0e51323 (.)
+=======
+                $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+>>>>>>> a5dccfe (.)
 
                 // Estrazione del corpo della funzione
                 $begin = mb_strpos($codeStr, 'function(');
@@ -147,14 +166,20 @@ use SplFileObject;
      * Estrae le relazioni belongsTo dal codice.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a5dccfe (.)
      * @param string $codeStr Il codice da analizzare
      * @param Model $model Il modello
      * @param string $method Il nome del metodo
      * @param array<string, string> &$data L'array in cui salvare i dati estratti
      *
      * @return void
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
      */
     private function extractBelongsToRelations(string $codeStr, Model $model, string $method, array &$data): void
     {
@@ -171,17 +196,25 @@ use SplFileObject;
 
             // Verifichiamo che sia effettivamente una relazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if (!($relationObj instanceof Relation)) {
 >>>>>>> 0e51323 (.)
+=======
+            if (!($relationObj instanceof Relation)) {
+>>>>>>> a5dccfe (.)
                 return;
             }
 
             // Verifichiamo che il metodo getForeignKeyName esista
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if (!method_exists($relationObj, 'getForeignKeyName')) {
 >>>>>>> 0e51323 (.)
+=======
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+>>>>>>> a5dccfe (.)
                 throw new Exception('Il metodo getForeignKeyName non esiste nella relazione');
             }
 
@@ -198,9 +231,13 @@ use SplFileObject;
             Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             $type = 'factory(' . $relatedClass . '::class)';
 >>>>>>> 0e51323 (.)
+=======
+            $type = 'factory(' . $relatedClass . '::class)';
+>>>>>>> a5dccfe (.)
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
         } catch (Exception $e) {
             // In caso di errore, ignoriamo la relazione

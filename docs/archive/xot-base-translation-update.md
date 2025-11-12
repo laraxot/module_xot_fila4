@@ -90,5 +90,8 @@ return [
 - [Best Practices Traduzioni](translations-best-practices.md)
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 

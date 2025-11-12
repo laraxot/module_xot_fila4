@@ -11,8 +11,16 @@
 
 ```php
 // ❌ PROBLEMA ATTUALE
+<<<<<<< HEAD
 public static string $projectBasePath = '/var/www/html/saluteora';
 public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+=======
+public static string $projectBasePath = '/var/www/html/<nome progetto>';
+public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
+public static string $projectBasePath = '/var/www/html/<nome progetto>';
+public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
+public static string $laravelBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel';
+>>>>>>> a5dccfe (.)
 ```
 
 #### 2. XotData Incompleto
@@ -269,7 +277,12 @@ abstract class XotBaseModel extends Model
 ### Pre-Implementazione
 ```bash
 # Verifica path hardcoded
+<<<<<<< HEAD
 grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+=======
+grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+>>>>>>> a5dccfe (.)
 
 # Verifica XotData usage
 grep -r "XotData::make()" Modules/Xot/ --include="*.php"

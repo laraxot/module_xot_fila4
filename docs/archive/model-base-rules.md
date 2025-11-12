@@ -55,7 +55,10 @@ I modelli aggregati e di totali (es. `OrganizzativaTotValutatoreId` del modulo P
 
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 ## Eccezioni
 
 Non esistono eccezioni a questa regola. Tutti i modelli concreti devono seguirla.
@@ -92,5 +95,8 @@ abstract class BaseModel extends XotBaseModel
 - [docs/MODULE_NAMESPACE_RULES.md](../../docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/docs/organizzativa-models.md](../Performance/docs/organizzativa-models.md)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 

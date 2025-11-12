@@ -4,6 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
+=======
+use LogicException;
+<<<<<<< HEAD
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 54cbe5d (.)
+use RuntimeException;
+use Illuminate\Auth\Access\AuthorizationException;
+>>>>>>> 3df5f27e (.)
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -19,7 +29,15 @@ use Illuminate\Support\Str;
 use LogicException;
 use Modules\Xot\Actions\View\GetViewByClassAction;
 use Modules\Xot\Filament\Traits\TransTrait;
+<<<<<<< HEAD
 use RuntimeException;
+=======
+use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+use Filament\Schemas\Schema;
+=======
+>>>>>>> 54cbe5d (.)
+>>>>>>> 3df5f27e (.)
 
 /**
  * Classe base astratta per tutte le pagine Filament non legate a risorse specifiche.
@@ -32,9 +50,18 @@ use RuntimeException;
  * - Rilevamento intelligente modello
  * - Metodi helper comuni
  *
+<<<<<<< HEAD
  * @property ?string $model Il modello associato alla pagina
  * @property array<string, mixed> $data I dati del form
  * @property \Filament\Schemas\Schema $form Il form della pagina
+=======
+ * @property ?string              $model Il modello associato alla pagina
+ * @property array<string, mixed> $data  I dati del form
+<<<<<<< HEAD
+     * @property \Filament\Schemas\Schema $form Il form della pagina
+=======
+>>>>>>> 54cbe5d (.)
+>>>>>>> 3df5f27e (.)
  *
  * @see \Modules\Xot\docs\xotbasepage_implementation.md Documentazione completa
  */
@@ -208,6 +235,34 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         return $modelNamespace;
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    /**
+     * Configura il form della pagina.
+     * Imposta lo schema e il percorso dello stato per il form.
+     *
+     * @param \Filament\Schemas\Schema $schema Il form da configurare
+     *
+     * @return \Filament\Schemas\Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+    {
+        $schema = $schema->components($this->getFormSchema());
+
+        $schema->statePath('data');
+
+        $debounce = $this->getAutosaveDebounce();
+        if (null !== $debounce && method_exists($schema, 'autosaveDebounce')) {
+            $schema->autosaveDebounce($debounce);
+        }
+
+        return $schema;
+    }
+>>>>>>> 54cbe5d (.)
+
+>>>>>>> 3df5f27e (.)
     /**
      * Ottiene il tempo di debounce per l'autosave in millisecondi.
      * Sovrascrivere nelle classi figlie per modificare questo valore.

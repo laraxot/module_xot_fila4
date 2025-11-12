@@ -4,6 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use DateTime;
+=======
+>>>>>>> 54cbe5d (.)
+>>>>>>> 3df5f27e (.)
 use BackedEnum;
 use DateTime;
 use Filament\Models\Contracts\FilamentUser;
@@ -42,7 +49,11 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string|int|null $current_team_id
  * @property string|null $phone
  * @property string|null $email
+<<<<<<< HEAD
  * @property DateTime|null $email_verified_at
+=======
+ * @property \DateTime|null $email_verified_at
+>>>>>>> 54cbe5d (.)
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
  * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
  *

@@ -2,7 +2,15 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\Xot\Filament\Forms\Components;
+=======
+<<<<<<< HEAD
+namespace Modules\Notify\Filament\Forms\Components;
+=======
+namespace Modules\Xot\Filament\Forms\Components;
+>>>>>>> 54cbe5d (.)
+>>>>>>> 3df5f27e (.)
 
 use Filament\Forms\Components\Field;
 

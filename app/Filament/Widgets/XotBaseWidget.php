@@ -4,14 +4,32 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Components\Component;
+=======
+>>>>>>> 54cbe5d (.)
+use Exception;
+>>>>>>> 3df5f27e (.)
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
+=======
+<<<<<<< HEAD
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
+>>>>>>> 54cbe5d (.)
+>>>>>>> 3df5f27e (.)
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
@@ -22,6 +40,13 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Filament\Schemas\Schema;
+=======
+>>>>>>> 54cbe5d (.)
+>>>>>>> 3df5f27e (.)
 
 /**
  * Classe base astratta per tutti i widget Filament.
@@ -97,7 +122,15 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     /**
      * Configura il form del widget.
      *
+<<<<<<< HEAD
      * @param  Schema  $schema  Il form da configurare
+=======
+<<<<<<< HEAD
+     * @param Schema $schema Il form da configurare
+=======
+     * @param  Schema  $schema  Il form da configurare
+>>>>>>> 54cbe5d (.)
+>>>>>>> 3df5f27e (.)
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
@@ -243,17 +276,28 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     protected function getStepByName(string $name): Step
     {
+<<<<<<< HEAD
         $form = Str::of($name)
+=======
+        $schema = Str::of($name)
+>>>>>>> 54cbe5d (.)
             ->snake()
             ->studly()
             ->prepend('get')
             ->append('Schema')
             ->toString();
 
+<<<<<<< HEAD
         /** @var array<Htmlable|string> $formComponents */
         $formComponents = $this->$form();
 
         return Step::make($name)->schema($formComponents);
+=======
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+
+        return Step::make($name)->schema($schemaComponents);
+>>>>>>> 54cbe5d (.)
     }
 
     public function getWizardSubmitAction(): Action

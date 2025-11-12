@@ -4,6 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 54cbe5d (.)
+use Filament\Schemas\Components\Utilities\Get;
+>>>>>>> 3df5f27e (.)
 use Filament\Actions\Action;
 use Filament\Forms\Components\ColorPicker;
 use Filament\Forms\Components\Repeater;
@@ -19,6 +27,13 @@ use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Filament\Schemas\Schema;
+=======
+>>>>>>> 54cbe5d (.)
+>>>>>>> 3df5f27e (.)
 
 /**
  * @property Schema $form
@@ -87,12 +102,20 @@ class MetatagPage extends Page implements HasForms
                             ->reactive(),
                         ColorPicker::make('hex')
                             ->label('Colore personalizzato')
+<<<<<<< HEAD
                             ->visible(
                                 /**
                                  * @param  \Closure(string): mixed  $get
                                  */
                                 fn (\Closure $get): bool => $get('color') === 'custom'
                             )
+=======
+<<<<<<< HEAD
+                            ->visible(fn($get) => $get('color') === 'custom')
+=======
+                            ->visible(fn(Get $get) => $get('color') === 'custom')
+>>>>>>> 54cbe5d (.)
+>>>>>>> 3df5f27e (.)
                             ->required(),
                     ])
                     ->columns(3),

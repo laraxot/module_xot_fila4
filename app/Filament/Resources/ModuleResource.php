@@ -6,10 +6,19 @@ namespace Modules\Xot\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
+=======
+<<<<<<< HEAD
+=======
+use Modules\UI\Filament\Forms\Components\IconPicker;
+>>>>>>> 54cbe5d (.)
+use Modules\Xot\Filament\Resources\ModuleResource\Pages;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 3df5f27e (.)
 use Modules\Xot\Models\Module;
 use Override;
 
@@ -26,7 +35,11 @@ class ModuleResource extends XotBaseResource
         return [
             'name' => TextInput::make('name')->required(),
             'description' => TextInput::make('description'),
+<<<<<<< HEAD
             'icon' => TextInput::make('icon'),
+=======
+            'icon' => IconPicker::make('icon'),
+>>>>>>> 54cbe5d (.)
             'priority' => TextInput::make('priority'),
             'status' => Toggle::make('status'),
         ];

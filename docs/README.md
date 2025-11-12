@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Modulo Xot - Documentazione
 
 > **Versione**: 1.2  
@@ -9,6 +10,13 @@
 Il modulo **Xot** è il **core framework** di Laraxot PTVX. Fornisce le classi base, i pattern architetturali, e gli strumenti comuni utilizzati da tutti gli altri 35 moduli.
 
 Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
+=======
+# Laraxot PTVX - Documentazione Consolidata
+
+## Panoramica
+
+Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
+>>>>>>> 3df5f27e (.)
 
 ## Architettura Modulare
 
@@ -19,6 +27,7 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 - **Estensibilità**: Facile aggiunta di nuovi moduli e funzionalità
 - **Manutenibilità**: Codice pulito e ben documentato
 
+<<<<<<< HEAD
 ## 🔧 Correzioni Recenti
 
 ### 🎉 Risoluzione Massiva Merge Conflicts (2025-11-04)
@@ -97,6 +106,15 @@ php artisan serve
 - **PHPStan 3**: Static analysis tool (Livello 10 - massima rigidità)
 - **Pest 3**: PHP testing framework
 - **PHP 8.3+**: Versione minima richiesta
+=======
+## Caratteristiche Tecniche
+
+- **Laravel 11**: Framework PHP moderno e potente
+- **Filament 3**: Server-Driven UI framework per Laravel
+- **Livewire 3**: Full-stack framework per Laravel
+- **PHPStan 3**: Static analysis tool (Livello 9/10)
+- **Pest 3**: PHP testing framework
+>>>>>>> 3df5f27e (.)
 
 ## Principi di Sviluppo
 
@@ -142,7 +160,11 @@ php artisan serve
 # 🏗️ **Xot Module** - Framework Base Laraxot
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
+<<<<<<< HEAD
 [![Filament 4.x](https://img.shields.io/badge/Filament-4.x-blue.svg)](https://filamentphp.com/)
+=======
+[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 3df5f27e (.)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN%20%7C%20DE-green.svg)](https://laravel.com/docs/localization)
 [![Base Framework](https://img.shields.io/badge/Framework-Base%20Core-orange.svg)](https://laraxot.com/)
@@ -366,8 +388,11 @@ return [
 
 ### 🏗️ **Architettura**
 - [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
+<<<<<<< HEAD
 - [👑 PHPStan Victory 2025](phpstan-victory-2025.md) - **🎊 PERFEZIONE ASSOLUTA** - 19,337→0 (100%) - Hall of Fame
 - [📋 PHPStan Fixes Report 2025](phpstan-fixes-report.md) - **✅ COMPLETATO** - Report dettagliato correzioni
+=======
+>>>>>>> 3df5f27e (.)
 - [🎨 Theme Assets Workflow](theme-assets-workflow.md) - **⚠️ CRITICO** - Workflow CSS/JS per temi
 - [PHPStan Array Types Fixes](phpstan-array-types-fixes.md) - **✅ COMPLETATO** - Correzioni complete tipi array
 - [Base Classes Guide](base-classes/README.md) - Guida alle classi base
@@ -499,6 +524,7 @@ ls Modules/*/lang/*/
 **🚀 Performance**: 98/100 score
 
 ## Documentation Archive & Legacy
+<<<<<<< HEAD
 # Xot Module - Framework Base Laraxot
 
 ## Overview
@@ -534,10 +560,13 @@ composer require laraxot/xot
 Configurazione automatica tramite service providers.
 
 ## Documentation Archive
+=======
+>>>>>>> 3df5f27e (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
 
+<<<<<<< HEAD
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -550,4 +579,9 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 ## Quick Links Legacy
 - [Root Documentation](../../../docs/)
 - [<main module> Module](../<main module>/docs/)
+=======
+## Quick Links Legacy
+- [Root Documentation](../../../docs/)
+- [SaluteOra Module](../SaluteOra/docs/)
+>>>>>>> 3df5f27e (.)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)

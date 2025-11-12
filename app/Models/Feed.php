@@ -5,16 +5,10 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-<<<<<<< HEAD
-=======
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Xot\Database\Factories\FeedFactory;
->>>>>>> 713050e (.)
 
 /**
  * Modules\Xot\Models\Feed.
  *
-<<<<<<< HEAD
  * @property string $id
  * @property string|null $created_by
  * @property string|null $updated_by
@@ -38,20 +32,6 @@ use Modules\Xot\Database\Factories\FeedFactory;
  * @method static Builder<static>|Feed whereUpdatedAt($value)
  * @method static Builder<static>|Feed whereUpdatedBy($value)
  *
-=======
- * @method static FeedFactory factory($count = null, $state = [])
- * @method static Builder|Feed newModelQuery()
- * @method static Builder|Feed newQuery()
- * @method static Builder|Feed query()
- * @method static Builder|Feed newModelQuery()
- * @method static Builder|Feed newQuery()
- * @method static Builder|Feed query()
- *
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
- *
- * @mixin IdeHelperFeed
->>>>>>> 713050e (.)
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

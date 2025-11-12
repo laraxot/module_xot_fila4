@@ -6,13 +6,40 @@ Questo documento descrive le azioni di cast sicure che sostituiscono completamen
 
 ## Problema con property_exists
 
+**REGOLA CRITICA**: `property_exists()` NON può essere usato con i modelli Eloquent perché gli attributi sono magici (gestiti tramite `__get()` e `__set()`).
+
 L'uso di `property_exists()` con modelli Laravel è problematico perché:
 
+- **Gli attributi Eloquent sono magici**: Non sono proprietà reali della classe, ma vengono gestiti tramite magic methods (`__get()`, `__set()`, `__isset()`)
+- `property_exists()` controlla solo le proprietà reali della classe, NON gli attributi magici
+- Può dare falsi negativi: un attributo può esistere ma `property_exists()` restituisce `false`
 - È una funzione PHP generica che non conosce l'architettura Laravel
 - Può dare falsi positivi con proprietà dinamiche di Eloquent
 - È meno performante e meno leggibile
 - Non segue i principi DRY e KISS
 - Può causare errori di tipo e comportamenti imprevedibili
+
+### Soluzione Corretta: Usare `isset()`
+
+Per i modelli Eloquent, utilizzare SEMPRE `isset()` invece di `property_exists()`:
+
+```php
+// ❌ SBAGLIATO - property_exists() non funziona con attributi magici
+if (property_exists($model, 'email')) {
+    $email = $model->email;
+}
+
+// ✅ CORRETTO - isset() rispetta __isset() per attributi magici
+if (isset($model->email)) {
+    $email = $model->email;
+}
+
+// ✅ ANCORA MEGLIO - Usare getAttribute() per accesso diretto
+$email = $model->getAttribute('email');
+if ($email !== null) {
+    // Usa $email
+}
+```
 
 ## Soluzioni Implementate
 

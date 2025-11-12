@@ -96,10 +96,7 @@ class StateOverviewWidget extends XotBaseWidget
 
         Assert::isArray($res);
 
-<<<<<<< HEAD
         /** @var array<int, array<string, mixed>> $res */
-=======
->>>>>>> 713050e (.)
         return $res;
     }
 

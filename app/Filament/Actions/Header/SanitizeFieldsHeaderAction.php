@@ -40,13 +40,9 @@ class SanitizeFieldsHeaderAction extends Action
                     Assert::isInstanceOf($row, Model::class);
                     $save = false;
                     foreach ($this->fields as $field) {
-<<<<<<< HEAD
                         $fieldName = is_string($field) ? $field : (string) $field;
                         $item = $row->{$fieldName};
                         Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
-=======
-                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
->>>>>>> 713050e (.)
                         $string = app(SanitizeAction::class)->execute($item);
                         if ($string !== $item) {
                             $row->{$fieldName} = $string;

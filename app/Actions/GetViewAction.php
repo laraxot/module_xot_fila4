@@ -49,11 +49,7 @@ class GetViewAction
             ->implode('.');
 
         $pub_view = 'pub_theme::'.$tmp;
-<<<<<<< HEAD
         // $pub_view è sempre stringa perché costruita da stringhe
-=======
-        Assert::string($pub_view, '['.__LINE__.']['.class_basename($this).']');
->>>>>>> 713050e (.)
 
         if ($tpl !== '') {
             $pub_view .= '.'.$tpl;
@@ -77,11 +73,7 @@ class GetViewAction
         }
 
         // }
-<<<<<<< HEAD
         // $view è sempre stringa perché costruita da stringhe
-=======
-        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
->>>>>>> 713050e (.)
         if (! view()->exists($view)) {
             throw new Exception('View ['.$view.'] not found');
         }

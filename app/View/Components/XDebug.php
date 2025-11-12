@@ -4,11 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\View\Components;
 
-<<<<<<< HEAD
 use Illuminate\Contracts\View\View;
-=======
-use Illuminate\Contracts\Support\Renderable;
->>>>>>> 713050e (.)
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
 use RuntimeException;

@@ -57,30 +57,18 @@ class StatesChartWidget extends XotBaseChartWidget
                         'data' => $states->pluck('count')->toArray(),
                         'backgroundColor' => $states
                             ->keys()
-<<<<<<< HEAD
                             ->map(fn ($state) => $colors[(string) $state] ?? 'rgb(156, 163, 175)')
                             ->toArray(),
                         'borderColor' => $states
                             ->keys()
                             ->map(fn ($state) => $colors[(string) $state] ?? 'rgb(156, 163, 175)')
-=======
-                            ->map(fn ($state) => $colors[$state] ?? 'rgb(156, 163, 175)')
-                            ->toArray(),
-                        'borderColor' => $states
-                            ->keys()
-                            ->map(fn ($state) => $colors[$state] ?? 'rgb(156, 163, 175)')
->>>>>>> 713050e (.)
                             ->toArray(),
                         'borderWidth' => 1,
                     ],
                 ],
                 'labels' => $states
                     ->keys()
-<<<<<<< HEAD
                     ->map(fn ($state) => static::transClass($this->model, 'states.'.((string) $state).'.label'))
-=======
-                    ->map(fn ($state) => static::transClass($this->model, 'states.'.$state.'.label'))
->>>>>>> 713050e (.)
                     ->toArray(),
             ];
         } catch (Exception $e) {

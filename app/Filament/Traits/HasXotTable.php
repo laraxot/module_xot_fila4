@@ -324,7 +324,6 @@ trait HasXotTable
         }
 
         // Check if class has the getRelationship method
-<<<<<<< HEAD
         // Note: In some contexts (ListRecords), getRelationship() may not exist
         // @phpstan-ignore-next-line function.alreadyNarrowedType (needed for contexts where method doesn't exist)
         if ($this->shouldShowDetachAction() && method_exists($this, 'getRelationship')) {
@@ -347,28 +346,10 @@ trait HasXotTable
                     $actions['detach'] = DetachAction::make()
                         ->iconButton()
                         ->tooltip(__('user::actions.detach'));
-=======
-        if ($this->shouldShowDetachAction()) {
-            // @phpstan-ignore-next-line
-            if (method_exists($this, 'getRelationship')) {
-                // @phpstan-ignore-next-line
-                if (method_exists($this->getRelationship(), 'getTable')) {
-                    // @phpstan-ignore-next-line
-                    $pivotClass = $this->getRelationship()->getPivotClass();
-                    if (method_exists($pivotClass, 'getKeyName')) {
-                        $actions['detach'] = DetachAction::make()
-                            ->iconButton()
-                            ->tooltip(__('user::actions.detach'));
-                    }
->>>>>>> 713050e (.)
                 }
             }
         }
 
-<<<<<<< HEAD
-=======
-        // @phpstan-ignore-next-line
->>>>>>> 713050e (.)
         return $actions;
     }
 

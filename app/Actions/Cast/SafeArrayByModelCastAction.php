@@ -42,9 +42,5 @@ class SafeArrayByModelCastAction
         }
 
         return $data;
-<<<<<<< HEAD
-=======
-
->>>>>>> 713050e (.)
     }
 }

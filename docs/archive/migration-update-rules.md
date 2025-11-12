@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Regole generali per aggiornamento colonne e gestione errori schema
@@ -43,3 +44,5 @@
 >>>>>>> dfe51d0 (.)
 =======
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

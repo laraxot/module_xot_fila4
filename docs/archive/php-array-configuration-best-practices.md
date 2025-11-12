@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Gestione Best Practice per File di Configurazione PHP basati su Array
@@ -70,3 +71,5 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 >>>>>>> dfe51d0 (.)
 =======
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

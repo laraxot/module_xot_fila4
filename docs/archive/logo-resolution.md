@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Risoluzione dei Loghi
@@ -139,3 +140,5 @@ Questo documento è parte della documentazione generale del modulo Xot e descriv
 >>>>>>> dfe51d0 (.)
 =======
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

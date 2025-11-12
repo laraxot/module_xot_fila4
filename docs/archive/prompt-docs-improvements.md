@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Miglioramenti al Prompt docs.txt
@@ -85,3 +86,5 @@ Il prompt aggiornato può essere utilizzato in qualsiasi progetto modulare Larav
 >>>>>>> dfe51d0 (.)
 =======
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

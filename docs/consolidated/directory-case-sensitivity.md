@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Case Sensitivity e Struttura Corretta delle Directory nei Moduli Laravel
@@ -156,3 +157,5 @@ Rispettare la struttura corretta delle directory è fondamentale per garantire l
 >>>>>>> dfe51d0 (.)
 =======
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

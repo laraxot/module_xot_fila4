@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Regola generale: Label e traduzioni in Filament
@@ -40,3 +41,5 @@ Ultimo aggiornamento: maggio 2025.
 =======
 Ultimo aggiornamento: maggio 2025.
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

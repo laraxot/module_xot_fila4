@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Risoluzione conflitto XotBaseRouteServiceProvider.php
@@ -27,3 +28,5 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 >>>>>>> dfe51d0 (.)
 =======
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Convenzioni di Naming nella Documentazione
@@ -97,3 +98,5 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 =======
 - [Best Practices Documentazione](documentation-guidelines.md) 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

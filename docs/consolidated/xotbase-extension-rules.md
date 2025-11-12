@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # XotBase Extension Rules - Comprehensive Guide
 =======
 <<<<<<< HEAD
@@ -605,3 +606,5 @@ jobs:
 *Priorità: CRITICA*  
 *Stato: OBBLIGATORIO per tutti i moduli*
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

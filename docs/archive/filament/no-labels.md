@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # DIVIETO ASSOLUTO DI USARE ->label(), ->placeholder() e ->helperText()
@@ -125,3 +126,5 @@ Se trovi codice che viola questa regola:
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

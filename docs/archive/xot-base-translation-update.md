@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Aggiornamento File di Traduzione xot_base.php
@@ -108,3 +109,5 @@ return [
 =======
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

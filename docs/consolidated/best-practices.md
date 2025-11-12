@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Best Practices per Laraxot
 =======
 <<<<<<< HEAD
@@ -870,3 +871,5 @@ public function createModel(array $data): MioModello
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

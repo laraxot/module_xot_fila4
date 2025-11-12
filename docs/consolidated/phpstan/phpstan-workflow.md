@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Workflow Analisi PHPStan
@@ -235,3 +236,5 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 =======
    - Mantenere coerenza tra le diverse documentazioni 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

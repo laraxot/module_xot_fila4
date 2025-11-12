@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Convenzioni per la documentazione in Laraxot PTVX
@@ -151,3 +152,5 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 
 *Ultimo aggiornamento: Giugno 2025*
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Azioni di Cast Sicure - Sostituzione di property_exists
@@ -267,3 +268,5 @@ Le azioni di cast sono completamente testate e supportano PHPStan livello 9+:
 >>>>>>> dfe51d0 (.)
 =======
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

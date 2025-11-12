@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 ## Convenzioni di naming per le azioni (Actions)
@@ -68,3 +69,5 @@ class AdminPanelProvider extends Modules\Xot\Providers\Filament\XotBasePanelProv
 =======
 > **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

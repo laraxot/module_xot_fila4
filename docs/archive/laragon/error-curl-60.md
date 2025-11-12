@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Download the latest cacert.pem file from
 https://curl.se/docs/caextract.html
 
@@ -102,3 +103,5 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 
 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura dei Moduli in il progetto
 =======
 <<<<<<< HEAD
@@ -957,3 +958,5 @@ Route::middleware('api')->prefix('api')->group(function () {
 ---
 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

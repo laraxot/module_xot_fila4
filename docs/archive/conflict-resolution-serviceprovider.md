@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Risoluzione Conflitto: XotBaseServiceProvider
@@ -51,3 +52,5 @@ Questa scelta garantisce:
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Analisi e Miglioramenti del Prompt docs.txt
@@ -107,3 +108,5 @@ Il prompt `docs.txt` è un componente critico per garantire la coerenza e la qua
 >>>>>>> dfe51d0 (.)
 =======
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

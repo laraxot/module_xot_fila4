@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Guida alla Validazione con PHPStan Livello 7
@@ -254,3 +255,5 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualitÃ
 * [phpstan-level7-guide.md](../phpstan-level7-guide.md)
 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

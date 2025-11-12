@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Regole Namespace PSR-4 per Tutti i Moduli (Regola Globale)
 
 ## Regola Fondamentale
@@ -104,3 +105,5 @@ Se incontri errori come `name is empty on [Modules\NomeModulo\Providers\RouteSer
 2. Che la proprietà `$name` sia definita e valorizzata
 3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

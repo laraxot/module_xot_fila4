@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Pattern e Soluzioni per PHPStan Livello 10 - Modulo Xot
@@ -320,3 +321,5 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 =======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

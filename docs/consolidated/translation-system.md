@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Sistema di Traduzione 
@@ -245,3 +246,5 @@ php artisan view:clear
 =======
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

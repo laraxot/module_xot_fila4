@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Regole di Documentazione
 
 ## Panoramica
@@ -249,3 +250,5 @@ Le linee guida complete per la documentazione sono disponibili in:
 - [Contributing](../../../Xot/docs/contributing.md)
 - [Security](../../../Xot/docs/security.md) 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

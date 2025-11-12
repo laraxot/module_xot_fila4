@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Guida al Riavvio del Sistema Dopo Validazione PHPStan
@@ -176,3 +177,5 @@ Un riavvio corretto del sistema dopo la validazione PHPStan è essenziale per ga
 >>>>>>> dfe51d0 (.)
 =======
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

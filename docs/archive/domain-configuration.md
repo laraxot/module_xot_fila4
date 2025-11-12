@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Gestione Domini e Configurazioni
@@ -202,3 +203,5 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 =======
 - [Struttura Temi](themes.md) 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

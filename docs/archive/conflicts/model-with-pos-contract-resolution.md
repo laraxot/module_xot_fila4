@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Risoluzione Conflitto in ModelWithPosContract
@@ -150,3 +151,5 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 =======
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

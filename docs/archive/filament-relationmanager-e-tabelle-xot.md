@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # Linee Guida per RelationManager e Tabelle Personalizzate Xot in Filament
@@ -183,3 +184,5 @@ class MioRelatedRelationManager extends XotBaseRelationManager
 >>>>>>> dfe51d0 (.)
 =======
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

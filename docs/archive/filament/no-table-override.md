@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ea1401 (.)
 # DIVIETO ASSOLUTO DI IMPLEMENTARE table()
@@ -150,3 +151,5 @@ Se trovi un `RelationManager` che implementa il metodo `table()`:
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -265,3 +266,5 @@ public function getTableActions(): array
 - [Best Practices PHP](../php-strict-types.md) 
 - [Best Practices PHP](../PHP-STRICT-TYPES.md) 
 >>>>>>> 5ea1401 (.)
+=======
+>>>>>>> 3da9b2a (.)

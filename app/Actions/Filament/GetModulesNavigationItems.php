@@ -6,25 +6,16 @@ namespace Modules\Xot\Actions\Filament;
 
 use Exception;
 use Filament\Facades\Filament;
-<<<<<<< HEAD
-=======
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Cache;
->>>>>>> 2850177 (.)
 use Filament\Navigation\NavigationItem;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
-<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use Throwable;
 use Webmozart\Assert\Assert;
 
-=======
->>>>>>> 2850177 (.)
 use function Safe\json_encode;
 
 /**
@@ -122,11 +113,7 @@ class GetModulesNavigationItems
             $role = $module_low.'::admin';
             // Creiamo l'elemento di navigazione
             $nav = NavigationItem::make($module)
-<<<<<<< HEAD
                 ->url('/'.$module_low.'/admin')
-=======
-                ->url('/' . $module_low . '/admin')
->>>>>>> 2850177 (.)
                 ->icon($icon)
                 ->group('Modules')
                 ->sort($navigation_sort)
@@ -135,20 +122,12 @@ class GetModulesNavigationItems
                      * @var \Illuminate\Contracts\Auth\Authenticatable|null $user
                      */
                     $user = Filament::auth()->user();
-<<<<<<< HEAD
                     if ($user === null) {
-=======
-                    if (null === $user) {
->>>>>>> 2850177 (.)
                         return false;
                     }
 
                     // Verifichiamo che il metodo hasRole esista
-<<<<<<< HEAD
                     if (! method_exists($user, 'hasRole')) {
-=======
-                    if (!method_exists($user, 'hasRole')) {
->>>>>>> 2850177 (.)
                         return false;
                     }
 

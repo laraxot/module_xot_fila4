@@ -138,6 +138,7 @@ class OptimizeFilamentMemoryCommand extends Command
                 $content = File::get($file->getPathname());
 
                 if (preg_match('/protected\s+\$with\s*=\s*\[([^\]]+)\]/', $content, $matches)) {
+<<<<<<< HEAD
                     $withContent = $matches[1];
                     // Controlla se ha relazioni pesanti
                     if (str_contains($withContent, 'roles') ||
@@ -145,6 +146,18 @@ class OptimizeFilamentMemoryCommand extends Command
                         str_contains($withContent, 'teams') ||
                         str_contains($withContent, 'media')) {
                         $models[] = $file->getPathname();
+=======
+                    // Verifica che l'indice 1 esista nell'array $matches prima di accedervi
+                    if (isset($matches[1])) {
+                        $withContent = $matches[1];
+                        // Controlla se ha relazioni pesanti
+                        if (str_contains($withContent, 'roles') ||
+                            str_contains($withContent, 'permissions') ||
+                            str_contains($withContent, 'teams') ||
+                            str_contains($withContent, 'media')) {
+                            $models[] = $file->getPathname();
+                        }
+>>>>>>> 2850177 (.)
                     }
                 }
             }

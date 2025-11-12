@@ -9,9 +9,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Datas;
 
 use Exception;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
+=======
+<<<<<<< HEAD
+>>>>>>> 3a08b27 (.)
 use Illuminate\Support\Str;
 use Modules\Xot\Enums\PdfEngineEnum;
 use Spatie\LaravelData\Data;
@@ -22,7 +26,24 @@ use Spatie\LaravelPdf\Facades\Pdf;
 use Spipu\Html2Pdf\Exception\HtmlParsingException;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
+=======
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
+use Modules\Xot\Enums\PdfEngineEnum;
+use Spatie\LaravelData\Data;
+use Spatie\LaravelPdf\Enums\Format;
+use Spatie\LaravelPdf\Enums\Orientation;
+use Spatie\LaravelPdf\Enums\Unit;
+use Spatie\LaravelPdf\Facades\Pdf;
+use Spipu\Html2Pdf\Html2Pdf;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Webmozart\Assert\Assert;
+>>>>>>> 2850177 (.)
+>>>>>>> 3a08b27 (.)
 
 /**
  * Undocumented class.

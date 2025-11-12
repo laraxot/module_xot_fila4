@@ -9,9 +9,13 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 ```php
 // ❌ VIOLAZIONE CRITICA
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Modules\<nome modulo>\Models\User;
+>>>>>>> 73eab74 (.)
 use Modules\SaluteOra\Models\User;
 
 /** @var User $user */
@@ -21,9 +25,13 @@ $user = User::factory()->create([...]);
 ### **Perché è un Errore Grave**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 =======
 >>>>>>> f1d4085 (.)
+=======
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+>>>>>>> 73eab74 (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
@@ -57,9 +65,13 @@ $user = $userClass::factory()->create($attributes);
     'users' => [
         'driver' => 'eloquent',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
 =======
 >>>>>>> f1d4085 (.)
+=======
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+>>>>>>> 73eab74 (.)
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
     ],
 ],
@@ -119,9 +131,13 @@ public function processUser(UserContract $user): void
 
 // ❌ MAI implementazione specifica
 <<<<<<< HEAD
+<<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 =======
 >>>>>>> f1d4085 (.)
+=======
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+>>>>>>> 73eab74 (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
 ```
 
@@ -255,11 +271,17 @@ class ChangeTypeCommand extends Command
 ```php
 // ❌ VIETATO
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Doctor;
+>>>>>>> 73eab74 (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
@@ -273,9 +295,13 @@ use Modules\Xot\Datas\XotData;
 ```php
 // ❌ VIETATO
 <<<<<<< HEAD
+<<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
 =======
 >>>>>>> f1d4085 (.)
+=======
+$user = \Modules\<nome modulo>\Models\User::find($id);
+>>>>>>> 73eab74 (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
 
 // ✅ CONSENTITO  
@@ -287,9 +313,13 @@ $user = $userClass::find($id);
 ```php
 // ❌ VIETATO
 <<<<<<< HEAD
+<<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 =======
 >>>>>>> f1d4085 (.)
+=======
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+>>>>>>> 73eab74 (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
 
 // ✅ CONSENTITO
@@ -367,21 +397,31 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 
 ### **Documentazione Moduli**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+<<<<<<< HEAD
 =======
 - [Cms Architecture](../../Cms/project_docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/project_docs/traits_complete_guide.md)
 - [Testing Strategy](../../SaluteOra/project_docs/testing/real-data-testing-strategy.md)
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 ---
 
 **Ultimo Aggiornamento**: Gennaio 2025  
 **Stato**: ✅ Pattern Documentato e Implementato  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Responsabile**: Team Architettura Laraxot 
 =======
 >>>>>>> f1d4085 (.)
+=======
+**Responsabile**: Team Architettura Laraxot 
+>>>>>>> 73eab74 (.)

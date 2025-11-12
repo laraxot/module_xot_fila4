@@ -54,7 +54,11 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     // Metodo getFormSchema() deve restituire array<\Filament\Schemas\Components\Component>
 =======
     /*
+<<<<<<< HEAD
      * @return array<\Filament\Schemas\Components\Component>
+=======
+     * @return array<\Filament\Forms\Components\Component>
+>>>>>>> 87ade28 (.)
      */
 >>>>>>> f1570712 (.)
     // abstract public static function getFormSchema(): array;

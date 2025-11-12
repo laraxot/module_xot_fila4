@@ -1,9 +1,6 @@
 Download the latest cacert.pem file from
-<<<<<<< HEAD
-https://curl.se/project_docs/caextract.html
-=======
 https://curl.se/docs/caextract.html
->>>>>>> 0218cd5 (.)
+
 
 Update your php.ini file:  
 Locate your php.ini file and find the line ;curl.cainfo =.  
@@ -24,7 +21,6 @@ openssl.cafile = "C:\xampp\php\extras\ssl\cacert.pem"
 
 [curl]
 curl.cainfo = "PATH/TO/cacert.pem"
- 
 
 [openssl]
 openssl.capath = "PATH/TO/cacert.pem"  
@@ -38,8 +34,6 @@ $http = new GuzzleHttp\Client(['verify' => '/path/to/cacert.pem']);
 $client = new Google_Client();
 $client->setHttpClient($http);
 
-
-
 --------------------
 composer config -g -- disable-tls true  
 composer config -g secure-http false   
@@ -47,7 +41,4 @@ composer clearcache
 
 composer config --global cafile PATH/TO/cacert.pem  
 composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed  
-
-
-
 

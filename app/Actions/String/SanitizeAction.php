@@ -4,35 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\String;
 
-use Illuminate\Support\Str;
-use Spatie\QueueableAction\QueueableAction;
 
-use function Safe\preg_replace;
 
 class SanitizeAction
 {
-    use QueueableAction;
 
     public function execute(string $str): string
     {
         $str = strip_tags($str);
         $str = html_entity_decode($str);
         $str = trim($str);
-<<<<<<< HEAD
-
-        $replaced = preg_replace('/\s+/', ' ', $str);
-        $str = is_string($replaced) ? $replaced : $str;
-
-        if (Str::startsWith($str, '-')) {
-            $afterStr = Str::after($str, '-');
-            // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
-            $str = $this->execute($afterStr);
-=======
-        $str = preg_replace('/\s+/', ' ', $str);
-        if (Str::startsWith($str, '-')) {
-            $str = Str::after($str, '-');
-            $str = $this->execute($str);
->>>>>>> 0218cd5 (.)
         }
 
         return $str;

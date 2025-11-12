@@ -147,7 +147,15 @@ class ArtisanService
         $pattern = '/url":"([^"]*)"/';
         preg_match_all($pattern, $content, $matches);
 
+<<<<<<< HEAD
         $urls = array_unique($matches[1]);
+=======
+        // Verifica che l'array $matches contenga l'indice 1 prima di accedervi
+        $urls = [];
+        if (isset($matches[1]) && is_array($matches[1])) {
+            $urls = array_unique($matches[1]);
+        }
+>>>>>>> 54cbe5d (.)
         $view_params = [
             'view' => $view,
             'lang' => app()->getLocale(),

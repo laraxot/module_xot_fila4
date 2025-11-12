@@ -18,7 +18,6 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono essere posizionati in `Modules/<NomeModulo>/app/` e **mai** direttamente nella root del modulo o in sottocartelle come `Filament/Resources/` o `Enums/` fuori da `app/`.
 
 ## Esempio corretto
-<<<<<<< HEAD
 - Modules/SaluteOra/app/Filament/Resources/UserResource.php
 - Modules/SaluteOra/app/Filament/Resources/UserResource/Pages/CreateUser.php
 - Modules/SaluteOra/app/Enums/UserType.php
@@ -27,16 +26,6 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 ## Esempio errato
 - Modules/SaluteOra/Filament/Resources/UserResource.php
 - Modules/SaluteOra/Enums/UserType.php
-=======
-- Modules/<nome progetto>/app/Filament/Resources/UserResource.php
-- Modules/<nome progetto>/app/Filament/Resources/UserResource/Pages/CreateUser.php
-- Modules/<nome progetto>/app/Enums/UserType.php
-- Modules/<nome progetto>/app/Enums/UserState.php
-
-## Esempio errato
-- Modules/<nome progetto>/Filament/Resources/UserResource.php
-- Modules/<nome progetto>/Enums/UserType.php
->>>>>>> a5dccfe (.)
 
 Questa regola garantisce coerenza, manutenibilità e rispetto delle convenzioni PSR-4 e delle best practice del progetto.
 
@@ -93,11 +82,7 @@ class User extends Model {
 
 ## Docs collegate
 - [.windsurf/rules/model-states.mdc](../../../.windsurf/rules/model-states.mdc)
-<<<<<<< HEAD
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
-=======
-- [<nome progetto>/docs/uso-label-filament.mdc](../../../docs/uso-label-filament.mdc)
->>>>>>> a5dccfe (.)
 - https://github.com/spatie/laravel-model-states
 
 ---
@@ -127,17 +112,10 @@ class User extends Model {
 - https://github.com/spatie/laravel-model-states
 
 
-<<<<<<< HEAD
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
 - https://github.com/spatie/laravel-model-states
 
 [← Torna a SaluteOra/docs](../../SaluteOra/docs/uso-label-filament.mdc)
-=======
-- [<nome progetto>/docs/uso-label-filament.mdc](../../../docs/uso-label-filament.mdc)
-- https://github.com/spatie/laravel-model-states
-
-[← Torna a <nome progetto>/docs](../../../docs/uso-label-filament.mdc)
->>>>>>> a5dccfe (.)
 
 # Regola sui Path dei File di Codice nei Moduli Laravel
 
@@ -158,17 +136,10 @@ Tutti i file di codice (Actions, Models, Controllers, ecc.) dei moduli Laravel D
 ### Esempio
 ```php
 // Corretto
-<<<<<<< HEAD
 Modules/SaluteOra/app/Actions/Patient/Calendar/FetchEventsAction.php
 
 // Errato
 Modules/SaluteOra/Actions/Patient/Calendar/FetchEventsAction.php
-=======
-Modules/<nome progetto>/app/Actions/Patient/Calendar/FetchEventsAction.php
-
-// Errato
-Modules/<nome progetto>/Actions/Patient/Calendar/FetchEventsAction.php
->>>>>>> a5dccfe (.)
 ```
 
 ## Collegamenti
@@ -195,11 +166,7 @@ final class FetchEventsAction
 ```
 
 
-<<<<<<< HEAD
 Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
-=======
-Vedi anche: [<nome progetto>/docs/queueable-actions-guide.md](../../../docs/queueable-actions-guide.md)
->>>>>>> a5dccfe (.)
 
 # Regola Namespace per Actions
 
@@ -210,18 +177,9 @@ Motivazione: PSR-4, autoload Composer, coerenza, manutenzione.
 Esempio:
 ```php
 // Corretto
-<<<<<<< HEAD
 namespace Modules\SaluteOra\Actions\Patient\Calendar;
 // Errato
 namespace Modules\SaluteOra\App\Actions\Patient\Calendar;
 ```
 
 Vedi anche: SaluteOra/docs/directory-structure.md
-=======
-namespace Modules\<nome modulo>\Actions\Patient\Calendar;
-// Errato
-namespace Modules\<nome modulo>\App\Actions\Patient\Calendar;
-```
-
-Vedi anche: <nome progetto>/docs/directory-structure.md
->>>>>>> a5dccfe (.)

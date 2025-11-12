@@ -55,8 +55,8 @@ use Sushi\Sushi;
  * @method static Builder<static>|Log whereId($value)
  * @method static Builder<static>|Log whereName($value)
  * @method static Builder<static>|Log whereSize($value)
- * @property-read \Modules\Fixcity\Models\Profile|null $creator
- * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  * @mixin \Eloquent
  */
 class Log extends BaseModel

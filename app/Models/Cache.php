@@ -50,8 +50,8 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $key
  * @property string $value
  * @property int $expiration
- * @property-read \Modules\Fixcity\Models\Profile|null $creator
- * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  * @method static \Modules\Xot\Database\Factories\CacheFactory factory($count = null, $state = [])
  * @method static Builder<static>|Cache newModelQuery()
  * @method static Builder<static>|Cache newQuery()

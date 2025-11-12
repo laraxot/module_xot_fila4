@@ -145,10 +145,10 @@ abstract class TestCase extends BaseTestCase
         if ($expectedType !== null) {
             /** @var UserContract|null $user */
             $user = auth()->user();
-            $this->assertNotNull($user);
+            self::assertNotNull($user);
 
             if ($user && method_exists($user, 'type')) {
-                $this->assertEquals($expectedType, $user->type ?? null);
+                self::assertSame($expectedType, $user->type ?? null);
             }
         }
     }

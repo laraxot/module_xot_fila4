@@ -38,3 +38,7 @@ declare(strict_types=1);
         </div>
 
 </x-filament-widgets::widget>
+</x-filament-widgets::widget>
+</x-filament-widgets::widget>
+</x-filament-widgets::widget>
+</x-filament-widgets::widget>

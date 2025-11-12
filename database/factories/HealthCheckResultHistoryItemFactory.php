@@ -40,7 +40,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 
     public function ok(): static
     {
-        return $this->state(fn (array $_attributes): array => [
+        return $this->state(static fn (array $_attributes): array => [
             'status' => 'ok',
             'notification_message' => null,
         ]);

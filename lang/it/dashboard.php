@@ -11,16 +11,17 @@ return [
         'icon' => 'heroicon-o-squares-2x2',
         'sort' => 10,
         'badge' => 'Pannello di controllo principale',
-        // Legacy support
         'name' => 'dashboard',
         'plural' => 'dashboard',
     ],
+
     // MODEL INFORMATION
     'model' => [
         'label' => 'Dashboard',
         'plural' => 'Dashboard',
         'description' => 'Pannello di controllo principale del sistema Xot',
     ],
+
     // FIELDS - STRUTTURA ESPANSA OBBLIGATORIA
     'fields' => [
         'name' => [
@@ -62,8 +63,10 @@ return [
             'label' => 'Seleziona Tutti',
             'tooltip' => 'Seleziona tutti gli elementi',
             'helper_text' => 'Seleziona tutti gli elementi disponibili nella lista',
+            'message' => '',
         ],
     ],
+
     // ACTIONS - STRUTTURA ESPANSA OBBLIGATORIA
     'actions' => [
         'import' => [
@@ -107,6 +110,7 @@ return [
             ],
         ],
     ],
+
     // SECTIONS - ORGANIZZAZIONE FORM
     'sections' => [
         'overview' => [
@@ -125,6 +129,7 @@ return [
             'icon' => 'heroicon-o-folder',
         ],
     ],
+
     // MESSAGES - FEEDBACK UTENTE
     'messages' => [
         'empty_state' => 'Nessun elemento trovato nella dashboard',
@@ -134,12 +139,14 @@ return [
         'error_general' => 'Si è verificato un errore nella dashboard',
         'success_operation' => 'Operazione dashboard completata con successo',
     ],
+
     // COMPONENTS - COMPONENTI DASHBOARD
     'components' => [
         'resources' => 'Risorse',
         'pages' => 'Pagine',
         'widgets' => 'Widgets',
     ],
+
     // LEGACY SUPPORT - Compatibilità con codice esistente
     'resources' => 'Risorse',
     'pages' => 'Pagine',

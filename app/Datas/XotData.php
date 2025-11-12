@@ -115,7 +115,14 @@ class XotData extends Data implements Wireable
     public function getUserClass(): string
     {
         $class = config('auth.providers.users.model');
+        if (empty($class)) {
+            $class = env('AUTH_MODEL', 'Modules\User\Models\User');
+        }
         Assert::stringNotEmpty($class, 'check config auth');
+        if (! class_exists($class)) {
+            // Fallback to default User model if configured class doesn't exist
+            $class = 'Modules\User\Models\User';
+        }
         Assert::classExists($class, '['.$class.'] check config auth');
         Assert::implementsInterface(
             $class,
@@ -124,6 +131,11 @@ class XotData extends Data implements Wireable
         );
         Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
 
+        /**
+         * @var class-string<Model&UserContract> $class
+         *
+         * @phpstan-var class-string<Model&UserContract>
+         */
         return $class;
     }
 
@@ -139,7 +151,7 @@ class XotData extends Data implements Wireable
         if (! $user) {
             throw new \Exception('user not found for email '.$email);
         }
-         
+        
         Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
 
         return $user;
@@ -330,7 +342,7 @@ class XotData extends Data implements Wireable
 
     public function save(): void
     {
-        // dddx('wip'); // Removed debug call
+        dddx('wip');
     }
 
     public function getPubThemeViewPath(string $key = ''): string

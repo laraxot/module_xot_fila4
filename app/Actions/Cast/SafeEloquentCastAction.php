@@ -217,7 +217,7 @@ class SafeEloquentCastAction
     public function getValidatedAttribute(
         Model $model,
         string $attribute,
-        string $type,
+        string $type = 'string',
         ?callable $validator = null,
         mixed $default = null,
     ): mixed {

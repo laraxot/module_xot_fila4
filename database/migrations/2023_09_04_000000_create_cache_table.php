@@ -21,5 +21,12 @@ return new class extends XotBaseMigration
             $table->mediumText('value');
             $table->integer('expiration');
         });
+        $this->tableCreate(
+            static function (Blueprint $table): void {
+                $table->string('key')->primary();
+                $table->mediumText('value');
+                $table->integer('expiration');
+            }
+        );
     }
 };

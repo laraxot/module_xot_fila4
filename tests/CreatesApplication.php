@@ -16,6 +16,10 @@ trait CreatesApplication
     {
         /** @var Application */
         $app = require __DIR__.'/../../../bootstrap/app.php';
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+        $app = require __DIR__.'/../../../bootstrap/app.php';
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
 
         assert($app instanceof Application);
         /* @phpstan-ignore-next-line method.nonObject */

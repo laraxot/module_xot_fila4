@@ -43,8 +43,6 @@ use Webmozart\Assert\Assert;
  */
 trait HasXotTable
 {
-    use TransTrait;
-
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
     protected static bool $canReplicate = false;
@@ -168,10 +166,26 @@ trait HasXotTable
      */
     public function getTableHeading(): ?string
     {
-        $key = static::getKeyTrans('table.heading');
-        $trans = trans($key);
+        // Check if the class has the getKeyTrans method
+        // @phpstan-ignore-next-line
+        if (method_exists(static::class, 'getKeyTrans')) {
+            // @phpstan-ignore-next-line
+            $key = static::getKeyTrans('table.heading');
+            
+            // Ensure key is a string
+            // @phpstan-ignore-next-line
+            if (!is_string($key)) {
+                return null;
+            }
+            
+            $trans = trans($key);
 
-        return is_string($trans) && $trans !== $key ? $trans : null;
+            // @phpstan-ignore-next-line
+            return is_string($trans) && $trans !== $key ? $trans : null;
+        }
+
+        // Fallback to default behavior
+        return null;
     }
 
     /**

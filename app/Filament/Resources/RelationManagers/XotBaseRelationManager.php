@@ -85,17 +85,35 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
             // throw new \Exception('Index page not found');
             return [];
         }
-        /** @phpstan-ignore method.nonObject */
+
+        if (! is_object($index) || ! method_exists($index, 'getPage')) {
+            return [];
+        }
+
         $index_page = $index->getPage();
+
+        if (! is_object($index_page) && ! is_string($index_page)) {
+            return [];
+        }
 
         if (! method_exists($index_page, 'getTableColumns')) {
             // throw new \Exception('method  getTableColumns on '.print_r($index_page,true).' not found');
             return [];
         }
-        /** @phpstan-ignore argument.type */
-        $res = app($index_page)->getTableColumns();
+
+        $instance = is_string($index_page) ? app($index_page) : $index_page;
+        if (! is_object($instance) || ! method_exists($instance, 'getTableColumns')) {
+            return [];
+        }
+
+        $res = $instance->getTableColumns();
+
+        if (! is_array($res)) {
+            return [];
+        }
 
         // Ensure string keys always
+        /** @var array<string, \Filament\Tables\Columns\Column|\Filament\Tables\Columns\Layout\Component> $assoc */
         $assoc = [];
         foreach ($res as $key => $column) {
             if (is_string($key)) {
@@ -104,10 +122,14 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 continue;
             }
 
-            $name = method_exists($column, 'getName') ? $column->getName() : (string) spl_object_hash($column);
-            $assoc[$name] = $column;
+            if (is_object($column)) {
+                $name = method_exists($column, 'getName') ? $column->getName() : (string) spl_object_hash($column);
+                $nameStr = is_string($name) ? $name : (string) $name;
+                $assoc[$nameStr] = $column;
+            }
         }
 
+        /** @var array<string, \Filament\Tables\Columns\Column|\Filament\Tables\Columns\Layout\Component> $assoc */
         return $assoc;
     }
 
@@ -116,16 +138,28 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     {
         $actions = [];
         $resource = static::class;
-        if (method_exists($resource, 'canEdit')) {
-            $actions['edit'] = EditAction::make()
-                ->iconButton()
-                ->visible(fn (?Model $record): bool => $resource::canEdit($record));
-        }
-        if (method_exists($resource, 'canDetach')) {
-            $actions['detach'] = DetachAction::make()
-                ->iconButton()
-                ->visible(fn (?Model $record): bool => $resource::canDetach($record));
-        }
+
+        $actions['edit'] = EditAction::make()
+            ->iconButton()
+            ->visible(function (?Model $record) use ($resource): bool {
+                if ($record === null) {
+                    return false;
+                }
+                $result = $resource::canEdit($record);
+
+                return is_bool($result) ? $result : (bool) $result;
+            });
+
+        $actions['detach'] = DetachAction::make()
+            ->iconButton()
+            ->visible(function (?Model $record) use ($resource): bool {
+                if ($record === null) {
+                    return false;
+                }
+                $result = $resource::canDetach($record);
+
+                return is_bool($result) ? $result : (bool) $result;
+            });
 
         return $actions;
     }
@@ -134,15 +168,31 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     {
         $actions = [];
         $resource = static::class;
+
         if (method_exists($resource, 'canDeleteBulk')) {
             $actions['delete_bulk'] = DeleteBulkAction::make()
                 ->iconButton()
-                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+                ->visible(function (?Model $record) use ($resource): bool {
+                    if ($record === null) {
+                        return false;
+                    }
+                    $result = $resource::canDeleteBulk($record);
+
+                    return is_bool($result) ? $result : (bool) $result;
+                });
         }
+
         if (method_exists($resource, 'canDetachBulk')) {
             $actions['detach_bulk'] = DetachBulkAction::make()
                 ->iconButton()
-                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+                ->visible(function (?Model $record) use ($resource): bool {
+                    if ($record === null) {
+                        return false;
+                    }
+                    $result = $resource::canDetachBulk($record);
+
+                    return is_bool($result) ? $result : (bool) $result;
+                });
         }
 
         return $actions;

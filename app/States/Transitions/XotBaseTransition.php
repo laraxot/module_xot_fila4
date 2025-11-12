@@ -63,7 +63,9 @@ abstract class XotBaseTransition extends Transition
     }
 
     /**
-     * @return array<int, mixed>
+     * Get notification attachments.
+     *
+     * @return array<int, array<string, string>>
      */
     public function getNotificationAttachments(): array
     {
@@ -84,6 +86,9 @@ abstract class XotBaseTransition extends Transition
         return $slug;
     }
 
+    /**
+     * @param  array<string, mixed>  $data
+     */
     public function sendRecipientNotification(RecordNotificationData $recipient, array $data): void
     {
         $slug = $this->getNotificationSlug($recipient->record);
@@ -91,8 +96,13 @@ abstract class XotBaseTransition extends Transition
         $notify = new RecordNotification($this->record, $slug);
 
         // $data = $this->getNotificationData();
-        $notify = $notify->mergeData($data);
-        $notify = $notify->addAttachments($this->getNotificationAttachments());
+        /** @var array<string, mixed> $mergeData */
+        $mergeData = $data;
+        $notify = $notify->mergeData($mergeData);
+
+        /** @var array<int, array<string, string>> $attachments */
+        $attachments = $this->getNotificationAttachments();
+        $notify = $notify->addAttachments($attachments);
 
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);

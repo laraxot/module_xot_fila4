@@ -6,8 +6,6 @@ namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\File;
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Xot\Database\Factories\FeedFactory;
 use Override;
 use Sushi\Sushi;
 
@@ -16,27 +14,21 @@ use Sushi\Sushi;
 /**
  * Modules\Xot\Models\Feed.
  *
- * @method static FeedFactory factory($count = null, $state = [])
- * @method static Builder|Feed newModelQuery()
- * @method static Builder|Feed newQuery()
- * @method static Builder|Feed query()
- * @method static Builder|Feed newModelQuery()
- * @method static Builder|Feed newQuery()
- * @method static Builder|Feed query()
- *
  * @property string|null $id
  * @property string|null $name
  * @property int|null $size
- * @property string|null $file_content
+ * @property-read \Modules\Quaeris\Models\Profile|null $creator
+ * @property-read string|null $file_content
+ * @property-read \Modules\Quaeris\Models\Profile|null $updater
  *
- * @method static Builder|Log whereId($value)
- * @method static Builder|Log whereName($value)
- * @method static Builder|Log whereSize($value)
+ * @method static \Modules\Xot\Database\Factories\LogFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Log newModelQuery()
+ * @method static Builder<static>|Log newQuery()
+ * @method static Builder<static>|Log query()
+ * @method static Builder<static>|Log whereId($value)
+ * @method static Builder<static>|Log whereName($value)
+ * @method static Builder<static>|Log whereSize($value)
  *
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
- *
- * @mixin IdeHelperLog
  * @mixin \Eloquent
  */
 class Log extends BaseModel

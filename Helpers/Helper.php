@@ -790,7 +790,8 @@ if (! function_exists('removeQueryParams')) {
         $query = request()->query(); // get the query parameters (what follows the "?")
         Assert::isArray($query);
         foreach ($params as $param) {
-            unset($query[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
+            $key = is_string($param) ? $param : (string) $param;
+            unset($query[$key]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
         }
 
         // 924    Parameter #1 $querydata of function http_build_query expects array|object, array|string given.
@@ -1177,11 +1178,11 @@ if (! function_exists('authId')) {
 function safe_object_call($object, string $method, ...$args)
 {
     if (! is_object($object)) {
-        return null;
+        return;
     }
 
     if (! method_exists($object, $method)) {
-        return null;
+        return;
     }
 
     return $object->$method(...$args);

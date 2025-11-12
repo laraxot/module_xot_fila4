@@ -17,20 +17,7 @@ use Sushi\Sushi;
  *
  * Provides metadata and statistics about database tables.
  *
- * @property string|null $TABLE_CATALOG
- * @property string|null $TABLE_SCHEMA
- * @property string|null $TABLE_NAME
- * @property string|null $TABLE_TYPE
- * @property string|null $ENGINE
- * @property int|null $VERSION
- * @property string|null $ROW_FORMAT
- * @property int|null $table_rows
- * @property int|null $AVG_ROW_LENGTH
- * @property int|null $DATA_LENGTH
- * @property int|null $MAX_DATA_LENGTH
- * @property int|null $INDEX_LENGTH
- * @property int|null $DATA_FREE
- * @property int|null $AUTO_INCREMENT
+ * @property int $id
  * @property Carbon|null $CREATE_TIME
  * @property Carbon|null $UPDATE_TIME
  * @property Carbon|null $CHECK_TIME
@@ -68,13 +55,20 @@ use Sushi\Sushi;
  *
  * @property string|null $table_schema
  * @property string|null $table_name
+ * @property int|null $table_rows
+ * @property string|null $model_class
  * @property string|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_at
  * @property string|null $created_by
  *
+ * @method static Builder<static>|InformationSchemaTable newModelQuery()
+ * @method static Builder<static>|InformationSchemaTable newQuery()
+ * @method static Builder<static>|InformationSchemaTable query()
  * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
+ * @method static Builder<static>|InformationSchemaTable whereId($value)
+ * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
  * @method static Builder<static>|InformationSchemaTable whereTableName($value)
  * @method static Builder<static>|InformationSchemaTable whereTableRows($value)
  * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)

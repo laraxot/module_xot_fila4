@@ -31,7 +31,7 @@ abstract class XotBaseComponent extends IlluminateComponent
     /**
      * Cache for resolved views.
      *
-     * @var array<string, view-string>
+     * @var array<string, string>
      */
     protected static array $viewCache = [];
 
@@ -46,7 +46,7 @@ abstract class XotBaseComponent extends IlluminateComponent
     }
 
     /**
-     * Summary of getView.
+     * Get the view name for this component.
      *
      * @return view-string
      */
@@ -55,6 +55,7 @@ abstract class XotBaseComponent extends IlluminateComponent
         $class = static::class;
 
         if (isset(self::$viewCache[$class])) {
+            /** @var view-string */
             return self::$viewCache[$class];
         }
 
@@ -71,6 +72,8 @@ abstract class XotBaseComponent extends IlluminateComponent
         if (! view()->exists($view)) {
             throw new InvalidArgumentException("View [{$view}] does not exist.");
         }
+
+        /** @var view-string $view */
         self::$viewCache[$class] = $view;
 
         return $view;

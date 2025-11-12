@@ -52,9 +52,10 @@ class ExportTreeXlsAction extends Action
                     $fields = $resource::getXlsFields($tableFilters);
                     // Convertiamo tutti i valori a stringhe
                     $fields = array_map(fn ($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
-                    Assert::isArray($fields);
+                    // PHPStan: $fields is array after array_map
                 }
 
+                /** @var array<int, string> $fields */
                 return app(ExportXlsByCollection::class)->execute($rows, $filename, $transKey, $fields);
             });
     }

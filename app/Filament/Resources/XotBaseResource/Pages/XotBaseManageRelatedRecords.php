@@ -29,7 +29,15 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 {
     use HasXotTable;
     use InteractsWithForms;
-    use NavigationLabelTrait;
+    use NavigationLabelTrait {
+        NavigationLabelTrait::trans insteadof HasXotTable;
+        NavigationLabelTrait::getKeyTrans insteadof HasXotTable;
+        NavigationLabelTrait::getKeyTransFunc insteadof HasXotTable;
+        NavigationLabelTrait::getKeyTransClass insteadof HasXotTable;
+        NavigationLabelTrait::transClass insteadof HasXotTable;
+        NavigationLabelTrait::transFunc insteadof HasXotTable;
+        NavigationLabelTrait::transChoice insteadof HasXotTable;
+    }
 
     // protected static string $resource;
 
@@ -41,14 +49,29 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return '';
     }
 
-    /*
-     * @return array<\Filament\Forms\Components\Component>
-     */
+    // PHPStan Level 10: Filament 4 usa Schemas\Components
+    // Metodo getFormSchema() deve restituire array<\Filament\Schemas\Components\Component>
     // abstract public static function getFormSchema(): array;
 
+    /**
+     * Configura lo schema del form per i record correlati.
+     */
     public function form(Schema $schema): Schema
     {
-        return $schema->components($this->getFormSchema());
+        // getFormSchema() sempre ritorna array per definizione
+        $formSchema = $this->getFormSchema();
+
+        return $schema->components($formSchema);
+    }
+
+    /**
+     * Restituisce lo schema del form per i record correlati.
+     *
+     * @return array<\Filament\Schemas\Components\Component>
+     */
+    public function getFormSchema(): array
+    {
+        return [];
     }
 
     /**
@@ -98,7 +121,11 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
             'edit' => Action::make('edit')
                 ->label('Modifica')
                 ->icon('heroicon-o-pencil')
-                ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+                ->url(function (Model $record): string {
+                    $url = static::getResource()::getUrl('edit', ['record' => $record]);
+
+                    return is_string($url) ? $url : (string) $url;
+                }),
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')

@@ -30,11 +30,20 @@ class StatesChartWidget extends XotBaseChartWidget
     {
         $label = static::transClass($this->model, 'widgets.states_chart.label');
         try {
-            $states = $this->model::selectRaw('state, COUNT(*) as count')
-                ->groupBy('state')
-                ->get()
-                ->keyBy('state');
+            /** @var class-string<\Illuminate\Database\Eloquent\Model> $modelClass */
+            $modelClass = $this->model;
 
+            $queryResult = $modelClass::selectRaw('state, COUNT(*) as count')
+                ->groupBy('state')
+                ->get();
+
+            if (! is_object($queryResult) || ! method_exists($queryResult, 'keyBy')) {
+                throw new \RuntimeException('Invalid query result');
+            }
+
+            $states = $queryResult->keyBy('state');
+
+            /** @var array<string, string> $colors */
             $colors = [
                 'active' => 'rgb(34, 197, 94)',
                 'pending' => 'rgb(234, 179, 8)',
@@ -48,18 +57,18 @@ class StatesChartWidget extends XotBaseChartWidget
                         'data' => $states->pluck('count')->toArray(),
                         'backgroundColor' => $states
                             ->keys()
-                            ->map(fn ($state) => $colors[$state] ?? 'rgb(156, 163, 175)')
+                            ->map(fn ($state) => $colors[(string) $state] ?? 'rgb(156, 163, 175)')
                             ->toArray(),
                         'borderColor' => $states
                             ->keys()
-                            ->map(fn ($state) => $colors[$state] ?? 'rgb(156, 163, 175)')
+                            ->map(fn ($state) => $colors[(string) $state] ?? 'rgb(156, 163, 175)')
                             ->toArray(),
                         'borderWidth' => 1,
                     ],
                 ],
                 'labels' => $states
                     ->keys()
-                    ->map(fn ($state) => static::transClass($this->model, 'states.'.$state.'.label'))
+                    ->map(fn ($state) => static::transClass($this->model, 'states.'.((string) $state).'.label'))
                     ->toArray(),
             ];
         } catch (Exception $e) {

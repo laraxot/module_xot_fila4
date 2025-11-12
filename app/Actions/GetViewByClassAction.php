@@ -8,7 +8,6 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
 use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
 
 /**
  * Classe per ottenere una vista basata su una classe.
@@ -53,8 +52,8 @@ class GetViewByClassAction
      */
     public function executeOld(string $class): string
     {
+        /** @var list<string> $arr PHPStan knows explode always returns array */
         $arr = explode('\\', $class);
-        Assert::isArray($arr);
 
         // Verifica che la classe sia nel namespace Modules
         if ($arr[0] !== 'Modules') {

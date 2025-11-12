@@ -9,7 +9,7 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Illuminate\Support\Facades\Hash;
 use Mockery;
-use Modules\SaluteOra\Models\User;
+use Modules\<nome progetto>\Models\User;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 
@@ -19,12 +19,9 @@ abstract class TestCase extends BaseTestCase
 
     // use DatabaseMigrations;
 
-    // =============================================================================
     // SHARED TEST HELPER FUNCTIONS (DRY Pattern)
-    // =============================================================================
     // Queste funzioni erano duplicate in molti file di test
     // Centralizzate qui per manutenibilità e coerenza
-    // =============================================================================
 
     /**
      * Generate a unique email for testing to prevent database conflicts.

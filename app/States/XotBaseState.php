@@ -192,7 +192,7 @@ abstract class XotBaseState extends State implements StateContract
 
         $states = Arr::map($states, fn ($_stateClass, $state) => static::transClass(
             static::class,
-            'states.'.$state.'.label',
+            'states.'.(is_string($state) ? $state : (string) $state).'.label',
         ));
 
         return $states;

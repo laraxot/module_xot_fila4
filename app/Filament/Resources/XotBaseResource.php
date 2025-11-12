@@ -94,8 +94,11 @@ abstract class XotBaseResource extends FilamentResource
 
     final public static function form(Schema $schema): Schema
     {
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $components */
+        $components = array_values(static::getFormSchema());
+
         return $schema
-            ->components(static::getFormSchema())
+            ->components($components)
             ->columns(static::getFormSchemaColumns());
     }
 
@@ -203,12 +206,19 @@ abstract class XotBaseResource extends FilamentResource
             ->append('RelationManagers')
             ->toString();
 
-        $files = glob($path.DIRECTORY_SEPARATOR.'*RelationManager.php');
-        Assert::isArray($files);
+        $filesResult = glob($path.DIRECTORY_SEPARATOR.'*RelationManager.php');
+
+        // PHPStan: glob() with valid pattern returns array
+        if ($filesResult === []) {
+            return [];
+        }
 
         /** @var array<class-string<RelationManager>> $res */
         $res = [];
-        foreach ($files as $file) {
+        foreach ($filesResult as $file) {
+            if (! is_string($file)) {
+                continue;
+            }
             $className = Str::of($file)
                 ->after('RelationManagers'.DIRECTORY_SEPARATOR)
                 ->before('.php')
@@ -248,9 +258,17 @@ abstract class XotBaseResource extends FilamentResource
             return [];
         }
         $attachments = $model::getAttachments();
-        $disk = 'attachments';
-        $form = app(GetAttachmentsSchemaAction::class)->execute($attachments, $disk);
+        if (! is_array($attachments)) {
+            return [];
+        }
 
+        /** @var array<int, string> $safeAttachments */
+        $safeAttachments = array_values(array_filter($attachments, 'is_string'));
+
+        $disk = 'attachments';
+        $form = app(GetAttachmentsSchemaAction::class)->execute($safeAttachments, $disk);
+
+        /** @var array<int, \Filament\Support\Components\Component> $form */
         return $form;
     }
 
@@ -264,7 +282,11 @@ abstract class XotBaseResource extends FilamentResource
             ->toString();
 
         if (method_exists(static::class, $methodName)) {
-            return Step::make($name)->schema(static::$methodName());
+            $schemaResult = static::$methodName();
+            /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+            $schemaComponents = is_array($schemaResult) ? array_values($schemaResult) : [];
+
+            return Step::make($name)->schema($schemaComponents);
         }
 
         return Step::make($name)->schema([]);

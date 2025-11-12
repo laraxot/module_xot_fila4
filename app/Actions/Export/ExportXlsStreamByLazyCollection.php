@@ -62,7 +62,7 @@ class ExportXlsStreamByLazyCollection
                     // Convertiamo tutti i valori in stringhe o null
                     $safeRowData = array_map(function ($item) {
                         if ($item === null) {
-                            return null;
+                            return;
                         }
 
                         return is_string($item) ? $item : ((string) $item);

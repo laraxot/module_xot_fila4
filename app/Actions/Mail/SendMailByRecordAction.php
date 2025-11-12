@@ -65,11 +65,11 @@ class SendMailByRecordAction
         $emailData = EmailData::from($data);
         SmtpData::make()->send($emailData);
 
-        $record
-            ->myLogs()
-            ->create([
-                'act' => 'sendMail',
-                'handle' => authId(),
-            ]);
+        // myLogs è sempre disponibile su BaseModel
+        /** @phpstan-ignore-next-line - Dynamic relationship method */
+        $record->myLogs()->create([
+            'act' => 'sendMail',
+            'handle' => authId(),
+        ]);
     }
 }

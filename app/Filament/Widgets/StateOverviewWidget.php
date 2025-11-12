@@ -96,6 +96,7 @@ class StateOverviewWidget extends XotBaseWidget
 
         Assert::isArray($res);
 
+        /** @var array<int, array<string, mixed>> $res */
         return $res;
     }
 
@@ -110,17 +111,24 @@ class StateOverviewWidget extends XotBaseWidget
 
         $modelInstance = app($this->model);
 
-        $stateMapping = $this->stateClass::getStateMapping()->toArray();
+        $stateMappingCollection = $this->stateClass::getStateMapping();
+        if (! is_object($stateMappingCollection) || ! method_exists($stateMappingCollection, 'toArray')) {
+            return [];
+        }
+
+        /** @var array<string, class-string> $stateMapping */
+        $stateMapping = $stateMappingCollection->toArray();
 
         foreach ($stateMapping as $name => $stateClass) {
+            $stateName = is_string($name) ? $name : (string) $name;
             $state = new $stateClass($modelInstance);
             Assert::isInstanceOf($state, StateContract::class);
             $states[] = [
-                'name' => $name,
+                'name' => $stateName,
                 'label' => $state->label(),
                 'icon' => $this->cleanIconName($state->icon()),
                 'color' => $state->bgColor(),
-                'count' => $this->getCountForState($name),
+                'count' => $this->getCountForState($stateName),
             ];
         }
 
@@ -134,7 +142,11 @@ class StateOverviewWidget extends XotBaseWidget
      */
     protected function getCountForState(string $stateName): int
     {
-        return $this->model::where('state', $stateName)->count();
+        /** @var \Illuminate\Database\Eloquent\Builder<\Illuminate\Database\Eloquent\Model> $query */
+        $query = $this->model::where('state', $stateName);
+        $count = $query->count();
+
+        return is_int($count) ? $count : (int) $count;
     }
 
     /**

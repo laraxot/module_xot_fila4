@@ -26,6 +26,9 @@ class SafeArrayByModelCastAction
         }
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function safeExecute(Model $model): array
     {
         $data = [];

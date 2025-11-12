@@ -100,11 +100,11 @@ class FilterBuilder
                 return $query
                     ->when(
                         $data['from'] ?? null,
-                        fn (Builder $query, string $date): Builder => $query->whereDate($column, '>=', $date),
+                        fn (Builder $query, mixed $date): Builder => $query->whereDate($column, '>=', is_string($date) ? $date : (string) $date),
                     )
                     ->when(
                         $data['until'] ?? null,
-                        fn (Builder $query, string $date): Builder => $query->whereDate($column, '<=', $date),
+                        fn (Builder $query, mixed $date): Builder => $query->whereDate($column, '<=', is_string($date) ? $date : (string) $date),
                     );
             })
             ->indicateUsing(function (array $data) use ($label): ?string {
@@ -116,15 +116,22 @@ class FilterBuilder
                 }
 
                 if ($from && $until) {
-                    return $label.': '.date('d/m/Y', strtotime($from)).' - '.date('d/m/Y', strtotime($until));
+                    $fromStr = is_string($from) ? $from : (string) $from;
+                    $untilStr = is_string($until) ? $until : (string) $until;
+
+                    return $label.': '.date('d/m/Y', strtotime($fromStr)).' - '.date('d/m/Y', strtotime($untilStr));
                 }
 
                 if ($from) {
-                    return $label.' from: '.date('d/m/Y', strtotime($from));
+                    $fromStr = is_string($from) ? $from : (string) $from;
+
+                    return $label.' from: '.date('d/m/Y', strtotime($fromStr));
                 }
 
                 if ($until) {
-                    return $label.' until: '.date('d/m/Y', strtotime($until));
+                    $untilStr = is_string($until) ? $until : (string) $until;
+
+                    return $label.' until: '.date('d/m/Y', strtotime($untilStr));
                 }
 
                 return null;
@@ -167,10 +174,11 @@ class FilterBuilder
         string $valueColumn = 'id',
         ?string $relationshipName = null
     ): SelectFilter {
+        /** @var array<int|string, string> $options */
+        $options = $modelClass::pluck($labelColumn, $valueColumn)->toArray();
+
         $filter = SelectFilter::make($name)
-            ->options(
-                $modelClass::pluck($labelColumn, $valueColumn)->toArray()
-            );
+            ->options($options);
 
         if ($relationshipName !== null) {
             $filter->relationship($relationshipName, $labelColumn);

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models\Traits;
 
-use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Str;
@@ -49,33 +48,47 @@ trait HasExtraTrait
     }
 
     /**
-     * @return array<string, mixed>|bool|int|string|null
+     * @return array<string, mixed>|bool|float|int|string|null
      */
-    public function getExtra(string $name): array|bool|int|string|null
+    public function getExtra(string $name): array|bool|float|int|string|null
     {
-        if ($this->extra === null) {
+        if ($this->extra === null || $this->extra->extra_attributes === null) {
             return null;
         }
         $value = $this->extra->extra_attributes->get($name);
-        if (
-            is_array($value) ||
-                is_int($value) ||
-                // || is_float($value)
-                is_null($value) ||
-                is_bool($value) ||
-                is_string($value)
-        ) {
-            /** @var array<string, mixed>|bool|int|string|null */
+
+        return $this->normalizeExtraValue($value);
+    }
+    
+    /**
+     * Normalize the extra value to a supported type.
+     *
+     * @param mixed $value
+     * @return array<string, mixed>|bool|float|int|string|null
+     */
+    private function normalizeExtraValue($value): array|bool|float|int|string|null
+    {
+        if (\is_array($value)) {
+            // PHPStan: Cast to ensure array<string, mixed> type
+            /** @var array<string, mixed> $value */
             return $value;
         }
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+
+        if ($value === null || \is_bool($value) || \is_string($value)) {
+            return $value;
+        }
+
+        if (\is_int($value) || \is_float($value)) {
+            return $value;
+        }
+
+        throw new \Exception('['.__LINE__.']['.__CLASS__.']');
     }
 
     /**
      * @param  int|float|string|array<string, mixed>|bool|null  $value
-     * @return void
      */
-    public function setExtra(string $name, $value)
+    public function setExtra(string $name, $value): void
     {
         $extra = $this->extra;
         if ($this->extra === null) {
@@ -88,7 +101,7 @@ trait HasExtraTrait
             );
         }
         Assert::notNull($extra);
-        // $extra is asserted to be non-null above
+        // PHPStan Level 10: extra_attributes is non-nullable after assertion
         $extra->extra_attributes->set($name, $value);
         $extra->save();
     }

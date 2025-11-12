@@ -43,7 +43,6 @@ class OptimizeFilamentMemoryCommand extends Command
     public function handle(): int
     {
         $this->info('🐄 SuperMucca Filament Memory Optimizer');
-        $this->info('=====================================');
         $this->newLine();
 
         $analyzeOnly = (bool) $this->option('analyze');

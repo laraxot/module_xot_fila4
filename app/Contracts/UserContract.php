@@ -20,7 +20,6 @@ use Illuminate\Support\Collection;
 use Laravel\Passport\Token;
 use Modules\User\Contracts\HasTeamsContract;
 use Modules\User\Models\Tenant;
-use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
 use Spatie\Permission\Contracts\Permission;
@@ -91,7 +90,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @return mixed|int|string
      */
-    #[Override]
+    #[\Override]
     public function getKey();
 
     /**
@@ -112,7 +111,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Revoke the given role from the model.
      *
-     * @param  string|int|Role|BackedEnum  $role
+     * @param  string|int|Role|\BackedEnum  $role
      * @return self
      */
     public function removeRole($role);
@@ -142,7 +141,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Determine if the role may perform the given permission.
      *
-     * @param  string|int|Permission|BackedEnum  $permission
+     * @param  string|int|Permission|\BackedEnum  $permission
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */

@@ -32,7 +32,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     use InteractsWithFormActions;
     use InteractsWithForms;
     use NavigationLabelTrait;
-    use TransTrait;
 
     /**
      * The model class associated with this page, if any.
@@ -118,23 +117,31 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * This method must be non-static to properly override the parent method.
      * Returns the model class string or throws an exception if not set.
      */
+    /**
+     * @return class-string<\Illuminate\Database\Eloquent\Model>
+     */
     public function getModel(): string
     {
         if (static::$model === null) {
             throw new LogicException('Model class not set for page: '.static::class);
         }
 
-        return static::$model;
+        /** @var class-string<\Illuminate\Database\Eloquent\Model> $model */
+        $model = static::$model;
+        
+        return $model;
     }
 
     /**
      * Get the resources associated with this page.
      *
-     * @return Collection<string>
+     * @return Collection<int, string>
      */
     public static function getResources(): Collection
     {
-        return collect();
+        /** @var Collection<int, string> $resources */
+        $resources = collect();
+        return $resources;
     }
 
     /*

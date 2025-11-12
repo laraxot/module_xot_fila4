@@ -79,7 +79,9 @@ class XotComposer
         if (Auth::check()) {
             $profile = XotData::make()->getProfileModel();
             $view->with('profile', $profile);
-            $view->with('user', auth()->user());
+            /** @var \Illuminate\Contracts\Auth\Authenticatable|null $user */
+            $user = auth()->user();
+            $view->with('user', $user);
         }
     }
 

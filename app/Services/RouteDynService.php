@@ -168,7 +168,6 @@ class RouteDynService
     {
         $param_name = self::getParamName($v, $namespace);
         $params_name = self::getParamsName($v, $namespace);
-        Assert::isArray($params_name);
 
         $opts = [
             'parameters' => [mb_strtolower((string) $v['name']) => implode('}/{', $params_name)],
@@ -270,7 +269,6 @@ class RouteDynService
         ?string $namespace_start = null,
         ?string $curr = null,
     ): void {
-        Assert::isArray($array, 'The $array parameter must be an array.');
         Assert::notEmpty($array, 'The $array parameter cannot be empty.');
 
         if ($namespace_start !== null) {

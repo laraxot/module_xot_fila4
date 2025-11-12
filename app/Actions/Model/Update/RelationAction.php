@@ -15,6 +15,8 @@ class RelationAction
 
     /**
      * Undocumented function.
+     *
+     * @param array<string, mixed> $data
      */
     public function execute(Model $model, array $data): void
     {

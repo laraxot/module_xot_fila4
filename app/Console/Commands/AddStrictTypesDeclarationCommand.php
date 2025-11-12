@@ -4,11 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
-use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
-use SplFileInfo;
 
 class AddStrictTypesDeclarationCommand extends Command
 {
@@ -18,6 +16,9 @@ class AddStrictTypesDeclarationCommand extends Command
 
     protected $description = 'Aggiunge la dichiarazione strict_types=1 ai file PHP che ne sono sprovvisti';
 
+    /**
+     * @var array<string>
+     */
     private array $excludedPaths = [
         'views',
         'config',
@@ -46,9 +47,14 @@ class AddStrictTypesDeclarationCommand extends Command
         $count = 0;
 
         foreach ($files as $file) {
+            \Webmozart\Assert\Assert::isInstanceOf($file, \SplFileInfo::class);
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
-                    $this->info("Verrebbe processato: {$file}");
+                    $fileName = $file->getRealPath();
+                    if ($fileName === false) {
+                        $fileName = $file->getPathname();
+                    }
+                    $this->info("Verrebbe processato: {$fileName}");
                     $count++;
 
                     continue;
@@ -66,7 +72,7 @@ class AddStrictTypesDeclarationCommand extends Command
                     $action->execute($path);
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;
-                } catch (Exception $e) {
+                } catch (\Exception $e) {
                     $this->error("Errore nel processare {$path}: ".$e->getMessage());
                 }
             }
@@ -78,12 +84,15 @@ class AddStrictTypesDeclarationCommand extends Command
         return 0;
     }
 
+    /**
+     * @return array<\SplFileInfo>
+     */
     private function findPhpFiles(string $path): array
     {
         return File::allFiles($path);
     }
 
-    private function shouldProcessFile(SplFileInfo $file): bool
+    private function shouldProcessFile(\SplFileInfo $file): bool
     {
         // Verifica l'estensione
         if (! str_ends_with($file->getFilename(), '.php')) {

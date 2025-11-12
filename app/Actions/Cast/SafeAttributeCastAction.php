@@ -37,7 +37,6 @@ class SafeAttributeCastAction
      */
     public function hasAttribute(Model $model, string $attribute): bool
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         return $model->getAttribute($attribute) !== null;
@@ -52,7 +51,6 @@ class SafeAttributeCastAction
      */
     public function hasNonEmptyAttribute(Model $model, string $attribute): bool
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -70,7 +68,6 @@ class SafeAttributeCastAction
      */
     public function getStringAttribute(Model $model, string $attribute, ?string $default = ''): string
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -92,7 +89,6 @@ class SafeAttributeCastAction
      */
     public function getIntAttribute(Model $model, string $attribute, ?int $default = 0): int
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -114,7 +110,6 @@ class SafeAttributeCastAction
      */
     public function getFloatAttribute(Model $model, string $attribute, ?float $default = 0.0): float
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -136,7 +131,6 @@ class SafeAttributeCastAction
      */
     public function getBooleanAttribute(Model $model, string $attribute, ?bool $default = false): bool
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -158,7 +152,6 @@ class SafeAttributeCastAction
      */
     public function getArrayAttribute(Model $model, string $attribute, ?array $default = []): array
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $value = $model->getAttribute($attribute);
@@ -181,7 +174,6 @@ class SafeAttributeCastAction
      */
     public function getTypedAttribute(Model $model, string $attribute, string $type, mixed $default = null): mixed
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);
 
@@ -205,7 +197,6 @@ class SafeAttributeCastAction
      */
     public function hasAttributeValue(Model $model, string $attribute, mixed $expectedValue): bool
     {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
 
         $actualValue = $model->getAttribute($attribute);
@@ -230,7 +221,6 @@ class SafeAttributeCastAction
         ?callable $validator = null,
         mixed $default = null,
     ): mixed {
-        Assert::isInstanceOf($model, Model::class);
         Assert::stringNotEmpty($attribute);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);
 

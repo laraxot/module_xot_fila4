@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-use Filament\Schemas\Components\Wizard\Step;
-use Filament\Schemas\Components\Component;
-use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
@@ -22,7 +22,6 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
-use Filament\Forms\Form;
 
 /**
  * Classe base astratta per tutti i widget Filament.
@@ -98,13 +97,13 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     /**
      * Configura il form del widget.
      *
-     * @param  Schema  $form  Il form da configurare
+     * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
-    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+    public function form(Schema $schema): Schema
     {
-        $form = $form->components($this->getFormSchema());
-        $form->statePath('data');
+        $schema = $schema->components($this->getFormSchema());
+        $schema->statePath('data');
         $data = $this->getFormFill();
 
         $model = $this->getFormModel();
@@ -112,12 +111,12 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             // Ensure model is compatible with Schema::model()
             if (is_string($model)) {
                 if (class_exists($model) && is_subclass_of($model, Model::class)) {
-                    /** @var class-string<Model> $model */
-                    $form->model($model);
+                    /* @var class-string<Model> $model */
+                    $schema->model($model);
                 }
             } else {
                 // $model is an instance of Model
-                $form->model($model);
+                $schema->model($model);
             }
         }
         if (! empty($data)) {
@@ -125,7 +124,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             // $this->data=$data;
         }
 
-        return $form;
+        return $schema;
     }
 
     public function getFormFill(): array
@@ -161,7 +160,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 return $res;
 
                 // dddx($model->with('studio')->relationsToArray());
-            } catch (Exception $e) {
+            } catch (\Exception $e) {
                 // Se toArray() fallisce (problemi con enum), usa getAttributes()
                 // Log::warning("Errore in toArray() per modello {$this->model}: " . $e->getMessage());
                 $attributes = $model->getAttributes();
@@ -226,7 +225,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     /**
      * Eseguito quando i filtri vengono aggiornati.
-     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario
+     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario.
      */
     // public function filtersUpdated(): void
     // {
@@ -263,7 +262,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $submit_view = 'pub_theme::filament.wizard.submit-button';
 
         if (! view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
+            throw new \Exception("View {$submit_view} does not exist");
         }
 
         return Action::make('submit')

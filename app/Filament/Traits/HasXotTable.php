@@ -324,23 +324,32 @@ trait HasXotTable
         }
 
         // Check if class has the getRelationship method
-        if ($this->shouldShowDetachAction()) {
-            // @phpstan-ignore-next-line
-            if (method_exists($this, 'getRelationship')) {
-                // @phpstan-ignore-next-line
-                if (method_exists($this->getRelationship(), 'getTable')) {
-                    // @phpstan-ignore-next-line
-                    $pivotClass = $this->getRelationship()->getPivotClass();
-                    if (method_exists($pivotClass, 'getKeyName')) {
-                        $actions['detach'] = DetachAction::make()
-                            ->iconButton()
-                            ->tooltip(__('user::actions.detach'));
-                    }
+        // Note: In some contexts (ListRecords), getRelationship() may not exist
+        // @phpstan-ignore-next-line function.alreadyNarrowedType (needed for contexts where method doesn't exist)
+        if ($this->shouldShowDetachAction() && method_exists($this, 'getRelationship')) {
+            $relationship = $this->getRelationship();
+
+            // Type guard: ensure relationship is an object with required methods
+            // @phpstan-ignore-next-line function.alreadyNarrowedType (in RelationManager, always object; in ListRecords, may not be)
+            if (! is_object($relationship)) {
+                // Skip if not object
+            } elseif (method_exists($relationship, 'getTable')
+                && method_exists($relationship, 'getPivotClass')
+            ) {
+                /** @var mixed $pivotClass */
+                $pivotClass = $relationship->getPivotClass();
+
+                // Type guard: ensure pivotClass is object/string with getKeyName method
+                if ((is_object($pivotClass) || is_string($pivotClass))
+                    && method_exists($pivotClass, 'getKeyName')
+                ) {
+                    $actions['detach'] = DetachAction::make()
+                        ->iconButton()
+                        ->tooltip(__('user::actions.detach'));
                 }
             }
         }
 
-        // @phpstan-ignore-next-line
         return $actions;
     }
 

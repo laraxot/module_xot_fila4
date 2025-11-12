@@ -33,6 +33,20 @@ use Filament\Tables\Columns\TextColumn;
 class ColumnBuilder
 {
     /**
+     * Helper to safely cast translation to string.
+     *
+     * @param  array<string,mixed>|string|null  $translation
+     */
+    private static function trans(array|string|null $translation): string
+    {
+        if (is_array($translation)) {
+            return (string) ($translation[0] ?? '');
+        }
+
+        return (string) ($translation ?? '');
+    }
+
+    /**
      * Standard ID column (sortable, searchable).
      *
      * Found in 77 resources (25% identical pattern).
@@ -70,7 +84,7 @@ class ColumnBuilder
             ->sortable()
             ->searchable()
             ->limit(50)
-            ->tooltip(fn ($record) => $record->title)
+            ->tooltip(static fn ($record) => \is_object($record) && isset($record->title) ? (string) $record->title : '')
             ->toggleable();
     }
 
@@ -109,7 +123,7 @@ class ColumnBuilder
         return TextColumn::make('description')
             ->label(__('xot::fields.description.label'))
             ->limit($limit)
-            ->tooltip(fn ($record) => $record->description)
+            ->tooltip(static fn ($record) => \is_object($record) && isset($record->description) ? (string) $record->description : '')
             ->toggleable();
     }
 
@@ -121,7 +135,7 @@ class ColumnBuilder
         return TextColumn::make('status')
             ->label(__('xot::fields.status.label'))
             ->badge()
-            ->color(fn (string $state): string => match ($state) {
+            ->color(static fn (string $state): string => match ($state) {
                 'published' => 'success',
                 'draft' => 'warning',
                 'archived' => 'danger',
@@ -184,7 +198,19 @@ class ColumnBuilder
             ->dateTime()
             ->sortable()
             ->badge()
-            ->color(fn ($state) => $state?->isPast() ? 'success' : 'warning')
+            ->color(static function ($record) {
+                if (! \is_object($record) || ! isset($record->published_at)) {
+                    return 'warning';
+                }
+
+                $publishedAt = $record->published_at;
+
+                if ($publishedAt instanceof \Carbon\Carbon && $publishedAt->isPast()) {
+                    return 'success';
+                }
+
+                return 'warning';
+            })
             ->toggleable();
     }
 

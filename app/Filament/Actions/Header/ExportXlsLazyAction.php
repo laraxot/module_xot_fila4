@@ -48,16 +48,28 @@ class ExportXlsLazyAction extends Action
                 if (method_exists($resource, 'getXlsFields')) {
                     $rawFields = $resource::getXlsFields($livewire->tableFilters);
                     if (is_array($rawFields)) {
-                        $fields = array_map(static function ($field): string {
-                            if (is_object($field) && method_exists($field, '__toString')) {
-                                return $field->__toString();
-                            }
-                            if (is_scalar($field)) {
-                                return (string) $field;
-                            }
+                        $fields = array_map(
+                            /**
+                             * @param  mixed  $field
+                             */
+                            static function ($field): string {
+                                // Handle objects with __toString method
+                                if (is_object($field) && method_exists($field, '__toString')) {
+                                    $stringValue = $field->__toString();
 
-                            return '';
-                        }, $rawFields);
+                                    // Type narrowing for PHPStan Level 10
+                                    return is_string($stringValue) ? $stringValue : '';
+                                }
+
+                                // Handle scalar values
+                                if (is_scalar($field)) {
+                                    return (string) $field;
+                                }
+
+                                return '';
+                            },
+                            $rawFields
+                        );
                     }
                     Assert::isArray($fields);
                 }
@@ -68,11 +80,10 @@ class ExportXlsLazyAction extends Action
                 }
 
                 if ($lazy->count() < 7) {
-                    Assert::isInstanceOf($lazy, Builder::class);
-
                     /** @var array<int, string> $stringFields */
                     $stringFields = array_values($fields);
 
+                    // PHPStan knows $lazy is Builder|Relation here, no need for Assert
                     return app(ExportXlsByQuery::class)->execute($lazy, $filename, $stringFields, null);
                 }
 

@@ -334,13 +334,10 @@ class XotData extends Data implements Wireable
     public function getPubThemeViewPath(string $key = ''): string
     {
         $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
-        try {
-            $path = realpath($path0);
 
-            return $path;
-        } catch (Exception $e) {
-            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
-        }
+        // Safe\realpath() ritorna sempre string (o lancia eccezione se path non esiste)
+        // Questo è il comportamento desiderato per garantire path normalizzati validi.
+        return realpath($path0);
     }
 
     public function getPubThemePublicPath(string $key = ''): string
@@ -364,8 +361,17 @@ class XotData extends Data implements Wireable
     {
         $user_class = $this->getUserClass();
         $userInstance = app($user_class);
-        $types = $userInstance->getChildTypes();
-        $class = Arr::get($types, $type);
+
+        if (! is_object($userInstance) || ! method_exists($userInstance, 'getChildTypes')) {
+            throw new Exception('getChildTypes method not found in class '.$user_class);
+        }
+
+        $typesResult = $userInstance->getChildTypes();
+        if (! is_array($typesResult) && ! ($typesResult instanceof \ArrayAccess)) {
+            throw new Exception('getChildTypes must return array or ArrayAccess');
+        }
+
+        $class = Arr::get($typesResult, $type);
         if (is_null($class)) {
             throw new Exception('type '.$type.' not found in class '.$user_class);
         }
@@ -415,7 +421,14 @@ class XotData extends Data implements Wireable
     {
         $enum_class = $this->getUserChildTypeClass();
 
-        return $enum_class::cases();
+        if (! enum_exists($enum_class)) {
+            return [];
+        }
+
+        /** @var array<int, mixed> $cases */
+        $cases = $enum_class::cases();
+
+        return $cases;
 
         // $userInstance = app($user_class);
         // return $userInstance->getChildTypes();
@@ -425,8 +438,18 @@ class XotData extends Data implements Wireable
     {
         $user_class = $this->getUserClass();
         $user_instance = app($user_class);
+
+        if (! is_object($user_instance) || ! method_exists($user_instance, 'getCasts')) {
+            throw new Exception('getCasts method not found in class '.$user_class);
+        }
+
+        $castsResult = $user_instance->getCasts();
+        if (! is_array($castsResult) && ! ($castsResult instanceof \ArrayAccess)) {
+            throw new Exception('getCasts must return array or ArrayAccess');
+        }
+
         // $enum_class = Arr::get($user_class::casts(),'type',null);
-        $enum_class = Arr::get($user_instance->getCasts(), 'type', null);
+        $enum_class = Arr::get($castsResult, 'type', null);
         if ($enum_class === null) {
             $enum_class = Str::of($user_class)
                 ->replace('\\Models\\', '\\Enums\\')

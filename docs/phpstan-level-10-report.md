@@ -218,3 +218,4 @@ vendor/bin/phpstan analyse --level=8 --error-format=github
 - [Generics in PHP](https://phpstan.org/blog/generics-in-php-using-phpdocs)
 
 
+

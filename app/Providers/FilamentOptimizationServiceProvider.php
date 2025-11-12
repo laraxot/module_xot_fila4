@@ -63,15 +63,20 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     {
         // Ottimizza le query di default
         DB::listen(function ($query) {
+            // PHPStan: $query è \Illuminate\Database\Events\QueryExecuted
+            if (! is_object($query) || ! property_exists($query, 'time')) {
+                return;
+            }
+
             // Log query che superano la soglia di tempo
             $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
 
             if ($query->time > $threshold) {
                 Log::warning('Slow query detected', [
-                    'sql' => $query->sql,
-                    'bindings' => $query->bindings,
+                    'sql' => property_exists($query, 'sql') ? $query->sql : '',
+                    'bindings' => property_exists($query, 'bindings') ? $query->bindings : [],
                     'time' => $query->time,
-                    'connection' => $query->connectionName,
+                    'connection' => property_exists($query, 'connectionName') ? $query->connectionName : '',
                 ]);
             }
         });
@@ -189,9 +194,22 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 $modules = app('modules')->all();
 
                 foreach ($modules as $module) {
-                    $configPath = $module->getPath().'/Config/config.php';
+                    // PHPStan: $module è \Nwidart\Modules\Module
+                    if (! is_object($module) || ! method_exists($module, 'getPath') || ! method_exists($module, 'getName')) {
+                        continue;
+                    }
+
+                    $modulePath = $module->getPath();
+                    if (! is_string($modulePath)) {
+                        continue;
+                    }
+
+                    $configPath = $modulePath.'/Config/config.php';
                     if (file_exists($configPath)) {
-                        $configs[$module->getName()] = require $configPath;
+                        $moduleName = $module->getName();
+                        if (is_string($moduleName)) {
+                            $configs[$moduleName] = require $configPath;
+                        }
                     }
                 }
 
@@ -230,7 +248,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 
             return str_contains($path, '/admin') ||
                    str_ends_with($path, '/admin') ||
-                   preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
+                   preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
         }
 
         return false;

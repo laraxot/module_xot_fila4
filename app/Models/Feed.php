@@ -5,24 +5,28 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Xot\Database\Factories\FeedFactory;
 
 /**
  * Modules\Xot\Models\Feed.
  *
- * @method static FeedFactory factory($count = null, $state = [])
- * @method static Builder|Feed newModelQuery()
- * @method static Builder|Feed newQuery()
- * @method static Builder|Feed query()
- * @method static Builder|Feed newModelQuery()
- * @method static Builder|Feed newQuery()
- * @method static Builder|Feed query()
+ * @property string $id
+ * @property string|null $created_by
+ * @property string|null $updated_by
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \Modules\Quaeris\Models\Profile|null $creator
+ * @property-read \Modules\Quaeris\Models\Profile|null $updater
  *
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
+ * @method static \Modules\Xot\Database\Factories\FeedFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Feed newModelQuery()
+ * @method static Builder<static>|Feed newQuery()
+ * @method static Builder<static>|Feed query()
+ * @method static Builder<static>|Feed whereCreatedAt($value)
+ * @method static Builder<static>|Feed whereCreatedBy($value)
+ * @method static Builder<static>|Feed whereId($value)
+ * @method static Builder<static>|Feed whereUpdatedAt($value)
+ * @method static Builder<static>|Feed whereUpdatedBy($value)
  *
- * @mixin IdeHelperFeed
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

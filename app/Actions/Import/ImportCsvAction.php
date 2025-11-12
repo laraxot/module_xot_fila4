@@ -152,9 +152,7 @@ class ImportCsvAction
     private function transformColumnsToColumnData(array $columns): array
     {
         return array_map(
-            function ($column): ColumnData {
-                Assert::string($column, 'Column must be a string');
-
+            function (string $column): ColumnData {
                 return new ColumnData(
                     name: $column,
                     type: 'string', // Default type, modify if necessary

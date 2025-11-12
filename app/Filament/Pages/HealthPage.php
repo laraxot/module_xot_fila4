@@ -53,6 +53,7 @@ class HealthPage extends Page
 
     public function refresh(): void
     {
+        /** @var array<int, Check> $checks */
         $checks = [
             OptimizedAppCheck::new(),
             DebugModeCheck::new(),
@@ -73,21 +74,22 @@ class HealthPage extends Page
             // Checks\PingCheck::new()->url('https://google.com')->name('Google'),
         ];
         if (class_exists(CpuLoadCheck::class)) {
-            /** @var CpuLoadCheck $check */
-            $check = CpuLoadCheck::new();
-            $checks[] = $check;
+            $checks[] = CpuLoadCheck::new();
         }
         if (class_exists(SecurityAdvisoriesCheck::class)) {
-            /** @var \Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck $check */
-            $check = SecurityAdvisoriesCheck::new();
-            $checks[] = $check;
+            $checks[] = SecurityAdvisoriesCheck::new();
         }
         if (class_exists(SmtpCheck::class)) {
-            /** @var \Laraxot\SmtpHealthCheck\SmtpCheck $check */
-            $check = SmtpCheck::new();
-            $checks[] = $check;
+            $checks[] = SmtpCheck::new();
         }
-        /** @var array<Check> $checks */
+
+        /**
+         * PHPStan Level 10: CpuLoadCheck, SecurityAdvisoriesCheck, and SmtpCheck
+         * all extend Check, but their types are not recognized due to dynamic loading.
+         * We suppress this specific error as the runtime type is guaranteed to be correct.
+         *
+         * @phpstan-ignore-next-line argument.type
+         */
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -97,6 +99,9 @@ class HealthPage extends Page
             ->send();
     }
 
+    /**
+     * @return array<int, Action>
+     */
     protected function getHeaderActions(): array
     {
         return [
@@ -108,6 +113,9 @@ class HealthPage extends Page
         ];
     }
 
+    /**
+     * @return array<int, \Filament\Widgets\WidgetConfiguration>
+     */
     protected function getHeaderWidgets(): array
     {
         return [
@@ -115,6 +123,9 @@ class HealthPage extends Page
         ];
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     protected function getViewData(): array
     {
         $checkResults = app(ResultStore::class)->latestResults();

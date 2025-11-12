@@ -20,7 +20,6 @@ use LogicException;
 use Modules\Xot\Actions\View\GetViewByClassAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use RuntimeException;
-use Webmozart\Assert\Assert;
 
 /**
  * Classe base astratta per tutte le pagine Filament non legate a risorse specifiche.
@@ -75,7 +74,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Ottiene il nome del modulo dalla classe.
      * Estrae il nome del modulo dal namespace della classe.
      *
-     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
+     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
      */
     public static function getModuleName(): string
     {
@@ -99,7 +98,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * @param  bool  $useFallback  Se true, utilizza la chiave come fallback se la traduzione non esiste
      * @return string La stringa tradotta o la chiave originale se non trovata
      */
-    public static function trans(
+    public static function getTranslatedString(
         string $key,
         array $replace = [],
         ?string $locale = null,
@@ -120,6 +119,25 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         }
 
         return (string) $translation;
+    }
+    
+    /**
+     * Ottiene la chiave di traduzione per un dato key (alias per getTranslatedString).
+     * Genera un percorso di traduzione standardizzato basato sul modulo e sul nome della classe.
+     *
+     * @param  string  $key  La chiave di traduzione specifica
+     * @param  array<string, bool|float|int|string>  $replace  Parametri di sostituzione per la traduzione
+     * @param  string|null  $locale  Locale da utilizzare (null = locale corrente)
+     * @param  bool  $useFallback  Se true, utilizza la chiave come fallback se la traduzione non esiste
+     * @return string La stringa tradotta o la chiave originale se non trovata
+     */
+    public static function trans(
+        string $key,
+        array $replace = [],
+        ?string $locale = null,
+        bool $useFallback = true,
+    ): string {
+        return static::getTranslatedString($key, $replace, $locale, $useFallback);
     }
 
     /**
@@ -181,10 +199,12 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         if (! class_exists($modelNamespace)) {
             throw new LogicException("Model class {$modelNamespace} does not exist");
         }
-        Assert::classExists($modelNamespace);
-        Assert::isInstanceOf($modelNamespace, Model::class);
 
-        /* @var class-string<Model> $modelNamespace */
+        if (! is_subclass_of($modelNamespace, Model::class)) {
+            throw new LogicException("Model class {$modelNamespace} must extend Model");
+        }
+
+        /** @var class-string<Model> $modelNamespace */
         return $modelNamespace;
     }
 

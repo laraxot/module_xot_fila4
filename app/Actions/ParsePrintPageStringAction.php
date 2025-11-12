@@ -31,9 +31,7 @@ class ParsePrintPageStringAction
         $matches = [];
         preg_match_all($pattern, $str, $matches);
 
-        Assert::isArray($matches);
         Assert::notEmpty($matches[0], 'No valid page numbers found');
-        Assert::isArray($matches[0]);
         $matchCount = count($matches[0]);
         $res = [];
 

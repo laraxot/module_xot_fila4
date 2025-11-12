@@ -22,8 +22,8 @@ class GetTransKeyAction
         $class0 = $class;
         // If no class is provided, try to get it from the backtrace
         if ($class === '') {
+            /** @var list<array{function: string, line?: int, file?: string, class?: class-string, type?: '->'|'::', args?: list<mixed>, object?: object}> $backtrace PHPStan knows this is always array */
             $backtrace = debug_backtrace();
-            Assert::isArray($backtrace);
             $class = Arr::get($backtrace, '1.class');
             Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
         }

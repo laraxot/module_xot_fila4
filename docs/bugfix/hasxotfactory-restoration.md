@@ -399,3 +399,4 @@ Aggiungere al pipeline CI:
 **Data Chiusura**: 22 Ottobre 2025
 
 
+

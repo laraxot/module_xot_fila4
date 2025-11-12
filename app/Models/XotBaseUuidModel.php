@@ -13,14 +13,8 @@ use Illuminate\Database\Eloquent\Model;
  */
 abstract class XotBaseUuidModel extends Model
 {
-    /** @var bool */
+        /** @var bool */
     public $incrementing = false;
-
-    /** @var string */
-    protected $keyType = 'string';
-
-    /** @var string */
-    protected $primaryKey = 'id';
 
     /** @var bool */
     public $timestamps = true;

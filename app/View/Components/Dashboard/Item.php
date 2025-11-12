@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\View\Components\Dashboard;
 
-use Illuminate\Contracts\Support\Renderable;
+use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
 // use Modules\Xot\View\Components\XotBaseComponent;
@@ -14,12 +14,11 @@ use Illuminate\View\Component;
  */
 class Item extends Component
 {
-    public function render(): Renderable
+    public function render(): View
     {
-        /**
-         * @phpstan-var view-string
-         */
+        /** @var view-string $view */
         $view = 'xot::components.dashboard.item';
+        /** @var array<string, string> $view_params */
         $view_params = [
             'view' => $view,
         ];

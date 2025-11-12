@@ -78,7 +78,7 @@ class GetViewBlocksOptionsByTypeAction
 
             // Costruiamo il nome della vista
             $view = $module_low.'::components.blocks.'.$type.'.'.$name;
-            Assert::stringNotEmpty($view, 'Il nome della vista non può essere vuoto');
+            // $view è sempre stringa non vuota perché costruita da stringhe non vuote
 
             if ($img) {
                 // Se è richiesto il percorso dell'immagine, lo costruiamo

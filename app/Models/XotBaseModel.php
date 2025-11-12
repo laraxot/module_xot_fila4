@@ -4,10 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Traits\Updater;
 // use Laravel\Scout\Searchable;
 // ---- Traits ----
-use Modules\Xot\Traits\Updater;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Models\Traits\HasXotFactory;
 
 /**
  * Class XotBaseModel.
@@ -16,6 +17,7 @@ abstract class XotBaseModel extends Model
 {
     // use Searchable;
     use Updater;
+    use HasXotFactory;
 
     /**
      * Indicates whether attributes are snake cased on arrays.

@@ -8,6 +8,9 @@ use Modules\Xot\Tests\TestCase;
 
 use function Safe\file_put_contents;
 use function Safe\json_encode;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Tests\TestCase;
 
 uses(TestCase::class);
 
@@ -23,6 +26,7 @@ beforeEach(function (): void {
     $schemaDir = dirname($this->testSchemaPath);
     if (! File::exists($schemaDir)) {
         File::makeDirectory($schemaDir, 0o755, true);
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
     }
 
     // Create a test schema file
@@ -89,6 +93,7 @@ test('it generates database documentation', function (): void {
     expect($exitCode)->toBe(0);
 
     // Check if output files were created
+    expect(File::exists($this->testOutputDir.'/database-documentation.md'))
     expect(File::exists($this->testOutputDir.'/database-documentation.md'))
         ->toBeTrue()
         ->and(File::exists($this->testOutputDir.'/tables/users.md'))

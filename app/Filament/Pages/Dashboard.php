@@ -11,31 +11,8 @@ namespace Modules\Xot\Filament\Pages;
 use Filament\Widgets\Widget;
 use Filament\Widgets\WidgetConfiguration;
 
-<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-class Dashboard extends XotBaseDashboard
-{
-=======
-=======
->>>>>>> origin/develop
-
-class Dashboard extends XotBaseDashboard
-{
-    
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-class Dashboard extends XotBaseDashboard
-{
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -43,20 +20,4 @@ class Dashboard extends XotBaseDashboard
     {
         return [];
     }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-    
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
-    
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 }

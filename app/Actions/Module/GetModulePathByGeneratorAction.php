@@ -7,7 +7,6 @@ namespace Modules\Xot\Actions\Module;
 use Error;
 use Exception;
 use Illuminate\Support\Facades\Config;
-use Webmozart\Assert\Assert;
 
 class GetModulePathByGeneratorAction
 {
@@ -28,7 +27,6 @@ class GetModulePathByGeneratorAction
             $e->getMessage().
                 ']');
         }
-        Assert::string($res, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
         return $res;
     }

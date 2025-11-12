@@ -7,7 +7,6 @@ namespace Modules\Xot\Actions\Debug;
 use Closure;
 use Filament\Notifications\Notification;
 use Illuminate\Support\Facades\Log;
-use Webmozart\Assert\Assert;
 
 /**
  * Classe per misurare le performance di esecuzione di un blocco di codice.
@@ -25,8 +24,6 @@ class MeasureAction
      */
     public function execute(Closure $closure, string $label = ''): mixed
     {
-        Assert::isCallable($closure, 'Il parametro $closure deve essere una funzione chiamabile');
-
         $start = microtime(true);
         $memory_start = memory_get_usage();
 

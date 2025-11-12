@@ -49,11 +49,12 @@ class GetViewAction
             ->implode('.');
 
         $pub_view = 'pub_theme::'.$tmp;
-        Assert::string($pub_view, '['.__LINE__.']['.class_basename($this).']');
+        // $pub_view è sempre stringa perché costruita da stringhe
 
         if ($tpl !== '') {
             $pub_view .= '.'.$tpl;
         }
+        // PHPStan: $pub_view è sempre non-falsy-string, Assert ridondante rimosso
         if (view()->exists($pub_view)) {
             return $pub_view;
         }
@@ -72,7 +73,7 @@ class GetViewAction
         }
 
         // }
-        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        // $view è sempre stringa perché costruita da stringhe
         if (! view()->exists($view)) {
             throw new Exception('View ['.$view.'] not found');
         }

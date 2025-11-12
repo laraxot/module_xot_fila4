@@ -15,6 +15,10 @@ class StoreAction
 {
     use QueueableAction;
 
+    /**
+     * @param  array<string, mixed>  $data
+     * @param  array<string, mixed>  $rules
+     */
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {

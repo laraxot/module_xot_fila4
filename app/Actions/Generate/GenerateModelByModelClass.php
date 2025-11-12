@@ -41,8 +41,8 @@ class GenerateModelByModelClass
 
             // $content=$this->replace($content,$k,$v);
         }
-        $content = str_replace(' extends Model', ' extends BaseModel', $content);
-        $content = str_replace('use HasFactory;', '', $content);
+        $content = is_string($content) ? str_replace(' extends Model', ' extends BaseModel', $content) : $content;
+        $content = is_string($content) ? str_replace('use HasFactory;', '', $content) : $content;
         Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
 
         if ($content !== $content_old) {

@@ -37,7 +37,6 @@ class SafeObjectCastAction
      */
     public function hasProperty(object $object, string $property): bool
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         return isset($object->{$property});
@@ -52,7 +51,6 @@ class SafeObjectCastAction
      */
     public function hasNonNullProperty(object $object, string $property): bool
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         $hasProperty = isset($object->{$property});
@@ -75,7 +73,6 @@ class SafeObjectCastAction
      */
     public function hasNonEmptyProperty(object $object, string $property): bool
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         if (! isset($object->{$property})) {
@@ -97,7 +94,6 @@ class SafeObjectCastAction
      */
     public function getStringProperty(object $object, string $property, ?string $default = ''): string
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         if (! isset($object->{$property})) {
@@ -119,7 +115,6 @@ class SafeObjectCastAction
      */
     public function getIntProperty(object $object, string $property, ?int $default = 0): int
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         if (! isset($object->{$property})) {
@@ -141,7 +136,6 @@ class SafeObjectCastAction
      */
     public function getFloatProperty(object $object, string $property, ?float $default = 0.0): float
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         if (! isset($object->{$property})) {
@@ -163,7 +157,6 @@ class SafeObjectCastAction
      */
     public function getBooleanProperty(object $object, string $property, ?bool $default = false): bool
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         if (! isset($object->{$property})) {
@@ -185,7 +178,6 @@ class SafeObjectCastAction
      */
     public function getArrayProperty(object $object, string $property, ?array $default = []): array
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         if (! isset($object->{$property})) {
@@ -208,7 +200,6 @@ class SafeObjectCastAction
      */
     public function getTypedProperty(object $object, string $property, string $type, mixed $default = null): mixed
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);
 
@@ -232,7 +223,6 @@ class SafeObjectCastAction
      */
     public function hasPropertyValue(object $object, string $property, mixed $expectedValue): bool
     {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
 
         if (! isset($object->{$property})) {
@@ -261,7 +251,6 @@ class SafeObjectCastAction
         ?callable $validator = null,
         mixed $default = null,
     ): mixed {
-        Assert::object($object);
         Assert::stringNotEmpty($property);
         Assert::inArray($type, ['string', 'int', 'float', 'bool', 'array']);
 
@@ -283,7 +272,6 @@ class SafeObjectCastAction
      */
     public function hasMethod(object $object, string $method): bool
     {
-        Assert::object($object);
         Assert::stringNotEmpty($method);
 
         return method_exists($object, $method);
@@ -304,7 +292,6 @@ class SafeObjectCastAction
         array $parameters = [],
         mixed $default = null,
     ): mixed {
-        Assert::object($object);
         Assert::stringNotEmpty($method);
 
         if (! method_exists($object, $method)) {

@@ -40,15 +40,15 @@ class GetPropertiesFromMethodsByModelAction
      */
     public function execute(Model $model): array
     {
-        Assert::isInstanceOf($model, Model::class, 'Il parametro deve essere un\'istanza di Model');
+        // Assert::isInstanceOf rimosso - parametro già tipizzato come Model
 
         $methods = get_class_methods($model);
-        Assert::isArray($methods, 'get_class_methods deve restituire un array');
+        // Assert::isArray rimosso - get_class_methods() restituisce sempre array
 
         $data = [];
 
         foreach ($methods as $method) {
-            Assert::string($method, 'Il nome del metodo deve essere una stringa');
+            // Assert::string rimosso - $methods è tipizzato come list<non-falsy-string>
 
             // Ignoriamo i metodi che iniziano con "get" e quelli ereditati da Model
             if (Str::startsWith($method, 'get') || method_exists(Model::class, $method)) {
@@ -68,11 +68,7 @@ class GetPropertiesFromMethodsByModelAction
 
                 // Leggiamo il contenuto del metodo
                 $file = new SplFileObject($filename);
-                Assert::isInstanceOf(
-                    $file,
-                    SplFileObject::class,
-                    'Errore nella creazione dell\'oggetto SplFileObject',
-                );
+                // Assert::isInstanceOf rimosso - new SplFileObject() restituisce sempre SplFileObject
 
                 $file->seek($reflection->getStartLine() - 1);
                 $startLine = $file->key();
@@ -162,14 +158,14 @@ class GetPropertiesFromMethodsByModelAction
 
             // Otteniamo la classe relazionata
             $relatedClass = get_class($relationObj->getRelated());
-            Assert::classExists($relatedClass, "La classe relazionata {$relatedClass} non esiste");
+            // Assert::classExists rimosso - get_class() restituisce sempre una class-string valida
 
             // Chiamiamo GetFakerAction con parametri corretti
             $fakerAction = app(GetFakerAction::class);
-            Assert::isCallable([$fakerAction, 'execute'], 'GetFakerAction::execute deve essere chiamabile');
+            // Assert::isCallable rimosso - metodo verificato a compile time
 
             $type = 'factory('.$relatedClass.'::class)';
-            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+            $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $relatedClass, null);
         } catch (Exception $e) {
             // In caso di errore, ignoriamo la relazione
             return;

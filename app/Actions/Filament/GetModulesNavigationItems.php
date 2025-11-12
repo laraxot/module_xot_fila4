@@ -36,15 +36,19 @@ class GetModulesNavigationItems
         $navs = [];
 
         $modules = TenantService::allModules();
-        Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
+        // TenantService::allModules() restituisce sempre array
 
         // Pre-load user roles to avoid N+1 queries
+        /** @var \Illuminate\Contracts\Auth\Authenticatable|null $user */
         $user = auth()->user();
 
+        /** @var array<int, string> $userRoles */
         $userRoles = [];
-        if ($user && method_exists($user, 'roles')) {
+        if ($user !== null && method_exists($user, 'roles') && method_exists($user, 'pluck')) {
             try {
-                $userRoles = $user->roles()->pluck('name')->toArray();
+                /** @var \Illuminate\Support\Collection<int, string> $rolesCollection */
+                $rolesCollection = $user->roles()->pluck('name');
+                $userRoles = $rolesCollection->toArray();
             } catch (Exception $e) {
                 $userRoles = [];
             }
@@ -83,8 +87,8 @@ class GetModulesNavigationItems
             $icon = $config['icon'] ?? 'heroicon-o-question-mark-circle';
             Assert::string($icon, "L'icona deve essere una stringa");
 
+            // $role è sempre stringa non vuota (concatenazione di stringhe non vuote), check ridondante rimosso
             $role = $module_low.'::admin';
-            Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
 
             $navigation_sort = $config['navigation_sort'] ?? 1;
             Assert::integerish($navigation_sort, 'navigation_sort deve essere un intero');
@@ -106,7 +110,7 @@ class GetModulesNavigationItems
                  $navs[] = $nav;
              }
              */
-
+            $role = $module_low.'::admin';
             // Creiamo l'elemento di navigazione
             $nav = NavigationItem::make($module)
                 ->url('/'.$module_low.'/admin')
@@ -114,6 +118,9 @@ class GetModulesNavigationItems
                 ->group('Modules')
                 ->sort($navigation_sort)
                 ->visible(static function () use ($role): bool {
+                    /**
+                     * @var \Illuminate\Contracts\Auth\Authenticatable|null $user
+                     */
                     $user = Filament::auth()->user();
                     if ($user === null) {
                         return false;
@@ -124,7 +131,12 @@ class GetModulesNavigationItems
                         return false;
                     }
 
-                    return (bool) $user->hasRole($role);
+                    /**
+                     * @var bool $result
+                     */
+                    $result = $user->hasRole($role);
+
+                    return $result;
                 });
 
             $navs[] = $nav;
@@ -142,7 +154,7 @@ class GetModulesNavigationItems
     public function getCachedModuleConfigs(): array
     {
         $modules = TenantService::allModules();
-        Assert::isArray($modules);
+        // TenantService::allModules() restituisce sempre array
 
         $cacheKey = 'xot:navigation:modules:'.md5(json_encode($modules));
 

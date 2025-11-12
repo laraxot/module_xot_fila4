@@ -50,9 +50,10 @@ class BelongsToManyAction
             Assert::isArray($data, 'Each item in RelationDTO->data must be an array.');
             if (\array_key_exists($keyName, $data)) {
                 // Aggiorna o crea il modello correlato
-                Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+                /** @var array<string, mixed> $safeData */
+                $safeData = $data;
                 /** @var Model $res */
-                $res = app(UpdateAction::class)->execute($related, $data, []);
+                $res = app(UpdateAction::class)->execute($related, $safeData, []);
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();

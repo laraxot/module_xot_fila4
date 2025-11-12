@@ -22,6 +22,8 @@ class GetAllModelsByModuleNameAction
 
     /**
      * Execute the action.
+     *
+     * @return array<string, class-string>
      */
     public function execute(string $moduleName): array
     {
@@ -34,6 +36,7 @@ class GetAllModelsByModuleNameAction
         $mod_path = str_replace(['\\', '/'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $mod_path);
 
         $files = File::files($mod_path);
+        /** @var array<string, class-string> $data */
         $data = [];
         $ns = 'Modules\\'.$mod->getName().'\\Models';
         // con la barra davanti non va il search ?

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\View\Components;
 
-use Illuminate\Contracts\Support\Renderable;
+use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
 use RuntimeException;
@@ -25,12 +25,11 @@ class XDebug extends Component
         public string $tpl = 'v1',
     ) {}
 
-    public function render(): Renderable
+    public function render(): View
     {
-        /**
-         * @phpstan-var view-string
-         */
+        /** @var view-string $view */
         $view = app(GetViewAction::class)->execute($this->tpl);
+        /** @var array<string, string> $view_params */
         $view_params = [
             'html' => $this->debugStack(),
         ];

@@ -15,7 +15,11 @@ class HasManyThroughAction
     /**
      * Undocumented function.
      */
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $_relationDTO): void
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+>>>>>>> f1d4085 (.)
     {
         // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
         dddx('wip');

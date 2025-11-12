@@ -3,12 +3,17 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\Colors\Color;
 use Modules\Xot\Datas\MetatagData;
 =======
 use Modules\Xot\Datas\MetatagData;
 use Filament\Support\Colors\Color;
 >>>>>>> f1d4085 (.)
+=======
+use Filament\Support\Colors\Color;
+use Modules\Xot\Datas\MetatagData;
+>>>>>>> 73eab74 (.)
 
 /**
  * Test che la classe MetatagData possa essere istanziata correttamente.
@@ -29,6 +34,9 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
     $colors = $metatagData->getFilamentColors();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     expect($colors)
         ->toBeArray()
         ->and($colors)
@@ -48,7 +56,12 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 7d72abc (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 15def8d (.)
 });
 
 /**
@@ -63,6 +76,9 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
             'key' => 'custom_color',
             'color' => 'custom',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             'hex' => '#FF5500',
         ],
         'primary' => [
@@ -70,7 +86,10 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
             'color' => 'amber',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 15def8d (.)
 =======
             'hex' => '#FF5500'
         ],
@@ -79,18 +98,27 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
             'color' => 'amber'
         ]
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     ];
 
     $colors = $metatagData->getColors();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7d72abc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 15def8d (.)
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
 =======
     expect($colors)->toBeArray()
         ->and($colors)->toHaveKey('custom_color')
         ->and($colors)->toHaveKey('primary');
 >>>>>>> f1d4085 (.)
+=======
+    expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+>>>>>>> 73eab74 (.)
 });
 
 /**
@@ -114,6 +142,9 @@ test('Le proprietà hanno i valori di default corretti', function (): void {
     $metatagData = new MetatagData();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     expect($metatagData->generator)
         ->toBe('xot')
         ->and($metatagData->charset)
@@ -136,5 +167,10 @@ test('Le proprietà hanno i valori di default corretti', function (): void {
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 7d72abc (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 15def8d (.)
 });

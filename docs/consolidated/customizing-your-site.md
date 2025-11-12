@@ -38,6 +38,17 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <div markdown="1" class="example pt-6">
 
 # h1 Heading
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+>>>>>>> a5dccfe (.)
+
+>>>>>>> 6821f7a (.)
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading

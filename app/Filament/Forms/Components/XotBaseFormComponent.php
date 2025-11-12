@@ -51,8 +51,8 @@ abstract class XotBaseFormComponent extends Field
      */
     public function getValidationRules(): array
     {
+        /** @var array<string, mixed> */
         $rules = parent::getValidationRules();
-        Assert::isArray($rules);
 
         return $rules;
     }

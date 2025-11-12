@@ -4,19 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
-use Filament\Actions\Concerns\InteractsWithActions;
-use Filament\Actions\Contracts\HasActions;
+use Filament\Forms;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Notifications\Notification;
 use Filament\Widgets\Widget;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Actions\Action;
+use Filament\Notifications\Notification;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Component;
 use Illuminate\Support\Arr;
 use Modules\Xot\Datas\EnvData;
 
 /**
- * @property Schema $form
+ * @property \Filament\Schemas\Schema $form
  */
 class EnvWidget extends Widget implements HasActions, HasForms
 {
@@ -39,7 +43,7 @@ class EnvWidget extends Widget implements HasActions, HasForms
         $this->form->fill($this->data);
     }
 
-    public function form(Schema $schema): Schema
+    public function form(\Filament\Schemas\Schema $schema): \Filament\Schemas\Schema
     {
         return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
     }

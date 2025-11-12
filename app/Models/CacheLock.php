@@ -46,7 +46,21 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> eeaa032 (.)
  * @mixin \Eloquent
  */
-/** */
+/**
+ * @property string $key
+ * @property string $owner
+ * @property int $expiration
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Xot\Database\Factories\CacheLockFactory factory($count = null, $state = [])
+ * @method static Builder<static>|CacheLock newModelQuery()
+ * @method static Builder<static>|CacheLock newQuery()
+ * @method static Builder<static>|CacheLock query()
+ * @method static Builder<static>|CacheLock whereExpiration($value)
+ * @method static Builder<static>|CacheLock whereKey($value)
+ * @method static Builder<static>|CacheLock whereOwner($value)
+ * @mixin \Eloquent
+ */
 class CacheLock extends BaseModel
 {
     /** @var list<string> */

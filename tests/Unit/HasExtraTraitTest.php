@@ -17,9 +17,7 @@ use function Safe\class_uses;
 
 describe('HasExtraTrait', function (): void {
     beforeEach(function (): void {
-        /** @var object{testModel: Model, extraClass: Model} $this */
         // Create a test model that uses the trait
-        /** @phpstan-ignore-next-line assign.propertyReadOnly */
         $this->testModel = new class extends Model
         {
             use HasExtraTrait;
@@ -36,7 +34,6 @@ describe('HasExtraTrait', function (): void {
         };
 
         // Create a mock Extra class
-        /** @phpstan-ignore-next-line assign.propertyReadOnly */
         $this->extraClass = new class extends Model implements ExtraContract
         {
             protected $table = 'test_extras';
@@ -175,7 +172,6 @@ describe('HasExtraTrait', function (): void {
 
         /** @phpstan-ignore-next-line method.nonObject */
         $parameters = $getExtraMethod->getParameters();
-        /** @phpstan-ignore-next-line argument.templateType */
         expect(count($parameters))
             ->toBe(1)
             /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
@@ -195,7 +191,6 @@ describe('HasExtraTrait', function (): void {
 
         /** @phpstan-ignore-next-line method.nonObject */
         $setParameters = $setExtraMethod->getParameters();
-        /** @phpstan-ignore-next-line argument.templateType */
         expect(count($setParameters))
             ->toBe(2)
             /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
@@ -237,7 +232,7 @@ describe('HasExtraTrait', function (): void {
     it('handles empty extra attributes', function (): void {
         $mockExtra = new class
         {
-            /** @var \Illuminate\Support\Collection<int|string, mixed> */
+            /** @var \Illuminate\Support\Collection<int, mixed> */
             public $extra_attributes;
 
             public function __construct()
@@ -258,7 +253,7 @@ describe('HasExtraTrait', function (): void {
         // Test that the extra class implements the required contract
         /** @phpstan-ignore-next-line property.notFound */
         $extraClass = $this->testModel->getExtraClass();
-        /** @var class-string $extraClass */
+        /* @phpstan-ignore-next-line argument.type */
         $reflection = new ReflectionClass($extraClass);
 
         expect($reflection->implementsInterface(ExtraContract::class))->toBeTrue();

@@ -43,7 +43,22 @@ use Sushi\Sushi;
 >>>>>>> eeaa032 (.)
  * @mixin \Eloquent
  */
-/** */
+/**
+ * @property string|null $id
+ * @property string|null $name
+ * @property int|null $size
+ * @property-read string|null $file_content
+ * @method static \Modules\Xot\Database\Factories\LogFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Log newModelQuery()
+ * @method static Builder<static>|Log newQuery()
+ * @method static Builder<static>|Log query()
+ * @method static Builder<static>|Log whereId($value)
+ * @method static Builder<static>|Log whereName($value)
+ * @method static Builder<static>|Log whereSize($value)
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @mixin \Eloquent
+ */
 class Log extends BaseModel
 {
     use Sushi;

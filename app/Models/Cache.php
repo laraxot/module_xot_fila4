@@ -46,7 +46,21 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> eeaa032 (.)
  * @mixin \Eloquent
  */
-/** */
+/**
+ * @property string $key
+ * @property string $value
+ * @property int $expiration
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Xot\Database\Factories\CacheFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Cache newModelQuery()
+ * @method static Builder<static>|Cache newQuery()
+ * @method static Builder<static>|Cache query()
+ * @method static Builder<static>|Cache whereExpiration($value)
+ * @method static Builder<static>|Cache whereKey($value)
+ * @method static Builder<static>|Cache whereValue($value)
+ * @mixin \Eloquent
+ */
 class Cache extends BaseModel
 {
     protected $table = 'cache';

@@ -6,7 +6,6 @@ namespace Modules\Xot\Tests;
 
 use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Foundation\Application;
-use Webmozart\Assert\Assert;
 
 trait CreatesApplication
 {
@@ -15,12 +14,12 @@ trait CreatesApplication
      */
     public function createApplication(): Application
     {
+        /** @var Application */
         $app = require __DIR__.'/../../../bootstrap/app.php';
-        Assert::isInstanceOf($app, Application::class, 'Bootstrap file must return Application instance');
 
-        $kernel = $app->make(Kernel::class);
-        Assert::isInstanceOf($kernel, Kernel::class, 'Kernel must be instance of Kernel');
-        $kernel->bootstrap();
+        assert($app instanceof Application);
+        /* @phpstan-ignore-next-line method.nonObject */
+        $app->make(Kernel::class)->bootstrap();
 
         return $app;
     }

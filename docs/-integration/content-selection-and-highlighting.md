@@ -21,7 +21,11 @@ https://720kb.github.io/highlighter.js/
 
 https://github.com/anonyco/Highlighter-JS
 
+<<<<<<< HEAD
 https://jobjects.com/project_docs/highlighter/jquery //deprecated
+=======
+https://jobjects.com/docs/highlighter/jquery //deprecated
+>>>>>>> 0218cd5 (.)
 
 https://devpost.com/software/highlighter-js
 

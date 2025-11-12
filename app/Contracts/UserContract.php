@@ -62,11 +62,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  *
  * @phpstan-require-extends Model
  *
-<<<<<<< HEAD
- * @mixin IdeHelperUserContract
-=======
  * @mixin \Eloquent
->>>>>>> c84488b (.)
  */
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
 {

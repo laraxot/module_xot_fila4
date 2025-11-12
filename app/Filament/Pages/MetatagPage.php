@@ -4,14 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Schema;
->>>>>>> 54cbe5d (.)
-use Filament\Schemas\Components\Utilities\Get;
->>>>>>> 3df5f27e (.)
 use Filament\Actions\Action;
 use Filament\Forms\Components\ColorPicker;
 use Filament\Forms\Components\Repeater;
@@ -21,19 +13,13 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
+use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Schema;
 use Filament\Support\Colors\Color;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-use Filament\Schemas\Schema;
-=======
->>>>>>> 54cbe5d (.)
->>>>>>> 3df5f27e (.)
 
 /**
  * @property Schema $form
@@ -71,51 +57,19 @@ class MetatagPage extends Page implements HasForms
                 TextInput::make('author'),
                 TextInput::make('description'),
                 TextInput::make('keywords'),
-                /*
-                 * FileUpload::make('logo_header')
-                 * ->preserveFilenames()
-                 * ->image()
-                 * ->imageEditor()
-                 * ->moveFiles()
-                 * ->disk('public')
-                 * ->visibility('public')
-                 * ->directory('logo')
-                 * ->formatStateUsing(fn ($state): array =>[basename($state)])
-                 * //->formatStateUsing(fn ($state): array =>['/uploads/photos/pexels-giona-mason-19138633.jpg'])
-                 * ->dehydrateStateUsing(fn ($state) => collect($state)->map(function($item){
-                 * return Storage::disk('public')->url($item);
-                 * })->first() )
-                 * ,
-                 */
                 TextInput::make('logo_header'),
                 TextInput::make('logo_header_dark')->helperText('logo for dark css'),
                 TextInput::make('logo_height'),
                 Repeater::make('colors')
                     ->schema([
                         Select::make('key')
-                            ->label('Chiave')
                             ->required()
                             ->options($metatag->getFilamentColors()),
                         Select::make('color')
-                            ->label('Colore')
                             ->options(array_combine(array_keys(Color::all()), array_keys(Color::all())))
                             ->reactive(),
                         ColorPicker::make('hex')
-                            ->label('Colore personalizzato')
-<<<<<<< HEAD
-                            ->visible(
-                                /**
-                                 * @param  \Closure(string): mixed  $get
-                                 */
-                                fn (\Closure $get): bool => $get('color') === 'custom'
-                            )
-=======
-<<<<<<< HEAD
-                            ->visible(fn($get) => $get('color') === 'custom')
-=======
-                            ->visible(fn(Get $get) => $get('color') === 'custom')
->>>>>>> 54cbe5d (.)
->>>>>>> 3df5f27e (.)
+                            ->visible(fn (Get $get): bool => $get('color') === 'custom')
                             ->required(),
                     ])
                     ->columns(3),

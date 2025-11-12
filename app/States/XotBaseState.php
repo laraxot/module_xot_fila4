@@ -5,15 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\States;
 
 use Filament\Forms\Components\Textarea;
-<<<<<<< HEAD
-use Filament\Schemas\Components\Component;
-=======
-<<<<<<< HEAD
-use Filament\Schemas\Components;
-=======
 use Filament\Forms\Components;
->>>>>>> 54cbe5d (.)
->>>>>>> 3df5f27e (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
@@ -92,7 +84,7 @@ abstract class XotBaseState extends State implements StateContract
     }
 
     /**
-     * @return array<string, Component>
+     * @return array<string, \Filament\Forms\Components\Textarea>
      */
     #[Override]
     public function modalFormSchema(): array

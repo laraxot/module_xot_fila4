@@ -8,15 +8,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
-<<<<<<< HEAD
-=======
-use Filament\Forms\Components\DatePicker;
-use Filament\Schemas\Components\Section;
-use Filament\Schemas\Schema;
-use Filament\Forms\Get;
-use Filament\Pages\Dashboard as BaseBashboard;
-use Filament\Pages\Dashboard\Concerns\HasFiltersForm;
->>>>>>> 3df5f27e (.)
 use Filament\Widgets\Widget;
 use Filament\Widgets\WidgetConfiguration;
 

@@ -4,21 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
-<<<<<<< HEAD
-=======
-use LogicException;
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Schema;
->>>>>>> 54cbe5d (.)
-use RuntimeException;
-use Illuminate\Auth\Access\AuthorizationException;
->>>>>>> 3df5f27e (.)
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Pages\Page as FilamentPage;
+use Filament\Schemas\Schema;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Builder;
@@ -29,15 +20,8 @@ use Illuminate\Support\Str;
 use LogicException;
 use Modules\Xot\Actions\View\GetViewByClassAction;
 use Modules\Xot\Filament\Traits\TransTrait;
-<<<<<<< HEAD
 use RuntimeException;
-=======
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-use Filament\Schemas\Schema;
-=======
->>>>>>> 54cbe5d (.)
->>>>>>> 3df5f27e (.)
 
 /**
  * Classe base astratta per tutte le pagine Filament non legate a risorse specifiche.
@@ -50,18 +34,8 @@ use Filament\Schemas\Schema;
  * - Rilevamento intelligente modello
  * - Metodi helper comuni
  *
-<<<<<<< HEAD
- * @property ?string $model Il modello associato alla pagina
- * @property array<string, mixed> $data I dati del form
- * @property \Filament\Schemas\Schema $form Il form della pagina
-=======
  * @property ?string              $model Il modello associato alla pagina
  * @property array<string, mixed> $data  I dati del form
-<<<<<<< HEAD
-     * @property \Filament\Schemas\Schema $form Il form della pagina
-=======
->>>>>>> 54cbe5d (.)
->>>>>>> 3df5f27e (.)
  *
  * @see \Modules\Xot\docs\xotbasepage_implementation.md Documentazione completa
  */
@@ -235,10 +209,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         return $modelNamespace;
     }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
     /**
      * Configura il form della pagina.
      * Imposta lo schema e il percorso dello stato per il form.
@@ -260,9 +230,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 
         return $schema;
     }
->>>>>>> 54cbe5d (.)
 
->>>>>>> 3df5f27e (.)
     /**
      * Ottiene il tempo di debounce per l'autosave in millisecondi.
      * Sovrascrivere nelle classi figlie per modificare questo valore.

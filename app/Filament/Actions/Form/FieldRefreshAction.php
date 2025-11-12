@@ -9,15 +9,8 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Form;
 
 use Filament\Actions\Action;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
-use Filament\Schemas\Components\Utilities\Set;
->>>>>>> 54cbe5d (.)
->>>>>>> 3df5f27e (.)
 use Filament\Notifications\Notification;
+use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Support\Str;
 
 use function Safe\json_encode;
@@ -27,14 +20,11 @@ class FieldRefreshAction extends Action
     protected function setUp(): void
     {
         parent::setUp();
+
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
-<<<<<<< HEAD
-            ->action(function ($state, $set, $record) {
-=======
-            ->action(function ($state, Set $set, $record) {
->>>>>>> 54cbe5d (.)
+            ->action(function ($state, Set $set, $record): void {
                 $name = $this->getName();
                 if ($name === null) {
                     return;
@@ -44,26 +34,31 @@ class FieldRefreshAction extends Action
                     return;
                 }
 
-                $method = 'get'.Str::studly($name).'';
+                $method = 'get' . Str::studly($name);
 
                 if (! method_exists($record, $method)) {
                     return;
                 }
 
-                $value = $record->$method();
-
-                if (! is_callable($set)) {
-                    return;
-                }
+                $value = $record->{$method}();
 
                 $set($name, $value);
 
-                $stateStr = is_string($state) || is_numeric($state) ? (string) $state : (is_array($state) || is_object($state) ? json_encode($state) : '');
-                $valueStr = is_string($value) || is_numeric($value) ? (string) $value : (is_array($value) || is_object($value) ? json_encode($value) : '');
+                $stateStr = match (true) {
+                    is_string($state), is_numeric($state) => (string) $state,
+                    is_array($state), is_object($state) => json_encode($state),
+                    default => '',
+                };
+
+                $valueStr = match (true) {
+                    is_string($value), is_numeric($value) => (string) $value,
+                    is_array($value), is_object($value) => json_encode($value),
+                    default => '',
+                };
 
                 Notification::make()
-                    ->title('Ricalcolato '.$name)
-                    ->body('vecchio valore: '.$stateStr.' nuovo valore: '.$valueStr)
+                    ->title('Ricalcolato ' . $name)
+                    ->body('vecchio valore: ' . $stateStr . ' nuovo valore: ' . $valueStr)
                     ->success()
                     ->send();
             });

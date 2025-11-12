@@ -47,14 +47,6 @@ Risoluzione automatica di tutti i conflitti Git presenti nel progetto prendendo 
 - ✅ **Gestione errori** robusta
 
 ### Logica di Risoluzione:
-```bash
-# Pattern di risoluzione automatica
-<<<<<<< HEAD
-# Codice HEAD (scartato)
-=======
-# Codice develop (mantenuto) ✅
->>>>>>> develop
-```
 
 ## 📊 Risultati Ottenuti
 
@@ -67,9 +59,6 @@ Risoluzione automatica di tutti i conflitti Git presenti nel progetto prendendo 
 ## 🔍 Verifica Post-Risoluzione
 
 ### Comando di Verifica:
-```bash
-grep -r "<<<<<<< HEAD" . --include="*.php" --include="*.blade.php"
-```
 
 ### Risultato:
 ```

@@ -30,6 +30,9 @@ class GetFirstModelClassByModelNameAction
         );
 
         $modelClass = $models[$modelName];
+=======
+<<<<<<< HEAD
+>>>>>>> 7d72abc (.)
         Assert::string(
             $modelClass,
 =======
@@ -38,6 +41,9 @@ class GetFirstModelClassByModelNameAction
 >>>>>>> f1570712 (.)
             '['.__LINE__.']['.class_basename($this).']',
         );
+=======
+        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
 
         return $modelClass;
     }

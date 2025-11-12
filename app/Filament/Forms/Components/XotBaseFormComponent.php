@@ -43,7 +43,12 @@ abstract class XotBaseFormComponent extends Field
     {
         parent::setUp();
 
+<<<<<<< HEAD
         $this->dehydrated(true)->required(false);
+=======
+        $this->dehydrated(true)
+            ->required(false);
+>>>>>>> f1d4085 (.)
     }
 
     /**

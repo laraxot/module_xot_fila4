@@ -2,8 +2,13 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Filament\Support\Colors\Color;
 use Modules\Xot\Datas\MetatagData;
+=======
+use Modules\Xot\Datas\MetatagData;
+use Filament\Support\Colors\Color;
+>>>>>>> f1d4085 (.)
 
 /**
  * Test che la classe MetatagData possa essere istanziata correttamente.
@@ -23,6 +28,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
     $metatagData = new MetatagData();
     $colors = $metatagData->getFilamentColors();
 
+<<<<<<< HEAD
     expect($colors)
         ->toBeArray()
         ->and($colors)
@@ -31,10 +37,18 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
         ->toBe(Color::Red)
         ->and($colors['primary'])
         ->toBe(Color::Amber);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7d72abc (.)
     expect($colors)->toBeArray()
         ->and($colors)->toHaveKeys(['danger', 'gray', 'info', 'primary', 'success', 'warning'])
         ->and($colors['danger'])->toBe(Color::Red)
         ->and($colors['primary'])->toBe(Color::Amber);
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7d72abc (.)
 });
 
 /**
@@ -48,13 +62,35 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
         'custom_color' => [
             'key' => 'custom_color',
             'color' => 'custom',
+<<<<<<< HEAD
             'hex' => '#FF5500',
         ],
         'primary' => [
             'key' => 'primary',
             'color' => 'amber',
         ],
+<<<<<<< HEAD
+=======
+=======
+            'hex' => '#FF5500'
+        ],
+        'primary' => [
+            'key' => 'primary',
+            'color' => 'amber'
+        ]
+>>>>>>> f1d4085 (.)
+    ];
+
+    $colors = $metatagData->getColors();
+
+<<<<<<< HEAD
+>>>>>>> 7d72abc (.)
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+=======
+    expect($colors)->toBeArray()
+        ->and($colors)->toHaveKey('custom_color')
+        ->and($colors)->toHaveKey('primary');
+>>>>>>> f1d4085 (.)
 });
 
 /**
@@ -77,6 +113,7 @@ test('getLogoHeight restituisce il valore corretto', function (): void {
 test('Le proprietà hanno i valori di default corretti', function (): void {
     $metatagData = new MetatagData();
 
+<<<<<<< HEAD
     expect($metatagData->generator)
         ->toBe('xot')
         ->and($metatagData->charset)
@@ -87,9 +124,17 @@ test('Le proprietà hanno i valori di default corretti', function (): void {
         ->toBe('2em')
         ->and($metatagData->favicon)
         ->toBe('/favicon.ico');
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7d72abc (.)
     expect($metatagData->generator)->toBe('xot')
         ->and($metatagData->charset)->toBe('UTF-8')
         ->and($metatagData->author)->toBe('xot')
         ->and($metatagData->logo_height)->toBe('2em')
         ->and($metatagData->favicon)->toBe('/favicon.ico');
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7d72abc (.)
 });

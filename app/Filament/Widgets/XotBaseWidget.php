@@ -112,7 +112,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             // Ensure model is compatible with Schema::model()
             if (is_string($model)) {
                 if (class_exists($model) && is_subclass_of($model, Model::class)) {
-                    /* @var class-string<Model> $model */
+                    /** @var class-string<Model> $model */
                     $schema->model($model);
                 }
             } else {
@@ -161,7 +161,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 return $res;
 
                 // dddx($model->with('studio')->relationsToArray());
-            } catch (\Exception $e) {
+            } catch (Exception $e) {
                 // Se toArray() fallisce (problemi con enum), usa getAttributes()
                 // Log::warning("Errore in toArray() per modello {$this->model}: " . $e->getMessage());
                 $attributes = $model->getAttributes();
@@ -226,7 +226,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     /**
      * Eseguito quando i filtri vengono aggiornati.
-     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario.
+     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario
      */
     // public function filtersUpdated(): void
     // {
@@ -263,7 +263,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $submit_view = 'pub_theme::filament.wizard.submit-button';
 
         if (! view()->exists($submit_view)) {
-            throw new \Exception("View {$submit_view} does not exist");
+            throw new Exception("View {$submit_view} does not exist");
         }
 
         return Action::make('submit')

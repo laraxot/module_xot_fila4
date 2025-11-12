@@ -46,8 +46,14 @@ trait RelationX
 
         $pivotDbName = $pivot->getConnection()->getDatabaseName();
         $dbName = $this->getConnection()->getDatabaseName();
+<<<<<<< HEAD
         // if ($pivotDbName !== $dbName) {
         if ($pivotDbName !== $dbName) {
+=======
+        $relatedDbName = $related_model->getConnection()->getDatabaseName();
+        // if ($pivotDbName !== $dbName) {
+        if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
+>>>>>>> f1570712 (.)
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
             // SQLite doesn't support database.table syntax

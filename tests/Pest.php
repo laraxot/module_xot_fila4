@@ -13,6 +13,7 @@ use Modules\Xot\Tests\TestCase;
  * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
  * |
  */
+<<<<<<< HEAD
 |--------------------------------------------------------------------------
 | Test Case
 |--------------------------------------------------------------------------
@@ -21,6 +22,8 @@ use Modules\Xot\Tests\TestCase;
 | Estende il TestCase specifico del modulo che fornisce il setup necessario.
 |
 */
+=======
+>>>>>>> f1570712 (.)
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
@@ -34,11 +37,14 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 |--------------------------------------------------------------------------
 | Expectations
 |--------------------------------------------------------------------------
 |
 | Qui puoi definire aspettative globali per il modulo Xot.
+=======
+>>>>>>> f1570712 (.)
 
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
@@ -57,4 +63,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 */
+=======
+>>>>>>> f1570712 (.)

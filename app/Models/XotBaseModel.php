@@ -4,6 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Model;
+// use Laravel\Scout\Searchable;
+// ---- Traits ----
+>>>>>>> f1570712 (.)
 use Modules\Xot\Traits\Updater;
 // use Laravel\Scout\Searchable;
 // ---- Traits ----

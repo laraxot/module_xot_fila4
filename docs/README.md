@@ -42,11 +42,69 @@ Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Liv
 - **Estensibilità**: Classi base estendibili
 - **Manutenibilità**: Strumenti comuni, automazioni
 
+<<<<<<< HEAD
 ### Componenti Chiave Xot
 - `app/Filament` → Classi base per Resources/Pages/Widgets
 - `app/Datas` → Metatag, XotData, Navigation
 - `app/Providers` → ServiceProvider condivisi
 - `bashscripts/` → Automazioni git, merge, maintenance
+=======
+- **Modularità**: Ogni funzionalità è organizzata in moduli indipendenti
+- **Coerenza**: Struttura uniforme e convenzioni standardizzate
+- **Estensibilità**: Facile aggiunta di nuovi moduli e funzionalità
+- **Manutenibilità**: Codice pulito e ben documentato
+
+## Caratteristiche Tecniche
+
+- **Laravel 11**: Framework PHP moderno e potente
+- **Filament 3**: Server-Driven UI framework per Laravel
+- **Livewire 3**: Full-stack framework per Laravel
+- **PHPStan 3**: Static analysis tool (Livello 9/10)
+- **Pest 3**: PHP testing framework
+
+## Principi di Sviluppo
+
+- **Namespace**: I namespace dei moduli NON devono includere il segmento `app`
+- **Tipizzazione**: Utilizzo di `declare(strict_types=1);` e type hints rigorosi
+- **PHPStan**: Compliance con PHPStan Livello 9/10
+- **Testing**: Test rigorosi senza `RefreshDatabase`
+
+## Documentazione
+
+### Documenti Principali
+
+#### Qualità del Codice
+- **[Lo Zen degli Strumenti di Qualità](quality-tools-zen.md)** ⭐ NUOVO - Filosofia completa PHPStan, Larastan, Safe, Assert, PHPMD, PHP Insights
+- **[Best Practices Eloquent](eloquent-properties-best-practices.md)** - Guida completa per proprietà Eloquent
+- **[Report Rimozione property_exists](property-exists-removal-report-2025-01-05.md)** - Eliminazione completa di property_exists
+- **[Code Quality Rules](code-quality.md)** - Regole PHPStan, PHPMD, PHPInsights
+
+#### Framework e Convenzioni
+- [Convenzioni Laraxot](conventions.md) - Regole e convenzioni per lo sviluppo
+- [Laravel Framework](laravel-framework.md) - Documentazione completa del framework
+- [Model Context Protocol](model-context-protocol.md) - Implementazione MCP
+- [Cast Actions](cast-actions.md) - Azioni di cast sicure
+- [Collegamenti](links.md) - Raccolta di link e riferimenti
+
+### Moduli del Sistema
+
+- **[User Module](../User/docs/README.md)** - Gestione utenti, autenticazione e autorizzazione
+- **[UI Module](../UI/docs/README.md)** - Componenti UI e interfacce utente
+- **[Performance Module](../Performance/docs/README.md)** - Sistema di valutazione e performance
+- **[Lang Module](../Lang/docs/README.md)** - Gestione traduzioni e localizzazione
+- **[Progressioni Module](../Progressioni/docs/README.md)** - Sistema di progressioni e schede
+
+## Quick Start
+
+### Installazione
+
+1. Clonare il repository
+2. Installare le dipendenze: `composer install`
+3. Configurare l'ambiente: `cp .env.example .env`
+4. Generare la chiave: `php artisan key:generate`
+5. Eseguire le migrazioni: `php artisan migrate`
+6. Avviare il server: `php artisan serve`
+>>>>>>> f1570712 (.)
 
 ---
 

@@ -1,5 +1,14 @@
 # Best Practices per Proprietà Modelli Eloquent - Modulo Xot
 
+## ✅ STATO: property_exists() ELIMINATO (Data: 2025-01-05)
+
+**Nel modulo Xot, `property_exists()` è stato completamente eliminato dal codice eseguibile.**
+
+### Correzioni Applicate
+- ✅ `Console/Commands/SearchTextInDbCommand.php` - sostituito con `isset()`
+- ✅ `Filament/Support/ColumnBuilder.php` - sostituito con `isset()` (3 occorrenze)
+- ✅ PHPDoc generati automaticamente per tutti i modelli con `php artisan ide-helper:models`
+
 ## ⚠️ Regola Critica: property_exists() VIETATO
 
 **Nel modulo Xot e in tutti i moduli che lo estendono, MAI utilizzare `property_exists()` con modelli Eloquent o oggetti che implementano `__get()`/`__set()`.**

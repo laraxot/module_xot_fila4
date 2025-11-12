@@ -49,8 +49,14 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return '';
     }
 
+<<<<<<< HEAD
     // PHPStan Level 10: Filament 4 usa Schemas\Components
     // Metodo getFormSchema() deve restituire array<\Filament\Schemas\Components\Component>
+=======
+    /*
+     * @return array<\Filament\Schemas\Components\Component>
+     */
+>>>>>>> f1570712 (.)
     // abstract public static function getFormSchema(): array;
 
     /**

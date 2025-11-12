@@ -334,10 +334,20 @@ class XotData extends Data implements Wireable
     public function getPubThemeViewPath(string $key = ''): string
     {
         $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+<<<<<<< HEAD
 
         // Safe\realpath() ritorna sempre string (o lancia eccezione se path non esiste)
         // Questo è il comportamento desiderato per garantire path normalizzati validi.
         return realpath($path0);
+=======
+        try {
+            $path = realpath($path0);
+
+            return $path;
+        } catch (Exception $e) {
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+        }
+>>>>>>> f1570712 (.)
     }
 
     public function getPubThemePublicPath(string $key = ''): string

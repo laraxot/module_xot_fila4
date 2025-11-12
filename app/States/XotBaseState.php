@@ -84,7 +84,11 @@ abstract class XotBaseState extends State implements StateContract
     }
 
     /**
+<<<<<<< HEAD
      * @return array<string, \Filament\Forms\Components\Textarea>
+=======
+     * @return array<string, Component>
+>>>>>>> f1570712 (.)
      */
     #[Override]
     public function modalFormSchema(): array

@@ -6,16 +6,51 @@ namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Schema;
+>>>>>>> f1570712 (.)
 use InvalidArgumentException;
 use Modules\Tenant\Models\Traits\SushiToJson;
 
 /**
+<<<<<<< HEAD
  * Metadata per le tabelle contenute in information_schema.tables.
  *
  * @property string|null $table_schema
  * @property string|null $table_name
  * @property int|null    $table_rows
  * @property string|null $model_class
+=======
+ * Represents a table in the INFORMATION_SCHEMA.TABLES.
+ *
+ * Provides metadata and statistics about database tables.
+ *
+ * @property int $id
+ * @property string|null $table_schema
+ * @property string|null $table_name
+ * @property int|null $table_rows
+ * @property string|null $model_class
+ * @property string|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_at
+ * @property string|null $created_by
+ *
+ * @method static Builder<static>|InformationSchemaTable newModelQuery()
+ * @method static Builder<static>|InformationSchemaTable newQuery()
+ * @method static Builder<static>|InformationSchemaTable query()
+ * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
+ * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
+ * @method static Builder<static>|InformationSchemaTable whereId($value)
+ * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
+ * @method static Builder<static>|InformationSchemaTable whereTableName($value)
+ * @method static Builder<static>|InformationSchemaTable whereTableRows($value)
+ * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)
+ * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
+ * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
+ *
+ * @mixin \Eloquent
+>>>>>>> f1570712 (.)
  */
 class InformationSchemaTable extends Model
 {

@@ -13,8 +13,8 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $key
  * @property string|null $key_hash
  * @property int|null $value
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @property-read \Modules\Quaeris\Models\Profile|null $creator
+ * @property-read \Modules\Quaeris\Models\Profile|null $updater
  *
  * @method static \Modules\Xot\Database\Factories\PulseEntryFactory factory($count = null, $state = [])
  * @method static Builder<static>|PulseEntry newModelQuery()

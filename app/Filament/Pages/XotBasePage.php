@@ -75,7 +75,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Ottiene il nome del modulo dalla classe.
      * Estrae il nome del modulo dal namespace della classe.
      *
-     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
+     * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
      */
     public static function getModuleName(): string
     {
@@ -200,11 +200,19 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         if (! class_exists($modelNamespace)) {
             throw new LogicException("Model class {$modelNamespace} does not exist");
         }
+<<<<<<< HEAD
 
         if (! is_subclass_of($modelNamespace, Model::class)) {
             throw new LogicException("Model class {$modelNamespace} must extend Model");
         }
 
+=======
+        
+        if (! is_subclass_of($modelNamespace, Model::class)) {
+            throw new LogicException("Model class {$modelNamespace} must extend Model");
+        }
+
+>>>>>>> f1570712 (.)
         /** @var class-string<Model> $modelNamespace */
         return $modelNamespace;
     }

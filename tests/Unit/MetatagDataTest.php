@@ -2,10 +2,15 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Filament\Support\Colors\Color;
 use Filament\Support\Colors\Color;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\MetatagData;
+=======
+use Filament\Support\Colors\Color;
+use Modules\Xot\Datas\MetatagData;
+>>>>>>> f1570712 (.)
 
 /**
  * Test che la classe MetatagData possa essere istanziata correttamente.

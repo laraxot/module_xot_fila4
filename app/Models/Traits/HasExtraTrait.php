@@ -52,11 +52,17 @@ trait HasExtraTrait
      */
     public function getExtra(string $name): array|bool|float|int|string|null
     {
+<<<<<<< HEAD
         if ($this->extra === null || $this->extra->extra_attributes === null) {
+=======
+        if ($this->extra === null) {
+>>>>>>> f1570712 (.)
             return null;
         }
+        // PHPStan Level 10: extra_attributes is non-nullable, use -> instead of ?->
         $value = $this->extra->extra_attributes->get($name);
 
+<<<<<<< HEAD
         return $this->normalizeExtraValue($value);
     }
     
@@ -82,6 +88,26 @@ trait HasExtraTrait
             return $value;
         }
 
+=======
+        if (\is_array($value)) {
+            // PHPStan Level 10: Verify and cast to array<string, mixed>
+            foreach (array_keys($value) as $key) {
+                if (! \is_string($key) && ! \is_int($key)) {
+                    throw new \Exception('Array key must be string or int');
+                }
+            }
+            
+            /** @var array<string, mixed> $typedValue */
+            $typedValue = $value;
+
+            return $typedValue;
+        }
+
+        if (\is_int($value) || \is_bool($value) || \is_string($value) || $value === null) {
+            return $value;
+        }
+
+>>>>>>> f1570712 (.)
         throw new \Exception('['.__LINE__.']['.__CLASS__.']');
     }
 

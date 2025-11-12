@@ -222,3 +222,11 @@ Dopo le correzioni:
 - Documentare eventuali modifiche alla struttura di testing
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> f1570712 (.)

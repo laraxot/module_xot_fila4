@@ -5,7 +5,10 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\XotBaseResource\RelationManager;
 
 use Exception;
+<<<<<<< HEAD
 use Filament\Forms\Components\Component;
+=======
+>>>>>>> f1570712 (.)
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Schemas\Components\Component as SchemaComponent;
 use Filament\Schemas\Schema;

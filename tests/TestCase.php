@@ -9,7 +9,11 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Illuminate\Support\Facades\Hash;
 use Mockery;
+<<<<<<< HEAD
 use Modules\<nome progetto>\Models\User;
+=======
+use Modules\SaluteOra\Models\User;
+>>>>>>> f1570712 (.)
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Datas\XotData;
 
@@ -19,6 +23,10 @@ abstract class TestCase extends BaseTestCase
 
     // use DatabaseMigrations;
 
+<<<<<<< HEAD
+=======
+    // =============================================================================
+>>>>>>> f1570712 (.)
     // SHARED TEST HELPER FUNCTIONS (DRY Pattern)
     // Queste funzioni erano duplicate in molti file di test
     // Centralizzate qui per manutenibilità e coerenza

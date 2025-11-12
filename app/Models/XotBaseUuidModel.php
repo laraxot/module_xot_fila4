@@ -13,7 +13,11 @@ use Illuminate\Database\Eloquent\Model;
  */
 abstract class XotBaseUuidModel extends Model
 {
+<<<<<<< HEAD
         /** @var bool */
+=======
+    /** @var bool */
+>>>>>>> f1570712 (.)
     public $incrementing = false;
 
     /** @var bool */

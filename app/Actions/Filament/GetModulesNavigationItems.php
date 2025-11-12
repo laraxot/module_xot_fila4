@@ -88,6 +88,10 @@ class GetModulesNavigationItems
 
             // $role è sempre stringa non vuota (concatenazione di stringhe non vuote), check ridondante rimosso
             $role = $module_low.'::admin';
+<<<<<<< HEAD
+=======
+            // $role è sempre stringa non vuota perché costruita da stringhe non vuote
+>>>>>>> f1570712 (.)
 
             $navigation_sort = $config['navigation_sort'] ?? 1;
             Assert::integerish($navigation_sort, 'navigation_sort deve essere un intero');

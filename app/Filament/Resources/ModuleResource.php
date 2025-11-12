@@ -7,12 +7,18 @@ namespace Modules\Xot\Filament\Resources;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Schemas\Components\Component;
+<<<<<<< HEAD
 use Modules\UI\Filament\Forms\Components\IconPicker;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+=======
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
+>>>>>>> f1570712 (.)
 use Modules\Xot\Models\Module;
 use Override;
 

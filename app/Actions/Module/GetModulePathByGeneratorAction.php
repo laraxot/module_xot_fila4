@@ -27,6 +27,10 @@ class GetModulePathByGeneratorAction
             $e->getMessage().
                 ']');
         }
+<<<<<<< HEAD
+=======
+        Assert::string($res, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 713050e (.)
 
         return $res;
     }

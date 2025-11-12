@@ -79,6 +79,7 @@ trait HasExtraTrait
             /** @var array<string, mixed> $value */
             return $value;
         }
+<<<<<<< HEAD
 
         if ($value === null || \is_bool($value) || \is_string($value)) {
             return $value;
@@ -105,6 +106,9 @@ trait HasExtraTrait
 
 >>>>>>> f1570712 (.)
         throw new \Exception('['.__LINE__.']['.__CLASS__.']');
+=======
+        throw new Exception('['.__LINE__.']['.__CLASS__.']');
+>>>>>>> 713050e (.)
     }
 
     /**

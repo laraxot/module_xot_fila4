@@ -47,6 +47,7 @@ class ExportXlsAction extends Action
                 if (method_exists($resource, 'getXlsFields')) {
                     $rawFields = $resource::getXlsFields($livewire->tableFilters);
                     if (is_array($rawFields)) {
+<<<<<<< HEAD
                         $fields = array_map(
                             /**
                              * @param  mixed  $field
@@ -69,6 +70,18 @@ class ExportXlsAction extends Action
                             },
                             $rawFields
                         );
+=======
+                        $fields = array_map(static function ($field): string {
+                            if (is_object($field) && method_exists($field, '__toString')) {
+                                return $field->__toString();
+                            }
+                            if (is_scalar($field)) {
+                                return (string) $field;
+                            }
+
+                            return '';
+                        }, $rawFields);
+>>>>>>> 713050e (.)
                     }
                     Assert::isArray($fields);
                 }

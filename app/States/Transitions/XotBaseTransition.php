@@ -96,6 +96,7 @@ abstract class XotBaseTransition extends Transition
         $notify = new RecordNotification($this->record, $slug);
 
         // $data = $this->getNotificationData();
+<<<<<<< HEAD
         /** @var array<string, mixed> $mergeData */
         $mergeData = $data;
         $notify = $notify->mergeData($mergeData);
@@ -103,6 +104,10 @@ abstract class XotBaseTransition extends Transition
         /** @var array<int, array<string, string>> $attachments */
         $attachments = $this->getNotificationAttachments();
         $notify = $notify->addAttachments($attachments);
+=======
+        $notify = $notify->mergeData($data);
+        $notify = $notify->addAttachments($this->getNotificationAttachments());
+>>>>>>> 713050e (.)
 
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);

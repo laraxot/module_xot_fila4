@@ -29,6 +29,14 @@ class DateTimeRule implements Rule
             return false;
         }
 
+<<<<<<< HEAD
+=======
+        Assert::string(
+            $value,
+            __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__).' - Value must be a string for datetime validation'
+        );
+
+>>>>>>> 713050e (.)
         $format = 'd/m/Y H:i';
         try {
             $value_new = Carbon::createFromFormat($format, $value);

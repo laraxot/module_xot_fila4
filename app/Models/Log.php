@@ -6,6 +6,11 @@ namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
+=======
+use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Database\Factories\FeedFactory;
+>>>>>>> 713050e (.)
 use Override;
 use Sushi\Sushi;
 
@@ -14,6 +19,7 @@ use Sushi\Sushi;
 /**
  * Modules\Xot\Models\Feed.
  *
+<<<<<<< HEAD
  * @property string|null $id
  * @property string|null $name
  * @property int|null $size
@@ -35,6 +41,29 @@ use Sushi\Sushi;
  * @method static Builder<static>|Log whereName($value)
  * @method static Builder<static>|Log whereSize($value)
  *
+=======
+ * @method static FeedFactory factory($count = null, $state = [])
+ * @method static Builder|Feed newModelQuery()
+ * @method static Builder|Feed newQuery()
+ * @method static Builder|Feed query()
+ * @method static Builder|Feed newModelQuery()
+ * @method static Builder|Feed newQuery()
+ * @method static Builder|Feed query()
+ *
+ * @property string|null $id
+ * @property string|null $name
+ * @property int|null $size
+ * @property string|null $file_content
+ *
+ * @method static Builder|Log whereId($value)
+ * @method static Builder|Log whereName($value)
+ * @method static Builder|Log whereSize($value)
+ *
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ *
+ * @mixin IdeHelperLog
+>>>>>>> 713050e (.)
  * @mixin \Eloquent
  */
 class Log extends BaseModel

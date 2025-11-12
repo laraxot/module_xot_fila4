@@ -5,14 +5,31 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 
 /**
  * @property string $id
+=======
+use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Database\Factories\PulseValueFactory;
+
+/**
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ *
+ * @method static PulseValueFactory factory($count = null, $state = [])
+ * @method static Builder|PulseValue newModelQuery()
+ * @method static Builder|PulseValue newQuery()
+ * @method static Builder|PulseValue query()
+ *
+ * @property int $id
+>>>>>>> 713050e (.)
  * @property int $timestamp
  * @property string $type
  * @property string $key
  * @property string|null $key_hash
  * @property string $value
+<<<<<<< HEAD
  * @property-read \Modules\Quaeris\Models\Profile|null $creator
  * @property-read \Modules\Quaeris\Models\Profile|null $updater
  *
@@ -27,6 +44,17 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseValue whereType($value)
  * @method static Builder<static>|PulseValue whereValue($value)
  *
+=======
+ *
+ * @method static Builder|PulseValue whereId($value)
+ * @method static Builder|PulseValue whereKey($value)
+ * @method static Builder|PulseValue whereKeyHash($value)
+ * @method static Builder|PulseValue whereTimestamp($value)
+ * @method static Builder|PulseValue whereType($value)
+ * @method static Builder|PulseValue whereValue($value)
+ *
+ * @mixin IdeHelperPulseValue
+>>>>>>> 713050e (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

@@ -5,6 +5,10 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Traits;
 
 use Exception;
+<<<<<<< HEAD
+=======
+use Illuminate\Contracts\Translation\Translator;
+>>>>>>> 713050e (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Modules\Lang\Actions\SaveTransAction;
@@ -92,9 +96,13 @@ trait TransTrait
     {
         /** @var array<int, string> $piece */
         $piece = Str::of($class)->explode('\\')->toArray();
+<<<<<<< HEAD
         /** @var string $type */
         $type = $piece[2] ?? '';
         Assert::string($type, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+        Assert::string($type = $piece[2], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 713050e (.)
         $module = Str::of($class)->between('Modules\\', '\\'.$type.'\\')->toString();
 
         $module_low = Str::of($module)->lower()->toString();
@@ -113,8 +121,11 @@ trait TransTrait
     {
         $class_key = static::getKeyTransClass($class);
         $key_full = $class_key.'.'.$key;
+<<<<<<< HEAD
         /** @var array<string, mixed>|\Illuminate\Contracts\Translation\Translator|string $result */
         $result = trans($key_full);
+=======
+>>>>>>> 713050e (.)
 
         return is_string($result) ? $result : $key_full;
     }
@@ -141,7 +152,10 @@ trait TransTrait
         if ($key === $trans) {
             $group = Str::of($key)->before('.')->toString();
             $item = Str::of($key)->after($group.'.')->toString();
+<<<<<<< HEAD
             /** @var array<string, mixed>|\Illuminate\Contracts\Translation\Translator|string $group_arr */
+=======
+>>>>>>> 713050e (.)
             $group_arr = trans($group);
             if (is_array($group_arr)) {
                 /** @var mixed $transValue */
@@ -199,6 +213,10 @@ trait TransTrait
         /** @var string $result */
         $result = trans_choice($key, $number, $replace);
 
+<<<<<<< HEAD
+=======
+        // @phpstan-ignore-next-line
+>>>>>>> 713050e (.)
         return is_string($result) ? $result : $key;
     }
 }

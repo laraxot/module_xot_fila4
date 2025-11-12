@@ -371,6 +371,7 @@ class XotData extends Data implements Wireable
     {
         $user_class = $this->getUserClass();
         $userInstance = app($user_class);
+<<<<<<< HEAD
 
         if (! is_object($userInstance) || ! method_exists($userInstance, 'getChildTypes')) {
             throw new Exception('getChildTypes method not found in class '.$user_class);
@@ -385,6 +386,13 @@ class XotData extends Data implements Wireable
         if (is_null($class)) {
             throw new Exception('type '.$type.' not found in class '.$user_class);
         }
+=======
+        $types = $userInstance->getChildTypes();
+        $class = Arr::get($types, $type);
+        if (is_null($class)) {
+            throw new Exception('type '.$type.' not found in class '.$user_class);
+        }
+>>>>>>> 713050e (.)
         Assert::classExists($class, '['.__LINE__.']['.class_basename($this).']');
         Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
         Assert::implementsInterface(

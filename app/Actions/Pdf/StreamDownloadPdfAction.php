@@ -19,10 +19,16 @@ class StreamDownloadPdfAction
     /**
      * Genera un PDF dall'HTML fornito.
      *
+<<<<<<< HEAD
      * @param  string|null  $html  Contenuto HTML da convertire
      * @param  string|null  $view  Nome della view da renderizzare
      * @param  array<string, mixed>|null  $data  Dati da passare alla view
      * @param  string  $filename  Nome del file PDF
+=======
+     * @param  string  $html  Contenuto HTML da convertire
+     * @param  string  $filename  Nome del file PDF
+     * @return StreamedResponse
+>>>>>>> 713050e (.)
      */
     public function execute(
         ?string $html = null,
@@ -34,9 +40,16 @@ class StreamDownloadPdfAction
             if (! view()->exists($view)) {
                 throw new Exception('View '.$view.' not found');
             }
+<<<<<<< HEAD
             /** @var array<string, mixed> $viewData */
             $viewData = is_array($data) ? $data : [];
             $html = view($view, $viewData)->render();
+=======
+            if (! is_array($data)) {
+                $data = [];
+            }
+            $html = view($view, $data)->render();
+>>>>>>> 713050e (.)
         }
         Assert::string($html, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [10, 10, 10, 10]);

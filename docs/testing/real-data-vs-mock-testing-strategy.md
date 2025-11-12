@@ -192,7 +192,11 @@ test('complete tax filing process', function () {
 ## 🏢 Domain-Specific Recommendations
 
 ### Healthcare Domain () - **Real Data Preferred**
+<<<<<<< HEAD
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+=======
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+>>>>>>> a5dccfe (.)
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -374,7 +378,11 @@ test('legacy feature with mocks', function () {
 ### Final Recommendation
 
 **For  Healthcare Domain**: 
+<<<<<<< HEAD
 **For SaluteOra Healthcare Domain**: 
+=======
+**For <nome progetto> Healthcare Domain**: 
+>>>>>>> a5dccfe (.)
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 

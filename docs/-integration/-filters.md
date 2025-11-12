@@ -4,6 +4,10 @@
 
 https://www.algolia.com/blog/engineering/implementing-faceted-search-with-dynamic-faceting-with-code/  !!!
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a5dccfe (.)
 ///--------------------------------------------------------------------
 
 http://tucker-eric.github.io/EloquentFilter/
@@ -13,13 +17,25 @@ return User::filter($request->all())->get();
 
 https://faun.pub/dynamic-filters-with-laravel-eloquent-2dad9d9ff7c2
 
+<<<<<<< HEAD
 ///--------------------------------------------------------------------
 
 https://orchid.software/en/docs/filters/
+=======
+
+///--------------------------------------------------------------------
+
+https://orchid.software/en/project_docs/filters/
+>>>>>>> a5dccfe (.)
 
 
 https://github.com/pricecurrent/laravel-eloquent-filters
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a5dccfe (.)
 $post = Post::search($query, function ($algolia, $query, $options) use ($category){
     $new_options = [];
     if (!is_null($type)) {
@@ -32,5 +48,10 @@ https://stackoverflow.com/questions/46285500/laravel-scout-search-with-facetfilt
 
 https://docs.meilisearch.com/learn/advanced/filtering_and_faceted_search.html
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a5dccfe (.)
 https://appdividend.com/2022/03/01/how-to-create-filters-in-laravel/  !
 

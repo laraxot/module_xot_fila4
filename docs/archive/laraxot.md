@@ -2945,11 +2945,7 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
    - Mostrare feedback appropriati
    - Gestire stati loading
 
-<<<<<<< HEAD
 # Filament 4 Forms e Componenti
-=======
-# Filament 3 Forms e Componenti
->>>>>>> a5dccfe (.)
 
 ## Componenti Forms vs UI
 
@@ -3035,11 +3031,7 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
    </x-filament::button>
    ```
 
-<<<<<<< HEAD
 # Filament 4 Plugins e Notifiche
-=======
-# Filament 3 Plugins e Notifiche
->>>>>>> a5dccfe (.)
 
 ## 1. Installazione Pacchetti Necessari
 ```bash
@@ -3543,11 +3535,7 @@ $remember = $data['remember'] ?? false;
    }
    ```
 
-<<<<<<< HEAD
 # Setup Assets Filament 4
-=======
-# Setup Assets Filament 3
->>>>>>> a5dccfe (.)
 
 ## 1. Installazione Pacchetti NPM
 
@@ -5536,27 +5524,16 @@ class CustomAction
    }
    ```
 
-<<<<<<< HEAD
 # Notifiche in Filament 4
-=======
-# Notifiche in Filament 3
->>>>>>> a5dccfe (.)
 
 ## Differenze con Filament 2
 
 ### ❌ Filament 2 (Vecchio Modo)
 ```php
-<<<<<<< HEAD
 $this->notify('success', 'Messaggio');  // Non funziona più in Filament 4
 ```
 
 ### ✅ Filament 4 (Modo Corretto)
-=======
-$this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
-```
-
-### ✅ Filament 3 (Modo Corretto)
->>>>>>> a5dccfe (.)
 ```php
 use Filament\Notifications\Notification;
 
@@ -6262,11 +6239,7 @@ $remember = $data['remember'] ?? false;
    }
    ```
 
-<<<<<<< HEAD
 # Setup Assets Filament 4
-=======
-# Setup Assets Filament 3
->>>>>>> a5dccfe (.)
 
 ## 1. Installazione Pacchetti NPM
 
@@ -8518,11 +8491,7 @@ Framework based on Laravel for building modular applications.
 ## Notes
 *This file will be updated as more technical information is gathered*
 
-<<<<<<< HEAD
 # Widget Configuration in Filament 4
-=======
-# Widget Configuration in Filament 3
->>>>>>> a5dccfe (.)
 
 ## Implementazione Corretta dei Widget
 
@@ -8615,22 +8584,14 @@ class ClientMapWidget extends Widget
    - Soluzione: Aggiungere controllo `instanceof` e PHPDoc
 
 ### Note Importanti
-<<<<<<< HEAD
 1. La configurazione dei widget è stata semplificata in Filament 4
-=======
-1. La configurazione dei widget è stata semplificata in Filament 3
->>>>>>> a5dccfe (.)
 2. Non è più necessario utilizzare `WidgetConfiguration::make()`
 3. I dati vengono gestiti direttamente nel widget tramite `getViewData()`
 4. Il componente Livewire padre è accessibile tramite `getLivewire()`
 5. È importante implementare controlli di tipo per evitare errori
 ```
 
-<<<<<<< HEAD
 # Configurazione Widget in Filament 4 (Laravel 11+)
-=======
-# Configurazione Widget in Filament 3 (Laravel 11+)
->>>>>>> a5dccfe (.)
 
 ## Implementazione Widget
 
@@ -8736,11 +8697,7 @@ class ClientMapWidget extends Widget
 
 ## Note sulla Migrazione
 
-<<<<<<< HEAD
 1. **Breaking Changes in Filament 4**
-=======
-1. **Breaking Changes in Filament 3**
->>>>>>> a5dccfe (.)
    - Rimossa la classe `WidgetConfiguration`
    - Semplificata la registrazione dei widget
    - Migliorato il sistema di type hinting
@@ -8758,11 +8715,7 @@ class ClientMapWidget extends Widget
    - Testare la funzionalità dopo la migrazione
 ```
 
-<<<<<<< HEAD
 # Widget Reattivi in Filament 4 (Laravel 11+)
-=======
-# Widget Reattivi in Filament 3 (Laravel 11+)
->>>>>>> a5dccfe (.)
 
 ## Implementazione Widget
 

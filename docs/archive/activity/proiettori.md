@@ -94,8 +94,4 @@ https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-f
 
 ## Proprietà $handlesEvents 
 Registrazione manuale dei metodi di gestione degli eventi
-<<<<<<< HEAD
 https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-manually-registering-event-handling-methods
-=======
-https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-manually-registering-event-handling-methods
->>>>>>> a5dccfe (.)

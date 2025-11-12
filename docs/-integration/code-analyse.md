@@ -9,10 +9,7 @@ install:
 cmd:
 ./vendor/bin/phpstan analyse ./Modules/Xot
 
-<<<<<<< HEAD
-=======
 
->>>>>>> a5dccfe (.)
 //----------------------------------------------------------
 https://github.com/phan/phan/wiki/Getting-Started
 
@@ -47,15 +44,9 @@ $ wget https://phar.phpunit.de/phpcpd.phar
 
 $ php phpcpd.phar --version
 
-<<<<<<< HEAD
-//---------------------
-https://scrutinizer-ci.com/docs/tools/php/php-scrutinizer/
-
-=======
 
 //---------------------
 https://scrutinizer-ci.com/project_docs/tools/php/php-scrutinizer/
->>>>>>> a5dccfe (.)
 
 //--------------------
 https://github.com/Qafoo/QualityAnalyzer
@@ -69,12 +60,7 @@ cmd:
 bin/analyze analyze /path/to/source
 //-------------------------------------------------------------
 
-<<<<<<< HEAD
-https://psalm.dev/docs/running_psalm/installation/
-
-=======
 https://psalm.dev/project_docs/running_psalm/installation/
->>>>>>> a5dccfe (.)
 
 //--------------------------------------------------------------------
 https://github.com/scrutinizer-ci/php-analyzer
@@ -86,13 +72,10 @@ https://geekflare.com/php-security-scanner/
 https://hub.docker.com/r/adamculp/php-code-quality
 https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html
 
-<<<<<<< HEAD
-=======
 
 
 
 
->>>>>>> a5dccfe (.)
 https://github.com/enlightn/enlightn
 
  "edgedesign/phpqa": "^1.23",
@@ -101,8 +84,6 @@ https://github.com/enlightn/enlightn
         "phpmetrics/phpmetrics": "^2.7",
         "phpunit/php-code-coverage": "^9.2",
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -114,4 +95,3 @@ https://github.com/enlightn/enlightn
 
 
 
->>>>>>> a5dccfe (.)

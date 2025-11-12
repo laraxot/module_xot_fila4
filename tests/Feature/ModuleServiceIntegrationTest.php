@@ -8,6 +8,7 @@ use Modules\Xot\Services\ModuleService;
 
 describe('ModuleService Integration', function (): void {
     beforeEach(function (): void {
+        /* @phpstan-ignore-next-line property.notFound */
         $this->service = new ModuleService('Xot');
     });
 
@@ -78,6 +79,7 @@ describe('ModuleService Integration', function (): void {
         $models = $this->service->getModels();
 
         // BaseModel should not be included (it's abstract)
+        /* @phpstan-ignore-next-line argument.type */
         $modelNames = array_keys($models);
         expect($modelNames)->not->toContain('base_model');
     });
@@ -86,11 +88,13 @@ describe('ModuleService Integration', function (): void {
         /** @phpstan-ignore-next-line property.notFound */
         $models = $this->service->getModels();
 
+        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $key => $modelClass) {
             expect($key)
                 ->toBeString()
                 ->and($modelClass)
                 ->toBeString()
+                /* @phpstan-ignore-next-line argument.type */
                 ->and(str_contains($modelClass, 'Modules\\'))
                 ->toBeTrue();
         }
@@ -102,7 +106,9 @@ describe('ModuleService Integration', function (): void {
         $models = $this->service->getModels();
 
         // Test each returned model class
+        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $modelClass) {
+            /* @phpstan-ignore-next-line argument.type */
             expect(class_exists($modelClass) || interface_exists($modelClass))->toBeTrue();
         }
     });
@@ -130,10 +136,10 @@ describe('ModuleService Integration', function (): void {
 
     it('can handle multiple module instances', function (): void {
         $services = [
-            new ModuleService('Chart'),
-            new ModuleService('User'),
-            new ModuleService('Xot'),
-            new ModuleService('Job'),
+                new ModuleService('Chart'),
+                new ModuleService('User'),
+                new ModuleService('Xot'),
+                new ModuleService('Job'),
         ];
 
         foreach ($services as $service) {
@@ -170,7 +176,9 @@ describe('ModuleService Integration', function (): void {
         $models = $this->service->getModels();
 
         // All returned classes should be valid PHP classes
+        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $modelClass) {
+            /* @phpstan-ignore-next-line argument.type */
             expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
         }
     });
@@ -178,9 +186,9 @@ describe('ModuleService Integration', function (): void {
     it('handles exception scenarios gracefully', function (): void {
         // Test various edge cases that might cause exceptions
         $edgeCaseServices = [
-            new ModuleService(''),
-            new ModuleService('InvalidModule'),
-            new ModuleService('Test123'),
+                new ModuleService(''),
+                new ModuleService('InvalidModule'),
+                new ModuleService('Test123'),
         ];
 
         foreach ($edgeCaseServices as $service) {
@@ -195,13 +203,17 @@ describe('ModuleService Integration', function (): void {
         expect($models)->toBeArray();
 
         // Validate that all keys are strings and all values are class strings
+        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $key => $value) {
+            /* @phpstan-ignore-next-line argument.type */
             expect($key)
                 ->toBeString()
                 ->and($value)
                 ->toBeString()
+                /* @phpstan-ignore-next-line argument.type */
                 ->and(strlen($key))
                 ->toBeGreaterThan(0)
+                /* @phpstan-ignore-next-line argument.type */
                 ->and(strlen($value))
                 ->toBeGreaterThan(0);
         }
@@ -217,14 +229,14 @@ describe('ModuleService Integration', function (): void {
     it('handles concurrent access correctly', function (): void {
         // Test multiple simultaneous calls
         $results = [];
-        for ($i = 0; $i < 3; $i++) {
+        for ($i = 0; $i < 3; ++$i) {
             $service = new ModuleService('Xot');
-            /** @phpstan-ignore-next-line method.nonObject, offsetAccess.nonOffsetAccessible */
+            /* @phpstan-ignore-next-line method.nonObject, offsetAccess.nonOffsetAccessible */
             $results[] = $service->getModels();
         }
 
         // All results should be consistent
-        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+        /* @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
         expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
     });
 
@@ -233,6 +245,7 @@ describe('ModuleService Integration', function (): void {
         /** @phpstan-ignore-next-line property.notFound */
         $models = $this->service->getModels();
 
+        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $modelClass) {
             // Each model class should follow the correct namespace pattern
             expect($modelClass)->toMatch('/^Modules\\\\[A-Za-z]+\\\\Models\\\\[A-Za-z]+$/');
@@ -263,6 +276,7 @@ describe('ModuleService Integration', function (): void {
         /** @phpstan-ignore-next-line method.nonObject */
         $constructor = $reflection->getConstructor();
 
+        /* @phpstan-ignore-next-line method.nonObject */
         expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
     });
 

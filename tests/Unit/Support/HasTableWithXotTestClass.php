@@ -35,6 +35,7 @@ class HasTableWithXotTestClass implements HasTable
     public function getTable(): Table
     {
         /** @var Table */
+        /* @phpstan-ignore-next-line return.type */
         return \Mockery::mock(Table::class);
     }
 

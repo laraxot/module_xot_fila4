@@ -32,10 +32,19 @@ test('it can create module', function (): void {
     $module->delete();
 });
 
+<<<<<<< HEAD
 test('it can enable and disable module', function (): void {
     // Arrange
     /** @var Module */
     $module = Module::factory()->create(['enabled' => false]);
+=======
+    /** @test */
+    public function it_can_enable_and_disable_module(): void
+    {
+        // Arrange
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['enabled' => false]);
+>>>>>>> c07dd86 (.)
 
     // Act - Enable module
     $module->update(['enabled' => true]);
@@ -49,9 +58,18 @@ test('it can enable and disable module', function (): void {
     // Assert
     expect($module->fresh()->enabled)->toBeFalse();
 
+<<<<<<< HEAD
     // Clean up
     $module->delete();
 });
+=======
+    /** @test */
+    public function it_can_update_module_version(): void
+    {
+        // Arrange
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['version' => '1.0.0']);
+>>>>>>> c07dd86 (.)
 
 test('it can update module version', function (): void {
     // Arrange
@@ -61,6 +79,7 @@ test('it can update module version', function (): void {
     // Act
     $module->update(['version' => '2.0.0']);
 
+<<<<<<< HEAD
     // Assert
     expect($module->fresh()->version)->toBe('2.0.0');
 
@@ -72,6 +91,14 @@ test('it can manage module dependencies', function (): void {
     // Arrange
     /** @var Module */
     $module = Module::factory()->create([
+=======
+    /** @test */
+    public function it_can_manage_module_dependencies(): void
+    {
+        // Arrange
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create([
+>>>>>>> c07dd86 (.)
             'dependencies' => ['user', 'auth'],
         ]);
 
@@ -192,6 +219,7 @@ test('it can validate module version format', function (): void {
     }
 });
 
+<<<<<<< HEAD
 test('it can manage module installation date', function (): void {
     // Arrange
     $installationDate = now()->subDays(30);
@@ -199,6 +227,13 @@ test('it can manage module installation date', function (): void {
     $module = Module::factory()->create([
             'installed_at' => $installationDate,
         ]);
+=======
+    /** @test */
+    public function it_can_validate_module_slug_uniqueness(): void
+    {
+        // Arrange
+        Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['slug' => 'unique-module']);
+>>>>>>> c07dd86 (.)
 
     // Act
     $moduleInstalledAt = $module->installed_at;
@@ -228,8 +263,13 @@ test('it can manage module update history', function (): void {
     /** @var Module */
     $module = Module::factory()->create(['update_history' => $updateHistory]);
 
+<<<<<<< HEAD
     // Act
     $moduleUpdateHistory = $module->update_history;
+=======
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['config' => $config]);
+>>>>>>> c07dd86 (.)
 
     // Assert
     expect($moduleUpdateHistory)->toBeArray()
@@ -243,10 +283,154 @@ test('it can manage module update history', function (): void {
     $module->delete();
 });
 
+<<<<<<< HEAD
 test('it can check module compatibility', function (): void {
     // Arrange
     /** @var Module */
     $module = Module::factory()->create([
+=======
+    /** @test */
+    public function it_can_check_module_status(): void
+    {
+        // Arrange
+        /** @var \Illuminate\Database\Eloquent\Collection */
+        $enabledModule = Module/** @phpstan-ignore-line */ ::factory()->create(['enabled' => true]);
+        /** @var \Illuminate\Database\Eloquent\Collection */
+        $disabledModule = Module/** @phpstan-ignore-line */ ::factory()->create(['enabled' => false]);
+
+        // Act & Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertTrue($enabledModule->isEnabled());
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertFalse($disabledModule->isEnabled());
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertFalse($enabledModule->isDisabled());
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertTrue($disabledModule->isDisabled());
+    }
+
+    /** @test */
+    public function it_can_manage_module_metadata(): void
+    {
+        // Arrange
+        $metadata = [
+            'author' => 'Test Author',
+            'website' => 'https://example.com',
+            'license' => 'MIT',
+            'tags' => ['test', 'example'],
+        ];
+
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['metadata' => $metadata]);
+
+        // Act
+        $moduleMetadata = $module->metadata;
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertIsArray($moduleMetadata);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertEquals('Test Author', $moduleMetadata['author']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertEquals('https://example.com', $moduleMetadata['website']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertEquals('MIT', $moduleMetadata['license']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertContains('test', $moduleMetadata['tags']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertContains('example', $moduleMetadata['tags']);
+    }
+
+    /** @test */
+    public function it_can_validate_module_version_format(): void
+    {
+        // Arrange
+        $validVersions = ['1.0.0', '2.1.3', '10.5.2', '0.1.0'];
+
+        foreach ($validVersions as $version) {
+            // Act
+            /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['version' => $version]);
+
+            // Assert
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+            $this->assertEquals($version, $module->version);
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+            $this->assertDatabaseHas('modules', [
+                'id' => $module->id,
+                'version' => $version,
+            ]);
+        }
+    }
+
+    /** @test */
+    public function it_can_manage_module_installation_date(): void
+    {
+        // Arrange
+        $installationDate = now()->subDays(30);
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create([
+            'installed_at' => $installationDate,
+        ]);
+
+        // Act
+        $moduleInstalledAt = $module->installed_at;
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertEquals($installationDate, $moduleInstalledAt);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertDatabaseHas('modules', [
+            'id' => $module->id,
+            'installed_at' => $installationDate,
+        ]);
+    }
+
+    /** @test */
+    public function it_can_manage_module_update_history(): void
+    {
+        // Arrange
+        $updateHistory = [
+            [
+                'version' => '1.0.0',
+                'date' => '2024-01-01',
+                'changes' => 'Initial release',
+            ],
+            [
+                'version' => '1.1.0',
+                'date' => '2024-02-01',
+                'changes' => 'Bug fixes and improvements',
+            ],
+        ];
+
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['update_history' => $updateHistory]);
+
+        // Act
+        $moduleUpdateHistory = $module->update_history;
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertIsArray($moduleUpdateHistory);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertCount(2, $moduleUpdateHistory);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertEquals('1.0.0', $moduleUpdateHistory[0]['version']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertEquals('Initial release', $moduleUpdateHistory[0]['changes']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertEquals('1.1.0', $moduleUpdateHistory[1]['version']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertEquals('Bug fixes and improvements', $moduleUpdateHistory[1]['changes']);
+    }
+
+    /** @test */
+    public function it_can_check_module_compatibility(): void
+    {
+        // Arrange
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create([
+>>>>>>> c07dd86 (.)
             'laravel_version' => '^10.0',
             'php_version' => '^8.1',
         ]);
@@ -378,18 +562,151 @@ test('it can validate module required fields', function (): void {
             'enabled' => true,
         ];
 
+<<<<<<< HEAD
         // Remove required field
         unset($moduleData[$field]);
+=======
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['permissions' => $permissions]);
+>>>>>>> c07dd86 (.)
 
         // Act & Assert
         expect(fn () => Module::create($moduleData))->toThrow(QueryException::class);
     }
 });
 
+<<<<<<< HEAD
 test('it can manage module activation workflow', function (): void {
     // Arrange
     /** @var Module */
     $module = Module::factory()->create([
+=======
+    /** @test */
+    public function it_can_manage_module_routes(): void
+    {
+        // Arrange
+        $routes = [
+            'web' => ['prefix' => 'module', 'middleware' => ['web']],
+            'api' => ['prefix' => 'api/module', 'middleware' => ['api']],
+        ];
+
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['routes' => $routes]);
+
+        // Act
+        $moduleRoutes = $module->routes;
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertIsArray($moduleRoutes);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertArrayHasKey('web', $moduleRoutes);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertArrayHasKey('api', $moduleRoutes);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertEquals('module', $moduleRoutes['web']['prefix']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertEquals('api/module', $moduleRoutes['api']['prefix']);
+    }
+
+    /** @test */
+    public function it_can_manage_module_assets(): void
+    {
+        // Arrange
+        $assets = [
+            'css' => ['app.css', 'vendor.css'],
+            'js' => ['app.js', 'vendor.js'],
+            'images' => ['logo.png', 'icon.svg'],
+        ];
+
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['assets' => $assets]);
+
+        // Act
+        $moduleAssets = $module->assets;
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertIsArray($moduleAssets);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertArrayHasKey('css', $moduleAssets);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertArrayHasKey('js', $moduleAssets);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertArrayHasKey('images', $moduleAssets);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertContains('app.css', $moduleAssets['css']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertContains('app.js', $moduleAssets['js']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertContains('logo.png', $moduleAssets['images']);
+    }
+
+    /** @test */
+    public function it_can_manage_module_settings(): void
+    {
+        // Arrange
+        $settings = [
+            'debug' => false,
+            'cache' => true,
+            'timeout' => 30,
+            'features' => ['feature1', 'feature2'],
+        ];
+
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['settings' => $settings]);
+
+        // Act
+        $moduleSettings = $module->settings;
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertIsArray($moduleSettings);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertFalse($moduleSettings['debug']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertTrue($moduleSettings['cache']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertEquals(30, $moduleSettings['timeout']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertContains('feature1', $moduleSettings['features']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
+        $this->assertContains('feature2', $moduleSettings['features']);
+    }
+
+    /** @test */
+    public function it_can_validate_module_required_fields(): void
+    {
+        // Arrange
+        $requiredFields = ['name', 'slug', 'version'];
+
+        foreach ($requiredFields as $field) {
+            $moduleData = [
+                'name' => 'Test Module',
+                'slug' => 'test-module',
+                'version' => '1.0.0',
+                'enabled' => true,
+            ];
+
+            // Remove required field
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+            unset($moduleData[$field]);
+
+            // Act & Assert
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+            $this->expectException(QueryException::class);
+
+            Module::create($moduleData);
+        }
+    }
+
+    /** @test */
+    public function it_can_manage_module_activation_workflow(): void
+    {
+        // Arrange
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create([
+>>>>>>> c07dd86 (.)
             'enabled' => false,
             'activation_date' => null,
         ]);
@@ -418,6 +735,7 @@ test('it can manage module activation workflow', function (): void {
     $module->delete();
 });
 
+<<<<<<< HEAD
 test('it can track module usage statistics', function (): void {
     // Arrange
     $usageStats = [
@@ -426,6 +744,10 @@ test('it can track module usage statistics', function (): void {
         'last_used' => now()->subHours(2),
         'popular_features' => ['feature1', 'feature2'],
     ];
+=======
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['usage_statistics' => $usageStats]);
+>>>>>>> c07dd86 (.)
 
     /** @var Module */
     $module = Module::factory()->create(['usage_statistics' => $usageStats]);
@@ -441,9 +763,14 @@ test('it can track module usage statistics', function (): void {
         ->and($moduleUsageStats['popular_features'])->toContain('feature1')
         ->and($moduleUsageStats['popular_features'])->toContain('feature2');
 
+<<<<<<< HEAD
     // Clean up
     $module->delete();
 });
+=======
+        /** @var Module */
+        $module = Module/** @phpstan-ignore-line method.notFound */ ::factory()->create(['error_log' => $errorLog]);
+>>>>>>> c07dd86 (.)
 
 test('it can manage module error logging', function (): void {
     // Arrange

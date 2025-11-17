@@ -68,7 +68,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @return static
      */
-    public function newInstance(array $attributes = [], bool $exists = false): static;
+    public function newInstance($attributes = [], $exists = false);
 
     /**
      * Get the value of the model's primary key.

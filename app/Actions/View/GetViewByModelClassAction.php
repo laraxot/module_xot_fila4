@@ -21,6 +21,7 @@ class GetViewByModelClassAction
         $module_low = Str::of($module)->lower()->toString();
         $model_name = class_basename($model_class);
         $model_name = Str::of($model_name)->snake()->toString();
+
         return $module_low.'::'.$model_name.$suffix;
     }
 }

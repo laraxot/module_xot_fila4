@@ -13,11 +13,12 @@ use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Actions\File\AssetAction;
 use Modules\Xot\Actions\File\AssetPathAction;
 use Modules\Xot\Datas\Transformers\AssetTransformer;
-use function Safe\file_get_contents;
 use Spatie\LaravelData\Attributes\WithTransformer;
 use Spatie\LaravelData\Concerns\WireableData;
 use Spatie\LaravelData\Data;
 use Throwable;
+
+use function Safe\file_get_contents;
 
 /**
  * Class MetatagData
@@ -365,7 +366,6 @@ class MetatagData extends Data implements Wireable
     public function getFavicon(): string
     {
         try {
-            /** @var string $path */
             return app(AssetAction::class)->execute($this->favicon);
         } catch (Throwable $e) {
             return asset($this->favicon);
@@ -637,6 +637,7 @@ class MetatagData extends Data implements Wireable
     public function getPubThemeAsset(string $file): string
     {
         $xot = XotData::make();
+
         return $xot->getPubThemePublicAsset($file);
     }
 

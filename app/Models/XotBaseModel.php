@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 // use Laravel\Scout\Searchable;
 // ---- Traits ----
 use Modules\Xot\Models\Traits\HasXotFactory;
@@ -16,6 +17,8 @@ use Modules\Xot\Traits\Updater;
 abstract class XotBaseModel extends Model
 {
     use HasXotFactory;
+
+    use SoftDeletes;
     // use Searchable;
     use Updater;
 

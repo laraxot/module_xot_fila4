@@ -7,7 +7,6 @@ namespace Modules\Xot\Contracts;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Query\Builder;
 use Modules\User\Models\Role;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\Permission\Contracts\Permission;
@@ -67,13 +66,6 @@ interface ProfileContract extends HasMedia
      * @throws PermissionDoesNotExist
      */
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
-
-    /**
-     * Create a new Eloquent query builder for the model.
-     *
-     * @return \Illuminate\Database\Eloquent\Builder|static
-     */
-    public function newEloquentBuilder(Builder $query): \Illuminate\Database\Eloquent\Builder|static;
 
     /**
      * Undocumented function.

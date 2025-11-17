@@ -55,26 +55,6 @@ interface HasRecursiveRelationshipsContract
     public function getParentKeyName(): string;
 
     /**
-     * Get the qualified parent key column.
-     */
-    public function getQualifiedParentKeyName(): string;
-
-    /**
-     * Get the name of the local key column.
-     */
-    public function getLocalKeyName(): string;
-
-    /**
-     * Get the qualified local key column.
-     */
-    public function getQualifiedLocalKeyName(): string;
-
-    /**
-     * Get the name of the depth column.
-     */
-    public function getDepthName(): string;
-
-    /**
      * Get the name of the path column.
      */
     public function getPathName(): string;
@@ -86,6 +66,8 @@ interface HasRecursiveRelationshipsContract
 
     /**
      * Get the additional custom paths.
+     *
+     * @return array<string>
      */
     public function getCustomPaths(): array;
 

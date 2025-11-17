@@ -25,6 +25,7 @@ class GetTransFilenameAction
         }
 
         $lang_path_full = $langPath.'/'.$lang.'/'.$file.'.php';
+
         return str_replace(['\\', '/'], [DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $lang_path_full);
     }
 }

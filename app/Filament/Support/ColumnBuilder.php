@@ -32,7 +32,6 @@ use Filament\Tables\Columns\TextColumn;
  */
 class ColumnBuilder
 {
-
     /**
      * Standard ID column (sortable, searchable).
      *
@@ -305,6 +304,7 @@ class ColumnBuilder
             'deleted_at' => self::deletedAt(),
         ];
     }
+
     /**
      * Helper to safely cast translation to string.
      *

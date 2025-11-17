@@ -17,8 +17,8 @@ use Modules\Xot\Http\Middleware\SetDefaultTenantForUrlsMiddleware;
 
 class RouteServiceProvider extends ServiceProvider
 {
-
     public string $name = 'Xot';
+
     /**
      * The root namespace to assume when generating URLs to actions.
      */

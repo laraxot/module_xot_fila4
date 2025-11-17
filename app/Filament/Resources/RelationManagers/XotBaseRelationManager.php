@@ -66,6 +66,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     {
         $class = static::class;
         $arr = explode('\\', $class);
+
         return $arr[1];
     }
 

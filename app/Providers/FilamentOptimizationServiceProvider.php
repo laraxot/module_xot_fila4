@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
 use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
 use PDO;
+
 use function Safe\preg_match;
 
 /**

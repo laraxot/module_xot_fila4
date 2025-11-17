@@ -4,20 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
-use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Query\Builder;
 use Modules\User\Models\Role;
 use Spatie\Permission\Contracts\Permission;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 
 /**
  * Modules\Xot\Contracts\ModelProfileContract.
- *
- * @property string $id
- * @property string $email
- * @property Collection<int, Role> $roles
- * @property int|null $roles_count
  *
  * @phpstan-require-extends Model
  *
@@ -29,7 +23,6 @@ interface ModelProfileContract extends ModelContract
      * Grant the given permission(s) to a role.
      *
      * @param  string|int|array<int, string|int|Permission>|Permission|\Illuminate\Support\Collection<int, Permission>  $permissions
-     *
      * @return $this
      */
     public function givePermissionTo(string|int|array|Permission|\Illuminate\Support\Collection $permissions = []);
@@ -38,7 +31,6 @@ interface ModelProfileContract extends ModelContract
      * Assign the given role to the model.
      *
      * @param  array<int, string|int|\Spatie\Permission\Contracts\Role>|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection<int, \Spatie\Permission\Contracts\Role>  $roles
-     *
      * @return $this
      */
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
@@ -76,5 +68,5 @@ interface ModelProfileContract extends ModelContract
      *
      * @return \Illuminate\Database\Eloquent\Builder|static
      */
-    public function newEloquentBuilder(Builder $query): \Illuminate\Database\Eloquent\Builder|static;
+    public function newEloquentBuilder(Builder $query);
 }

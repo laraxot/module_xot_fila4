@@ -20,7 +20,6 @@ final class GetFieldnamesByTablenameAction
      *
      * @param  string  $table  Table name to get columns from
      * @param  string|null  $connectionName  Database connection name (optional)
-     *
      * @return list
      *
      * @throws InvalidArgumentException
@@ -52,6 +51,7 @@ final class GetFieldnamesByTablenameAction
         // Get and return column listing
         try {
             $columns = Schema::connection($connectionName)->getColumnListing($table);
+
             return array_values($columns);
             // $columns = array_map('strval', $columns);
             // return array_values(array_map(static fn ($value): string => is_string($value) ? $value : (string) $value, $columns));

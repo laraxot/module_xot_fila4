@@ -175,7 +175,6 @@ class XotServiceProvider extends XotBaseServiceProvider
     {
         $components = [Field::class, BaseFilter::class, Placeholder::class, Column::class, Entry::class];
         foreach ($components as $component) {
-            /** @var Configurable $component */
             $component::configureUsing(function (Component $translatable): void {
                 /* @phpstan-ignore method.notFound */
                 $translatable->translateLabel();

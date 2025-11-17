@@ -47,6 +47,7 @@ class GetTransKeyAction
                 $page_arr_count = count($page_arr);
                 $page_arr_last = $page_arr[$page_arr_count - 1];
                 $page_arr_last_snake = Str::of($page_arr_last)->snake()->toString();
+
                 return $main_module_low.'::'.$page_arr_last_snake;
             }
 

@@ -6,7 +6,7 @@ namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
-use Modules\Xot\Actions\Array\SaveArrayAction;
+use Modules\Xot\Actions\Arr\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Xot\Models\Module;

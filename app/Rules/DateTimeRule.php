@@ -16,13 +16,13 @@ class DateTimeRule implements Rule
     /**
      * Determine if the validation rule passes.
      *
-     * @param  string  $_attribute  The attribute name being validated
+     * @param  string  $attribute  The attribute name being validated
      * @param  mixed  $value  The value being validated
      */
-    public function passes(string $_attribute, mixed $value): bool
+    public function passes($attribute, $value): bool
     {
         // dddx($attribute); //published_at
-        // dddx($value);//10/10/2019 13:43
+        // dddx($value); //10/10/2019 13:43
         // return 5 === strlen($value);
 
         if (! is_string($value)) {

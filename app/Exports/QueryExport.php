@@ -25,7 +25,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 
     public array $headings = [];
 
-    /** @var array<int, string> */
+    /** @var array<int, int|string> */
     public array $fields = [];
 
     public ?string $transKey = null;
@@ -33,7 +33,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     public QueryBuilder|EloquentBuilder $query;
 
     /**
-     * @param  array<int, string>  $fields
+     * @param array<int, int|string> $fields
      */
     public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
     {
@@ -59,30 +59,53 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
          */
     }
 
+    /**
+     * @return Collection<int, int|string>
+     */
     public function getHead(): Collection
     {
         if (! empty($this->fields)) {
-            return collect($this->fields);
+            return collect(array_values($this->fields))
+                ->map(
+                    static fn (mixed $heading): int|string => \is_int($heading) ? $heading : (string) $heading
+                );
         }
         /**
          * @var Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null
          */
         $first = $this->query->first();
-        if ($first === null) {
-            return collect([]);
+        if (null === $first) {
+            /** @var Collection<int, int|string> $emptyCollection */
+            $emptyCollection = collect([]);
+
+            return $emptyCollection;
         }
 
-        // Parameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
-        return collect($first)->keys();
+        /** @var Collection<int, int|string> $result */
+        $result = collect(array_keys($this->normalizeRow($first)))
+            ->map(
+                static fn (mixed $heading): int|string => \is_int($heading) ? $heading : (string) $heading
+            );
+
+        return $result;
     }
 
     public function headings(): array
     {
-        $headings = $this->getHead();
-        $transKey = $this->transKey;
-        $headings = app(TransCollectionAction::class)->execute($headings, $transKey);
+        /** @var Collection<int|string, mixed> $headingsWithKeys */
+        $headingsWithKeys = $this->getHead()
+            ->values()
+            ->mapWithKeys(
+                static function (int|string $value, int $key): array {
+                    $stringKey = (string) $value;
 
-        return $headings->toArray();
+                    return [$stringKey => $value];
+                },
+            );
+
+        $translated = app(TransCollectionAction::class)->execute($headingsWithKeys, $this->transKey);
+
+        return $translated->toArray();
     }
 
     /**
@@ -101,15 +124,49 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     }
 
     /**
-     * @param  Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null  $item
+     * @return array<int|string, mixed>
      */
-    public function map(Arrayable|iterable|null $item): array
+    public function map(mixed $row): array
     {
-        if (! empty($this->fields)) {
-            return collect($item)->toArray();
+        $rowArray = $this->normalizeRow($row);
+
+        if (empty($this->fields)) {
+            return $rowArray;
         }
 
-        // rameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
-        return collect($item)->only($this->fields)->toArray();
+        return collect($this->fields)
+            ->mapWithKeys(static function (mixed $field, int|string $_key) use ($rowArray): array {
+                $keyString = \is_string($field) ? $field : (string) $field;
+
+                return [$keyString => $rowArray[$keyString] ?? null];
+            })
+            ->toArray();
+    }
+
+    /**
+     * @return array<int|string, mixed>
+     */
+    private function normalizeRow(mixed $row): array
+    {
+        if (null === $row) {
+            return [];
+        }
+
+        if ($row instanceof Arrayable) {
+            /* @var array<int|string, mixed> */
+            return $row->toArray();
+        }
+
+        if (\is_array($row)) {
+            /* @var array<int|string, mixed> */
+            return $row;
+        }
+
+        if ($row instanceof \Traversable) {
+            /* @var array<int|string, mixed> */
+            return iterator_to_array($row);
+        }
+
+        return (array) $row;
     }
 }

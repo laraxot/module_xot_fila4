@@ -14,7 +14,7 @@ use Modules\Tenant\Models\Traits\SushiToJson;
  * @property string $table_name
  * @property string|null $model_class
  */
-class InformationSchemaTable extends Model
+class InformationSchemaTable extends BaseModel
 {
     use SushiToJson;
 
@@ -72,7 +72,7 @@ class InformationSchemaTable extends Model
     /**
      * Aggiorna il numero di record memorizzato per un modello.
      *
-     * @param  class-string<Model>  $modelClass
+     * @param  class-string<\Illuminate\Database\Eloquent\Model>  $modelClass
      */
     public static function updateModelCount(string $modelClass, int $total): void
     {
@@ -102,7 +102,7 @@ class InformationSchemaTable extends Model
     /**
      * Restituisce il numero di record per un modello.
      *
-     * @param  class-string<Model>  $modelClass
+     * @param  class-string<\Illuminate\Database\Eloquent\Model>  $modelClass
      */
     public static function getModelCount(string $modelClass): int
     {

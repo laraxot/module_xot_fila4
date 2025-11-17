@@ -16,10 +16,11 @@ use Modules\User\Contracts\TenantContract;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\UserContract;
 use RuntimeException;
-use function Safe\realpath;
 use Spatie\LaravelData\Concerns\WireableData;
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
+
+use function Safe\realpath;
 
 /**
  * Class Modules\Xot\Datas\XotData.
@@ -125,7 +126,7 @@ class XotData extends Data implements Wireable
     public function getUserByEmail(string $email): UserContract
     {
         $user_class = $this->getUserClass();
-        $userInstance = new $user_class();
+        $userInstance = new $user_class;
         if (! in_array('email', $userInstance->getFillable(), true)) {
             throw new Exception("Attribute 'email' not found in model ".$userInstance::class);
         }
@@ -266,6 +267,7 @@ class XotData extends Data implements Wireable
     public function getProfileByEmail(string $email): ProfileContract
     {
         $user = $this->getUserByEmail($email);
+
         return $this->getProfileModelByUserId((string) $user->id);
     }
 
@@ -418,7 +420,6 @@ class XotData extends Data implements Wireable
             return [];
         }
 
-        /** @var array<int, mixed> $cases */
         return $enum_class::cases();
         // $userInstance = app($user_class);
         // return $userInstance->getChildTypes();

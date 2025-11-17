@@ -4,15 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
  * Class XotBaseUuidModel.
  *
  * Base class for models using UUIDs.
  */
-abstract class XotBaseUuidModel extends Model
+abstract class XotBaseUuidModel extends XotBaseModel
 {
+    use SoftDeletes;
+
     public $incrementing = false;
 
     /** @var bool */
@@ -20,4 +22,27 @@ abstract class XotBaseUuidModel extends Model
 
     /** @var int */
     protected $perPage = 30;
+
+    protected $keyType = 'string';
+
+    /** @var list<string> */
+    protected $fillable = [
+        'id',
+    ];
+
+    /**
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'id' => 'string',
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+        ];
+    }
 }

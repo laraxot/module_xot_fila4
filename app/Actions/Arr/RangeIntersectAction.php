@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Modules\Xot\Actions\Array;
+namespace Modules\Xot\Actions\Arr;
 
 use Spatie\QueueableAction\QueueableAction;
 

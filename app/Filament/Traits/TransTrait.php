@@ -101,6 +101,7 @@ trait TransTrait
 
         $model = Str::of($class)->between('\\'.$type.'\\', '\\')->toString();
         $model_snake = Str::of($model)->snake()->toString();
+
         return $module_low.'::'.$model_snake;
     }
 

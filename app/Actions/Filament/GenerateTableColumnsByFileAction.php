@@ -53,7 +53,7 @@ class GenerateTableColumnsByFileAction
         // Verifichiamo che la classe esista
         Assert::classExists($class_name);
 
-        /** @var resource $resourceInstance */
+        /** @var object $resourceInstance */
         $resourceInstance = app($class_name);
 
         // Verifichiamo che il metodo getModel esista

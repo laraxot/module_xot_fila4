@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
-use Exception;
 use Filament\Facades\Filament;
 use Filament\Navigation\NavigationItem;
 use Illuminate\Support\Facades\Cache;
@@ -12,9 +11,10 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+
 use function Safe\json_encode;
+
 use Spatie\QueueableAction\QueueableAction;
-use Throwable;
 use Webmozart\Assert\Assert;
 
 /**
@@ -43,12 +43,12 @@ class GetModulesNavigationItems
 
         /** @var array<int, string> $userRoles */
         $userRoles = [];
-        if ($user !== null && method_exists($user, 'roles') && method_exists($user, 'pluck')) {
+        if (null !== $user && method_exists($user, 'roles') && method_exists($user, 'pluck')) {
             try {
                 /** @var \Illuminate\Support\Collection<int, string> $rolesCollection */
                 $rolesCollection = $user->roles()->pluck('name');
                 $userRoles = $rolesCollection->toArray();
-            } catch (Exception $e) {
+            } catch (\Exception $e) {
                 $userRoles = [];
             }
         }
@@ -62,7 +62,7 @@ class GetModulesNavigationItems
             // Tolleranza: durante comandi CLI alcuni moduli possono non avere ancora struttura completa
             try {
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
-            } catch (Throwable $e) {
+            } catch (\Throwable $e) {
                 // Skip modulo non pronto/senza generator path config
                 continue;
             }
@@ -78,7 +78,7 @@ class GetModulesNavigationItems
                 /** @var array<string, mixed> $config */
                 $config = File::getRequire($configFilePath);
                 Assert::isArray($config, 'Il file di configurazione deve restituire un array');
-            } catch (Exception $e) {
+            } catch (\Exception $e) {
                 continue;
             }
 
@@ -121,7 +121,7 @@ class GetModulesNavigationItems
                      * @var \Illuminate\Contracts\Auth\Authenticatable|null $user
                      */
                     $user = Filament::auth()->user();
-                    if ($user === null) {
+                    if (null === $user) {
                         return false;
                     }
 
@@ -130,9 +130,6 @@ class GetModulesNavigationItems
                         return false;
                     }
 
-                    /**
-                     * @var bool $result
-                     */
                     return $user->hasRole($role);
                 });
 
@@ -157,13 +154,13 @@ class GetModulesNavigationItems
 
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $cached */
         $cached = Cache::get($cacheKey);
-        if (is_array($cached)) {
+        if (\is_array($cached)) {
             return $cached;
         }
 
         // Se non presente in cache, rigenera usando la stessa logica di execute()
-        /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
-        return Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
+        /** @var array<int, array{module: string, module_low: string, icon: string, sort: int}> $result */
+        $result = Cache::remember($cacheKey, now()->addMinutes(10), static function () use ($modules): array {
             $out = [];
             foreach ($modules as $module) {
                 Assert::string($module, 'Il nome del modulo deve essere una stringa');
@@ -178,7 +175,7 @@ class GetModulesNavigationItems
                     /** @var array<string, mixed> $config */
                     $config = File::getRequire($configFilePath);
                     Assert::isArray($config);
-                } catch (Exception $e) {
+                } catch (\Exception $e) {
                     continue;
                 }
                 $icon = $config['icon'] ?? 'heroicon-o-cube';
@@ -193,5 +190,7 @@ class GetModulesNavigationItems
 
             return $out;
         });
+
+        return $result;
     }
 }

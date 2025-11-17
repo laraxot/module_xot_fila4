@@ -24,6 +24,7 @@ class GetProductsArrayDummyAction
         // API
         Assert::isArray($products = Http::get('https://dummyjson.com/products')->json());
         Assert::isArray($products['products']);
+
         // filtering some attributes
         return Arr::map($products['products'], function ($item) {
             // Verifichiamo che $item sia un array prima di usare Arr::only

@@ -13,7 +13,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $key
  * @property string|null $key_hash
  * @property int|null $value
- *
  * @property-read \Modules\Quaeris\Models\Profile|null $creator
  * @property-read \Modules\Quaeris\Models\Profile|null $updater
  *

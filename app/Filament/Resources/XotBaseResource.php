@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
-use Exception;
 use Filament\Pages\Enums\SubNavigationPosition;
 use Filament\Resources\Pages\Page;
 use Filament\Resources\Pages\PageRegistration;
@@ -22,8 +21,9 @@ use Illuminate\Support\Str;
 use Modules\Media\Actions\GetAttachmentsSchemaAction;
 use Modules\Xot\Actions\ModelClass\CountAction;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use ReflectionClass;
+
 use function Safe\glob;
+
 use Webmozart\Assert\Assert;
 
 /**
@@ -42,7 +42,7 @@ abstract class XotBaseResource extends FilamentResource
     // protected static ?string $navigationGroup = 'Parametri di Sistema';
     // protected static ?int $navigationSort = null;
 
-    protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
+    protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
 
     public static function getModuleName(): string
     {
@@ -59,12 +59,12 @@ abstract class XotBaseResource extends FilamentResource
      */
     public static function getModel(): string
     {
-        if (static::$model !== null) {
+        if (null !== static::$model) {
             $res = static::$model;
             Assert::subclassOf(
                 $res,
                 Model::class,
-                sprintf('Class %s must extend Eloquent Model', $res),
+                \sprintf('Class %s must extend Eloquent Model', $res),
             );
 
             return $res;
@@ -72,11 +72,11 @@ abstract class XotBaseResource extends FilamentResource
         $moduleName = static::getModuleName();
         $modelName = Str::before(class_basename(static::class), 'Resource');
         $res = 'Modules\\'.$moduleName.'\Models\\'.$modelName;
-        Assert::classExists($res, sprintf('Model class %s does not exist', $res));
+        Assert::classExists($res, \sprintf('Model class %s does not exist', $res));
         Assert::subclassOf(
             $res,
             Model::class,
-            sprintf('Class %s must extend Eloquent Model', $res),
+            \sprintf('Class %s must extend Eloquent Model', $res),
         );
         static::$model = $res;
 
@@ -90,7 +90,7 @@ abstract class XotBaseResource extends FilamentResource
 
     final public static function form(Schema $schema): Schema
     {
-        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $components */
+        /** @var array<Htmlable|string> $components */
         $components = array_values(static::getFormSchema());
 
         return $schema
@@ -145,7 +145,7 @@ abstract class XotBaseResource extends FilamentResource
             $count = app(CountAction::class)->execute(static::getModel());
 
             return number_format($count, 0).'';
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             return '--';
         }
     }
@@ -192,31 +192,31 @@ abstract class XotBaseResource extends FilamentResource
      */
     public static function getRelations(): array
     {
-        $reflector = new ReflectionClass(static::class);
+        $reflector = new \ReflectionClass(static::class);
         $filename = $reflector->getFileName();
         Assert::string($filename, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
         $path = Str::of($filename)
             ->before('.php')
-            ->append(DIRECTORY_SEPARATOR)
+            ->append(\DIRECTORY_SEPARATOR)
             ->append('RelationManagers')
             ->toString();
 
-        $filesResult = glob($path.DIRECTORY_SEPARATOR.'*RelationManager.php');
+        $filesResult = glob($path.\DIRECTORY_SEPARATOR.'*RelationManager.php');
 
         // PHPStan: glob() with valid pattern returns array
-        if ($filesResult === []) {
+        if ([] === $filesResult) {
             return [];
         }
 
         /** @var array<class-string<RelationManager>> $res */
         $res = [];
         foreach ($filesResult as $file) {
-            if (! is_string($file)) {
+            if (! \is_string($file)) {
                 continue;
             }
             $className = Str::of($file)
-                ->after('RelationManagers'.DIRECTORY_SEPARATOR)
+                ->after('RelationManagers'.\DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class.'\RelationManagers\\')
                 ->toString();
@@ -235,7 +235,7 @@ abstract class XotBaseResource extends FilamentResource
         $submit_view = 'pub_theme::filament.wizard.submit-button';
         // @phpstan-ignore-next-line
         if (! view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
+            throw new \Exception("View {$submit_view} does not exist");
         }
         $render = view($submit_view)->render();
 
@@ -254,7 +254,7 @@ abstract class XotBaseResource extends FilamentResource
             return [];
         }
         $attachments = $model::getAttachments();
-        if (! is_array($attachments)) {
+        if (! \is_array($attachments)) {
             return [];
         }
 
@@ -262,7 +262,11 @@ abstract class XotBaseResource extends FilamentResource
         $safeAttachments = array_values(array_filter($attachments, 'is_string'));
 
         $disk = 'attachments';
-        return app(GetAttachmentsSchemaAction::class)->execute($safeAttachments, $disk);
+
+        /** @var array<int, Component> $schema */
+        $schema = app(GetAttachmentsSchemaAction::class)->execute($safeAttachments, $disk);
+
+        return $schema;
     }
 
     protected static function getStepByName(string $name): Step
@@ -276,8 +280,8 @@ abstract class XotBaseResource extends FilamentResource
 
         if (method_exists(static::class, $methodName)) {
             $schemaResult = static::$methodName();
-            /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
-            $schemaComponents = is_array($schemaResult) ? array_values($schemaResult) : [];
+            /** @var array<Htmlable|string> $schemaComponents */
+            $schemaComponents = \is_array($schemaResult) ? array_values($schemaResult) : [];
 
             return Step::make($name)->schema($schemaComponents);
         }

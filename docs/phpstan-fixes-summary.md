@@ -8,6 +8,10 @@
 ## Overview
 Successfully resolved all PHPStan type safety errors in the Xot module's Filament components. All files now pass PHPStan level 8 analysis with strict type checking.
 
+### Export Query Pattern (Nov 2025)
+- `Modules/Xot/app/Exports/QueryExport.php` ora utilizza `mapWithKeys(static fn ($value, $key) => …)` e mantiene la firma `Collection<int, int|string>` richiesta da `WithHeadings`.
+- Le intestazioni vengono normalizzate con `int|string` e l'accesso alle righe (`mapWithKeys` sulla lista campi) usa la firma completa per evitare gli errori `argument.type` e `function.alreadyNarrowedType`.
+
 ## Fixed Files
 
 ### 1. FieldRefreshAction.php

@@ -127,8 +127,10 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
      */
     public static function workingDays(): Collection
     {
-        /** @var Collection<int, self> $filtered */
-        return collect(self::cases())->filter(fn (self $day): bool => $day->value <= 5);
+        /** @var Collection<int, self> $result */
+        $result = collect(self::cases())->filter(static fn (self $day): bool => $day->value <= 5);
+
+        return $result;
     }
 
     /**
@@ -138,8 +140,10 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
      */
     public static function weekendDays(): Collection
     {
-        /** @var Collection<int, self> $filtered */
-        return collect(self::cases())->filter(fn (self $day): bool => $day->value > 5);
+        /** @var Collection<int, self> $result */
+        $result = collect(self::cases())->filter(static fn (self $day): bool => $day->value > 5);
+
+        return $result;
     }
 
     /**

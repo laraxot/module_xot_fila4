@@ -11,10 +11,11 @@ namespace Modules\Xot\Actions\Filament;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use ReflectionClass;
-use function Safe\file;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Finder\SplFileInfo as File;
 use Webmozart\Assert\Assert;
+
+use function Safe\file;
 
 class GenerateFormByFileAction
 {
@@ -24,7 +25,6 @@ class GenerateFormByFileAction
      * Genera un form Filament basato su un file di risorsa.
      *
      * @param  File  $file  Il file della risorsa Filament
-     *
      * @return int Numero di input aggiunti
      */
     public function execute(File $file): int
@@ -46,7 +46,7 @@ class GenerateFormByFileAction
         // Verifichiamo che la classe esista e sia una risorsa Filament
         Assert::classExists($class_name);
 
-        /** @var resource $resourceInstance */
+        /** @var object $resourceInstance */
         $resourceInstance = app($class_name);
 
         // Verifichiamo che il metodo getModel esista

@@ -10,6 +10,7 @@ class SanitizeAction
     {
         $str = strip_tags($str);
         $str = html_entity_decode($str);
+
         return trim($str);
     }
 }

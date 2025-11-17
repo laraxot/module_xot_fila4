@@ -12,8 +12,8 @@ use Override;
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
-
     public string $model;
+
     protected ?string $heading = null;
 
     protected static ?int $sort = 5;

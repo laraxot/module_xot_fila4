@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
  */
 abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 {
-
     public string $name = '';
+
     protected string $moduleNamespace = 'Modules\Xot\Http\Controllers';
 
     protected string $module_dir = __DIR__;

@@ -6,7 +6,6 @@ namespace Modules\Xot\Exports;
 
 use BackedEnum;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
@@ -50,6 +49,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 
         $head = $this->collection->first();
         Assert::isInstanceOf($head, Model::class);
+
         return array_keys($head->getAttributes());
     }
 
@@ -66,14 +66,12 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         return $this->collection;
     }
 
-    /**
-     * @param  Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null  $item
-     */
-    public function map(Arrayable|iterable|null $item): array
+    public function map(mixed $row): array
     {
         if ($this->fields === null || empty($this->fields)) {
-            Assert::isInstanceOf($item, Model::class);
-            $res = app(SafeArrayByModelCastAction::class)->execute($item);
+            Assert::isInstanceOf($row, Model::class);
+            $res = app(SafeArrayByModelCastAction::class)->execute($row);
+
             return Arr::map($res, function ($value, $_key) {
                 if ($value instanceof BackedEnum) {
                     if (method_exists($value, 'getLabel')) {
@@ -87,11 +85,11 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
             });
         }
 
-        // return collect($item)->only($this->fields)->toArray();
+        // return collect($row)->only($this->fields)->toArray();
         $data = [];
 
         foreach ($this->fields as $field) {
-            $value = data_get($item, $field);
+            $value = data_get($row, $field);
             if (\is_object($value)) {
                 if (enum_exists($value::class) && method_exists($value, 'getLabel')) {
                     $value = $value->getLabel();

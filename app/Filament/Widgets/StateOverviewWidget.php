@@ -18,7 +18,6 @@ use Webmozart\Assert\Assert;
  */
 class StateOverviewWidget extends XotBaseWidget
 {
-
     /**
      * Titolo del widget.
      */
@@ -29,6 +28,7 @@ class StateOverviewWidget extends XotBaseWidget
     public string $model;
 
     public string $cacheKey = '';
+
     /**
      * Vista del widget.
      */

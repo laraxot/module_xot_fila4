@@ -25,7 +25,7 @@ use Illuminate\Support\Carbon;
  * @property string|null $title
  * @property bool $is_reclamed
  * @property bool $table_enable
- * @property PivotContract|null $pivot
+ * @property \Illuminate\Database\Eloquent\Relations\Pivot|null $pivot
  * @property string $tennant_name
  *
  * @method mixed getKey()
@@ -53,6 +53,14 @@ use Illuminate\Support\Carbon;
 interface ModelContract
 {
     /**
+     * Save a new model and return the instance. Allow mass-assignment.
+     *
+     * @return Model|$this
+     *
+     * public function forceCreate(array $attributes);
+     */
+
+    /**
      * Duplicate the instance and unset all the loaded relations.
      *
      * @return $this
@@ -68,26 +76,44 @@ interface ModelContract
 
     /**
      * Save the model to the database.
-     */
-    public function save(array $options = []): bool;
-
-    /*
-     * Save a new model and return the instance. Allow mass-assignment.
      *
-     * @return \Illuminate\Database\Eloquent\Model|$this
-     *
-     * public function forceCreate(array $attributes);
+     * @return bool
      */
+    public function save(array $options = []);
 
     /**
-     * Convert the model instance to an array.
+     * Convert the model instance to an array representation.
+     *
+     * @return array<mixed>
      */
-    public function toArray(): array;
+    public function toArray();
 
     /**
      * Get the value of the model's primary key.
+     *
+     * @return mixed
      */
-    public function getKey(): mixed;
+    public function getKey();
+
+    /**
+     * Get a relationship.
+     *
+     * @param  string  $key
+     *
+     * @phpstan-param string $key
+     *
+     * @return mixed
+     */
+    public function getRelationValue($key);
+
+    /**
+     * Create a new instance of the given model.
+     *
+     * @param  array  $attributes
+     * @param  bool  $exists
+     * @return static
+     */
+    public function newInstance($attributes = [], $exists = false);
 
     /*
      * Add a basic where clause to the query.

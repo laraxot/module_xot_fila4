@@ -5,12 +5,12 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
-use function Safe\json_encode;
 use Sushi\Sushi;
+
+use function Safe\json_encode;
 
 /**
  * @property int $id
@@ -36,7 +36,7 @@ use Sushi\Sushi;
  *
  * @mixin \Eloquent
  */
-final class Module extends Model
+final class Module extends BaseModel
 {
     use Sushi;
 

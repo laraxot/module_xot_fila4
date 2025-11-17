@@ -20,8 +20,7 @@ abstract class XotBaseTransition extends Transition
     public function __construct(
         public Model $record,
         public ?string $message = '',
-    ) {
-    }
+    ) {}
 
     public function handle(): Model
     {

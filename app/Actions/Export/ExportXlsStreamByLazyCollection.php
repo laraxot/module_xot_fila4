@@ -7,12 +7,13 @@ namespace Modules\Xot\Actions\Export;
 use Illuminate\Support\Collection;
 use Illuminate\Support\LazyCollection;
 use Illuminate\Support\Str;
-use function Safe\fclose;
-use function Safe\fopen;
-use function Safe\fputcsv;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Webmozart\Assert\Assert;
+
+use function Safe\fclose;
+use function Safe\fopen;
+use function Safe\fputcsv;
 
 class ExportXlsStreamByLazyCollection
 {
@@ -59,9 +60,9 @@ class ExportXlsStreamByLazyCollection
                         continue;
                     }
                     // Convertiamo tutti i valori in stringhe o null
-                    $safeRowData = array_map(function ($item): void {
+                    $safeRowData = array_map(function ($item) {
                         if ($item === null) {
-                            return;
+                            return '';
                         }
 
                         return is_string($item) ? $item : ((string) $item);
@@ -88,7 +89,6 @@ class ExportXlsStreamByLazyCollection
      *
      * @param  LazyCollection  $data  I dati da cui estrarre le intestazioni
      * @param  string|null  $transKey  Chiave di traduzione per le intestazioni
-     *
      * @return array<string>
      */
     public function headings(LazyCollection $data, ?string $transKey = null): array

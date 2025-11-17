@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * Base class for ratings extending Eloquent Model.
  */
-abstract class BaseRating extends Model
+abstract class BaseRating extends BaseModel
 {
     // Common properties and methods for ratings can be added here.
 }

@@ -20,11 +20,12 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Services\ModuleService;
 use Nwidart\Modules\Facades\Module;
+use Webmozart\Assert\Assert;
+
 use function Safe\define;
 use function Safe\glob;
 use function Safe\json_decode;
 use function Safe\preg_match;
-use Webmozart\Assert\Assert;
 
 // ------------------------------------------------
 
@@ -64,6 +65,7 @@ if (! function_exists('isRunningTestBench')) {
          */
         $path = app(FixPathAction::class)->execute('\vendor\orchestra\testbench-core\laravel');
         $base = app(FixPathAction::class)->execute(base_path());
+
         return Str::endsWith($base, $path);
 
         // return false;
@@ -239,7 +241,7 @@ if (! function_exists('getFilename')) {
         $tmp = debug_backtrace();
         $class = class_basename($tmp[1]['class'] ?? 'class-unknown');
 
-        $func = $tmp[1]['function'];
+        $func = $tmp[1]['function'] ?? 'function-unknown';
         $params_list = collect($params)->except(['_token', '_method'])->implode('_');
 
         return Str::slug(

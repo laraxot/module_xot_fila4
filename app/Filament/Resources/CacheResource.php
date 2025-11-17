@@ -6,7 +6,6 @@ namespace Modules\Xot\Filament\Resources;
 
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
-use Filament\Support\Components\Component;
 use Modules\Xot\Filament\Resources\CacheResource\Pages\CreateCache;
 use Modules\Xot\Filament\Resources\CacheResource\Pages\EditCache;
 use Modules\Xot\Filament\Resources\CacheResource\Pages\ListCaches;

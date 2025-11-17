@@ -1,31 +1,13 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Changelog
-=======
 # Changelog - Modulo Xot
->>>>>>> 263f3595 (rebase 210)
 
 Tutte le modifiche significative al modulo Xot sono documentate in questo file.
 
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 e questo progetto aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-<<<<<<< HEAD
-- initial release
-=======
-# Changelog - Modulo Xot
-=======
-# Changelog
->>>>>>> 95790fd7 (rebase 210)
-
 All notable changes to `:package_name` will be documented in this file.
 
-## 1.0.0 - 202X-XX-XX
 
-<<<<<<< HEAD
-=======
->>>>>>> 263f3595 (rebase 210)
 ## [Unreleased]
 
 ### Added
@@ -160,10 +142,3 @@ All notable changes to `:package_name` will be documented in this file.
 **Maintained by:** Team Laraxot PTVX  
 **Format:** [Keep a Changelog](https://keepachangelog.com/)  
 **Versioning:** [Semantic Versioning](https://semver.org/)
-<<<<<<< HEAD
->>>>>>> 69db0eac (.)
-=======
->>>>>>> 263f3595 (rebase 210)
-=======
-- initial release
->>>>>>> 95790fd7 (rebase 210)

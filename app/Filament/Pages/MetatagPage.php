@@ -13,20 +13,12 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
-use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Schema;
 use Filament\Support\Colors\Color;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-use Filament\Schemas\Schema;
-=======
->>>>>>> 2850177 (.)
->>>>>>> 3a08b27 (.)
 
 /**
  * @property Schema $form
@@ -76,17 +68,6 @@ class MetatagPage extends Page implements HasForms
                             ->options(array_combine(array_keys(Color::all()), array_keys(Color::all())))
                             ->reactive(),
                         ColorPicker::make('hex')
-<<<<<<< HEAD
-                            ->visible(fn (Get $get): bool => $get('color') === 'custom')
-=======
-                            ->label('Colore personalizzato')
-                            ->visible(
-                                /**
-                                 * @param  \Closure(string): mixed  $get
-                                 */
-                                fn (\Closure $get): bool => $get('color') === 'custom'
-                            )
->>>>>>> f1570712 (.)
                             ->required(),
                     ])
                     ->columns(3),

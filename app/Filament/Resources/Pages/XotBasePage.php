@@ -15,7 +15,6 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use LogicException;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Modules\Xot\Filament\Traits\TransTrait;
 
 /**
  * Base class for all custom pages in the application.
@@ -32,7 +31,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     use InteractsWithFormActions;
     use InteractsWithForms;
     use NavigationLabelTrait;
-    use TransTrait;
 
     /**
      * The model class associated with this page, if any.
@@ -129,7 +127,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 
         /** @var class-string<\Illuminate\Database\Eloquent\Model> $model */
         $model = static::$model;
-        
+
         return $model;
     }
 
@@ -142,6 +140,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     {
         /** @var Collection<int, string> $resources */
         $resources = collect();
+
         return $resources;
     }
 

@@ -4,16 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\XotBaseResource\Pages;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-use Filament\Schemas\Schema;
-=======
->>>>>>> 2850177 (.)
-use Filament\Schemas\Components\Component;
-use Override;
-use Filament\Actions\CreateAction;
->>>>>>> 3a08b27 (.)
 use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -59,18 +49,11 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return '';
     }
 
-<<<<<<< HEAD
-    // PHPStan Level 10: Filament 4 usa Schemas\Components
-    // Metodo getFormSchema() deve restituire array<\Filament\Schemas\Components\Component>
-=======
-    /*
-<<<<<<< HEAD
+    /**
+     * Restituisce lo schema del form per i record correlati.
+     *
      * @return array<\Filament\Schemas\Components\Component>
-=======
-     * @return array<\Filament\Forms\Components\Component>
->>>>>>> 87ade28 (.)
      */
->>>>>>> f1570712 (.)
     // abstract public static function getFormSchema(): array;
 
     /**
@@ -180,24 +163,6 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * 'create' => CreateAction::make()
      * ->label('Crea Nuovo')
      * ->disableCreateAnother(),
-<<<<<<< HEAD
-    /**
-     * Configura il form per la creazione/modifica dei record correlati.
-     */
-=======
-     * ]);
-     * }
-     */
-    /**
-     * Configura il form per la creazione/modifica dei record correlati.
-     */
-    public function form(Schema $form): Schema
-    {
-        /** @var array<Component> $schema */
-        $schema = $this->getFormSchema();
-        return $form->components($schema);
-    }
->>>>>>> 2850177 (.)
 
     /**
      * Restituisce il titolo della pagina.

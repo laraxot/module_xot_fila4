@@ -15,6 +15,7 @@ use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Spatie\QueueableAction\QueueableAction;
 use Throwable;
 use Webmozart\Assert\Assert;
+
 use function Safe\json_encode;
 
 /**
@@ -69,7 +70,7 @@ class GetModulesNavigationItems
             $configFilePath = $configPath.'/config.php';
 
             // Verifichiamo che il file esista
-            if (!File::exists($configFilePath)) {
+            if (! File::exists($configFilePath)) {
                 continue;
             }
 
@@ -88,10 +89,6 @@ class GetModulesNavigationItems
 
             // $role è sempre stringa non vuota (concatenazione di stringhe non vuote), check ridondante rimosso
             $role = $module_low.'::admin';
-<<<<<<< HEAD
-=======
-            // $role è sempre stringa non vuota perché costruita da stringhe non vuote
->>>>>>> f1570712 (.)
 
             $navigation_sort = $config['navigation_sort'] ?? 1;
             Assert::integerish($navigation_sort, 'navigation_sort deve essere un intero');
@@ -130,7 +127,7 @@ class GetModulesNavigationItems
                     }
 
                     // Verifichiamo che il metodo hasRole esista
-                    if (!method_exists($user, 'hasRole')) {
+                    if (! method_exists($user, 'hasRole')) {
                         return false;
                     }
 
@@ -177,7 +174,7 @@ class GetModulesNavigationItems
                 Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
                 $configFilePath = $configPath.'/config.php';
-                if (!File::exists($configFilePath)) {
+                if (! File::exists($configFilePath)) {
                     continue;
                 }
                 try {

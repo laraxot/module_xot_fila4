@@ -74,7 +74,9 @@ abstract class XotBaseTransition extends Transition
 
     public function getNotificationSlug(UserContract $recipient): string
     {
-        $type = $recipient->type->value;
+        $typeEnum = $recipient->type;
+        $type = ($typeEnum instanceof \BackedEnum) ? (string) $typeEnum->value : 'unknown';
+
         $slug =
             class_basename($this->record).
             '-'.
@@ -93,16 +95,19 @@ abstract class XotBaseTransition extends Transition
     {
         $slug = $this->getNotificationSlug($recipient->record);
 
+        if (! class_exists(RecordNotification::class)) {
+            return;
+        }
+
         $notify = new RecordNotification($this->record, $slug);
 
-        // $data = $this->getNotificationData();
-        /** @var array<string, mixed> $mergeData */
         $mergeData = $data;
-        $notify = $notify->mergeData($mergeData);
 
-        /** @var array<int, array<string, string>> $attachments */
+        $notify->mergeData($mergeData);
+
         $attachments = $this->getNotificationAttachments();
-        $notify = $notify->addAttachments($attachments);
+
+        $notify->addAttachments($attachments);
 
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);

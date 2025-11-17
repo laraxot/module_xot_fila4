@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
-use BackedEnum;
-use DateTime;
 use Filament\Models\Contracts\FilamentUser;
-use Filament\Support\Contracts\HasLabel;
 use Illuminate\Contracts\Auth\Access\Authorizable;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\CanResetPassword;
@@ -19,12 +16,12 @@ use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Collection;
 use Laravel\Passport\Token;
 use Modules\User\Contracts\HasTeamsContract;
+use Modules\User\Models\Role as UserRole;
 use Modules\User\Models\Tenant;
 use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
 use Spatie\Permission\Contracts\Permission;
-use Spatie\Permission\Contracts\Role;
 use Spatie\Permission\Exceptions\GuardDoesNotMatch;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 
@@ -32,38 +29,17 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 /**
  * Modules\User\Contracts\UserContract.
  *
-<<<<<<< HEAD
- * @property ProfileContract|null                                                     $profile
- * @property string                                                                   $id
- * @property string                                                                   $handle
- * @property string|null                                                              $first_name
- * @property string|null                                                              $last_name
- * @property string|null                                                              $full_name
- * @property \BackedEnum&HasLabel                                                     $type
- * @property string|null                                                              $password
- * @property string|int|null                                                          $current_team_id
- * @property string|null                                                              $phone
- * @property string|null                                                              $email
- * @property \DateTime|null                                                           $email_verified_at
-=======
- * @property ProfileContract|null $profile
- * @property string $id
- * @property string $handle
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
+ * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
+ * @property \BackedEnum|null $type
+ * @property string|null $email
  * @property string|null $first_name
  * @property string|null $last_name
- * @property string|null $full_name
- * @property BackedEnum&HasLabel $type
- * @property string|null $password
- * @property string|int|null $current_team_id
+ * @property string $password
  * @property string|null $phone
- * @property string|null $email
- * @property DateTime|null $email_verified_at
->>>>>>> f1570712 (.)
- * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
- * @property \Illuminate\Database\Eloquent\Collection<int, Tenant>                    $tenants
  *
  * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
- * @method bool      canAccessSocialite()
+ * @method bool canAccessSocialite()
  *
  * @phpstan-require-extends Model
  *
@@ -87,22 +63,15 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Get a relationship.
      *
-<<<<<<< HEAD
-     * @param string $key
-     *
-=======
-     * @param  string  $key
->>>>>>> f1570712 (.)
      * @return mixed|null
      */
-    public function getRelationValue($key);
+    public function getRelationValue(string $key);
 
     /**
      * Create a new instance of the given model.
      *
-     * @param array $attributes
-     * @param bool  $exists
-     *
+     * @param  array  $attributes
+     * @param  bool  $exists
      * @return static
      */
     public function newInstance($attributes = [], $exists = false);
@@ -119,7 +88,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * Determine if the model has (one of) the given role(s).
      */
     public function hasRole(
-        string|int|array|Role|Collection $roles,
+        string|int|array|UserRole|Collection $roles,
         ?string $guard = null,
     ): bool;
 
@@ -128,20 +97,14 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @return $this
      */
-    public function assignRole(array|string|int|Role|Collection $roles = []);
+    public function assignRole(array|string|int|UserRole|Collection $roles = []);
 
     /**
      * Revoke the given role from the model.
      *
-<<<<<<< HEAD
-     * @param string|int|Role|\BackedEnum $role
-     *
-=======
-     * @param  string|int|Role|BackedEnum  $role
->>>>>>> f1570712 (.)
      * @return self
      */
-    public function removeRole($role);
+    public function removeRole(string|int|UserRole $role);
 
     /**
      * Get the current access token being used by the user.
@@ -168,13 +131,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Determine if the role may perform the given permission.
      *
-<<<<<<< HEAD
-     * @param string|int|Permission|\BackedEnum $permission
-=======
-     * @param  string|int|Permission|BackedEnum  $permission
->>>>>>> f1570712 (.)
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
-    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+    public function hasPermissionTo(string|int|\Spatie\Permission\Contracts\Permission $permission, ?string $guardName = null): bool;
 }

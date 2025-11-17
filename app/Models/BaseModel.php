@@ -6,10 +6,7 @@ namespace Modules\Xot\Models;
 
 // use Laravel\Scout\Searchable;
 // ---------- traits
-use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Modules\Xot\Traits\Updater;
 
 /**
@@ -17,12 +14,6 @@ use Modules\Xot\Traits\Updater;
  */
 abstract class BaseModel extends Model
 {
-<<<<<<< HEAD
-    use \Modules\Xot\Models\Traits\HasXotFactory;
-=======
-    use HasFactory;
->>>>>>> f1570712 (.)
-
     // use Searchable;
     // //use Cachable;
     use Updater;
@@ -55,8 +46,6 @@ abstract class BaseModel extends Model
     protected $hidden = [
         // 'password'
     ];
-
-    
 
     /** @return array<string, class-string|string> */
     protected function casts(): array

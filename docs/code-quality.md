@@ -1,119 +1,140 @@
-<<<<<<< HEAD
-# Linee Guida Qualità del Codice (Modulo Xot)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-# Code Quality Guidelines for Laravel Modules
->>>>>>> a2de8cb7 (.)
+# Code Quality - Xot Module
 
-> **Versione**: 1.1  
-> **Ultimo aggiornamento**: Novembre 2025  
-> **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
+> Last Updated: 2025-11-15 08:05:46
 
-## 🎯 Obiettivo
-Garantire che il modulo Xot (core framework) mantenga standard elevati di qualità, leggibilità e manutenibilità. Le regole valgono per TUTTI i moduli che dipendono da Xot.
+## Current Metrics
 
----
+| Tool | Score | Status |
+|------|-------|--------|
+| PHPStan (Level 10) | 0 errors | 🟢 |
+| PHPMD | 0 violations | 🟢 |
+| PHP Insights - Quality | N/A% | ⚪ |
+| PHP Insights - Complexity | N/A% | ⚪ |
+| PHP Insights - Architecture | N/A% | ⚪ |
+| PHP Insights - Style | N/A% | ⚪ |
 
-## 🧭 Principi Fondamentali
-1. **Tipizzazione forte**: `declare(strict_types=1);` è obbligatorio in ogni file PHP
-2. **Static analysis first**: PHPStan livello 10 (config di progetto)
-3. **PSR-12 + Laraxot style**: Formattazione con Laravel Pint (`./vendor/bin/pint`)
-4. **Documentazione**: PHPDoc su public API + documenti aggiornati in `docs/`
-5. **Single Responsibility**: classi e metodi con responsabilità chiara
+### Status Legend
+- 🟢 Excellent (meets or exceeds target)
+- 🟡 Good (minor improvements needed)
+- 🔴 Needs Work (significant improvements required)
+- ⚪ Not Available
 
----
+### Quality Targets
+- **PHPStan**: 0 errors (Level 10)
+- **PHPMD**: < 10 violations
+- **PHP Insights**:
+  - Quality: ≥ 80%
+  - Complexity: ≥ 70%
+  - Architecture: ≥ 75%
+  - Style: ≥ 85%
 
-## 🛠️ Implementazione
+## Improvement History
 
-### Tipi & PHPStan
-```php
-<?php
+### 2025-11-15 - Initial Analysis
+- PHPStan errors: 0
+- PHPMD violations: 0
+- Quality metrics recorded
 
-declare(strict_types=1);
+## Common Issues and Solutions
 
-namespace Modules\Xot\...;
+### PHPStan Issues
 
-final class Example
-{
-    public function handle(string $input): string
-    {
-        return \mb_strtoupper($input);
-    }
-}
-```
+✓ No PHPStan errors detected!
 
-Eseguire regolarmente:
+### PHPMD Issues
+
+✓ No PHPMD violations detected!
+
+## Best Practices for Xot
+
+### Type Safety (PHPStan Level 10)
+
+1. **Always use type hints**
+   ```php
+   // ✅ CORRECT
+   public function getUserById(int $id): ?User
+   {
+       return User::find($id);
+   }
+
+   // ❌ WRONG
+   public function getUserById($id)
+   {
+       return User::find($id);
+   }
+   ```
+
+2. **Use Safe library for unsafe functions**
+   ```php
+   use function Safe\json_decode;
+   use function Safe\file_get_contents;
+
+   $data = json_decode($json, true); // Throws on error
+   ```
+
+3. **Handle edge cases**
+   ```php
+   public function getConnectionName(): ?string
+   {
+       if (isset($this->connection)) {
+           $connection = $this->connection;
+
+           // Handle UnitEnum edge case
+           if ($connection instanceof \UnitEnum) {
+               return null;
+           }
+
+           return $connection;
+       }
+
+       return parent::getConnectionName();
+   }
+   ```
+
+### Code Complexity (PHPMD)
+
+1. **Keep methods focused** - Max 150 lines per method
+2. **Limit parameters** - Max 10 parameters (consider DTOs for more)
+3. **Avoid deep nesting** - Extract complex logic to separate methods
+4. **Reduce coupling** - Use dependency injection and interfaces
+
+### Model Architecture
+
+Models in this module extend:
+- **BaseModel** - For regular Eloquent models
+- **BasePivot** - For many-to-many pivot tables
+- **BaseMorphPivot** - For polymorphic pivot tables
+
+See [`models/README.md`](./models/README.md) for detailed model documentation.
+
+## Continuous Improvement
+
+### Weekly Checks
 ```bash
-./vendor/bin/phpstan analyse Modules/Xot --level=max
+# Run quality analysis
+./bashscripts/quality-improvement/analyze-module.sh Xot
+
+# Update documentation
+./bashscripts/quality-improvement/update-module-docs.sh Xot
 ```
 
-### Safe Functions
-Usare la libreria `thecodingmachine/safe` per funzioni native:
-```php
-use function Safe\file_get_contents;
-$content = file_get_contents($path);
+### Pre-commit
+```bash
+# Format code
+vendor/bin/pint --dirty
+
+# Quick PHPStan check on changed files
+vendor/bin/phpstan analyse path/to/changed/file.php --level=10
 ```
 
-### Metodi e Classi
-- Metodo: max 20 linee (estrarre logica complessa in metodi privati)
-- Classe: max 200 linee (valutare traits o classi dedicate)
-- Dipendenze tramite **constructor injection**
+## Resources
+
+- [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)
+- [PHPMD Rules](https://phpmd.org/rules/index.html)
+- [PHP Insights](https://phpinsights.com/)
+- [Safe Library](https://github.com/thecodingmachine/safe)
+- [Project CLAUDE.md](../../CLAUDE.md)
 
 ---
 
-<<<<<<< HEAD
-## 🔄 Automazioni
-
-| Script | Descrizione |
-|--------|-------------|
-| `bashscripts/test/run-phpstan-all-modules.sh` | Esegue PHPStan su tutti i moduli |
-| `bashscripts/docs/fix_docs_case.md` | Standardizza naming documenti |
-| `bashscripts/git/conflict_resolution/resolve_conflicts_current_change_v6.sh` | Risoluzione conflitti Git |
-
-Eseguire gli script in CI/CD e prima di merge critici.
-
----
-
-## ❗ Problemi Comuni
-- **Errori di tipo**: aggiungere type hint e return type
-- **Warning PHPStan**: analizzare e correggere, evitare baselines “infinite”
-- **Duplicazioni**: refactoring in metodi/traits condivisi
-- **Nomi generici**: preferire `$userProfileData` a `$data`
-
----
-
-## ✅ Check-list Qualità
-1. `declare(strict_types=1);`
-2. Type hint parametri + ritorni
-3. PHPDoc sulle classi/Metodi pubblici
-4. Nessuna violazione PHPStan
-5. Formattazione Pint/PSR-12
-6. Test aggiornata (`./vendor/bin/pest`)
-
----
-
-## 📚 Documenti Collegati
-- [PHP Strict Types](./php-strict-types.md)
-- [PHPStan Implementation Guide](./phpstan-implementation-guide.md)
-- [Naming Conventions](./naming-conventions.md)
-- [Service Provider Best Practices](./service-provider-best-practices.md)
-- [Filament Best Practices](./filament-best-practices.md)
-
----
-
-**Nota**: Ogni deroga alle presenti regole deve essere documentata nella cartella `docs/` del modulo interessato.
-=======
-*"Nel codice Laraxot, ogni riga è un verso della sinfonia dell'architettura perfetta."*
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> a0b522b (.)
->>>>>>> a2de8cb7 (.)
+**Analysis Reports**: `bashscripts/quality-improvement/results/Xot/`

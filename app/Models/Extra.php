@@ -21,13 +21,6 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
-<<<<<<< HEAD
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
-=======
- * @property-read \Modules\Quaeris\Models\Profile|null $creator
- * @property-read \Modules\Quaeris\Models\Profile|null $updater
->>>>>>> f1570712 (.)
  *
  * @method static \Modules\Xot\Database\Factories\ExtraFactory factory($count = null, $state = [])
  * @method static Builder<static>|Extra newModelQuery()

@@ -269,7 +269,7 @@ class XotData extends Data implements Wireable
     public function getProfileByEmail(string $email): ProfileContract
     {
         $user = $this->getUserByEmail($email);
-        $profile = $this->getProfileModelByUserId($user->id);
+        $profile = $this->getProfileModelByUserId((string) $user->id);
 
         return $profile;
     }
@@ -301,7 +301,7 @@ class XotData extends Data implements Wireable
         }
 
         $user_id = (string) authId();
-        $this->profile = $this->getProfileModelByUserId($user_id);
+        $this->profile = $this->getProfileModelByUserId((string) $user_id);
         Assert::implementsInterface(
             $this->profile,
             ProfileContract::class,
@@ -334,12 +334,7 @@ class XotData extends Data implements Wireable
     public function getPubThemeViewPath(string $key = ''): string
     {
         $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
-<<<<<<< HEAD
 
-        // Safe\realpath() ritorna sempre string (o lancia eccezione se path non esiste)
-        // Questo è il comportamento desiderato per garantire path normalizzati validi.
-        return realpath($path0);
-=======
         try {
             $path = realpath($path0);
 
@@ -347,7 +342,6 @@ class XotData extends Data implements Wireable
         } catch (Exception $e) {
             throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
         }
->>>>>>> f1570712 (.)
     }
 
     public function getPubThemePublicPath(string $key = ''): string
@@ -376,22 +370,15 @@ class XotData extends Data implements Wireable
             throw new Exception('getChildTypes method not found in class '.$user_class);
         }
 
-        $typesResult = $userInstance->getChildTypes();
-        if (! is_array($typesResult) && ! ($typesResult instanceof \ArrayAccess)) {
+        $types = $userInstance->getChildTypes();
+        if (! is_array($types) && ! ($types instanceof \ArrayAccess)) {
             throw new Exception('getChildTypes must return array or ArrayAccess');
         }
-
-        $class = Arr::get($typesResult, $type);
-        if (is_null($class)) {
-            throw new Exception('type '.$type.' not found in class '.$user_class);
-        }
-=======
-        $types = $userInstance->getChildTypes();
         $class = Arr::get($types, $type);
         if (is_null($class)) {
             throw new Exception('type '.$type.' not found in class '.$user_class);
         }
->>>>>>> 713050e (.)
+
         Assert::classExists($class, '['.__LINE__.']['.class_basename($this).']');
         Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
         Assert::implementsInterface(

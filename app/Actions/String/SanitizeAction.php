@@ -4,14 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\String;
 
-<<<<<<< HEAD
-=======
-use Illuminate\Support\Str;
-use Spatie\QueueableAction\QueueableAction;
-
-use function Safe\preg_replace;
-
->>>>>>> f1570712 (.)
 class SanitizeAction
 {
     public function execute(string $str): string
@@ -19,18 +11,6 @@ class SanitizeAction
         $str = strip_tags($str);
         $str = html_entity_decode($str);
         $str = trim($str);
-<<<<<<< HEAD
-=======
-
-        $replaced = preg_replace('/\s+/', ' ', $str);
-        $str = is_string($replaced) ? $replaced : $str;
-
-        if (Str::startsWith($str, '-')) {
-            $afterStr = Str::after($str, '-');
-            // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
-            $str = $this->execute($afterStr);
-        }
->>>>>>> f1570712 (.)
 
         return $str;
     }

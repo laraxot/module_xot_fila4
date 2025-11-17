@@ -4,11 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models\Traits;
 
+use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\ExtraContract;
 use Modules\Xot\Models\Extra;
+use Spatie\SchemalessAttributes\SchemalessAttributes;
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
@@ -47,68 +49,32 @@ trait HasExtraTrait
         return $this->morphOne($extra_class, 'model');
     }
 
-    /**
-     * @return array<string, mixed>|bool|float|int|string|null
-     */
     public function getExtra(string $name): array|bool|float|int|string|null
     {
-<<<<<<< HEAD
-        if ($this->extra === null || $this->extra->extra_attributes === null) {
-=======
-        if ($this->extra === null) {
->>>>>>> f1570712 (.)
+        $extra = $this->extra;
+        if (! $extra instanceof ExtraContract || ! $extra instanceof Model) {
             return null;
         }
-        // PHPStan Level 10: extra_attributes is non-nullable, use -> instead of ?->
-        $value = $this->extra->extra_attributes->get($name);
 
-<<<<<<< HEAD
-        return $this->normalizeExtraValue($value);
-    }
-    
-    /**
-     * Normalize the extra value to a supported type.
-     *
-     * @param mixed $value
-     * @return array<string, mixed>|bool|float|int|string|null
-     */
-    private function normalizeExtraValue($value): array|bool|float|int|string|null
-    {
+        $attributes = $extra->extra_attributes;
+        if (! $attributes instanceof SchemalessAttributes) {
+            return null;
+        }
+
+        $value = $attributes->get($name);
+
         if (\is_array($value)) {
-            // PHPStan: Cast to ensure array<string, mixed> type
-            /** @var array<string, mixed> $value */
-            return $value;
-        }
-<<<<<<< HEAD
+            /** @var array<string, mixed> $arrayValue */
+            $arrayValue = $value;
 
-        if ($value === null || \is_bool($value) || \is_string($value)) {
-            return $value;
+            return $arrayValue;
         }
 
-        if (\is_int($value) || \is_float($value)) {
+        if (\is_bool($value) || \is_float($value) || \is_int($value) || \is_string($value)) {
             return $value;
         }
 
-=======
-        if (\is_array($value)) {
-            // PHPStan: Cast to ensure array<string, mixed> type
-            /** @var array<string, mixed> $value */
-            return $value;
-        }
-
-        if ($value === null || \is_bool($value) || \is_string($value)) {
-            return $value;
-        }
-
-        if (\is_int($value) || \is_float($value)) {
-            return $value;
-        }
-
->>>>>>> f1570712 (.)
-        throw new \Exception('['.__LINE__.']['.__CLASS__.']');
-=======
-        throw new Exception('['.__LINE__.']['.__CLASS__.']');
->>>>>>> 713050e (.)
+        return null;
     }
 
     /**
@@ -117,18 +83,19 @@ trait HasExtraTrait
     public function setExtra(string $name, $value): void
     {
         $extra = $this->extra;
-        if ($this->extra === null) {
-            // $extra = $this->extra()->firstOrCreate([], ['extra_attributes' => []]);
+        if (! $extra instanceof ExtraContract || ! $extra instanceof Model) {
             $extra = $this->extra()->firstOrCreate([], ['extra_attributes' => json_encode([])]);
-            Assert::implementsInterface(
-                $extra,
-                ExtraContract::class,
-                '['.__LINE__.']['.class_basename($this).']['.$extra.']',
-            );
+            if (! $extra instanceof ExtraContract || ! $extra instanceof Model) {
+                return;
+            }
         }
-        Assert::notNull($extra);
-        // PHPStan Level 10: extra_attributes is non-nullable after assertion
-        $extra->extra_attributes->set($name, $value);
+
+        $attributes = $extra->extra_attributes;
+        if (! $attributes instanceof SchemalessAttributes) {
+            $extra->extra_attributes = $attributes = new SchemalessAttributes($extra, 'extra_attributes');
+        }
+
+        $attributes->set($name, $value);
         $extra->save();
     }
 }

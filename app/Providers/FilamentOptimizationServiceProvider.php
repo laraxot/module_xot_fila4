@@ -64,7 +64,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         // Ottimizza le query di default
         DB::listen(function ($query) {
             // PHPStan: $query è \Illuminate\Database\Events\QueryExecuted
-            if (! is_object($query) || ! property_exists($query, 'time')) {
+            if (! is_object($query) || ! isset($query->time)) {
                 return;
             }
 
@@ -73,10 +73,10 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 
             if ($query->time > $threshold) {
                 Log::warning('Slow query detected', [
-                    'sql' => property_exists($query, 'sql') ? $query->sql : '',
-                    'bindings' => property_exists($query, 'bindings') ? $query->bindings : [],
+                    'sql' => isset($query->sql) ? $query->sql : '',
+                    'bindings' => isset($query->bindings) ? $query->bindings : [],
                     'time' => $query->time,
-                    'connection' => property_exists($query, 'connectionName') ? $query->connectionName : '',
+                    'connection' => isset($query->connectionName) ? $query->connectionName : '',
                 ]);
             }
         });

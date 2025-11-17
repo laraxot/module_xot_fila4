@@ -7,13 +7,6 @@ namespace Modules\Xot\Helpers;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 
-/**
-<<<<<<< HEAD
- * Helper per la gestione dei percorsi nel progetto <main module>.
-=======
- * Helper per la gestione dei percorsi nel progetto SaluteOra.
->>>>>>> f1570712 (.)
- */
 class PathHelper
 {
     /**
@@ -29,11 +22,7 @@ class PathHelper
     /**
      * Percorso base dei moduli.
      */
-<<<<<<< HEAD
-    public static string $modulesBasePath = '/var/www/html/<directory progetto>/laravel/Modules';
-=======
     public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
->>>>>>> f1570712 (.)
 
     /**
      * Ottiene il percorso completo di un modulo.
@@ -132,21 +121,7 @@ class PathHelper
     public static function isValidPath(string $path): bool
     {
         // Verifica che il percorso contenga /laravel/Modules/ e non solo /Modules/
-<<<<<<< HEAD
-        if (Str::contains($path, '/<directory progetto>/Modules/')) {
-            return false;
-        }
-
-        // Verifica che il percorso contenga /laravel/ dopo /<nome progetto>/
-        if (Str::contains($path, '/<nome progetto>/') && ! Str::contains($path, '/<nome progetto>/laravel/')) {
-=======
-        if (Str::contains($path, '/saluteora/Modules/')) {
-            return false;
-        }
-
-        // Verifica che il percorso contenga /laravel/ dopo /saluteora/
-        if (Str::contains($path, '/saluteora/') && ! Str::contains($path, '/saluteora/laravel/')) {
->>>>>>> f1570712 (.)
+        if (Str::contains($path, '/Modules/') && ! Str::contains($path, '/laravel/Modules/')) {
             return false;
         }
 
@@ -161,24 +136,9 @@ class PathHelper
      */
     public static function correctPath(string $path): string
     {
-<<<<<<< HEAD
-        // Corregge /var/www/html/<directory progetto>/Modules/ in /var/www/html/<directory progetto>/laravel/Modules/
-        if (Str::contains($path, '/<directory progetto>/Modules/')) {
-            return str_replace('/<directory progetto>/Modules/', '/<directory progetto>/laravel/Modules/', $path);
-=======
-        // Corregge /var/www/html/saluteora/Modules/ in /var/www/html/saluteora/laravel/Modules/
-        if (Str::contains($path, '/saluteora/Modules/')) {
-            return str_replace('/saluteora/Modules/', '/saluteora/laravel/Modules/', $path);
->>>>>>> f1570712 (.)
-        }
-
         // Corregge /var/www/html/Modules/ in /var/www/html/saluteora/laravel/Modules/
         if (Str::contains($path, '/var/www/html/Modules/')) {
-<<<<<<< HEAD
-            return str_replace('/var/www/html/Modules/', '/var/www/html/<directory progetto>/laravel/Modules/', $path);
-=======
-            return str_replace('/var/www/html/Modules/', '/var/www/html/saluteora/laravel/Modules/', $path);
->>>>>>> f1570712 (.)
+            $path = Str::replace('/var/www/html/Modules/', self::$modulesBasePath.'/', $path);
         }
 
         return $path;

@@ -84,23 +84,13 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
     public function getDescription(): string
     {
         return match ($this) {
-<<<<<<< HEAD
-            self::MONDAY => __('<nome progetto>::common.days.description.monday'),
-            self::TUESDAY => __('<nome progetto>::common.days.description.tuesday'),
-            self::WEDNESDAY => __('<nome progetto>::common.days.description.wednesday'),
-            self::THURSDAY => __('<nome progetto>::common.days.description.thursday'),
-            self::FRIDAY => __('<nome progetto>::common.days.description.friday'),
-            self::SATURDAY => __('<nome progetto>::common.days.description.saturday'),
-            self::SUNDAY => __('<nome progetto>::common.days.description.sunday'),
-=======
-            self::MONDAY => __('saluteora::common.days.description.monday'),
-            self::TUESDAY => __('saluteora::common.days.description.tuesday'),
-            self::WEDNESDAY => __('saluteora::common.days.description.wednesday'),
-            self::THURSDAY => __('saluteora::common.days.description.thursday'),
-            self::FRIDAY => __('saluteora::common.days.description.friday'),
-            self::SATURDAY => __('saluteora::common.days.description.saturday'),
-            self::SUNDAY => __('saluteora::common.days.description.sunday'),
->>>>>>> f1570712 (.)
+            self::MONDAY => 'Lunedì - Inizio della settimana lavorativa',
+            self::TUESDAY => 'Martedì - Secondo giorno lavorativo',
+            self::WEDNESDAY => 'Mercoledì - Metà settimana',
+            self::THURSDAY => 'Giovedì - Penultimo giorno lavorativo',
+            self::FRIDAY => 'Venerdì - Ultimo giorno lavorativo',
+            self::SATURDAY => 'Sabato - Primo giorno del weekend',
+            self::SUNDAY => 'Domenica - Giorno di riposo',
         };
     }
 

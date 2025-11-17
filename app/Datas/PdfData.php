@@ -153,7 +153,7 @@ class PdfData extends Data
     }
 
     /**
-     * @param array<string, mixed> $params
+     * @param  array<string, mixed>  $params
      */
     public function view(string $view, array $params = []): self
     {

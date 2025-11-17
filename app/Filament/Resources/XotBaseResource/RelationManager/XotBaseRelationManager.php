@@ -5,12 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\XotBaseResource\RelationManager;
 
 use Exception;
-<<<<<<< HEAD
-use Filament\Forms\Components\Component;
-=======
->>>>>>> f1570712 (.)
 use Filament\Resources\RelationManagers\RelationManager;
-use Filament\Schemas\Components\Component as SchemaComponent;
 use Filament\Schemas\Schema;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -42,17 +37,17 @@ abstract class XotBaseRelationManager extends RelationManager
 
     public static function getNavigationLabel(): string
     {
-        return __(static::class . '.navigation.label');
+        return __(static::class.'.navigation.label');
     }
 
     public static function getNavigationGroup(): string
     {
-        return __(static::class . '.navigation.group');
+        return __(static::class.'.navigation.group');
     }
 
     protected static function getPluralModelLabel(): string
     {
-        return __(static::class . '.plural_model_label');
+        return __(static::class.'.plural_model_label');
     }
 
     // final public function form(Schema $schema): Schema

@@ -21,7 +21,6 @@ use LogicException;
 use Modules\Xot\Actions\View\GetViewByClassAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use RuntimeException;
-use Webmozart\Assert\Assert;
 
 /**
  * Classe base astratta per tutte le pagine Filament non legate a risorse specifiche.
@@ -34,8 +33,8 @@ use Webmozart\Assert\Assert;
  * - Rilevamento intelligente modello
  * - Metodi helper comuni
  *
- * @property ?string              $model Il modello associato alla pagina
- * @property array<string, mixed> $data  I dati del form
+ * @property ?string $model Il modello associato alla pagina
+ * @property array<string, mixed> $data I dati del form
  *
  * @see \Modules\Xot\docs\xotbasepage_implementation.md Documentazione completa
  */
@@ -121,7 +120,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 
         return (string) $translation;
     }
-    
+
     /**
      * Ottiene la chiave di traduzione per un dato key (alias per getTranslatedString).
      * Genera un percorso di traduzione standardizzato basato sul modulo e sul nome della classe.
@@ -200,19 +199,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         if (! class_exists($modelNamespace)) {
             throw new LogicException("Model class {$modelNamespace} does not exist");
         }
-<<<<<<< HEAD
 
-        if (! is_subclass_of($modelNamespace, Model::class)) {
-            throw new LogicException("Model class {$modelNamespace} must extend Model");
-        }
-
-=======
-        
-        if (! is_subclass_of($modelNamespace, Model::class)) {
-            throw new LogicException("Model class {$modelNamespace} must extend Model");
-        }
-
->>>>>>> f1570712 (.)
         /** @var class-string<Model> $modelNamespace */
         return $modelNamespace;
     }
@@ -221,8 +208,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Configura il form della pagina.
      * Imposta lo schema e il percorso dello stato per il form.
      *
-     * @param \Filament\Schemas\Schema $schema Il form da configurare
-     *
+     * @param  \Filament\Schemas\Schema  $schema  Il form da configurare
      * @return \Filament\Schemas\Schema Il form configurato
      */
     public function form(Schema $schema): Schema
@@ -232,7 +218,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         $schema->statePath('data');
 
         $debounce = $this->getAutosaveDebounce();
-        if (null !== $debounce && method_exists($schema, 'autosaveDebounce')) {
+        if ($debounce !== null && method_exists($schema, 'autosaveDebounce')) {
             $schema->autosaveDebounce($debounce);
         }
 

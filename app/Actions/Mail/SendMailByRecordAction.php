@@ -51,18 +51,31 @@ class SendMailByRecordAction
             throw new InvalidArgumentException('Model must implement myLogs method');
         }
 
-        $data = [
-            'to' => $record->email,
-            'subject' => $record->option('mail_oggetto'),
-            'body_html' => $record->option('mail_testo'),
-            'attachments' => [
+        $to = $record->email;
+        $subject = $record->option('mail_oggetto');
+        $bodyHtml = $record->option('mail_testo');
+
+        if (! is_string($to)) {
+            throw new InvalidArgumentException('Email must be a string');
+        }
+        if (! is_string($subject)) {
+            $subject = '';
+        }
+        if (! is_string($bodyHtml)) {
+            $bodyHtml = '';
+        }
+
+        $emailData = new EmailData(
+            to: $to,
+            subject: $subject,
+            body_html: $bodyHtml,
+            attachments: [
                 app(PdfByModelAction::class)->execute(
                     model: $record,
                     out: 'path',
                 ),
             ],
-        ];
-        $emailData = EmailData::from($data);
+        );
         SmtpData::make()->send($emailData);
 
         // myLogs è sempre disponibile su BaseModel

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\States;
 
 use Filament\Forms\Components\Textarea;
-use Filament\Forms\Components;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
@@ -83,13 +82,6 @@ abstract class XotBaseState extends State implements StateContract
         // return 'Sei sicuro di voler annullare questo appuntamento?';
     }
 
-    /**
-<<<<<<< HEAD
-     * @return array<string, \Filament\Forms\Components\Textarea>
-=======
-     * @return array<string, Component>
->>>>>>> f1570712 (.)
-     */
     #[Override]
     public function modalFormSchema(): array
     {

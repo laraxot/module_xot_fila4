@@ -4,53 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-=======
-use Illuminate\Support\Facades\Schema;
->>>>>>> f1570712 (.)
 use InvalidArgumentException;
 use Modules\Tenant\Models\Traits\SushiToJson;
 
 /**
-<<<<<<< HEAD
- * Metadata per le tabelle contenute in information_schema.tables.
- *
- * @property string|null $table_schema
- * @property string|null $table_name
- * @property int|null    $table_rows
- * @property string|null $model_class
-=======
- * Represents a table in the INFORMATION_SCHEMA.TABLES.
- *
- * Provides metadata and statistics about database tables.
- *
- * @property int $id
- * @property string|null $table_schema
- * @property string|null $table_name
  * @property int|null $table_rows
+ * @property string $table_schema
+ * @property string $table_name
  * @property string|null $model_class
- * @property string|null $updated_at
- * @property string|null $updated_by
- * @property string|null $created_at
- * @property string|null $created_by
- *
- * @method static Builder<static>|InformationSchemaTable newModelQuery()
- * @method static Builder<static>|InformationSchemaTable newQuery()
- * @method static Builder<static>|InformationSchemaTable query()
- * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
- * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
- * @method static Builder<static>|InformationSchemaTable whereId($value)
- * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
- * @method static Builder<static>|InformationSchemaTable whereTableName($value)
- * @method static Builder<static>|InformationSchemaTable whereTableRows($value)
- * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)
- * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
- * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
- *
- * @mixin \Eloquent
->>>>>>> f1570712 (.)
  */
 class InformationSchemaTable extends Model
 {
@@ -110,7 +72,7 @@ class InformationSchemaTable extends Model
     /**
      * Aggiorna il numero di record memorizzato per un modello.
      *
-     * @param class-string<Model> $modelClass
+     * @param  class-string<Model>  $modelClass
      */
     public static function updateModelCount(string $modelClass, int $total): void
     {
@@ -121,7 +83,7 @@ class InformationSchemaTable extends Model
         /** @var Model $model */
         $model = app($modelClass);
         if (! $model instanceof Model) {
-            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
+            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
         }
 
         $connection = $model->getConnection();
@@ -140,7 +102,7 @@ class InformationSchemaTable extends Model
     /**
      * Restituisce il numero di record per un modello.
      *
-     * @param class-string<Model> $modelClass
+     * @param  class-string<Model>  $modelClass
      */
     public static function getModelCount(string $modelClass): int
     {
@@ -151,7 +113,7 @@ class InformationSchemaTable extends Model
         /** @var Model $model */
         $model = app($modelClass);
         if (! $model instanceof Model) {
-            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
+            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
         }
 
         $connection = $model->getConnection();

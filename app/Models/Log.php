@@ -17,15 +17,6 @@ use Sushi\Sushi;
  * @property string|null $id
  * @property string|null $name
  * @property int|null $size
-<<<<<<< HEAD
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read string|null $file_content
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
-=======
- * @property-read \Modules\Quaeris\Models\Profile|null $creator
- * @property-read string|null $file_content
- * @property-read \Modules\Quaeris\Models\Profile|null $updater
->>>>>>> f1570712 (.)
  *
  * @method static \Modules\Xot\Database\Factories\LogFactory factory($count = null, $state = [])
  * @method static Builder<static>|Log newModelQuery()

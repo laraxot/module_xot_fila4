@@ -71,11 +71,11 @@ class BelongsToAction
             // $rows->update($data); // non passa per il mutator
             $relationName = Str::camel($relationDTO->name);
             $relation = $model->{$relationName};
-            
-            if (!is_object($relation) || !method_exists($relation, 'update')) {
+
+            if (! is_object($relation) || ! method_exists($relation, 'update')) {
                 return;
             }
-            
+
             $relation->update($data);
 
             return;

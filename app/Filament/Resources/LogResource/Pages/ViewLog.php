@@ -4,11 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\LogResource\Pages;
 
-use Filament\Actions;
 use Filament\Infolists\Components\TextEntry;
 use Filament\Schemas\Components\Grid;
 use Filament\Schemas\Components\Section;
-use Filament\Support\Components\Component;
 use Modules\Xot\Filament\Resources\LogResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 use Override;
@@ -34,10 +32,10 @@ class ViewLog extends XotBaseViewRecord
                     'channel' => TextEntry::make('channel'),
                     'datetime' => TextEntry::make('datetime')->dateTime(),
                     'context' => TextEntry::make('context')->formatStateUsing(
-                        fn($state) => json_encode($state, JSON_PRETTY_PRINT),
+                        fn ($state) => json_encode($state, JSON_PRETTY_PRINT),
                     ),
                     'extra' => TextEntry::make('extra')->formatStateUsing(
-                        fn($state) => json_encode($state, JSON_PRETTY_PRINT),
+                        fn ($state) => json_encode($state, JSON_PRETTY_PRINT),
                     ),
                 ]),
             ]),

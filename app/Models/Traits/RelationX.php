@@ -46,14 +46,9 @@ trait RelationX
 
         $pivotDbName = $pivot->getConnection()->getDatabaseName();
         $dbName = $this->getConnection()->getDatabaseName();
-<<<<<<< HEAD
-        // if ($pivotDbName !== $dbName) {
-        if ($pivotDbName !== $dbName) {
-=======
         $relatedDbName = $related_model->getConnection()->getDatabaseName();
         // if ($pivotDbName !== $dbName) {
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
->>>>>>> f1570712 (.)
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
             // SQLite doesn't support database.table syntax
@@ -166,23 +161,23 @@ trait RelationX
     public function guessPivotFullClass(string $pivot_name, string $related, ?string $class = null): string
     {
         $class ??= $this::class;
-        
+
         // Try class-based pivot first
         $pivot_class = $this->buildPivotClassName($class, $pivot_name);
         if (class_exists($pivot_class)) {
             return $pivot_class;
         }
-        
+
         // Try related model-based pivot
         $pivot_class = $this->buildPivotClassName($related, $pivot_name);
         if (class_exists($pivot_class)) {
             return $pivot_class;
         }
-        
+
         // Try parent class if available
         return $this->tryParentClassPivot($pivot_name, $related, $class);
     }
-    
+
     private function buildPivotClassName(string $context, string $pivotName): string
     {
         return Str::of($context)
@@ -190,19 +185,19 @@ trait RelationX
             ->append('\\'.$pivotName)
             ->toString();
     }
-    
+
     private function tryParentClassPivot(string $pivot_name, string $related, string $class): string
     {
         $parent_class = get_parent_class($class);
         if ($parent_class === false) {
             return $this->buildPivotClassName($class, $pivot_name);
         }
-        
+
         // If parent class ends with 'Morph', use it directly
         if (Str::endsWith($parent_class, 'Morph')) {
             return $this->buildPivotClassName($class, $pivot_name);
         }
-        
+
         // Otherwise, use parent class to build new pivot name
         $model_names = [
             class_basename($parent_class),
@@ -210,7 +205,7 @@ trait RelationX
         ];
         sort($model_names);
         $new_pivot_name = implode('', $model_names);
-        
+
         return $this->guessPivotFullClass($new_pivot_name, $related, $parent_class);
     }
 }

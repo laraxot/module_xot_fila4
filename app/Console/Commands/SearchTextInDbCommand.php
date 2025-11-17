@@ -7,7 +7,6 @@ namespace Modules\Xot\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-
 use function Safe\json_encode;
 
 class SearchTextInDbCommand extends Command
@@ -90,7 +89,7 @@ class SearchTextInDbCommand extends Command
                     ->get();
 
                 if ($results->isNotEmpty()) {
-                    $this->info("Found in column: $column");
+                    $this->info("Found in column: {$column}");
                     foreach ($results as $result) {
                         $this->table(
                             ['Column', 'Value'],

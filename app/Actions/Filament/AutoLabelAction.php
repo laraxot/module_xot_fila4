@@ -25,47 +25,10 @@ class AutoLabelAction
     use QueueableAction;
 
     /**
-     * Get the component name based on its actual type.
-     *
-     * @param  Field|Component  $component  Il componente di cui ottenere il nome
-     * @return string Il nome del componente
-     */
-    private function getComponentName(Field|Component $component): string
-    {
-        // Per i componenti Field di Filament
-        if (method_exists($component, 'getName')) {
-            $name = $component->getName();
-
-            return is_string($name) ? $name : ((string) $name);
-        }
-
-        // Per i componenti generali di Filament
-        // PHPStan rileva che questo controllo è sempre vero per Component
-        // ma lo manteniamo per chiarezza e per gestire eventuali cambiamenti futuri in Filament
-        // @phpstan-ignore function.alreadyNarrowedType
-        if (method_exists($component, 'getStatePath')) {
-            $statePath = $component->getStatePath();
-
-            return $statePath ?? class_basename($component);
-        }
-
-        // Fallback a reflection per altri casi
-        $reflectionClass = new ReflectionClass($component);
-        if ($reflectionClass->hasProperty('name') && $reflectionClass->getProperty('name')->isPublic()) {
-            $property = $reflectionClass->getProperty('name');
-            Assert::string($value = $property->getValue($component));
-
-            return $value;
-        }
-
-        // Ultima risorsa: ritorniamo il nome della classe
-        return class_basename($component);
-    }
-
-    /**
      * Applica automaticamente le etichette ai componenti Filament.
      *
      * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
+     *
      * @return Field|Component Il componente con l'etichetta applicata
      */
     public function execute(Field|Component $component): Field|Component
@@ -79,11 +42,11 @@ class AutoLabelAction
         // Gestiamo il caso in cui $class sia vuoto
         if (empty($class)) {
             // Se non riusciamo a ottenere la classe dal backtrace, usiamo la classe del componente
-            $class = get_class($component);
+            $class = $component::class;
         }
 
         if (is_object($class)) {
-            $class = get_class($class);
+            $class = $class::class;
         }
 
         // Assicuriamo che $class sia una stringa
@@ -130,5 +93,44 @@ class AutoLabelAction
         }
 
         return $component;
+    }
+
+    /**
+     * Get the component name based on its actual type.
+     *
+     * @param  Field|Component  $component  Il componente di cui ottenere il nome
+     *
+     * @return string Il nome del componente
+     */
+    private function getComponentName(Field|Component $component): string
+    {
+        // Per i componenti Field di Filament
+        if (method_exists($component, 'getName')) {
+            $name = $component->getName();
+
+            return is_string($name) ? $name : ((string) $name);
+        }
+
+        // Per i componenti generali di Filament
+        // PHPStan rileva che questo controllo è sempre vero per Component
+        // ma lo manteniamo per chiarezza e per gestire eventuali cambiamenti futuri in Filament
+        // @phpstan-ignore function.alreadyNarrowedType
+        if (method_exists($component, 'getStatePath')) {
+            $statePath = $component->getStatePath();
+
+            return $statePath ?? class_basename($component);
+        }
+
+        // Fallback a reflection per altri casi
+        $reflectionClass = new ReflectionClass($component);
+        if ($reflectionClass->hasProperty('name') && $reflectionClass->getProperty('name')->isPublic()) {
+            $property = $reflectionClass->getProperty('name');
+            Assert::string($value = $property->getValue($component));
+
+            return $value;
+        }
+
+        // Ultima risorsa: ritorniamo il nome della classe
+        return class_basename($component);
     }
 }

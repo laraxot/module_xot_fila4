@@ -13,12 +13,11 @@ use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Actions\File\AssetAction;
 use Modules\Xot\Actions\File\AssetPathAction;
 use Modules\Xot\Datas\Transformers\AssetTransformer;
+use function Safe\file_get_contents;
 use Spatie\LaravelData\Attributes\WithTransformer;
 use Spatie\LaravelData\Concerns\WireableData;
 use Spatie\LaravelData\Data;
 use Throwable;
-
-use function Safe\file_get_contents;
 
 /**
  * Class MetatagData
@@ -262,26 +261,6 @@ class MetatagData extends Data implements Wireable
     }
 
     /**
-     * Get MIME type from file path extension.
-     * Helper method for getBrandLogoBase64().
-     */
-    private function getMimeTypeFromPath(string $filePath): string
-    {
-        $extension = \strtolower(\pathinfo($filePath, PATHINFO_EXTENSION));
-
-        return match ($extension) {
-            'png' => 'image/png',
-            'jpg', 'jpeg' => 'image/jpeg',
-            'gif' => 'image/gif',
-            'svg' => 'image/svg+xml',
-            'webp' => 'image/webp',
-            'bmp' => 'image/bmp',
-            'ico' => 'image/x-icon',
-            default => 'image/png', // Fallback default
-        };
-    }
-
-    /**
      * Get the theme colors.
      * This method reflects the semantic purpose of getting theme colors,
      * rather than exposing the raw color data structure.
@@ -387,9 +366,7 @@ class MetatagData extends Data implements Wireable
     {
         try {
             /** @var string $path */
-            $path = app(AssetAction::class)->execute($this->favicon);
-
-            return $path;
+            return app(AssetAction::class)->execute($this->favicon);
         } catch (Throwable $e) {
             return asset($this->favicon);
         }
@@ -401,9 +378,7 @@ class MetatagData extends Data implements Wireable
         // return app(AssetAction::class)->execute($this->favicon, $size, $format);
         $file = 'favicon-'.$size.'.'.$format;
 
-        $res = $xot->getPubThemePublicAsset($file);
-
-        return $res;
+        return $xot->getPubThemePublicAsset($file);
     }
 
     /**
@@ -656,17 +631,13 @@ class MetatagData extends Data implements Wireable
 
         $file = 'site.webmanifest';
 
-        $res = $xot->getPubThemePublicAsset($file);
-
-        return $res;
+        return $xot->getPubThemePublicAsset($file);
     }
 
     public function getPubThemeAsset(string $file): string
     {
         $xot = XotData::make();
-        $res = $xot->getPubThemePublicAsset($file);
-
-        return $res;
+        return $xot->getPubThemePublicAsset($file);
     }
 
     public function getPubTheme(): string
@@ -718,5 +689,25 @@ class MetatagData extends Data implements Wireable
         }
 
         return $this;
+    }
+
+    /**
+     * Get MIME type from file path extension.
+     * Helper method for getBrandLogoBase64().
+     */
+    private function getMimeTypeFromPath(string $filePath): string
+    {
+        $extension = \strtolower(\pathinfo($filePath, PATHINFO_EXTENSION));
+
+        return match ($extension) {
+            'png' => 'image/png',
+            'jpg', 'jpeg' => 'image/jpeg',
+            'gif' => 'image/gif',
+            'svg' => 'image/svg+xml',
+            'webp' => 'image/webp',
+            'bmp' => 'image/bmp',
+            'ico' => 'image/x-icon',
+            default => 'image/png', // Fallback default
+        };
     }
 }

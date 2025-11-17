@@ -80,9 +80,7 @@ class EnvData extends Data implements Wireable
         $length = $pos_end - $pos_start;
         $find = mb_substr($env_content, $pos_start, $length + 1);
 
-        $env_content = str($env_content)->replace($find, $replace)->toString();
-
-        return $env_content;
+        return str($env_content)->replace($find, $replace)->toString();
     }
 
     public function getLine(string $key, int|bool|string $value): string

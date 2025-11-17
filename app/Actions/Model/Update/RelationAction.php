@@ -33,7 +33,7 @@ class RelationAction
          * // */
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
-            $relationClass = get_class($relation);
+            $relationClass = $relation::class;
             $relationshipType = class_basename($relationClass);
 
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';

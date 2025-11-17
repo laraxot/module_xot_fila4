@@ -20,7 +20,8 @@ abstract class XotBaseTransition extends Transition
     public function __construct(
         public Model $record,
         public ?string $message = '',
-    ) {}
+    ) {
+    }
 
     public function handle(): Model
     {
@@ -75,7 +76,7 @@ abstract class XotBaseTransition extends Transition
     public function getNotificationSlug(UserContract $recipient): string
     {
         $typeEnum = $recipient->type;
-        $type = ($typeEnum instanceof \BackedEnum) ? (string) $typeEnum->value : 'unknown';
+        $type = $typeEnum instanceof \BackedEnum ? (string) $typeEnum->value : 'unknown';
 
         $slug =
             class_basename($this->record).

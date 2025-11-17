@@ -28,6 +28,7 @@ class GetViewBlocksOptionsByTypeAction
      *
      * @param  string  $type  Il tipo di blocco da cercare
      * @param  bool  $img  Se includere i percorsi delle immagini invece dei nomi
+     *
      * @return array<string, string> Array di opzioni con chiave = vista e valore = nome o percorso immagine
      */
     public function execute(string $type, bool $img = false): array
@@ -65,7 +66,7 @@ class GetViewBlocksOptionsByTypeAction
 
             Assert::notEmpty($modulePath, 'Impossibile estrarre il nome del modulo dal percorso');
 
-            $module_low = is_string($modulePath) ? $modulePath : ((string) $modulePath->lower());
+            $module_low = is_string($modulePath) ? $modulePath : (string) $modulePath->lower();
             Assert::stringNotEmpty($module_low, 'Il nome del modulo in minuscolo non può essere vuoto');
 
             // Estraiamo il nome del file

@@ -6,15 +6,11 @@ namespace Modules\Xot\Filament\Resources\XotBaseResource\RelationManager;
 
 use Exception;
 use Filament\Resources\RelationManagers\RelationManager;
-use Filament\Schemas\Schema;
 use Filament\Tables;
-use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Override;
-use Webmozart\Assert\Assert;
 
 /**
  * @property class-string<XotBaseResource> $resource
@@ -45,11 +41,6 @@ abstract class XotBaseRelationManager extends RelationManager
         return __(static::class.'.navigation.group');
     }
 
-    protected static function getPluralModelLabel(): string
-    {
-        return __(static::class.'.plural_model_label');
-    }
-
     // final public function form(Schema $schema): Schema
     // {
     //     return $schema->components($this->getFormSchema());
@@ -75,6 +66,11 @@ abstract class XotBaseRelationManager extends RelationManager
         return [];
 
         // return $this->getResource()::getTableColumns();
+    }
+
+    protected static function getPluralModelLabel(): string
+    {
+        return __(static::class.'.plural_model_label');
     }
 
     // public function table(Table $table): Table
@@ -114,7 +110,7 @@ abstract class XotBaseRelationManager extends RelationManager
         }
 
         // Fallback: derive the resource class name from the relation manager name
-        $class = get_class($this);
+        $class = static::class;
         $resourceName = Str::of(class_basename($this))
             ->beforeLast('RelationManager')
             ->singular()

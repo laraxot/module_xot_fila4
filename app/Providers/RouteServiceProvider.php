@@ -17,6 +17,8 @@ use Modules\Xot\Http\Middleware\SetDefaultTenantForUrlsMiddleware;
 
 class RouteServiceProvider extends ServiceProvider
 {
+
+    public string $name = 'Xot';
     /**
      * The root namespace to assume when generating URLs to actions.
      */
@@ -30,8 +32,6 @@ class RouteServiceProvider extends ServiceProvider
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
-
-    public string $name = 'Xot';
 
     /**
      * Called before routes are registered.
@@ -54,27 +54,6 @@ class RouteServiceProvider extends ServiceProvider
     {
         $this->mapApiRoutes();
         $this->mapWebRoutes();
-    }
-
-    /**
-     * Define the "web" routes for the application.
-     * These routes all receive session state, CSRF protection, etc.
-     */
-    protected function mapWebRoutes(): void
-    {
-        Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
-    }
-
-    /**
-     * Define the "api" routes for the application.
-     * These routes are typically stateless.
-     */
-    protected function mapApiRoutes(): void
-    {
-        Route::prefix('api')
-            ->middleware('api')
-            ->namespace($this->moduleNamespace)
-            ->group(base_path('Modules/Xot/routes/api.php'));
     }
 
     public function registerMyMiddleware(Router $router): void
@@ -137,6 +116,27 @@ class RouteServiceProvider extends ServiceProvider
         $models_collect = collect(array_keys($models));
         $models_collect->implode('|');
         $models_collect->map(fn ($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
+    }
+
+    /**
+     * Define the "web" routes for the application.
+     * These routes all receive session state, CSRF protection, etc.
+     */
+    protected function mapWebRoutes(): void
+    {
+        Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
+    }
+
+    /**
+     * Define the "api" routes for the application.
+     * These routes are typically stateless.
+     */
+    protected function mapApiRoutes(): void
+    {
+        Route::prefix('api')
+            ->middleware('api')
+            ->namespace($this->moduleNamespace)
+            ->group(base_path('Modules/Xot/routes/api.php'));
     }
 
     // end registerRoutePattern

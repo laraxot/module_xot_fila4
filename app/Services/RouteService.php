@@ -9,8 +9,6 @@ use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
 
-use function count;
-
 /**
  * Class RouteService.
  * Modules\Xot\Services\RouteService.
@@ -23,6 +21,7 @@ class RouteService
      * Verifica se l'utente è in modalità amministrazione.
      *
      * @param  array<string,string>  $params  Parametri aggiuntivi
+     *
      * @return bool True se l'utente è in modalità amministrazione, false altrimenti
      */
     public static function inAdmin(array $params = []): bool
@@ -42,8 +41,7 @@ class RouteService
         $segments = Request::segments();
 
         // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
-        return
-            (is_countable($segments) ? \count($segments) : 0) > 0 &&
+        return (is_countable($segments) ? \count($segments) : 0) > 0 &&
             $segments[0] === 'livewire' &&
             session('in_admin', false) === true;
     }

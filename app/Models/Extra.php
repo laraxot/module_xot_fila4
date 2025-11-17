@@ -40,4 +40,6 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
  *
  * @mixin \Eloquent
  */
-final class Extra extends BaseExtra {}
+final class Extra extends BaseExtra
+{
+}

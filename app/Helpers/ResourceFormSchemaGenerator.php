@@ -8,14 +8,13 @@ use Exception;
 use Illuminate\Support\Str;
 use ReflectionClass;
 use RuntimeException;
-use Webmozart\Assert\Assert;
-
 use function Safe\error_log;
 use function Safe\file_get_contents;
 use function Safe\file_put_contents;
 use function Safe\glob;
 use function Safe\preg_match;
 use function Safe\preg_replace;
+use Webmozart\Assert\Assert;
 
 class ResourceFormSchemaGenerator
 {
@@ -80,7 +79,7 @@ class ResourceFormSchemaGenerator
 
         foreach ($resourceFiles as $file) {
             try {
-                Assert::string($file, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                Assert::string($file, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
                 $content = file_get_contents($file);
                 $namespaceMatch = [];
                 $classMatch = [];

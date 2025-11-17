@@ -18,15 +18,21 @@ use Webmozart\Assert\Assert;
  */
 class StateOverviewWidget extends XotBaseWidget
 {
-    /**
-     * Vista del widget.
-     */
-    protected string $view = 'xot::filament.widgets.state-overview';
 
     /**
      * Titolo del widget.
      */
     public string $title = '';
+
+    public string $stateClass;
+
+    public string $model;
+
+    public string $cacheKey = '';
+    /**
+     * Vista del widget.
+     */
+    protected string $view = 'xot::filament.widgets.state-overview';
 
     /**
      * Occupa tutta la larghezza disponibile.
@@ -37,12 +43,6 @@ class StateOverviewWidget extends XotBaseWidget
      * Intervallo di polling disabilitato per performance.
      */
     protected static ?string $pollingInterval = null;
-
-    public string $stateClass;
-
-    public string $model;
-
-    public string $cacheKey = '';
 
     /**
      * Schema del form (vuoto per questo widget).

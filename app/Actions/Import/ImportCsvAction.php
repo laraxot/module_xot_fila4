@@ -12,10 +12,9 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Modules\Xot\Datas\ColumnData;
+use function Safe\ini_set;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
-
-use function Safe\ini_set;
 
 class ImportCsvAction
 {
@@ -72,10 +71,9 @@ class ImportCsvAction
     /**
      * Get table columns excluding certain fields.
      *
-     * @param  Builder  $conn
-     * @return ColumnData[]
+     * @return array<ColumnData>
      */
-    private function getTableColumns($conn, string $tbl): array
+    private function getTableColumns(Builder $conn, string $tbl): array
     {
         $columns = $conn->getColumnListing($tbl);
         $excludedColumns = ['id'];
@@ -96,13 +94,14 @@ class ImportCsvAction
     /**
      * Prepare fields for the SQL query.
      *
-     * @param  ColumnData[]  $columns
-     * @return string[]
+     * @param  array<ColumnData>  $columns
+     *
+     * @return array<string>
      */
     private function prepareFields(array $columns): array
     {
         return array_map(
-            fn (ColumnData $column) => $column->type === 'decimal' ? ('@'.$column->name) : $column->name,
+            fn (ColumnData $column) => $column->type === 'decimal' ? '@'.$column->name : $column->name,
             $columns,
         );
     }
@@ -110,7 +109,7 @@ class ImportCsvAction
     /**
      * Build the SQL query for importing data.
      *
-     * @param  ColumnData[]  $columns
+     * @param  array<ColumnData>  $columns
      */
     private function buildSql(string $path, string $db, string $tbl, string $fieldsUpList, array $columns): string
     {
@@ -142,8 +141,9 @@ class ImportCsvAction
     /**
      * Transform columns into ColumnData objects.
      *
-     * @param  string[]  $columns
-     * @return ColumnData[]
+     * @param  array<string>  $columns
+     *
+     * @return array<ColumnData>
      *
      * @deprecated This method is currently unused but kept for future expansion.
      *

@@ -8,7 +8,6 @@ use Exception;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\File\FixPathAction;
 use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
 
 class GetViewAction
 {
@@ -16,7 +15,6 @@ class GetViewAction
 
     /**
      * Summary of execute.
-     *
      *
      * @return view-string
      *

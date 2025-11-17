@@ -4,10 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Traits;
 
-use Illuminate\Support\Str;
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
-use Webmozart\Assert\Assert;
 
 trait NavigationLabelTrait
 {

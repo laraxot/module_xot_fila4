@@ -23,7 +23,6 @@ abstract class XotBasePolicy
             if ($user->hasRole('super-admin')) {
                 return true;
             }
-
         });
     }
 

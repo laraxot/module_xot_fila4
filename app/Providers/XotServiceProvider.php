@@ -8,37 +8,24 @@ use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\Field;
 use Filament\Forms\Components\Placeholder;
-use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\TimePicker;
-use Filament\Forms\Formatters\WebhookErrorFormatter;
 use Filament\Infolists\Components\Entry;
-use Filament\Schemas\Components\Utilities\Set;
 use Filament\Support\Components\Component;
-use Filament\Support\Concerns\Configurable;
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\BaseFilter;
-use Illuminate\Auth\AuthenticationException;
-use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Database\Events\MigrationsEnded;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
-use Illuminate\Support\Str;
 use Modules\Xot\Console\Commands\GenerateFilamentResources;
 use Modules\Xot\Console\Commands\OptimizeFilamentMemoryCommand;
 use Modules\Xot\Datas\XotData;
-use Modules\Xot\Exceptions\Handlers\HandlerDecorator;
-use Modules\Xot\Exceptions\Handlers\HandlersRepository;
 use Modules\Xot\View\Composers\XotComposer;
 use Override;
-use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Webmozart\Assert\Assert;
-
-use function Safe\realpath;
 
 /**
  * Class XotServiceProvider.
@@ -171,11 +158,24 @@ class XotServiceProvider extends XotBaseServiceProvider
         }
     }
 
+    /**
+     * Register console commands.
+     */
+    public function registerCommands(): void
+    {
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                GenerateFilamentResources::class,
+                // \Modules\Xot\Console\Commands\OptimizeFilamentMemoryCommand::class,
+            ]);
+        }
+    }
+
     protected function translatableComponents(): void
     {
         $components = [Field::class, BaseFilter::class, Placeholder::class, Column::class, Entry::class];
         foreach ($components as $component) {
-            /* @var Configurable $component */
+            /** @var Configurable $component */
             $component::configureUsing(function (Component $translatable): void {
                 /* @phpstan-ignore method.notFound */
                 $translatable->translateLabel();
@@ -245,19 +245,6 @@ class XotServiceProvider extends XotBaseServiceProvider
     private function registerViewComposers(): void
     {
         View::composer('*', XotComposer::class);
-    }
-
-    /**
-     * Register console commands.
-     */
-    public function registerCommands(): void
-    {
-        if ($this->app->runningInConsole()) {
-            $this->commands([
-                GenerateFilamentResources::class,
-                // \Modules\Xot\Console\Commands\OptimizeFilamentMemoryCommand::class,
-            ]);
-        }
     }
 
     /**

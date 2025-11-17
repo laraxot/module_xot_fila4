@@ -9,7 +9,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Filament;
 
 // use Filament\Forms\Commands\Concerns\CanGenerateForms; // Non disponibile in Filament v4
-use Filament\Resources\Resource;
 use Filament\Support\Commands\Concerns\CanReadModelSchemas;
 // use Filament\Tables\Commands\Concerns\CanGenerateTables; // Non disponibile in Filament v4
 use Illuminate\Database\Eloquent\Model;

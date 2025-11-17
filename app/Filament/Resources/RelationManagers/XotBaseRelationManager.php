@@ -56,7 +56,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         Assert::true(class_exists($resourceClass), 'Resource class does not exist: '.$resourceClass);
         Assert::true(is_subclass_of($resourceClass, XotBaseResource::class), 'Resource must extend XotBaseResource: '.$resourceClass);
 
-        /* @var class-string<XotBaseResource> $resourceClass */
+        /** @var class-string<XotBaseResource> $resourceClass */
         static::$resourceClass = $resourceClass;
 
         return static::$resourceClass;
@@ -66,9 +66,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     {
         $class = static::class;
         $arr = explode('\\', $class);
-        $module_name = $arr[1];
-
-        return $module_name;
+        return $arr[1];
     }
 
     public function getFormSchema(): array

@@ -44,12 +44,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     use TransTrait;
 
     /**
-     * Vista predefinita per la pagina.
-     * Deve essere sovrascritta nelle classi figlie.
-     */
-    protected string $view = '';
-
-    /**
      * Modello associato alla pagina.
      * Se non specificato, verrà dedotto automaticamente dal nome della classe.
      *
@@ -64,6 +58,12 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * @var array<string, mixed>
      */
     public array $data = [];
+
+    /**
+     * Vista predefinita per la pagina.
+     * Deve essere sovrascritta nelle classi figlie.
+     */
+    protected string $view = '';
 
     /**
      * Cache timeout per operazioni di cache (in secondi).
@@ -96,6 +96,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * @param  array<string, bool|float|int|string>  $replace  Parametri di sostituzione per la traduzione
      * @param  string|null  $locale  Locale da utilizzare (null = locale corrente)
      * @param  bool  $useFallback  Se true, utilizza la chiave come fallback se la traduzione non esiste
+     *
      * @return string La stringa tradotta o la chiave originale se non trovata
      */
     public static function getTranslatedString(
@@ -129,6 +130,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * @param  array<string, bool|float|int|string>  $replace  Parametri di sostituzione per la traduzione
      * @param  string|null  $locale  Locale da utilizzare (null = locale corrente)
      * @param  bool  $useFallback  Se true, utilizza la chiave come fallback se la traduzione non esiste
+     *
      * @return string La stringa tradotta o la chiave originale se non trovata
      */
     public static function trans(
@@ -172,9 +174,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         if (static::$model !== null) {
             /** @var class-string<Model> $model */
             /** @phpstan-ignore property.staticAccess */
-            $model = static::$model;
-
-            return $model;
+            return static::$model;
         }
 
         $moduleName = static::getModuleName();
@@ -209,6 +209,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Imposta lo schema e il percorso dello stato per il form.
      *
      * @param  \Filament\Schemas\Schema  $schema  Il form da configurare
+     *
      * @return \Filament\Schemas\Schema Il form configurato
      */
     public function form(Schema $schema): Schema
@@ -223,75 +224,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         }
 
         return $schema;
-    }
-
-    /**
-     * Ottiene il tempo di debounce per l'autosave in millisecondi.
-     * Sovrascrivere nelle classi figlie per modificare questo valore.
-     *
-     * @return int|null Il tempo di debounce in millisecondi o null per disabilitare l'autosave
-     */
-    protected function getAutosaveDebounce(): ?int
-    {
-        return null; // Disabilitato per default
-    }
-
-    /**
-     * Ottiene l'utente autenticato.
-     * Verifica che l'utente sia un'istanza di Model per permettere aggiornamenti.
-     *
-     *
-     * @return Authenticatable&Model L'utente autenticato
-     *
-     * @throws RuntimeException Se l'utente non è autenticato o non è un'istanza di Model
-     */
-    protected function getUser(): Authenticatable&Model
-    {
-        $user = Filament::auth()->user();
-
-        if ($user === null) {
-            throw new RuntimeException('Nessun utente autenticato trovato.');
-        }
-
-        if (! ($user instanceof Model)) {
-            throw new RuntimeException(
-                'L\'utente autenticato deve essere un modello Eloquent per permettere aggiornamenti.',
-            );
-        }
-
-        /* @var Authenticatable&Model $user */
-        return $user;
-    }
-
-    /**
-     * Verifica se l'utente ha l'accesso alla pagina.
-     * Utilizza il sistema di autorizzazioni per controllare l'accesso.
-     *
-     * @throws AuthorizationException Se l'utente non è autorizzato
-     */
-    protected function authorizeAccess(): void
-    {
-        $this->authorize('view', static::class);
-    }
-
-    /**
-     * Verifica se l'utente ha un permesso specifico.
-     * Utile per controlli granulari all'interno delle pagine.
-     *
-     * @param  string  $permission  Il permesso da verificare
-     * @return bool True se l'utente ha il permesso, false altrimenti
-     */
-    protected function hasPermissionTo(string $permission): bool
-    {
-        $user = $this->getUser();
-
-        // @phpstan-ignore-next-line
-        if (! method_exists($user, 'hasPermissionTo')) {
-            throw new RuntimeException('Il modello utente deve implementare il metodo hasPermissionTo');
-        }
-
-        // Use method_exists to safely call hasPermissionTo
-        return $user->hasPermissionTo($permission);
     }
 
     /**
@@ -315,8 +247,76 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     }
 
     /**
-     * Risolve il percorso della vista.
+     * Ottiene il tempo di debounce per l'autosave in millisecondi.
+     * Sovrascrivere nelle classi figlie per modificare questo valore.
      *
+     * @return int|null Il tempo di debounce in millisecondi o null per disabilitare l'autosave
+     */
+    protected function getAutosaveDebounce(): ?int
+    {
+        return null; // Disabilitato per default
+    }
+
+    /**
+     * Ottiene l'utente autenticato.
+     * Verifica che l'utente sia un'istanza di Model per permettere aggiornamenti.
+     *
+     * @return Authenticatable&Model L'utente autenticato
+     *
+     * @throws RuntimeException Se l'utente non è autenticato o non è un'istanza di Model
+     */
+    protected function getUser(): Authenticatable&Model
+    {
+        $user = Filament::auth()->user();
+
+        if ($user === null) {
+            throw new RuntimeException('Nessun utente autenticato trovato.');
+        }
+
+        if (! ($user instanceof Model)) {
+            throw new RuntimeException(
+                'L\'utente autenticato deve essere un modello Eloquent per permettere aggiornamenti.',
+            );
+        }
+
+        /** @var Authenticatable&Model $user */
+        return $user;
+    }
+
+    /**
+     * Verifica se l'utente ha l'accesso alla pagina.
+     * Utilizza il sistema di autorizzazioni per controllare l'accesso.
+     *
+     * @throws AuthorizationException Se l'utente non è autorizzato
+     */
+    protected function authorizeAccess(): void
+    {
+        $this->authorize('view', static::class);
+    }
+
+    /**
+     * Verifica se l'utente ha un permesso specifico.
+     * Utile per controlli granulari all'interno delle pagine.
+     *
+     * @param  string  $permission  Il permesso da verificare
+     *
+     * @return bool True se l'utente ha il permesso, false altrimenti
+     */
+    protected function hasPermissionTo(string $permission): bool
+    {
+        $user = $this->getUser();
+
+        // @phpstan-ignore-next-line
+        if (! method_exists($user, 'hasPermissionTo')) {
+            throw new RuntimeException('Il modello utente deve implementare il metodo hasPermissionTo');
+        }
+
+        // Use method_exists to safely call hasPermissionTo
+        return $user->hasPermissionTo($permission);
+    }
+
+    /**
+     * Risolve il percorso della vista.
      *
      * @return string Il percorso della vista
      *
@@ -335,7 +335,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     /**
      * Ottiene una query builder per il modello associato alla pagina.
      *
-     *
      * @return Builder<Model>
      *
      * @throws LogicException Se il modello non è definito
@@ -349,15 +348,13 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         }
 
         /** @var class-string<Model> $modelClass */
-        $instance = new $modelClass;
+        $instance = new $modelClass();
         if (! ($instance instanceof Model)) {
             throw new LogicException("Class {$modelClass} must extend Eloquent Model");
         }
 
         /** @var Builder<Model> $query */
-        $query = $modelClass::query();
-
-        return $query;
+        return $modelClass::query();
     }
 
     /**

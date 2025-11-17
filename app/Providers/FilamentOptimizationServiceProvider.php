@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
 use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
 use PDO;
-
 use function Safe\preg_match;
 
 /**
@@ -62,7 +61,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     private function applyMemoryOptimizations(): void
     {
         // Ottimizza le query di default
-        DB::listen(function ($query) {
+        DB::listen(function ($query): void {
             // PHPStan: $query è \Illuminate\Database\Events\QueryExecuted
             if (! is_object($query) || ! isset($query->time)) {
                 return;
@@ -73,10 +72,10 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 
             if ($query->time > $threshold) {
                 Log::warning('Slow query detected', [
-                    'sql' => isset($query->sql) ? $query->sql : '',
-                    'bindings' => isset($query->bindings) ? $query->bindings : [],
+                    'sql' => $query->sql ?? '',
+                    'bindings' => $query->bindings ?? [],
                     'time' => $query->time,
-                    'connection' => isset($query->connectionName) ? $query->connectionName : '',
+                    'connection' => $query->connectionName ?? '',
                 ]);
             }
         });
@@ -97,7 +96,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             DB::enableQueryLog();
 
             // Log delle query alla fine della richiesta
-            app()->terminating(function () {
+            app()->terminating(function (): void {
                 $queries = DB::getQueryLog();
                 $totalQueries = count($queries);
                 $totalTime = array_sum(array_column($queries, 'time'));
@@ -225,7 +224,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     {
         $maxQueries = config('filament_optimization.development.max_queries_per_request', 100);
 
-        app()->terminating(function () use ($maxQueries) {
+        app()->terminating(function () use ($maxQueries): void {
             $queries = DB::getQueryLog();
             $totalQueries = count($queries);
 

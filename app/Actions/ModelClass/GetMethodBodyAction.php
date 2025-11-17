@@ -5,10 +5,9 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\ModelClass;
 
 use ReflectionClass;
+use function Safe\file;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
-
-use function Safe\file;
 
 class GetMethodBodyAction
 {
@@ -24,8 +23,6 @@ class GetMethodBodyAction
         $length = $end_line - $start_line;
         Assert::string($file_name = $table_method->getFileName());
         $source = file($file_name);
-        $body = implode('', \array_slice($source, $start_line, $length));
-
-        return $body;
+        return implode('', \array_slice($source, $start_line, $length));
     }
 }

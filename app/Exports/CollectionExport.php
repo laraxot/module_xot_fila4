@@ -50,9 +50,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 
         $head = $this->collection->first();
         Assert::isInstanceOf($head, Model::class);
-        $head = array_keys($head->getAttributes());
-
-        return $head;
+        return array_keys($head->getAttributes());
     }
 
     public function headings(): array
@@ -60,9 +58,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         $headings = $this->getHead();
         $transKey = $this->transKey;
 
-        $headings = app(TransArrayAction::class)->execute($headings, $transKey);
-
-        return $headings;
+        return app(TransArrayAction::class)->execute($headings, $transKey);
     }
 
     public function collection(): Collection
@@ -73,12 +69,12 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
     /**
      * @param  Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null  $item
      */
-    public function map($item): array
+    public function map(Arrayable|iterable|null $item): array
     {
         if ($this->fields === null || empty($this->fields)) {
             Assert::isInstanceOf($item, Model::class);
             $res = app(SafeArrayByModelCastAction::class)->execute($item);
-            $res = Arr::map($res, function ($value, $_key) {
+            return Arr::map($res, function ($value, $_key) {
                 if ($value instanceof BackedEnum) {
                     if (method_exists($value, 'getLabel')) {
                         return $value->getLabel();
@@ -89,8 +85,6 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 
                 return SafeStringCastAction::cast($value);
             });
-
-            return $res;
         }
 
         // return collect($item)->only($this->fields)->toArray();

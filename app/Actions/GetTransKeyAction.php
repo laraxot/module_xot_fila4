@@ -35,23 +35,19 @@ class GetTransKeyAction
             $backtrace = array_slice(debug_backtrace(), 2);
             $res = Arr::first(
                 $backtrace,
-                fn (array $item): bool => (
-                    isset($item['object']) && explode('\\', get_class($item['object']))[0] === 'Modules'
-                ),
+                fn (array $item): bool => (isset($item['object']) && explode('\\', get_class($item['object']))[0] === 'Modules'),
             );
 
             if ($res === null || ! isset($res['object'])) {
                 $page = Arr::get(debug_backtrace(), '0.args.0');
-                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+                Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
                 $main_module = XotData::make()->main_module;
                 $main_module_low = mb_strtolower($main_module);
                 $page_arr = explode('\\', $page);
                 $page_arr_count = count($page_arr);
                 $page_arr_last = $page_arr[$page_arr_count - 1];
                 $page_arr_last_snake = Str::of($page_arr_last)->snake()->toString();
-                $tmp = $main_module_low.'::'.$page_arr_last_snake;
-
-                return $tmp;
+                return $main_module_low.'::'.$page_arr_last_snake;
             }
 
             $class = get_class($res['object']);
@@ -96,8 +92,6 @@ class GetTransKeyAction
                 ->toString();
         }
 
-        $tmp = $module_low.'::'.$class_snake;
-
-        return $tmp;
+        return $module_low.'::'.$class_snake;
     }
 }

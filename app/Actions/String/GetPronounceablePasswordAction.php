@@ -14,6 +14,7 @@ class GetPronounceablePasswordAction
      * Genera una password pronunciabile con caratteri speciali e numeri.
      *
      * @param  int  $length  Lunghezza minima della password (default: 12)
+     *
      * @return string Password generata
      */
     public function execute(int $length = 12): string
@@ -46,7 +47,7 @@ class GetPronounceablePasswordAction
         $useConsonant = true;
 
         // Costruisci la parte pronunciabile alternando consonanti e vocali
-        while (strlen($password) < ($length - 4)) {
+        while (strlen($password) < $length - 4) {
             $char = $useConsonant ? $consonants[array_rand($consonants)] : $vowels[array_rand($vowels)];
             $password .= $char;
             $useConsonant = ! $useConsonant;

@@ -85,50 +85,6 @@ trait HasXotTable
         return $actions;
     }
 
-    protected function shouldShowAssociateAction(): bool
-    {
-        return false;
-    }
-
-    protected function shouldShowAttachAction(): bool
-    {
-        // @phpstan-ignore-next-line
-        return method_exists($this, 'getRelationship');
-    }
-
-    protected function shouldShowDetachAction(): bool
-    {
-        // @phpstan-ignore-next-line
-        return method_exists($this, 'getRelationship');
-    }
-
-    protected function shouldShowReplicateAction(): bool
-    {
-        return static::$canReplicate;
-    }
-
-    protected function shouldShowViewAction(): bool
-    {
-        return static::$canView;
-    }
-
-    protected function shouldShowEditAction(): bool
-    {
-        return static::$canEdit;
-    }
-
-    /**
-     * Get header actions.
-     *
-     * @return array<string, Actions\Action>
-     */
-    protected function getHeaderActions(): array
-    {
-        return [
-            'create' => CreateAction::make()->icon('heroicon-o-plus'),
-        ];
-    }
-
     /**
      * Get grid table columns.
      *
@@ -220,7 +176,7 @@ trait HasXotTable
         Assert::isInstanceOf($model, Model::class);
 
         // Configurazione base della tabella
-        $table = $table
+        return $table
             ->recordTitleAttribute($this->getTableRecordTitleAttribute())
             ->heading($this->getTableHeading())
             ->columns($this->layoutView->getTableColumns($this->getTableColumns(), $this->getGridTableColumns()))
@@ -243,37 +199,6 @@ trait HasXotTable
          * direction: $this->getDefaultTableSortDirection(),
          * );
          */
-        return $table;
-    }
-
-    protected function getTablePaginated(): bool
-    {
-        return true;
-    }
-
-    /**
-     * Get default table sort column.
-     */
-    protected function getDefaultTableSortColumn(): ?string
-    {
-        try {
-            $modelClass = $this->getModelClass();
-            /** @var Model $model */
-            $model = app($modelClass);
-            Assert::isInstanceOf($model, Model::class);
-
-            return $model->getTable().'.id';
-        } catch (Exception $e) {
-            return null;
-        }
-    }
-
-    /**
-     * Get default table sort direction.
-     */
-    protected function getDefaultTableSortDirection(): ?string
-    {
-        return 'desc';
     }
 
     /**
@@ -372,7 +297,6 @@ trait HasXotTable
     /**
      * Get model class.
      *
-     *
      * @return class-string<Model>
      *
      * @throws Exception Se non viene trovata una classe modello valida
@@ -383,7 +307,7 @@ trait HasXotTable
         if (method_exists($this, 'getRelationship')) {
             $relationship = $this->getRelationship();
             if ($relationship instanceof Relation) {
-                /* @var class-string<Model> */
+                /** @var class-string<Model> */
                 return get_class($relationship->getModel());
             }
         }
@@ -395,19 +319,102 @@ trait HasXotTable
                 Assert::classExists($model);
 
                 // Assert::isAOf($model, Model::class);
-                /* @var class-string<Model> */
+                /** @var class-string<Model> */
                 // @phpstan-ignore-next-line
                 return $model;
             }
             // @phpstan-ignore-next-line
             if ($model instanceof Model) {
-                /* @var class-string<Model> */
+                /** @var class-string<Model> */
                 // @phpstan-ignore-next-line
-                return get_class($model);
+                return $model::class;
             }
         }
 
-        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+        throw new Exception('No model found in '.class_basename(self::class).'::'.__FUNCTION__);
+    }
+
+    /**
+     * Get table search query.
+     */
+    public function getTableSearch(): string
+    {
+        /** @var string */
+        return $this->tableSearch ?? '';
+    }
+
+    protected function shouldShowAssociateAction(): bool
+    {
+        return false;
+    }
+
+    protected function shouldShowAttachAction(): bool
+    {
+        // @phpstan-ignore-next-line
+        return method_exists($this, 'getRelationship');
+    }
+
+    protected function shouldShowDetachAction(): bool
+    {
+        // @phpstan-ignore-next-line
+        return method_exists($this, 'getRelationship');
+    }
+
+    protected function shouldShowReplicateAction(): bool
+    {
+        return static::$canReplicate;
+    }
+
+    protected function shouldShowViewAction(): bool
+    {
+        return static::$canView;
+    }
+
+    protected function shouldShowEditAction(): bool
+    {
+        return static::$canEdit;
+    }
+
+    /**
+     * Get header actions.
+     *
+     * @return array<string, Actions\Action>
+     */
+    protected function getHeaderActions(): array
+    {
+        return [
+            'create' => CreateAction::make()->icon('heroicon-o-plus'),
+        ];
+    }
+
+    protected function getTablePaginated(): bool
+    {
+        return true;
+    }
+
+    /**
+     * Get default table sort column.
+     */
+    protected function getDefaultTableSortColumn(): ?string
+    {
+        try {
+            $modelClass = $this->getModelClass();
+            /** @var Model $model */
+            $model = app($modelClass);
+            Assert::isInstanceOf($model, Model::class);
+
+            return $model->getTable().'.id';
+        } catch (Exception $e) {
+            return null;
+        }
+    }
+
+    /**
+     * Get default table sort direction.
+     */
+    protected function getDefaultTableSortDirection(): ?string
+    {
+        return 'desc';
     }
 
     /**
@@ -460,14 +467,5 @@ trait HasXotTable
     protected function hasSearch(): bool
     {
         return true;
-    }
-
-    /**
-     * Get table search query.
-     */
-    public function getTableSearch(): string
-    {
-        /* @var string */
-        return $this->tableSearch ?? '';
     }
 }

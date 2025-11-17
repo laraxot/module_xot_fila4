@@ -71,10 +71,9 @@ interface ProfileContract extends HasMedia
     /**
      * Create a new Eloquent query builder for the model.
      *
-     * @param  Builder  $query
      * @return \Illuminate\Database\Eloquent\Builder|static
      */
-    public function newEloquentBuilder($query);
+    public function newEloquentBuilder(Builder $query): \Illuminate\Database\Eloquent\Builder|static;
 
     /**
      * Undocumented function.

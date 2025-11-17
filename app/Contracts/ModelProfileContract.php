@@ -29,6 +29,7 @@ interface ModelProfileContract extends ModelContract
      * Grant the given permission(s) to a role.
      *
      * @param  string|int|array<int, string|int|Permission>|Permission|\Illuminate\Support\Collection<int, Permission>  $permissions
+     *
      * @return $this
      */
     public function givePermissionTo(string|int|array|Permission|\Illuminate\Support\Collection $permissions = []);
@@ -37,6 +38,7 @@ interface ModelProfileContract extends ModelContract
      * Assign the given role to the model.
      *
      * @param  array<int, string|int|\Spatie\Permission\Contracts\Role>|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection<int, \Spatie\Permission\Contracts\Role>  $roles
+     *
      * @return $this
      */
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
@@ -72,8 +74,7 @@ interface ModelProfileContract extends ModelContract
     /**
      * Create a new Eloquent query builder for the model.
      *
-     * @param  Builder  $query
      * @return \Illuminate\Database\Eloquent\Builder|static
      */
-    public function newEloquentBuilder($query);
+    public function newEloquentBuilder(Builder $query): \Illuminate\Database\Eloquent\Builder|static;
 }

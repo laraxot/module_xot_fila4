@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 
-use Filament\Actions;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\Array\SaveArrayAction;

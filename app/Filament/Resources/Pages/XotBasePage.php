@@ -10,7 +10,6 @@ use Filament\Pages\Concerns\InteractsWithFormActions;
 use Filament\Resources\Pages\Page as FilamentPage;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
-use Illuminate\Contracts\View\View;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use LogicException;
@@ -101,16 +100,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     }
 
     /**
-     * Get the form schema for the page.
-     *
-     * @return array<string, Component>
-     */
-    protected function getFormSchema(): array
-    {
-        return [];
-    }
-
-    /**
      * Get the associated model class for this page.
      *
      * This method must be non-static to properly override the parent method.
@@ -139,9 +128,17 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     public static function getResources(): Collection
     {
         /** @var Collection<int, string> $resources */
-        $resources = collect();
+        return collect();
+    }
 
-        return $resources;
+    /**
+     * Get the form schema for the page.
+     *
+     * @return array<string, Component>
+     */
+    protected function getFormSchema(): array
+    {
+        return [];
     }
 
     /*

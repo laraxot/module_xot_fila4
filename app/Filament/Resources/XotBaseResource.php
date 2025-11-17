@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 use Exception;
-use Filament\Forms;
-use Filament\Infolists\Infolist;
 use Filament\Pages\Enums\SubNavigationPosition;
 use Filament\Resources\Pages\Page;
 use Filament\Resources\Pages\PageRegistration;
@@ -18,7 +16,6 @@ use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
 use Filament\Support\Components\Component;
 use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Str;
@@ -26,9 +23,8 @@ use Modules\Media\Actions\GetAttachmentsSchemaAction;
 use Modules\Xot\Actions\ModelClass\CountAction;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use ReflectionClass;
-use Webmozart\Assert\Assert;
-
 use function Safe\glob;
+use Webmozart\Assert\Assert;
 
 /**
  * @method static string getUrl(string $name, array<string, mixed> $parameters = [], bool $isAbsolute = true)
@@ -198,7 +194,7 @@ abstract class XotBaseResource extends FilamentResource
     {
         $reflector = new ReflectionClass(static::class);
         $filename = $reflector->getFileName();
-        Assert::string($filename, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($filename, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
         $path = Str::of($filename)
             ->before('.php')
@@ -266,10 +262,7 @@ abstract class XotBaseResource extends FilamentResource
         $safeAttachments = array_values(array_filter($attachments, 'is_string'));
 
         $disk = 'attachments';
-        $form = app(GetAttachmentsSchemaAction::class)->execute($safeAttachments, $disk);
-
-        /** @var array<int, \Filament\Support\Components\Component> $form */
-        return $form;
+        return app(GetAttachmentsSchemaAction::class)->execute($safeAttachments, $disk);
     }
 
     protected static function getStepByName(string $name): Step

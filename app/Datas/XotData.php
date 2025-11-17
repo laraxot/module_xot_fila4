@@ -13,16 +13,13 @@ use Livewire\Wireable;
 use Modules\Tenant\Services\TenantService;
 use Modules\User\Contracts\TeamContract;
 use Modules\User\Contracts\TenantContract;
-use Modules\User\Models\Membership;
-use Modules\User\Models\Team;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\UserContract;
 use RuntimeException;
+use function Safe\realpath;
 use Spatie\LaravelData\Concerns\WireableData;
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
-
-use function Safe\realpath;
 
 /**
  * Class Modules\Xot\Datas\XotData.
@@ -128,9 +125,9 @@ class XotData extends Data implements Wireable
     public function getUserByEmail(string $email): UserContract
     {
         $user_class = $this->getUserClass();
-        $userInstance = new $user_class;
+        $userInstance = new $user_class();
         if (! in_array('email', $userInstance->getFillable(), true)) {
-            throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
+            throw new Exception("Attribute 'email' not found in model ".$userInstance::class);
         }
         $user = $user_class::firstOrCreate(['email' => $email]);
         /*
@@ -269,9 +266,7 @@ class XotData extends Data implements Wireable
     public function getProfileByEmail(string $email): ProfileContract
     {
         $user = $this->getUserByEmail($email);
-        $profile = $this->getProfileModelByUserId((string) $user->id);
-
-        return $profile;
+        return $this->getProfileModelByUserId((string) $user->id);
     }
 
     /**
@@ -336,9 +331,7 @@ class XotData extends Data implements Wireable
         $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
 
         try {
-            $path = realpath($path0);
-
-            return $path;
+            return realpath($path0);
         } catch (Exception $e) {
             throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
         }
@@ -346,16 +339,12 @@ class XotData extends Data implements Wireable
 
     public function getPubThemePublicPath(string $key = ''): string
     {
-        $path = base_path('themes/'.$this->pub_theme.'/'.$key);
-
-        return $path;
+        return base_path('themes/'.$this->pub_theme.'/'.$key);
     }
 
     public function getPubThemePublicAsset(string $key = ''): string
     {
-        $path = asset('themes/'.$this->pub_theme.'/'.$key);
-
-        return $path;
+        return asset('themes/'.$this->pub_theme.'/'.$key);
     }
 
     /**
@@ -430,10 +419,7 @@ class XotData extends Data implements Wireable
         }
 
         /** @var array<int, mixed> $cases */
-        $cases = $enum_class::cases();
-
-        return $cases;
-
+        return $enum_class::cases();
         // $userInstance = app($user_class);
         // return $userInstance->getChildTypes();
     }

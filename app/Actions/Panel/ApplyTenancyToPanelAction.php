@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Panel;
 
 use Filament\Panel;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Gate;
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 use Modules\Xot\Datas\XotData;

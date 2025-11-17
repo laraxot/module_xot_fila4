@@ -20,13 +20,11 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Services\ModuleService;
 use Nwidart\Modules\Facades\Module;
-use Webmozart\Assert\Assert;
-
 use function Safe\define;
 use function Safe\glob;
 use function Safe\json_decode;
 use function Safe\preg_match;
-use function Safe\realpath;
+use Webmozart\Assert\Assert;
 
 // ------------------------------------------------
 
@@ -66,9 +64,7 @@ if (! function_exists('isRunningTestBench')) {
          */
         $path = app(FixPathAction::class)->execute('\vendor\orchestra\testbench-core\laravel');
         $base = app(FixPathAction::class)->execute(base_path());
-        $res = Str::endsWith($base, $path);
-
-        return $res;
+        return Str::endsWith($base, $path);
 
         // return false;
     }
@@ -291,8 +287,7 @@ if (! function_exists('inAdmin')) {
 
         $segments = Request::segments();
 
-        return
-            (is_countable($segments) ? count($segments) : 0) > 0 &&
+        return (is_countable($segments) ? count($segments) : 0) > 0 &&
             $segments[0] === 'livewire' &&
             session('in_admin') === true;
     }
@@ -564,7 +559,6 @@ if (! function_exists('getAllModulesModels')) {
     /**
      * Get all models from all enabled modules.
      *
-     *
      * @return array<string, string>
      *
      * @throws ReflectionException
@@ -573,7 +567,7 @@ if (! function_exists('getAllModulesModels')) {
     {
         $res = [];
 
-        /** @var Nwidart\Modules\Laravel\Module[] $modules */
+        /** @var array<Nwidart\Modules\Laravel\Module> $modules */
         $modules = Module::all();
 
         foreach ($modules as $module) {
@@ -600,7 +594,7 @@ if (! function_exists('getAllModulesModels')) {
             }
         }
 
-        /* @var array<string, string> */
+        /** @var array<string, string> */
         return $res;
     }
 }
@@ -977,7 +971,8 @@ if (! function_exists('debugStack')) {
                 defined('XDEBUG_PATH_EXCLUDE')
         ) {
             xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
-                '/../../vendor/']);
+                '/../../vendor/',
+            ]);
         }
 
         if (function_exists('xdebug_print_function_stack')) {
@@ -997,10 +992,10 @@ if (! function_exists('secondsToHms')) {
         $seconds -= $minutes * 60;
         $str = '';
         if ($hours > 0) {
-            $str .= ($hours < 9 ? ('0'.$hours) : $hours).':';
+            $str .= ($hours < 9 ? '0'.$hours : $hours).':';
         }
 
-        return $str.($minutes < 9 ? ('0'.$minutes) : $minutes).':'.round($seconds, $decimal);
+        return $str.($minutes < 9 ? '0'.$minutes : $minutes).':'.round($seconds, $decimal);
     }
 }
 
@@ -1173,16 +1168,15 @@ if (! function_exists('authId')) {
  * @param  T|null  $object  L'oggetto da controllare
  * @param  string  $method  Il nome del metodo da chiamare
  * @param  mixed  ...$args  Gli argomenti da passare al metodo
- * @return mixed|null
  */
-function safe_object_call($object, string $method, ...$args)
+function safe_object_call($object, string $method, mixed ...$args): mixed
 {
     if (! is_object($object)) {
-        return;
+        return null;
     }
 
     if (! method_exists($object, $method)) {
-        return;
+        return null;
     }
 
     return $object->$method(...$args);

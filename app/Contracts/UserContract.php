@@ -12,7 +12,6 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
-use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Collection;
 use Laravel\Passport\Token;
 use Modules\User\Contracts\HasTeamsContract;
@@ -21,7 +20,6 @@ use Modules\User\Models\Tenant;
 use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
-use Spatie\Permission\Contracts\Permission;
 use Spatie\Permission\Exceptions\GuardDoesNotMatch;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 
@@ -62,27 +60,21 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      */
     /**
      * Get a relationship.
-     *
-     * @return mixed|null
      */
-    public function getRelationValue(string $key);
+    public function getRelationValue($key);
 
     /**
      * Create a new instance of the given model.
      *
-     * @param  array  $attributes
-     * @param  bool  $exists
      * @return static
      */
-    public function newInstance($attributes = [], $exists = false);
+    public function newInstance(array $attributes = [], bool $exists = false): static;
 
     /**
      * Get the value of the model's primary key.
-     *
-     * @return mixed|int|string
      */
     #[Override]
-    public function getKey();
+    public function getKey(): mixed;
 
     /**
      * Determine if the model has (one of) the given role(s).
@@ -101,10 +93,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 
     /**
      * Revoke the given role from the model.
-     *
-     * @return self
      */
-    public function removeRole(string|int|UserRole $role);
+    public function removeRole(string|int|UserRole $role): self;
 
     /**
      * Get the current access token being used by the user.
@@ -130,7 +120,6 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     // public function consents(): MorphMany;
     /**
      * Determine if the role may perform the given permission.
-     *
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */

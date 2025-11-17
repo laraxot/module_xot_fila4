@@ -17,7 +17,6 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
-use Modules\User\Filament\Pages\Auth\Login;
 use Modules\User\Filament\Pages\MyProfilePage;
 use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 use Modules\Xot\Actions\Panel\ApplyMetatagToPanelAction;

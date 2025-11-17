@@ -12,6 +12,8 @@ use Override;
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
+
+    public string $model;
     protected ?string $heading = null;
 
     protected static ?int $sort = 5;
@@ -19,8 +21,6 @@ class ModelTrendChartWidget extends XotBaseChartWidget
     protected static bool $isLazy = true;
 
     protected ?string $pollingInterval = '300s'; // 5 minuti
-
-    public string $model;
 
     #[Override]
     public function getHeading(): ?string
@@ -44,7 +44,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
                 'datasets' => [
                     [
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
-                        'data' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
+                        'data' => $data->map(fn (mixed $value) => $value instanceof TrendValue
                             ? $value->aggregate
                             : 0),
                         'backgroundColor' => 'rgba(139, 92, 246, 0.5)',
@@ -53,7 +53,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
                         'tension' => 0.4,
                     ],
                 ],
-                'labels' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
+                'labels' => $data->map(fn (mixed $value) => $value instanceof TrendValue
                     ? Carbon::parse($value->date)->format('d/m')
                     : ''),
             ];

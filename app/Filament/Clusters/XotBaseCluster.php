@@ -6,7 +6,6 @@ namespace Modules\Xot\Filament\Clusters;
 
 use Filament\Clusters\Cluster as FilamentCluster;
 use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Support\Facades\Lang;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 class XotBaseCluster extends FilamentCluster

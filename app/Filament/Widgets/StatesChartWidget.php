@@ -9,15 +9,15 @@ use Override;
 
 class StatesChartWidget extends XotBaseChartWidget
 {
+
+    public string $stateClass;
+
+    public string $model;
     protected ?string $heading = null;
 
     protected static ?int $sort = 4;
 
     protected static bool $isLazy = true;
-
-    public string $stateClass;
-
-    public string $model;
 
     #[Override]
     public function getHeading(): ?string

@@ -29,7 +29,7 @@ trait TransTrait
 
         if (is_string($res)) {
             if ($exceptionIfNotExist && $res === $tmp) {
-                throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
+                throw new Exception('['.__LINE__.']['.class_basename(self::class).']');
             }
 
             return $res;
@@ -94,16 +94,14 @@ trait TransTrait
         $piece = Str::of($class)->explode('\\')->toArray();
         /** @var string $type */
         $type = $piece[2] ?? '';
-        Assert::string($type, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($type, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         $module = Str::of($class)->between('Modules\\', '\\'.$type.'\\')->toString();
 
         $module_low = Str::of($module)->lower()->toString();
 
         $model = Str::of($class)->between('\\'.$type.'\\', '\\')->toString();
         $model_snake = Str::of($model)->snake()->toString();
-        $key = $module_low.'::'.$model_snake;
-
-        return $key;
+        return $module_low.'::'.$model_snake;
     }
 
     /**

@@ -4,10 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\File;
 
-use Spatie\QueueableAction\QueueableAction;
-
 use function Safe\file_get_contents;
 use function Safe\preg_match;
+use Spatie\QueueableAction\QueueableAction;
 
 class GetClassNameByPathAction
 {
@@ -23,9 +22,7 @@ class GetClassNameByPathAction
         $namespace = $namespaceMatch[1] ?? '';
         $className = $classMatch[1] ?? '';
 
-        $fullClassName = $namespace ? ($namespace.'\\'.$className) : $className;
-
-        return $fullClassName;
+        return $namespace ? ($namespace.'\\'.$className) : $className;
     }
 }
 

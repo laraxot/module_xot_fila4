@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\Pages;
 
-use Filament\Actions;
 use Filament\Actions\DeleteAction;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 use Filament\Support\Components\Component;
@@ -15,16 +14,6 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 {
     use TransTrait;
 
-    /**
-     * Get the form schema.
-     *
-     * @return array<int, Component>
-     */
-    protected function getFormSchema(): array
-    {
-        return [];
-    }
-
     public static function getNavigationLabel(): string
     {
         return static::transFunc(__FUNCTION__);
@@ -33,24 +22,6 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     public static function getNavigationIcon(): string
     {
         return static::transFunc(__FUNCTION__);
-    }
-
-    protected function getHeaderActions(): array
-    {
-        return [
-            'delete' => DeleteAction::make()
-                ->icon('heroicon-o-trash')
-                ->visible(fn (Model $record) => static::canDelete($record)),
-            /*
-            'forceDelete' => Actions\ForceDeleteAction::make()
-                ->icon('heroicon-o-trash')
-                ->visible(fn(Model $record) => static::canForceDelete($record)),
-            'restore' => Actions\RestoreAction::make()
-                ->icon('heroicon-o-trash')
-                ->visible(fn(Model $record) => static::canRestore($record)),
-            // ...
-            */
-        ];
     }
 
     public static function canDelete(Model $record): bool
@@ -78,5 +49,33 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
         $result = $resource::canRestore($record);
 
         return is_bool($result) ? $result : false;
+    }
+
+    /**
+     * Get the form schema.
+     *
+     * @return array<int, Component>
+     */
+    protected function getFormSchema(): array
+    {
+        return [];
+    }
+
+    protected function getHeaderActions(): array
+    {
+        return [
+            'delete' => DeleteAction::make()
+                ->icon('heroicon-o-trash')
+                ->visible(fn (Model $record) => static::canDelete($record)),
+            /*
+            'forceDelete' => Actions\ForceDeleteAction::make()
+                ->icon('heroicon-o-trash')
+                ->visible(fn(Model $record) => static::canForceDelete($record)),
+            'restore' => Actions\RestoreAction::make()
+                ->icon('heroicon-o-trash')
+                ->visible(fn(Model $record) => static::canRestore($record)),
+            // ...
+            */
+        ];
     }
 }

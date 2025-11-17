@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ExtraContract;
 use Modules\Xot\Database\Factories\ExtraFactory;

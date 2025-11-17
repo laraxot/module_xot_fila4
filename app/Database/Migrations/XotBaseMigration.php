@@ -6,7 +6,6 @@ namespace Modules\Xot\Database\Migrations;
 
 use Closure;
 use Exception;
-use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
@@ -105,7 +104,6 @@ abstract class XotBaseMigration extends Migration
 
     /**
      * Get the table indexes using Doctrine's schema manager.
-     *
      *
      * @return array<\Doctrine\DBAL\Schema\Index>
      *
@@ -235,7 +233,7 @@ abstract class XotBaseMigration extends Migration
 
     public function renameColumn(string $from, string $to): void
     {
-        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to): void {
             $table->renameColumn($from, $to);
         });
     }
@@ -344,9 +342,7 @@ abstract class XotBaseMigration extends Migration
     public function getConnection(): ?string
     {
         /** @var string */
-        $pulse_connection = Config::get('pulse.storage.database.connection');
-
-        return $pulse_connection;
+        return Config::get('pulse.storage.database.connection');
     }
 
     /**
@@ -372,22 +368,19 @@ abstract class XotBaseMigration extends Migration
     }
 
     /**
+     * Add a foreign ID column to the table based on a related model.
+     */
+    public function foreignIdFor(Blueprint $table, string $class, ?string $column = null): ColumnDefinition
+    {
+        return $table->foreignIdFor($class, $column);
+    }
+
+    /**
      * Get the database connection driver.
      */
     protected function driver(): string
     {
         return DB::connection($this->getConnection())->getDriverName();
-    }
-
-    /**
-     * Add a foreign ID column to the table based on a related model.
-     *
-     * @param  Blueprint  $table
-     * @return ColumnDefinition
-     */
-    public function foreignIdFor($table, string $class, ?string $column = null)
-    {
-        return $table->foreignIdFor($class, $column);
     }
 }
 

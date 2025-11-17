@@ -32,19 +32,6 @@ use Filament\Tables\Columns\TextColumn;
  */
 class ColumnBuilder
 {
-    /**
-     * Helper to safely cast translation to string.
-     *
-     * @param  array<string,mixed>|string|null  $translation
-     */
-    private static function trans(array|string|null $translation): string
-    {
-        if (is_array($translation)) {
-            return (string) ($translation[0] ?? '');
-        }
-
-        return (string) ($translation ?? '');
-    }
 
     /**
      * Standard ID column (sortable, searchable).
@@ -317,5 +304,18 @@ class ColumnBuilder
             'updated_at' => self::updatedAt(),
             'deleted_at' => self::deletedAt(),
         ];
+    }
+    /**
+     * Helper to safely cast translation to string.
+     *
+     * @param  array<string,mixed>|string|null  $translation
+     */
+    private static function trans(array|string|null $translation): string
+    {
+        if (is_array($translation)) {
+            return (string) ($translation[0] ?? '');
+        }
+
+        return (string) ($translation ?? '');
     }
 }

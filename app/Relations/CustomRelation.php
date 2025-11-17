@@ -18,8 +18,6 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Webmozart\Assert\Assert;
 
-use function call_user_func;
-
 /**
  * Class CustomRelation.
  *
@@ -76,10 +74,8 @@ class CustomRelation extends Relation
 
     /**
      * Initialize the relation on a set of models.
-     *
-     * @param  string  $relation
      */
-    public function initRelation(array $models, $relation): array
+    public function initRelation(array $models, string $relation): array
     {
         foreach ($models as $model) {
             $model->setRelation($relation, $this->related->newCollection());
@@ -91,10 +87,9 @@ class CustomRelation extends Relation
     /**
      * Match the eagerly loaded results to their parents.
      *
-     * @param  string  $relation
      * @return array<int, Model>
      */
-    public function match(array $models, Collection $collection, $relation): array
+    public function match(array $models, Collection $collection, string $relation): array
     {
         // Trying to invoke Closure|null but it might not be a callable.
         if (! \is_callable($this->eagerMatcher)) {
@@ -112,7 +107,7 @@ class CustomRelation extends Relation
      *
      * @return Collection<int, Model>
      */
-    public function getResults()
+    public function getResults(): Collection
     {
         return $this->get();
     }
@@ -122,7 +117,7 @@ class CustomRelation extends Relation
      *
      * @param  array<int, string>  $columns
      */
-    public function get($columns = ['*']): Collection
+    public function get(array $columns = ['*']): Collection
     {
         // First we'll add the proper select columns onto the query so it is run with
         // the proper columns. Then, we will get the results and hydrate out pivot

@@ -101,6 +101,6 @@ class HandlersRepository
             return false;
         }
 
-        return ($params[0]->getClass() instanceof ReflectionClass) ? $params[0]->getClass()->isInstance($e) : true;
+        return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
     }
 }

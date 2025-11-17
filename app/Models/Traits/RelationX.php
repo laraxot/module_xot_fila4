@@ -78,6 +78,7 @@ trait RelationX
      * @template TRelatedModel of \Illuminate\Database\Eloquent\Model
      *
      * @param  class-string<TRelatedModel>  $related
+     *
      * @return MorphToMany<TRelatedModel, $this>
      */
     public function morphToManyX(
@@ -118,10 +119,7 @@ trait RelationX
             ->withTimestamps();
     }
 
-    /**
-     * @return MorphPivot
-     */
-    public function guessMorphPivot(string $related, ?string $_class = null)
+    public function guessMorphPivot(string $related, ?string $_class = null): MorphPivot
     {
         $class = $this::class;
         $pivot_name = class_basename($related).'Morph';
@@ -138,9 +136,8 @@ trait RelationX
      *
      * @param  string  $related  The related model class name
      * @param  string|class-string|null  $class  The class to use for parent class lookup (used internally)
-     * @return Pivot
      */
-    public function guessPivot(string $related, ?string $class = null)
+    public function guessPivot(string $related, ?string $class = null): Pivot
     {
         $class ??= $this::class;
         $model_names = [

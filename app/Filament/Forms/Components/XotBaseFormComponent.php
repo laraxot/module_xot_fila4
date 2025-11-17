@@ -16,6 +16,13 @@ use Webmozart\Assert\Assert;
  */
 abstract class XotBaseFormComponent extends Field
 {
+
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        $this->dehydrated(true)->required(false);
+    }
     public function getName(): string
     {
         $name = parent::getName();
@@ -39,21 +46,12 @@ abstract class XotBaseFormComponent extends Field
         return (string) $label;
     }
 
-    protected function setUp(): void
-    {
-        parent::setUp();
-
-        $this->dehydrated(true)->required(false);
-    }
-
     /**
      * @return array<string, mixed>
      */
     public function getValidationRules(): array
     {
         /** @var array<string, mixed> */
-        $rules = parent::getValidationRules();
-
-        return $rules;
+        return parent::getValidationRules();
     }
 }

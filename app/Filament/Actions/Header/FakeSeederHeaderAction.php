@@ -33,7 +33,7 @@ class FakeSeederHeaderAction extends Action
                     ->minValue(1)
                     ->integer(),
             ])
-            ->action(function (array $data, ListRecords $livewire) {
+            ->action(function (array $data, ListRecords $livewire): void {
                 $resource = $livewire->getResource();
                 /** @var class-string<Model> $modelClass */
                 $modelClass = $resource::getModel();

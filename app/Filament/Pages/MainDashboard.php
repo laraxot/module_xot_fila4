@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
-use Filament\Facades\Filament;
-use Filament\Pages\Dashboard;
 use Filament\Panel;
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;

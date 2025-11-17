@@ -4,16 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models\Traits;
 
-use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\ExtraContract;
-use Modules\Xot\Models\Extra;
+use function Safe\json_encode;
 use Spatie\SchemalessAttributes\SchemalessAttributes;
 use Webmozart\Assert\Assert;
-
-use function Safe\json_encode;
 
 /**
  * Modules\Xot\Models\HasExtraTrait.
@@ -65,9 +62,7 @@ trait HasExtraTrait
 
         if (\is_array($value)) {
             /** @var array<string, mixed> $arrayValue */
-            $arrayValue = $value;
-
-            return $arrayValue;
+            return $value;
         }
 
         if (\is_bool($value) || \is_float($value) || \is_int($value) || \is_string($value)) {
@@ -80,7 +75,7 @@ trait HasExtraTrait
     /**
      * @param  int|float|string|array<string, mixed>|bool|null  $value
      */
-    public function setExtra(string $name, $value): void
+    public function setExtra(string $name, int|float|string|array|bool|null $value): void
     {
         $extra = $this->extra;
         if (! $extra instanceof ExtraContract || ! $extra instanceof Model) {

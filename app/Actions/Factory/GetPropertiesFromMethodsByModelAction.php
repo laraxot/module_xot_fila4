@@ -17,11 +17,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Str;
 use ReflectionMethod;
+use function Safe\preg_replace;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
 use Webmozart\Assert\Assert;
-
-use function Safe\preg_replace;
 
 /**
  * Classe per estrarre proprietà dai metodi di relazione di un modello.
@@ -36,16 +35,15 @@ class GetPropertiesFromMethodsByModelAction
      * Estrae le proprietà dai metodi di relazione del modello.
      *
      * @param  Model  $model  Il modello da analizzare
+     *
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
     {
-
         $data = [];
         $methods = get_class_methods($model);
 
         foreach ($methods as $method) {
-
             // Ignoriamo i metodi che iniziano con "get" e quelli ereditati da Model
             if (Str::startsWith($method, 'get') || method_exists(Model::class, $method)) {
                 continue;
@@ -99,7 +97,7 @@ class GetPropertiesFromMethodsByModelAction
                 $end = mb_strrpos($codeStr, '}');
                 $end = $end !== false ? $end : mb_strlen($codeStr);
 
-                $length = ($end - $begin) + 1;
+                $length = $end - $begin + 1;
                 Assert::greaterThan($length, 0, 'La lunghezza del corpo della funzione deve essere positiva');
 
                 $codeStr = mb_substr($codeStr, $begin, $length);

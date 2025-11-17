@@ -18,7 +18,6 @@ use Filament\Tables\Filters\BaseFilter;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Nwidart\Modules\Facades\Module;
 use Override;
 
 class ListModules extends XotBaseListRecords

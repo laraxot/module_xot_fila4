@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Mail;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Mail\Mailable;
-use Illuminate\Support\Facades\Mail;
 use InvalidArgumentException;
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;

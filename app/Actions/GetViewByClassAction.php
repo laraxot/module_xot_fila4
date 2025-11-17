@@ -32,22 +32,10 @@ class GetViewByClassAction
     }
 
     /**
-     * Ottiene il nome della vista dal nome della classe.
-     *
-     * @param  string  $class  Nome della classe
-     */
-    protected function getViewNameFromClass(string $class): string
-    {
-        $parts = explode('\\', $class);
-        $className = end($parts);
-
-        return Str::kebab($className);
-    }
-
-    /**
      * Risolve il percorso della view basato sul namespace della classe.
      *
      * @param  string  $class  Il nome completo della classe
+     *
      * @return string Il percorso della view
      */
     public function executeOld(string $class): string
@@ -68,5 +56,18 @@ class GetViewByClassAction
 
         // Costruisci il percorso della view
         return $module_low.'::pages.'.$class_name;
+    }
+
+    /**
+     * Ottiene il nome della vista dal nome della classe.
+     *
+     * @param  string  $class  Nome della classe
+     */
+    protected function getViewNameFromClass(string $class): string
+    {
+        $parts = explode('\\', $class);
+        $className = end($parts);
+
+        return Str::kebab($className);
     }
 }

@@ -6,7 +6,6 @@ namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Relations\Pivot as EloquentPivot;
 use Modules\Xot\Traits\Updater;
-
 use function Safe\preg_match;
 
 /**

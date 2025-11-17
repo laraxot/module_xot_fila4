@@ -6,7 +6,6 @@ namespace Modules\Xot\Actions\Model;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -45,7 +44,7 @@ class StoreAction
 
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
-            $relationClass = get_class($relation);
+            $relationClass = $relation::class;
             $relationshipType = class_basename($relationClass);
 
             $action_class = __NAMESPACE__.'\\Store\\'.$relationshipType.'Action';

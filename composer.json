@@ -111,6 +111,11 @@
             "Helpers/Helper.php"
         ]
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Xot\\Tests\\": "tests/"
+        }
+    },
     "scripts": {
         "analyse": "vendor/bin/phpstan analyse",
         "test": "vendor/bin/pest",

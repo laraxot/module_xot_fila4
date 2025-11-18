@@ -36,7 +36,7 @@ interface PassportHasApiTokensContract
      *
      * @return \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null
      */
-    public function token();
+    public function token(): Token|TransientToken|null;
 
     /**
      * Determine if the current API token has a given scope.

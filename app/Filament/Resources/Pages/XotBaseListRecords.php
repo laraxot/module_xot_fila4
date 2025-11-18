@@ -12,6 +12,7 @@ use Illuminate\Support\Str;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
+use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
 
 /**
@@ -25,6 +26,22 @@ use Webmozart\Assert\Assert;
 abstract class XotBaseListRecords extends FilamentListRecords
 {
     use HasXotTable;
+    use TransTrait;
+
+    public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
+
+    /**
+     * Get the resource class name.
+     *
+     * @return class-string
+     */
+    public static function getResource(): string
+    {
+        $resource = Str::of(static::class)->before('\\Pages\\')->toString();
+        Assert::classExists($resource);
+
+        return $resource;
+    }
 
     /**
      * Get the resource class name.

@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Illuminate\Database\Eloquent\SoftDeletes;
-
 // use Laravel\Scout\Searchable;
 // ---------- traits
 
@@ -14,29 +12,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  */
 abstract class BaseModel extends XotBaseModel
 {
-    // use Searchable;
-    // //use Cachable;
-    use SoftDeletes;
-
-    public $incrementing = true;
-
-    public $timestamps = true;
-
-    protected $perPage = 30;
-
     protected $connection = 'xot';
-
-    /** @var list<string> */
-    protected $fillable = ['id'];
-
-    protected $primaryKey = 'id';
-
-    protected $keyType = 'string';
-
-    /** @var list<string> */
-    protected $hidden = [
-        // 'password'
-    ];
 
     /** @return array<string, class-string|string> */
     protected function casts(): array

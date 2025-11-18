@@ -5,10 +5,8 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\SoftDeletes;
-// use Laravel\Scout\Searchable;
-// ---- Traits ----
 use Modules\Xot\Models\Traits\HasXotFactory;
+use Modules\Xot\Models\Traits\RelationX;
 use Modules\Xot\Traits\Updater;
 
 /**
@@ -17,9 +15,7 @@ use Modules\Xot\Traits\Updater;
 abstract class XotBaseModel extends Model
 {
     use HasXotFactory;
-
-    use SoftDeletes;
-    // use Searchable;
+    use RelationX;
     use Updater;
 
     /**
@@ -31,6 +27,46 @@ abstract class XotBaseModel extends Model
      */
     public static $snakeAttributes = true;
 
+    /** @var bool */
+    public $incrementing = true;
+
+    /** @var bool */
+    public $timestamps = true;
+
     /** @var int */
     protected $perPage = 30;
+
+    /** @var string */
+    protected $connection = 'xot';
+
+    /** @var list<string> */
+    protected $appends = [];
+
+    /** @var string */
+    protected $primaryKey = 'id';
+
+    /** @var string */
+    protected $keyType = 'string';
+
+    /** @var list<string> */
+    protected $hidden = [
+        // 'password'
+    ];
+
+    /** @return array<string, string> */
+    protected function casts(): array
+    {
+        return [
+            'id' => 'string',
+            'uuid' => 'string',
+            'published_at' => 'datetime',
+            'verified_at' => 'datetime',
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+        ];
+    }
 }

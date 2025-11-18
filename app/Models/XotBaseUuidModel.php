@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Illuminate\Database\Eloquent\SoftDeletes;
-
 /**
  * Class XotBaseUuidModel.
  *
@@ -13,8 +11,6 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  */
 abstract class XotBaseUuidModel extends XotBaseModel
 {
-    use SoftDeletes;
-
     public $incrementing = false;
 
     /** @var bool */

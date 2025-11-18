@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # errore di compatibilità nelle firme dei metodi
 
 ## problema
@@ -126,5 +125,3 @@ $returnType = $parentMethod->getReturnType();
 
 - [regole di ereditarietà in php](/var/www/html/base_<nome progetto>/laravel/project_docs/standards/php-inheritance-rules.md)
 - [estensione pattern filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
-=======
->>>>>>> a2de8cb7 (.)

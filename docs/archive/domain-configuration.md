@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # Gestione Domini e Configurazioni
 
 ## Prerequisiti
@@ -92,16 +87,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Gestione UI](../../UI/docs/README.md)
 - [Gestione Temi](../../Cms/docs/themes.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-=======
->>>>>>> 5ea1401 (.)
 ## Collegamenti Correlati
 - [Configurazione Moduli](MODULE_CONFIGURATION.md)
 - [Gestione Risorse](ASSETS.md)
@@ -115,16 +101,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Standard Interfaccia](../../../docs/standards/interface_guidelines.md)
 - [Best Practices](../../../docs/standards/best_practices.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-=======
->>>>>>> 5ea1401 (.)
 # Configurazione Basata sul Dominio
 
 ## Introduzione
@@ -196,12 +173,6 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 ## Collegamenti
 - [Configurazione Generale](CONFIGURATION.md)
 - [Gestione Asset](assets.md)
-<<<<<<< HEAD
-- [Struttura Temi](themes.md) 
-=======
->>>>>>> dfe51d0 (.)
 =======
 - [Struttura Temi](themes.md) 
->>>>>>> 5ea1401 (.)
 =======
->>>>>>> 3da9b2a (.)

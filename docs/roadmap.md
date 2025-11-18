@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-### Versione HEAD
-=======
-<<<<<<< HEAD
-# ROADMAP - Modulo Xot (Core)
->>>>>>> a2de8cb7 (.)
 
 # Roadmap Modulo Xot
 
@@ -536,5 +530,3 @@ Overall Module Completion: 60%
 
 ---
 
-=======
->>>>>>> a0b522b (.)

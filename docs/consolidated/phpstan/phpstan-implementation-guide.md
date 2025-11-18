@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # Guida Pratica all'Implementazione delle Soluzioni PHPStan
 
 Questo documento fornisce una guida pratica su come implementare le soluzioni ai problemi più comuni rilevati da PHPStan a livello 9 nel framework Laraxot <nome progetto>.
@@ -240,10 +235,7 @@ Creare script di shell per automatizzare l'analisi e la verifica:
 
 ```bash
 #!/bin/bash
-<<<<<<< HEAD
-=======
 
->>>>>>> 5ea1401 (.)
 # analyze_module.sh
 MODULE=$1
 echo "Analizzando il modulo $MODULE..."
@@ -278,10 +270,7 @@ Per progetti con molti errori, creare una baseline per tracciare i miglioramenti
 Ogni modulo dovrebbe documentare le soluzioni ai problemi PHPStan specifici in `Modules/NomeModulo/project_docs/PHPSTAN-SOLUTIONS.md`:
 
 ```markdown
-<<<<<<< HEAD
-=======
 
->>>>>>> 5ea1401 (.)
 # Soluzioni PHPStan per il Modulo NomeModulo
 
 ## Problema: Namespace Errati
@@ -305,19 +294,8 @@ Ogni modulo dovrebbe documentare le soluzioni ai problemi PHPStan specifici in `
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i problemi rilevati da PHPStan nel tuo codebase Laraxot <nome progetto>, migliorando la qualità complessiva del codice e riducendo gli errori a runtime. 
 =======
-<<<<<<< HEAD
 =======
 Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i problemi rilevati da PHPStan nel tuo codebase Laraxot <nome progetto>, migliorando la qualità complessiva del codice e riducendo gli errori a runtime. 
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
 =======
->>>>>>> dfe51d0 (.)
-=======
-Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i problemi rilevati da PHPStan nel tuo codebase Laraxot <nome progetto>, migliorando la qualità complessiva del codice e riducendo gli errori a runtime. 
->>>>>>> 5ea1401 (.)
-=======
->>>>>>> 3da9b2a (.)

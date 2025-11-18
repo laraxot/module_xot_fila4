@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Correzione Struttura Cartelle Docs - Riepilogo Completo
 
 ## Contesto e Problema Identificato
@@ -213,5 +212,3 @@ find laravel/Themes -name "docs" -type d
 **Responsabile**: Team di sviluppo Laraxot
 **Verificato**: ✅ Conformità completa raggiunta
 
-=======
->>>>>>> a2de8cb7 (.)

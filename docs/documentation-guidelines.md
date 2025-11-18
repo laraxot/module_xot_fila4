@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a2de8cb7 (.)
 
 # Linee Guida per la Documentazione in Laraxot
 
@@ -293,9 +287,4 @@ Per implementare queste linee guida:
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Documentazione Laravel](https://laravel.com/docs)
 - [Documentazione PHPDoc](https://docs.phpdoc.org/)
-<<<<<<< HEAD
 =======
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> a0b522b (.)
->>>>>>> a2de8cb7 (.)

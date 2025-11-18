@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# PHPStan Fixes - Xot Module
-=======
-<<<<<<< HEAD
-# Correzioni PHPStan - 6 Gennaio 2025
->>>>>>> a2de8cb7 (.)
 
 ## Errori Risolti
 
@@ -409,5 +403,3 @@ protected $model = Cache::class;
 - [Best Practices](../docs/best-practices.md)
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
-=======
->>>>>>> a0b522b (.)

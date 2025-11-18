@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # Integrazione Folio, Volt e Filament
 
 > **NOTA**: Questo documento è stato unificato con la documentazione sull'architettura Folio + Volt + Filament. Consulta il documento aggiornato nel link sottostante.
@@ -19,16 +14,7 @@
 - [Cms](../Cms/docs/README.md) - Gestione contenuti
 - [Lang](../Lang/docs/README.md) - Traduzioni
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-=======
->>>>>>> 5ea1401 (.)
 ## Struttura
 
 ### Pagine Folio con Filament
@@ -199,17 +185,6 @@ $submit = function() {
 - [Grafici](../Chart/docs/charts.md)
 - [Dashboard](../Chart/docs/dashboard.md)
 - [Visualizzazione](../Chart/docs/visualization.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-
 =======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
 =======
->>>>>>> dfe51d0 (.)
-=======
->>>>>>> 5ea1401 (.)
-=======
->>>>>>> 3da9b2a (.)

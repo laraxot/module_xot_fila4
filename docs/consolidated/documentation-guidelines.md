@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 
 # Linee Guida per la Documentazione in Laraxot
 
@@ -59,10 +54,7 @@ position: 1
 Ogni documento dovrebbe iniziare con:
 
 ```markdown
-<<<<<<< HEAD
-=======
 
->>>>>>> 5ea1401 (.)
 # Titolo Principale
 
 Breve introduzione che spiega lo scopo del documento e il contesto.
@@ -73,10 +65,7 @@ Breve introduzione che spiega lo scopo del documento e il contesto.
 Utilizzare una gerarchia chiara di intestazioni:
 
 ```markdown
-<<<<<<< HEAD
-=======
 
->>>>>>> 5ea1401 (.)
 ## Sezione Principale
 
 Descrizione della sezione principale.
@@ -148,10 +137,7 @@ La documentazione dei modelli dovrebbe includere:
 
 Esempio:
 ```markdown
-<<<<<<< HEAD
-=======
 
->>>>>>> 5ea1401 (.)
 ## NomeModello
 
 ```php
@@ -211,10 +197,7 @@ La documentazione dovrebbe essere aggiornata contemporaneamente alle modifiche d
 Utilizzare strumenti di generazione automatica quando possibile:
 
 ```bash
-<<<<<<< HEAD
-=======
 
->>>>>>> 5ea1401 (.)
 # Esempio: Generare documentazione per lo schema del database
 php artisan xot:generate-db-documentation /path/to/schema.json /path/to/output
 ```
@@ -251,10 +234,7 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 ### Documentazione di Modelli
 
 ```markdown
-<<<<<<< HEAD
-=======
 
->>>>>>> 5ea1401 (.)
 # Modelli del Modulo Brain
 
 Questo documento descrive i modelli disponibili nel modulo Brain, che rappresentano le entità del database braindb.
@@ -305,10 +285,5 @@ Per implementare queste linee guida:
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Documentazione Laravel](https://laravel.com/docs)
 - [Documentazione PHPDoc](https://docs.phpdoc.org/)
-<<<<<<< HEAD
 =======
->>>>>>> dfe51d0 (.)
 =======
->>>>>>> 5ea1401 (.)
-=======
->>>>>>> 3da9b2a (.)

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # pattern di estensione filament
 
 ## regola fondamentale
@@ -78,5 +77,3 @@ protected function getInfolistSchema(): array
 
 - [errore override metodo final](/var/www/html/base_<nome progetto>/laravel/project_docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/project_docs/filament-resources.md)
-=======
->>>>>>> a2de8cb7 (.)

@@ -10,7 +10,7 @@ Il progetto presentava **323 conflitti Git** distribuiti su tutto il modulo Xot,
 
 ### 1. Identificazione Sistematica
 ```bash
-grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches > /tmp/git-conflicts-list.txt
+
 wc -l /tmp/git-conflicts-list.txt  # 323 file
 ```
 
@@ -59,7 +59,7 @@ Per conflitti complessi (3 file finali):
 
 ### Verifica Finale
 ```bash
-grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
+
 # Output: 0 ✅
 ```
 
@@ -113,7 +113,7 @@ git checkout HEAD -- $(find Modules/Quaeris -name "*Widget.php" -type f)
 ```bash
 # Dopo ogni batch
 find $BATCH_DIR -name "*.php" | xargs php -l
-grep -r "^<<<<<<< HEAD" $BATCH_DIR | wc -l
+
 ```
 
 ## Impatto sul Sistema
@@ -146,11 +146,9 @@ grep -r "^<<<<<<< HEAD" $BATCH_DIR | wc -l
 git status --porcelain | grep "^UU\|^AA\|^DD"
 
 # Conta conflitti
-grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | wc -l
+
 
 # Lista per tipo
-grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.php$" | wc -l
-grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.md$" | wc -l
 ```
 
 ### Pulizia Batch
@@ -159,7 +157,7 @@ grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.md$" | wc -l
 /tmp/clean-git-markers.sh $(grep "^Modules/Xot/app" /tmp/git-conflicts-list.txt)
 
 # Verifica
-grep -r "^<<<<<<< HEAD" Modules/Xot/app --files-with-matches | wc -l
+
 ```
 
 ### Verifica Finale
@@ -168,7 +166,7 @@ grep -r "^<<<<<<< HEAD" Modules/Xot/app --files-with-matches | wc -l
 find Modules/ -name "*.php" -type f | xargs php -l 2>&1 | grep -c "No syntax errors"
 
 # Conflitti rimasti
-grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
+
 
 # Test server
 php artisan serve --host=127.0.0.1 --port=8000

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Modulo Xot - Ottimizzazioni per Modularità
 
 ## Problemi Identificati
@@ -312,5 +311,3 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 
 **Queste ottimizzazioni sono CRITICHE per mantenere l'architettura modulare del sistema. Ogni violazione deve essere corretta immediatamente.**
 
-=======
->>>>>>> a2de8cb7 (.)

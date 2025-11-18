@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # Action Usage Patterns - Regole Fondamentali
 
 ## 🎯 **REGOLA CRITICA: Pattern di Uso delle Action**
@@ -102,16 +97,7 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 
 - [Laravel Service Container](https://laravel.com/docs/container)
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-=======
->>>>>>> 5ea1401 (.)
 - [Spatie QueueableAction](https://github.com/spatie/laravel-queueable-action)
 
 ---
@@ -119,10 +105,5 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 **PRIORITÀ**: CRITICA - Da seguire SEMPRE senza eccezioni
 **AGGIORNATO**: 2025-01-30
 **AUTORE**: Sistema di Qualità Laraxot
-<<<<<<< HEAD
 =======
->>>>>>> dfe51d0 (.)
 =======
->>>>>>> 5ea1401 (.)
-=======
->>>>>>> 3da9b2a (.)

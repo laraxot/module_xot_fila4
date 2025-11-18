@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a2de8cb7 (.)
 # Linee Guida per i Database in Laraxot
 
 Questo documento definisce le best practices per la gestione dei database nel framework Laraxot, inclusa la documentazione, la creazione di modelli e le migrazioni.
@@ -494,9 +488,4 @@ php artisan db:analyze-usage --connection=nome_connessione
 - Verificare che ci siano indici appropriati
 - Controllare che i tipi di dati siano ottimali per l'uso previsto
 - Utilizzare query builder o raw queries per query complesse
-<<<<<<< HEAD
 =======
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> a0b522b (.)
->>>>>>> a2de8cb7 (.)

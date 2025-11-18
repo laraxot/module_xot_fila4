@@ -1,18 +1,5 @@
-<<<<<<< HEAD
-# Struttura Percorsi Progetto PTVX
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
 # Struttura dei percorsi nel progetto 
->>>>>>> a2de8cb7 (.)
 
 > **Ambiente di riferimento**: `/var/www/_bases/base_ptvx_fila4_mono/`
 
@@ -72,12 +59,6 @@ Tutti i percorsi assoluti DEVONO includere il segmento `laravel/` subito dopo la
     └── vendor/
 ```
 
-<<<<<<< HEAD
-## 📌 Note Operative
-- Quando si documentano percorsi in README o guide, usare sempre la forma completa con `laravel/`
-- Script bash e documentazione devono rispettare la stessa convenzione
-- In ambienti multipli (es. `base_<nome progetto>`, `base_performance`), sostituire solo il segmento di base; il resto resta identico
-=======
 ## Importanza della regola
 
 Il rispetto di questa struttura è fondamentale per:
@@ -134,18 +115,9 @@ find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -ex
 - [Struttura del progetto](../Xot/docs/architecture/struttura-progetto.md)
 - [Regole di namespace](../Xot/docs/standards/namespace-conventions.md)
 - [Autoloading](../Xot/docs/standards/psr4-compliance.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 - [Struttura del progetto](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/architecture/struttura-progetto.md)
 - [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
 - [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/standards/psr4-compliance.md)
->>>>>>> f1d4085 (.)
 =======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
 =======
->>>>>>> 300ef70 (.)
 =======
->>>>>>> a0b522b (.)
->>>>>>> a2de8cb7 (.)

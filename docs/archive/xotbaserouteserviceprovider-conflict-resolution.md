@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # Risoluzione conflitto XotBaseRouteServiceProvider.php
 
 ## Problema
@@ -16,17 +11,6 @@ Il file conteneva marker di conflitto git  all'interno del metodo `boot()`, con 
 
 ## Collegamento alla doc root
 Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-
 =======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
 =======
->>>>>>> dfe51d0 (.)
-=======
->>>>>>> 5ea1401 (.)
-=======
->>>>>>> 3da9b2a (.)

@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # Workflow Analisi PHPStan
 
 > **Nota**: Per una panoramica completa sulla gestione della documentazione e delle regole, consultare [DOCUMENTATION_MANAGEMENT.md](DOCUMENTATION_MANAGEMENT.md)
@@ -142,11 +137,7 @@ class MyModel extends BaseModel
    - ❌ MAI correggere un solo errore alla volta se esistono errori simili
    - ❌ MAI rimandare le correzioni a sessioni successive
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> 5ea1401 (.)
 ## Struttura del Progetto e Workflow
 
 ### Architettura Modulare
@@ -166,10 +157,6 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 4. **Testing**: Verificare che le correzioni non rompano funzionalità
 5. **Commit**: Commit atomici per gruppi di correzioni
 
-<<<<<<< HEAD
->>>>>>> a5dccfe (.)
-=======
->>>>>>> 5ea1401 (.)
 2. **Approccio Efficiente**
    - Identificare pattern comuni di errori
    - Correggere tutti gli errori dello stesso tipo in una volta
@@ -198,15 +185,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
      - Docs del modulo specifico
      - .cursor/rules per Cursor AI
      - .windsurfrules per Windsurf
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-   - Mantenere coerenza tra le diverse documentazioni 
-=======
->>>>>>> 6821f7a (.)
-=======
->>>>>>> 5ea1401 (.)
    - Mantenere coerenza tra le diverse documentazioni 
 ## Collegamenti tra versioni di PHPSTAN_WORKFLOW.md
 * [PHPSTAN_WORKFLOW.md](../../../Xot/project_docs/phpstan/PHPSTAN_WORKFLOW.md)
@@ -225,16 +204,8 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 ---
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+   - Mantenere coerenza tra le diverse documentazioni 
+=======
 =======
    - Mantenere coerenza tra le diverse documentazioni 
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
 =======
->>>>>>> dfe51d0 (.)
-=======
-   - Mantenere coerenza tra le diverse documentazioni 
->>>>>>> 5ea1401 (.)
-=======
->>>>>>> 3da9b2a (.)

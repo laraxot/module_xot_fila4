@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Xot Module - Framework Base Laraxot
 
 ## Overview
@@ -42,5 +41,3 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - [Root Documentation](../../../project_docs/)
 - [<nome progetto> Module](../<nome progetto>/project_docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
-=======
->>>>>>> a2de8cb7 (.)

@@ -17,7 +17,7 @@ This guide provides comprehensive instructions for improving code quality across
 2. **Remove Merge Conflicts**
    ```bash
    # Find and remove merge conflict markers
-   find Modules -name "*.php" -exec grep -l "<<<<<<< HEAD\|=======\|>>>>>>>" {} \;
+   
    ```
 
 3. **Run Code Quality Tools**

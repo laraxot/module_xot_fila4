@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Analisi Completa Modulo Xot - Factory, Seeder e Test
 
 ## 📊 Panoramica Generale
@@ -253,5 +252,3 @@ Il modulo Xot è la base fondamentale del sistema <nome progetto>, fornendo clas
 **Responsabile**: Team Sviluppo <nome progetto>
 **Prossima Revisione**: Gennaio 2025
 
-=======
->>>>>>> a2de8cb7 (.)

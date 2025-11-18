@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
@@ -95,5 +94,3 @@ $res=Locality::query()
 
 ### 1. Controllo Conflitti
 ```bash
-=======
->>>>>>> a2de8cb7 (.)

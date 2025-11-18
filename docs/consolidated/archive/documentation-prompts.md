@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Prompt di Documentazione
 
 ## Panoramica
@@ -140,5 +139,3 @@ con collegamenti bidirezionali...
    - Mantenere aggiornate le regole
    - Documentare le correzioni
    - Aggiornare gli esempi
-=======
->>>>>>> a2de8cb7 (.)

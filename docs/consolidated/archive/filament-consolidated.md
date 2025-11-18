@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Filament - Guida Completa Consolidata
 
 **Ultimo aggiornamento**: 2025-01-06  
@@ -314,5 +313,3 @@ namespace Modules\<nome progetto>\Filament\Resources;
 ---
 
 *Guida consolidata che elimina duplicazioni e semplifica la manutenzione della documentazione Filament.*
-=======
->>>>>>> a2de8cb7 (.)

@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a2de8cb7 (.)
 ---
 title: Event Sourcing
 description: Event Sourcing
@@ -50,9 +44,4 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 
 ---
 
-<<<<<<< HEAD
 =======
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> a0b522b (.)
->>>>>>> a2de8cb7 (.)

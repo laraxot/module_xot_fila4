@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # Guida all'Utilizzo di PHPStan nel Framework Laraxot <nome progetto>
 
 ## Introduzione
@@ -68,10 +63,7 @@ PHPStan offre più livelli di rigore nell'analisi (da 0 a 10). Il framework Lara
 - **Livello 10:** Obiettivo futuro (massima rigidità)
 
 ```bash
-<<<<<<< HEAD
-=======
 
->>>>>>> 5ea1401 (.)
 # Analisi a livello 9 (standard corrente)
 ./vendor/bin/phpstan analyse Modules/NomeModulo --level=9
 
@@ -203,10 +195,7 @@ public function post(): \Illuminate\Database\Eloquent\Relations\BelongsTo
 È consigliabile integrare PHPStan nel flusso CI/CD per garantire che tutti i commit rispettino gli standard:
 
 ```yaml
-<<<<<<< HEAD
-=======
 
->>>>>>> 5ea1401 (.)
 # Esempio per GitHub Actions
 name: PHPStan
 
@@ -238,10 +227,7 @@ Seguendo questa guida, sarai in grado di utilizzare efficacemente PHPStan all'in
 ## Promemoria Rapido
 
 ```bash
-<<<<<<< HEAD
-=======
 
->>>>>>> 5ea1401 (.)
 # Dalla directory laravel del progetto
 cd /percorso/al/progetto/laravel
 
@@ -253,19 +239,8 @@ cd /percorso/al/progetto/laravel
 
 # Analisi con output dettagliato
 ./vendor/bin/phpstan analyse Modules/NomeModulo --level=9 --verbose
-<<<<<<< HEAD
-<<<<<<< HEAD
 ``` 
 =======
-<<<<<<< HEAD
 =======
 ``` 
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
 =======
->>>>>>> dfe51d0 (.)
-=======
-``` 
->>>>>>> 5ea1401 (.)
-=======
->>>>>>> 3da9b2a (.)

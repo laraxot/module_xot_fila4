@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # XotBasePage - Classe Base per le Pagine Filament
 
 ## Descrizione
@@ -174,5 +173,3 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 - [Pattern di Estensione](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament_xot_architecture.md)
-=======
->>>>>>> a2de8cb7 (.)

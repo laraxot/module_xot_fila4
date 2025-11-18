@@ -1,24 +1,5 @@
-<<<<<<< HEAD
-# Modulo Xot - Documentazione
-
-> **Versione**: 1.2  
-> **Ultimo aggiornamento**: Novembre 2025  
-> **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Xot Module - Framework Base Laraxot
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 # Laraxot PTVX - Documentazione Consolidata
->>>>>>> a2de8cb7 (.)
 
 ## Panoramica
 
@@ -58,13 +39,6 @@ Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Liv
 - **Estensibilità**: Classi base estendibili
 - **Manutenibilità**: Strumenti comuni, automazioni
 
-<<<<<<< HEAD
-### Componenti Chiave Xot
-- `app/Filament` → Classi base per Resources/Pages/Widgets
-- `app/Datas` → Metatag, XotData, Navigation
-- `app/Providers` → ServiceProvider condivisi
-- `bashscripts/` → Automazioni git, merge, maintenance
-=======
 - **Modularità**: Ogni funzionalità è organizzata in moduli indipendenti
 - **Coerenza**: Struttura uniforme e convenzioni standardizzate
 - **Estensibilità**: Facile aggiunta di nuovi moduli e funzionalità
@@ -120,7 +94,6 @@ Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Liv
 4. Generare la chiave: `php artisan key:generate`
 5. Eseguire le migrazioni: `php artisan migrate`
 6. Avviare il server: `php artisan serve`
->>>>>>> f1570712 (.)
 
 ---
 
@@ -170,9 +143,6 @@ Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Liv
 
 ---
 
-<<<<<<< HEAD
-**Nota**: Xot è comune a tutti i moduli. Ogni modifica deve essere documentata, testata e compatibile multi-progetto.
-=======
 ## Installation
 ```bash
 composer require laraxot/xot
@@ -182,35 +152,12 @@ composer require laraxot/xot
 Configurazione automatica tramite service providers.
 
 ## Documentation Archive
-<<<<<<< HEAD
 =======
->>>>>>> f1d4085 (.)
 =======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Principles
-- **DRY**: Un solo punto di verità
-- **KISS**: Semplicità e chiarezza
-- **Type Safety**: Tipizzazione rigorosa
-- **Documentation**: Documentazione essenziale
-## Quick Links Legacy
-
-## Links
-- [Root Documentation](../../../project_docs/)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d2b0a27 (.)
-## Quick Links Legacy
-=======
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -219,19 +166,11 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 
 ## Links
 - [Root Documentation](../../../project_docs/)
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
 =======
 ## Quick Links Legacy
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
 =======
 ## Quick Links Legacy
->>>>>>> 300ef70 (.)
 - [Root Documentation](../../../docs/)
 - [<main module> Module](../<main module>/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 =======
->>>>>>> a0b522b (.)
->>>>>>> a2de8cb7 (.)

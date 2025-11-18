@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a2de8cb7 (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -225,17 +219,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
 **Last Update**: Dicembre 2024 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
 =======
 **Last Update**: Dicembre 2024 
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
 =======
->>>>>>> 300ef70 (.)
 =======
->>>>>>> a0b522b (.)
->>>>>>> a2de8cb7 (.)

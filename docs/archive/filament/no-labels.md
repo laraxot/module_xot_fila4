@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # DIVIETO ASSOLUTO DI USARE ->label(), ->placeholder() e ->helperText()
 
 ## Regola Fondamentale Inviolabile
@@ -112,19 +107,8 @@ Se trovi codice che viola questa regola:
 - [Esempio pratico nel TeamsRelationManager](/laravel/Modules/User/docs/filament/teams_relation_manager.md)
 - [Regole per RelationManager](/docs/filament/relation_managers.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
->>>>>>> dfe51d0 (.)
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
->>>>>>> 5ea1401 (.)
 =======
->>>>>>> 3da9b2a (.)

@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # Regola generale: Label e traduzioni in Filament
 
 ## Regola
@@ -27,19 +22,8 @@
 - [docs root](../../../../docs/actions.md)
 - [docs Lang](../../Lang/docs/filament-label.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
 Ultimo aggiornamento: maggio 2025.
 =======
->>>>>>> dfe51d0 (.)
 =======
 Ultimo aggiornamento: maggio 2025.
->>>>>>> 5ea1401 (.)
 =======
->>>>>>> 3da9b2a (.)

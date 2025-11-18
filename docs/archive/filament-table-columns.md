@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # Regola Generale: Metodo getTableColumns per Filament Table (Xot)
 
 ## Regola
 Tutte le Filament Table (Pages, RelationManagers, ecc.) nei moduli devono usare il metodo `getTableColumns` per definire le colonne della tabella.
 
-<<<<<<< HEAD
-- **Non usare più:** `getTableColumns`
-=======
 - **Non usare più:** `getListTableColumns`
->>>>>>> 5ea1401 (.)
 - **Usare sempre:** `getTableColumns`
 
 ## Motivazione
@@ -40,16 +31,7 @@ public function getTableColumns(): array
 - [Esempio e Applicazione - Modulo User](../../../User/docs/filament/FILAMENT_TABLE_COLUMNS.md)
 - [Regola Globale - Root Docs](../../../../docs/filament-table-columns.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-=======
->>>>>>> 5ea1401 (.)
 ## Nota storica: correzione XotBaseManageRelatedRecords
 
 - La classe XotBaseManageRelatedRecords è stata aggiornata per rispettare PHPStan livello 10.
@@ -65,10 +47,5 @@ public function getTableColumns(): array
 **Ultimo aggiornamento:** 2025-05-13
 
 **Link bidirezionale:** Aggiornare anche la root docs e la docs dei moduli coinvolti.
-<<<<<<< HEAD
 =======
->>>>>>> dfe51d0 (.)
 =======
->>>>>>> 5ea1401 (.)
-=======
->>>>>>> 3da9b2a (.)

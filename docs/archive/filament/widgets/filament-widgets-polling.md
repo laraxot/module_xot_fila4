@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # Polling nei Widget Filament
 
 Questo documento descrive come implementare il polling automatico nei widget Filament utilizzando il trait `CanPoll` nel progetto il progetto.
@@ -133,11 +128,7 @@ class ActiveUsersWidget extends XotBaseWidget
 ## Compatibilità
 
 Questa funzionalità è compatibile con:
-<<<<<<< HEAD
-- Filament 4.x
-=======
 - Filament 3.x
->>>>>>> 5ea1401 (.)
 - Laravel 12.x
 - PHP 8.2+
 
@@ -148,17 +139,6 @@ Questa funzionalità è compatibile con:
 - [FOLIO_VOLT_FILAMENT_INTEGRATION.md](../../FOLIO_VOLT_FILAMENT_INTEGRATION.md) - Integrazione Folio, Volt e Filament
 - [MODULE_STRUCTURE.md](../../MODULE_STRUCTURE.md) - Struttura standard dei moduli
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation)
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-
 =======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
 =======
->>>>>>> dfe51d0 (.)
-=======
->>>>>>> 5ea1401 (.)
-=======
->>>>>>> 3da9b2a (.)

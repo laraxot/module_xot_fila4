@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PHPStan Best Practices per Relazioni Eloquent
 
 ## Regola Fondamentale
@@ -313,5 +312,3 @@ L'uso di `self` nelle annotazioni PHPDoc delle relazioni Eloquent è la best pra
 **Laravel Version**: 10+  
 **Priorità**: Alta (Obbligatorio per nuovi modelli)  
 **Stato**: ✅ Standard Adottato
-=======
->>>>>>> a2de8cb7 (.)

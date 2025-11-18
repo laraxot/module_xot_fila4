@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Raccomandazioni di Ottimizzazione - Modulo Xot
 
 ## 🎯 Stato Attuale e Problemi Critici
@@ -319,5 +318,3 @@ php artisan xot:test-framework
 - [XotData Current](../Datas/XotData.php)
 
 *Ultimo aggiornamento: gennaio 2025*
-=======
->>>>>>> a2de8cb7 (.)

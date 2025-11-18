@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Regole di Namespace 
 
 ## Struttura dei Namespace
@@ -89,5 +88,3 @@ Se si verificano errori "Class not found" o problemi di autoloading:
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 
 Ultima modifica: 31/03/2025 
-=======
->>>>>>> a2de8cb7 (.)

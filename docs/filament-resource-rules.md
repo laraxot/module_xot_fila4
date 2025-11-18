@@ -1,16 +1,4 @@
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a2de8cb7 (.)
 # Regole per le Risorse Filament in 
 
 ## Panoramica
@@ -207,22 +195,12 @@ class DoctorResource extends XotBaseResource
 - [Filament Form Builder](/docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/docs/translation-management.md)
 - [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 - [Filament Form Builder](/project_docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/project_docs/translation-management.md)
 - [Estensione delle Classi Filament](/project_docs/filament-extension-pattern.md)
->>>>>>> f1d4085 (.)
 =======
 - [Filament Form Builder](/docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/docs/translation-management.md)
 - [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
 =======
->>>>>>> 300ef70 (.)
 =======
->>>>>>> a0b522b (.)
->>>>>>> a2de8cb7 (.)

@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a2de8cb7 (.)
 # Sistema di Traduzione 
 
 ## Regola Fondamentale: NO ->label()
@@ -234,17 +228,6 @@ php artisan view:clear
 - [Documentazione Laravel Translations](https://laravel.com/docs/localization)
 - [Filament Form Components](https://filamentphp.com/docs/forms)
 - [Best Practices Filament](../docs/filament-best-practices.md)
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
->>>>>>> f1d4085 (.)
 =======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
-=======
->>>>>>> a0b522b (.)
->>>>>>> a2de8cb7 (.)

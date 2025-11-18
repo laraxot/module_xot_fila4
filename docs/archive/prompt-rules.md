@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # Regole per i Prompt
 
 ## Regola Universale
@@ -38,16 +33,7 @@ La documentazione generica deve essere sempre inserita nella cartella `docs` del
 ### Collocazione della documentazione dei componenti UI
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-
-=======
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
-=======
->>>>>>> 5ea1401 (.)
 ## Collegamenti Bidirezionali
 - [Documentazione Generale](./documentation.md)
 - [Regole del Progetto](./rules.md)
@@ -63,10 +49,5 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 ## Collegamenti tra versioni di prompt_rules.md
 * [prompt_rules.md](rules/prompt_rules.md)
 
-<<<<<<< HEAD
 =======
->>>>>>> dfe51d0 (.)
 =======
->>>>>>> 5ea1401 (.)
-=======
->>>>>>> 3da9b2a (.)

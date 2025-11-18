@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Regole di Documentazione
 
 ## Panoramica
@@ -207,5 +206,3 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 - Una buona documentazione riduce il tempo di onboarding
 - La documentazione deve evolversi insieme al codice
 - I collegamenti bidirezionali sono essenziali per la navigabilità
-=======
->>>>>>> a2de8cb7 (.)

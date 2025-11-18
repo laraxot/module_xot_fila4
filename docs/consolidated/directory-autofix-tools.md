@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5ea1401 (.)
 # Strumenti di Correzione Automatica della Struttura delle Directory
 
 ## Introduzione
@@ -203,10 +198,7 @@ mv Modules/Rating/Models/Rating.php Modules/Rating/app/Models/
 È consigliabile eseguire lo script come parte dei controlli pre-commit o durante la CI/CD:
 
 ```bash
-<<<<<<< HEAD
-=======
 
->>>>>>> 5ea1401 (.)
 # Nel pre-commit hook
 ./bashscripts/fix_directory_structure.sh --all
 ```
@@ -221,19 +213,8 @@ Durante lo sviluppo, è possibile eseguire lo script solo sul modulo in fase di 
 
 ## Conclusione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Lo script di correzione automatica della struttura delle directory è uno strumento essenziale per mantenere la coerenza e seguire le convenzioni del framework Laraxot <nome progetto>. Utilizzandolo regolarmente, è possibile garantire che il codice segua sempre la struttura richiesta, facilitando la manutenzione e l'interoperabilità tra i vari moduli. 
 =======
-<<<<<<< HEAD
 =======
 Lo script di correzione automatica della struttura delle directory è uno strumento essenziale per mantenere la coerenza e seguire le convenzioni del framework Laraxot <nome progetto>. Utilizzandolo regolarmente, è possibile garantire che il codice segua sempre la struttura richiesta, facilitando la manutenzione e l'interoperabilità tra i vari moduli. 
->>>>>>> a5dccfe (.)
->>>>>>> 6821f7a (.)
 =======
->>>>>>> dfe51d0 (.)
-=======
-Lo script di correzione automatica della struttura delle directory è uno strumento essenziale per mantenere la coerenza e seguire le convenzioni del framework Laraxot <nome progetto>. Utilizzandolo regolarmente, è possibile garantire che il codice segua sempre la struttura richiesta, facilitando la manutenzione e l'interoperabilità tra i vari moduli. 
->>>>>>> 5ea1401 (.)
-=======
->>>>>>> 3da9b2a (.)

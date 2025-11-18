@@ -1,17 +1,4 @@
-<<<<<<< HEAD
-6cba4fe (.)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 # Best Practices
 
 ## Laravel
@@ -58,18 +45,8 @@
 - Verificare la performance
 - Controllare la manutenibilità
 - Verificare la testabilità
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
 =======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a2de8cb7 (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -792,4 +769,3 @@ public function createModel(array $data): MioModello
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
 =======
->>>>>>> a0b522b (.)

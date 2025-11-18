@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # StreamDownloadPdfAction Documentation
 
 ## Overview
@@ -150,5 +149,3 @@ Generated PDF data can be attached to emails through the notification system.
 - PDF generation is synchronous within the action execution
 - The Italian language setting affects date formatting and text direction
 - UTF-8 encoding ensures proper handling of international characters
-=======
->>>>>>> a2de8cb7 (.)

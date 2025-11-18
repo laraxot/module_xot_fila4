@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Best Practices per Model States e Transizioni Custom
 
 ## Parametri aggiuntivi nelle transizioni custom
@@ -12,5 +11,3 @@
 - **Collegamenti**:
   - [Errori comuni nelle transizioni custom (<nome progetto>)](../../<nome progetto>/docs/model-states-errors.md)
   - [README.md centrale](../../../docs/README.md) 
-=======
->>>>>>> a2de8cb7 (.)

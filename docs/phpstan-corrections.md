@@ -201,11 +201,5 @@ $averageTime = $count > 0 ? $totalTime / $count : 0.0;
 
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> eeaa032 (.)
 =======
 
->>>>>>> 52cf850 (.)

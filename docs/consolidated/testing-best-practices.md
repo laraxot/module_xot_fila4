@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 Gold Standard per i Test
@@ -85,5 +84,3 @@ function mockXotData(): void
 Status: Best Practices consolidate — Last Update: Dicembre 2024
 
 
-=======
->>>>>>> a2de8cb7 (.)

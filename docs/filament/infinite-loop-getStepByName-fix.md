@@ -1,31 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
->>>>>>> e7da37af (.)
 =======
->>>>>>> 6c576e4e (rebase 210)
 =======
->>>>>>> c1f7a6d4 (rebase 210)
 =======
->>>>>>> 36c41395 (rebase 210)
 =======
->>>>>>> 52a2d1de (rebase 210)
 =======
->>>>>>> f34fab37 (rebase 210)
-=======
->>>>>>> 1ee6b92a (rebase 210)
 # CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 
 ## 🚨 **PROBLEMA CRITICO RISOLTO**
@@ -146,59 +124,26 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
->>>>>>> e7da37af (.)
 =======
->>>>>>> c1f7a6d4 (rebase 210)
 =======
->>>>>>> 52a2d1de (rebase 210)
-=======
->>>>>>> 1ee6b92a (rebase 210)
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
 =======
->>>>>>> 6c576e4e (rebase 210)
 =======
->>>>>>> 36c41395 (rebase 210)
-=======
->>>>>>> f34fab37 (rebase 210)
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 221f68bb (.)
 =======
->>>>>>> e7da37af (.)
 =======
->>>>>>> 6c576e4e (rebase 210)
 =======
->>>>>>> c1f7a6d4 (rebase 210)
 =======
->>>>>>> 36c41395 (rebase 210)
 =======
->>>>>>> 52a2d1de (rebase 210)
 =======
->>>>>>> f34fab37 (rebase 210)
-=======
->>>>>>> 1ee6b92a (rebase 210)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -218,50 +163,25 @@ Questo fix dimostra l'importanza di:
 4. **Xdebug monitoring** per rilevazione loop infiniti
 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
+=======
+=======
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+=======
 =======
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 221f68bb (.)
 =======
->>>>>>> ed2f798a (.)
 =======
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
->>>>>>> e7da37af (.)
 =======
->>>>>>> 55fe1822 (.)
 =======
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 6c576e4e (rebase 210)
 =======
->>>>>>> 1e57c4f0 (rebase 210)
 =======
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
->>>>>>> c1f7a6d4 (rebase 210)
 =======
->>>>>>> 0a4777b9 (rebase 210)
 =======
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 36c41395 (rebase 210)
 =======
->>>>>>> 295369a3 (rebase 210)
 =======
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 52a2d1de (rebase 210)
-=======
->>>>>>> 4bf95e7b (rebase 210)
-=======
-*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
->>>>>>> f34fab37 (rebase 210)
-=======
->>>>>>> 50a6aab9 (rebase 210)
-=======
-*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
->>>>>>> 1ee6b92a (rebase 210)

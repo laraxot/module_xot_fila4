@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+use Modules\User\Models\Team;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -30,11 +32,11 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string|null                                                 $type
  * @property string|null                                                 $current_team_id
  * @property TeamContract|null                                           $currentTeam
- * @property \Illuminate\Database\Eloquent\Collection<int, UserRole>     $roles
- * @property \Illuminate\Database\Eloquent\Collection<int, TeamContract> $teams
- * @property \Illuminate\Database\Eloquent\Collection<int, Tenant>       $tenants
+ * @property Collection<int, UserRole> $roles
+ * @property Collection<int, Team> $teams
+ * @property Collection<int, Tenant> $tenants
  *
- * @phpstan-require-extends \Illuminate\Database\Eloquent\Model
+ * @phpstan-require-extends Model
  *
  * @mixin \Eloquent
  */
@@ -117,20 +119,20 @@ interface UserContract extends Authenticatable
     /**
      * Determine if the user owns the given team.
      */
-    public function ownsTeam(\Modules\User\Contracts\TeamContract $team): bool;
+    public function ownsTeam(TeamContract $team): bool;
 
     /**
      * Determine if the user belongs to the given team.
      */
-    public function belongsToTeam(\Modules\User\Contracts\TeamContract $team): bool;
+    public function belongsToTeam(TeamContract $team): bool;
 
     /**
      * Determine if the user has the given permission on the given team.
      */
-    public function hasTeamPermission(\Modules\User\Contracts\TeamContract $team, string $permission): bool;
+    public function hasTeamPermission(TeamContract $team, string $permission): bool;
 
     /**
      * Switch the user's context to the given team.
      */
-    public function switchTeam(\Modules\User\Contracts\TeamContract $team): bool;
+    public function switchTeam(TeamContract $team): bool;
 }

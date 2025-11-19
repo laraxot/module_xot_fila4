@@ -83,7 +83,7 @@ describe('XotBaseTransition', function () {
     });
 
     it('has record property', function () {
-        $reflection = new \ReflectionObject($this->transition);
+        $reflection = new ReflectionObject($this->transition);
         expect($reflection->hasProperty('record'))->toBeTrue();
     });
 

@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
+use Exception;
+use ReflectionClass;
 use Filament\Pages\Enums\SubNavigationPosition;
 use Filament\Resources\Pages\Page;
 use Filament\Resources\Pages\PageRegistration;
@@ -42,7 +44,7 @@ abstract class XotBaseResource extends FilamentResource
     // protected static ?string $navigationGroup = 'Parametri di Sistema';
     // protected static ?int $navigationSort = null;
 
-    protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
+    protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
 
     public static function getModuleName(): string
     {
@@ -145,7 +147,7 @@ abstract class XotBaseResource extends FilamentResource
             $count = app(CountAction::class)->execute(static::getModel());
 
             return number_format($count, 0).'';
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             return '--';
         }
     }
@@ -192,7 +194,7 @@ abstract class XotBaseResource extends FilamentResource
      */
     public static function getRelations(): array
     {
-        $reflector = new \ReflectionClass(static::class);
+        $reflector = new ReflectionClass(static::class);
         $filename = $reflector->getFileName();
         Assert::string($filename, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
@@ -235,7 +237,7 @@ abstract class XotBaseResource extends FilamentResource
         $submit_view = 'pub_theme::filament.wizard.submit-button';
         // @phpstan-ignore-next-line
         if (! view()->exists($submit_view)) {
-            throw new \Exception("View {$submit_view} does not exist");
+            throw new Exception("View {$submit_view} does not exist");
         }
         $render = view($submit_view)->render();
 

@@ -72,7 +72,7 @@ class InformationSchemaTable extends BaseModel
     /**
      * Aggiorna il numero di record memorizzato per un modello.
      *
-     * @param  class-string<\Illuminate\Database\Eloquent\Model>  $modelClass
+     * @param class-string<Model> $modelClass
      */
     public static function updateModelCount(string $modelClass, int $total): void
     {
@@ -102,7 +102,7 @@ class InformationSchemaTable extends BaseModel
     /**
      * Restituisce il numero di record per un modello.
      *
-     * @param  class-string<\Illuminate\Database\Eloquent\Model>  $modelClass
+     * @param class-string<Model> $modelClass
      */
     public static function getModelCount(string $modelClass): int
     {

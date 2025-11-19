@@ -8,6 +8,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+use Laravel\Passport\PersonalAccessTokenResult;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Model;
 use Laravel\Passport\Token;
 use Laravel\Passport\TransientToken;
@@ -20,21 +22,21 @@ interface PassportHasApiTokensContract
     /**
      * Get all of the user's registered OAuth clients.
      *
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     * @return HasMany
      */
     public function clients();
 
     /**
      * Get all of the access tokens for the user.
      *
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     * @return HasMany
      */
     public function tokens();
 
     /**
      * Get the current access token being used by the user.
      *
-     * @return \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null
+     * @return Token|TransientToken|null
      */
     public function token(): Token|TransientToken|null;
 
@@ -50,7 +52,7 @@ interface PassportHasApiTokensContract
      *
      * @param  array<int, string>  $scopes
      */
-    public function createToken(string $name, array $scopes = []): \Laravel\Passport\PersonalAccessTokenResult;
+    public function createToken(string $name, array $scopes = []): PersonalAccessTokenResult;
 
     /**
      * Set the current access token for the user.

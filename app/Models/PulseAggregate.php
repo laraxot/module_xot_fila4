@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+use Modules\Xot\Database\Factories\PulseAggregateFactory;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
@@ -17,7 +18,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $value
  * @property int|null $count
  *
- * @method static \Modules\Xot\Database\Factories\PulseAggregateFactory factory($count = null, $state = [])
+ * @method static PulseAggregateFactory factory($count = null, $state = [])
  * @method static Builder<static>|PulseAggregate newModelQuery()
  * @method static Builder<static>|PulseAggregate newQuery()
  * @method static Builder<static>|PulseAggregate query()

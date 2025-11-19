@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\View\Components;
 
+use RuntimeException;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
@@ -41,7 +42,7 @@ class XDebug extends Component
     public function debugStack(): string
     {
         if (! \extension_loaded('xdebug')) {
-            throw new \RuntimeException('XDebug must be installed to use this function');
+            throw new RuntimeException('XDebug must be installed to use this function');
         }
 
         ob_start();

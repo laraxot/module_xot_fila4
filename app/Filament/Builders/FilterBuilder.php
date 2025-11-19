@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Builders;
 
+use Filament\Forms\Components\DatePicker;
+use Modules\User\Models\User;
 use Filament\Forms;
 use Filament\Tables\Filters\Filter;
 use Filament\Tables\Filters\SelectFilter;
@@ -90,10 +92,10 @@ class FilterBuilder
     public static function dateRange(string $column = 'created_at', string $label = 'Date Range'): Filter
     {
         return Filter::make($column)
-            ->form([
-                Forms\Components\DatePicker::make('from')
+            ->schema([
+                DatePicker::make('from')
                     ->label('From'),
-                Forms\Components\DatePicker::make('until')
+                DatePicker::make('until')
                     ->label('Until'),
             ])
             ->query(function (Builder $query, array $data) use ($column): Builder {
@@ -251,7 +253,7 @@ class FilterBuilder
      */
     public static function userSelect(
         string $name = 'user',
-        string $userModel = \Modules\User\Models\User::class,
+        string $userModel = User::class,
         string $labelColumn = 'name'
     ): SelectFilter {
         return self::selectFromModel($name, $userModel, $labelColumn, 'id', $name);

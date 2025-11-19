@@ -25,6 +25,7 @@ use Webmozart\Assert\Assert;
 use function Safe\define;
 use function Safe\glob;
 use function Safe\json_decode;
+use function Safe\json_encode;
 use function Safe\preg_match;
 
 // ------------------------------------------------
@@ -159,7 +160,7 @@ if (! function_exists('hex2rgba')) {
 }
 
 if (! function_exists('dddx')) {
-    function dddx(mixed $params): string
+    function dddx(mixed $params): void
     {
         $tmp = debug_backtrace();
         $file = $tmp[0]['file'] ?? 'file-unknown';
@@ -199,8 +200,7 @@ if (! function_exists('dddx')) {
             $data['view_file'] = app(FixPathAction::class)
                 ->execute(Str::between($content, '/**PATH ', ' ENDPATH**/'));
         }
-
-        dd($data);
+        dd(['data' => $data]);
     }
 }
 /*

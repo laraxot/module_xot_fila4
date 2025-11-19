@@ -40,8 +40,8 @@ public function get<Nome>Attribute(?type $value): ?type
     // Calcolo...
     $newValue = /* ... */;
     
-    // Ora save() è sicuro
-    $this->save();
+// Persistenza chirurgica SOLO sui campi necessari
+$this->update(['perf_ind_media' => $newValue]);
     
     return $newValue;
 }
@@ -152,6 +152,17 @@ public function getTotaleAttribute(): float {
 }
 ```
 
+## Preferenza 2025-11-19: update() mirato
+
+Per evitare loop di Activity Log e ricalcoli inutili:
+
+1. Calcola il valore.
+2. Assegna `$this->campo = $valore`.
+3. Se `getKey()` è `null` → ritorna senza salvare.
+4. Se esiste → usa `update(['campo' => $valore])` invece di `save()`.
+
+Questo approccio è ora adottato in tutti i moduli toccati dal bugfix (IndennitaCondizioniLavoro, ServizioEsterno, Ptv, Performance, Lang, Progressioni, Sigma, IndennitaResponsabilita).
+
 ### Pattern B: Accessor con Update + Save
 
 ```php
@@ -209,17 +220,18 @@ public function getMediaAttribute(): float {
 ### Fase 2: Sigma (GIÀ FATTO)
 - [x] SchedaTrait.php - 15 accessor già fixati ✅
 
-### Fase 3: Altri Moduli (Prossime Sessioni)
+### Fase 3: Altri Moduli (Aggiornato 2025-11-19)
 
 **Settimana 1**:
-- [ ] Performance/MutatorTrait
-- [ ] IndennitaResponsabilita/MutatorTrait
-- [ ] IndennitaCondizioniLavoro/MutatorTrait
+- [x] Performance/MutatorTrait → usa guarding + `update()`
+- [x] IndennitaResponsabilita/MutatorTrait → update mirato invece di save
+- [x] IndennitaCondizioniLavoro/MutatorTrait → già allineato, documentazione aggiornata
 
 **Settimana 2**:
-- [ ] Rating/RatingTrait
-- [ ] Ptv/BaseScheda
-- [ ] Progressioni/Schede
+- [x] Ptv (Message + StabiDirigente) → slug/nomi salvati con `update()`
+- [x] Progressioni/MaxCatecoPosfunAnno → calcoli aventi diritto con `update()`
+- [x] IndennitaCondizioniLavoro/ServizioEsterno → gg_* accessors aggiornati
+- [ ] Rating/RatingTrait (ancora da verificare)
 
 **Settimana 3**:
 - [ ] Altri moduli + cleanup finale

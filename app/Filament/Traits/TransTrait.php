@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Traits;
 
+use Illuminate\Contracts\Translation\Translator;
 use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
@@ -24,7 +25,7 @@ trait TransTrait
     public static function trans(string $key, bool $exceptionIfNotExist = false, array $params = []): string
     {
         $tmp = static::getKeyTrans($key);
-        /** @var array<string, mixed>|\Illuminate\Contracts\Translation\Translator|string $res */
+        /** @var array<string, mixed>|Translator|string $res */
         $res = trans($tmp, $params);
 
         if (is_string($res)) {
@@ -112,7 +113,7 @@ trait TransTrait
     {
         $class_key = static::getKeyTransClass($class);
         $key_full = $class_key.'.'.$key;
-        /** @var array<string, mixed>|\Illuminate\Contracts\Translation\Translator|string $result */
+        /** @var array<string, mixed>|Translator|string $result */
         $result = trans($key_full);
 
         return is_string($result) ? $result : $key_full;
@@ -124,11 +125,11 @@ trait TransTrait
     public static function transFunc(string $func, bool $_exceptionIfNotExist = false): string
     {
         $key = static::getKeyTransFunc($func);
-        /** @var string|array<int|string,mixed>|\Illuminate\Contracts\Translation\Translator|null $trans */
+        /** @var string|array<int|string, mixed>|Translator|null $trans */
         $trans = null;
 
         try {
-            /** @var array<string, mixed>|\Illuminate\Contracts\Translation\Translator|string $trans */
+            /** @var array<string, mixed>|Translator|string $trans */
             $trans = trans($key);
         } catch (TypeError $e) {
             dddx([
@@ -140,7 +141,7 @@ trait TransTrait
         if ($key === $trans) {
             $group = Str::of($key)->before('.')->toString();
             $item = Str::of($key)->after($group.'.')->toString();
-            /** @var array<string, mixed>|\Illuminate\Contracts\Translation\Translator|string $group_arr */
+            /** @var array<string, mixed>|Translator|string $group_arr */
             $group_arr = trans($group);
             if (is_array($group_arr)) {
                 /** @var mixed $transValue */

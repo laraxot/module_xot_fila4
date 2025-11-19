@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\View\Composers;
 
+use Illuminate\Contracts\Auth\Authenticatable;
 use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
@@ -79,7 +80,7 @@ class XotComposer
         if (Auth::check()) {
             $profile = XotData::make()->getProfileModel();
             $view->with('profile', $profile);
-            /** @var \Illuminate\Contracts\Auth\Authenticatable|null $user */
+            /** @var Authenticatable|null $user */
             $user = auth()->user();
             $view->with('user', $user);
         }

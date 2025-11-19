@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Support;
 
+use Carbon\Carbon;
 use Filament\Tables\Columns\BooleanColumn;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Tables\Columns\TextColumn;
@@ -191,7 +192,7 @@ class ColumnBuilder
 
                 $publishedAt = $record->published_at;
 
-                if ($publishedAt instanceof \Carbon\Carbon && $publishedAt->isPast()) {
+                if ($publishedAt instanceof Carbon && $publishedAt->isPast()) {
                     return 'success';
                 }
 

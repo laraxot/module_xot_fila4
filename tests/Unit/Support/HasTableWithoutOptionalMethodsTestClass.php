@@ -4,6 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Unit\Support;
 
+use Mockery;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Schemas\Schema;
+use Filament\Tables\Grouping\Group;
+use Filament\Tables\Filters\Indicator;
+use Illuminate\Support\Collection;
+use Illuminate\Contracts\Pagination\Paginator;
+use Illuminate\Contracts\Pagination\CursorPaginator;
+use Filament\Actions\Action;
+use Filament\Support\Contracts\TranslatableContentDriver;
 use Filament\Tables\Contracts\HasTable;
 use Filament\Tables\Table;
 use Modules\Xot\Filament\Traits\HasXotTable;
@@ -17,7 +28,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
 
     public function getLayoutView(): mixed
     {
-        $mock = \Mockery::mock();
+        $mock = Mockery::mock();
         $mock->allows([
             'getTableColumns' => [],
             'getTableContentGrid' => [],
@@ -34,7 +45,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
     public function getTable(): Table
     {
         /** @var Table */
-        return \Mockery::mock(Table::class);
+        return Mockery::mock(Table::class);
     }
 
     public function getTablePage(): int|string
@@ -47,9 +58,9 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
         return 10;
     }
 
-    public function getSelectedTableRecordsQuery(bool $shouldFetchSelectedRecords = true, ?int $chunkSize = 500): \Illuminate\Database\Eloquent\Builder
+    public function getSelectedTableRecordsQuery(bool $shouldFetchSelectedRecords = true, ?int $chunkSize = 500): Builder
     {
-        return \Illuminate\Database\Eloquent\Model::query();
+        return Model::query();
     }
 
     public function getTableFilterFormState(string $name): array
@@ -72,10 +83,10 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
         return [];
     }
 
-    public function getTableFiltersForm(): \Filament\Schemas\Schema
+    public function getTableFiltersForm(): Schema
     {
-        /** @var \Filament\Schemas\Schema */
-        return \Mockery::mock(\Filament\Schemas\Schema::class);
+        /** @var Schema */
+        return Mockery::mock(Schema::class);
     }
 
     public function getTableFilterState(string $name): ?array
@@ -83,15 +94,15 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
         return [];
     }
 
-    public function getTableGrouping(): ?\Filament\Tables\Grouping\Group
+    public function getTableGrouping(): ?Group
     {
         return null;
     }
 
-    public function getTableSearchIndicator(): \Filament\Tables\Filters\Indicator
+    public function getTableSearchIndicator(): Indicator
     {
-        /** @var \Filament\Tables\Filters\Indicator */
-        return \Mockery::mock(\Filament\Tables\Filters\Indicator::class);
+        /** @var Indicator */
+        return Mockery::mock(Indicator::class);
     }
 
     public function getTableColumnSearchIndicators(): array
@@ -104,24 +115,24 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
         return null;
     }
 
-    public function getTableRecords(): \Illuminate\Support\Collection|\Illuminate\Contracts\Pagination\Paginator|\Illuminate\Contracts\Pagination\CursorPaginator
+    public function getTableRecords(): Collection|Paginator|CursorPaginator
     {
-        return new \Illuminate\Support\Collection;
+        return new Collection;
     }
 
-    public function getTableRecord(mixed $key): array|\Illuminate\Database\Eloquent\Model|null
+    public function getTableRecord(mixed $key): array|Model|null
     {
         return null;
     }
 
-    public function getTableRecordKey(mixed $record): string
+    public function getTableRecordKey(Model|array $record): string
     {
         return '';
     }
 
-    public function getSelectedTableRecords(bool $shouldFetchSelectedRecords = true, ?int $chunkSize = null): \Illuminate\Support\Collection
+    public function getSelectedTableRecords(bool $shouldFetchSelectedRecords = true, ?int $chunkSize = null): Collection
     {
-        return new \Illuminate\Support\Collection;
+        return new Collection;
     }
 
     public function getAllTableRecordsCount(): int
@@ -139,42 +150,42 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
         return [];
     }
 
-    public function getTableQueryForExport(): \Illuminate\Database\Eloquent\Builder
+    public function getTableQueryForExport(): Builder
     {
-        return \Illuminate\Database\Eloquent\Model::query();
+        return Model::query();
     }
 
-    public function getFilteredTableQuery(): ?\Illuminate\Database\Eloquent\Builder
-    {
-        return null;
-    }
-
-    public function getFilteredSortedTableQuery(): ?\Illuminate\Database\Eloquent\Builder
+    public function getFilteredTableQuery(): ?Builder
     {
         return null;
     }
 
-    public function getAllTableSummaryQuery(): ?\Illuminate\Database\Eloquent\Builder
+    public function getFilteredSortedTableQuery(): ?Builder
     {
         return null;
     }
 
-    public function getPageTableSummaryQuery(): ?\Illuminate\Database\Eloquent\Builder
+    public function getAllTableSummaryQuery(): ?Builder
     {
         return null;
     }
 
-    public function getMountedTableAction(): ?\Filament\Actions\Action
+    public function getPageTableSummaryQuery(): ?Builder
     {
         return null;
     }
 
-    public function getMountedTableActionForm(): ?\Filament\Schemas\Schema
+    public function getMountedTableAction(): ?Action
     {
         return null;
     }
 
-    public function getMountedTableActionRecord(): ?\Illuminate\Database\Eloquent\Model
+    public function getMountedTableActionForm(): ?Schema
+    {
+        return null;
+    }
+
+    public function getMountedTableActionRecord(): ?Model
     {
         return null;
     }
@@ -184,12 +195,12 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
         return null;
     }
 
-    public function getMountedTableBulkAction(): ?\Filament\Actions\Action
+    public function getMountedTableBulkAction(): ?Action
     {
         return null;
     }
 
-    public function getMountedTableBulkActionForm(): ?\Filament\Schemas\Schema
+    public function getMountedTableBulkActionForm(): ?Schema
     {
         return null;
     }
@@ -255,7 +266,7 @@ class HasTableWithoutOptionalMethodsTestClass implements HasTable
         return $name;
     }
 
-    public function makeFilamentTranslatableContentDriver(): ?\Filament\Support\Contracts\TranslatableContentDriver
+    public function makeFilamentTranslatableContentDriver(): ?TranslatableContentDriver
     {
         return null;
     }

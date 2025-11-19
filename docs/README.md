@@ -23,11 +23,17 @@ Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Liv
    - `resolve_conflicts_current_change_v6.sh` aggiornato alla v6.1
    - Bug fixati: cleanup temp, stat detection, exit code robusto
 
-3. **Documentazione**
+3. **Code Quality Improvements**
+   - Risolti errori di sintassi che bloccavano PHPStan analysis
+   - Migliorato il punteggio PHP Insights (Code: 52.6%, Complexity: 93.1%, Architecture: 35.3%, Style: 60.2%)
+   - Fissato GenerateFormByFileAction.php con missing braces e variabili indefiniti
+   - Corretti file di test con funzioni malformed
+
+4. **Documentazione**
    - Guide conflitti riscritta (v2.0) con approccio filosofico
    - Documenti di bugfix e analisi inseriti in docs/Xot
 
-**Dettagli**: vedi [bugfix-hasxottable-duplicate-if.md](./bugfix-hasxottable-duplicate-if.md) e [syntax-errors-mass-fix.md](./syntax-errors-mass-fix.md)
+**Dettagli**: vedi [bugfix-hasxottable-duplicate-if.md](./bugfix-hasxottable-duplicate-if.md), [syntax-errors-mass-fix.md](./syntax-errors-mass-fix.md) e [QUALITY_IMPROVEMENTS_SUMMARY_2025_11_18.md](./QUALITY_IMPROVEMENTS_SUMMARY_2025_11_18.md)
 
 ---
 

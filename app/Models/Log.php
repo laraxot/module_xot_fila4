@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+use Modules\Xot\Database\Factories\LogFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\File;
 use Override;
@@ -18,7 +19,7 @@ use Sushi\Sushi;
  * @property string|null $name
  * @property int|null $size
  *
- * @method static \Modules\Xot\Database\Factories\LogFactory factory($count = null, $state = [])
+ * @method static LogFactory factory($count = null, $state = [])
  * @method static Builder<static>|Log newModelQuery()
  * @method static Builder<static>|Log newQuery()
  * @method static Builder<static>|Log query()

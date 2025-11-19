@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Spatie\SchemalessAttributes\SchemalessAttributes;
@@ -22,7 +23,7 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
- * @method static \Modules\Xot\Database\Factories\ExtraFactory factory($count = null, $state = [])
+ * @method static ExtraFactory factory($count = null, $state = [])
  * @method static Builder<static>|Extra newModelQuery()
  * @method static Builder<static>|Extra newQuery()
  * @method static Builder<static>|Extra query()

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
+use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
@@ -43,11 +44,11 @@ class ModuleResource extends XotBaseResource
         $create = Str::of($prefix)->append('Create'.$name.'')->toString();
         $edit = Str::of($prefix)->append('Edit'.$name.'')->toString();
 
-        /** @var class-string<\Filament\Resources\Pages\Page> $index */
+        /** @var class-string<Page> $index */
         $index = $index;
-        /** @var class-string<\Filament\Resources\Pages\Page> $create */
+        /** @var class-string<Page> $create */
         $create = $create;
-        /** @var class-string<\Filament\Resources\Pages\Page> $edit */
+        /** @var class-string<Page> $edit */
         $edit = $edit;
 
         return [

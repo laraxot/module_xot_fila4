@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+use Modules\Xot\Models\Traits\HasXotFactory;
+use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Relations\Pivot as EloquentPivot;
 use Modules\Xot\Traits\Updater;
 
@@ -16,16 +18,16 @@ use function Safe\preg_match;
  * The $connection is automatically set based on the child class namespace.
  *
  * @property string|int $id
- * @property \Illuminate\Support\Carbon|null $created_at
- * @property \Illuminate\Support\Carbon|null $updated_at
- * @property \Illuminate\Support\Carbon|null $deleted_at
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property Carbon|null $deleted_at
  * @property string|int|null $created_by
  * @property string|int|null $updated_by
  * @property string|int|null $deleted_by
  */
 abstract class XotBasePivot extends EloquentPivot
 {
-    use Traits\HasXotFactory;
+    use HasXotFactory;
     use Updater;
 
     /**

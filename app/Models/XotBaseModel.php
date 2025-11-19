@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Modules\Xot\Models\Traits\HasXotFactory;
 use Modules\Xot\Models\Traits\RelationX;
 use Modules\Xot\Traits\Updater;
@@ -12,7 +12,7 @@ use Modules\Xot\Traits\Updater;
 /**
  * Class XotBaseModel.
  */
-abstract class XotBaseModel extends Model
+abstract class XotBaseModel extends EloquentModel
 {
     use HasXotFactory;
     use RelationX;

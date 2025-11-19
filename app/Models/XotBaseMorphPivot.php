@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+use Modules\Xot\Models\Traits\HasXotFactory;
+use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Relations\MorphPivot as EloquentMorphPivot;
 use Modules\Xot\Traits\Updater;
 
@@ -20,16 +22,16 @@ use function Safe\preg_match;
  * @property string|int $morph_id
  * @property string|null $related_type
  * @property string|int|null $related_id
- * @property \Illuminate\Support\Carbon|null $created_at
- * @property \Illuminate\Support\Carbon|null $updated_at
- * @property \Illuminate\Support\Carbon|null $deleted_at
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property Carbon|null $deleted_at
  * @property string|int|null $created_by
  * @property string|int|null $updated_by
  * @property string|int|null $deleted_by
  */
 abstract class XotBaseMorphPivot extends EloquentMorphPivot
 {
-    use Traits\HasXotFactory;
+    use HasXotFactory;
     use Updater;
 
     /** @var bool */

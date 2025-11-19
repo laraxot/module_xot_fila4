@@ -115,6 +115,8 @@ class GenerateTableColumnsByFileAction
      */
     public function ddFile(File $file): void
     {
+        // Debug information - commented out for production
+        /*
         dd([
             'getRelativePath' => $file->getRelativePath(), // =  ""
             'getRelativePathname' => $file->getRelativePathname(), //  AssenzeResource.php
@@ -131,5 +133,6 @@ class GenerateTableColumnsByFileAction
             // 'getPathInfo' => $file->getPathInfo(),
             'methods' => get_class_methods($file),
         ]);
+        */
     }
 }

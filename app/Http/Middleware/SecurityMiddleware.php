@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Http\Middleware;
 
+use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Symfony\Component\HttpFoundation\Response;
@@ -23,7 +24,7 @@ class SecurityMiddleware
     /**
      * Handle an incoming request.
      */
-    public function handle(Request $request, \Closure $next): Response
+    public function handle(Request $request, Closure $next): Response
     {
         // 1. Rate Limiting avanzato
         $this->applyAdvancedRateLimiting($request);

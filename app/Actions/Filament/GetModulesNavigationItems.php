@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
+use Exception;
+use Throwable;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Support\Collection;
 use Filament\Facades\Filament;
 use Filament\Navigation\NavigationItem;
 use Illuminate\Support\Facades\Cache;
@@ -36,19 +40,18 @@ class GetModulesNavigationItems
 
         $modules = TenantService::allModules();
         // TenantService::allModules() restituisce sempre array
-
         // Pre-load user roles to avoid N+1 queries
-        /** @var \Illuminate\Contracts\Auth\Authenticatable|null $user */
+        /** @var Authenticatable|null $user */
         $user = auth()->user();
 
         /** @var array<int, string> $userRoles */
         $userRoles = [];
         if (null !== $user && method_exists($user, 'roles') && method_exists($user, 'pluck')) {
             try {
-                /** @var \Illuminate\Support\Collection<int, string> $rolesCollection */
+                /** @var Collection<int, string> $rolesCollection */
                 $rolesCollection = $user->roles()->pluck('name');
                 $userRoles = $rolesCollection->toArray();
-            } catch (\Exception $e) {
+            } catch (Exception $e) {
                 $userRoles = [];
             }
         }
@@ -62,7 +65,7 @@ class GetModulesNavigationItems
             // Tolleranza: durante comandi CLI alcuni moduli possono non avere ancora struttura completa
             try {
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
-            } catch (\Throwable $e) {
+            } catch (Throwable $e) {
                 // Skip modulo non pronto/senza generator path config
                 continue;
             }
@@ -78,7 +81,7 @@ class GetModulesNavigationItems
                 /** @var array<string, mixed> $config */
                 $config = File::getRequire($configFilePath);
                 Assert::isArray($config, 'Il file di configurazione deve restituire un array');
-            } catch (\Exception $e) {
+            } catch (Exception $e) {
                 continue;
             }
 
@@ -118,7 +121,7 @@ class GetModulesNavigationItems
                 ->sort($navigation_sort)
                 ->visible(static function () use ($role): bool {
                     /**
-                     * @var \Illuminate\Contracts\Auth\Authenticatable|null $user
+                     * @var Authenticatable|null $user
                      */
                     $user = Filament::auth()->user();
                     if (null === $user) {
@@ -175,7 +178,7 @@ class GetModulesNavigationItems
                     /** @var array<string, mixed> $config */
                     $config = File::getRequire($configFilePath);
                     Assert::isArray($config);
-                } catch (\Exception $e) {
+                } catch (Exception $e) {
                     continue;
                 }
                 $icon = $config['icon'] ?? 'heroicon-o-cube';

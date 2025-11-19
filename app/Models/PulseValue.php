@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Database\Factories\PulseValueFactory;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
@@ -13,10 +15,10 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $key
  * @property string|null $key_hash
  * @property string $value
- * @property-read \Modules\Quaeris\Models\Profile|null $creator
- * @property-read \Modules\Quaeris\Models\Profile|null $updater
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $updater
  *
- * @method static \Modules\Xot\Database\Factories\PulseValueFactory factory($count = null, $state = [])
+ * @method static PulseValueFactory factory($count = null, $state = [])
  * @method static Builder<static>|PulseValue newModelQuery()
  * @method static Builder<static>|PulseValue newQuery()
  * @method static Builder<static>|PulseValue query()

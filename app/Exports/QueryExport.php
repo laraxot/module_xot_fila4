@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exports;
 
+use Traversable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
@@ -162,7 +163,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
             return $row;
         }
 
-        if ($row instanceof \Traversable) {
+        if ($row instanceof Traversable) {
             /* @var array<int|string, mixed> */
             return iterator_to_array($row);
         }

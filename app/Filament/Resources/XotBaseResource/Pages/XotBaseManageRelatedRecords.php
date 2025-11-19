@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\XotBaseResource\Pages;
 
+use Filament\Schemas\Components\Component;
 use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -69,7 +70,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     /**
      * Restituisce lo schema del form per i record correlati.
      *
-     * @return array<\Filament\Schemas\Components\Component>
+     * @return array<Component>
      */
     public function getFormSchema(): array
     {

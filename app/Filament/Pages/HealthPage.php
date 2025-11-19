@@ -8,6 +8,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+use Filament\Widgets\WidgetConfiguration;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -46,7 +47,7 @@ class HealthPage extends Page
      */
     protected $listeners = ['refresh-component' => '$refresh'];
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-heart';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-heart';
 
     protected string $view = 'xot::filament.pages.health';
 
@@ -113,7 +114,7 @@ class HealthPage extends Page
     }
 
     /**
-     * @return array<int, \Filament\Widgets\WidgetConfiguration>
+     * @return array<int, WidgetConfiguration>
      */
     protected function getHeaderWidgets(): array
     {

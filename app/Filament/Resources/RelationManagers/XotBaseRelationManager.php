@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\RelationManagers;
 
+use Filament\Tables\Columns\Column;
+use Filament\Tables\Columns\Layout\Component;
 use Filament\Actions\AttachAction;
 use Filament\Actions\CreateAction;
 use Filament\Actions\DeleteBulkAction;
@@ -112,7 +114,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         }
 
         // Ensure string keys always
-        /** @var array<string, \Filament\Tables\Columns\Column|\Filament\Tables\Columns\Layout\Component> $assoc */
+        /** @var array<string, Column|Component> $assoc */
         $assoc = [];
         foreach ($res as $key => $column) {
             if (is_string($key)) {
@@ -128,7 +130,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
             }
         }
 
-        /** @var array<string, \Filament\Tables\Columns\Column|\Filament\Tables\Columns\Layout\Component> $assoc */
+        /** @var array<string, Column|Component> $assoc */
         return $assoc;
     }
 

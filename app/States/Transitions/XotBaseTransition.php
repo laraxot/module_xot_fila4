@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\States\Transitions;
 
+use BackedEnum;
 use Filament\Notifications\Notification as FilamentNotification;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Notification;
@@ -75,7 +76,7 @@ abstract class XotBaseTransition extends Transition
     public function getNotificationSlug(UserContract $recipient): string
     {
         $typeEnum = $recipient->type;
-        $type = $typeEnum instanceof \BackedEnum ? (string) $typeEnum->value : 'unknown';
+        $type = $typeEnum instanceof BackedEnum ? (string) $typeEnum->value : 'unknown';
 
         $slug =
             class_basename($this->record).

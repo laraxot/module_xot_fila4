@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\Pages;
 
+use LogicException;
+use Illuminate\Database\Eloquent\Model;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Pages\Concerns\InteractsWithFormActions;
@@ -105,15 +107,15 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * Returns the model class string or throws an exception if not set.
      */
     /**
-     * @return class-string<\Illuminate\Database\Eloquent\Model>
+     * @return class-string<Model>
      */
     public function getModel(): string
     {
         if (null === static::$model) {
-            throw new \LogicException('Model class not set for page: '.static::class);
+            throw new LogicException('Model class not set for page: '.static::class);
         }
 
-        /** @var class-string<\Illuminate\Database\Eloquent\Model> $model */
+        /** @var class-string<Model> $model */
         $model = static::$model;
 
         return $model;

@@ -11,6 +11,7 @@ return [
         ],
         'login' => [
             'label' => 'login',
+            'tooltip' => 'login',
         ],
         'request' => [
             'label' => 'request',

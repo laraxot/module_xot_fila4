@@ -62,7 +62,16 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
    use Filament\Resources\Pages\ListRecords;
    ```
 
-2. **❌ Metodi Senza Prefisso List**:
+2. **❌ Metodi Duplicati**:
+   ```php
+   // NON dichiarare lo stesso metodo due volte
+   public static function getResource(): string { ... }
+   public static function getResource(): string { ... }  // ← ERRORE: Duplicato!
+   ```
+   **Errore**: `Cannot redeclare Modules\Xot\Filament\Resources\Pages\XotBaseListRecords::getResource()`
+   **Soluzione**: Rimuovere la dichiarazione duplicata. Vedi [xotbaselistrecords-getresource-duplicate-fix.md](../filament/xotbaselistrecords-getresource-duplicate-fix.md)
+
+3. **❌ Metodi Senza Prefisso List**:
    ```php
    // NON usare i metodi senza prefisso List
    public function getTableColumns(): array

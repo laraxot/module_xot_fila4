@@ -43,19 +43,6 @@ abstract class XotBaseListRecords extends FilamentListRecords
         return $resource;
     }
 
-    /**
-     * Get the resource class name.
-     *
-     * @return class-string
-     */
-    public static function getResource(): string
-    {
-        $resource = Str::of(static::class)->before('\\Pages\\')->toString();
-        Assert::classExists($resource);
-
-        return $resource;
-    }
-
     /*
      * Get the table columns.
      *

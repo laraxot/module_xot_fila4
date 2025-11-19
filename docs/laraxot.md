@@ -1783,6 +1783,18 @@ class ListSocialProviders extends XotBaseListRecords
 
 #### 1. Dichiarazione Duplicata del Metodo execute()
 L'errore `Cannot redeclare [Class]::execute()` si verifica quando:
+
+#### 2. Dichiarazione Duplicata del Metodo getResource() in XotBaseListRecords
+L'errore `Cannot redeclare Modules\Xot\Filament\Resources\Pages\XotBaseListRecords::getResource()` si verifica quando il metodo `getResource()` è dichiarato due volte nella stessa classe.
+
+**Causa**: Copia-incolla accidentale o merge conflict mal risolto durante lo sviluppo.
+
+**Soluzione**: Rimuovere la dichiarazione duplicata, mantenendo solo una versione del metodo.
+
+Vedi [xotbaselistrecords-getresource-duplicate-fix.md](./filament/xotbaselistrecords-getresource-duplicate-fix.md) per dettagli completi.
+
+#### 1. Dichiarazione Duplicata del Metodo execute()
+L'errore `Cannot redeclare [Class]::execute()` si verifica quando:
 - Si sta implementando un'interfaccia che definisce `execute()`
 - Si sta estendendo una classe base che già definisce `execute()`
 - Si sta usando un trait che contiene `execute()`

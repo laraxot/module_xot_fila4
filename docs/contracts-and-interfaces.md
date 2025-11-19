@@ -223,45 +223,20 @@ interface WithStateStatusContract
 
 ### 6. HasRecursiveRelationshipsContract
 **File**: `app/Contracts/HasRecursiveRelationshipsContract.php`
-**Purpose**: Hierarchical and tree-like model structures
+**Purpose**: Hierarchical and tree-like model structures using `staudenmeir/laravel-adjacency-list`
 
-```php
-interface HasRecursiveRelationshipsContract
-{
-    // Parent-Child Relationships
-    public function parent(): BelongsTo;
-    public function children(): HasMany;
-    public function ancestors(): Collection;
-    public function descendants(): Collection;
+**Vendor Package**: `staudenmeir/laravel-adjacency-list`
 
-    // Tree Navigation
-    public function getParent(): ?self;
-    public function getChildren(): Collection;
-    public function hasChildren(): bool;
-    public function hasParent(): bool;
-    public function isRoot(): bool;
-    public function isLeaf(): bool;
+**Implementation**: Models implement this contract using `TypedHasRecursiveRelationships` trait.
 
-    // Hierarchy Queries
-    public function getDepth(): int;
-    public function getLevel(): int;
-    public function getRoot(): self;
-    public function getLeaves(): Collection;
-    public function getSiblings(): Collection;
+**Key Methods**:
+- Configuration: `getParentKeyName()`, `getLocalKeyName()`, `getPathName()`, `getDepthName()`, etc.
+- Relationships: `parent()`, `children()`, `ancestors()`, `descendants()`, `siblings()`, etc.
+- Utilities: `getFirstPathSegment()`, `hasNestedPath()`, `isIntegerAttribute()`, `getLabel()`
 
-    // Tree Manipulation
-    public function makeRoot(): self;
-    public function makeChildOf(self $parent): self;
-    public function moveTo(self $parent): self;
-    public function moveToRoot(): self;
-
-    // Tree Structure
-    public function getTree(): Collection;
-    public function getPath(): Collection;
-    public function getPathString(string $separator = ' > '): string;
-    public function getDescendantsTree(): Collection;
-}
-```
+**Full Documentation**: 
+- [Recursive Relationships Contract](recursive-relationships-contract.md) - Documentazione completa del contratto
+- [Limesurvey Implementation](../../Limesurvey/docs/recursive-relationships.md) - Esempio di utilizzo nel modulo Limesurvey
 
 ## 🔧 Contract Implementation Guidelines
 

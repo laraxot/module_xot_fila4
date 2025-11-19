@@ -45,15 +45,17 @@ interface UserContract
 ```
 
 ### 3. HasRecursiveRelationshipsContract Cleanup
-**Problem**: Metodi in conflitto con trait `Staudenmeir\LaravelAdjacencyList`
+**Problem**: Metodi mancanti nel contratto rispetto al trait `TypedHasRecursiveRelationships`
 
-**Methods Removed**:
-- `getQualifiedParentKeyName(): string`
-- `getLocalKeyName(): string`
-- `getQualifiedLocalKeyName(): string`
-- `getDepthName(): string`
+**Methods Added** (2025-01-XX):
+- `getQualifiedParentKeyName(): string` - Aggiunto per type safety
+- `getLocalKeyName(): string` - Aggiunto per type safety
+- `getQualifiedLocalKeyName(): string` - Aggiunto per type safety
+- `getDepthName(): string` - Aggiunto per type safety
 
-**Solution**: Il trait fornisce già queste implementazioni
+**Solution**: Il contratto deve riflettere tutti i metodi pubblici esposti dal trait wrapper `TypedHasRecursiveRelationships` per garantire type safety completa con PHPStan livello 10.
+
+**Note**: Questi metodi sono esposti pubblicamente dal trait wrapper, quindi devono essere nel contratto per garantire che le implementazioni siano type-safe.
 
 ## Helper Functions Fixed
 

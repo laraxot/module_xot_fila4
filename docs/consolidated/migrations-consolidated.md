@@ -379,7 +379,7 @@ $table->foreign('user_id')->references('id')->on('users')
 - **Relazioni**: User, Notifiable polymorphic
 - **Campi specifici**: `type`, `data`, `read_at`
 
-### SaluteMo Module
+### <nome modulo> Module
 - **Tabelle**: `appointments`, `patients`, `doctors`
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
@@ -441,8 +441,8 @@ rm Modules/Notify/project_docs/migration_rules.md
 rm Modules/Notify/project_docs/migrations.md
 rm Modules/Notify/project_docs/migrations_changelog.md
 
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
+# <nome modulo>
+rm Modules/<nome modulo>/project_docs/database/migrations.md
 
 # E tutti gli altri file duplicati...
 ```

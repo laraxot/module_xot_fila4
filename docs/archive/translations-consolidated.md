@@ -272,7 +272,7 @@ return [
 - **Campi comuni**: `title`, `message`, `type`, `read_at`
 - **Stati**: `unread`, `read`, `archived`
 
-### SaluteMo Module
+### <nome modulo> Module
 - **Focus**: Health management, Medical data
 - **Campi comuni**: `patient_id`, `doctor_id`, `date`, `notes`
 - **Stati**: `scheduled`, `completed`, `cancelled`
@@ -348,12 +348,12 @@ TextInput::make('name') // Label automatica da traduzione
 ### Controlli Automatici (Tutti i Moduli)
 ```bash
 # Controllo chiavi hardcoded (tutti i moduli)
-for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo <nome progetto> Tenant UI User Xot; do
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
     php artisan translation:check-hardcoded --module=$module
 done
 
 # Validazione sintassi (tutti i moduli)
-for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo <nome progetto> Tenant UI User Xot; do
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
     php artisan translation:validate-syntax --module=$module
 done
 ```

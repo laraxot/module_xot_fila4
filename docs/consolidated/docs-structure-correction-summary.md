@@ -22,7 +22,7 @@ Durante l'audit del sistema <nome progetto>, è stata identificata una **violazi
 **Stato**: ✅ CORRETTA - Cartella eliminata, documentazione spostata nei moduli
 
 **File migrati**:
-- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
+- `eloquent-unit-tests.md` → `laravel/Modules/<nome modulo>/project_docs/testing/`
 - Altri documenti analizzati e spostati nei moduli appropriati
 
 ## Regola Critica Implementata
@@ -96,7 +96,7 @@ laravel/
 │   ├── Lang/project_docs/             # ✅ Documentazione modulo Lang
 │   ├── Activity/project_docs/         # ✅ Documentazione modulo Activity
 │   ├── Job/project_docs/              # ✅ Documentazione modulo Job
-│   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
+│   ├── <nome modulo>/project_docs/         # ✅ Documentazione modulo <nome modulo>
 │   └── <nome progetto>/project_docs/        # ✅ Documentazione modulo <nome progetto>
 ├── Themes/
 │   ├── One/project_docs/              # ✅ Documentazione tema One
@@ -195,7 +195,7 @@ find laravel/Themes -name "docs" -type d
 - [Modulo Notify](../Notify/project_docs/)
 - [Modulo User](../User/project_docs/)
 - [Modulo UI](../UI/project_docs/)
-- [Modulo SaluteMo](../SaluteMo/project_docs/)
+- [Modulo <nome modulo>](../<nome modulo>/project_docs/)
 - [Modulo <nome progetto>](../<nome progetto>/project_docs/)
 
 ### **Documentazione Correlata**:

@@ -57,7 +57,7 @@ Accesso a proprietà non definite nei modelli.
 - Modelli User/Profile
 - Contratti e interfacce
 
-### 3. **SaluteMo** (Applicazione) - 15% errori
+### 3. **<nome modulo>** (Applicazione) - 15% errori
 - Risorse Filament
 - Modelli dominio
 - Widget personalizzati
@@ -86,8 +86,8 @@ Accesso a proprietà non definite nei modelli.
 4. `User/app/Models/Profile.php` - Metodi e proprietà
 
 ### Priorità 3 (Applicazione)
-1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
-2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+1. `<nome modulo>/app/Filament/Resources/*` - Form schemas e table columns
+2. `<nome modulo>/app/Models/*` - Proprietà e relazioni
 3. `Geo/app/Models/*` - Proprietà geografiche
 
 ## Strategia di Correzione
@@ -98,7 +98,7 @@ Correggere tutti gli errori nel modulo Xot per stabilizzare la base.
 ### Fase 2: Autenticazione (User)
 Sistemare traits e contratti utilizzati in tutto il progetto.
 
-### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+### Fase 3: Applicazione (<nome modulo>, Geo, Cms)
 Correggere errori specifici dell'applicazione.
 
 ### Fase 4: Verifica Finale

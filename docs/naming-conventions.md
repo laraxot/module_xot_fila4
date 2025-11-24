@@ -98,7 +98,7 @@ Trovati **228 file duplicati** con case diverso in tutto il progetto:
 
 ```bash
 # Trova duplicati case-insensitive in Modules
-cd /var/www/_bases/base_quaeris_fila4_mono/laravel
+cd /var/www/_bases/base_<nome progetto>_fila4_mono/laravel
 
 python3 << 'PYSCRIPT'
 import os

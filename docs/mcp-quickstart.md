@@ -78,7 +78,7 @@ npm install -g @iflow-ai/iflow-cli
 **Primo Utilizzo**:
 
 ```bash
-cd /var/www/_bases/base_quaeris_fila4_mono
+cd /var/www/_bases/base_<nome progetto>_fila4_mono
 
 # Inizializza progetto
 iflow
@@ -96,9 +96,9 @@ iflow
 
 **Accesso a**:
 
-- `/var/www/_bases/base_quaeris_fila4_mono/laravel`
-- `/var/www/_bases/base_quaeris_fila4_mono/Modules`
-- `/var/www/_bases/base_quaeris_fila4_mono/Themes`
+- `/var/www/_bases/base_<nome progetto>_fila4_mono/laravel`
+- `/var/www/_bases/base_<nome progetto>_fila4_mono/Modules`
+- `/var/www/_bases/base_<nome progetto>_fila4_mono/Themes`
 
 **Cosa fa**: Legge/scrive file, esplora struttura progetto
 
@@ -142,7 +142,7 @@ iflow
 
 ```
 # In Cursor/Windsurf/Cline
-Analizza gli errori PHPStan in Modules/Quaeris e suggerisci correzioni seguendo le regole in .windsurf/rules/
+Analizza gli errori PHPStan in Modules/<nome progetto> e suggerisci correzioni seguendo le regole in .windsurf/rules/
 ```
 
 ### 2. Refactoring Modulo
@@ -178,7 +178,7 @@ iflow
 
 ```
 # Con memory + sequential-thinking
-Analizza l'architettura del modulo Quaeris:
+Analizza l'architettura del modulo <nome progetto>:
 1. Identifica pattern utilizzati
 2. Documenta dipendenze
 3. Suggerisci miglioramenti
@@ -212,10 +212,10 @@ cat ~/.cursor/mcp.json | jq '.mcpServers.github.env'
 
 ```bash
 # Verifica permessi
-ls -la /var/www/_bases/base_quaeris_fila4_mono/
+ls -la /var/www/_bases/base_<nome progetto>_fila4_mono/
 
 # Fix permessi se necessario
-sudo chown -R $USER:$USER /var/www/_bases/base_quaeris_fila4_mono/
+sudo chown -R $USER:$USER /var/www/_bases/base_<nome progetto>_fila4_mono/
 ```
 
 ---

@@ -15,10 +15,14 @@ class FilterRelationsAction
      * @return array<string, Relation>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, array $relations): array
 =======
     public function execute(Model $model, array $relations): array
 >>>>>>> f1d4085 (.)
+=======
+    public function execute(Model $_model, array $relations): array
+>>>>>>> 8cf76e7 (.)
     {
         $filtered = [];
 

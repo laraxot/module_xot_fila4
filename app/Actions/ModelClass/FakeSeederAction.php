@@ -33,14 +33,20 @@ class FakeSeederAction
     public function execute(string $modelClass, int $qty): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8cf76e7 (.)
         if (
             ! class_exists($modelClass) ||
                 ! is_subclass_of($modelClass, Model::class) ||
                 ! in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
         ) {
+<<<<<<< HEAD
 =======
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class) || ! in_array(HasFactory::class, class_uses_recursive($modelClass))) {
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
         }
 
@@ -96,13 +102,19 @@ class FakeSeederAction
     {
         $title = sprintf('Created %d %s !', $count, $modelClass);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8cf76e7 (.)
         Notification::make()
             ->title($title)
             ->success()
             ->send();
+<<<<<<< HEAD
 =======
         Notification::make()->title($title)->success()->send();
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
     }
 
     /**
@@ -117,28 +129,38 @@ class FakeSeederAction
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
 =======
         app(self::class)
             ->onQueue()
             ->execute($modelClass, $qty - self::MAX_RECORDS);
 >>>>>>> f1d4085 (.)
+=======
+        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
+>>>>>>> 8cf76e7 (.)
     }
 
     private function getTableName(string $modelClass): string
     {
         Assert::classExists($modelClass, 'La classe del modello deve esistere');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8cf76e7 (.)
 
         /** @var Model */
         $model = app($modelClass);
 
+<<<<<<< HEAD
 =======
         
         /** @var Model */
         $model = app($modelClass);
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
         return $model->getTable();
     }
 }

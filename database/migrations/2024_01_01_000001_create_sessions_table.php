@@ -17,6 +17,9 @@ return new class extends XotBaseMigration
     {
         // -- CREATE --
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8cf76e7 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->string('id')->primary();
             // $table->foreignId('user_id')->nullable()->index();
@@ -38,6 +41,7 @@ return new class extends XotBaseMigration
             }
             $this->updateTimestamps($table, true);
         });
+<<<<<<< HEAD
 =======
         $this->tableCreate(
             function (Blueprint $table): void {
@@ -65,5 +69,7 @@ return new class extends XotBaseMigration
             }
         );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
     }
 };

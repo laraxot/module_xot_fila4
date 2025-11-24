@@ -50,11 +50,15 @@ class NotificationData extends Data
             'chat_id' => '',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 =======
     ) {
     }
 >>>>>>> f1d4085 (.)
+=======
+    ) {}
+>>>>>>> 8cf76e7 (.)
 
     /**
      * Create a new instance of NotificationData with default values.

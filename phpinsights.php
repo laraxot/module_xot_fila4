@@ -19,6 +19,9 @@ use SlevomatCodingStandard\Sniffs\TypeHints\ReturnTypeHintSniff;
 return [
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8cf76e7 (.)
      * |--------------------------------------------------------------------------
      * | Default Preset
      * |--------------------------------------------------------------------------
@@ -61,6 +64,7 @@ return [
      * | mind, that all added `Insights` must belong to a specific `Metric`.
      * |
      */
+<<<<<<< HEAD
 =======
     |--------------------------------------------------------------------------
     | Default Preset
@@ -107,23 +111,31 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
 
     'exclude' => [
         //  'path/to/directory-or-file'
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
     'add' => [
         Classes::class => [
             ForbiddenFinalClasses::class,
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
     'remove' => [
         AlphabeticallySortedUsesSniff::class,
         DeclareStrictTypesSniff::class,
@@ -137,15 +149,21 @@ return [
         UselessFunctionDocCommentSniff::class,
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
     'config' => [
         ForbiddenPrivateMethods::class => [
             'title' => 'The usage of private methods is not idiomatic in Laravel.',
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8cf76e7 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Requirements
@@ -156,6 +174,7 @@ return [
      * | code will be returned. This is optional and individually defined.
      * |
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -169,6 +188,8 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
 
     'requirements' => [
         //        'min-quality' => 0,
@@ -178,6 +199,9 @@ return [
         //        'disable-security-check' => false,
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8cf76e7 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Threads
@@ -200,6 +224,7 @@ return [
      * | of Symfony's setTimeout function.
      * |
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -226,6 +251,8 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
 
     'timeout' => 60,
 ];

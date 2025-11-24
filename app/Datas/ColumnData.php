@@ -12,9 +12,13 @@ class ColumnData extends Data
         public string $name,
         public string $type,
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 =======
     ) {
     }
 >>>>>>> f1d4085 (.)
+=======
+    ) {}
+>>>>>>> 8cf76e7 (.)
 }

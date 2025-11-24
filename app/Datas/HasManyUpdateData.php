@@ -18,9 +18,13 @@ class HasManyUpdateData extends Data
         #[ArrayType]
         public array $ids = [],
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 =======
     ) {
     }
 >>>>>>> f1d4085 (.)
+=======
+    ) {}
+>>>>>>> 8cf76e7 (.)
 }

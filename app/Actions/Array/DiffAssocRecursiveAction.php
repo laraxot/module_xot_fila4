@@ -20,6 +20,9 @@ class DiffAssocRecursiveAction
     public static function fixType(array $data): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8cf76e7 (.)
         $collection = collect($data)->map(static function ($item) {
             if (!is_array($item)) {
                 throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
@@ -33,6 +36,7 @@ class DiffAssocRecursiveAction
                 return $item0;
             })->all();
         });
+<<<<<<< HEAD
 =======
         $collection = collect($data)
             ->map(
@@ -54,6 +58,8 @@ class DiffAssocRecursiveAction
                 }
             );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
 
         return $collection->all();
     }
@@ -67,6 +73,9 @@ class DiffAssocRecursiveAction
         $arr_2 = self::fixType($arr_2);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8cf76e7 (.)
         $ris = $coll_1->filter(static function ($value, $key) use ($arr_2) {
             try {
                 return !\in_array($value, $arr_2, false);
@@ -74,6 +83,7 @@ class DiffAssocRecursiveAction
                 dddx(['err' => $exception->getMessage(), 'value' => $value, 'key' => $key, 'arr_2' => $arr_2]);
             }
         });
+<<<<<<< HEAD
 =======
         $ris = $coll_1->filter(
             static function ($value, $key) use ($arr_2) {
@@ -85,6 +95,8 @@ class DiffAssocRecursiveAction
             }
         );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
 
         return $ris->all();
     }

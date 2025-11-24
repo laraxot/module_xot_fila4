@@ -307,7 +307,11 @@ class OptimizeFilamentMemoryCommand extends Command
                 $this->warn("Dettagli {$type}:");
                 foreach ($items as $item) {
                     $itemString = is_string($item) ? $item : (string) $item;
+<<<<<<< HEAD
                     $this->line('  - '.str_replace(base_path(), '', $itemString));
+=======
+                    $this->line('  - '.str_replace(base_path(), '', (string) $itemString));
+>>>>>>> 8cf76e7 (.)
                 }
             }
         }

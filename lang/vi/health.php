@@ -9,20 +9,27 @@ return [
                 'refresh' => 'Làm mới',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'heading' => 'Tình trạng ứng dụng',
 =======
 
             'heading' => 'Tình trạng ứng dụng',
 
 >>>>>>> f1d4085 (.)
+=======
+            'heading' => 'Tình trạng ứng dụng',
+>>>>>>> 8cf76e7 (.)
             'navigation' => [
                 'group' => 'Cài đặt',
                 'label' => 'Tình trạng ứng dụng',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 8cf76e7 (.)
             'notifications' => [
                 'check_results' => 'Kết quả được kiểm tra từ',
             ],

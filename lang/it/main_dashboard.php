@@ -1,9 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8cf76e7 (.)
 declare(strict_types=1);
 
 return [
@@ -31,18 +27,3 @@ return [
         ],
     ],
 ];
-<<<<<<< HEAD
-=======
-return array (
-  'sections' => 
-  array (
-    'empty' => 
-    array (
-      'label' => '',
-      'heading' => '',
-    ),
-  ),
-);
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 8cf76e7 (.)

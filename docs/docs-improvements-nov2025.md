@@ -107,7 +107,7 @@ docs/
 **Esempi trovati**:
 ```markdown
 [regole php](/var/www/html/<directory progetto>/laravel/docs/standards/php-inheritance-rules.md)
-public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $projectBasePath = '/var/www/html/<nome progetto>';
 ```
 
 **Dovrebbe essere**:

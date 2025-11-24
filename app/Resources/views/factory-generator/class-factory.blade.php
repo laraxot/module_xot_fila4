@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8cf76e7 (.)
 <?php
 
 declare(strict_types=1);
@@ -10,11 +6,6 @@ declare(strict_types=1);
 /** @var array<string, string> $properties */
 
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 8cf76e7 (.)
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;

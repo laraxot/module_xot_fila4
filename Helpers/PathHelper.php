@@ -12,17 +12,17 @@ class PathHelper
     /**
      * Percorso base del progetto.
      */
-    public static string $projectBasePath = '/var/www/html/saluteora';
+    public static string $projectBasePath = '/var/www/html/<nome progetto>';
 
     /**
      * Percorso base di Laravel.
      */
-    public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+    public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
 
     /**
      * Percorso base dei moduli.
      */
-    public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
+    public static string $modulesBasePath = '/var/www/html/<nome progetto>/laravel/Modules';
 
     /**
      * Ottiene il percorso completo di un modulo.
@@ -136,7 +136,7 @@ class PathHelper
      */
     public static function correctPath(string $path): string
     {
-        // Corregge /var/www/html/Modules/ in /var/www/html/saluteora/laravel/Modules/
+        // Corregge /var/www/html/Modules/ in /var/www/html/<nome progetto>/laravel/Modules/
         if (Str::contains($path, '/var/www/html/Modules/')) {
             $path = Str::replace('/var/www/html/Modules/', self::$modulesBasePath.'/', $path);
         }

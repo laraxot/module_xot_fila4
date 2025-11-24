@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8cf76e7 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 8cf76e7 (.)
 <div
     x-data="{
         output: @entangle('output'),
@@ -70,12 +61,4 @@ declare(strict_types=1);
 .animate-blink {
     animation: blink 1s infinite;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 </style>
-=======
-</style> 
->>>>>>> f1d4085 (.)
-=======
-</style>
->>>>>>> 8cf76e7 (.)

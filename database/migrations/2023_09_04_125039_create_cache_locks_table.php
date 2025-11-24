@@ -16,26 +16,10 @@ return new class extends XotBaseMigration
     public function up(): void
     {
         // -- CREATE --
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8cf76e7 (.)
         $this->tableCreate(static function (Blueprint $table): void {
             $table->string('key')->primary();
             $table->string('owner');
             $table->integer('expiration');
         });
-<<<<<<< HEAD
-=======
-        $this->tableCreate(
-            static function (Blueprint $table): void {
-                $table->string('key')->primary();
-                $table->string('owner');
-                $table->integer('expiration');
-            }
-        );
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 8cf76e7 (.)
     }
 };

@@ -25,16 +25,7 @@ class OptionData extends Data
         public readonly int $cache_ttl = 86400,
         public readonly string $prefix = 'options_',
         public readonly array $autoload = ['site_name', 'site_description', 'site_logo'],
-<<<<<<< HEAD
-<<<<<<< HEAD
     ) {}
-=======
-    ) {
-    }
->>>>>>> f1d4085 (.)
-=======
-    ) {}
->>>>>>> 8cf76e7 (.)
 
     /**
      * Create a new instance of OptionData with default values.

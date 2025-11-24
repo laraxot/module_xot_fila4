@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 return [
     /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8cf76e7 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -17,20 +13,6 @@ return [
      * | found in a intuitive way.
      * |
      */
-<<<<<<< HEAD
-=======
-    |--------------------------------------------------------------------------
-    | Exception Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used in Exceptions thrown throughout the system.
-    | Regardless where it is placed, a button can be listed here so it is easily
-    | found in a intuitive way.
-    |
-    */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 8cf76e7 (.)
 
     'backend' => [
         'access' => [
@@ -44,13 +26,6 @@ return [
                 'not_found' => 'El Rol requerido no existe.',
                 'update_error' => 'Hubo un problema al modificar el Rol. Intentelo de nuevo.',
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 8cf76e7 (.)
             'users' => [
                 'cant_deactivate_self' => 'No puede desactivarse a sí mismo.',
                 'cant_delete_self' => 'No puede eliminarse usted mismo.',
@@ -69,13 +44,6 @@ return [
             ],
         ],
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 8cf76e7 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -88,20 +56,8 @@ return [
                 'success' => 'Su cuenta ha sido verificada satisfactoriamente!',
                 'resent' => 'Un nuevo correo de verificación le ha sido enviado.',
             ],
-<<<<<<< HEAD
-<<<<<<< HEAD
             'deactivated' => 'Su cuenta ha sido desactivada.',
             'email_taken' => 'El correo especificado ya está registrado.',
-=======
-
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
-
->>>>>>> f1d4085 (.)
-=======
-            'deactivated' => 'Su cuenta ha sido desactivada.',
-            'email_taken' => 'El correo especificado ya está registrado.',
->>>>>>> 8cf76e7 (.)
             'password' => [
                 'change_mismatch' => 'La contraseña antigua no coincide.',
             ],

@@ -29,22 +29,7 @@ class CustomRelationAction
             Assert::isArray($data);
             /** @var array<string, mixed> $data PHPStan: ensure correct type */
             if (\in_array($keyName, array_keys($data), false)) {
-<<<<<<< HEAD
-<<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
-=======
-                // Assicura che $data sia type-safe per UpdateAction
-                /** @var array<string, mixed> $typedData */
-                $typedData = [];
-                foreach ($data as $key => $value) {
-                    $typedData[(string) $key] = $value;
-                }
-
-                $res = app(UpdateAction::class)->execute($related, $typedData, []);
->>>>>>> f1d4085 (.)
-=======
-                $res = app(UpdateAction::class)->execute($related, $data, []);
->>>>>>> 8cf76e7 (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {

@@ -5,25 +5,11 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\ModelClass;
 
 use ReflectionClass;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8cf76e7 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\file;
 
-<<<<<<< HEAD
-=======
-use function Safe\file;
-
-use Spatie\QueueableAction\QueueableAction;
-use Webmozart\Assert\Assert;
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 8cf76e7 (.)
 class GetMethodBodyAction
 {
     use QueueableAction;

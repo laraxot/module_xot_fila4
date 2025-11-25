@@ -34,7 +34,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 
 ## 7. PHPStan
 - Do not modify `laravel/phpstan.neon`.
-- Use CLI flags for scope/limits; target level 9+. Keep array key/value types explicit.
+- Use CLI flags for scope/limits; target level 10+. Keep array key/value types explicit.
 
 ## 8. Testing
 - No `RefreshDatabase`.

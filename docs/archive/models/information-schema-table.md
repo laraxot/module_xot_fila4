@@ -43,5 +43,5 @@ class InformationSchemaTable extends Model
 ## Collegamenti
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
 - [Schema Documentation](../DIRECTORY-STRUCTURE-GUIDE.md)
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Model Best Practices](../models/README.md) 

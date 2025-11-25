@@ -318,7 +318,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 ### **Fase 3: Testing e Validazione**
 1. Test che XotData risolve correttamente
 2. Verify dei contratti implementati
-3. PHPStan level 9+ compliance
+3. PHPStan level 10+ compliance
 4. Test di regressione
 
 ## 📚 **Link e Riferimenti**

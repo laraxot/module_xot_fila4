@@ -504,4 +504,4 @@ Il refactoring ha applicato con successo i principi DRY e KISS alla gerarchia de
 
 *Refactoring completato: 15 ottobre 2025*
 *Analizzato da: Claude Code*
-*Validato: ✅ Test passed, PHPStan level 9 passed*
+*Validato: ✅ Test passed, PHPStan level 10 passed*

@@ -22,7 +22,7 @@
 
 ## Compliance Summary
 
-The Xot module is fully compliant with PHPStan level 9 analysis, demonstrating:
+The Xot module is fully compliant with PHPStan level 10 analysis, demonstrating:
 
 - ✅ Rigorous type hints implementation
 - ✅ Proper null handling

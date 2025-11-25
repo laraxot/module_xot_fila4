@@ -84,5 +84,5 @@ $latestStatus = $order->latestStatus();
 ## Collegamenti
 - [ModelContract](model-contract.md)
 - [Status Management](../features/STATUS-MANAGEMENT.md)
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 

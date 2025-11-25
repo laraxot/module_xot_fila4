@@ -311,7 +311,7 @@ class ComplexModelFactory extends Factory
 
 ### Type Safety
 
-Il trait è completamente compatibile con PHPStan Level 9+:
+Il trait è completamente compatibile con PHPStan level 10+:
 
 ```php
 /**
@@ -354,14 +354,14 @@ protected static function newFactory(): Factory
 - ✅ **Ripristinato** trait dopo cancellazione accidentale
 - ✅ **Documentato** business logic e architettura
 - ✅ **Aggiunto** supporto esplicito in BasePivot
-- ✅ **PHPStan Level 9** compliant con type hints corretti
+- ✅ **PHPStan level 10** compliant con type hints corretti
 
 ---
 
 **Autore**: Laraxot Core Team  
 **Ultima modifica**: 22 Ottobre 2025  
 **Stato**: ✅ Produzione  
-**PHPStan**: Level 9 compliant
+**PHPStan**: level 10 compliant
 
 
 

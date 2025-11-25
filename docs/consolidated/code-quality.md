@@ -6,9 +6,9 @@ This document defines the mandatory code quality standards for Laraxot projects.
 
 ## Core Principles
 
-### 1. Strict Typing and PHPStan Level 9+
+### 1. Strict Typing and PHPStan level 10+
 - **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
-- **MINIMUM** PHPStan level 9 for all new code
+- **MINIMUM** PHPStan level 10 for all new code
 - **NEVER** use `mixed` types unless absolutely necessary
 - **ALWAYS** provide explicit return types and parameter types
 

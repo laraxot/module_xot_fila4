@@ -18,7 +18,7 @@
 ## Documentazione Tecnica
 
 ### Sviluppo e Qualità
-- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan level 10
 - [PHPStan Usage](phpstan-usage.md) - Guida all'uso di PHPStan per l'analisi statica
 - [Testing Guidelines](testing-guidelines.md) - Linee guida per i test
 - [Code Quality](code-quality.md) - Metriche e standard di qualità del codice

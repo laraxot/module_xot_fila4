@@ -62,9 +62,19 @@ public static function getModelLabel(): string
 ### Metodi di Tabella
 
 ```php
-// ❌ NON DICHIARARE QUESTI METODI
+// ❌ NON DICHIARARE QUESTI METODI NELLE RESOURCE
 public static function table(Table $table): Table
 public static function getListTableColumns(): array
+public static function getTableColumns(): array  // QUESTO METODO VA NELLA PAGINA LIST!
+public static function getTableFilters(): array  // QUESTO METODO VA NELLA PAGINA LIST!
+public static function getTableActions(): array  // QUESTO METODO VA NELLA PAGINA LIST!
+public static function getTableBulkActions(): array  // QUESTO METODO VA NELLA PAGINA LIST!
+
+// ✅ QUESTI METODI VANSOLO NELLE PAGINE LIST (es. ListRecords.php)
+public function getTableColumns(): array { /* implementazione */ }
+public function getTableFilters(): array { /* implementazione */ }
+public function getTableActions(): array { /* implementazione */ }
+public function getTableBulkActions(): array { /* implementazione */ }
 ```
 
 ## Cosa Dichiarare

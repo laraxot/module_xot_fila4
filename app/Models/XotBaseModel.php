@@ -46,7 +46,7 @@ abstract class XotBaseModel extends EloquentModel
     protected $primaryKey = 'id';
 
     /** @var string */
-    protected $keyType = 'string';
+    protected $keyType = 'int';
 
     /** @var list<string> */
     protected $hidden = [

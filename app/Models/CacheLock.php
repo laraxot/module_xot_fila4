@@ -113,7 +113,7 @@ use Modules\Xot\Database\Factories\CacheLockFactory;
  * @property string $owner
  * @property int $expiration
  *
- * @method static \Modules\Xot\Database\Factories\CacheLockFactory factory($count = null, $state = [])
+ * @method static CacheLockFactory factory($count = null, $state = [])
  * @method static Builder<static>|CacheLock newModelQuery()
  * @method static Builder<static>|CacheLock newQuery()
  * @method static Builder<static>|CacheLock query()

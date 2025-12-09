@@ -11,7 +11,7 @@ class EnvPage extends XotBasePage
 {
     use NavigationLabelTrait;
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
 
     protected string $view = 'xot::filament.pages.dashboard';
 }

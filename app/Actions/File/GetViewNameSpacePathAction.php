@@ -36,7 +36,6 @@ class GetViewNameSpacePathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $ns  Il namespace della vista
-     *
      * @return string|null Il percorso del namespace o null se non trovato
      */
     public function execute(string $ns): ?string

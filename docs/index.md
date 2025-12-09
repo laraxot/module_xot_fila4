@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📚 **Indice Documentazione Modulo Xot**
 
 ## 🎯 **Quick Start**
@@ -211,22 +210,3 @@ php artisan test --filter=ExampleTest
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
-=======
->>>>>>> a0b522b (.)
->>>>>>> a2de8cb7 (.)

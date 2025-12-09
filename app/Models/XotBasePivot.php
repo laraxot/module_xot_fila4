@@ -8,6 +8,7 @@ use Modules\Xot\Models\Traits\HasXotFactory;
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Relations\Pivot as EloquentPivot;
 use Modules\Xot\Traits\Updater;
+
 use function Safe\preg_match;
 
 /**

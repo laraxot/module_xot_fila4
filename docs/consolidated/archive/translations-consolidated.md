@@ -281,6 +281,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome modulo> Module
 =======
 ### SaluteMo Module
@@ -309,10 +310,14 @@ return [
 =======
 ### SaluteMo Module
 >>>>>>> 399f46d3 (.)
+=======
+### SaluteMo Module
+>>>>>>> 17684f52 (.)
 - **Focus**: Health management, Medical data
 - **Campi comuni**: `patient_id`, `doctor_id`, `date`, `notes`
 - **Stati**: `scheduled`, `completed`, `cancelled`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -410,6 +415,9 @@ return [
 =======
 ### SaluteOra Module (CRITICO)
 >>>>>>> 43d67f21 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 17684f52 (.)
 - **Focus**: Core health platform, Appointments
 - **Campi comuni**: `appointment_id`, `patient_id`, `doctor_id`, `studio_id`
 - **Stati**: `scheduled`, `confirmed`, `in_progress`, `completed`, `cancelled`
@@ -499,6 +507,7 @@ TextInput::make('name') // Label automatica da traduzione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
@@ -577,6 +586,9 @@ for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify Salu
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
 >>>>>>> 43d67f21 (.)
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
+>>>>>>> 17684f52 (.)
     php artisan translation:check-hardcoded --module=$module
 done
 
@@ -600,6 +612,7 @@ done
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
@@ -678,6 +691,9 @@ for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify Salu
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
 >>>>>>> 43d67f21 (.)
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
+>>>>>>> 17684f52 (.)
     php artisan translation:validate-syntax --module=$module
 done
 ```
@@ -732,6 +748,7 @@ rm Modules/UI/project_docs/translation-rules.md
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto>
 rm Modules/<nome progetto>/project_docs/translation-files-improvement.md
 rm Modules/<nome progetto>/project_docs/translations.md
@@ -794,6 +811,8 @@ rm Modules/<nome modulo>/docs/translations-appointments.md
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
 # SaluteOra
 rm Modules/SaluteOra/project_docs/translation-files-improvement.md
 rm Modules/SaluteOra/project_docs/translations.md
@@ -802,6 +821,7 @@ rm Modules/SaluteOra/project_docs/translations-states-analysis.md
 rm Modules/SaluteOra/project_docs/translation-rules.md
 rm Modules/SaluteOra/project_docs/translation_standards.md
 rm Modules/SaluteOra/project_docs/translations-appointments.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -887,6 +907,8 @@ rm Modules/<nome progetto>/project_docs/translations-appointments.md
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
 
 # User
 rm Modules/User/project_docs/translations.md

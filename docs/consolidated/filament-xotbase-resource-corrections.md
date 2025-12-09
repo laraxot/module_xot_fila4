@@ -104,6 +104,7 @@ protected static ?string $navigationGroup = "Geo";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File**: `laravel/Modules/<nome progetto>/app/Filament/Resources/AdminResource.php`
 =======
 **File**: `laravel/Modules/<nome modulo>/app/Filament/Resources/AdminResource.php`
@@ -182,6 +183,9 @@ protected static ?string $navigationGroup = "Geo";
 =======
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
 >>>>>>> 43d67f21 (.)
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> 17684f52 (.)
 
 **Violazione**: Metodo `table()` presente
 ```php

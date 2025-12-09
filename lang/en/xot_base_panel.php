@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -9,6 +10,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42,12 +44,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,6 +67,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 >>>>>>> a12f125f4a (.)
 =======
 declare(strict_types=1);
@@ -71,6 +78,7 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +173,8 @@ declare(strict_types=1);
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
 return [
     'A' => 'A',
     'B' => 'B',

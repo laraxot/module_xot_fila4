@@ -42,6 +42,7 @@ class CopyFromLastYearAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $modelClass, string $fieldName, ?string $year): void
     {
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
@@ -85,6 +86,11 @@ class CopyFromLastYearAction
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
 >>>>>>> 399f46d3 (.)
 =======
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,6 +98,7 @@ class CopyFromLastYearAction
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,9 +161,16 @@ class CopyFromLastYearAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+    public function execute(string $modelClass, string $fieldName, ?string $year): void
+    {
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
+>>>>>>> a12f125f4a (.)
+>>>>>>> 17684f52 (.)
+=======
     public function execute(string $modelClass, string $fieldName, null|string $year): void
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +186,8 @@ class CopyFromLastYearAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 >>>>>>> b93ef594b4 (.)
 =======
     public function execute(string $modelClass, string $fieldName, ?string $year): void
@@ -179,6 +195,7 @@ class CopyFromLastYearAction
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -304,6 +321,8 @@ class CopyFromLastYearAction
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
             return;
         }
 

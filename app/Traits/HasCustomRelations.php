@@ -9,7 +9,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Traits;
 
+<<<<<<< HEAD
 use Closure;
+=======
+<<<<<<< HEAD
+use Closure;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Relations\CustomRelation;
 use Webmozart\Assert\Assert;
@@ -21,6 +28,14 @@ use Webmozart\Assert\Assert;
  */
 trait HasCustomRelations
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
     public function customRelation(
         string $related,
         Closure $baseConstraints,
@@ -44,9 +59,11 @@ trait HasCustomRelations
         null|Closure $eagerConstraints = null,
         null|Closure $eagerMatcher = null,
     ): CustomRelation {
+<<<<<<< HEAD
         $instance = new $related();
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +106,8 @@ trait HasCustomRelations
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
         $instance = new $related();
         // Call to an undefined method object::newQuery()
@@ -98,6 +117,7 @@ trait HasCustomRelations
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
 =======
@@ -108,6 +128,8 @@ trait HasCustomRelations
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
     public function customRelation(string $related, Closure $baseConstraints, ?Closure $eagerConstraints = null, ?Closure $eagerMatcher = null): CustomRelation
 =======
     public function customRelation(string $related, \Closure $baseConstraints, ?\Closure $eagerConstraints = null, ?\Closure $eagerMatcher = null): CustomRelation
@@ -116,6 +138,7 @@ trait HasCustomRelations
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 88ea7103 (.)
@@ -152,6 +175,8 @@ trait HasCustomRelations
 =======
     public function customRelation(string $related, Closure $baseConstraints, ?Closure $eagerConstraints = null, ?Closure $eagerMatcher = null): CustomRelation
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
     {
         $instance = new $related();
         // Call to an undefined method object::newQuery()
@@ -166,6 +191,7 @@ trait HasCustomRelations
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -174,6 +200,8 @@ trait HasCustomRelations
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 >>>>>>> a12f125f4a (.)
 =======
         $instance = new $related();
@@ -183,6 +211,7 @@ trait HasCustomRelations
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +291,8 @@ trait HasCustomRelations
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
         $query = $instance->newQuery();
 
         return new CustomRelation($query, $this, $baseConstraints, $eagerConstraints, $eagerMatcher);

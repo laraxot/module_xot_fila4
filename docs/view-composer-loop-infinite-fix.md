@@ -245,6 +245,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7131bd09 (.)
 =======
@@ -380,6 +381,8 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
 =======
+=======
+>>>>>>> 17684f52 (.)
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
@@ -474,6 +477,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 =======
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 =======
@@ -497,6 +501,11 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 >>>>>>> c35986f4 (.)
+=======
+=======
+- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
 - [View Composer Laravel Docs](https://laravel.com/docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/docs/container)
 
@@ -534,6 +543,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Pattern**: View Composer Loop Prevention 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -677,3 +687,8 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 =======
 **Pattern**: View Composer Loop Prevention 
 >>>>>>> c35986f4 (.)
+=======
+**Pattern**: View Composer Loop Prevention 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)

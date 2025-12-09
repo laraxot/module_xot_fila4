@@ -8,7 +8,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -20,6 +27,7 @@ class GetModelByModelTypeAction
     /**
      * Execute the action.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,7 +127,24 @@ class GetModelByModelTypeAction
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
     public function execute(string $model_type, null|string $model_id): Model
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(string $model_type, null|string $model_id): Model
+=======
+    public function execute(string $model_type, ?string $model_id): Model
+>>>>>>> a12f125f4a (.)
+=======
+    public function execute(string $model_type, null|string $model_id): Model
+>>>>>>> b93ef594b4 (.)
+=======
+    public function execute(string $model_type, ?string $model_id): Model
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     {
         $model_class = app(GetModelClassByModelTypeAction::class)->execute($model_type);
         Assert::isInstanceOf($model = app($model_class), Model::class);
@@ -128,7 +153,9 @@ class GetModelByModelTypeAction
         }
 
         if (null === $model) {
+<<<<<<< HEAD
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +193,8 @@ class GetModelByModelTypeAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +209,7 @@ class GetModelByModelTypeAction
             throw new \Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,6 +304,8 @@ class GetModelByModelTypeAction
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
         }
 
         return $model;

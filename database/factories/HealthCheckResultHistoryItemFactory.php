@@ -9,7 +9,23 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 
 /**
  * HealthCheckResultHistoryItem Factory
+<<<<<<< HEAD
  *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ *
+=======
+ * 
+>>>>>>> a12f125f4a (.)
+=======
+ *
+>>>>>>> b93ef594b4 (.)
+=======
+ * 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
  * @extends Factory<HealthCheckResultHistoryItem>
  */
 class HealthCheckResultHistoryItemFactory extends Factory
@@ -21,7 +37,23 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return [
             'check_name' => $this->faker->randomElement([
                 'DatabaseCheck',
+<<<<<<< HEAD
                 'CacheCheck',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                'CacheCheck',
+=======
+                'CacheCheck', 
+>>>>>>> a12f125f4a (.)
+=======
+                'CacheCheck',
+>>>>>>> b93ef594b4 (.)
+=======
+                'CacheCheck', 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                 'QueueCheck',
                 'StorageCheck',
                 'MemoryCheck',
@@ -70,6 +102,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
         return $this->state(fn(array $_attributes): array => [
@@ -92,6 +125,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 399f46d3 (.)
 =======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,6 +142,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return $this->state(fn (array $attributes): array => [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,6 +265,8 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
             'status' => 'ok',
             'notification_message' => null,
         ]);
@@ -265,6 +304,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
         return $this->state(fn(array $_attributes): array => [
@@ -287,6 +327,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 399f46d3 (.)
 =======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,6 +344,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return $this->state(fn (array $attributes): array => [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -423,6 +467,8 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
             'status' => 'failed',
             'notification_message' => $this->faker->sentence(),
         ]);

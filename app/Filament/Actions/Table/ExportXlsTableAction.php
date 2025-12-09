@@ -8,9 +8,29 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Actions\Table;
 
+<<<<<<< HEAD
 use Exception;
 use Filament\Actions\Action;
 use Filament\Resources\RelationManagers\RelationManager;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Exception;
+>>>>>>> b93ef594b4 (.)
+use Filament\Actions\Action;
+use Filament\Resources\RelationManagers\RelationManager;
+=======
+use Filament\Resources\RelationManagers\RelationManager;
+// Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
+// use Filament\Tables\Actions\Action;
+use Filament\Tables\Actions\Action;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Modules\Xot\Actions\Export\ExportXlsByCollection;
 use Modules\Xot\Actions\GetTransKeyAction;
 use Webmozart\Assert\Assert;
@@ -21,6 +41,12 @@ class ExportXlsTableAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
             ->tooltip(__('xot::actions.export_xls'))
             // ->icon('fas-file-excel')
             ->icon('heroicon-o-arrow-down-tray')
@@ -61,6 +87,45 @@ class ExportXlsTableAction extends Action
                 if ($query === null) {
                     throw new Exception('Query is null');
                 }
+<<<<<<< HEAD
+=======
+=======
+            
+=======
+>>>>>>> b93ef594b4 (.)
+            ->tooltip(__('xot::actions.export_xls'))
+            // ->icon('fas-file-excel')
+            ->icon('heroicon-o-arrow-down-tray')
+            ->action(static function (RelationManager $livewire) {
+                $livewire_class = $livewire::class;
+                $filename =
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+                    '.xlsx';
+                $transKey = app(GetTransKeyAction::class)->execute($livewire_class);
+                $transKey .= '.fields';
+                $query = $livewire->getFilteredTableQuery();
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+                if ($query === null) {
+                    throw new Exception('Query is null');
+                }
+>>>>>>> b93ef594b4 (.)
+=======
+            
+            ->tooltip(__('xot::actions.export_xls'))
+             // ->icon('fas-file-excel')
+            ->icon('heroicon-o-arrow-down-tray')
+            ->action(static function (RelationManager $livewire) {
+                $livewire_class = $livewire::class;
+                $filename = class_basename($livewire).'-'.collect($livewire->tableFilters)->flatten()->implode('-').'.xlsx';
+                $transKey = app(GetTransKeyAction::class)->execute($livewire_class);
+                $transKey .= '.fields';
+                $query = $livewire->getFilteredTableQuery();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                 // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
                 $rows = $query->get();
                 /** @var array<int, string> $fields */
@@ -68,7 +133,23 @@ class ExportXlsTableAction extends Action
                 if (method_exists($livewire_class, 'getXlsFields')) {
                     $rawFields = $livewire_class::getXlsFields($livewire->tableFilters);
                     Assert::isArray($rawFields);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+                    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+                    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                     // Ensure fields are properly formatted as array<int, string>
                     $fields = [];
                     foreach ($rawFields as $key => $field) {
@@ -84,6 +165,7 @@ class ExportXlsTableAction extends Action
             });
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +218,9 @@ class ExportXlsTableAction extends Action
     public static function getDefaultName(): null|string
 >>>>>>> 399f46d3 (.)
 =======
+    public static function getDefaultName(): null|string
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +235,7 @@ class ExportXlsTableAction extends Action
     public static function getDefaultName(): ?string
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,6 +358,8 @@ class ExportXlsTableAction extends Action
 =======
     public static function getDefaultName(): null|string
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
     {
         return 'export_xls';
     }

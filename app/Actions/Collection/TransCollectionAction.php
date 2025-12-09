@@ -6,9 +6,32 @@ namespace Modules\Xot\Actions\Collection;
 
 // use Modules\Xot\Services\ArrayService;
 
+<<<<<<< HEAD
 use Illuminate\Support\Collection;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\QueueableAction\QueueableAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Support\Collection;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Spatie\QueueableAction\QueueableAction;
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Support\Collection;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> b93ef594b4 (.)
+=======
+use Webmozart\Assert\Assert;
+use Illuminate\Support\Collection;
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 /**
  * Action per la traduzione di elementi di una collezione.
@@ -17,6 +40,7 @@ class TransCollectionAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +93,9 @@ class TransCollectionAction
     public null|string $transKey;
 >>>>>>> 399f46d3 (.)
 =======
+    public null|string $transKey;
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,6 +110,7 @@ class TransCollectionAction
     public ?string $transKey;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,10 +233,18 @@ class TransCollectionAction
 =======
     public null|string $transKey;
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
 
     /**
      * Esegue la traduzione di una collezione.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
      * @param  Collection<int|string, mixed>  $collection
      * @return Collection<int|string, string>
      */
@@ -232,22 +268,86 @@ class TransCollectionAction
     {
         if ($transKey === null) {
             return $collection->map(SafeStringCastAction::cast(...));
+<<<<<<< HEAD
+=======
+=======
+=======
+     * @param Collection<int|string, mixed> $collection
+     * @param string|null $transKey
+     *
+>>>>>>> origin/develop
+     * @return Collection<int|string, string>
+     */
+    public function execute(
+        Collection $collection,
+        ?string $transKey,
+    ): Collection {
+<<<<<<< HEAD
+            return $collection->map(fn (mixed $item): string => SafeStringCastAction::cast($item));
+>>>>>>> a12f125f4a (.)
+=======
+     * @param  Collection<int|string, mixed>  $collection
+     * @return Collection<int|string, string>
+     */
+    public function execute(Collection $collection, null|string $transKey): Collection
+    {
+        if ($transKey === null) {
+            return $collection->map(SafeStringCastAction::cast(...));
+>>>>>>> b93ef594b4 (.)
+=======
+        if (null === $transKey) {
+            return $collection->map(fn (mixed $item): string => SafeStringCastAction::cast($item));
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         }
 
         $this->transKey = $transKey;
 
+<<<<<<< HEAD
         return $collection->map($this->trans(...));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $collection->map($this->trans(...));
+=======
+        return $collection->map(fn (mixed $item): string => $this->trans($item));
+>>>>>>> a12f125f4a (.)
+=======
+        return $collection->map($this->trans(...));
+>>>>>>> b93ef594b4 (.)
+=======
+        return $collection->map(fn (mixed $item): string => $this->trans($item));
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     }
 
     /**
      * Traduce un singolo elemento.
      *
+<<<<<<< HEAD
      * @param  mixed  $item  L'elemento da tradurre
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  mixed  $item  L'elemento da tradurre
+=======
+>>>>>>> a12f125f4a (.)
+=======
+     * @param  mixed  $item  L'elemento da tradurre
+>>>>>>> b93ef594b4 (.)
+=======
+     * @param mixed $item L'elemento da tradurre
+     *
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
      * @return string L'elemento tradotto o l'elemento originale se la traduzione non esiste
      */
     public function trans(mixed $item): string
     {
         // Converte l'item in stringa se non lo è già
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -292,6 +392,8 @@ class TransCollectionAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +402,7 @@ class TransCollectionAction
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,6 +466,8 @@ class TransCollectionAction
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
         if (!\is_string($item)) {
 >>>>>>> 5a14301c (.)
 =======
@@ -377,7 +482,21 @@ class TransCollectionAction
             $item = SafeStringCastAction::cast($item);
         }
 
+<<<<<<< HEAD
         if (empty($item) || $this->transKey === null) {
+=======
+<<<<<<< HEAD
+        if (empty($item) || $this->transKey === null) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        if (empty($item) || null === $this->transKey) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             return $item;
         }
 
@@ -412,6 +531,7 @@ class TransCollectionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $key = $this->transKey.'.'.$item;
 =======
         $key = $this->transKey . '.' . $item;
@@ -434,6 +554,9 @@ class TransCollectionAction
         $key = $this->transKey . '.' . $item;
 >>>>>>> 399f46d3 (.)
 =======
+        $key = $this->transKey . '.' . $item;
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,6 +571,7 @@ class TransCollectionAction
         $key = $this->transKey.'.'.$item;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -570,6 +694,8 @@ class TransCollectionAction
 =======
         $key = $this->transKey . '.' . $item;
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
         $trans = trans($key);
 
         // Se la traduzione esiste ed è una stringa, la restituisce
@@ -609,6 +735,7 @@ class TransCollectionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $keyWithUnderscore = $this->transKey.'.'.$itemWithUnderscore;
 =======
         $keyWithUnderscore = $this->transKey . '.' . $itemWithUnderscore;
@@ -631,6 +758,9 @@ class TransCollectionAction
         $keyWithUnderscore = $this->transKey . '.' . $itemWithUnderscore;
 >>>>>>> 399f46d3 (.)
 =======
+        $keyWithUnderscore = $this->transKey . '.' . $itemWithUnderscore;
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -645,6 +775,7 @@ class TransCollectionAction
         $keyWithUnderscore = $this->transKey.'.'.$itemWithUnderscore;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -767,6 +898,8 @@ class TransCollectionAction
 =======
         $keyWithUnderscore = $this->transKey . '.' . $itemWithUnderscore;
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
         $transWithUnderscore = trans($keyWithUnderscore);
 
         // Se la traduzione con underscore esiste ed è una stringa, la restituisce

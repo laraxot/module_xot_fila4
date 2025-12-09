@@ -66,6 +66,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -130,6 +131,8 @@ Here’s a quick preview of what some of the basic type styles will look like in
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
@@ -161,6 +164,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -255,6 +259,10 @@ Here’s a quick preview of what some of the basic type styles will look like in
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
 
 ## h2 Heading
 
@@ -313,6 +321,7 @@ class Foo extends bar
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -337,6 +346,8 @@ class Foo extends bar
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
 * [customizing-your-site.md](../../../Gdpr/project_docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Xot/project_docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../UI/project_docs/customizing-your-site.md)
@@ -368,6 +379,7 @@ class Foo extends bar
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
@@ -442,6 +454,10 @@ class Foo extends bar
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
 * [customizing-your-site.md](../../../Gdpr/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Xot/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../UI/docs/customizing-your-site.md)

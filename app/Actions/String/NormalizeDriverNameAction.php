@@ -77,7 +77,21 @@ use function Safe\preg_replace;
 >>>>>>> 0e51323 (.)
 =======
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use function Safe\preg_replace;
 <<<<<<< HEAD
 >>>>>>> a5dccfe (.)
@@ -138,7 +152,23 @@ use function Safe\preg_replace;
 
 /**
  * Action per normalizzare i nomi dei driver.
+<<<<<<< HEAD
  *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ *
+=======
+ * 
+>>>>>>> a12f125f4a (.)
+=======
+ *
+>>>>>>> b93ef594b4 (.)
+=======
+ * 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
  * Questa action centralizza la logica di normalizzazione dei nomi dei driver
  * per evitare duplicazione di codice e garantire consistenza in tutta l'applicazione.
  */
@@ -546,4 +576,20 @@ class NormalizeDriverNameAction
 =======
 >>>>>>> 5842a556 (.)
     }
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+} 
+>>>>>>> a12f125f4a (.)
+=======
+}
+>>>>>>> b93ef594b4 (.)
+=======
+} 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)

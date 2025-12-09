@@ -22,6 +22,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -31,6 +32,8 @@ declare(strict_types=1);
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
 use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -314,6 +317,7 @@ use Illuminate\Support\Facades\File;
 use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 849568d9 (.)
@@ -339,6 +343,10 @@ uses(\Modules\Xot\Tests\TestCase::class);
 =======
 >>>>>>> ca9324a4 (.)
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 17684f52 (.)
 use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -347,6 +355,7 @@ use Illuminate\Support\Facades\File;
 =======
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Artisan;
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 =======
 use Illuminate\Support\Facades\Artisan;
@@ -381,6 +390,24 @@ uses(\Modules\Xot\Tests\TestCase::class);
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 37de20a7 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+>>>>>>> b93ef594b4 (.)
+use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
+
+uses(TestCase::class);
+=======
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Artisan;
+use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
+
+uses(\Modules\Xot\Tests\TestCase::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
 
 beforeEach(function () {
     $this->testSchemaPath = storage_path('tests/schema.json');
@@ -442,6 +469,7 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
         File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
 =======
@@ -496,6 +524,13 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
+=======
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 17684f52 (.)
         File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
 =======
         File::makeDirectory(dirname($this->testSchemaPath), 0755, true);
@@ -507,6 +542,7 @@ beforeEach(function () {
         File::makeDirectory(dirname($this->testSchemaPath), 0755, true);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -778,6 +814,8 @@ beforeEach(function () {
 =======
         File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
 >>>>>>> fb8add77 (.)
+=======
+>>>>>>> 17684f52 (.)
     }
 
     // Create a test schema file
@@ -906,6 +944,7 @@ test('it generates database documentation', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(File::exists($this->testOutputDir.'/database-documentation.md'))
         ->toBeTrue()
         ->and(File::exists($this->testOutputDir.'/tables/users.md'))
@@ -938,12 +977,15 @@ test('it generates database documentation', function () {
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1076,10 +1118,13 @@ test('it generates database documentation', function () {
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> fb8add77 (.)
+=======
+>>>>>>> 17684f52 (.)
     expect(File::exists($this->testOutputDir . '/database-documentation.md'))
         ->toBeTrue()
         ->and(File::exists($this->testOutputDir . '/tables/users.md'))
         ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1147,6 +1192,8 @@ test('it generates database documentation', function () {
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 =======
     expect(File::exists($this->testOutputDir . '/database-documentation.md'))->toBeTrue()
@@ -1159,6 +1206,7 @@ test('it generates database documentation', function () {
         ->and(File::exists($this->testOutputDir . '/tables/users.md'))->toBeTrue();
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1366,6 +1414,8 @@ test('it generates database documentation', function () {
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> fb8add77 (.)
+=======
+>>>>>>> 17684f52 (.)
 });
 
 test('it handles missing schema file', function () {
@@ -1470,6 +1520,7 @@ test('it handles missing output directory', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -1559,6 +1610,10 @@ test('it handles missing output directory', function () {
     expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
 =======
 >>>>>>> 399f46d3 (.)
+=======
+    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+=======
+>>>>>>> 17684f52 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1575,6 +1630,7 @@ test('it handles missing output directory', function () {
         ->and(File::isDirectory($this->testOutputDir))->toBeTrue();
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1787,4 +1843,6 @@ test('it handles missing output directory', function () {
 =======
     expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
 >>>>>>> fb8add77 (.)
+=======
+>>>>>>> 17684f52 (.)
 });

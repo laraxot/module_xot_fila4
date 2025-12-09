@@ -17,6 +17,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
 use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
 =======
@@ -29,6 +32,7 @@ use function Pest\Laravel\assertDatabaseHas;
 =======
 >>>>>>> d2b0a27 (.)
 use Modules\Xot\Tests\TestCase;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -56,6 +60,8 @@ use function Pest\Laravel\assertDatabaseHas;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> b7afadf9 (.)
 
 <<<<<<< HEAD
 =======
@@ -67,6 +73,7 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> 300ef70 (.)
 uses(TestCase::class);
 
+<<<<<<< HEAD
 beforeEach(function (): void {
     // Create a temporary directory for testing
 <<<<<<< HEAD
@@ -177,6 +184,12 @@ beforeEach(function (): void {
 =======
     $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
 >>>>>>> cc7fb225 (.)
+=======
+beforeEach(function () {
+    // Create a temporary directory for testing
+<<<<<<< HEAD
+    $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
+>>>>>>> b7afadf9 (.)
     mkdir($this->testDir, 0o755, true);
 
 =======
@@ -199,7 +212,11 @@ beforeEach(function (): void {
     chdir($this->testDir);
 });
 
+<<<<<<< HEAD
 afterEach(function (): void {
+=======
+afterEach(function () {
+>>>>>>> b7afadf9 (.)
     // Clean up the test directory
     $this->rrmdir($this->testDir);
 });
@@ -226,12 +243,16 @@ function rrmdir($dir)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
                 if (is_dir($dir.DIRECTORY_SEPARATOR.$object) && ! is_link($dir.'/'.$object)) {
                     rrmdir($dir.DIRECTORY_SEPARATOR.$object);
                 } else {
 <<<<<<< HEAD
                     unlink($dir.DIRECTORY_SEPARATOR.$object);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
@@ -349,11 +370,16 @@ function rrmdir($dir)
 =======
 >>>>>>> 17684f52 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
 function rrmdir($dir) {
     if (is_dir($dir)) {
         $objects = scandir($dir);
@@ -363,6 +389,7 @@ function rrmdir($dir) {
                     rrmdir($dir. DIRECTORY_SEPARATOR .$object);
                 } else {
                     unlink($dir. DIRECTORY_SEPARATOR .$object);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,16 +499,23 @@ function rrmdir($dir) {
                     unlink($dir.DIRECTORY_SEPARATOR.$object);
 >>>>>>> cc7fb225 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
                 }
             }
         }
@@ -489,7 +523,11 @@ function rrmdir($dir) {
     }
 }
 
+<<<<<<< HEAD
 test('creates necessary directories and files', function (): void {
+=======
+test('creates necessary directories and files', function () {
+>>>>>>> b7afadf9 (.)
     // Run the command
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533,6 +571,7 @@ test('creates necessary directories and files', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->assertDirectoryExists($this->testDir.'/'.$directory);
 =======
         $this->assertDirectoryExists($this->testDir . '/' . $directory);
@@ -549,6 +588,9 @@ test('creates necessary directories and files', function (): void {
 =======
         $this->assertDirectoryExists($this->testDir.'/'.$directory);
 >>>>>>> cc7fb225 (.)
+=======
+        $this->assertDirectoryExists($this->testDir.'/'.$directory);
+>>>>>>> b7afadf9 (.)
     }
 
     // Check if .gitkeep files were created in empty directories
@@ -562,6 +604,7 @@ test('creates necessary directories and files', function (): void {
     ];
 
     foreach ($gitkeepFiles as $file) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,6 +653,16 @@ test('does not overwrite existing files', function (): void {
 =======
     $testFile = $this->testDir.'/routes/web.php';
 >>>>>>> cc7fb225 (.)
+=======
+        $this->assertFileExists($this->testDir.'/'.$file);
+    }
+});
+
+test('does not overwrite existing files', function () {
+    // Create a test file that should not be overwritten
+    $testContent = 'Test content';
+    $testFile = $this->testDir.'/routes/web.php';
+>>>>>>> b7afadf9 (.)
     file_put_contents($testFile, $testContent);
 
     // Run the command
@@ -636,6 +689,7 @@ test('does not overwrite existing files', function (): void {
     $this->assertStringEqualsFile($testFile, $testContent);
 });
 
+<<<<<<< HEAD
 test('handles errors gracefully', function (): void {
     // Make a directory non-writable to test error handling
 <<<<<<< HEAD
@@ -647,9 +701,15 @@ test('handles errors gracefully', function (): void {
 <<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+test('handles errors gracefully', function () {
+    // Make a directory non-writable to test error handling
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
     $nonWritableDir = $this->testDir.'/app';
 =======
     $nonWritableDir = $this->testDir . '/app';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -787,11 +847,16 @@ test('handles errors gracefully', function (): void {
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error
@@ -799,6 +864,7 @@ test('handles errors gracefully', function (): void {
 
     // Restore permissions
     chmod($nonWritableDir, 0o755);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -919,6 +985,10 @@ test('handles errors gracefully', function (): void {
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
     chmod($nonWritableDir, 0555);
 
     // Run the command and expect an error
@@ -937,6 +1007,7 @@ test('handles errors gracefully', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
@@ -995,10 +1066,13 @@ test('handles errors gracefully', function (): void {
 =======
 >>>>>>> 9db27d12 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 });
 <<<<<<< HEAD
@@ -1190,3 +1264,9 @@ test('handles errors gracefully', function (): void {
 });
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+});
+=======
+});
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)

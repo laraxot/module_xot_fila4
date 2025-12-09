@@ -44,6 +44,7 @@ use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -115,7 +116,25 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
 use Spatie\QueueableAction\QueueableAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Spatie\QueueableAction\QueueableAction;
+=======
+use Nwidart\Modules\Module as ModuleInstance;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+>>>>>>> f1d4085 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 300ef70 (.)
 
 class GetAllModelsAction
 {
@@ -158,9 +177,12 @@ class GetAllModelsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -168,8 +190,11 @@ class GetAllModelsAction
 >>>>>>> 73eab74 (.)
 =======
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
      */
     public function execute(): array
     {
@@ -178,6 +203,7 @@ class GetAllModelsAction
         foreach ($modules as $module) {
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($module->getName());
             $res = array_merge($res, $tmp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,6 +345,19 @@ class GetAllModelsAction
 =======
 >>>>>>> 5a14301c (.)
 =======
+=======
+=======
+>>>>>>> d2b0a27 (.)
+     *
+     * @return array<int, string>
+     */
+    public function execute(): array
+    {
+        /** @var array<int, string> $res */
+        $res = [];
+        $modules = Module::all();
+        foreach ($modules as $module) {
+>>>>>>> b7afadf9 (.)
             if (! is_object($module) || ! method_exists($module, 'getName')) {
                 continue;
             }
@@ -331,7 +370,10 @@ class GetAllModelsAction
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleName);
 <<<<<<< HEAD
             /** @var array<int, string> $tmp */
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
             $res = array_merge($res, $tmp);
 =======
             Assert::isArray($tmp, 'GetAllModelsByModuleNameAction must return array');
@@ -348,8 +390,11 @@ class GetAllModelsAction
 >>>>>>> d2b0a27 (.)
 =======
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
         }
 
         return $res;

@@ -678,6 +678,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
 =======
      * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
@@ -694,6 +695,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 =======
      * @return string Il nome del modulo (es. 'SaluteOra', 'User', ecc.)
 >>>>>>> 53d6a6ba (.)
+=======
+     * @return string Il nome del modulo (es. '<main module>', 'User', ecc.)
+>>>>>>> b7afadf9 (.)
      */
     public static function getModuleName(): string
     {

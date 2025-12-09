@@ -126,6 +126,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperFeed
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,6 +141,12 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
  *
 <<<<<<< HEAD
+=======
+ *
+<<<<<<< HEAD
+ * @mixin IdeHelperFeed
+=======
+>>>>>>> b7afadf9 (.)
  * @mixin \Eloquent
  */
 /**
@@ -151,10 +158,14 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Feed newQuery()
  * @method static Builder<static>|Feed query()
  *
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
  * @mixin IdeHelperFeed
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

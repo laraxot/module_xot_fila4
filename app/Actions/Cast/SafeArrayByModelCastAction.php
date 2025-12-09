@@ -85,6 +85,9 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,7 +95,14 @@ class SafeArrayByModelCastAction
 =======
 >>>>>>> 300ef70 (.)
         try {
+<<<<<<< HEAD
             return $model->attributesToArray();
+=======
+            /** @var array<string, mixed> */
+            $attributes = $model->attributesToArray();
+
+            return $attributes;
+>>>>>>> b7afadf9 (.)
         } catch (ValueError|Error|Exception $e) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103,11 +113,18 @@ class SafeArrayByModelCastAction
         }catch(ValueError|Error|Exception $e){
 >>>>>>> f1d4085 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
         try {
             return $model->attributesToArray();
         } catch (ValueError|Error|Exception $e) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             return $this->safeExecute($model);
         }
     }
@@ -147,14 +164,18 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
     /**
      * @return array<string, mixed>
      */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
@@ -251,10 +272,13 @@ class SafeArrayByModelCastAction
 >>>>>>> 9db27d12 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -263,6 +287,10 @@ class SafeArrayByModelCastAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -276,6 +304,7 @@ class SafeArrayByModelCastAction
         }
 
         return $data;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -424,12 +453,20 @@ class SafeArrayByModelCastAction
 =======
 <<<<<<< HEAD
 =======
+=======
+
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
     public function safeExecute(Model $model): array
     {
         $data=[];
@@ -448,6 +485,7 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }catch(\ValueError|\Error $e){
 =======
             }catch(ValueError|Error $e){
@@ -482,6 +520,9 @@ class SafeArrayByModelCastAction
 =======
             }catch(ValueError|Error $e){
 >>>>>>> ab8cc3f3 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> b7afadf9 (.)
                 
             }
         }
@@ -498,6 +539,7 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
@@ -604,10 +646,13 @@ class SafeArrayByModelCastAction
 =======
 >>>>>>> 9db27d12 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -616,5 +661,10 @@ class SafeArrayByModelCastAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
     }
 }

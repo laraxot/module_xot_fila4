@@ -64,6 +64,7 @@ use Modules\Xot\Database\Factories\PulseEntryFactory;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperPulseEntry
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,6 +76,9 @@ use Modules\Xot\Database\Factories\PulseEntryFactory;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+ * @mixin IdeHelperPulseEntry
+>>>>>>> b7afadf9 (.)
 =======
  * @mixin \Eloquent
  */
@@ -99,10 +103,14 @@ use Modules\Xot\Database\Factories\PulseEntryFactory;
  * @method static Builder<static>|PulseEntry whereType($value)
  * @method static Builder<static>|PulseEntry whereValue($value)
  *
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
  * @mixin IdeHelperPulseEntry
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
  * @mixin \Eloquent
  */
 class PulseEntry extends BaseModel

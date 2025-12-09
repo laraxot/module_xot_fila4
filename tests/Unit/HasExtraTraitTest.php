@@ -39,6 +39,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -83,6 +84,11 @@ use Exception;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 5a14301c (.)
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -92,17 +98,41 @@ use Illuminate\Database\Eloquent\Model;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
 use Modules\Xot\Contracts\ExtraContract;
 use Modules\Xot\Models\Traits\HasExtraTrait;
 use ReflectionClass;
 use ReflectionMethod;
 use stdClass;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+use Modules\Xot\Models\Traits\HasExtraTrait;
+use Modules\Xot\Contracts\ExtraContract;
+use Illuminate\Database\Eloquent\Model;
+use ReflectionClass;
+use ReflectionMethod;
+use stdClass;
+use Exception;
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
-describe('HasExtraTrait', function () {
-    beforeEach(function () {
+use function Safe\class_uses;
+
+describe('HasExtraTrait', function (): void {
+    beforeEach(function (): void {
         // Create a test model that uses the trait
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,6 +141,16 @@ describe('HasExtraTrait', function () {
         $this->testModel = new class extends Model
         {
             use HasExtraTrait;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
             protected $table = 'test_models';
 
@@ -137,6 +177,21 @@ describe('HasExtraTrait', function () {
 >>>>>>> 5a14301c (.)
             protected $fillable = ['name'];
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            
+            protected $table = 'test_models';
+            protected $fillable = ['name'];
+            
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             // Mock the getExtraClass method
             public function getExtraClass(): string
             {
@@ -152,6 +207,10 @@ describe('HasExtraTrait', function () {
         $this->extraClass = new class extends Model implements ExtraContract
         {
             protected $table = 'test_extras';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a6ef6dc7 (.)
 
 =======
         $this->extraClass = new class extends Model implements ExtraContract {
@@ -171,6 +230,19 @@ describe('HasExtraTrait', function () {
 >>>>>>> 5a14301c (.)
             protected $fillable = ['model_id', 'model_type', 'extra_attributes'];
 
+=======
+            protected $fillable = ['model_id', 'model_type', 'extra_attributes'];
+
+<<<<<<< HEAD
+=======
+            
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             protected function casts(): array
             {
                 return [
@@ -180,10 +252,14 @@ describe('HasExtraTrait', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
             public function model()
 =======
+=======
+
+>>>>>>> b7afadf9 (.)
             public function model(): MorphTo
 =======
 <<<<<<< HEAD
@@ -193,33 +269,59 @@ describe('HasExtraTrait', function () {
 
             public function model()
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 
             public function model()
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
             {
+                /** @phpstan-ignore-next-line property.notFound, method.nonObject */
                 return $this->morphTo();
             }
         };
     });
 
-    it('uses the trait correctly', function () {
+    it('uses the trait correctly', function (): void {
+        /** @phpstan-ignore-next-line property.notFound */
         $traits = class_uses($this->testModel);
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
         expect($traits)->toContain(HasExtraTrait::class);
     });
 
-    it('has extra relationship method', function () {
+    it('has extra relationship method', function (): void {
+        /** @phpstan-ignore-next-line property.notFound */
         expect(method_exists($this->testModel, 'extra'))->toBeTrue();
     });
 
-    it('returns null for non-existent extra', function () {
+    it('returns null for non-existent extra', function (): void {
         // Mock the extra relationship to be null
+        /** @phpstan-ignore-next-line property.notFound */
         $this->testModel->extra = null;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +329,10 @@ describe('HasExtraTrait', function () {
 =======
 >>>>>>> 300ef70 (.)
 
+<<<<<<< HEAD
+=======
+        /** @phpstan-ignore-next-line property.notFound */
+>>>>>>> b7afadf9 (.)
         $result = $this->testModel->getExtra('non_existent_key');
 
 <<<<<<< HEAD
@@ -238,16 +344,24 @@ describe('HasExtraTrait', function () {
         
 >>>>>>> f1d4085 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
 
         $result = $this->testModel->getExtra('non_existent_key');
 
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         expect($result)->toBeNull();
     });
 
-    it('can set and get extra attributes', function () {
+    it('can set and get extra attributes', function (): void {
         // Mock the extra relationship
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,9 +390,20 @@ describe('HasExtraTrait', function () {
 =======
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
         $mockExtra = new class
         {
+=======
+<<<<<<< HEAD
+        $mockExtra = new class
+        {
+            public \Illuminate\Support\Collection $extra_attributes;
+=======
+        $mockExtra = new class {
+>>>>>>> a6ef6dc7 (.)
             public $extra_attributes;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +419,13 @@ describe('HasExtraTrait', function () {
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
 
             public function __construct()
             {
@@ -301,10 +433,13 @@ describe('HasExtraTrait', function () {
             }
         };
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->testModel->extra = $mockExtra;
 
+        /** @phpstan-ignore-next-line property.notFound */
         $result = $this->testModel->getExtra('test_key');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -331,6 +466,15 @@ describe('HasExtraTrait', function () {
         $mockExtra = new class {
 >>>>>>> 5a14301c (.)
             public $extra_attributes;
+=======
+        expect($result)->toBe('test_value');
+    });
+
+    it('handles different data types correctly', function (): void {
+        $mockExtra = new class
+        {
+            public \Illuminate\Support\Collection $extra_attributes;
+>>>>>>> b7afadf9 (.)
 
             public function __construct()
             {
@@ -352,8 +496,11 @@ describe('HasExtraTrait', function () {
 >>>>>>> 73eab74 (.)
 =======
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
         expect($result)->toBe('test_value');
     });
 
@@ -364,6 +511,19 @@ describe('HasExtraTrait', function () {
 
             public function __construct()
             {
+<<<<<<< HEAD
+=======
+            
+            public function __construct() {
+>>>>>>> f1d4085 (.)
+=======
+
+            public function __construct()
+            {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
                 $this->extra_attributes = collect([
                     'string_value' => 'test_string',
                     'int_value' => 123,
@@ -373,19 +533,36 @@ describe('HasExtraTrait', function () {
                 ]);
             }
         };
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->testModel->extra = $mockExtra;
 
+        /** @phpstan-ignore-next-line property.notFound */
         expect($this->testModel->getExtra('string_value'))
             ->toBe('test_string')
+            /** @phpstan-ignore-next-line property.notFound */
             ->and($this->testModel->getExtra('int_value'))
             ->toBe(123)
+            /** @phpstan-ignore-next-line property.notFound */
             ->and($this->testModel->getExtra('bool_value'))
             ->toBe(true)
+            /** @phpstan-ignore-next-line property.notFound */
             ->and($this->testModel->getExtra('array_value'))
             ->toBe(['nested', 'array'])
+            /** @phpstan-ignore-next-line property.notFound */
             ->and($this->testModel->getExtra('null_value'))
             ->toBeNull();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,6 +588,14 @@ describe('HasExtraTrait', function () {
         $mockExtra = new class {
 >>>>>>> 5a14301c (.)
             public $extra_attributes;
+=======
+    });
+
+    it('throws exception for invalid data types', function (): void {
+        $mockExtra = new class
+        {
+            public \Illuminate\Support\Collection $extra_attributes;
+>>>>>>> b7afadf9 (.)
 
             public function __construct()
             {
@@ -430,8 +615,11 @@ describe('HasExtraTrait', function () {
 >>>>>>> 73eab74 (.)
 =======
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
     });
 
     it('throws exception for invalid data types', function () {
@@ -441,6 +629,19 @@ describe('HasExtraTrait', function () {
 
             public function __construct()
             {
+<<<<<<< HEAD
+=======
+            
+            public function __construct() {
+>>>>>>> f1d4085 (.)
+=======
+
+            public function __construct()
+            {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
                 $this->extra_attributes = collect([
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,9 +663,21 @@ describe('HasExtraTrait', function () {
                 ]);
             }
         };
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->testModel->extra = $mockExtra;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -580,11 +793,24 @@ describe('HasExtraTrait', function () {
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+        expect(fn () => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
+=======
+<<<<<<< HEAD
+        /** @phpstan-ignore-next-line property.notFound */
+        expect(fn () => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
+=======
+        expect(fn() => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
         
         $this->testModel->extra = $mockExtra;
         
         expect(fn () => $this->testModel->getExtra('invalid_value'))
             ->toThrow(Exception::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,10 +931,13 @@ describe('HasExtraTrait', function () {
 =======
 >>>>>>> 9db27d12 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -718,35 +947,63 @@ describe('HasExtraTrait', function () {
 =======
         expect(fn () => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
     });
 
-    it('has setExtra method', function () {
+    it('has setExtra method', function (): void {
+        /** @phpstan-ignore-next-line property.notFound */
         expect(method_exists($this->testModel, 'setExtra'))->toBeTrue();
     });
 
-    it('validates method signatures', function () {
+    it('validates method signatures', function (): void {
+        /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->testModel);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         // Check getExtra method signature
+        /** @phpstan-ignore-next-line method.nonObject */
         $getExtraMethod = $reflection->getMethod('getExtra');
         expect($getExtraMethod->isPublic())->toBeTrue();
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $parameters = $getExtraMethod->getParameters();
         expect(count($parameters))
             ->toBe(1)
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             ->and($parameters[0]->getName())
-            ->toBe('name')
-            ->and($parameters[0]->getType()?->getName())
-            ->toBe('string');
+            ->toBe('name');
+
+        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+        $getExtraParamType = $parameters[0]->getType();
+        if ($getExtraParamType instanceof \ReflectionNamedType) {
+            expect($getExtraParamType->getName())->toBe('string');
+        }
 
         // Check setExtra method signature
+        /** @phpstan-ignore-next-line method.nonObject */
         $setExtraMethod = $reflection->getMethod('setExtra');
         expect($setExtraMethod->isPublic())->toBeTrue();
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $setParameters = $setExtraMethod->getParameters();
         expect(count($setParameters))
             ->toBe(2)
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             ->and($setParameters[0]->getName())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             ->toBe('name')
@@ -765,6 +1022,19 @@ describe('HasExtraTrait', function () {
             ->toBe('name')
             ->and($setParameters[0]->getType()?->getName())
             ->toBe('string');
+=======
+            ->toBe('name');
+
+        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+        $setExtraParamType = $setParameters[0]->getType();
+        if ($setExtraParamType instanceof \ReflectionNamedType) {
+            expect($setExtraParamType->getName())->toBe('string');
+        }
+=======
+            ->toBe('name')
+            ->and($setParameters[0]->getType()?->getName())
+            ->toBe('string');
+>>>>>>> b7afadf9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -791,6 +1061,7 @@ describe('HasExtraTrait', function () {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -801,28 +1072,70 @@ describe('HasExtraTrait', function () {
             ->and($setParameters[0]->getType()?->getName())
             ->toBe('string');
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
     });
 
-    it('has proper return type annotations', function () {
+    it('has proper return type annotations', function (): void {
+        /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->testModel);
+        /** @phpstan-ignore-next-line method.nonObject */
         $method = $reflection->getMethod('getExtra');
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
         // Check that method has return type hint
+        /** @phpstan-ignore-next-line method.nonObject */
         $returnType = $method->getReturnType();
         expect($returnType)->not->toBeNull();
     });
 
-    it('handles extra relationship correctly', function () {
+    it('handles extra relationship correctly', function (): void {
+        /** @phpstan-ignore-next-line property.notFound */
         $extraMethod = new ReflectionMethod($this->testModel, 'extra');
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
         expect($extraMethod->isPublic())->toBeTrue();
     });
 
-    it('validates trait requirements', function () {
+    it('validates trait requirements', function (): void {
         // Check that the trait requires certain methods to be implemented
+        /** @phpstan-ignore-next-line property.notFound */
         expect(method_exists($this->testModel, 'getExtraClass'))->toBeTrue();
     });
 
+<<<<<<< HEAD
     it('handles empty extra attributes', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -833,6 +1146,7 @@ describe('HasExtraTrait', function () {
         $mockExtra = new class
         {
 =======
+<<<<<<< HEAD
         $mockExtra = new class {
 >>>>>>> 5a14301c (.)
 =======
@@ -851,7 +1165,24 @@ describe('HasExtraTrait', function () {
         $mockExtra = new class
         {
 >>>>>>> 53d6a6ba (.)
+=======
+    it('handles empty extra attributes', function (): void {
+        $mockExtra = new class
+        {
+            /** @var \Illuminate\Support\Collection<int, mixed> */
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
             public $extra_attributes;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
             public function __construct()
             {
@@ -859,8 +1190,10 @@ describe('HasExtraTrait', function () {
             }
         };
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->testModel->extra = $mockExtra;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -868,6 +1201,8 @@ describe('HasExtraTrait', function () {
 =======
 >>>>>>> 6dcebf8a (.)
 <<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
         /** @phpstan-ignore-next-line property.notFound */
 =======
 <<<<<<< HEAD
@@ -885,6 +1220,7 @@ describe('HasExtraTrait', function () {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -892,24 +1228,50 @@ describe('HasExtraTrait', function () {
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
         $result = $this->testModel->getExtra('non_existent');
         expect($result)->toBeNull();
     });
 
-    it('validates extra class contract', function () {
+    it('validates extra class contract', function (): void {
         // Test that the extra class implements the required contract
+        /** @phpstan-ignore-next-line property.notFound */
         $extraClass = $this->testModel->getExtraClass();
+        /* @phpstan-ignore-next-line argument.type */
         $reflection = new ReflectionClass($extraClass);
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
         expect($reflection->implementsInterface(ExtraContract::class))->toBeTrue();
     });
 
-    it('has proper documentation', function () {
+    it('has proper documentation', function (): void {
         $reflection = new ReflectionClass(HasExtraTrait::class);
+        /** @phpstan-ignore-next-line method.nonObject */
         $getExtraMethod = $reflection->getMethod('getExtra');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -917,6 +1279,10 @@ describe('HasExtraTrait', function () {
 =======
 >>>>>>> 300ef70 (.)
 
+<<<<<<< HEAD
+=======
+        /** @phpstan-ignore-next-line method.nonObject */
+>>>>>>> b7afadf9 (.)
         $docComment = $getExtraMethod->getDocComment();
         expect($docComment)->toBeString()->and($docComment)->toContain('@return');
 <<<<<<< HEAD
@@ -929,17 +1295,34 @@ describe('HasExtraTrait', function () {
             ->and($docComment)->toContain('@return');
 >>>>>>> f1d4085 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
 
         $docComment = $getExtraMethod->getDocComment();
         expect($docComment)->toBeString()->and($docComment)->toContain('@return');
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     });
 });
 
 /**
  * Helper class for testing HasExtraTrait.
  */
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 class HasExtraTraitTest extends Model implements ExtraContract
 {
     protected $table = 'test_extras';
@@ -947,6 +1330,24 @@ class HasExtraTraitTest extends Model implements ExtraContract
     /** @var list<string> */
     protected $fillable = ['model_id', 'model_type', 'extra_attributes'];
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+class HasExtraTraitTest extends Model implements ExtraContract 
+{
+    protected $table = 'test_extras';
+    
+    /** @var list<string> */
+    protected $fillable = ['model_id', 'model_type', 'extra_attributes'];
+    
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     /**
      * Get the attributes that should be cast.
      *
@@ -958,7 +1359,23 @@ class HasExtraTraitTest extends Model implements ExtraContract
             'extra_attributes' => 'collection',
         ];
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
     /**
      * Get the parent model.
      *
@@ -966,6 +1383,7 @@ class HasExtraTraitTest extends Model implements ExtraContract
      */
     public function model()
     {
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         return $this->morphTo();
     }
 }

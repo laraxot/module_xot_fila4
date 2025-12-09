@@ -27,7 +27,10 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Class XotBaseUuidModel.
  *
- * Base class for models using UUIDs.
+ * Base class for models using UUIDs as primary keys.
+ *
+ * Inherits from Model and configures UUID-specific properties.
+ * Used as parent for module-specific BaseUuidModel classes.
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +49,19 @@ abstract class XotBaseUuidModel extends XotBaseModel
 >>>>>>> 5a14301c (.)
 abstract class XotBaseUuidModel extends Model
 {
+    use \Modules\Xot\Traits\Updater;
+    use Traits\HasXotFactory;
+    use Traits\RelationX;
+
+    /**
+     * Indicates whether attributes are snake cased on arrays.
+     *
+     * @see https://laravel-news.com/6-eloquent-secrets
+     *
+     * @var bool
+     */
+    public static $snakeAttributes = true;
+
     /** @var bool */
     public $incrementing = false;
 
@@ -75,6 +91,7 @@ abstract class XotBaseUuidModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     protected $keyType = 'string';
 
@@ -86,10 +103,28 @@ abstract class XotBaseUuidModel extends Model
     /**
      * @return array<string, string>
      */
+=======
+
+    /** @var list<string> */
+    protected $fillable = ['id'];
+
+    /** @var list<string> */
+    protected $appends = [];
+
+    /** @var list<string> */
+    protected $hidden = [];
+
+    /** @return array<string, string> */
+>>>>>>> b7afadf9 (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
+<<<<<<< HEAD
+=======
+            'uuid' => 'string',
+            'published_at' => 'datetime',
+>>>>>>> b7afadf9 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -98,6 +133,7 @@ abstract class XotBaseUuidModel extends Model
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -108,4 +144,6 @@ abstract class XotBaseUuidModel extends Model
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
 }

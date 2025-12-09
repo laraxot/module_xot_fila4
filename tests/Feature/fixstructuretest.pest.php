@@ -1,0 +1,248 @@
+<?php
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+declare(strict_types=1);
+
+use Modules\Xot\Tests\TestCase;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
+
+use function Pest\Laravel\artisan;
+use function Pest\Laravel\assertDatabaseHas;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\{artisan, assertDatabaseHas};
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+uses(TestCase::class);
+
+beforeEach(function () {
+    // Create a temporary directory for testing
+    $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
+<<<<<<< HEAD
+<<<<<<< HEAD
+    mkdir($this->testDir, 0o755, true);
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    mkdir($this->testDir, 0o755, true);
+
+=======
+    mkdir($this->testDir, 0755, true);
+    
+>>>>>>> f1d4085 (.)
+=======
+    mkdir($this->testDir, 0o755, true);
+
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+    mkdir($this->testDir, 0o755, true);
+
+>>>>>>> 300ef70 (.)
+    // Set the working directory
+    chdir($this->testDir);
+});
+
+afterEach(function () {
+    // Clean up the test directory
+    $this->rrmdir($this->testDir);
+});
+
+// Recursive function to remove a directory and its contents
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+function rrmdir($dir)
+{
+    if (is_dir($dir)) {
+        $objects = scandir($dir);
+        foreach ($objects as $object) {
+            if ($object !== '.' && $object !== '..') {
+                if (is_dir($dir . DIRECTORY_SEPARATOR . $object) && !is_link($dir . '/' . $object)) {
+                    rrmdir($dir . DIRECTORY_SEPARATOR . $object);
+                } else {
+                    unlink($dir . DIRECTORY_SEPARATOR . $object);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+function rrmdir($dir) {
+    if (is_dir($dir)) {
+        $objects = scandir($dir);
+        foreach ($objects as $object) {
+            if ($object != "." && $object != "..") {
+                if (is_dir($dir. DIRECTORY_SEPARATOR .$object) && !is_link($dir."/".$object)) {
+                    rrmdir($dir. DIRECTORY_SEPARATOR .$object);
+                } else {
+                    unlink($dir. DIRECTORY_SEPARATOR .$object);
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+                }
+            }
+        }
+        rmdir($dir);
+    }
+}
+
+test('creates necessary directories and files', function () {
+    // Run the command
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+=======
+    $this->artisan('xot:fix-structure')
+         ->assertExitCode(0);
+>>>>>>> f1d4085 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 300ef70 (.)
+
+    // Check if directories were created
+    $directories = [
+        'app/Models',
+        'app/Http/Controllers',
+        'app/Http/Requests',
+        'app/Http/Resources',
+        'app/Http/Middleware',
+        'app/Providers',
+        'database/migrations',
+        'database/seeders',
+        'database/factories',
+        'resources/views',
+        'routes',
+        'tests/Feature',
+        'tests/Unit',
+    ];
+
+    foreach ($directories as $directory) {
+        $this->assertDirectoryExists($this->testDir . '/' . $directory);
+    }
+
+    // Check if .gitkeep files were created in empty directories
+    $gitkeepFiles = [
+        'app/Models/.gitkeep',
+        'app/Http/Controllers/.gitkeep',
+        'app/Http/Requests/.gitkeep',
+        'app/Http/Resources/.gitkeep',
+        'database/seeders/.gitkeep',
+        'resources/views/.gitkeep',
+    ];
+
+    foreach ($gitkeepFiles as $file) {
+        $this->assertFileExists($this->testDir . '/' . $file);
+    }
+});
+
+test('does not overwrite existing files', function () {
+    // Create a test file that should not be overwritten
+    $testContent = 'Test content';
+    $testFile = $this->testDir . '/routes/web.php';
+    file_put_contents($testFile, $testContent);
+
+    // Run the command
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+=======
+    $this->artisan('xot:fix-structure')
+         ->assertExitCode(0);
+>>>>>>> f1d4085 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 300ef70 (.)
+
+    // Verify the file was not overwritten
+    $this->assertStringEqualsFile($testFile, $testContent);
+});
+
+test('handles errors gracefully', function () {
+    // Make a directory non-writable to test error handling
+    $nonWritableDir = $this->testDir . '/app';
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+    chmod($nonWritableDir, 0o555);
+
+    // Run the command and expect an error
+    $this->artisan('xot:fix-structure')->assertExitCode(1);
+
+    // Restore permissions
+    chmod($nonWritableDir, 0o755);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    chmod($nonWritableDir, 0555);
+
+    // Run the command and expect an error
+    $this->artisan('xot:fix-structure')
+         ->assertExitCode(1);
+
+    // Restore permissions
+    chmod($nonWritableDir, 0755);
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+});

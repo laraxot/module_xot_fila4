@@ -149,6 +149,7 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
  * @method static Builder|HealthCheckResultHistoryItem whereCreatedBy($value)
  * @method static Builder|HealthCheckResultHistoryItem whereUpdatedBy($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperHealthCheckResultHistoryItem
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,6 +168,13 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
 =======
  * @mixin IdeHelperHealthCheckResultHistoryItem
 >>>>>>> 53d6a6ba (.)
+=======
+ *
+<<<<<<< HEAD
+ * @mixin IdeHelperHealthCheckResultHistoryItem
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
  * @mixin \Eloquent
  */
 class HealthCheckResultHistoryItem extends BaseHealthCheckResultHistoryItem

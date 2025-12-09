@@ -48,6 +48,7 @@ class ConfigService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static ?self $instance = null;
 =======
     private static null|self $instance = null;
@@ -113,15 +114,25 @@ class ConfigService
 =======
 =======
 >>>>>>> 6dcebf8a (.)
+=======
     private static ?self $instance = null;
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    private static ?self $instance = null;
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
     private static null|self $instance = null;
 =======
     private static ?self $instance = null;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,10 +236,13 @@ class ConfigService
     private static null|self $instance = null;
 >>>>>>> 9db27d12 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 =======
     private static null|self $instance = null;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -239,6 +253,12 @@ class ConfigService
 =======
     private static ?self $instance = null;
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+    private static null|self $instance = null;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
 
     public function __construct()
     {
@@ -286,6 +306,7 @@ class ConfigService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
 =======
@@ -363,6 +384,13 @@ class ConfigService
 =======
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+        if (! (self::$instance instanceof self)) {
+            self::$instance = new self;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
 =======
@@ -373,11 +401,15 @@ class ConfigService
         if (!(self::$instance instanceof self)) {
             self::$instance = new self();
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
         }
 
         return self::$instance;

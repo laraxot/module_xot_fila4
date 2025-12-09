@@ -171,6 +171,7 @@ final class Extra extends BaseExtra {}
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperExtra
 =======
  *
@@ -179,6 +180,13 @@ final class Extra extends BaseExtra {}
 =======
  * @mixin IdeHelperExtra
 >>>>>>> 53d6a6ba (.)
+=======
+ *
+<<<<<<< HEAD
+ * @mixin IdeHelperExtra
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
  * @mixin \Eloquent
  */
 class Extra extends BaseExtra

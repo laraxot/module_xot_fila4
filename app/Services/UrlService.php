@@ -49,6 +49,7 @@ class UrlService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static ?self $instance = null;
 =======
     private static null|self $instance = null;
@@ -114,15 +115,25 @@ class UrlService
 =======
 =======
 >>>>>>> 6dcebf8a (.)
+=======
     private static ?self $instance = null;
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    private static ?self $instance = null;
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
     private static null|self $instance = null;
 =======
     private static ?self $instance = null;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,10 +237,13 @@ class UrlService
     private static null|self $instance = null;
 >>>>>>> 9db27d12 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 =======
     private static null|self $instance = null;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -240,6 +254,12 @@ class UrlService
 =======
     private static ?self $instance = null;
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+    private static null|self $instance = null;
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
 
     public function __construct()
     {
@@ -279,6 +299,7 @@ class UrlService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         include_once __DIR__.'/vendor/autoload.php';
 =======
         include_once __DIR__ . '/vendor/autoload.php';
@@ -344,15 +365,25 @@ class UrlService
 =======
 =======
 >>>>>>> 6dcebf8a (.)
+=======
         include_once __DIR__.'/vendor/autoload.php';
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        include_once __DIR__.'/vendor/autoload.php';
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         include_once __DIR__ . '/vendor/autoload.php';
 =======
         include_once __DIR__.'/vendor/autoload.php';
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -456,10 +487,13 @@ class UrlService
         include_once __DIR__ . '/vendor/autoload.php';
 >>>>>>> 9db27d12 (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 =======
         include_once __DIR__ . '/vendor/autoload.php';
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -470,6 +504,12 @@ class UrlService
 =======
         include_once __DIR__.'/vendor/autoload.php';
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+        include_once __DIR__ . '/vendor/autoload.php';
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
     }
 
     public static function getInstance(): self
@@ -509,6 +549,7 @@ class UrlService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
 =======
@@ -586,6 +627,13 @@ class UrlService
 =======
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+        if (! (self::$instance instanceof self)) {
+            self::$instance = new self;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
 =======
@@ -596,11 +644,15 @@ class UrlService
         if (!(self::$instance instanceof self)) {
             self::$instance = new self();
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
         }
 
         return self::$instance;

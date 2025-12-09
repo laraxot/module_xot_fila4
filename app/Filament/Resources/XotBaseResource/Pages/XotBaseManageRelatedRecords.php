@@ -48,6 +48,7 @@ use Override;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 use Webmozart\Assert\Assert;
@@ -227,6 +228,9 @@ use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecord
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -275,6 +279,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return '';
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,6 +477,14 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 =======
      * @return array<\Filament\Schemas\Components\Component>
 >>>>>>> 53d6a6ba (.)
+=======
+    /*
+<<<<<<< HEAD
+     * @return array<\Filament\Forms\Components\Component>
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+>>>>>>> a5dccfe (.)
+>>>>>>> b7afadf9 (.)
      */
     // abstract public static function getFormSchema(): array;
 
@@ -514,7 +527,10 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      *
      * @return array<string, TextColumn>
      */
-    #[Override]
+    #[\Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableColumns(): array
     {
         return [
@@ -555,6 +571,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
             'edit' => Action::make('edit')
                 ->label('Modifica')
                 ->icon('heroicon-o-pencil')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -724,6 +741,17 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 =======
                 ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
 >>>>>>> 53d6a6ba (.)
+=======
+                ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+=======
+                ->url(function (Model $record): string {
+                    $url = static::getResource()::getUrl('edit', ['record' => $record]);
+                    Assert::string($url);
+
+                    return $url;
+                }),
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')

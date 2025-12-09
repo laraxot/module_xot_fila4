@@ -17269,7 +17269,10 @@ if (! function_exists('removeQueryParams')) {
         $url = url()->current(); // get the base URL - everything to the left of the "?"
         $query = request()->query(); // get the query parameters (what follows the "?")
         Assert::isArray($query);
+        /** @var array<string, mixed> $cleanQuery */
+        $cleanQuery = $query;
         foreach ($params as $param) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17509,6 +17512,14 @@ if (! function_exists('removeQueryParams')) {
 >>>>>>> 16dc7ab0 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+            if (is_string($param) || is_int($param)) {
+                unset($cleanQuery[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
+            }
+        }
+
+        return $cleanQuery ? ($url.'?'.http_build_query($cleanQuery)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> b7afadf9 (.)
     }
 }
 
@@ -20626,6 +20637,7 @@ if (! function_exists('debugStack')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
         if (! extension_loaded('xdebug')) {
@@ -20978,8 +20990,18 @@ if (! function_exists('debugStack')) {
         if (function_exists('xdebug_print_function_stack')) {
             xdebug_print_function_stack();
         } else {
+=======
+        // Prefer using xdebug when available, otherwise fallback to PHP backtrace
+        if (extension_loaded('xdebug')) {
+            // Avoid direct calls to xdebug_* to keep static analysis satisfied
+            // and rely on generic backtrace instead.
+>>>>>>> b7afadf9 (.)
             debug_print_backtrace();
+
+            return;
         }
+
+        debug_print_backtrace();
     }
 }
 
@@ -24752,10 +24774,11 @@ function safe_object_call($object, string $method, ...$args)
 =======
 >>>>>>> 16dc7ab0 (.)
     if (! is_object($object)) {
-        return null;
+        return;
     }
 
     if (! method_exists($object, $method)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25069,6 +25092,9 @@ function safe_object_call($object, string $method, ...$args)
 =======
 >>>>>>> 53d6a6ba (.)
         return null;
+=======
+        return;
+>>>>>>> b7afadf9 (.)
     }
 
     return $object->$method(...$args);

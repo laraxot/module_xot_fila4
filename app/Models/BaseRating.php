@@ -4,13 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-use Illuminate\Database\Eloquent\Model;
-
 /**
  * Class BaseRating.
  *
- * Base class for ratings extending Eloquent Model.
+ * Base class for ratings extending XotBaseModel.
+ *
+ * Provides common functionality for rating systems across all modules.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,6 +33,9 @@ abstract class BaseRating extends Model
 =======
 abstract class BaseRating extends Model
 >>>>>>> 53d6a6ba (.)
+=======
+abstract class BaseRating extends XotBaseModel
+>>>>>>> b7afadf9 (.)
 {
     // Common properties and methods for ratings can be added here.
 }

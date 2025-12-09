@@ -74,10 +74,36 @@ class SanitizeAction
 =======
 >>>>>>> b7ea1cd1 (.)
 use Illuminate\Support\Str;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+use function Safe\preg_replace;
+
+use Spatie\QueueableAction\QueueableAction;
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 class SanitizeAction
 {
     use QueueableAction;
@@ -191,6 +217,7 @@ class SanitizeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 43d67f21 (.)
 =======
@@ -235,6 +262,8 @@ class SanitizeAction
 >>>>>>> 16dc7ab0 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
 
         $replaced = preg_replace('/\s+/', ' ', $str);
         $str = is_string($replaced) ? $replaced : $str;
@@ -264,6 +293,7 @@ class SanitizeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -322,10 +352,14 @@ class SanitizeAction
 =======
 =======
 >>>>>>> 14edd1a1 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
         $str = preg_replace('/\s+/', ' ', $str);
         if (Str::startsWith($str, '-')) {
             $str = Str::after($str, '-');
             $str = $this->execute($str);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -459,6 +493,9 @@ class SanitizeAction
 >>>>>>> 16dc7ab0 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 0218cd5 (.)
+>>>>>>> b7afadf9 (.)
         }
 
         return $str;
@@ -482,6 +519,16 @@ class SanitizeAction
 }
 
 /*
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
  * $string = trim($item);
  *
  *
@@ -494,3 +541,26 @@ class SanitizeAction
  * // Additional removal of non-printable characters
  * $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
  */
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+$string = trim($item);
+
+
+// Convert special characters to HTML entities
+$string = htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
+
+// Remove potentially dangerous tags or attributes (like <script>)
+$string = strip_tags($string);
+
+// Additional removal of non-printable characters
+$string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
+*/
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

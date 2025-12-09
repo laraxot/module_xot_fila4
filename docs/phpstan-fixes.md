@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # PHPStan Fixes - Xot Module
 >>>>>>> d86d643a (.)
@@ -465,6 +466,8 @@ protected $model = Cache::class;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Correzioni PHPStan Livello 7 - Modulo Xot
 =======
 # Correzioni PHPStan - 6 Gennaio 2025
@@ -1215,6 +1218,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 =======
@@ -1224,11 +1228,14 @@ private function exportTablesToCSV(string $mdbFile): array
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 # Correzioni PHPStan - 6 Gennaio 2025
 
 ## Errori Risolti
 
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1253,6 +1260,8 @@ private function exportTablesToCSV(string $mdbFile): array
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
 ### 1. Chart/app/Datas/AnswersChartData.php
 
 **Problema**: Errori `argument.type` e `offsetAccess.nonOffsetAccessible`
@@ -1286,6 +1295,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
@@ -1327,6 +1337,11 @@ private function exportTablesToCSV(string $mdbFile): array
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 
 **Problema**: Linea 21 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, mixed>` ma restituiva `array<mixed, mixed>`
@@ -1379,6 +1394,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -1397,6 +1413,8 @@ private function exportTablesToCSV(string $mdbFile): array
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
     foreach ($tables as $table) {
         // ... codice per importare i dati ...
     }
@@ -1417,6 +1435,7 @@ Queste modifiche garantiscono che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 =======
@@ -1448,6 +1467,10 @@ Queste modifiche garantiscono che:
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 **Soluzione**:
 - Aggiunto PHPDoc con tipo di ritorno corretto
 - Aggiunto cast esplicito al risultato
@@ -1494,6 +1517,7 @@ Queste modifiche garantiscono che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
@@ -1535,6 +1559,11 @@ Queste modifiche garantiscono che:
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 
 **Soluzione**:
 - Separato controllo per `UserContract` e `null`
@@ -1590,6 +1619,7 @@ Queste modifiche garantiscono che:
 =======
 
 >>>>>>> 71f31700 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### 18. Correzione in Console/Commands/SearchStringInDatabaseCommand.php
 
@@ -1677,6 +1707,7 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 =======
@@ -1734,3 +1765,8 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+=======
+*Ultimo aggiornamento: 6 Gennaio 2025*
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)

@@ -115,6 +115,7 @@ class UpdateAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          */
         $model = tap($model)->update($data);
 
@@ -130,10 +131,13 @@ class UpdateAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,11 +194,14 @@ class UpdateAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
          *
          */
         $model = tap($model)->update($data);
 
         app(__NAMESPACE__ . '\\Update\RelationAction')->execute($model, $data);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,9 +245,12 @@ class UpdateAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +272,8 @@ class UpdateAction
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
 
          */
         $model = tap($model)->update($data);
@@ -275,10 +287,13 @@ class UpdateAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
 >>>>>>> a12f125f4a (.)
@@ -295,6 +310,7 @@ class UpdateAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -356,6 +372,8 @@ class UpdateAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 
         // $msg = 'aggiornato! ['.$model->getKey().']!';
 

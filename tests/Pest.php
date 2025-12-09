@@ -2,6 +2,12 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -338,6 +344,71 @@ pest()->extend(TestCase::class)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+namespace Modules\Xot\Tests\Pest;
+
+
+=======
+use Modules\Xot\Tests\TestCase;
+>>>>>>> b93ef594b4 (.)
+
+/*
+ * |--------------------------------------------------------------------------
+ * | Test Case
+ * |--------------------------------------------------------------------------
+ * |
+ * | Il TestCase di default per tutti i test del modulo Xot.
+ * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
+ * |
+ */
+
+pest()->extend(TestCase::class)->in('Feature', 'Unit');
+
+/*
+<<<<<<< HEAD
+=======
+use Modules\Xot\Tests\TestCase;
+
+/*
+|--------------------------------------------------------------------------
+| Test Case
+|--------------------------------------------------------------------------
+|
+| Il TestCase di default per tutti i test del modulo Xot.
+| Estende il TestCase specifico del modulo che fornisce il setup necessario.
+|
+*/
+
+pest()->extend(TestCase::class)
+    ->in('Feature', 'Unit');
+
+/*
+>>>>>>> origin/develop
+|--------------------------------------------------------------------------
+| Expectations
+|--------------------------------------------------------------------------
+|
+| Qui puoi definire aspettative globali per il modulo Xot.
+<<<<<<< HEAD
+
+| in tutti i test del modulo.
+|
+*/
+>>>>>>> a12f125f4a (.)
+=======
+ * |--------------------------------------------------------------------------
+ * | Expectations
+ * |--------------------------------------------------------------------------
+ * |
+ * | Qui puoi definire aspettative globali per il modulo Xot.
+ * | Quando definisci here expectation globali, saranno disponibili
+ * | in tutti i test del modulo.
+ * |
+ */
+>>>>>>> 399f46d3 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 | Quando definisci here expectation globali, saranno disponibili 
@@ -346,6 +417,7 @@ pest()->extend(TestCase::class)
 */
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -354,6 +426,8 @@ pest()->extend(TestCase::class)
 >>>>>>> 21348520 (.)
 =======
 namespace Modules\Xot\Tests\Pest;
+=======
+>>>>>>> 399f46d3 (.)
 
 
 
@@ -747,6 +821,14 @@ namespace Modules\Xot\Tests\Pest;
 // });
 
 /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -755,6 +837,7 @@ namespace Modules\Xot\Tests\Pest;
  * | Queste funzioni saranno disponibili in tutti i test.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -878,10 +961,16 @@ namespace Modules\Xot\Tests\Pest;
 // }
 =======
 >>>>>>> 71f31700 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -951,9 +1040,12 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -975,6 +1067,8 @@ namespace Modules\Xot\Tests\Pest;
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
 |--------------------------------------------------------------------------
 | Functions
 |--------------------------------------------------------------------------
@@ -986,6 +1080,7 @@ namespace Modules\Xot\Tests\Pest;
 
 // function something() {
 //     // ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1014,10 +1109,16 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 399f46d3 (.)
 
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1028,11 +1129,14 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 // } 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1226,3 +1330,5 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 492d6d3c (.)
+=======
+>>>>>>> 399f46d3 (.)

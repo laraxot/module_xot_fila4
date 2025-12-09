@@ -2,16 +2,49 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\States\Transitions\XotBaseTransition;
 
 uses(RefreshDatabase::class);
+<<<<<<< HEAD
+=======
+=======
+use Modules\Xot\States\Transitions\XotBaseTransition;
+use Modules\Xot\Contracts\UserContract;
+=======
+>>>>>>> b93ef594b4 (.)
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\States\Transitions\XotBaseTransition;
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+uses(RefreshDatabase::class);
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Xot\States\Transitions\XotBaseTransition;
+use Modules\Xot\Contracts\UserContract;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+
+uses(RefreshDatabase::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 describe('XotBaseTransition', function () {
     beforeEach(function () {
         // Create a concrete test transition class
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,12 +83,15 @@ describe('XotBaseTransition', function () {
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,6 +142,8 @@ describe('XotBaseTransition', function () {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
         $this->transition = new class extends XotBaseTransition {
 >>>>>>> 5a14301c (.)
 =======
@@ -120,6 +158,20 @@ describe('XotBaseTransition', function () {
             public static string $name = 'test_transition';
 
             #[Override]
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        $this->transition = new class extends XotBaseTransition {
+            public static string $name = 'test_transition';
+            
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             public function getNotificationRecipients(): array
             {
                 return [
@@ -127,6 +179,7 @@ describe('XotBaseTransition', function () {
                     'null_user' => null,
                 ];
             }
+<<<<<<< HEAD
 
             #[Override]
 <<<<<<< HEAD
@@ -137,6 +190,7 @@ describe('XotBaseTransition', function () {
             public function sendRecipientNotification(?UserContract $recipient): void
 =======
             public function sendRecipientNotification(null|UserContract $recipient): void
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +218,8 @@ describe('XotBaseTransition', function () {
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -174,10 +230,13 @@ describe('XotBaseTransition', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -195,6 +254,7 @@ describe('XotBaseTransition', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -272,12 +332,15 @@ describe('XotBaseTransition', function () {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
             {
                 // Mock implementation
             }
         };
 
         // Create a test record
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,12 +379,15 @@ describe('XotBaseTransition', function () {
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,6 +438,8 @@ describe('XotBaseTransition', function () {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
         $this->record = new class extends Model implements UserContract {
 >>>>>>> 5a14301c (.)
 =======
@@ -386,22 +454,54 @@ describe('XotBaseTransition', function () {
             protected $table = 'test_users';
 
             protected $fillable = ['name', 'email'];
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+
+=======
+        $this->record = new class extends Model implements UserContract {
+            protected $table = 'test_users';
+            protected $fillable = ['name', 'email'];
+            
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             // Implement UserContract methods as needed
             public function getAuthIdentifierName(): string
             {
                 return 'id';
             }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             public function getAuthIdentifier(): mixed
             {
                 return $this->id;
             }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             public function getAuthPassword(): string
             {
                 return '';
             }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -431,6 +531,7 @@ describe('XotBaseTransition', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
             public function getRememberToken(): null|string
@@ -440,6 +541,8 @@ describe('XotBaseTransition', function () {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -458,6 +561,7 @@ describe('XotBaseTransition', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -550,15 +654,36 @@ describe('XotBaseTransition', function () {
 =======
             public function getRememberToken(): null|string
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
             {
                 return null;
             }
 
+<<<<<<< HEAD
+=======
+=======
+            
+            public function getRememberToken(): ?string
+            {
+                return null;
+            }
+            
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             public function setRememberToken($value): void
             {
                 // Mock implementation
             }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             public function getRememberTokenName(): string
             {
                 return 'remember_token';
@@ -599,7 +724,15 @@ describe('XotBaseTransition', function () {
 
     it('can get record', function () {
         $record = $this->transition->getRecord();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         expect($record)->toBe($this->record);
     });
 
@@ -609,7 +742,23 @@ describe('XotBaseTransition', function () {
 
     it('can send notifications without errors', function () {
         // This should not throw an exception
+<<<<<<< HEAD
         expect($this->transition->sendNotifications(...))->not->toThrow(Exception::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        expect($this->transition->sendNotifications(...))->not->toThrow(Exception::class);
+=======
+        expect(fn () => $this->transition->sendNotifications())->not->toThrow(Exception::class);
+>>>>>>> a12f125f4a (.)
+=======
+        expect($this->transition->sendNotifications(...))->not->toThrow(Exception::class);
+>>>>>>> b93ef594b4 (.)
+=======
+        expect(fn () => $this->transition->sendNotifications())->not->toThrow(Exception::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     });
 
     it('has getNotificationRecipients method', function () {
@@ -618,7 +767,16 @@ describe('XotBaseTransition', function () {
 
     it('returns correct notification recipients structure', function () {
         $recipients = $this->transition->getNotificationRecipients();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
         expect($recipients)
             ->toBeArray()
             ->and($recipients)
@@ -627,6 +785,24 @@ describe('XotBaseTransition', function () {
             ->toHaveKey('null_user')
             ->and($recipients['null_user'])
             ->toBeNull();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        
+>>>>>>> origin/develop
+        expect($recipients)->toBeArray()
+            ->and($recipients)->toHaveKey('test_user')
+            ->and($recipients)->toHaveKey('null_user')
+            ->and($recipients['null_user'])->toBeNull();
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     });
 
     it('has sendRecipientNotification method', function () {
@@ -635,6 +811,7 @@ describe('XotBaseTransition', function () {
 
     it('can send notification to user contract', function () {
         // This should not throw an exception
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -679,6 +856,10 @@ describe('XotBaseTransition', function () {
         expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
 >>>>>>> 399f46d3 (.)
 =======
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -694,6 +875,8 @@ describe('XotBaseTransition', function () {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
         expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
 =======
         expect(fn () => $this->transition->sendRecipientNotification($this->record))
@@ -707,6 +890,7 @@ describe('XotBaseTransition', function () {
             ->not->toThrow(Exception::class);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -801,10 +985,13 @@ describe('XotBaseTransition', function () {
 =======
         expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     });
 
     it('can send notification to null recipient', function () {
         // This should not throw an exception
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -849,6 +1036,10 @@ describe('XotBaseTransition', function () {
         expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
 >>>>>>> 399f46d3 (.)
 =======
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -864,6 +1055,8 @@ describe('XotBaseTransition', function () {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
         expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
 =======
         expect(fn () => $this->transition->sendRecipientNotification(null))
@@ -877,6 +1070,7 @@ describe('XotBaseTransition', function () {
             ->not->toThrow(Exception::class);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -971,10 +1165,13 @@ describe('XotBaseTransition', function () {
 =======
         expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     });
 
     it('processes recipients correctly in sendNotifications', function () {
         // Mock recipients with mixed types
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1013,12 +1210,15 @@ describe('XotBaseTransition', function () {
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1069,6 +1269,8 @@ describe('XotBaseTransition', function () {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
         $transition = new class extends XotBaseTransition {
 >>>>>>> 5a14301c (.)
 =======
@@ -1083,6 +1285,14 @@ describe('XotBaseTransition', function () {
             public static string $name = 'test_mixed_transition';
 
             #[Override]
+<<<<<<< HEAD
+=======
+=======
+        $transition = new class extends XotBaseTransition {
+            public static string $name = 'test_mixed_transition';
+            
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             public function getNotificationRecipients(): array
             {
                 return [
@@ -1105,6 +1315,10 @@ describe('XotBaseTransition', function () {
                     'valid_user' => new class extends Model implements UserContract {
 >>>>>>> 5a14301c (.)
                         protected $table = 'test_users';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
                         public function getAuthIdentifierName(): string
                         {
@@ -1172,10 +1386,29 @@ describe('XotBaseTransition', function () {
                         {
                             return 'remember_token';
                         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+                        
+                        public function getAuthIdentifierName(): string { return 'id'; }
+                        public function getAuthIdentifier(): mixed { return 1; }
+                        public function getAuthPassword(): string { return ''; }
+                        public function getRememberToken(): ?string { return null; }
+                        public function setRememberToken($value): void { }
+                        public function getRememberTokenName(): string { return 'remember_token'; }
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                     },
                     'null_user' => null,
                 ];
             }
+<<<<<<< HEAD
 
             #[Override]
 <<<<<<< HEAD
@@ -1186,6 +1419,7 @@ describe('XotBaseTransition', function () {
             public function sendRecipientNotification(?UserContract $recipient): void
 =======
             public function sendRecipientNotification(null|UserContract $recipient): void
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1213,6 +1447,8 @@ describe('XotBaseTransition', function () {
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -1223,10 +1459,13 @@ describe('XotBaseTransition', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -1241,6 +1480,7 @@ describe('XotBaseTransition', function () {
             public function sendRecipientNotification(?UserContract $recipient): void
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1321,33 +1561,103 @@ describe('XotBaseTransition', function () {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
             {
                 // Mock implementation
             }
         };
 
         // This should process without errors
+<<<<<<< HEAD
         expect($transition->sendNotifications(...))->not->toThrow(Exception::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        expect($transition->sendNotifications(...))->not->toThrow(Exception::class);
+=======
+        expect(fn () => $transition->sendNotifications())->not->toThrow(Exception::class);
+>>>>>>> a12f125f4a (.)
+=======
+        expect($transition->sendNotifications(...))->not->toThrow(Exception::class);
+>>>>>>> b93ef594b4 (.)
+=======
+        expect(fn () => $transition->sendNotifications())->not->toThrow(Exception::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     });
 
     it('validates abstract class structure', function () {
         $reflection = new ReflectionClass(XotBaseTransition::class);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
         expect($reflection->isAbstract())
             ->toBeTrue()
             ->and($reflection->hasMethod('sendNotifications'))
             ->toBeTrue()
             ->and($reflection->hasMethod('getRecord'))
             ->toBeTrue();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        expect($reflection->isAbstract())->toBeTrue()
+            ->and($reflection->hasMethod('sendNotifications'))->toBeTrue()
+            ->and($reflection->hasMethod('getRecord'))->toBeTrue();
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        
+        expect($reflection->isAbstract())->toBeTrue()
+            ->and($reflection->hasMethod('sendNotifications'))->toBeTrue()
+            ->and($reflection->hasMethod('getRecord'))->toBeTrue();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     });
 
     it('has proper method signatures', function () {
         $reflection = new ReflectionClass(XotBaseTransition::class);
+<<<<<<< HEAD
 
         // Check sendNotifications method
         $sendMethod = $reflection->getMethod('sendNotifications');
         expect($sendMethod->isPublic())->toBeTrue()->and($sendMethod->getReturnType()?->getName())->toBe('void');
 
+=======
+<<<<<<< HEAD
+
+        // Check sendNotifications method
+        $sendMethod = $reflection->getMethod('sendNotifications');
+<<<<<<< HEAD
+<<<<<<< HEAD
+        expect($sendMethod->isPublic())->toBeTrue()->and($sendMethod->getReturnType()?->getName())->toBe('void');
+=======
+        expect($sendMethod->isPublic())->toBeTrue()
+            ->and($sendMethod->getReturnType()?->getName())->toBe('void');
+>>>>>>> a12f125f4a (.)
+=======
+        expect($sendMethod->isPublic())->toBeTrue()->and($sendMethod->getReturnType()?->getName())->toBe('void');
+>>>>>>> b93ef594b4 (.)
+
+=======
+        
+        // Check sendNotifications method
+        $sendMethod = $reflection->getMethod('sendNotifications');
+        expect($sendMethod->isPublic())->toBeTrue()
+            ->and($sendMethod->getReturnType()?->getName())->toBe('void');
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         // Check getRecord method
         $getRecordMethod = $reflection->getMethod('getRecord');
         expect($getRecordMethod->isPublic())->toBeTrue();
@@ -1355,7 +1665,15 @@ describe('XotBaseTransition', function () {
 
     it('handles type checking correctly', function () {
         $recipients = $this->transition->getNotificationRecipients();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         foreach ($recipients as $recipient) {
             if ($recipient !== null) {
                 expect($recipient instanceof UserContract || $recipient instanceof Model)->toBeTrue();
@@ -1366,15 +1684,45 @@ describe('XotBaseTransition', function () {
     it('has proper documentation', function () {
         $reflection = new ReflectionClass(XotBaseTransition::class);
         $method = $reflection->getMethod('sendNotifications');
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         expect($method->isPublic())->toBeTrue();
     });
 
     it('validates inheritance requirements', function () {
         // Test that concrete implementations must provide required methods
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
         expect(method_exists($this->transition, 'getNotificationRecipients'))
             ->toBeTrue()
             ->and(method_exists($this->transition, 'sendRecipientNotification'))
             ->toBeTrue();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        expect(method_exists($this->transition, 'getNotificationRecipients'))->toBeTrue()
+            ->and(method_exists($this->transition, 'sendRecipientNotification'))->toBeTrue();
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        expect(method_exists($this->transition, 'getNotificationRecipients'))->toBeTrue()
+            ->and(method_exists($this->transition, 'sendRecipientNotification'))->toBeTrue();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     });
 });

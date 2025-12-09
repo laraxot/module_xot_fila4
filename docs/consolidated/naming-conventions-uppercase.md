@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -224,6 +225,8 @@ Tipi: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Convenzioni di Nomenclatura in Laravel Modules
 
 Questo documento definisce le convenzioni ufficiali di nomenclatura da utilizzare in tutto il progetto Laravel Modules.
@@ -289,6 +292,7 @@ Questo documento descrive le convenzioni di denominazione da seguire all'interno
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -306,3 +310,5 @@ Questo documento descrive le convenzioni di denominazione da seguire all'interno
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -9,6 +10,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36,6 +38,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,10 +50,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -62,6 +69,7 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,6 +147,8 @@ declare(strict_types=1);
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 return [
     'fields' => [
         'create' => [

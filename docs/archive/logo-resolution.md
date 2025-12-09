@@ -122,6 +122,7 @@ Per la versione dark:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -151,11 +152,14 @@ Per la versione dark:
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
 - [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
 - [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
 - [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
 - [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,10 +224,13 @@ Per la versione dark:
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 ---
 
 ### Nota Importante
 Questo documento è parte della documentazione generale del modulo Xot e descrive un meccanismo riutilizzabile in diversi progetti. La documentazione nei moduli è generica e riutilizzabile, mentre le informazioni specifiche del progetto si trovano nella documentazione nella root del progetto.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,3 +257,5 @@ Questo documento è parte della documentazione generale del modulo Xot e descriv
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

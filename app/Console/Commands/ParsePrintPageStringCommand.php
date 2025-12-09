@@ -8,7 +8,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Console\Command;
 use Modules\Xot\Actions\ParsePrintPageStringAction;
 
@@ -45,7 +52,9 @@ class ParsePrintPageStringCommand extends Command
      *
      * @return void
      */
+<<<<<<< HEAD
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +86,8 @@ class ParsePrintPageStringCommand extends Command
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,6 +95,7 @@ class ParsePrintPageStringCommand extends Command
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,10 +117,13 @@ class ParsePrintPageStringCommand extends Command
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
     public function __construct()
     {
         parent::__construct();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +138,8 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
 >>>>>>> a12f125f4a (.)
 =======
     
@@ -130,6 +147,7 @@ class ParsePrintPageStringCommand extends Command
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +216,8 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 
     /**
      * Execute the console command.
@@ -205,6 +225,7 @@ class ParsePrintPageStringCommand extends Command
     public function handle(): void
     {
         $str = $this->argument('str');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,6 +269,8 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
         if (!is_string($str)) {
 >>>>>>> 5a14301c (.)
 =======
@@ -331,6 +354,23 @@ class ParsePrintPageStringCommand extends Command
         if (!is_string($str)) {
 >>>>>>> 3fbbf1f5 (.)
             throw new Exception('argument str must be a string');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!is_string($str)) {
+=======
+        if (! is_string($str)) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!is_string($str)) {
+>>>>>>> b93ef594b4 (.)
+            throw new Exception('argument str must be a string');
+=======
+        if (! is_string($str)) {
+            throw new \Exception('argument str must be a string');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         }
         dddx(app(ParsePrintPageStringAction::class)->execute($str));
     }

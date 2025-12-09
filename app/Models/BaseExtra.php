@@ -29,6 +29,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ExtraContract;
@@ -49,6 +50,8 @@ use Modules\Xot\Database\Factories\ExtraFactory;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
 use Override;
 =======
 use Override;
@@ -130,6 +133,21 @@ use Override;
 >>>>>>> 3fbbf1f5 (.)
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Support\Carbon;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Modules\Xot\Database\Factories\ExtraFactory;
+use Illuminate\Support\Carbon;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Contracts\ExtraContract;
@@ -179,6 +197,10 @@ use Webmozart\Assert\Assert;
 >>>>>>> 5a14301c (.)
  * @property \Spatie\SchemalessAttributes\SchemalessAttributes $extra_attributes
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
  * @method static Builder|BaseModel disableCache()
  * @method static ExtraFactory factory($count = null, $state = [])
  * @method static Builder|Extra newModelQuery()
@@ -229,6 +251,36 @@ use Webmozart\Assert\Assert;
  * @method static Builder|Extra whereModelType($value)
  * @method static Builder|Extra whereUpdatedAt($value)
  * @method static Builder|Extra whereUpdatedBy($value)
+<<<<<<< HEAD
+=======
+=======
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseModel disableCache()
+ * @method static \Modules\Xot\Database\Factories\ExtraFactory    factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra     newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra     newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra     query()
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseModel withCacheCooldownSeconds(?int $seconds = null)
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra     withExtraAttributes()
+ *
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string|null                     $updated_by
+ * @property string|null                     $created_by
+ * @property \Illuminate\Support\Carbon|null $deleted_at
+ * @property string|null                     $deleted_by
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra whereDeletedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra whereExtraAttributes($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra whereModelId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra whereModelType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Extra whereUpdatedBy($value)
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
  *
  * @mixin \Eloquent
  */
@@ -261,7 +313,23 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
 >>>>>>> 5a14301c (.)
     public function scopeWithExtraAttributes(): Builder
     {
+<<<<<<< HEAD
         Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
+=======
+        Assert::notNull($this->extra_attributes, '['.__FILE__.']['.__LINE__.']');
+>>>>>>> a12f125f4a (.)
+=======
+        Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
+>>>>>>> b93ef594b4 (.)
+=======
+        Assert::notNull($this->extra_attributes, '['.__FILE__.']['.__LINE__.']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
         return $this->extra_attributes->modelScope();
     }
@@ -281,14 +349,54 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
     #[Override]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     protected function casts(): array
     {
         return [
             'extra_attributes' => SchemalessAttributes::class,
+<<<<<<< HEAD
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+=======
+=======
+>>>>>>> origin/develop
+
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

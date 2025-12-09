@@ -124,6 +124,7 @@ interface ModelProfileContract extends ModelContract
      * @param  array<int, string|int|\Spatie\Permission\Contracts\Role>|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection<int, \Spatie\Permission\Contracts\Role>  $roles
      * @return $this
      */
+<<<<<<< HEAD
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +137,23 @@ interface ModelProfileContract extends ModelContract
 =======
 >>>>>>> 5a14301c (.)
     ]);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+=======
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
+>>>>>>> a12f125f4a (.)
+=======
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+>>>>>>> b93ef594b4 (.)
+=======
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
     /**
      * Determine if the model has (one of) the given role(s).
@@ -158,6 +176,14 @@ interface ModelProfileContract extends ModelContract
 >>>>>>> 5a14301c (.)
      * @param  string|int|array<int, string|int|\Spatie\Permission\Contracts\Role>|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection<int, \Spatie\Permission\Contracts\Role>  $roles
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
         null|string $guard = null,
@@ -172,6 +198,18 @@ interface ModelProfileContract extends ModelContract
 =======
 >>>>>>> 5a14301c (.)
     ): bool;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+    public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
     /**
      * Determine if the model has any of the given role(s).
@@ -188,6 +226,7 @@ interface ModelProfileContract extends ModelContract
 =======
      * @param  string|int|array<int, string|int|\Spatie\Permission\Contracts\Role>|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection<int, \Spatie\Permission\Contracts\Role>  $roles
      */
+<<<<<<< HEAD
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
 >>>>>>> 5a14301c (.)
 =======
@@ -206,12 +245,30 @@ interface ModelProfileContract extends ModelContract
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
 >>>>>>> 5a14301c (.)
     ]): bool;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+=======
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
+>>>>>>> a12f125f4a (.)
+=======
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+>>>>>>> b93ef594b4 (.)
+=======
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = []): bool;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
     /**
      * Determine if the model may perform the given permission.
      *
      * @throws PermissionDoesNotExist
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,6 +313,9 @@ interface ModelProfileContract extends ModelContract
     public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
 >>>>>>> 399f46d3 (.)
 =======
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,6 +330,7 @@ interface ModelProfileContract extends ModelContract
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,6 +430,8 @@ interface ModelProfileContract extends ModelContract
 =======
     public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 
     /**
      * Create a new Eloquent query builder for the model.

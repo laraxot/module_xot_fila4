@@ -16,6 +16,7 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use Illuminate\Database\Eloquent\Collection;
 =======
@@ -52,9 +53,14 @@ use Illuminate\Database\Eloquent\Collection;
 use Exception;
 >>>>>>> 399f46d3 (.)
 =======
+use Illuminate\Database\Eloquent\Collection;
+use Exception;
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Collection;
 use Exception;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,6 +74,8 @@ use Exception;
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 use InvalidArgumentException;
 >>>>>>> a12f125f4a (.)
 =======
@@ -75,6 +83,7 @@ use InvalidArgumentException;
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,6 +178,8 @@ use InvalidArgumentException;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Arr;
@@ -186,6 +197,14 @@ class BelongsToAction
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsTo::class);
 
         /*$relationDTO->data e' un array
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
          * if (! \is_array($relationDTO->data)) {
          * $related = $rows->getRelated();
          * $related = $related->find($relationDTO->data);
@@ -195,6 +214,10 @@ class BelongsToAction
          * return;
          * }
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,6 +231,7 @@ class BelongsToAction
         if (!Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
             $related_id = Arr::first($relationDTO->data);
             if (null === $related_id) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,9 +275,12 @@ class BelongsToAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,11 +302,14 @@ class BelongsToAction
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
         if (! \is_array($relationDTO->data)) {
             $related = $rows->getRelated();
             $related = $related->find($relationDTO->data);
             $res = $rows->associate($related);
             $res->save();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +325,8 @@ class BelongsToAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 >>>>>>> b93ef594b4 (.)
 
         if (!Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
@@ -306,6 +338,7 @@ class BelongsToAction
             if (null === $related_id) {
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -393,6 +426,8 @@ class BelongsToAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
                 return;
             }
 
@@ -402,6 +437,7 @@ class BelongsToAction
                 $related = $related->first(); // Prendi il primo modello della collezione
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,6 +481,8 @@ class BelongsToAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
             if (!($related instanceof Model)) {
 >>>>>>> 5a14301c (.)
 =======
@@ -528,6 +566,39 @@ class BelongsToAction
             if (!($related instanceof Model)) {
 >>>>>>> 3fbbf1f5 (.)
                 throw new Exception('Expected a single model, got null or invalid object.');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!($related instanceof Model)) {
+=======
+            if (! $related instanceof Model) {
+>>>>>>> a12f125f4a (.)
+=======
+            if (!($related instanceof Model)) {
+>>>>>>> b93ef594b4 (.)
+                throw new Exception('Expected a single model, got null or invalid object.');
+=======
+
+            return;
+        }
+        */
+
+        if (! Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+            $related_id = Arr::first($relationDTO->data);
+            if (null === $related_id) {
+                return;
+            }
+            
+            $related = $relationDTO->related->find($related_id);
+            // Verifica che $related non sia una Collection, ma un singolo modello
+            if ($related instanceof \Illuminate\Database\Eloquent\Collection) {
+                $related = $related->first(); // Prendi il primo modello della collezione
+            }
+
+            if (! $related instanceof Model) {
+                throw new \Exception('Expected a single model, got null or invalid object.');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             }
             $res = $rows->associate($related);
             $res->save();
@@ -538,6 +609,7 @@ class BelongsToAction
         if (Arr::isAssoc($relationDTO->data)) {
             $sub = $rows->firstOrCreate();
             // $sub = $rows->first() ?? $rows->getModel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -589,6 +661,11 @@ class BelongsToAction
                 throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 399f46d3 (.)
 =======
+            if (null === $sub) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -604,6 +681,8 @@ class BelongsToAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
             if (null === $sub) {
                 throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 =======
@@ -619,6 +698,7 @@ class BelongsToAction
                 throw new \Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -729,6 +809,8 @@ class BelongsToAction
             if (null === $sub) {
                 throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
             }
 
             app(RelationAction::class)->execute($sub, $relationDTO->data);
@@ -739,6 +821,7 @@ class BelongsToAction
 
         if ($rows->exists()) {
             // $rows->update($data); // non passa per il mutator
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -798,11 +881,15 @@ class BelongsToAction
             $model->{Str::camel($relationDTO->name)}->update($data);
 >>>>>>> 399f46d3 (.)
 =======
+            $model->{Str::camel($relationDTO->name)}->update($data);
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $model->{Str::camel($relationDTO->name)}->update($data);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -827,6 +914,8 @@ class BelongsToAction
             $model->{Str::camel($relationDTO->name)}->update($data);
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
             $relationName = Str::camel($relationDTO->name);
             $relatedModel = $model->{$relationName};
 
@@ -843,10 +932,13 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
 >>>>>>> a12f125f4a (.)
@@ -857,6 +949,7 @@ class BelongsToAction
             $model->{Str::camel($relationDTO->name)}->update($data);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -936,6 +1029,8 @@ class BelongsToAction
 =======
             $model->{Str::camel($relationDTO->name)}->update($data);
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 
             return;
         }

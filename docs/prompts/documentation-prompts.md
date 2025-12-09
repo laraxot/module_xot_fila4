@@ -145,8 +145,10 @@ Questo documento descrive le regole e le best practices per i prompt di document
 # Collegamenti Corretti
 [Documento Correlato](../documento.md)
 [Documento in Sottodirectory](./sottodirectory/documento.md)
+<<<<<<< HEAD
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,9 +188,12 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,12 +261,15 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
 ```
 
 ### Formato Non Corretto
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,8 +333,14 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
+>>>>>>> 6cba4fe (.)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> 71f31700 (.)
 =======

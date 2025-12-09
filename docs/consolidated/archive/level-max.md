@@ -24,6 +24,7 @@ Trovati 4 errori al livello max.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 =======
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
@@ -95,6 +96,9 @@ Trovati 4 errori al livello max.
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 >>>>>>> 5a14301c (.)
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> 399f46d3 (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -128,6 +132,7 @@ Trovati 4 errori al livello max.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 =======
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -199,6 +204,9 @@ Trovati 4 errori al livello max.
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 >>>>>>> 5a14301c (.)
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> 399f46d3 (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 

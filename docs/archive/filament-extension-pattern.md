@@ -57,6 +57,7 @@ namespace Filament\Resources\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Filament\Resources\Pages;
 =======
 namespace Modules\<nome modulo>\Filament\Resources\Pages;
@@ -123,6 +124,9 @@ namespace Modules\SaluteOra\Filament\Resources\Pages;
 namespace Modules\<nome modulo>\Filament\Resources\Pages;
 namespace Modules\SaluteOra\Filament\Resources\Pages;
 >>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 399f46d3 (.)
 ```
 
 ## metodi delle classi base
@@ -156,6 +160,7 @@ protected function getInfolistSchema(): array
 
 ## linkback
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,3 +262,7 @@ protected function getInfolistSchema(): array
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+- [errore override metodo final](/var/www/html/base_saluteora/laravel/project_docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/project_docs/filament-resources.md)
+>>>>>>> 399f46d3 (.)

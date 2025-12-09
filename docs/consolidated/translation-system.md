@@ -239,6 +239,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 <<<<<<< HEAD
 =======
@@ -292,3 +293,5 @@ php artisan view:clear
 =======
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

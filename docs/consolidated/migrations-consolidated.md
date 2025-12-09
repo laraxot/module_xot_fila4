@@ -387,6 +387,7 @@ $table->foreign('user_id')->references('id')->on('users')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome modulo> Module
 =======
 ### SaluteMo Module
@@ -412,10 +413,14 @@ $table->foreign('user_id')->references('id')->on('users')
 =======
 ### SaluteMo Module
 >>>>>>> 5a14301c (.)
+=======
+### SaluteMo Module
+>>>>>>> 399f46d3 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -498,6 +503,9 @@ $table->foreign('user_id')->references('id')->on('users')
 ###  Module (CRITICO)
 ### SaluteOra Module (CRITICO)
 >>>>>>> 5a14301c (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 399f46d3 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`
@@ -562,6 +570,7 @@ rm Modules/Notify/project_docs/migrations_changelog.md
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome modulo>
 rm Modules/<nome modulo>/project_docs/database/migrations.md
 =======
@@ -596,6 +605,10 @@ rm Modules/SaluteMo/project_docs/database/migrations.md
 # SaluteMo
 rm Modules/SaluteMo/project_docs/database/migrations.md
 >>>>>>> 5a14301c (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+>>>>>>> 399f46d3 (.)
 
 # E tutti gli altri file duplicati...
 ```

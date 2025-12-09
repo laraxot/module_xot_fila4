@@ -38,6 +38,7 @@ php artisan xot:search-string-in-database {search_string} {--table=} {--column=}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
@@ -63,3 +64,6 @@ php artisan xot:search-string-in-database {search_string} {--table=} {--column=}
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 5a14301c (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 399f46d3 (.)

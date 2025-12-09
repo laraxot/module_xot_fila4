@@ -4,7 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Store;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Support\Arr;
@@ -16,6 +23,12 @@ class HasOneAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
@@ -65,6 +78,7 @@ class HasOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 21348520 (.)
@@ -79,6 +93,8 @@ class HasOneAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -105,6 +121,7 @@ class HasOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
@@ -124,6 +141,8 @@ class HasOneAction
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
@@ -132,6 +151,7 @@ class HasOneAction
             $related_id = Arr::first($relationDTO->data);
             $related = $relationDTO->related->find($related_id);
             if (! $related instanceof Model) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +236,11 @@ class HasOneAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+                throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
             }
 
             $rows->save($related);
@@ -224,6 +249,14 @@ class HasOneAction
         }
 
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
          * $rows = $relation->rows;
          * try {
          * $related = $rows->create($relation->data);
@@ -239,5 +272,33 @@ class HasOneAction
          * $model->update($data1);
          * }
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+        $rows = $relation->rows;
+        try {
+            $related = $rows->create($relation->data);
+        } catch (\Exception $e) {
+            // "SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY' (SQL: insert into `liveuser_users` (`first_name`, `last_name`, `email`, `auth_user_id`, `created_by`, `updated_by`, `updated_at`, `created_at`) values (gfdsfs, fdsfds, fds
+            // dddx(['e' => $e->getMessage(), 'data' => $data]);
+            $related = $rows->update($relation->data);
+        }
+        if (! $model->{$relation->name}->exists()) {// collegamento non riuscito
+            $pk_local = $rows->getLocalKeyName();
+            $pk_fore = $rows->getForeignKeyName();
+            $data1 = [$pk_local => $related->$pk_fore];
+            $model->update($data1);
+        }
+        */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     }
 }

@@ -65,6 +65,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public static function form(Form $form): Form
@@ -90,6 +91,9 @@ public static function form(Form $form): Form
 =======
 public static function form(Form $form): Form
 >>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 399f46d3 (.)
 {
     return $form->schema([
         // componenti...
@@ -649,6 +653,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 <<<<<<< HEAD
 =======
@@ -715,6 +720,9 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> 5a14301c (.)
+=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+>>>>>>> 399f46d3 (.)
 TextInput::make('location')->required()
 ```
 
@@ -735,6 +743,7 @@ TextInput::make('location')->required()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 <<<<<<< HEAD
 =======
@@ -801,6 +810,9 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> 5a14301c (.)
+=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+>>>>>>> 399f46d3 (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 

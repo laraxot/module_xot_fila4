@@ -165,6 +165,7 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PDND Redirect Loop Fix](../../Pdnd/docs/redirect_loop_fix.md)
 =======
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
@@ -191,11 +192,14 @@ performance::admin
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
 - [User Role Management](../../User/project_docs/console_commands/README.md)
 - [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,6 +271,8 @@ performance::admin
 - [Filament Best Practices](../../../docs/FILAMENT-BEST-PRACTICES.md)
 
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 ## Aggiornamenti
 
 ### 2025-01-27 - Fix Implementato
@@ -281,6 +287,7 @@ performance::admin
 - ✅ **Multi-Ruolo**: Supporto mantenuto
 - ✅ **Performance**: Nessun impatto negativo
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,3 +314,5 @@ performance::admin
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

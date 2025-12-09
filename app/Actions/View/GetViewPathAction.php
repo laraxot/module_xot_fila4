@@ -30,6 +30,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -71,6 +72,8 @@ use Illuminate\Support\Str;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
 >>>>>>> 5a14301c (.)
 =======
@@ -86,6 +89,25 @@ use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
 use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
 >>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
+use Spatie\QueueableAction\QueueableAction;
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
+>>>>>>> a12f125f4a (.)
+=======
+use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> b93ef594b4 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 class GetViewPathAction
 {
@@ -124,6 +146,7 @@ class GetViewPathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view_dir = $pack_dir.'/'.$relative_path;
 =======
         $view_dir = $pack_dir . '/' . $relative_path;
@@ -143,6 +166,9 @@ class GetViewPathAction
         $view_dir = $pack_dir . '/' . $relative_path;
 >>>>>>> 399f46d3 (.)
 =======
+        $view_dir = $pack_dir . '/' . $relative_path;
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,6 +183,7 @@ class GetViewPathAction
         $view_dir = $pack_dir.'/'.$relative_path;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,6 +283,8 @@ class GetViewPathAction
 =======
         $view_dir = $pack_dir . '/' . $relative_path;
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 
         $res = str_replace('/', \DIRECTORY_SEPARATOR, $view_dir);
         $res .= '.blade.php';

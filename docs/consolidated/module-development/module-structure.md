@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -385,6 +386,8 @@ laravel/Modules/Patient/
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Module Structure in Laraxot
 
 ## Directory Structure
@@ -403,6 +406,7 @@ Module/
 │   └── Providers/
 ├── config/
 ├── database/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -583,6 +587,8 @@ Se trovi una directory con case errato:
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 │   ├── factories/
 │   ├── migrations/
 │   └── seeders/
@@ -688,6 +694,7 @@ Route::middleware('api')->prefix('api')->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -705,3 +712,5 @@ Route::middleware('api')->prefix('api')->group(function () {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -68,6 +69,8 @@
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica
@@ -801,6 +804,7 @@ ls Modules/*/lang/*/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -824,6 +828,8 @@ ls Modules/*/lang/*/
 =======
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 # Xot Module - Framework Base Laraxot
 
 ## Overview
@@ -843,6 +849,7 @@ Modulo base del framework Laraxot con funzionalità core e best practices.
 - Base classes per tutti i moduli
 - Service providers centralizzati
 - Convenzioni e standard
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -870,6 +877,8 @@ Modulo base del framework Laraxot con funzionalità core e best practices.
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
 
 ## Installation
 ```bash
@@ -885,6 +894,7 @@ Configurazione automatica tramite service providers.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
 =======
@@ -935,10 +945,14 @@ Configurazione automatica tramite service providers.
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1065,7 +1079,18 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
 ## Quick Links Legacy
+=======
+## Principles
+- **DRY**: Un solo punto di verità
+- **KISS**: Semplicità e chiarezza
+- **Type Safety**: Tipizzazione rigorosa
+- **Documentation**: Documentazione essenziale
+
+## Links
+>>>>>>> 6cba4fe (.)
 - [Root Documentation](../../../docs/)
 - [SaluteOra Module](../SaluteOra/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)

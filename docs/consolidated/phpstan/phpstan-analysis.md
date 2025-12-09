@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 =======
 **NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
@@ -89,6 +90,9 @@
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 **NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
 >>>>>>> 5a14301c (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 399f46d3 (.)
 
 ## Analisi Completa
 
@@ -151,6 +155,7 @@ Accesso a proprietà non definite nei modelli.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 3. **<nome modulo>** (Applicazione) - 15% errori
 =======
 ### 3. **SaluteMo** (Applicazione) - 15% errori
@@ -176,6 +181,9 @@ Accesso a proprietà non definite nei modelli.
 =======
 ### 3. **SaluteMo** (Applicazione) - 15% errori
 >>>>>>> 5a14301c (.)
+=======
+### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 399f46d3 (.)
 - Risorse Filament
 - Modelli dominio
 - Widget personalizzati
@@ -204,6 +212,7 @@ Accesso a proprietà non definite nei modelli.
 4. `User/app/Models/Profile.php` - Metodi e proprietà
 
 ### Priorità 3 (Applicazione)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,6 +255,10 @@ Accesso a proprietà non definite nei modelli.
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
 >>>>>>> 5a14301c (.)
+=======
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> 399f46d3 (.)
 3. `Geo/app/Models/*` - Proprietà geografiche
 
 ## Strategia di Correzione
@@ -256,6 +269,7 @@ Correggere tutti gli errori nel modulo Xot per stabilizzare la base.
 ### Fase 2: Autenticazione (User)
 Sistemare traits e contratti utilizzati in tutto il progetto.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,6 +303,9 @@ Sistemare traits e contratti utilizzati in tutto il progetto.
 =======
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
 >>>>>>> 5a14301c (.)
+=======
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 399f46d3 (.)
 Correggere errori specifici dell'applicazione.
 
 ### Fase 4: Verifica Finale

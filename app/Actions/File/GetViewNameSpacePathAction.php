@@ -50,7 +50,9 @@ class GetViewNameSpacePathAction
      *
      * @return string|null Il percorso del namespace o null se non trovato
      */
+<<<<<<< HEAD
     public function execute(string $ns): null|string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,6 +84,8 @@ class GetViewNameSpacePathAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +100,7 @@ class GetViewNameSpacePathAction
     public function execute(string $ns): ?string
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +177,8 @@ class GetViewNameSpacePathAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     {
         $xot = XotData::make();
 
@@ -221,7 +228,9 @@ class GetViewNameSpacePathAction
             return null; // Restituiamo null se il tema non è una stringa
         }
 
+<<<<<<< HEAD
         return base_path('Themes/' . $theme_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,6 +262,8 @@ class GetViewNameSpacePathAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,6 +278,7 @@ class GetViewNameSpacePathAction
         return base_path('Themes/'.$theme_name);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -343,5 +355,7 @@ class GetViewNameSpacePathAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     }
 }

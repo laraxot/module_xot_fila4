@@ -72,6 +72,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $transKey;
 =======
     public null|string $transKey;
@@ -91,6 +92,9 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     public null|string $transKey;
 >>>>>>> 399f46d3 (.)
 =======
+    public null|string $transKey;
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +109,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     public ?string $transKey;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,6 +209,8 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 =======
     public null|string $transKey;
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 
     /** @var array<int, string> */
     public array $fields = [];
@@ -227,6 +234,14 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 5a14301c (.)
      * @param array<int, string> $fields
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
     public function __construct(
         public LazyCollection $collection,
         null|string $transKey = null,
@@ -242,11 +257,39 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 5a14301c (.)
         array $fields = [],
     ) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    public function __construct(public LazyCollection $collection, ?string $transKey = null, array $fields = [])
+    {
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+    public function __construct(public LazyCollection $collection, ?string $transKey = null, array $fields = [])
+    {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         // $this->headings = count($headings) > 0 ? $headings : collect($collection->first())->keys()->toArray();
 
         $this->transKey = $transKey;
         $this->fields = $fields;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         // $this->headings = $headings->toArray();
     }
 
@@ -290,6 +333,12 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
         $data = $item->only($this->fields);
 
         return $data->toArray();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
         /*
          * return [
@@ -306,10 +355,34 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 5a14301c (.)
          * ];
          */
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        /*
+        return [
+            $item->,
+        ];
+        */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+        /*
+         * return [
+         * $item->,
+         * ];
+         */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     }
 
     public function getHead(): Collection
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,7 +465,24 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
         if (!empty($this->fields)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!empty($this->fields)) {
+=======
+        if (! empty($this->fields)) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!empty($this->fields)) {
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! empty($this->fields)) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             return collect($this->fields);
         }
 
@@ -431,7 +521,15 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     /**
      * Returns an iterator for the current collection.
      */
+<<<<<<< HEAD
     public function iterator(): Iterator
+=======
+<<<<<<< HEAD
+    public function iterator(): Iterator
+=======
+    public function iterator(): \Iterator
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     {
         /* @phpstan-ignore return.type */
         return $this->collection->getIterator();

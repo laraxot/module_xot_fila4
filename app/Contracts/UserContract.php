@@ -714,7 +714,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
  *
  * @phpstan-require-extends Model
  *
- * @mixin \Eloquent
+ * @mixin IdeHelperUserContract
  */
 <<<<<<< HEAD
 <<<<<<< HEAD

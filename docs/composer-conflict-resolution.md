@@ -6,6 +6,10 @@
 ## Cosa
 - Rimozione dei marker di conflitto in `composer.json`.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- Rimozione dei marker di conflitto  in `composer.json`.
+>>>>>>> 71f31700 (.)
 =======
 - Rimozione dei marker di conflitto  in `composer.json`.
 >>>>>>> 71f31700 (.)
@@ -15,7 +19,12 @@
 - Conservazione delle sezioni `require` e `require-dev` pulite, mantenendo solo le dipendenze ufficiali documentate nel modulo Xot.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Rimozione dei marker di conflitto in `composer.json`.
+=======
+- Rimozione dei marker di conflitto in `composer.json`.=======
+
+>>>>>>> 71f31700 (.)
 =======
 - Rimozione dei marker di conflitto in `composer.json`.=======
 

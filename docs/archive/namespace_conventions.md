@@ -66,15 +66,21 @@ Questo è l'errore più comune e grave nelle convenzioni di namespace:
 ```php
 // GRAVEMENTE ERRATO
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\App\Controllers;
 
 // CORRETTO
 namespace Modules\<nome progetto>\Controllers;
 =======
+=======
+>>>>>>> 71f31700 (.)
 namespace Modules\SaluteOra\App\Controllers;
 
 // CORRETTO
 namespace Modules\SaluteOra\Controllers;
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
 >>>>>>> 71f31700 (.)
 ```
 
@@ -84,15 +90,21 @@ namespace Modules\SaluteOra\Controllers;
 ```php
 namespace Modules\Xot\Console\Commands;
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\<nome progetto>\Filament\Resources;
 =======
+=======
+>>>>>>> 71f31700 (.)
 namespace Modules\SaluteOra\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\SaluteOra\Filament\Resources;
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
 >>>>>>> 71f31700 (.)
 ```
 
@@ -100,15 +112,21 @@ namespace Modules\SaluteOra\Filament\Resources;
 ```php
 namespace Modules\Xot\app\Console\Commands;       // errato: 'app' nel namespace
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\<nome progetto>\Controllers;      // errato: struttura completamente sbagliata
 =======
+=======
+>>>>>>> 71f31700 (.)
 namespace Modules\SaluteOra\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completamente sbagliata
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
 >>>>>>> 71f31700 (.)
 ```
 
@@ -120,8 +138,13 @@ Anche se i file sono fisicamente collocati in una directory `app/`, il namespace
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
 Namespace corretto: namespace Modules\<nome progetto>\Models;
+=======
+Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
+Namespace corretto: namespace Modules\SaluteOra\Models;
+>>>>>>> 71f31700 (.)
 =======
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
@@ -133,8 +156,13 @@ Namespace corretto: namespace Modules\SaluteOra\Models;
 | percorso fisico | namespace corretto |
 |-----------------|--------------------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome progetto>\Models` |
 | `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome progetto>\Filament\Resources` |
+=======
+| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
+| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+>>>>>>> 71f31700 (.)
 =======
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
@@ -145,6 +173,7 @@ Namespace corretto: namespace Modules\SaluteOra\Models;
 
 ```
 Modules/
+<<<<<<< HEAD
 <<<<<<< HEAD
   <nome progetto>/
     app/                        // directory fisica
@@ -157,6 +186,8 @@ Modules/
         Resources/
           PatientResource.php  // namespace Modules\<nome progetto>\Filament\Resources;
 =======
+=======
+>>>>>>> 71f31700 (.)
   SaluteOra/
     app/                        // directory fisica
       Console/
@@ -167,6 +198,9 @@ Modules/
       Filament/
         Resources/
           PatientResource.php  // namespace Modules\SaluteOra\Filament\Resources;
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
 >>>>>>> 71f31700 (.)
 ```
 
@@ -186,7 +220,11 @@ Utilizza phpstan per verificare automaticamente i namespace:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+=======
+php artisan phpstan:analyse --level=1 Modules/SaluteOra
+>>>>>>> 71f31700 (.)
 =======
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
 >>>>>>> 71f31700 (.)
@@ -213,15 +251,21 @@ Un errore comune è includere `App` nel namespace:
 ```php
 // ERRATO ❌
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\<nome progetto>\Console\Commands;
 =======
+=======
+>>>>>>> 71f31700 (.)
 namespace Modules\SaluteOra\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\SaluteOra\Console\Commands;
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
 >>>>>>> 71f31700 (.)
 ```
 
@@ -239,7 +283,11 @@ Utilizzare grep per trovare tutti i file con namespace errato:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+>>>>>>> 71f31700 (.)
 =======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
 >>>>>>> 71f31700 (.)

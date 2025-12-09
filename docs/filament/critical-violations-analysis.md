@@ -123,7 +123,11 @@ class NotificationLogResource extends XotBaseResource
 - [Notify Module README](../../../Notify/docs/README.md)
 - [User Module README](../../../User/docs/README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<main module> Module README](../../../<main module>/docs/README.md)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> 71f31700 (.)
 =======
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
 >>>>>>> 71f31700 (.)

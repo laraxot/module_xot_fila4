@@ -222,6 +222,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
@@ -250,15 +251,21 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,6 +291,10 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 >>>>>>> 5a14301c (.)
+=======
+- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+- [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> 71f31700 (.)
 - [View Composer Laravel Docs](https://laravel.com/docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/docs/container)
 
@@ -293,6 +304,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 **Priorità**: P0 (Critical) - Bloccava sistema completo  
 **Impatto**: Sistema completamente non funzionale  
 **Tempo di risoluzione**: 15 minuti  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -336,3 +348,6 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 =======
 **Pattern**: View Composer Loop Prevention 
 >>>>>>> 3fbbf1f5 (.)
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 71f31700 (.)

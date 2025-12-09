@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -25,6 +26,8 @@
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -246,6 +249,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -262,6 +266,8 @@ php artisan view:clear
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica
@@ -9524,6 +9530,7 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -9531,3 +9538,5 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

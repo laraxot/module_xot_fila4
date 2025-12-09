@@ -43,6 +43,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -53,10 +54,13 @@ Here’s a quick preview of what some of the basic type styles will look like in
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
 ##### h5 Heading
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +81,8 @@ Here’s a quick preview of what some of the basic type styles will look like in
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 
 ## h2 Heading
 
@@ -124,13 +130,17 @@ class Foo extends bar
 ## Collegamenti tra versioni di customizing-your-site.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 * [customizing-your-site.md](../../../Gdpr/project_docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Xot/project_docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../UI/project_docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Tenant/project_docs/it/customizing-your-site.md)
 * [customizing-your-site.md](../../../Cms/project_docs/customizing-your-site.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +156,8 @@ class Foo extends bar
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 * [customizing-your-site.md](../../../Gdpr/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Xot/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../UI/docs/customizing-your-site.md)
@@ -161,6 +173,7 @@ class Foo extends bar
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -168,3 +181,5 @@ class Foo extends bar
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

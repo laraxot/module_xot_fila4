@@ -3,7 +3,11 @@
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 71f31700 (.)
 =======
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 >>>>>>> 71f31700 (.)
@@ -62,7 +66,11 @@ Accesso a proprietà non definite nei modelli.
 - Contratti e interfacce
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 3. **<nome modulo>** (Applicazione) - 15% errori
+=======
+### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 71f31700 (.)
 =======
 ### 3. **SaluteMo** (Applicazione) - 15% errori
 >>>>>>> 71f31700 (.)
@@ -95,8 +103,13 @@ Accesso a proprietà non definite nei modelli.
 
 ### Priorità 3 (Applicazione)
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. `<nome modulo>/app/Filament/Resources/*` - Form schemas e table columns
 2. `<nome modulo>/app/Models/*` - Proprietà e relazioni
+=======
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> 71f31700 (.)
 =======
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
@@ -112,7 +125,11 @@ Correggere tutti gli errori nel modulo Xot per stabilizzare la base.
 Sistemare traits e contratti utilizzati in tutto il progetto.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Fase 3: Applicazione (<nome modulo>, Geo, Cms)
+=======
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 71f31700 (.)
 =======
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
 >>>>>>> 71f31700 (.)

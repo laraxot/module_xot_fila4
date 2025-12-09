@@ -101,6 +101,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome modulo> | 13+ | Business logic semplificata |
 | <nome progetto> | 45+ | Core business centralizzato |
 =======
@@ -127,6 +128,10 @@
 |  | 45+ | Core business centralizzato |
 | SaluteOra | 45+ | Core business centralizzato |
 >>>>>>> 5a14301c (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 71f31700 (.)
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |

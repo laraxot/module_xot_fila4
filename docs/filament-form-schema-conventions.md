@@ -3,7 +3,11 @@
 ## Regola Fondamentale
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 In <main module>, il metodo `getFormSchema()` nelle risorse Filament deve **SEMPRE** restituire un array associativo con chiavi stringhe, mai un array numerico.
+=======
+In SaluteOra, il metodo `getFormSchema()` nelle risorse Filament deve **SEMPRE** restituire un array associativo con chiavi stringhe, mai un array numerico.
+>>>>>>> 71f31700 (.)
 =======
 In SaluteOra, il metodo `getFormSchema()` nelle risorse Filament deve **SEMPRE** restituire un array associativo con chiavi stringhe, mai un array numerico.
 >>>>>>> 71f31700 (.)

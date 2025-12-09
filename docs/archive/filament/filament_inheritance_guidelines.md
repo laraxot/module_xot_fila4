@@ -18,7 +18,11 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 2. **Verifica prima di implementare**: Prima di implementare un metodo, verificare la sua definizione nella classe genitore:
    ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
    grep -r "function methodName" /var/www/html/base_<nome progetto>/laravel/vendor/filament
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 71f31700 (.)
 =======
    grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
 >>>>>>> 71f31700 (.)
@@ -98,8 +102,13 @@ public function getNavigationLabel(): string // Non static!
 
 - [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
+=======
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
+>>>>>>> 71f31700 (.)
 =======
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)

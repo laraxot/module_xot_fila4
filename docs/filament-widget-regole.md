@@ -8,17 +8,23 @@
 - **Esempio corretto:**
   ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
   protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
   ```
 - **Esempio sbagliato:**
   ```php
   protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 =======
+=======
+>>>>>>> 71f31700 (.)
   protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
   ```
 - **Esempio sbagliato:**
   ```php
   protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
 >>>>>>> 71f31700 (.)
   ```
 
@@ -26,7 +32,11 @@
 
 - Non usare MAI // Label gestita automaticamente da LangServiceProvider, ->placeholder(), né stringhe tradotte direttamente nei componenti Filament.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Tutte le label, placeholder, titoli e descrizioni sono risolte tramite i file di traduzione del modulo (es: Modules/<main module>/lang/it/widgets.php).
+=======
+- Tutte le label, placeholder, titoli e descrizioni sono risolte tramite i file di traduzione del modulo (es: Modules/SaluteOra/lang/it/widgets.php).
+>>>>>>> 71f31700 (.)
 =======
 - Tutte le label, placeholder, titoli e descrizioni sono risolte tramite i file di traduzione del modulo (es: Modules/SaluteOra/lang/it/widgets.php).
 >>>>>>> 71f31700 (.)
@@ -43,7 +53,11 @@
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Vedi anche: [find-dentist-functionality.md](../../<directory progetto>/docs/find-dentist-functionality.md) 
+=======
+Vedi anche: [find-dentist-functionality.md](../../saluteora/docs/find-dentist-functionality.md) 
+>>>>>>> 71f31700 (.)
 =======
 Vedi anche: [find-dentist-functionality.md](../../saluteora/docs/find-dentist-functionality.md) 
 >>>>>>> 71f31700 (.)

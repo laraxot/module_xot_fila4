@@ -4844,6 +4844,7 @@ if (!function_exists('getRelationships')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -4880,6 +4881,8 @@ if (!function_exists('getRelationships')) {
 =======
 =======
 >>>>>>> e59778ae (.)
+=======
+>>>>>>> 71f31700 (.)
                 $modelInstance = is_string($model) ? new $model() : $model;
                 $return = $reflection->invoke($modelInstance);
                 $check = $return instanceof Relation;
@@ -4890,16 +4893,21 @@ if (!function_exists('getRelationships')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
 =======
 =======
 =======
 >>>>>>> 492d6d3c (.)
+=======
+=======
+>>>>>>> 71f31700 (.)
                 $return = $reflection->invoke($model);
                 $check = $return instanceof Relation;
                 /*
                 if ($check) {
                     $related_model = new ReflectionClass($return->getRelated())->getName();
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c84488b (.)
 >>>>>>> 71f31700 (.)
@@ -4940,11 +4948,15 @@ if (!function_exists('getRelationships')) {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
                     $msg = [
                         'name' => $reflection->name,
                         'type' => class_basename($return),
                         // 'check'=>$check,
                         // $msg['type']=(new \ReflectionClass($return))->getShortName();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5042,11 +5054,20 @@ if (!function_exists('getRelationships')) {
 =======
 =======
 >>>>>>> e59778ae (.)
+=======
+>>>>>>> 71f31700 (.)
                         'model' => $model,
                     ];
                     $data[] = $msg;
                 }
                 
+=======
+                        'model' => $related_model,
+                    ];
+                    $data[] = $msg;
+                }
+                    */
+>>>>>>> c84488b (.)
             } catch (ErrorException) {
 <<<<<<< HEAD
 >>>>>>> a5dccfe (.)

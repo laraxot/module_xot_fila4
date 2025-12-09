@@ -66,7 +66,11 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
    
    // ERRATO ❌
 <<<<<<< HEAD
+<<<<<<< HEAD
    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+   public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
 =======
    public static function form(Form $form): Form
 >>>>>>> 71f31700 (.)

@@ -42,6 +42,7 @@ class HandlerDecorator implements ExceptionHandlerContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
@@ -52,4 +53,7 @@ class HandlerDecorator implements ExceptionHandlerContract
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> 5a14301c (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 71f31700 (.)
 - [Error Formatters](./formatters/README.md) 

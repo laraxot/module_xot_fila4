@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -25,6 +26,8 @@
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -80,6 +83,7 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **SEMPRE** usare il tipo importato per `$subNavigationPosition`:
    ```php
    // ❌ ERRATO - Fully qualified name
@@ -96,6 +100,8 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 ### Pagine
 
 1. **SEMPRE** estendere le classi base di Xot:
@@ -127,6 +133,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\ReportResource;
@@ -145,6 +152,11 @@ namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
 
 use Modules\SaluteMo\Filament\Resources\ReportResource;
 >>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 71f31700 (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Filament\Actions;
 use Filament\Tables;
@@ -234,6 +246,7 @@ public function getTableColumns(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -250,6 +263,8 @@ public function getTableColumns(): array
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -310,6 +325,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -320,6 +336,8 @@ public static function getFormSchema(): array
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 ## Regole per XotBaseEditRecord
 
 ### Implementazione Corretta
@@ -329,6 +347,7 @@ public static function getFormSchema(): array
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -350,6 +369,11 @@ namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\SaluteMo\Filament\Resources\AppointmentResource;
 >>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 71f31700 (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 
@@ -387,6 +411,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
@@ -405,6 +430,11 @@ namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\SaluteMo\Filament\Resources\AppointmentResource;
 >>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 71f31700 (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 
 /**
@@ -429,6 +459,7 @@ class CreateAppointment extends XotBaseCreateRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -445,10 +476,13 @@ class CreateAppointment extends XotBaseCreateRecord
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 #### ❌ DON'T - Non utilizzare il metodo form()
 
 ```php
 // NON FARE MAI QUESTO
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,6 +496,9 @@ public static function form(Form $form): Form
 =======
 public static function form(Form $form): Form
 >>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
 {
     return $form->schema([
         // componenti...
@@ -514,6 +551,7 @@ TextInput::make('nome')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -540,12 +578,17 @@ use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 declare(strict_types=1);
 
 namespace Modules\SaluteMo\Filament\Resources;
 
 use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 use Modules\<nome modulo>\Models\Report;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;
@@ -595,6 +638,7 @@ class ReportResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -611,6 +655,8 @@ class ReportResource extends XotBaseResource
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 namespace Modules\Brain\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
@@ -705,6 +751,7 @@ class SocioResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -715,6 +762,8 @@ class SocioResource extends XotBaseResource
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 ## Checklist di Conformità
 
 Prima di considerare completa una risorsa Filament, verificare:
@@ -757,6 +806,7 @@ Prima di considerare completa una risorsa Filament, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 6. **Usare fully qualified names per tipi già importati (es. `$subNavigationPosition`)**
 
 ## Bugfix Documentati
@@ -788,6 +838,8 @@ protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPo
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 
 ## File Corretti
 
@@ -815,6 +867,7 @@ protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -831,6 +884,8 @@ protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPo
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 ## Struttura delle Traduzioni
 
 ### File di Traduzione Completo
@@ -1243,6 +1298,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 =======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
@@ -1259,6 +1315,9 @@ protected static string $view = '<nome progetto>::filament.widgets.find-doctor-a
 =======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> 5a14301c (.)
+=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+>>>>>>> 71f31700 (.)
 TextInput::make('location')->required()
 ```
 
@@ -1268,6 +1327,7 @@ TextInput::make('location')->required()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 =======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
@@ -1284,6 +1344,9 @@ protected static string $view = '<nome progetto>::widgets.find-doctor-and-appoin
 =======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> 5a14301c (.)
+=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+>>>>>>> 71f31700 (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 
@@ -1341,6 +1404,7 @@ Appointment::where('doctor_id', $doctorId)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -1348,3 +1412,5 @@ Appointment::where('doctor_id', $doctorId)
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

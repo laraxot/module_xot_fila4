@@ -127,7 +127,11 @@ trait HandlesFileUploadFields
     {
         $model = $this->getFormModel();
 <<<<<<< HEAD
+<<<<<<< HEAD
         return isset($model::$attachments) ? $model::$attachments : [];
+=======
+        return property_exists($model, 'attachments') ? $model::$attachments : [];
+>>>>>>> 71f31700 (.)
 =======
         return property_exists($model, 'attachments') ? $model::$attachments : [];
 >>>>>>> 71f31700 (.)

@@ -7,7 +7,11 @@ la classe `XotBasePage` è una classe base astratta per tutte le pagine filament
 la classe `XotBasePage` estende `Filament\Pages\Page` e si trova in:
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 71f31700 (.)
 =======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
 >>>>>>> 71f31700 (.)
@@ -74,7 +78,11 @@ class SettingsPage extends XotBasePage
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Filament\Pages;
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 71f31700 (.)
 =======
 namespace Modules\SaluteOra\Filament\Pages;
 >>>>>>> 71f31700 (.)
@@ -88,7 +96,11 @@ class DashboardSettings extends XotBasePage
     protected static ?string $navigationIcon = 'heroicon-o-cog';
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> 71f31700 (.)
 =======
     protected static string $view = 'saluteora::filament.pages.dashboard-settings';
 >>>>>>> 71f31700 (.)
@@ -185,8 +197,13 @@ class DashboardSettingsPolicy
 
 ## collegamento ad altre documentazioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [pattern di estensione filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament_extension_pattern.md)
 - [best practices filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/docs/filament-best-practices.md)
+=======
+- [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-best-practices.md)
+>>>>>>> 71f31700 (.)
 =======
 - [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_extension_pattern.md)
 - [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-best-practices.md)

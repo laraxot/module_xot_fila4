@@ -269,6 +269,7 @@ return new class extends XotBaseMigration {
 **Collegamenti:**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Regola Performance](../../Performance/project_docs/database_migrations.md)
 - [Regole globali root](../../../project_docs/database_migrations.md)
 <<<<<<< HEAD
@@ -288,6 +289,10 @@ return new class extends XotBaseMigration {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+>>>>>>> 71f31700 (.)
 - [Regola Performance](../../Performance/docs/database_migrations.md)
 - [Regole globali root](../../../docs/database_migrations.md)
 
@@ -510,6 +515,7 @@ php artisan db:analyze-usage --connection=nome_connessione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -517,3 +523,5 @@ php artisan db:analyze-usage --connection=nome_connessione
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

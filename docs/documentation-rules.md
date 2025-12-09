@@ -20,6 +20,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 <<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
@@ -37,6 +38,9 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 71f31700 (.)
 
 ### Formato Corretto
 ```markdown
@@ -44,6 +48,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 # Collegamenti Corretti
 [Documento Correlato](./documento.md)
 [Documento in Sottodirectory](./sottodirectory/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,12 +77,17 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
+[Documento in Root](../../../docs/documento.md)
+>>>>>>> 71f31700 (.)
 ```
 
 ### Formato Non Corretto
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +133,11 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 71f31700 (.)
 ```
 
 ### Checklist di Validazione
@@ -143,6 +158,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 <<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
@@ -160,6 +176,9 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 71f31700 (.)
 
 ### Formato Corretto
 ```markdown
@@ -167,6 +186,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 # Collegamenti Corretti
 [Documento Correlato](./documento.md)
 [Documento in Sottodirectory](./sottodirectory/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,12 +215,17 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
+[Documento in Root](../../../docs/documento.md)
+>>>>>>> 71f31700 (.)
 ```
 
 ### Formato Non Corretto
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,6 +271,11 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 71f31700 (.)
 ```
 
 ### Checklist di Validazione
@@ -267,6 +297,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 <<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
@@ -284,6 +315,9 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 71f31700 (.)
 
 ### Formato Corretto
 ```markdown
@@ -291,6 +325,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 # Collegamenti Corretti
 [Documento Correlato](./documento.md)
 [Documento in Sottodirectory](./sottodirectory/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,12 +354,17 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
+[Documento in Root](../../../docs/documento.md)
+>>>>>>> 71f31700 (.)
 ```
 
 ### Formato Non Corretto
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,6 +410,11 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 71f31700 (.)
 ```
 
 ### Checklist di Validazione

@@ -294,6 +294,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 - [Regola Performance](../../Performance/project_docs/database_migrations.md)
@@ -470,8 +471,12 @@ return new class extends XotBaseMigration {
 - [Regole globali root](../../../docs/database_migrations.md)
 >>>>>>> cafe8bed (.)
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
 - [Regola Performance](../../Performance/project_docs/database_migrations.md)
 - [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
 - [Regola Performance](../../Performance/docs/database_migrations.md)
 - [Regole globali root](../../../docs/database_migrations.md)
 >>>>>>> 5bd842e3 (.)

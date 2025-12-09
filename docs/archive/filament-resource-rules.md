@@ -397,9 +397,11 @@ class DoctorResource extends XotBaseResource
 
 ## Documentazione Correlata
 
+<<<<<<< HEAD
 - [Filament Form Builder](/docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/docs/translation-management.md)
 - [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -410,10 +412,13 @@ class DoctorResource extends XotBaseResource
 >>>>>>> 33af3e61 (.)
 =======
 =======
+>>>>>>> e0b8ebe3 (.)
+=======
 - [Filament Form Builder](/project_docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/project_docs/translation-management.md)
 - [Estensione delle Classi Filament](/project_docs/filament-extension-pattern.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> ba1d49f3 (.)
@@ -423,3 +428,5 @@ class DoctorResource extends XotBaseResource
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

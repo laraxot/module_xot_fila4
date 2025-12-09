@@ -39,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -138,11 +139,14 @@
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Standard per le Migrazioni in 
 
 ## Introduzione
 
 Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di . Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -330,6 +334,10 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
 # Standard per le Migrazioni in SaluteOra
 
 ## Introduzione
@@ -515,6 +523,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  utilizza diverse connessioni al database per diversi tipi di dati:
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -703,7 +712,11 @@ SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
 SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
 >>>>>>> ab8cc3f3 (.)
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
  utilizza diverse connessioni al database per diversi tipi di dati:
+=======
+>>>>>>> 6cba4fe (.)
 SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
 >>>>>>> 5bd842e3 (.)
 
@@ -892,6 +905,7 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 
 ## Conclusione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1123,6 +1137,10 @@ Seguire questi standard per le migrazioni è fondamentale per garantire la coere
 =======
 >>>>>>> 71586de2 (.)
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+=======
+>>>>>>> 6cba4fe (.)
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
 >>>>>>> 5bd842e3 (.)

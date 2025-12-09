@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # PHPStan Configuration Fixes - Modulo Xot
 
 ## Panoramica
@@ -22,6 +25,7 @@ ignoreErrors:
     - '#Method .+::.+ should return .+<.+, (.+)> but returns .+<.+, \$this\(\1\)>#' # Ignora errori di covarianza nei tipi generici delle relazioni Eloquent
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,10 +114,13 @@ ignoreErrors:
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 **Moduli Interessati**: SaluteOra, Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
 - [SaluteOra - PHPStan Relationship Covariance Fix](../SaluteOra/project_docs/phpstan-relationship-covariance-fix.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,6 +219,8 @@ ignoreErrors:
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 
 ### 2. Cast da Mixed
 
@@ -397,6 +406,7 @@ La configurazione PHPStan implementata mantiene un alto livello di qualità del 
 **Larastan Version**: 2.9+  
 **Stato**: ✅ Configurazione Stabile
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -405,3 +415,5 @@ La configurazione PHPStan implementata mantiene un alto livello di qualità del 
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

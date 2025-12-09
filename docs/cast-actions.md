@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Azioni di Cast Sicure - Sostituzione di property_exists
 
 ## Panoramica
@@ -240,6 +243,7 @@ Le azioni di cast sono completamente testate e supportano PHPStan livello 9+:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -270,3 +274,5 @@ Le azioni di cast sono completamente testate e supportano PHPStan livello 9+:
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

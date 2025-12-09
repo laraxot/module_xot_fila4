@@ -2,12 +2,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Gestione dei File Upload in Filament
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,6 +135,9 @@ Questo documento descrive le best practice per la gestione dei file upload nei f
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+Questo documento descrive le best practice per la gestione dei file upload nei form Filament di SaluteOra, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
+>>>>>>> e0b8ebe3 (.)
 
 ## Configurazione del Componente FileUpload
 
@@ -261,6 +268,7 @@ Forms\Components\FileUpload::make('certifications')
 - [Pattern di Ereditarietà dei Modelli](/project_docs/model-inheritance-patterns.md)
 - [Documentazione Ufficiale di Filament](https://filamentphp.com/project_docs/3.x/forms/fields/file-upload)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -269,3 +277,5 @@ Forms\Components\FileUpload::make('certifications')
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

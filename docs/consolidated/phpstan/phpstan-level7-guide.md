@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Guida alla Validazione con PHPStan Livello 7
 
 ## Introduzione
@@ -253,6 +256,7 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit√
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -276,6 +280,8 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit√
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 
 ## Collegamenti tra versioni di PHPSTAN-LEVEL7-GUIDE.md
 * [PHPSTAN-LEVEL7-GUIDE.md](../../../Xot/project_docs/phpstan/PHPSTAN-LEVEL7-GUIDE.md)
@@ -285,6 +291,7 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit√
 ## Collegamenti tra versioni di phpstan-level7-guide.md
 * [phpstan-level7-guide.md](../phpstan-level7-guide.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,3 +332,5 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit√
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

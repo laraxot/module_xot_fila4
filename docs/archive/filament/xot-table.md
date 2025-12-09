@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # HasXotTable Trait per Filament in Laraxot PTVX
 
 ## Panoramica
@@ -254,6 +257,7 @@ class DatiRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -296,10 +300,13 @@ class DatiRelationManager extends XotBaseRelationManager
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 - [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
 - [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
 - [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,3 +432,6 @@ class DatiRelationManager extends XotBaseRelationManager
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> e0b8ebe3 (.)

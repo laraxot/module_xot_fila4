@@ -245,6 +245,7 @@ Quando si fa riferimento a concetti o classi in altri moduli, utilizzare collega
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,7 +393,11 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/d
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
 >>>>>>> cafe8bed (.)
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+=======
+>>>>>>> 6cba4fe (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
 >>>>>>> 5bd842e3 (.)
 ```
@@ -419,6 +424,7 @@ Alcuni argomenti comuni a più moduli dovrebbero essere documentati nel modulo X
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -566,7 +572,11 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
 >>>>>>> cafe8bed (.)
 =======
+=======
+>>>>>>> e0b8ebe3 (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+=======
+>>>>>>> 6cba4fe (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
 >>>>>>> 5bd842e3 (.)
 ```

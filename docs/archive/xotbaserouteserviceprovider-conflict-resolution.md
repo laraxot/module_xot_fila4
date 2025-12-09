@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Risoluzione conflitto XotBaseRouteServiceProvider.php
 
 ## Problema
@@ -16,6 +19,7 @@ Il file conteneva marker di conflitto git  all'interno del metodo `boot()`, con 
 - La sintassi e lo stile PSR-12 sono stati rispettati.
 
 ## Collegamento alla doc root
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,3 +139,6 @@ Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
+>>>>>>> e0b8ebe3 (.)

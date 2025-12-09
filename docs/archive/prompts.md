@@ -149,6 +149,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ❌ Esempio errato: `/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/file.md`
 =======
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
@@ -355,6 +356,9 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 >>>>>>> 0123915b (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 55fe1822 (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore
@@ -441,6 +445,7 @@ Il prompt `docs.txt` serve come:
 3. **Collegamenti Standardizzati**:
    ```markdown
    [Documento](./path/relativo) #tag-correlati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -601,3 +606,5 @@ Il prompt `docs.txt` serve come:
    ```
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)

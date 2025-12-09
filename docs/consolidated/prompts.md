@@ -131,6 +131,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ❌ Esempio errato: `/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/file.md`
 =======
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/file.md`
@@ -256,6 +257,9 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
+>>>>>>> 55fe1822 (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore

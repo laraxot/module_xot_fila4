@@ -64,6 +64,7 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -194,6 +195,10 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+
+
+>>>>>>> 55fe1822 (.)
 ## Approccio alla Risoluzione
 
 La risoluzione seguirà questi principi:
@@ -284,6 +289,7 @@ Questa risoluzione garantisce:
 
 ## Collegamento con la Documentazione Principale
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -431,3 +437,6 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../project_docs/logs/conflict_resolution_progress.md). 
+>>>>>>> 55fe1822 (.)

@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
@@ -437,3 +438,5 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)

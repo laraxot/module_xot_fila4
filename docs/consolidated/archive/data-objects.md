@@ -105,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
    - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
 =======
@@ -262,6 +263,10 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
+   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
+>>>>>>> 55fe1822 (.)
 
 2. **Errore**: Namespace errato
    - ❌ `namespace Modules\Module\App\Datas;`

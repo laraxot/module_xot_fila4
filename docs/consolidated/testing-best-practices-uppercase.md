@@ -80,6 +80,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 =======
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
@@ -200,6 +201,9 @@ function mockXotData(): void
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 55fe1822 (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -403,6 +407,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Last Update**: Dicembre 2024 
 >>>>>>> 5a14301c (.)
@@ -498,3 +503,5 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)

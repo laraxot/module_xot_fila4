@@ -155,6 +155,7 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
@@ -229,10 +230,13 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 >>>>>>> 03ceeac3 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -433,6 +437,8 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 >>>>>>> 0123915b (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -451,6 +457,7 @@ Questo fix dimostra l'importanza di:
 3. **Property existence checking** per codice robusto
 4. **Xdebug monitoring** per rilevazione loop infiniti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,3 +623,5 @@ Questo fix dimostra l'importanza di:
 >>>>>>> 0123915b (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)

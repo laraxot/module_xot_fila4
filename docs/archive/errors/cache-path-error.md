@@ -45,7 +45,3 @@ Per prevenire questo errore in futuro:
 
 ## Riferimenti
 - [Documentazione Laravel Cache](https://laravel.com/docs/cache)
-<<<<<<< HEAD
-=======
-- [Documentazione Xot Component System](../structure.md) 
->>>>>>> a5dccfe (.)

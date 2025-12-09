@@ -79,6 +79,7 @@ uses(\Modules\Xot\Tests\TestCase::class);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -287,6 +288,8 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
 beforeEach(function (): void {
     mockXotData();
 });
@@ -306,6 +309,7 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -446,6 +450,9 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 55fe1822 (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -724,6 +731,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 >>>>>>> 3bf39332 (.)
 =======
 **Last Update**: Dicembre 2024 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e0b8ebe3 (.)
@@ -1022,3 +1030,5 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)

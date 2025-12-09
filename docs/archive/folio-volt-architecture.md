@@ -39,6 +39,7 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Convenzioni di Naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Flusso di Registrazione](../../../docs/flusso-registrazione.md) - Implementazione del wizard multi-step
 =======
@@ -57,6 +58,10 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 - [Convenzioni di Naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Flusso di Registrazione](../../../project_docs/flusso-registrazione.md) - Implementazione del wizard multi-step
 >>>>>>> 76bec91a (.)
+=======
+- [Convenzioni di Naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
+- [Flusso di Registrazione](../../../project_docs/flusso-registrazione.md) - Implementazione del wizard multi-step
+>>>>>>> 55fe1822 (.)
 
 ### Moduli Collegati
 - [UI](../../UI/project_docs/README.md) - Componenti di interfaccia
@@ -64,6 +69,7 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 - [Lang](../../Lang/project_docs/README.md) - Traduzioni
 - [Patient](../../Patient/project_docs/README.md) - Gestione pazienti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -242,6 +248,8 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
 ## Regole Fondamentali
 
 ### Case Sensitivity e Struttura delle Directory
@@ -462,6 +470,7 @@ new class extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -488,10 +497,13 @@ new class extends Component {
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 55fe1822 (.)
 - [Componenti Volt](../UI/project_docs/components/volt.md)
 - [Layout](../UI/project_docs/layouts.md)
 - [Temi](../UI/project_docs/themes.md)
 - [Best Practices](../UI/project_docs/best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -505,6 +517,8 @@ new class extends Component {
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> 55fe1822 (.)
 
 ### Modulo Cms
 - [Frontend](../Cms/project_docs/frontend.md)
@@ -563,6 +577,7 @@ new class extends Component {
 - [Scheduling](../Job/project_docs/scheduling.md)
 
 ### Modulo Chart
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -979,3 +994,8 @@ new class extends Component {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
+=======
+- [Grafici](../Chart/project_docs/charts.md)
+- [Dashboard](../Chart/project_docs/dashboard.md)
+- [Visualizzazione](../Chart/project_docs/visualization.md)
+>>>>>>> 55fe1822 (.)

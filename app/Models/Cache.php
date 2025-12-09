@@ -130,7 +130,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property string $value
  * @property int $expiration
  *
- * @method static \Modules\Xot\Database\Factories\CacheFactory factory($count = null, $state = [])
+ * @method static CacheFactory factory($count = null, $state = [])
  * @method static Builder<static>|Cache newModelQuery()
  * @method static Builder<static>|Cache newQuery()
  * @method static Builder<static>|Cache query()

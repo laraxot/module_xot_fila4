@@ -710,8 +710,15 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> 5a14301c (.)
 =======
 - [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
+<<<<<<< HEAD
 - [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
+=======
+=======
+- [<nome progetto> Testing Guidelines](../../../docs/testing.md)
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 - [Cms Testing Guidelines](../../Cms/docs/testing.md)
 
 ### Framework Documentation

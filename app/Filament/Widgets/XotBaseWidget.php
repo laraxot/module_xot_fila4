@@ -18,7 +18,10 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d86d643a (.)
 use Filament\Forms\Form;
 use Filament\Forms\Form;
 =======
@@ -73,14 +76,18 @@ use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
@@ -126,6 +133,8 @@ use Filament\Widgets\Widget as FilamentWidget;
 =======
 use Illuminate\Contracts\Support\Htmlable;
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -142,6 +151,7 @@ use Webmozart\Assert\Assert;
  * Classe base astratta per tutti i widget Filament.
  * Fornisce funzionalità comuni e standardizzate per la gestione dei widget.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +183,11 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
  * @property bool                      $shouldRender Indica se il widget deve essere renderizzato
  * @property string                    $title        Titolo del widget
  * @property string                    $icon         Icona del widget
@@ -200,6 +215,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     public string $title = '';
 
     public string $icon = '';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -251,6 +267,11 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 =======
 
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
     protected int|string|array $columnSpan = 'full';
 >>>>>>> 5a14301c (.)
 =======
@@ -296,6 +317,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
      *
      * @var array<string, mixed>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,6 +391,14 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 =======
     public ?array $data = [];
 >>>>>>> ca9324a4 (.)
+=======
+=======
+    public null|array $data = [];
+>>>>>>> 0e51323 (.)
+=======
+    public null|array $data = [];
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
     /*
      * public function __construct()
@@ -411,6 +441,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Schema  $schema  Il form da configurare
 =======
 =======
@@ -419,6 +450,8 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
      *
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> d86d643a (.)
      * @return Form Il form configurato
      */
     public function form(Form $form): Form
@@ -435,6 +468,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -470,6 +504,11 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
      */
     public function form(Schema $schema): Schema
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
     {
         $schema = $schema->components($this->getFormSchema());
         $schema->statePath('data');
@@ -488,6 +527,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 $schema->model($model);
             }
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,11 +583,14 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 >>>>>>> ca9324a4 (.)
 =======
 =======
+>>>>>>> d86d643a (.)
+=======
         if (!empty($data)) {
 >>>>>>> 0e51323 (.)
 =======
         if (!empty($data)) {
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
         if (! empty($data)) {
@@ -584,6 +627,8 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 =======
         if (! empty($data)) {
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
             // $form->fill($data);
             // $this->data=$data;
         }
@@ -594,6 +639,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -642,11 +688,14 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 >>>>>>> ca9324a4 (.)
 =======
 =======
+>>>>>>> d86d643a (.)
+=======
         if (null === $model) {
 >>>>>>> 0e51323 (.)
 =======
         if (null === $model) {
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
         if ($model === null) {
@@ -685,6 +734,8 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 =======
         if ($model === null) {
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
             return [];
         }
         if (is_string($model)) {
@@ -702,6 +753,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                     $defaults = $model->getDataDefaults();
                     $merge1 = array_merge($defaults, $res);
                     $merge1 = Arr::map($merge1, function ($value, string|int $key) use ($defaults) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -768,11 +820,14 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 >>>>>>> ca9324a4 (.)
 =======
 =======
+>>>>>>> d86d643a (.)
+=======
                         if (null === $value) {
 >>>>>>> 0e51323 (.)
 =======
                         if (null === $value) {
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
                         if ($value === null) {
@@ -804,6 +859,8 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 =======
                         if ($value === null) {
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
                             $value = Arr::get($defaults, $key, null);
                         }
 
@@ -978,6 +1035,9 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
         /** @var array<Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
 
@@ -992,6 +1052,9 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 =======
         /** @var array<Htmlable|string> $schemaComponents */
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
 >>>>>>> d86d643a (.)
         $schemaComponents = $this->$schema();
 =======
@@ -1038,6 +1101,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e59778ae (.)
 =======
@@ -1052,6 +1116,8 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> d86d643a (.)
+=======
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
@@ -1061,6 +1127,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             throw new Exception("View {$submit_view} does not exist");
         }
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
         if (! view()->exists($submit_view)) {
@@ -1087,6 +1154,8 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         }
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
         return Action::make('submit')
             ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
             ->submit('save')

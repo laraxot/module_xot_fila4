@@ -5,10 +5,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ultimo aggiornamento: 2025-01-06
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
 # Ultimo aggiornamento: 2025-01-31
 =======
 # Ultimo aggiornamento: 2025-01-06
@@ -16,6 +19,7 @@
 =======
 # Ultimo aggiornamento: 2025-01-06
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 # Ultimo aggiornamento: 2025-01-06
@@ -23,6 +27,8 @@
 =======
 # Ultimo aggiornamento: 2025-01-06
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
 # ==============================================
 
 # ==============================================
@@ -31,9 +37,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
 /vendor/
 /vendor
 /node_modules/
@@ -47,16 +56,20 @@ npm-debug.log
 =======
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
 vendor/
 node_modules/
 package-lock.json
 yarn.lock
 composer.lock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +86,11 @@ docs/vendor/
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 # ==============================================
 # BUILD & COMPILED FILES
@@ -102,19 +120,25 @@ storage/*.key
 =======
 /build
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d86d643a (.)
 <<<<<<< HEAD
 /build/
 =======
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
 =======
 /build
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
 build/
 dist/
 docs/cache/
@@ -166,6 +190,7 @@ lerna-debug.log*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
@@ -200,6 +225,11 @@ lerna-debug.log*
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -230,6 +260,7 @@ build/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
@@ -240,6 +271,11 @@ build/
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -278,19 +314,25 @@ Homestead.json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
 .git-rewrite
 =======
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
 .git-blame-ignore-revs
 
 # ==============================================
@@ -347,9 +389,12 @@ docs/cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
 # LANGUAGE FILES
 # ==============================================
 lang/lang/
@@ -360,11 +405,14 @@ resources/lang/
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
@@ -373,9 +421,12 @@ database/Seeders_old/
 database/Factories_old/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 database_old/
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
 database/Factories_
 =======
 <<<<<<< HEAD
@@ -384,8 +435,11 @@ database/Factories_
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> d86d643a (.)
 database_old/
 >>>>>>> d86d643a (.)
 =======
@@ -398,6 +452,7 @@ database_old/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,10 +464,16 @@ database_old/
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 # File di test temporanei
 test.txt
 testbench.yaml
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -426,6 +487,11 @@ testbench.yaml
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 # File di configurazione locale
 config/local.php
 config/development.php
@@ -433,9 +499,12 @@ config/development.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
 # File temporanei
 packages/cache/
 packages/temp/
@@ -447,15 +516,19 @@ testbench.yaml
 =======
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
 # Cache specifiche del modulo
 packages/cache/
 packages/temp/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481,6 +554,11 @@ packages/temp/
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 # ==============================================
 # END OF XOT .GITIGNORE
 # ==============================================
@@ -489,15 +567,21 @@ packages/temp/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
 # File specifici del progetto
 =======
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
 # Database directories
 database/Factories_
 database/Factories_old
@@ -558,6 +642,7 @@ database_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
@@ -566,6 +651,11 @@ database_old
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 *.fila2
 laravel
 public_html

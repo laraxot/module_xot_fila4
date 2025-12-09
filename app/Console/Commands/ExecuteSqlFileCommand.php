@@ -4,7 +4,26 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+=======
+>>>>>>> a5dccfe (.)
+use Exception;
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
+use Webmozart\Assert\Assert;
+
+use function Safe\file_get_contents;
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 class ExecuteSqlFileCommand extends Command
 {
@@ -42,11 +61,21 @@ class ExecuteSqlFileCommand extends Command
      * @return int
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function handle()
 >>>>>>> 5a14301c (.)
 =======
     public function handle(): int
 >>>>>>> ca9324a4 (.)
+=======
+<<<<<<< HEAD
+=======
+    public function handle()
+>>>>>>> 0e51323 (.)
+=======
+    public function handle()
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');

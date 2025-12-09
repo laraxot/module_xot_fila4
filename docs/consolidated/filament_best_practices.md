@@ -341,16 +341,21 @@ use Modules\SaluteOra\Models\Report;
 namespace Modules\SaluteMo\Filament\Resources;
 
 use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+<<<<<<< HEAD
 use Modules\SaluteOra\Models\Report;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 =======
+>>>>>>> d86d643a (.)
+=======
 use Modules\<nome progetto>\Models\Report;
 use Modules\<nome modulo>\Models\Report;
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -358,6 +363,8 @@ use Modules\<nome modulo>\Models\Report;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;
 

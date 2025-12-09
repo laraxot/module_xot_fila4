@@ -3,23 +3,19 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Tests\Feature;
 =======
+=======
+namespace Modules\Xot\Tests\Feature;
+
+>>>>>>> 53d6a6ba (.)
 use Illuminate\Database\ConnectionInterface;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
 use Modules\Xot\Models\XotBaseModel;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\Tests\TestCase;
 >>>>>>> ab8cc3f3 (.)
@@ -642,6 +638,8 @@ test('it supports relationship loading', function (): void {
     expect($baseModel->getWith())->toBeArray();
 });
 =======
+=======
+>>>>>>> 53d6a6ba (.)
 use Tests\TestCase;
 
 class XotBaseModelBusinessLogicTest extends TestCase
@@ -1378,6 +1376,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
@@ -1390,3 +1389,5 @@ class XotBaseModelBusinessLogicTest extends TestCase
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)

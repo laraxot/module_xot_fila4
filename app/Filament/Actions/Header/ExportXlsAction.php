@@ -145,6 +145,7 @@ class ExportXlsAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         $fields = array_map(
                             /**
                              * @param  mixed  $field
@@ -174,6 +175,8 @@ class ExportXlsAction extends Action
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
                         $fields = array_map(static function ($field): string {
                             if (is_object($field) && method_exists($field, '__toString')) {
                                 return $field->__toString();

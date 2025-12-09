@@ -42,6 +42,7 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\WidgetConfiguration;
 =======
 =======
@@ -86,6 +87,8 @@ use Spatie\Health\Checks\Check;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -95,8 +98,12 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 =======
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 53d6a6ba (.)
 use Spatie\Health\Checks\Checks;
 >>>>>>> cc7fb225 (.)
 use Spatie\Health\Checks\Checks\CacheCheck;
@@ -436,6 +443,7 @@ class HealthPage extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
@@ -521,6 +529,8 @@ class HealthPage extends Page
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 53d6a6ba (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -549,19 +559,6 @@ class HealthPage extends Page
     {
         return [
             Action::make('refresh')
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-                
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()

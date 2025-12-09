@@ -134,6 +134,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder|PulseAggregate whereType($value)
  * @method static Builder|PulseAggregate whereValue($value)
  *
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -195,6 +196,9 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+ * @mixin IdeHelperPulseAggregate
+>>>>>>> 53d6a6ba (.)
  * @mixin \Eloquent
  */
 class PulseAggregate extends BaseModel

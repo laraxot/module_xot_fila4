@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # Gestione dei File Upload in Filament
@@ -276,3 +277,5 @@ Forms\Components\FileUpload::make('certifications')
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> ba1d49f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)

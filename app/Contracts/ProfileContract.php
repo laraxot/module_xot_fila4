@@ -79,6 +79,7 @@ interface ProfileContract extends HasMedia
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
 =======
@@ -107,10 +108,15 @@ interface ProfileContract extends HasMedia
     ]);
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+>>>>>>> 53d6a6ba (.)
 
     /**
      * Determine if the model has (one of) the given role(s).
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function hasRole(
@@ -149,10 +155,13 @@ interface ProfileContract extends HasMedia
 >>>>>>> 73eab74 (.)
 =======
 >>>>>>> 300ef70 (.)
+=======
+>>>>>>> 53d6a6ba (.)
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
-        null|string $guard = null,
+        ?string $guard = null,
     ): bool;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -167,12 +176,15 @@ interface ProfileContract extends HasMedia
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
 
     /**
      * Determine if the model has any of the given role(s).
      *
      * Alias to hasRole() but without Guard controls
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
@@ -203,12 +215,17 @@ interface ProfileContract extends HasMedia
     ]): bool;
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+>>>>>>> 53d6a6ba (.)
 
     /**
      * Determine if the model may perform the given permission.
      *
      * @throws PermissionDoesNotExist
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -330,12 +347,19 @@ interface ProfileContract extends HasMedia
     public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+>>>>>>> 53d6a6ba (.)
 
     /**
      * Create a new Eloquent query builder for the model.
      *
+<<<<<<< HEAD
      * @param Builder $query
      *
+=======
+     * @param  Builder  $query
+>>>>>>> 53d6a6ba (.)
      * @return \Illuminate\Database\Eloquent\Builder|static
      */
     public function newEloquentBuilder($query);
@@ -357,10 +381,14 @@ interface ProfileContract extends HasMedia
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * ---return BelongsTo<UserContract, self>.
 =======
      * Get the user that owns the profile.
 >>>>>>> cc7fb225 (.)
+=======
+     * ---return BelongsTo<UserContract, self>.
+>>>>>>> 53d6a6ba (.)
      */
     public function user(): BelongsTo;
 

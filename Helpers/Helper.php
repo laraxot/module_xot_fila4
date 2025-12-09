@@ -17274,12 +17274,17 @@ if (! function_exists('removeQueryParams')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $key = is_string($param) ? $param : (string) $param;
             unset($query[$key]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
+=======
+            unset($query[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
+>>>>>>> 53d6a6ba (.)
         }
 
         // 924    Parameter #1 $querydata of function http_build_query expects array|object, array|string given.
         return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17502,6 +17507,8 @@ if (! function_exists('removeQueryParams')) {
 >>>>>>> 14edd1a1 (.)
 =======
 >>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 53d6a6ba (.)
     }
 }
 
@@ -20618,6 +20625,7 @@ if (! function_exists('debugStack')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
         if (! extension_loaded('xdebug')) {
@@ -20779,6 +20787,9 @@ if (! function_exists('debugStack')) {
 =======
         if (! extension_loaded('xdebug')) {
 >>>>>>> 16dc7ab0 (.)
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> 53d6a6ba (.)
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -20787,6 +20798,7 @@ if (! function_exists('debugStack')) {
                 defined('XDEBUG_FILTER_TRACING') &&
                 defined('XDEBUG_PATH_EXCLUDE')
         ) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20957,6 +20969,10 @@ if (! function_exists('debugStack')) {
 >>>>>>> ca9324a4 (.)
                 '/../../vendor/']);
 >>>>>>> 5a14301c (.)
+=======
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+                '/../../vendor/']);
+>>>>>>> 53d6a6ba (.)
         }
 
         if (function_exists('xdebug_print_function_stack')) {
@@ -24758,6 +24774,7 @@ function safe_object_call($object, string $method, ...$args)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25049,6 +25066,8 @@ function safe_object_call($object, string $method, ...$args)
 >>>>>>> 14edd1a1 (.)
 =======
 >>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 53d6a6ba (.)
         return null;
     }
 

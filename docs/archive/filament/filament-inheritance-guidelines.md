@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Linee Guida per l'Ereditarietà da Classi Filament
@@ -388,3 +389,5 @@ public function getNavigationLabel(): string // Non static!
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3bf39332 (.)
 # Regole di Documentazione
@@ -563,3 +564,5 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)

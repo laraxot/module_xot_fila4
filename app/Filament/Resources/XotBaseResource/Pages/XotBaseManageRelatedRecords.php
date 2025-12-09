@@ -43,6 +43,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Override;
+<<<<<<< HEAD
 =======
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
@@ -224,6 +225,8 @@ use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecord
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -288,6 +291,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * @return array<\Filament\Schemas\Components\Component>
 =======
     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<\Filament\Forms\Components\Component>
 <<<<<<< HEAD
@@ -465,6 +469,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * @return array<\Filament\Schemas\Components\Component>
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+>>>>>>> 53d6a6ba (.)
      */
     // abstract public static function getFormSchema(): array;
 
@@ -548,6 +555,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
             'edit' => Action::make('edit')
                 ->label('Modifica')
                 ->icon('heroicon-o-pencil')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +721,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 =======
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
 >>>>>>> ca9324a4 (.)
+=======
+                ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+>>>>>>> 53d6a6ba (.)
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')

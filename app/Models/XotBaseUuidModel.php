@@ -74,6 +74,7 @@ abstract class XotBaseUuidModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     protected $keyType = 'string';
 
@@ -105,4 +106,6 @@ abstract class XotBaseUuidModel extends Model
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
 }

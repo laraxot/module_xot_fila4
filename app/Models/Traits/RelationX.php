@@ -460,6 +460,7 @@ trait RelationX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 >>>>>>> d86d643a (.)
@@ -470,6 +471,9 @@ trait RelationX
 =======
 >>>>>>> d86d643a (.)
         // Handle cross-database relationships
+=======
+        // if ($pivotDbName !== $dbName) {
+>>>>>>> 53d6a6ba (.)
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -523,6 +527,7 @@ trait RelationX
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         // }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -651,6 +656,9 @@ trait RelationX
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+        // }
+>>>>>>> 53d6a6ba (.)
 
         return $this->belongsToMany(
             related: $related,

@@ -10,6 +10,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -252,6 +253,10 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+use Nwidart\Modules\Facades\Module;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 53d6a6ba (.)
 
 class GetViewNameSpacePathAction
 {
@@ -282,32 +287,20 @@ class GetViewNameSpacePathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
     public function execute(?string $module_name = null): string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function execute(null|string $module_name = null): string
-=======
-    public function execute(?string $module_name = null): string
->>>>>>> f1d4085 (.)
-=======
-    public function execute(null|string $module_name = null): string
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function execute(null|string $module_name = null): string
->>>>>>> 300ef70 (.)
     {
         if ($module_name !== null && $module_name !== '') {
             $module_path = Module::getModulePath($module_name);
             /** @var non-falsy-string $namespace_path */
-<<<<<<< HEAD
-<<<<<<< HEAD
             $namespace_path = $module_path.'resources/views';
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -524,6 +517,8 @@ class GetViewNameSpacePathAction
             $namespace_path = $module_path . 'resources/views';
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
         } else {
             /** @var non-falsy-string $namespace_path */
             $namespace_path = resource_path('views');

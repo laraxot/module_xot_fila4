@@ -303,6 +303,7 @@ class ArtisanService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($module_name)) {
 =======
         if (!is_string($module_name)) {
@@ -430,6 +431,9 @@ class ArtisanService
 =======
         if (! is_string($module_name)) {
 >>>>>>> 43d67f21 (.)
+=======
+        if (! is_string($module_name)) {
+>>>>>>> 53d6a6ba (.)
             $module_name = '';
         }
         switch ($act) {
@@ -461,6 +465,7 @@ class ArtisanService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e59778ae (.)
 =======
@@ -477,10 +482,13 @@ class ArtisanService
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 if ($module_name !== '') {
                     echo '<h3>Module '.$module_name.'</h3>';
 
                     return self::exe('module:migrate '.$module_name.' --force');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -749,6 +757,10 @@ class ArtisanService
 >>>>>>> 5842a556 (.)
                 }
 
+=======
+                }
+
+>>>>>>> 53d6a6ba (.)
                 return self::exe('migrate --force');
 
             case 'routelist':
@@ -798,6 +810,7 @@ class ArtisanService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 43d67f21 (.)
 =======
@@ -1025,6 +1038,8 @@ class ArtisanService
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 echo self::exe('cache:clear').PHP_EOL;
                 echo self::exe('config:clear').PHP_EOL;
                 echo self::exe('event:clear').PHP_EOL;
@@ -1042,6 +1057,7 @@ class ArtisanService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
                 // -- non artisan
@@ -1070,10 +1086,13 @@ class ArtisanService
 
                 // -- non artisan
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 echo self::sessionClear().PHP_EOL;
                 echo self::errorClear().PHP_EOL;
                 echo self::debugbarClear().PHP_EOL;
                 echo PHP_EOL.'DONE'.PHP_EOL;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1271,6 +1290,8 @@ class ArtisanService
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 break;
             case 'clearcache':
                 return self::exe('cache:clear');
@@ -1320,6 +1341,7 @@ class ArtisanService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // -------------------------------------------------------------------
 =======
             // -------------------------------------------------------------------
@@ -1506,6 +1528,9 @@ class ArtisanService
 =======
                 // -------------------------------------------------------------------
 >>>>>>> 5842a556 (.)
+=======
+                // -------------------------------------------------------------------
+>>>>>>> 53d6a6ba (.)
             case 'debugbar:clear':
                 self::debugbarClear();
                 break;
@@ -1548,6 +1573,7 @@ class ArtisanService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // ------------------------------------------------------------------
 =======
             // ------------------------------------------------------------------
@@ -1734,6 +1760,9 @@ class ArtisanService
 =======
                 // ------------------------------------------------------------------
 >>>>>>> 5842a556 (.)
+=======
+                // ------------------------------------------------------------------
+>>>>>>> 53d6a6ba (.)
 
             case 'module-list':
                 return self::exe('module:list');
@@ -1776,6 +1805,7 @@ class ArtisanService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e59778ae (.)
 =======
@@ -1798,10 +1828,13 @@ class ArtisanService
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 return self::exe('module:disable '.$module_name);
             case 'module-enable':
                 return self::exe('module:enable '.$module_name);
                 // ----------------------------------------------------------------------
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2126,6 +2159,8 @@ class ArtisanService
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 53d6a6ba (.)
             case 'error':
             case 'error-show':
                 return self::errorShow()->render();
@@ -2170,6 +2205,7 @@ class ArtisanService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e59778ae (.)
 =======
@@ -2186,6 +2222,8 @@ class ArtisanService
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 // -------------------------------------------------------------------------
             case 'spatiecache-clear':
                 /* da vedere se e' necessaria
@@ -2196,6 +2234,7 @@ class ArtisanService
                  * }
                  */
                 // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2599,6 +2638,8 @@ class ArtisanService
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 
             default:
                 return '';

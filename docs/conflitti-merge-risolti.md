@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Risoluzione Conflitti di Merge 
 
 <<<<<<< HEAD
@@ -309,3 +310,5 @@ La risoluzione dei conflitti di merge ha ripristinato la corretta funzionalità 
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)

@@ -131,11 +131,14 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 =======
  *
+<<<<<<< HEAD
  * @property string|null $model_class
  *
  * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
  *
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 53d6a6ba (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model

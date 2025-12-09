@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Xot Module - Framework Base Laraxot
@@ -242,3 +243,5 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 >>>>>>> a5dccfe (.)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)

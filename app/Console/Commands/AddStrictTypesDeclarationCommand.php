@@ -7,6 +7,7 @@ namespace Modules\Xot\Console\Commands;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use SplFileInfo;
 use Exception;
@@ -22,9 +23,13 @@ use SplFileInfo;
 use Exception;
 use SplFileInfo;
 >>>>>>> ed734516 (.)
+=======
+use Exception;
+>>>>>>> 53d6a6ba (.)
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
+use SplFileInfo;
 
 class AddStrictTypesDeclarationCommand extends Command
 {
@@ -37,6 +42,7 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @var array<string>
      */
@@ -46,6 +52,8 @@ class AddStrictTypesDeclarationCommand extends Command
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 53d6a6ba (.)
     private array $excludedPaths = [
         'views',
         'config',
@@ -99,11 +107,15 @@ class AddStrictTypesDeclarationCommand extends Command
             Assert::isInstanceOf($file, SplFileInfo::class);
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
+<<<<<<< HEAD
                     $fileName = $file->getRealPath();
                     if ($fileName === false) {
                         $fileName = $file->getPathname();
                     }
                     $this->info("Verrebbe processato: {$fileName}");
+=======
+                    $this->info("Verrebbe processato: {$file}");
+>>>>>>> 53d6a6ba (.)
                     $count++;
 
                     continue;
@@ -150,6 +162,9 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
                     $this->error("Errore nel processare {$path}: ".$e->getMessage());
 =======
                     $this->error("Errore nel processare {$path}: " . $e->getMessage());
@@ -173,6 +188,7 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<SplFileInfo>
      */
@@ -182,6 +198,8 @@ class AddStrictTypesDeclarationCommand extends Command
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 53d6a6ba (.)
     private function findPhpFiles(string $path): array
     {
         return File::allFiles($path);

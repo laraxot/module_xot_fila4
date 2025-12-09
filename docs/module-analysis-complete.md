@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Analisi Completa Modulo Xot - Factory, Seeder e Test
@@ -504,3 +505,5 @@ Il modulo Xot è la base fondamentale del sistema SaluteOra, fornendo classi bas
 **Prossima Revisione**: Gennaio 2025
 
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)

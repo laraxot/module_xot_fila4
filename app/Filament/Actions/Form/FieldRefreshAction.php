@@ -53,6 +53,7 @@ class FieldRefreshAction extends Action
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
+<<<<<<< HEAD
             ->action(function ($record, Set $set): void {
 =======
 =======
@@ -75,11 +76,15 @@ class FieldRefreshAction extends Action
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+            ->action(function ($state, $set, $record) {
+>>>>>>> 53d6a6ba (.)
                 $name = $this->getName();
                 if ($name === null) {
                     return;
                 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,6 +125,14 @@ class FieldRefreshAction extends Action
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+                $method = 'get'.Str::studly($name).'';
+                $value = $record->$method();
+                $set($name, $value);
+                Notification::make()
+                    ->title('Ricalcolato '.$name)
+                    ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
+>>>>>>> 53d6a6ba (.)
                     ->success()
                     ->send();
             });

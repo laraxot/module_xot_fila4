@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # Migrations - Documentazione Consolidata DRY + KISS
@@ -793,3 +794,5 @@ rm Modules/SaluteMo/docs/database/migrations.md
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)

@@ -39,6 +39,7 @@ use Filament\Panel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 =======
@@ -149,6 +150,8 @@ use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
@@ -166,24 +169,6 @@ use Modules\Xot\Datas\MetatagData;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Datas\XotData;
 use Spatie\QueueableAction\QueueableAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-use Modules\Xot\Datas\XotData;
-use Modules\Xot\Datas\MetatagData;
-use Spatie\QueueableAction\QueueableAction;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Gate;
-use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
-use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
 class ApplyTenancyToPanelAction
 {
@@ -205,8 +190,8 @@ class ApplyTenancyToPanelAction
 <<<<<<< HEAD
         // $user = Auth::user();
 
-<<<<<<< HEAD
         // if (Gate::allows('superadmin', $user)) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         //$user = Auth::user();
@@ -358,6 +343,8 @@ class ApplyTenancyToPanelAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
         // Configurazione completa per superadmin
         $panel
             ->tenant($tenant_class, 'slug', 'tenants')
@@ -381,9 +368,9 @@ class ApplyTenancyToPanelAction
 <<<<<<< HEAD
         // } else {
         // Configurazione limitata per non-superadmin
-<<<<<<< HEAD
         // $panel->tenant($tenant_class, slugAttribute: 'slug');
         // }
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -435,6 +422,8 @@ class ApplyTenancyToPanelAction
         //}
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 
         return $panel;
     }

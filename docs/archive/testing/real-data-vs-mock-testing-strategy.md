@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # Real Data vs Mock Testing Strategy - Xot Module
@@ -641,3 +642,5 @@ test('legacy feature with mocks', function () {
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)

@@ -29,6 +29,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ed734516 (.)
@@ -78,25 +79,9 @@ use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6dcebf8a (.)
-use Spatie\QueueableAction\QueueableAction;
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
+>>>>>>> 53d6a6ba (.)
 use Spatie\QueueableAction\QueueableAction;
-=======
-use Spatie\QueueableAction\QueueableAction;
-use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
->>>>>>> f1d4085 (.)
-=======
-use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
-use Spatie\QueueableAction\QueueableAction;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
-use Spatie\QueueableAction\QueueableAction;
->>>>>>> 300ef70 (.)
 
 /**
  * Classe per la conversione di nomi di classi in nomi di viste.
@@ -182,6 +167,7 @@ class GetViewByClassAction
         $module = Str::of($class)->betweenFirst('Modules\\', '\\')->toString();
         $module_low = Str::of($module)->lower()->toString();
         $after = Str::of($class)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -404,6 +390,9 @@ class GetViewByClassAction
             ->after('Modules\\' . $module . '\\')
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+            ->after('Modules\\'.$module.'\\')
+>>>>>>> 53d6a6ba (.)
             ->explode('\\')
             ->toArray();
 
@@ -468,6 +457,7 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -487,10 +477,13 @@ class GetViewByClassAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
         $view = $module_low.'::'.$implode.$suffix;
 
         if (! view()->exists($view)) {
             throw new Exception('View not found: '.$view);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -796,6 +789,8 @@ class GetViewByClassAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
         }
 
         return $view;

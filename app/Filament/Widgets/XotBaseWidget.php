@@ -46,6 +46,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d86d643a (.)
@@ -140,6 +141,8 @@ use Filament\Schemas\Schema;
 >>>>>>> 14edd1a1 (.)
 =======
 >>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -1973,7 +1976,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                     $res = $merge1;
                 }
 
-                /** @var array<string, mixed> */
                 return $res;
 
                 // dddx($model->with('studio')->relationsToArray());
@@ -1999,7 +2001,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 //    $attributes['type'] = $model->type->value;
                 // }
 
-                /** @var array<string, mixed> */
                 return $attributes;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2020,16 +2021,19 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $attributes = $model->attributesToArray();
 
         $fields = array_merge($fillable, $appends);
-        /** @var array<string, mixed> $fieldsWithNull */
-        $fieldsWithNull = array_fill_keys($fields, null);
-        $fieldsWithNull = array_merge($fieldsWithNull, $attributes);
+        $fields = array_fill_keys($fields, null);
+        $fields = array_merge($fields, $attributes);
         if (method_exists($model, 'getDataDefaults')) {
             /** @var array<string, mixed> $defaults */
             $defaults = $model->getDataDefaults();
-            $fieldsWithNull = array_merge($fieldsWithNull, $defaults);
+            $fields = array_merge($fields, $defaults);
         }
 
+<<<<<<< HEAD
         return $fieldsWithNull;
+=======
+        return $fields;
+>>>>>>> 53d6a6ba (.)
     }
 
     /**
@@ -2047,7 +2051,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     /**
      * Eseguito quando i filtri vengono aggiornati.
-     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario.
+     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario
      */
     // public function filtersUpdated(): void
     // {

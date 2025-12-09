@@ -20,6 +20,7 @@ namespace Modules\Xot\Exports;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Traversable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Contracts\Support\Arrayable;
@@ -63,6 +64,10 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 >>>>>>> 5a14301c (.)
+=======
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Contracts\Support\Arrayable;
+>>>>>>> 53d6a6ba (.)
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Query\Builder as QueryBuilder;
@@ -81,6 +86,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     use Exportable;
 
     public array $headings = [];
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -476,6 +482,20 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 =======
 >>>>>>> 300ef70 (.)
     public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
+=======
+
+    /** @var array<int, string> */
+    public array $fields = [];
+
+    public ?string $transKey = null;
+
+    public QueryBuilder|EloquentBuilder $query;
+
+    /**
+     * @param  array<int, string>  $fields
+     */
+    public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
+>>>>>>> 53d6a6ba (.)
     {
         $this->query = $query;
 >>>>>>> ab8cc3f3 (.)
@@ -537,14 +557,14 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 
     public function getHead(): Collection
     {
-        if (!empty($this->fields)) {
+        if (! empty($this->fields)) {
             return collect($this->fields);
         }
         /**
          * @var Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null
          */
         $first = $this->query->first();
-        if (null === $first) {
+        if ($first === null) {
             return collect([]);
         }
 
@@ -559,8 +579,11 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
         $headings = app(TransCollectionAction::class)->execute($headings, $transKey);
 
         return $headings->toArray();
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
     }
 
 <<<<<<< HEAD
@@ -568,6 +591,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 <<<<<<< HEAD
 <<<<<<< HEAD
     /**
+<<<<<<< HEAD
      * @return Collection<int, int|string>
      */
     public function getHead(): Collection
@@ -742,6 +766,15 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
         // ->orderBy('id');
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+     * se si usa scout aggiungere |ScoutBuilder.
+     */
+    public function query(): QueryBuilder|EloquentBuilder|Relation
+    {
+        return $this->query;
+
+        // ->orderBy('id');
+>>>>>>> 53d6a6ba (.)
     }
 
     public function chunkSize(): int
@@ -750,6 +783,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -935,6 +969,13 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 =======
 >>>>>>> 300ef70 (.)
         if (!empty($this->fields)) {
+=======
+     * @param  Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null  $item
+     */
+    public function map($item): array
+    {
+        if (! empty($this->fields)) {
+>>>>>>> 53d6a6ba (.)
             return collect($item)->toArray();
         }
 
@@ -946,6 +987,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 =======
 >>>>>>> 6dcebf8a (.)
         return collect($item)->only($this->fields)->toArray();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1111,5 +1153,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
     }
 }

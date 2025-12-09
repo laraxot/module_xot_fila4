@@ -73,6 +73,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder|PulseValue whereType($value)
  * @method static Builder|PulseValue whereValue($value)
  *
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -166,6 +167,9 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+ * @mixin IdeHelperPulseValue
+>>>>>>> 53d6a6ba (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

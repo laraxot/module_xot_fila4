@@ -407,9 +407,12 @@ class PdfData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $params
      */
+=======
+>>>>>>> 53d6a6ba (.)
     public function view(string $view, array $params = []): self
     {
         if (! view()->exists($view)) {

@@ -344,6 +344,7 @@ class MetatagPage extends Page implements HasForms
                             ->reactive(),
                         ColorPicker::make('hex')
                             ->label('Colore personalizzato')
+<<<<<<< HEAD
                             ->visible(fn(Get $get) => $get('color') === 'custom')
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -355,6 +356,9 @@ class MetatagPage extends Page implements HasForms
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+                            ->visible(fn ($get) => $get('color') === 'custom')
+>>>>>>> 53d6a6ba (.)
                             ->required(),
                     ])
                     ->columns(3),

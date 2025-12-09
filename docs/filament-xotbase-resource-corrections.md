@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # Correzioni Implementate - Regola Critica XotBaseResource
@@ -328,3 +329,5 @@ class ExampleResource extends XotBaseResource
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)

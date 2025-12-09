@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
@@ -445,3 +446,5 @@ Questo fix dimostra l'importanza di:
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)

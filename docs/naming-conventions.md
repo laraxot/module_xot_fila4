@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```bash
 # Rimuovere duplicato lowercase
 rm tests/Feature/fixstructuretest.pest.php
@@ -344,3 +345,5 @@ Questo documento descrive le convenzioni di denominazione da seguire all'interno
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 53d6a6ba (.)

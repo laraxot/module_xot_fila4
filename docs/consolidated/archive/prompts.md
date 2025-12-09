@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Struttura dei Prompt
@@ -355,3 +356,5 @@ Il prompt `docs.txt` serve come:
 =======
    ```
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)

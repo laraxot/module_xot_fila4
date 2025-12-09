@@ -423,6 +423,7 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
@@ -496,4 +497,26 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+    public static function canDelete(Model $record): bool
+    {
+        $resource = static::$resource;
+
+        return $resource::canDelete($record);
+    }
+
+    public static function canForceDelete(Model $record): bool
+    {
+        $resource = static::$resource;
+
+        return $resource::canForceDelete($record);
+    }
+
+    public static function canRestore(Model $record): bool
+    {
+        $resource = static::$resource;
+
+        return $resource::canRestore($record);
+    }
+>>>>>>> 53d6a6ba (.)
 }

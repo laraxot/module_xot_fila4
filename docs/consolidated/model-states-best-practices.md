@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Best Practices per Model States e Transizioni Custom
@@ -146,3 +147,5 @@
 >>>>>>> a5dccfe (.)
   - [README.md centrale](../../../project_docs/README.md) 
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # XotBasePage - Classe Base per le Pagine Filament
@@ -970,3 +971,5 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 >>>>>>> ba1d49f3 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)

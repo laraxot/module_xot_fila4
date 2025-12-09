@@ -57,6 +57,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -114,6 +115,9 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+ * @mixin IdeHelperCache
+>>>>>>> 53d6a6ba (.)
  * @mixin \Eloquent
  */
 class Cache extends BaseModel

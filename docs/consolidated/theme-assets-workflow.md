@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # 🎨 Theme Assets Workflow - CSS/JS Frontend
@@ -401,3 +402,5 @@ export default defineConfig({
 =======
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # XotBaseServiceProvider
@@ -345,3 +346,5 @@ try {
 =======
 5. La registrazione dei componenti è automatica ma configurabile 
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)

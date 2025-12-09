@@ -22,7 +22,10 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Pages\Dashboard as FilamentDashboard;
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
+=======
+>>>>>>> 53d6a6ba (.)
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 =======
@@ -496,6 +499,7 @@ abstract class XotBaseDashboard extends FilamentDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<Component> $filterSchema */
         $filterSchema = $this->getFiltersFormSchema();
 
@@ -584,6 +588,13 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+        return $schema->components([
+            Section::make()->schema($this->getFiltersFormSchema())->columns(3),
+        ]);
+    }
+
+>>>>>>> 53d6a6ba (.)
     public function getFiltersFormSchema(): array
     {
         return [];

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Aggiornamento File di Traduzione xot_base.php
@@ -250,3 +251,5 @@ return [
 >>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)

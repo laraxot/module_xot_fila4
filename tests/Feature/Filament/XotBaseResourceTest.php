@@ -2,16 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
@@ -21,6 +11,7 @@ use Modules\Xot\Tests\TestCase;
 
 uses(TestCase::class, RefreshDatabase::class);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 beforeEach(function () {
 <<<<<<< HEAD
@@ -264,14 +255,29 @@ test('xot base resource extends filament resource', function (): void {
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+beforeEach(function () {
+    $this->resource = new class extends XotBaseResource
+    {
+        protected static ?string $model = null;
+
+        protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
+
+        protected static string|\UnitEnum|null $navigationGroup = 'Test Group';
+
+        protected static ?int $navigationSort = 1;
+>>>>>>> 53d6a6ba (.)
     };
 });
 
 test('xot base resource extends filament resource', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
     expect($this->resource)->toBeInstanceOf(Resource::class);
 });
 

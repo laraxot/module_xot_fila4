@@ -38,6 +38,7 @@ namespace Modules\Xot\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -61,6 +62,8 @@ use Override;
 use Override;
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\PulseEntry;
 use Override;
@@ -212,22 +215,7 @@ class PulseEntryPolicy extends XotBasePolicy
     /**
      * Determine whether the user can view any models.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    #[Override]
->>>>>>> 300ef70 (.)
     public function viewAny(UserContract $user): bool
     {
         return $user->hasPermissionTo('pulse_entry.viewAny');
@@ -236,23 +224,7 @@ class PulseEntryPolicy extends XotBasePolicy
     /**
      * Determine whether the user can view the model.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function view(UserContract $user, PulseEntry $_pulse_entry): bool
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function view(UserContract $user, PulseEntry $_pulse_entry): bool
-=======
-    public function view(UserContract $user, PulseEntry $pulse_entry): bool
->>>>>>> f1d4085 (.)
-=======
-    public function view(UserContract $user, PulseEntry $_pulse_entry): bool
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function view(UserContract $user, PulseEntry $_pulse_entry): bool
->>>>>>> 300ef70 (.)
     {
         return $user->hasPermissionTo('pulse_entry.view');
     }
@@ -268,23 +240,7 @@ class PulseEntryPolicy extends XotBasePolicy
     /**
      * Determine whether the user can update the model.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function update(UserContract $user, PulseEntry $_pulse_entry): bool
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function update(UserContract $user, PulseEntry $_pulse_entry): bool
-=======
-    public function update(UserContract $user, PulseEntry $pulse_entry): bool
->>>>>>> f1d4085 (.)
-=======
-    public function update(UserContract $user, PulseEntry $_pulse_entry): bool
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function update(UserContract $user, PulseEntry $_pulse_entry): bool
->>>>>>> 300ef70 (.)
     {
         return $user->hasPermissionTo('pulse_entry.update');
     }
@@ -292,23 +248,7 @@ class PulseEntryPolicy extends XotBasePolicy
     /**
      * Determine whether the user can delete the model.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function delete(UserContract $user, PulseEntry $_pulse_entry): bool
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function delete(UserContract $user, PulseEntry $_pulse_entry): bool
-=======
-    public function delete(UserContract $user, PulseEntry $pulse_entry): bool
->>>>>>> f1d4085 (.)
-=======
-    public function delete(UserContract $user, PulseEntry $_pulse_entry): bool
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function delete(UserContract $user, PulseEntry $_pulse_entry): bool
->>>>>>> 300ef70 (.)
     {
         return $user->hasPermissionTo('pulse_entry.delete');
     }
@@ -316,23 +256,7 @@ class PulseEntryPolicy extends XotBasePolicy
     /**
      * Determine whether the user can restore the model.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function restore(UserContract $user, PulseEntry $_pulse_entry): bool
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function restore(UserContract $user, PulseEntry $_pulse_entry): bool
-=======
-    public function restore(UserContract $user, PulseEntry $pulse_entry): bool
->>>>>>> f1d4085 (.)
-=======
-    public function restore(UserContract $user, PulseEntry $_pulse_entry): bool
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function restore(UserContract $user, PulseEntry $_pulse_entry): bool
->>>>>>> 300ef70 (.)
     {
         return $user->hasPermissionTo('pulse_entry.restore');
     }

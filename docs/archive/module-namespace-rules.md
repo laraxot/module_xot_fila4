@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Regola generale: Label e traduzioni in Filament
@@ -198,3 +199,5 @@ Ultimo aggiornamento: maggio 2025.
 >>>>>>> a5dccfe (.)
 Ultimo aggiornamento: maggio 2025.
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)

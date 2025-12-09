@@ -42,6 +42,7 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\Team;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -57,6 +58,10 @@ use Laravel\Passport\PersonalAccessTokenResult;
 =======
 >>>>>>> d86d643a (.)
 use BackedEnum;
+=======
+use BackedEnum;
+use DateTime;
+>>>>>>> 53d6a6ba (.)
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
 use Illuminate\Support\Collection;
@@ -678,6 +683,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string|int|null $current_team_id
  * @property string|null $phone
  * @property string|null $email
+<<<<<<< HEAD
  * @property \DateTime|null $email_verified_at
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
  * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
@@ -734,6 +740,9 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string|null $phone
  * @property string|null $email
  * @property \DateTime|null $email_verified_at
+=======
+ * @property DateTime|null $email_verified_at
+>>>>>>> 53d6a6ba (.)
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
  * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
  *
@@ -1157,6 +1166,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $key
 =======
 <<<<<<< HEAD
@@ -1258,6 +1268,9 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
      * @param  string  $key
 >>>>>>> 5842a556 (.)
+=======
+     * @param  string  $key
+>>>>>>> 53d6a6ba (.)
      * @return mixed|null
      */
     public function getRelationValue($key);
@@ -1652,6 +1665,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string|int|Role|BackedEnum  $role
 =======
 <<<<<<< HEAD
@@ -1785,6 +1799,9 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
      * @param  string|int|Role|BackedEnum  $role
 >>>>>>> 5842a556 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 53d6a6ba (.)
      * @return self
      */
     public function removeRole($role);
@@ -1801,6 +1818,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -1808,6 +1826,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
      */
     public function roles(): BelongsToMany;
 
@@ -1963,6 +1983,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2207,4 +2228,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
 >>>>>>> 5842a556 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 53d6a6ba (.)
 }

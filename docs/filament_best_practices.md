@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3bf39332 (.)
 # Best Practices per Risorse Filament in Laraxot
@@ -645,3 +646,5 @@ Prima di considerare completa una risorsa Filament, verificare:
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)

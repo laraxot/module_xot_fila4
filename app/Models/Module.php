@@ -81,36 +81,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 use Sushi\Sushi;
 
 use function Safe\json_encode;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
-use function Safe\json_encode;
-
-use Sushi\Sushi;
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,7 +150,11 @@ final class Module extends BaseModel
  * @mixin IdeHelperModule
 =======
  *
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
+=======
+ * @mixin IdeHelperModule
+>>>>>>> 53d6a6ba (.)
  * @mixin \Eloquent
  */
 class Module extends Model
@@ -210,16 +188,6 @@ class Module extends Model
     public function getRows(): array
     {
         $modules = ModuleFacade::all();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
 <<<<<<< HEAD
@@ -256,39 +224,6 @@ class Module extends Model
         });
 
         /** @var array<int, array<string, mixed>> */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        $modules = Arr::map(
-            $modules,
-            function (NModule $module): array {
-                $config = config('tenant::config');
-                if (! is_array($config)) {
-                    $config = [];
-                }
-                $colors = Arr::get($config, 'colors', []);
-
-                return [
-                    'name' => $module->getName(),
-                    // 'alias' => $module->getAlias(),
-                    'description' => $module->getDescription(),
-                    'status' => $module->isEnabled(),
-                    'priority' => $module->get('priority'),
-                    'path' => $module->getPath(),
-                    'icon' => Arr::get($config, 'icon', 'heroicon-o-question-mark-circle'),
-                    'colors' => json_encode($colors),
-                ];
-            }
-        );
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         return array_values($modules);
     }
 

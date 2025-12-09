@@ -34,6 +34,10 @@ use Filament\Pages\Concerns\InteractsWithFormActions;
 use Filament\Resources\Pages\Page as FilamentPage;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
+<<<<<<< HEAD
+=======
+use Illuminate\Contracts\View\View;
+>>>>>>> 53d6a6ba (.)
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
@@ -529,6 +533,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         if (static::$model === null) {
             throw new \LogicException('Model class not set for page: ' . static::class);
         }
+<<<<<<< HEAD
         
 =======
 =======
@@ -548,6 +553,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 53d6a6ba (.)
         return static::$model;
     }
 

@@ -74,6 +74,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $transKey;
 =======
     public null|string $transKey;
@@ -215,6 +216,12 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 =======
     public null|string $transKey;
 >>>>>>> ca9324a4 (.)
+=======
+    public null|string $transKey;
+=======
+    public ?string $transKey;
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 
     /** @var array<int, string> */
     public array $fields = [];
@@ -238,6 +245,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 5a14301c (.)
      * @param array<int, string> $fields
      */
+<<<<<<< HEAD
     public function __construct(
         public LazyCollection $collection,
         null|string $transKey = null,
@@ -253,11 +261,18 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 5a14301c (.)
         array $fields = [],
     ) {
+=======
+    public function __construct(public LazyCollection $collection, ?string $transKey = null, array $fields = [])
+    {
+>>>>>>> f1d4085 (.)
         // $this->headings = count($headings) > 0 ? $headings : collect($collection->first())->keys()->toArray();
 
         $this->transKey = $transKey;
         $this->fields = $fields;
+<<<<<<< HEAD
 
+=======
+>>>>>>> f1d4085 (.)
         // $this->headings = $headings->toArray();
     }
 
@@ -301,6 +316,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
         $data = $item->only($this->fields);
 
         return $data->toArray();
+<<<<<<< HEAD
 
         /*
          * return [
@@ -317,10 +333,18 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 5a14301c (.)
          * ];
          */
+=======
+        /*
+        return [
+            $item->,
+        ];
+        */
+>>>>>>> f1d4085 (.)
     }
 
     public function getHead(): Collection
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,7 +433,12 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
         if (!empty($this->fields)) {
+=======
+        if (! empty($this->fields)) {
+>>>>>>> f1d4085 (.)
             return collect($this->fields);
         }
 

@@ -431,6 +431,7 @@ SQLSTATE[42S02]: Base table or view not found
 SQLSTATE[23000]: Integrity constraint violation
 ```
 
+<<<<<<< HEAD
 #### **Soluzioni**
 
 **Utilizzare RefreshDatabase**
@@ -449,6 +450,8 @@ class MioModelloTest extends XotBaseTestCase
     }
 }
 ```
+=======
+>>>>>>> f1d4085 (.)
 
 **Verificare Migrazioni**
 ```bash

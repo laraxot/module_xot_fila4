@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,10 +45,13 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
 - Esempio pratico: vedi la correzione e il ragionamento in [Azioni Organizzativa (Performance)](../../Performance/docs/azioni_organizzativa.md).
 
 ### Collegamenti
 - [Azioni Organizzativa (Performance)](../../Performance/docs/azioni_organizzativa.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,10 +101,13 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
 
 ## Regole sui Model
 - Nei moduli, i model devono **sempre** estendere `BaseModel` e **mai** direttamente `Model`.
 - Il codice deve essere scritto già conforme agli standard richiesti da phpstan livello 10.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152,6 +159,9 @@
 >>>>>>> a62d7646 (.)
 =======
 >>>>>>> d79d36e0 (.)
+=======
+- Evitare duplicazioni di model: vedi la discussione e i rischi nella [documentazione Performance](../../Performance/docs/azioni_organizzativa.md#duplicazione-tra-organizzativatotvalutatore-e-organizzativatotvalutatoreid). 
+>>>>>>> 5cd593a5 (.)
 
 ## Regole permanenti per Action Filament custom
 
@@ -187,6 +197,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,12 +222,15 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
 - Vedi [Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md) per esempio pratico, motivazione e memoria storica.
 - Queste regole sono obbligatorie per tutti i moduli che implementano action custom Filament.
 
 ### Collegamenti
 - [Performance: pattern e anti-pattern Action Filament](../../Performance/docs/organizzativa-migration-errors.md)
 - [Indice e collegamenti root](../../../docs/links.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,11 +282,14 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
 
 ## Regole sulle colonne delle tabelle Filament
 - Le colonne delle tabelle Filament devono corrispondere esattamente a quelle del modello e della migrazione.
 - Non inventare mai colonne (es. name, field_name, op, value) se non esistono realmente.
 - Usare sempre i file di traduzione per le label.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -482,3 +499,6 @@
 - Vedi [Performance/docs/organizzativa_cat_coeffs.md](../../Performance/docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+- Vedi [Performance/docs/organizzativa_cat_coeffs.md](../../Performance/docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
+>>>>>>> 5cd593a5 (.)

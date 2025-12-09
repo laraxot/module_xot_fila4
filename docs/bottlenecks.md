@@ -708,6 +708,7 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -740,10 +741,13 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
 * [BOTTLENECKS.md](../../../Xot/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../User/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Media/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Cms/docs/BOTTLENECKS.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -784,6 +788,8 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

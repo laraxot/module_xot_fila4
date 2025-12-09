@@ -73,6 +73,7 @@ The Xot base classes provide a centralized way to customize and extend functiona
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,11 +98,14 @@ The Xot base classes provide a centralized way to customize and extend functiona
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
 - [Code Quality](../Xot/docs/CODE_QUALITY.md)
 - [Filament Extension Pattern](../../Notify/docs/FILAMENT_EXTENSION_PATTERN.md)
 - [Filament Extension Pattern Analysis](../../Notify/docs/FILAMENT_EXTENSION_PATTERN_ANALYSIS.md)
 - [Patient Module - Filament Customization](../../Patient/docs/FILAMENT_CUSTOMIZATION.md)
 - [Patient Module - Namespace Conventions](../../Patient/docs/NAMESPACE_CONVENTIONS.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,3 +305,5 @@ The Xot base classes provide a centralized way to customize and extend functiona
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)

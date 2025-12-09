@@ -149,6 +149,7 @@ php artisan serve
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,6 +182,8 @@ php artisan serve
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
 * [installation.md](../../../Xot/docs/filament/installation.md)
 * [installation.md](../../../Xot/docs/installation.md)
 * [installation.md](../../../Xot/docs/base/installation.md)
@@ -188,6 +191,7 @@ php artisan serve
 * [installation.md](../../../Lang/docs/installation.md)
 * [installation.md](../../../Cms/docs/installation.md)
 * [installation.md](../../../../Themes/One/docs/installation.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,6 +235,8 @@ php artisan serve
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

@@ -90,6 +90,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->andReturn(
             \Modules\\<YourModule>\\Models\\User::class
         );
@@ -172,6 +173,9 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 5cd593a5 (.)
         ->andReturn(\Modules\SaluteOra\Models\User::class);
 >>>>>>> 5a14301c (.)
 =======
@@ -520,6 +524,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -668,6 +673,10 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 >>>>>>> a62d7646 (.)
 =======
 >>>>>>> d79d36e0 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 5cd593a5 (.)
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---
@@ -675,6 +684,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Status**: ✅ Best Practices Validate  
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -918,3 +928,6 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5cd593a5 (.)

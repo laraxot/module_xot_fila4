@@ -266,9 +266,8 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 # Development Guidelines - Xot Module
 
 ## Panoramica
-<<<<<<< HEAD
-<<<<<<< HEAD
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
@@ -278,6 +277,8 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 >>>>>>> 5bd842e3 (.)
 =======
@@ -318,6 +319,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
 =======
@@ -389,6 +391,10 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> a62d7646 (.)
 =======
 >>>>>>> d79d36e0 (.)
+=======
+- [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 5cd593a5 (.)
 
 ## Principi di Correzione
 
@@ -420,6 +426,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
 =======
@@ -491,6 +498,10 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> a62d7646 (.)
 =======
 >>>>>>> d79d36e0 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 5cd593a5 (.)
 - [Xot Architecture](./architecture.md)
 
 ## Note per Sviluppo Futuro

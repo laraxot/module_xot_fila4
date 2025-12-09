@@ -1,14 +1,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Il modulo **Xot** è il core framework di Laraxot PTVX. Fornisce:
 - Classi base (`XotBase*`) per Resources, Widgets, Actions, Blocks
@@ -46,10 +50,14 @@ Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Liv
 =======
 Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
 >>>>>>> 5a14301c (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
+>>>>>>> 71f31700 (.)
 
 ## Architettura Modulare
 
 ### Principi Fondamentali
+<<<<<<< HEAD
 <<<<<<< HEAD
 - **Modularità**: 36 moduli indipendenti
 - **Coerenza**: Convenzioni namespace, file system uniforme
@@ -57,6 +65,8 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per appl
 - **Manutenibilità**: Strumenti comuni, automazioni
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 
 - **Modularità**: Ogni funzionalità è organizzata in moduli indipendenti
 - **Coerenza**: Struttura uniforme e convenzioni standardizzate
@@ -65,8 +75,13 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per appl
 
 ## Caratteristiche Tecniche
 
+<<<<<<< HEAD
 - **Laravel 11**: Framework PHP moderno e potente
 - **Filament 3**: Server-Driven UI framework per Laravel
+=======
+- **Laravel 12**: Framework PHP moderno e potente
+- **Filament 4**: Server-Driven UI framework per Laravel
+>>>>>>> 71f31700 (.)
 - **Livewire 3**: Full-stack framework per Laravel
 - **PHPStan 3**: Static analysis tool (Livello 9/10)
 - **Pest 3**: PHP testing framework
@@ -83,6 +98,7 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per appl
 ### Documenti Principali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Qualità del Codice
 - **[Lo Zen degli Strumenti di Qualità](quality-tools-zen.md)** ⭐ NUOVO - Filosofia completa PHPStan, Larastan, Safe, Assert, PHPMD, PHP Insights
 - **[Best Practices Eloquent](eloquent-properties-best-practices.md)** - Guida completa per proprietà Eloquent
@@ -95,11 +111,16 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per appl
 - [Model Context Protocol](model-context-protocol.md) - Implementazione MCP
 - [Cast Actions](cast-actions.md) - Azioni di cast sicure
 =======
+=======
+>>>>>>> 71f31700 (.)
 - [Convenzioni Laraxot](conventions.md) - Regole e convenzioni per lo sviluppo
 - [Laravel Framework](laravel-framework.md) - Documentazione completa del framework
 - [Model Context Protocol](model-context-protocol.md) - Implementazione MCP
 - [Piano Consolidamento](DOCS_CONSOLIDATION_PLAN.md) - Piano per consolidare documentazione
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 - [Collegamenti](links.md) - Raccolta di link e riferimenti
 
 ### Moduli del Sistema
@@ -123,6 +144,7 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per appl
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Strumenti Principali
 
@@ -182,13 +204,19 @@ Configurazione automatica tramite service providers.
 =======
 =======
 =======
+=======
+>>>>>>> 71f31700 (.)
 **Data Creazione**: 27 Gennaio 2025  
 **Stato**: Consolidato da docs/ root  
 **Priorità**: CRITICA (Documentazione principale)
 # 🏗️ **Xot Module** - Framework Base Laraxot
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
+<<<<<<< HEAD
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+=======
+[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 71f31700 (.)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN%20%7C%20DE-green.svg)](https://laravel.com/docs/localization)
 [![Base Framework](https://img.shields.io/badge/Framework-Base%20Core-orange.svg)](https://laraxot.com/)
@@ -544,13 +572,17 @@ ls Modules/*/lang/*/
 
 ## Documentation Archive & Legacy
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ## Principles
@@ -572,8 +604,13 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 ## Quick Links Legacy
 - [Root Documentation](../../../docs/)
 - [SaluteOra Module](../SaluteOra/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

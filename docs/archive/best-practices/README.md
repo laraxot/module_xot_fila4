@@ -28,10 +28,14 @@
 
 ## Code Quality
 <<<<<<< HEAD
+<<<<<<< HEAD
 - PHPStan level 10+ for all new code
 =======
 - PHPStan level 9+ for all new code
 >>>>>>> 5a14301c (.)
+=======
+- PHPStan level 9+ for all new code
+>>>>>>> 71f31700 (.)
 - Complete PHPDoc annotations
 - Use Safe library for unsafe functions
 - Follow PSR-12 coding standards

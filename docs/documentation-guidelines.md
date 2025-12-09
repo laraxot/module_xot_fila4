@@ -288,6 +288,9 @@ Per implementare queste linee guida:
 - [Documentazione Laravel](https://laravel.com/docs)
 - [Documentazione PHPDoc](https://docs.phpdoc.org/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

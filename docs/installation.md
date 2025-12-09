@@ -137,6 +137,9 @@ php artisan serve
 * [installation.md](../../../../Themes/One/docs/installation.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

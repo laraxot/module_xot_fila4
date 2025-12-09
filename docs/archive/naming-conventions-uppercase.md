@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 # Convenzioni di Nomenclatura in Laravel Modules
 
 Questo documento definisce le convenzioni ufficiali di nomenclatura da utilizzare in tutto il progetto Laravel Modules.
@@ -60,6 +63,9 @@ Questo documento descrive le convenzioni di denominazione da seguire all'interno
 - [Best practice per i provider di servizi](./SERVICE-PROVIDER-BEST-PRACTICES.md)
 - [Best practice per Filament](./FILAMENT-BEST-PRACTICES.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 # Filament Best Practices
 
 ## Visibilità dei Metodi
@@ -68,6 +71,9 @@ public function getTableActions(): array
 - [Best Practices PHP](../php-strict-types.md) 
 - [Best Practices PHP](../PHP-STRICT-TYPES.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

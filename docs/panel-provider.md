@@ -92,8 +92,12 @@ public function panel(Panel $panel): Panel
 - [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 71f31700 (.)

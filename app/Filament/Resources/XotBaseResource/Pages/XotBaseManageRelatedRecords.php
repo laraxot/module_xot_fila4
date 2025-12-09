@@ -74,6 +74,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * Restituisce lo schema del form per i record correlati.
      *
@@ -82,6 +83,14 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     /*
      * @return array<\Filament\Forms\Components\Component>
 >>>>>>> 5a14301c (.)
+=======
+    /*
+<<<<<<< HEAD
+     * @return array<\Filament\Schemas\Components\Component>
+=======
+     * @return array<\Filament\Forms\Components\Component>
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
      */
     // abstract public static function getFormSchema(): array;
 

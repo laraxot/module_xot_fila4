@@ -6,7 +6,10 @@
 
 Durante lo sviluppo è stata identificata una **violazione architetturale critica** nel `LoginTest.php` del modulo Cms:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 71f31700 (.)
 
 ```php
 // ❌ VIOLAZIONE CRITICA
@@ -21,7 +24,10 @@ $user = User::factory()->create([...]);
 
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -56,11 +62,15 @@ $user = $userClass::factory()->create($attributes);
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
 >>>>>>> 5a14301c (.)
+=======
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+>>>>>>> 71f31700 (.)
     ],
 ],
 ```
@@ -119,6 +129,7 @@ public function processUser(UserContract $user): void
 
 // ❌ MAI implementazione specifica
 <<<<<<< HEAD
+<<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
@@ -128,6 +139,10 @@ public function processUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> 3fbbf1f5 (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> 5a14301c (.)
+=======
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> 71f31700 (.)
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -260,6 +275,7 @@ class ChangeTypeCommand extends Command
 ```php
 // ❌ VIETATO
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
@@ -277,6 +293,14 @@ use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
 >>>>>>> 5a14301c (.)
+=======
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Doctor;
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
+>>>>>>> 71f31700 (.)
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -287,6 +311,7 @@ use Modules\Xot\Datas\XotData;
 ```php
 // ❌ VIETATO
 <<<<<<< HEAD
+<<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
 <<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
@@ -296,6 +321,10 @@ $user = \Modules\<nome modulo>\Models\User::find($id);
 >>>>>>> 3fbbf1f5 (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
 >>>>>>> 5a14301c (.)
+=======
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\SaluteOra\Models\User::find($id);
+>>>>>>> 71f31700 (.)
 
 // ✅ CONSENTITO  
 $userClass = XotData::make()->getUserClass();
@@ -306,6 +335,7 @@ $user = $userClass::find($id);
 ```php
 // ❌ VIETATO
 <<<<<<< HEAD
+<<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
@@ -315,6 +345,10 @@ function updateUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> 3fbbf1f5 (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> 5a14301c (.)
+=======
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> 71f31700 (.)
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -374,10 +408,14 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 1. Test che XotData risolve correttamente
 2. Verify dei contratti implementati
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. PHPStan level 10+ compliance
 =======
 3. PHPStan level 9+ compliance
 >>>>>>> 5a14301c (.)
+=======
+3. PHPStan level 9+ compliance
+>>>>>>> 71f31700 (.)
 4. Test di regressione
 
 ## 📚 **Link e Riferimenti**
@@ -399,6 +437,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
 =======
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
@@ -406,6 +445,9 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
 >>>>>>> 3fbbf1f5 (.)
+=======
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+>>>>>>> 71f31700 (.)
 
 ---
 
@@ -414,6 +456,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 **Responsabile**: Team Architettura Laraxot 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Responsabile**: Team Architettura Laraxot 
 =======
@@ -422,3 +465,5 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)

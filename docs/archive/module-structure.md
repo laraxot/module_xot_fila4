@@ -11,6 +11,7 @@ Per tutti i dati geografici statici (regioni, province, comuni, cap) di dimensio
 - I model specialistici (Region, Province, City, Cap) devono estendere la base GeoJsonModel e fornire metodi di filtro.
 - Versionare sempre il file json e documentare la struttura.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Aggiornare la documentazione di Geo/docs, <nome progetto>/docs e questa stessa doc con collegamenti bidirezionali.
 
 Per dettagli implementativi e best practice vedi:
@@ -22,12 +23,17 @@ Per dettagli implementativi e best practice vedi:
 Per dettagli implementativi e best practice vedi:
 - [Geo/docs/geo-json-model.md](../../Geo/docs/geo-json-model.md)
 - [<nome modulo>/docs/geo-integration.md](../../<nome modulo>/docs/geo-integration.md)
+=======
+>>>>>>> 71f31700 (.)
 - Aggiornare la documentazione di Geo/docs, SaluteOra/docs e questa stessa doc con collegamenti bidirezionali.
 
 Per dettagli implementativi e best practice vedi:
 - [Geo/docs/geo-json-model.md](../../Geo/docs/geo-json-model.md)
 - [SaluteOra/docs/geo-integration.md](../../SaluteOra/docs/geo-integration.md)
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 - [Questa stessa doc (Xot/module-structure.md)](module-structure.md)
 
 ---

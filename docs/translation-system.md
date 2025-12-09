@@ -230,6 +230,7 @@ php artisan view:clear
 - [Best Practices Filament](../docs/filament-best-practices.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -237,3 +238,5 @@ php artisan view:clear
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)

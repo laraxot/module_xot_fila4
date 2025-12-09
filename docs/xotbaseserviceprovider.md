@@ -229,6 +229,9 @@ $this->commands([
 > "Il miglior comando è quello che non devi mai registrare a mano."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

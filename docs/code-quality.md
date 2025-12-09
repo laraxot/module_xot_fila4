@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Code Quality - Xot Module
 
 > Last Updated: 2025-11-15 08:05:46
@@ -143,6 +144,8 @@ vendor/bin/phpstan analyse path/to/changed/file.php --level=10
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -506,4 +509,7 @@ unset($translations['existing_key']); // MAI!
 ---
 
 *"Nel codice Laraxot, ogni riga è un verso della sinfonia dell'architettura perfetta."*
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

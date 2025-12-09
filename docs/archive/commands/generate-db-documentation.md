@@ -39,7 +39,11 @@ php artisan xot:generate-db-documentation {schema_file} {output_dir?}
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
 - [Documentation Guidelines](../DOCUMENTATION-GUIDELINES.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 5a14301c (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 71f31700 (.)

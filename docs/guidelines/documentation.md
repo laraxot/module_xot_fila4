@@ -171,6 +171,9 @@ php artisan api:generate
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

@@ -30,9 +30,20 @@ abstract class XotBaseDashboard extends FilamentDashboard
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static ?int $navigationSort = 1;
 
 =======
+=======
+    /**
+     * Navigation icon compatible with Filament 4.
+     * Supports BackedEnum, string, or null values.
+     */
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
+    
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
     protected static null|int $navigationSort = 1;
 >>>>>>> 5a14301c (.)
 =======

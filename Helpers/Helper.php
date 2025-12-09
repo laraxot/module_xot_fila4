@@ -1222,12 +1222,15 @@ if (!function_exists('getRelationships')) {
 
             try {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $return = $reflection->invoke($model);
                 $check = $return instanceof Relation;
                 /*
                 if ($check) {
                     $related_model = new ReflectionClass($return->getRelated())->getName();
 =======
+=======
+>>>>>>> 71f31700 (.)
                 $modelInstance = is_string($model) ? new $model() : $model;
                 $return = $reflection->invoke($modelInstance);
                 $check = $return instanceof Relation;
@@ -1235,12 +1238,23 @@ if (!function_exists('getRelationships')) {
                 if ($check) {
                     $related_model = new ReflectionClass($return->getRelated());
                     $model=$related_model->getName();
+<<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
+=======
+=======
+                $return = $reflection->invoke($model);
+                $check = $return instanceof Relation;
+                /*
+                if ($check) {
+                    $related_model = new ReflectionClass($return->getRelated())->getName();
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
                     $msg = [
                         'name' => $reflection->name,
                         'type' => class_basename($return),
                         // 'check'=>$check,
                         // $msg['type']=(new \ReflectionClass($return))->getShortName();
+<<<<<<< HEAD
 <<<<<<< HEAD
                         'model' => $related_model,
                     ];
@@ -1253,12 +1267,24 @@ if (!function_exists('getRelationships')) {
                 // Log::debug(['error' => $e->getMessage(), 'file' => $e->getFile(), 'line' => $e->getLine()]);
 =======
 =======
+=======
+>>>>>>> 71f31700 (.)
                         'model' => $model,
                     ];
                     $data[] = $msg;
                 }
                 
+<<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
+=======
+=======
+                        'model' => $related_model,
+                    ];
+                    $data[] = $msg;
+                }
+                    */
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
             } catch (ErrorException) {
 >>>>>>> 5a14301c (.)
             }

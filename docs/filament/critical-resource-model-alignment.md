@@ -153,6 +153,9 @@ done
 
 *Ultimo aggiornamento: Luglio 2025 - Dopo correzione errori critici modulo Progressioni*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

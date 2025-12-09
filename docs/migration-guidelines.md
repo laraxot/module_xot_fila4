@@ -41,6 +41,9 @@ return new class extends XotBaseMigration
 - [Root Documentation](../../../../docs/collegamenti-documentazione.md)
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

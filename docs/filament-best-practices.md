@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -58,6 +61,7 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
    ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **SEMPRE** usare il tipo importato per `$subNavigationPosition`:
    ```php
    // ❌ ERRATO - Fully qualified name
@@ -70,6 +74,8 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
 
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 ### Pagine
 
 1. **SEMPRE** estendere le classi base di Xot:
@@ -99,6 +105,7 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\ReportResource;
@@ -107,6 +114,11 @@ namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
 
 use Modules\SaluteMo\Filament\Resources\ReportResource;
 >>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 71f31700 (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Filament\Actions;
 use Filament\Tables;
@@ -257,6 +269,7 @@ public static function getFormSchema(): array
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
@@ -265,6 +278,11 @@ namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\SaluteMo\Filament\Resources\AppointmentResource;
 >>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 71f31700 (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 
@@ -300,6 +318,7 @@ class EditAppointment extends XotBaseEditRecord
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
@@ -308,6 +327,11 @@ namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\SaluteMo\Filament\Resources\AppointmentResource;
 >>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 71f31700 (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 
 /**
@@ -333,10 +357,14 @@ class CreateAppointment extends XotBaseCreateRecord
 ```php
 // NON FARE MAI QUESTO
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public static function form(Form $form): Form
 >>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
 {
     return $form->schema([
         // componenti...
@@ -387,6 +415,7 @@ TextInput::make('nome')
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources;
 
 use Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
@@ -395,6 +424,11 @@ namespace Modules\SaluteMo\Filament\Resources;
 
 use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
 >>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+>>>>>>> 71f31700 (.)
 use Modules\<nome modulo>\Models\Report;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;
@@ -569,6 +603,7 @@ Prima di considerare completa una risorsa Filament, verificare:
 4. **Definire `navigationIcon` se si estende `XotBaseResource`**
 5. **Non implementare metodi obbligatori come `getFormSchema()`**
 <<<<<<< HEAD
+<<<<<<< HEAD
 6. **Usare fully qualified names per tipi già importati (es. `$subNavigationPosition`)**
 
 ## Bugfix Documentati
@@ -596,6 +631,8 @@ protected static ?SubNavigationPosition $subNavigationPosition = SubNavigationPo
 **Prevenzione**: Sempre usare tipi importati invece di fully qualified names quando l'import è già presente nel file.
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 
 ## File Corretti
 
@@ -1028,20 +1065,28 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 ### Esempio corretto
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 =======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> 5a14301c (.)
+=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+>>>>>>> 71f31700 (.)
 TextInput::make('location')->required()
 ```
 
 ### Esempio errato
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 =======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> 5a14301c (.)
+=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+>>>>>>> 71f31700 (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 
@@ -1097,6 +1142,9 @@ Appointment::where('doctor_id', $doctorId)
 - Refactoring sicuro, massima estendibilità
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

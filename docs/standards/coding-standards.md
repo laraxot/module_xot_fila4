@@ -615,6 +615,9 @@ git commit -m "fix: correzione calcolo età paziente"
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)

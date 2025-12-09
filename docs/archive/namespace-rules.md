@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 # Regole per i Namespace nei Moduli Laraxot
 
 Questo documento definisce le regole ufficiali per l'utilizzo dei namespace all'interno dei moduli Laraxot.
@@ -71,8 +74,12 @@ Se incontri errori come `name is empty on [Modules\NomeModulo\Providers\RouteSer
 1. Che il namespace sia corretto (senza `app`)
 2. Che la proprietà `$name` sia definita e valorizzata
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
 =======
 =======
 3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
 >>>>>>> 5a14301c (.)
+=======
+3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
+>>>>>>> 71f31700 (.)

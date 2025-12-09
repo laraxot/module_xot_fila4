@@ -100,6 +100,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -224,10 +225,13 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
  *
 =======
  * 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,6 +569,11 @@ use Spatie\QueueableAction\QueueableAction;
  * 
 >>>>>>> f1d4085 (.)
 >>>>>>> 099ab7a0 (.)
+=======
+=======
+ *
+>>>>>>> 73eab74 (.)
+>>>>>>> 96276392 (.)
  * Questa action centralizza la logica di generazione dell'espressione SQL
  * per il calcolo della distanza tra due punti geografici.
  */
@@ -644,6 +653,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -700,6 +710,10 @@ class GetDistanceExpressionAction
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 099ab7a0 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 96276392 (.)
     public function execute(
         float $latitude,
         float $longitude,
@@ -725,6 +739,7 @@ class GetDistanceExpressionAction
         if (null !== $alias) {
 >>>>>>> 5a14301c (.)
             $sql .= " AS {$alias}";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -771,6 +786,8 @@ class GetDistanceExpressionAction
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
 =======
     public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
 <<<<<<< HEAD
@@ -1428,6 +1445,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -1653,6 +1671,10 @@ class GetDistanceExpressionAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 099ab7a0 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 96276392 (.)
         }
 
         return DB::raw($sql);
@@ -1747,6 +1769,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -1886,10 +1909,13 @@ class GetDistanceExpressionAction
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
 }
 =======
 } 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2207,3 +2233,8 @@ class GetDistanceExpressionAction
 } 
 >>>>>>> f1d4085 (.)
 >>>>>>> 099ab7a0 (.)
+=======
+=======
+}
+>>>>>>> 73eab74 (.)
+>>>>>>> 96276392 (.)

@@ -37,6 +37,7 @@ section: content
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 =======
@@ -48,6 +49,8 @@ section: content
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 =======
@@ -58,6 +61,7 @@ section: content
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,6 +128,8 @@ section: content
 * [model.md](../../../Xot/project_docs/service/model.md)
 >>>>>>> f1d4085 (.)
 >>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
 
 
 ### Versione Incoming

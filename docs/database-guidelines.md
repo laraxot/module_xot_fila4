@@ -323,6 +323,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -432,6 +433,8 @@ return new class extends XotBaseMigration {
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 - [Regola Performance](../../Performance/docs/database_migrations.md)
 - [Regole globali root](../../../docs/database_migrations.md)
 =======
@@ -440,6 +443,7 @@ return new class extends XotBaseMigration {
 - [Regola Performance](../../Performance/docs/database_migrations.md)
 - [Regole globali root](../../../docs/database_migrations.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -487,6 +491,8 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
 
     /**
      * Ottiene la sezione associata al socio.

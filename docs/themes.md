@@ -288,6 +288,7 @@ Per personalizzare un tema:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,6 +317,10 @@ Per personalizzare un tema:
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
 * [themes.md](../../../Xot/docs/themes.md)
 * [themes.md](../../../Cms/docs/frontoffice/themes.md)
 
@@ -331,11 +336,14 @@ Per personalizzare un tema:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
 =======
 * [themes.md](../../../Xot/project_docs/themes.md)
 * [themes.md](../../../Cms/project_docs/frontoffice/themes.md)
@@ -343,6 +351,7 @@ Per personalizzare un tema:
 * [README.md Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/project_docs/README.md)
 * [Convenzioni Namespace Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/project_docs/namespace-conventions.md)b6f667c (.)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e58b29b (.)
@@ -354,6 +363,10 @@ Per personalizzare un tema:
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
 
 
 <<<<<<< HEAD

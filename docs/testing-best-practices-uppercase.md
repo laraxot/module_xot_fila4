@@ -89,6 +89,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->andReturn(
             \Modules\\<YourModule>\\Models\\User::class
         );
@@ -163,6 +164,14 @@ function mockXotData(): void
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
         ->andReturn(\Modules\SaluteOra\Models\User::class);
 >>>>>>> 5a14301c (.)
 =======
@@ -510,6 +519,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -611,6 +621,8 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 - [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
 - [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
 =======
@@ -619,6 +631,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 - [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
 - [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -653,6 +666,8 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---
@@ -660,6 +675,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Status**: ✅ Best Practices Validate  
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -894,3 +910,11 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)

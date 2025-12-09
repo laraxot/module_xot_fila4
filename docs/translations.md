@@ -89,6 +89,7 @@ Modules/<NomeModulo>/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 =======
@@ -98,6 +99,8 @@ Modules/<NomeModulo>/
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 =======
@@ -108,6 +111,7 @@ Modules/<NomeModulo>/
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -155,6 +159,8 @@ Modules/<NomeModulo>/
 - [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
 
 ## Struttura
 
@@ -463,6 +469,7 @@ Action::make('delete')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,6 +498,10 @@ Action::make('delete')
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -518,6 +529,7 @@ Action::make('delete')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -530,6 +542,8 @@ Action::make('delete')
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
 =======
 * [translations.md](../../../Chart/project_docs/translations.md)
 * [translations.md](../../../Reporting/project_docs/translations.md)
@@ -549,6 +563,7 @@ Action::make('delete')
 * [translations.md](../../../Patient/project_docs/translations.md)
 * [translations.md](../../../Cms/project_docs/translations.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -579,6 +594,10 @@ Action::make('delete')
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
 
 
 ### Versione Incoming

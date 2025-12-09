@@ -693,6 +693,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -703,6 +704,10 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
 - [Root Testing Organization](../../../docs/testing-organization.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -829,6 +834,7 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
 - [Cms Testing Guidelines](../../Cms/docs/testing.md)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -881,6 +887,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -919,6 +926,10 @@ test('no memory leaks in repeated operations', function (): void {
 - [Cms Testing Guidelines](../../Cms/project_docs/testing.md)
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
 
 ### Framework Documentation
 - [Xot Framework Architecture](./architecture.md)
@@ -927,6 +938,7 @@ test('no memory leaks in repeated operations', function (): void {
 
 ### External Resources
 - [Pest Documentation](https://pestphp.com/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -946,6 +958,8 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 =======
@@ -956,6 +970,7 @@ test('no memory leaks in repeated operations', function (): void {
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -1003,6 +1018,8 @@ test('no memory leaks in repeated operations', function (): void {
 - [Spatie Laravel Data](https://spatie.be/project_docs/laravel-data)
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
 
 ---
 

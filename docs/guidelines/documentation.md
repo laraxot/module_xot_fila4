@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
 =======
@@ -32,6 +33,8 @@
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
 =======
@@ -42,6 +45,7 @@
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -89,6 +93,8 @@
    - Le regole generali sono in `/Modules/Xot/project_docs/`
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
    - La root `/docs` contiene solo indici e collegamenti
 
 2. **Collegamenti Bidirezionali**
@@ -108,6 +114,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Modules/Xot/docs/
 =======
 <<<<<<< HEAD
@@ -116,6 +123,8 @@
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
    Modules/Xot/docs/
 =======
    Modules/Xot/project_docs/
@@ -123,6 +132,7 @@
 =======
    Modules/Xot/docs/
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -160,6 +170,8 @@
    Modules/Xot/project_docs/
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
    ├── guidelines/           # Linee guida generali
    ├── conventions/          # Convenzioni di codice
    ├── architecture/         # Architettura del framework
@@ -235,6 +247,7 @@ public function example(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modules/{ModuleName}/docs/
 =======
 <<<<<<< HEAD
@@ -243,6 +256,8 @@ Modules/{ModuleName}/docs/
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 Modules/{ModuleName}/docs/
 =======
 Modules/{ModuleName}/project_docs/
@@ -250,6 +265,7 @@ Modules/{ModuleName}/project_docs/
 =======
 Modules/{ModuleName}/docs/
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -287,6 +303,8 @@ Modules/{ModuleName}/docs/
 Modules/{ModuleName}/project_docs/
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
 ├── README.md              # Panoramica del modulo
 ├── installation.md        # Istruzioni di installazione
 ├── configuration.md       # Configurazione
@@ -382,6 +400,7 @@ php artisan api:generate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -392,6 +411,8 @@ php artisan api:generate
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
 * [documentation.md](../../../Xot/docs/documentation.md)
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
@@ -400,6 +421,11 @@ php artisan api:generate
 * [documentation.md](../../../Xot/project_docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/project_docs/roadmap/features/documentation.md)
 >>>>>>> f1d4085 (.)
+=======
+* [documentation.md](../../../Xot/docs/documentation.md)
+* [documentation.md](../../../Xot/docs/guidelines/documentation.md)
+* [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
+>>>>>>> 73eab74 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

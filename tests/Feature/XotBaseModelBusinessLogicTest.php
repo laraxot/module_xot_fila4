@@ -21,6 +21,9 @@ namespace Modules\Xot\Tests\Feature;
 >>>>>>> b956ebe0 (.)
 use Illuminate\Database\ConnectionInterface;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
@@ -61,6 +64,7 @@ use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
 use Modules\Xot\Models\XotBaseModel;
 use Tests\TestCase;
+<<<<<<< HEAD
 =======
 use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Models\BaseModel;
@@ -69,6 +73,8 @@ use Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 class XotBaseModelBusinessLogicTest extends TestCase
 {
@@ -1409,15 +1415,19 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
+>>>>>>> d79d36e0 (.)
+=======
 
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
@@ -1466,3 +1476,5 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)

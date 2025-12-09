@@ -148,6 +148,7 @@ php artisan serve
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,6 +177,10 @@ php artisan serve
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
 * [installation.md](../../../Xot/docs/filament/installation.md)
 * [installation.md](../../../Xot/docs/installation.md)
 * [installation.md](../../../Xot/docs/base/installation.md)
@@ -193,11 +198,14 @@ php artisan serve
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
 =======
 * [installation.md](../../../Xot/project_docs/filament/installation.md)
 * [installation.md](../../../Xot/project_docs/installation.md)
@@ -209,6 +217,7 @@ php artisan serve
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5e58b29b (.)
 =======
 =======
@@ -218,6 +227,10 @@ php artisan serve
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

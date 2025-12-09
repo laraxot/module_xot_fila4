@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚨 **Troubleshooting Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -677,5 +676,3 @@ dd(DB::getQueryLog());
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
-=======
->>>>>>> a0b522b (.)

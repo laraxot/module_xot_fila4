@@ -686,6 +686,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -780,6 +781,10 @@ test('no memory leaks in repeated operations', function (): void {
 - [<nome progetto> Testing Guidelines](../../../docs/testing.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
+>>>>>>> c35986f4 (.)
 - [Cms Testing Guidelines](../../Cms/docs/testing.md)
 
 ### Framework Documentation
@@ -797,6 +802,7 @@ test('no memory leaks in repeated operations', function (): void {
 **Ultimo aggiornamento**: Dicembre 2024  
 **Framework**: Pest v2.x  
 **Coverage Target**: 90%+ per core framework  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -825,3 +831,5 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)

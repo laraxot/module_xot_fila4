@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -99,6 +100,8 @@
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
 # Best Practices
 
 ## Laravel
@@ -175,6 +178,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -277,6 +281,8 @@
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -1017,6 +1023,7 @@ public function createModel(array $data): MioModello
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
 =======
 >>>>>>> 5a14301c (.)
@@ -1068,11 +1075,14 @@ public function createModel(array $data): MioModello
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
 
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1101,3 +1111,5 @@ public function createModel(array $data): MioModello
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)

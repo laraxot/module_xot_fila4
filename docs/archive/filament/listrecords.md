@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > Questa policy è stata aggiornata e propagata anche in [<nome progetto>/docs/resources/studio-resource.md](../../<nome progetto>/docs/resources/studio-resource.md) e [<nome progetto>/docs/README.md](../../<nome progetto>/docs/README.md). Vedi esempi di implementazione e note di propagazione.
 =======
 > Questa policy è stata aggiornata e propagata anche in [<nome modulo>/docs/resources/studio-resource.md](../../<nome modulo>/docs/resources/studio-resource.md) e [<nome modulo>/docs/README.md](../../<nome modulo>/docs/README.md). Vedi esempi di implementazione e note di propagazione.
@@ -153,6 +154,9 @@
 =======
 > Questa policy è stata aggiornata e propagata anche in [SaluteOra/docs/resources/studio-resource.md](../../SaluteOra/docs/resources/studio-resource.md) e [SaluteOra/docs/README.md](../../SaluteOra/docs/README.md). Vedi esempi di implementazione e note di propagazione.
 >>>>>>> 43d67f21 (.)
+=======
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/docs/resources/studio-resource.md](../../SaluteOra/docs/resources/studio-resource.md) e [SaluteOra/docs/README.md](../../SaluteOra/docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> c35986f4 (.)
 
 ## Estensione Corretta
 
@@ -222,6 +226,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **❌ Metodi Duplicati**:
    ```php
    // NON dichiarare lo stesso metodo due volte
@@ -259,6 +264,9 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 =======
 2. **❌ Metodi Senza Prefisso List**:
 >>>>>>> 71f31700 (.)
+=======
+2. **❌ Metodi Senza Prefisso List**:
+>>>>>>> c35986f4 (.)
    ```php
    // NON usare i metodi senza prefisso List
    public function getTableColumns(): array
@@ -350,6 +358,7 @@ public function getTableColumns(): array
 ```
 
 ## PROPAGAZIONE (2025-05-28):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -502,3 +511,6 @@ La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metod
 =======
 La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/docs/resources/studio-resource.md](../../SaluteOra/docs/resources/studio-resource.md).
 >>>>>>> 43d67f21 (.)
+=======
+La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/docs/resources/studio-resource.md](../../SaluteOra/docs/resources/studio-resource.md).
+>>>>>>> c35986f4 (.)

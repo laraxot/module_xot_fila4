@@ -671,6 +671,7 @@ public function getTableBulkActions(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [resource.md](../../../Xot/docs/filament/resource.md)
 * [resource.md](../../../Xot/docs/resource.md)
 =======
@@ -750,6 +751,14 @@ public function getTableBulkActions(): array
 * [resource.md](../../../Xot/docs/filament/resource.md)
 * [resource.md](../../../Xot/docs/resource.md)
 >>>>>>> 03ceeac3 (.)
+=======
+* [resource.md](../../../Xot/docs/filament/resource.md)
+* [resource.md](../../../Xot/docs/resource.md)
+=======
+* [resource.md](../../../Xot/project_docs/filament/resource.md)
+* [resource.md](../../../Xot/project_docs/resource.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
 
 
 ### Versione Incoming

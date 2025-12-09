@@ -17,6 +17,7 @@ section: content
 ## Collegamenti tra versioni di model.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 =======
@@ -37,6 +38,14 @@ section: content
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 >>>>>>> 6dcebf8a (.)
+=======
+* [model.md](../../../Xot/docs/model.md)
+* [model.md](../../../Xot/docs/service/model.md)
+=======
+* [model.md](../../../Xot/project_docs/model.md)
+* [model.md](../../../Xot/project_docs/service/model.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 6a1fe786 (.)
 
 
 ### Versione Incoming

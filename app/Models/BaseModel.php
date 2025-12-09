@@ -130,6 +130,7 @@ abstract class BaseModel extends Model
             'deleted_at' => 'datetime',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141,6 +142,11 @@ abstract class BaseModel extends Model
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 6a1fe786 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

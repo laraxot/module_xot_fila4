@@ -1,7 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -11,6 +9,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,6 +137,8 @@ declare(strict_types=1);
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 return [
     'administrator' => 'Administrator',
     'user' => 'User',

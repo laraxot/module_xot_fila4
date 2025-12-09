@@ -28,6 +28,7 @@ namespace Modules\Xot\Actions\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use ValueError;
 >>>>>>> 3fbbf1f5 (.)
@@ -73,12 +74,9 @@ use ValueError;
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
-use ValueError;
 =======
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 3fbbf1f5 (.)
 use ValueError;
->>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 5a14301c (.)
@@ -107,10 +105,6 @@ class GetSicureArrayByModelAction
      */
     public function execute(Model $model): array
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         try {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,11 +133,6 @@ class GetSicureArrayByModelAction
                 } catch (ValueError $e) {
                 }
             }
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
             return $data;
         }

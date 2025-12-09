@@ -32,6 +32,7 @@ namespace Modules\Xot\Exceptions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -84,12 +85,9 @@ use Override;
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
-use Override;
 =======
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 3fbbf1f5 (.)
 use Override;
->>>>>>> 73eab74 (.)
 use Exception;
 use Illuminate\Http\Response;
 use Illuminate\Support\Str;
@@ -108,10 +106,6 @@ class ModelDeletionException extends ApplicationException
 {
     private readonly string $model;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public function __construct(
         private readonly int $id,
         string $model,
@@ -120,25 +114,11 @@ class ModelDeletionException extends ApplicationException
     }
 
     #[Override]
-<<<<<<< HEAD
-=======
-    public function __construct(private readonly int $id, string $model)
-    {
-        $this->model = Str::afterLast($model, '\\');
-    }
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     public function status(): int
     {
         return Response::HTTP_BAD_REQUEST;
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     #[Override]
     public function help(): string
     {
@@ -153,6 +133,7 @@ class ModelDeletionException extends ApplicationException
 =======
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -322,15 +303,13 @@ class ModelDeletionException extends ApplicationException
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         return $res;
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     #[Override]
     public function error(): string
     {
@@ -348,6 +327,7 @@ class ModelDeletionException extends ApplicationException
 =======
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,6 +506,8 @@ class ModelDeletionException extends ApplicationException
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         return $res;

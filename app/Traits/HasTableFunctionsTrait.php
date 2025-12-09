@@ -28,6 +28,7 @@ namespace Modules\Xot\Traits;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
@@ -239,6 +240,11 @@ use Filament\Actions\BulkAction;
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+use Filament\Tables\Columns\Column;
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Tables\Columns\TextColumn;
 
 trait HasTableFunctionsTrait
@@ -253,20 +259,8 @@ trait HasTableFunctionsTrait
         return [
             'id' => TextColumn::make('id'),
             'name' => TextColumn::make('name'),
-<<<<<<< HEAD
-<<<<<<< HEAD
             'created_at' => TextColumn::make('created_at')->dateTime(),
             'updated_at' => TextColumn::make('updated_at')->dateTime(),
-=======
-            'created_at' => TextColumn::make('created_at')
-                ->dateTime(),
-            'updated_at' => TextColumn::make('updated_at')
-                ->dateTime(),
->>>>>>> f1d4085 (.)
-=======
-            'created_at' => TextColumn::make('created_at')->dateTime(),
-            'updated_at' => TextColumn::make('updated_at')->dateTime(),
->>>>>>> 73eab74 (.)
         ];
     }
 
@@ -280,6 +274,7 @@ trait HasTableFunctionsTrait
         return [
             'edit' => Action::make('edit')
                 ->label('Modifica')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -407,12 +402,15 @@ trait HasTableFunctionsTrait
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                 ->url(fn($record): string => route('filament.resources.' . $this->getResourceSlug() . '.edit', [
                     'record' => $record,
                 ])),
             'delete' => Action::make('delete')
                 ->label('Elimina')
                 ->action(fn($record) => $record->delete())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -556,6 +554,8 @@ trait HasTableFunctionsTrait
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                 ->requiresConfirmation(),
         ];
     }
@@ -563,21 +563,14 @@ trait HasTableFunctionsTrait
     /**
      * Get the table bulk actions.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return array<string, BulkAction>
-=======
-     * @return array<string, \Filament\Actions\BulkAction>
->>>>>>> f1d4085 (.)
-=======
-     * @return array<string, BulkAction>
->>>>>>> 73eab74 (.)
      */
     public function getTableBulkActions(): array
     {
         return [
             'delete' => BulkAction::make('delete')
                 ->label('Elimina selezionati')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -731,6 +724,9 @@ trait HasTableFunctionsTrait
                 ->action(fn($records) => $records->each->delete())
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+                ->action(fn($records) => $records->each->delete())
+>>>>>>> 3fbbf1f5 (.)
                 ->requiresConfirmation(),
         ];
     }

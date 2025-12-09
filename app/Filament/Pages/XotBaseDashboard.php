@@ -1,7 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -10,6 +8,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,25 +110,15 @@ declare(strict_types=1);
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 namespace Modules\Xot\Filament\Pages;
 
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Get;
-=======
-use Filament\Forms\Get;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\DatePicker;
->>>>>>> f1d4085 (.)
-=======
-use Filament\Forms\Components\DatePicker;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Get;
->>>>>>> 73eab74 (.)
 use Filament\Pages\Dashboard as FilamentDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,8 +134,6 @@ use Filament\Pages\Dashboard as FilamentDashboard;
 abstract class XotBaseDashboard extends FilamentDashboard
 {
     use FilamentDashboard\Concerns\HasFiltersForm;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +287,7 @@ abstract class XotBaseDashboard extends FilamentDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
     protected static null|int $navigationSort = 1;
@@ -390,10 +378,13 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     protected bool $persistsFiltersInSession = true;
 
     final public function filtersForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -477,6 +468,8 @@ abstract class XotBaseDashboard extends FilamentDashboard
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         return $schema->components([
             Section::make()->schema($this->getFiltersFormSchema())->columns(3),
         ]);
@@ -497,26 +490,3 @@ abstract class XotBaseDashboard extends FilamentDashboard
         return [];
     }
 }
-<<<<<<< HEAD
-=======
-        return $schema
-            ->components([
-                Section::make()
-                    ->schema($this->getFiltersFormSchema())
-                    ->columns(3),
-            ]);
-    }
-
-
-    public function getFiltersFormSchema():array{
-        return [
-           
-        ];
-    }
-}
-
-
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)

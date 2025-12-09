@@ -36,36 +36,16 @@ trait NavigationLabelTrait
 {
     use TransTrait;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     // public function getModelLabel(): string
     // {
     //     return static::transFunc(__FUNCTION__);
     // }
     // Rimosso per compatibilità Filament v4 - il metodo è già definito nella classe Resource
-<<<<<<< HEAD
-=======
-    public static function getModelLabel(): string
-    {
-        return static::transFunc(__FUNCTION__);
-    }
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
     public static function getPluralModelLabel(): string
     {
         return static::getNavigationLabel();
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
         // return static::transFunc(__FUNCTION__);
     }
 
@@ -94,6 +74,7 @@ trait NavigationLabelTrait
         return static::transFunc(__FUNCTION__);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -247,11 +228,15 @@ trait NavigationLabelTrait
     public static function getNavigationSort(): null|int
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+    public static function getNavigationSort(): null|int
+>>>>>>> 3fbbf1f5 (.)
     {
         $res = static::transFunc(__FUNCTION__);
 
         $value = intval($res);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,6 +390,9 @@ trait NavigationLabelTrait
         if (0 === $value) {
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+        if (0 === $value) {
+>>>>>>> 3fbbf1f5 (.)
             $key = static::getKeyTransFunc(__FUNCTION__);
             $value = rand(1, 100);
             app(SaveTransAction::class)->execute($key, $value);
@@ -425,10 +413,6 @@ trait NavigationLabelTrait
 
         return $default;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
     /*
      *
@@ -476,54 +460,3 @@ trait NavigationLabelTrait
  * return $res;
  * }
  */
-<<<<<<< HEAD
-=======
-    /*
-
-    public function getHeading(): string|Htmlable
-    {
-        return 'AAAAAAAAAA';
-    }
-
-
-
-    public static function getBreadcrumb(): string {
-        return JobsWaitingPlugin::make()->getBreadcrumb();
-    }
-
-    public static function shouldRegisterNavigation(): bool {
-        return JobsWaitingPlugin::make()->shouldRegisterNavigation();
-    }
-
-    public static function getNavigationIcon(): string {
-        return JobsWaitingPlugin::make()->getNavigationIcon();
-    }
-
-    */
-}
-
-/*
-public static function transPath(string $key): string
-    {
-        $moduleNameLow = Str::lower(static::getModuleName());
-        // $modelClass = static::$model ?? static::getModel();
-        $modelClass = static::getModel();
-        Assert::notNull($modelClass,'['.__LINE__.']['.class_basename($this).']');
-        $modelNameSlug = Str::kebab(class_basename($modelClass));
-
-        return $moduleNameLow.'::'.$modelNameSlug.'.'.$key;
-    }
-
-    public static function trans(string $key): string
-    {
-        $res = __(static::transPath($key));
-        if (\is_array($res)) {
-            throw new \Exception('fix lang ['.$key.']');
-        }
-
-        return $res;
-    }
-*/
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)

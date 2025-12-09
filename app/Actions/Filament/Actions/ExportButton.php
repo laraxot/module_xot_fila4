@@ -14,10 +14,6 @@ class ExportButton
     public function execute(): Action
     {
         return Action::make('export')
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
             ->tooltip('export XLS')
             ->icon('heroicon-o-inbox-arrow-down')
             // ->visible(null != $year)
@@ -33,6 +29,7 @@ class ExportButton
             ->action(static fn () => dddx('WIP'));
 =======
             ->action(static fn() => dddx('WIP'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
@@ -195,5 +192,7 @@ class ExportButton
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 }

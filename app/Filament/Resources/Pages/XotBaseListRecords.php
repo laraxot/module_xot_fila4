@@ -30,7 +30,9 @@ use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
 use Modules\UI\Enums\TableLayoutEnum;
+<<<<<<< HEAD
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,6 +298,10 @@ use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 4fb9bc4b (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
 use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
 >>>>>>> 5a14301c (.)
@@ -357,10 +363,18 @@ abstract class XotBaseListRecords extends FilamentListRecords
      * Get the table columns.
      *
      * @return array<string, Tables\Columns\Column>
+<<<<<<< HEAD
      *
      * abstract public function getTableColumns(): array;
      */
 
+=======
+     
+    abstract public function getTableColumns(): array;
+    */
+
+    
+>>>>>>> f1d4085 (.)
     /**
      * Get the default sort column and direction.
      *
@@ -380,7 +394,11 @@ abstract class XotBaseListRecords extends FilamentListRecords
     {
         return [
             // \Filament\Actions\CreateAction::make(),
+<<<<<<< HEAD
             // ExportXlsAction::make('export_xls'),
+=======
+           // ExportXlsAction::make('export_xls'),
+>>>>>>> f1d4085 (.)
         ];
     }
 
@@ -408,6 +426,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
         return $resource;
     }
 
+<<<<<<< HEAD
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -499,3 +518,18 @@ abstract class XotBaseListRecords extends FilamentListRecords
         return $paginator;
     }
 }
+=======
+    /** 
+     * Paginate the table query.
+    */
+    protected function paginateTableQueryTMP(Builder $query): Paginator
+    {
+        return $query->fastPaginate(
+            ('all' === $this->getTableRecordsPerPage()) 
+            ? $query->count() 
+            : $this->getTableRecordsPerPage()
+        );
+    }
+}
+
+>>>>>>> f1d4085 (.)

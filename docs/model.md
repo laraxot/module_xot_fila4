@@ -39,6 +39,7 @@ section: content
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 =======
@@ -135,6 +136,14 @@ section: content
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 >>>>>>> 3baa48bd (.)
+=======
+* [model.md](../../../Xot/docs/model.md)
+* [model.md](../../../Xot/docs/service/model.md)
+=======
+* [model.md](../../../Xot/project_docs/model.md)
+* [model.md](../../../Xot/project_docs/service/model.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
 
 
 ### Versione Incoming

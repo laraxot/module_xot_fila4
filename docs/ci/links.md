@@ -82,6 +82,7 @@ Deptrac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +127,8 @@ Deptrac
 >>>>>>> 96276392 (.)
 =======
 >>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
 * [links.md](../../../Gdpr/docs/links.md)
 * [links.md](../../../Notify/docs/links.md)
 * [links.md](../../../Xot/docs/ci/links.md)
@@ -152,6 +155,7 @@ Deptrac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -171,6 +175,8 @@ Deptrac
 =======
 >>>>>>> 96276392 (.)
 =======
+>>>>>>> 6d1255a8 (.)
+=======
 * [links.md](../../../Gdpr/project_docs/links.md)
 * [links.md](../../../Notify/project_docs/links.md)
 * [links.md](../../../Xot/project_docs/ci/links.md)
@@ -182,6 +188,7 @@ Deptrac
 * [links.md](../../../Cms/project_docs/links.md)
 * [links.md](../../../../Themes/One/project_docs/links.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,6 +238,8 @@ Deptrac
 >>>>>>> 96276392 (.)
 =======
 >>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
 
 
 ### Versione Incoming
@@ -282,6 +291,7 @@ Deptrac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,6 +336,8 @@ Deptrac
 >>>>>>> 96276392 (.)
 =======
 >>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
 - [Modulo Lang](../../../Lang/docs/links.md)
   > Gestione delle traduzioni per il core system. Fondamentale per l'internazionalizzazione.
 
@@ -353,6 +365,7 @@ Deptrac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -372,6 +385,8 @@ Deptrac
 =======
 >>>>>>> 96276392 (.)
 =======
+>>>>>>> 6d1255a8 (.)
+=======
 - [Modulo Lang](../../../Lang/project_docs/links.md)
   > Gestione delle traduzioni per il core system. Fondamentale per l'internazionalizzazione.
 
@@ -384,6 +399,7 @@ Deptrac
 
 - [Modulo Cache](../../../Cache/project_docs/links.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -433,6 +449,8 @@ Deptrac
 >>>>>>> 96276392 (.)
 =======
 >>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
   > Gestione della cache del sistema. Ottimizzazione delle performance.
 
 ## Implementazioni di Esempio

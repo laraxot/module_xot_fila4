@@ -2427,6 +2427,7 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. La documentazione va in `/docs/`
 =======
 <<<<<<< HEAD
@@ -2504,6 +2505,12 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 =======
 4. La documentazione va in `/docs/`
 >>>>>>> 3baa48bd (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
 
 # Gestione Temi e Assets
 

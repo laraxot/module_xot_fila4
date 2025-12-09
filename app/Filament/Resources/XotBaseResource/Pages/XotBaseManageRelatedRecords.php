@@ -116,7 +116,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * @return array<\Filament\Schemas\Components\Component>
 =======
     /*
+<<<<<<< HEAD
      * @return array<\Filament\Forms\Components\Component>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -135,6 +137,11 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
      */
     // abstract public static function getFormSchema(): array;
 

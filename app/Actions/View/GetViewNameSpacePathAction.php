@@ -16,6 +16,7 @@ use Illuminate\Support\Arr;
 use Illuminate\View\FileViewFinder;
 use Modules\Xot\Datas\XotData;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -80,13 +81,17 @@ use Nwidart\Modules\Facades\Module;
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
+=======
+>>>>>>> 88ea7103 (.)
 =======
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -97,6 +102,8 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
 
 class GetViewNameSpacePathAction
 {
@@ -105,6 +112,7 @@ class GetViewNameSpacePathAction
     /**
      * @throws Exception
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,14 +139,20 @@ class GetViewNameSpacePathAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
     public function execute(null|string $module_name = null): string
 =======
     public function execute(?string $module_name = null): string
 >>>>>>> f1d4085 (.)
+=======
+    public function execute(null|string $module_name = null): string
+>>>>>>> 73eab74 (.)
     {
         if (null !== $module_name && '' !== $module_name) {
             $module_path = Module::getModulePath($module_name);
             /** @var non-falsy-string $namespace_path */
+<<<<<<< HEAD
 <<<<<<< HEAD
             $namespace_path = $module_path . 'resources/views';
 <<<<<<< HEAD
@@ -182,6 +196,7 @@ class GetViewNameSpacePathAction
             $namespace_path = $module_path.'resources/views';
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -199,6 +214,11 @@ class GetViewNameSpacePathAction
             $namespace_path = $module_path.'resources/views';
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+            $namespace_path = $module_path . 'resources/views';
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
         } else {
             /** @var non-falsy-string $namespace_path */
             $namespace_path = resource_path('views');

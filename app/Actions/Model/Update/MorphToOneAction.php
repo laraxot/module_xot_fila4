@@ -109,6 +109,7 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! isset($data['lang'])) {
 =======
         if (!isset($data['lang'])) {
@@ -147,10 +148,13 @@ class MorphToOneAction
 =======
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
         if (!isset($data['lang'])) {
 =======
         if (! isset($data['lang'])) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
@@ -172,10 +176,16 @@ class MorphToOneAction
         if (! isset($data['lang'])) {
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
             $data['lang'] = App::getLocale();
         }
 
         // Return the prepared data
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,10 +235,13 @@ class MorphToOneAction
 =======
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
         return array_filter($data, static fn($value) => null !== $value);
 =======
         return array_filter($data, static fn ($value) => null !== $value);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
@@ -250,5 +263,10 @@ class MorphToOneAction
         return array_filter($data, static fn ($value) => null !== $value);
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+        return array_filter($data, static fn($value) => null !== $value);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
     }
 }

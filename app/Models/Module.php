@@ -38,10 +38,14 @@ use Illuminate\Support\Arr;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Sushi\Sushi;
 
 use function Safe\json_encode;
 
+<<<<<<< HEAD
 =======
 
 use function Safe\json_encode;
@@ -49,6 +53,8 @@ use function Safe\json_encode;
 use Sushi\Sushi;
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +133,9 @@ class Module extends Model
     {
         $modules = ModuleFacade::all();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
 <<<<<<< HEAD
@@ -155,6 +164,7 @@ class Module extends Model
         });
 
         /** @var array<int, array<string, mixed>> */
+<<<<<<< HEAD
 =======
         $modules = Arr::map(
             $modules,
@@ -179,6 +189,8 @@ class Module extends Model
         );
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         return array_values($modules);
     }
 

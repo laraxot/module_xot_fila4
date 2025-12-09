@@ -29,6 +29,9 @@ class PivotAction
      * Undocumented function.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
 <<<<<<< HEAD
@@ -54,6 +57,7 @@ class PivotAction
          *
          *
          */
+<<<<<<< HEAD
 =======
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
@@ -71,5 +75,7 @@ class PivotAction
 
         */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 }

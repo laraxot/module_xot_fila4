@@ -17,6 +17,7 @@ use InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -57,11 +58,16 @@ use InvalidArgumentException;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,6 +85,8 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 399f46d3 (.)
 =======
+=======
+>>>>>>> 88ea7103 (.)
 =======
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\DB;
@@ -122,6 +130,7 @@ use Modules\Xot\Models\InformationSchemaTable;
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -138,6 +147,10 @@ use Modules\Xot\Models\InformationSchemaTable;
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
 
 /**
  * Counts records for a given model class using optimized table information.

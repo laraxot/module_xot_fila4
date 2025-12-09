@@ -17,6 +17,7 @@ use Filament\Facades\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -39,12 +40,19 @@ use Filament\Facades\Filament;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
 =======
 use Illuminate\Routing\Router;
 >>>>>>> f1d4085 (.)
+=======
+use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
+use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\Route;
+>>>>>>> 73eab74 (.)
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
@@ -57,10 +65,13 @@ use Modules\Xot\Http\Middleware\SetDefaultLocaleForUrls;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Http\Middleware\SetDefaultTenantForUrlsMiddleware;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Route;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 // public function boot(\Illuminate\Routing\Router $router)
 
@@ -135,12 +146,16 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapWebRoutes(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
 =======
         Route::middleware('web')
             ->namespace($this->moduleNamespace)
             ->group(base_path('Modules/Xot/routes/web.php'));
 >>>>>>> f1d4085 (.)
+=======
+        Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
+>>>>>>> 73eab74 (.)
     }
 
     /**
@@ -176,12 +191,17 @@ class RouteServiceProvider extends ServiceProvider
 
         // ✅ Controllo sicuro della configurazione laravellocalization
 <<<<<<< HEAD
+<<<<<<< HEAD
         $locales = config()->has('laravellocalization.supportedLocales')
             ? config('laravellocalization.supportedLocales')
 =======
         $locales = config()->has('laravellocalization.supportedLocales') 
             ? config('laravellocalization.supportedLocales') 
 >>>>>>> f1d4085 (.)
+=======
+        $locales = config()->has('laravellocalization.supportedLocales')
+            ? config('laravellocalization.supportedLocales')
+>>>>>>> 73eab74 (.)
             : null;
 
         if (is_array($locales)) {
@@ -204,6 +224,9 @@ class RouteServiceProvider extends ServiceProvider
     {
         // ✅ Controllo sicuro della configurazione laravellocalization
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $langs = config()->has('laravellocalization.supportedLocales')
             ? config('laravellocalization.supportedLocales')
             : ['it' => 'it', 'en' => 'en'];
@@ -211,7 +234,12 @@ class RouteServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_array($langs)) {
+=======
+        if (!is_array($langs)) {
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
 =======
         if (!is_array($langs)) {
 <<<<<<< HEAD
@@ -277,6 +305,7 @@ class RouteServiceProvider extends ServiceProvider
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -291,6 +320,10 @@ class RouteServiceProvider extends ServiceProvider
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
             $langs = ['it' => 'it', 'en' => 'en'];
         }
 
@@ -306,6 +339,7 @@ class RouteServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $lang_pattern = '/|'.$lang_pattern.'|/i';
 =======
         $lang_pattern = '/|' . $lang_pattern . '|/i';
@@ -344,10 +378,13 @@ class RouteServiceProvider extends ServiceProvider
 =======
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
         $lang_pattern = '/|' . $lang_pattern . '|/i';
 =======
         $lang_pattern = '/|'.$lang_pattern.'|/i';
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
@@ -369,6 +406,11 @@ class RouteServiceProvider extends ServiceProvider
         $lang_pattern = '/|'.$lang_pattern.'|/i';
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+        $lang_pattern = '/|' . $lang_pattern . '|/i';
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
 
         $router->pattern('lang', $lang_pattern);
 
@@ -384,6 +426,7 @@ class RouteServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_array($models)) {
 =======
         if (!is_array($models)) {
@@ -422,10 +465,13 @@ class RouteServiceProvider extends ServiceProvider
 =======
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
         if (!is_array($models)) {
 =======
         if (! is_array($models)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
@@ -447,11 +493,17 @@ class RouteServiceProvider extends ServiceProvider
         if (! is_array($models)) {
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+        if (!is_array($models)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
             $models = [];
         }
 
         $models_collect = collect(array_keys($models));
         $models_collect->implode('|');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -488,6 +540,8 @@ class RouteServiceProvider extends ServiceProvider
 =======
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
         $models_collect->map(fn($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
 >>>>>>> 5a14301c (.)
 =======
@@ -542,6 +596,7 @@ class RouteServiceProvider extends ServiceProvider
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -559,6 +614,11 @@ class RouteServiceProvider extends ServiceProvider
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+        $models_collect->map(fn($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
     }
 
     // end registerRoutePattern

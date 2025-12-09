@@ -34,6 +34,7 @@ class GetViewBlocksOptionsByTypeAction
      * @param string $type Il tipo di blocco da cercare
      * @param bool $img Se includere i percorsi delle immagini invece dei nomi
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +79,7 @@ class GetViewBlocksOptionsByTypeAction
      * 
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -95,12 +97,20 @@ class GetViewBlocksOptionsByTypeAction
      * 
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+     *
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
      * @return array<string, string> Array di opzioni con chiave = vista e valore = nome o percorso immagine
      */
     public function execute(string $type, bool $img = false): array
     {
         Assert::stringNotEmpty($type, 'Il tipo di blocco non può essere vuoto');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         $basePath = base_path('Modules');
         Assert::directory($basePath, 'Il percorso base dei moduli non esiste');
@@ -124,6 +134,7 @@ class GetViewBlocksOptionsByTypeAction
             return []; // Ritorna un array vuoto se non ci sono file
         }
 
+<<<<<<< HEAD
 =======
         
         $basePath = base_path('Modules');
@@ -137,11 +148,16 @@ class GetViewBlocksOptionsByTypeAction
         }
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         Assert::isArray($files, 'Il risultato di File::glob() deve essere un array');
 
         $fixPathAction = app(FixPathAction::class);
         Assert::isCallable([$fixPathAction, 'execute'], 'FixPathAction::execute deve essere chiamabile');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         $opts = Arr::mapWithKeys($files, function ($path) use ($img, $type, $fixPathAction): array {
             // Verifichiamo che il percorso sia una stringa
@@ -224,6 +240,7 @@ class GetViewBlocksOptionsByTypeAction
 
             return [$view => $name];
         });
+<<<<<<< HEAD
 =======
         
         $opts = Arr::mapWithKeys(
@@ -273,25 +290,35 @@ class GetViewBlocksOptionsByTypeAction
             }
         );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         // Assicuriamo che il risultato sia un array di stringhe
         /** @var array<string, string> $result */
         $result = $opts;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
         Assert::isArray($result, 'Il risultato deve essere un array');
         foreach ($result as $key => $value) {
             Assert::string($key, 'La chiave dell\'array deve essere una stringa');
             Assert::string($value, 'Il valore dell\'array deve essere una stringa');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
         return $result;
     }
 }

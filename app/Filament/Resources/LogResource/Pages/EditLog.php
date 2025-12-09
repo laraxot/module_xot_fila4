@@ -27,6 +27,9 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 use Modules\Xot\Filament\Resources\LogResource;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -36,6 +39,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 class EditLog extends XotBaseEditRecord
 {
     protected static string $resource = LogResource::class;
+<<<<<<< HEAD
 =======
 
 
@@ -53,4 +57,6 @@ class EditLog extends XotBaseEditRecord
 
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 }

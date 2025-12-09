@@ -33,6 +33,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
  *
@@ -99,10 +100,13 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
  *
 =======
  * 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
@@ -153,6 +157,11 @@ use Spatie\QueueableAction\QueueableAction;
  * 
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+ *
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
  * Questa action centralizza la logica di generazione dell'espressione SQL
  * per il calcolo della distanza tra due punti geografici.
  */
@@ -183,6 +192,7 @@ class GetDistanceExpressionAction
 >>>>>>> 849568d9 (.)
      * @return Expression Espressione SQL per il calcolo della distanza
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,6 +333,10 @@ class GetDistanceExpressionAction
 >>>>>>> 5842a556 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
     public function execute(
         float $latitude,
         float $longitude,
@@ -361,6 +375,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c84488b (.)
 >>>>>>> 71f31700 (.)
 =======
@@ -372,6 +387,8 @@ class GetDistanceExpressionAction
 =======
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 88ea7103 (.)
 =======
     public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
     {
@@ -480,6 +497,7 @@ class GetDistanceExpressionAction
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -514,10 +532,15 @@ class GetDistanceExpressionAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
         }
 
         return DB::raw($sql);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,10 +633,13 @@ class GetDistanceExpressionAction
 =======
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
 }
 =======
 } 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
@@ -660,3 +686,8 @@ class GetDistanceExpressionAction
 } 
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+}
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)

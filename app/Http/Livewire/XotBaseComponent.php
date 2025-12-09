@@ -40,6 +40,7 @@ abstract class XotBaseComponent extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -56,6 +57,10 @@ abstract class XotBaseComponent extends Component
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
         $view = $module_name_low . '::livewire.' . $comp_name;
         $view = str_replace('._', '.', $view);
         // fare distinzione fra inAdmin o no ?
@@ -66,6 +71,9 @@ abstract class XotBaseComponent extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -151,6 +159,7 @@ abstract class XotBaseComponent extends Component
             throw new Exception('View not Exists['.$view.']');
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -165,6 +174,10 @@ abstract class XotBaseComponent extends Component
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
         }
 
         return $view;

@@ -31,6 +31,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
 =======
@@ -61,6 +62,10 @@ return new class extends XotBaseMigration {
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
         if (!$this->shouldRun()) {
 >>>>>>> 5a14301c (.)
 =======
@@ -95,6 +100,7 @@ return new class extends XotBaseMigration {
             $table->index('key_hash'); // For mapping...
             $table->index(['timestamp', 'type', 'key_hash', 'value']); // For aggregate queries...
         });
+<<<<<<< HEAD
 =======
         if (! $this->shouldRun()) {
             return;
@@ -121,5 +127,7 @@ return new class extends XotBaseMigration {
             }
         );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 };

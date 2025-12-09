@@ -16,10 +16,14 @@ class CoolModulesServiceProvider extends PackageServiceProvider
     /**
      * Traccia i panel che hanno già gli hook registrati.
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
      * 
 >>>>>>> f1d4085 (.)
+=======
+     *
+>>>>>>> 73eab74 (.)
      * @var array<string, bool>
      */
     private static array $processedPanels = [];
@@ -33,11 +37,15 @@ class CoolModulesServiceProvider extends PackageServiceProvider
          */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $package->name('cool-modules');
 =======
         $package
             ->name('cool-modules');
 >>>>>>> f1d4085 (.)
+=======
+        $package->name('cool-modules');
+>>>>>>> 73eab74 (.)
     }
 
 <<<<<<< HEAD
@@ -61,11 +69,15 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> 5a14301c (.)
             $panels = Filament::getPanels();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
                 $panelId = $panel->getId();
 
+<<<<<<< HEAD
 =======
            
             foreach ($panels as $panel) {
@@ -73,11 +85,16 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                 $panelId = $panel->getId();
                 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
                 // Controlla se questo panel è già stato processato
                 if (isset(self::$processedPanels[$panelId])) {
                     continue;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
@@ -111,6 +128,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                                      '),
                     );
 
+<<<<<<< HEAD
 =======
                 
                 if ($id->contains('::')) {
@@ -135,6 +153,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                         );
                     
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
                     // Marca questo panel come processato
                     self::$processedPanels[$panelId] = true;
                 }

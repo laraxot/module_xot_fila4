@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -21,6 +24,7 @@ use function Pest\Laravel\assertDatabaseHas;
 =======
 >>>>>>> 5a14301c (.)
 
+<<<<<<< HEAD
 =======
 use Modules\Xot\Tests\TestCase;
 use function Pest\Laravel\{artisan, assertDatabaseHas};
@@ -28,6 +32,8 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 uses(TestCase::class);
 
 beforeEach(function () {
@@ -37,6 +43,7 @@ beforeEach(function () {
     $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
 =======
     $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,12 +75,18 @@ beforeEach(function () {
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
     mkdir($this->testDir, 0o755, true);
 
 =======
     mkdir($this->testDir, 0755, true);
     
 >>>>>>> f1d4085 (.)
+=======
+    mkdir($this->testDir, 0o755, true);
+
+>>>>>>> 73eab74 (.)
     // Set the working directory
     chdir($this->testDir);
 });
@@ -85,6 +98,9 @@ afterEach(function () {
 
 // Recursive function to remove a directory and its contents
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 function rrmdir($dir)
 {
     if (is_dir($dir)) {
@@ -114,7 +130,10 @@ function rrmdir($dir)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
 =======
@@ -173,6 +192,7 @@ function rrmdir($dir) {
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -189,6 +209,10 @@ function rrmdir($dir) {
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
                 }
             }
         }
@@ -199,11 +223,15 @@ function rrmdir($dir) {
 test('creates necessary directories and files', function () {
     // Run the command
 <<<<<<< HEAD
+<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 =======
     $this->artisan('xot:fix-structure')
          ->assertExitCode(0);
 >>>>>>> f1d4085 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 73eab74 (.)
 
     // Check if directories were created
     $directories = [
@@ -273,11 +301,15 @@ test('does not overwrite existing files', function () {
 
     // Run the command
 <<<<<<< HEAD
+<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 =======
     $this->artisan('xot:fix-structure')
          ->assertExitCode(0);
 >>>>>>> f1d4085 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 73eab74 (.)
 
     // Verify the file was not overwritten
     $this->assertStringEqualsFile($testFile, $testContent);
@@ -291,6 +323,7 @@ test('handles errors gracefully', function () {
     $nonWritableDir = $this->testDir.'/app';
 =======
     $nonWritableDir = $this->testDir . '/app';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -333,6 +366,10 @@ test('handles errors gracefully', function () {
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error
@@ -340,6 +377,7 @@ test('handles errors gracefully', function () {
 
     // Restore permissions
     chmod($nonWritableDir, 0o755);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,6 +411,8 @@ test('handles errors gracefully', function () {
 =======
 >>>>>>> 7131bd09 (.)
 =======
+>>>>>>> 88ea7103 (.)
+=======
     chmod($nonWritableDir, 0555);
 
     // Run the command and expect an error
@@ -386,6 +426,7 @@ test('handles errors gracefully', function () {
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
@@ -395,6 +436,8 @@ test('handles errors gracefully', function () {
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
 });
 <<<<<<< HEAD
 <<<<<<< HEAD

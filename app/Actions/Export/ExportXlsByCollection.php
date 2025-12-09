@@ -38,6 +38,9 @@ use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 >>>>>>> ca9324a4 (.)
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 >>>>>>> 5a14301c (.)
 use Illuminate\Support\Collection;
@@ -48,6 +51,7 @@ use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -59,6 +63,8 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 /**
  * Classe per l'esportazione di collezioni in formato Excel.
@@ -116,6 +122,7 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
@@ -152,6 +159,10 @@ class ExportXlsByCollection
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
         null|string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
@@ -166,6 +177,7 @@ class ExportXlsByCollection
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields,
+<<<<<<< HEAD
 =======
         ?string $transKey = null,
         array $fields = [],
@@ -183,6 +195,8 @@ class ExportXlsByCollection
             transKey: $transKey,
             fields: $stringFields
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         );
 
         return Excel::download($export, $filename);

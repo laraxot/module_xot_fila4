@@ -23,6 +23,25 @@
    - ✅ CORRETTO: `README.md` (radice modulo/tema)
    - ❌ SBAGLIATO: qualsiasi altro file con maiuscole
 
+### PHP Test Files (.php in tests/)
+
+**REGOLE OBBLIGATORIE:**
+
+1. **I file test DEVONO seguire PSR-4 con PascalCase**
+   - ✅ CORRETTO: `FixStructureTest.php`, `UserServiceTest.pest.php`
+   - ❌ SBAGLIATO: `fixstructuretest.php`, `userservicetest.pest.php`
+   - **Motivo**: PSR-4 autoloading richiede PascalCase per class names e file names corrispondenti
+
+2. **Evitare duplicati con naming diverso**
+   - Se esiste `FixStructureTest.php`, NON creare `fixstructuretest.php`
+   - I duplicati lowercase causano errori PHPStan e confusione
+   - **Soluzione**: Pulire cache PHPStan con `./vendor/bin/phpstan clear-result-cache`
+
+3. **Nomenclatura standard Pest**
+   - Test Pest: `FeatureNameTest.pest.php` o `FeatureNameTest.php`
+   - Test Unit: `ClassNameTest.php`
+   - Business Logic: `FeatureBusinessLogicTest.php`
+
 ### Shell Scripts (.sh)
 
 **REGOLE OBBLIGATORIE:**
@@ -200,6 +219,12 @@ find . -maxdepth 2 -name "*.sh" | grep -v bashscripts
 
 # Verifica link assoluti nei .md
 grep -r "](/var/www/" Modules/*/docs Themes/*/docs
+
+# Verifica file test lowercase (devono essere PascalCase)
+find Modules/*/tests -name "*.php" | grep -E '/[a-z]+test\.php$|/[a-z]+test\.pest\.php$'
+
+# Pulisci cache PHPStan per evitare file fantasma
+./vendor/bin/phpstan clear-result-cache
 ```
 
 ### Automated Fixes

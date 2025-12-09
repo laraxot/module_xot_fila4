@@ -196,6 +196,7 @@ abstract class BaseModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,6 +237,8 @@ abstract class BaseModel extends Model
 >>>>>>> 5e58b29b (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

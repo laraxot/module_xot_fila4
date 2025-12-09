@@ -29,6 +29,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Documentazione Globale** (`/docs/`)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58,6 +59,9 @@ base_predict_fila3_mono/
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- **Documentazione Globale** (`/project_docs/`)
+>>>>>>> 43d67f21 (.)
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
@@ -67,6 +71,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +101,9 @@ base_predict_fila3_mono/
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+>>>>>>> 43d67f21 (.)
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -123,6 +131,7 @@ Quando si identifica una nuova regola o pattern importante:
 
 2. **Aggiornamento Documentazione**
    - Se regola specifica del modulo:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,6 +200,13 @@ Quando si identifica una nuova regola o pattern importante:
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+     1. Aggiornare `Modules/[ModuleName]/project_docs/`
+     2. Se rilevante, aggiungere riferimento in `/project_docs/`
+
+   - Se regola globale:
+     1. Aggiornare `/project_docs/`
+>>>>>>> 43d67f21 (.)
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**

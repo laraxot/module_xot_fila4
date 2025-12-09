@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto <nome progetto>.
 =======
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
@@ -39,6 +40,9 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+>>>>>>> 43d67f21 (.)
 
 ## PHPStan Best Practices
 

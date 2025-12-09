@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Convenzioni di naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 =======
 - [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
@@ -48,12 +49,16 @@
 >>>>>>> 43d67f21 (.)
 =======
 - [Convenzioni di naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
+=======
+- [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
+>>>>>>> 43d67f21 (.)
 
 ### Moduli Collegati
-- [UI](../UI/docs/README.md) - Componenti di interfaccia
-- [Cms](../Cms/docs/README.md) - Gestione contenuti
-- [Lang](../Lang/docs/README.md) - Traduzioni
+- [UI](../UI/project_docs/README.md) - Componenti di interfaccia
+- [Cms](../Cms/project_docs/README.md) - Gestione contenuti
+- [Lang](../Lang/project_docs/README.md) - Traduzioni
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
@@ -64,6 +69,8 @@
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 ## Struttura
 
 ### Pagine Folio con Filament
@@ -173,6 +180,7 @@ $submit = function() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 - [Componenti Volt](../UI/docs/components/volt.md)
@@ -181,10 +189,13 @@ $submit = function() {
 - [Best Practices](../UI/docs/best-practices.md)
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 43d67f21 (.)
 - [Componenti Volt](../UI/project_docs/components/volt.md)
 - [Layout](../UI/project_docs/layouts.md)
 - [Temi](../UI/project_docs/themes.md)
 - [Best Practices](../UI/project_docs/best-practices.md)
+<<<<<<< HEAD
 >>>>>>> 43d67f21 (.)
 
 ### Modulo Cms
@@ -336,64 +347,67 @@ $submit = function() {
 - [Visualizzazione](../Chart/project_docs/visualization.md)
 >>>>>>> 43d67f21 (.)
 =======
+=======
+>>>>>>> 43d67f21 (.)
 
 ### Modulo Cms
-- [Frontend](../Cms/docs/frontend.md)
-- [Temi](../Cms/docs/themes.md)
-- [Contenuti](../Cms/docs/content.md)
-- [Convenzioni Filament](../Cms/docs/convenzioni-namespace-filament.md)
+- [Frontend](../Cms/project_docs/frontend.md)
+- [Temi](../Cms/project_docs/themes.md)
+- [Contenuti](../Cms/project_docs/content.md)
+- [Convenzioni Filament](../Cms/project_docs/convenzioni-namespace-filament.md)
 
 ### Modulo Lang
-- [Traduzioni](../Lang/docs/translations.md)
-- [Localizzazione](../Lang/docs/localization.md)
-- [API Traduzioni](../Lang/docs/api.md)
+- [Traduzioni](../Lang/project_docs/translations.md)
+- [Localizzazione](../Lang/project_docs/localization.md)
+- [API Traduzioni](../Lang/project_docs/api.md)
 
 ### Modulo User
-- [Autenticazione](../User/docs/auth.md)
-- [Permessi](../User/docs/permissions.md)
-- [Profilo](../User/docs/profile.md)
+- [Autenticazione](../User/project_docs/auth.md)
+- [Permessi](../User/project_docs/permissions.md)
+- [Profilo](../User/project_docs/profile.md)
 
 ### Modulo Patient
-- [Gestione Pazienti](../Patient/docs/patients.md)
-- [Cartelle Cliniche](../Patient/docs/records.md)
-- [Appuntamenti](../Patient/docs/appointments.md)
+- [Gestione Pazienti](../Patient/project_docs/patients.md)
+- [Cartelle Cliniche](../Patient/project_docs/records.md)
+- [Appuntamenti](../Patient/project_docs/appointments.md)
 
 ### Modulo Dental
-- [Trattamenti](../Dental/docs/treatments.md)
-- [Pianificazione](../Dental/docs/planning.md)
-- [Documenti](../Dental/docs/documents.md)
+- [Trattamenti](../Dental/project_docs/treatments.md)
+- [Pianificazione](../Dental/project_docs/planning.md)
+- [Documenti](../Dental/project_docs/documents.md)
 
 ### Modulo Tenant
-- [Multi-tenant](../Tenant/docs/multi-tenant.md)
-- [Configurazione](../Tenant/docs/configuration.md)
-- [Migrazione](../Tenant/docs/migration.md)
+- [Multi-tenant](../Tenant/project_docs/multi-tenant.md)
+- [Configurazione](../Tenant/project_docs/configuration.md)
+- [Migrazione](../Tenant/project_docs/migration.md)
 
 ### Modulo Media
-- [Gestione File](../Media/docs/files.md)
-- [Upload](../Media/docs/upload.md)
-- [Storage](../Media/docs/storage.md)
+- [Gestione File](../Media/project_docs/files.md)
+- [Upload](../Media/project_docs/upload.md)
+- [Storage](../Media/project_docs/storage.md)
 
 ### Modulo Notify
-- [Notifiche](../Notify/docs/notifications.md)
-- [Email](../Notify/docs/email.md)
-- [SMS](../Notify/docs/sms.md)
+- [Notifiche](../Notify/project_docs/notifications.md)
+- [Email](../Notify/project_docs/email.md)
+- [SMS](../Notify/project_docs/sms.md)
 
 ### Modulo Reporting
-- [Report](../Reporting/docs/reports.md)
-- [Esportazione](../Reporting/docs/export.md)
-- [Analytics](../Reporting/docs/analytics.md)
+- [Report](../Reporting/project_docs/reports.md)
+- [Esportazione](../Reporting/project_docs/export.md)
+- [Analytics](../Reporting/project_docs/analytics.md)
 
 ### Modulo Gdpr
-- [Privacy](../Gdpr/docs/privacy.md)
-- [Consensi](../Gdpr/docs/consents.md)
-- [Sicurezza](../Gdpr/docs/security.md)
+- [Privacy](../Gdpr/project_docs/privacy.md)
+- [Consensi](../Gdpr/project_docs/consents.md)
+- [Sicurezza](../Gdpr/project_docs/security.md)
 
 ### Modulo Job
-- [Jobs](../Job/docs/jobs.md)
-- [Queue](../Job/docs/queue.md)
-- [Scheduling](../Job/docs/scheduling.md)
+- [Jobs](../Job/project_docs/jobs.md)
+- [Queue](../Job/project_docs/queue.md)
+- [Scheduling](../Job/project_docs/scheduling.md)
 
 ### Modulo Chart
+<<<<<<< HEAD
 - [Grafici](../Chart/docs/charts.md)
 - [Dashboard](../Chart/docs/dashboard.md)
 - [Visualizzazione](../Chart/docs/visualization.md)
@@ -407,3 +421,8 @@ $submit = function() {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- [Grafici](../Chart/project_docs/charts.md)
+- [Dashboard](../Chart/project_docs/dashboard.md)
+- [Visualizzazione](../Chart/project_docs/visualization.md)
+>>>>>>> 43d67f21 (.)

@@ -111,6 +111,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -631,6 +632,12 @@ use Spatie\QueueableAction\QueueableAction;
 =======
  *
 >>>>>>> b396242e (.)
+=======
+ *
+=======
+ * 
+>>>>>>> c06600c (.)
+>>>>>>> 931910ce (.)
  * Questa action centralizza la logica di generazione dell'espressione SQL
  * per il calcolo della distanza tra due punti geografici.
  */
@@ -721,6 +728,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -803,6 +811,8 @@ class GetDistanceExpressionAction
 >>>>>>> 39bb163e (.)
 =======
 >>>>>>> b396242e (.)
+=======
+>>>>>>> 931910ce (.)
     public function execute(
         float $latitude,
         float $longitude,
@@ -828,6 +838,7 @@ class GetDistanceExpressionAction
         if (null !== $alias) {
 >>>>>>> 5a14301c (.)
             $sql .= " AS {$alias}";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -935,6 +946,10 @@ class GetDistanceExpressionAction
 =======
     public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
 >>>>>>> 39bb163e (.)
+=======
+=======
+    public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
+>>>>>>> 931910ce (.)
     {
         $sql = "
             (6371 * acos(
@@ -948,6 +963,7 @@ class GetDistanceExpressionAction
         
         if (null !== $alias) {
             $sql .= " AS $alias";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1823,6 +1839,9 @@ class GetDistanceExpressionAction
 >>>>>>> 39bb163e (.)
 =======
 >>>>>>> b396242e (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 931910ce (.)
         }
 
         return DB::raw($sql);
@@ -1928,6 +1947,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -2443,3 +2463,9 @@ class GetDistanceExpressionAction
 =======
 }
 >>>>>>> b396242e (.)
+=======
+}
+=======
+} 
+>>>>>>> c06600c (.)
+>>>>>>> 931910ce (.)

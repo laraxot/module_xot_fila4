@@ -42,10 +42,14 @@ class AutoLabelAction
      * Get the component name based on its actual type.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param Field|Component $component Il componente di cui ottenere il nome
 =======
      * @param Field|\Filament\Schemas\Components\Component $component Il componente di cui ottenere il nome
 >>>>>>> f1d4085 (.)
+=======
+     * @param Field|Component $component Il componente di cui ottenere il nome
+>>>>>>> 73eab74 (.)
      * @return string Il nome del componente
      */
     private function getComponentName(Field|Component $component): string
@@ -54,10 +58,14 @@ class AutoLabelAction
         if (method_exists($component, 'getName')) {
             $name = $component->getName();
 <<<<<<< HEAD
+<<<<<<< HEAD
             return is_string($name) ? $name : ((string) $name);
 =======
             return is_string($name) ? $name : (string) $name;
 >>>>>>> f1d4085 (.)
+=======
+            return is_string($name) ? $name : ((string) $name);
+>>>>>>> 73eab74 (.)
         }
 
         // Per i componenti generali di Filament
@@ -67,10 +75,14 @@ class AutoLabelAction
         if (method_exists($component, 'getStatePath')) {
             $statePath = $component->getStatePath();
 <<<<<<< HEAD
+<<<<<<< HEAD
             return $statePath ?? class_basename($component);
 =======
             return $statePath;
 >>>>>>> f1d4085 (.)
+=======
+            return $statePath ?? class_basename($component);
+>>>>>>> 73eab74 (.)
         }
 
         // Fallback a reflection per altri casi
@@ -89,6 +101,7 @@ class AutoLabelAction
      * Applica automaticamente le etichette ai componenti Filament.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param Field|Component $component Il componente a cui applicare l'etichetta
      *
 >>>>>>> 5a14301c (.)
@@ -98,6 +111,11 @@ class AutoLabelAction
      *
      * @return Field|\Filament\Schemas\Components\Component Il componente con l'etichetta applicata
 >>>>>>> f1d4085 (.)
+=======
+     * @param Field|Component $component Il componente a cui applicare l'etichetta
+     *
+     * @return Field|Component Il componente con l'etichetta applicata
+>>>>>>> 73eab74 (.)
      */
     public function execute(Field|Component $component): Field|Component
     {

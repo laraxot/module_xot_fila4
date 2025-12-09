@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -35,6 +38,7 @@ return [
 =======
 >>>>>>> 5a14301c (.)
 ];
+<<<<<<< HEAD
 =======
 return array (
   'sections' => 
@@ -47,3 +51,5 @@ return array (
   ),
 );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)

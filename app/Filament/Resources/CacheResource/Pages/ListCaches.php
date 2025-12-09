@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\CacheResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\Action;
 <<<<<<< HEAD
 use Filament\Actions\CreateAction;
@@ -15,6 +16,11 @@ use Filament\Actions\CreateAction;
 use Filament\Actions\CreateAction;
 use Filament\Actions\Action;
 >>>>>>> f1d4085 (.)
+=======
+use Filament\Actions\Action;
+use Override;
+use Filament\Actions\CreateAction;
+>>>>>>> 73eab74 (.)
 use Filament\Actions;
 >>>>>>> 5a14301c (.)
 use Filament\Tables\Columns\Layout\Stack;
@@ -30,9 +36,12 @@ use Modules\Xot\Filament\Widgets\Clock;
 >>>>>>> 5a14301c (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 /**
  * @see CacheResource
  */
@@ -50,9 +59,13 @@ class ListCaches extends XotBaseListRecords
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 >>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
     public function getTableColumns(): array
     {
         return [
@@ -62,17 +75,23 @@ class ListCaches extends XotBaseListRecords
                 ->wrap()
                 ->label('Key'),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             'value' => TextColumn::make('value')
                 ->searchable()
                 ->wrap()
                 ->label('Value'),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             'expiration' => TextColumn::make('expiration')
                 ->dateTime()
                 ->sortable()
@@ -81,9 +100,13 @@ class ListCaches extends XotBaseListRecords
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 >>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -95,9 +118,13 @@ class ListCaches extends XotBaseListRecords
      * @return array<string, Action>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 >>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
     protected function getHeaderActions(): array
     {
         return [

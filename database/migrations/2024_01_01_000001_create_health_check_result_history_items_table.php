@@ -16,10 +16,14 @@ return new class extends XotBaseMigration
 =======
 return new class extends XotBaseMigration {
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected null|string $model_class = HealthCheckResultHistoryItem::class;
 =======
     protected ?string $model_class = HealthCheckResultHistoryItem::class;
 >>>>>>> f1d4085 (.)
+=======
+    protected null|string $model_class = HealthCheckResultHistoryItem::class;
+>>>>>>> 73eab74 (.)
 
     /**
      * Run the migrations.
@@ -31,6 +35,9 @@ return new class extends XotBaseMigration {
     {
         // -- CREATE --
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->id();
 
@@ -48,6 +55,7 @@ return new class extends XotBaseMigration {
         $this->tableUpdate(function (Blueprint $table): void {
             $this->updateTimestamps($table, false);
         });
+<<<<<<< HEAD
 =======
         $this->tableCreate(
             function (Blueprint $table): void {
@@ -71,5 +79,7 @@ return new class extends XotBaseMigration {
             }
         );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 };

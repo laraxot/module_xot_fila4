@@ -21,11 +21,15 @@ return new class extends XotBaseMigration {
     {
         // -- CREATE --
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $this->tableCreate(static function (Blueprint $table): void {
             $table->string('key')->primary();
             $table->mediumText('value');
             $table->integer('expiration');
         });
+<<<<<<< HEAD
 =======
         $this->tableCreate(
             static function (Blueprint $table): void {
@@ -35,5 +39,7 @@ return new class extends XotBaseMigration {
             }
         );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 };

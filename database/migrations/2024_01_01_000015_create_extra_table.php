@@ -22,6 +22,9 @@ return new class extends XotBaseMigration {
     {
         // -- CREATE --
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $this->tableCreate(static function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -57,6 +60,7 @@ return new class extends XotBaseMigration {
     }
 
     // end up
+<<<<<<< HEAD
 =======
         $this->tableCreate(
             static function (Blueprint $table): void {
@@ -88,5 +92,7 @@ return new class extends XotBaseMigration {
     // end up
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     // end down
 };

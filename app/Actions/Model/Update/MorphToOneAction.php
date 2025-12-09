@@ -11,6 +11,7 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Fidum\EloquentMorphToOne\MorphToOne;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
@@ -28,13 +29,9 @@ use InvalidArgumentException;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
-use InvalidArgumentException;
 =======
-<<<<<<< HEAD
+>>>>>>> 9db27d12 (.)
 use InvalidArgumentException;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Fidum\EloquentMorphToOne\MorphToOne;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
@@ -73,15 +70,7 @@ class MorphToOneAction
      * @param RelationDTO $relationDTO Data transfer object containing relationship information
 >>>>>>> 5a14301c (.)
      *
-<<<<<<< HEAD
      * @throws InvalidArgumentException When relation type is invalid
-=======
-<<<<<<< HEAD
-     * @throws InvalidArgumentException When relation type is invalid
-=======
-     * @throws \InvalidArgumentException When relation type is invalid
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      */
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
@@ -115,6 +104,7 @@ class MorphToOneAction
     private function prepareData(array $data): array
     {
         // Ensure the 'lang' key is set to the current locale if not provided
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209,10 +199,14 @@ class MorphToOneAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 9db27d12 (.)
             $data['lang'] = App::getLocale();
         }
 
         // Return the prepared data
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,5 +301,8 @@ class MorphToOneAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+        return array_filter($data, static fn($value) => null !== $value);
+>>>>>>> 9db27d12 (.)
     }
 }

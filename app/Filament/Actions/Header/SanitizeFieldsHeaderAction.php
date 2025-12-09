@@ -33,20 +33,6 @@ class SanitizeFieldsHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-            
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             ->tooltip('sanitize')
             ->icon('heroicon-o-shield-exclamation')
 <<<<<<< HEAD
@@ -62,6 +48,7 @@ class SanitizeFieldsHeaderAction extends Action
                 $modelClass = $resource::getModel();
                 // @phpstan-ignore staticMethod.nonObject
                 $rows = $modelClass::get();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,6 +143,9 @@ class SanitizeFieldsHeaderAction extends Action
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 9db27d12 (.)
                     $rows = [];
                 }
                 $c = 0;
@@ -163,6 +153,7 @@ class SanitizeFieldsHeaderAction extends Action
                     Assert::isInstanceOf($row, Model::class);
                     $save = false;
                     foreach ($this->fields as $field) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249,32 +240,11 @@ class SanitizeFieldsHeaderAction extends Action
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
                         Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
                         $string = app(SanitizeAction::class)->execute($item);
                         if ($string !== $item) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-                        $string = app(SanitizeAction::class)->execute($item);
-                        if ($string !== $item) {
-=======
-                        Assert::string($item = $row->{$field});
-                        $string = app(SanitizeAction::class)->execute($item);
-                        if ($string != $item) {
->>>>>>> a12f125f4a (.)
-=======
-                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-                        $string = app(SanitizeAction::class)->execute($item);
-                        if ($string !== $item) {
->>>>>>> b93ef594b4 (.)
-=======
-                        Assert::string($item = $row->{$field});
-                        $string = app(SanitizeAction::class)->execute($item);
-                        if ($string != $item) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                             $row->{$field} = $string;
                             $save = true;
                             ++$c;
@@ -286,6 +256,7 @@ class SanitizeFieldsHeaderAction extends Action
                     }
                 }
                 Notification::make()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,6 +351,9 @@ class SanitizeFieldsHeaderAction extends Action
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 9db27d12 (.)
                     ->success()
                     ->send();
             });
@@ -406,6 +380,7 @@ class SanitizeFieldsHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
@@ -486,6 +461,9 @@ class SanitizeFieldsHeaderAction extends Action
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 9db27d12 (.)
     {
         return 'sanitize-fields-header';
     }

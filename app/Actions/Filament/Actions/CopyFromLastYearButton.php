@@ -26,6 +26,7 @@ class CopyFromLastYearButton
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $modelClass, string $fieldName, ?string $year): Action
 =======
 =======
@@ -67,6 +68,8 @@ class CopyFromLastYearButton
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
     public function execute(string $modelClass, string $fieldName, null|string $year): Action
 >>>>>>> 5a14301c (.)
 =======
@@ -106,6 +109,7 @@ class CopyFromLastYearButton
 >>>>>>> a12f125f4a (.)
 =======
             ->action(static fn() => app(CopyFromLastYearAction::class)->execute($modelClass, $fieldName, $year));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,5 +204,7 @@ class CopyFromLastYearButton
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
     }
 }

@@ -11,6 +11,7 @@ namespace Modules\Xot\Actions\ModelClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use InvalidArgumentException;
 use RuntimeException;
@@ -52,6 +53,10 @@ use RuntimeException;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+use InvalidArgumentException;
+use RuntimeException;
+>>>>>>> 9db27d12 (.)
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -92,21 +97,10 @@ class FakeSeederAction
      * @param int<1, max>         $qty        Number of records to generate
 >>>>>>> 5a14301c (.)
      *
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
      * @throws InvalidArgumentException When model class is invalid
      */
     public function execute(string $modelClass, int $qty): void
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         if (
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,25 +118,7 @@ class FakeSeederAction
                 !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
 >>>>>>> 5a14301c (.)
         ) {
-<<<<<<< HEAD
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
-=======
-<<<<<<< HEAD
-=======
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class) || ! in_array(HasFactory::class, class_uses_recursive($modelClass))) {
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-            throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
-=======
-     * @throws \InvalidArgumentException When model class is invalid
-     */
-    public function execute(string $modelClass, int $qty): void
-    {
-        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class) || ! in_array(HasFactory::class, class_uses_recursive($modelClass))) {
-            throw new \InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
 
         $qtyToDo = min($qty, self::MAX_RECORDS);
@@ -184,15 +160,7 @@ class FakeSeederAction
      * @param class-string<Model> $modelClass
 >>>>>>> 5a14301c (.)
      *
-<<<<<<< HEAD
      * @throws RuntimeException
-=======
-<<<<<<< HEAD
-     * @throws RuntimeException
-=======
-     * @throws \RuntimeException
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      */
     private function getModelFactory(string $modelClass): Factory
     {
@@ -200,15 +168,7 @@ class FakeSeederAction
             return $modelClass::factory();
         }
 
-<<<<<<< HEAD
         throw new RuntimeException("Unable to create factory for model: {$modelClass}");
-=======
-<<<<<<< HEAD
-        throw new RuntimeException("Unable to create factory for model: {$modelClass}");
-=======
-        throw new \RuntimeException("Unable to create factory for model: {$modelClass}");
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     /**
@@ -230,30 +190,10 @@ class FakeSeederAction
     private function sendNotification(string $modelClass, int $count): void
     {
         $title = sprintf('Created %d %s !', $count, $modelClass);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         Notification::make()
             ->title($title)
             ->success()
             ->send();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        Notification::make()->title($title)->success()->send();
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-        Notification::make()->title($title)->success()->send();
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     /**
@@ -277,63 +217,16 @@ class FakeSeederAction
         if ($qty <= self::MAX_RECORDS) {
             return;
         }
-<<<<<<< HEAD
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
-=======
-        app(self::class)
-            ->onQueue()
-            ->execute($modelClass, $qty - self::MAX_RECORDS);
->>>>>>> a12f125f4a (.)
-=======
-        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
->>>>>>> b93ef594b4 (.)
-=======
-        app(self::class)
-            ->onQueue()
-            ->execute($modelClass, $qty - self::MAX_RECORDS);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     private function getTableName(string $modelClass): string
     {
         Assert::classExists($modelClass, 'La classe del modello deve esistere');
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         /** @var Model */
         $model = app($modelClass);
 
-<<<<<<< HEAD
-=======
-=======
-        
-        /** @var Model */
-        $model = app($modelClass);
-        
->>>>>>> a12f125f4a (.)
-=======
-
-        /** @var Model */
-        $model = app($modelClass);
-
->>>>>>> b93ef594b4 (.)
-=======
-        
-        /** @var \Illuminate\Database\Eloquent\Model */
-        $model = app($modelClass);
-        
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         return $model->getTable();
     }
 }

@@ -25,23 +25,5 @@ class HasManyUpdateData extends Data
         public mixed $parentKey,
         #[ArrayType]
         public array $ids = [],
-<<<<<<< HEAD
     ) {}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ) {}
-=======
-    ) {
-    }
->>>>>>> a12f125f4a (.)
-=======
-    ) {}
->>>>>>> b93ef594b4 (.)
-=======
-    ) {
-    }
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 }

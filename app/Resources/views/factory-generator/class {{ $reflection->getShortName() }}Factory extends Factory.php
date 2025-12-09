@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 =======
@@ -58,6 +59,8 @@
 >>>>>>> 37de20a7 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
 <?php
 
 declare(strict_types=1);
@@ -117,16 +120,6 @@ namespace Database\Factories;
 >>>>>>> 492d6d3c (.)
 =======
 ?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 namespace Database\Factories;
 =======
 pace Database\Factories;

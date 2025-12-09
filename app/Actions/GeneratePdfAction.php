@@ -39,6 +39,7 @@ final class GeneratePdfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
 =======
                 'content' => $html2pdf->Output($filename . '.pdf', 'S'),
@@ -119,6 +120,9 @@ final class GeneratePdfAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> 9db27d12 (.)
                 'file' => $this->saveToFile($html2pdf, $filename),
                 default => $html2pdf->Output(),
             };

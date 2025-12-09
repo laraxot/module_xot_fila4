@@ -22,6 +22,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailable;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
@@ -76,49 +77,11 @@ it('throws if record has no email', function (): void {
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Illuminate\Mail\Mailable;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Mail\Mailable;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Xot\Actions\Mail\SendMailByRecordAction;
-=======
-use Modules\Xot\Actions\Mail\SendMailByRecordAction;
-use Illuminate\Database\Eloquent\Model;
->>>>>>> origin/develop
-
-it('throws if record has no email', function (): void {
-    $record = new class extends Model {
-        // no email attribute
-<<<<<<< HEAD
-        public function option(string $key): null|string
-        {
-            return null;
-        }
-
-        public function myLogs()
-        {
-            return new class {
-                public function create(array $data): void
-                {
-                }
-            };
-        }
-    };
-
-    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
-=======
-namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
-=======
-use Illuminate\Mail\Mailable;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Xot\Actions\Mail\SendMailByRecordAction;
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
 
 it('throws if record has no email', function (): void {
     $record = new class extends Model {
@@ -163,6 +126,7 @@ it('throws if record has no email', function (): void {
         }
     };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,5 +254,8 @@ namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> ca9324a4 (.)
         ->toThrow(InvalidArgumentException::class);
 });

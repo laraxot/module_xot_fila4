@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
-<<<<<<< HEAD
 use Exception;
-=======
-<<<<<<< HEAD
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
@@ -26,12 +19,6 @@ class GenerateFilamentResources extends Command
     public function handle(): int
     {
         $moduleName = $this->argument('module');
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         // Assicuriamoci che $moduleName sia una stringa
 <<<<<<< HEAD
@@ -87,6 +74,7 @@ class GenerateFilamentResources extends Command
 >>>>>>> a12f125f4a (.)
 =======
         if (!$module) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,6 +176,8 @@ class GenerateFilamentResources extends Command
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
             $this->error("Il modulo '{$moduleName}' non esiste.");
 
             return Command::FAILURE;
@@ -195,6 +185,7 @@ class GenerateFilamentResources extends Command
 
         $this->info("Generazione delle Filament Resources per il modulo: {$moduleName}");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,6 +307,10 @@ class GenerateFilamentResources extends Command
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> ca9324a4 (.)
             $this->error("Nessuna cartella 'Models' trovata nel modulo {$moduleName}.");
 
             return Command::FAILURE;
@@ -327,6 +322,7 @@ class GenerateFilamentResources extends Command
 
             // Assicuriamoci che $moduleName sia una stringa per strtolower
             $panelName = strtolower($moduleName);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,22 +366,9 @@ class GenerateFilamentResources extends Command
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
             $panel = $panelName . '::admin';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $panel = $panelName . '::admin';
-=======
-            $panel = $panelName.'::admin';
->>>>>>> a12f125f4a (.)
-=======
-            $panel = $panelName . '::admin';
->>>>>>> b93ef594b4 (.)
-=======
-            $panel = $panelName.'::admin';
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             $params = [
                 'name' => $modelName,
 >>>>>>> 5a14301c (.)
@@ -407,15 +390,7 @@ class GenerateFilamentResources extends Command
             ];
             try {
                 Artisan::call('make:filament-resource', $params);
-<<<<<<< HEAD
             } catch (Exception $e) {
-=======
-<<<<<<< HEAD
-            } catch (Exception $e) {
-=======
-            } catch (\Exception $e) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                 $this->error($e->getMessage());
             }
             $this->info("Resource generata per il modello: {$modelName}");

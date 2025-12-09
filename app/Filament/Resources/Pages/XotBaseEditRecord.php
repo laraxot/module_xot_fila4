@@ -19,6 +19,7 @@ namespace Modules\Xot\Filament\Resources\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\DeleteAction;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 use Filament\Support\Components\Component;
@@ -63,6 +64,8 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
@@ -78,27 +81,6 @@ use Filament\Schemas\Schema;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Traits\TransTrait;
-<<<<<<< HEAD
-=======
-=======
-
-=======
-use Filament\Schemas\Components\Component;
->>>>>>> b93ef594b4 (.)
-use Filament\Schemas\Schema;
-use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-use Modules\Xot\Filament\Traits\TransTrait;
->>>>>>> b93ef594b4 (.)
-=======
-
-use Filament\Forms\Form;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
 abstract class XotBaseEditRecord extends FilamentEditRecord
 {
@@ -115,60 +97,17 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     /**
      * Configure the form.
      *
-<<<<<<< HEAD
      * @param Schema $form The form instance to configure
      * @return Schema The configured form
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param Schema $form The form instance to configure
-     * @return Schema The configured form
-=======
-     * @param \Filament\Schemas\Schema $form The form instance to configure
-     * @return \Filament\Schemas\Schema The configured form
->>>>>>> a12f125f4a (.)
-=======
-     * @param Schema $form The form instance to configure
-     * @return Schema The configured form
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
      */
     public function form(Schema $form): Schema
     {
         $schema = $this->getFormSchema();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
-     * @param Form $form The form instance to configure
-     * @return Form The configured form
-     */
-    public function form(Form $form): Form
-    {
-        $schema = $this->getFormSchema();
-        
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         if (empty($schema)) {
             $resource = $this->getResource();
             $schema = $resource::getFormSchema();
         }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         // Ensure schema is properly typed for PHPStan level 10
         /** @var array<string|int, Component>|array<Component> $validSchema */
@@ -185,6 +124,7 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
      * @return array<int, \Filament\Support\Components\Component>
 =======
      * @return array<string|int, Component>|array<Component>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -292,6 +232,8 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
      */
     protected function getFormSchema(): array
     {
@@ -314,6 +256,7 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     {
         return static::transFunc(__FUNCTION__);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -449,4 +392,6 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 }

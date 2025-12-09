@@ -34,6 +34,7 @@ class FieldFilterDTO extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         public ?string $where_method,
         public ?string $rules,
 =======
@@ -69,6 +70,8 @@ class FieldFilterDTO extends Data
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         public null|string $where_method,
         public null|string $rules,
 >>>>>>> 5a14301c (.)
@@ -85,28 +88,4 @@ class FieldFilterDTO extends Data
         public null|string $rules,
 >>>>>>> 5a14301c (.)
     ) {}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        public null|string $where_method,
-        public null|string $rules,
-    ) {}
-=======
-=======
->>>>>>> origin/develop
-        public ?string $where_method,
-        public ?string $rules,
-    ) {
-    }
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-        public null|string $where_method,
-        public null|string $rules,
-    ) {}
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 }

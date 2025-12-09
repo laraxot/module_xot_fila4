@@ -24,6 +24,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Carbon\Carbon;
 use Flowframe\Trend\Trend;
 use Flowframe\Trend\TrendValue;
@@ -101,6 +102,8 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Override;
 use Carbon\Carbon;
 use Exception;
@@ -120,6 +123,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 
     #[Override]
     public function getHeading(): null|string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,10 +325,13 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
     {
         return static::transClass($this->model, 'widgets.model_trend_chart.heading');
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -449,6 +456,9 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+    #[Override]
+>>>>>>> ca9324a4 (.)
     protected function getData(): array
     {
         try {
@@ -470,7 +480,6 @@ class ModelTrendChartWidget extends XotBaseChartWidget
                         'data' => $data->map(fn (mixed $value) => $value instanceof TrendValue
 =======
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
-<<<<<<< HEAD
                         'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
 >>>>>>> 5a14301c (.)
 =======
@@ -483,31 +492,13 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 5a14301c (.)
                             ? $value->aggregate
                             : 0),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
-                            ? $value->aggregate
-                            : 0),
-=======
-                        'data' => $data->map(fn (mixed $value) => $value instanceof TrendValue ? $value->aggregate : 0),
->>>>>>> a12f125f4a (.)
-=======
-                        'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
-                            ? $value->aggregate
-                            : 0),
->>>>>>> b93ef594b4 (.)
-=======
-                        'data' => $data->map(fn (mixed $value) => $value instanceof TrendValue ? $value->aggregate : 0),
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                         'backgroundColor' => 'rgba(139, 92, 246, 0.5)',
                         'borderColor' => 'rgb(139, 92, 246)',
                         'borderWidth' => 2,
                         'tension' => 0.4,
                     ],
                 ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,6 +527,8 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ca9324a4 (.)
                 'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
 >>>>>>> 399f46d3 (.)
                     ? Carbon::parse($value->date)->format('d/m')
@@ -553,6 +546,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 3fbbf1f5 (.)
             ];
         } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -663,6 +657,8 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
             // Fallback appropriato senza logging inutile
             return [
                 'datasets' => [
@@ -712,6 +708,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
@@ -816,24 +813,11 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+    #[Override]
+>>>>>>> ca9324a4 (.)
     protected function getType(): string
     {
         return 'line';
     }
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
-} 
->>>>>>> a12f125f4a (.)
-=======
-}
->>>>>>> b93ef594b4 (.)
-=======
-} 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)

@@ -18,6 +18,7 @@ namespace Modules\Xot\Actions\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\Field;
 use Filament\Schemas\Components\Component;
 use Illuminate\Support\Arr;
@@ -43,19 +44,11 @@ use ReflectionClass;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Filament\Schemas\Components\Component;
 use ReflectionClass;
 use Filament\Forms\Components\Field;
-=======
-<<<<<<< HEAD
-use Filament\Schemas\Components\Component;
-use ReflectionClass;
-use Filament\Forms\Components\Field;
-=======
-use Filament\Forms\Components\Field;
-use Filament\Forms\Components\Component;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Support\Arr;
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\GetTransKeyAction;
@@ -90,23 +83,7 @@ class AutoLabelAction
 >>>>>>> 5a14301c (.)
      * Get the component name based on its actual type.
      *
-<<<<<<< HEAD
      * @param Field|Component $component Il componente di cui ottenere il nome
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param Field|Component $component Il componente di cui ottenere il nome
-=======
-     * @param Field|\Filament\Schemas\Components\Component $component Il componente di cui ottenere il nome
->>>>>>> a12f125f4a (.)
-=======
-     * @param Field|Component $component Il componente di cui ottenere il nome
->>>>>>> b93ef594b4 (.)
-=======
-     * @param Field|Component $component Il componente di cui ottenere il nome
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return string Il nome del componente
      */
     private function getComponentName(Field|Component $component): string
@@ -114,23 +91,7 @@ class AutoLabelAction
         // Per i componenti Field di Filament
         if (method_exists($component, 'getName')) {
             $name = $component->getName();
-<<<<<<< HEAD
             return is_string($name) ? $name : ((string) $name);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            return is_string($name) ? $name : ((string) $name);
-=======
-            return is_string($name) ? $name : (string) $name;
->>>>>>> a12f125f4a (.)
-=======
-            return is_string($name) ? $name : ((string) $name);
->>>>>>> b93ef594b4 (.)
-=======
-            return is_string($name) ? $name : (string) $name;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
 
         // Per i componenti generali di Filament
@@ -139,34 +100,11 @@ class AutoLabelAction
         // @phpstan-ignore function.alreadyNarrowedType
         if (method_exists($component, 'getStatePath')) {
             $statePath = $component->getStatePath();
-<<<<<<< HEAD
             return $statePath ?? class_basename($component);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            return $statePath ?? class_basename($component);
-=======
-            return $statePath;
->>>>>>> a12f125f4a (.)
-=======
-            return $statePath ?? class_basename($component);
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         }
 
         // Fallback a reflection per altri casi
         $reflectionClass = new ReflectionClass($component);
-<<<<<<< HEAD
-=======
-=======
-            return $statePath;
-        }
-
-        // Fallback a reflection per altri casi
-        $reflectionClass = new \ReflectionClass($component);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         if ($reflectionClass->hasProperty('name') && $reflectionClass->getProperty('name')->isPublic()) {
             $property = $reflectionClass->getProperty('name');
             Assert::string($value = $property->getValue($component));
@@ -180,7 +118,6 @@ class AutoLabelAction
     /**
      * Applica automaticamente le etichette ai componenti Filament.
      *
-<<<<<<< HEAD
      * @param Field|Component $component Il componente a cui applicare l'etichetta
      *
 <<<<<<< HEAD
@@ -191,29 +128,6 @@ class AutoLabelAction
 =======
 >>>>>>> 5a14301c (.)
      * @return Field|Component Il componente con l'etichetta applicata
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param Field|Component $component Il componente a cui applicare l'etichetta
-     *
-     * @return Field|Component Il componente con l'etichetta applicata
-=======
-     * @param Field|\Filament\Schemas\Components\Component $component Il componente a cui applicare l'etichetta
-     *
-     * @return Field|\Filament\Schemas\Components\Component Il componente con l'etichetta applicata
->>>>>>> a12f125f4a (.)
-=======
-     * @param Field|Component $component Il componente a cui applicare l'etichetta
-     *
-     * @return Field|Component Il componente con l'etichetta applicata
->>>>>>> b93ef594b4 (.)
-=======
-     * @param Field|Component $component Il componente a cui applicare l'etichetta
-     * 
-     * @return Field|Component Il componente con l'etichetta applicata
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      */
     public function execute(Field|Component $component): Field|Component
     {

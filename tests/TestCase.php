@@ -14,6 +14,7 @@ namespace Modules\Xot\Tests;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -29,6 +30,8 @@ namespace Modules\Xot\Tests;
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Mockery;
 use Modules\SaluteOra\Models\User;
 >>>>>>> 5a14301c (.)
@@ -41,14 +44,6 @@ use Mockery;
 use Modules\SaluteOra\Models\User;
 >>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Model;
-=======
-<<<<<<< HEAD
-use Mockery;
-use Modules\SaluteOra\Models\User;
-use Illuminate\Database\Eloquent\Model;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Illuminate\Support\Facades\Hash;
@@ -68,8 +63,8 @@ use Modules\Xot\Datas\XotData;
 abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,6 +169,8 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
     //use DatabaseMigrations;
 
     // =============================================================================
@@ -262,66 +259,18 @@ abstract class TestCase extends BaseTestCase
             'password' => Hash::make('password123'),
             'name' => fake()->name(),
         ];
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         $userData = array_merge($defaultData, $attributes);
 
         /** @var UserContract&Model $user */
         $user = $userClass::factory()->create($userData);
 
-<<<<<<< HEAD
-=======
-=======
-        
-=======
-
->>>>>>> b93ef594b4 (.)
-        $userData = array_merge($defaultData, $attributes);
-
-        /** @var UserContract&Model $user */
-        $user = $userClass::factory()->create($userData);
-<<<<<<< HEAD
-        
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
-        
-        $userData = array_merge($defaultData, $attributes);
-        
-        /** @var UserContract&\Illuminate\Database\Eloquent\Model $user */
-        $user = $userClass::factory()->create($userData);
-        
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         return $user;
     }
 
     /**
      * Mock XotData for widget testing (Gold Standard Pattern).
-<<<<<<< HEAD
      *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     *
-=======
-     * 
->>>>>>> a12f125f4a (.)
-=======
-     *
->>>>>>> b93ef594b4 (.)
-=======
-     * 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * Prevents "Class not found" errors and provides consistent behavior
      * across all widget tests.
 <<<<<<< HEAD
@@ -342,14 +291,7 @@ abstract class TestCase extends BaseTestCase
      */
     protected static function mockXotData(): void
     {
-<<<<<<< HEAD
         $mockXotData = Mockery::mock(XotData::class)->makePartial();
-=======
-<<<<<<< HEAD
-        $mockXotData = Mockery::mock(XotData::class)->makePartial();
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         // Mock dei metodi critici con fallback sicuri
         $mockXotData->shouldReceive('getUserClass')->andReturn(User::class);
@@ -371,70 +313,8 @@ abstract class TestCase extends BaseTestCase
 
         $mockXotData->shouldReceive('make')->andReturn($mockXotData);
 
-<<<<<<< HEAD
         // ✅ CRITICO: Bind nel container per risoluzione automatica
         app()->instance(XotData::class, $mockXotData);
-=======
-=======
-        
-=======
-
->>>>>>> b93ef594b4 (.)
-        // Mock dei metodi critici con fallback sicuri
-        $mockXotData->shouldReceive('getUserClass')->andReturn(User::class);
-
-        $mockXotData
-            ->shouldReceive('getUserResourceClassByType')
-            ->with('patient')
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
-
-        $mockXotData
-            ->shouldReceive('getUserResourceClassByType')
-            ->with('doctor')
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
-
-        $mockXotData
-            ->shouldReceive('getUserResourceClassByType')
-            ->with(Mockery::any())
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
-<<<<<<< HEAD
-=======
-        $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
-        
-        // Mock dei metodi critici con fallback sicuri
-        $mockXotData->shouldReceive('getUserClass')
-            ->andReturn(\Modules\SaluteOra\Models\User::class);
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('patient')
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with('doctor')  
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
-            
-        $mockXotData->shouldReceive('getUserResourceClassByType')
-            ->with(\Mockery::any())
-            ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
->>>>>>> origin/develop
-            
-        $mockXotData->shouldReceive('make')
-            ->andReturn($mockXotData);
-        
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-
-        $mockXotData->shouldReceive('make')->andReturn($mockXotData);
-
->>>>>>> b93ef594b4 (.)
-        // ✅ CRITICO: Bind nel container per risoluzione automatica
-        app()->instance(XotData::class, $mockXotData);
-=======
-        // ✅ CRITICO: Bind nel container per risoluzione automatica
-        app()->instance(\Modules\Xot\Datas\XotData::class, $mockXotData);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     /**
@@ -502,23 +382,7 @@ abstract class TestCase extends BaseTestCase
             'password' => 'password123',
             'password_confirmation' => 'password123',
         ];
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
-        
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         return array_merge($defaultData, $overrides);
     }
 
@@ -538,12 +402,6 @@ abstract class TestCase extends BaseTestCase
      * @param string|null $expectedType
      * @return void
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     protected function assertUserAuthenticated(null|string $expectedType = null): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -555,26 +413,6 @@ abstract class TestCase extends BaseTestCase
     {
         $this->assertAuthenticated();
 
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-    protected function assertUserAuthenticated(?string $expectedType = null): void
-    {
-        $this->assertAuthenticated();
-        
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    protected function assertUserAuthenticated(null|string $expectedType = null): void
-    {
-        $this->assertAuthenticated();
-
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         if ($expectedType !== null) {
             /** @var UserContract|null $user */
             $user = auth()->user();
@@ -591,23 +429,7 @@ abstract class TestCase extends BaseTestCase
 =======
 >>>>>>> 5a14301c (.)
             $this->assertNotNull($user);
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
-            
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             if ($user && method_exists($user, 'type')) {
                 $this->assertEquals($expectedType, $user->type ?? null);
 <<<<<<< HEAD

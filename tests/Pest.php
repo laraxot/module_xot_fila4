@@ -2,12 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -226,6 +220,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 namespace Modules\Xot\Tests\Pest;
 =======
@@ -304,6 +299,8 @@ pest()->extend(TestCase::class)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 
 <<<<<<< HEAD
 
@@ -628,14 +625,6 @@ namespace Modules\Xot\Tests\Pest;
 // });
 
 /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -644,6 +633,7 @@ namespace Modules\Xot\Tests\Pest;
  * | Queste funzioni saranno disponibili in tutti i test.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1030,3 +1020,9 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 492d6d3c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+
+// function something() {
+//     // ...
+// }
+>>>>>>> ca9324a4 (.)

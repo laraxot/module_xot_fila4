@@ -210,7 +210,11 @@ jobs:
 - **Level 8**: Strict type checking (recommended)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **level 10**: Maximum strictness (ideal for new code)
+=======
+- **Level 9**: Maximum strictness (ideal for new code)
+>>>>>>> ca9324a4 (.)
 =======
 - **Level 9**: Maximum strictness (ideal for new code)
 >>>>>>> ca9324a4 (.)

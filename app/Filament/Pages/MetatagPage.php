@@ -19,6 +19,13 @@ use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Filament\Schemas\Schema;
+=======
+>>>>>>> 2850177 (.)
+>>>>>>> 3a08b27 (.)
 
 /**
  * @property Schema $form

@@ -134,15 +134,10 @@ afterEach(function (): void {
 
 it('tests table method with all methods implemented', function (): void {
     // Avoid DB/Schema access inside TableExistsByModelClassActions
-<<<<<<< HEAD
-    $mock = Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions');
-    $mock->shouldReceive('execute')->andReturn(true);
-=======
-    /* @phpstan-ignore-next-line method.notFound */
+    /** @phpstan-ignore-next-line method.notFound */
     Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
         ->shouldReceive('execute')
         ->andReturn(true);
->>>>>>> c07dd86 (.)
 
     // Create partial mock and defer missing to real methods so trait's table() runs
     $mock = Mockery::mock(HasTableWithXotTestClass::class)->makePartial()->shouldDeferMissing();
@@ -218,25 +213,16 @@ it('tests table method with all methods implemented', function (): void {
     $result = $mock->table($tableMock);
 
     // Assert the result is a Table instance
-<<<<<<< HEAD
-    /** @var mixed $result */
-=======
-    /* @phpstan-ignore-next-line argument.templateType */
->>>>>>> c07dd86 (.)
+/* @phpstan-ignore-next-line argument.templateType */
     expect($result)->toBe($tableMock);
 });
 
 it('tests table method with no optional methods implemented', function (): void {
     // Avoid DB/Schema access inside TableExistsByModelClassActions
-<<<<<<< HEAD
-    $mockTableExists = Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions');
-    $mockTableExists->shouldReceive('execute')->andReturn(true);
-=======
-    /* @phpstan-ignore-next-line method.notFound */
+/* @phpstan-ignore-next-line method.notFound */
     Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
         ->shouldReceive('execute')
         ->andReturn(true);
->>>>>>> c07dd86 (.)
 
     // Create partial mock and defer missing to real methods so trait's table() runs
     $mock = Mockery::mock(HasTableWithoutOptionalMethodsTestClass::class)->makePartial()->shouldDeferMissing();

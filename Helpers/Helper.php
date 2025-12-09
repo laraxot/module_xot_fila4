@@ -17269,9 +17269,8 @@ if (! function_exists('removeQueryParams')) {
         $url = url()->current(); // get the base URL - everything to the left of the "?"
         $query = request()->query(); // get the query parameters (what follows the "?")
         Assert::isArray($query);
-        /** @var array<string, mixed> $cleanQuery */
-        $cleanQuery = $query;
         foreach ($params as $param) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17520,6 +17519,13 @@ if (! function_exists('removeQueryParams')) {
 
         return $cleanQuery ? ($url.'?'.http_build_query($cleanQuery)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
 >>>>>>> b7afadf9 (.)
+=======
+            unset($query[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
+        }
+
+        // 924    Parameter #1 $querydata of function http_build_query expects array|object, array|string given.
+        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> 71586de2 (.)
     }
 }
 
@@ -20638,6 +20644,7 @@ if (! function_exists('debugStack')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
         if (! extension_loaded('xdebug')) {
@@ -20999,9 +21006,26 @@ if (! function_exists('debugStack')) {
             debug_print_backtrace();
 
             return;
+=======
+        if (! extension_loaded('xdebug')) {
+            throw new RuntimeException('XDebug must be installed to use this function');
+>>>>>>> 71586de2 (.)
         }
 
-        debug_print_backtrace();
+        if (
+            function_exists('xdebug_set_filter') &&
+                defined('XDEBUG_FILTER_TRACING') &&
+                defined('XDEBUG_PATH_EXCLUDE')
+        ) {
+            xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+                '/../../vendor/']);
+        }
+
+        if (function_exists('xdebug_print_function_stack')) {
+            xdebug_print_function_stack();
+        } else {
+            debug_print_backtrace();
+        }
     }
 }
 
@@ -24774,10 +24798,11 @@ function safe_object_call($object, string $method, ...$args)
 =======
 >>>>>>> 16dc7ab0 (.)
     if (! is_object($object)) {
-        return;
+        return null;
     }
 
     if (! method_exists($object, $method)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25095,6 +25120,9 @@ function safe_object_call($object, string $method, ...$args)
 =======
         return;
 >>>>>>> b7afadf9 (.)
+=======
+        return null;
+>>>>>>> 71586de2 (.)
     }
 
     return $object->$method(...$args);

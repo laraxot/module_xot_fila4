@@ -44,6 +44,7 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\WidgetConfiguration;
 =======
 =======
@@ -101,6 +102,8 @@ use Spatie\Health\Checks\Check;
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -109,6 +112,7 @@ use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +126,9 @@ use Spatie\Health\Checks\Check;
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 71586de2 (.)
 use Spatie\Health\Checks\Checks;
 >>>>>>> cc7fb225 (.)
 use Spatie\Health\Checks\Checks\CacheCheck;
@@ -446,6 +453,7 @@ class HealthPage extends Page
             $checks[] = $check;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<Check> $checks */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,6 +561,9 @@ class HealthPage extends Page
 =======
         /** @var array<int, \Spatie\Health\Checks\Check> $checks */
 >>>>>>> b7afadf9 (.)
+=======
+        /** @var array<Check> $checks */
+>>>>>>> 71586de2 (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -581,19 +592,6 @@ class HealthPage extends Page
     {
         return [
             Action::make('refresh')
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-                
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()

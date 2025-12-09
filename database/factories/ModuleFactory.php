@@ -9,23 +9,7 @@ use Modules\Xot\Models\Module;
 
 /**
  * Module Factory
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
- *
-=======
- * 
->>>>>>> f1d4085 (.)
-=======
- *
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
- *
->>>>>>> 300ef70 (.)
  * @extends Factory<Module>
  */
 class ModuleFactory extends Factory
@@ -82,6 +66,7 @@ class ModuleFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
         return $this->state(fn (array $_attributes): array => [
@@ -292,6 +277,9 @@ class ModuleFactory extends Factory
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 71586de2 (.)
             'is_active' => true,
         ]);
     }
@@ -334,6 +322,7 @@ class ModuleFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
         return $this->state(fn (array $_attributes): array => [
@@ -544,6 +533,9 @@ class ModuleFactory extends Factory
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 71586de2 (.)
             'is_active' => false,
         ]);
     }
@@ -586,6 +578,7 @@ class ModuleFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
         return $this->state(fn (array $_attributes): array => [
@@ -796,6 +789,9 @@ class ModuleFactory extends Factory
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 71586de2 (.)
             'priority' => $this->faker->numberBetween(80, 100),
         ]);
     }

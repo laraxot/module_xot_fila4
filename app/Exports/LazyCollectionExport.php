@@ -19,6 +19,7 @@ use Illuminate\Contracts\Support\Arrayable;
 =======
 >>>>>>> 5a14301c (.)
 use Illuminate\Support\Collection;
+// use Maatwebsite\Excel\Concerns\FromCollection;
 use Illuminate\Support\LazyCollection;
 use Iterator;
 use Maatwebsite\Excel\Concerns\Exportable;
@@ -40,15 +41,13 @@ use Traversable;
 =======
 >>>>>>> 5a14301c (.)
 
-/**
- * @implements WithMapping<\Illuminate\Database\Eloquent\Model>
- */
 class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, WithMapping
 {
     use Exportable;
 
     public array $headings;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +294,9 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+    public ?string $transKey;
+>>>>>>> 71586de2 (.)
 
     /** @var array<int, string> */
     public array $fields = [];
@@ -308,6 +310,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 =======
      * @param  array<int, string>  $fields
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,6 +337,8 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     public function __construct(
         public LazyCollection $collection,
         ?string $transKey = null,
@@ -361,43 +366,16 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 5a14301c (.)
         array $fields = [],
     ) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    public function __construct(public LazyCollection $collection, ?string $transKey = null, array $fields = [])
-    {
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         // $this->headings = count($headings) > 0 ? $headings : collect($collection->first())->keys()->toArray();
 
         $this->transKey = $transKey;
         $this->fields = $fields;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-
->>>>>>> 300ef70 (.)
         // $this->headings = $headings->toArray();
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -446,13 +424,17 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
      * @param  \Illuminate\Database\Eloquent\Model  $item
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+     * Undocumented function.
+     *
+     * @param  Collection  $item
+>>>>>>> 71586de2 (.)
      */
     public function map($item): array
     {
-        if (! $item instanceof \Illuminate\Database\Eloquent\Model) {
-            return [];
-        }
+        $data = $item->only($this->fields);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -493,6 +475,9 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
+=======
+        return $data->toArray();
+>>>>>>> 71586de2 (.)
 
         /*
          * return [
@@ -509,22 +494,6 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 5a14301c (.)
          * ];
          */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        /*
-        return [
-            $item->,
-        ];
-        */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     }
 
     public function getHead(): Collection
@@ -565,6 +534,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -573,30 +543,17 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
         if (! empty($this->fields)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (! empty($this->fields)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!empty($this->fields)) {
-=======
-        if (! empty($this->fields)) {
->>>>>>> f1d4085 (.)
-=======
-        if (!empty($this->fields)) {
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        if (!empty($this->fields)) {
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
             return collect($this->fields);
         }
 
+        /**
+         * @var array
+         */
         $head = $this->collection->first();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $headArray = $this->normalizeRow($head);
@@ -717,34 +674,21 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 
         return collect([]);
 >>>>>>> b7afadf9 (.)
+=======
+
+        return collect($head)->keys();
+>>>>>>> 71586de2 (.)
     }
 
-    /**
-     * @return array<mixed>
-     */
     public function headings(): array
     {
         $headings = $this->getHead();
         $transKey = $this->transKey;
-        $headingsArray = $headings->toArray();
-        $headingsCollection = collect($headingsArray);
-        $translatedHeadings = app(TransCollectionAction::class)->execute($headingsCollection, $transKey);
-
-        if (is_array($translatedHeadings)) {
-            /** @var array<int, string> $translatedHeadings */
-            $headings = collect($translatedHeadings);
-        } elseif ($translatedHeadings instanceof \Illuminate\Support\Collection) {
-            $headings = $translatedHeadings;
-        } else {
-            $headings = collect([]);
-        }
+        $headings = app(TransCollectionAction::class)->execute($headings, $transKey);
 
         return $headings->toArray();
     }
 
-    /**
-     * @return LazyCollection<int, \Illuminate\Database\Eloquent\Model>
-     */
     public function collection(): LazyCollection
     {
         return $this->collection;

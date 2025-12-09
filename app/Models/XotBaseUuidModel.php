@@ -27,10 +27,7 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Class XotBaseUuidModel.
  *
- * Base class for models using UUIDs as primary keys.
- *
- * Inherits from Model and configures UUID-specific properties.
- * Used as parent for module-specific BaseUuidModel classes.
+ * Base class for models using UUIDs.
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49,19 +46,6 @@ abstract class XotBaseUuidModel extends XotBaseModel
 >>>>>>> 5a14301c (.)
 abstract class XotBaseUuidModel extends Model
 {
-    use \Modules\Xot\Traits\Updater;
-    use Traits\HasXotFactory;
-    use Traits\RelationX;
-
-    /**
-     * Indicates whether attributes are snake cased on arrays.
-     *
-     * @see https://laravel-news.com/6-eloquent-secrets
-     *
-     * @var bool
-     */
-    public static $snakeAttributes = true;
-
     /** @var bool */
     public $incrementing = false;
 
@@ -86,6 +70,7 @@ abstract class XotBaseUuidModel extends Model
 
     /** @var int */
     protected $perPage = 30;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,4 +131,6 @@ abstract class XotBaseUuidModel extends Model
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
 }

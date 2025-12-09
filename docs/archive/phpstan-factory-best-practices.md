@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # PHPStan Best Practices per Factory Laravel - Laraxot Framework
@@ -659,3 +660,5 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)

@@ -5,9 +5,8 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Module;
 
 use Exception;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,17 +218,14 @@ use Illuminate\Support\Str;
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetModuleConfigAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    /**
-     * @return array<string, mixed>
-     */
     public function execute(string $moduleName, string $config): array
     {
         $configPath = app(GetModulePathByGeneratorAction::class)->execute($moduleName, 'config');
@@ -240,40 +236,6 @@ class GetModuleConfigAction
         $configFile = $configPath.'/'.$config.'.php';
         if (! file_exists($configFile)) {
             throw new Exception('Config file not found: '.$configFile);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-    public function execute(string $moduleName, string $config): array
-    {
-        $configPath = app(GetModulePathByGeneratorAction::class)->execute($moduleName, 'config');
-<<<<<<< HEAD
-        $configFile = $configPath.'/'.$config.'.php';
-        if (! file_exists($configFile)) {
-            throw new Exception('Config file not found: '.$configFile);
-=======
-        $configFile = $configPath . '/' . $config . '.php';
-        if (!file_exists($configFile)) {
-            throw new Exception('Config file not found: ' . $configFile);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public function execute(string $moduleName,string $config): array
-    {
-        $configPath = app(GetModulePathByGeneratorAction::class)->execute($moduleName, 'config');
-        $configFile=$configPath.'/'.$config.'.php';
-        if(!file_exists($configFile)){
-            throw new Exception('Config file not found: '.$configFile);
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
         }
         dddx(File::getRequire($configFile));
 

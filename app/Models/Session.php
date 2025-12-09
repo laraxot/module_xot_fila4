@@ -269,8 +269,8 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
-<<<<<<< HEAD
  * @mixin IdeHelperSession
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
@@ -312,6 +312,8 @@ use Modules\Xot\Contracts\ProfileContract;
  *
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
  * @mixin \Eloquent
  */
 class Session extends BaseModel

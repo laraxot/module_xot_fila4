@@ -7,6 +7,7 @@ namespace Modules\Xot\Exports;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,19 +68,9 @@ use Illuminate\Contracts\Support\Arrayable;
 =======
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
 use BackedEnum;
-<<<<<<< HEAD
-=======
-use Illuminate\Contracts\Support\Arrayable;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Contracts\Support\Arrayable;
 <<<<<<< HEAD
@@ -184,6 +175,7 @@ use Illuminate\Contracts\Support\Arrayable;
 >>>>>>> 6dcebf8a (.)
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Concerns\Exportable;
 use Maatwebsite\Excel\Concerns\FromCollection;
@@ -260,19 +252,17 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 71586de2 (.)
 use Illuminate\Support\Arr;
-use Webmozart\Assert\Assert;
 use Illuminate\Support\Collection;
-use Illuminate\Database\Eloquent\Model;
 use Maatwebsite\Excel\Concerns\Exportable;
-use Modules\Lang\Actions\TransArrayAction;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\FromCollection;
-use Modules\Lang\Actions\TransCollectionAction;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Maatwebsite\Excel\Concerns\WithHeadings;
+use Maatwebsite\Excel\Concerns\WithMapping;
+use Modules\Lang\Actions\TransArrayAction;
 use Modules\Xot\Actions\Cast\SafeArrayByModelCastAction;
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
@@ -280,17 +270,15 @@ use Modules\Xot\Actions\Cast\SafeArrayByModelCastAction;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
+=======
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Webmozart\Assert\Assert;
+>>>>>>> 71586de2 (.)
 
-use function Safe\json_encode;
-
-/**
- * @implements WithMapping<Model>
- */
 class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, WithMapping
 {
     use Exportable;
 
-    /** @var Collection<int, Model> */
     public Collection $collection;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,6 +286,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 <<<<<<< HEAD
 
     public array $headings;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,51 +334,15 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-    public null|string $transKey;
->>>>>>> d2b0a27 (.)
-
-    public array $columns;
-
-    public string $filename;
-
-    public string $sheetName;
-
-    /**
-     * @param  Collection<int, Model>  $collection
-     * @param  array<int, string>  $headings
-     * @param  array<int, string>  $columns
-     */
-    public function __construct(Collection $collection, array $headings = [], array $columns = [])
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->collection = $collection;
-        $this->headings = $headings;
-        $this->columns = $columns;
-        $this->filename = 'export_'.date('Y-m-d_H-i-s').'.xlsx';
-        $this->sheetName = 'Export';
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a6ef6dc7 (.)
     public ?string $transKey;
 
     /** @var array<int, string> */
     public ?array $fields = null;
 
     /**
-<<<<<<< HEAD
      * @param  array<int, string>  $fields
      */
     public function __construct(Collection $collection, ?string $transKey = null, array $fields = [])
@@ -537,23 +490,6 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
      */
     public function __construct(Collection $collection, ?string $transKey = null, array $fields = [])
     {
-=======
-     * @param Collection $collection
-     * @param string|null $transKey  
-     * @param array<int, string> $fields
-     */
-    public function __construct(
-        Collection $collection,
-        ?string $transKey = null,
-        array $fields = []
-    ) {
-        
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
         $this->collection = $collection;
 >>>>>>> ab8cc3f3 (.)
         $this->transKey = $transKey;
@@ -1141,6 +1077,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 
         return $headings;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
         $headings = app(TransArrayAction::class)->execute($headings, $transKey);
@@ -1176,26 +1113,12 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     }
 
-    /**
-     * @return Collection<int, Model>
-     */
     public function collection(): Collection
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         return $this->collection;
     }
 
@@ -1223,16 +1146,12 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         if (null === $this->fields || empty($this->fields)) {
 =======
     /**
-<<<<<<< HEAD
      * @param  Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null  $item
-=======
-     * @return list<string>
->>>>>>> a6ef6dc7 (.)
      */
-    public function headings(): array
+    public function map($item): array
     {
-<<<<<<< HEAD
         if ($this->fields === null || empty($this->fields)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
@@ -1249,6 +1168,8 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         if (null === $this->fields || empty($this->fields)) {
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
             Assert::isInstanceOf($item, Model::class);
             $res = app(SafeArrayByModelCastAction::class)->execute($item);
             $res = Arr::map($res, function ($value, $_key) {
@@ -1269,6 +1190,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         // return collect($item)->only($this->fields)->toArray();
         $data = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1444,11 +1366,14 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
         foreach ($this->fields as $field) {
             $value = data_get($item, $field);
             if (\is_object($value)) {
                 if (enum_exists($value::class) && method_exists($value, 'getLabel')) {
                     $value = $value->getLabel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
@@ -1458,40 +1383,13 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
                 }
             }
-
-            $data[] = $value ?? '';
+            $data[$field] = $value;
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         return $data;
-    }
-
-    public function setFilename(string $filename): self
-    {
-        $this->filename = $filename;
-
-        return $this;
-    }
-
-    public function setSheetName(string $sheetName): self
-    {
-        $this->sheetName = $sheetName;
-
-        return $this;
     }
 }

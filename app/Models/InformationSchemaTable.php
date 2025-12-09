@@ -133,6 +133,7 @@ use Webmozart\Assert\Assert;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b7afadf9 (.)
  * @property string|null $model_class
@@ -145,6 +146,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model

@@ -23,6 +23,7 @@ namespace Modules\Xot\States\Transitions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 =======
@@ -120,21 +121,9 @@ use Webmozart\Assert\InvalidArgumentException;
 =======
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
 use Filament\Notifications\Notification as FilamentNotification;
-=======
-use TypeError;
-use Webmozart\Assert\InvalidArgumentException;
->>>>>>> a6ef6dc7 (.)
-use Filament\Notifications\Notification as FilamentNotification;
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
-use Filament\Notifications\Notification as FilamentNotification;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Str;
@@ -142,6 +131,7 @@ use Modules\Notify\Datas\RecordNotificationData;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\ModelStates\Transition;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,6 +298,10 @@ use Webmozart\Assert\InvalidArgumentException;
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+>>>>>>> 71586de2 (.)
 
 abstract class XotBaseTransition extends Transition
 {
@@ -335,24 +329,6 @@ abstract class XotBaseTransition extends Transition
         public null|string $message = '',
 >>>>>>> 5a14301c (.)
     ) {}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-use Filament\Notifications\Notification as FilamentNotification;
-
-abstract class XotBaseTransition extends Transition
-{
-    public function __construct(public Model $record, public ?string $message = '')
-    {
-    }
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
     public function handle(): Model
     {
@@ -361,6 +337,7 @@ abstract class XotBaseTransition extends Transition
 
         $stateNamespace = Str::of($class)->beforeLast('\Transitions\\')->toString();
         $stateClassName = Str::of($class)->afterLast('To')->toString();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,6 +584,9 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+>>>>>>> 71586de2 (.)
 
         /* @phpstan-ignore-next-line */
         $this->record->state = new $newStateClass($this->record);
@@ -620,25 +600,7 @@ abstract class XotBaseTransition extends Transition
         $data = $this->getNotificationData();
         $recipients = $this->getNotificationRecipients();
         foreach ($recipients as $recipient) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             $this->sendRecipientNotification($recipient, $data);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $this->sendRecipientNotification($recipient, $data);
-=======
-            
-            $this->sendRecipientNotification($recipient,$data);
-            
->>>>>>> f1d4085 (.)
-=======
-            $this->sendRecipientNotification($recipient, $data);
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-            $this->sendRecipientNotification($recipient, $data);
->>>>>>> 300ef70 (.)
         }
     }
 
@@ -716,6 +678,7 @@ abstract class XotBaseTransition extends Transition
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b7afadf9 (.)
 =======
@@ -737,6 +700,8 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
         $slug =
             class_basename($this->record).
             '-'.
@@ -768,23 +733,12 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 5a14301c (.)
             Str::of(class_basename(static::class))->kebab()->toString();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        $slug = class_basename($this->record).'-'.$type.'-'.Str::of(class_basename(static::class))->kebab()->toString();
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         $slug = Str::slug($slug);
 
         return $slug;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -942,6 +896,8 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     public function sendRecipientNotification(RecordNotificationData $recipient, array $data): void
     {
         $slug = $this->getNotificationSlug($recipient->record);
@@ -956,8 +912,6 @@ abstract class XotBaseTransition extends Transition
         }
 
         $notify = new RecordNotification($this->record, $slug);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
         $mergeData = $data;
 
@@ -980,6 +934,7 @@ abstract class XotBaseTransition extends Transition
         //$data = $this->getNotificationData();
         $notify = $notify->mergeData($data);
         $notify = $notify->addAttachments($this->getNotificationAttachments());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1155,10 +1110,13 @@ abstract class XotBaseTransition extends Transition
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
 
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);
         } catch (TypeError|InvalidArgumentException $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1447,24 +1405,14 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+            $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
+>>>>>>> 71586de2 (.)
             FilamentNotification::make()
                 ->title('Error')
                 ->danger()
                 ->body($message)
                 ->send();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         }
     }
 

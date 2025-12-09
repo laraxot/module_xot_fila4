@@ -55,6 +55,7 @@ class FieldRefreshAction extends Action
             ->tooltip('Ricalcola valore')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(function ($record, Set $set): void {
 =======
 =======
@@ -83,6 +84,9 @@ class FieldRefreshAction extends Action
 =======
             ->action(function ($state, $set, $record): void {
 >>>>>>> b7afadf9 (.)
+=======
+            ->action(function ($state, $set, $record) {
+>>>>>>> 71586de2 (.)
                 $name = $this->getName();
                 if ($name === null) {
                     return;
@@ -131,12 +135,12 @@ class FieldRefreshAction extends Action
 >>>>>>> 5a14301c (.)
 =======
                 $method = 'get'.Str::studly($name).'';
-<<<<<<< HEAD
                 $value = $record->$method();
                 $set($name, $value);
                 Notification::make()
                     ->title('Ricalcolato '.$name)
                     ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
@@ -164,6 +168,8 @@ class FieldRefreshAction extends Action
                     ->body('vecchio valore: '.$oldValue.' nuovo valore: '.$newValue)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
                     ->success()
                     ->send();
             });

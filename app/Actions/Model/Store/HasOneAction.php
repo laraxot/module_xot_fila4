@@ -16,16 +16,6 @@ class HasOneAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
@@ -36,12 +26,10 @@ class HasOneAction
 <<<<<<< HEAD
         if (! Arr::isAssoc($relationDTO->data) && \count($relationDTO->data) === 1) {
             $related_id = Arr::first($relationDTO->data);
-<<<<<<< HEAD
-=======
             $related = $relationDTO->related->find($related_id);
-<<<<<<< HEAD
             if (! ($related instanceof Model)) {
                 throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,6 +311,8 @@ class HasOneAction
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
             }
 
             $rows->save($related);
@@ -331,16 +321,6 @@ class HasOneAction
         }
 
         /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
          * $rows = $relation->rows;
          * try {
          * $related = $rows->create($relation->data);
@@ -356,31 +336,5 @@ class HasOneAction
          * $model->update($data1);
          * }
          */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        $rows = $relation->rows;
-        try {
-            $related = $rows->create($relation->data);
-        } catch (\Exception $e) {
-            // "SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY' (SQL: insert into `liveuser_users` (`first_name`, `last_name`, `email`, `auth_user_id`, `created_by`, `updated_by`, `updated_at`, `created_at`) values (gfdsfs, fdsfds, fds
-            // dddx(['e' => $e->getMessage(), 'data' => $data]);
-            $related = $rows->update($relation->data);
-        }
-        if (! $model->{$relation->name}->exists()) {// collegamento non riuscito
-            $pk_local = $rows->getLocalKeyName();
-            $pk_fore = $rows->getForeignKeyName();
-            $data1 = [$pk_local => $related->$pk_fore];
-            $model->update($data1);
-        }
-        */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     }
 }

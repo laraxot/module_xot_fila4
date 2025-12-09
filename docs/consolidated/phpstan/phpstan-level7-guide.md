@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Guida alla Validazione con PHPStan Livello 7
@@ -322,3 +323,5 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualitÃ
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)

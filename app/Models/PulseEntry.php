@@ -65,6 +65,7 @@ use Modules\Xot\Database\Factories\PulseEntryFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperPulseEntry
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,6 +112,9 @@ use Modules\Xot\Database\Factories\PulseEntryFactory;
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+ * @mixin IdeHelperPulseEntry
+>>>>>>> 71586de2 (.)
  * @mixin \Eloquent
  */
 class PulseEntry extends BaseModel

@@ -141,10 +141,6 @@ class PdfData extends Data
                     $html2pdf = new Html2Pdf($this->orientation, $this->format, $this->lang);
                     $html2pdf->writeHTML($html);
                     $html2pdf->output($this->getPath(), $this->dest);
-<<<<<<< HEAD
-=======
-
->>>>>>> a6ef6dc7 (.)
                 } catch (HtmlParsingException $e) {
                     File::put($this->getPath().'.html', $html);
                 }
@@ -413,6 +409,7 @@ class PdfData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $params
      */
@@ -423,14 +420,14 @@ class PdfData extends Data
      * @param  array<string, mixed>  $params
      */
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     public function view(string $view, array $params = []): self
     {
         if (! view()->exists($view)) {
             throw new Exception('View '.$view.' not found');
         }
-        /** @var array<string, mixed> $typedParams */
-        $typedParams = $params;
-        $out = view($view, $typedParams);
+        $out = view($view, $params);
         $this->html = $out->render();
 
 =======

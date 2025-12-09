@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Pattern e Soluzioni per PHPStan Livello 10 - Modulo Xot
@@ -450,3 +451,5 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 >>>>>>> 3bf39332 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)

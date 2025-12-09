@@ -23,6 +23,7 @@ namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
@@ -42,6 +43,8 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
+=======
+>>>>>>> 71586de2 (.)
 use Filament\Actions;
 >>>>>>> b7afadf9 (.)
 use Illuminate\Database\Eloquent\Model;
@@ -163,19 +166,6 @@ use Modules\Xot\Filament\Resources\ModuleResource;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Models\Module;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 /**
  * @property Module $record
  */
@@ -234,6 +224,7 @@ class EditModule extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -246,6 +237,8 @@ class EditModule extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
         if (! ($module instanceof Model) || ! isset($module->path)) {
             return;
         }
@@ -253,6 +246,7 @@ class EditModule extends XotBaseEditRecord
         $config_path = $module->path.'/config/config.php';
         $data = File::getRequire($config_path);
         if (! is_array($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -621,6 +615,8 @@ class EditModule extends XotBaseEditRecord
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
             $data = [];
         }
         $data = array_merge($data, $module->toArray());
@@ -628,16 +624,6 @@ class EditModule extends XotBaseEditRecord
         app(SaveArrayAction::class)->execute($data, $config_path);
 
         /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
          * $configPath = config_path('modules/colors.php');
          *
          * // Prepara l'array di colori
@@ -660,38 +646,5 @@ class EditModule extends XotBaseEditRecord
          * // Richiama il file di configurazione per essere sicuro che i colori siano caricati
          * Config::set('modules.colors', $colorsConfig);
          */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        $configPath = config_path('modules/colors.php');
-
-        // Prepara l'array di colori
-        $colorsConfig = [
-            $module->name => [
-                'colors' => $module->colors,
-                'icon' => $module->icon,
-            ],
-        ];
-
-        // Se il file di configurazione esiste già, unisci i colori
-        if (File::exists($configPath)) {
-            $existingConfig = include $configPath;
-            $colorsConfig = array_merge($existingConfig, $colorsConfig);
-        }
-
-        // Salva il nuovo file di configurazione
-        File::put($configPath, '<?php return ' . var_export($colorsConfig, true) . ';');
-
-        // Richiama il file di configurazione per essere sicuro che i colori siano caricati
-        Config::set('modules.colors', $colorsConfig);
-        */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     }
 }

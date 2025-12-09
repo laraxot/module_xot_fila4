@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 # Gestione Best Practice per File di Configurazione PHP basati su Array
@@ -205,3 +206,5 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)

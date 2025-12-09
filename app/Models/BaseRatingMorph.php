@@ -4,13 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+use Illuminate\Database\Eloquent\Model;
+
 /**
  * Class BaseRatingMorph.
  *
- * Base class for polymorphic ratings extending XotBaseModel.
- *
- * Provides common functionality for morphable rating systems.
+ * Base class for rating morphs extending Eloquent Model.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36,6 +37,9 @@ abstract class BaseRatingMorph extends Model
 =======
 abstract class BaseRatingMorph extends XotBaseModel
 >>>>>>> b7afadf9 (.)
+=======
+abstract class BaseRatingMorph extends Model
+>>>>>>> 71586de2 (.)
 {
     // Common properties and methods for rating morphs can be added here.
 }

@@ -15,6 +15,7 @@ use Modules\Xot\Models\Traits\RelationX;
 use Illuminate\Database\Eloquent\Model;
 // use Laravel\Scout\Searchable;
 <<<<<<< HEAD
+<<<<<<< HEAD
 // ---- Traits ----
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -37,6 +38,9 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+// ---- Traits ----
+>>>>>>> 71586de2 (.)
 use Modules\Xot\Traits\Updater;
 
 /**
@@ -65,10 +69,8 @@ abstract class XotBaseModel extends Model
 =======
 abstract class XotBaseModel extends Model
 {
-    use Traits\HasXotFactory;
-    use Traits\RelationX;
-
     // use Searchable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
@@ -87,6 +89,8 @@ abstract class XotBaseModel extends Model
 =======
     // //use Cachable;
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     use Updater;
 
     /**
@@ -98,6 +102,7 @@ abstract class XotBaseModel extends Model
      */
     public static $snakeAttributes = true;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,4 +208,8 @@ abstract class XotBaseModel extends Model
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+    /** @var int */
+    protected $perPage = 30;
+>>>>>>> 71586de2 (.)
 }

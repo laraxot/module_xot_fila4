@@ -36,56 +36,16 @@ trait NavigationLabelTrait
 {
     use TransTrait;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
     // public function getModelLabel(): string
     // {
     //     return static::transFunc(__FUNCTION__);
     // }
     // Rimosso per compatibilità Filament v4 - il metodo è già definito nella classe Resource
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    public static function getModelLabel(): string
-    {
-        return static::transFunc(__FUNCTION__);
-    }
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
     public static function getPluralModelLabel(): string
     {
         return static::getNavigationLabel();
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-
->>>>>>> 300ef70 (.)
         // return static::transFunc(__FUNCTION__);
     }
 
@@ -150,6 +110,7 @@ trait NavigationLabelTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getNavigationSort(): ?int
 =======
     public static function getNavigationSort(): null|int
@@ -360,6 +321,9 @@ trait NavigationLabelTrait
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+    public static function getNavigationSort(): ?int
+>>>>>>> 71586de2 (.)
     {
         $res = static::transFunc(__FUNCTION__);
 
@@ -401,6 +365,7 @@ trait NavigationLabelTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
         if ($value === 0) {
@@ -611,6 +576,9 @@ trait NavigationLabelTrait
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+        if ($value === 0) {
+>>>>>>> 71586de2 (.)
             $key = static::getKeyTransFunc(__FUNCTION__);
             $value = rand(1, 100);
             app(SaveTransAction::class)->execute($key, $value);
@@ -631,16 +599,6 @@ trait NavigationLabelTrait
 
         return $default;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
     /*
      *
@@ -688,60 +646,3 @@ trait NavigationLabelTrait
  * return $res;
  * }
  */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    /*
-
-    public function getHeading(): string|Htmlable
-    {
-        return 'AAAAAAAAAA';
-    }
-
-
-
-    public static function getBreadcrumb(): string {
-        return JobsWaitingPlugin::make()->getBreadcrumb();
-    }
-
-    public static function shouldRegisterNavigation(): bool {
-        return JobsWaitingPlugin::make()->shouldRegisterNavigation();
-    }
-
-    public static function getNavigationIcon(): string {
-        return JobsWaitingPlugin::make()->getNavigationIcon();
-    }
-
-    */
-}
-
-/*
-public static function transPath(string $key): string
-    {
-        $moduleNameLow = Str::lower(static::getModuleName());
-        // $modelClass = static::$model ?? static::getModel();
-        $modelClass = static::getModel();
-        Assert::notNull($modelClass,'['.__LINE__.']['.class_basename($this).']');
-        $modelNameSlug = Str::kebab(class_basename($modelClass));
-
-        return $moduleNameLow.'::'.$modelNameSlug.'.'.$key;
-    }
-
-    public static function trans(string $key): string
-    {
-        $res = __(static::transPath($key));
-        if (\is_array($res)) {
-            throw new \Exception('fix lang ['.$key.']');
-        }
-
-        return $res;
-    }
-*/
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)

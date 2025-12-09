@@ -109,6 +109,7 @@ class GetViewByClassAction
 <<<<<<< HEAD
      * @param  string  $class  Il nome della classe da convertire
      * @param  string  $suffix  Suffisso opzionale da aggiungere al nome della vista
+     *
      * @return string Il nome della vista
      *
 =======

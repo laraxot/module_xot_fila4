@@ -81,9 +81,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
-use Sushi\Sushi;
-
 use function Safe\json_encode;
+use Sushi\Sushi;
 
 /**
 <<<<<<< HEAD

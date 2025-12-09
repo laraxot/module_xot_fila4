@@ -1326,7 +1326,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 =======
      * @param  Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null  $item
      */
-    public function map($item): array
+    public function map(Arrayable|iterable|null $item): array
     {
         if (! empty($this->fields)) {
             return collect($item)->toArray();

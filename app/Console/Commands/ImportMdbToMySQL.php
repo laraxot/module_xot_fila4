@@ -6,7 +6,6 @@ namespace Modules\Xot\Console\Commands;
 
 use Illuminate\Console\Command;
 use RuntimeException;
-
 use function Safe\shell_exec;
 
 class ImportMdbToMySQL extends Command
@@ -40,8 +39,8 @@ class ImportMdbToMySQL extends Command
             throw new RuntimeException('Il nome del database deve essere una stringa');
         }
 
-        $this->info("File .mdb: $mdbFile");
-        $this->info("Database MySQL: $mysqlDb");
+        $this->info("File .mdb: {$mdbFile}");
+        $this->info("Database MySQL: {$mysqlDb}");
 
         $this->info('Esportando tabelle dal file .mdb...');
         $tables = $this->exportTablesToSQL($mdbFile);
@@ -67,7 +66,7 @@ class ImportMdbToMySQL extends Command
     private function exportTablesToSQL(string $mdbFile): array
     {
         $tables = [];
-        $tableList = shell_exec("mdb-tables $mdbFile");
+        $tableList = shell_exec("mdb-tables {$mdbFile}");
         if (! $tableList) {
             return [];
         }
@@ -80,8 +79,8 @@ class ImportMdbToMySQL extends Command
 
             $tables[] = $table;
             $sqlFile = storage_path("app/{$table}.sql");
-            shell_exec("mdb-schema $mdbFile mysql > $sqlFile");
-            shell_exec("mdb-export -I mysql $mdbFile $table >> $sqlFile");
+            shell_exec("mdb-schema {$mdbFile} mysql > {$sqlFile}");
+            shell_exec("mdb-export -I mysql {$mdbFile} {$table} >> {$sqlFile}");
         }
 
         return $tables;
@@ -96,7 +95,7 @@ class ImportMdbToMySQL extends Command
     {
         foreach ($tables as $table) {
             $sqlFile = storage_path("app/{$table}.sql");
-            $command = "mysql -u root $mysqlDb < $sqlFile";
+            $command = "mysql -u root {$mysqlDb} < {$sqlFile}";
             shell_exec($command);
         }
     }

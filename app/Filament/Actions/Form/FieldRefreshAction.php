@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace Modules\Xot\Filament\Actions\Form;
+namespace \Filament\Forms\Form;
 
 use Filament\Actions\Action;
 <<<<<<< HEAD

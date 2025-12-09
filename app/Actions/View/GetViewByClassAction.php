@@ -15,6 +15,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ed734516 (.)
@@ -26,6 +27,8 @@ use Illuminate\Support\Str;
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
 use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 >>>>>>> 5a14301c (.)
 =======
@@ -35,14 +38,6 @@ use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 >>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
-=======
-use Spatie\QueueableAction\QueueableAction;
-use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
->>>>>>> f1d4085 (.)
-=======
-use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
-use Spatie\QueueableAction\QueueableAction;
->>>>>>> 73eab74 (.)
 
 /**
  * Classe per la conversione di nomi di classi in nomi di viste.
@@ -92,6 +87,7 @@ class GetViewByClassAction
         $module = Str::of($class)->betweenFirst('Modules\\', '\\')->toString();
         $module_low = Str::of($module)->lower()->toString();
         $after = Str::of($class)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +171,9 @@ class GetViewByClassAction
             ->after('Modules\\' . $module . '\\')
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+            ->after('Modules\\' . $module . '\\')
+>>>>>>> 3310e9c6 (.)
             ->explode('\\')
             ->toArray();
 
@@ -205,6 +204,7 @@ class GetViewByClassAction
         });
 
         $implode = implode('.', $mapped);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,10 +256,13 @@ class GetViewByClassAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
         $view = $module_low . '::' . $implode . $suffix;
 
         if (!view()->exists($view)) {
             throw new Exception('View not found: ' . $view);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +342,8 @@ class GetViewByClassAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
         }
 
         return $view;

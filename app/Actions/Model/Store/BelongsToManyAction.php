@@ -15,10 +15,6 @@ class BelongsToManyAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
@@ -41,6 +37,7 @@ class BelongsToManyAction
             $status = 'collegati ['.implode(', ', $to).'] ';
 =======
             $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
 =======
@@ -146,6 +143,8 @@ class BelongsToManyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
             Session::flash('status', $status);
 
             return;

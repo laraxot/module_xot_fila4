@@ -228,6 +228,7 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -253,12 +254,9 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/p
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
 =======
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 3310e9c6 (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
->>>>>>> 73eab74 (.)
 ```
 
 ### 2. Documentazione Centralizzata
@@ -276,6 +274,7 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -301,12 +300,9 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
 =======
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 3310e9c6 (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
->>>>>>> 73eab74 (.)
 ```
 
 ## Esempi di Eccellenza

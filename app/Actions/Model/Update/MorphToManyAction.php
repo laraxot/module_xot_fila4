@@ -62,6 +62,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! isset($data['to'])) {
 =======
             if (!isset($data['to'])) {
@@ -133,11 +134,15 @@ class MorphToManyAction
             if (!isset($data['to'])) {
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 3310e9c6 (.)
                 $data['to'] = [];
             }
             $data = $data['to'];
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,11 +195,14 @@ class MorphToManyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
         if (!\is_array($data)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         }
 
         if (!Arr::isAssoc($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,6 +285,8 @@ class MorphToManyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
             $relation->sync($data);
 
             return;
@@ -284,6 +294,7 @@ class MorphToManyAction
 
         foreach ($data as $k => $v) {
             if (\is_array($v)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,6 +378,9 @@ class MorphToManyAction
                 if (!isset($v['pivot'])) {
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 3310e9c6 (.)
                     $v['pivot'] = [];
                 }
 

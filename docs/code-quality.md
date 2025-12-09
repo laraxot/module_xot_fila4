@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Code Quality - Xot Module
 
 > Last Updated: 2025-11-15 08:05:46
@@ -177,6 +178,8 @@ vendor/bin/phpstan analyse path/to/changed/file.php --level=10
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -264,6 +267,7 @@ This document outlines the best practices for maintaining high code quality with
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -296,6 +300,8 @@ This document outlines the best practices for maintaining high code quality with
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -486,6 +492,7 @@ $content = \file_get_contents($path); // Può restituire false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -532,6 +539,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 3310e9c6 (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 

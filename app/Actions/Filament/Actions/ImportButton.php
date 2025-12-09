@@ -14,10 +14,6 @@ class ImportButton
     public function execute(): Action
     {
         return Action::make('import')
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
             ->tooltip('import XLS')
             ->icon('heroicon-o-arrow-up-on-square')
             // ->visible(null != $year)
@@ -29,6 +25,7 @@ class ImportButton
             ->action(static fn () => dddx('WIP'));
 =======
             ->action(static fn() => dddx('WIP'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
 =======
@@ -115,5 +112,7 @@ class ImportButton
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
     }
 }

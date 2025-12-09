@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Script di Risoluzione Conflitti Git - FixCity Project
 
 ## Panoramica
@@ -130,6 +131,9 @@ find . -name "*.php" -exec php -l {} \;
 =======
 # Script di Risoluzione Conflitti Git - FixCity Project
 >>>>>>> 3fbbf1f5 (.)
+=======
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3310e9c6 (.)
 
 ## Panoramica
 
@@ -193,6 +197,7 @@ declare(strict_types=1);
 // 2. Usare type hints espliciti
 // 3. Seguire PSR-12
 // 4. Aggiungere PHPDoc per metodi pubblici
+<<<<<<< HEAD
 ```
 
 #### File di Configurazione
@@ -326,6 +331,69 @@ Per ripristinare un file:
 =======
 ### Verifica PHPStan
 >>>>>>> 3fbbf1f5 (.)
+=======
+```
+
+#### File di Configurazione
+```php
+<?php
+
+declare(strict_types=1);
+
+return [
+    /*
+     * |--------------------------------------------------------------------------
+     * | Section Name
+     * |--------------------------------------------------------------------------
+     * |
+     * | Description
+     * |
+     */
+    'key' => 'value',
+];
+```
+
+#### File di Documentazione
+```markdown
+# Titolo Documento - FixCity Project
+
+## Sezione
+
+Contenuto aggiornato con riferimenti corretti al progetto.
+
+## Collegamenti
+- [Documento Correlato](./related-document.md)
+- [Architettura](../architecture.md)
+```
+
+#### File SVG
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+     fill="none" 
+     viewBox="0 0 24 24" 
+     stroke="currentColor"
+     stroke-width="1.5"
+     aria-hidden="true" 
+     role="img"
+     aria-label="Description">
+    <!-- Contenuto SVG -->
+</svg>
+```
+
+## Comandi Utili
+
+### Verifica Sintassi PHP
+```bash
+# Verifica singolo file
+php -l path/to/file.php
+
+# Verifica tutti i file PHP modificati
+find . -name "*.php" -exec php -l {} \;
+```
+
+### Verifica PHPStan
+>>>>>>> 3310e9c6 (.)
 ```bash
 # Verifica singolo file
 ./vendor/bin/phpstan analyse --level=10 path/to/file.php
@@ -346,6 +414,7 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 ## Checklist di Risoluzione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### ✅ **Controlli Eseguiti**
 <<<<<<< HEAD
 1. **Nessun marker rimasto**
@@ -355,6 +424,8 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 2. **Sintassi PHP valida**: `php -l file.php`
 3. **Git status pulito**: `git status`
 =======
+=======
+>>>>>>> 3310e9c6 (.)
 ### Per Ogni File PHP
 - [ ] `declare(strict_types=1)` presente
 - [ ] Type hints espliciti
@@ -364,7 +435,10 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 - [ ] Namespace corretto
 - [ ] Import statements appropriati
 - [ ] Sintassi valida (`php -l`)
+<<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 3310e9c6 (.)
 
 ### Per Ogni File di Configurazione
 - [ ] Sintassi PHP valida
@@ -391,6 +465,7 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 
 ### ❌ Automazione Cieca
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -474,6 +549,11 @@ git add . && git commit -m "Risolti conflitti merge con Super Mucca"
 git checkout --theirs .
 git checkout --ours .
 >>>>>>> 3fbbf1f5 (.)
+=======
+# NON fare mai questo
+git checkout --theirs .
+git checkout --ours .
+>>>>>>> 3310e9c6 (.)
 ```
 
 ### ❌ Risoluzione Parziale
@@ -565,6 +645,7 @@ grep -r "<<< HEAD" . | wc -l
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### ❌ **Problema**: Conflitti non risolti
 ```bash
 <<<<<<< HEAD
@@ -575,6 +656,8 @@ grep -r "<<<<<<< HEAD" .
 # Esegui di nuovo lo script
 ./Modules/Xot/bashscripts/git/fix_conflicts_now.sh
 =======
+=======
+>>>>>>> 3310e9c6 (.)
 ## Esempi di Risoluzione
 
 ### Caso 1: File PHP con Import Duplicati
@@ -590,7 +673,10 @@ use function Pest\Laravel\{artisan, assertDatabaseHas};
 use Modules\Xot\Tests\TestCase;
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
+<<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 3310e9c6 (.)
 ```
 
 ### Caso 2: File di Configurazione con Commenti
@@ -620,6 +706,7 @@ use function Pest\Laravel\assertDatabaseHas;
  * |
  */
 'detect' => [
+<<<<<<< HEAD
 ```
 
 ### Caso 3: File SVG con Versioni Diverse
@@ -839,6 +926,41 @@ La risoluzione sistematica dei conflitti Git richiede:
 *Poteri della Super Mucca: ATTIVATI* 🐄✨
 >>>>>>> 5a14301c (.)
 =======
+=======
+```
+
+### Caso 3: File SVG con Versioni Diverse
+```xml
+<!-- Conflitto -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+</svg>
+
+<!-- Risoluzione (versione più completa) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+     fill="none" 
+     viewBox="0 0 24 24" 
+     stroke="currentColor"
+     stroke-width="1.5"
+     aria-hidden="true" 
+     role="img"
+     aria-label="Description">
+    <!-- Contenuto completo con animazioni -->
+</svg>
+```
+
+## Conclusioni
+
+La risoluzione sistematica dei conflitti Git richiede:
+
+1. **Analisi manuale** di ogni conflitto
+2. **Categorizzazione** per priorità
+3. **Strategia appropriata** per ogni tipo di file
+4. **Verifica completa** della sintassi e struttura
+5. **Aggiornamento documentazione** correlata
+
+>>>>>>> 3310e9c6 (.)
 Seguendo questo workflow, è possibile risolvere anche grandi quantità di conflitti mantenendo la qualità del codice e la coerenza del progetto.
 
 ## Collegamenti Correlati
@@ -846,5 +968,9 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 - [Report Risoluzione Conflitti](./conflict_resolution_report.md)
 - [Regole Laraxot](../laraxot-rules.md)
 - [Best Practices PHP](../php-best-practices.md)
+<<<<<<< HEAD
 - [Architettura Modulare](../modular-architecture.md)
 >>>>>>> 3fbbf1f5 (.)
+=======
+- [Architettura Modulare](../modular-architecture.md)
+>>>>>>> 3310e9c6 (.)

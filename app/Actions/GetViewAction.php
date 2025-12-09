@@ -100,10 +100,6 @@ class GetViewAction
         // $tmp = array_slice($arr, 3);//senza "app"
         $tmp = array_slice($arr, 4); // con "app"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         $tmp = collect($tmp)
             ->map(static function ($item) {
                 $item = str_replace('.php', '', $item);
@@ -129,24 +125,6 @@ class GetViewAction
 
         if ('' !== $tpl) {
             $pub_view .= '.' . $tpl;
-<<<<<<< HEAD
-=======
-        $tmp = collect($tmp)->map(
-            static function ($item) {
-                $item = str_replace('.php', '', $item);
-
-                return Str::slug(Str::snake($item));
-            }
-        )->implode('.');
-
-        $pub_view = 'pub_theme::'.$tmp;
-        Assert::string($pub_view, '['.__LINE__.']['.class_basename($this).']');
-
-        if ('' !== $tpl) {
-            $pub_view .= '.'.$tpl;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         }
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -156,6 +134,7 @@ class GetViewAction
             return $pub_view;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,10 +186,13 @@ class GetViewAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
         $view = Str::lower($mod) . '::' . $tmp;
 
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,10 +275,13 @@ class GetViewAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
         }
 
         // if (inAdmin()) {
         if (Str::contains($view, '::panels.actions.')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,11 +365,15 @@ class GetViewAction
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 3310e9c6 (.)
             $view = Str::replace('::panels.actions.', $to, $view);
             $view = Str::replace('-action', '', $view);
         }
 
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,6 +500,11 @@ class GetViewAction
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 3310e9c6 (.)
         }
 
         return $view;

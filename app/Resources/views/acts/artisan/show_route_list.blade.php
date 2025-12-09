@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 @extends('pub_theme::layouts.app')
 @section('title', 'Web Routes List')
 @section('content')
@@ -63,12 +54,4 @@ declare(strict_types=1);
         });
     });
 </script>
-<<<<<<< HEAD
-<<<<<<< HEAD
 @endsection
-=======
-@endsection
->>>>>>> f1d4085 (.)
-=======
-@endsection
->>>>>>> 73eab74 (.)

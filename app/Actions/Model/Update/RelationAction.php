@@ -14,10 +14,6 @@ class RelationAction
     use QueueableAction;
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
      * Undocumented function.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,35 +37,6 @@ class RelationAction
          * ]);
          * }
          * // */
-<<<<<<< HEAD
-=======
-     * Execute relation updates with type-safe data.
-     *
-     * @param  array<mixed, mixed>  $data
-     */
-    public function execute(Model $model, array $data): void
-    {
-        // Assicura che $data sia type-safe per FilterRelationsAction
-        /** @var array<string, mixed> $typedData */
-        $typedData = [];
-        foreach ($data as $key => $value) {
-            $typedData[(string) $key] = $value;
-        }
-
-        $relations = app(FilterRelationsAction::class)->execute($model, $typedData);
-        /*
-        if ('Operation' === class_basename($model)) {
-            dddx([
-                'basename' => class_basename($model),
-                'model' => $model,
-                'data' => $data,
-                'relations' => $relations,
-            ]);
-        }
-        // */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
 <<<<<<< HEAD
@@ -84,9 +51,8 @@ class RelationAction
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,6 +119,8 @@ class RelationAction
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
             Assert::object($action = app($actionClass));
 
             if (method_exists($action, 'execute')) {

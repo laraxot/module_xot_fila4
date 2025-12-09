@@ -27,9 +27,8 @@ use Closure;
 =======
 >>>>>>> 399f46d3 (.)
 use Filament\Actions\Action;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Closure;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +87,8 @@ use Closure;
 use Closure;
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -112,10 +113,6 @@ abstract class XotBaseTableAction extends Action
     /**
      * @return Model|null
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public function getRecord(bool $withDefault = true): null|Model
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -126,13 +123,6 @@ abstract class XotBaseTableAction extends Action
             return null;
         }
 
-<<<<<<< HEAD
-=======
-    public function getRecord(): ?Model
-    {
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         return $this->record;
     }
 }

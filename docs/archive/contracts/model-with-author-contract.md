@@ -35,11 +35,7 @@ interface ModelWithAuthorContract extends ModelContract
 
 ## Fix/Modifiche recenti
 - [2025-04-16] Correzione conflitti git, uniformazione tipizzazione, aggiunta firme metodi autore/editor, aggiornamento PHPDoc e struttura secondo convenzioni Laraxot/<nome progetto>.
-<<<<<<< HEAD
 - Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
-=======
-- Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../project_docs/PHPSTAN-FIXES-SUMMARY.md)
->>>>>>> 6cba4fe (.)
 
 ## Collegamenti
 - [ModelContract](model-contract.md)
@@ -98,11 +94,7 @@ interface ModelWithAuthorContract extends ModelContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> 03ceeac3 (.)
 - [Contracts Overview](./README.md)
-<<<<<<< HEAD
 - [Documentazione root](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
-=======
-- [Documentazione root](../../../project_docs/PHPSTAN-FIXES-SUMMARY.md)
->>>>>>> 6cba4fe (.)
 
     $table->foreign('deleter_id')->references('id')->on('users');
 });
@@ -153,6 +145,7 @@ class Article extends Model implements ModelWithAuthorContract
 - Implementare sempre tutte le relazioni richieste
 - Gestire correttamente i casi di soft delete
 - Mantenere la consistenza dei dati nelle relazioni
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,3 +277,5 @@ class Article extends Model implements ModelWithAuthorContract
 =======
 - Documentare eventuali personalizzazioni 
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 0123915b (.)

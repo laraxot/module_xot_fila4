@@ -14,6 +14,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
 =======
@@ -90,18 +91,26 @@ use Override;
 use Filament\Schemas\Components\Component;
 use Override;
 >>>>>>> ca9324a4 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\ListExtras;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\CreateExtra;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\EditExtra;
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Extra;
 
 class ExtraResource extends XotBaseResource
 {
     protected static null|string $model = Extra::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +158,9 @@ use Modules\Xot\Filament\Resources\ExtraResource\Pages;
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
 use Modules\Xot\Models\Extra;
 
 
@@ -163,6 +175,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 class ExtraResource extends XotBaseResource
 {
     protected static ?string $model = Extra::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/develop
@@ -188,10 +201,14 @@ class ExtraResource extends XotBaseResource
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 
     /**
      * Get the form schema for the resource.
      *
+<<<<<<< HEAD
      * @return array<string, Component>
      */
     #[Override]
@@ -201,6 +218,25 @@ class ExtraResource extends XotBaseResource
             'id' => TextInput::make('id')->required()->maxLength(36),
             'post_type' => TextInput::make('post_type')->required()->maxLength(255),
             'post_id' => TextInput::make('post_id')->required()->numeric(),
+=======
+     * @return array<string, \Filament\Schemas\Components\Component>
+     */
+    public static function getFormSchema(): array
+    {
+        return [
+            'id' => TextInput::make('id')
+                ->required()
+                ->maxLength(36),
+
+            'post_type' => TextInput::make('post_type')
+                ->required()
+                ->maxLength(255),
+
+            'post_id' => TextInput::make('post_id')
+                ->required()
+                ->numeric(),
+
+>>>>>>> f1d4085 (.)
             'value' => KeyValue::make('value')
                 ->keyLabel('Chiave')
                 ->valueLabel('Valore')
@@ -209,6 +245,7 @@ class ExtraResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
     public static function getRelations(): array
     {
@@ -216,6 +253,14 @@ class ExtraResource extends XotBaseResource
     }
 
     #[Override]
+=======
+    public static function getRelations(): array
+    {
+        return [
+        ];
+    }
+
+>>>>>>> f1d4085 (.)
     public static function getPages(): array
     {
         return [

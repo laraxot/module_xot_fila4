@@ -71,11 +71,18 @@ class HasOneAction
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
         // Validate that the relationship is of type HasOne
+<<<<<<< HEAD
         Assert::isInstanceOf(
             $relationDTO->rows,
             HasOne::class,
             sprintf('Expected HasOne relationship, got %s', get_debug_type($relationDTO->rows)),
         );
+=======
+        Assert::isInstanceOf($relationDTO->rows, HasOne::class, sprintf(
+            'Expected HasOne relationship, got %s',
+            get_debug_type($relationDTO->rows)
+        ));
+>>>>>>> f1d4085 (.)
 
         /** @var HasOne $relation */
         $relation = $relationDTO->rows;

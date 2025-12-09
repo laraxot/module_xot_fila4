@@ -102,6 +102,7 @@ use Spatie\ModelStatus\Status;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface ModelWithPosContract {}
 =======
 interface ModelWithPosContract
@@ -188,3 +189,11 @@ interface ModelWithPosContract
 {
 }
 >>>>>>> ca9324a4 (.)
+=======
+interface ModelWithPosContract
+{
+}
+=======
+interface ModelWithPosContract {}
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)

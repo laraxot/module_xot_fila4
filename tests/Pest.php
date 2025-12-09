@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -212,6 +213,7 @@ pest()->extend(TestCase::class)
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 | Quando definisci here expectation globali, saranno disponibili 
@@ -223,6 +225,37 @@ pest()->extend(TestCase::class)
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+=======
+namespace Modules\Xot\Tests\Pest;
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Test Case
+|--------------------------------------------------------------------------
+|
+| Il TestCase di default per tutti i test del modulo Xot.
+| Estende il TestCase specifico del modulo che fornisce il setup necessario.
+|
+*/
+
+
+    ->in('Feature', 'Unit');
+
+/*
+|--------------------------------------------------------------------------
+| Expectations
+|--------------------------------------------------------------------------
+|
+| Qui puoi definire aspettative globali per il modulo Xot.
+
+| in tutti i test del modulo.
+|
+*/
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,6 +361,7 @@ pest()->extend(TestCase::class)
 // });
 
 /*
+<<<<<<< HEAD
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -409,6 +443,7 @@ pest()->extend(TestCase::class)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
@@ -445,6 +480,9 @@ pest()->extend(TestCase::class)
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
 |--------------------------------------------------------------------------
 | Functions
 |--------------------------------------------------------------------------
@@ -456,6 +494,7 @@ pest()->extend(TestCase::class)
 
 // function something() {
 //     // ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -551,3 +590,7 @@ pest()->extend(TestCase::class)
 //     // ...
 // }
 >>>>>>> 5842a556 (.)
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)

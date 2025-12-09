@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Code Quality - Xot Module
 
 > Last Updated: 2025-11-15 08:05:46
@@ -169,6 +170,8 @@ vendor/bin/phpstan analyse path/to/changed/file.php --level=10
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -254,6 +257,7 @@ This document outlines the best practices for maintaining high code quality with
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -276,6 +280,10 @@ This document outlines the best practices for maintaining high code quality with
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -464,6 +472,7 @@ $content = \file_get_contents($path); // Può restituire false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -496,6 +505,12 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 

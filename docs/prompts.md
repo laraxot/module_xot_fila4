@@ -106,6 +106,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -234,6 +235,11 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 >>>>>>> 3fbbf1f5 (.)
+=======
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 71f31700 (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore
@@ -326,6 +332,7 @@ Il prompt `docs.txt` serve come:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    ```
 =======
 =======
@@ -346,3 +353,6 @@ Il prompt `docs.txt` serve come:
 =======
    ```
 >>>>>>> 5a14301c (.)
+=======
+   ```
+>>>>>>> 71f31700 (.)

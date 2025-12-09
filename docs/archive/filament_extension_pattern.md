@@ -43,7 +43,11 @@ namespace Filament\Resources\Pages;
 // namespace corretto nel modulo
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Filament\Resources\Pages;
+=======
+namespace Modules\SaluteOra\Filament\Resources\Pages;
+>>>>>>> 71f31700 (.)
 =======
 namespace Modules\SaluteOra\Filament\Resources\Pages;
 >>>>>>> 71f31700 (.)
@@ -85,8 +89,13 @@ protected function getInfolistSchema(): array
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [errore override metodo final](/var/www/html/base_<nome progetto>/laravel/docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/docs/filament-resources.md)
+=======
+- [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)
+>>>>>>> 71f31700 (.)
 =======
 - [errore override metodo final](/var/www/html/base_saluteora/laravel/docs/errors/filament_final_method_override.md)
 - [linee guida filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-resources.md)

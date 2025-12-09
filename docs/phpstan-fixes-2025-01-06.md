@@ -32,7 +32,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 4. <main module>/app/States/Appointment/ReportPending.php
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 71f31700 (.)
 =======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
 >>>>>>> 71f31700 (.)

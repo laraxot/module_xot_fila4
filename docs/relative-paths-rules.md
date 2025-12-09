@@ -38,7 +38,11 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    ```markdown
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    [ERRATO](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/README.md)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/docs/README.md)
+>>>>>>> 71f31700 (.)
 =======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/docs/README.md)
 >>>>>>> 71f31700 (.)

@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ### Versione HEAD
 >>>>>>> 5a14301c (.)
@@ -22,6 +23,9 @@
 =======
 ### Versione HEAD
 >>>>>>> 5a14301c (.)
+=======
+### Versione HEAD
+>>>>>>> 71f31700 (.)
 
 # Roadmap Modulo Xot
 

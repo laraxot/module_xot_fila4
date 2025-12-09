@@ -218,6 +218,7 @@ Codice non conforme agli standard di tipizzazione.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -272,6 +273,9 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -507,6 +511,7 @@ public function test_b(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 ### Errore: Conflitti Git
@@ -532,6 +537,11 @@ public function test_b(): void
 
 **Sintomo**
 >>>>>>> c35986f4 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 71f31700 (.)
 ```
 <<<<<<< HEAD
 // Codice locale
@@ -539,6 +549,7 @@ public function test_b(): void
 // Codice remoto
 >>>>>>> branch-name
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -606,6 +617,8 @@ public function test_b(): void
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 
 **Soluzione**
 1. **Analizzare i conflitti**:

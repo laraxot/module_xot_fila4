@@ -8,7 +8,11 @@ la classe `XotBasePage` estende `Filament\Pages\Page` e si trova in:
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<directory progetto>/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+=======
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
+>>>>>>> 71f31700 (.)
 =======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Pages/XotBasePage.php
 >>>>>>> 71f31700 (.)
@@ -79,7 +83,11 @@ class SettingsPage extends XotBasePage
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<main module>\Filament\Pages;
+=======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 71f31700 (.)
 =======
 namespace Modules\SaluteOra\Filament\Pages;
 >>>>>>> 71f31700 (.)
@@ -97,7 +105,11 @@ class DashboardSettings extends XotBasePage
     
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string $view = '<nome progetto>::filament.pages.dashboard-settings';
+=======
+    protected static string $view = 'saluteora::filament.pages.dashboard-settings';
+>>>>>>> 71f31700 (.)
 =======
     protected static string $view = 'saluteora::filament.pages.dashboard-settings';
 >>>>>>> 71f31700 (.)
@@ -198,8 +210,13 @@ class DashboardSettingsPolicy
 ## collegamento ad altre documentazioni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [pattern di estensione filament](/var/www/html/<directory progetto>/laravel/Modules/Xot/docs/filament_extension_pattern.md)
 - [best practices filament](/var/www/html/<directory progetto>/laravel/Modules/<main module>/docs/filament-best-practices.md)
+=======
+- [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_extension_pattern.md)
+- [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-best-practices.md)
+>>>>>>> 71f31700 (.)
 =======
 - [pattern di estensione filament](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_extension_pattern.md)
 - [best practices filament](/var/www/html/base_saluteora/laravel/Modules/SaluteOra/docs/filament-best-practices.md)

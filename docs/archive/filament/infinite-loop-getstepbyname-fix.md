@@ -126,6 +126,7 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
@@ -163,10 +164,13 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +248,8 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -262,6 +268,7 @@ Questo fix dimostra l'importanza di:
 3. **Property existence checking** per codice robusto
 4. **Xdebug monitoring** per rilevazione loop infiniti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,3 +333,6 @@ Questo fix dimostra l'importanza di:
 *Il sistema  ora è resiliente a questo tipo di errori critici.* 
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 >>>>>>> 5a14301c (.)
+=======
+*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> 71f31700 (.)

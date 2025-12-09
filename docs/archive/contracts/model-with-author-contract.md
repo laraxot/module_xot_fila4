@@ -34,6 +34,7 @@ interface ModelWithAuthorContract extends ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
@@ -53,6 +54,9 @@ interface ModelWithAuthorContract extends ModelContract
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> 5a14301c (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 71f31700 (.)
 - [Contracts Overview](./README.md)
 - [Documentazione root](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 
@@ -115,6 +119,7 @@ class Article extends Model implements ModelWithAuthorContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Documentare eventuali personalizzazioni 
 >>>>>>> 5a14301c (.)
@@ -145,3 +150,6 @@ class Article extends Model implements ModelWithAuthorContract
 =======
 - Documentare eventuali personalizzazioni 
 >>>>>>> 5a14301c (.)
+=======
+- Documentare eventuali personalizzazioni 
+>>>>>>> 71f31700 (.)

@@ -422,7 +422,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  *
  * @phpstan-require-extends Model
  *
- * @mixin \Eloquent
+ * @mixin IdeHelperUserContract
  */
 <<<<<<< HEAD
 <<<<<<< HEAD

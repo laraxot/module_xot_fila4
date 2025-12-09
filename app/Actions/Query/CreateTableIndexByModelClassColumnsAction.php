@@ -79,6 +79,7 @@ class CreateTableIndexByModelClassColumnsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_subclass_of($modelClass, Model::class)) {
             throw new InvalidArgumentException("{$modelClass} must be a subclass of ".Model::class.'.');
         }
@@ -100,8 +101,14 @@ class CreateTableIndexByModelClassColumnsAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         if (!is_subclass_of($modelClass, Model::class)) {
             throw new InvalidArgumentException("{$modelClass} must be a subclass of " . Model::class . '.');
+=======
+        if (! is_subclass_of($modelClass, Model::class)) {
+            throw new InvalidArgumentException("{$modelClass} must be a subclass of ".Model::class.'.');
+>>>>>>> f1d4085 (.)
         }
 
         /** @var Model $modelInstance */
@@ -109,9 +116,11 @@ class CreateTableIndexByModelClassColumnsAction
 
         $tableName = $modelInstance->getTable();
         $connectionName = $modelInstance->getConnectionName() ?? config('database.default');
+<<<<<<< HEAD
         Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         // Validate the table exists
         if (!Schema::connection($connectionName)->hasTable($tableName)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -119,6 +128,13 @@ class CreateTableIndexByModelClassColumnsAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+        Assert::string($connectionName);
+        // Validate the table exists
+        if (! Schema::connection($connectionName)->hasTable($tableName)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             throw new RuntimeException("Table '{$tableName}' does not exist on connection '{$connectionName}'.");
         }
 
@@ -178,6 +194,7 @@ class CreateTableIndexByModelClassColumnsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
 =======
 =======
@@ -192,6 +209,12 @@ class CreateTableIndexByModelClassColumnsAction
 =======
             if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
 >>>>>>> 5a14301c (.)
+=======
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+=======
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
                 throw new RuntimeException("Column '{$column}' does not exist in table '{$tableName}'.");
             }
         }
@@ -249,6 +272,7 @@ class CreateTableIndexByModelClassColumnsAction
     }
 
     /*
+<<<<<<< HEAD
      * private function indexExists(string $connectionName, string $tableName, string $indexName): bool
      * {
      * $connection = DB::connection($connectionName);
@@ -268,6 +292,17 @@ class CreateTableIndexByModelClassColumnsAction
      * return array_key_exists($indexName, $indexes);
      * }
      */
+=======
+        private function indexExists(string $connectionName, string $tableName, string $indexName): bool
+        {
+            $connection = DB::connection($connectionName);
+            $schemaManager = $connection->getDoctrineSchemaManager();
+            $indexes = $schemaManager->listTableIndexes($tableName);
+
+            return array_key_exists($indexName, $indexes);
+        }
+        */
+>>>>>>> f1d4085 (.)
     /**
      * Generate a unique index name based on the table and columns.
      *
@@ -287,7 +322,9 @@ class CreateTableIndexByModelClassColumnsAction
      */
     private function generateIndexName(string $tableName, array $columns): string
     {
+<<<<<<< HEAD
         return $tableName . '_' . implode('_', $columns) . '_index';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,5 +353,10 @@ class CreateTableIndexByModelClassColumnsAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+        return $tableName.'_'.implode('_', $columns).'_index';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     }
 }

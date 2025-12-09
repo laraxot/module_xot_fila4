@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -14,6 +15,8 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica
@@ -606,12 +609,15 @@ ls Modules/*/lang/*/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
 =======
+=======
+>>>>>>> ed734516 (.)
 =======
 # Xot Module - Framework Base Laraxot
 
@@ -632,6 +638,15 @@ Modulo base del framework Laraxot con funzionalità core e best practices.
 - Base classes per tutti i moduli
 - Service providers centralizzati
 - Convenzioni e standard
+<<<<<<< HEAD
+=======
+- Actions per operazioni PDF e business logic
+
+### Actions
+- [GetPdfContentByRecordAction](actions/get-pdf-content-by-record-action.md) - Generazione contenuto PDF da record Eloquent
+- [ContentPdfAction](archive/actions/content-pdf-action.md) - Generazione PDF da HTML/viste
+- [StreamDownloadPdfAction](archive/actions/pdf-stream-download-action.md) - Download PDF diretto
+>>>>>>> ed734516 (.)
 
 ## Installation
 ```bash
@@ -642,14 +657,19 @@ composer require laraxot/xot
 Configurazione automatica tramite service providers.
 
 ## Documentation Archive
+<<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -696,7 +716,19 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 =======
 >>>>>>> 71f31700 (.)
 =======
+=======
+>>>>>>> ed734516 (.)
 ## Quick Links Legacy
+=======
+## Principles
+- **DRY**: Un solo punto di verità
+- **KISS**: Semplicità e chiarezza
+- **Type Safety**: Tipizzazione rigorosa
+- **Documentation**: Documentazione essenziale
+
+## Links
+- [Root Documentation](../../../project_docs/)
+>>>>>>> f1d4085 (.)
 - [Root Documentation](../../../docs/)
 - [SaluteOra Module](../SaluteOra/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)

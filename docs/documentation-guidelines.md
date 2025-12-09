@@ -221,12 +221,18 @@ Quando si fa riferimento a concetti o classi in altri moduli, utilizzare collega
 <<<<<<< HEAD
 <<<<<<< HEAD
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
 >>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+=======
+>>>>>>> f1d4085 (.)
 ```
 
 ### 2. Documentazione Centralizzata
@@ -237,12 +243,18 @@ Alcuni argomenti comuni a più moduli dovrebbero essere documentati nel modulo X
 <<<<<<< HEAD
 <<<<<<< HEAD
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
 >>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+=======
+>>>>>>> f1d4085 (.)
 ```
 
 ## Esempi di Eccellenza

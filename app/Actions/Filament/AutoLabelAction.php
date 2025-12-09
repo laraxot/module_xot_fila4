@@ -56,7 +56,11 @@ class AutoLabelAction
 >>>>>>> 5a14301c (.)
      * Get the component name based on its actual type.
      *
+<<<<<<< HEAD
      * @param Field|Component $component Il componente di cui ottenere il nome
+=======
+     * @param Field|\Filament\Schemas\Components\Component $component Il componente di cui ottenere il nome
+>>>>>>> f1d4085 (.)
      * @return string Il nome del componente
      */
     private function getComponentName(Field|Component $component): string
@@ -64,7 +68,11 @@ class AutoLabelAction
         // Per i componenti Field di Filament
         if (method_exists($component, 'getName')) {
             $name = $component->getName();
+<<<<<<< HEAD
             return is_string($name) ? $name : ((string) $name);
+=======
+            return is_string($name) ? $name : (string) $name;
+>>>>>>> f1d4085 (.)
         }
 
         // Per i componenti generali di Filament
@@ -73,7 +81,11 @@ class AutoLabelAction
         // @phpstan-ignore function.alreadyNarrowedType
         if (method_exists($component, 'getStatePath')) {
             $statePath = $component->getStatePath();
+<<<<<<< HEAD
             return $statePath ?? class_basename($component);
+=======
+            return $statePath;
+>>>>>>> f1d4085 (.)
         }
 
         // Fallback a reflection per altri casi
@@ -91,6 +103,7 @@ class AutoLabelAction
     /**
      * Applica automaticamente le etichette ai componenti Filament.
      *
+<<<<<<< HEAD
      * @param Field|Component $component Il componente a cui applicare l'etichetta
      *
 <<<<<<< HEAD
@@ -98,6 +111,11 @@ class AutoLabelAction
 =======
 >>>>>>> 5a14301c (.)
      * @return Field|Component Il componente con l'etichetta applicata
+=======
+     * @param Field|\Filament\Schemas\Components\Component $component Il componente a cui applicare l'etichetta
+     *
+     * @return Field|\Filament\Schemas\Components\Component Il componente con l'etichetta applicata
+>>>>>>> f1d4085 (.)
      */
     public function execute(Field|Component $component): Field|Component
     {

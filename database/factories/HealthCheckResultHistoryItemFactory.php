@@ -9,7 +9,11 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 
 /**
  * HealthCheckResultHistoryItem Factory
+<<<<<<< HEAD
  *
+=======
+ * 
+>>>>>>> f1d4085 (.)
  * @extends Factory<HealthCheckResultHistoryItem>
  */
 class HealthCheckResultHistoryItemFactory extends Factory
@@ -21,7 +25,11 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return [
             'check_name' => $this->faker->randomElement([
                 'DatabaseCheck',
+<<<<<<< HEAD
                 'CacheCheck',
+=======
+                'CacheCheck', 
+>>>>>>> f1d4085 (.)
                 'QueueCheck',
                 'StorageCheck',
                 'MemoryCheck',
@@ -45,6 +53,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
         return $this->state(fn(array $_attributes): array => [
@@ -76,6 +85,12 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 5a14301c (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+=======
+        return $this->state(fn (array $attributes): array => [
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             'status' => 'ok',
             'notification_message' => null,
         ]);
@@ -88,6 +103,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
         return $this->state(fn(array $_attributes): array => [
@@ -119,6 +135,12 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 5a14301c (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+=======
+        return $this->state(fn (array $attributes): array => [
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             'status' => 'failed',
             'notification_message' => $this->faker->sentence(),
         ]);

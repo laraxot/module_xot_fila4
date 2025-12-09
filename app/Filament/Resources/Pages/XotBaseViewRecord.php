@@ -9,8 +9,13 @@ namespace Modules\Xot\Filament\Resources\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Resources\Pages\ViewRecord as FilamentViewRecord;
+=======
+>>>>>>> ed734516 (.)
 use Filament\Schemas\Components\Component;
+=======
+>>>>>>> f1d4085 (.)
 use Filament\Schemas\Schema;
 
 abstract class XotBaseViewRecord extends FilamentViewRecord
@@ -67,7 +72,11 @@ abstract class XotBaseViewRecord extends FilamentViewRecord
 >>>>>>> 5a14301c (.)
     final public function infolist(Schema $schema): Schema
     {
+<<<<<<< HEAD
         return $schema->components($this->getInfolistSchema());
+=======
+        return $infolist->schema($this->getInfolistSchema());
+>>>>>>> f1d4085 (.)
     }
 
     /**
@@ -75,10 +84,19 @@ abstract class XotBaseViewRecord extends FilamentViewRecord
      * Questo metodo deve sempre restituire un array con chiavi di tipo stringa.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string|int, \Filament\Support\Components\Component>
 =======
+=======
+>>>>>>> ed734516 (.)
      * @return array<int|string, Component>
 >>>>>>> 5a14301c (.)
      */
     abstract protected function getInfolistSchema(): array;
+=======
+     * @return array<int|string, \Filament\Schemas\Components\Component>
+     */
+    abstract protected function getInfolistSchema(): array;
+    
+>>>>>>> f1d4085 (.)
 }

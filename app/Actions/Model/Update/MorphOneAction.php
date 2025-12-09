@@ -103,6 +103,7 @@ final class MorphOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! isset($data['lang'])) {
 =======
         if (!isset($data['lang'])) {
@@ -134,10 +135,17 @@ final class MorphOneAction
 =======
         if (!isset($data['lang'])) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!isset($data['lang'])) {
+=======
+        if (! isset($data['lang'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             $data['lang'] = App::getLocale();
         }
 
         // Remove null values from the data array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,9 +166,13 @@ final class MorphOneAction
 <<<<<<< HEAD
         return array_filter($data, static fn($value): bool => null !== $value);
 =======
+        return array_filter($data, static fn($value): bool => null !== $value);
+>>>>>>> ed734516 (.)
+=======
         return array_filter($data, static function ($value): bool {
             return null !== $value;
         });
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
         return array_filter($data, static fn($value): bool => null !== $value);
@@ -178,5 +190,8 @@ final class MorphOneAction
 =======
         return array_filter($data, static fn($value): bool => null !== $value);
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     }
 }

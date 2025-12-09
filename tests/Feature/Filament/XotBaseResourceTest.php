@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
@@ -38,6 +39,7 @@ beforeEach(function () {
         protected static null|int $navigationSort = 1;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
         protected static null|int $navigationSort = 1;
@@ -59,6 +61,16 @@ beforeEach(function () {
 =======
         protected static null|int $navigationSort = 1;
 >>>>>>> 5a14301c (.)
+=======
+=======
+namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
+
+namespace Modules\Xot\Tests\Feature\Filament;
+
+
+        protected static ?int $navigationSort = 1;
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     };
 });
 

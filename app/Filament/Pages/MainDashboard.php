@@ -9,7 +9,10 @@ namespace Modules\Xot\Filament\Pages;
 use Filament\Panel;
 =======
 use Filament\Facades\Filament;
+<<<<<<< HEAD
 use Filament\Panel;
+=======
+>>>>>>> f1d4085 (.)
 use Filament\Pages\Dashboard;
 >>>>>>> 5a14301c (.)
 =======
@@ -36,6 +39,7 @@ class MainDashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static ?string $title = 'Main Dashboard';
 
     protected static ?int $navigationSort = 1;
@@ -50,6 +54,8 @@ class MainDashboard extends XotBaseDashboard
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
     protected static null|string $title = 'Main Dashboard';
 
     protected static null|int $navigationSort = 1;
@@ -147,5 +153,33 @@ class MainDashboard extends XotBaseDashboard
     public function getColumns(): int|array
     {
         return 1;
+=======
+    protected static ?string $title = 'Main Dashboard';
+
+    protected static ?int $navigationSort = 1;
+
+    public function mount(): void
+    {
+        
+        Assert::notNull($user = auth()->user(), '['.__LINE__.']['.class_basename($this).']');
+        $modules = $user->roles->filter(
+            static function ($item) {
+                return Str::endsWith($item->name, '::admin');
+            }
+        );
+        
+        if (1 === $modules->count()) {
+            Assert::notNull($module_first = $modules->first(), '['.__LINE__.']['.class_basename($this).']');
+            $panel_name = $module_first->name;
+            $module_name = Str::before($panel_name, '::admin');
+            $url = '/'.$module_name.'/admin';
+            redirect($url);
+        }
+
+        if (0 === $modules->count()) {
+            $url = '/'.app()->getLocale();
+            redirect($url);
+        }
+>>>>>>> f1d4085 (.)
     }
 }

@@ -9,6 +9,7 @@ namespace Modules\Xot\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -21,6 +22,8 @@ namespace Modules\Xot\Providers;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
 use Modules\Xot\Console\Commands\OptimizeFilamentMemoryCommand;
 use Override;
 use Filament\Schemas\Components\Utilities\Set;
@@ -106,6 +109,41 @@ use function Safe\realpath;
 >>>>>>> 3fbbf1f5 (.)
 
 use function Safe\realpath;
+=======
+use Filament\Schemas\Components\Utilities\Set;
+use function Safe\realpath;
+use Illuminate\Support\Str;
+use Webmozart\Assert\Assert;
+use Illuminate\Support\Carbon;
+use Modules\Xot\Datas\XotData;
+use Filament\Tables\Columns\Column;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\URL;
+use Filament\Forms\Components\Field;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\View;
+use Illuminate\Support\Facades\Event;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Filters\BaseFilter;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Forms\Components\TextInput;
+use Filament\Infolists\Components\Entry;
+use Filament\Forms\Components\DatePicker;
+use Filament\Forms\Components\TimePicker;
+use Filament\Forms\Components\Placeholder;
+use Filament\Support\Components\Component;
+use Filament\Support\Concerns\Configurable;
+use Modules\Xot\View\Composers\XotComposer;
+use Illuminate\Auth\AuthenticationException;
+use Filament\Forms\Components\DateTimePicker;
+use Illuminate\Database\Events\MigrationsEnded;
+use Illuminate\Contracts\Debug\ExceptionHandler;
+
+use Modules\Xot\Exceptions\Handlers\HandlerDecorator;
+use Modules\Xot\Exceptions\Handlers\HandlersRepository;
+use Modules\Xot\Exceptions\Formatters\WebhookErrorFormatter;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+>>>>>>> f1d4085 (.)
 
 >>>>>>> 5a14301c (.)
 =======
@@ -124,7 +162,10 @@ class XotServiceProvider extends XotBaseServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> f1d4085 (.)
     public function boot(): void
     {
         parent::boot();
@@ -142,15 +183,22 @@ class XotServiceProvider extends XotBaseServiceProvider
 >>>>>>> 5a14301c (.)
         $this->registerTimezone();
         $this->registerFilamentMacros();
+<<<<<<< HEAD
         $this->registerXotLivewireComponents();
         $this->registerProviders();
     }
 
     #[Override]
+=======
+        $this->registerProviders();
+    }
+
+>>>>>>> f1d4085 (.)
     public function register(): void
     {
         parent::register();
         $this->registerConfig();
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +218,11 @@ class XotServiceProvider extends XotBaseServiceProvider
         //$this->extendExceptionHandler();
 >>>>>>> 5a14301c (.)
         $this->registerCommands();
+=======
+        //$this->registerExceptionHandlersRepository();
+        //$this->extendExceptionHandler();
+        //$this->registerCommands();
+>>>>>>> f1d4085 (.)
     }
 
     public function registerProviders(): void
@@ -179,6 +232,7 @@ class XotServiceProvider extends XotBaseServiceProvider
 
     public function registerTimezone(): void
     {
+<<<<<<< HEAD
         Assert::string(
             $timezone = config('app.timezone') ?? 'Europe/Berlin',
 <<<<<<< HEAD
@@ -204,6 +258,7 @@ class XotServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -211,9 +266,12 @@ class XotServiceProvider extends XotBaseServiceProvider
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> ed734516 (.)
+=======
         Assert::string($timezone = config('app.timezone') ?? 'Europe/Berlin', '['.__LINE__.']['.class_basename($this).']');
         Assert::string($date_format = config('app.date_format') ?? 'd/m/Y', '['.__LINE__.']['.class_basename($this).']');
         Assert::string($locale = config('app.locale') ?? 'it', '['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
@@ -228,11 +286,15 @@ class XotServiceProvider extends XotBaseServiceProvider
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
         app()->setLocale($locale);
         Carbon::setLocale($locale);
         date_default_timezone_set($timezone);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -260,12 +322,15 @@ class XotServiceProvider extends XotBaseServiceProvider
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         DateTimePicker::configureUsing(fn(DateTimePicker $component) => $component->timezone($timezone));
         DatePicker::configureUsing(
             fn(DatePicker $component) => $component->timezone($timezone)->displayFormat($date_format),
         );
         TimePicker::configureUsing(fn(TimePicker $component) => $component->timezone($timezone));
         TextColumn::configureUsing(fn(TextColumn $column) => $column->timezone($timezone));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,11 +344,15 @@ class XotServiceProvider extends XotBaseServiceProvider
 =======
 =======
 >>>>>>> origin/develop
+=======
+=======
+>>>>>>> ed734516 (.)
         DateTimePicker::configureUsing(fn (DateTimePicker $component) => $component->timezone($timezone));
         DatePicker::configureUsing(fn (DatePicker $component) => $component->timezone($timezone)->displayFormat($date_format));
         TimePicker::configureUsing(fn (TimePicker $component) => $component->timezone($timezone));
         TextColumn::configureUsing(fn (TextColumn $column) => $column->timezone($timezone));
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 >>>>>>> a12f125f4a (.)
@@ -298,10 +367,15 @@ class XotServiceProvider extends XotBaseServiceProvider
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     }
 
     public function registerFilamentMacros(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,6 +398,8 @@ class XotServiceProvider extends XotBaseServiceProvider
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
         TextInput::macro('generateSlug', function () {
             /** @phpstan-ignore-next-line */
             $this->live(onBlur: true)->afterStateUpdated(function (string $operation, string $state, Set $set) {
@@ -335,6 +411,15 @@ class XotServiceProvider extends XotBaseServiceProvider
 >>>>>>> 5a14301c (.)
                 if ($operation === 'create') {
                     return;
+=======
+        TextInput::macro('generateSlug',function (){
+            /** @phpstan-ignore-next-line */
+            $this
+            ->live(onBlur: true)
+            ->afterStateUpdated(function (string $operation, string $state,Set $set){
+                if($operation === 'create'){
+                    return ;
+>>>>>>> f1d4085 (.)
                 }
                 $set('slug', Str::slug($state));
             });
@@ -351,6 +436,7 @@ class XotServiceProvider extends XotBaseServiceProvider
 
     /*
      * @see https://github.com/cerbero90/exception-handler
+<<<<<<< HEAD
      * --  guardare come fa sentry
      * public function registerExceptionHandler(): void
      * {
@@ -375,6 +461,31 @@ class XotServiceProvider extends XotBaseServiceProvider
      */
 
     #[Override]
+=======
+     --  guardare come fa sentry 
+    public function registerExceptionHandler(): void
+    {
+        $exceptionHandler = $this->app->make(ExceptionHandler::class);
+        if ($exceptionHandler instanceof HandlerDecorator) {
+            $exceptionHandler->reporter(
+                static function (\Throwable $e): void {
+                    $data = (new WebhookErrorFormatter($e))->format();
+                    if ($e instanceof AuthenticationException || $e instanceof NotFoundHttpException) {
+                        return;
+                    }
+
+                    if (is_string(config('logging.channels.slack_errors.url'))
+                        && mb_strlen(config('logging.channels.slack_errors.url')) > 5) {
+                        Log::channel('slack_errors')
+                            ->error($e->getMessage(), $data);
+                    }
+                }
+            );
+        }
+    }
+        */
+
+>>>>>>> f1d4085 (.)
     public function registerConfig(): void
     {
         // $config_file = realpath(__DIR__.'/../config/metatag.php');
@@ -454,16 +565,26 @@ class XotServiceProvider extends XotBaseServiceProvider
 
     /*
      * Register the custom exception handlers repository.
+<<<<<<< HEAD
      * -- guardare come fa sentry
      * private function registerExceptionHandlersRepository(): void
      * {
      * $this->app->singleton(HandlersRepository::class, HandlersRepository::class);
      * }
      */
+=======
+     -- guardare come fa sentry
+    private function registerExceptionHandlersRepository(): void
+    {
+        $this->app->singleton(HandlersRepository::class, HandlersRepository::class);
+    }
+    */
+>>>>>>> f1d4085 (.)
     /*
      * Extend the Laravel default exception handler.
      *
      * @see https://github.com/cerbero90/exception-handler/blob/master/src/Providers/ExceptionHandlerServiceProvider.php
+<<<<<<< HEAD
      * -- guardare come fa sentry
      * private function extendExceptionHandler(): void
      * {
@@ -481,6 +602,24 @@ class XotServiceProvider extends XotBaseServiceProvider
             return;
         }
 
+=======
+     -- guardare come fa sentry
+    private function extendExceptionHandler(): void
+    {
+        $this->app->extend(
+            ExceptionHandler::class,
+            static function (ExceptionHandler $handler, $app) {
+                return new HandlerDecorator($handler, $app[HandlersRepository::class]);
+            }
+        );
+    }
+    */
+    private function redirectSSL(): void
+    {
+        if(app()->runningInConsole()){
+            return;
+        };
+>>>>>>> f1d4085 (.)
         // --- meglio ficcare un controllo anche sull'env
 
         if (
@@ -499,10 +638,12 @@ class XotServiceProvider extends XotBaseServiceProvider
             XotData::make()->forceSSL()
         ) {
             URL::forceScheme('https');
+<<<<<<< HEAD
 
             /*
              * da fare in htaccess
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -517,10 +658,13 @@ class XotServiceProvider extends XotBaseServiceProvider
 =======
 =======
 =======
+>>>>>>> ed734516 (.)
+=======
             /*
              * da fare in htaccess
              */
 
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -538,6 +682,9 @@ class XotServiceProvider extends XotBaseServiceProvider
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             //if (! request()->secure() /* && in_array(env('APP_ENV'), ['stage', 'production']) */) {
             //    exit(redirect()->secure(request()->getRequestUri()));
             //}
@@ -557,9 +704,18 @@ class XotServiceProvider extends XotBaseServiceProvider
      */
     private function registerEvents(): void
     {
+<<<<<<< HEAD
         Event::listen(MigrationsEnded::class, static function (): void {
             // Artisan::call('ide-helper:models -r -W');
         });
+=======
+        Event::listen(
+            MigrationsEnded::class,
+            static function (): void {
+                // Artisan::call('ide-helper:models -r -W');
+            }
+        );
+>>>>>>> f1d4085 (.)
     }
 
     private function registerViewComposers(): void
@@ -567,6 +723,7 @@ class XotServiceProvider extends XotBaseServiceProvider
         View::composer('*', XotComposer::class);
     }
 
+<<<<<<< HEAD
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -621,4 +778,7 @@ class XotServiceProvider extends XotBaseServiceProvider
         //     }
         // }
     }
+=======
+
+>>>>>>> f1d4085 (.)
 } // end class

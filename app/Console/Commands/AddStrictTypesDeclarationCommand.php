@@ -4,9 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use SplFileInfo;
 use Exception;
+=======
+use Exception;
+use SplFileInfo;
+>>>>>>> ed734516 (.)
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
@@ -19,9 +24,12 @@ class AddStrictTypesDeclarationCommand extends Command
 
     protected $description = 'Aggiunge la dichiarazione strict_types=1 ai file PHP che ne sono sprovvisti';
 
+<<<<<<< HEAD
     /**
      * @var array<string>
      */
+=======
+>>>>>>> ed734516 (.)
     private array $excludedPaths = [
         'views',
         'config',
@@ -37,11 +45,18 @@ class AddStrictTypesDeclarationCommand extends Command
         $moduleOption = $this->option('module');
         $dryRun = $this->option('dry-run');
 
+<<<<<<< HEAD
         if ($moduleOption && is_string($moduleOption)) {
             $modulePath .= '/'.$moduleOption;
             if (! File::isDirectory($modulePath)) {
                 $this->error("Il modulo {$moduleOption} non esiste");
 
+=======
+        if ($moduleOption) {
+            $modulePath .= '/' . $moduleOption;
+            if (!File::isDirectory($modulePath)) {
+                $this->error("Il modulo {$moduleOption} non esiste");
+>>>>>>> ed734516 (.)
                 return 1;
             }
         }
@@ -50,6 +65,7 @@ class AddStrictTypesDeclarationCommand extends Command
         $count = 0;
 
         foreach ($files as $file) {
+<<<<<<< HEAD
             Assert::isInstanceOf($file, SplFileInfo::class);
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
@@ -72,11 +88,30 @@ class AddStrictTypesDeclarationCommand extends Command
                 assert(is_string($path));
 
                 try {
+=======
+            if ($this->shouldProcessFile($file)) {
+                if ($dryRun) {
+                    $this->info("Verrebbe processato: {$file}");
+                    $count++;
+                    continue;
+                }
+
+                try {
+                    $path = $file->getRealPath();
+                    if ($path === false) {
+                        continue;
+                    }
+                    
+>>>>>>> ed734516 (.)
                     $action->execute($path);
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;
                 } catch (Exception $e) {
+<<<<<<< HEAD
                     $this->error("Errore nel processare {$path}: ".$e->getMessage());
+=======
+                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
+>>>>>>> ed734516 (.)
                 }
             }
         }
@@ -87,9 +122,12 @@ class AddStrictTypesDeclarationCommand extends Command
         return 0;
     }
 
+<<<<<<< HEAD
     /**
      * @return array<SplFileInfo>
      */
+=======
+>>>>>>> ed734516 (.)
     private function findPhpFiles(string $path): array
     {
         return File::allFiles($path);
@@ -98,7 +136,11 @@ class AddStrictTypesDeclarationCommand extends Command
     private function shouldProcessFile(SplFileInfo $file): bool
     {
         // Verifica l'estensione
+<<<<<<< HEAD
         if (! str_ends_with($file->getFilename(), '.php')) {
+=======
+        if (!str_ends_with($file->getFilename(), '.php')) {
+>>>>>>> ed734516 (.)
             return false;
         }
 
@@ -116,7 +158,11 @@ class AddStrictTypesDeclarationCommand extends Command
 
         // Verifica se il file ha già la dichiarazione strict_types
         $content = File::get($path);
+<<<<<<< HEAD
 
         return ! str_contains($content, 'declare(strict_types=1)');
+=======
+        return !str_contains($content, 'declare(strict_types=1)');
+>>>>>>> ed734516 (.)
     }
 }

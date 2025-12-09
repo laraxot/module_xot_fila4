@@ -686,8 +686,13 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 - [Root Testing Organization](../../../docs/testing-organization.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -841,6 +846,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6a1fe786 (.)
 =======
@@ -848,10 +854,13 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 >>>>>>> 5e58b29b (.)
 =======
+>>>>>>> 1c4bb8cf (.)
+=======
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
 - [Cms Testing Guidelines](../../Cms/project_docs/testing.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -870,6 +879,10 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> b3cc10f7 (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 
 ### Framework Documentation
 - [Xot Framework Architecture](./architecture.md)
@@ -884,6 +897,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 =======
@@ -891,6 +905,8 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 =======
 >>>>>>> 34579462 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 =======
@@ -901,6 +917,7 @@ test('no memory leaks in repeated operations', function (): void {
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -929,6 +946,8 @@ test('no memory leaks in repeated operations', function (): void {
 - [Spatie Laravel Data](https://spatie.be/project_docs/laravel-data)
 >>>>>>> f1d4085 (.)
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 
 ---
 

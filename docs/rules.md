@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,6 +23,10 @@
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 - Esempio pratico: vedi la correzione e il ragionamento in [Azioni Organizzativa (Performance)](../../Performance/docs/azioni_organizzativa.md).
 
 ### Collegamenti
@@ -29,10 +34,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 =======
 - Esempio pratico: vedi la correzione e il ragionamento in [Azioni Organizzativa (Performance)](../../Performance/project_docs/azioni_organizzativa.md).
 
@@ -40,6 +48,7 @@
 - [Azioni Organizzativa (Performance)](../../Performance/project_docs/azioni_organizzativa.md)
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -47,6 +56,10 @@
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 
 ## Regole sui Model
 - Nei moduli, i model devono **sempre** estendere `BaseModel` e **mai** direttamente `Model`.
@@ -54,10 +67,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Evitare duplicazioni di model: vedi la discussione e i rischi nella [documentazione Performance](../../Performance/docs/azioni_organizzativa.md#duplicazione-tra-organizzativatotvalutatore-e-organizzativatotvalutatoreid). 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 1c4bb8cf (.)
 - Evitare duplicazioni di model: vedi la discussione e i rischi nella [documentazione Performance](../../Performance/docs/azioni_organizzativa.md#duplicazione-tra-organizzativatotvalutatore-e-organizzativatotvalutatoreid). 
 =======
 - Evitare duplicazioni di model: vedi la discussione e i rischi nella [documentazione Performance](../../Performance/project_docs/azioni_organizzativa.md#duplicazione-tra-organizzativatotvalutatore-e-organizzativatotvalutatoreid). 
@@ -65,6 +81,7 @@
 =======
 - Evitare duplicazioni di model: vedi la discussione e i rischi nella [documentazione Performance](../../Performance/docs/azioni_organizzativa.md#duplicazione-tra-organizzativatotvalutatore-e-organizzativatotvalutatoreid). 
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 - Evitare duplicazioni di model: vedi la discussione e i rischi nella [documentazione Performance](../../Performance/docs/azioni_organizzativa.md#duplicazione-tra-organizzativatotvalutatore-e-organizzativatotvalutatoreid). 
@@ -75,6 +92,8 @@
 - Evitare duplicazioni di model: vedi la discussione e i rischi nella [documentazione Performance](../../Performance/project_docs/azioni_organizzativa.md#duplicazione-tra-organizzativatotvalutatore-e-organizzativatotvalutatoreid). 
 >>>>>>> f1d4085 (.)
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 
 ## Regole permanenti per Action Filament custom
 
@@ -105,6 +124,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,6 +135,10 @@
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 - Vedi [Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md) per esempio pratico, motivazione e memoria storica.
 - Queste regole sono obbligatorie per tutti i moduli che implementano action custom Filament.
 
@@ -124,10 +148,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 =======
 - Vedi [Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md) per esempio pratico, motivazione e memoria storica.
 - Queste regole sono obbligatorie per tutti i moduli che implementano action custom Filament.
@@ -137,6 +164,7 @@
 - [Indice e collegamenti root](../../../project_docs/links.md)
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -144,11 +172,16 @@
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 
 ## Regole sulle colonne delle tabelle Filament
 - Le colonne delle tabelle Filament devono corrispondere esattamente a quelle del modello e della migrazione.
 - Non inventare mai colonne (es. name, field_name, op, value) se non esistono realmente.
 - Usare sempre i file di traduzione per le label.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,10 +254,13 @@
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 - Vedi [Performance/docs/organizzativa_cat_coeffs.md](../../Performance/docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
 =======
 - Vedi [Performance/project_docs/organizzativa_cat_coeffs.md](../../Performance/project_docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,3 +362,8 @@
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+- Vedi [Performance/docs/organizzativa_cat_coeffs.md](../../Performance/docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)

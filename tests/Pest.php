@@ -3,6 +3,9 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -303,6 +306,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 namespace Modules\Xot\Tests\Pest;
 =======
@@ -434,6 +438,8 @@ namespace Modules\Xot\Tests\Pest;
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 1c4bb8cf (.)
+=======
 namespace Modules\Xot\Tests\Pest;
 
 
@@ -464,8 +470,11 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1169,6 +1178,9 @@ namespace Modules\Xot\Tests\Pest;
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -1339,6 +1351,7 @@ namespace Modules\Xot\Tests\Pest;
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 =======
 >>>>>>> c35986f4 (.)
 =======
@@ -1627,6 +1640,7 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -1882,3 +1896,7 @@ namespace Modules\Xot\Tests\Pest;
 
 >>>>>>> f1d4085 (.)
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)

@@ -44,6 +44,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,6 +125,14 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5e58b29b (.)
+=======
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
+=======
+>>>>>>> f1d4085 (.)
+=======
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 >>>>>>> 5a14301c (.)
 =======
@@ -268,6 +277,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
 =======
@@ -275,6 +285,8 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 =======
 >>>>>>> 34579462 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 - [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
 =======
@@ -285,6 +297,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 - [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -313,6 +326,8 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 - [Lang Console Commands](../Lang/project_docs/phpstan-corrections.md)
 >>>>>>> f1d4085 (.)
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 
 ## Principi di Correzione
 
@@ -339,6 +354,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
 =======
@@ -346,6 +362,8 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 =======
 >>>>>>> 34579462 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 - [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
 =======
@@ -356,6 +374,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 - [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -384,6 +403,8 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 - [Lang PHPStan Corrections](../Lang/project_docs/phpstan-corrections.md)
 >>>>>>> f1d4085 (.)
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 - [Xot Architecture](./architecture.md)
 
 ## Note per Sviluppo Futuro

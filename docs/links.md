@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -127,6 +128,10 @@
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 # Links
 
 ## Documentazione Generale
@@ -401,10 +406,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 =======
 # Collegamenti Documentazione Modulo Xot
 
@@ -414,6 +422,7 @@
 - [Filosofia](../project_docs/filosofia.md) - Principi e filosofia del progetto
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -421,6 +430,10 @@
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 
 ## Documentazione Tecnica
 - [Regole di Progetto](./rules/PROMPT_RULES.md)
@@ -434,6 +447,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -444,6 +458,10 @@
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 - [Cms](../Cms/docs/README.md) - Frontend
 - [UI](../UI/docs/README.md) - Componenti
 - [User](../User/docs/README.md) - Utenti e Permessi
@@ -482,7 +500,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1c4bb8cf (.)
 =======
 - [Cms](../Cms/project_docs/README.md) - Frontend
 - [UI](../UI/project_docs/README.md) - Componenti
@@ -520,7 +541,12 @@
 * [links.md](../../Cms/project_docs/links.md)
 * [links.md](../../../Themes/One/project_docs/links.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

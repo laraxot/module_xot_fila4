@@ -195,7 +195,11 @@ https://curl.se/project_docs/caextract.html
 >>>>>>> 76bec91a (.)
 =======
 Download the latest cacert.pem file from
+<<<<<<< HEAD
 https://curl.se/project_docs/caextract.html
+=======
+https://curl.se/docs/caextract.html
+>>>>>>> 0218cd5 (.)
 
 >>>>>>> cc52d333 (.)
 =======

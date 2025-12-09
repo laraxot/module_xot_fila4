@@ -15,9 +15,14 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $this->resource = new class extends XotBaseResource
     {
         protected static ?string $model = null;
+=======
+    $this->resource = new class extends XotBaseResource {
+        protected static null|string $model = null;
+>>>>>>> 5a14301c (.)
 =======
     $this->resource = new class extends XotBaseResource {
         protected static null|string $model = null;
@@ -35,6 +40,7 @@ beforeEach(function () {
 
         protected static string | \UnitEnum | null $navigationGroup = 'Test Group';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151,6 +157,9 @@ namespace Modules\Xot\Tests\Feature\Filament;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        protected static null|int $navigationSort = 1;
+>>>>>>> 5a14301c (.)
     };
 });
 

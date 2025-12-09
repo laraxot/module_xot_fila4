@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura dei percorsi nel progetto <nome progetto>
 
 ## Regola fondamentale
@@ -23,11 +24,14 @@
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 # Struttura dei percorsi nel progetto 
 
 ## Regola fondamentale
 
 **Tutti i percorsi assoluti nel progetto PTVX DEVONO includere il segmento `laravel/` dopo `base_ptvx_fila3_mono/`.**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -58,11 +62,14 @@
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Struttura dei percorsi nel progetto SaluteOra
 
 ## Regola fondamentale
 
 **Tutti i percorsi assoluti nel progetto SaluteOra DEVONO includere il segmento `laravel/` dopo `base_saluteora/`.**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,12 +138,16 @@
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+**Tutti i percorsi assoluti nel progetto SaluteOra DEVONO includere il segmento `laravel/` dopo `base_techplanner_fila3_mono/`.**
+>>>>>>> 5a14301c (.)
 
 Questa regola è **ASSOLUTA** e non ammette eccezioni.
 
 ## Anatomia di un percorso corretto
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,6 +229,11 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 /var/www/html/base_saluteora/laravel/{componente}/{resto-del-percorso}
 >>>>>>> 43d67f21 (.)
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/{componente}/{resto-del-percorso}
+/var/www/html/base_saluteora/laravel/{componente}/{resto-del-percorso}
+/var/www/html/base_techplanner_fila3_mono/laravel/{componente}/{resto-del-percorso}
+>>>>>>> 5a14301c (.)
                          ↑        ↑
                      progetto  segmento
                     principale OBBLIGATORIO
@@ -243,6 +259,7 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/base_<nome progetto>/laravel/app/Models/User.php
 /var/www/html/base_<nome progetto>/laravel/Modules/Patient/Models/Doctor.php
 /var/www/html/base_<nome progetto>/laravel/Themes/One/resources/views/layouts/app.blade.php
@@ -253,11 +270,14 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 /var/www/html/base_techplanner_fila3_mono/laravel/app/Models/User.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Patient/Models/Doctor.php
 /var/www/html/base_techplanner_fila3_mono/laravel/Themes/One/resources/views/layouts/app.blade.php
 /var/www/html/base_techplanner_fila3_mono/laravel/resources/lang/it/validation.php
 /var/www/html/base_techplanner_fila3_mono/laravel/vendor/laravel/framework/...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -288,11 +308,14 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 /var/www/html/base_saluteora/laravel/app/Models/User.php
 /var/www/html/base_saluteora/laravel/Modules/Patient/Models/Doctor.php
 /var/www/html/base_saluteora/laravel/Themes/One/resources/views/layouts/app.blade.php
 /var/www/html/base_saluteora/laravel/resources/lang/it/validation.php
 /var/www/html/base_saluteora/laravel/vendor/laravel/framework/...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,6 +380,8 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 ```
 
 ### ❌ Percorsi ERRATI
@@ -377,6 +402,7 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/base_<nome progetto>/app/Models/User.php
 /var/www/html/base_<nome progetto>/Modules/Patient/Models/Doctor.php
 /var/www/html/base_<nome progetto>/Themes/One/resources/views/layouts/app.blade.php
@@ -387,11 +413,14 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 /var/www/html/base_techplanner_fila3_mono/app/Models/User.php
 /var/www/html/base_techplanner_fila3_mono/Modules/Patient/Models/Doctor.php
 /var/www/html/base_techplanner_fila3_mono/Themes/One/resources/views/layouts/app.blade.php
 /var/www/html/base_techplanner_fila3_mono/resources/lang/it/validation.php
 /var/www/html/base_techplanner_fila3_mono/vendor/laravel/framework/...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -422,11 +451,14 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 /var/www/html/base_saluteora/app/Models/User.php
 /var/www/html/base_saluteora/Modules/Patient/Models/Doctor.php
 /var/www/html/base_saluteora/Themes/One/resources/views/layouts/app.blade.php
 /var/www/html/base_saluteora/resources/lang/it/validation.php
 /var/www/html/base_saluteora/vendor/laravel/framework/...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,6 +523,8 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 ```
 
 ## Struttura completa del progetto
@@ -511,6 +545,7 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/base_<nome progetto>/
 =======
 /var/www/html/base_techplanner_fila3_mono/
@@ -577,6 +612,11 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 /var/www/html/base_saluteora/
 >>>>>>> 43d67f21 (.)
+=======
+/var/www/html/base_techplanner_fila3_mono/
+/var/www/html/base_saluteora/
+/var/www/html/base_techplanner_fila3_mono/
+>>>>>>> 5a14301c (.)
 ├── .cursor/                            # Configurazioni editor
 ├── .windsurf/                          # Configurazioni di sistema
 ├── docs/                               # Documentazione generale
@@ -639,6 +679,7 @@ Prima di ogni commit, eseguire questi comandi per verificare la presenza di perc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "/var/www/html/base_<nome progetto>/app" --include="*.php" /var/www/html/base_<nome progetto>/laravel
 grep -r "/var/www/html/base_<nome progetto>/Modules" --include="*.php" /var/www/html/base_<nome progetto>/laravel
 grep -r "/var/www/html/base_<nome progetto>/Themes" --include="*.php" /var/www/html/base_<nome progetto>/laravel
@@ -648,10 +689,13 @@ grep -r "/var/www/html/base_<nome progetto>/resources" --include="*.php" /var/ww
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 grep -r "/var/www/html/base_techplanner_fila3_mono/app" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
 grep -r "/var/www/html/base_techplanner_fila3_mono/Modules" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
 grep -r "/var/www/html/base_techplanner_fila3_mono/Themes" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
 grep -r "/var/www/html/base_techplanner_fila3_mono/resources" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -682,10 +726,13 @@ grep -r "/var/www/html/base_techplanner_fila3_mono/resources" --include="*.php" 
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 grep -r "/var/www/html/base_saluteora/app" --include="*.php" /var/www/html/base_saluteora/laravel
 grep -r "/var/www/html/base_saluteora/Modules" --include="*.php" /var/www/html/base_saluteora/laravel
 grep -r "/var/www/html/base_saluteora/Themes" --include="*.php" /var/www/html/base_saluteora/laravel
 grep -r "/var/www/html/base_saluteora/resources" --include="*.php" /var/www/html/base_saluteora/laravel
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -748,6 +795,8 @@ grep -r "/var/www/html/base_<nome progetto>/resources" --include="*.php" /var/ww
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 ```
 
 ## Correzzione automatica (opzionale)
@@ -772,10 +821,13 @@ Se si trovano percorsi errati, è possibile correggerli automaticamente con:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/app|/var/www/html/base_<nome progetto>/laravel/app|g' {} \;
 find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/Modules|/var/www/html/base_<nome progetto>/laravel/Modules|g' {} \;
 find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/Themes|/var/www/html/base_<nome progetto>/laravel/Themes|g' {} \;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -789,6 +841,7 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/app|/var/www/html/base_techplanner_fila3_mono/laravel/app|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Modules|/var/www/html/base_techplanner_fila3_mono/laravel/Modules|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Themes|/var/www/html/base_techplanner_fila3_mono/laravel/Themes|g' {} \;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -876,6 +929,8 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_saluteora/Modules|/var/www/html/base_saluteora/laravel/Modules|g' {} \;
 find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_saluteora/Themes|/var/www/html/base_saluteora/laravel/Themes|g' {} \;
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 ```
 
 ## Riferimenti correlati
@@ -895,10 +950,13 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Struttura del progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/architecture/struttura-progetto.md)
 - [Regole di namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
 - [Autoloading](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/psr4-compliance.md)
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -912,6 +970,7 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 - [Struttura del progetto](../Xot/project_docs/architecture/struttura-progetto.md)
 - [Regole di namespace](../Xot/project_docs/standards/namespace-conventions.md)
 - [Autoloading](../Xot/project_docs/standards/psr4-compliance.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -999,3 +1058,5 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 - [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
 - [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/standards/psr4-compliance.md)
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)

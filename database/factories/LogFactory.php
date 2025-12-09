@@ -11,9 +11,12 @@ use Modules\Xot\Models\Log;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @extends Factory<Log>
  */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -28,7 +31,11 @@ class LogFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @var class-string<Log>
+=======
+     * @var class-string<Model>
+>>>>>>> 5a14301c (.)
 =======
      * @var class-string<Model>
 >>>>>>> 5a14301c (.)

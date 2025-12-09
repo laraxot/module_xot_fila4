@@ -6,7 +6,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -19,6 +22,7 @@ return [
      * | The following language lines are used in Exceptions thrown throughout the system.
      * | Regardless where it is placed, a button can be listed here so it is easily
      * | found in a intuitive way.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,10 +252,13 @@ return [
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
      * |
      * |--------------------------------------------------------------------------
      */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,6 +282,8 @@ return [
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
     'backend' => [
         'access' => [
             'roles' => [

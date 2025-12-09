@@ -63,6 +63,7 @@ I modelli aggregati e di totali (es. `OrganizzativaTotValutatoreId` del modulo P
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
 <<<<<<< HEAD
@@ -133,6 +134,10 @@ Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, document
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
 >>>>>>> 43d67f21 (.)
+=======
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+>>>>>>> 5a14301c (.)
 ## Eccezioni
 
 Non esistono eccezioni a questa regola. Tutti i modelli concreti devono seguirla.
@@ -175,6 +180,9 @@ abstract class BaseModel extends XotBaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -183,6 +191,7 @@ abstract class BaseModel extends XotBaseModel
 - [docs/MODULE_NAMESPACE_RULES.md](../../docs/MODULE_NAMESPACE_RULES.md)
 - [modules/performance/docs/organizzativa-models.md](../Performance/docs/organizzativa-models.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,3 +290,6 @@ abstract class BaseModel extends XotBaseModel
 
 *Ultimo aggiornamento: maggio 2025* 
 >>>>>>> 43d67f21 (.)
+=======
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> 5a14301c (.)

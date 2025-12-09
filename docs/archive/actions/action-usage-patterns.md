@@ -105,6 +105,7 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Service Container](https://laravel.com/docs/container)
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
 <<<<<<< HEAD
@@ -175,6 +176,10 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
 >>>>>>> 43d67f21 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 5a14301c (.)
 - [Spatie QueueableAction](https://github.com/spatie/laravel-queueable-action)
 
 ---
@@ -182,6 +187,7 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 **PRIORITÀ**: CRITICA - Da seguire SEMPRE senza eccezioni
 **AGGIORNATO**: 2025-01-30
 **AUTORE**: Sistema di Qualità Laraxot
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,3 +211,5 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)

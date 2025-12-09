@@ -5,6 +5,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Filament\Pages;
 
 <<<<<<< HEAD
@@ -94,6 +95,9 @@ declare(strict_types=1);
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+
+>>>>>>> 5a14301c (.)
 namespace Modules\Xot\Filament\Pages;
 
 use Filament\Schemas\Schema;
@@ -104,6 +108,9 @@ use Filament\Forms\Get;
 use Filament\Pages\Dashboard as FilamentDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -114,6 +121,7 @@ abstract class XotBaseDashboard extends FilamentDashboard
 {
     use FilamentDashboard\Concerns\HasFiltersForm;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -340,10 +348,14 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+    protected static null|int $navigationSort = 1;
+>>>>>>> 5a14301c (.)
     protected bool $persistsFiltersInSession = true;
 
     final public function filtersForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -416,6 +428,8 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         return $schema->components([
             Section::make()->schema($this->getFiltersFormSchema())->columns(3),
         ]);
@@ -423,6 +437,9 @@ abstract class XotBaseDashboard extends FilamentDashboard
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

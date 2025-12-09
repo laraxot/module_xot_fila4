@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Durante l'audit del sistema <nome progetto>, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
 =======
 Durante l'audit del sistema , è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
@@ -79,6 +80,10 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 =======
 Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
 >>>>>>> 43d67f21 (.)
+=======
+Durante l'audit del sistema , è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
+Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
+>>>>>>> 5a14301c (.)
 
 ## Violazioni Identificate e Corrette
 
@@ -98,6 +103,7 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 **Stato**: ✅ CORRETTA - Cartella eliminata, documentazione spostata nei moduli
 
 **File migrati**:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +133,9 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 =======
 - `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
 >>>>>>> 399f46d3 (.)
+=======
+- `eloquent-unit-tests.md` → `laravel/Modules/SaluteMo/project_docs/testing/`
+>>>>>>> 5a14301c (.)
 - Altri documenti analizzati e spostati nei moduli appropriati
 
 ## Regola Critica Implementata
@@ -203,6 +212,7 @@ laravel/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -219,6 +229,8 @@ laravel/
 =======
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
 │   ├── Notify/docs/           # ✅ Documentazione modulo Notify
 │   ├── User/docs/             # ✅ Documentazione modulo User
 │   ├── UI/docs/               # ✅ Documentazione modulo UI
@@ -233,6 +245,7 @@ laravel/
 │   ├── Job/docs/              # ✅ Documentazione modulo Job
 │   ├── SaluteMo/docs/         # ✅ Documentazione modulo SaluteMo
 │   └── <nome modulo>/docs/    # ✅ Documentazione modulo generico
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,6 +285,8 @@ laravel/
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 │   ├── Notify/project_docs/           # ✅ Documentazione modulo Notify
 │   ├── User/project_docs/             # ✅ Documentazione modulo User
 │   ├── UI/project_docs/               # ✅ Documentazione modulo UI
@@ -284,6 +299,7 @@ laravel/
 │   ├── Lang/project_docs/             # ✅ Documentazione modulo Lang
 │   ├── Activity/project_docs/         # ✅ Documentazione modulo Activity
 │   ├── Job/project_docs/              # ✅ Documentazione modulo Job
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,6 +373,10 @@ laravel/
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+│   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
+│   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
+>>>>>>> 5a14301c (.)
 ├── Themes/
 │   ├── One/project_docs/              # ✅ Documentazione tema One
 │   └── Two/project_docs/              # ✅ Documentazione tema Two
@@ -466,6 +486,7 @@ find laravel/Themes -name "docs" -type d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo Notify](../Notify/project_docs/)
 - [Modulo User](../User/project_docs/)
 - [Modulo UI](../UI/project_docs/)
@@ -487,11 +508,14 @@ find laravel/Themes -name "docs" -type d
 =======
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
 - [Modulo Notify](../Notify/docs/)
 - [Modulo User](../User/docs/)
 - [Modulo UI](../UI/docs/)
 - [Modulo SaluteMo](../SaluteMo/docs/)
 - [Modulo Generico](../<nome modulo>/docs/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -530,6 +554,8 @@ find laravel/Themes -name "docs" -type d
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 - [Modulo Notify](../Notify/project_docs/)
 - [Modulo User](../User/project_docs/)
 - [Modulo UI](../UI/project_docs/)
@@ -549,6 +575,7 @@ find laravel/Themes -name "docs" -type d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -590,6 +617,8 @@ find laravel/Themes -name "docs" -type d
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ### **Documentazione Correlata**:
 - [Regole Modularità](modularity-hardcoded-names.md)

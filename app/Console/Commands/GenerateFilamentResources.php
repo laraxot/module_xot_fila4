@@ -24,6 +24,7 @@ class GenerateFilamentResources extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($moduleName)) {
             $this->error('Il nome del modulo deve essere una stringa.');
 
@@ -60,6 +61,8 @@ class GenerateFilamentResources extends Command
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!is_string($moduleName)) {
             $this->error('Il nome del modulo deve essere una stringa.');
             return Command::FAILURE;
@@ -67,6 +70,7 @@ class GenerateFilamentResources extends Command
 
         $module = Module::find($moduleName);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -178,6 +182,9 @@ class GenerateFilamentResources extends Command
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        if (!$module) {
+>>>>>>> 5a14301c (.)
             $this->error("Il modulo '{$moduleName}' non esiste.");
 
             return Command::FAILURE;
@@ -185,6 +192,7 @@ class GenerateFilamentResources extends Command
 
         $this->info("Generazione delle Filament Resources per il modulo: {$moduleName}");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -311,6 +319,10 @@ class GenerateFilamentResources extends Command
         $modelsPath = $module->getPath() . '/app/Models';
         if (!File::isDirectory($modelsPath)) {
 >>>>>>> ca9324a4 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 5a14301c (.)
             $this->error("Nessuna cartella 'Models' trovata nel modulo {$moduleName}.");
 
             return Command::FAILURE;
@@ -322,6 +334,7 @@ class GenerateFilamentResources extends Command
 
             // Assicuriamoci che $moduleName sia una stringa per strtolower
             $panelName = strtolower($moduleName);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,6 +381,11 @@ class GenerateFilamentResources extends Command
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+            $panel = $panelName . '::admin';
+            $params = [
+                'name' => $modelName,
+>>>>>>> 5a14301c (.)
+=======
             $panel = $panelName . '::admin';
             $params = [
                 'name' => $modelName,

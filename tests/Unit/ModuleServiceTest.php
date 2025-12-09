@@ -13,6 +13,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 uses(TestCase::class);
 
 describe('ModuleService', function () {
@@ -38,6 +39,8 @@ describe('ModuleService', function () {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Tests\TestCase;
 use Modules\Xot\Services\ModuleService;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
@@ -47,6 +50,7 @@ uses(TestCase::class);
 
 describe('ModuleService', function () {
     beforeEach(function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,6 +256,10 @@ describe('ModuleService', function () {
         $this->service = new ModuleService()->setName('TestModule');
     });
 >>>>>>> 5a14301c (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+    });
+>>>>>>> 5a14301c (.)
 
     it('can be instantiated', function () {
         expect($this->service)->toBeInstanceOf(ModuleService::class);
@@ -266,6 +274,7 @@ describe('ModuleService', function () {
     });
 
     it('can be instantiated with different module names', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -499,6 +508,8 @@ describe('ModuleService', function () {
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
 
@@ -566,6 +577,7 @@ describe('ModuleService', function () {
     });
 
     it('handles empty module gracefully', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -749,6 +761,8 @@ describe('ModuleService', function () {
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
@@ -788,6 +802,7 @@ describe('ModuleService', function () {
         $reflection = new ReflectionClass($this->service);
         $methods = $reflection->getMethods();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -847,6 +862,10 @@ describe('ModuleService', function () {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+>>>>>>> 5a14301c (.)
         expect(count($publicMethods))->toBeGreaterThan(0);
     });
 

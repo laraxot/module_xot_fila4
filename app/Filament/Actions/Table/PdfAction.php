@@ -44,6 +44,7 @@ class PdfAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
 =======
             ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
@@ -165,5 +166,8 @@ class PdfAction extends Action
 =======
             ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
 >>>>>>> ca9324a4 (.)
+=======
+            ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
+>>>>>>> 5a14301c (.)
     }
 }

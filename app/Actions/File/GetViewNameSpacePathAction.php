@@ -10,6 +10,10 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
 =======
 use Webmozart\Assert\Assert;
 >>>>>>> 5a14301c (.)
@@ -30,6 +34,7 @@ class GetViewNameSpacePathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $ns  Il namespace della vista
      * @return string|null Il percorso del namespace o null se non trovato
      */
@@ -39,11 +44,14 @@ class GetViewNameSpacePathAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param string $ns Il namespace della vista
      *
      * @return string|null Il percorso del namespace o null se non trovato
      */
     public function execute(string $ns): null|string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,6 +155,8 @@ class GetViewNameSpacePathAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     {
         $xot = XotData::make();
 
@@ -179,6 +189,7 @@ class GetViewNameSpacePathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($theme_name)) {
             return null; // Restituiamo null se il tema non è una stringa
         }
@@ -189,11 +200,14 @@ class GetViewNameSpacePathAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!is_string($theme_name)) {
             return null; // Restituiamo null se il tema non è una stringa
         }
 
         return base_path('Themes/' . $theme_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -297,5 +311,7 @@ class GetViewNameSpacePathAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     }
 }

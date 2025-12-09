@@ -15,6 +15,7 @@ namespace Modules\Xot\Exceptions\Handlers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 use Throwable;
@@ -35,6 +36,11 @@ use Throwable;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+use Throwable;
+use Illuminate\Contracts\Debug\ExceptionHandler;
+use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
+>>>>>>> 5a14301c (.)
+=======
 use Throwable;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;

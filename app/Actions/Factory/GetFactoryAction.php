@@ -16,11 +16,14 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -31,6 +34,9 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -52,10 +58,13 @@ class GetFactoryAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $model_class  the class name of the model
      *
      * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -67,6 +76,9 @@ class GetFactoryAction
      * @return Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -111,7 +123,11 @@ class GetFactoryAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $model_class  The model class name
+=======
+     * @param string $model_class The model class name
+>>>>>>> 5a14301c (.)
 =======
      * @param string $model_class The model class name
 >>>>>>> 5a14301c (.)
@@ -148,7 +164,13 @@ class GetFactoryAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $model_class  The class name of the model to create the factory for
+=======
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+>>>>>>> 5a14301c (.)
 =======
      * @param string $model_class The class name of the model to create the factory for
      *

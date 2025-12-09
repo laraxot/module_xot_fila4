@@ -262,6 +262,7 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Usa il percorso `/var/www/html/base_<nome progetto>/laravel/Modules/NomeModulo/app/Models/` per i modelli
 =======
    - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
@@ -328,4 +329,9 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
 =======
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
 >>>>>>> 43d67f21 (.)
+=======
+   - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
+   - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
+   - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
+>>>>>>> 5a14301c (.)
    - Usa il namespace `Modules\NomeModulo\Models` (senza "app")

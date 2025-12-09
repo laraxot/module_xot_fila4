@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **NON è stato modificato** `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 =======
 **NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
@@ -83,6 +84,11 @@
 =======
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 >>>>>>> 43d67f21 (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
 
 ## Problema Identificato
 

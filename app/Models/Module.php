@@ -16,6 +16,7 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -56,6 +57,9 @@ use Illuminate\Database\Eloquent\Model;
 =======
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Arr;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
@@ -64,6 +68,7 @@ use Sushi\Sushi;
 use function Safe\json_encode;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +101,8 @@ final class Module extends BaseModel
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
  * @property int         $id
  * @property string|null $name
  * @property string|null $description
@@ -121,6 +128,9 @@ final class Module extends BaseModel
 class Module extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -151,7 +161,11 @@ class Module extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! is_array($config)) {
+=======
+            if (!is_array($config)) {
+>>>>>>> 5a14301c (.)
 =======
             if (!is_array($config)) {
 >>>>>>> 5a14301c (.)

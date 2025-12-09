@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ultimo aggiornamento: 2025-01-06
 =======
 <<<<<<< HEAD
@@ -47,11 +48,15 @@
 =======
 # Ultimo aggiornamento: 2025-01-06
 >>>>>>> 43d67f21 (.)
+=======
+# Ultimo aggiornamento: 2025-01-06
+>>>>>>> 5a14301c (.)
 # ==============================================
 
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,11 +102,14 @@ npm-debug.log
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 vendor/
 node_modules/
 package-lock.json
 yarn.lock
 composer.lock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,10 +147,13 @@ docs/vendor/
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 # ==============================================
 # BUILD & COMPILED FILES
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,6 +214,9 @@ storage/*.key
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+/build
+>>>>>>> 5a14301c (.)
 build/
 dist/
 docs/cache/
@@ -211,6 +225,9 @@ cache/
 # ==============================================
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -241,6 +258,7 @@ yarn-error.log*
 lerna-debug.log*
 
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -338,6 +356,10 @@ lerna-debug.log*
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+# LARAVEL SPECIFIC
+# ==============================================
+>>>>>>> 5a14301c (.)
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -373,6 +395,7 @@ build/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
@@ -399,6 +422,8 @@ build/
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -413,6 +438,9 @@ storage/*.key
 # ==============================================
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -428,7 +456,10 @@ Homestead.json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .phpstorm.meta.php
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -440,6 +471,7 @@ Homestead.json
 # GIT SPECIFIC
 # ==============================================
 .git-rewrite/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -477,6 +509,8 @@ Homestead.json
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 .git-blame-ignore-revs
 
 # ==============================================
@@ -492,7 +526,10 @@ Thumbs.db
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.exe
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -520,6 +557,10 @@ Thumbs.db
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.phpstorm.meta.php
+>>>>>>> 5a14301c (.)
 =======
 .phpstorm.meta.php
 >>>>>>> 5a14301c (.)
@@ -537,6 +578,7 @@ docs/phpstan/
 docs/cache/
 
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -579,12 +621,15 @@ resources/lang/
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -627,6 +672,9 @@ database_old/
 =======
 database_old/
 >>>>>>> 5a14301c (.)
+=======
+database_old/
+>>>>>>> 5a14301c (.)
 
 # ==============================================
 # MODULE SPECIFIC - XOT
@@ -639,6 +687,7 @@ database_old/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -666,6 +715,8 @@ database_old/
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 # File di test temporanei
 test.txt
 testbench.yaml
@@ -678,6 +729,7 @@ testbench.yaml
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
@@ -704,10 +756,13 @@ testbench.yaml
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 # File di configurazione locale
 config/local.php
 config/development.php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -751,10 +806,13 @@ testbench.yaml
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Cache specifiche del modulo
 packages/cache/
 packages/temp/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -801,10 +859,13 @@ packages/temp/
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 # ==============================================
 # END OF XOT .GITIGNORE
 # ==============================================
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -839,6 +900,8 @@ packages/temp/
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Database directories
 database/Factories_
 database/Factories_old
@@ -904,6 +967,7 @@ database_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
@@ -1006,3 +1070,8 @@ public_html
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+*.fila2
+laravel
+public_html
+>>>>>>> 5a14301c (.)

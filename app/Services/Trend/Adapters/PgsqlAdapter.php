@@ -25,6 +25,7 @@ namespace Modules\Xot\Services\Trend\Adapters;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -65,6 +66,10 @@ use Override;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+use Override;
+use Error;
+>>>>>>> 5a14301c (.)
+=======
 use Override;
 use Error;
 >>>>>>> 5a14301c (.)

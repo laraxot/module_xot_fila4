@@ -11,6 +11,7 @@ use BackedEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Contracts\Support\Arrayable;
 <<<<<<< HEAD
@@ -96,6 +97,9 @@ use Illuminate\Contracts\Support\Arrayable;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+use Illuminate\Contracts\Support\Arrayable;
+>>>>>>> 5a14301c (.)
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -105,6 +109,7 @@ use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
 use Modules\Lang\Actions\TransArrayAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +126,9 @@ use Modules\Lang\Actions\TransCollectionAction;
 =======
 use Modules\Lang\Actions\TransCollectionAction;
 >>>>>>> 5a14301c (.)
+=======
+use Modules\Lang\Actions\TransCollectionAction;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Actions\Cast\SafeArrayByModelCastAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Webmozart\Assert\Assert;
@@ -130,6 +138,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
     use Exportable;
 
     public Collection $collection;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +236,9 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+    public array $headings;
+>>>>>>> 5a14301c (.)
     public null|string $transKey;
 
     /** @var array<int, string> */
@@ -240,6 +252,9 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
     public function __construct(Collection $collection, null|string $transKey = null, array $fields = [])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -253,6 +268,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 
     public function getHead(): array
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,6 +381,9 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        if (\is_array($this->fields) && !empty($this->fields)) {
+>>>>>>> 5a14301c (.)
             return $this->fields;
         }
 
@@ -372,6 +391,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         Assert::isInstanceOf($head, Model::class);
         $head = array_keys($head->getAttributes());
         return $head;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -518,6 +538,8 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     }
 
     public function headings(): array
@@ -525,6 +547,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         $headings = $this->getHead();
         $transKey = $this->transKey;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -640,6 +663,11 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 
         return $headings;
 >>>>>>> 5a14301c (.)
+=======
+        $headings = app(TransArrayAction::class)->execute($headings, $transKey);
+
+        return $headings;
+>>>>>>> 5a14301c (.)
     }
 
     public function collection(): Collection
@@ -647,6 +675,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         return $this->collection;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -662,6 +691,8 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
     /**
      * @param Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null $item
      */
@@ -673,6 +704,9 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
             $res = Arr::map($res, function ($value, $_key) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -685,7 +719,10 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -697,6 +734,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 
                 return SafeStringCastAction::cast($value);
             });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -712,6 +750,8 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 
             return $res;
         }
@@ -723,6 +763,9 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
             $value = data_get($item, $field);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

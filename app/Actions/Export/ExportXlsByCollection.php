@@ -15,6 +15,7 @@ namespace Modules\Xot\Actions\Export;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Model;
 =======
@@ -56,6 +57,10 @@ use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 >>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\CollectionExport;
@@ -75,6 +80,7 @@ class ExportXlsByCollection
     /**
      * Esporta una collezione in Excel.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,6 +117,8 @@ class ExportXlsByCollection
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $collection La collezione da esportare
      * @param string $filename Nome del file Excel
      * @param string|null $transKey Chiave di traduzione per i campi
@@ -119,6 +127,9 @@ class ExportXlsByCollection
      * @return BinaryFileResponse
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -128,6 +139,7 @@ class ExportXlsByCollection
     public function execute(
         Collection|EloquentCollection $collection,
         string $filename = 'test.xlsx',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,6 +227,8 @@ class ExportXlsByCollection
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         null|string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
@@ -222,6 +236,9 @@ class ExportXlsByCollection
         $stringFields = array_map(fn(mixed $field): string => (string) $field, array_values($fields));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -240,6 +257,7 @@ class ExportXlsByCollection
     /**
      * Esporta una collezione in Excel utilizzando PhpSpreadsheet direttamente.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,12 +293,17 @@ class ExportXlsByCollection
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $rows La collezione da esportare
      * @param array<int, string> $fields Campi da includere nell'export
      * @param string $filename Nome del file Excel
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -298,7 +321,11 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $spreadsheet = new Spreadsheet;
+=======
+        $spreadsheet = new Spreadsheet();
+>>>>>>> 5a14301c (.)
 =======
         $spreadsheet = new Spreadsheet();
 >>>>>>> 5a14301c (.)
@@ -325,8 +352,13 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Worksheet  $sheet  Il foglio Excel
      * @param  array<int, string>  $fields  I campi da utilizzare come intestazioni
+=======
+     * @param Worksheet $sheet Il foglio Excel
+     * @param array<int, string> $fields I campi da utilizzare come intestazioni
+>>>>>>> 5a14301c (.)
 =======
      * @param Worksheet $sheet Il foglio Excel
      * @param array<int, string> $fields I campi da utilizzare come intestazioni
@@ -353,9 +385,15 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Worksheet  $sheet  Il foglio di lavoro
      * @param  Collection<int|string, mixed>  $rows  I dati da scrivere
      * @param  array<int, string>  $fields  I campi da utilizzare per le colonne
+=======
+     * @param Worksheet $sheet Il foglio di lavoro
+     * @param Collection<int|string, mixed> $rows I dati da scrivere
+     * @param array<int, string> $fields I campi da utilizzare per le colonne
+>>>>>>> 5a14301c (.)
 =======
      * @param Worksheet $sheet Il foglio di lavoro
      * @param Collection<int|string, mixed> $rows I dati da scrivere
@@ -390,8 +428,14 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $data  I dati da cui estrarre il valore
      * @param  string  $field  Il campo da estrarre
+=======
+     * @param mixed $data I dati da cui estrarre il valore
+     * @param string $field Il campo da estrarre
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param mixed $data I dati da cui estrarre il valore
      * @param string $field Il campo da estrarre
@@ -418,6 +462,7 @@ class ExportXlsByCollection
     /**
      * Converte EloquentCollection in Support\Collection mantenendo i dati.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -479,6 +524,9 @@ class ExportXlsByCollection
 =======
      * @param EloquentCollection<int, Model> $eloquentCollection
 >>>>>>> ca9324a4 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 5a14301c (.)
      * @return Collection<int|string, mixed>
      */
     protected function convertToSupportCollection(EloquentCollection $eloquentCollection): Collection

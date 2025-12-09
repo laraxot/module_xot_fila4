@@ -131,6 +131,7 @@ public function processData(array $data): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **🏆 STATUS**: PERFETTO - PHPStan level 10 CLEAN  
 =======
 **🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN  
@@ -153,4 +154,7 @@ public function processData(array $data): void
 =======
 **🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN  
 >>>>>>> 399f46d3 (.)
+=======
+**🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN  
+>>>>>>> 5a14301c (.)
 **📊 QUALITÀ CODICE**: Maximum Type Safety Achieved

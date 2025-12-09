@@ -8,8 +8,13 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use InvalidArgumentException;
+=======
+use InvalidArgumentException;
+use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
+>>>>>>> 5a14301c (.)
 =======
 use InvalidArgumentException;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
@@ -29,6 +34,7 @@ class PhoneCast implements CastsAttributes
     /**
      * Cast the given value.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +128,8 @@ class PhoneCast implements CastsAttributes
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param mixed $_model The Eloquent model instance
      * @param string $_key The attribute key
      * @param mixed $value The raw value from database
@@ -131,6 +139,7 @@ class PhoneCast implements CastsAttributes
     {
         if (!is_string($value)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +285,8 @@ class PhoneCast implements CastsAttributes
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         }
 
         return PhoneValueObject::fromString($value);
@@ -284,6 +295,7 @@ class PhoneCast implements CastsAttributes
     /**
      * Prepare the given value for storage.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -376,6 +388,8 @@ class PhoneCast implements CastsAttributes
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param mixed $_model The Eloquent model instance
      * @param string $_key The attribute key
      * @param mixed $value The value to be stored
@@ -384,6 +398,7 @@ class PhoneCast implements CastsAttributes
     public function set($_model, string $_key, mixed $value, array $_attributes): string
     {
         if (!($value instanceof PhoneValueObject)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,6 +488,8 @@ class PhoneCast implements CastsAttributes
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             throw new InvalidArgumentException('The given value is not an Phone instance.');
         }
 

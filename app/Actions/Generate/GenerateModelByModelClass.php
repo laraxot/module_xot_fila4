@@ -41,6 +41,7 @@ class GenerateModelByModelClass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $model_class  the class name of the model
 =======
      * @param string $model_class the class name of the model
@@ -214,6 +215,11 @@ class GenerateModelByModelClass
      *
      * @return string
 >>>>>>> ca9324a4 (.)
+=======
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
      */
     public function execute(string $model_class): string
     {
@@ -228,6 +234,7 @@ class GenerateModelByModelClass
         $content_old = File::get($filename);
         $content = $content_old;
         foreach ($this->replaces as $k => $v) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,10 +326,15 @@ class GenerateModelByModelClass
             if (method_exists($this, 'replace' . $k)) {
                 $content = $this->{'replace' . $k}($v, $content);
 >>>>>>> 5a14301c (.)
+=======
+            if (method_exists($this, 'replace' . $k)) {
+                $content = $this->{'replace' . $k}($v, $content);
+>>>>>>> 5a14301c (.)
             }
 
             // $content=$this->replace($content,$k,$v);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -488,6 +500,11 @@ class GenerateModelByModelClass
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        $content = str_replace(' extends Model', ' extends BaseModel', $content);
+        $content = str_replace('use HasFactory;', '', $content);
+        Assert::string($content, '[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 5a14301c (.)
 
         if ($content !== $content_old) {
             File::put($filename, $content);
@@ -504,6 +521,7 @@ class GenerateModelByModelClass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename($this).']',
         );
         $fillable_end = mb_strpos($content, '];', $fillable_start);
@@ -512,6 +530,8 @@ class GenerateModelByModelClass
             $after = mb_substr($content, $fillable_end + 2);
             $content = $before.PHP_EOL.'    protected $table = "'.$value.'";'.PHP_EOL.$after;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -543,6 +563,7 @@ class GenerateModelByModelClass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -645,6 +666,8 @@ class GenerateModelByModelClass
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         }
 
         return $content;
@@ -653,6 +676,7 @@ class GenerateModelByModelClass
     /**
      * Create a factory for the given model class.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -847,6 +871,11 @@ class GenerateModelByModelClass
      *
      * @return void
 >>>>>>> ca9324a4 (.)
+=======
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+>>>>>>> 5a14301c (.)
      */
     public function generate(string $model_class): void
     {

@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## stato analisi phpstan
 
 - **data**: 2025-11-12  
@@ -21,10 +22,13 @@
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 # PHPStan Analysis Report - 18 Agosto 2025
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,6 +75,11 @@
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
 
 ## Analisi Completa
 
@@ -261,6 +270,7 @@ class MyModel extends BaseModel
 **Approccio**: DRY + KISS + Type Safety
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -274,3 +284,5 @@ class MyModel extends BaseModel
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)

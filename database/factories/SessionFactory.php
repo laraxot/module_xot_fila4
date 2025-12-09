@@ -11,9 +11,12 @@ use Modules\Xot\Models\Session;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @extends Factory<Session>
  */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -28,7 +31,11 @@ class SessionFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @var class-string<Session>
+=======
+     * @var class-string<Model>
+>>>>>>> 5a14301c (.)
 =======
      * @var class-string<Model>
 >>>>>>> 5a14301c (.)

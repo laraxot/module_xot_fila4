@@ -227,6 +227,7 @@ Quando si fa riferimento a concetti o classi in altri moduli, utilizzare collega
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,6 +290,9 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/p
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+>>>>>>> 5a14301c (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
 ```
 
@@ -306,6 +310,7 @@ Alcuni argomenti comuni a più moduli dovrebbero essere documentati nel modulo X
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,6 +373,9 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+>>>>>>> 5a14301c (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
 ```
 
@@ -434,6 +442,7 @@ Per implementare queste linee guida:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -449,3 +458,5 @@ Per implementare queste linee guida:
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)

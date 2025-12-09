@@ -11,6 +11,7 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Filament\Forms\Components\DatePicker;
 <<<<<<< HEAD
@@ -63,12 +64,18 @@ class Dashboard extends XotBaseDashboard
 use Filament\Forms\Components\DatePicker;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
+=======
+use Filament\Forms\Components\DatePicker;
+use Filament\Forms\Components\Section;
+use Filament\Forms\Form;
+>>>>>>> 5a14301c (.)
 use Filament\Forms\Get;
 use Filament\Pages\Dashboard as BaseBashboard;
 use Filament\Pages\Dashboard\Concerns\HasFiltersForm;
 use Filament\Widgets\Widget;
 use Filament\Widgets\WidgetConfiguration;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
@@ -118,6 +125,10 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+class Dashboard extends XotBaseDashboard
+{
+>>>>>>> 5a14301c (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -132,6 +143,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -171,4 +183,6 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 }

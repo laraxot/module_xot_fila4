@@ -10,7 +10,10 @@ use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Symfony\Component\VarExporter\VarExporter;
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -22,6 +25,7 @@ class SavePhpArrayAction
 
     public function execute(array $data, string $filename): bool
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $exported = VarExporter::export($data);
@@ -46,6 +50,9 @@ class SavePhpArrayAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        $content = "<?php\n\nreturn " . var_export($data, true) . ";\n";
+>>>>>>> 5a14301c (.)
         return (bool) file_put_contents($filename, $content);
     }
 }

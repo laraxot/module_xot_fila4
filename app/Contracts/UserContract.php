@@ -32,6 +32,7 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\Team;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -141,6 +142,8 @@ use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
 =======
 >>>>>>> e59778ae (.)
+=======
+>>>>>>> 5a14301c (.)
 use Filament\Support\Contracts\HasLabel;
 use Spatie\Permission\Contracts\Permission;
 use Override;
@@ -150,6 +153,7 @@ use Illuminate\Support\Collection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ca9324a4 (.)
 use BackedEnum;
@@ -226,6 +230,11 @@ use BackedEnum;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
 >>>>>>> 5842a556 (.)
+=======
+use BackedEnum;
+use Modules\User\Models\Tenant;
+use Filament\Models\Contracts\FilamentUser;
+>>>>>>> 5a14301c (.)
 use Illuminate\Contracts\Auth\Access\Authorizable;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\CanResetPassword;
@@ -234,6 +243,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -428,6 +438,17 @@ use Spatie\Permission\Contracts\Role;
 use Spatie\Permission\Exceptions\GuardDoesNotMatch;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 >>>>>>> 43d67f21 (.)
+=======
+use Laravel\Passport\Token;
+use Modules\User\Contracts\HasTeamsContract;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\MediaCollections\FileAdder;
+use Spatie\Permission\Contracts\Role;
+use Spatie\Permission\Exceptions\GuardDoesNotMatch;
+use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+use Spatie\Permission\Exceptions\RoleAlreadyExists;
+use Spatie\Permission\Exceptions\RoleDoesNotExist;
+>>>>>>> 5a14301c (.)
 
 // use Filament\Models\Contracts\HasTenants;
 /**
@@ -449,6 +470,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property ProfileContract|null $profile
 =======
 <<<<<<< HEAD
@@ -626,6 +648,23 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 =======
  * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
 >>>>>>> 5842a556 (.)
+=======
+ * @property ProfileContract|null                                                       $profile
+ * @property string $id
+ * @property string $handle
+ * @property string|null                                                                $first_name
+ * @property string|null                                                                $last_name
+ * @property string|null                                                                $full_name
+ * @property BackedEnum&HasLabel $type
+ * @property string|null                                                                $password
+ * @property string|int|null                                                            $current_team_id
+ * @property string|null                                                                $phone
+ * @property string|null                                                                $email
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role>   $roles
+ * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
+ *
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5a14301c (.)
  * @method bool canAccessSocialite()
  *
  * @phpstan-require-extends Model
@@ -651,6 +690,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -710,6 +750,8 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
 interface UserContract extends
     Authenticatable,
     Authorizable,
@@ -720,6 +762,7 @@ interface UserContract extends
     MustVerifyEmail,
     PassportHasApiTokensContract,
     HasMedia
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -828,6 +871,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
 {
     /*
      * public function isSuperAdmin();
@@ -841,12 +886,15 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Determine if the model has (one of) the given role(s).
      */
     public function hasRole(
         string|int|array|UserRole|Collection $roles,
         ?string $guard = null,
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -874,6 +922,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $key
 =======
 <<<<<<< HEAD
@@ -950,6 +999,10 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
      * @param  string  $key
 >>>>>>> 5842a556 (.)
+=======
+     * @param string $key
+     *
+>>>>>>> 5a14301c (.)
      * @return mixed|null
      */
     public function getRelationValue($key);
@@ -973,6 +1026,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array  $attributes
      * @param  bool  $exists
 =======
@@ -1066,6 +1120,11 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * @param  array  $attributes
      * @param  bool  $exists
 >>>>>>> 5842a556 (.)
+=======
+     * @param array $attributes
+     * @param bool  $exists
+     *
+>>>>>>> 5a14301c (.)
      * @return static
      */
     public function newInstance($attributes = [], $exists = false);
@@ -1100,6 +1159,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         null|string $guard = null,
 >>>>>>> 5a14301c (.)
 =======
@@ -1172,6 +1232,9 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
         ?string $guard = null,
 >>>>>>> 5842a556 (.)
+=======
+        null|string $guard = null,
+>>>>>>> 5a14301c (.)
     ): bool;
 
     /**
@@ -1179,6 +1242,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @return $this
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1240,6 +1304,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     public function assignRole(array|string|int|Role|Collection $roles = []);
 
     /**
@@ -1263,6 +1329,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string|int|Role|BackedEnum  $role
 =======
 <<<<<<< HEAD
@@ -1362,6 +1429,10 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
      * @param  string|int|Role|BackedEnum  $role
 >>>>>>> 5842a556 (.)
+=======
+     * @param string|int|Role|BackedEnum $role
+     *
+>>>>>>> 5a14301c (.)
      * @return self
      */
     public function removeRole($role);
@@ -1377,6 +1448,9 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * A model may have multiple roles.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -1386,6 +1460,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     public function roles(): BelongsToMany;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1427,6 +1502,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * Get all of the tenants the user belongs to.
      */
     public function tenants(): BelongsToMany;
@@ -1450,6 +1527,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1688,4 +1766,17 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
 >>>>>>> 5842a556 (.)
+=======
+     *
+     */
+    //public function consents(): MorphMany;
+    /**
+     * Determine if the role may perform the given permission.
+     *
+     * @param string|int|Permission|BackedEnum $permission
+     *
+     * @throws PermissionDoesNotExist|GuardDoesNotMatch
+     */
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+>>>>>>> 5a14301c (.)
 }

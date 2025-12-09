@@ -121,6 +121,9 @@ Per la versione dark:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -130,6 +133,7 @@ Per la versione dark:
 - [Struttura dei Moduli in il progetto](../../../docs/struttura-moduli.md)
 - [Architettura Folio + Volt in il progetto](../../../docs/architettura-folio-volt.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,10 +218,13 @@ Per la versione dark:
 - [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
 
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 ---
 
 ### Nota Importante
 Questo documento è parte della documentazione generale del modulo Xot e descrive un meccanismo riutilizzabile in diversi progetti. La documentazione nei moduli è generica e riutilizzabile, mentre le informazioni specifiche del progetto si trovano nella documentazione nella root del progetto.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,3 +248,5 @@ Questo documento è parte della documentazione generale del modulo Xot e descriv
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)

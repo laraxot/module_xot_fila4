@@ -27,8 +27,14 @@ class GetMethodBodyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return implode('', \array_slice($source, $start_line, $length));
+=======
+        $body = implode('', \array_slice($source, $start_line, $length));
+
+        return $body;
+>>>>>>> 5a14301c (.)
 =======
         $body = implode('', \array_slice($source, $start_line, $length));
 

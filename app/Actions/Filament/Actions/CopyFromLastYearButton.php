@@ -33,6 +33,7 @@ class CopyFromLastYearButton
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $modelClass, string $fieldName, ?string $year): Action
 =======
 =======
@@ -123,11 +124,15 @@ class CopyFromLastYearButton
 =======
     public function execute(string $modelClass, string $fieldName, null|string $year): Action
 >>>>>>> 5a14301c (.)
+=======
+    public function execute(string $modelClass, string $fieldName, null|string $year): Action
+>>>>>>> 5a14301c (.)
     {
         return Action::make('copy_from_last_year')
             ->tooltip('copy from last year')
             ->icon('heroicon-o-document-duplicate')
             ->visible(null !== $year)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             ->action(static fn () => app(CopyFromLastYearAction::class)->execute($modelClass, $fieldName, $year));
@@ -266,5 +271,8 @@ class CopyFromLastYearButton
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+            ->action(static fn() => app(CopyFromLastYearAction::class)->execute($modelClass, $fieldName, $year));
+>>>>>>> 5a14301c (.)
     }
 }

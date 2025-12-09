@@ -20,7 +20,11 @@ class GetYearFilter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for ($curr = $from; $curr <= $to; $curr++) {
+=======
+        for ($curr = $from; $curr <= $to; ++$curr) {
+>>>>>>> 5a14301c (.)
 =======
         for ($curr = $from; $curr <= $to; ++$curr) {
 >>>>>>> 5a14301c (.)

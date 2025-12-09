@@ -12,9 +12,12 @@ use Filament\Actions\Action;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Set;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -28,6 +31,9 @@ use Modules\Xot\Actions\GetTransKeyAction;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -42,6 +48,7 @@ class FieldRefreshAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
@@ -52,12 +59,17 @@ class FieldRefreshAction extends Action
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
             ->action(function ($state, Set $set, $record) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -68,6 +80,7 @@ class FieldRefreshAction extends Action
                     return;
                 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +102,8 @@ class FieldRefreshAction extends Action
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
                 $method = 'get' . Str::studly($name) . '';
                 $value = $record->$method();
                 $set($name, $value);
@@ -97,6 +112,9 @@ class FieldRefreshAction extends Action
                     ->body('vecchio valore: ' . $state . ' nuovo valore: ' . $value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -110,7 +128,11 @@ class FieldRefreshAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
 =======
     public static function getDefaultName(): null|string
 >>>>>>> 5a14301c (.)

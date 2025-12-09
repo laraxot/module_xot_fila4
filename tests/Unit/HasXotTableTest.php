@@ -7,6 +7,7 @@ namespace Modules\Xot\Tests\Unit;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Tables\Table;
 use Mockery;
 use Modules\Xot\Tests\Unit\Support\DummyTestModel;
@@ -18,12 +19,15 @@ use Tests\TestCase;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 use Tests\TestCase;
 use Mockery;
 use Filament\Tables\Table;
 use Modules\Xot\Tests\Unit\Support\DummyTestModel;
 use Modules\Xot\Tests\Unit\Support\HasTableWithoutOptionalMethodsTestClass;
 use Modules\Xot\Tests\Unit\Support\HasTableWithXotTestClass;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,6 +119,8 @@ use Illuminate\Support\Collection;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 uses(TestCase::class);
 

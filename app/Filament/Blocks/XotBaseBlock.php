@@ -20,6 +20,7 @@ namespace Modules\Xot\Filament\Blocks;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
 use Filament\Schemas\Components\Component;
@@ -79,6 +80,11 @@ use Filament\Schemas\Components\Component;
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
 >>>>>>> 5a14301c (.)
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Forms\Components\Builder\Block;
+use Filament\Forms\Components\Select;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 
@@ -88,6 +94,7 @@ abstract class XotBaseBlock
 
     public static function make(string $name = 'article_list', string $context = 'form'): Block
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,12 +115,15 @@ abstract class XotBaseBlock
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         /**
          * @var array<Component>
          */
         $schema = array_merge(static::getBlockSchema(), static::getBlockVarSchema());
 
         return Block::make($name)->schema($schema)->columns('form' === $context ? 3 : 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,6 +247,8 @@ abstract class XotBaseBlock
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     }
 
     /**
@@ -257,6 +269,7 @@ abstract class XotBaseBlock
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -288,6 +301,8 @@ abstract class XotBaseBlock
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
      * @return array<Component>
      */
     public static function getBlockSchema(): array
@@ -296,6 +311,7 @@ abstract class XotBaseBlock
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,6 +384,10 @@ abstract class XotBaseBlock
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+     * Undocumented function.
+     *
+>>>>>>> 5a14301c (.)
      * @return array<Component>
      */
     public static function getBlockVarSchema(): array

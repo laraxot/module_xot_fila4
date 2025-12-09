@@ -25,11 +25,14 @@ class ExportXlsStreamByLazyCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  LazyCollection  $data  I dati da esportare
      * @param  string  $filename  Nome del file CSV
      * @param  string|null  $transKey  Chiave di traduzione per le intestazioni
      * @param  array<string>|null  $_fields  Campi da includere nell'export (attualmente non utilizzato)
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -42,6 +45,9 @@ class ExportXlsStreamByLazyCollection
      * @return StreamedResponse
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -51,6 +57,7 @@ class ExportXlsStreamByLazyCollection
     public function execute(
         LazyCollection $data,
         string $filename = 'test.csv',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,6 +125,8 @@ class ExportXlsStreamByLazyCollection
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         null|string $transKey = null,
         null|array $_fields = null,
     ): StreamedResponse {
@@ -125,6 +134,9 @@ class ExportXlsStreamByLazyCollection
             'Content-Disposition' => 'attachment; filename=' . $filename,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -157,6 +169,7 @@ class ExportXlsStreamByLazyCollection
                     // Convertiamo tutti i valori in stringhe o null
                     $safeRowData = array_map(function ($item) {
                         if ($item === null) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,6 +242,10 @@ class ExportXlsStreamByLazyCollection
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+                            return null;
+                        }
+>>>>>>> 5a14301c (.)
                         return is_string($item) ? $item : ((string) $item);
                     }, $rowData);
 
@@ -254,6 +271,7 @@ class ExportXlsStreamByLazyCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  LazyCollection  $data  I dati da cui estrarre le intestazioni
      * @param  string|null  $transKey  Chiave di traduzione per le intestazioni
      * @return array<string>
@@ -263,6 +281,8 @@ class ExportXlsStreamByLazyCollection
         $first = $data->first();
         if (! is_array($first) && (! is_object($first) || ! method_exists($first, 'toArray'))) {
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -278,6 +298,9 @@ class ExportXlsStreamByLazyCollection
         if (!is_array($first) && (!is_object($first) || !method_exists($first, 'toArray'))) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -294,6 +317,7 @@ class ExportXlsStreamByLazyCollection
          */
         $headings = collect($headArray)->keys();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,6 +342,11 @@ class ExportXlsStreamByLazyCollection
             $headings = $headings->map(static function (string $item) use ($transKey) {
                 $key = $transKey . '.fields.' . $item;
 >>>>>>> 5a14301c (.)
+=======
+        if (null !== $transKey) {
+            $headings = $headings->map(static function (string $item) use ($transKey) {
+                $key = $transKey . '.fields.' . $item;
+>>>>>>> 5a14301c (.)
                 $trans = trans($key);
                 if ($trans !== $key) {
                     return $trans;
@@ -326,8 +355,13 @@ class ExportXlsStreamByLazyCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Assert::string($item1 = Str::replace('.', '_', $item), '['.__LINE__.']['.self::class.']');
                 $key = $transKey.'.fields.'.$item1;
+=======
+                Assert::string($item1 = Str::replace('.', '_', $item), '[' . __LINE__ . '][' . __CLASS__ . ']');
+                $key = $transKey . '.fields.' . $item1;
+>>>>>>> 5a14301c (.)
 =======
                 Assert::string($item1 = Str::replace('.', '_', $item), '[' . __LINE__ . '][' . __CLASS__ . ']');
                 $key = $transKey . '.fields.' . $item1;

@@ -76,6 +76,7 @@ class Article extends Model implements ModelWithUserContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
@@ -98,4 +99,7 @@ class Article extends Model implements ModelWithUserContract
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> 399f46d3 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 5a14301c (.)
 - [Contracts Overview](./README.md) 

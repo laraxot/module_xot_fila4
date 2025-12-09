@@ -18,8 +18,11 @@ class RelationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @param  array<string, mixed>  $data
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -45,6 +48,7 @@ class RelationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $relationClass = $relation::class;
             $relationshipType = class_basename($relationClass);
 
@@ -54,10 +58,13 @@ class RelationAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
 
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,6 +170,8 @@ class RelationAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             Assert::object($action = app($actionClass));
 
             if (method_exists($action, 'execute')) {

@@ -13,7 +13,10 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -28,10 +31,13 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spipu\Html2Pdf\Exception\HtmlParsingException;
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -43,9 +49,12 @@ use Spatie\LaravelPdf\Facades\Pdf;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -127,6 +136,7 @@ class PdfData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 try {
                     $html2pdf = new Html2Pdf($this->orientation, $this->format, $this->lang);
                     $html2pdf->writeHTML($html);
@@ -153,6 +163,8 @@ class PdfData extends Data
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
                 $html2pdf = new Html2Pdf($this->orientation, $this->format, $this->lang);
                 $html2pdf->writeHTML($html);
                 $html2pdf->output($this->getPath(), $this->dest);
@@ -172,6 +184,9 @@ class PdfData extends Data
              */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -193,6 +208,7 @@ class PdfData extends Data
         /**
          * @var non-falsy-string&view-string
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +311,9 @@ class PdfData extends Data
 =======
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
 >>>>>>> ca9324a4 (.)
+=======
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+>>>>>>> 5a14301c (.)
         $view_params = [
             'view' => $view_name,
             'row' => $model,
@@ -313,6 +332,7 @@ class PdfData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename($this).']',
 =======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
@@ -326,11 +346,15 @@ class PdfData extends Data
 =======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 5a14301c (.)
         );
 
         return $res;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -404,6 +428,8 @@ class PdfData extends Data
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     public function view(string $view, array $params = []): self
     {
         if (!view()->exists($view)) {
@@ -413,6 +439,9 @@ class PdfData extends Data
         $this->html = $out->render();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -427,7 +456,10 @@ class PdfData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

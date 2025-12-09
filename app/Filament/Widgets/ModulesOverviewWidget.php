@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\Widget;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
@@ -14,6 +15,8 @@ use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 use ReflectionMethod;
 use Throwable;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -27,6 +30,9 @@ use Illuminate\Support\Str;
 use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -44,7 +50,12 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected int|string|array $columnSpan = 'full';
+=======
+    protected int | string | array $columnSpan = 'full';
+
+>>>>>>> 5a14301c (.)
 =======
     protected int | string | array $columnSpan = 'full';
 
@@ -80,11 +91,14 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (! $user) {
                     return false;
                 }
                 if (! method_exists($user, 'hasRole')) {
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -95,6 +109,9 @@ class ModulesOverviewWidget extends Widget
                 if (!method_exists($user, 'hasRole')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -108,7 +125,10 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -125,7 +145,11 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $role = $cfg['module_low'].'::admin';
+=======
+                $role = $cfg['module_low'] . '::admin';
+>>>>>>> 5a14301c (.)
 =======
                 $role = $cfg['module_low'] . '::admin';
 >>>>>>> 5a14301c (.)
@@ -145,7 +169,11 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'url' => '/'.$cfg['module_low'].'/admin',
+=======
+                    'url' => '/' . $cfg['module_low'] . '/admin',
+>>>>>>> 5a14301c (.)
 =======
                     'url' => '/' . $cfg['module_low'] . '/admin',
 >>>>>>> 5a14301c (.)
@@ -162,6 +190,7 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             return $modules;
         } catch (Throwable $e) {
@@ -172,12 +201,17 @@ class ModulesOverviewWidget extends Widget
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
             
             return $modules;
         } catch (Throwable $e) {
             Log::error('Errore nel caricamento moduli per widget: ' . $e->getMessage());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -191,6 +225,7 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Determina se il widget deve essere visibile.
      */
     public static function canView(): bool
@@ -199,6 +234,8 @@ class ModulesOverviewWidget extends Widget
     }
 
     /**
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -223,12 +260,15 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name' => '<main module>',
                 'name_lower' => '<nome progetto>',
                 'url' => '/<nome progetto>/admin',
                 'icon' => 'heroicon-o-clipboard-document-list',
                 'description' => $this->getModuleDescription('<main module>'),
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -240,6 +280,9 @@ class ModulesOverviewWidget extends Widget
                 'description' => $this->getModuleDescription('TechPlanner'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -252,11 +295,14 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * Ottiene la descrizione per un modulo.
      *
      * @param  string  $module  Nome del modulo
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -268,6 +314,9 @@ class ModulesOverviewWidget extends Widget
      * @param string $module Nome del modulo
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -282,7 +331,11 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '<main module>' => 'Pianificazione tecnica e progetti',
+=======
+            'TechPlanner' => 'Pianificazione tecnica e progetti',
+>>>>>>> 5a14301c (.)
 =======
             'TechPlanner' => 'Pianificazione tecnica e progetti',
 >>>>>>> 5a14301c (.)
@@ -305,9 +358,12 @@ class ModulesOverviewWidget extends Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $descriptions[$module] ?? 'Modulo '.$module;
     }
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -325,6 +381,9 @@ class ModulesOverviewWidget extends Widget
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

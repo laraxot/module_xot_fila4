@@ -92,6 +92,7 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
@@ -114,4 +115,7 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 =======
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> 71f31700 (.)
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 5a14301c (.)
 - [Handlers Overview](./README.md) 

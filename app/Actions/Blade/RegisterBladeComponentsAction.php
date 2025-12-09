@@ -36,6 +36,7 @@ class RegisterBladeComponentsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $comps = app(GetComponentsAction::class)->execute($path, $namespace.'\View\Components', $prefix);
 
         if ($comps->count() === 0) {
@@ -90,10 +91,16 @@ class RegisterBladeComponentsAction
 
         if (0 === $comps->count()) {
 >>>>>>> 5a14301c (.)
+=======
+        $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\View\Components', $prefix);
+
+        if (0 === $comps->count()) {
+>>>>>>> 5a14301c (.)
             return;
         }
 
         foreach ($comps->items() as $comp) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +234,9 @@ class RegisterBladeComponentsAction
 =======
             if (!($comp instanceof ComponentFileData)) {
 >>>>>>> ca9324a4 (.)
+=======
+            if (!($comp instanceof ComponentFileData)) {
+>>>>>>> 5a14301c (.)
                 continue;
             }
             Blade::component($comp->name, $comp->ns);

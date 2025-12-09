@@ -28,7 +28,13 @@ abstract class XotBaseEventServiceProvider extends BaseEventServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function configureEmailVerification(): void {}
+=======
+    protected function configureEmailVerification(): void
+    {
+    }
+>>>>>>> 5a14301c (.)
 =======
     protected function configureEmailVerification(): void
     {

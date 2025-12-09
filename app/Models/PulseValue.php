@@ -12,9 +12,12 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property string $id
  * @property int $timestamp
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -29,6 +32,9 @@ use Illuminate\Database\Eloquent\Builder;
  * @property int         $timestamp
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -38,6 +44,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $key
  * @property string|null $key_hash
  * @property string $value
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +103,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
  * @method static Builder|PulseValue whereId($value)
  * @method static Builder|PulseValue whereKey($value)
  * @method static Builder|PulseValue whereKeyHash($value)
@@ -105,6 +114,9 @@ use Illuminate\Database\Eloquent\Builder;
  * @mixin IdeHelperPulseValue
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

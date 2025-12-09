@@ -87,6 +87,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # options: dev, prod
 npm run dev
 ```
@@ -142,6 +143,8 @@ npm run dev
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 # options: dev, prod
 npm run dev
 ```
@@ -149,6 +152,7 @@ npm run dev
 # options: dev, prod
 npm run dev
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -165,6 +169,8 @@ npm run dev
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ### Versione HEAD
 
@@ -189,6 +195,7 @@ npm run dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -205,3 +212,5 @@ npm run dev
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)

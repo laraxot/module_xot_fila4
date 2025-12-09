@@ -31,6 +31,7 @@ ignoreErrors:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Moduli Interessati**: <nome progetto>, Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
@@ -40,10 +41,13 @@ ignoreErrors:
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 **Moduli Interessati**: , Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
 - [Modulo Generico - PHPStan Relationship Covariance Fix](../<nome modulo>/docs/phpstan-relationship-covariance-fix.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -74,10 +78,13 @@ ignoreErrors:
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 **Moduli Interessati**: SaluteOra, Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
 - [SaluteOra - PHPStan Relationship Covariance Fix](../SaluteOra/project_docs/phpstan-relationship-covariance-fix.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,6 +147,8 @@ ignoreErrors:
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ### 2. Cast da Mixed
 

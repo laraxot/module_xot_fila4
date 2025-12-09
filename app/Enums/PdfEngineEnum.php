@@ -7,6 +7,7 @@ namespace Modules\Xot\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Modules\Xot\Datas\PdfData;
 =======
 //use Modules\Xot\Datas\PdfData;
@@ -71,6 +72,9 @@ namespace Modules\Xot\Enums;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+//use Modules\Xot\Datas\PdfData;
+>>>>>>> 5a14301c (.)
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;

@@ -15,6 +15,7 @@ namespace Modules\Xot\Actions\Query;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use InvalidArgumentException;
@@ -41,6 +42,8 @@ use Throwable;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use InvalidArgumentException;
 use Throwable;
 use Illuminate\Support\Facades\DB;
@@ -48,6 +51,9 @@ use Illuminate\Support\Facades\Schema;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -65,6 +71,7 @@ final class GetFieldnamesByTablenameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $table  Table name to get columns from
      * @param  string|null  $connectionName  Database connection name (optional)
      * @return list
@@ -77,6 +84,8 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param string $table          Table name to get columns from
      * @param string|null $connectionName Database connection name (optional)
      *
@@ -85,6 +94,7 @@ final class GetFieldnamesByTablenameAction
      * @return list
      */
     public function execute(string $table, null|string $connectionName = null): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,6 +194,8 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     {
         // Validate table name
         if (empty(trim($table))) {
@@ -197,7 +209,11 @@ final class GetFieldnamesByTablenameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->isValidConnection($connectionName)) {
+=======
+        if (!$this->isValidConnection($connectionName)) {
+>>>>>>> 5a14301c (.)
 =======
         if (!$this->isValidConnection($connectionName)) {
 >>>>>>> 5a14301c (.)
@@ -214,7 +230,11 @@ final class GetFieldnamesByTablenameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! Schema::connection($connectionName)->hasTable($table)) {
+=======
+        if (!Schema::connection($connectionName)->hasTable($table)) {
+>>>>>>> 5a14301c (.)
 =======
         if (!Schema::connection($connectionName)->hasTable($table)) {
 >>>>>>> 5a14301c (.)
@@ -237,10 +257,13 @@ final class GetFieldnamesByTablenameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             return array_values($columns);
             // $columns = array_map('strval', $columns);
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -252,6 +275,9 @@ final class GetFieldnamesByTablenameAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

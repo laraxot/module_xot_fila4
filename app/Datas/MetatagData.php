@@ -15,6 +15,7 @@ namespace Modules\Xot\Datas;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\Colors\Color;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
@@ -40,6 +41,8 @@ use Illuminate\Support\Facades\Log;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Throwable;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Log;
@@ -47,6 +50,9 @@ use Filament\Support\Colors\Color;
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -63,7 +69,11 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Throwable;
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
 =======
 use Webmozart\Assert\Assert;
 >>>>>>> 5a14301c (.)
@@ -117,6 +127,7 @@ class MetatagData extends Data implements Wireable
 {
     use WireableData;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +191,8 @@ class MetatagData extends Data implements Wireable
     public string $color_banner = '';
 
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -275,6 +288,9 @@ class MetatagData extends Data implements Wireable
     /** @var string */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -290,6 +306,7 @@ class MetatagData extends Data implements Wireable
     /**
      * Singleton instance.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -360,6 +377,8 @@ class MetatagData extends Data implements Wireable
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     private static null|self $instance = null;
 
     /**
@@ -372,6 +391,9 @@ class MetatagData extends Data implements Wireable
         if (!self::$instance) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -393,6 +415,11 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return string
@@ -418,6 +445,11 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return string
@@ -439,7 +471,10 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -463,6 +498,11 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return string
@@ -484,7 +524,10 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -503,6 +546,11 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return string
@@ -542,7 +590,11 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! File::exists($physicalPath)) {
+=======
+            if (!File::exists($physicalPath)) {
+>>>>>>> 5a14301c (.)
 =======
             if (!File::exists($physicalPath)) {
 >>>>>>> 5a14301c (.)
@@ -577,7 +629,10 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -603,7 +658,10 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -633,6 +691,9 @@ class MetatagData extends Data implements Wireable
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -654,7 +715,11 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (is_array($colorArray) && ! empty($colorArray)) {
+=======
+            if (is_array($colorArray) && !empty($colorArray)) {
+>>>>>>> 5a14301c (.)
 =======
             if (is_array($colorArray) && !empty($colorArray)) {
 >>>>>>> 5a14301c (.)
@@ -702,9 +767,12 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function getBrandDescription(): ?string
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -713,6 +781,7 @@ class MetatagData extends Data implements Wireable
      * @return string|null
      */
     public function getBrandDescription(): null|string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -816,6 +885,8 @@ class MetatagData extends Data implements Wireable
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     {
         return $this->description;
     }
@@ -868,6 +939,11 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return string
@@ -884,6 +960,7 @@ class MetatagData extends Data implements Wireable
     public function getFavicon(): string
     {
         try {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -928,6 +1005,11 @@ class MetatagData extends Data implements Wireable
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+            /** @var string $path */
+            $path = app(AssetAction::class)->execute($this->favicon);
+            return $path;
+>>>>>>> 5a14301c (.)
         } catch (Throwable $e) {
             return asset($this->favicon);
         }
@@ -936,6 +1018,7 @@ class MetatagData extends Data implements Wireable
     public function getFaviconBySize(string $size, string $format): string
     {
         $xot = XotData::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -948,6 +1031,8 @@ class MetatagData extends Data implements Wireable
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         //return app(AssetAction::class)->execute($this->favicon, $size, $format);
         $file = 'favicon-' . $size . '.' . $format;
 
@@ -955,6 +1040,9 @@ class MetatagData extends Data implements Wireable
         return $res;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -969,6 +1057,7 @@ class MetatagData extends Data implements Wireable
     {
         return $this->colors;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1076,6 +1165,9 @@ class MetatagData extends Data implements Wireable
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+        //return $this->getThemeColors();
+>>>>>>> 5a14301c (.)
+=======
         //return $this->getThemeColors();
 >>>>>>> 5a14301c (.)
 =======
@@ -1255,6 +1347,7 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // return $this->getBrandName();
         return $this->title;
     }
@@ -1320,11 +1413,14 @@ class MetatagData extends Data implements Wireable
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         //return $this->getBrandName();
         return $this->title;
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1453,6 +1549,8 @@ class MetatagData extends Data implements Wireable
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     /**
      * @deprecated Use getBrandLogo() instead as it better reflects the semantic purpose
      */
@@ -1483,8 +1581,12 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $path = base_path('Modules/'.$xot->main_module.'/resources/svg/logo.svg');
 
+=======
+        $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
+>>>>>>> 5a14301c (.)
 =======
         $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
 >>>>>>> 5a14301c (.)
@@ -1502,6 +1604,7 @@ class MetatagData extends Data implements Wireable
         return $this->description ?? '';
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1635,6 +1738,9 @@ class MetatagData extends Data implements Wireable
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+
+>>>>>>> 5a14301c (.)
     public function getKeywords(): string
     {
         return TenantService::trans('metatag.keywords');
@@ -1690,10 +1796,15 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $xot->getPubThemePublicAsset($file);
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
+        $res = $xot->getPubThemePublicAsset($file);
+        return $res;
+>>>>>>> 5a14301c (.)
+=======
         $res = $xot->getPubThemePublicAsset($file);
         return $res;
 >>>>>>> 5a14301c (.)
@@ -1714,6 +1825,7 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return $xot->getPubThemePublicAsset($file);
 =======
@@ -1730,11 +1842,16 @@ class MetatagData extends Data implements Wireable
         $res = $xot->getPubThemePublicAsset($file);
         return $res;
 >>>>>>> 5a14301c (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+        return $res;
+>>>>>>> 5a14301c (.)
     }
 
     public function getPubTheme(): string
     {
         $xot = XotData::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1851,6 +1968,8 @@ class MetatagData extends Data implements Wireable
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         return $xot->pub_theme;
     }
 
@@ -1899,6 +2018,7 @@ class MetatagData extends Data implements Wireable
 
         return $this;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2115,4 +2235,6 @@ class MetatagData extends Data implements Wireable
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 }

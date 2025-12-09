@@ -9,6 +9,10 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> 5a14301c (.)
 =======
 use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5a14301c (.)
@@ -27,6 +31,7 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $expiration
  *
  * @method static CacheFactory factory($count = null, $state = [])
@@ -38,6 +43,8 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Cache whereValue($value)
  *
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -63,6 +70,9 @@ use Modules\Xot\Contracts\ProfileContract;
  * @mixin IdeHelperCache
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

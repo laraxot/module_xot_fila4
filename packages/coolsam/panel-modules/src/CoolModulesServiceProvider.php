@@ -34,12 +34,15 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function register(): void
     {
         $this->app->register(LaravelModulesServiceProvider::class);
 
         $this->app->afterResolving('filament', function (): void {
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -51,6 +54,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
         $this->app->afterResolving('filament', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -74,12 +80,15 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         fn () => new HtmlString("<h2 class='m-2 p-2 font-black text-xl'>{$title}</h2>"),
                     )->renderHook(
                         'panels::sidebar.nav.end',
                         fn () => new HtmlString('<a href="'.
                         url('/admin').
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -91,6 +100,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                         url('/admin') .
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

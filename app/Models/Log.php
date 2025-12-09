@@ -15,6 +15,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Database\Factories\LogFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\File;
@@ -74,6 +75,9 @@ use Sushi\Sushi;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+use Sushi\Sushi;
+>>>>>>> 5a14301c (.)
 use Override;
 use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -81,6 +85,9 @@ use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -92,6 +99,7 @@ use Illuminate\Support\Facades\File;
 /**
  * Modules\Xot\Models\Feed.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,6 +156,8 @@ use Illuminate\Support\Facades\File;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
  * @method static FeedFactory factory($count = null, $state = [])
  * @method static Builder|Feed newModelQuery()
  * @method static Builder|Feed newQuery()
@@ -167,6 +177,9 @@ use Illuminate\Support\Facades\File;
  * @mixin IdeHelperLog
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -192,7 +205,11 @@ class Log extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ($file->getExtension() === 'log') {
+=======
+            if ('log' === $file->getExtension()) {
+>>>>>>> 5a14301c (.)
 =======
             if ('log' === $file->getExtension()) {
 >>>>>>> 5a14301c (.)
@@ -213,6 +230,7 @@ class Log extends BaseModel
         return $rows;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +312,11 @@ class Log extends BaseModel
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+    public function getFileContentAttribute(null|string $value): null|string
+    {
+        return File::get(storage_path('logs/' . $this->id . '.log'));
+>>>>>>> 5a14301c (.)
+=======
     public function getFileContentAttribute(null|string $value): null|string
     {
         return File::get(storage_path('logs/' . $this->id . '.log'));

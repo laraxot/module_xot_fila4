@@ -30,8 +30,13 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Model  $row  The model instance to update
      * @param  RelationDTO  $relationDTO  Data transfer object containing relation information
+=======
+     * @param Model       $row         The model instance to update
+     * @param RelationDTO $relationDTO Data transfer object containing relation information
+>>>>>>> 5a14301c (.)
 =======
      * @param Model       $row         The model instance to update
      * @param RelationDTO $relationDTO Data transfer object containing relation information
@@ -55,6 +60,7 @@ class MorphToManyAction
         $model = $row;
 
         if (\in_array('to', array_keys($data), false) || \in_array('from', array_keys($data), false)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,11 +194,15 @@ class MorphToManyAction
 =======
             if (!isset($data['to'])) {
 >>>>>>> ca9324a4 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 5a14301c (.)
                 $data['to'] = [];
             }
             $data = $data['to'];
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,11 +290,14 @@ class MorphToManyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!\is_array($data)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         }
 
         if (!Arr::isAssoc($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -417,6 +430,8 @@ class MorphToManyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             $relation->sync($data);
 
             return;
@@ -424,6 +439,7 @@ class MorphToManyAction
 
         foreach ($data as $k => $v) {
             if (\is_array($v)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -557,6 +573,9 @@ class MorphToManyAction
 =======
                 if (!isset($v['pivot'])) {
 >>>>>>> ca9324a4 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 5a14301c (.)
                     $v['pivot'] = [];
                 }
 

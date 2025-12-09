@@ -15,6 +15,7 @@ namespace Modules\Xot\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
@@ -40,6 +41,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use InvalidArgumentException;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
@@ -47,6 +50,9 @@ use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -66,12 +72,15 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $class  Nome della classe
      * @param  array<string, mixed>  $params  Parametri da passare alla vista
      * @param  string|null  $viewName  Nome personalizzato della vista
      */
     public function execute(string $class, array $params = [], ?string $viewName = null): View
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -85,6 +94,9 @@ class GetViewByClassAction
     public function execute(string $class, array $params = [], null|string $viewName = null): View
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -101,10 +113,13 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Risolve il percorso della view basato sul namespace della classe.
      *
      * @param  string  $class  Il nome completo della classe
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -128,6 +143,9 @@ class GetViewByClassAction
      * @param string $class Il nome completo della classe
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -137,6 +155,7 @@ class GetViewByClassAction
      */
     public function executeOld(string $class): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,11 +169,14 @@ class GetViewByClassAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         $arr = explode('\\', $class);
         Assert::isArray($arr);
 
         // Verifica che la classe sia nel namespace Modules
         if ('Modules' !== $arr[0]) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,6 +209,8 @@ class GetViewByClassAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             throw new InvalidArgumentException('Class must be in Modules namespace');
         }
 
@@ -197,6 +221,7 @@ class GetViewByClassAction
         $class_name = Str::kebab(class_basename($class));
 
         // Costruisci il percorso della view
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -343,5 +368,8 @@ class GetViewByClassAction
 =======
         return $module_low . '::pages.' . $class_name;
 >>>>>>> ca9324a4 (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 5a14301c (.)
     }
 }

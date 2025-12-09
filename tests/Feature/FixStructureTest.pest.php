@@ -5,9 +5,12 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -20,6 +23,9 @@ use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -30,6 +36,7 @@ uses(TestCase::class);
 
 beforeEach(function () {
     // Create a temporary directory for testing
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,6 +104,9 @@ beforeEach(function () {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+    $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
+>>>>>>> 5a14301c (.)
     mkdir($this->testDir, 0o755, true);
 
     // Set the working directory
@@ -118,6 +128,7 @@ function rrmdir($dir)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (is_dir($dir.DIRECTORY_SEPARATOR.$object) && ! is_link($dir.'/'.$object)) {
                     rrmdir($dir.DIRECTORY_SEPARATOR.$object);
                 } else {
@@ -127,10 +138,13 @@ function rrmdir($dir)
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
                 if (is_dir($dir . DIRECTORY_SEPARATOR . $object) && !is_link($dir . '/' . $object)) {
                     rrmdir($dir . DIRECTORY_SEPARATOR . $object);
                 } else {
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,6 +291,8 @@ function rrmdir($dir) {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
                 }
             }
         }
@@ -309,7 +325,11 @@ test('creates necessary directories and files', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->assertDirectoryExists($this->testDir.'/'.$directory);
+=======
+        $this->assertDirectoryExists($this->testDir . '/' . $directory);
+>>>>>>> 5a14301c (.)
 =======
         $this->assertDirectoryExists($this->testDir . '/' . $directory);
 >>>>>>> 5a14301c (.)
@@ -335,7 +355,11 @@ test('creates necessary directories and files', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->assertFileExists($this->testDir.'/'.$file);
+=======
+        $this->assertFileExists($this->testDir . '/' . $file);
+>>>>>>> 5a14301c (.)
 =======
         $this->assertFileExists($this->testDir . '/' . $file);
 >>>>>>> 5a14301c (.)
@@ -354,7 +378,11 @@ test('does not overwrite existing files', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $testFile = $this->testDir.'/routes/web.php';
+=======
+    $testFile = $this->testDir . '/routes/web.php';
+>>>>>>> 5a14301c (.)
 =======
     $testFile = $this->testDir . '/routes/web.php';
 >>>>>>> 5a14301c (.)
@@ -375,6 +403,7 @@ test('does not overwrite existing files', function () {
 
 test('handles errors gracefully', function () {
     // Make a directory non-writable to test error handling
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -464,6 +493,9 @@ test('handles errors gracefully', function () {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+    $nonWritableDir = $this->testDir . '/app';
+>>>>>>> 5a14301c (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error
@@ -471,6 +503,7 @@ test('handles errors gracefully', function () {
 
     // Restore permissions
     chmod($nonWritableDir, 0o755);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -711,3 +744,6 @@ test('handles errors gracefully', function () {
 =======
 });
 >>>>>>> 5842a556 (.)
+=======
+});
+>>>>>>> 5a14301c (.)

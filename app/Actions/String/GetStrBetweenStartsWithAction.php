@@ -17,6 +17,7 @@ class GetStrBetweenStartsWithAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($pos === false) {
             throw new Exception("Cannot find {$start} in {$body} [".__LINE__.']['.__FILE__.']');
 =======
@@ -127,6 +128,10 @@ class GetStrBetweenStartsWithAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        if (false === $pos) {
+            throw new Exception("Cannot find {$start} in {$body} [" . __LINE__ . '][' . __FILE__ . ']');
+>>>>>>> 5a14301c (.)
         }
         $pos1 = mb_strpos($body, $close, $pos);
 
@@ -138,7 +143,11 @@ class GetStrBetweenStartsWithAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $length++;
+=======
+            ++$length;
+>>>>>>> 5a14301c (.)
 =======
             ++$length;
 >>>>>>> 5a14301c (.)

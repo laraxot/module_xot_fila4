@@ -526,6 +526,7 @@ public function getTableColumns(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **Bugfix 19/11/2025**: la classe dichiara `getResource()` una sola volta. Se vedi un errore “Cannot redeclare XotBaseListRecords::getResource”, assicurati di non introdurre duplicati.
 =======
 >>>>>>> 5a14301c (.)
@@ -541,6 +542,8 @@ public function getTableColumns(): array
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ## Tipizzazione degli Array
 
@@ -644,6 +647,7 @@ public function getTableBulkActions(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -659,3 +663,5 @@ public function getTableBulkActions(): array
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)

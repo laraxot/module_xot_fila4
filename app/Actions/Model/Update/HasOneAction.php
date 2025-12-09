@@ -15,6 +15,7 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use InvalidArgumentException;
@@ -41,6 +42,8 @@ use RuntimeException;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use RuntimeException;
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Model;
@@ -48,6 +51,9 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -73,8 +79,13 @@ class HasOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Model  $model  The parent model instance
      * @param  RelationDTO  $relationDTO  Data transfer object containing relationship information
+=======
+     * @param Model       $model       The parent model instance
+     * @param RelationDTO $relationDTO Data transfer object containing relationship information
+>>>>>>> 5a14301c (.)
 =======
      * @param Model       $model       The parent model instance
      * @param RelationDTO $relationDTO Data transfer object containing relationship information

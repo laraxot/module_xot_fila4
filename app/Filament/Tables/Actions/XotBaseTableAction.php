@@ -15,6 +15,7 @@ namespace Modules\Xot\Filament\Tables\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Closure;
 use Filament\Actions\Action;
 <<<<<<< HEAD
@@ -143,6 +144,10 @@ use Closure;
 use Filament\Actions\Action;
 use Closure;
 >>>>>>> ca9324a4 (.)
+=======
+use Filament\Actions\Action;
+use Closure;
+>>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -150,7 +155,10 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -164,8 +172,11 @@ abstract class XotBaseTableAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getRecord(bool $withDefault = true): ?Model
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -176,6 +187,9 @@ abstract class XotBaseTableAction extends Action
     public function getRecord(bool $withDefault = true): null|Model
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

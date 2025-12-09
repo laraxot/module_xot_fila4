@@ -31,6 +31,7 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Access level to Modules\<nome progetto>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
 =======
 Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
@@ -93,6 +94,10 @@ Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource
 =======
 Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
 >>>>>>> 43d67f21 (.)
+=======
+Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 5a14301c (.)
 ```
 
 esempio di errore:
@@ -214,9 +219,12 @@ $returnType = $parentMethod->getReturnType();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [regole di ereditarietà in php](/var/www/html/base_<nome progetto>/laravel/project_docs/standards/php-inheritance-rules.md)
 - [estensione pattern filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -227,6 +235,7 @@ $returnType = $parentMethod->getReturnType();
 - [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_extension_pattern.md)
 - [regole di ereditarietà in php](/var/www/html/base_techplanner_fila3_mono/laravel/docs/standards/php-inheritance-rules.md)
 - [estensione pattern filament](../Xot/docs/filament_extension_pattern.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -294,3 +303,5 @@ $returnType = $parentMethod->getReturnType();
 - [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
 - [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)

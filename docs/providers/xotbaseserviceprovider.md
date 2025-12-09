@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +127,10 @@
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in <nome progetto>. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+`XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+`XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+>>>>>>> 5a14301c (.)
 
 ## Caratteristiche Principali
 
@@ -302,6 +307,7 @@ try {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. La registrazione dei componenti è automatica ma configurabile 
 =======
 =======
@@ -325,3 +331,6 @@ try {
 =======
 5. La registrazione dei componenti è automatica ma configurabile 
 >>>>>>> 71f31700 (.)
+=======
+5. La registrazione dei componenti è automatica ma configurabile 
+>>>>>>> 5a14301c (.)

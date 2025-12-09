@@ -15,6 +15,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
@@ -35,6 +36,11 @@ use Spatie\Health\Enums\Status;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+use Spatie\Health\Enums\Status;
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+>>>>>>> 5a14301c (.)
+=======
 use Spatie\Health\Enums\Status;
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
@@ -72,7 +78,11 @@ class HealthOverviewWidget extends BaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($checkResults === null) {
+=======
+        if (null === $checkResults) {
+>>>>>>> 5a14301c (.)
 =======
         if (null === $checkResults) {
 >>>>>>> 5a14301c (.)
@@ -88,6 +98,7 @@ class HealthOverviewWidget extends BaseWidget
             $label = $result->label;
             $value = $result->shortSummary;
             $stats[] = Stat::make($label, $value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,6 +232,9 @@ class HealthOverviewWidget extends BaseWidget
 =======
                 ->description($result->notificationMessage . ' ' . $result->status)
 >>>>>>> ca9324a4 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 5a14301c (.)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }

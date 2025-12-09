@@ -14,6 +14,7 @@ describe('XotBaseModel Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $model = new XotBaseModel;
 =======
         $model = new XotBaseModel();
@@ -49,6 +50,9 @@ describe('XotBaseModel Business Logic', function () {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        $model = new XotBaseModel();
+>>>>>>> 5a14301c (.)
 
         expect($model)->toBeInstanceOf(XotBaseModel::class);
         expect($model)->toBeInstanceOf(Model::class);

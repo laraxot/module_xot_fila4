@@ -8,8 +8,12 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
+=======
+return new class extends XotBaseMigration {
+>>>>>>> 5a14301c (.)
 =======
 return new class extends XotBaseMigration {
 >>>>>>> 5a14301c (.)
@@ -24,6 +28,7 @@ return new class extends XotBaseMigration {
      */
     public function up(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,6 +116,9 @@ return new class extends XotBaseMigration {
 =======
         if (!$this->shouldRun()) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!$this->shouldRun()) {
+>>>>>>> 5a14301c (.)
             return;
         }
         // -- CREATE --
@@ -127,7 +135,11 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 default => throw new InvalidArgumentException('Unsupported driver: '.$this->driver()),
+=======
+                default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
+>>>>>>> 5a14301c (.)
 =======
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
 >>>>>>> 5a14301c (.)

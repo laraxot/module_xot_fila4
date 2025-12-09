@@ -5,6 +5,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Filament\Forms\Components;
 =======
 namespace Modules\Notify\Filament\Forms\Components;
@@ -19,12 +20,17 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 namespace Modules\Xot\Filament\Forms\Components;
 
 use Filament\Forms\Components\Field;
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -37,7 +43,13 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class XotBaseField extends Field {}
+=======
+abstract class XotBaseField extends Field
+{
+}
+>>>>>>> 5a14301c (.)
 =======
 abstract class XotBaseField extends Field
 {

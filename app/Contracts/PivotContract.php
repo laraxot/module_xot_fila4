@@ -14,7 +14,11 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int|null $status
+=======
+ * @property int|null    $status
+>>>>>>> 5a14301c (.)
 =======
  * @property int|null    $status
 >>>>>>> 5a14301c (.)
@@ -34,7 +38,13 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface PivotContract {}
+=======
+interface PivotContract
+{
+}
+>>>>>>> 5a14301c (.)
 =======
 interface PivotContract
 {

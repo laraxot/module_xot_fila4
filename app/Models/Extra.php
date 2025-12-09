@@ -15,6 +15,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
@@ -52,6 +53,8 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Spatie\SchemalessAttributes\SchemalessAttributes;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Database\Factories\ExtraFactory;
@@ -59,6 +62,9 @@ use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -68,6 +74,7 @@ use Modules\Xot\Contracts\ProfileContract;
 /**
  * Model Extra.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,6 +109,8 @@ use Modules\Xot\Contracts\ProfileContract;
  */
 final class Extra extends BaseExtra {}
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -143,6 +152,9 @@ class Extra extends BaseExtra
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

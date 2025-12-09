@@ -2,7 +2,11 @@ parameters:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     level: 10
+=======
+    level: 7
+>>>>>>> 5a14301c (.)
 =======
     level: 7
 >>>>>>> 5a14301c (.)
@@ -20,6 +24,10 @@ parameters:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        - tests
+>>>>>>> 5a14301c (.)
 =======
         - tests
 >>>>>>> 5a14301c (.)
@@ -36,6 +44,7 @@ parameters:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     treatPhpDocTypesAsCertain: false
     reportUnmatchedIgnoredErrors: false
     checkArgumentsPassedByReference: true
@@ -44,6 +53,8 @@ parameters:
     inferPrivatePropertyTypeFromConstructor: true
 
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -77,6 +88,9 @@ parameters:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

@@ -14,6 +14,10 @@ use Filament\Resources\Pages\ListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 5a14301c (.)
@@ -49,9 +53,15 @@ class ExportXlsLazyAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class_basename($livewire).
                     '-'.
                     collect($livewire->tableFilters)->flatten()->implode('-').
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
 =======
                     class_basename($livewire) .
                     '-' .
@@ -77,6 +87,7 @@ class ExportXlsLazyAction extends Action
                 if (method_exists($resource, 'getXlsFields')) {
                     $rawFields = $resource::getXlsFields($livewire->tableFilters);
                     if (is_array($rawFields)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,6 +118,8 @@ class ExportXlsLazyAction extends Action
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
                         $fields = array_map(static function ($field): string {
                             if (is_object($field) && method_exists($field, '__toString')) {
                                 return $field->__toString();
@@ -118,6 +131,9 @@ class ExportXlsLazyAction extends Action
                         }, $rawFields);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -137,6 +153,7 @@ class ExportXlsLazyAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     /** @var array<int, string> $stringFields */
                     $stringFields = array_values($fields);
 
@@ -144,6 +161,8 @@ class ExportXlsLazyAction extends Action
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -156,9 +175,12 @@ class ExportXlsLazyAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -177,6 +199,7 @@ class ExportXlsLazyAction extends Action
             });
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +397,9 @@ class ExportXlsLazyAction extends Action
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
     {
         return 'export_xls';
     }

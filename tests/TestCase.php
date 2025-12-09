@@ -15,6 +15,7 @@ namespace Modules\Xot\Tests;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -43,6 +44,10 @@ use Modules\SaluteOra\Models\User;
 use Mockery;
 use Modules\SaluteOra\Models\User;
 >>>>>>> 5a14301c (.)
+=======
+use Mockery;
+use Modules\SaluteOra\Models\User;
+>>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
@@ -50,7 +55,10 @@ use Illuminate\Support\Facades\Hash;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Mockery;
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -64,6 +72,7 @@ abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +180,8 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     //use DatabaseMigrations;
 
     // =============================================================================
@@ -186,6 +197,9 @@ abstract class TestCase extends BaseTestCase
      * @return string
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -198,7 +212,10 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -213,6 +230,11 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return string
@@ -237,7 +259,12 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $attributes
+=======
+     * @param array<string, mixed> $attributes
+     * @return UserContract
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed> $attributes
      * @return UserContract
@@ -276,6 +303,11 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return void
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return void
@@ -323,7 +355,13 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $attributes
+=======
+     * @param string $type
+     * @param array<string, mixed> $attributes
+     * @return UserContract
+>>>>>>> 5a14301c (.)
 =======
      * @param string $type
      * @param array<string, mixed> $attributes
@@ -346,7 +384,10 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -362,7 +403,11 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $overrides
+=======
+     * @param array<string, mixed> $overrides
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed> $overrides
 >>>>>>> 5a14301c (.)
@@ -391,9 +436,12 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     protected function assertUserAuthenticated(?string $expectedType = null): void
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -405,6 +453,9 @@ abstract class TestCase extends BaseTestCase
     protected function assertUserAuthenticated(null|string $expectedType = null): void
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -419,11 +470,14 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self::assertNotNull($user);
 
             if ($user && method_exists($user, 'type')) {
                 self::assertSame($expectedType, $user->type ?? null);
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -434,6 +488,9 @@ abstract class TestCase extends BaseTestCase
                 $this->assertEquals($expectedType, $user->type ?? null);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [FormBuilder FieldOption Model](../FormBuilder/project_docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/project_docs/phpstan-corrections.md)
 =======
@@ -33,10 +34,13 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 # Development Guidelines - Xot Module
 
 ## Panoramica
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
@@ -68,6 +72,8 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 
 ## PHPStan Best Practices
@@ -106,6 +112,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -148,6 +155,8 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ## Principi di Correzione
 
@@ -168,6 +177,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 
 ## Collegamenti Correlati
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,6 +268,10 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 - [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
 >>>>>>> ca9324a4 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 5a14301c (.)
 - [Xot Architecture](./architecture.md)
 
 ## Note per Sviluppo Futuro
@@ -265,6 +279,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 1. **Type Safety**: Mantenere sempre type hints espliciti
 2. **Static Properties**: Evitare accesso statico a proprietà di istanza
 3. **Mixed Types**: Gestire sempre i tipi `mixed` con type casting appropriato
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,3 +357,6 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+>>>>>>> 5a14301c (.)

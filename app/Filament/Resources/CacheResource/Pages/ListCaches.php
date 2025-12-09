@@ -8,7 +8,13 @@ use Filament\Actions\Action;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\CreateAction;
+=======
+use Override;
+use Filament\Actions\CreateAction;
+use Filament\Actions;
+>>>>>>> 5a14301c (.)
 =======
 use Override;
 use Filament\Actions\CreateAction;
@@ -33,7 +39,11 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
+=======
+use Modules\Xot\Filament\Widgets\Clock;
+>>>>>>> 5a14301c (.)
 =======
 use Modules\Xot\Filament\Widgets\Clock;
 >>>>>>> 5a14301c (.)

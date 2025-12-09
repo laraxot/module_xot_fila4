@@ -9,6 +9,11 @@ use Filament\Resources\Pages\ListRecords as FilamentListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Filament\Tables;
+use Filament\Tables\Table;
+>>>>>>> 5a14301c (.)
 =======
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -26,6 +31,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,6 +140,10 @@ use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
 >>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
+use Modules\Xot\Filament\Traits\HasXotTable;
+>>>>>>> 5a14301c (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -147,6 +157,7 @@ use Webmozart\Assert\Assert;
 abstract class XotBaseListRecords extends FilamentListRecords
 {
     use HasXotTable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +177,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
 
         return $resource;
     }
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -208,7 +221,10 @@ abstract class XotBaseListRecords extends FilamentListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -228,6 +244,9 @@ abstract class XotBaseListRecords extends FilamentListRecords
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -238,6 +257,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
     protected function paginateTableQuery(Builder $query): Paginator
     {
         $paginator = $query->fastPaginate(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +281,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
             'all' === $this->getTableRecordsPerPage() ? $query->count() : $this->getTableRecordsPerPage(),
         );
         $count = $paginator->total();
@@ -269,6 +291,9 @@ abstract class XotBaseListRecords extends FilamentListRecords
         app(UpdateCountAction::class)->execute($modelClass, $count);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

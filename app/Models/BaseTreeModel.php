@@ -8,12 +8,15 @@ use Modules\Xot\Contracts\HasRecursiveRelationshipsContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\Traits\TypedHasRecursiveRelationships;
 
 abstract class BaseTreeModel extends BaseModel implements HasRecursiveRelationshipsContract
 {
     use TypedHasRecursiveRelationships;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -25,6 +28,9 @@ abstract class BaseTreeModel extends BaseModel implements HasRecursiveRelationsh
     use HasRecursiveRelationships;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

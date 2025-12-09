@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -32,6 +33,8 @@
 =======
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -255,6 +258,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -287,10 +291,13 @@ php artisan view:clear
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica
 Questo documento definisce le convenzioni per l'organizzazione dei namespace nel modulo Xot.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,6 +320,8 @@ Questo documento definisce le convenzioni per l'organizzazione dei namespace nel
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ## Struttura Base
 - `Xot\App`: Classi principali dell'applicazione
@@ -9575,6 +9584,7 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -9590,3 +9600,5 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)

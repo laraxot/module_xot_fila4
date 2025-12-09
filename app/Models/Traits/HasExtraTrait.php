@@ -15,6 +15,7 @@ namespace Modules\Xot\Models\Traits;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Exception;
 >>>>>>> 5a14301c (.)
@@ -63,6 +64,9 @@ use Exception;
 =======
 use Exception;
 >>>>>>> ca9324a4 (.)
+=======
+use Exception;
+>>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Str;
@@ -70,7 +74,11 @@ use Modules\Xot\Contracts\ExtraContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\SchemalessAttributes\SchemalessAttributes;
+=======
+use Modules\Xot\Models\Extra;
+>>>>>>> 5a14301c (.)
 =======
 use Modules\Xot\Models\Extra;
 >>>>>>> 5a14301c (.)
@@ -114,6 +122,7 @@ trait HasExtraTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename($this).']['.$extra_class.']',
 =======
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
@@ -127,6 +136,9 @@ trait HasExtraTrait
 =======
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
 >>>>>>> 5a14301c (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
+>>>>>>> 5a14301c (.)
         );
         // Assert::isInstanceOf($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
         // Assert::implementsInterface($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
@@ -134,6 +146,7 @@ trait HasExtraTrait
         return $this->morphOne($extra_class, 'model');
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +178,8 @@ trait HasExtraTrait
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
     /**
      * @return array<string, mixed>|bool|int|string|null
      */
@@ -186,6 +201,7 @@ trait HasExtraTrait
             return $value;
         }
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,10 +305,13 @@ trait HasExtraTrait
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     }
 
     /**
      * @param  int|float|string|array<string, mixed>|bool|null  $value
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,6 +337,8 @@ trait HasExtraTrait
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @return void
      */
     public function setExtra(string $name, $value)
@@ -337,6 +358,9 @@ trait HasExtraTrait
         $extra->extra_attributes->set($name, $value);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
@@ -76,6 +77,9 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto , c
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 43d67f21 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 5a14301c (.)
 
 ## File Corretti
 
@@ -179,6 +183,7 @@ $res=Locality::query()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 ### 1. Controllo Conflitti
@@ -203,6 +208,8 @@ $res=Locality::query()
 ```bash
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ### 2. Validazione PHPStan
 ```bash
@@ -315,6 +322,7 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Stato**: ✅ Completato
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -371,3 +379,6 @@ php artisan lang:check
 ### 1. Controllo Conflitti
 ```bash
 >>>>>>> 43d67f21 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)

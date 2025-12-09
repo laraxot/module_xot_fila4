@@ -43,6 +43,7 @@ class SafeBooleanCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $value  Il valore da convertire
      * @param  bool|null  $default  Valore di default se la conversione fallisce (default: false)
      * @return bool Il valore convertito
@@ -53,12 +54,15 @@ class SafeBooleanCastAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param mixed $value Il valore da convertire
      * @param bool|null $default Valore di default se la conversione fallisce (default: false)
      *
      * @return bool Il valore convertito
      */
     public function execute(mixed $value, null|bool $default = false): bool
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,6 +166,8 @@ class SafeBooleanCastAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     {
         // Se è già un boolean, restituiscilo direttamente
         if (is_bool($value)) {
@@ -190,6 +196,7 @@ class SafeBooleanCastAction
 
         // Se è un array, convertilo (array vuoto = false, altri = true)
         if (is_array($value)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -317,6 +324,10 @@ class SafeBooleanCastAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+            return !empty($value);
+        }
+>>>>>>> 5a14301c (.)
 
         // Se è un oggetto, convertilo (oggetto vuoto = false, altri = true)
         if (is_object($value)) {
@@ -328,6 +339,7 @@ class SafeBooleanCastAction
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -474,6 +486,8 @@ class SafeBooleanCastAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * Converte una stringa in boolean con gestione avanzata.
      *
      * @param string $value La stringa da convertire
@@ -484,6 +498,9 @@ class SafeBooleanCastAction
     private function parseStringToBool(string $value, null|bool $default = false): bool
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -520,7 +537,10 @@ class SafeBooleanCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -664,6 +684,9 @@ class SafeBooleanCastAction
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

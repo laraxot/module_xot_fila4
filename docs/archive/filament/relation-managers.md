@@ -202,6 +202,9 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -210,6 +213,7 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 - [HasXotTable Trait](/laravel/Modules/Xot/docs/filament/xot_table.md)
 - [Regole di Traduzione](/laravel/Modules/Xot/docs/translation_rules.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,3 +312,6 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 43d67f21 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 5a14301c (.)

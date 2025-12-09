@@ -15,6 +15,7 @@ namespace Modules\Xot\Console\Commands;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -51,12 +52,15 @@ namespace Modules\Xot\Console\Commands;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Webmozart\Assert\Assert;
 
 use function Safe\file_get_contents;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +90,8 @@ use function Safe\file_get_contents;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 class ExecuteSqlFileCommand extends Command
 {
@@ -105,6 +111,7 @@ class ExecuteSqlFileCommand extends Command
 
     /**
      * Execute the console command.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,11 +206,18 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+     *
+     * @return int
+     */
+    public function handle()
+>>>>>>> 5a14301c (.)
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');
         Assert::string($filePath, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         if (!file_exists($filePath)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,6 +327,8 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -346,6 +362,7 @@ class ExecuteSqlFileCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Connessione al database - $sql è sempre string grazie a Safe\file_get_contents
             DB::connection('temp')->unprepared($sql);
             $this->info('File .sql eseguito con successo!');
@@ -356,11 +373,14 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
             // Connessione al database
             DB::connection('temp')->unprepared($sql);
             $this->info('File .sql eseguito con successo!');
         } catch (Exception $e) {
             $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -466,6 +486,8 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 
             return Command::FAILURE;
         } finally {

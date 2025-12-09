@@ -41,6 +41,7 @@ class GetModelByModelTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $model_type, ?string $model_id): Model
     {
         $model_class = app(GetModelClassByModelTypeAction::class)->execute($model_type);
@@ -92,6 +93,8 @@ class GetModelByModelTypeAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     public function execute(string $model_type, null|string $model_id): Model
     {
         $model_class = app(GetModelClassByModelTypeAction::class)->execute($model_type);
@@ -102,6 +105,7 @@ class GetModelByModelTypeAction
 
         if (null === $model) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,6 +209,8 @@ class GetModelByModelTypeAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         }
 
         return $model;

@@ -113,6 +113,9 @@ Se trovi codice che viola questa regola:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -121,6 +124,7 @@ Se trovi codice che viola questa regola:
 - [Esempio pratico nel TeamsRelationManager](/laravel/Modules/User/docs/filament/teams_relation_manager.md)
 - [Regole per RelationManager](/docs/filament/relation_managers.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,3 +223,6 @@ Se trovi codice che viola questa regola:
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 43d67f21 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 5a14301c (.)

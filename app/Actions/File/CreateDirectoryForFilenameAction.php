@@ -34,6 +34,7 @@ class CreateDirectoryForFilenameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! File::exists(\dirname($filename))) {
 =======
 =======
@@ -75,6 +76,9 @@ class CreateDirectoryForFilenameAction
 =======
         if (!File::exists(\dirname($filename))) {
 >>>>>>> 3fbbf1f5 (.)
+=======
+        if (!File::exists(\dirname($filename))) {
+>>>>>>> 5a14301c (.)
 =======
         if (!File::exists(\dirname($filename))) {
 >>>>>>> 5a14301c (.)

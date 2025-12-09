@@ -13,6 +13,7 @@ return [
                 'group' => 'إعدادات',
                 'label' => 'حالة النظام',
             ],
+
             'notifications' => [
                 'check_results' => 'تمت عملية الفحص',
             ],

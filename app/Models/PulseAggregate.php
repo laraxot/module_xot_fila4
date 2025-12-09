@@ -257,6 +257,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @property int|null $count
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
  * @method static \Modules\Xot\Database\Factories\PulseAggregateFactory factory($count = null, $state = [])
  * @method static Builder<static>|PulseAggregate newModelQuery()
  * @method static Builder<static>|PulseAggregate newQuery()
@@ -270,6 +271,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseAggregate wherePeriod($value)
  * @method static Builder<static>|PulseAggregate whereType($value)
  * @method static Builder<static>|PulseAggregate whereValue($value)
+ *
  * @mixin \Eloquent
  */
 class PulseAggregate extends BaseModel

@@ -9,10 +9,14 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\scandir;
 
+<<<<<<< HEAD
 =======
 
 use function Safe\scandir;
@@ -20,6 +24,8 @@ use function Safe\scandir;
 use Spatie\QueueableAction\QueueableAction;
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 class GetModulePathAction
 {
     use QueueableAction;
@@ -34,6 +40,7 @@ class GetModulePathAction
      * @param  string  $moduleName  Il nome del modulo
 =======
      * @param string $moduleName Il nome del modulo
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
 <<<<<<< HEAD
@@ -94,6 +101,7 @@ class GetModulePathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -151,6 +159,11 @@ class GetModulePathAction
      * 
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+     *
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
      * @return string Il percorso completo del modulo
      */
     public function execute(string $moduleName): string
@@ -159,6 +172,7 @@ class GetModulePathAction
             $module_path = Module::getModulePath($moduleName);
         } catch (Exception) {
             $modulesPath = base_path('Modules');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,6 +229,8 @@ class GetModulePathAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 21348520 (.)
             if (!File::exists($modulesPath)) {
                 return __DIR__ . '/../';
 =======
@@ -269,6 +285,7 @@ class GetModulePathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -276,9 +293,12 @@ class GetModulePathAction
 =======
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 21348520 (.)
+=======
             if (!File::exists($modulesPath)) {
                 return __DIR__ . '/../';
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
@@ -324,11 +344,16 @@ class GetModulePathAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
             }
 
             $files = scandir($modulesPath);
             $moduleNameLower = Str::lower($moduleName);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
             $foundModule = collect($files)->filter(static function ($item) use ($moduleNameLower): bool {
 <<<<<<< HEAD
@@ -406,7 +431,10 @@ class GetModulePathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -529,6 +557,7 @@ class GetModulePathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -579,6 +608,10 @@ class GetModulePathAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         }
 
         return $module_path;

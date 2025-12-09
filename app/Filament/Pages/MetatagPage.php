@@ -63,6 +63,7 @@ use Filament\Pages\Page;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 =======
 >>>>>>> 5a14301c (.)
@@ -88,13 +89,19 @@ use Filament\Schemas\Schema;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 use Filament\Support\Colors\Color;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Filament\Support\Colors\Color;
+>>>>>>> 73eab74 (.)
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 /**
@@ -105,12 +112,18 @@ use Filament\Support\Colors\Color;
 /**
  * @property \Filament\Schemas\Schema $form
 >>>>>>> f1d4085 (.)
+=======
+
+/**
+ * @property Schema $form
+>>>>>>> 73eab74 (.)
  */
 class MetatagPage extends Page implements HasForms
 {
     use InteractsWithForms;
     use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,10 +183,13 @@ class MetatagPage extends Page implements HasForms
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
     public null|array $data = [];
 =======
     public ?array $data = [];
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
@@ -221,6 +237,11 @@ class MetatagPage extends Page implements HasForms
     public ?array $data = [];
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+    public null|array $data = [];
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
 
@@ -240,6 +261,9 @@ class MetatagPage extends Page implements HasForms
 
         return $schema
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             ->components([
                 TextInput::make('title')->required(),
                 TextInput::make('sitename'),
@@ -334,6 +358,7 @@ class MetatagPage extends Page implements HasForms
                     ->columns(3),
             ])
             ->columns(2)
+<<<<<<< HEAD
 =======
             ->components(
                 [
@@ -388,6 +413,8 @@ class MetatagPage extends Page implements HasForms
                 ]
             )->columns(2)
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             ->statePath('data');
     }
 
@@ -406,11 +433,15 @@ class MetatagPage extends Page implements HasForms
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             Action::make('save')->submit('save'),
 =======
             Action::make('save')
                 ->submit('save'),
 >>>>>>> f1d4085 (.)
+=======
+            Action::make('save')->submit('save'),
+>>>>>>> 73eab74 (.)
         ];
     }
 }

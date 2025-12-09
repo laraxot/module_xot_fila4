@@ -59,6 +59,7 @@ class SearchEngineData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new static;
 =======
         return new static();
@@ -109,10 +110,13 @@ class SearchEngineData extends Data
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
         return new static();
 =======
         return new static;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,5 +184,10 @@ class SearchEngineData extends Data
         return new static;
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+        return new static();
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
     }
 }

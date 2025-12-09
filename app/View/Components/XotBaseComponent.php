@@ -182,6 +182,7 @@ abstract class XotBaseComponent extends IlluminateComponent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view = $module_name_low.'::components.'.$comp_name;
         $view = str_replace('._', '.', $view);
 
@@ -255,11 +256,16 @@ abstract class XotBaseComponent extends IlluminateComponent
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         $view = $module_name_low . '::components.' . $comp_name;
         $view = str_replace('._', '.', $view);
 
         if (!view()->exists($view)) {
             throw new InvalidArgumentException("View [{$view}] does not exist.");
+<<<<<<< HEAD
 =======
         $view = $module_name_low.'::components.'.$comp_name;
         $view = str_replace('._', '.', $view);
@@ -267,6 +273,8 @@ abstract class XotBaseComponent extends IlluminateComponent
         if (! view()->exists($view)) {
             throw new InvalidArgumentException("View [$view] does not exist.");
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         }
 <<<<<<< HEAD
 <<<<<<< HEAD

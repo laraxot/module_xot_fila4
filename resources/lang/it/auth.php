@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -77,6 +78,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -84,10 +86,13 @@ declare(strict_types=1);
 =======
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 21348520 (.)
+=======
 declare(strict_types=1);
 
 
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
@@ -131,6 +136,8 @@ declare(strict_types=1);
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 return [
     'failed' => 'Queste credenziali non corrispondono ai nostri dati.',
     'password' => 'La password fornita non è corretta.',
@@ -205,6 +212,9 @@ return [
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)

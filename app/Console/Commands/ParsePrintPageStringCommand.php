@@ -46,6 +46,7 @@ class ParsePrintPageStringCommand extends Command
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,6 +144,7 @@ class ParsePrintPageStringCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -190,6 +192,11 @@ class ParsePrintPageStringCommand extends Command
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+    
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 
     /**
      * Execute the console command.
@@ -220,6 +227,7 @@ class ParsePrintPageStringCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($str)) {
 =======
 =======
@@ -253,10 +261,13 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
         if (!is_string($str)) {
 =======
         if (! is_string($str)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +320,11 @@ class ParsePrintPageStringCommand extends Command
         if (! is_string($str)) {
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+        if (!is_string($str)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             throw new Exception('argument str must be a string');
         }
         dddx(app(ParsePrintPageStringAction::class)->execute($str));

@@ -3,6 +3,9 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -311,6 +314,7 @@ pest()->extend(TestCase::class)
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 | Quando definisci here expectation globali, saranno disponibili 
@@ -323,6 +327,8 @@ pest()->extend(TestCase::class)
 =======
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> 21348520 (.)
 =======
 namespace Modules\Xot\Tests\Pest;
 
@@ -352,7 +358,12 @@ namespace Modules\Xot\Tests\Pest;
 |
 */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -701,6 +712,9 @@ namespace Modules\Xot\Tests\Pest;
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -809,6 +823,7 @@ namespace Modules\Xot\Tests\Pest;
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -1014,6 +1029,7 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -1151,3 +1167,7 @@ namespace Modules\Xot\Tests\Pest;
 
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)

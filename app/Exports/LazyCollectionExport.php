@@ -70,6 +70,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $transKey;
 =======
     public null|string $transKey;
@@ -120,10 +121,13 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
     public null|string $transKey;
 =======
     public ?string $transKey;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,6 +195,11 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     public ?string $transKey;
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+    public null|string $transKey;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 
     /** @var array<int, string> */
     public array $fields = [];
@@ -215,6 +224,9 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
      * @param array<int, string> $fields
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function __construct(
         public LazyCollection $collection,
         null|string $transKey = null,
@@ -230,18 +242,25 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 5a14301c (.)
         array $fields = [],
     ) {
+<<<<<<< HEAD
 =======
     public function __construct(public LazyCollection $collection, ?string $transKey = null, array $fields = [])
     {
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         // $this->headings = count($headings) > 0 ? $headings : collect($collection->first())->keys()->toArray();
 
         $this->transKey = $transKey;
         $this->fields = $fields;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
         // $this->headings = $headings->toArray();
     }
 
@@ -286,6 +305,9 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 
         return $data->toArray();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         /*
          * return [
@@ -302,6 +324,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 5a14301c (.)
          * ];
          */
+<<<<<<< HEAD
 =======
         /*
         return [
@@ -309,10 +332,13 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
         ];
         */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 
     public function getHead(): Collection
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,10 +415,15 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
         if (!empty($this->fields)) {
 =======
         if (! empty($this->fields)) {
 >>>>>>> f1d4085 (.)
+=======
+        if (!empty($this->fields)) {
+>>>>>>> 73eab74 (.)
             return collect($this->fields);
         }
 

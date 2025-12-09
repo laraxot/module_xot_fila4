@@ -14,6 +14,9 @@ class AssetPathAction
     public function execute(string $asset): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         [$ns, $file] = explode('::', $asset);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,7 +48,10 @@ class AssetPathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -134,6 +140,7 @@ class AssetPathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -184,5 +191,9 @@ class AssetPathAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
     }
 }

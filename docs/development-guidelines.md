@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,9 +131,14 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 =======
 >>>>>>> f1d4085 (.)
+=======
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
+>>>>>>> 73eab74 (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 >>>>>>> 5a14301c (.)
 
@@ -157,12 +163,17 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 
 ### Moduli Corretti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
 =======
 - [FormBuilder FieldOption Model](../FormBuilder/project_docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/project_docs/phpstan-corrections.md)
 >>>>>>> f1d4085 (.)
+=======
+- [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 73eab74 (.)
 
 ## Principi di Correzione
 
@@ -184,12 +195,17 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 ## Collegamenti Correlati
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
 =======
 - [FormBuilder PHPStan Corrections](../FormBuilder/project_docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/project_docs/phpstan-corrections.md)
 >>>>>>> f1d4085 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 73eab74 (.)
 - [Xot Architecture](./architecture.md)
 
 ## Note per Sviluppo Futuro

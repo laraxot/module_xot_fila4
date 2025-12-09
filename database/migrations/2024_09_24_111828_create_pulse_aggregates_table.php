@@ -51,6 +51,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
 =======
@@ -111,6 +112,10 @@ return new class extends XotBaseMigration {
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         if (!$this->shouldRun()) {
 >>>>>>> 5a14301c (.)
 =======
@@ -162,6 +167,7 @@ return new class extends XotBaseMigration {
             $table->index('type'); // For purging...
             $table->index(['period', 'type', 'aggregate', 'bucket']); // For aggregate queries...
         });
+<<<<<<< HEAD
 =======
         if (! $this->shouldRun()) {
             return;
@@ -191,5 +197,7 @@ return new class extends XotBaseMigration {
             }
         );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 };

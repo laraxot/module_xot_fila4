@@ -31,6 +31,7 @@ namespace Modules\Xot\Exceptions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -74,9 +75,14 @@ use Override;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 use Override;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Override;
+>>>>>>> 73eab74 (.)
 use Exception;
 use Illuminate\Http\Response;
 >>>>>>> 5a14301c (.)
@@ -99,15 +105,22 @@ use Illuminate\Http\Response;
 class JsonEncodeException extends ApplicationException
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 >>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
     public function status(): int
     {
         return Response::HTTP_BAD_REQUEST;
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     #[Override]
     public function help(): string
     {
@@ -140,7 +153,10 @@ class JsonEncodeException extends ApplicationException
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -232,6 +248,7 @@ class JsonEncodeException extends ApplicationException
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -283,12 +300,19 @@ class JsonEncodeException extends ApplicationException
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         }
 
         return $res;
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     #[Override]
     public function error(): string
     {
@@ -321,7 +345,10 @@ class JsonEncodeException extends ApplicationException
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -413,6 +440,7 @@ class JsonEncodeException extends ApplicationException
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -464,6 +492,10 @@ class JsonEncodeException extends ApplicationException
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         }
 
         return $res;

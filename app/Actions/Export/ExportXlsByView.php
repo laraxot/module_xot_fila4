@@ -30,6 +30,7 @@ use Illuminate\Contracts\View\View;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -89,6 +90,10 @@ use Illuminate\Contracts\View\View;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Support\Collection;
 >>>>>>> 5a14301c (.)
@@ -108,6 +113,7 @@ use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\ViewExport;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -116,6 +122,8 @@ use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\ViewExport;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 /**
  * Classe per l'esportazione di viste in formato Excel.
@@ -186,6 +194,7 @@ class ExportXlsByView
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?string $transKey = null,
 =======
 =======
@@ -246,6 +255,10 @@ class ExportXlsByView
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         null|string $transKey = null,
 >>>>>>> 5a14301c (.)
 =======
@@ -260,6 +273,7 @@ class ExportXlsByView
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(strval(...), array_values($fields));
+<<<<<<< HEAD
 =======
         ?string $transKey = null,
     ): BinaryFileResponse {
@@ -268,15 +282,21 @@ class ExportXlsByView
                 return strval($field);
             }, array_values($fields));
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         $export = new ViewExport(
             view: $view,
             transKey: $transKey,
 <<<<<<< HEAD
+<<<<<<< HEAD
             fields: $stringFields,
 =======
             fields: $stringFields
 >>>>>>> f1d4085 (.)
+=======
+            fields: $stringFields,
+>>>>>>> 73eab74 (.)
         );
 
         return Excel::download($export, $filename);

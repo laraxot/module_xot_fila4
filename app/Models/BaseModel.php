@@ -66,7 +66,11 @@ abstract class BaseModel extends XotBaseModel
 abstract class BaseModel extends Model
 >>>>>>> 53d6a6ba (.)
 {
+<<<<<<< HEAD
     use \Modules\Xot\Models\Traits\HasXotFactory;
+=======
+    use HasFactory;
+>>>>>>> f1570712 (.)
 
     // use Searchable;
     // //use Cachable;

@@ -129,8 +129,13 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property string $key
  * @property string $owner
  * @property int $expiration
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+=======
+ * @property-read \Modules\Quaeris\Models\Profile|null $creator
+ * @property-read \Modules\Quaeris\Models\Profile|null $updater
+>>>>>>> f1570712 (.)
  *
  * @method static \Modules\Xot\Database\Factories\CacheLockFactory factory($count = null, $state = [])
  * @method static Builder<static>|CacheLock newModelQuery()

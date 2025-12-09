@@ -2020,15 +2020,16 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $attributes = $model->attributesToArray();
 
         $fields = array_merge($fillable, $appends);
-        $fields = array_fill_keys($fields, null);
-        $fields = array_merge($fields, $attributes);
+        /** @var array<string, mixed> $fieldsWithNull */
+        $fieldsWithNull = array_fill_keys($fields, null);
+        $fieldsWithNull = array_merge($fieldsWithNull, $attributes);
         if (method_exists($model, 'getDataDefaults')) {
             /** @var array<string, mixed> $defaults */
             $defaults = $model->getDataDefaults();
-            $fields = array_merge($fields, $defaults);
+            $fieldsWithNull = array_merge($fieldsWithNull, $defaults);
         }
 
-        return $fields;
+        return $fieldsWithNull;
     }
 
     /**

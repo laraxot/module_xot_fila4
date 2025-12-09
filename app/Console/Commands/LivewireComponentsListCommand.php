@@ -45,7 +45,9 @@ class LivewireComponentsListCommand extends Command
      *
      * @return void
      */
+<<<<<<< HEAD
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,10 +102,14 @@ class LivewireComponentsListCommand extends Command
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
     public function __construct()
     {
         parent::__construct();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,6 +187,9 @@ class LivewireComponentsListCommand extends Command
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
     /**
      * Execute the console command.
@@ -189,14 +198,25 @@ class LivewireComponentsListCommand extends Command
     {
         // Call to undefined method Livewire\LivewireManager::getComponents()
         // $registeredComponents = Livewire::getComponents();
+<<<<<<< HEAD
         // Stampa o manipola l'array di componenti come desiderato
         // print_r($registeredComponents);
+=======
+
+        // Stampa o manipola l'array di componenti come desiderato
+        // print_r($registeredComponents);
+
+>>>>>>> f1d4085 (.)
         // dddx(get_class_methods(app(ComponentRegistry::class)));
         // $manifest = app(\Livewire\LivewireComponentsFinder::class)->getManifest();
         // dddx($manifest);
         // dddx(get_class_methods(app(HandleComponents::class)));
         // Ottieni tutti i componenti registrati
         // $registeredComponents = LivewireManager::getAliases();
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
         // Stampa o manipola l'array di componenti come desiderato
         // print_r($registeredComponents);
         // dddx(get_class_methods(app(LivewireManager::class)));

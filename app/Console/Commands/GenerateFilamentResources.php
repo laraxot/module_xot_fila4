@@ -19,6 +19,7 @@ class GenerateFilamentResources extends Command
     public function handle(): int
     {
         $moduleName = $this->argument('module');
+<<<<<<< HEAD
 
         // Assicuriamoci che $moduleName sia una stringa
 <<<<<<< HEAD
@@ -88,6 +89,7 @@ class GenerateFilamentResources extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> ed734516 (.)
@@ -125,6 +127,8 @@ class GenerateFilamentResources extends Command
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> ed734516 (.)
+=======
         
         // Assicuriamoci che $moduleName sia una stringa
         if (!is_string($moduleName)) {
@@ -139,6 +143,7 @@ class GenerateFilamentResources extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
@@ -185,6 +190,9 @@ class GenerateFilamentResources extends Command
 =======
         if (!$module) {
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             $this->error("Il modulo '{$moduleName}' non esiste.");
 
             return Command::FAILURE;
@@ -192,6 +200,7 @@ class GenerateFilamentResources extends Command
 
         $this->info("Generazione delle Filament Resources per il modulo: {$moduleName}");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,9 +284,14 @@ class GenerateFilamentResources extends Command
         if (!File::isDirectory($modelsPath)) {
 >>>>>>> ed734516 (.)
 =======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> ed734516 (.)
+=======
         $modelsPath = $module->getPath().'/app/Models';
         if (! File::isDirectory($modelsPath)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,6 +337,8 @@ class GenerateFilamentResources extends Command
         $modelsPath = $module->getPath() . '/app/Models';
         if (!File::isDirectory($modelsPath)) {
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
             $this->error("Nessuna cartella 'Models' trovata nel modulo {$moduleName}.");
 
             return Command::FAILURE;
@@ -334,6 +350,7 @@ class GenerateFilamentResources extends Command
 
             // Assicuriamoci che $moduleName sia una stringa per strtolower
             $panelName = strtolower($moduleName);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -381,7 +398,12 @@ class GenerateFilamentResources extends Command
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
             $panel = $panelName . '::admin';
+=======
+            $panel = $panelName.'::admin';
+>>>>>>> f1d4085 (.)
             $params = [
                 'name' => $modelName,
 >>>>>>> 5a14301c (.)

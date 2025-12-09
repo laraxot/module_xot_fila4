@@ -30,6 +30,7 @@ namespace Modules\Xot\Exceptions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -78,7 +79,11 @@ use Override;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
 use Override;
+=======
+>>>>>>> f1d4085 (.)
 use Exception;
 use Illuminate\Http\Response;
 use Illuminate\Support\Str;
@@ -97,6 +102,7 @@ class ModelDeletionException extends ApplicationException
 {
     private readonly string $model;
 
+<<<<<<< HEAD
     public function __construct(
         private readonly int $id,
         string $model,
@@ -105,11 +111,19 @@ class ModelDeletionException extends ApplicationException
     }
 
     #[Override]
+=======
+    public function __construct(private readonly int $id, string $model)
+    {
+        $this->model = Str::afterLast($model, '\\');
+    }
+
+>>>>>>> f1d4085 (.)
     public function status(): int
     {
         return Response::HTTP_BAD_REQUEST;
     }
 
+<<<<<<< HEAD
     #[Override]
     public function help(): string
     {
@@ -124,6 +138,7 @@ class ModelDeletionException extends ApplicationException
 =======
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,10 +197,14 @@ class ModelDeletionException extends ApplicationException
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
     public function help(): string
     {
         $res = trans('exception.model_not_deleted.help');
         if (! \is_string($res)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,11 +295,16 @@ class ModelDeletionException extends ApplicationException
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 5a14301c (.)
+=======
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         }
 
         return $res;
     }
 
+<<<<<<< HEAD
     #[Override]
     public function error(): string
     {
@@ -298,6 +322,7 @@ class ModelDeletionException extends ApplicationException
 =======
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -356,6 +381,9 @@ class ModelDeletionException extends ApplicationException
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
     public function error(): string
     {
         $res = trans(
@@ -373,6 +401,7 @@ class ModelDeletionException extends ApplicationException
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -459,6 +488,10 @@ class ModelDeletionException extends ApplicationException
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 5a14301c (.)
+=======
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         }
 
         return $res;

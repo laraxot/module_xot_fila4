@@ -27,6 +27,7 @@ use Filament\Panel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 =======
@@ -92,6 +93,8 @@ use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
@@ -109,6 +112,15 @@ use Modules\Xot\Datas\MetatagData;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Datas\XotData;
 use Spatie\QueueableAction\QueueableAction;
+=======
+use Modules\Xot\Datas\XotData;
+use Modules\Xot\Datas\MetatagData;
+use Spatie\QueueableAction\QueueableAction;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Gate;
+use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
+use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
+>>>>>>> f1d4085 (.)
 
 class ApplyTenancyToPanelAction
 {
@@ -135,6 +147,7 @@ class ApplyTenancyToPanelAction
         //$user = Auth::user();
 
         //if (Gate::allows('superadmin', $user)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +240,8 @@ class ApplyTenancyToPanelAction
 
         //if (Gate::allows('superadmin', $user)) {
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         // Configurazione completa per superadmin
         $panel
             ->tenant($tenant_class, 'slug', 'tenants')
@@ -274,6 +289,16 @@ class ApplyTenancyToPanelAction
         //} else {
         // Configurazione limitata per non-superadmin
         //$panel->tenant($tenant_class, slugAttribute: 'slug');
+=======
+            // Configurazione completa per superadmin
+            $panel
+                ->tenant($tenant_class, 'slug', 'tenants')
+                ->tenantRegistration(RegisterTenant::class)
+                ->tenantProfile(EditTenantProfile::class);
+        //} else {
+            // Configurazione limitata per non-superadmin
+            //$panel->tenant($tenant_class, slugAttribute: 'slug');
+>>>>>>> f1d4085 (.)
         //}
 <<<<<<< HEAD
 <<<<<<< HEAD

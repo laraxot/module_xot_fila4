@@ -43,6 +43,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! isset($data['to'])) {
 =======
             if (!isset($data['to'])) {
@@ -158,6 +159,12 @@ class MorphToManyAction
 =======
             if (!isset($data['to'])) {
 >>>>>>> 5a14301c (.)
+=======
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
                 $data['to'] = [];
             }
 
@@ -188,6 +195,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! Arr::isAssoc($data)) {
 =======
         if (!Arr::isAssoc($data)) {
@@ -303,11 +311,18 @@ class MorphToManyAction
 =======
         if (!Arr::isAssoc($data)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!Arr::isAssoc($data)) {
+=======
+        if (! Arr::isAssoc($data)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             $relationDTO->rows->sync($data);
 
             return;
         }
 
+<<<<<<< HEAD
         dddx([
             'message' => 'wip',
             'row' => $model,
@@ -336,5 +351,36 @@ class MorphToManyAction
          * }
          * }
          */
+=======
+        dddx(
+            [
+                'message' => 'wip',
+                'row' => $model,
+                'relation' => $relationDTO,
+                'relation_rows' => $relationDTO->rows->exists(),
+                't' => $model->{$relationDTO->name},
+            ]
+        );
+
+        dddx('wip');
+        /*
+        foreach ($data as $k => $v) {
+            if (\is_array($v)) {
+                if (! isset($v['pivot'])) {
+                    $v['pivot'] = [];
+                }
+                if (! isset($v['pivot']['user_id']) && isset($model->user_id)) {
+                    $v['pivot']['user_id'] = $model->user_id;
+                }
+                if (! isset($v['pivot']['user_id']) && \Auth::check()) {
+                    $v['pivot']['user_id'] = \Auth::id();
+                }
+                $model->$name()->syncWithoutDetaching([$k => $v['pivot']]);
+            } else {
+                $res = $model->$name()->syncWithoutDetaching([$v]);
+            }
+        }
+        */
+>>>>>>> f1d4085 (.)
     }
 }

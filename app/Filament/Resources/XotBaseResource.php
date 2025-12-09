@@ -21,6 +21,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use ReflectionClass;
 use Filament\Pages\Enums\SubNavigationPosition;
@@ -85,11 +86,15 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
 use Filament\Schemas\Components\Component;
 use Filament\Resources\Pages\PageRegistration;
 use Filament\Resources\Pages\Page;
 use Filament\Resources\RelationManagers\RelationGroup;
 use Filament\Resources\RelationManagers\RelationManagerConfiguration;
+=======
+>>>>>>> f1d4085 (.)
 use Filament\Pages\Enums\SubNavigationPosition;
 use Illuminate\Database\Eloquent\Model;
 use Filament\Schemas\Schema;
@@ -97,6 +102,13 @@ use Exception;
 use ReflectionClass;
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Schemas\Components\Wizard\Step;
+<<<<<<< HEAD
+=======
+use Filament\Resources\Pages\PageRegistration;
+use Filament\Resources\Pages\Page;
+use Filament\Resources\RelationManagers\RelationGroup;
+use Filament\Resources\RelationManagers\RelationManagerConfiguration;
+>>>>>>> f1d4085 (.)
 use Filament\Forms;
 use Filament\Resources\Resource as FilamentResource;
 use Illuminate\Contracts\Support\Htmlable;
@@ -153,6 +165,7 @@ abstract class XotBaseResource extends FilamentResource
 {
     use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -259,6 +272,12 @@ abstract class XotBaseResource extends FilamentResource
 =======
     protected static null|string $model = null;
 >>>>>>> 5a14301c (.)
+=======
+    protected static null|string $model = null;
+=======
+    protected static ?string $model = null;
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
     // protected static ?string $navigationIcon = 'heroicon-o-bell';
     // protected static ?string $navigationLabel = 'Custom Navigation Label';
@@ -284,6 +303,7 @@ abstract class XotBaseResource extends FilamentResource
      */
     public static function getModel(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -343,6 +363,8 @@ abstract class XotBaseResource extends FilamentResource
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
         if (static::$model !== null) {
 >>>>>>> 5a14301c (.)
 =======
@@ -380,11 +402,17 @@ abstract class XotBaseResource extends FilamentResource
                 sprintf('Class %s must extend Eloquent Model', $res),
 >>>>>>> 5a14301c (.)
             );
+=======
+        if (static::$model != null) {
+            $res = static::$model;
+            Assert::subclassOf($res, Model::class, sprintf('Class %s must extend Eloquent Model', $res));
+>>>>>>> f1d4085 (.)
 
             return $res;
         }
         $moduleName = static::getModuleName();
         $modelName = Str::before(class_basename(static::class), 'Resource');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -456,6 +484,8 @@ abstract class XotBaseResource extends FilamentResource
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         $res = 'Modules\\' . $moduleName . '\Models\\' . $modelName;
         Assert::classExists($res, sprintf('Model class %s does not exist', $res));
         Assert::subclassOf(
@@ -473,12 +503,18 @@ abstract class XotBaseResource extends FilamentResource
 =======
 >>>>>>> 5a14301c (.)
         );
+=======
+        $res = 'Modules\\'.$moduleName.'\Models\\'.$modelName;
+        Assert::classExists($res, sprintf('Model class %s does not exist', $res));
+        Assert::subclassOf($res, Model::class, sprintf('Class %s must extend Eloquent Model', $res));
+>>>>>>> f1d4085 (.)
         static::$model = $res;
 
         return $res;
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -582,11 +618,18 @@ abstract class XotBaseResource extends FilamentResource
 =======
      * @return array<string|int, Component>
 >>>>>>> 5a14301c (.)
+=======
+     * @return array<string|int, Component>
+=======
+     * @return array<string|int, \Filament\Schemas\Components\Component>
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
      */
     abstract public static function getFormSchema(): array;
 
     final public static function form(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -691,12 +734,16 @@ abstract class XotBaseResource extends FilamentResource
         return $schema->components(static::getFormSchema());
 >>>>>>> ed734516 (.)
 =======
+        return $schema->components(static::getFormSchema());
+>>>>>>> ed734516 (.)
+=======
         return $schema
             ->components(static::getFormSchema());
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -732,6 +779,8 @@ abstract class XotBaseResource extends FilamentResource
 =======
         return $schema->components(static::getFormSchema());
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
     }
 
     /**
@@ -739,7 +788,12 @@ abstract class XotBaseResource extends FilamentResource
      */
     public static function extendTableCallback(): array
     {
+<<<<<<< HEAD
         return [];
+=======
+        return [
+        ];
+>>>>>>> f1d4085 (.)
     }
 
     /**
@@ -749,6 +803,7 @@ abstract class XotBaseResource extends FilamentResource
      */
     public static function extendFormCallback(): array
     {
+<<<<<<< HEAD
         return [];
     }
 
@@ -762,6 +817,7 @@ abstract class XotBaseResource extends FilamentResource
     public static function getNavigationBadge(): ?string
 =======
     public static function getNavigationBadge(): null|string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -806,11 +862,15 @@ abstract class XotBaseResource extends FilamentResource
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
         return [
         ];
     }
 
     public static function getNavigationBadge(): ?string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -872,6 +932,9 @@ abstract class XotBaseResource extends FilamentResource
 =======
     public static function getNavigationBadge(): null|string
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     {
         try {
             $count = app(CountAction::class)->execute(static::getModel());
@@ -893,6 +956,7 @@ abstract class XotBaseResource extends FilamentResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return number_format($count, 0).'';
 =======
 =======
@@ -955,6 +1019,12 @@ abstract class XotBaseResource extends FilamentResource
 =======
             return number_format($count, 0) . '';
 >>>>>>> 5a14301c (.)
+=======
+            return number_format($count, 0) . '';
+=======
+            return number_format($count, 0).'';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         } catch (Exception $e) {
             return '--';
         }
@@ -965,6 +1035,7 @@ abstract class XotBaseResource extends FilamentResource
      */
     public static function getPages(): array
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1014,6 +1085,8 @@ abstract class XotBaseResource extends FilamentResource
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         $prefix = static::class . '\Pages\\';
         $name = Str::of(class_basename(static::class))->before('Resource')->toString();
         $plural = Str::of($name)->plural()->toString();
@@ -1032,10 +1105,14 @@ abstract class XotBaseResource extends FilamentResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
 =======
 =======
 >>>>>>> ed734516 (.)
@@ -1046,6 +1123,7 @@ abstract class XotBaseResource extends FilamentResource
         $create = Str::of($prefix)->append('Create'.$name.'')->toString();
         $edit = Str::of($prefix)->append('Edit'.$name.'')->toString();
         $view = Str::of($prefix)->append('View'.$name.'')->toString();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1164,6 +1242,9 @@ abstract class XotBaseResource extends FilamentResource
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
         /** @var class-string<Page> $index */
         $index = $index;
@@ -1196,6 +1277,7 @@ abstract class XotBaseResource extends FilamentResource
     {
         $reflector = new ReflectionClass(static::class);
         $filename = $reflector->getFileName();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1271,7 +1353,12 @@ abstract class XotBaseResource extends FilamentResource
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         Assert::string($filename, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+=======
+        Assert::string($filename);
+>>>>>>> f1d4085 (.)
 
         $path = Str::of($filename)
             ->before('.php')
@@ -1279,16 +1366,22 @@ abstract class XotBaseResource extends FilamentResource
             ->append('RelationManagers')
             ->toString();
 
+<<<<<<< HEAD
         $files = glob($path . DIRECTORY_SEPARATOR . '*RelationManager.php');
+=======
+        $files = glob($path.DIRECTORY_SEPARATOR.'*RelationManager.php');
+>>>>>>> f1d4085 (.)
         Assert::isArray($files);
 
         /** @var array<class-string<RelationManager>> $res */
         $res = [];
         foreach ($files as $file) {
             $className = Str::of($file)
+<<<<<<< HEAD
                 ->after('RelationManagers' . DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class . '\RelationManagers\\')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1324,9 +1417,12 @@ abstract class XotBaseResource extends FilamentResource
 =======
 >>>>>>> ed734516 (.)
 =======
+>>>>>>> ed734516 (.)
+=======
                 ->after('RelationManagers'.DIRECTORY_SEPARATOR)
                 ->before('.php')
                 ->prepend(static::class.'\RelationManagers\\')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1389,6 +1485,9 @@ abstract class XotBaseResource extends FilamentResource
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
                 ->toString();
 
             if (class_exists($className)) {
@@ -1412,7 +1511,9 @@ abstract class XotBaseResource extends FilamentResource
         if (! view()->exists($submit_view)) {
 =======
         //@phpstan-ignore-next-line
+<<<<<<< HEAD
         if (!view()->exists($submit_view)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1460,6 +1561,11 @@ abstract class XotBaseResource extends FilamentResource
         //@phpstan-ignore-next-line
         if (!view()->exists($submit_view)) {
 >>>>>>> 5a14301c (.)
+=======
+=======
+        if (! view()->exists($submit_view)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             throw new Exception("View {$submit_view} does not exist");
         }
         $render = view($submit_view)->render();
@@ -1470,11 +1576,16 @@ abstract class XotBaseResource extends FilamentResource
     /**
      * Get attachments schema for forms.
      *
+<<<<<<< HEAD
      * @return array<int, Component>
+=======
+     * @return array<int, \Filament\Schemas\Components\Component>
+>>>>>>> f1d4085 (.)
      */
     public static function getAttachmentsSchema(bool $multiple = true): array
     {
         $model = static::getModel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1540,7 +1651,12 @@ abstract class XotBaseResource extends FilamentResource
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         if (!method_exists($model, 'getAttachments')) {
+=======
+        if (! method_exists($model, 'getAttachments')) {
+>>>>>>> f1d4085 (.)
             return [];
         }
         $attachments = $model::getAttachments();
@@ -1562,6 +1678,7 @@ abstract class XotBaseResource extends FilamentResource
 
     protected static function getStepByName(string $name): Step
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1626,6 +1743,8 @@ abstract class XotBaseResource extends FilamentResource
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
         $schema = Str::of($name)
 >>>>>>> 5a14301c (.)
 =======
@@ -1669,6 +1788,7 @@ abstract class XotBaseResource extends FilamentResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
         return Step::make($name)->schema(static::$schema());
@@ -1699,10 +1819,14 @@ abstract class XotBaseResource extends FilamentResource
 =======
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
         $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
 
         return Step::make($name)
             ->schema(static::$schema());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1767,5 +1891,8 @@ abstract class XotBaseResource extends FilamentResource
 =======
         return Step::make($name)->schema(static::$schema());
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     }
 }

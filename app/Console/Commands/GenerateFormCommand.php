@@ -91,7 +91,9 @@ class GenerateFormCommand extends Command
      *
      * @return void
      */
+<<<<<<< HEAD
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,10 +136,14 @@ class GenerateFormCommand extends Command
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
     public function __construct()
     {
         parent::__construct();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,12 +201,16 @@ class GenerateFormCommand extends Command
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
     /**
      * Execute the console command.
      */
     public function handle(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,12 +285,22 @@ class GenerateFormCommand extends Command
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         Assert::string($module_name = $this->argument('module'), '[' . __LINE__ . '][' . class_basename($this) . ']');
         $module_path = Module::getModulePath($module_name);
         if (!Str::endsWith($module_path, '/')) {
             $module_path .= '/';
         }
         $filament_resources_path = $module_path . 'Filament/Resources';
+=======
+        Assert::string($module_name = $this->argument('module'), '['.__LINE__.']['.class_basename($this).']');
+        $module_path = Module::getModulePath($module_name);
+        if (! Str::endsWith($module_path, '/')) {
+            $module_path .= '/';
+        }
+        $filament_resources_path = $module_path.'Filament/Resources';
+>>>>>>> f1d4085 (.)
 
         $this->info($module_name); // = Progressioni
         $this->info($module_path); // = /var/www/html/ptvx/laravel/Modules/Progressioni/

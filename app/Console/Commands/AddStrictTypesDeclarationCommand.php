@@ -6,9 +6,14 @@ namespace Modules\Xot\Console\Commands;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use SplFileInfo;
 use Exception;
+=======
+use Exception;
+use SplFileInfo;
+>>>>>>> ed734516 (.)
 =======
 use Exception;
 use SplFileInfo;
@@ -31,9 +36,12 @@ class AddStrictTypesDeclarationCommand extends Command
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @var array<string>
      */
+=======
+>>>>>>> ed734516 (.)
 =======
 >>>>>>> ed734516 (.)
 =======
@@ -55,6 +63,7 @@ class AddStrictTypesDeclarationCommand extends Command
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($moduleOption && is_string($moduleOption)) {
             $modulePath .= '/'.$moduleOption;
             if (! File::isDirectory($modulePath)) {
@@ -63,11 +72,16 @@ class AddStrictTypesDeclarationCommand extends Command
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
         if ($moduleOption) {
             $modulePath .= '/' . $moduleOption;
             if (!File::isDirectory($modulePath)) {
                 $this->error("Il modulo {$moduleOption} non esiste");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> ed734516 (.)
@@ -79,6 +93,7 @@ class AddStrictTypesDeclarationCommand extends Command
         $count = 0;
 
         foreach ($files as $file) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             Assert::isInstanceOf($file, SplFileInfo::class);
@@ -106,6 +121,8 @@ class AddStrictTypesDeclarationCommand extends Command
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
                     $this->info("Verrebbe processato: {$file}");
@@ -120,6 +137,9 @@ class AddStrictTypesDeclarationCommand extends Command
                     }
                     
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> ed734516 (.)
@@ -129,7 +149,11 @@ class AddStrictTypesDeclarationCommand extends Command
                 } catch (Exception $e) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     $this->error("Errore nel processare {$path}: ".$e->getMessage());
+=======
+                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
+>>>>>>> ed734516 (.)
 =======
                     $this->error("Errore nel processare {$path}: " . $e->getMessage());
 >>>>>>> ed734516 (.)
@@ -148,9 +172,12 @@ class AddStrictTypesDeclarationCommand extends Command
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<SplFileInfo>
      */
+=======
+>>>>>>> ed734516 (.)
 =======
 >>>>>>> ed734516 (.)
 =======
@@ -165,7 +192,11 @@ class AddStrictTypesDeclarationCommand extends Command
         // Verifica l'estensione
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! str_ends_with($file->getFilename(), '.php')) {
+=======
+        if (!str_ends_with($file->getFilename(), '.php')) {
+>>>>>>> ed734516 (.)
 =======
         if (!str_ends_with($file->getFilename(), '.php')) {
 >>>>>>> ed734516 (.)
@@ -191,8 +222,12 @@ class AddStrictTypesDeclarationCommand extends Command
         $content = File::get($path);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return ! str_contains($content, 'declare(strict_types=1)');
+=======
+        return !str_contains($content, 'declare(strict_types=1)');
+>>>>>>> ed734516 (.)
 =======
         return !str_contains($content, 'declare(strict_types=1)');
 >>>>>>> ed734516 (.)

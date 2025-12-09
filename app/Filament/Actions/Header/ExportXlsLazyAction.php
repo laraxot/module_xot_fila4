@@ -8,7 +8,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Actions\Header;
 
+<<<<<<< HEAD
 use Exception;
+=======
+>>>>>>> f1d4085 (.)
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
 <<<<<<< HEAD
@@ -38,7 +41,11 @@ class ExportXlsLazyAction extends Action
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> f1d4085 (.)
         $this->label(__('xot::actions.export_xls.label'))
             ->tooltip(__('xot::actions.export_xls.tooltip'))
             ->icon(__('xot::actions.export_xls.icon'))
@@ -49,6 +56,7 @@ class ExportXlsLazyAction extends Action
             ->successNotificationTitle(__('xot::actions.export_xls.success'))
             ->requiresConfirmation()
             ->action(static function (ListRecords $livewire) {
+<<<<<<< HEAD
                 $filename =
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +86,9 @@ class ExportXlsLazyAction extends Action
                     collect($livewire->tableFilters)->flatten()->implode('-') .
 >>>>>>> 5a14301c (.)
                     '.xlsx';
+=======
+                $filename = class_basename($livewire).'-'.collect($livewire->tableFilters)->flatten()->implode('-').'.xlsx';
+>>>>>>> f1d4085 (.)
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
 
@@ -144,6 +155,7 @@ class ExportXlsLazyAction extends Action
                 }
 
                 $lazy = $livewire->getFilteredTableQuery();
+<<<<<<< HEAD
                 if ($lazy === null) {
                     throw new Exception('Query is null');
                 }
@@ -186,11 +198,27 @@ class ExportXlsLazyAction extends Action
 =======
 >>>>>>> 5a14301c (.)
                     return app(ExportXlsByQuery::class)->execute($lazy, $filename, $stringFields, null);
+=======
+                
+                if ($lazy->count() < 7) {
+                    Assert::isInstanceOf($lazy, Builder::class);
+                    
+                    /** @var array<int, string> $stringFields */
+                    $stringFields = array_values($fields);
+                    
+                    return app(ExportXlsByQuery::class)->execute(
+                        $lazy, 
+                        $filename, 
+                        $stringFields, 
+                        null
+                    );
+>>>>>>> f1d4085 (.)
                 }
 
                 $lazyCursor = $lazy->cursor();
 
                 if ($lazyCursor->count() > 3000) {
+<<<<<<< HEAD
                     return app(ExportXlsStreamByLazyCollection::class)
                         ->execute($lazyCursor, $filename, $transKey, array_values($fields));
                 }
@@ -210,6 +238,7 @@ class ExportXlsLazyAction extends Action
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,12 +299,16 @@ class ExportXlsLazyAction extends Action
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
                     return app(ExportXlsStreamByLazyCollection::class)->execute(
                         $lazyCursor, 
                         $filename, 
                         $transKey, 
                         array_values($fields)
                     );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,6 +354,8 @@ class ExportXlsLazyAction extends Action
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
                 }
 
                 return app(ExportXlsByLazyCollection::class)->execute(
@@ -332,6 +367,7 @@ class ExportXlsLazyAction extends Action
     }
 
     public static function getDefaultName(): ?string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -400,6 +436,9 @@ class ExportXlsLazyAction extends Action
 =======
     public static function getDefaultName(): null|string
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     {
         return 'export_xls';
     }

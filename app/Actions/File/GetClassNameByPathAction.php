@@ -4,11 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\File;
 
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\file_get_contents;
 use function Safe\preg_match;
 
+=======
+use function Safe\file_get_contents;
+use function Safe\preg_match;
+
+use Spatie\QueueableAction\QueueableAction;
+
+>>>>>>> f1d4085 (.)
 class GetClassNameByPathAction
 {
     use QueueableAction;
@@ -23,6 +31,7 @@ class GetClassNameByPathAction
         $namespace = $namespaceMatch[1] ?? '';
         $className = $classMatch[1] ?? '';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,7 +92,12 @@ class GetClassNameByPathAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+=======
+        $fullClassName = $namespace ? $namespace.'\\'.$className : $className;
+>>>>>>> f1d4085 (.)
 
         return $fullClassName;
 >>>>>>> 5a14301c (.)
@@ -106,6 +120,7 @@ class GetClassNameByPathAction
 }
 
 /*
+<<<<<<< HEAD
  * $class = Str::of($path)
  * ->after(base_path('Modules'))
  * ->prepend('\Modules')
@@ -113,3 +128,12 @@ class GetClassNameByPathAction
  * ->replace('/', '\\')
  * ->toString();
  */
+=======
+$class = Str::of($path)
+                    ->after(base_path('Modules'))
+                    ->prepend('\Modules')
+                    ->before('.php')
+                    ->replace('/', '\\')
+                    ->toString();
+                    */
+>>>>>>> f1d4085 (.)

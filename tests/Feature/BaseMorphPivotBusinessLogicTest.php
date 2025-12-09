@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Feature;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\Pivot;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\BaseMorphPivot;
 use Tests\TestCase;
+=======
+use Modules\Xot\Models\BaseMorphPivot;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Database\Eloquent\Relations\Pivot;
+>>>>>>> f1d4085 (.)
 
 class BaseMorphPivotBusinessLogicTest extends TestCase
 {

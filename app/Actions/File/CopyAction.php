@@ -36,6 +36,7 @@ class CopyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
@@ -107,6 +108,8 @@ class CopyAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         if (!File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
@@ -126,6 +129,13 @@ class CopyAction
 =======
 >>>>>>> 5a14301c (.)
                 );
+=======
+        if (! File::exists(\dirname($to))) {
+            try {
+                File::makeDirectory(\dirname($to), 0755, true, true);
+            } catch (Exception $e) {
+                dd('Caught exception: ', $e->getMessage(), '\n['.__LINE__.']['.class_basename(static::class).']');
+>>>>>>> f1d4085 (.)
             }
         }
 
@@ -141,6 +151,7 @@ class CopyAction
         try {
             File::copy($from, $to);
         } catch (Exception $exception) {
+<<<<<<< HEAD
             throw new Exception(
                 'Unable to copy
 <<<<<<< HEAD
@@ -184,6 +195,12 @@ class CopyAction
                 $exception->getCode(),
                 $exception,
             );
+=======
+            throw new Exception('Unable to copy
+                    from ['.$from.']
+                    to ['.$to.']
+                    message ['.$exception->getMessage().']', $exception->getCode(), $exception);
+>>>>>>> f1d4085 (.)
         }
     }
 }

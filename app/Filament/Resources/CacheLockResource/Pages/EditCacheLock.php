@@ -44,6 +44,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 use Modules\Xot\Filament\Resources\CacheLockResource;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,4 +60,21 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 class EditCacheLock extends XotBaseEditRecord
 {
     protected static string $resource = CacheLockResource::class;
+=======
+
+
+
+
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+
+
+
+
+class EditCacheLock extends XotBaseEditRecord
+{
+    protected static string $resource = CacheLockResource::class;
+
+
+>>>>>>> f1d4085 (.)
 }

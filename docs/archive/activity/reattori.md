@@ -51,7 +51,3 @@ class EventSourcingServiceProvider extends ServiceProvider
         ]);
     }
 }
-<<<<<<< HEAD
-=======
-``` 
->>>>>>> a5dccfe (.)

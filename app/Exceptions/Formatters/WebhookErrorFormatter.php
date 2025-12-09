@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Modules\Xot\Exceptions\Formatters;
+namespace \Filament\Forms\Formatters;
 
 <<<<<<< HEAD
 =======

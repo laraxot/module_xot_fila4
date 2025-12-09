@@ -134,7 +134,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
 // Interfacce specifiche
 interface HasWidgetForms
 {
-    public function form(Form $form): Form;
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema;
     public function getFormSchema(): array;
 }
 

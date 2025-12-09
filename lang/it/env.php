@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -163,6 +166,7 @@ return [
     ],
     'title' => 'env',
 ];
+<<<<<<< HEAD
 =======
 return array (
   'navigation' => 
@@ -339,3 +343,5 @@ return array (
   'title' => 'env',
 );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)

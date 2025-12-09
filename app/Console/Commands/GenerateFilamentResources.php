@@ -20,6 +20,9 @@ class GenerateFilamentResources extends Command
     {
         $moduleName = $this->argument('module');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         // Assicuriamoci che $moduleName sia una stringa
 <<<<<<< HEAD
@@ -72,9 +75,12 @@ class GenerateFilamentResources extends Command
 =======
         if (!$module) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 =======
         
         // Assicuriamoci che $moduleName sia una stringa
@@ -97,7 +103,12 @@ class GenerateFilamentResources extends Command
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             $this->error("Il modulo '{$moduleName}' non esiste.");
 
             return Command::FAILURE;
@@ -105,6 +116,7 @@ class GenerateFilamentResources extends Command
 
         $this->info("Generazione delle Filament Resources per il modulo: {$moduleName}");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,13 +165,22 @@ class GenerateFilamentResources extends Command
         if (!File::isDirectory($modelsPath)) {
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> 21348520 (.)
         $modelsPath = $module->getPath() . '/app/Models';
         if (!File::isDirectory($modelsPath)) {
 =======
         $modelsPath = $module->getPath().'/app/Models';
         if (! File::isDirectory($modelsPath)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             $this->error("Nessuna cartella 'Models' trovata nel modulo {$moduleName}.");
 
             return Command::FAILURE;
@@ -171,6 +192,7 @@ class GenerateFilamentResources extends Command
 
             // Assicuriamoci che $moduleName sia una stringa per strtolower
             $panelName = strtolower($moduleName);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,10 +211,15 @@ class GenerateFilamentResources extends Command
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
             $panel = $panelName . '::admin';
 =======
             $panel = $panelName.'::admin';
 >>>>>>> f1d4085 (.)
+=======
+            $panel = $panelName . '::admin';
+>>>>>>> 73eab74 (.)
             $params = [
                 'name' => $modelName,
 >>>>>>> 5a14301c (.)

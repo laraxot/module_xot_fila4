@@ -15,6 +15,7 @@ use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -28,12 +29,17 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 use Spatie\QueueableAction\QueueableAction;
 =======
 use Nwidart\Modules\Module as ModuleInstance;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 >>>>>>> f1d4085 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 73eab74 (.)
 
 class GetAllModelsAction
 {
@@ -41,6 +47,7 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +93,10 @@ class GetAllModelsAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
      */
     public function execute(): array
     {
@@ -98,6 +109,7 @@ class GetAllModelsAction
 =======
 >>>>>>> 5a14301c (.)
             $res = array_merge($res, $tmp);
+<<<<<<< HEAD
 =======
      *
      * @return array<string, string> Array associativo con snake_case come chiave e FQCN come valore
@@ -122,6 +134,8 @@ class GetAllModelsAction
                 $res[$key] = $value;
             }
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         }
 
         return $res;

@@ -16,6 +16,19 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 73eab74 (.)
+ * |--------------------------------------------------------------------------
+ * | Test Case
+ * |--------------------------------------------------------------------------
+ * |
+ * | Il TestCase di default per tutti i test del modulo Xot.
+ * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
+ * |
+ */
+>>>>>>> 21348520 (.)
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> 399f46d3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33,6 +46,7 @@ use Modules\Xot\Tests\TestCase;
 | Estende il TestCase specifico del modulo che fornisce il setup necessario.
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -130,6 +144,11 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
@@ -140,6 +159,20 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 73eab74 (.)
+ * |--------------------------------------------------------------------------
+ * | Expectations
+ * |--------------------------------------------------------------------------
+ * |
+ * | Qui puoi definire aspettative globali per il modulo Xot.
+ * | Quando definisci here expectation globali, saranno disponibili
+ * | in tutti i test del modulo.
+ * |
+ */
+>>>>>>> 21348520 (.)
 <<<<<<< HEAD
 =======
 =======
@@ -185,6 +218,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 =======
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 
 uses(TestCase::class)->in('Feature', 'Unit');
@@ -274,12 +308,17 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,6 +376,10 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -359,7 +402,10 @@ uses(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
 =======
 // } 
 >>>>>>> 849568d9 (.)
@@ -429,4 +475,9 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 // } 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)

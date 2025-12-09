@@ -10,6 +10,7 @@ namespace Modules\Xot\Filament\Resources\XotBaseResource\RelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\Components\Component;
 use Exception;
 use Filament\Resources\RelationManagers\RelationManager;
@@ -25,6 +26,8 @@ use Override;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Override;
@@ -42,7 +45,15 @@ use Override;
 =======
 use Filament\Schemas\Schema;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Override;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 use Exception;
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Tables;
@@ -115,11 +126,15 @@ abstract class XotBaseRelationManager extends RelationManager
     final public function form(Schema $schema): Schema
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $schema->components($this->getFormSchema());
 =======
         return $schema
             ->components($this->getFormSchema());
 >>>>>>> f1d4085 (.)
+=======
+        return $schema->components($this->getFormSchema());
+>>>>>>> 73eab74 (.)
     }
 
 <<<<<<< HEAD
@@ -130,10 +145,14 @@ abstract class XotBaseRelationManager extends RelationManager
      * Get form schema.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string|int, Component>
 =======
      * @return array<string|int, \Filament\Schemas\Components\Component>
 >>>>>>> f1d4085 (.)
+=======
+     * @return array<string|int, Component>
+>>>>>>> 73eab74 (.)
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,11 +173,15 @@ abstract class XotBaseRelationManager extends RelationManager
      * @return array<string, Tables\Columns\Column>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     #[Override]
     public function getTableColumns(): array
     {
         return [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +203,8 @@ abstract class XotBaseRelationManager extends RelationManager
 =======
 >>>>>>> ed734516 (.)
 =======
+>>>>>>> 21348520 (.)
+=======
     public function getTableColumns(): array
     {
         return [];
@@ -198,7 +223,12 @@ abstract class XotBaseRelationManager extends RelationManager
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         //return $this->getResource()::getTableColumns();
 >>>>>>> 5a14301c (.)
 =======
@@ -262,10 +292,14 @@ abstract class XotBaseRelationManager extends RelationManager
             // Fallback if parent method fails
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
         // Fallback: derive the resource class name from the relation manager name
         $class = get_class($this);
         $resource_name = Str::of(class_basename($this))
@@ -281,6 +315,7 @@ abstract class XotBaseRelationManager extends RelationManager
             ->before('Resources\\')
             ->append('Resources\\')
             ->toString();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -314,12 +349,17 @@ abstract class XotBaseRelationManager extends RelationManager
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         $resourceClass = $ns . '\\' . $resource_name;
 
         if (!class_exists($resourceClass)) {
             throw new Exception("Cannot find resource class {$resourceClass}");
         }
 
+<<<<<<< HEAD
 =======
         $resourceClass = $ns.'\\'.$resource_name;
         
@@ -328,6 +368,8 @@ abstract class XotBaseRelationManager extends RelationManager
         }
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         if (!is_subclass_of($resourceClass, XotBaseResource::class)) {
             throw new Exception("{$resourceClass} must extend XotBaseResource");
         }

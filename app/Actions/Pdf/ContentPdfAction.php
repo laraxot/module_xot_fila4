@@ -11,6 +11,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -26,6 +27,10 @@ use Exception;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 >>>>>>> 5a14301c (.)
@@ -40,6 +45,7 @@ use Webmozart\Assert\Assert;
 /**
  * Action to generate PDF content as binary data for email attachments.
  *
+<<<<<<< HEAD
 =======
 use Spipu\Html2Pdf\Html2Pdf;
 use Webmozart\Assert\Assert;
@@ -51,6 +57,8 @@ use Spatie\QueueableAction\QueueableAction;
  * Action to generate PDF content as binary data for email attachments.
  * 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
  * This action is similar to StreamDownloadPdfAction but returns raw PDF content
  * instead of a download response, making it suitable for email attachments.
  */
@@ -83,17 +91,25 @@ class ContentPdfAction
      * @param string|null $html Contenuto HTML da convertire
      * @param string|null $view Nome della vista Blade da renderizzare
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed>|null $data Dati da passare alla vista
      * @param string $_filename Nome del file PDF (per riferimento, attualmente non utilizzato)
 =======
      * @param array|null $data Dati da passare alla vista
      * @param string $filename Nome del file PDF (per riferimento)
 >>>>>>> f1d4085 (.)
+=======
+     * @param array<string, mixed>|null $data Dati da passare alla vista
+     * @param string $_filename Nome del file PDF (per riferimento, attualmente non utilizzato)
+>>>>>>> 73eab74 (.)
      * @return string Contenuto binario del PDF
      * @throws Exception Se la vista non esiste
      */
     public function execute(
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         null|string $html = null,
         null|string $view = null,
         null|array $data = null,
@@ -102,12 +118,15 @@ class ContentPdfAction
 =======
 >>>>>>> 5a14301c (.)
         string $_filename = 'my_doc.pdf',
+<<<<<<< HEAD
 =======
         ?string $html = null,
         ?string $view = null,
         ?array $data = null,
         string $filename = 'my_doc.pdf'
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     ): string {
         // Generate HTML content if view is provided
         if ($html === null && $view !== null) {
@@ -139,12 +158,16 @@ class ContentPdfAction
         // Create HTML2PDF instance with same configuration as StreamDownloadPdfAction
         $html2pdf = new Html2Pdf(
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             orientation: 'P', // Portrait
             format: 'A4', // A4 format
             lang: 'it', // Italian language
             unicode: true, // Unicode support
             encoding: 'UTF-8', // UTF-8 encoding
             margins: [10, 10, 10, 10], // 10mm margins on all sides
+<<<<<<< HEAD
 =======
             orientation: 'P',     // Portrait
             format: 'A4',         // A4 format
@@ -153,6 +176,8 @@ class ContentPdfAction
             encoding: 'UTF-8',    // UTF-8 encoding
             margins: [10, 10, 10, 10] // 10mm margins on all sides
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         );
 
         // Write HTML content to PDF
@@ -162,16 +187,22 @@ class ContentPdfAction
         return $html2pdf->output('', 'S'); // 'S' returns string content
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
     /**
      * Genera contenuto PDF da una vista con dati specifici.
      *
+<<<<<<< HEAD
 =======
     
     /**
      * Genera contenuto PDF da una vista con dati specifici.
      * 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
      * Metodo di convenienza per generare PDF da viste Blade.
      *
 <<<<<<< HEAD
@@ -197,6 +228,7 @@ class ContentPdfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -208,6 +240,8 @@ class ContentPdfAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
     public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
     {
 =======
@@ -217,11 +251,18 @@ class ContentPdfAction
         string $filename = 'document.pdf'
     ): string {
 >>>>>>> f1d4085 (.)
+=======
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+>>>>>>> 73eab74 (.)
         return $this->execute(
             html: null,
             view: $view,
             data: $data,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             _filename: $filename,
         );
     }
@@ -229,6 +270,7 @@ class ContentPdfAction
     /**
      * Genera contenuto PDF da HTML diretto.
      *
+<<<<<<< HEAD
 =======
             filename: $filename
         );
@@ -238,6 +280,8 @@ class ContentPdfAction
      * Genera contenuto PDF da HTML diretto.
      * 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
      * Metodo di convenienza per generare PDF da contenuto HTML.
      *
 <<<<<<< HEAD
@@ -255,6 +299,7 @@ class ContentPdfAction
      * @return string Contenuto binario del PDF
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function fromHtml(string $html, string $filename = 'document.pdf'): string
     {
 =======
@@ -263,15 +308,23 @@ class ContentPdfAction
         string $filename = 'document.pdf'
     ): string {
 >>>>>>> f1d4085 (.)
+=======
+    public function fromHtml(string $html, string $filename = 'document.pdf'): string
+    {
+>>>>>>> 73eab74 (.)
         return $this->execute(
             html: $html,
             view: null,
             data: null,
 <<<<<<< HEAD
+<<<<<<< HEAD
             _filename: $filename,
 =======
             filename: $filename
 >>>>>>> f1d4085 (.)
+=======
+            _filename: $filename,
+>>>>>>> 73eab74 (.)
         );
     }
 }

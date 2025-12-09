@@ -48,9 +48,13 @@ use function Safe\preg_replace;
 =======
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
 use function Safe\preg_replace;
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
@@ -65,10 +69,14 @@ use function Safe\preg_replace;
 /**
  * Action per normalizzare i nomi dei driver.
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
  * 
 >>>>>>> f1d4085 (.)
+=======
+ *
+>>>>>>> 73eab74 (.)
  * Questa action centralizza la logica di normalizzazione dei nomi dei driver
  * per evitare duplicazione di codice e garantire consistenza in tutta l'applicazione.
  */
@@ -189,7 +197,11 @@ class NormalizeDriverNameAction
 >>>>>>> 5a14301c (.)
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 } 
 >>>>>>> f1d4085 (.)
+=======
+}
+>>>>>>> 73eab74 (.)

@@ -51,6 +51,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -63,6 +64,8 @@ trait Updater
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
 =======
         return $this->belongsTo(
@@ -71,6 +74,9 @@ trait Updater
             'user_id'
         );
 >>>>>>> f1d4085 (.)
+=======
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+>>>>>>> 73eab74 (.)
     }
 
     /**
@@ -99,6 +105,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -111,6 +118,8 @@ trait Updater
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
 =======
         return $this->belongsTo(
@@ -119,6 +128,9 @@ trait Updater
             'user_id'
         );
 >>>>>>> f1d4085 (.)
+=======
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+>>>>>>> 73eab74 (.)
     }
 
     /**
@@ -144,6 +156,9 @@ trait Updater
     protected static function bootUpdater(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         static::creating(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
 
@@ -163,6 +178,7 @@ trait Updater
                 $model->setAttribute('updated_by', authId());
             }
         });
+<<<<<<< HEAD
 =======
         static::creating(
             static function (Model $model): void {
@@ -188,11 +204,16 @@ trait Updater
             }
         );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         /*
          * Deleting a model is slightly different than creating or deleting.
          * For deletes we need to save the model first with the deleted_by field
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         static::deleting(static function (Model $model): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,6 +233,7 @@ trait Updater
 }
 
 // end trait Updater
+<<<<<<< HEAD
 =======
         static::deleting(
             static function (Model $model): void {
@@ -225,3 +247,5 @@ trait Updater
     }
 }// end trait Updater
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)

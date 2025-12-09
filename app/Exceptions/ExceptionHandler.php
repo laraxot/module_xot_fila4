@@ -10,9 +10,13 @@ namespace Modules\Xot\Exceptions;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Configuration\Exceptions;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Illuminate\Foundation\Configuration\Exceptions;
+>>>>>>> 73eab74 (.)
 use Illuminate\Http\Request;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26,6 +30,7 @@ use Illuminate\Support\Facades\View;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Actions\View\GetViewPathAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class ExceptionHandler
@@ -35,6 +40,11 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class ExceptionHandler 
 >>>>>>> f1d4085 (.)
+=======
+use Symfony\Component\HttpKernel\Exception\HttpException;
+
+class ExceptionHandler
+>>>>>>> 73eab74 (.)
 {
     /**
      * Configura la gestione delle eccezioni.
@@ -54,6 +64,7 @@ class ExceptionHandler
     public static function handles(Exceptions $exceptions): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $exceptions->render(function (HttpException $e, Request $request) {
             $status_code = $e->getStatusCode();
 =======
@@ -61,12 +72,19 @@ class ExceptionHandler
         $exceptions->render(function (HttpException $e,Request $request) {
             $status_code=$e->getStatusCode();
 >>>>>>> f1d4085 (.)
+=======
+        $exceptions->render(function (HttpException $e, Request $request) {
+            $status_code = $e->getStatusCode();
+>>>>>>> 73eab74 (.)
             if ($request->wantsJson()) {
                 return response()->json([
                     'message' => $e->getMessage(),
                 ], $status_code);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +106,7 @@ class ExceptionHandler
                 );
             }
             $view_params = ['exception' => $e];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,6 +137,8 @@ class ExceptionHandler
 =======
 >>>>>>> ed734516 (.)
 =======
+>>>>>>> 21348520 (.)
+=======
             
 
             $view='pub_theme::errors.'.$status_code;
@@ -140,7 +161,12 @@ class ExceptionHandler
             }
             $view_params=['exception'=>$e];
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             return response()->view($view, $view_params, $status_code);
         });
     }

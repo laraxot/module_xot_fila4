@@ -10,6 +10,7 @@ namespace Modules\Xot\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -38,6 +39,10 @@ use Webmozart\Assert\Assert;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 use Filament\Panel;
 use Filament\PanelProvider;
 use Illuminate\Support\Arr;
@@ -65,10 +70,13 @@ use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
 =======
+=======
+>>>>>>> 21348520 (.)
 =======
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
@@ -114,7 +122,12 @@ use Webmozart\Assert\Assert;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 
 abstract class XotBasePanelProvider extends PanelProvider
 {
@@ -134,10 +147,14 @@ abstract class XotBasePanelProvider extends PanelProvider
 
         $main_module = Str::lower(XotData::make()->main_module);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $default = $main_module === $moduleLow;
 =======
         $default = ($main_module === $moduleLow);
 >>>>>>> f1d4085 (.)
+=======
+        $default = $main_module === $moduleLow;
+>>>>>>> 73eab74 (.)
 
         $panel = $panel
             ->default($default)
@@ -151,11 +168,16 @@ abstract class XotBasePanelProvider extends PanelProvider
         app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
         // ---------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
         $panel
             ->maxContentWidth('full')
 =======
         $panel->maxContentWidth('full')
 >>>>>>> f1d4085 (.)
+=======
+        $panel
+            ->maxContentWidth('full')
+>>>>>>> 73eab74 (.)
             ->topNavigation($this->topNavigation)
             ->globalSearch($this->globalSearch)
             ->readOnlyRelationManagersOnResourceViewPagesByDefault(false)
@@ -163,6 +185,7 @@ abstract class XotBasePanelProvider extends PanelProvider
             // ->tenant($teamClass)
             // ->tenant($teamClass,ownershipRelationship:'users')
             // ->tenant($teamClass)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,6 +220,10 @@ abstract class XotBasePanelProvider extends PanelProvider
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             ->id($moduleLow . '::admin')
             ->path($moduleLow . '/admin')
             // Configure Filament discovery for module components (unconditional; dirs are expected to exist)
@@ -244,6 +271,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
        
@@ -252,6 +280,8 @@ abstract class XotBasePanelProvider extends PanelProvider
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 =======
             ->id($moduleLow.'::admin')
             ->path($moduleLow.'/admin')
@@ -323,7 +353,12 @@ abstract class XotBasePanelProvider extends PanelProvider
 
        
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         return $panel;
     }
 
@@ -331,6 +366,7 @@ abstract class XotBasePanelProvider extends PanelProvider
     {
         Assert::string($ns = config('modules.namespace'));
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,10 +393,18 @@ abstract class XotBasePanelProvider extends PanelProvider
         return $ns . '\\' . $this->module;
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> 21348520 (.)
         return $ns . '\\' . $this->module;
 =======
         return $ns.'\\'.$this->module;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+        return $ns . '\\' . $this->module;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
     }
 }

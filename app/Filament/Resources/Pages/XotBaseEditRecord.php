@@ -10,6 +10,7 @@ namespace Modules\Xot\Filament\Resources\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\DeleteAction;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 use Filament\Support\Components\Component;
@@ -28,6 +29,10 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
@@ -38,12 +43,15 @@ use Filament\Schemas\Schema;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Traits\TransTrait;
+<<<<<<< HEAD
 =======
 
 use Filament\Schemas\Schema;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 abstract class XotBaseEditRecord extends FilamentEditRecord
 {
@@ -58,26 +66,38 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
      * Configure the form.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param Schema $form The form instance to configure
      * @return Schema The configured form
 =======
      * @param \Filament\Schemas\Schema $form The form instance to configure
      * @return \Filament\Schemas\Schema The configured form
 >>>>>>> f1d4085 (.)
+=======
+     * @param Schema $form The form instance to configure
+     * @return Schema The configured form
+>>>>>>> 73eab74 (.)
      */
     public function form(Schema $form): Schema
     {
         $schema = $this->getFormSchema();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
         if (empty($schema)) {
             $resource = $this->getResource();
             $schema = $resource::getFormSchema();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         // Ensure schema is properly typed for PHPStan level 10
         /** @var array<string|int, Component>|array<Component> $validSchema */
@@ -94,8 +114,11 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 =======
      * @return array<string|int, Component>|array<Component>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> 21348520 (.)
 =======
         
         // Ensure schema is properly typed for PHPStan level 10
@@ -110,7 +133,12 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
      *
      * @return array<string|int, \Filament\Schemas\Components\Component>|array<\Filament\Schemas\Components\Component>
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
      */
     protected function getFormSchema(): array
     {
@@ -130,6 +158,7 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     {
         return static::transFunc(__FUNCTION__);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,4 +248,11 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 }

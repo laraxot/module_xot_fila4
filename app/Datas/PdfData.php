@@ -10,6 +10,9 @@ namespace Modules\Xot\Datas;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +48,7 @@ use Spatie\LaravelPdf\Facades\Pdf;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Str;
 use Spatie\LaravelData\Data;
@@ -60,6 +64,8 @@ use Spatie\LaravelPdf\Enums\Orientation;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 /**
  * Undocumented class.
@@ -93,6 +99,9 @@ class PdfData extends Data
     public string $dest = 'F';
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * Dest can be :
      * I : send the file inline to the browser (default). The plug-in is used if available. The name given by name is used when one selects the "Save as" option on the link generating the PDF.
      * D : send to the browser and force a file download with the name given by name.
@@ -105,6 +114,7 @@ class PdfData extends Data
 
     // public static function make(Model $model = null, string $html = null): self
 
+<<<<<<< HEAD
 =======
         Dest can be :
         I : send the file inline to the browser (default). The plug-in is used if available. The name given by name is used when one selects the "Save as" option on the link generating the PDF.
@@ -120,6 +130,8 @@ class PdfData extends Data
 
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     public PdfEngineEnum $engine = PdfEngineEnum::SPIPU;
 
     public string $html = '';
@@ -178,6 +190,9 @@ class PdfData extends Data
                 $html2pdf->output($this->getPath(), $this->dest);
                 break;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
             /*
              * case PdfEngineEnum::SPATIE:
@@ -197,6 +212,7 @@ class PdfData extends Data
 >>>>>>> 5a14301c (.)
         }
 
+<<<<<<< HEAD
 =======
                 /*
             case PdfEngineEnum::SPATIE:
@@ -214,6 +230,8 @@ class PdfData extends Data
 
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         $this->html = $html;
         // $this->engine->build($this);
 
@@ -228,6 +246,7 @@ class PdfData extends Data
         /**
          * @var non-falsy-string&view-string
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,11 +285,19 @@ class PdfData extends Data
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> 21348520 (.)
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
 =======
         $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         $view_params = [
             'view' => $view_name,
             'row' => $model,
@@ -284,6 +311,9 @@ class PdfData extends Data
     public function getContent(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         Assert::notNull(
             $res = Storage::disk($this->disk)->get($this->filename),
 <<<<<<< HEAD
@@ -300,13 +330,17 @@ class PdfData extends Data
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)
         );
+<<<<<<< HEAD
 =======
         Assert::notNull($res = Storage::disk($this->disk)->get($this->filename), '['.__LINE__.']['.class_basename($this).']');
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         return $res;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -340,16 +374,23 @@ class PdfData extends Data
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
     public function view(string $view, array $params = []): self
     {
         if (!view()->exists($view)) {
             throw new Exception('View ' . $view . ' not found');
+<<<<<<< HEAD
 =======
     public function view(string $view, array $params=[]): self
     {
         if(!view()->exists($view)){
             throw new Exception('View '.$view.' not found');
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         }
         $out = view($view, $params);
         $this->html = $out->render();

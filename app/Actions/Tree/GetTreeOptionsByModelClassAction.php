@@ -32,10 +32,14 @@ class GetTreeOptionsByModelClassAction
      * @return array<int|string, string>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $class, Model|callable|null $_where = null): array
 =======
     public function execute(string $class, Model|callable|null $where = null): array
 >>>>>>> f1d4085 (.)
+=======
+    public function execute(string $class, Model|callable|null $_where = null): array
+>>>>>>> 73eab74 (.)
     {
         /** @var HasRecursiveRelationshipsContract $model */
 <<<<<<< HEAD
@@ -69,10 +73,14 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 5a14301c (.)
             /* @var HasRecursiveRelationshipsContract $row */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             $key = $row->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] = is_string($row)
                 ? $row
                 : ((string) $row->getLabel());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103,6 +111,13 @@ class GetTreeOptionsByModelClassAction
             $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             $this->parse($row);
         }
 
@@ -113,6 +128,9 @@ class GetTreeOptionsByModelClassAction
     {
         foreach ($model->children as $child) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             /** @var HasRecursiveRelationshipsContract $child */
             $key = $child->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] =
@@ -125,6 +143,7 @@ class GetTreeOptionsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
                 Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
@@ -153,6 +172,13 @@ class GetTreeOptionsByModelClassAction
             $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         }
     }
 }

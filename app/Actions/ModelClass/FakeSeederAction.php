@@ -76,6 +76,9 @@ class FakeSeederAction
     public function execute(string $modelClass, int $qty): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         if (
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93,9 +96,12 @@ class FakeSeederAction
                 !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
 >>>>>>> 5a14301c (.)
         ) {
+<<<<<<< HEAD
 =======
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class) || ! in_array(HasFactory::class, class_uses_recursive($modelClass))) {
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
         }
 
@@ -169,13 +175,19 @@ class FakeSeederAction
     {
         $title = sprintf('Created %d %s !', $count, $modelClass);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         Notification::make()
             ->title($title)
             ->success()
             ->send();
+<<<<<<< HEAD
 =======
         Notification::make()->title($title)->success()->send();
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 
     /**
@@ -200,28 +212,38 @@ class FakeSeederAction
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
 =======
         app(self::class)
             ->onQueue()
             ->execute($modelClass, $qty - self::MAX_RECORDS);
 >>>>>>> f1d4085 (.)
+=======
+        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
+>>>>>>> 73eab74 (.)
     }
 
     private function getTableName(string $modelClass): string
     {
         Assert::classExists($modelClass, 'La classe del modello deve esistere');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         /** @var Model */
         $model = app($modelClass);
 
+<<<<<<< HEAD
 =======
         
         /** @var Model */
         $model = app($modelClass);
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         return $model->getTable();
     }
 }

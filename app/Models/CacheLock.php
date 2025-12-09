@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Modules\Xot\Database\Factories\CacheLockFactory;
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
@@ -27,11 +23,6 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5a14301c (.)
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 /**
  * Modules\Xot\Models\CacheLock.
  *
@@ -59,10 +50,6 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> 5a14301c (.)
  * @property int    $expiration
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
  * @method static CacheLockFactory factory($count = null, $state = [])
  * @method static Builder|CacheLock newModelQuery()
  * @method static Builder|CacheLock newQuery()
@@ -80,28 +67,6 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder|CacheLock whereOwner($value)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
-<<<<<<< HEAD
-=======
-=======
- * @method static \Modules\Xot\Database\Factories\CacheLockFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|CacheLock  newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|CacheLock  newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|CacheLock  query()
- * @method static \Illuminate\Database\Eloquent\Builder|CacheLock  whereExpiration($value)
- * @method static \Illuminate\Database\Eloquent\Builder|CacheLock  whereKey($value)
- * @method static \Illuminate\Database\Eloquent\Builder|CacheLock  whereOwner($value)
- * @property int $expiration
- * @method static \Modules\Xot\Database\Factories\CacheLockFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|CacheLock  newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|CacheLock  newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|CacheLock  query()
- * @method static \Illuminate\Database\Eloquent\Builder|CacheLock  whereExpiration($value)
- * @method static \Illuminate\Database\Eloquent\Builder|CacheLock  whereKey($value)
- * @method static \Illuminate\Database\Eloquent\Builder|CacheLock  whereOwner($value)
- * @property \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property \Modules\Xot\Contracts\ProfileContract|null $updater
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
  * @mixin IdeHelperCacheLock
 <<<<<<< HEAD
 <<<<<<< HEAD

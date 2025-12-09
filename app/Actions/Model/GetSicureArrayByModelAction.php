@@ -35,6 +35,7 @@ namespace Modules\Xot\Actions\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use ValueError;
 >>>>>>> 3fbbf1f5 (.)
@@ -94,21 +95,9 @@ use ValueError;
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
 use ValueError;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use ValueError;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use ValueError;
->>>>>>> b93ef594b4 (.)
-=======
-use Doctrine\DBAL\Schema\Index;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 5a14301c (.)
@@ -137,14 +126,6 @@ class GetSicureArrayByModelAction
      */
     public function execute(Model $model): array
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         try {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,31 +154,7 @@ class GetSicureArrayByModelAction
                 } catch (ValueError $e) {
                 }
             }
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-
-=======
-        try{
-            return $model->attributesToArray(); //"" is not a valid backing value for enum Modules\SaluteOra\Enums\OccurrenceFrequencyEnum
-        }catch(\ValueError $e){
-            $data=[];
-            foreach($model->getAttributes() as $key=>$value){
-                try{
-                    $data[$key]=$this->$key;
-                    /** @phpstan-ignore-next-line */
-                }catch(\ValueError $e){
-                    
-                }
-            }
-           
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             return $data;
         }
     }

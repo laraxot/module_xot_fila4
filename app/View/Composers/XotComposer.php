@@ -19,6 +19,7 @@ namespace Modules\Xot\View\Composers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Auth\Authenticatable;
 use Exception;
 =======
@@ -177,6 +178,11 @@ use Modules\Xot\Actions\File\AssetAction;
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+use Exception;
+use Jenssegers\Agent\Agent;
+use Modules\Xot\Actions\File\AssetAction;
+>>>>>>> 9db27d12 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
@@ -201,39 +207,6 @@ use Modules\Xot\Datas\XotData;
 use Nwidart\Modules\Facades\Module;
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-=======
-=======
-use Illuminate\View\View;
-=======
->>>>>>> b93ef594b4 (.)
-use Illuminate\Support\Arr;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Str;
-use Illuminate\View\View;
-use Modules\Xot\Actions\File\AssetPathAction;
-use Modules\Xot\Datas\MetatagData;
-use Modules\Xot\Datas\XotData;
-use Nwidart\Modules\Facades\Module;
-use Nwidart\Modules\Laravel\Module as LaravelModule;
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-use Webmozart\Assert\Assert;
->>>>>>> b93ef594b4 (.)
-=======
-use Illuminate\View\View;
-use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
-use Webmozart\Assert\Assert;
-use Modules\Xot\Datas\XotData;
-use Modules\Xot\Datas\MetatagData;
-use Nwidart\Modules\Facades\Module;
-use Illuminate\Support\Facades\Auth;
-use Modules\Xot\Actions\File\AssetPathAction;
-use Nwidart\Modules\Laravel\Module as LaravelModule;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
 /**
  * Class XotComposer.
@@ -265,14 +238,6 @@ class XotComposer
     {
         $modules = Module::getOrdered();
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         $module = Arr::first($modules, static function ($module) use ($name): bool {
             // Ensure the module is an instance of LaravelModule
 <<<<<<< HEAD
@@ -293,10 +258,6 @@ class XotComposer
             if (!($module instanceof LaravelModule)) {
 >>>>>>> 5a14301c (.)
                 return false;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
             }
 
             Assert::string($moduleName = $module->getName());
@@ -330,6 +291,7 @@ class XotComposer
 
         Assert::isInstanceOf($module, LaravelModule::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
         $class = '\Modules\\' . $module->getName() . '\View\Composers\ThemeComposer';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -727,6 +689,8 @@ class XotComposer
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
 
         $app = app($class);
         $callback = [$app, $name];
@@ -744,7 +708,6 @@ class XotComposer
         $view->with('lang', $lang);
         $view->with('_theme', $this);
 
-<<<<<<< HEAD
         if (class_exists('\Jenssegers\Agent\Agent')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -842,6 +805,7 @@ class XotComposer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 =======
@@ -906,6 +870,8 @@ class XotComposer
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
             $view->with('isMobile', $agent->isMobile());
             $view->with('isTablet', $agent->isTablet());
             $view->with('isDesktop', $agent->isDesktop());
@@ -938,41 +904,18 @@ class XotComposer
 
     public function asset(string $str): string
     {
-<<<<<<< HEAD
         return asset(app(AssetAction::class)->execute($str));
-=======
-<<<<<<< HEAD
-        return asset(app(AssetAction::class)->execute($str));
-=======
-        return asset(app(\Modules\Xot\Actions\File\AssetAction::class)->execute($str));
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     public function path(string $str): string
     {
-<<<<<<< HEAD
         return app(AssetPathAction::class)->execute($str);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return app(AssetPathAction::class)->execute($str);
-=======
-        return (app(AssetPathAction::class)->execute($str));
->>>>>>> a12f125f4a (.)
-=======
-        return app(AssetPathAction::class)->execute($str);
->>>>>>> b93ef594b4 (.)
-=======
-        return (app(AssetPathAction::class)->execute($str));
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     public function metatag(string $str): string|bool|null
     {
         $metatag = MetatagData::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1168,6 +1111,9 @@ class XotComposer
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+        $fun = 'get' . Str::studly($str);
+>>>>>>> 9db27d12 (.)
         if (method_exists($metatag, $fun)) {
             // @phpstan-ignore return.type
             return $metatag->{$fun}();

@@ -19,6 +19,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Carbon;
 use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -63,6 +64,8 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
 use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
@@ -122,23 +125,6 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder|Feed query()
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
-<<<<<<< HEAD
-=======
-=======
-/**
- * Modules\Xot\Models\Feed.
- *
- * @method static \Modules\Xot\Database\Factories\FeedFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|Feed  newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Feed  newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Feed  query()
- * @method static \Illuminate\Database\Eloquent\Builder|Feed  newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Feed  newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Feed  query()
- * @property \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property \Modules\Xot\Contracts\ProfileContract|null $updater
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
  * @mixin IdeHelperFeed
 <<<<<<< HEAD
 <<<<<<< HEAD

@@ -19,6 +19,7 @@ namespace Modules\Xot\Actions\Export;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Model;
 =======
@@ -59,13 +60,9 @@ use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
-use Illuminate\Database\Eloquent\Model;
 =======
-<<<<<<< HEAD
+>>>>>>> 9db27d12 (.)
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 >>>>>>> 5a14301c (.)
 =======
@@ -84,37 +81,6 @@ use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
-<<<<<<< HEAD
-=======
-=======
-use Illuminate\Support\Collection;
-=======
->>>>>>> b93ef594b4 (.)
-use Illuminate\Database\Eloquent\Collection as EloquentCollection;
-use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Facades\Excel;
-use Modules\Xot\Exports\CollectionExport;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
-use Spatie\QueueableAction\QueueableAction;
-use Symfony\Component\HttpFoundation\BinaryFileResponse;
->>>>>>> b93ef594b4 (.)
-=======
-use Illuminate\Support\Collection;
-use Illuminate\Database\Eloquent\Collection as EloquentCollection;
-use Symfony\Component\HttpFoundation\BinaryFileResponse;
-use Maatwebsite\Excel\Facades\Excel;
-use Modules\Xot\Exports\CollectionExport;
-use Spatie\QueueableAction\QueueableAction;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
 /**
  * Classe per l'esportazione di collezioni in formato Excel.
@@ -126,6 +92,7 @@ class ExportXlsByCollection
     /**
      * Esporta una collezione in Excel.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,14 +141,9 @@ class ExportXlsByCollection
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
-     * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $collection La collezione da esportare
 =======
-<<<<<<< HEAD
+>>>>>>> 9db27d12 (.)
      * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $collection La collezione da esportare
-=======
-     * @param Collection<int|string, mixed>|EloquentCollection<int, \Illuminate\Database\Eloquent\Model> $collection La collezione da esportare
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @param string $filename Nome del file Excel
      * @param string|null $transKey Chiave di traduzione per i campi
      * @param array<int, string> $fields Campi da includere nell'export
@@ -201,6 +163,7 @@ class ExportXlsByCollection
     public function execute(
         Collection|EloquentCollection $collection,
         string $filename = 'test.xlsx',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,6 +291,8 @@ class ExportXlsByCollection
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
         null|string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
@@ -348,45 +313,6 @@ class ExportXlsByCollection
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields,
-<<<<<<< HEAD
-=======
-=======
-        ?string $transKey = null,
-=======
-        null|string $transKey = null,
->>>>>>> b93ef594b4 (.)
-        array $fields = [],
-    ): BinaryFileResponse {
-        // Assicuriamo che $fields sia un array di stringhe
-        $stringFields = array_map(fn(mixed $field): string => (string) $field, array_values($fields));
-
-        $export = new CollectionExport(
-            collection: $collection,
-            transKey: $transKey,
-<<<<<<< HEAD
-            fields: $stringFields
->>>>>>> a12f125f4a (.)
-=======
-            fields: $stringFields,
->>>>>>> b93ef594b4 (.)
-=======
-        ?string $transKey = null,
-        array $fields = [],
-    ): BinaryFileResponse {
-        
-       
-        // Assicuriamo che $fields sia un array di stringhe
-        $stringFields = array_map(
-            fn (mixed $field): string => (string) $field,
-            array_values($fields)
-        );
-       
-        $export = new CollectionExport(
-            collection: $collection,
-            transKey: $transKey,
-            fields: $stringFields
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         );
 
         return Excel::download($export, $filename);
@@ -395,6 +321,7 @@ class ExportXlsByCollection
     /**
      * Esporta una collezione in Excel utilizzando PhpSpreadsheet direttamente.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -442,14 +369,9 @@ class ExportXlsByCollection
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
-     * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $rows La collezione da esportare
 =======
-<<<<<<< HEAD
+>>>>>>> 9db27d12 (.)
      * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $rows La collezione da esportare
-=======
-     * @param Collection<int|string, mixed>|EloquentCollection<int, \Illuminate\Database\Eloquent\Model> $rows La collezione da esportare
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @param array<int, string> $fields Campi da includere nell'export
      * @param string $filename Nome del file Excel
      *
@@ -631,6 +553,7 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  EloquentCollection<int, Model>  $eloquentCollection
 =======
      * @param EloquentCollection<int, Model> $eloquentCollection
@@ -699,6 +622,9 @@ class ExportXlsByCollection
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 9db27d12 (.)
      * @return Collection<int|string, mixed>
      */
     protected function convertToSupportCollection(EloquentCollection $eloquentCollection): Collection

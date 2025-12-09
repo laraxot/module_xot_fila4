@@ -19,6 +19,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
@@ -45,13 +46,9 @@ use Spatie\Health\Enums\Status;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
-use Spatie\Health\Enums\Status;
 =======
-<<<<<<< HEAD
+>>>>>>> 9db27d12 (.)
 use Spatie\Health\Enums\Status;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 >>>>>>> 5a14301c (.)
@@ -77,23 +74,10 @@ class HealthOverviewWidget extends BaseWidget
     public function iconColor(string $status): string
     {
         return match ($status) {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
             Status::ok()->value => 'success',
             Status::warning()->value => 'warning',
             Status::skipped()->value => 'warning',
             Status::failed()->value, Status::crashed()->value => 'danger',
-<<<<<<< HEAD
-=======
-=======
-            \Spatie\Health\Enums\Status::ok()->value => 'success',
-            \Spatie\Health\Enums\Status::warning()->value => 'warning',
-            \Spatie\Health\Enums\Status::skipped()->value => 'warning',
-            \Spatie\Health\Enums\Status::failed()->value, \Spatie\Health\Enums\Status::crashed()->value => 'danger',
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             default => 'secondary',
         };
     }
@@ -157,6 +141,7 @@ class HealthOverviewWidget extends BaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->description($result->notificationMessage.' '.$result->status)
 =======
                 ->description($result->notificationMessage . ' ' . $result->status)
@@ -321,44 +306,20 @@ class HealthOverviewWidget extends BaseWidget
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 9db27d12 (.)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }
 
         /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
          * return [
          * Stat::make('Unique views', '192.1k'),
          * Stat::make('Bounce rate', '21%'),
          * Stat::make('Average time on page', '3:12'),
          * ];
          */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
-        return [
-            Stat::make('Unique views', '192.1k'),
-            Stat::make('Bounce rate', '21%'),
-            Stat::make('Average time on page', '3:12'),
-        ];
-        */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         return $stats;
     }
 }

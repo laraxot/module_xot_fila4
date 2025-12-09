@@ -69,7 +69,6 @@ position: 1
 Ogni documento dovrebbe iniziare con:
 
 ```markdown
-
 # Titolo Principale
 
 Breve introduzione che spiega lo scopo del documento e il contesto.
@@ -80,7 +79,6 @@ Breve introduzione che spiega lo scopo del documento e il contesto.
 Utilizzare una gerarchia chiara di intestazioni:
 
 ```markdown
-
 ## Sezione Principale
 
 Descrizione della sezione principale.
@@ -152,7 +150,6 @@ La documentazione dei modelli dovrebbe includere:
 
 Esempio:
 ```markdown
-
 ## NomeModello
 
 ```php
@@ -212,7 +209,6 @@ La documentazione dovrebbe essere aggiornata contemporaneamente alle modifiche d
 Utilizzare strumenti di generazione automatica quando possibile:
 
 ```bash
-
 # Esempio: Generare documentazione per lo schema del database
 php artisan xot:generate-db-documentation /path/to/schema.json /path/to/output
 ```
@@ -249,7 +245,6 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 ### Documentazione di Modelli
 
 ```markdown
-
 # Modelli del Modulo Brain
 
 Questo documento descrive i modelli disponibili nel modulo Brain, che rappresentano le entità del database braindb.

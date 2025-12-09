@@ -365,13 +365,9 @@ class ListFilamentPanels extends Command
 =======
 >>>>>>> 53d6a6ba (.)
             $providers = collect(scandir($providersPath))
-<<<<<<< HEAD
                 ->filter(function ($file): bool {
                     return is_string($file) && str_ends_with($file, 'ServiceProvider.php');
                 });
-=======
-                ->filter(fn (string $file): bool => str_ends_with($file, 'ServiceProvider.php'));
->>>>>>> 713050e (.)
 
             foreach ($providers as $provider) {
                 if (! is_string($provider)) {

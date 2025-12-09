@@ -150,12 +150,12 @@ class MyAction
 
 declare(strict_types=1);
 
-namespace Modules\<nome progetto>\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
+namespace Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
 
 use Filament\Actions\Action;
 use Filament\Actions\DeleteAction;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
-use Modules\<nome progetto>\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\QuestionChartResource;
+use Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\QuestionChartResource;
 
 class ViewQuestionChart extends XotBaseViewRecord
 {
@@ -197,7 +197,7 @@ class ViewQuestionChart extends XotBaseViewRecord
 
 declare(strict_types=1);
 
-namespace Modules\<nome progetto>\Filament\Widgets;
+namespace Modules\Quaeris\Filament\Widgets;
 
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\Select;
@@ -253,10 +253,10 @@ class QuestionChartFilterWidget extends XotBaseWidget
 
 declare(strict_types=1);
 
-namespace Modules\<nome progetto>\Filament\Resources;
+namespace Modules\Quaeris\Filament\Resources;
 
 use Modules\Xot\Filament\Resources\XotBaseResource;
-use Modules\<nome progetto>\Models\QuestionChart;
+use Modules\Quaeris\Models\QuestionChart;
 
 class QuestionChartResource extends XotBaseResource
 {
@@ -361,7 +361,5 @@ BadgeColumn::make('status')
 - [Spatie Queueable Actions](https://github.com/spatie/laravel-queueable-action)
 
 Queste regole garantiscono coerenza con l'architettura Laraxot e compatibilità con Filament 4.
-
-
 
 

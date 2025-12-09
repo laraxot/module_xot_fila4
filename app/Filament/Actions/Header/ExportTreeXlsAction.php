@@ -55,10 +55,6 @@ class ExportTreeXlsAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
             ->tooltip(__('xot::actions.export_xls'))
             // ->icon('heroicon-o-cloud-arrow-down')
             // ->icon('fas-file-excel')
@@ -67,6 +63,7 @@ class ExportTreeXlsAction extends Action
                 $tableFilters = [
                     'id' => $record->getKey(),
                 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -390,6 +387,9 @@ class ExportTreeXlsAction extends Action
 >>>>>>> 73eab74 (.)
 >>>>>>> 15def8d (.)
 >>>>>>> 3ae5e299 (.)
+=======
+                $filename = class_basename($livewire).'-'.collect($tableFilters)->flatten()->implode('-').'.xlsx';
+>>>>>>> 249a0067 (.)
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
                 // $query = $livewire->getFilteredTableQuery(); // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
@@ -402,6 +402,7 @@ class ExportTreeXlsAction extends Action
                 if (method_exists($resource, 'getXlsFields')) {
                     $fields = $resource::getXlsFields($tableFilters);
                     // Convertiamo tutti i valori a stringhe
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -456,6 +457,10 @@ class ExportTreeXlsAction extends Action
 >>>>>>> 73eab74 (.)
                     Assert::isArray($fields);
 >>>>>>> 7d72abc (.)
+=======
+                    $fields = array_map(fn ($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
+                    // PHPStan: $fields is array after array_map
+>>>>>>> 249a0067 (.)
                 }
 
                 /** @var array<int, string> $fields */
@@ -801,9 +806,8 @@ class ExportTreeXlsAction extends Action
             });
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public static function getDefaultName(): ?string
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 71586de2 (.)
 =======
@@ -826,6 +830,8 @@ class ExportTreeXlsAction extends Action
 >>>>>>> 73eab74 (.)
 >>>>>>> 15def8d (.)
 >>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 249a0067 (.)
     {
         return 'export_tree_xls';
     }

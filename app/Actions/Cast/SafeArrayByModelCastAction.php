@@ -122,10 +122,7 @@ class SafeArrayByModelCastAction
 =======
 >>>>>>> 71586de2 (.)
         try {
-            /** @var array<string, mixed> */
-            $attributes = $model->attributesToArray();
-
-            return $attributes;
+            return $model->attributesToArray();
         } catch (ValueError|Error|Exception $e) {
             return $this->safeExecute($model);
         }

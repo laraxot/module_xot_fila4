@@ -603,6 +603,7 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -621,6 +622,10 @@ class GetSchemaManagerByModelClassAction
 =======
             $schemaManager = $connection->getDoctrineSchemaManager();
 >>>>>>> b7afadf9 (.)
+=======
+            $schemaManager = $connection->getDoctrineSchemaManager();
+
+>>>>>>> 249a0067 (.)
             Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class);
 
             return $schemaManager;

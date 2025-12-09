@@ -315,6 +315,7 @@ class ArtisanHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(function (): void {
 =======
             ->action(function () {
@@ -337,6 +338,9 @@ class ArtisanHeaderAction extends Action
 =======
             ->action(function () {
 >>>>>>> 71586de2 (.)
+=======
+            ->action(function () {
+>>>>>>> 249a0067 (.)
                 Assert::string($cmd = $this->getName());
                 Artisan::call($cmd);
                 $output = Artisan::output();

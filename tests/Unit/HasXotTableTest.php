@@ -209,13 +209,12 @@ use Illuminate\Support\Collection;
 
 uses(TestCase::class);
 
-afterEach(function (): void {
+afterEach(function () {
     Mockery::close();
 });
 
-it('tests table method with all methods implemented', function (): void {
+it('tests table method with all methods implemented', function () {
     // Avoid DB/Schema access inside TableExistsByModelClassActions
-    /** @phpstan-ignore-next-line method.notFound */
     Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
         ->shouldReceive('execute')
         ->andReturn(true);
@@ -224,83 +223,53 @@ it('tests table method with all methods implemented', function (): void {
     $mock = Mockery::mock(HasTableWithXotTestClass::class)->makePartial()->shouldDeferMissing();
 
     // Expect getTableHeaderActions to be called
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeaderActions')->once()->andReturn([]);
 
     // Expect getTableActions to be called
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableActions')->once()->andReturn([]);
 
     // Expect getTableBulkActions to be called
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableBulkActions')->once()->andReturn([]);
 
     // Other required method stubs
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getModelClass')->andReturn(DummyTestModel::class);
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableRecordTitleAttribute')->andReturn('name');
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeading')->andReturn('Test Table');
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableFilters')->andReturn([]);
     // Stub optional methods to avoid resolving translator / actions
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeaderActions')->andReturn([]);
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableActions')->andReturn([]);
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableBulkActions')->andReturn([]);
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
 
     // Create a mock for Table
     $tableMock = Mockery::mock(Table::class);
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('recordTitleAttribute')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('heading')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('columns')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('contentGrid')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('filters')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('filtersLayout')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('filtersFormColumns')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('persistFiltersInSession')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('headerActions')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('actions')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('bulkActions')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('actionsPosition')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('emptyStateActions')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('striped')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('paginated')->andReturnSelf();
 
     // Call the table method
-    /** @phpstan-ignore-next-line method.nonObject */
     $result = $mock->table($tableMock);
 
     // Assert the result is a Table instance
-/* @phpstan-ignore-next-line argument.templateType */
     expect($result)->toBe($tableMock);
 });
 
-it('tests table method with no optional methods implemented', function (): void {
+it('tests table method with no optional methods implemented', function () {
     // Avoid DB/Schema access inside TableExistsByModelClassActions
-/* @phpstan-ignore-next-line method.notFound */
     Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
         ->shouldReceive('execute')
         ->andReturn(true);
@@ -309,65 +278,39 @@ it('tests table method with no optional methods implemented', function (): void 
     $mock = Mockery::mock(HasTableWithoutOptionalMethodsTestClass::class)->makePartial()->shouldDeferMissing();
 
     // Other required method stubs
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getModelClass')->andReturn(DummyTestModel::class);
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableRecordTitleAttribute')->andReturn('name');
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeading')->andReturn('Test Table');
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableFilters')->andReturn([]);
     // Avoid constructing Filament Actions which require translator binding
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeaderActions')->andReturn([]);
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableActions')->andReturn([]);
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableBulkActions')->andReturn([]);
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
-    /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
 
     // Create a mock for Table
     $tableMock = Mockery::mock(Table::class);
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('recordTitleAttribute')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('heading')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('columns')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('contentGrid')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('filters')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('filtersLayout')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('filtersFormColumns')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('persistFiltersInSession')->andReturnSelf();
     // headerActions, actions, and bulkActions are called with empty arrays
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('headerActions')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('actions')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('bulkActions')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('actionsPosition')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('emptyStateActions')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('striped')->andReturnSelf();
-    /** @phpstan-ignore-next-line method.nonObject */
     $tableMock->shouldReceive('paginated')->andReturnSelf();
 
     // Call the table method
-    /** @phpstan-ignore-next-line method.nonObject */
     $result = $mock->table($tableMock);
 
     // Assert the result is a Table instance
-    /* @phpstan-ignore-next-line argument.templateType */
     expect($result)->toBe($tableMock);
 });

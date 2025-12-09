@@ -398,10 +398,14 @@ class BelongsToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
                 /** @var array<string, mixed> $safeData */
                 $safeData = $data;
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $safeData, []);
+<<<<<<< HEAD
 =======
                 Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
 <<<<<<< HEAD
@@ -678,6 +682,8 @@ class BelongsToManyAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();

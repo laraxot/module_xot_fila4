@@ -148,6 +148,9 @@ class ExportXlsAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
                         $fields = array_map(
                             /**
                              * @param  mixed  $field

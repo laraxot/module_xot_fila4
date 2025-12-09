@@ -306,8 +306,11 @@ class XotServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 249a0067 (.)
             '['.__LINE__.']['.class_basename($this).']',
         );
         Assert::string(
@@ -315,6 +318,7 @@ class XotServiceProvider extends XotBaseServiceProvider
             '['.__LINE__.']['.class_basename($this).']',
         );
         Assert::string($locale = config('app.locale') ?? 'it', '['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -477,6 +481,8 @@ class XotServiceProvider extends XotBaseServiceProvider
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
 
         app()->setLocale($locale);
         Carbon::setLocale($locale);

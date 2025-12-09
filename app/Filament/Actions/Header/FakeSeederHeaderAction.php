@@ -56,6 +56,7 @@ class FakeSeederHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(function (array $data, ListRecords $livewire): void {
 =======
             ->action(function (array $data, ListRecords $livewire) {
@@ -78,6 +79,9 @@ class FakeSeederHeaderAction extends Action
 =======
             ->action(function (array $data, ListRecords $livewire) {
 >>>>>>> 71586de2 (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 249a0067 (.)
                 $resource = $livewire->getResource();
                 /** @var class-string<Model> $modelClass */
                 $modelClass = $resource::getModel();

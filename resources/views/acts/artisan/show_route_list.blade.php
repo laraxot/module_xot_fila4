@@ -55,7 +55,3 @@ declare(strict_types=1);
     });
 </script>
 @endsection
-@endsection
-@endsection
-@endsection
-@endsection

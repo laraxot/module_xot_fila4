@@ -482,6 +482,7 @@ class CreateTableIndexByModelClassColumnsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns): void {
 =======
         Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
@@ -504,6 +505,9 @@ class CreateTableIndexByModelClassColumnsAction
 =======
         Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
 >>>>>>> 71586de2 (.)
+=======
+        Schema::connection($connectionName)->table($tableName, function (Blueprint $table) use ($indexName, $columns) {
+>>>>>>> 249a0067 (.)
             $table->index($columns, $indexName);
         });
 

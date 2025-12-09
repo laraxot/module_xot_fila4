@@ -10,6 +10,9 @@ namespace Modules\Xot\Datas;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25,9 +28,12 @@ use Illuminate\Support\Facades\File;
 =======
 >>>>>>> 5a14301c (.)
 use Illuminate\Support\Facades\Storage;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 3a08b27 (.)
+=======
+>>>>>>> 249a0067 (.)
 use Illuminate\Support\Str;
 use Modules\Xot\Enums\PdfEngineEnum;
 use Spatie\LaravelData\Data;
@@ -50,6 +56,7 @@ use Spatie\LaravelPdf\Enums\Format;
 use Spatie\LaravelPdf\Enums\Orientation;
 use Spatie\LaravelPdf\Enums\Unit;
 use Spatie\LaravelPdf\Facades\Pdf;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,6 +90,12 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
 >>>>>>> 2850177 (.)
 >>>>>>> 3a08b27 (.)
+=======
+use Spipu\Html2Pdf\Exception\HtmlParsingException;
+use Spipu\Html2Pdf\Html2Pdf;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Webmozart\Assert\Assert;
+>>>>>>> 249a0067 (.)
 
 /**
  * Undocumented class.
@@ -431,8 +444,13 @@ class PdfData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $params
+=======
+    /**
+     * @param array<string, mixed> $params
+>>>>>>> 249a0067 (.)
      */
 =======
 >>>>>>> 53d6a6ba (.)

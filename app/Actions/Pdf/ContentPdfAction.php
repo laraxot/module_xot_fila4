@@ -327,6 +327,7 @@ class ContentPdfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $data
      */
@@ -487,6 +488,13 @@ class ContentPdfAction
     public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
     {
 >>>>>>> 71586de2 (.)
+=======
+    /**
+     * @param array<string, mixed> $data
+     */
+    public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
+    {
+>>>>>>> 249a0067 (.)
         return $this->execute(
             html: null,
             view: $view,

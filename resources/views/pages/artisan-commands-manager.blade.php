@@ -42,7 +42,3 @@ declare(strict_types=1);
     @endscript
     --}}
 </x-filament::page>
-</x-filament::page>
-</x-filament::page> 
-</x-filament::page>
-</x-filament::page>

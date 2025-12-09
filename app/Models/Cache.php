@@ -145,11 +145,14 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Cache whereKey($value)
  * @method static Builder<static>|Cache whereValue($value)
  *
+<<<<<<< HEAD
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 =======
  * @mixin IdeHelperCache
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
  * @mixin \Eloquent
  */
 class Cache extends BaseModel

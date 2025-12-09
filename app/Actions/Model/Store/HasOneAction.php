@@ -26,13 +26,7 @@ class HasOneAction
 <<<<<<< HEAD
         if (! Arr::isAssoc($relationDTO->data) && \count($relationDTO->data) === 1) {
             $related_id = Arr::first($relationDTO->data);
-
-            // Verifica che related sia un Model prima di chiamare find()
-            if (! ($relationDTO->related instanceof Model)) {
-                throw new Exception('['.__LINE__.']['.class_basename($this).'] Related must be a Model instance');
-            }
-
-            $related = $relationDTO->related::find($related_id);
+            $related = $relationDTO->related->find($related_id);
             if (! ($related instanceof Model)) {
                 throw new Exception('['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD

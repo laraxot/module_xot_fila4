@@ -13,7 +13,6 @@ return [
                 'group' => 'Configurações',
                 'label' => 'Saúde da aplicação',
             ],
-
             'notifications' => [
                 'check_results' => 'Ver resultados de verificação',
             ],

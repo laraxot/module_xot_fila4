@@ -19,6 +19,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *     return $request->user();
 =======
  * return $request->user();
@@ -35,5 +36,8 @@ declare(strict_types=1);
 =======
  * return $request->user();
 >>>>>>> cc7fb225 (.)
+=======
+ * return $request->user();
+>>>>>>> 249a0067 (.)
  * });
  */

@@ -62,7 +62,3 @@ declare(strict_types=1);
     animation: blink 1s infinite;
 }
 </style>
-</style>
-</style> 
-</style>
-</style>

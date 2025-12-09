@@ -14,6 +14,7 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -22,6 +23,8 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
 return new class extends XotBaseMigration
 {
     protected ?string $model_class = HealthCheckResultHistoryItem::class;

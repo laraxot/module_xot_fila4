@@ -50,6 +50,7 @@ class SanitizeFieldsHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(function (ListRecords $livewire): void {
 =======
             ->action(function (ListRecords $livewire) {
@@ -72,6 +73,9 @@ class SanitizeFieldsHeaderAction extends Action
 =======
             ->action(function (ListRecords $livewire) {
 >>>>>>> 71586de2 (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 249a0067 (.)
                 $resource = $livewire->getResource();
                 $modelClass = $resource::getModel();
                 // @phpstan-ignore staticMethod.nonObject
@@ -370,6 +374,7 @@ class SanitizeFieldsHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         $fieldName = is_string($field) ? $field : (string) $field;
                         $item = $row->{$fieldName};
                         Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
@@ -509,6 +514,11 @@ class SanitizeFieldsHeaderAction extends Action
 =======
                         Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 >>>>>>> 71586de2 (.)
+=======
+                        $fieldName = is_string($field) ? $field : (string) $field;
+                        $item = $row->{$fieldName};
+                        Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 249a0067 (.)
                         $string = app(SanitizeAction::class)->execute($item);
                         if ($string !== $item) {
                             $row->{$field} = $string;

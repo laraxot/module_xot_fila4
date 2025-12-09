@@ -13,7 +13,6 @@ return [
                 'group' => 'Cài đặt',
                 'label' => 'Tình trạng ứng dụng',
             ],
-
             'notifications' => [
                 'check_results' => 'Kết quả được kiểm tra từ',
             ],

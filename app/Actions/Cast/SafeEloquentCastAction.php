@@ -1043,6 +1043,9 @@ class SafeEloquentCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
         ?callable $validator = null,
         mixed $default = null,
     ): mixed {

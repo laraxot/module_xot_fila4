@@ -277,6 +277,7 @@ class ArtisanService
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // da fare anche in noconsole, e magari mettere un policy
         $module_name = Request::input('module', '');
 <<<<<<< HEAD
@@ -437,6 +438,8 @@ class ArtisanService
         if (! is_string($module_name)) {
 >>>>>>> 53d6a6ba (.)
 =======
+=======
+>>>>>>> 249a0067 (.)
         // da fare anche in noconsole, e magari mettere un policy
         $module_name = Request::input('module', '');
         if (! is_string($module_name)) {
@@ -585,6 +588,7 @@ class ArtisanService
 =======
                 if ($module_name !== '') {
                     echo '<h3>Module '.$module_name.'</h3>';
+<<<<<<< HEAD
 
                     return self::exe('module:migrate '.$module_name.' --force');
 >>>>>>> ca9324a4 (.)
@@ -2658,15 +2662,20 @@ class ArtisanService
                 if ($module_name !== '') {
                     echo '<h3>Module '.$module_name.'</h3>';
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
 
                     return self::exe('module:migrate '.$module_name.' --force');
                 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($handler === null) {
             return '';
 >>>>>>> b7afadf9 (.)
 =======
+=======
+>>>>>>> 249a0067 (.)
                 return self::exe('migrate --force');
 
             case 'routelist':
@@ -2737,7 +2746,10 @@ class ArtisanService
 
             default:
                 return '';
+<<<<<<< HEAD
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
         }
 
         return '';

@@ -1061,6 +1061,7 @@ class SendMailByRecordAction
             'act' => 'sendMail',
             'handle' => authId(),
         ]);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -1371,5 +1372,7 @@ class SendMailByRecordAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
     }
 }

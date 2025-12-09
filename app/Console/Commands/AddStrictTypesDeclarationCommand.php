@@ -55,6 +55,9 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
     /**
      * @var array<string>
      */
@@ -129,11 +132,15 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
                     $fileName = $file->getRealPath();
                     if ($fileName === false) {
                         $fileName = $file->getPathname();
                     }
                     $this->info("Verrebbe processato: {$fileName}");
+<<<<<<< HEAD
 =======
                     $this->info("Verrebbe processato: {$file}");
 >>>>>>> 53d6a6ba (.)
@@ -144,6 +151,8 @@ class AddStrictTypesDeclarationCommand extends Command
 =======
                     $this->info("Verrebbe processato: {$file}");
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
                     $count++;
 
                     continue;
@@ -228,8 +237,13 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<SplFileInfo>
+=======
+    /**
+     * @return array<\SplFileInfo>
+>>>>>>> 249a0067 (.)
      */
 =======
 >>>>>>> ed734516 (.)
@@ -251,7 +265,11 @@ class AddStrictTypesDeclarationCommand extends Command
         return File::allFiles($path);
     }
 
+<<<<<<< HEAD
     private function shouldProcessFile(SplFileInfo $file): bool
+=======
+    private function shouldProcessFile(\SplFileInfo $file): bool
+>>>>>>> 249a0067 (.)
     {
         // Verifica l'estensione
 <<<<<<< HEAD

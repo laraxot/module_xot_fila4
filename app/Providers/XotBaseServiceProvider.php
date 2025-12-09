@@ -21,6 +21,7 @@ namespace Modules\Xot\Providers;
 <<<<<<< HEAD
 use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -79,6 +80,8 @@ use BladeUI\Icons\Exceptions\CannotRegisterIconSet;
 use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 249a0067 (.)
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\File;
@@ -94,6 +97,7 @@ use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Nwidart\Modules\Traits\PathNamespace;
 use Throwable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
@@ -117,6 +121,8 @@ use Nwidart\Modules\Traits\PathNamespace;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 249a0067 (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -493,12 +499,15 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
             throw new Exception('name is empty on ['.static::class.']');
         }
 
@@ -721,6 +730,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
 =======
             throw new Exception('name is empty on [' . static::class . ']');
@@ -848,6 +858,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
             throw new Exception('name is empty on ['.static::class.']');
 >>>>>>> 71586de2 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 249a0067 (.)
         }
 
         $viewPath = module_path($this->name, 'resources/views');
@@ -880,6 +893,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return base_path('Modules/' . $this->name . '/lang');
 =======
 =======
@@ -889,6 +903,8 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
             return base_path('Modules/'.$this->name.'/lang');
 >>>>>>> 53d6a6ba (.)
         }
@@ -937,6 +953,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
 =======
             throw new Exception('name is empty on [' . static::class . ']');
@@ -1064,6 +1081,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
             throw new Exception('name is empty on ['.static::class.']');
 >>>>>>> 71586de2 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 249a0067 (.)
         }
 
         $langPath = $this->getLangPath();
@@ -1234,6 +1254,12 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             $files = File::glob($configPath.'/*.php');
 
             foreach ($files as $file) {
+<<<<<<< HEAD
+=======
+                if (! is_string($file)) {
+                    continue;
+                }
+>>>>>>> 249a0067 (.)
                 $content = File::getRequire($file);
                 $info = pathinfo($file);
                 $key = $this->nameLower.'::'.$info['filename'];
@@ -1254,6 +1280,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (Exception $e) {
 =======
         } catch (Exception|CannotRegisterIconSet $e) {
@@ -1267,6 +1294,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
         } catch (Exception|CannotRegisterIconSet $e) {
 >>>>>>> 71586de2 (.)
+=======
+        } catch (Exception $e) {
+>>>>>>> 249a0067 (.)
             // Ignore missing component view path
             dddx([
                 'name' => $this->name,

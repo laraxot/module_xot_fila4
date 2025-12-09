@@ -92,6 +92,7 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> b7afadf9 (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 =======
@@ -238,6 +239,8 @@ beforeEach(function () {
 >>>>>>> 300ef70 (.)
 =======
 
+=======
+>>>>>>> 249a0067 (.)
 uses(TestCase::class);
 
 beforeEach(function () {
@@ -314,6 +317,7 @@ afterEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,12 +345,15 @@ afterEach(function () {
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
+=======
+>>>>>>> 249a0067 (.)
 function rrmdir($dir)
 {
     if (is_dir($dir)) {
         $objects = scandir($dir);
         foreach ($objects as $object) {
             if ($object !== '.' && $object !== '..') {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -685,6 +692,12 @@ function rrmdir($dir) {
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
+=======
+                if (is_dir($dir.DIRECTORY_SEPARATOR.$object) && ! is_link($dir.'/'.$object)) {
+                    rrmdir($dir.DIRECTORY_SEPARATOR.$object);
+                } else {
+                    unlink($dir.DIRECTORY_SEPARATOR.$object);
+>>>>>>> 249a0067 (.)
                 }
             }
         }

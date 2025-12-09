@@ -297,4 +297,3 @@ return [
         'settings' => 'Impostazioni Utente',
     ],
 ];
-

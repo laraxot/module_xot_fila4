@@ -74,7 +74,11 @@ trait HasCommonScopes
      */
     public function scopeDraft(Builder $query): Builder
     {
+<<<<<<< HEAD
         return $query->where(function ($q): void {
+=======
+        return $query->where(function ($q) {
+>>>>>>> 249a0067 (.)
             $q->whereNull('published_at')
                 ->orWhere('published_at', '>', now());
         });
@@ -84,6 +88,10 @@ trait HasCommonScopes
      * Scope query to records created after a date.
      *
      * @param  Builder<static>  $query
+<<<<<<< HEAD
+=======
+     * @param  mixed  $date
+>>>>>>> 249a0067 (.)
      * @return Builder<static>
      */
     public function scopeCreatedAfter(Builder $query, mixed $date): Builder
@@ -95,6 +103,10 @@ trait HasCommonScopes
      * Scope query to records created before a date.
      *
      * @param  Builder<static>  $query
+<<<<<<< HEAD
+=======
+     * @param  mixed  $date
+>>>>>>> 249a0067 (.)
      * @return Builder<static>
      */
     public function scopeCreatedBefore(Builder $query, mixed $date): Builder
@@ -106,6 +118,10 @@ trait HasCommonScopes
      * Scope query to records updated after a date.
      *
      * @param  Builder<static>  $query
+<<<<<<< HEAD
+=======
+     * @param  mixed  $date
+>>>>>>> 249a0067 (.)
      * @return Builder<static>
      */
     public function scopeUpdatedAfter(Builder $query, mixed $date): Builder
@@ -117,6 +133,10 @@ trait HasCommonScopes
      * Scope query to records created by a specific user.
      *
      * @param  Builder<static>  $query
+<<<<<<< HEAD
+=======
+     * @param  string|int  $userId
+>>>>>>> 249a0067 (.)
      * @return Builder<static>
      */
     public function scopeCreatedBy(Builder $query, string|int $userId): Builder

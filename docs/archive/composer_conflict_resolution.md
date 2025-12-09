@@ -8,6 +8,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- Rimozione dei marker di conflitto  in `composer.json`.
+>>>>>>> 71f31700 (.)
 =======
 - Rimozione dei marker di conflitto  in `composer.json`.
 >>>>>>> 71f31700 (.)
@@ -25,7 +29,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Rimozione dei marker di conflitto in `composer.json`.
+=======
+- Rimozione dei marker di conflitto in `composer.json`.=======
+
+>>>>>>> 71f31700 (.)
 =======
 - Rimozione dei marker di conflitto in `composer.json`.=======
 

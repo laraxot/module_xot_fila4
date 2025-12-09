@@ -3,12 +3,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Risoluzione Conflitti di Merge in <main module>
 
 ## Problema
 
 Durante lo sviluppo del progetto <main module>, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 =======
+=======
+>>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -20,6 +23,9 @@ Durante lo sviluppo del progetto <main module>, sono stati identificati diversi 
 Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)

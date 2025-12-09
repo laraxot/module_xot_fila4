@@ -12,7 +12,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [../../<directory progetto>/docs/state-machine.md](../../<directory progetto>/docs/state-machine.md)
+=======
+- [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
+>>>>>>> 71f31700 (.)
 =======
 - [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
 >>>>>>> 71f31700 (.)

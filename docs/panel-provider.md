@@ -99,6 +99,7 @@ public function panel(Panel $panel): Panel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
 =======
@@ -125,3 +126,6 @@ public function panel(Panel $panel): Panel
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 71f31700 (.)

@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🏆 PHPStan level 10 Achievement - Framework Xot
 
 **Data**: 18 Agosto 2025  
@@ -25,10 +26,13 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 # 🏆 PHPStan Level 9 Achievement - Framework Xot
 
 **Data**: 18 Agosto 2025  
 **Risultato**: ✅ **PERFETTO** - 0 errori PHPStan Level 9  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,10 +55,13 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
 **Partenza**: 832 errori → **0 errori** (-100%)
 
 ## 🎯 Obiettivo Raggiunto
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +95,9 @@ Il framework Xot ha raggiunto la **perfetta compliance PHPStan Level 9**, il mas
 =======
 Il framework Xot ha raggiunto la **perfetta compliance PHPStan Level 9**, il massimo livello di analisi statica per PHP.
 >>>>>>> 5a14301c (.)
+=======
+Il framework Xot ha raggiunto la **perfetta compliance PHPStan Level 9**, il massimo livello di analisi statica per PHP.
+>>>>>>> 71f31700 (.)
 
 ### Statistiche Finali
 - **Errori risolti**: 832 → 0 (-832, -100%)

@@ -5,7 +5,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <main module> e conformi ai principi del framework Laraxot.
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 71f31700 (.)
 =======
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
 >>>>>>> 71f31700 (.)
@@ -279,6 +283,7 @@ $result = $string . (string) $faker->method();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Vedere: `Modules/<main module>/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -290,6 +295,8 @@ Vedere:
 ### Documentazione Implementazione
 Vedere: `Modules/<main module>/docs/factories/phpstan-factory-compliance.md`
 =======
+=======
+>>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -306,6 +313,9 @@ Vedere:
 Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)

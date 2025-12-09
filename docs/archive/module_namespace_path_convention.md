@@ -12,6 +12,7 @@ i file dei moduli devono sempre seguire questa struttura:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/base_<nome progetto>/laravel/Modules/{NomeModulo}/app/{Tipo}/...
 ```
 
@@ -20,6 +21,8 @@ per esempio:
 - `/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/app/Models/...`
 - `/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/app/Http/Controllers/...`
 =======
+=======
+>>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -33,6 +36,9 @@ per esempio:
 - `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Http/Controllers/...`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -51,9 +57,15 @@ per esempio:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `namespace Modules\<nome progetto>\Filament\Resources;`
 - `namespace Modules\<nome progetto>\Models;`
 - `namespace Modules\<nome progetto>\Http\Controllers;`
+=======
+- `namespace Modules\SaluteOra\Filament\Resources;`
+- `namespace Modules\SaluteOra\Models;`
+- `namespace Modules\SaluteOra\Http\Controllers;`
+>>>>>>> 71f31700 (.)
 =======
 - `namespace Modules\SaluteOra\Filament\Resources;`
 - `namespace Modules\SaluteOra\Models;`
@@ -78,7 +90,11 @@ spesso si confonde il percorso fisico con il namespace, cercando file in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/base_<nome progetto>/laravel/Modules/{NomeModulo}/{Tipo}/...
+=======
+/var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
+>>>>>>> 71f31700 (.)
 =======
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
 >>>>>>> 71f31700 (.)
@@ -104,8 +120,13 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `Modules\<nome progetto>\Filament\Resources\DoctorResource` | `/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php` |
 | `Modules\User\Models\User` | `/var/www/html/base_<nome progetto>/laravel/Modules/User/app/Models/User.php` |
+=======
+| `Modules\SaluteOra\Filament\Resources\DoctorResource` | `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Filament/Resources/DoctorResource.php` |
+| `Modules\User\Models\User` | `/var/www/html/base_saluteora/laravel/Modules/User/app/Models/User.php` |
+>>>>>>> 71f31700 (.)
 =======
 | `Modules\SaluteOra\Filament\Resources\DoctorResource` | `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Filament/Resources/DoctorResource.php` |
 | `Modules\User\Models\User` | `/var/www/html/base_saluteora/laravel/Modules/User/app/Models/User.php` |
@@ -130,8 +151,13 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [convenzioni di codice](/var/www/html/base_<nome progetto>/laravel/docs/conventions.md)
 - [struttura progetto](/var/www/html/base_<nome progetto>/laravel/docs/project-structure.md)
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/docs/project-structure.md)
+>>>>>>> 71f31700 (.)
 =======
 - [convenzioni di codice](/var/www/html/base_saluteora/laravel/docs/conventions.md)
 - [struttura progetto](/var/www/html/base_saluteora/laravel/docs/project-structure.md)

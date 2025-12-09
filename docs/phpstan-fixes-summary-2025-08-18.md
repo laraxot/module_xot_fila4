@@ -5,7 +5,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 71f31700 (.)
 =======
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 >>>>>>> 71f31700 (.)
@@ -30,11 +34,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. **<nome modulo>** - 0 errori 
 4. **Geo** - 0 errori
 5. **Cms** - 0 errori
 6. **<main module>** - 0 errori
 =======
+=======
+>>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -45,6 +52,9 @@
 6. **SaluteOra** - 0 errori
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -229,7 +239,11 @@ Questi errori non compromettono la funzionalità e possono essere risolti in una
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, <nome modulo>, Geo, Cms, <main module>) sono completamente conformi al livello 9 di PHPStan.
+=======
+Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, SaluteMo, Geo, Cms, SaluteOra) sono completamente conformi al livello 9 di PHPStan.
+>>>>>>> 71f31700 (.)
 =======
 Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, SaluteMo, Geo, Cms, SaluteOra) sono completamente conformi al livello 9 di PHPStan.
 >>>>>>> 71f31700 (.)

@@ -94,11 +94,7 @@ use Spatie\Permission\Exceptions\RoleDoesNotExist;
  *
  * @phpstan-require-extends Model
  *
-<<<<<<< HEAD
- * @mixin IdeHelperUserContract
-=======
  * @mixin \Eloquent
->>>>>>> c84488b (.)
  */
 interface UserContract extends
     Authenticatable,

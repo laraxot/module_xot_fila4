@@ -85,20 +85,28 @@ trait RelationX
         $pivotDbName = $pivot->getConnection()->getDatabaseName();
         $dbName = $this->getConnection()->getDatabaseName();
         $relatedDbName = $related_model->getConnection()->getDatabaseName();
-        // if ($pivotDbName !== $dbName) {
+        
+        // Handle cross-database relationships
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 492d6d3c (.)
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
             // SQLite doesn't support database.table syntax
             if ($pivotDriver !== 'sqlite') {
+<<<<<<< HEAD
                 $table = $pivotDbName.'.'.$table;
             }
 =======
             $table = $pivotDbName . '.' . $table;
 >>>>>>> 5a14301c (.)
+=======
+                $table = $pivotDbName . '.' . $table;
+            }
+>>>>>>> 492d6d3c (.)
         }
-        // }
 
         return $this->belongsToMany(
             related: $related,

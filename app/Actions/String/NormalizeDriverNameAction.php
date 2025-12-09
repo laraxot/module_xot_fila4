@@ -19,6 +19,7 @@ namespace Modules\Xot\Actions\String;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -44,6 +45,8 @@ namespace Modules\Xot\Actions\String;
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 <<<<<<< HEAD
@@ -76,6 +79,7 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0e51323 (.)
 =======
@@ -145,6 +149,8 @@ use function Safe\preg_replace;
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
 
 /**
  * Action per normalizzare i nomi dei driver.
@@ -169,6 +175,7 @@ class NormalizeDriverNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -218,6 +225,9 @@ class NormalizeDriverNameAction
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+    use QueueableAction;
+>>>>>>> b7ea1cd1 (.)
 
 >>>>>>> 5a14301c (.)
 =======
@@ -236,6 +246,7 @@ class NormalizeDriverNameAction
      * Normalizza il nome del driver eliminando caratteri non alfanumerici
      * e gestendo eventuali casi speciali/alias.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,11 +391,15 @@ class NormalizeDriverNameAction
 >>>>>>> 5842a556 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+>>>>>>> b7ea1cd1 (.)
      * @return string Nome normalizzato
      */
     public function execute(string $driver): string
     {
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,10 +472,13 @@ class NormalizeDriverNameAction
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
         $result = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
 
         // Assicuriamo che il risultato sia sempre una stringa
         return is_string($result) ? $result : '';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -573,5 +591,7 @@ class NormalizeDriverNameAction
 >>>>>>> 5842a556 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
     }
 }

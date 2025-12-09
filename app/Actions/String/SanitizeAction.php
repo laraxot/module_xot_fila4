@@ -19,6 +19,7 @@ namespace Modules\Xot\Actions\String;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -70,6 +71,8 @@ class SanitizeAction
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -92,6 +95,7 @@ class SanitizeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
@@ -133,6 +137,8 @@ class SanitizeAction
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
 
 >>>>>>> 5a14301c (.)
 =======
@@ -156,6 +162,7 @@ class SanitizeAction
         return trim($str);
 =======
         $str = trim($str);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,10 +224,13 @@ class SanitizeAction
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
 
         $replaced = preg_replace('/\s+/', ' ', $str);
         $str = is_string($replaced) ? $replaced : $str;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -420,6 +430,12 @@ class SanitizeAction
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+        if (Str::startsWith($str, '-')) {
+            $afterStr = Str::after($str, '-');
+            // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
+            $str = $this->execute($afterStr);
+>>>>>>> b7ea1cd1 (.)
         }
 
         return $str;

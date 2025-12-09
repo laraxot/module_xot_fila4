@@ -618,6 +618,7 @@ git commit -m "fix: correzione calcolo età paziente"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -627,3 +628,5 @@ git commit -m "fix: correzione calcolo età paziente"
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)

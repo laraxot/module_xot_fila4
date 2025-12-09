@@ -96,6 +96,7 @@ abstract class XotBaseDashboard extends FilamentDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static ?int $navigationSort = 1;
 
 =======
@@ -112,6 +113,8 @@ abstract class XotBaseDashboard extends FilamentDashboard
 =======
 =======
 >>>>>>> e59778ae (.)
+=======
+>>>>>>> c35986f4 (.)
     /**
      * Navigation icon compatible with Filament 4.
      * Supports BackedEnum, string, or null values.
@@ -123,6 +126,7 @@ abstract class XotBaseDashboard extends FilamentDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c84488b (.)
 >>>>>>> 71f31700 (.)
@@ -154,6 +158,10 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> c84488b (.)
+>>>>>>> c35986f4 (.)
     protected static null|int $navigationSort = 1;
 <<<<<<< HEAD
 <<<<<<< HEAD

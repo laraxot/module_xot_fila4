@@ -72,7 +72,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_generates_pdf_content_from_record(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
+        /** @var User */
         $user = User/** @phpstan-ignore-line */ ::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
@@ -95,7 +95,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_generates_correct_view_name(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
+        /** @var User */
         $user = User/** @phpstan-ignore-line */ ::factory()->create();
 
         // Use reflection to test protected method
@@ -119,7 +119,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_generates_correct_filename_for_basic_model(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
+        /** @var User */
         $user = User/** @phpstan-ignore-line */ ::factory()->create(['id' => 123, 'name' => 'Test User']);
 
         // Use reflection to test protected method
@@ -221,7 +221,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_prepares_correct_view_parameters(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
+        /** @var User */
         $user = User/** @phpstan-ignore-line */ ::factory()->create(['name' => 'Test User']);
 
         // Use reflection to test protected method
@@ -257,7 +257,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_throws_exception_for_missing_view(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
+        /** @var User */
         $user = User/** @phpstan-ignore-line */ ::factory()->create();
 
         // Act & Assert
@@ -283,7 +283,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_uses_custom_filename_when_provided(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
+        /** @var User */
         $user = User/** @phpstan-ignore-line */ ::factory()->create();
         $customFilename = 'custom-report.pdf';
 
@@ -299,7 +299,7 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_handles_from_record_convenience_method(): void
     {
         // Arrange
-        /** @var \Illuminate\Database\Eloquent\Collection */
+        /** @var User */
         $user = User/** @phpstan-ignore-line */ ::factory()->create();
         $filename = 'convenience-test.pdf';
 

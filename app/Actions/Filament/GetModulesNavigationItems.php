@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
+use Throwable;
 use Exception;
 <<<<<<< HEAD
 use Throwable;

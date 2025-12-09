@@ -21,6 +21,7 @@ i file dei moduli devono sempre seguire questa struttura:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/base_<nome progetto>/laravel/Modules/{NomeModulo}/app/{Tipo}/...
 ```
 
@@ -64,6 +65,8 @@ per esempio:
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/app/{Tipo}/...
 ```
 
@@ -71,6 +74,7 @@ per esempio:
 - `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Filament/Resources/...`
 - `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Models/...`
 - `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Http/Controllers/...`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +164,8 @@ per esempio:
 - `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/SaluteOra/app/Models/...`
 - `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/SaluteOra/app/Http/Controllers/...`
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 
 ### namespace corretto
 
@@ -170,6 +176,7 @@ namespace Modules\{NomeModulo}\{Tipo}\...;
 ```
 
 per esempio:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,12 +269,18 @@ per esempio:
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+- `namespace Modules\SaluteOra\Filament\Resources;`
+- `namespace Modules\SaluteOra\Models;`
+- `namespace Modules\SaluteOra\Http\Controllers;`
+>>>>>>> 399f46d3 (.)
 
 ## errore comune
 
 spesso si confonde il percorso fisico con il namespace, cercando file in:
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,6 +347,9 @@ spesso si confonde il percorso fisico con il namespace, cercando file in:
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/{NomeModulo}/{Tipo}/...
 >>>>>>> 5a14301c (.)
+=======
+/var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
+>>>>>>> 399f46d3 (.)
 ```
 
 questo è **errato** perché omette la directory `app/` nel percorso fisico.
@@ -347,6 +363,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 
 | namespace | percorso fisico |
 |-----------|----------------|
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,6 +446,10 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+| `Modules\SaluteOra\Filament\Resources\DoctorResource` | `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Filament/Resources/DoctorResource.php` |
+| `Modules\User\Models\User` | `/var/www/html/base_saluteora/laravel/Modules/User/app/Models/User.php` |
+>>>>>>> 399f46d3 (.)
 
 ## come evitare l'errore
 
@@ -438,6 +459,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 
 ## linkback
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -517,3 +539,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+>>>>>>> 399f46d3 (.)

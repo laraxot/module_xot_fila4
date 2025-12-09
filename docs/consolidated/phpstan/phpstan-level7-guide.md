@@ -242,6 +242,7 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit√
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -255,6 +256,8 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit√
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 
 ## Collegamenti tra versioni di PHPSTAN-LEVEL7-GUIDE.md
 * [PHPSTAN-LEVEL7-GUIDE.md](../../../Xot/project_docs/phpstan/PHPSTAN-LEVEL7-GUIDE.md)
@@ -270,6 +273,7 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit√
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -283,3 +287,5 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit√
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

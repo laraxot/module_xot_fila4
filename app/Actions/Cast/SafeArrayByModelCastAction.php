@@ -13,6 +13,7 @@ namespace Modules\Xot\Actions\Cast;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Error;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
@@ -35,9 +36,19 @@ use ValueError;
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 use ValueError;
 use Error;
 use Exception;
+=======
+<<<<<<< HEAD
+use ValueError;
+use Error;
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Doctrine\DBAL\Schema\Index;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
@@ -58,13 +69,38 @@ class SafeArrayByModelCastAction
      */
     public function execute(Model $model): array
     {
+<<<<<<< HEAD
         try {
             return $model->attributesToArray();
         } catch (ValueError|Error|Exception $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        try {
+            return $model->attributesToArray();
+        } catch (ValueError|Error|Exception $e) {
+=======
+        try{
+            return $model->attributesToArray(); 
+        }catch(ValueError|Error|Exception $e){
+>>>>>>> a12f125f4a (.)
+=======
+        try {
+            return $model->attributesToArray();
+        } catch (ValueError|Error|Exception $e) {
+>>>>>>> b93ef594b4 (.)
+=======
+        try{
+            return $model->attributesToArray(); 
+        }catch(\ValueError|\Error|\Exception $e){
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             return $this->safeExecute($model);
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,10 +133,13 @@ class SafeArrayByModelCastAction
 =======
 >>>>>>> 17684f52 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
@@ -142,6 +181,8 @@ class SafeArrayByModelCastAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -164,6 +205,7 @@ class SafeArrayByModelCastAction
 =======
 
 
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 <<<<<<< HEAD
 =======
@@ -199,6 +241,10 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
 =======
 
 =======
@@ -227,6 +273,7 @@ class SafeArrayByModelCastAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
@@ -245,6 +292,9 @@ class SafeArrayByModelCastAction
 =======
 
 >>>>>>> ed734516 (.)
+=======
+
+>>>>>>> 399f46d3 (.)
     public function safeExecute(Model $model): array
     {
         $data=[];
@@ -252,6 +302,7 @@ class SafeArrayByModelCastAction
             try{
                 $data[$key]=$model->$key;
                 /** @phpstan-ignore-next-line */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,11 +324,15 @@ class SafeArrayByModelCastAction
 =======
             }catch(ValueError|Error $e){
 >>>>>>> ed734516 (.)
+=======
+            }catch(\ValueError|\Error $e){
+>>>>>>> 399f46d3 (.)
                 
             }
         }
         
         return $data;;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,5 +397,9 @@ class SafeArrayByModelCastAction
 
 
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
     }
 }

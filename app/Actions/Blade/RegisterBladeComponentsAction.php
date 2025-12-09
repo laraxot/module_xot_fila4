@@ -34,6 +34,7 @@ class RegisterBladeComponentsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $comps = app(GetComponentsAction::class)->execute($path, $namespace.'\View\Components', $prefix);
 
         if ($comps->count() === 0) {
@@ -70,7 +71,26 @@ class RegisterBladeComponentsAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
         $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\View\Components', $prefix);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\View\Components', $prefix);
+=======
+        $comps = app(GetComponentsAction::class)
+            ->execute($path, $namespace.'\View\Components', $prefix);
+>>>>>>> a12f125f4a (.)
+=======
+        $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\View\Components', $prefix);
+>>>>>>> b93ef594b4 (.)
+=======
+        $comps = app(GetComponentsAction::class)
+            ->execute($path, $namespace.'\View\Components', $prefix);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
         if (0 === $comps->count()) {
 >>>>>>> 5a14301c (.)
@@ -107,6 +127,7 @@ class RegisterBladeComponentsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! ($comp instanceof ComponentFileData)) {
 =======
             if (!($comp instanceof ComponentFileData)) {
@@ -123,6 +144,9 @@ class RegisterBladeComponentsAction
             if (!($comp instanceof ComponentFileData)) {
 >>>>>>> 17684f52 (.)
 =======
+            if (!($comp instanceof ComponentFileData)) {
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,6 +161,7 @@ class RegisterBladeComponentsAction
             if (! $comp instanceof ComponentFileData) {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
@@ -210,6 +235,8 @@ class RegisterBladeComponentsAction
 =======
             if (!($comp instanceof ComponentFileData)) {
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
                 continue;
             }
             Blade::component($comp->name, $comp->ns);

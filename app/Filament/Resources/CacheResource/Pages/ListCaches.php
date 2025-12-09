@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\CacheResource\Pages;
 
+<<<<<<< HEAD
 use Filament\Actions\Action;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12,6 +13,25 @@ use Filament\Actions\CreateAction;
 =======
 use Override;
 use Filament\Actions\CreateAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Actions\Action;
+use Override;
+use Filament\Actions\CreateAction;
+=======
+use Filament\Actions\CreateAction;
+use Filament\Actions\Action;
+>>>>>>> a12f125f4a (.)
+=======
+use Filament\Actions\Action;
+use Override;
+use Filament\Actions\CreateAction;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Filament\Actions;
 >>>>>>> 5a14301c (.)
 =======
@@ -44,6 +64,20 @@ use Modules\Xot\Filament\Widgets\Clock;
 use Modules\Xot\Filament\Widgets\Clock;
 >>>>>>> 5a14301c (.)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 /**
  * @see CacheResource
  */
@@ -60,7 +94,21 @@ class ListCaches extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     public function getTableColumns(): array
     {
         return [
@@ -69,10 +117,38 @@ class ListCaches extends XotBaseListRecords
                 ->sortable()
                 ->wrap()
                 ->label('Key'),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             'value' => TextColumn::make('value')
                 ->searchable()
                 ->wrap()
                 ->label('Value'),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             'expiration' => TextColumn::make('expiration')
                 ->dateTime()
                 ->sortable()
@@ -80,7 +156,21 @@ class ListCaches extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -89,13 +179,38 @@ class ListCaches extends XotBaseListRecords
     }
 
     /**
+<<<<<<< HEAD
      * @return array<string, Action>
      */
     #[Override]
+=======
+<<<<<<< HEAD
+     * @return array<string, Action>
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
     protected function getHeaderActions(): array
     {
         return [
             'create' => CreateAction::make(),
+<<<<<<< HEAD
+=======
+=======
+     * @return array<string, \Filament\Actions\Action>
+     */
+    protected function getHeaderActions(): array
+    {
+        return [
+            'create' => Actions\CreateAction::make(),
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             'route_list' => ArtisanHeaderAction::make('route:list'),
             'icons_cache' => ArtisanHeaderAction::make('icons:cache'),
             'filament_cache_components' => ArtisanHeaderAction::make('filament:cache-components'),

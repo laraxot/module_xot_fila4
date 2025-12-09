@@ -52,6 +52,7 @@ class ArtisanHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
@@ -68,6 +69,10 @@ class ArtisanHeaderAction extends Action
             
 >>>>>>> 17684f52 (.)
 =======
+            
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +83,8 @@ class ArtisanHeaderAction extends Action
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
             
 =======
 
@@ -91,6 +98,7 @@ class ArtisanHeaderAction extends Action
             // 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
@@ -161,6 +169,8 @@ class ArtisanHeaderAction extends Action
 =======
             
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
             // ->tooltip(__('xot::actions.export_xls'))
 
             // ->icon('heroicon-o-cloud-arrow-down')
@@ -209,6 +219,7 @@ class ArtisanHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
@@ -225,6 +236,9 @@ class ArtisanHeaderAction extends Action
     public static function getDefaultName(): null|string
 >>>>>>> 17684f52 (.)
 =======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,6 +253,7 @@ class ArtisanHeaderAction extends Action
     public static function getDefaultName(): ?string
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
@@ -312,6 +327,8 @@ class ArtisanHeaderAction extends Action
 =======
     public static function getDefaultName(): null|string
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     {
         return 'artisan_action';
     }

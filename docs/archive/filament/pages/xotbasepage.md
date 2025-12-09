@@ -461,6 +461,7 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -497,6 +498,7 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
@@ -512,11 +514,14 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 =======
 >>>>>>> 17684f52 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 - [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_xot_architecture.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
@@ -602,3 +607,5 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)

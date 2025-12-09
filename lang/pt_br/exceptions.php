@@ -1,7 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 
+=======
+>>>>>>> c06600c (.)
 return [
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17,11 +20,15 @@ return [
     /*
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
+<<<<<<< HEAD
      * |--------------------------------------------------------------------------
+=======
+>>>>>>> c06600c (.)
      * |
      * | The following language lines are used in Exceptions thrown throughout the system.
      * | Regardless where it is placed, a button can be listed here so it is easily
      * | found in a intuitive way.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -315,10 +322,13 @@ return [
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
      * |
      * |--------------------------------------------------------------------------
      */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -333,6 +343,11 @@ return [
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+=======
+     */
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
     'backend' => [
         'access' => [
             'roles' => [

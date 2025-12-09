@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 # ==============================================
 # LARAXOT MODULE XOT - .GITIGNORE
 # ==============================================
@@ -164,6 +172,7 @@ lerna-debug.log*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
@@ -185,6 +194,17 @@ lerna-debug.log*
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -198,7 +218,21 @@ lerna-debug.log*
 package-lock.json
 yarn-error.log
 npm-debug.log
+<<<<<<< HEAD
 composer.lock
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+composer.lock
+=======
+>>>>>>> a12f125f4a (.)
+=======
+composer.lock
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 .phpunit.result.cache
 .php-cs-fixer.cache
 
@@ -233,6 +267,14 @@ public_html/storage
 public_html/hot
 storage/*.key
 .env
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 .env.*
 !.env.example
 
@@ -487,6 +529,16 @@ packages/temp/
 database/Factories_
 database/Factories_old
 database/Migrations_old
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 # Local configurations
 Homestead.yaml
@@ -510,18 +562,56 @@ Homestead.json
 *.exe
 *:Zone.Identifier
 .DS_Store
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+*.new
+
+# Backup files
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 *.old
 *.old1
 *.backup
 *.backup.*
 *.bak
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+*.bak
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+*.old
+*.old1
+*.backup
+*.bak
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 *.new
 
 # Documentation and cache
 docs/phpstan/
 docs/cache/
 cache/
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 # Development tools
 .windsurf/
 .cursor/
@@ -560,10 +650,13 @@ public_html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
 =======
+=======
+>>>>>>> 399f46d3 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -573,6 +666,7 @@ public_html
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -593,3 +687,5 @@ public_html
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)

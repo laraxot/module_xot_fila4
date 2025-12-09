@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39,7 +40,11 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
+=======
+>>>>>>> 6cba4fe (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 >>>>>>> 5a14301c (.)
 =======

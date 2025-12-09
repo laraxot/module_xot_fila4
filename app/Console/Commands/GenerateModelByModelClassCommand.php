@@ -39,7 +39,9 @@ class GenerateModelByModelClassCommand extends Command
      *
      * @return void
      */
+<<<<<<< HEAD
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,6 +53,8 @@ class GenerateModelByModelClassCommand extends Command
 >>>>>>> 3fbbf1f5 (.)
 =======
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58,15 +62,21 @@ class GenerateModelByModelClassCommand extends Command
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
     public function __construct()
     {
         parent::__construct();
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
 >>>>>>> a12f125f4a (.)
 =======
     
@@ -74,6 +84,7 @@ class GenerateModelByModelClassCommand extends Command
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -90,12 +101,22 @@ class GenerateModelByModelClassCommand extends Command
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 
     /**
      * Execute the console command.
      */
     public function handle(): void
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
         Assert::classExists(
             $model_class = $this->argument('model_class'),
 <<<<<<< HEAD
@@ -112,6 +133,18 @@ class GenerateModelByModelClassCommand extends Command
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)
         );
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        Assert::classExists($model_class = $this->argument('model_class'), '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        Assert::classExists($model_class = $this->argument('model_class'), '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
         app(GenerateModelByModelClass::class)
             ->setCustomReplaces(['DummyTable' => 'lime_survey_xxx'])

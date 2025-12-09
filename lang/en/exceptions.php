@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -7,6 +8,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16,6 +18,8 @@ declare(strict_types=1);
 >>>>>>> 3fbbf1f5 (.)
 =======
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +27,9 @@ declare(strict_types=1);
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -33,6 +40,7 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -53,11 +61,31 @@ declare(strict_types=1);
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 return [
     'backend' => [
         'takeaway' => [
             'newsletterSubscribe' => [
+<<<<<<< HEAD
                 'messages' => [],
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                'messages' => [],
+=======
+                'messages' => [
+                ],
+>>>>>>> a12f125f4a (.)
+=======
+                'messages' => [],
+>>>>>>> b93ef594b4 (.)
+=======
+                'messages' => [
+                ],
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             ],
             'category' => [
                 'create_error' => 'Create Error',

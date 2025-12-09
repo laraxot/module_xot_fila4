@@ -20,16 +20,20 @@ class CopyFromLastYearButton
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $modelClass, string $fieldName, ?string $year): Action
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
 =======
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -41,6 +45,8 @@ class CopyFromLastYearButton
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     public function execute(string $modelClass, string $fieldName, null|string $year): Action
 >>>>>>> 5a14301c (.)
 =======
@@ -83,11 +89,31 @@ class CopyFromLastYearButton
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+=======
+=======
+    public function execute(string $modelClass, string $fieldName, ?string $year): Action
+=======
+    public function execute(string $modelClass, string $fieldName, null|string $year): Action
+>>>>>>> b93ef594b4 (.)
+    {
+        return Action::make('copy_from_last_year')
+            ->tooltip('copy from last year')
+            ->icon('heroicon-o-document-duplicate')
+            ->visible(null !== $year)
+<<<<<<< HEAD
+            ->action(static fn () => app(CopyFromLastYearAction::class)->execute($modelClass, $fieldName, $year));
+>>>>>>> a12f125f4a (.)
+=======
+            ->action(static fn() => app(CopyFromLastYearAction::class)->execute($modelClass, $fieldName, $year));
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 399f46d3 (.)
 =======
     public function execute(string $modelClass, string $fieldName, ?string $year): Action
     {
@@ -97,6 +123,7 @@ class CopyFromLastYearButton
             ->icon('heroicon-o-document-duplicate')
             ->visible(null !== $year)
             ->action(static fn () => app(CopyFromLastYearAction::class)->execute($modelClass, $fieldName, $year));
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
@@ -117,5 +144,9 @@ class CopyFromLastYearButton
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
     }
 }

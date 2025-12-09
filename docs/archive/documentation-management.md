@@ -28,6 +28,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Documentazione Globale** (`/docs/`)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,6 +49,9 @@ base_predict_fila3_mono/
 =======
 - **Documentazione Globale** (`/docs/`)
 >>>>>>> 5a14301c (.)
+=======
+- **Documentazione Globale** (`/project_docs/`)
+>>>>>>> 399f46d3 (.)
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
@@ -56,6 +60,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +81,9 @@ base_predict_fila3_mono/
 =======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
 >>>>>>> 5a14301c (.)
+=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+>>>>>>> 399f46d3 (.)
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -107,6 +115,7 @@ Quando si identifica una nuova regola o pattern importante:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      1. Aggiornare `Modules/[ModuleName]/docs/`
 <<<<<<< HEAD
 =======
@@ -133,11 +142,14 @@ Quando si identifica una nuova regola o pattern importante:
 =======
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> 399f46d3 (.)
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 
@@ -153,6 +165,8 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**
@@ -236,6 +250,7 @@ Quando si identifica una nuova regola o pattern importante:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -244,3 +259,5 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

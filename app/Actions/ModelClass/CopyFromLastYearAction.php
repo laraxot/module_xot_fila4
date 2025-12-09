@@ -20,6 +20,7 @@ class CopyFromLastYearAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $modelClass, string $fieldName, ?string $year): void
     {
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
@@ -35,6 +36,11 @@ class CopyFromLastYearAction
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
 =======
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42,6 +48,7 @@ class CopyFromLastYearAction
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
 =======
+<<<<<<< HEAD
     public function execute(string $modelClass, string $fieldName, null|string $year): void
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
@@ -54,12 +61,21 @@ class CopyFromLastYearAction
 >>>>>>> a12f125f4a (.)
 >>>>>>> 399f46d3 (.)
 =======
+    public function execute(string $modelClass, string $fieldName, ?string $year): void
+    {
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
+>>>>>>> a12f125f4a (.)
+>>>>>>> 399f46d3 (.)
+=======
     public function execute(string $modelClass, string $fieldName, null|string $year): void
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
 =======
+=======
+>>>>>>> 399f46d3 (.)
 >>>>>>> b93ef594b4 (.)
 =======
     public function execute(string $modelClass, string $fieldName, ?string $year): void
@@ -67,6 +83,7 @@ class CopyFromLastYearAction
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
     public function execute(string $modelClass, string $fieldName, null|string $year): void
@@ -94,6 +111,8 @@ class CopyFromLastYearAction
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
             return;
         }
 

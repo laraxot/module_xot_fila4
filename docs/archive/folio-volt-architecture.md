@@ -11,6 +11,7 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Convenzioni di Naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Flusso di Registrazione](../../../docs/flusso-registrazione.md) - Implementazione del wizard multi-step
 =======
@@ -31,6 +32,8 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 =======
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> 399f46d3 (.)
 - [Convenzioni di Naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Flusso di Registrazione](../../../project_docs/flusso-registrazione.md) - Implementazione del wizard multi-step
 
@@ -40,6 +43,7 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 - [Lang](../../Lang/project_docs/README.md) - Traduzioni
 - [Patient](../../Patient/project_docs/README.md) - Gestione pazienti
 
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 
@@ -59,6 +63,8 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 - [Patient](../../Patient/docs/README.md) - Gestione pazienti
 
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 ## Regole Fondamentali
 
 ### Case Sensitivity e Struttura delle Directory
@@ -263,6 +269,7 @@ new class extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 - [Componenti Volt](../UI/docs/components/volt.md)
@@ -346,6 +353,8 @@ new class extends Component {
 =======
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> 399f46d3 (.)
 - [Componenti Volt](../UI/project_docs/components/volt.md)
 - [Layout](../UI/project_docs/layouts.md)
 - [Temi](../UI/project_docs/themes.md)
@@ -411,6 +420,7 @@ new class extends Component {
 - [Grafici](../Chart/project_docs/charts.md)
 - [Dashboard](../Chart/project_docs/dashboard.md)
 - [Visualizzazione](../Chart/project_docs/visualization.md)
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 
@@ -485,3 +495,5 @@ new class extends Component {
 - [Dashboard](../Chart/docs/dashboard.md)
 - [Visualizzazione](../Chart/docs/visualization.md)
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

@@ -6,18 +6,15 @@ namespace Modules\Xot\Actions\File;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BladeUI\Icons\Factory as IconFactory;
 use Exception;
 =======
 =======
 >>>>>>> 399f46d3 (.)
-use Exception;
 =======
-<<<<<<< HEAD
+>>>>>>> ca9324a4 (.)
 use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use BladeUI\Icons\Factory as IconFactory;
 >>>>>>> 5a14301c (.)
 use Illuminate\Support\Facades\App;
@@ -49,15 +46,7 @@ class SvgExistsAction
         $iconsFactory = App::make(IconFactory::class);
         try {
             $iconsFactory->svg($svgName);
-<<<<<<< HEAD
         } catch (Exception $e) {
-=======
-<<<<<<< HEAD
-        } catch (Exception $e) {
-=======
-        } catch (\Exception $e) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             return false;
         }
 

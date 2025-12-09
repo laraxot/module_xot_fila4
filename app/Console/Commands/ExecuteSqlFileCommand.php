@@ -4,35 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
-<<<<<<< HEAD
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Webmozart\Assert\Assert;
-=======
-<<<<<<< HEAD
-use Exception;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Console\Command;
-use Illuminate\Support\Facades\DB;
-use Webmozart\Assert\Assert;
-=======
-use Webmozart\Assert\Assert;
-use Illuminate\Console\Command;
-use Illuminate\Support\Facades\DB;
->>>>>>> a12f125f4a (.)
-=======
-use Illuminate\Console\Command;
-use Illuminate\Support\Facades\DB;
-use Webmozart\Assert\Assert;
->>>>>>> b93ef594b4 (.)
-=======
-use Webmozart\Assert\Assert;
-use Illuminate\Console\Command;
-use Illuminate\Support\Facades\DB;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
 use function Safe\file_get_contents;
 
@@ -66,13 +41,13 @@ class ExecuteSqlFileCommand extends Command
      *
      * @return int
      */
-    public function handle()
+    public function handle(): int
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');
-<<<<<<< HEAD
         Assert::string($filePath, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         if (!file_exists($filePath)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -99,6 +74,8 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -139,9 +116,9 @@ class ExecuteSqlFileCommand extends Command
             // Connessione al database
             DB::connection('temp')->unprepared($sql);
             $this->info('File .sql eseguito con successo!');
-<<<<<<< HEAD
         } catch (Exception $e) {
             $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -166,6 +143,8 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 
             return Command::FAILURE;
         } finally {

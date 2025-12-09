@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
@@ -13,13 +14,9 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 =======
 >>>>>>> 399f46d3 (.)
-use InvalidArgumentException;
 =======
-<<<<<<< HEAD
+>>>>>>> ca9324a4 (.)
 use InvalidArgumentException;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
@@ -49,37 +46,11 @@ class GetViewByClassAction
      *
      * @return View
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     public function execute(string $class, array $params = [], null|string $viewName = null): View
 >>>>>>> 5a14301c (.)
     {
         $viewName ??= $this->getViewNameFromClass($class);
 
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-    public function execute(string $class, array $params = [], ?string $viewName = null): View
-    {
-        $viewName = $viewName ?? $this->getViewNameFromClass($class);
-        
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    public function execute(string $class, array $params = [], null|string $viewName = null): View
-    {
-        $viewName ??= $this->getViewNameFromClass($class);
-
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         /** @var view-string $viewName */
         return view($viewName, $params);
     }
@@ -125,18 +96,14 @@ class GetViewByClassAction
         // Verifica che la classe sia nel namespace Modules
         if ('Modules' !== $arr[0]) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
-            throw new InvalidArgumentException('Class must be in Modules namespace');
 =======
-<<<<<<< HEAD
+>>>>>>> ca9324a4 (.)
             throw new InvalidArgumentException('Class must be in Modules namespace');
-=======
-            throw new \InvalidArgumentException('Class must be in Modules namespace');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
 
         $module = $arr[1];
@@ -146,6 +113,7 @@ class GetViewByClassAction
         $class_name = Str::kebab(class_basename($class));
 
         // Costruisci il percorso della view
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,5 +155,8 @@ class GetViewByClassAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> ca9324a4 (.)
     }
 }

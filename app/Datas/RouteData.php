@@ -36,6 +36,7 @@ class RouteData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new static;
 =======
         return new static();
@@ -61,5 +62,8 @@ class RouteData extends Data
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+        return new static();
+>>>>>>> ca9324a4 (.)
     }
 }

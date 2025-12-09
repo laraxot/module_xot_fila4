@@ -130,8 +130,8 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
-<<<<<<< HEAD
 - [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -142,6 +142,8 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 - [Wizard Step Implementation](../../../Modules/SaluteOra/project_docs/wizard-step-implementation.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -162,6 +164,7 @@ Questo fix dimostra l'importanza di:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 *Il sistema  ora è resiliente a questo tipo di errori critici.* 
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
@@ -169,3 +172,5 @@ Questo fix dimostra l'importanza di:
 =======
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> ca9324a4 (.)

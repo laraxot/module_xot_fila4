@@ -6,12 +6,15 @@ namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\Arr\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 <<<<<<< HEAD
 =======
@@ -19,20 +22,6 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
 >>>>>>> 3fbbf1f5 (.)
 use Illuminate\Database\Eloquent\Model;
-=======
-<<<<<<< HEAD
-use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Model;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Illuminate\Database\Eloquent\Model;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Filament\Actions;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\Array\SaveArrayAction;
@@ -40,31 +29,10 @@ use Modules\Xot\Filament\Resources\ModuleResource;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Models\Module;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
 /**
  * @property Module $record
  */
 class EditModule extends XotBaseEditRecord
-<<<<<<< HEAD
-=======
-=======
-
-/**
- * @property Module $record
- */
-class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 {
     protected static string $resource = ModuleResource::class;
 
@@ -83,6 +51,7 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
     protected function afterSave(): void
     {
         $module = $this->record; // Ottiene il record corrente
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,14 +74,16 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         if (!($module instanceof Model) || !isset($module->path)) {
             return;
         }
 
         $config_path = $module->path . '/config/config.php';
-<<<<<<< HEAD
         $data = File::getRequire($config_path);
         if (!is_array($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -139,6 +110,8 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
             $data = [];
         }
         $data = array_merge($data, $module->toArray());
@@ -146,14 +119,6 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
         app(SaveArrayAction::class)->execute($data, $config_path);
 
         /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
          * $configPath = config_path('modules/colors.php');
          *
          * // Prepara l'array di colori
@@ -176,40 +141,5 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
          * // Richiama il file di configurazione per essere sicuro che i colori siano caricati
          * Config::set('modules.colors', $colorsConfig);
          */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
-        $configPath = config_path('modules/colors.php');
-
-        // Prepara l'array di colori
-        $colorsConfig = [
-            $module->name => [
-                'colors' => $module->colors,
-                'icon' => $module->icon,
-            ],
-        ];
-
-        // Se il file di configurazione esiste già, unisci i colori
-        if (File::exists($configPath)) {
-            $existingConfig = include $configPath;
-            $colorsConfig = array_merge($existingConfig, $colorsConfig);
-        }
-
-        // Salva il nuovo file di configurazione
-        File::put($configPath, '<?php return ' . var_export($colorsConfig, true) . ';');
-
-        // Richiama il file di configurazione per essere sicuro che i colori siano caricati
-        Config::set('modules.colors', $colorsConfig);
-        */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 }

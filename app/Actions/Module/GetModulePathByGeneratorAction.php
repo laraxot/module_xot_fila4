@@ -6,21 +6,17 @@ namespace Modules\Xot\Actions\Module;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Error;
 use Exception;
 use Illuminate\Support\Facades\Config;
 =======
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Exception;
 use Error;
-=======
-<<<<<<< HEAD
-use Exception;
-use Error;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Support\Facades\Config;
 use Webmozart\Assert\Assert;
 >>>>>>> 5a14301c (.)
@@ -29,6 +25,7 @@ class GetModulePathByGeneratorAction
 {
     public function execute(string $moduleName, string $generatorPath): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43,6 +40,8 @@ class GetModulePathByGeneratorAction
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         $relativePath = Config::string('modules.paths.generator.' . $generatorPath . '.path');
 >>>>>>> 5a14301c (.)
         try {
@@ -72,6 +71,7 @@ class GetModulePathByGeneratorAction
                 ']');
         }
         Assert::string($res, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -115,6 +115,8 @@ class GetModulePathByGeneratorAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 
         return $res;
     }

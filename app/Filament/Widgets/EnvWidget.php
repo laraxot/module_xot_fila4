@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
@@ -15,22 +16,14 @@ use Filament\Actions\Contracts\HasActions;
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
-use Filament\Schemas\Components\Component;
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+>>>>>>> ca9324a4 (.)
 use Filament\Schemas\Components\Component;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Filament\Schemas\Components\Component;
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
 use Filament\Actions\Contracts\HasActions;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Schemas\Schema;
 use Filament\Forms;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
@@ -42,6 +35,8 @@ use Filament\Forms\ComponentContainer;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -56,7 +51,6 @@ use Illuminate\Support\Arr;
 use Modules\Xot\Datas\EnvData;
 
 /**
-<<<<<<< HEAD
  * @property Schema $form
  */
 <<<<<<< HEAD
@@ -64,6 +58,7 @@ use Modules\Xot\Datas\EnvData;
 class EnvWidget extends Widget implements HasActions, HasForms
 =======
 class EnvWidget extends Widget implements HasForms, HasActions
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
@@ -89,11 +84,14 @@ class EnvWidget extends Widget implements HasForms, HasActions
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 {
     use InteractsWithActions;
     use InteractsWithForms;
 
     /** @var array<string, mixed>|null */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,27 +116,13 @@ class EnvWidget extends Widget implements HasForms, HasActions
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+    public null|array $data = [];
+>>>>>>> ca9324a4 (.)
 
     public array $only = [];
 
     protected string $view = 'xot::filament.widgets.env';
-<<<<<<< HEAD
-=======
-=======
- * @property ComponentContainer $form
- */
-class EnvWidget extends Widget implements HasForms
-{
-    use InteractsWithForms;
-
-    /** @var array<string, mixed>|null */
-    public ?array $data = [];
-
-    public array $only = [];
-
-    protected static string $view = 'xot::filament.widgets.env';
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
     public function mount(): void
     {
@@ -149,39 +133,14 @@ class EnvWidget extends Widget implements HasForms
         $this->form->fill($this->data);
     }
 
-<<<<<<< HEAD
     public function form(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
-=======
-<<<<<<< HEAD
-    public function form(Schema $schema): Schema
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
-=======
-        return $schema
-            ->components($this->getFormSchema())
-            ->columns(1)
-            ->statePath('data');
->>>>>>> a12f125f4a (.)
-=======
-        return $schema->components($this->getFormSchema())->columns(1)->statePath('data');
->>>>>>> b93ef594b4 (.)
-=======
-    public function form(Forms\Form $form): Forms\Form
-    {
-        return $form
-            ->schema($this->getFormSchema())
-            ->columns(1)
-            ->statePath('data');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     public function submit(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,6 +169,9 @@ class EnvWidget extends Widget implements HasForms
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+        if (!is_array($this->data)) {
+>>>>>>> ca9324a4 (.)
             return;
         }
         EnvData::make()->update($this->data);
@@ -217,12 +179,6 @@ class EnvWidget extends Widget implements HasForms
             ->title('Saved successfully')
             ->success()
             ->send();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         /*
          * dddx([
@@ -234,82 +190,17 @@ class EnvWidget extends Widget implements HasForms
 
     /**
      * @return array<Component>
-<<<<<<< HEAD
-=======
-=======
-=======
-
->>>>>>> b93ef594b4 (.)
-        /*
-         * dddx([
-         * 'data' => $this->data,
-         * // 'data1' => $this->form->getState(),
-         * ]);
-         */
-    }
-
-    /**
-<<<<<<< HEAD
-     * @return array<\Filament\Schemas\Components\Component>
->>>>>>> a12f125f4a (.)
-=======
-     * @return array<Component>
->>>>>>> b93ef594b4 (.)
-=======
-        /*
-        dddx([
-            'data' => $this->data,
-            // 'data1' => $this->form->getState(),
-        ]);
-        */
-    }
-
-    /**
-     * @return array<Forms\Components\Component>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      */
     public function getFormSchema(): array
     {
         $all = [
             'app_url' => TextInput::make('app_url')
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
                 ->placeholder('http://localhost')
                 ->helperText('Required for file uploads and other internal configs')
                 ->required(),
             'debugbar_enabled' => Toggle::make('debugbar_enabled')->helperText(
                 'Enable/Disable debug mode to help debug errors',
             ),
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-
-                ->placeholder('http://localhost')
-                ->helperText('Required for file uploads and other internal configs')
-                ->required(),
-            'debugbar_enabled' => Toggle::make('debugbar_enabled')
-
-                ->helperText('Enable/Disable debug mode to help debug errors'),
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-                ->placeholder('http://localhost')
-                ->helperText('Required for file uploads and other internal configs')
-                ->required(),
-            'debugbar_enabled' => Toggle::make('debugbar_enabled')->helperText(
-                'Enable/Disable debug mode to help debug errors',
-            ),
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             'google_maps_api_key' => TextInput::make('google_maps_api_key')
                 ->placeholder('AIzaSyAuB_...')
                 ->helperText('google maps api key'),
@@ -319,23 +210,7 @@ class EnvWidget extends Widget implements HasForms
         ];
 
         /**
-<<<<<<< HEAD
          * @var array<Component>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-         * @var array<Component>
-=======
-         * @var array<\Filament\Schemas\Components\Component>
->>>>>>> a12f125f4a (.)
-=======
-         * @var array<Component>
->>>>>>> b93ef594b4 (.)
-=======
-         * @var array<Forms\Components\Component>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
          */
 <<<<<<< HEAD
         return Arr::only($all, $this->only);

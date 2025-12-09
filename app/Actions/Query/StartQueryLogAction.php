@@ -31,6 +31,7 @@ class StartQueryLogAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $log->debug('query : '.$sql);
             $log->debug('time '.$time);
             $log->debug('connection '.$connection);
@@ -47,10 +48,13 @@ class StartQueryLogAction
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
             $log->debug('query : ' . $sql);
             $log->debug('time ' . $time);
             $log->debug('connection ' . $connection);
             $log->debug('bindings ' . print_r($query->bindings, true));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -74,6 +78,8 @@ class StartQueryLogAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         });
     }
 }

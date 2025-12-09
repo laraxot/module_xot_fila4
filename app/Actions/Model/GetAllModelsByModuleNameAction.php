@@ -10,19 +10,15 @@ namespace Modules\Xot\Actions\Model;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use stdClass;
 >>>>>>> 5a14301c (.)
 use Exception;
-=======
-<<<<<<< HEAD
-use stdClass;
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Nwidart\Modules\Facades\Module;
@@ -51,6 +47,7 @@ class GetAllModelsByModuleNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
             return [];
         }
@@ -67,22 +64,9 @@ class GetAllModelsByModuleNameAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         if (!($mod instanceof \Nwidart\Modules\Module)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!($mod instanceof \Nwidart\Modules\Module)) {
-=======
-        if (! $mod instanceof \Nwidart\Modules\Module) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!($mod instanceof \Nwidart\Modules\Module)) {
->>>>>>> b93ef594b4 (.)
-=======
-        if (! $mod instanceof \Nwidart\Modules\Module) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             return [];
         }
 
@@ -101,6 +85,7 @@ class GetAllModelsByModuleNameAction
             if (Str::endsWith($filename, $ext)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $tmp = new stdClass;
 =======
                 $tmp = new stdClass();
@@ -115,6 +100,9 @@ class GetAllModelsByModuleNameAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+                $tmp = new stdClass();
+>>>>>>> ca9324a4 (.)
                 $name = mb_substr($filename, 0, -mb_strlen($ext));
                 // dddx(['name' => $name, 'name1' => $file->getFilenameWithoutExtension()]);
                 /**
@@ -140,7 +128,6 @@ class GetAllModelsByModuleNameAction
                 //}
                 // 434    Parameter #1 $argument of class ReflectionClass constructor expects class-string<T of object>|T of object, string given.
                 try {
-<<<<<<< HEAD
                     $reflection_class = new ReflectionClass($tmp->class);
                     if (!$reflection_class->isAbstract()) {
 <<<<<<< HEAD
@@ -150,29 +137,6 @@ class GetAllModelsByModuleNameAction
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {
-=======
-<<<<<<< HEAD
-                    $reflection_class = new ReflectionClass($tmp->class);
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    if (!$reflection_class->isAbstract()) {
-=======
-                    if (! $reflection_class->isAbstract()) {
->>>>>>> a12f125f4a (.)
-=======
-                    if (!$reflection_class->isAbstract()) {
->>>>>>> b93ef594b4 (.)
-                        $data[$tmp->name] = $tmp->class;
-                    }
-                } catch (Exception) {
-=======
-                    $reflection_class = new \ReflectionClass($tmp->class);
-                    if (! $reflection_class->isAbstract()) {
-                        $data[$tmp->name] = $tmp->class;
-                    }
-                } catch (\Exception) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                 }
             }
         }

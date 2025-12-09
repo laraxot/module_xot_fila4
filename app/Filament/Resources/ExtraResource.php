@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
 =======
@@ -44,23 +45,23 @@ use Override;
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> ca9324a4 (.)
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\ListExtras;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\CreateExtra;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\EditExtra;
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Extra;
 
 class ExtraResource extends XotBaseResource
 {
     protected static null|string $model = Extra::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -108,16 +109,12 @@ class ExtraResource extends XotBaseResource
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 
     /**
      * Get the form schema for the resource.
      *
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
      * @return array<string, Component>
      */
     #[Override]
@@ -127,48 +124,6 @@ class ExtraResource extends XotBaseResource
             'id' => TextInput::make('id')->required()->maxLength(36),
             'post_type' => TextInput::make('post_type')->required()->maxLength(255),
             'post_id' => TextInput::make('post_id')->required()->numeric(),
-<<<<<<< HEAD
-=======
-=======
-     * @return array<string, \Filament\Schemas\Components\Component>
-=======
-     * @return array<string, Component>
->>>>>>> b93ef594b4 (.)
-     */
-    #[Override]
-    public static function getFormSchema(): array
-    {
-        return [
-<<<<<<< HEAD
-=======
-     * @return array<string, \Filament\Forms\Components\Component>
-     */
-    public static function getFormSchema(): array
-    {
-        return [
->>>>>>> origin/develop
-            'id' => TextInput::make('id')
-                ->required()
-                ->maxLength(36),
-
-            'post_type' => TextInput::make('post_type')
-                ->required()
-                ->maxLength(255),
-
-            'post_id' => TextInput::make('post_id')
-                ->required()
-                ->numeric(),
-
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-            'id' => TextInput::make('id')->required()->maxLength(36),
-            'post_type' => TextInput::make('post_type')->required()->maxLength(255),
-            'post_id' => TextInput::make('post_id')->required()->numeric(),
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             'value' => KeyValue::make('value')
                 ->keyLabel('Chiave')
                 ->valueLabel('Valore')
@@ -177,12 +132,6 @@ class ExtraResource extends XotBaseResource
         ];
     }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     #[Override]
     public static function getRelations(): array
     {
@@ -190,46 +139,12 @@ class ExtraResource extends XotBaseResource
     }
 
     #[Override]
-<<<<<<< HEAD
-=======
-=======
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-    public static function getRelations(): array
-    {
-        return [];
-    }
-
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
     public static function getPages(): array
     {
         return [
             'index' => ListExtras::route('/'),
             'create' => CreateExtra::route('/create'),
             'edit' => EditExtra::route('/{record}/edit'),
-<<<<<<< HEAD
-=======
-=======
-    public static function getRelations(): array
-    {
-        return [
-        ];
-    }
-
-    public static function getPages(): array
-    {
-        return [
-            'index' => Pages\ListExtras::route('/'),
-            'create' => Pages\CreateExtra::route('/create'),
-            'edit' => Pages\EditExtra::route('/{record}/edit'),
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         ];
     }
 }

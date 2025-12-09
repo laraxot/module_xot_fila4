@@ -21,19 +21,5 @@ abstract class XotBaseField extends Field {}
 =======
 abstract class XotBaseField extends Field
 {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-    
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 }
 >>>>>>> 5a14301c (.)

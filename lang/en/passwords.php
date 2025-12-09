@@ -1,12 +1,12 @@
 <?php
 
-<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
@@ -31,6 +31,8 @@ declare(strict_types=1);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 return [
     'password' => 'Passwords must be at least six characters and match the confirmation.',
     'reset' => 'Your password has been reset!',

@@ -16,6 +16,7 @@ class ConfigService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static ?self $instance = null;
 =======
     private static null|self $instance = null;
@@ -41,6 +42,9 @@ class ConfigService
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+    private static null|self $instance = null;
+>>>>>>> ca9324a4 (.)
 
     public function __construct()
     {
@@ -56,6 +60,7 @@ class ConfigService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
 =======
@@ -63,22 +68,9 @@ class ConfigService
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         if (!(self::$instance instanceof self)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!(self::$instance instanceof self)) {
-=======
-        if (! self::$instance instanceof self) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!(self::$instance instanceof self)) {
->>>>>>> b93ef594b4 (.)
-=======
-        if (! self::$instance instanceof self) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             self::$instance = new self();
 >>>>>>> 5a14301c (.)
         }

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Pdf;
 
-<<<<<<< HEAD
 use Exception;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,12 +23,15 @@ use Exception;
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -36,32 +39,9 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Webmozart\Assert\Assert;
-=======
-=======
-use Spipu\Html2Pdf\Html2Pdf;
-=======
->>>>>>> b93ef594b4 (.)
-use Symfony\Component\HttpFoundation\StreamedResponse;
-use Illuminate\Support\Facades\Storage;
-use Modules\Xot\Datas\PdfData;
-use Spatie\QueueableAction\QueueableAction;
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-use Spipu\Html2Pdf\Html2Pdf;
-use Symfony\Component\HttpFoundation\BinaryFileResponse;
->>>>>>> b93ef594b4 (.)
-use Webmozart\Assert\Assert;
-=======
-use Spipu\Html2Pdf\Html2Pdf;
-use Webmozart\Assert\Assert;
-use Modules\Xot\Datas\PdfData;
-use Illuminate\Support\Facades\Storage;
-use Spatie\QueueableAction\QueueableAction;
-use Symfony\Component\HttpFoundation\BinaryFileResponse;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
 class StreamDownloadPdfAction
 {
@@ -72,6 +52,7 @@ class StreamDownloadPdfAction
     /**
      * Genera un PDF dall'HTML fornito.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +86,8 @@ class StreamDownloadPdfAction
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
      * @param string $html Contenuto HTML da convertire
      * @param string $filename Nome del file PDF
      * @return StreamedResponse
@@ -125,6 +108,7 @@ class StreamDownloadPdfAction
             $html = view($view, $data)->render();
         }
         Assert::string($html, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -166,10 +150,13 @@ class StreamDownloadPdfAction
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [10, 10, 10, 10]);
         $html2pdf->writeHTML($html);
 
         // Genera e scarica il PDF
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,5 +230,10 @@ class StreamDownloadPdfAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+        return response()->streamDownload(function () use ($html2pdf) {
+            $html2pdf->output();
+        }, 'report-' . $filename);
+>>>>>>> ca9324a4 (.)
     }
 }

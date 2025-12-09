@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Model\Update;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use InvalidArgumentException;
@@ -14,15 +15,10 @@ use RuntimeException;
 =======
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use RuntimeException;
 use InvalidArgumentException;
-=======
-<<<<<<< HEAD
-use RuntimeException;
-use InvalidArgumentException;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Modules\Xot\Datas\RelationData as RelationDTO;
@@ -52,67 +48,24 @@ class HasOneAction
      * @param RelationDTO $relationDTO Data transfer object containing relationship information
 >>>>>>> 5a14301c (.)
      *
-<<<<<<< HEAD
      * @throws InvalidArgumentException When relationship type is invalid
      * @throws RuntimeException When relationship data is invalid
-=======
-<<<<<<< HEAD
-     * @throws InvalidArgumentException When relationship type is invalid
-     * @throws RuntimeException When relationship data is invalid
-=======
-     * @throws \InvalidArgumentException When relationship type is invalid
-     * @throws \RuntimeException         When relationship data is invalid
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      */
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
         // Validate that the relationship is of type HasOne
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         Assert::isInstanceOf(
             $relationDTO->rows,
             HasOne::class,
             sprintf('Expected HasOne relationship, got %s', get_debug_type($relationDTO->rows)),
         );
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
-        Assert::isInstanceOf($relationDTO->rows, HasOne::class, sprintf(
-            'Expected HasOne relationship, got %s',
-            get_debug_type($relationDTO->rows)
-        ));
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
         /** @var HasOne $relation */
         $relation = $relationDTO->rows;
 
         // Validate that the relationship data is not empty
         if (empty($relationDTO->data)) {
-<<<<<<< HEAD
             throw new RuntimeException('Relationship data cannot be empty');
-=======
-<<<<<<< HEAD
-            throw new RuntimeException('Relationship data cannot be empty');
-=======
-            throw new \RuntimeException('Relationship data cannot be empty');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
 
         // Check if the related model exists

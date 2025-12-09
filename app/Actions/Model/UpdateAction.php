@@ -57,6 +57,7 @@ class UpdateAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          */
         $model = tap($model)->update($data);
 
@@ -71,11 +72,14 @@ class UpdateAction
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
          *
          */
         $model = tap($model)->update($data);
 
         app(__NAMESPACE__ . '\\Update\RelationAction')->execute($model, $data);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -104,6 +108,8 @@ class UpdateAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 
         // $msg = 'aggiornato! ['.$model->getKey().']!';
 

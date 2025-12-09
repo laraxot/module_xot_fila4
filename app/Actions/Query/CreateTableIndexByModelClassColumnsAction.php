@@ -197,8 +197,25 @@ class CreateTableIndexByModelClassColumnsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
         if (! is_subclass_of($modelClass, Model::class)) {
             throw new InvalidArgumentException("{$modelClass} must be a subclass of ".Model::class.'.');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!is_subclass_of($modelClass, Model::class)) {
+            throw new InvalidArgumentException("{$modelClass} must be a subclass of " . Model::class . '.');
+=======
+        if (! is_subclass_of($modelClass, Model::class)) {
+            throw new InvalidArgumentException("{$modelClass} must be a subclass of ".Model::class.'.');
+>>>>>>> f1d4085 (.)
+=======
+        if (!is_subclass_of($modelClass, Model::class)) {
+            throw new InvalidArgumentException("{$modelClass} must be a subclass of " . Model::class . '.');
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         }
 
         /** @var Model $modelInstance */
@@ -206,6 +223,7 @@ class CreateTableIndexByModelClassColumnsAction
 
         $tableName = $modelInstance->getTable();
         $connectionName = $modelInstance->getConnectionName() ?? config('database.default');
+<<<<<<< HEAD
         Assert::string($connectionName, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         // Validate the table exists
         if (! Schema::connection($connectionName)->hasTable($tableName)) {
@@ -313,6 +331,18 @@ class CreateTableIndexByModelClassColumnsAction
 =======
 >>>>>>> 7131bd09 (.)
 =======
+<<<<<<< HEAD
+        Assert::string($connectionName, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        // Validate the table exists
+        if (! Schema::connection($connectionName)->hasTable($tableName)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        // Validate the table exists
+        if (!Schema::connection($connectionName)->hasTable($tableName)) {
+>>>>>>> ab8cc3f3 (.)
+=======
         Assert::string($connectionName);
         // Validate the table exists
         if (! Schema::connection($connectionName)->hasTable($tableName)) {
@@ -326,6 +356,7 @@ class CreateTableIndexByModelClassColumnsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -336,6 +367,8 @@ class CreateTableIndexByModelClassColumnsAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 =======
         Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         // Validate the table exists
@@ -345,6 +378,7 @@ class CreateTableIndexByModelClassColumnsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -376,6 +410,9 @@ class CreateTableIndexByModelClassColumnsAction
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
             throw new RuntimeException("Table '{$tableName}' does not exist on connection '{$connectionName}'.");
         }
 
@@ -482,6 +519,7 @@ class CreateTableIndexByModelClassColumnsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
 =======
 =======
@@ -527,10 +565,17 @@ class CreateTableIndexByModelClassColumnsAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+            if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
             if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
 =======
             if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,6 +652,12 @@ class CreateTableIndexByModelClassColumnsAction
 =======
             if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
 >>>>>>> 3310e9c6 (.)
+=======
+=======
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
                 throw new RuntimeException("Column '{$column}' does not exist in table '{$tableName}'.");
             }
         }
@@ -686,6 +737,13 @@ class CreateTableIndexByModelClassColumnsAction
     }
 
     /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
      * private function indexExists(string $connectionName, string $tableName, string $indexName): bool
      * {
      * $connection = DB::connection($connectionName);
@@ -715,6 +773,23 @@ class CreateTableIndexByModelClassColumnsAction
      * return array_key_exists($indexName, $indexes);
      * }
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        private function indexExists(string $connectionName, string $tableName, string $indexName): bool
+        {
+            $connection = DB::connection($connectionName);
+            $schemaManager = $connection->getDoctrineSchemaManager();
+            $indexes = $schemaManager->listTableIndexes($tableName);
+
+            return array_key_exists($indexName, $indexes);
+        }
+        */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     /**
      * Generate a unique index name based on the table and columns.
      *
@@ -727,8 +802,10 @@ class CreateTableIndexByModelClassColumnsAction
      */
     private function generateIndexName(string $tableName, array $columns): string
     {
+<<<<<<< HEAD
         return $tableName.'_'.implode('_', $columns).'_index';
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -783,11 +860,14 @@ class CreateTableIndexByModelClassColumnsAction
 >>>>>>> 17684f52 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
         return $tableName . '_' . implode('_', $columns) . '_index';
 =======
         return $tableName.'_'.implode('_', $columns).'_index';
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
         return $tableName . '_' . implode('_', $columns) . '_index';
@@ -895,5 +975,12 @@ class CreateTableIndexByModelClassColumnsAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+        return $tableName . '_' . implode('_', $columns) . '_index';
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     }
 }

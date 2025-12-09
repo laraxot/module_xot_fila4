@@ -82,9 +82,27 @@ class SafeArrayByModelCastAction
      */
     public function execute(Model $model): array
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
         try {
             return $model->attributesToArray();
         } catch (ValueError|Error|Exception $e) {
+<<<<<<< HEAD
+=======
+=======
+        try{
+            return $model->attributesToArray(); 
+        }catch(ValueError|Error|Exception $e){
+>>>>>>> f1d4085 (.)
+=======
+        try {
+            return $model->attributesToArray();
+        } catch (ValueError|Error|Exception $e) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             return $this->safeExecute($model);
         }
     }
@@ -121,10 +139,14 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
     /**
      * @return array<string, mixed>
      */
 =======
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -218,6 +240,13 @@ class SafeArrayByModelCastAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -242,6 +271,7 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +404,14 @@ class SafeArrayByModelCastAction
 =======
 
 >>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> ab8cc3f3 (.)
     public function safeExecute(Model $model): array
     {
         $data=[];
@@ -391,6 +429,7 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }catch(\ValueError|\Error $e){
 =======
             }catch(ValueError|Error $e){
@@ -422,6 +461,9 @@ class SafeArrayByModelCastAction
 =======
             }catch(\ValueError|\Error $e){
 >>>>>>> 17684f52 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> ab8cc3f3 (.)
                 
             }
         }
@@ -437,6 +479,7 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
@@ -542,5 +585,11 @@ class SafeArrayByModelCastAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     }
 }

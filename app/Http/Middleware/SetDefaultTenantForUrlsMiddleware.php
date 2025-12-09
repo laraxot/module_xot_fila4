@@ -22,6 +22,13 @@ class SetDefaultTenantForUrlsMiddleware
     /**
      * Handle the incoming request.
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     public function handle(
         Request $request,
         Closure $next,
@@ -30,6 +37,22 @@ class SetDefaultTenantForUrlsMiddleware
             'tenant' => Filament::getTenant(),
             // 'referrer' => url()->previous(),
         ]);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    public function handle(Request $request, Closure $next): Response|JsonResponse|\Symfony\Component\HttpFoundation\Response
+    {
+        URL::defaults(
+            [
+                'tenant' => Filament::getTenant(),
+                // 'referrer' => url()->previous(),
+            ]
+        );
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
         // @phpstan-ignore return.type
         return $next($request);

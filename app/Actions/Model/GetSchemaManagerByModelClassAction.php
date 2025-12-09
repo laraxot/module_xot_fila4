@@ -21,9 +21,11 @@ namespace Modules\Xot\Actions\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use RuntimeException;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -89,11 +91,14 @@ use Illuminate\Support\Facades\DB;
 >>>>>>> ca9324a4 (.)
 use RuntimeException;
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
+=======
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Facades\DB;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,6 +179,11 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 =======
 >>>>>>> 88ea7103 (.)
 =======
+=======
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
 use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Facades\DB;
@@ -182,6 +192,7 @@ use Illuminate\Support\Facades\DB;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -245,6 +256,9 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -287,6 +301,7 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $modelClass  La classe del modello
 =======
      * @param string $modelClass La classe del modello
@@ -349,10 +364,17 @@ class GetSchemaManagerByModelClassAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+     * @param  string  $modelClass  La classe del modello
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
      * @param string $modelClass La classe del modello
 =======
      * @param  string  $modelClass  La classe del modello
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -454,6 +476,12 @@ class GetSchemaManagerByModelClassAction
 =======
      * @param string $modelClass La classe del modello
 >>>>>>> 9db27d12 (.)
+=======
+=======
+     * @param string $modelClass La classe del modello
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
     public function execute(string $modelClass): AbstractSchemaManager
@@ -497,11 +525,21 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return $connection->getDoctrineSchemaManager();
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
             $schemaManager = $connection->getDoctrineSchemaManager();
 
             Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class);
 
             return $schemaManager;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 21348520 (.)
@@ -707,6 +745,15 @@ class GetSchemaManagerByModelClassAction
 =======
             return $connection->getDoctrineSchemaManager();
 >>>>>>> 9db27d12 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+            return $connection->getDoctrineSchemaManager();
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

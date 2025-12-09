@@ -66,6 +66,9 @@ class PhoneCast implements CastsAttributes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
      * @param  mixed  $_model  The Eloquent model instance
      * @param  string  $_key  The attribute key
      * @param  mixed  $value  The raw value from database
@@ -76,6 +79,7 @@ class PhoneCast implements CastsAttributes
         if (! is_string($value)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3fbbf1f5 (.)
 =======
@@ -170,6 +174,12 @@ class PhoneCast implements CastsAttributes
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
      * @param mixed $_model The Eloquent model instance
      * @param string $_key The attribute key
      * @param mixed $value The raw value from database
@@ -179,6 +189,7 @@ class PhoneCast implements CastsAttributes
     {
         if (!is_string($value)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +291,9 @@ class PhoneCast implements CastsAttributes
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
      * @param array<string, mixed> $attributes
      */
     public function get($model, string $key, mixed $value, array $attributes): PhoneValueObject
@@ -295,6 +309,7 @@ class PhoneCast implements CastsAttributes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new \Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
@@ -397,6 +412,13 @@ class PhoneCast implements CastsAttributes
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
         }
 
         return PhoneValueObject::fromString($value);
@@ -437,6 +459,9 @@ class PhoneCast implements CastsAttributes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
      * @param  mixed  $_model  The Eloquent model instance
      * @param  string  $_key  The attribute key
      * @param  mixed  $value  The value to be stored
@@ -446,6 +471,7 @@ class PhoneCast implements CastsAttributes
     {
         if (! ($value instanceof PhoneValueObject)) {
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3fbbf1f5 (.)
 =======
@@ -540,6 +566,12 @@ class PhoneCast implements CastsAttributes
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
      * @param mixed $_model The Eloquent model instance
      * @param string $_key The attribute key
      * @param mixed $value The value to be stored
@@ -579,6 +611,7 @@ class PhoneCast implements CastsAttributes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -607,6 +640,8 @@ class PhoneCast implements CastsAttributes
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 =======
      * @param array<string, mixed> $attributes
      */
@@ -623,6 +658,7 @@ class PhoneCast implements CastsAttributes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -686,6 +722,11 @@ class PhoneCast implements CastsAttributes
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
             throw new InvalidArgumentException('The given value is not an Phone instance.');
         }
 

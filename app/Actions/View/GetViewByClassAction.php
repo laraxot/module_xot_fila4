@@ -27,6 +27,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ed734516 (.)
@@ -72,7 +73,23 @@ use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 =======
 use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 use Spatie\QueueableAction\QueueableAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
+use Spatie\QueueableAction\QueueableAction;
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
+>>>>>>> f1d4085 (.)
+=======
+use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
 /**
  * Classe per la conversione di nomi di classi in nomi di viste.
@@ -190,6 +207,7 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->after('Modules\\'.$module.'\\')
 =======
             ->after('Modules\\' . $module . '\\')
@@ -252,10 +270,17 @@ class GetViewByClassAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+            ->after('Modules\\'.$module.'\\')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
             ->after('Modules\\' . $module . '\\')
 =======
             ->after('Modules\\'.$module.'\\')
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,6 +382,12 @@ class GetViewByClassAction
 =======
             ->after('Modules\\' . $module . '\\')
 >>>>>>> 9db27d12 (.)
+=======
+=======
+            ->after('Modules\\' . $module . '\\')
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
             ->explode('\\')
             ->toArray();
 
@@ -419,10 +450,26 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+        $view = $module_low . '::' . $implode . $suffix;
+
+        if (!view()->exists($view)) {
+            throw new Exception('View not found: ' . $view);
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
         $view = $module_low.'::'.$implode.$suffix;
 
         if (! view()->exists($view)) {
             throw new Exception('View not found: '.$view);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -714,6 +761,14 @@ class GetViewByClassAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
         }
 
         return $view;

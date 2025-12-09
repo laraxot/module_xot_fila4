@@ -21,6 +21,13 @@ use Webmozart\Assert\Assert;
  */
 trait HasCustomRelations
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     public function customRelation(
         string $related,
         Closure $baseConstraints,
@@ -31,10 +38,12 @@ trait HasCustomRelations
         ?Closure $eagerConstraints = null,
         ?Closure $eagerMatcher = null,
     ): CustomRelation {
+<<<<<<< HEAD
         $instance = new $related;
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '['.__LINE__.']['.class_basename($this).']');
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -44,9 +53,12 @@ trait HasCustomRelations
         null|Closure $eagerConstraints = null,
         null|Closure $eagerMatcher = null,
     ): CustomRelation {
+=======
+>>>>>>> ab8cc3f3 (.)
         $instance = new $related();
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,10 +174,15 @@ trait HasCustomRelations
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+=======
+    public function customRelation(string $related, Closure $baseConstraints, ?Closure $eagerConstraints = null, ?Closure $eagerMatcher = null): CustomRelation
+>>>>>>> ab8cc3f3 (.)
     {
         $instance = new $related();
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +297,12 @@ trait HasCustomRelations
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
         $query = $instance->newQuery();
 
         return new CustomRelation($query, $this, $baseConstraints, $eagerConstraints, $eagerMatcher);

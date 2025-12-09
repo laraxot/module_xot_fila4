@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 # Metodi da NON implementare in classi che estendono XotBaseResource
 
 ## Regola fondamentale
@@ -97,6 +101,7 @@ Prima di ogni commit, verificare che le risorse Filament non contengano metodi p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -163,11 +168,16 @@ Prima di ogni commit, verificare che le risorse Filament non contengano metodi p
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getTableBulkActions" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getNavigationGroup" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,9 +240,12 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 >>>>>>> ed734516 (.)
 =======
 =======
+>>>>>>> ab8cc3f3 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -328,11 +341,14 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getTableBulkActions" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getNavigationGroup" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,6 +417,8 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 ```
 
 ## Processo di refactoring
@@ -410,6 +428,7 @@ Se questi metodi sono trovati in una classe esistente:
 1. Rimuovere completamente il metodo se il comportamento è standard
 2. Se contiene personalizzazioni critiche, discutere con il team come ottenere lo stesso risultato usando meccanismi standard
 3. Documentare qualsiasi eccezione con commenti dettagliati che spiegano perché è necessaria
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -443,3 +462,6 @@ Se questi metodi sono trovati in una classe esistente:
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)

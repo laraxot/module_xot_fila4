@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -71,6 +72,15 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+# Xot Module - Framework Base Laraxot
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica
@@ -808,6 +818,7 @@ ls Modules/*/lang/*/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -835,6 +846,12 @@ ls Modules/*/lang/*/
 =======
 =======
 >>>>>>> cc7fb225 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 # Xot Module - Framework Base Laraxot
 
 ## Overview
@@ -900,6 +917,7 @@ Configurazione automatica tramite service providers.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
 =======
@@ -953,6 +971,13 @@ Configurazione automatica tramite service providers.
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
@@ -979,6 +1004,9 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -988,11 +1016,18 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 ## Links
 - [Root Documentation](../../../project_docs/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ## Quick Links Legacy
 =======
 ## Quick Links Legacy
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 ## Quick Links Legacy
 =======
 ## Principles
@@ -1003,7 +1038,17 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 
 ## Links
 - [Root Documentation](../../../project_docs/)
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+## Quick Links Legacy
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 - [Root Documentation](../../../docs/)
 - [<main module> Module](../<main module>/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)

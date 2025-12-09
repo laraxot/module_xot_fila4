@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 # Best Practices per Filament Resources in Laraxot
 
 Questo documento definisce le linee guida ufficiali e le best practices per l'implementazione delle risorse Filament all'interno del framework Laraxot.
@@ -64,6 +68,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public static function form(Form $form): Form
@@ -95,6 +100,9 @@ public static function form(Form $form): Form
 =======
 public static function form(Form $form): Form
 >>>>>>> c35986f4 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> ab8cc3f3 (.)
 {
     return $form->schema([
         // componenti...
@@ -683,8 +691,12 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -733,7 +745,14 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 =======
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
+- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -858,3 +877,6 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)

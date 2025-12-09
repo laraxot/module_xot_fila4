@@ -1,7 +1,9 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,11 +49,15 @@ declare(strict_types=1);
 >>>>>>> 17684f52 (.)
 =======
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,6 +114,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 88ea7103 (.)
 =======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
 declare(strict_types=1);
 
 
@@ -116,6 +126,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -177,6 +188,9 @@ declare(strict_types=1);
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 return [
     'id' => 'id',
     'tipo' => 'tipo',

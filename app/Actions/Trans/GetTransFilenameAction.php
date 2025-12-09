@@ -113,10 +113,26 @@ class GetTransFilenameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+            $langPath = base_path('Modules/' . $ns . '/lang');
+        }
+
+        $lang_path_full = $langPath . '/' . $lang . '/' . $file . '.php';
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
             $langPath = base_path('Modules/'.$ns.'/lang');
         }
 
         $lang_path_full = $langPath.'/'.$lang.'/'.$file.'.php';
+<<<<<<< HEAD
 
         return str_replace(['\\', '/'], [DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $lang_path_full);
 =======
@@ -217,6 +233,14 @@ class GetTransFilenameAction
         }
 
         $lang_path_full = $langPath . '/' . $lang . '/' . $file . '.php';
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
         $lang_path_full = str_replace(['\\', '/'], [DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $lang_path_full);
 
         return $lang_path_full;

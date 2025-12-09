@@ -21,8 +21,10 @@ namespace Modules\Xot\Filament\Resources\ExtraResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\Filament\Resources\ExtraResource;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -67,8 +69,39 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 
 class EditExtra extends XotBaseEditRecord
 {
     protected static string $resource = ExtraResource::class;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+
+
+
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+
+
+
+
+class EditExtra extends XotBaseEditRecord
+{
+    protected static string $resource = ExtraResource::class;
+
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 }

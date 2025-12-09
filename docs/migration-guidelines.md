@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 # Migration Guidelines for Project Modules
 
 ## Overview
@@ -36,10 +40,18 @@ return new class extends XotBaseMigration
 ```
 
 ## Related Documentation
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 - [User Module Database Errors](../../User/docs/DATABASE_ERRORS.md)
 - [Xot Base Classes](../XOT_BASE_CLASSES.md)
 - [Code Quality](../CODE_QUALITY.md)
 - [Root Documentation](../../../../docs/collegamenti-documentazione.md)
+<<<<<<< HEAD
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,3 +86,16 @@ return new class extends XotBaseMigration
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+<<<<<<< HEAD
+=======
+- [User Module Database Errors](../../User/project_docs/DATABASE_ERRORS.md)
+- [Xot Base Classes](../XOT_BASE_CLASSES.md)
+- [Code Quality](../CODE_QUALITY.md)
+- [Root Documentation](../../../../project_docs/collegamenti-documentazione.md)
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+- [Database Guidelines](../DATABASE_GUIDELINES.md)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)

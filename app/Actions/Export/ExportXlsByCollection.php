@@ -36,6 +36,7 @@ use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -73,6 +74,14 @@ use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 >>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\CollectionExport;
@@ -81,6 +90,23 @@ use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Collection;
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Maatwebsite\Excel\Facades\Excel;
+use Modules\Xot\Exports\CollectionExport;
+use Spatie\QueueableAction\QueueableAction;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
 /**
  * Classe per l'esportazione di collezioni in formato Excel.
@@ -195,6 +221,27 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+        null|string $transKey = null,
+        array $fields = [],
+    ): BinaryFileResponse {
+        // Assicuriamo che $fields sia un array di stringhe
+        $stringFields = array_map(fn(mixed $field): string => (string) $field, array_values($fields));
+
+        $export = new CollectionExport(
+            collection: $collection,
+            transKey: $transKey,
+            fields: $stringFields,
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
         ?string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
@@ -316,9 +363,18 @@ class ExportXlsByCollection
             : $collection;
 
         $export = new CollectionExport(
+<<<<<<< HEAD
             collection: $normalizedCollection,
             headings: [],
             columns: $stringFields,
+=======
+            collection: $collection,
+            transKey: $transKey,
+            fields: $stringFields
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         );
 
         return Excel::download($export, $filename);

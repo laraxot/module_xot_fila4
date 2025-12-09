@@ -4,6 +4,13 @@ declare(strict_types=1);
 
 return [
     /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -13,6 +20,23 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    |--------------------------------------------------------------------------
+    | Exception Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used in Exceptions thrown throughout the system.
+    | Regardless where it is placed, a button can be listed here so it is easily
+    | found in a intuitive way.
+    |
+    */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
     'backend' => [
         'access' => [
@@ -26,6 +50,16 @@ return [
                 'not_found' => 'Άυτός ο ρόλος δεν υπάρχει.',
                 'update_error' => 'Παρουσιάστηκε πρόβλημα κατά την ανανέωση του ρόλου. Παρακαλώ ξαναπροσπαθήστε.',
             ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             'users' => [
                 'cant_deactivate_self' => 'Δεν μπορείτε να το κάνετε αυτό στον εαυτό σας.',
                 'cant_delete_self' => 'Δεν μπορείτε να διαγράψετε τον εαυτό σας.',
@@ -44,6 +78,16 @@ return [
             ],
         ],
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -56,8 +100,25 @@ return [
                 'success' => 'Your account has been successfully confirmed!',
                 'resent' => 'A new confirmation e-mail has been sent to the address on file.',
             ],
+<<<<<<< HEAD
             'deactivated' => 'Ο λογαριασμός σας απενεργοποιήθηκε.',
             'email_taken' => 'Αυτό το e-mail χρησιμοποιείται ήδη.',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'deactivated' => 'Ο λογαριασμός σας απενεργοποιήθηκε.',
+            'email_taken' => 'Αυτό το e-mail χρησιμοποιείται ήδη.',
+=======
+
+            'deactivated' => 'Ο λογαριασμός σας απενεργοποιήθηκε.',
+            'email_taken' => 'Αυτό το e-mail χρησιμοποιείται ήδη.',
+
+>>>>>>> f1d4085 (.)
+=======
+            'deactivated' => 'Ο λογαριασμός σας απενεργοποιήθηκε.',
+            'email_taken' => 'Αυτό το e-mail χρησιμοποιείται ήδη.',
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             'password' => [
                 'change_mismatch' => 'Αυτός δεν είναι ο παλιός σου κωδικός.',
             ],

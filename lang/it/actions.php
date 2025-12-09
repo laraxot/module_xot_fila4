@@ -3,6 +3,13 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     // NAVIGATION & STRUCTURE
     'navigation' => [
         'label' => 'Azioni',
@@ -39,5 +46,13 @@ return [
         'success_operation' => 'Operazione completata con successo',
     ],
     // LEGACY SUPPORT - Compatibilità con codice esistente
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
     'export_xls' => 'Esporta Dati',
 ];

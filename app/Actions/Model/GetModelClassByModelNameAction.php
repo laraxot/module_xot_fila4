@@ -29,6 +29,7 @@ class GetModelClassByModelNameAction
         if ($modelClass === null) {
             return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
         }
+<<<<<<< HEAD
         Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 =======
 =======
@@ -83,11 +84,17 @@ class GetModelClassByModelNameAction
 >>>>>>> 17684f52 (.)
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
         Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 =======
         Assert::string($modelClass);
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
         Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
@@ -195,6 +202,13 @@ class GetModelClassByModelNameAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+        Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 
         return $modelClass;
     }

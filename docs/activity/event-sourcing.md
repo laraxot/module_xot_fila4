@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 ---
 title: Event Sourcing
 description: Event Sourcing
@@ -36,8 +40,23 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 
 
 ## Collegamenti tra versioni di event-sourcing.md
+<<<<<<< HEAD
 * [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
 * [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+* [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
+=======
+* [event-sourcing.md](../../../Xot/project_docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/project_docs/it/config/event-sourcing.md)
+>>>>>>> f1d4085 (.)
+=======
+* [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 
 
 ### Versione Incoming
@@ -45,6 +64,7 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,3 +98,6 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)

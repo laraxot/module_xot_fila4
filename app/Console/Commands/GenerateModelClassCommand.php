@@ -58,6 +58,7 @@ class GenerateModelClassCommand extends GeneratorCommand
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return realpath(__DIR__.'/../stubs/model.stub');
 =======
         return realpath(__DIR__ . '/../stubs/model.stub');
@@ -120,10 +121,17 @@ class GenerateModelClassCommand extends GeneratorCommand
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+        return realpath(__DIR__.'/../stubs/model.stub');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
         return realpath(__DIR__ . '/../stubs/model.stub');
 =======
         return realpath(__DIR__.'/../stubs/model.stub');
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,6 +233,12 @@ class GenerateModelClassCommand extends GeneratorCommand
 =======
         return realpath(__DIR__ . '/../stubs/model.stub');
 >>>>>>> 9db27d12 (.)
+=======
+=======
+        return realpath(__DIR__ . '/../stubs/model.stub');
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     }
 
     protected function getDefaultNamespace($rootNamespace)
@@ -261,6 +275,7 @@ class GenerateModelClassCommand extends GeneratorCommand
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $rootNamespace.'\Models';
 =======
         return $rootNamespace . '\Models';
@@ -323,10 +338,17 @@ class GenerateModelClassCommand extends GeneratorCommand
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+        return $rootNamespace.'\Models';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
         return $rootNamespace . '\Models';
 =======
         return $rootNamespace.'\Models';
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -428,6 +450,12 @@ class GenerateModelClassCommand extends GeneratorCommand
 =======
         return $rootNamespace . '\Models';
 >>>>>>> 9db27d12 (.)
+=======
+=======
+        return $rootNamespace . '\Models';
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     }
 
     protected function replaceClass($stub, $name)
@@ -464,6 +492,7 @@ class GenerateModelClassCommand extends GeneratorCommand
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $class = str_replace($this->getNamespace($name).'\\', '', $name);
 =======
         $class = str_replace($this->getNamespace($name) . '\\', '', $name);
@@ -526,10 +555,17 @@ class GenerateModelClassCommand extends GeneratorCommand
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+        $class = str_replace($this->getNamespace($name).'\\', '', $name);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
         $class = str_replace($this->getNamespace($name) . '\\', '', $name);
 =======
         $class = str_replace($this->getNamespace($name).'\\', '', $name);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -631,6 +667,12 @@ class GenerateModelClassCommand extends GeneratorCommand
 =======
         $class = str_replace($this->getNamespace($name) . '\\', '', $name);
 >>>>>>> 9db27d12 (.)
+=======
+=======
+        $class = str_replace($this->getNamespace($name) . '\\', '', $name);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 
         // Do string replacement
         return str_replace('{{service_name}}', $class, $stub);

@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -106,6 +107,13 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -351,6 +359,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -361,9 +370,12 @@ php artisan view:clear
 >>>>>>> ed734516 (.)
 =======
 =======
+>>>>>>> ab8cc3f3 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -449,6 +461,8 @@ php artisan view:clear
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica
@@ -9698,7 +9712,19 @@ php scripts/check-namespaces.php
 ## Riferimenti
 
 - [PSR-4: Autoloader Standard](https://www.php-fig.org/psr/psr-4/)
+<<<<<<< HEAD
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
+=======
+- [Laravel Namespacing Conventions](https://laravel.com/project_docs/master/structure)
+>>>>>>> f1d4085 (.)
+=======
+- [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 - [Nwidart/Laravel-Modules Documentation](https://nwidart.com/laravel-modules/v6/introduction)
 
 
@@ -9708,6 +9734,7 @@ php scripts/check-namespaces.php
  aurmich/dev
  aurmich/dev
 Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerente e a evitare errori comuni durante l'analisi statica del codice con PHPStan. 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9741,3 +9768,6 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)

@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 # Linee Guida per i Database in Laraxot
 
 Questo documento definisce le best practices per la gestione dei database nel framework Laraxot, inclusa la documentazione, la creazione di modelli e le migrazioni.
@@ -282,8 +286,12 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
 - [Regola Performance](../../Performance/project_docs/database_migrations.md)
 - [Regole globali root](../../../project_docs/database_migrations.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,6 +405,16 @@ return new class extends XotBaseMigration {
 >>>>>>> 17684f52 (.)
 - [Regola Performance](../../Performance/docs/database_migrations.md)
 - [Regole globali root](../../../docs/database_migrations.md)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+=======
+>>>>>>> f1d4085 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
 
     /**
      * Ottiene la sezione associata al socio.
@@ -624,6 +642,7 @@ php artisan db:analyze-usage --connection=nome_connessione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -647,3 +666,6 @@ php artisan db:analyze-usage --connection=nome_connessione
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)

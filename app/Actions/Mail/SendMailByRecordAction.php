@@ -20,6 +20,7 @@ namespace Modules\Xot\Actions\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 <<<<<<< HEAD
@@ -32,10 +33,15 @@ use InvalidArgumentException;
 =======
 <<<<<<< HEAD
 use InvalidArgumentException;
+=======
+=======
+use InvalidArgumentException;
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Relations\Relation;
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
@@ -44,6 +50,12 @@ use Illuminate\Database\Eloquent\Relations\Relation;
 =======
 use InvalidArgumentException;
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailable;
 use Illuminate\Support\Facades\Mail;
@@ -129,6 +141,22 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+     * @param Model  $record    Il record da utilizzare come dati per la mail
+     * @param string $mailClass La classe Mailable da utilizzare
+     */
+    public function execute(Model $record, string $mailClass): void
+    {
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
      * @param  Model  $record  Il record da utilizzare come dati per la mail
      * @param  string  $mailClass  La classe Mailable da utilizzare
 =======
@@ -240,6 +268,13 @@ class SendMailByRecordAction
      */
     public function execute(Model $record, string $mailClass): void
     {
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         Assert::classExists($mailClass);
         // Expected an implementation of "Illuminate\Mail\Mailable". Got: "Modules\Performance\Mail\SchedaMail"
         // Assert::implementsInterface($mailClass, Mailable::class);
@@ -268,10 +303,14 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
         // Mail::send($mail);
         // dddx(Mail::to($record)->send(new $mailClass($record)));
         // $res=Mail::to('marco.sottana@gmail.com')->send($mail);
 =======
+<<<<<<< HEAD
         //Mail::send($mail);
         //dddx(Mail::to($record)->send(new $mailClass($record)));
         //$res=Mail::to('marco.sottana@gmail.com')->send($mail);
@@ -337,11 +376,14 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
         //Mail::send($mail);
         //dddx(Mail::to($record)->send(new $mailClass($record)));
         //$res=Mail::to('marco.sottana@gmail.com')->send($mail);
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
         //Mail::send($mail);
@@ -363,10 +405,13 @@ class SendMailByRecordAction
         //dddx(Mail::to($record)->send(new $mailClass($record)));
         //$res=Mail::to('marco.sottana@gmail.com')->send($mail);
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
 =======
         // Mail::send($mail);
         // dddx(Mail::to($record)->send(new $mailClass($record)));
         // $res=Mail::to('marco.sottana@gmail.com')->send($mail);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +486,9 @@ class SendMailByRecordAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
 =======
         //Mail::send($mail);
         //dddx(Mail::to($record)->send(new $mailClass($record)));
@@ -450,6 +498,7 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
         //Mail::send($mail);
@@ -536,6 +585,9 @@ class SendMailByRecordAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 
         // Verifica che il model abbia le proprietà/metodi necessari
         if (($record->email ?? null) === null || empty($record->email)) {
@@ -574,11 +626,33 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+        if (!method_exists($record, 'option')) {
+            throw new InvalidArgumentException('Model must implement option method');
+        }
+
+        if (!method_exists($record, 'myLogs')) {
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
         if (! method_exists($record, 'option')) {
             throw new InvalidArgumentException('Model must implement option method');
         }
 
         if (! method_exists($record, 'myLogs')) {
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             throw new InvalidArgumentException('Model must implement myLogs method');
         }
 
@@ -737,6 +811,7 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -832,10 +907,27 @@ class SendMailByRecordAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
                 app(PdfByModelAction::class)->execute(
                     model: $record,
                     out: 'path',
                 ),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                app(PdfByModelAction::class)->execute(model: $record, out: 'path'),
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
             ],
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -861,9 +953,16 @@ class SendMailByRecordAction
         $emailData = EmailData::from($data);
         SmtpData::make()->send($emailData);
 
+<<<<<<< HEAD
         $record
             ->myLogs()
             ->create([
+=======
+<<<<<<< HEAD
+        $myLogs = $record->myLogs();
+        if (is_object($myLogs) && method_exists($myLogs, 'create')) {
+            $myLogs->create([
+>>>>>>> ab8cc3f3 (.)
                 'act' => 'sendMail',
                 'handle' => authId(),
             ]);
@@ -952,12 +1051,36 @@ class SendMailByRecordAction
         if (! method_exists($logsRelation, 'create')) {
             throw new InvalidArgumentException('myLogs() must return a relation that supports create() method');
         }
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+        $record
+            ->myLogs()
+            ->create([
+                'act' => 'sendMail',
+                'handle' => authId(),
+            ]);
+<<<<<<< HEAD
+=======
+        // Type assertion: myLogs() deve restituire una relazione che supporta create()
+        $logsRelation = $record->myLogs();
+        Assert::object($logsRelation, 'myLogs() must return an object');
+
+        if (! method_exists($logsRelation, 'create')) {
+            throw new InvalidArgumentException('myLogs() must return a relation that supports create() method');
+        }
+>>>>>>> ab8cc3f3 (.)
 
         /** @var Relation $logsRelation */
         $logsRelation->create([
             'act' => 'sendMail',
             'handle' => authId(),
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1073,5 +1196,11 @@ class SendMailByRecordAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     }
 }

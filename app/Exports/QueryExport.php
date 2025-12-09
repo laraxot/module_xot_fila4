@@ -89,6 +89,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     /** @var array<int, int|string> */
     public array $fields = [];
 
+<<<<<<< HEAD
     public ?string $transKey = null;
 =======
 =======
@@ -99,6 +100,21 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 >>>>>>> 5a14301c (.)
     /** @var array<int, string> */
     public array $fields = [];
+=======
+<<<<<<< HEAD
+    public array $columns;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|string $transKey = null;
+=======
+    public ?string $transKey = null;
+>>>>>>> f1d4085 (.)
+=======
+    public null|string $transKey = null;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 
     public null|string $transKey = null;
 <<<<<<< HEAD
@@ -265,6 +281,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 <<<<<<< HEAD
      * @param array<int, int|string> $fields
      */
+<<<<<<< HEAD
     public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
 =======
      * @param array<int, string> $fields
@@ -432,10 +449,39 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 >>>>>>> 9db27d12 (.)
     {
         $this->query = $query;
+=======
+<<<<<<< HEAD
+    public function __construct(Builder|QueryBuilder $query, array $headings = [], array $columns = [])
+    {
+        $this->query = $query;
+        $this->headings = $headings;
+        $this->columns = $columns;
+        $this->filename = 'export_'.date('Y-m-d_H-i-s').'.xlsx';
+        $this->sheetName = 'Export';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
+=======
+    public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
+>>>>>>> f1d4085 (.)
+=======
+    public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
+>>>>>>> 73eab74 (.)
+    {
+        $this->query = $query;
+>>>>>>> ab8cc3f3 (.)
         $this->transKey = $transKey;
         $this->fields = $fields;
 
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
          * $this->headings = collect($query->first())
          * ->keys()
          * ->map(
@@ -451,6 +497,64 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
          * )
          * ->toArray();
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        $this->headings = collect($query->first())
+            ->keys()
+            ->map(
+                function ($item) use ($transKey) {
+                    $t = $transKey.'.'.$item;
+                    $trans = trans($t);
+                    if ($trans != $t) {
+                        return $trans;
+                    }
+
+                    return $item;
+                }
+            )
+            ->toArray();
+        */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+    }
+
+    public function getHead(): Collection
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!empty($this->fields)) {
+=======
+        if (! empty($this->fields)) {
+>>>>>>> f1d4085 (.)
+=======
+        if (!empty($this->fields)) {
+>>>>>>> 73eab74 (.)
+            return collect($this->fields);
+        }
+        /**
+         * @var Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null
+         */
+        $first = $this->query->first();
+        if (null === $first) {
+            return collect([]);
+        }
+
+        // Parameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
+        return collect($first)->keys();
+    }
+
+    public function headings(): array
+    {
+        $headings = $this->getHead();
+        $transKey = $this->transKey;
+        $headings = app(TransCollectionAction::class)->execute($headings, $transKey);
+
+        return $headings->toArray();
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     }
 
 <<<<<<< HEAD
@@ -462,6 +566,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
      */
     public function getHead(): Collection
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,6 +648,9 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+        return $this->query->get();
+>>>>>>> ab8cc3f3 (.)
     }
 
     public function headings(): array
@@ -596,7 +704,45 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     {
         return $this->query;
 
+<<<<<<< HEAD
         // ->orderBy('id');
+=======
+        $data = [];
+        $headings = $this->headings();
+
+        foreach ($headings as $heading) {
+            if (! is_string($heading)) {
+                continue;
+            }
+            $value = $row->getAttribute($heading);
+
+            if (is_array($value)) {
+                $value = json_encode($value) ?: '[]';
+            } elseif (is_object($value)) {
+                if (method_exists($value, '__toString')) {
+                    $value = (string) $value;
+                } else {
+                    $value = get_class($value);
+                }
+            }
+
+            $data[] = $value ?? '';
+        }
+
+        return $data;
+=======
+        return $this->query;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+        // ->orderBy('id');
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     }
 
     public function chunkSize(): int
@@ -625,6 +771,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
      */
     public function map(mixed $row): array
     {
+<<<<<<< HEAD
         $rowArray = $this->normalizeRow($row);
 
         if (empty($this->fields)) {
@@ -638,6 +785,10 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
                 return [$keyString => $rowArray[$keyString] ?? null];
             })
             ->toArray();
+=======
+<<<<<<< HEAD
+        return $this->query->limit(10)->get();
+>>>>>>> ab8cc3f3 (.)
     }
 
     /**
@@ -722,6 +873,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
             return collect($item)->toArray();
         }
 
+<<<<<<< HEAD
         // rameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
         return collect($item)->only($this->fields)->toArray();
 <<<<<<< HEAD
@@ -766,10 +918,35 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 >>>>>>> 17684f52 (.)
 =======
 <<<<<<< HEAD
+=======
+        return $this;
+    }
+
+    public function setSheetName(string $sheetName): self
+    {
+        $this->sheetName = $sheetName;
+
+        return $this;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!empty($this->fields)) {
+=======
+        if (! empty($this->fields)) {
+>>>>>>> f1d4085 (.)
+=======
+        if (!empty($this->fields)) {
+>>>>>>> 73eab74 (.)
+            return collect($item)->toArray();
+        }
+
+        // rameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
         return collect($item)->only($this->fields)->toArray();
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -917,5 +1094,15 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+        return collect($item)
+            ->only($this->fields)
+            ->toArray();
+>>>>>>> f1d4085 (.)
+=======
+        return collect($item)->only($this->fields)->toArray();
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
     }
 }

@@ -35,6 +35,7 @@ class GenerateModelByModelClassCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
      */
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -88,10 +89,15 @@ class GenerateModelByModelClassCommand extends Command
 >>>>>>> 17684f52 (.)
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
     
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 <<<<<<< HEAD
@@ -124,10 +130,13 @@ class GenerateModelByModelClassCommand extends Command
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
     public function __construct()
     {
         parent::__construct();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,12 +254,26 @@ class GenerateModelByModelClassCommand extends Command
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+    
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 
     /**
      * Execute the console command.
      */
     public function handle(): void
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         Assert::classExists(
             $model_class = $this->argument('model_class'),
 <<<<<<< HEAD
@@ -275,6 +298,15 @@ class GenerateModelByModelClassCommand extends Command
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)
         );
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        Assert::classExists($model_class = $this->argument('model_class'), '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 
         app(GenerateModelByModelClass::class)
             ->setCustomReplaces(['DummyTable' => 'lime_survey_xxx'])

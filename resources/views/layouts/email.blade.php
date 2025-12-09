@@ -1,8 +1,23 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,4 +64,16 @@ declare(strict_types=1);
         @yield('content')
     </div>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+</html>
+=======
+</html> 
+>>>>>>> f1d4085 (.)
+=======
+</html>
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)

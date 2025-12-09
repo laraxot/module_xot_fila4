@@ -282,7 +282,19 @@ class AutoLabelAction
     /**
      * Get the component name based on its actual type.
      *
+<<<<<<< HEAD
      * @param  Field|Component  $component  Il componente di cui ottenere il nome
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param Field|Component $component Il componente di cui ottenere il nome
+=======
+     * @param Field|\Filament\Schemas\Components\Component $component Il componente di cui ottenere il nome
+>>>>>>> f1d4085 (.)
+=======
+     * @param Field|Component $component Il componente di cui ottenere il nome
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
      * @return string Il nome del componente
      */
     private function getComponentName(Field|Component $component): string
@@ -290,8 +302,20 @@ class AutoLabelAction
         // Per i componenti Field di Filament
         if (method_exists($component, 'getName')) {
             $name = $component->getName();
+<<<<<<< HEAD
 
             return is_string($name) ? $name : ((string) $name);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return is_string($name) ? $name : ((string) $name);
+=======
+            return is_string($name) ? $name : (string) $name;
+>>>>>>> f1d4085 (.)
+=======
+            return is_string($name) ? $name : ((string) $name);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         }
 
         // Per i componenti generali di Filament
@@ -300,8 +324,20 @@ class AutoLabelAction
         // @phpstan-ignore function.alreadyNarrowedType
         if (method_exists($component, 'getStatePath')) {
             $statePath = $component->getStatePath();
+<<<<<<< HEAD
 
             return $statePath ?? class_basename($component);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return $statePath ?? class_basename($component);
+=======
+            return $statePath;
+>>>>>>> f1d4085 (.)
+=======
+            return $statePath ?? class_basename($component);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
         }
 
         // Fallback a reflection per altri casi
@@ -316,6 +352,7 @@ class AutoLabelAction
         // Ultima risorsa: ritorniamo il nome della classe
         return class_basename($component);
     }
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -324,4 +361,94 @@ class AutoLabelAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+
+    /**
+     * Applica automaticamente le etichette ai componenti Filament.
+     *
+<<<<<<< HEAD
+     * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
+     * @return Field|Component Il componente con l'etichetta applicata
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param Field|Component $component Il componente a cui applicare l'etichetta
+     *
+     * @return Field|Component Il componente con l'etichetta applicata
+=======
+     * @param Field|\Filament\Schemas\Components\Component $component Il componente a cui applicare l'etichetta
+     *
+     * @return Field|\Filament\Schemas\Components\Component Il componente con l'etichetta applicata
+>>>>>>> f1d4085 (.)
+=======
+     * @param Field|Component $component Il componente a cui applicare l'etichetta
+     *
+     * @return Field|Component Il componente con l'etichetta applicata
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+     */
+    public function execute(Field|Component $component): Field|Component
+    {
+        Assert::isInstanceOf($component, Field::class, 'Il componente deve essere un\'istanza di Field o Component');
+        $backtrace = debug_backtrace(DEBUG_BACKTRACE_PROVIDE_OBJECT, 6);
+
+        // Otteniamo il valore dalla backtrace
+        $class = Arr::get($backtrace, '5.class');
+
+        // Gestiamo il caso in cui $class sia vuoto
+        if (empty($class)) {
+            // Se non riusciamo a ottenere la classe dal backtrace, usiamo la classe del componente
+            $class = get_class($component);
+        }
+
+        if (is_object($class)) {
+            $class = get_class($class);
+        }
+
+        // Assicuriamo che $class sia una stringa
+        Assert::stringNotEmpty($class, 'La classe deve essere una stringa non vuota');
+
+        // Otteniamo la chiave di traduzione
+        $transKeyAction = app(GetTransKeyAction::class);
+        Assert::isCallable([$transKeyAction, 'execute'], 'GetTransKeyAction::execute deve essere chiamabile');
+
+        $trans_key = $transKeyAction->execute($class);
+        Assert::stringNotEmpty($trans_key, 'La chiave di traduzione non può essere vuota');
+
+        // Otteniamo il nome del componente
+        $componentName = $this->getComponentName($component);
+        Assert::stringNotEmpty($componentName, 'Il nome del componente non può essere vuoto');
+
+        // Costruiamo la chiave per l'etichetta
+        $label_key = $trans_key.'.fields.'.$componentName.'.label';
+        $label = trans($label_key);
+
+        if (is_string($label)) {
+            if ($label_key === $label) {
+                // Se la traduzione non esiste, creiamone una utilizzando il nome del componente
+                $label_value = $componentName;
+
+                // Proviamo a ottenere una traduzione più breve
+                $label_key1 = $trans_key.'.fields.'.$componentName;
+                $label1 = trans($label_key1);
+
+                if ($label_key1 !== $label1 && is_string($label1)) {
+                    $label_value = $label1;
+                }
+
+                // Salviamo la traduzione
+                $saveTransAction = app(SaveTransAction::class);
+                Assert::isCallable([$saveTransAction, 'execute'], 'SaveTransAction::execute deve essere chiamabile');
+
+                $saveTransAction->execute($label_key, $label_value);
+            }
+
+            // Applichiamo l'etichetta al componente
+            // Field ha sempre un metodo label(), quindi possiamo chiamarlo direttamente
+            $component->label($label);
+        }
+
+        return $component;
+    }
+>>>>>>> ab8cc3f3 (.)
 }

@@ -54,6 +54,7 @@ class GetModelClassByModelTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_array($morph_map)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 =======
@@ -111,11 +112,19 @@ class GetModelClassByModelTypeAction
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+        if (! is_array($morph_map)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
         if (!is_array($morph_map)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 =======
         if (! is_array($morph_map)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
         if (!is_array($morph_map)) {
@@ -185,6 +194,9 @@ class GetModelClassByModelTypeAction
 =======
 >>>>>>> 88ea7103 (.)
 =======
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
         if (!is_array($morph_map)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 73eab74 (.)
@@ -192,6 +204,7 @@ class GetModelClassByModelTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
         if (!is_array($morph_map)) {
@@ -267,6 +280,9 @@ class GetModelClassByModelTypeAction
         if (!is_array($morph_map)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
         }
 
         Assert::string($res = collect($morph_map)->get($model_type));

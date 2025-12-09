@@ -47,6 +47,7 @@ abstract class BaseModel extends XotBaseModel
 {
     protected $connection = 'xot';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -79,6 +80,9 @@ abstract class BaseModel extends Model
     protected $perPage = 30;
 
     protected $connection = 'xot';
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 
     /** @var list<string> */
     protected $fillable = ['id'];
@@ -106,6 +110,7 @@ abstract class BaseModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -113,6 +118,8 @@ abstract class BaseModel extends Model
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
     /** @return array<string, class-string|string> */
     protected function casts(): array
     {
@@ -121,11 +128,25 @@ abstract class BaseModel extends Model
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
 }

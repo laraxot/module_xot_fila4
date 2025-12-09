@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
 # Strumenti di Correzione Automatica della Struttura delle Directory
 
 ## Introduzione
@@ -243,6 +247,7 @@ Durante lo sviluppo, è possibile eseguire lo script solo sul modulo in fase di 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Lo script di correzione automatica della struttura delle directory è uno strumento essenziale per mantenere la coerenza e seguire le convenzioni del framework Laraxot <nome progetto>. Utilizzandolo regolarmente, è possibile garantire che il codice segua sempre la struttura richiesta, facilitando la manutenzione e l'interoperabilità tra i vari moduli. 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,12 +276,15 @@ Lo script di correzione automatica della struttura delle directory è uno strume
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
 =======
+=======
+>>>>>>> ab8cc3f3 (.)
 Lo script di correzione automatica della struttura delle directory è uno strumento essenziale per mantenere la coerenza e seguire le convenzioni del framework Laraxot <nome progetto>. Utilizzandolo regolarmente, è possibile garantire che il codice segua sempre la struttura richiesta, facilitando la manutenzione e l'interoperabilità tra i vari moduli. 
 =======
 >>>>>>> f1d4085 (.)
 =======
 Lo script di correzione automatica della struttura delle directory è uno strumento essenziale per mantenere la coerenza e seguire le convenzioni del framework Laraxot <nome progetto>. Utilizzandolo regolarmente, è possibile garantire che il codice segua sempre la struttura richiesta, facilitando la manutenzione e l'interoperabilità tra i vari moduli. 
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
 Lo script di correzione automatica della struttura delle directory è uno strumento essenziale per mantenere la coerenza e seguire le convenzioni del framework Laraxot <nome progetto>. Utilizzandolo regolarmente, è possibile garantire che il codice segua sempre la struttura richiesta, facilitando la manutenzione e l'interoperabilità tra i vari moduli. 
@@ -393,3 +401,6 @@ Lo script di correzione automatica della struttura delle directory è uno strume
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)

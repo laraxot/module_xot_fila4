@@ -1403,7 +1403,7 @@ class MyAction extends XotBaseAction
 
 ### 1. Form Base
 ```php
-public static function form(Form $form): Form
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 {
     return $form->schema([
         // Utilizzare helper Xot
@@ -8594,7 +8594,7 @@ public static function table(Table $table): Table
 2. **Dettaglio Completo**
 Le informazioni aggiuntive devono essere mostrate solo nella vista dettaglio:
 ```php
-public static function form(Form $form): Form
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 {
     return $form
         ->schema([

@@ -2,10 +2,15 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a14301c (.)
 return [
     'actions' => [
         'authenticate' => [
             'label' => 'authenticate',
+<<<<<<< HEAD
             'icon' => 'ui-authenticate',
             'tooltip' => 'authenticate',
         ],
@@ -18,6 +23,14 @@ return [
             'label' => 'request',
             'tooltip' => 'request',
             'icon' => 'request',
+=======
+        ],
+        'login' => [
+            'label' => 'login',
+        ],
+        'request' => [
+            'label' => 'request',
+>>>>>>> 5a14301c (.)
         ],
         'activeLocale' => [
             'label' => 'activeLocale',
@@ -37,6 +50,7 @@ return [
         'create' => [
             'label' => 'create',
         ],
+<<<<<<< HEAD
         'hidePassword' => [
             'icon' => 'hidePassword',
             'label' => 'hidePassword',
@@ -47,6 +61,8 @@ return [
             'label' => 'showPassword',
             'tooltip' => 'showPassword',
         ],
+=======
+>>>>>>> 5a14301c (.)
     ],
     'fields' => [
         'email' => [
@@ -287,7 +303,11 @@ return [
                 'placeholder' => 'zeusData.2',
                 'label' => 'zeusData.2',
             ],
+<<<<<<< HEAD
             [
+=======
+            4 => [
+>>>>>>> 5a14301c (.)
                 'description' => 'zeusData.4',
                 'helper_text' => 'zeusData.4',
                 'placeholder' => 'zeusData.4',

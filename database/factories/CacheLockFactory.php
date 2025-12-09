@@ -8,15 +8,22 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\CacheLock;
 
+<<<<<<< HEAD
 /**
  * @extends Factory<CacheLock>
  */
+=======
+>>>>>>> 5a14301c (.)
 class CacheLockFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
+<<<<<<< HEAD
      * @var class-string<CacheLock>
+=======
+     * @var class-string<Model>
+>>>>>>> 5a14301c (.)
      */
     protected $model = CacheLock::class;
 

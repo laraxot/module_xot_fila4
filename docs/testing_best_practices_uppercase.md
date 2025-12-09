@@ -40,6 +40,10 @@ function mockXotData(): void
     
     $mockXotData->shouldReceive('getUserClass')
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
+<<<<<<< HEAD
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -213,4 +217,8 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Status**: ✅ Best Practices Validate  
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
+<<<<<<< HEAD
 **Last Update**: Dicembre 2024 
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)

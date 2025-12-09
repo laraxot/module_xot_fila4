@@ -14,7 +14,11 @@ trait CreatesApplication
      */
     public function createApplication(): Application
     {
+<<<<<<< HEAD
         $app = require __DIR__.'/../../../bootstrap/app.php';
+=======
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+>>>>>>> 5a14301c (.)
 
         $app->make(Kernel::class)->bootstrap();
 

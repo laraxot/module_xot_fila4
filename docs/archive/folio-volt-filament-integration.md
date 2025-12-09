@@ -14,7 +14,10 @@
 - [Cms](../Cms/docs/README.md) - Gestione contenuti
 - [Lang](../Lang/docs/README.md) - Traduzioni
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 ## Struttura
 
 ### Pagine Folio con Filament
@@ -185,6 +188,9 @@ $submit = function() {
 - [Grafici](../Chart/docs/charts.md)
 - [Dashboard](../Chart/docs/dashboard.md)
 - [Visualizzazione](../Chart/docs/visualization.md)
+<<<<<<< HEAD
 =======
 =======
 =======
+=======
+>>>>>>> 5a14301c (.)

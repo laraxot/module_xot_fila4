@@ -9,7 +9,11 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Header;
 
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
+<<<<<<< HEAD
 // use Filament\Actions\Action;
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
 use Filament\Actions\Action;
 use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
@@ -33,7 +37,11 @@ class FakeSeederHeaderAction extends Action
                     ->minValue(1)
                     ->integer(),
             ])
+<<<<<<< HEAD
             ->action(function (array $data, ListRecords $livewire): void {
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
                 $resource = $livewire->getResource();
                 /** @var class-string<Model> $modelClass */
                 $modelClass = $resource::getModel();
@@ -46,7 +54,11 @@ class FakeSeederHeaderAction extends Action
 
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
 
+<<<<<<< HEAD
                 $title = 'On Queue '.$qty.' '.$modelClass;
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 5a14301c (.)
                 Notification::make()
                     ->title($title)
                     ->success()
@@ -55,7 +67,11 @@ class FakeSeederHeaderAction extends Action
             ->visible(false);
     }
 
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
     {
         return 'fake_seeder';
     }

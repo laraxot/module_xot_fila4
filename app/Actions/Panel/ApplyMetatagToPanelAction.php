@@ -5,8 +5,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Panel;
 
 use Exception;
+<<<<<<< HEAD
 use Filament\Panel;
 use Illuminate\Support\Facades\Log;
+=======
+use Illuminate\Support\Facades\Log;
+use Filament\Panel;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Datas\MetatagData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -18,7 +23,10 @@ class ApplyMetatagToPanelAction
     {
         try {
             $metatag = MetatagData::make();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
             return $panel
                 // @phpstan-ignore argument.type
                 ->colors($metatag->getColors())
@@ -29,8 +37,12 @@ class ApplyMetatagToPanelAction
                 ->favicon($metatag->getFavicon());
         } catch (Exception $e) {
             // Log l'errore ma non bloccare l'applicazione
+<<<<<<< HEAD
             Log::error('Error applying metatag to panel: '.$e->getMessage());
 
+=======
+            Log::error('Error applying metatag to panel: ' . $e->getMessage());
+>>>>>>> 5a14301c (.)
             return $panel;
         }
     }

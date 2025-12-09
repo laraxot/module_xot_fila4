@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 # Regole Generali del Progetto <nome progetto>
 
 Questo documento contiene le regole generali che devono essere seguite in tutto il progetto <nome progetto> per garantire coerenza e qualità del codice.
+=======
+# Regole Generali del Progetto 
+
+Questo documento contiene le regole generali che devono essere seguite in tutto il progetto  per garantire coerenza e qualità del codice.
+# Regole Generali del Progetto SaluteOra
+
+Questo documento contiene le regole generali che devono essere seguite in tutto il progetto SaluteOra per garantire coerenza e qualità del codice.
+>>>>>>> 5a14301c (.)
 
 ## Struttura dei Namespace
 - **Modelli**: Utilizzare il namespace `Modules\<nome modulo>\Models` per tutti i modelli.

@@ -8,10 +8,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Spatie\SchemalessAttributes\SchemalessAttributes;
+=======
+use Spatie\SchemalessAttributes\SchemalessAttributes;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
+>>>>>>> 5a14301c (.)
 
 /**
  * Modules\Xot\Contracts\ExtraContract.
@@ -23,7 +30,11 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
  * @method static Builder|ExtraContract query()
  * @method static Builder|ExtraContract withExtraAttributes()
  *
+<<<<<<< HEAD
  * @property int $id
+=======
+ * @property int         $id
+>>>>>>> 5a14301c (.)
  * @property string $model_type
  * @property string $model_id
  * @property Carbon|null $created_at
@@ -48,4 +59,10 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 interface ExtraContract {}
+=======
+interface ExtraContract
+{
+}
+>>>>>>> 5a14301c (.)

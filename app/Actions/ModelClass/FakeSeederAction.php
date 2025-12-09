@@ -4,13 +4,21 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\ModelClass;
 
+<<<<<<< HEAD
+=======
+use InvalidArgumentException;
+use RuntimeException;
+>>>>>>> 5a14301c (.)
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
+<<<<<<< HEAD
 use InvalidArgumentException;
 use RuntimeException;
+=======
+>>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -25,17 +33,28 @@ class FakeSeederAction
     /**
      * Execute the fake data seeding process.
      *
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass  The fully qualified model class name
      * @param  int<1, max>  $qty  Number of records to generate
+=======
+     * @param class-string<Model> $modelClass The fully qualified model class name
+     * @param int<1, max>         $qty        Number of records to generate
+>>>>>>> 5a14301c (.)
      *
      * @throws InvalidArgumentException When model class is invalid
      */
     public function execute(string $modelClass, int $qty): void
     {
         if (
+<<<<<<< HEAD
             ! class_exists($modelClass) ||
                 ! is_subclass_of($modelClass, Model::class) ||
                 ! in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
+=======
+            !class_exists($modelClass) ||
+                !is_subclass_of($modelClass, Model::class) ||
+                !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
+>>>>>>> 5a14301c (.)
         ) {
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
         }
@@ -69,7 +88,11 @@ class FakeSeederAction
     /**
      * Get the model factory.
      *
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass
+=======
+     * @param class-string<Model> $modelClass
+>>>>>>> 5a14301c (.)
      *
      * @throws RuntimeException
      */
@@ -85,8 +108,13 @@ class FakeSeederAction
     /**
      * Send a notification about the seeding completion.
      *
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass
      * @param  int<1, max>  $count
+=======
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $count
+>>>>>>> 5a14301c (.)
      */
     private function sendNotification(string $modelClass, int $count): void
     {
@@ -100,8 +128,13 @@ class FakeSeederAction
     /**
      * Queue remaining records for processing.
      *
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass
      * @param  int<1, max>  $qty
+=======
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $qty
+>>>>>>> 5a14301c (.)
      */
     private function queueRemainingRecords(string $modelClass, int $qty): void
     {

@@ -4,8 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\String;
 
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 
+=======
+use Illuminate\Support\Str;
+use Spatie\QueueableAction\QueueableAction;
+
+use function Safe\preg_replace;
+
+>>>>>>> 5a14301c (.)
 class GetPronounceablePasswordAction
 {
     use QueueableAction;
@@ -13,7 +21,11 @@ class GetPronounceablePasswordAction
     /**
      * Genera una password pronunciabile con caratteri speciali e numeri.
      *
+<<<<<<< HEAD
      * @param  int  $length  Lunghezza minima della password (default: 12)
+=======
+     * @param int $length Lunghezza minima della password (default: 12)
+>>>>>>> 5a14301c (.)
      * @return string Password generata
      */
     public function execute(int $length = 12): string
@@ -46,16 +58,27 @@ class GetPronounceablePasswordAction
         $useConsonant = true;
 
         // Costruisci la parte pronunciabile alternando consonanti e vocali
+<<<<<<< HEAD
         while (strlen($password) < $length - 4) {
             $char = $useConsonant ? $consonants[array_rand($consonants)] : $vowels[array_rand($vowels)];
             $password .= $char;
             $useConsonant = ! $useConsonant;
+=======
+        while (strlen($password) < ($length - 4)) {
+            $char = $useConsonant ? $consonants[array_rand($consonants)] : $vowels[array_rand($vowels)];
+            $password .= $char;
+            $useConsonant = !$useConsonant;
+>>>>>>> 5a14301c (.)
         }
 
         // Verifica che la password non sia vuota prima di accedere agli offset
         if (strlen($password) === 0) {
             // Fallback: genera almeno una consonante e una vocale
+<<<<<<< HEAD
             $password = $consonants[array_rand($consonants)].$vowels[array_rand($vowels)];
+=======
+            $password = $consonants[array_rand($consonants)] . $vowels[array_rand($vowels)];
+>>>>>>> 5a14301c (.)
         }
 
         // Aggiungi almeno:
@@ -70,7 +93,11 @@ class GetPronounceablePasswordAction
         $special = $specials[rand(0, strlen($specials) - 1)];
 
         // Evita duplicazioni semplici: aggiungi un'altra minuscola casuale
+<<<<<<< HEAD
         $password .= $uppercase.$digit.$special;
+=======
+        $password .= $uppercase . $digit . $special;
+>>>>>>> 5a14301c (.)
 
         // Shuffle finale per rendere la password meno prevedibile
         $shuffled = str_shuffle($password);

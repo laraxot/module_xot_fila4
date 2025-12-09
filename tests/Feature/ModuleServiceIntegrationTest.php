@@ -2,8 +2,13 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
+=======
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\File;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Services\ModuleService;
 
 describe('ModuleService Integration', function () {

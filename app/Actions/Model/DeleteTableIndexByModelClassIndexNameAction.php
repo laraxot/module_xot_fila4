@@ -16,9 +16,15 @@ class DeleteTableIndexByModelClassIndexNameAction
     {
         Assert::isInstanceOf($model = app($modelClass), EloquentModel::class);
         $table = $model->getTable();
+<<<<<<< HEAD
         $formManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
         $doctrineTable = $formManager->introspectTable($table);
         // $doctrineTable=$formManager->listTableDetails($table);
+=======
+        $schemaManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
+        $doctrineTable = $schemaManager->introspectTable($table);
+        // $doctrineTable=$schemaManager->listTableDetails($table);
+>>>>>>> 5a14301c (.)
         $doctrineTable->dropIndex($indexName);
 
         // ALTER TABLE `roles` DROP INDEX `roles_name_guard_name_unique`;

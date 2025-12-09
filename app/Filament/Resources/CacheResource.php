@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
+<<<<<<< HEAD
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\CacheResource\Pages\CreateCache;
@@ -15,6 +16,21 @@ use Override;
 class CacheResource extends XotBaseResource
 {
     protected static ?string $model = Cache::class;
+=======
+use Override;
+use Modules\Xot\Filament\Resources\CacheResource\Pages\ListCaches;
+use Modules\Xot\Filament\Resources\CacheResource\Pages\CreateCache;
+use Modules\Xot\Filament\Resources\CacheResource\Pages\EditCache;
+use Filament\Forms\Components\KeyValue;
+use Filament\Forms\Components\TextInput;
+use Modules\Xot\Filament\Resources\CacheResource\Pages;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Modules\Xot\Models\Cache;
+
+class CacheResource extends XotBaseResource
+{
+    protected static null|string $model = Cache::class;
+>>>>>>> 5a14301c (.)
 
     #[Override]
     public static function getFormSchema(): array

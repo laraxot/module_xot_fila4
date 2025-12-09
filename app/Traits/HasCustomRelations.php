@@ -24,12 +24,21 @@ trait HasCustomRelations
     public function customRelation(
         string $related,
         Closure $baseConstraints,
+<<<<<<< HEAD
         ?Closure $eagerConstraints = null,
         ?Closure $eagerMatcher = null,
     ): CustomRelation {
         $instance = new $related;
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '['.__LINE__.']['.class_basename($this).']');
+=======
+        null|Closure $eagerConstraints = null,
+        null|Closure $eagerMatcher = null,
+    ): CustomRelation {
+        $instance = new $related();
+        // Call to an undefined method object::newQuery()
+        Assert::isInstanceOf($instance, Model::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 5a14301c (.)
         $query = $instance->newQuery();
 
         return new CustomRelation($query, $this, $baseConstraints, $eagerConstraints, $eagerMatcher);

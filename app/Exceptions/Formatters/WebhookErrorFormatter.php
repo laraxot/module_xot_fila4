@@ -4,8 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exceptions\Formatters;
 
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Auth;
 use Throwable;
+=======
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+>>>>>>> 5a14301c (.)
 
 class WebhookErrorFormatter
 {

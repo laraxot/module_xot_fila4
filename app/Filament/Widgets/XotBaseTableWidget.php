@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a14301c (.)
 namespace Modules\Xot\Filament\Widgets;
 
 use Filament\Widgets\TableWidget as FilamentTableWidget;

@@ -33,7 +33,11 @@ class InformationSchemaTableFactory extends Factory
 
         return [
             'table_catalog' => 'def',
+<<<<<<< HEAD
             'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
+=======
+            'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
+>>>>>>> 5a14301c (.)
             'table_name' => $tableName,
             'table_type' => $this->faker->randomElement(['BASE TABLE', 'VIEW']),
             'engine' => $this->faker->randomElement(['InnoDB', 'MyISAM']),
@@ -58,14 +62,22 @@ class InformationSchemaTableFactory extends Factory
 
     public function baseTable(): static
     {
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 5a14301c (.)
             'table_type' => 'BASE TABLE',
         ]);
     }
 
     public function view(): static
     {
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 5a14301c (.)
             'table_type' => 'VIEW',
         ]);
     }

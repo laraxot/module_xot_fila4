@@ -4,19 +4,31 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Module;
 
+<<<<<<< HEAD
 use Error;
 use Exception;
 use Illuminate\Support\Facades\Config;
+=======
+use Exception;
+use Error;
+use Illuminate\Support\Facades\Config;
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
 
 class GetModulePathByGeneratorAction
 {
     public function execute(string $moduleName, string $generatorPath): string
     {
+<<<<<<< HEAD
         $relativePath = Config::string('modules.paths.generator.'.$generatorPath.'.path');
+=======
+        $relativePath = Config::string('modules.paths.generator.' . $generatorPath . '.path');
+>>>>>>> 5a14301c (.)
         try {
             $res = module_path($moduleName, $relativePath);
         } catch (Exception|Error $e) {
             throw new Exception('Module path not found: 
+<<<<<<< HEAD
             name:['.
             $moduleName.
             '] 
@@ -27,6 +39,19 @@ class GetModulePathByGeneratorAction
             $e->getMessage().
                 ']');
         }
+=======
+            name:[' .
+            $moduleName .
+            '] 
+            generatorPath:[' .
+            $generatorPath .
+            ']
+            error_message:[' .
+            $e->getMessage() .
+                ']');
+        }
+        Assert::string($res, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 5a14301c (.)
 
         return $res;
     }

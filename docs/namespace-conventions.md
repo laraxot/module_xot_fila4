@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -9475,4 +9478,7 @@ php scripts/check-namespaces.php
  aurmich/dev
  aurmich/dev
 Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerente e a evitare errori comuni durante l'analisi statica del codice con PHPStan. 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)

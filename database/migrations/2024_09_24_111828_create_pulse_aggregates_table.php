@@ -5,14 +5,22 @@ declare(strict_types=1);
 use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
+=======
+return new class extends XotBaseMigration {
+>>>>>>> 5a14301c (.)
     /**
      * Run the migrations.
      */
     public function up(): void
     {
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
+=======
+        if (!$this->shouldRun()) {
+>>>>>>> 5a14301c (.)
             return;
         }
         // -- CREATE --
@@ -26,7 +34,11 @@ return new class extends XotBaseMigration
                 'mariadb', 'mysql' => $table->char('key_hash', 16)->charset('binary')->virtualAs('unhex(md5(`key`))'),
                 'pgsql' => $table->uuid('key_hash')->storedAs('md5("key")::uuid'),
                 'sqlite' => $table->string('key_hash'),
+<<<<<<< HEAD
                 default => throw new InvalidArgumentException('Unsupported driver: '.$this->driver()),
+=======
+                default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
+>>>>>>> 5a14301c (.)
             };
             $table->string('aggregate');
             $table->decimal('value', 20, 2);

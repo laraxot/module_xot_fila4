@@ -4,11 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions;
 
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Process;
 use RuntimeException;
 use Spatie\QueueableAction\QueueableAction;
 use Throwable;
+=======
+use RuntimeException;
+use Throwable;
+use Illuminate\Support\Facades\Event;
+use Illuminate\Support\Facades\Process;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 5a14301c (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -37,21 +45,35 @@ class ExecuteArtisanCommandAction
     /**
      * Esegue un comando Artisan e restituisce i risultati.
      *
+<<<<<<< HEAD
      * @param  string  $command  Il comando Artisan da eseguire (senza "php artisan")
+=======
+     * @param string $command Il comando Artisan da eseguire (senza "php artisan")
+     *
+     * @throws RuntimeException Se il comando non è consentito o si verifica un errore
+     *
+>>>>>>> 5a14301c (.)
      * @return array{
      *     command: string,
      *     output: array<int, string>,
      *     status: 'completed'|'failed',
      *     exitCode: int
      * } Array con informazioni sull'esecuzione del comando
+<<<<<<< HEAD
      *
      * @throws RuntimeException Se il comando non è consentito o si verifica un errore
+=======
+>>>>>>> 5a14301c (.)
      */
     public function execute(string $command): array
     {
         Assert::stringNotEmpty($command, 'Il comando non può essere vuoto');
 
+<<<<<<< HEAD
         if (! $this->isCommandAllowed($command)) {
+=======
+        if (!$this->isCommandAllowed($command)) {
+>>>>>>> 5a14301c (.)
             throw new RuntimeException("Comando non consentito: {$command}");
         }
 
@@ -70,20 +92,34 @@ class ExecuteArtisanCommandAction
             // Cattura l'output in tempo reale
             while ($process->running()) {
                 $data = $process->latestOutput();
+<<<<<<< HEAD
                 if (! empty($data)) {
                     $formattedData = trim($data);
                     if (! empty($formattedData)) {
+=======
+                if (!empty($data)) {
+                    $formattedData = trim($data);
+                    if (!empty($formattedData)) {
+>>>>>>> 5a14301c (.)
                         $output[] = $formattedData;
                         Event::dispatch('artisan-command.output', [$command, $formattedData]);
                     }
                 }
 
                 $errorData = $process->latestErrorOutput();
+<<<<<<< HEAD
                 if (! empty($errorData)) {
                     $formattedError = trim($errorData);
                     if (! empty($formattedError)) {
                         $output[] = '[ERROR] '.$formattedError;
                         Event::dispatch('artisan-command.output', [$command, '[ERROR] '.$formattedError]);
+=======
+                if (!empty($errorData)) {
+                    $formattedError = trim($errorData);
+                    if (!empty($formattedError)) {
+                        $output[] = '[ERROR] ' . $formattedError;
+                        Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $formattedError]);
+>>>>>>> 5a14301c (.)
                     }
                 }
 
@@ -94,15 +130,25 @@ class ExecuteArtisanCommandAction
 
             // Cattura qualsiasi output residuo
             $finalOutput = trim($result->output());
+<<<<<<< HEAD
             if (! empty($finalOutput)) {
+=======
+            if (!empty($finalOutput)) {
+>>>>>>> 5a14301c (.)
                 $output[] = $finalOutput;
                 Event::dispatch('artisan-command.output', [$command, $finalOutput]);
             }
 
             $finalErrorOutput = trim($result->errorOutput());
+<<<<<<< HEAD
             if (! empty($finalErrorOutput)) {
                 $output[] = '[ERROR] '.$finalErrorOutput;
                 Event::dispatch('artisan-command.output', [$command, '[ERROR] '.$finalErrorOutput]);
+=======
+            if (!empty($finalErrorOutput)) {
+                $output[] = '[ERROR] ' . $finalErrorOutput;
+                Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $finalErrorOutput]);
+>>>>>>> 5a14301c (.)
             }
 
             if ($result->successful()) {
@@ -132,13 +178,20 @@ class ExecuteArtisanCommandAction
     /**
      * Verifica se un comando è presente nella lista dei comandi consentiti.
      *
+<<<<<<< HEAD
      * @param  string  $command  Il comando da verificare
+=======
+     * @param string $command Il comando da verificare
+>>>>>>> 5a14301c (.)
      * @return bool True se il comando è consentito, false altrimenti
      */
     private function isCommandAllowed(string $command): bool
     {
         Assert::stringNotEmpty($command, 'Il comando non può essere vuoto');
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
         return in_array($command, $this->allowedCommands, true);
     }
 }

@@ -40,7 +40,11 @@ function mockXotData(): void
     
     $mockXotData->shouldReceive('getUserClass')
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
+<<<<<<< HEAD
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);

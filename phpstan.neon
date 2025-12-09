@@ -1,14 +1,23 @@
 parameters:
+<<<<<<< HEAD
     level: 10
+=======
+    level: 7
+>>>>>>> 5a14301c (.)
     paths:
         - app
         - config
         - database
         - routes
+<<<<<<< HEAD
+=======
+        - tests
+>>>>>>> 5a14301c (.)
     excludePaths:
         - app_old/*
         - vendor/*
         - tests/coverage/*
+<<<<<<< HEAD
     treatPhpDocTypesAsCertain: false
     reportUnmatchedIgnoredErrors: false
     checkArgumentsPassedByReference: true
@@ -16,6 +25,35 @@ parameters:
     checkFunctionNameCase: true
     inferPrivatePropertyTypeFromConstructor: true
 
+=======
+    checkMissingIterableValueType: true
+    checkGenericClassInNonGenericObjectType: true
+    checkMissingCallableSignature: true
+    treatPhpDocTypesAsCertain: true
+    reportUnmatchedIgnoredErrors: true
+
+    ignoreErrors:
+        # Ignoriamo temporaneamente alcuni errori specifici mentre li correggiamo
+        - '#Method [a-zA-Z0-9\\_]+::[a-zA-Z0-9_]+\(\) has no return type specified#'
+        - '#Property [a-zA-Z0-9\\_]+::\$[a-zA-Z0-9_]+ has no type specified#'
+
+    # Regole per i tipi di parametri
+    checkArgumentsPassedByReference: true
+    checkNullables: true
+
+    # Regole per i servizi
+    checkFunctionNameCase: true
+
+    # Regole per i modelli
+    checkModelProperties: true
+
+    # Regole per i test
+    inferPrivatePropertyTypeFromConstructor: true
+
+    # Regole per la documentazione
+    checkPhpDocMissingReturn: true
+
+>>>>>>> 5a14301c (.)
 services:
     -
         class: PHPStan\Rules\Methods\ReturnTypeRule

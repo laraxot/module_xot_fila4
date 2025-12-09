@@ -2,10 +2,24 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 uses(TestCase::class);
 
 describe('ModuleService', function () {
     beforeEach(function () {});
+=======
+use Tests\TestCase;
+use Modules\Xot\Services\ModuleService;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+use Nwidart\Modules\Module;
+
+uses(TestCase::class);
+
+describe('ModuleService', function () {
+    beforeEach(function () {
+        $this->service = new ModuleService()->setName('TestModule');
+    });
+>>>>>>> 5a14301c (.)
 
     it('can be instantiated', function () {
         expect($this->service)->toBeInstanceOf(ModuleService::class);
@@ -20,6 +34,11 @@ describe('ModuleService', function () {
     });
 
     it('can be instantiated with different module names', function () {
+<<<<<<< HEAD
+=======
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+>>>>>>> 5a14301c (.)
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
     });
@@ -85,6 +104,10 @@ describe('ModuleService', function () {
     });
 
     it('handles empty module gracefully', function () {
+<<<<<<< HEAD
+=======
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+>>>>>>> 5a14301c (.)
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
@@ -123,6 +146,11 @@ describe('ModuleService', function () {
         $reflection = new ReflectionClass($this->service);
         $methods = $reflection->getMethods();
 
+<<<<<<< HEAD
+=======
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+>>>>>>> 5a14301c (.)
         expect(count($publicMethods))->toBeGreaterThan(0);
     });
 

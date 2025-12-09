@@ -9,6 +9,11 @@ use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
 
+<<<<<<< HEAD
+=======
+use function count;
+
+>>>>>>> 5a14301c (.)
 /**
  * Class RouteService.
  * Modules\Xot\Services\RouteService.
@@ -20,7 +25,11 @@ class RouteService
     /**
      * Verifica se l'utente è in modalità amministrazione.
      *
+<<<<<<< HEAD
      * @param  array<string,string>  $params  Parametri aggiuntivi
+=======
+     * @param array<string,string> $params Parametri aggiuntivi
+>>>>>>> 5a14301c (.)
      * @return bool True se l'utente è in modalità amministrazione, false altrimenti
      */
     public static function inAdmin(array $params = []): bool
@@ -32,7 +41,11 @@ class RouteService
         }
 
         // Se il primo segmento dell'URL è 'admin', siamo in modalità amministrazione
+<<<<<<< HEAD
         if (Request::segment(1) === 'admin') {
+=======
+        if ('admin' === Request::segment(1)) {
+>>>>>>> 5a14301c (.)
             return true;
         }
 
@@ -40,6 +53,7 @@ class RouteService
         $segments = Request::segments();
 
         // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
+<<<<<<< HEAD
         return (is_countable($segments) ? \count($segments) : 0) > 0 &&
             $segments[0] === 'livewire' &&
             session('in_admin', false) === true;
@@ -47,6 +61,17 @@ class RouteService
 
     /**
      * @param  array<string,string>  $params
+=======
+        return (
+            (is_countable($segments) ? \count($segments) : 0) > 0 &&
+            'livewire' === $segments[0] &&
+            session('in_admin', false) === true
+        );
+    }
+
+    /**
+     * @param array<string,string> $params
+>>>>>>> 5a14301c (.)
      */
     public static function urlAct(array $params): string
     {
@@ -67,11 +92,19 @@ class RouteService
         // Cannot call method getName() on mixed.
         $routename = ''; // Request::route()->getName();
         $old_act_route = last(explode('.', $routename));
+<<<<<<< HEAD
         if (! \is_string($old_act_route)) {
             throw new Exception('['.__LINE__.']['.class_basename(self::class).']');
         }
 
         $routename_act = Str::before($routename, $old_act_route).''.$act;
+=======
+        if (!\is_string($old_act_route)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename(self::class) . ']');
+        }
+
+        $routename_act = Str::before($routename, $old_act_route) . '' . $act;
+>>>>>>> 5a14301c (.)
         $route_current = Route::current();
         $route_params = [];
         if ($route_current instanceof \Illuminate\Routing\Route) {
@@ -93,13 +126,21 @@ class RouteService
             return route($routename_act, $parz);
         }
 
+<<<<<<< HEAD
         return '#'.$routename_act;
+=======
+        return '#' . $routename_act;
+>>>>>>> 5a14301c (.)
     }
 
     // se n=0 => 'container0'
     // se n=1 => 'containers.container1'
     /**
+<<<<<<< HEAD
      * @param  array<string,string>  $params
+=======
+     * @param array<string,string> $params
+>>>>>>> 5a14301c (.)
      */
     public static function getRoutenameN(array $params): string
     {
@@ -113,8 +154,13 @@ class RouteService
             $tmp[] = 'admin';
         }
 
+<<<<<<< HEAD
         for ($i = 0; $i <= $n; $i++) {
             $tmp[] = 'container'.$i;
+=======
+        for ($i = 0; $i <= $n; ++$i) {
+            $tmp[] = 'container' . $i;
+>>>>>>> 5a14301c (.)
         }
 
         $tmp[] = $act;
@@ -185,7 +231,11 @@ class RouteService
      * $url = str_replace(url(''), '', route($route_name, $route_params));
      * } catch (\Exception $e) {
      * if (request()->input('debug', false)) {
+<<<<<<< HEAD
      * dddx([
+=======
+     * dd([
+>>>>>>> 5a14301c (.)
      * 'route_name' => $route_name,
      * 'route_params' => $route_params,
      * 'line' => __LINE__,
@@ -201,7 +251,11 @@ class RouteService
      * }
      */
     /**
+<<<<<<< HEAD
      * @param  array<string,string>  $params
+=======
+     * @param array<string,string> $params
+>>>>>>> 5a14301c (.)
      */
     public static function urlLang(array $params = []): string
     {
@@ -278,7 +332,11 @@ class RouteService
     public static function getAct(): string
     {
         $route_action = Route::currentRouteAction();
+<<<<<<< HEAD
         if ($route_action === null) {
+=======
+        if (null === $route_action) {
+>>>>>>> 5a14301c (.)
             throw new Exception('$route_action is null');
         }
 
@@ -304,7 +362,11 @@ class RouteService
     public static function getModuleName(): string
     {
         $route_action = Route::currentRouteAction();
+<<<<<<< HEAD
         if ($route_action === null) {
+=======
+        if (null === $route_action) {
+>>>>>>> 5a14301c (.)
             throw new Exception('$route_action is null');
         }
 
@@ -319,7 +381,11 @@ class RouteService
     public static function getControllerName(): string
     {
         $route_action = Route::currentRouteAction();
+<<<<<<< HEAD
         if ($route_action === null) {
+=======
+        if (null === $route_action) {
+>>>>>>> 5a14301c (.)
             throw new Exception('$route_action is null');
         }
 
@@ -337,7 +403,11 @@ class RouteService
         $params['containers'] = implode('.', $containers);
 
         return collect($tmp_arr)
+<<<<<<< HEAD
             ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
+=======
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+>>>>>>> 5a14301c (.)
             ->map(static function ($item) use ($params) {
                 $item = Str::snake($item);
 

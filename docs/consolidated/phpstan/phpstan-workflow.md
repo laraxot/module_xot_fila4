@@ -137,7 +137,10 @@ class MyModel extends BaseModel
    - ❌ MAI correggere un solo errore alla volta se esistono errori simili
    - ❌ MAI rimandare le correzioni a sessioni successive
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 ## Struttura del Progetto e Workflow
 
 ### Architettura Modulare
@@ -185,7 +188,10 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
      - Docs del modulo specifico
      - .cursor/rules per Cursor AI
      - .windsurfrules per Windsurf
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
    - Mantenere coerenza tra le diverse documentazioni 
 ## Collegamenti tra versioni di PHPSTAN_WORKFLOW.md
 * [PHPSTAN_WORKFLOW.md](../../../Xot/project_docs/phpstan/PHPSTAN_WORKFLOW.md)
@@ -205,7 +211,10 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 
 
    - Mantenere coerenza tra le diverse documentazioni 
+<<<<<<< HEAD
 =======
 =======
    - Mantenere coerenza tra le diverse documentazioni 
 =======
+=======
+>>>>>>> 5a14301c (.)

@@ -2,14 +2,20 @@
 
 > **Collegamenti correlati**
 > - [README.md documentazione generale](../../../../docs/README.md)
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 > - [Struttura dei Prompt](./prompts.md)
 > - [Regole per i Prompt](./PROMPT_RULES.md)
 > - [Regole per i Percorsi Relativi](./RELATIVE_PATHS_RULES.md)
 > - [Miglioramenti al Prompt docs.txt](./prompt_docs_improvements.md)
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 ## Analisi della Struttura Attuale
 
 Il prompt `docs.txt` attuale presenta diverse problematiche strutturali che possono essere migliorate:
@@ -80,5 +86,8 @@ Dal punto di vista tecnico, l'implementazione di questi miglioramenti richiede:
 ## Conclusione
 
 Il prompt `docs.txt` è un componente critico per garantire la coerenza e la qualità della documentazione nel progetto. I miglioramenti proposti mirano a renderlo più efficace e facile da seguire, mantenendo al contempo la sua natura di stringa continua come richiesto dalle regole del progetto.
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 5a14301c (.)

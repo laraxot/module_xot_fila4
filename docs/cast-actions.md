@@ -223,5 +223,8 @@ Le azioni di cast sono completamente testate e supportano PHPStan livello 9+:
 - [SafeStringCastAction](../app/Actions/Cast/SafeStringCastAction.php)
 - [SafeBooleanCastAction](../app/Actions/Cast/SafeBooleanCastAction.php)
 - [SafeArrayCastAction](../app/Actions/Cast/SafeArrayCastAction.php)
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 5a14301c (.)

@@ -24,28 +24,48 @@ use Webmozart\Assert\Assert;
 trait Updater
 {
     /**
+<<<<<<< HEAD
      * Get the user who created the model.
+=======
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+>>>>>>> 5a14301c (.)
      */
     public function creator(): BelongsTo
     {
         /** @var class-string<ProfileContract&Model> $profileClass */
         $profileClass = XotData::make()->getProfileClass();
 
+<<<<<<< HEAD
+=======
+        // @phpstan-ignore return.type
+>>>>>>> 5a14301c (.)
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
     }
 
     /**
      * Get the last user who updated the model.
+<<<<<<< HEAD
+=======
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+>>>>>>> 5a14301c (.)
      */
     public function updater(): BelongsTo
     {
         /** @var class-string<ProfileContract&Model> $profileClass */
         $profileClass = XotData::make()->getProfileClass();
 
+<<<<<<< HEAD
+=======
+        // @phpstan-ignore return.type
+>>>>>>> 5a14301c (.)
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
     }
 
     /**
+<<<<<<< HEAD
      * Get the user who deleted the model.
      */
     public function deleter(): BelongsTo
@@ -57,6 +77,8 @@ trait Updater
     }
 
     /**
+=======
+>>>>>>> 5a14301c (.)
      * bootUpdater function.
      */
     protected static function bootUpdater(): void
@@ -85,7 +107,11 @@ trait Updater
          * For deletes we need to save the model first with the deleted_by field
          */
         static::deleting(static function (Model $model): void {
+<<<<<<< HEAD
             Assert::isArray($attributes = $model->getAttributes());
+=======
+            Assert::isArray($attributes = $model->attributes);
+>>>>>>> 5a14301c (.)
 
             if (\in_array('deleted_by', array_keys($attributes), false)) {
                 $model->setAttribute('deleted_by', authId());

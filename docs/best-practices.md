@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 # Best Practices
 
 ## Laravel
@@ -45,8 +48,11 @@
 - Verificare la performance
 - Controllare la manutenibilità
 - Verificare la testabilità
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 5a14301c (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -762,10 +768,16 @@ public function createModel(array $data): MioModello
 
 - [**README.md**](README.md) - Documentazione principale del modulo
 - [**Architettura**](architecture.md) - Architettura del modulo Xot
+<<<<<<< HEAD
 - [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
+=======
+>>>>>>> 5a14301c (.)
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
 
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)

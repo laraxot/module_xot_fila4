@@ -98,8 +98,14 @@
 | Lang | 22+ | Localizzazione standardizzata |
 | Media | 9+ | Asset management unificato |
 | Notify | 19+ | Notifiche standardizzate |
+<<<<<<< HEAD
 | <nome modulo> | 13+ | Business logic semplificata |
 | <nome progetto> | 45+ | Core business centralizzato |
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+|  | 45+ | Core business centralizzato |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 5a14301c (.)
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |

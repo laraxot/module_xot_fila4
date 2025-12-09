@@ -12,15 +12,24 @@ use Modules\Xot\Tests\TestCase;
 uses(TestCase::class, RefreshDatabase::class);
 
 beforeEach(function () {
+<<<<<<< HEAD
     $this->resource = new class extends XotBaseResource
     {
         protected static ?string $model = null;
+=======
+    $this->resource = new class extends XotBaseResource {
+        protected static null|string $model = null;
+>>>>>>> 5a14301c (.)
 
         protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
 
         protected static string | \UnitEnum | null $navigationGroup = 'Test Group';
 
+<<<<<<< HEAD
         protected static ?int $navigationSort = 1;
+=======
+        protected static null|int $navigationSort = 1;
+>>>>>>> 5a14301c (.)
     };
 });
 

@@ -18,7 +18,11 @@ class FilamentMemoryMonitorMiddleware
     /**
      * Handle an incoming request.
      *
+<<<<<<< HEAD
      * @param  Closure(Request):Response  $next
+=======
+     * @param Closure(Request):Response $next
+>>>>>>> 5a14301c (.)
      */
     public function handle(Request $request, Closure $next): Response
     {
@@ -64,9 +68,15 @@ class FilamentMemoryMonitorMiddleware
 
         // Aggiungi header per debug (solo in development)
         if (config('app.debug') && config('filament_optimization.development.show_memory_stats', false)) {
+<<<<<<< HEAD
             $response->headers->set('X-Memory-Used', $memoryUsedMB.'MB');
             $response->headers->set('X-Memory-Peak', $memoryPeakMB.'MB');
             $response->headers->set('X-Execution-Time', round($executionTime, 2).'ms');
+=======
+            $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
+>>>>>>> 5a14301c (.)
         }
 
         return $response;
@@ -78,12 +88,20 @@ class FilamentMemoryMonitorMiddleware
     private function isFilamentAdminRequest(Request $request): bool
     {
         $path = $request->path();
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 5a14301c (.)
         // Pattern per riconoscere richieste admin Filament
         $adminPatterns = [
             '/admin',
             '/user/admin',
+<<<<<<< HEAD
             '/<nome progetto>/admin',
+=======
+            '/techplanner/admin',
+>>>>>>> 5a14301c (.)
             '/cms/admin',
             '/geo/admin',
             '/notify/admin',
@@ -114,12 +132,20 @@ class FilamentMemoryMonitorMiddleware
     /**
      * Logga l'uso della memoria.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $metrics
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
      */
     private function logMemoryUsage(Request $request, array $metrics): void
     {
         $logLevel = $this->determineLogLevel($metrics);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 5a14301c (.)
         $message = sprintf(
             'Filament Memory Usage: %sMB used, %sMB peak, %sms execution time - %s %s',
             (string) $metrics['memory_used_mb'],
@@ -148,7 +174,11 @@ class FilamentMemoryMonitorMiddleware
     /**
      * Determina il livello di log basato sulle metriche.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $metrics
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
      */
     private function determineLogLevel(array $metrics): string
     {

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 # Filament Best Practices
 
 ## Visibilità dei Metodi
@@ -64,4 +67,7 @@ public function getTableActions(): array
 - [Principio di Sostituzione di Liskov](https://it.wikipedia.org/wiki/Principio_di_sostituzione_di_Liskov)
 - [Best Practices PHP](../php-strict-types.md) 
 - [Best Practices PHP](../PHP-STRICT-TYPES.md) 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)

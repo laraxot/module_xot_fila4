@@ -5,9 +5,16 @@ declare(strict_types=1);
 namespace Modules\Xot\View\Components;
 
 use RuntimeException;
+<<<<<<< HEAD
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
+=======
+use Illuminate\Contracts\Support\Renderable;
+use Illuminate\View\Component;
+use Modules\Xot\Actions\GetViewAction;
+use Safe\filter;
+>>>>>>> 5a14301c (.)
 
 use function Safe\ob_end_clean;
 use function Safe\ob_start;
@@ -25,23 +32,40 @@ class XDebug extends Component
         public string $tpl = 'v1',
     ) {}
 
+<<<<<<< HEAD
     public function render(): View
     {
         /** @var view-string $view */
         $view = app(GetViewAction::class)->execute($this->tpl);
         /** @var array<string, string> $view_params */
+=======
+    public function render(): Renderable
+    {
+        /**
+         * @phpstan-var view-string
+         */
+        $view = app(GetViewAction::class)->execute($this->tpl);
+>>>>>>> 5a14301c (.)
         $view_params = [
             'html' => $this->debugStack(),
         ];
 
+<<<<<<< HEAD
         \dddx($view_params);
+=======
+        dddx($view_params);
+>>>>>>> 5a14301c (.)
 
         return view($view, $view_params);
     }
 
     public function debugStack(): string
     {
+<<<<<<< HEAD
         if (! \extension_loaded('xdebug')) {
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 5a14301c (.)
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -61,6 +85,10 @@ class XDebug extends Component
         $out1 = ob_get_contents();
         ob_end_clean();
 
+<<<<<<< HEAD
         return \is_string($out1) ? $out1 : ((string) $out1);
+=======
+        return is_string($out1) ? $out1 : ((string) $out1);
+>>>>>>> 5a14301c (.)
     }
 }

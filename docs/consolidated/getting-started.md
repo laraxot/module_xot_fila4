@@ -80,6 +80,7 @@ npm run dev
 # options: dev, prod
 npm run dev
 ```
+<<<<<<< HEAD
 =======
 # options: dev, prod
 npm run dev
@@ -88,6 +89,8 @@ npm run dev
 # options: dev, prod
 npm run dev
 ```
+=======
+>>>>>>> 5a14301c (.)
 
 ### Versione HEAD
 
@@ -105,5 +108,8 @@ npm run dev
 
 ---
 
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 5a14301c (.)

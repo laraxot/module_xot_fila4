@@ -614,4 +614,7 @@ git commit -m "fix: correzione calcolo età paziente"
 - [Documentazione Xot](../CODE-STANDARDS.md)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)

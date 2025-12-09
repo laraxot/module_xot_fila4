@@ -7,6 +7,10 @@ namespace Modules\Xot\Rules;
 use Exception;
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
 
 /**
  * Class DateTimeRule.
@@ -16,6 +20,7 @@ class DateTimeRule implements Rule
     /**
      * Determine if the validation rule passes.
      *
+<<<<<<< HEAD
      * @param  string  $attribute  The attribute name being validated
      * @param  mixed  $value  The value being validated
      */
@@ -29,6 +34,26 @@ class DateTimeRule implements Rule
             return false;
         }
 
+=======
+     * @param string $_attribute The attribute name being validated
+     * @param mixed $value The value being validated
+     */
+    public function passes($_attribute, $value): bool
+    {
+        // dddx($attribute); //published_at
+        // dddx($value);//10/10/2019 13:43
+        // return 5 === strlen($value);
+
+        if (!is_string($value)) {
+            return false;
+        }
+
+        Assert::string(
+            $value,
+            __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__) . ' - Value must be a string for datetime validation'
+        );
+
+>>>>>>> 5a14301c (.)
         $format = 'd/m/Y H:i';
         try {
             $value_new = Carbon::createFromFormat($format, $value);

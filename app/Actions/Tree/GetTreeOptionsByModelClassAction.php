@@ -18,13 +18,22 @@ class GetTreeOptionsByModelClassAction
     public array $options = [];
 
     /**
+<<<<<<< HEAD
      * @param  class-string<HasRecursiveRelationshipsContract>  $class
+=======
+     * @param class-string<HasRecursiveRelationshipsContract> $class
+     *
+>>>>>>> 5a14301c (.)
      * @return array<int|string, string>
      */
     public function execute(string $class, Model|callable|null $_where = null): array
     {
         /** @var HasRecursiveRelationshipsContract $model */
+<<<<<<< HEAD
         $model = new $class;
+=======
+        $model = new $class();
+>>>>>>> 5a14301c (.)
 
         /** @var Collection<int, HasRecursiveRelationshipsContract> $collection */
         // @phpstan-ignore generics.notSubtype
@@ -32,11 +41,19 @@ class GetTreeOptionsByModelClassAction
         $rows = $collection->toTree();
 
         foreach ($rows as $row) {
+<<<<<<< HEAD
             /** @var HasRecursiveRelationshipsContract $row */
             $key = $row->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] = is_string($row)
                 ? $row
                 : (string) $row->getLabel();
+=======
+            /* @var HasRecursiveRelationshipsContract $row */
+            $key = $row->getKey();
+            $this->options[is_string($key) ? $key : ((string) $key)] = is_string($row)
+                ? $row
+                : ((string) $row->getLabel());
+>>>>>>> 5a14301c (.)
             $this->parse($row);
         }
 
@@ -49,7 +66,11 @@ class GetTreeOptionsByModelClassAction
             /** @var HasRecursiveRelationshipsContract $child */
             $key = $child->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] =
+<<<<<<< HEAD
                 Str::repeat('---', $child->depth).'   '.$child->getLabel();
+=======
+                Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+>>>>>>> 5a14301c (.)
         }
     }
 }

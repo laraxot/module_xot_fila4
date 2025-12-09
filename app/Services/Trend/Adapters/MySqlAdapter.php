@@ -4,8 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Services\Trend\Adapters;
 
+<<<<<<< HEAD
 use Error;
 use Override;
+=======
+use Override;
+use Error;
+>>>>>>> 5a14301c (.)
 
 class MySqlAdapter extends AbstractAdapter
 {

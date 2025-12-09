@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exceptions\Handlers;
 
+<<<<<<< HEAD
 use Closure;
 use ReflectionClass;
 use ReflectionFunction;
 use Throwable;
+=======
+use Throwable;
+use Closure;
+use ReflectionFunction;
+use ReflectionClass;
+>>>>>>> 5a14301c (.)
 
 /**
  * The handlers repository.
@@ -60,7 +67,11 @@ class HandlersRepository
     {
         return array_filter(
             $this->reporters,
+<<<<<<< HEAD
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+=======
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+>>>>>>> 5a14301c (.)
         );
     }
 
@@ -71,7 +82,11 @@ class HandlersRepository
     {
         return array_filter(
             $this->renderers,
+<<<<<<< HEAD
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+=======
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+>>>>>>> 5a14301c (.)
         );
     }
 
@@ -82,7 +97,11 @@ class HandlersRepository
     {
         return array_filter(
             $this->consoleRenderers,
+<<<<<<< HEAD
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+=======
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+>>>>>>> 5a14301c (.)
         );
     }
 
@@ -97,10 +116,18 @@ class HandlersRepository
             $reflection = new ReflectionFunction(Closure::fromCallable($handler));
         }
 
+<<<<<<< HEAD
         if (! ($params = $reflection->getParameters())) {
             return false;
         }
 
         return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+=======
+        if (!($params = $reflection->getParameters())) {
+            return false;
+        }
+
+        return ($params[0]->getClass() instanceof ReflectionClass) ? $params[0]->getClass()->isInstance($e) : true;
+>>>>>>> 5a14301c (.)
     }
 }

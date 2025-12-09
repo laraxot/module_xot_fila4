@@ -4,9 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exports;
 
+<<<<<<< HEAD
 use Traversable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Contracts\Support\Arrayable;
+=======
+use Illuminate\Contracts\Support\Arrayable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+>>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Query\Builder as QueryBuilder;
@@ -26,17 +31,30 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 
     public array $headings = [];
 
+<<<<<<< HEAD
     /** @var array<int, int|string> */
     public array $fields = [];
 
     public ?string $transKey = null;
+=======
+    /** @var array<int, string> */
+    public array $fields = [];
+
+    public null|string $transKey = null;
+>>>>>>> 5a14301c (.)
 
     public QueryBuilder|EloquentBuilder $query;
 
     /**
+<<<<<<< HEAD
      * @param array<int, int|string> $fields
      */
     public function __construct(QueryBuilder|EloquentBuilder $query, ?string $transKey = null, array $fields = [])
+=======
+     * @param array<int, string> $fields
+     */
+    public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
+>>>>>>> 5a14301c (.)
     {
         $this->query = $query;
         $this->transKey = $transKey;
@@ -60,6 +78,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
          */
     }
 
+<<<<<<< HEAD
     /**
      * @return Collection<int, int|string>
      */
@@ -70,12 +89,19 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
                 ->map(
                     static fn (mixed $heading): int|string => \is_int($heading) ? $heading : (string) $heading
                 );
+=======
+    public function getHead(): Collection
+    {
+        if (!empty($this->fields)) {
+            return collect($this->fields);
+>>>>>>> 5a14301c (.)
         }
         /**
          * @var Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null
          */
         $first = $this->query->first();
         if (null === $first) {
+<<<<<<< HEAD
             /** @var Collection<int, int|string> $emptyCollection */
             $emptyCollection = collect([]);
 
@@ -89,10 +115,18 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
             );
 
         return $result;
+=======
+            return collect([]);
+        }
+
+        // Parameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
+        return collect($first)->keys();
+>>>>>>> 5a14301c (.)
     }
 
     public function headings(): array
     {
+<<<<<<< HEAD
         /** @var Collection<int|string, mixed> $headingsWithKeys */
         $headingsWithKeys = $this->getHead()
             ->values()
@@ -107,6 +141,13 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
         $translated = app(TransCollectionAction::class)->execute($headingsWithKeys, $this->transKey);
 
         return $translated->toArray();
+=======
+        $headings = $this->getHead();
+        $transKey = $this->transKey;
+        $headings = app(TransCollectionAction::class)->execute($headings, $transKey);
+
+        return $headings->toArray();
+>>>>>>> 5a14301c (.)
     }
 
     /**
@@ -125,6 +166,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     }
 
     /**
+<<<<<<< HEAD
      * @return array<int|string, mixed>
      */
     public function map(mixed $row): array
@@ -169,5 +211,17 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
         }
 
         return (array) $row;
+=======
+     * @param Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null $item
+     */
+    public function map($item): array
+    {
+        if (!empty($this->fields)) {
+            return collect($item)->toArray();
+        }
+
+        // rameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
+        return collect($item)->only($this->fields)->toArray();
+>>>>>>> 5a14301c (.)
     }
 }

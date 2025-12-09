@@ -10,12 +10,22 @@ namespace Modules\Xot\Datas;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Modules\Xot\Enums\PdfEngineEnum;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 use Spipu\Html2Pdf\Exception\HtmlParsingException;
+=======
+use Spatie\LaravelPdf\Enums\Format;
+use Spatie\LaravelPdf\Enums\Orientation;
+use Spatie\LaravelPdf\Enums\Unit;
+use Spatie\LaravelPdf\Facades\Pdf;
+>>>>>>> 5a14301c (.)
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
@@ -90,6 +100,7 @@ class PdfData extends Data
     {
         switch ($this->engine) {
             case PdfEngineEnum::SPIPU:
+<<<<<<< HEAD
                 try {
                     $html2pdf = new Html2Pdf($this->orientation, $this->format, $this->lang);
                     $html2pdf->writeHTML($html);
@@ -111,6 +122,25 @@ class PdfData extends Data
                  *
                  * break;
                  */
+=======
+                $html2pdf = new Html2Pdf($this->orientation, $this->format, $this->lang);
+                $html2pdf->writeHTML($html);
+                $html2pdf->output($this->getPath(), $this->dest);
+                break;
+
+            /*
+             * case PdfEngineEnum::SPATIE:
+             * Pdf::html($this->html)
+             * ->orientation(Orientation::Portrait)
+             * ->format(Format::A4)
+             * ->margins(10, 10, 20, 0, Unit::Pixel)
+             * // ->name(str_slug($project->nome).'-REPORT.pdf')
+             * ->save($this->getPath());
+             * ;
+             *
+             * break;
+             */
+>>>>>>> 5a14301c (.)
         }
 
         $this->html = $html;
@@ -127,7 +157,11 @@ class PdfData extends Data
         /**
          * @var non-falsy-string&view-string
          */
+<<<<<<< HEAD
         $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
+=======
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+>>>>>>> 5a14301c (.)
         $view_params = [
             'view' => $view_name,
             'row' => $model,
@@ -142,12 +176,17 @@ class PdfData extends Data
     {
         Assert::notNull(
             $res = Storage::disk($this->disk)->get($this->filename),
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename($this).']',
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 5a14301c (.)
         );
 
         return $res;
     }
 
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $params
      */
@@ -159,13 +198,25 @@ class PdfData extends Data
         $out = view($view, $params);
         $this->html = $out->render();
 
+=======
+    public function view(string $view, array $params = []): self
+    {
+        if (!view()->exists($view)) {
+            throw new Exception('View ' . $view . ' not found');
+        }
+        $out = view($view, $params);
+        $this->html = $out->render();
+>>>>>>> 5a14301c (.)
         return $this->fromHtml($this->html);
     }
 
     public function setEngine(PdfEngineEnum $engine): self
     {
         $this->engine = $engine;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
         return $this;
     }
 }

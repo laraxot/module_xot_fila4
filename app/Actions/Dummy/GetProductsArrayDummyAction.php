@@ -24,11 +24,18 @@ class GetProductsArrayDummyAction
         // API
         Assert::isArray($products = Http::get('https://dummyjson.com/products')->json());
         Assert::isArray($products['products']);
+<<<<<<< HEAD
 
         // filtering some attributes
         return Arr::map($products['products'], function ($item) {
             // Verifichiamo che $item sia un array prima di usare Arr::only
             if (! is_array($item)) {
+=======
+        // filtering some attributes
+        $products = Arr::map($products['products'], function ($item) {
+            // Verifichiamo che $item sia un array prima di usare Arr::only
+            if (!is_array($item)) {
+>>>>>>> 5a14301c (.)
                 return []; // Restituiamo un array vuoto se $item non è un array
             }
 
@@ -43,5 +50,10 @@ class GetProductsArrayDummyAction
                 'thumbnail',
             ]);
         });
+<<<<<<< HEAD
+=======
+
+        return $products;
+>>>>>>> 5a14301c (.)
     }
 }

@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\View\Components;
 
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
 use InvalidArgumentException;
+=======
+use InvalidArgumentException;
+use Illuminate\Contracts\Support\Renderable;
+use Illuminate\Support\Str;
+use Illuminate\View\Component as IlluminateComponent;
+>>>>>>> 5a14301c (.)
 
 /**
  * Class XotBaseComponent.
@@ -31,7 +38,11 @@ abstract class XotBaseComponent extends IlluminateComponent
     /**
      * Cache for resolved views.
      *
+<<<<<<< HEAD
      * @var array<string, string>
+=======
+     * @var array<string, view-string>
+>>>>>>> 5a14301c (.)
      */
     protected static array $viewCache = [];
 
@@ -46,7 +57,11 @@ abstract class XotBaseComponent extends IlluminateComponent
     }
 
     /**
+<<<<<<< HEAD
      * Get the view name for this component.
+=======
+     * Summary of getView.
+>>>>>>> 5a14301c (.)
      *
      * @return view-string
      */
@@ -55,7 +70,10 @@ abstract class XotBaseComponent extends IlluminateComponent
         $class = static::class;
 
         if (isset(self::$viewCache[$class])) {
+<<<<<<< HEAD
             /** @var view-string */
+=======
+>>>>>>> 5a14301c (.)
             return self::$viewCache[$class];
         }
 
@@ -66,6 +84,7 @@ abstract class XotBaseComponent extends IlluminateComponent
         $comp_name = str_replace('\\', '.', $comp_name);
         $comp_name = Str::snake($comp_name);
 
+<<<<<<< HEAD
         $view = $module_name_low.'::components.'.$comp_name;
         $view = str_replace('._', '.', $view);
 
@@ -74,6 +93,14 @@ abstract class XotBaseComponent extends IlluminateComponent
         }
 
         /** @var view-string $view */
+=======
+        $view = $module_name_low . '::components.' . $comp_name;
+        $view = str_replace('._', '.', $view);
+
+        if (!view()->exists($view)) {
+            throw new InvalidArgumentException("View [{$view}] does not exist.");
+        }
+>>>>>>> 5a14301c (.)
         self::$viewCache[$class] = $view;
 
         return $view;

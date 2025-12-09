@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 # Best Practices per Laraxot
 
 ## Riferimenti al modello User
@@ -67,7 +70,10 @@ public function process(\Modules\User\Models\User $user) {
     // Codice
 }
 ``` 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -788,4 +794,7 @@ public function createModel(array $data): MioModello
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)

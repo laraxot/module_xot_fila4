@@ -4,9 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exceptions\Handlers;
 
+<<<<<<< HEAD
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 use Throwable;
+=======
+use Throwable;
+use Illuminate\Contracts\Debug\ExceptionHandler;
+use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
+>>>>>>> 5a14301c (.)
 
 class HandlerDecorator implements ExceptionHandler
 {

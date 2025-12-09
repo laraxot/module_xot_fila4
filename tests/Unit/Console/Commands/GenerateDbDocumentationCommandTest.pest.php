@@ -2,9 +2,16 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
+=======
+use Modules\Xot\Tests\TestCase;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
+>>>>>>> 5a14301c (.)
 
 uses(TestCase::class);
 
@@ -13,7 +20,11 @@ beforeEach(function () {
     $this->testOutputDir = storage_path('tests/docs');
 
     // Create test directory if it doesn't exist
+<<<<<<< HEAD
     if (! File::exists(dirname($this->testSchemaPath))) {
+=======
+    if (!File::exists(dirname($this->testSchemaPath))) {
+>>>>>>> 5a14301c (.)
         File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
     }
 
@@ -81,9 +92,15 @@ test('it generates database documentation', function () {
     expect($exitCode)->toBe(0);
 
     // Check if output files were created
+<<<<<<< HEAD
     expect(File::exists($this->testOutputDir.'/database-documentation.md'))
         ->toBeTrue()
         ->and(File::exists($this->testOutputDir.'/tables/users.md'))
+=======
+    expect(File::exists($this->testOutputDir . '/database-documentation.md'))
+        ->toBeTrue()
+        ->and(File::exists($this->testOutputDir . '/tables/users.md'))
+>>>>>>> 5a14301c (.)
         ->toBeTrue();
 });
 

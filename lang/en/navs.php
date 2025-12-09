@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a14301c (.)
 return [
     'general' => [
         'home' => [
@@ -20,7 +24,11 @@ return [
         ],
         'login' => [
             'label' => 'Login',
+<<<<<<< HEAD
             'icon' => 'ui-login',
+=======
+            'icon' => 'heroicon-o-login',
+>>>>>>> 5a14301c (.)
         ],
         'macros' => [
             'label' => 'Macro',

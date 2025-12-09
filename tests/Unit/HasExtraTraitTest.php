@@ -4,9 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Unit;
 
+<<<<<<< HEAD
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+=======
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Exception;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Contracts\ExtraContract;
 use Modules\Xot\Models\Traits\HasExtraTrait;
 use ReflectionClass;
@@ -16,12 +22,19 @@ use stdClass;
 describe('HasExtraTrait', function () {
     beforeEach(function () {
         // Create a test model that uses the trait
+<<<<<<< HEAD
         $this->testModel = new class extends Model
         {
             use HasExtraTrait;
 
             protected $table = 'test_models';
 
+=======
+        $this->testModel = new class extends Model {
+            use HasExtraTrait;
+
+            protected $table = 'test_models';
+>>>>>>> 5a14301c (.)
             protected $fillable = ['name'];
 
             // Mock the getExtraClass method
@@ -32,10 +45,15 @@ describe('HasExtraTrait', function () {
         };
 
         // Create a mock Extra class
+<<<<<<< HEAD
         $this->extraClass = new class extends Model implements ExtraContract
         {
             protected $table = 'test_extras';
 
+=======
+        $this->extraClass = new class extends Model implements ExtraContract {
+            protected $table = 'test_extras';
+>>>>>>> 5a14301c (.)
             protected $fillable = ['model_id', 'model_type', 'extra_attributes'];
 
             protected function casts(): array
@@ -73,8 +91,12 @@ describe('HasExtraTrait', function () {
 
     it('can set and get extra attributes', function () {
         // Mock the extra relationship
+<<<<<<< HEAD
         $mockExtra = new class
         {
+=======
+        $mockExtra = new class {
+>>>>>>> 5a14301c (.)
             public $extra_attributes;
 
             public function __construct()
@@ -91,8 +113,12 @@ describe('HasExtraTrait', function () {
     });
 
     it('handles different data types correctly', function () {
+<<<<<<< HEAD
         $mockExtra = new class
         {
+=======
+        $mockExtra = new class {
+>>>>>>> 5a14301c (.)
             public $extra_attributes;
 
             public function __construct()
@@ -122,21 +148,33 @@ describe('HasExtraTrait', function () {
     });
 
     it('throws exception for invalid data types', function () {
+<<<<<<< HEAD
         $mockExtra = new class
         {
+=======
+        $mockExtra = new class {
+>>>>>>> 5a14301c (.)
             public $extra_attributes;
 
             public function __construct()
             {
                 $this->extra_attributes = collect([
+<<<<<<< HEAD
                     'invalid_value' => new stdClass, // Object that's not allowed
+=======
+                    'invalid_value' => new stdClass(), // Object that's not allowed
+>>>>>>> 5a14301c (.)
                 ]);
             }
         };
 
         $this->testModel->extra = $mockExtra;
 
+<<<<<<< HEAD
         expect(fn () => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
+=======
+        expect(fn() => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
+>>>>>>> 5a14301c (.)
     });
 
     it('has setExtra method', function () {
@@ -192,8 +230,12 @@ describe('HasExtraTrait', function () {
     });
 
     it('handles empty extra attributes', function () {
+<<<<<<< HEAD
         $mockExtra = new class
         {
+=======
+        $mockExtra = new class {
+>>>>>>> 5a14301c (.)
             public $extra_attributes;
 
             public function __construct()

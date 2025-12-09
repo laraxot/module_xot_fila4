@@ -206,7 +206,13 @@ Codice non conforme agli standard di tipizzazione.
 **Soluzione**
 ```bash
 # Eseguire da directory Laravel
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -430,9 +436,12 @@ public function test_b(): void
 }
 ```
 
+<<<<<<< HEAD
 ### Errore: Conflitti Git
 
 **Sintomo**
+=======
+>>>>>>> 5a14301c (.)
 
 **Soluzione**
 1. **Analizzare i conflitti**:

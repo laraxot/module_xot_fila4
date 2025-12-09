@@ -39,9 +39,14 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
+<<<<<<< HEAD
         ->andReturn(
             \Modules\\<YourModule>\\Models\\User::class
         );
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -219,7 +224,10 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
 **Last Update**: Dicembre 2024 
+<<<<<<< HEAD
 =======
 **Last Update**: Dicembre 2024 
 =======
 =======
+=======
+>>>>>>> 5a14301c (.)

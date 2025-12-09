@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Enums;
 
+<<<<<<< HEAD
 // use Modules\Xot\Datas\PdfData;
+=======
+//use Modules\Xot\Datas\PdfData;
+>>>>>>> 5a14301c (.)
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;

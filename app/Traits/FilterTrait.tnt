@@ -172,6 +172,10 @@ function ($item, $key) use ($lang) {
             } else {
                 $value = $params[$key];
                 //self::indexIfNotExistsStatic($el, $tbl, $conn);
+<<<<<<< HEAD
+=======
+                //dd(new self);
+>>>>>>> 5a14301c (.)
                 (new self())->indexIfNotExists($el);
                 //$rows=$rows->where($el, $value);
                 $where[$el] = $value;
@@ -228,29 +232,54 @@ function ($item, $key) use ($lang) {
         //echo '<pre>';print_r($params);echo '</pre>';
         //$dbSchemaManager = $conn->getDoctrineSchemaManager();
         //$doctrineTable = $dbSchemaManager->listTableDetails($tbl);
+<<<<<<< HEAD
+=======
+        //dd($doctrineTable);
+>>>>>>> 5a14301c (.)
         //------------------------
         $schema = $conn->getSchemaBuilder();
         $fields = collect($schema->getColumnListing($tbl));
 
         $trad = \explode('\\', __CLASS__);
         $trad = \mb_strtolower($trad[1]);
+<<<<<<< HEAD
         $lang = trans($trad.'::'.$tbl);
+=======
+        //dd($params);
+        //dd($trad.'::'.$tbl);
+        $lang = trans($trad.'::'.$tbl);
+        //dd($lang);
+>>>>>>> 5a14301c (.)
 
         if (! \is_array($lang)) {
             $lang = [];
         } //anche se non esiste
 
         $trans_file = $trad.'::link_'.$tbl;
+<<<<<<< HEAD
         $lang_link = trans($trans_file);
+=======
+        //dd($trans_file);
+        $lang_link = trans($trans_file);
+        //dd($lang_link);
+>>>>>>> 5a14301c (.)
         if (\is_array($lang_link)) {
             $lang = $lang_link;
         }
 
         $lang = \array_flip($lang);
         //echo '<pre>';print_r($lang);echo '</pre>';
+<<<<<<< HEAD
 
         //echo '<pre>';print_r($lang);echo '</pre>';
         $parz = collect(\array_keys($params));
+=======
+        //dd(get_class());
+
+        //echo '<pre>';print_r($lang);echo '</pre>';
+        $parz = collect(\array_keys($params));
+        //dd($parz);
+>>>>>>> 5a14301c (.)
         $parz = $parz->map(
 function ($item, $key) use ($lang) {
             if (isset($lang[$item])) {
@@ -260,6 +289,10 @@ function ($item, $key) use ($lang) {
             return $item;
         });
         $intersect = $fields->intersect($parz);
+<<<<<<< HEAD
+=======
+        //dd($intersect);
+>>>>>>> 5a14301c (.)
         foreach ($intersect->all() as $el) {
             $key = trans($trad.'::'.$tbl.'.'.$el);
             $key_link = trans($trad.'::link_'.$tbl.'.'.$el);
@@ -274,6 +307,10 @@ function ($item, $key) use ($lang) {
             } else {
                 $value = $params[$key];
                 //self::indexIfNotExistsStatic($el, $tbl, $conn);
+<<<<<<< HEAD
+=======
+                //dd(new self);
+>>>>>>> 5a14301c (.)
                 (new self())->indexIfNotExists($el);
                 $rows = $rows->where($el, $value);
             }
@@ -284,6 +321,12 @@ function ($item, $key) use ($lang) {
             //$rows->indexIfNotExists($lang['ann']);
             $rows = $rows->whereRaw($lang['ann'].'=""');
         }
+<<<<<<< HEAD
+=======
+        //dd(self::$single_date);
+        //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
+        //dd(trans($trad.'::'.$tbl.'.single_date'));
+>>>>>>> 5a14301c (.)
 
         //echo '<pre>';print_r($params);echo '</pre>';
         if (isset($params['date_between'])) {

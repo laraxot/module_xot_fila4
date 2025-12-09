@@ -39,7 +39,11 @@
         "livewire/volt": "^1.0",
         "maatwebsite/excel": "^3.1",
         "nwidart/laravel-modules": "*",
+<<<<<<< HEAD
         "predis/predis": "*",
+=======
+        "predis/predis": "^2.2",
+>>>>>>> 5a14301c (.)
         "spatie/cpu-load-health-check": "^1.0",
         "spatie/laravel-data": "^4.7",
         "spatie/laravel-health": "^1.29",
@@ -111,11 +115,14 @@
             "Helpers/Helper.php"
         ]
     },
+<<<<<<< HEAD
     "autoload-dev": {
         "psr-4": {
             "Modules\\Xot\\Tests\\": "tests/"
         }
     },
+=======
+>>>>>>> 5a14301c (.)
     "scripts": {
         "analyse": "vendor/bin/phpstan analyse",
         "test": "vendor/bin/pest",

@@ -20,6 +20,13 @@ ignoreErrors:
 
 **Documentazione Specifica**: 
 - [<nome progetto> - PHPStan Relationship Covariance Fix](../<nome progetto>/docs/phpstan-relationship-covariance-fix.md)
+<<<<<<< HEAD
+=======
+**Moduli Interessati**: SaluteOra, Geo, User, e tutti i moduli con relazioni Eloquent
+
+**Documentazione Specifica**: 
+- [SaluteOra - PHPStan Relationship Covariance Fix](../SaluteOra/docs/phpstan-relationship-covariance-fix.md)
+>>>>>>> 5a14301c (.)
 
 ### 2. Cast da Mixed
 

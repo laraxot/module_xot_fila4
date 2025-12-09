@@ -1403,7 +1403,11 @@ class MyAction extends XotBaseAction
 
 ### 1. Form Base
 ```php
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
 {
     return $form->schema([
         // Utilizzare helper Xot
@@ -1783,6 +1787,7 @@ class ListSocialProviders extends XotBaseListRecords
 
 #### 1. Dichiarazione Duplicata del Metodo execute()
 L'errore `Cannot redeclare [Class]::execute()` si verifica quando:
+<<<<<<< HEAD
 
 #### 2. Dichiarazione Duplicata del Metodo getResource() in XotBaseListRecords
 L'errore `Cannot redeclare Modules\Xot\Filament\Resources\Pages\XotBaseListRecords::getResource()` si verifica quando il metodo `getResource()` è dichiarato due volte nella stessa classe.
@@ -1795,6 +1800,8 @@ Vedi [xotbaselistrecords-getresource-duplicate-fix.md](./filament/xotbaselistrec
 
 #### 1. Dichiarazione Duplicata del Metodo execute()
 L'errore `Cannot redeclare [Class]::execute()` si verifica quando:
+=======
+>>>>>>> 5a14301c (.)
 - Si sta implementando un'interfaccia che definisce `execute()`
 - Si sta estendendo una classe base che già definisce `execute()`
 - Si sta usando un trait che contiene `execute()`
@@ -8402,7 +8409,11 @@ public static function table(Table $table): Table
 2. **Dettaglio Completo**
 Le informazioni aggiuntive devono essere mostrate solo nella vista dettaglio:
 ```php
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
 {
     return $form
         ->schema([
@@ -8845,4 +8856,7 @@ class ClientMapWidget extends Widget
 4. Gestire i casi di errore in modo graceful
 5. La reattività funziona automaticamente con Livewire 3
   - Contact section
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)

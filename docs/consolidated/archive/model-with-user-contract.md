@@ -69,5 +69,9 @@ class Article extends Model implements ModelWithUserContract
 ## Collegamenti
 - [ModelContract](model-contract.md)
 - [User Management](../features/USER-MANAGEMENT.md)
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 5a14301c (.)
 - [Contracts Overview](./README.md) 

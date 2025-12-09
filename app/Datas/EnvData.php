@@ -25,19 +25,34 @@ class EnvData extends Data implements Wireable
 
     public string $telegram_bot_token = '';
 
+<<<<<<< HEAD
     private static ?self $instance = null;
 
     public static function make(): self
     {
         if (! self::$instance) {
+=======
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!self::$instance) {
+>>>>>>> 5a14301c (.)
             $data = [];
 
             foreach ($_ENV as $k => $v) {
                 $k = mb_strtolower($k);
+<<<<<<< HEAD
                 if ($v === 'false') {
                     $v = false;
                 }
                 if ($v === 'true') {
+=======
+                if ('false' === $v) {
+                    $v = false;
+                }
+                if ('true' === $v) {
+>>>>>>> 5a14301c (.)
                     $v = true;
                 }
                 $data[$k] = $v;
@@ -55,7 +70,11 @@ class EnvData extends Data implements Wireable
         $env_content = File::get($env_path);
 
         foreach ($data as $k => $v) {
+<<<<<<< HEAD
             if ($v !== $this->$k && (is_bool($v) || is_int($v) || is_string($v))) {
+=======
+            if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
+>>>>>>> 5a14301c (.)
                 $env_content = $this->updateVar($k, $v, $env_content);
             }
         }
@@ -67,6 +86,7 @@ class EnvData extends Data implements Wireable
     {
         $key = str($key)->upper()->toString();
         $replace = $this->getLine($key, $value);
+<<<<<<< HEAD
         $pos_start = mb_strpos($env_content, $key.'=');
         if ($pos_start === false) {
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -75,22 +95,46 @@ class EnvData extends Data implements Wireable
         $pos_end = mb_strpos($env_content, "\n", $pos_start);
         if ($pos_end === false) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+        $pos_start = mb_strpos($env_content, $key . '=');
+        if (false === $pos_start) {
+            // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            return $env_content . "\n" . $replace;
+        }
+        $pos_end = mb_strpos($env_content, "\n", $pos_start);
+        if (false === $pos_end) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 5a14301c (.)
         }
 
         $length = $pos_end - $pos_start;
         $find = mb_substr($env_content, $pos_start, $length + 1);
 
+<<<<<<< HEAD
         return str($env_content)->replace($find, $replace)->toString();
+=======
+        $env_content = str($env_content)->replace($find, $replace)->toString();
+
+        return $env_content;
+>>>>>>> 5a14301c (.)
     }
 
     public function getLine(string $key, int|bool|string $value): string
     {
+<<<<<<< HEAD
         $replace = $key.'=';
+=======
+        $replace = $key . '=';
+>>>>>>> 5a14301c (.)
         if (is_bool($value)) {
             $replace .= $value ? 'true' : 'false';
         }
         if (is_string($value)) {
+<<<<<<< HEAD
             $replace .= '"'.$value.'"';
+=======
+            $replace .= '"' . $value . '"';
+>>>>>>> 5a14301c (.)
         }
         if (is_int($value)) {
             $replace .= $value;

@@ -1,12 +1,23 @@
+<<<<<<< HEAD
 # 🏆 PHPStan level 10 Achievement - Framework Xot
 
 **Data**: 18 Agosto 2025  
 **Risultato**: ✅ **PERFETTO** - 0 errori PHPStan level 10  
+=======
+# 🏆 PHPStan Level 9 Achievement - Framework Xot
+
+**Data**: 18 Agosto 2025  
+**Risultato**: ✅ **PERFETTO** - 0 errori PHPStan Level 9  
+>>>>>>> 5a14301c (.)
 **Partenza**: 832 errori → **0 errori** (-100%)
 
 ## 🎯 Obiettivo Raggiunto
 
+<<<<<<< HEAD
 Il framework Xot ha raggiunto la **perfetta compliance PHPStan level 10**, il massimo livello di analisi statica per PHP.
+=======
+Il framework Xot ha raggiunto la **perfetta compliance PHPStan Level 9**, il massimo livello di analisi statica per PHP.
+>>>>>>> 5a14301c (.)
 
 ### Statistiche Finali
 - **Errori risolti**: 832 → 0 (-832, -100%)

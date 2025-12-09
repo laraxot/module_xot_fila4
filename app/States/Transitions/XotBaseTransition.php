@@ -4,7 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Xot\States\Transitions;
 
+<<<<<<< HEAD
 use BackedEnum;
+=======
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+>>>>>>> 5a14301c (.)
 use Filament\Notifications\Notification as FilamentNotification;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Notification;
@@ -13,14 +18,21 @@ use Modules\Notify\Datas\RecordNotificationData;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\ModelStates\Transition;
+<<<<<<< HEAD
 use TypeError;
 use Webmozart\Assert\InvalidArgumentException;
+=======
+>>>>>>> 5a14301c (.)
 
 abstract class XotBaseTransition extends Transition
 {
     public function __construct(
         public Model $record,
+<<<<<<< HEAD
         public ?string $message = '',
+=======
+        public null|string $message = '',
+>>>>>>> 5a14301c (.)
     ) {}
 
     public function handle(): Model
@@ -30,7 +42,11 @@ abstract class XotBaseTransition extends Transition
 
         $stateNamespace = Str::of($class)->beforeLast('\Transitions\\')->toString();
         $stateClassName = Str::of($class)->afterLast('To')->toString();
+<<<<<<< HEAD
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
+=======
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+>>>>>>> 5a14301c (.)
 
         /* @phpstan-ignore-next-line */
         $this->record->state = new $newStateClass($this->record);
@@ -49,7 +65,11 @@ abstract class XotBaseTransition extends Transition
     }
 
     /**
+<<<<<<< HEAD
      * @return array<string, RecordNotificationData>
+=======
+     * @return  array<string, RecordNotificationData>
+>>>>>>> 5a14301c (.)
      */
     public function getNotificationRecipients(): array
     {
@@ -64,9 +84,13 @@ abstract class XotBaseTransition extends Transition
     }
 
     /**
+<<<<<<< HEAD
      * Get notification attachments.
      *
      * @return array<int, array<string, string>>
+=======
+     * @return array<int, mixed>
+>>>>>>> 5a14301c (.)
      */
     public function getNotificationAttachments(): array
     {
@@ -75,6 +99,7 @@ abstract class XotBaseTransition extends Transition
 
     public function getNotificationSlug(UserContract $recipient): string
     {
+<<<<<<< HEAD
         $typeEnum = $recipient->type;
         $type = $typeEnum instanceof BackedEnum ? (string) $typeEnum->value : 'unknown';
 
@@ -83,19 +108,31 @@ abstract class XotBaseTransition extends Transition
             '-'.
             $type.
             '-'.
+=======
+        $type = $recipient->type->value;
+        $slug =
+            class_basename($this->record) .
+            '-' .
+            $type .
+            '-' .
+>>>>>>> 5a14301c (.)
             Str::of(class_basename(static::class))->kebab()->toString();
         $slug = Str::slug($slug);
 
         return $slug;
     }
 
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $data
      */
+=======
+>>>>>>> 5a14301c (.)
     public function sendRecipientNotification(RecordNotificationData $recipient, array $data): void
     {
         $slug = $this->getNotificationSlug($recipient->record);
 
+<<<<<<< HEAD
         if (! class_exists(RecordNotification::class)) {
             return;
         }
@@ -109,11 +146,22 @@ abstract class XotBaseTransition extends Transition
         $attachments = $this->getNotificationAttachments();
 
         $notify->addAttachments($attachments);
+=======
+        $notify = new RecordNotification($this->record, $slug);
+
+        //$data = $this->getNotificationData();
+        $notify = $notify->mergeData($data);
+        $notify = $notify->addAttachments($this->getNotificationAttachments());
+>>>>>>> 5a14301c (.)
 
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);
         } catch (TypeError|InvalidArgumentException $e) {
+<<<<<<< HEAD
             $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
+=======
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+>>>>>>> 5a14301c (.)
             FilamentNotification::make()
                 ->title('Error')
                 ->danger()

@@ -30,21 +30,33 @@ class ModuleFactory extends Factory
 
     public function active(): static
     {
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 5a14301c (.)
             'is_active' => true,
         ]);
     }
 
     public function inactive(): static
     {
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 5a14301c (.)
             'is_active' => false,
         ]);
     }
 
     public function highPriority(): static
     {
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 5a14301c (.)
             'priority' => $this->faker->numberBetween(80, 100),
         ]);
     }

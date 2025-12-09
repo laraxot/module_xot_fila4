@@ -20,6 +20,7 @@ class GetModelByModelTypeAction
     /**
      * Execute the action.
      */
+<<<<<<< HEAD
     public function execute(string $model_type, ?string $model_id): Model
     {
         $model_class = app(GetModelClassByModelTypeAction::class)->execute($model_type);
@@ -30,6 +31,18 @@ class GetModelByModelTypeAction
 
         if ($model === null) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+    public function execute(string $model_type, null|string $model_id): Model
+    {
+        $model_class = app(GetModelClassByModelTypeAction::class)->execute($model_type);
+        Assert::isInstanceOf($model = app($model_class), Model::class);
+        if (null !== $model_id) {
+            $model = $model->find($model_id);
+        }
+
+        if (null === $model) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 5a14301c (.)
         }
 
         return $model;

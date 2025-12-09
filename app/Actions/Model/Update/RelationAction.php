@@ -15,8 +15,11 @@ class RelationAction
 
     /**
      * Undocumented function.
+<<<<<<< HEAD
      *
      * @param  array<string, mixed>  $data
+=======
+>>>>>>> 5a14301c (.)
      */
     public function execute(Model $model, array $data): void
     {
@@ -33,10 +36,17 @@ class RelationAction
          * // */
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
+<<<<<<< HEAD
             $relationClass = $relation::class;
             $relationshipType = class_basename($relationClass);
 
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+=======
+            $relationClass = get_class($relation);
+            $relationshipType = class_basename($relationClass);
+
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+>>>>>>> 5a14301c (.)
             Assert::object($action = app($actionClass));
 
             if (method_exists($action, 'execute')) {

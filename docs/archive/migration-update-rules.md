@@ -3,8 +3,11 @@
 ## Collegamento bidirezionale
 - Questo file è collegato a casi specifici documentati nei moduli, ad esempio:
   [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
+<<<<<<< HEAD
 =======
   [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
+=======
+>>>>>>> 5a14301c (.)
 
 ## Caso pratico: Performance
 - Per l’errore su `valutatore_id` in `performance_organizzativa`, vedere la documentazione dettagliata nel modulo Performance.
@@ -23,5 +26,8 @@
 
 ## Note
 - Per casi specifici e casistiche di errore consultare la documentazione dei singoli moduli (es. Performance).
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 5a14301c (.)

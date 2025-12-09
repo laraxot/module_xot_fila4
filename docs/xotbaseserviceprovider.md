@@ -228,4 +228,7 @@ $this->commands([
 ### Zen finale
 > "Il miglior comando è quello che non devi mai registrare a mano."
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)

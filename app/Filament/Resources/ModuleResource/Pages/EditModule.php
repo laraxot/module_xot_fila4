@@ -4,11 +4,20 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\Arr\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+=======
+use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Actions;
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Actions\Array\SaveArrayAction;
+use Modules\Xot\Filament\Resources\ModuleResource;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Models\Module;
 
 /**
@@ -33,6 +42,7 @@ class EditModule extends XotBaseEditRecord
     protected function afterSave(): void
     {
         $module = $this->record; // Ottiene il record corrente
+<<<<<<< HEAD
         if (! ($module instanceof Model) || ! isset($module->path)) {
             return;
         }
@@ -40,6 +50,15 @@ class EditModule extends XotBaseEditRecord
         $config_path = $module->path.'/config/config.php';
         $data = File::getRequire($config_path);
         if (! is_array($data)) {
+=======
+        if (!($module instanceof Model) || !isset($module->path)) {
+            return;
+        }
+
+        $config_path = $module->path . '/config/config.php';
+        $data = File::getRequire($config_path);
+        if (!is_array($data)) {
+>>>>>>> 5a14301c (.)
             $data = [];
         }
         $data = array_merge($data, $module->toArray());

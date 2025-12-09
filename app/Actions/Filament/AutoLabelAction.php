@@ -8,12 +8,21 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
+<<<<<<< HEAD
 use Filament\Forms\Components\Field;
 use Filament\Schemas\Components\Component;
 use Illuminate\Support\Arr;
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\GetTransKeyAction;
 use ReflectionClass;
+=======
+use Filament\Schemas\Components\Component;
+use ReflectionClass;
+use Filament\Forms\Components\Field;
+use Illuminate\Support\Arr;
+use Modules\Lang\Actions\SaveTransAction;
+use Modules\Xot\Actions\GetTransKeyAction;
+>>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -25,9 +34,51 @@ class AutoLabelAction
     use QueueableAction;
 
     /**
+<<<<<<< HEAD
      * Applica automaticamente le etichette ai componenti Filament.
      *
      * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
+=======
+     * Get the component name based on its actual type.
+     *
+     * @param Field|Component $component Il componente di cui ottenere il nome
+     * @return string Il nome del componente
+     */
+    private function getComponentName(Field|Component $component): string
+    {
+        // Per i componenti Field di Filament
+        if (method_exists($component, 'getName')) {
+            $name = $component->getName();
+            return is_string($name) ? $name : ((string) $name);
+        }
+
+        // Per i componenti generali di Filament
+        // PHPStan rileva che questo controllo è sempre vero per Component
+        // ma lo manteniamo per chiarezza e per gestire eventuali cambiamenti futuri in Filament
+        // @phpstan-ignore function.alreadyNarrowedType
+        if (method_exists($component, 'getStatePath')) {
+            $statePath = $component->getStatePath();
+            return $statePath ?? class_basename($component);
+        }
+
+        // Fallback a reflection per altri casi
+        $reflectionClass = new ReflectionClass($component);
+        if ($reflectionClass->hasProperty('name') && $reflectionClass->getProperty('name')->isPublic()) {
+            $property = $reflectionClass->getProperty('name');
+            Assert::string($value = $property->getValue($component));
+            return $value;
+        }
+
+        // Ultima risorsa: ritorniamo il nome della classe
+        return class_basename($component);
+    }
+
+    /**
+     * Applica automaticamente le etichette ai componenti Filament.
+     *
+     * @param Field|Component $component Il componente a cui applicare l'etichetta
+     *
+>>>>>>> 5a14301c (.)
      * @return Field|Component Il componente con l'etichetta applicata
      */
     public function execute(Field|Component $component): Field|Component
@@ -41,11 +92,19 @@ class AutoLabelAction
         // Gestiamo il caso in cui $class sia vuoto
         if (empty($class)) {
             // Se non riusciamo a ottenere la classe dal backtrace, usiamo la classe del componente
+<<<<<<< HEAD
             $class = $component::class;
         }
 
         if (is_object($class)) {
             $class = $class::class;
+=======
+            $class = get_class($component);
+        }
+
+        if (is_object($class)) {
+            $class = get_class($class);
+>>>>>>> 5a14301c (.)
         }
 
         // Assicuriamo che $class sia una stringa
@@ -63,7 +122,11 @@ class AutoLabelAction
         Assert::stringNotEmpty($componentName, 'Il nome del componente non può essere vuoto');
 
         // Costruiamo la chiave per l'etichetta
+<<<<<<< HEAD
         $label_key = $trans_key.'.fields.'.$componentName.'.label';
+=======
+        $label_key = $trans_key . '.fields.' . $componentName . '.label';
+>>>>>>> 5a14301c (.)
         $label = trans($label_key);
 
         if (is_string($label)) {
@@ -72,7 +135,11 @@ class AutoLabelAction
                 $label_value = $componentName;
 
                 // Proviamo a ottenere una traduzione più breve
+<<<<<<< HEAD
                 $label_key1 = $trans_key.'.fields.'.$componentName;
+=======
+                $label_key1 = $trans_key . '.fields.' . $componentName;
+>>>>>>> 5a14301c (.)
                 $label1 = trans($label_key1);
 
                 if ($label_key1 !== $label1 && is_string($label1)) {
@@ -93,6 +160,7 @@ class AutoLabelAction
 
         return $component;
     }
+<<<<<<< HEAD
 
     /**
      * Get the component name based on its actual type.
@@ -131,4 +199,6 @@ class AutoLabelAction
         // Ultima risorsa: ritorniamo il nome della classe
         return class_basename($component);
     }
+=======
+>>>>>>> 5a14301c (.)
 }

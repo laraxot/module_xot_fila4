@@ -4,9 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models\Policies;
 
+<<<<<<< HEAD
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\PulseValue;
 use Override;
+=======
+use Override;
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\PulseValue;
+>>>>>>> 5a14301c (.)
 
 class PulseValuePolicy extends XotBasePolicy
 {

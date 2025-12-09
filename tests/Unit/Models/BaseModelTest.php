@@ -11,8 +11,12 @@ use Modules\Xot\Tests\TestCase;
 uses(TestCase::class);
 
 beforeEach(function () {
+<<<<<<< HEAD
     $this->baseModel = new class extends BaseModel
     {
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 5a14301c (.)
         protected $table = 'test_table';
     };
 });

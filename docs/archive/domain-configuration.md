@@ -87,7 +87,10 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Gestione UI](../../UI/docs/README.md)
 - [Gestione Temi](../../Cms/docs/themes.md)
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 ## Collegamenti Correlati
 - [Configurazione Moduli](MODULE_CONFIGURATION.md)
 - [Gestione Risorse](ASSETS.md)
@@ -101,7 +104,10 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Standard Interfaccia](../../../docs/standards/interface_guidelines.md)
 - [Best Practices](../../../docs/standards/best_practices.md)
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 # Configurazione Basata sul Dominio
 
 ## Introduzione
@@ -173,6 +179,10 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 ## Collegamenti
 - [Configurazione Generale](CONFIGURATION.md)
 - [Gestione Asset](assets.md)
+<<<<<<< HEAD
 =======
 - [Struttura Temi](themes.md) 
 =======
+=======
+- [Struttura Temi](themes.md) 
+>>>>>>> 5a14301c (.)

@@ -4,11 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models\Traits;
 
+<<<<<<< HEAD
+=======
+use Exception;
+>>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\ExtraContract;
+<<<<<<< HEAD
 use Spatie\SchemalessAttributes\SchemalessAttributes;
+=======
+use Modules\Xot\Models\Extra;
+>>>>>>> 5a14301c (.)
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
@@ -39,7 +47,11 @@ trait HasExtraTrait
         Assert::isAOf(
             $extra_class,
             Model::class,
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename($this).']['.$extra_class.']',
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
+>>>>>>> 5a14301c (.)
         );
         // Assert::isInstanceOf($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
         // Assert::implementsInterface($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
@@ -47,6 +59,7 @@ trait HasExtraTrait
         return $this->morphOne($extra_class, 'model');
     }
 
+<<<<<<< HEAD
     public function getExtra(string $name): array|bool|float|int|string|null
     {
         $extra = $this->extra;
@@ -70,10 +83,34 @@ trait HasExtraTrait
         }
 
         return null;
+=======
+    /**
+     * @return array<string, mixed>|bool|int|string|null
+     */
+    public function getExtra(string $name): array|bool|int|string|null
+    {
+        if ($this->extra === null) {
+            return null;
+        }
+        $value = $this->extra->extra_attributes->get($name);
+        if (
+            is_array($value) ||
+                is_int($value) ||
+                // || is_float($value)
+                is_null($value) ||
+                is_bool($value) ||
+                is_string($value)
+        ) {
+            /** @var array<string, mixed>|bool|int|string|null */
+            return $value;
+        }
+        throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+>>>>>>> 5a14301c (.)
     }
 
     /**
      * @param  int|float|string|array<string, mixed>|bool|null  $value
+<<<<<<< HEAD
      */
     public function setExtra(string $name, int|float|string|array|bool|null $value): void
     {
@@ -91,6 +128,25 @@ trait HasExtraTrait
         }
 
         $attributes->set($name, $value);
+=======
+     * @return void
+     */
+    public function setExtra(string $name, $value)
+    {
+        $extra = $this->extra;
+        if ($this->extra === null) {
+            // $extra = $this->extra()->firstOrCreate([], ['extra_attributes' => []]);
+            $extra = $this->extra()->firstOrCreate([], ['extra_attributes' => json_encode([])]);
+            Assert::implementsInterface(
+                $extra,
+                ExtraContract::class,
+                '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra . ']',
+            );
+        }
+        Assert::notNull($extra);
+        // $extra is asserted to be non-null above
+        $extra->extra_attributes->set($name, $value);
+>>>>>>> 5a14301c (.)
         $extra->save();
     }
 }

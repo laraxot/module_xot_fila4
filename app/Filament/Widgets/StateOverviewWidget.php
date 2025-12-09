@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Error;
@@ -12,6 +13,16 @@ use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\StateContract;
 use Override;
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+use Error;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Str;
+use Modules\SaluteOra\Models\Appointment;
+use Modules\Xot\Contracts\StateContract;
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
+>>>>>>> 5a14301c (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -21,6 +32,7 @@ use Webmozart\Assert\Assert;
 class StateOverviewWidget extends XotBaseWidget
 {
     /**
+<<<<<<< HEAD
      * Titolo del widget.
      */
     public string $title = '';
@@ -32,11 +44,21 @@ class StateOverviewWidget extends XotBaseWidget
     public string $cacheKey = '';
 
     /**
+=======
+>>>>>>> 5a14301c (.)
      * Vista del widget.
      */
     protected string $view = 'xot::filament.widgets.state-overview';
 
     /**
+<<<<<<< HEAD
+=======
+     * Titolo del widget.
+     */
+    public string $title = '';
+
+    /**
+>>>>>>> 5a14301c (.)
      * Occupa tutta la larghezza disponibile.
      */
     protected int|string|array $columnSpan = 'full';
@@ -44,7 +66,16 @@ class StateOverviewWidget extends XotBaseWidget
     /**
      * Intervallo di polling disabilitato per performance.
      */
+<<<<<<< HEAD
     protected static ?string $pollingInterval = null;
+=======
+    protected static null|string $pollingInterval = null;
+
+    public string $stateClass;
+    public string $model;
+
+    public string $cacheKey = '';
+>>>>>>> 5a14301c (.)
 
     /**
      * Schema del form (vuoto per questo widget).
@@ -66,23 +97,36 @@ class StateOverviewWidget extends XotBaseWidget
     {
         return [
             'states' => $this->getStates(),
+<<<<<<< HEAD
             // 'title' => $this->getWidgetTitle(),
+=======
+            //'title' => $this->getWidgetTitle(),
+>>>>>>> 5a14301c (.)
         ];
     }
 
     protected function getCacheKey(): string
     {
         try {
+<<<<<<< HEAD
             $cacheKey = 'states-'.class_basename($this->model).'-'.class_basename($this->stateClass);
             $cacheKey = Str::slug($cacheKey);
             $this->cacheKey = $cacheKey;
 
+=======
+            $cacheKey = 'states-' . class_basename($this->model) . '-' . class_basename($this->stateClass);
+            $cacheKey = Str::slug($cacheKey);
+            $this->cacheKey = $cacheKey;
+>>>>>>> 5a14301c (.)
             return $cacheKey;
         } catch (Error $e) {
             if ($this->cacheKey === '') {
                 $this->cacheKey = Str::uuid()->toString();
             }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
             return $this->cacheKey;
         }
     }
@@ -97,8 +141,11 @@ class StateOverviewWidget extends XotBaseWidget
         $res = Cache::remember($this->getCacheKey(), now()->addMinutes(5), $this->calculateStates(...));
 
         Assert::isArray($res);
+<<<<<<< HEAD
 
         /** @var array<int, array<string, mixed>> $res */
+=======
+>>>>>>> 5a14301c (.)
         return $res;
     }
 
@@ -113,6 +160,7 @@ class StateOverviewWidget extends XotBaseWidget
 
         $modelInstance = app($this->model);
 
+<<<<<<< HEAD
         $stateMappingCollection = $this->stateClass::getStateMapping();
         if (! is_object($stateMappingCollection) || ! method_exists($stateMappingCollection, 'toArray')) {
             return [];
@@ -131,6 +179,19 @@ class StateOverviewWidget extends XotBaseWidget
                 'icon' => $this->cleanIconName($state->icon()),
                 'color' => $state->bgColor(),
                 'count' => $this->getCountForState($stateName),
+=======
+        $stateMapping = $this->stateClass::getStateMapping()->toArray();
+
+        foreach ($stateMapping as $name => $stateClass) {
+            $state = new $stateClass($modelInstance);
+            Assert::isInstanceOf($state, StateContract::class);
+            $states[] = [
+                'name' => $name,
+                'label' => $state->label(),
+                'icon' => $this->cleanIconName($state->icon()),
+                'color' => $state->bgColor(),
+                'count' => $this->getCountForState($name),
+>>>>>>> 5a14301c (.)
             ];
         }
 
@@ -144,11 +205,15 @@ class StateOverviewWidget extends XotBaseWidget
      */
     protected function getCountForState(string $stateName): int
     {
+<<<<<<< HEAD
         /** @var Builder<Model> $query */
         $query = $this->model::where('state', $stateName);
         $count = $query->count();
 
         return is_int($count) ? $count : (int) $count;
+=======
+        return $this->model::where('state', $stateName)->count();
+>>>>>>> 5a14301c (.)
     }
 
     /**

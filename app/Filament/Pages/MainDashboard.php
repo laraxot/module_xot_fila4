@@ -4,7 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
 use Filament\Panel;
+=======
+use Filament\Facades\Filament;
+use Filament\Panel;
+use Filament\Pages\Dashboard;
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
@@ -19,9 +25,15 @@ class MainDashboard extends XotBaseDashboard
 
     // protected static string $routePath = 'main';
 
+<<<<<<< HEAD
     protected static ?string $title = 'Main Dashboard';
 
     protected static ?int $navigationSort = 1;
+=======
+    protected static null|string $title = 'Main Dashboard';
+
+    protected static null|int $navigationSort = 1;
+>>>>>>> 5a14301c (.)
 
     /**
      * Use the canonical slug so Filament resolves the home link to this page
@@ -34,6 +46,7 @@ class MainDashboard extends XotBaseDashboard
 
     public function mount(): void
     {
+<<<<<<< HEAD
         Assert::notNull($user = auth()->user(), '['.__LINE__.']['.class_basename($this).']');
         $modules = $user->roles->filter(static fn ($item) => Str::endsWith($item->name, '::admin'));
 
@@ -42,12 +55,27 @@ class MainDashboard extends XotBaseDashboard
             $panel_name = $module_first->name;
             $module_name = Str::before($panel_name, '::admin');
             $url = '/'.$module_name.'/admin';
+=======
+        Assert::notNull($user = auth()->user(), '[' . __LINE__ . '][' . class_basename($this) . ']');
+        $modules = $user->roles->filter(static fn($item) => Str::endsWith($item->name, '::admin'));
+
+        if (1 === $modules->count()) {
+            Assert::notNull($module_first = $modules->first(), '[' . __LINE__ . '][' . class_basename($this) . ']');
+            $panel_name = $module_first->name;
+            $module_name = Str::before($panel_name, '::admin');
+            $url = '/' . $module_name . '/admin';
+>>>>>>> 5a14301c (.)
             redirect($url);
         }
 
         // Solo se non ha accesso a nessun modulo, redirect alla home locale
+<<<<<<< HEAD
         if ($modules->count() === 0) {
             $url = '/'.app()->getLocale();
+=======
+        if (0 === $modules->count()) {
+            $url = '/' . app()->getLocale();
+>>>>>>> 5a14301c (.)
             redirect($url);
         }
 
@@ -63,7 +91,11 @@ class MainDashboard extends XotBaseDashboard
     {
         return [
             // Widget per mostrare i moduli disponibili
+<<<<<<< HEAD
             // Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+=======
+           //Modules\Xot\Filament\Widgets\ModulesOverviewWidget::class,
+>>>>>>> 5a14301c (.)
         ];
     }
 

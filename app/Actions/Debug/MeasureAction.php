@@ -6,6 +6,11 @@ namespace Modules\Xot\Actions\Debug;
 
 use Closure;
 use Filament\Notifications\Notification;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Log;
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
 
 /**
  * Classe per misurare le performance di esecuzione di un blocco di codice.
@@ -17,12 +22,23 @@ class MeasureAction
     /**
      * Esegue una closure misurando il tempo di esecuzione e l'utilizzo di memoria.
      *
+<<<<<<< HEAD
      * @param  Closure():T  $closure  La closure da eseguire e misurare
      * @param  string  $label  Etichetta opzionale per identificare la misurazione
+=======
+     * @param Closure():T $closure La closure da eseguire e misurare
+     * @param string $label Etichetta opzionale per identificare la misurazione
+     *
+>>>>>>> 5a14301c (.)
      * @return T Il risultato dell'esecuzione della closure
      */
     public function execute(Closure $closure, string $label = ''): mixed
     {
+<<<<<<< HEAD
+=======
+        Assert::isCallable($closure, 'Il parametro $closure deve essere una funzione chiamabile');
+
+>>>>>>> 5a14301c (.)
         $start = microtime(true);
         $memory_start = memory_get_usage();
 
@@ -38,15 +54,25 @@ class MeasureAction
 
         $metrics = [
             'label' => $label,
+<<<<<<< HEAD
             'execution_time' => round($execution_time, 2).' ms',
             'memory_usage' => round($memory_usage, 2).' KB',
+=======
+            'execution_time' => round($execution_time, 2) . ' ms',
+            'memory_usage' => round($memory_usage, 2) . ' KB',
+>>>>>>> 5a14301c (.)
             // 'peak_memory' => round(memory_get_peak_usage() / 1024 / 1024, 2).' MB',
         ];
 
         // Mostriamo una notifica con le metriche
         Notification::make()
+<<<<<<< HEAD
             ->title('Performance Metrics '.($label !== '' ? $label : 'Unnamed'))
             ->body($metrics['execution_time'].'  '.$metrics['memory_usage'])
+=======
+            ->title('Performance Metrics ' . ($label !== '' ? $label : 'Unnamed'))
+            ->body($metrics['execution_time'] . '  ' . $metrics['memory_usage'])
+>>>>>>> 5a14301c (.)
             ->success()
             ->persistent()
             ->send();

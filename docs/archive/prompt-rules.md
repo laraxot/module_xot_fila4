@@ -33,7 +33,10 @@ La documentazione generica deve essere sempre inserita nella cartella `docs` del
 ### Collocazione della documentazione dei componenti UI
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 ## Collegamenti Bidirezionali
 - [Documentazione Generale](./documentation.md)
 - [Regole del Progetto](./rules.md)
@@ -49,5 +52,8 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 ## Collegamenti tra versioni di prompt_rules.md
 * [prompt_rules.md](rules/prompt_rules.md)
 
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 5a14301c (.)

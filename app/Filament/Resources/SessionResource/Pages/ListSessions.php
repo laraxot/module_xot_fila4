@@ -4,11 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\SessionResource\Pages;
 
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> 5a14301c (.)
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\SessionResource;
+<<<<<<< HEAD
 use Override;
+=======
+>>>>>>> 5a14301c (.)
 
 /**
  * @see SessionResource

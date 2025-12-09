@@ -50,5 +50,9 @@ interface ModelInputContract extends ModelContract
 ## Collegamenti
 - [Form Guidelines](../forms/README.md)
 - [Input Components](../components/FORM-COMPONENTS.md)
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 5a14301c (.)
 - [Contracts Overview](./README.md) 

@@ -31,7 +31,10 @@ public function getTableColumns(): array
 - [Esempio e Applicazione - Modulo User](../../../User/docs/filament/FILAMENT_TABLE_COLUMNS.md)
 - [Regola Globale - Root Docs](../../../../docs/filament-table-columns.md)
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 ## Nota storica: correzione XotBaseManageRelatedRecords
 
 - La classe XotBaseManageRelatedRecords è stata aggiornata per rispettare PHPStan livello 10.
@@ -47,5 +50,8 @@ public function getTableColumns(): array
 **Ultimo aggiornamento:** 2025-05-13
 
 **Link bidirezionale:** Aggiornare anche la root docs e la docs dei moduli coinvolti.
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 5a14301c (.)

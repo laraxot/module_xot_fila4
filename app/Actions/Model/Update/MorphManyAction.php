@@ -19,6 +19,7 @@ class MorphManyAction
      */
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
+<<<<<<< HEAD
         if ($relationDTO->data === []) {
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model
@@ -27,6 +28,12 @@ class MorphManyAction
                 return;
             }
             $relation->saveMany($relationDTO->data);
+=======
+        if ([] === $relationDTO->data) {
+            // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
+            // save Model
+            $model->{$relationDTO->name}()->saveMany($relationDTO->data);
+>>>>>>> 5a14301c (.)
 
             return;
         }
@@ -43,9 +50,13 @@ class MorphManyAction
                  * $row = $related->firstOrCreate([$keyName => $related_id]);
                  * $res = app(\Modules\Xot\Actions\Model\UpdateAction::class)->execute($row, $data, []);
                  */
+<<<<<<< HEAD
                 /** @var array<string, mixed> $safeData */
                 $safeData = $data;
                 $res = app(UpdateAction::class)->execute($related, $safeData, []);
+=======
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+>>>>>>> 5a14301c (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {
@@ -53,11 +64,15 @@ class MorphManyAction
             }
         }
 
+<<<<<<< HEAD
         $relation = $model->{$relationDTO->name}();
         if (! is_object($relation) || ! method_exists($relation, 'saveMany')) {
             return;
         }
         $relation->saveMany($models);
+=======
+        $model->{$relationDTO->name}()->saveMany($models);
+>>>>>>> 5a14301c (.)
 
         // dddx(['model' => $model, 'relationDTO' => $relationDTO]);
     }

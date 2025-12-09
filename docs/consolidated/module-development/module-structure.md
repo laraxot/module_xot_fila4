@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 # Struttura dei Moduli in il progetto
 
 ## Panoramica
@@ -326,7 +329,10 @@ Module/
 │   └── Providers/
 ├── config/
 ├── database/
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 │   ├── migrations/
 │   └── seeders/
 ├── resources/           ✓ CORRETTO
@@ -425,7 +431,10 @@ Se trovi una directory con case errato:
 
 ## Collegamenti tra versioni di module_structure.md
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 │   ├── factories/
 │   ├── migrations/
 │   └── seeders/
@@ -523,4 +532,7 @@ Route::middleware('api')->prefix('api')->group(function () {
 
 ---
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)

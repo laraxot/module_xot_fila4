@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Unit;
 
+<<<<<<< HEAD
 use Filament\Tables\Table;
 use Mockery;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Override;
+=======
+use Override;
+use Filament\Tables\Table;
+use Mockery;
+use Modules\Xot\Filament\Traits\HasXotTable;
+>>>>>>> 5a14301c (.)
 
 /**
  * Dummy class without the optional methods.
@@ -21,7 +28,10 @@ class HasTableWithoutOptionalMethodsTestClass
         $mock = Mockery::mock();
         $mock->shouldReceive('getTableColumns')->andReturn([]);
         $mock->shouldReceive('getTableContentGrid')->andReturn([]);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
         return $mock;
     }
 
@@ -36,7 +46,11 @@ class HasTableWithoutOptionalMethodsTestClass
         return Mockery::mock(Table::class);
     }
 
+<<<<<<< HEAD
     public function getTablePage(): ?int
+=======
+    public function getTablePage(): null|int
+>>>>>>> 5a14301c (.)
     {
         return 1;
     }
@@ -46,12 +60,20 @@ class HasTableWithoutOptionalMethodsTestClass
         return 10;
     }
 
+<<<<<<< HEAD
     public function getTableSortColumn(): ?string
+=======
+    public function getTableSortColumn(): null|string
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
     public function getTableSortDirection(): ?string
+=======
+    public function getTableSortDirection(): null|string
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
@@ -66,17 +88,29 @@ class HasTableWithoutOptionalMethodsTestClass
         return null;
     }
 
+<<<<<<< HEAD
     public function getTableFilterState(string $_name): ?array
+=======
+    public function getTableFilterState(string $_name): null|array
+>>>>>>> 5a14301c (.)
     {
         return [];
     }
 
+<<<<<<< HEAD
     public function getTableGrouping(): ?string
+=======
+    public function getTableGrouping(): null|string
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
 
+<<<<<<< HEAD
     public function getTableSearchIndicator(): ?string
+=======
+    public function getTableSearchIndicator(): null|string
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
@@ -151,7 +185,11 @@ class HasTableWithoutOptionalMethodsTestClass
         return null;
     }
 
+<<<<<<< HEAD
     public function getMountedTableAction(): ?string
+=======
+    public function getMountedTableAction(): null|string
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
@@ -171,7 +209,11 @@ class HasTableWithoutOptionalMethodsTestClass
         return null;
     }
 
+<<<<<<< HEAD
     public function getMountedTableBulkAction(): ?string
+=======
+    public function getMountedTableBulkAction(): null|string
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
@@ -181,7 +223,11 @@ class HasTableWithoutOptionalMethodsTestClass
         return null;
     }
 
+<<<<<<< HEAD
     public function getActiveTableLocale(): ?string
+=======
+    public function getActiveTableLocale(): null|string
+>>>>>>> 5a14301c (.)
     {
         return null;
     }
@@ -216,17 +262,32 @@ class HasTableWithoutOptionalMethodsTestClass
         return null;
     }
 
+<<<<<<< HEAD
     public function deselectAllTableRecords(): void {}
 
     public function mountTableAction(): void {}
 
     public function mountTableBulkAction(): void {}
+=======
+    public function deselectAllTableRecords(): void
+    {
+    }
+
+    public function mountTableAction(): void
+    {
+    }
+
+    public function mountTableBulkAction(): void
+    {
+    }
+>>>>>>> 5a14301c (.)
 
     public function mountedTableActionRecord(): mixed
     {
         return null;
     }
 
+<<<<<<< HEAD
     public function replaceMountedTableAction(): void {}
 
     public function replaceMountedTableBulkAction(): void {}
@@ -236,6 +297,27 @@ class HasTableWithoutOptionalMethodsTestClass
     public function resetTableColumnSearch(): void {}
 
     public function toggleTableReordering(): void {}
+=======
+    public function replaceMountedTableAction(): void
+    {
+    }
+
+    public function replaceMountedTableBulkAction(): void
+    {
+    }
+
+    public function resetTableSearch(): void
+    {
+    }
+
+    public function resetTableColumnSearch(): void
+    {
+    }
+
+    public function toggleTableReordering(): void
+    {
+    }
+>>>>>>> 5a14301c (.)
 
     public function parseTableFilterName(): string
     {

@@ -4,11 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use InvalidArgumentException;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 use RuntimeException;
+=======
+use RuntimeException;
+use InvalidArgumentException;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasOne;
+use Modules\Xot\Datas\RelationData as RelationDTO;
+>>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -26,8 +34,13 @@ class HasOneAction
     /**
      * Execute the update operation for a HasOne relationship.
      *
+<<<<<<< HEAD
      * @param  Model  $model  The parent model instance
      * @param  RelationDTO  $relationDTO  Data transfer object containing relationship information
+=======
+     * @param Model       $model       The parent model instance
+     * @param RelationDTO $relationDTO Data transfer object containing relationship information
+>>>>>>> 5a14301c (.)
      *
      * @throws InvalidArgumentException When relationship type is invalid
      * @throws RuntimeException When relationship data is invalid

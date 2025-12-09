@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\ExtraResource\Pages;
 
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Filament\Actions\BulkAction;
@@ -14,6 +15,19 @@ use Filament\Tables\Filters\BaseFilter;
 use Modules\Xot\Filament\Resources\ExtraResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Override;
+=======
+use Filament\Actions\BulkAction;
+use Filament\Tables\Filters\BaseFilter;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+use Override;
+use Filament\Actions\EditAction;
+use Filament\Actions\DeleteBulkAction;
+use Filament\Tables;
+use Filament\Tables\Columns\TextColumn;
+use Modules\Xot\Filament\Resources\ExtraResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+>>>>>>> 5a14301c (.)
 
 /**
  * @see ExtraResource

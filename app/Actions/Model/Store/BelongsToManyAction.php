@@ -30,7 +30,11 @@ class BelongsToManyAction
             // $this->saveMultiselectTwoSides($row, $relation->name, $relation->data);
             Assert::isArray($to = $relationDTO->data['to'] ?? []);
             $rows->sync($to);
+<<<<<<< HEAD
             $status = 'collegati ['.implode(', ', $to).'] ';
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+>>>>>>> 5a14301c (.)
             Session::flash('status', $status);
 
             return;

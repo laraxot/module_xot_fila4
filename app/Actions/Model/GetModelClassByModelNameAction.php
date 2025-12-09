@@ -22,10 +22,17 @@ class GetModelClassByModelNameAction
     {
         Assert::isArray($morph_map = config('morph_map'));
         $modelClass = collect($morph_map)->get($modelName);
+<<<<<<< HEAD
         if ($modelClass === null) {
             return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
         }
         Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+=======
+        if (null === $modelClass) {
+            return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
+        }
+        Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 5a14301c (.)
 
         return $modelClass;
     }

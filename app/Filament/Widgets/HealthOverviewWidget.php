@@ -4,9 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+<<<<<<< HEAD
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
+=======
+use Spatie\Health\Enums\Status;
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+>>>>>>> 5a14301c (.)
 use Spatie\Health\ResultStores\ResultStore;
 
 class HealthOverviewWidget extends BaseWidget
@@ -27,14 +33,22 @@ class HealthOverviewWidget extends BaseWidget
         $stats = [];
 
         $checkResults = app(ResultStore::class)->latestResults();
+<<<<<<< HEAD
         if ($checkResults === null) {
+=======
+        if (null === $checkResults) {
+>>>>>>> 5a14301c (.)
             return $stats;
         }
         foreach ($checkResults->storedCheckResults as $result) {
             $label = $result->label;
             $value = $result->shortSummary;
             $stats[] = Stat::make($label, $value)
+<<<<<<< HEAD
                 ->description($result->notificationMessage.' '.$result->status)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 5a14301c (.)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }

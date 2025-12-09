@@ -9,7 +9,10 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model;
 
 use Nwidart\Modules\Facades\Module;
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
+=======
+>>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetAllModelsAction
@@ -18,6 +21,7 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+<<<<<<< HEAD
      *
      * @return array<int, class-string>
      */
@@ -39,6 +43,15 @@ class GetAllModelsAction
 
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleNameValue);
             /** @var array<int, class-string> $tmp */
+=======
+     */
+    public function execute(): array
+    {
+        $res = [];
+        $modules = Module::all();
+        foreach ($modules as $module) {
+            $tmp = app(GetAllModelsByModuleNameAction::class)->execute($module->getName());
+>>>>>>> 5a14301c (.)
             $res = array_merge($res, $tmp);
         }
 

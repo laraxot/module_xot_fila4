@@ -4,9 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models\Policies;
 
+<<<<<<< HEAD
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\HealthCheckResultHistoryItem;
 use Override;
+=======
+use Override;
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\HealthCheckResultHistoryItem;
+>>>>>>> 5a14301c (.)
 
 class HealthCheckResultHistoryItemPolicy extends XotBasePolicy
 {

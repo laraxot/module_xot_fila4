@@ -21,7 +21,11 @@ use Illuminate\Support\Collection;
  * - Calcolare giorni successivi
  * - Integrazione con Filament UI
  */
+<<<<<<< HEAD
 enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
+=======
+enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
+>>>>>>> 5a14301c (.)
 {
     case MONDAY = 1;
     case TUESDAY = 2;
@@ -39,7 +43,10 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
     {
         $carbon = Carbon::now()->startOfWeek()->addDays($this->value - 1);
         $carbon->locale('it');
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
         return (string) $carbon->isoFormat('dddd');
     }
 
@@ -84,6 +91,7 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
     public function getDescription(): string
     {
         return match ($this) {
+<<<<<<< HEAD
             self::MONDAY => 'Lunedì - Inizio della settimana lavorativa',
             self::TUESDAY => 'Martedì - Secondo giorno lavorativo',
             self::WEDNESDAY => 'Mercoledì - Metà settimana',
@@ -91,6 +99,15 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
             self::FRIDAY => 'Venerdì - Ultimo giorno lavorativo',
             self::SATURDAY => 'Sabato - Primo giorno del weekend',
             self::SUNDAY => 'Domenica - Giorno di riposo',
+=======
+            self::MONDAY => __('saluteora::common.days.description.monday'),
+            self::TUESDAY => __('saluteora::common.days.description.tuesday'),
+            self::WEDNESDAY => __('saluteora::common.days.description.wednesday'),
+            self::THURSDAY => __('saluteora::common.days.description.thursday'),
+            self::FRIDAY => __('saluteora::common.days.description.friday'),
+            self::SATURDAY => __('saluteora::common.days.description.saturday'),
+            self::SUNDAY => __('saluteora::common.days.description.sunday'),
+>>>>>>> 5a14301c (.)
         };
     }
 
@@ -101,7 +118,10 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
     {
         $carbon = Carbon::now()->startOfWeek()->addDays($this->value - 1);
         $carbon->locale('it');
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
         return (string) $carbon->isoFormat('ddd');
     }
 
@@ -116,7 +136,10 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
         foreach (self::cases() as $case) {
             $result[$case->value] = $case->getLabel();
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
         return $result;
     }
 
@@ -127,10 +150,16 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
      */
     public static function workingDays(): Collection
     {
+<<<<<<< HEAD
         /** @var Collection<int, self> $result */
         $result = collect(self::cases())->filter(static fn (self $day): bool => $day->value <= 5);
 
         return $result;
+=======
+        /** @var Collection<int, self> $filtered */
+        $filtered = collect(self::cases())->filter(fn(self $day): bool => $day->value <= 5);
+        return $filtered;
+>>>>>>> 5a14301c (.)
     }
 
     /**
@@ -140,10 +169,16 @@ enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
      */
     public static function weekendDays(): Collection
     {
+<<<<<<< HEAD
         /** @var Collection<int, self> $result */
         $result = collect(self::cases())->filter(static fn (self $day): bool => $day->value > 5);
 
         return $result;
+=======
+        /** @var Collection<int, self> $filtered */
+        $filtered = collect(self::cases())->filter(fn(self $day): bool => $day->value > 5);
+        return $filtered;
+>>>>>>> 5a14301c (.)
     }
 
     /**

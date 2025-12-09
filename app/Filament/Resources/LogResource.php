@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources;
 
+<<<<<<< HEAD
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Infolists\Components\TextEntry;
@@ -15,16 +16,38 @@ use Modules\Xot\Filament\Resources\LogResource\Pages\ViewLog;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Models\Log;
 use Override;
+=======
+use Override;
+use Filament\Schemas\Schema;
+use Modules\Xot\Filament\Resources\LogResource\Pages\ListLogs;
+use Modules\Xot\Filament\Resources\LogResource\Pages\CreateLog;
+use Modules\Xot\Filament\Resources\LogResource\Pages\ViewLog;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\TextInput;
+use Filament\Infolists;
+use Filament\Infolists\Components\RepeatableEntry;
+use Filament\Infolists\Components\TextEntry;
+use Modules\Xot\Filament\Infolists\Components\FileContentEntry;
+use Modules\Xot\Filament\Resources\LogResource\Pages;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Modules\Xot\Models\Log;
+>>>>>>> 5a14301c (.)
 
 class LogResource extends XotBaseResource
 {
     use NavigationLabelTrait;
 
+<<<<<<< HEAD
     protected static ?string $model = Log::class;
 
     /**
      * @return array<string, Component>
      */
+=======
+    protected static null|string $model = Log::class;
+
+>>>>>>> 5a14301c (.)
     #[Override]
     public static function getFormSchema(): array
     {
@@ -35,10 +58,17 @@ class LogResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
     public static function getInfolistSchema(): array
     {
         return [
             'name' => TextEntry::make('name')->columnSpanFull(),
+=======
+    public static function infolist(Schema $schema): Schema
+    {
+        return $schema->components([
+            TextEntry::make('name')->columnSpanFull(),
+>>>>>>> 5a14301c (.)
             /*
              * Infolists\Components\TextEntry::make('email')
              * ->columnSpanFull(),
@@ -47,14 +77,22 @@ class LogResource extends XotBaseResource
              * ->formatStateUsing(static fn ($state) => new HtmlString(nl2br($state)))
              * ->columnSpanFull(),
              */
+<<<<<<< HEAD
             'file-content' => FileContentEntry::make('file-content'),
+=======
+            FileContentEntry::make('file-content'),
+>>>>>>> 5a14301c (.)
             /*
              * RepeatableEntry::make('lines')
              * ->schema([
              * TextEntry::make('txt'),
              * ])
              */
+<<<<<<< HEAD
         ];
+=======
+        ]);
+>>>>>>> 5a14301c (.)
     }
 
     #[Override]

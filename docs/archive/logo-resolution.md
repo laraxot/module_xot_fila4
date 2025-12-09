@@ -116,10 +116,16 @@ Per la versione dark:
 - [Struttura dei Moduli in il progetto](../../../docs/struttura-moduli.md)
 - [Architettura Folio + Volt in il progetto](../../../docs/architettura-folio-volt.md)
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 ---
 
 ### Nota Importante
 Questo documento è parte della documentazione generale del modulo Xot e descrive un meccanismo riutilizzabile in diversi progetti. La documentazione nei moduli è generica e riutilizzabile, mentre le informazioni specifiche del progetto si trovano nella documentazione nella root del progetto.
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 5a14301c (.)

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\XotBaseResource\Pages;
 
 use Filament\Schemas\Components\Component;
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -12,11 +13,26 @@ use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecord
 use Filament\Schemas\Schema;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Contracts\Support\Htmlable;
+=======
+use Override;
+use Filament\Actions\CreateAction;
+use Filament\Actions\Action;
+use Filament\Schemas\Schema;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Table;
+>>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 use Override;
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -29,6 +45,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 {
     use HasXotTable;
     use InteractsWithForms;
+<<<<<<< HEAD
     use NavigationLabelTrait {
         NavigationLabelTrait::trans insteadof HasXotTable;
         NavigationLabelTrait::getKeyTrans insteadof HasXotTable;
@@ -38,6 +55,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         NavigationLabelTrait::transFunc insteadof HasXotTable;
         NavigationLabelTrait::transChoice insteadof HasXotTable;
     }
+=======
+    use NavigationLabelTrait;
+>>>>>>> 5a14301c (.)
 
     // protected static string $resource;
 
@@ -49,14 +69,20 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return '';
     }
 
+<<<<<<< HEAD
     /**
      * Restituisce lo schema del form per i record correlati.
      *
      * @return array<\Filament\Schemas\Components\Component>
+=======
+    /*
+     * @return array<\Filament\Forms\Components\Component>
+>>>>>>> 5a14301c (.)
      */
     // abstract public static function getFormSchema(): array;
 
     /**
+<<<<<<< HEAD
      * Configura lo schema del form per i record correlati.
      */
     public function form(Schema $schema): Schema
@@ -78,6 +104,8 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     }
 
     /**
+=======
+>>>>>>> 5a14301c (.)
      * Definisce le colonne della tabella per la visualizzazione dei record correlati.
      * Questo metodo può essere sovrascritto nelle classi figlie.
      *
@@ -124,11 +152,15 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
             'edit' => Action::make('edit')
                 ->label('Modifica')
                 ->icon('heroicon-o-pencil')
+<<<<<<< HEAD
                 ->url(function (Model $record): string {
                     $url = static::getResource()::getUrl('edit', ['record' => $record]);
 
                     return is_string($url) ? $url : (string) $url;
                 }),
+=======
+                ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+>>>>>>> 5a14301c (.)
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')
@@ -163,6 +195,21 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * 'create' => CreateAction::make()
      * ->label('Crea Nuovo')
      * ->disableCreateAnother(),
+<<<<<<< HEAD
+=======
+     * ]);
+     * }
+     */
+    /**
+     * Configura il form per la creazione/modifica dei record correlati.
+     */
+    public function form(Schema $form): Schema
+    {
+        /** @var array<Component> $schema */
+        $schema = $this->getFormSchema();
+        return $form->components($schema);
+    }
+>>>>>>> 5a14301c (.)
 
     /**
      * Restituisce il titolo della pagina.
@@ -182,7 +229,11 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 
         return Str::of($relationship)
             ->title()
+<<<<<<< HEAD
             ->prepend($titleString.' - ')
+=======
+            ->prepend($titleString . ' - ')
+>>>>>>> 5a14301c (.)
             ->toString();
     }
 }

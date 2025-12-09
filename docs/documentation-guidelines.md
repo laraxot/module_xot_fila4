@@ -287,4 +287,7 @@ Per implementare queste linee guida:
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Documentazione Laravel](https://laravel.com/docs)
 - [Documentazione PHPDoc](https://docs.phpdoc.org/)
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)

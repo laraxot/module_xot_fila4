@@ -90,8 +90,12 @@ return [
 - [Best Practices Traduzioni](translations-best-practices.md)
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 =======
 =======
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 =======
+=======
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> 5a14301c (.)

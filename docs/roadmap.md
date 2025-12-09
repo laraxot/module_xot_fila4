@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+### Versione HEAD
+>>>>>>> 5a14301c (.)
 
 # Roadmap Modulo Xot
 

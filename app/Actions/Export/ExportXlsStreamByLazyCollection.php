@@ -22,19 +22,36 @@ class ExportXlsStreamByLazyCollection
     /**
      * Esporta una LazyCollection in un file CSV streamed.
      *
+<<<<<<< HEAD
      * @param  LazyCollection  $data  I dati da esportare
      * @param  string  $filename  Nome del file CSV
      * @param  string|null  $transKey  Chiave di traduzione per le intestazioni
      * @param  array<string>|null  $_fields  Campi da includere nell'export (attualmente non utilizzato)
+=======
+     * @param LazyCollection $data I dati da esportare
+     * @param string $filename Nome del file CSV
+     * @param string|null $transKey Chiave di traduzione per le intestazioni
+     * @param array<string>|null $_fields Campi da includere nell'export (attualmente non utilizzato)
+     *
+     * @return StreamedResponse
+>>>>>>> 5a14301c (.)
      */
     public function execute(
         LazyCollection $data,
         string $filename = 'test.csv',
+<<<<<<< HEAD
         ?string $transKey = null,
         ?array $_fields = null,
     ): StreamedResponse {
         $headers = [
             'Content-Disposition' => 'attachment; filename='.$filename,
+=======
+        null|string $transKey = null,
+        null|array $_fields = null,
+    ): StreamedResponse {
+        $headers = [
+            'Content-Disposition' => 'attachment; filename=' . $filename,
+>>>>>>> 5a14301c (.)
         ];
         $head = $this->headings($data, $transKey);
 
@@ -62,9 +79,14 @@ class ExportXlsStreamByLazyCollection
                     // Convertiamo tutti i valori in stringhe o null
                     $safeRowData = array_map(function ($item) {
                         if ($item === null) {
+<<<<<<< HEAD
                             return '';
                         }
 
+=======
+                            return null;
+                        }
+>>>>>>> 5a14301c (.)
                         return is_string($item) ? $item : ((string) $item);
                     }, $rowData);
 
@@ -87,6 +109,7 @@ class ExportXlsStreamByLazyCollection
     /**
      * Ottiene le intestazioni per l'export.
      *
+<<<<<<< HEAD
      * @param  LazyCollection  $data  I dati da cui estrarre le intestazioni
      * @param  string|null  $transKey  Chiave di traduzione per le intestazioni
      * @return array<string>
@@ -95,6 +118,17 @@ class ExportXlsStreamByLazyCollection
     {
         $first = $data->first();
         if (! is_array($first) && (! is_object($first) || ! method_exists($first, 'toArray'))) {
+=======
+     * @param LazyCollection $data I dati da cui estrarre le intestazioni
+     * @param string|null $transKey Chiave di traduzione per le intestazioni
+     *
+     * @return array<string>
+     */
+    public function headings(LazyCollection $data, null|string $transKey = null): array
+    {
+        $first = $data->first();
+        if (!is_array($first) && (!is_object($first) || !method_exists($first, 'toArray'))) {
+>>>>>>> 5a14301c (.)
             return []; // Ritorna intestazioni vuote se non c'è un primo elemento valido
         }
 
@@ -106,16 +140,27 @@ class ExportXlsStreamByLazyCollection
          */
         $headings = collect($headArray)->keys();
 
+<<<<<<< HEAD
         if ($transKey !== null) {
             $headings = $headings->map(static function (string $item) use ($transKey) {
                 $key = $transKey.'.fields.'.$item;
+=======
+        if (null !== $transKey) {
+            $headings = $headings->map(static function (string $item) use ($transKey) {
+                $key = $transKey . '.fields.' . $item;
+>>>>>>> 5a14301c (.)
                 $trans = trans($key);
                 if ($trans !== $key) {
                     return $trans;
                 }
 
+<<<<<<< HEAD
                 Assert::string($item1 = Str::replace('.', '_', $item), '['.__LINE__.']['.self::class.']');
                 $key = $transKey.'.fields.'.$item1;
+=======
+                Assert::string($item1 = Str::replace('.', '_', $item), '[' . __LINE__ . '][' . __CLASS__ . ']');
+                $key = $transKey . '.fields.' . $item1;
+>>>>>>> 5a14301c (.)
                 $trans = trans($key);
                 if ($trans !== $key) {
                     return $trans;

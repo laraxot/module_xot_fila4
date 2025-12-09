@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a14301c (.)
 return [
     'accepted' => ':attribute must Akzeptert werden.',
     'active_url' => ':attribute ist keine gültige URL.',

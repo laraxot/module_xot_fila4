@@ -9,7 +9,11 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Header;
 
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
+<<<<<<< HEAD
 // use Filament\Actions\Action;
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
@@ -28,9 +32,15 @@ class ExportXlsAction extends Action
             ->icon('heroicon-o-arrow-down-tray')
             ->action(static function (ListRecords $livewire) {
                 $filename =
+<<<<<<< HEAD
                     class_basename($livewire).
                     '-'.
                     collect($livewire->tableFilters)->flatten()->implode('-').
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
                     '.xlsx';
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
@@ -47,6 +57,7 @@ class ExportXlsAction extends Action
                 if (method_exists($resource, 'getXlsFields')) {
                     $rawFields = $resource::getXlsFields($livewire->tableFilters);
                     if (is_array($rawFields)) {
+<<<<<<< HEAD
                         $fields = array_map(
                             /**
                              * @param  mixed  $field
@@ -69,6 +80,17 @@ class ExportXlsAction extends Action
                             },
                             $rawFields
                         );
+=======
+                        $fields = array_map(static function ($field): string {
+                            if (is_object($field) && method_exists($field, '__toString')) {
+                                return $field->__toString();
+                            }
+                            if (is_scalar($field)) {
+                                return (string) $field;
+                            }
+                            return '';
+                        }, $rawFields);
+>>>>>>> 5a14301c (.)
                     }
                     Assert::isArray($fields);
                 }
@@ -77,7 +99,11 @@ class ExportXlsAction extends Action
             });
     }
 
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
     {
         return 'export_xls';
     }

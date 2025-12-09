@@ -18,6 +18,11 @@ use function Safe\preg_match;
  * - DRY: Evita duplicazione di logica di cast int in tutto il progetto
  * - KISS: Logica semplice e diretta, facile da comprendere e mantenere
  * - Robustezza: Gestisce tutti i casi edge e mantiene la type safety
+<<<<<<< HEAD
+=======
+ *
+ * @package Modules\Xot\Actions\Cast
+>>>>>>> 5a14301c (.)
  */
 class SafeIntCastAction
 {
@@ -26,11 +31,20 @@ class SafeIntCastAction
     /**
      * Converte in modo sicuro un valore mixed in int.
      *
+<<<<<<< HEAD
      * @param  mixed  $value  Il valore da convertire
      * @param  int|null  $default  Valore di default se la conversione fallisce (default: 0)
      * @return int Il valore convertito in int
      */
     public function execute(mixed $value, ?int $default = 0): int
+=======
+     * @param mixed $value Il valore da convertire
+     * @param int|null $default Valore di default se la conversione fallisce (default: 0)
+     *
+     * @return int Il valore convertito in int
+     */
+    public function execute(mixed $value, null|int $default = 0): int
+>>>>>>> 5a14301c (.)
     {
         // Se è già un int, restituiscilo direttamente
         if (is_int($value)) {
@@ -72,6 +86,7 @@ class SafeIntCastAction
     }
 
     /**
+<<<<<<< HEAD
      * Metodo statico di convenienza per chiamate dirette.
      *
      * @param  mixed  $value  Il valore da convertire
@@ -148,6 +163,16 @@ class SafeIntCastAction
      * @return int Il valore convertito
      */
     private function parseStringToInt(string $value, ?int $default = 0): int
+=======
+     * Converte una stringa in int con gestione avanzata.
+     *
+     * @param string $value La stringa da convertire
+     * @param int|null $default Valore di default
+     *
+     * @return int Il valore convertito
+     */
+    private function parseStringToInt(string $value, null|int $default = 0): int
+>>>>>>> 5a14301c (.)
     {
         $trimmed = trim($value);
 
@@ -161,15 +186,100 @@ class SafeIntCastAction
 
         // Verifica se è un numero valido
         if (is_numeric($normalized)) {
+<<<<<<< HEAD
             return (int) $normalized;
+=======
+            $int = (int) $normalized;
+            return $int;
+>>>>>>> 5a14301c (.)
         }
 
         // Prova a estrarre solo i numeri
         $matches = [];
+<<<<<<< HEAD
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && ! empty($matches[0])) {
+=======
+        if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && !empty($matches[0])) {
+>>>>>>> 5a14301c (.)
             return (int) $matches[0];
         }
 
         return $default ?? 0;
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * Metodo statico di convenienza per chiamate dirette.
+     *
+     * @param mixed $value Il valore da convertire
+     * @param int|null $default Valore di default se la conversione fallisce (default: 0)
+     *
+     * @return int Il valore convertito in int
+     */
+    public static function cast(mixed $value, null|int $default = 0): int
+    {
+        return app(self::class)->execute($value, $default);
+    }
+
+    /**
+     * Converte un valore in int con validazione di range.
+     *
+     * @param mixed $value Il valore da convertire
+     * @param int $min Valore minimo consentito
+     * @param int $max Valore massimo consentito
+     * @param int|null $default Valore di default se la conversione fallisce
+     *
+     * @return int Il valore convertito e validato
+     */
+    public function executeWithRange(mixed $value, int $min, int $max, null|int $default = null): int
+    {
+        $int = $this->execute($value, $default);
+
+        // Clamp il valore tra min e max
+        return max($min, min($max, $int));
+    }
+
+    /**
+     * Metodo statico di convenienza per cast con range.
+     *
+     * @param mixed $value Il valore da convertire
+     * @param int $min Valore minimo consentito
+     * @param int $max Valore massimo consentito
+     * @param int|null $default Valore di default se la conversione fallisce
+     *
+     * @return int Il valore convertito e validato
+     */
+    public static function castWithRange(mixed $value, int $min, int $max, null|int $default = null): int
+    {
+        return app(self::class)->executeWithRange($value, $min, $max, $default);
+    }
+
+    /**
+     * Converte un valore in ID positivo (sempre >= 1).
+     *
+     * @param mixed $value Il valore da convertire
+     * @param int|null $default Valore di default se la conversione fallisce (default: 1)
+     *
+     * @return int Il valore convertito come ID positivo
+     */
+    public function executeAsId(mixed $value, null|int $default = 1): int
+    {
+        $int = $this->execute($value, $default);
+        return max(1, $int);
+    }
+
+    /**
+     * Metodo statico per cast come ID positivo.
+     *
+     * @param mixed $value Il valore da convertire
+     * @param int|null $default Valore di default se la conversione fallisce (default: 1)
+     *
+     * @return int Il valore convertito come ID positivo
+     */
+    public static function castAsId(mixed $value, null|int $default = 1): int
+    {
+        return app(self::class)->executeAsId($value, $default);
+    }
+>>>>>>> 5a14301c (.)
 }

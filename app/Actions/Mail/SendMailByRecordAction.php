@@ -4,8 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Mail;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
+=======
+use InvalidArgumentException;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Mail\Mailable;
+use Illuminate\Support\Facades\Mail;
+>>>>>>> 5a14301c (.)
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 use Modules\Xot\Actions\Export\PdfByModelAction;
@@ -19,8 +26,13 @@ class SendMailByRecordAction
     /**
      * Invia una mail utilizzando un record come dati.
      *
+<<<<<<< HEAD
      * @param  Model  $record  Il record da utilizzare come dati per la mail
      * @param  string  $mailClass  La classe Mailable da utilizzare
+=======
+     * @param Model  $record    Il record da utilizzare come dati per la mail
+     * @param string $mailClass La classe Mailable da utilizzare
+>>>>>>> 5a14301c (.)
      */
     public function execute(Model $record, string $mailClass): void
     {
@@ -32,15 +44,22 @@ class SendMailByRecordAction
         // in modo che possa ricevere le dipendenze necessarie
         // @var Mailable $mail
         // $mail = app($mailClass, ['record' => $record]);
+<<<<<<< HEAD
         // Mail::send($mail);
         // dddx(Mail::to($record)->send(new $mailClass($record)));
         // $res=Mail::to('marco.sottana@gmail.com')->send($mail);
+=======
+        //Mail::send($mail);
+        //dddx(Mail::to($record)->send(new $mailClass($record)));
+        //$res=Mail::to('marco.sottana@gmail.com')->send($mail);
+>>>>>>> 5a14301c (.)
 
         // Verifica che il model abbia le proprietà/metodi necessari
         if (($record->email ?? null) === null || empty($record->email)) {
             throw new InvalidArgumentException('Model must have email property');
         }
 
+<<<<<<< HEAD
         if (! method_exists($record, 'option')) {
             throw new InvalidArgumentException('Model must implement option method');
         }
@@ -68,11 +87,27 @@ class SendMailByRecordAction
             subject: $subject,
             body_html: $bodyHtml,
             attachments: [
+=======
+        if (!method_exists($record, 'option')) {
+            throw new InvalidArgumentException('Model must implement option method');
+        }
+
+        if (!method_exists($record, 'myLogs')) {
+            throw new InvalidArgumentException('Model must implement myLogs method');
+        }
+
+        $data = [
+            'to' => $record->email,
+            'subject' => $record->option('mail_oggetto'),
+            'body_html' => $record->option('mail_testo'),
+            'attachments' => [
+>>>>>>> 5a14301c (.)
                 app(PdfByModelAction::class)->execute(
                     model: $record,
                     out: 'path',
                 ),
             ],
+<<<<<<< HEAD
         );
         SmtpData::make()->send($emailData);
 
@@ -82,5 +117,17 @@ class SendMailByRecordAction
             'act' => 'sendMail',
             'handle' => authId(),
         ]);
+=======
+        ];
+        $emailData = EmailData::from($data);
+        SmtpData::make()->send($emailData);
+
+        $record
+            ->myLogs()
+            ->create([
+                'act' => 'sendMail',
+                'handle' => authId(),
+            ]);
+>>>>>>> 5a14301c (.)
     }
 }

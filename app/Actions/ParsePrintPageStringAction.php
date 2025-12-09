@@ -22,7 +22,12 @@ class ParsePrintPageStringAction
     /**
      * Execute the page string parsing.
      *
+<<<<<<< HEAD
      * @param  string  $str  The page range string to parse
+=======
+     * @param string $str The page range string to parse
+     *
+>>>>>>> 5a14301c (.)
      * @return array<int> Array of page numbers
      */
     public static function execute(string $str): array
@@ -31,18 +36,32 @@ class ParsePrintPageStringAction
         $matches = [];
         preg_match_all($pattern, $str, $matches);
 
+<<<<<<< HEAD
         Assert::notEmpty($matches[0], 'No valid page numbers found');
         $matchCount = count($matches[0]);
         $res = [];
 
         for ($i = 0; $i < $matchCount; $i++) {
+=======
+        Assert::isArray($matches);
+        Assert::notEmpty($matches[0], 'No valid page numbers found');
+        Assert::isArray($matches[0]);
+        $matchCount = count($matches[0]);
+        $res = [];
+
+        for ($i = 0; $i < $matchCount; ++$i) {
+>>>>>>> 5a14301c (.)
             $firstNumber = Arr::get($matches, "1.{$i}");
             $secondNumber = Arr::get($matches, "2.{$i}");
 
             Assert::string($firstNumber, 'First number must be a string');
             Assert::string($secondNumber, 'Second number must be a string');
 
+<<<<<<< HEAD
             if ($secondNumber === '') {
+=======
+            if ('' === $secondNumber) {
+>>>>>>> 5a14301c (.)
                 $res[] = (int) $firstNumber;
             } else {
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
@@ -55,8 +74,14 @@ class ParsePrintPageStringAction
     /**
      * Generate an array of numbers from start to end inclusive.
      *
+<<<<<<< HEAD
      * @param  int  $from  Starting number
      * @param  int  $to  Ending number
+=======
+     * @param int $from Starting number
+     * @param int $to   Ending number
+     *
+>>>>>>> 5a14301c (.)
      * @return array<int> Array of sequential numbers
      */
     public static function fromTo(int $from, int $to): array

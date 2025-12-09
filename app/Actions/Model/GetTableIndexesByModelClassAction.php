@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model;
 
+<<<<<<< HEAD
 use Doctrine\DBAL\Schema\Index;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+=======
+use Webmozart\Assert\Assert;
+use Illuminate\Database\Eloquent\Model;
+use Doctrine\DBAL\Schema\Index;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 5a14301c (.)
 
 class GetTableIndexesByModelClassAction
 {
@@ -20,8 +27,14 @@ class GetTableIndexesByModelClassAction
     {
         Assert::isInstanceOf($model = app($modelClass), Model::class);
         $table = $model->getTable();
+<<<<<<< HEAD
         $formManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
 
         return $formManager->listTableIndexes($table);
+=======
+        $schemaManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
+
+        return $schemaManager->listTableIndexes($table);
+>>>>>>> 5a14301c (.)
     }
 }

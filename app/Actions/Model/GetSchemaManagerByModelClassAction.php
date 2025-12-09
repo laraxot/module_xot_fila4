@@ -4,9 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model;
 
+<<<<<<< HEAD
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use RuntimeException;
+=======
+use RuntimeException;
+use Doctrine\DBAL\Schema\AbstractSchemaManager;
+use Illuminate\Database\Connection;
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Support\Facades\DB;
+>>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -17,7 +25,11 @@ class GetSchemaManagerByModelClassAction
     /**
      * Ottiene lo schema manager Doctrine per una classe di modello Eloquent.
      *
+<<<<<<< HEAD
      * @param  string  $modelClass  La classe del modello
+=======
+     * @param string $modelClass La classe del modello
+>>>>>>> 5a14301c (.)
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
     public function execute(string $modelClass): AbstractSchemaManager
@@ -29,11 +41,15 @@ class GetSchemaManagerByModelClassAction
         // ma getDoctrineConnection() non esiste, dobbiamo usare getDoctrineSchemaManager direttamente
         if (method_exists($connection, 'getDoctrineSchemaManager')) {
             /** @phpstan-ignore deprecated.method */
+<<<<<<< HEAD
             $schemaManager = $connection->getDoctrineSchemaManager();
 
             Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class);
 
             return $schemaManager;
+=======
+            return $connection->getDoctrineSchemaManager();
+>>>>>>> 5a14301c (.)
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

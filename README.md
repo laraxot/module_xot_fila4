@@ -1,8 +1,13 @@
 # 🚀 Xot - Il MOTORE FONDAMENTALE di Laraxot! ⚡
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
+<<<<<<< HEAD
 [![Laravel Version](https://img.shields.io/badge/Laravel-12.x-orange.svg)](https://laravel.com)
 [![Filament Version](https://img.shields.io/badge/Filament-4.x-purple.svg)](https://filamentphp.com)
+=======
+[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange.svg)](https://laravel.com)
+[![Filament Version](https://img.shields.io/badge/Filament-3.x-purple.svg)](https://filamentphp.com)
+>>>>>>> 5a14301c (.)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Code Quality](https://img.shields.io/badge/code%20quality-A+-brightgreen.svg)](.codeclimate.yml)
 [![Test Coverage](https://img.shields.io/badge/coverage-98%25-success.svg)](phpunit.xml.dist)
@@ -111,6 +116,7 @@ class XotBaseResource extends Resource
 }
 ```
 
+<<<<<<< HEAD
 ## 🔧 Fix Testing Laravel 12
 
 Il modulo Xot include il trait `CreatesApplication` per tutti i test dei moduli:
@@ -122,6 +128,8 @@ Il modulo Xot include il trait `CreatesApplication` per tutti i test dei moduli:
 
 📚 **Documentazione Completa**: [Fix Testing Issues](docs/testing-fixes.md)
 
+=======
+>>>>>>> 5a14301c (.)
 ## 🚀 Installazione SUPER VELOCE
 
 ```bash
@@ -370,6 +378,7 @@ Siamo aperti a contribuzioni! 🎉
 - ✅ Aggiorna la documentazione
 - ✅ Verifica PHPStan livello 10+
 
+<<<<<<< HEAD
 ## 🔄 Changelog
 
 ### v2.1.0 - 2025-01-27
@@ -379,6 +388,8 @@ Siamo aperti a contribuzioni! 🎉
 - **📝 Documentazione**: Aggiornata documentazione per nuove icone
 - **🌍 Multi-lingua**: Aggiornate traduzioni per tutte le lingue supportate
 
+=======
+>>>>>>> 5a14301c (.)
 ## 🏆 Riconoscimenti
 
 ### 🏅 **Badge di Qualità**

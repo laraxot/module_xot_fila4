@@ -4,11 +4,20 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Cast;
 
+<<<<<<< HEAD
 use Error;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use ValueError;
+=======
+use ValueError;
+use Error;
+use Exception;
+use Doctrine\DBAL\Schema\Index;
+use Illuminate\Database\Eloquent\Model;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 5a14301c (.)
 
 class SafeArrayByModelCastAction
 {
@@ -26,9 +35,12 @@ class SafeArrayByModelCastAction
         }
     }
 
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
+=======
+>>>>>>> 5a14301c (.)
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -42,5 +54,10 @@ class SafeArrayByModelCastAction
         }
 
         return $data;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5a14301c (.)
     }
 }

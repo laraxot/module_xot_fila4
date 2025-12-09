@@ -11,7 +11,11 @@ XotBaseResource è la classe base astratta per tutte le risorse Filament nel sis
 Alcuni metodi sono marcati come `final` e non possono essere sovrascritti nelle classi figlie:
 
 ```php
+<<<<<<< HEAD
 final public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+final public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
 {
     return $form->schema(static::getFormSchema());
 }
@@ -90,5 +94,9 @@ class NotificationResource extends XotBaseResource
 2. Implementare sempre i metodi astratti richiesti
 3. Utilizzare i file di traduzione per le label
 4. Evitare override non necessari di metodi
+<<<<<<< HEAD
 5. Seguire le convenzioni di Filament 
 =======
+=======
+5. Seguire le convenzioni di Filament 
+>>>>>>> 5a14301c (.)

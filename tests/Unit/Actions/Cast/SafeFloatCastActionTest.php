@@ -71,7 +71,11 @@ it('casts arrays', function (): void {
 });
 
 it('casts objects', function (): void {
+<<<<<<< HEAD
     $result = $this->action->execute(new stdClass);
+=======
+    $result = $this->action->execute(new stdClass());
+>>>>>>> 5a14301c (.)
     expect($result)->toBe(0.0)->toBeFloat();
 });
 

@@ -19,7 +19,12 @@ class GetModulePathAction
     /**
      * Ottiene il percorso di un modulo.
      *
+<<<<<<< HEAD
      * @param  string  $moduleName  Il nome del modulo
+=======
+     * @param string $moduleName Il nome del modulo
+     *
+>>>>>>> 5a14301c (.)
      * @return string Il percorso completo del modulo
      */
     public function execute(string $moduleName): string
@@ -28,27 +33,46 @@ class GetModulePathAction
             $module_path = Module::getModulePath($moduleName);
         } catch (Exception) {
             $modulesPath = base_path('Modules');
+<<<<<<< HEAD
             if (! File::exists($modulesPath)) {
                 return __DIR__.'/../';
+=======
+            if (!File::exists($modulesPath)) {
+                return __DIR__ . '/../';
+>>>>>>> 5a14301c (.)
             }
 
             $files = scandir($modulesPath);
             $moduleNameLower = Str::lower($moduleName);
 
             $foundModule = collect($files)->filter(static function ($item) use ($moduleNameLower): bool {
+<<<<<<< HEAD
                 if (! is_string($item)) {
                     return false;
                 }
 
+=======
+                if (!is_string($item)) {
+                    return false;
+                }
+>>>>>>> 5a14301c (.)
                 return Str::lower($item) === $moduleNameLower;
             })->first();
 
             // Se non troviamo il modulo, restituiamo un percorso di fallback
+<<<<<<< HEAD
             if ($foundModule === null || ! is_string($foundModule)) {
                 return base_path('Modules/'.$moduleName);
             }
 
             $module_path = base_path('Modules/'.$foundModule);
+=======
+            if ($foundModule === null || !is_string($foundModule)) {
+                return base_path('Modules/' . $moduleName);
+            }
+
+            $module_path = base_path('Modules/' . $foundModule);
+>>>>>>> 5a14301c (.)
         }
 
         return $module_path;

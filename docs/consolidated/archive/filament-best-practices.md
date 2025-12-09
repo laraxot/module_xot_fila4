@@ -57,7 +57,11 @@ public static function getFormSchema(): array
 
 ```php
 // NON FARE MAI QUESTO
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
 {
     return $form->schema([
         // componenti...
@@ -603,12 +607,20 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 ### Esempio corretto
 ```php
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
+<<<<<<< HEAD
+=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+>>>>>>> 5a14301c (.)
 TextInput::make('location')->required()
 ```
 
 ### Esempio errato
 ```php
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
+<<<<<<< HEAD
+=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+>>>>>>> 5a14301c (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 

@@ -4,7 +4,11 @@
 Modulo base del framework Laraxot con funzionalità core e best practices.
 
 ## Quick Links
+<<<<<<< HEAD
 - [🏆 PHPStan level 10 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
+=======
+- [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
+>>>>>>> 5a14301c (.)
 - [🎨 Theme Assets Workflow](theme-assets-workflow.md) - **⚠️ CRITICO** - Workflow CSS/JS per temi
 - [PHPStan Array Types Fixes](phpstan-array-types-fixes.md) - **✅ COMPLETATO** - Correzioni complete tipi array
 - [Filament Complete Guide](consolidated/filament-complete-guide.md)
@@ -38,6 +42,13 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - **Documentation**: Documentazione essenziale
 
 ## Links
+<<<<<<< HEAD
 - [Root Documentation](../../../project_docs/)
 - [<nome progetto> Module](../<nome progetto>/project_docs/)
+=======
+- [Root Documentation](../../../docs/)
+- [Module Documentation](../<nome modulo>/docs/)
+- [Root Documentation](../../../project_docs/)
+- [SaluteOra Module](../SaluteOra/project_docs/)
+>>>>>>> 5a14301c (.)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)

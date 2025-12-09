@@ -7,6 +7,10 @@ namespace Modules\Xot\Contracts;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Query\Builder;
+>>>>>>> 5a14301c (.)
 use Modules\User\Models\Role;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\Permission\Contracts\Permission;
@@ -20,8 +24,13 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string $slug
  * @property string $user_id
  * @property Collection<int, Role> $roles
+<<<<<<< HEAD
  * @property int|null $roles_count
  * @property UserContract $user
+=======
+ * @property int|null              $roles_count
+ * @property UserContract          $user
+>>>>>>> 5a14301c (.)
  *
  * @phpstan-require-extends Model
  *
@@ -49,7 +58,11 @@ interface ProfileContract extends HasMedia
      */
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
+<<<<<<< HEAD
         ?string $guard = null,
+=======
+        null|string $guard = null,
+>>>>>>> 5a14301c (.)
     ): bool;
 
     /**
@@ -65,7 +78,20 @@ interface ProfileContract extends HasMedia
      *
      * @throws PermissionDoesNotExist
      */
+<<<<<<< HEAD
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+=======
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+
+    /**
+     * Create a new Eloquent query builder for the model.
+     *
+     * @param Builder $query
+     *
+     * @return \Illuminate\Database\Eloquent\Builder|static
+     */
+    public function newEloquentBuilder($query);
+>>>>>>> 5a14301c (.)
 
     /**
      * Undocumented function.

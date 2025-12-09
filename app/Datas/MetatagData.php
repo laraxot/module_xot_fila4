@@ -4,10 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Datas;
 
+<<<<<<< HEAD
 use Filament\Support\Colors\Color;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Log;
+=======
+use Throwable;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Log;
+use Filament\Support\Colors\Color;
+use Illuminate\Support\Arr;
+>>>>>>> 5a14301c (.)
 use Livewire\Wireable;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Actions\File\AssetAction;
@@ -16,7 +24,11 @@ use Modules\Xot\Datas\Transformers\AssetTransformer;
 use Spatie\LaravelData\Attributes\WithTransformer;
 use Spatie\LaravelData\Concerns\WireableData;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 use Throwable;
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
 
 use function Safe\file_get_contents;
 
@@ -61,6 +73,7 @@ class MetatagData extends Data implements Wireable
 {
     use WireableData;
 
+<<<<<<< HEAD
     public string $title = '';
 
     public string $sitename = '';
@@ -120,6 +133,97 @@ class MetatagData extends Data implements Wireable
 
     public string $color_banner = '';
 
+=======
+    /** @var string */
+    public string $title = '';
+
+    /** @var string */
+    public string $sitename = '';
+
+    /** @var string */
+    public string $subtitle = '';
+
+    /** @var string|null */
+    public null|string $generator = 'xot';
+
+    /** @var string */
+    public string $charset = 'UTF-8';
+
+    /** @var string|null */
+    public null|string $author = 'xot';
+
+    /** @var string|null */
+    public null|string $description = null;
+
+    /** @var string|null */
+    public null|string $keywords = null;
+
+    /** @var string */
+    public string $nome_regione = '';
+
+    /** @var string */
+    public string $nome_comune = '';
+
+    /** @var string */
+    public string $site_title = '';
+
+    /** @var string */
+    public string $logo = '';
+
+    /** @var string */
+    public string $logo_square = '';
+
+    /** @var string */
+    #[WithTransformer(AssetTransformer::class)]
+    public string $logo_header = '';
+
+    /** @var string */
+    public string $logo_header_dark = '';
+
+    /** @var string */
+    public string $logo_height = '2em';
+
+    /** @var string */
+    public string $logo_footer = '';
+
+    /** @var string */
+    public string $logo_alt = '';
+
+    /** @var string */
+    public string $hide_megamenu = '';
+
+    /** @var string */
+    public string $hero_type = '';
+
+    /** @var string */
+    public string $facebook_href = '';
+
+    /** @var string */
+    public string $twitter_href = '';
+
+    /** @var string */
+    public string $youtube_href = '';
+
+    /** @var string */
+    public string $fastlink = '';
+
+    /** @var string */
+    public string $color_primary = '';
+
+    /** @var string */
+    public string $color_title = '';
+
+    /** @var string */
+    public string $color_megamenu = '';
+
+    /** @var string */
+    public string $color_hamburger = '';
+
+    /** @var string */
+    public string $color_banner = '';
+
+    /** @var string */
+>>>>>>> 5a14301c (.)
     public string $favicon = '/favicon.ico';
 
     /**
@@ -130,6 +234,7 @@ class MetatagData extends Data implements Wireable
     /**
      * Singleton instance.
      */
+<<<<<<< HEAD
     private static ?self $instance = null;
 
     /**
@@ -138,6 +243,18 @@ class MetatagData extends Data implements Wireable
     public static function make(): self
     {
         if (! self::$instance) {
+=======
+    private static null|self $instance = null;
+
+    /**
+     * Creates or returns the singleton instance.
+     *
+     * @return self
+     */
+    public static function make(): self
+    {
+        if (!self::$instance) {
+>>>>>>> 5a14301c (.)
             /** @var array<string, mixed> $data */
             $data = TenantService::getConfig('metatag');
             $data['description'] = TenantService::trans('metatag.description');
@@ -151,6 +268,11 @@ class MetatagData extends Data implements Wireable
      * Get the brand name.
      * This method reflects the semantic purpose of getting the brand name,
      * which is the title of the page.
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
      */
     public function getBrandName(): string
     {
@@ -161,13 +283,21 @@ class MetatagData extends Data implements Wireable
      * Get the brand logo.
      * This method reflects the semantic purpose of getting the brand logo,
      * rather than exposing implementation details about where the logo is used.
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
      */
     public function getBrandLogo(): string
     {
         try {
             /** @var string $path */
             $path = app(AssetAction::class)->execute($this->logo_header);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
             return asset($path);
         } catch (Throwable $e) {
             return asset($this->logo_header);
@@ -182,13 +312,21 @@ class MetatagData extends Data implements Wireable
     /**
      * Get the dark mode brand logo.
      * This method reflects the semantic purpose of getting the dark mode brand logo.
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
      */
     public function getDarkModeBrandLogo(): string
     {
         try {
             /** @var string $path */
             $path = app(AssetAction::class)->execute($this->logo_header_dark);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
             return asset($path);
         } catch (Throwable $e) {
             return asset($this->logo_header_dark);
@@ -198,6 +336,11 @@ class MetatagData extends Data implements Wireable
     /**
      * Get the brand logo height.
      * This method reflects the semantic purpose of getting the brand logo height.
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
      */
     public function getBrandLogoHeight(): string
     {
@@ -222,7 +365,11 @@ class MetatagData extends Data implements Wireable
             $physicalPath = public_path($assetPath);
 
             // Check if file exists
+<<<<<<< HEAD
             if (! File::exists($physicalPath)) {
+=======
+            if (!File::exists($physicalPath)) {
+>>>>>>> 5a14301c (.)
                 return '';
             }
 
@@ -245,7 +392,10 @@ class MetatagData extends Data implements Wireable
                     $fileContent = File::get($fallbackPath);
                     $mimeType = $this->getMimeTypeFromPath($fallbackPath);
                     $base64Content = base64_encode($fileContent);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
                     return "data:{$mimeType};base64,{$base64Content}";
                 }
             } catch (Throwable $fallbackException) {
@@ -262,6 +412,32 @@ class MetatagData extends Data implements Wireable
     }
 
     /**
+<<<<<<< HEAD
+=======
+     * Get MIME type from file path extension.
+     * Helper method for getBrandLogoBase64().
+     *
+     * @param string $filePath
+     * @return string
+     */
+    private function getMimeTypeFromPath(string $filePath): string
+    {
+        $extension = \strtolower(\pathinfo($filePath, PATHINFO_EXTENSION));
+
+        return match ($extension) {
+            'png' => 'image/png',
+            'jpg', 'jpeg' => 'image/jpeg',
+            'gif' => 'image/gif',
+            'svg' => 'image/svg+xml',
+            'webp' => 'image/webp',
+            'bmp' => 'image/bmp',
+            'ico' => 'image/x-icon',
+            default => 'image/png', // Fallback default
+        };
+    }
+
+    /**
+>>>>>>> 5a14301c (.)
      * Get the theme colors.
      * This method reflects the semantic purpose of getting theme colors,
      * rather than exposing the raw color data structure.
@@ -275,7 +451,11 @@ class MetatagData extends Data implements Wireable
 
         // Convert Filament color arrays to simple string format
         foreach ($filamentColors as $key => $colorArray) {
+<<<<<<< HEAD
             if (is_array($colorArray) && ! empty($colorArray)) {
+=======
+            if (is_array($colorArray) && !empty($colorArray)) {
+>>>>>>> 5a14301c (.)
                 // Use the first color in the array as the default
                 $defaults[$key] = (string) $colorArray[0];
             }
@@ -311,8 +491,15 @@ class MetatagData extends Data implements Wireable
     /**
      * Get the brand description.
      * This method reflects the semantic purpose of getting the brand description.
+<<<<<<< HEAD
      */
     public function getBrandDescription(): ?string
+=======
+     *
+     * @return string|null
+     */
+    public function getBrandDescription(): null|string
+>>>>>>> 5a14301c (.)
     {
         return $this->description;
     }
@@ -362,11 +549,22 @@ class MetatagData extends Data implements Wireable
 
     /**
      * Get the favicon URL.
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
      */
     public function getFavicon(): string
     {
         try {
+<<<<<<< HEAD
             return app(AssetAction::class)->execute($this->favicon);
+=======
+            /** @var string $path */
+            $path = app(AssetAction::class)->execute($this->favicon);
+            return $path;
+>>>>>>> 5a14301c (.)
         } catch (Throwable $e) {
             return asset($this->favicon);
         }
@@ -375,10 +573,18 @@ class MetatagData extends Data implements Wireable
     public function getFaviconBySize(string $size, string $format): string
     {
         $xot = XotData::make();
+<<<<<<< HEAD
         // return app(AssetAction::class)->execute($this->favicon, $size, $format);
         $file = 'favicon-'.$size.'.'.$format;
 
         return $xot->getPubThemePublicAsset($file);
+=======
+        //return app(AssetAction::class)->execute($this->favicon, $size, $format);
+        $file = 'favicon-' . $size . '.' . $format;
+
+        $res = $xot->getPubThemePublicAsset($file);
+        return $res;
+>>>>>>> 5a14301c (.)
     }
 
     /**
@@ -388,7 +594,11 @@ class MetatagData extends Data implements Wireable
     {
         return $this->colors;
 
+<<<<<<< HEAD
         // return $this->getThemeColors();
+=======
+        //return $this->getThemeColors();
+>>>>>>> 5a14301c (.)
     }
 
     /**
@@ -539,10 +749,18 @@ class MetatagData extends Data implements Wireable
      */
     public function getTitle(): string
     {
+<<<<<<< HEAD
         // return $this->getBrandName();
         return $this->title;
     }
 
+=======
+        //return $this->getBrandName();
+        return $this->title;
+    }
+
+
+>>>>>>> 5a14301c (.)
     /**
      * @deprecated Use getBrandLogo() instead as it better reflects the semantic purpose
      */
@@ -570,8 +788,12 @@ class MetatagData extends Data implements Wireable
     public function getBrandLogoSvg(): string
     {
         $xot = XotData::make();
+<<<<<<< HEAD
         $path = base_path('Modules/'.$xot->main_module.'/resources/svg/logo.svg');
 
+=======
+        $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
+>>>>>>> 5a14301c (.)
         return file_get_contents($path);
     }
 
@@ -580,6 +802,10 @@ class MetatagData extends Data implements Wireable
         return $this->description ?? '';
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a14301c (.)
     public function getKeywords(): string
     {
         return TenantService::trans('metatag.keywords');
@@ -631,20 +857,33 @@ class MetatagData extends Data implements Wireable
 
         $file = 'site.webmanifest';
 
+<<<<<<< HEAD
         return $xot->getPubThemePublicAsset($file);
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+        return $res;
+>>>>>>> 5a14301c (.)
     }
 
     public function getPubThemeAsset(string $file): string
     {
         $xot = XotData::make();
+<<<<<<< HEAD
 
         return $xot->getPubThemePublicAsset($file);
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+        return $res;
+>>>>>>> 5a14301c (.)
     }
 
     public function getPubTheme(): string
     {
         $xot = XotData::make();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
         return $xot->pub_theme;
     }
 
@@ -652,9 +891,16 @@ class MetatagData extends Data implements Wireable
      * Concatenate a title to the existing title.
      * This method allows adding page-specific titles to the base site title.
      *
+<<<<<<< HEAD
      * @param  string|null  $title  The title to concatenate
      */
     public function concatTitle(?string $title): self
+=======
+     * @param string|null $title The title to concatenate
+     * @return self
+     */
+    public function concatTitle(null|string $title): self
+>>>>>>> 5a14301c (.)
     {
         // Skip concatenation if title is null or empty
         if (empty($title)) {
@@ -664,7 +910,11 @@ class MetatagData extends Data implements Wireable
         if (empty($this->title)) {
             $this->title = $title;
         } else {
+<<<<<<< HEAD
             $this->title = $title.' - '.$this->title;
+=======
+            $this->title = $title . ' - ' . $this->title;
+>>>>>>> 5a14301c (.)
         }
 
         return $this;
@@ -674,9 +924,16 @@ class MetatagData extends Data implements Wireable
      * Concatenate a description to the existing description.
      * This method allows adding page-specific descriptions to the base site description.
      *
+<<<<<<< HEAD
      * @param  string|null  $description  The description to concatenate
      */
     public function concatDescription(?string $description): self
+=======
+     * @param string|null $description The description to concatenate
+     * @return self
+     */
+    public function concatDescription(null|string $description): self
+>>>>>>> 5a14301c (.)
     {
         // Skip concatenation if description is null or empty
         if (empty($description)) {
@@ -686,11 +943,16 @@ class MetatagData extends Data implements Wireable
         if (empty($this->description)) {
             $this->description = $description;
         } else {
+<<<<<<< HEAD
             $this->description = $description.' '.$this->description;
+=======
+            $this->description = $description . ' ' . $this->description;
+>>>>>>> 5a14301c (.)
         }
 
         return $this;
     }
+<<<<<<< HEAD
 
     /**
      * Get MIME type from file path extension.
@@ -711,4 +973,6 @@ class MetatagData extends Data implements Wireable
             default => 'image/png', // Fallback default
         };
     }
+=======
+>>>>>>> 5a14301c (.)
 }

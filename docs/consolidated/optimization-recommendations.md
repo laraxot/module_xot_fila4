@@ -12,7 +12,14 @@
 ```php
 // ❌ PROBLEMA ATTUALE
 public static string $projectBasePath = '/var/www/html/<nome progetto>';
+<<<<<<< HEAD
 public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
+=======
+public static string $laravelBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel';
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+public static string $laravelBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel';
+>>>>>>> 5a14301c (.)
 ```
 
 #### 2. XotData Incompleto
@@ -31,7 +38,11 @@ public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
 - **XotBase classes**: Eccellente pattern di estensione
 - **Service Provider**: Centralizzazione corretta
 - **Migration Base**: XotBaseMigration ben progettata
+<<<<<<< HEAD
 - **Type Safety**: PHPStan level 10 compliance
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 5a14301c (.)
 
 ### Consolidamento Documentazione
 - **Approccio DRY+KISS**: Eliminazione duplicazioni
@@ -238,7 +249,11 @@ abstract class XotBaseModel extends Model
 ### XotData
 - [ ] **Metodi completi** per tutte le classi comuni
 - [ ] **Documentazione** completa con esempi
+<<<<<<< HEAD
 - [ ] **Type safety** con PHPStan level 10
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 5a14301c (.)
 - [ ] **Performance** < 1ms per risoluzione classe
 
 ### Documentazione
@@ -270,6 +285,10 @@ abstract class XotBaseModel extends Model
 ```bash
 # Verifica path hardcoded
 grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+<<<<<<< HEAD
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 5a14301c (.)
 
 # Verifica XotData usage
 grep -r "XotData::make()" Modules/Xot/ --include="*.php"

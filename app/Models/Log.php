@@ -4,17 +4,27 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
 use Modules\Xot\Database\Factories\LogFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\File;
 use Override;
 use Sushi\Sushi;
+=======
+use Sushi\Sushi;
+use Override;
+use Modules\Xot\Database\Factories\FeedFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Illuminate\Support\Facades\File;
+>>>>>>> 5a14301c (.)
 
 // --- services
 // --- TRAITS ---
 /**
  * Modules\Xot\Models\Feed.
  *
+<<<<<<< HEAD
  * @property string|null $id
  * @property string|null $name
  * @property int|null $size
@@ -27,6 +37,25 @@ use Sushi\Sushi;
  * @method static Builder<static>|Log whereName($value)
  * @method static Builder<static>|Log whereSize($value)
  *
+=======
+ * @method static FeedFactory factory($count = null, $state = [])
+ * @method static Builder|Feed newModelQuery()
+ * @method static Builder|Feed newQuery()
+ * @method static Builder|Feed query()
+ * @method static Builder|Feed newModelQuery()
+ * @method static Builder|Feed newQuery()
+ * @method static Builder|Feed query()
+ * @property string|null $id
+ * @property string|null $name
+ * @property int|null    $size
+ * @property string|null $file_content
+ * @method static Builder|Log whereId($value)
+ * @method static Builder|Log whereName($value)
+ * @method static Builder|Log whereSize($value)
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ * @mixin IdeHelperLog
+>>>>>>> 5a14301c (.)
  * @mixin \Eloquent
  */
 class Log extends BaseModel
@@ -44,7 +73,11 @@ class Log extends BaseModel
         $files = File::files(storage_path('logs'));
 
         foreach ($files as $file) {
+<<<<<<< HEAD
             if ($file->getExtension() === 'log') {
+=======
+            if ('log' === $file->getExtension()) {
+>>>>>>> 5a14301c (.)
                 $rows[] = [
                     'id' => $file->getFilenameWithoutExtension(),
                     'name' => $file->getFilenameWithoutExtension(),
@@ -56,9 +89,15 @@ class Log extends BaseModel
         return $rows;
     }
 
+<<<<<<< HEAD
     public function getFileContentAttribute(?string $value): ?string
     {
         return File::get(storage_path('logs/'.$this->id.'.log'));
+=======
+    public function getFileContentAttribute(null|string $value): null|string
+    {
+        return File::get(storage_path('logs/' . $this->id . '.log'));
+>>>>>>> 5a14301c (.)
     }
 
     /** @return array<string, string> */

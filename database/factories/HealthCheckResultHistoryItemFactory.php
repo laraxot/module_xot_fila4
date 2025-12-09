@@ -40,7 +40,11 @@ class HealthCheckResultHistoryItemFactory extends Factory
 
     public function ok(): static
     {
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 5a14301c (.)
             'status' => 'ok',
             'notification_message' => null,
         ]);
@@ -48,7 +52,11 @@ class HealthCheckResultHistoryItemFactory extends Factory
 
     public function failed(): static
     {
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 5a14301c (.)
             'status' => 'failed',
             'notification_message' => $this->faker->sentence(),
         ]);

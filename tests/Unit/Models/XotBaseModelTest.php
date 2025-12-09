@@ -2,10 +2,17 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Traits\Updater;
 use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Models\XotBaseModel;
+use Modules\Xot\Traits\Updater;
+>>>>>>> 5a14301c (.)
 
 uses(TestCase::class);
 

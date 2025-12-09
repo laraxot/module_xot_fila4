@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use InvalidArgumentException;
+=======
+use InvalidArgumentException;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Actions\Model\UpdateAction;
 use Modules\Xot\Datas\HasManyUpdateData;
 use Modules\Xot\Datas\RelationData;
@@ -41,7 +48,11 @@ class HasManyAction
     /**
      * Determine if the update is a direct update.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+>>>>>>> 5a14301c (.)
      */
     private function isDirectUpdate(array $data): bool
     {
@@ -70,7 +81,11 @@ class HasManyAction
 
         foreach ($relationDTO->data as $item) {
             Assert::isArray($item);
+<<<<<<< HEAD
             if (! isset($item[$keyName])) {
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 5a14301c (.)
                 continue;
             }
 
@@ -95,7 +110,11 @@ class HasManyAction
     /**
      * Clean up orphaned records after batch update.
      *
+<<<<<<< HEAD
      * @param  array<int|string>  $updatedIds
+=======
+     * @param array<int|string> $updatedIds
+>>>>>>> 5a14301c (.)
      */
     private function cleanupOrphanedRecords(
         RelationData $relationDTO,

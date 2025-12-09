@@ -5,6 +5,10 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Arr;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
@@ -13,6 +17,7 @@ use Sushi\Sushi;
 use function Safe\json_encode;
 
 /**
+<<<<<<< HEAD
  * @property int $id
  * @property string|null $name
  * @property string|null $description
@@ -37,6 +42,31 @@ use function Safe\json_encode;
  * @mixin \Eloquent
  */
 final class Module extends BaseModel
+=======
+ * @property int         $id
+ * @property string|null $name
+ * @property string|null $description
+ * @property bool|null   $status
+ * @property int|null    $priority
+ * @property string|null $path
+ * @method static Builder|Module newModelQuery()
+ * @method static Builder|Module newQuery()
+ * @method static Builder|Module query()
+ * @method static Builder|Module whereDescription($value)
+ * @method static Builder|Module whereId($value)
+ * @method static Builder|Module whereName($value)
+ * @method static Builder|Module wherePath($value)
+ * @method static Builder|Module wherePriority($value)
+ * @method static Builder|Module whereStatus($value)
+ * @property string|null $icon
+ * @property array<string, string>|null $colors
+ * @method static Builder|Module whereColors($value)
+ * @method static Builder|Module whereIcon($value)
+ * @mixin IdeHelperModule
+ * @mixin \Eloquent
+ */
+class Module extends Model
+>>>>>>> 5a14301c (.)
 {
     use Sushi;
 
@@ -59,7 +89,11 @@ final class Module extends BaseModel
         $modules = ModuleFacade::all();
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
+<<<<<<< HEAD
             if (! is_array($config)) {
+=======
+            if (!is_array($config)) {
+>>>>>>> 5a14301c (.)
                 $config = [];
             }
             $colors = Arr::get($config, 'colors', []);

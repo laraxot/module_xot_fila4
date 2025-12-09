@@ -113,7 +113,11 @@ Modules/{ModuleName}/
 - ✅ **Namespace Conventions**: Rispettate le regole moduli
 
 ### PHPStan Compliance
+<<<<<<< HEAD
 - ✅ **level 10/10**: Target raggiunto
+=======
+- ✅ **Level 9/10**: Target raggiunto
+>>>>>>> 5a14301c (.)
 - ✅ **Strict Types**: `declare(strict_types=1);` presente
 - ✅ **Type Hints**: Rigorous typing mantenuto
 - ✅ **No Mixed Types**: Evitati dove possibile

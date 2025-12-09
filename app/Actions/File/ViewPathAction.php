@@ -19,9 +19,15 @@ class ViewPathAction
         $ns_dir = app(GetViewNameSpacePathAction::class)->execute($ns_name);
         Assert::string(
             $group_dir = Str::replace('.', '/', $stringable),
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename(static::class).']',
         );
         $res = $ns_dir.'/'.$group_dir.'.blade.php';
+=======
+            '[' . __LINE__ . '][' . class_basename(static::class) . ']',
+        );
+        $res = $ns_dir . '/' . $group_dir . '.blade.php';
+>>>>>>> 5a14301c (.)
 
         return app(FixPathAction::class)->execute($res);
     }

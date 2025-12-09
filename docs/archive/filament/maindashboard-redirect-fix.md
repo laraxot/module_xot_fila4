@@ -159,7 +159,10 @@ performance::admin
 - [User Role Management](../../User/docs/console_commands/README.md)
 - [Filament Best Practices](../../../docs/FILAMENT-BEST-PRACTICES.md)
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 ## Aggiornamenti
 
 ### 2025-01-27 - Fix Implementato
@@ -174,5 +177,8 @@ performance::admin
 - ✅ **Multi-Ruolo**: Supporto mantenuto
 - ✅ **Performance**: Nessun impatto negativo
 
+<<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 5a14301c (.)

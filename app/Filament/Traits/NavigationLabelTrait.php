@@ -4,8 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Traits;
 
+<<<<<<< HEAD
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
+=======
+use Illuminate\Support\Str;
+use Modules\Lang\Actions\SaveTransAction;
+use Modules\Xot\Actions\File\SvgExistsAction;
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
 
 trait NavigationLabelTrait
 {
@@ -49,13 +56,21 @@ trait NavigationLabelTrait
         return static::transFunc(__FUNCTION__);
     }
 
+<<<<<<< HEAD
     public static function getNavigationSort(): ?int
+=======
+    public static function getNavigationSort(): null|int
+>>>>>>> 5a14301c (.)
     {
         $res = static::transFunc(__FUNCTION__);
 
         $value = intval($res);
 
+<<<<<<< HEAD
         if ($value === 0) {
+=======
+        if (0 === $value) {
+>>>>>>> 5a14301c (.)
             $key = static::getKeyTransFunc(__FUNCTION__);
             $value = rand(1, 100);
             app(SaveTransAction::class)->execute($key, $value);

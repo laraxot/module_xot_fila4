@@ -15,6 +15,7 @@ use Spatie\LaravelData\DataCollection;
 class ComponentFileData extends Data
 {
     public string $name;
+<<<<<<< HEAD
 
     public string $class;
 
@@ -23,6 +24,12 @@ class ComponentFileData extends Data
     public ?string $path = null;
 
     public ?string $ns = null;
+=======
+    public string $class;
+    public null|string $module = null;
+    public null|string $path = null;
+    public null|string $ns = null;
+>>>>>>> 5a14301c (.)
 
     public static function collection(EloquentCollection|Collection|array $data): DataCollection
     {

@@ -21,15 +21,24 @@ class GenerateFilamentResources extends Command
         $moduleName = $this->argument('module');
 
         // Assicuriamoci che $moduleName sia una stringa
+<<<<<<< HEAD
         if (! is_string($moduleName)) {
             $this->error('Il nome del modulo deve essere una stringa.');
 
+=======
+        if (!is_string($moduleName)) {
+            $this->error('Il nome del modulo deve essere una stringa.');
+>>>>>>> 5a14301c (.)
             return Command::FAILURE;
         }
 
         $module = Module::find($moduleName);
 
+<<<<<<< HEAD
         if (! $module) {
+=======
+        if (!$module) {
+>>>>>>> 5a14301c (.)
             $this->error("Il modulo '{$moduleName}' non esiste.");
 
             return Command::FAILURE;
@@ -37,8 +46,13 @@ class GenerateFilamentResources extends Command
 
         $this->info("Generazione delle Filament Resources per il modulo: {$moduleName}");
 
+<<<<<<< HEAD
         $modelsPath = $module->getPath().'/app/Models';
         if (! File::isDirectory($modelsPath)) {
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 5a14301c (.)
             $this->error("Nessuna cartella 'Models' trovata nel modulo {$moduleName}.");
 
             return Command::FAILURE;
@@ -50,9 +64,15 @@ class GenerateFilamentResources extends Command
 
             // Assicuriamoci che $moduleName sia una stringa per strtolower
             $panelName = strtolower($moduleName);
+<<<<<<< HEAD
             $panel = $panelName.'::admin';
             $params = [
                 $modelName, // Resource name as positional argument
+=======
+            $panel = $panelName . '::admin';
+            $params = [
+                'name' => $modelName,
+>>>>>>> 5a14301c (.)
                 '--panel' => $panel,
                 '--model-namespace' => "Modules\\{$moduleName}\\Models",
                 '--generate' => true,

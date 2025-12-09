@@ -20,15 +20,7 @@ abstract class ApplicationException extends Exception
 
     abstract public function error(): string;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function render(Request $_request): Response
-=======
-    public function render(Request $request): Response
->>>>>>> f1d4085 (.)
-=======
-    public function render(Request $_request): Response
->>>>>>> 73eab74 (.)
     {
         $applicationError = new ApplicationError($this->help(), $this->error());
 

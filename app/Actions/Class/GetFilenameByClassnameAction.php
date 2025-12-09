@@ -142,6 +142,7 @@ class GetFilenameByClassnameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $filename = base_path($filename).'.php';
 =======
             $filename = base_path($filename) . '.php';
@@ -301,11 +302,15 @@ class GetFilenameByClassnameAction
             $filename = base_path($filename) . '.php';
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+            $filename = base_path($filename) . '.php';
+>>>>>>> 3310e9c6 (.)
         }
 
         if (is_string($filename)) {
             return $filename;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -490,5 +495,8 @@ class GetFilenameByClassnameAction
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+>>>>>>> 3310e9c6 (.)
     }
 }

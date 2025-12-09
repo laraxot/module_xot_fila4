@@ -51,6 +51,7 @@ class GetFakerAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $name, ?string $type = null, ?string $_table = null): string
     {
         if ($type !== null && Str::startsWith($type, 'factory(')) {
@@ -105,13 +106,9 @@ class GetFakerAction
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
-    public function execute(string $name, null|string $type = null, null|string $_table = null): string
 =======
-    public function execute(string $name, ?string $type = null, ?string $table = null): string
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 3310e9c6 (.)
     public function execute(string $name, null|string $type = null, null|string $_table = null): string
->>>>>>> 73eab74 (.)
     {
         if (null !== $type && Str::startsWith($type, 'factory(')) {
 >>>>>>> 5a14301c (.)

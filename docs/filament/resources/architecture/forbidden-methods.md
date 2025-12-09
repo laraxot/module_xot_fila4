@@ -93,6 +93,7 @@ Prima di ogni commit, verificare che le risorse Filament non contengano metodi p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -153,11 +154,14 @@ Prima di ogni commit, verificare che le risorse Filament non contengano metodi p
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
 grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getTableBulkActions" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getNavigationGroup" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -304,6 +308,8 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
 grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/

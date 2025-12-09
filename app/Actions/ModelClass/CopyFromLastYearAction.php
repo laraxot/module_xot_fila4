@@ -41,6 +41,7 @@ class CopyFromLastYearAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $modelClass, string $fieldName, ?string $year): void
     {
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
@@ -298,6 +299,11 @@ class CopyFromLastYearAction
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+    public function execute(string $modelClass, string $fieldName, null|string $year): void
+    {
+        if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
+>>>>>>> 3310e9c6 (.)
             return;
         }
 

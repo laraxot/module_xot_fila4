@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architettura Filament-Xot
 
 ## Panoramica
@@ -208,3 +209,5 @@ class MyPage extends XotBasePage
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

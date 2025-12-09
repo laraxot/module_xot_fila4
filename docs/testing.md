@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Testing Guidelines - Modulo Xot
 
 ## Framework di Testing: Pest
@@ -845,3 +846,5 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni per la documentazione in Laraxot PTVX
 
 ## Convenzioni di naming
@@ -462,3 +463,5 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 =======
 *Ultimo aggiornamento: Giugno 2025*
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

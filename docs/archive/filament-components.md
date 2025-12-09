@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Componenti Filament - Guida di Riferimento
 
 ## FileUpload Component
@@ -267,3 +268,5 @@ DatePicker::make('field_name')
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

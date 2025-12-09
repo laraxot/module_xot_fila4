@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione dei Loghi
 
 Questo documento descrive il meccanismo di risoluzione dei loghi in un'applicazione Laravel 12.x modulare (PHP 8.2+).
@@ -296,3 +297,5 @@ Questo documento è parte della documentazione generale del modulo Xot e descriv
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

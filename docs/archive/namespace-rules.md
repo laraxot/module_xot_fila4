@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -139,3 +140,5 @@ Se incontri errori come `name is empty on [Modules\NomeModulo\Providers\RouteSer
 =======
 3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

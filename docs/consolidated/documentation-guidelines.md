@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Linee Guida per la Documentazione in Laraxot
 
@@ -317,3 +318,5 @@ Per implementare queste linee guida:
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

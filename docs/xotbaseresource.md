@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotBaseResource
 
 ## Panoramica
@@ -172,3 +173,5 @@ class NotificationResource extends XotBaseResource
 =======
 5. Seguire le convenzioni di Filament 
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

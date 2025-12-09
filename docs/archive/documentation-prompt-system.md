@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema di Prompt per la Documentazione
 
 ## Panoramica
@@ -628,3 +629,5 @@ Qualsiasi aggiornamento al sistema di prompt deve essere:
 - [Percorsi Relativi nella Documentazione](../../../../bashscripts/project_docs/PERCORSI_RELATIVI_DOCUMENTAZIONE.md)
 - [Documentazione del Sistema di Prompt](../../../../bashscripts/project_docs/PROMPTS_DOCUMENTATION_SYSTEM.md)
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)

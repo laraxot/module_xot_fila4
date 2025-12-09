@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Migration Guidelines for Project Modules
 
 ## Overview
@@ -71,3 +72,5 @@ return new class extends XotBaseMigration
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

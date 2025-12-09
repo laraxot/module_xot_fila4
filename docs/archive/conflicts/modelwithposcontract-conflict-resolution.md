@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione del Conflitto in ModelWithPosContract.php
 
 ## Problema
@@ -145,3 +146,5 @@ La correzione è stata verificata assicurandosi che:
 =======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)

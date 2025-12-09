@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Installazione
 
 ## Requisiti di Sistema
@@ -167,3 +168,5 @@ php artisan serve
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

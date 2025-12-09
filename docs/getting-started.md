@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Getting Started
 description: Getting started with Jigsaw's docs starter template is as easy as 1, 2, 3.
@@ -1069,3 +1070,5 @@ npm run dev
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

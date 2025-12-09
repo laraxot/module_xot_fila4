@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotComposer - Loop Infinito Fix
 
 ## 🚨 Problema Critico Risolto
@@ -705,3 +706,5 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

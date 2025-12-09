@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole per i Percorsi Relativi nella Documentazione
 
 > **Collegamenti correlati**
@@ -1040,3 +1041,5 @@ L'uso di percorsi relativi garantisce che la documentazione funzioni correttamen
 
 - [Markdown Link Syntax](https://www.markdownguide.org/basic-syntax/#links)
 - [Relative vs Absolute URLs](https://www.w3.org/TR/WD-html40-970917/htmlweb.html#h-5.1.2)
+=======
+>>>>>>> cc7fb225 (.)

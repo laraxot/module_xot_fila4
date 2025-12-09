@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HandlerDecorator
 
 ## Descrizione
@@ -81,3 +82,5 @@ class HandlerDecorator implements ExceptionHandlerContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> c35986f4 (.)
 - [Error Formatters](./formatters/README.md) 
+=======
+>>>>>>> cc7fb225 (.)

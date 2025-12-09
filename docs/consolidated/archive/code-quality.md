@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -569,3 +570,5 @@ unset($translations['existing_key']); // MAI!
 ---
 
 *"Nel codice Laraxot, ogni riga è un verso della sinfonia dell'architettura perfetta."*
+=======
+>>>>>>> cc7fb225 (.)

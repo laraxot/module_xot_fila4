@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Best Practices per Filament Resources in Laraxot
 
 Questo documento definisce le linee guida ufficiali e le best practices per l'implementazione delle risorse Filament all'interno del framework Laraxot.
@@ -855,3 +856,5 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

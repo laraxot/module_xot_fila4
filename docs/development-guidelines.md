@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Development Guidelines - Xot Module
 
 ## Panoramica
@@ -286,3 +287,5 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

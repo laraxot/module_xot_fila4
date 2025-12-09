@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
@@ -305,3 +306,5 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 **Priorità**: Media (file già corretto linguisticamente)  
 **Responsabile**: Sistema automatico DRY/KISS  
 **Data**: 2025-08-08
+=======
+>>>>>>> cc7fb225 (.)

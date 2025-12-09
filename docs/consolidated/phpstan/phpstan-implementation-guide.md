@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida Pratica all'Implementazione delle Soluzioni PHPStan
 
 Questo documento fornisce una guida pratica su come implementare le soluzioni ai problemi più comuni rilevati da PHPStan a livello 9 nel framework Laraxot <nome progetto>.
@@ -386,3 +387,5 @@ Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i 
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)

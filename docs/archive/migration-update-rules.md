@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole generali per aggiornamento colonne e gestione errori schema
 
 ## Collegamento bidirezionale
@@ -156,3 +157,5 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

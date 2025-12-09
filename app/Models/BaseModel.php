@@ -10,6 +10,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -32,6 +33,8 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
 
 /**
  * Class BaseModel.
@@ -43,6 +46,7 @@ use Modules\Xot\Traits\Updater;
 abstract class BaseModel extends XotBaseModel
 {
     protected $connection = 'xot';
+<<<<<<< HEAD
 
 =======
 =======
@@ -122,4 +126,6 @@ abstract class BaseModel extends Model
             'deleted_by' => 'string',
         ];
     }
+=======
+>>>>>>> cc7fb225 (.)
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PSR-4 Compliance per Test - Modulo Xot
 
 ## Problema Identificato
@@ -154,3 +155,5 @@ composer dump-autoload
 *Ultimo aggiornamento: 2025-01-06*
 *Conformità: PSR-4, PHPStan livello 9+, Laraxot standards*
 
+=======
+>>>>>>> cc7fb225 (.)

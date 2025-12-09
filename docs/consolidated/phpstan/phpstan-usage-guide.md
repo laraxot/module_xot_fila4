@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida all'Utilizzo di PHPStan nel Framework Laraxot <nome progetto>
 
 ## Introduzione
@@ -331,3 +332,5 @@ cd /percorso/al/progetto/laravel
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)

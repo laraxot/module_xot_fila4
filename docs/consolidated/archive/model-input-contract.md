@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ModelInputContract
 
 ## Descrizione
@@ -92,3 +93,5 @@ interface ModelInputContract extends ModelContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> 17684f52 (.)
 - [Contracts Overview](./README.md) 
+=======
+>>>>>>> cc7fb225 (.)

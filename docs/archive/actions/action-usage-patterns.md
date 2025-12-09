@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Action Usage Patterns - Regole Fondamentali
 
 ## 🎯 **REGOLA CRITICA: Pattern di Uso delle Action**
@@ -251,3 +252,5 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

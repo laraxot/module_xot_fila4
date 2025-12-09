@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -305,3 +306,5 @@ aurmich/dev
 * [level_9.md](laravel/Modules/Patient/project_docs/phpstan/level_9.md)
 * [level_9.md](laravel/Modules/Cms/project_docs/phpstan/level_9.md)
 
+=======
+>>>>>>> cc7fb225 (.)

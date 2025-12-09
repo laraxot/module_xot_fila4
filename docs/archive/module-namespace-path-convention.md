@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # convenzioni per namespace e percorsi dei moduli
 
 ## struttura corretta del percorso
@@ -841,3 +842,5 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 - [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
 - [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)

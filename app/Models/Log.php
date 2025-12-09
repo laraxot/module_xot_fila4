@@ -222,6 +222,7 @@ use Illuminate\Support\Facades\File;
  * @method static Builder|Log whereSize($value)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
  * @mixin IdeHelperLog
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,6 +234,28 @@ use Illuminate\Support\Facades\File;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+ *
+ * @mixin \Eloquent
+ */
+/**
+ * @property string|null $id
+ * @property string|null $name
+ * @property int|null $size
+ * @property-read string|null $file_content
+ *
+ * @method static \Modules\Xot\Database\Factories\LogFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Log newModelQuery()
+ * @method static Builder<static>|Log newQuery()
+ * @method static Builder<static>|Log query()
+ * @method static Builder<static>|Log whereId($value)
+ * @method static Builder<static>|Log whereName($value)
+ * @method static Builder<static>|Log whereSize($value)
+ *
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class Log extends BaseModel

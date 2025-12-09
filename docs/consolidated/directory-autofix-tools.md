@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Strumenti di Correzione Automatica della Struttura delle Directory
 
 ## Introduzione
@@ -305,3 +306,5 @@ Lo script di correzione automatica della struttura delle directory è uno strume
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)

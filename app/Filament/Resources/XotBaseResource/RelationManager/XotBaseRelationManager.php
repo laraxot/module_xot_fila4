@@ -26,6 +26,7 @@ namespace Modules\Xot\Filament\Resources\XotBaseResource\RelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\Components\Component;
 use Exception;
 use Filament\Resources\RelationManagers\RelationManager;
@@ -137,6 +138,8 @@ use Filament\Schemas\Schema;
 use Override;
 >>>>>>> 3fbbf1f5 (.)
 use Exception;
+=======
+>>>>>>> cc7fb225 (.)
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Tables;
 use Filament\Tables\Table;

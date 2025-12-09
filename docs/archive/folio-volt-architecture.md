@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architettura Folio + Volt + Filament in il progetto
 
 ## Panoramica
@@ -869,3 +870,5 @@ new class extends Component {
 - [Dashboard](../Chart/project_docs/dashboard.md)
 - [Visualizzazione](../Chart/project_docs/visualization.md)
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)

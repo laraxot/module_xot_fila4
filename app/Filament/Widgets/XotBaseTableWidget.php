@@ -20,12 +20,12 @@ declare(strict_types=1);
 >>>>>>> 5a14301c (.)
 namespace Modules\Xot\Filament\Widgets;
 
-use Filament\Widgets\TableWidget as FilamentTableWidget;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\TableWidget as FilamentTableWidget;
 use Modules\Xot\Filament\Traits\TransTrait;
 
 abstract class XotBaseTableWidget extends FilamentTableWidget
 {
-    use TransTrait;
     use InteractsWithPageFilters;
+    use TransTrait;
 }

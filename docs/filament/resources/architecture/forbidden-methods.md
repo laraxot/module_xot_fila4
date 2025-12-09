@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Metodi da NON implementare in classi che estendono XotBaseResource
 
 ## Regola fondamentale
@@ -440,3 +441,5 @@ Se questi metodi sono trovati in una classe esistente:
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

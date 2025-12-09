@@ -107,10 +107,17 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *
  * @method static SessionFactory factory($count = null, $state = [])
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Xot\Database\Factories\SessionFactory factory($count = null, $state = [])
+>>>>>>> cc7fb225 (.)
  * @method static Builder<static>|Session newModelQuery()
  * @method static Builder<static>|Session newQuery()
  * @method static Builder<static>|Session query()
@@ -127,6 +134,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Session whereUserAgent($value)
  * @method static Builder<static>|Session whereUserId($value)
  *
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -199,6 +207,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class Session extends BaseModel

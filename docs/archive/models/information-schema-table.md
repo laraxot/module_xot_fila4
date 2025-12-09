@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # InformationSchemaTable
 
 ## Descrizione
@@ -85,3 +86,5 @@ class InformationSchemaTable extends Model
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> c35986f4 (.)
 - [Model Best Practices](../models/README.md) 
+=======
+>>>>>>> cc7fb225 (.)

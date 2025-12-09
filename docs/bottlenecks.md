@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Colli di Bottiglia e Soluzioni - Modulo Xot
 
 ## Panoramica
@@ -723,3 +724,5 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

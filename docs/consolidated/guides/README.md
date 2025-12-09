@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Xot Module - Framework Base Laraxot
 
 ## Overview
@@ -217,3 +218,5 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - [SaluteOra Module](../SaluteOra/project_docs/)
 >>>>>>> b7ea1cd1 (.)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+=======
+>>>>>>> cc7fb225 (.)

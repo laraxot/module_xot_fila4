@@ -244,7 +244,11 @@ interface ProfileContract extends HasMedia
     public function toggleSuperAdmin(): void;
 
     /**
+<<<<<<< HEAD
      * ---return BelongsTo<UserContract, self>.
+=======
+     * Get the user that owns the profile.
+>>>>>>> cc7fb225 (.)
      */
     public function user(): BelongsTo;
 

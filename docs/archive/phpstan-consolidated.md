@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PHPStan - Guida Completa Consolidata
 
 **Ultimo aggiornamento**: 2025-01-06  
@@ -379,3 +380,5 @@ $variabile = $oggetto->proprietaNonStandard;
 ---
 
 *Guida consolidata che elimina duplicazioni e semplifica la manutenzione della documentazione PHPStan.*
+=======
+>>>>>>> cc7fb225 (.)

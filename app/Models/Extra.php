@@ -137,6 +137,7 @@ final class Extra extends BaseExtra {}
  * @property int|null                                          $model_id
  * @property string|null                                       $model_type
  * @property SchemalessAttributes $extra_attributes
+ *
  * @method static Builder|BaseModel disableCache()
  * @method static ExtraFactory factory($count = null, $state = [])
  * @method static \Illuminate\Contracts\Database\Eloquent\Builder|Extra newModelQuery()
@@ -144,12 +145,18 @@ final class Extra extends BaseExtra {}
  * @method static Builder|Extra query()
  * @method static Builder|BaseModel withCacheCooldownSeconds(?int $seconds = null)
  * @method static Builder|Extra withExtraAttributes()
+ *
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
  * @property Carbon|null $deleted_at
+<<<<<<< HEAD
  * @property string|null                     $deleted_by
+=======
+ * @property string|null $deleted_by
+ *
+>>>>>>> cc7fb225 (.)
  * @method static Builder|Extra whereCreatedAt($value)
  * @method static Builder|Extra whereCreatedBy($value)
  * @method static Builder|Extra whereDeletedAt($value)
@@ -160,9 +167,14 @@ final class Extra extends BaseExtra {}
  * @method static Builder|Extra whereModelType($value)
  * @method static Builder|Extra whereUpdatedAt($value)
  * @method static Builder|Extra whereUpdatedBy($value)
+ *
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
  * @mixin IdeHelperExtra
+=======
+ *
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class Extra extends BaseExtra

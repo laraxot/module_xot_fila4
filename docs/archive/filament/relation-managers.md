@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotBaseRelationManager per Laraxot PTVX
 
 ## Panoramica
@@ -359,3 +360,5 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)

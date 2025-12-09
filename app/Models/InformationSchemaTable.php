@@ -87,6 +87,7 @@ use Webmozart\Assert\Assert;
  * @property string|null $CREATE_OPTIONS
  * @property string|null $TABLE_COMMENT
  * @property int $id
+ *
  * @method static Builder<static>|InformationSchemaTable newModelQuery()
  * @method static Builder<static>|InformationSchemaTable newQuery()
  * @method static Builder<static>|InformationSchemaTable query()
@@ -112,12 +113,14 @@ use Webmozart\Assert\Assert;
  * @method static Builder<static>|InformationSchemaTable whereTABLETYPE($value)
  * @method static Builder<static>|InformationSchemaTable whereUPDATETIME($value)
  * @method static Builder<static>|InformationSchemaTable whereVERSION($value)
+ *
  * @property string|null $table_schema
  * @property string|null $table_name
  * @property string|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_at
  * @property string|null $created_by
+ *
  * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
  * @method static Builder<static>|InformationSchemaTable whereTableName($value)
@@ -125,6 +128,14 @@ use Webmozart\Assert\Assert;
  * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
+<<<<<<< HEAD
+=======
+ *
+ * @property string|null $model_class
+ *
+ * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
+ *
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model

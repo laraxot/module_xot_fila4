@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Temi in il progetto
 
 <<<<<<< HEAD
@@ -278,3 +279,5 @@ Per personalizzare un tema:
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

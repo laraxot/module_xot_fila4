@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GenerateResourceFormSchemaCommand
 
 ## Descrizione
@@ -96,3 +97,5 @@ return [
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Real Data vs Mock Testing Strategy - Xot Module
 
 ## 🎯 Strategic Testing Approaches
@@ -799,3 +800,5 @@ test('legacy feature with mocks', function () {
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

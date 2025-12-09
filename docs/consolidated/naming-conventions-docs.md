@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni di Naming nella Documentazione
 
 ## Regola: Nome del Progetto nei Moduli
@@ -165,3 +166,5 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)

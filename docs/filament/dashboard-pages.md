@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pagine Dashboard Filament - Best Practices
 
 ## Panoramica
@@ -233,3 +234,5 @@ Il modulo Xot è il modulo core e potrebbe non necessitare di una dashboard trad
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

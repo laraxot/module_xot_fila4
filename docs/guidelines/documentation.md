@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Linee Guida per la Documentazione
 
 ## Principi Fondamentali
@@ -201,3 +202,5 @@ php artisan api:generate
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

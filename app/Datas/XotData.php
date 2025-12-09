@@ -1218,12 +1218,21 @@ class XotData extends Data implements Wireable
             throw new \Exception("Attribute 'email' not found in model ".get_class($userInstance));
 >>>>>>> origin/develop
         }
+<<<<<<< HEAD
         $user = $user_class::firstOrCreate(['email' => $email]);
         /*
         if (! $user) {
             throw new \Exception('user not found for email '.$email);
         }
             */
+=======
+        $user = $user_class::firstWhere(['email' => $email]);
+
+        if (! $user) {
+            throw new \Exception('user not found for email '.$email);
+        }
+
+>>>>>>> cc7fb225 (.)
         Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
@@ -3404,6 +3413,7 @@ class XotData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
 
         try {
@@ -3474,6 +3484,21 @@ class XotData extends Data implements Wireable
 =======
 >>>>>>> 9db27d12 (.)
         $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+=======
+        // Return empty string if pub_theme is empty to prevent invalid paths
+        if (empty($this->pub_theme)) {
+            return '';
+        }
+
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+
+        // Check if path exists and is a directory before using realpath
+        if (! is_dir($path0)) {
+            // Return empty string if directory doesn't exist to prevent Folio errors
+            return '';
+        }
+
+>>>>>>> cc7fb225 (.)
         try {
             $path = realpath($path0);
 

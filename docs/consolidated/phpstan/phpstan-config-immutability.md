@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PHPStan Config Immutability (Global Project Rule)
 
 <<<<<<< HEAD
@@ -146,3 +147,5 @@ find Modules -maxdepth 2 -type d -name app ! -path 'Modules/Activity/*' -print0 
 - `.ai/guidelines/phpstan-config-immutability.md`
 - `.cursor/rules/phpstan-config-immutability.mdc`
 - `.windsurf/rules/phpstan-config-immutability.mdc`
+=======
+>>>>>>> cc7fb225 (.)

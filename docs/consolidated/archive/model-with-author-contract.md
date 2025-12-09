@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ModelWithAuthorContract
 
 Il `ModelWithAuthorContract` è un'interfaccia che estende `ModelContract` e definisce il contratto per i modelli che necessitano di tracciare l'autore e l'editor delle modifiche.
@@ -122,3 +123,5 @@ class Article extends Model implements ModelWithAuthorContract
 - Gestire correttamente i casi di soft delete
 - Mantenere la consistenza dei dati nelle relazioni
 - Documentare eventuali personalizzazioni 
+=======
+>>>>>>> cc7fb225 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Rapporto PHPStan Livello max per il modulo Xot
 
 Data analisi: 2025-04-15 21:56:24
@@ -452,3 +453,5 @@ Trovati 4 errori al livello max.
 =======
 
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)

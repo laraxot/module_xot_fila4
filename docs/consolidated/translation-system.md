@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema di Traduzione 
 
 ## Regola Fondamentale: NO ->label()
@@ -316,3 +317,5 @@ php artisan view:clear
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)

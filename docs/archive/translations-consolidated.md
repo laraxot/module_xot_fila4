@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Translations - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTA la documentazione traduzioni del progetto
@@ -999,3 +1000,5 @@ rm Modules/Lang/docs/translation_notify_conversion.md
 **Aggiornato**: 2025-08-07  
 **Categoria**: translations  
 **Priorità**: CRITICA
+=======
+>>>>>>> cc7fb225 (.)

@@ -342,9 +342,17 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
 
+<<<<<<< HEAD
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
         $usesTimestamps = $baseModel->usesTimestamps();
+=======
+test('it supports relationship loading', function (): void {
+    $baseModel = new BaseModel;
+
+    expect(method_exists($baseModel, 'load'))->toBeTrue();
+});
+>>>>>>> cc7fb225 (.)
 
         // Assert
         // Nota: I modelli base possono avere configurazioni diverse

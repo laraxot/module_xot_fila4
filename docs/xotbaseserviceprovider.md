@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotBaseServiceProvider
 
 ## Panoramica
@@ -259,3 +260,5 @@ $this->commands([
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Model
 description: Model Queuable Actions
@@ -51,3 +52,5 @@ section: content
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

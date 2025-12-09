@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # xotbasepage: implementazione e best practices
 
 ## descrizione
@@ -646,3 +647,5 @@ class DashboardSettingsPolicy
 ## ATTENZIONE: errori critici da evitare
 - NON dichiarare mai abstract getFormSchema() in XotBasePage: la classe base Filament lo implementa già. Fornire sempre una implementazione di default (array vuoto).
 - Se serve uno schema custom, sovrascrivere il metodo nella classe figlia.
+=======
+>>>>>>> cc7fb225 (.)

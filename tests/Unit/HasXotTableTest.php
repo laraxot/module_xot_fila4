@@ -255,13 +255,13 @@ it('tests table method with all methods implemented', function (): void {
     $result = $mock->table($tableMock);
 
     // Assert the result is a Table instance
-/* @phpstan-ignore-next-line argument.templateType */
+    /* @phpstan-ignore-next-line argument.templateType */
     expect($result)->toBe($tableMock);
 });
 
 it('tests table method with no optional methods implemented', function (): void {
     // Avoid DB/Schema access inside TableExistsByModelClassActions
-/* @phpstan-ignore-next-line method.notFound */
+    /* @phpstan-ignore-next-line method.notFound */
     Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
         ->shouldReceive('execute')
         ->andReturn(true);

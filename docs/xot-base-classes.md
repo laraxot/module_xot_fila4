@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Xot Base Classes in Laravel Modules
 
 ## Overview
@@ -196,3 +197,5 @@ The Xot base classes provide a centralized way to customize and extend functiona
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

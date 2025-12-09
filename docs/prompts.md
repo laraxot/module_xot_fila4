@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Struttura dei Prompt
 
 I prompt sono file di testo che contengono istruzioni per l'AI. Devono seguire queste regole:
@@ -473,3 +474,5 @@ Il prompt `docs.txt` serve come:
 =======
    ```
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

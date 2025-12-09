@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Event Sourcing
 description: Event Sourcing
@@ -75,3 +76,5 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

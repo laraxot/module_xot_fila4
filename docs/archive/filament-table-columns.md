@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regola Generale: Metodo getTableColumns per Filament Table (Xot)
 
 ## Regola
@@ -229,3 +230,5 @@ public function getTableColumns(): array
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

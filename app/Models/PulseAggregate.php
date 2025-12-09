@@ -121,7 +121,36 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
  * @property int|null $count
  *
+<<<<<<< HEAD
  * @method static PulseAggregateFactory factory($count = null, $state = [])
+=======
+ * @method static Builder|PulseAggregate whereAggregate($value)
+ * @method static Builder|PulseAggregate whereBucket($value)
+ * @method static Builder|PulseAggregate whereCount($value)
+ * @method static Builder|PulseAggregate whereId($value)
+ * @method static Builder|PulseAggregate whereKey($value)
+ * @method static Builder|PulseAggregate whereKeyHash($value)
+ * @method static Builder|PulseAggregate wherePeriod($value)
+ * @method static Builder|PulseAggregate whereType($value)
+ * @method static Builder|PulseAggregate whereValue($value)
+ *
+ * @mixin \Eloquent
+ */
+/**
+ * @property string $id
+ * @property int $bucket
+ * @property int $period
+ * @property string $type
+ * @property string $key
+ * @property string $key_hash
+ * @property string $aggregate
+ * @property string $value
+ * @property int|null $count
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Xot\Database\Factories\PulseAggregateFactory factory($count = null, $state = [])
+>>>>>>> cc7fb225 (.)
  * @method static Builder<static>|PulseAggregate newModelQuery()
  * @method static Builder<static>|PulseAggregate newQuery()
  * @method static Builder<static>|PulseAggregate query()
@@ -135,6 +164,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseAggregate whereType($value)
  * @method static Builder<static>|PulseAggregate whereValue($value)
  *
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -163,6 +193,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class PulseAggregate extends BaseModel

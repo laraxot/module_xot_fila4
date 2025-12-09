@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Best Practices nei Service Provider
 
 ## Decisione Architetturale (2025-05-13)
@@ -312,3 +313,5 @@ Si raccomanda di seguire questo pattern in tutti i service provider personalizza
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

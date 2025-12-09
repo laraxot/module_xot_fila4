@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PHPStan Best Practices per Factory Laravel - Laraxot Framework
 
 ## 🎯 Overview
@@ -631,3 +632,5 @@ Vedere: `Modules/<nome progetto>/project_docs/factories/phpstan-factory-complian
 =======
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

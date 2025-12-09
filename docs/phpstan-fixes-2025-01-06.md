@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 4. <main module>/app/States/Appointment/ReportPending.php
 =======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
@@ -47,6 +48,9 @@
 =======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
 >>>>>>> 71f31700 (.)
+=======
+### 4. <main module>/app/States/Appointment/ReportPending.php
+>>>>>>> cc7fb225 (.)
 
 **Problema**: Linea 27 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, Component>` ma restituiva `array<int|string, Component>`

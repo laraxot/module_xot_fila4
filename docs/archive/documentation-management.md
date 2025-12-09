@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestione della Documentazione e delle Regole
 
 ## Struttura della Documentazione
@@ -565,3 +566,5 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

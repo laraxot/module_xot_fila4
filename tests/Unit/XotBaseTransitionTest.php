@@ -7,7 +7,15 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\States\Transitions\XotBaseTransition;
 
+<<<<<<< HEAD
 uses(RefreshDatabase::class);
+=======
+describe('XotBaseTransition', function (): void {
+    beforeEach(function (): void {
+        // Create a test record using concrete class
+        /* @phpstan-ignore-next-line property.notFound, new.internalClass */
+        $this->record = new TestModelForTransition;
+>>>>>>> cc7fb225 (.)
 
 describe('XotBaseTransition', function () {
     beforeEach(function () {
@@ -986,6 +994,7 @@ describe('XotBaseTransition', function () {
 >>>>>>> 9db27d12 (.)
     });
 
+<<<<<<< HEAD
     it('can send notification to null recipient', function () {
         // This should not throw an exception
 <<<<<<< HEAD
@@ -1203,6 +1212,12 @@ describe('XotBaseTransition', function () {
         expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
 >>>>>>> 9db27d12 (.)
     });
+=======
+    it('processes recipients correctly in sendNotifications', function (): void {
+        // Create a test model
+        /* @phpstan-ignore-next-line new.internalClass */
+        $mockModel = new TestModelForTransition;
+>>>>>>> cc7fb225 (.)
 
     it('processes recipients correctly in sendNotifications', function () {
         // Mock recipients with mixed types

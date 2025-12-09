@@ -42,7 +42,6 @@ use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Filament\Actions\AssociateAction;
 use Filament\Actions\AttachAction;
-use Filament\Actions\BulkAction;
 use Filament\Actions\CreateAction;
 use Filament\Actions\DeleteAction;
 use Filament\Actions\DeleteBulkAction;
@@ -292,6 +291,7 @@ use Filament\Tables\Enums\FiltersLayout;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Tables\Enums\RecordActionsPosition;
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -302,6 +302,8 @@ use Filament\Tables\Enums\RecordActionsPosition;
 >>>>>>> 5a14301c (.)
 use Filament\Tables\Filters\BaseFilter;
 use Filament\Tables\Filters\TernaryFilter;
+=======
+>>>>>>> cc7fb225 (.)
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -1356,7 +1358,7 @@ trait HasXotTable
      */
     protected function getDefaultTableSortColumn(): ?string
     {
-        
+
         try {
             $modelClass = $this->getModelClass();
             /** @var Model $model */

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PHPStan Array Types Fixes - Patterns & Solutions
 
 **Status**: 🎉 **COMPLETATO** - TUTTI GLI ERRORI RISOLTI! (832 → 0)  
@@ -166,3 +167,5 @@ public function processData(array $data): void
 **🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN  
 >>>>>>> c35986f4 (.)
 **📊 QUALITÀ CODICE**: Maximum Type Safety Achieved
+=======
+>>>>>>> cc7fb225 (.)

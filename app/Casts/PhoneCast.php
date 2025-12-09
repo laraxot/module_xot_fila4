@@ -47,6 +47,7 @@ class PhoneCast implements CastsAttributes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $_model  The Eloquent model instance
      * @param  string  $_key  The attribute key
      * @param  mixed  $value  The raw value from database
@@ -110,6 +111,8 @@ class PhoneCast implements CastsAttributes
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
      * @param mixed $_model The Eloquent model instance
      * @param string $_key The attribute key
      * @param mixed $value The raw value from database
@@ -119,6 +122,7 @@ class PhoneCast implements CastsAttributes
     {
         if (!is_string($value)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,6 +250,8 @@ class PhoneCast implements CastsAttributes
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         return PhoneValueObject::fromString($value);
@@ -254,6 +260,7 @@ class PhoneCast implements CastsAttributes
     /**
      * Prepare the given value for storage.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,6 +341,8 @@ class PhoneCast implements CastsAttributes
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
      * @param mixed $_model The Eloquent model instance
      * @param string $_key The attribute key
      * @param mixed $value The value to be stored
@@ -342,6 +351,7 @@ class PhoneCast implements CastsAttributes
     public function set($_model, string $_key, mixed $value, array $_attributes): string
     {
         if (!($value instanceof PhoneValueObject)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,6 +432,8 @@ class PhoneCast implements CastsAttributes
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             throw new InvalidArgumentException('The given value is not an Phone instance.');
         }
 

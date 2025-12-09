@@ -222,6 +222,7 @@ public function getModels(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -416,3 +417,7 @@ public function getAllColors(): array
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+
+
+>>>>>>> 3fbbf1f5 (.)

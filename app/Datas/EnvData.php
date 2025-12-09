@@ -43,6 +43,7 @@ class EnvData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -80,11 +81,14 @@ class EnvData extends Data implements Wireable
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     private static null|self $instance = null;
 
     public static function make(): self
     {
         if (!self::$instance) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,6 +236,8 @@ class EnvData extends Data implements Wireable
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             $data = [];
 
             foreach ($_ENV as $k => $v) {
@@ -318,6 +324,7 @@ class EnvData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pos_start = mb_strpos($env_content, $key.'=');
         if ($pos_start === false) {
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -378,6 +385,8 @@ class EnvData extends Data implements Wireable
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         $pos_start = mb_strpos($env_content, $key . '=');
         if (false === $pos_start) {
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -386,6 +395,7 @@ class EnvData extends Data implements Wireable
         $pos_end = mb_strpos($env_content, "\n", $pos_start);
         if (false === $pos_end) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -517,6 +527,8 @@ class EnvData extends Data implements Wireable
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         $length = $pos_end - $pos_start;
@@ -563,6 +575,7 @@ class EnvData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $replace = $key.'=';
 =======
         $replace = $key . '=';
@@ -663,6 +676,9 @@ class EnvData extends Data implements Wireable
         $replace = $key . '=';
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+        $replace = $key . '=';
+>>>>>>> 3fbbf1f5 (.)
         if (is_bool($value)) {
             $replace .= $value ? 'true' : 'false';
         }
@@ -685,6 +701,7 @@ class EnvData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $replace .= '"'.$value.'"';
 =======
             $replace .= '"' . $value . '"';
@@ -785,6 +802,9 @@ class EnvData extends Data implements Wireable
             $replace .= '"' . $value . '"';
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+            $replace .= '"' . $value . '"';
+>>>>>>> 3fbbf1f5 (.)
         }
         if (is_int($value)) {
             $replace .= $value;

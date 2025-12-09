@@ -22,6 +22,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -112,6 +113,10 @@ use Override;
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 3fbbf1f5 (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
@@ -128,10 +133,6 @@ use Modules\UI\Filament\Forms\Components\IconPicker;
 use Modules\UI\Filament\Forms\Components\IconPicker;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Module;
 
@@ -150,29 +151,6 @@ class ModuleResource extends XotBaseResource
 =======
 >>>>>>> 5a14301c (.)
     #[Override]
-<<<<<<< HEAD
-=======
-use Modules\Xot\Models\Module;
-
-
-
-
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-
-
-
-
-
-class ModuleResource extends XotBaseResource
-{
-    protected static ?string $model = Module::class;
-
-    /**
-     * @return array<string, \Filament\Schemas\Components\Component>
-     */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -196,10 +174,6 @@ class ModuleResource extends XotBaseResource
         ];
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     #[Override]
     public static function getRelations(): array
     {
@@ -207,17 +181,6 @@ class ModuleResource extends XotBaseResource
     }
 
     #[Override]
-<<<<<<< HEAD
-=======
-    public static function getRelations(): array
-    {
-        return [
-        ];
-    }
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     public static function getPages(): array
     {
 <<<<<<< HEAD

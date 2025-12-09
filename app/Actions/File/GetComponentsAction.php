@@ -16,16 +16,22 @@ use function Safe\json_encode;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Modules\Xot\Datas\ComponentFileData;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Spatie\LaravelData\DataCollection;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\json_decode;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\json_encode;
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
 class GetComponentsAction
 {
@@ -52,16 +58,23 @@ class GetComponentsAction
             '[' . __LINE__ . '][' . class_basename(static::class) . ']',
         );
         $components_json = $path . '/_components.json';
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         $components_json = app(FixPathAction::class)->execute($components_json);
 
         $path = app(FixPathAction::class)->execute($path);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! File::exists($path)) {
 =======
         if (!File::exists($path)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!File::exists($path)) {
+>>>>>>> 3fbbf1f5 (.)
             if (Str::startsWith($path, base_path('Modules'))) {
                 File::makeDirectory($path, 0o755, true, true);
             }

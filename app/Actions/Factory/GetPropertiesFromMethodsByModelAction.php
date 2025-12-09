@@ -22,7 +22,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use ReflectionMethod;
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
 =======
@@ -49,7 +52,10 @@ class GetPropertiesFromMethodsByModelAction
 =======
      * @param Model $model Il modello da analizzare
      *
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
@@ -70,7 +76,10 @@ class GetPropertiesFromMethodsByModelAction
         foreach ($methods as $method) {
             Assert::string($method, 'Il nome del metodo deve essere una stringa');
 
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             // Ignoriamo i metodi che iniziano con "get" e quelli ereditati da Model
             if (Str::startsWith($method, 'get') || method_exists(Model::class, $method)) {
                 continue;
@@ -137,10 +146,14 @@ class GetPropertiesFromMethodsByModelAction
                 $end = $end !== false ? $end : mb_strlen($codeStr);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $length = $end - $begin + 1;
 =======
                 $length = ($end - $begin) + 1;
 >>>>>>> 5a14301c (.)
+=======
+                $length = ($end - $begin) + 1;
+>>>>>>> 3fbbf1f5 (.)
                 Assert::greaterThan($length, 0, 'La lunghezza del corpo della funzione deve essere positiva');
 
                 $codeStr = mb_substr($codeStr, $begin, $length);
@@ -227,7 +240,10 @@ class GetPropertiesFromMethodsByModelAction
 
             $type = 'factory(' . $relatedClass . '::class)';
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         } catch (Exception $e) {
             // In caso di errore, ignoriamo la relazione
             return;

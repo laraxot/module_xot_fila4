@@ -5,14 +5,18 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Schemas\Components\Component;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\CreateExtra;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\EditExtra;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\ListExtras;
 use Modules\Xot\Models\Extra;
 use Override;
+<<<<<<< HEAD
 
 class ExtraResource extends XotBaseResource
 {
@@ -20,6 +24,8 @@ class ExtraResource extends XotBaseResource
 =======
 use Filament\Schemas\Components\Component;
 use Override;
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\ListExtras;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\CreateExtra;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\EditExtra;
@@ -32,7 +38,10 @@ use Modules\Xot\Models\Extra;
 class ExtraResource extends XotBaseResource
 {
     protected static null|string $model = Extra::class;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Get the form schema for the resource.

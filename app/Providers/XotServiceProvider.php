@@ -5,7 +5,10 @@ declare(strict_types=1);
 namespace Modules\Xot\Providers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Modules\Xot\Console\Commands\OptimizeFilamentMemoryCommand;
 use Override;
 use Filament\Schemas\Components\Utilities\Set;
@@ -15,6 +18,7 @@ use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\Field;
 use Filament\Forms\Components\Placeholder;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\TimePicker;
 use Filament\Infolists\Components\Entry;
 use Filament\Support\Components\Component;
@@ -22,6 +26,8 @@ use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\BaseFilter;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\TimePicker;
 use Filament\Infolists\Components\Entry;
@@ -33,11 +39,15 @@ use Filament\Tables\Filters\BaseFilter;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Illuminate\Database\Events\MigrationsEnded;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
@@ -49,6 +59,8 @@ use Override;
 use Webmozart\Assert\Assert;
 
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
@@ -60,6 +72,11 @@ use Modules\Xot\Exceptions\Handlers\HandlersRepository;
 use Modules\Xot\View\Composers\XotComposer;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+=======
+
+use function Safe\realpath;
+>>>>>>> 3fbbf1f5 (.)
 
 use function Safe\realpath;
 
@@ -100,12 +117,17 @@ class XotServiceProvider extends XotBaseServiceProvider
         $this->registerConfig();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         // $this->registerExceptionHandlersRepository();
         // $this->extendExceptionHandler();
 =======
         //$this->registerExceptionHandlersRepository();
         //$this->extendExceptionHandler();
 >>>>>>> 5a14301c (.)
+=======
+        //$this->registerExceptionHandlersRepository();
+        //$this->extendExceptionHandler();
+>>>>>>> 3fbbf1f5 (.)
         $this->registerCommands();
     }
 
@@ -134,12 +156,16 @@ class XotServiceProvider extends XotBaseServiceProvider
             '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
         Assert::string($locale = config('app.locale') ?? 'it', '[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
         app()->setLocale($locale);
         Carbon::setLocale($locale);
         date_default_timezone_set($timezone);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         DateTimePicker::configureUsing(fn (DateTimePicker $component) => $component->timezone($timezone));
         DatePicker::configureUsing(
@@ -148,17 +174,23 @@ class XotServiceProvider extends XotBaseServiceProvider
         TimePicker::configureUsing(fn (TimePicker $component) => $component->timezone($timezone));
         TextColumn::configureUsing(fn (TextColumn $column) => $column->timezone($timezone));
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         DateTimePicker::configureUsing(fn(DateTimePicker $component) => $component->timezone($timezone));
         DatePicker::configureUsing(
             fn(DatePicker $component) => $component->timezone($timezone)->displayFormat($date_format),
         );
         TimePicker::configureUsing(fn(TimePicker $component) => $component->timezone($timezone));
         TextColumn::configureUsing(fn(TextColumn $column) => $column->timezone($timezone));
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 
     public function registerFilamentMacros(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         // Macro temporarily disabled due to compatibility issues with Filament version
         // TODO: Re-implement when compatible with current Filament version
@@ -166,6 +198,8 @@ class XotServiceProvider extends XotBaseServiceProvider
         TextInput::macro('generateSlug', function () {
             $this->live(onBlur: true)->afterStateUpdated(function (string $operation, string $state, Set $set): void {
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         TextInput::macro('generateSlug', function () {
             /** @phpstan-ignore-next-line */
             $this->live(onBlur: true)->afterStateUpdated(function (string $operation, string $state, Set $set) {
@@ -318,10 +352,13 @@ class XotServiceProvider extends XotBaseServiceProvider
              * da fare in htaccess
              */
 <<<<<<< HEAD
+<<<<<<< HEAD
             // if (! request()->secure() /* && in_array(env('APP_ENV'), ['stage', 'production']) */) {
             //    exit(redirect()->secure(request()->getRequestUri()));
             // }
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
             //if (! request()->secure() /* && in_array(env('APP_ENV'), ['stage', 'production']) */) {
             //    exit(redirect()->secure(request()->getRequestUri()));
             //}
@@ -348,7 +385,10 @@ class XotServiceProvider extends XotBaseServiceProvider
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
      * Register console commands.
      */
     public function registerCommands(): void

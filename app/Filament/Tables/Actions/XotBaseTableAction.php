@@ -7,10 +7,14 @@ namespace Modules\Xot\Filament\Tables\Actions;
 <<<<<<< HEAD
 use Closure;
 use Filament\Actions\Action;
+<<<<<<< HEAD
 =======
 use Filament\Actions\Action;
 use Closure;
 >>>>>>> 5a14301c (.)
+=======
+use Closure;
+>>>>>>> 3fbbf1f5 (.)
 use Illuminate\Database\Eloquent\Model;
 
 /**

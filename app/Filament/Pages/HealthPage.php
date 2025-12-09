@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\WidgetConfiguration;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
@@ -40,6 +41,9 @@ use Spatie\Health\ResultStores\ResultStore;
 use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
 =======
 use Spatie\Health\Checks\Check;
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 3fbbf1f5 (.)
 use Spatie\Health\Checks\Checks\OptimizedAppCheck;
 use Spatie\Health\Checks\Checks\DebugModeCheck;
 use Spatie\Health\Checks\Checks\EnvironmentCheck;

@@ -101,7 +101,10 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     final public function form(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema());
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 
     public function getFormSchema(): array
@@ -118,6 +121,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     public function getTableColumns(): array
     {
         $index = Arr::get($this->getResource()::getPages(), 'index');
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! $index) {
             // throw new \Exception('Index page not found');
@@ -201,6 +205,8 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
         return $actions;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (!$index) {
             //throw new \Exception('Index page not found');
             return [];
@@ -328,5 +334,8 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     //{
     //    return parent::getRelationship();
     //}
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 }

@@ -5,8 +5,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 namespace Modules\Xot\Tests\Feature;
 
+<<<<<<< HEAD
 =======
 
+=======
+>>>>>>> 3fbbf1f5 (.)
 namespace Modules\Xot\Tests\Feature;
 
 use Illuminate\Support\Facades\File;
@@ -30,7 +33,10 @@ class FixStructureTest extends TestCase
         $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
 =======
         $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         mkdir($this->testDir, 0o755, true);
 
         // Impostiamo la directory di lavoro
@@ -64,7 +70,10 @@ class FixStructureTest extends TestCase
                         $this->rrmdir($dir . DIRECTORY_SEPARATOR . $object);
                     } else {
                         unlink($dir . DIRECTORY_SEPARATOR . $object);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                     }
                 }
             }
@@ -208,6 +217,9 @@ class FixStructureTest extends TestCase
         static::assertFileExists($this->testDir . '/config/secondary.php');
         static::assertDirectoryDoesNotExist($this->testDir . '/Config');
         static::assertDirectoryExists($this->testDir . '/config_old');
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 }

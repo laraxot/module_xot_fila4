@@ -36,11 +36,14 @@ class SafeArrayByModelCastAction
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -55,9 +58,14 @@ class SafeArrayByModelCastAction
 
         return $data;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 5a14301c (.)
+=======
+
+
+>>>>>>> 3fbbf1f5 (.)
     }
 }

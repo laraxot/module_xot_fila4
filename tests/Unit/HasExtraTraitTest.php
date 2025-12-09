@@ -8,8 +8,11 @@ namespace Modules\Xot\Tests\Unit;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 5a14301c (.)
@@ -92,11 +95,15 @@ describe('HasExtraTrait', function () {
     it('can set and get extra attributes', function () {
         // Mock the extra relationship
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mockExtra = new class
         {
 =======
         $mockExtra = new class {
 >>>>>>> 5a14301c (.)
+=======
+        $mockExtra = new class {
+>>>>>>> 3fbbf1f5 (.)
             public $extra_attributes;
 
             public function __construct()
@@ -174,7 +181,10 @@ describe('HasExtraTrait', function () {
         expect(fn () => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
 =======
         expect(fn() => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     });
 
     it('has setExtra method', function () {
@@ -231,11 +241,15 @@ describe('HasExtraTrait', function () {
 
     it('handles empty extra attributes', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mockExtra = new class
         {
 =======
         $mockExtra = new class {
 >>>>>>> 5a14301c (.)
+=======
+        $mockExtra = new class {
+>>>>>>> 3fbbf1f5 (.)
             public $extra_attributes;
 
             public function __construct()

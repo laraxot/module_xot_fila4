@@ -32,7 +32,10 @@ class GetModelClassByModelNameAction
             return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
         }
         Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
         return $modelClass;
     }

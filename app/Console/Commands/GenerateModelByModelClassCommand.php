@@ -37,7 +37,10 @@ class GenerateModelByModelClassCommand extends Command
      * @return void
      */
     
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Execute the console command.
@@ -47,10 +50,14 @@ class GenerateModelByModelClassCommand extends Command
         Assert::classExists(
             $model_class = $this->argument('model_class'),
 <<<<<<< HEAD
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename($this).']',
 =======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 3fbbf1f5 (.)
         );
 
         app(GenerateModelByModelClass::class)

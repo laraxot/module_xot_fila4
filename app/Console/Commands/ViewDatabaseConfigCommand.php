@@ -37,7 +37,10 @@ class ViewDatabaseConfigCommand extends Command
      * @return void
      */
     
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Execute the console command.

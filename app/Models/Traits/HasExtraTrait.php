@@ -48,10 +48,14 @@ trait HasExtraTrait
             $extra_class,
             Model::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename($this).']['.$extra_class.']',
 =======
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
 >>>>>>> 5a14301c (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
+>>>>>>> 3fbbf1f5 (.)
         );
         // Assert::isInstanceOf($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
         // Assert::implementsInterface($extra_class, ExtraContract::class, '['.__LINE__.']['.class_basename($this).']['.$extra_class.']');
@@ -105,7 +109,10 @@ trait HasExtraTrait
             return $value;
         }
         throw new Exception('[' . __LINE__ . '][' . __CLASS__ . ']');
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 
     /**

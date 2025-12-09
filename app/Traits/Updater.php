@@ -40,7 +40,10 @@ trait Updater
 <<<<<<< HEAD
 =======
         // @phpstan-ignore return.type
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
     }
 
@@ -60,7 +63,10 @@ trait Updater
 <<<<<<< HEAD
 =======
         // @phpstan-ignore return.type
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
     }
 

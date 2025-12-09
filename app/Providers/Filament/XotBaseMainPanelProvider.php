@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Providers\Filament;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
@@ -25,6 +26,8 @@ use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Pages\MainDashboard;
 use Nwidart\Modules\Facades\Module;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Exception;
 use Filament\Panel;
 use Filament\PanelProvider;
@@ -46,7 +49,10 @@ use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
 abstract class XotBaseMainPanelProvider extends PanelProvider
 {
@@ -103,8 +109,11 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             );
         }
         $panel = $panel
+<<<<<<< HEAD
 =======
         $panel = $panel
+=======
+>>>>>>> 3fbbf1f5 (.)
             ->discoverResources(
                 in: app_path('Filament/Resources'),
                 for: 'App\\Filament\\Resources',
@@ -121,7 +130,10 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
                 in: app_path('Filament/Widgets'),
                 for: 'App\\Filament\\Widgets',
             )
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             ->widgets([
                 // Widgets\AccountWidget::class,
             ])

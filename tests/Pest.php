@@ -14,11 +14,15 @@ use Modules\Xot\Tests\TestCase;
  * |
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 uses(TestCase::class)->in('Feature', 'Unit');
 =======
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 5a14301c (.)
+=======
+uses(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> 3fbbf1f5 (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -26,6 +30,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * |--------------------------------------------------------------------------
  * |
  * | Qui puoi definire aspettative globali per il modulo Xot.
+<<<<<<< HEAD
 <<<<<<< HEAD
  * | Quando definisci aspettative globali, saranno disponibili
  * | in tutti i test del modulo.
@@ -38,6 +43,12 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  */
 
 >>>>>>> 5a14301c (.)
+=======
+ * | Quando definisci aspettative globali, saranno disponibili
+ * | in tutti i test del modulo.
+ * |
+ */
+>>>>>>> 3fbbf1f5 (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -52,6 +63,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * |
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 // function something() {
 //     // ...
 // }
@@ -61,3 +73,8 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 //     // ...
 // }
 >>>>>>> 5a14301c (.)
+=======
+// function something() {
+//     // ...
+// }
+>>>>>>> 3fbbf1f5 (.)

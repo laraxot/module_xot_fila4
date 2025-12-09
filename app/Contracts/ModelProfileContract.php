@@ -105,10 +105,14 @@ interface ModelProfileContract extends ModelContract
      * @throws PermissionDoesNotExist
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
 =======
     public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
 >>>>>>> 5a14301c (.)
+=======
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Create a new Eloquent query builder for the model.

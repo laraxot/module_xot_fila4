@@ -19,13 +19,19 @@ use Illuminate\Support\Str;
 use Modules\Xot\Enums\PdfEngineEnum;
 use Spatie\LaravelData\Data;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spipu\Html2Pdf\Exception\HtmlParsingException;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Spatie\LaravelPdf\Enums\Format;
 use Spatie\LaravelPdf\Enums\Orientation;
 use Spatie\LaravelPdf\Enums\Unit;
 use Spatie\LaravelPdf\Facades\Pdf;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
@@ -158,10 +164,14 @@ class PdfData extends Data
          * @var non-falsy-string&view-string
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
 =======
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
 >>>>>>> 5a14301c (.)
+=======
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+>>>>>>> 3fbbf1f5 (.)
         $view_params = [
             'view' => $view_name,
             'row' => $model,
@@ -177,15 +187,20 @@ class PdfData extends Data
         Assert::notNull(
             $res = Storage::disk($this->disk)->get($this->filename),
 <<<<<<< HEAD
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename($this).']',
 =======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 3fbbf1f5 (.)
         );
 
         return $res;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $params
@@ -199,6 +214,8 @@ class PdfData extends Data
         $this->html = $out->render();
 
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
     public function view(string $view, array $params = []): self
     {
         if (!view()->exists($view)) {

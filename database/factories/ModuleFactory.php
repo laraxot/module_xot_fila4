@@ -31,10 +31,14 @@ class ModuleFactory extends Factory
     public function active(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 5a14301c (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 3fbbf1f5 (.)
             'is_active' => true,
         ]);
     }
@@ -42,10 +46,14 @@ class ModuleFactory extends Factory
     public function inactive(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 5a14301c (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 3fbbf1f5 (.)
             'is_active' => false,
         ]);
     }
@@ -53,10 +61,14 @@ class ModuleFactory extends Factory
     public function highPriority(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 5a14301c (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 3fbbf1f5 (.)
             'priority' => $this->faker->numberBetween(80, 100),
         ]);
     }

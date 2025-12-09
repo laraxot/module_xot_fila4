@@ -5,6 +5,10 @@ declare(strict_types=1);
 namespace Modules\Xot\Models\Policies;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> 3fbbf1f5 (.)
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\InformationSchemaTable;
 use Override;

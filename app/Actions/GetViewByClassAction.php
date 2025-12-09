@@ -101,6 +101,7 @@ class GetViewByClassAction
 
         // Costruisci il percorso della view
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $module_low.'::pages.'.$class_name;
     }
 
@@ -118,5 +119,8 @@ class GetViewByClassAction
 =======
         return $module_low . '::pages.' . $class_name;
 >>>>>>> 5a14301c (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 3fbbf1f5 (.)
     }
 }

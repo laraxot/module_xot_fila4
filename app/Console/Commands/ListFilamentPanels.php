@@ -23,16 +23,22 @@ class ListFilamentPanels extends Command
         /** @var Collection<string, \Nwidart\Modules\Module> $modules */
         foreach ($modules as $moduleName => $module) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $providersPath = $module->getPath().'/Providers';
             if (! is_dir($providersPath)) {
 =======
             $providersPath = $module->getPath() . '/Providers';
             if (!is_dir($providersPath)) {
 >>>>>>> 5a14301c (.)
+=======
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+>>>>>>> 3fbbf1f5 (.)
                 continue;
             }
 
             $providers = collect(scandir($providersPath))
+<<<<<<< HEAD
 <<<<<<< HEAD
                 ->filter(function ($file): bool {
                     return is_string($file) && str_ends_with($file, 'ServiceProvider.php');
@@ -46,12 +52,17 @@ class ListFilamentPanels extends Command
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
                 if (! class_exists($providerClass)) {
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
                 ->filter(fn(string $file): bool => str_ends_with($file, 'ServiceProvider.php'));
 
             foreach ($providers as $provider) {
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
                 if (!class_exists($providerClass)) {
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                     continue;
                 }
 

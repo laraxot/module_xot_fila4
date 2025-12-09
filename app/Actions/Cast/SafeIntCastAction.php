@@ -19,7 +19,10 @@ use function Safe\preg_match;
  * - KISS: Logica semplice e diretta, facile da comprendere e mantenere
  * - Robustezza: Gestisce tutti i casi edge e mantiene la type safety
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
  *
  * @package Modules\Xot\Actions\Cast
 >>>>>>> 5a14301c (.)
@@ -44,7 +47,10 @@ class SafeIntCastAction
      * @return int Il valore convertito in int
      */
     public function execute(mixed $value, null|int $default = 0): int
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         // Se è già un int, restituiscilo direttamente
         if (is_int($value)) {
@@ -207,7 +213,10 @@ class SafeIntCastAction
         return $default ?? 0;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Metodo statico di convenienza per chiamate dirette.

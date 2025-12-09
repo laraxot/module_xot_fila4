@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica
@@ -540,11 +543,15 @@ ls Modules/*/lang/*/
 **🚀 Performance**: 98/100 score
 
 ## Documentation Archive & Legacy
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Principles
 - **DRY**: Un solo punto di verità
@@ -563,6 +570,8 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 =======
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 ## Quick Links Legacy
 - [Root Documentation](../../../docs/)
 - [SaluteOra Module](../SaluteOra/docs/)

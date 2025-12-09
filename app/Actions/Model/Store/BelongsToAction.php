@@ -24,7 +24,10 @@ class BelongsToAction
 
         // $rows = $relation->rows;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         // dd([$relation->name]);
 >>>>>>> 5a14301c (.)
         /*

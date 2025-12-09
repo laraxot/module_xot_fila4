@@ -9,7 +9,6 @@ use Modules\Xot\Tests\TestCase;
 use Modules\Xot\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
-
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
 >>>>>>> 5a14301c (.)
@@ -22,7 +21,10 @@ beforeEach(function () {
     $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
 =======
     $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     mkdir($this->testDir, 0o755, true);
 
     // Set the working directory
@@ -51,7 +53,10 @@ function rrmdir($dir)
                     rrmdir($dir . DIRECTORY_SEPARATOR . $object);
                 } else {
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                 }
             }
         }
@@ -127,10 +132,14 @@ test('does not overwrite existing files', function () {
 test('handles errors gracefully', function () {
     // Make a directory non-writable to test error handling
 <<<<<<< HEAD
+<<<<<<< HEAD
     $nonWritableDir = $this->testDir.'/app';
 =======
     $nonWritableDir = $this->testDir . '/app';
 >>>>>>> 5a14301c (.)
+=======
+    $nonWritableDir = $this->testDir . '/app';
+>>>>>>> 3fbbf1f5 (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error
@@ -138,4 +147,8 @@ test('handles errors gracefully', function () {
 
     // Restore permissions
     chmod($nonWritableDir, 0o755);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 3fbbf1f5 (.)

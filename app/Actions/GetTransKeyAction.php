@@ -33,7 +33,10 @@ class GetTransKeyAction
             Assert::isArray($backtrace);
             $class = Arr::get($backtrace, '1.class');
             Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         $arr = explode('\\', $class);
@@ -63,7 +66,10 @@ class GetTransKeyAction
             if (null === $res || !isset($res['object'])) {
                 $page = Arr::get(debug_backtrace(), '0.args.0');
                 Assert::string($page, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                 $main_module = XotData::make()->main_module;
                 $main_module_low = mb_strtolower($main_module);
                 $page_arr = explode('\\', $page);
@@ -71,9 +77,12 @@ class GetTransKeyAction
                 $page_arr_last = $page_arr[$page_arr_count - 1];
                 $page_arr_last_snake = Str::of($page_arr_last)->snake()->toString();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                 return $main_module_low.'::'.$page_arr_last_snake;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
                 $tmp = $main_module_low . '::' . $page_arr_last_snake;
 
                 return $tmp;
@@ -104,18 +113,24 @@ class GetTransKeyAction
         $first = $arr[0];
         $last = $arr[count($arr) - 1];
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (in_array($first, ['dashboard', 'list', 'get', 'manage', 'edit', 'view'], strict: true)) {
             $class_snake = implode('_', array_slice($arr, 1));
         }
         if (in_array($last, ['action'], strict: true)) {
             $class_snake = Str::beforeLast($class_snake, '_'.$last);
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (in_array($first, ['dashboard', 'list', 'get', 'manage'], strict: true)) {
             $class_snake = implode('_', array_slice($arr, 1));
         }
         if (in_array($last, ['action'], strict: true)) {
             $class_snake = Str::beforeLast($class_snake, '_' . $last);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         if (Str::endsWith($class_snake, 'form_schema')) {
@@ -131,8 +146,11 @@ class GetTransKeyAction
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $module_low.'::'.$class_snake;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $tmp = $module_low . '::' . $class_snake;
 
         return $tmp;

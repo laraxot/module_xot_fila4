@@ -63,10 +63,14 @@ class InformationSchemaTableFactory extends Factory
     public function baseTable(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 5a14301c (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 3fbbf1f5 (.)
             'table_type' => 'BASE TABLE',
         ]);
     }
@@ -74,10 +78,14 @@ class InformationSchemaTableFactory extends Factory
     public function view(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 5a14301c (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 3fbbf1f5 (.)
             'table_type' => 'VIEW',
         ]);
     }

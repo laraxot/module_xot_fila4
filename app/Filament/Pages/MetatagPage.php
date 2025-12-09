@@ -19,9 +19,12 @@ use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Support\Colors\Color;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
@@ -37,10 +40,14 @@ class MetatagPage extends Page implements HasForms
     use NavigationLabelTrait;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?array $data = [];
 =======
     public null|array $data = [];
 >>>>>>> 5a14301c (.)
+=======
+    public null|array $data = [];
+>>>>>>> 3fbbf1f5 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
 

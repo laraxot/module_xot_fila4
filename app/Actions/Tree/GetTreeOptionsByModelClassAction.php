@@ -42,18 +42,24 @@ class GetTreeOptionsByModelClassAction
 
         foreach ($rows as $row) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var HasRecursiveRelationshipsContract $row */
             $key = $row->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] = is_string($row)
                 ? $row
                 : (string) $row->getLabel();
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
             /* @var HasRecursiveRelationshipsContract $row */
             $key = $row->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] = is_string($row)
                 ? $row
                 : ((string) $row->getLabel());
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             $this->parse($row);
         }
 
@@ -67,10 +73,14 @@ class GetTreeOptionsByModelClassAction
             $key = $child->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] =
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Str::repeat('---', $child->depth).'   '.$child->getLabel();
 =======
                 Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
 >>>>>>> 5a14301c (.)
+=======
+                Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+>>>>>>> 3fbbf1f5 (.)
         }
     }
 }

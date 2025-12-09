@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Traits;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use Filament\Actions;
 use Filament\Actions\Action;
@@ -23,6 +24,11 @@ use Filament\Actions\ViewAction;
 use Filament\Actions\BulkAction;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Actions\CreateAction;
 use Filament\Actions\AssociateAction;
 use Filament\Actions\AttachAction;
@@ -198,12 +204,15 @@ trait HasXotTable
      * Get table heading.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableHeading(): ?string
     {
         $key = static::getKeyTrans('table.heading');
         /** @var string|array<int|string,mixed>|null $trans */
         // @phpstan-ignore-next-line
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
     public function getTableHeading(): null|string
     {
         $key = static::getKeyTrans('table.heading');
@@ -246,10 +255,13 @@ trait HasXotTable
     {
         $modelClass = $this->getModelClass();
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! app(TableExistsByModelClassActions::class)->execute($modelClass)) {
             $this->notifyTableMissing();
 
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
             $this->notifyTableMissing();
 >>>>>>> 5a14301c (.)
@@ -282,9 +294,12 @@ trait HasXotTable
             ->striped()
             ->paginated($this->getTablePaginated());
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         /*
          * ->defaultSort(
          * column: $this->getDefaultTableSortColumn(),
@@ -292,7 +307,10 @@ trait HasXotTable
          * );
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         return $table;
     }
 
@@ -593,7 +611,10 @@ trait HasXotTable
         }
 
         throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 
     /**
@@ -623,10 +644,14 @@ trait HasXotTable
     {
         return $table
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
 =======
             ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
 >>>>>>> 5a14301c (.)
+=======
+            ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
+>>>>>>> 3fbbf1f5 (.)
             ->columns([
                 TextColumn::make('message')->default(__('user::fields.message.default'))->html(),
             ])

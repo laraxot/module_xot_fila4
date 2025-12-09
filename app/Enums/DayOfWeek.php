@@ -92,6 +92,7 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
     {
         return match ($this) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             self::MONDAY => 'Lunedì - Inizio della settimana lavorativa',
             self::TUESDAY => 'Martedì - Secondo giorno lavorativo',
             self::WEDNESDAY => 'Mercoledì - Metà settimana',
@@ -100,6 +101,8 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
             self::SATURDAY => 'Sabato - Primo giorno del weekend',
             self::SUNDAY => 'Domenica - Giorno di riposo',
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
             self::MONDAY => __('saluteora::common.days.description.monday'),
             self::TUESDAY => __('saluteora::common.days.description.tuesday'),
             self::WEDNESDAY => __('saluteora::common.days.description.wednesday'),

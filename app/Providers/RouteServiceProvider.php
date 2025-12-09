@@ -7,7 +7,10 @@ namespace Modules\Xot\Providers;
 <<<<<<< HEAD
 =======
 use Filament\Facades\Filament;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
@@ -140,33 +143,46 @@ class RouteServiceProvider extends ServiceProvider
             : ['it' => 'it', 'en' => 'en'];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_array($langs)) {
 =======
         if (!is_array($langs)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!is_array($langs)) {
+>>>>>>> 3fbbf1f5 (.)
             $langs = ['it' => 'it', 'en' => 'en'];
         }
 
         $lang_pattern = collect(array_keys($langs))->implode('|');
 <<<<<<< HEAD
+<<<<<<< HEAD
         $lang_pattern = '/|'.$lang_pattern.'|/i';
 =======
         $lang_pattern = '/|' . $lang_pattern . '|/i';
 >>>>>>> 5a14301c (.)
+=======
+        $lang_pattern = '/|' . $lang_pattern . '|/i';
+>>>>>>> 3fbbf1f5 (.)
 
         $router->pattern('lang', $lang_pattern);
 
         $models = config('morph_map');
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_array($models)) {
 =======
         if (!is_array($models)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!is_array($models)) {
+>>>>>>> 3fbbf1f5 (.)
             $models = [];
         }
 
         $models_collect = collect(array_keys($models));
         $models_collect->implode('|');
+<<<<<<< HEAD
 <<<<<<< HEAD
         $models_collect->map(fn ($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
     }
@@ -193,6 +209,9 @@ class RouteServiceProvider extends ServiceProvider
 =======
         $models_collect->map(fn($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
 >>>>>>> 5a14301c (.)
+=======
+        $models_collect->map(fn($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
+>>>>>>> 3fbbf1f5 (.)
     }
 
     // end registerRoutePattern

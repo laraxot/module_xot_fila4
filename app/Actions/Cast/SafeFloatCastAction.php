@@ -51,7 +51,10 @@ class SafeFloatCastAction
      * @return float Il valore convertito
      */
     public function execute(mixed $value, null|float $default = 0.0): float
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         // Se è già un float, verifica che sia valido
         if (is_float($value)) {
@@ -263,7 +266,10 @@ class SafeFloatCastAction
         return $default ?? 0.0;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Metodo statico di convenienza per chiamate dirette.

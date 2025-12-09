@@ -31,10 +31,14 @@ class BelongsToManyAction
             Assert::isArray($to = $relationDTO->data['to'] ?? []);
             $rows->sync($to);
 <<<<<<< HEAD
+<<<<<<< HEAD
             $status = 'collegati ['.implode(', ', $to).'] ';
 =======
             $status = 'collegati [' . implode(', ', $to) . '] ';
 >>>>>>> 5a14301c (.)
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+>>>>>>> 3fbbf1f5 (.)
             Session::flash('status', $status);
 
             return;

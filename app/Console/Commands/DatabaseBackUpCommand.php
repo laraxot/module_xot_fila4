@@ -40,7 +40,10 @@ class DatabaseBackUpCommand extends Command
      * @return void
      */
     
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Execute the console command.
@@ -48,9 +51,12 @@ class DatabaseBackUpCommand extends Command
     public function handle(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
         $backup_path = storage_path('app/backup/'.$filename);
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $filename = 'backup-' . Carbon::now()->format('Y-m-d') . '.gz';
         $backup_path = storage_path('app/backup/' . $filename);
 >>>>>>> 5a14301c (.)

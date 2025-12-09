@@ -8,7 +8,10 @@ namespace Modules\Xot\Actions\String;
 =======
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use function Safe\preg_replace;
 
 /**

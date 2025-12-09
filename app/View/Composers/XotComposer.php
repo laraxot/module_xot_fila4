@@ -11,7 +11,10 @@ use Exception;
 use Exception;
 use Jenssegers\Agent\Agent;
 use Modules\Xot\Actions\File\AssetAction;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
@@ -84,7 +87,10 @@ class XotComposer
 
         Assert::isInstanceOf($module, LaravelModule::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
         $class = '\Modules\\' . $module->getName() . '\View\Composers\ThemeComposer';
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
         $app = app($class);
         $callback = [$app, $name];
@@ -104,8 +110,11 @@ class XotComposer
 
         if (class_exists('\Jenssegers\Agent\Agent')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $agent = new Agent;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
             $agent = new Agent();
 >>>>>>> 5a14301c (.)
             $view->with('isMobile', $agent->isMobile());
@@ -140,10 +149,14 @@ class XotComposer
     {
         $metatag = MetatagData::make();
 <<<<<<< HEAD
+<<<<<<< HEAD
         $fun = 'get'.Str::studly($str);
 =======
         $fun = 'get' . Str::studly($str);
 >>>>>>> 5a14301c (.)
+=======
+        $fun = 'get' . Str::studly($str);
+>>>>>>> 3fbbf1f5 (.)
         if (method_exists($metatag, $fun)) {
             // @phpstan-ignore return.type
             return $metatag->{$fun}();

@@ -6,9 +6,12 @@ namespace Modules\Xot\Actions\Panel;
 
 use Filament\Panel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
@@ -40,7 +43,10 @@ class ApplyTenancyToPanelAction
         //$user = Auth::user();
 
         //if (Gate::allows('superadmin', $user)) {
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         // Configurazione completa per superadmin
         $panel
             ->tenant($tenant_class, 'slug', 'tenants')

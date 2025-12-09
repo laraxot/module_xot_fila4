@@ -55,17 +55,23 @@ class UpdateAction
         /**
          * @phpstan-ignore method.notFound (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
          */
         $model = tap($model)->update($data);
 
         app(__NAMESPACE__.'\\Update\RelationAction')->execute($model, $data);
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
          *
          */
         $model = tap($model)->update($data);
 
         app(__NAMESPACE__ . '\\Update\RelationAction')->execute($model, $data);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
         // $msg = 'aggiornato! ['.$model->getKey().']!';
 

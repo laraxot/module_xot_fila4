@@ -229,8 +229,11 @@ php artisan view:clear
 - [Filament Form Components](https://filamentphp.com/docs/forms)
 - [Best Practices Filament](../docs/filament-best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)

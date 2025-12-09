@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ExtraContract;
@@ -12,6 +13,9 @@ use Modules\Xot\Database\Factories\ExtraFactory;
 use Override;
 =======
 use Override;
+=======
+use Override;
+>>>>>>> 3fbbf1f5 (.)
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Builder;

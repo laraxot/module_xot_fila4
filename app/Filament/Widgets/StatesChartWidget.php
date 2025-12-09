@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use RuntimeException;
 use Illuminate\Database\Eloquent\Model;
 use Exception;
@@ -25,6 +26,8 @@ class StatesChartWidget extends XotBaseChartWidget
     #[Override]
     public function getHeading(): ?string
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Override;
 use Exception;
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
@@ -40,7 +43,10 @@ class StatesChartWidget extends XotBaseChartWidget
 
     #[Override]
     public function getHeading(): null|string
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         return static::transClass($this->model, 'widgets.states_chart.heading');
     }
@@ -105,10 +111,14 @@ class StatesChartWidget extends XotBaseChartWidget
                 'labels' => $states
                     ->keys()
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ->map(fn ($state) => static::transClass($this->model, 'states.'.((string) $state).'.label'))
 =======
                     ->map(fn($state) => static::transClass($this->model, 'states.' . $state . '.label'))
 >>>>>>> 5a14301c (.)
+=======
+                    ->map(fn($state) => static::transClass($this->model, 'states.' . $state . '.label'))
+>>>>>>> 3fbbf1f5 (.)
                     ->toArray(),
             ];
         } catch (Exception $e) {

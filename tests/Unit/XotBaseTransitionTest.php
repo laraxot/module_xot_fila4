@@ -13,9 +13,12 @@ describe('XotBaseTransition', function () {
     beforeEach(function () {
         // Create a concrete test transition class
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->transition = new class extends XotBaseTransition
         {
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $this->transition = new class extends XotBaseTransition {
 >>>>>>> 5a14301c (.)
             public static string $name = 'test_transition';
@@ -31,10 +34,14 @@ describe('XotBaseTransition', function () {
 
             #[Override]
 <<<<<<< HEAD
+<<<<<<< HEAD
             public function sendRecipientNotification(?UserContract $recipient): void
 =======
             public function sendRecipientNotification(null|UserContract $recipient): void
 >>>>>>> 5a14301c (.)
+=======
+            public function sendRecipientNotification(null|UserContract $recipient): void
+>>>>>>> 3fbbf1f5 (.)
             {
                 // Mock implementation
             }
@@ -42,9 +49,12 @@ describe('XotBaseTransition', function () {
 
         // Create a test record
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->record = new class extends Model implements UserContract
         {
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $this->record = new class extends Model implements UserContract {
 >>>>>>> 5a14301c (.)
             protected $table = 'test_users';
@@ -68,10 +78,14 @@ describe('XotBaseTransition', function () {
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             public function getRememberToken(): ?string
 =======
             public function getRememberToken(): null|string
 >>>>>>> 5a14301c (.)
+=======
+            public function getRememberToken(): null|string
+>>>>>>> 3fbbf1f5 (.)
             {
                 return null;
             }
@@ -146,27 +160,38 @@ describe('XotBaseTransition', function () {
     it('can send notification to user contract', function () {
         // This should not throw an exception
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(fn () => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
 =======
         expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
 >>>>>>> 5a14301c (.)
+=======
+        expect(fn() => $this->transition->sendRecipientNotification($this->record))->not->toThrow(Exception::class);
+>>>>>>> 3fbbf1f5 (.)
     });
 
     it('can send notification to null recipient', function () {
         // This should not throw an exception
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(fn () => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
 =======
         expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
 >>>>>>> 5a14301c (.)
+=======
+        expect(fn() => $this->transition->sendRecipientNotification(null))->not->toThrow(Exception::class);
+>>>>>>> 3fbbf1f5 (.)
     });
 
     it('processes recipients correctly in sendNotifications', function () {
         // Mock recipients with mixed types
 <<<<<<< HEAD
+<<<<<<< HEAD
         $transition = new class extends XotBaseTransition
         {
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $transition = new class extends XotBaseTransition {
 >>>>>>> 5a14301c (.)
             public static string $name = 'test_mixed_transition';
@@ -226,10 +251,14 @@ describe('XotBaseTransition', function () {
 
             #[Override]
 <<<<<<< HEAD
+<<<<<<< HEAD
             public function sendRecipientNotification(?UserContract $recipient): void
 =======
             public function sendRecipientNotification(null|UserContract $recipient): void
 >>>>>>> 5a14301c (.)
+=======
+            public function sendRecipientNotification(null|UserContract $recipient): void
+>>>>>>> 3fbbf1f5 (.)
             {
                 // Mock implementation
             }

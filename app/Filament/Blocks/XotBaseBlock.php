@@ -5,10 +5,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Blocks;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
 use Filament\Schemas\Components\Component;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Schemas\Components\Component;
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
@@ -42,7 +45,10 @@ abstract class XotBaseBlock
     /**
      * Undocumented function.
      *
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
      * @return array<Component>
      */
     public static function getBlockSchema(): array
@@ -52,10 +58,15 @@ abstract class XotBaseBlock
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * Undocumented function.
      *
 >>>>>>> 5a14301c (.)
+=======
+     * Undocumented function.
+     *
+>>>>>>> 3fbbf1f5 (.)
      * @return array<Component>
      */
     public static function getBlockVarSchema(): array

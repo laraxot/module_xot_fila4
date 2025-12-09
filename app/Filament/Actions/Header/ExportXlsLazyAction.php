@@ -102,17 +102,23 @@ class ExportXlsLazyAction extends Action
 
                 if ($lazy->count() < 7) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     /** @var array<int, string> $stringFields */
                     $stringFields = array_values($fields);
 
                     // PHPStan knows $lazy is Builder|Relation here, no need for Assert
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
                     Assert::isInstanceOf($lazy, Builder::class);
 
                     /** @var array<int, string> $stringFields */
                     $stringFields = array_values($fields);
 
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                     return app(ExportXlsByQuery::class)->execute($lazy, $filename, $stringFields, null);
                 }
 
@@ -128,10 +134,14 @@ class ExportXlsLazyAction extends Action
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
     {
         return 'export_xls';
     }

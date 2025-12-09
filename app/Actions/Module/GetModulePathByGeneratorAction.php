@@ -20,8 +20,11 @@ class GetModulePathByGeneratorAction
     public function execute(string $moduleName, string $generatorPath): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $relativePath = Config::string('modules.paths.generator.'.$generatorPath.'.path');
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $relativePath = Config::string('modules.paths.generator.' . $generatorPath . '.path');
 >>>>>>> 5a14301c (.)
         try {
@@ -51,7 +54,10 @@ class GetModulePathByGeneratorAction
                 ']');
         }
         Assert::string($res, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
         return $res;
     }

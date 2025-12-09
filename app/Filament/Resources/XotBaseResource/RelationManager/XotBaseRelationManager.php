@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\XotBaseResource\RelationManager;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\Components\Component;
 use Exception;
 use Filament\Resources\RelationManagers\RelationManager;
@@ -17,6 +18,11 @@ use Override;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Override;
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Override;
+>>>>>>> 3fbbf1f5 (.)
 use Exception;
 use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Tables;
@@ -107,6 +113,7 @@ abstract class XotBaseRelationManager extends RelationManager
         return [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         // return $this->getResource()::getTableColumns();
     }
 
@@ -114,6 +121,8 @@ abstract class XotBaseRelationManager extends RelationManager
     {
         return __(static::class.'.plural_model_label');
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         //return $this->getResource()::getTableColumns();
 >>>>>>> 5a14301c (.)
     }
@@ -184,6 +193,7 @@ abstract class XotBaseRelationManager extends RelationManager
             ->append('Resources\\')
             ->toString();
 <<<<<<< HEAD
+<<<<<<< HEAD
         $resourceClass = $ns.$resourceName;
 
         if (! class_exists($resourceClass)) {
@@ -196,6 +206,8 @@ abstract class XotBaseRelationManager extends RelationManager
 
         /** @var class-string<XotBaseResource> $resourceClass */
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $resourceClass = $ns . '\\' . $resource_name;
 
         if (!class_exists($resourceClass)) {

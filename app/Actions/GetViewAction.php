@@ -89,30 +89,41 @@ class GetViewAction
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view = Str::lower($mod).'::'.$tmp;
 
         if ($tpl !== '') {
             $view .= '.'.$tpl;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $view = Str::lower($mod) . '::' . $tmp;
 
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         // if (inAdmin()) {
         if (Str::contains($view, '::panels.actions.')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
 =======
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
 >>>>>>> 5a14301c (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 3fbbf1f5 (.)
             $view = Str::replace('::panels.actions.', $to, $view);
             $view = Str::replace('-action', '', $view);
         }
 
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
         // $view è sempre stringa perché costruita da stringhe
         if (! view()->exists($view)) {
@@ -122,6 +133,11 @@ class GetViewAction
         if (!view()->exists($view)) {
             throw new Exception('View [' . $view . '] not found');
 >>>>>>> 5a14301c (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 3fbbf1f5 (.)
         }
 
         return $view;

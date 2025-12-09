@@ -26,6 +26,7 @@ class HasManyRelationData extends Data
         public array $updateData,
         #[MapInputName('from')]
 <<<<<<< HEAD
+<<<<<<< HEAD
         public ?array $from = null,
         #[MapInputName('to')]
         public ?array $to = null,
@@ -34,5 +35,10 @@ class HasManyRelationData extends Data
         #[MapInputName('to')]
         public null|array $to = null,
 >>>>>>> 5a14301c (.)
+=======
+        public null|array $from = null,
+        #[MapInputName('to')]
+        public null|array $to = null,
+>>>>>>> 3fbbf1f5 (.)
     ) {}
 }

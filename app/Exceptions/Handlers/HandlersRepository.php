@@ -68,10 +68,14 @@ class HandlersRepository
         return array_filter(
             $this->reporters,
 <<<<<<< HEAD
+<<<<<<< HEAD
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 =======
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 >>>>>>> 5a14301c (.)
+=======
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+>>>>>>> 3fbbf1f5 (.)
         );
     }
 
@@ -83,10 +87,14 @@ class HandlersRepository
         return array_filter(
             $this->renderers,
 <<<<<<< HEAD
+<<<<<<< HEAD
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 =======
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 >>>>>>> 5a14301c (.)
+=======
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+>>>>>>> 3fbbf1f5 (.)
         );
     }
 
@@ -98,10 +106,14 @@ class HandlersRepository
         return array_filter(
             $this->consoleRenderers,
 <<<<<<< HEAD
+<<<<<<< HEAD
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 =======
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 >>>>>>> 5a14301c (.)
+=======
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+>>>>>>> 3fbbf1f5 (.)
         );
     }
 
@@ -117,17 +129,23 @@ class HandlersRepository
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! ($params = $reflection->getParameters())) {
             return false;
         }
 
         return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (!($params = $reflection->getParameters())) {
             return false;
         }
 
         return ($params[0]->getClass() instanceof ReflectionClass) ? $params[0]->getClass()->isInstance($e) : true;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 }

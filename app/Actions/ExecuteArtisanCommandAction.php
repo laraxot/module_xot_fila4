@@ -70,10 +70,14 @@ class ExecuteArtisanCommandAction
         Assert::stringNotEmpty($command, 'Il comando non può essere vuoto');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->isCommandAllowed($command)) {
 =======
         if (!$this->isCommandAllowed($command)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!$this->isCommandAllowed($command)) {
+>>>>>>> 3fbbf1f5 (.)
             throw new RuntimeException("Comando non consentito: {$command}");
         }
 
@@ -93,6 +97,7 @@ class ExecuteArtisanCommandAction
             while ($process->running()) {
                 $data = $process->latestOutput();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (! empty($data)) {
                     $formattedData = trim($data);
                     if (! empty($formattedData)) {
@@ -101,6 +106,11 @@ class ExecuteArtisanCommandAction
                     $formattedData = trim($data);
                     if (!empty($formattedData)) {
 >>>>>>> 5a14301c (.)
+=======
+                if (!empty($data)) {
+                    $formattedData = trim($data);
+                    if (!empty($formattedData)) {
+>>>>>>> 3fbbf1f5 (.)
                         $output[] = $formattedData;
                         Event::dispatch('artisan-command.output', [$command, $formattedData]);
                     }
@@ -108,18 +118,24 @@ class ExecuteArtisanCommandAction
 
                 $errorData = $process->latestErrorOutput();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (! empty($errorData)) {
                     $formattedError = trim($errorData);
                     if (! empty($formattedError)) {
                         $output[] = '[ERROR] '.$formattedError;
                         Event::dispatch('artisan-command.output', [$command, '[ERROR] '.$formattedError]);
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
                 if (!empty($errorData)) {
                     $formattedError = trim($errorData);
                     if (!empty($formattedError)) {
                         $output[] = '[ERROR] ' . $formattedError;
                         Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $formattedError]);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                     }
                 }
 
@@ -131,15 +147,20 @@ class ExecuteArtisanCommandAction
             // Cattura qualsiasi output residuo
             $finalOutput = trim($result->output());
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! empty($finalOutput)) {
 =======
             if (!empty($finalOutput)) {
 >>>>>>> 5a14301c (.)
+=======
+            if (!empty($finalOutput)) {
+>>>>>>> 3fbbf1f5 (.)
                 $output[] = $finalOutput;
                 Event::dispatch('artisan-command.output', [$command, $finalOutput]);
             }
 
             $finalErrorOutput = trim($result->errorOutput());
+<<<<<<< HEAD
 <<<<<<< HEAD
             if (! empty($finalErrorOutput)) {
                 $output[] = '[ERROR] '.$finalErrorOutput;
@@ -149,6 +170,11 @@ class ExecuteArtisanCommandAction
                 $output[] = '[ERROR] ' . $finalErrorOutput;
                 Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $finalErrorOutput]);
 >>>>>>> 5a14301c (.)
+=======
+            if (!empty($finalErrorOutput)) {
+                $output[] = '[ERROR] ' . $finalErrorOutput;
+                Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $finalErrorOutput]);
+>>>>>>> 3fbbf1f5 (.)
             }
 
             if ($result->successful()) {

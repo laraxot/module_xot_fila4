@@ -19,6 +19,7 @@ class StoreAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $data
      * @param  array<string, mixed>  $rules
@@ -31,6 +32,11 @@ class StoreAction
     {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
 >>>>>>> 5a14301c (.)
+=======
+    public function execute(Model $model, array $data, array $rules): Model
+    {
+        if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+>>>>>>> 3fbbf1f5 (.)
             $data['lang'] = app()->getLocale();
         }
         $data['updated_by'] = authId();
@@ -58,6 +64,7 @@ class StoreAction
             $relationClass = $relation::class;
             $relationshipType = class_basename($relationClass);
 
+<<<<<<< HEAD
             $action_class = __NAMESPACE__.'\\Store\\'.$relationshipType.'Action';
             $action = app($action_class);
             Assert::object($action);
@@ -67,12 +74,17 @@ class StoreAction
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
 
+=======
+>>>>>>> 3fbbf1f5 (.)
             $action_class = __NAMESPACE__ . '\\Store\\' . $relationshipType . 'Action';
             $action = app($action_class);
             Assert::object($action);
             if (!method_exists($action, 'execute')) {
                 throw new Exception('method [execute] not found in [' . $action_class . ']');
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             }
             $action->execute($model, $relation);
         }

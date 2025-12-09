@@ -47,7 +47,10 @@ class ExecuteSqlFileCommand extends Command
         $filePath = $this->ask('Inserisci il percorso del file .sql');
         Assert::string($filePath, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         if (!file_exists($filePath)) {
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -90,7 +93,10 @@ class ExecuteSqlFileCommand extends Command
             $this->info('File .sql eseguito con successo!');
         } catch (Exception $e) {
             $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
             return Command::FAILURE;
         } finally {

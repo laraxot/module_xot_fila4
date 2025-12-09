@@ -13,8 +13,11 @@ class CopyFromLastYearButton
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $modelClass, string $fieldName, ?string $year): Action
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
     public function execute(string $modelClass, string $fieldName, null|string $year): Action
 >>>>>>> 5a14301c (.)
     {
@@ -27,6 +30,9 @@ class CopyFromLastYearButton
 =======
             ->visible(null !== $year)
             ->action(static fn() => app(CopyFromLastYearAction::class)->execute($modelClass, $fieldName, $year));
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 }

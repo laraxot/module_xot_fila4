@@ -38,7 +38,10 @@ class MeasureAction
 =======
         Assert::isCallable($closure, 'Il parametro $closure deve essere una funzione chiamabile');
 
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         $start = microtime(true);
         $memory_start = memory_get_usage();
 
@@ -55,17 +58,23 @@ class MeasureAction
         $metrics = [
             'label' => $label,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'execution_time' => round($execution_time, 2).' ms',
             'memory_usage' => round($memory_usage, 2).' KB',
 =======
             'execution_time' => round($execution_time, 2) . ' ms',
             'memory_usage' => round($memory_usage, 2) . ' KB',
 >>>>>>> 5a14301c (.)
+=======
+            'execution_time' => round($execution_time, 2) . ' ms',
+            'memory_usage' => round($memory_usage, 2) . ' KB',
+>>>>>>> 3fbbf1f5 (.)
             // 'peak_memory' => round(memory_get_peak_usage() / 1024 / 1024, 2).' MB',
         ];
 
         // Mostriamo una notifica con le metriche
         Notification::make()
+<<<<<<< HEAD
 <<<<<<< HEAD
             ->title('Performance Metrics '.($label !== '' ? $label : 'Unnamed'))
             ->body($metrics['execution_time'].'  '.$metrics['memory_usage'])
@@ -73,6 +82,10 @@ class MeasureAction
             ->title('Performance Metrics ' . ($label !== '' ? $label : 'Unnamed'))
             ->body($metrics['execution_time'] . '  ' . $metrics['memory_usage'])
 >>>>>>> 5a14301c (.)
+=======
+            ->title('Performance Metrics ' . ($label !== '' ? $label : 'Unnamed'))
+            ->body($metrics['execution_time'] . '  ' . $metrics['memory_usage'])
+>>>>>>> 3fbbf1f5 (.)
             ->success()
             ->persistent()
             ->send();

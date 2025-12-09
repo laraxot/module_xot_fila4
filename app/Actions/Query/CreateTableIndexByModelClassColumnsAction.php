@@ -45,6 +45,7 @@ class CreateTableIndexByModelClassColumnsAction
     {
         // Validate the model class
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_subclass_of($modelClass, Model::class)) {
             throw new InvalidArgumentException("{$modelClass} must be a subclass of ".Model::class.'.');
         }
@@ -58,6 +59,8 @@ class CreateTableIndexByModelClassColumnsAction
         // Validate the table exists
         if (! Schema::connection($connectionName)->hasTable($tableName)) {
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (!is_subclass_of($modelClass, Model::class)) {
             throw new InvalidArgumentException("{$modelClass} must be a subclass of " . Model::class . '.');
         }
@@ -70,7 +73,10 @@ class CreateTableIndexByModelClassColumnsAction
         Assert::string($connectionName, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         // Validate the table exists
         if (!Schema::connection($connectionName)->hasTable($tableName)) {
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             throw new RuntimeException("Table '{$tableName}' does not exist on connection '{$connectionName}'.");
         }
 
@@ -116,10 +122,14 @@ class CreateTableIndexByModelClassColumnsAction
     {
         foreach ($columns as $column) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! Schema::connection($connectionName)->hasColumn($tableName, $column)) {
 =======
             if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
 >>>>>>> 5a14301c (.)
+=======
+            if (!Schema::connection($connectionName)->hasColumn($tableName, $column)) {
+>>>>>>> 3fbbf1f5 (.)
                 throw new RuntimeException("Column '{$column}' does not exist in table '{$tableName}'.");
             }
         }
@@ -197,6 +207,9 @@ class CreateTableIndexByModelClassColumnsAction
     private function generateIndexName(string $tableName, array $columns): string
     {
         return $tableName . '_' . implode('_', $columns) . '_index';
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 }

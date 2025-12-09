@@ -6,7 +6,10 @@ namespace Modules\Xot\Actions\Pdf;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 >>>>>>> 5a14301c (.)
@@ -115,7 +118,10 @@ class ContentPdfAction
      * @param string $filename Nome del file PDF (per riferimento)
      * @return string Contenuto binario del PDF
      */
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
     {
         return $this->execute(

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Infolists\Components\TextEntry;
@@ -18,6 +19,9 @@ use Modules\Xot\Models\Log;
 use Override;
 =======
 use Override;
+=======
+use Override;
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Schemas\Schema;
 use Modules\Xot\Filament\Resources\LogResource\Pages\ListLogs;
 use Modules\Xot\Filament\Resources\LogResource\Pages\CreateLog;
@@ -32,12 +36,16 @@ use Modules\Xot\Filament\Resources\LogResource\Pages;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Models\Log;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
 class LogResource extends XotBaseResource
 {
     use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected static ?string $model = Log::class;
 
@@ -45,6 +53,8 @@ class LogResource extends XotBaseResource
      * @return array<string, Component>
      */
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
     protected static null|string $model = Log::class;
 
 >>>>>>> 5a14301c (.)

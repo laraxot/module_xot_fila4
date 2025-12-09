@@ -55,7 +55,10 @@ $user = $userClass::factory()->create($attributes);
         'driver' => 'eloquent',
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
 >>>>>>> 5a14301c (.)
     ],
@@ -115,10 +118,14 @@ use Modules\SpecificModule\Models\User;
 public function processUser(UserContract $user): void
 
 // ❌ MAI implementazione specifica
+<<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 =======
+=======
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+>>>>>>> 3fbbf1f5 (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> 5a14301c (.)
 ```
@@ -252,6 +259,7 @@ class ChangeTypeCommand extends Command
 ### **1. Import Diretti**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
@@ -260,6 +268,11 @@ use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
 =======
+=======
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Doctor;
+>>>>>>> 3fbbf1f5 (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
@@ -273,10 +286,14 @@ use Modules\Xot\Datas\XotData;
 ### **2. Hardcoding Classi**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
 <<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
 =======
+=======
+$user = \Modules\<nome modulo>\Models\User::find($id);
+>>>>>>> 3fbbf1f5 (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
 >>>>>>> 5a14301c (.)
 
@@ -288,10 +305,14 @@ $user = $userClass::find($id);
 ### **3. Type Hints Specifici**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 =======
+=======
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+>>>>>>> 3fbbf1f5 (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> 5a14301c (.)
 
@@ -377,10 +398,14 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
 =======
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
 >>>>>>> 5a14301c (.)
+=======
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+>>>>>>> 3fbbf1f5 (.)
 
 ---
 
@@ -388,9 +413,12 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 **Stato**: ✅ Pattern Documentato e Implementato  
 **Responsabile**: Team Architettura Laraxot 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Responsabile**: Team Architettura Laraxot 
 =======
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)

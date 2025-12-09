@@ -25,6 +25,7 @@ abstract class TestCase extends BaseTestCase
     use CreatesApplication;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     // use DatabaseMigrations;
 
     // SHARED TEST HELPER FUNCTIONS (DRY Pattern)
@@ -34,6 +35,8 @@ abstract class TestCase extends BaseTestCase
     /**
      * Generate a unique email for testing to prevent database conflicts.
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
     //use DatabaseMigrations;
 
     // =============================================================================

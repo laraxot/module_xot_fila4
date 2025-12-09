@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -20,6 +21,10 @@ class ModuleResource extends XotBaseResource
 =======
 use Filament\Schemas\Components\Component;
 use Override;
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 3fbbf1f5 (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;

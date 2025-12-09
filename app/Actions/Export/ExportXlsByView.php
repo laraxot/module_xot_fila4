@@ -8,7 +8,10 @@ namespace Modules\Xot\Actions\Export;
 
 use Illuminate\Contracts\View\View;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Support\Collection;
 >>>>>>> 5a14301c (.)
@@ -46,8 +49,11 @@ class ExportXlsByView
         array $fields,
         string $filename = 'test.xlsx',
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?string $transKey = null,
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         null|string $transKey = null,
 >>>>>>> 5a14301c (.)
     ): BinaryFileResponse {

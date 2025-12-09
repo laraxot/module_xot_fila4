@@ -42,10 +42,14 @@ class BelongsToManyAction
 
             $rows->sync($to);
 <<<<<<< HEAD
+<<<<<<< HEAD
             $status = 'collegati ['.implode(', ', $to).'] ';
 =======
             $status = 'collegati [' . implode(', ', $to) . '] ';
 >>>>>>> 5a14301c (.)
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+>>>>>>> 3fbbf1f5 (.)
             Session::flash('status', $status);
 
             return;
@@ -70,7 +74,10 @@ class BelongsToManyAction
                 Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $data, []);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();
@@ -82,10 +89,14 @@ class BelongsToManyAction
 
         // Sincronizza gli ID raccolti
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! empty($ids)) {
 =======
         if (!empty($ids)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!empty($ids)) {
+>>>>>>> 3fbbf1f5 (.)
             try {
                 // Assicura che $ids sia un array di valori scalari
                 // $ids è già un array non vuoto a questo punto, quindi non serve verificare se è iterabile

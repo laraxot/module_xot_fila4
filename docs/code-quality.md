@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Code Quality - Xot Module
 
 > Last Updated: 2025-11-15 08:05:46
@@ -140,6 +141,8 @@ vendor/bin/phpstan analyse path/to/changed/file.php --level=10
 
 **Analysis Reports**: `bashscripts/quality-improvement/results/Xot/`
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview

@@ -29,16 +29,22 @@ class StartQueryLogAction
                 'path' => storage_path('logs/querylog.log'),
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
             $log->debug('query : '.$sql);
             $log->debug('time '.$time);
             $log->debug('connection '.$connection);
             $log->debug('bindings '.print_r($query->bindings, true));
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
             $log->debug('query : ' . $sql);
             $log->debug('time ' . $time);
             $log->debug('connection ' . $connection);
             $log->debug('bindings ' . print_r($query->bindings, true));
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         });
     }
 }

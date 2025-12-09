@@ -7,9 +7,13 @@ namespace Modules\Xot\Filament\Clusters;
 use Filament\Clusters\Cluster as FilamentCluster;
 use Illuminate\Contracts\Support\Htmlable;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Lang;
 >>>>>>> 5a14301c (.)
+=======
+use Illuminate\Support\Facades\Lang;
+>>>>>>> 3fbbf1f5 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 class XotBaseCluster extends FilamentCluster

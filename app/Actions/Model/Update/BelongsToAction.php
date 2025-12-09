@@ -10,7 +10,10 @@ use Illuminate\Database\Eloquent\Collection;
 =======
 use Illuminate\Database\Eloquent\Collection;
 use Exception;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Arr;
@@ -39,6 +42,7 @@ class BelongsToAction
          */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! Arr::isAssoc($relationDTO->data) && \count($relationDTO->data) === 1) {
             $related_id = Arr::first($relationDTO->data);
             if ($related_id === null) {
@@ -47,6 +51,11 @@ class BelongsToAction
             $related_id = Arr::first($relationDTO->data);
             if (null === $related_id) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!Arr::isAssoc($relationDTO->data) && 1 === \count($relationDTO->data)) {
+            $related_id = Arr::first($relationDTO->data);
+            if (null === $related_id) {
+>>>>>>> 3fbbf1f5 (.)
                 return;
             }
 
@@ -57,10 +66,14 @@ class BelongsToAction
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! ($related instanceof Model)) {
 =======
             if (!($related instanceof Model)) {
 >>>>>>> 5a14301c (.)
+=======
+            if (!($related instanceof Model)) {
+>>>>>>> 3fbbf1f5 (.)
                 throw new Exception('Expected a single model, got null or invalid object.');
             }
             $res = $rows->associate($related);
@@ -73,12 +86,17 @@ class BelongsToAction
             $sub = $rows->firstOrCreate();
             // $sub = $rows->first() ?? $rows->getModel();
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ($sub === null) {
                 throw new Exception('['.__LINE__.']['.class_basename($this).']');
 =======
             if (null === $sub) {
                 throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 5a14301c (.)
+=======
+            if (null === $sub) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 3fbbf1f5 (.)
             }
 
             app(RelationAction::class)->execute($sub, $relationDTO->data);
@@ -89,6 +107,7 @@ class BelongsToAction
 
         if ($rows->exists()) {
             // $rows->update($data); // non passa per il mutator
+<<<<<<< HEAD
 <<<<<<< HEAD
             $relationName = Str::camel($relationDTO->name);
             $relation = $model->{$relationName};
@@ -101,6 +120,9 @@ class BelongsToAction
 =======
             $model->{Str::camel($relationDTO->name)}->update($data);
 >>>>>>> 5a14301c (.)
+=======
+            $model->{Str::camel($relationDTO->name)}->update($data);
+>>>>>>> 3fbbf1f5 (.)
 
             return;
         }

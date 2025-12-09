@@ -40,10 +40,13 @@ function mockXotData(): void
     
     $mockXotData->shouldReceive('getUserClass')
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->andReturn(
             \Modules\\<YourModule>\\Models\\User::class
         );
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
 >>>>>>> 5a14301c (.)
@@ -225,9 +228,12 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Version**: 1.0 - Gold Standard
 **Last Update**: Dicembre 2024 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Last Update**: Dicembre 2024 
 =======
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)

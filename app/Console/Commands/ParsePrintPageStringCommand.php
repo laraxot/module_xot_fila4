@@ -37,7 +37,10 @@ class ParsePrintPageStringCommand extends Command
      * @return void
      */
     
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Execute the console command.
@@ -46,10 +49,14 @@ class ParsePrintPageStringCommand extends Command
     {
         $str = $this->argument('str');
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($str)) {
 =======
         if (!is_string($str)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!is_string($str)) {
+>>>>>>> 3fbbf1f5 (.)
             throw new Exception('argument str must be a string');
         }
         dddx(app(ParsePrintPageStringAction::class)->execute($str));

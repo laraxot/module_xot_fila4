@@ -45,10 +45,14 @@ class XlsByModelClassAction
         array $includes = [],
         array $excludes = [],
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?callable $callback = null,
 =======
         null|callable $callback = null,
 >>>>>>> 5a14301c (.)
+=======
+        null|callable $callback = null,
+>>>>>>> 3fbbf1f5 (.)
     ): BinaryFileResponse {
         // Verifichiamo che la classe del modello esista
         Assert::classExists($modelClass);
@@ -130,7 +134,10 @@ class XlsByModelClassAction
 =======
      * @param array<int, string> $includes Campi da includere
      *
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
      * @return array<int, string>
      */
     private function getWithByIncludes(array $includes): array

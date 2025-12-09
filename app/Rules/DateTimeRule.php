@@ -8,9 +8,13 @@ use Exception;
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Carbon;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Webmozart\Assert\Assert;
 >>>>>>> 5a14301c (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 3fbbf1f5 (.)
 
 /**
  * Class DateTimeRule.
@@ -53,7 +57,10 @@ class DateTimeRule implements Rule
             __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__) . ' - Value must be a string for datetime validation'
         );
 
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         $format = 'd/m/Y H:i';
         try {
             $value_new = Carbon::createFromFormat($format, $value);

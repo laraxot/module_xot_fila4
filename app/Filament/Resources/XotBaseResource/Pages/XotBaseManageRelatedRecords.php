@@ -29,10 +29,14 @@ use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 use Webmozart\Assert\Assert;
 >>>>>>> 5a14301c (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 3fbbf1f5 (.)
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -153,6 +157,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
                 ->label('Modifica')
                 ->icon('heroicon-o-pencil')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->url(function (Model $record): string {
                     $url = static::getResource()::getUrl('edit', ['record' => $record]);
 
@@ -161,6 +166,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 =======
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
 >>>>>>> 5a14301c (.)
+=======
+                ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+>>>>>>> 3fbbf1f5 (.)
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')
@@ -230,10 +238,14 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return Str::of($relationship)
             ->title()
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->prepend($titleString.' - ')
 =======
             ->prepend($titleString . ' - ')
 >>>>>>> 5a14301c (.)
+=======
+            ->prepend($titleString . ' - ')
+>>>>>>> 3fbbf1f5 (.)
             ->toString();
     }
 }

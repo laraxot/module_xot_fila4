@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
 use Filament\Support\Components\Component;
@@ -19,6 +20,8 @@ class SessionResource extends XotBaseResource
      * @return array<int, Component>
      */
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Override;
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;

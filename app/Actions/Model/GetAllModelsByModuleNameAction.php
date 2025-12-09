@@ -39,6 +39,7 @@ class GetAllModelsByModuleNameAction
     {
         $mod = Module::find($moduleName);
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
             return [];
         }
@@ -51,6 +52,8 @@ class GetAllModelsByModuleNameAction
         $data = [];
         $ns = 'Modules\\'.$mod->getName().'\\Models';
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (!($mod instanceof \Nwidart\Modules\Module)) {
             return [];
         }
@@ -100,7 +103,10 @@ class GetAllModelsByModuleNameAction
                 try {
                     $reflection_class = new ReflectionClass($tmp->class);
                     if (!$reflection_class->isAbstract()) {
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

@@ -58,7 +58,10 @@ class ExceptionHandler
                 );
             }
             $view_params = ['exception' => $e];
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             return response()->view($view, $view_params, $status_code);
         });
     }

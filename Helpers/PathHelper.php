@@ -28,19 +28,27 @@ class PathHelper
      * Percorso base di Laravel.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
 =======
     public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 >>>>>>> 5a14301c (.)
+=======
+    public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Percorso base dei moduli.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static string $modulesBasePath = '/var/www/html/<nome progetto>/laravel/Modules';
 =======
     public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
 >>>>>>> 5a14301c (.)
+=======
+    public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Ottiene il percorso completo di un modulo.
@@ -172,15 +180,21 @@ class PathHelper
     {
         // Verifica che il percorso contenga /laravel/Modules/ e non solo /Modules/
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (Str::contains($path, '/Modules/') && ! Str::contains($path, '/laravel/Modules/')) {
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (Str::contains($path, '/saluteora/Modules/')) {
             return false;
         }
 
         // Verifica che il percorso contenga /laravel/ dopo /saluteora/
         if (Str::contains($path, '/saluteora/') && !Str::contains($path, '/saluteora/laravel/')) {
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             return false;
         }
 
@@ -196,10 +210,13 @@ class PathHelper
     public static function correctPath(string $path): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Corregge /var/www/html/Modules/ in /var/www/html/<nome progetto>/laravel/Modules/
         if (Str::contains($path, '/var/www/html/Modules/')) {
             $path = Str::replace('/var/www/html/Modules/', self::$modulesBasePath.'/', $path);
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         // Corregge /var/www/html/saluteora/Modules/ in /var/www/html/saluteora/laravel/Modules/
         if (Str::contains($path, '/saluteora/Modules/')) {
             return str_replace('/saluteora/Modules/', '/saluteora/laravel/Modules/', $path);
@@ -208,7 +225,10 @@ class PathHelper
         // Corregge /var/www/html/Modules/ in /var/www/html/saluteora/laravel/Modules/
         if (Str::contains($path, '/var/www/html/Modules/')) {
             return str_replace('/var/www/html/Modules/', '/var/www/html/saluteora/laravel/Modules/', $path);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         return $path;

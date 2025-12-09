@@ -54,7 +54,10 @@ class GetPdfContentByRecordAction
      * @return string Contenuto binario del PDF
      */
     public function execute(Model $record, null|string $filename = null): string
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         // Generate view name following Laraxot conventions
         $viewName = $this->generateViewName($record);
@@ -64,12 +67,17 @@ class GetPdfContentByRecordAction
 
         // Validate view existence
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! view()->exists($viewName)) {
             throw new Exception("View '{$viewName}' not found for model ".$record::class);
 =======
         if (!view()->exists($viewName)) {
             throw new Exception("View '{$viewName}' not found for model " . get_class($record));
 >>>>>>> 5a14301c (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 3fbbf1f5 (.)
         }
 
         // Render view to HTML
@@ -138,7 +146,10 @@ class GetPdfContentByRecordAction
         $module = Str::between($modelClass, 'Modules\\', '\\Models');
 
         return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 
     /**
@@ -168,8 +179,11 @@ class GetPdfContentByRecordAction
             'view' => $viewName,
             'row' => $record,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
             'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
 >>>>>>> 5a14301c (.)
         ];
@@ -203,10 +217,13 @@ class GetPdfContentByRecordAction
     protected function generateFilename(Model $record): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $modelName = class_basename($record::class);
         $recordKey = $record->getKey();
         $baseFilename = mb_strtolower($modelName).'_'.(string) ($recordKey ?? 'unknown');
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $modelName = class_basename(get_class($record));
         $recordKey = $record->getKey();
         $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
@@ -230,18 +247,24 @@ class GetPdfContentByRecordAction
         // Enhanced filename for records with name field
         if (isset($record->name) && is_string($record->name)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             return $baseFilename.'_'.Str::slug($record->name).'.pdf';
         }
 
         // Default filename pattern
         return $baseFilename.'.pdf';
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
             return $baseFilename . '_' . Str::slug($record->name) . '.pdf';
         }
 
         // Default filename pattern
         return $baseFilename . '.pdf';
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 
     /**
@@ -291,10 +314,14 @@ class GetPdfContentByRecordAction
             ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
 =======
             throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
 >>>>>>> 5a14301c (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 3fbbf1f5 (.)
         }
     }
 }

@@ -26,10 +26,13 @@ class MainDashboard extends XotBaseDashboard
     // protected static string $routePath = 'main';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static ?string $title = 'Main Dashboard';
 
     protected static ?int $navigationSort = 1;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
     protected static null|string $title = 'Main Dashboard';
 
     protected static null|int $navigationSort = 1;

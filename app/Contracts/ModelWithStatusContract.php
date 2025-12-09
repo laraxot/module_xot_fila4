@@ -90,6 +90,7 @@ interface ModelWithStatusContract
     public function statuses(): MorphMany;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function status(): ?Status;
 
     public function setStatus(string $name, ?string $reason = null): self;
@@ -98,4 +99,9 @@ interface ModelWithStatusContract
 
     public function setStatus(string $name, null|string $reason = null): self;
 >>>>>>> 5a14301c (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 3fbbf1f5 (.)
 }

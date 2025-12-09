@@ -18,7 +18,10 @@ use Filament\Tables\Table;
 use Modules\Xot\Tests\Unit\Support\DummyTestModel;
 use Modules\Xot\Tests\Unit\Support\HasTableWithoutOptionalMethodsTestClass;
 use Modules\Xot\Tests\Unit\Support\HasTableWithXotTestClass;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
 uses(TestCase::class);
 

@@ -7,8 +7,11 @@ namespace Modules\Xot\Actions\Export;
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Model;
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 >>>>>>> 5a14301c (.)
 use Illuminate\Support\Collection;
@@ -48,12 +51,15 @@ class ExportXlsByCollection
         Collection|EloquentCollection $collection,
         string $filename = 'test.xlsx',
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(fn (mixed $field): string => (string) $field, array_values($fields));
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         null|string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {

@@ -5,11 +5,14 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\DeleteAction;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 use Filament\Support\Components\Component;
 use Illuminate\Database\Eloquent\Model;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
@@ -64,6 +67,7 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     {
         return static::transFunc(__FUNCTION__);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     public static function canDelete(Model $record): bool
@@ -122,4 +126,6 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     }
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 }

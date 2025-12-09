@@ -10,10 +10,15 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use function count;
 
 >>>>>>> 5a14301c (.)
+=======
+use function count;
+
+>>>>>>> 3fbbf1f5 (.)
 /**
  * Class RouteService.
  * Modules\Xot\Services\RouteService.
@@ -93,18 +98,24 @@ class RouteService
         $routename = ''; // Request::route()->getName();
         $old_act_route = last(explode('.', $routename));
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \is_string($old_act_route)) {
             throw new Exception('['.__LINE__.']['.class_basename(self::class).']');
         }
 
         $routename_act = Str::before($routename, $old_act_route).''.$act;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (!\is_string($old_act_route)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename(self::class) . ']');
         }
 
         $routename_act = Str::before($routename, $old_act_route) . '' . $act;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         $route_current = Route::current();
         $route_params = [];
         if ($route_current instanceof \Illuminate\Routing\Route) {
@@ -127,10 +138,14 @@ class RouteService
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return '#'.$routename_act;
 =======
         return '#' . $routename_act;
 >>>>>>> 5a14301c (.)
+=======
+        return '#' . $routename_act;
+>>>>>>> 3fbbf1f5 (.)
     }
 
     // se n=0 => 'container0'
@@ -155,12 +170,17 @@ class RouteService
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         for ($i = 0; $i <= $n; $i++) {
             $tmp[] = 'container'.$i;
 =======
         for ($i = 0; $i <= $n; ++$i) {
             $tmp[] = 'container' . $i;
 >>>>>>> 5a14301c (.)
+=======
+        for ($i = 0; $i <= $n; ++$i) {
+            $tmp[] = 'container' . $i;
+>>>>>>> 3fbbf1f5 (.)
         }
 
         $tmp[] = $act;
@@ -404,8 +424,11 @@ class RouteService
 
         return collect($tmp_arr)
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
             ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
 >>>>>>> 5a14301c (.)
             ->map(static function ($item) use ($params) {

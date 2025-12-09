@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Carbon\Carbon;
 use Flowframe\Trend\Trend;
 use Flowframe\Trend\TrendValue;
@@ -24,6 +25,8 @@ class ModelTrendChartWidget extends XotBaseChartWidget
     #[\Override]
     public function getHeading(): ?string
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Override;
 use Carbon\Carbon;
 use Exception;
@@ -43,16 +46,23 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 
     #[Override]
     public function getHeading(): null|string
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         return static::transClass($this->model, 'widgets.model_trend_chart.heading');
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
 >>>>>>> 5a14301c (.)
+=======
+    #[Override]
+>>>>>>> 3fbbf1f5 (.)
     protected function getData(): array
     {
         try {
@@ -83,6 +93,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
                     ],
                 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'labels' => $data->map(fn (mixed $value) => $value instanceof TrendValue
                     ? Carbon::parse($value->date)->format('d/m')
                     : ''),
@@ -92,6 +103,11 @@ class ModelTrendChartWidget extends XotBaseChartWidget
                 'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
                     ? Carbon::parse($value->date)->format('d/m')
                     : ''),
+=======
+                'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+                    ? Carbon::parse($value->date)->format('d/m')
+                    : ''),
+>>>>>>> 3fbbf1f5 (.)
             ];
         } catch (Exception $e) {
 >>>>>>> 5a14301c (.)
@@ -117,10 +133,14 @@ class ModelTrendChartWidget extends XotBaseChartWidget
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
 >>>>>>> 5a14301c (.)
+=======
+    #[Override]
+>>>>>>> 3fbbf1f5 (.)
     protected function getType(): string
     {
         return 'line';

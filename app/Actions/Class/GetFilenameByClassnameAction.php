@@ -29,19 +29,27 @@ class GetFilenameByClassnameAction
         } catch (Exception $e) {
             $filename = str_replace('\\', '/', $class_name);
 <<<<<<< HEAD
+<<<<<<< HEAD
             $filename = base_path($filename).'.php';
 =======
             $filename = base_path($filename) . '.php';
 >>>>>>> 5a14301c (.)
+=======
+            $filename = base_path($filename) . '.php';
+>>>>>>> 3fbbf1f5 (.)
         }
 
         if (is_string($filename)) {
             return $filename;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
 =======
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
 >>>>>>> 5a14301c (.)
+=======
+        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+>>>>>>> 3fbbf1f5 (.)
     }
 }

@@ -21,12 +21,18 @@ class GenerateModelByModelClass
      * Execute the function with the given model class.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $model_class  the class name of the model
 =======
      * @param string $model_class the class name of the model
      *
      * @return string
 >>>>>>> 5a14301c (.)
+=======
+     * @param string $model_class the class name of the model
+     *
+     * @return string
+>>>>>>> 3fbbf1f5 (.)
      */
     public function execute(string $model_class): string
     {
@@ -42,9 +48,12 @@ class GenerateModelByModelClass
         $content = $content_old;
         foreach ($this->replaces as $k => $v) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (method_exists($this, 'replace'.$k)) {
                 $content = $this->{'replace'.$k}($v, $content);
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
             if (method_exists($this, 'replace' . $k)) {
                 $content = $this->{'replace' . $k}($v, $content);
 >>>>>>> 5a14301c (.)
@@ -60,7 +69,10 @@ class GenerateModelByModelClass
         $content = str_replace(' extends Model', ' extends BaseModel', $content);
         $content = str_replace('use HasFactory;', '', $content);
         Assert::string($content, '[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
         if ($content !== $content_old) {
             File::put($filename, $content);
@@ -90,7 +102,10 @@ class GenerateModelByModelClass
             $before = mb_substr($content, 0, $fillable_end + 2);
             $after = mb_substr($content, $fillable_end + 2);
             $content = $before . PHP_EOL . '    protected $table = "' . $value . '";' . PHP_EOL . $after;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         return $content;
@@ -100,12 +115,18 @@ class GenerateModelByModelClass
      * Create a factory for the given model class.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $model_class  The class name of the model to create the factory for
 =======
      * @param string $model_class The class name of the model to create the factory for
      *
      * @return void
 >>>>>>> 5a14301c (.)
+=======
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+>>>>>>> 3fbbf1f5 (.)
      */
     public function generate(string $model_class): void
     {

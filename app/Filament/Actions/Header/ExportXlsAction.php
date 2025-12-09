@@ -13,7 +13,10 @@ namespace Modules\Xot\Filament\Actions\Header;
 // use Filament\Actions\Action;
 =======
 // use Filament\Tables\Actions\Action;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
@@ -100,10 +103,14 @@ class ExportXlsAction extends Action
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
     {
         return 'export_xls';
     }

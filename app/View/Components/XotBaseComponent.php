@@ -85,6 +85,7 @@ abstract class XotBaseComponent extends IlluminateComponent
         $comp_name = Str::snake($comp_name);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view = $module_name_low.'::components.'.$comp_name;
         $view = str_replace('._', '.', $view);
 
@@ -94,6 +95,8 @@ abstract class XotBaseComponent extends IlluminateComponent
 
         /** @var view-string $view */
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $view = $module_name_low . '::components.' . $comp_name;
         $view = str_replace('._', '.', $view);
 

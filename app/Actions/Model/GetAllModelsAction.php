@@ -10,9 +10,12 @@ namespace Modules\Xot\Actions\Model;
 
 use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetAllModelsAction
@@ -21,6 +24,7 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @return array<int, class-string>
@@ -44,6 +48,8 @@ class GetAllModelsAction
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleNameValue);
             /** @var array<int, class-string> $tmp */
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
      */
     public function execute(): array
     {

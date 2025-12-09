@@ -5,11 +5,15 @@ declare(strict_types=1);
 namespace Modules\Xot\Interfaces;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
 =======
 use Filament\Actions\BulkAction;
+=======
+use Filament\Actions\BulkAction;
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Tables\Columns\Column;
 use Filament\Actions\Action;
 >>>>>>> 5a14301c (.)

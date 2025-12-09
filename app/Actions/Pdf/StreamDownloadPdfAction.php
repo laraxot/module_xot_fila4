@@ -6,17 +6,23 @@ namespace Modules\Xot\Actions\Pdf;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Webmozart\Assert\Assert;
 
 class StreamDownloadPdfAction
@@ -28,6 +34,7 @@ class StreamDownloadPdfAction
     /**
      * Genera un PDF dall'HTML fornito.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string|null  $html  Contenuto HTML da convertire
      * @param  string|null  $view  Nome della view da renderizzare
@@ -50,6 +57,8 @@ class StreamDownloadPdfAction
         }
         Assert::string($html, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
      * @param string $html Contenuto HTML da convertire
      * @param string $filename Nome del file PDF
      * @return StreamedResponse
@@ -70,11 +79,15 @@ class StreamDownloadPdfAction
             $html = view($view, $data)->render();
         }
         Assert::string($html, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [10, 10, 10, 10]);
         $html2pdf->writeHTML($html);
 
         // Genera e scarica il PDF
+<<<<<<< HEAD
 <<<<<<< HEAD
         return response()->streamDownload(function () use ($html2pdf): void {
             $html2pdf->output();
@@ -84,5 +97,10 @@ class StreamDownloadPdfAction
             $html2pdf->output();
         }, 'report-' . $filename);
 >>>>>>> 5a14301c (.)
+=======
+        return response()->streamDownload(function () use ($html2pdf) {
+            $html2pdf->output();
+        }, 'report-' . $filename);
+>>>>>>> 3fbbf1f5 (.)
     }
 }

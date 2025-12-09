@@ -12,11 +12,15 @@ uses(TestCase::class);
 
 beforeEach(function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $this->baseModel = new class extends BaseModel
     {
 =======
     $this->baseModel = new class extends BaseModel {
 >>>>>>> 5a14301c (.)
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 3fbbf1f5 (.)
         protected $table = 'test_table';
     };
 });

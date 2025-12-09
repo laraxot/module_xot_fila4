@@ -32,7 +32,10 @@ class HasOneAction
             $related = $relationDTO->related->find($related_id);
             if (!($related instanceof Model)) {
                 throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             }
 
             $rows->save($related);

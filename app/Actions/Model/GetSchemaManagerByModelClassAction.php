@@ -14,7 +14,10 @@ use Doctrine\DBAL\Schema\AbstractSchemaManager;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Facades\DB;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -26,10 +29,14 @@ class GetSchemaManagerByModelClassAction
      * Ottiene lo schema manager Doctrine per una classe di modello Eloquent.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $modelClass  La classe del modello
 =======
      * @param string $modelClass La classe del modello
 >>>>>>> 5a14301c (.)
+=======
+     * @param string $modelClass La classe del modello
+>>>>>>> 3fbbf1f5 (.)
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
     public function execute(string $modelClass): AbstractSchemaManager
@@ -42,6 +49,7 @@ class GetSchemaManagerByModelClassAction
         if (method_exists($connection, 'getDoctrineSchemaManager')) {
             /** @phpstan-ignore deprecated.method */
 <<<<<<< HEAD
+<<<<<<< HEAD
             $schemaManager = $connection->getDoctrineSchemaManager();
 
             Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class);
@@ -50,6 +58,9 @@ class GetSchemaManagerByModelClassAction
 =======
             return $connection->getDoctrineSchemaManager();
 >>>>>>> 5a14301c (.)
+=======
+            return $connection->getDoctrineSchemaManager();
+>>>>>>> 3fbbf1f5 (.)
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

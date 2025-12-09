@@ -5,11 +5,14 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\CacheLockResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Override;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Override;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;

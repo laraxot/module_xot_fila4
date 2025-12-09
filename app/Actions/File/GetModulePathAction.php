@@ -24,7 +24,10 @@ class GetModulePathAction
 =======
      * @param string $moduleName Il nome del modulo
      *
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
      * @return string Il percorso completo del modulo
      */
     public function execute(string $moduleName): string
@@ -34,12 +37,17 @@ class GetModulePathAction
         } catch (Exception) {
             $modulesPath = base_path('Modules');
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! File::exists($modulesPath)) {
                 return __DIR__.'/../';
 =======
             if (!File::exists($modulesPath)) {
                 return __DIR__ . '/../';
 >>>>>>> 5a14301c (.)
+=======
+            if (!File::exists($modulesPath)) {
+                return __DIR__ . '/../';
+>>>>>>> 3fbbf1f5 (.)
             }
 
             $files = scandir($modulesPath);
@@ -72,7 +80,10 @@ class GetModulePathAction
             }
 
             $module_path = base_path('Modules/' . $foundModule);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         return $module_path;

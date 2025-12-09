@@ -46,7 +46,10 @@ class RelationAction
             $relationshipType = class_basename($relationClass);
 
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             Assert::object($action = app($actionClass));
 
             if (method_exists($action, 'execute')) {

@@ -28,6 +28,7 @@ class GetTransFilenameAction
             Assert::string($langPath, 'Percorso lang non valido');
         } catch (Throwable $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $langPath = base_path('Modules/'.$ns.'/lang');
         }
 
@@ -35,6 +36,8 @@ class GetTransFilenameAction
 
         return str_replace(['\\', '/'], [DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $lang_path_full);
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
             $langPath = base_path('Modules/' . $ns . '/lang');
         }
 

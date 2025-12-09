@@ -14,10 +14,14 @@ class CreateDirectoryForFilenameAction
     public function execute(string $filename): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! File::exists(\dirname($filename))) {
 =======
         if (!File::exists(\dirname($filename))) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!File::exists(\dirname($filename))) {
+>>>>>>> 3fbbf1f5 (.)
             File::makeDirectory(\dirname($filename), 0o755, true, true);
         }
     }

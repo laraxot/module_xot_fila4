@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Traits;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
@@ -13,6 +14,11 @@ use Filament\Tables\Columns\Column;
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 >>>>>>> 5a14301c (.)
+=======
+use Filament\Tables\Columns\Column;
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Tables\Columns\TextColumn;
 
 trait HasTableFunctionsTrait
@@ -43,8 +49,11 @@ trait HasTableFunctionsTrait
             'edit' => Action::make('edit')
                 ->label('Modifica')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->url(fn ($record): string => route('filament.resources.'.$this->getResourceSlug().'.edit', [
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
                 ->url(fn($record): string => route('filament.resources.' . $this->getResourceSlug() . '.edit', [
 >>>>>>> 5a14301c (.)
                     'record' => $record,
@@ -52,10 +61,14 @@ trait HasTableFunctionsTrait
             'delete' => Action::make('delete')
                 ->label('Elimina')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->action(fn ($record) => $record->delete())
 =======
                 ->action(fn($record) => $record->delete())
 >>>>>>> 5a14301c (.)
+=======
+                ->action(fn($record) => $record->delete())
+>>>>>>> 3fbbf1f5 (.)
                 ->requiresConfirmation(),
         ];
     }
@@ -71,10 +84,14 @@ trait HasTableFunctionsTrait
             'delete' => BulkAction::make('delete')
                 ->label('Elimina selezionati')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->action(fn ($records) => $records->each->delete())
 =======
                 ->action(fn($records) => $records->each->delete())
 >>>>>>> 5a14301c (.)
+=======
+                ->action(fn($records) => $records->each->delete())
+>>>>>>> 3fbbf1f5 (.)
                 ->requiresConfirmation(),
         ];
     }

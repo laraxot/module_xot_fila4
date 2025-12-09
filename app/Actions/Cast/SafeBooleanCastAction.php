@@ -53,7 +53,10 @@ class SafeBooleanCastAction
      * @return bool Il valore convertito
      */
     public function execute(mixed $value, null|bool $default = false): bool
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         // Se è già un boolean, restituiscilo direttamente
         if (is_bool($value)) {

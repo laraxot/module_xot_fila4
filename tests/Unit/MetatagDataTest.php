@@ -3,7 +3,10 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Support\Colors\Color;
 use Modules\Xot\Datas\MetatagData;
 
@@ -82,6 +85,7 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
     /** @phpstan-ignore-next-line method.nonObject */
     $colors = $metatagData->getColors();
 
+<<<<<<< HEAD
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
 =======
@@ -89,6 +93,9 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
 >>>>>>> 5a14301c (.)
+=======
+    expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+>>>>>>> 3fbbf1f5 (.)
 });
 
 /**

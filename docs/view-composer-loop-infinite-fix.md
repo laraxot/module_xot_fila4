@@ -246,9 +246,12 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 **Tempo di risoluzione**: 15 minuti  
 **Pattern**: View Composer Loop Prevention 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Pattern**: View Composer Loop Prevention 
 =======
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)

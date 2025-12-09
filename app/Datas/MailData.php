@@ -47,10 +47,14 @@ class MailData extends Data
         public readonly string $from_address = 'no-reply@example.com',
         public readonly string $from_name = 'Laraxot App',
 <<<<<<< HEAD
+<<<<<<< HEAD
         public readonly ?string $reply_to = null,
 =======
         public readonly null|string $reply_to = null,
 >>>>>>> 5a14301c (.)
+=======
+        public readonly null|string $reply_to = null,
+>>>>>>> 3fbbf1f5 (.)
         public readonly bool $verify_peer = true,
     ) {}
 

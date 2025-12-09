@@ -76,7 +76,10 @@ lerna-debug.log*
 
 # ==============================================
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 # LARAVEL SPECIFIC
 # ==============================================
 # Dependencies and packages
@@ -281,4 +284,7 @@ database_old
 *.fila2
 laravel
 public_html
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)

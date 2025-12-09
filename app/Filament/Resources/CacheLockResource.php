@@ -5,13 +5,17 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Schemas\Components\Component;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\CreateCacheLock;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\EditCacheLock;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\ListCacheLocks;
 use Modules\Xot\Models\CacheLock;
 use Override;
+<<<<<<< HEAD
 
 class CacheLockResource extends XotBaseResource
 {
@@ -19,6 +23,8 @@ class CacheLockResource extends XotBaseResource
 =======
 use Filament\Schemas\Components\Component;
 use Override;
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\ListCacheLocks;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\CreateCacheLock;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\EditCacheLock;
@@ -30,7 +36,10 @@ use Modules\Xot\Models\CacheLock;
 class CacheLockResource extends XotBaseResource
 {
     protected static null|string $model = CacheLock::class;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Get the form schema for the resource.

@@ -5,6 +5,10 @@ declare(strict_types=1);
 namespace Modules\Xot\Services\Trend\Adapters;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> 3fbbf1f5 (.)
 use Error;
 use Override;
 =======

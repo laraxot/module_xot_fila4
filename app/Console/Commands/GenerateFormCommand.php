@@ -47,13 +47,17 @@ class GenerateFormCommand extends Command
      * @return void
      */
     
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Execute the console command.
      */
     public function handle(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         Assert::string($module_name = $this->argument('module'), '['.__LINE__.']['.class_basename($this).']');
         $module_path = Module::getModulePath($module_name);
@@ -65,6 +69,8 @@ class GenerateFormCommand extends Command
         $this->info($module_name);
         $this->info($module_path);
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         Assert::string($module_name = $this->argument('module'), '[' . __LINE__ . '][' . class_basename($this) . ']');
         $module_path = Module::getModulePath($module_name);
         if (!Str::endsWith($module_path, '/')) {

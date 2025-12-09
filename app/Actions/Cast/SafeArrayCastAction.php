@@ -53,7 +53,10 @@ class SafeArrayCastAction
      * @return array Il valore convertito
      */
     public function execute(mixed $value, null|array $default = []): array
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         // Se è già un array, restituiscilo direttamente
         if (is_array($value)) {
@@ -251,7 +254,10 @@ class SafeArrayCastAction
      * @return array Il valore convertito in array
      */
     public static function cast(mixed $value, null|array $default = []): array
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         return app(self::class)->execute($value, $default);
     }
@@ -274,7 +280,10 @@ class SafeArrayCastAction
      * @return array Il valore convertito con chiavi validate
      */
     public static function castWithKeys(mixed $value, array $requiredKeys, null|array $default = []): array
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         return app(self::class)->executeWithKeys($value, $requiredKeys, $default);
     }
@@ -297,7 +306,10 @@ class SafeArrayCastAction
      * @return array Il valore convertito con solo le chiavi permesse
      */
     public static function castWithFilter(mixed $value, array $allowedKeys, null|array $default = []): array
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         return app(self::class)->executeWithFilter($value, $allowedKeys, $default);
     }
@@ -320,7 +332,10 @@ class SafeArrayCastAction
      * @return array Il valore convertito con valori del tipo richiesto
      */
     public static function castWithValueType(mixed $value, string $valueType, null|array $default = []): array
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         return app(self::class)->executeWithValueType($value, $valueType, $default);
     }

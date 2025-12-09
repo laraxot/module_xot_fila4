@@ -43,7 +43,10 @@ final class GetFieldnamesByTablenameAction
      * @return list
      */
     public function execute(string $table, null|string $connectionName = null): array
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         // Validate table name
         if (empty(trim($table))) {

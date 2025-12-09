@@ -15,6 +15,7 @@ class CopyAction
     public function execute(string $from, string $to): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
@@ -24,6 +25,8 @@ class CopyAction
                     $e->getMessage().
                     ' ['.__LINE__.']['.class_basename(static::class).']',
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (!File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);

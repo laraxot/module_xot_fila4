@@ -27,7 +27,10 @@ class ViewPathAction
             '[' . __LINE__ . '][' . class_basename(static::class) . ']',
         );
         $res = $ns_dir . '/' . $group_dir . '.blade.php';
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
         return app(FixPathAction::class)->execute($res);
     }

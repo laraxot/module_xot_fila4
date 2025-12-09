@@ -29,7 +29,10 @@ use Webmozart\Assert\Assert;
  * - Laravel Way: Rispetta l'architettura Eloquent
  * - Assert: Utilizza webmozart/assert per validazioni robuste
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
  *
  * @package Modules\Xot\Actions\Cast
 >>>>>>> 5a14301c (.)
@@ -384,10 +387,14 @@ class SafeAttributeCastAction
      * Metodo statico per utilizzare getStringAttribute.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getString(Model $model, string $attribute, ?string $default = ''): string
 =======
     public static function getString(Model $model, string $attribute, null|string $default = ''): string
 >>>>>>> 5a14301c (.)
+=======
+    public static function getString(Model $model, string $attribute, null|string $default = ''): string
+>>>>>>> 3fbbf1f5 (.)
     {
         return app(self::class)->getStringAttribute($model, $attribute, $default);
     }

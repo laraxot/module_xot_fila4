@@ -17,7 +17,10 @@ use ReflectionClass;
 use Filament\Resources\Resource;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Finder\SplFileInfo as File;
 use Webmozart\Assert\Assert;
@@ -36,22 +39,31 @@ class GenerateFormByFileAction
 =======
      * @param File $file Il file della risorsa Filament
      *
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
      * @return int Numero di input aggiunti
      */
     public function execute(File $file): int
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! $file->isFile()) {
             return 0;
         }
         if (! \in_array($file->getExtension(), ['php'], false)) {
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (!$file->isFile()) {
             return 0;
         }
         if (!\in_array($file->getExtension(), ['php'], false)) {
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             return 0;
         }
 
@@ -122,10 +134,14 @@ class GenerateFormByFileAction
         $end_line = $form_method->getEndLine();
         $length = $end_line - $start_line;
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::string($file_name = $form_method->getFileName(), '['.__LINE__.']['.class_basename($this).']');
 =======
         Assert::string($file_name = $form_method->getFileName(), '[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 5a14301c (.)
+=======
+        Assert::string($file_name = $form_method->getFileName(), '[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 3fbbf1f5 (.)
         // $contents= $file->getContents();
         $source = file($file_name);
         $body = implode('', \array_slice($source, $start_line, $length));
@@ -133,6 +149,7 @@ class GenerateFormByFileAction
         // Otteniamo i metodi della classe risorsa
         $resourceMethods = get_class_methods($resourceInstance);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         \Illuminate\Support\Facades\Log::debug('GenerateFormByFileAction', [
             'line' => __LINE__,
@@ -150,6 +167,8 @@ class GenerateFormByFileAction
 
         return $inputCount;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         dd([
             'class_name' => $class_name,
             'model_name' => $modelClass,

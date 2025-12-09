@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Error;
@@ -14,6 +15,8 @@ use Illuminate\Support\Str;
 use Modules\Xot\Contracts\StateContract;
 use Override;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 use Error;
@@ -33,16 +36,27 @@ class StateOverviewWidget extends XotBaseWidget
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * Vista del widget.
+     */
+    protected string $view = 'xot::filament.widgets.state-overview';
+
+    /**
+>>>>>>> 3fbbf1f5 (.)
      * Titolo del widget.
      */
     public string $title = '';
 
+<<<<<<< HEAD
     public string $stateClass;
 
     public string $model;
 
     public string $cacheKey = '';
 
+=======
+>>>>>>> 3fbbf1f5 (.)
     /**
 =======
 >>>>>>> 5a14301c (.)
@@ -67,8 +81,11 @@ class StateOverviewWidget extends XotBaseWidget
      * Intervallo di polling disabilitato per performance.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static ?string $pollingInterval = null;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
     protected static null|string $pollingInterval = null;
 
     public string $stateClass;
@@ -142,10 +159,13 @@ class StateOverviewWidget extends XotBaseWidget
 
         Assert::isArray($res);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         /** @var array<int, array<string, mixed>> $res */
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         return $res;
     }
 

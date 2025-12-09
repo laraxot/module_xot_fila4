@@ -28,7 +28,10 @@ use Webmozart\Assert\Assert;
  * - Assert: Utilizza webmozart/assert per validazioni robuste
  * - NO property_exists: Mai utilizzare property_exists con modelli Eloquent
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
  *
  * @package Modules\Xot\Actions\Cast
 >>>>>>> 5a14301c (.)

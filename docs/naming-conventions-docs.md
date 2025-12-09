@@ -76,9 +76,12 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 - [Convenzioni Generali](conventions.md)
 - [Best Practices Documentazione](documentation-guidelines.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Best Practices Documentazione](documentation-guidelines.md) 
 =======
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)

@@ -33,7 +33,10 @@ use function Safe\json_decode;
  * - Sicurezza: Previene errori di accesso a proprietà inesistenti
  * - Assert: Utilizza webmozart/assert per validazioni robuste
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
  *
  * @package Modules\Xot\Actions\Cast
 >>>>>>> 5a14301c (.)
@@ -508,15 +511,21 @@ class SafeObjectCastAction
         mixed $default = null,
     ): mixed {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::stringNotEmpty($method);
 
         if (! method_exists($object, $method)) {
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         Assert::object($object);
         Assert::stringNotEmpty($method);
 
         if (!method_exists($object, $method)) {
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             return $default;
         }
 

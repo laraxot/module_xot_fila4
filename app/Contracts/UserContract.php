@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Contracts;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\Team;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -43,6 +44,8 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  */
 interface UserContract extends Authenticatable
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Support\Contracts\HasLabel;
 use Spatie\Permission\Contracts\Permission;
 use Override;
@@ -281,5 +284,8 @@ interface UserContract extends
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 }

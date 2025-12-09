@@ -37,8 +37,11 @@ class ExportXlsByQuery
         string $filename = 'test.xlsx',
         array $fields = [],
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?int $limit = null,
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         null|int $limit = null,
 >>>>>>> 5a14301c (.)
     ): BinaryFileResponse {

@@ -41,7 +41,10 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     public array $fields = [];
 
     public null|string $transKey = null;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
     public QueryBuilder|EloquentBuilder $query;
 
@@ -54,7 +57,10 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
      * @param array<int, string> $fields
      */
     public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         $this->query = $query;
         $this->transKey = $transKey;
@@ -84,6 +90,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
      */
     public function getHead(): Collection
     {
+<<<<<<< HEAD
         if (! empty($this->fields)) {
             return collect(array_values($this->fields))
                 ->map(
@@ -92,6 +99,8 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 =======
     public function getHead(): Collection
     {
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (!empty($this->fields)) {
             return collect($this->fields);
 >>>>>>> 5a14301c (.)
@@ -222,6 +231,9 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 
         // rameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
         return collect($item)->only($this->fields)->toArray();
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 }

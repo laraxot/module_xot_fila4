@@ -40,12 +40,15 @@ class ExportXlsStreamByLazyCollection
         LazyCollection $data,
         string $filename = 'test.csv',
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?string $transKey = null,
         ?array $_fields = null,
     ): StreamedResponse {
         $headers = [
             'Content-Disposition' => 'attachment; filename='.$filename,
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         null|string $transKey = null,
         null|array $_fields = null,
     ): StreamedResponse {
@@ -86,7 +89,10 @@ class ExportXlsStreamByLazyCollection
 =======
                             return null;
                         }
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                         return is_string($item) ? $item : ((string) $item);
                     }, $rowData);
 
@@ -141,10 +147,13 @@ class ExportXlsStreamByLazyCollection
         $headings = collect($headArray)->keys();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($transKey !== null) {
             $headings = $headings->map(static function (string $item) use ($transKey) {
                 $key = $transKey.'.fields.'.$item;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (null !== $transKey) {
             $headings = $headings->map(static function (string $item) use ($transKey) {
                 $key = $transKey . '.fields.' . $item;

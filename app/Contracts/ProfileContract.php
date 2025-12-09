@@ -59,10 +59,14 @@ interface ProfileContract extends HasMedia
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?string $guard = null,
 =======
         null|string $guard = null,
 >>>>>>> 5a14301c (.)
+=======
+        null|string $guard = null,
+>>>>>>> 3fbbf1f5 (.)
     ): bool;
 
     /**
@@ -79,8 +83,11 @@ interface ProfileContract extends HasMedia
      * @throws PermissionDoesNotExist
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
     public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
 
     /**

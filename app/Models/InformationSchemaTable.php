@@ -101,7 +101,10 @@ class InformationSchemaTable extends Model
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
      * The attributes that are mass assignable.
      *
 >>>>>>> 5a14301c (.)
@@ -143,6 +146,7 @@ class InformationSchemaTable extends Model
         'created_by' => 'string',
     ];
 
+<<<<<<< HEAD
     /**
 <<<<<<< HEAD
      * Restituisce lo schema atteso da Sushi.
@@ -154,6 +158,8 @@ class InformationSchemaTable extends Model
         return $this->schema;
     }
 
+=======
+>>>>>>> 3fbbf1f5 (.)
     /**
      * Restituisce i record da utilizzare per popolare la tabella in-memory.
 =======
@@ -244,6 +250,7 @@ class InformationSchemaTable extends Model
         /** @var Model $model */
         $model = app($modelClass);
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $model instanceof Model) {
             throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
 =======
@@ -251,6 +258,11 @@ class InformationSchemaTable extends Model
         if (!($model instanceof Model)) {
             throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
 >>>>>>> 5a14301c (.)
+=======
+
+        if (!($model instanceof Model)) {
+            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
+>>>>>>> 3fbbf1f5 (.)
         }
 
         $connection = $model->getConnection();
@@ -297,6 +309,9 @@ class InformationSchemaTable extends Model
          *
          * return static::getAccurateRowCount($table, $database);
          */
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 }

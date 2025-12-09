@@ -5,10 +5,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Schemas\Components\Component;
 use Filament\Actions\Contracts\HasActions;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -32,20 +35,28 @@ use Modules\Xot\Datas\EnvData;
  * @property Schema $form
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 class EnvWidget extends Widget implements HasActions, HasForms
 =======
 class EnvWidget extends Widget implements HasForms, HasActions
 >>>>>>> 5a14301c (.)
+=======
+class EnvWidget extends Widget implements HasForms, HasActions
+>>>>>>> 3fbbf1f5 (.)
 {
     use InteractsWithActions;
     use InteractsWithForms;
 
     /** @var array<string, mixed>|null */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?array $data = [];
 =======
     public null|array $data = [];
 >>>>>>> 5a14301c (.)
+=======
+    public null|array $data = [];
+>>>>>>> 3fbbf1f5 (.)
 
     public array $only = [];
 
@@ -68,10 +79,14 @@ class EnvWidget extends Widget implements HasForms, HasActions
     public function submit(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_array($this->data)) {
 =======
         if (!is_array($this->data)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!is_array($this->data)) {
+>>>>>>> 3fbbf1f5 (.)
             return;
         }
         EnvData::make()->update($this->data);

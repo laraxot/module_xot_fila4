@@ -7,9 +7,13 @@ namespace Modules\Xot\Actions\Module;
 use Exception;
 use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Str;
 >>>>>>> 5a14301c (.)
+=======
+use Illuminate\Support\Str;
+>>>>>>> 3fbbf1f5 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetModuleConfigAction

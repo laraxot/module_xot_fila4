@@ -82,10 +82,14 @@ class HasManyAction
         foreach ($relationDTO->data as $item) {
             Assert::isArray($item);
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! isset($item[$keyName])) {
 =======
             if (!isset($item[$keyName])) {
 >>>>>>> 5a14301c (.)
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 3fbbf1f5 (.)
                 continue;
             }
 

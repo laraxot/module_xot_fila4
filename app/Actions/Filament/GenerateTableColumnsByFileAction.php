@@ -10,7 +10,10 @@ namespace Modules\Xot\Actions\Filament;
 
 // use Filament\Forms\Commands\Concerns\CanGenerateForms; // Non disponibile in Filament v4
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Resources\Resource;
 >>>>>>> 5a14301c (.)
 use Filament\Support\Commands\Concerns\CanReadModelSchemas;
@@ -37,6 +40,7 @@ class GenerateTableColumnsByFileAction
      * Genera colonne per tabelle e form Filament basate su un file di risorsa.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  File  $file  Il file della risorsa Filament
      */
     public function execute(File $file): void
@@ -52,11 +56,22 @@ class GenerateTableColumnsByFileAction
      */
     public function execute(File $file): void
     {
+=======
+     * @param File $file Il file della risorsa Filament
+     *
+     * @return void
+     */
+    public function execute(File $file): void
+    {
+>>>>>>> 3fbbf1f5 (.)
         if (!$file->isFile()) {
             return;
         }
         if (!\in_array($file->getExtension(), ['php'], false)) {
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             return;
         }
         $filename = $file->getPathname();
@@ -64,10 +79,14 @@ class GenerateTableColumnsByFileAction
         Assert::string(
             $class_name = Str::replace('/', '\\', $class_name),
 <<<<<<< HEAD
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename($this).']',
 =======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 3fbbf1f5 (.)
         );
         $class_name = Str::substr($class_name, 0, -4);
 
@@ -104,10 +123,14 @@ class GenerateTableColumnsByFileAction
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'table');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->columns(', '(', ')');
 <<<<<<< HEAD
+<<<<<<< HEAD
         $body_new = '->columns(['.chr(13).'// TODO: Generate table columns'.chr(13).'])';
 =======
         $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
 >>>>>>> 5a14301c (.)
+=======
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+>>>>>>> 3fbbf1f5 (.)
         $body_up = Str::of($body)->replace($body1, $body_new)->toString();
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
@@ -115,10 +138,14 @@ class GenerateTableColumnsByFileAction
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'form');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->schema(', '(', ')');
 <<<<<<< HEAD
+<<<<<<< HEAD
         $body_new = '->schema(['.chr(13).'// TODO: Generate form schema'.chr(13).'])';
 =======
         $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
 >>>>>>> 5a14301c (.)
+=======
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+>>>>>>> 3fbbf1f5 (.)
         $body_up = Str::of($body)->replace($body1, $body_new)->toString();
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);

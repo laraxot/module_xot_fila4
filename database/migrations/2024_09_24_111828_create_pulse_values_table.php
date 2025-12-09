@@ -17,8 +17,11 @@ return new class extends XotBaseMigration {
     public function up(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         if (!$this->shouldRun()) {
 >>>>>>> 5a14301c (.)
             return;

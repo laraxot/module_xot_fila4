@@ -10,8 +10,11 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\File;
 use Override;
 use Sushi\Sushi;
+<<<<<<< HEAD
 =======
 use Sushi\Sushi;
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Override;
 use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -90,10 +93,13 @@ class Log extends BaseModel
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getFileContentAttribute(?string $value): ?string
     {
         return File::get(storage_path('logs/'.$this->id.'.log'));
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
     public function getFileContentAttribute(null|string $value): null|string
     {
         return File::get(storage_path('logs/' . $this->id . '.log'));

@@ -5,8 +5,11 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Actions\Action;
 use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;

@@ -21,10 +21,14 @@ class EmailValueObject
         public string $email,
     ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
 =======
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+>>>>>>> 3fbbf1f5 (.)
             throw new InvalidArgumentException(sprintf('Email address %s is considered valid.', $email));
         }
     }

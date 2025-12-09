@@ -8,9 +8,13 @@ use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 >>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
+>>>>>>> 3fbbf1f5 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -43,10 +47,14 @@ class GetViewByClassAction
         $module_low = Str::of($module)->lower()->toString();
         $after = Str::of($class)
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->after('Modules\\'.$module.'\\')
 =======
             ->after('Modules\\' . $module . '\\')
 >>>>>>> 5a14301c (.)
+=======
+            ->after('Modules\\' . $module . '\\')
+>>>>>>> 3fbbf1f5 (.)
             ->explode('\\')
             ->toArray();
 
@@ -78,16 +86,22 @@ class GetViewByClassAction
 
         $implode = implode('.', $mapped);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view = $module_low.'::'.$implode.$suffix;
 
         if (! view()->exists($view)) {
             throw new Exception('View not found: '.$view);
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $view = $module_low . '::' . $implode . $suffix;
 
         if (!view()->exists($view)) {
             throw new Exception('View not found: ' . $view);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         return $view;

@@ -47,9 +47,13 @@ class ArticleData extends Data
     public static function make(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new static;
 =======
         return new static();
 >>>>>>> 5a14301c (.)
+=======
+        return new static();
+>>>>>>> 3fbbf1f5 (.)
     }
 }

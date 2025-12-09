@@ -8,7 +8,10 @@ namespace Modules\Xot\Enums;
 // use Modules\Xot\Datas\PdfData;
 =======
 //use Modules\Xot\Datas\PdfData;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;

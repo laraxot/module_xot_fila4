@@ -8,7 +8,10 @@ use BackedEnum;
 <<<<<<< HEAD
 =======
 use Illuminate\Contracts\Support\Arrayable;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -19,9 +22,13 @@ use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
 use Modules\Lang\Actions\TransArrayAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Lang\Actions\TransCollectionAction;
 >>>>>>> 5a14301c (.)
+=======
+use Modules\Lang\Actions\TransCollectionAction;
+>>>>>>> 3fbbf1f5 (.)
 use Modules\Xot\Actions\Cast\SafeArrayByModelCastAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Webmozart\Assert\Assert;
@@ -34,6 +41,7 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 <<<<<<< HEAD
 
     public array $headings;
+<<<<<<< HEAD
 
     public ?string $transKey;
 
@@ -46,6 +54,8 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
     public function __construct(Collection $collection, ?string $transKey = null, array $fields = [])
 =======
     public array $headings;
+=======
+>>>>>>> 3fbbf1f5 (.)
     public null|string $transKey;
 
     /** @var array<int, string> */
@@ -67,10 +77,14 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
     public function getHead(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (\is_array($this->fields) && ! empty($this->fields)) {
 =======
         if (\is_array($this->fields) && !empty($this->fields)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (\is_array($this->fields) && !empty($this->fields)) {
+>>>>>>> 3fbbf1f5 (.)
             return $this->fields;
         }
 
@@ -82,7 +96,10 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
 =======
         $head = array_keys($head->getAttributes());
         return $head;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 
     public function headings(): array
@@ -91,8 +108,11 @@ class CollectionExport implements FromCollection, ShouldQueue, WithHeadings, Wit
         $transKey = $this->transKey;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return app(TransArrayAction::class)->execute($headings, $transKey);
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $headings = app(TransArrayAction::class)->execute($headings, $transKey);
 
         return $headings;

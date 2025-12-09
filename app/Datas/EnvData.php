@@ -26,18 +26,24 @@ class EnvData extends Data implements Wireable
     public string $telegram_bot_token = '';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static ?self $instance = null;
 
     public static function make(): self
     {
         if (! self::$instance) {
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
     private static null|self $instance = null;
 
     public static function make(): self
     {
         if (!self::$instance) {
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             $data = [];
 
             foreach ($_ENV as $k => $v) {
@@ -87,6 +93,7 @@ class EnvData extends Data implements Wireable
         $key = str($key)->upper()->toString();
         $replace = $this->getLine($key, $value);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pos_start = mb_strpos($env_content, $key.'=');
         if ($pos_start === false) {
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -96,6 +103,8 @@ class EnvData extends Data implements Wireable
         if ($pos_end === false) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         $pos_start = mb_strpos($env_content, $key . '=');
         if (false === $pos_start) {
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -104,7 +113,10 @@ class EnvData extends Data implements Wireable
         $pos_end = mb_strpos($env_content, "\n", $pos_start);
         if (false === $pos_end) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         $length = $pos_end - $pos_start;
@@ -122,19 +134,27 @@ class EnvData extends Data implements Wireable
     public function getLine(string $key, int|bool|string $value): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $replace = $key.'=';
 =======
         $replace = $key . '=';
 >>>>>>> 5a14301c (.)
+=======
+        $replace = $key . '=';
+>>>>>>> 3fbbf1f5 (.)
         if (is_bool($value)) {
             $replace .= $value ? 'true' : 'false';
         }
         if (is_string($value)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $replace .= '"'.$value.'"';
 =======
             $replace .= '"' . $value . '"';
 >>>>>>> 5a14301c (.)
+=======
+            $replace .= '"' . $value . '"';
+>>>>>>> 3fbbf1f5 (.)
         }
         if (is_int($value)) {
             $replace .= $value;

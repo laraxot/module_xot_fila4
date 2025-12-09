@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Resources\Pages\ViewRecord as FilamentViewRecord;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
@@ -13,6 +14,9 @@ abstract class XotBaseViewRecord extends FilamentViewRecord
 {
 =======
 use Filament\Schemas\Components\Component;
+=======
+use Filament\Schemas\Components\Component;
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Schemas\Schema;
 use Filament\Resources\Pages\ViewRecord as FilamentViewRecord;
 

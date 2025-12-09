@@ -33,7 +33,10 @@ class GetViewBlocksOptionsByTypeAction
      * @param string $type Il tipo di blocco da cercare
      * @param bool $img Se includere i percorsi delle immagini invece dei nomi
      *
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
      * @return array<string, string> Array di opzioni con chiave = vista e valore = nome o percorso immagine
      */
     public function execute(string $type, bool $img = false): array
@@ -44,10 +47,14 @@ class GetViewBlocksOptionsByTypeAction
         Assert::directory($basePath, 'Il percorso base dei moduli non esiste');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $globPattern = $basePath.'/*/resources/views/components/blocks/'.$type.'/*.blade.php';
 =======
         $globPattern = $basePath . '/*/resources/views/components/blocks/' . $type . '/*.blade.php';
 >>>>>>> 5a14301c (.)
+=======
+        $globPattern = $basePath . '/*/resources/views/components/blocks/' . $type . '/*.blade.php';
+>>>>>>> 3fbbf1f5 (.)
         $files = File::glob($globPattern);
 
         if ($files === false) {

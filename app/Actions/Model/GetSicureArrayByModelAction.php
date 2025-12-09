@@ -5,6 +5,10 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use ValueError;
+>>>>>>> 3fbbf1f5 (.)
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use ValueError;

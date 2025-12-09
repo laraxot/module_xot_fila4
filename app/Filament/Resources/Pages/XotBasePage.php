@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use LogicException;
 use Illuminate\Database\Eloquent\Model;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -17,6 +18,8 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Closure;
@@ -64,10 +67,14 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * The model class associated with this page, if any.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static ?string $model = null;
 =======
     public static null|string $model = null;
 >>>>>>> 5a14301c (.)
+=======
+    public static null|string $model = null;
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * The form data.
@@ -75,10 +82,14 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * @var array<string, mixed>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?array $data = [];
 =======
     public null|array $data = [];
 >>>>>>> 5a14301c (.)
+=======
+    public null|array $data = [];
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Get the view that should be used for the page.

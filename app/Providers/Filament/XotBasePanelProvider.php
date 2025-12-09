@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Providers\Filament;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -23,6 +24,8 @@ use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
 use Webmozart\Assert\Assert;
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Panel;
 use Filament\PanelProvider;
 use Illuminate\Support\Arr;
@@ -45,7 +48,10 @@ use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
 abstract class XotBasePanelProvider extends PanelProvider
 {
@@ -87,6 +93,7 @@ abstract class XotBasePanelProvider extends PanelProvider
             // ->tenant($teamClass,ownershipRelationship:'users')
             // ->tenant($teamClass)
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->id($moduleLow.'::admin')
             ->path($moduleLow.'/admin')
             // Configure Filament discovery for module components (unconditional; dirs are expected to exist)
@@ -105,6 +112,8 @@ abstract class XotBasePanelProvider extends PanelProvider
             ->discoverClusters(
                 in: base_path('Modules/'.$this->module.'/app/Filament/Clusters'),
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
             ->id($moduleLow . '::admin')
             ->path($moduleLow . '/admin')
             // Configure Filament discovery for module components (unconditional; dirs are expected to exist)
@@ -141,10 +150,15 @@ abstract class XotBasePanelProvider extends PanelProvider
             ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
        
 
 >>>>>>> 5a14301c (.)
+=======
+       
+
+>>>>>>> 3fbbf1f5 (.)
         return $panel;
     }
 
@@ -153,9 +167,13 @@ abstract class XotBasePanelProvider extends PanelProvider
         Assert::string($ns = config('modules.namespace'));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $ns.'\\'.$this->module;
 =======
         return $ns . '\\' . $this->module;
 >>>>>>> 5a14301c (.)
+=======
+        return $ns . '\\' . $this->module;
+>>>>>>> 3fbbf1f5 (.)
     }
 }

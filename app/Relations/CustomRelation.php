@@ -53,18 +53,24 @@ class CustomRelation extends Relation
          * The eagerConstraints callback.
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
         protected ?Closure $eagerConstraints,
         /**
          * The eager constraints model matcher.
          */
         protected ?Closure $eagerMatcher,
 =======
+=======
+>>>>>>> 3fbbf1f5 (.)
         protected null|Closure $eagerConstraints,
         /**
          * The eager constraints model matcher.
          */
         protected null|Closure $eagerMatcher,
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     ) {
         parent::__construct($query, $model);
     }
@@ -84,10 +90,14 @@ class CustomRelation extends Relation
     {
         // Parameter #1 $function of function call_user_func expects callable(): mixed, Closure|null given.
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \is_callable($this->eagerConstraints)) {
 =======
         if (!\is_callable($this->eagerConstraints)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!\is_callable($this->eagerConstraints)) {
+>>>>>>> 3fbbf1f5 (.)
             throw new Exception('eagerConstraints is not callable');
         }
 
@@ -124,10 +134,14 @@ class CustomRelation extends Relation
     {
         // Trying to invoke Closure|null but it might not be a callable.
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \is_callable($this->eagerMatcher)) {
 =======
         if (!\is_callable($this->eagerMatcher)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!\is_callable($this->eagerMatcher)) {
+>>>>>>> 3fbbf1f5 (.)
             throw new Exception('eagerMatcher is not callable');
         }
 
@@ -168,10 +182,14 @@ class CustomRelation extends Relation
         $columns = $this->query->getQuery()->columns ? [] : $columns;
         if ($columns === ['*']) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $columns = [$this->related->getTable().'.*'];
 =======
             $columns = [$this->related->getTable() . '.*'];
 >>>>>>> 5a14301c (.)
+=======
+            $columns = [$this->related->getTable() . '.*'];
+>>>>>>> 3fbbf1f5 (.)
         }
 
         $query = $this->query->applyScopes();

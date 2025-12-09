@@ -58,10 +58,14 @@ Questo report documenta il progresso del consolidamento della documentazione sec
 
 3. **Validazione PHPStan**
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Verifica che tutti gli esempi di codice siano conformi PHPStan level 10
 =======
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
 >>>>>>> 5a14301c (.)
+=======
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> d86d643a (.)
    - Aggiornamento esempi non conformi
    - Test di funzionamento degli esempi
 
@@ -131,10 +135,14 @@ laravel/
 
 ### 4. Qualità del Codice
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Tutti gli esempi conformi PHPStan level 10
 =======
 - Tutti gli esempi conformi PHPStan Level 9
 >>>>>>> 5a14301c (.)
+=======
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> d86d643a (.)
 - Type hints espliciti e documentazione PHPDoc
 - Namespace corretti senza segmento `app`
 

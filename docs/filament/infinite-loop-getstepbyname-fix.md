@@ -116,6 +116,7 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 - [XotBaseResource.php](../../../Modules/Xot/app/Filament/Resources/XotBaseResource.php) - Fix principale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
@@ -131,11 +132,22 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 - [Wizard Step Implementation](../../../Modules/<nome modulo>/docs/wizard-step-implementation.md)
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
+=======
+=======
+- [DoctorResource.php](../../../Modules/<nome modulo>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
+
+### **Documentazione Correlata**
+- [Wizard Step Implementation](../../../Modules/<nome modulo>/docs/wizard-step-implementation.md)
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -156,6 +168,7 @@ Questo fix dimostra l'importanza di:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 =======
@@ -164,3 +177,9 @@ Questo fix dimostra l'importanza di:
 =======
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 >>>>>>> 71f31700 (.)
+=======
+*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
+=======
+*Il sistema  ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

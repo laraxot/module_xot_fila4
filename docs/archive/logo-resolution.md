@@ -118,6 +118,7 @@ Per la versione dark:
 - [Architettura Folio + Volt in il progetto](../../../docs/architettura-folio-volt.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -128,6 +129,11 @@ Per la versione dark:
 - [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
 
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ---
 
 ### Nota Importante

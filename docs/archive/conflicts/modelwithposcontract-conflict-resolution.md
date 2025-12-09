@@ -45,6 +45,7 @@ La correzione è stata verificata assicurandosi che:
 <<<<<<< HEAD
 - [Best Practices per la Gestione dei Conflitti Git](../../../../docs/risoluzione_conflitti_git.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -53,3 +54,8 @@ La correzione è stata verificata assicurandosi che:
 =======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

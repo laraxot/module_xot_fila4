@@ -33,6 +33,7 @@ public function getTableColumns(): array
 - [Regola Globale - Root Docs](../../../../docs/filament-table-columns.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -44,6 +45,11 @@ public function getTableColumns(): array
 - [Regola Globale - Root Docs](../../../../project_docs/filament-table-columns.md)
 
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ## Nota storica: correzione XotBaseManageRelatedRecords
 
 - La classe XotBaseManageRelatedRecords è stata aggiornata per rispettare PHPStan livello 10.

@@ -675,6 +675,7 @@ test('no memory leaks in repeated operations', function (): void {
 ### Internal Documentation
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [<nome progetto> Testing Guidelines](../../<nome progetto>/project_docs/testing.md)
 =======
@@ -688,6 +689,17 @@ test('no memory leaks in repeated operations', function (): void {
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
 >>>>>>> 399f46d3 (.)
+=======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+=======
+- [Root Testing Organization](../../../docs/testing-organization.md)
+- [Module Testing Guidelines](../../<nome modulo>/docs/testing.md)
+- [Cms Testing Guidelines](../../Cms/docs/testing.md)
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [<nome progetto> Testing Guidelines](../../<nome progetto>/project_docs/testing.md)
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 - [Cms Testing Guidelines](../../Cms/project_docs/testing.md)
 
 ### Framework Documentation

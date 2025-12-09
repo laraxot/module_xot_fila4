@@ -9,10 +9,17 @@
 
 ## Contesto
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 399f46d3 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 ## File Corretti
 
@@ -101,7 +108,14 @@ $res=Locality::query()
 
 ## Verifiche Post-Correzione
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ### 2. Validazione PHPStan
 ```bash
 cd laravel
@@ -147,13 +161,19 @@ php artisan lang:check
 =======
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 
+<<<<<<< HEAD
 ### Modulo User
 - [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
 
 ### Modulo Xot
 - [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
 >>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
 
+=======
+>>>>>>> a5dccfe (.)
 ## Best Practices Applicate
 
 ### 1. Gestione Conflitti
@@ -219,12 +239,18 @@ php artisan lang:check
 - [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
 
+<<<<<<< HEAD
 ### Documentazione Generale
 - [Translation Standards](../../project_docs/translation-standards.md)
 - [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
 - [Git Best Practices](../../project_docs/git-best-practices.md)
 >>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
 
+=======
+>>>>>>> a5dccfe (.)
 ---
 
 **Ultimo aggiornamento**: 2025-01-06

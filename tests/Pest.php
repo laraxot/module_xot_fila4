@@ -17,6 +17,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 uses(TestCase::class)->in('Feature', 'Unit');
@@ -35,6 +36,13 @@ uses(TestCase::class)->in('Feature', 'Unit');
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 492d6d3c (.)
+=======
+
+pest()->extend(TestCase::class)->in('Feature', 'Unit');
+=======
+uses(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -46,6 +54,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
  * | Quando definisci aspettative globali, saranno disponibili
@@ -55,6 +64,8 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 =======
 =======
 >>>>>>> 492d6d3c (.)
+=======
+>>>>>>> d86d643a (.)
  * | Quando definisci here expectation globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
@@ -62,18 +73,25 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
 =======
  * | Quando definisci aspettative globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> c84488b (.)
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 492d6d3c (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -87,6 +105,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * | Queste funzioni saranno disponibili in tutti i test.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,6 +127,8 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
 
 // function something() {
 //     // ...
@@ -116,11 +137,15 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
 =======
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> c84488b (.)
@@ -159,3 +184,6 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

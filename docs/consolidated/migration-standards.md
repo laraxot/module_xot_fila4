@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Standard per le Migrazioni in <nome progetto>
 
 ## Introduzione
@@ -13,15 +14,32 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di . Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 # Standard per le Migrazioni in SaluteOra
 
 ## Introduzione
 
 Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di SaluteOra. Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+# Standard per le Migrazioni in 
+
+## Introduzione
+
+Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di . Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+# Standard per le Migrazioni in <nome progetto>
+
+## Introduzione
+
+Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di <nome progetto>. Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 ## Principi Fondamentali
 
@@ -95,6 +113,7 @@ return new class extends XotBaseMigration
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> utilizza diverse connessioni al database per diversi tipi di dati:
 =======
  utilizza diverse connessioni al database per diversi tipi di dati:
@@ -103,6 +122,13 @@ SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
 =======
 SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
 >>>>>>> 399f46d3 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+<nome progetto> utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 1. **mysql**: Connessione principale per la maggior parte delle tabelle
 2. **user**: Connessione per i dati degli utenti
@@ -237,6 +263,7 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in <nome progetto>. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
 =======
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
@@ -245,3 +272,10 @@ Seguire questi standard per le migrazioni è fondamentale per garantire la coere
 =======
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
 >>>>>>> 399f46d3 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in <nome progetto>. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

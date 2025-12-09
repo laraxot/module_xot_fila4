@@ -513,7 +513,11 @@ unset($translations['existing_key']); // MAI!
 
 **Data**: 2025-08-01  
 **Versione**: 2.0  
+<<<<<<< HEAD
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+=======
+**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
+>>>>>>> a5dccfe (.)
 
 ---
 

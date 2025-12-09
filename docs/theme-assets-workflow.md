@@ -47,6 +47,7 @@ npm run copy
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
@@ -56,6 +57,14 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
 =======
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 >>>>>>> 71f31700 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 npm install          # Prima volta
 npm run build        # Compila Sass/JS
 npm run copy         # Copia in /public/
@@ -63,6 +72,7 @@ npm run copy         # Copia in /public/
 
 ### Tema Two
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
@@ -74,6 +84,14 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two
 =======
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
 >>>>>>> 71f31700 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 npm install
 npm run build
 npm run copy

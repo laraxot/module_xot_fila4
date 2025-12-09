@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3fbbf1f5 (.)
 =======
@@ -20,6 +21,10 @@
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="xot-logo-title" role="img">
   <title id="xot-logo-title">Xot Framework Logo</title>
@@ -100,8 +105,11 @@
         <circle cx="20" cy="20" r="0.5" fill="currentColor" opacity="0.5" />
     </g>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
+=======
+>>>>>>> d86d643a (.)
 =======
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
@@ -118,6 +126,7 @@
 </svg>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
 =======
 =======
@@ -128,3 +137,8 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 492d6d3c (.)
+=======
+=======
+</svg>
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

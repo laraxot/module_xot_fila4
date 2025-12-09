@@ -3,10 +3,14 @@
 **Creato**: 2025-09-10
 **Scopo**: Guida operativa per correggere sistematicamente TUTTI gli errori PHPStan
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Principi**: DRY + KISS + Type Safety level 10/10
 =======
 **Principi**: DRY + KISS + Type Safety Level 9/10
 >>>>>>> 5a14301c (.)
+=======
+**Principi**: DRY + KISS + Type Safety Level 9/10
+>>>>>>> d86d643a (.)
 
 ## 🏗️ Architettura Fondamentale
 
@@ -139,10 +143,14 @@ $collection->get('key', 'default');
 ## 🎯 Obiettivi Finali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Zero errori PHPStan level 10+ su tutti i moduli
 =======
 - [ ] Zero errori PHPStan Level 9+ su tutti i moduli
 >>>>>>> 5a14301c (.)
+=======
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+>>>>>>> d86d643a (.)
 - [ ] Documentazione aggiornata per ogni modulo
 - [ ] Pattern comuni documentati e riutilizzabili
 - [ ] Framework robusto per sviluppi futuri

@@ -161,6 +161,7 @@ performance::admin
 - [Filament Best Practices](../../../docs/FILAMENT-BEST-PRACTICES.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -171,6 +172,11 @@ performance::admin
 - [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ## Aggiornamenti
 
 ### 2025-01-27 - Fix Implementato

@@ -5,11 +5,18 @@
 >>>>>>> 5a14301c (.)
 Download the latest cacert.pem file from
 https://curl.se/docs/caextract.html
+<<<<<<< HEAD
 =======
 Download the latest cacert.pem file from
 https://curl.se/project_docs/caextract.html
 >>>>>>> 399f46d3 (.)
+=======
 
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+
+=======
+>>>>>>> a5dccfe (.)
 Update your php.ini file:  
 Locate your php.ini file and find the line ;curl.cainfo =.  
 Change it to: curl.cainfo = "C:\path\to\cacert.pem" (replace with the actual path where you saved the cacert.pem file).  
@@ -29,6 +36,7 @@ openssl.cafile = "C:\xampp\php\extras\ssl\cacert.pem"
 
 [curl]
 curl.cainfo = "PATH/TO/cacert.pem"
+<<<<<<< HEAD
  
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38,6 +46,12 @@ curl.cainfo = "PATH/TO/cacert.pem"
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 [openssl]
 openssl.capath = "PATH/TO/cacert.pem"  
@@ -51,17 +65,24 @@ $http = new GuzzleHttp\Client(['verify' => '/path/to/cacert.pem']);
 $client = new Google_Client();
 $client->setHttpClient($http);
 
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
 <<<<<<< HEAD
 =======
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 --------------------
 composer config -g -- disable-tls true  
 composer config -g secure-http false   
@@ -70,6 +91,7 @@ composer clearcache
 composer config --global cafile PATH/TO/cacert.pem  
 composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed  
 
+<<<<<<< HEAD
 
 
 
@@ -85,3 +107,11 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

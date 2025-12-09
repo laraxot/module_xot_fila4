@@ -19,6 +19,7 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 - [Patient](../../Patient/docs/README.md) - Gestione pazienti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -33,6 +34,11 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 - [Patient](../../Patient/project_docs/README.md) - Gestione pazienti
 
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ## Regole Fondamentali
 
 ### Case Sensitivity e Struttura delle Directory
@@ -301,6 +307,7 @@ new class extends Component {
 - [Dashboard](../Chart/docs/dashboard.md)
 - [Visualizzazione](../Chart/docs/visualization.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -373,3 +380,8 @@ new class extends Component {
 - [Dashboard](../Chart/project_docs/dashboard.md)
 - [Visualizzazione](../Chart/project_docs/visualization.md)
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

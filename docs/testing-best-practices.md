@@ -24,8 +24,11 @@ uses(\Modules\Xot\Tests\TestCase::class);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 =======
 ## 🏆 Gold Standard per i Test
 
@@ -45,6 +48,7 @@ use Modules\\{Module}\\Filament\\Widgets\\{WidgetName};
 uses(\\Modules\\Xot\\Tests\\TestCase::class);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -53,6 +57,9 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 beforeEach(function (): void {
     mockXotData();
 });
@@ -73,10 +80,17 @@ function mockXotData(): void
     
     $mockXotData->shouldReceive('getUserClass')
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 =======
         ->andReturn(\Modules\SaluteOra\Models\User::class);
 >>>>>>> 71f31700 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -255,9 +269,12 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Last Update**: Dicembre 2024 
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 =======
 ### Esempio unit test semplice
 ```php
@@ -278,7 +295,11 @@ it('extends pivot class', function () {
 function mockXotData(): void
 {
     $mock = \\Mockery::mock(\\Modules\\Xot\\Datas\\XotData::class)->makePartial();
+<<<<<<< HEAD
     $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> d86d643a (.)
     $mock->shouldReceive('make')->andReturn($mock);
     app()->instance(\\Modules\\Xot\\Datas\\XotData::class, $mock);
 }
@@ -317,6 +338,7 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 **Last Update**: Dicembre 2024 
@@ -326,3 +348,6 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

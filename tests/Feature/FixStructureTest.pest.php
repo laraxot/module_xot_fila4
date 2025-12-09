@@ -9,7 +9,10 @@ use Modules\Xot\Tests\TestCase;
 use Modules\Xot\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
 >>>>>>> 5a14301c (.)
@@ -204,7 +207,9 @@ test('handles errors gracefully', function () {
 
     // Restore permissions
     chmod($nonWritableDir, 0o755);
+<<<<<<< HEAD
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 });
@@ -215,3 +220,8 @@ test('handles errors gracefully', function () {
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 492d6d3c (.)
+=======
+=======
+});
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

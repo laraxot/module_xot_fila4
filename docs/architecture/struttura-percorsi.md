@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Struttura dei percorsi nel progetto 
 
@@ -45,6 +46,8 @@ Tutti i percorsi assoluti DEVONO includere il segmento `laravel/` subito dopo la
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 # Struttura dei percorsi nel progetto 
 
 ## Regola fondamentale
@@ -60,7 +63,16 @@ Tutti i percorsi assoluti DEVONO includere il segmento `laravel/` subito dopo la
 <<<<<<< HEAD
 **Tutti i percorsi assoluti nel progetto SaluteOra DEVONO includere il segmento `laravel/` dopo `base_techplanner_fila3_mono/`.**
 =======
+<<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+=======
+# Struttura dei percorsi nel progetto PTV
+
+## Regola fondamentale
+
+**Tutti i percorsi assoluti nel progetto PTV DEVONO includere il segmento `laravel/` dopo `base_ptv_fila3_mono/`.**
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 Questa regola è **ASSOLUTA** e non ammette eccezioni.
 
@@ -72,8 +84,13 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 /var/www/html/base_saluteora/laravel/{componente}/{resto-del-percorso}
 /var/www/html/base_techplanner_fila3_mono/laravel/{componente}/{resto-del-percorso}
 =======
+<<<<<<< HEAD
 /var/www/html/base_saluteora/laravel/{componente}/{resto-del-percorso}
 >>>>>>> 6cba4fe (.)
+=======
+/var/www/_bases/base_ptv_fila3_mono/laravel/{componente}/{resto-del-percorso}
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
                          ↑        ↑
                      progetto  segmento
                     principale OBBLIGATORIO
@@ -97,6 +114,13 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 /var/www/html/base_saluteora/laravel/Themes/One/resources/views/layouts/app.blade.php
 /var/www/html/base_saluteora/laravel/resources/lang/it/validation.php
 /var/www/html/base_saluteora/laravel/vendor/laravel/framework/...
+=======
+/var/www/_bases/base_ptv_fila3_mono/laravel/app/Models/User.php
+/var/www/_bases/base_ptv_fila3_mono/laravel/Modules/User/Models/User.php
+/var/www/_bases/base_ptv_fila3_mono/laravel/Modules/Xot/resources/views/layouts/app.blade.php
+/var/www/_bases/base_ptv_fila3_mono/laravel/resources/lang/it/validation.php
+/var/www/_bases/base_ptv_fila3_mono/laravel/vendor/laravel/framework/...
+>>>>>>> a5dccfe (.)
 ```
 
 ### ❌ Percorsi ERRATI
@@ -115,6 +139,13 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 /var/www/html/base_saluteora/Themes/One/resources/views/layouts/app.blade.php
 /var/www/html/base_saluteora/resources/lang/it/validation.php
 /var/www/html/base_saluteora/vendor/laravel/framework/...
+=======
+/var/www/_bases/base_ptv_fila3_mono/app/Models/User.php
+/var/www/_bases/base_ptv_fila3_mono/Modules/User/Models/User.php
+/var/www/_bases/base_ptv_fila3_mono/Modules/Xot/resources/views/layouts/app.blade.php
+/var/www/_bases/base_ptv_fila3_mono/resources/lang/it/validation.php
+/var/www/_bases/base_ptv_fila3_mono/vendor/laravel/framework/...
+>>>>>>> a5dccfe (.)
 ```
 
 ## Struttura completa del progetto
@@ -125,8 +156,13 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 /var/www/html/base_saluteora/
 /var/www/html/base_techplanner_fila3_mono/
 =======
+<<<<<<< HEAD
 /var/www/html/base_saluteora/
 >>>>>>> 6cba4fe (.)
+=======
+/var/www/_bases/base_ptv_fila3_mono/
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ├── .cursor/                            # Configurazioni editor
 ├── .windsurf/                          # Configurazioni di sistema
 ├── docs/                               # Documentazione generale
@@ -168,8 +204,20 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
     ├── config/                         # Configurazioni
     ├── database/                       # Migrations, factories, seeders
     ├── Modules/                        # ⭐️ MODULI DEL PROGETTO
+<<<<<<< HEAD
     │   ├── Core/
     │   ├── Patient/
+=======
+    │   ├── Activity/
+    │   ├── DbForge/
+    │   ├── Gdpr/
+    │   ├── Job/
+    │   ├── Lang/
+    │   ├── Media/
+    │   ├── Notify/
+    │   ├── Rating/
+    │   ├── Tenant/
+>>>>>>> a5dccfe (.)
     │   ├── UI/
     │   ├── User/
     │   ├── Xot/
@@ -231,9 +279,18 @@ grep -r "/var/www/html/base_saluteora/Modules" --include="*.php" /var/www/html/b
 grep -r "/var/www/html/base_saluteora/Themes" --include="*.php" /var/www/html/base_saluteora/laravel
 grep -r "/var/www/html/base_saluteora/resources" --include="*.php" /var/www/html/base_saluteora/laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+=======
+grep -r "/var/www/_bases/base_ptv_fila3_mono/app" --include="*.php" /var/www/_bases/base_ptv_fila3_mono/laravel
+grep -r "/var/www/_bases/base_ptv_fila3_mono/Modules" --include="*.php" /var/www/_bases/base_ptv_fila3_mono/laravel
+grep -r "/var/www/_bases/base_ptv_fila3_mono/Themes" --include="*.php" /var/www/_bases/base_ptv_fila3_mono/laravel
+grep -r "/var/www/_bases/base_ptv_fila3_mono/resources" --include="*.php" /var/www/_bases/base_ptv_fila3_mono/laravel
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ```
 
 ## Correzzione automatica (opzionale)
@@ -243,6 +300,7 @@ Se si trovano percorsi errati, è possibile correggerli automaticamente con:
 ```bash
 
 # Correzione automatica (uso con cautela)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,6 +324,8 @@ find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -ex
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/app|/var/www/html/base_techplanner_fila3_mono/laravel/app|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Modules|/var/www/html/base_techplanner_fila3_mono/laravel/Modules|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Themes|/var/www/html/base_techplanner_fila3_mono/laravel/Themes|g' {} \;
@@ -275,6 +335,7 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/app|/var/www/html/base_techplanner_fila3_mono/laravel/app|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Modules|/var/www/html/base_techplanner_fila3_mono/laravel/Modules|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Themes|/var/www/html/base_techplanner_fila3_mono/laravel/Themes|g' {} \;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
@@ -287,6 +348,13 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_saluteora/Themes|/var/www/html/base_saluteora/laravel/Themes|g' {} \;
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+=======
+find /var/www/_bases/base_ptv_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/_bases/base_ptv_fila3_mono/app|/var/www/_bases/base_ptv_fila3_mono/laravel/app|g' {} \;
+find /var/www/_bases/base_ptv_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/_bases/base_ptv_fila3_mono/Modules|/var/www/_bases/base_ptv_fila3_mono/laravel/Modules|g' {} \;
+find /var/www/_bases/base_ptv_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/_bases/base_ptv_fila3_mono/Themes|/var/www/_bases/base_ptv_fila3_mono/laravel/Themes|g' {} \;
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ```
 
 ## Riferimenti correlati
@@ -321,6 +389,7 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -333,3 +402,10 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 - [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+=======
+- [Struttura del progetto](/var/www/_bases/base_ptv_fila3_mono/laravel/Modules/Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](/var/www/_bases/base_ptv_fila3_mono/laravel/Modules/Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](/var/www/_bases/base_ptv_fila3_mono/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

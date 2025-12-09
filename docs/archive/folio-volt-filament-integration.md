@@ -16,6 +16,7 @@
 - [Lang](../Lang/docs/README.md) - Traduzioni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -28,6 +29,11 @@
 - [Lang](../Lang/project_docs/README.md) - Traduzioni
 
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ## Struttura
 
 ### Pagine Folio con Filament
@@ -200,6 +206,7 @@ $submit = function() {
 - [Dashboard](../Chart/docs/dashboard.md)
 - [Visualizzazione](../Chart/docs/visualization.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -272,3 +279,8 @@ $submit = function() {
 - [Dashboard](../Chart/project_docs/dashboard.md)
 - [Visualizzazione](../Chart/project_docs/visualization.md)
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

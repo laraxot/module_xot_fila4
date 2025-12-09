@@ -287,6 +287,7 @@ return [
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> Module (CRITICO)
 =======
 ###  Module (CRITICO)
@@ -295,6 +296,13 @@ return [
 =======
 ### SaluteOra Module (CRITICO)
 >>>>>>> 71f31700 (.)
+=======
+### SaluteOra Module (CRITICO)
+=======
+###  Module (CRITICO)
+### <nome progetto> Module (CRITICO)
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 - **Focus**: Core health platform, Appointments
 - **Campi comuni**: `appointment_id`, `patient_id`, `doctor_id`, `studio_id`
 - **Stati**: `scheduled`, `confirmed`, `in_progress`, `completed`, `cancelled`
@@ -367,6 +375,7 @@ TextInput::make('name') // Label automatica da traduzione
 # Controllo chiavi hardcoded (tutti i moduli)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
@@ -375,12 +384,20 @@ for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify Salu
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
 >>>>>>> 71f31700 (.)
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo <nome progetto> Tenant UI User Xot; do
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
     php artisan translation:check-hardcoded --module=$module
 done
 
 # Validazione sintassi (tutti i moduli)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
@@ -389,6 +406,13 @@ for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify Salu
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
 >>>>>>> 71f31700 (.)
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo <nome progetto> Tenant UI User Xot; do
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
     php artisan translation:validate-syntax --module=$module
 done
 ```
@@ -426,6 +450,7 @@ rm Modules/UI/docs/translation-rules.md
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto>
 rm Modules/<nome progetto>/docs/translation-files-improvement.md
 rm Modules/<nome progetto>/docs/translations.md
@@ -445,6 +470,8 @@ rm Modules/<nome modulo>/docs/translation_standards.md
 rm Modules/<nome modulo>/docs/translations-appointments.md
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
 # SaluteOra
 rm Modules/SaluteOra/docs/translation-files-improvement.md
 rm Modules/SaluteOra/docs/translations.md
@@ -454,9 +481,30 @@ rm Modules/SaluteOra/docs/translation-rules.md
 rm Modules/SaluteOra/docs/translation_standards.md
 rm Modules/SaluteOra/docs/translations-appointments.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+=======
+# 
+rm Modules/<nome modulo>/docs/translation-files-improvement.md
+rm Modules/<nome modulo>/docs/translations.md
+rm Modules/<nome modulo>/docs/translation_quality_standards.md
+rm Modules/<nome modulo>/docs/translations-states-analysis.md
+rm Modules/<nome modulo>/docs/translation-rules.md
+rm Modules/<nome modulo>/docs/translation_standards.md
+rm Modules/<nome modulo>/docs/translations-appointments.md
+# <nome progetto>
+rm Modules/<nome progetto>/docs/translation-files-improvement.md
+rm Modules/<nome progetto>/docs/translations.md
+rm Modules/<nome progetto>/docs/translation_quality_standards.md
+rm Modules/<nome progetto>/docs/translations-states-analysis.md
+rm Modules/<nome progetto>/docs/translation-rules.md
+rm Modules/<nome progetto>/docs/translation_standards.md
+rm Modules/<nome progetto>/docs/translations-appointments.md
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 # User
 rm Modules/User/docs/translations.md

@@ -5,9 +5,17 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\String;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+
+>>>>>>> d86d643a (.)
 class SanitizeAction
 {
 =======
+=======
+>>>>>>> a5dccfe (.)
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -16,6 +24,13 @@ use function Safe\preg_replace;
 class SanitizeAction
 {
     use QueueableAction;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 >>>>>>> 5a14301c (.)
     public function execute(string $str): string
@@ -28,6 +43,7 @@ class SanitizeAction
 =======
         $str = trim($str);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         $replaced = preg_replace('/\s+/', ' ', $str);
         $str = is_string($replaced) ? $replaced : $str;
@@ -37,11 +53,23 @@ class SanitizeAction
             // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
             $str = $this->execute($afterStr);
 =======
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
         $str = preg_replace('/\s+/', ' ', $str);
         if (Str::startsWith($str, '-')) {
             $str = Str::after($str, '-');
             $str = $this->execute($str);
+<<<<<<< HEAD
 >>>>>>> 0218cd5 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
         }
 
         return $str;

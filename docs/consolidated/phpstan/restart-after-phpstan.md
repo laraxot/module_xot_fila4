@@ -35,8 +35,15 @@ composer dump-autoload
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
+=======
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2

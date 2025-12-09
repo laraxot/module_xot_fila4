@@ -32,6 +32,7 @@ Questo documento descrive il processo per determinare il logo di un'applicazione
 - Linee guida generali per i loghi: [Linee Guida per i Loghi](../../../docs/standards/logo_guidelines.md).
 - Convenzioni sui namespace e Filament: [Convenzioni Namespace Filament](../Cms/docs/convenzioni-namespace-filament.md).
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -42,3 +43,8 @@ Questo documento descrive il processo per determinare il logo di un'applicazione
 - Linee guida generali per i loghi: [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md).
 - Convenzioni sui namespace e Filament: [Convenzioni Namespace Filament](../Cms/project_docs/convenzioni-namespace-filament.md).
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

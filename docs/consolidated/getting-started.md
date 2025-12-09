@@ -74,11 +74,19 @@ Now that you’ve edited your configuration variables and know how to customize 
 
 # compile assets with Laravel Mix
 <<<<<<< HEAD
+<<<<<<< HEAD
 # options: dev, prod
 npm run dev
 ```
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+# options: dev, prod
+npm run dev
+```
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 # options: dev, prod
 npm run dev

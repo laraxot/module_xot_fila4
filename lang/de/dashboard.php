@@ -1,7 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -24,6 +22,7 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -52,6 +51,8 @@ declare(strict_types=1);
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 return [
     'resources' => 'Risorse',
     'pages' => 'Pagine',

@@ -13,10 +13,6 @@ class AssetPathAction
 
     public function execute(string $asset): string
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         [$ns, $file] = explode('::', $asset);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28,6 +24,7 @@ class AssetPathAction
         $module_path = Module::getModulePath($ns) . 'resources';
 
         return $module_path . '/' . $file;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,5 +78,7 @@ class AssetPathAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 }

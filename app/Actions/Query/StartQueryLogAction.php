@@ -39,13 +39,17 @@ class StartQueryLogAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             $log->debug('query : ' . $sql);
             $log->debug('time ' . $time);
             $log->debug('connection ' . $connection);
             $log->debug('bindings ' . print_r($query->bindings, true));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
@@ -117,6 +121,8 @@ class StartQueryLogAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         });
     }
 }

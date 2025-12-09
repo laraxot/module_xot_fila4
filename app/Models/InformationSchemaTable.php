@@ -28,10 +28,6 @@ class InformationSchemaTable extends BaseModel
 >>>>>>> 5a14301c (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Builder;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
@@ -39,17 +35,6 @@ use InvalidArgumentException;
 use Modules\Tenant\Models\Traits\SushiToJson;
 use Sushi\Sushi;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-=======
-use Sushi\Sushi;
-use Webmozart\Assert\Assert;
-use InvalidArgumentException;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Eloquent\Model;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
 /**
  * Represents a table in the INFORMATION_SCHEMA.TABLES.
@@ -63,15 +48,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property string|null $ENGINE
  * @property int|null $VERSION
  * @property string|null $ROW_FORMAT
-<<<<<<< HEAD
-<<<<<<< HEAD
  * @property int|null $table_rows
-=======
- * @property int|null $TABLE_ROWS
->>>>>>> f1d4085 (.)
-=======
- * @property int|null $table_rows
->>>>>>> 73eab74 (.)
  * @property int|null $AVG_ROW_LENGTH
  * @property int|null $DATA_LENGTH
  * @property int|null $MAX_DATA_LENGTH
@@ -111,10 +88,6 @@ use Illuminate\Database\Eloquent\Model;
  * @method static Builder<static>|InformationSchemaTable whereTABLETYPE($value)
  * @method static Builder<static>|InformationSchemaTable whereUPDATETIME($value)
  * @method static Builder<static>|InformationSchemaTable whereVERSION($value)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
  * @property string|null $table_schema
  * @property string|null $table_name
  * @property string|null $updated_at
@@ -128,11 +101,6 @@ use Illuminate\Database\Eloquent\Model;
  * @method static Builder<static>|InformationSchemaTable whereTableSchema($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereUpdatedBy($value)
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model
@@ -141,30 +109,7 @@ class InformationSchemaTable extends Model
 =======
 >>>>>>> 5a14301c (.)
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
     use SushiToJson;
-=======
-    use Sushi;
-
-    /**
-     * The connection name for the model.
-     */
-    protected $connection = 'information_schema';
-
-    /**
-     * The table associated with the model.
-     */
-    protected $table = 'tables';
-
-    /**
-     * Indicates if the model should be timestamped.
-     */
-    public $timestamps = false;
->>>>>>> f1d4085 (.)
-=======
-    use SushiToJson;
->>>>>>> 73eab74 (.)
 
     /**
 <<<<<<< HEAD
@@ -185,37 +130,12 @@ class InformationSchemaTable extends Model
     protected $fillable = [
         'table_schema',
         'table_name',
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         'table_rows',
         'model_class',
         'updated_at',
         'updated_by',
         'created_at',
         'created_by',
-<<<<<<< HEAD
-=======
-        'engine',
-        'version',
-        'row_format',
-        'table_rows',
-        'avg_row_length',
-        'data_length',
-        'max_data_length',
-        'index_length',
-        'data_free',
-        'create_time',
-        'update_time',
-        'check_time',
-        'table_collation',
-        'checksum',
-        'create_options',
-        'table_comment',
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     ];
 
     /**
@@ -239,10 +159,6 @@ class InformationSchemaTable extends Model
 =======
 >>>>>>> 5a14301c (.)
         'id' => 'integer',
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         'table_schema' => 'string',
         'table_name' => 'string',
         'table_rows' => 'integer',
@@ -253,6 +169,7 @@ class InformationSchemaTable extends Model
         'created_by' => 'string',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -360,6 +277,8 @@ class InformationSchemaTable extends Model
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     /**
      * Get the rows array for the Sushi model.
      * This method is required by Sushi to provide the data.
@@ -369,10 +288,6 @@ class InformationSchemaTable extends Model
      */
     public function getRows(): array
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         return $this->getSushiRows();
     }
 
@@ -447,95 +362,6 @@ class InformationSchemaTable extends Model
         $table = $model->getTable();
         $where = ['table_schema' => $database, 'model_class' => $modelClass, 'table_name' => $table];
         $row = InformationSchemaTable::updateOrCreate($where, ['table_rows' => $total]);
-<<<<<<< HEAD
-=======
-        $query = "SELECT 
-            TABLE_CATALOG,
-            TABLE_SCHEMA,
-            TABLE_NAME,
-            TABLE_TYPE,
-            ENGINE,
-            VERSION,
-            ROW_FORMAT,
-            TABLE_ROWS,
-            AVG_ROW_LENGTH,
-            DATA_LENGTH,
-            MAX_DATA_LENGTH,
-            INDEX_LENGTH,
-            DATA_FREE,
-            AUTO_INCREMENT,
-            CREATE_TIME,
-            UPDATE_TIME,
-            CHECK_TIME,
-            TABLE_COLLATION,
-            CHECKSUM,
-            CREATE_OPTIONS,
-            TABLE_COMMENT
-        FROM information_schema.TABLES
-        WHERE TABLE_SCHEMA = ?";
-
-        $results = collect(DB::select($query, [DB::connection()->getDatabaseName()]))
-            ->map(function ($row, $index) {
-                $data = (array) $row;
-                $data['id'] = $index + 1; // Aggiungi un ID incrementale
-                return $data;
-            })
-            ->toArray();
-
-        /** @var array<int, array<string, mixed>> */
-        return $results;
-    }
-
-    /**
-     * Get table statistics from Sushi or information_schema as fallback.
-     *
-     * @param string $schema The schema name
-     * @param string $table The table name
-     */
-    public static function getTableStats(string $schema, string $table): ?self
-    {
-        $result = DB::connection('mysql')
-            ->table('information_schema.TABLES')
-            ->select([
-                'TABLE_CATALOG',
-                'TABLE_SCHEMA',
-                'TABLE_NAME',
-                'TABLE_TYPE',
-                'ENGINE',
-                'VERSION',
-                'ROW_FORMAT',
-                'TABLE_ROWS',
-                'AVG_ROW_LENGTH',
-                'DATA_LENGTH',
-                'MAX_DATA_LENGTH',
-                'INDEX_LENGTH',
-                'DATA_FREE',
-                'AUTO_INCREMENT',
-                'CREATE_TIME',
-                'UPDATE_TIME',
-                'CHECK_TIME',
-                'TABLE_COLLATION',
-                'CHECKSUM',
-                'CREATE_OPTIONS',
-                'TABLE_COMMENT'
-            ])
-            ->where('TABLE_SCHEMA', '=', $schema)
-            ->where('TABLE_NAME', '=', $table)
-            ->first();
-
-        if (!$result) {
-            return null;
-        }
-
-        // Creiamo una nuova istanza e popoliamola manualmente
-        $instance = new self();
-        foreach ((array) $result as $key => $value) {
-            $instance->setAttribute($key, $value);
-        }
-        return $instance;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     }
 
     /**
@@ -548,22 +374,12 @@ class InformationSchemaTable extends Model
      */
     public static function getModelCount(string $modelClass): int
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!class_exists($modelClass)) {
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
             throw new InvalidArgumentException("Model class [{$modelClass}] does not exist");
-=======
-        if (! class_exists($modelClass)) {
-            throw new InvalidArgumentException("Model class [$modelClass] does not exist");
->>>>>>> f1d4085 (.)
-=======
-        if (!class_exists($modelClass)) {
-            throw new InvalidArgumentException("Model class [{$modelClass}] does not exist");
->>>>>>> 73eab74 (.)
         }
 
         /** @var Model $model */
@@ -575,10 +391,9 @@ class InformationSchemaTable extends Model
             throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
 =======
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!($model instanceof Model)) {
             throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -629,6 +444,8 @@ class InformationSchemaTable extends Model
             throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         $connection = $model->getConnection();
@@ -654,10 +471,6 @@ class InformationSchemaTable extends Model
         $driver = $connection->getDriverName();
         $table = $model->getTable();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         $where = ['table_schema' => $database, 'model_class' => $modelClass, 'table_name' => $table];
         $row = InformationSchemaTable::firstOrCreate($where);
         if ($row->table_rows === null) {
@@ -682,6 +495,7 @@ class InformationSchemaTable extends Model
          *
          * return static::getAccurateRowCount($table, $database);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -820,5 +634,7 @@ class InformationSchemaTable extends Model
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     }
 }

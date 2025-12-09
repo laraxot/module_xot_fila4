@@ -8,24 +8,10 @@ use Exception;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Nwidart\Modules\Facades\Module;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\scandir;
 
-<<<<<<< HEAD
-=======
-
-use function Safe\scandir;
-
-use Spatie\QueueableAction\QueueableAction;
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 class GetModulePathAction
 {
     use QueueableAction;
@@ -38,9 +24,8 @@ class GetModulePathAction
      * @param  string  $moduleName  Il nome del modulo
 =======
      * @param string $moduleName Il nome del modulo
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,6 +67,8 @@ class GetModulePathAction
      *
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
      * @return string Il percorso completo del modulo
      */
     public function execute(string $moduleName): string
@@ -90,6 +77,7 @@ class GetModulePathAction
             $module_path = Module::getModulePath($moduleName);
         } catch (Exception) {
             $modulesPath = base_path('Modules');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,14 +143,14 @@ class GetModulePathAction
                 return __DIR__ . '/../';
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+            if (!File::exists($modulesPath)) {
+                return __DIR__ . '/../';
+>>>>>>> 3fbbf1f5 (.)
             }
 
             $files = scandir($modulesPath);
             $moduleNameLower = Str::lower($moduleName);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
             $foundModule = collect($files)->filter(static function ($item) use ($moduleNameLower): bool {
 <<<<<<< HEAD
@@ -200,6 +188,7 @@ class GetModulePathAction
             }
 
             $module_path = base_path('Modules/' . $foundModule);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +260,8 @@ class GetModulePathAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         }
 
         return $module_path;

@@ -57,9 +57,8 @@ final class GetFieldnamesByTablenameAction
      *
      * @return list
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function execute(string $table, null|string $connectionName = null): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +95,8 @@ final class GetFieldnamesByTablenameAction
     public function execute(string $table, null|string $connectionName = null): array
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     {
         // Validate table name
         if (empty(trim($table))) {
@@ -103,10 +104,6 @@ final class GetFieldnamesByTablenameAction
         }
 
         // Use default connection if none is provided
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
         Assert::string($connectionName ??= config('database.default'));
 
         // Validate database connection
@@ -137,21 +134,6 @@ final class GetFieldnamesByTablenameAction
                 $table,
                 $connectionName,
             ));
-<<<<<<< HEAD
-=======
-        Assert::string($connectionName = $connectionName ?? config('database.default'));
-
-        // Validate database connection
-        if (! $this->isValidConnection($connectionName)) {
-            throw new InvalidArgumentException(sprintf('Invalid database connection: %s',  $connectionName));
-        }
-
-        // Check if table exists in the database
-        if (! Schema::connection($connectionName)->hasTable($table)) {
-            throw new InvalidArgumentException(sprintf('Table "%s" does not exist in connection "%s".', $table,  $connectionName));
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         }
 
         // Get and return column listing
@@ -169,10 +151,6 @@ final class GetFieldnamesByTablenameAction
             // $columns = array_map('strval', $columns);
 
             return $columns;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -185,14 +163,6 @@ final class GetFieldnamesByTablenameAction
                 $table,
                 $e->getMessage(),
             ));
-<<<<<<< HEAD
-=======
-            // return array_values(array_map(static fn ($value): string => is_string($value) ? $value : (string) $value, $columns));
-        } catch (Throwable $e) {
-            throw new InvalidArgumentException(sprintf('Error fetching columns from table "%s": %s', $table, $e->getMessage()));
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         }
     }
 

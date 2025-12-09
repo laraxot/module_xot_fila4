@@ -5,10 +5,6 @@ declare(strict_types=1);
 namespace Modules\Xot\Tests\Feature;
 
 use Illuminate\Database\ConnectionInterface;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,17 +18,6 @@ use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
 use Modules\Xot\Models\XotBaseModel;
 use Tests\TestCase;
-<<<<<<< HEAD
-=======
-use Modules\Xot\Models\XotBaseModel;
-use Modules\Xot\Models\BaseModel;
-use Modules\Xot\Models\Module;
-use Tests\TestCase;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\DB;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 
 class XotBaseModelBusinessLogicTest extends TestCase
 {
@@ -685,10 +670,3 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $this->assertIsArray($with);
     }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)

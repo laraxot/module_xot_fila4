@@ -89,6 +89,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface ModelWithUserContract {}
 =======
 interface ModelWithUserContract
@@ -151,3 +152,8 @@ interface ModelWithUserContract
 }
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+interface ModelWithUserContract
+{
+}
+>>>>>>> 3fbbf1f5 (.)

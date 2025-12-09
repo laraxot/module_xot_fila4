@@ -21,10 +21,6 @@ use Webmozart\Assert\Assert;
  */
 trait HasCustomRelations
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public function customRelation(
         string $related,
         Closure $baseConstraints,
@@ -45,6 +41,7 @@ trait HasCustomRelations
         $instance = new $related();
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,6 +96,8 @@ trait HasCustomRelations
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
         $query = $instance->newQuery();
 
         return new CustomRelation($query, $this, $baseConstraints, $eagerConstraints, $eagerMatcher);

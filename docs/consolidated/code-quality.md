@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -124,6 +125,8 @@ This document outlines the best practices for maintaining high code quality with
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -345,6 +348,7 @@ $content = \file_get_contents($path); // Può restituire false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -385,6 +389,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b7ea1cd1 (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 
@@ -492,6 +499,7 @@ unset($translations['existing_key']); // MAI!
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
 =======
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
@@ -532,6 +540,9 @@ unset($translations['existing_key']); // MAI!
 **Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+>>>>>>> b7ea1cd1 (.)
 
 ---
 

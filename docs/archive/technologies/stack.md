@@ -11,11 +11,7 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Blade templating
 - [Documentazione Laravel](https://laravel.com/docs)
 
-<<<<<<< HEAD
 ### Filament 4.x
-=======
-### Filament 3.x
->>>>>>> a5dccfe (.)
 - Pannello amministrativo
 - Form builder
 - Table builder

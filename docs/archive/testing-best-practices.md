@@ -62,6 +62,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
 =======
 >>>>>>> 399f46d3 (.)
@@ -82,11 +83,9 @@ function mockXotData(): void
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 472bd9dc (.)
-        ->andReturn(\Modules\SaluteOra\Models\User::class);
 =======
-        ->andReturn(\Modules\<nome modulo>\Models\User::class);
-        ->andReturn(\Modules\<nome modulo>\Models\User::class);
->>>>>>> a5dccfe (.)
+>>>>>>> b7ea1cd1 (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -257,6 +256,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 - [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
 - [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
@@ -303,6 +303,10 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> b7ea1cd1 (.)
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -264,6 +265,8 @@ php artisan view:clear
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica

@@ -101,6 +101,7 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Service Container](https://laravel.com/docs/container)
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
 <<<<<<< HEAD
@@ -149,6 +150,10 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> b7ea1cd1 (.)
 - [Spatie QueueableAction](https://github.com/spatie/laravel-queueable-action)
 
 ---

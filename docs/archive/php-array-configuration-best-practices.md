@@ -16,6 +16,7 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
 <<<<<<< HEAD
 =======
@@ -57,6 +58,9 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> b7ea1cd1 (.)
 
 2.  **Validazione**:
     -   Utilizzare un IDE con linting PHP attivo.

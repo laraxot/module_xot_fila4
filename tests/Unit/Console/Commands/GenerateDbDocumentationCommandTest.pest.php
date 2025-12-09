@@ -16,6 +16,7 @@ declare(strict_types=1);
 =======
 use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9db27d12 (.)
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
@@ -134,12 +135,10 @@ use Illuminate\Support\Facades\Artisan;
 =======
 <<<<<<< HEAD
 >>>>>>> 472bd9dc (.)
-use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\File;
 =======
-use Illuminate\Support\Facades\File;
+>>>>>>> b7ea1cd1 (.)
 use Illuminate\Support\Facades\Artisan;
->>>>>>> a5dccfe (.)
+use Illuminate\Support\Facades\File;
 use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
 
 uses(\Modules\Xot\Tests\TestCase::class);
@@ -225,6 +224,7 @@ beforeEach(function () {
     if (! File::exists(dirname($this->testSchemaPath))) {
 =======
     if (!File::exists(dirname($this->testSchemaPath))) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -413,6 +413,9 @@ beforeEach(function () {
         File::makeDirectory(dirname($this->testSchemaPath), 0755, true);
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+>>>>>>> b7ea1cd1 (.)
     }
 
     // Create a test schema file
@@ -479,6 +482,7 @@ test('it generates database documentation', function () {
     expect($exitCode)->toBe(0);
 
     // Check if output files were created
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -600,10 +604,13 @@ test('it generates database documentation', function () {
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
     expect(File::exists($this->testOutputDir . '/database-documentation.md'))
         ->toBeTrue()
         ->and(File::exists($this->testOutputDir . '/tables/users.md'))
         ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -743,6 +750,8 @@ test('it generates database documentation', function () {
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
 });
 
 test('it handles missing schema file', function () {
@@ -815,6 +824,7 @@ test('it handles missing output directory', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -974,4 +984,7 @@ test('it handles missing output directory', function () {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+>>>>>>> b7ea1cd1 (.)
 });

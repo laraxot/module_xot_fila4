@@ -13,16 +13,21 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Convenzioni di naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 =======
 - [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 >>>>>>> 43d67f21 (.)
+=======
+- [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
+>>>>>>> b7ea1cd1 (.)
 
 ### Moduli Collegati
 - [UI](../UI/project_docs/README.md) - Componenti di interfaccia
 - [Cms](../Cms/project_docs/README.md) - Gestione contenuti
 - [Lang](../Lang/project_docs/README.md) - Traduzioni
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,6 +88,8 @@
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
 ## Struttura
 
 ### Pagine Folio con Filament
@@ -194,6 +201,7 @@ $submit = function() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 - [Componenti Volt](../UI/docs/components/volt.md)
@@ -204,12 +212,17 @@ $submit = function() {
 =======
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
 - [Componenti Volt](../UI/project_docs/components/volt.md)
 - [Layout](../UI/project_docs/layouts.md)
 - [Temi](../UI/project_docs/themes.md)
 - [Best Practices](../UI/project_docs/best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
 
 ### Modulo Cms
 - [Frontend](../Cms/project_docs/frontend.md)
@@ -268,6 +281,7 @@ $submit = function() {
 - [Scheduling](../Job/project_docs/scheduling.md)
 
 ### Modulo Chart
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Grafici](../Chart/docs/charts.md)
 - [Dashboard](../Chart/docs/dashboard.md)
@@ -450,3 +464,8 @@ $submit = function() {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+- [Grafici](../Chart/project_docs/charts.md)
+- [Dashboard](../Chart/project_docs/dashboard.md)
+- [Visualizzazione](../Chart/project_docs/visualization.md)
+>>>>>>> b7ea1cd1 (.)

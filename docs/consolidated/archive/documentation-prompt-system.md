@@ -23,6 +23,7 @@ Il modulo bashscripts include un sistema di prompt che fornisce istruzioni stand
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il file principale è `/var/www/html/<nome progetto>/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
 =======
 Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
@@ -69,6 +70,9 @@ Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, ch
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> b7ea1cd1 (.)
 
 1. Struttura gerarchica della documentazione
 2. Sistema di collegamenti bidirezionali

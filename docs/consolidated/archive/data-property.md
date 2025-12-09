@@ -87,6 +87,7 @@ Prima di ogni commit che coinvolge `XotBaseWidget`, eseguire questo controllo:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -n "public ?array \$data" /var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Widgets/XotBaseWidget.php
 =======
 grep -n "public ?array \$data" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Widgets/XotBaseWidget.php
@@ -133,6 +134,9 @@ grep -n "public ?array \$data" /var/www/html/base_saluteora/laravel/Modules/Xot/
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+grep -n "public ?array \$data" /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Widgets/XotBaseWidget.php
+>>>>>>> b7ea1cd1 (.)
 ```
 
 Se il comando non restituisce risultati, LA PROPRIETÀ È STATA RIMOSSA e deve essere ripristinata immediatamente.

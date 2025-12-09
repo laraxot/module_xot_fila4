@@ -99,6 +99,7 @@ abstract class XotBaseDashboard extends FilamentDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static ?int $navigationSort = 1;
 
 =======
@@ -173,6 +174,8 @@ abstract class XotBaseDashboard extends FilamentDashboard
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
     protected static null|int $navigationSort = 1;
 <<<<<<< HEAD
 <<<<<<< HEAD

@@ -10,15 +10,15 @@ Diversi metodi nelle classi base Xot erano dichiarati come `final`, impedendo l'
 
 ### 1. XotBaseRelationManager
 **File**: `app/Filament/Resources/XotBaseResource/RelationManager/XotBaseRelationManager.php`
-**Problema**: `final public function form(Form $form): Form`
+**Problema**: `final public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema`
 **Soluzione**: **MANTENUTO** `final` - utilizzare `getFormSchema()` per personalizzazione
-**Soluzione**: Rimosso `final`, ora `public function form(Form $form): Form`
+**Soluzione**: Rimosso `final`, ora `public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema`
 
 ### 2. XotBaseRelationManager (Alternativo)
 **File**: `app/Filament/Resources/RelationManagers/XotBaseRelationManager.php`
-**Problema**: `final public function form(Form $form): Form`
+**Problema**: `final public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema`
 **Soluzione**: **MANTENUTO** `final` - utilizzare `getFormSchema()` per personalizzazione
-**Soluzione**: Rimosso `final`, ora `public function form(Form $form): Form`
+**Soluzione**: Rimosso `final`, ora `public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema`
 
 ### 3. XotBaseDashboard
 **File**: `app/Filament/Pages/XotBaseDashboard.php`
@@ -44,7 +44,7 @@ Diversi metodi nelle classi base Xot erano dichiarati come `final`, impedendo l'
 abstract class XotBaseRelationManager extends RelationManager
 {
     // Metodo final per garantire coerenza
-    final public function form(Form $form): Form
+    final public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form->schema($this->getFormSchema());
     }
@@ -102,7 +102,7 @@ class MyRelationManager extends XotBaseRelationManager
 // ✅ CORRETTO - Template pattern
 abstract class XotBaseClass extends BaseClass
 {
-    final public function form(Form $form): Form
+    final public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 - **Activity**: RelationManager ora funzionanti
 - **User**: Form personalizzabili
 - **TechPlanner**: Tabelle estendibili
@@ -121,13 +121,13 @@ abstract class XotBaseClass extends BaseClass
 ### Metodi Overridabili
 ```php
 // ✅ CORRETTO - Metodo overridabile
-public function form(Form $form): Form
+public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 {
     return $form->schema($this->getFormSchema());
 }
 
 // ❌ ERRATO - Metodo final
-final public function form(Form $form): Form
+final public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 {
     return $form->schema($this->getFormSchema());
 }
@@ -138,7 +138,7 @@ final public function form(Form $form): Form
 abstract class XotBaseClass extends BaseClass
 {
     // Metodi che possono essere overridati
-    public function form(Form $form): Form
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form->schema($this->getFormSchema());
     }
@@ -149,7 +149,7 @@ abstract class XotBaseClass extends BaseClass
 // ❌ ERRATO - Override diretto
 class MyClass extends XotBaseClass
 {
-    public function form(Form $form): Form  // ❌ Non possibile con final
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema  // ❌ Non possibile con final
     {
         return $form->schema([]);
     // Metodi astratti che DEVONO essere implementati

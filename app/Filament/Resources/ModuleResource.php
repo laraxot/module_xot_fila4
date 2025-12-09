@@ -37,7 +37,7 @@ use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
 use Filament\Forms;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
-use Modules\UI\Filament\Forms\Components\IconPicker;
+use \Filament\Forms\Forms\Components\IconPicker;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Module;

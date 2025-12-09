@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Modules\Xot\Filament\Forms\Components;
+namespace Modules\Notify\Filament\Forms\Components;
 
 <<<<<<< HEAD
 <<<<<<< HEAD

@@ -77,6 +77,9 @@ class GetViewByClassAction
      * @return View
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function execute(string $class, array $params = [], null|string $viewName = null): View
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,12 +91,15 @@ class GetViewByClassAction
     {
         $viewName ??= $this->getViewNameFromClass($class);
 
+<<<<<<< HEAD
 =======
     public function execute(string $class, array $params = [], ?string $viewName = null): View
     {
         $viewName = $viewName ?? $this->getViewNameFromClass($class);
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         /** @var view-string $viewName */
         return view($viewName, $params);
     }
@@ -209,6 +215,7 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $module_low.'::pages.'.$class_name;
     }
 
@@ -266,10 +273,13 @@ class GetViewByClassAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
         return $module_low . '::pages.' . $class_name;
 =======
         return $module_low.'::pages.'.$class_name;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
@@ -314,5 +324,10 @@ class GetViewByClassAction
         return $module_low.'::pages.'.$class_name;
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
     }
 }

@@ -44,17 +44,26 @@ use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 use Filament\Facades\Filament;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Cache;
 =======
 use Illuminate\Support\Facades\File;
 >>>>>>> f1d4085 (.)
+=======
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Cache;
+>>>>>>> 73eab74 (.)
 use Filament\Navigation\NavigationItem;
 use Modules\Tenant\Services\TenantService;
 use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use function Safe\json_encode;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,11 +76,14 @@ use function Safe\json_encode;
 /**
  * Classe per gestire gli elementi di navigazione per i moduli.
  * Ottimizzata per ridurre memory usage.
+<<<<<<< HEAD
 =======
 
 /**
  * Classe per gestire gli elementi di navigazione per i moduli.
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
  */
 class GetModulesNavigationItems
 {
@@ -111,6 +123,9 @@ class GetModulesNavigationItems
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         // Pre-load user roles to avoid N+1 queries
         $user = auth()->user();
         
@@ -206,6 +221,7 @@ class GetModulesNavigationItems
                 continue;
             }
 
+<<<<<<< HEAD
 =======
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');
@@ -239,6 +255,8 @@ class GetModulesNavigationItems
             }
             
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             // Carichiamo la configurazione
             try {
                 /** @var array<string, mixed> $config */
@@ -246,6 +264,9 @@ class GetModulesNavigationItems
                 Assert::isArray($config, 'Il file di configurazione deve restituire un array');
             } catch (Exception $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                 continue;
             }
 
@@ -377,6 +398,7 @@ class GetModulesNavigationItems
 =======
 >>>>>>> 5a14301c (.)
                 });
+<<<<<<< HEAD
 =======
                 // Se non riusciamo a caricare la configurazione, passiamo al modulo successivo
                 continue;
@@ -415,6 +437,8 @@ class GetModulesNavigationItems
                     }
                 );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
             $navs[] = $nav;
         }
@@ -422,6 +446,9 @@ class GetModulesNavigationItems
         return $navs;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
     /**
      * Restituisce la versione cached e minimale dei moduli per UI rendering.
@@ -548,6 +575,9 @@ class GetModulesNavigationItems
 =======
 >>>>>>> 5a14301c (.)
     }
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 }

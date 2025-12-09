@@ -67,10 +67,14 @@ class HasManyAction
         $updateData = new HasManyUpdateData(
             foreignKey: $relation->getForeignKeyName(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             parentKey: $model->getAttribute($relation->getLocalKeyName()),
 =======
             parentKey: $model->getAttribute($relation->getLocalKeyName())
 >>>>>>> f1d4085 (.)
+=======
+            parentKey: $model->getAttribute($relation->getLocalKeyName()),
+>>>>>>> 73eab74 (.)
         );
 
         match (true) {
@@ -107,12 +111,16 @@ class HasManyAction
         $query = $relationDTO->related->newQuery();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $query->where($updateData->foreignKey, $updateData->parentKey)->update([$updateData->foreignKey => null]);
 
         $toIds = $relationDTO->data['to'] ?? [];
         if ($toIds) {
             $query
                 ->whereIn($relationDTO->related->getKeyName(), $toIds)
+<<<<<<< HEAD
 =======
         $query->where($updateData->foreignKey, $updateData->parentKey)
             ->update([$updateData->foreignKey => null]);
@@ -121,6 +129,8 @@ class HasManyAction
         if ($toIds) {
             $query->whereIn($relationDTO->related->getKeyName(), $toIds)
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
                 ->update([$updateData->foreignKey => $updateData->parentKey]);
         }
     }
@@ -132,6 +142,7 @@ class HasManyAction
 
         foreach ($relationDTO->data as $item) {
             Assert::isArray($item);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,10 +204,13 @@ class HasManyAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
             if (!isset($item[$keyName])) {
 =======
             if (! isset($item[$keyName])) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
@@ -241,6 +255,11 @@ class HasManyAction
             if (! isset($item[$keyName])) {
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
                 continue;
             }
 
@@ -250,6 +269,7 @@ class HasManyAction
             ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
 =======
             $result = app(UpdateAction::class)->execute(
@@ -258,6 +278,9 @@ class HasManyAction
                 []
             );
 >>>>>>> f1d4085 (.)
+=======
+            $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
+>>>>>>> 73eab74 (.)
 
             if ($result instanceof Model) {
                 $id = $result->getKey();
@@ -294,12 +317,18 @@ class HasManyAction
     ): void {
         if ($updatedIds) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $relationDTO
                 ->related
                 ->newQuery()
 =======
             $relationDTO->related->newQuery()
 >>>>>>> f1d4085 (.)
+=======
+            $relationDTO
+                ->related
+                ->newQuery()
+>>>>>>> 73eab74 (.)
                 ->where($updateData->foreignKey, $updateData->parentKey)
                 ->whereNotIn($relationDTO->related->getKeyName(), $updatedIds)
                 ->update([$updateData->foreignKey => null]);

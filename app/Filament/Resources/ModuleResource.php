@@ -21,6 +21,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -61,10 +62,13 @@ use Override;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
@@ -72,9 +76,12 @@ use Override;
 =======
 >>>>>>> 88ea7103 (.)
 =======
+>>>>>>> 21348520 (.)
+=======
 use Filament\Schemas\Components\Component;
 use Override;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
@@ -103,6 +110,8 @@ use Override;
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
@@ -120,6 +129,9 @@ use Modules\UI\Filament\Forms\Components\IconPicker;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Module;
 
@@ -138,6 +150,7 @@ class ModuleResource extends XotBaseResource
 =======
 >>>>>>> 5a14301c (.)
     #[Override]
+<<<<<<< HEAD
 =======
 use Modules\Xot\Models\Module;
 
@@ -158,6 +171,8 @@ class ModuleResource extends XotBaseResource
      * @return array<string, \Filament\Schemas\Components\Component>
      */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -182,6 +197,9 @@ class ModuleResource extends XotBaseResource
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     #[Override]
     public static function getRelations(): array
     {
@@ -189,6 +207,7 @@ class ModuleResource extends XotBaseResource
     }
 
     #[Override]
+<<<<<<< HEAD
 =======
     public static function getRelations(): array
     {
@@ -197,6 +216,8 @@ class ModuleResource extends XotBaseResource
     }
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     public static function getPages(): array
     {
 <<<<<<< HEAD

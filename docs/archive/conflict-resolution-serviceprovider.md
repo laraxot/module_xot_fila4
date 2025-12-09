@@ -28,6 +28,7 @@ Questa scelta garantisce:
 - [Struttura moduli Xot](./MODULE_NAMESPACE_RULES.md)
 - [Best Practices Provider](./BEST-PRACTICES.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [docs/links.md globale](../../../../docs/links.md)
 
 ## Backlink
@@ -39,6 +40,12 @@ Questa scelta garantisce:
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- [docs/links.md globale](../../../../project_docs/links.md)
+
+## Backlink
+- [docs/links.md](../../../../project_docs/links.md)
+>>>>>>> 43d67f21 (.)
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
 <<<<<<< HEAD

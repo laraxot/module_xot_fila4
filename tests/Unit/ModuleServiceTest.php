@@ -29,6 +29,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
         $this->service = new ModuleService()->setName('TestModule');
@@ -78,6 +79,9 @@ describe('ModuleService', function () {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> 43d67f21 (.)
     });
 >>>>>>> 5a14301c (.)
 
@@ -94,6 +98,7 @@ describe('ModuleService', function () {
     });
 
     it('can be instantiated with different module names', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,6 +147,10 @@ describe('ModuleService', function () {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+>>>>>>> 43d67f21 (.)
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
     });
@@ -212,6 +221,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $emptyService = new ModuleService()->setName('NonExistentModule');
 >>>>>>> 5a14301c (.)
@@ -236,6 +246,9 @@ describe('ModuleService', function () {
         $emptyService = $emptyService->setName('NonExistentModule');
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+>>>>>>> 43d67f21 (.)
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();

@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <nome progetto> e conformi ai principi del framework Laraxot.
 <<<<<<< HEAD
 =======
@@ -19,6 +20,9 @@ Documentazione completa delle best practice PHPStan per le factory Laravel, basa
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <nome progetto> e conformi ai principi del framework Laraxot.
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 43d67f21 (.)
 
 ## 📚 Principi Fondamentali
 
@@ -282,6 +286,7 @@ $result = $string . (string) $faker->method();
 ### Correzione Completa UserFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Vedere: `Modules/<nome progetto>/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -298,6 +303,8 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -308,6 +315,7 @@ Vedere:
 
 ### Documentazione Implementazione
 Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -337,6 +345,8 @@ Vedere:
 Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 
 ## 📊 Metriche di Successo
 

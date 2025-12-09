@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Approccio Sistematico PHPStan - Framework Laraxot
 
 **Creato**: 2025-09-10
@@ -163,3 +164,5 @@ $collection->get('key', 'default');
 
 ---
 *Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+=======
+>>>>>>> 43d67f21 (.)

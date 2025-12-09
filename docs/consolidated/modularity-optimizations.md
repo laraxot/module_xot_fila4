@@ -11,6 +11,7 @@ Durante l'audit del modulo `Xot` (modulo base del framework), sono state identif
 // ❌ ERRORE CRITICO - Path hardcoded
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static string $projectBasePath = '/var/www/html/<nome progetto>';
 <<<<<<< HEAD
 public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
@@ -44,6 +45,11 @@ public static string $laravelBasePath = '/var/www/html/_bases/base_techplanner_f
 public static string $modulesBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules';
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
+>>>>>>> 43d67f21 (.)
 ```
 
 **File contaminati:**
@@ -52,6 +58,7 @@ public static string $modulesBasePath = '/var/www/html/_bases/base_techplanner_f
 ### 2. Dipendenze su Moduli Specifici nei Test
 ```php
 // ❌ ERRORE CRITICO - Dipendenze hardcoded nei test
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,6 +77,9 @@ public static string $modulesBasePath = '/var/www/html/_bases/base_techplanner_f
 ->andReturn(\Modules\<nome modulo>\Models\User::class);
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 43d67f21 (.)
 ```
 
 **File contaminati:**
@@ -80,6 +90,7 @@ public static string $modulesBasePath = '/var/www/html/_bases/base_techplanner_f
 // ❌ ERRORE CRITICO - Traduzioni hardcoded
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 self::MONDAY => __('<nome progetto>::common.days.description.monday'),
 self::TUESDAY => __('<nome progetto>::common.days.description.tuesday'),
 <<<<<<< HEAD
@@ -101,6 +112,10 @@ self::MONDAY => __('<nome progetto>::common.days.description.monday'),
 self::TUESDAY => __('<nome progetto>::common.days.description.tuesday'),
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+self::MONDAY => __('saluteora::common.days.description.monday'),
+self::TUESDAY => __('saluteora::common.days.description.tuesday'),
+>>>>>>> 43d67f21 (.)
 ```
 
 **File contaminati:**
@@ -111,6 +126,7 @@ self::TUESDAY => __('<nome progetto>::common.days.description.tuesday'),
 // ❌ ERRORE CRITICO - Dati hardcoded nelle factory
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
 <<<<<<< HEAD
 =======
@@ -126,6 +142,9 @@ self::TUESDAY => __('<nome progetto>::common.days.description.tuesday'),
 'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
+>>>>>>> 43d67f21 (.)
 ```
 
 **File contaminati:**
@@ -134,6 +153,7 @@ self::TUESDAY => __('<nome progetto>::common.days.description.tuesday'),
 ### 5. Dipendenze su Moduli Specifici nei Widget
 ```php
 // ❌ ERRORE CRITICO - Import hardcoded
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152,6 +172,9 @@ use Modules\<nome modulo>\Models\Appointment;
 use Modules\<nome modulo>\Models\Appointment;
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+use Modules\SaluteOra\Models\Appointment;
+>>>>>>> 43d67f21 (.)
 ```
 
 **File contaminati:**
@@ -202,6 +225,7 @@ class PathHelper
         return str_replace(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ['/<nome progetto>/', '/Modules/'],
 <<<<<<< HEAD
 =======
@@ -217,6 +241,9 @@ class PathHelper
             ['/<nome progetto>/', '/Modules/'],
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+            ['/saluteora/', '/Modules/'],
+>>>>>>> 43d67f21 (.)
             [$projectPath, $modulesPath],
             $path
         );
@@ -371,6 +398,7 @@ enum DayOfWeek: int
 # Configurazione Path Xot
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 PROJECT_BASE_PATH=/var/www/html/<nome progetto>
 <<<<<<< HEAD
 LARAVEL_BASE_PATH=/var/www/html/<nome progetto>/laravel
@@ -402,6 +430,8 @@ MODULES_BASE_PATH=/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modul
 =======
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 PROJECT_BASE_PATH=/var/www/html/saluteora
 LARAVEL_BASE_PATH=/var/www/html/saluteora/laravel
 MODULES_BASE_PATH=/var/www/html/saluteora/laravel/Modules
@@ -419,6 +449,7 @@ XOT_TRANSLATION_FALLBACK=xot
 XOT_TABLE_SCHEMAS=saluteora,public,main,information_schema
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -454,6 +485,8 @@ XOT_TRANSLATION_FALLBACK=xot
 XOT_TABLE_SCHEMAS=<nome progetto>,public,main,information_schema
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 ```
 
 ### Override per Progetti Specifici
@@ -466,6 +499,7 @@ Ogni progetto può personalizzare path, modelli e traduzioni tramite variabili d
 # Verifica path hardcoded
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "/var/www/html/<nome progetto>" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica dipendenze hardcoded
@@ -483,6 +517,8 @@ grep -r "<nome progetto>::" laravel/Modules/Xot/ --include="*.php"
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 grep -r "/var/www/html/saluteora" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica dipendenze hardcoded
@@ -490,6 +526,7 @@ grep -r "Modules\\SaluteOra" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica traduzioni hardcoded
 grep -r "saluteora::" laravel/Modules/Xot/ --include="*.php"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -513,6 +550,8 @@ grep -r "Modules\\<nome progetto>" laravel/Modules/Xot/ --include="*.php"
 grep -r "<nome progetto>::" laravel/Modules/Xot/ --include="*.php"
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 ```
 
 ### Risultato Atteso

@@ -1,6 +1,7 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+
+>>>>>>> 43d67f21 (.)
 # Rapporto PHPStan Livello 4 per il modulo Xot
 
 Data analisi: 2025-04-15 21:53:50
@@ -18,6 +22,7 @@ Trovati 4 errori al livello 4.
 
 ## Errori e suggerimenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
@@ -38,6 +43,9 @@ Trovati 4 errori al livello 4.
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> 43d67f21 (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -57,6 +65,7 @@ Trovati 4 errori al livello 4.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 <<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -75,6 +84,9 @@ Trovati 4 errori al livello 4.
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> 43d67f21 (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 
@@ -103,6 +115,7 @@ aurmich/dev
 
 ## Collegamenti tra versioni di level_4.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [level_4.md](laravel/Modules/Chart/docs/phpstan/level_4.md)
 * [level_4.md](laravel/Modules/Reporting/docs/phpstan/level_4.md)
 * [level_4.md](laravel/Modules/Gdpr/docs/phpstan/level_4.md)
@@ -120,6 +133,8 @@ aurmich/dev
 * [level_4.md](laravel/Modules/Cms/docs/phpstan/level_4.md)
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 43d67f21 (.)
 * [level_4.md](laravel/Modules/Chart/project_docs/phpstan/level_4.md)
 * [level_4.md](laravel/Modules/Reporting/project_docs/phpstan/level_4.md)
 * [level_4.md](laravel/Modules/Gdpr/project_docs/phpstan/level_4.md)
@@ -135,6 +150,7 @@ aurmich/dev
 * [level_4.md](laravel/Modules/Activity/project_docs/phpstan/level_4.md)
 * [level_4.md](laravel/Modules/Patient/project_docs/phpstan/level_4.md)
 * [level_4.md](laravel/Modules/Cms/project_docs/phpstan/level_4.md)
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 
@@ -143,3 +159,6 @@ aurmich/dev
 
 =======
 >>>>>>> a5dccfe (.)
+=======
+
+>>>>>>> 43d67f21 (.)

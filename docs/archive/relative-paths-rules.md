@@ -3,6 +3,7 @@
 > **Collegamenti correlati**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 > - [README.md documentazione generale](../../../../project_docs/README.md)
@@ -26,6 +27,13 @@
 
 =======
 >>>>>>> a5dccfe (.)
+=======
+> - [README.md documentazione generale](../../../../project_docs/README.md)
+> - [Struttura dei Prompt](./prompts.md)
+> - [Regole per i Prompt](./PROMPT_RULES.md)
+> - [README.md toolkit bashscripts](../../../../bashscripts/project_docs/README.md)
+
+>>>>>>> 43d67f21 (.)
 ## Regola Fondamentale
 
 **MAI UTILIZZARE PERCORSI ASSOLUTI NEI LINK DELLA DOCUMENTAZIONE. SEMPRE UTILIZZARE PERCORSI RELATIVI.**
@@ -37,6 +45,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 ### Da un file nella root del progetto verso un modulo
 
 ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 [Modulo Xot](./laravel/Modules/Xot/project_docs/README.md)
@@ -53,11 +62,15 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+[Modulo Xot](./laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 43d67f21 (.)
 ```
 
 ### Da un file in un modulo verso un altro modulo
 
 ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 [Altro Modulo](../../../AltroModulo/project_docs/README.md)
@@ -74,11 +87,15 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+[Altro Modulo](../../../AltroModulo/project_docs/README.md)
+>>>>>>> 43d67f21 (.)
 ```
 
 ### Da un file in un modulo verso la root
 
 ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 [Documentazione Root](../../../../project_docs/README.md)
@@ -95,12 +112,16 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+[Documentazione Root](../../../../project_docs/README.md)
+>>>>>>> 43d67f21 (.)
 ```
 
 ## Errori Comuni da Evitare
 
 1. **MAI utilizzare percorsi assoluti** come:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,10 +143,14 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/README.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 43d67f21 (.)
    ```
 
 2. **MAI utilizzare percorsi che iniziano con /**:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,10 +173,15 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](/laravel/Modules/Xot/docs/README.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+   [ERRATO](/project_docs/README.md)
+   [ERRATO](/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 43d67f21 (.)
    ```
 
 3. **MAI utilizzare percorsi che non tengono conto della posizione relativa del file sorgente**:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,6 +204,10 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](../Xot/docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+   [ERRATO](Modules/Xot/project_docs/README.md) <!-- Da un file nella root -->
+   [ERRATO](../Xot/project_docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
+>>>>>>> 43d67f21 (.)
    ```
 
 ## Come Calcolare Correttamente i Percorsi Relativi
@@ -190,12 +224,16 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 |-------------------------|------------------------------|----------------------------|
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 43d67f21 (.)
 | `/project_docs/README.md` | `/laravel/Modules/Xot/project_docs/README.md` | `./laravel/Modules/Xot/project_docs/README.md` |
 | `/laravel/Modules/Xot/project_docs/README.md` | `/project_docs/README.md` | `../../../../project_docs/README.md` |
 | `/laravel/Modules/Xot/project_docs/README.md` | `/laravel/Modules/User/project_docs/README.md` | `../../../User/project_docs/README.md` |
 | `/laravel/Modules/Xot/project_docs/structure.md` | `/laravel/Modules/Xot/project_docs/README.md` | `./README.md` |
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 | `/docs/README.md` | `/laravel/Modules/Xot/docs/README.md` | `./laravel/Modules/Xot/docs/README.md` |
@@ -213,6 +251,9 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 
 =======
 >>>>>>> a5dccfe (.)
+=======
+
+>>>>>>> 43d67f21 (.)
 ## Verifica dei Link
 
 Prima di committare modifiche alla documentazione:

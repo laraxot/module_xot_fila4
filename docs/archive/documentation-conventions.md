@@ -61,6 +61,7 @@
    ```markdown
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 <<<<<<< HEAD
 =======
@@ -77,10 +78,14 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
+>>>>>>> 43d67f21 (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
@@ -99,6 +104,9 @@ Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_docu
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
+>>>>>>> 43d67f21 (.)
    ```
 
 ## Manutenzione della documentazione
@@ -135,6 +143,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 ## Collegamenti a documentazione correlata
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione generale](../../../docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/docs/service_provider.md)
@@ -145,6 +154,11 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- [Documentazione generale](../../../project_docs/documentation_rules.md)
+- [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
+- [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
+>>>>>>> 43d67f21 (.)
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
 <<<<<<< HEAD

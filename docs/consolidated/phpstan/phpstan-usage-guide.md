@@ -241,6 +241,7 @@ cd /percorso/al/progetto/laravel
 ./vendor/bin/phpstan analyse Modules/NomeModulo --level=9 --verbose
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ``` 
 <<<<<<< HEAD
 =======
@@ -256,3 +257,5 @@ cd /percorso/al/progetto/laravel
 ``` 
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)

@@ -29,6 +29,7 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 ## Backlink
 - [Torna a README.md del modulo Xot](../README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Collegamento a docs/links.md della root](../../../../docs/links.md)
 
 <<<<<<< HEAD
@@ -45,6 +46,10 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+>>>>>>> 43d67f21 (.)
 ## Utilizzo di GetModulePathByGeneratorAction
 
 ### Panoramica

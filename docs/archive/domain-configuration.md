@@ -81,6 +81,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Gestione Asset](assets.md)
 - [Struttura Temi](themes.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Linee Guida per i Loghi](../../../docs/standards/logo_guidelines.md)
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Progetto](../../../docs/standards/README.md)
@@ -107,6 +108,15 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+>>>>>>> 43d67f21 (.)
 ## Collegamenti Correlati
 - [Configurazione Moduli](MODULE_CONFIGURATION.md)
 - [Gestione Risorse](ASSETS.md)
@@ -114,6 +124,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Troubleshooting](TROUBLESHOOTING.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Documentazione UI](../../UI/docs/configuration.md)
 - [Documentazione Media](../../Media/docs/assets.md)
@@ -139,6 +150,14 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+>>>>>>> 43d67f21 (.)
 # Configurazione Basata sul Dominio
 
 ## Introduzione

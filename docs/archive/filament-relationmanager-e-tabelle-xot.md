@@ -167,6 +167,7 @@ class MioRelatedRelationManager extends XotBaseRelationManager
 ---
 *Vedi anche: [Regole Generali Filament nel Modulo Xot](./filament_best_practices.md)* (Assumendo che esista o verrà creato un file del genere)
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Vedi anche: [Documentazione Ufficiale Filament](https://filamentphp.com/docs/3.x/relations/overview)* (Per concetti base di Filament)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,3 +184,6 @@ class MioRelatedRelationManager extends XotBaseRelationManager
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+*Vedi anche: [Documentazione Ufficiale Filament](https://filamentphp.com/project_docs/3.x/relations/overview)* (Per concetti base di Filament)
+>>>>>>> 43d67f21 (.)

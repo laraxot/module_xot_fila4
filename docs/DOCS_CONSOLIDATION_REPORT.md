@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Report Consolidamento Documentazione - 27 Gennaio 2025
 
 ## Panoramica
@@ -201,3 +202,5 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 **Data Report**: 27 Gennaio 2025  
 **Stato**: Consolidamento in corso  
 **Prossimo Update**: Completamento consolidamento root docs
+=======
+>>>>>>> 43d67f21 (.)

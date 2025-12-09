@@ -37,12 +37,17 @@ namespace Modules\Xot\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Filament\Panel;
 use Filament\PanelProvider;
 use Illuminate\Support\Arr;
@@ -67,6 +72,7 @@ use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Filament\Http\Middleware\Authenticate;
@@ -460,7 +466,12 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
 abstract class XotBasePanelProvider extends PanelProvider
 {
@@ -480,6 +491,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 
         $main_module = Str::lower(XotData::make()->main_module);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $default = $main_module === $moduleLow;
 =======
 <<<<<<< HEAD
@@ -492,6 +504,9 @@ abstract class XotBasePanelProvider extends PanelProvider
         $default = $main_module === $moduleLow;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        $default = $main_module === $moduleLow;
+>>>>>>> 300ef70 (.)
 
         $panel = $panel
             ->default($default)
@@ -504,6 +519,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 
         app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
         // ---------------------
+<<<<<<< HEAD
 <<<<<<< HEAD
         $panel
             ->maxContentWidth('full')
@@ -520,6 +536,10 @@ abstract class XotBasePanelProvider extends PanelProvider
             ->maxContentWidth('full')
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        $panel
+            ->maxContentWidth('full')
+>>>>>>> 300ef70 (.)
             ->topNavigation($this->topNavigation)
             ->globalSearch($this->globalSearch)
             ->readOnlyRelationManagersOnResourceViewPagesByDefault(false)
@@ -560,8 +580,11 @@ abstract class XotBasePanelProvider extends PanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
             ->id($moduleLow.'::admin')
             ->path($moduleLow.'/admin')
 =======
@@ -569,6 +592,8 @@ abstract class XotBasePanelProvider extends PanelProvider
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
             ->id($moduleLow . '::admin')
             ->path($moduleLow . '/admin')
 >>>>>>> d2b0a27 (.)
@@ -743,6 +768,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
        
@@ -781,6 +807,8 @@ abstract class XotBasePanelProvider extends PanelProvider
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
             ->id($moduleLow.'::admin')
             ->path($moduleLow.'/admin')
@@ -958,7 +986,12 @@ abstract class XotBasePanelProvider extends PanelProvider
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         return $panel;
     }
 
@@ -966,6 +999,7 @@ abstract class XotBasePanelProvider extends PanelProvider
     {
         Assert::string($ns = config('modules.namespace'));
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1030,6 +1064,8 @@ abstract class XotBasePanelProvider extends PanelProvider
 =======
 >>>>>>> 88ea7103 (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
         return $ns.'\\'.$this->module;
 =======
 <<<<<<< HEAD
@@ -1166,6 +1202,12 @@ abstract class XotBasePanelProvider extends PanelProvider
         return $ns . '\\' . $this->module;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+        return $ns . '\\' . $this->module;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
     }
 }

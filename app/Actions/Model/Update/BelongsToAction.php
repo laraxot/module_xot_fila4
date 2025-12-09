@@ -22,6 +22,7 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Collection;
 =======
 use Illuminate\Database\Eloquent\Collection;
@@ -118,6 +119,8 @@ use InvalidArgumentException;
 >>>>>>> ed734516 (.)
 =======
 =======
+=======
+>>>>>>> 6dcebf8a (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -228,7 +231,12 @@ use Exception;
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Arr;
@@ -247,12 +255,15 @@ class BelongsToAction
 
         /*$relationDTO->data e' un array
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
          * if (! \is_array($relationDTO->data)) {
          * $related = $rows->getRelated();
          * $related = $related->find($relationDTO->data);
@@ -306,7 +317,10 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 88ea7103 (.)
 =======
@@ -526,7 +540,12 @@ class BelongsToAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
                 return;
             }
 
@@ -536,6 +555,7 @@ class BelongsToAction
                 $related = $related->first(); // Prendi il primo modello della collezione
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -615,6 +635,8 @@ class BelongsToAction
 =======
 >>>>>>> 88ea7103 (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
             if (! ($related instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -706,7 +728,13 @@ class BelongsToAction
             if (!($related instanceof Model)) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+            if (!($related instanceof Model)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
                 throw new Exception('Expected a single model, got null or invalid object.');
             }
             $res = $rows->associate($related);
@@ -718,6 +746,7 @@ class BelongsToAction
         if (Arr::isAssoc($relationDTO->data)) {
             $sub = $rows->firstOrCreate();
             // $sub = $rows->first() ?? $rows->getModel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -809,6 +838,8 @@ class BelongsToAction
 =======
 >>>>>>> 17684f52 (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
             if ($sub === null) {
                 throw new Exception('['.__LINE__.']['.class_basename($this).']');
 =======
@@ -978,7 +1009,14 @@ class BelongsToAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+            if (null === $sub) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
             }
 
             app(RelationAction::class)->execute($sub, $relationDTO->data);
@@ -989,6 +1027,7 @@ class BelongsToAction
 
         if ($rows->exists()) {
             // $rows->update($data); // non passa per il mutator
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1104,12 +1143,15 @@ class BelongsToAction
 =======
 >>>>>>> 17684f52 (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
             $relatedInstance = $model->{Str::camel($relationDTO->name)};
             if ($relatedInstance instanceof Model) {
                 $relatedInstance->update($data);
             }
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $model->{Str::camel($relationDTO->name)}->update($data);
@@ -1260,8 +1302,10 @@ class BelongsToAction
 =======
 >>>>>>> f1d4085 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 300ef70 (.)
             $model->{Str::camel($relationDTO->name)}->update($data);
->>>>>>> 73eab74 (.)
 
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)

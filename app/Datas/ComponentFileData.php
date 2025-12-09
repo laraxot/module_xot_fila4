@@ -23,11 +23,10 @@ class ComponentFileData extends Data
 =======
 =======
     public string $class;
-<<<<<<< HEAD
-<<<<<<< HEAD
     public null|string $module = null;
     public null|string $path = null;
     public null|string $ns = null;
+<<<<<<< HEAD
 =======
     public ?string $module = null;
     public ?string $path = null;
@@ -39,7 +38,12 @@ class ComponentFileData extends Data
     public null|string $ns = null;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
     public string $class;
 <<<<<<< HEAD
@@ -285,6 +289,7 @@ class ComponentFileData extends Data
     {
         return self::collect($data, DataCollection::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,5 +299,7 @@ class ComponentFileData extends Data
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 }

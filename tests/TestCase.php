@@ -84,6 +84,7 @@ abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,12 +117,9 @@ abstract class TestCase extends BaseTestCase
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-
 =======
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 300ef70 (.)
 
->>>>>>> 73eab74 (.)
     //use DatabaseMigrations;
 >>>>>>> d2b0a27 (.)
 
@@ -361,18 +359,22 @@ abstract class TestCase extends BaseTestCase
             'name' => fake()->name(),
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         $userData = array_merge($defaultData, $attributes);
 
         /** @var UserContract&Model $user */
         $user = $userClass::factory()->create($userData);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -387,11 +389,14 @@ abstract class TestCase extends BaseTestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         return $user;
     }
 
     /**
      * Mock XotData for widget testing (Gold Standard Pattern).
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
 =======
@@ -405,6 +410,9 @@ abstract class TestCase extends BaseTestCase
      *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+     *
+>>>>>>> 300ef70 (.)
      * Prevents "Class not found" errors and provides consistent behavior
      * across all widget tests.
 <<<<<<< HEAD
@@ -439,10 +447,16 @@ abstract class TestCase extends BaseTestCase
         $mockXotData = Mockery::mock(XotData::class)->makePartial();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
         // Mock dei metodi critici con fallback sicuri
         $mockXotData->shouldReceive('getUserClass')->andReturn(User::class);
@@ -464,6 +478,7 @@ abstract class TestCase extends BaseTestCase
 
         $mockXotData->shouldReceive('make')->andReturn($mockXotData);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -492,6 +507,8 @@ abstract class TestCase extends BaseTestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // ✅ CRITICO: Bind nel container per risoluzione automatica
         app()->instance(XotData::class, $mockXotData);
     }
@@ -583,6 +600,7 @@ abstract class TestCase extends BaseTestCase
             'password_confirmation' => 'password123',
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -595,6 +613,9 @@ abstract class TestCase extends BaseTestCase
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
         return array_merge($defaultData, $overrides);
     }
 
@@ -605,6 +626,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function assertUserAuthenticated(?string $expectedType = null): void
 =======
@@ -637,10 +659,13 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
     protected function assertUserAuthenticated(null|string $expectedType = null): void
     {
         $this->assertAuthenticated();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     protected function assertUserAuthenticated(?string $expectedType = null): void
@@ -651,6 +676,8 @@ abstract class TestCase extends BaseTestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         if ($expectedType !== null) {
             /** @var UserContract|null $user */
             $user = auth()->user();
@@ -671,6 +698,7 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 5a14301c (.)
             $this->assertNotNull($user);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -683,6 +711,9 @@ abstract class TestCase extends BaseTestCase
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)
             if ($user && method_exists($user, 'type')) {
                 $this->assertEquals($expectedType, $user->type ?? null);
 <<<<<<< HEAD

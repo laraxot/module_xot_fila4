@@ -76,6 +76,7 @@ class GetPdfContentByRecordActionTest extends TestCase
         $user = User/** @phpstan-ignore-line */ ::factory()->create([
             'name' => 'Test User',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'email' => 'test@example.com',
 =======
 <<<<<<< HEAD
@@ -88,10 +89,14 @@ class GetPdfContentByRecordActionTest extends TestCase
             'email' => 'test@example.com',
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            'email' => 'test@example.com',
+>>>>>>> 300ef70 (.)
         ]);
 
         // Mock view existence
         view()->addNamespace('user', resource_path('views'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -99,6 +104,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         // Act & Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -106,6 +113,7 @@ class GetPdfContentByRecordActionTest extends TestCase
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectExceptionMessage("View 'user::user.show.pdf' not found");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line property.notFound */
 =======
@@ -120,6 +128,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $this->action->execute($user);
     }
 
@@ -133,9 +143,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 =======
         $user = User::factory()->create();
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
         
 >>>>>>> f1d4085 (.)
@@ -143,6 +152,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // Use reflection to test protected method
         /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->action);
@@ -151,17 +162,21 @@ class GetPdfContentByRecordActionTest extends TestCase
         /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         // Act
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $viewName = $method->invoke($this->action, $user);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -174,6 +189,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('user::user.show.pdf', $viewName);
@@ -189,9 +206,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 =======
         $user = User::factory()->create(['id' => 123, 'name' => 'Test User']);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
         
 >>>>>>> f1d4085 (.)
@@ -199,6 +215,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // Use reflection to test protected method
         /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->action);
@@ -207,17 +225,21 @@ class GetPdfContentByRecordActionTest extends TestCase
         /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         // Act
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $filename = $method->invoke($this->action, $user);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -230,6 +252,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('user_123_test-user.pdf', $filename);
@@ -275,15 +299,7 @@ class GetPdfContentByRecordActionTest extends TestCase
             public function getKey(): int
 =======
             protected $fillable = ['id', 'matr', 'cognome', 'nome'];
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> f1d4085 (.)
-=======
-
->>>>>>> 73eab74 (.)
             public function getKey()
 >>>>>>> d2b0a27 (.)
             {
@@ -291,17 +307,21 @@ class GetPdfContentByRecordActionTest extends TestCase
             }
         };
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         $record->matr = 'ABC123';
         $record->cognome = 'Rossi';
         $record->nome = 'Mario';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -315,6 +335,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // Use reflection to test protected method
         /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->action);
@@ -323,17 +345,21 @@ class GetPdfContentByRecordActionTest extends TestCase
         /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         // Act
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $filename = $method->invoke($this->action, $record);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -346,6 +372,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('scheda_456_ABC123_Rossi_Mario.pdf', $filename);
@@ -361,9 +389,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 =======
         $user = User::factory()->create(['name' => 'Test User']);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
         
 >>>>>>> f1d4085 (.)
@@ -371,6 +398,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // Use reflection to test protected method
         /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->action);
@@ -379,17 +408,21 @@ class GetPdfContentByRecordActionTest extends TestCase
         /** @phpstan-ignore-next-line method.nonObject */
         $method->setAccessible(true);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         // Act
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $params = $method->invoke($this->action, $user, 'user::user.show.pdf');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -402,6 +435,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($params);
@@ -430,9 +465,12 @@ class GetPdfContentByRecordActionTest extends TestCase
         $user = User::factory()->create();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         // Act & Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -440,6 +478,7 @@ class GetPdfContentByRecordActionTest extends TestCase
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line property.notFound */
 =======
@@ -454,6 +493,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $this->action->execute($user);
     }
 
@@ -474,17 +515,21 @@ class GetPdfContentByRecordActionTest extends TestCase
         $user = User/** @phpstan-ignore-line */ ::factory()->create();
         $customFilename = 'custom-report.pdf';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         // Act & Assert - Should use custom filename in error message
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectException(Exception::class);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line property.notFound */
 =======
@@ -498,6 +543,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $this->action->execute($user, $customFilename);
     }
 
@@ -509,12 +556,15 @@ class GetPdfContentByRecordActionTest extends TestCase
         $user = User/** @phpstan-ignore-line */ ::factory()->create();
         $filename = 'convenience-test.pdf';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         // Act & Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -522,6 +572,7 @@ class GetPdfContentByRecordActionTest extends TestCase
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line property.notFound */
 =======
@@ -536,6 +587,8 @@ class GetPdfContentByRecordActionTest extends TestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $this->action->fromRecord($user, $filename);
     }
 

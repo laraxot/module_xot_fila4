@@ -3,12 +3,15 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 namespace Modules\Xot\Tests\Unit;
 
 <<<<<<< HEAD
@@ -20,6 +23,7 @@ use Mockery;
 use Modules\Xot\Tests\Unit\Support\DummyTestModel;
 use Modules\Xot\Tests\Unit\Support\HasTableWithoutOptionalMethodsTestClass;
 use Modules\Xot\Tests\Unit\Support\HasTableWithXotTestClass;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Tests\TestCase;
 =======
@@ -184,7 +188,12 @@ use Illuminate\Support\Collection;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
 uses(TestCase::class);
 
@@ -198,9 +207,12 @@ it('tests table method with all methods implemented', function (): void {
 it('tests table method with all methods implemented', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     // Avoid DB/Schema access inside TableExistsByModelClassActions
     /** @phpstan-ignore-next-line method.notFound */
     Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
@@ -231,6 +243,7 @@ it('tests table method with all methods implemented', function () {
     $mock->shouldReceive('getTableHeading')->andReturn('Test Table');
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableFilters')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -273,6 +286,8 @@ it('tests table method with all methods implemented', function () {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     // Stub optional methods to avoid resolving translator / actions
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeaderActions')->andReturn([]);
@@ -281,14 +296,18 @@ it('tests table method with all methods implemented', function () {
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableBulkActions')->andReturn([]);
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @phpstan-ignore-next-line method.nonObject */
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -302,6 +321,8 @@ it('tests table method with all methods implemented', function () {
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
     // Create a mock for Table
     $tableMock = Mockery::mock(Table::class);
@@ -351,9 +372,12 @@ it('tests table method with no optional methods implemented', function (): void 
 it('tests table method with no optional methods implemented', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     // Avoid DB/Schema access inside TableExistsByModelClassActions
     /* @phpstan-ignore-next-line method.notFound */
     Mockery::mock('overload:Modules\\Xot\\Actions\\Model\\TableExistsByModelClassActions')
@@ -372,6 +396,7 @@ it('tests table method with no optional methods implemented', function () {
     $mock->shouldReceive('getTableHeading')->andReturn('Test Table');
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableFilters')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -399,6 +424,8 @@ it('tests table method with no optional methods implemented', function () {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     // Avoid constructing Filament Actions which require translator binding
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableHeaderActions')->andReturn([]);
@@ -407,14 +434,18 @@ it('tests table method with no optional methods implemented', function () {
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableBulkActions')->andReturn([]);
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @phpstan-ignore-next-line method.nonObject */
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     $mock->shouldReceive('getTableFiltersFormColumns')->andReturn(1);
     /** @phpstan-ignore-next-line method.nonObject */
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -428,6 +459,8 @@ it('tests table method with no optional methods implemented', function () {
     $mock->shouldReceive('getTableEmptyStateActions')->andReturn([]);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
     // Create a mock for Table
     $tableMock = Mockery::mock(Table::class);
@@ -471,6 +504,7 @@ it('tests table method with no optional methods implemented', function () {
     /* @phpstan-ignore-next-line argument.templateType */
     expect($result)->toBe($tableMock);
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -994,3 +1028,5 @@ class DummyModel extends Model
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

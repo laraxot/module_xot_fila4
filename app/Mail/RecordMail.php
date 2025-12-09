@@ -11,6 +11,7 @@ use Illuminate\Queue\SerializesModels;
 /**
  * Class RecordMail
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 <<<<<<< HEAD
@@ -23,6 +24,9 @@ use Illuminate\Queue\SerializesModels;
  *
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+ *
+>>>>>>> 300ef70 (.)
  * Mailable per l'invio di dati di record via email.
  */
 class RecordMail extends Mailable
@@ -68,6 +72,7 @@ class RecordMail extends Mailable
     public function build(): self
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->view('xot::emails.record')->with(['data' => $this->recordData]);
     }
 }
@@ -89,3 +94,8 @@ class RecordMail extends Mailable
 }
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        return $this->view('xot::emails.record')->with(['data' => $this->recordData]);
+    }
+}
+>>>>>>> 300ef70 (.)

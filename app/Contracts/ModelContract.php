@@ -157,12 +157,15 @@ interface ModelContract
      */
     public function save(array $options = []);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,6 +190,7 @@ interface ModelContract
      * public function forceCreate(array $attributes);
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -201,6 +205,8 @@ interface ModelContract
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
     /**
      * Convert the model instance to an array.
@@ -280,6 +286,7 @@ interface ModelContract
      * @param  string $boolean
      * @return $this
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
@@ -301,6 +308,11 @@ interface ModelContract
      */
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+     *
+     * public function where($column, $operator = null, $value = null, $boolean = 'and');
+     */
+>>>>>>> 300ef70 (.)
     /*
      * Execute the query and get the first result or throw an exception.
      *
@@ -308,6 +320,7 @@ interface ModelContract
      * @return \Illuminate\Database\Eloquent\Model|static
      *
      * @throws \Illuminate\Database\Eloquent\ModelNotFoundException<\Illuminate\Database\Eloquent\Model>
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * public function firstOrFail($columns = ['*']);
@@ -329,4 +342,9 @@ interface ModelContract
      */
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+     *
+     * public function firstOrFail($columns = ['*']);
+     */
+>>>>>>> 300ef70 (.)
 }

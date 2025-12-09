@@ -67,6 +67,7 @@ class AuthData extends Data
             'github' => false,
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 =======
 <<<<<<< HEAD
@@ -80,6 +81,9 @@ class AuthData extends Data
     ) {}
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    ) {}
+>>>>>>> 300ef70 (.)
 
     /**
      * Create a new instance of AuthData with default values.

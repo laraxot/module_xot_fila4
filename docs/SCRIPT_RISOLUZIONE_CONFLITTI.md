@@ -7,6 +7,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
 # Script di Risoluzione Conflitti Git - FixCity Project
 
 ## Panoramica
@@ -131,6 +135,7 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
@@ -846,6 +851,9 @@ grep -r "<<<<<<< HEAD\|=======\|>>>>>>> " . --include="*.php"
 =======
 ### Verifica PHPStan
 >>>>>>> 3fbbf1f5 (.)
+=======
+### Verifica PHPStan
+>>>>>>> 6dcebf8a (.)
 ```bash
 # Verifica singolo file
 ./vendor/bin/phpstan analyse --level=10 path/to/file.php
@@ -900,6 +908,7 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 
 ### ❌ Automazione Cieca
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Verifica conflitti rimanenti
 grep -r "<<<<<<< HEAD\|=======\|>>>>>>> " . --include="*.php"
@@ -1262,6 +1271,11 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 git checkout --theirs .
 git checkout --ours .
 >>>>>>> 3fbbf1f5 (.)
+=======
+# NON fare mai questo
+git checkout --theirs .
+git checkout --ours .
+>>>>>>> 6dcebf8a (.)
 ```
 
 ### ❌ Risoluzione Parziale
@@ -1429,6 +1443,7 @@ La risoluzione sistematica dei conflitti Git richiede:
 4. **Verifica completa** della sintassi e struttura
 5. **Aggiornamento documentazione** correlata
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 *Script creati il: 2025-09-18*  
 *Poteri della Super Mucca: ATTIVATI* 🐄✨
@@ -1696,6 +1711,8 @@ La risoluzione sistematica dei conflitti Git richiede:
 *Poteri della Super Mucca: ATTIVATI* 🐄✨
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
 Seguendo questo workflow, è possibile risolvere anche grandi quantità di conflitti mantenendo la qualità del codice e la coerenza del progetto.
 
 ## Collegamenti Correlati
@@ -1704,6 +1721,7 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 - [Regole Laraxot](../laraxot-rules.md)
 - [Best Practices PHP](../php-best-practices.md)
 - [Architettura Modulare](../modular-architecture.md)
+<<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
 =======
 =======
@@ -1897,3 +1915,6 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)

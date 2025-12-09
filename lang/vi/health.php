@@ -9,6 +9,7 @@ return [
                 'refresh' => 'Làm mới',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'heading' => 'Tình trạng ứng dụng',
 =======
 <<<<<<< HEAD
@@ -23,11 +24,15 @@ return [
             'heading' => 'Tình trạng ứng dụng',
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            'heading' => 'Tình trạng ứng dụng',
+>>>>>>> 300ef70 (.)
             'navigation' => [
                 'group' => 'Cài đặt',
                 'label' => 'Tình trạng ứng dụng',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37,6 +42,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             'notifications' => [
                 'check_results' => 'Kết quả được kiểm tra từ',
             ],

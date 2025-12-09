@@ -5,12 +5,15 @@ declare(strict_types=1);
 namespace Modules\Xot\Providers\Filament;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Filament\Panel;
 use Modules\Xot\Filament\Pages\MainDashboard;
 
@@ -31,6 +34,7 @@ class AdminPanelProvider extends XotBasePanelProvider
         ]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -41,4 +45,6 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 }

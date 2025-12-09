@@ -91,11 +91,15 @@
 - [ ] Completamento esempi
 - [ ] Testi in italiano
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [Dettagli e Passi](./roadmap/docs/status.md)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
   - [Dettagli e Passi](./roadmap/docs/status.md)
+<<<<<<< HEAD
 =======
   - [Dettagli e Passi](./roadmap/project_docs/status.md)
 >>>>>>> f1d4085 (.)
@@ -103,7 +107,12 @@
   - [Dettagli e Passi](./roadmap/docs/status.md)
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -310,6 +319,7 @@
 
 ### Collegamenti ad Altri Moduli
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
@@ -330,6 +340,11 @@
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 6dcebf8a (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -696,15 +711,7 @@
 ## Riferimenti
 
 ### Documentazione
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Laravel Framework](https://laravel.com/docs/12.x)
-=======
-- [Laravel Framework](https://laravel.com/project_docs/12.x)
->>>>>>> f1d4085 (.)
-=======
-- [Laravel Framework](https://laravel.com/docs/12.x)
->>>>>>> 73eab74 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 
@@ -721,9 +728,12 @@
 ## Collegamenti tra versioni di roadmap.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -740,6 +750,7 @@
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -764,7 +775,12 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
 
 ---

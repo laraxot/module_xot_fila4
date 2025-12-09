@@ -511,4 +511,8 @@ Il progetto FixCity ha raggiunto il massimo livello di qualità del codice PHPSt
 **📦 Status**: PHPStan Level 10 ✅  
 **🎯 Obiettivo**: Raggiunto al 100% ✅  
 **🚀 Prossimo Step**: Mantenere la qualità raggiunta
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
+=======
+
+>>>>>>> 300ef70 (.)

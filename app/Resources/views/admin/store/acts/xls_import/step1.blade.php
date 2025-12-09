@@ -1,15 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +22,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 @extends('adm_theme::layouts.app')
 @section('content')
 PASSO 1
@@ -43,6 +49,7 @@ PASSO 1
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @endsection
 =======
 <<<<<<< HEAD
@@ -55,3 +62,6 @@ PASSO 1
 @endsection
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+@endsection
+>>>>>>> 300ef70 (.)

@@ -81,12 +81,15 @@ use function Safe\preg_match;
  * @see https://medium.com/@sliusarchyn/value-objects-in-laravel-use-it-12ba71b00281
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 readonly class PhoneValueObject
 {
     private function __construct(
@@ -109,6 +112,7 @@ readonly class PhoneValueObject
 >>>>>>> 5a14301c (.)
     ) {}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -121,6 +125,8 @@ class PhoneValueObject
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
     public static function fromString(string $phone): self
     {

@@ -211,6 +211,7 @@ php artisan test --filter=ExampleTest
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -221,3 +222,5 @@ php artisan test --filter=ExampleTest
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

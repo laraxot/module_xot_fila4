@@ -1,12 +1,15 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -18,10 +21,10 @@ use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Storage;
-
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -60,6 +63,8 @@ use Modules\Xot\Tests\TestCase;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 uses(TestCase::class);
 
 beforeEach(function (): void {
@@ -176,10 +181,9 @@ beforeEach(function (): void {
 
 =======
     $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
-<<<<<<< HEAD
-<<<<<<< HEAD
     mkdir($this->testDir, 0o755, true);
 
+<<<<<<< HEAD
 =======
     mkdir($this->testDir, 0755, true);
     
@@ -189,6 +193,8 @@ beforeEach(function (): void {
 
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     // Set the working directory
     chdir($this->testDir);
 });
@@ -200,12 +206,15 @@ afterEach(function (): void {
 
 // Recursive function to remove a directory and its contents
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 function rrmdir($dir)
 {
     if (is_dir($dir)) {
@@ -341,6 +350,7 @@ function rrmdir($dir)
 >>>>>>> 17684f52 (.)
 =======
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -466,7 +476,12 @@ function rrmdir($dir) {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
                 }
             }
         }
@@ -476,6 +491,7 @@ function rrmdir($dir) {
 
 test('creates necessary directories and files', function (): void {
     // Run the command
+<<<<<<< HEAD
 <<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 =======
@@ -490,6 +506,9 @@ test('creates necessary directories and files', function (): void {
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 300ef70 (.)
 
     // Check if directories were created
     $directories = [
@@ -595,6 +614,7 @@ test('does not overwrite existing files', function (): void {
 
     // Run the command
 <<<<<<< HEAD
+<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 =======
 <<<<<<< HEAD
@@ -608,6 +628,9 @@ test('does not overwrite existing files', function (): void {
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 300ef70 (.)
 
     // Verify the file was not overwritten
     $this->assertStringEqualsFile($testFile, $testContent);
@@ -627,6 +650,7 @@ test('handles errors gracefully', function (): void {
     $nonWritableDir = $this->testDir.'/app';
 =======
     $nonWritableDir = $this->testDir . '/app';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -761,6 +785,13 @@ test('handles errors gracefully', function (): void {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error
@@ -768,6 +799,7 @@ test('handles errors gracefully', function (): void {
 
     // Restore permissions
     chmod($nonWritableDir, 0o755);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -882,6 +914,8 @@ test('handles errors gracefully', function (): void {
 >>>>>>> 17684f52 (.)
 =======
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -973,6 +1007,7 @@ test('handles errors gracefully', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 });
 <<<<<<< HEAD
@@ -1150,3 +1185,8 @@ test('handles errors gracefully', function (): void {
 =======
 });
 >>>>>>> 16dc7ab0 (.)
+=======
+=======
+});
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)

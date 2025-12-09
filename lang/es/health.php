@@ -9,6 +9,7 @@ return [
                 'refresh' => 'Refrescar',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'heading' => 'Salud de la aplicación',
 =======
 <<<<<<< HEAD
@@ -23,11 +24,15 @@ return [
             'heading' => 'Salud de la aplicación',
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            'heading' => 'Salud de la aplicación',
+>>>>>>> 300ef70 (.)
             'navigation' => [
                 'group' => 'Configuración',
                 'label' => 'Salud de la aplicación',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37,6 +42,8 @@ return [
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             'notifications' => [
                 'check_results' => 'Revisar resultados desde',
             ],

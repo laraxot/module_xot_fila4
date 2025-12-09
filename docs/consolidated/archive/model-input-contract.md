@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,6 +14,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 3eee6f79 (.)
 # ModelInputContract
 
 ## Descrizione
@@ -65,6 +68,7 @@ interface ModelInputContract extends ModelContract
 ## Collegamenti
 - [Form Guidelines](../forms/README.md)
 - [Input Components](../components/FORM-COMPONENTS.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -133,3 +137,7 @@ interface ModelInputContract extends ModelContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 
 >>>>>>> 90d386aa (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 3eee6f79 (.)

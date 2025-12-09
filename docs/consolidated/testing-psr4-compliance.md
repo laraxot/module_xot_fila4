@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,6 +14,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 3eee6f79 (.)
 # PSR-4 Compliance per Test - Modulo Xot
 
 ## Problema Identificato
@@ -134,6 +137,7 @@ composer dump-autoload
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Testing Guide - Modulo <nome modulo>](../../<nome modulo>/project_docs/testing.md)
 =======
 - [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
@@ -177,6 +181,9 @@ composer dump-autoload
 =======
 - [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
 >>>>>>> 90d386aa (.)
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> 3eee6f79 (.)
 - [PHPStan Configuration](./phpstan-configuration-fixes.md)
 - [Best Practices](./best-practices-consolidated.md)
 
@@ -185,6 +192,7 @@ composer dump-autoload
 *Ultimo aggiornamento: 2025-01-06*
 *Conformità: PSR-4, PHPStan livello 9+, Laraxot standards*
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,3 +211,5 @@ composer dump-autoload
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 3eee6f79 (.)

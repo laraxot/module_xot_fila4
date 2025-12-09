@@ -3,7 +3,11 @@
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <x-filament::page>
+=======
+<x-fi<x-filament::page>
+>>>>>>> 518e053 (.)
     <div class="space-y-6">
         <div class="p-6 bg-white rounded-xl shadow dark:bg-gray-800">
             <div class="space-y-4">

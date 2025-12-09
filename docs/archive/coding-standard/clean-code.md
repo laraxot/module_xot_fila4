@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # Clean Code: Linee Guida per il Progetto
 
 Questo documento definisce le linee guida di Clean Code adottate nel progetto, basate sui principi di Robert C. Martin. Queste regole sono adattate specificamente per la struttura modulare Laravel utilizzata nel progetto.
@@ -270,6 +273,7 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Usa il percorso `/var/www/html/base_<nome progetto>/laravel/Modules/NomeModulo/app/Models/` per i modelli
 =======
    - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
@@ -368,3 +372,7 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
    - Usa il namespace `Modules\NomeModulo\Models` (senza "app")
 =======
 >>>>>>> cc7fb225 (.)
+=======
+   - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
+   - Usa il namespace `Modules\NomeModulo\Models` (senza "app")
+>>>>>>> 33af3e61 (.)

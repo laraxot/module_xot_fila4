@@ -29,7 +29,10 @@ class CustomRelationAction
             Assert::isArray($data);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var array<string, mixed> $data PHPStan: ensure correct type */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

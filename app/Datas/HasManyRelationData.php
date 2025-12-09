@@ -12,9 +12,15 @@ class HasManyRelationData extends Data
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $updateData
      * @param  array<int|string>|null  $from
      * @param  array<int|string>|null  $to
+=======
+     * @param array<string, mixed>   $updateData
+     * @param array<int|string>|null $from
+     * @param array<int|string>|null $to
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed>   $updateData
      * @param array<int|string>|null $from
@@ -31,6 +37,7 @@ class HasManyRelationData extends Data
         public mixed $parentKey,
         public array $updateData,
         #[MapInputName('from')]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,6 +105,11 @@ class HasManyRelationData extends Data
         #[MapInputName('to')]
         public null|array $to = null,
 >>>>>>> 3fbbf1f5 (.)
+=======
+        public null|array $from = null,
+        #[MapInputName('to')]
+        public null|array $to = null,
+>>>>>>> 5a14301c (.)
 =======
         public null|array $from = null,
         #[MapInputName('to')]

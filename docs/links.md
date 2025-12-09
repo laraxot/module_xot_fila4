@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -48,6 +49,8 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Links
 
 ## Documentazione Generale
@@ -72,6 +75,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan level 10
 =======
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
@@ -88,6 +92,9 @@
 =======
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
 >>>>>>> c35986f4 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 5a14301c (.)
 - [PHPStan Usage](phpstan-usage.md) - Guida all'uso di PHPStan per l'analisi statica
 - [Testing Guidelines](testing-guidelines.md) - Linee guida per i test
 - [Code Quality](code-quality.md) - Metriche e standard di qualità del codice
@@ -240,6 +247,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -256,6 +264,8 @@
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Collegamenti Documentazione Modulo Xot
 
 ## Documentazione Generica
@@ -314,6 +324,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -327,3 +338,5 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)

@@ -19,6 +19,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ExtraContract;
@@ -76,12 +77,18 @@ use Override;
 =======
 use Override;
 >>>>>>> 3310e9c6 (.)
+=======
+use Override;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Contracts\ExtraContract;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -94,9 +101,15 @@ use Webmozart\Assert\Assert;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $id
  * @property int|null $model_id
  * @property string|null $model_type
+=======
+ * @property int                                               $id
+ * @property int|null                                          $model_id
+ * @property string|null                                       $model_type
+>>>>>>> 5a14301c (.)
 =======
  * @property int                                               $id
  * @property int|null                                          $model_id
@@ -121,6 +134,7 @@ use Webmozart\Assert\Assert;
  * @property Carbon|null $updated_at
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property string|null $updated_by
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
@@ -128,11 +142,16 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
  * @property Carbon|null $deleted_at
  * @property string|null                     $deleted_by
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -166,9 +185,12 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // ✅ CORRETTO: NON implementare scopeWithExtraAttributes() manualmente
     // Il trait SchemalessAttributesTrait lo fornisce automaticamente!
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
     public function scopeWithExtraAttributes(): Builder
@@ -178,6 +200,9 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
         return $this->extra_attributes->modelScope();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

@@ -38,6 +38,7 @@ La documentazione generica deve essere sempre inserita nella cartella `docs` del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
 
 <<<<<<< HEAD
@@ -90,6 +91,10 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/project_docs/README.md) per i dettagli.
 
 >>>>>>> b7ea1cd1 (.)
+=======
+La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
+
+>>>>>>> 5a14301c (.)
 ## Collegamenti Bidirezionali
 - [Documentazione Generale](./documentation.md)
 - [Regole del Progetto](./rules.md)
@@ -102,6 +107,9 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 - [Collegamenti alla Root](../../../docs/prompts.md)
@@ -109,6 +117,7 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 ## Collegamenti tra versioni di PROMPT_RULES.md
 * [PROMPT_RULES.md](../../../Xot/docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/docs/rules/PROMPT_RULES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -150,11 +159,14 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 * [PROMPT_RULES.md](../../../Xot/project_docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/project_docs/rules/PROMPT_RULES.md)
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 
 ## Collegamenti tra versioni di prompt_rules.md
 * [prompt_rules.md](rules/prompt_rules.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,3 +184,5 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)

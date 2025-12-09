@@ -20,6 +20,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -70,6 +71,10 @@ use Modules\Xot\Datas\PdfData;
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 >>>>>>> 5a14301c (.)
+=======
+use Illuminate\Support\Facades\Storage;
+use Modules\Xot\Datas\PdfData;
+>>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Webmozart\Assert\Assert;
@@ -91,6 +96,7 @@ class ContentPdfAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string|null  $html  Contenuto HTML da convertire
      * @param  string|null  $view  Nome della vista Blade da renderizzare
      * @param  array<string, mixed>|null  $data  Dati da passare alla vista
@@ -106,6 +112,8 @@ class ContentPdfAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param string|null $html Contenuto HTML da convertire
      * @param string|null $view Nome della vista Blade da renderizzare
      * @param array<string, mixed>|null $data Dati da passare alla vista
@@ -118,6 +126,9 @@ class ContentPdfAction
         null|string $view = null,
         null|array $data = null,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -127,6 +138,7 @@ class ContentPdfAction
         if ($html === null && $view !== null) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! view()->exists($view)) {
                 throw new Exception('View '.$view.' not found');
             }
@@ -134,11 +146,16 @@ class ContentPdfAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
             if (!view()->exists($view)) {
                 throw new Exception('View ' . $view . ' not found');
             }
             if (!is_array($data)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -174,6 +191,7 @@ class ContentPdfAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $view  Nome della vista Blade
      * @param  array  $data  Dati da passare alla vista
      * @param  string  $filename  Nome del file PDF (per riferimento)
@@ -185,11 +203,14 @@ class ContentPdfAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param string $view Nome della vista Blade
      * @param array $data Dati da passare alla vista
      * @param string $filename Nome del file PDF (per riferimento)
      * @return string Contenuto binario del PDF
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,6 +254,8 @@ class ContentPdfAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
     public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
     {
         return $this->execute(
@@ -250,8 +273,13 @@ class ContentPdfAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $html  Contenuto HTML
      * @param  string  $filename  Nome del file PDF (per riferimento)
+=======
+     * @param string $html Contenuto HTML
+     * @param string $filename Nome del file PDF (per riferimento)
+>>>>>>> 5a14301c (.)
 =======
      * @param string $html Contenuto HTML
      * @param string $filename Nome del file PDF (per riferimento)

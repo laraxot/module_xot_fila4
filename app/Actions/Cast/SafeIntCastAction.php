@@ -33,6 +33,7 @@ use function Safe\preg_match;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -67,6 +68,10 @@ use function Safe\preg_match;
  *
  * @package Modules\Xot\Actions\Cast
 >>>>>>> 5a14301c (.)
+=======
+ *
+ * @package Modules\Xot\Actions\Cast
+>>>>>>> 5a14301c (.)
  */
 class SafeIntCastAction
 {
@@ -77,6 +82,7 @@ class SafeIntCastAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $value  Il valore da convertire
      * @param  int|null  $default  Valore di default se la conversione fallisce (default: 0)
      * @return int Il valore convertito in int
@@ -85,12 +91,15 @@ class SafeIntCastAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param mixed $value Il valore da convertire
      * @param int|null $default Valore di default se la conversione fallisce (default: 0)
      *
      * @return int Il valore convertito in int
      */
     public function execute(mixed $value, null|int $default = 0): int
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,6 +176,8 @@ class SafeIntCastAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
     {
         // Se è già un int, restituiscilo direttamente
         if (is_int($value)) {
@@ -208,6 +219,7 @@ class SafeIntCastAction
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * Metodo statico di convenienza per chiamate dirette.
@@ -289,6 +301,8 @@ class SafeIntCastAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * Converte una stringa in int con gestione avanzata.
      *
      * @param string $value La stringa da convertire
@@ -298,6 +312,9 @@ class SafeIntCastAction
      */
     private function parseStringToInt(string $value, null|int $default = 0): int
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -316,7 +333,12 @@ class SafeIntCastAction
         if (is_numeric($normalized)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return (int) $normalized;
+=======
+            $int = (int) $normalized;
+            return $int;
+>>>>>>> 5a14301c (.)
 =======
             $int = (int) $normalized;
             return $int;
@@ -331,7 +353,11 @@ class SafeIntCastAction
         $matches = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && ! empty($matches[0])) {
+=======
+        if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && !empty($matches[0])) {
+>>>>>>> 5a14301c (.)
 =======
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && !empty($matches[0])) {
 >>>>>>> 5a14301c (.)
@@ -346,9 +372,12 @@ class SafeIntCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 
@@ -425,6 +454,9 @@ class SafeIntCastAction
         return app(self::class)->executeAsId($value, $default);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

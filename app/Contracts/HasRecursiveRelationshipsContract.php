@@ -12,6 +12,7 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 =======
@@ -34,6 +35,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Staudenmeir\LaravelAdjacencyList\Eloquent\Collection;
 use Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors;
@@ -46,6 +51,7 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings;
 /**
  * Modules\Xot\Contracts\HasRecursiveRelationshipsContract.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @property int $id
@@ -70,6 +76,8 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings;
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
  * @property int                $id
  * @property string $name
  * @property int                $depth
@@ -90,6 +98,9 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings;
  * @property Collection<static> $parentAndSelf              The model's direct parent and itself.
  * @property int|null           $parent_and_self_count
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -109,6 +120,7 @@ interface HasRecursiveRelationshipsContract
      * Get the name of the parent key column.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function getParentKeyName(): string;
 
@@ -122,6 +134,8 @@ interface HasRecursiveRelationshipsContract
      */
     public function getPathSeparator(): string;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -171,6 +185,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function getPathSeparator();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -178,6 +195,7 @@ interface HasRecursiveRelationshipsContract
     /**
      * Get the additional custom paths.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string>
@@ -191,6 +209,8 @@ interface HasRecursiveRelationshipsContract
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @return array
      */
     public function getCustomPaths();
@@ -202,6 +222,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function getExpressionName();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -212,9 +235,12 @@ interface HasRecursiveRelationshipsContract
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors<static>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function ancestors(): Ancestors;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -222,6 +248,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function ancestors();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -232,9 +261,12 @@ interface HasRecursiveRelationshipsContract
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors<static>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function ancestorsAndSelf(): Ancestors;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -242,6 +274,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function ancestorsAndSelf();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -252,9 +287,12 @@ interface HasRecursiveRelationshipsContract
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Bloodline<static>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function bloodline(): Bloodline;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -262,6 +300,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function bloodline();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -272,9 +313,12 @@ interface HasRecursiveRelationshipsContract
      * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function children(): HasMany;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -282,6 +326,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function children();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -292,9 +339,12 @@ interface HasRecursiveRelationshipsContract
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Descendants<static>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function childrenAndSelf(): Descendants;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -302,6 +352,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function childrenAndSelf();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -312,9 +365,12 @@ interface HasRecursiveRelationshipsContract
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Descendants<static>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function descendants(): Descendants;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -322,6 +378,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function descendants();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -332,9 +391,12 @@ interface HasRecursiveRelationshipsContract
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Descendants<static>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function descendantsAndSelf(): Descendants;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -342,6 +404,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function descendantsAndSelf();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -352,9 +417,12 @@ interface HasRecursiveRelationshipsContract
      * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function parent(): BelongsTo;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -362,6 +430,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function parent();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -372,9 +443,12 @@ interface HasRecursiveRelationshipsContract
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors<static>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function parentAndSelf(): Ancestors;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -382,6 +456,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function parentAndSelf();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -392,9 +469,12 @@ interface HasRecursiveRelationshipsContract
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function rootAncestor(): RootAncestor;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -402,6 +482,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function rootAncestor();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -419,9 +502,12 @@ interface HasRecursiveRelationshipsContract
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function siblings(): Siblings;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -429,6 +515,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function siblings();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -437,6 +526,7 @@ interface HasRecursiveRelationshipsContract
      * Get the model's siblings and itself.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      */
@@ -457,6 +547,8 @@ interface HasRecursiveRelationshipsContract
      */
     public function isIntegerAttribute(string $attribute): bool;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -487,6 +579,9 @@ interface HasRecursiveRelationshipsContract
      */
     public function isIntegerAttribute($attribute);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

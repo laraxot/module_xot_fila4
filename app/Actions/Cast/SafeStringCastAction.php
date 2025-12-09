@@ -18,7 +18,12 @@ class SafeStringCastAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $value  Il valore da convertire
+=======
+     * @param mixed $value Il valore da convertire
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param mixed $value Il valore da convertire
      *
@@ -61,7 +66,12 @@ class SafeStringCastAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $value  Il valore da convertire
+=======
+     * @param mixed $value Il valore da convertire
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param mixed $value Il valore da convertire
      *

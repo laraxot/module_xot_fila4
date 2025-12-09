@@ -15,6 +15,7 @@ class AuthData extends Data
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $guard  Guard predefinita
      * @param  array  $guards  Guards disponibili
      * @param  array  $providers  Provider di autenticazione
@@ -25,6 +26,8 @@ class AuthData extends Data
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param string $guard          Guard predefinita
      * @param array  $guards         Guards disponibili
      * @param array  $providers      Provider di autenticazione
@@ -33,6 +36,9 @@ class AuthData extends Data
      * @param array  $throttle       Configurazione throttling
      * @param array  $social         Provider social abilitati
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -60,11 +66,14 @@ class AuthData extends Data
      * Create a new instance of AuthData with default values.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public static function make(): static
     {
         return new static;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -74,6 +83,9 @@ class AuthData extends Data
     {
         return new static();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

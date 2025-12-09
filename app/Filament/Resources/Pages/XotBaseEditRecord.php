@@ -14,6 +14,7 @@ namespace Modules\Xot\Filament\Resources\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\DeleteAction;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 use Filament\Support\Components\Component;
@@ -54,6 +55,11 @@ use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 >>>>>>> 5a14301c (.)
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Traits\TransTrait;
 
 abstract class XotBaseEditRecord extends FilamentEditRecord
@@ -62,7 +68,10 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
     /**
@@ -90,6 +99,7 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     /**
      * Get the form schema.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<int, \Filament\Support\Components\Component>
 =======
@@ -164,6 +174,9 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+     * @return array<string|int, Component>|array<Component>
+>>>>>>> 5a14301c (.)
      */
     protected function getFormSchema(): array
     {
@@ -171,6 +184,9 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -183,6 +199,7 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     {
         return static::transFunc(__FUNCTION__);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -292,4 +309,6 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 }

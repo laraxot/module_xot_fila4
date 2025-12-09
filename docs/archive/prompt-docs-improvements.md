@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > - [README.md documentazione generale](../../../../docs/README.md)
 =======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
@@ -81,6 +82,14 @@
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+> - [README.md documentazione generale](../../../../docs/README.md)
+> - [Struttura dei Prompt](./prompts.md)
+> - [Regole per i Prompt](./PROMPT_RULES.md)
+> - [README.md toolkit bashscripts](../../../../bashscripts/docs/README.md)
+> - [Documentazione miglioramenti prompt docs.txt](../../../../bashscripts/docs/prompt_docs_improvements.md)
+
+>>>>>>> 5a14301c (.)
 ## Introduzione
 
 Il file `/bashscripts/prompts/docs.txt` contiene un prompt utilizzato per guidare la documentazione nei progetti modulari Laravel. Questo documento descrive i miglioramenti apportati al prompt per renderlo completamente indipendente dal progetto e riutilizzabile.
@@ -145,6 +154,7 @@ Il prompt aggiornato può essere utilizzato in qualsiasi progetto modulare Larav
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -157,3 +167,5 @@ Il prompt aggiornato può essere utilizzato in qualsiasi progetto modulare Larav
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)

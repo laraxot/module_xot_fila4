@@ -13,6 +13,7 @@ use Illuminate\Support\Carbon;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $id
  * @property int|null $user_id
  * @property string|null $post_type
@@ -44,6 +45,8 @@ use Illuminate\Support\Carbon;
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
  * @property int                $id
  * @property int|null           $user_id
  * @property string|null        $post_type
@@ -73,6 +76,9 @@ use Illuminate\Support\Carbon;
  * @method array     treeSons()
  * @method array     toArray()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -82,6 +88,7 @@ use Illuminate\Support\Carbon;
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,3 +230,8 @@ interface ModelWithUserContract
 {
 }
 >>>>>>> 9db27d12 (.)
+=======
+interface ModelWithUserContract
+{
+}
+>>>>>>> 5a14301c (.)

@@ -7,8 +7,13 @@ namespace Modules\Xot\Http\Middleware;
 use Closure;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+=======
+use Illuminate\Http\Response;
+use Illuminate\Http\Request;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Http\Response;
 use Illuminate\Http\Request;
@@ -24,15 +29,19 @@ class Cors
      * Handle an incoming request.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function handle(Request $request, Closure $next): Response
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
      * @return Response
      */
     public function handle(Request $request, Closure $next)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +81,8 @@ class Cors
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
     {
         $response = $next($request);
 

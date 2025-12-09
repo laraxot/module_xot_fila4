@@ -7,9 +7,12 @@ namespace Modules\Xot\Actions\View;
 use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 use Illuminate\Support\Arr;
@@ -18,6 +21,7 @@ use Modules\Xot\Datas\XotData;
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,6 +124,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 class GetViewNameSpacePathAction
 {
@@ -128,6 +134,7 @@ class GetViewNameSpacePathAction
     /**
      * @throws Exception
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,12 +167,15 @@ class GetViewNameSpacePathAction
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 5a14301c (.)
     public function execute(null|string $module_name = null): string
     {
         if (null !== $module_name && '' !== $module_name) {
             $module_path = Module::getModulePath($module_name);
             /** @var non-falsy-string $namespace_path */
             $namespace_path = $module_path . 'resources/views';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -242,6 +252,8 @@ class GetViewNameSpacePathAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
         } else {
             /** @var non-falsy-string $namespace_path */
             $namespace_path = resource_path('views');

@@ -10,6 +10,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 =======
@@ -25,6 +26,10 @@ use Illuminate\Support\Str;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\File;
+>>>>>>> 5a14301c (.)
+=======
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
 >>>>>>> 5a14301c (.)

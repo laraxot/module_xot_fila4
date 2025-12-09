@@ -49,7 +49,11 @@ class ThemeService
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return resource_path('themes/'.self::$currentTheme);
+=======
+        return resource_path('themes/' . self::$currentTheme);
+>>>>>>> 5a14301c (.)
 =======
         return resource_path('themes/' . self::$currentTheme);
 >>>>>>> 5a14301c (.)

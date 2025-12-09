@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Filament\Forms\Components;
 =======
 namespace Modules\Notify\Filament\Forms\Components;
@@ -23,15 +24,21 @@ use Illuminate\Contracts\Support\Htmlable;
 use Filament\Forms\Components\Field;
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> 5a14301c (.)
 namespace Modules\Xot\Filament\Forms\Components;
 
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Forms\Components\Field;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * Base class for custom form components.
@@ -50,6 +57,8 @@ abstract class XotBaseFormComponent extends Field
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
  * Base class for form components.
  *
  * @method static static make(string $name) Create a new instance of the component
@@ -60,6 +69,9 @@ abstract class XotBaseFormComponent extends Field
      * Get the component name.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -71,6 +83,7 @@ abstract class XotBaseFormComponent extends Field
         return $name;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function getLabel(): string
@@ -86,6 +99,8 @@ abstract class XotBaseFormComponent extends Field
         }
 
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
     /**
@@ -101,6 +116,9 @@ abstract class XotBaseFormComponent extends Field
             return $label->toHtml();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -110,7 +128,10 @@ abstract class XotBaseFormComponent extends Field
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      * Configure the component.
@@ -126,6 +147,9 @@ abstract class XotBaseFormComponent extends Field
      * Get the validation rules.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -135,9 +159,12 @@ abstract class XotBaseFormComponent extends Field
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<string, mixed> */
         return parent::getValidationRules();
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
         /** @var array<string, mixed> $rules */
@@ -146,6 +173,9 @@ abstract class XotBaseFormComponent extends Field
 
         return $rules;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

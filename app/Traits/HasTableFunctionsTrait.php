@@ -19,6 +19,7 @@ namespace Modules\Xot\Traits;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
@@ -159,6 +160,11 @@ use Filament\Tables\Columns\Column;
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 >>>>>>> 9db27d12 (.)
+=======
+use Filament\Tables\Columns\Column;
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+>>>>>>> 5a14301c (.)
 use Filament\Tables\Columns\TextColumn;
 
 trait HasTableFunctionsTrait
@@ -188,6 +194,7 @@ trait HasTableFunctionsTrait
         return [
             'edit' => Action::make('edit')
                 ->label('Modifica')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,12 +287,15 @@ trait HasTableFunctionsTrait
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
                 ->url(fn($record): string => route('filament.resources.' . $this->getResourceSlug() . '.edit', [
                     'record' => $record,
                 ])),
             'delete' => Action::make('delete')
                 ->label('Elimina')
                 ->action(fn($record) => $record->delete())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +384,8 @@ trait HasTableFunctionsTrait
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
                 ->requiresConfirmation(),
         ];
     }
@@ -388,6 +400,7 @@ trait HasTableFunctionsTrait
         return [
             'delete' => BulkAction::make('delete')
                 ->label('Elimina selezionati')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,6 +499,9 @@ trait HasTableFunctionsTrait
 =======
                 ->action(fn($records) => $records->each->delete())
 >>>>>>> 9db27d12 (.)
+=======
+                ->action(fn($records) => $records->each->delete())
+>>>>>>> 5a14301c (.)
                 ->requiresConfirmation(),
         ];
     }
@@ -494,6 +510,11 @@ trait HasTableFunctionsTrait
      * Get the resource slug.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return string

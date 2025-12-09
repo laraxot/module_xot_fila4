@@ -5,6 +5,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -91,6 +92,9 @@ declare(strict_types=1);
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+
+>>>>>>> 5a14301c (.)
 namespace Modules\Xot\Datas\Transformers;
 
 use Modules\Xot\Actions\File\AssetAction;
@@ -109,6 +113,7 @@ class AssetTransformer implements Transformer
     /**
      * Trasforma un riferimento di file in un percorso completo
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,6 +184,8 @@ class AssetTransformer implements Transformer
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param DataProperty $_property La proprietà di dati (non utilizzata)
      * @param mixed $value Il valore da trasformare (es. "user::image.png")
      * @param TransformationContext $_context Il contesto di trasformazione (non utilizzato)
@@ -190,6 +197,9 @@ class AssetTransformer implements Transformer
             return '';
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

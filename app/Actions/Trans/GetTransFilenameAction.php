@@ -12,6 +12,7 @@ namespace Modules\Xot\Actions\Trans;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Throwable;
@@ -37,6 +38,11 @@ use Throwable;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 >>>>>>> 5a14301c (.)
+=======
+use Throwable;
+use Illuminate\Support\Str;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+>>>>>>> 5a14301c (.)
 use Webmozart\Assert\Assert;
 
 class GetTransFilenameAction
@@ -51,6 +57,7 @@ class GetTransFilenameAction
             $langPath = app(GetModulePathByGeneratorAction::class)->execute($ns, 'lang');
             Assert::string($langPath, 'Percorso lang non valido');
         } catch (Throwable $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117,6 +124,8 @@ class GetTransFilenameAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
             $langPath = base_path('Modules/' . $ns . '/lang');
         }
 
@@ -125,6 +134,9 @@ class GetTransFilenameAction
 
         return $lang_path_full;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

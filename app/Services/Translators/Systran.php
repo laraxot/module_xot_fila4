@@ -6,7 +6,13 @@ namespace Modules\Xot\Services\Translators;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Systran extends BaseTranslator {}
+=======
+class Systran extends BaseTranslator
+{
+}
+>>>>>>> 5a14301c (.)
 =======
 class Systran extends BaseTranslator
 {

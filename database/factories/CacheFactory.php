@@ -10,9 +10,12 @@ use Modules\Xot\Models\Cache;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @extends Factory<Cache>
  */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -24,7 +27,11 @@ class CacheFactory extends Factory
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @var class-string<Cache>
+=======
+     * @var class-string<Model>
+>>>>>>> 5a14301c (.)
 =======
      * @var class-string<Model>
 >>>>>>> 5a14301c (.)

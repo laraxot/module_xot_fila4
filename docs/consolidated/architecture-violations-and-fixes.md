@@ -19,6 +19,7 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome progetto>\Models\User;
 =======
 use Modules\<nome modulo>\Models\User;
@@ -65,6 +66,10 @@ use Modules\SaluteOra\Models\User;
 =======
 use Modules\SaluteOra\Models\User;
 >>>>>>> b7ea1cd1 (.)
+=======
+use Modules\<nome modulo>\Models\User;
+use Modules\SaluteOra\Models\User;
+>>>>>>> 5a14301c (.)
 
 /** @var User $user */
 $user = User::factory()->create([...]);
@@ -72,6 +77,7 @@ $user = User::factory()->create([...]);
 
 ### **Perché è un Errore Grave**
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,6 +135,10 @@ $user = User::factory()->create([...]);
 =======
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
 >>>>>>> b7ea1cd1 (.)
+=======
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+>>>>>>> 5a14301c (.)
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -160,6 +170,7 @@ $user = $userClass::factory()->create($attributes);
 'providers' => [
     'users' => [
         'driver' => 'eloquent',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +228,10 @@ $user = $userClass::factory()->create($attributes);
 =======
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
 >>>>>>> b7ea1cd1 (.)
+=======
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+>>>>>>> 5a14301c (.)
     ],
 ],
 ```
@@ -285,6 +300,7 @@ public function processUser(UserContract $user): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public function processUser(\Modules\<nome progetto>\Models\User $user): void
 =======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
@@ -331,6 +347,10 @@ public function processUser(\Modules\SaluteOra\Models\User $user): void
 =======
 public function processUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> b7ea1cd1 (.)
+=======
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> 5a14301c (.)
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -473,10 +493,13 @@ class ChangeTypeCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome progetto>\Models\User;
 use Modules\<nome progetto>\Models\Patient;
 use Modules\<nome progetto>\Models\Doctor;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 use Modules\<nome modulo>\Models\User;
@@ -485,6 +508,7 @@ use Modules\<nome modulo>\Models\Doctor;
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
@@ -548,6 +572,8 @@ use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -557,6 +583,7 @@ use Modules\Xot\Datas\XotData;
 ### **2. Hardcoding Classi**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -614,6 +641,10 @@ $user = \Modules\SaluteOra\Models\User::find($id);
 =======
 $user = \Modules\SaluteOra\Models\User::find($id);
 >>>>>>> b7ea1cd1 (.)
+=======
+$user = \Modules\<nome modulo>\Models\User::find($id);
+$user = \Modules\SaluteOra\Models\User::find($id);
+>>>>>>> 5a14301c (.)
 
 // ✅ CONSENTITO  
 $userClass = XotData::make()->getUserClass();
@@ -623,6 +654,7 @@ $user = $userClass::find($id);
 ### **3. Type Hints Specifici**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -680,6 +712,10 @@ function updateUser(\Modules\SaluteOra\Models\User $user): void
 =======
 function updateUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> b7ea1cd1 (.)
+=======
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> 5a14301c (.)
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -743,6 +779,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. PHPStan level 10+ compliance
 =======
 3. PHPStan level 9+ compliance
@@ -759,6 +796,9 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 3. PHPStan level 9+ compliance
 >>>>>>> 17684f52 (.)
+=======
+3. PHPStan level 9+ compliance
+>>>>>>> 5a14301c (.)
 4. Test di regressione
 
 ## 📚 **Link e Riferimenti**
@@ -786,10 +826,13 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Cms Architecture](../../Cms/project_docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/project_docs/traits_complete_guide.md)
 - [Testing Strategy](../../<nome progetto>/project_docs/testing/real-data-testing-strategy.md)
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
@@ -798,6 +841,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 - [Cms Architecture](../../Cms/project_docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/project_docs/traits_complete_guide.md)
 - [Testing Strategy](../../SaluteOra/project_docs/testing/real-data-testing-strategy.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
@@ -861,6 +905,8 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 - [User Module Traits](../../User/project_docs/traits_complete_guide.md)
 - [Testing Strategy](../../SaluteOra/project_docs/testing/real-data-testing-strategy.md)
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ---
 
@@ -877,6 +923,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Responsabile**: Team Architettura Laraxot 
 >>>>>>> 5a14301c (.)
@@ -910,3 +957,6 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+**Responsabile**: Team Architettura Laraxot 
+>>>>>>> 5a14301c (.)

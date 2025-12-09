@@ -41,7 +41,11 @@ class HtmlService
         // $out = 'show';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($filename === '') {
+=======
+        if ('' === $filename) {
+>>>>>>> 5a14301c (.)
 =======
         if ('' === $filename) {
 >>>>>>> 5a14301c (.)
@@ -66,6 +70,7 @@ class HtmlService
             $html2pdf->WriteHTML($html);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ($out === 'content_PDF') {
                 return $html2pdf->Output($filename.'.pdf', 'S');
             }
@@ -74,12 +79,17 @@ class HtmlService
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
             if ('content_PDF' === $out) {
                 return $html2pdf->Output($filename . '.pdf', 'S');
             }
 
             if ('file' === $out) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

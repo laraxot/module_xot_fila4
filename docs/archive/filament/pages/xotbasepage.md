@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di <nome progetto>, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
 =======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di , fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
@@ -59,6 +60,10 @@ La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura
 =======
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
 >>>>>>> b7ea1cd1 (.)
+=======
+La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di , fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
+La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
+>>>>>>> 5a14301c (.)
 
 ## Percorso del File
 
@@ -74,6 +79,7 @@ La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 =======
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
@@ -123,6 +129,11 @@ La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura
 =======
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 >>>>>>> b7ea1cd1 (.)
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
+/var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
+>>>>>>> 5a14301c (.)
 ```
 
 ## Gerarchia di Ereditarietà
@@ -166,6 +177,7 @@ public function getTitle(): string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public function form(Form $form): Form
@@ -182,6 +194,9 @@ public function form(Form $form): Form
 =======
 public function form(Form $form): Form
 >>>>>>> c35986f4 (.)
+=======
+public function form(Form $form): Form
+>>>>>>> 5a14301c (.)
 {
     return $form
         ->schema($this->getFormSchema())
@@ -213,6 +228,7 @@ public function form(Form $form): Form
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Filament\Pages;
 =======
 namespace Modules\<nome modulo>\Filament\Pages;
@@ -259,6 +275,10 @@ namespace Modules\SaluteOra\Filament\Pages;
 =======
 namespace Modules\SaluteOra\Filament\Pages;
 >>>>>>> b7ea1cd1 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Pages;
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 5a14301c (.)
 
 use Modules\Xot\Filament\Resources\Pages\XotBasePage;
 
@@ -290,6 +310,7 @@ class MyCustomPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Filament\Pages;
 =======
 namespace Modules\<nome modulo>\Filament\Pages;
@@ -336,6 +357,10 @@ namespace Modules\SaluteOra\Filament\Pages;
 =======
 namespace Modules\SaluteOra\Filament\Pages;
 >>>>>>> b7ea1cd1 (.)
+=======
+namespace Modules\<nome modulo>\Filament\Pages;
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 5a14301c (.)
 
 use Filament\Pages\Page;
 
@@ -428,10 +453,13 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Pattern di Estensione](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament_xot_architecture.md)
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 - [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
@@ -440,6 +468,7 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 - [Pattern di Estensione](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -542,3 +571,8 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
 >>>>>>> b7ea1cd1 (.)
+=======
+- [Pattern di Estensione](../Xot/docs/filament/filament_best_practices.md)
+- [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
+- [Architettura Filament-Xot](../Xot/docs/filament_xot_architecture.md)
+>>>>>>> 5a14301c (.)

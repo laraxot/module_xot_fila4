@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # PHPStan Fixes - Xot Module
 >>>>>>> d86d643a (.)
@@ -427,10 +428,13 @@ protected $model = Cache::class;
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 # Correzioni PHPStan - 6 Gennaio 2025
 
 ## Errori Risolti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1215,6 +1219,8 @@ private function exportTablesToCSV(string $mdbFile): array
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
 ### 1. Chart/app/Datas/AnswersChartData.php
 
 **Problema**: Errori `argument.type` e `offsetAccess.nonOffsetAccessible`
@@ -1236,6 +1242,7 @@ private function exportTablesToCSV(string $mdbFile): array
 - Aggiunto cast esplicito con `@var` per il risultato
 
 ### 3. Job/app/Actions/GetTaskFrequenciesAction.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1269,6 +1276,8 @@ private function exportTablesToCSV(string $mdbFile): array
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 **Problema**: Linea 21 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, mixed>` ma restituiva `array<mixed, mixed>`
@@ -1276,6 +1285,7 @@ private function exportTablesToCSV(string $mdbFile): array
 **Soluzione**:
 - Aggiunto cast esplicito `@var array<string, mixed>` al risultato
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1290,11 +1300,15 @@ private function exportTablesToCSV(string $mdbFile): array
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+>>>>>>> 5a14301c (.)
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
 
 **Problema**: Linea 27 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, Component>` ma restituiva `array<int|string, Component>`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1350,6 +1364,8 @@ Queste modifiche garantiscono che:
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
 **Soluzione**:
 - Aggiunto PHPDoc con tipo di ritorno corretto
 - Aggiunto cast esplicito al risultato
@@ -1391,6 +1407,7 @@ Queste modifiche garantiscono che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
@@ -1417,6 +1434,8 @@ Queste modifiche garantiscono che:
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 **Soluzione**:
 - Separato controllo per `UserContract` e `null`
@@ -1443,6 +1462,7 @@ Queste modifiche garantiscono che:
 - [PHPStan Critical Rules](./phpstan-critical-rules.md)
 - [Array Types Fixes](./phpstan-array-types-fixes.md)
 - [PHPStan Level 10 Guidelines](./phpstan-level10-guidelines.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1581,3 +1601,7 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
 >>>>>>> 472bd9dc (.)
+=======
+
+*Ultimo aggiornamento: 6 Gennaio 2025*
+>>>>>>> 5a14301c (.)

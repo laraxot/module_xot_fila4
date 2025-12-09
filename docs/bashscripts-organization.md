@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La cartella `/var/www/html/_bases/base_<nome progetto>/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 =======
 La cartella `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
@@ -62,6 +63,11 @@ La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **S
 =======
 La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 >>>>>>> b7ea1cd1 (.)
+=======
+La cartella `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
+La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
+La cartella `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
+>>>>>>> 5a14301c (.)
 
 ## Struttura Organizzata
 
@@ -108,6 +114,7 @@ bashscripts/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -119,12 +126,15 @@ bashscripts/
 =======
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
 #### 4.1. **git/gitignore/** - Gestione GitIgnore
 - `update_gitignore.sh` - Aggiornamento batch .gitignore moduli
 - `fix_remaining_gitignore.sh` - Correzione moduli non conformi
 - `README.md` - Documentazione script gitignore
 - Script per standardizzazione .gitignore secondo prototipo Laraxot
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,6 +163,8 @@ bashscripts/
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
 #### 5. **maintenance/** - Manutenzione Sistema
 - `backup.sh` - Script di backup
 - `restore_disk.md` - Documentazione ripristino
@@ -181,6 +193,7 @@ bashscripts/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `fix_<nome progetto>_translations.sh` - Fix traduzioni <nome progetto>
 =======
 - `fix_<nome progetto>_translations.sh` - Fix traduzioni 
@@ -227,6 +240,10 @@ bashscripts/
 =======
 - `fix_saluteora_translations.sh` - Fix traduzioni SaluteOra
 >>>>>>> b7ea1cd1 (.)
+=======
+- `fix_<nome progetto>_translations.sh` - Fix traduzioni 
+- `fix_saluteora_translations.sh` - Fix traduzioni SaluteOra
+>>>>>>> 5a14301c (.)
 - `verify_translations_syntax.sh` - Verifica sintassi traduzioni
 
 #### 9. **utilities/** - Utilità Generali

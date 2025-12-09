@@ -24,6 +24,7 @@ class GetModelClassByModelNameAction
         $modelClass = collect($morph_map)->get($modelName);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($modelClass === null) {
             return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
         }
@@ -31,10 +32,13 @@ class GetModelClassByModelNameAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         if (null === $modelClass) {
             return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
         }
         Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,6 +115,8 @@ class GetModelClassByModelNameAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 
         return $modelClass;
     }

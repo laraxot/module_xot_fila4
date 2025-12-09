@@ -12,6 +12,7 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Facades\App;
@@ -33,6 +34,8 @@ use RuntimeException;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use InvalidArgumentException;
 use RuntimeException;
 use Illuminate\Database\Eloquent\Model;
@@ -40,6 +43,9 @@ use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Facades\App;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -60,8 +66,13 @@ final class MorphOneAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Model  $model  The model instance
      * @param  RelationDTO  $relationDTO  The relation data transfer object
+=======
+     * @param Model       $model       The model instance
+     * @param RelationDTO $relationDTO The relation data transfer object
+>>>>>>> 5a14301c (.)
 =======
      * @param Model       $model       The model instance
      * @param RelationDTO $relationDTO The relation data transfer object
@@ -96,7 +107,12 @@ final class MorphOneAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data  The input data array
+=======
+     * @param array<string, mixed> $data The input data array
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed> $data The input data array
      *
@@ -110,6 +126,7 @@ final class MorphOneAction
     private function validateAndPrepareData(array $data): array
     {
         // Ensure the 'lang' key is set to the current locale if not provided
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,10 +225,14 @@ final class MorphOneAction
 =======
         if (!isset($data['lang'])) {
 >>>>>>> 9db27d12 (.)
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 5a14301c (.)
             $data['lang'] = App::getLocale();
         }
 
         // Remove null values from the data array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,5 +349,8 @@ final class MorphOneAction
 =======
         return array_filter($data, static fn($value): bool => null !== $value);
 >>>>>>> 9db27d12 (.)
+=======
+        return array_filter($data, static fn($value): bool => null !== $value);
+>>>>>>> 5a14301c (.)
     }
 }

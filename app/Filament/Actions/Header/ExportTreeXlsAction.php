@@ -11,6 +11,7 @@ namespace Modules\Xot\Filament\Actions\Header;
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Filament\Actions\Action;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\Page;
@@ -18,11 +19,16 @@ use Illuminate\Database\Eloquent\Collection;
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 // use Filament\Tables\Actions\Action;
 use Filament\Resources\Pages\Page;
 use Illuminate\Database\Eloquent\Collection;
 use Filament\Actions\Action;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -51,6 +57,7 @@ class ExportTreeXlsAction extends Action
                 $tableFilters = [
                     'id' => $record->getKey(),
                 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +178,9 @@ class ExportTreeXlsAction extends Action
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+                $filename = class_basename($livewire) . '-' . collect($tableFilters)->flatten()->implode('-') . '.xlsx';
+>>>>>>> 5a14301c (.)
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
                 // $query = $livewire->getFilteredTableQuery(); // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
@@ -183,6 +193,7 @@ class ExportTreeXlsAction extends Action
                 if (method_exists($resource, 'getXlsFields')) {
                     $fields = $resource::getXlsFields($tableFilters);
                     // Convertiamo tutti i valori a stringhe
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,11 +237,16 @@ class ExportTreeXlsAction extends Action
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 5a14301c (.)
                     $fields = array_map(fn($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
                     Assert::isArray($fields);
                 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -238,6 +254,7 @@ class ExportTreeXlsAction extends Action
             });
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,6 +342,9 @@ class ExportTreeXlsAction extends Action
 =======
     public static function getDefaultName(): null|string
 >>>>>>> 3310e9c6 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
     {
         return 'export_tree_xls';
     }

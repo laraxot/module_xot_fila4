@@ -11,8 +11,12 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
+=======
+return new class extends XotBaseMigration {
+>>>>>>> 5a14301c (.)
 =======
 return new class extends XotBaseMigration {
 >>>>>>> 5a14301c (.)
@@ -30,7 +34,10 @@ return new class extends XotBaseMigration {
             $table->uuidMorphs('model');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // @phpstan-ignore-next-line method.notFound
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -54,7 +61,11 @@ return new class extends XotBaseMigration {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ($this->hasColumn('model_id') && $this->getColumnType('model_id') === 'bigint') {
+=======
+            if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
+>>>>>>> 5a14301c (.)
 =======
             if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
 >>>>>>> 5a14301c (.)

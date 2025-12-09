@@ -10,6 +10,7 @@ namespace Modules\Xot\Filament\Resources\RelationManagers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\Layout\Component;
 use Filament\Actions\AttachAction;
@@ -35,6 +36,8 @@ use Override;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Filament\Schemas\Schema;
 use Override;
 use Filament\Actions\EditAction;
@@ -51,6 +54,9 @@ use Illuminate\Support\Str;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Filament\Traits\HasXotTable;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -68,6 +74,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     /** @var class-string<XotBaseResource> */
     protected static string $resourceClass;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     /**
@@ -106,15 +113,20 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
     public static function getModuleName(): string
     {
         $class = static::class;
         $arr = explode('\\', $class);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return $arr[1];
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
         $module_name = $arr[1];
@@ -125,6 +137,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     final public function form(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -192,6 +205,8 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     }
 
     public function getFormSchema(): array
@@ -201,7 +216,11 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // *
+=======
+    //*
+>>>>>>> 5a14301c (.)
 =======
     //*
 >>>>>>> 5a14301c (.)
@@ -212,6 +231,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     public function getTableColumns(): array
     {
         $index = Arr::get($this->getResource()::getPages(), 'index');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,6 +321,8 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!$index) {
             //throw new \Exception('Index page not found');
             return [];
@@ -327,6 +349,9 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
             DetachAction::make(),
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -334,6 +359,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
     public function getTableBulkActions(): array
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $actions = [];
@@ -369,11 +395,16 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         return [
             //Tables\Actions\DeleteBulkAction::make(),
             DetachBulkAction::make(),
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -391,7 +422,11 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 ->tooltip(__('user::actions.attach.label'))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->visible(fn (?Model $_record): bool => $resource::canAttach());
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canAttach());
+>>>>>>> 5a14301c (.)
 =======
                 ->visible(fn(null|Model $_record): bool => $resource::canAttach());
 >>>>>>> 5a14301c (.)
@@ -407,9 +442,14 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 ->tooltip(static::trans('actions.create.tooltip'))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->visible(fn (?Model $_record): bool => $resource::canCreate());
         }
 
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canCreate());
+        }
+>>>>>>> 5a14301c (.)
 =======
                 ->visible(fn(null|Model $_record): bool => $resource::canCreate());
         }
@@ -428,11 +468,14 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // public function getRelationship(): \Illuminate\Database\Eloquent\Relations\Relation|\Illuminate\Database\Eloquent\Builder
     // {
     //    return parent::getRelationship();
     // }
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
     public function getResource(): string
@@ -449,6 +492,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     //{
     //    return parent::getRelationship();
     //}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,4 +555,6 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 }

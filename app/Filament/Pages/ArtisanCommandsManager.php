@@ -9,6 +9,10 @@ use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Filament\Pages\Page;
+>>>>>>> 5a14301c (.)
 =======
 use Filament\Pages\Page;
 >>>>>>> 5a14301c (.)
@@ -38,7 +42,10 @@ class ArtisanCommandsManager extends XotBasePage
      * @var array<string, string>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -56,7 +63,10 @@ class ArtisanCommandsManager extends XotBasePage
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
     protected function getHeaderActions(): array
@@ -130,6 +140,9 @@ class ArtisanCommandsManager extends XotBasePage
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -206,6 +219,7 @@ class ArtisanCommandsManager extends XotBasePage
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     protected function getHeaderActions(): array
     {
@@ -276,6 +290,8 @@ class ArtisanCommandsManager extends XotBasePage
                 ->action(fn () => $this->executeCommand('queue:restart')),
         ];
     }
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

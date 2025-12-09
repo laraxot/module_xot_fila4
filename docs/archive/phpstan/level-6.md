@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -44,6 +45,9 @@
 =======
 
 >>>>>>> b7ea1cd1 (.)
+=======
+
+>>>>>>> 5a14301c (.)
 # Rapporto PHPStan Livello 6 per il modulo Xot
 
 Data analisi: 2025-04-15 21:54:44
@@ -64,6 +68,7 @@ Trovati 4 errori al livello 6.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 <<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
@@ -114,6 +119,11 @@ Trovati 4 errori al livello 6.
 =======
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 >>>>>>> b7ea1cd1 (.)
+=======
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> 5a14301c (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -141,6 +151,7 @@ Trovati 4 errori al livello 6.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 <<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -191,6 +202,11 @@ Trovati 4 errori al livello 6.
 =======
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 >>>>>>> b7ea1cd1 (.)
+=======
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> 5a14301c (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 
@@ -225,6 +241,9 @@ aurmich/dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 * [level_6.md](laravel/Modules/Chart/docs/phpstan/level_6.md)
@@ -242,6 +261,7 @@ aurmich/dev
 * [level_6.md](laravel/Modules/Activity/docs/phpstan/level_6.md)
 * [level_6.md](laravel/Modules/Patient/docs/phpstan/level_6.md)
 * [level_6.md](laravel/Modules/Cms/docs/phpstan/level_6.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -313,3 +333,6 @@ aurmich/dev
 =======
 
 >>>>>>> b7ea1cd1 (.)
+=======
+
+>>>>>>> 5a14301c (.)

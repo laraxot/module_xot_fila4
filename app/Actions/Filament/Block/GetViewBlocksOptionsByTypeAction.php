@@ -28,6 +28,7 @@ class GetViewBlocksOptionsByTypeAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $type  Il tipo di blocco da cercare
      * @param  bool  $img  Se includere i percorsi delle immagini invece dei nomi
 =======
@@ -112,6 +113,11 @@ class GetViewBlocksOptionsByTypeAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+     * @param string $type Il tipo di blocco da cercare
+     * @param bool $img Se includere i percorsi delle immagini invece dei nomi
+     *
+>>>>>>> 5a14301c (.)
      * @return array<string, string> Array di opzioni con chiave = vista e valore = nome o percorso immagine
      */
     public function execute(string $type, bool $img = false): array
@@ -124,6 +130,7 @@ class GetViewBlocksOptionsByTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $globPattern = $basePath.'/*/resources/views/components/blocks/'.$type.'/*.blade.php';
 =======
         $globPattern = $basePath . '/*/resources/views/components/blocks/' . $type . '/*.blade.php';
@@ -131,6 +138,9 @@ class GetViewBlocksOptionsByTypeAction
 =======
         $globPattern = $basePath . '/*/resources/views/components/blocks/' . $type . '/*.blade.php';
 >>>>>>> 3fbbf1f5 (.)
+=======
+        $globPattern = $basePath . '/*/resources/views/components/blocks/' . $type . '/*.blade.php';
+>>>>>>> 5a14301c (.)
 =======
         $globPattern = $basePath . '/*/resources/views/components/blocks/' . $type . '/*.blade.php';
 >>>>>>> 5a14301c (.)
@@ -157,8 +167,13 @@ class GetViewBlocksOptionsByTypeAction
             $modulePath = Str::of($pathStr)->between(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 DIRECTORY_SEPARATOR.'Modules'.DIRECTORY_SEPARATOR,
                 DIRECTORY_SEPARATOR.'resources'.DIRECTORY_SEPARATOR,
+=======
+                DIRECTORY_SEPARATOR . 'Modules' . DIRECTORY_SEPARATOR,
+                DIRECTORY_SEPARATOR . 'resources' . DIRECTORY_SEPARATOR,
+>>>>>>> 5a14301c (.)
 =======
                 DIRECTORY_SEPARATOR . 'Modules' . DIRECTORY_SEPARATOR,
                 DIRECTORY_SEPARATOR . 'resources' . DIRECTORY_SEPARATOR,
@@ -173,7 +188,11 @@ class GetViewBlocksOptionsByTypeAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $module_low = is_string($modulePath) ? $modulePath : (string) $modulePath->lower();
+=======
+            $module_low = is_string($modulePath) ? $modulePath : ((string) $modulePath->lower());
+>>>>>>> 5a14301c (.)
 =======
             $module_low = is_string($modulePath) ? $modulePath : ((string) $modulePath->lower());
 >>>>>>> 5a14301c (.)
@@ -193,8 +212,13 @@ class GetViewBlocksOptionsByTypeAction
             // Costruiamo il nome della vista
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $view = $module_low.'::components.blocks.'.$type.'.'.$name;
             // $view è sempre stringa non vuota perché costruita da stringhe non vuote
+=======
+            $view = $module_low . '::components.blocks.' . $type . '.' . $name;
+            Assert::stringNotEmpty($view, 'Il nome della vista non può essere vuoto');
+>>>>>>> 5a14301c (.)
 =======
             $view = $module_low . '::components.blocks.' . $type . '.' . $name;
             Assert::stringNotEmpty($view, 'Il nome della vista non può essere vuoto');
@@ -211,7 +235,11 @@ class GetViewBlocksOptionsByTypeAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $imgPath = $module_low.'::img/screenshots/'.$name.'.png';
+=======
+                $imgPath = $module_low . '::img/screenshots/' . $name . '.png';
+>>>>>>> 5a14301c (.)
 =======
                 $imgPath = $module_low . '::img/screenshots/' . $name . '.png';
 >>>>>>> 5a14301c (.)

@@ -21,6 +21,7 @@ class ViewPathAction
             $group_dir = Str::replace('.', '/', $stringable),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename(static::class).']',
         );
         $res = $ns_dir.'/'.$group_dir.'.blade.php';
@@ -109,6 +110,11 @@ class ViewPathAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+            '[' . __LINE__ . '][' . class_basename(static::class) . ']',
+        );
+        $res = $ns_dir . '/' . $group_dir . '.blade.php';
+>>>>>>> 5a14301c (.)
 
         return app(FixPathAction::class)->execute($res);
     }

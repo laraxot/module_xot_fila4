@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Str;
 <<<<<<< HEAD
@@ -94,6 +95,9 @@ use Illuminate\Support\Str;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+use Illuminate\Support\Str;
+>>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetModuleConfigAction
@@ -105,6 +109,7 @@ class GetModuleConfigAction
         $configPath = app(GetModulePathByGeneratorAction::class)->execute($moduleName, 'config');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $configFile = $configPath.'/'.$config.'.php';
         if (! file_exists($configFile)) {
             throw new Exception('Config file not found: '.$configFile);
@@ -114,12 +119,17 @@ class GetModuleConfigAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         $configFile = $configPath . '/' . $config . '.php';
         if (!file_exists($configFile)) {
             throw new Exception('Config file not found: ' . $configFile);
         }
         dddx(File::getRequire($configFile));
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

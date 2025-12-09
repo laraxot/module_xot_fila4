@@ -21,6 +21,7 @@ class PdfByViewAction
         string $out = 'download',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string $orientation = 'L',
     ): string|BinaryFileResponse {
         $html = $view->render();
@@ -29,11 +30,16 @@ class PdfByViewAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
     ): string|BinaryFileResponse {
         $html = $view->render();
 
         return app(PdfByHtmlAction::class)->execute($html, $filename, $disk, $out);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

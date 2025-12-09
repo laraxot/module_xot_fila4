@@ -16,6 +16,7 @@ namespace Modules\Xot\Exceptions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use JsonSerializable;
@@ -43,6 +44,8 @@ readonly class ApplicationError implements Arrayable, Jsonable, JsonSerializable
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use JsonSerializable;
 use Override;
 use Illuminate\Contracts\Support\Arrayable;
@@ -56,6 +59,9 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
         private  string $help = '',
         private  string $error = '',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -79,8 +85,11 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return json_encode($this->jsonSerialize(), $options);
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
         $jsonEncoded = json_encode($this->jsonSerialize(), $options);
@@ -88,6 +97,9 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
 
         return $jsonEncoded;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

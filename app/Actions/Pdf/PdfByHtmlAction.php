@@ -19,6 +19,7 @@ namespace Modules\Xot\Actions\Pdf;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -65,10 +66,13 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,6 +173,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class PdfByHtmlAction
@@ -182,6 +188,7 @@ class PdfByHtmlAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $html  Contenuto HTML da convertire
      * @param  string  $filename  Nome del file PDF
      * @param  string  $disk  Disco di storage
@@ -189,6 +196,8 @@ class PdfByHtmlAction
      * @param  string  $orientation  Orientamento (P=Portrait, L=Landscape)
      * @param  PdfEngineEnum  $engine  Engine da utilizzare
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      * @param string $html Contenuto HTML da convertire
@@ -199,6 +208,9 @@ class PdfByHtmlAction
      * @param PdfEngineEnum $engine Engine da utilizzare
      * @return string|BinaryFileResponse
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

@@ -13,7 +13,11 @@ use Illuminate\Database\Eloquent\Model;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseRating extends BaseModel
+=======
+abstract class BaseRating extends Model
+>>>>>>> 5a14301c (.)
 =======
 abstract class BaseRating extends Model
 >>>>>>> 5a14301c (.)

@@ -12,6 +12,7 @@ namespace Modules\Xot\View\Components;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
@@ -31,11 +32,16 @@ use InvalidArgumentException;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use InvalidArgumentException;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -64,7 +70,11 @@ abstract class XotBaseComponent extends IlluminateComponent
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @var array<string, string>
+=======
+     * @var array<string, view-string>
+>>>>>>> 5a14301c (.)
 =======
      * @var array<string, view-string>
 >>>>>>> 5a14301c (.)
@@ -87,7 +97,11 @@ abstract class XotBaseComponent extends IlluminateComponent
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Get the view name for this component.
+=======
+     * Summary of getView.
+>>>>>>> 5a14301c (.)
 =======
      * Summary of getView.
 >>>>>>> 5a14301c (.)
@@ -104,7 +118,10 @@ abstract class XotBaseComponent extends IlluminateComponent
         if (isset(self::$viewCache[$class])) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var view-string */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -119,6 +136,7 @@ abstract class XotBaseComponent extends IlluminateComponent
         $comp_name = str_replace('\\', '.', $comp_name);
         $comp_name = Str::snake($comp_name);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,6 +204,8 @@ abstract class XotBaseComponent extends IlluminateComponent
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
         $view = $module_name_low . '::components.' . $comp_name;
         $view = str_replace('._', '.', $view);
 
@@ -193,6 +213,9 @@ abstract class XotBaseComponent extends IlluminateComponent
             throw new InvalidArgumentException("View [{$view}] does not exist.");
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

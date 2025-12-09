@@ -19,6 +19,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 =======
 =======
@@ -64,6 +65,8 @@ use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Filament\Actions\Action;
 use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
@@ -72,6 +75,9 @@ use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -84,6 +90,11 @@ use Modules\Xot\Filament\Traits\TransTrait;
  * Estende Filament\Widgets\StatsOverviewWidget e aggiunge funzionalità specifiche del progetto.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *
+ * @package Modules\Xot\Filament\Widgets
+>>>>>>> 5a14301c (.)
 =======
  *
  * @package Modules\Xot\Filament\Widgets

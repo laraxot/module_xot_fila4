@@ -33,7 +33,11 @@ declare(strict_types=1);
                         <x-heroicon-o-calendar class="w-12 h-12 mx-auto mb-2" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <p class="text-sm">{{ __('<nome modulo>::widgets.appointment_overview.empty_state') }}</p>
+=======
+                        <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
+>>>>>>> 5a14301c (.)
 =======
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
 >>>>>>> 5a14301c (.)

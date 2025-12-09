@@ -20,11 +20,14 @@ class ExportXlsByQuery
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Builder  $query  Query da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
      * @param  int|null  $limit  Limite di righe da esportare
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      * @param Builder $query Query da esportare
@@ -34,6 +37,9 @@ class ExportXlsByQuery
      *
      * @return BinaryFileResponse
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -42,6 +48,7 @@ class ExportXlsByQuery
         Builder $query,
         string $filename = 'test.xlsx',
         array $fields = [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,6 +107,9 @@ class ExportXlsByQuery
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+        null|int $limit = null,
+>>>>>>> 5a14301c (.)
+=======
         null|int $limit = null,
 >>>>>>> 5a14301c (.)
 =======

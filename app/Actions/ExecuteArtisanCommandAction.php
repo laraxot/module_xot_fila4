@@ -12,6 +12,7 @@ namespace Modules\Xot\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Process;
 use RuntimeException;
@@ -32,12 +33,17 @@ use Throwable;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use RuntimeException;
 use Throwable;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Process;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -71,14 +77,18 @@ class ExecuteArtisanCommandAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $command  Il comando Artisan da eseguire (senza "php artisan")
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      * @param string $command Il comando Artisan da eseguire (senza "php artisan")
      *
      * @throws RuntimeException Se il comando non è consentito o si verifica un errore
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,6 +128,8 @@ class ExecuteArtisanCommandAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
      * @return array{
      *     command: string,
      *     output: array<int, string>,
@@ -126,8 +138,11 @@ class ExecuteArtisanCommandAction
      * } Array con informazioni sull'esecuzione del comando
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @throws RuntimeException Se il comando non è consentito o si verifica un errore
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -137,6 +152,7 @@ class ExecuteArtisanCommandAction
     {
         Assert::stringNotEmpty($command, 'Il comando non può essere vuoto');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,6 +198,9 @@ class ExecuteArtisanCommandAction
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+        if (!$this->isCommandAllowed($command)) {
+>>>>>>> 5a14301c (.)
             throw new RuntimeException("Comando non consentito: {$command}");
         }
 
@@ -215,6 +234,7 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (! empty($data)) {
                     $formattedData = trim($data);
                     if (! empty($formattedData)) {
@@ -356,6 +376,11 @@ class ExecuteArtisanCommandAction
                     $formattedData = trim($data);
                     if (!empty($formattedData)) {
 >>>>>>> 9db27d12 (.)
+=======
+                if (!empty($data)) {
+                    $formattedData = trim($data);
+                    if (!empty($formattedData)) {
+>>>>>>> 5a14301c (.)
                         $output[] = $formattedData;
                         Event::dispatch('artisan-command.output', [$command, $formattedData]);
                     }
@@ -377,6 +402,7 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -406,11 +432,14 @@ class ExecuteArtisanCommandAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
                 if (!empty($errorData)) {
                     $formattedError = trim($errorData);
                     if (!empty($formattedError)) {
                         $output[] = '[ERROR] ' . $formattedError;
                         Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $formattedError]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -539,6 +568,8 @@ class ExecuteArtisanCommandAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
                     }
                 }
 
@@ -564,6 +595,7 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! empty($finalOutput)) {
 =======
             if (!empty($finalOutput)) {
@@ -647,6 +679,9 @@ class ExecuteArtisanCommandAction
 =======
             if (!empty($finalOutput)) {
 >>>>>>> 9db27d12 (.)
+=======
+            if (!empty($finalOutput)) {
+>>>>>>> 5a14301c (.)
                 $output[] = $finalOutput;
                 Event::dispatch('artisan-command.output', [$command, $finalOutput]);
             }
@@ -667,6 +702,7 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! empty($finalErrorOutput)) {
                 $output[] = '[ERROR] '.$finalErrorOutput;
                 Event::dispatch('artisan-command.output', [$command, '[ERROR] '.$finalErrorOutput]);
@@ -808,6 +844,11 @@ class ExecuteArtisanCommandAction
                 $output[] = '[ERROR] ' . $finalErrorOutput;
                 Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $finalErrorOutput]);
 >>>>>>> 9db27d12 (.)
+=======
+            if (!empty($finalErrorOutput)) {
+                $output[] = '[ERROR] ' . $finalErrorOutput;
+                Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $finalErrorOutput]);
+>>>>>>> 5a14301c (.)
             }
 
             if ($result->successful()) {
@@ -839,7 +880,11 @@ class ExecuteArtisanCommandAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $command  Il comando da verificare
+=======
+     * @param string $command Il comando da verificare
+>>>>>>> 5a14301c (.)
 =======
      * @param string $command Il comando da verificare
 >>>>>>> 5a14301c (.)
@@ -853,7 +898,10 @@ class ExecuteArtisanCommandAction
         Assert::stringNotEmpty($command, 'Il comando non può essere vuoto');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

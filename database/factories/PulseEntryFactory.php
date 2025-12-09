@@ -12,6 +12,7 @@ namespace Modules\Xot\Database\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\PulseEntry;
 
@@ -40,14 +41,22 @@ use Modules\Xot\Models\PulseEntry;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 >>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Models\PulseEntry;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+>>>>>>> 5a14301c (.)
 class PulseEntryFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @var class-string<PulseEntry>
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

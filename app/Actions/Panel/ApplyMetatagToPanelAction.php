@@ -7,8 +7,13 @@ namespace Modules\Xot\Actions\Panel;
 use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Panel;
 use Illuminate\Support\Facades\Log;
+=======
+use Illuminate\Support\Facades\Log;
+use Filament\Panel;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Support\Facades\Log;
 use Filament\Panel;
@@ -28,6 +33,7 @@ class ApplyMetatagToPanelAction
     {
         try {
             $metatag = MetatagData::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,6 +115,8 @@ class ApplyMetatagToPanelAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
             return $panel
                 // @phpstan-ignore argument.type
                 ->colors($metatag->getColors())
@@ -119,6 +127,7 @@ class ApplyMetatagToPanelAction
                 ->favicon($metatag->getFavicon());
         } catch (Exception $e) {
             // Log l'errore ma non bloccare l'applicazione
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             Log::error('Error applying metatag to panel: '.$e->getMessage());
@@ -164,6 +173,9 @@ class ApplyMetatagToPanelAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+            Log::error('Error applying metatag to panel: ' . $e->getMessage());
+>>>>>>> 5a14301c (.)
             return $panel;
         }
     }

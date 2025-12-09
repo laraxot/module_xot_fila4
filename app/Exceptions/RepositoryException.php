@@ -11,7 +11,13 @@ use Exception;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class RepositoryException extends Exception {}
+=======
+class RepositoryException extends Exception
+{
+}
+>>>>>>> 5a14301c (.)
 =======
 class RepositoryException extends Exception
 {

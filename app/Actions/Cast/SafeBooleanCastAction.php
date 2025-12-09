@@ -42,6 +42,7 @@ class SafeBooleanCastAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $value  Il valore da convertire
      * @param  bool|null  $default  Valore di default se la conversione fallisce (default: false)
      * @return bool Il valore convertito
@@ -50,12 +51,15 @@ class SafeBooleanCastAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param mixed $value Il valore da convertire
      * @param bool|null $default Valore di default se la conversione fallisce (default: false)
      *
      * @return bool Il valore convertito
      */
     public function execute(mixed $value, null|bool $default = false): bool
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,6 +136,8 @@ class SafeBooleanCastAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
     {
         // Se è già un boolean, restituiscilo direttamente
         if (is_bool($value)) {
@@ -160,6 +166,7 @@ class SafeBooleanCastAction
 
         // Se è un array, convertilo (array vuoto = false, altri = true)
         if (is_array($value)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             return ! empty($value);
@@ -257,6 +264,11 @@ class SafeBooleanCastAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+            return !empty($value);
+        }
+
+>>>>>>> 5a14301c (.)
         // Se è un oggetto, convertilo (oggetto vuoto = false, altri = true)
         if (is_object($value)) {
             return !empty(get_object_vars($value));
@@ -267,6 +279,7 @@ class SafeBooleanCastAction
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * Converte un valore in boolean con validazione di valori specifici.
@@ -410,6 +423,8 @@ class SafeBooleanCastAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * Converte una stringa in boolean con gestione avanzata.
      *
      * @param string $value La stringa da convertire
@@ -419,6 +434,9 @@ class SafeBooleanCastAction
      */
     private function parseStringToBool(string $value, null|bool $default = false): bool
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -452,7 +470,10 @@ class SafeBooleanCastAction
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 
@@ -593,6 +614,9 @@ class SafeBooleanCastAction
         return app(self::class)->executeWithThreshold($value, $threshold, $greaterThanTrue, $default);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

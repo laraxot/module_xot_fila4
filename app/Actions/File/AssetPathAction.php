@@ -17,6 +17,7 @@ class AssetPathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $module_path = Module::getModulePath($ns).'resources';
 
         return $module_path.'/'.$file;
@@ -129,5 +130,10 @@ class AssetPathAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+        $module_path = Module::getModulePath($ns) . 'resources';
+
+        return $module_path . '/' . $file;
+>>>>>>> 5a14301c (.)
     }
 }

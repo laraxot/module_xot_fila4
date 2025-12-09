@@ -12,6 +12,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Carbon;
 use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -46,10 +47,16 @@ use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Database\Factories\FeedFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> 5a14301c (.)
 
 /**
  * Modules\Xot\Models\Feed.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @property string $id
@@ -71,6 +78,8 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
  * @method static FeedFactory factory($count = null, $state = [])
  * @method static Builder|Feed newModelQuery()
  * @method static Builder|Feed newQuery()
@@ -82,6 +91,9 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property ProfileContract|null $updater
  * @mixin IdeHelperFeed
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

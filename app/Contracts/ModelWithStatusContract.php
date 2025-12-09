@@ -16,6 +16,7 @@ use Spatie\ModelStatus\Status;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $id
  * @property int|null $user_id
  * @property string|null $post_type
@@ -50,6 +51,8 @@ use Spatie\ModelStatus\Status;
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
  * @property int                      $id
  * @property int|null                 $user_id
  * @property string|null              $post_type
@@ -82,6 +85,9 @@ use Spatie\ModelStatus\Status;
  * @method array     treeSons()
  * @method array     toArray()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -95,6 +101,7 @@ interface ModelWithStatusContract
 {
     public function statuses(): MorphMany;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,4 +258,9 @@ interface ModelWithStatusContract
 
     public function setStatus(string $name, null|string $reason = null): self;
 >>>>>>> 9db27d12 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 5a14301c (.)
 }

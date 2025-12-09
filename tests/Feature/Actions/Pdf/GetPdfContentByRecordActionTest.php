@@ -6,6 +6,10 @@ namespace Modules\Xot\Tests\Feature\Actions\Pdf;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use ReflectionClass;
+>>>>>>> 5a14301c (.)
 =======
 use ReflectionClass;
 >>>>>>> 5a14301c (.)
@@ -18,7 +22,10 @@ use Modules\User\Models\User;
 use Modules\Xot\Actions\Pdf\GetPdfContentByRecordAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use ReflectionClass;
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -37,7 +44,11 @@ class GetPdfContentByRecordActionTest extends TestCase
         parent::setUp();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->action = new GetPdfContentByRecordAction;
+=======
+        $this->action = new GetPdfContentByRecordAction();
+>>>>>>> 5a14301c (.)
 =======
         $this->action = new GetPdfContentByRecordAction();
 >>>>>>> 5a14301c (.)
@@ -107,10 +118,15 @@ class GetPdfContentByRecordActionTest extends TestCase
         // Arrange - Create a mock model with performance fields
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $record = new class extends Model
         {
             protected $table = 'test_performance';
 
+=======
+        $record = new class extends Model {
+            protected $table = 'test_performance';
+>>>>>>> 5a14301c (.)
 =======
         $record = new class extends Model {
             protected $table = 'test_performance';

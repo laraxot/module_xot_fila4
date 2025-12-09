@@ -12,9 +12,13 @@ namespace Modules\Xot\Actions\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
+use Filament\Resources\Resource;
+>>>>>>> 5a14301c (.)
+=======
 use Filament\Resources\Resource;
 >>>>>>> 5a14301c (.)
 =======
@@ -46,6 +50,7 @@ class GenerateTableColumnsByFileAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  File  $file  Il file della risorsa Filament
      */
     public function execute(File $file): void
@@ -57,12 +62,15 @@ class GenerateTableColumnsByFileAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param File $file Il file della risorsa Filament
      *
      * @return void
      */
     public function execute(File $file): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,10 +114,13 @@ class GenerateTableColumnsByFileAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!$file->isFile()) {
             return;
         }
         if (!\in_array($file->getExtension(), ['php'], false)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,12 +187,15 @@ class GenerateTableColumnsByFileAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             return;
         }
         $filename = $file->getPathname();
         $class_name = Str::replace(base_path('Modules/'), 'Modules/', $filename);
         Assert::string(
             $class_name = Str::replace('/', '\\', $class_name),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,12 +209,16 @@ class GenerateTableColumnsByFileAction
 =======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 5a14301c (.)
         );
         $class_name = Str::substr($class_name, 0, -4);
 
         // Verifichiamo che la classe esista
         Assert::classExists($class_name);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         /** @var object $resourceInstance */
@@ -211,12 +229,17 @@ class GenerateTableColumnsByFileAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         /** @var Resource $resourceInstance */
         $resourceInstance = app($class_name);
 
         // Verifichiamo che il metodo getModel esista
         if (!method_exists($resourceInstance, 'getModel')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -236,6 +259,7 @@ class GenerateTableColumnsByFileAction
         // *
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'table');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->columns(', '(', ')');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,12 +294,16 @@ class GenerateTableColumnsByFileAction
 =======
         $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
 >>>>>>> 5a14301c (.)
+=======
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
         $body_up = Str::of($body)->replace($body1, $body_new)->toString();
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
         // -------------------- FORM ------------------------------
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'form');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->schema(', '(', ')');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -310,6 +338,9 @@ class GenerateTableColumnsByFileAction
 =======
         $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
 >>>>>>> 5a14301c (.)
+=======
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
         $body_up = Str::of($body)->replace($body1, $body_new)->toString();
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
@@ -341,6 +372,7 @@ class GenerateTableColumnsByFileAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  File  $file  Il file da analizzare
      */
     public function ddFile(File $file): void
@@ -350,6 +382,8 @@ class GenerateTableColumnsByFileAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param File $file Il file da analizzare
      *
      * @return void
@@ -357,6 +391,9 @@ class GenerateTableColumnsByFileAction
     public function ddFile(File $file): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -365,6 +402,7 @@ class GenerateTableColumnsByFileAction
             'getRelativePathname' => $file->getRelativePathname(), //  AssenzeResource.php
             'getFilenameWithoutExtension' => $file->getFilenameWithoutExtension(), // AssenzeResource
             // 'getContents' => $file->getContents(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'getPath' => $file->getPath(),
@@ -377,6 +415,8 @@ class GenerateTableColumnsByFileAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
             'getPath' => $file->getPath(), // = /var/www/html/ptvx/laravel/Modules/Progressioni/Filament/Resources
             'getFilename' => $file->getFilename(), // = AssenzeResource.php
             'getExtension' => $file->getExtension(), // php
@@ -385,6 +425,9 @@ class GenerateTableColumnsByFileAction
             'isFile' => $file->isFile(), // true
             'getRealPath' => $file->getRealPath(), // /var/www/html/ptvx/laravel/Modules/Progressioni/Filament/resources/AssenzeResource.php
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -394,7 +437,10 @@ class GenerateTableColumnsByFileAction
         ]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

@@ -6,9 +6,12 @@ namespace Modules\Xot\Filament\Traits;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 use Illuminate\Support\Str;
@@ -16,6 +19,9 @@ use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -62,6 +68,7 @@ trait NavigationLabelTrait
         return static::transFunc(__FUNCTION__);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,11 +167,15 @@ trait NavigationLabelTrait
 =======
     public static function getNavigationSort(): null|int
 >>>>>>> 9db27d12 (.)
+=======
+    public static function getNavigationSort(): null|int
+>>>>>>> 5a14301c (.)
     {
         $res = static::transFunc(__FUNCTION__);
 
         $value = intval($res);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +274,9 @@ trait NavigationLabelTrait
 =======
         if (0 === $value) {
 >>>>>>> 9db27d12 (.)
+=======
+        if (0 === $value) {
+>>>>>>> 5a14301c (.)
             $key = static::getKeyTransFunc(__FUNCTION__);
             $value = rand(1, 100);
             app(SaveTransAction::class)->execute($key, $value);

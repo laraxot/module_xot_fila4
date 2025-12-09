@@ -4,9 +4,12 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** @var \ReflectionClass $reflection */
 /** @var array<string, string> $properties */
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -15,6 +18,7 @@ declare(strict_types=1);
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <?php if (array_key_exists('remember_token', $properties)): ?>
@@ -41,6 +45,8 @@ class <?= $reflection->getShortName(); ?>Factory extends Factory
         ];
     }
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 @isset($properties['remember_token'])
@@ -71,6 +77,9 @@ return [
 ];
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

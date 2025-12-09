@@ -15,6 +15,7 @@ class CookieData extends Data
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  bool  $accept  Se il cookie è stato accettato
      * @param  string  $type  Tipo di cookie (es. necessari, analitici, marketing)
      * @param  int  $duration_days  Durata dei cookie in giorni
@@ -23,12 +24,17 @@ class CookieData extends Data
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param bool   $accept         Se il cookie è stato accettato
      * @param string $type           Tipo di cookie (es. necessari, analitici, marketing)
      * @param int    $duration_days  Durata dei cookie in giorni
      * @param string $policy_url     URL della cookie policy
      * @param string $banner_style   Stile del banner dei cookie
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -45,11 +51,14 @@ class CookieData extends Data
      * Create a new instance of CookieData with default values.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public static function make(): static
     {
         return new static;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
@@ -59,6 +68,9 @@ class CookieData extends Data
     {
         return new static();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

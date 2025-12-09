@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Resources\XotBaseResource\Pages;
 use Filament\Schemas\Components\Component;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -15,6 +16,8 @@ use Filament\Schemas\Schema;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Contracts\Support\Htmlable;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 use Override;
@@ -26,6 +29,7 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Model;
@@ -66,11 +70,14 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,6 +155,8 @@ use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecord
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -160,6 +169,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 {
     use HasXotTable;
     use InteractsWithForms;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     use NavigationLabelTrait {
@@ -177,6 +187,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 =======
     use NavigationLabelTrait;
 >>>>>>> 5a14301c (.)
+=======
+    use NavigationLabelTrait;
+>>>>>>> 5a14301c (.)
 
     // protected static string $resource;
 
@@ -188,6 +201,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return '';
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,10 +297,15 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 >>>>>>> 14edd1a1 (.)
 =======
 >>>>>>> 16dc7ab0 (.)
+=======
+    /*
+     * @return array<\Filament\Forms\Components\Component>
+>>>>>>> 5a14301c (.)
      */
     // abstract public static function getFormSchema(): array;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * Configura lo schema del form per i record correlati.
@@ -310,6 +329,8 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
     }
 
     /**
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -360,6 +381,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
             'edit' => Action::make('edit')
                 ->label('Modifica')
                 ->icon('heroicon-o-pencil')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,6 +461,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 =======
                 ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
 >>>>>>> ca9324a4 (.)
+=======
+                ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+>>>>>>> 5a14301c (.)
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')
@@ -475,7 +500,10 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * ->disableCreateAnother(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      * ]);
@@ -491,6 +519,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return $form->components($schema);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -513,6 +544,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 
         return Str::of($relationship)
             ->title()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -580,6 +612,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 =======
             ->prepend($titleString . ' - ')
 >>>>>>> ca9324a4 (.)
+=======
+            ->prepend($titleString . ' - ')
+>>>>>>> 5a14301c (.)
             ->toString();
     }
 }

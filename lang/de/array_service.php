@@ -5,6 +5,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -91,6 +92,9 @@ declare(strict_types=1);
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+
+>>>>>>> 5a14301c (.)
 return [
     'gg_in_sede_no_asz' => 'gg_in_sede_no_asz',
     'eta' => 'eta',

@@ -9,6 +9,7 @@ Modulo base del framework Laraxot con funzionalità core e best practices.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [🏆 PHPStan level 10 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
 =======
 - [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
@@ -25,6 +26,9 @@ Modulo base del framework Laraxot con funzionalità core e best practices.
 =======
 - [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
 >>>>>>> 17684f52 (.)
+=======
+- [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
+>>>>>>> 5a14301c (.)
 - [🎨 Theme Assets Workflow](theme-assets-workflow.md) - **⚠️ CRITICO** - Workflow CSS/JS per temi
 - [PHPStan Array Types Fixes](phpstan-array-types-fixes.md) - **✅ COMPLETATO** - Correzioni complete tipi array
 - [Filament Complete Guide](consolidated/filament-complete-guide.md)
@@ -69,15 +73,19 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Documentation](../../../project_docs/)
 - [<nome progetto> Module](../<nome progetto>/project_docs/)
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 - [Root Documentation](../../../docs/)
 - [Module Documentation](../<nome modulo>/docs/)
 - [Root Documentation](../../../project_docs/)
 - [SaluteOra Module](../SaluteOra/project_docs/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
@@ -130,4 +138,6 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - [Root Documentation](../../../project_docs/)
 - [SaluteOra Module](../SaluteOra/project_docs/)
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)

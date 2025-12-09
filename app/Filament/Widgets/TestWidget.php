@@ -15,7 +15,12 @@ class TestWidget extends Widget
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected int|string|array $columnSpan = 'full';
+=======
+    protected int | string | array $columnSpan = 'full';
+
+>>>>>>> 5a14301c (.)
 =======
     protected int | string | array $columnSpan = 'full';
 

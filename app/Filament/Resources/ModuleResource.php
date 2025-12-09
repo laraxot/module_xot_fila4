@@ -19,6 +19,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -91,6 +92,10 @@ use Override;
 use Filament\Schemas\Components\Component;
 use Override;
 >>>>>>> 3310e9c6 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
@@ -98,7 +103,11 @@ use Filament\Forms;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use \Filament\Forms\Forms\Components\IconPicker;
+=======
+use Modules\UI\Filament\Forms\Components\IconPicker;
+>>>>>>> 5a14301c (.)
 =======
 use Modules\UI\Filament\Forms\Components\IconPicker;
 >>>>>>> 5a14301c (.)
@@ -114,6 +123,9 @@ class ModuleResource extends XotBaseResource
      * @return array<string, Component>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -125,7 +137,11 @@ class ModuleResource extends XotBaseResource
             'description' => TextInput::make('description'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'icon' => Select::make('icon')->options([]),
+=======
+            'icon' => IconPicker::make('icon'),
+>>>>>>> 5a14301c (.)
 =======
             'icon' => IconPicker::make('icon'),
 >>>>>>> 5a14301c (.)
@@ -146,6 +162,7 @@ class ModuleResource extends XotBaseResource
     #[Override]
     public static function getPages(): array
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $prefix = static::class.'\\Pages\\';
@@ -169,10 +186,13 @@ class ModuleResource extends XotBaseResource
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         return [
             'index' => ListModules::route('/'),
             'create' => CreateModule::route('/create'),
             'edit' => EditModule::route('/{record}/edit'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,6 +238,8 @@ class ModuleResource extends XotBaseResource
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
         ];
     }
 }

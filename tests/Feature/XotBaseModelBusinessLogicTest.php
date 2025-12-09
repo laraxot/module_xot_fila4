@@ -8,6 +8,10 @@ use Illuminate\Database\ConnectionInterface;
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\DB;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Support\Facades\DB;
 >>>>>>> 5a14301c (.)
@@ -27,7 +31,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange & Act
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -46,7 +54,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -66,7 +78,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange & Act
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -85,7 +101,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -107,7 +127,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -129,7 +153,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -151,7 +179,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $module = new Module;
+=======
+        $module = new Module();
+>>>>>>> 5a14301c (.)
 =======
         $module = new Module();
 >>>>>>> 5a14301c (.)
@@ -170,7 +202,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -195,7 +231,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -218,7 +258,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -240,7 +284,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -263,7 +311,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -286,7 +338,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -308,7 +364,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -330,7 +390,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -353,7 +417,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -375,7 +443,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -397,7 +469,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -418,7 +494,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -441,7 +521,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -464,7 +548,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -485,7 +573,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -506,7 +598,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -527,7 +623,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -550,7 +650,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -571,7 +675,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -592,7 +700,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -613,7 +725,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -634,7 +750,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)
@@ -655,7 +775,11 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
 =======
         $baseModel = new BaseModel();
 >>>>>>> 5a14301c (.)

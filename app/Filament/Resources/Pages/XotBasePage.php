@@ -14,6 +14,7 @@ namespace Modules\Xot\Filament\Resources\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use LogicException;
 use Illuminate\Database\Eloquent\Model;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -54,6 +55,8 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Closure;
@@ -61,7 +64,11 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Pages\Concerns\InteractsWithFormActions;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Resources\Pages\Page as FilamentPage;
+=======
+use Filament\Pages\Page as FilamentPage;
+>>>>>>> 5a14301c (.)
 =======
 use Filament\Pages\Page as FilamentPage;
 >>>>>>> 5a14301c (.)
@@ -72,6 +79,9 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -85,6 +95,7 @@ use Webmozart\Assert\Assert;
  * @property ?string $model
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property ?array  $data
  * @property Schema  $form
  */
@@ -94,6 +105,8 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     use InteractsWithForms;
     use NavigationLabelTrait;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
  * @property ?array $data
@@ -106,6 +119,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     use TransTrait;
     use InteractsWithFormActions;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -113,6 +129,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     /**
      * The model class associated with this page, if any.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,12 +197,16 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 =======
     public static null|string $model = null;
 >>>>>>> ca9324a4 (.)
+=======
+    public static null|string $model = null;
+>>>>>>> 5a14301c (.)
 
     /**
      * The form data.
      *
      * @var array<string, mixed>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +238,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 =======
     public null|array $data = [];
 >>>>>>> 3fbbf1f5 (.)
+=======
+    public null|array $data = [];
+>>>>>>> 5a14301c (.)
 =======
     public null|array $data = [];
 >>>>>>> 5a14301c (.)
@@ -280,6 +304,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Get the associated model class for this page.
      *
      * This method must be non-static to properly override the parent method.
@@ -318,6 +343,8 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * Get the form schema for the page.
      *
      * @return array<string, Component>
@@ -327,6 +354,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         return [];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -343,12 +371,17 @@ abstract class XotBasePage extends FilamentPage implements HasForms
         }
         
 =======
+=======
+>>>>>>> 5a14301c (.)
     /**
      * Get the associated model class for this page.
      */
     public static function getModel(): null|string
     {
         /** @phpstan-ignore property.staticAccess */
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         return static::$model;
     }
@@ -364,6 +397,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

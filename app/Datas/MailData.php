@@ -15,6 +15,7 @@ class MailData extends Data
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $driver  Driver per l'invio delle email
      * @param  string  $host  Host SMTP
      * @param  int  $port  Porta SMTP
@@ -28,6 +29,8 @@ class MailData extends Data
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param string $driver         Driver per l'invio delle email
      * @param string $host           Host SMTP
      * @param int         $port           Porta SMTP
@@ -39,6 +42,9 @@ class MailData extends Data
      * @param string|null $reply_to       Indirizzo per le risposte
      * @param bool        $verify_peer    Verifica certificato peer SSL
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -52,6 +58,7 @@ class MailData extends Data
         public readonly string $password = '',
         public readonly string $from_address = 'no-reply@example.com',
         public readonly string $from_name = 'Laraxot App',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,11 +108,15 @@ class MailData extends Data
 =======
         public readonly null|string $reply_to = null,
 >>>>>>> 5a14301c (.)
+=======
+        public readonly null|string $reply_to = null,
+>>>>>>> 5a14301c (.)
         public readonly bool $verify_peer = true,
     ) {}
 
     /**
      * Create a new instance of MailData with default values.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      */
@@ -115,6 +126,8 @@ class MailData extends Data
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      *
      * @return static
      */
@@ -122,6 +135,9 @@ class MailData extends Data
     {
         return new static();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

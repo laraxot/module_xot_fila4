@@ -25,12 +25,15 @@ class XlsByModelClassAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $modelClass  Classe del modello da esportare
      * @param  array<string, mixed>  $where  Condizioni where per la query
      * @param  array<int, string>  $includes  Relazioni o campi da includere
      * @param  array<int, string>  $excludes  Campi da escludere
      * @param  callable|null  $callback  Callback per manipolare i dati
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      * @param string $modelClass Classe del modello da esportare
@@ -41,6 +44,9 @@ class XlsByModelClassAction
      *
      * @return BinaryFileResponse
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -50,6 +56,7 @@ class XlsByModelClassAction
         array $where = [],
         array $includes = [],
         array $excludes = [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,6 +155,9 @@ class XlsByModelClassAction
 =======
         null|callable $callback = null,
 >>>>>>> 9db27d12 (.)
+=======
+        null|callable $callback = null,
+>>>>>>> 5a14301c (.)
     ): BinaryFileResponse {
         // Verifichiamo che la classe del modello esista
         Assert::classExists($modelClass);
@@ -172,7 +182,11 @@ class XlsByModelClassAction
         // Filtriamo i campi se sono specificati gli includes
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($includes !== []) {
+=======
+        if ([] !== $includes) {
+>>>>>>> 5a14301c (.)
 =======
         if ([] !== $includes) {
 >>>>>>> 5a14301c (.)
@@ -192,7 +206,11 @@ class XlsByModelClassAction
         // Nascondiamo i campi esclusi
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($excludes !== []) {
+=======
+        if ([] !== $excludes) {
+>>>>>>> 5a14301c (.)
 =======
         if ([] !== $excludes) {
 >>>>>>> 5a14301c (.)
@@ -206,7 +224,10 @@ class XlsByModelClassAction
                 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -218,7 +239,11 @@ class XlsByModelClassAction
         // Applichiamo il callback se fornito
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($callback !== null) {
+=======
+        if (null !== $callback) {
+>>>>>>> 5a14301c (.)
 =======
         if (null !== $callback) {
 >>>>>>> 5a14301c (.)
@@ -239,6 +264,7 @@ class XlsByModelClassAction
     /**
      * Ottiene le relazioni da caricare in base ai campi inclusi.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  array<int, string>  $includes  Campi da includere
@@ -322,6 +348,10 @@ class XlsByModelClassAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+     * @param array<int, string> $includes Campi da includere
+     *
+>>>>>>> 5a14301c (.)
      * @return array<int, string>
      */
     private function getWithByIncludes(array $includes): array
@@ -334,7 +364,11 @@ class XlsByModelClassAction
             // Verifichiamo se contiene un punto (indicatore di relazione)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! Str::contains($includeStr, '.')) {
+=======
+            if (!Str::contains($includeStr, '.')) {
+>>>>>>> 5a14301c (.)
 =======
             if (!Str::contains($includeStr, '.')) {
 >>>>>>> 5a14301c (.)
@@ -348,7 +382,11 @@ class XlsByModelClassAction
             $parts = explode('.', $includeStr);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! empty($parts[0])) {
+=======
+            if (!empty($parts[0])) {
+>>>>>>> 5a14301c (.)
 =======
             if (!empty($parts[0])) {
 >>>>>>> 5a14301c (.)
@@ -367,7 +405,13 @@ class XlsByModelClassAction
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $modelClass  Classe del modello
+=======
+     * @param string $modelClass Classe del modello
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
 =======
      * @param string $modelClass Classe del modello
      *

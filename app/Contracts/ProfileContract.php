@@ -9,6 +9,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Query\Builder;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Database\Query\Builder;
 >>>>>>> 5a14301c (.)
@@ -30,8 +34,13 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property Collection<int, Role> $roles
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int|null $roles_count
  * @property UserContract $user
+=======
+ * @property int|null              $roles_count
+ * @property UserContract          $user
+>>>>>>> 5a14301c (.)
 =======
  * @property int|null              $roles_count
  * @property UserContract          $user
@@ -70,6 +79,7 @@ interface ProfileContract extends HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?string $guard = null,
 =======
         null|string $guard = null,
@@ -77,6 +87,9 @@ interface ProfileContract extends HasMedia
 =======
         null|string $guard = null,
 >>>>>>> 3fbbf1f5 (.)
+=======
+        null|string $guard = null,
+>>>>>>> 5a14301c (.)
 =======
         null|string $guard = null,
 >>>>>>> 5a14301c (.)
@@ -95,6 +108,7 @@ interface ProfileContract extends HasMedia
      *
      * @throws PermissionDoesNotExist
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,6 +154,8 @@ interface ProfileContract extends HasMedia
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
     public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
 
     /**
@@ -151,6 +167,9 @@ interface ProfileContract extends HasMedia
      */
     public function newEloquentBuilder($query);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

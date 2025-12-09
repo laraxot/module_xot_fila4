@@ -13,6 +13,7 @@ use Illuminate\Support\Carbon;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $id
  * @property int|null $user_id
  * @property string|null $name
@@ -28,6 +29,8 @@ use Illuminate\Support\Carbon;
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
  * @property int                $id
  * @property int|null           $user_id
  * @property string|null        $name
@@ -41,6 +44,9 @@ use Illuminate\Support\Carbon;
  * @property bool               $is_reclamed
  * @property bool               $table_enable
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -53,6 +59,7 @@ use Illuminate\Support\Carbon;
  * @property string $sms_body
  * @property string $sms_count
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @method mixed getKey()
@@ -74,6 +81,8 @@ use Illuminate\Support\Carbon;
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
  * @method mixed     getKey()
  * @method string    getRouteKey()
  * @method string    getRouteKeyName()
@@ -91,6 +100,9 @@ use Illuminate\Support\Carbon;
  * @method array     treeSons()
  * @method array     toArray()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -100,6 +112,7 @@ use Illuminate\Support\Carbon;
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,3 +254,8 @@ interface ModelInputContract
 {
 }
 >>>>>>> 9db27d12 (.)
+=======
+interface ModelInputContract
+{
+}
+>>>>>>> 5a14301c (.)

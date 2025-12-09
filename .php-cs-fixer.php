@@ -13,7 +13,11 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreDotFiles(true)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->ignoreVCS(true);
+=======
+    ->ignoreVCS(true)
+>>>>>>> 5a14301c (.)
 =======
     ->ignoreVCS(true)
 >>>>>>> 5a14301c (.)
@@ -48,7 +52,11 @@ $config
     ])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->setFinder($finder);
+=======
+    ->setFinder($finder)
+>>>>>>> 5a14301c (.)
 =======
     ->setFinder($finder)
 >>>>>>> 5a14301c (.)

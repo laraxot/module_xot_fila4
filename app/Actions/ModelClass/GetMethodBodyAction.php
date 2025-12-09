@@ -26,8 +26,14 @@ class GetMethodBodyAction
         $source = file($file_name);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return implode('', \array_slice($source, $start_line, $length));
+=======
+        $body = implode('', \array_slice($source, $start_line, $length));
+
+        return $body;
+>>>>>>> 5a14301c (.)
 =======
         $body = implode('', \array_slice($source, $start_line, $length));
 

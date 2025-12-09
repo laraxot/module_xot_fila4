@@ -16,6 +16,7 @@ namespace Modules\Xot\Actions\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -34,6 +35,9 @@ use stdClass;
 =======
 use stdClass;
 >>>>>>> 5a14301c (.)
+=======
+use stdClass;
+>>>>>>> 5a14301c (.)
 use Exception;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
@@ -42,7 +46,10 @@ use ReflectionClass;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use stdClass;
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -56,8 +63,11 @@ class GetAllModelsByModuleNameAction
      * Execute the action.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return array<string, class-string>
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -66,6 +76,7 @@ class GetAllModelsByModuleNameAction
     public function execute(string $moduleName): array
     {
         $mod = Module::find($moduleName);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +132,8 @@ class GetAllModelsByModuleNameAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!($mod instanceof \Nwidart\Modules\Module)) {
             return [];
         }
@@ -132,6 +145,9 @@ class GetAllModelsByModuleNameAction
         $data = [];
         $ns = 'Modules\\' . $mod->getName() . '\\Models';
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -141,6 +157,7 @@ class GetAllModelsByModuleNameAction
             $ext = '.php';
             // dddx(['ext' => $file->getExtension(), get_class_methods($file)]);
             if (Str::endsWith($filename, $ext)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,11 +204,15 @@ class GetAllModelsByModuleNameAction
 =======
                 $tmp = new stdClass();
 >>>>>>> 9db27d12 (.)
+=======
+                $tmp = new stdClass();
+>>>>>>> 5a14301c (.)
                 $name = mb_substr($filename, 0, -mb_strlen($ext));
                 // dddx(['name' => $name, 'name1' => $file->getFilenameWithoutExtension()]);
                 /**
                  * @var class-string
                  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 $class = $ns.'\\'.$name;
@@ -207,6 +228,8 @@ class GetAllModelsByModuleNameAction
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
                 $class = $ns . '\\' . $name;
                 //if ($tmp !== null) {
                 $tmp->class = $class;
@@ -217,6 +240,7 @@ class GetAllModelsByModuleNameAction
                 try {
                     $reflection_class = new ReflectionClass($tmp->class);
                     if (!$reflection_class->isAbstract()) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,6 +278,8 @@ class GetAllModelsByModuleNameAction
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 5a14301c (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

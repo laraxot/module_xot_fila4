@@ -23,6 +23,7 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\WidgetConfiguration;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
@@ -127,6 +128,9 @@ use Spatie\Health\Checks\Check;
 =======
 use Spatie\Health\Checks\Check;
 >>>>>>> 9db27d12 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 5a14301c (.)
 use Spatie\Health\Checks\Checks\OptimizedAppCheck;
 use Spatie\Health\Checks\Checks\DebugModeCheck;
 use Spatie\Health\Checks\Checks\EnvironmentCheck;
@@ -158,6 +162,9 @@ use Spatie\Health\Commands\RunHealthChecksCommand;
 use Spatie\Health\Facades\Health;
 use Spatie\Health\ResultStores\ResultStore;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -179,7 +186,10 @@ class HealthPage extends Page
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<int, Check> $checks */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -198,7 +208,11 @@ class HealthPage extends Page
             HorizonCheck::new(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Checks\MeiliSearchCheck::new(),
+=======
+            //Checks\MeiliSearchCheck::new(),
+>>>>>>> 5a14301c (.)
 =======
             //Checks\MeiliSearchCheck::new(),
 >>>>>>> 5a14301c (.)
@@ -212,6 +226,7 @@ class HealthPage extends Page
             // Checks\PingCheck::new()->url('https://google.com')->name('Google'),
         ];
         if (class_exists(CpuLoadCheck::class)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $checks[] = CpuLoadCheck::new();
@@ -233,6 +248,8 @@ class HealthPage extends Page
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
             /** @var CpuLoadCheck $check */
             $check = CpuLoadCheck::new();
             $checks[] = $check;
@@ -248,6 +265,7 @@ class HealthPage extends Page
             $checks[] = $check;
         }
         /** @var array<Check> $checks */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -315,6 +333,8 @@ class HealthPage extends Page
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -326,9 +346,12 @@ class HealthPage extends Page
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<int, Action>
      */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -346,9 +369,12 @@ class HealthPage extends Page
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<int, WidgetConfiguration>
      */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -362,9 +388,12 @@ class HealthPage extends Page
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

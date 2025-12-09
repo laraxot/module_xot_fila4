@@ -14,7 +14,13 @@ use Illuminate\Database\Eloquent\Model;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class XotBaseBulkAction extends BulkAction {}
+=======
+abstract class XotBaseBulkAction extends BulkAction
+{
+}
+>>>>>>> 5a14301c (.)
 =======
 abstract class XotBaseBulkAction extends BulkAction
 {

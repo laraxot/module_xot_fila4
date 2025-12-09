@@ -32,14 +32,18 @@ class ViewDatabaseConfigCommand extends Command
      * Create a new command instance.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      *
      * @return void
      */
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,6 +141,8 @@ class ViewDatabaseConfigCommand extends Command
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 
     /**
      * Execute the console command.

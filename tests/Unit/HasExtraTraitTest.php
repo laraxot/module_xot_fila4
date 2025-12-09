@@ -12,6 +12,7 @@ namespace Modules\Xot\Tests\Unit;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 =======
@@ -48,6 +49,11 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Exception;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Contracts\ExtraContract;
 use Modules\Xot\Models\Traits\HasExtraTrait;
 use ReflectionClass;
@@ -59,6 +65,7 @@ describe('HasExtraTrait', function () {
         // Create a test model that uses the trait
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->testModel = new class extends Model
         {
             use HasExtraTrait;
@@ -68,11 +75,16 @@ describe('HasExtraTrait', function () {
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         $this->testModel = new class extends Model {
             use HasExtraTrait;
 
             protected $table = 'test_models';
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -88,10 +100,15 @@ describe('HasExtraTrait', function () {
         // Create a mock Extra class
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->extraClass = new class extends Model implements ExtraContract
         {
             protected $table = 'test_extras';
 
+=======
+        $this->extraClass = new class extends Model implements ExtraContract {
+            protected $table = 'test_extras';
+>>>>>>> 5a14301c (.)
 =======
         $this->extraClass = new class extends Model implements ExtraContract {
             protected $table = 'test_extras';
@@ -140,6 +157,7 @@ describe('HasExtraTrait', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mockExtra = new class
         {
 =======
@@ -148,6 +166,9 @@ describe('HasExtraTrait', function () {
 =======
         $mockExtra = new class {
 >>>>>>> 3fbbf1f5 (.)
+=======
+        $mockExtra = new class {
+>>>>>>> 5a14301c (.)
 =======
         $mockExtra = new class {
 >>>>>>> 5a14301c (.)
@@ -169,8 +190,12 @@ describe('HasExtraTrait', function () {
     it('handles different data types correctly', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mockExtra = new class
         {
+=======
+        $mockExtra = new class {
+>>>>>>> 5a14301c (.)
 =======
         $mockExtra = new class {
 >>>>>>> 5a14301c (.)
@@ -208,8 +233,12 @@ describe('HasExtraTrait', function () {
     it('throws exception for invalid data types', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mockExtra = new class
         {
+=======
+        $mockExtra = new class {
+>>>>>>> 5a14301c (.)
 =======
         $mockExtra = new class {
 >>>>>>> 5a14301c (.)
@@ -223,7 +252,11 @@ describe('HasExtraTrait', function () {
                 $this->extra_attributes = collect([
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'invalid_value' => new stdClass, // Object that's not allowed
+=======
+                    'invalid_value' => new stdClass(), // Object that's not allowed
+>>>>>>> 5a14301c (.)
 =======
                     'invalid_value' => new stdClass(), // Object that's not allowed
 >>>>>>> 5a14301c (.)
@@ -236,6 +269,7 @@ describe('HasExtraTrait', function () {
 
         $this->testModel->extra = $mockExtra;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -346,6 +380,9 @@ describe('HasExtraTrait', function () {
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+        expect(fn() => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
+>>>>>>> 5a14301c (.)
     });
 
     it('has setExtra method', function () {
@@ -404,6 +441,7 @@ describe('HasExtraTrait', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mockExtra = new class
         {
 =======
@@ -412,6 +450,9 @@ describe('HasExtraTrait', function () {
 =======
         $mockExtra = new class {
 >>>>>>> 3fbbf1f5 (.)
+=======
+        $mockExtra = new class {
+>>>>>>> 5a14301c (.)
 =======
         $mockExtra = new class {
 >>>>>>> 5a14301c (.)

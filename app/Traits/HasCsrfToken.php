@@ -13,6 +13,11 @@ trait HasCsrfToken
      * CSRF token for the current request.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @var string
+>>>>>>> 5a14301c (.)
 =======
      *
      * @var string
@@ -28,6 +33,11 @@ trait HasCsrfToken
      * Mount the component and set the CSRF token.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return void
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return void
@@ -46,6 +56,11 @@ trait HasCsrfToken
      * Get the CSRF token.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return string
@@ -64,6 +79,11 @@ trait HasCsrfToken
      * Verify if the CSRF token is valid.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return bool
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return bool

@@ -6,7 +6,11 @@ namespace Modules\Xot\Filament\Actions;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\Action as FilamentAction;
+=======
+use Filament\Actions\Action;
+>>>>>>> 5a14301c (.)
 =======
 use Filament\Actions\Action;
 >>>>>>> 5a14301c (.)
@@ -24,7 +28,13 @@ use Illuminate\Database\Eloquent\Model;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class XotBaseAction extends FilamentAction {}
+=======
+abstract class XotBaseAction extends Action
+{
+}
+>>>>>>> 5a14301c (.)
 =======
 abstract class XotBaseAction extends Action
 {

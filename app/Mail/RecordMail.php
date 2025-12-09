@@ -27,7 +27,11 @@ class RecordMail extends Mailable
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data  I dati del record
+=======
+     * @param array<string, mixed> $data I dati del record
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed> $data I dati del record
 >>>>>>> 5a14301c (.)

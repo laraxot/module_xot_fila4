@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Tests\Feature;
 
 <<<<<<< HEAD
@@ -39,10 +40,15 @@ namespace Modules\Xot\Tests\Feature;
 use Illuminate\Support\Facades\File;
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> 5a14301c (.)
 
 namespace Modules\Xot\Tests\Feature;
 
 use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 use PHPUnit\Framework\Attributes\Test;
 use Tests\TestCase;
@@ -59,6 +65,7 @@ class FixStructureTest extends TestCase
         parent::setUp();
 
         // Creiamo una directory temporanea per i test
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
@@ -107,6 +114,9 @@ class FixStructureTest extends TestCase
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+        $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
+>>>>>>> 5a14301c (.)
         mkdir($this->testDir, 0o755, true);
 
         // Impostiamo la directory di lavoro
@@ -132,6 +142,7 @@ class FixStructureTest extends TestCase
                 if ($object !== '.' && $object !== '..') {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (is_dir($dir.DIRECTORY_SEPARATOR.$object) && ! is_link($dir.'/'.$object)) {
                         $this->rrmdir($dir.DIRECTORY_SEPARATOR.$object);
                     } else {
@@ -139,10 +150,13 @@ class FixStructureTest extends TestCase
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
                     if (is_dir($dir . DIRECTORY_SEPARATOR . $object) && !is_link($dir . '/' . $object)) {
                         $this->rrmdir($dir . DIRECTORY_SEPARATOR . $object);
                     } else {
                         unlink($dir . DIRECTORY_SEPARATOR . $object);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,6 +259,8 @@ class FixStructureTest extends TestCase
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
                     }
                 }
             }
@@ -255,6 +271,7 @@ class FixStructureTest extends TestCase
     #[Test]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function test_move_to_app_functionality(): void
     {
         // Creiamo una struttura di directory di test
@@ -263,12 +280,17 @@ class FixStructureTest extends TestCase
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
     public function testMoveToAppFunctionality(): void
     {
         // Creiamo una struttura di directory di test
         mkdir($this->testDir . '/Actions', 0o755, true);
         file_put_contents($this->testDir . '/Actions/test.php', '<?php echo "test";');
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -276,6 +298,7 @@ class FixStructureTest extends TestCase
         // Copiamo lo script nella directory di test
         $script = base_path('../bashscripts/fix_structure.sh');
         $scriptContent = file_get_contents($script);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         file_put_contents($this->testDir.'/fix_structure.sh', $scriptContent);
@@ -299,6 +322,8 @@ class FixStructureTest extends TestCase
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
         chmod($this->testDir . '/fix_structure.sh', 0o755);
 
@@ -318,6 +343,9 @@ class FixStructureTest extends TestCase
         mkdir($this->testDir . '/Config', 0o755, true);
         file_put_contents($this->testDir . '/Config/test.php', '<?php echo "test";');
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -325,6 +353,7 @@ class FixStructureTest extends TestCase
         // Copiamo lo script nella directory di test
         $script = base_path('../bashscripts/fix_structure.sh');
         $scriptContent = file_get_contents($script);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         file_put_contents($this->testDir.'/fix_structure.sh', $scriptContent);
@@ -351,6 +380,8 @@ class FixStructureTest extends TestCase
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
         chmod($this->testDir . '/fix_structure.sh', 0o755);
 
@@ -373,6 +404,9 @@ class FixStructureTest extends TestCase
         mkdir($this->testDir . '/config', 0o755, true);
         file_put_contents($this->testDir . '/config/secondary.php', '<?php echo "secondary";');
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -380,6 +414,7 @@ class FixStructureTest extends TestCase
         // Copiamo lo script nella directory di test
         $script = base_path('../bashscripts/fix_structure.sh');
         $scriptContent = file_get_contents($script);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         file_put_contents($this->testDir.'/fix_structure.sh', $scriptContent);
@@ -397,6 +432,8 @@ class FixStructureTest extends TestCase
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
         chmod($this->testDir . '/fix_structure.sh', 0o755);
 
@@ -409,6 +446,7 @@ class FixStructureTest extends TestCase
         static::assertFileExists($this->testDir . '/config/secondary.php');
         static::assertDirectoryDoesNotExist($this->testDir . '/Config');
         static::assertDirectoryExists($this->testDir . '/config_old');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -507,5 +545,7 @@ class FixStructureTest extends TestCase
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
     }
 }

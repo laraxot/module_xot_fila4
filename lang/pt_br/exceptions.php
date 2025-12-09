@@ -5,7 +5,10 @@ declare(strict_types=1);
 return [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
     /*
@@ -16,6 +19,7 @@ return [
      * | The following language lines are used in Exceptions thrown throughout the system.
      * | Regardless where it is placed, a button can be listed here so it is easily
      * | found in a intuitive way.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,10 +179,13 @@ return [
 >>>>>>> 14edd1a1 (.)
 =======
 >>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 5a14301c (.)
      * |
      * |--------------------------------------------------------------------------
      */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,6 +209,8 @@ return [
 >>>>>>> 14edd1a1 (.)
 =======
 >>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 5a14301c (.)
     'backend' => [
         'access' => [
             'roles' => [

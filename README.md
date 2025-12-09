@@ -3,8 +3,13 @@
 [![PHP Version](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![Laravel Version](https://img.shields.io/badge/Laravel-12.x-orange.svg)](https://laravel.com)
 [![Filament Version](https://img.shields.io/badge/Filament-4.x-purple.svg)](https://filamentphp.com)
+=======
+[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange.svg)](https://laravel.com)
+[![Filament Version](https://img.shields.io/badge/Filament-3.x-purple.svg)](https://filamentphp.com)
+>>>>>>> 5a14301c (.)
 =======
 [![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange.svg)](https://laravel.com)
 [![Filament Version](https://img.shields.io/badge/Filament-3.x-purple.svg)](https://filamentphp.com)
@@ -123,6 +128,7 @@ class XotBaseResource extends Resource
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 🔧 Fix Testing Laravel 12
 
 Il modulo Xot include il trait `CreatesApplication` per tutti i test dei moduli:
@@ -134,6 +140,8 @@ Il modulo Xot include il trait `CreatesApplication` per tutti i test dei moduli:
 
 📚 **Documentazione Completa**: [Fix Testing Issues](docs/testing-fixes.md)
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -388,6 +396,7 @@ Siamo aperti a contribuzioni! 🎉
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 🔄 Changelog
 
 ### v2.1.0 - 2025-01-27
@@ -397,6 +406,8 @@ Siamo aperti a contribuzioni! 🎉
 - **📝 Documentazione**: Aggiornata documentazione per nuove icone
 - **🌍 Multi-lingua**: Aggiornate traduzioni per tutte le lingue supportate
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

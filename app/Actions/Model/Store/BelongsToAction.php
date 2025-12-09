@@ -38,6 +38,7 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -80,6 +81,9 @@ class BelongsToAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+        // dd([$relation->name]);
+>>>>>>> 5a14301c (.)
+=======
         // dd([$relation->name]);
 >>>>>>> 5a14301c (.)
 =======

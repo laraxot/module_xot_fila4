@@ -94,6 +94,7 @@ public function getTableColumns(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -155,10 +156,13 @@ public function getTableColumns(): array
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 6d05deed (.)
+=======
 <<<<<<< HEAD
 
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -253,6 +257,9 @@ public function getTableColumns(): array
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
 ## Nota storica: correzione XotBaseManageRelatedRecords
 
 - La classe XotBaseManageRelatedRecords è stata aggiornata per rispettare PHPStan livello 10.

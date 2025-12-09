@@ -72,6 +72,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -183,6 +184,14 @@ base_predict_fila3_mono/
 =======
 - **Documentazione Globale** (`/project_docs/`)
 >>>>>>> 90d386aa (.)
+=======
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
@@ -220,6 +229,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -331,6 +341,14 @@ base_predict_fila3_mono/
 =======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 >>>>>>> 90d386aa (.)
+=======
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -388,6 +406,7 @@ Quando si identifica una nuova regola o pattern importante:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      1. Aggiornare `Modules/[ModuleName]/docs/`
 <<<<<<< HEAD
 =======
@@ -411,6 +430,11 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+     1. Aggiornare `Modules/[ModuleName]/docs/`
+=======
+<<<<<<< HEAD
+>>>>>>> 6d05deed (.)
 1. Aggiornare `Modules/[ModuleName]/docs/`
 =======
      1. Aggiornare `Modules/[ModuleName]/docs/`
@@ -423,6 +447,7 @@ Quando si identifica una nuova regola o pattern importante:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
      1. Aggiornare `Modules/[ModuleName]/docs/`
@@ -449,10 +474,14 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
      2. Se rilevante, aggiungere riferimento in `/docs/`
 
    - Se regola globale:
      1. Aggiornare `/docs/`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -628,6 +657,14 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**

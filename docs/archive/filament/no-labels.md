@@ -162,6 +162,7 @@ Se trovi codice che viola questa regola:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
 =======
@@ -356,3 +357,12 @@ Se trovi codice che viola questa regola:
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 90d386aa (.)
+=======
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 6821f7a (.)
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 6d05deed (.)

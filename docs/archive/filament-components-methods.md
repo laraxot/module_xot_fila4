@@ -98,3 +98,7 @@ Tabs\Tab::make('tab_name')
 ## Collegamenti
 - [Filament Forms Documentation](https://filamentphp.com/docs/forms)
 - [Tabs Component](https://filamentphp.com/docs/forms/layout#tabs)
+<<<<<<< HEAD
+=======
+- [Best Practices](filament-best-practices.md) 
+>>>>>>> a5dccfe (.)

@@ -57,6 +57,7 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -176,3 +177,11 @@ Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati
 =======
 Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
 >>>>>>> 90d386aa (.)
+=======
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)

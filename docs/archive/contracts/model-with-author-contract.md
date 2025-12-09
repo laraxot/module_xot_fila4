@@ -188,6 +188,7 @@ class Article extends Model implements ModelWithAuthorContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Documentare eventuali personalizzazioni 
 >>>>>>> 5a14301c (.)
@@ -302,3 +303,8 @@ class Article extends Model implements ModelWithAuthorContract
 >>>>>>> 6e7c1905 (.)
 =======
 >>>>>>> 4fb9bc4b (.)
+=======
+=======
+- Documentare eventuali personalizzazioni 
+>>>>>>> a5dccfe (.)
+>>>>>>> 6d05deed (.)

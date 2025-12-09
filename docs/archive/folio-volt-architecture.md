@@ -85,6 +85,7 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -153,10 +154,13 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 6d05deed (.)
+=======
 <<<<<<< HEAD
 
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -259,6 +263,9 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
 ## Regole Fondamentali
 
 ### Case Sensitivity e Struttura delle Directory
@@ -602,6 +609,7 @@ new class extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -781,10 +789,13 @@ new class extends Component {
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 6d05deed (.)
+=======
 <<<<<<< HEAD
 
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 - [Grafici](../Chart/project_docs/charts.md)
@@ -1014,3 +1025,6 @@ new class extends Component {
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)

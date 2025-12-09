@@ -86,8 +86,8 @@ class ExecuteSqlFileCommand extends Command
      *
      * @return int
      */
-<<<<<<< HEAD
     public function handle(): int
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -136,6 +136,8 @@ class ExecuteSqlFileCommand extends Command
     public function handle()
 >>>>>>> c06600c (.)
 >>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');

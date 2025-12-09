@@ -10,9 +10,22 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 =======
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 use Modules\Xot\Filament\Resources\LogResource;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 5a14301c (.)
 
+=======
+
+
+
+
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+
+
+
+
+>>>>>>> f1d4085 (.)
 class CreateLog extends XotBaseCreateRecord
 {
     protected static string $resource = LogResource::class;

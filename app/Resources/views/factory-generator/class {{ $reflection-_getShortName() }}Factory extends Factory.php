@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -6,6 +7,8 @@ declare(strict_types=1);
 pace Database\Factories;
 =======
 ?>
+=======
+>>>>>>> f1d4085 (.)
 namespace Database\Factories;
 >>>>>>> 5a14301c (.)
 

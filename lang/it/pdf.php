@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -13,3 +14,14 @@ return [
         ],
     ],
 ];
+=======
+return array (
+  'fields' => 
+  array (
+    'pdf' => 
+    array (
+      'label' => 'pdf',
+    ),
+  ),
+);
+>>>>>>> f1d4085 (.)

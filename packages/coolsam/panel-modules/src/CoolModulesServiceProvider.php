@@ -15,23 +15,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 {
     /**
      * Traccia i panel che hanno già gli hook registrati.
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-     *
-=======
-     * 
->>>>>>> f1d4085 (.)
-=======
-     *
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-     *
->>>>>>> 300ef70 (.)
      * @var array<string, bool>
      */
     private static array $processedPanels = [];

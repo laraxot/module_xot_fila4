@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Code Quality - Xot Module
 
 > Last Updated: 2025-11-15 08:05:46
@@ -149,6 +150,8 @@ vendor/bin/phpstan analyse path/to/changed/file.php --level=10
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -228,8 +231,11 @@ This document outlines the best practices for maintaining high code quality with
 - [Naming Conventions](./NAMING-CONVENTIONS.md)
 - [Service Provider Best Practices](./SERVICE-PROVIDER-BEST-PRACTICES.md)
 - [Filament Best Practices](./FILAMENT-BEST-PRACTICES.md)
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 5a14301c (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -412,10 +418,14 @@ $content = \file_get_contents($path); // Può restituire false
 ### 1. PHPStan Pre-Commit
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 6cba4fe (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 
@@ -514,15 +524,22 @@ unset($translations['existing_key']); // MAI!
 **Data**: 2025-08-01  
 **Versione**: 2.0  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 =======
 **Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
 >>>>>>> a5dccfe (.)
+=======
+**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+>>>>>>> 5a14301c (.)
 
 ---
 
 *"Nel codice Laraxot, ogni riga è un verso della sinfonia dell'architettura perfetta."*
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)

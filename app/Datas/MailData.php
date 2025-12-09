@@ -14,6 +14,7 @@ class MailData extends Data
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $driver  Driver per l'invio delle email
      * @param  string  $host  Host SMTP
      * @param  int  $port  Porta SMTP
@@ -25,6 +26,8 @@ class MailData extends Data
      * @param  string|null  $reply_to  Indirizzo per le risposte
      * @param  bool  $verify_peer  Verifica certificato peer SSL
 =======
+=======
+>>>>>>> 5a14301c (.)
      * @param string $driver         Driver per l'invio delle email
      * @param string $host           Host SMTP
      * @param int         $port           Porta SMTP
@@ -35,6 +38,9 @@ class MailData extends Data
      * @param string $from_name      Nome mittente
      * @param string|null $reply_to       Indirizzo per le risposte
      * @param bool        $verify_peer    Verifica certificato peer SSL
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
      */
     public function __construct(
@@ -50,6 +56,7 @@ class MailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         public readonly ?string $reply_to = null,
 =======
 =======
@@ -61,23 +68,32 @@ class MailData extends Data
 =======
         public readonly null|string $reply_to = null,
 >>>>>>> 3fbbf1f5 (.)
+=======
+        public readonly null|string $reply_to = null,
+>>>>>>> 5a14301c (.)
         public readonly bool $verify_peer = true,
     ) {}
 
     /**
      * Create a new instance of MailData with default values.
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public static function make(): static
     {
         return new static;
 =======
+=======
+>>>>>>> 5a14301c (.)
      *
      * @return static
      */
     public static function make(): static
     {
         return new static();
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     }
 }

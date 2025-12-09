@@ -5,13 +5,19 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Traits;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
 =======
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Str;
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
 trait NavigationLabelTrait
@@ -60,6 +66,7 @@ trait NavigationLabelTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getNavigationSort(): ?int
 =======
     public static function getNavigationSort(): null|int
@@ -88,11 +95,15 @@ trait NavigationLabelTrait
 =======
     public static function getNavigationSort(): null|int
 >>>>>>> ca9324a4 (.)
+=======
+    public static function getNavigationSort(): null|int
+>>>>>>> 5a14301c (.)
     {
         $res = static::transFunc(__FUNCTION__);
 
         $value = intval($res);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +136,9 @@ trait NavigationLabelTrait
 =======
         if (0 === $value) {
 >>>>>>> ca9324a4 (.)
+=======
+        if (0 === $value) {
+>>>>>>> 5a14301c (.)
             $key = static::getKeyTransFunc(__FUNCTION__);
             $value = rand(1, 100);
             app(SaveTransAction::class)->execute($key, $value);

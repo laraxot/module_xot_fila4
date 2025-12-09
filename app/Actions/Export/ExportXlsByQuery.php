@@ -19,23 +19,30 @@ class ExportXlsByQuery
      * Esporta i risultati di una query in Excel.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Builder  $query  Query da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
      * @param  int|null  $limit  Limite di righe da esportare
 =======
+=======
+>>>>>>> 5a14301c (.)
      * @param Builder $query Query da esportare
      * @param string $filename Nome del file Excel
      * @param array<int, string> $fields Campi da includere nell'export
      * @param int|null $limit Limite di righe da esportare
      *
      * @return BinaryFileResponse
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
      */
     public function execute(
         Builder $query,
         string $filename = 'test.xlsx',
         array $fields = [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,6 +60,9 @@ class ExportXlsByQuery
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+        null|int $limit = null,
+>>>>>>> 5a14301c (.)
+=======
         null|int $limit = null,
 >>>>>>> 5a14301c (.)
     ): BinaryFileResponse {

@@ -5,6 +5,10 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Export;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Http\Response;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Http\Response;
 >>>>>>> 5a14301c (.)
@@ -22,15 +26,21 @@ class ExportXlsByLazyCollection
      * Esporta una lazy collection in Excel.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  LazyCollection  $collection  La lazy collection da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  array<int, string>  $fields  Campi da includere nell'export
 =======
+=======
+>>>>>>> 5a14301c (.)
      * @param LazyCollection $collection La lazy collection da esportare
      * @param string $filename Nome del file Excel
      * @param array<int, string> $fields Campi da includere nell'export
      *
      * @return BinaryFileResponse
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
      */
     public function execute(

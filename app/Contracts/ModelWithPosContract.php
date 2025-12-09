@@ -14,6 +14,7 @@ use Spatie\ModelStatus\Status;
  * Modules\Xot\Contracts\ModelWithPosContract.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $id
  * @property int|null $user_id
  * @property string|null $post_type
@@ -47,6 +48,8 @@ use Spatie\ModelStatus\Status;
  * @method array treeSons()
  * @method array toArray()
 =======
+=======
+>>>>>>> 5a14301c (.)
  * @property int                      $id
  * @property int|null                 $user_id
  * @property string|null              $post_type
@@ -79,6 +82,9 @@ use Spatie\ModelStatus\Status;
  * @method array     treeLabel()
  * @method array     treeSons()
  * @method array     toArray()
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
  * @method BelongsTo user()
  *
@@ -86,6 +92,7 @@ use Spatie\ModelStatus\Status;
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,3 +136,8 @@ interface ModelWithPosContract
 {
 }
 >>>>>>> ca9324a4 (.)
+=======
+interface ModelWithPosContract
+{
+}
+>>>>>>> 5a14301c (.)

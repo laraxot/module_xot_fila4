@@ -204,8 +204,11 @@ Il modulo Xot è il modulo core e potrebbe non necessitare di una dashboard trad
 **Ultimo aggiornamento**: Giugno 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)

@@ -12,6 +12,7 @@ namespace Modules\Xot\Exceptions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -24,10 +25,15 @@ use Override;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Override;
 use Exception;
 use Illuminate\Http\Response;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
 class ModelDeletionException extends ApplicationException
@@ -51,6 +57,7 @@ class ModelDeletionException extends ApplicationException
     public function help(): string
     {
         $res = trans('exception.model_not_deleted.help');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! \is_string($res)) {
@@ -93,6 +100,10 @@ class ModelDeletionException extends ApplicationException
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        if (!\is_string($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 5a14301c (.)
         }
 
         return $res;
@@ -105,6 +116,7 @@ class ModelDeletionException extends ApplicationException
             'id' => $this->id,
             'model' => $this->model,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! \is_string($res)) {
@@ -156,6 +168,10 @@ class ModelDeletionException extends ApplicationException
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        if (!\is_string($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 5a14301c (.)
         }
 
         return $res;

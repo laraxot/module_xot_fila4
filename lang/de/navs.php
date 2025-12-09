@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -33,6 +34,9 @@ declare(strict_types=1);
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+
+>>>>>>> 5a14301c (.)
 return [
     'general' => [
         'home' => [
@@ -52,7 +56,11 @@ return [
         'login' => [
             'label' => 'Login',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'icon' => 'ui-login',
+=======
+            'icon' => 'heroicon-o-login',
+>>>>>>> 5a14301c (.)
 =======
             'icon' => 'heroicon-o-login',
 >>>>>>> 5a14301c (.)

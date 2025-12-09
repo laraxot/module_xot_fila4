@@ -8,6 +8,7 @@ use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
@@ -22,10 +23,15 @@ use RuntimeException;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
 use Safe\filter;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
 use function Safe\ob_end_clean;
@@ -45,25 +51,35 @@ class XDebug extends Component
     ) {}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render(): View
     {
         /** @var view-string $view */
         $view = app(GetViewAction::class)->execute($this->tpl);
         /** @var array<string, string> $view_params */
 =======
+=======
+>>>>>>> 5a14301c (.)
     public function render(): Renderable
     {
         /**
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute($this->tpl);
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         $view_params = [
             'html' => $this->debugStack(),
         ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         \dddx($view_params);
+=======
+        dddx($view_params);
+>>>>>>> 5a14301c (.)
 =======
         dddx($view_params);
 >>>>>>> 5a14301c (.)
@@ -73,6 +89,7 @@ class XDebug extends Component
 
     public function debugStack(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +105,9 @@ class XDebug extends Component
 =======
         if (!extension_loaded('xdebug')) {
 >>>>>>> 3fbbf1f5 (.)
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 5a14301c (.)
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -107,6 +127,7 @@ class XDebug extends Component
         $out1 = ob_get_contents();
         ob_end_clean();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,5 +160,8 @@ class XDebug extends Component
 =======
         return is_string($out1) ? $out1 : ((string) $out1);
 >>>>>>> ca9324a4 (.)
+=======
+        return is_string($out1) ? $out1 : ((string) $out1);
+>>>>>>> 5a14301c (.)
     }
 }

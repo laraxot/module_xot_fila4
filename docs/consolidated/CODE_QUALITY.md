@@ -41,9 +41,12 @@ This document outlines the best practices for maintaining high code quality with
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
 ## Code Quality Tools
 
 ### Automation Scripts
@@ -59,9 +62,12 @@ This document outlines the best practices for maintaining high code quality with
 - Eseguire gli script di automazione regolarmente per mantenere la coerenza del codice
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
 ## Common Issues and Fixes
 - **Type Errors**: Ensure all methods and functions have explicit return types and parameter types to avoid type-related bugs.
 - **Static Analysis Failures**: Address PHPStan errors by refining code or updating the baseline for existing code.

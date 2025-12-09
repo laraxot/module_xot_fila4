@@ -3,6 +3,10 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a14301c (.)
 =======
 
 >>>>>>> 5a14301c (.)
@@ -10,6 +14,7 @@ return [
     'actions' => [
         'authenticate' => [
             'label' => 'authenticate',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'icon' => 'ui-authenticate',
             'tooltip' => 'authenticate',
@@ -24,12 +29,17 @@ return [
             'tooltip' => 'request',
             'icon' => 'request',
 =======
+=======
+>>>>>>> 5a14301c (.)
         ],
         'login' => [
             'label' => 'login',
         ],
         'request' => [
             'label' => 'request',
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         ],
         'activeLocale' => [
@@ -51,6 +61,7 @@ return [
             'label' => 'create',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hidePassword' => [
             'icon' => 'hidePassword',
             'label' => 'hidePassword',
@@ -61,6 +72,8 @@ return [
             'label' => 'showPassword',
             'tooltip' => 'showPassword',
         ],
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
     ],
@@ -304,7 +317,11 @@ return [
                 'label' => 'zeusData.2',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             [
+=======
+            4 => [
+>>>>>>> 5a14301c (.)
 =======
             4 => [
 >>>>>>> 5a14301c (.)

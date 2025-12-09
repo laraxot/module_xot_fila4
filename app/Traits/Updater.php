@@ -25,7 +25,13 @@ trait Updater
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Get the user who created the model.
+=======
+     * Summary of creator.
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+>>>>>>> 5a14301c (.)
 =======
      * Summary of creator.
      *
@@ -38,6 +44,7 @@ trait Updater
         $profileClass = XotData::make()->getProfileClass();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         // @phpstan-ignore return.type
 <<<<<<< HEAD
@@ -50,12 +57,20 @@ trait Updater
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        // @phpstan-ignore return.type
+>>>>>>> 5a14301c (.)
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
     }
 
     /**
      * Get the last user who updated the model.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return BelongsTo<ProfileContract&Model, static>
+>>>>>>> 5a14301c (.)
 =======
      *
      * @return BelongsTo<ProfileContract&Model, static>
@@ -67,6 +82,7 @@ trait Updater
         $profileClass = XotData::make()->getProfileClass();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         // @phpstan-ignore return.type
 <<<<<<< HEAD
@@ -79,10 +95,14 @@ trait Updater
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        // @phpstan-ignore return.type
+>>>>>>> 5a14301c (.)
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Get the user who deleted the model.
      */
@@ -95,6 +115,8 @@ trait Updater
     }
 
     /**
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      * bootUpdater function.
@@ -126,7 +148,11 @@ trait Updater
          */
         static::deleting(static function (Model $model): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
             Assert::isArray($attributes = $model->getAttributes());
+=======
+            Assert::isArray($attributes = $model->attributes);
+>>>>>>> 5a14301c (.)
 =======
             Assert::isArray($attributes = $model->attributes);
 >>>>>>> 5a14301c (.)

@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Documentazione
 
 Questo documento serve come indice centrale per tutta la documentazione del progetto.
@@ -46,6 +49,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -83,3 +87,5 @@ Le linee guida complete per la documentazione sono disponibili in:
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)

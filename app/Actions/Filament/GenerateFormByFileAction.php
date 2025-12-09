@@ -11,6 +11,7 @@ namespace Modules\Xot\Actions\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use ReflectionClass;
@@ -22,10 +23,13 @@ use ReflectionClass;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use ReflectionClass;
 use Filament\Resources\Resource;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +59,8 @@ use function Safe\file;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Finder\SplFileInfo as File;
 use Webmozart\Assert\Assert;
@@ -68,6 +74,7 @@ class GenerateFormByFileAction
     /**
      * Genera un form Filament basato su un file di risorsa.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  File  $file  Il file della risorsa Filament
 =======
@@ -98,10 +105,15 @@ class GenerateFormByFileAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+     * @param File $file Il file della risorsa Filament
+     *
+>>>>>>> 5a14301c (.)
      * @return int Numero di input aggiunti
      */
     public function execute(File $file): int
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,10 +134,13 @@ class GenerateFormByFileAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!$file->isFile()) {
             return 0;
         }
         if (!\in_array($file->getExtension(), ['php'], false)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +170,8 @@ class GenerateFormByFileAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             return 0;
         }
 
@@ -162,7 +179,11 @@ class GenerateFormByFileAction
         Assert::string(
             $class_name = Str::replace('/', '\\', $class_name),
 <<<<<<< HEAD
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename($this).']',
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 5a14301c (.)
 =======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)
@@ -173,17 +194,23 @@ class GenerateFormByFileAction
         Assert::classExists($class_name);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var object $resourceInstance */
         $resourceInstance = app($class_name);
 
         // Verifichiamo che il metodo getModel esista
         if (! method_exists($resourceInstance, 'getModel')) {
 =======
+=======
+>>>>>>> 5a14301c (.)
         /** @var Resource $resourceInstance */
         $resourceInstance = app($class_name);
 
         // Verifichiamo che il metodo getModel esista
         if (!method_exists($resourceInstance, 'getModel')) {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
             return 0;
         }
@@ -199,7 +226,11 @@ class GenerateFormByFileAction
 
         // Verifichiamo che il metodo getFillable esista
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! method_exists($modelInstance, 'getFillable')) {
+=======
+        if (!method_exists($modelInstance, 'getFillable')) {
+>>>>>>> 5a14301c (.)
 =======
         if (!method_exists($modelInstance, 'getFillable')) {
 >>>>>>> 5a14301c (.)
@@ -212,7 +243,11 @@ class GenerateFormByFileAction
 
         // Verifichiamo che il metodo form esista
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $reflection_class->hasMethod('form')) {
+=======
+        if (!$reflection_class->hasMethod('form')) {
+>>>>>>> 5a14301c (.)
 =======
         if (!$reflection_class->hasMethod('form')) {
 >>>>>>> 5a14301c (.)
@@ -224,6 +259,7 @@ class GenerateFormByFileAction
         // it's actually - 1, otherwise you wont get the function() block
         $end_line = $form_method->getEndLine();
         $length = $end_line - $start_line;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +280,9 @@ class GenerateFormByFileAction
 =======
         Assert::string($file_name = $form_method->getFileName(), '[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 3fbbf1f5 (.)
+=======
+        Assert::string($file_name = $form_method->getFileName(), '[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 5a14301c (.)
         // $contents= $file->getContents();
         $source = file($file_name);
         $body = implode('', \array_slice($source, $start_line, $length));
@@ -251,6 +290,7 @@ class GenerateFormByFileAction
         // Otteniamo i metodi della classe risorsa
         $resourceMethods = get_class_methods($resourceInstance);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,6 +346,8 @@ class GenerateFormByFileAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         dd([
             'class_name' => $class_name,
             'model_name' => $modelClass,
@@ -316,12 +358,16 @@ class GenerateFormByFileAction
             'form_method_methods' => get_class_methods($form_method),
             'body' => $body,
         ]);
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     }
 
     /**
      * Mostra informazioni di debug su un file.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  File  $file  Il file da analizzare
      */
@@ -330,18 +376,24 @@ class GenerateFormByFileAction
         // Debug information - commented out for production
         /*
 =======
+=======
+>>>>>>> 5a14301c (.)
      * @param File $file Il file da analizzare
      *
      * @return void
      */
     public function ddFile(File $file): void
     {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         dd([
             'getRelativePath' => $file->getRelativePath(), // =  ""
             'getRelativePathname' => $file->getRelativePathname(), //  AssenzeResource.php
             'getFilenameWithoutExtension' => $file->getFilenameWithoutExtension(), // AssenzeResource
             // 'getContents' => $file->getContents(),
+<<<<<<< HEAD
 <<<<<<< HEAD
             'getPath' => $file->getPath(),
             'getFilename' => $file->getFilename(), // = AssenzeResource.php
@@ -351,6 +403,8 @@ class GenerateFormByFileAction
             'isFile' => $file->isFile(), // true
             'getRealPath' => $file->getRealPath(),
 =======
+=======
+>>>>>>> 5a14301c (.)
             'getPath' => $file->getPath(), // = /var/www/html/ptvx/laravel/Modules/Progressioni/Filament/Resources
             'getFilename' => $file->getFilename(), // = AssenzeResource.php
             'getExtension' => $file->getExtension(), // php
@@ -358,13 +412,19 @@ class GenerateFormByFileAction
             'getPathname' => $file->getPathname(), // "/var/www/html/ptvx/laravel/Modules/Progressioni/Filament/resources/AssenzeResource.php
             'isFile' => $file->isFile(), // true
             'getRealPath' => $file->getRealPath(), // /var/www/html/ptvx/laravel/Modules/Progressioni/Filament/resources/AssenzeResource.php
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
             // 'getFileInfo' => $file->getFileInfo(),
             // 'getPathInfo' => $file->getPathInfo(),
             'methods' => get_class_methods($file),
         ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
         */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
     }

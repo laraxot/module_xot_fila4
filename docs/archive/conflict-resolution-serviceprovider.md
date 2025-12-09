@@ -29,10 +29,14 @@ Questa scelta garantisce:
 - [Best Practices Provider](./BEST-PRACTICES.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 - [docs/links.md globale](../../../../docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../docs/links.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -64,3 +68,7 @@ Questa scelta garantisce:
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
 >>>>>>> 399f46d3 (.)
+=======
+- [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
+- [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
+>>>>>>> 5a14301c (.)

@@ -3,6 +3,10 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a14301c (.)
 =======
 
 >>>>>>> 5a14301c (.)
@@ -13,6 +17,7 @@ return [
             'heading' => '',
         ],
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
     'actions' => [
         'logout' => [
@@ -31,6 +36,8 @@ return [
             'tooltip' => 'il-mio-profilo',
         ],
     ],
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 ];

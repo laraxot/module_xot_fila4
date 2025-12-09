@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
+<<<<<<< HEAD
 use Throwable;
 use Exception;
 <<<<<<< HEAD
@@ -23,6 +24,9 @@ use function Safe\json_encode;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 =======
+=======
+use Exception;
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 use Filament\Facades\Filament;
@@ -34,6 +38,9 @@ use Modules\Tenant\Services\TenantService;
 use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use function Safe\json_encode;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
 /**
@@ -55,6 +62,7 @@ class GetModulesNavigationItems
 
         $modules = TenantService::allModules();
 <<<<<<< HEAD
+<<<<<<< HEAD
         // TenantService::allModules() restituisce sempre array
         // Pre-load user roles to avoid N+1 queries
         /** @var Authenticatable|null $user */
@@ -69,6 +77,8 @@ class GetModulesNavigationItems
                 $userRoles = $rolesCollection->toArray();
             } catch (Exception $e) {
 =======
+=======
+>>>>>>> 5a14301c (.)
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
 
         // Pre-load user roles to avoid N+1 queries
@@ -80,11 +90,15 @@ class GetModulesNavigationItems
                 $userRoles = $user->roles()->pluck('name')->toArray();
             } catch (Exception $e) {
                 
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
                 $userRoles = [];
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         
@@ -100,12 +114,17 @@ class GetModulesNavigationItems
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        
+       
+>>>>>>> 5a14301c (.)
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');
 
             $module_low = Str::lower($module);
             Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             // Tolleranza: durante comandi CLI alcuni moduli possono non avere ancora struttura completa
             try {
@@ -119,12 +138,17 @@ class GetModulesNavigationItems
             // Verifichiamo che il file esista
             if (! File::exists($configFilePath)) {
 =======
+=======
+>>>>>>> 5a14301c (.)
             $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
             $configFilePath = $configPath . '/config.php';
 
             // Verifichiamo che il file esista
             if (!File::exists($configFilePath)) {
               
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
                 continue;
             }
@@ -143,8 +167,13 @@ class GetModulesNavigationItems
             Assert::string($icon, "L'icona deve essere una stringa");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // $role è sempre stringa non vuota (concatenazione di stringhe non vuote), check ridondante rimosso
             $role = $module_low.'::admin';
+=======
+            $role = $module_low . '::admin';
+            Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
+>>>>>>> 5a14301c (.)
 =======
             $role = $module_low . '::admin';
             Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
@@ -155,6 +184,7 @@ class GetModulesNavigationItems
             $navigation_sort = (int) $navigation_sort;
 
             // Check role using pre-loaded roles instead of hasRole() method
+<<<<<<< HEAD
 <<<<<<< HEAD
             /*
              $hasRole = in_array($role, $userRoles, true);
@@ -176,6 +206,8 @@ class GetModulesNavigationItems
             $nav = NavigationItem::make($module)
                 ->url('/'.$module_low.'/admin')
 =======
+=======
+>>>>>>> 5a14301c (.)
            /*
             $hasRole = in_array($role, $userRoles, true);
 
@@ -195,15 +227,21 @@ class GetModulesNavigationItems
             // Creiamo l'elemento di navigazione
             $nav = NavigationItem::make($module)
                 ->url('/' . $module_low . '/admin')
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
                 ->icon($icon)
                 ->group('Modules')
                 ->sort($navigation_sort)
                 ->visible(static function () use ($role): bool {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     /**
                      * @var Authenticatable|null $user
                      */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
                     $user = Filament::auth()->user();
@@ -213,17 +251,23 @@ class GetModulesNavigationItems
 
                     // Verifichiamo che il metodo hasRole esista
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (! method_exists($user, 'hasRole')) {
                         return false;
                     }
 
                     return $user->hasRole($role);
 =======
+=======
+>>>>>>> 5a14301c (.)
                     if (!method_exists($user, 'hasRole')) {
                         return false;
                     }
 
                     return (bool) $user->hasRole($role);
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
                 });
 
@@ -243,6 +287,7 @@ class GetModulesNavigationItems
     {
         $modules = TenantService::allModules();
 <<<<<<< HEAD
+<<<<<<< HEAD
         // TenantService::allModules() restituisce sempre array
 
         $cacheKey = 'xot:navigation:modules:'.md5((string) json_encode($modules));
@@ -251,6 +296,8 @@ class GetModulesNavigationItems
         $cached = Cache::get($cacheKey);
         if (\is_array($cached)) {
 =======
+=======
+>>>>>>> 5a14301c (.)
         Assert::isArray($modules);
 
         $cacheKey = 'xot:navigation:modules:' . md5(json_encode($modules));
@@ -258,14 +305,22 @@ class GetModulesNavigationItems
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $cached */
         $cached = Cache::get($cacheKey);
         if (is_array($cached)) {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
             return $cached;
         }
 
         // Se non presente in cache, rigenera usando la stessa logica di execute()
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<int, array{module: string, module_low: string, icon: string, sort: int}> $result */
         $result = Cache::remember($cacheKey, now()->addMinutes(10), static function () use ($modules): array {
+=======
+        /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
+        $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
+>>>>>>> 5a14301c (.)
 =======
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
         $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
@@ -277,8 +332,13 @@ class GetModulesNavigationItems
                 Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $configFilePath = $configPath.'/config.php';
                 if (! File::exists($configFilePath)) {
+=======
+                $configFilePath = $configPath . '/config.php';
+                if (!File::exists($configFilePath)) {
+>>>>>>> 5a14301c (.)
 =======
                 $configFilePath = $configPath . '/config.php';
                 if (!File::exists($configFilePath)) {
@@ -302,16 +362,22 @@ class GetModulesNavigationItems
                 ];
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             return $out;
         });
 
         return $result;
 =======
+=======
+>>>>>>> 5a14301c (.)
             return $out;
         });
 
         return $regen;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     }
 }

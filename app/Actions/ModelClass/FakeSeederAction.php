@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\ModelClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use InvalidArgumentException;
 use RuntimeException;
@@ -26,14 +27,21 @@ use RuntimeException;
 use InvalidArgumentException;
 use RuntimeException;
 >>>>>>> ca9324a4 (.)
+=======
+use InvalidArgumentException;
+use RuntimeException;
+>>>>>>> 5a14301c (.)
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use InvalidArgumentException;
 use RuntimeException;
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
@@ -51,8 +59,13 @@ class FakeSeederAction
      * Execute the fake data seeding process.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass  The fully qualified model class name
      * @param  int<1, max>  $qty  Number of records to generate
+=======
+     * @param class-string<Model> $modelClass The fully qualified model class name
+     * @param int<1, max>         $qty        Number of records to generate
+>>>>>>> 5a14301c (.)
 =======
      * @param class-string<Model> $modelClass The fully qualified model class name
      * @param int<1, max>         $qty        Number of records to generate
@@ -64,9 +77,15 @@ class FakeSeederAction
     {
         if (
 <<<<<<< HEAD
+<<<<<<< HEAD
             ! class_exists($modelClass) ||
                 ! is_subclass_of($modelClass, Model::class) ||
                 ! in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
+=======
+            !class_exists($modelClass) ||
+                !is_subclass_of($modelClass, Model::class) ||
+                !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
+>>>>>>> 5a14301c (.)
 =======
             !class_exists($modelClass) ||
                 !is_subclass_of($modelClass, Model::class) ||
@@ -106,7 +125,11 @@ class FakeSeederAction
      * Get the model factory.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass
+=======
+     * @param class-string<Model> $modelClass
+>>>>>>> 5a14301c (.)
 =======
      * @param class-string<Model> $modelClass
 >>>>>>> 5a14301c (.)
@@ -126,8 +149,13 @@ class FakeSeederAction
      * Send a notification about the seeding completion.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass
      * @param  int<1, max>  $count
+=======
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $count
+>>>>>>> 5a14301c (.)
 =======
      * @param class-string<Model> $modelClass
      * @param int<1, max>         $count
@@ -146,8 +174,13 @@ class FakeSeederAction
      * Queue remaining records for processing.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  class-string<Model>  $modelClass
      * @param  int<1, max>  $qty
+=======
+     * @param class-string<Model> $modelClass
+     * @param int<1, max>         $qty
+>>>>>>> 5a14301c (.)
 =======
      * @param class-string<Model> $modelClass
      * @param int<1, max>         $qty

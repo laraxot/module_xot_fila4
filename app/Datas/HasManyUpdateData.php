@@ -11,7 +11,11 @@ class HasManyUpdateData extends Data
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<int|string>  $ids
+=======
+     * @param array<int|string> $ids
+>>>>>>> 5a14301c (.)
 =======
      * @param array<int|string> $ids
 >>>>>>> 5a14301c (.)

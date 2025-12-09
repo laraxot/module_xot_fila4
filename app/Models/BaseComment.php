@@ -12,7 +12,11 @@ use Illuminate\Database\Eloquent\Model;
  * Base class for comments extending Eloquent Model.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseComment extends BaseModel
+=======
+abstract class BaseComment extends Model
+>>>>>>> 5a14301c (.)
 =======
 abstract class BaseComment extends Model
 >>>>>>> 5a14301c (.)

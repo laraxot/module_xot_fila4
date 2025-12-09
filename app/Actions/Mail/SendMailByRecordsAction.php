@@ -14,13 +14,19 @@ class SendMailByRecordsAction
     /**
      * Undocumented function.
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function execute(Collection $records, string $mail_class): bool
 =======
+=======
+>>>>>>> 5a14301c (.)
      *
      * @return bool
      */
     public function execute(Collection $records, string $mail_class)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     {
         foreach ($records as $record) {

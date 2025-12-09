@@ -15,6 +15,7 @@ use Spatie\ModelStatus\Status;
  * Modules\Xot\Contracts\ModelWithStatusContract.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $id
  * @property int|null $user_id
  * @property string|null $post_type
@@ -47,6 +48,8 @@ use Spatie\ModelStatus\Status;
  * @method array treeSons()
  * @method array toArray()
 =======
+=======
+>>>>>>> 5a14301c (.)
  * @property int                      $id
  * @property int|null                 $user_id
  * @property string|null              $post_type
@@ -78,6 +81,9 @@ use Spatie\ModelStatus\Status;
  * @method array     treeLabel()
  * @method array     treeSons()
  * @method array     toArray()
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
  * @method BelongsTo user()
  *
@@ -89,6 +95,7 @@ interface ModelWithStatusContract
 {
     public function statuses(): MorphMany;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,4 +145,9 @@ interface ModelWithStatusContract
 
     public function setStatus(string $name, null|string $reason = null): self;
 >>>>>>> ca9324a4 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 5a14301c (.)
 }

@@ -9,9 +9,12 @@ use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\Cache;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @extends Factory<Cache>
  */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 class CacheFactory extends Factory
@@ -20,7 +23,11 @@ class CacheFactory extends Factory
      * The name of the factory's corresponding model.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @var class-string<Cache>
+=======
+     * @var class-string<Model>
+>>>>>>> 5a14301c (.)
 =======
      * @var class-string<Model>
 >>>>>>> 5a14301c (.)

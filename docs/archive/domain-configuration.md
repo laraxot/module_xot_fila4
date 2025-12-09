@@ -82,6 +82,9 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Struttura Temi](themes.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 - [Linee Guida per i Loghi](../../../docs/standards/logo_guidelines.md)
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Progetto](../../../docs/standards/README.md)
@@ -91,6 +94,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -117,6 +121,8 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Gestione Temi](../../Cms/project_docs/themes.md)
 
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 ## Collegamenti Correlati
 - [Configurazione Moduli](MODULE_CONFIGURATION.md)
 - [Gestione Risorse](ASSETS.md)
@@ -126,12 +132,16 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 ## Vedi Anche
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 - [Documentazione UI](../../UI/docs/configuration.md)
 - [Documentazione Media](../../Media/docs/assets.md)
 - [Documentazione Temi](../../Cms/docs/theming.md)
 - [Standard Interfaccia](../../../docs/standards/interface_guidelines.md)
 - [Best Practices](../../../docs/standards/best_practices.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -158,6 +168,8 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Best Practices](../../../project_docs/standards/best_practices.md)
 
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Configurazione Basata sul Dominio
 
 ## Introduzione
@@ -231,6 +243,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Gestione Asset](assets.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Struttura Temi](themes.md) 
 =======
@@ -240,3 +253,6 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 =======
 - [Struttura Temi](themes.md) 
 >>>>>>> 399f46d3 (.)
+=======
+- [Struttura Temi](themes.md) 
+>>>>>>> 5a14301c (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## stato analisi phpstan
 
 - **data**: 2025-11-12  
@@ -12,10 +13,13 @@
 - proseguire con la normalizzazione dei file in `docs/` (evitare duplicati e nomi non conformi);
 - verificare dopo ogni refactor che gli helper condivisi rispettino la tipizzazione stretta.
 =======
+=======
+>>>>>>> 5a14301c (.)
 # PHPStan Analysis Report - 18 Agosto 2025
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 **NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
@@ -29,6 +33,11 @@
 **NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+**NON è stato modificato** `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
 
 ## Analisi Completa
 
@@ -217,6 +226,9 @@ class MyModel extends BaseModel
 **Stato**: 🔄 Analisi Completata - Correzioni in Corso  
 **phpstan.neon**: ✅ INTOCCATO  
 **Approccio**: DRY + KISS + Type Safety
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)

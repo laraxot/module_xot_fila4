@@ -25,6 +25,7 @@ trait HasCustomRelations
         string $related,
         Closure $baseConstraints,
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?Closure $eagerConstraints = null,
         ?Closure $eagerMatcher = null,
     ): CustomRelation {
@@ -32,12 +33,15 @@ trait HasCustomRelations
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '['.__LINE__.']['.class_basename($this).']');
 =======
+=======
+>>>>>>> 5a14301c (.)
         null|Closure $eagerConstraints = null,
         null|Closure $eagerMatcher = null,
     ): CustomRelation {
         $instance = new $related();
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +76,8 @@ trait HasCustomRelations
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         $query = $instance->newQuery();
 
         return new CustomRelation($query, $this, $baseConstraints, $eagerConstraints, $eagerMatcher);

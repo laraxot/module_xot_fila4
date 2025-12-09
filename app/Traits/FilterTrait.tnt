@@ -173,6 +173,10 @@ function ($item, $key) use ($lang) {
                 $value = $params[$key];
                 //self::indexIfNotExistsStatic($el, $tbl, $conn);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                //dd(new self);
+>>>>>>> 5a14301c (.)
 =======
                 //dd(new self);
 >>>>>>> 5a14301c (.)
@@ -233,6 +237,10 @@ function ($item, $key) use ($lang) {
         //$dbSchemaManager = $conn->getDoctrineSchemaManager();
         //$doctrineTable = $dbSchemaManager->listTableDetails($tbl);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        //dd($doctrineTable);
+>>>>>>> 5a14301c (.)
 =======
         //dd($doctrineTable);
 >>>>>>> 5a14301c (.)
@@ -243,12 +251,18 @@ function ($item, $key) use ($lang) {
         $trad = \explode('\\', __CLASS__);
         $trad = \mb_strtolower($trad[1]);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $lang = trans($trad.'::'.$tbl);
 =======
+=======
+>>>>>>> 5a14301c (.)
         //dd($params);
         //dd($trad.'::'.$tbl);
         $lang = trans($trad.'::'.$tbl);
         //dd($lang);
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
         if (! \is_array($lang)) {
@@ -257,7 +271,13 @@ function ($item, $key) use ($lang) {
 
         $trans_file = $trad.'::link_'.$tbl;
 <<<<<<< HEAD
+<<<<<<< HEAD
         $lang_link = trans($trans_file);
+=======
+        //dd($trans_file);
+        $lang_link = trans($trans_file);
+        //dd($lang_link);
+>>>>>>> 5a14301c (.)
 =======
         //dd($trans_file);
         $lang_link = trans($trans_file);
@@ -270,15 +290,21 @@ function ($item, $key) use ($lang) {
         $lang = \array_flip($lang);
         //echo '<pre>';print_r($lang);echo '</pre>';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         //echo '<pre>';print_r($lang);echo '</pre>';
         $parz = collect(\array_keys($params));
 =======
+=======
+>>>>>>> 5a14301c (.)
         //dd(get_class());
 
         //echo '<pre>';print_r($lang);echo '</pre>';
         $parz = collect(\array_keys($params));
         //dd($parz);
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         $parz = $parz->map(
 function ($item, $key) use ($lang) {
@@ -290,6 +316,10 @@ function ($item, $key) use ($lang) {
         });
         $intersect = $fields->intersect($parz);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        //dd($intersect);
+>>>>>>> 5a14301c (.)
 =======
         //dd($intersect);
 >>>>>>> 5a14301c (.)
@@ -308,6 +338,10 @@ function ($item, $key) use ($lang) {
                 $value = $params[$key];
                 //self::indexIfNotExistsStatic($el, $tbl, $conn);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                //dd(new self);
+>>>>>>> 5a14301c (.)
 =======
                 //dd(new self);
 >>>>>>> 5a14301c (.)
@@ -322,6 +356,12 @@ function ($item, $key) use ($lang) {
             $rows = $rows->whereRaw($lang['ann'].'=""');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        //dd(self::$single_date);
+        //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));
+        //dd(trans($trad.'::'.$tbl.'.single_date'));
+>>>>>>> 5a14301c (.)
 =======
         //dd(self::$single_date);
         //dd(\Lang::has($trad.'::'.$tbl.'.single_date'));

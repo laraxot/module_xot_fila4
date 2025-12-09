@@ -21,6 +21,7 @@ class SetDefaultLocaleForUrls
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Closure(Request):Response  $next
 =======
 =======
@@ -29,13 +30,20 @@ class SetDefaultLocaleForUrls
 >>>>>>> ca9324a4 (.)
      * @param Closure(Request):Response $next
 >>>>>>> 5a14301c (.)
+=======
+     * @param Closure(Request):Response $next
+>>>>>>> 5a14301c (.)
      */
     public function handle(Request $request, Closure $next): Response
     {
         $user = $request->user();
         $lang = app()->getLocale();
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($user !== null) {
+=======
+        if (null !== $user) {
+>>>>>>> 5a14301c (.)
 =======
         if (null !== $user) {
 >>>>>>> 5a14301c (.)

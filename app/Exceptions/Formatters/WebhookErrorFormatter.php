@@ -7,6 +7,7 @@ namespace Modules\Xot\Exceptions\Formatters;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Auth;
 use Throwable;
 =======
@@ -14,6 +15,10 @@ use Throwable;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+>>>>>>> 5a14301c (.)
+=======
 use Throwable;
 use Illuminate\Support\Facades\Auth;
 >>>>>>> 5a14301c (.)

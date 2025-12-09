@@ -49,6 +49,7 @@ npm run copy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
@@ -69,6 +70,11 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
 =======
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 >>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+>>>>>>> 5a14301c (.)
 npm install          # Prima volta
 npm run build        # Compila Sass/JS
 npm run copy         # Copia in /public/
@@ -80,6 +86,7 @@ npm run copy         # Copia in /public/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
@@ -100,6 +107,11 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two
 =======
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
 >>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+>>>>>>> 5a14301c (.)
 npm install
 npm run build
 npm run copy
@@ -144,6 +156,7 @@ export default defineConfig({
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
 =======
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
@@ -151,3 +164,6 @@ export default defineConfig({
 =======
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
 >>>>>>> 399f46d3 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 5a14301c (.)

@@ -22,17 +22,21 @@ class GetTransKeyAction
         $class0 = $class;
         // If no class is provided, try to get it from the backtrace
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($class === '') {
             /** @var list<array{function: string, line?: int, file?: string, class?: class-string, type?: '->'|'::', args?: list<mixed>, object?: object}> $backtrace PHPStan knows this is always array */
             $backtrace = debug_backtrace();
             $class = Arr::get($backtrace, '1.class');
             Assert::string($class, '['.__LINE__.']['.class_basename($this).']');
 =======
+=======
+>>>>>>> 5a14301c (.)
         if ('' === $class) {
             $backtrace = debug_backtrace();
             Assert::isArray($backtrace);
             $class = Arr::get($backtrace, '1.class');
             Assert::string($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58,11 +62,14 @@ class GetTransKeyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         }
 
         $arr = explode('\\', $class);
 
         // Handle cases where the provided class is not in the "Modules" namespace
+<<<<<<< HEAD
 <<<<<<< HEAD
         if ($arr[0] !== 'Modules') {
             $backtrace = array_slice(debug_backtrace(), 2);
@@ -75,6 +82,8 @@ class GetTransKeyAction
                 $page = Arr::get(debug_backtrace(), '0.args.0');
                 Assert::string($page, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 =======
+=======
+>>>>>>> 5a14301c (.)
         if ('Modules' !== $arr[0]) {
             $backtrace = array_slice(debug_backtrace(), 2);
             $res = Arr::first(
@@ -87,6 +96,7 @@ class GetTransKeyAction
             if (null === $res || !isset($res['object'])) {
                 $page = Arr::get(debug_backtrace(), '0.args.0');
                 Assert::string($page, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,12 +138,15 @@ class GetTransKeyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
                 $main_module = XotData::make()->main_module;
                 $main_module_low = mb_strtolower($main_module);
                 $page_arr = explode('\\', $page);
                 $page_arr_count = count($page_arr);
                 $page_arr_last = $page_arr[$page_arr_count - 1];
                 $page_arr_last_snake = Str::of($page_arr_last)->snake()->toString();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,6 +160,11 @@ class GetTransKeyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+                $tmp = $main_module_low . '::' . $page_arr_last_snake;
+
+                return $tmp;
+>>>>>>> 5a14301c (.)
+=======
                 $tmp = $main_module_low . '::' . $page_arr_last_snake;
 
                 return $tmp;
@@ -180,6 +198,7 @@ class GetTransKeyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (in_array($first, ['dashboard', 'list', 'get', 'manage', 'edit', 'view'], strict: true)) {
             $class_snake = implode('_', array_slice($arr, 1));
         }
@@ -197,11 +216,14 @@ class GetTransKeyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         if (in_array($first, ['dashboard', 'list', 'get', 'manage'], strict: true)) {
             $class_snake = implode('_', array_slice($arr, 1));
         }
         if (in_array($last, ['action'], strict: true)) {
             $class_snake = Str::beforeLast($class_snake, '_' . $last);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,6 +255,8 @@ class GetTransKeyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         }
 
         if (Str::endsWith($class_snake, 'form_schema')) {
@@ -251,6 +275,7 @@ class GetTransKeyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $module_low.'::'.$class_snake;
 =======
 =======
@@ -259,6 +284,11 @@ class GetTransKeyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+        $tmp = $module_low . '::' . $class_snake;
+
+        return $tmp;
+>>>>>>> 5a14301c (.)
+=======
         $tmp = $module_low . '::' . $class_snake;
 
         return $tmp;

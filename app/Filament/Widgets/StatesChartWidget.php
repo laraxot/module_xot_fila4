@@ -8,6 +8,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use RuntimeException;
 use Illuminate\Database\Eloquent\Model;
 use Exception;
@@ -39,6 +40,8 @@ class StatesChartWidget extends XotBaseChartWidget
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Override;
 use Exception;
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
@@ -54,6 +57,7 @@ class StatesChartWidget extends XotBaseChartWidget
 
     #[Override]
     public function getHeading(): null|string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,6 +85,8 @@ class StatesChartWidget extends XotBaseChartWidget
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     {
         return static::transClass($this->model, 'widgets.states_chart.heading');
     }
@@ -90,6 +96,7 @@ class StatesChartWidget extends XotBaseChartWidget
     {
         $label = static::transClass($this->model, 'widgets.states_chart.label');
         try {
+<<<<<<< HEAD
 <<<<<<< HEAD
             /** @var class-string<Model> $modelClass */
             $modelClass = $this->model;
@@ -106,11 +113,16 @@ class StatesChartWidget extends XotBaseChartWidget
 
             /** @var array<string, string> $colors */
 =======
+=======
+>>>>>>> 5a14301c (.)
             $states = $this->model::selectRaw('state, COUNT(*) as count')
                 ->groupBy('state')
                 ->get()
                 ->keyBy('state');
 
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
             $colors = [
                 'active' => 'rgb(34, 197, 94)',
@@ -126,17 +138,23 @@ class StatesChartWidget extends XotBaseChartWidget
                         'backgroundColor' => $states
                             ->keys()
 <<<<<<< HEAD
+<<<<<<< HEAD
                             ->map(fn ($state) => $colors[(string) $state] ?? 'rgb(156, 163, 175)')
                             ->toArray(),
                         'borderColor' => $states
                             ->keys()
                             ->map(fn ($state) => $colors[(string) $state] ?? 'rgb(156, 163, 175)')
 =======
+=======
+>>>>>>> 5a14301c (.)
                             ->map(fn($state) => $colors[$state] ?? 'rgb(156, 163, 175)')
                             ->toArray(),
                         'borderColor' => $states
                             ->keys()
                             ->map(fn($state) => $colors[$state] ?? 'rgb(156, 163, 175)')
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
                             ->toArray(),
                         'borderWidth' => 1,
@@ -146,6 +164,7 @@ class StatesChartWidget extends XotBaseChartWidget
                     ->keys()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ->map(fn ($state) => static::transClass($this->model, 'states.'.((string) $state).'.label'))
 =======
                     ->map(fn($state) => static::transClass($this->model, 'states.' . $state . '.label'))
@@ -153,6 +172,9 @@ class StatesChartWidget extends XotBaseChartWidget
 =======
                     ->map(fn($state) => static::transClass($this->model, 'states.' . $state . '.label'))
 >>>>>>> 3fbbf1f5 (.)
+=======
+                    ->map(fn($state) => static::transClass($this->model, 'states.' . $state . '.label'))
+>>>>>>> 5a14301c (.)
                     ->toArray(),
             ];
         } catch (Exception $e) {

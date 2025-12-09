@@ -10,7 +10,11 @@ namespace Modules\Xot\Filament\Actions\Header;
 
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Filament\Actions\Action;
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
 =======
 // use Filament\Tables\Actions\Action;
 >>>>>>> 5a14301c (.)
@@ -32,7 +36,11 @@ class SanitizeFieldsHeaderAction extends Action
             ->tooltip('sanitize')
             ->icon('heroicon-o-shield-exclamation')
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(function (ListRecords $livewire): void {
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
 =======
             ->action(function (ListRecords $livewire) {
 >>>>>>> 5a14301c (.)
@@ -40,6 +48,7 @@ class SanitizeFieldsHeaderAction extends Action
                 $modelClass = $resource::getModel();
                 // @phpstan-ignore staticMethod.nonObject
                 $rows = $modelClass::get();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +81,9 @@ class SanitizeFieldsHeaderAction extends Action
 =======
                 if (!is_iterable($rows)) {
 >>>>>>> ca9324a4 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 5a14301c (.)
                     $rows = [];
                 }
                 $c = 0;
@@ -79,6 +91,7 @@ class SanitizeFieldsHeaderAction extends Action
                     Assert::isInstanceOf($row, Model::class);
                     $save = false;
                     foreach ($this->fields as $field) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +149,14 @@ class SanitizeFieldsHeaderAction extends Action
                             $save = true;
                             ++$c;
 >>>>>>> 5a14301c (.)
+=======
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+                            $row->{$field} = $string;
+                            $save = true;
+                            ++$c;
+>>>>>>> 5a14301c (.)
                         }
                     }
                     if ($save) {
@@ -143,6 +164,7 @@ class SanitizeFieldsHeaderAction extends Action
                     }
                 }
                 Notification::make()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +197,9 @@ class SanitizeFieldsHeaderAction extends Action
 =======
                     ->title('' . $c . ' record sanitized')
 >>>>>>> ca9324a4 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 5a14301c (.)
                     ->success()
                     ->send();
             });
@@ -191,6 +216,7 @@ class SanitizeFieldsHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
@@ -219,6 +245,9 @@ class SanitizeFieldsHeaderAction extends Action
 =======
     public static function getDefaultName(): null|string
 >>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
     {
         return 'sanitize-fields-header';
     }

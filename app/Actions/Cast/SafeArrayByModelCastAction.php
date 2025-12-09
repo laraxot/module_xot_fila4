@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\Cast;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Error;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
@@ -17,12 +18,17 @@ use ValueError;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use ValueError;
 use Error;
 use Exception;
 use Doctrine\DBAL\Schema\Index;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
 class SafeArrayByModelCastAction
@@ -45,6 +51,7 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
@@ -61,6 +68,8 @@ class SafeArrayByModelCastAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -74,6 +83,7 @@ class SafeArrayByModelCastAction
         }
 
         return $data;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -134,5 +144,9 @@ class SafeArrayByModelCastAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+
+
+>>>>>>> 5a14301c (.)
     }
 }

@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -21,6 +22,9 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> ca9324a4 (.)
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Arr;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
@@ -29,6 +33,7 @@ use Sushi\Sushi;
 use function Safe\json_encode;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property int $id
  * @property string|null $name
@@ -55,6 +60,8 @@ use function Safe\json_encode;
  */
 final class Module extends BaseModel
 =======
+=======
+>>>>>>> 5a14301c (.)
  * @property int         $id
  * @property string|null $name
  * @property string|null $description
@@ -78,6 +85,9 @@ final class Module extends BaseModel
  * @mixin \Eloquent
  */
 class Module extends Model
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 {
     use Sushi;
@@ -102,7 +112,11 @@ class Module extends Model
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! is_array($config)) {
+=======
+            if (!is_array($config)) {
+>>>>>>> 5a14301c (.)
 =======
             if (!is_array($config)) {
 >>>>>>> 5a14301c (.)

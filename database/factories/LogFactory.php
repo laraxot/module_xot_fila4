@@ -9,9 +9,12 @@ use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\Log;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @extends Factory<Log>
  */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 class LogFactory extends Factory
@@ -20,7 +23,11 @@ class LogFactory extends Factory
      * The name of the factory's corresponding model.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @var class-string<Log>
+=======
+     * @var class-string<Model>
+>>>>>>> 5a14301c (.)
 =======
      * @var class-string<Model>
 >>>>>>> 5a14301c (.)

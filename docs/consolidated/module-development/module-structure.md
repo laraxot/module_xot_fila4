@@ -2,12 +2,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
 # Struttura dei Moduli in il progetto
 
 ## Panoramica
@@ -318,6 +321,7 @@ laravel/Modules/Patient/
 │   ├── Filament/
 │   ├── Http/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -325,6 +329,8 @@ laravel/Modules/Patient/
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Module Structure in Laraxot
 
 ## Directory Structure
@@ -347,12 +353,15 @@ Module/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
 │   ├── migrations/
 │   └── seeders/
 ├── resources/           ✓ CORRETTO
@@ -453,6 +462,7 @@ Se trovi una directory con case errato:
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -463,6 +473,8 @@ Se trovi una directory con case errato:
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 │   ├── factories/
 │   ├── migrations/
 │   └── seeders/
@@ -562,8 +574,11 @@ Route::middleware('api')->prefix('api')->group(function () {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)

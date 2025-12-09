@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -11,6 +12,8 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -228,8 +231,11 @@ php artisan cache:clear
 php artisan config:clear
 php artisan view:clear
 ```
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 5a14301c (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica
@@ -9491,8 +9497,11 @@ php scripts/check-namespaces.php
 Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerente e a evitare errori comuni durante l'analisi statica del codice con PHPStan. 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)

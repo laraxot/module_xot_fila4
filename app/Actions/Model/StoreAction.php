@@ -7,6 +7,10 @@ namespace Modules\Xot\Actions\Model;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Session;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Support\Facades\Session;
 >>>>>>> 5a14301c (.)
@@ -18,6 +22,7 @@ class StoreAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,6 +80,11 @@ class StoreAction
     {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
 >>>>>>> ca9324a4 (.)
+=======
+    public function execute(Model $model, array $data, array $rules): Model
+    {
+        if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+>>>>>>> 5a14301c (.)
             $data['lang'] = app()->getLocale();
         }
         $data['updated_by'] = authId();
@@ -98,6 +108,7 @@ class StoreAction
 
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
+<<<<<<< HEAD
 <<<<<<< HEAD
             $relationClass = $relation::class;
             $relationshipType = class_basename($relationClass);
@@ -125,11 +136,17 @@ class StoreAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+            $relationClass = get_class($relation);
+            $relationshipType = class_basename($relationClass);
+
+>>>>>>> 5a14301c (.)
             $action_class = __NAMESPACE__ . '\\Store\\' . $relationshipType . 'Action';
             $action = app($action_class);
             Assert::object($action);
             if (!method_exists($action, 'execute')) {
                 throw new Exception('method [execute] not found in [' . $action_class . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,6 +180,8 @@ class StoreAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             }
             $action->execute($model, $relation);
         }

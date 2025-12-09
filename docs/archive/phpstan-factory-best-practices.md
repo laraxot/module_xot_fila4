@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <nome progetto> e conformi ai principi del framework Laraxot.
 <<<<<<< HEAD
 =======
@@ -23,6 +24,10 @@ Documentazione completa delle best practice PHPStan per le factory Laravel, basa
 =======
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
 >>>>>>> 43d67f21 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <nome progetto> e conformi ai principi del framework Laraxot.
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 5a14301c (.)
 
 ## 📚 Principi Fondamentali
 
@@ -287,6 +292,9 @@ $result = $string . (string) $faker->method();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 Vedere: `Modules/<nome progetto>/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -298,6 +306,7 @@ Vedere:
 ### Documentazione Implementazione
 Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 71f31700 (.)
@@ -305,6 +314,8 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -315,6 +326,7 @@ Vedere:
 
 ### Documentazione Implementazione
 Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -347,6 +359,8 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ## 📊 Metriche di Successo
 
@@ -359,6 +373,7 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 *Versione: 1.0*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
 =======
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
@@ -366,3 +381,6 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 =======
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
 >>>>>>> 71f31700 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 5a14301c (.)

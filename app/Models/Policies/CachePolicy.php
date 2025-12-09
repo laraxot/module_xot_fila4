@@ -8,6 +8,7 @@ namespace Modules\Xot\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -46,6 +47,11 @@ use Override;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\Cache;
 >>>>>>> ca9324a4 (.)
+=======
+use Override;
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\Cache;
+>>>>>>> 5a14301c (.)
 
 class CachePolicy extends XotBasePolicy
 {

@@ -5,6 +5,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 uses(TestCase::class);
 
 describe('ModuleService', function () {
@@ -14,6 +15,8 @@ describe('ModuleService', function () {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Tests\TestCase;
 use Modules\Xot\Services\ModuleService;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
@@ -23,6 +26,7 @@ uses(TestCase::class);
 
 describe('ModuleService', function () {
     beforeEach(function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95,6 +99,10 @@ describe('ModuleService', function () {
 >>>>>>> 5842a556 (.)
     });
 >>>>>>> 5a14301c (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+    });
+>>>>>>> 5a14301c (.)
 
     it('can be instantiated', function () {
         expect($this->service)->toBeInstanceOf(ModuleService::class);
@@ -109,6 +117,7 @@ describe('ModuleService', function () {
     });
 
     it('can be instantiated with different module names', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,6 +186,10 @@ describe('ModuleService', function () {
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
 >>>>>>> 5842a556 (.)
+=======
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+>>>>>>> 5a14301c (.)
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
     });
@@ -250,6 +263,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $emptyService = new ModuleService()->setName('NonExistentModule');
 >>>>>>> 5a14301c (.)
@@ -287,6 +301,9 @@ describe('ModuleService', function () {
 =======
         $emptyService = new ModuleService()->setName('NonExistentModule');
 >>>>>>> 5842a556 (.)
+=======
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+>>>>>>> 5a14301c (.)
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
@@ -326,6 +343,7 @@ describe('ModuleService', function () {
         $methods = $reflection->getMethods();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
 
@@ -347,6 +365,10 @@ describe('ModuleService', function () {
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+>>>>>>> 5a14301c (.)
         expect(count($publicMethods))->toBeGreaterThan(0);
     });
 

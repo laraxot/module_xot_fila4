@@ -8,6 +8,10 @@ use Exception;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Filament\Pages\Page;
+>>>>>>> 5a14301c (.)
 =======
 use Filament\Pages\Page;
 >>>>>>> 5a14301c (.)
@@ -33,7 +37,10 @@ class ArtisanCommandsManager extends XotBasePage
      *
      * @var array<string, string>
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      * @phpstan-var array<string, string>
@@ -48,7 +55,10 @@ class ArtisanCommandsManager extends XotBasePage
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
     protected function getHeaderActions(): array
     {
         return [
@@ -119,6 +129,9 @@ class ArtisanCommandsManager extends XotBasePage
         ];
     }
 
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     public function executeCommand(string $command): void
     {
@@ -192,6 +205,7 @@ class ArtisanCommandsManager extends XotBasePage
             ->send();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     protected function getHeaderActions(): array
     {
@@ -262,6 +276,8 @@ class ArtisanCommandsManager extends XotBasePage
                 ->action(fn () => $this->executeCommand('queue:restart')),
         ];
     }
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 }

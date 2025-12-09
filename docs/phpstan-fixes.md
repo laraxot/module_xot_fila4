@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # PHPStan Fixes - Xot Module
 >>>>>>> d86d643a (.)
@@ -410,10 +411,13 @@ protected $model = Cache::class;
 - [Best Practices](../docs/best-practices.md)
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 # Correzioni PHPStan - 6 Gennaio 2025
 
 ## Errori Risolti
 
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -1169,6 +1173,8 @@ private function exportTablesToCSV(string $mdbFile): array
 
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
 ### 1. Chart/app/Datas/AnswersChartData.php
 
 **Problema**: Errori `argument.type` e `offsetAccess.nonOffsetAccessible`
@@ -1192,6 +1198,7 @@ private function exportTablesToCSV(string $mdbFile): array
 ### 3. Job/app/Actions/GetTaskFrequenciesAction.php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
@@ -1200,6 +1207,8 @@ private function exportTablesToCSV(string $mdbFile): array
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 **Problema**: Linea 21 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, mixed>` ma restituiva `array<mixed, mixed>`
@@ -1208,14 +1217,19 @@ private function exportTablesToCSV(string $mdbFile): array
 - Aggiunto cast esplicito `@var array<string, mixed>` al risultato
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
 =======
 >>>>>>> 71f31700 (.)
+=======
+### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+>>>>>>> 5a14301c (.)
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
 
 **Problema**: Linea 27 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, Component>` ma restituiva `array<int|string, Component>`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1240,6 +1254,8 @@ Queste modifiche garantiscono che:
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
 **Soluzione**:
 - Aggiunto PHPDoc con tipo di ritorno corretto
 - Aggiunto cast esplicito al risultato
@@ -1276,6 +1292,7 @@ Queste modifiche garantiscono che:
 - `sendRecipientNotification()` aspettava `UserContract|null` ma riceveva `Model|null`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
@@ -1284,6 +1301,8 @@ Queste modifiche garantiscono che:
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 **Soluzione**:
 - Separato controllo per `UserContract` e `null`
@@ -1310,6 +1329,7 @@ Queste modifiche garantiscono che:
 - [PHPStan Critical Rules](./phpstan-critical-rules.md)
 - [Array Types Fixes](./phpstan-array-types-fixes.md)
 - [PHPStan Level 10 Guidelines](./phpstan-level10-guidelines.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 
@@ -1407,3 +1427,7 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
 >>>>>>> d86d643a (.)
+=======
+
+*Ultimo aggiornamento: 6 Gennaio 2025*
+>>>>>>> 5a14301c (.)

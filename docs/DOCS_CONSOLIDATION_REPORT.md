@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 # Report Consolidamento Documentazione - 27 Gennaio 2025
 
 ## Panoramica
@@ -60,6 +63,7 @@ Questo report documenta il progresso del consolidamento della documentazione sec
 3. **Validazione PHPStan**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Verifica che tutti gli esempi di codice siano conformi PHPStan level 10
 =======
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
@@ -67,6 +71,9 @@ Questo report documenta il progresso del consolidamento della documentazione sec
 =======
    - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
 >>>>>>> d86d643a (.)
+=======
+   - Verifica che tutti gli esempi di codice siano conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
    - Aggiornamento esempi non conformi
    - Test di funzionamento degli esempi
 
@@ -137,6 +144,7 @@ laravel/
 ### 4. Qualità del Codice
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Tutti gli esempi conformi PHPStan level 10
 =======
 - Tutti gli esempi conformi PHPStan Level 9
@@ -144,6 +152,9 @@ laravel/
 =======
 - Tutti gli esempi conformi PHPStan Level 9
 >>>>>>> d86d643a (.)
+=======
+- Tutti gli esempi conformi PHPStan Level 9
+>>>>>>> 5a14301c (.)
 - Type hints espliciti e documentazione PHPDoc
 - Namespace corretti senza segmento `app`
 
@@ -202,5 +213,8 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 **Data Report**: 27 Gennaio 2025  
 **Stato**: Consolidamento in corso  
 **Prossimo Update**: Completamento consolidamento root docs
+<<<<<<< HEAD
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)

@@ -14,10 +14,14 @@ class RenderContextNavigation
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Render context navigation hooks for Filament sidebar.
      *
      * @param string $module Module name
      * @param string $_context Context (unused but kept for compatibility)
+=======
+     * Undocumented function.
+>>>>>>> 5a14301c (.)
 =======
      * Undocumented function.
 >>>>>>> 5a14301c (.)
@@ -27,7 +31,11 @@ class RenderContextNavigation
         Filament::registerRenderHook(
             'sidebar.start',
 <<<<<<< HEAD
+<<<<<<< HEAD
             static fn (): string => Blade::render('<div class="p-2 px-6 bg-primary-100 font-black w-full">'.
+=======
+            static fn(): string => Blade::render('<div class="p-2 px-6 bg-primary-100 font-black w-full">' .
+>>>>>>> 5a14301c (.)
 =======
             static fn(): string => Blade::render('<div class="p-2 px-6 bg-primary-100 font-black w-full">' .
 >>>>>>> 5a14301c (.)
@@ -36,8 +44,13 @@ class RenderContextNavigation
         Filament::registerRenderHook(
             'sidebar.end',
 <<<<<<< HEAD
+<<<<<<< HEAD
             static fn (): string => Blade::render('<a class="p-2 px-6 bg-primary-100 font-black w-full inline-flex space-x-2" href="'.
             route('filament.pages.dashboard').
+=======
+            static fn(): string => Blade::render('<a class="p-2 px-6 bg-primary-100 font-black w-full inline-flex space-x-2" href="' .
+            route('filament.pages.dashboard') .
+>>>>>>> 5a14301c (.)
 =======
             static fn(): string => Blade::render('<a class="p-2 px-6 bg-primary-100 font-black w-full inline-flex space-x-2" href="' .
             route('filament.pages.dashboard') .

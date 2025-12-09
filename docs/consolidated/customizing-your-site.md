@@ -42,16 +42,20 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
 ##### h5 Heading
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
@@ -60,6 +64,8 @@ Here’s a quick preview of what some of the basic type styles will look like in
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ## h2 Heading
 
@@ -119,9 +125,12 @@ class Foo extends bar
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)

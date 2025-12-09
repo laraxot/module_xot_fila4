@@ -7,6 +7,11 @@ namespace Modules\Xot\Filament\Resources\Pages;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords as FilamentListRecords;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Filament\Tables;
+use Filament\Tables\Table;
+>>>>>>> 5a14301c (.)
 =======
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -16,6 +21,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +51,10 @@ use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
 >>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
+use Modules\Xot\Filament\Traits\HasXotTable;
+>>>>>>> 5a14301c (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -58,6 +68,7 @@ use Webmozart\Assert\Assert;
 abstract class XotBaseListRecords extends FilamentListRecords
 {
     use HasXotTable;
+<<<<<<< HEAD
 <<<<<<< HEAD
     use TransTrait;
 
@@ -75,6 +86,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
 
         return $resource;
     }
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 
@@ -111,7 +124,10 @@ abstract class XotBaseListRecords extends FilamentListRecords
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
      * Get the resource class name.
      *
      * @return class-string
@@ -125,12 +141,16 @@ abstract class XotBaseListRecords extends FilamentListRecords
     }
 
     /**
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
      * Paginate the table query.
      */
     protected function paginateTableQuery(Builder $query): Paginator
     {
         $paginator = $query->fastPaginate(
+<<<<<<< HEAD
 <<<<<<< HEAD
             $this->getTableRecordsPerPage() === 'all' ? $query->count() : $this->getTableRecordsPerPage(),
         );
@@ -148,12 +168,17 @@ abstract class XotBaseListRecords extends FilamentListRecords
         app(UpdateCountAction::class)->execute($modelClass, $count);
 
 =======
+=======
+>>>>>>> 5a14301c (.)
             'all' === $this->getTableRecordsPerPage() ? $query->count() : $this->getTableRecordsPerPage(),
         );
         $count = $paginator->total();
         $modelClass = $this->getModel();
         //dddx($modelClass);
         app(UpdateCountAction::class)->execute($modelClass, $count);
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         return $paginator;
     }

@@ -268,10 +268,15 @@ return new class extends XotBaseMigration {
 
 **Collegamenti:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Regola Performance](../../Performance/project_docs/database_migrations.md)
 - [Regole globali root](../../../project_docs/database_migrations.md)
 =======
 >>>>>>> 6cba4fe (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+>>>>>>> 5a14301c (.)
 - [Regola Performance](../../Performance/docs/database_migrations.md)
 - [Regole globali root](../../../docs/database_migrations.md)
 
@@ -493,8 +498,11 @@ php artisan db:analyze-usage --connection=nome_connessione
 - Utilizzare query builder o raw queries per query complesse
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)

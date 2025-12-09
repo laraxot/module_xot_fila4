@@ -7,6 +7,7 @@ namespace Modules\Xot\Exceptions\Handlers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Closure;
 use ReflectionClass;
 use ReflectionFunction;
@@ -19,10 +20,15 @@ use Throwable;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Throwable;
 use Closure;
 use ReflectionFunction;
 use ReflectionClass;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
 /**
@@ -78,6 +84,7 @@ class HandlersRepository
             $this->reporters,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 =======
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
@@ -85,6 +92,9 @@ class HandlersRepository
 =======
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 >>>>>>> 3fbbf1f5 (.)
+=======
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+>>>>>>> 5a14301c (.)
         );
     }
 
@@ -97,6 +107,7 @@ class HandlersRepository
             $this->renderers,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 =======
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
@@ -104,6 +115,9 @@ class HandlersRepository
 =======
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 >>>>>>> 3fbbf1f5 (.)
+=======
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+>>>>>>> 5a14301c (.)
         );
     }
 
@@ -116,6 +130,7 @@ class HandlersRepository
             $this->consoleRenderers,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 =======
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
@@ -123,6 +138,9 @@ class HandlersRepository
 =======
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 >>>>>>> 3fbbf1f5 (.)
+=======
+            fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+>>>>>>> 5a14301c (.)
         );
     }
 
@@ -137,6 +155,7 @@ class HandlersRepository
             $reflection = new ReflectionFunction(Closure::fromCallable($handler));
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,11 +176,14 @@ class HandlersRepository
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!($params = $reflection->getParameters())) {
             return false;
         }
 
         return ($params[0]->getClass() instanceof ReflectionClass) ? $params[0]->getClass()->isInstance($e) : true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,5 +224,7 @@ class HandlersRepository
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     }
 }

@@ -42,8 +42,11 @@ return new class extends XotBaseMigration
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)

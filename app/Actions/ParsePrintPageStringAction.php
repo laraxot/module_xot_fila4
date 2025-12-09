@@ -23,7 +23,12 @@ class ParsePrintPageStringAction
      * Execute the page string parsing.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $str  The page range string to parse
+=======
+     * @param string $str The page range string to parse
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param string $str The page range string to parse
      *
@@ -37,12 +42,15 @@ class ParsePrintPageStringAction
         preg_match_all($pattern, $str, $matches);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::notEmpty($matches[0], 'No valid page numbers found');
         $matchCount = count($matches[0]);
         $res = [];
 
         for ($i = 0; $i < $matchCount; $i++) {
 =======
+=======
+>>>>>>> 5a14301c (.)
         Assert::isArray($matches);
         Assert::notEmpty($matches[0], 'No valid page numbers found');
         Assert::isArray($matches[0]);
@@ -50,6 +58,9 @@ class ParsePrintPageStringAction
         $res = [];
 
         for ($i = 0; $i < $matchCount; ++$i) {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
             $firstNumber = Arr::get($matches, "1.{$i}");
             $secondNumber = Arr::get($matches, "2.{$i}");
@@ -58,7 +69,11 @@ class ParsePrintPageStringAction
             Assert::string($secondNumber, 'Second number must be a string');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ($secondNumber === '') {
+=======
+            if ('' === $secondNumber) {
+>>>>>>> 5a14301c (.)
 =======
             if ('' === $secondNumber) {
 >>>>>>> 5a14301c (.)
@@ -75,8 +90,14 @@ class ParsePrintPageStringAction
      * Generate an array of numbers from start to end inclusive.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  int  $from  Starting number
      * @param  int  $to  Ending number
+=======
+     * @param int $from Starting number
+     * @param int $to   Ending number
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param int $from Starting number
      * @param int $to   Ending number

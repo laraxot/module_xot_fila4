@@ -15,6 +15,7 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $this->baseModel = new class extends BaseModel
     {
 =======
@@ -44,6 +45,9 @@ beforeEach(function () {
 =======
     $this->baseModel = new class extends BaseModel {
 >>>>>>> ca9324a4 (.)
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 5a14301c (.)
         protected $table = 'test_table';
     };
 });

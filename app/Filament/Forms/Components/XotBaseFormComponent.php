@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Filament\Forms\Components;
 =======
 namespace Modules\Notify\Filament\Forms\Components;
@@ -21,10 +22,17 @@ use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Forms\Components\Field;
 >>>>>>> 5a14301c (.)
+=======
+namespace Modules\Xot\Filament\Forms\Components;
+
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Forms\Components\Field;
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
  * Base class for custom form components.
  *
@@ -40,6 +48,8 @@ abstract class XotBaseFormComponent extends Field
     }
 
 =======
+=======
+>>>>>>> 5a14301c (.)
  * Base class for form components.
  *
  * @method static static make(string $name) Create a new instance of the component
@@ -49,6 +59,9 @@ abstract class XotBaseFormComponent extends Field
     /**
      * Get the component name.
      */
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     public function getName(): string
     {
@@ -58,6 +71,7 @@ abstract class XotBaseFormComponent extends Field
         return $name;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getLabel(): string
     {
@@ -72,6 +86,8 @@ abstract class XotBaseFormComponent extends Field
         }
 
 =======
+=======
+>>>>>>> 5a14301c (.)
     /**
      * Get the component label.
      */
@@ -84,13 +100,19 @@ abstract class XotBaseFormComponent extends Field
         if ($label instanceof Htmlable) {
             return $label->toHtml();
         }
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         return (string) $label;
     }
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
      * Configure the component.
      */
     protected function setUp(): void
@@ -103,20 +125,29 @@ abstract class XotBaseFormComponent extends Field
     /**
      * Get the validation rules.
      *
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
      * @return array<string, mixed>
      */
     public function getValidationRules(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<string, mixed> */
         return parent::getValidationRules();
 =======
+=======
+>>>>>>> 5a14301c (.)
         /** @var array<string, mixed> $rules */
         $rules = parent::getValidationRules();
         Assert::isArray($rules);
 
         return $rules;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     }
 }

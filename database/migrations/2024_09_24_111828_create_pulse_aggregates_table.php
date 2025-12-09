@@ -6,8 +6,12 @@ use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
+=======
+return new class extends XotBaseMigration {
+>>>>>>> 5a14301c (.)
 =======
 return new class extends XotBaseMigration {
 >>>>>>> 5a14301c (.)
@@ -16,6 +20,7 @@ return new class extends XotBaseMigration {
      */
     public function up(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35,6 +40,9 @@ return new class extends XotBaseMigration {
 >>>>>>> ca9324a4 (.)
         if (!$this->shouldRun()) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!$this->shouldRun()) {
+>>>>>>> 5a14301c (.)
             return;
         }
         // -- CREATE --
@@ -49,7 +57,11 @@ return new class extends XotBaseMigration {
                 'pgsql' => $table->uuid('key_hash')->storedAs('md5("key")::uuid'),
                 'sqlite' => $table->string('key_hash'),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 default => throw new InvalidArgumentException('Unsupported driver: '.$this->driver()),
+=======
+                default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
+>>>>>>> 5a14301c (.)
 =======
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
 >>>>>>> 5a14301c (.)

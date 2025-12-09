@@ -13,6 +13,7 @@ namespace Modules\Xot\Relations;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Closure;
 use Exception;
 =======
@@ -23,6 +24,10 @@ use Exception;
 use Exception;
 use Closure;
 >>>>>>> 5a14301c (.)
+=======
+use Exception;
+use Closure;
+>>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
@@ -30,6 +35,11 @@ use Illuminate\Database\Eloquent\Relations\Relation;
 use Webmozart\Assert\Assert;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use function call_user_func;
+
+>>>>>>> 5a14301c (.)
 =======
 use function call_user_func;
 
@@ -62,6 +72,7 @@ class CustomRelation extends Relation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         protected ?Closure $eagerConstraints,
         /**
          * The eager constraints model matcher.
@@ -78,11 +89,14 @@ class CustomRelation extends Relation
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         protected null|Closure $eagerConstraints,
         /**
          * The eager constraints model matcher.
          */
         protected null|Closure $eagerMatcher,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,6 +134,8 @@ class CustomRelation extends Relation
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     ) {
         parent::__construct($query, $model);
     }
@@ -142,6 +158,7 @@ class CustomRelation extends Relation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \is_callable($this->eagerConstraints)) {
 =======
 =======
@@ -153,6 +170,9 @@ class CustomRelation extends Relation
 =======
         if (!\is_callable($this->eagerConstraints)) {
 >>>>>>> 3fbbf1f5 (.)
+=======
+        if (!\is_callable($this->eagerConstraints)) {
+>>>>>>> 5a14301c (.)
             throw new Exception('eagerConstraints is not callable');
         }
 
@@ -162,6 +182,11 @@ class CustomRelation extends Relation
     /**
      * Initialize the relation on a set of models.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @param  string  $relation
+>>>>>>> 5a14301c (.)
 =======
      *
      * @param  string  $relation
@@ -180,6 +205,10 @@ class CustomRelation extends Relation
      * Match the eagerly loaded results to their parents.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @param  string  $relation
+>>>>>>> 5a14301c (.)
 =======
      * @param  string  $relation
 >>>>>>> 5a14301c (.)
@@ -188,6 +217,7 @@ class CustomRelation extends Relation
     public function match(array $models, Collection $collection, $relation): array
     {
         // Trying to invoke Closure|null but it might not be a callable.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,6 +233,9 @@ class CustomRelation extends Relation
 =======
         if (!\is_callable($this->eagerMatcher)) {
 >>>>>>> 3fbbf1f5 (.)
+=======
+        if (!\is_callable($this->eagerMatcher)) {
+>>>>>>> 5a14301c (.)
             throw new Exception('eagerMatcher is not callable');
         }
 
@@ -218,7 +251,11 @@ class CustomRelation extends Relation
      * @return Collection<int, Model>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getResults(): Collection
+=======
+    public function getResults()
+>>>>>>> 5a14301c (.)
 =======
     public function getResults()
 >>>>>>> 5a14301c (.)
@@ -230,7 +267,11 @@ class CustomRelation extends Relation
      * Execute the query as a "select" statement.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $columns
+=======
+     * @param  array<int, string>  $columns
+>>>>>>> 5a14301c (.)
 =======
      * @param  array<int, string>  $columns
 >>>>>>> 5a14301c (.)
@@ -242,6 +283,7 @@ class CustomRelation extends Relation
         // models with the result of those columns as a separate model relation.
         $columns = $this->query->getQuery()->columns ? [] : $columns;
         if ($columns === ['*']) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,6 +316,9 @@ class CustomRelation extends Relation
 =======
             $columns = [$this->related->getTable() . '.*'];
 >>>>>>> ca9324a4 (.)
+=======
+            $columns = [$this->related->getTable() . '.*'];
+>>>>>>> 5a14301c (.)
         }
 
         $query = $this->query->applyScopes();

@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Builder;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property string $id
  * @property int $timestamp
  * @property string $type
@@ -31,6 +32,8 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseEntry whereValue($value)
  *
 =======
+=======
+>>>>>>> 5a14301c (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @method static PulseEntryFactory factory($count = null, $state = [])
@@ -50,6 +53,9 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder|PulseEntry whereType($value)
  * @method static Builder|PulseEntry whereValue($value)
  * @mixin IdeHelperPulseEntry
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
  * @mixin \Eloquent
  */

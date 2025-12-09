@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -12,6 +13,9 @@
 =======
 
 >>>>>>> 43d67f21 (.)
+=======
+
+>>>>>>> 5a14301c (.)
 # Rapporto PHPStan Livello 8 per il modulo Xot
 
 Data analisi: 2025-04-15 21:55:39
@@ -22,6 +26,7 @@ Trovati 4 errori al livello 8.
 
 ## Errori e suggerimenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +51,11 @@ Trovati 4 errori al livello 8.
 =======
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 >>>>>>> 43d67f21 (.)
+=======
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> 5a14301c (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -66,6 +76,7 @@ Trovati 4 errori al livello 8.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 <<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -87,6 +98,11 @@ Trovati 4 errori al livello 8.
 =======
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 >>>>>>> 43d67f21 (.)
+=======
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> 5a14301c (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 
@@ -116,6 +132,9 @@ aurmich/dev
 ## Collegamenti tra versioni di level_8.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 * [level_8.md](laravel/Modules/Chart/docs/phpstan/level_8.md)
 * [level_8.md](laravel/Modules/Reporting/docs/phpstan/level_8.md)
 * [level_8.md](laravel/Modules/Gdpr/docs/phpstan/level_8.md)
@@ -131,6 +150,7 @@ aurmich/dev
 * [level_8.md](laravel/Modules/Activity/docs/phpstan/level_8.md)
 * [level_8.md](laravel/Modules/Patient/docs/phpstan/level_8.md)
 * [level_8.md](laravel/Modules/Cms/docs/phpstan/level_8.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -162,3 +182,6 @@ aurmich/dev
 =======
 
 >>>>>>> 43d67f21 (.)
+=======
+
+>>>>>>> 5a14301c (.)

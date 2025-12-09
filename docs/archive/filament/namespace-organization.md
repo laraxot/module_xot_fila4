@@ -67,10 +67,13 @@ Questo errore indica che un metodo è stato erroneamente definito come statico q
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
 - [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
 - [Linee Guida per l'Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
 =======
+=======
+>>>>>>> 5a14301c (.)
 - [Documentazione Filament](../Xot/docs/filament/filament_best_practices.md)
 - [XotBasePage](../Xot/docs/filament/pages/xotbasepage.md)
 - [Linee Guida per l'Ereditarietà](../Xot/docs/filament/filament_inheritance_guidelines.md)
@@ -80,6 +83,7 @@ Questo errore indica che un metodo è stato erroneamente definito come statico q
 - [Documentazione Filament](../Xot/docs/filament/filament_best_practices.md)
 - [XotBasePage](../Xot/docs/filament/pages/xotbasepage.md)
 - [Linee Guida per l'Ereditarietà](../Xot/docs/filament/filament_inheritance_guidelines.md)
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 - [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
@@ -108,3 +112,5 @@ Questo errore indica che un metodo è stato erroneamente definito come statico q
 - [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
 - [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)

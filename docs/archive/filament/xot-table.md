@@ -234,10 +234,14 @@ class DatiRelationManager extends XotBaseRelationManager
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 - [XotBaseRelationManager](/laravel/Modules/Xot/docs/filament/relation_managers.md)
 - [Regole di Traduzione](/laravel/Modules/Xot/docs/translation_rules.md)
 - [Filament Resources](/laravel/Modules/Xot/docs/filament/resources.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
@@ -268,3 +272,6 @@ class DatiRelationManager extends XotBaseRelationManager
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 43d67f21 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 5a14301c (.)

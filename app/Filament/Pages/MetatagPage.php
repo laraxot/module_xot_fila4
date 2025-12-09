@@ -7,11 +7,16 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Utilities\Get;
+>>>>>>> 5a14301c (.)
+=======
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Utilities\Get;
 >>>>>>> 5a14301c (.)
@@ -26,11 +31,14 @@ use Filament\Notifications\Notification;
 use Filament\Pages\Page;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Filament\Support\Colors\Color;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
@@ -45,6 +53,7 @@ class MetatagPage extends Page implements HasForms
     use InteractsWithForms;
     use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +83,9 @@ class MetatagPage extends Page implements HasForms
 =======
     public null|array $data = [];
 >>>>>>> ca9324a4 (.)
+=======
+    public null|array $data = [];
+>>>>>>> 5a14301c (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
 
@@ -102,7 +114,10 @@ class MetatagPage extends Page implements HasForms
                 TextInput::make('description'),
                 TextInput::make('keywords'),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
                 /*
                  * FileUpload::make('logo_header')
                  * ->preserveFilenames()
@@ -119,6 +134,9 @@ class MetatagPage extends Page implements HasForms
                  * })->first() )
                  * ,
                  */
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
                 TextInput::make('logo_header'),
                 TextInput::make('logo_header_dark')->helperText('logo for dark css'),
@@ -127,6 +145,7 @@ class MetatagPage extends Page implements HasForms
                     ->schema([
                         Select::make('key')
 <<<<<<< HEAD
+<<<<<<< HEAD
                             ->required()
                             ->options($metatag->getFilamentColors()),
                         Select::make('color')
@@ -134,6 +153,8 @@ class MetatagPage extends Page implements HasForms
                             ->reactive(),
                         ColorPicker::make('hex')
 =======
+=======
+>>>>>>> 5a14301c (.)
                             ->label('Chiave')
                             ->required()
                             ->options($metatag->getFilamentColors()),
@@ -144,6 +165,9 @@ class MetatagPage extends Page implements HasForms
                         ColorPicker::make('hex')
                             ->label('Colore personalizzato')
                             ->visible(fn(Get $get) => $get('color') === 'custom')
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
                             ->required(),
                     ])

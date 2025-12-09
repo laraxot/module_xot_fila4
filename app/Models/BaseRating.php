@@ -12,7 +12,11 @@ use Illuminate\Database\Eloquent\Model;
  * Base class for ratings extending Eloquent Model.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseRating extends BaseModel
+=======
+abstract class BaseRating extends Model
+>>>>>>> 5a14301c (.)
 =======
 abstract class BaseRating extends Model
 >>>>>>> 5a14301c (.)

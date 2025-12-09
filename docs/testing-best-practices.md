@@ -26,11 +26,14 @@ uses(\Modules\Xot\Tests\TestCase::class);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> d86d643a (.)
 =======
+=======
+>>>>>>> 5a14301c (.)
 ## 🏆 Gold Standard per i Test
 
 - Preferire Pest a PHPUnit class-based.
@@ -50,6 +53,7 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -63,6 +67,8 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 beforeEach(function (): void {
     mockXotData();
 });
@@ -85,6 +91,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 =======
         ->andReturn(\Modules\SaluteOra\Models\User::class);
@@ -98,6 +105,9 @@ function mockXotData(): void
 =======
         ->andReturn(\Modules\SaluteOra\Models\User::class);
 >>>>>>> 43d67f21 (.)
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> 5a14301c (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -273,6 +283,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Version**: 1.0 - Gold Standard
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Last Update**: Dicembre 2024 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,6 +295,9 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 >>>>>>> d86d643a (.)
 =======
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
 ### Esempio unit test semplice
 ```php
 <?php
@@ -304,10 +318,14 @@ function mockXotData(): void
 {
     $mock = \\Mockery::mock(\\Modules\\Xot\\Datas\\XotData::class)->makePartial();
 <<<<<<< HEAD
+<<<<<<< HEAD
     $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
 =======
     $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
 >>>>>>> d86d643a (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 5a14301c (.)
     $mock->shouldReceive('make')->andReturn($mock);
     app()->instance(\\Modules\\Xot\\Datas\\XotData::class, $mock);
 }
@@ -347,6 +365,7 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 **Last Update**: Dicembre 2024 
@@ -361,3 +380,5 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)

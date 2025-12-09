@@ -19,7 +19,11 @@ class FilamentMemoryMonitorMiddleware
      * Handle an incoming request.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Closure(Request):Response  $next
+=======
+     * @param Closure(Request):Response $next
+>>>>>>> 5a14301c (.)
 =======
      * @param Closure(Request):Response $next
 >>>>>>> 5a14301c (.)
@@ -69,9 +73,15 @@ class FilamentMemoryMonitorMiddleware
         // Aggiungi header per debug (solo in development)
         if (config('app.debug') && config('filament_optimization.development.show_memory_stats', false)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $response->headers->set('X-Memory-Used', $memoryUsedMB.'MB');
             $response->headers->set('X-Memory-Peak', $memoryPeakMB.'MB');
             $response->headers->set('X-Execution-Time', round($executionTime, 2).'ms');
+=======
+            $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
+>>>>>>> 5a14301c (.)
 =======
             $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
             $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
@@ -89,7 +99,11 @@ class FilamentMemoryMonitorMiddleware
     {
         $path = $request->path();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 5a14301c (.)
 =======
         
 >>>>>>> 5a14301c (.)
@@ -98,7 +112,11 @@ class FilamentMemoryMonitorMiddleware
             '/admin',
             '/user/admin',
 <<<<<<< HEAD
+<<<<<<< HEAD
             '/<nome progetto>/admin',
+=======
+            '/techplanner/admin',
+>>>>>>> 5a14301c (.)
 =======
             '/techplanner/admin',
 >>>>>>> 5a14301c (.)
@@ -133,7 +151,11 @@ class FilamentMemoryMonitorMiddleware
      * Logga l'uso della memoria.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $metrics
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed> $metrics
 >>>>>>> 5a14301c (.)
@@ -142,7 +164,11 @@ class FilamentMemoryMonitorMiddleware
     {
         $logLevel = $this->determineLogLevel($metrics);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 5a14301c (.)
 =======
         
 >>>>>>> 5a14301c (.)
@@ -175,7 +201,11 @@ class FilamentMemoryMonitorMiddleware
      * Determina il livello di log basato sulle metriche.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $metrics
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed> $metrics
 >>>>>>> 5a14301c (.)

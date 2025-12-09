@@ -14,15 +14,21 @@ namespace Modules\Xot\Actions\Factory;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
 =======
+=======
+>>>>>>> 5a14301c (.)
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -38,15 +44,21 @@ class GetFactoryAction
      * Execute the function with the given model class.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $model_class  the class name of the model
      *
      * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
 =======
+=======
+>>>>>>> 5a14301c (.)
      * @param string $model_class the class name of the model
      *
      * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
      *
      * @return Factory
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
      */
     public function execute(string $model_class): Factory
@@ -85,7 +97,11 @@ class GetFactoryAction
      * Get the factory class name for a model class.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $model_class  The model class name
+=======
+     * @param string $model_class The model class name
+>>>>>>> 5a14301c (.)
 =======
      * @param string $model_class The model class name
 >>>>>>> 5a14301c (.)
@@ -114,7 +130,13 @@ class GetFactoryAction
      * Create a factory for the given model class.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $model_class  The class name of the model to create the factory for
+=======
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+>>>>>>> 5a14301c (.)
 =======
      * @param string $model_class The class name of the model to create the factory for
      *

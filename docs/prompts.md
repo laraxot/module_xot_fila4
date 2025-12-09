@@ -91,6 +91,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 ### Percorsi Assoluti
 ⚠️ **Problema Identificato**: Uso di percorsi assoluti nei collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +113,11 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 =======
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
 >>>>>>> 6cba4fe (.)
+=======
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 5a14301c (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore
@@ -200,6 +206,7 @@ Il prompt `docs.txt` serve come:
    [Documento](./path/relativo) #tag-correlati
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    ```
 =======
 =======
@@ -208,3 +215,6 @@ Il prompt `docs.txt` serve come:
 =======
    ```
 >>>>>>> 71f31700 (.)
+=======
+   ```
+>>>>>>> 5a14301c (.)

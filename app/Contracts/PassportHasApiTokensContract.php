@@ -9,9 +9,15 @@ declare(strict_types=1);
 namespace Modules\Xot\Contracts;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Laravel\Passport\PersonalAccessTokenResult;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Model;
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Laravel\Passport\PersonalAccessTokenResult;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -22,6 +28,11 @@ use Laravel\Passport\TransientToken;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
+ *
+>>>>>>> 5a14301c (.)
 =======
  * @propery \Laravel\Passport\Token|\Laravel\Passport\TransientToken|null $accessToken;
  *
@@ -50,7 +61,11 @@ interface PassportHasApiTokensContract
      * @return Token|TransientToken|null
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function token(): Token|TransientToken|null;
+=======
+    public function token();
+>>>>>>> 5a14301c (.)
 =======
     public function token();
 >>>>>>> 5a14301c (.)
@@ -59,30 +74,42 @@ interface PassportHasApiTokensContract
      * Determine if the current API token has a given scope.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return bool
      */
     public function tokenCan(string $scope);
 =======
+=======
+>>>>>>> 5a14301c (.)
      * @param string $scope
      *
      * @return bool
      */
     public function tokenCan($scope);
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
     /**
      * Create a new personal access token for the user.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<int, string>  $scopes
      */
     public function createToken(string $name, array $scopes = []): PersonalAccessTokenResult;
 =======
+=======
+>>>>>>> 5a14301c (.)
      * @param string $name
      *
      * @return PersonalAccessTokenResult
      */
     public function createToken($name, array $scopes = []);
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
     /**

@@ -9,6 +9,7 @@ use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
@@ -39,6 +40,9 @@ use Illuminate\Support\Carbon;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
 
 /**
  * Class DateTimeRule.
@@ -48,6 +52,7 @@ class DateTimeRule implements Rule
     /**
      * Determine if the validation rule passes.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $attribute  The attribute name being validated
      * @param  mixed  $value  The value being validated
@@ -63,6 +68,8 @@ class DateTimeRule implements Rule
         }
 
 =======
+=======
+>>>>>>> 5a14301c (.)
      * @param string $_attribute The attribute name being validated
      * @param mixed $value The value being validated
      */
@@ -84,6 +91,7 @@ class DateTimeRule implements Rule
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -98,6 +106,8 @@ class DateTimeRule implements Rule
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         $format = 'd/m/Y H:i';
         try {
             $value_new = Carbon::createFromFormat($format, $value);

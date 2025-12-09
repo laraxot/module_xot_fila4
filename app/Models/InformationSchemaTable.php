@@ -7,6 +7,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 use Modules\Tenant\Models\Traits\SushiToJson;
@@ -23,6 +24,8 @@ class InformationSchemaTable extends BaseModel
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -101,6 +104,9 @@ use Webmozart\Assert\Assert;
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 {
     use SushiToJson;
@@ -108,9 +114,14 @@ class InformationSchemaTable extends Model
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
+     * The attributes that are mass assignable.
+     *
+>>>>>>> 5a14301c (.)
+=======
      * The attributes that are mass assignable.
      *
 >>>>>>> 5a14301c (.)
@@ -129,17 +140,23 @@ class InformationSchemaTable extends Model
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Schema utilizzato dal trait Sushi per tipizzare i campi.
      *
      * @var array<string, string>
      */
     protected array $schema = [
 =======
+=======
+>>>>>>> 5a14301c (.)
      * The schema for the Sushi model.
      *
      * @var array<string, string>
      */
     protected $schema = [
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         'id' => 'integer',
         'table_schema' => 'string',
@@ -152,6 +169,7 @@ class InformationSchemaTable extends Model
         'created_by' => 'string',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,6 +259,11 @@ class InformationSchemaTable extends Model
      * Get the rows array for the Sushi model.
      * This method is required by Sushi to provide the data.
 >>>>>>> 5a14301c (.)
+=======
+    /**
+     * Get the rows array for the Sushi model.
+     * This method is required by Sushi to provide the data.
+>>>>>>> 5a14301c (.)
      *
      * @return array<int, array<string, mixed>>
      */
@@ -249,6 +272,7 @@ class InformationSchemaTable extends Model
         return $this->getSushiRows();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * Aggiorna il numero di record memorizzato per un modello.
@@ -263,14 +287,25 @@ class InformationSchemaTable extends Model
     {
         if (!class_exists($modelClass)) {
 >>>>>>> 5a14301c (.)
+=======
+    public static function updateModelCount(string $modelClass, int $total): void
+    {
+        if (!class_exists($modelClass)) {
+>>>>>>> 5a14301c (.)
             throw new InvalidArgumentException("Model class [{$modelClass}] does not exist");
         }
 
         /** @var Model $model */
         $model = app($modelClass);
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $model instanceof Model) {
             throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of ".Model::class);
+=======
+
+        if (!($model instanceof Model)) {
+            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
+>>>>>>> 5a14301c (.)
 =======
 
         if (!($model instanceof Model)) {
@@ -280,6 +315,7 @@ class InformationSchemaTable extends Model
 
         $connection = $model->getConnection();
         $database = $connection->getDatabaseName();
+<<<<<<< HEAD
 <<<<<<< HEAD
         $table = $model->getTable();
 
@@ -301,6 +337,8 @@ class InformationSchemaTable extends Model
     {
         if (! class_exists($modelClass)) {
 =======
+=======
+>>>>>>> 5a14301c (.)
         $driver = $connection->getDriverName();
         $table = $model->getTable();
         $where = ['table_schema' => $database, 'model_class' => $modelClass, 'table_name' => $table];
@@ -318,12 +356,16 @@ class InformationSchemaTable extends Model
     public static function getModelCount(string $modelClass): int
     {
         if (!class_exists($modelClass)) {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
             throw new InvalidArgumentException("Model class [{$modelClass}] does not exist");
         }
 
         /** @var Model $model */
         $model = app($modelClass);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! $model instanceof Model) {
@@ -363,10 +405,16 @@ class InformationSchemaTable extends Model
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+
+        if (!($model instanceof Model)) {
+            throw new InvalidArgumentException("Class [{$modelClass}] must be an instance of " . Model::class);
+>>>>>>> 5a14301c (.)
         }
 
         $connection = $model->getConnection();
         $database = $connection->getDatabaseName();
+<<<<<<< HEAD
 <<<<<<< HEAD
         $table = $model->getTable();
 
@@ -382,6 +430,8 @@ class InformationSchemaTable extends Model
 
         return (int) $record->table_rows;
 =======
+=======
+>>>>>>> 5a14301c (.)
         $driver = $connection->getDriverName();
         $table = $model->getTable();
 
@@ -409,6 +459,7 @@ class InformationSchemaTable extends Model
          *
          * return static::getAccurateRowCount($table, $database);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,5 +577,7 @@ class InformationSchemaTable extends Model
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     }
 }

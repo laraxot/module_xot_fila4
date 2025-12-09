@@ -6,6 +6,7 @@ namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16,15 +17,21 @@ namespace Modules\Xot\Models;
 >>>>>>> ca9324a4 (.)
 use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Database\Factories\PulseAggregateFactory;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property string $id
  * @property int $bucket
  * @property int $period
 =======
+=======
+>>>>>>> 5a14301c (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @method static PulseAggregateFactory factory($count = null, $state = [])
@@ -34,12 +41,16 @@ use Illuminate\Database\Eloquent\Builder;
  * @property int         $id
  * @property int         $bucket
  * @property int         $period
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
  * @property string $type
  * @property string $key
  * @property string|null $key_hash
  * @property string $aggregate
  * @property string $value
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property int|null $count
  *
@@ -58,6 +69,8 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseAggregate whereValue($value)
  *
 =======
+=======
+>>>>>>> 5a14301c (.)
  * @property int|null    $count
  * @method static Builder|PulseAggregate whereAggregate($value)
  * @method static Builder|PulseAggregate whereBucket($value)
@@ -69,6 +82,9 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder|PulseAggregate whereType($value)
  * @method static Builder|PulseAggregate whereValue($value)
  * @mixin IdeHelperPulseAggregate
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
  * @mixin \Eloquent
  */

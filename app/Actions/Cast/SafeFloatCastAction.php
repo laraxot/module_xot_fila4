@@ -39,18 +39,22 @@ class SafeFloatCastAction
      * Converte in modo sicuro un valore mixed in float.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $value  Il valore da convertire
      * @param  float|null  $default  Valore di default se la conversione fallisce (default: 0.0)
      * @return float Il valore convertito
      */
     public function execute(mixed $value, ?float $default = 0.0): float
 =======
+=======
+>>>>>>> 5a14301c (.)
      * @param mixed $value Il valore da convertire
      * @param float|null $default Valore di default se la conversione fallisce (default: 0.0)
      *
      * @return float Il valore convertito
      */
     public function execute(mixed $value, null|float $default = 0.0): float
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +80,8 @@ class SafeFloatCastAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     {
         // Se è già un float, verifica che sia valido
         if (is_float($value)) {
@@ -117,6 +123,7 @@ class SafeFloatCastAction
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Metodo statico di convenienza per chiamate dirette.
      *
@@ -247,6 +254,8 @@ class SafeFloatCastAction
      */
     private function parseStringToFloat(string $value, ?float $default = 0.0): float
 =======
+=======
+>>>>>>> 5a14301c (.)
      * Converte una stringa in float con gestione avanzata.
      *
      * @param string $value La stringa da convertire
@@ -255,6 +264,9 @@ class SafeFloatCastAction
      * @return float Il valore convertito
      */
     private function parseStringToFloat(string $value, null|float $default = 0.0): float
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     {
         $trimmed = trim($value);
@@ -272,7 +284,11 @@ class SafeFloatCastAction
 
         // Verifica se è un numero valido dopo la pulizia
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (is_numeric($cleaned) && ! empty($cleaned)) {
+=======
+        if (is_numeric($cleaned) && !empty($cleaned)) {
+>>>>>>> 5a14301c (.)
 =======
         if (is_numeric($cleaned) && !empty($cleaned)) {
 >>>>>>> 5a14301c (.)
@@ -288,9 +304,12 @@ class SafeFloatCastAction
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
 
     /**
      * Metodo statico di convenienza per chiamate dirette.
@@ -419,5 +438,8 @@ class SafeFloatCastAction
     {
         return app(self::class)->executeAsCurrency($value, $default);
     }
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 }

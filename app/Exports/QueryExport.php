@@ -7,6 +7,7 @@ namespace Modules\Xot\Exports;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Traversable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Contracts\Support\Arrayable;
@@ -15,6 +16,10 @@ use Illuminate\Contracts\Support\Arrayable;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+use Illuminate\Contracts\Support\Arrayable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+>>>>>>> 5a14301c (.)
+=======
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 >>>>>>> 5a14301c (.)
@@ -38,15 +43,19 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     public array $headings = [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var array<int, int|string> */
     public array $fields = [];
 
     public ?string $transKey = null;
 =======
+=======
+>>>>>>> 5a14301c (.)
     /** @var array<int, string> */
     public array $fields = [];
 
     public null|string $transKey = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,10 +81,13 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 
     public QueryBuilder|EloquentBuilder $query;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param array<int, int|string> $fields
      */
@@ -109,6 +121,11 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+     * @param array<int, string> $fields
+     */
+    public function __construct(QueryBuilder|EloquentBuilder $query, null|string $transKey = null, array $fields = [])
+>>>>>>> 5a14301c (.)
     {
         $this->query = $query;
         $this->transKey = $transKey;
@@ -132,6 +149,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
          */
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * @return Collection<int, int|string>
@@ -158,12 +176,19 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
         if (!empty($this->fields)) {
             return collect($this->fields);
 >>>>>>> 5a14301c (.)
+=======
+    public function getHead(): Collection
+    {
+        if (!empty($this->fields)) {
+            return collect($this->fields);
+>>>>>>> 5a14301c (.)
         }
         /**
          * @var Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null
          */
         $first = $this->query->first();
         if (null === $first) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             /** @var Collection<int, int|string> $emptyCollection */
             $emptyCollection = collect([]);
@@ -179,16 +204,22 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 
         return $result;
 =======
+=======
+>>>>>>> 5a14301c (.)
             return collect([]);
         }
 
         // Parameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
         return collect($first)->keys();
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     }
 
     public function headings(): array
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** @var Collection<int|string, mixed> $headingsWithKeys */
         $headingsWithKeys = $this->getHead()
@@ -205,11 +236,16 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 
         return $translated->toArray();
 =======
+=======
+>>>>>>> 5a14301c (.)
         $headings = $this->getHead();
         $transKey = $this->transKey;
         $headings = app(TransCollectionAction::class)->execute($headings, $transKey);
 
         return $headings->toArray();
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     }
 
@@ -229,6 +265,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,6 +321,8 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null $item
      */
     public function map($item): array
@@ -294,6 +333,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 
         // rameter #1 $value of function collect expects Illuminate\Contracts\Support\Arrayable<(int|string), mixed>|iterable<(int|string), mixed>|null, object given.
         return collect($item)->only($this->fields)->toArray();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,5 +363,7 @@ class QueryExport implements FromQuery, ShouldQueue, WithChunkReading, WithHeadi
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     }
 }

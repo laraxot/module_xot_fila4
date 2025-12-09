@@ -7,6 +7,7 @@ namespace Modules\Xot\View\Components;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
@@ -16,10 +17,15 @@ use InvalidArgumentException;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use InvalidArgumentException;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
 /**
@@ -45,7 +51,11 @@ abstract class XotBaseComponent extends IlluminateComponent
      * Cache for resolved views.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @var array<string, string>
+=======
+     * @var array<string, view-string>
+>>>>>>> 5a14301c (.)
 =======
      * @var array<string, view-string>
 >>>>>>> 5a14301c (.)
@@ -64,7 +74,11 @@ abstract class XotBaseComponent extends IlluminateComponent
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Get the view name for this component.
+=======
+     * Summary of getView.
+>>>>>>> 5a14301c (.)
 =======
      * Summary of getView.
 >>>>>>> 5a14301c (.)
@@ -77,7 +91,10 @@ abstract class XotBaseComponent extends IlluminateComponent
 
         if (isset(self::$viewCache[$class])) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var view-string */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
             return self::$viewCache[$class];
@@ -90,6 +107,7 @@ abstract class XotBaseComponent extends IlluminateComponent
         $comp_name = str_replace('\\', '.', $comp_name);
         $comp_name = Str::snake($comp_name);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,12 +132,17 @@ abstract class XotBaseComponent extends IlluminateComponent
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         $view = $module_name_low . '::components.' . $comp_name;
         $view = str_replace('._', '.', $view);
 
         if (!view()->exists($view)) {
             throw new InvalidArgumentException("View [{$view}] does not exist.");
         }
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         self::$viewCache[$class] = $view;
 

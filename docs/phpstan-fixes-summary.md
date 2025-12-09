@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # PHPStan Fixes Summary - 18 Agosto 2025
 
@@ -218,6 +219,8 @@ Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli
 =======
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
 # PHPStan Type Errors - Fix Summary
 
 ## Overview
@@ -283,6 +286,7 @@ All fixed files now pass PHPStan analysis:
 - **Error Handling**: Clear exception messages for debugging
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 The fixes maintain backward compatibility while significantly improving type safety and code reliability.
 >>>>>>> 5a14301c (.)
 =======
@@ -290,3 +294,6 @@ The fixes maintain backward compatibility while significantly improving type saf
 =======
 The fixes maintain backward compatibility while significantly improving type safety and code reliability.
 >>>>>>> d86d643a (.)
+=======
+The fixes maintain backward compatibility while significantly improving type safety and code reliability.
+>>>>>>> 5a14301c (.)

@@ -10,6 +10,10 @@ namespace Modules\Xot\Actions\Model;
 
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Session;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Support\Facades\Session;
 >>>>>>> 5a14301c (.)
@@ -23,7 +27,11 @@ class UpdateAction
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed> $data
 >>>>>>> 5a14301c (.)
@@ -36,7 +44,11 @@ class UpdateAction
         $keyName = $model->getKeyName();
         // $data['updated_by'] = authId();
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($model->getKey() === null) {
+=======
+        if (null === $model->getKey()) {
+>>>>>>> 5a14301c (.)
 =======
         if (null === $model->getKey()) {
 >>>>>>> 5a14301c (.)
@@ -58,6 +70,7 @@ class UpdateAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          */
         $model = tap($model)->update($data);
 
@@ -74,11 +87,14 @@ class UpdateAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
          *
          */
         $model = tap($model)->update($data);
 
         app(__NAMESPACE__ . '\\Update\RelationAction')->execute($model, $data);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,6 +126,8 @@ class UpdateAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 
         // $msg = 'aggiornato! ['.$model->getKey().']!';
 

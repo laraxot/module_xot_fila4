@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Tables\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Closure;
 use Filament\Actions\Action;
 <<<<<<< HEAD
@@ -40,12 +41,19 @@ use Filament\Tables\Actions\Action;
 use Filament\Actions\Action;
 use Closure;
 >>>>>>> ca9324a4 (.)
+=======
+use Filament\Actions\Action;
+use Closure;
+>>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * @property ?Model $record
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
  * @method ?Model getRecord()
@@ -53,12 +61,18 @@ use Illuminate\Database\Eloquent\Model;
 abstract class XotBaseTableAction extends Action
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getRecord(bool $withDefault = true): ?Model
 =======
+=======
+>>>>>>> 5a14301c (.)
     /**
      * @return Model|null
      */
     public function getRecord(bool $withDefault = true): null|Model
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     {
         if ($this->record instanceof Closure) {

@@ -5,14 +5,20 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\String;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 
 =======
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
 
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 class GetPronounceablePasswordAction
 {
@@ -22,7 +28,11 @@ class GetPronounceablePasswordAction
      * Genera una password pronunciabile con caratteri speciali e numeri.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  int  $length  Lunghezza minima della password (default: 12)
+=======
+     * @param int $length Lunghezza minima della password (default: 12)
+>>>>>>> 5a14301c (.)
 =======
      * @param int $length Lunghezza minima della password (default: 12)
 >>>>>>> 5a14301c (.)
@@ -59,15 +69,21 @@ class GetPronounceablePasswordAction
 
         // Costruisci la parte pronunciabile alternando consonanti e vocali
 <<<<<<< HEAD
+<<<<<<< HEAD
         while (strlen($password) < $length - 4) {
             $char = $useConsonant ? $consonants[array_rand($consonants)] : $vowels[array_rand($vowels)];
             $password .= $char;
             $useConsonant = ! $useConsonant;
 =======
+=======
+>>>>>>> 5a14301c (.)
         while (strlen($password) < ($length - 4)) {
             $char = $useConsonant ? $consonants[array_rand($consonants)] : $vowels[array_rand($vowels)];
             $password .= $char;
             $useConsonant = !$useConsonant;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         }
 
@@ -75,7 +91,11 @@ class GetPronounceablePasswordAction
         if (strlen($password) === 0) {
             // Fallback: genera almeno una consonante e una vocale
 <<<<<<< HEAD
+<<<<<<< HEAD
             $password = $consonants[array_rand($consonants)].$vowels[array_rand($vowels)];
+=======
+            $password = $consonants[array_rand($consonants)] . $vowels[array_rand($vowels)];
+>>>>>>> 5a14301c (.)
 =======
             $password = $consonants[array_rand($consonants)] . $vowels[array_rand($vowels)];
 >>>>>>> 5a14301c (.)
@@ -94,7 +114,11 @@ class GetPronounceablePasswordAction
 
         // Evita duplicazioni semplici: aggiungi un'altra minuscola casuale
 <<<<<<< HEAD
+<<<<<<< HEAD
         $password .= $uppercase.$digit.$special;
+=======
+        $password .= $uppercase . $digit . $special;
+>>>>>>> 5a14301c (.)
 =======
         $password .= $uppercase . $digit . $special;
 >>>>>>> 5a14301c (.)

@@ -30,6 +30,7 @@ class ExecuteSqlFileCommand extends Command
     /**
      * Execute the console command.
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function handle(): int
     {
@@ -42,11 +43,18 @@ class ExecuteSqlFileCommand extends Command
      * @return int
      */
     public function handle(): int
+=======
+     *
+     * @return int
+     */
+    public function handle()
+>>>>>>> 5a14301c (.)
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');
         Assert::string($filePath, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         if (!file_exists($filePath)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +84,8 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -107,17 +117,21 @@ class ExecuteSqlFileCommand extends Command
 
         try {
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Connessione al database - $sql è sempre string grazie a Safe\file_get_contents
             DB::connection('temp')->unprepared($sql);
             $this->info('File .sql eseguito con successo!');
         } catch (Exception $e) {
             $this->error("Errore durante l'esecuzione del file: ".$e->getMessage());
 =======
+=======
+>>>>>>> 5a14301c (.)
             // Connessione al database
             DB::connection('temp')->unprepared($sql);
             $this->info('File .sql eseguito con successo!');
         } catch (Exception $e) {
             $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +159,8 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 
             return Command::FAILURE;
         } finally {

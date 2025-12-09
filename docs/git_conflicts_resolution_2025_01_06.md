@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
@@ -19,6 +20,9 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto <no
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 43d67f21 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 5a14301c (.)
 
 ## File Corretti
 
@@ -216,6 +220,7 @@ php artisan lang:check
 **Autore**: Sistema di correzione automatica
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Stato**: ✅ Completato
 =======
 **Stato**: ✅ Completato
@@ -223,3 +228,6 @@ php artisan lang:check
 =======
 **Stato**: ✅ Completato
 >>>>>>> 399f46d3 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)

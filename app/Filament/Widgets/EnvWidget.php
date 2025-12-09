@@ -8,6 +8,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
@@ -18,11 +19,14 @@ use Filament\Actions\Contracts\HasActions;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Filament\Schemas\Components\Component;
 use Filament\Actions\Contracts\HasActions;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Schemas\Schema;
 use Filament\Forms;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -37,13 +41,18 @@ use Filament\Forms\ComponentContainer;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 use Filament\Widgets\Widget;
@@ -53,6 +62,7 @@ use Modules\Xot\Datas\EnvData;
 /**
  * @property Schema $form
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class EnvWidget extends Widget implements HasActions, HasForms
@@ -86,11 +96,15 @@ class EnvWidget extends Widget implements HasForms, HasActions
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+class EnvWidget extends Widget implements HasForms, HasActions
+>>>>>>> 5a14301c (.)
 {
     use InteractsWithActions;
     use InteractsWithForms;
 
     /** @var array<string, mixed>|null */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,6 +133,9 @@ class EnvWidget extends Widget implements HasForms, HasActions
 =======
     public null|array $data = [];
 >>>>>>> ca9324a4 (.)
+=======
+    public null|array $data = [];
+>>>>>>> 5a14301c (.)
 
     public array $only = [];
 
@@ -140,6 +157,7 @@ class EnvWidget extends Widget implements HasForms, HasActions
 
     public function submit(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +190,9 @@ class EnvWidget extends Widget implements HasForms, HasActions
 =======
         if (!is_array($this->data)) {
 >>>>>>> ca9324a4 (.)
+=======
+        if (!is_array($this->data)) {
+>>>>>>> 5a14301c (.)
             return;
         }
         EnvData::make()->update($this->data);
@@ -213,7 +234,13 @@ class EnvWidget extends Widget implements HasForms, HasActions
          * @var array<Component>
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
         return Arr::only($all, $this->only);
+=======
+        $fields = Arr::only($all, $this->only);
+
+        return $fields;
+>>>>>>> 5a14301c (.)
 =======
         $fields = Arr::only($all, $this->only);
 

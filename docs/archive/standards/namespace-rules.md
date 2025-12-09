@@ -19,32 +19,42 @@ Nonostante le classi possano risiedere fisicamente nella sottodirectory `app/` d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
 // File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
 =======
+=======
+>>>>>>> 5a14301c (.)
 // File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
 // File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Dental/app/Services/AppointmentService.php
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
 // File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
 // File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
 // File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
 // File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Dental/app/Services/AppointmentService.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
@@ -66,6 +76,8 @@ namespace Modules\Patient\Models;
 
 // File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
 namespace Modules\Dental\Services;
 ```
 

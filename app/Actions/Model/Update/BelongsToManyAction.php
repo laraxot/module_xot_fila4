@@ -7,11 +7,15 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+use RuntimeException;
+>>>>>>> 5a14301c (.)
+=======
 use RuntimeException;
 >>>>>>> 5a14301c (.)
 use Exception;
@@ -21,7 +25,10 @@ use Illuminate\Support\Facades\Session;
 use Modules\Xot\Actions\Model\UpdateAction;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use RuntimeException;
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
@@ -47,6 +54,7 @@ class BelongsToManyAction
             Assert::allScalar($to, 'The "to" field must contain only scalar values.');
 
             $rows->sync($to);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $status = 'collegati ['.implode(', ', $to).'] ';
@@ -84,6 +92,9 @@ class BelongsToManyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+>>>>>>> 5a14301c (.)
             Session::flash('status', $status);
 
             return;
@@ -99,6 +110,7 @@ class BelongsToManyAction
             Assert::isArray($data, 'Each item in RelationDTO->data must be an array.');
             if (\array_key_exists($keyName, $data)) {
                 // Aggiorna o crea il modello correlato
+<<<<<<< HEAD
 <<<<<<< HEAD
                 /** @var array<string, mixed> $safeData */
                 $safeData = $data;
@@ -145,6 +157,11 @@ class BelongsToManyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+                Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+>>>>>>> 5a14301c (.)
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();
@@ -155,6 +172,7 @@ class BelongsToManyAction
         }
 
         // Sincronizza gli ID raccolti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,6 +205,9 @@ class BelongsToManyAction
 =======
         if (!empty($ids)) {
 >>>>>>> ca9324a4 (.)
+=======
+        if (!empty($ids)) {
+>>>>>>> 5a14301c (.)
             try {
                 // Assicura che $ids sia un array di valori scalari
                 // $ids è già un array non vuoto a questo punto, quindi non serve verificare se è iterabile

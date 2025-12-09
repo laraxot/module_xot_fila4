@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\Widget;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
@@ -12,6 +13,8 @@ use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 use ReflectionMethod;
 use Throwable;
 =======
+=======
+>>>>>>> 5a14301c (.)
 use ReflectionMethod;
 use Throwable;
 use Filament\Widgets\Widget;
@@ -19,6 +22,9 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
 /**
@@ -30,7 +36,12 @@ class ModulesOverviewWidget extends Widget
     protected string $view = 'xot::filament.widgets.modules-overview';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected int|string|array $columnSpan = 'full';
+=======
+    protected int | string | array $columnSpan = 'full';
+
+>>>>>>> 5a14301c (.)
 =======
     protected int | string | array $columnSpan = 'full';
 
@@ -56,15 +67,21 @@ class ModulesOverviewWidget extends Widget
             $user = Auth::user();
             $hasRoleFn = static function (string $role) use ($user): bool {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (! $user) {
                     return false;
                 }
                 if (! method_exists($user, 'hasRole')) {
 =======
+=======
+>>>>>>> 5a14301c (.)
                 if (!$user) {
                     return false;
                 }
                 if (!method_exists($user, 'hasRole')) {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
                     return true; // fallback: mostra se non abbiamo sistema ruoli
                 }
@@ -72,7 +89,10 @@ class ModulesOverviewWidget extends Widget
                     // Usa reflection per evitare errori di linting
                     $reflection = new ReflectionMethod($user, 'hasRole');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
                     return (bool) $reflection->invoke($user, $role);
@@ -83,7 +103,11 @@ class ModulesOverviewWidget extends Widget
 
             foreach ($configs as $cfg) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $role = $cfg['module_low'].'::admin';
+=======
+                $role = $cfg['module_low'] . '::admin';
+>>>>>>> 5a14301c (.)
 =======
                 $role = $cfg['module_low'] . '::admin';
 >>>>>>> 5a14301c (.)
@@ -95,7 +119,11 @@ class ModulesOverviewWidget extends Widget
                     'name' => $cfg['module'],
                     'name_lower' => $cfg['module_low'],
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'url' => '/'.$cfg['module_low'].'/admin',
+=======
+                    'url' => '/' . $cfg['module_low'] . '/admin',
+>>>>>>> 5a14301c (.)
 =======
                     'url' => '/' . $cfg['module_low'] . '/admin',
 >>>>>>> 5a14301c (.)
@@ -104,22 +132,29 @@ class ModulesOverviewWidget extends Widget
                 ];
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             return $modules;
         } catch (Throwable $e) {
             Log::error('Errore nel caricamento moduli per widget: '.$e->getMessage());
 
 =======
+=======
+>>>>>>> 5a14301c (.)
             
             return $modules;
         } catch (Throwable $e) {
             Log::error('Errore nel caricamento moduli per widget: ' . $e->getMessage());
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
             return $this->getDefaultModules();
         }
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Determina se il widget deve essere visibile.
      */
@@ -129,6 +164,8 @@ class ModulesOverviewWidget extends Widget
     }
 
     /**
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
      * Restituisce una lista di moduli di default in caso di errori.
@@ -147,33 +184,45 @@ class ModulesOverviewWidget extends Widget
             ],
             [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name' => '<main module>',
                 'name_lower' => '<nome progetto>',
                 'url' => '/<nome progetto>/admin',
                 'icon' => 'heroicon-o-clipboard-document-list',
                 'description' => $this->getModuleDescription('<main module>'),
 =======
+=======
+>>>>>>> 5a14301c (.)
                 'name' => 'TechPlanner',
                 'name_lower' => 'techplanner',
                 'url' => '/techplanner/admin',
                 'icon' => 'heroicon-o-clipboard-document-list',
                 'description' => $this->getModuleDescription('TechPlanner'),
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
             ],
         ];
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * Ottiene la descrizione per un modulo.
      *
      * @param  string  $module  Nome del modulo
 =======
+=======
+>>>>>>> 5a14301c (.)
 
     /**
      * Ottiene la descrizione per un modulo.
      *
      * @param string $module Nome del modulo
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
      * @return string Descrizione del modulo
      */
@@ -182,7 +231,11 @@ class ModulesOverviewWidget extends Widget
         $descriptions = [
             'User' => 'Gestione utenti e autenticazione',
 <<<<<<< HEAD
+<<<<<<< HEAD
             '<main module>' => 'Pianificazione tecnica e progetti',
+=======
+            'TechPlanner' => 'Pianificazione tecnica e progetti',
+>>>>>>> 5a14301c (.)
 =======
             'TechPlanner' => 'Pianificazione tecnica e progetti',
 >>>>>>> 5a14301c (.)
@@ -197,9 +250,12 @@ class ModulesOverviewWidget extends Widget
         ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $descriptions[$module] ?? 'Modulo '.$module;
     }
 =======
+=======
+>>>>>>> 5a14301c (.)
         return $descriptions[$module] ?? 'Modulo ' . $module;
     }
 
@@ -211,5 +267,8 @@ class ModulesOverviewWidget extends Widget
         return true;
     }
 
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 }

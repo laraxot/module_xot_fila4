@@ -12,6 +12,11 @@ use Exception;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Http\Request;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Http\Response;
+use Illuminate\Support\Facades\View;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\View;
@@ -25,7 +30,12 @@ class ExceptionHandler
      * Configura la gestione delle eccezioni.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Exceptions  $exceptions  Configuratore eccezioni Laravel
+=======
+     * @param Exceptions $exceptions Configuratore eccezioni Laravel
+     * @return void
+>>>>>>> 5a14301c (.)
 =======
      * @param Exceptions $exceptions Configuratore eccezioni Laravel
      * @return void
@@ -42,6 +52,7 @@ class ExceptionHandler
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             $view = 'pub_theme::errors.'.$status_code;
             if (! view()->exists($view)) {
                 throw new Exception(
@@ -51,6 +62,8 @@ class ExceptionHandler
             $view_params = ['exception' => $e];
 
 =======
+=======
+>>>>>>> 5a14301c (.)
             $view = 'pub_theme::errors.' . $status_code;
             if (!view()->exists($view)) {
                 throw new Exception(
@@ -58,6 +71,7 @@ class ExceptionHandler
                 );
             }
             $view_params = ['exception' => $e];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,6 +111,8 @@ class ExceptionHandler
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             return response()->view($view, $view_params, $status_code);
         });
     }

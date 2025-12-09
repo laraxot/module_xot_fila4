@@ -16,6 +16,7 @@ class TableExistsByModelClassActions
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! class_exists($modelClass)) {
 =======
         if (!class_exists($modelClass)) {
@@ -44,6 +45,9 @@ class TableExistsByModelClassActions
 =======
         if (!class_exists($modelClass)) {
 >>>>>>> ca9324a4 (.)
+=======
+        if (!class_exists($modelClass)) {
+>>>>>>> 5a14301c (.)
             return false;
         }
 

@@ -34,7 +34,11 @@ class InformationSchemaTableFactory extends Factory
         return [
             'table_catalog' => 'def',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
+=======
+            'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
+>>>>>>> 5a14301c (.)
 =======
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
 >>>>>>> 5a14301c (.)
@@ -66,6 +70,7 @@ class InformationSchemaTableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
         return $this->state(fn(array $_attributes): array => [
@@ -94,6 +99,9 @@ class InformationSchemaTableFactory extends Factory
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> ca9324a4 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 5a14301c (.)
             'table_type' => 'BASE TABLE',
         ]);
     }
@@ -104,6 +112,7 @@ class InformationSchemaTableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
         return $this->state(fn(array $_attributes): array => [
@@ -132,6 +141,9 @@ class InformationSchemaTableFactory extends Factory
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> ca9324a4 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 5a14301c (.)
             'table_type' => 'VIEW',
         ]);
     }

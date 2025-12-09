@@ -3,6 +3,10 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a14301c (.)
 =======
 
 >>>>>>> 5a14301c (.)
@@ -87,7 +91,10 @@ return [
             'description' => 'google_maps_api_key',
             'helper_text' => 'google_maps_api_key',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'placeholder' => 'google_maps_api_key',
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
         ],

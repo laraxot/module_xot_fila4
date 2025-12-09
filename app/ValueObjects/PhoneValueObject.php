@@ -8,6 +8,7 @@ use InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 5a14301c (.)
@@ -21,6 +22,8 @@ use InvalidArgumentException;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use function Safe\preg_match;
 
 /**
@@ -30,7 +33,11 @@ readonly class PhoneValueObject
 {
     private function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
         private string $phone,
+=======
+        private  string $phone,
+>>>>>>> 5a14301c (.)
 =======
         private  string $phone,
 >>>>>>> 5a14301c (.)
@@ -38,6 +45,7 @@ readonly class PhoneValueObject
 
     public static function fromString(string $phone): self
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (preg_match('/^\+1\d{10}$/', $phone) === 0) {
 =======
@@ -50,6 +58,9 @@ readonly class PhoneValueObject
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        if (0 === preg_match('/^\+1\d{10}$/', $phone)) {
+>>>>>>> 5a14301c (.)
             throw new InvalidArgumentException('It is not valid phone value');
         }
 

@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\File\FixPathAction;
@@ -16,11 +17,16 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Actions\File\FixPathAction;
 use Exception;
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
 class GetViewAction
@@ -30,6 +36,7 @@ class GetViewAction
     /**
      * Summary of execute.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +52,8 @@ class GetViewAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
      * @throws Exception
      *
      * @return view-string
@@ -52,6 +61,9 @@ class GetViewAction
     public function execute(string $tpl = '', string $file0 = ''): string
     {
         if ('' === $file0) {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
             $backtrace = debug_backtrace();
             $file0 = app(FixPathAction::class)->execute($backtrace[0]['file'] ?? '');
@@ -60,7 +72,11 @@ class GetViewAction
         $file0 = Str::after($file0, base_path());
         $arr = explode(DIRECTORY_SEPARATOR, $file0);
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($arr[0] === '') {
+=======
+        if ('' === $arr[0]) {
+>>>>>>> 5a14301c (.)
 =======
         if ('' === $arr[0]) {
 >>>>>>> 5a14301c (.)
@@ -81,6 +97,7 @@ class GetViewAction
             ->implode('.');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pub_view = 'pub_theme::'.$tmp;
         // $pub_view è sempre stringa perché costruita da stringhe
 
@@ -89,12 +106,17 @@ class GetViewAction
         }
         // PHPStan: $pub_view è sempre non-falsy-string, Assert ridondante rimosso
 =======
+=======
+>>>>>>> 5a14301c (.)
         $pub_view = 'pub_theme::' . $tmp;
         Assert::string($pub_view, '[' . __LINE__ . '][' . class_basename($this) . ']');
 
         if ('' !== $tpl) {
             $pub_view .= '.' . $tpl;
         }
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         if (view()->exists($pub_view)) {
             return $pub_view;
@@ -104,6 +126,7 @@ class GetViewAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view = Str::lower($mod).'::'.$tmp;
 
         if ($tpl !== '') {
@@ -120,10 +143,13 @@ class GetViewAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         $view = Str::lower($mod) . '::' . $tmp;
 
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,10 +179,13 @@ class GetViewAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         }
 
         // if (inAdmin()) {
         if (Str::contains($view, '::panels.actions.')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,11 +218,15 @@ class GetViewAction
 =======
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
 >>>>>>> ca9324a4 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 5a14301c (.)
             $view = Str::replace('::panels.actions.', $to, $view);
             $view = Str::replace('-action', '', $view);
         }
 
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +276,11 @@ class GetViewAction
         if (!view()->exists($view)) {
             throw new Exception('View [' . $view . '] not found');
 >>>>>>> ca9324a4 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 5a14301c (.)
         }
 
         return $view;

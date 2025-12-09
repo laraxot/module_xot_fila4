@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\File;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BladeUI\Icons\Factory as IconFactory;
 use Exception;
 =======
@@ -14,6 +15,10 @@ use Exception;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+use Exception;
+use BladeUI\Icons\Factory as IconFactory;
+>>>>>>> 5a14301c (.)
+=======
 use Exception;
 use BladeUI\Icons\Factory as IconFactory;
 >>>>>>> 5a14301c (.)
@@ -30,7 +35,12 @@ class SvgExistsAction
      * Verifica se l'SVG esiste nei set di icone registrati.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $svgName  Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+=======
+     * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
      *

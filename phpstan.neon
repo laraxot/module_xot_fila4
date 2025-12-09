@@ -1,6 +1,10 @@
 parameters:
 <<<<<<< HEAD
+<<<<<<< HEAD
     level: 10
+=======
+    level: 7
+>>>>>>> 5a14301c (.)
 =======
     level: 7
 >>>>>>> 5a14301c (.)
@@ -10,6 +14,10 @@ parameters:
         - database
         - routes
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        - tests
+>>>>>>> 5a14301c (.)
 =======
         - tests
 >>>>>>> 5a14301c (.)
@@ -17,6 +25,7 @@ parameters:
         - app_old/*
         - vendor/*
         - tests/coverage/*
+<<<<<<< HEAD
 <<<<<<< HEAD
     treatPhpDocTypesAsCertain: false
     reportUnmatchedIgnoredErrors: false
@@ -26,6 +35,8 @@ parameters:
     inferPrivatePropertyTypeFromConstructor: true
 
 =======
+=======
+>>>>>>> 5a14301c (.)
     checkMissingIterableValueType: true
     checkGenericClassInNonGenericObjectType: true
     checkMissingCallableSignature: true
@@ -53,6 +64,9 @@ parameters:
     # Regole per la documentazione
     checkPhpDocMissingReturn: true
 
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 services:
     -

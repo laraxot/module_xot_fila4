@@ -40,7 +40,11 @@ class HtmlService
         // $pdforientation = 'L'; // default;
         // $out = 'show';
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($filename === '') {
+=======
+        if ('' === $filename) {
+>>>>>>> 5a14301c (.)
 =======
         if ('' === $filename) {
 >>>>>>> 5a14301c (.)
@@ -61,17 +65,23 @@ class HtmlService
             $html2pdf->setTestTdInOnePage(false);
             $html2pdf->WriteHTML($html);
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ($out === 'content_PDF') {
                 return $html2pdf->Output($filename.'.pdf', 'S');
             }
 
             if ($out === 'file') {
 =======
+=======
+>>>>>>> 5a14301c (.)
             if ('content_PDF' === $out) {
                 return $html2pdf->Output($filename . '.pdf', 'S');
             }
 
             if ('file' === $out) {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
                 $html2pdf->Output($filename, 'F');
 

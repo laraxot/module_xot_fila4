@@ -12,7 +12,11 @@ use Illuminate\Database\Eloquent\Model;
  * Base class for rating morphs extending Eloquent Model.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseRatingMorph extends BaseModel
+=======
+abstract class BaseRatingMorph extends Model
+>>>>>>> 5a14301c (.)
 =======
 abstract class BaseRatingMorph extends Model
 >>>>>>> 5a14301c (.)

@@ -21,7 +21,11 @@ return [
         'login' => [
             'label' => 'Login',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'icon' => 'ui-login',
+=======
+            'icon' => 'heroicon-o-login',
+>>>>>>> 5a14301c (.)
 =======
             'icon' => 'heroicon-o-login',
 >>>>>>> 5a14301c (.)

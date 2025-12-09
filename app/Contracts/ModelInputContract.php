@@ -12,6 +12,7 @@ use Illuminate\Support\Carbon;
  * Modules\Xot\Contracts\ModelContract.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $id
  * @property int|null $user_id
  * @property string|null $name
@@ -25,6 +26,8 @@ use Illuminate\Support\Carbon;
  * @property bool $is_reclamed
  * @property bool $table_enable
 =======
+=======
+>>>>>>> 5a14301c (.)
  * @property int                $id
  * @property int|null           $user_id
  * @property string|null        $name
@@ -37,6 +40,9 @@ use Illuminate\Support\Carbon;
  * @property string|null        $title
  * @property bool               $is_reclamed
  * @property bool               $table_enable
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
  * @property PivotContract|null $pivot
  * @property string $tennant_name
@@ -47,6 +53,7 @@ use Illuminate\Support\Carbon;
  * @property string $sms_body
  * @property string $sms_count
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @method mixed getKey()
  * @method string getRouteKey()
@@ -65,6 +72,8 @@ use Illuminate\Support\Carbon;
  * @method array treeSons()
  * @method array toArray()
 =======
+=======
+>>>>>>> 5a14301c (.)
  * @method mixed     getKey()
  * @method string    getRouteKey()
  * @method string    getRouteKeyName()
@@ -81,6 +90,9 @@ use Illuminate\Support\Carbon;
  * @method array     treeLabel()
  * @method array     treeSons()
  * @method array     toArray()
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
  * @method BelongsTo user()
  *
@@ -88,6 +100,7 @@ use Illuminate\Support\Carbon;
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,3 +144,8 @@ interface ModelInputContract
 {
 }
 >>>>>>> ca9324a4 (.)
+=======
+interface ModelInputContract
+{
+}
+>>>>>>> 5a14301c (.)

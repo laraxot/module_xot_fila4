@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Changelog - Modulo Xot
 
 Tutte le modifiche significative al modulo Xot sono documentate in questo file.
@@ -144,6 +145,8 @@ All notable changes to `:package_name` will be documented in this file.
 **Format:** [Keep a Changelog](https://keepachangelog.com/)  
 **Versioning:** [Semantic Versioning](https://semver.org/)
 =======
+=======
+>>>>>>> 5a14301c (.)
 # Changelog
 
 All notable changes to `:package_name` will be documented in this file.
@@ -151,4 +154,7 @@ All notable changes to `:package_name` will be documented in this file.
 ## 1.0.0 - 202X-XX-XX
 
 - initial release
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)

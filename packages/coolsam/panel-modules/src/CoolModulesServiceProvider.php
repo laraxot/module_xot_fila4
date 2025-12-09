@@ -32,17 +32,23 @@ class CoolModulesServiceProvider extends PackageServiceProvider
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function register(): void
     {
         $this->app->register(LaravelModulesServiceProvider::class);
 
         $this->app->afterResolving('filament', function (): void {
 =======
+=======
+>>>>>>> 5a14301c (.)
     public function register()
     {
         $this->app->register(LaravelModulesServiceProvider::class);
 
         $this->app->afterResolving('filament', function () {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
             $panels = Filament::getPanels();
 
@@ -60,17 +66,23 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                     $panel->renderHook(
                         'panels::sidebar.nav.start',
 <<<<<<< HEAD
+<<<<<<< HEAD
                         fn () => new HtmlString("<h2 class='m-2 p-2 font-black text-xl'>{$title}</h2>"),
                     )->renderHook(
                         'panels::sidebar.nav.end',
                         fn () => new HtmlString('<a href="'.
                         url('/admin').
 =======
+=======
+>>>>>>> 5a14301c (.)
                         fn() => new HtmlString("<h2 class='m-2 p-2 font-black text-xl'>{$title}</h2>"),
                     )->renderHook(
                         'panels::sidebar.nav.end',
                         fn() => new HtmlString('<a href="' .
                         url('/admin') .
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
                             '" class="fi-sidebar-item-btn">
                                         <svg class="fi-icon fi-size-lg fi-sidebar-item-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3">

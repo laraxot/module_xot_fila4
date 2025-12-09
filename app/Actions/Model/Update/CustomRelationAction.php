@@ -28,7 +28,10 @@ class CustomRelationAction
         foreach ($relationDTO->data as $data) {
             Assert::isArray($data);
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var array<string, mixed> $data PHPStan: ensure correct type */
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
             if (\in_array($keyName, array_keys($data), false)) {

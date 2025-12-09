@@ -8,6 +8,10 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Query\Builder;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Database\Query\Builder;
 >>>>>>> 5a14301c (.)
@@ -25,8 +29,13 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string $user_id
  * @property Collection<int, Role> $roles
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int|null $roles_count
  * @property UserContract $user
+=======
+ * @property int|null              $roles_count
+ * @property UserContract          $user
+>>>>>>> 5a14301c (.)
 =======
  * @property int|null              $roles_count
  * @property UserContract          $user
@@ -60,6 +69,7 @@ interface ProfileContract extends HasMedia
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?string $guard = null,
 =======
         null|string $guard = null,
@@ -67,6 +77,9 @@ interface ProfileContract extends HasMedia
 =======
         null|string $guard = null,
 >>>>>>> 3fbbf1f5 (.)
+=======
+        null|string $guard = null,
+>>>>>>> 5a14301c (.)
     ): bool;
 
     /**
@@ -86,6 +99,7 @@ interface ProfileContract extends HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
 =======
 =======
@@ -94,6 +108,8 @@ interface ProfileContract extends HasMedia
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
 
     /**
@@ -104,6 +120,9 @@ interface ProfileContract extends HasMedia
      * @return \Illuminate\Database\Eloquent\Builder|static
      */
     public function newEloquentBuilder($query);
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
     /**

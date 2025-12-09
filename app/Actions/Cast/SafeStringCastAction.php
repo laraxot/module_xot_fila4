@@ -17,7 +17,12 @@ class SafeStringCastAction
      * impostare delle eccezzioni ?
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $value  Il valore da convertire
+=======
+     * @param mixed $value Il valore da convertire
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param mixed $value Il valore da convertire
      *
@@ -55,7 +60,12 @@ class SafeStringCastAction
      * Metodo statico di convenienza per chiamate dirette.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $value  Il valore da convertire
+=======
+     * @param mixed $value Il valore da convertire
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param mixed $value Il valore da convertire
      *

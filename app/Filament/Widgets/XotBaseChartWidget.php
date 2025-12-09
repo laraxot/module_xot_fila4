@@ -7,6 +7,12 @@ namespace Modules\Xot\Filament\Widgets;
 use Filament\Widgets\ChartWidget as FilamentChartWidget;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\DB;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;
@@ -23,6 +29,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 abstract class XotBaseChartWidget extends FilamentChartWidget
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     use InteractsWithPageFilters;
     use TransTrait;
 
@@ -34,6 +41,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 
     protected ?string $pollingInterval = null;
 =======
+=======
+>>>>>>> 5a14301c (.)
     use TransTrait;
     use InteractsWithPageFilters;
 
@@ -41,6 +50,9 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
     protected static null|int $sort = 1;
     protected static bool $isLazy = true;
     protected null|string $pollingInterval = null;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
     /**
@@ -50,6 +62,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getHeading(): ?string
 =======
     public function getHeading(): null|string
@@ -57,6 +70,9 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 =======
     public function getHeading(): null|string
 >>>>>>> 3fbbf1f5 (.)
+=======
+    public function getHeading(): null|string
+>>>>>>> 5a14301c (.)
     {
         return static::trans('navigation.heading');
     }
@@ -101,6 +117,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'label' => 'function(context) {
                             return "'.
                                 __('<nome modulo>::widgets.patient_registration_trend.total_registrations').
@@ -120,6 +137,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
                         'label' =>
 
                                 'function(context) {
@@ -128,6 +147,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                                 '".replace(":count", context.parsed.y);
                         }'
                             ,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,6 +173,8 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
                     ],
                 ],
             ],
@@ -162,7 +184,11 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                     'title' => [
                         'display' => true,
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'text' => __('<nome modulo>::widgets.patient_registration_trend.period.label'),
+=======
+                        'text' => __('salutemo::widgets.patient_registration_trend.period.label'),
+>>>>>>> 5a14301c (.)
 =======
                         'text' => __('salutemo::widgets.patient_registration_trend.period.label'),
 >>>>>>> 5a14301c (.)
@@ -176,7 +202,11 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
                     'title' => [
                         'display' => true,
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'text' => __('<nome modulo>::widgets.patient_registration_trend.total_registrations'),
+=======
+                        'text' => __('salutemo::widgets.patient_registration_trend.total_registrations'),
+>>>>>>> 5a14301c (.)
 =======
                         'text' => __('salutemo::widgets.patient_registration_trend.total_registrations'),
 >>>>>>> 5a14301c (.)
@@ -202,6 +232,7 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function getHeight(): ?string
 =======
 =======
@@ -215,6 +246,9 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+    protected function getHeight(): null|string
+>>>>>>> 5a14301c (.)
+=======
     protected function getHeight(): null|string
 >>>>>>> 5a14301c (.)
     {

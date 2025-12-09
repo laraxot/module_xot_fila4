@@ -18,6 +18,7 @@ class MorphToOneAction
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         // if ($relationDTO === null) {
         //    return;
         // }
@@ -33,6 +34,8 @@ class MorphToOneAction
 
         // }
 =======
+=======
+>>>>>>> 5a14301c (.)
         //if ($relationDTO === null) {
         //    return;
         //}
@@ -47,6 +50,9 @@ class MorphToOneAction
         $rows->create($relationDTO->data);
 
         //}
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         // } else {
         //    $rows->sync($relation->data);

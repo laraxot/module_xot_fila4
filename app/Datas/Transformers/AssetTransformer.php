@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -33,6 +34,9 @@ declare(strict_types=1);
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+
+>>>>>>> 5a14301c (.)
 namespace Modules\Xot\Datas\Transformers;
 
 use Modules\Xot\Actions\File\AssetAction;
@@ -51,6 +55,7 @@ class AssetTransformer implements Transformer
     /**
      * Trasforma un riferimento di file in un percorso completo
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +83,8 @@ class AssetTransformer implements Transformer
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param DataProperty $_property La proprietà di dati (non utilizzata)
      * @param mixed $value Il valore da trasformare (es. "user::image.png")
      * @param TransformationContext $_context Il contesto di trasformazione (non utilizzato)
@@ -88,6 +95,9 @@ class AssetTransformer implements Transformer
         if (!is_string($value) || empty($value)) {
             return '';
         }
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         return app(AssetAction::class)->execute($value);
     }

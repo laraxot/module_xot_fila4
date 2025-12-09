@@ -7,23 +7,32 @@ namespace Modules\Xot\Models;
 // use Laravel\Scout\Searchable;
 // ---------- traits
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Modules\Xot\Traits\Updater;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
 /**
  * Class BaseModel.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseModel extends XotBaseModel
 {
     protected $connection = 'xot';
 
 =======
+=======
+>>>>>>> 5a14301c (.)
 abstract class BaseModel extends Model
 {
     use HasFactory;
@@ -72,6 +81,9 @@ abstract class BaseModel extends Model
         return app(GetFactoryAction::class)->execute(static::class);
     }
 
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     /** @return array<string, class-string|string> */
     protected function casts(): array

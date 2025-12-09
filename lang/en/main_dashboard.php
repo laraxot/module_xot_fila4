@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 return [
     'sections' => [
         'empty' => [
@@ -10,6 +11,8 @@ return [
     ],
 ];
 =======
+=======
+>>>>>>> 5a14301c (.)
 return array (
   'sections' => 
   array (
@@ -20,4 +23,7 @@ return array (
     ),
   ),
 );
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)

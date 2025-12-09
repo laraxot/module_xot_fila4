@@ -8,6 +8,10 @@ use Illuminate\Support\Facades\View;
 use Modules\Xot\Datas\XotData;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
 =======
 use Webmozart\Assert\Assert;
 >>>>>>> 5a14301c (.)
@@ -20,16 +24,20 @@ class GetViewNameSpacePathAction
      * Ottiene il percorso di un namespace di vista.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $ns  Il namespace della vista
      * @return string|null Il percorso del namespace o null se non trovato
      */
     public function execute(string $ns): ?string
 =======
+=======
+>>>>>>> 5a14301c (.)
      * @param string $ns Il namespace della vista
      *
      * @return string|null Il percorso del namespace o null se non trovato
      */
     public function execute(string $ns): null|string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +63,8 @@ class GetViewNameSpacePathAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     {
         $xot = XotData::make();
 
@@ -85,17 +95,21 @@ class GetViewNameSpacePathAction
         $theme_name = $xot->{$ns} ?? null;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($theme_name)) {
             return null; // Restituiamo null se il tema non è una stringa
         }
 
         return base_path('Themes/'.$theme_name);
 =======
+=======
+>>>>>>> 5a14301c (.)
         if (!is_string($theme_name)) {
             return null; // Restituiamo null se il tema non è una stringa
         }
 
         return base_path('Themes/' . $theme_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,5 +135,7 @@ class GetViewNameSpacePathAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     }
 }

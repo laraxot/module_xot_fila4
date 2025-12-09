@@ -30,6 +30,7 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 - [Torna a README.md del modulo Xot](../README.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Collegamento a docs/links.md della root](../../../../docs/links.md)
 
 <<<<<<< HEAD
@@ -50,6 +51,10 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
 >>>>>>> 43d67f21 (.)
+=======
+- [Collegamento a docs/links.md della root](../../../../docs/links.md)
+
+>>>>>>> 5a14301c (.)
 ## Utilizzo di GetModulePathByGeneratorAction
 
 ### Panoramica
@@ -187,9 +192,12 @@ L'utilizzo di `GetModulePathByGeneratorAction` anziché chiamate dirette a `modu
 Si raccomanda di seguire questo pattern in tutti i service provider personalizzati per garantire coerenza e affidabilità nell'accesso ai percorsi dei moduli. 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)

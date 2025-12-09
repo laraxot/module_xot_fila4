@@ -11,6 +11,7 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
@@ -20,10 +21,15 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Spatie\SchemalessAttributes\SchemalessAttributes;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
 /**
@@ -37,7 +43,11 @@ use Illuminate\Support\Carbon;
  * @method static Builder|ExtraContract withExtraAttributes()
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $id
+=======
+ * @property int         $id
+>>>>>>> 5a14301c (.)
 =======
  * @property int         $id
 >>>>>>> 5a14301c (.)
@@ -66,7 +76,13 @@ use Illuminate\Support\Carbon;
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface ExtraContract {}
+=======
+interface ExtraContract
+{
+}
+>>>>>>> 5a14301c (.)
 =======
 interface ExtraContract
 {

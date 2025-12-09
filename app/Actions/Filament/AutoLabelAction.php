@@ -11,6 +11,7 @@ namespace Modules\Xot\Actions\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\Field;
 use Filament\Schemas\Components\Component;
 use Illuminate\Support\Arr;
@@ -22,12 +23,17 @@ use ReflectionClass;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Filament\Schemas\Components\Component;
 use ReflectionClass;
 use Filament\Forms\Components\Field;
 use Illuminate\Support\Arr;
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\GetTransKeyAction;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -41,10 +47,13 @@ class AutoLabelAction
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Applica automaticamente le etichette ai componenti Filament.
      *
      * @param  Field|Component  $component  Il componente a cui applicare l'etichetta
 =======
+=======
+>>>>>>> 5a14301c (.)
      * Get the component name based on its actual type.
      *
      * @param Field|Component $component Il componente di cui ottenere il nome
@@ -84,6 +93,9 @@ class AutoLabelAction
      *
      * @param Field|Component $component Il componente a cui applicare l'etichetta
      *
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
      * @return Field|Component Il componente con l'etichetta applicata
      */
@@ -99,17 +111,23 @@ class AutoLabelAction
         if (empty($class)) {
             // Se non riusciamo a ottenere la classe dal backtrace, usiamo la classe del componente
 <<<<<<< HEAD
+<<<<<<< HEAD
             $class = $component::class;
         }
 
         if (is_object($class)) {
             $class = $class::class;
 =======
+=======
+>>>>>>> 5a14301c (.)
             $class = get_class($component);
         }
 
         if (is_object($class)) {
             $class = get_class($class);
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
         }
 
@@ -129,7 +147,11 @@ class AutoLabelAction
 
         // Costruiamo la chiave per l'etichetta
 <<<<<<< HEAD
+<<<<<<< HEAD
         $label_key = $trans_key.'.fields.'.$componentName.'.label';
+=======
+        $label_key = $trans_key . '.fields.' . $componentName . '.label';
+>>>>>>> 5a14301c (.)
 =======
         $label_key = $trans_key . '.fields.' . $componentName . '.label';
 >>>>>>> 5a14301c (.)
@@ -142,7 +164,11 @@ class AutoLabelAction
 
                 // Proviamo a ottenere una traduzione più breve
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $label_key1 = $trans_key.'.fields.'.$componentName;
+=======
+                $label_key1 = $trans_key . '.fields.' . $componentName;
+>>>>>>> 5a14301c (.)
 =======
                 $label_key1 = $trans_key . '.fields.' . $componentName;
 >>>>>>> 5a14301c (.)
@@ -166,6 +192,7 @@ class AutoLabelAction
 
         return $component;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     /**
@@ -205,6 +232,8 @@ class AutoLabelAction
         // Ultima risorsa: ritorniamo il nome della classe
         return class_basename($component);
     }
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 }

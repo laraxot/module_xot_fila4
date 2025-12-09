@@ -7,6 +7,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\SessionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -19,15 +20,21 @@ use Illuminate\Support\Carbon;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Support\Carbon;
 use Modules\Xot\Database\Factories\SessionFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 
 /**
  * Modules\Xot\Models\Session.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property string $id
  * @property string|null $user_id
@@ -62,6 +69,8 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Session whereUserId($value)
  *
 =======
+=======
+>>>>>>> 5a14301c (.)
  * @property int                             $id
  * @property int|null                        $user_id
  * @property string|null                     $ip_address
@@ -117,6 +126,9 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @mixin IdeHelperSession
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
  * @mixin \Eloquent
  */

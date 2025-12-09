@@ -5,6 +5,11 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Model;
+
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Database\Eloquent\Model;
 
@@ -15,11 +20,14 @@ use Illuminate\Database\Eloquent\Model;
  * Base class for models using UUIDs.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class XotBaseUuidModel extends XotBaseModel
 {
     public $incrementing = false;
 
 =======
+=======
+>>>>>>> 5a14301c (.)
 abstract class XotBaseUuidModel extends Model
 {
     /** @var bool */
@@ -31,12 +39,16 @@ abstract class XotBaseUuidModel extends Model
     /** @var string */
     protected $primaryKey = 'id';
 
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
     /** @var bool */
     public $timestamps = true;
 
     /** @var int */
     protected $perPage = 30;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     protected $keyType = 'string';
@@ -61,6 +73,8 @@ abstract class XotBaseUuidModel extends Model
             'deleted_by' => 'string',
         ];
     }
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 }

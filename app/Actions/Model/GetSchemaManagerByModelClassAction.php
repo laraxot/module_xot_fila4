@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use RuntimeException;
@@ -15,11 +16,14 @@ use RuntimeException;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use RuntimeException;
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Facades\DB;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +58,8 @@ use Illuminate\Support\Facades\DB;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -68,6 +74,7 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $modelClass  La classe del modello
 =======
      * @param string $modelClass La classe del modello
@@ -96,6 +103,9 @@ class GetSchemaManagerByModelClassAction
 =======
      * @param string $modelClass La classe del modello
 >>>>>>> ca9324a4 (.)
+=======
+     * @param string $modelClass La classe del modello
+>>>>>>> 5a14301c (.)
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
     public function execute(string $modelClass): AbstractSchemaManager
@@ -107,6 +117,7 @@ class GetSchemaManagerByModelClassAction
         // ma getDoctrineConnection() non esiste, dobbiamo usare getDoctrineSchemaManager direttamente
         if (method_exists($connection, 'getDoctrineSchemaManager')) {
             /** @phpstan-ignore deprecated.method */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,6 +154,9 @@ class GetSchemaManagerByModelClassAction
 =======
             return $connection->getDoctrineSchemaManager();
 >>>>>>> ca9324a4 (.)
+=======
+            return $connection->getDoctrineSchemaManager();
+>>>>>>> 5a14301c (.)
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

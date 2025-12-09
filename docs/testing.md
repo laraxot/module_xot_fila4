@@ -675,6 +675,7 @@ test('no memory leaks in repeated operations', function (): void {
 ### Internal Documentation
 - [Root Testing Organization](../../../docs/testing-organization.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -697,6 +698,10 @@ test('no memory leaks in repeated operations', function (): void {
 - [<nome progetto> Testing Guidelines](../../../docs/testing.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
+>>>>>>> 5a14301c (.)
 - [Cms Testing Guidelines](../../Cms/docs/testing.md)
 
 ### Framework Documentation
@@ -716,8 +721,11 @@ test('no memory leaks in repeated operations', function (): void {
 **Coverage Target**: 90%+ per core framework  
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)

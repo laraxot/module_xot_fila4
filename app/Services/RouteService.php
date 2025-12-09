@@ -13,6 +13,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use function count;
 
@@ -44,6 +45,10 @@ use function count;
 use function count;
 
 >>>>>>> ca9324a4 (.)
+=======
+use function count;
+
+>>>>>>> 5a14301c (.)
 /**
  * Class RouteService.
  * Modules\Xot\Services\RouteService.
@@ -56,7 +61,11 @@ class RouteService
      * Verifica se l'utente è in modalità amministrazione.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string,string>  $params  Parametri aggiuntivi
+=======
+     * @param array<string,string> $params Parametri aggiuntivi
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string,string> $params Parametri aggiuntivi
 >>>>>>> 5a14301c (.)
@@ -72,7 +81,11 @@ class RouteService
 
         // Se il primo segmento dell'URL è 'admin', siamo in modalità amministrazione
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (Request::segment(1) === 'admin') {
+=======
+        if ('admin' === Request::segment(1)) {
+>>>>>>> 5a14301c (.)
 =======
         if ('admin' === Request::segment(1)) {
 >>>>>>> 5a14301c (.)
@@ -84,6 +97,7 @@ class RouteService
 
         // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (is_countable($segments) ? \count($segments) : 0) > 0 &&
             $segments[0] === 'livewire' &&
             session('in_admin', false) === true;
@@ -92,6 +106,8 @@ class RouteService
     /**
      * @param  array<string,string>  $params
 =======
+=======
+>>>>>>> 5a14301c (.)
         return (
             (is_countable($segments) ? \count($segments) : 0) > 0 &&
             'livewire' === $segments[0] &&
@@ -101,6 +117,9 @@ class RouteService
 
     /**
      * @param array<string,string> $params
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
      */
     public static function urlAct(array $params): string
@@ -126,6 +145,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \is_string($old_act_route)) {
             throw new Exception('['.__LINE__.']['.class_basename(self::class).']');
         }
@@ -143,11 +163,14 @@ class RouteService
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!\is_string($old_act_route)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename(self::class) . ']');
         }
 
         $routename_act = Str::before($routename, $old_act_route) . '' . $act;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,6 +204,8 @@ class RouteService
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
         $route_current = Route::current();
         $route_params = [];
         if ($route_current instanceof \Illuminate\Routing\Route) {
@@ -202,6 +227,7 @@ class RouteService
             return route($routename_act, $parz);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -234,13 +260,20 @@ class RouteService
 =======
         return '#' . $routename_act;
 >>>>>>> ca9324a4 (.)
+=======
+        return '#' . $routename_act;
+>>>>>>> 5a14301c (.)
     }
 
     // se n=0 => 'container0'
     // se n=1 => 'containers.container1'
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string,string>  $params
+=======
+     * @param array<string,string> $params
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string,string> $params
 >>>>>>> 5a14301c (.)
@@ -257,6 +290,7 @@ class RouteService
             $tmp[] = 'admin';
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         for ($i = 0; $i <= $n; $i++) {
@@ -290,6 +324,10 @@ class RouteService
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        for ($i = 0; $i <= $n; ++$i) {
+            $tmp[] = 'container' . $i;
+>>>>>>> 5a14301c (.)
         }
 
         $tmp[] = $act;
@@ -361,7 +399,11 @@ class RouteService
      * } catch (\Exception $e) {
      * if (request()->input('debug', false)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
      * dddx([
+=======
+     * dd([
+>>>>>>> 5a14301c (.)
 =======
      * dd([
 >>>>>>> 5a14301c (.)
@@ -381,7 +423,11 @@ class RouteService
      */
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string,string>  $params
+=======
+     * @param array<string,string> $params
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string,string> $params
 >>>>>>> 5a14301c (.)
@@ -462,6 +508,7 @@ class RouteService
     {
         $route_action = Route::currentRouteAction();
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($route_action === null) {
 =======
         if (null === $route_action) {
@@ -473,6 +520,9 @@ class RouteService
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        if (null === $route_action) {
+>>>>>>> 5a14301c (.)
             throw new Exception('$route_action is null');
         }
 
@@ -499,6 +549,7 @@ class RouteService
     {
         $route_action = Route::currentRouteAction();
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($route_action === null) {
 =======
         if (null === $route_action) {
@@ -510,6 +561,9 @@ class RouteService
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        if (null === $route_action) {
+>>>>>>> 5a14301c (.)
             throw new Exception('$route_action is null');
         }
 
@@ -525,6 +579,7 @@ class RouteService
     {
         $route_action = Route::currentRouteAction();
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($route_action === null) {
 =======
         if (null === $route_action) {
@@ -536,6 +591,9 @@ class RouteService
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        if (null === $route_action) {
+>>>>>>> 5a14301c (.)
             throw new Exception('$route_action is null');
         }
 
@@ -557,6 +615,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
 =======
 =======
@@ -570,6 +629,9 @@ class RouteService
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+>>>>>>> 5a14301c (.)
+=======
             ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
 >>>>>>> 5a14301c (.)
             ->map(static function ($item) use ($params) {

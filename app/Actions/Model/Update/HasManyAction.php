@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -16,10 +17,15 @@ use InvalidArgumentException;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Actions\Model\UpdateAction;
 use Modules\Xot\Datas\HasManyUpdateData;
@@ -55,7 +61,11 @@ class HasManyAction
      * Determine if the update is a direct update.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed> $data
 >>>>>>> 5a14301c (.)
@@ -91,6 +101,7 @@ class HasManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! isset($item[$keyName])) {
 =======
             if (!isset($item[$keyName])) {
@@ -119,6 +130,9 @@ class HasManyAction
 =======
             if (!isset($item[$keyName])) {
 >>>>>>> ca9324a4 (.)
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 5a14301c (.)
                 continue;
             }
 
@@ -144,7 +158,11 @@ class HasManyAction
      * Clean up orphaned records after batch update.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<int|string>  $updatedIds
+=======
+     * @param array<int|string> $updatedIds
+>>>>>>> 5a14301c (.)
 =======
      * @param array<int|string> $updatedIds
 >>>>>>> 5a14301c (.)

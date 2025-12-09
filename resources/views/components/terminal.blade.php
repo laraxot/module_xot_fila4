@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> f1d4085 (.)
 <div
     x-data="{
         output: @entangle('output'),
@@ -61,4 +64,8 @@ declare(strict_types=1);
 .animate-blink {
     animation: blink 1s infinite;
 }
+<<<<<<< HEAD
 </style>
+=======
+</style> 
+>>>>>>> f1d4085 (.)

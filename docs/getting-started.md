@@ -58,6 +58,7 @@ As with all Jigsaw sites, configuration settings can be found in `config.php`; y
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -193,6 +194,11 @@ As with all Jigsaw sites, configuration settings can be found in `config.php`; y
 >>>>>>> 6cba4fe (.)
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
 >>>>>>> 5bd842e3 (.)
+=======
+As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 
 ```php
 // config.php
@@ -244,6 +250,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -379,6 +386,11 @@ return [
 >>>>>>> 6cba4fe (.)
 > Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/docs/collections/) to learn more.
 >>>>>>> 5bd842e3 (.)
+=======
+> Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/docs/collections/) to learn more.
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 
 ---
 
@@ -430,6 +442,7 @@ You can write your content using a [variety of file types](http://jigsaw.tighten
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -550,10 +563,13 @@ You can write your content using a [variety of file types](http://jigsaw.tighten
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> a62d7646 (.)
 You can write your content using a [variety of file types](http://jigsaw.tighten.co/docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in [navigation.php](/docs/navigation.php).
 
 [Read more about navigation.](/docs/navigation)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -610,6 +626,9 @@ You can write your content using a [variety of file types](http://jigsaw.tighten
 
 [Read more about navigation.](/docs/navigation)
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 
 The first section of each content page contains a YAML header that specifies how it should be rendered. The `title` attribute is used to dynamically generate HTML `title` and OpenGraph tags for each page. The `extends` attribute defines which parent Blade layout this content file will render with (e.g. `_layouts.documentation` will render with `source/_layouts/documentation.blade.php`), and the `section` attribute defines the Blade "section" that expects this content to be placed into it.
 
@@ -659,6 +678,7 @@ section: content
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -794,6 +814,11 @@ section: content
 >>>>>>> 6cba4fe (.)
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/docs/content-blade/)
 >>>>>>> 5bd842e3 (.)
+=======
+[Read more about Jigsaw layouts.](https://jigsaw.tighten.co/docs/content-blade/)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 
 ---
 
@@ -842,6 +867,7 @@ Files that don't require processing (such as images and fonts) can be added dire
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -977,6 +1003,11 @@ Files that don't require processing (such as images and fonts) can be added dire
 >>>>>>> 6cba4fe (.)
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/docs/compiling-assets/)
 >>>>>>> 5bd842e3 (.)
+=======
+[Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/docs/compiling-assets/)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 
 ---
 
@@ -1030,6 +1061,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ed734516 (.)
 =======
@@ -1074,10 +1106,13 @@ Now that you’ve edited your configuration variables and know how to customize 
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> a62d7646 (.)
 # options: dev, prod
 npm run dev
 ```
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1271,6 +1306,9 @@ npm run dev
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 
 # options: dev, prod
 npm run dev
@@ -1375,6 +1413,7 @@ npm run dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
@@ -1485,11 +1524,14 @@ npm run dev
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> a62d7646 (.)
 * [getting-started.md](../../../Gdpr/docs/getting-started.md)
 * [getting-started.md](../../../Xot/docs/getting-started.md)
 * [getting-started.md](../../../UI/docs/getting-started.md)
 * [getting-started.md](../../../Tenant/docs/it/getting-started.md)
 * [getting-started.md](../../../Cms/docs/getting-started.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1532,6 +1574,10 @@ npm run dev
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 
 
 ### Versione Incoming

@@ -40,6 +40,7 @@ class PivotAction
     /**
      * Undocumented function.
      */
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
 <<<<<<< HEAD
@@ -73,5 +74,22 @@ class PivotAction
          *
          *
          */
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    {
+        Assert::isInstanceOf($rows = $relationDTO->rows, Pivot::class);
+        dddx('wip');
+        /*
+
+            $parent_panel = $this->panel->getParent();
+            if (null !== $parent_panel) {
+                $parent_row = $parent_panel->getRow();
+                $panel_name = $this->panel->getName();
+                $parent_row->{$panel_name}()->updateExistingPivot($model->getKey(), $data);
+            }
+
+
+        */
+>>>>>>> f1d4085 (.)
     }
 }

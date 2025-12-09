@@ -40,6 +40,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -141,6 +142,8 @@
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> a62d7646 (.)
 # Links
 
 ## Documentazione Generale
@@ -430,12 +433,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> a62d7646 (.)
 =======
 # Collegamenti Documentazione Modulo Xot
 
@@ -444,6 +450,7 @@
 - [Roadmap](../project_docs/roadmap.md) - Piano di sviluppo
 - [Filosofia](../project_docs/filosofia.md) - Principi e filosofia del progetto
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -461,6 +468,8 @@
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
 
 ## Documentazione Tecnica
 - [Regole di Progetto](./rules/PROMPT_RULES.md)
@@ -477,6 +486,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,6 +505,8 @@
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
 - [Cms](../Cms/docs/README.md) - Frontend
 - [UI](../UI/docs/README.md) - Componenti
 - [User](../User/docs/README.md) - Utenti e Permessi
@@ -536,9 +548,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> a62d7646 (.)
 =======
 - [Cms](../Cms/project_docs/README.md) - Frontend
 - [UI](../UI/project_docs/README.md) - Componenti
@@ -553,6 +568,32 @@
 - [Gdpr](../Gdpr/project_docs/README.md) - GDPR
 - [Job](../Job/project_docs/README.md) - Jobs
 - [Chart](../Chart/project_docs/README.md) - Grafici 
+<<<<<<< HEAD
+=======
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
 
 ## Collegamenti tra versioni di LINKS.md
 * [LINKS.md](../../../Xot/project_docs/LINKS.md)

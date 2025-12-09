@@ -132,6 +132,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,6 +149,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> b3cc10f7 (.)
+=======
+>>>>>>> 5e58b29b (.)
 - [Architettura Filament](../../../docs/architecture/filament.md)
 - [Gestione Risorse](../../../docs/architecture/resources.md)
 - [Regole XotBaseResource](../../../docs/regole/xotbaseresource-rules.md)
@@ -160,12 +163,15 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 6a1fe786 (.)
 =======
 >>>>>>> 34579462 (.)
+=======
+>>>>>>> 5e58b29b (.)
 =======
 - [Architettura Filament](../../../project_docs/architecture/filament.md)
 - [Gestione Risorse](../../../project_docs/architecture/resources.md)
@@ -175,6 +181,7 @@ class NotificationResource extends XotBaseResource
 - [Notify Resource](../../Notify/project_docs/filament-resources.md)
 - [User Resource](../../User/project_docs/filament-resources.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -190,6 +197,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> b3cc10f7 (.)
+=======
+>>>>>>> 5e58b29b (.)
 
 ## Note Importanti
 

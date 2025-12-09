@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11,6 +12,8 @@
 >>>>>>> d2b0a27 (.)
 =======
 >>>>>>> 300ef70 (.)
+=======
+>>>>>>> 5e58b29b (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -216,14 +219,29 @@ beforeEach(function () {
 >>>>>>> 300ef70 (.)
 =======
 
+=======
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\{artisan, assertDatabaseHas};
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
+
+>>>>>>> f1d4085 (.)
 uses(TestCase::class);
 
 beforeEach(function () {
     // Create a temporary directory for testing
     $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
+<<<<<<< HEAD
     mkdir($this->testDir, 0o755, true);
 
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
+=======
+=======
+    mkdir($this->testDir, 0755, true);
+    
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
     // Set the working directory
     chdir($this->testDir);
 });
@@ -245,6 +263,7 @@ afterEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +274,8 @@ afterEach(function () {
 >>>>>>> 300ef70 (.)
 =======
 >>>>>>> 87a02960 (.)
+=======
+>>>>>>> 5e58b29b (.)
 function rrmdir($dir)
 {
     if (is_dir($dir)) {
@@ -360,6 +381,7 @@ function rrmdir($dir)
 >>>>>>> a12f125f4a (.)
 =======
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 <<<<<<< HEAD
@@ -404,6 +426,9 @@ function rrmdir($dir)
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> 5e58b29b (.)
 function rrmdir($dir) {
     if (is_dir($dir)) {
         $objects = scandir($dir);
@@ -413,6 +438,7 @@ function rrmdir($dir) {
                     rrmdir($dir. DIRECTORY_SEPARATOR .$object);
                 } else {
                     unlink($dir. DIRECTORY_SEPARATOR .$object);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -546,6 +572,9 @@ function rrmdir($dir) {
                 } else {
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
 >>>>>>> 87a02960 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
                 }
             }
         }
@@ -581,8 +610,16 @@ test('creates necessary directories and files', function () {
 =======
 test('creates necessary directories and files', function () {
     // Run the command
+<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
+=======
+=======
+    $this->artisan('xot:fix-structure')
+         ->assertExitCode(0);
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
 
     // Check if directories were created
     $directories = [
@@ -734,8 +771,16 @@ test('does not overwrite existing files', function () {
     file_put_contents($testFile, $testContent);
 
     // Run the command
+<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
+=======
+=======
+    $this->artisan('xot:fix-structure')
+         ->assertExitCode(0);
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
 
     // Verify the file was not overwritten
     $this->assertStringEqualsFile($testFile, $testContent);
@@ -914,7 +959,11 @@ test('handles errors gracefully', function () {
 test('handles errors gracefully', function () {
     // Make a directory non-writable to test error handling
     $nonWritableDir = $this->testDir . '/app';
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5e58b29b (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error
@@ -922,6 +971,7 @@ test('handles errors gracefully', function () {
 
     // Restore permissions
     chmod($nonWritableDir, 0o755);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1048,6 +1098,8 @@ test('handles errors gracefully', function () {
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 5e58b29b (.)
+=======
     chmod($nonWritableDir, 0555);
 
     // Run the command and expect an error
@@ -1056,6 +1108,7 @@ test('handles errors gracefully', function () {
 
     // Restore permissions
     chmod($nonWritableDir, 0755);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1133,6 +1186,9 @@ test('handles errors gracefully', function () {
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
 });
 <<<<<<< HEAD
 <<<<<<< HEAD

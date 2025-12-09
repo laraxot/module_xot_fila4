@@ -46,6 +46,7 @@ use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -121,7 +122,14 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
 use Spatie\QueueableAction\QueueableAction;
+=======
+use Nwidart\Modules\Module as ModuleInstance;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+>>>>>>> f1d4085 (.)
 
 class GetAllModelsAction
 {
@@ -129,6 +137,7 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,6 +194,8 @@ class GetAllModelsAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
      */
     public function execute(): array
     {
@@ -193,6 +204,7 @@ class GetAllModelsAction
         foreach ($modules as $module) {
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($module->getName());
             $res = array_merge($res, $tmp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,6 +379,23 @@ class GetAllModelsAction
 >>>>>>> b7afadf9 (.)
             $res = array_merge($res, $tmp);
 =======
+=======
+=======
+     *
+     * @return array<string, string> Array associativo con snake_case come chiave e FQCN come valore
+     */
+    public function execute(): array
+    {
+        /** @var array<string, string> $res */
+        $res = [];
+        $modules = Module::all();
+        foreach ($modules as $module) {
+            Assert::isInstanceOf($module, ModuleInstance::class, 'Module must be instance of ModuleInstance');
+            $moduleName = $module->getName();
+            Assert::string($moduleName, 'Module name must be a string');
+
+            $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleName);
+>>>>>>> 5e58b29b (.)
             Assert::isArray($tmp, 'GetAllModelsByModuleNameAction must return array');
 
             // Type-safe merge per mantenere array<string, string>
@@ -376,6 +405,7 @@ class GetAllModelsAction
                 $res[$key] = $value;
             }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -388,6 +418,8 @@ class GetAllModelsAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
         }
 
         return $res;

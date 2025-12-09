@@ -38,8 +38,10 @@ use Filament\Pages\Dashboard\Concerns\HasFiltersForm;
 use Filament\Widgets\Widget;
 use Filament\Widgets\WidgetConfiguration;
 
+<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,10 +79,14 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> 5e58b29b (.)
 
 class Dashboard extends XotBaseDashboard
 {
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -260,6 +266,9 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -267,6 +276,7 @@ class Dashboard extends XotBaseDashboard
     {
         return [];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,9 +349,12 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 5e58b29b (.)
+=======
 
     
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,4 +418,6 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
 }

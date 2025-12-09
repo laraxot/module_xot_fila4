@@ -35,6 +35,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -124,6 +125,8 @@
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
 # Convenzioni di Nomenclatura in <nome progetto>
 
 Questo documento definisce le convenzioni ufficiali di nomenclatura da utilizzare in tutto il progetto <nome progetto>.
@@ -298,6 +301,7 @@ Tipi: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -403,6 +407,10 @@ Tipi: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
 # Convenzioni di Nomenclatura in Laravel Modules
 
 Questo documento definisce le convenzioni ufficiali di nomenclatura da utilizzare in tutto il progetto Laravel Modules.

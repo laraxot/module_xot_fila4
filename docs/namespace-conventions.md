@@ -35,6 +35,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -124,6 +125,8 @@
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -371,6 +374,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -476,6 +480,10 @@ php artisan view:clear
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica
@@ -9727,6 +9735,7 @@ php scripts/check-namespaces.php
 - [PSR-4: Autoloader Standard](https://www.php-fig.org/psr/psr-4/)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 =======
 <<<<<<< HEAD
@@ -9742,6 +9751,12 @@ php scripts/check-namespaces.php
 =======
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 >>>>>>> 6dcebf8a (.)
+=======
+- [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
+=======
+- [Laravel Namespacing Conventions](https://laravel.com/project_docs/master/structure)
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
 - [Nwidart/Laravel-Modules Documentation](https://nwidart.com/laravel-modules/v6/introduction)
 
 

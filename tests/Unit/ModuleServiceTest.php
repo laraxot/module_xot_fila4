@@ -74,13 +74,19 @@ use Nwidart\Modules\Module;
 >>>>>>> 71586de2 (.)
 use Tests\TestCase;
 use Modules\Xot\Services\ModuleService;
+<<<<<<< HEAD
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module;
+=======
+use Nwidart\Modules\Module;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+>>>>>>> f1d4085 (.)
 
 uses(TestCase::class);
 
 describe('ModuleService', function () {
     beforeEach(function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -417,7 +423,12 @@ describe('ModuleService', function () {
     });
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> 5e58b29b (.)
         $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> f1d4085 (.)
     });
 >>>>>>> 5a14301c (.)
 =======
@@ -825,10 +836,18 @@ describe('ModuleService', function () {
 =======
 >>>>>>> 71586de2 (.)
     it('can be instantiated with different module names', function () {
+<<<<<<< HEAD
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+=======
+        $service1 = (new ModuleService())->setName('Chart');
+        $service2 = (new ModuleService())->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)
+            ->and($service2)->toBeInstanceOf(ModuleService::class);
+>>>>>>> f1d4085 (.)
     });
 
     it('has getModels method', function () {
@@ -849,7 +868,12 @@ describe('ModuleService', function () {
 
         // Each value should be a class string
         foreach ($result as $key => $value) {
+<<<<<<< HEAD
             expect($key)->toBeString()->and($value)->toBeString();
+=======
+            expect($key)->toBeString()
+                ->and($value)->toBeString();
+>>>>>>> f1d4085 (.)
         }
     });
 
@@ -888,6 +912,7 @@ describe('ModuleService', function () {
         $reflection = new ReflectionClass($this->service);
         $method = $reflection->getMethod('getModels');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1198,6 +1223,8 @@ describe('ModuleService', function () {
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
         expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
     });
 
@@ -1247,6 +1274,18 @@ describe('ModuleService', function () {
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
+=======
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+>>>>>>> f1d4085 (.)
     });
 
     it('uses correct namespace patterns', function () {
@@ -1273,21 +1312,32 @@ describe('ModuleService', function () {
         // It uses setName() method for configuration (fluent interface)
         $reflection = new ReflectionClass($this->service);
 
+<<<<<<< HEAD
         expect($reflection->hasMethod('setName'))
             ->toBeTrue()
             ->and($reflection->getMethod('setName')->isPublic())
             ->toBeTrue();
+=======
+        expect($reflection->hasMethod('setName'))->toBeTrue()
+            ->and($reflection->getMethod('setName')->isPublic())->toBeTrue();
+>>>>>>> f1d4085 (.)
     });
 
     it('validates class structure', function () {
         $reflection = new ReflectionClass($this->service);
 
+<<<<<<< HEAD
         expect($reflection->isInstantiable())
             ->toBeTrue()
             ->and($reflection->isFinal())
             ->toBeFalse()
             ->and($reflection->isAbstract())
             ->toBeFalse();
+=======
+        expect($reflection->isInstantiable())->toBeTrue()
+            ->and($reflection->isFinal())->toBeFalse()
+            ->and($reflection->isAbstract())->toBeFalse();
+>>>>>>> f1d4085 (.)
     });
 
     it('has proper method visibility', function () {

@@ -5,11 +5,19 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\ModelClass;
 
 use ReflectionClass;
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\file;
 
+=======
+use function Safe\file;
+
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+
+>>>>>>> f1d4085 (.)
 class GetMethodBodyAction
 {
     use QueueableAction;

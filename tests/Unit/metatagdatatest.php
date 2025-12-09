@@ -483,7 +483,7 @@ use Modules\Xot\Datas\MetatagData;
  * Questo test verifica che la classe possa essere istanziata senza errori.
  */
 test('MetatagData può essere istanziata', function () {
-    $metatagData = new MetatagData();
+    $metatagData = new MetatagData;
     expect($metatagData)->toBeInstanceOf(MetatagData::class);
 });
 
@@ -493,7 +493,7 @@ test('MetatagData può essere istanziata', function () {
  * con i colori Filament corretti.
  */
 test('getFilamentColors restituisce i colori Filament corretti', function () {
-    $metatagData = new MetatagData();
+    $metatagData = new MetatagData;
     $colors = $metatagData->getFilamentColors();
 
 <<<<<<< HEAD
@@ -1156,7 +1156,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
  * personalizzati quando l'array colors contiene valori personalizzati.
  */
 test('getColors gestisce correttamente i colori personalizzati', function () {
-    $metatagData = new MetatagData();
+    $metatagData = new MetatagData;
     $metatagData->colors = [
         'custom_color' => [
             'key' => 'custom_color',
@@ -2326,7 +2326,7 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
  * della proprietà logo_height.
  */
 test('getLogoHeight restituisce il valore corretto', function () {
-    $metatagData = new MetatagData();
+    $metatagData = new MetatagData;
     $metatagData->logo_height = '3em';
 
     expect($metatagData->getLogoHeight())->toBe('3em');
@@ -2338,7 +2338,7 @@ test('getLogoHeight restituisce il valore corretto', function () {
  * corretti quando viene istanziata la classe.
  */
 test('Le proprietà hanno i valori di default corretti', function () {
-    $metatagData = new MetatagData();
+    $metatagData = new MetatagData;
 
 <<<<<<< HEAD
 <<<<<<< HEAD

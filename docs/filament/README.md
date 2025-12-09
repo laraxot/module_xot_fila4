@@ -408,8 +408,10 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 =======
 >>>>>>> 17684f52 (.)
 - Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+<<<<<<< HEAD
 - Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
 =======
+<<<<<<< HEAD
 - Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
 >>>>>>> 6cba4fe (.)
 <<<<<<< HEAD
@@ -459,6 +461,10 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+- Vedi anche: [<nome progetto>/docs/filament-best-practices.mdc](../../../../docs/filament-best-practices.mdc)
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 
 ### Checklist
 - [ ] Nessuna closure void restituisce un valore

@@ -18,6 +18,7 @@ namespace Modules\Xot\Actions\String;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -28,6 +29,8 @@ namespace Modules\Xot\Actions\String;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
 
 
 >>>>>>> d86d643a (.)
@@ -36,6 +39,7 @@ class SanitizeAction
 =======
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +68,8 @@ class SanitizeAction
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 472bd9dc (.)
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -85,6 +91,7 @@ class SanitizeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
@@ -121,6 +128,11 @@ class SanitizeAction
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 
 >>>>>>> 5a14301c (.)
 =======
@@ -144,6 +156,7 @@ class SanitizeAction
         return trim($str);
 =======
         $str = trim($str);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,10 +292,16 @@ class SanitizeAction
 =======
 =======
 >>>>>>> e59778ae (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
         $str = preg_replace('/\s+/', ' ', $str);
         if (Str::startsWith($str, '-')) {
             $str = Str::after($str, '-');
             $str = $this->execute($str);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,6 +415,11 @@ class SanitizeAction
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
         }
 
         return $str;

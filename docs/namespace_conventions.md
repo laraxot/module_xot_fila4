@@ -130,6 +130,7 @@ namespace Modules\<nome progetto>\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\App\Controllers;
 
 // CORRETTO
@@ -187,6 +188,8 @@ namespace Modules\<nome modulo>\Controllers;
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
 namespace Modules\SaluteOra\App\Controllers;
 
 // CORRETTO
@@ -205,6 +208,7 @@ namespace Modules\SaluteOra\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -217,6 +221,8 @@ namespace Modules\SaluteOra\Controllers;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
 =======
 namespace Modules\<nome modulo>\App\Controllers;
 
@@ -227,6 +233,7 @@ namespace Modules\<nome modulo>\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -252,6 +259,8 @@ namespace Modules\<nome modulo>\Controllers;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 ```
 
 ## esempi corretti vs errati
@@ -324,6 +333,7 @@ namespace Modules\<nome progetto>\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
@@ -381,6 +391,8 @@ namespace Modules\<nome modulo>\Filament\Resources;
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
 namespace Modules\SaluteOra\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
@@ -399,6 +411,7 @@ namespace Modules\SaluteOra\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -411,6 +424,8 @@ namespace Modules\SaluteOra\Filament\Resources;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
 =======
 namespace Modules\<nome modulo>\Models;
 namespace Modules\User\Services;
@@ -421,6 +436,7 @@ namespace Modules\<nome modulo>\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -446,6 +462,8 @@ namespace Modules\<nome modulo>\Filament\Resources;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 ```
 
 ### errati ✗
@@ -516,6 +534,7 @@ namespace App\Modules\<nome progetto>\Controllers;      // errato: struttura com
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
@@ -573,6 +592,8 @@ namespace App\Modules\<nome modulo>\Controllers;      // errato: struttura compl
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
 namespace Modules\SaluteOra\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
@@ -591,6 +612,7 @@ namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completam
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -603,6 +625,8 @@ namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completam
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
 =======
 namespace Modules\<nome modulo>\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
@@ -613,6 +637,7 @@ namespace App\Modules\<nome modulo>\Controllers;      // errato: struttura compl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -638,6 +663,8 @@ namespace App\Modules\<nome modulo>\Controllers;      // errato: struttura compl
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 ```
 
 ## struttura fisica vs namespace
@@ -671,6 +698,7 @@ Namespace corretto: namespace Modules\<nome progetto>\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
 Namespace corretto: namespace Modules\<nome modulo>\Models;
 =======
@@ -704,6 +732,10 @@ Namespace corretto: namespace Modules\SaluteOra\Models;
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
 >>>>>>> d86d643a (.)
+=======
+Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
+Namespace corretto: namespace Modules\SaluteOra\Models;
+>>>>>>> 472bd9dc (.)
 =======
 Percorso fisico:    /Modules/<nome progetto>/app/Models/Patient.php
 Namespace corretto: namespace Modules\<nome modulo>\Models;
@@ -712,6 +744,7 @@ Namespace corretto: namespace Modules\<nome modulo>\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 =======
@@ -786,6 +819,8 @@ Namespace corretto: namespace Modules\<nome progetto>\Models;
 Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
 Namespace corretto: namespace Modules\SaluteOra\Models;
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 ```
 
 ### mappatura corretta percorso-namespace
@@ -816,6 +851,7 @@ Namespace corretto: namespace Modules\SaluteOra\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome modulo>\Models` |
 | `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome modulo>\Filament\Resources` |
 =======
@@ -849,6 +885,10 @@ Namespace corretto: namespace Modules\SaluteOra\Models;
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
 >>>>>>> d86d643a (.)
+=======
+| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
+| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+>>>>>>> 472bd9dc (.)
 =======
 | `/Modules/<nome progetto>/app/Models/Patient.php` | `Modules\<nome modulo>\Models` |
 | `/Modules/<nome progetto>/app/Filament/Resources/PatientResource.php` | `Modules\<nome modulo>\Filament\Resources` |
@@ -857,6 +897,7 @@ Namespace corretto: namespace Modules\SaluteOra\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 =======
@@ -931,6 +972,8 @@ Namespace corretto: namespace Modules\SaluteOra\Models;
 | `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
 | `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 | `/Modules/Xot/app/Providers/XotServiceProvider.php` | `Modules\Xot\Providers` |
 
 ### struttura directory completa
@@ -1008,6 +1051,7 @@ Modules/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <nome progetto>/
     app/                        // directory fisica
       Console/
@@ -1071,6 +1115,8 @@ Modules/
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
   SaluteOra/
     app/                        // directory fisica
       Console/
@@ -1095,6 +1141,7 @@ Modules/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -1107,6 +1154,8 @@ Modules/
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
 =======
   <nome progetto>/
     app/                        // directory fisica
@@ -1123,6 +1172,7 @@ Modules/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -1148,6 +1198,8 @@ Modules/
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 ```
 
 ## come verificare i namespace
@@ -1185,6 +1237,7 @@ php artisan phpstan:analyse --level=1 Modules/<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 php artisan phpstan:analyse --level=1 Modules/<nome progetto>
 =======
 =======
@@ -1281,6 +1334,12 @@ php artisan phpstan:analyse --level=1 Modules/<nome progetto>
 >>>>>>> 6cba4fe (.)
 php artisan phpstan:analyse --level=1 Modules/SaluteOra
 >>>>>>> c35986f4 (.)
+=======
+php artisan phpstan:analyse --level=1 Modules/SaluteOra
+=======
+php artisan phpstan:analyse --level=1 Modules/<nome progetto>
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 ```
 
 ## motivazione di questa convenzione
@@ -1368,6 +1427,7 @@ namespace Modules\<nome progetto>\Console\Commands;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\App\Console\Commands;
 
 // CORRETTO ✓
@@ -1425,6 +1485,8 @@ namespace Modules\<nome modulo>\Console\Commands;
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
 namespace Modules\SaluteOra\App\Console\Commands;
 
 // CORRETTO ✓
@@ -1443,6 +1505,7 @@ namespace Modules\SaluteOra\Console\Commands;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -1455,6 +1518,8 @@ namespace Modules\SaluteOra\Console\Commands;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
 =======
 namespace Modules\<nome modulo>\App\Console\Commands;
 
@@ -1465,6 +1530,7 @@ namespace Modules\<nome modulo>\Console\Commands;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -1490,6 +1556,8 @@ namespace Modules\<nome modulo>\Console\Commands;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 ```
 
 ### Conseguenze dell'Errore
@@ -1586,7 +1654,11 @@ grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila
 =======
 >>>>>>> 17684f52 (.)
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+<<<<<<< HEAD
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_<nome progetto>/laravel/Modules
+>>>>>>> a5dccfe (.)
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_techplanner_fila3_mono/laravel/Modules
 =======
 grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules

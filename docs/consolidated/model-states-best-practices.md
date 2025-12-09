@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [Errori comuni nelle transizioni custom (<nome progetto>)](../../<nome progetto>/project_docs/model-states-errors.md)
 =======
   - [Errori comuni nelle transizioni custom](../../<nome modulo>/docs/model-states-errors.md)
@@ -53,10 +54,14 @@
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
 >>>>>>> d86d643a (.)
 =======
+  - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
+>>>>>>> 472bd9dc (.)
+=======
   - [Errori comuni nelle transizioni custom](../../<nome modulo>/docs/model-states-errors.md)
   - [README.md centrale](../../../docs/README.md)
   - [Errori comuni nelle transizioni custom (<nome progetto>)](../../<nome progetto>/project_docs/model-states-errors.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,4 +120,6 @@
 =======
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
   - [README.md centrale](../../../project_docs/README.md) 

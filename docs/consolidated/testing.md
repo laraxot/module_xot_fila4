@@ -693,6 +693,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [<nome progetto> Testing Guidelines](../../<nome progetto>/project_docs/testing.md)
 =======
@@ -735,12 +736,17 @@ test('no memory leaks in repeated operations', function (): void {
 - [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
 >>>>>>> d86d643a (.)
 =======
+- [Root Testing Organization](../../../project_docs/testing-organization.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+>>>>>>> 472bd9dc (.)
+=======
 - [Root Testing Organization](../../../docs/testing-organization.md)
 - [Module Testing Guidelines](../../<nome modulo>/docs/testing.md)
 - [Cms Testing Guidelines](../../Cms/docs/testing.md)
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [<nome progetto> Testing Guidelines](../../<nome progetto>/project_docs/testing.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -800,6 +806,8 @@ test('no memory leaks in repeated operations', function (): void {
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
 - [Cms Testing Guidelines](../../Cms/project_docs/testing.md)
 
 ### Framework Documentation

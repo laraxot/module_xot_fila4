@@ -30,6 +30,7 @@ use Modules\<nome modulo>\Models\User;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -51,6 +52,8 @@ use Modules\<nome modulo>\Models\User;
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 472bd9dc (.)
 use Modules\SaluteOra\Models\User;
 =======
 use Modules\<nome modulo>\Models\User;
@@ -59,6 +62,7 @@ use Modules\<nome modulo>\Models\User;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 71f31700 (.)
@@ -154,6 +158,8 @@ use Modules\SaluteOra\Models\User;
 =======
 use Modules\SaluteOra\Models\User;
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 
 /** @var User $user */
 $user = User::factory()->create([...]);
@@ -193,6 +199,7 @@ $user = User::factory()->create([...]);
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -336,6 +343,12 @@ $user = User::factory()->create([...]);
 >>>>>>> 6cba4fe (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
 >>>>>>> c35986f4 (.)
+=======
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+=======
+1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -403,6 +416,7 @@ $user = $userClass::factory()->create($attributes);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -550,6 +564,12 @@ $user = $userClass::factory()->create($attributes);
 >>>>>>> 6cba4fe (.)
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
 >>>>>>> c35986f4 (.)
+=======
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+=======
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
     ],
 ],
 ```
@@ -642,6 +662,7 @@ public function processUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 =======
 =======
@@ -792,6 +813,12 @@ public function processUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> 6cba4fe (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> c35986f4 (.)
+=======
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+=======
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -963,6 +990,7 @@ use Modules\<nome modulo>\Models\Doctor;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
@@ -1055,10 +1083,16 @@ use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
 >>>>>>> d86d643a (.)
 =======
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
+>>>>>>> 472bd9dc (.)
+=======
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1165,6 +1199,8 @@ use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -1209,6 +1245,7 @@ $user = \Modules\<nome modulo>\Models\User::find($id);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $user = \Modules\<nome modulo>\Models\User::find($id);
 =======
 =======
@@ -1359,6 +1396,12 @@ $user = \Modules\<nome modulo>\Models\User::find($id);
 >>>>>>> 6cba4fe (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
 >>>>>>> c35986f4 (.)
+=======
+$user = \Modules\SaluteOra\Models\User::find($id);
+=======
+$user = \Modules\<nome modulo>\Models\User::find($id);
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 
 // ✅ CONSENTITO  
 $userClass = XotData::make()->getUserClass();
@@ -1403,6 +1446,7 @@ function updateUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 =======
 =======
@@ -1553,6 +1597,12 @@ function updateUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> 6cba4fe (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> c35986f4 (.)
+=======
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+=======
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -1691,6 +1741,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
 =======
 =======
@@ -1881,6 +1932,12 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 >>>>>>> 6cba4fe (.)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
 >>>>>>> c35986f4 (.)
+=======
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+=======
+- [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 
 ---
 

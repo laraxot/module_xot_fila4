@@ -19,6 +19,7 @@ namespace Modules\Xot\Console\Commands;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
@@ -44,13 +45,9 @@ use Modules\Xot\Actions\Filament\GenerateTableColumnsByFileAction;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
-use Modules\Xot\Actions\Filament\GenerateTableColumnsByFileAction;
 =======
-<<<<<<< HEAD
+>>>>>>> ca9324a4 (.)
 use Modules\Xot\Actions\Filament\GenerateTableColumnsByFileAction;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
@@ -100,8 +97,8 @@ class GenerateTableColumnsCommand extends Command
      *
      * @return void
      */
-<<<<<<< HEAD
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -234,12 +231,15 @@ class GenerateTableColumnsCommand extends Command
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 
     /**
      * Execute the console command.
      */
     public function handle(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -331,38 +331,14 @@ class GenerateTableColumnsCommand extends Command
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         Assert::string($module_name = $this->argument('module'), '[' . __LINE__ . '][' . class_basename($this) . ']');
         $module_path = Module::getModulePath($module_name);
         if (!Str::endsWith($module_path, '/')) {
             $module_path .= '/';
         }
         $filament_resources_path = $module_path . 'Filament/Resources';
-<<<<<<< HEAD
-=======
-=======
-        Assert::string($module_name = $this->argument('module'), '['.__LINE__.']['.class_basename($this).']');
-=======
-        Assert::string($module_name = $this->argument('module'), '[' . __LINE__ . '][' . class_basename($this) . ']');
->>>>>>> b93ef594b4 (.)
-        $module_path = Module::getModulePath($module_name);
-        if (!Str::endsWith($module_path, '/')) {
-            $module_path .= '/';
-        }
-<<<<<<< HEAD
-        $filament_resources_path = $module_path.'Filament/Resources';
->>>>>>> a12f125f4a (.)
-=======
-        $filament_resources_path = $module_path . 'Filament/Resources';
->>>>>>> b93ef594b4 (.)
-=======
-        Assert::string($module_name = $this->argument('module'), '['.__LINE__.']['.class_basename($this).']');
-        $module_path = Module::getModulePath($module_name);
-        if (! Str::endsWith($module_path, '/')) {
-            $module_path .= '/';
-        }
-        $filament_resources_path = $module_path.'Filament/Resources';
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
         $this->info($module_name); // = Progressioni
         $this->info($module_path); // = /var/www/html/ptvx/laravel/Modules/Progressioni/
@@ -380,15 +356,7 @@ class GenerateTableColumnsCommand extends Command
 
         $files = File::files($filament_resources_path);
         foreach ($files as $file) {
-<<<<<<< HEAD
             app(GenerateTableColumnsByFileAction::class)->execute($file);
-=======
-<<<<<<< HEAD
-            app(GenerateTableColumnsByFileAction::class)->execute($file);
-=======
-            app(\Modules\Xot\Actions\Filament\GenerateTableColumnsByFileAction::class)->execute($file);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
     }
 }

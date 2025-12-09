@@ -17,6 +17,7 @@ namespace Modules\Xot\Filament\Resources\LogResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\LogResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 =======
@@ -38,6 +39,8 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 use Modules\Xot\Filament\Resources\LogResource;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
@@ -59,39 +62,6 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 5a14301c (.)
 
 class CreateLog extends XotBaseCreateRecord
-=======
-<<<<<<< HEAD
-use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
-use Modules\Xot\Filament\Resources\LogResource;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-
-=======
-=======
-use Modules\Xot\Filament\Resources\LogResource;
->>>>>>> origin/develop
-
-
-
-
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-
-
-
-
-
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-
->>>>>>> b93ef594b4 (.)
-class CreateLog extends XotBaseCreateRecord
-=======
-class CreateLog extends \Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 {
     protected static string $resource = LogResource::class;
 }

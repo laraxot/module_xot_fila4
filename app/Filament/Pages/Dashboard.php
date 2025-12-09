@@ -18,6 +18,9 @@ use Filament\Forms\Components\DatePicker;
 use Filament\Schemas\Components\Section;
 =======
 use Filament\Forms\Components\Section;
+<<<<<<< HEAD
+>>>>>>> ca9324a4 (.)
+=======
 >>>>>>> ca9324a4 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Get;
@@ -37,6 +40,7 @@ use Filament\Widgets\WidgetConfiguration;
 
 class Dashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -170,6 +174,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -177,6 +183,7 @@ class Dashboard extends XotBaseDashboard
     {
         return [];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249,4 +256,6 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 }

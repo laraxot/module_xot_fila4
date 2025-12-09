@@ -17,6 +17,7 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 =======
@@ -38,13 +39,9 @@ use Illuminate\Support\Carbon;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 399f46d3 (.)
-use Illuminate\Support\Carbon;
 =======
-<<<<<<< HEAD
+>>>>>>> ca9324a4 (.)
 use Illuminate\Support\Carbon;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 5a14301c (.)
 =======
@@ -63,9 +60,9 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Modules\Xot\Contracts\UpdaterContract.
  *
-<<<<<<< HEAD
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +118,8 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
  * @property string|null                     $created_by
  * @property string|null                     $updated_by
 >>>>>>> 5a14301c (.)

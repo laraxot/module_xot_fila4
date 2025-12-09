@@ -1,6 +1,5 @@
 <?php
 
-<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -10,6 +9,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +149,8 @@ declare(strict_types=1);
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 return [
     'title' => 'Pannello di Amministrazione',
     'description' => 'Gestione del pannello di amministrazione',
@@ -249,20 +251,4 @@ return [
         'updated_at' => 'Aggiornato il',
         'deleted_at' => 'Eliminato il',
     ],
-<<<<<<< HEAD
 ];
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-];
-=======
-]; 
->>>>>>> a12f125f4a (.)
-=======
-];
->>>>>>> b93ef594b4 (.)
-=======
-]; 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)

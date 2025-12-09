@@ -65,6 +65,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -341,6 +342,9 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 492d6d3c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+ *
+>>>>>>> ca9324a4 (.)
  * Questa action centralizza la logica di generazione dell'espressione SQL
  * per il calcolo della distanza tra due punti geografici.
  */
@@ -517,9 +521,9 @@ class GetDistanceExpressionAction
      * @param float $latitude Latitudine del punto di riferimento
      * @param float $longitude Longitudine del punto di riferimento
      * @param string|null $alias Alias per l'espressione (opzionale)
-<<<<<<< HEAD
      * @return Expression Espressione SQL per il calcolo della distanza
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -649,15 +653,13 @@ class GetDistanceExpressionAction
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
     public function execute(
         float $latitude,
         float $longitude,
         null|string $alias = null,
     ): Expression {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         $sql = "
             (6371 * acos(
                 cos(radians({$latitude})) *
@@ -670,6 +672,7 @@ class GetDistanceExpressionAction
 
         if (null !== $alias) {
             $sql .= " AS {$alias}";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1060,10 +1063,13 @@ class GetDistanceExpressionAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         }
 
         return DB::raw($sql);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1391,3 +1397,6 @@ class GetDistanceExpressionAction
 >>>>>>> 492d6d3c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+}
+>>>>>>> ca9324a4 (.)

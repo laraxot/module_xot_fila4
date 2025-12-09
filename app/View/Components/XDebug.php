@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\View\Components;
 
-<<<<<<< HEAD
 use RuntimeException;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,6 +65,8 @@ use RuntimeException;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
@@ -94,25 +96,7 @@ class XDebug extends Component
         // public Post $article,
         // public bool $showAuthor = false,
         public string $tpl = 'v1',
-<<<<<<< HEAD
     ) {}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ) {}
-=======
-    ) {
-    }
->>>>>>> a12f125f4a (.)
-=======
-    ) {}
->>>>>>> b93ef594b4 (.)
-=======
-    ) {
-    }
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,6 +183,7 @@ class XDebug extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \extension_loaded('xdebug')) {
 =======
 =======
@@ -219,6 +204,8 @@ class XDebug extends Component
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         if (!extension_loaded('xdebug')) {
 >>>>>>> 5a14301c (.)
 =======
@@ -302,23 +289,6 @@ class XDebug extends Component
         if (!extension_loaded('xdebug')) {
 >>>>>>> 3fbbf1f5 (.)
             throw new RuntimeException('XDebug must be installed to use this function');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!extension_loaded('xdebug')) {
-=======
-        if (! extension_loaded('xdebug')) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!extension_loaded('xdebug')) {
->>>>>>> b93ef594b4 (.)
-            throw new RuntimeException('XDebug must be installed to use this function');
-=======
-        if (! extension_loaded('xdebug')) {
-            throw new \RuntimeException('XDebug must be installed to use this function');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
 
         ob_start();
@@ -337,6 +307,7 @@ class XDebug extends Component
         $out1 = ob_get_contents();
         ob_end_clean();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,5 +472,8 @@ class XDebug extends Component
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+        return is_string($out1) ? $out1 : ((string) $out1);
+>>>>>>> ca9324a4 (.)
     }
 }

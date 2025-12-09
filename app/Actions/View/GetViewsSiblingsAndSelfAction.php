@@ -55,6 +55,7 @@ class GetViewsSiblingsAndSelfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
 =======
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
@@ -193,6 +194,9 @@ class GetViewsSiblingsAndSelfAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> ca9324a4 (.)
                 continue;
             }
 

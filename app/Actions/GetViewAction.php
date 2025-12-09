@@ -17,6 +17,7 @@ namespace Modules\Xot\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\File\FixPathAction;
@@ -46,15 +47,10 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Modules\Xot\Actions\File\FixPathAction;
 use Exception;
-=======
-<<<<<<< HEAD
-use Modules\Xot\Actions\File\FixPathAction;
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -76,6 +72,7 @@ class GetViewAction
     /**
      * Summary of execute.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,14 +118,9 @@ class GetViewAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
-     * @throws Exception
 =======
-<<<<<<< HEAD
+>>>>>>> ca9324a4 (.)
      * @throws Exception
-=======
-     * @throws \Exception
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      *
      * @return view-string
      */
@@ -146,15 +138,7 @@ class GetViewAction
 =======
 >>>>>>> 5a14301c (.)
             $backtrace = debug_backtrace();
-<<<<<<< HEAD
             $file0 = app(FixPathAction::class)->execute($backtrace[0]['file'] ?? '');
-=======
-<<<<<<< HEAD
-            $file0 = app(FixPathAction::class)->execute($backtrace[0]['file'] ?? '');
-=======
-            $file0 = app(File\FixPathAction::class)->execute($backtrace[0]['file'] ?? '');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
 
         $file0 = Str::after($file0, base_path());
@@ -184,12 +168,6 @@ class GetViewAction
         // $tmp = array_slice($arr, 3);//senza "app"
         $tmp = array_slice($arr, 4); // con "app"
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         $tmp = collect($tmp)
             ->map(static function ($item) {
                 $item = str_replace('.php', '', $item);
@@ -221,47 +199,6 @@ class GetViewAction
 
         if ('' !== $tpl) {
             $pub_view .= '.' . $tpl;
-<<<<<<< HEAD
-=======
-=======
-        $tmp = collect($tmp)->map(
-            static function ($item) {
-=======
-        $tmp = collect($tmp)
-            ->map(static function ($item) {
->>>>>>> b93ef594b4 (.)
-                $item = str_replace('.php', '', $item);
-
-                return Str::slug(Str::snake($item));
-            })
-            ->implode('.');
-
-        $pub_view = 'pub_theme::' . $tmp;
-        Assert::string($pub_view, '[' . __LINE__ . '][' . class_basename($this) . ']');
-
-        if ('' !== $tpl) {
-<<<<<<< HEAD
-            $pub_view .= '.'.$tpl;
->>>>>>> a12f125f4a (.)
-=======
-            $pub_view .= '.' . $tpl;
->>>>>>> b93ef594b4 (.)
-=======
-        $tmp = collect($tmp)->map(
-            static function ($item) {
-                $item = str_replace('.php', '', $item);
-
-                return Str::slug(Str::snake($item));
-            }
-        )->implode('.');
-
-        $pub_view = 'pub_theme::'.$tmp;
-        Assert::string($pub_view, '['.__LINE__.']['.class_basename($this).']');
-
-        if ('' !== $tpl) {
-            $pub_view .= '.'.$tpl;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,6 +240,7 @@ class GetViewAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view = Str::lower($mod).'::'.$tmp;
 
         if ($tpl !== '') {
@@ -383,10 +321,13 @@ class GetViewAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         $view = Str::lower($mod) . '::' . $tmp;
 
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,10 +499,13 @@ class GetViewAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         }
 
         // if (inAdmin()) {
         if (Str::contains($view, '::panels.actions.')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -726,11 +670,15 @@ class GetViewAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> ca9324a4 (.)
             $view = Str::replace('::panels.actions.', $to, $view);
             $view = Str::replace('-action', '', $view);
         }
 
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -992,6 +940,11 @@ class GetViewAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> ca9324a4 (.)
         }
 
         return $view;

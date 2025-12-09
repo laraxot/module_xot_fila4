@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Debug;
 
-<<<<<<< HEAD
 use Closure;
-=======
-<<<<<<< HEAD
-use Closure;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Filament\Notifications\Notification;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36,23 +29,7 @@ use Webmozart\Assert\Assert;
 
 /**
  * Classe per misurare le performance di esecuzione di un blocco di codice.
-<<<<<<< HEAD
  *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- *
-=======
- * 
->>>>>>> a12f125f4a (.)
-=======
- *
->>>>>>> b93ef594b4 (.)
-=======
- * 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
  * @template T
  */
 class MeasureAction
@@ -60,6 +37,7 @@ class MeasureAction
     /**
      * Esegue una closure misurando il tempo di esecuzione e l'utilizzo di memoria.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,6 +87,8 @@ class MeasureAction
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
      * @param Closure():T $closure La closure da eseguire e misurare
      * @param string $label Etichetta opzionale per identificare la misurazione
      *
@@ -138,8 +118,8 @@ class MeasureAction
 <<<<<<< HEAD
 =======
         Assert::isCallable($closure, 'Il parametro $closure deve essere una funzione chiamabile');
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,6 +257,8 @@ class MeasureAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         $start = microtime(true);
         $memory_start = memory_get_usage();
 
@@ -318,6 +300,7 @@ class MeasureAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'execution_time' => round($execution_time, 2).' ms',
             'memory_usage' => round($memory_usage, 2).' KB',
 =======
@@ -494,6 +477,10 @@ class MeasureAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+            'execution_time' => round($execution_time, 2) . ' ms',
+            'memory_usage' => round($memory_usage, 2) . ' KB',
+>>>>>>> ca9324a4 (.)
             // 'peak_memory' => round(memory_get_peak_usage() / 1024 / 1024, 2).' MB',
         ];
 
@@ -525,6 +512,7 @@ class MeasureAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->title('Performance Metrics '.($label !== '' ? $label : 'Unnamed'))
             ->body($metrics['execution_time'].'  '.$metrics['memory_usage'])
 =======
@@ -701,6 +689,10 @@ class MeasureAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+            ->title('Performance Metrics ' . ($label !== '' ? $label : 'Unnamed'))
+            ->body($metrics['execution_time'] . '  ' . $metrics['memory_usage'])
+>>>>>>> ca9324a4 (.)
             ->success()
             ->persistent()
             ->send();

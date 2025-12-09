@@ -36,6 +36,10 @@ class FakeSeederHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
+<<<<<<< HEAD
+=======
+            
+>>>>>>> f1d4085 (.)
             ->tooltip(__('xot::actions.fake_seeder'))
             ->icon('fas-seedling')
             ->schema([
@@ -68,6 +72,7 @@ class FakeSeederHeaderAction extends Action
                 $qty = max(1, (int) $qtyRaw);
                 Assert::greaterThanEq($qty, 1, 'Quantity must be greater than 0');
 
+<<<<<<< HEAD
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
 
 <<<<<<< HEAD
@@ -78,6 +83,7 @@ class FakeSeederHeaderAction extends Action
                 $title = 'On Queue '.$qty.' '.$modelClass;
 =======
                 $title = 'On Queue ' . $qty . ' ' . $modelClass;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,11 +130,15 @@ class FakeSeederHeaderAction extends Action
 =======
 >>>>>>> origin/develop
 >>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
                 app(FakeSeederAction::class)
                     ->onQueue()
                     ->execute($modelClass, $qty);
 
                 $title = 'On Queue '.$qty.' '.$modelClass;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,6 +201,9 @@ class FakeSeederHeaderAction extends Action
 =======
                 $title = 'On Queue ' . $qty . ' ' . $modelClass;
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
                 Notification::make()
                     ->title($title)
                     ->success()
@@ -215,6 +228,7 @@ class FakeSeederHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
@@ -301,6 +315,12 @@ class FakeSeederHeaderAction extends Action
 =======
     public static function getDefaultName(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     {
         return 'fake_seeder';
     }

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -442,6 +443,35 @@ namespace Modules\Xot\Tests\Pest;
  * | in tutti i test del modulo.
  * |
  */
+=======
+namespace Modules\Xot\Tests\Pest;
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Test Case
+|--------------------------------------------------------------------------
+|
+| Il TestCase di default per tutti i test del modulo Xot.
+| Estende il TestCase specifico del modulo che fornisce il setup necessario.
+|
+*/
+
+
+    ->in('Feature', 'Unit');
+
+/*
+|--------------------------------------------------------------------------
+| Expectations
+|--------------------------------------------------------------------------
+|
+| Qui puoi definire aspettative globali per il modulo Xot.
+
+| in tutti i test del modulo.
+|
+*/
+>>>>>>> f1d4085 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -477,6 +507,7 @@ namespace Modules\Xot\Tests\Pest;
 // });
 
 /*
+<<<<<<< HEAD
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -592,6 +623,7 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
@@ -642,6 +674,9 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
 |--------------------------------------------------------------------------
 | Functions
 |--------------------------------------------------------------------------
@@ -653,6 +688,7 @@ namespace Modules\Xot\Tests\Pest;
 
 // function something() {
 //     // ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -809,3 +845,7 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 16dc7ab0 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)

@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,7 +97,11 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
 =======
+=======
+>>>>>>> ed734516 (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
+=======
+>>>>>>> f1d4085 (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 >>>>>>> 5a14301c (.)
 
@@ -120,8 +125,13 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 ## Correzioni Implementate
 
 ### Moduli Corretti
+<<<<<<< HEAD
 - [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
+=======
+- [FormBuilder FieldOption Model](../FormBuilder/project_docs/phpstan-corrections.md)
+- [Lang Console Commands](../Lang/project_docs/phpstan-corrections.md)
+>>>>>>> f1d4085 (.)
 
 ## Principi di Correzione
 
@@ -142,8 +152,13 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 
 ## Collegamenti Correlati
 
+<<<<<<< HEAD
 - [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/project_docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/project_docs/phpstan-corrections.md)
+>>>>>>> f1d4085 (.)
 - [Xot Architecture](./architecture.md)
 
 ## Note per Sviluppo Futuro

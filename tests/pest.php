@@ -23,6 +23,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -57,6 +58,8 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
  * |--------------------------------------------------------------------------
  * | Test Case
  * |--------------------------------------------------------------------------
@@ -65,6 +68,7 @@ use Modules\Xot\Tests\TestCase;
  * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103,6 +107,9 @@ use Modules\Xot\Tests\TestCase;
 =======
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
 |--------------------------------------------------------------------------
 | Test Case
 |--------------------------------------------------------------------------
@@ -111,6 +118,7 @@ use Modules\Xot\Tests\TestCase;
 | Estende il TestCase specifico del modulo che fornisce il setup necessario.
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,10 +265,14 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,6 +319,8 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ed734516 (.)
  * |--------------------------------------------------------------------------
  * | Expectations
  * |--------------------------------------------------------------------------
@@ -316,6 +330,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -351,6 +366,9 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 =======
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
 |--------------------------------------------------------------------------
 | Expectations
 |--------------------------------------------------------------------------
@@ -360,6 +378,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 | in tutti i test del modulo.
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -538,12 +557,16 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -657,6 +680,8 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -669,6 +694,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -732,6 +758,9 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
 |--------------------------------------------------------------------------
 | Functions
 |--------------------------------------------------------------------------
@@ -743,6 +772,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
 
 // function something() {
 //     // ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -827,3 +857,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+// } 
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)

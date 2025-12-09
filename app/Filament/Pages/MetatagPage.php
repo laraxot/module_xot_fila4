@@ -47,6 +47,7 @@ use Filament\Pages\Page;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 =======
 >>>>>>> 5a14301c (.)
@@ -62,20 +63,32 @@ use Filament\Schemas\Schema;
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
 use Filament\Support\Colors\Color;
+=======
+>>>>>>> f1d4085 (.)
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 
 /**
  * @property Schema $form
+=======
+use Filament\Support\Colors\Color;
+
+/**
+ * @property \Filament\Schemas\Schema $form
+>>>>>>> f1d4085 (.)
  */
 class MetatagPage extends Page implements HasForms
 {
     use InteractsWithForms;
     use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +157,12 @@ class MetatagPage extends Page implements HasForms
 =======
     public null|array $data = [];
 >>>>>>> 5a14301c (.)
+=======
+    public null|array $data = [];
+=======
+    public ?array $data = [];
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
 
@@ -162,6 +181,7 @@ class MetatagPage extends Page implements HasForms
         $metatag = MetatagData::make();
 
         return $schema
+<<<<<<< HEAD
             ->components([
                 TextInput::make('title')->required(),
                 TextInput::make('sitename'),
@@ -244,6 +264,60 @@ class MetatagPage extends Page implements HasForms
                     ->columns(3),
             ])
             ->columns(2)
+=======
+            ->components(
+                [
+                    TextInput::make('title')
+                        ->required(),
+                    TextInput::make('sitename'),
+                    TextInput::make('subtitle'),
+                    TextInput::make('generator'),
+                    TextInput::make('charset'),
+                    TextInput::make('author'),
+                    TextInput::make('description'),
+                    TextInput::make('keywords'),
+                    /*
+                FileUpload::make('logo_header')
+                    ->preserveFilenames()
+                    ->image()
+                    ->imageEditor()
+                    ->moveFiles()
+                    ->disk('public')
+                    ->visibility('public')
+                    ->directory('logo')
+                    ->formatStateUsing(fn ($state): array =>[basename($state)])
+                    //->formatStateUsing(fn ($state): array =>['/uploads/photos/pexels-giona-mason-19138633.jpg'])
+                    ->dehydrateStateUsing(fn ($state) => collect($state)->map(function($item){
+                        return Storage::disk('public')->url($item);
+                    })->first() )
+                                      ,
+                */
+                    TextInput::make('logo_header'),
+                    TextInput::make('logo_header_dark')
+                        ->helperText('logo for dark css'),
+                    TextInput::make('logo_height'),
+                    Repeater::make('colors')
+                        ->schema([
+                            Select::make('key')
+                                ->label('Chiave')
+                                ->required()
+                                ->options($metatag->getFilamentColors()),
+                            Select::make('color')
+                                ->label('Colore')
+                                ->options(array_combine(
+                                    array_keys(Color::all()),
+                                    array_keys(Color::all())
+                                ))
+                                ->reactive(),
+                            ColorPicker::make('hex')
+                                ->label('Colore personalizzato')
+                                ->visible(fn (Get $get) => $get('color') === 'custom')
+                                ->required(),
+                        ])
+                        ->columns(3),
+                ]
+            )->columns(2)
+>>>>>>> f1d4085 (.)
             ->statePath('data');
     }
 
@@ -261,7 +335,12 @@ class MetatagPage extends Page implements HasForms
     protected function getFormActions(): array
     {
         return [
+<<<<<<< HEAD
             Action::make('save')->submit('save'),
+=======
+            Action::make('save')
+                ->submit('save'),
+>>>>>>> f1d4085 (.)
         ];
     }
 }

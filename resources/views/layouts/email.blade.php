@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> f1d4085 (.)
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,4 +52,8 @@ declare(strict_types=1);
         @yield('content')
     </div>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html> 
+>>>>>>> f1d4085 (.)

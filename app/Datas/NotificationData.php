@@ -71,7 +71,12 @@ class NotificationData extends Data
             'bot_token' => '',
             'chat_id' => '',
         ],
+<<<<<<< HEAD
     ) {}
+=======
+    ) {
+    }
+>>>>>>> f1d4085 (.)
 
     /**
      * Create a new instance of NotificationData with default values.

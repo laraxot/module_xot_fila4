@@ -15,6 +15,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Infolists\Components\TextEntry;
@@ -80,6 +81,11 @@ use Override;
 =======
 use Override;
 >>>>>>> 5a14301c (.)
+=======
+use Override;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 use Filament\Schemas\Schema;
 use Modules\Xot\Filament\Resources\LogResource\Pages\ListLogs;
 use Modules\Xot\Filament\Resources\LogResource\Pages\CreateLog;
@@ -91,9 +97,11 @@ use Filament\Infolists\Components\RepeatableEntry;
 use Filament\Infolists\Components\TextEntry;
 use Modules\Xot\Filament\Infolists\Components\FileContentEntry;
 use Modules\Xot\Filament\Resources\LogResource\Pages;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Models\Log;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,9 +130,12 @@ use Modules\Xot\Models\Log;
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
+>>>>>>> ed734516 (.)
+=======
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Models\Log;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
@@ -171,11 +182,15 @@ use Modules\Xot\Models\Log;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
 class LogResource extends XotBaseResource
 {
     use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,6 +234,8 @@ class LogResource extends XotBaseResource
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
     protected static null|string $model = Log::class;
 
 >>>>>>> 5a14301c (.)
@@ -237,6 +254,23 @@ class LogResource extends XotBaseResource
             'name' => TextInput::make('name')->required()->maxLength(255),
             'path' => TextInput::make('path')->required()->maxLength(255),
             'content' => Textarea::make('content')->columnSpanFull(),
+=======
+    protected static ?string $model = Log::class;
+
+    public static function getFormSchema(): array
+    {
+        return [
+            'name' => TextInput::make('name')
+                ->required()
+                ->maxLength(255),
+
+            'path' => TextInput::make('path')
+                ->required()
+                ->maxLength(255),
+
+            'content' => Textarea::make('content')
+                ->columnSpanFull(),
+>>>>>>> f1d4085 (.)
         ];
     }
 
@@ -255,6 +289,7 @@ class LogResource extends XotBaseResource
     public static function infolist(Schema $schema): Schema
     {
         return $schema->components([
+<<<<<<< HEAD
             TextEntry::make('name')->columnSpanFull(),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +347,34 @@ class LogResource extends XotBaseResource
     }
 
     #[Override]
+=======
+            TextEntry::make('name')
+                ->columnSpanFull(),
+            /*
+            Infolists\Components\TextEntry::make('email')
+                ->columnSpanFull(),
+
+            Infolists\Components\TextEntry::make('message')
+                ->formatStateUsing(static fn ($state) => new HtmlString(nl2br($state)))
+                ->columnSpanFull(),
+            */
+            FileContentEntry::make('file-content'),
+            /*
+            RepeatableEntry::make('lines')
+                ->schema([
+                    TextEntry::make('txt'),
+                ])
+            */
+        ]);
+    }
+
+    public static function getRelations(): array
+    {
+        return [
+        ];
+    }
+
+>>>>>>> f1d4085 (.)
     public static function getPages(): array
     {
         return [

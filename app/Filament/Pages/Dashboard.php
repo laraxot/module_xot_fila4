@@ -65,9 +65,19 @@ use Filament\Pages\Dashboard\Concerns\HasFiltersForm;
 use Filament\Widgets\Widget;
 use Filament\Widgets\WidgetConfiguration;
 
+<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+=======
+
+class Dashboard extends XotBaseDashboard
+{
+    
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -75,6 +85,7 @@ class Dashboard extends XotBaseDashboard
     {
         return [];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -94,4 +105,10 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 6cba4fe (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+
+    
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 }

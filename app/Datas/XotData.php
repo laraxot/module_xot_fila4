@@ -110,6 +110,7 @@ class XotData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $adm_theme = ''; // ' => 'AdminLTE',
 =======
     public null|string $adm_theme = ''; // ' => 'AdminLTE',
@@ -196,6 +197,12 @@ class XotData extends Data implements Wireable
 =======
     public null|string $adm_theme = ''; // ' => 'AdminLTE',
 >>>>>>> 5a14301c (.)
+=======
+    public null|string $adm_theme = ''; // ' => 'AdminLTE',
+=======
+    public ?string $adm_theme = ''; // ' => 'AdminLTE',
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
     // public bool $enable_ads;//' => '1',
     public string $primary_lang = 'it';
@@ -251,6 +258,7 @@ class XotData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -267,6 +275,8 @@ class XotData extends Data implements Wireable
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
     public null|string $super_admin = null;
 
     public string $video_player = 'html5';
@@ -283,8 +293,12 @@ class XotData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
     public ?string $super_admin = null;
 
     public string $video_player = 'html5';
@@ -296,6 +310,7 @@ class XotData extends Data implements Wireable
     public static function make(): self
     {
         if (! self::$instance) {
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -447,6 +462,9 @@ class XotData extends Data implements Wireable
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             $data = TenantService::getConfig('xra');
 
             self::$instance = self::from($data);
@@ -472,6 +490,7 @@ class XotData extends Data implements Wireable
     {
         $class = config('auth.providers.users.model');
         Assert::stringNotEmpty($class, 'check config auth');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,6 +562,8 @@ class XotData extends Data implements Wireable
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         Assert::classExists($class, '[' . $class . '] check config auth');
         Assert::implementsInterface(
             $class,
@@ -550,6 +571,7 @@ class XotData extends Data implements Wireable
             'class ' . $class . ' not implements UserContract[' . __LINE__ . '][' . class_basename($this) . ']',
         );
         Assert::isAOf($class, Model::class, '[' . __LINE__ . '][' . class_basename($this) . '][' . $class . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -588,9 +610,12 @@ class XotData extends Data implements Wireable
 <<<<<<< HEAD
 >>>>>>> 17684f52 (.)
 =======
+>>>>>>> ed734516 (.)
+=======
         Assert::classExists($class, '['.$class.'] check config auth');
         Assert::implementsInterface($class, UserContract::class, 'class '.$class.' not implements UserContract['.__LINE__.']['.class_basename($this).']');
         Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -645,6 +670,9 @@ class XotData extends Data implements Wireable
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
         return $class;
     }
@@ -652,6 +680,7 @@ class XotData extends Data implements Wireable
     public function getUserByEmail(string $email): UserContract
     {
         $user_class = $this->getUserClass();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -764,6 +793,8 @@ class XotData extends Data implements Wireable
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         $userInstance = new $user_class();
         if (!in_array('email', $userInstance->getFillable(), true)) {
             throw new Exception("Attribute 'email' not found in model " . get_class($userInstance));
@@ -775,6 +806,7 @@ class XotData extends Data implements Wireable
          * }
          */
         Assert::implementsInterface($user, UserContract::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -808,9 +840,12 @@ class XotData extends Data implements Wireable
 =======
 >>>>>>> 17684f52 (.)
 =======
+>>>>>>> ed734516 (.)
+=======
         $userInstance = new $user_class;
         if (! in_array('email', $userInstance->getFillable(), true)) {
             throw new Exception("Attribute 'email' not found in model ".get_class($userInstance));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -828,6 +863,8 @@ class XotData extends Data implements Wireable
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> ed734516 (.)
         }
         $user = $user_class::firstOrCreate(['email' => $email]);
         /*
@@ -836,6 +873,7 @@ class XotData extends Data implements Wireable
         }
             */
         Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -889,6 +927,9 @@ class XotData extends Data implements Wireable
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
         return $user;
     }
@@ -898,6 +939,7 @@ class XotData extends Data implements Wireable
      */
     public function getTeamClass(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -957,6 +999,8 @@ class XotData extends Data implements Wireable
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
         Assert::classExists($this->team_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 5a14301c (.)
 =======
@@ -1004,6 +1048,12 @@ class XotData extends Data implements Wireable
             '[' . $this->team_class . '][' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)
         );
+=======
+        Assert::classExists($this->team_class, '['.__LINE__.']['.class_basename($this).']');
+        // Assert::isInstanceOf($team_class, Model::class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::isAOf($this->team_class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$this->team_class.']');
+        Assert::implementsInterface($this->team_class, TeamContract::class, '['.$this->team_class.']['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
 
         return $this->team_class;
     }
@@ -1015,6 +1065,7 @@ class XotData extends Data implements Wireable
      */
     public function getTenantClass(): string
     {
+<<<<<<< HEAD
         Assert::classExists(
             $this->tenant_class,
 <<<<<<< HEAD
@@ -1071,6 +1122,13 @@ class XotData extends Data implements Wireable
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $this->tenant_class . ']',
 >>>>>>> 5a14301c (.)
         );
+=======
+        Assert::classExists($this->tenant_class, '['.$this->tenant_class.']['.__LINE__.']['.class_basename($this).']');
+        // Assert::isInstanceOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']');
+        // Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+        Assert::implementsInterface($this->tenant_class, TenantContract::class, '['.$this->tenant_class.']['.__LINE__.']['.class_basename($this).']');
+        Assert::isAOf($this->tenant_class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$this->tenant_class.']');
+>>>>>>> f1d4085 (.)
 
         return $this->tenant_class;
     }
@@ -1100,6 +1158,7 @@ class XotData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
 =======
         Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
@@ -1186,6 +1245,12 @@ class XotData extends Data implements Wireable
 =======
         Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 5a14301c (.)
+=======
+        Assert::classExists($class, '[' . $class . '][' . __LINE__ . '][' . class_basename($this) . ']');
+=======
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
         return $class;
     }
@@ -1208,6 +1273,7 @@ class XotData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
 =======
         Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
@@ -1294,6 +1360,12 @@ class XotData extends Data implements Wireable
 =======
         Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 5a14301c (.)
+=======
+        Assert::classExists($this->tenant_pivot_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+=======
+        Assert::classExists($this->tenant_pivot_class, '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
         return $this->tenant_pivot_class;
     }
@@ -1316,6 +1388,7 @@ class XotData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
 =======
         Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
@@ -1402,6 +1475,12 @@ class XotData extends Data implements Wireable
 =======
         Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 5a14301c (.)
+=======
+        Assert::classExists($this->membership_class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+=======
+        Assert::classExists($this->membership_class, '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
         return $this->membership_class;
     }
@@ -1411,6 +1490,7 @@ class XotData extends Data implements Wireable
      */
     public function getProfileClass(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1484,6 +1564,8 @@ class XotData extends Data implements Wireable
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         $class = 'Modules\\' . $this->main_module . '\Models\Profile';
 
         // Verifica che la classe esista
@@ -1503,6 +1585,16 @@ class XotData extends Data implements Wireable
 =======
 >>>>>>> 5a14301c (.)
         );
+=======
+        $class = 'Modules\\'.$this->main_module.'\Models\Profile';
+
+        // Verifica che la classe esista
+        Assert::classExists($class, '['.$class.']['.__LINE__.']['.class_basename($this).']');
+
+        // Verifica che sia un Model e implementi ProfileContract
+        Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+        Assert::implementsInterface($class, ProfileContract::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+>>>>>>> f1d4085 (.)
 
         /** @var class-string<Model&ProfileContract> */
         return $class;
@@ -1510,6 +1602,7 @@ class XotData extends Data implements Wireable
 
     public function getHomeController(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1612,6 +1705,12 @@ class XotData extends Data implements Wireable
 =======
         return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
 >>>>>>> 5a14301c (.)
+=======
+        return 'Modules\\' . $this->main_module . '\Http\Controllers\HomeController';
+=======
+        return 'Modules\\'.$this->main_module.'\Http\Controllers\HomeController';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     }
 
     public function getProfileModelByUserId(string $user_id): ProfileContract
@@ -1623,6 +1722,7 @@ class XotData extends Data implements Wireable
         Assert::isInstanceOf($profile, Model::class);
         Assert::isArray($profile->getFillable(), 'getFillable() must return array');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1705,9 +1805,14 @@ class XotData extends Data implements Wireable
             throw new Exception('add user_id to fillable on class ' . $profileClass);
 >>>>>>> 7131bd09 (.)
 =======
+        if (!in_array('user_id', $profile->getFillable(), true)) {
+            throw new Exception('add user_id to fillable on class ' . $profileClass);
+>>>>>>> ed734516 (.)
+=======
         if (! in_array('user_id', $profile->getFillable(), true)) {
             throw new Exception('add user_id to fillable on class '.$profileClass);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1749,6 +1854,8 @@ class XotData extends Data implements Wireable
         if (!in_array('user_id', $profile->getFillable(), true)) {
             throw new Exception('add user_id to fillable on class ' . $profileClass);
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         }
 
         /** @var ProfileContract */
@@ -1793,6 +1900,7 @@ class XotData extends Data implements Wireable
             return false;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1895,6 +2003,12 @@ class XotData extends Data implements Wireable
 =======
         if (!method_exists($user, 'hasRole')) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!method_exists($user, 'hasRole')) {
+=======
+        if (! method_exists($user, 'hasRole')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             return false;
         }
 
@@ -1928,6 +2042,7 @@ class XotData extends Data implements Wireable
 =======
 >>>>>>> 5a14301c (.)
         $this->profile = $this->getProfileModelByUserId($user_id);
+<<<<<<< HEAD
         Assert::implementsInterface(
             $this->profile,
             ProfileContract::class,
@@ -1940,6 +2055,9 @@ class XotData extends Data implements Wireable
 =======
 >>>>>>> 5a14301c (.)
         );
+=======
+        Assert::implementsInterface($this->profile, ProfileContract::class, '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
 
         return $this->profile;
     }
@@ -1966,6 +2084,7 @@ class XotData extends Data implements Wireable
 
     public function getPubThemeViewPath(string $key = ''): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2019,13 +2138,20 @@ class XotData extends Data implements Wireable
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
+=======
+        $path0 = base_path('Themes/'.$this->pub_theme.'/resources/views/'.$key);
+>>>>>>> f1d4085 (.)
         try {
             $path = realpath($path0);
 
             return $path;
         } catch (Exception $e) {
+<<<<<<< HEAD
             throw new Exception('realpath not find dir[' . $path0 . ']' . PHP_EOL . '[' . $e->getMessage() . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2103,11 +2229,17 @@ class XotData extends Data implements Wireable
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+            throw new Exception('realpath not find dir['.$path0.']'.PHP_EOL.'['.$e->getMessage().']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         }
     }
 
     public function getPubThemePublicPath(string $key = ''): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2152,7 +2284,12 @@ class XotData extends Data implements Wireable
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
         $path = base_path('themes/' . $this->pub_theme . '/' . $key);
+=======
+        $path = base_path('themes/'.$this->pub_theme.'/'.$key);
+>>>>>>> f1d4085 (.)
         return $path;
 >>>>>>> 5a14301c (.)
 =======
@@ -2167,6 +2304,7 @@ class XotData extends Data implements Wireable
 
     public function getPubThemePublicAsset(string $key = ''): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2211,7 +2349,12 @@ class XotData extends Data implements Wireable
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
         $path = asset('themes/' . $this->pub_theme . '/' . $key);
+=======
+        $path = asset('themes/'.$this->pub_theme.'/'.$key);
+>>>>>>> f1d4085 (.)
         return $path;
 >>>>>>> 5a14301c (.)
 =======
@@ -2262,6 +2405,7 @@ class XotData extends Data implements Wireable
         $types = $userInstance->getChildTypes();
         $class = Arr::get($types, $type);
         if (is_null($class)) {
+<<<<<<< HEAD
             throw new Exception('type ' . $type . ' not found in class ' . $user_class);
         }
         Assert::classExists($class, '[' . __LINE__ . '][' . class_basename($this) . ']');
@@ -2278,6 +2422,13 @@ class XotData extends Data implements Wireable
 =======
 >>>>>>> 5a14301c (.)
         );
+=======
+            throw new Exception('type '.$type.' not found in class '.$user_class);
+        }
+        Assert::classExists($class, '['.__LINE__.']['.class_basename($this).']');
+        Assert::isAOf($class, Model::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+        Assert::implementsInterface($class, UserContract::class, '['.__LINE__.']['.class_basename($this).']['.$class.']');
+>>>>>>> f1d4085 (.)
 
         return $class;
     }
@@ -2296,6 +2447,7 @@ class XotData extends Data implements Wireable
             ->toString();
 
         // If the class doesn't exist, try the alternative path (app/Filament/Resources)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2364,12 +2516,15 @@ class XotData extends Data implements Wireable
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         if (!class_exists($resourceClass)) {
             $resourceClass =
                 'Modules\\' . $moduleName . '\\app\\Filament\\Resources\\' . class_basename($class) . 'Resource';
         }
 
         if (!class_exists($resourceClass)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2402,6 +2557,8 @@ class XotData extends Data implements Wireable
 =======
 >>>>>>> 88ea7103 (.)
 =======
+>>>>>>> ed734516 (.)
+=======
         if (! class_exists($resourceClass)) {
             $resourceClass = 'Modules\\'.$moduleName.'\\app\\Filament\\Resources\\'.
                           class_basename($class).'Resource';
@@ -2409,6 +2566,7 @@ class XotData extends Data implements Wireable
 
         if (! class_exists($resourceClass)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2437,6 +2595,8 @@ class XotData extends Data implements Wireable
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
             throw new RuntimeException("Resource class not found for type: {$type}. Tried: {$resourceClass}");
         }
 
@@ -2463,7 +2623,9 @@ class XotData extends Data implements Wireable
 <<<<<<< HEAD
 =======
         return $enum_class::cases();
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2541,6 +2703,10 @@ class XotData extends Data implements Wireable
         return $enum_class::cases();
 
 >>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         // $userInstance = app($user_class);
         // return $userInstance->getChildTypes();
     }
@@ -2567,6 +2733,7 @@ class XotData extends Data implements Wireable
 =======
         // $enum_class = Arr::get($user_class::casts(),'type',null);
         $enum_class = Arr::get($user_instance->getCasts(), 'type', null);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2632,16 +2799,25 @@ class XotData extends Data implements Wireable
         // $enum_class = Arr::get($user_class::casts(),'type',null);
         $enum_class = Arr::get($user_instance->getCasts(), 'type', null);
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         if ($enum_class === null) {
             $enum_class = Str::of($user_class)
                 ->replace('\\Models\\', '\\Enums\\')
                 ->append('TypeEnum')
                 ->toString();
+=======
+        if ($enum_class == null) {
+            $enum_class = Str::of($user_class)->replace('\\Models\\', '\\Enums\\')->append('TypeEnum')->toString();
+>>>>>>> f1d4085 (.)
         }
         Assert::stringNotEmpty($enum_class, 'enum_class is empty');
 
         return $enum_class;
+<<<<<<< HEAD
 
+=======
+>>>>>>> f1d4085 (.)
         // $userInstance = app($user_class);
         // return $userInstance->getChildTypes();
     }
@@ -2668,6 +2844,7 @@ class XotData extends Data implements Wireable
 
     public function forceSSL(): bool
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2727,6 +2904,8 @@ class XotData extends Data implements Wireable
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
         if (!$this->force_ssl) {
 >>>>>>> 5a14301c (.)
 =======
@@ -2741,6 +2920,15 @@ class XotData extends Data implements Wireable
             return false;
         }
         if (isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] === '127.0.0.1') {
+=======
+        if (! $this->force_ssl) {
+            return false;
+        }
+        if (isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == 'localhost') {
+            return false;
+        }
+        if (isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == '127.0.0.1') {
+>>>>>>> f1d4085 (.)
             return false;
         }
         // AWS ELB

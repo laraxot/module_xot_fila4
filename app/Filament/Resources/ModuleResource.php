@@ -20,6 +20,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -96,6 +97,12 @@ use Override;
 use Filament\Schemas\Components\Component;
 use Override;
 >>>>>>> 5a14301c (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
@@ -112,6 +119,7 @@ use Modules\UI\Filament\Forms\Components\IconPicker;
 use Modules\UI\Filament\Forms\Components\IconPicker;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Module;
 
@@ -130,6 +138,26 @@ class ModuleResource extends XotBaseResource
 =======
 >>>>>>> 5a14301c (.)
     #[Override]
+=======
+use Modules\Xot\Models\Module;
+
+
+
+
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+
+
+
+
+class ModuleResource extends XotBaseResource
+{
+    protected static ?string $model = Module::class;
+
+    /**
+     * @return array<string, \Filament\Schemas\Components\Component>
+     */
+>>>>>>> f1d4085 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -153,6 +181,7 @@ class ModuleResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
     public static function getRelations(): array
     {
@@ -160,6 +189,14 @@ class ModuleResource extends XotBaseResource
     }
 
     #[Override]
+=======
+    public static function getRelations(): array
+    {
+        return [
+        ];
+    }
+
+>>>>>>> f1d4085 (.)
     public static function getPages(): array
     {
 <<<<<<< HEAD

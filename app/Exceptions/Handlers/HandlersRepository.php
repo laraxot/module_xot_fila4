@@ -104,6 +104,7 @@ class HandlersRepository
      */
     public function getReportersByException(Throwable $e): array
     {
+<<<<<<< HEAD
         return array_filter(
             $this->reporters,
 <<<<<<< HEAD
@@ -124,6 +125,11 @@ class HandlersRepository
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 >>>>>>> 5a14301c (.)
         );
+=======
+        return array_filter($this->reporters, function (mixed $handler) use ($e): bool {
+            return is_callable($handler) && $this->handlesException($handler, $e);
+        });
+>>>>>>> f1d4085 (.)
     }
 
     /**
@@ -131,6 +137,7 @@ class HandlersRepository
      */
     public function getRenderersByException(Throwable $e): array
     {
+<<<<<<< HEAD
         return array_filter(
             $this->renderers,
 <<<<<<< HEAD
@@ -151,6 +158,11 @@ class HandlersRepository
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 >>>>>>> 5a14301c (.)
         );
+=======
+        return array_filter($this->renderers, function (mixed $handler) use ($e): bool {
+            return is_callable($handler) && $this->handlesException($handler, $e);
+        });
+>>>>>>> f1d4085 (.)
     }
 
     /**
@@ -158,6 +170,7 @@ class HandlersRepository
      */
     public function getConsoleRenderersByException(Throwable $e): array
     {
+<<<<<<< HEAD
         return array_filter(
             $this->consoleRenderers,
 <<<<<<< HEAD
@@ -178,6 +191,11 @@ class HandlersRepository
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
 >>>>>>> 5a14301c (.)
         );
+=======
+        return array_filter($this->consoleRenderers, function (mixed $handler) use ($e): bool {
+            return is_callable($handler) && $this->handlesException($handler, $e);
+        });
+>>>>>>> f1d4085 (.)
     }
 
     /**
@@ -191,6 +209,7 @@ class HandlersRepository
             $reflection = new ReflectionFunction(Closure::fromCallable($handler));
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,11 +276,14 @@ class HandlersRepository
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         if (!($params = $reflection->getParameters())) {
             return false;
         }
 
         return ($params[0]->getClass() instanceof ReflectionClass) ? $params[0]->getClass()->isInstance($e) : true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,10 +335,14 @@ class HandlersRepository
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
         if (! $params = $reflection->getParameters()) {
             return false;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,5 +404,9 @@ class HandlersRepository
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+        return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     }
 }

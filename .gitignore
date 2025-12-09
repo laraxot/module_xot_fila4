@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ==============================================
 # LARAXOT MODULE XOT - .GITIGNORE
 # ==============================================
@@ -223,6 +224,7 @@ lerna-debug.log*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
@@ -268,6 +270,10 @@ lerna-debug.log*
 # LARAVEL SPECIFIC
 # ==============================================
 >>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -281,7 +287,10 @@ lerna-debug.log*
 package-lock.json
 yarn-error.log
 npm-debug.log
+<<<<<<< HEAD
 composer.lock
+=======
+>>>>>>> f1d4085 (.)
 .phpunit.result.cache
 .php-cs-fixer.cache
 
@@ -328,6 +337,7 @@ public_html/storage
 public_html/hot
 storage/*.key
 .env
+<<<<<<< HEAD
 .env.*
 !.env.example
 
@@ -692,6 +702,8 @@ packages/temp/
 database/Factories_
 database/Factories_old
 database/Migrations_old
+=======
+>>>>>>> f1d4085 (.)
 
 # Local configurations
 Homestead.yaml
@@ -715,11 +727,21 @@ Homestead.json
 *.exe
 *:Zone.Identifier
 .DS_Store
+<<<<<<< HEAD
+=======
+*.new
+
+# Backup files
+>>>>>>> f1d4085 (.)
 *.old
 *.old1
 *.backup
 *.backup.*
 *.bak
+<<<<<<< HEAD
+=======
+*.bak
+>>>>>>> f1d4085 (.)
 *.new
 
 # Documentation and cache
@@ -727,6 +749,7 @@ docs/phpstan/
 docs/cache/
 cache/
 
+<<<<<<< HEAD
 # Development tools
 .windsurf/
 .cursor/
@@ -769,6 +792,7 @@ database_old
 *.fila2
 laravel
 public_html
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -822,3 +846,7 @@ public_html
 laravel
 public_html
 >>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)

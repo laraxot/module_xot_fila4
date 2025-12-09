@@ -75,6 +75,7 @@ class ModuleService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static ?self $_instance = null;
 =======
     private static null|self $_instance = null;
@@ -161,6 +162,12 @@ class ModuleService
 =======
     private static null|self $_instance = null;
 >>>>>>> 5a14301c (.)
+=======
+    private static null|self $_instance = null;
+=======
+    private static ?self $_instance = null;
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
     /**
      * getInstance.
@@ -169,6 +176,7 @@ class ModuleService
      */
     public static function getInstance(): self
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,7 +222,12 @@ class ModuleService
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
         if (!(self::$_instance instanceof self)) {
+=======
+        if (! self::$_instance instanceof self) {
+>>>>>>> f1d4085 (.)
             self::$_instance = new self();
 >>>>>>> 5a14301c (.)
 =======
@@ -256,6 +269,7 @@ class ModuleService
     public function getModels(): array
     {
         /*
+<<<<<<< HEAD
          * if (null == $module) {
          * return [];
          * }
@@ -279,6 +293,7 @@ class ModuleService
         }
 
         $mod_path = $mod->getPath() . '/Models';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -322,10 +337,14 @@ class ModuleService
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
         if (null == $module) {
             return [];
         }
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -359,12 +378,15 @@ class ModuleService
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> ed734516 (.)
         $mod = Module::find($this->name);
         if (! $mod instanceof \Nwidart\Modules\Module) {
             return [];
         }
 
         $mod_path = $mod->getPath().'/Models';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -410,10 +432,14 @@ class ModuleService
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         $mod_path = str_replace(['\\', '/'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $mod_path);
 
         $files = File::files($mod_path);
         $data = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -516,6 +542,12 @@ class ModuleService
 =======
         $ns = 'Modules\\' . $mod->getName() . '\\Models'; // con la barra davanti non va il search ?
 >>>>>>> 5a14301c (.)
+=======
+        $ns = 'Modules\\' . $mod->getName() . '\\Models'; // con la barra davanti non va il search ?
+=======
+        $ns = 'Modules\\'.$mod->getName().'\\Models';  // con la barra davanti non va il search ?
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         foreach ($files as $file) {
             $filename = $file->getRelativePathname();
             $ext = '.php';
@@ -564,6 +596,7 @@ class ModuleService
 
                 $name = mb_substr($filename, 0, -mb_strlen($ext));
 
+<<<<<<< HEAD
                 /**
                  * @var class-string
                  */
@@ -585,6 +618,13 @@ class ModuleService
 =======
 >>>>>>> 5a14301c (.)
                 $class = $ns . '\\' . $name;
+=======
+                
+                /**
+                 * @var class-string
+                 */
+                $class = $ns.'\\'.$name;
+>>>>>>> f1d4085 (.)
                 //Strict comparison using === between stdClass and null will always evaluate to false.
 
                 //if ($tmp === null) {
@@ -603,6 +643,7 @@ class ModuleService
 
                 try {
                     $reflection_class = new ReflectionClass($tmp->class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -660,6 +701,12 @@ class ModuleService
 =======
                     if (!$reflection_class->isAbstract()) {
 >>>>>>> 5a14301c (.)
+=======
+                    if (!$reflection_class->isAbstract()) {
+=======
+                    if (! $reflection_class->isAbstract()) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

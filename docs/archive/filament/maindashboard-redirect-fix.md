@@ -242,9 +242,16 @@ performance::admin
 - [User Role Management](../../User/docs/console_commands/README.md)
 - [Filament Best Practices](../../../docs/FILAMENT-BEST-PRACTICES.md)
 
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ## Aggiornamenti
 
 ### 2025-01-27 - Fix Implementato

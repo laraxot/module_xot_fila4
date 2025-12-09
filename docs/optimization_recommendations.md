@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static string $projectBasePath = '/var/www/html/<nome progetto>';
 public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
 <<<<<<< HEAD
@@ -47,12 +48,17 @@ public static string $projectBasePath = '/var/www/html/saluteora';
 public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 >>>>>>> 472bd9dc (.)
 =======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> d86d643a (.)
+=======
 public static string $projectBasePath = '/var/www/html/<nome progetto>';
 public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
 public static string $projectBasePath = '/var/www/html/<nome progetto>';
 public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
 public static string $laravelBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel';
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
@@ -96,6 +102,8 @@ public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 public static string $projectBasePath = '/var/www/html/saluteora';
 public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 ```
 
 #### 2. XotData Incompleto
@@ -420,6 +428,7 @@ abstract class XotBaseModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
 <<<<<<< HEAD
 =======
@@ -437,9 +446,13 @@ grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
 grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
 >>>>>>> 472bd9dc (.)
 =======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> d86d643a (.)
+=======
 grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
 grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
@@ -473,6 +486,8 @@ grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
 =======
 grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 
 # Verifica XotData usage
 grep -r "XotData::make()" Modules/Xot/ --include="*.php"

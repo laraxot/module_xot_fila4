@@ -30,6 +30,7 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    grep -r "function methodName" /var/www/html/base_<nome progetto>/laravel/vendor/filament
 =======
    grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
@@ -48,10 +49,14 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
    grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
 >>>>>>> 472bd9dc (.)
 =======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> d86d643a (.)
+=======
    grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
    grep -r "function methodName" /var/www/html/base_<nome progetto>/laravel/vendor/filament
    grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
@@ -87,6 +92,8 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 =======
    grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
    ```
 
 3. **Principio di Sostituzione di Liskov**: Le sottoclassi devono essere sostituibili alle loro classi base senza alterare il comportamento corretto del programma.
@@ -175,6 +182,7 @@ public function getNavigationLabel(): string // Non static!
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
 - [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
 =======
@@ -207,6 +215,10 @@ public function getNavigationLabel(): string // Non static!
 - [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
 >>>>>>> 472bd9dc (.)
 =======
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> d86d643a (.)
+=======
 - [Principi di Ereditarietà](../Xot/project_docs/class_inheritance_principles.md)
 - [XotBasePage](../Xot/project_docs/filament/pages/xotbasepage.md)
 - [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
@@ -214,6 +226,7 @@ public function getNavigationLabel(): string // Non static!
 - [Principi di Ereditarietà](../Xot/project_docs/class_inheritance_principles.md)
 - [XotBasePage](../Xot/project_docs/filament/pages/xotbasepage.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
@@ -249,3 +262,5 @@ public function getNavigationLabel(): string // Non static!
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
 - [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)

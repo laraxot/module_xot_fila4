@@ -97,6 +97,7 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Standard per le Migrazioni in <nome progetto>
 
 ## Introduzione
@@ -175,11 +176,14 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 # Standard per le Migrazioni in SaluteOra
 
 ## Introduzione
 
 Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di SaluteOra. Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,12 +202,15 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 =======
 >>>>>>> 472bd9dc (.)
 =======
+>>>>>>> d86d643a (.)
+=======
 # Standard per le Migrazioni in <nome progetto>
 
 ## Introduzione
 
 Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di <nome progetto>. Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
@@ -221,6 +228,8 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
 
 ## Principi Fondamentali
 
@@ -407,8 +416,15 @@ SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
 >>>>>>> 5a14301c (.)
 =======
  utilizza diverse connessioni al database per diversi tipi di dati:
+<<<<<<< HEAD
 SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
+=======
+=======
+<nome progetto> utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 1. **mysql**: Connessione principale per la maggior parte delle tabelle
 2. **user**: Connessione per i dati degli utenti
@@ -657,5 +673,12 @@ Seguire questi standard per le migrazioni è fondamentale per garantire la coere
 >>>>>>> 5a14301c (.)
 =======
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+<<<<<<< HEAD
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
+=======
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in <nome progetto>. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

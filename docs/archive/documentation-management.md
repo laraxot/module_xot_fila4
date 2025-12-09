@@ -39,6 +39,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -84,6 +85,11 @@ base_predict_fila3_mono/
 =======
 - **Documentazione Globale** (`/project_docs/`)
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
@@ -103,6 +109,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -148,6 +155,11 @@ base_predict_fila3_mono/
 =======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -187,6 +199,7 @@ Quando si identifica una nuova regola o pattern importante:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      1. Aggiornare `Modules/[ModuleName]/docs/`
 <<<<<<< HEAD
 =======
@@ -198,12 +211,15 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
 1. Aggiornare `Modules/[ModuleName]/docs/`
 =======
      1. Aggiornare `Modules/[ModuleName]/docs/`
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
      1. Aggiornare `Modules/[ModuleName]/docs/`
@@ -215,10 +231,13 @@ Quando si identifica una nuova regola o pattern importante:
 =======
      1. Aggiornare `Modules/[ModuleName]/docs/`
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
      2. Se rilevante, aggiungere riferimento in `/docs/`
 
    - Se regola globale:
      1. Aggiornare `/docs/`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,6 +309,11 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**

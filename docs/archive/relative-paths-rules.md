@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 
 =======
@@ -94,6 +95,11 @@
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ## Regola Fondamentale
 
 **MAI UTILIZZARE PERCORSI ASSOLUTI NEI LINK DELLA DOCUMENTAZIONE. SEMPRE UTILIZZARE PERCORSI RELATIVI.**
@@ -121,6 +127,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 [Modulo Xot](./laravel/Modules/Xot/project_docs/README.md)
@@ -165,6 +172,11 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
 [Modulo Xot](./laravel/Modules/Xot/project_docs/README.md)
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ```
 
 ### Da un file in un modulo verso un altro modulo
@@ -186,6 +198,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 [Altro Modulo](../../../AltroModulo/project_docs/README.md)
@@ -230,6 +243,11 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
 [Altro Modulo](../../../AltroModulo/project_docs/README.md)
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ```
 
 ### Da un file in un modulo verso la root
@@ -251,6 +269,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 [Documentazione Root](../../../../project_docs/README.md)
@@ -295,12 +314,18 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
 [Documentazione Root](../../../../project_docs/README.md)
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ```
 
 ## Errori Comuni da Evitare
 
 1. **MAI utilizzare percorsi assoluti** come:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,6 +353,8 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
 [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/docs/README.md)
 
 =======
@@ -335,6 +362,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/README.md)
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/README.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
@@ -370,6 +398,8 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
    ```
 
 2. **MAI utilizzare percorsi che iniziano con /**:
@@ -387,6 +417,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    [ERRATO](/project_docs/README.md)
    [ERRATO](/laravel/Modules/Xot/project_docs/README.md)
 =======
@@ -402,6 +433,8 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
 [ERRATO](/docs/README.md)
    [ERRATO](/laravel/Modules/Xot/docs/README.md)
 
@@ -409,6 +442,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](/docs/README.md)
    [ERRATO](/laravel/Modules/Xot/docs/README.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
@@ -448,6 +482,8 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](/project_docs/README.md)
    [ERRATO](/laravel/Modules/Xot/project_docs/README.md)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
    ```
 
 3. **MAI utilizzare percorsi che non tengono conto della posizione relativa del file sorgente**:
@@ -465,6 +501,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    [ERRATO](Modules/Xot/project_docs/README.md) <!-- Da un file nella root -->
    [ERRATO](../Xot/project_docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
 =======
@@ -480,6 +517,8 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
 [ERRATO](Modules/Xot/docs/README.md) <!-- Da un file nella root -->
    [ERRATO](../Xot/docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
 
@@ -487,6 +526,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](Modules/Xot/docs/README.md) <!-- Da un file nella root -->
    [ERRATO](../Xot/docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
@@ -526,6 +566,8 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](Modules/Xot/project_docs/README.md) <!-- Da un file nella root -->
    [ERRATO](../Xot/project_docs/README.md) <!-- Da un file in un modulo, senza contare correttamente i livelli -->
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
    ```
 
 ## Come Calcolare Correttamente i Percorsi Relativi
@@ -595,6 +637,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 
 =======
@@ -633,6 +676,11 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
 
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ## Verifica dei Link
 
 Prima di committare modifiche alla documentazione:

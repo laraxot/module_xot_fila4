@@ -244,6 +244,7 @@ Questo documento descrive le convenzioni di denominazione da seguire all'interno
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Qualità del codice](./CODE_QUALITY.md)
 - [Tipi rigorosi PHP](./PHP-STRICT-TYPES.md)
 =======
@@ -252,6 +253,8 @@ Questo documento descrive le convenzioni di denominazione da seguire all'interno
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
 - [Qualità del codice](./code_quality.md)
 - [Tipi rigorosi PHP](./php-strict-types.md)
 =======
@@ -260,11 +263,14 @@ Questo documento descrive le convenzioni di denominazione da seguire all'interno
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
 - [Guida all'implementazione di PHPStan](./PHPSTAN-IMPLEMENTATION-GUIDE.md)
 - [Best practice per i provider di servizi](./SERVICE-PROVIDER-BEST-PRACTICES.md)
 - [Best practice per Filament](./FILAMENT-BEST-PRACTICES.md)

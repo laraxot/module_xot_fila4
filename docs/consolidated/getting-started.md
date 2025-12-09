@@ -85,6 +85,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # options: dev, prod
 npm run dev
 ```
@@ -96,10 +97,13 @@ npm run dev
 =======
 >>>>>>> 472bd9dc (.)
 =======
+>>>>>>> d86d643a (.)
+=======
 # options: dev, prod
 npm run dev
 ```
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
@@ -119,6 +123,8 @@ npm run dev
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 
 # options: dev, prod
 npm run dev

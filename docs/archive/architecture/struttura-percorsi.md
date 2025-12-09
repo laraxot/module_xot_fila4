@@ -1280,6 +1280,7 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Struttura del progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/architecture/struttura-progetto.md)
 - [Regole di namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/standards/namespace-conventions.md)
 - [Autoloading](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
@@ -1520,3 +1521,8 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+- [Struttura del progetto](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
+>>>>>>> ba1d49f3 (.)

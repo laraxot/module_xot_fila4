@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -40,6 +41,8 @@
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
 # CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 
 ## 🚨 **PROBLEMA CRITICO RISOLTO**
@@ -170,6 +173,7 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -185,10 +189,13 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,6 +248,8 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -270,6 +279,7 @@ Questo fix dimostra l'importanza di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 =======
 =======
@@ -334,3 +344,6 @@ Questo fix dimostra l'importanza di:
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> 3bf39332 (.)

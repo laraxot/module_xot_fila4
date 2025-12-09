@@ -119,8 +119,16 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
+<<<<<<< HEAD
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+<<<<<<< HEAD
 >>>>>>> 33af3e61 (.)
+=======
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto .
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto <nome progetto>.
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
 
 ## Problema Identificato
 Il file di traduzione spagnolo `/lang/es/labels.php` contiene alcune strutture che potrebbero beneficiare della struttura espansa, specialmente per campi geografici come "province".

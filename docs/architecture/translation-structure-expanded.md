@@ -119,8 +119,16 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
+<<<<<<< HEAD
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+<<<<<<< HEAD
 >>>>>>> 88e35986 (.)
+=======
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto .
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto <nome progetto>.
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
 
 ## Problema Identificato
 Il file di traduzione spagnolo `/lang/es/labels.php` contiene alcune strutture che potrebbero beneficiare della struttura espansa, specialmente per campi geografici come "province".
@@ -301,6 +309,7 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -339,6 +348,8 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
 - [Struttura Traduzioni Espansa](/project_docs/translation-structure-expanded.md)
 - [Principi DRY/KISS](/project_docs/dry-kiss-principles.md)
 
@@ -364,6 +375,7 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -388,12 +400,16 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 =======
 =======
 >>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
 - [Struttura Traduzioni Espansa](/docs/translation-structure-expanded.md)
 - [Principi DRY/KISS](/docs/dry-kiss-principles.md)
 
 ### Documentazione Moduli Correlati
 - [Geo Module Translations](/Modules/Geo/docs/translation-structure-expanded.md)
 - [User Module Translations](/Modules/User/docs/translation-guidelines.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -454,6 +470,9 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
 
 ### File di Implementazione
 - `lang/es/labels.php` - Etichette generali spagnole

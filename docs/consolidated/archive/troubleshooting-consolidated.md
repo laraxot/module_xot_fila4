@@ -233,6 +233,7 @@ Codice non conforme agli standard di tipizzazione.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -260,10 +261,14 @@ cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 472bd9dc (.)
 =======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 3bf39332 (.)
+=======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -331,6 +336,8 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 

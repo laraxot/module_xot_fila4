@@ -53,6 +53,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -134,6 +135,11 @@ base_predict_fila3_mono/
 =======
 - **Documentazione Globale** (`/project_docs/`)
 >>>>>>> 88e35986 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
@@ -163,6 +169,7 @@ base_predict_fila3_mono/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -244,6 +251,11 @@ base_predict_fila3_mono/
 =======
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 >>>>>>> 88e35986 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -293,6 +305,7 @@ Quando si identifica una nuova regola o pattern importante:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      1. Aggiornare `Modules/[ModuleName]/docs/`
 <<<<<<< HEAD
 =======
@@ -310,6 +323,8 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
 1. Aggiornare `Modules/[ModuleName]/docs/`
 =======
      1. Aggiornare `Modules/[ModuleName]/docs/`
@@ -319,6 +334,7 @@ Quando si identifica una nuova regola o pattern importante:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
      1. Aggiornare `Modules/[ModuleName]/docs/`
@@ -339,6 +355,8 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
      2. Se rilevante, aggiungere riferimento in `/docs/`
 
    - Se regola globale:
@@ -353,6 +371,7 @@ Quando si identifica una nuova regola o pattern importante:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -471,6 +490,11 @@ Quando si identifica una nuova regola o pattern importante:
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**

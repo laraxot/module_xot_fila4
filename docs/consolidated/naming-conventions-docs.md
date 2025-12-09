@@ -99,6 +99,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices Documentazione](documentation-guidelines.md) 
 <<<<<<< HEAD
 =======
@@ -174,3 +175,8 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+=======
+- [Best Practices Documentazione](documentation-guidelines.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)

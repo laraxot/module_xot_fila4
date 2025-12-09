@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La cartella `/var/www/html/_bases/base_<nome progetto>/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 =======
 La cartella `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
@@ -56,10 +57,14 @@ La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **S
 La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 >>>>>>> 472bd9dc (.)
 =======
+La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
+>>>>>>> 3bf39332 (.)
+=======
 La cartella `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 La cartella `/var/www/html/_bases/base_<nome progetto>/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 La cartella `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +132,8 @@ La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **S
 =======
 La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
 
 ## Struttura Organizzata
 
@@ -202,6 +209,7 @@ bashscripts/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `fix_<nome progetto>_translations.sh` - Fix traduzioni <nome progetto>
 =======
 - `fix_<nome progetto>_translations.sh` - Fix traduzioni 
@@ -228,9 +236,13 @@ bashscripts/
 - `fix_saluteora_translations.sh` - Fix traduzioni SaluteOra
 >>>>>>> 472bd9dc (.)
 =======
+- `fix_saluteora_translations.sh` - Fix traduzioni SaluteOra
+>>>>>>> 3bf39332 (.)
+=======
 - `fix_<nome progetto>_translations.sh` - Fix traduzioni 
 - `fix_<nome progetto>_translations.sh` - Fix traduzioni <nome progetto>
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +307,8 @@ bashscripts/
 =======
 - `fix_saluteora_translations.sh` - Fix traduzioni SaluteOra
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
 - `verify_translations_syntax.sh` - Verifica sintassi traduzioni
 
 #### 9. **utilities/** - Utilità Generali

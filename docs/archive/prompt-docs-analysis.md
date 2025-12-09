@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -110,6 +111,11 @@
 > **Collegamenti correlati**
 > - [README.md documentazione generale](../../../../project_docs/README.md)
 >>>>>>> 88e35986 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
 > - [Struttura dei Prompt](./prompts.md)
 > - [Regole per i Prompt](./PROMPT_RULES.md)
 > - [Regole per i Percorsi Relativi](./RELATIVE_PATHS_RULES.md)
@@ -132,6 +138,7 @@
 <<<<<<< HEAD
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,6 +243,11 @@
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
 >>>>>>> 88e35986 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
 ## Analisi della Struttura Attuale
 
 Il prompt `docs.txt` attuale presenta diverse problematiche strutturali che possono essere migliorate:

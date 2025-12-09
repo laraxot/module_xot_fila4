@@ -70,6 +70,7 @@ La correzione è stata verificata assicurandosi che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -155,3 +156,8 @@ La correzione è stata verificata assicurandosi che:
 =======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
 >>>>>>> 88e35986 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)

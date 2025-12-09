@@ -123,6 +123,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -255,6 +256,11 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
 ## Collegamenti Correlati
 - [Configurazione Moduli](MODULE_CONFIGURATION.md)
 - [Gestione Risorse](ASSETS.md)
@@ -300,6 +306,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -425,6 +432,11 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
 # Configurazione Basata sul Dominio
 
 ## Introduzione

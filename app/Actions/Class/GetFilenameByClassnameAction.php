@@ -6,12 +6,25 @@ namespace Modules\Xot\Actions\Class;
 
 // use Modules\Xot\Services\ArrayService;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use ReflectionClass;
 =======
 use ReflectionClass;
 use Exception;
 >>>>>>> 5a14301c (.)
+=======
+use ReflectionClass;
+use Exception;
+=======
+<<<<<<< HEAD
+use ReflectionClass;
+use Exception;
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetFilenameByClassnameAction
@@ -23,11 +36,16 @@ class GetFilenameByClassnameAction
         $filename = null;
         try {
             if (class_exists($class_name)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
                 $reflector = new ReflectionClass($class_name);
                 $filename = $reflector->getFileName();
             }
         } catch (Exception $e) {
             $filename = str_replace('\\', '/', $class_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $filename = base_path($filename).'.php';
@@ -37,11 +55,34 @@ class GetFilenameByClassnameAction
 =======
             $filename = base_path($filename) . '.php';
 >>>>>>> 3fbbf1f5 (.)
+=======
+            $filename = base_path($filename) . '.php';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $filename = base_path($filename) . '.php';
+=======
+            $filename = base_path($filename).'.php';
+>>>>>>> a12f125f4a (.)
+=======
+            $filename = base_path($filename) . '.php';
+>>>>>>> b93ef594b4 (.)
+=======
+                $reflector = new \ReflectionClass($class_name);
+                $filename = $reflector->getFileName();
+            }
+        } catch (\Exception $e) {
+            $filename = str_replace('\\', '/', $class_name);
+            $filename = base_path($filename).'.php';
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
         }
 
         if (is_string($filename)) {
             return $filename;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
@@ -51,5 +92,23 @@ class GetFilenameByClassnameAction
 =======
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
 >>>>>>> 3fbbf1f5 (.)
+=======
+        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+=======
+        throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
+>>>>>>> a12f125f4a (.)
+=======
+        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+>>>>>>> b93ef594b4 (.)
+=======
+        throw new \Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
     }
 }

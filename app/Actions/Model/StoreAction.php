@@ -4,7 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 =======
@@ -18,6 +25,7 @@ class StoreAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     /**
@@ -36,18 +44,76 @@ class StoreAction
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(Model $model, array $data, array $rules): Model
+    {
+        if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+=======
+    /**
+     * @param  array<string, mixed>  $data
+     * @param  array<string, mixed>  $rules
+     */
+    public function execute(Model $model, array $data, array $rules): Model
+    {
+        if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+>>>>>>> a12f125f4a (.)
+>>>>>>> 399f46d3 (.)
+=======
+    public function execute(Model $model, array $data, array $rules): Model
+    {
+        if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+<<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+    public function execute(Model $model, array $data, array $rules): Model
+    {
+        if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
             $data['lang'] = app()->getLocale();
         }
         $data['updated_by'] = authId();
         $data['created_by'] = authId();
         /*if (
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
          * ! isset($data['user_id'])
          * && \in_array('user_id',  $row->getFillable(), false)
          * && 'user_id' !== $row->getKeyName()
          * ) {
          * $data['user_id'] = \Auth::id();
          * }*/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+            ! isset($data['user_id'])
+            && \in_array('user_id',  $row->getFillable(), false)
+            && 'user_id' !== $row->getKeyName()
+        ) {
+            $data['user_id'] = \Auth::id();
+        }*/
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
         $validator = Validator::make($data, $rules);
         $validator->validate();
@@ -73,18 +139,53 @@ class StoreAction
 =======
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
+<<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
             $action_class = __NAMESPACE__ . '\\Store\\' . $relationshipType . 'Action';
             $action = app($action_class);
             Assert::object($action);
             if (!method_exists($action, 'execute')) {
                 throw new Exception('method [execute] not found in [' . $action_class . ']');
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+=======
+=======
+=======
+            
+>>>>>>> origin/develop
+            $action_class = __NAMESPACE__.'\\Store\\'.$relationshipType.'Action';
+            $action = app($action_class);
+            Assert::object($action);
+            if (! method_exists($action, 'execute')) {
+<<<<<<< HEAD
+                throw new Exception('method [execute] not found in ['.$action_class.']');
+>>>>>>> a12f125f4a (.)
+=======
+            $action_class = __NAMESPACE__ . '\\Store\\' . $relationshipType . 'Action';
+            $action = app($action_class);
+            Assert::object($action);
+            if (!method_exists($action, 'execute')) {
+                throw new Exception('method [execute] not found in [' . $action_class . ']');
+>>>>>>> b93ef594b4 (.)
+=======
+                throw new \Exception('method [execute] not found in ['.$action_class.']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
             }
             $action->execute($model, $relation);
         }

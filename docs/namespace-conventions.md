@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -8,6 +9,8 @@
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -225,6 +228,8 @@ php artisan cache:clear
 php artisan config:clear
 php artisan view:clear
 ```
+=======
+>>>>>>> 6cba4fe (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica

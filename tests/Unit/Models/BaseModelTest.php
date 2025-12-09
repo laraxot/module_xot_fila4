@@ -2,15 +2,46 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 namespace Modules\Xot\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Tests\TestCase;
+<<<<<<< HEAD
+=======
+=======
+namespace Modules\Xot\Tests\Unit\Models\BaseModelTest;
+
+namespace Modules\Xot\Tests\Unit\Models;
+
+
+>>>>>>> a12f125f4a (.)
+=======
+namespace Modules\Xot\Tests\Unit\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Tests\TestCase;
+>>>>>>> b93ef594b4 (.)
+=======
+namespace Modules\Xot\Tests\Unit\Models;
+
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Tests\TestCase;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 uses(TestCase::class);
 
 beforeEach(function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     $this->baseModel = new class extends BaseModel
@@ -21,6 +52,24 @@ beforeEach(function () {
 =======
     $this->baseModel = new class extends BaseModel {
 >>>>>>> 3fbbf1f5 (.)
+=======
+    $this->baseModel = new class extends BaseModel {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $this->baseModel = new class extends BaseModel {
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> b93ef594b4 (.)
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
         protected $table = 'test_table';
     };
 });

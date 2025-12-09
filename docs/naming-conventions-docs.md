@@ -23,7 +23,10 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 
 ### Dove Usare il Nome del Progetto
 ✅ CORRETTO:
+<<<<<<< HEAD
 - `/project_docs/` (cartella root del progetto)
+=======
+>>>>>>> 6cba4fe (.)
 - `/docs/` (cartella root del progetto)
 - `README.md` principale
 - File di configurazione specifici del progetto
@@ -74,7 +77,9 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 ## Collegamenti
 - [Struttura Moduli](module-structure.md)
 - [Convenzioni Generali](conventions.md)
+<<<<<<< HEAD
 - [Best Practices Documentazione](documentation-guidelines.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,3 +93,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)

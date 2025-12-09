@@ -1,9 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
 Download the latest cacert.pem file from
 https://curl.se/docs/caextract.html
+=======
+Download the latest cacert.pem file from
+https://curl.se/project_docs/caextract.html
+>>>>>>> 399f46d3 (.)
 
 Update your php.ini file:  
 Locate your php.ini file and find the line ;curl.cainfo =.  
@@ -26,10 +31,13 @@ openssl.cafile = "C:\xampp\php\extras\ssl\cacert.pem"
 curl.cainfo = "PATH/TO/cacert.pem"
  
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 
 [openssl]
 openssl.capath = "PATH/TO/cacert.pem"  
@@ -46,11 +54,14 @@ $client->setHttpClient($http);
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 --------------------
 composer config -g -- disable-tls true  
 composer config -g secure-http false   
@@ -63,6 +74,7 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 
@@ -71,3 +83,5 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

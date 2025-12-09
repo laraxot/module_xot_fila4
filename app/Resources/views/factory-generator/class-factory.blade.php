@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 <?php
 
 declare(strict_types=1);
@@ -9,6 +17,16 @@ declare(strict_types=1);
 =======
 >>>>>>> 5a14301c (.)
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;

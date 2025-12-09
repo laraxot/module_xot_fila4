@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -8,6 +9,8 @@
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Links
 
 ## Documentazione Generale
@@ -183,6 +186,8 @@
 **Data Creazione**: 27 Gennaio 2025  
 **Stato**: Consolidato da docs/ root  
 **Priorità**: MEDIA (Raccolta link)
+=======
+>>>>>>> 6cba4fe (.)
 # Collegamenti Documentazione Modulo Xot
 
 ## Documentazione Generica

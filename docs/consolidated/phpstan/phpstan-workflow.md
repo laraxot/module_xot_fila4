@@ -138,6 +138,7 @@ class MyModel extends BaseModel
    - ❌ MAI rimandare le correzioni a sessioni successive
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -160,6 +161,8 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 4. **Testing**: Verificare che le correzioni non rompano funzionalità
 5. **Commit**: Commit atomici per gruppi di correzioni
 
+=======
+>>>>>>> 399f46d3 (.)
 2. **Approccio Efficiente**
    - Identificare pattern comuni di errori
    - Correggere tutti gli errori dello stesso tipo in una volta
@@ -188,6 +191,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
      - Docs del modulo specifico
      - .cursor/rules per Cursor AI
      - .windsurfrules per Windsurf
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -218,3 +222,6 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+   - Mantenere coerenza tra le diverse documentazioni 
+>>>>>>> 399f46d3 (.)

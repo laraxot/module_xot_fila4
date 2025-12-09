@@ -9,6 +9,7 @@ Durante l'audit del modulo `Xot` (modulo base del framework), sono state identif
 ### 1. Path Hardcoded per Progetti Specifici
 ```php
 // ❌ ERRORE CRITICO - Path hardcoded
+<<<<<<< HEAD
 public static string $projectBasePath = '/var/www/html/<nome progetto>';
 <<<<<<< HEAD
 public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
@@ -22,6 +23,11 @@ public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules
 public static string $laravelBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel';
 public static string $modulesBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules';
 >>>>>>> 5a14301c (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
+>>>>>>> 399f46d3 (.)
 ```
 
 **File contaminati:**
@@ -31,11 +37,15 @@ public static string $modulesBasePath = '/var/www/html/_bases/base_techplanner_f
 ```php
 // ❌ ERRORE CRITICO - Dipendenze hardcoded nei test
 <<<<<<< HEAD
+<<<<<<< HEAD
 ->andReturn(\Modules\<nome progetto>\Models\User::class);
 =======
 ->andReturn(\Modules\<nome modulo>\Models\User::class);
 ->andReturn(\Modules\SaluteOra\Models\User::class);
 >>>>>>> 5a14301c (.)
+=======
+->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 399f46d3 (.)
 ```
 
 **File contaminati:**
@@ -44,6 +54,7 @@ public static string $modulesBasePath = '/var/www/html/_bases/base_techplanner_f
 ### 3. Riferimenti a Traduzioni Specifiche
 ```php
 // ❌ ERRORE CRITICO - Traduzioni hardcoded
+<<<<<<< HEAD
 self::MONDAY => __('<nome progetto>::common.days.description.monday'),
 self::TUESDAY => __('<nome progetto>::common.days.description.tuesday'),
 <<<<<<< HEAD
@@ -51,6 +62,10 @@ self::TUESDAY => __('<nome progetto>::common.days.description.tuesday'),
 self::MONDAY => __('saluteora::common.days.description.monday'),
 self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 >>>>>>> 5a14301c (.)
+=======
+self::MONDAY => __('saluteora::common.days.description.monday'),
+self::TUESDAY => __('saluteora::common.days.description.tuesday'),
+>>>>>>> 399f46d3 (.)
 ```
 
 **File contaminati:**
@@ -59,11 +74,15 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 ### 4. Factory con Dati Specifici
 ```php
 // ❌ ERRORE CRITICO - Dati hardcoded nelle factory
+<<<<<<< HEAD
 'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
 <<<<<<< HEAD
 =======
 'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
 >>>>>>> 5a14301c (.)
+=======
+'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
+>>>>>>> 399f46d3 (.)
 ```
 
 **File contaminati:**
@@ -73,11 +92,15 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 ```php
 // ❌ ERRORE CRITICO - Import hardcoded
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome progetto>\Models\Appointment;
 =======
 use Modules\<nome modulo>\Models\Appointment;
 use Modules\SaluteOra\Models\Appointment;
 >>>>>>> 5a14301c (.)
+=======
+use Modules\SaluteOra\Models\Appointment;
+>>>>>>> 399f46d3 (.)
 ```
 
 **File contaminati:**
@@ -126,11 +149,15 @@ class PathHelper
         
         // Normalizzazione dinamica
         return str_replace(
+<<<<<<< HEAD
             ['/<nome progetto>/', '/Modules/'],
 <<<<<<< HEAD
 =======
             ['/saluteora/', '/Modules/'],
 >>>>>>> 5a14301c (.)
+=======
+            ['/saluteora/', '/Modules/'],
+>>>>>>> 399f46d3 (.)
             [$projectPath, $modulesPath],
             $path
         );
@@ -283,6 +310,7 @@ enum DayOfWeek: int
 ### Variabili d'Ambiente
 ```env
 # Configurazione Path Xot
+<<<<<<< HEAD
 PROJECT_BASE_PATH=/var/www/html/<nome progetto>
 <<<<<<< HEAD
 LARAVEL_BASE_PATH=/var/www/html/<nome progetto>/laravel
@@ -311,6 +339,11 @@ XOT_TABLE_SCHEMAS=<nome progetto>,public,main,information_schema
 PROJECT_BASE_PATH=/var/www/html/saluteora
 LARAVEL_BASE_PATH=/var/www/html/_bases/base_techplanner_fila3_mono/laravel
 MODULES_BASE_PATH=/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
+=======
+PROJECT_BASE_PATH=/var/www/html/saluteora
+LARAVEL_BASE_PATH=/var/www/html/saluteora/laravel
+MODULES_BASE_PATH=/var/www/html/saluteora/laravel/Modules
+>>>>>>> 399f46d3 (.)
 
 # Configurazione Modelli Xot
 XOT_USER_MODEL=Modules\SaluteOra\Models\User
@@ -322,7 +355,10 @@ XOT_TRANSLATION_FALLBACK=xot
 
 # Configurazione Factory Xot
 XOT_TABLE_SCHEMAS=saluteora,public,main,information_schema
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 ```
 
 ### Override per Progetti Specifici
@@ -333,6 +369,7 @@ Ogni progetto può personalizzare path, modelli e traduzioni tramite variabili d
 ### Comando di Verifica
 ```bash
 # Verifica path hardcoded
+<<<<<<< HEAD
 grep -r "/var/www/html/<nome progetto>" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica dipendenze hardcoded
@@ -346,6 +383,8 @@ grep -r "Modules\\" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica traduzioni hardcoded
 grep -r "<nome progetto>::" laravel/Modules/Xot/ --include="*.php"
+=======
+>>>>>>> 399f46d3 (.)
 grep -r "/var/www/html/saluteora" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica dipendenze hardcoded
@@ -353,7 +392,10 @@ grep -r "Modules\\SaluteOra" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica traduzioni hardcoded
 grep -r "saluteora::" laravel/Modules/Xot/ --include="*.php"
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 ```
 
 ### Risultato Atteso
@@ -362,10 +404,14 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 ## Documentazione Correlata
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Docs: Modularity Hardcoded Names](../../../project_docs/modularity-hardcoded-names.md)
 =======
 - [Root Docs: Modularity Hardcoded Names](../../../docs/modularity-hardcoded-names.md)
 >>>>>>> 5a14301c (.)
+=======
+- [Root Docs: Modularity Hardcoded Names](../../../project_docs/modularity-hardcoded-names.md)
+>>>>>>> 399f46d3 (.)
 - [Regole Cursor: Modularity Rules](../../../.cursor/rules/modularity-hardcoded-names.mdc)
 - [Xot Architecture Overview](./architecture-overview.md)
 - [Xot Best Practices](./best-practices/README.md)

@@ -16,6 +16,7 @@ class RegisterLivewireComponentsAction
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $comps = app(GetComponentsAction::class)->execute($path, $namespace.'\Http\Livewire', $prefix);
 =======
         $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\Http\Livewire', $prefix);
@@ -23,6 +24,26 @@ class RegisterLivewireComponentsAction
 =======
         $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\Http\Livewire', $prefix);
 >>>>>>> 3fbbf1f5 (.)
+=======
+        $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\Http\Livewire', $prefix);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\Http\Livewire', $prefix);
+=======
+        $comps = app(GetComponentsAction::class)
+            ->execute($path, $namespace.'\Http\Livewire', $prefix);
+>>>>>>> a12f125f4a (.)
+=======
+        $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\Http\Livewire', $prefix);
+>>>>>>> b93ef594b4 (.)
+=======
+        $comps = app(GetComponentsAction::class)
+            ->execute($path, $namespace.'\Http\Livewire', $prefix);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 
         foreach ($comps as $comp) {
             Livewire::component($comp->name, $comp->ns);

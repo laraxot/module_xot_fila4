@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Best Practices per Risorse Filament in Laraxot
 
@@ -169,6 +170,8 @@ public function getTableColumns(): array
             ->dateTime('d/m/Y H:i')
             ->sortable(),
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -224,6 +227,7 @@ public static function getFormSchema(): array
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ## Regole per XotBaseEditRecord
@@ -296,15 +300,21 @@ class CreateAppointment extends XotBaseCreateRecord
 
 ### ReportResource.php - IMPLEMENTAZIONE CORRETTA
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 #### ❌ DON'T - Non utilizzare il metodo form()
 
 ```php
 // NON FARE MAI QUESTO
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public static function form(Form $form): Form
 >>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 399f46d3 (.)
 {
     return $form->schema([
         // componenti...
@@ -352,6 +362,7 @@ TextInput::make('nome')
 ```php
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 declare(strict_types=1);
@@ -405,6 +416,8 @@ class ReportResource extends XotBaseResource
             'edit' => Pages\EditReport::route('/{record}/edit'),
         ];
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 namespace Modules\Brain\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
@@ -495,6 +508,7 @@ class SocioResource extends XotBaseResource
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ## Checklist di Conformità
 
@@ -552,6 +566,8 @@ Prima di considerare completa una risorsa Filament, verificare:
 
 *Ultimo aggiornamento: gennaio 2025 - Correzioni per campi reali e rimozione label hardcoded*
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 ## Struttura delle Traduzioni
 
 ### File di Traduzione Completo
@@ -961,20 +977,28 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 ### Esempio corretto
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 =======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> 5a14301c (.)
+=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+>>>>>>> 399f46d3 (.)
 TextInput::make('location')->required()
 ```
 
 ### Esempio errato
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 =======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> 5a14301c (.)
+=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+>>>>>>> 399f46d3 (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 

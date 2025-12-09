@@ -56,6 +56,7 @@ class UpdateAction
          * @phpstan-ignore method.notFound (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          */
         $model = tap($model)->update($data);
 
@@ -63,15 +64,46 @@ class UpdateAction
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
          *
          */
         $model = tap($model)->update($data);
 
         app(__NAMESPACE__ . '\\Update\RelationAction')->execute($model, $data);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+
+         */
+        $model = tap($model)->update($data);
+
+        app(__NAMESPACE__.'\\Update\RelationAction')->execute($model, $data);
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+         *
+         */
+        $model = tap($model)->update($data);
+
+        app(__NAMESPACE__ . '\\Update\RelationAction')->execute($model, $data);
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 
         // $msg = 'aggiornato! ['.$model->getKey().']!';
 

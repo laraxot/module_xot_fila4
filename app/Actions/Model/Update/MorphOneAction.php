@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model\Update;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Facades\App;
@@ -12,8 +13,17 @@ use InvalidArgumentException;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 use RuntimeException;
 =======
+=======
+>>>>>>> 399f46d3 (.)
 use InvalidArgumentException;
 use RuntimeException;
+=======
+<<<<<<< HEAD
+use InvalidArgumentException;
+use RuntimeException;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Facades\App;
@@ -42,8 +52,18 @@ final class MorphOneAction
      * @param RelationDTO $relationDTO The relation data transfer object
 >>>>>>> 5a14301c (.)
      *
+<<<<<<< HEAD
      * @throws InvalidArgumentException When relation is not MorphOne
      * @throws RuntimeException When data array is invalid
+=======
+<<<<<<< HEAD
+     * @throws InvalidArgumentException When relation is not MorphOne
+     * @throws RuntimeException When data array is invalid
+=======
+     * @throws \InvalidArgumentException When relation is not MorphOne
+     * @throws \RuntimeException         When data array is invalid
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
      */
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
@@ -78,6 +98,7 @@ final class MorphOneAction
         // Ensure the 'lang' key is set to the current locale if not provided
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! isset($data['lang'])) {
 =======
         if (!isset($data['lang'])) {
@@ -85,10 +106,29 @@ final class MorphOneAction
 =======
         if (!isset($data['lang'])) {
 >>>>>>> 3fbbf1f5 (.)
+=======
+        if (!isset($data['lang'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!isset($data['lang'])) {
+=======
+        if (! isset($data['lang'])) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! isset($data['lang'])) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
             $data['lang'] = App::getLocale();
         }
 
         // Remove null values from the data array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return array_filter($data, static fn ($value): bool => $value !== null);
@@ -98,5 +138,27 @@ final class MorphOneAction
 =======
         return array_filter($data, static fn($value): bool => null !== $value);
 >>>>>>> 3fbbf1f5 (.)
+=======
+        return array_filter($data, static fn($value): bool => null !== $value);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return array_filter($data, static fn($value): bool => null !== $value);
+=======
+        return array_filter($data, static function ($value): bool {
+            return null !== $value;
+        });
+>>>>>>> a12f125f4a (.)
+=======
+        return array_filter($data, static fn($value): bool => null !== $value);
+>>>>>>> b93ef594b4 (.)
+=======
+        return array_filter($data, static function ($value): bool {
+            return null !== $value;
+        });
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
     }
 }

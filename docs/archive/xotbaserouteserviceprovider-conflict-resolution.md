@@ -10,6 +10,7 @@ Il file conteneva marker di conflitto git  all'interno del metodo `boot()`, con 
 - La sintassi e lo stile PSR-12 sono stati rispettati.
 
 ## Collegamento alla doc root
+<<<<<<< HEAD
 Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
 <<<<<<< HEAD
 =======
@@ -17,3 +18,6 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
+>>>>>>> 399f46d3 (.)

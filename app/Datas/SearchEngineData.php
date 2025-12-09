@@ -38,6 +38,7 @@ class SearchEngineData extends Data
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new static;
 =======
         return new static();
@@ -45,5 +46,23 @@ class SearchEngineData extends Data
 =======
         return new static();
 >>>>>>> 3fbbf1f5 (.)
+=======
+        return new static();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return new static();
+=======
+        return new static;
+>>>>>>> a12f125f4a (.)
+=======
+        return new static();
+>>>>>>> b93ef594b4 (.)
+=======
+        return new static;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
     }
 }

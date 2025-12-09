@@ -88,6 +88,7 @@ return [
 
 - [Regole Traduzioni Xot](translation_rules.md)
 - [Best Practices Traduzioni](translations-best-practices.md)
+<<<<<<< HEAD
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
 <<<<<<< HEAD
@@ -99,3 +100,8 @@ return [
 =======
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 >>>>>>> 5a14301c (.)
+=======
+- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> 399f46d3 (.)

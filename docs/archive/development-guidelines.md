@@ -34,12 +34,20 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 ## Correzioni Implementate
 
 ### Moduli Corretti
+<<<<<<< HEAD
 - [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+=======
+- [FormBuilder FieldOption Model](../FormBuilder/project_docs/phpstan-corrections.md)
+- [Lang Console Commands](../Lang/project_docs/phpstan-corrections.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 
 ## Principi di Correzione
 
@@ -62,6 +70,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [FormBuilder PHPStan Corrections](../FormBuilder/project_docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/project_docs/phpstan-corrections.md)
 =======
@@ -72,6 +81,14 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 - [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
 >>>>>>> 71f31700 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/project_docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/project_docs/phpstan-corrections.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 - [Xot Architecture](./architecture.md)
 
 ## Note per Sviluppo Futuro

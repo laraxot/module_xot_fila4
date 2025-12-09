@@ -273,20 +273,28 @@ return [
 - **Stati**: `unread`, `read`, `archived`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome modulo> Module
 =======
 ### SaluteMo Module
 >>>>>>> 5a14301c (.)
+=======
+### SaluteMo Module
+>>>>>>> 399f46d3 (.)
 - **Focus**: Health management, Medical data
 - **Campi comuni**: `patient_id`, `doctor_id`, `date`, `notes`
 - **Stati**: `scheduled`, `completed`, `cancelled`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### <nome progetto> Module (CRITICO)
 =======
 ###  Module (CRITICO)
 ### SaluteOra Module (CRITICO)
 >>>>>>> 5a14301c (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 399f46d3 (.)
 - **Focus**: Core health platform, Appointments
 - **Campi comuni**: `appointment_id`, `patient_id`, `doctor_id`, `studio_id`
 - **Stati**: `scheduled`, `confirmed`, `in_progress`, `completed`, `cancelled`
@@ -358,21 +366,29 @@ TextInput::make('name') // Label automatica da traduzione
 ```bash
 # Controllo chiavi hardcoded (tutti i moduli)
 <<<<<<< HEAD
-for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
-=======
-for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
-for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
->>>>>>> 5a14301c (.)
-    php artisan translation:check-hardcoded --module=$module
-done
-
-# Validazione sintassi (tutti i moduli)
 <<<<<<< HEAD
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
 >>>>>>> 5a14301c (.)
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
+>>>>>>> 399f46d3 (.)
+    php artisan translation:check-hardcoded --module=$module
+done
+
+# Validazione sintassi (tutti i moduli)
+<<<<<<< HEAD
+<<<<<<< HEAD
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
+>>>>>>> 5a14301c (.)
+=======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
+>>>>>>> 399f46d3 (.)
     php artisan translation:validate-syntax --module=$module
 done
 ```
@@ -409,6 +425,7 @@ rm Modules/UI/project_docs/translations.md
 rm Modules/UI/project_docs/translation-rules.md
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto>
 rm Modules/<nome progetto>/project_docs/translation-files-improvement.md
 rm Modules/<nome progetto>/project_docs/translations.md
@@ -426,6 +443,8 @@ rm Modules/<nome modulo>/docs/translations-states-analysis.md
 rm Modules/<nome modulo>/docs/translation-rules.md
 rm Modules/<nome modulo>/docs/translation_standards.md
 rm Modules/<nome modulo>/docs/translations-appointments.md
+=======
+>>>>>>> 399f46d3 (.)
 # SaluteOra
 rm Modules/SaluteOra/project_docs/translation-files-improvement.md
 rm Modules/SaluteOra/project_docs/translations.md
@@ -434,7 +453,10 @@ rm Modules/SaluteOra/project_docs/translations-states-analysis.md
 rm Modules/SaluteOra/project_docs/translation-rules.md
 rm Modules/SaluteOra/project_docs/translation_standards.md
 rm Modules/SaluteOra/project_docs/translations-appointments.md
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 
 # User
 rm Modules/User/project_docs/translations.md

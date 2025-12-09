@@ -52,7 +52,7 @@ Ogni widget deve implementare il proprio schema di form:
 ```php
 abstract public function getFormSchema(): array;
 
-final public function form(Form $form): Form
+final public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 {
     return $form
         ->schema($this->getFormSchema())

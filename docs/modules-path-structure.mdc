@@ -31,6 +31,7 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Modules/<main module>/app/Filament/Resources/UserResource.php
 - Modules/<main module>/app/Filament/Resources/UserResource/Pages/CreateUser.php
 - Modules/<main module>/app/Enums/UserType.php
@@ -64,6 +65,8 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 - Modules/SaluteOra/app/Filament/Resources/UserResource.php
 - Modules/SaluteOra/app/Filament/Resources/UserResource/Pages/CreateUser.php
 - Modules/SaluteOra/app/Enums/UserType.php
@@ -72,6 +75,7 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 ## Esempio errato
 - Modules/SaluteOra/Filament/Resources/UserResource.php
 - Modules/SaluteOra/Enums/UserType.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,6 +135,8 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 
 Questa regola garantisce coerenza, manutenibilità e rispetto delle convenzioni PSR-4 e delle best practice del progetto.
 
@@ -200,6 +206,7 @@ class User extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
 =======
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
@@ -255,6 +262,9 @@ class User extends Model {
 - [<nome progetto>/docs/uso-label-filament.mdc](../../../docs/uso-label-filament.mdc)
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
+>>>>>>> 43d67f21 (.)
 - https://github.com/spatie/laravel-model-states
 
 ---
@@ -283,6 +293,7 @@ class User extends Model {
 - [.windsurf/rules/model-states.mdc](../../../.windsurf/rules/model-states.mdc)
 - https://github.com/spatie/laravel-model-states
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,10 +376,13 @@ class User extends Model {
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
 - https://github.com/spatie/laravel-model-states
 
 [← Torna a SaluteOra/docs](../../SaluteOra/docs/uso-label-filament.mdc)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -424,6 +438,8 @@ class User extends Model {
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 
 # Regola sui Path dei File di Codice nei Moduli Laravel
 
@@ -443,6 +459,7 @@ Tutti i file di codice (Actions, Models, Controllers, ecc.) dei moduli Laravel D
 ### Esempio
 ```php
 // Corretto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -485,10 +502,13 @@ Modules/<main module>/Actions/Patient/Calendar/FetchEventsAction.php
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 Modules/SaluteOra/app/Actions/Patient/Calendar/FetchEventsAction.php
 
 // Errato
 Modules/SaluteOra/Actions/Patient/Calendar/FetchEventsAction.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -544,6 +564,8 @@ Modules/<nome progetto>/Actions/Patient/Calendar/FetchEventsAction.php
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 ```
 
 ## Collegamenti
@@ -569,6 +591,7 @@ final class FetchEventsAction
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -637,6 +660,9 @@ Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/que
 Vedi anche: [<nome progetto>/docs/queueable-actions-guide.md](../../../docs/queueable-actions-guide.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
+>>>>>>> 43d67f21 (.)
 
 # Regola Namespace per Actions
 
@@ -647,6 +673,7 @@ Motivazione: PSR-4, autoload Composer, coerenza, manutenzione.
 Esempio:
 ```php
 // Corretto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -691,12 +718,15 @@ Vedi anche: <main module>/docs/directory-structure.md
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 namespace Modules\SaluteOra\Actions\Patient\Calendar;
 // Errato
 namespace Modules\SaluteOra\App\Actions\Patient\Calendar;
 ```
 
 Vedi anche: SaluteOra/docs/directory-structure.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -754,3 +784,5 @@ Vedi anche: <nome progetto>/docs/directory-structure.md
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)

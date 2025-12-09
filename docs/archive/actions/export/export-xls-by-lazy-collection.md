@@ -77,8 +77,4 @@ return $response; // Scarica il file Excel
 - [Spatie Queueable Action](../traits/QUEUEABLE-ACTION.md)
 - [Performance Guidelines](../PERFORMANCE-GUIDELINES.md)
 - [Actions Overview](./README.md) 
-<<<<<<< HEAD
 - [PHPStan Fixes Summary](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
-=======
-- [PHPStan Fixes Summary](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
->>>>>>> a5dccfe (.)

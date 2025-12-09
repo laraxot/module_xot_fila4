@@ -200,6 +200,7 @@ abstract class XotBaseDashboard extends FilamentDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static ?int $navigationSort = 1;
 
 <<<<<<< HEAD
@@ -493,6 +494,10 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+    protected static ?int $navigationSort = 1;
+
+>>>>>>> fe347873 (.)
     protected bool $persistsFiltersInSession = true;
 
     final public function filtersForm(Schema $schema): Schema

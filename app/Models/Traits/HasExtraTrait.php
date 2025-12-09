@@ -196,6 +196,7 @@ trait HasExtraTrait
 
         return null;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -220,6 +221,19 @@ trait HasExtraTrait
                 is_string($value)
         ) {
             /** @var array<string, mixed>|bool|int|string|null */
+=======
+        if (\is_array($value)) {
+            // PHPStan: Cast to ensure array<string, mixed> type
+            /** @var array<string, mixed> $value */
+            return $value;
+        }
+
+        if ($value === null || \is_bool($value) || \is_string($value)) {
+            return $value;
+        }
+
+        if (\is_int($value) || \is_float($value)) {
+>>>>>>> fe347873 (.)
             return $value;
         }
 <<<<<<< HEAD

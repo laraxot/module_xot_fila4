@@ -2,9 +2,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Installazione
 
 ## Requisiti di Sistema
@@ -143,6 +146,7 @@ php artisan serve
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,6 +171,8 @@ php artisan serve
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 * [installation.md](../../../Xot/docs/filament/installation.md)
 * [installation.md](../../../Xot/docs/installation.md)
 * [installation.md](../../../Xot/docs/base/installation.md)
@@ -174,6 +180,7 @@ php artisan serve
 * [installation.md](../../../Lang/docs/installation.md)
 * [installation.md](../../../Cms/docs/installation.md)
 * [installation.md](../../../../Themes/One/docs/installation.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,3 +279,6 @@ php artisan serve
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+
+>>>>>>> 5bd842e3 (.)

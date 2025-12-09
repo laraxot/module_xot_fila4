@@ -2,9 +2,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 ---
 title: links ci
 description: links ci
@@ -68,6 +71,7 @@ Deptrac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,6 +96,8 @@ Deptrac
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 * [links.md](../../../Gdpr/docs/links.md)
 * [links.md](../../../Notify/docs/links.md)
 * [links.md](../../../Xot/docs/ci/links.md)
@@ -102,6 +108,7 @@ Deptrac
 * [links.md](../../../Tenant/docs/it/links/links.md)
 * [links.md](../../../Cms/docs/links.md)
 * [links.md](../../../../Themes/One/docs/links.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,6 +164,8 @@ Deptrac
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 
 
 ### Versione Incoming
@@ -200,6 +209,7 @@ Deptrac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,6 +234,8 @@ Deptrac
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 - [Modulo Lang](../../../Lang/docs/links.md)
   > Gestione delle traduzioni per il core system. Fondamentale per l'internazionalizzazione.
 
@@ -235,6 +247,7 @@ Deptrac
   > Sistema di code per operazioni asincrone. Gestione dei processi in background.
 
 - [Modulo Cache](../../../Cache/docs/links.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291,6 +304,8 @@ Deptrac
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
   > Gestione della cache del sistema. Ottimizzazione delle performance.
 
 ## Implementazioni di Esempio
@@ -486,6 +501,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -516,3 +532,5 @@ return [
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

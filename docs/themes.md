@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Temi in il progetto
 
 <<<<<<< HEAD
@@ -89,6 +90,11 @@ il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un 
 
 il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
 >>>>>>> ab8cc3f3 (.)
+=======
+# Temi in il progetto
+
+il progetto utilizza un sistema di temi basato su Filament 4.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+>>>>>>> 5bd842e3 (.)
 
 ## Struttura dei Temi
 
@@ -150,6 +156,7 @@ Le viste devono essere organizzate in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
 =======
 Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
@@ -217,6 +224,9 @@ Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e i
 =======
 Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
 >>>>>>> ab8cc3f3 (.)
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
+>>>>>>> 5bd842e3 (.)
 
 ### Blocchi Disponibili
 - Hero
@@ -262,6 +272,7 @@ Per personalizzare un tema:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -286,11 +297,14 @@ Per personalizzare un tema:
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 * [themes.md](../../../Xot/docs/themes.md)
 * [themes.md](../../../Cms/docs/frontoffice/themes.md)
 
 * [README.md Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/docs/README.md)
 * [Convenzioni Namespace Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/docs/namespace-conventions.md)b6f667c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -387,3 +401,7 @@ Per personalizzare un tema:
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+
+
+>>>>>>> 5bd842e3 (.)

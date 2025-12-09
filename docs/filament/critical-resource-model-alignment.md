@@ -2,9 +2,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # CRITICAL: Filament Resource-Model Alignment Rules
 
 ## 🚨 ERRORE CRITICO IDENTIFICATO E RISOLTO
@@ -160,6 +163,7 @@ done
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6a1fe786 (.)
 =======
@@ -227,10 +231,16 @@ done
 - [Modules/Xot/docs/filament/resources/architecture/forbidden-methods.md](resources/architecture/forbidden-methods.md) - Metodi vietati in XotBaseResource
 - [Modules/Xot/docs/filament_best_practices.md](../filament_best_practices.md) - Best practices Filament
 >>>>>>> cafe8bed (.)
+=======
+- [Modules/Progressioni/docs/plan.md](../../Progressioni/docs/plan.md) - Piano di verifica sistematica
+- [Modules/Xot/docs/filament/resources/architecture/forbidden-methods.md](resources/architecture/forbidden-methods.md) - Metodi vietati in XotBaseResource
+- [Modules/Xot/docs/filament_best_practices.md](../filament_best_practices.md) - Best practices Filament
+>>>>>>> 5bd842e3 (.)
 - [/.windsurf/rules/filament-resource-model-alignment.mdc](../../../../.windsurf/rules/filament-resource-model-alignment.mdc) - Regole Windsurf
 - [/.cursor/rules/filament-resource-model-alignment.mdc](../../../../.cursor/rules/filament-resource-model-alignment.mdc) - Regole Cursor
 
 *Ultimo aggiornamento: Luglio 2025 - Dopo correzione errori critici modulo Progressioni*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,3 +282,5 @@ done
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

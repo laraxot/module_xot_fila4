@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Filament
 
 Questa cartella contiene la documentazione relativa all'implementazione di Filament nel progetto.
@@ -123,6 +126,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 - Aggiornare la documentazione ogni volta che si corregge questo errore.
 
 ### Collegamento
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,6 +327,9 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 >>>>>>> ba1d49f3 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> 5bd842e3 (.)
 
 ### Checklist
 - [ ] Nessuna closure void restituisce un valore
@@ -360,6 +367,7 @@ $prefix = static::$translationPrefix;
 // Aggiungere qui altri moduli se necessario
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -368,3 +376,5 @@ $prefix = static::$translationPrefix;
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

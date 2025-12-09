@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -135,6 +136,8 @@
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Links
 
 ## Documentazione Generale
@@ -154,6 +157,7 @@
 ## Documentazione Tecnica
 
 ### Sviluppo e Qualità
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,6 +203,9 @@
 =======
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
 >>>>>>> ab8cc3f3 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 5bd842e3 (.)
 - [PHPStan Usage](phpstan-usage.md) - Guida all'uso di PHPStan per l'analisi statica
 - [Testing Guidelines](testing-guidelines.md) - Linee guida per i test
 - [Code Quality](code-quality.md) - Metriche e standard di qualità del codice
@@ -360,6 +367,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -400,12 +408,15 @@
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Collegamenti Documentazione Modulo Xot
 
 ## Documentazione Generica
 - [README](../docs/README.md) - Documentazione principale del progetto
 - [Roadmap](../docs/roadmap.md) - Piano di sviluppo
 - [Filosofia](../docs/filosofia.md) - Principi e filosofia del progetto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -440,6 +451,8 @@
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 
 ## Documentazione Tecnica
 - [Regole di Progetto](./rules/PROMPT_RULES.md)
@@ -450,6 +463,7 @@
 - [Risoluzione Problemi](./troubleshooting.md)
 
 ## Collegamenti ai Moduli
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -471,6 +485,8 @@
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 - [Cms](../Cms/docs/README.md) - Frontend
 - [UI](../UI/docs/README.md) - Componenti
 - [User](../User/docs/README.md) - Utenti e Permessi
@@ -506,6 +522,7 @@
 * [links.md](../../Tenant/docs/it/links/links.md)
 * [links.md](../../Cms/docs/links.md)
 * [links.md](../../../Themes/One/docs/links.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -646,3 +663,6 @@
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+
+>>>>>>> 5bd842e3 (.)

@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Code Quality - Xot Module
 
 > Last Updated: 2025-11-15 08:05:46
@@ -273,6 +274,8 @@ vendor/bin/phpstan analyse path/to/changed/file.php --level=10
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -352,6 +355,7 @@ This document outlines the best practices for maintaining high code quality with
 - [Naming Conventions](./NAMING-CONVENTIONS.md)
 - [Service Provider Best Practices](./SERVICE-PROVIDER-BEST-PRACTICES.md)
 - [Filament Best Practices](./FILAMENT-BEST-PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -502,6 +506,8 @@ This document outlines the best practices for maintaining high code quality with
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -717,6 +723,7 @@ $content = \file_get_contents($path); // Può restituire false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -883,6 +890,9 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> cafe8bed (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5bd842e3 (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 
@@ -996,6 +1006,7 @@ unset($translations['existing_key']); // MAI!
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -1057,10 +1068,14 @@ unset($translations['existing_key']); // MAI!
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+>>>>>>> 5bd842e3 (.)
 
 ---
 
 *"Nel codice Laraxot, ogni riga è un verso della sinfonia dell'architettura perfetta."*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1099,3 +1114,5 @@ unset($translations['existing_key']); // MAI!
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

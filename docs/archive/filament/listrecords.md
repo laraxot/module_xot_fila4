@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # List Records in Filament
 
 > **AGGIORNAMENTO 2025-05-28:**
@@ -206,6 +207,12 @@
 > Questa policy è stata aggiornata e propagata anche in [<nome progetto>/docs/resources/studio-resource.md](../../../docs/resources/studio-resource.md) e [<nome progetto>/docs/README.md](../../../docs/README.md). Vedi esempi di implementazione e note di propagazione.
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+=======
+# List Records in Filament
+
+> **AGGIORNAMENTO 2025-05-28:**
+> Questa policy è stata aggiornata e propagata anche in [SaluteOra/docs/resources/studio-resource.md](../../SaluteOra/docs/resources/studio-resource.md) e [SaluteOra/docs/README.md](../../SaluteOra/docs/README.md). Vedi esempi di implementazione e note di propagazione.
+>>>>>>> 5bd842e3 (.)
 
 ## Estensione Corretta
 
@@ -277,6 +284,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **❌ Metodi Duplicati**:
    ```php
    // NON dichiarare lo stesso metodo due volte
@@ -320,6 +328,9 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 =======
 2. **❌ Metodi Senza Prefisso List**:
 >>>>>>> 33af3e61 (.)
+=======
+2. **❌ Metodi Senza Prefisso List**:
+>>>>>>> 5bd842e3 (.)
    ```php
    // NON usare i metodi senza prefisso List
    public function getTableColumns(): array
@@ -411,6 +422,7 @@ public function getTableColumns(): array
 ```
 
 ## PROPAGAZIONE (2025-05-28):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -617,3 +629,6 @@ La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metod
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/docs/resources/studio-resource.md](../../SaluteOra/docs/resources/studio-resource.md).
+>>>>>>> 5bd842e3 (.)

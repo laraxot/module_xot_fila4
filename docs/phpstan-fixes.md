@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # PHPStan Fixes - Xot Module
 >>>>>>> d86d643a (.)
@@ -486,6 +487,8 @@ protected $model = Cache::class;
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Correzioni PHPStan Livello 7 - Modulo Xot
 =======
 # Correzioni PHPStan - 6 Gennaio 2025
@@ -1239,6 +1242,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 =======
@@ -1289,6 +1293,8 @@ private function exportTablesToCSV(string $mdbFile): array
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 ### 1. Chart/app/Datas/AnswersChartData.php
 
 **Problema**: Errori `argument.type` e `offsetAccess.nonOffsetAccessible`
@@ -1325,6 +1331,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
@@ -1379,6 +1386,9 @@ private function exportTablesToCSV(string $mdbFile): array
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> 5bd842e3 (.)
 
 **Problema**: Linea 21 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, mixed>` ma restituiva `array<mixed, mixed>`
@@ -1395,6 +1405,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
 =======
 >>>>>>> 71f31700 (.)
@@ -1417,6 +1428,8 @@ private function exportTablesToCSV(string $mdbFile): array
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
 
 **Problema**: Linea 27 - Tipo di ritorno errato
@@ -1437,6 +1450,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -1461,6 +1475,8 @@ private function exportTablesToCSV(string $mdbFile): array
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5bd842e3 (.)
     foreach ($tables as $table) {
         // ... codice per importare i dati ...
     }
@@ -1484,6 +1500,7 @@ Queste modifiche garantiscono che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 =======
@@ -1525,6 +1542,8 @@ Queste modifiche garantiscono che:
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 **Soluzione**:
 - Aggiunto PHPDoc con tipo di ritorno corretto
 - Aggiunto cast esplicito al risultato
@@ -1574,6 +1593,7 @@ Queste modifiche garantiscono che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
@@ -1628,6 +1648,9 @@ Queste modifiche garantiscono che:
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> 5bd842e3 (.)
 
 **Soluzione**:
 - Separato controllo per `UserContract` e `null`
@@ -1663,6 +1686,7 @@ Queste modifiche garantiscono che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
@@ -1689,6 +1713,9 @@ Queste modifiche garantiscono che:
 
 >>>>>>> c35986f4 (.)
 <<<<<<< HEAD
+=======
+
+>>>>>>> 5bd842e3 (.)
 <<<<<<< HEAD
 ### 18. Correzione in Console/Commands/SearchStringInDatabaseCommand.php
 
@@ -1768,6 +1795,7 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 =======
 *Ultimo aggiornamento: 6 Gennaio 2025*
 >>>>>>> abfbbdf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1860,3 +1888,5 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

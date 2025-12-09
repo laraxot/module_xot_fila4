@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Linee Guida per le Risorse Filament nel Progetto <nome progetto>
 =======
 # Linee Guida per le Risorse Filament nel Progetto 
@@ -124,6 +125,9 @@
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+# Linee Guida per le Risorse Filament nel Progetto SaluteOra
+>>>>>>> 5bd842e3 (.)
 
 ## Regole Generali
 
@@ -140,6 +144,7 @@
 
 ## Note
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -269,3 +274,6 @@ Queste linee guida sono centrali per tutti i moduli del progetto SaluteOra. Ogni
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+Queste linee guida sono centrali per tutti i moduli del progetto SaluteOra. Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
+>>>>>>> 5bd842e3 (.)

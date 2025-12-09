@@ -2,9 +2,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Panel Provider in Modulo Xot
 
 ## XotBaseMainPanelProvider
@@ -102,16 +105,20 @@ public function panel(Panel $panel): Panel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
 - [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
 - [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
 - [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -178,3 +185,6 @@ public function panel(Panel $panel): Panel
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 5bd842e3 (.)

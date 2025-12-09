@@ -95,6 +95,7 @@ use Filament\Widgets\WidgetConfiguration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
 <<<<<<< HEAD
@@ -117,6 +118,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 88ea7103 (.)
 class Dashboard extends XotBaseDashboard
 {
 =======
@@ -141,14 +144,18 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 88ea7103 (.)
+=======
 class Dashboard extends XotBaseDashboard
 {
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
@@ -189,6 +196,8 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -210,6 +219,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -243,9 +253,12 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 7131bd09 (.)
 =======
+>>>>>>> 88ea7103 (.)
+=======
 
     
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,4 +290,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
 }

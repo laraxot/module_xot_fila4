@@ -12,10 +12,14 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Webmozart\Assert\Assert;
 
 use function Safe\exec;
 
+<<<<<<< HEAD
 =======
 
 use function Safe\exec;
@@ -23,6 +27,8 @@ use function Safe\exec;
 use Webmozart\Assert\Assert;
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 class DatabaseBackUpCommand extends Command
 {
     /**
@@ -56,6 +62,7 @@ class DatabaseBackUpCommand extends Command
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 <<<<<<< HEAD
@@ -172,6 +179,7 @@ class DatabaseBackUpCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -233,12 +241,18 @@ class DatabaseBackUpCommand extends Command
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+    
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
 
     /**
      * Execute the console command.
      */
     public function handle(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,6 +359,10 @@ class DatabaseBackUpCommand extends Command
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
         $filename = 'backup-' . Carbon::now()->format('Y-m-d') . '.gz';
         $backup_path = storage_path('app/backup/' . $filename);
 >>>>>>> 5a14301c (.)
@@ -364,16 +382,22 @@ class DatabaseBackUpCommand extends Command
             $backup_path = Str::replace(['/', '\\'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $backup_path),
             'wip',
         );
+<<<<<<< HEAD
 =======
         $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
         $backup_path = storage_path('app/backup/'.$filename);
         Assert::string($backup_path = Str::replace(['/', '\\'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $backup_path), 'wip');
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         Assert::string($user = config('database.connections.mysql.username'));
         Assert::string($password = config('database.connections.mysql.password'));
         Assert::string($host = config('database.connections.mysql.host'));
         Assert::string($database = config('database.connections.mysql.database'));
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $command =
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -415,9 +439,12 @@ class DatabaseBackUpCommand extends Command
 =======
 >>>>>>> 5a14301c (.)
             $backup_path;
+<<<<<<< HEAD
 =======
         $command = 'mysqldump --user='.$user.' --password='.$password.' --host='.$host.' '.$database.'  | gzip > '.$backup_path;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         $returnVar = null;
         $output = null;

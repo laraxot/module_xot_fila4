@@ -15,6 +15,9 @@ class RelationAction
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * Undocumented function.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,6 +47,7 @@ class RelationAction
          * ]);
          * }
          * // */
+<<<<<<< HEAD
 =======
      * Execute relation updates with type-safe data.
      *
@@ -70,6 +74,8 @@ class RelationAction
         }
         // */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
 <<<<<<< HEAD
@@ -90,6 +96,7 @@ class RelationAction
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
 <<<<<<< HEAD
@@ -157,6 +164,7 @@ class RelationAction
 =======
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,6 +238,11 @@ class RelationAction
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+            $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
             Assert::object($action = app($actionClass));
 
             if (method_exists($action, 'execute')) {

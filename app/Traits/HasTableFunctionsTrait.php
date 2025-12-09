@@ -32,6 +32,7 @@ namespace Modules\Xot\Traits;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
@@ -49,6 +50,8 @@ use Filament\Actions\BulkAction;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
 use Filament\Tables\Columns\Column;
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
@@ -186,6 +189,7 @@ use Filament\Actions\BulkAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -195,10 +199,13 @@ use Filament\Actions\BulkAction;
 =======
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 88ea7103 (.)
+=======
 use Filament\Tables\Columns\Column;
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,6 +286,8 @@ use Filament\Actions\BulkAction;
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
 use Filament\Tables\Columns\TextColumn;
 
 trait HasTableFunctionsTrait
@@ -294,6 +303,7 @@ trait HasTableFunctionsTrait
             'id' => TextColumn::make('id'),
             'name' => TextColumn::make('name'),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_at' => TextColumn::make('created_at')->dateTime(),
             'updated_at' => TextColumn::make('updated_at')->dateTime(),
 =======
@@ -302,6 +312,10 @@ trait HasTableFunctionsTrait
             'updated_at' => TextColumn::make('updated_at')
                 ->dateTime(),
 >>>>>>> f1d4085 (.)
+=======
+            'created_at' => TextColumn::make('created_at')->dateTime(),
+            'updated_at' => TextColumn::make('updated_at')->dateTime(),
+>>>>>>> 73eab74 (.)
         ];
     }
 
@@ -315,6 +329,7 @@ trait HasTableFunctionsTrait
         return [
             'edit' => Action::make('edit')
                 ->label('Modifica')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,6 +473,10 @@ trait HasTableFunctionsTrait
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
                 ->url(fn($record): string => route('filament.resources.' . $this->getResourceSlug() . '.edit', [
                     'record' => $record,
                 ])),
@@ -484,7 +503,10 @@ trait HasTableFunctionsTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -553,6 +575,7 @@ trait HasTableFunctionsTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -632,6 +655,10 @@ trait HasTableFunctionsTrait
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
                 ->requiresConfirmation(),
         ];
     }
@@ -640,16 +667,21 @@ trait HasTableFunctionsTrait
      * Get the table bulk actions.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, BulkAction>
 =======
      * @return array<string, \Filament\Actions\BulkAction>
 >>>>>>> f1d4085 (.)
+=======
+     * @return array<string, BulkAction>
+>>>>>>> 73eab74 (.)
      */
     public function getTableBulkActions(): array
     {
         return [
             'delete' => BulkAction::make('delete')
                 ->label('Elimina selezionati')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -734,10 +766,13 @@ trait HasTableFunctionsTrait
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
                 ->action(fn($records) => $records->each->delete())
 =======
                 ->action(fn ($records) => $records->each->delete())
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -825,6 +860,11 @@ trait HasTableFunctionsTrait
                 ->action(fn ($records) => $records->each->delete())
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+                ->action(fn($records) => $records->each->delete())
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
                 ->requiresConfirmation(),
         ];
     }

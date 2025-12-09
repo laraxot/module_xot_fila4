@@ -77,10 +77,14 @@ class ExecuteArtisanCommandAction
     /**
      * Lista dei comandi consentiti per motivi di sicurezza.
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
      * 
 >>>>>>> f1d4085 (.)
+=======
+     *
+>>>>>>> 73eab74 (.)
      * @var array<int, string>
      */
     private array $allowedCommands = [
@@ -201,6 +205,7 @@ class ExecuteArtisanCommandAction
     {
         Assert::stringNotEmpty($command, 'Il comando non può essere vuoto');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -247,6 +252,7 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -256,9 +262,12 @@ class ExecuteArtisanCommandAction
 =======
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 88ea7103 (.)
+=======
 
         if (!$this->isCommandAllowed($command)) {
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291,6 +300,8 @@ class ExecuteArtisanCommandAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
             throw new RuntimeException("Comando non consentito: {$command}");
         }
 
@@ -337,6 +348,7 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (! empty($data)) {
                     $formattedData = trim($data);
                     if (! empty($formattedData)) {
@@ -354,6 +366,8 @@ class ExecuteArtisanCommandAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
                 if (!empty($data)) {
                     $formattedData = trim($data);
                     if (!empty($formattedData)) {
@@ -493,6 +507,7 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -502,10 +517,13 @@ class ExecuteArtisanCommandAction
 =======
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 88ea7103 (.)
+=======
                 if (!empty($data)) {
                     $formattedData = trim($data);
                     if (!empty($formattedData)) {
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -586,6 +604,8 @@ class ExecuteArtisanCommandAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
                         $output[] = $formattedData;
                         Event::dispatch('artisan-command.output', [$command, $formattedData]);
                     }
@@ -620,6 +640,7 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -685,6 +706,10 @@ class ExecuteArtisanCommandAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
                 if (!empty($errorData)) {
                     $formattedError = trim($errorData);
                     if (!empty($formattedError)) {
@@ -712,6 +737,9 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -843,6 +871,7 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -900,6 +929,10 @@ class ExecuteArtisanCommandAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
                     }
                 }
 
@@ -938,6 +971,7 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! empty($finalOutput)) {
 =======
             if (!empty($finalOutput)) {
@@ -994,10 +1028,13 @@ class ExecuteArtisanCommandAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
             if (!empty($finalOutput)) {
 =======
             if (! empty($finalOutput)) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1085,6 +1122,11 @@ class ExecuteArtisanCommandAction
             if (! empty($finalOutput)) {
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+            if (!empty($finalOutput)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
                 $output[] = $finalOutput;
                 Event::dispatch('artisan-command.output', [$command, $finalOutput]);
             }
@@ -1118,6 +1160,7 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! empty($finalErrorOutput)) {
                 $output[] = '[ERROR] '.$finalErrorOutput;
                 Event::dispatch('artisan-command.output', [$command, '[ERROR] '.$finalErrorOutput]);
@@ -1135,6 +1178,8 @@ class ExecuteArtisanCommandAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
             if (!empty($finalErrorOutput)) {
                 $output[] = '[ERROR] ' . $finalErrorOutput;
                 Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $finalErrorOutput]);
@@ -1274,6 +1319,7 @@ class ExecuteArtisanCommandAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -1283,10 +1329,13 @@ class ExecuteArtisanCommandAction
 =======
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 88ea7103 (.)
+=======
             if (!empty($finalErrorOutput)) {
                 $output[] = '[ERROR] ' . $finalErrorOutput;
                 Event::dispatch('artisan-command.output', [$command, '[ERROR] ' . $finalErrorOutput]);
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1367,6 +1416,8 @@ class ExecuteArtisanCommandAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
             }
 
             if ($result->successful()) {
@@ -1387,6 +1438,7 @@ class ExecuteArtisanCommandAction
             Event::dispatch('artisan-command.error', [$command, $e->getMessage()]);
             throw new RuntimeException(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Errore durante l'esecuzione del comando {$command}: {$e->getMessage()}",
                 (int) $e->getCode(),
                 $e,
@@ -1395,6 +1447,11 @@ class ExecuteArtisanCommandAction
                 (int) $e->getCode(), 
                 $e
 >>>>>>> f1d4085 (.)
+=======
+                "Errore durante l'esecuzione del comando {$command}: {$e->getMessage()}",
+                (int) $e->getCode(),
+                $e,
+>>>>>>> 73eab74 (.)
             );
         }
     }

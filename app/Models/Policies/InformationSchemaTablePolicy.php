@@ -32,6 +32,7 @@ namespace Modules\Xot\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -65,9 +66,14 @@ use Override;
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
 use Override;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Override;
+>>>>>>> 73eab74 (.)
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\InformationSchemaTable;
 >>>>>>> 5a14301c (.)
@@ -172,9 +178,13 @@ class InformationSchemaTablePolicy extends XotBasePolicy
      * Determine whether the user can view any models.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 >>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
     public function viewAny(UserContract $user): bool
     {
         return $user->hasPermissionTo('information_schema_table.viewAny');
@@ -184,10 +194,14 @@ class InformationSchemaTablePolicy extends XotBasePolicy
      * Determine whether the user can view the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function view(UserContract $user, InformationSchemaTable $_information_schema_table): bool
 =======
     public function view(UserContract $user, InformationSchemaTable $information_schema_table): bool
 >>>>>>> f1d4085 (.)
+=======
+    public function view(UserContract $user, InformationSchemaTable $_information_schema_table): bool
+>>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('information_schema_table.view');
     }
@@ -204,10 +218,14 @@ class InformationSchemaTablePolicy extends XotBasePolicy
      * Determine whether the user can update the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function update(UserContract $user, InformationSchemaTable $_information_schema_table): bool
 =======
     public function update(UserContract $user, InformationSchemaTable $information_schema_table): bool
 >>>>>>> f1d4085 (.)
+=======
+    public function update(UserContract $user, InformationSchemaTable $_information_schema_table): bool
+>>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('information_schema_table.update');
     }
@@ -216,10 +234,14 @@ class InformationSchemaTablePolicy extends XotBasePolicy
      * Determine whether the user can delete the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function delete(UserContract $user, InformationSchemaTable $_information_schema_table): bool
 =======
     public function delete(UserContract $user, InformationSchemaTable $information_schema_table): bool
 >>>>>>> f1d4085 (.)
+=======
+    public function delete(UserContract $user, InformationSchemaTable $_information_schema_table): bool
+>>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('information_schema_table.delete');
     }
@@ -228,10 +250,14 @@ class InformationSchemaTablePolicy extends XotBasePolicy
      * Determine whether the user can restore the model.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function restore(UserContract $user, InformationSchemaTable $_information_schema_table): bool
 =======
     public function restore(UserContract $user, InformationSchemaTable $information_schema_table): bool
 >>>>>>> f1d4085 (.)
+=======
+    public function restore(UserContract $user, InformationSchemaTable $_information_schema_table): bool
+>>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('information_schema_table.restore');
     }

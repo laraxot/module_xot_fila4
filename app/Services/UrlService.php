@@ -42,6 +42,7 @@ class UrlService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static ?self $instance = null;
 =======
     private static null|self $instance = null;
@@ -98,10 +99,13 @@ class UrlService
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
     private static null|self $instance = null;
 =======
     private static ?self $instance = null;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,6 +193,11 @@ class UrlService
     private static ?self $instance = null;
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+    private static null|self $instance = null;
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
 
     public function __construct()
     {
@@ -221,6 +230,7 @@ class UrlService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         include_once __DIR__.'/vendor/autoload.php';
 =======
         include_once __DIR__ . '/vendor/autoload.php';
@@ -277,10 +287,13 @@ class UrlService
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
         include_once __DIR__ . '/vendor/autoload.php';
 =======
         include_once __DIR__.'/vendor/autoload.php';
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,10 +381,16 @@ class UrlService
         include_once __DIR__.'/vendor/autoload.php';
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+        include_once __DIR__ . '/vendor/autoload.php';
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
     }
 
     public static function getInstance(): self
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -451,10 +470,15 @@ class UrlService
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
         if (!(self::$instance instanceof self)) {
 =======
         if (! self::$instance instanceof self) {
 >>>>>>> f1d4085 (.)
+=======
+        if (!(self::$instance instanceof self)) {
+>>>>>>> 73eab74 (.)
             self::$instance = new self();
 >>>>>>> 5a14301c (.)
 =======

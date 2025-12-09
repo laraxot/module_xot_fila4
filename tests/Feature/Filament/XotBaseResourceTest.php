@@ -3,6 +3,9 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
@@ -49,6 +52,7 @@ beforeEach(function () {
         protected static ?int $navigationSort = 1;
 =======
         protected static null|int $navigationSort = 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +127,8 @@ beforeEach(function () {
 =======
 >>>>>>> 7131bd09 (.)
 =======
+>>>>>>> 88ea7103 (.)
+=======
 namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
 
 namespace Modules\Xot\Tests\Feature\Filament;
@@ -130,6 +136,7 @@ namespace Modules\Xot\Tests\Feature\Filament;
 
         protected static ?int $navigationSort = 1;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,6 +200,10 @@ namespace Modules\Xot\Tests\Feature\Filament;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
     };
 });
 

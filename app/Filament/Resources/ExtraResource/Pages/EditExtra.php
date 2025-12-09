@@ -51,6 +51,9 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 use Modules\Xot\Filament\Resources\ExtraResource;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,6 +69,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 class EditExtra extends XotBaseEditRecord
 {
     protected static string $resource = ExtraResource::class;
+<<<<<<< HEAD
 =======
 
 
@@ -83,4 +87,6 @@ class EditExtra extends XotBaseEditRecord
 
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 }

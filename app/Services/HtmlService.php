@@ -16,6 +16,9 @@ use Spipu\Html2Pdf\Html2Pdf;
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  * ExceptionFormatter
  * HtmlParsingException
  * ImageException
@@ -23,6 +26,7 @@ use Spipu\Html2Pdf\Html2Pdf;
  * LongSentenceException
  * TableException
  */
+<<<<<<< HEAD
 =======
 ExceptionFormatter
 HtmlParsingException
@@ -32,6 +36,8 @@ LongSentenceException
 TableException
 */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 /**
  * Class HtmlService.
@@ -39,16 +45,22 @@ TableException
 class HtmlService
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public static function toPdf(
         string $html,
         string $out = 'show',
         string $pdforientation = 'L',
         string $filename = '',
     ): string {
+<<<<<<< HEAD
 =======
     public static function toPdf(string $html, string $out = 'show', string $pdforientation = 'L', string $filename = ''): string
     {
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         // dddx($params);
 
         // include_once __DIR__.'/vendor/autoload.php';
@@ -75,11 +87,15 @@ class HtmlService
         }
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
          * extract($params);
          * if (! isset($html)) {
          * throw new \Exception('err html is missing');
          * }
          */
+<<<<<<< HEAD
 =======
         extract($params);
         if (! isset($html)) {
@@ -87,6 +103,8 @@ class HtmlService
         }
         */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         if (request('debug', false)) {
             return $html;
         }
@@ -113,10 +131,14 @@ class HtmlService
 >>>>>>> 5a14301c (.)
             if ('content_PDF' === $out) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return $html2pdf->Output($filename . '.pdf', 'S');
 =======
                 return $html2pdf->Output($filename.'.pdf', 'S');
 >>>>>>> f1d4085 (.)
+=======
+                return $html2pdf->Output($filename . '.pdf', 'S');
+>>>>>>> 73eab74 (.)
             }
 
             if ('file' === $out) {
@@ -155,6 +177,9 @@ class HtmlService
 
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * public static function toMpdf($html): string {
      * require_once __DIR__.'/vendor/autoload.php';
      *
@@ -164,6 +189,7 @@ class HtmlService
      * return $mpdf->Output();
      * }
      */
+<<<<<<< HEAD
 =======
     public static function toMpdf($html): string {
         require_once __DIR__.'/vendor/autoload.php';
@@ -175,4 +201,6 @@ class HtmlService
     }
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 }

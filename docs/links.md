@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -91,6 +92,10 @@
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
 # Links
 
 ## Documentazione Generale
@@ -343,6 +348,7 @@
 - [README](../docs/README.md) - Documentazione principale del progetto
 - [Roadmap](../docs/roadmap.md) - Piano di sviluppo
 - [Filosofia](../docs/filosofia.md) - Principi e filosofia del progetto
+<<<<<<< HEAD
 =======
 # Collegamenti Documentazione Modulo Xot
 
@@ -351,6 +357,8 @@
 - [Roadmap](../project_docs/roadmap.md) - Piano di sviluppo
 - [Filosofia](../project_docs/filosofia.md) - Principi e filosofia del progetto
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 ## Documentazione Tecnica
 - [Regole di Progetto](./rules/PROMPT_RULES.md)
@@ -362,6 +370,9 @@
 
 ## Collegamenti ai Moduli
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 - [Cms](../Cms/docs/README.md) - Frontend
 - [UI](../UI/docs/README.md) - Componenti
 - [User](../User/docs/README.md) - Utenti e Permessi
@@ -397,6 +408,7 @@
 * [links.md](../../Tenant/docs/it/links/links.md)
 * [links.md](../../Cms/docs/links.md)
 * [links.md](../../../Themes/One/docs/links.md)
+<<<<<<< HEAD
 =======
 - [Cms](../Cms/project_docs/README.md) - Frontend
 - [UI](../UI/project_docs/README.md) - Componenti
@@ -434,6 +446,8 @@
 * [links.md](../../Cms/project_docs/links.md)
 * [links.md](../../../Themes/One/project_docs/links.md)
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

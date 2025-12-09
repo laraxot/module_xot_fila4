@@ -46,6 +46,7 @@ class ViewDatabaseConfigCommand extends Command
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,6 +162,7 @@ class ViewDatabaseConfigCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -222,6 +224,11 @@ class ViewDatabaseConfigCommand extends Command
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+=======
+=======
+    
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
 
     /**
      * Execute the console command.
@@ -230,6 +237,9 @@ class ViewDatabaseConfigCommand extends Command
     {
         Assert::isArray($connections = config('database.connections'));
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $database = Arr::map($connections, function (array $item) {
             $item['password'] = '********';
 
@@ -237,6 +247,7 @@ class ViewDatabaseConfigCommand extends Command
 
             // return Arr::except($item, ['password']);
         });
+<<<<<<< HEAD
 =======
         $database = Arr::map(
             $connections,
@@ -248,6 +259,8 @@ class ViewDatabaseConfigCommand extends Command
             }
         );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         dddx($database);
     }
 }

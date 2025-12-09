@@ -61,8 +61,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 6cba4fe (.)
 =======
 use Filament\Forms\Components\DatePicker;
-use Filament\Forms\Components\Section;
-use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Section;
+use Filament\Forms\Form;
 use Filament\Forms\Get;
 use Filament\Pages\Dashboard as BaseBashboard;
 use Filament\Pages\Dashboard\Concerns\HasFiltersForm;

@@ -9,6 +9,7 @@ namespace Modules\Xot\Actions\Cast;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Error;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
@@ -23,17 +24,11 @@ use ValueError;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use ValueError;
 use Error;
 use Exception;
-=======
-<<<<<<< HEAD
-use ValueError;
-use Error;
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Doctrine\DBAL\Schema\Index;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
@@ -51,37 +46,14 @@ class SafeArrayByModelCastAction
      */
     public function execute(Model $model): array
     {
-<<<<<<< HEAD
         try {
             return $model->attributesToArray();
         } catch (ValueError|Error|Exception $e) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        try {
-            return $model->attributesToArray();
-        } catch (ValueError|Error|Exception $e) {
-=======
-        try{
-            return $model->attributesToArray(); 
-        }catch(ValueError|Error|Exception $e){
->>>>>>> a12f125f4a (.)
-=======
-        try {
-            return $model->attributesToArray();
-        } catch (ValueError|Error|Exception $e) {
->>>>>>> b93ef594b4 (.)
-=======
-        try{
-            return $model->attributesToArray(); 
-        }catch(\ValueError|\Error|\Exception $e){
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             return $this->safeExecute($model);
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +94,8 @@ class SafeArrayByModelCastAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -141,6 +115,7 @@ class SafeArrayByModelCastAction
 =======
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,5 +212,7 @@ class SafeArrayByModelCastAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
     }
 }

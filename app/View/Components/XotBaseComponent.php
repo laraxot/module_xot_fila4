@@ -9,6 +9,7 @@ namespace Modules\Xot\View\Components;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
@@ -22,13 +23,9 @@ use InvalidArgumentException;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
-use InvalidArgumentException;
 =======
-<<<<<<< HEAD
+>>>>>>> ca9324a4 (.)
 use InvalidArgumentException;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
@@ -125,6 +122,7 @@ abstract class XotBaseComponent extends IlluminateComponent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view = $module_name_low.'::components.'.$comp_name;
         $view = str_replace('._', '.', $view);
 
@@ -160,34 +158,13 @@ abstract class XotBaseComponent extends IlluminateComponent
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         $view = $module_name_low . '::components.' . $comp_name;
         $view = str_replace('._', '.', $view);
 
         if (!view()->exists($view)) {
             throw new InvalidArgumentException("View [{$view}] does not exist.");
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-        $view = $module_name_low.'::components.'.$comp_name;
-        $view = str_replace('._', '.', $view);
-
-        if (! view()->exists($view)) {
-<<<<<<< HEAD
-            throw new InvalidArgumentException("View [$view] does not exist.");
->>>>>>> a12f125f4a (.)
-=======
-        $view = $module_name_low . '::components.' . $comp_name;
-        $view = str_replace('._', '.', $view);
-
-        if (!view()->exists($view)) {
-            throw new InvalidArgumentException("View [{$view}] does not exist.");
->>>>>>> b93ef594b4 (.)
-=======
-            throw new \InvalidArgumentException("View [$view] does not exist.");
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         }
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)

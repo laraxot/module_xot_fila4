@@ -42,6 +42,7 @@ class RouteData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new static;
 =======
         return new static();
@@ -96,5 +97,8 @@ class RouteData extends Data
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+        return new static();
+>>>>>>> ca9324a4 (.)
     }
 }

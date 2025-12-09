@@ -20,7 +20,11 @@ Based on the latest analysis:
 
 #### 1. Class Not Found Errors (15%)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Missing classes from Modules\<nome progetto>\Models namespace
+=======
+- Missing classes from Modules\SaluteOra\Models namespace
+>>>>>>> ca9324a4 (.)
 =======
 - Missing classes from Modules\SaluteOra\Models namespace
 >>>>>>> ca9324a4 (.)
@@ -71,7 +75,11 @@ Based on the latest analysis:
 ### Notify Module
 **Key Issues**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Missing <nome progetto> model classes
+=======
+- Missing SaluteOra model classes
+>>>>>>> ca9324a4 (.)
 =======
 - Missing SaluteOra model classes
 >>>>>>> ca9324a4 (.)
@@ -98,7 +106,11 @@ Based on the latest analysis:
 ```php
 // Use class_exists checks before referencing
 <<<<<<< HEAD
+<<<<<<< HEAD
 if (!class_exists('Modules\\<nome progetto>\\Models\\Appointment')) {
+=======
+if (!class_exists('Modules\\SaluteOra\\Models\\Appointment')) {
+>>>>>>> ca9324a4 (.)
 =======
 if (!class_exists('Modules\\SaluteOra\\Models\\Appointment')) {
 >>>>>>> ca9324a4 (.)
@@ -198,7 +210,11 @@ vendor/bin/phpstan analyse --generate-baseline
 
 ### High Priority
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Missing <nome progetto> Models**: Classes referenced but not available
+=======
+1. **Missing SaluteOra Models**: Classes referenced but not available
+>>>>>>> ca9324a4 (.)
 =======
 1. **Missing SaluteOra Models**: Classes referenced but not available
 >>>>>>> ca9324a4 (.)

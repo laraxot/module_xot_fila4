@@ -19,16 +19,8 @@ use Illuminate\Database\Eloquent\Collection;
 =======
 >>>>>>> 5a14301c (.)
 // use Filament\Tables\Actions\Action;
-<<<<<<< HEAD
 use Filament\Resources\Pages\Page;
 use Illuminate\Database\Eloquent\Collection;
-=======
-<<<<<<< HEAD
-use Filament\Resources\Pages\Page;
-use Illuminate\Database\Eloquent\Collection;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Filament\Actions\Action;
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -51,12 +43,6 @@ class ExportTreeXlsAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
             ->tooltip(__('xot::actions.export_xls'))
             // ->icon('heroicon-o-cloud-arrow-down')
             // ->icon('fas-file-excel')
@@ -71,6 +57,7 @@ class ExportTreeXlsAction extends Action
                 $filename = class_basename($livewire).'-'.collect($tableFilters)->flatten()->implode('-').'.xlsx';
 =======
                 $filename = class_basename($livewire) . '-' . collect($tableFilters)->flatten()->implode('-') . '.xlsx';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,26 +144,21 @@ class ExportTreeXlsAction extends Action
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
                 $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
                 $transKey .= '.fields';
                 // $query = $livewire->getFilteredTableQuery(); // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
                 // $rows = $query->get();
                 Assert::implementsInterface($record, HasRecursiveRelationshipsContract::class);
                 $rows = $record->descendantsAndSelf;
-<<<<<<< HEAD
                 Assert::isInstanceOf($rows, Collection::class);
-=======
-<<<<<<< HEAD
-                Assert::isInstanceOf($rows, Collection::class);
-=======
-                Assert::isInstanceOf($rows, \Illuminate\Database\Eloquent\Collection::class);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                 $resource = $livewire->getResource();
                 $fields = [];
                 if (method_exists($resource, 'getXlsFields')) {
                     $fields = $resource::getXlsFields($tableFilters);
                     // Convertiamo tutti i valori a stringhe
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,22 +190,9 @@ class ExportTreeXlsAction extends Action
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
                     $fields = array_map(fn($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    $fields = array_map(fn($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
-=======
-                    $fields = array_map(fn ($field) => is_string($field) ? $field : (string) $field, (array) $fields);
->>>>>>> a12f125f4a (.)
-=======
-                    $fields = array_map(fn($field) => is_string($field) ? $field : ((string) $field), (array) $fields);
->>>>>>> b93ef594b4 (.)
-=======
-                    $fields = array_map(fn ($field) => is_string($field) ? $field : (string) $field, (array) $fields);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                     Assert::isArray($fields);
                 }
 
@@ -235,6 +204,7 @@ class ExportTreeXlsAction extends Action
             });
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,6 +268,9 @@ class ExportTreeXlsAction extends Action
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
     {
         return 'export_tree_xls';
     }

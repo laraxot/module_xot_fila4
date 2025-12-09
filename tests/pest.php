@@ -15,6 +15,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -31,6 +32,8 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
  * |--------------------------------------------------------------------------
  * | Test Case
  * |--------------------------------------------------------------------------
@@ -39,6 +42,7 @@ use Modules\Xot\Tests\TestCase;
  * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
@@ -191,10 +195,13 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> 492d6d3c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,6 +225,8 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
  * |--------------------------------------------------------------------------
  * | Expectations
  * |--------------------------------------------------------------------------
@@ -227,6 +236,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
@@ -400,12 +410,15 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 492d6d3c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -493,6 +506,8 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -501,14 +516,11 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * | Queste funzioni saranno disponibili in tutti i test.
  * |
  */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -620,3 +632,5 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 492d6d3c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)

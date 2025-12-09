@@ -10,6 +10,7 @@ namespace Modules\Xot\Actions\Class;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use ReflectionClass;
 =======
@@ -43,6 +44,10 @@ use Exception;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+use ReflectionClass;
+use Exception;
+>>>>>>> ca9324a4 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetFilenameByClassnameAction
@@ -54,15 +59,12 @@ class GetFilenameByClassnameAction
         $filename = null;
         try {
             if (class_exists($class_name)) {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
                 $reflector = new ReflectionClass($class_name);
                 $filename = $reflector->getFileName();
             }
         } catch (Exception $e) {
             $filename = str_replace('\\', '/', $class_name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,11 +132,15 @@ class GetFilenameByClassnameAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+            $filename = base_path($filename) . '.php';
+>>>>>>> ca9324a4 (.)
         }
 
         if (is_string($filename)) {
             return $filename;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,5 +204,8 @@ class GetFilenameByClassnameAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+>>>>>>> ca9324a4 (.)
     }
 }

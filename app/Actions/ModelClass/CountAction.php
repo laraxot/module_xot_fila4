@@ -9,6 +9,7 @@ namespace Modules\Xot\Actions\ModelClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
 <<<<<<< HEAD
@@ -50,11 +51,15 @@ use InvalidArgumentException;
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+use InvalidArgumentException;
+>>>>>>> ca9324a4 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,6 +125,8 @@ use Modules\Xot\Models\InformationSchemaTable;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 
 /**
  * Counts records for a given model class using optimized table information.
@@ -141,15 +148,7 @@ class CountAction
 =======
 >>>>>>> 5a14301c (.)
      *
-<<<<<<< HEAD
      * @throws InvalidArgumentException If model class is invalid or not found
-=======
-<<<<<<< HEAD
-     * @throws InvalidArgumentException If model class is invalid or not found
-=======
-     * @throws \InvalidArgumentException If model class is invalid or not found
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      *
      * @return int The total count of records
 <<<<<<< HEAD

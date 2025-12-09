@@ -22,6 +22,7 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome progetto>\Models\User;
 =======
 use Modules\<nome modulo>\Models\User;
@@ -81,6 +82,9 @@ use Modules\SaluteOra\Models\User;
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+use Modules\SaluteOra\Models\User;
+>>>>>>> 43d67f21 (.)
 
 /** @var User $user */
 $user = User::factory()->create([...]);
@@ -88,6 +92,7 @@ $user = User::factory()->create([...]);
 
 ### **Perché è un Errore Grave**
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,6 +166,9 @@ $user = User::factory()->create([...]);
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+>>>>>>> 43d67f21 (.)
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -192,6 +200,7 @@ $user = $userClass::factory()->create($attributes);
 'providers' => [
     'users' => [
         'driver' => 'eloquent',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -265,6 +274,9 @@ $user = $userClass::factory()->create($attributes);
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+>>>>>>> 43d67f21 (.)
     ],
 ],
 ```
@@ -322,6 +334,7 @@ use Modules\SpecificModule\Models\User;
 public function processUser(UserContract $user): void
 
 // ❌ MAI implementazione specifica
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +408,9 @@ public function processUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> 43d67f21 (.)
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -540,6 +556,7 @@ class ChangeTypeCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome progetto>\Models\User;
 use Modules\<nome progetto>\Models\Patient;
 use Modules\<nome progetto>\Models\Doctor;
@@ -633,6 +650,11 @@ use Modules\SaluteOra\Models\Doctor;
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
+>>>>>>> 43d67f21 (.)
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -642,6 +664,7 @@ use Modules\Xot\Datas\XotData;
 ### **2. Hardcoding Classi**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -715,6 +738,9 @@ $user = \Modules\SaluteOra\Models\User::find($id);
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+$user = \Modules\SaluteOra\Models\User::find($id);
+>>>>>>> 43d67f21 (.)
 
 // ✅ CONSENTITO  
 $userClass = XotData::make()->getUserClass();
@@ -724,6 +750,7 @@ $user = $userClass::find($id);
 ### **3. Type Hints Specifici**
 ```php
 // ❌ VIETATO
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -797,6 +824,9 @@ function updateUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> 43d67f21 (.)
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -916,6 +946,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Testing Strategy](../../<nome progetto>/docs/testing/real-data-testing-strategy.md)
 =======
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
@@ -1013,6 +1044,9 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+>>>>>>> 43d67f21 (.)
 
 ---
 

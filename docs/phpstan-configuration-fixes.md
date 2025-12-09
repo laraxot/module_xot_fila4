@@ -29,6 +29,7 @@ ignoreErrors:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -67,10 +68,13 @@ ignoreErrors:
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 **Moduli Interessati**: SaluteOra, Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
 - [SaluteOra - PHPStan Relationship Covariance Fix](../SaluteOra/docs/phpstan-relationship-covariance-fix.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +134,8 @@ ignoreErrors:
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 
 ### 2. Cast da Mixed
 

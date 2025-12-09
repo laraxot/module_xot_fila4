@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -270,6 +271,8 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 # Regole di Estensione XotBase - Guida di Riferimento
 
 ## 🚨 REGOLA CRITICA FONDAMENTALE

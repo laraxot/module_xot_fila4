@@ -120,6 +120,7 @@ Per la versione dark:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -206,6 +207,13 @@ Per la versione dark:
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
+- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
+- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
+
+>>>>>>> 43d67f21 (.)
 ---
 
 ### Nota Importante

@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `/var/www/html/_bases/base_<nome progetto>/docs` ❌ VIETATA ASSOLUTA
 - `/var/www/html/_bases/base_<nome progetto>/laravel/docs` ❌ VIETATA ASSOLUTA
 =======
@@ -96,6 +97,10 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 43d67f21 (.)
 
 ## REGOLA FONDAMENTALE:
 **TUTTA la documentazione va SOLO nelle cartelle `docs` dei moduli specifici**
@@ -136,6 +141,7 @@ Questa regola ha priorità assoluta su qualsiasi altra considerazione.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/_bases/base_<nome progetto> -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_<nome progetto>/docs$|^/var/www/html/_bases/base_<nome progetto>/laravel/docs$)"
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_techplanner_fila3_mono/docs$|^/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs$)"
@@ -199,6 +205,9 @@ find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 43d67f21 (.)
 # Se il comando restituisce output = ERRORE CRITICO
 # Se il comando non restituisce output = OK
 ```

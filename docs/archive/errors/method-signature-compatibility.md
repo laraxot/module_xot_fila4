@@ -30,6 +30,7 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Access level to Modules\<nome progetto>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
 =======
 Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
@@ -89,6 +90,9 @@ Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 43d67f21 (.)
 ```
 
 esempio di errore:
@@ -209,6 +213,7 @@ $returnType = $parentMethod->getReturnType();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [regole di ereditarietà in php](/var/www/html/base_<nome progetto>/laravel/project_docs/standards/php-inheritance-rules.md)
 - [estensione pattern filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
 =======
@@ -285,3 +290,7 @@ $returnType = $parentMethod->getReturnType();
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 43d67f21 (.)

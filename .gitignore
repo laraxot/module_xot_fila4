@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ultimo aggiornamento: 2025-01-06
 =======
 <<<<<<< HEAD
@@ -43,11 +44,15 @@
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+# Ultimo aggiornamento: 2025-01-06
+>>>>>>> 43d67f21 (.)
 # ==============================================
 
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90,11 +95,14 @@ npm-debug.log
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 vendor/
 node_modules/
 package-lock.json
 yarn.lock
 composer.lock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,6 +137,8 @@ docs/vendor/
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 
 # ==============================================
 # BUILD & COMPILED FILES
@@ -162,6 +172,7 @@ storage/*.key
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d86d643a (.)
@@ -190,6 +201,8 @@ storage/*.key
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 build/
 dist/
 docs/cache/
@@ -239,6 +252,7 @@ lerna-debug.log*
 >>>>>>> 3fbbf1f5 (.)
 # LARAVEL SPECIFIC
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -322,6 +336,8 @@ lerna-debug.log*
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -356,6 +372,7 @@ build/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
@@ -380,6 +397,8 @@ build/
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -428,6 +447,7 @@ Homestead.json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -455,6 +475,8 @@ Homestead.json
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 .git-blame-ignore-revs
 
 # ==============================================
@@ -522,6 +544,7 @@ docs/cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -554,12 +577,15 @@ resources/lang/
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,6 +617,8 @@ database/Factories_
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 database_old/
 >>>>>>> d86d643a (.)
 =======
@@ -610,6 +638,7 @@ database_old/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,6 +664,8 @@ database_old/
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 # File di test temporanei
 test.txt
 testbench.yaml
@@ -646,6 +677,7 @@ testbench.yaml
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
@@ -670,10 +702,13 @@ testbench.yaml
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 # File di configurazione locale
 config/local.php
 config/development.php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -714,10 +749,13 @@ testbench.yaml
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 # Cache specifiche del modulo
 packages/cache/
 packages/temp/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -761,10 +799,13 @@ packages/temp/
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 # ==============================================
 # END OF XOT .GITIGNORE
 # ==============================================
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -796,6 +837,8 @@ packages/temp/
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 # Database directories
 database/Factories_
 database/Factories_old
@@ -860,6 +903,7 @@ database_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
@@ -880,6 +924,8 @@ database_old
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 *.fila2
 laravel
 public_html

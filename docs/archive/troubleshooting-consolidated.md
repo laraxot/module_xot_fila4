@@ -220,6 +220,7 @@ Codice non conforme agli standard di tipizzazione.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -283,6 +284,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -520,6 +524,7 @@ public function test_b(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 ### Errore: Conflitti Git
@@ -643,6 +648,11 @@ public function test_b(): void
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 43d67f21 (.)
 
 **Soluzione**
 1. **Analizzare i conflitti**:

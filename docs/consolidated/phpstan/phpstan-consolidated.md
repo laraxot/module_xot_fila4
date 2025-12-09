@@ -56,6 +56,7 @@ parameters:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -119,6 +120,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 
 # ❌ ERRATO - Mai usare artisan per phpstan

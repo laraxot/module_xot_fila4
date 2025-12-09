@@ -114,8 +114,8 @@
 >>>>>>> 5a14301c (.)
 =======
 | SaluteMo | 13+ | Business logic semplificata |
-<<<<<<< HEAD
 | SaluteOra | 45+ | Core business centralizzato |
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +173,8 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |

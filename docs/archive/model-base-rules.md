@@ -62,6 +62,7 @@ I modelli aggregati e di totali (es. `OrganizzativaTotValutatoreId` del modulo P
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
 <<<<<<< HEAD
@@ -128,6 +129,10 @@ Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, document
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
+
+>>>>>>> 43d67f21 (.)
 ## Eccezioni
 
 Non esistono eccezioni a questa regola. Tutti i modelli concreti devono seguirla.
@@ -160,6 +165,7 @@ abstract class BaseModel extends XotBaseModel
 
 ## Backlink e Riferimenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,3 +274,10 @@ abstract class BaseModel extends XotBaseModel
 >>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: maggio 2025* 
 >>>>>>> d86d643a (.)
+=======
+- [modules/xot/project_docs/model_base_rules.md](model_base_rules.md)
+- [docs/MODULE_NAMESPACE_RULES.md](../../project_docs/MODULE_NAMESPACE_RULES.md)
+- [modules/performance/project_docs/organizzativa-models.md](../Performance/project_docs/organizzativa-models.md)
+
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> 43d67f21 (.)

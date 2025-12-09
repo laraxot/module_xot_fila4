@@ -39,6 +39,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
 =======
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/docs/` (module).
@@ -95,6 +96,9 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
+>>>>>>> 43d67f21 (.)
 - All docs filenames lowercase except `README.md`.
 
 ## 7. PHPStan
@@ -149,6 +153,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 <<<<<<< HEAD
@@ -190,10 +195,13 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 - Content from `config/local/saluteora/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets (SaluteOra)
 - SVG in `laravel/Modules/SaluteOra/resources/svg/`, kebab-case; reference as `saluteora-{name}`.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,6 +261,8 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 
 ## 11. Translation Hygiene
 - Never remove keys/content; only add.
@@ -271,6 +281,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 - Add JS callbacks: `eventDidMount`, `eventClassNames`, `selectAllow`, `eventAllow`.
 
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,3 +348,6 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
+=======
+- Backlinks: see `Modules/SaluteMo/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
+>>>>>>> 43d67f21 (.)

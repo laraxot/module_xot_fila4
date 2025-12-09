@@ -14,6 +14,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -38,6 +39,8 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> 849568d9 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 849568d9 (.)
 |--------------------------------------------------------------------------
 | Test Case
 |--------------------------------------------------------------------------
@@ -46,6 +49,7 @@ use Modules\Xot\Tests\TestCase;
 | Estende il TestCase specifico del modulo che fornisce il setup necessario.
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,10 +224,13 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 849568d9 (.)
 
 uses(TestCase::class)->in('Feature', 'Unit');
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
@@ -271,6 +278,8 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 849568d9 (.)
 |--------------------------------------------------------------------------
 | Expectations
 |--------------------------------------------------------------------------
@@ -280,6 +289,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
 | in tutti i test del modulo.
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,12 +322,15 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 849568d9 (.)
 
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +352,8 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 849568d9 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 849568d9 (.)
 |--------------------------------------------------------------------------
 | Functions
 |--------------------------------------------------------------------------
@@ -350,6 +365,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
 
 // function something() {
 //     // ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -481,3 +497,6 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+// } 
+>>>>>>> 849568d9 (.)

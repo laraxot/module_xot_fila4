@@ -4845,6 +4845,7 @@ if (!function_exists('getRelationships')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -4902,11 +4903,14 @@ if (!function_exists('getRelationships')) {
 =======
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 492d6d3c (.)
                 $return = $reflection->invoke($model);
                 $check = $return instanceof Relation;
                 /*
                 if ($check) {
                     $related_model = new ReflectionClass($return->getRelated())->getName();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c84488b (.)
@@ -4951,11 +4955,14 @@ if (!function_exists('getRelationships')) {
 =======
 >>>>>>> c84488b (.)
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 492d6d3c (.)
                     $msg = [
                         'name' => $reflection->name,
                         'type' => class_basename($return),
                         // 'check'=>$check,
                         // $msg['type']=(new \ReflectionClass($return))->getShortName();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5062,11 +5069,14 @@ if (!function_exists('getRelationships')) {
                 }
                 
 =======
+=======
+>>>>>>> 492d6d3c (.)
                         'model' => $related_model,
                     ];
                     $data[] = $msg;
                 }
                     */
+<<<<<<< HEAD
 >>>>>>> c84488b (.)
             } catch (ErrorException) {
 <<<<<<< HEAD
@@ -5085,6 +5095,10 @@ if (!function_exists('getRelationships')) {
 =======
             } catch (ErrorException) {
 >>>>>>> 5a14301c (.)
+=======
+            } catch (Exception|Throwable) {
+                // Ignore reflection invocation errors
+>>>>>>> 492d6d3c (.)
             }
         }
 

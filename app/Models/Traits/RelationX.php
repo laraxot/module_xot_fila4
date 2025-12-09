@@ -197,6 +197,7 @@ trait RelationX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 >>>>>>> d86d643a (.)
@@ -235,9 +236,19 @@ trait RelationX
 =======
 >>>>>>> 5a14301c (.)
         // if ($pivotDbName !== $dbName) {
+=======
+        
+        // Handle cross-database relationships
+>>>>>>> 492d6d3c (.)
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
-            $table = $pivotDbName . '.' . $table;
+            $pivotDriver = $pivot->getConnection()->getDriverName();
+            // Only add database prefix for non-SQLite drivers
+            // SQLite doesn't support database.table syntax
+            if ($pivotDriver !== 'sqlite') {
+                $table = $pivotDbName . '.' . $table;
+            }
         }
+<<<<<<< HEAD
         // }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,6 +263,8 @@ trait RelationX
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 492d6d3c (.)
 
         return $this->belongsToMany(
             related: $related,

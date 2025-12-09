@@ -5,6 +5,9 @@ declare(strict_types=1);
 use Illuminate\Support\Facades\Request;
 use Modules\Xot\Services\ArtisanService;
 
+use function Safe\ob_end_clean;
+use function Safe\ob_start;
+
 test('artisan service act method returns empty string for unknown commands', function (): void {
     Request::shouldReceive('input')
         ->with('module', '')

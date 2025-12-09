@@ -41,6 +41,7 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\Team;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -283,6 +284,11 @@ use Modules\User\Models\Tenant;
 use Filament\Models\Contracts\FilamentUser;
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> 5842a556 (.)
 use Illuminate\Contracts\Auth\Access\Authorizable;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\CanResetPassword;
@@ -313,6 +319,7 @@ use Modules\User\Models\Tenant;
 use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,9 +522,9 @@ use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
 =======
 >>>>>>> e59778ae (.)
-use Spatie\Permission\Contracts\Permission;
 =======
->>>>>>> c06600c (.)
+>>>>>>> 5842a556 (.)
+use Spatie\Permission\Contracts\Permission;
 use Spatie\Permission\Contracts\Role;
 use Spatie\Permission\Exceptions\GuardDoesNotMatch;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
@@ -591,6 +598,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property ProfileContract|null $profile
 =======
 <<<<<<< HEAD
@@ -657,6 +665,9 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property ProfileContract|null                                                       $profile
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> 5842a556 (.)
  * @property string $id
  * @property string $handle
  * @property string|null $first_name
@@ -671,6 +682,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
  * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -820,11 +832,13 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5842a556 (.)
  * @method bool canAccessSocialite()
  *
  * @phpstan-require-extends Model
  *
-<<<<<<< HEAD
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
@@ -853,6 +867,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1084,6 +1099,9 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> e59778ae (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> 5842a556 (.)
 {
     /*
      * public function isSuperAdmin();
@@ -1138,6 +1156,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $key
 =======
 <<<<<<< HEAD
@@ -1236,6 +1255,9 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
+=======
+     * @param  string  $key
+>>>>>>> 5842a556 (.)
      * @return mixed|null
      */
     public function getRelationValue($key);
@@ -1264,6 +1286,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array  $attributes
      * @param  bool  $exists
 =======
@@ -1383,6 +1406,10 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> e59778ae (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> 5842a556 (.)
      * @return static
      */
     public function newInstance($attributes = [], $exists = false);
@@ -1422,6 +1449,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         null|string $guard = null,
 >>>>>>> 5a14301c (.)
 =======
@@ -1514,6 +1542,9 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
         null|string $guard = null,
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
+=======
+        ?string $guard = null,
+>>>>>>> 5842a556 (.)
     ): bool;
 
     /**
@@ -1620,6 +1651,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string|int|Role|BackedEnum  $role
 =======
 <<<<<<< HEAD
@@ -1750,6 +1782,9 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 5842a556 (.)
      * @return self
      */
     public function removeRole($role);
@@ -1849,6 +1884,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1903,6 +1939,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
      */
     // public function consents(): MorphMany;
     /**
@@ -1912,6 +1950,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2165,4 +2204,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 5842a556 (.)
 }

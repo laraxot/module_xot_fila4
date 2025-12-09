@@ -309,6 +309,7 @@ class NormalizeDriverNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -463,11 +464,15 @@ class NormalizeDriverNameAction
      * @param string $driver Nome del driver da normalizzare
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+>>>>>>> f0e04b64 (.)
      * @return string Nome normalizzato
      */
     public function execute(string $driver): string
     {
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,10 +570,13 @@ class NormalizeDriverNameAction
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
         $result = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
 
         // Assicuriamo che il risultato sia sempre una stringa
         return is_string($result) ? $result : '';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -719,5 +727,7 @@ class NormalizeDriverNameAction
         return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
 >>>>>>> c06600c (.)
 >>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
     }
 }

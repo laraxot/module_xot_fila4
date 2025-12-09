@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
@@ -56,6 +57,12 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 17684f52 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 
 ## File Corretti
 
@@ -151,6 +158,7 @@ $res=Locality::query()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -178,6 +186,11 @@ $res=Locality::query()
 =======
 
 >>>>>>> 17684f52 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 ### 2. Validazione PHPStan
 ```bash
 cd laravel
@@ -237,6 +250,7 @@ php artisan lang:check
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Modulo User
 - [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
 
@@ -286,6 +300,11 @@ php artisan lang:check
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 ## Best Practices Applicate
 
 ### 1. Gestione Conflitti
@@ -361,6 +380,7 @@ php artisan lang:check
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Documentazione Generale
 - [Translation Standards](../../project_docs/translation-standards.md)
 - [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
@@ -410,6 +430,11 @@ php artisan lang:check
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 ---
 
 **Ultimo aggiornamento**: 2025-01-06

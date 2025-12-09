@@ -91,6 +91,7 @@ namespace Modules\ModuleName\App\Console\Commands;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Convenzioni di Namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/namespace_conventions.md)
 - [Struttura Moduli](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/module_structure.md)
 =======
@@ -116,6 +117,10 @@ namespace Modules\ModuleName\App\Console\Commands;
 - [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/module_structure.md)
 >>>>>>> d86d643a (.)
 =======
+- [Convenzioni di Namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/namespace_conventions.md)
+- [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/module_structure.md)
+>>>>>>> 472bd9dc (.)
+=======
 - [Convenzioni di Namespace](../Xot/project_docs/namespace_conventions.md)
 - [Struttura Moduli](../Xot/project_docs/module_structure.md)
 - [Convenzioni di Namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/namespace_conventions.md)
@@ -123,6 +128,7 @@ namespace Modules\ModuleName\App\Console\Commands;
 - [Convenzioni di Namespace](../Xot/project_docs/namespace_conventions.md)
 - [Struttura Moduli](../Xot/project_docs/module_structure.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
@@ -145,3 +151,5 @@ namespace Modules\ModuleName\App\Console\Commands;
 - [Convenzioni di Namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/namespace_conventions.md)
 - [Struttura Moduli](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/module_structure.md)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)

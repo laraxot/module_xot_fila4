@@ -248,6 +248,7 @@ class DatiRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
 =======
@@ -304,3 +305,9 @@ class DatiRelationManager extends XotBaseRelationManager
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 472bd9dc (.)

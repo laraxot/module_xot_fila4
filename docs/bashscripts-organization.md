@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La cartella `/var/www/html/_bases/base_<nome progetto>/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 =======
 La cartella `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
@@ -26,10 +27,14 @@ La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **S
 La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 >>>>>>> d86d643a (.)
 =======
+La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
+>>>>>>> 472bd9dc (.)
+=======
 La cartella `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 La cartella `/var/www/html/_bases/base_<nome progetto>/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 La cartella `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
@@ -51,6 +56,8 @@ La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **S
 =======
 La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 
 ## Struttura Organizzata
 
@@ -95,6 +102,7 @@ bashscripts/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -103,12 +111,16 @@ bashscripts/
 =======
 =======
 >>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
 #### 4.1. **git/gitignore/** - Gestione GitIgnore
 - `update_gitignore.sh` - Aggiornamento batch .gitignore moduli
 - `fix_remaining_gitignore.sh` - Correzione moduli non conformi
 - `README.md` - Documentazione script gitignore
 - Script per standardizzazione .gitignore secondo prototipo Laraxot
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,6 +143,9 @@ bashscripts/
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
 #### 5. **maintenance/** - Manutenzione Sistema
 - `backup.sh` - Script di backup
 - `restore_disk.md` - Documentazione ripristino
@@ -157,6 +172,7 @@ bashscripts/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `fix_<nome progetto>_translations.sh` - Fix traduzioni <nome progetto>
 =======
 - `fix_<nome progetto>_translations.sh` - Fix traduzioni 
@@ -171,9 +187,13 @@ bashscripts/
 - `fix_saluteora_translations.sh` - Fix traduzioni SaluteOra
 >>>>>>> d86d643a (.)
 =======
+- `fix_saluteora_translations.sh` - Fix traduzioni SaluteOra
+>>>>>>> 472bd9dc (.)
+=======
 - `fix_<nome progetto>_translations.sh` - Fix traduzioni 
 - `fix_<nome progetto>_translations.sh` - Fix traduzioni <nome progetto>
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
@@ -194,6 +214,8 @@ bashscripts/
 =======
 - `fix_saluteora_translations.sh` - Fix traduzioni SaluteOra
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
 - `verify_translations_syntax.sh` - Verifica sintassi traduzioni
 
 #### 9. **utilities/** - Utilità Generali

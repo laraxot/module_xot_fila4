@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static string $projectBasePath = '/var/www/html/<nome progetto>';
 <<<<<<< HEAD
 public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
@@ -187,6 +188,10 @@ public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 76bec91a (.)
 ```
 
 #### 2. XotData Incompleto
@@ -564,6 +569,7 @@ abstract class XotBaseModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
 <<<<<<< HEAD
 =======
@@ -672,6 +678,9 @@ grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 76bec91a (.)
 
 # Verifica XotData usage
 grep -r "XotData::make()" Modules/Xot/ --include="*.php"
@@ -741,6 +750,7 @@ php artisan xot:test-framework
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Analisi Moduli Globale](../../../docs/modules_analysis_and_optimization.md)
 >>>>>>> 5a14301c (.)
@@ -821,6 +831,8 @@ php artisan xot:test-framework
 - [Analisi Moduli Globale](../../../docs/modules_analysis_and_optimization.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
 - [Analisi Moduli Globale](../../../project_docs/modules_analysis_and_optimization.md)
 - [PathHelper Current](../Helpers/PathHelper.php)
 - [XotData Current](../Datas/XotData.php)

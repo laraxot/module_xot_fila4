@@ -81,6 +81,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -573,6 +574,10 @@ use Modules\Xot\Datas\MetatagData;
 >>>>>>> b956ebe0 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+use Filament\Support\Colors\Color;
+use Modules\Xot\Datas\MetatagData;
+>>>>>>> 76bec91a (.)
 
 /**
  * Test che la classe MetatagData possa essere istanziata correttamente.
@@ -916,6 +921,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
 =======
 <<<<<<< HEAD
@@ -943,6 +949,8 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 >>>>>>> b956ebe0 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
     expect($colors)
         ->toBeArray()
         ->and($colors)
@@ -955,6 +963,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
         /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
         ->and($colors['primary'])
         ->toBe(Color::Amber);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1419,6 +1428,8 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
 });
 
 /**
@@ -1520,6 +1531,7 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -1668,12 +1680,15 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 >>>>>>> b956ebe0 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
             'hex' => '#FF5500',
         ],
         'primary' => [
             'key' => 'primary',
             'color' => 'amber',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2761,10 +2776,13 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
     ];
 
     $colors = $metatagData->getColors();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2834,6 +2852,9 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+=======
+    expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+>>>>>>> 76bec91a (.)
 });
 
 /**
@@ -3169,6 +3190,7 @@ test('Le proprietà hanno i valori di default corretti', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
 =======
 <<<<<<< HEAD
@@ -3196,6 +3218,8 @@ test('Le proprietà hanno i valori di default corretti', function () {
 >>>>>>> b956ebe0 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
     expect($metatagData->generator)
         ->toBe('xot')
         ->and($metatagData->charset)
@@ -3206,6 +3230,7 @@ test('Le proprietà hanno i valori di default corretti', function () {
         ->toBe('2em')
         ->and($metatagData->favicon)
         ->toBe('/favicon.ico');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3662,4 +3687,6 @@ test('Le proprietà hanno i valori di default corretti', function () {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
 });

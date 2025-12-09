@@ -467,6 +467,7 @@ $table->foreign('user_id')->references('id')->on('users')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> Module (CRITICO)
 =======
 ###  Module (CRITICO)
@@ -575,6 +576,9 @@ $table->foreign('user_id')->references('id')->on('users')
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 76bec91a (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`

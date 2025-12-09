@@ -259,6 +259,7 @@ Prima di committare modelli con relazioni, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **MAI** modificare `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
 =======
 - [ ] **MAI** modificare `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
@@ -372,6 +373,9 @@ Prima di committare modelli con relazioni, verificare:
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 76bec91a (.)
 
 ## Verifica PHPStan
 

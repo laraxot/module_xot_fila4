@@ -42,6 +42,7 @@ Trovati 4 errori al livello max.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 <<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
@@ -156,6 +157,9 @@ Trovati 4 errori al livello max.
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> 76bec91a (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -198,6 +202,7 @@ Trovati 4 errori al livello max.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 <<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -312,6 +317,9 @@ Trovati 4 errori al livello max.
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> 76bec91a (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 
@@ -336,6 +344,7 @@ Trovati 4 errori al livello max.
 - [PSR-12: Standard di codifica](https://www.php-fig.org/psr/psr-12/)
 
 ## Collegamenti tra versioni di level_max.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,6 +414,8 @@ Trovati 4 errori al livello max.
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 76bec91a (.)
 * [level_max.md](laravel/Modules/Chart/project_docs/phpstan/level_max.md)
 * [level_max.md](laravel/Modules/Reporting/project_docs/phpstan/level_max.md)
 * [level_max.md](laravel/Modules/Gdpr/project_docs/phpstan/level_max.md)
@@ -420,6 +431,7 @@ Trovati 4 errori al livello max.
 * [level_max.md](laravel/Modules/Activity/project_docs/phpstan/level_max.md)
 * [level_max.md](laravel/Modules/Patient/project_docs/phpstan/level_max.md)
 * [level_max.md](laravel/Modules/Cms/project_docs/phpstan/level_max.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -537,3 +549,6 @@ Trovati 4 errori al livello max.
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+=======
+
+>>>>>>> 76bec91a (.)

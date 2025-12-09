@@ -53,6 +53,7 @@ Questa scelta garantisce:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -151,6 +152,12 @@ Questa scelta garantisce:
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+=======
+- [docs/links.md globale](../../../../project_docs/links.md)
+
+## Backlink
+- [docs/links.md](../../../../project_docs/links.md)
+>>>>>>> 76bec91a (.)
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
 <<<<<<< HEAD

@@ -278,6 +278,7 @@ cd /percorso/al/progetto/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ``` 
 <<<<<<< HEAD
 =======
@@ -373,3 +374,8 @@ cd /percorso/al/progetto/laravel
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+=======
+``` 
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)

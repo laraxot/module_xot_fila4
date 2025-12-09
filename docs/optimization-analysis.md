@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 # Analisi di Ottimizzazione - Modulo Xot (Framework Base)
 
 ## 🎯 Principi Applicati: DRY + KISS + SOLID + ROBUST + Laraxot
@@ -825,11 +828,17 @@ class XotPerformanceMonitor
 - [SOLID Principles in PHP](../../../docs/solid-principles.md)
 - [Performance Best Practices](../../../docs/performance-best-practices.md)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)
 ---
 
 *Documento creato: Gennaio 2025*  
 *Principi: DRY + KISS + SOLID + ROBUST + Laraxot*  
 *Stato: 🟠 Framework Solido ma Necessita Refactoring Architetturale*
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5dccfe (.)

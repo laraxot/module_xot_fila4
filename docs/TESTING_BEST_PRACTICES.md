@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -38,6 +39,8 @@
 >>>>>>> 3bf39332 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -92,6 +95,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 =======
         ->andReturn(\Modules\SaluteOra\Models\User::class);
@@ -129,6 +133,9 @@ function mockXotData(): void
 =======
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
 >>>>>>> cf971011 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> e7da37af (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -312,6 +319,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Last Update**: Dicembre 2024 
 =======
 >>>>>>> 43d67f21 (.)
@@ -363,3 +371,6 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> e7da37af (.)

@@ -369,6 +369,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome progetto> Module (CRITICO)
 =======
 ###  Module (CRITICO)
@@ -401,9 +402,13 @@ return [
 ### SaluteOra Module (CRITICO)
 >>>>>>> cf971011 (.)
 =======
+### SaluteOra Module (CRITICO)
+>>>>>>> e7da37af (.)
+=======
 ###  Module (CRITICO)
 ### <nome progetto> Module (CRITICO)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -483,6 +488,8 @@ return [
 =======
 ### SaluteOra Module (CRITICO)
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
 - **Focus**: Core health platform, Appointments
 - **Campi comuni**: `appointment_id`, `patient_id`, `doctor_id`, `studio_id`
 - **Stati**: `scheduled`, `confirmed`, `in_progress`, `completed`, `cancelled`
@@ -581,6 +588,7 @@ TextInput::make('name') // Label automatica da traduzione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
@@ -613,9 +621,13 @@ for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify Salu
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
 >>>>>>> cf971011 (.)
 =======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
+>>>>>>> e7da37af (.)
+=======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo <nome progetto> Tenant UI User Xot; do
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -695,6 +707,8 @@ for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify Salu
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
     php artisan translation:check-hardcoded --module=$module
 done
 
@@ -727,6 +741,7 @@ done
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify <nome modulo> <nome progetto> Tenant UI User Xot; do
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
@@ -759,9 +774,13 @@ for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify Salu
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
 >>>>>>> cf971011 (.)
 =======
+for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
+>>>>>>> e7da37af (.)
+=======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo  Tenant UI User Xot; do
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo <nome progetto> Tenant UI User Xot; do
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -841,6 +860,8 @@ for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify Salu
 =======
 for module in Activity Chart Cms FormBuilder Gdpr Geo Job Lang Media Notify SaluteMo SaluteOra Tenant UI User Xot; do
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
     php artisan translation:validate-syntax --module=$module
 done
 ```
@@ -904,6 +925,7 @@ rm Modules/UI/docs/translation-rules.md
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <nome progetto>
 rm Modules/<nome progetto>/docs/translation-files-improvement.md
 rm Modules/<nome progetto>/docs/translations.md
@@ -984,6 +1006,8 @@ rm Modules/<nome modulo>/docs/translations-appointments.md
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
 # SaluteOra
 rm Modules/SaluteOra/docs/translation-files-improvement.md
 rm Modules/SaluteOra/docs/translations.md
@@ -1019,6 +1043,7 @@ rm Modules/SaluteOra/docs/translations-appointments.md
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -1038,6 +1063,8 @@ rm Modules/SaluteOra/docs/translations-appointments.md
 =======
 >>>>>>> cf971011 (.)
 =======
+>>>>>>> e7da37af (.)
+=======
 # 
 rm Modules/<nome modulo>/docs/translation-files-improvement.md
 rm Modules/<nome modulo>/docs/translations.md
@@ -1055,6 +1082,7 @@ rm Modules/<nome progetto>/docs/translation-rules.md
 rm Modules/<nome progetto>/docs/translation_standards.md
 rm Modules/<nome progetto>/docs/translations-appointments.md
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1113,6 +1141,8 @@ rm Modules/<nome progetto>/docs/translations-appointments.md
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
 
 # User
 rm Modules/User/docs/translations.md

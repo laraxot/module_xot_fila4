@@ -132,7 +132,9 @@
 >>>>>>> 5a14301c (.)
 =======
 | SaluteMo | 13+ | Business logic semplificata |
+<<<<<<< HEAD
 | SaluteOra | 45+ | Core business centralizzato |
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,9 +164,12 @@
 =======
 >>>>>>> 3bf39332 (.)
 =======
+>>>>>>> e7da37af (.)
+=======
 |  | 45+ | Core business centralizzato |
 | <nome progetto> | 45+ | Core business centralizzato |
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,6 +258,8 @@
 | SaluteMo | 13+ | Business logic semplificata |
 | SaluteOra | 45+ | Core business centralizzato |
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |

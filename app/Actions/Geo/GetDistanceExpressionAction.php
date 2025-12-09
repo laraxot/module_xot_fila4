@@ -97,6 +97,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -547,6 +548,12 @@ use Spatie\QueueableAction\QueueableAction;
 =======
  *
 >>>>>>> 5cd593a5 (.)
+=======
+ *
+=======
+ * 
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
  * Questa action centralizza la logica di generazione dell'espressione SQL
  * per il calcolo della distanza tra due punti geografici.
  */
@@ -623,6 +630,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -673,6 +681,8 @@ class GetDistanceExpressionAction
 >>>>>>> d79d36e0 (.)
 =======
 >>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> e7da37af (.)
     public function execute(
         float $latitude,
         float $longitude,
@@ -698,6 +708,7 @@ class GetDistanceExpressionAction
         if (null !== $alias) {
 >>>>>>> 5a14301c (.)
             $sql .= " AS {$alias}";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -763,6 +774,10 @@ class GetDistanceExpressionAction
 =======
     public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
 >>>>>>> a62d7646 (.)
+=======
+=======
+    public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
+>>>>>>> e7da37af (.)
     {
         $sql = "
             (6371 * acos(
@@ -776,6 +791,7 @@ class GetDistanceExpressionAction
         
         if (null !== $alias) {
             $sql .= " AS $alias";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1605,6 +1621,9 @@ class GetDistanceExpressionAction
 >>>>>>> d79d36e0 (.)
 =======
 >>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
         }
 
         return DB::raw($sql);
@@ -1696,6 +1715,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -2141,3 +2161,9 @@ class GetDistanceExpressionAction
 =======
 }
 >>>>>>> 5cd593a5 (.)
+=======
+}
+=======
+} 
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)

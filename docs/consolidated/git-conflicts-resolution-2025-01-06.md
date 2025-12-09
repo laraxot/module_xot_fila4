@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
@@ -152,6 +153,12 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> cc52d333 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
 
 ## File Corretti
 
@@ -268,6 +275,7 @@ $res=Locality::query()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 ### 1. Controllo Conflitti
@@ -314,6 +322,11 @@ $res=Locality::query()
 ```bash
 =======
 >>>>>>> cf971011 (.)
+=======
+### 1. Controllo Conflitti
+```bash
+=======
+>>>>>>> e7da37af (.)
 
 ### 2. Validazione PHPStan
 ```bash
@@ -421,6 +434,7 @@ php artisan lang:check
 
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -544,3 +558,7 @@ php artisan lang:check
 ### 1. Controllo Conflitti
 ```bash
 >>>>>>> cc52d333 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)

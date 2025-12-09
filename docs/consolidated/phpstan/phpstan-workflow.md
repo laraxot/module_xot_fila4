@@ -177,6 +177,7 @@ class MyModel extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -210,6 +211,9 @@ class MyModel extends BaseModel
 =======
 =======
 >>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> e7da37af (.)
 ## Struttura del Progetto e Workflow
 
 ### Architettura Modulare
@@ -229,6 +233,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 4. **Testing**: Verificare che le correzioni non rompano funzionalità
 5. **Commit**: Commit atomici per gruppi di correzioni
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,6 +307,9 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
 2. **Approccio Efficiente**
    - Identificare pattern comuni di errori
    - Correggere tutti gli errori dello stesso tipo in una volta
@@ -330,6 +338,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
      - Docs del modulo specifico
      - .cursor/rules per Cursor AI
      - .windsurfrules per Windsurf
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -399,6 +408,10 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
    - Mantenere coerenza tra le diverse documentazioni 
 =======
 >>>>>>> cf971011 (.)
+=======
+   - Mantenere coerenza tra le diverse documentazioni 
+=======
+>>>>>>> e7da37af (.)
    - Mantenere coerenza tra le diverse documentazioni 
 ## Collegamenti tra versioni di PHPSTAN_WORKFLOW.md
 * [PHPSTAN_WORKFLOW.md](../../../Xot/project_docs/phpstan/PHPSTAN_WORKFLOW.md)
@@ -418,6 +431,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 
 
    - Mantenere coerenza tra le diverse documentazioni 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,3 +534,6 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 =======
    - Mantenere coerenza tra le diverse documentazioni 
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)

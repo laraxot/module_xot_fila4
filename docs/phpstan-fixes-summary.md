@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 71f31700 (.)
@@ -324,6 +325,8 @@ Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
 # PHPStan Type Errors - Fix Summary
 
 ## Overview
@@ -398,6 +401,7 @@ All fixed files now pass PHPStan analysis:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 The fixes maintain backward compatibility while significantly improving type safety and code reliability.
 >>>>>>> 5a14301c (.)
 =======
@@ -450,3 +454,6 @@ The fixes maintain backward compatibility while significantly improving type saf
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+The fixes maintain backward compatibility while significantly improving type safety and code reliability.
+>>>>>>> e7da37af (.)

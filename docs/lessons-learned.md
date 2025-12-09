@@ -69,6 +69,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
 =======
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/docs/` (module).
@@ -178,6 +179,12 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
 >>>>>>> cc52d333 (.)
+=======
+- No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/project_docs/` (module).
+=======
+- No root `docs/`. Use `docs_project/` (global) and `Modules/<Module>/docs/` (module).
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
 - All docs filenames lowercase except `README.md`.
 
 ## 7. PHPStan
@@ -270,6 +277,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 <<<<<<< HEAD
@@ -342,6 +350,8 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
 - Content from `config/local/saluteora/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets (SaluteOra)
@@ -373,6 +383,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -392,6 +403,8 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 >>>>>>> cf971011 (.)
 =======
+>>>>>>> e7da37af (.)
+=======
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets ()
@@ -401,6 +414,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 ## 10. Icons & Assets (<nome progetto>)
 - SVG in `laravel/Modules/<nome progetto>/resources/svg/`, kebab-case; reference as `<nome progetto>-{name}`.
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -459,6 +473,8 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
 
 ## 11. Translation Hygiene
 - Never remove keys/content; only add.
@@ -477,6 +493,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 - Add JS callbacks: `eventDidMount`, `eventClassNames`, `selectAllow`, `eventAllow`.
 
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -620,3 +637,9 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 - Backlinks: see `Modules/SaluteMo/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
 >>>>>>> cc52d333 (.)
+=======
+- Backlinks: see `Modules/SaluteMo/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
+=======
+- Backlinks: see `Modules/SaluteMo/docs/translation-rules-consolidated.md`, `Modules/Xot/docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)

@@ -65,6 +65,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
@@ -162,6 +163,12 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> cc52d333 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
 
 ## File Corretti
 
@@ -274,6 +281,7 @@ $res=Locality::query()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -362,6 +370,11 @@ $res=Locality::query()
 =======
 
 >>>>>>> cc52d333 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
 ### 2. Validazione PHPStan
 ```bash
 cd laravel
@@ -448,6 +461,7 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Modulo User
 - [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
 
@@ -600,6 +614,11 @@ php artisan lang:check
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
 ## Best Practices Applicate
 
 ### 1. Gestione Conflitti
@@ -698,6 +717,7 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Documentazione Generale
 - [Translation Standards](../../project_docs/translation-standards.md)
 - [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
@@ -853,6 +873,11 @@ php artisan lang:check
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
 ---
 
 **Ultimo aggiornamento**: 2025-01-06

@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -62,6 +63,9 @@
 =======
 =======
 >>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> e7da37af (.)
 # Struttura dei Moduli in il progetto
 
 ## Panoramica
@@ -382,6 +386,7 @@ laravel/Modules/Patient/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -444,6 +449,9 @@ laravel/Modules/Patient/
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
 # Module Structure in Laraxot
 
 ## Directory Structure
@@ -462,6 +470,7 @@ Module/
 │   └── Providers/
 ├── config/
 ├── database/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -523,6 +532,9 @@ Module/
 =======
 =======
 >>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> e7da37af (.)
 │   ├── migrations/
 │   └── seeders/
 ├── resources/           ✓ CORRETTO
@@ -633,6 +645,7 @@ Se trovi una directory con case errato:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -698,6 +711,9 @@ Se trovi una directory con case errato:
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
 │   ├── factories/
 │   ├── migrations/
 │   └── seeders/

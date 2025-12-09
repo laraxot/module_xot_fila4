@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -45,6 +46,8 @@
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -272,6 +275,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -308,6 +312,10 @@ php artisan view:clear
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica

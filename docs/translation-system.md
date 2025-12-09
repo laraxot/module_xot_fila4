@@ -226,6 +226,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -234,6 +235,8 @@ php artisan view:clear
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
 - [Documentazione Laravel Translations](https://laravel.com/project_docs/localization)
 - [Filament Form Components](https://filamentphp.com/project_docs/forms)
 - [Best Practices Filament](../project_docs/filament-best-practices.md)
@@ -242,8 +245,11 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 =======
 >>>>>>> 6cba4fe (.)
 - [Documentazione Laravel Translations](https://laravel.com/docs/localization)

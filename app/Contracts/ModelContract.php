@@ -132,6 +132,12 @@ interface ModelContract
      * @return bool
      */
     public function save(array $options = []);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +155,33 @@ interface ModelContract
      *
      * public function forceCreate(array $attributes);
      */
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+    /*
+         * Save a new model and return the instance. Allow mass-assignment.
+         *
+         * @return \Illuminate\Database\Eloquent\Model|$this
+
+        public function forceCreate(array $attributes);
+        */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+    /*
+     * Save a new model and return the instance. Allow mass-assignment.
+     *
+     * @return \Illuminate\Database\Eloquent\Model|$this
+     *
+     * public function forceCreate(array $attributes);
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
     /**
      * Convert the model instance to an array.
@@ -209,9 +242,34 @@ interface ModelContract
      * @param  mixed  $value
      * @param  string $boolean
      * @return $this
+<<<<<<< HEAD
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+     * public function where($column, $operator = null, $value = null, $boolean = 'and');
+     */
+=======
+=======
+>>>>>>> origin/develop
+
+    public function where($column, $operator = null, $value = null, $boolean = 'and');
+    */
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+     *
+     * public function where($column, $operator = null, $value = null, $boolean = 'and');
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     /*
      * Execute the query and get the first result or throw an exception.
      *
@@ -219,7 +277,31 @@ interface ModelContract
      * @return \Illuminate\Database\Eloquent\Model|static
      *
      * @throws \Illuminate\Database\Eloquent\ModelNotFoundException<\Illuminate\Database\Eloquent\Model>
+<<<<<<< HEAD
      *
      * public function firstOrFail($columns = ['*']);
      */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+     * public function firstOrFail($columns = ['*']);
+     */
+=======
+
+    public function firstOrFail($columns = ['*']);
+    */
+>>>>>>> a12f125f4a (.)
+=======
+     *
+     * public function firstOrFail($columns = ['*']);
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+
+    public function firstOrFail($columns = ['*']);
+    */
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 }

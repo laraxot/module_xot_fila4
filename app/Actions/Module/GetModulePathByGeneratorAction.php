@@ -10,6 +10,7 @@ namespace Modules\Xot\Actions\Module;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Error;
 use Exception;
 use Illuminate\Support\Facades\Config;
@@ -24,8 +25,17 @@ use Illuminate\Support\Facades\Config;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
 use Exception;
 use Error;
+=======
+<<<<<<< HEAD
+use Exception;
+use Error;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Support\Facades\Config;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
@@ -50,6 +60,7 @@ class GetModulePathByGeneratorAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $relativePath = Config::string('modules.paths.generator.'.$generatorPath.'.path');
 =======
 =======
@@ -58,10 +69,13 @@ class GetModulePathByGeneratorAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
@@ -86,6 +100,8 @@ class GetModulePathByGeneratorAction
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
         $relativePath = Config::string('modules.paths.generator.' . $generatorPath . '.path');
 >>>>>>> 5a14301c (.)
         try {
@@ -159,12 +175,15 @@ class GetModulePathByGeneratorAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
+=======
+>>>>>>> 17684f52 (.)
 =======
 =======
         $relativePath = Config::string('modules.paths.generator.'.$generatorPath.'.path');
@@ -191,11 +210,14 @@ class GetModulePathByGeneratorAction
 =======
         Assert::string($res, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
 =======
         $relativePath = Config::string('modules.paths.generator.'.$generatorPath.'.path');
         try {
@@ -203,14 +225,18 @@ class GetModulePathByGeneratorAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
         } catch (\Exception|\Error $e) {
             throw new \Exception('Module path not found: '.$moduleName.' '.$generatorPath);
         }
         Assert::string($res);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
@@ -248,6 +274,8 @@ class GetModulePathByGeneratorAction
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
 
         return $res;
     }

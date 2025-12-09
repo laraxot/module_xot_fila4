@@ -17,6 +17,7 @@ namespace Modules\Xot\Filament\Resources\CacheLockResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
@@ -28,10 +29,13 @@ use Override;
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
@@ -58,6 +62,8 @@ use Override;
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
 use Override;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
@@ -68,11 +74,59 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 >>>>>>> 5a14301c (.)
 
+<<<<<<< HEAD
+=======
+=======
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Filament\Tables\Columns\TextColumn;
+use Modules\Xot\Filament\Resources\CacheLockResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+<<<<<<< HEAD
+=======
+use Filament\Tables\Columns\TextColumn;
+use Modules\Xot\Filament\Resources\CacheLockResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+
+
+
+
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+>>>>>>> origin/develop
+
+
+
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 class ListCacheLocks extends XotBaseListRecords
 {
     protected static string $resource = CacheLockResource::class;
 
+<<<<<<< HEAD
     #[Override]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     public function getTableColumns(): array
     {
         return [
@@ -84,7 +138,27 @@ class ListCacheLocks extends XotBaseListRecords
                 ->searchable()
                 ->sortable()
                 ->wrap(),
+<<<<<<< HEAD
             'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
+=======
+            'expiration' => TextColumn::make('expiration')
+                ->numeric()
+                ->sortable(),
+>>>>>>> a12f125f4a (.)
+=======
+            'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
+>>>>>>> b93ef594b4 (.)
+=======
+            'expiration' => TextColumn::make('expiration')
+                ->numeric()
+                ->sortable(),
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         ];
     }
 }

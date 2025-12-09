@@ -33,6 +33,7 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Access level to Modules\<nome progetto>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
 =======
 Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
@@ -53,9 +54,13 @@ Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource
 Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
 >>>>>>> d86d643a (.)
 =======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> d86d643a (.)
+=======
 Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
 Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,6 +107,8 @@ Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource
 =======
 Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 ```
 
 esempio di errore:
@@ -225,6 +232,7 @@ $returnType = $parentMethod->getReturnType();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [regole di ereditarietà in php](/var/www/html/base_<nome progetto>/laravel/project_docs/standards/php-inheritance-rules.md)
 - [estensione pattern filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
 =======
@@ -255,6 +263,8 @@ $returnType = $parentMethod->getReturnType();
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
 - [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/docs/standards/php-inheritance-rules.md)
 - [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_extension_pattern.md)
 
@@ -266,6 +276,7 @@ $returnType = $parentMethod->getReturnType();
 - [regole di ereditarietà in php](/var/www/html/base_techplanner_fila3_mono/laravel/docs/standards/php-inheritance-rules.md)
 - [estensione pattern filament](../Xot/docs/filament_extension_pattern.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -314,3 +325,5 @@ $returnType = $parentMethod->getReturnType();
 - [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
 - [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)

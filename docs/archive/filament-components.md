@@ -112,6 +112,7 @@ DatePicker::make('field_name')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -195,6 +196,11 @@ DatePicker::make('field_name')
 * [FILAMENT_COMPONENTS.md](../../../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
 
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ## Correzione e regole per XotBaseManageRelatedRecords
 
 - Tutti i metodi pubblici devono avere tipizzazione forte e PHPDoc dettagliato.

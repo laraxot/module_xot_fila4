@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -36,6 +37,9 @@
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -260,6 +264,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -296,6 +301,9 @@ php artisan view:clear
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica

@@ -25,6 +25,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
@@ -41,6 +42,8 @@ use Symfony\Component\Process\Process;
 =======
 >>>>>>> d86d643a (.)
 =======
+>>>>>>> d86d643a (.)
+=======
 use Symfony\Component\Process\Process;
 >>>>>>> 0e51323 (.)
 =======
@@ -48,6 +51,7 @@ use Symfony\Component\Process\Process;
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -95,6 +99,8 @@ use Symfony\Component\Process\Process;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Cache;
@@ -224,6 +230,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e59778ae (.)
 =======
@@ -247,6 +254,8 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
@@ -271,6 +280,7 @@ class OptimizeFilamentMemoryCommand extends Command
         if ($analyzeOnly) {
             $this->displayAnalysisResults($issues);
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d86d643a (.)
@@ -351,6 +361,8 @@ class OptimizeFilamentMemoryCommand extends Command
             $this->displayAnalysisResults($issues);
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
             return self::SUCCESS;
         }
 
@@ -379,6 +391,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -387,6 +400,8 @@ class OptimizeFilamentMemoryCommand extends Command
 
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -399,6 +414,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 
@@ -458,6 +474,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
         $this->info('Prossimi passi:');
         $this->line('1. Testa i pannelli admin per verificare le performance');
         $this->line('2. Monitora i log per eventuali errori');
@@ -492,6 +510,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e59778ae (.)
 =======
@@ -543,6 +562,11 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
         
         $caches = [
             'config:clear' => 'Config cache',
@@ -556,6 +580,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 
@@ -636,6 +661,11 @@ class OptimizeFilamentMemoryCommand extends Command
             'config:clear' => 'Config cache',
             'route:clear' => 'Route cache',
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
             'view:clear' => 'View cache',
             'cache:clear' => 'Application cache',
         ];
@@ -677,6 +707,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -685,6 +716,8 @@ class OptimizeFilamentMemoryCommand extends Command
 
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -697,6 +730,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 
@@ -756,6 +790,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
         $issues = [
             'models_with_eager_loading' => $this->findModelsWithEagerLoading(),
             'heavy_widgets' => $this->findHeavyWidgets(),
@@ -800,6 +836,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -845,6 +882,10 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 =======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
         
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
@@ -993,6 +1034,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
 =======
@@ -1049,6 +1091,11 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
                     }
                 }
             }
@@ -1073,6 +1120,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -1081,6 +1129,8 @@ class OptimizeFilamentMemoryCommand extends Command
 
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -1093,6 +1143,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 
@@ -1152,6 +1203,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
         return $models;
     }
 
@@ -1184,6 +1237,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -1229,6 +1283,10 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 =======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
         
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
@@ -1266,6 +1324,7 @@ class OptimizeFilamentMemoryCommand extends Command
                 if (str_contains($content, '->get()') && 
                     !str_contains($content, '->limit(') &&
                     !str_contains($content, '->take(')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1380,6 +1439,11 @@ class OptimizeFilamentMemoryCommand extends Command
                     ! str_contains($content, '->limit(') &&
                     ! str_contains($content, '->take(')) {
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
                     $widgets[] = $file->getPathname();
                 }
             }
@@ -1404,6 +1468,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -1412,6 +1477,8 @@ class OptimizeFilamentMemoryCommand extends Command
 
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -1424,6 +1491,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 
@@ -1483,6 +1551,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
         return $widgets;
     }
 
@@ -1515,6 +1585,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e59778ae (.)
 =======
@@ -1567,6 +1638,11 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
         
         foreach ($files as $file) {
             if ($file->getExtension() === 'php' && str_contains($file->getPathname(), '/Resources/') && str_ends_with($file->getFilename(), 'Resource.php')) {
@@ -1581,6 +1657,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 
@@ -1668,6 +1745,11 @@ class OptimizeFilamentMemoryCommand extends Command
                 $content = File::get($file->getPathname());
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
                 // Cerca eager loading eccessivo
                 if (str_contains($content, '->with(') || str_contains($content, '->load(')) {
                     $resources[] = $file->getPathname();
@@ -1694,6 +1776,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -1702,6 +1785,8 @@ class OptimizeFilamentMemoryCommand extends Command
 
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -1714,6 +1799,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 
@@ -1773,6 +1859,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
         return $resources;
     }
 
@@ -1805,6 +1893,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -1850,6 +1939,10 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 =======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
         
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
@@ -1883,6 +1976,7 @@ class OptimizeFilamentMemoryCommand extends Command
                 // Cerca query di migrazione nei form
 <<<<<<< HEAD
                 if (str_contains($content, '->whereNull(') && 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1981,6 +2075,11 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
                 if (str_contains($content, '->whereNull(') &&
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
                     str_contains($content, '->update(') &&
                     str_contains($content, 'getFormSchema')) {
                     $forms[] = $file->getPathname();
@@ -2007,6 +2106,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -2015,6 +2115,8 @@ class OptimizeFilamentMemoryCommand extends Command
 
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -2027,6 +2129,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 
@@ -2086,6 +2189,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
         return $forms;
     }
 
@@ -2118,6 +2223,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -2163,6 +2269,10 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 =======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
         
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
@@ -2196,6 +2306,7 @@ class OptimizeFilamentMemoryCommand extends Command
                 // Cerca liste senza paginazione
 <<<<<<< HEAD
                 if (!str_contains($content, 'paginate') && !str_contains($content, 'simplePaginate')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2294,6 +2405,11 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
                 if (! str_contains($content, 'paginate') && ! str_contains($content, 'simplePaginate')) {
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
                     $resources[] = $file->getPathname();
                 }
             }
@@ -2318,6 +2434,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -2326,6 +2443,8 @@ class OptimizeFilamentMemoryCommand extends Command
 
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -2338,6 +2457,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 
@@ -2397,6 +2517,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
         return $resources;
     }
 
@@ -2423,6 +2545,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $issues
 =======
      * @param array<string, mixed> $issues
@@ -2431,6 +2554,8 @@ class OptimizeFilamentMemoryCommand extends Command
      * @param  array<string, mixed>  $issues
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -2443,6 +2568,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
      * @param  array<string, mixed>  $issues
@@ -2502,6 +2628,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
      * @param  array<string, mixed>  $issues
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
      */
     private function displayAnalysisResults(array $issues): void
     {
@@ -2529,6 +2657,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e59778ae (.)
 =======
@@ -2582,6 +2711,11 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
         
         foreach ($issues as $type => $items) {
             $count = is_array($items) ? count($items) : 0;
@@ -2597,6 +2731,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 
@@ -2691,6 +2826,11 @@ class OptimizeFilamentMemoryCommand extends Command
 
             $label = match ($type) {
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
                 'models_with_eager_loading' => 'Modelli con eager loading eccessivo',
                 'heavy_widgets' => 'Widget pesanti',
                 'unoptimized_resources' => 'Risorse non ottimizzate',
@@ -2718,6 +2858,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
@@ -2726,6 +2867,8 @@ class OptimizeFilamentMemoryCommand extends Command
 
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -2738,6 +2881,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 
@@ -2797,6 +2941,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
             if ($count > 0) {
                 $this->warn("⚠️  {$label}: {$count}");
             } else {
@@ -2825,6 +2971,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -2833,6 +2980,8 @@ class OptimizeFilamentMemoryCommand extends Command
 
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -2845,6 +2994,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 
@@ -2904,6 +3054,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
         if ($totalIssues > 0) {
             $this->error("🚨 Trovati {$totalIssues} problemi di performance");
             $this->line('Esegui senza --analyze per applicare le correzioni automatiche');
@@ -2935,6 +3087,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $issues
 =======
      * @param array<string, mixed> $issues
@@ -2943,6 +3096,8 @@ class OptimizeFilamentMemoryCommand extends Command
      * @param  array<string, mixed>  $issues
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -2955,6 +3110,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
      * @param  array<string, mixed>  $issues
@@ -3014,6 +3170,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
      * @param  array<string, mixed>  $issues
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
      */
     private function displayDetailedIssues(array $issues): void
     {
@@ -3023,6 +3181,7 @@ class OptimizeFilamentMemoryCommand extends Command
                 $this->warn("Dettagli {$type}:");
                 foreach ($items as $item) {
                     $itemString = is_string($item) ? $item : (string) $item;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3056,6 +3215,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 >>>>>>> d86d643a (.)
 =======
+>>>>>>> d86d643a (.)
+=======
                     $this->line("  - " . str_replace(base_path(), '', $itemString));
 >>>>>>> 0e51323 (.)
 =======
@@ -3063,6 +3224,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
                     $this->line('  - '.str_replace(base_path(), '', $itemString));
@@ -3122,6 +3284,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
                     $this->line('  - '.str_replace(base_path(), '', $itemString));
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
                 }
             }
         }
@@ -3150,6 +3314,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $issues
 =======
      * @param array<string, mixed> $issues
@@ -3158,6 +3323,8 @@ class OptimizeFilamentMemoryCommand extends Command
      * @param  array<string, mixed>  $issues
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -3170,6 +3337,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
      * @param  array<string, mixed>  $issues
@@ -3229,6 +3397,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
      * @param  array<string, mixed>  $issues
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
      */
     private function applyOptimizations(array $issues, bool $verbose = false): void
     {
@@ -3253,6 +3423,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -3298,6 +3469,10 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 =======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
         
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
@@ -3324,6 +3499,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 =======
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3444,6 +3620,11 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
         $this->info('✅ Ottimizzazioni applicate');
     }
 
@@ -3473,6 +3654,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -3481,6 +3663,8 @@ class OptimizeFilamentMemoryCommand extends Command
 
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -3493,6 +3677,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 
@@ -3552,6 +3737,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
         Artisan::call('config:cache');
         Artisan::call('route:cache');
         Artisan::call('view:cache');
@@ -3583,6 +3770,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -3591,6 +3779,8 @@ class OptimizeFilamentMemoryCommand extends Command
 
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -3603,6 +3793,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 
@@ -3662,6 +3853,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
         // Ottimizza le tabelle MySQL se possibile
         try {
             if (config('database.default') === 'mysql') {
@@ -3699,6 +3892,7 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -3707,6 +3901,8 @@ class OptimizeFilamentMemoryCommand extends Command
 
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> d86d643a (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -3719,6 +3915,7 @@ class OptimizeFilamentMemoryCommand extends Command
 >>>>>>> a5dccfe (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 
@@ -3778,6 +3975,8 @@ class OptimizeFilamentMemoryCommand extends Command
 =======
 
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
         $process = new Process(['composer', 'dump-autoload', '--optimize']);
         $process->setWorkingDirectory(base_path());
         $process->run();

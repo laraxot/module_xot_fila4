@@ -133,6 +133,7 @@ Se trovi codice che viola questa regola:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
 =======
@@ -233,3 +234,9 @@ Se trovi codice che viola questa regola:
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> d86d643a (.)

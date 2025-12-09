@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -20,6 +21,8 @@
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
 # Prompt di Documentazione
 
 ## Panoramica
@@ -84,6 +87,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 =======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
@@ -109,6 +113,9 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
 
 ### Formato Corretto
 ```markdown
@@ -135,6 +142,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -143,10 +151,13 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +191,8 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
 ```
 
 ### Checklist di Validazione
@@ -253,6 +266,7 @@ con collegamenti bidirezionali...
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 43d67f21 (.)
 =======
@@ -273,3 +287,5 @@ con collegamenti bidirezionali...
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)

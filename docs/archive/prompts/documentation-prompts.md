@@ -69,6 +69,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 <<<<<<< HEAD
 =======
@@ -89,9 +90,13 @@ Questo documento descrive le regole e le best practices per i prompt di document
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> d86d643a (.)
 =======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,6 +143,8 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 
 ### Formato Corretto
 ```markdown
@@ -167,6 +174,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
@@ -237,12 +245,18 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
 >>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ```
 
 ### Formato Non Corretto
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,10 +304,13 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
 [Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -315,6 +332,8 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 >>>>>>> d86d643a (.)
 =======
+>>>>>>> d86d643a (.)
+=======
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
@@ -323,6 +342,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379,6 +399,8 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/project_docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 ```
 
 ### Checklist di Validazione

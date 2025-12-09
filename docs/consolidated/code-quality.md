@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -33,6 +34,9 @@
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -119,6 +123,7 @@ This document outlines the best practices for maintaining high code quality with
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -156,6 +161,9 @@ This document outlines the best practices for maintaining high code quality with
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -408,6 +416,7 @@ $content = \file_get_contents($path); // Può restituire false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -472,6 +481,12 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 399f46d3 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 
@@ -586,6 +601,7 @@ unset($translations['existing_key']); // MAI!
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
 =======
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
@@ -650,6 +666,12 @@ unset($translations['existing_key']); // MAI!
 =======
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 >>>>>>> 399f46d3 (.)
+=======
+**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+=======
+**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 
 ---
 

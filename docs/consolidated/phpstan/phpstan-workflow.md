@@ -154,6 +154,7 @@ class MyModel extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -175,6 +176,9 @@ class MyModel extends BaseModel
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
 ## Struttura del Progetto e Workflow
 
 ### Architettura Modulare
@@ -194,6 +198,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 4. **Testing**: Verificare che le correzioni non rompano funzionalità
 5. **Commit**: Commit atomici per gruppi di correzioni
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,6 +242,9 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 2. **Approccio Efficiente**
    - Identificare pattern comuni di errori
    - Correggere tutti gli errori dello stesso tipo in una volta
@@ -282,6 +290,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -307,6 +316,10 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+   - Mantenere coerenza tra le diverse documentazioni 
+=======
+>>>>>>> d86d643a (.)
    - Mantenere coerenza tra le diverse documentazioni 
 ## Collegamenti tra versioni di PHPSTAN_WORKFLOW.md
 * [PHPSTAN_WORKFLOW.md](../../../Xot/project_docs/phpstan/PHPSTAN_WORKFLOW.md)
@@ -326,6 +339,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 
 
    - Mantenere coerenza tra le diverse documentazioni 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385,3 +399,6 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 =======
    - Mantenere coerenza tra le diverse documentazioni 
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

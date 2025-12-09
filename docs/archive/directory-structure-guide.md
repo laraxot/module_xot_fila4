@@ -121,3 +121,7 @@ Per correggere automaticamente la struttura delle directory, utilizza lo script 
 2. **Autoloading Corretto**: Il PSR-4 autoloader è configurato per cercare le classi in `app/`
 3. **Compatibilità con PHPStan**: Evita errori di classi non trovate durante l'analisi statica
 4. **Manutenibilità**: Struttura coerente e prevedibile per tutti i moduli
+<<<<<<< HEAD
+=======
+5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
+>>>>>>> a5dccfe (.)

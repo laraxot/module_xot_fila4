@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -204,6 +205,8 @@ public function process(\Modules\User\Models\User $user) {
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -936,6 +939,7 @@ public function createModel(array $data): MioModello
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -967,3 +971,5 @@ public function createModel(array $data): MioModello
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)

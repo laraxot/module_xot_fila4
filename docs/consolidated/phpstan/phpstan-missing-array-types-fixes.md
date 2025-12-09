@@ -3,14 +3,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
 # PHPStan Missing Array Types Fixes - Modulo Xot
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,6 +158,9 @@
 =======
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 >>>>>>> 76bec91a (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> cc52d333 (.)
 
 ## Problema Identificato
 
@@ -416,6 +423,7 @@ Le correzioni implementate risolvono sistematicamente tutti gli errori `missingT
 **Stato**: 🔄 In Corso - Priorità Alta Completata
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -426,3 +434,5 @@ Le correzioni implementate risolvono sistematicamente tutti gli errori `missingT
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PHPStan Config Immutability (Global Project Rule)
 
 <<<<<<< HEAD
@@ -154,6 +155,11 @@
 =======
 - File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 >>>>>>> 76bec91a (.)
+=======
+# PHPStan Config Immutability (Global Project Rule)
+
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> cc52d333 (.)
 - Status: IMMUTABLE — never modify this file via automation or PRs. Only the user may edit it manually.
 
 ## Rationale
@@ -185,6 +191,7 @@ find Modules -maxdepth 2 -type d -name app ! -path 'Modules/Activity/*' -print0 
 - `.windsurf/rules/phpstan-config-immutability.mdc`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -195,3 +202,5 @@ find Modules -maxdepth 2 -type d -name app ! -path 'Modules/Activity/*' -print0 
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)

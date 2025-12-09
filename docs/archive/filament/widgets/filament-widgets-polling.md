@@ -3,10 +3,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
 # Polling nei Widget Filament
 
 Questo documento descrive come implementare il polling automatico nei widget Filament utilizzando il trait `CanPoll` nel progetto il progetto.
@@ -165,6 +168,7 @@ Questa funzionalità è compatibile con:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,3 +284,6 @@ Questa funzionalità è compatibile con:
 =======
 - [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
 >>>>>>> 76bec91a (.)
+=======
+- [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
+>>>>>>> cc52d333 (.)

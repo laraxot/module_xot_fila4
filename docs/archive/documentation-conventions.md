@@ -3,10 +3,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
 # Convenzioni per la documentazione in Laraxot PTVX
 
 ## Convenzioni di naming
@@ -68,6 +71,7 @@
 ### Collegamenti bidirezionali
 1. **Da modulo a root**: Ogni documento in un modulo deve linkare alla documentazione root correlata:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196,10 +200,14 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
    Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
 >>>>>>> 76bec91a (.)
+=======
+   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
+>>>>>>> cc52d333 (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,6 +336,9 @@ Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_docu
 =======
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
 >>>>>>> 76bec91a (.)
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
+>>>>>>> cc52d333 (.)
    ```
 
 ## Manutenzione della documentazione
@@ -363,6 +374,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 
 ## Collegamenti a documentazione correlata
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -496,11 +508,14 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
 - [Documentazione generale](../../../project_docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -557,3 +572,6 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 =======
 *Ultimo aggiornamento: Giugno 2025*
 >>>>>>> e0b8ebe3 (.)
+=======
+*Ultimo aggiornamento: Giugno 2025*
+>>>>>>> cc52d333 (.)

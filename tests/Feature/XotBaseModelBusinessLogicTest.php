@@ -13,13 +13,22 @@ namespace Modules\Xot\Tests\Feature;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
 <<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
+=======
+>>>>>>> cc52d333 (.)
 use Illuminate\Database\ConnectionInterface;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\ConnectionInterface;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
@@ -60,6 +69,30 @@ use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
 use Modules\Xot\Models\XotBaseModel;
 use Tests\TestCase;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+use Modules\Xot\Models\XotBaseModel;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\Module;
+use Modules\Xot\Models\XotBaseModel;
+use Tests\TestCase;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 class XotBaseModelBusinessLogicTest extends TestCase
 {
@@ -718,7 +751,15 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
         // Assert
         $this->assertNotNull($connection);
+<<<<<<< HEAD
         $this->assertInstanceOf(ConnectionInterface::class, $connection);
+=======
+<<<<<<< HEAD
+        $this->assertInstanceOf(ConnectionInterface::class, $connection);
+=======
+        $this->assertInstanceOf(\Illuminate\Database\ConnectionInterface::class, $connection);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     }
 
     /** @test */
@@ -1402,6 +1443,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b7afadf9 (.)
 =======
@@ -1442,6 +1484,8 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> cafe8bed (.)
 =======
 =======
+>>>>>>> cc52d333 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1454,6 +1498,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
@@ -1466,3 +1511,5 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> d79d36e0 (.)
 =======
 >>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> cc52d333 (.)

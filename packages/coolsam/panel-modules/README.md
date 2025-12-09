@@ -60,6 +60,7 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -286,6 +287,9 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 **NB: These docs are for v3, which only supports Filament 3. If you are using Filament
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> b956ebe0 (.)
 v2, [see the documentation here](https://github.com/savannabits/filament-modules/tree/main#readme) to get started.**
 
 For example, if you have two modules (**Blog** and **Pos**), you should be able to have filament installed in each module with separate resources as below:

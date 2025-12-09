@@ -44,16 +44,11 @@ Questo documento serve come indice centrale per tutta la documentazione del prog
 
 ## Linee Guida Generali
 Le linee guida complete per la documentazione sono disponibili in:
-<<<<<<< HEAD
 - [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
-=======
-- [Linee Guida per la Documentazione](../../../Xot/project_docs/guidelines/documentation.md)
->>>>>>> 6cba4fe (.)
 
 ## Documentazione per Modulo
 
 ### Core
-<<<<<<< HEAD
 - [Xot Module](../../../Xot/docs/README.md)
 - [UI Module](../../../UI/docs/README.md)
 - [CMS Module](../../../Cms/docs/README.md)
@@ -80,6 +75,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 - [Changelog](../../../Xot/docs/changelog/README.md)
 - [Contributing](../../../Xot/docs/contributing.md)
 - [Security](../../../Xot/docs/security.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,3 +213,5 @@ Le linee guida complete per la documentazione sono disponibili in:
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)

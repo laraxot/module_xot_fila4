@@ -9,7 +9,6 @@
 >>>>>>> 5bd842e3 (.)
 # Testing Best Practices - Laraxot Framework
 
-<<<<<<< HEAD
 ## 🏆 **Gold Standard Pattern**
 
 Basato sui successi misurabili dei test RegisterTypeWidgetTest.php (9/9 test passati) e RegisterTypeTest.php (10/14 test passati).
@@ -30,6 +29,7 @@ use Modules\{Module}\Filament\Widgets\{WidgetName};
 uses(\Modules\Xot\Tests\TestCase::class);
 
 // ✅ CRITICO: Mock XotData per ogni test
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249,21 +249,19 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
 beforeEach(function (): void {
     mockXotData();
 });
 
-<<<<<<< HEAD
 // ✅ CRITICO: Test diretti senza describe() o dataset()
-=======
->>>>>>> 6cba4fe (.)
 test('widget can be rendered', function () {
     Livewire::test({WidgetName}::class)
         ->assertStatus(200);
 });
 ```
 
-<<<<<<< HEAD
 ### XotData Mock Pattern (Obbligatorio)
 
 ```php
@@ -663,6 +661,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 >>>>>>> 3bf39332 (.)
 =======
 **Last Update**: Dicembre 2024 
+<<<<<<< HEAD
 =======
 >>>>>>> e0b8ebe3 (.)
 ### Esempio unit test semplice
@@ -916,3 +915,5 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)

@@ -332,9 +332,9 @@ class User extends Model {
 
 ## 5. Collegamenti
 - [.windsurf/rules/model-states.mdc](../../../.windsurf/rules/model-states.mdc)
-<<<<<<< HEAD
 - https://github.com/spatie/laravel-model-states
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -440,6 +440,8 @@ class User extends Model {
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
 - https://github.com/spatie/laravel-model-states
 

@@ -4,12 +4,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
 # Linee Guida per i Database in Laraxot
 
 Questo documento definisce le best practices per la gestione dei database nel framework Laraxot, inclusa la documentazione, la creazione di modelli e le migrazioni.
@@ -511,6 +514,7 @@ php artisan db:analyze-usage --connection=nome_connessione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -545,3 +549,5 @@ php artisan db:analyze-usage --connection=nome_connessione
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)

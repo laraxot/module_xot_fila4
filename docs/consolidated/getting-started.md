@@ -4,12 +4,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
 ---
 title: Getting Started
 description: Getting started with Jigsaw's docs starter template is as easy as 1, 2, 3.
@@ -85,6 +88,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 ./vendor/bin/jigsaw build
 
 # compile assets with Laravel Mix
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,10 +202,13 @@ npm run dev
 >>>>>>> e7da37af (.)
 =======
 >>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 90d386aa (.)
 
 # options: dev, prod
 npm run dev
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +262,8 @@ npm run dev
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
 
 ### Versione HEAD
 
@@ -272,6 +281,7 @@ npm run dev
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,3 +329,5 @@ npm run dev
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)

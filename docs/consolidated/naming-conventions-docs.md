@@ -4,12 +4,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
 # Convenzioni di Naming nella Documentazione
 
 ## Regola: Nome del Progetto nei Moduli
@@ -85,6 +88,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 ## Collegamenti
 - [Struttura Moduli](module-structure.md)
 - [Convenzioni Generali](conventions.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,3 +220,5 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> e7da37af (.)
 =======
 >>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 90d386aa (.)

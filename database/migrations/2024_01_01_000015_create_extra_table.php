@@ -33,6 +33,14 @@ return new class extends XotBaseMigration {
     public function up(): void
     {
         // -- CREATE --
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
         $this->tableCreate(static function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -52,6 +60,10 @@ return new class extends XotBaseMigration {
             $table->schemalessAttributes('extra_attributes');
             $table->unique(['model_id', 'model_type'], 'morph_unique');
         });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
@@ -89,5 +101,71 @@ return new class extends XotBaseMigration {
     }
 
     // end up
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        $this->tableCreate(
+            static function (Blueprint $table): void {
+                $table->increments('id');
+                $table->uuidMorphs('model');
+                $table->schemalessAttributes('extra_attributes');
+                $table->unique(['model_id', 'model_type'], 'morph_unique');
+            }
+        );
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+
+        // -- UPDATE --
+        $this->tableUpdate(function (Blueprint $table): void {
+            // if (! $this->hasColumn('name')) {
+            //    $table->string('name')->nullable();
+            // }
+            $this->updateTimestamps(
+                table: $table,
+                hasSoftDeletes: true,
+            );
+            // if (! $this->hasIndex('morph_unique')) {
+            //    $table->unique(['model_id', 'model_type'], 'morph_unique');
+            // }
+
+            if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
+                $table->string('model_id', 36)->index()->change();
+            }
+        });
+    }
+
+    // end up
+<<<<<<< HEAD
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+        // -- UPDATE --
+        $this->tableUpdate(
+            function (Blueprint $table): void {
+                // if (! $this->hasColumn('name')) {
+                //    $table->string('name')->nullable();
+                // }
+                $this->updateTimestamps(table: $table, hasSoftDeletes: true);
+                // if (! $this->hasIndex('morph_unique')) {
+                //    $table->unique(['model_id', 'model_type'], 'morph_unique');
+                // }
+
+                if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
+                    $table->string('model_id', 36)->index()->change();
+                }
+            }
+        );
+    }
+
+    // end up
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     // end down
 };

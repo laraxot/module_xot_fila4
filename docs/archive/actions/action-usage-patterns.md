@@ -4,12 +4,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
 # Action Usage Patterns - Regole Fondamentali
 
 ## 🎯 **REGOLA CRITICA: Pattern di Uso delle Action**
@@ -107,6 +110,7 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 
 ## 📖 **RIFERIMENTI**
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,6 +271,10 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 - [Laravel Service Container](https://laravel.com/project_docs/container)
 - [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
 >>>>>>> 55fe1822 (.)
+=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> 90d386aa (.)
 - [Spatie QueueableAction](https://github.com/spatie/laravel-queueable-action)
 
 ---
@@ -274,6 +282,7 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 **PRIORITÀ**: CRITICA - Da seguire SEMPRE senza eccezioni
 **AGGIORNATO**: 2025-01-30
 **AUTORE**: Sistema di Qualità Laraxot
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,3 +330,5 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)

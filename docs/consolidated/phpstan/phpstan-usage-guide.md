@@ -4,12 +4,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
 # Guida all'Utilizzo di PHPStan nel Framework Laraxot <nome progetto>
 
 ## Introduzione
@@ -280,6 +283,7 @@ cd /percorso/al/progetto/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ``` 
 <<<<<<< HEAD
 =======
@@ -382,3 +386,5 @@ cd /percorso/al/progetto/laravel
 >>>>>>> e7da37af (.)
 =======
 >>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 90d386aa (.)

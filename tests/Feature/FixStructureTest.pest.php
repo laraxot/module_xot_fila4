@@ -18,10 +18,7 @@ use Modules\Xot\Tests\TestCase;
 use Modules\Xot\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
-<<<<<<< HEAD
 
-=======
->>>>>>> c06600c (.)
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
 <<<<<<< HEAD
@@ -697,6 +694,7 @@ test('handles errors gracefully', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 17684f52 (.)
@@ -1008,3 +1006,6 @@ test('handles errors gracefully', function () {
 });
 >>>>>>> c06600c (.)
 >>>>>>> 14edd1a1 (.)
+=======
+});
+>>>>>>> 16dc7ab0 (.)

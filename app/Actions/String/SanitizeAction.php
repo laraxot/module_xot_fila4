@@ -189,6 +189,7 @@ class SanitizeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 43d67f21 (.)
 =======
@@ -229,6 +230,8 @@ class SanitizeAction
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
 
         $replaced = preg_replace('/\s+/', ' ', $str);
         $str = is_string($replaced) ? $replaced : $str;
@@ -246,6 +249,7 @@ class SanitizeAction
             $afterStr = Str::after($str, '-');
             // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
             $str = $this->execute($afterStr);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -447,6 +451,8 @@ class SanitizeAction
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
         }
 
         return $str;

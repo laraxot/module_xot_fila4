@@ -13,10 +13,6 @@ return [
                 'group' => 'Configurações',
                 'label' => 'Saúde da aplicação',
             ],
-<<<<<<< HEAD
-
-=======
->>>>>>> f1570712 (.)
             'notifications' => [
                 'check_results' => 'Ver resultados de verificação',
             ],

@@ -12,32 +12,6 @@ $middleware = [
 
 Route::middleware($middleware)
     ->namespace($namespace)
-<<<<<<< HEAD
     ->group(static function (): void {
         Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
     });
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    ->group(static function (): void {
-        Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
-    });
-=======
-=======
->>>>>>> origin/develop
-    ->group(
-        static function (): void {
-            Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
-        }
-    );
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    ->group(static function (): void {
-        Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
-    });
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)

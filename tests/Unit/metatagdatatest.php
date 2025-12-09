@@ -482,7 +482,7 @@ use Modules\Xot\Datas\MetatagData;
  * Test che la classe MetatagData possa essere istanziata correttamente.
  * Questo test verifica che la classe possa essere istanziata senza errori.
  */
-test('MetatagData può essere istanziata', function () {
+test('MetatagData può essere istanziata', function (): void {
     $metatagData = new MetatagData;
     expect($metatagData)->toBeInstanceOf(MetatagData::class);
 });
@@ -492,7 +492,7 @@ test('MetatagData può essere istanziata', function () {
  * Questo test verifica che il metodo getFilamentColors() restituisca un array
  * con i colori Filament corretti.
  */
-test('getFilamentColors restituisce i colori Filament corretti', function () {
+test('getFilamentColors restituisce i colori Filament corretti', function (): void {
     $metatagData = new MetatagData;
     $colors = $metatagData->getFilamentColors();
 
@@ -1155,7 +1155,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
  * Questo test verifica che il metodo getColors() gestisca correttamente i colori
  * personalizzati quando l'array colors contiene valori personalizzati.
  */
-test('getColors gestisce correttamente i colori personalizzati', function () {
+test('getColors gestisce correttamente i colori personalizzati', function (): void {
     $metatagData = new MetatagData;
     $metatagData->colors = [
         'custom_color' => [
@@ -2325,7 +2325,7 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
  * Questo test verifica che il metodo getLogoHeight() restituisca il valore
  * della proprietà logo_height.
  */
-test('getLogoHeight restituisce il valore corretto', function () {
+test('getLogoHeight restituisce il valore corretto', function (): void {
     $metatagData = new MetatagData;
     $metatagData->logo_height = '3em';
 
@@ -2337,7 +2337,7 @@ test('getLogoHeight restituisce il valore corretto', function () {
  * Questo test verifica che le proprietà della classe abbiano i valori di default
  * corretti quando viene istanziata la classe.
  */
-test('Le proprietà hanno i valori di default corretti', function () {
+test('Le proprietà hanno i valori di default corretti', function (): void {
     $metatagData = new MetatagData;
 
 <<<<<<< HEAD

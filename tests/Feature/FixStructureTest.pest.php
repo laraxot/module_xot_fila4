@@ -34,7 +34,7 @@ use function Pest\Laravel\assertDatabaseHas;
 
 uses(TestCase::class);
 
-beforeEach(function () {
+beforeEach(function (): void {
     // Create a temporary directory for testing
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,7 +143,7 @@ beforeEach(function () {
     chdir($this->testDir);
 });
 
-afterEach(function () {
+afterEach(function (): void {
     // Clean up the test directory
     $this->rrmdir($this->testDir);
 });
@@ -396,7 +396,7 @@ function rrmdir($dir) {
     }
 }
 
-test('creates necessary directories and files', function () {
+test('creates necessary directories and files', function (): void {
     // Run the command
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 
@@ -468,7 +468,7 @@ test('creates necessary directories and files', function () {
     }
 });
 
-test('does not overwrite existing files', function () {
+test('does not overwrite existing files', function (): void {
     // Create a test file that should not be overwritten
     $testContent = 'Test content';
 <<<<<<< HEAD
@@ -497,7 +497,7 @@ test('does not overwrite existing files', function () {
     $this->assertStringEqualsFile($testFile, $testContent);
 });
 
-test('handles errors gracefully', function () {
+test('handles errors gracefully', function (): void {
     // Make a directory non-writable to test error handling
 <<<<<<< HEAD
 <<<<<<< HEAD

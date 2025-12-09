@@ -138,7 +138,7 @@ it('throws if record has no email', function (): void {
             return null;
         }
 
-        public function myLogs()
+        public function myLogs(): object
         {
 <<<<<<< HEAD
 <<<<<<< HEAD

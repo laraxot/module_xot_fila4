@@ -432,12 +432,15 @@ SQLSTATE[23000]: Integrity constraint violation
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 #### **Soluzioni**
 
 **Utilizzare RefreshDatabase**
@@ -457,6 +460,7 @@ class MioModelloTest extends XotBaseTestCase
 }
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -464,6 +468,8 @@ class MioModelloTest extends XotBaseTestCase
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
 **Verificare Migrazioni**
 ```bash

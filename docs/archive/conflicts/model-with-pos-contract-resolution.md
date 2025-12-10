@@ -78,6 +78,7 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -222,9 +223,12 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> d86d643a (.)
+=======
 
 
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 =======
@@ -235,6 +239,8 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 
 
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
 ## Approccio alla Risoluzione
 
 La risoluzione seguirà questi principi:
@@ -359,6 +365,7 @@ Questa risoluzione garantisce:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 =======
 =======
@@ -392,11 +399,14 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 =======
 <<<<<<< HEAD
 >>>>>>> 6d05deed (.)
+=======
+>>>>>>> d86d643a (.)
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 
 =======
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -498,3 +508,5 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 =======
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../project_docs/logs/conflict_resolution_progress.md). 
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)

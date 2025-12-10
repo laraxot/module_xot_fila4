@@ -113,6 +113,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 <<<<<<< HEAD
 =======
@@ -144,11 +145,14 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 6d05deed (.)
+=======
+>>>>>>> d86d643a (.)
 Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 
 =======
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +248,8 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
    Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
@@ -281,6 +287,7 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 <<<<<<< HEAD
 =======
@@ -312,11 +319,14 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
 <<<<<<< HEAD
 >>>>>>> 6d05deed (.)
+=======
+>>>>>>> d86d643a (.)
 Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 
 =======
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +422,8 @@ Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_docu
 =======
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
    ```
 
 ## Manutenzione della documentazione
@@ -482,6 +494,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -568,6 +581,11 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 - [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
 >>>>>>> 55fe1822 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
 <<<<<<< HEAD

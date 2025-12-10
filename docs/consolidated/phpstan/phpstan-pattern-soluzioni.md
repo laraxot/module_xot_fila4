@@ -333,6 +333,7 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -387,6 +388,10 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 >>>>>>> 6d05deed (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+=======
+>>>>>>> d86d643a (.)
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 ## Collegamenti tra versioni di PHPSTAN_PATTERN_SOLUZIONI.md
 * [PHPSTAN_PATTERN_SOLUZIONI.md](../../../Xot/project_docs/phpstan/PHPSTAN_PATTERN_SOLUZIONI.md)
@@ -405,6 +410,7 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 ---
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
@@ -533,3 +539,7 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 =======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 >>>>>>> 399f46d3 (.)
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)

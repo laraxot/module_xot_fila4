@@ -778,6 +778,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<nome progetto> Testing Guidelines](../../../docs/testing.md)
 =======
 =======
@@ -1014,7 +1015,12 @@ test('no memory leaks in repeated operations', function (): void {
 - [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
 =======
 >>>>>>> 6cba4fe (.)
+=======
+>>>>>>> d86d643a (.)
 - [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
+=======
+- [<nome progetto> Testing Guidelines](../../../docs/testing.md)
+>>>>>>> a5dccfe (.)
 - [Cms Testing Guidelines](../../Cms/docs/testing.md)
 >>>>>>> 03ceeac3 (.)
 =======

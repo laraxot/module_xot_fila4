@@ -46,6 +46,9 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fe347873 (.)
 =======
 >>>>>>> fe347873 (.)
 - Modules/<main module>/app/Filament/Resources/UserResource.php
@@ -56,6 +59,7 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 ## Esempio errato
 - Modules/<main module>/Filament/Resources/UserResource.php
 - Modules/<main module>/Enums/UserType.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -246,6 +250,8 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> fe347873 (.)
 
 Questa regola garantisce coerenza, manutenibilità e rispetto delle convenzioni PSR-4 e delle best practice del progetto.
 
@@ -330,6 +336,7 @@ class User extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
 =======
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
@@ -445,6 +452,9 @@ class User extends Model {
 =======
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
 >>>>>>> 76bec91a (.)
+=======
+- [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
+>>>>>>> fe347873 (.)
 - https://github.com/spatie/laravel-model-states
 
 ---
@@ -522,12 +532,16 @@ class User extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fe347873 (.)
 =======
 >>>>>>> fe347873 (.)
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
 - https://github.com/spatie/laravel-model-states
 
 [← Torna a <main module>/docs](../../<main module>/docs/uso-label-filament.mdc)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -762,6 +776,8 @@ class User extends Model {
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> fe347873 (.)
 
 # Regola sui Path dei File di Codice nei Moduli Laravel
 
@@ -810,12 +826,16 @@ Tutti i file di codice (Actions, Models, Controllers, ecc.) dei moduli Laravel D
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fe347873 (.)
 =======
 >>>>>>> fe347873 (.)
 Modules/<main module>/app/Actions/Patient/Calendar/FetchEventsAction.php
 
 // Errato
 Modules/<main module>/Actions/Patient/Calendar/FetchEventsAction.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -990,6 +1010,8 @@ Modules/SaluteOra/Actions/Patient/Calendar/FetchEventsAction.php
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> fe347873 (.)
 ```
 
 ## Collegamenti
@@ -1064,6 +1086,7 @@ final class FetchEventsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Vedi anche: [<main module>/docs/queueable-actions-guide.md](../../<main module>/docs/queueable-actions-guide.md)
 =======
 =======
@@ -1239,6 +1262,9 @@ Vedi anche: [<nome progetto>/docs/queueable-actions-guide.md](../../../docs/queu
 =======
 Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
 >>>>>>> 76bec91a (.)
+=======
+Vedi anche: [<main module>/docs/queueable-actions-guide.md](../../<main module>/docs/queueable-actions-guide.md)
+>>>>>>> fe347873 (.)
 
 # Regola Namespace per Actions
 
@@ -1277,6 +1303,7 @@ Esempio:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<main module>\Actions\Patient\Calendar;
 =======
 namespace Modules\SaluteOra\Actions\Patient\Calendar;
@@ -1287,12 +1314,15 @@ namespace Modules\<main module>\Actions\Patient\Calendar;
 =======
 namespace Modules\SaluteOra\Actions\Patient\Calendar;
 >>>>>>> 53d6a6ba (.)
+=======
+namespace Modules\<main module>\Actions\Patient\Calendar;
+>>>>>>> fe347873 (.)
 // Errato
 namespace Modules\SaluteOra\App\Actions\Patient\Calendar;
 ```
 
-<<<<<<< HEAD
 Vedi anche: <main module>/docs/directory-structure.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1465,3 +1495,5 @@ Vedi anche: SaluteOra/docs/directory-structure.md
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> fe347873 (.)

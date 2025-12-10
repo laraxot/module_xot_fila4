@@ -527,6 +527,20 @@ trait HasExtraTrait
         throw new Exception('['.__LINE__.']['.__CLASS__.']');
 >>>>>>> 71586de2 (.)
 =======
+<<<<<<< HEAD
+=======
+        if (\is_array($value)) {
+            // PHPStan: Cast to ensure array<string, mixed> type
+            /** @var array<string, mixed> $value */
+            return $value;
+        }
+
+        if ($value === null || \is_bool($value) || \is_string($value)) {
+            return $value;
+        }
+
+        if (\is_int($value) || \is_float($value)) {
+>>>>>>> fe347873 (.)
             return $value;
         }
 <<<<<<< HEAD

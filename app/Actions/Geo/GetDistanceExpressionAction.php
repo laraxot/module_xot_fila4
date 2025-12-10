@@ -124,6 +124,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -706,6 +707,12 @@ use Spatie\QueueableAction\QueueableAction;
 =======
  *
 >>>>>>> 43d67f21 (.)
+=======
+ *
+=======
+ * 
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
  * Questa action centralizza la logica di generazione dell'espressione SQL
  * per il calcolo della distanza tra due punti geografici.
  */
@@ -1175,6 +1182,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
@@ -1347,6 +1355,8 @@ class GetDistanceExpressionAction
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
     public function execute(
         float $latitude,
         float $longitude,
@@ -1364,6 +1374,7 @@ class GetDistanceExpressionAction
 
         if (null !== $alias) {
             $sql .= " AS {$alias}";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1674,6 +1685,11 @@ class GetDistanceExpressionAction
     public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
     {
 >>>>>>> d86d643a (.)
+=======
+=======
+    public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
+    {
+>>>>>>> e59778ae (.)
         $sql = "
             (6371 * acos(
                 cos(radians($latitude)) *
@@ -1686,6 +1702,7 @@ class GetDistanceExpressionAction
         
         if (null !== $alias) {
             $sql .= " AS $alias";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2036,10 +2053,14 @@ class GetDistanceExpressionAction
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
         }
 
         return DB::raw($sql);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2730,3 +2751,9 @@ class GetDistanceExpressionAction
 =======
 }
 >>>>>>> 43d67f21 (.)
+=======
+}
+=======
+} 
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)

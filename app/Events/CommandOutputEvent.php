@@ -63,6 +63,9 @@ class CommandOutputEvent implements ShouldBroadcast
 =======
 >>>>>>> 091f883c (.)
 
+    /**
+     * @return array<string, mixed>
+     */
     public function broadcastOn(): array
     {
         return [
@@ -75,6 +78,9 @@ class CommandOutputEvent implements ShouldBroadcast
         return 'CommandOutput';
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function broadcastWith(): array
     {
         return [

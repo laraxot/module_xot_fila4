@@ -234,10 +234,16 @@ class MainDashboard extends XotBaseDashboard
     public function mount(): void
     {
         Assert::notNull($user = auth()->user(), '['.__LINE__.']['.class_basename($this).']');
-        $modules = $user->roles->filter(static fn ($item) => Str::endsWith($item->name, '::admin'));
+        /** @var \Modules\Fixcity\Models\User $user */
+        $user = $user;
+        /** @var \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles */
+        $roles = $user->roles;
+        $modules = $roles->filter(static fn (\Modules\User\Models\Role $item) => Str::endsWith($item->name, '::admin'));
 
         if ($modules->count() === 1) {
             Assert::notNull($module_first = $modules->first(), '['.__LINE__.']['.class_basename($this).']');
+            /** @var \Modules\User\Models\Role $module_first */
+            $module_first = $module_first;
             $panel_name = $module_first->name;
             $module_name = Str::before($panel_name, '::admin');
             $url = '/'.$module_name.'/admin';

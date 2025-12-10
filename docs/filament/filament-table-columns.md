@@ -5,7 +5,7 @@ Questa pagina raccoglie la regola e i collegamenti per l’adozione del metodo `
 
 ## Regola
 - **Usare sempre:** `getTableColumns`
-- **Non usare più:** `getListTableColumns`
+- **Non usare più:** `getTableColumns`
 
 ## Motivazione
 - Uniformità con lo standard Filament

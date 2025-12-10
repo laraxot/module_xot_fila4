@@ -39,6 +39,7 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
  * @property int $expiration
  *
+<<<<<<< HEAD
  * @method static CacheLockFactory factory($count = null, $state = [])
 <<<<<<< HEAD
 =======
@@ -187,6 +188,8 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
  * @mixin IdeHelperCacheLock
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
  * @mixin \Eloquent
  */
 class CacheLock extends BaseModel

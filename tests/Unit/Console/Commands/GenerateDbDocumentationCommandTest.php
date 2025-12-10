@@ -15,6 +15,7 @@ use function Safe\json_encode;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
+<<<<<<< HEAD
 >>>>>>> 249a0067 (.)
 =======
 ========
@@ -38,16 +39,15 @@ use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
 
 uses(TestCase::class);
 
-<<<<<<< HEAD:tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.php
 /**
  * @property string $testSchemaPath
  * @property string $testOutputDir
  */
-=======
->>>>>>> eeaa032 (.):tests/Unit/Console/Commands/generatedbdocumentationcommandtest.pest.php
 beforeEach(function (): void {
     $this->testSchemaPath = storage_path('tests/schema.json');
     $this->testOutputDir = storage_path('tests/docs');

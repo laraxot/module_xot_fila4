@@ -12,7 +12,3 @@ declare(strict_types=1);
     </td>
 @endforeach
 </table>
-</table>
-</table>
-</table>
-</table>

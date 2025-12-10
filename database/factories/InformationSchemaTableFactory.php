@@ -45,6 +45,7 @@ class InformationSchemaTableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
 =======
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
@@ -82,6 +83,9 @@ class InformationSchemaTableFactory extends Factory
 =======
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
 >>>>>>> 71586de2 (.)
+=======
+            'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
+>>>>>>> 249a0067 (.)
             'table_name' => $tableName,
             'table_type' => $this->faker->randomElement(['BASE TABLE', 'VIEW']),
             'engine' => $this->faker->randomElement(['InnoDB', 'MyISAM']),

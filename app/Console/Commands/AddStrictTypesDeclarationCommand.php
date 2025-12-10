@@ -85,6 +85,9 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
 =======
 >>>>>>> 249a0067 (.)
     /**
@@ -183,6 +186,9 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
 =======
 >>>>>>> 249a0067 (.)
                     $fileName = $file->getRealPath();
@@ -190,6 +196,7 @@ class AddStrictTypesDeclarationCommand extends Command
                         $fileName = $file->getPathname();
                     }
                     $this->info("Verrebbe processato: {$fileName}");
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                     $this->info("Verrebbe processato: {$file}");
@@ -213,6 +220,8 @@ class AddStrictTypesDeclarationCommand extends Command
 =======
                     $this->info("Verrebbe processato: {$file}");
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
                     $count++;
 
                     continue;
@@ -323,8 +332,13 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<SplFileInfo>
+=======
+    /**
+     * @return array<\SplFileInfo>
+>>>>>>> 249a0067 (.)
 =======
     /**
      * @return array<\SplFileInfo>
@@ -366,6 +380,7 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private function shouldProcessFile(SplFileInfo $file): bool
 =======
     private function shouldProcessFile(\SplFileInfo $file): bool
@@ -376,6 +391,9 @@ class AddStrictTypesDeclarationCommand extends Command
 =======
     private function shouldProcessFile(SplFileInfo $file): bool
 >>>>>>> 71586de2 (.)
+=======
+    private function shouldProcessFile(\SplFileInfo $file): bool
+>>>>>>> 249a0067 (.)
     {
         // Verifica l'estensione
 <<<<<<< HEAD

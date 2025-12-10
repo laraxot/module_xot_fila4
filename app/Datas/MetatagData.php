@@ -167,6 +167,7 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Throwable;
 =======
 use Webmozart\Assert\Assert;
@@ -186,6 +187,9 @@ use Throwable;
 =======
 use Webmozart\Assert\Assert;
 >>>>>>> 5a14301c (.)
+=======
+use Throwable;
+>>>>>>> 249a0067 (.)
 
 use function Safe\file_get_contents;
 
@@ -962,6 +966,7 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (is_array($colorArray) && ! empty($colorArray)) {
 =======
             if (is_array($colorArray) && !empty($colorArray)) {
@@ -981,6 +986,9 @@ class MetatagData extends Data implements Wireable
 =======
             if (is_array($colorArray) && !empty($colorArray)) {
 >>>>>>> 5a14301c (.)
+=======
+            if (is_array($colorArray) && ! empty($colorArray)) {
+>>>>>>> 249a0067 (.)
                 // Use the first color in the array as the default
                 $defaults[$key] = (string) $colorArray[0];
             }
@@ -1436,6 +1444,7 @@ class MetatagData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
@@ -1492,6 +1501,8 @@ class MetatagData extends Data implements Wireable
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 249a0067 (.)
         } catch (Throwable $e) {
             return asset($this->favicon);
         }
@@ -3412,6 +3423,9 @@ class MetatagData extends Data implements Wireable
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
 =======
 >>>>>>> 249a0067 (.)
      * @param  string|null  $title  The title to concatenate
@@ -3634,8 +3648,12 @@ class MetatagData extends Data implements Wireable
      * Concatenate a description to the existing description.
      * This method allows adding page-specific descriptions to the base site description.
      *
+<<<<<<< HEAD
      * @param string|null $description The description to concatenate
      * @return self
+=======
+     * @param  string|null  $description  The description to concatenate
+>>>>>>> 249a0067 (.)
      */
     public function concatDescription(null|string $description): self
     {

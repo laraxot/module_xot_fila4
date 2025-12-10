@@ -75,7 +75,11 @@ trait HasCommonScopes
     public function scopeDraft(Builder $query): Builder
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $query->where(function ($q): void {
+=======
+        return $query->where(function ($q) {
+>>>>>>> 249a0067 (.)
 =======
         return $query->where(function ($q) {
 >>>>>>> 249a0067 (.)
@@ -89,6 +93,10 @@ trait HasCommonScopes
      *
      * @param  Builder<static>  $query
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @param  mixed  $date
+>>>>>>> 249a0067 (.)
 =======
      * @param  mixed  $date
 >>>>>>> 249a0067 (.)
@@ -104,6 +112,10 @@ trait HasCommonScopes
      *
      * @param  Builder<static>  $query
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @param  mixed  $date
+>>>>>>> 249a0067 (.)
 =======
      * @param  mixed  $date
 >>>>>>> 249a0067 (.)
@@ -119,6 +131,10 @@ trait HasCommonScopes
      *
      * @param  Builder<static>  $query
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @param  mixed  $date
+>>>>>>> 249a0067 (.)
 =======
      * @param  mixed  $date
 >>>>>>> 249a0067 (.)
@@ -134,6 +150,10 @@ trait HasCommonScopes
      *
      * @param  Builder<static>  $query
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @param  string|int  $userId
+>>>>>>> 249a0067 (.)
 =======
      * @param  string|int  $userId
 >>>>>>> 249a0067 (.)

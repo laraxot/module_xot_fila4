@@ -27,6 +27,7 @@ class StartQueryLogAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
 =======
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
@@ -64,6 +65,9 @@ class StartQueryLogAction
 =======
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
 >>>>>>> 71586de2 (.)
+=======
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
+>>>>>>> 249a0067 (.)
             $sql = $query->sql;
             $time = $query->time;
             $connection = $query->connection->getName();

@@ -868,6 +868,9 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
 =======
 >>>>>>> 249a0067 (.)
                 ->visible(fn (?Model $_record): bool => $resource::canCreate());

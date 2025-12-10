@@ -17,6 +17,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -333,6 +334,8 @@ declare(strict_types=1);
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
 return [
     'title' => 'Pannello di Amministrazione',
     'description' => 'Gestione del pannello di amministrazione',

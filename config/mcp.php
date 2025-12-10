@@ -24,14 +24,14 @@ declare(strict_types=1);
 >>>>>>> 5a14301c (.)
 return [
     /*
-    |--------------------------------------------------------------------------
-    | MCP Servers Configuration
-    |--------------------------------------------------------------------------
-    |
-    | Configurazione dei server MCP disponibili nel sistema.
-    | Ogni server ha un comando e argomenti specifici.
-    |
-    */
+     * |--------------------------------------------------------------------------
+     * | MCP Servers Configuration
+     * |--------------------------------------------------------------------------
+     * |
+     * | Configurazione dei server MCP disponibili nel sistema.
+     * | Ogni server ha un comando e argomenti specifici.
+     * |
+     */
 
     'servers' => [
         'filesystem' => [
@@ -55,16 +55,15 @@ return [
             'args' => ['-y', '@modelcontextprotocol/server-redis'],
         ],
     ],
-
     /*
-    |--------------------------------------------------------------------------
-    | MCP Model Contexts
-    |--------------------------------------------------------------------------
-    |
-    | Definizione dei contesti per i modelli del sistema.
-    | Ogni contesto definisce trait, relazioni e validazioni richieste.
-    |
-    */
+     * |--------------------------------------------------------------------------
+     * | MCP Model Contexts
+     * |--------------------------------------------------------------------------
+     * |
+     * | Definizione dei contesti per i modelli del sistema.
+     * | Ogni contesto definisce trait, relazioni e validazioni richieste.
+     * |
+     */
 
     'contexts' => [
         'User' => [
@@ -106,15 +105,14 @@ return [
             ],
         ],
     ],
-
     /*
-    |--------------------------------------------------------------------------
-    | MCP Validation Rules
-    |--------------------------------------------------------------------------
-    |
-    | Regole di validazione per i contesti dei modelli.
-    |
-    */
+     * |--------------------------------------------------------------------------
+     * | MCP Validation Rules
+     * |--------------------------------------------------------------------------
+     * |
+     * | Regole di validazione per i contesti dei modelli.
+     * |
+     */
 
     'validation' => [
         'strict' => true,

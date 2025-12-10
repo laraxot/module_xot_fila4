@@ -317,6 +317,7 @@ class ListFilamentPanels extends Command
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var Collection<int, string> $providerFiles */
             $providerFiles = collect(scandir($providersPath));
             $providers = $providerFiles
@@ -415,6 +416,8 @@ class ListFilamentPanels extends Command
 
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 249a0067 (.)
             $providers = collect(scandir($providersPath))
                 ->filter(function ($file): bool {
                     return is_string($file) && str_ends_with($file, 'ServiceProvider.php');
@@ -425,6 +428,7 @@ class ListFilamentPanels extends Command
                     continue;
                 }
 
+<<<<<<< HEAD
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
                 if (! class_exists($providerClass)) {
 <<<<<<< HEAD
@@ -442,11 +446,14 @@ class ListFilamentPanels extends Command
                 }
 
 <<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
                 if (! class_exists($providerClass)) {
                     continue;
                 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -936,6 +943,9 @@ class ListFilamentPanels extends Command
 =======
                 $this->info("Found panel in {$moduleName}: {$provider}");
 >>>>>>> 71586de2 (.)
+=======
+                $this->info("Found panel in {$moduleName}: {$provider}");
+>>>>>>> 249a0067 (.)
             }
         }
 

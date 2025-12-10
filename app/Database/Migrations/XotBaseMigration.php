@@ -2197,6 +2197,7 @@ abstract class XotBaseMigration extends Migration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -2431,6 +2432,9 @@ abstract class XotBaseMigration extends Migration
 =======
         $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
 >>>>>>> 71586de2 (.)
+=======
+        $this->getConn()->table($this->getTable(), function (Blueprint $table) use ($from, $to) {
+>>>>>>> 249a0067 (.)
             $table->renameColumn($from, $to);
         });
     }

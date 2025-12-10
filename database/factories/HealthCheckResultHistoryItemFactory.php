@@ -94,6 +94,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -409,6 +410,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 71586de2 (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 249a0067 (.)
             'status' => 'ok',
             'notification_message' => null,
         ]);

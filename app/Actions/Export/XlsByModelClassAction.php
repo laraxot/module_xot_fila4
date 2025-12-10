@@ -9,6 +9,7 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Facades\Excel;
+use Modules\Xot\Actions\Model\GetTransKeyByModelClassAction;
 // use Modules\Xot\Services\ArrayService;
 use Modules\Xot\Exports\CollectionExport;
 use Spatie\QueueableAction\QueueableAction;
@@ -680,8 +681,9 @@ class XlsByModelClassAction
             $rows = $rows->map($callback);
         }
 
-        // Creiamo l'export
-        $collectionExport = new CollectionExport($rows, [], []);
+        // Otteniamo la chiave di traduzione e creiamo l'export
+        $transKey = app(GetTransKeyByModelClassAction::class)->execute($modelClass);
+        $collectionExport = new CollectionExport($rows, $transKey);
         $filename = $this->getExportName($modelClass);
 
         return Excel::download($collectionExport, $filename);

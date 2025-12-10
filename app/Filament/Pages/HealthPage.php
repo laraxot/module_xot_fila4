@@ -608,6 +608,7 @@ class HealthPage extends Page
          * @phpstan-ignore-next-line argument.type
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -779,6 +780,8 @@ class HealthPage extends Page
 =======
         /** @var array<Check> $checks */
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');

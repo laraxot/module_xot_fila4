@@ -230,6 +230,7 @@ use Illuminate\Support\Facades\File;
  * @method static Builder<static>|Log whereSize($value)
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -410,6 +411,8 @@ use Illuminate\Support\Facades\File;
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
  * @mixin \Eloquent
  */
 class Log extends BaseModel

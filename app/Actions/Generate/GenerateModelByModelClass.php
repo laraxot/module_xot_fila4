@@ -580,6 +580,7 @@ class GenerateModelByModelClass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (method_exists($this, 'replace'.$k)) {
                 $content = $this->{'replace'.$k}($v, $content);
 =======
@@ -794,10 +795,15 @@ class GenerateModelByModelClass
             if (method_exists($this, 'replace'.$k)) {
                 $content = $this->{'replace'.$k}($v, $content);
 >>>>>>> 71586de2 (.)
+=======
+            if (method_exists($this, 'replace'.$k)) {
+                $content = $this->{'replace'.$k}($v, $content);
+>>>>>>> 249a0067 (.)
             }
 
             // $content=$this->replace($content,$k,$v);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -912,6 +918,10 @@ class GenerateModelByModelClass
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+        $content = is_string($content) ? str_replace(' extends Model', ' extends BaseModel', $content) : $content;
+        $content = is_string($content) ? str_replace('use HasFactory;', '', $content) : $content;
+>>>>>>> 249a0067 (.)
         Assert::string($content, '['.__LINE__.']['.class_basename($this).']');
 =======
         $content = str_replace('use HasFactory;', '', $content);

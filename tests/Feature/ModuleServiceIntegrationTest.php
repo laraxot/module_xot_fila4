@@ -131,26 +131,22 @@ use Illuminate\Support\Facades\File;
 >>>>>>> 53d6a6ba (.)
 use Modules\Xot\Services\ModuleService;
 
-describe('ModuleService Integration', function (): void {
-    beforeEach(function (): void {
-        /* @phpstan-ignore-next-line property.notFound, new.noConstructor */
+describe('ModuleService Integration', function () {
+    beforeEach(function () {
         $this->service = new ModuleService('Xot');
     });
 
-    it('integrates with Nwidart Modules system', function (): void {
+    it('integrates with Nwidart Modules system', function () {
         expect(class_exists('Nwidart\Modules\Facades\Module'))
             ->toBeTrue()
             ->and(class_exists('Nwidart\Modules\Module'))
             ->toBeTrue();
     });
 
-    it('can find existing modules', function (): void {
+    it('can find existing modules', function () {
         // Test with known existing modules
-        /* @phpstan-ignore-next-line new.noConstructor */
         $chartService = new ModuleService('Chart');
-        /* @phpstan-ignore-next-line new.noConstructor */
         $userService = new ModuleService('User');
-        /* @phpstan-ignore-next-line new.noConstructor */
         $xotService = new ModuleService('Xot');
 
         expect($chartService)
@@ -161,19 +157,16 @@ describe('ModuleService Integration', function (): void {
             ->toBeInstanceOf(ModuleService::class);
     });
 
-    it('returns models from existing modules', function (): void {
+    it('returns models from existing modules', function () {
         // Test with Chart module (we know it exists)
-        /* @phpstan-ignore-next-line new.noConstructor */
         $chartService = new ModuleService('Chart');
-        /** @phpstan-ignore-next-line method.nonObject */
         $models = $chartService->getModels();
 
         expect($models)->toBeArray();
 
         // Should contain Chart model
         $hasChartModel = false;
-        /* @phpstan-ignore-next-line foreach.nonIterable */
-        foreach ($models as $modelClass) {
+        foreach ($models as $key => $modelClass) {
             if (str_contains($modelClass, 'Chart\\Models\\Chart')) {
                 $hasChartModel = true;
                 break;
@@ -183,10 +176,8 @@ describe('ModuleService Integration', function (): void {
         expect($hasChartModel)->toBeTrue();
     });
 
-    it('handles User module models correctly', function (): void {
-        /* @phpstan-ignore-next-line new.noConstructor */
+    it('handles User module models correctly', function () {
         $userService = new ModuleService('User');
-        /** @phpstan-ignore-next-line method.nonObject */
         $models = $userService->getModels();
 
         expect($models)->toBeArray();
@@ -195,9 +186,7 @@ describe('ModuleService Integration', function (): void {
         $modelClasses = array_values($models);
         $hasUserModels = false;
 
-        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($modelClasses as $modelClass) {
-            /* @phpstan-ignore-next-line argument.type */
             if (str_contains($modelClass, 'User\\Models\\')) {
                 $hasUserModels = true;
                 break;
@@ -207,54 +196,45 @@ describe('ModuleService Integration', function (): void {
         expect($hasUserModels)->toBeTrue();
     });
 
-    it('filters abstract models correctly', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+    it('filters abstract models correctly', function () {
         $models = $this->service->getModels();
 
         // BaseModel should not be included (it's abstract)
-        /* @phpstan-ignore-next-line argument.type */
         $modelNames = array_keys($models);
         expect($modelNames)->not->toContain('base_model');
     });
 
-    it('returns class strings as values', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+    it('returns class strings as values', function () {
         $models = $this->service->getModels();
 
-        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $key => $modelClass) {
             expect($key)
                 ->toBeString()
                 ->and($modelClass)
                 ->toBeString()
-                /* @phpstan-ignore-next-line argument.type */
                 ->and(str_contains($modelClass, 'Modules\\'))
                 ->toBeTrue();
         }
     });
 
-    it('handles reflection operations safely', function (): void {
+    it('handles reflection operations safely', function () {
         // Test that reflection operations don't cause crashes
-        /** @phpstan-ignore-next-line property.notFound */
         $models = $this->service->getModels();
 
         // Test each returned model class
-        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $modelClass) {
-            /* @phpstan-ignore-next-line argument.type */
             expect(class_exists($modelClass) || interface_exists($modelClass))->toBeTrue();
         }
     });
 
-    it('processes module directory structure', function (): void {
+    it('processes module directory structure', function () {
         // Test that the service can process module directories
-        /** @phpstan-ignore-next-line property.notFound */
         $models = $this->service->getModels();
 
         expect($models)->toBeArray();
     });
 
-    it('handles snake_case conversion correctly', function (): void {
+    it('handles snake_case conversion correctly', function () {
         // Test string conversion logic
         $testString = 'TestModelName';
         $snakeCase = Str::snake($testString);
@@ -262,75 +242,59 @@ describe('ModuleService Integration', function (): void {
         expect($snakeCase)->toBe('test_model_name');
     });
 
-    it('integrates with Laravel filesystem', function (): void {
+    it('integrates with Laravel filesystem', function () {
         // Test filesystem operations
         expect(class_exists('Illuminate\Support\Facades\File'))->toBeTrue();
     });
 
-    it('can handle multiple module instances', function (): void {
+    it('can handle multiple module instances', function () {
         $services = [
-            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService('Chart'),
-            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService('User'),
-            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService('Xot'),
-            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService('Job'),
         ];
 
         foreach ($services as $service) {
             expect($service)->toBeInstanceOf(ModuleService::class);
-            /** @phpstan-ignore-next-line method.nonObject */
             $models = $service->getModels();
             expect($models)->toBeArray();
         }
     });
 
-    it('validates module existence checking', function (): void {
+    it('validates module existence checking', function () {
         // Test with non-existent module
-        /* @phpstan-ignore-next-line new.noConstructor */
         $nonExistentService = new ModuleService('NonExistentModule');
-        /** @phpstan-ignore-next-line method.nonObject */
         $models = $nonExistentService->getModels();
 
         expect($models)->toBeArray()->and($models)->toBeEmpty();
     });
 
-    it('handles namespace construction correctly', function (): void {
+    it('handles namespace construction correctly', function () {
         // Test namespace building logic
-        /* @phpstan-ignore-next-line new.noConstructor */
         $chartService = new ModuleService('Chart');
-        /** @phpstan-ignore-next-line method.nonObject */
         $models = $chartService->getModels();
 
-        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $modelClass) {
             expect($modelClass)->toContain('Modules\\Chart\\');
         }
     });
 
-    it('processes file extensions correctly', function (): void {
+    it('processes file extensions correctly', function () {
         // Test that only .php files are processed
-        /** @phpstan-ignore-next-line property.notFound */
         $models = $this->service->getModels();
 
         // All returned classes should be valid PHP classes
-        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $modelClass) {
-            /* @phpstan-ignore-next-line argument.type */
             expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
         }
     });
 
-    it('handles exception scenarios gracefully', function (): void {
+    it('handles exception scenarios gracefully', function () {
         // Test various edge cases that might cause exceptions
         $edgeCaseServices = [
-            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService(''),
-            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService('InvalidModule'),
-            /* @phpstan-ignore-next-line new.noConstructor */
             new ModuleService('Test123'),
         ];
 
@@ -339,72 +303,62 @@ describe('ModuleService Integration', function (): void {
         }
     });
 
-    it('validates return type consistency', function (): void {
-        /** @phpstan-ignore-next-line property.notFound */
+    it('validates return type consistency', function () {
         $models = $this->service->getModels();
 
         expect($models)->toBeArray();
 
         // Validate that all keys are strings and all values are class strings
-        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $key => $value) {
             expect($key)
                 ->toBeString()
                 ->and($value)
                 ->toBeString()
-                /* @phpstan-ignore-next-line argument.type */
                 ->and(strlen($key))
                 ->toBeGreaterThan(0)
-                /* @phpstan-ignore-next-line argument.type */
                 ->and(strlen($value))
                 ->toBeGreaterThan(0);
         }
     });
 
-    it('can work with Laravel service container', function (): void {
+    it('can work with Laravel service container', function () {
         // Test service container integration
         $serviceFromContainer = app(ModuleService::class, ['name' => 'TestModule']);
 
         expect($serviceFromContainer)->toBeInstanceOf(ModuleService::class);
     });
 
-    it('handles concurrent access correctly', function (): void {
+    it('handles concurrent access correctly', function () {
         // Test multiple simultaneous calls
         $results = [];
         for ($i = 0; $i < 3; $i++) {
-            /* @phpstan-ignore-next-line new.noConstructor */
             $service = new ModuleService('Xot');
-            /** @phpstan-ignore-next-line method.nonObject, offsetAccess.nonOffsetAccessible */
             $results[] = $service->getModels();
         }
 
         // All results should be consistent
-        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
         expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
     });
 
-    it('validates module path resolution', function (): void {
+    it('validates module path resolution', function () {
         // Test that module paths are resolved correctly
-        /** @phpstan-ignore-next-line property.notFound */
         $models = $this->service->getModels();
 
-        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($models as $modelClass) {
             // Each model class should follow the correct namespace pattern
             expect($modelClass)->toMatch('/^Modules\\\\[A-Za-z]+\\\\Models\\\\[A-Za-z]+$/');
         }
     });
 
-    it('handles file system operations safely', function (): void {
+    it('handles file system operations safely', function () {
         // Test file system operations
-        /** @phpstan-ignore-next-line property.notFound */
         $models = $this->service->getModels();
 
         // Should not cause file system errors
         expect($models)->toBeArray();
     });
 
-    it('integrates with Laravel string helpers', function (): void {
+    it('integrates with Laravel string helpers', function () {
         // Test string helper integration
         expect(class_exists('Illuminate\Support\Str'))->toBeTrue();
 
@@ -412,22 +366,18 @@ describe('ModuleService Integration', function (): void {
         expect($testStudly)->toBe('TestString');
     });
 
-    it('validates class instantiation patterns', function (): void {
+    it('validates class instantiation patterns', function () {
         // Test that the service follows proper instantiation patterns
-        /** @phpstan-ignore-next-line property.notFound */
         $reflection = new ReflectionClass($this->service);
-        /** @phpstan-ignore-next-line method.nonObject */
         $constructor = $reflection->getConstructor();
 
-        /* @phpstan-ignore-next-line method.nonObject */
         expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
     });
 
-    it('can handle model discovery efficiently', function (): void {
+    it('can handle model discovery efficiently', function () {
         // Test performance of model discovery
         $startTime = microtime(true);
 
-        /** @phpstan-ignore-next-line property.notFound */
         $models = $this->service->getModels();
 
         $endTime = microtime(true);

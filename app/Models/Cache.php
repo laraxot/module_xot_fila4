@@ -39,6 +39,7 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
  * @property int $expiration
  *
+<<<<<<< HEAD
  * @method static CacheFactory factory($count = null, $state = [])
 <<<<<<< HEAD
 =======
@@ -187,6 +188,8 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
  * @mixin IdeHelperCache
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
  * @mixin \Eloquent
  */
 class Cache extends BaseModel

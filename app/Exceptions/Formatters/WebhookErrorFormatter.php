@@ -28,12 +28,15 @@ namespace Modules\Xot\Exceptions\Formatters;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 249a0067 (.)
 use Illuminate\Support\Facades\Auth;
 use Throwable;
 <<<<<<< HEAD

@@ -27,6 +27,7 @@ class RelationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @param  array<string, mixed>  $data
 =======
@@ -59,6 +60,10 @@ class RelationAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+     *
+     * @param array<string, mixed> $data
+>>>>>>> 249a0067 (.)
      */
     public function execute(Model $model, array $data): void
     {

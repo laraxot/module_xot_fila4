@@ -356,6 +356,7 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 =======
@@ -373,6 +374,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
  * @mixin \Eloquent
  */
 class Session extends BaseModel

@@ -1220,6 +1220,7 @@ class XotData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -1242,6 +1243,8 @@ class XotData extends Data implements Wireable
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
         Assert::classExists($class, '['.$class.'] check config auth');
         Assert::implementsInterface(
             $class,
@@ -1986,6 +1989,7 @@ class XotData extends Data implements Wireable
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> b7afadf9 (.)
@@ -2000,15 +2004,20 @@ class XotData extends Data implements Wireable
 <<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
+=======
+>>>>>>> 249a0067 (.)
         $user = $user_class::firstOrCreate(['email' => $email]);
         /*
          * if (! $user) {
          * throw new \Exception('user not found for email '.$email);
          * }
          */
+<<<<<<< HEAD
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 249a0067 (.)
         Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7002,6 +7011,7 @@ class XotData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if (! is_object($userInstance) || ! method_exists($userInstance, 'getChildTypes')) {
             throw new Exception('getChildTypes method not found in class '.$user_class);
@@ -7032,6 +7042,8 @@ class XotData extends Data implements Wireable
         }
         $class = Arr::get($types, $type);
 =======
+=======
+>>>>>>> 249a0067 (.)
 
         if (! is_object($userInstance) || ! method_exists($userInstance, 'getChildTypes')) {
             throw new Exception('getChildTypes method not found in class '.$user_class);
@@ -7043,6 +7055,9 @@ class XotData extends Data implements Wireable
         }
 
         $class = Arr::get($typesResult, $type);
+<<<<<<< HEAD
+>>>>>>> 249a0067 (.)
+=======
 >>>>>>> 249a0067 (.)
         if (is_null($class)) {
 =======
@@ -8009,6 +8024,7 @@ class XotData extends Data implements Wireable
         // $enum_class = Arr::get($user_class::casts(),'type',null);
         $enum_class = Arr::get($castsResult, 'type', null);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         // $enum_class = Arr::get($user_class::casts(),'type',null);
         $enum_class = Arr::get($user_instance->getCasts(), 'type', null);
@@ -8245,6 +8261,8 @@ class XotData extends Data implements Wireable
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
         if ($enum_class === null) {
             $enum_class = Str::of($user_class)
                 ->replace('\\Models\\', '\\Enums\\')

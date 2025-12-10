@@ -650,13 +650,8 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 =======
 
-        // Converti EloquentCollection in Collection<int, Model>
-        /** @var Collection<int, Model> $normalizedCollection */
-        $normalizedCollection = $collection instanceof EloquentCollection
-            ? Collection::make($collection->all())
-            : $collection;
-
         $export = new CollectionExport(
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
             collection: $normalizedCollection,
@@ -690,6 +685,11 @@ class ExportXlsByCollection
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+            collection: $collection,
+            transKey: $transKey,
+            fields: $stringFields,
+>>>>>>> 249a0067 (.)
         );
 
         return Excel::download($export, $filename);

@@ -23,6 +23,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseComment extends BaseModel
 =======
 abstract class BaseComment extends Model
@@ -60,6 +61,9 @@ abstract class BaseComment extends XotBaseModel
 =======
 abstract class BaseComment extends Model
 >>>>>>> 71586de2 (.)
+=======
+abstract class BaseComment extends Model
+>>>>>>> 249a0067 (.)
 {
     // Common properties and methods for comments can be added here.
 }

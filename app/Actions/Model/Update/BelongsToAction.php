@@ -37,6 +37,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Collection;
 =======
 use Illuminate\Database\Eloquent\Collection;
@@ -378,6 +379,9 @@ use Illuminate\Database\Eloquent\Collection;
 =======
 use Illuminate\Database\Eloquent\Collection;
 >>>>>>> 71586de2 (.)
+=======
+use Illuminate\Database\Eloquent\Collection;
+>>>>>>> 249a0067 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Arr;
@@ -1699,6 +1703,9 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
 =======
 >>>>>>> 249a0067 (.)
             $relationName = Str::camel($relationDTO->name);
@@ -1706,12 +1713,18 @@ class BelongsToAction
 
             if (! is_object($relation) || ! method_exists($relation, 'update')) {
                 return;
+<<<<<<< HEAD
 =======
             $relatedInstance = $model->{Str::camel($relationDTO->name)};
             if ($relatedInstance instanceof Model) {
                 $relatedInstance->update($data);
 >>>>>>> 6dcebf8a (.)
             }
+=======
+            }
+            
+            $relation->update($data);
+>>>>>>> 249a0067 (.)
 
             $relation->update($data);
 <<<<<<< HEAD

@@ -2708,6 +2708,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $fieldsWithNull;
 =======
         return $fields;
@@ -2728,6 +2729,9 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 =======
         return $fields;
 >>>>>>> 71586de2 (.)
+=======
+        return $fields;
+>>>>>>> 249a0067 (.)
     }
 
     /**

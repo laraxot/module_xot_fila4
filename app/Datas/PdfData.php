@@ -17,6 +17,9 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
 =======
 >>>>>>> 249a0067 (.)
 use Illuminate\Database\Eloquent\Model;
@@ -35,9 +38,12 @@ use Illuminate\Support\Facades\File;
 >>>>>>> 5a14301c (.)
 use Illuminate\Support\Facades\Storage;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 3a08b27 (.)
+=======
+>>>>>>> 249a0067 (.)
 =======
 >>>>>>> 249a0067 (.)
 use Illuminate\Support\Str;
@@ -49,6 +55,7 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Spipu\Html2Pdf\Exception\HtmlParsingException;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -193,6 +200,11 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+use Spipu\Html2Pdf\Html2Pdf;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Webmozart\Assert\Assert;
+>>>>>>> 249a0067 (.)
 
 /**
  * Undocumented class.
@@ -596,8 +608,13 @@ class PdfData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @param  array<string, mixed>  $params
+=======
+    /**
+     * @param array<string, mixed> $params
+>>>>>>> 249a0067 (.)
 =======
     /**
      * @param array<string, mixed> $params

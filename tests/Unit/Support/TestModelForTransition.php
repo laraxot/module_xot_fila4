@@ -40,7 +40,3 @@ class TestModelForTransition extends Model
         return true;
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> eeaa032 (.)

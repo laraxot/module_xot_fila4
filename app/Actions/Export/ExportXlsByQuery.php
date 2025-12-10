@@ -114,6 +114,7 @@ class ExportXlsByQuery
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ed734516 (.)
 =======
@@ -140,7 +141,24 @@ class ExportXlsByQuery
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
      *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+=======
+     * 
+>>>>>>> a12f125f4a (.)
+=======
+     *
+>>>>>>> b93ef594b4 (.)
+=======
+     * 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
      * @return BinaryFileResponse
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,6 +275,7 @@ class ExportXlsByQuery
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -289,6 +308,8 @@ class ExportXlsByQuery
 =======
 >>>>>>> 17684f52 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +321,7 @@ class ExportXlsByQuery
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -395,6 +417,8 @@ class ExportXlsByQuery
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
         null|int $limit = null,
 >>>>>>> 5a14301c (.)
 =======
@@ -449,11 +473,49 @@ class ExportXlsByQuery
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(strval(...), array_values($fields));
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        ?int $limit = null,
+    ): BinaryFileResponse {
+        // Assicuriamo che $fields sia un array di stringhe
+        $stringFields = array_map(function ($field) {
+            return strval($field);
+        }, array_values($fields));
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+        null|int $limit = null,
+    ): BinaryFileResponse {
+        // Assicuriamo che $fields sia un array di stringhe
+        $stringFields = array_map(strval(...), array_values($fields));
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
         $export = new QueryExport(
             query: $query,
             transKey: null,
+<<<<<<< HEAD
             fields: $stringFields,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            fields: $stringFields,
+=======
+            fields: $stringFields
+>>>>>>> a12f125f4a (.)
+=======
+            fields: $stringFields,
+>>>>>>> b93ef594b4 (.)
+=======
+            fields: $stringFields
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         );
         // Note: QueryExport doesn't accept a limit parameter directly
         // If limit is needed, apply it to the query before passing to the exporter

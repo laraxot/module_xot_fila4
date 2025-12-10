@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
@@ -140,10 +141,13 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +259,8 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 
 ## Problema Identificato
 Il file di traduzione spagnolo `/lang/es/labels.php` contiene alcune strutture che potrebbero beneficiare della struttura espansa, specialmente per campi geografici come "province".
@@ -458,6 +464,7 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -538,12 +545,15 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 >>>>>>> e7da37af (.)
 =======
 >>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 399f46d3 (.)
 - [Struttura Traduzioni Espansa](/project_docs/translation-structure-expanded.md)
 - [Principi DRY/KISS](/project_docs/dry-kiss-principles.md)
 
 ### Documentazione Moduli Correlati
 - [Geo Module Translations](/Modules/Geo/project_docs/translation-structure-expanded.md)
 - [User Module Translations](/Modules/User/project_docs/translation-guidelines.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -766,6 +776,8 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 
 ### File di Implementazione
 - `lang/es/labels.php` - Etichette generali spagnole
@@ -795,6 +807,7 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 **Priorità**: Media (file già corretto linguisticamente)  
 **Responsabile**: Sistema automatico DRY/KISS  
 **Data**: 2025-08-08
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -837,3 +850,5 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

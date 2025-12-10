@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # REGOLA CRITICA: Cartelle docs root VIETATE
 
 ## CARTELLE CHE NON DEVONO MAI ESISTERE:
@@ -357,6 +358,13 @@
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+# REGOLA CRITICA: Cartelle docs root VIETATE
+
+## CARTELLE CHE NON DEVONO MAI ESISTERE:
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 399f46d3 (.)
 
 ## REGOLA FONDAMENTALE:
 **TUTTA la documentazione va SOLO nelle cartelle `docs` dei moduli specifici**
@@ -429,6 +437,7 @@ Questa regola ha priorità assoluta su qualsiasi altra considerazione.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/_bases/base_<nome progetto> -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_<nome progetto>/docs$|^/var/www/html/_bases/base_<nome progetto>/laravel/docs$)"
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_techplanner_fila3_mono/docs$|^/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs$)"
@@ -624,6 +633,9 @@ find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -
 find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
 find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_techplanner_fila3_mono/docs$|^/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs$)"
 >>>>>>> 5a14301c (.)
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 399f46d3 (.)
 # Se il comando restituisce output = ERRORE CRITICO
 # Se il comando non restituisce output = OK
 ```
@@ -633,6 +645,7 @@ find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -
 
 ## RESPONSABILITÀ:
 Tutti gli sviluppatori e AI devono rispettare questa regola senza eccezioni.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -675,3 +688,5 @@ Tutti gli sviluppatori e AI devono rispettare questa regola senza eccezioni.
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

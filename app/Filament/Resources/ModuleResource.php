@@ -61,6 +61,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
 =======
@@ -103,11 +104,31 @@ use Override;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Filament\Forms;
 <<<<<<< HEAD
 >>>>>>> a6ef6dc7 (.)
@@ -194,6 +215,12 @@ use Filament\Forms\Components\Toggle;
 use Modules\UI\Filament\Forms\Components\IconPicker;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Module;
 
@@ -211,16 +238,21 @@ class ModuleResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
 =======
 use Modules\Xot\Models\Module;
 
 
 
 
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
@@ -398,6 +430,10 @@ use Filament\Forms\Components\Toggle;
 use Modules\UI\Filament\Forms\Components\IconPicker;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 399f46d3 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Module;
 
@@ -408,6 +444,7 @@ class ModuleResource extends XotBaseResource
     /**
      * @return array<string, Component>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -449,6 +486,33 @@ class ModuleResource extends XotBaseResource
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Xot\Models\Module;
+
+
+
+
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+
+
+
+
+class ModuleResource extends XotBaseResource
+{
+    protected static ?string $model = Module::class;
+
+    /**
+     * @return array<string, Forms\Components\Component>
+     */
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -484,6 +548,12 @@ class ModuleResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
     #[Override]
     public static function getRelations(): array
     {
@@ -491,6 +561,23 @@ class ModuleResource extends XotBaseResource
     }
 
     #[Override]
+<<<<<<< HEAD
+=======
+=======
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+    public static function getRelations(): array
+    {
+        return [];
+    }
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
     public static function getPages(): array
     {
 <<<<<<< HEAD
@@ -553,6 +640,7 @@ class ModuleResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
@@ -570,6 +658,8 @@ class ModuleResource extends XotBaseResource
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
 =======
     public static function getRelations(): array
@@ -593,6 +683,7 @@ class ModuleResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -634,6 +725,8 @@ class ModuleResource extends XotBaseResource
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
         ];
     }
 }

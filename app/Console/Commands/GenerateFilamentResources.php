@@ -4,7 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
@@ -19,6 +26,12 @@ class GenerateFilamentResources extends Command
     public function handle(): int
     {
         $moduleName = $this->argument('module');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
         // Assicuriamoci che $moduleName sia una stringa
 <<<<<<< HEAD
@@ -109,12 +122,15 @@ class GenerateFilamentResources extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
+=======
+>>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -144,6 +160,7 @@ class GenerateFilamentResources extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ed734516 (.)
@@ -167,6 +184,8 @@ class GenerateFilamentResources extends Command
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
         
         // Assicuriamoci che $moduleName sia una stringa
@@ -187,6 +206,7 @@ class GenerateFilamentResources extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
@@ -281,6 +301,10 @@ class GenerateFilamentResources extends Command
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
             $this->error("Il modulo '{$moduleName}' non esiste.");
 
             return Command::FAILURE;
@@ -320,6 +344,7 @@ class GenerateFilamentResources extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $modelsPath = $module->getPath().'/app/Models';
         if (! File::isDirectory($modelsPath)) {
 =======
@@ -350,6 +375,11 @@ class GenerateFilamentResources extends Command
         if (!File::isDirectory($modelsPath)) {
 >>>>>>> 399f46d3 (.)
 =======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,6 +400,8 @@ class GenerateFilamentResources extends Command
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
         $modelsPath = $module->getPath() . '/app/Models';
         if (!File::isDirectory($modelsPath)) {
 =======
@@ -385,6 +417,7 @@ class GenerateFilamentResources extends Command
         if (! File::isDirectory($modelsPath)) {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -527,6 +560,8 @@ class GenerateFilamentResources extends Command
         $modelsPath = $module->getPath() . '/app/Models';
         if (!File::isDirectory($modelsPath)) {
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
             $this->error("Nessuna cartella 'Models' trovata nel modulo {$moduleName}.");
 
             return Command::FAILURE;
@@ -538,6 +573,7 @@ class GenerateFilamentResources extends Command
 
             // Assicuriamoci che $moduleName sia una stringa per strtolower
             $panelName = strtolower($moduleName);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -626,7 +662,24 @@ class GenerateFilamentResources extends Command
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
             $panel = $panelName . '::admin';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $panel = $panelName . '::admin';
+=======
+            $panel = $panelName.'::admin';
+>>>>>>> a12f125f4a (.)
+=======
+            $panel = $panelName . '::admin';
+>>>>>>> b93ef594b4 (.)
+=======
+            $panel = $panelName.'::admin';
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             $params = [
                 'name' => $modelName,
 >>>>>>> 5a14301c (.)
@@ -663,7 +716,15 @@ class GenerateFilamentResources extends Command
             ];
             try {
                 Artisan::call('make:filament-resource', $params);
+<<<<<<< HEAD
             } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+            } catch (Exception $e) {
+=======
+            } catch (\Exception $e) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                 $this->error($e->getMessage());
             }
             $this->info("Resource generata per il modello: {$modelName}");

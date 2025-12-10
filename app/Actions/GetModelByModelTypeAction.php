@@ -8,7 +8,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -20,6 +27,7 @@ class GetModelByModelTypeAction
     /**
      * Execute the action.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,7 +216,24 @@ class GetModelByModelTypeAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     public function execute(string $model_type, null|string $model_id): Model
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(string $model_type, null|string $model_id): Model
+=======
+    public function execute(string $model_type, ?string $model_id): Model
+>>>>>>> a12f125f4a (.)
+=======
+    public function execute(string $model_type, null|string $model_id): Model
+>>>>>>> b93ef594b4 (.)
+=======
+    public function execute(string $model_type, ?string $model_id): Model
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     {
         $model_class = app(GetModelClassByModelTypeAction::class)->execute($model_type);
         Assert::isInstanceOf($model = app($model_class), Model::class);
@@ -217,6 +242,7 @@ class GetModelByModelTypeAction
         }
 
         if (null === $model) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +335,9 @@ class GetModelByModelTypeAction
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 17684f52 (.)
 =======
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,9 +345,12 @@ class GetModelByModelTypeAction
 =======
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
 >>>>>>> a12f125f4a (.)
 =======
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
@@ -327,6 +359,7 @@ class GetModelByModelTypeAction
             throw new \Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -547,6 +580,8 @@ class GetModelByModelTypeAction
 =======
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
         }
 
         return $model;

@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -40,6 +41,8 @@
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Convenzioni per la documentazione in Laraxot PTVX
 
 ## Convenzioni di naming
@@ -101,6 +104,7 @@
 ### Collegamenti bidirezionali
 1. **Da modulo a root**: Ogni documento in un modulo deve linkare alla documentazione root correlata:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,10 +349,14 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 >>>>>>> 5a14301c (.)
+=======
+   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
+>>>>>>> 399f46d3 (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
    ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,6 +601,9 @@ Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_docu
 =======
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 >>>>>>> 5a14301c (.)
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
+>>>>>>> 399f46d3 (.)
    ```
 
 ## Manutenzione della documentazione
@@ -661,6 +672,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione generale](../../../docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/docs/service_provider.md)
@@ -853,6 +865,8 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 399f46d3 (.)
 - [Documentazione generale](../../../project_docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
@@ -873,6 +887,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: Giugno 2025*
 >>>>>>> 399f46d3 (.)
 =======
@@ -982,3 +997,6 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 
 *Ultimo aggiornamento: Giugno 2025*
 >>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: Giugno 2025*
+>>>>>>> 399f46d3 (.)

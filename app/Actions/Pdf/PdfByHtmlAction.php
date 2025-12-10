@@ -61,6 +61,7 @@ namespace Modules\Xot\Actions\Pdf;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -82,10 +83,13 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 17684f52 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,10 +204,13 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,6 +296,9 @@ use Spipu\Html2Pdf\Html2Pdf;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
 =======
 use Spipu\Html2Pdf\Html2Pdf;
 use Modules\Xot\Datas\PdfData;
@@ -310,6 +320,7 @@ use Spipu\Html2Pdf\Html2Pdf;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
@@ -417,10 +428,13 @@ use Spipu\Html2Pdf\Html2Pdf;
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
 use Spipu\Html2Pdf\Html2Pdf;
 use Modules\Xot\Datas\PdfData;
 use Illuminate\Support\Facades\Storage;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -634,6 +648,10 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class PdfByHtmlAction
@@ -708,10 +726,36 @@ class PdfByHtmlAction
             'orientation' => $orientation,
             'engine' => $engine,
         ]);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
         // Genera il PDF utilizzando PdfData
         $data->fromHtml($html);
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        
+        // Genera il PDF utilizzando PdfData
+        $data->fromHtml($html);
+        
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+        // Genera il PDF utilizzando PdfData
+        $data->fromHtml($html);
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         // Restituisce il risultato in base al tipo di output richiesto
         return match ($out) {
             'download' => $data->download(),

@@ -26,6 +26,7 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Fidum\EloquentMorphToOne\MorphToOne;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
@@ -73,7 +74,15 @@ use InvalidArgumentException;
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 use InvalidArgumentException;
+=======
+<<<<<<< HEAD
+use InvalidArgumentException;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Fidum\EloquentMorphToOne\MorphToOne;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
@@ -144,7 +153,15 @@ class MorphToOneAction
      * @param RelationDTO $relationDTO Data transfer object containing relationship information
 >>>>>>> 5a14301c (.)
      *
+<<<<<<< HEAD
      * @throws InvalidArgumentException When relation type is invalid
+=======
+<<<<<<< HEAD
+     * @throws InvalidArgumentException When relation type is invalid
+=======
+     * @throws \InvalidArgumentException When relation type is invalid
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
      */
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
@@ -255,6 +272,7 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! isset($data['lang'])) {
 =======
         if (!isset($data['lang'])) {
@@ -286,6 +304,9 @@ class MorphToOneAction
         if (!isset($data['lang'])) {
 >>>>>>> 17684f52 (.)
 =======
+        if (!isset($data['lang'])) {
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +321,7 @@ class MorphToOneAction
         if (! isset($data['lang'])) {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -587,6 +609,8 @@ class MorphToOneAction
 =======
         if (!isset($data['lang'])) {
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
             $data['lang'] = App::getLocale();
         }
 
@@ -648,6 +672,7 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -683,6 +708,9 @@ class MorphToOneAction
         return array_filter($data, static fn($value) => null !== $value);
 >>>>>>> 17684f52 (.)
 =======
+        return array_filter($data, static fn($value) => null !== $value);
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -697,6 +725,7 @@ class MorphToOneAction
         return array_filter($data, static fn ($value) => null !== $value);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -980,5 +1009,7 @@ class MorphToOneAction
 =======
         return array_filter($data, static fn($value) => null !== $value);
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     }
 }

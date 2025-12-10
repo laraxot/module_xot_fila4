@@ -37,7 +37,14 @@ use Filament\Forms\Components\Field;
 >>>>>>> 5a14301c (.)
 namespace Modules\Xot\Filament\Forms\Components;
 
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
+=======
+<<<<<<< HEAD
+use Illuminate\Contracts\Support\Htmlable;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Filament\Forms\Components\Field;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,7 +164,15 @@ abstract class XotBaseFormComponent extends Field
         if ($label === null) {
             return Str::title($this->getName());
         }
+<<<<<<< HEAD
         if ($label instanceof Htmlable) {
+=======
+<<<<<<< HEAD
+        if ($label instanceof Htmlable) {
+=======
+        if ($label instanceof \Illuminate\Contracts\Support\Htmlable) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             return $label->toHtml();
         }
 <<<<<<< HEAD
@@ -203,7 +218,25 @@ abstract class XotBaseFormComponent extends Field
     {
         parent::setUp();
 
+<<<<<<< HEAD
         $this->dehydrated(true)->required(false);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->dehydrated(true)->required(false);
+=======
+        $this->dehydrated(true)
+            ->required(false);
+>>>>>>> a12f125f4a (.)
+=======
+        $this->dehydrated(true)->required(false);
+>>>>>>> b93ef594b4 (.)
+=======
+        $this->dehydrated(true)
+            ->required(false);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     }
 
     /**

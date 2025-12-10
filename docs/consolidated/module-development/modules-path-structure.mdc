@@ -491,9 +491,11 @@ class User extends Model {
 
 ## 5. Collegamenti
 - [.windsurf/rules/model-states.mdc](../../../.windsurf/rules/model-states.mdc)
+<<<<<<< HEAD
 - https://github.com/spatie/laravel-model-states
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -665,6 +667,10 @@ class User extends Model {
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
 - https://github.com/spatie/laravel-model-states
 
@@ -810,7 +816,10 @@ Tutti i file di codice (Actions, Models, Controllers, ecc.) dei moduli Laravel D
 - Evita errori di caricamento e path
 - Facilita la manutenzione e la ricerca
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6cba4fe (.)
 ### Esempio
 ```php
 // Corretto
@@ -1059,7 +1068,9 @@ final class FetchEventsAction
 }
 ```
 
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1172,6 +1183,10 @@ Vedi anche: [<main module>/docs/queueable-actions-guide.md](../../<main module>/
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
 >>>>>>> 5a14301c (.)
 =======

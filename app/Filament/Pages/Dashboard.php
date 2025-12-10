@@ -273,6 +273,7 @@ use Filament\Widgets\WidgetConfiguration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
 <<<<<<< HEAD
@@ -291,6 +292,11 @@ class Dashboard extends XotBaseDashboard
 {
 >>>>>>> 399f46d3 (.)
 =======
+class Dashboard extends XotBaseDashboard
+{
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -310,6 +316,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
 class Dashboard extends XotBaseDashboard
 {
 =======
@@ -317,6 +325,7 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> origin/develop
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 class Dashboard extends XotBaseDashboard
@@ -337,10 +346,13 @@ class Dashboard extends XotBaseDashboard
 {
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
 
 class Dashboard extends XotBaseDashboard
 {
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -416,6 +428,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
 >>>>>>> a12f125f4a (.)
 =======
 class Dashboard extends XotBaseDashboard
@@ -424,6 +438,7 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
@@ -573,6 +588,8 @@ class Dashboard extends XotBaseDashboard
 class Dashboard extends XotBaseDashboard
 {
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -637,6 +654,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -659,6 +677,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -674,6 +694,7 @@ class Dashboard extends XotBaseDashboard
     
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -920,4 +941,6 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 }

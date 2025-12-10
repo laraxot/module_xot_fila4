@@ -10,6 +10,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseEntryFactory;
@@ -66,6 +67,11 @@ use Modules\Xot\Database\Factories\PulseEntryFactory;
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseEntryFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -87,6 +93,7 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  * @property int $id
  * @property int $timestamp
@@ -100,6 +107,8 @@ use Illuminate\Database\Eloquent\Builder;
 =======
 >>>>>>> 17684f52 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 =======
 /**
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
@@ -111,6 +120,7 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -120,6 +130,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
  * @property int         $id
  * @property int         $timestamp
  * @property string $type
@@ -131,6 +143,7 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
@@ -149,12 +162,18 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
  * @method static Builder|PulseEntry whereId($value)
  * @method static Builder|PulseEntry whereKey($value)
  * @method static Builder|PulseEntry whereKeyHash($value)
  * @method static Builder|PulseEntry whereTimestamp($value)
  * @method static Builder|PulseEntry whereType($value)
  * @method static Builder|PulseEntry whereValue($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +192,8 @@ use Illuminate\Database\Eloquent\Builder;
 =======
 >>>>>>> 17684f52 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 =======
  * @method static \Illuminate\Database\Eloquent\Builder|PulseEntry whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|PulseEntry whereKey($value)
@@ -183,6 +204,7 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -190,6 +212,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
  * @mixin IdeHelperPulseEntry
 <<<<<<< HEAD
 <<<<<<< HEAD

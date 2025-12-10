@@ -24,6 +24,7 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    grep -r "function methodName" /var/www/html/base_<nome progetto>/laravel/vendor/filament
 =======
    grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
@@ -46,6 +47,9 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 =======
    grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
 >>>>>>> 53d6a6ba (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 71f31700 (.)
    ```
 
 3. **Principio di Sostituzione di Liskov**: Le sottoclassi devono essere sostituibili alle loro classi base senza alterare il comportamento corretto del programma.
@@ -128,6 +132,7 @@ public function getNavigationLabel(): string // Non static!
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
 =======
@@ -158,3 +163,7 @@ public function getNavigationLabel(): string // Non static!
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
 >>>>>>> 53d6a6ba (.)
+=======
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
+>>>>>>> 71f31700 (.)

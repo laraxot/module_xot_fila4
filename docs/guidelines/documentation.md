@@ -16,7 +16,10 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+>>>>>>> e769883c (.)
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
 <<<<<<< HEAD
@@ -131,6 +134,8 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 34579462 (.)
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
 >>>>>>> 7468a7d2 (.)
@@ -149,11 +154,14 @@
    - Le regole generali sono in `/Modules/Xot/docs/`
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> e769883c (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
 =======
@@ -168,7 +176,12 @@
    - Le regole generali sono in `/Modules/Xot/project_docs/`
 >>>>>>> f1d4085 (.)
 >>>>>>> 6a1fe786 (.)
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+=======
+>>>>>>> 34579462 (.)
+>>>>>>> e769883c (.)
    - La root `/docs` contiene solo indici e collegamenti
 
 2. **Collegamenti Bidirezionali**
@@ -183,7 +196,10 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+>>>>>>> e769883c (.)
    Modules/Xot/docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,6 +273,8 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 34579462 (.)
    Modules/Xot/docs/
 =======
    Modules/Xot/project_docs/
@@ -264,6 +282,7 @@
 =======
    Modules/Xot/docs/
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
@@ -277,7 +296,12 @@
    Modules/Xot/project_docs/
 >>>>>>> f1d4085 (.)
 >>>>>>> 6a1fe786 (.)
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+=======
+>>>>>>> 34579462 (.)
+>>>>>>> e769883c (.)
    ├── guidelines/           # Linee guida generali
    ├── conventions/          # Convenzioni di codice
    ├── architecture/         # Architettura del framework
@@ -348,7 +372,10 @@ public function example(): void
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+>>>>>>> e769883c (.)
 Modules/{ModuleName}/docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,6 +449,8 @@ Modules/{ModuleName}/docs/
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 34579462 (.)
 Modules/{ModuleName}/docs/
 =======
 Modules/{ModuleName}/project_docs/
@@ -429,6 +458,7 @@ Modules/{ModuleName}/project_docs/
 =======
 Modules/{ModuleName}/docs/
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
@@ -442,7 +472,12 @@ Modules/{ModuleName}/docs/
 Modules/{ModuleName}/project_docs/
 >>>>>>> f1d4085 (.)
 >>>>>>> 6a1fe786 (.)
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+=======
+>>>>>>> 34579462 (.)
+>>>>>>> e769883c (.)
 ├── README.md              # Panoramica del modulo
 ├── installation.md        # Istruzioni di installazione
 ├── configuration.md       # Configurazione
@@ -533,7 +568,10 @@ php artisan api:generate
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+>>>>>>> e769883c (.)
 * [documentation.md](../../../Xot/docs/documentation.md)
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
@@ -587,7 +625,12 @@ php artisan api:generate
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 6a1fe786 (.)
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+=======
+>>>>>>> 34579462 (.)
+>>>>>>> e769883c (.)
 * [documentation.md](../../../Xot/docs/documentation.md)
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
@@ -597,13 +640,19 @@ php artisan api:generate
 * [documentation.md](../../../Cms/project_docs/roadmap/features/documentation.md)
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e769883c (.)
 =======
 * [documentation.md](../../../Xot/docs/documentation.md)
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> cc1bbf15 (.)
+=======
+>>>>>>> e769883c (.)
 
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)

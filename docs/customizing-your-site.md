@@ -73,6 +73,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -151,7 +152,14 @@ Here’s a quick preview of what some of the basic type styles will look like in
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 6a1fe786 (.)
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 34579462 (.)
+>>>>>>> e769883c (.)
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
@@ -182,6 +190,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -289,7 +298,16 @@ Here’s a quick preview of what some of the basic type styles will look like in
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 6a1fe786 (.)
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 34579462 (.)
+>>>>>>> e769883c (.)
 
 ## h2 Heading
 
@@ -408,6 +426,7 @@ class Foo extends bar
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
@@ -496,7 +515,14 @@ class Foo extends bar
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 6a1fe786 (.)
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 34579462 (.)
+>>>>>>> e769883c (.)
 * [customizing-your-site.md](../../../Gdpr/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Xot/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../UI/docs/customizing-your-site.md)
@@ -507,13 +533,19 @@ class Foo extends bar
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
 =======
+>>>>>>> e769883c (.)
+=======
 <<<<<<< HEAD
+=======
+>>>>>>> 34579462 (.)
 =======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 =======
@@ -523,7 +555,12 @@ class Foo extends bar
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 6a1fe786 (.)
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+=======
+>>>>>>> 34579462 (.)
+>>>>>>> e769883c (.)
 
 
 ### Versione Incoming

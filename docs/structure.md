@@ -1036,7 +1036,10 @@ tests_old
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+>>>>>>> e769883c (.)
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 <<<<<<< HEAD
@@ -1151,6 +1154,8 @@ tests_old
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 34579462 (.)
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 >>>>>>> 7468a7d2 (.)
@@ -1169,11 +1174,14 @@ tests_old
 - [Report PHPStan](/docs/phpstan/)
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> a67e542f (.)
 =======
+=======
+>>>>>>> e769883c (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
 =======
@@ -1188,7 +1196,12 @@ tests_old
 - [Report PHPStan](/project_docs/phpstan/)
 >>>>>>> f1d4085 (.)
 >>>>>>> 6a1fe786 (.)
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+=======
+>>>>>>> 34579462 (.)
+>>>>>>> e769883c (.)
 
 
 ### Versione Incoming
@@ -1201,7 +1214,10 @@ tests_old
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+>>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1214,7 +1230,14 @@ tests_old
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 6a1fe786 (.)
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 34579462 (.)
+>>>>>>> e769883c (.)
 * [structure.md](bashscripts/docs/structure.md)
 * [structure.md](../../../Gdpr/docs/structure.md)
 * [structure.md](../../../Notify/docs/structure.md)
@@ -1235,6 +1258,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -1245,11 +1269,18 @@ tests_old
 >>>>>>> 7468a7d2 (.)
 =======
 =======
+>>>>>>> e769883c (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> 6a1fe786 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> e769883c (.)
 * [structure.md](bashscripts/project_docs/structure.md)
 * [structure.md](../../../Gdpr/project_docs/structure.md)
 * [structure.md](../../../Notify/project_docs/structure.md)
@@ -1281,6 +1312,7 @@ tests_old
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -1291,7 +1323,14 @@ tests_old
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 6a1fe786 (.)
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 34579462 (.)
+>>>>>>> e769883c (.)
 
 
 ---

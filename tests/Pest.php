@@ -99,6 +99,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -308,6 +309,10 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 >>>>>>> c84488b (.)
 >>>>>>> 71f31700 (.)
+=======
+
+pest()->extend(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> 492d6d3c (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -315,6 +320,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * |--------------------------------------------------------------------------
  * |
  * | Qui puoi definire aspettative globali per il modulo Xot.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2000,11 +2006,14 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> 71f31700 (.)
 =======
+=======
+>>>>>>> 492d6d3c (.)
  * | Quando definisci here expectation globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 71586de2 (.)
 =======
@@ -2040,6 +2049,8 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> c84488b (.)
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 492d6d3c (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -2053,6 +2064,7 @@ namespace Modules\Xot\Tests\Pest;
  * | Queste funzioni saranno disponibili in tutti i test.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2923,10 +2935,13 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> 399f46d3 (.)
 =======
+=======
+>>>>>>> 492d6d3c (.)
 
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> a5dccfe (.)
@@ -3246,3 +3261,5 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> c84488b (.)
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 492d6d3c (.)

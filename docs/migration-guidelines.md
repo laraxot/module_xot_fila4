@@ -92,6 +92,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,10 +173,13 @@ return new class extends XotBaseMigration
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6a1fe786 (.)
 - [User Module Database Errors](../../User/docs/DATABASE_ERRORS.md)
 - [Xot Base Classes](../XOT_BASE_CLASSES.md)
 - [Code Quality](../CODE_QUALITY.md)
 - [Root Documentation](../../../../docs/collegamenti-documentazione.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,11 +220,14 @@ return new class extends XotBaseMigration
 =======
 >>>>>>> 88ea7103 (.)
 =======
+>>>>>>> 6a1fe786 (.)
+=======
 - [User Module Database Errors](../../User/project_docs/DATABASE_ERRORS.md)
 - [Xot Base Classes](../XOT_BASE_CLASSES.md)
 - [Code Quality](../CODE_QUALITY.md)
 - [Root Documentation](../../../../project_docs/collegamenti-documentazione.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -360,6 +367,8 @@ return new class extends XotBaseMigration
 >>>>>>> b3cc10f7 (.)
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6a1fe786 (.)
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)

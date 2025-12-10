@@ -2,6 +2,10 @@
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
+<<<<<<< HEAD
+=======
+**NON è stato modificato** `/var/www/html/_bases/<directory progetto>/laravel/phpstan.neon`
+>>>>>>> 92bc33604 (.)
 
 ## Analisi Completa
 
@@ -56,10 +60,14 @@ Accesso a proprietà non definite nei modelli.
 - Modelli User/Profile
 - Contratti e interfacce
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:docs/phpstan-analysis-conflict-5daad0.md
 ========
 ### 3. **<nome modulo>** (Applicazione) - 15% errori
 >>>>>>>> 7ee87c138 (.):docs/phpstan-analysis-2025-08-18.md
+=======
+### 3. **<nome modulo>** (Applicazione) - 15% errori
+>>>>>>> 92bc33604 (.)
 - Risorse Filament
 - Modelli dominio
 - Widget personalizzati
@@ -88,11 +96,16 @@ Accesso a proprietà non definite nei modelli.
 4. `User/app/Models/Profile.php` - Metodi e proprietà
 
 ### Priorità 3 (Applicazione)
+<<<<<<< HEAD
 <<<<<<<< HEAD:docs/phpstan-analysis-conflict-5daad0.md
 ========
 1. `<nome modulo>/app/Filament/Resources/*` - Form schemas e table columns
 2. `<nome modulo>/app/Models/*` - Proprietà e relazioni
 >>>>>>>> 7ee87c138 (.):docs/phpstan-analysis-2025-08-18.md
+=======
+1. `<nome modulo>/app/Filament/Resources/*` - Form schemas e table columns
+2. `<nome modulo>/app/Models/*` - Proprietà e relazioni
+>>>>>>> 92bc33604 (.)
 3. `Geo/app/Models/*` - Proprietà geografiche
 
 ## Strategia di Correzione
@@ -103,10 +116,14 @@ Correggere tutti gli errori nel modulo Xot per stabilizzare la base.
 ### Fase 2: Autenticazione (User)
 Sistemare traits e contratti utilizzati in tutto il progetto.
 
+<<<<<<< HEAD
 <<<<<<<< HEAD:docs/phpstan-analysis-conflict-5daad0.md
 ========
 ### Fase 3: Applicazione (<nome modulo>, Geo, Cms)
 >>>>>>>> 7ee87c138 (.):docs/phpstan-analysis-2025-08-18.md
+=======
+### Fase 3: Applicazione (<nome modulo>, Geo, Cms)
+>>>>>>> 92bc33604 (.)
 Correggere errori specifici dell'applicazione.
 
 ### Fase 4: Verifica Finale

@@ -82,13 +82,15 @@ $pdf = app(ContentPdfAction::class)->execute(
 
 **Uso:**
 ```php
-// In Controller
-public function downloadPdf($id)
+// In Filament Page / Resource / Action
+public function downloadPdf(int $recordId)
 {
-    $record = Model::findOrFail($id);
-    
-    return app(StreamDownloadPdfAction::class)->execute($record);
-    // → Download automatico PDF
+    $record = Model::findOrFail($recordId);
+
+    return app(StreamDownloadPdfAction::class)->execute(
+        record: $record,
+        filename: 'documento.pdf'
+    );
 }
 ```
 
@@ -170,6 +172,9 @@ $action->engine = PdfEngineEnum::SPIPU;
 ### spipu/html2pdf Settings
 
 ```php
+### spipu/html2pdf Settings
+
+```php
 new Html2Pdf(
     orientation: 'P',           // P=Portrait, L=Landscape
     format: 'A4',              // A4, Letter, Legal, A3, etc.
@@ -178,6 +183,25 @@ new Html2Pdf(
     encoding: 'UTF-8',         // Encoding
     margins: [10, 10, 10, 10]  // [top, right, bottom, left] mm
 );
+
+// Configuration Tips:
+// - setTestTdInOnePage(false): Allow tables to break across pages (Critical for long lists)
+// - setTestIsImage(false): Don't check if images exist (faster, but careful)
+// - setFallbackImage('path/to/image.png'): Use if main image missing
+```
+
+### Supported HTML Tags (Partial List)
+- `<div>`, `<p>`, `<span>`, `<h1>`...`<h6>`
+- `<table>`, `<tr>`, `<td>`, `<th>`, `<thead>`, `<tfoot>`
+- `<img>` (src can be path or base64)
+- `<barcode>`, `<qrcode>` (Specific types supported)
+- `<page>`, `<page_header>`, `<page_footer>` (Pagination control)
+
+**Not Supported:**
+- Float CSS (use tables for layout)
+- Flexbox/Grid
+- External stylesheets (use inline styles)
+- JavaScript
 ```
 
 ### Output Modes (spipu/html2pdf)

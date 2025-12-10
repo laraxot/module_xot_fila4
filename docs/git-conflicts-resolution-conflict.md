@@ -3,6 +3,10 @@
 ## Data: 2025-01-06
 
 ## Contesto
+<<<<<<< HEAD
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 92bc33604 (.)
 
 ## File Corretti
 
@@ -198,3 +202,7 @@ php artisan lang:check
 
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
+<<<<<<< HEAD
+=======
+**Stato**: ✅ Completato
+>>>>>>> 92bc33604 (.)

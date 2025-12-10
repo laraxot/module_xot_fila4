@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:docs/script-risoluzione-conflitti-conflict.md
 =======
 >>>>>>> 7ee87c138 (.)
@@ -322,6 +323,22 @@ find . -name "*.php" -exec php -l {} \;
 ```
 
 # 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+>>>>>>> 92bc33604 (.)
 # Script di Risoluzione Conflitti Git - FixCity Project
 
 ## Panoramica
@@ -446,8 +463,30 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
+<<<<<<< HEAD
 # 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
 # Script di Risoluzione Conflitti Git - FixCity Project
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
+=======
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3fbbf1f5 (.)
+=======
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3310e9c6 (.)
+=======
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3310e9c6 (.)
+=======
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> cafe8bed (.)
+=======
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 5cd593a5 (.)
+>>>>>>> 92bc33604 (.)
 
 ## Panoramica
 
@@ -511,6 +550,13 @@ declare(strict_types=1);
 // 2. Usare type hints espliciti
 // 3. Seguire PSR-12
 // 4. Aggiungere PHPDoc per metodi pubblici
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 92bc33604 (.)
 ```
 
 #### File di Configurazione
@@ -571,8 +617,18 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
+<<<<<<< HEAD
 # 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
 # Script di Risoluzione Conflitti Git - FixCity Project
+=======
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+# 🐄 SUPER MUCCA - Script Risoluzione Conflitti Git
+=======
+# Script di Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 3fbbf1f5 (.)
+>>>>>>> 92bc33604 (.)
 
 ## Panoramica
 
@@ -696,15 +752,40 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+>>>>>>> 92bc33604 (.)
 ## COME FUNZIONANO
 
 ### Logica di Risoluzione
 Gli script risolvono i conflitti Git prendendo sempre la **"incoming change"** (develop):
 
+<<<<<<< HEAD
 ```
 ```
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+```
+<<<<<<< HEAD
+codice locale (viene RIMOSSO)
+=======
+codice incoming (viene MANTENUTO)
+>>>>>>> develop
+```
+
+>>>>>>> 92bc33604 (.)
 ### Algoritmo AWK
 ```awk
 BEGIN { skip = 0 }
@@ -713,8 +794,18 @@ BEGIN { skip = 0 }
 /^>>>>>>> / { next }                  # Rimuove marker finale
 !skip { print }                       # Stampa solo se non sta saltando
 ```
+<<<<<<< HEAD
 =======
 >>>>>>> 7ee87c138 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> 92bc33604 (.)
 
 ## RISULTATI OTTENUTI
 
@@ -751,6 +842,15 @@ file.php → file.php.backup
 
 ### 🔄 **Ripristino**
 Per ripristinare un file:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+### Verifica PHPStan
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 92bc33604 (.)
 ```
 
 #### File di Configurazione
@@ -812,6 +912,10 @@ find . -name "*.php" -exec php -l {} \;
 ```
 
 ### Verifica PHPStan
+<<<<<<< HEAD
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> 92bc33604 (.)
 ```bash
 # Verifica singolo file
 ./vendor/bin/phpstan analyse --level=10 path/to/file.php
@@ -831,8 +935,25 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 
 ## Checklist di Risoluzione
 
+<<<<<<< HEAD
 2. **Sintassi PHP valida**: `php -l file.php`
 3. **Git status pulito**: `git status`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+### ✅ **Controlli Eseguiti**
+<<<<<<< HEAD
+1. **Nessun marker rimasto**
+=======
+1. **Nessun marker rimasto**: `grep -r "<<<<<<< HEAD" .`
+>>>>>>> 5a14301c (.)
+2. **Sintassi PHP valida**: `php -l file.php`
+3. **Git status pulito**: `git status`
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 92bc33604 (.)
 ```
 
 #### File di Configurazione
@@ -913,6 +1034,94 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 
 ## Checklist di Risoluzione
 
+<<<<<<< HEAD
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> 92bc33604 (.)
+### Per Ogni File PHP
+- [ ] `declare(strict_types=1)` presente
+- [ ] Type hints espliciti
+- [ ] Return types dichiarati
+- [ ] PHPDoc per metodi pubblici
+- [ ] PSR-12 compliance
+- [ ] Namespace corretto
+- [ ] Import statements appropriati
+- [ ] Sintassi valida (`php -l`)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+>>>>>>> 92bc33604 (.)
+
+### Per Ogni File di Configurazione
+- [ ] Sintassi PHP valida
+- [ ] Struttura array corretta
+- [ ] Commenti PHPDoc appropriati
+- [ ] Chiavi e valori coerenti
+- [ ] Compatibilità Laravel 11
+
+### Per Ogni File di Documentazione
+- [ ] Riferimenti aggiornati a FixCity
+- [ ] Backlink bidirezionali
+- [ ] Coerenza terminologica
+- [ ] Struttura markdown valida
+- [ ] Collegamenti funzionanti
+
+### Per Ogni File SVG
+- [ ] Sintassi XML valida
+- [ ] Attributi accessibilità
+- [ ] Dimensioni appropriate
+- [ ] Stili CSS corretti
+- [ ] Compatibilità browser
+
+## Errori Comuni da Evitare
+
+### ❌ Automazione Cieca
+```bash
+<<<<<<< HEAD
+### Verifica PHPStan
+### Verifica PHPStan
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Verifica conflitti rimanenti
+grep -r "<<<<<<< HEAD\|=======\|>>>>>>> " . --include="*.php"
+>>>>>>> 5a14301c (.)
+=======
+=======
+### Verifica PHPStan
+>>>>>>> 3fbbf1f5 (.)
+=======
+### Verifica PHPStan
+>>>>>>> 6dcebf8a (.)
+>>>>>>> 92bc33604 (.)
+```bash
+# Verifica singolo file
+./vendor/bin/phpstan analyse --level=10 path/to/file.php
+
+# Verifica modulo completo
+./vendor/bin/phpstan analyse --level=10 Modules/ModuleName/
+```
+
+### Verifica Struttura
+```bash
+# Controlla namespace
+grep -r "namespace" --include="*.php" Modules/ModuleName/
+
+# Controlla import
+grep -r "use " --include="*.php" Modules/ModuleName/
+```
+
+## Checklist di Risoluzione
+
 ### Per Ogni File PHP
 - [ ] `declare(strict_types=1)` presente
 - [ ] Type hints espliciti
@@ -948,7 +1157,74 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 
 ### ❌ Automazione Cieca
 ```bash
+<<<<<<< HEAD
 ### Verifica PHPStan
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Verifica conflitti rimanenti
+grep -r "<<<<<<< HEAD\|=======\|>>>>>>> " . --include="*.php"
+>>>>>>> 5a14301c (.)
+=======
+=======
+### Verifica PHPStan
+>>>>>>> 3fbbf1f5 (.)
+>>>>>>> 92bc33604 (.)
+```bash
+# Verifica singolo file
+./vendor/bin/phpstan analyse --level=10 path/to/file.php
+
+# Verifica modulo completo
+./vendor/bin/phpstan analyse --level=10 Modules/ModuleName/
+```
+
+### Verifica Struttura
+```bash
+# Controlla namespace
+grep -r "namespace" --include="*.php" Modules/ModuleName/
+
+# Controlla import
+grep -r "use " --include="*.php" Modules/ModuleName/
+```
+
+## Checklist di Risoluzione
+
+### Per Ogni File PHP
+- [ ] `declare(strict_types=1)` presente
+- [ ] Type hints espliciti
+- [ ] Return types dichiarati
+- [ ] PHPDoc per metodi pubblici
+- [ ] PSR-12 compliance
+- [ ] Namespace corretto
+- [ ] Import statements appropriati
+- [ ] Sintassi valida (`php -l`)
+
+### Per Ogni File di Configurazione
+- [ ] Sintassi PHP valida
+- [ ] Struttura array corretta
+- [ ] Commenti PHPDoc appropriati
+- [ ] Chiavi e valori coerenti
+- [ ] Compatibilità Laravel 11
+
+### Per Ogni File di Documentazione
+- [ ] Riferimenti aggiornati a FixCity
+- [ ] Backlink bidirezionali
+- [ ] Coerenza terminologica
+- [ ] Struttura markdown valida
+- [ ] Collegamenti funzionanti
+
+### Per Ogni File SVG
+- [ ] Sintassi XML valida
+- [ ] Attributi accessibilità
+- [ ] Dimensioni appropriate
+- [ ] Stili CSS corretti
+- [ ] Compatibilità browser
+
+## Errori Comuni da Evitare
+
+### ❌ Automazione Cieca
+```bash
+<<<<<<< HEAD
 ### Verifica PHPStan
 ```bash
 # Verifica singolo file
@@ -1114,116 +1390,12 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 
 ### ❌ Automazione Cieca
 ```bash
-### Verifica PHPStan
-```bash
-# Verifica singolo file
-./vendor/bin/phpstan analyse --level=10 path/to/file.php
-
-# Verifica modulo completo
-./vendor/bin/phpstan analyse --level=10 Modules/ModuleName/
-```
-
-### Verifica Struttura
-```bash
-# Controlla namespace
-grep -r "namespace" --include="*.php" Modules/ModuleName/
-
-# Controlla import
-grep -r "use " --include="*.php" Modules/ModuleName/
-```
-
-## Checklist di Risoluzione
-
-### Per Ogni File PHP
-- [ ] `declare(strict_types=1)` presente
-- [ ] Type hints espliciti
-- [ ] Return types dichiarati
-- [ ] PHPDoc per metodi pubblici
-- [ ] PSR-12 compliance
-- [ ] Namespace corretto
-- [ ] Import statements appropriati
-- [ ] Sintassi valida (`php -l`)
-
-### Per Ogni File di Configurazione
-- [ ] Sintassi PHP valida
-- [ ] Struttura array corretta
-- [ ] Commenti PHPDoc appropriati
-- [ ] Chiavi e valori coerenti
-- [ ] Compatibilità Laravel 11
-
-### Per Ogni File di Documentazione
-- [ ] Riferimenti aggiornati a FixCity
-- [ ] Backlink bidirezionali
-- [ ] Coerenza terminologica
-- [ ] Struttura markdown valida
-- [ ] Collegamenti funzionanti
-
-### Per Ogni File SVG
-- [ ] Sintassi XML valida
-- [ ] Attributi accessibilità
-- [ ] Dimensioni appropriate
-- [ ] Stili CSS corretti
-- [ ] Compatibilità browser
-
-## Errori Comuni da Evitare
-
-### ❌ Automazione Cieca
-```bash
-### Verifica PHPStan
-```bash
-# Verifica singolo file
-./vendor/bin/phpstan analyse --level=10 path/to/file.php
-
-# Verifica modulo completo
-./vendor/bin/phpstan analyse --level=10 Modules/ModuleName/
-```
-
-### Verifica Struttura
-```bash
-# Controlla namespace
-grep -r "namespace" --include="*.php" Modules/ModuleName/
-
-# Controlla import
-grep -r "use " --include="*.php" Modules/ModuleName/
-```
-
-## Checklist di Risoluzione
-
-### Per Ogni File PHP
-- [ ] `declare(strict_types=1)` presente
-- [ ] Type hints espliciti
-- [ ] Return types dichiarati
-- [ ] PHPDoc per metodi pubblici
-- [ ] PSR-12 compliance
-- [ ] Namespace corretto
-- [ ] Import statements appropriati
-- [ ] Sintassi valida (`php -l`)
-
-### Per Ogni File di Configurazione
-- [ ] Sintassi PHP valida
-- [ ] Struttura array corretta
-- [ ] Commenti PHPDoc appropriati
-- [ ] Chiavi e valori coerenti
-- [ ] Compatibilità Laravel 11
-
-### Per Ogni File di Documentazione
-- [ ] Riferimenti aggiornati a FixCity
-- [ ] Backlink bidirezionali
-- [ ] Coerenza terminologica
-- [ ] Struttura markdown valida
-- [ ] Collegamenti funzionanti
-
-### Per Ogni File SVG
-- [ ] Sintassi XML valida
-- [ ] Attributi accessibilità
-- [ ] Dimensioni appropriate
-- [ ] Stili CSS corretti
-- [ ] Compatibilità browser
-
-## Errori Comuni da Evitare
-
-### ❌ Automazione Cieca
-```bash
+=======
+<<<<<<< HEAD
+# Verifica conflitti rimanenti
+grep -r "<<<<<<< HEAD\|=======\|>>>>>>> " . --include="*.php"
+>>>>>>> 5a14301c (.)
+>>>>>>> 92bc33604 (.)
 
 # Mostra differenze
 git diff
@@ -1233,12 +1405,33 @@ git status
 
 # Committa le modifiche
 git add . && git commit -m "Risolti conflitti merge con Super Mucca"
+<<<<<<< HEAD
 # NON fare mai questo
 git checkout --theirs .
 git checkout --ours .
 # NON fare mai questo
 git checkout --theirs .
 git checkout --ours .
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# NON fare mai questo
+git checkout --theirs .
+git checkout --ours .
+>>>>>>> 3fbbf1f5 (.)
+=======
+# NON fare mai questo
+git checkout --theirs .
+git checkout --ours .
+>>>>>>> 3310e9c6 (.)
+=======
+# NON fare mai questo
+git checkout --theirs .
+git checkout --ours .
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 92bc33604 (.)
 ```
 
 #### File di Configurazione
@@ -1357,6 +1550,7 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 # NON fare mai questo
 git checkout --theirs .
 git checkout --ours .
+<<<<<<< HEAD
 ```
 
 ### ❌ Risoluzione Parziale
@@ -1499,6 +1693,9 @@ grep -r "use " --include="*.php" Modules/ModuleName/
 # NON fare mai questo
 git checkout --theirs .
 git checkout --ours .
+=======
+>>>>>>> cafe8bed (.)
+>>>>>>> 92bc33604 (.)
 ```
 
 ### ❌ Risoluzione Parziale
@@ -1589,6 +1786,7 @@ grep -r "<<< HEAD" . | wc -l
 # Dovrebbe essere 0
 ```
 
+<<<<<<< HEAD
 ```
 
 #### File di Configurazione
@@ -2018,6 +2216,29 @@ use function Pest\Laravel\{artisan, assertDatabaseHas};
 
 # Esegui di nuovo lo script
 ./Modules/Xot/bashscripts/git/fix_conflicts_now.sh
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### ❌ **Problema**: Conflitti non risolti
+```bash
+<<<<<<< HEAD
+=======
+# Verifica manualmente
+grep -r "<<<<<<< HEAD" .
+>>>>>>> 5a14301c (.)
+# Esegui di nuovo lo script
+./Modules/Xot/bashscripts/git/fix_conflicts_now.sh
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 92bc33604 (.)
 ```
 
 #### File di Configurazione
@@ -2226,6 +2447,10 @@ grep -r "<<< HEAD" . | wc -l
 # Dovrebbe essere 0
 ```
 
+<<<<<<< HEAD
+=======
+>>>>>>> 5cd593a5 (.)
+>>>>>>> 92bc33604 (.)
 ## Esempi di Risoluzione
 
 ### Caso 1: File PHP con Import Duplicati
@@ -2241,6 +2466,22 @@ use function Pest\Laravel\{artisan, assertDatabaseHas};
 use Modules\Xot\Tests\TestCase;
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5cd593a5 (.)
+>>>>>>> 92bc33604 (.)
 ```
 
 ### Caso 2: File di Configurazione con Commenti
@@ -2270,6 +2511,7 @@ use function Pest\Laravel\assertDatabaseHas;
  * |
  */
 'detect' => [
+<<<<<<< HEAD
 // Risoluzione
 use Modules\Xot\Tests\TestCase;
 use function Pest\Laravel\artisan;
@@ -2369,6 +2611,12 @@ use function Pest\Laravel\assertDatabaseHas;
  * |
  */
 'detect' => [
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 92bc33604 (.)
 ```
 
 ### Caso 3: File SVG con Versioni Diverse
@@ -2409,9 +2657,24 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 - [Report Risoluzione Conflitti](./conflict_resolution_report.md)
 - [Regole Laraxot](../laraxot-rules.md)
 - [Best Practices PHP](../php-best-practices.md)
+<<<<<<< HEAD
 # NON fare mai questo
 git checkout --theirs .
 git checkout --ours .
+=======
+- [Architettura Modulare](../modular-architecture.md)
+=======
+=======
+# NON fare mai questo
+git checkout --theirs .
+git checkout --ours .
+>>>>>>> 3fbbf1f5 (.)
+=======
+# NON fare mai questo
+git checkout --theirs .
+git checkout --ours .
+>>>>>>> 6dcebf8a (.)
+>>>>>>> 92bc33604 (.)
 ```
 
 ### ❌ Risoluzione Parziale
@@ -2579,6 +2842,16 @@ La risoluzione sistematica dei conflitti Git richiede:
 4. **Verifica completa** della sintassi e struttura
 5. **Aggiornamento documentazione** correlata
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Script creati il: 2025-09-18*  
+*Poteri della Super Mucca: ATTIVATI* 🐄✨
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 92bc33604 (.)
 ```
 
 ### Caso 3: File SVG con Versioni Diverse
@@ -2612,6 +2885,11 @@ La risoluzione sistematica dei conflitti Git richiede:
 4. **Verifica completa** della sintassi e struttura
 5. **Aggiornamento documentazione** correlata
 
+<<<<<<< HEAD
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 92bc33604 (.)
 ```
 
 ### Caso 3: File SVG con Versioni Diverse
@@ -2645,6 +2923,11 @@ La risoluzione sistematica dei conflitti Git richiede:
 4. **Verifica completa** della sintassi e struttura
 5. **Aggiornamento documentazione** correlata
 
+<<<<<<< HEAD
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 92bc33604 (.)
 ```
 
 ### Caso 3: File SVG con Versioni Diverse
@@ -2678,6 +2961,11 @@ La risoluzione sistematica dei conflitti Git richiede:
 4. **Verifica completa** della sintassi e struttura
 5. **Aggiornamento documentazione** correlata
 
+<<<<<<< HEAD
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 92bc33604 (.)
 ```
 
 ### Caso 3: File SVG con Versioni Diverse
@@ -2711,6 +2999,10 @@ La risoluzione sistematica dei conflitti Git richiede:
 4. **Verifica completa** della sintassi e struttura
 5. **Aggiornamento documentazione** correlata
 
+<<<<<<< HEAD
+=======
+>>>>>>> 5cd593a5 (.)
+>>>>>>> 92bc33604 (.)
 Seguendo questo workflow, è possibile risolvere anche grandi quantità di conflitti mantenendo la qualità del codice e la coerenza del progetto.
 
 ## Collegamenti Correlati
@@ -2718,10 +3010,28 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 - [Report Risoluzione Conflitti](./conflict_resolution_report.md)
 - [Regole Laraxot](../laraxot-rules.md)
 - [Best Practices PHP](../php-best-practices.md)
+<<<<<<< HEAD
 - [Architettura Modulare](../modular-architecture.md)
 # NON fare mai questo
 git checkout --theirs .
 git checkout --ours .
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Architettura Modulare](../modular-architecture.md)
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Architettura Modulare](../modular-architecture.md)
+>>>>>>> 3310e9c6 (.)
+=======
+=======
+# NON fare mai questo
+git checkout --theirs .
+git checkout --ours .
+>>>>>>> 3fbbf1f5 (.)
+>>>>>>> 92bc33604 (.)
 ```
 
 ### ❌ Risoluzione Parziale
@@ -2889,6 +3199,7 @@ La risoluzione sistematica dei conflitti Git richiede:
 4. **Verifica completa** della sintassi e struttura
 5. **Aggiornamento documentazione** correlata
 
+<<<<<<< HEAD
 Seguendo questo workflow, è possibile risolvere anche grandi quantità di conflitti mantenendo la qualità del codice e la coerenza del progetto.
 
 ## Collegamenti Correlati
@@ -2896,187 +3207,6 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 - [Report Risoluzione Conflitti](./conflict_resolution_report.md)
 - [Regole Laraxot](../laraxot-rules.md)
 - [Best Practices PHP](../php-best-practices.md)
-- [Architettura Modulare](../modular-architecture.md)
-# NON fare mai questo
-git checkout --theirs .
-git checkout --ours .
-```
-
-### ❌ Risoluzione Parziale
-```bash
-# NON lasciare mai conflitti parziali
-# Risolvere sempre completamente ogni file
-```
-
-### ❌ Ignorare Sintassi
-```bash
-# SEMPRE verificare la sintassi
-php -l file.php
-```
-
-### ❌ Saltare Documentazione
-```bash
-# SEMPRE aggiornare la documentazione correlata
-```
-
-## Best Practices Specifiche
-
-### Conflitti di Import
-```php
-// PRIMA (conflitto)
-use Modules\Xot\Tests\TestCase;
-use function Pest\Laravel\artisan;
-use function Pest\Laravel\assertDatabaseHas;
-use Modules\Xot\Tests\TestCase;
-use function Pest\Laravel\{artisan, assertDatabaseHas};
-
-// DOPO (risolto)
-use Modules\Xot\Tests\TestCase;
-use function Pest\Laravel\artisan;
-use function Pest\Laravel\assertDatabaseHas;
-```
-
-### Conflitti di Configurazione
-```php
-// PRIMA (conflitto)
-'languages' => [
-    'it' => [
-        'regional' => 'it_IT',
-    ],
-    'en' => [
-        'regional' => 'en_GB'
-    ]
-],
-
-// DOPO (risolto)
-'languages' => [
-    'it' => [
-        'regional' => 'it_IT',
-    ],
-    'en' => [
-        'regional' => 'en_GB',
-    ],
-],
-```
-
-### Conflitti di Documentazione
-```markdown
-<!-- PRIMA (conflitto) -->
-# Widget Translation Rules - SaluteOra Project
-# Widget Translation Rules - FixCity Project
-
-<!-- DOPO (risolto) -->
-# Widget Translation Rules - FixCity Project
-```
-
-## Verifica Finale
-
-### Checklist Completa
-- [ ] Tutti i conflitti risolti
-- [ ] Sintassi PHP valida
-- [ ] Documentazione aggiornata
-- [ ] Backlink creati
-- [ ] Test funzionali eseguiti
-- [ ] Commit con messaggio descrittivo
-
-### Comandi di Verifica
-```bash
-# Verifica finale
-git status --porcelain | grep "^UU\|^AA\|^DD"
-# Dovrebbe essere vuoto
-
-# Conta conflitti rimanenti
-grep -r "<<< HEAD" . | wc -l
-# Dovrebbe essere 0
-```
-
-## Esempi di Risoluzione
-
-### Caso 1: File PHP con Import Duplicati
-```php
-// Conflitto
-use Modules\Xot\Tests\TestCase;
-use function Pest\Laravel\artisan;
-use function Pest\Laravel\assertDatabaseHas;
-use Modules\Xot\Tests\TestCase;
-use function Pest\Laravel\{artisan, assertDatabaseHas};
-
-// Risoluzione
-use Modules\Xot\Tests\TestCase;
-use function Pest\Laravel\artisan;
-use function Pest\Laravel\assertDatabaseHas;
-```
-
-### Caso 2: File di Configurazione con Commenti
-```php
-// Conflitto
-'languages' => [
-    'it' => [
-        'regional' => 'it_IT',
-    ],
-],
- * | Language Detection
- * | This is the configuration
-'detect' => [
-
-// Risoluzione
-'languages' => [
-    'it' => [
-        'regional' => 'it_IT',
-    ],
-],
-/*
- * |--------------------------------------------------------------------------
- * | Language Detection
- * |--------------------------------------------------------------------------
- * |
- * | This is the configuration
- * |
- */
-'detect' => [
-```
-
-### Caso 3: File SVG con Versioni Diverse
-```xml
-<!-- Conflitto -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-</svg>
-
-<!-- Risoluzione (versione più completa) -->
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" 
-     fill="none" 
-     viewBox="0 0 24 24" 
-     stroke="currentColor"
-     stroke-width="1.5"
-     aria-hidden="true" 
-     role="img"
-     aria-label="Description">
-    <!-- Contenuto completo con animazioni -->
-</svg>
-```
-
-## Conclusioni
-
-La risoluzione sistematica dei conflitti Git richiede:
-
-1. **Analisi manuale** di ogni conflitto
-2. **Categorizzazione** per priorità
-3. **Strategia appropriata** per ogni tipo di file
-4. **Verifica completa** della sintassi e struttura
-5. **Aggiornamento documentazione** correlata
-
-Seguendo questo workflow, è possibile risolvere anche grandi quantità di conflitti mantenendo la qualità del codice e la coerenza del progetto.
-
-## Collegamenti Correlati
-
-- [Report Risoluzione Conflitti](./conflict_resolution_report.md)
-- [Regole Laraxot](../laraxot-rules.md)
-- [Best Practices PHP](../php-best-practices.md)
-- [Architettura Modulare](../modular-architecture.md)
-- [Architettura Modulare](../modular-architecture.md)
-- [Architettura Modulare](../modular-architecture.md)
 - [Architettura Modulare](../modular-architecture.md)
 # NON fare mai questo
 git checkout --theirs .
@@ -3429,6 +3559,196 @@ La risoluzione sistematica dei conflitti Git richiede:
 4. **Verifica completa** della sintassi e struttura
 5. **Aggiornamento documentazione** correlata
 
+Seguendo questo workflow, è possibile risolvere anche grandi quantità di conflitti mantenendo la qualità del codice e la coerenza del progetto.
+
+## Collegamenti Correlati
+
+- [Report Risoluzione Conflitti](./conflict_resolution_report.md)
+- [Regole Laraxot](../laraxot-rules.md)
+- [Best Practices PHP](../php-best-practices.md)
+- [Architettura Modulare](../modular-architecture.md)
+- [Architettura Modulare](../modular-architecture.md)
+- [Architettura Modulare](../modular-architecture.md)
+- [Architettura Modulare](../modular-architecture.md)
+# NON fare mai questo
+git checkout --theirs .
+git checkout --ours .
+```
+
+### ❌ Risoluzione Parziale
+```bash
+# NON lasciare mai conflitti parziali
+# Risolvere sempre completamente ogni file
+```
+
+### ❌ Ignorare Sintassi
+```bash
+# SEMPRE verificare la sintassi
+php -l file.php
+```
+
+### ❌ Saltare Documentazione
+```bash
+# SEMPRE aggiornare la documentazione correlata
+```
+
+## Best Practices Specifiche
+
+### Conflitti di Import
+```php
+// PRIMA (conflitto)
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\artisan;
+use function Pest\Laravel\assertDatabaseHas;
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\{artisan, assertDatabaseHas};
+
+// DOPO (risolto)
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\artisan;
+use function Pest\Laravel\assertDatabaseHas;
+```
+
+### Conflitti di Configurazione
+```php
+// PRIMA (conflitto)
+'languages' => [
+    'it' => [
+        'regional' => 'it_IT',
+    ],
+    'en' => [
+        'regional' => 'en_GB'
+    ]
+],
+
+// DOPO (risolto)
+'languages' => [
+    'it' => [
+        'regional' => 'it_IT',
+    ],
+    'en' => [
+        'regional' => 'en_GB',
+    ],
+],
+```
+
+### Conflitti di Documentazione
+```markdown
+<!-- PRIMA (conflitto) -->
+# Widget Translation Rules - SaluteOra Project
+# Widget Translation Rules - FixCity Project
+
+<!-- DOPO (risolto) -->
+# Widget Translation Rules - FixCity Project
+```
+
+## Verifica Finale
+
+### Checklist Completa
+- [ ] Tutti i conflitti risolti
+- [ ] Sintassi PHP valida
+- [ ] Documentazione aggiornata
+- [ ] Backlink creati
+- [ ] Test funzionali eseguiti
+- [ ] Commit con messaggio descrittivo
+
+### Comandi di Verifica
+```bash
+# Verifica finale
+git status --porcelain | grep "^UU\|^AA\|^DD"
+# Dovrebbe essere vuoto
+
+# Conta conflitti rimanenti
+grep -r "<<< HEAD" . | wc -l
+# Dovrebbe essere 0
+```
+
+## Esempi di Risoluzione
+
+### Caso 1: File PHP con Import Duplicati
+```php
+// Conflitto
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\artisan;
+use function Pest\Laravel\assertDatabaseHas;
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\{artisan, assertDatabaseHas};
+
+// Risoluzione
+use Modules\Xot\Tests\TestCase;
+use function Pest\Laravel\artisan;
+use function Pest\Laravel\assertDatabaseHas;
+```
+
+### Caso 2: File di Configurazione con Commenti
+```php
+// Conflitto
+'languages' => [
+    'it' => [
+        'regional' => 'it_IT',
+    ],
+],
+ * | Language Detection
+ * | This is the configuration
+'detect' => [
+
+// Risoluzione
+'languages' => [
+    'it' => [
+        'regional' => 'it_IT',
+    ],
+],
+/*
+ * |--------------------------------------------------------------------------
+ * | Language Detection
+ * |--------------------------------------------------------------------------
+ * |
+ * | This is the configuration
+ * |
+ */
+'detect' => [
+```
+
+### Caso 3: File SVG con Versioni Diverse
+```xml
+<!-- Conflitto -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+</svg>
+
+<!-- Risoluzione (versione più completa) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" 
+     fill="none" 
+     viewBox="0 0 24 24" 
+     stroke="currentColor"
+     stroke-width="1.5"
+     aria-hidden="true" 
+     role="img"
+     aria-label="Description">
+    <!-- Contenuto completo con animazioni -->
+</svg>
+```
+
+## Conclusioni
+
+La risoluzione sistematica dei conflitti Git richiede:
+
+1. **Analisi manuale** di ogni conflitto
+2. **Categorizzazione** per priorità
+3. **Strategia appropriata** per ogni tipo di file
+4. **Verifica completa** della sintassi e struttura
+5. **Aggiornamento documentazione** correlata
+
+=======
+<<<<<<< HEAD
+*Script creati il: 2025-09-18*  
+*Poteri della Super Mucca: ATTIVATI* 🐄✨
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+>>>>>>> 92bc33604 (.)
 Seguendo questo workflow, è possibile risolvere anche grandi quantità di conflitti mantenendo la qualità del codice e la coerenza del progetto.
 
 ## Collegamenti Correlati
@@ -3438,7 +3758,29 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 - [Best Practices PHP](../php-best-practices.md)
 - [Architettura Modulare](../modular-architecture.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 >>>>>>>> 7ee87c138 (.):docs/SCRIPT_RISOLUZIONE_CONFLITTI.md
 =======
 >>>>>>> 7ee87c138 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Architettura Modulare](../modular-architecture.md)
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [Architettura Modulare](../modular-architecture.md)
+>>>>>>> cafe8bed (.)
+=======
+- [Architettura Modulare](../modular-architecture.md)
+>>>>>>> 5cd593a5 (.)
+>>>>>>> 92bc33604 (.)

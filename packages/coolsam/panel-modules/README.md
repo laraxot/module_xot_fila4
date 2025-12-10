@@ -105,6 +105,7 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -139,6 +140,8 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
 **NB: These docs are for v3, which only supports Filament 4. If you are using Filament
 
 =======
@@ -174,6 +177,7 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 =======
 **NB: These docs are for v3, which only supports Filament 3. If you are using Filament
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -524,6 +528,8 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 =======
 **NB: These docs are for v3, which only supports Filament 3. If you are using Filament
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> e7da37af (.)
 v2, [see the documentation here](https://github.com/savannabits/filament-modules/tree/main#readme) to get started.**
 
 For example, if you have two modules (**Blog** and **Pos**), you should be able to have filament installed in each module with separate resources as below:
@@ -537,6 +543,7 @@ Additionally, each of these can have its own customized login page which redirec
 You can read more about Multiple Context for Filament [Here](https://github.com/iotronlab/filament-multi-guard).
 
 If this is your goal, then you are in the right place.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -606,6 +613,8 @@ If this is your goal, then you are in the right place.
 =======
 >>>>>>> cf971011 (.)
 =======
+>>>>>>> e7da37af (.)
+=======
  
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -622,6 +631,7 @@ If this is your goal, then you are in the right place.
 =======
  
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -736,6 +746,8 @@ If this is your goal, then you are in the right place.
 =======
  
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> e7da37af (.)
 
 ## Installation
 Before you proceed, this guide assumes that you have configured your app fully to work with Laravel Modules. If you haven't, follow the [Laravel Modules Docs](https://docs.laravelmodules.com/v9/installation-and-setup) before proceeding.
@@ -799,6 +811,7 @@ If this is your goal, then you are in the right place.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -828,6 +841,8 @@ If this is your goal, then you are in the right place.
 =======
 >>>>>>> cf971011 (.)
 =======
+>>>>>>> e7da37af (.)
+=======
  
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -844,6 +859,7 @@ If this is your goal, then you are in the right place.
 =======
  
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -958,6 +974,8 @@ If this is your goal, then you are in the right place.
 =======
  
 >>>>>>> 76bec91a (.)
+=======
+>>>>>>> e7da37af (.)
 
 ## Installation
 Before you proceed, this guide assumes that you have configured your app fully to work with Laravel Modules. If you haven't, follow the [Laravel Modules Docs](https://docs.laravelmodules.com/v9/installation-and-setup) before proceeding.

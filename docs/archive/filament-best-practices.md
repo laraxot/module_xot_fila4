@@ -753,6 +753,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 <<<<<<< HEAD
 =======
@@ -800,9 +801,13 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> cf971011 (.)
 =======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+>>>>>>> e7da37af (.)
+=======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -928,6 +933,8 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 =======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
 TextInput::make('location')->required()
 ```
 
@@ -975,6 +982,7 @@ TextInput::make('location')->required()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 <<<<<<< HEAD
 =======
@@ -1022,9 +1030,13 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> cf971011 (.)
 =======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+>>>>>>> e7da37af (.)
+=======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1150,6 +1162,8 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 =======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 

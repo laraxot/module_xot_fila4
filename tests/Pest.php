@@ -79,6 +79,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -211,7 +212,14 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 >>>>>>> c84488b (.)
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+
+pest()->extend(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> f3f26717 (.)
+>>>>>>> 309cf3180 (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -221,6 +229,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * | Qui puoi definire aspettative globali per il modulo Xot.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1456,11 +1465,14 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> 5bd842e3 (.)
 =======
+=======
+>>>>>>> f3f26717 (.)
  * | Quando definisci here expectation globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 71586de2 (.)
 =======
@@ -1472,7 +1484,12 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> c84488b (.)
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> f3f26717 (.)
+>>>>>>> 309cf3180 (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -1549,6 +1566,7 @@ namespace Modules\Xot\Tests\Pest;
 //     // ...
 // }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2038,11 +2056,25 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
 =======
+<<<<<<< HEAD
 >>>>>>> e6745a06 (.)
+=======
+=======
+>>>>>>> f3f26717 (.)
+>>>>>>> 309cf3180 (.)
 
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 309cf3180 (.)
 
 // function something() {
 //     // ...
@@ -2287,4 +2319,9 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> c84488b (.)
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> f3f26717 (.)
+>>>>>>> 309cf3180 (.)

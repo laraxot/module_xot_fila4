@@ -204,6 +204,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -557,9 +558,14 @@ describe('ModuleService', function () {
         $this->service = new ModuleService();
         $this->service = $this->service->setName('TestModule');
 =======
+=======
+>>>>>>> f3f26717 (.)
         $this->service = new ModuleService()->setName('TestModule');
+<<<<<<< HEAD
 >>>>>>> c84488b (.)
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 309cf3180 (.)
     });
 
 <<<<<<< HEAD
@@ -1065,6 +1071,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> 88ee35c4e (.)
@@ -1073,9 +1080,10 @@ describe('ModuleService', function () {
         $service2 = new ModuleService();
         $service2 = $service2->setName('User');
 =======
+=======
+>>>>>>> 309cf3180 (.)
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
->>>>>>> c84488b (.)
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
 <<<<<<< HEAD
@@ -1401,6 +1409,7 @@ describe('ModuleService', function () {
     it('handles empty module gracefully', function () {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1856,8 +1865,9 @@ describe('ModuleService', function () {
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
 =======
+=======
+>>>>>>> f3f26717 (.)
         $emptyService = new ModuleService()->setName('NonExistentModule');
->>>>>>> c84488b (.)
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();

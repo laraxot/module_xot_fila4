@@ -92,6 +92,7 @@ use Modules\Xot\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -99,6 +100,9 @@ use Illuminate\Support\Facades\Storage;
 
 >>>>>>> c84488b (.)
 >>>>>>> 88ee35c4e (.)
+=======
+
+>>>>>>> 309cf3180 (.)
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
 <<<<<<< HEAD
@@ -1708,6 +1712,7 @@ test('handles errors gracefully', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 17684f52 (.)
@@ -2168,4 +2173,10 @@ test('handles errors gracefully', function () {
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+});
+>>>>>>> f3f26717 (.)
+>>>>>>> 309cf3180 (.)

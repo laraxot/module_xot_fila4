@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30,10 +31,13 @@
 >>>>>>> cafe8bed (.)
 =======
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
@@ -45,6 +49,8 @@
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -108,6 +114,7 @@ use Modules\Xot\Tests\TestCase;
 =======
 >>>>>>> b7afadf9 (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,13 +289,43 @@ use Illuminate\Support\Facades\Storage;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 uses(TestCase::class);
+=======
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> b93ef594b4 (.)
+use Modules\Xot\Tests\TestCase;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use function Pest\Laravel\artisan;
+use function Pest\Laravel\assertDatabaseHas;
+
+>>>>>>> b93ef594b4 (.)
+uses(TestCase::class);
+=======
+use function Pest\Laravel\{artisan, assertDatabaseHas};
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
+
+uses(\Modules\Xot\Tests\TestCase::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 beforeEach(function () {
     // Create a temporary directory for testing
     $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
+<<<<<<< HEAD
     mkdir($this->testDir, 0o755, true);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,6 +358,8 @@ beforeEach(function () {
 >>>>>>> cafe8bed (.)
 =======
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +378,7 @@ beforeEach(function () {
     
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
@@ -350,6 +390,8 @@ beforeEach(function () {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     // Set the working directory
     chdir($this->testDir);
 });
@@ -385,6 +427,7 @@ afterEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,10 +448,13 @@ afterEach(function () {
 >>>>>>> cafe8bed (.)
 =======
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
@@ -424,6 +470,8 @@ afterEach(function () {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 function rrmdir($dir)
 {
     if (is_dir($dir)) {
@@ -538,6 +586,7 @@ function rrmdir($dir)
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
@@ -599,6 +648,8 @@ function rrmdir($dir)
 >>>>>>> 5e58b29b (.)
 =======
 =======
+>>>>>>> 399f46d3 (.)
+=======
 =======
 function rrmdir($dir) {
 =======
@@ -619,10 +670,13 @@ function rrmdir($dir)
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
 >>>>>>> b93ef594b4 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
 function rrmdir($dir) {
     if (is_dir($dir)) {
         $objects = scandir($dir);
@@ -632,6 +686,7 @@ function rrmdir($dir) {
                     rrmdir($dir. DIRECTORY_SEPARATOR .$object);
                 } else {
                     unlink($dir. DIRECTORY_SEPARATOR .$object);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -802,6 +857,10 @@ function rrmdir($dir) {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
                 }
             }
         }
@@ -893,7 +952,9 @@ test('creates necessary directories and files', function () {
 =======
 test('creates necessary directories and files', function () {
     // Run the command
+<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
@@ -902,6 +963,25 @@ test('creates necessary directories and files', function () {
 =======
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 >>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+=======
+    $this->artisan('xot:fix-structure')
+         ->assertExitCode(0);
+>>>>>>> a12f125f4a (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> b93ef594b4 (.)
+=======
+    $this->artisan('xot:fix-structure')
+         ->assertExitCode(0);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 
     // Check if directories were created
     $directories = [
@@ -1072,6 +1152,7 @@ test('does not overwrite existing files', function () {
     // Run the command
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1096,6 +1177,9 @@ test('does not overwrite existing files', function () {
 >>>>>>> cafe8bed (.)
 =======
 =======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1112,6 +1196,7 @@ test('does not overwrite existing files', function () {
          ->assertExitCode(0);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
@@ -1127,6 +1212,8 @@ test('does not overwrite existing files', function () {
 =======
     $this->artisan('xot:fix-structure')->assertExitCode(0);
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 
     // Verify the file was not overwritten
     $this->assertStringEqualsFile($testFile, $testContent);
@@ -1314,6 +1401,7 @@ test('handles errors gracefully', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 87a02960 (.)
 =======
 <<<<<<< HEAD
@@ -1327,10 +1415,13 @@ test('handles errors gracefully', function () {
 >>>>>>> cafe8bed (.)
 =======
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
@@ -1347,6 +1438,8 @@ test('handles errors gracefully', function () {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error
@@ -1431,6 +1524,7 @@ test('handles errors gracefully', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 17684f52 (.)
@@ -1442,6 +1536,8 @@ test('handles errors gracefully', function () {
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
 =======
     chmod($nonWritableDir, 0555);
@@ -1459,6 +1555,7 @@ test('handles errors gracefully', function () {
 =======
     chmod($nonWritableDir, 0o755);
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1510,6 +1607,8 @@ test('handles errors gracefully', function () {
 =======
 >>>>>>> 21348520 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
     chmod($nonWritableDir, 0555);
 
     // Run the command and expect an error
@@ -1518,6 +1617,7 @@ test('handles errors gracefully', function () {
 
     // Restore permissions
     chmod($nonWritableDir, 0755);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1616,6 +1716,10 @@ test('handles errors gracefully', function () {
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 });
 <<<<<<< HEAD
 <<<<<<< HEAD

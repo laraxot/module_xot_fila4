@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Guida alla Validazione con PHPStan Livello 7
 
 ## Introduzione
@@ -269,6 +272,7 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit√
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -300,6 +304,8 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit√
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 
 ## Collegamenti tra versioni di PHPSTAN-LEVEL7-GUIDE.md
 * [PHPSTAN-LEVEL7-GUIDE.md](../../../Xot/project_docs/phpstan/PHPSTAN-LEVEL7-GUIDE.md)
@@ -309,6 +315,7 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit√
 ## Collegamenti tra versioni di phpstan-level7-guide.md
 * [phpstan-level7-guide.md](../phpstan-level7-guide.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,3 +368,5 @@ Mantenere il codice conforme a PHPStan livello 7 garantisce una maggiore qualit√
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

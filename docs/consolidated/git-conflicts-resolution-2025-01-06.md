@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,11 +14,14 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
 
 ## Contesto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +174,9 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 5a14301c (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 399f46d3 (.)
 
 ## File Corretti
 
@@ -258,6 +265,7 @@ $res=Locality::query()
 
 ## Verifiche Post-Correzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,3 +593,7 @@ php artisan lang:check
 =======
 **Stato**: ✅ Completato
 >>>>>>> 5a14301c (.)
+=======
+### 1. Controllo Conflitti
+```bash
+>>>>>>> 399f46d3 (.)

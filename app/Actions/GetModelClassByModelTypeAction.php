@@ -8,7 +8,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -22,6 +29,7 @@ class GetModelClassByModelTypeAction
     public function execute(string $model_type): string
     {
         $morph_map = config('morph_map');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,6 +105,11 @@ class GetModelClassByModelTypeAction
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 17684f52 (.)
 =======
+        if (!is_array($morph_map)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141,6 +154,8 @@ class GetModelClassByModelTypeAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
         if (!is_array($morph_map)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 =======
@@ -148,6 +163,9 @@ class GetModelClassByModelTypeAction
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
 >>>>>>> a12f125f4a (.)
 =======
         if (!is_array($morph_map)) {
@@ -158,6 +176,7 @@ class GetModelClassByModelTypeAction
             throw new \Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -353,6 +372,8 @@ class GetModelClassByModelTypeAction
         if (!is_array($morph_map)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
         }
 
         Assert::string($res = collect($morph_map)->get($model_type));

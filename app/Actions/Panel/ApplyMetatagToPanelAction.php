@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Panel;
 
+<<<<<<< HEAD
 use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14,6 +15,13 @@ use Filament\Panel;
 use Illuminate\Support\Facades\Log;
 =======
 use Illuminate\Support\Facades\Log;
+=======
+<<<<<<< HEAD
+use Exception;
+use Illuminate\Support\Facades\Log;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Filament\Panel;
 >>>>>>> 5a14301c (.)
 =======
@@ -84,6 +92,7 @@ class ApplyMetatagToPanelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 5a14301c (.)
@@ -101,6 +110,8 @@ class ApplyMetatagToPanelAction
 =======
 >>>>>>> 17684f52 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113,6 +124,7 @@ class ApplyMetatagToPanelAction
             
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,6 +284,8 @@ class ApplyMetatagToPanelAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
             return $panel
                 // @phpstan-ignore argument.type
                 ->colors($metatag->getColors())
@@ -280,6 +294,7 @@ class ApplyMetatagToPanelAction
                 ->darkModeBrandLogo($metatag->getDarkModeBrandLogo())
                 ->brandLogoHeight($metatag->getBrandLogoHeight())
                 ->favicon($metatag->getFavicon());
+<<<<<<< HEAD
         } catch (Exception $e) {
             // Log l'errore ma non bloccare l'applicazione
 <<<<<<< HEAD
@@ -303,6 +318,7 @@ class ApplyMetatagToPanelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 =======
@@ -315,6 +331,8 @@ class ApplyMetatagToPanelAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
 <<<<<<< HEAD
         } catch (Exception $e) {
@@ -331,6 +349,7 @@ class ApplyMetatagToPanelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -366,6 +385,8 @@ class ApplyMetatagToPanelAction
 =======
             Log::error('Error applying metatag to panel: ' . $e->getMessage());
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
             return $panel;
         }
     }

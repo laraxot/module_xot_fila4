@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Regola generale: Label e traduzioni in Filament
 
 ## Regola
@@ -37,6 +40,7 @@
 - Test che verifica la presenza di tutte le chiavi di traduzione.
 
 ## Collegamenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,3 +286,9 @@ Ultimo aggiornamento: maggio 2025.
 
 Ultimo aggiornamento: maggio 2025.
 >>>>>>> 5a14301c (.)
+=======
+- [docs root](../../../../project_docs/actions.md)
+- [docs Lang](../../Lang/project_docs/filament-label.md)
+
+Ultimo aggiornamento: maggio 2025.
+>>>>>>> 399f46d3 (.)

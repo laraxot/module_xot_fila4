@@ -25,6 +25,7 @@ namespace Modules\Xot\Filament\Tables\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Closure;
 use Filament\Actions\Action;
 <<<<<<< HEAD
@@ -80,6 +81,10 @@ use Filament\Actions\Action;
 use Closure;
 >>>>>>> 17684f52 (.)
 =======
+use Filament\Actions\Action;
+use Closure;
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 use Filament\Actions\Action;
 <<<<<<< HEAD
@@ -88,6 +93,7 @@ use Closure;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -95,6 +101,8 @@ use Closure;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -104,6 +112,7 @@ use Closure;
 use Filament\Tables\Actions\Action;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,6 +279,8 @@ use Closure;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -314,8 +325,16 @@ abstract class XotBaseTableAction extends Action
 =======
 >>>>>>> 5a14301c (.)
     /**
+<<<<<<< HEAD
      * @return Model|null
      */
+=======
+<<<<<<< HEAD
+     * @return Model|null
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
     public function getRecord(bool $withDefault = true): null|Model
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -359,6 +378,27 @@ abstract class XotBaseTableAction extends Action
             return null;
         }
 
+<<<<<<< HEAD
+=======
+=======
+    public function getRecord(): ?Model
+    {
+>>>>>>> a12f125f4a (.)
+=======
+    public function getRecord(bool $withDefault = true): null|Model
+    {
+        if ($this->record instanceof Closure) {
+            return null;
+        }
+
+>>>>>>> b93ef594b4 (.)
+=======
+     * @return \Illuminate\Database\Eloquent\Model|null
+     */
+    public function getRecord(): ?Model
+    {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         return $this->record;
     }
 }

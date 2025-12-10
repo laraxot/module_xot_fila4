@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -318,6 +319,8 @@ public function getTableColumns(): array
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -373,6 +376,7 @@ public static function getFormSchema(): array
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,10 +595,13 @@ class CreateAppointment extends XotBaseCreateRecord
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 #### ❌ DON'T - Non utilizzare il metodo form()
 
 ```php
 // NON FARE MAI QUESTO
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -652,6 +659,9 @@ public static function form(Form $form): Form
 =======
 public static function form(Form $form): Form
 >>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 399f46d3 (.)
 {
     return $form->schema([
         // componenti...
@@ -699,6 +709,7 @@ TextInput::make('nome')
 ```php
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -898,6 +909,8 @@ class ReportResource extends XotBaseResource
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 namespace Modules\Brain\Filament\Resources;
 
 use Filament\Forms\Components\TextInput;
@@ -987,6 +1000,7 @@ class SocioResource extends XotBaseResource
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1191,6 +1205,8 @@ Prima di considerare completa una risorsa Filament, verificare:
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 ## Struttura delle Traduzioni
 
 ### File di Traduzione Completo
@@ -1630,6 +1646,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 =======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
@@ -1751,6 +1768,9 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 =======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> 5a14301c (.)
+=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+>>>>>>> 399f46d3 (.)
 TextInput::make('location')->required()
 ```
 
@@ -1787,6 +1807,7 @@ TextInput::make('location')->required()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 =======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
@@ -1908,6 +1929,9 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 =======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> 5a14301c (.)
+=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+>>>>>>> 399f46d3 (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 
@@ -1966,6 +1990,7 @@ Appointment::where('doctor_id', $doctorId)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -1980,3 +2005,5 @@ Appointment::where('doctor_id', $doctorId)
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

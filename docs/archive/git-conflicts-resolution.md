@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -38,11 +39,14 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
 
 ## Contesto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,6 +184,9 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 5a14301c (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 399f46d3 (.)
 
 ## File Corretti
 
@@ -295,6 +302,7 @@ $res=Locality::query()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -394,6 +402,9 @@ $res=Locality::query()
 =======
 
 >>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 399f46d3 (.)
 ### 2. Validazione PHPStan
 ```bash
 cd laravel
@@ -427,6 +438,7 @@ php artisan lang:check
 ## Documentazione Aggiornata
 
 ### Modulo Geo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,6 +538,9 @@ php artisan lang:check
 =======
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 >>>>>>> cc52d333 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 399f46d3 (.)
 
 ### Modulo User
 - [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
@@ -533,6 +548,7 @@ php artisan lang:check
 ### Modulo Xot
 - [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -658,6 +674,8 @@ php artisan lang:check
 - [Git Conflicts Resolution](laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md)
 
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 ## Best Practices Applicate
 
 ### 1. Gestione Conflitti
@@ -711,6 +729,7 @@ php artisan lang:check
 ## Collegamenti Correlati
 
 ### Documentazione Moduli
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -788,6 +807,8 @@ php artisan lang:check
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 399f46d3 (.)
 - [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
 
@@ -796,6 +817,7 @@ php artisan lang:check
 - [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
 - [Git Best Practices](../../project_docs/git-best-practices.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -935,10 +957,13 @@ php artisan lang:check
 =======
 
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 ---
 
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -998,3 +1023,6 @@ php artisan lang:check
 =======
 **Stato**: ✅ Completato
 >>>>>>> 5a14301c (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 399f46d3 (.)

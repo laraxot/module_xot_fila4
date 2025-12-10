@@ -4,7 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Support\Arr;
@@ -55,7 +62,15 @@ class MorphToManyAction
      * @param RelationDTO $relationDTO Data transfer object containing relation information
 >>>>>>> 5a14301c (.)
      *
+<<<<<<< HEAD
      * @throws Exception When data is not in correct format or relation is invalid
+=======
+<<<<<<< HEAD
+     * @throws Exception When data is not in correct format or relation is invalid
+=======
+     * @throws \Exception When data is not in correct format or relation is invalid
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
      */
     public function execute(Model $row, RelationDTO $relationDTO): void
     {
@@ -106,6 +121,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! isset($data['to'])) {
 =======
             if (!isset($data['to'])) {
@@ -131,6 +147,9 @@ class MorphToManyAction
             if (!isset($data['to'])) {
 >>>>>>> 17684f52 (.)
 =======
+            if (!isset($data['to'])) {
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +164,7 @@ class MorphToManyAction
             if (! isset($data['to'])) {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +359,8 @@ class MorphToManyAction
 =======
             if (!isset($data['to'])) {
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
                 $data['to'] = [];
             }
             $data = $data['to'];
@@ -385,6 +407,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -405,11 +428,19 @@ class MorphToManyAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
         if (!\is_array($data)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         }
 
         if (!Arr::isAssoc($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -430,11 +461,16 @@ class MorphToManyAction
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
         if (! \is_array($data)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
 
         if (! Arr::isAssoc($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -653,6 +689,8 @@ class MorphToManyAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
 >>>>>>> a12f125f4a (.)
 =======
         if (!\is_array($data)) {
@@ -669,6 +707,7 @@ class MorphToManyAction
         if (! Arr::isAssoc($data)) {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -790,6 +829,8 @@ class MorphToManyAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
             $relation->sync($data);
 
             return;
@@ -838,6 +879,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (! isset($v['pivot'])) {
 =======
                 if (!isset($v['pivot'])) {
@@ -863,6 +905,9 @@ class MorphToManyAction
                 if (!isset($v['pivot'])) {
 >>>>>>> 17684f52 (.)
 =======
+                if (!isset($v['pivot'])) {
+>>>>>>> 399f46d3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -877,6 +922,7 @@ class MorphToManyAction
                 if (! isset($v['pivot'])) {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1071,6 +1117,8 @@ class MorphToManyAction
 =======
                 if (!isset($v['pivot'])) {
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
                     $v['pivot'] = [];
                 }
 

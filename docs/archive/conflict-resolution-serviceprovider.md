@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Risoluzione Conflitto: XotBaseServiceProvider
 
 ## Contesto
@@ -45,6 +48,7 @@ Questa scelta garantisce:
 ## Collegamenti
 - [Struttura moduli Xot](./MODULE_NAMESPACE_RULES.md)
 - [Best Practices Provider](./BEST-PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,12 +226,15 @@ Questa scelta garantisce:
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 399f46d3 (.)
 - [docs/links.md globale](../../../../project_docs/links.md)
 
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,3 +285,5 @@ Questa scelta garantisce:
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

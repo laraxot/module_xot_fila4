@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,6 +14,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Correzioni Implementate - Regola Critica XotBaseResource
 
 ## 🚨 Regola Critica Violata
@@ -100,6 +103,7 @@ protected static ?string $navigationGroup = "Geo";
 ```
 
 ### 4. AdminResource.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,6 +262,9 @@ protected static ?string $navigationGroup = "Geo";
 **File**: `laravel/Modules/<nome modulo>/app/Filament/Resources/AdminResource.php`
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
 >>>>>>> 5a14301c (.)
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> 399f46d3 (.)
 
 **Violazione**: Metodo `table()` presente
 ```php
@@ -373,6 +380,7 @@ class ExampleResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -387,3 +395,5 @@ class ExampleResource extends XotBaseResource
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

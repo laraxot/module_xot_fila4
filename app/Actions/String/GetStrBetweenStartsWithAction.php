@@ -4,7 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\String;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetStrBetweenStartsWithAction
@@ -29,7 +36,9 @@ class GetStrBetweenStartsWithAction
             throw new Exception("Cannot find {$start} in {$body} [".__LINE__.']['.__FILE__.']');
 =======
         if (false === $pos) {
+<<<<<<< HEAD
             throw new Exception("Cannot find {$start} in {$body} [" . __LINE__ . '][' . __FILE__ . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,6 +90,15 @@ class GetStrBetweenStartsWithAction
 =======
             throw new Exception("Cannot find $start in $body [".__LINE__.']['.__FILE__.']');
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            throw new Exception("Cannot find {$start} in {$body} [" . __LINE__ . '][' . __FILE__ . ']');
+=======
+            throw new Exception("Cannot find $start in $body [".__LINE__.']['.__FILE__.']');
+>>>>>>> 399f46d3 (.)
 >>>>>>> a12f125f4a (.)
 =======
             throw new Exception("Cannot find {$start} in {$body} [" . __LINE__ . '][' . __FILE__ . ']');
@@ -89,6 +107,7 @@ class GetStrBetweenStartsWithAction
             throw new \Exception("Cannot find $start in $body [".__LINE__.']['.__FILE__.']');
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +274,8 @@ class GetStrBetweenStartsWithAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
         }
         $pos1 = mb_strpos($body, $close, $pos);
 

@@ -260,6 +260,7 @@ test('complete tax filing process', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Healthcare Domain () - **Real Data Preferred**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -521,7 +522,11 @@ test('complete tax filing process', function () {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 ### Healthcare Domain () - **Real Data Preferred**
+=======
+>>>>>>> 6cba4fe (.)
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
 >>>>>>> 5a14301c (.)
 =======
@@ -758,6 +763,7 @@ test('legacy feature with mocks', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **For  Healthcare Domain**: 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1019,7 +1025,11 @@ test('legacy feature with mocks', function () {
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 **For  Healthcare Domain**: 
+=======
+>>>>>>> 6cba4fe (.)
 **For SaluteOra Healthcare Domain**: 
 >>>>>>> 5a14301c (.)
 =======

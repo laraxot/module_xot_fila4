@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -175,6 +176,8 @@
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Regole per le Risorse Filament in 
 
 ## Panoramica
@@ -184,6 +187,7 @@ Questo documento definisce le regole fondamentali per l'implementazione delle ri
 ## Estensione di XotBaseResource
 
 Tutte le risorse Filament in  **DEVONO** estendere `Modules\Xot\Filament\Resources\XotBaseResource` invece di `Filament\Resources\Resource`. Questa classe base personalizzata fornisce funzionalità specifiche per il progetto e garantisce coerenza in tutta l'applicazione.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -433,6 +437,10 @@ Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\F
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 # Regole per le Risorse Filament in SaluteOra
 
 ## Panoramica

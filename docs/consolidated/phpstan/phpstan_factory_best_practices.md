@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,10 +14,13 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # PHPStan Best Practices per Factory Laravel - Laraxot Framework
 
 ## 🎯 Overview
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +179,9 @@ Documentazione completa delle best practice PHPStan per le factory Laravel, basa
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo  e conformi ai principi del framework Laraxot.
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
 >>>>>>> 5a14301c (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 399f46d3 (.)
 
 ## 📚 Principi Fondamentali
 
@@ -467,6 +474,7 @@ $result = $string . (string) $faker->method();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Vedere: `Modules/<nome progetto>/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -560,6 +568,8 @@ Vedere: `Modules/<nome modulo>/docs/factories/phpstan-factory-compliance.md`
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -570,6 +580,7 @@ Vedere:
 
 ### Documentazione Implementazione
 Vedere: `Modules/SaluteOra/project_docs/factories/phpstan-factory-compliance.md`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -707,6 +718,8 @@ Vedere: `Modules/<nome progetto>/project_docs/factories/phpstan-factory-complian
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 
 ## 📊 Metriche di Successo
 
@@ -717,6 +730,7 @@ Vedere: `Modules/<nome progetto>/project_docs/factories/phpstan-factory-complian
 
 *Ultimo aggiornamento: Dicembre 2024*
 *Versione: 1.0*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -780,3 +794,6 @@ Vedere: `Modules/<nome progetto>/project_docs/factories/phpstan-factory-complian
 =======
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
 >>>>>>> 5a14301c (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 399f46d3 (.)

@@ -38,6 +38,7 @@ namespace Modules\Xot\Filament\Actions\Header;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -93,7 +94,22 @@ namespace Modules\Xot\Filament\Actions\Header;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
 use Exception;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Exception;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
 use Modules\Xot\Actions\Export\ExportXlsByCollection;
@@ -106,6 +122,12 @@ class ExportXlsAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
             ->label('')
             ->tooltip(__('xot::actions.export_xls'))
             ->icon('heroicon-o-arrow-down-tray')
@@ -155,10 +177,67 @@ class ExportXlsAction extends Action
 
                 $resource = $livewire->getResource();
 
+<<<<<<< HEAD
+=======
+=======
+=======
+            ->label('')
+>>>>>>> b93ef594b4 (.)
+            ->tooltip(__('xot::actions.export_xls'))
+            ->icon('heroicon-o-arrow-down-tray')
+            ->action(static function (ListRecords $livewire) {
+                $filename =
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+                    '.xlsx';
+                $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
+                $transKey .= '.fields';
+                $query = $livewire->getFilteredTableQuery();
+                if ($query === null) {
+                    throw new Exception('Query is null');
+                }
+                $rows = $query->get();
+
+                $resource = $livewire->getResource();
+<<<<<<< HEAD
+                
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            ->tooltip(__('xot::actions.export_xls'))
+            ->icon('heroicon-o-arrow-down-tray')
+            ->action(static function (ListRecords $livewire) {
+                $filename = class_basename($livewire).'-'.collect($livewire->tableFilters)->flatten()->implode('-').'.xlsx';
+                $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
+                $transKey .= '.fields';
+                $query = $livewire->getFilteredTableQuery();
+                $rows = $query->get();
+                
+                $resource = $livewire->getResource();
+                
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                 /** @var array<int, string> $fields */
                 $fields = [];
                 if (method_exists($resource, 'getXlsFields')) {
                     $rawFields = $resource::getXlsFields($livewire->tableFilters);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                  
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+                  
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
                     if (is_array($rawFields)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235,6 +314,12 @@ class ExportXlsAction extends Action
                     Assert::isArray($fields);
                 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
                 return app(ExportXlsByCollection::class)->execute($rows, $filename, $transKey, array_values($fields));
             });
     }
@@ -252,6 +337,7 @@ class ExportXlsAction extends Action
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21348520 (.)
@@ -297,12 +383,15 @@ class ExportXlsAction extends Action
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 399f46d3 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ed734516 (.)
@@ -321,6 +410,8 @@ class ExportXlsAction extends Action
 =======
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
                 return app(ExportXlsByCollection::class)->execute(
                     $rows, 
                     $filename, 
@@ -339,6 +430,9 @@ class ExportXlsAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -359,6 +453,7 @@ class ExportXlsAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -426,6 +521,8 @@ class ExportXlsAction extends Action
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
     {
         return 'export_xls';
     }

@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,6 +14,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Data Objects
 
 ## Principi Fondamentali
@@ -79,6 +82,7 @@
 ## Errori Comuni
 
 1. **Errore**: Directory errata
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +280,10 @@
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
+   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
+>>>>>>> 399f46d3 (.)
 
 2. **Errore**: Namespace errato
    - ❌ `namespace Modules\Module\App\Datas;`
@@ -294,6 +302,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -308,3 +317,5 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

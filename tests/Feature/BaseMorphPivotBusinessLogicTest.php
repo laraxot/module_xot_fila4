@@ -1003,10 +1003,17 @@ use Tests\TestCase;
 >>>>>>> 5a14301c (.)
 namespace Modules\Xot\Tests\Feature;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Relations\Pivot;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\BaseMorphPivot;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1018,10 +1025,17 @@ use Tests\TestCase;
 =======
 >>>>>>> 21348520 (.)
 =======
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 399f46d3 (.)
 use Modules\Xot\Models\BaseMorphPivot;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Database\Eloquent\Relations\Pivot;
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
@@ -1031,6 +1045,19 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Database\Eloquent\Relations\Pivot;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\BaseMorphPivot;
+use Tests\TestCase;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
 
 class BaseMorphPivotBusinessLogicTest extends TestCase
 {

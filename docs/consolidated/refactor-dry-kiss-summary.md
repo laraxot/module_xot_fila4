@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,6 +14,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Refactor Radicale DRY + KISS - Riepilogo Completo
 
 > **🎯 Obiettivo Raggiunto**: Eliminazione massiva duplicazioni documentali
@@ -113,6 +116,7 @@
 | Lang | 22+ | Localizzazione standardizzata |
 | Media | 9+ | Asset management unificato |
 | Notify | 19+ | Notifiche standardizzate |
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +275,10 @@
 |  | 45+ | Core business centralizzato |
 | SaluteOra | 45+ | Core business centralizzato |
 >>>>>>> 5a14301c (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 399f46d3 (.)
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |
@@ -389,6 +397,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -403,3 +412,5 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

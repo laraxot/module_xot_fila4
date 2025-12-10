@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -42,11 +43,14 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Best Practices per Volt e Folio
 
 ## Collegamenti correlati
 - [README modulo Xot](./README.md)
 - [Struttura dei moduli](./MODULE_STRUCTURE.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,10 +106,13 @@
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 399f46d3 (.)
 - [Convenzioni di Path](../User/project_docs/PATH_CONVENTIONS.md)
 - [Implementazione Auth con Volt e Folio](../User/project_docs/VOLT_FOLIO_AUTH_IMPLEMENTATION.md)
 - [Analisi Logout Blade](../User/project_docs/LOGOUT_BLADE_ANALYSIS.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +250,8 @@
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 ## Introduzione
 
 Questo documento definisce le best practices per l'utilizzo di Laravel Folio e Livewire Volt , con particolare attenzione alle pagine di autenticazione e alle convenzioni di progetto.
@@ -524,6 +533,7 @@ return redirect()->to('/' . $locale);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di <nome progetto>, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
 =======
 Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
@@ -751,6 +761,8 @@ Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 399f46d3 (.)
 Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
 
 ## Riferimenti
@@ -759,6 +771,7 @@ Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il
 - [Documentazione Folio](https://laravel.com/project_docs/10.x/folio)
 - [Documentazione Livewire](https://livewire.laravel.com/docs)
 - [Documentazione Filament](https://filamentphp.com/docs)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -806,3 +819,5 @@ Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il
 - [Documentazione Livewire](https://livewire.laravel.com/docs)
 - [Documentazione Filament](https://filamentphp.com/docs)
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

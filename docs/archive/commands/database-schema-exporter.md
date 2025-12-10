@@ -144,8 +144,13 @@ Il file JSON generato contiene:
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> 71f31700 (.)
 ## Collegamenti tra versioni di database-schema-exporter.md
+<<<<<<< HEAD
 * [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+=======
+* [database-schema-exporter.md](../../../Xot/project_docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/project_docs/console/commands/database-schema-exporter.md)
+>>>>>>> 6cba4fe (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

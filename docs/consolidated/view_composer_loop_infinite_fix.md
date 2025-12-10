@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,6 +14,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # XotComposer - Loop Infinito Fix
 
 ## 🚨 Problema Critico Risolto
@@ -261,6 +264,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 <<<<<<< HEAD
 =======
@@ -394,6 +398,9 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 >>>>>>> 5a14301c (.)
+=======
+- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> 399f46d3 (.)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
 
@@ -403,6 +410,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 **Priorità**: P0 (Critical) - Bloccava sistema completo  
 **Impatto**: Sistema completamente non funzionale  
 **Tempo di risoluzione**: 15 minuti  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -466,3 +474,6 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 =======
 **Pattern**: View Composer Loop Prevention 
 >>>>>>> 5a14301c (.)
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 399f46d3 (.)

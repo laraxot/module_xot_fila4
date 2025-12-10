@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -978,6 +979,8 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
 # Correzioni PHPStan - 6 Gennaio 2025
 
 ## Errori Risolti
@@ -1010,6 +1013,7 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 **Soluzione**:
 - Aggiunto cast esplicito `@var array<string, mixed>` al risultato
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1162,6 +1166,9 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 =======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
 >>>>>>> 5a14301c (.)
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+>>>>>>> 399f46d3 (.)
 
 **Problema**: Linea 27 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, Component>` ma restituiva `array<int|string, Component>`
@@ -1232,6 +1239,7 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -1246,3 +1254,5 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

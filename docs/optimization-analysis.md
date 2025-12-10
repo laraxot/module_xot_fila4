@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -44,6 +45,9 @@
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+
+>>>>>>> 1a525d0ea (.)
 # Analisi di Ottimizzazione - Modulo Xot (Framework Base)
 
 ## 🎯 Principi Applicati: DRY + KISS + SOLID + ROBUST + Laraxot
@@ -890,11 +894,15 @@ class XotPerformanceMonitor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1a525d0ea (.)
 - [Laravel Architecture Patterns](https://laravel.com/docs/architecture-concepts)
 - [PHPStan Level 10 Guidelines](../../../docs/phpstan-level-10.md)
 - [SOLID Principles in PHP](../../../docs/solid-principles.md)
 - [Performance Best Practices](../../../docs/performance-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
@@ -925,6 +933,9 @@ class XotPerformanceMonitor
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
+=======
+
+>>>>>>> 1a525d0ea (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -987,6 +998,7 @@ class XotPerformanceMonitor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -1022,3 +1034,6 @@ class XotPerformanceMonitor
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+
+>>>>>>> 1a525d0ea (.)

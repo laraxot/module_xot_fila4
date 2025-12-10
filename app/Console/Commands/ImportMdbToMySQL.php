@@ -8,12 +8,16 @@ use Illuminate\Console\Command;
 use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 6a52563d6 (.)
+=======
+
+>>>>>>> 1a525d0ea (.)
 use function Safe\shell_exec;
 
 class ImportMdbToMySQL extends Command
@@ -40,6 +44,7 @@ class ImportMdbToMySQL extends Command
         $mdbFile = $this->ask('Inserisci il percorso del file .mdb');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($mdbFile)) {
         if (!is_string($mdbFile)) {
         if (!is_string($mdbFile)) {
@@ -54,10 +59,14 @@ class ImportMdbToMySQL extends Command
 =======
 >>>>>>> 6a52563d6 (.)
         if (!is_string($mdbFile)) {
+=======
+        if (! is_string($mdbFile)) {
+>>>>>>> 1a525d0ea (.)
             throw new RuntimeException('Il percorso del file deve essere una stringa');
         }
 
         $mysqlDb = $this->ask('Inserisci il nome del database MySQL');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! is_string($mysqlDb)) {
@@ -71,6 +80,9 @@ class ImportMdbToMySQL extends Command
 =======
 >>>>>>> 6a52563d6 (.)
         if (!is_string($mysqlDb)) {
+=======
+        if (! is_string($mysqlDb)) {
+>>>>>>> 1a525d0ea (.)
             throw new RuntimeException('Il nome del database deve essere una stringa');
         }
 
@@ -83,12 +95,16 @@ class ImportMdbToMySQL extends Command
             $this->error('Nessuna tabella trovata nel file .mdb');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 6a52563d6 (.)
+=======
+
+>>>>>>> 1a525d0ea (.)
             return Command::FAILURE;
         }
 
@@ -98,12 +114,16 @@ class ImportMdbToMySQL extends Command
         $this->info('Importazione completata con successo!');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 6a52563d6 (.)
+=======
+
+>>>>>>> 1a525d0ea (.)
         return Command::SUCCESS;
     }
 
@@ -140,7 +160,7 @@ class ImportMdbToMySQL extends Command
 =======
 >>>>>>> 6a52563d6 (.)
         $tableList = shell_exec("mdb-tables $mdbFile");
-        if (!$tableList) {
+        if (! $tableList) {
             return [];
         }
 
@@ -188,6 +208,7 @@ class ImportMdbToMySQL extends Command
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<int, string>  $tables
      * @param array<int, string> $tables
      * @param array<int, string> $tables
@@ -202,6 +223,9 @@ class ImportMdbToMySQL extends Command
 =======
 >>>>>>> 6a52563d6 (.)
      * @param array<int, string> $tables
+=======
+     * @param  array<int, string>  $tables
+>>>>>>> 1a525d0ea (.)
      */
     private function importTablesIntoMySQL(array $tables, string $mysqlDb): void
     {

@@ -3008,6 +3008,60 @@ trait HasXotTable
                 /* @var class-string<Model> */
                 //@phpstan-ignore-next-line
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+    }
+
+    /**
+     * Get table filters.
+     *
+     * @return array<string|int, Tables\Filters\Filter|TernaryFilter|BaseFilter>
+     */
+    public function getTableFilters(): array
+    {
+        return [];
+    }
+
+    /**
+     * Get table actions.
+     *
+     * @return array<string, Action|ActionGroup>
+     */
+    public function getTableActions(): array
+    {
+        $actions = [];
+        $resource = $this->getResource();
+
+        if (method_exists($resource, 'canView')) {
+            $actions['view'] = ViewAction::make()
+                ->iconButton()
+                ->tooltip(__('user::actions.view'))
+                ->visible($resource::canView(...));
+        }
+
+        if (method_exists($resource, 'canEdit')) {
+            $actions['edit'] = EditAction::make()
+                ->iconButton()
+                ->tooltip(__('user::actions.edit'))
+                ->visible($resource::canEdit(...));
+        }
+
+        if (method_exists($resource, 'canDelete')) {
+            $actions['delete'] = DeleteAction::make()
+                ->iconButton()
+                ->tooltip(__('user::actions.delete'))
+                ->visible($resource::canDelete(...));
+        }
+
+        if ($this->shouldShowReplicateAction()) {
+            $actions['replicate'] = ReplicateAction::make()
+                ->iconButton()
+                ->tooltip(__('user::actions.replicate'));
+        }
+
+        // Check if class has the getRelationship method
+>>>>>>> 1a525d0ea (.)
         // Note: In some contexts (ListRecords), getRelationship() may not exist
         // @phpstan-ignore-next-line function.alreadyNarrowedType (needed for contexts where method doesn't exist)
         if ($this->shouldShowDetachAction() && method_exists($this, 'getRelationship')) {
@@ -3030,6 +3084,7 @@ trait HasXotTable
                     $actions['detach'] = DetachAction::make()
                         ->iconButton()
                         ->tooltip(__('user::actions.detach'));
+<<<<<<< HEAD
                 }
             }
         }
@@ -3218,10 +3273,13 @@ trait HasXotTable
                             ->iconButton()
                             ->tooltip(__('user::actions.detach'));
                     }
+=======
+>>>>>>> 1a525d0ea (.)
                 }
             }
         }
 
+<<<<<<< HEAD
         // @phpstan-ignore-next-line
 =======
         // Only relation managers support detach on pivot relations
@@ -3237,6 +3295,8 @@ trait HasXotTable
 
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 1a525d0ea (.)
         return $actions;
     }
 

@@ -2444,11 +2444,14 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
@@ -2517,7 +2520,16 @@ protected static string $view = '<nome progetto>::filament.widgets.find-doctor-a
 =======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+=======
+protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 TextInput::make('location')->required()
 ```
 
@@ -2541,11 +2553,14 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
@@ -2614,7 +2629,16 @@ protected static string $view = '<nome progetto>::widgets.find-doctor-and-appoin
 =======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+=======
+protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 

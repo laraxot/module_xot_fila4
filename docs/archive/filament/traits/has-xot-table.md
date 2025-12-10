@@ -115,7 +115,9 @@ public function getTableFiltersFormColumns(): int
 =======
 - [Documentazione Filament](../../../docs/filament/index.md)
 - [Gestione Tabelle](../../../docs/filament/tables.md)
+<<<<<<< HEAD
 - [Azioni Personalizzate](../../../docs/filament/actions.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
@@ -164,3 +166,8 @@ public function getTableFiltersFormColumns(): int
 - [Gestione Tabelle](../../../docs/filament/tables.md)
 - [Azioni Personalizzate](../../../docs/filament/actions.md) 
 >>>>>>> 59259b43 (.)
+=======
+=======
+- [Azioni Personalizzate](../../../docs/filament/actions.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)

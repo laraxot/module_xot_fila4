@@ -41,6 +41,7 @@ ignoreErrors:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -48,6 +49,8 @@ ignoreErrors:
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> ab5b3a4f (.)
 **Moduli Interessati**: <nome progetto>, Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
@@ -105,7 +108,12 @@ ignoreErrors:
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 **Moduli Interessati**: SaluteOra, Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
@@ -130,6 +138,7 @@ ignoreErrors:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -146,7 +155,12 @@ ignoreErrors:
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 **Moduli Interessati**: , Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
@@ -158,6 +172,7 @@ ignoreErrors:
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,7 +219,12 @@ ignoreErrors:
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ### 2. Cast da Mixed
 

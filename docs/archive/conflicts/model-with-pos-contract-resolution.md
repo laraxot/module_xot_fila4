@@ -51,6 +51,7 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -164,9 +165,12 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 =======
 >>>>>>> 472bd9dc (.)
 =======
+>>>>>>> 3bf39332 (.)
+=======
 
 
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,7 +227,12 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 
 
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ## Approccio alla Risoluzione
 
 La risoluzione seguirà questi principi:
@@ -335,6 +344,7 @@ Questa risoluzione garantisce:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 =======
 =======
@@ -360,13 +370,19 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -451,4 +467,9 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 =======
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../project_docs/logs/conflict_resolution_progress.md). 
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)

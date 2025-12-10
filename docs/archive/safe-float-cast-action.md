@@ -216,6 +216,7 @@ class SafeFloatCastActionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 85cdef688 (.)
 =======
@@ -235,3 +236,8 @@ class SafeFloatCastActionTest extends TestCase
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> 59259b43 (.)
+=======
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)

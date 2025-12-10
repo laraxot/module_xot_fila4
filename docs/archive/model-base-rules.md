@@ -95,6 +95,7 @@ Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, document
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -204,7 +205,15 @@ Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, document
 Rollback della regola precedente (2025-05-14) effettuato il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md. La regola precedente è stata annullata per esigenze di override e compatibilità.
 
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ## Eccezioni
 
 Non esistono eccezioni a questa regola. Tutti i modelli concreti devono seguirla.
@@ -263,6 +272,7 @@ abstract class BaseModel extends XotBaseModel
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -487,4 +497,13 @@ abstract class BaseModel extends XotBaseModel
 =======
 *Ultimo aggiornamento: maggio 2025* 
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: maggio 2025* 
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)

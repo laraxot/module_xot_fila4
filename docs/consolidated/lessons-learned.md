@@ -116,6 +116,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 <<<<<<< HEAD
@@ -179,7 +180,12 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 - Content from `config/local/saluteora/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets (SaluteOra)
@@ -204,6 +210,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -220,7 +227,12 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets ()
@@ -232,6 +244,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,7 +291,12 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ## 11. Translation Hygiene
 - Never remove keys/content; only add.

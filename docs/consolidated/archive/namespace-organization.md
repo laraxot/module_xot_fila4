@@ -91,6 +91,7 @@ Questo errore indica che un metodo è stato erroneamente definito come statico q
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
 - [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
 - [Linee Guida per l'Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
@@ -163,7 +164,15 @@ Questo errore indica che un metodo è stato erroneamente definito come statico q
 - [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 - [Documentazione Filament](../Xot/project_docs/filament/filament_best_practices.md)
 - [XotBasePage](../Xot/project_docs/filament/pages/xotbasepage.md)
 - [Linee Guida per l'Ereditarietà](../Xot/project_docs/filament/filament_inheritance_guidelines.md)
@@ -176,6 +185,7 @@ Questo errore indica che un metodo è stato erroneamente definito come statico q
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,4 +328,9 @@ Questo errore indica che un metodo è stato erroneamente definito come statico q
 - [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
 - [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)

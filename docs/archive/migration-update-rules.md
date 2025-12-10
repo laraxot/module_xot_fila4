@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
 <<<<<<< HEAD
 =======
@@ -52,13 +53,19 @@
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
 
   [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,7 +129,12 @@
 =======
   [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ## Caso pratico: Performance
 - Per l’errore su `valutatore_id` in `performance_organizzativa`, vedere la documentazione dettagliata nel modulo Performance.

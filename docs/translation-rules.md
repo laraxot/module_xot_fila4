@@ -149,6 +149,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
@@ -173,10 +174,13 @@ return [
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 - [Errori comuni nei file di traduzione](/laravel/Modules/Lang/docs/errori_comuni_traduzione.md)
 - [Convenzioni di documentazione](/laravel/Modules/Xot/docs/documentation_conventions.md)
 - [Documentazione principale sulle traduzioni](/docs/translation_rules.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,12 +192,15 @@ return [
 >>>>>>> 091f883c (.)
 =======
 =======
+>>>>>>> ab5b3a4f (.)
+=======
 - [Errori comuni nei file di traduzione](/laravel/Modules/Lang/project_docs/errori_comuni_traduzione.md)
 - [Convenzioni di documentazione](/laravel/Modules/Xot/project_docs/documentation_conventions.md)
 - [Documentazione principale sulle traduzioni](/project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -202,3 +209,5 @@ return [
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> ab5b3a4f (.)

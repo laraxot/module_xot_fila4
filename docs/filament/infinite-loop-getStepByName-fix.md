@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -35,7 +36,12 @@
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 # CRITICAL FIX: Loop Infinito in getStepByName() - XotBaseResource
 
 ## 🚨 **PROBLEMA CRITICO RISOLTO**
@@ -166,6 +172,7 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -179,13 +186,19 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,7 +246,12 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -263,7 +281,10 @@ Questo fix dimostra l'importanza di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
@@ -298,4 +319,10 @@ Questo fix dimostra l'importanza di:
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)

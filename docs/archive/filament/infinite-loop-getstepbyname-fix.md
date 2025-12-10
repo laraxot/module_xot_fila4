@@ -142,6 +142,7 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -149,6 +150,8 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
@@ -200,10 +203,13 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,7 +263,12 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 - [DoctorResource.php](../../../Modules/<nome modulo>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
@@ -269,6 +280,7 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,7 +390,12 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 =======
 >>>>>>> ba1d49f3 (.)
+<<<<<<< HEAD
 >>>>>>> 59259b43 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -399,6 +416,7 @@ Questo fix dimostra l'importanza di:
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,9 +466,12 @@ Questo fix dimostra l'importanza di:
 =======
 >>>>>>> 472bd9dc (.)
 =======
+>>>>>>> 3bf39332 (.)
+=======
 *Il sistema  ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -546,4 +567,9 @@ Questo fix dimostra l'importanza di:
 =======
 =======
 >>>>>>> ba1d49f3 (.)
+<<<<<<< HEAD
 >>>>>>> 59259b43 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)

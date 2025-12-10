@@ -30,6 +30,7 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 - [Componenti Filament](../../Themes/One/docs/FILAMENT_COMPONENTS.md)
 - [Registrazione Utenti](../../Themes/One/docs/AUTH.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
 - [Componenti Filament](../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
@@ -49,6 +50,11 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 - [Componenti Filament](../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
 - [Registrazione Utenti](../../Themes/One/project_docs/AUTH.md)
 >>>>>>> 2bad128c (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
   - Implementazione completa sistema registrazione
   - Gestione tipi utente dinamica
   - UI moderna con Filament
@@ -131,6 +137,7 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -138,6 +145,11 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 
 >>>>>>> a5dccfe (.)
 >>>>>>> 62cc8443 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
 ## Collegamenti Esterni
 
 <<<<<<< HEAD
@@ -145,6 +157,7 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 =======
 - [Documentazione generale sulla risoluzione dei conflitti git](../../../docs/risoluzione_conflitti_git.md)
 - [Report completo di intervento](../../../docs/logs/conflict_resolution_report.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
@@ -169,6 +182,11 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
 - [Dettagli risoluzione ModelWithPosContract](./conflicts/model_with_pos_contract_resolution.md)
 
 ## XotBaseMainPanelProvider.php
@@ -204,6 +222,7 @@ b6f667c (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -217,6 +236,11 @@ b6f667c (.)
 =======
 
 >>>>>>> 2bad128c (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
 La soluzione adottata privilegia la chiarezza del codice e l'organizzazione logica dei metodi, eliminando commenti non necessari e duplicazioni.
 
 ## XotBaseRouteServiceProvider.php
@@ -247,6 +271,7 @@ b6f667c (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -260,6 +285,11 @@ b6f667c (.)
 =======
 
 >>>>>>> 2bad128c (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
 ## Conflitti risolti (14/06/2024)
 
 I seguenti conflitti sono stati risolti come parte dell'ultima manutenzione del modulo:
@@ -289,6 +319,7 @@ fc83074 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -302,6 +333,11 @@ fc83074 (.)
 =======
 
 >>>>>>> 2bad128c (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
 Le modifiche sono state applicate seguendo le best practice documentate in `CONFLITTI_MERGE_RISOLTI.md`, privilegiando la chiarezza del codice e la coerenza con gli standard di progetto.
 
 ## Conflitti ancora da risolvere
@@ -315,6 +351,7 @@ Le modifiche sono state applicate seguendo le best practice documentate in `CONF
 <<<<<<< HEAD
 =======
 - Diversi file di documentazione in `Activity/docs/phpstan/` (level_1.md fino a level_10.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
@@ -332,6 +369,11 @@ Le modifiche sono state applicate seguendo le best practice documentate in `CONF
 =======
 - Diversi file di documentazione in `Activity/project_docs/phpstan/` (level_1.md fino a level_10.md)
 >>>>>>> 2bad128c (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
 - File README.md del modulo Activity
 
 ### Modulo Xot
@@ -371,6 +413,7 @@ La risoluzione dei conflitti rimanenti dovrebbe seguire questi principi:
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 
 =======
@@ -402,10 +445,15 @@ b6f667c (.)
 >>>>>>> 2bad128c (.)
 * [risoluzione_conflitti.md](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [risoluzione_conflitti.md](../../../Tenant/project_docs/risoluzione_conflitti.md)
+=======
+>>>>>>> ab5b3a4f (.)
 
+=======
+>>>>>>> a5dccfe (.)
 aurmich/dev
 5693302 (.)
 b6f667c (.)
+<<<<<<< HEAD
 * [Risoluzione Conflitti Xot](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [Risoluzione Conflitti Tenant](../../../Tenant/project_docs/risoluzione_conflitti.md)
 * [Linee Guida Principali Risoluzione Conflitti](../../../../project_docs/conflict_resolution.md)
@@ -413,5 +461,14 @@ b6f667c (.)
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+* [Risoluzione Conflitti Xot](../../../Xot/docs/risoluzione_conflitti.md)
+* [Risoluzione Conflitti Tenant](../../../Tenant/docs/risoluzione_conflitti.md)
+* [Linee Guida Principali Risoluzione Conflitti](../../../../docs/conflict_resolution.md)
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
 fc83074 (.)
 

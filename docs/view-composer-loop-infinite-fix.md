@@ -424,9 +424,19 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
+<<<<<<< HEAD
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+- [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
@@ -449,11 +459,14 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 - [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
@@ -622,7 +635,12 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 >>>>>>> 218dfed3 (.)
 =======
 =======
+=======
+>>>>>>> 3bf39332 (.)
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+=======
+- [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> a5dccfe (.)
 - [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/docs/container)

@@ -672,6 +672,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 <<<<<<< HEAD
 =======
@@ -700,9 +701,13 @@ protected static string $view = '<nome progetto>::filament.widgets.find-doctor-a
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> 472bd9dc (.)
 =======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+>>>>>>> 3bf39332 (.)
+=======
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -769,7 +774,12 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 =======
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 TextInput::make('location')->required()
 ```
 
@@ -795,6 +805,7 @@ TextInput::make('location')->required()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 <<<<<<< HEAD
 =======
@@ -823,9 +834,13 @@ protected static string $view = '<nome progetto>::widgets.find-doctor-and-appoin
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> 472bd9dc (.)
 =======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+>>>>>>> 3bf39332 (.)
+=======
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -892,7 +907,12 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 =======
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 

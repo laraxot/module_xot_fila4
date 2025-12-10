@@ -951,6 +951,7 @@ unset($translations['existing_key']); // MAI!
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -962,12 +963,18 @@ unset($translations['existing_key']); // MAI!
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1011,7 +1018,12 @@ unset($translations['existing_key']); // MAI!
 =======
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ---
 

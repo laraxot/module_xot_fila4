@@ -321,8 +321,11 @@ Ogni modulo dovrebbe documentare le soluzioni ai problemi PHPStan specifici in `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i problemi rilevati da PHPStan nel tuo codebase Laraxot <nome progetto>, migliorando la qualità complessiva del codice e riducendo gli errori a runtime. 
+=======
+>>>>>>> ab5b3a4f (.)
 Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i problemi rilevati da PHPStan nel tuo codebase Laraxot <nome progetto>, migliorando la qualità complessiva del codice e riducendo gli errori a runtime. 
 Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i problemi rilevati da PHPStan nel tuo codebase Laraxot <nome progetto>, migliorando la qualità complessiva del codice e riducendo gli errori a runtime. 
 =======
@@ -397,4 +400,12 @@ Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i 
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+=======
+Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i problemi rilevati da PHPStan nel tuo codebase Laraxot <nome progetto>, migliorando la qualità complessiva del codice e riducendo gli errori a runtime. 
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)

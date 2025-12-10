@@ -73,6 +73,7 @@ class YourModel extends Model
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices](BEST-PRACTICES.md) 
 >>>>>>> 85cdef688 (.)
 =======
@@ -118,3 +119,8 @@ class YourModel extends Model
 - [Laravel Relationships](https://laravel.com/docs/relationships)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 >>>>>>> 59259b43 (.)
+=======
+=======
+- [Best Practices](BEST-PRACTICES.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)

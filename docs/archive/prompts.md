@@ -151,6 +151,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ❌ Esempio errato: `/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/file.md`
 =======
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
@@ -183,10 +184,14 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
 >>>>>>> 472bd9dc (.)
 =======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 3bf39332 (.)
+=======
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -329,7 +334,12 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 =======
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
 >>>>>>> ba1d49f3 (.)
+<<<<<<< HEAD
 >>>>>>> 59259b43 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore
@@ -418,6 +428,7 @@ Il prompt `docs.txt` serve come:
    [Documento](./path/relativo) #tag-correlati
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -546,4 +557,12 @@ Il prompt `docs.txt` serve come:
 =======
 =======
 >>>>>>> ba1d49f3 (.)
+<<<<<<< HEAD
 >>>>>>> 59259b43 (.)
+=======
+=======
+=======
+   ```
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)

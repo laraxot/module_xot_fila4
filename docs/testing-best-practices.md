@@ -60,6 +60,7 @@ uses(\Modules\Xot\Tests\TestCase::class);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -105,7 +106,13 @@ uses(\Modules\Xot\Tests\TestCase::class);
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ## 🏆 Gold Standard per i Test
 
 - Preferire Pest a PHPUnit class-based.
@@ -125,6 +132,7 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,7 +239,13 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 =======
 =======
 >>>>>>> ba1d49f3 (.)
+<<<<<<< HEAD
 >>>>>>> 59259b43 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 beforeEach(function (): void {
     mockXotData();
 });
@@ -292,6 +306,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -299,6 +314,8 @@ function mockXotData(): void
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> ab5b3a4f (.)
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
@@ -384,7 +401,16 @@ function mockXotData(): void
 =======
         ->andReturn(\Modules\SaluteOra\Models\User::class);
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -602,6 +628,16 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab5b3a4f (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -639,7 +675,13 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ### Esempio unit test semplice
 ```php
 <?php
@@ -662,6 +704,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -737,7 +780,13 @@ function mockXotData(): void
 =======
     $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
     $mock->shouldReceive('make')->andReturn($mock);
     app()->instance(\\Modules\\Xot\\Datas\\XotData::class, $mock);
 }
@@ -777,6 +826,7 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -893,4 +943,10 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 =======
 =======
 >>>>>>> ba1d49f3 (.)
+<<<<<<< HEAD
 >>>>>>> 59259b43 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)

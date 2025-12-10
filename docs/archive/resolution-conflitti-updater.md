@@ -31,6 +31,7 @@ Il file presentava numerosi conflitti git non risolti, in particolare tra le bra
 =======
 *Collegamento bidirezionale creato: vedi anche `/docs/risoluzione_conflitti.md` nella root.*
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
 *Collegamento bidirezionale creato: vedi anche `/project_docs/risoluzione_conflitti.md` nella root.*
@@ -47,3 +48,8 @@ Il file presentava numerosi conflitti git non risolti, in particolare tra le bra
 =======
 *Collegamento bidirezionale creato: vedi anche `/project_docs/risoluzione_conflitti.md` nella root.*
 >>>>>>> 2bad128c (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)

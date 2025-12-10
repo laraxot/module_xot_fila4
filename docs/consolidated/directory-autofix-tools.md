@@ -240,8 +240,11 @@ Durante lo sviluppo, è possibile eseguire lo script solo sul modulo in fase di 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 Lo script di correzione automatica della struttura delle directory è uno strumento essenziale per mantenere la coerenza e seguire le convenzioni del framework Laraxot <nome progetto>. Utilizzandolo regolarmente, è possibile garantire che il codice segua sempre la struttura richiesta, facilitando la manutenzione e l'interoperabilità tra i vari moduli. 
+=======
+>>>>>>> ab5b3a4f (.)
 Lo script di correzione automatica della struttura delle directory è uno strumento essenziale per mantenere la coerenza e seguire le convenzioni del framework Laraxot <nome progetto>. Utilizzandolo regolarmente, è possibile garantire che il codice segua sempre la struttura richiesta, facilitando la manutenzione e l'interoperabilità tra i vari moduli. 
 Lo script di correzione automatica della struttura delle directory è uno strumento essenziale per mantenere la coerenza e seguire le convenzioni del framework Laraxot <nome progetto>. Utilizzandolo regolarmente, è possibile garantire che il codice segua sempre la struttura richiesta, facilitando la manutenzione e l'interoperabilità tra i vari moduli. 
 =======
@@ -316,4 +319,12 @@ Lo script di correzione automatica della struttura delle directory è uno strume
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+=======
+Lo script di correzione automatica della struttura delle directory è uno strumento essenziale per mantenere la coerenza e seguire le convenzioni del framework Laraxot <nome progetto>. Utilizzandolo regolarmente, è possibile garantire che il codice segua sempre la struttura richiesta, facilitando la manutenzione e l'interoperabilità tra i vari moduli. 
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)

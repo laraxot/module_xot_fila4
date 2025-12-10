@@ -33,6 +33,7 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 =======
 >>>>>>> ce6fc085 (.)
@@ -121,7 +122,16 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ## File Corretti
 
@@ -265,6 +275,7 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -306,7 +317,12 @@ php artisan lang:check
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 
 ### Modulo User
@@ -332,6 +348,7 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -354,7 +371,13 @@ php artisan lang:check
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 - [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
 
 ### Modulo User
@@ -364,6 +387,7 @@ php artisan lang:check
 - [Git Conflicts Resolution](laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,7 +446,13 @@ php artisan lang:check
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ## Best Practices Applicate
 
@@ -498,6 +528,7 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -539,7 +570,12 @@ php artisan lang:check
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 - [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
 
@@ -565,6 +601,7 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -587,7 +624,13 @@ php artisan lang:check
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 - [Geo Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
 - [User Theme Conflicts](laravel/Modules/User/docs/theme-translation-conflicts-resolution.md)
 
@@ -597,6 +640,7 @@ php artisan lang:check
 - [Git Best Practices](../../docs/git-best-practices.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -655,7 +699,13 @@ php artisan lang:check
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ---
 

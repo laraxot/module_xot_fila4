@@ -89,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
    - ✅ `/var/www/html/<nome progetto>/laravel/Modules/Module/Datas/`
 =======
@@ -141,7 +142,14 @@
    - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+   - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
+   - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
    - ❌ `/var/www/html/_bases/base_techplanner_fila3_mono/Modules/Module/Datas/`
    - ✅ `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Module/Datas/`
    - ❌ `/var/www/html/<nome progetto>/Modules/Module/Datas/`
@@ -151,6 +159,7 @@
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,7 +245,12 @@
    - ❌ `/var/www/html/saluteora/Modules/Module/Datas/`
    - ✅ `/var/www/html/saluteora/laravel/Modules/Module/Datas/`
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 2. **Errore**: Namespace errato
    - ❌ `namespace Modules\Module\App\Datas;`

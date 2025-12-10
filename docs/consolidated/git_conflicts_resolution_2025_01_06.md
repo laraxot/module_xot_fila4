@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 85cdef688 (.)
@@ -26,6 +27,12 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 2bad128c (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
 
 ## File Corretti
 

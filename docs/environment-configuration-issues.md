@@ -142,6 +142,7 @@ php artisan config:cache
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 2025-01-06* 
 =======
@@ -154,7 +155,12 @@ php artisan config:cache
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 - [Documentazione Root](/docs/env-config-loading-issue.md)
+=======
+- [Documentazione Root](/project_docs/env-config-loading-issue.md)
+>>>>>>> a5dccfe (.)
 
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 6ca989d8 (.)

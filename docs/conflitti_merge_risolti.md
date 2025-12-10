@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3bf39332 (.)
 # Risoluzione Conflitti di Merge 
 
 # Risoluzione Conflitti di Merge in <nome progetto>
@@ -16,6 +19,7 @@ Durante lo sviluppo del progetto <nome progetto>, sono stati identificati divers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -26,7 +30,12 @@ Durante lo sviluppo del progetto <nome progetto>, sono stati identificati divers
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 # Risoluzione Conflitti di Merge in <nome progetto>
 
 ## Problema
@@ -34,6 +43,7 @@ Durante lo sviluppo del progetto <nome progetto>, sono stati identificati divers
 Durante lo sviluppo del progetto <nome progetto>, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,7 +79,12 @@ Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 I file principali con conflitti erano:
 - `Modules/Xot/app/Datas/MetatagData.php`
@@ -181,5 +196,8 @@ Durante la risoluzione dei conflitti, nel file `Modules/Xot/app/Filament/Resourc
 ## Conclusioni
 
 La risoluzione dei conflitti di merge ha ripristinato la corretta funzionalità delle classi nel modulo Xot, permettendo l'analisi statica con PHPStan e garantendo il corretto funzionamento dell'applicazione. Le soluzioni implementate hanno mantenuto la coerenza del codice e migliorato la robustezza delle classi interessate.
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 3bf39332 (.)

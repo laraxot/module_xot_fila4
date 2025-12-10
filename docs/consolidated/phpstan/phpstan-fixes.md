@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -42,7 +43,13 @@
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 # Correzioni PHPStan Livello 7 - Modulo Xot
 
 Questo documento traccia gli errori PHPStan di livello 7 identificati nel modulo Xot e le relative soluzioni implementate.
@@ -880,6 +887,7 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -931,7 +939,13 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 # Correzioni PHPStan - 6 Gennaio 2025
 
 ## Errori Risolti
@@ -987,6 +1001,7 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -994,6 +1009,8 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> ab5b3a4f (.)
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
@@ -1079,7 +1096,16 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 =======
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+### 4. SaluteOra/app/States/Appointment/ReportPending.php
+=======
+### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 **Problema**: Linea 27 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, Component>` ma restituiva `array<int|string, Component>`

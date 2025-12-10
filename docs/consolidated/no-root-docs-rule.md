@@ -216,10 +216,25 @@
 # REGOLA CRITICA: Cartelle docs root VIETATE
 
 ## CARTELLE CHE NON DEVONO MAI ESISTERE:
+<<<<<<< HEAD
 - `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
 - `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+<<<<<<< HEAD
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+=======
+- `/var/www/html/_bases/base_techplanner_fila3_mono/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_<nome progetto>/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_<nome progetto>/laravel/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ## REGOLA FONDAMENTALE:
 **TUTTA la documentazione va SOLO nelle cartelle `docs` dei moduli specifici**
@@ -248,6 +263,7 @@ Questa regola ha priorità assoluta su qualsiasi altra considerazione.
 # Comando per verificare che non esistano cartelle docs root
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,10 +312,14 @@ find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -
 find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
 >>>>>>> 472bd9dc (.)
 =======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 3bf39332 (.)
+=======
 find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_techplanner_fila3_mono/docs$|^/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs$)"
 find /var/www/html/_bases/base_<nome progetto> -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_<nome progetto>/docs$|^/var/www/html/_bases/base_<nome progetto>/laravel/docs$)"
 find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_techplanner_fila3_mono/docs$|^/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs$)"
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -371,7 +391,12 @@ find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep
 =======
 find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 # Se il comando restituisce output = ERRORE CRITICO
 # Se il comando non restituisce output = OK
 ```

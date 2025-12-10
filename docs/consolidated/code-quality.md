@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -42,7 +43,13 @@
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -131,6 +138,7 @@ This document outlines the best practices for maintaining high code quality with
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -182,7 +190,13 @@ This document outlines the best practices for maintaining high code quality with
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -477,6 +491,7 @@ cd /var/www/html/_bases/base_saluteora/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 >>>>>>> ce6fc085 (.)
@@ -565,7 +580,16 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 
@@ -686,6 +710,7 @@ unset($translations['existing_key']); // MAI!
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -693,6 +718,8 @@ unset($translations['existing_key']); // MAI!
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> ab5b3a4f (.)
 **Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
@@ -778,7 +805,16 @@ unset($translations['existing_key']); // MAI!
 =======
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+=======
+**Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ---
 

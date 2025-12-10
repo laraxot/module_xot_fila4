@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`**
 =======
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`**
@@ -56,10 +57,14 @@
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
 >>>>>>> 472bd9dc (.)
 =======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> 3bf39332 (.)
+=======
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`**
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`**
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`**
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,7 +136,12 @@
 =======
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ## Motivazione
 

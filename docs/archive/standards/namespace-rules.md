@@ -40,6 +40,7 @@ Nonostante le classi possano risiedere fisicamente nella sottodirectory `app/` d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
@@ -81,6 +82,8 @@ namespace Modules\Patient\Models;
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
 // File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
@@ -98,6 +101,7 @@ namespace Modules\Patient\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d86d643a (.)
@@ -117,10 +121,14 @@ namespace Modules\Patient\Models;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
 // File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
 // File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Dental/app/Services/AppointmentService.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,7 +151,12 @@ namespace Modules\Patient\Models;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 // File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
@@ -155,6 +168,7 @@ namespace Modules\Patient\Models;
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,7 +264,12 @@ namespace Modules\Patient\Models;
 =======
 =======
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 namespace Modules\Dental\Services;
 ```
 

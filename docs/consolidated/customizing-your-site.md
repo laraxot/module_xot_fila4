@@ -66,6 +66,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -91,7 +92,13 @@ Here’s a quick preview of what some of the basic type styles will look like in
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
@@ -108,6 +115,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 #### h4 Heading
 ##### h5 Heading
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,7 +173,13 @@ Here’s a quick preview of what some of the basic type styles will look like in
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ## h2 Heading
 

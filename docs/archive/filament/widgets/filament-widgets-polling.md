@@ -167,6 +167,7 @@ Questa funzionalità è compatibile con:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -288,4 +289,12 @@ Questa funzionalità è compatibile con:
 =======
 - [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)

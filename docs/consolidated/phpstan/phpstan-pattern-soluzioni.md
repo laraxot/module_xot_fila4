@@ -306,6 +306,7 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -333,7 +334,14 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 ## Collegamenti tra versioni di PHPSTAN_PATTERN_SOLUZIONI.md
 * [PHPSTAN_PATTERN_SOLUZIONI.md](../../../Xot/project_docs/phpstan/PHPSTAN_PATTERN_SOLUZIONI.md)
@@ -364,6 +372,7 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
@@ -389,6 +398,17 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab5b3a4f (.)
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 =======
 <<<<<<< HEAD
@@ -447,4 +467,10 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 =======
 3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)

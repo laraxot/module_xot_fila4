@@ -101,6 +101,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. Seguire le convenzioni di Filament 
 =======
 5. Seguire le convenzioni di Filament 
@@ -122,3 +123,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> 59259b43 (.)
+=======
+=======
+5. Seguire le convenzioni di Filament 
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)

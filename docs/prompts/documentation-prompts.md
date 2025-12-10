@@ -77,6 +77,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 <<<<<<< HEAD
 =======
@@ -105,9 +106,13 @@ Questo documento descrive le regole e le best practices per i prompt di document
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> 472bd9dc (.)
 =======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 3bf39332 (.)
+=======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,7 +179,12 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ### Formato Corretto
 ```markdown
@@ -198,6 +208,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> 59259b43 (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,9 +289,12 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 >>>>>>> 472bd9dc (.)
 =======
+>>>>>>> 3bf39332 (.)
+=======
 [Documento in Modulo Altro](../../AltroModulo/project_docs/documento.md)
 [Documento in Root](../../../project_docs/documento.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,7 +386,12 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 =======
 >>>>>>> ba1d49f3 (.)
+<<<<<<< HEAD
 >>>>>>> 59259b43 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ```
 
 ### Formato Non Corretto
@@ -381,6 +400,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 # Collegamenti Non Corretti
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -524,7 +544,15 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
@@ -535,6 +563,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -649,7 +678,12 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ```
 
 ### Checklist di Validazione

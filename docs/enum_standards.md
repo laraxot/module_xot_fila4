@@ -14,7 +14,11 @@
 >>>>>>> 62cc8443 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ab5b3a4f (.)
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
@@ -35,7 +39,12 @@ This document defines the standards and best practices for working with Enums in
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
@@ -44,6 +53,7 @@ This document defines the standards and best practices for working with Enums in
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,7 +66,12 @@ This document defines the standards and best practices for working with Enums in
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ## Naming Conventions
 
@@ -139,6 +154,7 @@ namespace Modules\<nome modulo>\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Enums;
 =======
 >>>>>>> 62cc8443 (.)
@@ -166,7 +182,13 @@ namespace Modules\SaluteOra\Enums;
 =======
 namespace Modules\<nome modulo>\Enums;
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+namespace Modules\<nome modulo>\Enums;
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 use Filament\Support\Contracts\HasLabel;
 
@@ -197,7 +219,10 @@ enum AppointmentTypeEnum: string implements HasLabel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ab5b3a4f (.)
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
             self::CONSULTATION => __('saluteora::app.consultation'),
@@ -243,7 +268,14 @@ enum AppointmentTypeEnum: string implements HasLabel
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+            self::CONSULTATION => __('<nome progetto>::app.consultation'),
+            self::CLEANING => __('<nome progetto>::app.cleaning'),
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
             // ... other cases
         };
     }
@@ -252,6 +284,18 @@ enum AppointmentTypeEnum: string implements HasLabel
 // Alias for backward compatibility
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+>>>>>>> ab5b3a4f (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -287,7 +331,13 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentT
 =======
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ```
 
 ## Updating Existing Enums
@@ -311,6 +361,7 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 43d67f21 (.)
 =======
@@ -336,4 +387,11 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\Appoin
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)

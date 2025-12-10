@@ -118,6 +118,7 @@ composer dump-autoload
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d86d643a (.)
@@ -140,7 +141,13 @@ composer dump-autoload
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ### File: `tests/Unit/HasXotTableTest.php` (2025-01-06)
 
 - **Problema**: Classi `HasTableWithXot`, `HasTableWithoutOptionalMethods`, `DummyModel` senza namespace appropriato
@@ -153,6 +160,7 @@ composer dump-autoload
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,7 +218,13 @@ composer dump-autoload
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ### File: `tests/Unit/HasExtraTraitTest.php`
 
 - **Problema**: Classe `TestExtra` senza namespace appropriato
@@ -251,6 +265,7 @@ composer dump-autoload
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -334,7 +349,15 @@ composer dump-autoload
 =======
 - [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 - [PHPStan Configuration](./phpstan-configuration-fixes.md)
 - [Best Practices](./best-practices-consolidated.md)
 

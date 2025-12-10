@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 <<<<<<< HEAD
@@ -31,6 +32,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ab5b3a4f (.)
 # Risoluzione Conflitti di Merge in <nome progetto>
 
 ## Problema
@@ -114,7 +118,12 @@ Durante lo sviluppo del progetto , sono stati identificati diversi file con conf
 # Risoluzione Conflitti di Merge 
 
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 # Risoluzione Conflitti di Merge in SaluteOra
 
 ## Problema
@@ -140,6 +149,7 @@ Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -156,7 +166,12 @@ Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 # Risoluzione Conflitti di Merge in 
 
 ## Problema
@@ -170,6 +185,7 @@ Durante lo sviluppo del progetto <nome progetto>, sono stati identificati divers
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,7 +232,12 @@ Durante lo sviluppo del progetto <nome progetto>, sono stati identificati divers
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 I file principali con conflitti erano:
 - `Modules/Xot/app/Datas/MetatagData.php`

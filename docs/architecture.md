@@ -393,6 +393,7 @@ test('all models extend base model', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [**Best Practices**](../docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../docs/troubleshooting.md) - Risoluzione problemi
@@ -405,9 +406,14 @@ test('all models extend base model', function () {
 - [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
 =======
+- [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
+- [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
+>>>>>>> ab5b3a4f (.)
+=======
 - [**Best Practices**](../docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../docs/troubleshooting.md) - Risoluzione problemi
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 - [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
@@ -417,6 +423,8 @@ test('all models extend base model', function () {
 - [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> ab5b3a4f (.)
 
 ---
 

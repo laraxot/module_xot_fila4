@@ -92,6 +92,7 @@ Contratto per modelli che hanno profili.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Policy PHPStan Errors](../User/docs/policy-phpstan-errors.md)
 - [Root PHPStan Errors](../../docs/troubleshooting/phpstan-errors.md)
@@ -107,10 +108,16 @@ Contratto per modelli che hanno profili.
 - [Root PHPStan Errors](../../project_docs/troubleshooting/phpstan-errors.md)
 - [Spatie Permission Documentation](https://spatie.be/project_docs/laravel-permission)
 =======
+- [Policy PHPStan Errors](../User/project_docs/policy-phpstan-errors.md)
+- [Root PHPStan Errors](../../project_docs/troubleshooting/phpstan-errors.md)
+- [Spatie Permission Documentation](https://spatie.be/project_docs/laravel-permission)
+>>>>>>> ab5b3a4f (.)
+=======
 - [Policy PHPStan Errors](../User/docs/policy-phpstan-errors.md)
 - [Root PHPStan Errors](../../docs/troubleshooting/phpstan-errors.md)
 - [Spatie Permission Documentation](https://spatie.be/docs/laravel-permission)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 - [Policy PHPStan Errors](../User/project_docs/policy-phpstan-errors.md)
@@ -122,5 +129,7 @@ Contratto per modelli che hanno profili.
 - [Root PHPStan Errors](../../project_docs/troubleshooting/phpstan-errors.md)
 - [Spatie Permission Documentation](https://spatie.be/project_docs/laravel-permission)
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> ab5b3a4f (.)
 
 *Ultimo aggiornamento: 2025-01-06*

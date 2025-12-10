@@ -105,6 +105,7 @@ L'architettura proposta dovrà evolvere attraverso iterazioni successive, valida
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 
 =======
@@ -117,3 +118,8 @@ L'architettura proposta dovrà evolvere attraverso iterazioni successive, valida
 * [analisi-architettura-sistema.md](../../../Xot/project_docs/architecture/analisi-architettura-sistema.md)
 
 >>>>>>> 2bad128c (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)

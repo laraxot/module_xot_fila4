@@ -113,6 +113,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -165,10 +166,13 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
 - Content from `config/local/saluteora/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets (SaluteOra)
 - SVG in `laravel/Modules/SaluteOra/resources/svg/`, kebab-case; reference as `saluteora-{name}`.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,6 +204,8 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 >>>>>>> 472bd9dc (.)
 =======
+>>>>>>> 3bf39332 (.)
+=======
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets ()
@@ -209,6 +215,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 ## 10. Icons & Assets (<nome progetto>)
 - SVG in `laravel/Modules/<nome progetto>/resources/svg/`, kebab-case; reference as `<nome progetto>-{name}`.
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,7 +262,12 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ## 11. Translation Hygiene
 - Never remove keys/content; only add.

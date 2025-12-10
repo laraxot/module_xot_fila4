@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive le best practice per la gestione dei file upload nei form Filament di <nome progetto>, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
 =======
 Questo documento descrive le best practice per la gestione dei file upload nei form Filament di , con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
@@ -58,9 +59,13 @@ Questo documento descrive le best practice per la gestione dei file upload nei f
 Questo documento descrive le best practice per la gestione dei file upload nei form Filament di SaluteOra, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
 >>>>>>> 472bd9dc (.)
 =======
+Questo documento descrive le best practice per la gestione dei file upload nei form Filament di SaluteOra, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
+>>>>>>> 3bf39332 (.)
+=======
 Questo documento descrive le best practice per la gestione dei file upload nei form Filament di , con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
 Questo documento descrive le best practice per la gestione dei file upload nei form Filament di <nome progetto>, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,7 +132,12 @@ Questo documento descrive le best practice per la gestione dei file upload nei f
 =======
 Questo documento descrive le best practice per la gestione dei file upload nei form Filament di SaluteOra, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 ## Configurazione del Componente FileUpload
 

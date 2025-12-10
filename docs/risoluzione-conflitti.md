@@ -34,6 +34,7 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 - [Registrazione Utenti](../../Themes/One/docs/AUTH.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Componenti Filament](../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
 - [Registrazione Utenti](../../Themes/One/project_docs/AUTH.md)
 >>>>>>> 85cdef688 (.)
@@ -61,9 +62,12 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> ab5b3a4f (.)
+=======
 - [Componenti Filament](../../Themes/One/project_docs/FILAMENT_COMPONENTS.md)
 - [Registrazione Utenti](../../Themes/One/project_docs/AUTH.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -77,6 +81,8 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 - [Componenti Filament](../../Themes/One/docs/FILAMENT_COMPONENTS.md)
 - [Registrazione Utenti](../../Themes/One/docs/AUTH.md)
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> ab5b3a4f (.)
   - Implementazione completa sistema registrazione
   - Gestione tipi utente dinamica
   - UI moderna con Filament
@@ -171,6 +177,7 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 - [Report completo di intervento](../../../docs/logs/conflict_resolution_report.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione generale sulla risoluzione dei conflitti git](../../../project_docs/risoluzione_conflitti_git.md)
 - [Report completo di intervento](../../../project_docs/logs/conflict_resolution_report.md)
 >>>>>>> 85cdef688 (.)
@@ -198,9 +205,12 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> ab5b3a4f (.)
+=======
 - [Documentazione generale sulla risoluzione dei conflitti git](../../../project_docs/risoluzione_conflitti_git.md)
 - [Report completo di intervento](../../../project_docs/logs/conflict_resolution_report.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -214,6 +224,8 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 - [Documentazione generale sulla risoluzione dei conflitti git](../../../docs/risoluzione_conflitti_git.md)
 - [Report completo di intervento](../../../docs/logs/conflict_resolution_report.md)
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 - [Dettagli risoluzione ModelWithPosContract](./conflicts/model_with_pos_contract_resolution.md)
 
 ## XotBaseMainPanelProvider.php
@@ -320,6 +332,7 @@ Le modifiche sono state applicate seguendo le best practice documentate in `CONF
 - Diversi file di documentazione in `Activity/docs/phpstan/` (level_1.md fino a level_10.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Diversi file di documentazione in `Activity/project_docs/phpstan/` (level_1.md fino a level_10.md)
 >>>>>>> 85cdef688 (.)
 =======
@@ -354,6 +367,11 @@ Le modifiche sono state applicate seguendo le best practice documentate in `CONF
 =======
 - Diversi file di documentazione in `Activity/docs/phpstan/` (level_1.md fino a level_10.md)
 >>>>>>> 59259b43 (.)
+=======
+=======
+- Diversi file di documentazione in `Activity/project_docs/phpstan/` (level_1.md fino a level_10.md)
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
 - File README.md del modulo Activity
 
 ### Modulo Xot
@@ -389,6 +407,7 @@ La risoluzione dei conflitti rimanenti dovrebbe seguire questi principi:
 * [risoluzione_conflitti.md](../../../Tenant/docs/risoluzione_conflitti.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [risoluzione_conflitti.md](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [risoluzione_conflitti.md](../../../Tenant/project_docs/risoluzione_conflitti.md)
 >>>>>>> 85cdef688 (.)
@@ -416,9 +435,12 @@ La risoluzione dei conflitti rimanenti dovrebbe seguire questi principi:
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> ab5b3a4f (.)
+=======
 * [risoluzione_conflitti.md](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [risoluzione_conflitti.md](../../../Tenant/project_docs/risoluzione_conflitti.md)
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -432,6 +454,8 @@ La risoluzione dei conflitti rimanenti dovrebbe seguire questi principi:
 * [risoluzione_conflitti.md](../../../Xot/docs/risoluzione_conflitti.md)
 * [risoluzione_conflitti.md](../../../Tenant/docs/risoluzione_conflitti.md)
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 
 aurmich/dev
 5693302 (.)
@@ -449,6 +473,7 @@ b6f667c (.)
 * [Linee Guida Principali Risoluzione Conflitti](../../../../docs/conflict_resolution.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [Risoluzione Conflitti Xot](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [Risoluzione Conflitti Tenant](../../../Tenant/project_docs/risoluzione_conflitti.md)
 * [Linee Guida Principali Risoluzione Conflitti](../../../../project_docs/conflict_resolution.md)
@@ -471,9 +496,12 @@ b6f667c (.)
 * [Linee Guida Principali Risoluzione Conflitti](../../../../docs/conflict_resolution.md)
 >>>>>>> 2bad128c (.)
 =======
+>>>>>>> ab5b3a4f (.)
+=======
 * [Risoluzione Conflitti Xot](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [Risoluzione Conflitti Tenant](../../../Tenant/project_docs/risoluzione_conflitti.md)
 * [Linee Guida Principali Risoluzione Conflitti](../../../../project_docs/conflict_resolution.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
@@ -501,5 +529,8 @@ b6f667c (.)
 * [Risoluzione Conflitti Tenant](../../../Tenant/docs/risoluzione_conflitti.md)
 * [Linee Guida Principali Risoluzione Conflitti](../../../../docs/conflict_resolution.md)
 >>>>>>> 59259b43 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> ab5b3a4f (.)
 fc83074 (.)
 

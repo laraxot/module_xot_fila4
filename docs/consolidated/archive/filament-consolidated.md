@@ -61,6 +61,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Filament\Resources;
 =======
 namespace Modules\<nome modulo>\Filament\Resources;
@@ -89,9 +90,13 @@ namespace Modules\<nome modulo>\Filament\Resources;
 namespace Modules\SaluteOra\Filament\Resources;
 >>>>>>> 472bd9dc (.)
 =======
+namespace Modules\SaluteOra\Filament\Resources;
+>>>>>>> 3bf39332 (.)
+=======
 namespace Modules\<nome modulo>\Filament\Resources;
 namespace Modules\<nome modulo>\Filament\Resources;
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,7 +163,12 @@ namespace Modules\SaluteOra\Filament\Resources;
 =======
 namespace Modules\SaluteOra\Filament\Resources;
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms\Components\TextInput;
@@ -219,6 +229,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Filament\Pages;
 =======
 namespace Modules\<nome modulo>\Filament\Pages;
@@ -247,9 +258,13 @@ namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
 >>>>>>> 472bd9dc (.)
 =======
+namespace Modules\SaluteOra\Filament\Pages;
+>>>>>>> 3bf39332 (.)
+=======
 namespace Modules\<nome modulo>\Filament\Pages;
 namespace Modules\<nome modulo>\Filament\Pages;
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,7 +331,12 @@ namespace Modules\SaluteOra\Filament\Pages;
 =======
 namespace Modules\SaluteOra\Filament\Pages;
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 use Modules\Xot\Filament\Pages\XotBasePage;
 
@@ -343,6 +363,7 @@ class DashboardPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string $view = '<nome progetto>::filament.pages.dashboard';
 <<<<<<< HEAD
 =======
@@ -371,9 +392,13 @@ class DashboardPage extends XotBasePage
     protected static string $view = 'saluteora::filament.pages.dashboard';
 >>>>>>> 472bd9dc (.)
 =======
+    protected static string $view = 'saluteora::filament.pages.dashboard';
+>>>>>>> 3bf39332 (.)
+=======
     protected static string $view = '<nome progetto>::filament.pages.dashboard';
     protected static string $view = '<nome progetto>::filament.pages.dashboard';
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -440,7 +465,12 @@ class DashboardPage extends XotBasePage
 =======
     protected static string $view = 'saluteora::filament.pages.dashboard';
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
     /**
      * @return array<class-string>
@@ -450,6 +480,7 @@ class DashboardPage extends XotBasePage
         return [
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -497,9 +528,13 @@ class DashboardPage extends XotBasePage
             \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
 >>>>>>> 472bd9dc (.)
 =======
+            \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
+>>>>>>> 3bf39332 (.)
+=======
             \Modules\<nome modulo>\Filament\Widgets\StatsWidget::class,
             \Modules\<nome modulo>\Filament\Widgets\StatsWidget::class,
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -566,7 +601,12 @@ class DashboardPage extends XotBasePage
 =======
             \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
         ];
     }
 }
@@ -580,6 +620,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -627,9 +668,13 @@ namespace Modules\<nome modulo>\Filament\Widgets;
 namespace Modules\SaluteOra\Filament\Widgets;
 >>>>>>> 472bd9dc (.)
 =======
+namespace Modules\SaluteOra\Filament\Widgets;
+>>>>>>> 3bf39332 (.)
+=======
 namespace Modules\<nome modulo>\Filament\Widgets;
 namespace Modules\<nome modulo>\Filament\Widgets;
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -696,7 +741,12 @@ namespace Modules\SaluteOra\Filament\Widgets;
 =======
 namespace Modules\SaluteOra\Filament\Widgets;
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
@@ -742,6 +792,7 @@ TextInput::make('name')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->label(__('<nome progetto>::fields.name.label'))
     ->placeholder(__('<nome progetto>::fields.name.placeholder'))
     ->helperText(__('<nome progetto>::fields.name.help'))
@@ -802,7 +853,15 @@ TextInput::make('name')
     ->helperText(__('saluteora::fields.name.help'))
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+    ->label(__('saluteora::fields.name.label'))
+    ->placeholder(__('saluteora::fields.name.placeholder'))
+    ->helperText(__('saluteora::fields.name.help'))
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
     ->label(__('<nome progetto>::fields.name.label'))
     ->placeholder(__('<nome progetto>::fields.name.placeholder'))
     ->helperText(__('<nome progetto>::fields.name.help'))
@@ -812,6 +871,7 @@ TextInput::make('name')
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -932,7 +992,12 @@ TextInput::make('name')
     ->placeholder(__('saluteora::fields.name.placeholder'))
     ->helperText(__('saluteora::fields.name.help'))
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
     ->required()
     ->maxLength(255);
 ```
@@ -960,6 +1025,7 @@ Select::make('status')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -1020,7 +1086,12 @@ Select::make('status')
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
     ->label(__('saluteora::fields.status.label'))
     ->options([
         'active' => __('saluteora::fields.status.options.active'),
@@ -1045,6 +1116,7 @@ Select::make('status')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -1061,7 +1133,12 @@ Select::make('status')
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
     ->label(__('<nome progetto>::fields.status.label'))
     ->options([
         'active' => __('<nome progetto>::fields.status.options.active'),
@@ -1073,6 +1150,7 @@ Select::make('status')
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1119,7 +1197,12 @@ Select::make('status')
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
     ])
     ->required();
 ```
@@ -1147,6 +1230,7 @@ DatePicker::make('appointment_date')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->label(__('<nome progetto>::fields.appointment_date.label'))
     ->placeholder(__('<nome progetto>::fields.appointment_date.placeholder'))
 <<<<<<< HEAD
@@ -1190,7 +1274,14 @@ DatePicker::make('appointment_date')
     ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+    ->label(__('saluteora::fields.appointment_date.label'))
+    ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
     ->label(__('<nome progetto>::fields.appointment_date.label'))
     ->placeholder(__('<nome progetto>::fields.appointment_date.placeholder'))
     ->label(__('<nome progetto>::fields.appointment_date.label'))
@@ -1198,6 +1289,7 @@ DatePicker::make('appointment_date')
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1287,7 +1379,12 @@ DatePicker::make('appointment_date')
     ->label(__('saluteora::fields.appointment_date.label'))
     ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
     ->required()
     ->minDate(now());
 ```
@@ -1317,6 +1414,7 @@ Tables\Columns\TextColumn::make('name')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->label(__('<nome progetto>::fields.name.label'))
 <<<<<<< HEAD
 =======
@@ -1345,9 +1443,13 @@ Tables\Columns\TextColumn::make('name')
     ->label(__('saluteora::fields.name.label'))
 >>>>>>> 472bd9dc (.)
 =======
+    ->label(__('saluteora::fields.name.label'))
+>>>>>>> 3bf39332 (.)
+=======
     ->label(__('<nome progetto>::fields.name.label'))
     ->label(__('<nome progetto>::fields.name.label'))
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1414,7 +1516,12 @@ Tables\Columns\TextColumn::make('name')
 =======
     ->label(__('saluteora::fields.name.label'))
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
     ->searchable()
     ->sortable();
 ```
@@ -1442,6 +1549,7 @@ Tables\Columns\BadgeColumn::make('status')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->label(__('<nome progetto>::fields.status.label'))
 <<<<<<< HEAD
 =======
@@ -1470,9 +1578,13 @@ Tables\Columns\BadgeColumn::make('status')
     ->label(__('saluteora::fields.status.label'))
 >>>>>>> 472bd9dc (.)
 =======
+    ->label(__('saluteora::fields.status.label'))
+>>>>>>> 3bf39332 (.)
+=======
     ->label(__('<nome progetto>::fields.status.label'))
     ->label(__('<nome progetto>::fields.status.label'))
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1539,7 +1651,12 @@ Tables\Columns\BadgeColumn::make('status')
 =======
     ->label(__('saluteora::fields.status.label'))
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
     ->colors([
         'success' => 'active',
         'danger' => 'inactive',
@@ -1569,6 +1686,7 @@ Tables\Columns\TextColumn::make('actions')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -1631,7 +1749,12 @@ Tables\Columns\TextColumn::make('actions')
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
     ->label(__('saluteora::actions.label'))
     ->actions([
         Tables\Actions\EditAction::make()
@@ -1658,6 +1781,7 @@ Tables\Columns\TextColumn::make('actions')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -1674,7 +1798,12 @@ Tables\Columns\TextColumn::make('actions')
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
     ->label(__('<nome progetto>::actions.label'))
     ->actions([
         Tables\Actions\EditAction::make()
@@ -1690,6 +1819,7 @@ Tables\Columns\TextColumn::make('actions')
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1736,7 +1866,12 @@ Tables\Columns\TextColumn::make('actions')
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
     ]);
 ```
 
@@ -1765,6 +1900,7 @@ Tables\Actions\CreateAction::make()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->label(__('<nome progetto>::actions.create.label'))
 <<<<<<< HEAD
 =======
@@ -1793,9 +1929,13 @@ Tables\Actions\CreateAction::make()
     ->label(__('saluteora::actions.create.label'))
 >>>>>>> 472bd9dc (.)
 =======
+    ->label(__('saluteora::actions.create.label'))
+>>>>>>> 3bf39332 (.)
+=======
     ->label(__('<nome progetto>::actions.create.label'))
     ->label(__('<nome progetto>::actions.create.label'))
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1862,7 +2002,12 @@ Tables\Actions\CreateAction::make()
 =======
     ->label(__('saluteora::actions.create.label'))
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
     ->icon('heroicon-o-plus')
     ->color('primary');
 ```
@@ -1890,6 +2035,7 @@ Tables\Actions\EditAction::make()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->label(__('<nome progetto>::actions.edit.label'))
 <<<<<<< HEAD
 =======
@@ -1918,9 +2064,13 @@ Tables\Actions\EditAction::make()
     ->label(__('saluteora::actions.edit.label'))
 >>>>>>> 472bd9dc (.)
 =======
+    ->label(__('saluteora::actions.edit.label'))
+>>>>>>> 3bf39332 (.)
+=======
     ->label(__('<nome progetto>::actions.edit.label'))
     ->label(__('<nome progetto>::actions.edit.label'))
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1987,7 +2137,12 @@ Tables\Actions\EditAction::make()
 =======
     ->label(__('saluteora::actions.edit.label'))
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
     ->icon('heroicon-o-pencil')
     ->color('warning');
 ```
@@ -2015,6 +2170,7 @@ Tables\Actions\DeleteAction::make()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -2077,7 +2233,12 @@ Tables\Actions\DeleteAction::make()
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
     ->label(__('saluteora::actions.delete.label'))
     ->icon('heroicon-o-trash')
     ->color('danger')
@@ -2104,6 +2265,7 @@ Tables\Actions\DeleteAction::make()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -2120,7 +2282,12 @@ Tables\Actions\DeleteAction::make()
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
     ->label(__('<nome progetto>::actions.delete.label'))
     ->icon('heroicon-o-trash')
     ->color('danger')
@@ -2136,6 +2303,7 @@ Tables\Actions\DeleteAction::make()
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2182,7 +2350,12 @@ Tables\Actions\DeleteAction::make()
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ```
 
 ## 🎯 Best Practices
@@ -2220,6 +2393,7 @@ TextInput::make('name')->label('Nome')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -2227,6 +2401,8 @@ TextInput::make('name')->label('Nome')
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> ab5b3a4f (.)
 namespace Modules\<nome progetto>\Filament\Resources;
 
 // ❌ ERRATO - Namespace con 'App'
@@ -2284,13 +2460,19 @@ namespace Modules\<nome modulo>\App\Filament\Resources;
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 namespace Modules\SaluteOra\Filament\Resources;
 
 // ❌ ERRATO - Namespace con 'App'
 namespace Modules\SaluteOra\App\Filament\Resources;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2325,7 +2507,12 @@ namespace Modules\SaluteOra\App\Filament\Resources;
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 namespace Modules\<nome modulo>\Filament\Resources;
 
 // ❌ ERRATO - Namespace con 'App'
@@ -2337,6 +2524,7 @@ namespace Modules\<nome modulo>\App\Filament\Resources;
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2383,7 +2571,12 @@ namespace Modules\<nome modulo>\App\Filament\Resources;
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ```
 
 ### 3. Ereditarietà
@@ -2419,6 +2612,7 @@ class PatientResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -2426,6 +2620,8 @@ class PatientResource extends Resource
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> ab5b3a4f (.)
 class <nome progetto>ServiceProvider extends XotBaseServiceProvider
 {
     protected string $module_name = '<nome progetto>';
@@ -2489,7 +2685,12 @@ class ServiceProvider extends ServiceProvider
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 class SaluteOraServiceProvider extends XotBaseServiceProvider
 {
     protected string $module_name = 'SaluteOra';
@@ -2517,6 +2718,7 @@ class SaluteOraServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -2533,7 +2735,12 @@ class SaluteOraServiceProvider extends ServiceProvider
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 class ServiceProvider extends XotBaseServiceProvider
 {
     protected string $module_name = '';
@@ -2551,6 +2758,7 @@ class <nome progetto>ServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2597,7 +2805,12 @@ class <nome progetto>ServiceProvider extends ServiceProvider
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ```
 
 ## 🚨 Errori Comuni
@@ -2646,6 +2859,7 @@ TextInput::make('name')  // Traduzione automatica
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -2653,6 +2867,8 @@ TextInput::make('name')  // Traduzione automatica
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> ab5b3a4f (.)
 namespace Modules\<nome progetto>\App\Filament\Resources;
 
 // ✅ CORRETTO
@@ -2710,13 +2926,19 @@ namespace Modules\<nome modulo>\Filament\Resources;
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 namespace Modules\SaluteOra\App\Filament\Resources;
 
 // ✅ CORRETTO
 namespace Modules\SaluteOra\Filament\Resources;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2751,7 +2973,12 @@ namespace Modules\SaluteOra\Filament\Resources;
 =======
 >>>>>>> 472bd9dc (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> ab5b3a4f (.)
 namespace Modules\<nome modulo>\App\Filament\Resources;
 
 // ✅ CORRETTO
@@ -2763,6 +2990,7 @@ namespace Modules\<nome modulo>\Filament\Resources;
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2809,7 +3037,12 @@ namespace Modules\<nome modulo>\Filament\Resources;
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+>>>>>>> ab5b3a4f (.)
 ```
 
 ## 📋 Checklist Pre-Commit

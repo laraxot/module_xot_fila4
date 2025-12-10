@@ -41,5 +41,12 @@ return new class extends XotBaseMigration {
             $table->string('owner');
             $table->integer('expiration');
         });
+        $this->tableCreate(
+            static function (Blueprint $table): void {
+                $table->string('key')->primary();
+                $table->string('owner');
+                $table->integer('expiration');
+            }
+        );
     }
 };

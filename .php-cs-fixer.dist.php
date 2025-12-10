@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -58,6 +57,6 @@ $config
         'class_definition' => true,
         'elseif' => true,
     ])
-    ->setFinder($finder)
+    ->setFinder($finder);
 
 return $config;

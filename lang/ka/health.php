@@ -13,6 +13,7 @@ return [
                 'group' => 'პარამეტრები',
                 'label' => 'სერვერის ჯანმრთელობა',
             ],
+
             'notifications' => [
                 'check_results' => 'ბოლოს შემოწმდა:',
             ],

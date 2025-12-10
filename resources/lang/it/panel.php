@@ -431,3 +431,4 @@ return [
         'deleted_at' => 'Eliminato il',
     ],
 ];
+

@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -395,6 +396,8 @@ laravel/Modules/Patient/
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 43d67f21 (.)
 # Module Structure in Laraxot
 >>>>>>> 6821f7a (.)
 
@@ -846,6 +849,7 @@ Module/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -992,6 +996,8 @@ Se trovi una directory con case errato:
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a5dccfe (.)
+=======
+>>>>>>> 43d67f21 (.)
 │   ├── factories/
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)

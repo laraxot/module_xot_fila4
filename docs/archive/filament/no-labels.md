@@ -147,6 +147,7 @@ Se trovi codice che viola questa regola:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -393,3 +394,10 @@ Se trovi codice che viola questa regola:
 >>>>>>> a5dccfe (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> d86d643a (.)
+=======
+- [Documentazione sulla struttura delle traduzioni](/laravel/Modules/Xot/project_docs/translation_rules.md)
+- [Esempio pratico nel TeamsRelationManager](/laravel/Modules/User/project_docs/filament/teams_relation_manager.md)
+- [Regole per RelationManager](/project_docs/filament/relation_managers.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 43d67f21 (.)

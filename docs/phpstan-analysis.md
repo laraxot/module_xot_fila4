@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## stato analisi phpstan
 
 - **data**: 2025-11-12  
@@ -338,3 +339,5 @@ class MyModel extends BaseModel
 >>>>>>> 76bec91a (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 43d67f21 (.)

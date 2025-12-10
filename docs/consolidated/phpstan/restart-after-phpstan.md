@@ -89,6 +89,7 @@ composer dump-autoload
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -168,6 +169,8 @@ sudo systemctl restart apache2
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
 
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2

@@ -117,6 +117,7 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property string|null $updated_by
  * @property string|null $created_by
  *
@@ -149,6 +150,9 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+ *
+>>>>>>> cc7fb225 (.)
  * @method static Builder|HealthCheckResultHistoryItem newModelQuery()
  * @method static Builder|HealthCheckResultHistoryItem newQuery()
  * @method static Builder|HealthCheckResultHistoryItem query()
@@ -163,6 +167,7 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
  * @method static Builder|HealthCheckResultHistoryItem whereShortSummary($value)
  * @method static Builder|HealthCheckResultHistoryItem whereStatus($value)
  * @method static Builder|HealthCheckResultHistoryItem whereUpdatedAt($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
  * @property string|null $updated_by
@@ -200,12 +205,20 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
 =======
 >>>>>>> 71586de2 (.)
 =======
+=======
+ *
+>>>>>>> cc7fb225 (.)
  * @property string|null $updated_by
  * @property string|null $created_by
+ *
  * @method static Builder|HealthCheckResultHistoryItem whereCreatedBy($value)
  * @method static Builder|HealthCheckResultHistoryItem whereUpdatedBy($value)
+<<<<<<< HEAD
  * @mixin IdeHelperHealthCheckResultHistoryItem
 >>>>>>> 5a14301c (.)
+=======
+ *
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class HealthCheckResultHistoryItem extends BaseHealthCheckResultHistoryItem

@@ -84,6 +84,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|CacheLock whereOwner($value)
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -156,6 +157,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class CacheLock extends BaseModel

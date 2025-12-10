@@ -26,10 +26,13 @@ describe('XotBaseTransition', function (): void {
         /* @phpstan-ignore-next-line property.notFound, new.internalClass */
         $this->record = new TestModelForTransition;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
 uses(RefreshDatabase::class);
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
 
 describe('XotBaseTransition', function () {
     beforeEach(function () {
@@ -1974,6 +1977,7 @@ describe('XotBaseTransition', function () {
         /* @phpstan-ignore-next-line new.internalClass */
         $mockModel = new TestModelForTransition;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 
     it('processes recipients correctly in sendNotifications', function () {
@@ -2473,6 +2477,8 @@ describe('XotBaseTransition', function () {
             }
         };
 =======
+=======
+>>>>>>> cc7fb225 (.)
 
         // Create transition with concrete model
         $transition = new TestTransitionForTest($mockModel);

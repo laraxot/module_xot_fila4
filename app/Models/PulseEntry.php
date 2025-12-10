@@ -213,6 +213,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseEntry whereValue($value)
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
  * @mixin IdeHelperPulseEntry
@@ -226,6 +227,8 @@ use Illuminate\Database\Eloquent\Builder;
 =======
  * @mixin IdeHelperPulseEntry
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class PulseEntry extends BaseModel

@@ -15,6 +15,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -56,6 +57,8 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
 
 /**
  * Class BaseModel.
@@ -73,6 +76,7 @@ abstract class BaseModel extends XotBaseModel
 abstract class BaseModel extends Model
 >>>>>>> 53d6a6ba (.)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     use \Modules\Xot\Models\Traits\HasXotFactory;
 =======
@@ -417,4 +421,7 @@ abstract class BaseModel extends Model
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+    protected $connection = 'xot';
+>>>>>>> cc7fb225 (.)
 }

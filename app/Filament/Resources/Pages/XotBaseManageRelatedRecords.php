@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\Pages;
 
-use Webmozart\Assert\Assert;
+use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Filament\Traits\HasXotTable;
-use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
+use Webmozart\Assert\Assert;
 
 /**
  * ---
@@ -18,11 +18,11 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 
     protected function getDefaultTableSortColumn(): ?string
     {
-        return null;   
+        return null;
         /*
         try {
             $modelClass = $this->getModelClass();
-            // @var Model $model 
+            // @var Model $model
             $model = app($modelClass);
             Assert::isInstanceOf($model, Model::class);
 

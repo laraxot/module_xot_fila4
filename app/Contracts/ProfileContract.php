@@ -890,6 +890,7 @@ interface ProfileContract extends HasMedia
      * ---return BelongsTo<UserContract, self>.
 =======
      * Get the user that owns the profile.
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
      * ---return BelongsTo<UserContract, self>.
@@ -906,6 +907,8 @@ interface ProfileContract extends HasMedia
 =======
      * ---return BelongsTo<UserContract, self>.
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
      */
     public function user(): BelongsTo;
 

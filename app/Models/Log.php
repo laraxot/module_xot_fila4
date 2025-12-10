@@ -355,6 +355,7 @@ use Illuminate\Support\Facades\File;
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
  * @mixin IdeHelperLog
@@ -369,6 +370,8 @@ use Illuminate\Support\Facades\File;
 =======
  * @mixin IdeHelperLog
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class Log extends BaseModel

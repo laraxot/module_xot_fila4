@@ -218,6 +218,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Feed query()
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
  * @mixin IdeHelperFeed
@@ -230,6 +231,8 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
  * @mixin IdeHelperFeed
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

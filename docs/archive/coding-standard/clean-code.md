@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -456,3 +457,5 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il namespace `Modules\NomeModulo\Models` (senza "app")
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

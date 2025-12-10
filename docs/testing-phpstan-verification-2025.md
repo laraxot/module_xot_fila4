@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 # Verifica Testing e PHPStan - Gennaio 2025
@@ -192,3 +193,5 @@ vendor/bin/phpstan analyse Modules/Activity/ --configuration=Modules/Activity/ph
 =======
 *Documento di verifica - Framework Laraxot PTVX*
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)

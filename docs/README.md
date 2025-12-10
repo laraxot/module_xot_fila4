@@ -914,6 +914,7 @@ ls Modules/*/lang/*/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 21348520 (.)
@@ -959,6 +960,8 @@ ls Modules/*/lang/*/
 =======
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> cc7fb225 (.)
 # Xot Module - Framework Base Laraxot
 
 ## Overview
@@ -1173,6 +1176,7 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ## Quick Links Legacy
 =======
@@ -1184,6 +1188,8 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> cc7fb225 (.)
 ## Quick Links Legacy
 =======
 ## Principles
@@ -1194,6 +1200,7 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 
 ## Links
 - [Root Documentation](../../../project_docs/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
@@ -1214,6 +1221,8 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 =======
 ## Quick Links Legacy
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> cc7fb225 (.)
 - [Root Documentation](../../../docs/)
 - [<main module> Module](../<main module>/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)

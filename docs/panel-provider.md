@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -273,3 +274,5 @@ public function panel(Panel $panel): Panel
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

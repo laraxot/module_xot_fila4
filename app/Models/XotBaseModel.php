@@ -70,6 +70,9 @@ abstract class XotBaseModel extends Model
     use Traits\HasXotFactory;
     use Traits\RelationX;
 
+<<<<<<< HEAD
+>>>>>>> cc7fb225 (.)
+=======
 >>>>>>> cc7fb225 (.)
     // use Searchable;
 >>>>>>> 5a14301c (.)

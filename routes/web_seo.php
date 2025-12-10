@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-/*
+
 use Illuminate\Support\Facades\Route;
 
 $namespace = '\Modules\Xot\Http\Controllers';
@@ -15,4 +15,3 @@ Route::middleware($middleware)
     ->group(static function (): void {
         Route::get('/sitemap.xml', 'SitemapXmlController')->name('sitemap_xml');
     });
-*/

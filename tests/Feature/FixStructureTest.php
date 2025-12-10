@@ -12,6 +12,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Tests\Feature;
 
 <<<<<<< HEAD
@@ -54,6 +55,8 @@ use Illuminate\Support\Facades\File;
 
 namespace Modules\Xot\Tests\Feature;
 =======
+=======
+>>>>>>> cc7fb225 (.)
 use Modules\Xot\Tests\TestCase;
 
 <<<<<<< HEAD

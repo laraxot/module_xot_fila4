@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -3035,3 +3036,5 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 =======
 - [Architettura Modulare](../modular-architecture.md)
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> cc7fb225 (.)

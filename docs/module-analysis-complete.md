@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -645,3 +646,5 @@ Il modulo Xot è la base fondamentale del sistema SaluteOra, fornendo classi bas
 **Prossima Revisione**: Gennaio 2025
 
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)

@@ -166,6 +166,7 @@ use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 =======
 =======
@@ -179,6 +180,8 @@ use Spatie\Health\Checks\Check;
 =======
 use Spatie\Health\Checks\Check;
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> cc7fb225 (.)
 use Spatie\Health\Checks\Checks;
 >>>>>>> cc7fb225 (.)
 use Spatie\Health\Checks\Checks\CacheCheck;

@@ -5,7 +5,11 @@
 
 ## Contesto
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto presentava **323 conflitti Git** distribuiti su tutto il modulo Xot, User e <nome progetto>, causando errori ParseError e blocco di `composer dump-autoload`.
+=======
+Il progetto presentava **323 conflitti Git** distribuiti su tutto il modulo Xot, User e Quaeris, causando errori ParseError e blocco di `composer dump-autoload`.
+>>>>>>> cc7fb225 (.)
 =======
 Il progetto presentava **323 conflitti Git** distribuiti su tutto il modulo Xot, User e Quaeris, causando errori ParseError e blocco di `composer dump-autoload`.
 >>>>>>> cc7fb225 (.)
@@ -15,7 +19,11 @@ Il progetto presentava **323 conflitti Git** distribuiti su tutto il modulo Xot,
 ### 1. Identificazione Sistematica
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches > /tmp/git-conflicts-list.txt
+>>>>>>> cc7fb225 (.)
 =======
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches > /tmp/git-conflicts-list.txt
 >>>>>>> cc7fb225 (.)
@@ -68,7 +76,11 @@ Per conflitti complessi (3 file finali):
 ### Verifica Finale
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
+>>>>>>> cc7fb225 (.)
 =======
 grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
 >>>>>>> cc7fb225 (.)
@@ -91,7 +103,11 @@ find Modules/Xot/app/Actions -name "*.php" | xargs php -l 2>&1 | grep -c "No syn
 **Soluzione**: Ripristino da Git dopo tentativo fallito con sed
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 git checkout HEAD -- $(find Modules/<nome progetto> -name "*Widget.php" -type f)
+=======
+git checkout HEAD -- $(find Modules/Quaeris -name "*Widget.php" -type f)
+>>>>>>> cc7fb225 (.)
 =======
 git checkout HEAD -- $(find Modules/Quaeris -name "*Widget.php" -type f)
 >>>>>>> cc7fb225 (.)
@@ -130,7 +146,11 @@ git checkout HEAD -- $(find Modules/Quaeris -name "*Widget.php" -type f)
 # Dopo ogni batch
 find $BATCH_DIR -name "*.php" | xargs php -l
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+grep -r "^<<<<<<< HEAD" $BATCH_DIR | wc -l
+>>>>>>> cc7fb225 (.)
 =======
 grep -r "^<<<<<<< HEAD" $BATCH_DIR | wc -l
 >>>>>>> cc7fb225 (.)
@@ -167,15 +187,21 @@ git status --porcelain | grep "^UU\|^AA\|^DD"
 
 # Conta conflitti
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 # Lista per tipo
 =======
+=======
+>>>>>>> cc7fb225 (.)
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | wc -l
 
 # Lista per tipo
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.php$" | wc -l
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.md$" | wc -l
+<<<<<<< HEAD
+>>>>>>> cc7fb225 (.)
+=======
 >>>>>>> cc7fb225 (.)
 ```
 
@@ -186,7 +212,11 @@ grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.md$" | wc -l
 
 # Verifica
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+grep -r "^<<<<<<< HEAD" Modules/Xot/app --files-with-matches | wc -l
+>>>>>>> cc7fb225 (.)
 =======
 grep -r "^<<<<<<< HEAD" Modules/Xot/app --files-with-matches | wc -l
 >>>>>>> cc7fb225 (.)
@@ -199,7 +229,11 @@ find Modules/ -name "*.php" -type f | xargs php -l 2>&1 | grep -c "No syntax err
 
 # Conflitti rimasti
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
+>>>>>>> cc7fb225 (.)
 =======
 grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
 >>>>>>> cc7fb225 (.)
@@ -238,8 +272,11 @@ curl -I http://127.0.0.1:8000
 4. ⏳ Test di regressione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> cc7fb225 (.)
 =======
 >>>>>>> cc7fb225 (.)

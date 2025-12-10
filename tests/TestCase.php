@@ -405,6 +405,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $attributes
 =======
      * @param array<string, mixed> $attributes
@@ -429,6 +430,9 @@ abstract class TestCase extends BaseTestCase
      * @param array<string, mixed> $attributes
      * @return UserContract
 >>>>>>> 5a14301c (.)
+=======
+     * @param  array<string, mixed>  $attributes
+>>>>>>> cc7fb225 (.)
      */
     protected static function createTestUser(array $attributes = []): UserContract
     {
@@ -665,6 +669,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $attributes
 =======
      * @param string $type
@@ -694,6 +699,9 @@ abstract class TestCase extends BaseTestCase
      * @param array<string, mixed> $attributes
      * @return UserContract
 >>>>>>> 5a14301c (.)
+=======
+     * @param  array<string, mixed>  $attributes
+>>>>>>> cc7fb225 (.)
      */
     protected static function createTestUserWithType(string $type, array $attributes = []): UserContract
     {
@@ -726,6 +734,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $overrides
 =======
      * @param array<string, mixed> $overrides
@@ -745,6 +754,9 @@ abstract class TestCase extends BaseTestCase
 =======
      * @param array<string, mixed> $overrides
 >>>>>>> 5a14301c (.)
+=======
+     * @param  array<string, mixed>  $overrides
+>>>>>>> cc7fb225 (.)
      * @return array<string, mixed>
      */
     protected static function generateTestData(array $overrides = []): array

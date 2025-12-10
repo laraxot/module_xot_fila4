@@ -1800,6 +1800,7 @@ class XotData extends Data implements Wireable
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
         $user = $user_class::firstOrCreate(['email' => $email]);
@@ -1809,6 +1810,8 @@ class XotData extends Data implements Wireable
          * }
          */
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> cc7fb225 (.)
         Assert::implementsInterface($user, UserContract::class, '['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5320,6 +5323,7 @@ class XotData extends Data implements Wireable
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
 =======
@@ -5417,6 +5421,8 @@ class XotData extends Data implements Wireable
 =======
         $path0 = base_path('Themes/' . $this->pub_theme . '/resources/views/' . $key);
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> cc7fb225 (.)
         try {
             $path = realpath($path0);
 

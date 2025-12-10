@@ -181,6 +181,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
+<<<<<<< HEAD
  * @method static \Modules\Xot\Database\Factories\PulseAggregateFactory factory($count = null, $state = [])
 >>>>>>> cc7fb225 (.)
  * @method static Builder<static>|PulseAggregate newModelQuery()
@@ -249,6 +250,8 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $value
  * @property int|null $count
  *
+=======
+>>>>>>> cc7fb225 (.)
  * @method static \Modules\Xot\Database\Factories\PulseAggregateFactory factory($count = null, $state = [])
  * @method static Builder<static>|PulseAggregate newModelQuery()
  * @method static Builder<static>|PulseAggregate newQuery()
@@ -263,6 +266,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseAggregate whereType($value)
  * @method static Builder<static>|PulseAggregate whereValue($value)
  *
+<<<<<<< HEAD
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 =======
@@ -270,6 +274,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class PulseAggregate extends BaseModel

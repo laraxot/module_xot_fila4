@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -219,3 +220,5 @@ Tabelle trovate: users, migrations, password_resets
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
 
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

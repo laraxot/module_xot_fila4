@@ -110,6 +110,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 >>>>>>> 5a14301c (.)
@@ -120,6 +121,9 @@ use Webmozart\Assert\Assert;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+ *
+>>>>>>> cc7fb225 (.)
  * @method static Builder<static>|InformationSchemaTable newModelQuery()
  * @method static Builder<static>|InformationSchemaTable newQuery()
  * @method static Builder<static>|InformationSchemaTable query()
@@ -151,6 +155,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 >>>>>>> ed734516 (.)
@@ -170,6 +175,9 @@ use Webmozart\Assert\Assert;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+ *
+>>>>>>> cc7fb225 (.)
  * @property string|null $table_schema
  * @property string|null $table_name
  * @property int|null $table_rows
@@ -183,10 +191,14 @@ use Webmozart\Assert\Assert;
  * @property string|null $created_at
  * @property string|null $created_by
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  * @method static Builder<static>|InformationSchemaTable newModelQuery()
  * @method static Builder<static>|InformationSchemaTable newQuery()
  * @method static Builder<static>|InformationSchemaTable query()
+=======
+ *
+>>>>>>> cc7fb225 (.)
  * @method static Builder<static>|InformationSchemaTable whereCreatedAt($value)
  * @method static Builder<static>|InformationSchemaTable whereCreatedBy($value)
  * @method static Builder<static>|InformationSchemaTable whereId($value)
@@ -207,6 +219,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  *
 <<<<<<< HEAD
@@ -214,10 +227,14 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 =======
 >>>>>>> b7afadf9 (.)
+=======
+ *
+>>>>>>> cc7fb225 (.)
  * @property string|null $model_class
  *
  * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
@@ -276,6 +293,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model

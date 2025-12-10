@@ -821,6 +821,7 @@ use Modules\Xot\Datas\MetatagData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('MetatagData può essere istanziata', function (): void {
     $metatagData = new MetatagData;
 =======
@@ -847,6 +848,10 @@ test('MetatagData può essere istanziata', function () {
 test('MetatagData può essere istanziata', function () {
     $metatagData = new MetatagData();
 >>>>>>> 37de20a7 (.)
+=======
+test('MetatagData può essere istanziata', function (): void {
+    $metatagData = new MetatagData;
+>>>>>>> cc7fb225 (.)
     expect($metatagData)->toBeInstanceOf(MetatagData::class);
 });
 
@@ -861,11 +866,17 @@ test('MetatagData può essere istanziata', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('getFilamentColors restituisce i colori Filament corretti', function (): void {
     $metatagData = new MetatagData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+    /** @phpstan-ignore-next-line method.nonObject */
+>>>>>>> cc7fb225 (.)
+=======
+test('getFilamentColors restituisce i colori Filament corretti', function (): void {
+    $metatagData = new MetatagData;
     /** @phpstan-ignore-next-line method.nonObject */
 >>>>>>> cc7fb225 (.)
     $colors = $metatagData->getFilamentColors();
@@ -1027,8 +1038,10 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
         ->toBeArray()
         ->and($colors)
         ->toHaveKeys(['danger', 'gray', 'info', 'primary', 'success', 'warning'])
+        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
         ->and($colors['danger'])
         ->toBe(Color::Red)
+        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
         ->and($colors['primary'])
         ->toBe(Color::Amber);
 <<<<<<< HEAD
@@ -2047,6 +2060,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('getColors gestisce correttamente i colori personalizzati', function (): void {
     $metatagData = new MetatagData;
 =======
@@ -2073,6 +2087,10 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 test('getColors gestisce correttamente i colori personalizzati', function () {
     $metatagData = new MetatagData();
 >>>>>>> 37de20a7 (.)
+=======
+test('getColors gestisce correttamente i colori personalizzati', function (): void {
+    $metatagData = new MetatagData;
+>>>>>>> cc7fb225 (.)
     $metatagData->colors = [
         'custom_color' => [
             'key' => 'custom_color',
@@ -3408,6 +3426,7 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 >>>>>>> 16dc7ab0 (.)
     ];
 
+    /** @phpstan-ignore-next-line method.nonObject */
     $colors = $metatagData->getColors();
 
 <<<<<<< HEAD
@@ -4046,6 +4065,7 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test('getLogoHeight restituisce il valore corretto', function (): void {
     $metatagData = new MetatagData;
 =======
@@ -4072,6 +4092,10 @@ test('getLogoHeight restituisce il valore corretto', function () {
 test('getLogoHeight restituisce il valore corretto', function () {
     $metatagData = new MetatagData();
 >>>>>>> 37de20a7 (.)
+=======
+test('getLogoHeight restituisce il valore corretto', function (): void {
+    $metatagData = new MetatagData;
+>>>>>>> cc7fb225 (.)
     $metatagData->logo_height = '3em';
 
     expect($metatagData->getLogoHeight())->toBe('3em');
@@ -4082,6 +4106,7 @@ test('getLogoHeight restituisce il valore corretto', function () {
  * Questo test verifica che le proprietà della classe abbiano i valori di default
  * corretti quando viene istanziata la classe.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4201,6 +4226,10 @@ test('Le proprietà hanno i valori di default corretti', function (): void {
 =======
 test('Le proprietà hanno i valori di default corretti', function () {
     $metatagData = new MetatagData();
+=======
+test('Le proprietà hanno i valori di default corretti', function (): void {
+    $metatagData = new MetatagData;
+>>>>>>> cc7fb225 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

@@ -12,7 +12,11 @@
 ```
 Symfony\Component\ErrorHandler\Error\FatalError - Internal Server Error
 <<<<<<< HEAD
+<<<<<<< HEAD
 During class fetch: Uncaught ErrorException: include(/var/www/_bases/base_<nome progetto>_fila4_mono/laravel/vendor/composer/../../Modules/Xot/app/Models/Traits/HasXotFactory.php): 
+=======
+During class fetch: Uncaught ErrorException: include(/var/www/_bases/base_quaeris_fila4_mono/laravel/vendor/composer/../../Modules/Xot/app/Models/Traits/HasXotFactory.php): 
+>>>>>>> cc7fb225 (.)
 =======
 During class fetch: Uncaught ErrorException: include(/var/www/_bases/base_quaeris_fila4_mono/laravel/vendor/composer/../../Modules/Xot/app/Models/Traits/HasXotFactory.php): 
 >>>>>>> cc7fb225 (.)
@@ -194,7 +198,11 @@ Creati documenti:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/_bases/base_<nome progetto>_fila4_mono/laravel
+=======
+cd /var/www/_bases/base_quaeris_fila4_mono/laravel
+>>>>>>> cc7fb225 (.)
 =======
 cd /var/www/_bases/base_quaeris_fila4_mono/laravel
 >>>>>>> cc7fb225 (.)
@@ -407,8 +415,11 @@ Aggiungere al pipeline CI:
 **Data Chiusura**: 22 Ottobre 2025
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> cc7fb225 (.)
 =======
 >>>>>>> cc7fb225 (.)

@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3310e9c6 (.)
 =======
@@ -1238,3 +1239,5 @@ Il progetto è ora pronto per lo sviluppo continuo con una base solida e manuten
 =======
 - [Guida Risoluzione Conflitti](../conflict-resolution-guide.md)
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> cc7fb225 (.)

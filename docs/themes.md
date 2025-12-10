@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Temi in il progetto
 
 <<<<<<< HEAD
@@ -673,3 +674,5 @@ Per personalizzare un tema:
 
 
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

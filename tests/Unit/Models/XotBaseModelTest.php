@@ -202,6 +202,7 @@ test('xot base model has correct property types', function (): void {
     // Some properties may not have explicit type declarations; in that case just ensure defaults are as expected
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if ($snakeType instanceof \ReflectionNamedType) {
 =======
     if ($snakeType !== null) {
@@ -209,6 +210,9 @@ test('xot base model has correct property types', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    if ($snakeType !== null) {
+>>>>>>> cc7fb225 (.)
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
 >>>>>>> cc7fb225 (.)
 =======
@@ -228,6 +232,7 @@ test('xot base model has correct property types', function (): void {
         expect(XotBaseModel::$snakeAttributes)->toBeTrue();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -259,6 +264,9 @@ test('xot base model has correct property types', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    if ($perPageType !== null) {
+>>>>>>> cc7fb225 (.)
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
 >>>>>>> cc7fb225 (.)
 =======

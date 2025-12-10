@@ -112,6 +112,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseValue whereValue($value)
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -233,6 +234,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

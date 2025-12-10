@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -1014,3 +1015,5 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 =======
 
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)

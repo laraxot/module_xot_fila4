@@ -160,6 +160,7 @@ use function Safe\json_encode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
  *
@@ -179,6 +180,9 @@ use function Safe\json_encode;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+ *
+>>>>>>> cc7fb225 (.)
  * @method static Builder|Module newModelQuery()
  * @method static Builder|Module newQuery()
  * @method static Builder|Module query()
@@ -188,6 +192,7 @@ use function Safe\json_encode;
  * @method static Builder|Module wherePath($value)
  * @method static Builder|Module wherePriority($value)
  * @method static Builder|Module whereStatus($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
  * @property string|null $icon
@@ -228,11 +233,19 @@ class Module extends Model
 =======
 >>>>>>> 5a14301c (.)
 =======
+=======
+ *
+>>>>>>> cc7fb225 (.)
  * @property string|null $icon
  * @property array<string, string>|null $colors
+ *
  * @method static Builder|Module whereColors($value)
  * @method static Builder|Module whereIcon($value)
+<<<<<<< HEAD
  * @mixin IdeHelperModule
+=======
+ *
+>>>>>>> cc7fb225 (.)
  * @mixin \Eloquent
  */
 class Module extends Model

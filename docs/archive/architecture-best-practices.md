@@ -351,6 +351,7 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
 =======
 =======
@@ -361,6 +362,8 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> 88e745db5 (.)
+=======
+>>>>>>> 5e6aa70fe (.)
 <<<<<<< HEAD
 > **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
 >>>>>>> 5a14301c (.)
@@ -578,4 +581,9 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 > **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)

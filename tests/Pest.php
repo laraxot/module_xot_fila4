@@ -92,6 +92,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -241,7 +242,14 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+
+pest()->extend(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -251,6 +259,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * | Qui puoi definire aspettative globali per il modulo Xot.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -330,7 +339,12 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 =======
 >>>>>>> fb8add77 (.)
+<<<<<<< HEAD
 >>>>>>> e6745a06 (.)
+=======
+=======
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
  * | Quando definisci here expectation globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
@@ -351,6 +365,7 @@ namespace Modules\Xot\Tests\Pest;
 namespace Modules\Xot\Tests\Pest;
 namespace Modules\Xot\Tests\Pest;
 
+<<<<<<< HEAD
 
 use Modules\Xot\Tests\TestCase;
 
@@ -1524,7 +1539,12 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -1667,6 +1687,7 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 <<<<<<< HEAD
@@ -1676,10 +1697,14 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+
+>>>>>>> 76bec91a (.)
 // function something() {
 //     // ...
 <<<<<<< HEAD
 // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2435,4 +2460,9 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)

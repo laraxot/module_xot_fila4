@@ -236,6 +236,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -597,6 +598,7 @@ describe('ModuleService', function () {
 >>>>>>> b956ebe0 (.)
 =======
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
         $this->service = new ModuleService()->setName('TestModule');
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -638,6 +640,11 @@ describe('ModuleService', function () {
         $this->service = $this->service->setName('TestModule');
 >>>>>>> a5dccfe (.)
 >>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> 76bec91a (.)
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> 5e6aa70fe (.)
     });
 
 <<<<<<< HEAD
@@ -1179,18 +1186,15 @@ describe('ModuleService', function () {
 >>>>>>> 71586de2 (.)
     it('can be instantiated with different module names', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> aba62c408 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+>>>>>>> 5e6aa70fe (.)
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
-=======
-        $service1 = new ModuleService();
-        $service1 = $service1->setName('Chart');
-        $service2 = new ModuleService();
-        $service2 = $service2->setName('User');
->>>>>>> a5dccfe (.)
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
 <<<<<<< HEAD
@@ -1682,6 +1686,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 21348520 (.)
@@ -2098,11 +2103,9 @@ describe('ModuleService', function () {
 >>>>>>> f3f26717 (.)
 =======
 >>>>>>> cf971011 (.)
-        $emptyService = new ModuleService()->setName('NonExistentModule');
 =======
-        $emptyService = new ModuleService();
-        $emptyService = $emptyService->setName('NonExistentModule');
->>>>>>> a5dccfe (.)
+>>>>>>> 76bec91a (.)
+        $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();

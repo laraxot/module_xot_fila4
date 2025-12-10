@@ -95,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 <<<<<<< HEAD
 =======
@@ -216,13 +217,20 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
 =======
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+   Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
    ```markdown
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,7 +373,13 @@ Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_docu
 =======
 =======
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
    ```
 
 ## Manutenzione della documentazione
@@ -403,6 +417,7 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -516,7 +531,15 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+- [Documentazione generale](../../../project_docs/documentation_rules.md)
+- [Convenzioni di naming in generale](../../../project_docs/naming_conventions.md)
+- [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/project_docs/service_provider.md)
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
 <<<<<<< HEAD

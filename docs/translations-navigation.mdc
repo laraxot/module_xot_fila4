@@ -20,10 +20,14 @@ Questa regola è valida per tutti i moduli. Fare sempre riferimento alla documen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5e6aa70fe (.)
 - [docs di <main module>](../../<main module>/docs/traduzioni-navigation.mdc)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -115,4 +119,10 @@ Questa regola è valida per tutti i moduli. Fare sempre riferimento alla documen
 - [docs di <nome progetto>](../../../docs/traduzioni-navigation.mdc)
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+- [docs di SaluteOra](../../SaluteOra/docs/traduzioni-navigation.mdc)
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)

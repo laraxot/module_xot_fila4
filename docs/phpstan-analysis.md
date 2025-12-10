@@ -8,7 +8,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5e6aa70fe (.)
 ## stato analisi phpstan
 
 - **data**: 2025-11-12  
@@ -313,4 +318,11 @@ class MyModel extends BaseModel
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)

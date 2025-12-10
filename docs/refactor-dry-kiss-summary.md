@@ -222,12 +222,12 @@
 =======
 >>>>>>> 6ca989d8 (.)
 | SaluteMo | 13+ | Business logic semplificata |
-<<<<<<< HEAD
 | SaluteOra | 45+ | Core business centralizzato |
 <<<<<<< HEAD
 |  | 45+ | Core business centralizzato |
 | <nome progetto> | 45+ | Core business centralizzato |
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,7 +361,12 @@
 | <nome progetto> | 45+ | Core business centralizzato |
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |

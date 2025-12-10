@@ -62,6 +62,7 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> ecd5ec32 (.)
@@ -69,6 +70,8 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 >>>>>>> 2bad128c (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 5e6aa70fe (.)
 - [Collegamento a docs/links.md della root](../../../../docs/links.md)
 
 <<<<<<< HEAD
@@ -213,7 +216,14 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+- [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
+
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
 ## Utilizzo di GetModulePathByGeneratorAction
 
 ### Panoramica

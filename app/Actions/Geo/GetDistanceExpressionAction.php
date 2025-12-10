@@ -76,6 +76,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -569,7 +570,13 @@ use Spatie\QueueableAction\QueueableAction;
  * 
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+ *
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
  * Questa action centralizza la logica di generazione dell'espressione SQL
  * per il calcolo della distanza tra due punti geografici.
  */
@@ -646,6 +653,7 @@ class GetDistanceExpressionAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -653,6 +661,9 @@ class GetDistanceExpressionAction
 =======
 <<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5e6aa70fe (.)
 =======
 =======
 =======
@@ -701,7 +712,12 @@ class GetDistanceExpressionAction
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
     public function execute(
         float $latitude,
         float $longitude,
@@ -732,6 +748,7 @@ class GetDistanceExpressionAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -739,6 +756,9 @@ class GetDistanceExpressionAction
 =======
 <<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5e6aa70fe (.)
 =======
      * @return \Illuminate\Contracts\Database\Query\Expression Espressione SQL per il calcolo della distanza
      */
@@ -1595,13 +1615,19 @@ class GetDistanceExpressionAction
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
         }
 
         return DB::raw($sql);
     }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2125,4 +2151,10 @@ class GetDistanceExpressionAction
 } 
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+}
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)

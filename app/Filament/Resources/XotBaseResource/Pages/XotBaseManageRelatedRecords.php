@@ -271,31 +271,33 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 =======
 >>>>>>> 62cc8443 (.)
     /*
+     * @return array<\Filament\Forms\Components\Component>
+    /*
+     * @return array<\Filament\Forms\Components\Component>
+     * @return array<\Filament\Schemas\Components\Component>
+     * @return array<\Filament\Schemas\Components\Component>
+    /*
+     * @return array<\Filament\Forms\Components\Component>
+     * @return array<\Filament\Schemas\Components\Component>
+     * @return array<\Filament\Schemas\Components\Component>
+    /*
+     * @return array<\Filament\Forms\Components\Component>
+    /*
+     * @return array<\Filament\Forms\Components\Component>
+     * @return array<\Filament\Schemas\Components\Component>
+     * @return array<\Filament\Schemas\Components\Component>
+    /*
+     * @return array<\Filament\Forms\Components\Component>
+    /*
+     * @return array<\Filament\Forms\Components\Component>
+     * @return array<\Filament\Schemas\Components\Component>
+     * @return array<\Filament\Schemas\Components\Component>
 <<<<<<< HEAD
-     * @return array<\Filament\Forms\Components\Component>
-    /*
-     * @return array<\Filament\Forms\Components\Component>
-     * @return array<\Filament\Schemas\Components\Component>
-     * @return array<\Filament\Schemas\Components\Component>
-    /*
-     * @return array<\Filament\Forms\Components\Component>
-     * @return array<\Filament\Schemas\Components\Component>
-     * @return array<\Filament\Schemas\Components\Component>
-    /*
-     * @return array<\Filament\Forms\Components\Component>
-    /*
-     * @return array<\Filament\Forms\Components\Component>
-     * @return array<\Filament\Schemas\Components\Component>
-     * @return array<\Filament\Schemas\Components\Component>
-    /*
-     * @return array<\Filament\Forms\Components\Component>
-    /*
-     * @return array<\Filament\Forms\Components\Component>
-     * @return array<\Filament\Schemas\Components\Component>
-     * @return array<\Filament\Schemas\Components\Component>
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 5e6aa70fe (.)
 <<<<<<< HEAD
 >>>>>>> c84488b (.)
 >>>>>>> 71f31700 (.)
@@ -509,7 +511,12 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * @return array<\Filament\Schemas\Components\Component>
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
      */
     // abstract public static function getFormSchema(): array;
 

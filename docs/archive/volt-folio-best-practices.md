@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 - [Convenzioni di Path](../User/docs/PATH_CONVENTIONS.md)
 - [Implementazione Auth con Volt e Folio](../User/docs/VOLT_FOLIO_AUTH_IMPLEMENTATION.md)
@@ -234,7 +235,16 @@
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+- [Convenzioni di Path](../User/project_docs/PATH_CONVENTIONS.md)
+- [Implementazione Auth con Volt e Folio](../User/project_docs/VOLT_FOLIO_AUTH_IMPLEMENTATION.md)
+- [Analisi Logout Blade](../User/project_docs/LOGOUT_BLADE_ANALYSIS.md)
+
+>>>>>>> 76bec91a (.)
+>>>>>>> 5e6aa70fe (.)
 ## Introduzione
 
 Questo documento definisce le best practices per l'utilizzo di Laravel Folio e Livewire Volt , con particolare attenzione alle pagine di autenticazione e alle convenzioni di progetto.
@@ -509,6 +519,7 @@ return redirect()->to('/' . $locale);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di <nome progetto>, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
 =======
 Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
@@ -719,6 +730,14 @@ Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+
+## Riferimenti
+
+- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+- [Documentazione Folio](https://laravel.com/project_docs/10.x/folio)
+>>>>>>> 76bec91a (.)
 - [Documentazione Livewire](https://livewire.laravel.com/docs)
 - [Documentazione Filament](https://filamentphp.com/docs)
 <<<<<<< HEAD

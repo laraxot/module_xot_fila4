@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Regole Generali del Progetto <nome progetto>
 
 Questo documento contiene le regole generali che devono essere seguite in tutto il progetto <nome progetto> per garantire coerenza e qualità del codice.
@@ -204,7 +205,15 @@ Questo documento contiene le regole generali che devono essere seguite in tutto 
 
 Questo documento contiene le regole generali che devono essere seguite in tutto il progetto SaluteOra per garantire coerenza e qualità del codice.
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+# Regole Generali del Progetto SaluteOra
+
+Questo documento contiene le regole generali che devono essere seguite in tutto il progetto SaluteOra per garantire coerenza e qualità del codice.
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 
 ## Struttura dei Namespace
 - **Modelli**: Utilizzare il namespace `Modules\<nome modulo>\Models` per tutti i modelli.
@@ -241,5 +250,8 @@ Questo documento contiene le regole generali che devono essere seguite in tutto 
 >>>>>>> 091f883c (.)
 
 Queste regole devono essere seguite per garantire che il codice passi i controlli di qualità futuri e aderisca ai principi DRY (Don't Repeat Yourself) e KISS (Keep It Simple, Stupid). Considerare sempre le implicazioni di politica, filosofia, religione e zen nelle soluzioni implementate.
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

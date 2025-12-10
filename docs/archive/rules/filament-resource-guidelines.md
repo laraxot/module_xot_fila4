@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Linee Guida per le Risorse Filament nel Progetto <nome progetto>
 =======
 # Linee Guida per le Risorse Filament nel Progetto 
@@ -109,7 +110,13 @@
 =======
 # Linee Guida per le Risorse Filament nel Progetto SaluteOra
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+# Linee Guida per le Risorse Filament nel Progetto SaluteOra
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 
 ## Regole Generali
 
@@ -161,6 +168,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Queste linee guida sono centrali per tutti i moduli del progetto <nome progetto>. Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
 =======
 Queste linee guida sono centrali per tutti i moduli del progetto . Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
@@ -252,4 +260,32 @@ Queste linee guida sono centrali per tutti i moduli del progetto SaluteOra. Ogni
 =======
 Queste linee guida sono centrali per tutti i moduli del progetto SaluteOra. Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+Queste linee guida sono centrali per tutti i moduli del progetto . Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
+Queste linee guida sono centrali per tutti i moduli del progetto SaluteOra. Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
+>>>>>>> 5a14301c (.)
+=======
+Queste linee guida sono centrali per tutti i moduli del progetto SaluteOra. Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Queste linee guida sono centrali per tutti i moduli del progetto SaluteOra. Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
+>>>>>>> 43d67f21 (.)
+=======
+Queste linee guida sono centrali per tutti i moduli del progetto SaluteOra. Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Queste linee guida sono centrali per tutti i moduli del progetto SaluteOra. Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+Queste linee guida sono centrali per tutti i moduli del progetto SaluteOra. Ogni modulo deve fare riferimento a questo documento per garantire coerenza nello sviluppo delle risorse Filament.
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)

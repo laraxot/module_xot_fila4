@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -25,7 +26,12 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 # Documentazione
 
 Questo documento serve come indice centrale per tutta la documentazione del progetto.
@@ -82,6 +88,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 - [Changelog](../../../Xot/docs/changelog/README.md)
 - [Contributing](../../../Xot/docs/contributing.md)
 - [Security](../../../Xot/docs/security.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,4 +196,11 @@ Le linee guida complete per la documentazione sono disponibili in:
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)

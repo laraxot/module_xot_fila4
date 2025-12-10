@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [FormBuilder FieldOption Model](../FormBuilder/project_docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/project_docs/phpstan-corrections.md)
 =======
@@ -134,6 +135,11 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+# Development Guidelines - Xot Module
+
+## Panoramica
+>>>>>>> 33af3e61 (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 
 ## PHPStan Best Practices
@@ -217,6 +223,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -274,7 +281,12 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 =======
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 
 ## Principi di Correzione
 
@@ -351,11 +363,14 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 67be6ac0 (.)
 - [FormBuilder PHPStan Corrections](../FormBuilder/project_docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/project_docs/phpstan-corrections.md)
 - [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
@@ -461,7 +476,14 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 - [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 - [Xot Architecture](./architecture.md)
 
 ## Note per Sviluppo Futuro
@@ -471,6 +493,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 3. **Mixed Types**: Gestire sempre i tipi `mixed` con type casting appropriato
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,4 +581,39 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+>>>>>>> 5a14301c (.)
+=======
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)

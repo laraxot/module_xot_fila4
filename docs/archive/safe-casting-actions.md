@@ -202,6 +202,7 @@ $percentage = SafeFloatCastAction::castAsPercentage(($completed / $total) * 100)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laraxot Coding Standards](../../../docs/coding_standards.md)
 >>>>>>> 85cdef688 (.)
@@ -217,3 +218,6 @@ $percentage = SafeFloatCastAction::castAsPercentage(($completed / $total) * 100)
 =======
 - [Laraxot Coding Standards](../../../docs/coding_standards.md)
 >>>>>>> 091f883c (.)
+=======
+- [Laraxot Coding Standards](../../../docs/coding_standards.md)
+>>>>>>> 67be6ac0 (.)

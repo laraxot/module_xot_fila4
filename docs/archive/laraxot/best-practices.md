@@ -111,6 +111,7 @@ class MyResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [best-practices.md](../../../Xot/docs/laraxot/best-practices.md)
 * [best-practices.md](../../../UI/docs/best-practices.md)
@@ -136,6 +137,11 @@ class MyResource extends XotBaseResource
 * [best-practices.md](../../../UI/docs/best-practices.md)
 * [best-practices.md](../../../../Themes/One/docs/best-practices.md)
 >>>>>>> 091f883c (.)
+=======
+* [best-practices.md](../../../Xot/docs/laraxot/best-practices.md)
+* [best-practices.md](../../../UI/docs/best-practices.md)
+* [best-practices.md](../../../../Themes/One/docs/best-practices.md)
+>>>>>>> 67be6ac0 (.)
 
 
 ### Versione Incoming

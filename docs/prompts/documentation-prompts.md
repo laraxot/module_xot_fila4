@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # Prompt di Documentazione
 
 ## Panoramica
@@ -56,6 +59,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 - MAI usare percorsi che iniziano con `/var/www/html/` o simili
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,7 +168,13 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 
 ### Formato Corretto
 ```markdown
@@ -182,6 +192,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> 091f883c (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,7 +346,12 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 ```
 
 ### Formato Non Corretto
@@ -344,6 +360,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 # Collegamenti Non Corretti
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,7 +608,15 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 ```
 
 ### Checklist di Validazione
@@ -659,5 +684,8 @@ con collegamenti bidirezionali...
    - Mantenere aggiornate le regole
    - Documentare le correzioni
    - Aggiornare gli esempi
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

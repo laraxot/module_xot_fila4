@@ -232,6 +232,7 @@ resources/views/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [themes-structure.md](../../../Xot/docs/themes-structure.md)
 >>>>>>> 85cdef688 (.)
@@ -247,4 +248,7 @@ resources/views/
 =======
 * [themes-structure.md](../../../Xot/docs/themes-structure.md)
 >>>>>>> 091f883c (.)
+=======
+* [themes-structure.md](../../../Xot/docs/themes-structure.md)
+>>>>>>> 67be6ac0 (.)
 

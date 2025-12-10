@@ -97,6 +97,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [filament-resources.md](../../../Gdpr/docs/filament-resources.md)
 * [filament-resources.md](../../../Xot/docs/filament-resources.md)
@@ -122,6 +123,11 @@ return [
 * [filament-resources.md](../../../Xot/docs/filament-resources.md)
 * [filament-resources.md](../../../Cms/docs/filament-resources.md)
 >>>>>>> 091f883c (.)
+=======
+* [filament-resources.md](../../../Gdpr/docs/filament-resources.md)
+* [filament-resources.md](../../../Xot/docs/filament-resources.md)
+* [filament-resources.md](../../../Cms/docs/filament-resources.md)
+>>>>>>> 67be6ac0 (.)
 
 
 ### Versione Incoming

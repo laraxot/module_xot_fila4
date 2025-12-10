@@ -99,6 +99,7 @@ Prima di eseguire PHPStan o fare commit, verifica la correttezza della struttura
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/docs/"
 >>>>>>> 85cdef688 (.)
@@ -114,6 +115,9 @@ find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/conf
 =======
 find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/docs/"
 >>>>>>> 091f883c (.)
+=======
+find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/docs/"
+>>>>>>> 67be6ac0 (.)
 ```
 
 Se questo comando restituisce dei file, significa che sono posizionati in modo errato.
@@ -144,6 +148,7 @@ Per correggere automaticamente la struttura delle directory, utilizza lo script 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
 =======
 5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
@@ -160,3 +165,6 @@ Per correggere automaticamente la struttura delle directory, utilizza lo script 
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
+=======
+5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
+>>>>>>> 67be6ac0 (.)

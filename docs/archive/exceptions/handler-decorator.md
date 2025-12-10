@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 # HandlerDecorator
 
 ## Descrizione
@@ -41,6 +48,7 @@ class HandlerDecorator implements ExceptionHandlerContract
 - [Logging Best Practices](../LOGGING-BEST-PRACTICES.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,4 +107,13 @@ class HandlerDecorator implements ExceptionHandlerContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> c35986f4 (.)
 - [Error Formatters](./formatters/README.md) 
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> cc7fb225 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Error Formatters](./formatters/README.md) 
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)

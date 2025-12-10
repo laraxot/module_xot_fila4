@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -22,6 +29,7 @@ uses(\Modules\Xot\Tests\TestCase::class);
 // ✅ CRITICO: Mock XotData per ogni test
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,7 +206,12 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 beforeEach(function (): void {
     mockXotData();
 });
@@ -248,11 +261,14 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
+=======
+>>>>>>> 67be6ac0 (.)
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
@@ -332,7 +348,13 @@ function mockXotData(): void
 =======
         ->andReturn(\Modules\SaluteOra\Models\User::class);
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -520,6 +542,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
@@ -541,6 +564,8 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
+=======
+>>>>>>> 67be6ac0 (.)
 **Last Update**: Dicembre 2024 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -772,4 +797,40 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)

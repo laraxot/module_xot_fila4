@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # Troubleshooting Guide
 
 ## Common Issues
@@ -8,6 +11,7 @@
 - **Solution**: Check namespace imports and method signatures
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49,7 +53,13 @@
 =======
 - **Prevention**: Always run PHPStan level 9+ before commits
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+- **Prevention**: Always run PHPStan level 9+ before commits
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 
 ### Translation Problems
 - **Issue**: Missing translations or hardcoded strings
@@ -79,5 +89,8 @@
 - Review Laraxot framework guidelines
 - Consult best practices documentation
 - Use project memory system for context
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

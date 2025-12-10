@@ -294,6 +294,7 @@ class PolizzaConvenzioneController extends XotBaseController
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [base-classes.md](../../../Xot/docs/base-classes.md)
 * [base-classes.md](../../../Xot/docs/roadmap/base-classes.md)
@@ -314,6 +315,10 @@ class PolizzaConvenzioneController extends XotBaseController
 * [base-classes.md](../../../Xot/docs/base-classes.md)
 * [base-classes.md](../../../Xot/docs/roadmap/base-classes.md)
 >>>>>>> 091f883c (.)
+=======
+* [base-classes.md](../../../Xot/docs/base-classes.md)
+* [base-classes.md](../../../Xot/docs/roadmap/base-classes.md)
+>>>>>>> 67be6ac0 (.)
 
 
 ### Versione Incoming

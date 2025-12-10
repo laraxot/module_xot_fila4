@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # Gestione delle Eccezioni
 
 Questo documento fornisce una panoramica del sistema di gestione delle eccezioni nel modulo Xot.
@@ -43,6 +46,7 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 =======
 >>>>>>> 6ca989d8 (.)
@@ -76,7 +80,13 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 ## Collegamenti tra versioni di README.md
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -168,5 +178,8 @@ Questo documento fornisce una panoramica del sistema di gestione delle eccezioni
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

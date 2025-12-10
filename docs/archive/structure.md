@@ -1027,6 +1027,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
@@ -1047,6 +1048,10 @@ tests_old
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 >>>>>>> 091f883c (.)
+=======
+- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
+- [Report PHPStan](/docs/phpstan/)
+>>>>>>> 67be6ac0 (.)
 
 
 ### Versione Incoming

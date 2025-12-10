@@ -18,6 +18,7 @@ E' la libreria di estensione di tutte le altre librerie.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [about.md](../../../Xot/docs/about.md)
 * [about.md](../../../Tenant/docs/en/about.md)
@@ -43,6 +44,11 @@ E' la libreria di estensione di tutte le altre librerie.
 * [about.md](../../../Tenant/docs/en/about.md)
 * [about.md](../../../Tenant/docs/it/about.md)
 >>>>>>> 091f883c (.)
+=======
+* [about.md](../../../Xot/docs/about.md)
+* [about.md](../../../Tenant/docs/en/about.md)
+* [about.md](../../../Tenant/docs/it/about.md)
+>>>>>>> 67be6ac0 (.)
 
 
 ### Versione Incoming

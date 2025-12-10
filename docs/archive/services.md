@@ -238,6 +238,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [services.md](../../../Xot/docs/services.md)
 * [services.md](../../../Tenant/docs/it/config/services.md)
@@ -258,6 +259,10 @@ return [
 * [services.md](../../../Xot/docs/services.md)
 * [services.md](../../../Tenant/docs/it/config/services.md)
 >>>>>>> 091f883c (.)
+=======
+* [services.md](../../../Xot/docs/services.md)
+* [services.md](../../../Tenant/docs/it/config/services.md)
+>>>>>>> 67be6ac0 (.)
 
 
 ### Versione Incoming

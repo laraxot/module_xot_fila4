@@ -235,6 +235,7 @@ public function test_registration_widget_loads_without_errors_for_existing_user(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields/file-upload)
 - [Laravel Eloquent Accessors](https://laravel.com/docs/eloquent-accessors)
@@ -260,6 +261,11 @@ public function test_registration_widget_loads_without_errors_for_existing_user(
 - [Laravel Eloquent Accessors](https://laravel.com/docs/eloquent-accessors)
 - [Livewire File Uploads](https://livewire.laravel.com/docs/file-uploads)
 >>>>>>> 091f883c (.)
+=======
+- [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields/file-upload)
+- [Laravel Eloquent Accessors](https://laravel.com/docs/eloquent-accessors)
+- [Livewire File Uploads](https://livewire.laravel.com/docs/file-uploads)
+>>>>>>> 67be6ac0 (.)
 
 ## Casi Correlati
 
@@ -274,6 +280,7 @@ Questo pattern si applica anche a:
 **Tipo**: Troubleshooting Guide  
 **Modulo**: Xot (Base)  
 **Applicabilità**: Tutti i widget con FileUpload che caricano dati esistenti  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,3 +302,6 @@ Questo pattern si applica anche a:
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
+=======
+**Aggiornato**: 2025-01-07 
+>>>>>>> 67be6ac0 (.)

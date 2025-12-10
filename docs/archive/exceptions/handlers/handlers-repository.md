@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 # HandlersRepository
 
 ## Descrizione
@@ -95,6 +102,7 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 >>>>>>> 6ca989d8 (.)
@@ -145,4 +153,13 @@ $repository->addConsoleRenderer(function (\Throwable $e, $output) {
 - [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> c35986f4 (.)
 - [Handlers Overview](./README.md) 
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> cc7fb225 (.)
+=======
+- [PHPStan Level 9 Guide](../../PHPSTAN-LEVEL9-GUIDE.md)
+- [Handlers Overview](./README.md) 
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)

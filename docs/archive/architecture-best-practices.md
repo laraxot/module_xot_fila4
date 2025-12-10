@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 ## Convenzioni di naming per le azioni (Actions)
 
 Per tutte le azioni che operano su chiavi di aggregazione specifiche (es. stabi, valutatore_id, ecc.), si raccomanda l'uso esplicito del suffisso `By<Chiave>` nel nome della classe. Esempio:
@@ -29,6 +36,7 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 - [Motivazione e applicazione nel modulo Performance](../../Performance/project_docs/azioni_organizzativa.md)
 - [Motivazione e applicazione nel modulo Performance](../../Performance/docs/azioni_organizzativa.md)
@@ -108,6 +116,8 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 67be6ac0 (.)
 - [Motivazione e applicazione nel modulo Performance](../../Performance/project_docs/azioni_organizzativa.md)
 =======
 >>>>>>> ca9324a4 (.)
@@ -129,7 +139,13 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 =======
 - [Motivazione e applicazione nel modulo Performance](../../Performance/docs/azioni_organizzativa.md)
 >>>>>>> 9db27d12 (.)
+<<<<<<< HEAD
 >>>>>>> 091f883c (.)
+=======
+=======
+- [Motivazione e applicazione nel modulo Performance](../../Performance/docs/azioni_organizzativa.md)
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 
 ## Memo e regole operative permanenti (per tutti i moduli che seguono Xot)
 
@@ -166,11 +182,14 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 67be6ac0 (.)
   - [Documentazione generale e convenzioni di progetto](../../../../project_docs/coding-standards.md)
   - [Esempio e memo nel modulo Performance](../../Performance/project_docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
 
@@ -363,4 +382,51 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+  - [Documentazione generale e convenzioni di progetto](../../../../docs/coding-standards.md)
+  - [Esempio e memo nel modulo Performance](../../Performance/docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
+
+> **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+>>>>>>> 5a14301c (.)
+=======
+  - [Documentazione generale e convenzioni di progetto](../../../../docs/coding-standards.md)
+  - [Esempio e memo nel modulo Performance](../../Performance/docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
+
+> **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+> **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+  - [Documentazione generale e convenzioni di progetto](../../../../docs/coding-standards.md)
+  - [Esempio e memo nel modulo Performance](../../Performance/docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
+
+> **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+> **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+  - [Documentazione generale e convenzioni di progetto](../../../../docs/coding-standards.md)
+  - [Esempio e memo nel modulo Performance](../../Performance/docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
+
+> **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)

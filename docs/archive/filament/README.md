@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # Filament
 
 Questa cartella contiene la documentazione relativa all'implementazione di Filament nel progetto.
@@ -133,6 +136,7 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 ### Collegamento
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -311,7 +315,13 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 =======
 - Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+- Vedi anche: [SaluteOra/docs/filament-best-practices.mdc](../../../SaluteOra/docs/filament-best-practices.mdc)
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 
 ### Checklist
 - [ ] Nessuna closure void restituisce un valore
@@ -359,5 +369,8 @@ $prefix = static::$translationPrefix;
 >>>>>>> 091f883c (.)
 // Aggiungere qui altri moduli se necessario
 
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

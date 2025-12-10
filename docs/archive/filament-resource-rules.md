@@ -21,10 +21,14 @@
 >>>>>>> 6ca989d8 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 67be6ac0 (.)
 # Regole per le Risorse Filament in <nome progetto>
 
 ## Panoramica
@@ -87,7 +91,12 @@ Tutte le risorse Filament in  **DEVONO** estendere `Modules\Xot\Filament\Resourc
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 # Regole per le Risorse Filament in SaluteOra
 
 ## Panoramica
@@ -99,6 +108,7 @@ Questo documento definisce le regole fondamentali per l'implementazione delle ri
 Tutte le risorse Filament in SaluteOra **DEVONO** estendere `Modules\Xot\Filament\Resources\XotBaseResource` invece di `Filament\Resources\Resource`. Questa classe base personalizzata fornisce funzionalità specifiche per il progetto e garantisce coerenza in tutta l'applicazione.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,7 +205,12 @@ Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\F
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 
 ```php
 // ✅ CORRETTO
@@ -381,7 +396,9 @@ class DoctorResource extends XotBaseResource
 - [Filament Form Builder](/docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/docs/translation-management.md)
 - [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
 - [Filament Form Builder](/project_docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/project_docs/translation-management.md)
 - [Estensione delle Classi Filament](/project_docs/filament-extension-pattern.md)
@@ -392,3 +409,8 @@ class DoctorResource extends XotBaseResource
 - [Gestione delle Traduzioni](/docs/translation-management.md)
 - [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)

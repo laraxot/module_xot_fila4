@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
@@ -200,7 +201,15 @@ This document defines the standards and best practices for working with Enums in
 
 This document defines the standards and best practices for working with Enums in the SaluteOra project.
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+# Enum Standards in SaluteOra
+
+This document defines the standards and best practices for working with Enums in the SaluteOra project.
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 
 ## Naming Conventions
 
@@ -290,6 +299,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Enums;
 <<<<<<< HEAD
 =======
@@ -381,7 +391,13 @@ namespace Modules\SaluteOra\Enums;
 =======
 namespace Modules\SaluteOra\Enums;
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+namespace Modules\SaluteOra\Enums;
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 
 use Filament\Support\Contracts\HasLabel;
 
@@ -419,6 +435,7 @@ enum AppointmentTypeEnum: string implements HasLabel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
 <<<<<<< HEAD
@@ -552,7 +569,14 @@ enum AppointmentTypeEnum: string implements HasLabel
             self::CONSULTATION => __('saluteora::app.consultation'),
             self::CLEANING => __('saluteora::app.cleaning'),
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+            self::CONSULTATION => __('saluteora::app.consultation'),
+            self::CLEANING => __('saluteora::app.cleaning'),
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
             // ... other cases
         };
     }
@@ -578,6 +602,7 @@ enum AppointmentTypeEnum: string implements HasLabel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
 <<<<<<< HEAD
 =======
@@ -669,7 +694,13 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentT
 =======
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 ```
 
 ## Updating Existing Enums
@@ -685,5 +716,8 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentT
 1. **Class not found**: Ensure the class name matches the filename exactly
 2. **Translation not working**: Verify the translation key exists in the language files
 3. **Backward compatibility issues**: Check that the alias is correctly defined
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

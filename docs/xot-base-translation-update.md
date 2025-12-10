@@ -94,6 +94,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 =======
@@ -126,3 +127,8 @@ return [
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
 >>>>>>> ecd5ec32 (.)
+=======
+- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> 67be6ac0 (.)

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -25,7 +26,12 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 # Regole per i Namespace nei Moduli Laraxot
 
 Questo documento definisce le regole ufficiali per l'utilizzo dei namespace all'interno dei moduli Laraxot.
@@ -104,6 +110,7 @@ Se incontri errori come `name is empty on [Modules\NomeModulo\Providers\RouteSer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
 3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
@@ -114,6 +121,8 @@ Se incontri errori come `name is empty on [Modules\NomeModulo\Providers\RouteSer
 3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
 3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
 <<<<<<< HEAD
+=======
+>>>>>>> 67be6ac0 (.)
 3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
 3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
 3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
@@ -133,4 +142,21 @@ Se incontri errori come `name is empty on [Modules\NomeModulo\Providers\RouteSer
 =======
 3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
+>>>>>>> 5a14301c (.)
+=======
+3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
+>>>>>>> 71f31700 (.)
+=======
+3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+3. Che il `$moduleNamespace` punti alla posizione corretta dei controller 
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)

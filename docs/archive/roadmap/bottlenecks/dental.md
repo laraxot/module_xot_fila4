@@ -216,6 +216,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [dental.md](../../../Xot/docs/roadmap/bottlenecks/dental.md)
 >>>>>>> 85cdef688 (.)
@@ -231,4 +232,7 @@
 =======
 * [dental.md](../../../Xot/docs/roadmap/bottlenecks/dental.md)
 >>>>>>> 091f883c (.)
+=======
+* [dental.md](../../../Xot/docs/roadmap/bottlenecks/dental.md)
+>>>>>>> 67be6ac0 (.)
 

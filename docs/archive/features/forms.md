@@ -33,6 +33,7 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/custom_errors.txt}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [forms.md](../../../Xot/docs/features/forms.md)
 >>>>>>> 85cdef688 (.)
@@ -48,6 +49,9 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/custom_errors.txt}
 =======
 * [forms.md](../../../Xot/docs/features/forms.md)
 >>>>>>> 091f883c (.)
+=======
+* [forms.md](../../../Xot/docs/features/forms.md)
+>>>>>>> 67be6ac0 (.)
 
 
 ### Versione Incoming

@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # PHPStan Critical Rules - INTOCCABILE
 
 ## 🚨 REGOLA ASSOLUTA 🚨
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,7 +125,13 @@
 =======
 **MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+**MAI, MAI, MAI modificare il file `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`**
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 
 ## Motivazione
 
@@ -297,5 +307,8 @@ La configurazione PHPStan è **SACRA** e **INTOCCABILE**. Tutti gli errori PHPSt
 **Applicabilità**: Universale  
 **Violazioni**: 🚫 VIETATE ASSOLUTAMENTE  
 **Stato**: ✅ Regola Attiva e Vincolante
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

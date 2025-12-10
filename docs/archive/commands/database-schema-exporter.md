@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # DatabaseSchemaExporterCommand
 
 ## Descrizione
@@ -61,6 +64,7 @@ Il file JSON generato contiene:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 =======
 >>>>>>> 6ca989d8 (.)
@@ -94,7 +98,13 @@ Il file JSON generato contiene:
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 ## Collegamenti tra versioni di database-schema-exporter.md
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,5 +122,8 @@ Il file JSON generato contiene:
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
 >>>>>>> 091f883c (.)
 
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

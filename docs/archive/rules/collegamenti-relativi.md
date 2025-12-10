@@ -38,6 +38,7 @@ Nella documentazione di il progetto, **tutti i collegamenti devono essere relati
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [Documento in altro modulo](../../laravel/Modules/User/docs/documento.md)
 >>>>>>> 85cdef688 (.)
@@ -53,12 +54,16 @@ Nella documentazione di il progetto, **tutti i collegamenti devono essere relati
 =======
 [Documento in altro modulo](../../laravel/Modules/User/docs/documento.md)
 >>>>>>> 091f883c (.)
+=======
+[Documento in altro modulo](../../laravel/Modules/User/docs/documento.md)
+>>>>>>> 67be6ac0 (.)
 ```
 
 ### Formati Errati da Evitare
 
 ❌ **Collegamenti assoluti basati su dominio**:
 ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,10 +83,14 @@ Nella documentazione di il progetto, **tutti i collegamenti devono essere relati
 =======
 [Documento errato](https://<nome progetto>.org/docs/documento.md)
 >>>>>>> 091f883c (.)
+=======
+[Documento errato](https://<nome progetto>.org/docs/documento.md)
+>>>>>>> 67be6ac0 (.)
 ```
 
 ❌ **Collegamenti assoluti basati su percorso**:
 ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,6 +110,9 @@ Nella documentazione di il progetto, **tutti i collegamenti devono essere relati
 =======
 [Documento errato](/var/www/html/<nome progetto>/docs/documento.md)
 >>>>>>> 091f883c (.)
+=======
+[Documento errato](/var/www/html/<nome progetto>/docs/documento.md)
+>>>>>>> 67be6ac0 (.)
 ```
 
 ❌ **Collegamenti senza estensione**:
@@ -130,6 +142,7 @@ Questa regola si integra con il sistema di documentazione centralizzato descritt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [collegamenti-relativi.md](../../../Xot/docs/rules/collegamenti-relativi.md)
 >>>>>>> 85cdef688 (.)
@@ -145,4 +158,7 @@ Questa regola si integra con il sistema di documentazione centralizzato descritt
 =======
 * [collegamenti-relativi.md](../../../Xot/docs/rules/collegamenti-relativi.md)
 >>>>>>> 091f883c (.)
+=======
+* [collegamenti-relativi.md](../../../Xot/docs/rules/collegamenti-relativi.md)
+>>>>>>> 67be6ac0 (.)
 

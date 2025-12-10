@@ -26,6 +26,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [xra.md](../../../Xot/docs/install/xra.md)
 * [xra.md](../../../Tenant/docs/it/xra.md)
@@ -51,6 +52,11 @@ return [
 * [xra.md](../../../Tenant/docs/it/xra.md)
 * [xra.md](../../../Tenant/docs/it/config/xra.md)
 >>>>>>> 091f883c (.)
+=======
+* [xra.md](../../../Xot/docs/install/xra.md)
+* [xra.md](../../../Tenant/docs/it/xra.md)
+* [xra.md](../../../Tenant/docs/it/config/xra.md)
+>>>>>>> 67be6ac0 (.)
 
 
 ### Versione Incoming

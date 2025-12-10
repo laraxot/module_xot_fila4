@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # Regole di Namespace 
 
 ## Struttura dei Namespace
@@ -18,6 +21,7 @@ Nonostante le classi possano risiedere fisicamente nella sottodirectory `app/` d
 ```php
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,10 +79,13 @@ namespace Modules\Patient\Models;
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 33af3e61 (.)
 // File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
 // File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,7 +245,12 @@ namespace Modules\Patient\Models;
 
 // File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 namespace Modules\Dental\Services;
 ```
 
@@ -308,5 +320,8 @@ Se si verificano errori "Class not found" o problemi di autoloading:
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 
 Ultima modifica: 31/03/2025 
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
 # Refactor Radicale DRY + KISS - Riepilogo Completo
 
 > **🎯 Obiettivo Raggiunto**: Eliminazione massiva duplicazioni documentali
@@ -142,6 +145,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 | <nome modulo> | 13+ | Business logic semplificata |
 | <nome progetto> | 45+ | Core business centralizzato |
 =======
@@ -254,7 +258,14 @@
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 33af3e61 (.)
+>>>>>>> 67be6ac0 (.)
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |
@@ -391,5 +402,8 @@
 **Completato**: 2025-08-07  
 **Durata refactor**: 15 minuti  
 **Impatto**: TRASFORMATIVO
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

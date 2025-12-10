@@ -77,13 +77,17 @@ use Nwidart\Modules\Module as NModule;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 5400be3e2 (.)
 use Sushi\Sushi;
 
 use function Safe\json_encode;
 
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 <<<<<<< HEAD
 =======
@@ -135,11 +139,15 @@ use function Safe\json_encode;
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 5400be3e2 (.)
 
 use function Safe\json_encode;
 
 use Sushi\Sushi;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,6 +198,9 @@ use function Safe\json_encode;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
 /**
  * @property int $id
  * @property string|null $name
@@ -330,6 +341,7 @@ class Module extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -350,6 +362,8 @@ class Module extends Model
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5400be3e2 (.)
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
             if (!is_array($config)) {
@@ -382,6 +396,7 @@ class Module extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -406,6 +421,9 @@ class Module extends Model
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 5400be3e2 (.)
         $modules = Arr::map(
             $modules,
             function (NModule $module): array {
@@ -425,6 +443,7 @@ class Module extends Model
                     'icon' => Arr::get($config, 'icon', 'heroicon-o-question-mark-circle'),
                     'colors' => json_encode($colors),
                 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -489,10 +508,13 @@ class Module extends Model
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 5400be3e2 (.)
             }
         );
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -510,6 +532,8 @@ class Module extends Model
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5400be3e2 (.)
         return array_values($modules);
     }
 

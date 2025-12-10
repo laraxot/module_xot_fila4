@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -34,6 +35,8 @@
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
 <?php
 
 declare(strict_types=1);
@@ -48,6 +51,7 @@ declare(strict_types=1);
         />
 
     </x-filament-schemas::form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +120,9 @@ declare(strict_types=1);
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 5400be3e2 (.)
 <x-filament-panels::page>
     <x-filament-panels::form wire:submit="save">
         {{ $this->form }}
@@ -125,6 +132,7 @@ declare(strict_types=1);
         />
 
     </x-filament-panels::form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,4 +182,7 @@ declare(strict_types=1);
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
 </x-filament-panels::page>

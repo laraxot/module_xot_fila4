@@ -62,6 +62,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
     ) {}
@@ -83,9 +84,13 @@ class NotificationData extends Data
     ) {}
 >>>>>>> dbce41cec (.)
 =======
+    ) {}
+>>>>>>> 5400be3e2 (.)
+=======
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,6 +167,8 @@ class NotificationData extends Data
 =======
     ) {}
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
 
     /**
      * Create a new instance of NotificationData with default values.

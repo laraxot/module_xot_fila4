@@ -156,6 +156,7 @@ php artisan serve
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -163,6 +164,9 @@ php artisan serve
 =======
 <<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,7 +207,12 @@ php artisan serve
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> a62d7646 (.)
+>>>>>>> 5400be3e2 (.)
 * [installation.md](../../../Xot/docs/filament/installation.md)
 * [installation.md](../../../Xot/docs/installation.md)
 * [installation.md](../../../Xot/docs/base/installation.md)
@@ -288,10 +297,13 @@ php artisan serve
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> a62d7646 (.)
 =======
 * [installation.md](../../../Xot/project_docs/filament/installation.md)
 * [installation.md](../../../Xot/project_docs/installation.md)
@@ -302,6 +314,7 @@ php artisan serve
 * [installation.md](../../../../Themes/One/project_docs/installation.md)
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5e58b29b (.)
 <<<<<<< HEAD
 >>>>>>> dbce41cec (.)
@@ -310,7 +323,14 @@ php artisan serve
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> a62d7646 (.)
+>>>>>>> 5400be3e2 (.)
 
 <<<<<<< HEAD
 =======

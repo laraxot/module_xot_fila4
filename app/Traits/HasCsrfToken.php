@@ -10,6 +10,7 @@ namespace Modules\Xot\Traits;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 use Illuminate\Support\Facades\App;
@@ -60,9 +61,14 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
 >>>>>>> dbce41cec (.)
 =======
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
+>>>>>>> 5400be3e2 (.)
+=======
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +132,8 @@ use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
 
 trait HasCsrfToken
 {
@@ -235,6 +243,7 @@ trait HasCsrfToken
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,3 +329,9 @@ trait HasCsrfToken
 =======
 }
 >>>>>>> aba62c408 (.)
+=======
+}
+=======
+} 
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)

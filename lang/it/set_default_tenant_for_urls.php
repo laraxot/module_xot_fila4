@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -462,6 +463,10 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5400be3e2 (.)
 return array (
   'actions' => 
   array (
@@ -956,3 +961,7 @@ return array (
     ),
   ),
 );
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)

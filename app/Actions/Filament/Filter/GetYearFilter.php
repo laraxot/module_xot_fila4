@@ -32,6 +32,7 @@ class GetYearFilter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
         return SelectFilter::make($fieldName)->options($opts);
@@ -53,9 +54,13 @@ class GetYearFilter
         return SelectFilter::make($fieldName)->options($opts);
 >>>>>>> dbce41cec (.)
 =======
+        return SelectFilter::make($fieldName)->options($opts);
+>>>>>>> 5400be3e2 (.)
+=======
         return SelectFilter::make($fieldName)
             ->options($opts);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,5 +137,7 @@ class GetYearFilter
 =======
         return SelectFilter::make($fieldName)->options($opts);
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
     }
 }

@@ -94,6 +94,7 @@ class WebhookErrorFormatter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Throwable $exception,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,6 +168,12 @@ class WebhookErrorFormatter
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+        private Throwable $exception,
+=======
+        private Throwable $exception
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
     ) {}
 
     /**
@@ -186,6 +193,7 @@ class WebhookErrorFormatter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -206,6 +214,8 @@ class WebhookErrorFormatter
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5400be3e2 (.)
             'exception' => sprintf('`%s` (Code `%s`)', get_class($this->exception), $this->exception->getCode()),
             'thrown_in' => sprintf('`%s`:%d', $this->exception->getFile(), $this->exception->getLine()),
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
@@ -219,6 +229,7 @@ class WebhookErrorFormatter
              * $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
              * ),
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +262,9 @@ class WebhookErrorFormatter
 =======
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 5400be3e2 (.)
             'exception' => sprintf(
                 '`%s` (Code `%s`)',
                 get_class($this->exception),
@@ -261,6 +275,7 @@ class WebhookErrorFormatter
                 $this->exception->getFile(),
                 $this->exception->getLine()
             ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,11 +313,16 @@ class WebhookErrorFormatter
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
             'ip' => request()->ip(),
 >>>>>>> dbce41cec (.)
+=======
+            'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
+            'ip' => request()->ip(),
+>>>>>>> 5400be3e2 (.)
             'thrown_while_calling' => sprintf(
                 '[%s] %s',
                 request()->getMethod(),
                 request()->fullUrl()
             ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -327,12 +347,17 @@ class WebhookErrorFormatter
             'url_previous' => url()->previous(),
             /*
 >>>>>>> dbce41cec (.)
+=======
+            'url_previous' => url()->previous(),
+            /*
+>>>>>>> 5400be3e2 (.)
             'exception_details' => sprintf(
                 "Trace:\n```json \n %s \n ```\n\n Previous: \n `%s`",
                 json_encode($this->exception->getTrace(), JSON_PRETTY_PRINT),
                 $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
             ),
             */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -388,6 +413,9 @@ class WebhookErrorFormatter
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
         ];
     }
 }

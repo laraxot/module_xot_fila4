@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -31,6 +32,8 @@
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
 declare(strict_types=1);
 
 
@@ -56,6 +59,7 @@ return [
      * | Ogni server ha un comando e argomenti specifici.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,6 +112,8 @@ return [
 =======
 >>>>>>> 6be8834c2 (.)
 =======
+>>>>>>> 5400be3e2 (.)
+=======
 return [
     /*
     |--------------------------------------------------------------------------
@@ -119,6 +125,7 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -143,10 +150,13 @@ return [
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
 
     'servers' => [
         'filesystem' => [
             'command' => 'npx',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,6 +192,8 @@ return [
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem'],
         ],
         'memory' => [
@@ -210,6 +222,7 @@ return [
      * | Ogni contesto definisce trait, relazioni e validazioni richieste.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,6 +295,9 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 5400be3e2 (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem']
         ],
         'memory' => [
@@ -307,6 +323,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
     /*
 =======
@@ -326,6 +343,9 @@ return [
     /*
 >>>>>>> origin/develop
 >>>>>>> 358ba79a7 (.)
+=======
+    /*
+>>>>>>> 5400be3e2 (.)
     |--------------------------------------------------------------------------
     | MCP Model Contexts
     |--------------------------------------------------------------------------
@@ -334,6 +354,7 @@ return [
     | Ogni contesto definisce trait, relazioni e validazioni richieste.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -404,6 +425,9 @@ return [
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
 
     'contexts' => [
         'User' => [
@@ -411,6 +435,7 @@ return [
             'traits' => [
                 'HasFactory',
                 'Notifiable',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -446,6 +471,8 @@ return [
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
                 'HasParent',
             ],
             'relationships' => [
@@ -454,6 +481,7 @@ return [
             ],
             'table' => 'users',
             'type_column' => 'type',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -522,6 +550,9 @@ return [
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 5400be3e2 (.)
                 'HasParent'
             ],
             'relationships' => [
@@ -536,6 +567,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -579,6 +611,9 @@ return [
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
         ],
         'Doctor' => [
             'extends' => 'User',
@@ -590,6 +625,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -675,6 +711,12 @@ return [
 =======
                 'HasParent',
 >>>>>>> aba62c408 (.)
+=======
+                'HasParent',
+=======
+                'HasParent'
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
             ],
             'context' => 'medical',
             'validations' => [
@@ -685,6 +727,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'specialization',
             ],
 <<<<<<< HEAD
@@ -721,9 +764,14 @@ return [
             ],
 >>>>>>> dbce41cec (.)
 =======
+                'specialization',
+            ],
+>>>>>>> 5400be3e2 (.)
+=======
                 'specialization'
             ]
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -805,6 +853,8 @@ return [
                 'specialization',
             ],
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
         ],
         'Patient' => [
             'extends' => 'User',
@@ -816,6 +866,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -901,10 +952,17 @@ return [
 =======
                 'HasParent',
 >>>>>>> aba62c408 (.)
+=======
+                'HasParent',
+=======
+                'HasParent'
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'health_insurance',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -940,6 +998,8 @@ return [
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
                 'medical_history',
             ],
         ],
@@ -963,6 +1023,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ],
 =======
 =======
@@ -1000,11 +1061,14 @@ return [
 =======
 >>>>>>> 358ba79a7 (.)
 =======
+>>>>>>> 5400be3e2 (.)
+=======
                 'medical_history'
             ]
         ]
     ],
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1029,6 +1093,9 @@ return [
     /*
 >>>>>>> origin/develop
 >>>>>>> 358ba79a7 (.)
+=======
+    /*
+>>>>>>> 5400be3e2 (.)
     |--------------------------------------------------------------------------
     | MCP Validation Rules
     |--------------------------------------------------------------------------
@@ -1042,6 +1109,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -1105,10 +1173,14 @@ return [
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
 
     'validation' => [
         'strict' => true,
         'log_violations' => true,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1151,9 +1223,14 @@ return [
     ],
 >>>>>>> dbce41cec (.)
 =======
+        'throw_exceptions' => false,
+    ],
+>>>>>>> 5400be3e2 (.)
+=======
         'throw_exceptions' => false
     ]
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1235,4 +1312,6 @@ return [
         'throw_exceptions' => false,
     ],
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
 ];

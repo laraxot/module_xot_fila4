@@ -81,6 +81,7 @@ interface ErrorFormatterContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,3 +164,9 @@ interface ErrorFormatterContract
 =======
 }
 >>>>>>> aba62c408 (.)
+=======
+}
+=======
+} 
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)

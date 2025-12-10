@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -34,11 +35,14 @@
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> 5400be3e2 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,6 +86,10 @@ declare(strict_types=1);
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
 <!DOCTYPE html>
 <html>
 <head>
@@ -128,6 +136,7 @@ declare(strict_types=1);
         @yield('content')
     </div>
 </body>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,3 +228,9 @@ declare(strict_types=1);
 =======
 </html>
 >>>>>>> aba62c408 (.)
+=======
+</html>
+=======
+</html> 
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)

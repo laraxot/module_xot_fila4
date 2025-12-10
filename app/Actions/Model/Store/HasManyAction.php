@@ -20,6 +20,7 @@ class HasManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,6 +103,12 @@ class HasManyAction
 =======
     public function execute(Model $_model, RelationDTO $relationDTO): void
 >>>>>>> aba62c408 (.)
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+>>>>>>> f1d4085 (.)
+>>>>>>> 5400be3e2 (.)
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, HasMany::class);
 

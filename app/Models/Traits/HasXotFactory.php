@@ -19,7 +19,7 @@ trait HasXotFactory
      *
      * @return Factory<static>|null
      */
-    protected static function newFactory()
+    protected static function newFactory(): ?Factory
     {
         return app(GetFactoryAction::class)->execute(static::class);
     }

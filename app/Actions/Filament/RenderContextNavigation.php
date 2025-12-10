@@ -13,13 +13,28 @@ class RenderContextNavigation
     use QueueableAction;
 
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
      * Render context navigation hooks for Filament sidebar.
      *
      * @param string $module Module name
      * @param string $_context Context (unused but kept for compatibility)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 851793957 (.)
      * Undocumented function.
      * Undocumented function.
      * Undocumented function.
+<<<<<<< HEAD
      * Undocumented function.
      * Undocumented function.
      */
@@ -117,6 +132,12 @@ class RenderContextNavigation
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 28fc70fe (.)
+     */
+>>>>>>> 851793957 (.)
     public function execute(string $module, string $_context): void
     {
         Filament::registerRenderHook(
@@ -149,6 +170,7 @@ class RenderContextNavigation
          * fn (): string => Blade::render('@livewire(\'switchable-team\')'),
          * );
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,5 +517,7 @@ class RenderContextNavigation
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 851793957 (.)
     }
 }

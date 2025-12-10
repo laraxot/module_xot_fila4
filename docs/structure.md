@@ -1075,6 +1075,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
@@ -1100,6 +1101,9 @@ tests_old
 =======
 <<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 851793957 (.)
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 <<<<<<< HEAD
@@ -1399,7 +1403,14 @@ tests_old
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+=======
+- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
+- [Report PHPStan](/docs/phpstan/)
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 
 
 ### Versione Incoming
@@ -1439,6 +1450,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
@@ -1464,6 +1476,9 @@ tests_old
 =======
 <<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 851793957 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1563,7 +1578,12 @@ tests_old
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+=======
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 * [structure.md](bashscripts/docs/structure.md)
 * [structure.md](../../../Gdpr/docs/structure.md)
 * [structure.md](../../../Notify/docs/structure.md)
@@ -1633,7 +1653,10 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 851793957 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -1834,7 +1857,12 @@ tests_old
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+=======
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 
 
 ---

@@ -790,6 +790,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -851,7 +852,12 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+=======
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 - [Root Testing Organization](../../../docs/testing-organization.md)
 <<<<<<< HEAD
 - [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
@@ -945,6 +951,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f7e6113c6 (.)
 =======
 <<<<<<< HEAD
@@ -958,6 +965,9 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 <<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 851793957 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1189,7 +1199,12 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+=======
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 
 ### Framework Documentation
 - [Xot Framework Architecture](./architecture.md)
@@ -1230,6 +1245,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
@@ -1255,6 +1271,9 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 <<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 851793957 (.)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 <<<<<<< HEAD
@@ -1554,7 +1573,14 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+=======
+- [Laravel Testing](https://laravel.com/docs/testing)
+- [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 
 ---
 

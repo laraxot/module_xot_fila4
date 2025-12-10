@@ -150,6 +150,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
@@ -175,6 +176,9 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 <<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 851793957 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,7 +278,12 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+=======
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 - [Architettura dei Provider](../../../docs/architecture/providers.md)
 - [Struttura dei Moduli](../../../docs/architecture/modules.md)
 
@@ -334,7 +343,10 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 851793957 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -525,7 +537,12 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+=======
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 
 ## Note Importanti
 
@@ -567,6 +584,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
@@ -592,6 +610,9 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 <<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 851793957 (.)
 * [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -806,7 +827,13 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+=======
+* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 
 ## Correzione, motivazione e miglioramenti (2025-05-13)
 

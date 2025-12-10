@@ -2473,6 +2473,7 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
@@ -2498,6 +2499,9 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 =======
 <<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 851793957 (.)
 4. La documentazione va in `/docs/`
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2712,7 +2716,13 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 
 # Gestione Temi e Assets
 

@@ -62,6 +62,7 @@ section: content
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
@@ -87,6 +88,9 @@ section: content
 =======
 <<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 851793957 (.)
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 <<<<<<< HEAD
@@ -386,7 +390,14 @@ section: content
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+=======
+* [model.md](../../../Xot/docs/model.md)
+* [model.md](../../../Xot/docs/service/model.md)
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 
 
 ### Versione Incoming

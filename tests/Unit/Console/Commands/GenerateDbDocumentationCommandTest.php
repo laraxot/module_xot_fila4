@@ -12,6 +12,7 @@ use function Safe\file_put_contents;
 use function Safe\json_encode;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
@@ -43,6 +44,15 @@ use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
 >>>>>>> d2b0a27 (.)
 >>>>>>>> a6ef6dc7 (.):tests/Unit/Console/Commands/GenerateDbDocumentationCommandTest.pest.php
 >>>>>>> 5cf46378 (.)
+=======
+=======
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Tests\TestCase;
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 
 uses(TestCase::class);
 

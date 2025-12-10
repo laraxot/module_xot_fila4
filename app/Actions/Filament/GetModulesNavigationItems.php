@@ -377,6 +377,7 @@ class GetModulesNavigationItems
         // TenantService::allModules() restituisce sempre array
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $cacheKey = 'xot:navigation:modules:'.md5((string) json_encode($modules));
 =======
 <<<<<<< HEAD
@@ -385,6 +386,9 @@ class GetModulesNavigationItems
         $cacheKey = 'xot:navigation:modules:'.md5((string) json_encode($modules));
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+=======
+        $cacheKey = 'xot:navigation:modules:'.md5((string) json_encode($modules));
+>>>>>>> 28fc70fe (.)
 
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $cached */
         $cached = Cache::get($cacheKey);

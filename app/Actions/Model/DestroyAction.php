@@ -32,6 +32,7 @@ class DestroyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $model, array $_data, array $_rules): Model
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,6 +187,9 @@ class DestroyAction
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 8fd88dd43 (.)
+=======
+    public function execute(Model $model, array $_data, array $_rules): Model
+>>>>>>> 851793957 (.)
     {
         // prende la chiave del modello
 

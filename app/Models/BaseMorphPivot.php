@@ -64,6 +64,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'post_id',
         'post_type',
 <<<<<<< HEAD
@@ -257,6 +258,10 @@ abstract class BaseMorphPivot extends MorphPivot
         'post_type',
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 8fd88dd43 (.)
+=======
+        'post_id',
+        'post_type',
+>>>>>>> 851793957 (.)
         'related_type',
         'user_id',
         'note',
@@ -293,6 +298,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 6be8834c2 (.)
@@ -548,6 +554,11 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 8fd88dd43 (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 851793957 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

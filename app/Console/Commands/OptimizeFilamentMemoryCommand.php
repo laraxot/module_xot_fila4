@@ -1901,7 +1901,10 @@ class OptimizeFilamentMemoryCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+>>>>>>> 851793957 (.)
                     $this->line('  - '.str_replace(base_path(), '', (string) $itemString));
                     $this->line('  - '.str_replace(base_path(), '', $itemString));
                     $this->line("  - " . str_replace(base_path(), '', $itemString));
@@ -1976,7 +1979,13 @@ class OptimizeFilamentMemoryCommand extends Command
                     $this->line('  - '.str_replace(base_path(), '', (string) $itemString));
 >>>>>>> 8cf76e7 (.)
 >>>>>>> 0ae90b17 (.)
+<<<<<<< HEAD
 >>>>>>> 8fd88dd43 (.)
+=======
+=======
+                    $this->line('  - '.str_replace(base_path(), '', (string) $itemString));
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
                 }
             }
         }

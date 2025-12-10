@@ -257,6 +257,7 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 =======
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -275,6 +276,12 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+- [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
+
+### **Documentazione Correlata**
+- [Wizard Step Implementation](../../../Modules/<nome progetto>/docs/wizard-step-implementation.md)
+>>>>>>> 28fc70fe (.)
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -343,6 +350,7 @@ Questo fix dimostra l'importanza di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ab5b3a4f (.)
@@ -352,6 +360,10 @@ Questo fix dimostra l'importanza di:
 >>>>>>> 9f193021d (.)
 =======
 >>>>>>> d9f43fce9 (.)
+=======
+=======
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 

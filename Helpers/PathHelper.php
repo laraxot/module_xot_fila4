@@ -114,7 +114,12 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 851793957 (.)
     public static string $projectBasePath = '/var/www/html/<nome progetto>';
     public static string $projectBasePath = '/var/www/html/saluteora';
     public static string $projectBasePath = '/var/www/html/saluteora';
@@ -418,13 +423,16 @@ class PathHelper
      * @var string
      */
     public static string $projectBasePath = '/var/www/html/saluteora';
+=======
+    public static string $projectBasePath = '/var/www/html/<nome progetto>';
+>>>>>>> 28fc70fe (.)
 
     /**
      * Percorso base di Laravel.
      *
      * @var string
      */
-    public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+    public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
 
     /**
      * Percorso base dei moduli.
@@ -438,6 +446,7 @@ class PathHelper
      *
      * @var string
      */
+<<<<<<< HEAD
     public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
 <<<<<<< HEAD
     public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
@@ -570,7 +579,15 @@ class PathHelper
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+    public static string $modulesBasePath = '/var/www/html/<nome progetto>/laravel/Modules';
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 
     /**
      * Ottiene il percorso completo di un modulo.
@@ -2005,6 +2022,9 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 28fc70fe (.)
         // Corregge /var/www/html/Modules/ in /var/www/html/<nome progetto>/laravel/Modules/
         if (Str::contains($path, '/var/www/html/Modules/')) {
             $path = Str::replace('/var/www/html/Modules/', self::$modulesBasePath.'/', $path);

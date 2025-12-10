@@ -799,6 +799,7 @@ use Modules\<nome progetto>\Models\Report;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\SaluteOra\Models\Report;
 >>>>>>> 5a14301c (.)
 =======
@@ -877,7 +878,13 @@ use Modules\<nome modulo>\Models\Report;
 =======
 use Modules\SaluteOra\Models\Report;
 >>>>>>> 9e42a036 (.)
+<<<<<<< HEAD
 >>>>>>> 80bc07e81 (.)
+=======
+=======
+use Modules\<nome progetto>\Models\Report;
+>>>>>>> 28fc70fe (.)
+>>>>>>> 851793957 (.)
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;
 

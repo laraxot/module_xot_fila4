@@ -149,22 +149,32 @@ class HasManyAction
 
     private function handleDirectUpdate(RelationData $relationDTO, HasManyUpdateData $updateData): void
     {
+        $relation = $relationDTO->rows;
+        Assert::isInstanceOf($relation, HasMany::class);
+        $related = $relation->getRelated();
+        Assert::notNull($related, 'Related model cannot be null');
+
         /** @var Builder $query */
-        $query = $relationDTO->related->newQuery();
+        $query = $related->newQuery();
 
         $query->where($updateData->foreignKey, $updateData->parentKey)->update([$updateData->foreignKey => null]);
 
         $toIds = $relationDTO->data['to'] ?? [];
         if ($toIds) {
             $query
-                ->whereIn($relationDTO->related->getKeyName(), $toIds)
+                ->whereIn($related->getKeyName(), $toIds)
                 ->update([$updateData->foreignKey => $updateData->parentKey]);
         }
     }
 
     private function handleBatchUpdate(RelationData $relationDTO, HasManyUpdateData $updateData): void
     {
-        $keyName = $relationDTO->related->getKeyName();
+        $relation = $relationDTO->rows;
+        Assert::isInstanceOf($relation, HasMany::class);
+        $related = $relation->getRelated();
+        Assert::notNull($related, 'Related model cannot be null');
+
+        $keyName = $related->getKeyName();
         $updatedIds = [];
 
         foreach ($relationDTO->data as $item) {
@@ -493,7 +503,7 @@ class HasManyAction
                 $updateData->foreignKey => $updateData->parentKey,
             ]);
 
-            $result = app(UpdateAction::class)->execute($relationDTO->related, $itemData, []);
+            $result = app(UpdateAction::class)->execute($related, $itemData, []);
 
             if ($result instanceof Model) {
                 $id = $result->getKey();
@@ -537,11 +547,15 @@ class HasManyAction
         array $updatedIds,
     ): void {
         if ($updatedIds) {
-            $relationDTO
-                ->related
+            $relation = $relationDTO->rows;
+            Assert::isInstanceOf($relation, HasMany::class);
+            $related = $relation->getRelated();
+            Assert::notNull($related, 'Related model cannot be null');
+
+            $related
                 ->newQuery()
                 ->where($updateData->foreignKey, $updateData->parentKey)
-                ->whereNotIn($relationDTO->related->getKeyName(), $updatedIds)
+                ->whereNotIn($related->getKeyName(), $updatedIds)
                 ->update([$updateData->foreignKey => null]);
         }
     }

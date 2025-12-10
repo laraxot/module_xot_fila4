@@ -138,7 +138,7 @@ class ExportXlsLazyAction extends Action
 >>>>>>> 5a14301c (.)
                         $fields = array_map(static function ($field): string {
                             if (is_object($field) && method_exists($field, '__toString')) {
-                                return $field->__toString();
+                                return (string) $field->__toString();
                             }
                             if (is_scalar($field)) {
                                 return (string) $field;

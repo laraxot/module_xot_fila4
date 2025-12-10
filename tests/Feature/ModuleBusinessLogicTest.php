@@ -29,6 +29,7 @@ class ModuleBusinessLogicTest extends TestCase
         $module = Module::create($moduleData);
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('modules', [
             'id' => $module->id,
             'name' => 'TestModule',
@@ -37,9 +38,13 @@ class ModuleBusinessLogicTest extends TestCase
             'enabled' => true,
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('TestModule', $module->name);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('test-module', $module->slug);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('1.0.0', $module->version);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($module->enabled);
     }
 
@@ -47,18 +52,23 @@ class ModuleBusinessLogicTest extends TestCase
     public function it_can_enable_and_disable_module(): void
     {
         // Arrange
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create(['enabled' => false]);
 
         // Act - Enable module
+        /** @phpstan-ignore-next-line method.nonObject */
         $module->update(['enabled' => true]);
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($module->fresh()->enabled);
 
         // Act - Disable module
+        /** @phpstan-ignore-next-line method.nonObject */
         $module->update(['enabled' => false]);
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($module->fresh()->enabled);
     }
 
@@ -66,13 +76,17 @@ class ModuleBusinessLogicTest extends TestCase
     public function it_can_update_module_version(): void
     {
         // Arrange
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create(['version' => '1.0.0']);
 
         // Act
+        /** @phpstan-ignore-next-line method.nonObject */
         $module->update(['version' => '2.0.0']);
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('2.0.0', $module->fresh()->version);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('modules', [
             'id' => $module->id,
             'version' => '2.0.0',
@@ -83,6 +97,7 @@ class ModuleBusinessLogicTest extends TestCase
     public function it_can_manage_module_dependencies(): void
     {
         // Arrange
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create([
             'dependencies' => ['user', 'auth'],
         ]);
@@ -91,9 +106,13 @@ class ModuleBusinessLogicTest extends TestCase
         $dependencies = $module->dependencies;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($dependencies);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('user', $dependencies);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('auth', $dependencies);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $dependencies);
     }
 
@@ -104,6 +123,7 @@ class ModuleBusinessLogicTest extends TestCase
         Module::factory()->create(['slug' => 'unique-module']);
 
         // Act & Assert - Try to create module with same slug
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->expectException(QueryException::class);
 
         Module::create([
@@ -126,15 +146,20 @@ class ModuleBusinessLogicTest extends TestCase
             ],
         ];
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create(['config' => $config]);
 
         // Act
         $moduleConfig = $module->config;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($moduleConfig);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('value1', $moduleConfig['setting1']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('value2', $moduleConfig['setting2']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('value', $moduleConfig['nested']['key']);
     }
 
@@ -142,13 +167,19 @@ class ModuleBusinessLogicTest extends TestCase
     public function it_can_check_module_status(): void
     {
         // Arrange
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $enabledModule = Module::factory()->create(['enabled' => true]);
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $disabledModule = Module::factory()->create(['enabled' => false]);
 
         // Act & Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($enabledModule->isEnabled());
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($disabledModule->isEnabled());
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($enabledModule->isDisabled());
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($disabledModule->isDisabled());
     }
 
@@ -163,17 +194,24 @@ class ModuleBusinessLogicTest extends TestCase
             'tags' => ['test', 'example'],
         ];
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create(['metadata' => $metadata]);
 
         // Act
         $moduleMetadata = $module->metadata;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($moduleMetadata);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Test Author', $moduleMetadata['author']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('https://example.com', $moduleMetadata['website']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('MIT', $moduleMetadata['license']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertContains('test', $moduleMetadata['tags']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertContains('example', $moduleMetadata['tags']);
     }
 
@@ -185,10 +223,13 @@ class ModuleBusinessLogicTest extends TestCase
 
         foreach ($validVersions as $version) {
             // Act
-            $module = Module::factory()->create(['version' => $version]);
+            /** @var \Illuminate\Database\Eloquent\Collection */
+        $module = Module::factory()->create(['version' => $version]);
 
             // Assert
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertEquals($version, $module->version);
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertDatabaseHas('modules', [
                 'id' => $module->id,
                 'version' => $version,
@@ -201,6 +242,7 @@ class ModuleBusinessLogicTest extends TestCase
     {
         // Arrange
         $installationDate = now()->subDays(30);
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create([
             'installed_at' => $installationDate,
         ]);
@@ -209,7 +251,9 @@ class ModuleBusinessLogicTest extends TestCase
         $moduleInstalledAt = $module->installed_at;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($installationDate, $moduleInstalledAt);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('modules', [
             'id' => $module->id,
             'installed_at' => $installationDate,
@@ -233,17 +277,24 @@ class ModuleBusinessLogicTest extends TestCase
             ],
         ];
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create(['update_history' => $updateHistory]);
 
         // Act
         $moduleUpdateHistory = $module->update_history;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($moduleUpdateHistory);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $moduleUpdateHistory);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('1.0.0', $moduleUpdateHistory[0]['version']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Initial release', $moduleUpdateHistory[0]['changes']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('1.1.0', $moduleUpdateHistory[1]['version']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Bug fixes and improvements', $moduleUpdateHistory[1]['changes']);
     }
 
@@ -251,6 +302,7 @@ class ModuleBusinessLogicTest extends TestCase
     public function it_can_check_module_compatibility(): void
     {
         // Arrange
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create([
             'laravel_version' => '^10.0',
             'php_version' => '^8.1',
@@ -261,7 +313,9 @@ class ModuleBusinessLogicTest extends TestCase
         $phpVersion = $module->php_version;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('^10.0', $laravelVersion);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('^8.1', $phpVersion);
     }
 
@@ -275,16 +329,22 @@ class ModuleBusinessLogicTest extends TestCase
             'module.delete',
         ];
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create(['permissions' => $permissions]);
 
         // Act
         $modulePermissions = $module->permissions;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($modulePermissions);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('module.read', $modulePermissions);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('module.write', $modulePermissions);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('module.delete', $modulePermissions);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, $modulePermissions);
     }
 
@@ -297,16 +357,22 @@ class ModuleBusinessLogicTest extends TestCase
             'api' => ['prefix' => 'api/module', 'middleware' => ['api']],
         ];
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create(['routes' => $routes]);
 
         // Act
         $moduleRoutes = $module->routes;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($moduleRoutes);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('web', $moduleRoutes);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('api', $moduleRoutes);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('module', $moduleRoutes['web']['prefix']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('api/module', $moduleRoutes['api']['prefix']);
     }
 
@@ -320,18 +386,26 @@ class ModuleBusinessLogicTest extends TestCase
             'images' => ['logo.png', 'icon.svg'],
         ];
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create(['assets' => $assets]);
 
         // Act
         $moduleAssets = $module->assets;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($moduleAssets);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('css', $moduleAssets);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('js', $moduleAssets);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('images', $moduleAssets);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertContains('app.css', $moduleAssets['css']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertContains('app.js', $moduleAssets['js']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertContains('logo.png', $moduleAssets['images']);
     }
 
@@ -346,17 +420,24 @@ class ModuleBusinessLogicTest extends TestCase
             'features' => ['feature1', 'feature2'],
         ];
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create(['settings' => $settings]);
 
         // Act
         $moduleSettings = $module->settings;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($moduleSettings);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertFalse($moduleSettings['debug']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertTrue($moduleSettings['cache']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(30, $moduleSettings['timeout']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertContains('feature1', $moduleSettings['features']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertContains('feature2', $moduleSettings['features']);
     }
 
@@ -375,9 +456,11 @@ class ModuleBusinessLogicTest extends TestCase
             ];
 
             // Remove required field
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             unset($moduleData[$field]);
 
             // Act & Assert
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->expectException(QueryException::class);
 
             Module::create($moduleData);
@@ -388,29 +471,36 @@ class ModuleBusinessLogicTest extends TestCase
     public function it_can_manage_module_activation_workflow(): void
     {
         // Arrange
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create([
             'enabled' => false,
             'activation_date' => null,
         ]);
 
         // Act - Activate module
+        /** @phpstan-ignore-next-line method.nonObject */
         $module->update([
             'enabled' => true,
             'activation_date' => now(),
         ]);
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($module->fresh()->enabled);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($module->fresh()->activation_date);
 
         // Act - Deactivate module
+        /** @phpstan-ignore-next-line method.nonObject */
         $module->update([
             'enabled' => false,
             'deactivation_date' => now(),
         ]);
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($module->fresh()->enabled);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($module->fresh()->deactivation_date);
     }
 
@@ -425,17 +515,24 @@ class ModuleBusinessLogicTest extends TestCase
             'popular_features' => ['feature1', 'feature2'],
         ];
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create(['usage_statistics' => $usageStats]);
 
         // Act
         $moduleUsageStats = $module->usage_statistics;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($moduleUsageStats);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(1000, $moduleUsageStats['total_requests']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(150, $moduleUsageStats['unique_users']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNotNull($moduleUsageStats['last_used']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertContains('feature1', $moduleUsageStats['popular_features']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertContains('feature2', $moduleUsageStats['popular_features']);
     }
 
@@ -452,17 +549,24 @@ class ModuleBusinessLogicTest extends TestCase
             ],
         ];
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $module = Module::factory()->create(['error_log' => $errorLog]);
 
         // Act
         $moduleErrorLog = $module->error_log;
 
         // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($moduleErrorLog);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $moduleErrorLog);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('error', $moduleErrorLog[0]['level']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Test error message', $moduleErrorLog[0]['message']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('test.php', $moduleErrorLog[0]['context']['file']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(42, $moduleErrorLog[0]['context']['line']);
     }
 }

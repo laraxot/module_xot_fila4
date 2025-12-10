@@ -8,13 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Spatie\LaravelData\Data;
 
-// use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-
 /**
  * Undocumented class.
  */
 class RelationData extends Data
 {
+    /** @var Relation<Model, Model, Model> */
     public Relation $rows;
 
     /** @var array<string, mixed> */
@@ -24,5 +23,5 @@ class RelationData extends Data
 
     public string $relationship_type;
 
-    public Model $related;
+    public ?Model $related = null;
 }

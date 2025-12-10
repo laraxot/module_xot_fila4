@@ -111,6 +111,9 @@ class ListCaches extends XotBaseListRecords
 
     protected static string $resource = CacheResource::class;
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getHeaderWidgets(): array
     {
         return [
@@ -119,6 +122,9 @@ class ListCaches extends XotBaseListRecords
     }
 
     #[Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableColumns(): array
     {
         return [
@@ -139,6 +145,9 @@ class ListCaches extends XotBaseListRecords
     }
 
     #[Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getGridTableColumns(): array
     {
         return [

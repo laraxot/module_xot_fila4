@@ -352,16 +352,16 @@ class ExportXlsByQuery
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(strval(...), array_values($fields));
 
-        $export = new QueryExport(
-            query: $query,
-            transKey: null,
-            fields: $stringFields,
-        );
-        // Note: QueryExport doesn't accept a limit parameter directly
-        // If limit is needed, apply it to the query before passing to the exporter
+        // Apply limit if needed before creating export
         if ($limit !== null) {
             $query->limit($limit);
         }
+
+        $export = new QueryExport(
+            query: $query,
+            headings: [],
+            columns: $stringFields,
+        );
 
         return Excel::download($export, $filename);
     }

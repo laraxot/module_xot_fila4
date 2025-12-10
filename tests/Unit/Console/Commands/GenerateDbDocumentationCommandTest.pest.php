@@ -174,7 +174,7 @@ uses(\Modules\Xot\Tests\TestCase::class);
 =======
 >>>>>>> 9db27d12 (.)
 
-beforeEach(function () {
+beforeEach(function (): void {
     $this->testSchemaPath = storage_path('tests/schema.json');
     $this->testOutputDir = storage_path('tests/docs');
 
@@ -370,7 +370,7 @@ beforeEach(function () {
     }
 });
 
-afterEach(function () {
+afterEach(function (): void {
     // Clean up test files
     if (File::exists($this->testSchemaPath)) {
         File::delete($this->testSchemaPath);
@@ -380,7 +380,7 @@ afterEach(function () {
     }
 });
 
-test('it generates database documentation', function () {
+test('it generates database documentation', function (): void {
     // Run the command
     $exitCode = Artisan::call('xot:generate-db-documentation', [
         '--schema' => $this->testSchemaPath,
@@ -591,7 +591,7 @@ test('it generates database documentation', function () {
 >>>>>>> 16dc7ab0 (.)
 });
 
-test('it handles missing schema file', function () {
+test('it handles missing schema file', function (): void {
     // Delete the schema file
     File::delete($this->testSchemaPath);
 
@@ -605,7 +605,7 @@ test('it handles missing schema file', function () {
     expect($exitCode)->not->toBe(0);
 });
 
-test('it handles invalid schema file', function () {
+test('it handles invalid schema file', function (): void {
     // Write invalid JSON to the schema file
     file_put_contents($this->testSchemaPath, 'invalid json');
 
@@ -619,7 +619,7 @@ test('it handles invalid schema file', function () {
     expect($exitCode)->not->toBe(0);
 });
 
-test('it handles missing output directory', function () {
+test('it handles missing output directory', function (): void {
     // Delete the output directory if it exists
     if (File::exists($this->testOutputDir)) {
         File::deleteDirectory($this->testOutputDir);

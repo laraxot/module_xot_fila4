@@ -67,6 +67,7 @@ class JsonResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?int $code = null;
 =======
     public null|int $code = null;
@@ -143,8 +144,15 @@ class JsonResponseData extends Data
 =======
 =======
 >>>>>>> 6dcebf8a (.)
+=======
     public ?int $code = null;
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public ?int $code = null;
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
@@ -166,10 +174,13 @@ class JsonResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
     public null|int $code = null;
 =======
     public ?int $code = null;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,10 +292,13 @@ class JsonResponseData extends Data
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
 =======
     public null|int $code = null;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,9 +314,12 @@ class JsonResponseData extends Data
 >>>>>>> 53d6a6ba (.)
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
     public null|int $code = null;
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
     public ?int $code = null;
@@ -358,17 +375,45 @@ class JsonResponseData extends Data
 =======
     public ?int $code = null;
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
 
     public array $data = [];
 
     public int $status = 200;
 
     /*
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
      * public function toResponse($request)
      * {
      *
      * }
      */
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    public function toResponse($request)
+    {
+
+    }
+    */
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function response(): JsonResponse
     {
         $data = [

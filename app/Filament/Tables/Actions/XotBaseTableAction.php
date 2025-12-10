@@ -31,6 +31,7 @@ namespace Modules\Xot\Filament\Tables\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Closure;
 use Filament\Actions\Action;
 <<<<<<< HEAD
@@ -248,6 +249,12 @@ use Filament\Actions\Action;
 =======
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+use Closure;
+use Filament\Actions\Action;
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
 use Closure;
 use Filament\Actions\Action;
 =======
@@ -255,6 +262,7 @@ use Filament\Actions\Action;
 use Closure;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 use Closure;
 use Filament\Actions\Action;
 =======
@@ -266,11 +274,14 @@ use Closure;
 <<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 use Closure;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,6 +352,11 @@ use Closure;
 use Closure;
 use Filament\Actions\Action;
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -376,6 +392,7 @@ abstract class XotBaseTableAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getRecord(bool $withDefault = true): ?Model
 =======
 =======
@@ -407,6 +424,11 @@ abstract class XotBaseTableAction extends Action
 =======
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+    public function getRecord(bool $withDefault = true): ?Model
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
     public function getRecord(bool $withDefault = true): ?Model
 =======
     /**
@@ -414,6 +436,7 @@ abstract class XotBaseTableAction extends Action
      */
     public function getRecord(bool $withDefault = true): null|Model
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -439,11 +462,27 @@ abstract class XotBaseTableAction extends Action
 =======
     public function getRecord(bool $withDefault = true): ?Model
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
     {
         if ($this->record instanceof Closure) {
             return null;
         }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    public function getRecord(): ?Model
+    {
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         return $this->record;
     }
 }

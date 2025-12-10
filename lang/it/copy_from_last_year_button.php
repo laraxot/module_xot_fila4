@@ -1,5 +1,15 @@
 <?php
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -29,3 +39,23 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+return array (
+  'actions' => 
+  array (
+    'copy_from_last_year' => 
+    array (
+      'label' => 'copy_from_last_year',
+    ),
+  ),
+);
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

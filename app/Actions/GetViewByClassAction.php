@@ -108,6 +108,11 @@ class GetViewByClassAction
      * @param  array<string, mixed>  $params  Parametri da passare alla vista
      * @param  string|null  $viewName  Nome personalizzato della vista
      */
+<<<<<<< HEAD
+    public function execute(string $class, array $params = [], ?string $viewName = null): View
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $class, array $params = [], ?string $viewName = null): View
 =======
 =======
@@ -141,6 +146,31 @@ class GetViewByClassAction
     {
         $viewName ??= $this->getViewNameFromClass($class);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+    public function execute(string $class, array $params = [], null|string $viewName = null): View
+>>>>>>> a6ef6dc7 (.)
+    {
+        $viewName ??= $this->getViewNameFromClass($class);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function execute(string $class, array $params = [], ?string $viewName = null): View
+    {
+        $viewName = $viewName ?? $this->getViewNameFromClass($class);
+        
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         /** @var view-string $viewName */
         return view($viewName, $params);
     }
@@ -446,7 +476,9 @@ class GetViewByClassAction
         $class_name = Str::kebab(class_basename($class));
 
         // Costruisci il percorso della view
+<<<<<<< HEAD
         return $module_low.'::pages.'.$class_name;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,10 +490,13 @@ class GetViewByClassAction
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
         return $module_low.'::pages.'.$class_name;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
@@ -474,10 +509,13 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
         return $module_low . '::pages.' . $class_name;
 =======
         return $module_low.'::pages.'.$class_name;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -589,10 +627,13 @@ class GetViewByClassAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
 =======
         return $module_low . '::pages.' . $class_name;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,9 +648,12 @@ class GetViewByClassAction
 >>>>>>> 53d6a6ba (.)
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
         return $module_low . '::pages.' . $class_name;
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
@@ -663,5 +707,7 @@ class GetViewByClassAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
     }
 }

@@ -167,6 +167,7 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -238,6 +239,9 @@ use Illuminate\Database\Eloquent\Builder;
 =======
  * @mixin IdeHelperPulseAggregate
 =======
+ * @mixin IdeHelperPulseAggregate
+>>>>>>> b7afadf9 (.)
+=======
  * @mixin \Eloquent
  */
 /**
@@ -250,9 +254,15 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $aggregate
  * @property string $value
  * @property int|null $count
+<<<<<<< HEAD
  *
 =======
 >>>>>>> cc7fb225 (.)
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+>>>>>>> b7afadf9 (.)
  * @method static \Modules\Xot\Database\Factories\PulseAggregateFactory factory($count = null, $state = [])
  * @method static Builder<static>|PulseAggregate newModelQuery()
  * @method static Builder<static>|PulseAggregate newQuery()
@@ -268,6 +278,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseAggregate whereValue($value)
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 =======
@@ -280,6 +291,9 @@ use Illuminate\Database\Eloquent\Builder;
 =======
  * @mixin IdeHelperPulseAggregate
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
  * @mixin \Eloquent
  */
 class PulseAggregate extends BaseModel

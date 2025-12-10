@@ -176,6 +176,7 @@ class ExportXlsAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 249a0067 (.)
                         $fields = array_map(
@@ -218,9 +219,12 @@ class ExportXlsAction extends Action
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+                        /** @var array<int, string> $fields */
+>>>>>>> b7afadf9 (.)
                         $fields = array_map(static function ($field): string {
                             if (is_object($field) && method_exists($field, '__toString')) {
-                                return $field->__toString();
+                                return (string) $field->__toString();
                             }
                             if (is_scalar($field)) {
                                 return (string) $field;

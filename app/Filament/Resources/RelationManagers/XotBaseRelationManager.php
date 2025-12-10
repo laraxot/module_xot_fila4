@@ -183,6 +183,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     final public function form(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema());
@@ -348,9 +349,14 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+    /**
+     * @return list<\Illuminate\Contracts\Support\Htmlable|string>
+     */
+>>>>>>> b7afadf9 (.)
     public function getFormSchema(): array
     {
-        return $this->getResource()::getFormSchema();
+        return array_values($this->getResource()::getFormSchema());
     }
 
 <<<<<<< HEAD
@@ -375,9 +381,14 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     //*
 >>>>>>> 5a14301c (.)
     #[Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableColumns(): array
     {
+        /** @var \Filament\Resources\Pages\PageRegistration $index */
         $index = Arr::get($this->getResource()::getPages(), 'index');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,10 +407,16 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
         if (! $index) {
+=======
+        if (! $index instanceof \Filament\Resources\Pages\PageRegistration) {
+>>>>>>> a6ef6dc7 (.)
             // throw new \Exception('Index page not found');
             return [];
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -436,10 +453,20 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         $index_page = $index->getPage();
 
 >>>>>>> 53d6a6ba (.)
+=======
+        /** @var class-string<\Filament\Resources\Pages\Page> $index_page */
+        $index_page = $index->getPage();
+
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
         if (! method_exists($index_page, 'getTableColumns')) {
+=======
+        if (! is_string($index_page) || ! class_exists($index_page) || ! method_exists($index_page, 'getTableColumns')) {
+>>>>>>> a6ef6dc7 (.)
             // throw new \Exception('method  getTableColumns on '.print_r($index_page,true).' not found');
             return [];
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -483,7 +510,19 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
         // Ensure string keys always
 >>>>>>> 53d6a6ba (.)
+=======
+        // @phpstan-ignore-next-line
+        $res = app($index_page)->getTableColumns();
+
+        // Ensure string keys always
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
         $assoc = [];
+=======
+        /** @var array<string, \Filament\Tables\Columns\Column|\Filament\Tables\Columns\Layout\Component> $assoc */
+        $assoc = [];
+        /** @var array<int|string, \Filament\Tables\Columns\Column|\Filament\Tables\Columns\Layout\Component> $res */
+>>>>>>> a6ef6dc7 (.)
         foreach ($res as $key => $column) {
             if (is_string($key)) {
                 $assoc[$key] = $column;
@@ -491,6 +530,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 continue;
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -507,7 +547,17 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
             $name = method_exists($column, 'getName') ? $column->getName() : (string) spl_object_hash($column);
+=======
+            if (is_object($column) && method_exists($column, 'getName')) {
+                $name = $column->getName();
+                Assert::string($name, 'Column name must be string');
+            } else {
+                $name = (string) spl_object_hash($column);
+            }
+>>>>>>> a6ef6dc7 (.)
             $assoc[$name] = $column;
 >>>>>>> 53d6a6ba (.)
         }
@@ -521,6 +571,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     {
         $actions = [];
         $resource = static::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -554,6 +605,8 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
         if (method_exists($resource, 'canEdit')) {
             $actions['edit'] = EditAction::make()
                 ->iconButton()
@@ -567,8 +620,11 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 =======
         $actions['edit'] = EditAction::make()
             ->iconButton()
@@ -577,11 +633,14 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
             ->iconButton()
             ->visible(fn (?Model $record): bool => $record !== null && $resource::canDetach($record));
 >>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
 
         return $actions;
 =======
@@ -635,6 +694,9 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 >>>>>>> 5a14301c (.)
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableBulkActions(): array
     {
 <<<<<<< HEAD
@@ -648,6 +710,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         if (method_exists($resource, 'canDeleteBulk')) {
             $actions['delete_bulk'] = DeleteBulkAction::make()
                 ->iconButton()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -675,11 +738,18 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 =======
                 ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
 >>>>>>> 53d6a6ba (.)
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+=======
+                ->visible(fn (?Model $record): bool => (bool) $resource::canDeleteBulk($record));
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
         }
 
         if (method_exists($resource, 'canDetachBulk')) {
             $actions['detach_bulk'] = DetachBulkAction::make()
                 ->iconButton()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -707,6 +777,12 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 =======
                 ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
 >>>>>>> 53d6a6ba (.)
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+=======
+                ->visible(fn (?Model $record): bool => (bool) $resource::canDetachBulk($record));
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
         }
 
         return $actions;
@@ -738,6 +814,9 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 >>>>>>> 5a14301c (.)
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableHeaderActions(): array
     {
         $actions = [];
@@ -810,6 +889,9 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         return $actions;
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getTableFilters(): array
     {
         return [];

@@ -32,6 +32,7 @@ use Filament\Pages\Dashboard as FilamentDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 =======
 >>>>>>> 53d6a6ba (.)
@@ -44,6 +45,11 @@ use Filament\Pages\Dashboard\Concerns\HasFiltersForm;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+use Filament\Pages\Dashboard\Concerns\HasFiltersForm;
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 =======
@@ -200,6 +206,7 @@ use Filament\Schemas\Schema;
 
 abstract class XotBaseDashboard extends FilamentDashboard
 {
+<<<<<<< HEAD
     use FilamentDashboard\Concerns\HasFiltersForm;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,10 +626,22 @@ abstract class XotBaseDashboard extends FilamentDashboard
 
     protected static null|int $navigationSort = 1;
 >>>>>>> ca9324a4 (.)
+=======
+    use HasFiltersForm;
+
+    protected static ?int $navigationSort = 1;
+
+<<<<<<< HEAD
+    protected static ?int $navigationSort = 1;
+
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
     protected bool $persistsFiltersInSession = true;
 
     final public function filtersForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -755,11 +774,17 @@ abstract class XotBaseDashboard extends FilamentDashboard
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->getFiltersFormSchema();
+
+>>>>>>> b7afadf9 (.)
         return $schema->components([
-            Section::make()->schema($this->getFiltersFormSchema())->columns(3),
+            Section::make()->schema($schemaComponents)->columns(3),
         ]);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -796,6 +821,11 @@ abstract class XotBaseDashboard extends FilamentDashboard
     }
 
 >>>>>>> 53d6a6ba (.)
+=======
+    /**
+     * @return array<\Illuminate\Contracts\Support\Htmlable|string>
+     */
+>>>>>>> b7afadf9 (.)
     public function getFiltersFormSchema(): array
     {
         return [];

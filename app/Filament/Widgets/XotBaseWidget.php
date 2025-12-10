@@ -64,6 +64,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d86d643a (.)
@@ -192,7 +193,11 @@ use Filament\Schemas\Schema;
 >>>>>>> 16dc7ab0 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
 use Exception;
+=======
+>>>>>>> a6ef6dc7 (.)
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
@@ -1519,7 +1524,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
             // Ensure model is compatible with Schema::model()
             if (is_string($model)) {
                 if (class_exists($model) && is_subclass_of($model, Model::class)) {
-                    /** @var class-string<Model> $model */
+                    /* @var class-string<Model> $model */
                     $schema->model($model);
                 }
             } else {
@@ -1851,6 +1856,9 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         return $schema;
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
@@ -2556,10 +2564,11 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                     $res = $merge1;
                 }
 
+                /** @var array<string, mixed> */
                 return $res;
 
                 // dddx($model->with('studio')->relationsToArray());
-            } catch (Exception $e) {
+            } catch (\Exception $e) {
                 // Se toArray() fallisce (problemi con enum), usa getAttributes()
                 // Log::warning("Errore in toArray() per modello {$this->model}: " . $e->getMessage());
 <<<<<<< HEAD
@@ -2584,6 +2593,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 //    $attributes['type'] = $model->type->value;
                 // }
 
+                /** @var array<string, mixed> */
                 return $attributes;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2607,14 +2617,16 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $attributes = $model->attributesToArray();
 
         $fields = array_merge($fillable, $appends);
-        $fields = array_fill_keys($fields, null);
-        $fields = array_merge($fields, $attributes);
+        /** @var array<string, mixed> $fieldsWithNull */
+        $fieldsWithNull = array_fill_keys($fields, null);
+        $fieldsWithNull = array_merge($fieldsWithNull, $attributes);
         if (method_exists($model, 'getDataDefaults')) {
             /** @var array<string, mixed> $defaults */
             $defaults = $model->getDataDefaults();
-            $fields = array_merge($fields, $defaults);
+            $fieldsWithNull = array_merge($fieldsWithNull, $defaults);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2697,6 +2709,10 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 >>>>>>> 5a14301c (.)
 =======
         return $fields;
+=======
+        /** @var array<string, mixed> */
+        return $fieldsWithNull;
+>>>>>>> b7afadf9 (.)
     }
 
     /**
@@ -2748,7 +2764,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     /**
      * Eseguito quando i filtri vengono aggiornati.
-     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario
+     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario.
      */
     // public function filtersUpdated(): void
     // {
@@ -3029,7 +3045,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 =======
 >>>>>>> 16dc7ab0 (.)
         if (! view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
+            throw new \Exception("View {$submit_view} does not exist");
         }
 
 <<<<<<< HEAD

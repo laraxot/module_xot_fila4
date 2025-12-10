@@ -198,7 +198,9 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
 >>>>>>> 53d6a6ba (.)
 =======
  *
+<<<<<<< HEAD
  * @mixin IdeHelperHealthCheckResultHistoryItem
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> a6ef6dc7 (.)
@@ -223,6 +225,10 @@ use Spatie\Health\Models\HealthCheckResultHistoryItem as BaseHealthCheckResultHi
 =======
  * @mixin IdeHelperHealthCheckResultHistoryItem
 >>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
  * @mixin \Eloquent
  */
 class HealthCheckResultHistoryItem extends BaseHealthCheckResultHistoryItem

@@ -46,7 +46,23 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 5a14301c (.)
      * @return array<int|string, string>
      */
+<<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $class, Model|callable|null $_where = null): array
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(string $class, Model|callable|null $_where = null): array
+=======
+    public function execute(string $class, Model|callable|null $where = null): array
+>>>>>>> f1d4085 (.)
+=======
+    public function execute(string $class, Model|callable|null $_where = null): array
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+    public function execute(string $class, Model|callable|null $_where = null): array
+>>>>>>> 300ef70 (.)
     {
         /** @var HasRecursiveRelationshipsContract $model */
 <<<<<<< HEAD
@@ -100,6 +116,16 @@ class GetTreeOptionsByModelClassAction
 =======
 >>>>>>> 5a14301c (.)
             /* @var HasRecursiveRelationshipsContract $row */
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             $key = $row->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] = is_string($row)
                 ? $row
@@ -154,6 +180,7 @@ class GetTreeOptionsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -179,9 +206,12 @@ class GetTreeOptionsByModelClassAction
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 =======
             $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,12 +349,15 @@ class GetTreeOptionsByModelClassAction
 =======
 >>>>>>> 53d6a6ba (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 =======
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
@@ -380,6 +413,8 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
             $this->parse($row);
         }
 
@@ -389,6 +424,8 @@ class GetTreeOptionsByModelClassAction
     public function parse(HasRecursiveRelationshipsContract $model): void
     {
         foreach ($model->children as $child) {
+<<<<<<< HEAD
+<<<<<<< HEAD
             /** @var HasRecursiveRelationshipsContract $child */
             $key = $child->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] =
@@ -399,6 +436,7 @@ class GetTreeOptionsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
                 Str::repeat('---', $child->depth).'   '.$child->getLabel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -499,17 +537,23 @@ class GetTreeOptionsByModelClassAction
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> b7afadf9 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 300ef70 (.)
             /** @var HasRecursiveRelationshipsContract $child */
             $key = $child->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] =
+<<<<<<< HEAD
 <<<<<<< HEAD
                 Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
 <<<<<<< HEAD
@@ -520,9 +564,12 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 6dcebf8a (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
                 Str::repeat('---', $child->depth).'   '.$child->getLabel();
 =======
                 Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
@@ -542,10 +589,13 @@ class GetTreeOptionsByModelClassAction
 <<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
+>>>>>>> b7afadf9 (.)
+=======
             $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -646,10 +696,13 @@ class GetTreeOptionsByModelClassAction
 =======
 >>>>>>> 53d6a6ba (.)
 =======
+=======
+>>>>>>> b7afadf9 (.)
 >>>>>>> d2b0a27 (.)
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
@@ -701,6 +754,8 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
         }
     }
 }

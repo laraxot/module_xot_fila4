@@ -88,6 +88,7 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -205,6 +206,9 @@ use Illuminate\Database\Eloquent\Builder;
 =======
  * @mixin IdeHelperPulseValue
 =======
+ * @mixin IdeHelperPulseValue
+>>>>>>> b7afadf9 (.)
+=======
  * @mixin \Eloquent
  */
 /**
@@ -214,10 +218,17 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $key
  * @property string $key_hash
  * @property string $value
+<<<<<<< HEAD
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *
  * @method static PulseValueFactory factory($count = null, $state = [])
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Xot\Database\Factories\PulseValueFactory factory($count = null, $state = [])
+>>>>>>> b7afadf9 (.)
  * @method static Builder<static>|PulseValue newModelQuery()
  * @method static Builder<static>|PulseValue newQuery()
  * @method static Builder<static>|PulseValue query()
@@ -229,6 +240,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseValue whereValue($value)
  *
 >>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
  * @mixin IdeHelperPulseValue
@@ -240,6 +252,8 @@ use Illuminate\Database\Eloquent\Builder;
 =======
  * @mixin IdeHelperPulseValue
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

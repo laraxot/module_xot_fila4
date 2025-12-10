@@ -68,6 +68,7 @@ abstract class XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -144,8 +145,15 @@ abstract class XotBasePolicy
 >>>>>>> 88ea7103 (.)
 =======
 =======
+=======
     public function before(UserContract $user, string $_ability): ?bool
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public function before(UserContract $user, string $_ability): ?bool
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
@@ -167,10 +175,13 @@ abstract class XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
     public function before(UserContract $user, string $_ability): null|bool
 =======
     public function before(UserContract $user, string $ability): ?bool
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,10 +293,13 @@ abstract class XotBasePolicy
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
 =======
     public function before(UserContract $user, string $_ability): null|bool
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,9 +315,12 @@ abstract class XotBasePolicy
 >>>>>>> 53d6a6ba (.)
 =======
 =======
+>>>>>>> b7afadf9 (.)
+=======
     public function before(UserContract $user, string $_ability): null|bool
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
     public function before(UserContract $user, string $_ability): ?bool
@@ -359,6 +376,8 @@ abstract class XotBasePolicy
 =======
     public function before(UserContract $user, string $_ability): ?bool
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
     {
         return once(function () use ($user) {
             if ($user->hasRole('super-admin')) {
@@ -379,6 +398,7 @@ abstract class XotBasePolicy
 >>>>>>> 5a14301c (.)
 =======
 
+<<<<<<< HEAD
             return null;
 >>>>>>> 5a14301c (.)
 =======
@@ -403,6 +423,8 @@ abstract class XotBasePolicy
 =======
             return null;
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
         });
     }
 

@@ -226,15 +226,19 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b7afadf9 (.)
 =======
  *
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> b7afadf9 (.)
  * @property string|null $model_class
  *
  * @method static Builder<static>|InformationSchemaTable whereModelClass($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
@@ -298,6 +302,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model

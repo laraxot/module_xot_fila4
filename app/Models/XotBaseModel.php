@@ -24,6 +24,7 @@ use Illuminate\Database\Eloquent\Model;
 =======
 use Illuminate\Database\Eloquent\Model;
 // use Laravel\Scout\Searchable;
+<<<<<<< HEAD
 // ---- Traits ----
 >>>>>>> 5a14301c (.)
 =======
@@ -51,6 +52,8 @@ use Illuminate\Database\Eloquent\Model;
 =======
 // ---- Traits ----
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
 use Modules\Xot\Traits\Updater;
 
 /**
@@ -84,7 +87,11 @@ abstract class XotBaseModel extends Model
 =======
 abstract class XotBaseModel extends Model
 {
+    use Traits\HasXotFactory;
+    use Traits\RelationX;
+
     // use Searchable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -114,6 +121,9 @@ abstract class XotBaseModel extends Model
 =======
     // use Searchable;
 >>>>>>> 53d6a6ba (.)
+=======
+    // //use Cachable;
+>>>>>>> b7afadf9 (.)
     use Updater;
 
     /**
@@ -125,6 +135,7 @@ abstract class XotBaseModel extends Model
      */
     public static $snakeAttributes = true;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +176,14 @@ abstract class XotBaseModel extends Model
 
     protected $perPage = 30;
 
+=======
+    public $incrementing = true;
+
+    public $timestamps = true;
+
+    protected $perPage = 30;
+
+>>>>>>> b7afadf9 (.)
     // protected $connection = 'xot';
 
     /** @var list<string> */
@@ -173,6 +192,9 @@ abstract class XotBaseModel extends Model
     protected $primaryKey = 'id';
 
     protected $keyType = 'string';
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
 >>>>>>> b7afadf9 (.)
 
     /** @var list<string> */
@@ -181,8 +203,11 @@ abstract class XotBaseModel extends Model
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @return array<string, string> */
 =======
+=======
+>>>>>>> b7afadf9 (.)
     /**
      * The accessors to append to the model's array form.
      *
@@ -191,6 +216,9 @@ abstract class XotBaseModel extends Model
     protected $appends = [];
 
     /** @return array<string, class-string|string> */
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
 >>>>>>> b7afadf9 (.)
     protected function casts(): array
     {
@@ -199,7 +227,10 @@ abstract class XotBaseModel extends Model
             'uuid' => 'string',
             'published_at' => 'datetime',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'verified_at' => 'datetime',
+=======
+>>>>>>> b7afadf9 (.)
 =======
 >>>>>>> b7afadf9 (.)
             'created_at' => 'datetime',
@@ -210,6 +241,7 @@ abstract class XotBaseModel extends Model
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     /** @var int */
@@ -245,4 +277,6 @@ abstract class XotBaseModel extends Model
     /** @var int */
     protected $perPage = 30;
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
 }

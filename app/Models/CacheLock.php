@@ -66,6 +66,7 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -133,14 +134,24 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
  * @mixin IdeHelperCacheLock
 =======
+ * @mixin IdeHelperCacheLock
+>>>>>>> b7afadf9 (.)
+=======
  * @mixin \Eloquent
  */
 /**
  * @property string $key
  * @property string $owner
  * @property int $expiration
+<<<<<<< HEAD
  *
  * @method static CacheLockFactory factory($count = null, $state = [])
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Xot\Database\Factories\CacheLockFactory factory($count = null, $state = [])
+>>>>>>> b7afadf9 (.)
  * @method static Builder<static>|CacheLock newModelQuery()
  * @method static Builder<static>|CacheLock newQuery()
  * @method static Builder<static>|CacheLock query()
@@ -148,6 +159,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|CacheLock whereKey($value)
  * @method static Builder<static>|CacheLock whereOwner($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
@@ -163,6 +175,9 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
  * @mixin IdeHelperCacheLock
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
  * @mixin \Eloquent
  */
 class CacheLock extends BaseModel

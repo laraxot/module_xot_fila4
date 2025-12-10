@@ -154,6 +154,7 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 17684f52 (.)
@@ -190,6 +191,9 @@ use Illuminate\Database\Eloquent\Builder;
  * @mixin IdeHelperPulseEntry
 >>>>>>> b7afadf9 (.)
 =======
+ * @mixin IdeHelperPulseEntry
+>>>>>>> b7afadf9 (.)
+=======
  * @mixin \Eloquent
  */
 /**
@@ -215,6 +219,7 @@ use Illuminate\Database\Eloquent\Builder;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc7fb225 (.)
 =======
  * @mixin IdeHelperPulseEntry
@@ -233,6 +238,9 @@ use Illuminate\Database\Eloquent\Builder;
 =======
  * @mixin IdeHelperPulseEntry
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
  * @mixin \Eloquent
  */
 class PulseEntry extends BaseModel

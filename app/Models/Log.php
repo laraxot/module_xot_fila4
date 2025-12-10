@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
 use Sushi\Sushi;
 use Override;
 use Modules\Xot\Database\Factories\FeedFactory;
@@ -13,6 +14,42 @@ use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\File;
 use Override;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Xot\Database\Factories\LogFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Facades\File;
+use Override;
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Sushi\Sushi;
 <<<<<<< HEAD
 =======
@@ -63,6 +100,23 @@ use Override;
 use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+=======
+<<<<<<< HEAD
+use Sushi\Sushi;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Modules\Xot\Database\Factories\FeedFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Support\Facades\File;
 use Sushi\Sushi;
 use Override;
@@ -80,6 +134,21 @@ use Illuminate\Support\Facades\File;
 /**
  * Modules\Xot\Models\Feed.
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
  * @property string|null $id
  * @property string|null $name
  * @property int|null $size
@@ -92,6 +161,47 @@ use Illuminate\Support\Facades\File;
  * @method static Builder<static>|Log whereName($value)
  * @method static Builder<static>|Log whereSize($value)
  *
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
  * @method static FeedFactory factory($count = null, $state = [])
  * @method static Builder|Feed newModelQuery()
  * @method static Builder|Feed newQuery()
@@ -99,20 +209,43 @@ use Illuminate\Support\Facades\File;
  * @method static Builder|Feed newModelQuery()
  * @method static Builder|Feed newQuery()
  * @method static Builder|Feed query()
+<<<<<<< HEAD
+=======
+=======
+ * @method static \Modules\Xot\Database\Factories\FeedFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|Feed  newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Feed  newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Feed  query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Feed  newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Feed  newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Feed  query()
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
  * @property string|null $id
  * @property string|null $name
  * @property int|null    $size
  * @property string|null $file_content
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
  * @method static Builder|Log whereId($value)
  * @method static Builder|Log whereName($value)
  * @method static Builder|Log whereSize($value)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ce6fc085 (.)
  * @method static \Illuminate\Database\Eloquent\Builder|Log whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Log whereName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Log whereSize($value)
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+<<<<<<< HEAD
  * @mixin IdeHelperLog
  *
  * @mixin \Eloquent
@@ -137,11 +270,27 @@ use Illuminate\Support\Facades\File;
  * @mixin IdeHelperLog
  * @mixin IdeHelperLog
  * @mixin IdeHelperLog
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
  * @mixin IdeHelperLog
  * @mixin \Eloquent
  */
 class Log extends BaseModel
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    use Sushi;
+=======
+<<<<<<< HEAD
+    use Sushi;
+=======
+    use \Sushi\Sushi;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
     protected $fillable = ['id', 'name', 'size'];
 
@@ -196,6 +345,7 @@ class Log extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getFileContentAttribute(?string $value): ?string
     {
         return File::get(storage_path('logs/'.$this->id.'.log'));
@@ -210,10 +360,13 @@ class Log extends BaseModel
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,7 +423,12 @@ class Log extends BaseModel
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     public function getFileContentAttribute(null|string $value): null|string
     {
         return File::get(storage_path('logs/' . $this->id . '.log'));
@@ -278,6 +436,7 @@ class Log extends BaseModel
 
     /** @return array<string, string> */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getFileContentAttribute(?string $value): ?string
     public function getFileContentAttribute(null|string $value): null|string
@@ -319,12 +478,32 @@ class Log extends BaseModel
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+    public function getFileContentAttribute(?string $value): ?string
+=======
+    public function getFileContentAttribute(null|string $value): null|string
+>>>>>>> b93ef594b4 (.)
+    {
+        return File::get(storage_path('logs/' . $this->id . '.log'));
+    }
+
+    /** @return array<string, string> */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> ce6fc085 (.)
     public function getFileContentAttribute(?string $value): ?string
     {
         return File::get(storage_path('logs/'.$this->id.'.log'));
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
     #[Override]
@@ -339,12 +518,17 @@ class Log extends BaseModel
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'name' => 'string',
             'size' => 'integer',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,9 +545,36 @@ class Log extends BaseModel
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+=======
+=======
+>>>>>>> origin/develop
+
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -372,6 +583,14 @@ class Log extends BaseModel
 }
 
 /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
  * dddx([
  * 'getRelativePath' => $file->getRelativePath(), // ""
  * 'getRelativePathname' => $file->getRelativePathname(),
@@ -432,9 +651,17 @@ class Log extends BaseModel
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
            dddx([
                'getRelativePath' => $file->getRelativePath(), // ""
                'getRelativePathname' => $file->getRelativePathname(),
@@ -494,6 +721,7 @@ class Log extends BaseModel
    "getRealPath" => "C:\var\www\_bases\base_camping_fila3\laravel\storage\logs\laravel-2024-03-01.log"
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -504,3 +732,11 @@ class Log extends BaseModel
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)

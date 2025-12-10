@@ -15,7 +15,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 {
     /**
      * Traccia i panel che hanno già gli hook registrati.
+<<<<<<< HEAD
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      *
@@ -35,6 +37,23 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+=======
+     * 
+>>>>>>> a12f125f4a (.)
+=======
+     *
+>>>>>>> b93ef594b4 (.)
+=======
+     * 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
      * @var array<string, bool>
      */
     private static array $processedPanels = [];
@@ -47,7 +66,25 @@ class CoolModulesServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
 
+<<<<<<< HEAD
         $package->name('cool-modules');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $package->name('cool-modules');
+=======
+        $package
+            ->name('cool-modules');
+>>>>>>> a12f125f4a (.)
+=======
+        $package->name('cool-modules');
+>>>>>>> b93ef594b4 (.)
+=======
+        $package
+            ->name('cool-modules');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     }
 
         $package->name('cool-modules');
@@ -71,6 +108,12 @@ class CoolModulesServiceProvider extends PackageServiceProvider
         $this->app->afterResolving('filament', function () {
         $this->app->afterResolving('filament', function () {
             $panels = Filament::getPanels();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
@@ -78,20 +121,33 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
            
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
                 $panelId = $panel->getId();
                 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
 
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
                 $panelId = $panel->getId();
 
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -102,10 +158,22 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
                 // Controlla se questo panel è già stato processato
                 if (isset(self::$processedPanels[$panelId])) {
                     continue;
                 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
@@ -134,6 +202,15 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+                
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> ce6fc085 (.)
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
                     $panel->renderHook(
@@ -145,9 +222,16 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                         url('/admin') .
                             '" class="fi-sidebar-item-btn">
                                         <svg class="fi-icon fi-size-lg fi-sidebar-item-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3">
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 218dfed3 (.)
+=======
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                                        </svg>
+                                        Main Panel
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 =======
                 
                 if ($id->contains('::')) {
@@ -164,19 +248,32 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                             fn () => new HtmlString(
                                 '<a href="'.url('/admin').'" class="m-2 p-2 mt-4 inline-flex gap-2 block rounded-lg font-bold bg-gray-500/10">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
                                           <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
                                         </svg>
                                         Main Panel
+=======
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                                        </svg>
+                                        Main Panel
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
                                       </a>'
                             ),
                         );
                     
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
                                       </a>
                                      '),
                     );
 
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -187,6 +284,12 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
                     // Marca questo panel come processato
                     self::$processedPanels[$panelId] = true;
                 }

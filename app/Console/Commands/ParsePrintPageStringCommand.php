@@ -8,9 +8,19 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
+<<<<<<< HEAD
+use Exception;
+<<<<<<< HEAD
 use Exception;
 use Exception;
+=======
+=======
+<<<<<<< HEAD
 use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 use Illuminate\Console\Command;
 use Modules\Xot\Actions\ParsePrintPageStringAction;
 
@@ -36,6 +46,7 @@ class ParsePrintPageStringCommand extends Command
      *
      * @return void
      */
+<<<<<<< HEAD
     
 <<<<<<< HEAD
     
@@ -46,6 +57,7 @@ class ParsePrintPageStringCommand extends Command
     
     
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +88,8 @@ class ParsePrintPageStringCommand extends Command
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,6 +97,7 @@ class ParsePrintPageStringCommand extends Command
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104,7 +119,12 @@ class ParsePrintPageStringCommand extends Command
 =======
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     public function __construct()
     {
         parent::__construct();
@@ -119,12 +139,15 @@ class ParsePrintPageStringCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 2f3197ab (.)
@@ -135,6 +158,7 @@ class ParsePrintPageStringCommand extends Command
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,7 +257,12 @@ class ParsePrintPageStringCommand extends Command
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
     /**
      * Execute the console command.
@@ -267,6 +296,7 @@ class ParsePrintPageStringCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         if (! is_string($str)) {
         if (!is_string($str)) {
@@ -320,6 +350,8 @@ class ParsePrintPageStringCommand extends Command
 =======
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
         if (! is_string($str)) {
 =======
 =======
@@ -338,6 +370,8 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
         if (!is_string($str)) {
 >>>>>>> 5a14301c (.)
 =======
@@ -426,6 +460,7 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> 3310e9c6 (.)
 >>>>>>> a67e542f (.)
             throw new Exception('argument str must be a string');
+<<<<<<< HEAD
         if (! is_string($str)) {
         if (!is_string($str)) {
         if (!is_string($str)) {
@@ -484,6 +519,25 @@ class ParsePrintPageStringCommand extends Command
             throw new Exception('argument str must be a string');
         if (! is_string($str)) {
             throw new \Exception('argument str must be a string');
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!is_string($str)) {
+=======
+        if (! is_string($str)) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!is_string($str)) {
+>>>>>>> b93ef594b4 (.)
+            throw new Exception('argument str must be a string');
+=======
+        if (! is_string($str)) {
+            throw new \Exception('argument str must be a string');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         }
         dddx(app(ParsePrintPageStringAction::class)->execute($str));
     }

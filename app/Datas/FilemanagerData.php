@@ -33,7 +33,9 @@ class FilemanagerData extends Data
         public readonly int $max_size = 10,
         public readonly string $route_prefix = 'filemanager',
         public readonly bool $enable_crop = true,
+<<<<<<< HEAD
     ) {}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     ) {
@@ -52,6 +54,25 @@ class FilemanagerData extends Data
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ) {}
+=======
+    ) {
+    }
+>>>>>>> a12f125f4a (.)
+=======
+    ) {}
+>>>>>>> b93ef594b4 (.)
+=======
+    ) {
+    }
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
     /**
      * Create a new instance of FilemanagerData with default values.

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\View;
 
+<<<<<<< HEAD
 use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
@@ -14,6 +15,10 @@ use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 use Spatie\QueueableAction\QueueableAction;
+=======
+<<<<<<< HEAD
+use Exception;
+>>>>>>> ce6fc085 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
@@ -74,6 +79,7 @@ use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 >>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
@@ -88,6 +94,32 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+use Exception;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
+use Spatie\QueueableAction\QueueableAction;
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
+>>>>>>> a12f125f4a (.)
+=======
+use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> b93ef594b4 (.)
+=======
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 /**
  * Classe per la conversione di nomi di classi in nomi di viste.
@@ -108,7 +140,52 @@ class GetViewByClassAction
      * @param string $suffix Suffisso opzionale da aggiungere al nome della vista
      *
      * @return string Il nome della vista
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
      * @throws Exception Se la vista non esiste
+=======
+<<<<<<< HEAD
+     * @throws Exception Se la vista non esiste
+=======
+     * @throws \Exception Se la vista non esiste
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
      */
     public function execute(string $class, string $suffix = ''): string
     {
@@ -152,6 +229,7 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -166,8 +244,45 @@ class GetViewByClassAction
             ->after('Modules\\'.$module.'\\')
             ->after('Modules\\'.$module.'\\')
 =======
+=======
+            ->after('Modules\\'.$module.'\\')
+=======
+            ->after('Modules\\' . $module . '\\')
+>>>>>>> 5a14301c (.)
+=======
+            ->after('Modules\\' . $module . '\\')
+>>>>>>> 3fbbf1f5 (.)
+=======
+            ->after('Modules\\' . $module . '\\')
+=======
+            ->after('Modules\\' . $module . '\\')
+>>>>>>> 399f46d3 (.)
+=======
+            ->after('Modules\\' . $module . '\\')
+>>>>>>> 17684f52 (.)
+=======
+            ->after('Modules\\' . $module . '\\')
+>>>>>>> 399f46d3 (.)
+=======
+            ->after('Modules\\' . $module . '\\')
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->after('Modules\\' . $module . '\\')
+=======
+            ->after('Modules\\'.$module.'\\')
+>>>>>>> a12f125f4a (.)
+=======
+            ->after('Modules\\' . $module . '\\')
+>>>>>>> b93ef594b4 (.)
+=======
+            ->after('Modules\\'.$module.'\\')
+>>>>>>> ce6fc085 (.)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,7 +388,12 @@ class GetViewByClassAction
 =======
             ->after('Modules\\' . $module . '\\')
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             ->explode('\\')
             ->toArray();
 
@@ -334,11 +454,14 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
         $view = $module_low.'::'.$implode.$suffix;
 
         if (! view()->exists($view)) {
@@ -356,10 +479,13 @@ class GetViewByClassAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -420,13 +546,19 @@ class GetViewByClassAction
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         $view = $module_low . '::' . $implode . $suffix;
 
         if (!view()->exists($view)) {
             throw new Exception('View not found: ' . $view);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,7 +616,13 @@ class GetViewByClassAction
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ce6fc085 (.)
         $view = $module_low.'::'.$implode.$suffix;
 
         if (!view()->exists($view)) {
@@ -498,12 +636,15 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 2f3197ab (.)
@@ -526,6 +667,7 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -591,7 +733,12 @@ class GetViewByClassAction
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         }
 
         return $view;

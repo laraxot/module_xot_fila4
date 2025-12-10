@@ -139,6 +139,7 @@ interface ModelWithPosContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -161,8 +162,86 @@ interface ModelWithPosContract
 }
 interface ModelWithPosContract {}
 =======
+=======
+interface ModelWithPosContract {}
+=======
+interface ModelWithPosContract
+{
+}
+>>>>>>> 5a14301c (.)
+=======
+interface ModelWithPosContract
+{
+}
+=======
+interface ModelWithPosContract
+{
+}
+>>>>>>> 399f46d3 (.)
+=======
+interface ModelWithPosContract
+{
+}
+>>>>>>> 17684f52 (.)
+=======
+interface ModelWithPosContract
+{
+}
+>>>>>>> 399f46d3 (.)
+=======
+interface ModelWithPosContract
+{
+}
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+interface ModelWithPosContract
+{
+}
+=======
+interface ModelWithPosContract {}
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+interface ModelWithPosContract
+{
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> b93ef594b4 (.)
+=======
+interface ModelWithPosContract {}
+>>>>>>> ce6fc085 (.)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,4 +413,9 @@ interface ModelWithPosContract
 {
 }
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

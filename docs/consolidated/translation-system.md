@@ -224,6 +224,33 @@ php artisan view:clear
 - [Documentazione Laravel Translations](https://laravel.com/project_docs/localization)
 - [Filament Form Components](https://filamentphp.com/project_docs/forms)
 - [Best Practices Filament](../project_docs/filament-best-practices.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+<<<<<<< HEAD
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 - [Schema Conventions](../project_docs/schema-conventions.md) 
@@ -236,11 +263,11 @@ php artisan view:clear
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 - [Schema Conventions](../project_docs/schema-conventions.md) 
-- [Schema Conventions](../project_docs/schema-conventions.md) 
-- [Schema Conventions](../project_docs/schema-conventions.md) 
-- [Schema Conventions](../project_docs/schema-conventions.md) 
-- [Schema Conventions](../project_docs/schema-conventions.md) 
-- [Schema Conventions](../project_docs/schema-conventions.md) 
-- [Schema Conventions](../project_docs/schema-conventions.md) 
-- [Schema Conventions](../project_docs/schema-conventions.md) 
-- [Schema Conventions](../project_docs/schema-conventions.md) 
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

@@ -95,4 +95,14 @@ Il file JSON generato contiene:
 >>>>>>> c35986f4 (.)
 >>>>>>> 6ca989d8 (.)
 ## Collegamenti tra versioni di database-schema-exporter.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+=======
+* [database-schema-exporter.md](../../../Xot/project_docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/project_docs/console/commands/database-schema-exporter.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 

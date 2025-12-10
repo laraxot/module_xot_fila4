@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 <<<<<<< HEAD
@@ -35,6 +36,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 # Code Quality - Xot Module
 
 > Last Updated: 2025-11-15 08:05:46
@@ -243,7 +247,12 @@ vendor/bin/phpstan analyse path/to/changed/file.php --level=10
 =======
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -325,6 +334,7 @@ This document outlines the best practices for maintaining high code quality with
 - [Filament Best Practices](./FILAMENT-BEST-PRACTICES.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,7 +439,14 @@ This document outlines the best practices for maintaining high code quality with
 =======
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -635,15 +652,30 @@ $content = \file_get_contents($path); // Può restituire false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce6fc085 (.)
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 <<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel
@@ -767,7 +799,12 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 

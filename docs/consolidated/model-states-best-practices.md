@@ -9,6 +9,29 @@
   - [ ] Tutte le chiamate a `transitionTo` forniscono i parametri richiesti
   - [ ] La documentazione delle transizioni specifica i parametri richiesti
 - **Collegamenti**:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - [Errori comuni nelle transizioni custom (<nome progetto>)](../../<nome progetto>/project_docs/model-states-errors.md)
+=======
+  - [Errori comuni nelle transizioni custom](../../<nome modulo>/docs/model-states-errors.md)
+  - [README.md centrale](../../../docs/README.md)
+>>>>>>> ce6fc085 (.)
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
@@ -32,6 +55,7 @@
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
+<<<<<<< HEAD
   - [Errori comuni nelle transizioni custom](../../<nome modulo>/docs/model-states-errors.md)
   - [README.md centrale](../../../docs/README.md)
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
@@ -67,4 +91,10 @@
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
   - [README.md centrale](../../../project_docs/README.md) 
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+  - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/project_docs/model-states-errors.md)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
   - [README.md centrale](../../../project_docs/README.md) 

@@ -46,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 <<<<<<< HEAD
@@ -56,12 +57,13 @@
 =======
 <<<<<<< HEAD
 >>>>>>> e6745a06 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 [{"name":"database-back-up-command","class":"DatabaseBackUpCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\DatabaseBackUpCommand"},{"name":"execute-sql-file-command","class":"ExecuteSqlFileCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ExecuteSqlFileCommand"},{"name":"generate-filament-resources","class":"GenerateFilamentResources","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFilamentResources"},{"name":"generate-form-command","class":"GenerateFormCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFormCommand"},{"name":"generate-model-by-model-class-command","class":"GenerateModelByModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelByModelClassCommand"},{"name":"generate-model-class-command","class":"GenerateModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelClassCommand"},{"name":"generate-table-columns-command","class":"GenerateTableColumnsCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateTableColumnsCommand"},{"name":"list-filament-panels","class":"ListFilamentPanels","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ListFilamentPanels"},{"name":"livewire-components-list-command","class":"LivewireComponentsListCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\LivewireComponentsListCommand"},{"name":"parse-print-page-string-command","class":"ParsePrintPageStringCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ParsePrintPageStringCommand"},{"name":"view-database-config-command","class":"ViewDatabaseConfigCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ViewDatabaseConfigCommand"}]
 []
 []
 [{"name":"database-back-up-command","class":"DatabaseBackUpCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\DatabaseBackUpCommand"},{"name":"execute-sql-file-command","class":"ExecuteSqlFileCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ExecuteSqlFileCommand"},{"name":"generate-filament-resources","class":"GenerateFilamentResources","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFilamentResources"},{"name":"generate-form-command","class":"GenerateFormCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFormCommand"},{"name":"generate-model-by-model-class-command","class":"GenerateModelByModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelByModelClassCommand"},{"name":"generate-model-class-command","class":"GenerateModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelClassCommand"},{"name":"generate-table-columns-command","class":"GenerateTableColumnsCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateTableColumnsCommand"},{"name":"list-filament-panels","class":"ListFilamentPanels","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ListFilamentPanels"},{"name":"livewire-components-list-command","class":"LivewireComponentsListCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\LivewireComponentsListCommand"},{"name":"parse-print-page-string-command","class":"ParsePrintPageStringCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ParsePrintPageStringCommand"},{"name":"view-database-config-command","class":"ViewDatabaseConfigCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ViewDatabaseConfigCommand"}]
-[]
-[]
 []
 []
 []
@@ -71,7 +73,65 @@
 []
 <<<<<<< HEAD
 []
+[]
 =======
+>>>>>>> 399f46d3 (.)
+=======
+[]
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ce6fc085 (.)
+<<<<<<< HEAD
+[]
+=======
+<<<<<<< HEAD
+=======
+[{"name":"database-back-up-command","class":"DatabaseBackUpCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\DatabaseBackUpCommand"},{"name":"execute-sql-file-command","class":"ExecuteSqlFileCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ExecuteSqlFileCommand"},{"name":"generate-filament-resources","class":"GenerateFilamentResources","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFilamentResources"},{"name":"generate-form-command","class":"GenerateFormCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFormCommand"},{"name":"generate-model-by-model-class-command","class":"GenerateModelByModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelByModelClassCommand"},{"name":"generate-model-class-command","class":"GenerateModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelClassCommand"},{"name":"generate-table-columns-command","class":"GenerateTableColumnsCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateTableColumnsCommand"},{"name":"list-filament-panels","class":"ListFilamentPanels","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ListFilamentPanels"},{"name":"livewire-components-list-command","class":"LivewireComponentsListCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\LivewireComponentsListCommand"},{"name":"parse-print-page-string-command","class":"ParsePrintPageStringCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ParsePrintPageStringCommand"},{"name":"view-database-config-command","class":"ViewDatabaseConfigCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ViewDatabaseConfigCommand"}]
+>>>>>>> b93ef594b4 (.)
+=======
+[]
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+[{"name":"database-back-up-command","class":"DatabaseBackUpCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\DatabaseBackUpCommand"},{"name":"execute-sql-file-command","class":"ExecuteSqlFileCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ExecuteSqlFileCommand"},{"name":"generate-filament-resources","class":"GenerateFilamentResources","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFilamentResources"},{"name":"generate-form-command","class":"GenerateFormCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFormCommand"},{"name":"generate-model-by-model-class-command","class":"GenerateModelByModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelByModelClassCommand"},{"name":"generate-model-class-command","class":"GenerateModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelClassCommand"},{"name":"generate-table-columns-command","class":"GenerateTableColumnsCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateTableColumnsCommand"},{"name":"list-filament-panels","class":"ListFilamentPanels","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ListFilamentPanels"},{"name":"livewire-components-list-command","class":"LivewireComponentsListCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\LivewireComponentsListCommand"},{"name":"parse-print-page-string-command","class":"ParsePrintPageStringCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ParsePrintPageStringCommand"},{"name":"view-database-config-command","class":"ViewDatabaseConfigCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ViewDatabaseConfigCommand"}]
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+[{"name":"database-back-up-command","class":"DatabaseBackUpCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\DatabaseBackUpCommand"},{"name":"execute-sql-file-command","class":"ExecuteSqlFileCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ExecuteSqlFileCommand"},{"name":"generate-filament-resources","class":"GenerateFilamentResources","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFilamentResources"},{"name":"generate-form-command","class":"GenerateFormCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFormCommand"},{"name":"generate-model-by-model-class-command","class":"GenerateModelByModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelByModelClassCommand"},{"name":"generate-model-class-command","class":"GenerateModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelClassCommand"},{"name":"generate-table-columns-command","class":"GenerateTableColumnsCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateTableColumnsCommand"},{"name":"list-filament-panels","class":"ListFilamentPanels","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ListFilamentPanels"},{"name":"livewire-components-list-command","class":"LivewireComponentsListCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\LivewireComponentsListCommand"},{"name":"parse-print-page-string-command","class":"ParsePrintPageStringCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ParsePrintPageStringCommand"},{"name":"view-database-config-command","class":"ViewDatabaseConfigCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ViewDatabaseConfigCommand"}]
+=======
+[{"name":"database-back-up-command","class":"DatabaseBackUpCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\DatabaseBackUpCommand"},{"name":"execute-sql-file-command","class":"ExecuteSqlFileCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ExecuteSqlFileCommand"},{"name":"generate-filament-resources","class":"GenerateFilamentResources","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFilamentResources"},{"name":"generate-form-command","class":"GenerateFormCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFormCommand"},{"name":"generate-model-by-model-class-command","class":"GenerateModelByModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelByModelClassCommand"},{"name":"generate-model-class-command","class":"GenerateModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelClassCommand"},{"name":"generate-table-columns-command","class":"GenerateTableColumnsCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateTableColumnsCommand"},{"name":"list-filament-panels","class":"ListFilamentPanels","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ListFilamentPanels"},{"name":"livewire-components-list-command","class":"LivewireComponentsListCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\LivewireComponentsListCommand"},{"name":"parse-print-page-string-command","class":"ParsePrintPageStringCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ParsePrintPageStringCommand"},{"name":"view-database-config-command","class":"ViewDatabaseConfigCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ViewDatabaseConfigCommand"}]
+>>>>>>> 0e51323 (.)
+=======
+[]
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+[{"name":"database-back-up-command","class":"DatabaseBackUpCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\DatabaseBackUpCommand"},{"name":"execute-sql-file-command","class":"ExecuteSqlFileCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ExecuteSqlFileCommand"},{"name":"generate-filament-resources","class":"GenerateFilamentResources","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFilamentResources"},{"name":"generate-form-command","class":"GenerateFormCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFormCommand"},{"name":"generate-model-by-model-class-command","class":"GenerateModelByModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelByModelClassCommand"},{"name":"generate-model-class-command","class":"GenerateModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelClassCommand"},{"name":"generate-table-columns-command","class":"GenerateTableColumnsCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateTableColumnsCommand"},{"name":"list-filament-panels","class":"ListFilamentPanels","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ListFilamentPanels"},{"name":"livewire-components-list-command","class":"LivewireComponentsListCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\LivewireComponentsListCommand"},{"name":"parse-print-page-string-command","class":"ParsePrintPageStringCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ParsePrintPageStringCommand"},{"name":"view-database-config-command","class":"ViewDatabaseConfigCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ViewDatabaseConfigCommand"}]
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> e59778ae (.)
+[{"name":"database-back-up-command","class":"DatabaseBackUpCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\DatabaseBackUpCommand"},{"name":"execute-sql-file-command","class":"ExecuteSqlFileCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ExecuteSqlFileCommand"},{"name":"generate-filament-resources","class":"GenerateFilamentResources","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFilamentResources"},{"name":"generate-form-command","class":"GenerateFormCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateFormCommand"},{"name":"generate-model-by-model-class-command","class":"GenerateModelByModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelByModelClassCommand"},{"name":"generate-model-class-command","class":"GenerateModelClassCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateModelClassCommand"},{"name":"generate-table-columns-command","class":"GenerateTableColumnsCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\GenerateTableColumnsCommand"},{"name":"list-filament-panels","class":"ListFilamentPanels","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ListFilamentPanels"},{"name":"livewire-components-list-command","class":"LivewireComponentsListCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\LivewireComponentsListCommand"},{"name":"parse-print-page-string-command","class":"ParsePrintPageStringCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ParsePrintPageStringCommand"},{"name":"view-database-config-command","class":"ViewDatabaseConfigCommand","module":null,"path":null,"ns":"Modules\\Xot\\Console\\Commands\\ViewDatabaseConfigCommand"}]
+=======
+[]
+>>>>>>> ce6fc085 (.)
 >>>>>>> c06600c (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,4 +456,9 @@
 =======
 []
 >>>>>>> fb8add77 (.)
+<<<<<<< HEAD
 >>>>>>> e6745a06 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

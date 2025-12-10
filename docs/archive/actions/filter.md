@@ -18,12 +18,19 @@ Il file `GetYearFilter.php` presentava marker di conflitto (``) e duplicazioni d
 ## Collegamenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Doc root Xot](/docs/index.md)
 >>>>>>> 85cdef688 (.)
 =======
 - [Doc root Xot](/docs/index.md)
 >>>>>>> 6ca989d8 (.)
+=======
+- [Doc root Xot](/docs/index.md)
+=======
+- [Doc root Xot](/project_docs/index.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 ---
 
@@ -32,6 +39,7 @@ Il file `GetYearFilter.php` presentava marker di conflitto (``) e duplicazioni d
 ## Collegamenti tra versioni di filter.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [filter.md](../../../Xot/docs/actions/filter.md)
 * [filter.md](../../../Xot/docs/links/filter.md)
@@ -40,4 +48,12 @@ Il file `GetYearFilter.php` presentava marker di conflitto (``) e duplicazioni d
 * [filter.md](../../../Xot/docs/actions/filter.md)
 * [filter.md](../../../Xot/docs/links/filter.md)
 >>>>>>> 6ca989d8 (.)
+=======
+* [filter.md](../../../Xot/docs/actions/filter.md)
+* [filter.md](../../../Xot/docs/links/filter.md)
+=======
+* [filter.md](../../../Xot/project_docs/actions/filter.md)
+* [filter.md](../../../Xot/project_docs/links/filter.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 

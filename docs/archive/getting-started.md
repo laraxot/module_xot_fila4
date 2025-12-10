@@ -13,12 +13,19 @@ This is a starter template for creating a beautiful, customizable documentation 
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
 >>>>>>> 85cdef688 (.)
 =======
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
 >>>>>>> 6ca989d8 (.)
+=======
+As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
+=======
+As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 ```php
 // config.php
@@ -35,12 +42,19 @@ return [
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 > Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/docs/collections/) to learn more.
 >>>>>>> 85cdef688 (.)
 =======
 > Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/docs/collections/) to learn more.
 >>>>>>> 6ca989d8 (.)
+=======
+> Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/docs/collections/) to learn more.
+=======
+> Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/project_docs/collections/) to learn more.
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 ---
 
@@ -48,6 +62,7 @@ return [
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 You can write your content using a [variety of file types](http://jigsaw.tighten.co/docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in [navigation.php](/docs/navigation.php).
 
@@ -58,6 +73,16 @@ You can write your content using a [variety of file types](http://jigsaw.tighten
 
 [Read more about navigation.](/docs/navigation)
 >>>>>>> 6ca989d8 (.)
+=======
+You can write your content using a [variety of file types](http://jigsaw.tighten.co/docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in [navigation.php](/docs/navigation.php).
+
+[Read more about navigation.](/docs/navigation)
+=======
+You can write your content using a [variety of file types](http://jigsaw.tighten.co/project_docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in [navigation.php](/project_docs/navigation.php).
+
+[Read more about navigation.](/project_docs/navigation)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 The first section of each content page contains a YAML header that specifies how it should be rendered. The `title` attribute is used to dynamically generate HTML `title` and OpenGraph tags for each page. The `extends` attribute defines which parent Blade layout this content file will render with (e.g. `_layouts.documentation` will render with `source/_layouts/documentation.blade.php`), and the `section` attribute defines the Blade "section" that expects this content to be placed into it.
 
@@ -72,12 +97,19 @@ section: content
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/docs/content-blade/)
 >>>>>>> 85cdef688 (.)
 =======
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/docs/content-blade/)
 >>>>>>> 6ca989d8 (.)
+=======
+[Read more about Jigsaw layouts.](https://jigsaw.tighten.co/docs/content-blade/)
+=======
+[Read more about Jigsaw layouts.](https://jigsaw.tighten.co/project_docs/content-blade/)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 ---
 
@@ -91,12 +123,19 @@ Files that don't require processing (such as images and fonts) can be added dire
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/docs/compiling-assets/)
 >>>>>>> 85cdef688 (.)
 =======
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/docs/compiling-assets/)
 >>>>>>> 6ca989d8 (.)
+=======
+[Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/docs/compiling-assets/)
+=======
+[Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/project_docs/compiling-assets/)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 ---
 
@@ -119,11 +158,19 @@ npm run dev
 
 
 ## Collegamenti tra versioni di getting-started.md
+<<<<<<< HEAD
 * [getting-started.md](../../../Gdpr/docs/getting-started.md)
 * [getting-started.md](../../../Xot/docs/getting-started.md)
 * [getting-started.md](../../../UI/docs/getting-started.md)
 * [getting-started.md](../../../Tenant/docs/it/getting-started.md)
 * [getting-started.md](../../../Cms/docs/getting-started.md)
+=======
+* [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
+* [getting-started.md](../../../Xot/project_docs/getting-started.md)
+* [getting-started.md](../../../UI/project_docs/getting-started.md)
+* [getting-started.md](../../../Tenant/project_docs/it/getting-started.md)
+* [getting-started.md](../../../Cms/project_docs/getting-started.md)
+>>>>>>> 6cba4fe (.)
 
 
 ### Versione Incoming

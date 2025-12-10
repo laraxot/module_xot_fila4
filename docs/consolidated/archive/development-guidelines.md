@@ -27,6 +27,28 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 # Development Guidelines - Xot Module
 
 ## Panoramica
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto <nome progetto>.
+=======
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
+>>>>>>> ce6fc085 (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto <nome progetto>.
@@ -44,7 +66,23 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 
 ## Panoramica
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
+<<<<<<< HEAD
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto <nome progetto>.
+=======
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+>>>>>>> 5a14301c (.)
+=======
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+>>>>>>> 43d67f21 (.)
+=======
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
 ## PHPStan Best Practices
 
@@ -97,6 +135,26 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 1. **Type Safety**: Mantenere sempre type hints espliciti
 2. **Static Properties**: Evitare accesso statico a proprietà di istanza
 3. **Mixed Types**: Gestire sempre i tipi `mixed` con type casting appropriato
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+<<<<<<< HEAD
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
@@ -109,11 +167,9 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+=======
+>>>>>>> 399f46d3 (.)
+=======
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

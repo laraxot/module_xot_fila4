@@ -25,9 +25,23 @@ base_predict_fila3_mono/
 
 ### 1. Livelli di Documentazione
 
+<<<<<<< HEAD
 - **Documentazione Globale** (`/project_docs/`)
 
 - **Documentazione Globale** (`/project_docs/`)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 - **Documentazione Globale** (`/docs/`)
 - **Documentazione Globale** (`/project_docs/`)
 
@@ -43,6 +57,7 @@ base_predict_fila3_mono/
 - **Documentazione Globale** (`/project_docs/`)
 
 - **Documentazione Globale** (`/project_docs/`)
+<<<<<<< HEAD
 - **Documentazione Globale** (`/project_docs/`)
 
 - **Documentazione Globale** (`/project_docs/`)
@@ -73,14 +88,34 @@ base_predict_fila3_mono/
 - **Documentazione Globale** (`/project_docs/`)
 - **Documentazione Globale** (`/docs/`)
 - **Documentazione Globale** (`/project_docs/`)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+- **Documentazione Globale** (`/project_docs/`)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
   - Contiene le linee guida generali
   - Descrive l'architettura del sistema
   - Definisce i pattern comuni
   - Stabilisce le convenzioni di base
 
+<<<<<<< HEAD
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 
@@ -96,6 +131,7 @@ base_predict_fila3_mono/
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+<<<<<<< HEAD
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
@@ -126,6 +162,12 @@ base_predict_fila3_mono/
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/docs/`)
 - **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+- **Documentazione dei Moduli** (`Modules/[ModuleName]/project_docs/`)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
   - Specifica per ogni modulo
   - Contiene regole e pattern specifici
   - Documenta casi d'uso particolari
@@ -153,6 +195,24 @@ Quando si identifica una nuova regola o pattern importante:
 
 2. **Aggiornamento Documentazione**
    - Se regola specifica del modulo:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
      1. Aggiornare `Modules/[ModuleName]/docs/`
      1. Aggiornare `Modules/[ModuleName]/docs/`
 1. Aggiornare `Modules/[ModuleName]/docs/`
@@ -166,6 +226,81 @@ Quando si identifica una nuova regola o pattern importante:
 
    - Se regola globale:
      1. Aggiornare `/docs/`
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
+     1. Aggiornare `Modules/[ModuleName]/project_docs/`
+     2. Se rilevante, aggiungere riferimento in `/project_docs/`
+
+   - Se regola globale:
+     1. Aggiornare `/project_docs/`
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
+
+     1. Aggiornare `Modules/[ModuleName]/project_docs/`
+     2. Se rilevante, aggiungere riferimento in `/project_docs/`
+
+   - Se regola globale:
+     1. Aggiornare `/project_docs/`
+
+     1. Aggiornare `Modules/[ModuleName]/project_docs/`
+     2. Se rilevante, aggiungere riferimento in `/project_docs/`
+
+   - Se regola globale:
+     1. Aggiornare `/project_docs/`
+
+     1. Aggiornare `Modules/[ModuleName]/project_docs/`
+     2. Se rilevante, aggiungere riferimento in `/project_docs/`
+
+   - Se regola globale:
+     1. Aggiornare `/project_docs/`
+
+     1. Aggiornare `Modules/[ModuleName]/project_docs/`
+     2. Se rilevante, aggiungere riferimento in `/project_docs/`
+
+   - Se regola globale:
+     1. Aggiornare `/project_docs/`
+<<<<<<< HEAD
+
+     1. Aggiornare `Modules/[ModuleName]/project_docs/`
+     2. Se rilevante, aggiungere riferimento in `/project_docs/`
+
+   - Se regola globale:
+     1. Aggiornare `/project_docs/`
+
+     1. Aggiornare `Modules/[ModuleName]/project_docs/`
+     2. Se rilevante, aggiungere riferimento in `/project_docs/`
+
+   - Se regola globale:
+     1. Aggiornare `/project_docs/`
+
+
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
 
@@ -190,11 +325,6 @@ Quando si identifica una nuova regola o pattern importante:
    - Se regola globale:
      1. Aggiornare `/project_docs/`
 
-     1. Aggiornare `Modules/[ModuleName]/project_docs/`
-     2. Se rilevante, aggiungere riferimento in `/project_docs/`
-
-   - Se regola globale:
-     1. Aggiornare `/project_docs/`
 
      1. Aggiornare `Modules/[ModuleName]/project_docs/`
      2. Se rilevante, aggiungere riferimento in `/project_docs/`
@@ -207,44 +337,11 @@ Quando si identifica una nuova regola o pattern importante:
 
    - Se regola globale:
      1. Aggiornare `/project_docs/`
-
-
-     1. Aggiornare `Modules/[ModuleName]/project_docs/`
-     2. Se rilevante, aggiungere riferimento in `/project_docs/`
-
-   - Se regola globale:
-     1. Aggiornare `/project_docs/`
-
-     1. Aggiornare `Modules/[ModuleName]/project_docs/`
-     2. Se rilevante, aggiungere riferimento in `/project_docs/`
-
-   - Se regola globale:
-     1. Aggiornare `/project_docs/`
-
-     1. Aggiornare `Modules/[ModuleName]/project_docs/`
-     2. Se rilevante, aggiungere riferimento in `/project_docs/`
-
-   - Se regola globale:
-     1. Aggiornare `/project_docs/`
-
-     1. Aggiornare `Modules/[ModuleName]/project_docs/`
-     2. Se rilevante, aggiungere riferimento in `/project_docs/`
-
-   - Se regola globale:
-     1. Aggiornare `/project_docs/`
-
-
-     1. Aggiornare `Modules/[ModuleName]/project_docs/`
-     2. Se rilevante, aggiungere riferimento in `/project_docs/`
-
-   - Se regola globale:
-     1. Aggiornare `/project_docs/`
-
-     1. Aggiornare `Modules/[ModuleName]/project_docs/`
-     2. Se rilevante, aggiungere riferimento in `/project_docs/`
-
-   - Se regola globale:
-     1. Aggiornare `/project_docs/`
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
      2. Aggiornare la documentazione dei moduli interessati
 
 3. **Aggiornamento Regole AI**
@@ -325,3 +422,32 @@ Quando si identifica una nuova regola o pattern importante:
    - [ ] Aggiornare .windsurfrules
    - [ ] Verificare coerenza
    - [ ] Testare applicabilità 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

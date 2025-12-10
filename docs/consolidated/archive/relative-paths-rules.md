@@ -36,6 +36,28 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 
 1. **MAI utilizzare percorsi assoluti** come:
    ```markdown
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+   [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/project_docs/README.md)
+=======
+   [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> ce6fc085 (.)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
@@ -67,6 +89,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+<<<<<<< HEAD
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
@@ -95,6 +118,12 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/project_docs/README.md)
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/project_docs/README.md)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
    ```
 
 2. **MAI utilizzare percorsi che iniziano con /**:

@@ -102,10 +102,13 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 =======
 =======
+=======
+>>>>>>> 17684f52 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,17 +118,24 @@ class Dashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
 class Dashboard extends XotBaseDashboard
 {
     
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
@@ -153,6 +163,13 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
 class Dashboard extends XotBaseDashboard
 {
 class Dashboard extends XotBaseDashboard
@@ -194,6 +211,7 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -210,7 +228,12 @@ class Dashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -230,8 +253,11 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,6 +276,7 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
@@ -292,5 +319,10 @@ class Dashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 }

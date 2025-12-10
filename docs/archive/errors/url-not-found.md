@@ -40,6 +40,7 @@ define ROOT "C:/var/www/nome_giunzione/public_html"
 ## Collegamenti tra versioni di url-not-found.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [url-not-found.md](../../../Xot/docs/base/url-not-found.md)
 * [url-not-found.md](../../../Xot/docs/errors/url-not-found.md)
@@ -48,6 +49,14 @@ define ROOT "C:/var/www/nome_giunzione/public_html"
 * [url-not-found.md](../../../Xot/docs/base/url-not-found.md)
 * [url-not-found.md](../../../Xot/docs/errors/url-not-found.md)
 >>>>>>> 6ca989d8 (.)
+=======
+* [url-not-found.md](../../../Xot/docs/base/url-not-found.md)
+* [url-not-found.md](../../../Xot/docs/errors/url-not-found.md)
+=======
+* [url-not-found.md](../../../Xot/project_docs/base/url-not-found.md)
+* [url-not-found.md](../../../Xot/project_docs/errors/url-not-found.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 
 ### Versione Incoming

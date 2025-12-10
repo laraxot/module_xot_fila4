@@ -72,12 +72,19 @@ return $response; // Scarica il file Excel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> 85cdef688 (.)
 =======
 - Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> 6ca989d8 (.)
+=======
+- Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
+=======
+- Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../../project_docs/PHPSTAN-FIXES-SUMMARY.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 ## Collegamenti
 - [Laravel Excel Documentation](https://docs.laravel-excel.com)
@@ -86,9 +93,16 @@ return $response; // Scarica il file Excel
 - [Actions Overview](./README.md) 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [PHPStan Fixes Summary](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> 85cdef688 (.)
 =======
 - [PHPStan Fixes Summary](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> 6ca989d8 (.)
+=======
+- [PHPStan Fixes Summary](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
+=======
+- [PHPStan Fixes Summary](../../../../project_docs/PHPSTAN-FIXES-SUMMARY.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)

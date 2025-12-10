@@ -24,6 +24,7 @@ return [
 ## Collegamenti tra versioni di xra.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [xra.md](../../../Xot/docs/install/xra.md)
 * [xra.md](../../../Tenant/docs/it/xra.md)
@@ -34,6 +35,16 @@ return [
 * [xra.md](../../../Tenant/docs/it/xra.md)
 * [xra.md](../../../Tenant/docs/it/config/xra.md)
 >>>>>>> 6ca989d8 (.)
+=======
+* [xra.md](../../../Xot/docs/install/xra.md)
+* [xra.md](../../../Tenant/docs/it/xra.md)
+* [xra.md](../../../Tenant/docs/it/config/xra.md)
+=======
+* [xra.md](../../../Xot/project_docs/install/xra.md)
+* [xra.md](../../../Tenant/project_docs/it/xra.md)
+* [xra.md](../../../Tenant/project_docs/it/config/xra.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 
 ### Versione Incoming

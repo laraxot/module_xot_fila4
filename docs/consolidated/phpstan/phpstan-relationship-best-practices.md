@@ -224,6 +224,28 @@ Prima di committare modelli con relazioni, verificare:
 - [ ] **NO** annotazioni generiche `@return RelationType<Model, self>`
 - [ ] I tipi di relazione sono corretti nel tipo di ritorno del metodo
 - [ ] PHPStan livello 9+ passa senza errori
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [ ] **MAI** modificare `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> ce6fc085 (.)
 - [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 - [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 - [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
@@ -255,6 +277,7 @@ Prima di committare modelli con relazioni, verificare:
 - [ ] **MAI** modificare `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
 - [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 - [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+<<<<<<< HEAD
 - [ ] **MAI** modificare `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
 - [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 - [ ] **MAI** modificare `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
@@ -283,6 +306,12 @@ Prima di committare modelli con relazioni, verificare:
 - [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 - [ ] **MAI** modificare `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
 - [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+=======
+>>>>>>> 43d67f21 (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
 ## Verifica PHPStan
 

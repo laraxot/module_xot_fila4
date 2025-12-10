@@ -9,25 +9,44 @@ namespace Modules\Xot\Actions\String;
 class SanitizeAction
 {
 use Illuminate\Support\Str;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
 
 use function Safe\preg_replace;
 
 use Spatie\QueueableAction\QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
 
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -38,6 +57,12 @@ use function Safe\preg_replace;
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 class SanitizeAction
 {
     use QueueableAction;
@@ -146,6 +171,14 @@ class SanitizeAction
 }
 
 /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
  * $string = trim($item);
  *
  *
@@ -160,9 +193,17 @@ class SanitizeAction
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
 $string = trim($item);
 
 
@@ -176,6 +217,7 @@ $string = strip_tags($string);
 $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -186,3 +228,11 @@ $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)

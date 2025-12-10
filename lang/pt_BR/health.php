@@ -8,7 +8,9 @@ return [
             'buttons' => [
                 'refresh' => 'Recarregar',
             ],
+<<<<<<< HEAD
             'heading' => 'Saúde da aplicação',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'heading' => 'Saúde da aplicação',
@@ -19,9 +21,17 @@ return [
 
 =======
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'heading' => 'Saúde da aplicação',
+>>>>>>> ce6fc085 (.)
+=======
 
             'heading' => 'Saúde da aplicação',
 
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -32,6 +42,18 @@ return [
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+            'heading' => 'Saúde da aplicação',
+>>>>>>> b93ef594b4 (.)
+=======
+
+            'heading' => 'Saúde da aplicação',
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             'navigation' => [
                 'group' => 'Configurações',
                 'label' => 'Saúde da aplicação',
@@ -39,6 +61,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -55,6 +78,21 @@ return [
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             'notifications' => [
                 'check_results' => 'Ver resultados de verificação',
             ],

@@ -27,6 +27,14 @@ return new class extends XotBaseMigration {
     public function up(): void
     {
         // -- CREATE --
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
         $this->tableCreate(static function (Blueprint $table): void {
             $table->string('key')->primary();
             $table->string('owner');
@@ -34,9 +42,17 @@ return new class extends XotBaseMigration {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
         $this->tableCreate(
             static function (Blueprint $table): void {
                 $table->string('key')->primary();
@@ -44,6 +60,7 @@ return new class extends XotBaseMigration {
                 $table->integer('expiration');
             }
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -55,5 +72,13 @@ return new class extends XotBaseMigration {
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     }
 };

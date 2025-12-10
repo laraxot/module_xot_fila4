@@ -80,6 +80,24 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Risoluzione dei Loghi](LOGO_RESOLUTION.md) - **IMPORTANTE**: Processo dettagliato di risoluzione dei loghi
 - [Gestione Asset](assets.md)
 - [Struttura Temi](themes.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> ce6fc085 (.)
 - [Linee Guida per i Loghi](../../../docs/standards/logo_guidelines.md)
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Progetto](../../../docs/standards/README.md)
@@ -87,6 +105,95 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Gestione UI](../../UI/docs/README.md)
 - [Gestione Temi](../../Cms/docs/themes.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
+
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+<<<<<<< HEAD
+
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Progetto](../../../project_docs/standards/README.md)
+- [Gestione Media](../../Media/project_docs/README.md)
+- [Gestione UI](../../UI/project_docs/README.md)
+- [Gestione Temi](../../Cms/project_docs/themes.md)
+
+
+
 - [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
 - [Documentazione Principale](../../../project_docs/README.md)
 - [Standard di Progetto](../../../project_docs/standards/README.md)
@@ -119,13 +226,6 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Gestione Temi](../../Cms/project_docs/themes.md)
 
 
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Documentazione Principale](../../../project_docs/README.md)
-- [Standard di Progetto](../../../project_docs/standards/README.md)
-- [Gestione Media](../../Media/project_docs/README.md)
-- [Gestione UI](../../UI/project_docs/README.md)
-- [Gestione Temi](../../Cms/project_docs/themes.md)
-
 
 - [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
 - [Documentazione Principale](../../../project_docs/README.md)
@@ -142,56 +242,11 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Gestione UI](../../UI/project_docs/README.md)
 - [Gestione Temi](../../Cms/project_docs/themes.md)
 
-
-
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Documentazione Principale](../../../project_docs/README.md)
-- [Standard di Progetto](../../../project_docs/standards/README.md)
-- [Gestione Media](../../Media/project_docs/README.md)
-- [Gestione UI](../../UI/project_docs/README.md)
-- [Gestione Temi](../../Cms/project_docs/themes.md)
-
-
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Documentazione Principale](../../../project_docs/README.md)
-- [Standard di Progetto](../../../project_docs/standards/README.md)
-- [Gestione Media](../../Media/project_docs/README.md)
-- [Gestione UI](../../UI/project_docs/README.md)
-- [Gestione Temi](../../Cms/project_docs/themes.md)
-
-
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Documentazione Principale](../../../project_docs/README.md)
-- [Standard di Progetto](../../../project_docs/standards/README.md)
-- [Gestione Media](../../Media/project_docs/README.md)
-- [Gestione UI](../../UI/project_docs/README.md)
-- [Gestione Temi](../../Cms/project_docs/themes.md)
-
-
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Documentazione Principale](../../../project_docs/README.md)
-- [Standard di Progetto](../../../project_docs/standards/README.md)
-- [Gestione Media](../../Media/project_docs/README.md)
-- [Gestione UI](../../UI/project_docs/README.md)
-- [Gestione Temi](../../Cms/project_docs/themes.md)
-
-
-
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Documentazione Principale](../../../project_docs/README.md)
-- [Standard di Progetto](../../../project_docs/standards/README.md)
-- [Gestione Media](../../Media/project_docs/README.md)
-- [Gestione UI](../../UI/project_docs/README.md)
-- [Gestione Temi](../../Cms/project_docs/themes.md)
-
-
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Documentazione Principale](../../../project_docs/README.md)
-- [Standard di Progetto](../../../project_docs/standards/README.md)
-- [Gestione Media](../../Media/project_docs/README.md)
-- [Gestione UI](../../UI/project_docs/README.md)
-- [Gestione Temi](../../Cms/project_docs/themes.md)
-
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 ## Collegamenti Correlati
 - [Configurazione Moduli](MODULE_CONFIGURATION.md)
 - [Gestione Risorse](ASSETS.md)
@@ -199,12 +254,112 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Troubleshooting](TROUBLESHOOTING.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> ce6fc085 (.)
 - [Documentazione UI](../../UI/docs/configuration.md)
 - [Documentazione Media](../../Media/docs/assets.md)
 - [Documentazione Temi](../../Cms/docs/theming.md)
 - [Standard Interfaccia](../../../docs/standards/interface_guidelines.md)
 - [Best Practices](../../../docs/standards/best_practices.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
+
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+<<<<<<< HEAD
+
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+
+- [Documentazione UI](../../UI/project_docs/configuration.md)
+- [Documentazione Media](../../Media/project_docs/assets.md)
+- [Documentazione Temi](../../Cms/project_docs/theming.md)
+- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
+- [Best Practices](../../../project_docs/standards/best_practices.md)
+
+
+
 - [Documentazione UI](../../UI/project_docs/configuration.md)
 - [Documentazione Media](../../Media/project_docs/assets.md)
 - [Documentazione Temi](../../Cms/project_docs/theming.md)
@@ -233,12 +388,6 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Best Practices](../../../project_docs/standards/best_practices.md)
 
 
-- [Documentazione UI](../../UI/project_docs/configuration.md)
-- [Documentazione Media](../../Media/project_docs/assets.md)
-- [Documentazione Temi](../../Cms/project_docs/theming.md)
-- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
-- [Best Practices](../../../project_docs/standards/best_practices.md)
-
 
 - [Documentazione UI](../../UI/project_docs/configuration.md)
 - [Documentazione Media](../../Media/project_docs/assets.md)
@@ -253,50 +402,11 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
 - [Best Practices](../../../project_docs/standards/best_practices.md)
 
-
-
-- [Documentazione UI](../../UI/project_docs/configuration.md)
-- [Documentazione Media](../../Media/project_docs/assets.md)
-- [Documentazione Temi](../../Cms/project_docs/theming.md)
-- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
-- [Best Practices](../../../project_docs/standards/best_practices.md)
-
-
-- [Documentazione UI](../../UI/project_docs/configuration.md)
-- [Documentazione Media](../../Media/project_docs/assets.md)
-- [Documentazione Temi](../../Cms/project_docs/theming.md)
-- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
-- [Best Practices](../../../project_docs/standards/best_practices.md)
-
-
-- [Documentazione UI](../../UI/project_docs/configuration.md)
-- [Documentazione Media](../../Media/project_docs/assets.md)
-- [Documentazione Temi](../../Cms/project_docs/theming.md)
-- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
-- [Best Practices](../../../project_docs/standards/best_practices.md)
-
-
-- [Documentazione UI](../../UI/project_docs/configuration.md)
-- [Documentazione Media](../../Media/project_docs/assets.md)
-- [Documentazione Temi](../../Cms/project_docs/theming.md)
-- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
-- [Best Practices](../../../project_docs/standards/best_practices.md)
-
-
-
-- [Documentazione UI](../../UI/project_docs/configuration.md)
-- [Documentazione Media](../../Media/project_docs/assets.md)
-- [Documentazione Temi](../../Cms/project_docs/theming.md)
-- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
-- [Best Practices](../../../project_docs/standards/best_practices.md)
-
-
-- [Documentazione UI](../../UI/project_docs/configuration.md)
-- [Documentazione Media](../../Media/project_docs/assets.md)
-- [Documentazione Temi](../../Cms/project_docs/theming.md)
-- [Standard Interfaccia](../../../project_docs/standards/interface_guidelines.md)
-- [Best Practices](../../../project_docs/standards/best_practices.md)
-
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 # Configurazione Basata sul Dominio
 
 ## Introduzione
@@ -368,6 +478,27 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 ## Collegamenti
 - [Configurazione Generale](CONFIGURATION.md)
 - [Gestione Asset](assets.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce6fc085 (.)
+- [Struttura Temi](themes.md) 
+- [Struttura Temi](themes.md) 
+- [Struttura Temi](themes.md) 
+- [Struttura Temi](themes.md) 
+- [Struttura Temi](themes.md) 
+- [Struttura Temi](themes.md) 
+- [Struttura Temi](themes.md) 
+- [Struttura Temi](themes.md) 
+<<<<<<< HEAD
 - [Struttura Temi](themes.md) 
 - [Struttura Temi](themes.md) 
 - [Struttura Temi](themes.md) 
@@ -382,11 +513,9 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Struttura Temi](themes.md) 
 - [Struttura Temi](themes.md) 
 - [Struttura Temi](themes.md) 
+=======
+>>>>>>> 399f46d3 (.)
+=======
 - [Struttura Temi](themes.md) 
-- [Struttura Temi](themes.md) 
-- [Struttura Temi](themes.md) 
-- [Struttura Temi](themes.md) 
-- [Struttura Temi](themes.md) 
-- [Struttura Temi](themes.md) 
-- [Struttura Temi](themes.md) 
-- [Struttura Temi](themes.md) 
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

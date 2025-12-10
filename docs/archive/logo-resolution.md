@@ -111,11 +111,104 @@ Per la versione dark:
 - [Convenzioni di Naming](naming-conventions.md)
 
 ### Collegamenti alla Root del Progetto
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> ce6fc085 (.)
 - [Linee Guida per i Loghi](../../../docs/standards/logo_guidelines.md)
 - [Configurazione e Risoluzione dei Loghi](../../../docs/configurazione-logo.md)
 - [Struttura dei Moduli in il progetto](../../../docs/struttura-moduli.md)
 - [Architettura Folio + Volt in il progetto](../../../docs/architettura-folio-volt.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
+- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
+- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
+
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
+- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
+- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
+
+
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
+- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
+- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
+
+
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
+- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
+- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
+
+
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
+- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
+- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
+
+<<<<<<< HEAD
+
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
+- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
+- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
+
+
+- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
+- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
+- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
+- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
+
+
+
 - [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
 - [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
 - [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
@@ -140,11 +233,6 @@ Per la versione dark:
 - [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
 
 
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
-
 
 - [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
 - [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
@@ -157,45 +245,41 @@ Per la versione dark:
 - [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
 - [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
 
-
-
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
-
-
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
-
-
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
-
-
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
-
-
-
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
-
-
-- [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md)
-- [Configurazione e Risoluzione dei Loghi](../../../project_docs/configurazione-logo.md)
-- [Struttura dei Moduli in il progetto](../../../project_docs/struttura-moduli.md)
-- [Architettura Folio + Volt in il progetto](../../../project_docs/architettura-folio-volt.md)
-
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 ---
 
 ### Nota Importante
 Questo documento è parte della documentazione generale del modulo Xot e descrive un meccanismo riutilizzabile in diversi progetti. La documentazione nei moduli è generica e riutilizzabile, mentre le informazioni specifiche del progetto si trovano nella documentazione nella root del progetto.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

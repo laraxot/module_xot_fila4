@@ -251,6 +251,7 @@ document.addEventListener('alpine:init', () => {
 ## Collegamenti tra versioni di assets.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [assets.md](../../../Xot/docs/assets.md)
 * [assets.md](../../../Cms/docs/themes/assets.md)
@@ -261,4 +262,14 @@ document.addEventListener('alpine:init', () => {
 * [assets.md](../../../Cms/docs/themes/assets.md)
 * [assets.md](../../../../Themes/One/docs/assets.md)
 >>>>>>> 6ca989d8 (.)
+=======
+* [assets.md](../../../Xot/docs/assets.md)
+* [assets.md](../../../Cms/docs/themes/assets.md)
+* [assets.md](../../../../Themes/One/docs/assets.md)
+=======
+* [assets.md](../../../Xot/project_docs/assets.md)
+* [assets.md](../../../Cms/project_docs/themes/assets.md)
+* [assets.md](../../../../Themes/One/project_docs/assets.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 

@@ -32,11 +32,14 @@ use Filament\Forms\Components\Select;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -47,6 +50,33 @@ use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Models\Module;
 use Override;
+<<<<<<< HEAD
+=======
+
+class ModuleResource extends XotBaseResource
+{
+    protected static ?string $model = Module::class;
+
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
@@ -147,6 +177,24 @@ use Override;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\ListModules;
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\CreateModule;
+use Modules\Xot\Filament\Resources\ModuleResource\Pages\EditModule;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Filament\Forms;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
@@ -185,6 +233,12 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Module;
 
@@ -198,14 +252,20 @@ class ModuleResource extends XotBaseResource
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> ce6fc085 (.)
 use Modules\Xot\Models\Module;
 
 
 
 
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
@@ -301,6 +361,10 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Modules\UI\Filament\Forms\Components\IconPicker;
 use Modules\Xot\Filament\Resources\ModuleResource\Pages;
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> ce6fc085 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Module;
 
@@ -311,12 +375,21 @@ class ModuleResource extends XotBaseResource
     /**
      * @return array<string, Component>
      */
+<<<<<<< HEAD
     #[Override]
     #[Override]
     /**
      * @return array<string, \Filament\Schemas\Components\Component>
      */
     #[Override]
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> ce6fc085 (.)
 use Modules\Xot\Models\Module;
 
 
@@ -335,6 +408,7 @@ class ModuleResource extends XotBaseResource
     /**
      * @return array<string, Forms\Components\Component>
      */
+<<<<<<< HEAD
 =======
     /**
      * @return array<string, \Filament\Schemas\Components\Component>
@@ -348,6 +422,10 @@ class ModuleResource extends XotBaseResource
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -369,6 +447,12 @@ class ModuleResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
     #[Override]
     public static function getRelations(): array
     {
@@ -376,6 +460,23 @@ class ModuleResource extends XotBaseResource
     }
 
     #[Override]
+<<<<<<< HEAD
+=======
+=======
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+    public static function getRelations(): array
+    {
+        return [];
+    }
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
     public static function getPages(): array
     {
     public static function getRelations(): array
@@ -408,6 +509,33 @@ class ModuleResource extends XotBaseResource
             'index' => ListModules::route('/'),
             'create' => CreateModule::route('/create'),
             'edit' => EditModule::route('/{record}/edit'),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ce6fc085 (.)
     public static function getRelations(): array
     {
         return [
@@ -420,6 +548,36 @@ class ModuleResource extends XotBaseResource
             'index' => Pages\ListModules::route('/'),
             'create' => Pages\CreateModule::route('/create'),
             'edit' => Pages\EditModule::route('/{record}/edit'),
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         ];
     }
 }

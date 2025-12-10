@@ -3,6 +3,12 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
     // NAVIGATION & STRUCTURE
     'navigation' => [
         'label' => 'Dashboard',
@@ -84,6 +90,17 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+    'resources' => 'Risorse',
+    'pages' => 'Pagine',
+    'widgets' => 'Widgets',
+=======
+    // NAVIGATION & STRUCTURE
+>>>>>>> b93ef594b4 (.)
+>>>>>>> ce6fc085 (.)
     'navigation' => [
         'label' => 'Dashboard',
         'plural_label' => 'Dashboard',
@@ -147,6 +164,12 @@ return [
     // ACTIONS - STRUTTURA ESPANSA OBBLIGATORIA
     'actions' => [
         'import' => [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
             'label' => 'Importa Dati',
             'icon' => 'heroicon-o-arrow-up-tray',
             'color' => 'info',
@@ -161,11 +184,16 @@ return [
                 'success' => 'Dati importati con successo',
                 'error' => 'Errore durante l\'importazione',
             ],
+<<<<<<< HEAD
 =======
 >>>>>>> 218dfed3 (.)
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> ce6fc085 (.)
     'resources' => 'Risorse',
     'pages' => 'Pagine',
     'widgets' => 'Widgets',
@@ -191,6 +219,7 @@ return [
     'actions' => [
         'import' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -201,11 +230,23 @@ return [
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             'fields' => [
                 'import_file' => 'Seleziona un file XLS o CSV da caricare',
             ],
         ],
         'export' => [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
             'label' => 'Esporta Dati',
             'icon' => 'heroicon-o-arrow-down-tray',
             'color' => 'success',
@@ -220,6 +261,16 @@ return [
                 'success' => 'Dati esportati con successo',
                 'error' => 'Errore durante l\'esportazione',
             ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             'filename_prefix' => 'Aree al',
             'columns' => [
                 'name' => 'Nome area',
@@ -227,6 +278,14 @@ return [
             ],
         ],
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
     // SECTIONS - ORGANIZZAZIONE FORM
     'sections' => [
         'overview' => [
@@ -264,4 +323,14 @@ return [
     'resources' => 'Risorse',
     'pages' => 'Pagine',
     'widgets' => 'Widgets',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 ];

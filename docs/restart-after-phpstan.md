@@ -11,6 +11,10 @@ Questo documento fornisce istruzioni dettagliate su come riavviare correttamente
 Prima di riavviare il sistema, è importante pulire tutte le cache per assicurarsi che le modifiche vengano applicate correttamente:
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -34,10 +38,21 @@ composer dump-autoload
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
 >>>>>>> 6ca989d8 (.)
+=======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+=======
+
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 # oppure
 sudo systemctl restart nginx
 
@@ -48,6 +63,10 @@ sudo systemctl restart php8.1-fpm
 ### 3. Riavvio dei Worker di Queue (se utilizzati)
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -61,6 +80,10 @@ php artisan queue:work --daemon
 ### 4. Riavvio di Horizon (se utilizzato)
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -88,6 +111,10 @@ Dopo il riavvio, è importante verificare che il sistema funzioni correttamente:
 Se si verificano errori di autoloading dopo il riavvio:
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
 # Rigenerare l'autoloader di Composer
 composer dump-autoload -o
 
@@ -101,6 +128,10 @@ composer install
 Se si verificano errori di permessi dopo il riavvio:
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
 # Correggere i permessi delle directory di storage e bootstrap/cache
 sudo chown -R www-data:www-data storage bootstrap/cache
 sudo chmod -R 775 storage bootstrap/cache
@@ -111,6 +142,10 @@ sudo chmod -R 775 storage bootstrap/cache
 Se si verificano errori di configurazione dopo il riavvio:
 
 ```bash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cba4fe (.)
 # Rigenerare la cache delle configurazioni
 php artisan config:cache
 

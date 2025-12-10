@@ -137,6 +137,44 @@ class MyModel extends BaseModel
    - ❌ MAI correggere un solo errore alla volta se esistono errori simili
    - ❌ MAI rimandare le correzioni a sessioni successive
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+>>>>>>> ce6fc085 (.)
 ## Struttura del Progetto e Workflow
 
 ### Architettura Modulare
@@ -156,6 +194,49 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 4. **Testing**: Verificare che le correzioni non rompano funzionalità
 5. **Commit**: Commit atomici per gruppi di correzioni
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 2. **Approccio Efficiente**
    - Identificare pattern comuni di errori
    - Correggere tutti gli errori dello stesso tipo in una volta
@@ -184,6 +265,29 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
      - Docs del modulo specifico
      - .cursor/rules per Cursor AI
      - .windsurfrules per Windsurf
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ce6fc085 (.)
    - Mantenere coerenza tra le diverse documentazioni 
    - Mantenere coerenza tra le diverse documentazioni 
    - Mantenere coerenza tra le diverse documentazioni 
@@ -226,6 +330,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
    - Mantenere coerenza tra le diverse documentazioni 
    - Mantenere coerenza tra le diverse documentazioni 
    - Mantenere coerenza tra le diverse documentazioni 
+<<<<<<< HEAD
    - Mantenere coerenza tra le diverse documentazioni 
    - Mantenere coerenza tra le diverse documentazioni 
    - Mantenere coerenza tra le diverse documentazioni 
@@ -253,3 +358,9 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
    - Mantenere coerenza tra le diverse documentazioni 
    - Mantenere coerenza tra le diverse documentazioni 
    - Mantenere coerenza tra le diverse documentazioni 
+=======
+>>>>>>> 43d67f21 (.)
+=======
+   - Mantenere coerenza tra le diverse documentazioni 
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

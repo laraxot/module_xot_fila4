@@ -15,7 +15,9 @@ class MorphToOneAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(Model $model, RelationDTO $relationDTO): void
@@ -32,6 +34,23 @@ class MorphToOneAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+>>>>>>> a12f125f4a (.)
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> b93ef594b4 (.)
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     {
         // if ($relationDTO === null) {
         //    return;
@@ -53,7 +72,9 @@ class MorphToOneAction
 
         Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
 
+<<<<<<< HEAD
         if (!isset($relationDTO->data['lang'])) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! isset($relationDTO->data['lang'])) {
@@ -70,16 +91,53 @@ class MorphToOneAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!isset($relationDTO->data['lang'])) {
+=======
+        if (! isset($relationDTO->data['lang'])) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!isset($relationDTO->data['lang'])) {
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! isset($relationDTO->data['lang'])) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             $relationDTO->data['lang'] = App::getLocale();
         }
 
         //if ($rows !== null) {
         $rows->create($relationDTO->data);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         //}
         // } else {
         //    $rows->sync($relation->data);
         // }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
         /*
          * dddx([
          * 'message' => 'wip',
@@ -93,9 +151,16 @@ class MorphToOneAction
          */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
 
         /*
         dddx([
@@ -109,6 +174,11 @@ class MorphToOneAction
         dddx('wip');
         */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
         /*
          * dddx([
          * 'message' => 'wip',
@@ -120,6 +190,7 @@ class MorphToOneAction
          *
          * dddx('wip');
          */
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -130,5 +201,11 @@ class MorphToOneAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     }
 }

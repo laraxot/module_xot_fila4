@@ -39,6 +39,7 @@ class CopyFromLastYearButton
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $modelClass, string $fieldName, ?string $year): Action
 =======
 =======
@@ -51,10 +52,13 @@ class CopyFromLastYearButton
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,7 +115,12 @@ class CopyFromLastYearButton
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     public function execute(string $modelClass, string $fieldName, null|string $year): Action
     {
         return Action::make('copy_from_last_year')
@@ -145,6 +154,7 @@ class CopyFromLastYearButton
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> ed734516 (.)
@@ -155,6 +165,8 @@ class CopyFromLastYearButton
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -202,6 +214,7 @@ class CopyFromLastYearButton
 >>>>>>> b93ef594b4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 7131bd09 (.)
@@ -223,7 +236,12 @@ class CopyFromLastYearButton
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ce6fc085 (.)
     public function execute(string $modelClass, string $fieldName, ?string $year): Action
     {
         return Action::make('copy_from_last_year')
@@ -241,6 +259,7 @@ class CopyFromLastYearButton
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
@@ -324,6 +343,13 @@ class CopyFromLastYearButton
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     }
 }

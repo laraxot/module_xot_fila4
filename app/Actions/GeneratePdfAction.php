@@ -62,6 +62,7 @@ final class GeneratePdfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -76,8 +77,45 @@ final class GeneratePdfAction
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
 =======
+=======
+                'content' => $html2pdf->Output($filename.'.pdf', 'S'),
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> 5a14301c (.)
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> 3fbbf1f5 (.)
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> 399f46d3 (.)
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> 17684f52 (.)
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> 399f46d3 (.)
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+=======
+                'content' => $html2pdf->Output($filename.'.pdf', 'S'),
+>>>>>>> a12f125f4a (.)
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> b93ef594b4 (.)
+=======
+                'content' => $html2pdf->Output($filename.'.pdf', 'S'),
+>>>>>>> ce6fc085 (.)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,7 +221,12 @@ final class GeneratePdfAction
 =======
                 'content' => $html2pdf->Output($filename . '.pdf', 'S'),
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
                 'file' => $this->saveToFile($html2pdf, $filename),
                 default => $html2pdf->Output(),
             };

@@ -30,6 +30,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
 >>>>>>> 218dfed3 (.)
 =======
@@ -92,6 +93,11 @@ use Filament\Schemas\Components\Component;
 use Override;
 =======
 >>>>>>> 399f46d3 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> 17684f52 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,6 +113,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 use Filament\Schemas\Components\Component;
@@ -217,12 +224,22 @@ use Override;
 use Filament\Schemas\Components\Component;
 use Override;
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\ListCacheLocks;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\CreateCacheLock;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\EditCacheLock;
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\CacheLock;
 
@@ -232,6 +249,7 @@ class CacheLockResource extends XotBaseResource
 <<<<<<< HEAD
     protected static null|string $model = CacheLock::class;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,6 +292,8 @@ class CacheLockResource extends XotBaseResource
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 =======
 >>>>>>> 2f3197ab (.)
 use Modules\Xot\Models\CacheLock;
@@ -442,6 +462,7 @@ use Modules\Xot\Filament\Resources\CacheLockResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ed734516 (.)
@@ -460,7 +481,12 @@ use Modules\Xot\Filament\Resources\CacheLockResource\Pages;
 =======
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Modules\Xot\Models\CacheLock;
 
 
@@ -492,6 +518,7 @@ class CacheLockResource extends XotBaseResource
     protected static null|string $model = CacheLock::class;
     protected static null|string $model = CacheLock::class;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -572,11 +599,24 @@ class CacheLockResource extends XotBaseResource
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
     /**
      * Get the form schema for the resource.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
      * @return array<string, Component>
      */
     #[Override]
@@ -599,6 +639,15 @@ class CacheLockResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+     * @return array<string, \Filament\Schemas\Components\Component>
+=======
+     * @return array<string, Component>
+>>>>>>> b93ef594b4 (.)
+>>>>>>> ce6fc085 (.)
      */
     #[Override]
     public static function getFormSchema(): array
@@ -616,6 +665,7 @@ class CacheLockResource extends XotBaseResource
         return [];
     }
 
+<<<<<<< HEAD
     #[Override]
 =======
 =======
@@ -655,12 +705,56 @@ class CacheLockResource extends XotBaseResource
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     public static function getPages(): array
     {
         return [
             'index' => ListCacheLocks::route('/'),
             'create' => CreateCacheLock::route('/create'),
             'edit' => EditCacheLock::route('/{record}/edit'),
+<<<<<<< HEAD
+=======
+=======
+     * @return array<string, \Filament\Forms\Components\Component>
+     */
+    public static function getFormSchema(): array
+    {
+        return [
+            'key' => TextInput::make('key')
+                ->required()
+                ->maxLength(255),
+
+            'owner' => TextInput::make('owner')
+                ->required()
+                ->maxLength(255),
+
+            'expiration' => TextInput::make('expiration')
+                ->required()
+                ->numeric(),
+        ];
+    }
+
+    public static function getRelations(): array
+    {
+        return [
+        ];
+    }
+
+    public static function getPages(): array
+    {
+        return [
+            'index' => Pages\ListCacheLocks::route('/'),
+            'create' => Pages\CreateCacheLock::route('/create'),
+            'edit' => Pages\EditCacheLock::route('/{record}/edit'),
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         ];
     }
 }

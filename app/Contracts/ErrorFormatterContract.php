@@ -4,6 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Throwable;
+
+=======
+<<<<<<< HEAD
+use Throwable;
+
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 /**
  * Contratto per i formattatori di errori.
  * Definisce l'interfaccia standard per la formattazione degli errori nel sistema.
@@ -13,6 +26,18 @@ interface ErrorFormatterContract
     /**
      * Costruttore che accetta l'eccezione da formattare.
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public function __construct(Throwable $exception);
+=======
+<<<<<<< HEAD
+    public function __construct(Throwable $exception);
+=======
+    public function __construct(\Throwable $exception);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
     /**
      * Formatta l'eccezione in un array strutturato.
@@ -20,7 +45,9 @@ interface ErrorFormatterContract
      * @return array<string, mixed>
      */
     public function format(): array;
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 } 
@@ -37,3 +64,20 @@ interface ErrorFormatterContract
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+} 
+>>>>>>> a12f125f4a (.)
+=======
+}
+>>>>>>> b93ef594b4 (.)
+=======
+} 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)

@@ -1,5 +1,22 @@
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 
 
 
@@ -14,6 +31,7 @@
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -64,6 +82,12 @@
 
 
 
+=======
+>>>>>>> 43d67f21 (.)
+=======
+
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 # Rapporto PHPStan Livello 2 per il modulo Xot
 
 Data analisi: 2025-04-15 21:52:59
@@ -74,6 +98,24 @@ Trovati 4 errori al livello 2.
 
 ## Errori e suggerimenti
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
@@ -106,6 +148,7 @@ Trovati 4 errori al livello 2.
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+<<<<<<< HEAD
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
@@ -134,6 +177,12 @@ Trovati 4 errori al livello 2.
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+=======
+>>>>>>> 43d67f21 (.)
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -151,6 +200,24 @@ Trovati 4 errori al livello 2.
 - Le variabili siano inizializzate prima dell'uso
 - I nomi di metodi e proprietà siano corretti
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -183,6 +250,7 @@ Trovati 4 errori al livello 2.
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+<<<<<<< HEAD
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -211,6 +279,12 @@ Trovati 4 errori al livello 2.
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+=======
+>>>>>>> 43d67f21 (.)
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 
@@ -238,6 +312,24 @@ aurmich/dev
 aurmich/dev
 
 ## Collegamenti tra versioni di level_2.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> ce6fc085 (.)
 * [level_2.md](laravel/Modules/Chart/docs/phpstan/level_2.md)
 * [level_2.md](laravel/Modules/Reporting/docs/phpstan/level_2.md)
 * [level_2.md](laravel/Modules/Gdpr/docs/phpstan/level_2.md)
@@ -253,6 +345,29 @@ aurmich/dev
 * [level_2.md](laravel/Modules/Activity/docs/phpstan/level_2.md)
 * [level_2.md](laravel/Modules/Patient/docs/phpstan/level_2.md)
 * [level_2.md](laravel/Modules/Cms/docs/phpstan/level_2.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 * [level_2.md](laravel/Modules/Chart/project_docs/phpstan/level_2.md)
 * [level_2.md](laravel/Modules/Reporting/project_docs/phpstan/level_2.md)
 * [level_2.md](laravel/Modules/Gdpr/project_docs/phpstan/level_2.md)
@@ -268,6 +383,34 @@ aurmich/dev
 * [level_2.md](laravel/Modules/Activity/project_docs/phpstan/level_2.md)
 * [level_2.md](laravel/Modules/Patient/project_docs/phpstan/level_2.md)
 * [level_2.md](laravel/Modules/Cms/project_docs/phpstan/level_2.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
 
 
 
@@ -300,17 +443,9 @@ aurmich/dev
 
 
 
+=======
+>>>>>>> 43d67f21 (.)
+=======
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

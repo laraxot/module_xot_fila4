@@ -4,8 +4,52 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\File;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Support\Facades\File;
 use InvalidArgumentException;
 use RuntimeException;
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
+use InvalidArgumentException;
+use RuntimeException;
+=======
+<<<<<<< HEAD
+use InvalidArgumentException;
+use RuntimeException;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Support\Facades\File;
 use InvalidArgumentException;
 use RuntimeException;
@@ -37,11 +81,47 @@ class AddStrictTypesDeclarationAction
     public function execute(string $filePath): void
     {
         if (!File::exists($filePath)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ce6fc085 (.)
         if (!File::exists($filePath)) {
         if (!File::exists($filePath)) {
+<<<<<<< HEAD
         if (!File::exists($filePath)) {
         if (!File::exists($filePath)) {
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             throw new InvalidArgumentException("Il file {$filePath} non esiste");
+=======
+<<<<<<< HEAD
+            throw new InvalidArgumentException("Il file {$filePath} non esiste");
+=======
+            throw new \InvalidArgumentException("Il file {$filePath} non esiste");
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         }
 
         $content = File::get($filePath);
@@ -54,6 +134,18 @@ class AddStrictTypesDeclarationAction
         // Trova la posizione del tag di apertura PHP
         $phpTagPos = strpos($content, '<?php');
         if ($phpTagPos === false) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            throw new RuntimeException("Il file {$filePath} non ha un tag di apertura PHP valido");
+=======
+<<<<<<< HEAD
+            throw new RuntimeException("Il file {$filePath} non ha un tag di apertura PHP valido");
+=======
+            throw new \RuntimeException("Il file {$filePath} non ha un tag di apertura PHP valido");
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         }
 
         // Trova la prima riga non vuota dopo il tag PHP

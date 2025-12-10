@@ -104,8 +104,13 @@ use Modules\SaluteOra\Models\User;
 
 ```php
 // ❌ VIOLAZIONE CRITICA
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 use Modules\<nome modulo>\Models\User;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -144,7 +149,14 @@ use Modules\SaluteOra\Models\User;
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Modules\SaluteOra\Models\User;
 <<<<<<< HEAD
 =======
@@ -189,6 +201,7 @@ $user = User::factory()->create([...]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
@@ -200,6 +213,8 @@ $user = User::factory()->create([...]);
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> ce6fc085 (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 <<<<<<< HEAD
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
@@ -312,7 +327,11 @@ $user = User::factory()->create([...]);
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
 =======
+=======
+>>>>>>> 17684f52 (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+=======
+>>>>>>> 6cba4fe (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
 >>>>>>> c35986f4 (.)
 >>>>>>> 6ca989d8 (.)
@@ -371,6 +390,7 @@ $user = $userClass::factory()->create($attributes);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
@@ -382,6 +402,8 @@ $user = $userClass::factory()->create($attributes);
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> ce6fc085 (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
 <<<<<<< HEAD
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
@@ -497,7 +519,11 @@ $user = $userClass::factory()->create($attributes);
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
 =======
+=======
+>>>>>>> 17684f52 (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+=======
+>>>>>>> 6cba4fe (.)
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
 >>>>>>> c35986f4 (.)
 >>>>>>> 6ca989d8 (.)
@@ -584,7 +610,10 @@ public function processUser(UserContract $user): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> ce6fc085 (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 =======
@@ -711,7 +740,11 @@ public function processUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
 =======
+=======
+>>>>>>> 17684f52 (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> 6cba4fe (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> c35986f4 (.)
 >>>>>>> 6ca989d8 (.)
@@ -872,6 +905,7 @@ class ChangeTypeCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
@@ -894,6 +928,8 @@ use Modules\<nome modulo>\Models\Doctor;
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> ce6fc085 (.)
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
@@ -1070,10 +1106,17 @@ use Modules\SaluteOra\Models\Doctor;
 =======
 >>>>>>> d86d643a (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
+=======
+>>>>>>> 6cba4fe (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
@@ -1170,7 +1213,10 @@ use Modules\Xot\Datas\XotData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> ce6fc085 (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
 $user = \Modules\<nome modulo>\Models\User::find($id);
 =======
@@ -1297,7 +1343,11 @@ $user = \Modules\SaluteOra\Models\User::find($id);
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
 =======
+=======
+>>>>>>> 17684f52 (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
+=======
+>>>>>>> 6cba4fe (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
 >>>>>>> c35986f4 (.)
 >>>>>>> 6ca989d8 (.)
@@ -1336,7 +1386,10 @@ $user = $userClass::find($id);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> ce6fc085 (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 =======
@@ -1463,7 +1516,11 @@ function updateUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
 =======
+=======
+>>>>>>> 17684f52 (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> 6cba4fe (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
 >>>>>>> c35986f4 (.)
 >>>>>>> 6ca989d8 (.)
@@ -1615,7 +1672,10 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> ce6fc085 (.)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
 <<<<<<< HEAD
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
@@ -1784,7 +1844,11 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 >>>>>>> a67e542f (.)
 =======
 =======
+=======
+>>>>>>> 17684f52 (.)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
+=======
+>>>>>>> 6cba4fe (.)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
 >>>>>>> c35986f4 (.)
 >>>>>>> 6ca989d8 (.)
@@ -1796,6 +1860,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1957,4 +2022,12 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 **Responsabile**: Team Architettura Laraxot 
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+**Responsabile**: Team Architettura Laraxot 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

@@ -4,6 +4,40 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use RuntimeException;
 use RuntimeException;
 use RuntimeException;
@@ -11,6 +45,13 @@ use RuntimeException;
 use RuntimeException;
 use RuntimeException;
 use Exception;
+=======
+<<<<<<< HEAD
+use RuntimeException;
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\Session;
@@ -23,6 +64,12 @@ class BelongsToManyAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
@@ -33,15 +80,27 @@ class BelongsToManyAction
         ) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
         // dddx(['row' => $row, 'relation' => $relation]);
         if (\in_array('to', array_keys($relationDTO->data), false) || \in_array('from', array_keys($relationDTO->data), false)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
@@ -50,6 +109,7 @@ class BelongsToManyAction
             \in_array('to', array_keys($relationDTO->data), false) ||
                 \in_array('from', array_keys($relationDTO->data), false)
         ) {
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -60,10 +120,22 @@ class BelongsToManyAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             // $this->saveMultiselectTwoSides($row, $relation->name, $relation->data);
             $to = $relationDTO->data['to'] ?? [];
 
             // Assicura che $to sia un array di ID validi
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
             $to = is_iterable($to) ? iterator_to_array($to) : ((array) $to);
             Assert::allScalar($to, 'The "to" field must contain only scalar values.');
 
@@ -97,6 +169,7 @@ class BelongsToManyAction
             $status = 'collegati ['.implode(', ', $to).'] ';
 =======
             $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
@@ -143,9 +216,12 @@ class BelongsToManyAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,7 +243,12 @@ class BelongsToManyAction
 =======
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             $to = is_iterable($to) ? iterator_to_array($to) : (array) $to;
             Assert::allScalar($to, 'The "to" field must contain only scalar values.');
 
@@ -183,12 +264,15 @@ class BelongsToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 2f3197ab (.)
@@ -197,6 +281,21 @@ class BelongsToManyAction
 
             $rows->sync($to);
             $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ce6fc085 (.)
             $status = 'collegati [' . implode(', ', $to) . '] ';
 <<<<<<< HEAD
 =======
@@ -275,7 +374,12 @@ class BelongsToManyAction
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             Session::flash('status', $status);
 
             return;
@@ -307,8 +411,10 @@ class BelongsToManyAction
 =======
 =======
                 Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+<<<<<<< HEAD
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $data, []);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,12 +443,15 @@ class BelongsToManyAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,7 +472,12 @@ class BelongsToManyAction
 =======
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
                 // Assicura che $data sia type-safe per UpdateAction
                 /** @var array<string, mixed> $typedData */
@@ -383,12 +497,15 @@ class BelongsToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 2f3197ab (.)
@@ -396,6 +513,7 @@ class BelongsToManyAction
                 $res = app(UpdateAction::class)->execute($related, $data, []);
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $data, []);
+<<<<<<< HEAD
                 Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
 
                 // Assicura che $data sia type-safe per UpdateAction
@@ -406,6 +524,18 @@ class BelongsToManyAction
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $data, []);
                 Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ce6fc085 (.)
                 Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $data, []);
@@ -514,12 +644,29 @@ class BelongsToManyAction
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+                throw new RuntimeException(sprintf('Key "%s" not found in relation data.', $keyName));
+=======
+<<<<<<< HEAD
+                throw new RuntimeException(sprintf('Key "%s" not found in relation data.', $keyName));
+=======
+                throw new \RuntimeException(sprintf('Key "%s" not found in relation data.', $keyName));
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             }
         }
 
@@ -561,6 +708,7 @@ class BelongsToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -575,8 +723,45 @@ class BelongsToManyAction
         if (! empty($ids)) {
         if (! empty($ids)) {
 =======
+=======
+        if (! empty($ids)) {
+=======
+        if (!empty($ids)) {
+>>>>>>> 5a14301c (.)
+=======
+        if (!empty($ids)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+        if (!empty($ids)) {
+=======
+        if (!empty($ids)) {
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($ids)) {
+>>>>>>> 17684f52 (.)
+=======
+        if (!empty($ids)) {
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($ids)) {
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!empty($ids)) {
+=======
+        if (! empty($ids)) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!empty($ids)) {
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! empty($ids)) {
+>>>>>>> ce6fc085 (.)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -682,13 +867,33 @@ class BelongsToManyAction
 =======
         if (!empty($ids)) {
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             try {
                 // Assicura che $ids sia un array di valori scalari
                 // $ids è già un array non vuoto a questo punto, quindi non serve verificare se è iterabile
                 Assert::allScalar($ids, 'The "ids" array must contain only scalar values.');
 
                 $rows->syncWithoutDetaching($ids);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            } catch (Exception $e) {
+                throw new RuntimeException(sprintf('Error during syncWithoutDetaching: %s', $e->getMessage()));
+=======
+<<<<<<< HEAD
+            } catch (Exception $e) {
+                throw new RuntimeException(sprintf('Error during syncWithoutDetaching: %s', $e->getMessage()));
+=======
+            } catch (\Exception $e) {
+                throw new \RuntimeException(sprintf('Error during syncWithoutDetaching: %s', $e->getMessage()));
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             }
         }
     }

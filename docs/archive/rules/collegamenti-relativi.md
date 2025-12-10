@@ -36,12 +36,19 @@ Nella documentazione di il progetto, **tutti i collegamenti devono essere relati
 ```markdown
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [Documento in altro modulo](../../laravel/Modules/User/docs/documento.md)
 >>>>>>> 85cdef688 (.)
 =======
 [Documento in altro modulo](../../laravel/Modules/User/docs/documento.md)
 >>>>>>> 6ca989d8 (.)
+=======
+[Documento in altro modulo](../../laravel/Modules/User/docs/documento.md)
+=======
+[Documento in altro modulo](../../laravel/Modules/User/project_docs/documento.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 ```
 
 ### Formati Errati da Evitare
@@ -50,24 +57,38 @@ Nella documentazione di il progetto, **tutti i collegamenti devono essere relati
 ```markdown
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [Documento errato](https://<nome progetto>.org/docs/documento.md)
 >>>>>>> 85cdef688 (.)
 =======
 [Documento errato](https://<nome progetto>.org/docs/documento.md)
 >>>>>>> 6ca989d8 (.)
+=======
+[Documento errato](https://<nome progetto>.org/docs/documento.md)
+=======
+[Documento errato](https://<nome progetto>.org/project_docs/documento.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 ```
 
 ❌ **Collegamenti assoluti basati su percorso**:
 ```markdown
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [Documento errato](/var/www/html/<nome progetto>/docs/documento.md)
 >>>>>>> 85cdef688 (.)
 =======
 [Documento errato](/var/www/html/<nome progetto>/docs/documento.md)
 >>>>>>> 6ca989d8 (.)
+=======
+[Documento errato](/var/www/html/<nome progetto>/docs/documento.md)
+=======
+[Documento errato](/var/www/html/<nome progetto>/project_docs/documento.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 ```
 
 ❌ **Collegamenti senza estensione**:
@@ -95,10 +116,17 @@ Questa regola si integra con il sistema di documentazione centralizzato descritt
 * [collegamenti-relativi.md](docs/regole/collegamenti-relativi.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [collegamenti-relativi.md](../../../Xot/docs/rules/collegamenti-relativi.md)
 >>>>>>> 85cdef688 (.)
 =======
 * [collegamenti-relativi.md](../../../Xot/docs/rules/collegamenti-relativi.md)
 >>>>>>> 6ca989d8 (.)
+=======
+* [collegamenti-relativi.md](../../../Xot/docs/rules/collegamenti-relativi.md)
+=======
+* [collegamenti-relativi.md](../../../Xot/project_docs/rules/collegamenti-relativi.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 

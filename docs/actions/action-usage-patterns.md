@@ -39,12 +39,18 @@ Prima di usare un'Action:
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 85cdef688 (.)
 =======
 
 >>>>>>> 6ca989d8 (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 # Cerca pattern errati
 grep -r "::cast(" Modules/
 grep -r "::execute(" Modules/
@@ -55,12 +61,18 @@ grep -r "ActionClass::" Modules/
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 85cdef688 (.)
 =======
 
 >>>>>>> 6ca989d8 (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 # Verifica pattern corretti
 grep -r "app.*Action.*->execute" Modules/
 ```
@@ -92,12 +104,18 @@ $expression = \Modules\Xot\Actions\Geo\GetDistanceExpressionAction::getExpressio
 #!/bin/bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 85cdef688 (.)
 =======
 
 >>>>>>> 6ca989d8 (.)
+=======
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 # Cerca pattern errati nelle Action
 echo "Cercando pattern errati..."
 find Modules/ -name "*.php" -exec grep -l "Actions.*::" {} \;
@@ -118,6 +136,7 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Service Container](https://laravel.com/docs/container)
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
@@ -128,6 +147,14 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 - [Laravel Service Container](https://laravel.com/docs/container)
 - [Dependency Injection Patterns](https://laravel.com/docs/providers)
 >>>>>>> 6ca989d8 (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+=======
+- [Laravel Service Container](https://laravel.com/project_docs/container)
+- [Dependency Injection Patterns](https://laravel.com/project_docs/providers)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 - [Spatie QueueableAction](https://github.com/spatie/laravel-queueable-action)
 
 ---

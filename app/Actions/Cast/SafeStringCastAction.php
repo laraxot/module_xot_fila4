@@ -6,7 +6,9 @@ namespace Modules\Xot\Actions\Cast;
 
 /**
  * Action per convertire in modo sicuro un valore mixed in string.
+<<<<<<< HEAD
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * 
@@ -23,6 +25,23 @@ namespace Modules\Xot\Actions\Cast;
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ *
+=======
+ * 
+>>>>>>> a12f125f4a (.)
+=======
+ *
+>>>>>>> b93ef594b4 (.)
+=======
+ * 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  */
@@ -50,11 +69,23 @@ class SafeStringCastAction
             return $value;
         }
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
          * if ($value instanceof \BackedEnum) {
          * return $value->value;
          * }
          */
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
         if (is_null($value)) {
             return '';
         }
@@ -73,18 +104,34 @@ class SafeStringCastAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
         if ($value instanceof \BackedEnum) {
             return $value->value;
         }
             */
         
+<<<<<<< HEAD
         if (is_null($value)) {
             return '';
         }
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+        if (is_null($value)) {
+            return '';
+        }
+>>>>>>> ce6fc085 (.)
 
         if (is_bool($value)) {
             return $value ? '1' : '0';
@@ -97,12 +144,25 @@ class SafeStringCastAction
         // Per array, oggetti e altri tipi non scalari, restituisci stringa vuota
         return '';
     }
+<<<<<<< HEAD
 
         if (is_null($value)) {
             return '';
         }
 =======
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        if (is_null($value)) {
+            return '';
+        }
+>>>>>>> ce6fc085 (.)
         
         if (is_bool($value)) {
             return $value ? '1' : '0';
@@ -117,6 +177,7 @@ class SafeStringCastAction
     }
     
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -127,6 +188,10 @@ class SafeStringCastAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     /**
      * Metodo statico di convenienza per chiamate dirette.
      *

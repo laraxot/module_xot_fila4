@@ -284,11 +284,17 @@ trait HasXotOptimizations
 ``` 
 ## Collegamenti tra versioni di bottlenecks_detailed.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [bottlenecks_detailed.md](../../../Xot/docs/bottlenecks_detailed.md)
 * [bottlenecks_detailed.md](../../../Job/docs/bottlenecks_detailed.md)
 * [bottlenecks_detailed.md](../../../Media/docs/bottlenecks_detailed.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
+* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
+* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
+>>>>>>> ce6fc085 (.)
 
 
 ### Versione Incoming

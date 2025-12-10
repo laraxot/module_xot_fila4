@@ -8,7 +8,9 @@ return [
             'buttons' => [
                 'refresh' => 'Làm mới',
             ],
+<<<<<<< HEAD
             'heading' => 'Tình trạng ứng dụng',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'heading' => 'Tình trạng ứng dụng',
@@ -19,9 +21,17 @@ return [
 
 =======
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'heading' => 'Tình trạng ứng dụng',
+>>>>>>> ce6fc085 (.)
+=======
 
             'heading' => 'Tình trạng ứng dụng',
 
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -32,6 +42,18 @@ return [
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+            'heading' => 'Tình trạng ứng dụng',
+>>>>>>> b93ef594b4 (.)
+=======
+
+            'heading' => 'Tình trạng ứng dụng',
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             'navigation' => [
                 'group' => 'Cài đặt',
                 'label' => 'Tình trạng ứng dụng',
@@ -39,6 +61,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -55,6 +78,21 @@ return [
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             'notifications' => [
                 'check_results' => 'Kết quả được kiểm tra từ',
             ],

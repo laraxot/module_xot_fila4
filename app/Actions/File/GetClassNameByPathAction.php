@@ -4,27 +4,46 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\File;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\file_get_contents;
 use function Safe\preg_match;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
 use function Safe\file_get_contents;
 use function Safe\preg_match;
 
 use Spatie\QueueableAction\QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\file_get_contents;
 use function Safe\preg_match;
 
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -35,6 +54,12 @@ use function Safe\preg_match;
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 class GetClassNameByPathAction
 {
     use QueueableAction;
@@ -74,6 +99,7 @@ class GetClassNameByPathAction
 
         return $fullClassName;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,7 +179,24 @@ class GetClassNameByPathAction
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+=======
+        $fullClassName = $namespace ? $namespace.'\\'.$className : $className;
+>>>>>>> a12f125f4a (.)
+=======
+        $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
+>>>>>>> b93ef594b4 (.)
+=======
+        $fullClassName = $namespace ? $namespace.'\\'.$className : $className;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
         return $fullClassName;
         $fullClassName = $namespace ? ($namespace . '\\' . $className) : $className;
@@ -166,6 +209,14 @@ class GetClassNameByPathAction
 }
 
 /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
  * $class = Str::of($path)
  * ->after(base_path('Modules'))
  * ->prepend('\Modules')
@@ -175,9 +226,17 @@ class GetClassNameByPathAction
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
 $class = Str::of($path)
                     ->after(base_path('Modules'))
                     ->prepend('\Modules')
@@ -185,6 +244,7 @@ $class = Str::of($path)
                     ->replace('/', '\\')
                     ->toString();
                     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -196,3 +256,11 @@ $class = Str::of($path)
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)

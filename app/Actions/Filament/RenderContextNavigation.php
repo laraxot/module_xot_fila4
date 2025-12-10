@@ -23,6 +23,12 @@ class RenderContextNavigation
      * Undocumented function.
      * Undocumented function.
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
     public function execute(string $module, string $_context): void
     {
         Filament::registerRenderHook(
@@ -58,6 +64,15 @@ class RenderContextNavigation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+    public function execute(string $module, string $context): void
+=======
+    public function execute(string $module, string $_context): void
+>>>>>>> b93ef594b4 (.)
+>>>>>>> ce6fc085 (.)
     {
         Filament::registerRenderHook(
             'sidebar.start',
@@ -71,9 +86,14 @@ class RenderContextNavigation
                 '"><x-heroicon-o-arrow-left class="w-5"/> Main Module</a>'),
         );
 
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 218dfed3 (.)
+=======
+        /* -- esiste in filament 3
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 =======
     public function execute(string $module, string $context): void
     {
@@ -85,19 +105,30 @@ class RenderContextNavigation
             'sidebar.end',
             static fn (): string => Blade::render('<a class="p-2 px-6 bg-primary-100 font-black w-full inline-flex space-x-2" href="'.route('filament.pages.dashboard').'"><x-heroicon-o-arrow-left class="w-5"/> Main Module</a>')
         );
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         /* -- esiste in filament 3
+=======
+        /* -- esiste in filament 3
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
         Filament::registerRenderHook(
             'user-menu.start',
             fn (): string => Blade::render('@livewire(\'switchable-team\')'),
         );
         */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
          * Filament::registerRenderHook(
          * 'user-menu.start',
          * fn (): string => Blade::render('@livewire(\'switchable-team\')'),
          * );
          */
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -108,5 +139,11 @@ class RenderContextNavigation
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     }
 }

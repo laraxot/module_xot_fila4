@@ -45,9 +45,12 @@ class ViewExport implements FromView
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
     public ?array $fields = null;
 
     public ?string $transKey = null;
@@ -131,6 +134,11 @@ class ViewExport implements FromView
     public null|string $transKey = null;
 >>>>>>> 399f46d3 (.)
 =======
+    public null|array $fields = null;
+
+    public null|string $transKey = null;
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,6 +146,7 @@ class ViewExport implements FromView
 
     public null|string $transKey = null;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -178,6 +187,7 @@ class ViewExport implements FromView
     public ?array $fields = null;
 
     public ?string $transKey = null;
+<<<<<<< HEAD
     public ?array $fields = null;
 
     public ?string $transKey = null;
@@ -190,9 +200,29 @@ class ViewExport implements FromView
     public ?array $fields = null;
 
     public ?string $transKey = null;
+=======
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+    public ?array $fields = null;
+
+    public ?string $transKey = null;
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ce6fc085 (.)
     public null|array $fields = null;
 
     public null|string $transKey = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
     public null|array $fields = null;
 
@@ -200,6 +230,34 @@ class ViewExport implements FromView
     public ?array $fields = null;
 
     public ?string $transKey = null;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> b93ef594b4 (.)
+=======
+    public ?array $fields = null;
+
+    public ?string $transKey = null;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+>>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -336,7 +394,12 @@ class ViewExport implements FromView
 
     public null|string $transKey = null;
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
     /**
      * Summary of __construct.
@@ -345,9 +408,11 @@ class ViewExport implements FromView
     public function __construct(View $view, ?string $transKey = null, ?array $fields = null)
      * @param array<string> $fields
      */
+<<<<<<< HEAD
     public function __construct(View $view, null|string $transKey = null, null|array $fields = null)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -376,6 +441,8 @@ class ViewExport implements FromView
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385,7 +452,20 @@ class ViewExport implements FromView
     public function __construct(View $view, ?string $transKey = null, ?array $fields = null)
     public function __construct(View $view, null|string $transKey = null, null|array $fields = null)
     public function __construct(View $view, ?string $transKey = null, ?array $fields = null)
+<<<<<<< HEAD
     public function __construct(View $view, null|string $transKey = null, null|array $fields = null)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ce6fc085 (.)
      * @param array<string> $fields
      */
     public function __construct(View $view, null|string $transKey = null, null|array $fields = null)
@@ -490,7 +570,12 @@ class ViewExport implements FromView
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     {
         $this->view = $view;
         $this->transKey = $transKey;

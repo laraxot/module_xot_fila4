@@ -4,12 +4,27 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Illuminate\Support\Facades\Blade;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 use Illuminate\Support\ServiceProvider;
 use Modules\Xot\Actions\Blade\RegisterBladeComponentsAction;
 use Illuminate\Support\ServiceProvider;
 use Modules\Xot\Actions\Blade\RegisterBladeComponentsAction;
 use Illuminate\Support\ServiceProvider;
 use Modules\Xot\Actions\Blade\RegisterBladeComponentsAction;
+=======
+<<<<<<< HEAD
+use Illuminate\Support\Facades\Blade;
+use Modules\Xot\Actions\Blade\RegisterBladeComponentsAction;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Support\ServiceProvider;
 use Modules\Xot\Actions\Blade\RegisterBladeComponentsAction;
 use Illuminate\Support\ServiceProvider;
@@ -64,9 +79,12 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
         $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
@@ -150,6 +168,11 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
 >>>>>>> 399f46d3 (.)
 =======
+        $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,6 +180,7 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,6 +221,7 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+<<<<<<< HEAD
         $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
@@ -209,9 +234,29 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+=======
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ce6fc085 (.)
         $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
+<<<<<<< HEAD
 <<<<<<< HEAD
         $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
@@ -219,6 +264,34 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> b93ef594b4 (.)
+=======
+        $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
+        $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
+        $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+>>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -355,7 +428,12 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         $this->registerBladeComponents();
     }
 
@@ -407,6 +485,7 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
@@ -425,6 +504,8 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 =======
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
         $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
 =======
@@ -451,6 +532,11 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
 >>>>>>> 399f46d3 (.)
 =======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -466,6 +552,8 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
 =======
@@ -481,6 +569,7 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,13 +724,19 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     }
 
     protected function registerBladeComponents(): void
     {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -682,10 +777,13 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -746,7 +844,12 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         $componentNamespace = $this->module_ns . '\View\Components';
         Blade::componentNamespace($componentNamespace, $this->nameLower);
 
@@ -754,6 +857,7 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
             ->execute($this->module_dir . '/../View/Components', $this->module_ns);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
         $componentNamespace = $this->module_ns.'\View\Components';
         $componentNamespace = $this->module_ns . '\View\Components';
@@ -764,11 +868,20 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $componentNamespace = $this->module_ns . '\View\Components';
         $componentNamespace = $this->module_ns.'\View\Components';
         $componentNamespace = $this->module_ns . '\View\Components';
+=======
+=======
+=======
+        $componentNamespace = $this->module_ns.'\View\Components';
+=======
+        $componentNamespace = $this->module_ns . '\View\Components';
+>>>>>>> b93ef594b4 (.)
+>>>>>>> ce6fc085 (.)
         Blade::componentNamespace($componentNamespace, $this->nameLower);
 
         app(RegisterBladeComponentsAction::class)
             ->execute($this->module_dir . '/../View/Components', $this->module_ns);
     }
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -782,18 +895,31 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 <<<<<<< HEAD
     }
 }
+=======
+<<<<<<< HEAD
+} 
+>>>>>>> a12f125f4a (.)
+=======
+}
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> ce6fc085 (.)
         $componentNamespace = $this->module_ns.'\View\Components';
         \Illuminate\Support\Facades\Blade::componentNamespace($componentNamespace, $this->nameLower);
 
         app(\Modules\Xot\Actions\Blade\RegisterBladeComponentsAction::class)
+<<<<<<< HEAD
 =======
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> ce6fc085 (.)
             ->execute(
                 $this->module_dir.'/../View/Components',
                 $this->module_ns
             );
     }
 } 
+<<<<<<< HEAD
 <<<<<<< HEAD
             ->execute($this->module_dir.'/../View/Components', $this->module_ns);
     }
@@ -809,3 +935,7 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)

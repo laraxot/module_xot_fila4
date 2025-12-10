@@ -138,9 +138,23 @@ Questa funzionalità è compatibile con:
 - [xot-base-widget.md](./xot-base-widget.md) - Documentazione su XotBaseWidget
 - [FOLIO_VOLT_FILAMENT_INTEGRATION.md](../../FOLIO_VOLT_FILAMENT_INTEGRATION.md) - Integrazione Folio, Volt e Filament
 - [MODULE_STRUCTURE.md](../../MODULE_STRUCTURE.md) - Struttura standard dei moduli
+<<<<<<< HEAD
 - [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
 
 - [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation)
 - [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
 
@@ -156,6 +170,7 @@ Questa funzionalità è compatibile con:
 - [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
 
 - [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
+<<<<<<< HEAD
 - [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
 
 - [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
@@ -186,3 +201,9 @@ Questa funzionalità è compatibile con:
 - [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation)
 - [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+- [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

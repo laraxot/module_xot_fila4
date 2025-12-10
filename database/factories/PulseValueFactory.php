@@ -4,13 +4,56 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Database\Factories;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\PulseValue;
 
 /**
  * @extends Factory<PulseValue>
  */
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Modules\Xot\Models\PulseValue;
+=======
+<<<<<<< HEAD
+use Modules\Xot\Models\PulseValue;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 use Modules\Xot\Models\PulseValue;
@@ -51,19 +94,32 @@ class PulseValueFactory extends Factory
      *
      * @var class-string<PulseValue>
      */
+<<<<<<< HEAD
     protected $model = PulseValue::class;
+<<<<<<< HEAD
      *
      * @var class-string<PulseValue>
      */
     protected $model = PulseValue::class;
     protected $model = PulseValue::class;
+=======
+=======
+<<<<<<< HEAD
+    protected $model = PulseValue::class;
+=======
+    protected $model = \Modules\Xot\Models\PulseValue::class;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
     /**
      * Define the model's default state.
      */
     public function definition(): array
     {
+<<<<<<< HEAD
         return [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return [];
@@ -85,5 +141,24 @@ class PulseValueFactory extends Factory
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return [];
+=======
+        return [
+        ];
+>>>>>>> a12f125f4a (.)
+=======
+        return [];
+>>>>>>> b93ef594b4 (.)
+=======
+        return [
+        ];
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     }
 }

@@ -52,10 +52,13 @@ namespace Modules\YourModule\App\Filament\Resources; // ❌ Wrong (contains App)
 ## 📞 Emergency Help
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 1. Check: `/Modules/Xot/docs/XOTBASE_EXTENSION_RULES.md`
 2. Check: `/Modules/Xot/docs/filament_extension_pattern.md`
 >>>>>>> 85cdef688 (.)
+=======
+>>>>>>> ce6fc085 (.)
 1. Check: `/Modules/Xot/project_docs/XOTBASE_EXTENSION_RULES.md`
 2. Check: `/Modules/Xot/project_docs/filament_extension_pattern.md`
 3. Run: `php artisan optimize:clear && ./vendor/bin/phpstan analyse`
@@ -63,7 +66,11 @@ namespace Modules\YourModule\App\Filament\Resources; // ❌ Wrong (contains App)
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Keep this file visible during development!*
 =======
 *Keep this file visible during development!*
 >>>>>>> 85cdef688 (.)
+=======
+*Keep this file visible during development!*
+>>>>>>> ce6fc085 (.)

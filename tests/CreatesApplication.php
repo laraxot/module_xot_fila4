@@ -50,6 +50,7 @@ trait CreatesApplication
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -77,6 +78,51 @@ trait CreatesApplication
         /** @var Application */
         $app = require __DIR__.'/../../../bootstrap/app.php';
 =======
+=======
+        $app = require __DIR__.'/../../../bootstrap/app.php';
+=======
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+>>>>>>> 5a14301c (.)
+=======
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+>>>>>>> 3fbbf1f5 (.)
+=======
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+=======
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+>>>>>>> 399f46d3 (.)
+=======
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+>>>>>>> 17684f52 (.)
+=======
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+>>>>>>> 399f46d3 (.)
+=======
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+=======
+        $app = require __DIR__.'/../../../bootstrap/app.php';
+>>>>>>> a12f125f4a (.)
+=======
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+>>>>>>> b93ef594b4 (.)
+=======
+        $app = require __DIR__.'/../../../bootstrap/app.php';
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        $app = require __DIR__ . '/../../../bootstrap/app.php';
+>>>>>>> ce6fc085 (.)
 >>>>>>> ca9324a4 (.)
 =======
         $app = require __DIR__ . '/../../../bootstrap/app.php';
@@ -178,7 +224,12 @@ trait CreatesApplication
 =======
         $app = require __DIR__ . '/../../../bootstrap/app.php';
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
         $app->make(Kernel::class)->bootstrap();
 

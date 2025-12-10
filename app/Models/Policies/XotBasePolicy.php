@@ -43,11 +43,14 @@ abstract class XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
     public function before(UserContract $user, string $_ability): ?bool
     public function before(UserContract $user, string $_ability): null|bool
     public function before(UserContract $user, string $_ability): null|bool
@@ -55,6 +58,17 @@ abstract class XotBasePolicy
     public function before(UserContract $user, string $_ability): null|bool
     public function before(UserContract $user, string $_ability): null|bool
     public function before(UserContract $user, string $_ability): null|bool
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public function before(UserContract $user, string $_ability): null|bool
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
     public function before(UserContract $user, string $_ability): null|bool
     public function before(UserContract $user, string $_ability): null|bool
     public function before(UserContract $user, string $_ability): null|bool
@@ -70,6 +84,17 @@ abstract class XotBasePolicy
     public function before(UserContract $user, string $_ability): ?bool
     public function before(UserContract $user, string $_ability): null|bool
     public function before(UserContract $user, string $ability): ?bool
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
     public function before(UserContract $user, string $_ability): null|bool
     public function before(UserContract $user, string $_ability): null|bool
 <<<<<<< HEAD
@@ -166,7 +191,12 @@ abstract class XotBasePolicy
 =======
     public function before(UserContract $user, string $_ability): null|bool
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     {
         return once(function () use ($user) {
             if ($user->hasRole('super-admin')) {

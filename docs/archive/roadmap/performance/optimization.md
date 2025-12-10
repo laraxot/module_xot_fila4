@@ -50,6 +50,7 @@
 ## Collegamenti tra versioni di optimization.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [optimization.md](../../../Xot/docs/roadmap/performance/optimization.md)
 * [optimization.md](../../../Job/docs/optimization.md)
@@ -60,4 +61,14 @@
 * [optimization.md](../../../Job/docs/optimization.md)
 * [optimization.md](../../../Cms/docs/roadmap/performance/optimization.md)
 >>>>>>> 6ca989d8 (.)
+=======
+* [optimization.md](../../../Xot/docs/roadmap/performance/optimization.md)
+* [optimization.md](../../../Job/docs/optimization.md)
+* [optimization.md](../../../Cms/docs/roadmap/performance/optimization.md)
+=======
+* [optimization.md](../../../Xot/project_docs/roadmap/performance/optimization.md)
+* [optimization.md](../../../Job/project_docs/optimization.md)
+* [optimization.md](../../../Cms/project_docs/roadmap/performance/optimization.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 

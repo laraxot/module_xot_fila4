@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\CacheResource\Pages;
 
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\Action;
 use Filament\Actions\CreateAction;
@@ -32,6 +33,25 @@ use Filament\Actions\CreateAction;
 use Filament\Actions;
 use Override;
 use Filament\Actions\CreateAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Actions\Action;
+use Override;
+use Filament\Actions\CreateAction;
+=======
+use Filament\Actions\CreateAction;
+use Filament\Actions\Action;
+>>>>>>> a12f125f4a (.)
+=======
+use Filament\Actions\Action;
+use Override;
+use Filament\Actions\CreateAction;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Filament\Actions;
 use Override;
 use Filament\Actions\CreateAction;
@@ -59,6 +79,20 @@ use Modules\Xot\Filament\Widgets\Clock;
 use Modules\Xot\Filament\Widgets\Clock;
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 /**
  * @see CacheResource
  */
@@ -75,7 +109,9 @@ class ListCaches extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
@@ -93,6 +129,21 @@ class ListCaches extends XotBaseListRecords
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     public function getTableColumns(): array
     {
         return [
@@ -104,6 +155,7 @@ class ListCaches extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -120,6 +172,21 @@ class ListCaches extends XotBaseListRecords
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             'value' => TextColumn::make('value')
                 ->searchable()
                 ->wrap()
@@ -127,6 +194,7 @@ class ListCaches extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -143,6 +211,21 @@ class ListCaches extends XotBaseListRecords
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             'expiration' => TextColumn::make('expiration')
                 ->dateTime()
                 ->sortable()
@@ -150,7 +233,9 @@ class ListCaches extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
@@ -168,6 +253,21 @@ class ListCaches extends XotBaseListRecords
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -176,9 +276,11 @@ class ListCaches extends XotBaseListRecords
     }
 
     /**
+<<<<<<< HEAD
      * @return array<string, Action>
      */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, Action>
@@ -200,10 +302,36 @@ class ListCaches extends XotBaseListRecords
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+     * @return array<string, Action>
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     protected function getHeaderActions(): array
     {
         return [
             'create' => CreateAction::make(),
+<<<<<<< HEAD
+=======
+=======
+     * @return array<string, \Filament\Actions\Action>
+     */
+    protected function getHeaderActions(): array
+    {
+        return [
+            'create' => Actions\CreateAction::make(),
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             'route_list' => ArtisanHeaderAction::make('route:list'),
             'icons_cache' => ArtisanHeaderAction::make('icons:cache'),
             'filament_cache_components' => ArtisanHeaderAction::make('filament:cache-components'),

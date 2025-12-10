@@ -171,6 +171,7 @@
 ## Collegamenti tra versioni di ui.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [ui.md](../../../Xot/docs/roadmap/bottlenecks/ui.md)
 * [ui.md](../../../UI/docs/ui.md)
@@ -179,4 +180,12 @@
 * [ui.md](../../../Xot/docs/roadmap/bottlenecks/ui.md)
 * [ui.md](../../../UI/docs/ui.md)
 >>>>>>> 6ca989d8 (.)
+=======
+* [ui.md](../../../Xot/docs/roadmap/bottlenecks/ui.md)
+* [ui.md](../../../UI/docs/ui.md)
+=======
+* [ui.md](../../../Xot/project_docs/roadmap/bottlenecks/ui.md)
+* [ui.md](../../../UI/project_docs/ui.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 

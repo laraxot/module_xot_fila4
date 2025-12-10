@@ -32,12 +32,23 @@ Questo documento serve come indice centrale per tutta la documentazione del prog
 
 ## Linee Guida Generali
 Le linee guida complete per la documentazione sono disponibili in:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
+=======
+- [Linee Guida per la Documentazione](../../../Xot/project_docs/guidelines/documentation.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 ## Documentazione per Modulo
 
 ### Core
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ce6fc085 (.)
 - [Xot Module](../../../Xot/docs/README.md)
 - [UI Module](../../../UI/docs/README.md)
 - [CMS Module](../../../Cms/docs/README.md)
@@ -80,6 +91,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -93,7 +105,12 @@ Le linee guida complete per la documentazione sono disponibili in:
 =======
 >>>>>>> 399f46d3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ce6fc085 (.)
 - [Xot Module](../../../Xot/project_docs/README.md)
 - [UI Module](../../../UI/project_docs/README.md)
 - [CMS Module](../../../Cms/project_docs/README.md)
@@ -126,6 +143,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -153,4 +171,9 @@ Le linee guida complete per la documentazione sono disponibili in:
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

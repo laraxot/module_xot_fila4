@@ -239,6 +239,33 @@ cd /percorso/al/progetto/laravel
 
 # Analisi con output dettagliato
 ./vendor/bin/phpstan analyse Modules/NomeModulo --level=9 --verbose
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+<<<<<<< HEAD
 ``` 
 ``` 
 ``` 
@@ -251,11 +278,11 @@ cd /percorso/al/progetto/laravel
 ``` 
 ``` 
 ``` 
-``` 
-``` 
-``` 
-``` 
-``` 
-``` 
-``` 
-``` 
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

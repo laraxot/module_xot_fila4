@@ -27,7 +27,9 @@
         "fidum/laravel-eloquent-morph-to-one": "*",
         "filament/filament": "^4.0",
         "filament/spatie-laravel-media-library-plugin": "^4.0",
+<<<<<<< HEAD
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         
@@ -48,6 +50,11 @@
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+        "filament/spatie-laravel-translatable-plugin": "^4.0",
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         "guzzlehttp/guzzle": "*",
         "laravel/folio": "^1.1",
         "laravel/framework": "*",

@@ -41,12 +41,19 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/scope.txt}
 ## Collegamenti tra versioni di models.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [models.md](../../../Notify/docs/models.md)
 >>>>>>> 85cdef688 (.)
 =======
 * [models.md](../../../Notify/docs/models.md)
 >>>>>>> 6ca989d8 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+=======
+* [models.md](../../../Notify/project_docs/models.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 
 ### Versione Incoming

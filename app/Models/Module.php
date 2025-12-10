@@ -4,6 +4,60 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Builder;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
@@ -11,20 +65,34 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module as NModule;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Sushi\Sushi;
 
 use function Safe\json_encode;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
 
 use function Safe\json_encode;
 
 use Sushi\Sushi;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -36,6 +104,18 @@ use Sushi\Sushi;
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Sushi\Sushi;
+
+use function Safe\json_encode;
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 /**
  * @property int $id
  * @property string|null $name
@@ -85,7 +165,14 @@ use function Safe\json_encode;
  * @property bool|null   $status
  * @property int|null    $priority
  * @property string|null $path
+<<<<<<< HEAD
  *
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
  * @method static Builder|Module newModelQuery()
  * @method static Builder|Module newQuery()
  * @method static Builder|Module query()
@@ -122,6 +209,24 @@ class Module extends Model
  * @property array<string, string>|null $colors
  * @method static Builder|Module whereColors($value)
  * @method static Builder|Module whereIcon($value)
+<<<<<<< HEAD
+=======
+=======
+ * @method static \Illuminate\Database\Eloquent\Builder|Module newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Module newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Module query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Module whereDescription($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Module whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Module whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Module wherePath($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Module wherePriority($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Module whereStatus($value)
+ * @property string|null $icon
+ * @property array<string, string>|null $colors
+ * @method static \Illuminate\Database\Eloquent\Builder|Module whereColors($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Module whereIcon($value)
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
  * @mixin IdeHelperModule
  * @mixin \Eloquent
  */
@@ -146,6 +251,14 @@ class Module extends Model
     public function getRows(): array
     {
         $modules = ModuleFacade::all();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
             if (!is_array($config)) {
@@ -154,6 +267,10 @@ class Module extends Model
             if (!is_array($config)) {
             if (!is_array($config)) {
                 $config = [];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
             }
             $colors = Arr::get($config, 'colors', []);
 
@@ -172,9 +289,16 @@ class Module extends Model
         /** @var array<int, array<string, mixed>> */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
         $modules = Arr::map(
             $modules,
             function (NModule $module): array {
@@ -194,10 +318,22 @@ class Module extends Model
                     'icon' => Arr::get($config, 'icon', 'heroicon-o-question-mark-circle'),
                     'colors' => json_encode($colors),
                 ];
+<<<<<<< HEAD
             }
 <<<<<<< HEAD
             $colors = Arr::get($config, 'colors', []);
 
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+            }
+            $colors = Arr::get($config, 'colors', []);
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
             return [
                 'name' => $module->getName(),
                 // 'alias' => $module->getAlias(),
@@ -211,6 +347,7 @@ class Module extends Model
         });
 
         /** @var array<int, array<string, mixed>> */
+<<<<<<< HEAD
             }
         );
 
@@ -226,6 +363,15 @@ class Module extends Model
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+            }
+        );
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         return array_values($modules);
     }
 

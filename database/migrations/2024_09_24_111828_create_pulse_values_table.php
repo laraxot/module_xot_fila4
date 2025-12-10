@@ -58,6 +58,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
 =======
@@ -70,10 +71,13 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,7 +134,12 @@ return new class extends XotBaseMigration {
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         if (!$this->shouldRun()) {
         if (!$this->shouldRun()) {
         if (!$this->shouldRun()) {
@@ -196,6 +205,15 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+        if (! $this->shouldRun()) {
+=======
+        if (!$this->shouldRun()) {
+>>>>>>> b93ef594b4 (.)
+>>>>>>> ce6fc085 (.)
             return;
         }
         // -- CREATE --
@@ -211,9 +229,14 @@ return new class extends XotBaseMigration {
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
             };
             $table->mediumText('value');
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 218dfed3 (.)
+=======
+
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 =======
         if (! $this->shouldRun()) {
             return;
@@ -232,18 +255,29 @@ return new class extends XotBaseMigration {
                     default => throw new InvalidArgumentException('Unsupported driver: '.$this->driver()),
                 };
                 $table->mediumText('value');
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 
+=======
+
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
                 $table->index('timestamp'); // For trimming...
                 $table->index('type'); // For fast lookups and purging...
                 $table->unique(['type', 'key_hash']); // For data integrity and upserts...
             }
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
             $table->index('timestamp'); // For trimming...
             $table->index('type'); // For fast lookups and purging...
             $table->unique(['type', 'key_hash']); // For data integrity and upserts...
         });
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -254,5 +288,11 @@ return new class extends XotBaseMigration {
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     }
 };

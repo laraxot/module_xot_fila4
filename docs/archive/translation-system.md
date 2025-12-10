@@ -19,12 +19,19 @@ Questo documento sostituisce e consolida **50+ file di traduzione duplicati** tr
 ### ✅ Unica Fonte di Verità
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/translation-system.md`
 >>>>>>> 85cdef688 (.)
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/translation-system.md`
 >>>>>>> 6ca989d8 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/translation-system.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/translation-system.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 - **Implementazione**: File di traduzione nei singoli moduli (solo traduzioni, non docs)
 
 ## Principi Fondamentali

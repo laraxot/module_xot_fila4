@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\View;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 use Exception;
 <<<<<<< HEAD
 =======
@@ -20,9 +24,11 @@ use Spatie\QueueableAction\QueueableAction;
 use Illuminate\Support\Arr;
 use Illuminate\View\FileViewFinder;
 use Modules\Xot\Datas\XotData;
+<<<<<<< HEAD
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,12 +59,15 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Nwidart\Modules\Facades\Module;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,6 +101,11 @@ use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 use Nwidart\Modules\Facades\Module;
 >>>>>>> 399f46d3 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+use Nwidart\Modules\Facades\Module;
+>>>>>>> 17684f52 (.)
 >>>>>>> a12f125f4a (.)
 =======
 use Nwidart\Modules\Facades\Module;
@@ -112,6 +126,7 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,7 +263,12 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
 class GetViewNameSpacePathAction
 {
@@ -256,7 +276,10 @@ class GetViewNameSpacePathAction
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ce6fc085 (.)
      * @throws Exception
      */
 <<<<<<< HEAD
@@ -338,17 +361,41 @@ class GetViewNameSpacePathAction
 >>>>>>> 3310e9c6 (.)
     public function execute(null|string $module_name = null): string
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+     * @throws Exception
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(null|string $module_name = null): string
+=======
+    public function execute(?string $module_name = null): string
+>>>>>>> a12f125f4a (.)
+=======
+    public function execute(null|string $module_name = null): string
+>>>>>>> b93ef594b4 (.)
+=======
+     * @throws \Exception
+     */
+    public function execute(?string $module_name = null): string
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     {
         if (null !== $module_name && '' !== $module_name) {
             $module_path = Module::getModulePath($module_name);
             /** @var non-falsy-string $namespace_path */
+<<<<<<< HEAD
             $namespace_path = $module_path . 'resources/views';
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379,6 +426,8 @@ class GetViewNameSpacePathAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -393,6 +442,7 @@ class GetViewNameSpacePathAction
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -492,7 +542,12 @@ class GetViewNameSpacePathAction
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         } else {
             /** @var non-falsy-string $namespace_path */
             $namespace_path = resource_path('views');

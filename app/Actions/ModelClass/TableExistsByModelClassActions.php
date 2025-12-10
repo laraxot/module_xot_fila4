@@ -49,6 +49,7 @@ class TableExistsByModelClassActions
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -63,8 +64,45 @@ class TableExistsByModelClassActions
         if (! class_exists($modelClass)) {
         if (! class_exists($modelClass)) {
 =======
+=======
+        if (! class_exists($modelClass)) {
+=======
+        if (!class_exists($modelClass)) {
+>>>>>>> 5a14301c (.)
+=======
+        if (!class_exists($modelClass)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+        if (!class_exists($modelClass)) {
+=======
+        if (!class_exists($modelClass)) {
+>>>>>>> 399f46d3 (.)
+=======
+        if (!class_exists($modelClass)) {
+>>>>>>> 17684f52 (.)
+=======
+        if (!class_exists($modelClass)) {
+>>>>>>> 399f46d3 (.)
+=======
+        if (!class_exists($modelClass)) {
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!class_exists($modelClass)) {
+=======
+        if (! class_exists($modelClass)) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!class_exists($modelClass)) {
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! class_exists($modelClass)) {
+>>>>>>> ce6fc085 (.)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,22 +208,52 @@ class TableExistsByModelClassActions
 =======
         if (!class_exists($modelClass)) {
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             return false;
         }
 
         Assert::isInstanceOf($model = app($modelClass), EloquentModel::class);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
         // Controlla se il modello utilizza Sushi
         if (in_array('Sushi\Sushi', class_uses_recursive($modelClass), strict: true) || method_exists($model, 'sushiRows')) {
             return true; // I modelli Sushi sono considerati come se avessero sempre una tabella
         }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+
+=======
+>>>>>>> ce6fc085 (.)
          // Controlla se il modello utilizza Sushi
          if (in_array('Sushi\Sushi', class_uses_recursive($modelClass)) || method_exists($model, 'sushiRows')) {
             return true; // I modelli Sushi sono considerati come se avessero sempre una tabella
         }
         
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         $tableName = $model->getTable();
 
         return Schema::connection($model->getConnectionName())->hasTable($tableName);

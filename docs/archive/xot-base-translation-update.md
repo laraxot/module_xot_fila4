@@ -88,6 +88,36 @@ return [
 
 - [Regole Traduzioni Xot](translation_rules.md)
 - [Best Practices Traduzioni](translations-best-practices.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+=======
+=======
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+=======
+=======
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ce6fc085 (.)
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
@@ -126,6 +156,7 @@ return [
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
+<<<<<<< HEAD
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
@@ -219,3 +250,11 @@ return [
 - [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
+=======
+>>>>>>> 43d67f21 (.)
+=======
+- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

@@ -3,8 +3,29 @@
 ## Data: 2025-01-06
 
 ## Contesto
+<<<<<<< HEAD
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
+=======
+>>>>>>> ce6fc085 (.)
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
@@ -63,6 +84,13 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto , c
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+<<<<<<< HEAD
+=======
+>>>>>>> 43d67f21 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
 ## File Corretti
 
@@ -151,6 +179,27 @@ $res=Locality::query()
 
 ## Verifiche Post-Correzione
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+>>>>>>> ce6fc085 (.)
 ### 1. Controllo Conflitti
 ```bash
 ### 1. Controllo Conflitti
@@ -310,6 +359,7 @@ php artisan lang:check
 **Stato**: ✅ Completato
 ### 1. Controllo Conflitti
 ```bash
+<<<<<<< HEAD
 **Stato**: ✅ Completato
 ### 1. Controllo Conflitti
 ```bash
@@ -358,3 +408,10 @@ php artisan lang:check
 **Stato**: ✅ Completato
 ### 1. Controllo Conflitti
 ```bash
+=======
+>>>>>>> 43d67f21 (.)
+=======
+### 1. Controllo Conflitti
+```bash
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

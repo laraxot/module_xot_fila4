@@ -7,6 +7,14 @@ namespace Coolsam\Modules\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
  * class ModelFactory extends Factory
  * {
  * protected $model = YourModel::class;
@@ -21,9 +29,17 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
 class ModelFactory extends Factory
 {
     protected $model = YourModel::class;
@@ -37,6 +53,7 @@ class ModelFactory extends Factory
 }
 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -47,3 +64,11 @@ class ModelFactory extends Factory
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)

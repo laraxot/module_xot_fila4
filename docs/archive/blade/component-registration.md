@@ -106,9 +106,16 @@ return view('user::components.profile-card');
 - [RegisterBladeComponentsAction](../../app/Actions/Blade/RegisterBladeComponentsAction.php)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Blade Components](https://laravel.com/docs/blade#components)
 >>>>>>> 85cdef688 (.)
 =======
 - [Laravel Blade Components](https://laravel.com/docs/blade#components)
 >>>>>>> 6ca989d8 (.)
+=======
+- [Laravel Blade Components](https://laravel.com/docs/blade#components)
+=======
+- [Laravel Blade Components](https://laravel.com/project_docs/blade#components)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)

@@ -4,6 +4,26 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+
+
+
+
+<<<<<<< HEAD
 
 
 
@@ -24,14 +44,44 @@ namespace Modules\Xot\Console\Commands;
 
 
 
-
-
-
-
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Webmozart\Assert\Assert;
+=======
+<<<<<<< HEAD
+use Exception;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
+use Webmozart\Assert\Assert;
+=======
+use Webmozart\Assert\Assert;
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
+use Webmozart\Assert\Assert;
+>>>>>>> b93ef594b4 (.)
+=======
+use Webmozart\Assert\Assert;
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
 use function Safe\file_get_contents;
 use Exception;
@@ -160,6 +210,7 @@ class ExecuteSqlFileCommand extends Command
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');
+<<<<<<< HEAD
         Assert::string($filePath, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         if (!file_exists($filePath)) {
 <<<<<<< HEAD
@@ -264,6 +315,7 @@ class ExecuteSqlFileCommand extends Command
         Assert::string($filePath, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         if (!file_exists($filePath)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +346,8 @@ class ExecuteSqlFileCommand extends Command
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +366,7 @@ class ExecuteSqlFileCommand extends Command
         if (! file_exists($filePath)) {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -394,7 +449,12 @@ class ExecuteSqlFileCommand extends Command
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -433,10 +493,12 @@ class ExecuteSqlFileCommand extends Command
             // Connessione al database
             DB::connection('temp')->unprepared($sql);
             $this->info('File .sql eseguito con successo!');
+<<<<<<< HEAD
         } catch (Exception $e) {
             $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -467,6 +529,8 @@ class ExecuteSqlFileCommand extends Command
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         } catch (Exception $e) {
@@ -477,6 +541,22 @@ class ExecuteSqlFileCommand extends Command
             $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
         } catch (\Exception $e) {
             $this->error("Errore durante l'esecuzione del file: ".$e->getMessage());
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ce6fc085 (.)
             $this->error("Errore durante l'esecuzione del file: ".$e->getMessage());
 <<<<<<< HEAD
 =======
@@ -603,7 +683,12 @@ class ExecuteSqlFileCommand extends Command
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
             return Command::FAILURE;
         } finally {

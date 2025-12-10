@@ -389,10 +389,15 @@ test('all models extend base model', function () {
 
 - [**README.md**](README.md) - Documentazione principale del modulo
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [**Best Practices**](../docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../docs/troubleshooting.md) - Risoluzione problemi
 >>>>>>> 85cdef688 (.)
+=======
+- [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
+- [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
+>>>>>>> ce6fc085 (.)
 
 ---
 

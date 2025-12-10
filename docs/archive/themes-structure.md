@@ -230,10 +230,17 @@ resources/views/
 * [themes-structure.md](docs/tecnico/themes-structure.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [themes-structure.md](../../../Xot/docs/themes-structure.md)
 >>>>>>> 85cdef688 (.)
 =======
 * [themes-structure.md](../../../Xot/docs/themes-structure.md)
 >>>>>>> 6ca989d8 (.)
+=======
+* [themes-structure.md](../../../Xot/docs/themes-structure.md)
+=======
+* [themes-structure.md](../../../Xot/project_docs/themes-structure.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 

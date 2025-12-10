@@ -121,10 +121,17 @@ Lo sviluppo del progetto il progetto è guidato dai seguenti principi fondamenta
 * [filosofia.md](docs/filosofia.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [filosofia.md](../../../Xot/docs/development/filosofia.md)
 >>>>>>> 85cdef688 (.)
 =======
 * [filosofia.md](../../../Xot/docs/development/filosofia.md)
 >>>>>>> 6ca989d8 (.)
+=======
+* [filosofia.md](../../../Xot/docs/development/filosofia.md)
+=======
+* [filosofia.md](../../../Xot/project_docs/development/filosofia.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 

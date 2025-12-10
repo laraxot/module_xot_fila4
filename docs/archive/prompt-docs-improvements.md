@@ -10,6 +10,7 @@
 # Miglioramenti al Prompt docs.txt
 
 > **Collegamenti correlati**
+<<<<<<< HEAD
 # Miglioramenti al Prompt docs.txt
 
 > **Collegamenti correlati**
@@ -36,12 +37,63 @@
 
 
 > - [README.md documentazione generale](../../../../docs/README.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+> - [README.md documentazione generale](../../../../docs/README.md)
+=======
+> - [README.md documentazione generale](../../../../project_docs/README.md)
+>>>>>>> 43d67f21 (.)
+=======
+> - [README.md documentazione generale](../../../../project_docs/README.md)
+>>>>>>> b7ea1cd1 (.)
+> - [Struttura dei Prompt](./prompts.md)
+> - [Regole per i Prompt](./PROMPT_RULES.md)
+> - [README.md toolkit bashscripts](../../../../bashscripts/project_docs/README.md)
+> - [Documentazione miglioramenti prompt docs.txt](../../../../bashscripts/project_docs/prompt_docs_improvements.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 > - [README.md documentazione generale](../../../../project_docs/README.md)
 > - [Struttura dei Prompt](./prompts.md)
 > - [Regole per i Prompt](./PROMPT_RULES.md)
 > - [README.md toolkit bashscripts](../../../../bashscripts/project_docs/README.md)
 > - [Documentazione miglioramenti prompt docs.txt](../../../../bashscripts/project_docs/prompt_docs_improvements.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
 
 > - [README.md documentazione generale](../../../../docs/README.md)
 > - [README.md documentazione generale](../../../../project_docs/README.md)
@@ -58,6 +110,7 @@
 > - [Documentazione miglioramenti prompt docs.txt](../../../../bashscripts/project_docs/prompt_docs_improvements.md)
 
 
+<<<<<<< HEAD
 
 
 
@@ -70,6 +123,15 @@
 > - [README.md toolkit bashscripts](../../../../bashscripts/docs/README.md)
 > - [Documentazione miglioramenti prompt docs.txt](../../../../bashscripts/docs/prompt_docs_improvements.md)
 
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 ## Introduzione
 
 Il file `/bashscripts/prompts/docs.txt` contiene un prompt utilizzato per guidare la documentazione nei progetti modulari Laravel. Questo documento descrive i miglioramenti apportati al prompt per renderlo completamente indipendente dal progetto e riutilizzabile.
@@ -129,3 +191,32 @@ Il prompt rimane conforme alla [Regola Universale](./prompt_rules.md) per i prom
 ## Utilizzo
 
 Il prompt aggiornato può essere utilizzato in qualsiasi progetto modulare Laravel senza modifiche, rendendo il modulo `bashscripts` completamente riutilizzabile.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

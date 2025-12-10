@@ -5,11 +5,33 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\Xot\Tests\Feature\Filament;
+
+use Filament\Resources\Resource;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Filament\Resources\XotBaseResource;
+use Modules\Xot\Tests\TestCase;
+=======
+namespace Modules\Xot\Tests\Feature\Filament;
+
+use Modules\Xot\Filament\Resources\XotBaseResource;
+use Modules\Xot\Tests\TestCase;
+use Filament\Resources\Resource;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
 
 uses(TestCase::class, RefreshDatabase::class);
 
 beforeEach(function () {
     $this->resource = new class extends XotBaseResource {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -20,6 +42,22 @@ beforeEach(function () {
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+<<<<<<< HEAD
+        protected static null|string $model = null;
+
+        protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
+
+        protected static string | \UnitEnum | null $navigationGroup = 'Test Group';
+
+        protected static null|int $navigationSort = 1;
+=======
+namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
+
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
@@ -27,6 +65,13 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Tests\TestCase;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        protected static ?int $navigationSort = 1;
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 6cba4fe (.)
 uses(TestCase::class, RefreshDatabase::class);
 
     $this->resource = new class extends XotBaseResource {
@@ -83,14 +128,45 @@ namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 2f3197ab (.)
         protected static null|int $navigationSort = 1;
+<<<<<<< HEAD
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> ce6fc085 (.)
         protected static ?string $model = null;
         protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
         protected static ?string $navigationGroup = 'Test Group';
         protected static ?int $navigationSort = 1;
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ce6fc085 (.)
         protected static null|int $navigationSort = 1;
 <<<<<<< HEAD
 =======
@@ -277,7 +353,12 @@ beforeEach(function () {
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     };
 });
 

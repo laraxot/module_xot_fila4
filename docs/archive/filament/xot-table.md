@@ -232,57 +232,69 @@ class DatiRelationManager extends XotBaseRelationManager
 
 ## Collegamenti alla Documentazione Correlata
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> ce6fc085 (.)
 - [XotBaseRelationManager](/laravel/Modules/Xot/docs/filament/relation_managers.md)
 - [Regole di Traduzione](/laravel/Modules/Xot/docs/translation_rules.md)
 - [Filament Resources](/laravel/Modules/Xot/docs/filament/resources.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 3 Giugno 2025*
+=======
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+=======
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 - [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
 - [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
 - [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
 
-
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
-- [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-- [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-- [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-- [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-- [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 - [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
@@ -290,8 +302,6 @@ class DatiRelationManager extends XotBaseRelationManager
 - [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-
 *Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
 
@@ -311,6 +321,52 @@ class DatiRelationManager extends XotBaseRelationManager
 *Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+- [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+<<<<<<< HEAD
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+- [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+- [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+- [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+- [XotBaseRelationManager](/laravel/Modules/Xot/project_docs/filament/relation_managers.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
 
 *Ultimo aggiornamento: 3 Giugno 2025*
@@ -350,3 +406,9 @@ class DatiRelationManager extends XotBaseRelationManager
 *Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
+=======
+>>>>>>> 43d67f21 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

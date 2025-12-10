@@ -20,17 +20,27 @@ class GetModelFieldsByModelAction
      */
     public function execute(Model $model): array
     {
+<<<<<<< HEAD
         return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $model->getConnection()
             ->getSchemaBuilder()
             ->getColumnListing($model->getTable());
 =======
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
+>>>>>>> ce6fc085 (.)
+=======
         return $model->getConnection()
             ->getSchemaBuilder()
             ->getColumnListing($model->getTable());
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -41,5 +51,17 @@ class GetModelFieldsByModelAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
+>>>>>>> b93ef594b4 (.)
+=======
+        return $model->getConnection()
+            ->getSchemaBuilder()
+            ->getColumnListing($model->getTable());
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     }
 }

@@ -40,7 +40,23 @@ class ExportXlsByLazyCollection
      * @param LazyCollection $collection La lazy collection da esportare
      * @param string $filename Nome del file Excel
      * @param array<int, string> $fields Campi da includere nell'export
+<<<<<<< HEAD
      *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+=======
+     * 
+>>>>>>> a12f125f4a (.)
+=======
+     *
+>>>>>>> b93ef594b4 (.)
+=======
+     * 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
      * @return BinaryFileResponse
      * @param  LazyCollection  $collection  La lazy collection da esportare
      * @param  string  $filename  Nome del file Excel
@@ -69,6 +85,7 @@ class ExportXlsByLazyCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $stringFields = array_map(function ($field) {
             return strval($field);
         }, array_values($fields));
@@ -86,9 +103,40 @@ class ExportXlsByLazyCollection
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
         $stringFields = array_map(strval(...), array_values($fields));
 
         $export = new LazyCollectionExport($collection, $filename, $stringFields);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $stringFields = array_map(strval(...), array_values($fields));
+
+        $export = new LazyCollectionExport($collection, $filename, $stringFields);
+=======
+=======
+>>>>>>> origin/develop
+        $stringFields = array_map(function ($field) {
+            return strval($field);
+        }, array_values($fields));
+
+        $export = new LazyCollectionExport(
+            $collection,
+            $filename,
+            $stringFields
+        );
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+        $stringFields = array_map(strval(...), array_values($fields));
+
+        $export = new LazyCollectionExport($collection, $filename, $stringFields);
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
         return Excel::download($export, $filename);
     }

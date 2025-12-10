@@ -41,12 +41,19 @@ In caso di errore durante l'applicazione dei metatag:
 - [MetatagData](../datas/MetatagData.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Filament Panel Documentation](https://filamentphp.com/docs/panels)
 >>>>>>> 85cdef688 (.)
 =======
 - [Filament Panel Documentation](https://filamentphp.com/docs/panels)
 >>>>>>> 6ca989d8 (.)
+=======
+- [Filament Panel Documentation](https://filamentphp.com/docs/panels)
+=======
+- [Filament Panel Documentation](https://filamentphp.com/project_docs/panels)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 ## Note
 - Questa azione utilizza il trait `QueueableAction` di Spatie

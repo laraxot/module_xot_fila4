@@ -9,7 +9,10 @@ declare(strict_types=1);
 namespace Modules\Xot\Exceptions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ce6fc085 (.)
 use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21,6 +24,20 @@ use Exception;
 =======
 >>>>>>> a67e542f (.)
 use Illuminate\Foundation\Configuration\Exceptions;
+=======
+<<<<<<< HEAD
+use Exception;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Foundation\Configuration\Exceptions;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Foundation\Configuration\Exceptions;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\View;
@@ -36,6 +53,7 @@ use Modules\Xot\Actions\View\GetViewPathAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Configuration\Exceptions;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
@@ -48,9 +66,35 @@ class ExceptionHandler
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class ExceptionHandler
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Symfony\Component\HttpKernel\Exception\HttpException;
+
+class ExceptionHandler
+=======
+=======
+>>>>>>> origin/develop
+use Illuminate\Foundation\Configuration\Exceptions;
+use Symfony\Component\HttpKernel\Exception\HttpException;
+
+class ExceptionHandler 
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Symfony\Component\HttpKernel\Exception\HttpException;
+
+class ExceptionHandler
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 {
     /**
      * Configura la gestione delle eccezioni.
@@ -68,18 +112,29 @@ class ExceptionHandler
      */
     public static function handles(Exceptions $exceptions): void
     {
+<<<<<<< HEAD
         $exceptions->render(function (HttpException $e, Request $request) {
             $status_code = $e->getStatusCode();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         $exceptions->render(function (HttpException $e,Request $request) {
             $status_code=$e->getStatusCode();
 =======
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $exceptions->render(function (HttpException $e, Request $request) {
+            $status_code = $e->getStatusCode();
+>>>>>>> ce6fc085 (.)
+=======
         
         $exceptions->render(function (HttpException $e,Request $request) {
             $status_code=$e->getStatusCode();
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -91,11 +146,30 @@ class ExceptionHandler
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        $exceptions->render(function (HttpException $e, Request $request) {
+            $status_code = $e->getStatusCode();
+>>>>>>> b93ef594b4 (.)
+=======
+        
+        $exceptions->render(function (HttpException $e,Request $request) {
+            $status_code=$e->getStatusCode();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             if ($request->wantsJson()) {
                 return response()->json([
                     'message' => $e->getMessage(),
                 ], $status_code);
             }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
             $view = 'pub_theme::errors.'.$status_code;
             if (! view()->exists($view)) {
@@ -137,6 +211,7 @@ class ExceptionHandler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 88ea7103 (.)
@@ -153,6 +228,8 @@ class ExceptionHandler
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -172,6 +249,7 @@ class ExceptionHandler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
@@ -191,7 +269,12 @@ class ExceptionHandler
 =======
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             
 
             $view='pub_theme::errors.'.$status_code;
@@ -205,13 +288,19 @@ class ExceptionHandler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
                 throw new \Exception('view not found: ['.$view.'] view path:'.app(GetViewPathAction::class)->execute($view));    
                 
             }
@@ -220,6 +309,7 @@ class ExceptionHandler
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,7 +391,12 @@ class ExceptionHandler
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             return response()->view($view, $view_params, $status_code);
         });
     }

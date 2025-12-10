@@ -3,12 +3,19 @@
 ## Collegamenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione generale progetto](/docs/README.md)
 >>>>>>> 85cdef688 (.)
 =======
 - [Documentazione generale progetto](/docs/README.md)
 >>>>>>> 6ca989d8 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+=======
+- [Documentazione generale progetto](/project_docs/README.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 - [Regole Filament](filament-best-practices.md)
 - [Convenzioni Namespace](namespace-conventions.md)
 - [Standard di Codice](code-standards.md)
@@ -258,12 +265,19 @@ protected function casts(): array
 - **docs/ (root)**: Solo informazioni generali del progetto + collegamenti ai moduli
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
 >>>>>>> 85cdef688 (.)
 =======
 - **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
 >>>>>>> 6ca989d8 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+=======
+- **Modules/{Module}/project_docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 - **Collegamenti bidirezionali**: Root ↔ Moduli per navigazione fluida
 
 ### Naming Convention Docs
@@ -281,12 +295,19 @@ docs/                           # Generale + collegamenti
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Modules/{Module}/docs/          # Specifica modulo
 >>>>>>> 85cdef688 (.)
 =======
 Modules/{Module}/docs/          # Specifica modulo
 >>>>>>> 6ca989d8 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+=======
+Modules/{Module}/project_docs/          # Specifica modulo
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 ├── index.md                    # Indice del modulo
 ├── feature-name.md            # Documentazione feature specifica
 ├── api/                       # Documentazione API
@@ -360,12 +381,19 @@ Progettare sempre pensando che il codice dovrà superare:
 - `.windsurf/rules/`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - `Modules/Xot/docs/`
 >>>>>>> 85cdef688 (.)
 =======
 - `Modules/Xot/docs/`
 >>>>>>> 6ca989d8 (.)
+=======
+- `Modules/Xot/docs/`
+=======
+- `Modules/Xot/project_docs/`
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 - Memoria personale
 - Collegamenti bidirezionali
 

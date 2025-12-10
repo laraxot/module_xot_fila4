@@ -4,6 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Array;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use InvalidArgumentException;
+=======
+<<<<<<< HEAD
+use InvalidArgumentException;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
@@ -17,7 +28,9 @@ class SaveArrayAction
         return match ($format) {
             'json' => app(SaveJsonArrayAction::class)->execute($data, $filename),
             'php' => app(SavePhpArrayAction::class)->execute($data, $filename),
+<<<<<<< HEAD
             default => throw new InvalidArgumentException("Formato non supportato: {$format}"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             default => throw new \InvalidArgumentException("Formato non supportato: {$format}")
@@ -34,6 +47,23 @@ class SaveArrayAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            default => throw new InvalidArgumentException("Formato non supportato: {$format}"),
+=======
+            default => throw new InvalidArgumentException("Formato non supportato: {$format}")
+>>>>>>> a12f125f4a (.)
+=======
+            default => throw new InvalidArgumentException("Formato non supportato: {$format}"),
+>>>>>>> b93ef594b4 (.)
+=======
+            default => throw new \InvalidArgumentException("Formato non supportato: {$format}")
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         };
     }
 }

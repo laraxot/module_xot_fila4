@@ -4,6 +4,68 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\ModelClass;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce6fc085 (.)
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+<<<<<<< HEAD
+use InvalidArgumentException;
+use RuntimeException;
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use InvalidArgumentException;
+use RuntimeException;
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+use InvalidArgumentException;
+use RuntimeException;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+use InvalidArgumentException;
+use RuntimeException;
+<<<<<<< HEAD
 use InvalidArgumentException;
 use RuntimeException;
 use InvalidArgumentException;
@@ -24,30 +86,11 @@ use InvalidArgumentException;
 use RuntimeException;
 use InvalidArgumentException;
 use RuntimeException;
-use InvalidArgumentException;
-use RuntimeException;
-use InvalidArgumentException;
-use RuntimeException;
-use InvalidArgumentException;
-use RuntimeException;
-use InvalidArgumentException;
-use RuntimeException;
-use InvalidArgumentException;
-use RuntimeException;
-use InvalidArgumentException;
-use RuntimeException;
-use InvalidArgumentException;
-use RuntimeException;
-use InvalidArgumentException;
-use RuntimeException;
-use InvalidArgumentException;
-use RuntimeException;
-use InvalidArgumentException;
-use RuntimeException;
-use InvalidArgumentException;
-use RuntimeException;
-use InvalidArgumentException;
-use RuntimeException;
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -78,10 +121,21 @@ class FakeSeederAction
      * @param class-string<Model> $modelClass The fully qualified model class name
      * @param int<1, max>         $qty        Number of records to generate
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
      * @throws InvalidArgumentException When model class is invalid
      */
     public function execute(string $modelClass, int $qty): void
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
         if (
             !class_exists($modelClass) ||
                 !is_subclass_of($modelClass, Model::class) ||
@@ -99,13 +153,31 @@ class FakeSeederAction
                 !is_subclass_of($modelClass, Model::class) ||
                 !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
         ) {
+<<<<<<< HEAD
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class) || ! in_array(HasFactory::class, class_uses_recursive($modelClass))) {
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+            throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
+=======
+>>>>>>> ce6fc085 (.)
      * @throws \InvalidArgumentException When model class is invalid
      */
     public function execute(string $modelClass, int $qty): void
     {
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class) || ! in_array(HasFactory::class, class_uses_recursive($modelClass))) {
             throw new \InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         }
 
         $qtyToDo = min($qty, self::MAX_RECORDS);
@@ -143,6 +215,18 @@ class FakeSeederAction
      * @param class-string<Model> $modelClass
      * @param class-string<Model> $modelClass
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+     * @throws RuntimeException
+=======
+<<<<<<< HEAD
+     * @throws RuntimeException
+=======
+     * @throws \RuntimeException
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
      */
     private function getModelFactory(string $modelClass): Factory
     {
@@ -150,6 +234,18 @@ class FakeSeederAction
             return $modelClass::factory();
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        throw new RuntimeException("Unable to create factory for model: {$modelClass}");
+=======
+<<<<<<< HEAD
+        throw new RuntimeException("Unable to create factory for model: {$modelClass}");
+=======
+        throw new \RuntimeException("Unable to create factory for model: {$modelClass}");
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     }
 
     /**
@@ -169,10 +265,19 @@ class FakeSeederAction
     private function sendNotification(string $modelClass, int $count): void
     {
         $title = sprintf('Created %d %s !', $count, $modelClass);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
         Notification::make()
             ->title($title)
             ->success()
             ->send();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,6 +296,19 @@ class FakeSeederAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+        Notification::make()->title($title)->success()->send();
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        Notification::make()->title($title)->success()->send();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     }
 
     /**
@@ -212,17 +330,27 @@ class FakeSeederAction
         if ($qty <= self::MAX_RECORDS) {
             return;
         }
+<<<<<<< HEAD
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         app(self::class)
             ->onQueue()
             ->execute($modelClass, $qty - self::MAX_RECORDS);
 =======
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
+>>>>>>> ce6fc085 (.)
+=======
         app(self::class)
             ->onQueue()
             ->execute($modelClass, $qty - self::MAX_RECORDS);
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -233,11 +361,29 @@ class FakeSeederAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
+>>>>>>> b93ef594b4 (.)
+=======
+        app(self::class)
+            ->onQueue()
+            ->execute($modelClass, $qty - self::MAX_RECORDS);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     }
 
     private function getTableName(string $modelClass): string
     {
         Assert::classExists($modelClass, 'La classe del modello deve esistere');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
         /** @var Model */
         $model = app($modelClass);
@@ -245,14 +391,31 @@ class FakeSeederAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+        
+        /** @var Model */
+        $model = app($modelClass);
+        
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
 
         /** @var Model */
         $model = app($modelClass);
 
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> ce6fc085 (.)
         
         /** @var \Illuminate\Database\Eloquent\Model */
         $model = app($modelClass);
         
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 218dfed3 (.)
@@ -270,6 +433,10 @@ class FakeSeederAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         return $model->getTable();
     }
 }

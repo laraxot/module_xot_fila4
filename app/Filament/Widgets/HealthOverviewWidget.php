@@ -4,10 +4,53 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+<<<<<<< HEAD
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
+use Spatie\Health\Enums\Status;
+=======
+<<<<<<< HEAD
+use Spatie\Health\Enums\Status;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
@@ -51,10 +94,23 @@ class HealthOverviewWidget extends BaseWidget
     public function iconColor(string $status): string
     {
         return match ($status) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
             Status::ok()->value => 'success',
             Status::warning()->value => 'warning',
             Status::skipped()->value => 'warning',
             Status::failed()->value, Status::crashed()->value => 'danger',
+<<<<<<< HEAD
+=======
+=======
+            \Spatie\Health\Enums\Status::ok()->value => 'success',
+            \Spatie\Health\Enums\Status::warning()->value => 'warning',
+            \Spatie\Health\Enums\Status::skipped()->value => 'warning',
+            \Spatie\Health\Enums\Status::failed()->value, \Spatie\Health\Enums\Status::crashed()->value => 'danger',
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
             default => 'secondary',
         };
     }
@@ -107,6 +163,7 @@ class HealthOverviewWidget extends BaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -133,8 +190,45 @@ class HealthOverviewWidget extends BaseWidget
 >>>>>>> a67e542f (.)
                 ->description($result->notificationMessage.' '.$result->status)
 =======
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 5a14301c (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 3fbbf1f5 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 399f46d3 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 17684f52 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 399f46d3 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> a12f125f4a (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> b93ef594b4 (.)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> ce6fc085 (.)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,12 +400,25 @@ class HealthOverviewWidget extends BaseWidget
 =======
                 ->description($result->notificationMessage . ' ' . $result->status)
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }
 
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
          * return [
          * Stat::make('Unique views', '192.1k'),
          * Stat::make('Bounce rate', '21%'),
@@ -320,15 +427,24 @@ class HealthOverviewWidget extends BaseWidget
          */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
         return [
             Stat::make('Unique views', '192.1k'),
             Stat::make('Bounce rate', '21%'),
             Stat::make('Average time on page', '3:12'),
         ];
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -340,6 +456,14 @@ class HealthOverviewWidget extends BaseWidget
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         return $stats;
     }
 }

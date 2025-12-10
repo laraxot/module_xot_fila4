@@ -30,11 +30,14 @@ namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Filament\Actions\BulkAction;
@@ -66,12 +69,15 @@ use Override;
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,22 +138,56 @@ use Override;
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Filament\Actions\BulkAction;
 use Filament\Tables\Filters\BaseFilter;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Override;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 use Filament\Actions\ViewAction;
 use Filament\Actions\EditAction;
 use Filament\Actions\DeleteAction;
 use Filament\Actions\DeleteBulkAction;
+<<<<<<< HEAD
 use Filament\Tables;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Filament\Tables\Filters\BaseFilter;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+use Filament\Tables;
+=======
+use Filament\Tables;
+use Filament\Tables\Actions\DeleteAction;
+use Filament\Tables\Actions\DeleteBulkAction;
+use Filament\Tables\Actions\EditAction;
+use Filament\Tables\Actions\ViewAction;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Nwidart\Modules\Facades\Module;
 
@@ -189,13 +229,38 @@ use Nwidart\Modules\Facades\Module;
 
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Nwidart\Modules\Facades\Module;
+
+=======
+use Nwidart\Modules\Facades\Module;
+
+=======
+>>>>>>> b93ef594b4 (.)
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Nwidart\Modules\Facades\Module;
+
+>>>>>>> a12f125f4a (.)
+=======
+use Nwidart\Modules\Facades\Module;
+
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 class ListModules extends XotBaseListRecords
 {
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
     protected static string $resource = ModuleResource::class;
 
+<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
@@ -213,6 +278,21 @@ class ListModules extends XotBaseListRecords
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -223,6 +303,12 @@ class ListModules extends XotBaseListRecords
     /**
      * @return array<string, Tables\Columns\Column>
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -232,9 +318,16 @@ class ListModules extends XotBaseListRecords
             'enabled' => TextColumn::make('enabled')->sortable(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
     public function getTableColumns(): array
     {
         return [
@@ -247,6 +340,11 @@ class ListModules extends XotBaseListRecords
             'enabled' => TextColumn::make('enabled')
                 ->sortable(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -254,6 +352,7 @@ class ListModules extends XotBaseListRecords
             'name' => TextColumn::make('name')->searchable()->sortable(),
             'path' => TextColumn::make('path')->searchable()->sortable(),
             'enabled' => TextColumn::make('enabled')->sortable(),
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -264,15 +363,23 @@ class ListModules extends XotBaseListRecords
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         ];
     }
 
     /**
      * Undocumented function.
      *
+<<<<<<< HEAD
      * @return array<BaseFilter>
      */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<BaseFilter>
@@ -296,6 +403,25 @@ class ListModules extends XotBaseListRecords
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+     * @return array<BaseFilter>
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+     * @return array<Tables\Filters\BaseFilter>
+     */
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     public function getTableFilters(): array
     {
         return [
@@ -312,8 +438,10 @@ class ListModules extends XotBaseListRecords
     /**
      * Undocumented function.
      *
+<<<<<<< HEAD
      * @return array<Action|ActionGroup>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,6 +476,15 @@ class ListModules extends XotBaseListRecords
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+     * @return array<Action|ActionGroup>
+     */
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     #[Override]
     public function getTableActions(): array
     {
@@ -355,13 +492,46 @@ class ListModules extends XotBaseListRecords
             ViewAction::make(),
             EditAction::make(),
             DeleteAction::make()->requiresConfirmation(),
+<<<<<<< HEAD
+=======
+=======
+=======
+     * @return array<Tables\Actions\Action|Tables\Actions\ActionGroup>
+     */
+>>>>>>> origin/develop
+    public function getTableActions(): array
+    {
+        return [
+            ViewAction::make()
+                ,
+            EditAction::make()
+                ,
+            DeleteAction::make()
+
+                ->requiresConfirmation(),
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+    public function getTableActions(): array
+    {
+        return [
+            ViewAction::make(),
+            EditAction::make(),
+            DeleteAction::make()->requiresConfirmation(),
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         ];
     }
 
     /**
+<<<<<<< HEAD
      * @return array<string, BulkAction>
      */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, BulkAction>
@@ -384,13 +554,35 @@ class ListModules extends XotBaseListRecords
 >>>>>>> 2f3197ab (.)
 =======
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, BulkAction>
      */
     #[Override]
+=======
+     * @return array<string, \Filament\Actions\BulkAction>
+     */
+>>>>>>> a12f125f4a (.)
+>>>>>>> ce6fc085 (.)
+=======
+     * @return array<string, BulkAction>
+     */
+    #[Override]
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+     * @return array<string, Tables\Actions\BulkAction>
+     */
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     public function getTableBulkActions(): array
     {
         return [

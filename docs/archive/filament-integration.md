@@ -187,6 +187,7 @@ class AddressPage extends XotBasePage
 - [Documentazione JSON Database](json-database.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Best Practices Filament](../../../docs/filament-best-practices.md)
 - [Clean Code](../../../docs/clean-code.md) 
@@ -195,3 +196,11 @@ class AddressPage extends XotBasePage
 - [Best Practices Filament](../../../docs/filament-best-practices.md)
 - [Clean Code](../../../docs/clean-code.md) 
 >>>>>>> 6ca989d8 (.)
+=======
+- [Best Practices Filament](../../../docs/filament-best-practices.md)
+- [Clean Code](../../../docs/clean-code.md) 
+=======
+- [Best Practices Filament](../../../project_docs/filament-best-practices.md)
+- [Clean Code](../../../project_docs/clean-code.md) 
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)

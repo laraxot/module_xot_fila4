@@ -50,6 +50,7 @@
 ## Collegamenti tra versioni di status.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [status.md](../../../Xot/docs/roadmap/docs/status.md)
 * [status.md](../../../Xot/docs/roadmap/testing/status.md)
@@ -60,4 +61,14 @@
 * [status.md](../../../Xot/docs/roadmap/testing/status.md)
 * [status.md](../../../Xot/docs/roadmap/security/status.md)
 >>>>>>> 6ca989d8 (.)
+=======
+* [status.md](../../../Xot/docs/roadmap/docs/status.md)
+* [status.md](../../../Xot/docs/roadmap/testing/status.md)
+* [status.md](../../../Xot/docs/roadmap/security/status.md)
+=======
+* [status.md](../../../Xot/project_docs/roadmap/project_docs/status.md)
+* [status.md](../../../Xot/project_docs/roadmap/testing/status.md)
+* [status.md](../../../Xot/project_docs/roadmap/security/status.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 

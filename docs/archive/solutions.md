@@ -251,6 +251,7 @@ class CacheTest extends TestCase {
 ## Collegamenti tra versioni di solutions.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [solutions.md](../../../Gdpr/docs/solutions.md)
 * [solutions.md](../../../Xot/docs/solutions.md)
@@ -261,6 +262,16 @@ class CacheTest extends TestCase {
 * [solutions.md](../../../Xot/docs/solutions.md)
 * [solutions.md](../../../Job/docs/solutions.md)
 >>>>>>> 6ca989d8 (.)
+=======
+* [solutions.md](../../../Gdpr/docs/solutions.md)
+* [solutions.md](../../../Xot/docs/solutions.md)
+* [solutions.md](../../../Job/docs/solutions.md)
+=======
+* [solutions.md](../../../Gdpr/project_docs/solutions.md)
+* [solutions.md](../../../Xot/project_docs/solutions.md)
+* [solutions.md](../../../Job/project_docs/solutions.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 
 ### Versione Incoming

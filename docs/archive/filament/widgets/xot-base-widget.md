@@ -173,9 +173,16 @@ Questo trait permette al widget di aggiornarsi automaticamente a intervalli rego
 - [MODULE_STRUCTURE.md](../../MODULE_STRUCTURE.md) - Struttura standard dei moduli
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
 >>>>>>> 85cdef688 (.)
 =======
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
 >>>>>>> 6ca989d8 (.)
+=======
+- [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
+=======
+- [Documentazione Filament](https://filamentphp.com/project_docs/3.x/widgets/installation) 
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)

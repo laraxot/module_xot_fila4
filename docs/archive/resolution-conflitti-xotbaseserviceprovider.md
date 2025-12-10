@@ -158,6 +158,10 @@ Per maggiori dettagli sui vantaggi di questo approccio, consultare la documentaz
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 *Collegamento bidirezionale: vedi anche `/docs/providers/service_provider_best_practices.md`* 
 >>>>>>> 85cdef688 (.)
+=======
+*Collegamento bidirezionale: vedi anche `/project_docs/providers/service_provider_best_practices.md`* 
+>>>>>>> ce6fc085 (.)

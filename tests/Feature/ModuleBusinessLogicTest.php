@@ -4,35 +4,59 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Feature;
 
+<<<<<<< HEAD
 use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+use Illuminate\Database\QueryException;
+>>>>>>> ce6fc085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 =======
+>>>>>>> ce6fc085 (.)
+=======
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> ce6fc085 (.)
+=======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -129,6 +153,18 @@ class ModuleBusinessLogicTest extends TestCase
         Module::factory()->create(['slug' => 'unique-module']);
 
         // Act & Assert - Try to create module with same slug
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        $this->expectException(QueryException::class);
+=======
+<<<<<<< HEAD
+        $this->expectException(QueryException::class);
+=======
+        $this->expectException(\Illuminate\Database\QueryException::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
         Module::create([
             'name' => 'Another Module',
@@ -402,6 +438,18 @@ class ModuleBusinessLogicTest extends TestCase
             unset($moduleData[$field]);
 
             // Act & Assert
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            $this->expectException(QueryException::class);
+=======
+<<<<<<< HEAD
+            $this->expectException(QueryException::class);
+=======
+            $this->expectException(\Illuminate\Database\QueryException::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
             Module::create($moduleData);
         }
@@ -492,6 +540,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -508,3 +557,18 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)

@@ -4,9 +4,13 @@
 
 ## Contesto
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 85cdef688 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> ce6fc085 (.)
 
 ## File Corretti
 
@@ -203,7 +207,11 @@ php artisan lang:check
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Stato**: ✅ Completato
 =======
 **Stato**: ✅ Completato
 >>>>>>> 85cdef688 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> ce6fc085 (.)

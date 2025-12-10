@@ -4,6 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\File;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 use Illuminate\Support\Facades\File;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -39,11 +50,14 @@ class CopyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
         if (! File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
@@ -65,10 +79,13 @@ class CopyAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,7 +146,12 @@ class CopyAction
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         if (!File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
@@ -142,19 +164,41 @@ class CopyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
             } catch (Exception $e) {
+=======
+=======
+=======
+        if (! File::exists(\dirname($to))) {
+=======
+        if (!File::exists(\dirname($to))) {
+>>>>>>> b93ef594b4 (.)
+            try {
+                File::makeDirectory(\dirname($to), 0o755, true, true);
+            } catch (Exception $e) {
+<<<<<<< HEAD
+                dd('Caught exception: ', $e->getMessage(), '\n['.__LINE__.']['.class_basename(static::class).']');
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
                 dd(
                     'Caught exception: ',
                     $e->getMessage(),
                     '\n[' . __LINE__ . '][' . class_basename(static::class) . ']',
                 );
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> ce6fc085 (.)
         if (! File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0755, true, true);
             } catch (\Exception $e) {
                 dd('Caught exception: ', $e->getMessage(), '\n['.__LINE__.']['.class_basename(static::class).']');
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 218dfed3 (.)
@@ -173,6 +217,10 @@ class CopyAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             }
         }
 
@@ -188,6 +236,7 @@ class CopyAction
         try {
             File::copy($from, $to);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         } catch (Exception $exception) {
 <<<<<<< HEAD
@@ -201,6 +250,17 @@ class CopyAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+        } catch (Exception $exception) {
+=======
+<<<<<<< HEAD
+        } catch (Exception $exception) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
             throw new Exception(
                 'Unable to copy
                     from ['.
@@ -226,6 +286,7 @@ class CopyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (\Exception $exception) {
             throw new \Exception('Unable to copy
                     from ['.$from.']
@@ -235,10 +296,15 @@ class CopyAction
 =======
 >>>>>>> 218dfed3 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
             throw new Exception('Unable to copy
                     from ['.$from.']
                     to ['.$to.']
                     message ['.$exception->getMessage().']', $exception->getCode(), $exception);
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -248,6 +314,19 @@ class CopyAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        } catch (\Exception $exception) {
+            throw new \Exception('Unable to copy
+                    from ['.$from.']
+                    to ['.$to.']
+                    message ['.$exception->getMessage().']', $exception->getCode(), $exception);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         }
     }
 }

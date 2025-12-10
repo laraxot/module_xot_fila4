@@ -4,6 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Support\Arr;
@@ -37,6 +48,18 @@ class MorphToManyAction
      * @param Model       $row         The model instance to update
      * @param RelationDTO $relationDTO Data transfer object containing relation information
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+     * @throws Exception When data is not in correct format or relation is invalid
+=======
+<<<<<<< HEAD
+     * @throws Exception When data is not in correct format or relation is invalid
+=======
+     * @throws \Exception When data is not in correct format or relation is invalid
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
      */
     public function execute(Model $row, RelationDTO $relationDTO): void
     {
@@ -83,6 +106,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -97,8 +121,45 @@ class MorphToManyAction
             if (! isset($data['to'])) {
             if (! isset($data['to'])) {
 =======
+=======
+            if (! isset($data['to'])) {
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+            if (!isset($data['to'])) {
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 17684f52 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> a12f125f4a (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> b93ef594b4 (.)
+=======
+            if (! isset($data['to'])) {
+>>>>>>> ce6fc085 (.)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,7 +265,12 @@ class MorphToManyAction
 =======
             if (!isset($data['to'])) {
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
                 $data['to'] = [];
             }
             $data = $data['to'];
@@ -236,6 +302,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \is_array($data)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
@@ -252,10 +319,13 @@ class MorphToManyAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,7 +386,12 @@ class MorphToManyAction
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         if (!\is_array($data)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         }
@@ -324,6 +399,7 @@ class MorphToManyAction
         if (!Arr::isAssoc($data)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -381,7 +457,13 @@ class MorphToManyAction
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ce6fc085 (.)
         if (! \is_array($data)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
@@ -396,12 +478,15 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 2f3197ab (.)
@@ -432,6 +517,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -497,7 +583,12 @@ class MorphToManyAction
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             $relation->sync($data);
 
             return;
@@ -542,6 +633,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -556,8 +648,45 @@ class MorphToManyAction
                 if (! isset($v['pivot'])) {
                 if (! isset($v['pivot'])) {
 =======
+=======
+                if (! isset($v['pivot'])) {
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 5a14301c (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+                if (!isset($v['pivot'])) {
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 399f46d3 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 17684f52 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 399f46d3 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                if (!isset($v['pivot'])) {
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> a12f125f4a (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> b93ef594b4 (.)
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> ce6fc085 (.)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -663,7 +792,12 @@ class MorphToManyAction
 =======
                 if (!isset($v['pivot'])) {
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
                     $v['pivot'] = [];
                 }
 

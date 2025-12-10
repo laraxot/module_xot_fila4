@@ -39,6 +39,27 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+<<<<<<< HEAD
+=======
+>>>>>>> ce6fc085 (.)
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
@@ -67,6 +88,7 @@ function mockXotData(): void
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
+<<<<<<< HEAD
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
@@ -92,6 +114,12 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+>>>>>>> 43d67f21 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -265,6 +293,26 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Status**: ✅ Best Practices Validate  
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+**Last Update**: Dicembre 2024 
+**Last Update**: Dicembre 2024 
+**Last Update**: Dicembre 2024 
+**Last Update**: Dicembre 2024 
+**Last Update**: Dicembre 2024 
+**Last Update**: Dicembre 2024 
+**Last Update**: Dicembre 2024 
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
@@ -277,11 +325,9 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
+=======
+>>>>>>> 399f46d3 (.)
+=======
 **Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
-**Last Update**: Dicembre 2024 
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

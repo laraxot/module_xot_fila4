@@ -62,6 +62,7 @@ class YourModel extends Model
 ## Collegamenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices](BEST-PRACTICES.md) 
 =======
 - [Laravel Relationships](https://laravel.com/docs/relationships)
@@ -73,3 +74,12 @@ class YourModel extends Model
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 - [Best Practices](BEST-PRACTICES.md) 
 >>>>>>> 6ca989d8 (.)
+=======
+- [Laravel Relationships](https://laravel.com/docs/relationships)
+- [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+=======
+- [Laravel Relationships](https://laravel.com/project_docs/relationships)
+- [Spatie Laravel Data](https://spatie.be/project_docs/laravel-data)
+>>>>>>> 6cba4fe (.)
+- [Best Practices](BEST-PRACTICES.md) 
+>>>>>>> ce6fc085 (.)

@@ -36,6 +36,14 @@ return new class extends XotBaseMigration {
     public function up(): void
     {
         // -- CREATE --
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
         $this->tableCreate(static function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -50,6 +58,10 @@ return new class extends XotBaseMigration {
             $table->schemalessAttributes('extra_attributes');
             $table->unique(['model_id', 'model_type'], 'morph_unique');
         });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
@@ -87,9 +99,16 @@ return new class extends XotBaseMigration {
     // end up
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
         $this->tableCreate(
             static function (Blueprint $table): void {
                 $table->increments('id');
@@ -98,9 +117,17 @@ return new class extends XotBaseMigration {
                 $table->unique(['model_id', 'model_type'], 'morph_unique');
             }
         );
+<<<<<<< HEAD
 
         // -- UPDATE --
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+
+        // -- UPDATE --
+>>>>>>> ce6fc085 (.)
         $this->tableUpdate(function (Blueprint $table): void {
             // if (! $this->hasColumn('name')) {
             //    $table->string('name')->nullable();
@@ -120,11 +147,22 @@ return new class extends XotBaseMigration {
     }
 
     // end up
+<<<<<<< HEAD
 
 
         // -- UPDATE --
 =======
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+        // -- UPDATE --
+>>>>>>> ce6fc085 (.)
         $this->tableUpdate(
             function (Blueprint $table): void {
                 // if (! $this->hasColumn('name')) {
@@ -145,6 +183,7 @@ return new class extends XotBaseMigration {
     // end up
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -155,5 +194,9 @@ return new class extends XotBaseMigration {
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     // end down
 };

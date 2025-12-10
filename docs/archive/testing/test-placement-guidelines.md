@@ -63,12 +63,19 @@ Dopo aver aggiunto o spostato test:
 3. Collegare la view con breadcrumb:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - `docs/testing.md` → `Modules/Xot/docs/testing/test-placement-guidelines.md`
 >>>>>>> 85cdef688 (.)
 =======
    - `docs/testing.md` → `Modules/Xot/docs/testing/test-placement-guidelines.md`
 >>>>>>> 6ca989d8 (.)
+=======
+   - `docs/testing.md` → `Modules/Xot/docs/testing/test-placement-guidelines.md`
+=======
+   - `docs/testing.md` → `Modules/Xot/project_docs/testing/test-placement-guidelines.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
    - Questo file → `docs/testing.md`
 
 ## 5. Checklist PR

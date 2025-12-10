@@ -19,6 +19,37 @@
 - Test che verifica la presenza di tutte le chiavi di traduzione.
 
 ## Collegamenti
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [docs root](../../../../docs/actions.md)
+- [docs Lang](../../Lang/docs/filament-label.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Ultimo aggiornamento: maggio 2025.
+=======
+=======
+Ultimo aggiornamento: maggio 2025.
+=======
+=======
+Ultimo aggiornamento: maggio 2025.
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ce6fc085 (.)
 - [docs root](../../../../project_docs/actions.md)
 - [docs Lang](../../Lang/project_docs/filament-label.md)
 
@@ -67,6 +98,7 @@ Ultimo aggiornamento: maggio 2025.
 - [docs Lang](../../Lang/project_docs/filament-label.md)
 
 Ultimo aggiornamento: maggio 2025.
+<<<<<<< HEAD
 - [docs root](../../../../docs/actions.md)
 - [docs Lang](../../Lang/docs/filament-label.md)
 
@@ -180,7 +212,15 @@ Ultimo aggiornamento: maggio 2025.
 - [docs Lang](../../Lang/docs/filament-label.md)
 
 Ultimo aggiornamento: maggio 2025.
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> ce6fc085 (.)
 - [docs root](../../../../project_docs/actions.md)
 - [docs Lang](../../Lang/project_docs/filament-label.md)
 
 Ultimo aggiornamento: maggio 2025.
+<<<<<<< HEAD
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

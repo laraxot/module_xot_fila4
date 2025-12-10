@@ -4,6 +4,54 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
@@ -20,6 +68,18 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder|PulseAggregate newModelQuery()
  * @method static Builder|PulseAggregate newQuery()
  * @method static Builder|PulseAggregate query()
+<<<<<<< HEAD
+=======
+=======
+/**
+ * @property \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @method static \Modules\Xot\Database\Factories\PulseAggregateFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|PulseAggregate  newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|PulseAggregate  newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|PulseAggregate  query()
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
  * @property int         $id
  * @property int         $bucket
  * @property int         $period
@@ -64,6 +124,10 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseAggregate whereValue($value)
  *
  * @property int|null    $count
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
  * @method static Builder|PulseAggregate whereAggregate($value)
  * @method static Builder|PulseAggregate whereBucket($value)
  * @method static Builder|PulseAggregate whereCount($value)
@@ -73,6 +137,20 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder|PulseAggregate wherePeriod($value)
  * @method static Builder|PulseAggregate whereType($value)
  * @method static Builder|PulseAggregate whereValue($value)
+<<<<<<< HEAD
+=======
+=======
+ * @method static \Illuminate\Database\Eloquent\Builder|PulseAggregate whereAggregate($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PulseAggregate whereBucket($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PulseAggregate whereCount($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PulseAggregate whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PulseAggregate whereKey($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PulseAggregate whereKeyHash($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PulseAggregate wherePeriod($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PulseAggregate whereType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PulseAggregate whereValue($value)
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
  * @mixin IdeHelperPulseAggregate
  * @mixin IdeHelperPulseAggregate
  * @mixin IdeHelperPulseAggregate

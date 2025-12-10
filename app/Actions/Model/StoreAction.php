@@ -4,6 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Session;
@@ -53,6 +64,7 @@ class StoreAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 17684f52 (.)
@@ -66,10 +78,13 @@ class StoreAction
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,10 +96,13 @@ class StoreAction
 =======
 >>>>>>> 399f46d3 (.)
 <<<<<<< HEAD
+=======
+>>>>>>> 17684f52 (.)
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 17684f52 (.)
 =======
@@ -93,7 +111,12 @@ class StoreAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     /**
      * @param  array<string, mixed>  $data
      * @param  array<string, mixed>  $rules
@@ -103,6 +126,7 @@ class StoreAction
         if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,12 +151,64 @@ class StoreAction
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+<<<<<<< HEAD
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 17684f52 (.)
+=======
+    public function execute(Model $model, array $data, array $rules): Model
+    {
+        if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> b93ef594b4 (.)
+=======
+    public function execute(Model $model, array $data, array $rules): Model
+    {
+        if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
@@ -261,12 +337,25 @@ class StoreAction
     {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             $data['lang'] = app()->getLocale();
         }
         $data['updated_by'] = authId();
         $data['created_by'] = authId();
         /*if (
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
          * ! isset($data['user_id'])
          * && \in_array('user_id',  $row->getFillable(), false)
          * && 'user_id' !== $row->getKeyName()
@@ -275,15 +364,24 @@ class StoreAction
          * }*/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
             ! isset($data['user_id'])
             && \in_array('user_id',  $row->getFillable(), false)
             && 'user_id' !== $row->getKeyName()
         ) {
             $data['user_id'] = \Auth::id();
         }*/
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -295,6 +393,14 @@ class StoreAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
         $validator = Validator::make($data, $rules);
         $validator->validate();
@@ -319,12 +425,14 @@ class StoreAction
             $relationshipType = class_basename($relationClass);
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
+<<<<<<< HEAD
 
 <<<<<<< HEAD
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -355,11 +463,14 @@ class StoreAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
@@ -403,7 +514,12 @@ class StoreAction
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             $action_class = __NAMESPACE__ . '\\Store\\' . $relationshipType . 'Action';
             $action = app($action_class);
             Assert::object($action);
@@ -411,6 +527,7 @@ class StoreAction
                 throw new Exception('method [execute] not found in [' . $action_class . ']');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -469,11 +586,69 @@ class StoreAction
             Assert::object($action);
             if (!method_exists($action, 'execute')) {
                 throw new Exception('method [execute] not found in [' . $action_class . ']');
+<<<<<<< HEAD
             
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+=======
+            
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             $action_class = __NAMESPACE__.'\\Store\\'.$relationshipType.'Action';
             $action = app($action_class);
             Assert::object($action);
             if (! method_exists($action, 'execute')) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
                 throw new Exception('method [execute] not found in ['.$action_class.']');
             $action_class = __NAMESPACE__ . '\\Store\\' . $relationshipType . 'Action';
             $action = app($action_class);
@@ -481,6 +656,21 @@ class StoreAction
             if (!method_exists($action, 'execute')) {
                 throw new Exception('method [execute] not found in [' . $action_class . ']');
                 throw new \Exception('method [execute] not found in ['.$action_class.']');
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ce6fc085 (.)
                 throw new Exception('method [execute] not found in ['.$action_class.']');
 <<<<<<< HEAD
                 throw new Exception('method [execute] not found in ['.$action_class.']');
@@ -545,7 +735,12 @@ class StoreAction
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             }
             $action->execute($model, $relation);
         }

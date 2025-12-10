@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Services;
 
+<<<<<<< HEAD
 use Exception;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15,10 +17,17 @@ use function count;
 =======
 =======
 >>>>>>> 218dfed3 (.)
+=======
+=======
+<<<<<<< HEAD
+use Exception;
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 <<<<<<< HEAD
 =======
 use function count;
 
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -28,6 +37,16 @@ use function count;
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use function count;
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
@@ -58,6 +77,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2f3197ab (.)
 use function count;
@@ -103,10 +123,34 @@ use function count;
 use function count;
 
 <<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use function count;
+
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+<<<<<<< HEAD
 use function count;
 
 use function count;
 
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
 use function count;
 
 use function count;
@@ -363,7 +407,12 @@ use function count;
 use function count;
 
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 /**
  * Class RouteService.
  * Modules\Xot\Services\RouteService.
@@ -413,6 +462,12 @@ class RouteService
 
         // Verifichiamo un caso speciale per le richieste Livewire
         $segments = Request::segments();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
         // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
         return (is_countable($segments) ? \count($segments) : 0) > 0 &&
@@ -442,6 +497,30 @@ class RouteService
             'livewire' === $segments[0] &&
             session('in_admin', false) === true
         );
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        
+        // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
+        return (is_countable($segments) ? \count($segments) : 0) > 0 && 
+               'livewire' === $segments[0] && 
+               session('in_admin', false) === true;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+        // Se abbiamo almeno un segmento, è 'livewire' e la sessione 'in_admin' è true
+        return (
+            (is_countable($segments) ? \count($segments) : 0) > 0 &&
+            'livewire' === $segments[0] &&
+            session('in_admin', false) === true
+        );
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     }
 
     /**
@@ -454,6 +533,14 @@ class RouteService
         $row = (object) [];
         extract($params);
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
          * $mutator = $act.'_url';
          * try {
          * $route = $row->$mutator;
@@ -463,9 +550,17 @@ class RouteService
          */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
         $mutator = $act.'_url';
         try {
             $route = $row->$mutator;
@@ -473,6 +568,7 @@ class RouteService
             $route = '#';
         }
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -484,6 +580,14 @@ class RouteService
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         $route_action = (string) Route::currentRouteAction();
         Str::snake(Str::after($route_action, '@'));
         // Cannot call method getName() on mixed.
@@ -515,6 +619,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \is_string($old_act_route)) {
             throw new Exception('['.__LINE__.']['.class_basename(self::class).']');
         }
@@ -531,10 +636,13 @@ class RouteService
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -595,7 +703,12 @@ class RouteService
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         if (!\is_string($old_act_route)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename(self::class) . ']');
         }
@@ -603,6 +716,7 @@ class RouteService
         $routename_act = Str::before($routename, $old_act_route) . '' . $act;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -660,7 +774,13 @@ class RouteService
 =======
 >>>>>>> 88ea7103 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ce6fc085 (.)
         if (! \is_string($old_act_route)) {
             throw new Exception('['.__LINE__.']['.class_basename(self::class).']');
         }
@@ -675,12 +795,15 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 2f3197ab (.)
@@ -711,6 +834,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
@@ -776,7 +900,12 @@ class RouteService
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         $route_current = Route::current();
         $route_params = [];
         if ($route_current instanceof \Illuminate\Routing\Route) {
@@ -785,6 +914,14 @@ class RouteService
         }
 
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
          * try {
          * $route_params = optional(\Route::current())->parameters();
          * } catch (\Exception $e) {
@@ -793,15 +930,24 @@ class RouteService
          */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
         try {
             $route_params = optional(\Route::current())->parameters();
         } catch (\Exception $e) {
             $route_params = [];
         }
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -813,6 +959,14 @@ class RouteService
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         if (Route::has($routename_act)) {
             $parz = array_merge($route_params, [$row]);
             $parz = array_merge($parz, $query);
@@ -846,6 +1000,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -872,8 +1027,45 @@ class RouteService
 >>>>>>> a67e542f (.)
         return '#'.$routename_act;
 =======
+=======
+        return '#'.$routename_act;
+=======
+        return '#' . $routename_act;
+>>>>>>> 5a14301c (.)
+=======
+        return '#' . $routename_act;
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return '#' . $routename_act;
+=======
+        return '#' . $routename_act;
+>>>>>>> 399f46d3 (.)
+=======
+        return '#' . $routename_act;
+>>>>>>> 17684f52 (.)
+=======
+        return '#' . $routename_act;
+>>>>>>> 399f46d3 (.)
+=======
+        return '#' . $routename_act;
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return '#' . $routename_act;
+=======
+        return '#'.$routename_act;
+>>>>>>> a12f125f4a (.)
+=======
+        return '#' . $routename_act;
+>>>>>>> b93ef594b4 (.)
+=======
+        return '#'.$routename_act;
+>>>>>>> ce6fc085 (.)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1045,7 +1237,12 @@ class RouteService
 =======
         return '#' . $routename_act;
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     }
 
     // se n=0 => 'container0'
@@ -1078,9 +1275,11 @@ class RouteService
         for ($i = 0; $i <= $n; $i++) {
             $tmp[] = 'container'.$i;
         for ($i = 0; $i <= $n; ++$i) {
+<<<<<<< HEAD
             $tmp[] = 'container' . $i;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1102,10 +1301,40 @@ class RouteService
 >>>>>>> 2f3197ab (.)
         for ($i = 0; $i <= $n; ++$i) {
             $tmp[] = 'container' . $i;
+<<<<<<< HEAD
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
             $tmp[] = 'container' . $i;
             $tmp[] = 'container' . $i;
             $tmp[] = 'container' . $i;
             $tmp[] = 'container'.$i;
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ce6fc085 (.)
         for ($i = 0; $i <= $n; ++$i) {
             $tmp[] = 'container' . $i;
             $tmp[] = 'container'.$i;
@@ -1272,7 +1501,12 @@ class RouteService
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         }
 
         $tmp[] = $act;
@@ -1281,6 +1515,14 @@ class RouteService
     }
 
     /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
      * public static function urlRelatedPanel(array $params){
      * $act = 'show';
      * extract($params);
@@ -1368,6 +1610,96 @@ class RouteService
      * return $url;
      * }
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+    public static function urlRelatedPanel(array $params){
+        $act = 'show';
+        extract($params);
+        if (! isset($panel)) {
+            dddx(['err' => 'panel is missing']);
+
+            return;
+        }
+        if (! isset($related_name)) {
+            dddx(['err' => 'related_name is missing']);
+
+            return;
+        }
+        $parents = collect([]);
+        $panel_curr = $panel;
+
+        while (null != $panel_curr->getParent()) {
+            $parents->prepend($panel_curr->getParent());
+            $panel_curr = $panel_curr->getParent();
+        }
+        $container_root = $panel->getRow();
+        if ($parents->count() > 0) {
+
+            //$tmp='['.$parents->count().']';
+            //foreach($parents as $parent){
+            //    $tmp.=$parent->getRow()->post_type.'-';
+            //}
+            //return $tmp;
+
+            $container_root = $parents->first()?->row;
+        }
+
+        //$containers_class = self::getContainersClass();
+        //$n = collect($containers_class)->search(get_class($container_root));
+        //if (null === $n) {
+        //    $n = 0;
+        //}
+
+        $n = 0;
+
+        $route_name = self::getRoutenameN(['n' => $n + 1 + $parents->count(), 'act' => $act]);
+        $route_current = \Route::current();
+        $route_params = is_object($route_current) ? $route_current->parameters() : [];
+
+        $i = 0;
+        foreach ($parents as $parent) {
+            $route_params['container'.($n + $i)] = $parent->postType();
+            $route_params['item'.($n + $i)] = $parent->guid();
+            ++$i;
+        }
+        $route_params['container'.($n + $i)] = $panel->postType();
+        $route_params['item'.($n + $i)] = $panel->guid();
+        ++$i;
+        $route_params['container'.($n + $i)] = $related_name;
+
+        $route_params['page'] = 1;
+        $route_params['_act'] = '';
+        unset($route_params['_act']);
+        try {
+            $url = str_replace(url(''), '', route($route_name, $route_params));
+        } catch (\Exception $e) {
+            if (request()->input('debug', false)) {
+                dd([
+                    'route_name' => $route_name,
+                    'route_params' => $route_params,
+                    'line' => __LINE__,
+                    'file' => __FILE__,
+                    'e' => $e->getMessage(),
+                ]);
+            }
+
+            return '#['.__LINE__.']['.class_basename($this).']';
+        }
+
+        return $url;
+    }
+    */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     /**
      * @param  array<string,string>  $params
      * @param array<string,string> $params
@@ -1464,6 +1796,12 @@ class RouteService
         extract($params);
 
         return '?';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 
         /*
          * return '?'.$lang; //da fixare dopo
@@ -1526,9 +1864,16 @@ class RouteService
          */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
         /*
         return '?'.$lang; //da fixare dopo
         //$row=$this->row;
@@ -1589,6 +1934,11 @@ class RouteService
         }
         */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
 
         /*
          * return '?'.$lang; //da fixare dopo
@@ -1649,6 +1999,7 @@ class RouteService
          * return url($lang);
          * }
          */
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -1659,22 +2010,59 @@ class RouteService
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     }
 
     /**
      * Function getAct.
      *
+<<<<<<< HEAD
+     * @throws Exception
+<<<<<<< HEAD
      * @throws Exception
      * @throws Exception
+=======
+=======
+<<<<<<< HEAD
      * @throws Exception
+=======
+     * @throws \Exception
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
      */
     public static function getAct(): string
     {
         $route_action = Route::currentRouteAction();
         if ($route_action === null) {
         if (null === $route_action) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ce6fc085 (.)
         if (null === $route_action) {
         if (null === $route_action) {
+<<<<<<< HEAD
         if (null === $route_action) {
             throw new Exception('$route_action is null');
         if ($route_action === null) {
@@ -1684,7 +2072,23 @@ class RouteService
         if (null === $route_action) {
         if (null === $route_action) {
             throw new Exception('$route_action is null');
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             throw new Exception('$route_action is null');
+=======
+<<<<<<< HEAD
+            throw new Exception('$route_action is null');
+=======
+            throw new \Exception('$route_action is null');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         }
 
         $act = Str::after($route_action, '@');
@@ -1704,17 +2108,48 @@ class RouteService
     /**
      * Function.
      *
+<<<<<<< HEAD
+     * @throws Exception
+<<<<<<< HEAD
      * @throws Exception
      * @throws Exception
+=======
+=======
+<<<<<<< HEAD
      * @throws Exception
+=======
+     * @throws \Exception
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
      */
     public static function getModuleName(): string
     {
         $route_action = Route::currentRouteAction();
         if ($route_action === null) {
         if (null === $route_action) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ce6fc085 (.)
         if (null === $route_action) {
         if (null === $route_action) {
+<<<<<<< HEAD
         if (null === $route_action) {
             throw new Exception('$route_action is null');
         if ($route_action === null) {
@@ -1724,7 +2159,23 @@ class RouteService
         if (null === $route_action) {
         if (null === $route_action) {
             throw new Exception('$route_action is null');
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             throw new Exception('$route_action is null');
+=======
+<<<<<<< HEAD
+            throw new Exception('$route_action is null');
+=======
+            throw new \Exception('$route_action is null');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         }
 
         return Str::between($route_action, 'Modules\\', '\Http');
@@ -1733,17 +2184,48 @@ class RouteService
     /**
      * Function.
      *
+<<<<<<< HEAD
+     * @throws Exception
+<<<<<<< HEAD
      * @throws Exception
      * @throws Exception
+=======
+=======
+<<<<<<< HEAD
      * @throws Exception
+=======
+     * @throws \Exception
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
      */
     public static function getControllerName(): string
     {
         $route_action = Route::currentRouteAction();
         if ($route_action === null) {
         if (null === $route_action) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ce6fc085 (.)
         if (null === $route_action) {
         if (null === $route_action) {
+<<<<<<< HEAD
         if (null === $route_action) {
             throw new Exception('$route_action is null');
         if ($route_action === null) {
@@ -1753,7 +2235,23 @@ class RouteService
         if (null === $route_action) {
         if (null === $route_action) {
             throw new Exception('$route_action is null');
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             throw new Exception('$route_action is null');
+=======
+<<<<<<< HEAD
+            throw new Exception('$route_action is null');
+=======
+            throw new \Exception('$route_action is null');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         }
 
         return Str::between($route_action, 'Http\Controllers\\', 'Controller');
@@ -1797,6 +2295,7 @@ class RouteService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->filter(static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false))
 =======
 =======
@@ -1809,10 +2308,13 @@ class RouteService
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1869,7 +2371,12 @@ class RouteService
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
             ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
             ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
@@ -1925,5 +2432,34 @@ class RouteService
                 return $params[$item] ?? $item;
             })
             ->implode('.');
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+            ->filter(
+                static fn ($item): bool => ! \in_array($item, ['Module', 'Item'], false)
+            )
+            ->map(
+                static function ($item) use ($params) {
+                    $item = Str::snake($item);
+
+                    return $params[$item] ?? $item;
+                }
+            )->implode('.');
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+            ->filter(static fn($item): bool => !\in_array($item, ['Module', 'Item'], false))
+            ->map(static function ($item) use ($params) {
+                $item = Str::snake($item);
+
+                return $params[$item] ?? $item;
+            })
+            ->implode('.');
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     }
 }

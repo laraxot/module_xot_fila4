@@ -4,12 +4,27 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Panel;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Exception;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 use Filament\Panel;
 use Illuminate\Support\Facades\Log;
 use Filament\Panel;
 use Illuminate\Support\Facades\Log;
 use Filament\Panel;
 use Illuminate\Support\Facades\Log;
+=======
+<<<<<<< HEAD
+use Exception;
+use Illuminate\Support\Facades\Log;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Filament\Panel;
 use Illuminate\Support\Facades\Log;
 use Filament\Panel;
@@ -29,8 +44,33 @@ class ApplyMetatagToPanelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             
             
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 
 =======
 <<<<<<< HEAD
@@ -57,6 +97,8 @@ class ApplyMetatagToPanelAction
 <<<<<<< HEAD
 >>>>>>> a67e542f (.)
 
+=======
+>>>>>>> 17684f52 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,6 +151,22 @@ class ApplyMetatagToPanelAction
 
             
             
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ce6fc085 (.)
             
             
             
@@ -158,7 +216,12 @@ class ApplyMetatagToPanelAction
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             return $panel
                 // @phpstan-ignore argument.type
                 ->colors($metatag->getColors())
@@ -167,11 +230,72 @@ class ApplyMetatagToPanelAction
                 ->darkModeBrandLogo($metatag->getDarkModeBrandLogo())
                 ->brandLogoHeight($metatag->getBrandLogoHeight())
                 ->favicon($metatag->getFavicon());
+<<<<<<< HEAD
             Log::error('Error applying metatag to panel: ' . $e->getMessage());
             Log::error('Error applying metatag to panel: ' . $e->getMessage());
+=======
+<<<<<<< HEAD
+        } catch (Exception $e) {
+            // Log l'errore ma non bloccare l'applicazione
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            Log::error('Error applying metatag to panel: '.$e->getMessage());
+
+=======
+            Log::error('Error applying metatag to panel: ' . $e->getMessage());
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+        } catch (Exception $e) {
+            // Log l'errore ma non bloccare l'applicazione
+            Log::error('Error applying metatag to panel: ' . $e->getMessage());
+=======
+        } catch (\Exception $e) {
+            // Log l'errore ma non bloccare l'applicazione
+            \Illuminate\Support\Facades\Log::error('Error applying metatag to panel: ' . $e->getMessage());
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ce6fc085 (.)
             Log::error('Error applying metatag to panel: ' . $e->getMessage());
             Log::error('Error applying metatag to panel: ' . $e->getMessage());
+<<<<<<< HEAD
             Log::error('Error applying metatag to panel: ' . $e->getMessage());
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             return $panel;
         }
     }

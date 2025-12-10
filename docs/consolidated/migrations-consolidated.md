@@ -379,6 +379,27 @@ $table->foreign('user_id')->references('id')->on('users')
 - **Relazioni**: User, Notifiable polymorphic
 - **Campi specifici**: `type`, `data`, `read_at`
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### <nome modulo> Module
+=======
+>>>>>>> ce6fc085 (.)
+### SaluteMo Module
+### SaluteMo Module
+### SaluteMo Module
+### SaluteMo Module
+### SaluteMo Module
+### SaluteMo Module
+### SaluteMo Module
+<<<<<<< HEAD
 ### SaluteMo Module
 ### SaluteMo Module
 ### SaluteMo Module
@@ -392,17 +413,38 @@ $table->foreign('user_id')->references('id')->on('users')
 ### SaluteMo Module
 ### SaluteMo Module
 ### SaluteMo Module
+=======
+>>>>>>> 399f46d3 (.)
+=======
 ### SaluteMo Module
-### SaluteMo Module
-### SaluteMo Module
-### SaluteMo Module
-### SaluteMo Module
-### SaluteMo Module
-### SaluteMo Module
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### <nome progetto> Module (CRITICO)
+=======
+###  Module (CRITICO)
+>>>>>>> ce6fc085 (.)
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
@@ -431,6 +473,7 @@ $table->foreign('user_id')->references('id')->on('users')
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
+<<<<<<< HEAD
 ###  Module (CRITICO)
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
@@ -456,6 +499,12 @@ $table->foreign('user_id')->references('id')->on('users')
 ###  Module (CRITICO)
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`
@@ -512,6 +561,35 @@ rm Modules/Notify/project_docs/migration_rules.md
 rm Modules/Notify/project_docs/migrations.md
 rm Modules/Notify/project_docs/migrations_changelog.md
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# <nome modulo>
+rm Modules/<nome modulo>/project_docs/database/migrations.md
+=======
+>>>>>>> ce6fc085 (.)
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+<<<<<<< HEAD
 # SaluteMo
 rm Modules/SaluteMo/project_docs/database/migrations.md
 # SaluteMo
@@ -538,20 +616,13 @@ rm Modules/SaluteMo/project_docs/database/migrations.md
 rm Modules/SaluteMo/project_docs/database/migrations.md
 # SaluteMo
 rm Modules/SaluteMo/project_docs/database/migrations.md
+=======
+>>>>>>> 399f46d3 (.)
+=======
 # SaluteMo
 rm Modules/SaluteMo/project_docs/database/migrations.md
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
-# SaluteMo
-rm Modules/SaluteMo/project_docs/database/migrations.md
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
 # E tutti gli altri file duplicati...
 ```

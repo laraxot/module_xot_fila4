@@ -34,11 +34,14 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
 use Filament\Widgets\WidgetConfiguration;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
@@ -121,29 +124,50 @@ use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
-use Spatie\Health\Checks\Check;
 <<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+<<<<<<< HEAD
+use Spatie\Health\Checks\Check;
+use Spatie\Health\Checks\Check;
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
@@ -216,7 +240,12 @@ use Spatie\Health\Checks\Check;
 =======
 use Spatie\Health\Checks\Check;
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use Spatie\Health\Checks\Checks\OptimizedAppCheck;
 use Spatie\Health\Checks\Checks\DebugModeCheck;
 use Spatie\Health\Checks\Checks\EnvironmentCheck;
@@ -236,6 +265,7 @@ use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
 use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
 use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -259,6 +289,19 @@ use Spatie\Health\Checks\Check;
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -280,9 +323,21 @@ class HealthPage extends Page
      */
     protected $listeners = ['refresh-component' => '$refresh'];
 
+<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-heart';
 
     protected string $view = 'xot::filament.pages.health';
+=======
+<<<<<<< HEAD
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-heart';
+
+    protected string $view = 'xot::filament.pages.health';
+=======
+    protected static ?string $navigationIcon = 'heroicon-o-heart';
+
+    protected static string $view = 'xot::filament.pages.health';
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 
     public function refresh(): void
     {
@@ -299,6 +354,10 @@ class HealthPage extends Page
     {
         /** @var array<int, Check> $checks */
         $checks = [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
             OptimizedAppCheck::new(),
             DebugModeCheck::new(),
             EnvironmentCheck::new(),
@@ -359,7 +418,34 @@ class HealthPage extends Page
             $checks[] = $check;
         }
         /** @var array<Check> $checks */
+<<<<<<< HEAD
         /** @var array<Check> $checks */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ce6fc085 (.)
             Checks\OptimizedAppCheck::new(),
             Checks\DebugModeCheck::new(),
             Checks\EnvironmentCheck::new(),
@@ -394,6 +480,7 @@ class HealthPage extends Page
             $checks[] = $check;
         }
         /** @var array<\Spatie\Health\Checks\Check> $checks */
+<<<<<<< HEAD
         /** @var array<int, \Spatie\Health\Checks\Check> $checks */
         /** @var array<Check> $checks */
         /** @var array<Check> $checks */
@@ -407,6 +494,35 @@ class HealthPage extends Page
         /** @var array<int, \Spatie\Health\Checks\Check> $checks */
         /** @var array<Check> $checks */
         /** @var array<Check> $checks */
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -429,6 +545,7 @@ class HealthPage extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 
 =======
 =======
@@ -445,6 +562,21 @@ class HealthPage extends Page
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+                
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()
@@ -458,7 +590,15 @@ class HealthPage extends Page
     protected function getHeaderWidgets(): array
     {
         return [
+<<<<<<< HEAD
             HealthOverviewWidget::make(),
+=======
+<<<<<<< HEAD
+            HealthOverviewWidget::make(),
+=======
+            Widgets\HealthOverviewWidget::make(),
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         ];
     }
 

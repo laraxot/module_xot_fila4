@@ -53,6 +53,7 @@ class JsonResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -67,8 +68,45 @@ class JsonResponseData extends Data
     public ?int $code = null;
     public ?int $code = null;
 =======
+=======
+    public ?int $code = null;
+=======
+    public null|int $code = null;
+>>>>>>> 5a14301c (.)
+=======
+    public null|int $code = null;
+>>>>>>> 3fbbf1f5 (.)
+=======
+    public null|int $code = null;
+=======
+    public null|int $code = null;
+>>>>>>> 399f46d3 (.)
+=======
+    public null|int $code = null;
+>>>>>>> 17684f52 (.)
+=======
+    public null|int $code = null;
+>>>>>>> 399f46d3 (.)
+=======
+    public null|int $code = null;
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|int $code = null;
+=======
+    public ?int $code = null;
+>>>>>>> a12f125f4a (.)
+=======
+    public null|int $code = null;
+>>>>>>> b93ef594b4 (.)
+=======
+    public ?int $code = null;
+>>>>>>> ce6fc085 (.)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,13 +212,26 @@ class JsonResponseData extends Data
 =======
     public null|int $code = null;
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 
     public array $data = [];
 
     public int $status = 200;
 
     /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
      * public function toResponse($request)
      * {
      *
@@ -188,14 +239,23 @@ class JsonResponseData extends Data
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
     public function toResponse($request)
     {
 
     }
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
@@ -207,6 +267,14 @@ class JsonResponseData extends Data
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     public function response(): JsonResponse
     {
         $data = [

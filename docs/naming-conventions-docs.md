@@ -35,7 +35,10 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> ce6fc085 (.)
 - `/project_docs/` (cartella root del progetto)
 <<<<<<< HEAD
 =======
@@ -130,6 +133,11 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 =======
 - `/project_docs/` (cartella root del progetto)
 >>>>>>> c35986f4 (.)
+=======
+- `/project_docs/` (cartella root del progetto)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
 - `/docs/` (cartella root del progetto)
 - `README.md` principale
 - File di configurazione specifici del progetto
@@ -183,6 +191,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,4 +353,12 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 =======
 - [Best Practices Documentazione](documentation-guidelines.md) 
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+- [Best Practices Documentazione](documentation-guidelines.md) 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

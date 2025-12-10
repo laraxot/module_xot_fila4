@@ -12,9 +12,16 @@ Il file conteneva marker di conflitto git  all'interno del metodo `boot()`, con 
 ## Collegamento alla doc root
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
 >>>>>>> 85cdef688 (.)
 =======
 Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
 >>>>>>> 6ca989d8 (.)
+=======
+Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
+=======
+Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)

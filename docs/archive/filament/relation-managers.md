@@ -192,57 +192,69 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 
 ## Collegamenti alla Documentazione Correlata
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> ce6fc085 (.)
 - [Filament Resources](/laravel/Modules/Xot/docs/filament/resources.md)
 - [HasXotTable Trait](/laravel/Modules/Xot/docs/filament/xot_table.md)
 - [Regole di Traduzione](/laravel/Modules/Xot/docs/translation_rules.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 3 Giugno 2025*
+=======
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+=======
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 - [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
 - [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
 - [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
 
-
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
-- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
-- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
-
-*Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 - [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
@@ -250,8 +262,6 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 - [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
 
 *Ultimo aggiornamento: 3 Giugno 2025*
-*Ultimo aggiornamento: 3 Giugno 2025*
-
 *Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
 
@@ -271,6 +281,52 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 *Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+<<<<<<< HEAD
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
+*Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
 
 *Ultimo aggiornamento: 3 Giugno 2025*
@@ -310,3 +366,9 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 *Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
 *Ultimo aggiornamento: 3 Giugno 2025*
+=======
+>>>>>>> 43d67f21 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)

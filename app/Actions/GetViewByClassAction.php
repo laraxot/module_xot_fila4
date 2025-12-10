@@ -4,11 +4,58 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 use InvalidArgumentException;
+=======
+<<<<<<< HEAD
+use InvalidArgumentException;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
@@ -35,6 +82,12 @@ class GetViewByClassAction
      *
      * @return View
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
     public function execute(string $class, array $params = [], null|string $viewName = null): View
     {
         $viewName ??= $this->getViewNameFromClass($class);
@@ -47,6 +100,26 @@ class GetViewByClassAction
     {
         $viewName ??= $this->getViewNameFromClass($class);
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+    public function execute(string $class, array $params = [], ?string $viewName = null): View
+    {
+        $viewName = $viewName ?? $this->getViewNameFromClass($class);
+        
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    public function execute(string $class, array $params = [], null|string $viewName = null): View
+    {
+        $viewName ??= $this->getViewNameFromClass($class);
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         /** @var view-string $viewName */
         return view($viewName, $params);
     }
@@ -83,7 +156,52 @@ class GetViewByClassAction
 
         // Verifica che la classe sia nel namespace Modules
         if ('Modules' !== $arr[0]) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             throw new InvalidArgumentException('Class must be in Modules namespace');
+=======
+<<<<<<< HEAD
+            throw new InvalidArgumentException('Class must be in Modules namespace');
+=======
+            throw new \InvalidArgumentException('Class must be in Modules namespace');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
         }
 
         $module = $arr[1];
@@ -119,11 +237,14 @@ class GetViewByClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
         return $module_low.'::pages.'.$class_name;
     }
 
@@ -144,6 +265,17 @@ class GetViewByClassAction
         return $module_low . '::pages.' . $class_name;
         return $module_low . '::pages.' . $class_name;
         return $module_low . '::pages.' . $class_name;
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        return $module_low . '::pages.' . $class_name;
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
         return $module_low . '::pages.' . $class_name;
         return $module_low . '::pages.' . $class_name;
         return $module_low . '::pages.' . $class_name;
@@ -178,6 +310,17 @@ class GetViewByClassAction
 
         // Costruisci il percorso della view
         return $module_low.'::pages.'.$class_name;
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ce6fc085 (.)
         return $module_low . '::pages.' . $class_name;
 <<<<<<< HEAD
         return $module_low.'::pages.'.$class_name;
@@ -275,6 +418,11 @@ class GetViewByClassAction
 =======
         return $module_low . '::pages.' . $class_name;
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     }
 }

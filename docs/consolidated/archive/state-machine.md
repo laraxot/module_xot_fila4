@@ -9,6 +9,27 @@
 - Ogni errore e soluzione va documentato sia nella docs del modulo sia qui, con link bidirezionali.
 
 ## Collegamenti
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [../../<nome progetto>/project_docs/state-machine.md](../../<nome progetto>/project_docs/state-machine.md)
+<<<<<<< HEAD
+=======
+>>>>>>> ce6fc085 (.)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
@@ -29,6 +50,7 @@
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
+<<<<<<< HEAD
 - [../../<nome progetto>/project_docs/state-machine.md](../../<nome progetto>/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
@@ -70,5 +92,11 @@
 - [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
 - [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)
 - [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+- [../../saluteora/project_docs/state-machine.md](../../saluteora/project_docs/state-machine.md)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 - [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
 - [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)

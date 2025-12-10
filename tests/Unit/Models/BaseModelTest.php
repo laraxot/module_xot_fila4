@@ -2,6 +2,12 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
 namespace Modules\Xot\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Model;
@@ -9,25 +15,41 @@ use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> ce6fc085 (.)
 namespace Modules\Xot\Tests\Unit\Models\BaseModelTest;
 
 namespace Modules\Xot\Tests\Unit\Models;
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
 namespace Modules\Xot\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Tests\TestCase;
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> ce6fc085 (.)
 namespace Modules\Xot\Tests\Unit\Models;
 
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 
 uses(TestCase::class);
 
@@ -91,6 +113,10 @@ namespace Modules\Xot\Tests\Unit\Models;
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 uses(TestCase::class);
 
@@ -121,9 +147,12 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> ce6fc085 (.)
     $this->baseModel = new class extends BaseModel
     {
 =======
@@ -131,13 +160,47 @@ beforeEach(function () {
     $this->baseModel = new class extends BaseModel
     {
     $this->baseModel = new class extends BaseModel {
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 3fbbf1f5 (.)
+=======
+    $this->baseModel = new class extends BaseModel {
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 399f46d3 (.)
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 17684f52 (.)
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 399f46d3 (.)
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $this->baseModel = new class extends BaseModel {
+=======
+>>>>>>> ce6fc085 (.)
 
     $this->baseModel = new class extends BaseModel {
     $this->baseModel = new class extends BaseModel {
     $this->baseModel = new class extends BaseModel {
     $this->baseModel = new class extends BaseModel {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+>>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -229,7 +292,12 @@ beforeEach(function () {
 =======
     $this->baseModel = new class extends BaseModel {
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
         protected $table = 'test_table';
     };
 });

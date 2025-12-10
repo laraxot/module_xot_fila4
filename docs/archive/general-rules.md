@@ -188,5 +188,15 @@ Questo documento contiene le regole generali che devono essere seguite in tutto 
 
 ## Collegamenti Bidirezionali
 - Questo documento è collegato alle documentazioni dei seguenti moduli:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  - [Patient Module Documentation](../../../Patient/docs/doctor-model-update.md)
+  - [User Module Documentation](../../../User/docs/user-model-guidelines.md)
+=======
+  - [Patient Module Documentation](../../../Patient/project_docs/doctor-model-update.md)
+  - [User Module Documentation](../../../User/project_docs/user-model-guidelines.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
 
 Queste regole devono essere seguite per garantire che il codice passi i controlli di qualità futuri e aderisca ai principi DRY (Don't Repeat Yourself) e KISS (Keep It Simple, Stupid). Considerare sempre le implicazioni di politica, filosofia, religione e zen nelle soluzioni implementate.

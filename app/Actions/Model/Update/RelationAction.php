@@ -14,6 +14,14 @@ class RelationAction
     use QueueableAction;
 
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
      * Undocumented function.
      *
      * @param  array<string, mixed>  $data
@@ -28,6 +36,10 @@ class RelationAction
     {
         $relations = app(FilterRelationsAction::class)->execute($model, $data);
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
          * if ('Operation' === class_basename($model)) {
          * dddx([
          * 'basename' => class_basename($model),
@@ -37,6 +49,7 @@ class RelationAction
          * ]);
          * }
          * // */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +77,24 @@ class RelationAction
         $relations = app(FilterRelationsAction::class)->execute($model, $typedData);
 >>>>>>> 2f3197ab (.)
         /*
+=======
+=======
+=======
+     * Execute relation updates with type-safe data.
+     *
+     * @param  array<mixed, mixed>  $data
+=======
+     * Undocumented function.
+>>>>>>> b93ef594b4 (.)
+     */
+    public function execute(Model $model, array $data): void
+    {
+        $relations = app(FilterRelationsAction::class)->execute($model, $data);
+        /*
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> ce6fc085 (.)
         if ('Operation' === class_basename($model)) {
             dddx([
                 'basename' => class_basename($model),
@@ -74,6 +105,11 @@ class RelationAction
         }
         // */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> ce6fc085 (.)
          * if ('Operation' === class_basename($model)) {
          * dddx([
          * 'basename' => class_basename($model),
@@ -83,6 +119,7 @@ class RelationAction
          * ]);
          * }
          * // */
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -93,6 +130,12 @@ class RelationAction
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
             $relationClass = $relation::class;
@@ -102,10 +145,14 @@ class RelationAction
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
 <<<<<<< HEAD
+<<<<<<< HEAD
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
 =======
+=======
+>>>>>>> ce6fc085 (.)
 
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +183,8 @@ class RelationAction
 =======
 >>>>>>> 399f46d3 (.)
 =======
+>>>>>>> 17684f52 (.)
+=======
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -151,6 +200,22 @@ class RelationAction
 >>>>>>> 2f3197ab (.)
             
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ce6fc085 (.)
             $actionClass = __NAMESPACE__.'\\'.$relationshipType.'Action';
 <<<<<<< HEAD
 =======
@@ -244,7 +309,12 @@ class RelationAction
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
             Assert::object($action = app($actionClass));
 
             if (method_exists($action, 'execute')) {

@@ -80,6 +80,7 @@ class PwaData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -94,8 +95,45 @@ class PwaData extends Data
         return new static;
         return new static;
 =======
+=======
+        return new static;
+=======
+        return new static();
+>>>>>>> 5a14301c (.)
+=======
+        return new static();
+>>>>>>> 3fbbf1f5 (.)
+=======
+        return new static();
+=======
+        return new static();
+>>>>>>> 399f46d3 (.)
+=======
+        return new static();
+>>>>>>> 17684f52 (.)
+=======
+        return new static();
+>>>>>>> 399f46d3 (.)
+=======
+        return new static();
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return new static();
+=======
+        return new static;
+>>>>>>> a12f125f4a (.)
+=======
+        return new static();
+>>>>>>> b93ef594b4 (.)
+=======
+        return new static;
+>>>>>>> ce6fc085 (.)
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201,6 +239,11 @@ class PwaData extends Data
 =======
         return new static();
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
     }
 }

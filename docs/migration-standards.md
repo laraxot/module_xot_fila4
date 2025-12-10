@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -93,7 +94,12 @@
 =======
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 # Standard per le Migrazioni in 
 
 ## Introduzione
@@ -130,6 +136,7 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -137,6 +144,8 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> ce6fc085 (.)
 # Standard per le Migrazioni in <nome progetto>
 
 ## Introduzione
@@ -242,7 +251,14 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 =======
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+>>>>>>> ce6fc085 (.)
 # Standard per le Migrazioni in SaluteOra
 
 ## Introduzione
@@ -399,6 +415,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -406,6 +423,8 @@ return new class extends XotBaseMigration
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> ce6fc085 (.)
  utilizza diverse connessioni al database per diversi tipi di dati:
  utilizza diverse connessioni al database per diversi tipi di dati:
  utilizza diverse connessioni al database per diversi tipi di dati:
@@ -534,7 +553,11 @@ SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
 =======
+=======
+>>>>>>> 17684f52 (.)
  utilizza diverse connessioni al database per diversi tipi di dati:
+=======
+>>>>>>> 6cba4fe (.)
 SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
 >>>>>>> c35986f4 (.)
 >>>>>>> 6ca989d8 (.)
@@ -773,6 +796,7 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -780,6 +804,8 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> ce6fc085 (.)
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
@@ -908,7 +934,11 @@ Seguire questi standard per le migrazioni è fondamentale per garantire la coere
 >>>>>>> a5dccfe (.)
 >>>>>>> d86d643a (.)
 =======
+=======
+>>>>>>> 17684f52 (.)
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+=======
+>>>>>>> 6cba4fe (.)
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
 >>>>>>> c35986f4 (.)
 >>>>>>> 6ca989d8 (.)

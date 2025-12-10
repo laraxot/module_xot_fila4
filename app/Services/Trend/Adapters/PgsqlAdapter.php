@@ -30,6 +30,7 @@ namespace Modules\Xot\Services\Trend\Adapters;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2f3197ab (.)
 use Override;
@@ -96,7 +97,20 @@ use Override;
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
 use Override;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
 use Error;
 use Override;
 use Error;
@@ -105,7 +119,9 @@ use Error;
 
 class PgsqlAdapter extends AbstractAdapter
 {
+<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Override;
@@ -149,6 +165,22 @@ class PgsqlAdapter extends AbstractAdapter
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+class PgsqlAdapter extends AbstractAdapter
+{
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
     public function format(string $column, string $interval): string
     {
         $format = match ($interval) {
@@ -157,9 +189,20 @@ class PgsqlAdapter extends AbstractAdapter
             'day' => 'YYYY-MM-DD',
             'month' => 'YYYY-MM',
             'year' => 'YYYY',
+<<<<<<< HEAD
+            default => throw new Error('Invalid interval.'),
+<<<<<<< HEAD
             default => throw new Error('Invalid interval.'),
             default => throw new Error('Invalid interval.'),
+=======
+=======
+<<<<<<< HEAD
             default => throw new Error('Invalid interval.'),
+=======
+            default => throw new \Error('Invalid interval.'),
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> ce6fc085 (.)
         };
 
         return sprintf("to_char(%s, '%s')", $column, $format);

@@ -22,6 +22,7 @@ namespace Modules\Xot\Filament\Resources\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -86,10 +87,13 @@ namespace Modules\Xot\Filament\Resources\Pages;
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f2dd5676b (.)
 use Filament\Resources\Pages\Concerns\HasRelationManagers;
 use Filament\Resources\Pages\Concerns\InteractsWithRecord;
 use Filament\Resources\Pages\Page as FilamentResourcePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,11 +194,15 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 >>>>>>> efbf15eba (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> f2dd5676b (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Filament\Resources\Pages\Concerns\HasRelationManagers;
 
 use Filament\Resources\Pages\Concerns\InteractsWithRecord;
 use Filament\Resources\Pages\Page as FilamentResourcePage;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -292,6 +300,9 @@ use Filament\Resources\Pages\Page as FilamentResourcePage;
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
 
 abstract class XotBaseResourcePage extends FilamentResourcePage
 {

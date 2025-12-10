@@ -42,6 +42,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -118,6 +119,8 @@ return new class extends XotBaseMigration {
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f2dd5676b (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->string('id')->primary();
             // $table->foreignId('user_id')->nullable()->index();
@@ -139,6 +142,7 @@ return new class extends XotBaseMigration {
             }
             $this->updateTimestamps($table, true);
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +224,9 @@ return new class extends XotBaseMigration {
 >>>>>>> efbf15eba (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> f2dd5676b (.)
         $this->tableCreate(
             function (Blueprint $table): void {
                 $table->string('id')->primary();
@@ -231,6 +238,7 @@ return new class extends XotBaseMigration {
                 $table->integer('last_activity')->index();
             }
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,6 +356,10 @@ return new class extends XotBaseMigration {
 >>>>>>> efbf15eba (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+
+        // -- UPDATE --
+>>>>>>> f2dd5676b (.)
         $this->tableUpdate(
             function (Blueprint $table): void {
                 // if (! $this->hasColumn('email')) {
@@ -360,6 +372,7 @@ return new class extends XotBaseMigration {
                 $this->updateTimestamps($table, true);
             }
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,5 +470,8 @@ return new class extends XotBaseMigration {
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
     }
 };

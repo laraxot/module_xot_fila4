@@ -38,6 +38,7 @@ class CommandOutputEvent implements ShouldBroadcast
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -74,9 +75,13 @@ class CommandOutputEvent implements ShouldBroadcast
     ) {}
 >>>>>>> efbf15eba (.)
 =======
+    ) {}
+>>>>>>> f2dd5676b (.)
+=======
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,6 +230,8 @@ class CommandOutputEvent implements ShouldBroadcast
 =======
     ) {}
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f2dd5676b (.)
 
     public function broadcastOn(): array
     {

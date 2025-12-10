@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -89,11 +90,14 @@
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f2dd5676b (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,6 +201,10 @@ declare(strict_types=1);
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
 @extends('adm_theme::layouts.app')
 @section('content')
 PASSO 1
@@ -221,6 +229,7 @@ PASSO 1
 </form>
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -384,3 +393,9 @@ PASSO 1
 =======
 @endsection
 >>>>>>> 60f0a1820 (.)
+=======
+@endsection
+=======
+@endsection
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)

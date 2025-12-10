@@ -85,6 +85,7 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
@@ -104,6 +105,9 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 =======
 <<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> f2dd5676b (.)
 * [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
 * [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
 <<<<<<< HEAD
@@ -379,7 +383,22 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 =======
 =======
 >>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+=======
+* [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
+>>>>>>> 5b07d268 (.)
+=======
+* [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
+=======
+* [event-sourcing.md](../../../Xot/project_docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/project_docs/it/config/event-sourcing.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 44948f13 (.)
+>>>>>>> f2dd5676b (.)
 
 
 ### Versione Incoming

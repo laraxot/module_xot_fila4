@@ -8,6 +8,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -37,6 +38,8 @@ declare(strict_types=1);
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f2dd5676b (.)
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -1540,6 +1543,35 @@ namespace Modules\Xot\Tests\Pest;
  * | in tutti i test del modulo.
  * |
  */
+=======
+namespace Modules\Xot\Tests\Pest;
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Test Case
+|--------------------------------------------------------------------------
+|
+| Il TestCase di default per tutti i test del modulo Xot.
+| Estende il TestCase specifico del modulo che fornisce il setup necessario.
+|
+*/
+
+
+    ->in('Feature', 'Unit');
+
+/*
+|--------------------------------------------------------------------------
+| Expectations
+|--------------------------------------------------------------------------
+|
+| Qui puoi definire aspettative globali per il modulo Xot.
+
+| in tutti i test del modulo.
+|
+*/
+>>>>>>> f1d4085 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1597,6 +1629,7 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -1630,6 +1663,8 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f2dd5676b (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -1914,6 +1949,7 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> d86d643a (.)
@@ -2023,7 +2059,13 @@ namespace Modules\Xot\Tests\Pest;
 =======
 =======
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+=======
+>>>>>>> 44948f13 (.)
+>>>>>>> f2dd5676b (.)
 |--------------------------------------------------------------------------
 | Functions
 |--------------------------------------------------------------------------
@@ -2049,6 +2091,7 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 7468a7d2 (.)
@@ -2056,6 +2099,8 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> f2dd5676b (.)
 
 
 
@@ -2534,4 +2579,11 @@ namespace Modules\Xot\Tests\Pest;
 =======
 =======
 >>>>>>> f0e04b64 (.)
+<<<<<<< HEAD
 >>>>>>> 87e9cbda1 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 44948f13 (.)
+>>>>>>> f2dd5676b (.)

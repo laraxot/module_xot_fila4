@@ -103,6 +103,7 @@ Deptrac
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
@@ -122,6 +123,9 @@ Deptrac
 =======
 <<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> f2dd5676b (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,7 +211,14 @@ Deptrac
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 44948f13 (.)
+>>>>>>> f2dd5676b (.)
 * [links.md](../../../Gdpr/docs/links.md)
 * [links.md](../../../Notify/docs/links.md)
 * [links.md](../../../Xot/docs/ci/links.md)
@@ -257,7 +268,15 @@ Deptrac
 >>>>>>> efbf15eba (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2dd5676b (.)
 =======
 <<<<<<< HEAD
 =======
@@ -308,7 +327,12 @@ Deptrac
 =======
 >>>>>>> 3ae5e299 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 44948f13 (.)
+=======
+>>>>>>> f2dd5676b (.)
 * [links.md](../../../Gdpr/project_docs/links.md)
 * [links.md](../../../Notify/project_docs/links.md)
 * [links.md](../../../Xot/project_docs/ci/links.md)
@@ -333,6 +357,7 @@ Deptrac
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -426,7 +451,14 @@ Deptrac
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 44948f13 (.)
+>>>>>>> f2dd5676b (.)
 
 
 ### Versione Incoming
@@ -492,6 +524,7 @@ Deptrac
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
@@ -511,6 +544,9 @@ Deptrac
 =======
 <<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> f2dd5676b (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -596,7 +632,14 @@ Deptrac
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 44948f13 (.)
+>>>>>>> f2dd5676b (.)
 - [Modulo Lang](../../../Lang/docs/links.md)
   > Gestione delle traduzioni per il core system. Fondamentale per l'internazionalizzazione.
 
@@ -647,7 +690,15 @@ Deptrac
 >>>>>>> efbf15eba (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f2dd5676b (.)
 =======
 <<<<<<< HEAD
 =======
@@ -698,7 +749,12 @@ Deptrac
 =======
 >>>>>>> 3ae5e299 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 44948f13 (.)
+=======
+>>>>>>> f2dd5676b (.)
 - [Modulo Lang](../../../Lang/project_docs/links.md)
   > Gestione delle traduzioni per il core system. Fondamentale per l'internazionalizzazione.
 
@@ -724,6 +780,7 @@ Deptrac
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -817,7 +874,14 @@ Deptrac
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 44948f13 (.)
+>>>>>>> f2dd5676b (.)
   > Gestione della cache del sistema. Ottimizzazione delle performance.
 
 ## Implementazioni di Esempio

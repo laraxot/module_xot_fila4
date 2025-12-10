@@ -30,6 +30,7 @@ class HasManyDeepAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +173,12 @@ class HasManyDeepAction
 =======
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 >>>>>>> 60f0a1820 (.)
+=======
+    public function execute(Model $_model, RelationDTO $_relationDTO): void
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
     {
         // Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
         dddx('wip');

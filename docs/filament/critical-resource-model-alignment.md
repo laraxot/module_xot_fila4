@@ -181,6 +181,7 @@ done
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6a1fe786 (.)
 <<<<<<< HEAD
@@ -228,7 +229,12 @@ done
 =======
 =======
 >>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+=======
+>>>>>>> 44948f13 (.)
+>>>>>>> f2dd5676b (.)
 - [Modules/Progressioni/docs/plan.md](../../Progressioni/docs/plan.md) - Piano di verifica sistematica
 - [Modules/Xot/docs/filament/resources/architecture/forbidden-methods.md](resources/architecture/forbidden-methods.md) - Metodi vietati in XotBaseResource
 - [Modules/Xot/docs/filament_best_practices.md](../filament_best_practices.md) - Best practices Filament
@@ -316,6 +322,7 @@ done
 =======
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -338,10 +345,13 @@ done
 >>>>>>> 099ab7a0 (.)
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 44948f13 (.)
 - [Modules/Progressioni/project_docs/plan.md](../../Progressioni/project_docs/plan.md) - Piano di verifica sistematica
 - [Modules/Xot/project_docs/filament/resources/architecture/forbidden-methods.md](resources/architecture/forbidden-methods.md) - Metodi vietati in XotBaseResource
 - [Modules/Xot/project_docs/filament_best_practices.md](../filament_best_practices.md) - Best practices Filament
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,6 +387,8 @@ done
 >>>>>>> efbf15eba (.)
 =======
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> f2dd5676b (.)
 =======
 >>>>>>> 34579462 (.)
 >>>>>>> e769883c (.)
@@ -504,7 +516,17 @@ done
 =======
 =======
 >>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+=======
+- [Modules/Progressioni/docs/plan.md](../../Progressioni/docs/plan.md) - Piano di verifica sistematica
+- [Modules/Xot/docs/filament/resources/architecture/forbidden-methods.md](resources/architecture/forbidden-methods.md) - Metodi vietati in XotBaseResource
+- [Modules/Xot/docs/filament_best_practices.md](../filament_best_practices.md) - Best practices Filament
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 44948f13 (.)
+>>>>>>> f2dd5676b (.)
 - [/.windsurf/rules/filament-resource-model-alignment.mdc](../../../../.windsurf/rules/filament-resource-model-alignment.mdc) - Regole Windsurf
 - [/.cursor/rules/filament-resource-model-alignment.mdc](../../../../.cursor/rules/filament-resource-model-alignment.mdc) - Regole Cursor
 

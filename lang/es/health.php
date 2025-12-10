@@ -26,6 +26,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -104,9 +105,13 @@ return [
 =======
 >>>>>>> 0117b849c (.)
 =======
+            'heading' => 'Salud de la aplicación',
+>>>>>>> f2dd5676b (.)
+=======
 
             'heading' => 'Salud de la aplicación',
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,6 +230,9 @@ return [
 =======
             'heading' => 'Salud de la aplicación',
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
             'navigation' => [
                 'group' => 'Configuración',
                 'label' => 'Salud de la aplicación',
@@ -252,6 +260,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -383,6 +392,11 @@ return [
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
             'notifications' => [
                 'check_results' => 'Revisar resultados desde',
             ],

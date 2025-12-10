@@ -30,6 +30,7 @@ class DestroyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $model, array $_data, array $_rules): Model
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +173,12 @@ class DestroyAction
 =======
     public function execute(Model $model, array $_data, array $_rules): Model
 >>>>>>> 60f0a1820 (.)
+=======
+    public function execute(Model $model, array $_data, array $_rules): Model
+=======
+    public function execute(Model $model, array $data, array $rules): Model
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
     {
         // prende la chiave del modello
 

@@ -156,6 +156,7 @@ interface ErrorFormatterContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,3 +299,9 @@ interface ErrorFormatterContract
 =======
 }
 >>>>>>> 60f0a1820 (.)
+=======
+}
+=======
+} 
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)

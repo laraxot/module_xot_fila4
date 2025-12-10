@@ -51,6 +51,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -123,6 +124,8 @@ return new class extends XotBaseMigration {
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f2dd5676b (.)
         $this->tableCreate(static function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -176,6 +179,7 @@ return new class extends XotBaseMigration {
     }
 
     // end up
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,6 +261,9 @@ return new class extends XotBaseMigration {
 >>>>>>> efbf15eba (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> f2dd5676b (.)
         $this->tableCreate(
             static function (Blueprint $table): void {
                 $table->increments('id');
@@ -265,6 +272,7 @@ return new class extends XotBaseMigration {
                 $table->unique(['model_id', 'model_type'], 'morph_unique');
             }
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,6 +397,10 @@ return new class extends XotBaseMigration {
 >>>>>>> efbf15eba (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+
+        // -- UPDATE --
+>>>>>>> f2dd5676b (.)
         $this->tableUpdate(
             function (Blueprint $table): void {
                 // if (! $this->hasColumn('name')) {
@@ -408,6 +420,7 @@ return new class extends XotBaseMigration {
 
     // end up
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -505,5 +518,8 @@ return new class extends XotBaseMigration {
 >>>>>>> 0117b849c (.)
 =======
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
     // end down
 };

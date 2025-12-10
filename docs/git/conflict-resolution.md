@@ -203,6 +203,7 @@ php artisan test --filter=TestClass
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Workflow Git](../../../Xot/project_docs/git/workflow.md)
 - [Best Practices](../../../Xot/project_docs/best-practices/git.md)
@@ -263,3 +264,8 @@ php artisan test --filter=TestClass
 - [Best Practices](../../../Xot/docs/best-practices/git.md)
 - [CI/CD Pipeline](../../../Xot/docs/ci-cd/README.md) 
 >>>>>>> 317b552da (.)
+=======
+- [Workflow Git](../../../Xot/project_docs/git/workflow.md)
+- [Best Practices](../../../Xot/project_docs/best-practices/git.md)
+- [CI/CD Pipeline](../../../Xot/project_docs/ci-cd/README.md) 
+>>>>>>> f2dd5676b (.)

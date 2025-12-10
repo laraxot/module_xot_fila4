@@ -48,6 +48,7 @@ class CustomRelationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141,6 +142,11 @@ class CustomRelationAction
 =======
                 // Assicura che $data sia type-safe per UpdateAction
 >>>>>>> 0117b849c (.)
+=======
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+=======
+                // Assicura che $data sia type-safe per UpdateAction
+>>>>>>> f2dd5676b (.)
                 /** @var array<string, mixed> $typedData */
                 $typedData = [];
                 foreach ($data as $key => $value) {
@@ -148,6 +154,7 @@ class CustomRelationAction
                 }
 
                 $res = app(UpdateAction::class)->execute($related, $typedData, []);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +283,9 @@ class CustomRelationAction
 =======
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> f2dd5676b (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {

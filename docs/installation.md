@@ -178,6 +178,7 @@ php artisan serve
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
@@ -197,6 +198,9 @@ php artisan serve
 =======
 <<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> f2dd5676b (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,7 +286,14 @@ php artisan serve
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 3ae5e299 (.)
+<<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
+=======
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 44948f13 (.)
+>>>>>>> f2dd5676b (.)
 * [installation.md](../../../Xot/docs/filament/installation.md)
 * [installation.md](../../../Xot/docs/installation.md)
 * [installation.md](../../../Xot/docs/base/installation.md)
@@ -372,6 +383,19 @@ php artisan serve
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+* [installation.md](../../../Xot/project_docs/filament/installation.md)
+* [installation.md](../../../Xot/project_docs/installation.md)
+* [installation.md](../../../Xot/project_docs/base/installation.md)
+* [installation.md](../../../User/project_docs/installation.md)
+* [installation.md](../../../Lang/project_docs/installation.md)
+* [installation.md](../../../Cms/project_docs/installation.md)
+* [installation.md](../../../../Themes/One/project_docs/installation.md)
+>>>>>>> f1d4085 (.)
+
+>>>>>>> 44948f13 (.)
 =======
 =======
 >>>>>>> 3ae5e299 (.)

@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
 =======
 >>>>>>> 88ee35c4e (.)
@@ -37,6 +38,8 @@
 >>>>>>> aa96bb619 (.)
 =======
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> efbf15eba (.)
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,9 +50,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> aa96bb619 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> efbf15eba (.)
 =======
 <<<<<<< HEAD
 =======
@@ -167,7 +174,17 @@
 =======
 =======
 >>>>>>> 96276392 (.)
+<<<<<<< HEAD
 >>>>>>> f7e6113c6 (.)
+=======
+=======
+>>>>>>> 3baa48bd (.)
+=======
+=======
+> **Nota**: Questo documento è correlato a [Convenzioni](../../../project_docs/conventions.md) e [Naming Conventions](../../../project_docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
 
 Questo documento contiene gli standard di codice specifici per il progetto il progetto. Per le linee guida generali sulla scrittura del codice, consultare la [documentazione del modulo Xot](../CODE-STANDARDS.md).
 
@@ -268,6 +285,7 @@ Il codice del progetto il progetto **deve** aderire ai seguenti principi fondame
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
@@ -284,6 +302,9 @@ Il codice del progetto il progetto **deve** aderire ai seguenti principi fondame
 =======
 <<<<<<< HEAD
 >>>>>>> f7e6113c6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> efbf15eba (.)
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,7 +478,19 @@ Il codice del progetto il progetto **deve** aderire ai seguenti principi fondame
 =======
 =======
 >>>>>>> 96276392 (.)
+<<<<<<< HEAD
 >>>>>>> f7e6113c6 (.)
+=======
+=======
+> **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
+>>>>>>> 3baa48bd (.)
+=======
+> **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
+=======
+> **Nota**: Questo documento è correlato a [Convenzioni](../../../project_docs/conventions.md) e [Naming Conventions](../../../project_docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
 
 Questo documento contiene gli standard di codice specifici per il progetto il progetto. Per le linee guida generali sulla scrittura del codice, consultare la [documentazione del modulo Xot](../CODE-STANDARDS.md).
 
@@ -752,6 +785,7 @@ class StorePatientRequest extends FormRequest
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
@@ -768,6 +802,9 @@ class StorePatientRequest extends FormRequest
 =======
 <<<<<<< HEAD
 >>>>>>> f7e6113c6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> efbf15eba (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -839,7 +876,14 @@ class StorePatientRequest extends FormRequest
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 96276392 (.)
+<<<<<<< HEAD
 >>>>>>> f7e6113c6 (.)
+=======
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
 - [Convenzioni](../../../docs/conventions.md)
 - [Naming Conventions](../../../docs/naming-conventions.md)
 - [Documentazione Xot](../CODE-STANDARDS.md)
@@ -871,11 +915,15 @@ class StorePatientRequest extends FormRequest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> aa96bb619 (.)
 =======
 >>>>>>> f7e6113c6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> efbf15eba (.)
 =======
 <<<<<<< HEAD
 =======
@@ -916,7 +964,12 @@ class StorePatientRequest extends FormRequest
 =======
 >>>>>>> 96276392 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> efbf15eba (.)
 - [Convenzioni](../../../project_docs/conventions.md)
 - [Naming Conventions](../../../project_docs/naming-conventions.md)
 - [Documentazione Xot](../CODE-STANDARDS.md)
@@ -935,6 +988,7 @@ class StorePatientRequest extends FormRequest
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1012,7 +1066,14 @@ class StorePatientRequest extends FormRequest
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 96276392 (.)
+<<<<<<< HEAD
 >>>>>>> f7e6113c6 (.)
+=======
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
 
 ### PHPDoc
 
@@ -1291,6 +1352,7 @@ git commit -m "fix: correzione calcolo età paziente"
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
@@ -1307,6 +1369,9 @@ git commit -m "fix: correzione calcolo età paziente"
 =======
 <<<<<<< HEAD
 >>>>>>> f7e6113c6 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> efbf15eba (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1378,7 +1443,14 @@ git commit -m "fix: correzione calcolo età paziente"
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 96276392 (.)
+<<<<<<< HEAD
 >>>>>>> f7e6113c6 (.)
+=======
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
 * [coding-standards.md](../../../Xot/docs/standards/coding-standards.md)
 * [coding-standards.md](../../../Xot/docs/conventions/coding-standards.md)
 
@@ -1434,6 +1506,21 @@ git commit -m "fix: correzione calcolo età paziente"
 =======
 <<<<<<< HEAD
 >>>>>>> f7e6113c6 (.)
+=======
+=======
+* [coding-standards.md](../../../Xot/project_docs/standards/coding-standards.md)
+* [coding-standards.md](../../../Xot/project_docs/conventions/coding-standards.md)
+
+## Collegamenti Correlati
+
+- [Convenzioni](../../../project_docs/conventions.md)
+- [Naming Conventions](../../../project_docs/naming-conventions.md)
+- [Documentazione Xot](../CODE-STANDARDS.md)
+- [Collegamenti Documentazione](../../../../project_docs/collegamenti-documentazione.md)
+>>>>>>> f1d4085 (.)
+
+>>>>>>> 6d1255a8 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 96276392 (.)

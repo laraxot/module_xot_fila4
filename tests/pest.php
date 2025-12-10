@@ -43,6 +43,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -149,7 +150,14 @@ use Modules\Xot\Tests\TestCase;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
  * |--------------------------------------------------------------------------
  * | Test Case
  * |--------------------------------------------------------------------------
@@ -160,6 +168,7 @@ use Modules\Xot\Tests\TestCase;
  */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,7 +267,14 @@ use Modules\Xot\Tests\TestCase;
 =======
 =======
 >>>>>>> 5e58b29b (.)
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
+=======
+=======
+=======
+>>>>>>> 7d72abc (.)
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
 |--------------------------------------------------------------------------
 | Test Case
 |--------------------------------------------------------------------------
@@ -269,6 +285,7 @@ use Modules\Xot\Tests\TestCase;
 */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,7 +480,15 @@ use Modules\Xot\Tests\TestCase;
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7d72abc (.)
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
 
 <<<<<<< HEAD
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
@@ -505,6 +530,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -609,7 +635,14 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
  * |--------------------------------------------------------------------------
  * | Expectations
  * |--------------------------------------------------------------------------
@@ -621,6 +654,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
  */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -714,12 +748,20 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 =======
 >>>>>>> 5e58b29b (.)
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
+=======
+=======
+=======
+>>>>>>> 7d72abc (.)
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
 |--------------------------------------------------------------------------
 | Expectations
 |--------------------------------------------------------------------------
 |
 | Qui puoi definire aspettative globali per il modulo Xot.
+<<<<<<< HEAD
 | Quando definisci here expectation globali, saranno disponibili 
 | in tutti i test del modulo.
 |
@@ -793,16 +835,27 @@ uses(TestCase::class)->in('Feature', 'Unit');
 |--------------------------------------------------------------------------
 |
 | Qui puoi definire aspettative globali per il modulo Xot.
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> efbf15eba (.)
 | Quando definisci expectation globali, saranno disponibili
 | in tutti i test del modulo.
 |
 */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
 | Quando definisci here expectation globali, saranno disponibili 
 | in tutti i test del modulo.
 |
 */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -948,7 +1001,13 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
 
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
@@ -997,6 +1056,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -1097,7 +1157,12 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -1106,6 +1171,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * | Queste funzioni saranno disponibili in tutti i test.
  * |
  */
+<<<<<<< HEAD
 
 // function something() {
 //     // ...
@@ -1423,4 +1489,28 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> 7d72abc (.)
+
+// function something() {
+//     // ...
+// }
+=======
+|--------------------------------------------------------------------------
+| Functions
+|--------------------------------------------------------------------------
+|
+| Qui puoi definire funzioni helper globali per i test del modulo.
+| Queste funzioni saranno disponibili in tutti i test.
+|
+*/
+
+// function something() {
+//     // ...
+// } 
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)

@@ -124,6 +124,7 @@ interface ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -179,6 +180,8 @@ interface ModelContract
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> efbf15eba (.)
 
     /**
      * Convert the model instance to an array representation.
@@ -191,6 +194,7 @@ interface ModelContract
      *
      * public function forceCreate(array $attributes);
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,6 +277,8 @@ interface ModelContract
 =======
 >>>>>>> f7e6113c6 (.)
 =======
+>>>>>>> efbf15eba (.)
+=======
     /*
          * Save a new model and return the instance. Allow mass-assignment.
          *
@@ -281,6 +287,7 @@ interface ModelContract
         public function forceCreate(array $attributes);
         */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,6 +342,8 @@ interface ModelContract
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> efbf15eba (.)
 
     /**
      * Convert the model instance to an array.
@@ -401,6 +410,7 @@ interface ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f8f76a284 (.)
@@ -410,10 +420,13 @@ interface ModelContract
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> efbf15eba (.)
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,10 +442,13 @@ interface ModelContract
 =======
 >>>>>>> origin/develop
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> efbf15eba (.)
 
     public function where($column, $operator = null, $value = null, $boolean = 'and');
     */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -580,6 +596,9 @@ interface ModelContract
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
     /*
      * Execute the query and get the first result or throw an exception.
      *
@@ -601,6 +620,7 @@ interface ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * public function firstOrFail($columns = ['*']);
      */
@@ -690,9 +710,15 @@ interface ModelContract
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+     *
+     * public function firstOrFail($columns = ['*']);
+     */
+>>>>>>> efbf15eba (.)
+=======
 
     public function firstOrFail($columns = ['*']);
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -822,4 +848,7 @@ interface ModelContract
      * public function firstOrFail($columns = ['*']);
      */
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
 }

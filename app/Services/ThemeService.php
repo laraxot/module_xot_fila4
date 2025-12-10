@@ -77,6 +77,7 @@ class ThemeService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,3 +200,9 @@ class ThemeService
 =======
 }
 >>>>>>> 3c8d62b79 (.)
+=======
+}
+=======
+} 
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)

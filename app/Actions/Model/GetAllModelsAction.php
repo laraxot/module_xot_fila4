@@ -49,6 +49,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -169,12 +170,22 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
+=======
+use Nwidart\Modules\Laravel\Module as LaravelModule;
+=======
+<<<<<<< HEAD
+>>>>>>> 7d72abc (.)
+>>>>>>> 6d1255a8 (.)
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> efbf15eba (.)
 =======
 use Nwidart\Modules\Module as ModuleInstance;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
 use Spatie\QueueableAction\QueueableAction;
@@ -186,6 +197,9 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> aba62c408 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
 
 class GetAllModelsAction
 {
@@ -241,6 +255,7 @@ class GetAllModelsAction
 =======
 >>>>>>> 091f883c (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,9 +354,17 @@ class GetAllModelsAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
      *
      * @return array<int, class-string>
+=======
+<<<<<<< HEAD
+>>>>>>> 7d72abc (.)
      */
     public function execute(): array
     {
@@ -559,10 +582,13 @@ class GetAllModelsAction
 >>>>>>> 5cf46378 (.)
             $res = array_merge($res, $tmp);
 =======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
+=======
+>>>>>>> 6d1255a8 (.)
      *
      * @return array<string, string> Array associativo con snake_case come chiave e FQCN come valore
      */
@@ -572,6 +598,7 @@ class GetAllModelsAction
         $res = [];
         $modules = Module::all();
         foreach ($modules as $module) {
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -588,15 +615,20 @@ class GetAllModelsAction
         foreach ($modules as $module) {
 <<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 6d1255a8 (.)
             Assert::isInstanceOf($module, ModuleInstance::class, 'Module must be instance of ModuleInstance');
             $moduleName = $module->getName();
             Assert::string($moduleName, 'Module name must be a string');
 
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleName);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5e58b29b (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 6d1255a8 (.)
             Assert::isArray($tmp, 'GetAllModelsByModuleNameAction must return array');
 
             // Type-safe merge per mantenere array<string, string>
@@ -605,6 +637,7 @@ class GetAllModelsAction
                 Assert::string($value, 'Value must be string');
                 $res[$key] = $value;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -655,7 +688,13 @@ class GetAllModelsAction
 =======
 =======
 >>>>>>> b956ebe0 (.)
+<<<<<<< HEAD
 >>>>>>> aba62c408 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+>>>>>>> efbf15eba (.)
         }
 
         return $res;

@@ -79,13 +79,17 @@ use Nwidart\Modules\Module as NModule;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> efbf15eba (.)
 use Sushi\Sushi;
 
 use function Safe\json_encode;
 
+<<<<<<< HEAD
 >>>>>>> f7e6113c6 (.)
 <<<<<<< HEAD
 =======
@@ -167,11 +171,15 @@ use function Safe\json_encode;
 =======
 =======
 >>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> efbf15eba (.)
 
 use function Safe\json_encode;
 
 use Sushi\Sushi;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +248,9 @@ use function Safe\json_encode;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
 /**
  * @property int $id
  * @property string|null $name
@@ -384,6 +395,7 @@ class Module extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -416,6 +428,8 @@ class Module extends Model
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> efbf15eba (.)
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
             if (!is_array($config)) {
@@ -440,6 +454,7 @@ class Module extends Model
         });
 
         /** @var array<int, array<string, mixed>> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,6 +501,9 @@ class Module extends Model
 =======
 =======
 >>>>>>> aa96bb619 (.)
+=======
+=======
+>>>>>>> efbf15eba (.)
         $modules = Arr::map(
             $modules,
             function (NModule $module): array {
@@ -505,6 +523,7 @@ class Module extends Model
                     'icon' => Arr::get($config, 'icon', 'heroicon-o-question-mark-circle'),
                     'colors' => json_encode($colors),
                 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -575,10 +594,13 @@ class Module extends Model
 >>>>>>> 5400be3e2 (.)
 =======
 >>>>>>> aa96bb619 (.)
+=======
+>>>>>>> efbf15eba (.)
             }
         );
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -612,6 +634,8 @@ class Module extends Model
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> f7e6113c6 (.)
+=======
+>>>>>>> efbf15eba (.)
         return array_values($modules);
     }
 

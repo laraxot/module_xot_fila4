@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -72,11 +73,14 @@
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> efbf15eba (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +164,10 @@ declare(strict_types=1);
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 3c8d62b79 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
 @extends('xot::layouts.email')
 
 @section('content')
@@ -175,6 +183,7 @@ declare(strict_types=1);
         @endforeach
     </table>
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -314,3 +323,9 @@ declare(strict_types=1);
 =======
 @endsection
 >>>>>>> 3c8d62b79 (.)
+=======
+@endsection
+=======
+@endsection 
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)

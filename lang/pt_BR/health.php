@@ -18,6 +18,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ca118c34 (.)
 =======
@@ -74,9 +75,13 @@ return [
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+            'heading' => 'Saúde da aplicação',
+>>>>>>> efbf15eba (.)
+=======
 
             'heading' => 'Saúde da aplicação',
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -269,6 +274,17 @@ return [
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> f1d4085 (.)
+            'navigation' => [
+                'group' => 'Configurações',
+                'label' => 'Saúde da aplicação',
+            ],
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> efbf15eba (.)
             'notifications' => [
                 'check_results' => 'Ver resultados de verificação',
             ],

@@ -17,6 +17,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -51,9 +52,13 @@ return [];
 return [];
 >>>>>>> aa96bb619 (.)
 =======
+return [];
+>>>>>>> efbf15eba (.)
+=======
 return [
 ];
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -178,3 +183,5 @@ return [];
 =======
 return [];
 >>>>>>> 3c8d62b79 (.)
+=======
+>>>>>>> efbf15eba (.)

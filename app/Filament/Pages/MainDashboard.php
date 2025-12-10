@@ -234,7 +234,7 @@ class MainDashboard extends XotBaseDashboard
     public function mount(): void
     {
         Assert::notNull($user = auth()->user(), '['.__LINE__.']['.class_basename($this).']');
-        /** @var \Modules\Fixcity\Models\User $user */
+        /** @var \Modules\Xot\Contracts\UserContract $user */
         $user = $user;
         /** @var \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles */
         $roles = $user->roles;

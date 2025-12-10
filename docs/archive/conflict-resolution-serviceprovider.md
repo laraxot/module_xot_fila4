@@ -93,11 +93,15 @@ Questa scelta garantisce:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6d05deed (.)
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -199,6 +203,9 @@ Questa scelta garantisce:
 ## Backlink
 - [docs/links.md](../../../../project_docs/links.md)
 >>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
 - [docs/MODULE_NAMESPACE_RULES.md](./MODULE_NAMESPACE_RULES.md)
 - [docs/BEST-PRACTICES.md](./BEST-PRACTICES.md)
 <<<<<<< HEAD

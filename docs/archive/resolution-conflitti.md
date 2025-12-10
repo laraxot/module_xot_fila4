@@ -96,8 +96,14 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 =======
 - [Componenti Filament](../../Themes/One/docs/FILAMENT_COMPONENTS.md)
 - [Registrazione Utenti](../../Themes/One/docs/AUTH.md)
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 >>>>>>> 1a525d0ea (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
   - Implementazione completa sistema registrazione
   - Gestione tipi utente dinamica
   - UI moderna con Filament
@@ -189,6 +195,7 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -290,12 +297,23 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 ## Collegamenti Esterni
 
 - [Documentazione generale sulla risoluzione dei conflitti git](../../../docs/risoluzione_conflitti_git.md)
 - [Report completo di intervento](../../../docs/logs/conflict_resolution_report.md)
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 >>>>>>> 1a525d0ea (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 - [Dettagli risoluzione ModelWithPosContract](./conflicts/model_with_pos_contract_resolution.md)
 
 ## XotBaseMainPanelProvider.php
@@ -340,6 +358,7 @@ b6f667c (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -385,6 +404,11 @@ b6f667c (.)
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 1a525d0ea (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 La soluzione adottata privilegia la chiarezza del codice e l'organizzazione logica dei metodi, eliminando commenti non necessari e duplicazioni.
 
 ## XotBaseRouteServiceProvider.php
@@ -424,6 +448,7 @@ b6f667c (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -469,6 +494,11 @@ b6f667c (.)
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 1a525d0ea (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 ## Conflitti risolti (14/06/2024)
 
 I seguenti conflitti sono stati risolti come parte dell'ultima manutenzione del modulo:
@@ -507,6 +537,7 @@ fc83074 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -552,6 +583,11 @@ fc83074 (.)
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 1a525d0ea (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 Le modifiche sono state applicate seguendo le best practice documentate in `CONFLITTI_MERGE_RISOLTI.md`, privilegiando la chiarezza del codice e la coerenza con gli standard di progetto.
 
 ## Conflitti ancora da risolvere
@@ -623,8 +659,14 @@ Le modifiche sono state applicate seguendo le best practice documentate in `CONF
 >>>>>>> 5e6e0d054 (.)
 =======
 - Diversi file di documentazione in `Activity/docs/phpstan/` (level_1.md fino a level_10.md)
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 >>>>>>> 1a525d0ea (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 - File README.md del modulo Activity
 
 ### Modulo Xot
@@ -672,6 +714,7 @@ La risoluzione dei conflitti rimanenti dovrebbe seguire questi principi:
 * [risoluzione_conflitti.md](../../../Xot/docs/risoluzione_conflitti.md)
 * [risoluzione_conflitti.md](../../../Tenant/docs/risoluzione_conflitti.md)
 
+<<<<<<< HEAD
 >>>>>>> 1a525d0ea (.)
 
 <<<<<<< HEAD
@@ -795,7 +838,12 @@ b6f667c (.)
 >>>>>>> 5e6e0d054 (.)
 * [risoluzione_conflitti.md](../../../Xot/project_docs/risoluzione_conflitti.md)
 * [risoluzione_conflitti.md](../../../Tenant/project_docs/risoluzione_conflitti.md)
+=======
+<<<<<<< HEAD
+>>>>>>> 9f193021d (.)
 
+=======
+>>>>>>> a5dccfe (.)
 aurmich/dev
 5693302 (.)
 b6f667c (.)
@@ -810,7 +858,13 @@ b6f667c (.)
 * [Risoluzione Conflitti Xot](../../../Xot/docs/risoluzione_conflitti.md)
 * [Risoluzione Conflitti Tenant](../../../Tenant/docs/risoluzione_conflitti.md)
 * [Linee Guida Principali Risoluzione Conflitti](../../../../docs/conflict_resolution.md)
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 >>>>>>> 1a525d0ea (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 fc83074 (.)
 

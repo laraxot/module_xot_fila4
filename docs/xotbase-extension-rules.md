@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 62cc8443 (.)
 =======
@@ -19,6 +20,8 @@
 >>>>>>> 88e745db5 (.)
 =======
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> 9f193021d (.)
 =======
 # XotBase Extension Rules - Comprehensive Guide
 
@@ -223,6 +226,7 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
 >>>>>>> 6ca989d8 (.)
@@ -252,6 +256,9 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 # Regole di Estensione XotBase - Guida di Riferimento
 
 ## 🚨 REGOLA CRITICA FONDAMENTALE
@@ -332,6 +339,7 @@ Le classi XotBase sono integrate con il sistema di configurazione, traduzioni e 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6ca989d8 (.)
@@ -416,6 +424,11 @@ Le classi XotBase sono integrate con il sistema di configurazione, traduzioni e 
 =======
 
 >>>>>>> 3c8d62b79 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 # Cerca estensioni dirette di Filament (dovrebbe restituire 0 risultati)
 grep -r "extends Filament\\" Modules/ --include="*.php"
 
@@ -447,6 +460,7 @@ grep -r "extends Modules\\Xot\\" Modules/ --include="*.php"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6ca989d8 (.)
@@ -531,6 +545,11 @@ grep -r "extends Modules\\Xot\\" Modules/ --include="*.php"
 =======
 
 >>>>>>> 3c8d62b79 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 # Dashboard
 grep -r "XotBaseDashboard" Modules/ --include="*.php"
 
@@ -634,6 +653,7 @@ Aggiungere un controllo pre-commit per verificare che non ci siano estensioni di
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6ca989d8 (.)
@@ -718,6 +738,11 @@ Aggiungere un controllo pre-commit per verificare che non ci siano estensioni di
 =======
 
 >>>>>>> 3c8d62b79 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 # .git/hooks/pre-commit
 
 if grep -r "extends Filament\\" Modules/ --include="*.php" > /dev/null; then
@@ -753,6 +778,7 @@ echo "✅ Controllo XotBase: PASSED"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6ca989d8 (.)
@@ -837,6 +863,11 @@ echo "✅ Controllo XotBase: PASSED"
 =======
 
 >>>>>>> 3c8d62b79 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 # .github/workflows/xotbase-check.yml
 name: XotBase Extension Check
 on: [push, pull_request]

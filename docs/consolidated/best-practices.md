@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -71,7 +72,16 @@
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+# Best Practices per Laraxot
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 # Best Practices per Laraxot
 
 ## Riferimenti al modello User
@@ -142,6 +152,7 @@ public function process(\Modules\User\Models\User $user) {
 ``` 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1095,4 +1106,79 @@ public function process(\Modules\User\Models\User $user) {
 =======
 =======
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+# 🔧 **Best Practices Modulo Xot**
+>>>>>>> 6821f7a (.)
+
+## Riferimenti al modello User
+
+Una pratica fondamentale in Laraxot è **non fare mai riferimento diretto** alla classe specifica di implementazione dell'utente (`\Modules\User\Models\User`), poiché il modello utente effettivamente utilizzato viene configurato nei file di configurazione del sistema.
+
+### ❌ Pratica scorretta
+
+```php
+/**
+ * @var \Modules\User\Models\User $user
+ */
+public function handle($user) {
+    // Codice che usa $user
+}
+```
+
+### ✓ Pratica corretta
+
+```php
+use Modules\Xot\Contracts\UserContract;
+
+/**
+ * @var UserContract $user
+ */
+public function handle($user) {
+    // Codice che usa $user
+}
+```
+
+### Motivi per utilizzare UserContract
+
+1. **Configurabilità**: Il modello User effettivo può cambiare in base alla configurazione.
+2. **Disaccoppiamento**: Riduce le dipendenze verso implementazioni specifiche.
+3. **Testabilità**: Facilita il testing con implementazioni mock dell'interfaccia.
+4. **Flessibilità**: Consente di estendere o cambiare l'implementazione senza impattare il codice esistente.
+
+### Come ottenere la classe User corretta
+
+Se è necessario ottenere programmaticamente la classe User configurata:
+
+```php
+use Modules\Xot\Datas\XotData;
+
+// Ottenere la classe User configurata
+$userClass = XotData::make()->getUserClass();
+
+// Creare un'istanza
+$user = new $userClass();
+```
+
+### Tipizzazione nei parametri di metodo
+
+Quando si tipizzano i parametri di un metodo:
+
+```php
+use Modules\Xot\Contracts\UserContract;
+
+// Corretto
+public function process(UserContract $user) {
+    // Codice
+}
+
+// Errato
+public function process(\Modules\User\Models\User $user) {
+    // Codice
+}
+``` 
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)

@@ -77,6 +77,7 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -308,7 +309,21 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 
 
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+
+
+=======
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 ## Approccio alla Risoluzione
 
 La risoluzione seguirà questi principi:
@@ -428,6 +443,7 @@ Questa risoluzione garantisce:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 =======
 =======
@@ -468,13 +484,22 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
+=======
+<<<<<<< HEAD
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -611,4 +636,10 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 =======
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../project_docs/logs/conflict_resolution_progress.md). 
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)

@@ -249,6 +249,7 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -307,6 +308,7 @@ performance::admin
 - [User Role Management](../../User/project_docs/console_commands/README.md)
 - [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 
+<<<<<<< HEAD
 - [PDND Redirect Loop Fix](../../Pdnd/docs/redirect_loop_fix.md)
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
@@ -314,6 +316,16 @@ performance::admin
 - [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 9f193021d (.)
 <<<<<<< HEAD
 
 
@@ -336,6 +348,7 @@ performance::admin
 =======
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -408,7 +421,13 @@ performance::admin
 =======
 =======
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 ## Aggiornamenti
 
 ### 2025-01-27 - Fix Implementato

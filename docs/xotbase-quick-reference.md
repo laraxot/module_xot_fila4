@@ -64,6 +64,7 @@ namespace Modules\YourModule\App\Filament\Resources; // ❌ Wrong (contains App)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 1. Check: `/Modules/Xot/docs/XOTBASE_EXTENSION_RULES.md`
 2. Check: `/Modules/Xot/docs/filament_extension_pattern.md`
@@ -78,9 +79,12 @@ namespace Modules\YourModule\App\Filament\Resources; // ❌ Wrong (contains App)
 =======
 >>>>>>> 7e4835b8e (.)
 =======
+>>>>>>> 9f193021d (.)
+=======
 1. Check: `/Modules/Xot/docs/XOTBASE_EXTENSION_RULES.md`
 2. Check: `/Modules/Xot/docs/filament_extension_pattern.md`
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,12 +109,15 @@ namespace Modules\YourModule\App\Filament\Resources; // ❌ Wrong (contains App)
 >>>>>>> e39b54ba7 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 9f193021d (.)
 1. Check: `/Modules/Xot/project_docs/XOTBASE_EXTENSION_RULES.md`
 2. Check: `/Modules/Xot/project_docs/filament_extension_pattern.md`
 3. Run: `php artisan optimize:clear && ./vendor/bin/phpstan analyse`
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,3 +143,6 @@ namespace Modules\YourModule\App\Filament\Resources; // ❌ Wrong (contains App)
 =======
 *Keep this file visible during development!*
 >>>>>>> 5e6e0d054 (.)
+=======
+*Keep this file visible during development!*
+>>>>>>> 9f193021d (.)

@@ -221,5 +221,11 @@ Per maggiori dettagli sui vantaggi di questo approccio, consultare la documentaz
 >>>>>>> 5e6e0d054 (.)
 =======
 *Collegamento bidirezionale: vedi anche `/docs/providers/service_provider_best_practices.md`* 
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 >>>>>>> 1a525d0ea (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)

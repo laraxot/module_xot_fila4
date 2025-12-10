@@ -195,6 +195,7 @@ Se trovi un `RelationManager` che implementa il metodo `table()`:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
 =======
@@ -498,4 +499,16 @@ Se trovi un `RelationManager` che implementa il metodo `table()`:
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 6821f7a (.)
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)

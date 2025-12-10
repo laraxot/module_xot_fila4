@@ -556,6 +556,7 @@ class Product extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
 *Ultimo aggiornamento: 2025-01-06* 
@@ -611,3 +612,8 @@ class Product extends BaseModel
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 3c8d62b79 (.)
+=======
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)

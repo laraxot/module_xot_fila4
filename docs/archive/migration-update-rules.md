@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
 <<<<<<< HEAD
 =======
@@ -93,13 +94,22 @@
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+  [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
+=======
+<<<<<<< HEAD
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
 
   [Modules/Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md)
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,7 +221,13 @@
 =======
   [Modules/Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md)
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 
 ## Caso pratico: Performance
 - Per l’errore su `valutatore_id` in `performance_organizzativa`, vedere la documentazione dettagliata nel modulo Performance.

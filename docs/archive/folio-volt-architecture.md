@@ -127,6 +127,7 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -194,6 +195,7 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 - [Lang](../../Lang/project_docs/README.md) - Traduzioni
 - [Patient](../../Patient/project_docs/README.md) - Gestione pazienti
 
+<<<<<<< HEAD
 - [Convenzioni di Naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Flusso di Registrazione](../../../docs/flusso-registrazione.md) - Implementazione del wizard multi-step
 - [Convenzioni di Naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
@@ -206,6 +208,16 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 - [Patient](../../Patient/project_docs/README.md) - Gestione pazienti
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 9f193021d (.)
 <<<<<<< HEAD
 
 
@@ -237,6 +249,7 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 =======
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -309,7 +322,13 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 =======
 =======
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 ## Regole Fondamentali
 
 ### Case Sensitivity e Struttura delle Directory
@@ -667,6 +686,7 @@ new class extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -842,6 +862,27 @@ new class extends Component {
 - [Scheduling](../Job/project_docs/scheduling.md)
 
 ### Modulo Chart
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [Grafici](../Chart/docs/charts.md)
+- [Dashboard](../Chart/docs/dashboard.md)
+- [Visualizzazione](../Chart/docs/visualization.md)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 9f193021d (.)
 - [Grafici](../Chart/project_docs/charts.md)
 - [Dashboard](../Chart/project_docs/dashboard.md)
 - [Visualizzazione](../Chart/project_docs/visualization.md)
@@ -1206,4 +1247,10 @@ new class extends Component {
 =======
 =======
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)

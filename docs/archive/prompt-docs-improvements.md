@@ -93,6 +93,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -165,6 +166,7 @@
 > - [README.md toolkit bashscripts](../../../../bashscripts/project_docs/README.md)
 > - [Documentazione miglioramenti prompt docs.txt](../../../../bashscripts/project_docs/prompt_docs_improvements.md)
 
+<<<<<<< HEAD
 > - [README.md documentazione generale](../../../../docs/README.md)
 > - [README.md documentazione generale](../../../../project_docs/README.md)
 > - [Struttura dei Prompt](./prompts.md)
@@ -173,6 +175,16 @@
 > - [Documentazione miglioramenti prompt docs.txt](../../../../bashscripts/project_docs/prompt_docs_improvements.md)
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 9f193021d (.)
 <<<<<<< HEAD
 
 
@@ -189,6 +201,7 @@
 =======
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -261,7 +274,13 @@
 =======
 =======
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 ## Introduzione
 
 Il file `/bashscripts/prompts/docs.txt` contiene un prompt utilizzato per guidare la documentazione nei progetti modulari Laravel. Questo documento descrive i miglioramenti apportati al prompt per renderlo completamente indipendente dal progetto e riutilizzabile.

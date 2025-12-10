@@ -70,6 +70,7 @@ Per prevenire questo errore in futuro:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Xot Component System](../structure.md) 
 >>>>>>> 85cdef688 (.)
 =======
@@ -169,3 +170,8 @@ Per prevenire questo errore in futuro:
 =======
 - [Documentazione Laravel Cache](https://laravel.com/docs/cache)
 >>>>>>> 3c8d62b79 (.)
+=======
+=======
+- [Documentazione Xot Component System](../structure.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)

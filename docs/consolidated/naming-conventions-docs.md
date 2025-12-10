@@ -126,6 +126,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices Documentazione](documentation-guidelines.md) 
 <<<<<<< HEAD
 =======
@@ -281,4 +282,16 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 =======
 =======
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+- [Best Practices Documentazione](documentation-guidelines.md) 
+=======
+<<<<<<< HEAD
+=======
+- [Best Practices Documentazione](documentation-guidelines.md) 
+>>>>>>> a5dccfe (.)
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)

@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -164,7 +165,12 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 =======
 =======
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 - Rimozione dei marker di conflitto in `composer.json`.
 - Rimozione dei marker di conflitto  in `composer.json`.
 
@@ -204,6 +210,11 @@ Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati
 =======
 >>>>>>> ce6fc085 (.)
 Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 6d05deed (.)
 
 - Rimozione dei marker di conflitto Git in `composer.json`
 - Eliminazione dell'inserimento errato del branch alias `aurmich/dev` nelle sezioni `require-comment` e `require-dev-comment`, che non fanno parte della configurazione delle dipendenze
@@ -215,6 +226,7 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,4 +357,10 @@ Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati
 =======
 Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)

@@ -108,6 +108,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -170,6 +171,7 @@
 - [Cms](../Cms/project_docs/README.md) - Gestione contenuti
 - [Lang](../Lang/project_docs/README.md) - Traduzioni
 
+<<<<<<< HEAD
 - [Convenzioni di naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 
@@ -179,6 +181,16 @@
 - [Lang](../Lang/project_docs/README.md) - Traduzioni
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 9f193021d (.)
 <<<<<<< HEAD
 
 
@@ -205,6 +217,7 @@
 =======
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -277,7 +290,13 @@
 =======
 =======
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 ## Struttura
 
 ### Pagine Folio con Filament
@@ -539,6 +558,7 @@ $submit = function() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -714,6 +734,27 @@ $submit = function() {
 - [Scheduling](../Job/project_docs/scheduling.md)
 
 ### Modulo Chart
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [Grafici](../Chart/docs/charts.md)
+- [Dashboard](../Chart/docs/dashboard.md)
+- [Visualizzazione](../Chart/docs/visualization.md)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 9f193021d (.)
 - [Grafici](../Chart/project_docs/charts.md)
 - [Dashboard](../Chart/project_docs/dashboard.md)
 - [Visualizzazione](../Chart/project_docs/visualization.md)
@@ -1078,4 +1119,10 @@ $submit = function() {
 =======
 =======
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)

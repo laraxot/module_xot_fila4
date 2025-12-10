@@ -123,6 +123,7 @@ public function getTableColumns(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -183,6 +184,7 @@ public function getTableColumns(): array
 - [Esempio e Applicazione - Modulo User](../../../User/project_docs/filament/FILAMENT_TABLE_COLUMNS.md)
 - [Regola Globale - Root Docs](../../../../project_docs/filament-table-columns.md)
 
+<<<<<<< HEAD
 **Nota:** Nei moduli come Performance, la logica tabellare (colonne, filtri, azioni) va sempre nelle pagine (che estendono `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`), non nelle Resource. Vedi esempio e motivazione nella [documentazione Performance](../../Performance/docs/filament-resources.md).
 **Nota:** Nei moduli come Performance, la logica tabellare (colonne, filtri, azioni) va sempre nelle pagine (che estendono `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`), non nelle Resource. Vedi esempio e motivazione nella [documentazione Performance](../../Performance/project_docs/filament-resources.md).
 
@@ -191,6 +193,16 @@ public function getTableColumns(): array
 - [Regola Globale - Root Docs](../../../../project_docs/filament-table-columns.md)
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 9f193021d (.)
 <<<<<<< HEAD
 
 
@@ -215,6 +227,7 @@ public function getTableColumns(): array
 =======
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -287,7 +300,13 @@ public function getTableColumns(): array
 =======
 =======
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 ## Nota storica: correzione XotBaseManageRelatedRecords
 
 - La classe XotBaseManageRelatedRecords è stata aggiornata per rispettare PHPStan livello 10.

@@ -365,6 +365,7 @@ class CleanupTemporaryFilesJob extends Job
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-03* 
 =======
 *Ultimo aggiornamento: 2025-01-03* 
@@ -420,3 +421,8 @@ class CleanupTemporaryFilesJob extends Job
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 3c8d62b79 (.)
+=======
+=======
+*Ultimo aggiornamento: 2025-01-03* 
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)

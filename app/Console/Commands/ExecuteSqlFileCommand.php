@@ -25,6 +25,7 @@ namespace Modules\Xot\Console\Commands;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 
 
@@ -40,6 +41,26 @@ namespace Modules\Xot\Console\Commands;
 =======
 >>>>>>> e39b54ba7 (.)
 
+=======
+
+=======
+>>>>>>> 6d05deed (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 9f193021d (.)
 
 =======
 >>>>>>> 7e4835b8e (.)
@@ -121,7 +142,13 @@ namespace Modules\Xot\Console\Commands;
 =======
 =======
 >>>>>>> 55fe1822 (.)
+<<<<<<< HEAD
 >>>>>>> e39b54ba7 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 use Exception;
 <<<<<<< HEAD
 use Illuminate\Console\Command;
@@ -200,9 +227,14 @@ use function Safe\file_get_contents;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 6d05deed (.)
+<<<<<<< HEAD
 >>>>>>> 0e51323 (.)
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 43d67f21 (.)
@@ -258,7 +290,13 @@ use function Safe\file_get_contents;
 =======
 =======
 >>>>>>> 55fe1822 (.)
+<<<<<<< HEAD
 >>>>>>> e39b54ba7 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 
 class ExecuteSqlFileCommand extends Command
 {
@@ -770,7 +808,9 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> 6dcebf8a (.)
 =======
      */
+<<<<<<< HEAD
     public function handle(): int
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public function handle()
@@ -792,6 +832,18 @@ class ExecuteSqlFileCommand extends Command
 =======
     public function handle(): int
 >>>>>>> 55fe1822 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function handle()
+>>>>>>> 0e51323 (.)
+=======
+    public function handle()
+>>>>>>> a5dccfe (.)
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');

@@ -88,5 +88,11 @@ Il file presentava numerosi conflitti git non risolti, in particolare tra le bra
 >>>>>>> 5e6e0d054 (.)
 =======
 *Collegamento bidirezionale creato: vedi anche `/docs/risoluzione_conflitti.md` nella root.*
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 >>>>>>> 1a525d0ea (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)

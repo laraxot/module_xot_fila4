@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -48,6 +49,11 @@
 =======
 
 >>>>>>> 1a525d0ea (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 # Analisi di Ottimizzazione - Modulo Xot (Framework Base)
 
 ## 🎯 Principi Applicati: DRY + KISS + SOLID + ROBUST + Laraxot
@@ -935,6 +941,7 @@ class XotPerformanceMonitor
 =======
 =======
 
+<<<<<<< HEAD
 >>>>>>> 1a525d0ea (.)
 
 <<<<<<< HEAD
@@ -981,6 +988,12 @@ class XotPerformanceMonitor
 =======
 
 >>>>>>> 5e6e0d054 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)
 ---
 
 *Documento creato: Gennaio 2025*  
@@ -999,6 +1012,7 @@ class XotPerformanceMonitor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -1037,3 +1051,8 @@ class XotPerformanceMonitor
 =======
 
 >>>>>>> 1a525d0ea (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 9f193021d (.)

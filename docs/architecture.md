@@ -401,6 +401,7 @@ test('all models extend base model', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [**Best Practices**](../docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../docs/troubleshooting.md) - Risoluzione problemi
@@ -425,9 +426,14 @@ test('all models extend base model', function () {
 - [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
 >>>>>>> 7e4835b8e (.)
 =======
+- [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
+- [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
+>>>>>>> 9f193021d (.)
+=======
 - [**Best Practices**](../docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../docs/troubleshooting.md) - Risoluzione problemi
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -466,6 +472,8 @@ test('all models extend base model', function () {
 - [**Best Practices**](../project_docs/best-practices.md) - Best practices globali
 - [**Troubleshooting**](../project_docs/troubleshooting.md) - Risoluzione problemi
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 9f193021d (.)
 
 ---
 

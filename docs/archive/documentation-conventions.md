@@ -112,6 +112,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 <<<<<<< HEAD
 =======
@@ -150,13 +151,22 @@
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+   Vedi anche: [Documentazione generale](/docs/nome_documento.md)
+=======
+<<<<<<< HEAD
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 
    Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,7 +278,13 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
    Vedi anche: [Documentazione generale](/project_docs/nome_documento.md)
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
    ```
 
 2. **Da root a modulo**: La documentazione root deve linkare ai documenti specifici dei moduli:
@@ -301,6 +317,7 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 <<<<<<< HEAD
 =======
@@ -339,13 +356,22 @@ Vedi anche: [Documentazione generale](/docs/nome_documento.md)
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+   Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
+=======
+<<<<<<< HEAD
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
 Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_documento.md)
 <<<<<<< HEAD
 =======
 >>>>>>> a5dccfe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,7 +483,13 @@ Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/docs/nome_docu
 =======
    Vedi anche: [Implementazione nel modulo Xot](/laravel/Modules/Xot/project_docs/nome_documento.md)
 >>>>>>> 90d386aa (.)
+<<<<<<< HEAD
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+>>>>>>> 9f193021d (.)
    ```
 
 ## Manutenzione della documentazione
@@ -701,6 +733,13 @@ Utilizzare script nella cartella `bashscripts` per automatizzare le verifiche e 
 - [Documentazione generale](../../../docs/documentation_rules.md)
 - [Convenzioni di naming in generale](../../../docs/naming_conventions.md)
 - [Regole per ServiceProvider](../../IndennitaCondizioniLavoro/docs/service_provider.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 6821f7a (.)
 - [Regole per file di traduzione](../../../.cursor/rules/translation_files_rules.mdc)
 
 *Ultimo aggiornamento: Giugno 2025*

@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # PHPStan Fixes - Xot Module
 >>>>>>> d86d643a (.)
@@ -550,6 +551,8 @@ protected $model = Cache::class;
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> cc52d333 (.)
 # Correzioni PHPStan Livello 7 - Modulo Xot
 =======
 # Correzioni PHPStan - 6 Gennaio 2025
@@ -1314,6 +1317,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 =======
@@ -1336,6 +1340,8 @@ private function exportTablesToCSV(string $mdbFile): array
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
 =======
 # Correzioni PHPStan - 6 Gennaio 2025
 
@@ -1352,6 +1358,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -1403,6 +1410,8 @@ private function exportTablesToCSV(string $mdbFile): array
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> cc52d333 (.)
 ### 1. Chart/app/Datas/AnswersChartData.php
 
 **Problema**: Errori `argument.type` e `offsetAccess.nonOffsetAccessible`
@@ -1451,6 +1460,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
@@ -1550,6 +1560,11 @@ private function exportTablesToCSV(string $mdbFile): array
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
 
 **Problema**: Linea 21 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, mixed>` ma restituiva `array<mixed, mixed>`
@@ -1642,6 +1657,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -1688,6 +1704,8 @@ private function exportTablesToCSV(string $mdbFile): array
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> cc52d333 (.)
     foreach ($tables as $table) {
         // ... codice per importare i dati ...
     }
@@ -1722,6 +1740,7 @@ Queste modifiche garantiscono che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 =======
@@ -1797,6 +1816,10 @@ Queste modifiche garantiscono che:
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
 **Soluzione**:
 - Aggiunto PHPDoc con tipo di ritorno corretto
 - Aggiunto cast esplicito al risultato
@@ -1858,6 +1881,7 @@ Queste modifiche garantiscono che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
@@ -1957,6 +1981,11 @@ Queste modifiche garantiscono che:
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
 
 **Soluzione**:
 - Separato controllo per `UserContract` e `null`
@@ -2049,6 +2078,7 @@ Queste modifiche garantiscono che:
 
 >>>>>>> 03ceeac3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 18. Correzione in Console/Commands/SearchStringInDatabaseCommand.php
 
 L'errore riguardava una discrepanza tra il tipo dichiarato nel PHPDoc e il tipo effettivo del parametro $results nel metodo formatResults. Il metodo si aspettava una Collection di oggetti generici, ma in realtà riceveva una Collection di oggetti stdClass:
@@ -2127,6 +2157,7 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 =======
 *Ultimo aggiornamento: 6 Gennaio 2025*
 >>>>>>> abfbbdf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2295,3 +2326,8 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+=======
+*Ultimo aggiornamento: 6 Gennaio 2025*
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)

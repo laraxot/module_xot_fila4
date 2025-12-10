@@ -30,6 +30,7 @@ ModuleName/
 ├── tests/
 └── composer.json
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -79,6 +80,8 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 <<<<<<< HEAD
 >>>>>>> 7dd92412 (.)
 >>>>>>> b258042 (.)
+=======
+>>>>>>> 6cba4fe (.)
 ```
 
 ## Collegamenti
@@ -90,10 +93,17 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 - [Namespace Rules](./NAMESPACE-RULES.md) - Regole per i namespace
 
 ### Moduli Collegati
+<<<<<<< HEAD
 - [UI](../UI/docs/README.md) - Componenti di interfaccia
 - [Cms](../Cms/docs/README.md) - Gestione contenuti
 - [Lang](../Lang/docs/README.md) - Traduzioni
 - [User](../User/docs/README.md) - Gestione utenti
+=======
+- [UI](../UI/project_docs/README.md) - Componenti di interfaccia
+- [Cms](../Cms/project_docs/README.md) - Gestione contenuti
+- [Lang](../Lang/project_docs/README.md) - Traduzioni
+- [User](../User/project_docs/README.md) - Gestione utenti
+>>>>>>> 6cba4fe (.)
 
 ## Struttura Dettagliata
 
@@ -204,7 +214,11 @@ Utilizzare il comando di analisi per verificare la conformità:
 php artisan xot:analyze-naming
 ```
 
+<<<<<<< HEAD
 Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/docs/convenzioni-naming-campi.md).
+=======
+Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
+>>>>>>> 6cba4fe (.)
 
 ## Esempi
 
@@ -251,6 +265,7 @@ User/
 ## Collegamenti Moduli
 
 ### Modulo UI
+<<<<<<< HEAD
 - [Componenti Volt](../UI/docs/components/volt.md)
 - [Layout](../UI/docs/layouts.md)
 - [Temi](../UI/docs/themes.md)
@@ -316,6 +331,73 @@ User/
 - [Grafici](../Chart/docs/charts.md)
 - [Dashboard](../Chart/docs/dashboard.md)
 - [Visualizzazione](../Chart/docs/visualization.md)
+=======
+- [Componenti Volt](../UI/project_docs/components/volt.md)
+- [Layout](../UI/project_docs/layouts.md)
+- [Temi](../UI/project_docs/themes.md)
+- [Best Practices](../UI/project_docs/best-practices.md)
+
+### Modulo Cms
+- [Frontend](../Cms/project_docs/frontend.md)
+- [Temi](../Cms/project_docs/themes.md)
+- [Contenuti](../Cms/project_docs/content.md)
+- [Convenzioni Filament](../Cms/project_docs/convenzioni-namespace-filament.md)
+
+### Modulo Lang
+- [Traduzioni](../Lang/project_docs/translations.md)
+- [Localizzazione](../Lang/project_docs/localization.md)
+- [API Traduzioni](../Lang/project_docs/api.md)
+
+### Modulo User
+- [Autenticazione](../User/project_docs/auth.md)
+- [Permessi](../User/project_docs/permissions.md)
+- [Profilo](../User/project_docs/profile.md)
+
+### Modulo Patient
+- [Gestione Pazienti](../Patient/project_docs/patients.md)
+- [Cartelle Cliniche](../Patient/project_docs/records.md)
+- [Appuntamenti](../Patient/project_docs/appointments.md)
+
+### Modulo Dental
+- [Trattamenti](../Dental/project_docs/treatments.md)
+- [Pianificazione](../Dental/project_docs/planning.md)
+- [Documenti](../Dental/project_docs/documents.md)
+
+### Modulo Tenant
+- [Multi-tenant](../Tenant/project_docs/multi-tenant.md)
+- [Configurazione](../Tenant/project_docs/configuration.md)
+- [Migrazione](../Tenant/project_docs/migration.md)
+
+### Modulo Media
+- [Gestione File](../Media/project_docs/files.md)
+- [Upload](../Media/project_docs/upload.md)
+- [Storage](../Media/project_docs/storage.md)
+
+### Modulo Notify
+- [Notifiche](../Notify/project_docs/notifications.md)
+- [Email](../Notify/project_docs/email.md)
+- [SMS](../Notify/project_docs/sms.md)
+
+### Modulo Reporting
+- [Report](../Reporting/project_docs/reports.md)
+- [Esportazione](../Reporting/project_docs/export.md)
+- [Analytics](../Reporting/project_docs/analytics.md)
+
+### Modulo Gdpr
+- [Privacy](../Gdpr/project_docs/privacy.md)
+- [Consensi](../Gdpr/project_docs/consents.md)
+- [Sicurezza](../Gdpr/project_docs/security.md)
+
+### Modulo Job
+- [Jobs](../Job/project_docs/jobs.md)
+- [Queue](../Job/project_docs/queue.md)
+- [Scheduling](../Job/project_docs/scheduling.md)
+
+### Modulo Chart
+- [Grafici](../Chart/project_docs/charts.md)
+- [Dashboard](../Chart/project_docs/dashboard.md)
+- [Visualizzazione](../Chart/project_docs/visualization.md)
+>>>>>>> 6cba4fe (.)
 
 # Struttura dei Moduli Laravel
 
@@ -458,5 +540,9 @@ Se trovi una directory con case errato:
 6. Committa le modifiche
 
 ## Collegamenti tra versioni di module_structure.md
+<<<<<<< HEAD
 * [module_structure.md](../../../../docs/error_analysis/module_structure.md)
+=======
+* [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
+>>>>>>> 6cba4fe (.)
 

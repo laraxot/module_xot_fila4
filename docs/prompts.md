@@ -93,6 +93,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -103,6 +104,9 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 * [prompts.md](../../../Xot/docs/prompts.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -168,6 +172,8 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 * [prompts.md](../../../Xot/docs/prompts.md)
 =======
 * [prompts.md](../../../Xot/project_docs/prompts.md)
@@ -175,6 +181,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 =======
 * [prompts.md](../../../Xot/docs/prompts.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -230,7 +237,12 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 * [prompts.md](../../../Xot/project_docs/prompts.md)
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 
 ## Modifiche al Prompt docs.txt
@@ -260,6 +272,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -428,6 +441,8 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
@@ -556,6 +571,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -564,6 +580,8 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 >>>>>>> e769883c (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 <<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
@@ -576,10 +594,13 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
+>>>>>>> d79d36e0 (.)
+=======
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -737,7 +758,12 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore

@@ -10,6 +10,7 @@ use Illuminate\Database\QueryException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
@@ -30,6 +31,8 @@ use Illuminate\Database\QueryException;
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
@@ -84,6 +87,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -101,9 +105,12 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> a12f125f4a (.)
 >>>>>>> 358ba79a7 (.)
 =======
+>>>>>>> 5ca118c34 (.)
+=======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,6 +160,9 @@ use Tests\TestCase;
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -673,6 +683,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -752,3 +763,10 @@ class ModuleBusinessLogicTest extends TestCase
 
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)

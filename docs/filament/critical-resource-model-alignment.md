@@ -169,6 +169,7 @@ done
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6a1fe786 (.)
 <<<<<<< HEAD
@@ -191,7 +192,12 @@ done
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 - [Modules/Progressioni/docs/plan.md](../../Progressioni/docs/plan.md) - Piano di verifica sistematica
 - [Modules/Xot/docs/filament/resources/architecture/forbidden-methods.md](resources/architecture/forbidden-methods.md) - Metodi vietati in XotBaseResource
 - [Modules/Xot/docs/filament_best_practices.md](../filament_best_practices.md) - Best practices Filament
@@ -306,6 +312,7 @@ done
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -320,15 +327,20 @@ done
 =======
 >>>>>>> 5400be3e2 (.)
 =======
+>>>>>>> 5ca118c34 (.)
+=======
 >>>>>>> 34579462 (.)
 >>>>>>> e769883c (.)
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
+>>>>>>> d79d36e0 (.)
+=======
 - [Modules/Progressioni/docs/plan.md](../../Progressioni/docs/plan.md) - Piano di verifica sistematica
 - [Modules/Xot/docs/filament/resources/architecture/forbidden-methods.md](resources/architecture/forbidden-methods.md) - Metodi vietati in XotBaseResource
 - [Modules/Xot/docs/filament_best_practices.md](../filament_best_practices.md) - Best practices Filament
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,6 +353,8 @@ done
 >>>>>>> e769883c (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
 =======
@@ -388,7 +402,12 @@ done
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 - [/.windsurf/rules/filament-resource-model-alignment.mdc](../../../../.windsurf/rules/filament-resource-model-alignment.mdc) - Regole Windsurf
 - [/.cursor/rules/filament-resource-model-alignment.mdc](../../../../.cursor/rules/filament-resource-model-alignment.mdc) - Regole Cursor
 

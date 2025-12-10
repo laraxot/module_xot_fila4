@@ -15,8 +15,11 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
             'heading' => 'Tình trạng ứng dụng',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +76,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -131,6 +135,11 @@ return [
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+            'heading' => 'Tình trạng ứng dụng',
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
             'navigation' => [
                 'group' => 'Cài đặt',
                 'label' => 'Tình trạng ứng dụng',
@@ -147,6 +156,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -226,6 +236,13 @@ return [
 
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
             'notifications' => [
                 'check_results' => 'Kết quả được kiểm tra từ',
             ],

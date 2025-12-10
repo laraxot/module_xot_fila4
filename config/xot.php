@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -34,6 +35,10 @@
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
 declare(strict_types=1);
 
 
@@ -59,6 +64,7 @@ return [
      * | Using these constants instead of hardcoded paths helps prevent path-related errors.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,6 +120,8 @@ return [
 =======
 >>>>>>> 5400be3e2 (.)
 =======
+>>>>>>> 5ca118c34 (.)
+=======
 return [
     /*
     |--------------------------------------------------------------------------
@@ -125,6 +133,7 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152,12 +161,17 @@ return [
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
     'paths' => [
         'base' => '/var/www/html/exa/base_orisbroker_fila3',
         'laravel' => '/var/www/html/exa/base_orisbroker_fila3/laravel',
         'modules' => '/var/www/html/exa/base_orisbroker_fila3/laravel/Modules',
         'docs' => '/var/www/html/exa/base_orisbroker_fila3/docs',
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -196,6 +210,10 @@ return [
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Module Paths
@@ -216,6 +234,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -288,6 +309,7 @@ return [
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -333,6 +355,10 @@ return [
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
     'module_paths' => [
         'xot' => '/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot',
         'broker' => '/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Broker',

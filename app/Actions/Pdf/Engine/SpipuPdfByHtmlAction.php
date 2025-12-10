@@ -39,6 +39,7 @@ class SpipuPdfByHtmlAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'content' => $html2pdf->output($path, 'S'), // D
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,6 +93,8 @@ class SpipuPdfByHtmlAction
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
             'content' => $html2pdf->output($path, 'S'), // D
 =======
             'content' => $html2pdf->output($path, 'S'),  // D
@@ -99,6 +102,7 @@ class SpipuPdfByHtmlAction
 =======
             'content' => $html2pdf->output($path, 'S'), // D
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
@@ -127,6 +131,8 @@ class SpipuPdfByHtmlAction
             'content' => $html2pdf->output($path, 'S'),  // D
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
             default => $path,
         };
     }

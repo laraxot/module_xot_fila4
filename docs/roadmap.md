@@ -116,6 +116,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [Dettagli e Passi](./roadmap/docs/status.md)
   - [Dettagli e Passi](./roadmap/project_docs/status.md)
   - [Dettagli e Passi](./roadmap/docs/status.md)
@@ -192,10 +193,13 @@
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
   - [Dettagli e Passi](./roadmap/docs/status.md)
 =======
   - [Dettagli e Passi](./roadmap/project_docs/status.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e58b29b (.)
 <<<<<<< HEAD
@@ -224,7 +228,15 @@
   - [Dettagli e Passi](./roadmap/project_docs/status.md)
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -450,6 +462,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 <<<<<<< HEAD
@@ -462,7 +475,12 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
@@ -554,6 +572,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -564,13 +583,18 @@
 =======
 >>>>>>> 5400be3e2 (.)
 =======
+>>>>>>> 5ca118c34 (.)
+=======
 >>>>>>> 1c4bb8cf (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> d79d36e0 (.)
 =======
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
@@ -580,6 +604,8 @@
 =======
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
 =======
@@ -612,7 +638,12 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -801,18 +832,27 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 - [Laravel Framework](https://laravel.com/docs/12.x)
 =======
 - [Laravel Framework](https://laravel.com/project_docs/12.x)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Laravel Framework](https://laravel.com/docs/12.x)
 >>>>>>> 73eab74 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+- [Laravel Framework](https://laravel.com/docs/12.x)
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 
@@ -834,6 +874,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> 5400be3e2 (.)
 =======
@@ -1092,7 +1135,14 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -1109,6 +1159,7 @@
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1142,7 +1193,12 @@
 =======
 >>>>>>> a62d7646 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/project_docs/roadmap.md)
@@ -1213,6 +1269,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -1245,7 +1302,14 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 
 ---

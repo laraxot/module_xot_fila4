@@ -70,6 +70,7 @@ class ThemeService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +124,8 @@ class ThemeService
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 }
 =======
 } 
@@ -130,6 +133,7 @@ class ThemeService
 =======
 }
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
@@ -158,3 +162,5 @@ class ThemeService
 } 
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)

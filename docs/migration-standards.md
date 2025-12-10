@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -148,7 +149,14 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 # Standard per le Migrazioni in 
 
 ## Introduzione
@@ -209,6 +217,7 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -225,6 +234,9 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 # Standard per le Migrazioni in <nome progetto>
 
 ## Introduzione
@@ -394,7 +406,16 @@ Questo documento definisce gli standard e le best practices da seguire per tutte
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 # Standard per le Migrazioni in SaluteOra
 
 ## Introduzione
@@ -607,6 +628,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -620,6 +642,9 @@ return new class extends XotBaseMigration
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
  utilizza diverse connessioni al database per diversi tipi di dati:
 <<<<<<< HEAD
  utilizza diverse connessioni al database per diversi tipi di dati:
@@ -738,7 +763,18 @@ SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+=======
+>>>>>>> f1d4085 (.)
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
 >>>>>>> 5a14301c (.)
 =======
@@ -912,6 +948,7 @@ Ogni modulo può avere best practices specifiche per le migrazioni. Consultare l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 <<<<<<< HEAD
@@ -924,7 +961,12 @@ Ogni modulo può avere best practices specifiche per le migrazioni. Consultare l
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 - [Best Practices per le Migrazioni nel Modulo Patient](/laravel/Modules/Patient/docs/MIGRATION_BEST_PRACTICES.md)
 - [Best Practices per le Migrazioni nel Modulo Tenant](/laravel/Modules/Tenant/docs/MIGRATION_BEST_PRACTICES.md)
 - [Best Practices per le Migrazioni nel Modulo User](/laravel/Modules/User/docs/MIGRATION_BEST_PRACTICES.md)
@@ -1016,6 +1058,7 @@ Ogni modulo può avere best practices specifiche per le migrazioni. Consultare l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -1026,13 +1069,18 @@ Ogni modulo può avere best practices specifiche per le migrazioni. Consultare l
 =======
 >>>>>>> 5400be3e2 (.)
 =======
+>>>>>>> 5ca118c34 (.)
+=======
 >>>>>>> 1c4bb8cf (.)
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> d79d36e0 (.)
 =======
 - [Best Practices per le Migrazioni nel Modulo Patient](/laravel/Modules/Patient/docs/MIGRATION_BEST_PRACTICES.md)
 - [Best Practices per le Migrazioni nel Modulo Tenant](/laravel/Modules/Tenant/docs/MIGRATION_BEST_PRACTICES.md)
 - [Best Practices per le Migrazioni nel Modulo User](/laravel/Modules/User/docs/MIGRATION_BEST_PRACTICES.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
@@ -1042,6 +1090,8 @@ Ogni modulo può avere best practices specifiche per le migrazioni. Consultare l
 =======
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
 =======
@@ -1074,7 +1124,12 @@ Ogni modulo può avere best practices specifiche per le migrazioni. Consultare l
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 ## Errori Comuni e Come Evitarli
 
@@ -1187,6 +1242,7 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -1200,6 +1256,9 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
 <<<<<<< HEAD
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
@@ -1317,6 +1376,14 @@ Seguire questi standard per le migrazioni è fondamentale per garantire la coere
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+=======
+>>>>>>> f1d4085 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
 >>>>>>> 5a14301c (.)
 =======

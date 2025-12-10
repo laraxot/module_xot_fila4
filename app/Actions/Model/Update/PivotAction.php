@@ -24,6 +24,7 @@ class PivotAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -55,6 +56,10 @@ class PivotAction
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, Pivot::class);
@@ -87,6 +92,9 @@ class PivotAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -210,6 +218,7 @@ class PivotAction
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -255,5 +264,9 @@ class PivotAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
     }
 }

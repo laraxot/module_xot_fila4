@@ -8,6 +8,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -43,6 +44,10 @@ return [
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -63,6 +68,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -116,6 +124,7 @@ return [
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -163,6 +172,10 @@ return [
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
 
     'backend' => [
         'access' => [
@@ -188,6 +201,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -267,6 +281,13 @@ return [
 
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
             'users' => [
                 'cant_deactivate_self' => 'Du har inte rättighet att utföra denna handling mot ditt eget konto.',
                 'cant_delete_self' => 'Du kan inte radera ditt eget konto.',
@@ -297,6 +318,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -376,6 +398,13 @@ return [
 
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -395,6 +424,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Ditt konto har inaktiverats.',
             'email_taken' => 'Det finns redan ett konto registrerat med den e-postadressen.',
 <<<<<<< HEAD
@@ -411,6 +441,8 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
             'deactivated' => 'Ditt konto har inaktiverats.',
             'email_taken' => 'Det finns redan ett konto registrerat med den e-postadressen.',
 =======
@@ -475,6 +507,7 @@ return [
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -486,9 +519,12 @@ return [
 =======
 >>>>>>> 6be8834c2 (.)
 =======
+>>>>>>> 5ca118c34 (.)
+=======
             'deactivated' => 'Ditt konto har inaktiverats.',
             'email_taken' => 'Det finns redan ett konto registrerat med den e-postadressen.',
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534,6 +570,8 @@ return [
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
             'password' => [
                 'change_mismatch' => 'Det där var inte ditt gamla lösenord.',
             ],

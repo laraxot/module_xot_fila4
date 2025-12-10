@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
@@ -33,6 +34,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,11 +68,19 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 - Esempio pratico: vedi la correzione e il ragionamento in [Azioni Organizzativa (Performance)](../../Performance/docs/azioni_organizzativa.md).
 
 ### Collegamenti
 - [Azioni Organizzativa (Performance)](../../Performance/docs/azioni_organizzativa.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,7 +114,12 @@
 =======
 >>>>>>> a62d7646 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 - Esempio pratico: vedi la correzione e il ragionamento in [Azioni Organizzativa (Performance)](../../Performance/project_docs/azioni_organizzativa.md).
 
 ### Collegamenti
@@ -124,6 +141,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -153,7 +171,14 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 ## Regole sui Model
 - Nei moduli, i model devono **sempre** estendere `BaseModel` e **mai** direttamente `Model`.
@@ -161,6 +186,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +201,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 - Evitare duplicazioni di model: vedi la discussione e i rischi nella [documentazione Performance](../../Performance/docs/azioni_organizzativa.md#duplicazione-tra-organizzativatotvalutatore-e-organizzativatotvalutatoreid). 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,6 +261,8 @@
 <<<<<<< HEAD
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 - Evitare duplicazioni di model: vedi la discussione e i rischi nella [documentazione Performance](../../Performance/docs/azioni_organizzativa.md#duplicazione-tra-organizzativatotvalutatore-e-organizzativatotvalutatoreid). 
 =======
 - Evitare duplicazioni di model: vedi la discussione e i rischi nella [documentazione Performance](../../Performance/project_docs/azioni_organizzativa.md#duplicazione-tra-organizzativatotvalutatore-e-organizzativatotvalutatoreid). 
@@ -239,6 +270,7 @@
 =======
 - Evitare duplicazioni di model: vedi la discussione e i rischi nella [documentazione Performance](../../Performance/docs/azioni_organizzativa.md#duplicazione-tra-organizzativatotvalutatore-e-organizzativatotvalutatoreid). 
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
@@ -276,7 +308,12 @@
 - Evitare duplicazioni di model: vedi la discussione e i rischi nella [documentazione Performance](../../Performance/project_docs/azioni_organizzativa.md#duplicazione-tra-organizzativatotvalutatore-e-organizzativatotvalutatoreid). 
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 ## Regole permanenti per Action Filament custom
 
@@ -312,6 +349,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
@@ -321,6 +359,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,13 +393,21 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 - Vedi [Performance/docs/organizzativa-migration-errors.md](../../Performance/docs/organizzativa-migration-errors.md) per esempio pratico, motivazione e memoria storica.
 - Queste regole sono obbligatorie per tutti i moduli che implementano action custom Filament.
 
 ### Collegamenti
 - [Performance: pattern e anti-pattern Action Filament](../../Performance/docs/organizzativa-migration-errors.md)
 - [Indice e collegamenti root](../../../docs/links.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,7 +441,12 @@
 =======
 >>>>>>> a62d7646 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 - Vedi [Performance/project_docs/organizzativa-migration-errors.md](../../Performance/project_docs/organizzativa-migration-errors.md) per esempio pratico, motivazione e memoria storica.
 - Queste regole sono obbligatorie per tutti i moduli che implementano action custom Filament.
 
@@ -416,6 +470,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -445,7 +500,14 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 ## Regole sulle colonne delle tabelle Filament
 - Le colonne delle tabelle Filament devono corrispondere esattamente a quelle del modello e della migrazione.
@@ -494,6 +556,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -504,6 +567,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 - Vedi [Performance/project_docs/organizzativa_cat_coeffs.md](../../Performance/project_docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
 - Vedi [Performance/docs/organizzativa_cat_coeffs.md](../../Performance/docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
 - Vedi [Performance/docs/organizzativa_cat_coeffs.md](../../Performance/docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
@@ -548,11 +614,17 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 - Vedi [Performance/docs/organizzativa_cat_coeffs.md](../../Performance/docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
 =======
 - Vedi [Performance/project_docs/organizzativa_cat_coeffs.md](../../Performance/project_docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,4 +777,12 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+- Vedi [Performance/docs/organizzativa_cat_coeffs.md](../../Performance/docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)

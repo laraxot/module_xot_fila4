@@ -82,6 +82,7 @@ Deptrac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -92,6 +93,9 @@ Deptrac
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,7 +141,14 @@ Deptrac
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 * [links.md](../../../Gdpr/docs/links.md)
 * [links.md](../../../Notify/docs/links.md)
 * [links.md](../../../Xot/docs/ci/links.md)
@@ -160,6 +171,7 @@ Deptrac
 >>>>>>> 2f3197ab (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,7 +205,12 @@ Deptrac
 =======
 >>>>>>> a62d7646 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 * [links.md](../../../Gdpr/project_docs/links.md)
 * [links.md](../../../Notify/project_docs/links.md)
 * [links.md](../../../Xot/project_docs/ci/links.md)
@@ -223,6 +240,7 @@ Deptrac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -266,7 +284,14 @@ Deptrac
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 
 ### Versione Incoming
@@ -317,6 +342,7 @@ Deptrac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -327,6 +353,9 @@ Deptrac
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,7 +401,14 @@ Deptrac
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 - [Modulo Lang](../../../Lang/docs/links.md)
   > Gestione delle traduzioni per il core system. Fondamentale per l'internazionalizzazione.
 
@@ -396,6 +432,7 @@ Deptrac
 >>>>>>> 2f3197ab (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,7 +466,12 @@ Deptrac
 =======
 >>>>>>> a62d7646 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 - [Modulo Lang](../../../Lang/project_docs/links.md)
   > Gestione delle traduzioni per il core system. Fondamentale per l'internazionalizzazione.
 
@@ -460,6 +502,7 @@ Deptrac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -503,7 +546,14 @@ Deptrac
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
   > Gestione della cache del sistema. Ottimizzazione delle performance.
 
 ## Implementazioni di Esempio

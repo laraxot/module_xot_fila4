@@ -39,6 +39,7 @@ section: content
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -49,6 +50,9 @@ section: content
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 <<<<<<< HEAD
@@ -167,6 +171,8 @@ section: content
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 * [model.md](../../../Xot/docs/model.md)
 * [model.md](../../../Xot/docs/service/model.md)
 >>>>>>> 7468a7d2 (.)
@@ -187,6 +193,7 @@ section: content
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 <<<<<<< HEAD
@@ -196,6 +203,8 @@ section: content
 >>>>>>> e769883c (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
 =======
@@ -257,7 +266,12 @@ section: content
 * [model.md](../../../Xot/project_docs/service/model.md)
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 
 ### Versione Incoming

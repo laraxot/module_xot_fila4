@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -148,7 +149,14 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 # Links
 
 ## Documentazione Generale
@@ -448,6 +456,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -474,7 +483,12 @@
 =======
 >>>>>>> a62d7646 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 # Collegamenti Documentazione Modulo Xot
 
 ## Documentazione Generica
@@ -498,6 +512,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -527,7 +542,14 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 ## Documentazione Tecnica
 - [Regole di Progetto](./rules/PROMPT_RULES.md)
@@ -546,6 +568,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
@@ -555,6 +578,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -586,7 +612,14 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 - [Cms](../Cms/docs/README.md) - Frontend
 - [UI](../UI/docs/README.md) - Componenti
 - [User](../User/docs/README.md) - Utenti e Permessi
@@ -646,6 +679,7 @@
 - [Gdpr](../Gdpr/project_docs/README.md) - GDPR
 - [Job](../Job/project_docs/README.md) - Jobs
 - [Chart](../Chart/project_docs/README.md) - Grafici 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -946,6 +980,8 @@
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> d79d36e0 (.)
+=======
 - [Cms](../Cms/project_docs/README.md) - Frontend
 - [UI](../UI/project_docs/README.md) - Componenti
 - [User](../User/project_docs/README.md) - Utenti e Permessi
@@ -984,6 +1020,16 @@
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)

@@ -21,6 +21,7 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +75,8 @@ class BelongsToAction
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
 =======
     public function execute(Model $model, RelationDTO $relationDTO): void
@@ -81,6 +84,7 @@ class BelongsToAction
 =======
     public function execute(Model $_model, RelationDTO $relationDTO): void
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
@@ -109,6 +113,8 @@ class BelongsToAction
     public function execute(Model $model, RelationDTO $relationDTO): void
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsTo::class);
 
@@ -119,6 +125,7 @@ class BelongsToAction
         // $rows = $relation->rows;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,7 +309,14 @@ class BelongsToAction
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
         // dd([$relation->name]);
         // dd([$relation->name]);
         // dd([$relation->name]);
@@ -335,6 +349,9 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -464,6 +481,7 @@ class BelongsToAction
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -509,5 +527,9 @@ class BelongsToAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
     }
 }

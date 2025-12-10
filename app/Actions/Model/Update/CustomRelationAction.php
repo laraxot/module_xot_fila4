@@ -37,6 +37,7 @@ class CustomRelationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,6 +76,8 @@ class CustomRelationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 5ca118c34 (.)
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 =======
                 // Assicura che $data sia type-safe per UpdateAction
@@ -97,6 +100,7 @@ class CustomRelationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -166,6 +170,11 @@ class CustomRelationAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {

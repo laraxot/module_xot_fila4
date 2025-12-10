@@ -22,6 +22,7 @@ class GetModuleNameByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return is_string($module) ? $module : ((string) $module);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,6 +76,8 @@ class GetModuleNameByModelClassAction
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
         return is_string($module) ? $module : ((string) $module);
 =======
         return is_string($module) ? $module : (string) $module;
@@ -82,6 +85,7 @@ class GetModuleNameByModelClassAction
 =======
         return is_string($module) ? $module : ((string) $module);
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
@@ -110,5 +114,7 @@ class GetModuleNameByModelClassAction
         return is_string($module) ? $module : (string) $module;
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
     }
 }

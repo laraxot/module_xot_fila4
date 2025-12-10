@@ -51,8 +51,11 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 358ba79a7 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 use Modules\<nome modulo>\Models\User;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,6 +85,7 @@ use Modules\<nome modulo>\Models\User;
 =======
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7131bd09 (.)
 =======
@@ -146,7 +150,15 @@ use Modules\<nome modulo>\Models\User;
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+use Modules\<nome modulo>\Models\User;
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 use Modules\SaluteOra\Models\User;
 =======
 >>>>>>> a5dccfe (.)
@@ -358,6 +370,7 @@ $user = User::factory()->create([...]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -371,6 +384,9 @@ $user = User::factory()->create([...]);
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -488,6 +504,14 @@ $user = User::factory()->create([...]);
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+=======
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+=======
+>>>>>>> f1d4085 (.)
+=======
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -685,6 +709,7 @@ $user = $userClass::factory()->create($attributes);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -698,6 +723,9 @@ $user = $userClass::factory()->create($attributes);
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -833,7 +861,18 @@ $user = $userClass::factory()->create($attributes);
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+=======
+>>>>>>> f1d4085 (.)
+=======
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
 >>>>>>> 5a14301c (.)
 =======
@@ -1051,6 +1090,7 @@ public function processUser(UserContract $user): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -1064,6 +1104,9 @@ public function processUser(UserContract $user): void
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 =======
@@ -1193,7 +1236,18 @@ public function processUser(\Modules\<nome modulo>\Models\User $user): void
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> f1d4085 (.)
+=======
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 public function processUser(\Modules\SaluteOra\Models\User $user): void
@@ -1502,6 +1556,7 @@ use Modules\<nome modulo>\Models\Doctor;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -1515,6 +1570,9 @@ use Modules\<nome modulo>\Models\Doctor;
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
@@ -1583,11 +1641,14 @@ use Modules\<nome modulo>\Models\Doctor;
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1601,10 +1662,13 @@ use Modules\<nome modulo>\Models\Doctor;
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
+>>>>>>> d79d36e0 (.)
+=======
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1719,7 +1783,12 @@ use Modules\<nome modulo>\Models\Doctor;
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
@@ -1953,6 +2022,7 @@ use Modules\Xot\Datas\XotData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -1966,6 +2036,9 @@ use Modules\Xot\Datas\XotData;
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
 <<<<<<< HEAD
 =======
@@ -2095,7 +2168,18 @@ $user = \Modules\<nome modulo>\Models\User::find($id);
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+$user = \Modules\<nome modulo>\Models\User::find($id);
+=======
+>>>>>>> f1d4085 (.)
+=======
+$user = \Modules\<nome modulo>\Models\User::find($id);
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
 $user = \Modules\<nome modulo>\Models\User::find($id);
 $user = \Modules\SaluteOra\Models\User::find($id);
@@ -2261,6 +2345,7 @@ $user = $userClass::find($id);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -2274,6 +2359,9 @@ $user = $userClass::find($id);
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 =======
@@ -2403,7 +2491,18 @@ function updateUser(\Modules\<nome modulo>\Models\User $user): void
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> f1d4085 (.)
+=======
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 function updateUser(\Modules\SaluteOra\Models\User $user): void
@@ -2656,6 +2755,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
@@ -2683,6 +2783,8 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 >>>>>>> 88ee35c4e (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
 <<<<<<< HEAD
@@ -2794,7 +2896,14 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 >>>>>>> cafe8bed (.)
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
@@ -2803,6 +2912,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2820,6 +2930,9 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 5e58b29b (.)
@@ -2828,10 +2941,13 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 >>>>>>> a62d7646 (.)
 =======
+>>>>>>> d79d36e0 (.)
+=======
 - [Cms Architecture](../../Cms/project_docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/project_docs/traits_complete_guide.md)
 - [Testing Strategy](../../SaluteOra/project_docs/testing/real-data-testing-strategy.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3004,7 +3120,14 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 ---
 
@@ -3013,6 +3136,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3324,4 +3448,15 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+**Responsabile**: Team Architettura Laraxot 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Responsabile**: Team Architettura Laraxot 
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)

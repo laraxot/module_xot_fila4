@@ -94,6 +94,7 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'post_id',
         'post_type',
 <<<<<<< HEAD
@@ -120,11 +121,14 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
         'post_id',
         'post_type',
 =======
         'post_id', 'post_type',
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
@@ -133,9 +137,12 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 =======
 >>>>>>> 6be8834c2 (.)
 =======
+>>>>>>> 5ca118c34 (.)
+=======
         'post_id',
         'post_type',
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,6 +207,8 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
         'post_id', 'post_type',
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
         'related_type',
         'user_id',
         'note',
@@ -223,6 +232,7 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 6be8834c2 (.)
@@ -244,6 +254,8 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -292,6 +304,7 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -299,9 +312,12 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 >>>>>>> a12f125f4a (.)
 >>>>>>> 358ba79a7 (.)
 =======
+>>>>>>> 5ca118c34 (.)
+=======
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
@@ -332,6 +348,9 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

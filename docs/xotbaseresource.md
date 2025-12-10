@@ -158,6 +158,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -168,6 +169,9 @@ class NotificationResource extends XotBaseResource
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213,7 +217,14 @@ class NotificationResource extends XotBaseResource
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 - [Architettura Filament](../../../docs/architecture/filament.md)
 - [Gestione Risorse](../../../docs/architecture/resources.md)
 - [Regole XotBaseResource](../../../docs/regole/xotbaseresource-rules.md)
@@ -233,6 +244,7 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 2f3197ab (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,7 +278,12 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> a62d7646 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 - [Architettura Filament](../../../project_docs/architecture/filament.md)
 - [Gestione Risorse](../../../project_docs/architecture/resources.md)
 - [Regole XotBaseResource](../../../project_docs/regole/xotbaseresource-rules.md)
@@ -293,6 +310,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -336,7 +354,14 @@ class NotificationResource extends XotBaseResource
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 ## Note Importanti
 

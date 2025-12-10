@@ -17,6 +17,7 @@ use ReflectionClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43,11 +44,16 @@ use ReflectionClass;
 >>>>>>> 358ba79a7 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\file;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,12 +128,15 @@ use function Safe\file;
 =======
 >>>>>>> 5400be3e2 (.)
 =======
+>>>>>>> 5ca118c34 (.)
+=======
 use function Safe\file;
 
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,6 +172,10 @@ use function Safe\file;
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
 class GetMethodBodyAction
 {
     use QueueableAction;

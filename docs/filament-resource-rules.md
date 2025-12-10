@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -148,7 +149,14 @@
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 # Regole per le Risorse Filament in 
 
 ## Panoramica
@@ -214,6 +222,7 @@ Tutte le risorse Filament in  **DEVONO** estendere `Modules\Xot\Filament\Resourc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
 =======
 <<<<<<< HEAD
@@ -233,6 +242,9 @@ Tutte le risorse Filament in  **DEVONO** estendere `Modules\Xot\Filament\Resourc
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 # Regole per le Risorse Filament in <nome progetto>
 
 ## Panoramica
@@ -411,7 +423,16 @@ Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\F
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 # Regole per le Risorse Filament in SaluteOra
 
 ## Panoramica
@@ -825,8 +846,11 @@ class DoctorResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 - [Filament Form Builder](/docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/docs/translation-management.md)
 - [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
@@ -995,6 +1019,7 @@ class DoctorResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -1008,10 +1033,13 @@ class DoctorResource extends XotBaseResource
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
+>>>>>>> d79d36e0 (.)
+=======
 - [Filament Form Builder](/docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/docs/translation-management.md)
 - [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1101,4 +1129,9 @@ class DoctorResource extends XotBaseResource
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)

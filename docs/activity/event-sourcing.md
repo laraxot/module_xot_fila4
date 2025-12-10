@@ -64,6 +64,7 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -74,6 +75,9 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 * [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
 * [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
 <<<<<<< HEAD
@@ -192,6 +196,8 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 * [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
 * [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
 >>>>>>> 7468a7d2 (.)
@@ -212,6 +218,7 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 <<<<<<< HEAD
@@ -221,6 +228,8 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 >>>>>>> e769883c (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
 =======
@@ -282,7 +291,12 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 * [event-sourcing.md](../../../Tenant/project_docs/it/config/event-sourcing.md)
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 
 ### Versione Incoming

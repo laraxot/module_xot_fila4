@@ -20,6 +20,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +73,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 5ca118c34 (.)
      *
 =======
      * 
@@ -79,6 +82,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
      *
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
 =======
@@ -102,6 +106,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
      * 
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
      * @var array<string, bool>
      */
     private static array $processedPanels = [];
@@ -114,6 +120,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,11 +168,14 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
 =======
+=======
+>>>>>>> 5ca118c34 (.)
         $package->name('cool-modules');
 =======
         $package
             ->name('cool-modules');
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 >>>>>>> 6be8834c2 (.)
@@ -190,6 +200,11 @@ class CoolModulesServiceProvider extends PackageServiceProvider
             ->name('cool-modules');
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+        $package->name('cool-modules');
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
     }
 
     public function register(): void
@@ -206,6 +221,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
         $this->app->afterResolving('filament', function () {
         $this->app->afterResolving('filament', function () {
             $panels = Filament::getPanels();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +260,10 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
 
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
@@ -260,6 +280,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -323,6 +346,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -368,10 +392,15 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
                 // Controlla se questo panel è già stato processato
                 if (isset(self::$processedPanels[$panelId])) {
                     continue;
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -410,6 +439,10 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
 
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
@@ -447,6 +480,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -592,6 +628,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -637,6 +674,10 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
                     // Marca questo panel come processato
                     self::$processedPanels[$panelId] = true;
                 }

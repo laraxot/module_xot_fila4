@@ -6,6 +6,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -41,6 +42,10 @@ declare(strict_types=1);
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
 return [
     'id' => 'id',
     'level' => 'level',
@@ -53,6 +58,7 @@ return [
     'updated_at' => 'updated_at',
     'deleted_at' => 'deleted_at',
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,3 +143,10 @@ return ['id' => 'id', 'level' => 'level', 'name' => 'name', 'color' => 'color', 
 return ['id' => 'id', 'level' => 'level', 'name' => 'name', 'color' => 'color', 'created_by' => 'created_by', 'updated_by' => 'updated_by', 'deleted_by' => 'deleted_by', 'created_at' => 'created_at', 'updated_at' => 'updated_at', 'deleted_at' => 'deleted_at'];
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+return ['id' => 'id', 'level' => 'level', 'name' => 'name', 'color' => 'color', 'created_by' => 'created_by', 'updated_by' => 'updated_by', 'deleted_by' => 'deleted_by', 'created_at' => 'created_at', 'updated_at' => 'updated_at', 'deleted_at' => 'deleted_at'];
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)

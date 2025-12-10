@@ -86,6 +86,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -207,7 +208,14 @@ Here’s a quick preview of what some of the basic type styles will look like in
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
@@ -245,6 +253,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -407,7 +416,16 @@ Here’s a quick preview of what some of the basic type styles will look like in
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 ## h2 Heading
 
@@ -551,6 +569,7 @@ class Foo extends bar
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
@@ -686,7 +705,14 @@ class Foo extends bar
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 * [customizing-your-site.md](../../../Gdpr/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Xot/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../UI/docs/customizing-your-site.md)
@@ -707,6 +733,7 @@ class Foo extends bar
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -719,14 +746,20 @@ class Foo extends bar
 >>>>>>> 5400be3e2 (.)
 =======
 <<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
 =======
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
+>>>>>>> d79d36e0 (.)
+=======
 >>>>>>> f1d4085 (.)
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -771,7 +804,12 @@ class Foo extends bar
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 
 ### Versione Incoming

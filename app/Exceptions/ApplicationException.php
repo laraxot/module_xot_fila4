@@ -27,6 +27,7 @@ abstract class ApplicationException extends Exception
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render(Request $_request): Response
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +81,8 @@ abstract class ApplicationException extends Exception
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
     public function render(Request $_request): Response
 =======
     public function render(Request $request): Response
@@ -87,6 +90,7 @@ abstract class ApplicationException extends Exception
 =======
     public function render(Request $_request): Response
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
@@ -115,6 +119,8 @@ abstract class ApplicationException extends Exception
     public function render(Request $request): Response
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
     {
         $applicationError = new ApplicationError($this->help(), $this->error());
 

@@ -115,6 +115,7 @@ Prima di ogni commit, verificare che le risorse Filament non contengano metodi p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -236,7 +237,14 @@ Prima di ogni commit, verificare che le risorse Filament non contengano metodi p
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_techplanner_fila3_mono/laravel/Modules/
@@ -315,6 +323,7 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
@@ -325,6 +334,9 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
 grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_<nome progetto>/laravel/Modules/
@@ -519,7 +531,16 @@ grep -r "public static function getNavigationGroup" --include="*Resource.php" /v
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 grep -r "public static function getTableColumns" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getTableFilters" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/
 grep -r "public static function getTableActions" --include="*Resource.php" /var/www/html/base_saluteora/laravel/Modules/

@@ -19,6 +19,7 @@ class MorphManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +73,8 @@ class MorphManyAction
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 =======
     public function execute(Model $model, RelationDTO $relationDTO): void
@@ -79,6 +82,7 @@ class MorphManyAction
 =======
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
@@ -107,6 +111,8 @@ class MorphManyAction
     public function execute(Model $model, RelationDTO $relationDTO): void
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
     {
         // Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
         dddx('wip');

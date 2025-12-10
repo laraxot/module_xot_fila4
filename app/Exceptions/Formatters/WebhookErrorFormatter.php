@@ -95,6 +95,7 @@ class WebhookErrorFormatter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Throwable $exception,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +145,8 @@ class WebhookErrorFormatter
 <<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
         private Throwable $exception,
 =======
         private Throwable $exception
@@ -151,6 +154,7 @@ class WebhookErrorFormatter
 =======
         private Throwable $exception,
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
@@ -174,6 +178,8 @@ class WebhookErrorFormatter
         private Throwable $exception
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
     ) {}
 
     /**
@@ -189,6 +195,7 @@ class WebhookErrorFormatter
             'file' => $this->exception->getFile(),
             'line' => $this->exception->getLine(),
             'trace' => $this->exception->getTraceAsString(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +223,10 @@ class WebhookErrorFormatter
 >>>>>>> 6be8834c2 (.)
 =======
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
             'exception' => sprintf('`%s` (Code `%s`)', get_class($this->exception), $this->exception->getCode()),
             'thrown_in' => sprintf('`%s`:%d', $this->exception->getFile(), $this->exception->getLine()),
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
@@ -238,6 +249,9 @@ class WebhookErrorFormatter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -378,6 +392,7 @@ class WebhookErrorFormatter
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -416,6 +431,10 @@ class WebhookErrorFormatter
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 5ca118c34 (.)
         ];
     }
 }

@@ -98,6 +98,7 @@ Modules/<NomeModulo>/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -108,6 +109,9 @@ Modules/<NomeModulo>/
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 <<<<<<< HEAD
@@ -226,6 +230,8 @@ Modules/<NomeModulo>/
 >>>>>>> 34579462 (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 >>>>>>> 7468a7d2 (.)
@@ -246,6 +252,7 @@ Modules/<NomeModulo>/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 =======
 <<<<<<< HEAD
@@ -255,6 +262,8 @@ Modules/<NomeModulo>/
 >>>>>>> e769883c (.)
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
 =======
@@ -316,7 +325,12 @@ Modules/<NomeModulo>/
 - [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
 >>>>>>> f1d4085 (.)
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 ## Struttura
 
@@ -630,6 +644,7 @@ Action::make('delete')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
@@ -640,6 +655,9 @@ Action::make('delete')
 =======
 <<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5ca118c34 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -685,7 +703,14 @@ Action::make('delete')
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -715,6 +740,7 @@ Action::make('delete')
 >>>>>>> 2f3197ab (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -748,7 +774,12 @@ Action::make('delete')
 =======
 >>>>>>> a62d7646 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5ca118c34 (.)
 * [translations.md](../../../Chart/project_docs/translations.md)
 * [translations.md](../../../Reporting/project_docs/translations.md)
 * [translations.md](../../../Gdpr/project_docs/translations.md)
@@ -785,6 +816,7 @@ Action::make('delete')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -828,7 +860,14 @@ Action::make('delete')
 =======
 =======
 >>>>>>> a62d7646 (.)
+<<<<<<< HEAD
 >>>>>>> 5400be3e2 (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+>>>>>>> 5ca118c34 (.)
 
 
 ### Versione Incoming

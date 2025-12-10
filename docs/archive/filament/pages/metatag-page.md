@@ -84,8 +84,14 @@ use Modules\Xot\Filament\Pages\MetatagPage;
 ## Link Correlati
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](../../../docs/filament/index.md)
 - [Configurazione SEO](../../../docs/seo/index.md)
 - [Gestione Temi](../../../docs/themes/index.md) 
 >>>>>>> 85cdef688 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Configurazione SEO](../../../docs/seo/index.md)
+- [Gestione Temi](../../../docs/themes/index.md) 
+>>>>>>> 6ca989d8 (.)

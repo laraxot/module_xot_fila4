@@ -199,6 +199,10 @@ $percentage = SafeFloatCastAction::castAsPercentage(($completed / $total) * 100)
 - [PHPStan Level 10 Guidelines](phpstan_level10_guidelines.md)
 - [Type Safety Best Practices](type_safety_best_practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laraxot Coding Standards](../../../project_docs/coding_standards.md)
 >>>>>>> 85cdef688 (.)
+=======
+- [Laraxot Coding Standards](../../../docs/coding_standards.md)
+>>>>>>> 6ca989d8 (.)

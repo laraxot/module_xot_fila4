@@ -32,7 +32,11 @@ class MyCustomWidget extends XotBaseWidget
 ## Riferimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament Widgets](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/index.md)
 >>>>>>> 85cdef688 (.)
+=======
+- [Documentazione Filament Widgets](/var/www/html/base_generic/laravel/Modules/Xot/docs/filament/widgets/index.md)
+>>>>>>> 6ca989d8 (.)
 - [XotBaseWidget](/var/www/html/base_generic/laravel/Modules/Xot/app/Filament/Widgets/XotBaseWidget.php) 

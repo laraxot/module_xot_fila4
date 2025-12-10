@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 <<<<<<< HEAD
@@ -31,6 +32,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
 # Code Quality - Xot Module
 
 > Last Updated: 2025-11-15 08:05:46
@@ -234,7 +238,12 @@ vendor/bin/phpstan analyse path/to/changed/file.php --level=10
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -336,6 +345,7 @@ This document outlines the best practices for maintaining high code quality with
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -414,7 +424,12 @@ This document outlines the best practices for maintaining high code quality with
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -619,6 +634,7 @@ $content = \file_get_contents($path); // Può restituire false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -745,7 +761,13 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 
@@ -843,6 +865,25 @@ unset($translations['existing_key']); // MAI!
 
 **Data**: 2025-08-01  
 **Versione**: 2.0  
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+>>>>>>> 6ca989d8 (.)
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
@@ -850,6 +891,7 @@ unset($translations['existing_key']); // MAI!
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+<<<<<<< HEAD
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
@@ -863,7 +905,40 @@ unset($translations['existing_key']); // MAI!
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
 **Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 ---
 
 *"Nel codice Laraxot, ogni riga è un verso della sinfonia dell'architettura perfetta."*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

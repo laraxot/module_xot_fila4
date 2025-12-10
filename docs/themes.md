@@ -20,6 +20,20 @@ il progetto utilizza un sistema di temi basato su Filament 4.3. Ogni tema è un 
 il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
 # Temi in il progetto
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
 il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
 # Temi in il progetto
 
@@ -48,6 +62,14 @@ il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un 
 # Temi in il progetto
 
 il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+il progetto utilizza un sistema di temi basato su Filament 4.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 ## Struttura dei Temi
 
@@ -93,7 +115,21 @@ Le viste devono essere organizzate in:
 
 ## Tema One
 
+<<<<<<< HEAD
 Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
 Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
 Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
 Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
@@ -138,6 +174,14 @@ Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e i
 Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
 Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
 Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 ### Blocchi Disponibili
 - Hero
@@ -221,12 +265,38 @@ Per personalizzare un tema:
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
 =======
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 218dfed3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
 
 
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

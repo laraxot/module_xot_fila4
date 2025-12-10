@@ -49,9 +49,15 @@
 - [Linee Guida Sicurezza](../../security/guidelines.md) 
 ## Collegamenti tra versioni di status.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [status.md](../../../Xot/docs/roadmap/docs/status.md)
 * [status.md](../../../Xot/docs/roadmap/testing/status.md)
 * [status.md](../../../Xot/docs/roadmap/security/status.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [status.md](../../../Xot/docs/roadmap/docs/status.md)
+* [status.md](../../../Xot/docs/roadmap/testing/status.md)
+* [status.md](../../../Xot/docs/roadmap/security/status.md)
+>>>>>>> 6ca989d8 (.)
 

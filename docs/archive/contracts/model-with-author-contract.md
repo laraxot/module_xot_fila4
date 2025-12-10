@@ -27,6 +27,27 @@ interface ModelWithAuthorContract extends ModelContract
 ## Collegamenti
 - [ModelContract](model-contract.md)
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+=======
+>>>>>>> 6ca989d8 (.)
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+<<<<<<< HEAD
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
@@ -44,13 +65,12 @@ interface ModelWithAuthorContract extends ModelContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+=======
+>>>>>>> 71f31700 (.)
+=======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 - [Contracts Overview](./README.md)
 
     $table->foreign('deleter_id')->references('id')->on('users');
@@ -102,6 +122,34 @@ class Article extends Model implements ModelWithAuthorContract
 - Implementare sempre tutte le relazioni richieste
 - Gestire correttamente i casi di soft delete
 - Mantenere la consistenza dei dati nelle relazioni
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6ca989d8 (.)
+- Documentare eventuali personalizzazioni 
+- Documentare eventuali personalizzazioni 
+- Documentare eventuali personalizzazioni 
+- Documentare eventuali personalizzazioni 
+- Documentare eventuali personalizzazioni 
+- Documentare eventuali personalizzazioni 
+- Documentare eventuali personalizzazioni 
+- Documentare eventuali personalizzazioni 
+<<<<<<< HEAD
 - Documentare eventuali personalizzazioni 
 - Documentare eventuali personalizzazioni 
 - Documentare eventuali personalizzazioni 
@@ -133,11 +181,12 @@ class Article extends Model implements ModelWithAuthorContract
 - Documentare eventuali personalizzazioni 
 - Documentare eventuali personalizzazioni 
 - Documentare eventuali personalizzazioni 
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
 - Documentare eventuali personalizzazioni 
-- Documentare eventuali personalizzazioni 
-- Documentare eventuali personalizzazioni 
-- Documentare eventuali personalizzazioni 
-- Documentare eventuali personalizzazioni 
-- Documentare eventuali personalizzazioni 
-- Documentare eventuali personalizzazioni 
-- Documentare eventuali personalizzazioni 
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

@@ -88,10 +88,15 @@ return $def1;
 ## Collegamenti tra versioni di database.md
 * [database.md](docs/tecnico/database/database.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [database.md](../../../Xot/docs/install/database.md)
 * [database.md](../../../Tenant/docs/it/config/database.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [database.md](../../../Xot/docs/install/database.md)
+* [database.md](../../../Tenant/docs/it/config/database.md)
+>>>>>>> 6ca989d8 (.)
 
 
 ### Versione Incoming

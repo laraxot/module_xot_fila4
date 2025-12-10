@@ -218,6 +218,19 @@ Prima di committare la documentazione:
 Quando si fa riferimento a concetti o classi in altri moduli, utilizzare collegamenti relativi:
 
 ```markdown
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
 <<<<<<< HEAD
 =======
@@ -322,6 +335,9 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/d
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+>>>>>>> c35986f4 (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
 ```
 
@@ -330,6 +346,19 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/d
 Alcuni argomenti comuni a più moduli dovrebbero essere documentati nel modulo Xot e poi referenziati dagli altri moduli:
 
 ```markdown
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
 <<<<<<< HEAD
 =======
@@ -434,6 +463,9 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+>>>>>>> c35986f4 (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
 ```
 
@@ -493,3 +525,31 @@ Per implementare queste linee guida:
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Documentazione Laravel](https://laravel.com/docs)
 - [Documentazione PHPDoc](https://docs.phpdoc.org/)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

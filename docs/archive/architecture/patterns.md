@@ -82,11 +82,17 @@ Elenco di pratiche da evitare nello sviluppo.
 
 ## Collegamenti tra versioni di patterns.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [patterns.md](../../../Xot/docs/en/patterns.md)
 * [patterns.md](../../../Xot/docs/it/patterns.md)
 * [patterns.md](../../../Xot/docs/architecture/patterns.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [patterns.md](../../../Xot/docs/en/patterns.md)
+* [patterns.md](../../../Xot/docs/it/patterns.md)
+* [patterns.md](../../../Xot/docs/architecture/patterns.md)
+>>>>>>> 6ca989d8 (.)
 
 
 ### Versione Incoming

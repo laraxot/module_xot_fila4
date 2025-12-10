@@ -82,6 +82,7 @@ The Xot base classes provide a centralized way to customize and extend functiona
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88ea7103 (.)
 =======
@@ -179,4 +180,9 @@ The Xot base classes provide a centralized way to customize and extend functiona
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

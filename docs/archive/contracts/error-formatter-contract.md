@@ -37,6 +37,27 @@ interface ErrorFormatterContract
 ## Collegamenti
 - [Error Handling Guidelines](../EXCEPTION-HANDLING-GUIDE.md)
 - [Error Formatters](../exceptions/formatters/README.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+=======
+>>>>>>> 6ca989d8 (.)
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+<<<<<<< HEAD
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
@@ -54,10 +75,9 @@ interface ErrorFormatterContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+=======
+>>>>>>> 71f31700 (.)
+=======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

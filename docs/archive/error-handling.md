@@ -30,10 +30,15 @@
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Patient Errori e Soluzioni](../../Patient/docs/models.md)
 - [Patient Workflow](../../Patient/docs/doctor-registration-workflow.md)
 >>>>>>> 85cdef688 (.)
+=======
+- [Patient Errori e Soluzioni](../../Patient/docs/models.md)
+- [Patient Workflow](../../Patient/docs/doctor-registration-workflow.md)
+>>>>>>> 6ca989d8 (.)
 - [README Xot](./README.md)
 
 # Errori di Validazione Custom (Laravel)
@@ -60,6 +65,10 @@ throw new \Illuminate\Validation\ValidationException(
 
 ## Approfondimenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Patient: errors/validation.md](../../Patient/docs/errors/validation.md) 
 >>>>>>> 85cdef688 (.)
+=======
+- [Patient: errors/validation.md](../../Patient/docs/errors/validation.md) 
+>>>>>>> 6ca989d8 (.)

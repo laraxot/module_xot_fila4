@@ -47,6 +47,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -55,6 +56,7 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 71f31700 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
 uses(TestCase::class)->in('Feature', 'Unit');
 
@@ -91,10 +93,23 @@ uses(TestCase::class)->in('Feature', 'Unit');
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
+=======
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 uses(TestCase::class)->in('Feature', 'Unit');
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 6ca989d8 (.)
 uses(TestCase::class)->in('Feature', 'Unit');
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
@@ -129,7 +144,13 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 =======
 uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> c84488b (.)
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -162,21 +183,70 @@ uses(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
  * | Quando definisci aspettative globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
  * | Quando definisci here expectation globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6ca989d8 (.)
 namespace Modules\Xot\Tests\Pest;
 namespace Modules\Xot\Tests\Pest;
 namespace Modules\Xot\Tests\Pest;
@@ -979,7 +1049,14 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+
+>>>>>>> c84488b (.)
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -1072,6 +1149,7 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 >>>>>>> a67e542f (.)
@@ -1092,7 +1170,16 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> e59778ae (.)
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+// function something() {
+//     // ...
+// }
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 // function something() {
 //     // ...
@@ -1102,6 +1189,7 @@ namespace Modules\Xot\Tests\Pest;
 //     // ...
 // }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1456,4 +1544,10 @@ namespace Modules\Xot\Tests\Pest;
 //     // ...
 // }
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> c84488b (.)
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

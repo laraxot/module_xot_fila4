@@ -158,8 +158,12 @@ Our current MySQL-based testing approach without `RefreshDatabase` provides the 
 ## Additional Resources
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 >>>>>>> 85cdef688 (.)
+=======
+- [Laravel Testing Documentation](https://laravel.com/docs/testing)
+>>>>>>> 6ca989d8 (.)
 - [Database Testing Best Practices](https://laracasts.com/series/phpunit-testing-in-laravel-6)
 - [Testing Strategies for Laravel Applications](https://tighten.co/blog/5-questions-every-laravel-test-answers)

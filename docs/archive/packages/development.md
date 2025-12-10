@@ -82,10 +82,15 @@ Ignition::editor('vscode');
 
 ## Collegamenti tra versioni di development.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [development.md](../../../Gdpr/docs/development.md)
 * [development.md](../../../Xot/docs/packages/development.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [development.md](../../../Gdpr/docs/development.md)
+* [development.md](../../../Xot/docs/packages/development.md)
+>>>>>>> 6ca989d8 (.)
 
 
 ### Versione Incoming

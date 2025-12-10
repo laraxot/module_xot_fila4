@@ -17,9 +17,13 @@ Il file `AutoLabelAction.php` presentava marker di conflitto (``) e duplicazioni
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Doc root Xot](/docs/index.md)
 >>>>>>> 85cdef688 (.)
+=======
+- [Doc root Xot](/docs/index.md)
+>>>>>>> 6ca989d8 (.)
 
 ---
 

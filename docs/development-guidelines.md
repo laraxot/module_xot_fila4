@@ -24,11 +24,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
 =======
 >>>>>>> a67e542f (.)
+=======
+>>>>>>> 6ca989d8 (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
@@ -115,6 +118,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto <nome progetto>.
+<<<<<<< HEAD
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
@@ -155,6 +159,14 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 
 ## Panoramica
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 ## PHPStan Best Practices
 
@@ -401,6 +413,26 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 1. **Type Safety**: Mantenere sempre type hints espliciti
 2. **Static Properties**: Evitare accesso statico a proprietà di istanza
 3. **Mixed Types**: Gestire sempre i tipi `mixed` con type casting appropriato
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+<<<<<<< HEAD
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
@@ -413,11 +445,9 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+=======
+>>>>>>> 71f31700 (.)
+=======
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
-4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

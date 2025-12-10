@@ -42,9 +42,13 @@
 - [ ] Completamento esempi
 - [ ] Testi in italiano
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - [Dettagli e Passi](./roadmap/docs/status.md)
 >>>>>>> 85cdef688 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 6ca989d8 (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -240,11 +244,17 @@
 
 ### Collegamenti ad Altri Moduli
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
 >>>>>>> 85cdef688 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 6ca989d8 (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -420,9 +430,13 @@
 
 ### Documentazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Framework](https://laravel.com/docs/12.x)
 >>>>>>> 85cdef688 (.)
+=======
+- [Laravel Framework](https://laravel.com/docs/12.x)
+>>>>>>> 6ca989d8 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 

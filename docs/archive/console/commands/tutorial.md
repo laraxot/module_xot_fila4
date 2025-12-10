@@ -74,7 +74,11 @@ class DatabaseSchemaExportCommand extends Command
 
 ## Risorse Utili
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Artisan Console Documentation](https://laravel.com/docs/10.x/artisan)
 >>>>>>> 85cdef688 (.)
+=======
+- [Laravel Artisan Console Documentation](https://laravel.com/docs/10.x/artisan)
+>>>>>>> 6ca989d8 (.)
 - [Console Applications with Laravel Zero](https://fly.io/laravel-bytes/console-applications-with-laravel-zero/)

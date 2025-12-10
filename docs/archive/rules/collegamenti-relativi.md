@@ -35,9 +35,13 @@ Nella documentazione di il progetto, **tutti i collegamenti devono essere relati
 
 ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [Documento in altro modulo](../../laravel/Modules/User/docs/documento.md)
 >>>>>>> 85cdef688 (.)
+=======
+[Documento in altro modulo](../../laravel/Modules/User/docs/documento.md)
+>>>>>>> 6ca989d8 (.)
 ```
 
 ### Formati Errati da Evitare
@@ -45,17 +49,25 @@ Nella documentazione di il progetto, **tutti i collegamenti devono essere relati
 ❌ **Collegamenti assoluti basati su dominio**:
 ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [Documento errato](https://<nome progetto>.org/docs/documento.md)
 >>>>>>> 85cdef688 (.)
+=======
+[Documento errato](https://<nome progetto>.org/docs/documento.md)
+>>>>>>> 6ca989d8 (.)
 ```
 
 ❌ **Collegamenti assoluti basati su percorso**:
 ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [Documento errato](/var/www/html/<nome progetto>/docs/documento.md)
 >>>>>>> 85cdef688 (.)
+=======
+[Documento errato](/var/www/html/<nome progetto>/docs/documento.md)
+>>>>>>> 6ca989d8 (.)
 ```
 
 ❌ **Collegamenti senza estensione**:
@@ -82,7 +94,11 @@ Questa regola si integra con il sistema di documentazione centralizzato descritt
 ## Collegamenti tra versioni di collegamenti-relativi.md
 * [collegamenti-relativi.md](docs/regole/collegamenti-relativi.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [collegamenti-relativi.md](../../../Xot/docs/rules/collegamenti-relativi.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [collegamenti-relativi.md](../../../Xot/docs/rules/collegamenti-relativi.md)
+>>>>>>> 6ca989d8 (.)
 

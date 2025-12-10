@@ -67,6 +67,7 @@ abstract class XotBaseDashboard extends FilamentDashboard
 {
     use FilamentDashboard\Concerns\HasFiltersForm;
 
+<<<<<<< HEAD
     protected static ?int $navigationSort = 1;
 
     protected static ?int $navigationSort = 1;
@@ -102,12 +103,159 @@ abstract class XotBaseDashboard extends FilamentDashboard
 
     protected static ?int $navigationSort = 1;
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static ?int $navigationSort = 1;
+
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
     /**
      * Navigation icon compatible with Filament 4.
      * Supports BackedEnum, string, or null values.
      */
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
     
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> c84488b (.)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> fb8add77 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> c84488b (.)
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
     protected static null|int $navigationSort = 1;
     protected static null|int $navigationSort = 1;
 

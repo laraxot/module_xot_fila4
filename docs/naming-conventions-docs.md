@@ -23,6 +23,19 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 
 ### Dove Usare il Nome del Progetto
 ✅ CORRETTO:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
 - `/project_docs/` (cartella root del progetto)
 <<<<<<< HEAD
 =======
@@ -114,6 +127,9 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+- `/project_docs/` (cartella root del progetto)
+>>>>>>> c35986f4 (.)
 - `/docs/` (cartella root del progetto)
 - `README.md` principale
 - File di configurazione specifici del progetto
@@ -167,6 +183,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,4 +338,10 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 =======
 - [Best Practices Documentazione](documentation-guidelines.md) 
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+- [Best Practices Documentazione](documentation-guidelines.md) 
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

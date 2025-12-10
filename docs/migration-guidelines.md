@@ -84,6 +84,17 @@ return new class extends XotBaseMigration
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> f1d4085 (.)
 =======
@@ -93,6 +104,20 @@ return new class extends XotBaseMigration
 >>>>>>> a67e542f (.)
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 =======
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 >>>>>>> 2f3197ab (.)
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

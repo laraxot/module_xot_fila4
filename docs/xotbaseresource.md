@@ -11,6 +11,27 @@ XotBaseResource è la classe base astratta per tutte le risorse Filament nel sis
 Alcuni metodi sono marcati come `final` e non possono essere sovrascritti nelle classi figlie:
 
 ```php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+final public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+>>>>>>> 6ca989d8 (.)
+final public static function form(Form $form): Form
+final public static function form(Form $form): Form
+final public static function form(Form $form): Form
+final public static function form(Form $form): Form
+final public static function form(Form $form): Form
+final public static function form(Form $form): Form
+final public static function form(Form $form): Form
+<<<<<<< HEAD
 final public static function form(Form $form): Form
 final public static function form(Form $form): Form
 final public static function form(Form $form): Form
@@ -24,13 +45,12 @@ final public static function form(Form $form): Form
 final public static function form(Form $form): Form
 final public static function form(Form $form): Form
 final public static function form(Form $form): Form
+=======
+>>>>>>> 71f31700 (.)
+=======
 final public static function form(Form $form): Form
-final public static function form(Form $form): Form
-final public static function form(Form $form): Form
-final public static function form(Form $form): Form
-final public static function form(Form $form): Form
-final public static function form(Form $form): Form
-final public static function form(Form $form): Form
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 {
     return $form->schema(static::getFormSchema());
 }
@@ -132,6 +152,26 @@ class NotificationResource extends XotBaseResource
 2. Implementare sempre i metodi astratti richiesti
 3. Utilizzare i file di traduzione per le label
 4. Evitare override non necessari di metodi
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
+5. Seguire le convenzioni di Filament 
+5. Seguire le convenzioni di Filament 
+5. Seguire le convenzioni di Filament 
+5. Seguire le convenzioni di Filament 
+5. Seguire le convenzioni di Filament 
+5. Seguire le convenzioni di Filament 
+5. Seguire le convenzioni di Filament 
+5. Seguire le convenzioni di Filament 
+<<<<<<< HEAD
 5. Seguire le convenzioni di Filament 
 5. Seguire le convenzioni di Filament 
 5. Seguire le convenzioni di Filament 
@@ -144,11 +184,9 @@ class NotificationResource extends XotBaseResource
 5. Seguire le convenzioni di Filament 
 5. Seguire le convenzioni di Filament 
 5. Seguire le convenzioni di Filament 
+=======
+>>>>>>> 71f31700 (.)
+=======
 5. Seguire le convenzioni di Filament 
-5. Seguire le convenzioni di Filament 
-5. Seguire le convenzioni di Filament 
-5. Seguire le convenzioni di Filament 
-5. Seguire le convenzioni di Filament 
-5. Seguire le convenzioni di Filament 
-5. Seguire le convenzioni di Filament 
-5. Seguire le convenzioni di Filament 
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

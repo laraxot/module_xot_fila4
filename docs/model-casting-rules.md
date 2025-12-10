@@ -140,10 +140,15 @@ protected function casts(): array
 16. `/Modules/Geo/app/Models/Address.php`
 17. `/Modules/Geo/app/Models/Place.php`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 18. `/Modules/Chart/project_docs/Chart.php`
 19. `/Modules/Chart/project_docs/Chart_conflict.php`
 >>>>>>> 85cdef688 (.)
+=======
+18. `/Modules/Chart/docs/Chart.php`
+19. `/Modules/Chart/docs/Chart_conflict.php`
+>>>>>>> 6ca989d8 (.)
 20. `/Modules/Chart/app/Models/Chart.php`
 
 ### Priorità di Refactoring
@@ -236,9 +241,14 @@ class User extends BaseModel
 
 - [model_base_rules.md](model_base_rules.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [../../project_docs/phpstan-cast-fixes-guide.md](../../project_docs/phpstan-cast-fixes-guide.md)
 - [Laravel 11 Model Casts Documentation](https://laravel.com/project_docs/11.x/eloquent-mutators#attribute-casting)
 >>>>>>> 85cdef688 (.)
+=======
+- [../../docs/phpstan-cast-fixes-guide.md](../../docs/phpstan-cast-fixes-guide.md)
+- [Laravel 11 Model Casts Documentation](https://laravel.com/docs/11.x/eloquent-mutators#attribute-casting)
+>>>>>>> 6ca989d8 (.)
 
 *Ultimo aggiornamento: agosto 2025*

@@ -91,6 +91,17 @@ public function panel(Panel $panel): Panel
 - [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
 - [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
 *Ultimo aggiornamento: 2025-01-06* 
 *Ultimo aggiornamento: 2025-01-06* 
 *Ultimo aggiornamento: 2025-01-06* 
@@ -99,6 +110,7 @@ public function panel(Panel $panel): Panel
 *Ultimo aggiornamento: 2025-01-06* 
 *Ultimo aggiornamento: 2025-01-06* 
 *Ultimo aggiornamento: 2025-01-06* 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 - [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
 - [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
@@ -119,3 +131,9 @@ public function panel(Panel $panel): Panel
 *Ultimo aggiornamento: 2025-01-06* 
 *Ultimo aggiornamento: 2025-01-06* 
 *Ultimo aggiornamento: 2025-01-06* 
+=======
+>>>>>>> 71f31700 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

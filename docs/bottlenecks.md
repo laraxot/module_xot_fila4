@@ -736,6 +736,17 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> f1d4085 (.)
 =======
@@ -745,6 +756,20 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 >>>>>>> a67e542f (.)
 
 =======
+<<<<<<< HEAD
 >>>>>>> f1d4085 (.)
 >>>>>>> 2f3197ab (.)
 
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

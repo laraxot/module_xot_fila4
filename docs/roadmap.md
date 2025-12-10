@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6ca989d8 (.)
+### Versione HEAD
+### Versione HEAD
+### Versione HEAD
+### Versione HEAD
+### Versione HEAD
+### Versione HEAD
+### Versione HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 ### Versione HEAD
 ### Versione HEAD
@@ -9,13 +29,12 @@
 ### Versione HEAD
 ### Versione HEAD
 ### Versione HEAD
+=======
+>>>>>>> 71f31700 (.)
+=======
 ### Versione HEAD
-### Versione HEAD
-### Versione HEAD
-### Versione HEAD
-### Versione HEAD
-### Versione HEAD
-### Versione HEAD
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 # Roadmap Modulo Xot
 

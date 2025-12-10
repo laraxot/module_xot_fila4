@@ -1,9 +1,13 @@
 # Temi in il progetto
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
 >>>>>>> 85cdef688 (.)
+=======
+il progetto utilizza un sistema di temi basato su Filament 4.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+>>>>>>> 6ca989d8 (.)
 
 ## Struttura dei Temi
 
@@ -50,9 +54,13 @@ Le viste devono essere organizzate in:
 ## Tema One
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
 >>>>>>> 85cdef688 (.)
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
+>>>>>>> 6ca989d8 (.)
 
 ### Blocchi Disponibili
 - Hero

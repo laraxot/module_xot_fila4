@@ -45,8 +45,13 @@ Per prevenire questo errore in futuro:
 
 ## Riferimenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Xot Component System](../structure.md) 
 =======
 - [Documentazione Laravel Cache](https://laravel.com/docs/cache)
 - [Documentazione Xot Component System](../structure.md) 
 >>>>>>> 85cdef688 (.)
+=======
+- [Documentazione Laravel Cache](https://laravel.com/docs/cache)
+- [Documentazione Xot Component System](../structure.md) 
+>>>>>>> 6ca989d8 (.)

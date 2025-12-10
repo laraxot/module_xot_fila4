@@ -121,9 +121,13 @@
 ### Struttura delle Traduzioni
 1. **Modulo Lang**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - `/laravel/Modules/Lang/docs/`: Documentazione tradotta
 >>>>>>> 85cdef688 (.)
+=======
+   - `/laravel/Modules/Lang/docs/`: Documentazione tradotta
+>>>>>>> 6ca989d8 (.)
    - `/laravel/Modules/Lang/resources/lang/`: File di traduzione
    - Struttura per lingua: `it/`, `en/`, etc.
 
@@ -174,8 +178,13 @@
 ## Collegamenti tra versioni di search.md
 * [search.md](docs/rules/search.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [search.md](../../../Xot/docs/features/search.md)
 * [search.md](../../../Xot/docs/rules/search.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [search.md](../../../Xot/docs/features/search.md)
+* [search.md](../../../Xot/docs/rules/search.md)
+>>>>>>> 6ca989d8 (.)
 

@@ -205,6 +205,28 @@ Codice non conforme agli standard di tipizzazione.
 **Soluzione**
 ```bash
 # Eseguire da directory Laravel
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 6ca989d8 (.)
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
@@ -236,6 +258,7 @@ cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -264,6 +287,12 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
+=======
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -487,6 +516,7 @@ public function test_b(): void
 }
 ```
 
+<<<<<<< HEAD
 ### Errore: Conflitti Git
 
 ### Errore: Conflitti Git
@@ -516,6 +546,26 @@ public function test_b(): void
 ### Errore: Conflitti Git
 
 **Sintomo**
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+>>>>>>> 6ca989d8 (.)
 ### Errore: Conflitti Git
 
 **Sintomo**
@@ -531,8 +581,31 @@ public function test_b(): void
 ### Errore: Conflitti Git
 
 **Sintomo**
+<<<<<<< HEAD
+=======
+>>>>>>> 71f31700 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 ```
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6ca989d8 (.)
 
 ### Errore: Conflitti Git
 
@@ -558,38 +631,7 @@ public function test_b(): void
 ### Errore: Conflitti Git
 
 **Sintomo**
-
-### Errore: Conflitti Git
-
-**Sintomo**
-### Errore: Conflitti Git
-
-**Sintomo**
-
-### Errore: Conflitti Git
-
-**Sintomo**
-### Errore: Conflitti Git
-
-**Sintomo**
-
-### Errore: Conflitti Git
-
-**Sintomo**
-
-### Errore: Conflitti Git
-
-**Sintomo**
-### Errore: Conflitti Git
-
-**Sintomo**
-
-### Errore: Conflitti Git
-
-**Sintomo**
-### Errore: Conflitti Git
-
-**Sintomo**
+<<<<<<< HEAD
 
 ### Errore: Conflitti Git
 
@@ -623,6 +665,43 @@ public function test_b(): void
 
 **Sintomo**
 
+### Errore: Conflitti Git
+
+**Sintomo**
+### Errore: Conflitti Git
+
+**Sintomo**
+
+### Errore: Conflitti Git
+
+**Sintomo**
+### Errore: Conflitti Git
+
+**Sintomo**
+
+### Errore: Conflitti Git
+
+**Sintomo**
+
+### Errore: Conflitti Git
+
+**Sintomo**
+### Errore: Conflitti Git
+
+**Sintomo**
+
+### Errore: Conflitti Git
+
+**Sintomo**
+### Errore: Conflitti Git
+
+**Sintomo**
+
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 **Soluzione**
 1. **Analizzare i conflitti**:

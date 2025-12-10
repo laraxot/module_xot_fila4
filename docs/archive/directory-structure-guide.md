@@ -96,9 +96,13 @@ Prima di eseguire PHPStan o fare commit, verifica la correttezza della struttura
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/docs/"
 >>>>>>> 85cdef688 (.)
+=======
+find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/docs/"
+>>>>>>> 6ca989d8 (.)
 ```
 
 Se questo comando restituisce dei file, significa che sono posizionati in modo errato.
@@ -125,7 +129,11 @@ Per correggere automaticamente la struttura delle directory, utilizza lo script 
 3. **Compatibilità con PHPStan**: Evita errori di classi non trovate durante l'analisi statica
 4. **Manutenibilità**: Struttura coerente e prevedibile per tutti i moduli
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
 =======
 5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
 >>>>>>> 85cdef688 (.)
+=======
+5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
+>>>>>>> 6ca989d8 (.)

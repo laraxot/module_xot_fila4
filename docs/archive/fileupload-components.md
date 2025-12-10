@@ -348,7 +348,11 @@ class CleanupTemporaryFilesJob extends Job
 - [Modules/User/docs/registration-widget.md](../../User/docs/registration-widget.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-03* 
 =======
 *Ultimo aggiornamento: 2025-01-03* 
 >>>>>>> 85cdef688 (.)
+=======
+*Ultimo aggiornamento: 2025-01-03* 
+>>>>>>> 6ca989d8 (.)

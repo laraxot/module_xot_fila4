@@ -120,6 +120,30 @@ class NotificationLogResource extends XotBaseResource
 - [Regole Windsurf](../../../../.windsurf/rules/filament-xotbase-resource-best-practices.mdc)
 
 ### Documentazione Moduli
+<<<<<<< HEAD
+=======
+- [Notify Module README](../../../Notify/docs/README.md)
+- [User Module README](../../../User/docs/README.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [<nome progetto> Module README](../../../<nome progetto>/docs/README.md)
+=======
+- [ Module README](../../../<nome modulo>/docs/README.md)
+>>>>>>> 6ca989d8 (.)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
 - [Notify Module README](../../../Notify/project_docs/README.md)
 - [User Module README](../../../User/project_docs/README.md)
@@ -151,6 +175,7 @@ class NotificationLogResource extends XotBaseResource
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+<<<<<<< HEAD
 - [ Module README](../../../<nome modulo>/docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
@@ -176,6 +201,12 @@ class NotificationLogResource extends XotBaseResource
 - [ Module README](../../../<nome modulo>/docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
 - [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+- [SaluteOra Module README](../../../SaluteOra/docs/README.md)
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 ### Standard di Riferimento
 - [NavigationLabelTrait](../traits/navigation-label-trait.md)

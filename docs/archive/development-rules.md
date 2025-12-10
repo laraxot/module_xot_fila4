@@ -2,9 +2,13 @@
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione generale progetto](/docs/README.md)
 >>>>>>> 85cdef688 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 6ca989d8 (.)
 - [Regole Filament](filament-best-practices.md)
 - [Convenzioni Namespace](namespace-conventions.md)
 - [Standard di Codice](code-standards.md)
@@ -253,9 +257,13 @@ protected function casts(): array
 ### Regola Fondamentale
 - **docs/ (root)**: Solo informazioni generali del progetto + collegamenti ai moduli
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
 >>>>>>> 85cdef688 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 6ca989d8 (.)
 - **Collegamenti bidirezionali**: Root ↔ Moduli per navigazione fluida
 
 ### Naming Convention Docs
@@ -272,9 +280,13 @@ docs/                           # Generale + collegamenti
 └── development/                # Guide sviluppo generali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Modules/{Module}/docs/          # Specifica modulo
 >>>>>>> 85cdef688 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 6ca989d8 (.)
 ├── index.md                    # Indice del modulo
 ├── feature-name.md            # Documentazione feature specifica
 ├── api/                       # Documentazione API
@@ -347,9 +359,13 @@ Progettare sempre pensando che il codice dovrà superare:
 - `.cursor/rules/`
 - `.windsurf/rules/`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - `Modules/Xot/docs/`
 >>>>>>> 85cdef688 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 6ca989d8 (.)
 - Memoria personale
 - Collegamenti bidirezionali
 

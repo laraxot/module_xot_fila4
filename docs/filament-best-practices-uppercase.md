@@ -53,6 +53,27 @@ public static function getFormSchema(): array
 
 ```php
 // NON FARE MAI QUESTO
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+>>>>>>> 6ca989d8 (.)
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+<<<<<<< HEAD
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
@@ -66,13 +87,12 @@ public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
+=======
+>>>>>>> 71f31700 (.)
+=======
 public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 {
     return $form->schema([
         // componenti...
@@ -647,6 +667,19 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 ## Riferimenti
 
 - [Documentazione Filament](https://filamentphp.com/docs)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/best-practices.md)
 <<<<<<< HEAD
@@ -668,6 +701,17 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/best-practices.md)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6cba4fe (.)
+- [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
+- [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/project_docs/best-practices.md)
 <<<<<<< HEAD
@@ -696,6 +740,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 >>>>>>> a67e542f (.)
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5a14301c (.)
@@ -806,4 +851,9 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 =======
 =======
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

@@ -378,6 +378,27 @@ $table->foreign('user_id')->references('id')->on('users')
 - **Relazioni**: User, Notifiable polymorphic
 - **Campi specifici**: `type`, `data`, `read_at`
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### <nome modulo> Module
+=======
+>>>>>>> 6ca989d8 (.)
+### SaluteMo Module
+### SaluteMo Module
+### SaluteMo Module
+### SaluteMo Module
+### SaluteMo Module
+### SaluteMo Module
+### SaluteMo Module
+<<<<<<< HEAD
 ### SaluteMo Module
 ### SaluteMo Module
 ### SaluteMo Module
@@ -391,17 +412,38 @@ $table->foreign('user_id')->references('id')->on('users')
 ### SaluteMo Module
 ### SaluteMo Module
 ### SaluteMo Module
+=======
+>>>>>>> 71f31700 (.)
+=======
 ### SaluteMo Module
-### SaluteMo Module
-### SaluteMo Module
-### SaluteMo Module
-### SaluteMo Module
-### SaluteMo Module
-### SaluteMo Module
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### <nome progetto> Module (CRITICO)
+=======
+###  Module (CRITICO)
+>>>>>>> 6ca989d8 (.)
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
@@ -430,6 +472,7 @@ $table->foreign('user_id')->references('id')->on('users')
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
+<<<<<<< HEAD
 ###  Module (CRITICO)
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
@@ -455,6 +498,12 @@ $table->foreign('user_id')->references('id')->on('users')
 ###  Module (CRITICO)
 ### SaluteOra Module (CRITICO)
 ### SaluteOra Module (CRITICO)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`
@@ -511,6 +560,20 @@ rm Modules/Notify/docs/migration_rules.md
 rm Modules/Notify/docs/migrations.md
 rm Modules/Notify/docs/migrations_changelog.md
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# <nome modulo>
+rm Modules/<nome modulo>/docs/database/migrations.md
+=======
+>>>>>>> 6ca989d8 (.)
 # SaluteMo
 rm Modules/SaluteMo/docs/database/migrations.md
 rm Modules/Activity/project_docs/database/migrations.md
@@ -550,6 +613,7 @@ rm Modules/SaluteMo/docs/database/migrations.md
 rm Modules/SaluteMo/docs/database/migrations.md
 # SaluteMo
 rm Modules/SaluteMo/docs/database/migrations.md
+<<<<<<< HEAD
 # SaluteMo
 rm Modules/SaluteMo/docs/database/migrations.md
 # SaluteMo
@@ -578,6 +642,17 @@ rm Modules/SaluteMo/docs/database/migrations.md
 rm Modules/SaluteMo/docs/database/migrations.md
 # SaluteMo
 rm Modules/SaluteMo/docs/database/migrations.md
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 # E tutti gli altri file duplicati...
 ```

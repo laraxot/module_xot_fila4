@@ -291,10 +291,15 @@ class PolizzaConvenzioneController extends XotBaseController
    - Documentare le modifiche significative 
 ## Collegamenti tra versioni di base-classes.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [base-classes.md](../../../Xot/docs/base-classes.md)
 * [base-classes.md](../../../Xot/docs/roadmap/base-classes.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [base-classes.md](../../../Xot/docs/base-classes.md)
+* [base-classes.md](../../../Xot/docs/roadmap/base-classes.md)
+>>>>>>> 6ca989d8 (.)
 
 
 ### Versione Incoming

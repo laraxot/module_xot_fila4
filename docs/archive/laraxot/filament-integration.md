@@ -67,11 +67,17 @@ public static function getFormSchema(): array
 
 ## Collegamenti tra versioni di filament-integration.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [filament-integration.md](../../../Xot/docs/laraxot/filament-integration.md)
 * [filament-integration.md](../../../Cms/docs/roadmap/features/filament-integration.md)
 * [filament-integration.md](../../../Cms/docs/filament-integration.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [filament-integration.md](../../../Xot/docs/laraxot/filament-integration.md)
+* [filament-integration.md](../../../Cms/docs/roadmap/features/filament-integration.md)
+* [filament-integration.md](../../../Cms/docs/filament-integration.md)
+>>>>>>> 6ca989d8 (.)
 
 
 ### Versione Incoming

@@ -82,17 +82,26 @@ it('uses correct namespace for view models', function () {
 
 - [PSR-4 Autoloading Standard](https://www.php-fig.org/psr/psr-4/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Module Development](https://laravel.com/docs/10.x/packages)
 >>>>>>> 85cdef688 (.)
+=======
+- [Laravel Module Development](https://laravel.com/docs/10.x/packages)
+>>>>>>> 6ca989d8 (.)
 - [Best Practices](../best-practices/README.md)
 - [Architettura Modulare](../architecture.md) 
 
 ## Collegamenti tra versioni di namespaces.md
 * [namespaces.md](docs/conventions/namespaces.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [namespaces.md](../../../Xot/docs/conventions/namespaces.md)
 * [namespaces.md](../../../Cms/docs/conventions/namespaces.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [namespaces.md](../../../Xot/docs/conventions/namespaces.md)
+* [namespaces.md](../../../Cms/docs/conventions/namespaces.md)
+>>>>>>> 6ca989d8 (.)
 

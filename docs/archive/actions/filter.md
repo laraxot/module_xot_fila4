@@ -17,9 +17,13 @@ Il file `GetYearFilter.php` presentava marker di conflitto (``) e duplicazioni d
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Doc root Xot](/docs/index.md)
 >>>>>>> 85cdef688 (.)
+=======
+- [Doc root Xot](/docs/index.md)
+>>>>>>> 6ca989d8 (.)
 
 ---
 
@@ -27,8 +31,13 @@ Il file `GetYearFilter.php` presentava marker di conflitto (``) e duplicazioni d
 
 ## Collegamenti tra versioni di filter.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [filter.md](../../../Xot/docs/actions/filter.md)
 * [filter.md](../../../Xot/docs/links/filter.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [filter.md](../../../Xot/docs/actions/filter.md)
+* [filter.md](../../../Xot/docs/links/filter.md)
+>>>>>>> 6ca989d8 (.)
 

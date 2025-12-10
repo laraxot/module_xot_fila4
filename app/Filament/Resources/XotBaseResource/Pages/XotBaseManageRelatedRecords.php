@@ -129,6 +129,17 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         return '';
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
     /**
      * Restituisce lo schema del form per i record correlati.
      *
@@ -160,6 +171,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * @return array<\Filament\Forms\Components\Component>
      * @return array<\Filament\Schemas\Components\Component>
      * @return array<\Filament\Schemas\Components\Component>
+<<<<<<< HEAD
     /*
      * @return array<\Filament\Forms\Components\Component>
      * @return array<\Filament\Schemas\Components\Component>
@@ -255,6 +267,20 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * @return array<\Filament\Forms\Components\Component>
     /*
      * @return array<\Filament\Forms\Components\Component>
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+    /*
+<<<<<<< HEAD
+     * @return array<\Filament\Schemas\Components\Component>
+=======
+     * @return array<\Filament\Forms\Components\Component>
+>>>>>>> c84488b (.)
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
      */
     // abstract public static function getFormSchema(): array;
 

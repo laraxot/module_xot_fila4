@@ -189,10 +189,15 @@ Il trait include meccanismi di gestione degli errori, ad esempio:
 
 ## Collegamenti tra versioni di FILAMENT-TABLES.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [FILAMENT-TABLES.md](../../../Xot/docs/filament/FILAMENT-TABLES.md)
 * [FILAMENT-TABLES.md](../../../Xot/docs/FILAMENT-TABLES.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [FILAMENT-TABLES.md](../../../Xot/docs/filament/FILAMENT-TABLES.md)
+* [FILAMENT-TABLES.md](../../../Xot/docs/FILAMENT-TABLES.md)
+>>>>>>> 6ca989d8 (.)
 
 
 ## Collegamenti tra versioni di filament-tables.md

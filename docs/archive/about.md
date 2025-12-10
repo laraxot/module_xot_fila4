@@ -15,11 +15,17 @@ Senza di esso tutta l'organizzazione della struttura della base su cui si lavora
 E' la libreria di estensione di tutte le altre librerie.
 ## Collegamenti tra versioni di about.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [about.md](../../../Xot/docs/about.md)
 * [about.md](../../../Tenant/docs/en/about.md)
 * [about.md](../../../Tenant/docs/it/about.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [about.md](../../../Xot/docs/about.md)
+* [about.md](../../../Tenant/docs/en/about.md)
+* [about.md](../../../Tenant/docs/it/about.md)
+>>>>>>> 6ca989d8 (.)
 
 
 ### Versione Incoming

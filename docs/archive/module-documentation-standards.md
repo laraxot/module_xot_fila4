@@ -51,8 +51,14 @@ Per supporto e domande, contattare il team di sviluppo.
 
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Standard di Documentazione Generale](../../Xot/docs/standards/documentation.md)
 - [Convenzioni di Nomenclatura](../../Xot/docs/conventions/naming.md)
 - [Struttura dei Moduli](../../Xot/docs/architecture/modules.md)
 >>>>>>> 85cdef688 (.)
+=======
+- [Standard di Documentazione Generale](../../Xot/docs/standards/documentation.md)
+- [Convenzioni di Nomenclatura](../../Xot/docs/conventions/naming.md)
+- [Struttura dei Moduli](../../Xot/docs/architecture/modules.md)
+>>>>>>> 6ca989d8 (.)

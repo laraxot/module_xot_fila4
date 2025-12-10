@@ -232,11 +232,17 @@ public function test_registration_widget_loads_without_errors_for_existing_user(
 ## Riferimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields/file-upload)
 - [Laravel Eloquent Accessors](https://laravel.com/docs/eloquent-accessors)
 - [Livewire File Uploads](https://livewire.laravel.com/docs/file-uploads)
 >>>>>>> 85cdef688 (.)
+=======
+- [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields/file-upload)
+- [Laravel Eloquent Accessors](https://laravel.com/docs/eloquent-accessors)
+- [Livewire File Uploads](https://livewire.laravel.com/docs/file-uploads)
+>>>>>>> 6ca989d8 (.)
 
 ## Casi Correlati
 
@@ -252,7 +258,11 @@ Questo pattern si applica anche a:
 **Modulo**: Xot (Base)  
 **Applicabilità**: Tutti i widget con FileUpload che caricano dati esistenti  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Aggiornato**: 2025-01-07 
 =======
 **Aggiornato**: 2025-01-07 
 >>>>>>> 85cdef688 (.)
+=======
+**Aggiornato**: 2025-01-07 
+>>>>>>> 6ca989d8 (.)

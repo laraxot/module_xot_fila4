@@ -138,6 +138,7 @@ php artisan config:cache
 - [TenantService.php](/laravel/Modules/Tenant/app/Services/TenantService.php)
 - [xra.php](/laravel/config/localhost/xra.php)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 2025-01-06* 
 =======
@@ -145,3 +146,8 @@ php artisan config:cache
 
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 85cdef688 (.)
+=======
+- [Documentazione Root](/docs/env-config-loading-issue.md)
+
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 6ca989d8 (.)

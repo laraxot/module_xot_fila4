@@ -114,9 +114,13 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 5. Mantenere la coerenza tra i moduli 
 ## Collegamenti tra versioni di XotBaseServiceProvider.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
+>>>>>>> 6ca989d8 (.)
 
 ## Correzione, motivazione e miglioramenti (2025-05-13)
 

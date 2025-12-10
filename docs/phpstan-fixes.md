@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6ca989d8 (.)
 # PHPStan Fixes - Xot Module
 # PHPStan Fixes - Xot Module
 # PHPStan Fixes - Xot Module
@@ -416,6 +436,28 @@ protected $model = Cache::class;
 
 ## Errori Risolti
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 # Correzioni PHPStan Livello 7 - Modulo Xot
 # Correzioni PHPStan - 6 Gennaio 2025
 
@@ -1118,10 +1160,57 @@ private function exportTablesToCSV(string $mdbFile): array
     return $tables;
 }
 ```
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 6ca989d8 (.)
 # Correzioni PHPStan - 6 Gennaio 2025
 
 ## Errori Risolti
 
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 ### 1. Chart/app/Datas/AnswersChartData.php
 
 **Problema**: Errori `argument.type` e `offsetAccess.nonOffsetAccessible`
@@ -1143,6 +1232,59 @@ private function exportTablesToCSV(string $mdbFile): array
 - Aggiunto cast esplicito con `@var` per il risultato
 
 ### 3. Job/app/Actions/GetTaskFrequenciesAction.php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 **Problema**: Linea 21 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, mixed>` ma restituiva `array<mixed, mixed>`
@@ -1150,16 +1292,66 @@ private function exportTablesToCSV(string $mdbFile): array
 **Soluzione**:
 - Aggiunto cast esplicito `@var array<string, mixed>` al risultato
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ca989d8 (.)
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+<<<<<<< HEAD
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
 
 **Problema**: Linea 27 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, Component>` ma restituiva `array<int|string, Component>`
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
     foreach ($tables as $table) {
         // ... codice per importare i dati ...
     }
@@ -1171,6 +1363,47 @@ Queste modifiche garantiscono che:
 2. Il metodo importDataToMySQL verifichi che l'array di tabelle non sia vuoto prima di tentare di iterarlo
 3. Il codice sia più robusto e gestisca correttamente i casi limite
 4. I tipi di dati siano coerenti e correttamente documentati
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 **Soluzione**:
 - Aggiunto PHPDoc con tipo di ritorno corretto
 - Aggiunto cast esplicito al risultato
@@ -1205,6 +1438,59 @@ Queste modifiche garantiscono che:
 
 **Problema**: Linea 39 - Tipo parametro errato
 - `sendRecipientNotification()` aspettava `UserContract|null` ma riceveva `Model|null`
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> abfbbdf (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 **Soluzione**:
 - Separato controllo per `UserContract` e `null`
@@ -1231,14 +1517,139 @@ Queste modifiche garantiscono che:
 - [PHPStan Critical Rules](./phpstan-critical-rules.md)
 - [Array Types Fixes](./phpstan-array-types-fixes.md)
 - [PHPStan Level 10 Guidelines](./phpstan-level10-guidelines.md)
+<<<<<<< HEAD
+
+*Ultimo aggiornamento: 6 Gennaio 2025*
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+
+*Ultimo aggiornamento: 6 Gennaio 2025*
+=======
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 71f31700 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> c35986f4 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 71f31700 (.)
+<<<<<<< HEAD
+=======
+
+>>>>>>> c35986f4 (.)
+<<<<<<< HEAD
+### 18. Correzione in Console/Commands/SearchStringInDatabaseCommand.php
+
+L'errore riguardava una discrepanza tra il tipo dichiarato nel PHPDoc e il tipo effettivo del parametro $results nel metodo formatResults. Il metodo si aspettava una Collection di oggetti generici, ma in realtà riceveva una Collection di oggetti stdClass:
+
+```php
+// Prima:
+/**
+ * @param \Illuminate\Support\Collection<int, object> $results
+ *
+ * @return array<int, array{string, string}>
+ */
+private function formatResults($results): array
+
+// Dopo:
+/**
+ * @param \Illuminate\Support\Collection<int, \stdClass> $results
+ *
+ * @return array<int, array{string, string}>
+ */
+private function formatResults($results): array
+```
+
+Il problema è che quando si esegue una query con Eloquent usando il metodo get(), il risultato è una Collection di oggetti stdClass, non di oggetti generici. Abbiamo corretto l'annotazione PHPDoc per indicare esplicitamente che il parametro $results è di tipo \Illuminate\Support\Collection<int, \stdClass>, allineando così la documentazione al comportamento effettivo del codice.
+
+Questa modifica garantisce che PHPStan possa verificare correttamente la compatibilità dei tipi senza generare falsi positivi.
+
+### 19. Correzione in app/Datas/XotData.php
+L'errore riguardava il tipo di ritorno del metodo `getProfileClass()`, che era dichiarato come `string` ma doveva essere `class-string<Model&ProfileContract>`. Ecco la correzione implementata:
+
+```php
+/**
+ * Get the profile class.
+ *
+ * @return class-string<\Illuminate\Database\Eloquent\Model&\Modules\Xot\Contracts\ProfileContract>
+ */
+public function getProfileClass(): string
+{
+    // ... implementazione ...
+    
+    /** @var class-string<\Illuminate\Database\Eloquent\Model&\Modules\Xot\Contracts\ProfileContract> */
+    return $class;
+}
+```
+
+#### Miglioramenti:
+
+- **Tipizzazione corretta del valore di ritorno**: Abbiamo aggiunto una annotazione PHPDoc che specifica che il metodo restituisce una stringa che rappresenta una classe, più specificamente una classe che estende Model e implementa ProfileContract.
+- **Maggiore chiarezza del codice**: La documentazione completa aiuta gli sviluppatori a capire meglio quale tipo di stringa viene restituita.
+- **Compatibilità con PHPStan livello 7**: La correzione assicura che PHPStan possa verificare correttamente i tipi senza generare falsi positivi.
+
+### 20. Correzione in app/Exceptions/Handlers/HandlersRepository.php
+L'errore riguardava l'uso del metodo `Closure::fromCallable()` senza una tipizzazione adeguata del parametro `$handler`, e l'uso del metodo deprecato `getClass()` su `ReflectionParameter`. Ecco la correzione implementata:
+#### Modifiche principali:
+1. Aggiunta di annotazione PHPDoc per il parametro callable: Abbiamo aggiunto un'annotazione @var callable per assicurare a PHPStan che il parametro $handler è effettivamente un callable valido quando viene passato a Closure::fromCallable().
+2. Sostituzione del metodo deprecato getClass(): Abbiamo sostituito l'uso di getClass() (deprecato in PHP 8) con i metodi moderni hasType(), getType() e is_a() per verificare se l'eccezione è compatibile con il tipo del parametro.
+3. Gestione più robusta dei tipi di parametri: La nuova implementazione gestisce correttamente i casi in cui il parametro non ha un tipo, ha un tipo primitivo o ha un tipo di classe, migliorando la robustezza del codice.
+
+### 21. Correzione in app/Filament/Pages/ArtisanCommandsManager.php
+L'errore riguardava la proprietà $listeners che, secondo PHPStan, non aveva un tipo specificato, nonostante fosse dichiarata come array e avesse un'annotazione PHPDoc. Abbiamo risolto aggiungendo un'annotazione PHPDoc specifica per PHPStan:
+
+```php
+/**
+ * Livewire event listeners for this component.
+ * 
+ * @var array<string, string>
+ * @phpstan-var array<string, string>
+ */
+protected array $listeners = [
+    'refresh-component' => '$refresh',
+    'artisan-command.started' => 'handleCommandStarted',
+    // ... altri listener ...
+];
+```
+
+L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione più specifica sul tipo della proprietà, permettendogli di verificare correttamente che tutti gli elementi dell'array siano stringhe. Questo è particolarmente utile quando si lavora con Livewire, dove i listener sono definiti come un array associativo di eventi e metodi da chiamare.
+=======
+*Ultimo aggiornamento: 6 Gennaio 2025*
+>>>>>>> abfbbdf (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+*Ultimo aggiornamento: 6 Gennaio 2025*
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 6ca989d8 (.)
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
-
-*Ultimo aggiornamento: 6 Gennaio 2025*
 *Ultimo aggiornamento: 6 Gennaio 2025*
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
@@ -1247,20 +1658,7 @@ Queste modifiche garantiscono che:
 *Ultimo aggiornamento: 6 Gennaio 2025*
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
-*Ultimo aggiornamento: 6 Gennaio 2025*
-
-*Ultimo aggiornamento: 6 Gennaio 2025*
-
-*Ultimo aggiornamento: 6 Gennaio 2025*
-*Ultimo aggiornamento: 6 Gennaio 2025*
-
-*Ultimo aggiornamento: 6 Gennaio 2025*
-*Ultimo aggiornamento: 6 Gennaio 2025*
-
-*Ultimo aggiornamento: 6 Gennaio 2025*
-*Ultimo aggiornamento: 6 Gennaio 2025*
-
-*Ultimo aggiornamento: 6 Gennaio 2025*
+<<<<<<< HEAD
 *Ultimo aggiornamento: 6 Gennaio 2025*
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
@@ -1281,3 +1679,22 @@ Queste modifiche garantiscono che:
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
 *Ultimo aggiornamento: 6 Gennaio 2025*
+
+*Ultimo aggiornamento: 6 Gennaio 2025*
+*Ultimo aggiornamento: 6 Gennaio 2025*
+
+*Ultimo aggiornamento: 6 Gennaio 2025*
+*Ultimo aggiornamento: 6 Gennaio 2025*
+
+*Ultimo aggiornamento: 6 Gennaio 2025*
+*Ultimo aggiornamento: 6 Gennaio 2025*
+
+*Ultimo aggiornamento: 6 Gennaio 2025*
+
+*Ultimo aggiornamento: 6 Gennaio 2025*
+*Ultimo aggiornamento: 6 Gennaio 2025*
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

@@ -85,6 +85,28 @@ protected static ?string $navigationGroup = "Geo";
 ```
 
 ### 4. AdminResource.php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**File**: `laravel/Modules/<nome progetto>/app/Filament/Resources/AdminResource.php`
+=======
+**File**: `laravel/Modules/<nome modulo>/app/Filament/Resources/AdminResource.php`
+>>>>>>> 6ca989d8 (.)
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
@@ -113,6 +135,7 @@ protected static ?string $navigationGroup = "Geo";
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+<<<<<<< HEAD
 **File**: `laravel/Modules/<nome modulo>/app/Filament/Resources/AdminResource.php`
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
@@ -138,6 +161,12 @@ protected static ?string $navigationGroup = "Geo";
 **File**: `laravel/Modules/<nome modulo>/app/Filament/Resources/AdminResource.php`
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
 **File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+=======
+>>>>>>> 43d67f21 (.)
+=======
+**File**: `laravel/Modules/SaluteOra/app/Filament/Resources/AdminResource.php`
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)
 
 **Violazione**: Metodo `table()` presente
 ```php

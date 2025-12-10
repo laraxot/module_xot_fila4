@@ -14,10 +14,15 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 
 ## Collegamenti tra versioni di README.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 6ca989d8 (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)
@@ -130,8 +135,12 @@ class Doctor extends User
 
 ## Moduli che applicano questa regola
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
 >>>>>>> 85cdef688 (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+>>>>>>> 6ca989d8 (.)
 // Aggiungere qui altri moduli se necessario
 

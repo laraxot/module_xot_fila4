@@ -4,10 +4,15 @@
 
 1. **Struttura Modulare**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
 >>>>>>> 85cdef688 (.)
+=======
+   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
+   - Le regole generali sono in `/Modules/Xot/docs/`
+>>>>>>> 6ca989d8 (.)
    - La root `/docs` contiene solo indici e collegamenti
 
 2. **Collegamenti Bidirezionali**
@@ -18,9 +23,13 @@
 3. **Organizzazione dei Contenuti**
    ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    Modules/Xot/docs/
 >>>>>>> 85cdef688 (.)
+=======
+   Modules/Xot/docs/
+>>>>>>> 6ca989d8 (.)
    ├── guidelines/           # Linee guida generali
    ├── conventions/          # Convenzioni di codice
    ├── architecture/         # Architettura del framework
@@ -87,9 +96,13 @@ public function example(): void
 ### 1. Struttura Base
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Modules/{ModuleName}/docs/
 >>>>>>> 85cdef688 (.)
+=======
+Modules/{ModuleName}/docs/
+>>>>>>> 6ca989d8 (.)
 ├── README.md              # Panoramica del modulo
 ├── installation.md        # Istruzioni di installazione
 ├── configuration.md       # Configurazione
@@ -176,9 +189,15 @@ php artisan api:generate
 ## Collegamenti tra versioni di documentation.md
 * [documentation.md](docs/rules/documentation.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [documentation.md](../../../Xot/docs/documentation.md)
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
 >>>>>>> 85cdef688 (.)
+=======
+* [documentation.md](../../../Xot/docs/documentation.md)
+* [documentation.md](../../../Xot/docs/guidelines/documentation.md)
+* [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
+>>>>>>> 6ca989d8 (.)
 

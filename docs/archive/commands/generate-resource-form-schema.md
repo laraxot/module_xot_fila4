@@ -55,6 +55,27 @@ return [
 ## Collegamenti
 - [Filament Best Practices](../filament-best-practices.md)
 - [Form Components](../COMPONENTI_PERSONALIZZATI.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+=======
+>>>>>>> 6ca989d8 (.)
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+<<<<<<< HEAD
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
@@ -72,10 +93,9 @@ return [
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+=======
+>>>>>>> 71f31700 (.)
+=======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
-- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> c35986f4 (.)
+>>>>>>> 6ca989d8 (.)

@@ -97,16 +97,26 @@ Verifica se l'utente ha l'accesso alla pagina.
 
 3. **Compatibilità**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Compatibile con Filament 3.x
 >>>>>>> 85cdef688 (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 6ca989d8 (.)
    - Richiede PHP 8.1+
 
 ## Link Correlati
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Documentazione Filament](../../../docs/filament/index.md)
 - [Best Practices](../../../docs/best-practices.md)
 - [Guida Traduzioni](../../../docs/translations.md) 
 >>>>>>> 85cdef688 (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 6ca989d8 (.)

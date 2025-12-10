@@ -222,7 +222,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Illuminate\Database\Eloquent\Model;
 use Filament\Actions;
 use Illuminate\Support\Facades\File;
-use Modules\Xot\Actions\Array\SaveArrayAction;
+use Modules\Xot\Actions\Arr\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Models\Module;

@@ -99,7 +99,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $key
  * @property string $key_hash
  * @property string $value
- *
  * @property-read \Modules\Quaeris\Models\Profile|null $creator
  * @property-read \Modules\Quaeris\Models\Profile|null $updater
  *

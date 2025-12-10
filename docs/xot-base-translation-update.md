@@ -113,6 +113,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 =======
@@ -233,3 +234,8 @@ return [
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
 >>>>>>> ba7efc23f (.)
+=======
+- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> 317b552da (.)

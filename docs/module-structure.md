@@ -45,6 +45,7 @@ ModuleName/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -65,6 +66,8 @@ ModuleName/
 =======
 >>>>>>> 5e6e0d054 (.)
 =======
+>>>>>>> 317b552da (.)
+=======
 =======
 =======
 # Struttura dei Moduli in <nome progetto>
@@ -79,6 +82,7 @@ Questo documento definisce le linee guida ufficiali per la struttura dei moduli 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 67be6ac0 (.)
@@ -88,6 +92,8 @@ Questo documento definisce le linee guida ufficiali per la struttura dei moduli 
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 317b552da (.)
 ---
 
 ## Gestione dati geografici statici: GeoJsonModel readonly (ispirato a Squire)
@@ -123,6 +129,7 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
 class NomeModuloServiceProvider extends XotBaseServiceProvider {
     // Implementazione
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,6 +193,10 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> 7dd92412 (.)
+>>>>>>> b258042 (.)
+>>>>>>> 317b552da (.)
 ```
 
 ## Collegamenti
@@ -197,6 +208,7 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 - [Namespace Rules](./NAMESPACE-RULES.md) - Regole per i namespace
 
 ### Moduli Collegati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,10 +262,13 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 317b552da (.)
 - [UI](../UI/docs/README.md) - Componenti di interfaccia
 - [Cms](../Cms/docs/README.md) - Gestione contenuti
 - [Lang](../Lang/docs/README.md) - Traduzioni
 - [User](../User/docs/README.md) - Gestione utenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -310,6 +325,8 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> 317b552da (.)
 
 ## Struttura Dettagliata
 
@@ -436,6 +453,7 @@ php artisan xot:analyze-naming
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
 >>>>>>> 85cdef688 (.)
@@ -499,6 +517,9 @@ Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni
 =======
 Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
 >>>>>>> 9f193021d (.)
+=======
+Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/docs/convenzioni-naming-campi.md).
+>>>>>>> 317b552da (.)
 
 ## Esempi
 
@@ -545,6 +566,7 @@ User/
 ## Collegamenti Moduli
 
 ### Modulo UI
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -659,6 +681,8 @@ User/
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 317b552da (.)
 - [Componenti Volt](../UI/docs/components/volt.md)
 - [Layout](../UI/docs/layouts.md)
 - [Temi](../UI/docs/themes.md)
@@ -733,6 +757,7 @@ User/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 =======
@@ -841,6 +866,8 @@ User/
 >>>>>>> 5e6e0d054 (.)
 =======
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> 317b552da (.)
 
 # Struttura dei Moduli Laravel
 
@@ -999,6 +1026,7 @@ Se trovi una directory con case errato:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
 >>>>>>> 85cdef688 (.)
@@ -1062,4 +1090,7 @@ Se trovi una directory con case errato:
 =======
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
 >>>>>>> 9f193021d (.)
+=======
+* [module_structure.md](../../../../docs/error_analysis/module_structure.md)
+>>>>>>> 317b552da (.)
 

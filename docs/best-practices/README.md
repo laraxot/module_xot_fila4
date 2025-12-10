@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - PHPStan level 10+ for all new code
 =======
 >>>>>>> 6ca989d8 (.)
@@ -98,7 +99,13 @@
 =======
 - PHPStan level 9+ for all new code
 >>>>>>> 6e7c1905 (.)
+<<<<<<< HEAD
 >>>>>>> 6a52563d6 (.)
+=======
+=======
+- PHPStan level 9+ for all new code
+>>>>>>> 334816e8 (.)
+>>>>>>> 317b552da (.)
 - Complete PHPDoc annotations
 - Use Safe library for unsafe functions
 - Follow PSR-12 coding standards

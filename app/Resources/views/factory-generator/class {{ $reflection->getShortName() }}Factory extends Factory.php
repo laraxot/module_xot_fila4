@@ -384,6 +384,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pace Database\Factories;
 >>>>>>> 6ca989d8 (.)
 =======
@@ -1388,7 +1389,17 @@ namespace Database\Factories;
 =======
 pace Database\Factories;
 >>>>>>> 8c17e20b (.)
+<<<<<<< HEAD
 >>>>>>> b39688e19 (.)
+=======
+=======
+pace Database\Factories;
+=======
+?>
+namespace Database\Factories;
+>>>>>>> c84488b (.)
+>>>>>>> 334816e8 (.)
+>>>>>>> 317b552da (.)
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 @isset($properties['remember_token'])

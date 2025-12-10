@@ -86,6 +86,7 @@ return $response; // Scarica il file Excel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> 85cdef688 (.)
@@ -149,12 +150,16 @@ return $response; // Scarica il file Excel
 =======
 - Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> 3c8d62b79 (.)
+=======
+- Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
+>>>>>>> 317b552da (.)
 
 ## Collegamenti
 - [Laravel Excel Documentation](https://docs.laravel-excel.com)
 - [Spatie Queueable Action](../traits/QUEUEABLE-ACTION.md)
 - [Performance Guidelines](../PERFORMANCE-GUIDELINES.md)
 - [Actions Overview](./README.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,3 +286,6 @@ return $response; // Scarica il file Excel
 =======
 - [PHPStan Fixes Summary](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> ba7efc23f (.)
+=======
+- [PHPStan Fixes Summary](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
+>>>>>>> 317b552da (.)

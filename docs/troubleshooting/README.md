@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Prevention**: Always run PHPStan level 10+ before commits
 =======
 >>>>>>> 6ca989d8 (.)
@@ -76,7 +77,13 @@
 =======
 - **Prevention**: Always run PHPStan level 9+ before commits
 >>>>>>> 6e7c1905 (.)
+<<<<<<< HEAD
 >>>>>>> 6a52563d6 (.)
+=======
+=======
+- **Prevention**: Always run PHPStan level 9+ before commits
+>>>>>>> 334816e8 (.)
+>>>>>>> 317b552da (.)
 
 ### Translation Problems
 - **Issue**: Missing translations or hardcoded strings

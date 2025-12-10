@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -73,6 +74,8 @@
 >>>>>>> 6e7c1905 (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+>>>>>>> 334816e8 (.)
 # Regole di Documentazione
 
 ## Panoramica
@@ -130,6 +133,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 <<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
@@ -271,6 +275,9 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> 6d05deed (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 334816e8 (.)
 
 ### Formato Corretto
 ```markdown
@@ -278,6 +285,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 # Collegamenti Corretti
 [Documento Correlato](./documento.md)
 [Documento in Sottodirectory](./sottodirectory/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -628,12 +636,17 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
+[Documento in Root](../../../docs/documento.md)
+>>>>>>> 334816e8 (.)
 ```
 
 ### Formato Non Corretto
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1058,6 +1071,11 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 6e7c1905 (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 334816e8 (.)
 ```
 
 ### Checklist di Validazione
@@ -1113,6 +1131,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 <<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
@@ -1254,6 +1273,9 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> 6d05deed (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 334816e8 (.)
 
 ### Formato Corretto
 ```markdown
@@ -1261,6 +1283,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 # Collegamenti Corretti
 [Documento Correlato](./documento.md)
 [Documento in Sottodirectory](./sottodirectory/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1611,12 +1634,17 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
+[Documento in Root](../../../docs/documento.md)
+>>>>>>> 334816e8 (.)
 ```
 
 ### Formato Non Corretto
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2041,6 +2069,11 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 6e7c1905 (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 334816e8 (.)
 ```
 
 ### Checklist di Validazione
@@ -2097,6 +2130,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 <<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
@@ -2238,6 +2272,9 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> 6d05deed (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 334816e8 (.)
 
 ### Formato Corretto
 ```markdown
@@ -2245,6 +2282,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 # Collegamenti Corretti
 [Documento Correlato](./documento.md)
 [Documento in Sottodirectory](./sottodirectory/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2595,12 +2633,17 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+[Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
+[Documento in Root](../../../docs/documento.md)
+>>>>>>> 334816e8 (.)
 ```
 
 ### Formato Non Corretto
 ```markdown
 
 # Collegamenti Non Corretti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3025,6 +3068,11 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 6e7c1905 (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 334816e8 (.)
 ```
 
 ### Checklist di Validazione
@@ -3145,6 +3193,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -3203,3 +3252,5 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> 6e7c1905 (.)
 =======
 >>>>>>> 6d05deed (.)
+=======
+>>>>>>> 334816e8 (.)

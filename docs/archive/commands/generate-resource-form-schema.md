@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -40,6 +41,8 @@
 >>>>>>> 03ceeac3 (.)
 =======
 >>>>>>> 6e7c1905 (.)
+=======
+>>>>>>> 334816e8 (.)
 # GenerateResourceFormSchemaCommand
 
 ## Descrizione
@@ -97,6 +100,7 @@ return [
 ## Collegamenti
 - [Filament Best Practices](../filament-best-practices.md)
 - [Form Components](../COMPONENTI_PERSONALIZZATI.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,3 +202,6 @@ return [
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 6e7c1905 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 334816e8 (.)

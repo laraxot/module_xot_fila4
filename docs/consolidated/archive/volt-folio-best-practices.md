@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -520,3 +521,5 @@ Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)

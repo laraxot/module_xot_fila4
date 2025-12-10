@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -582,3 +583,5 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 >>>>>>> 3bf39332 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)

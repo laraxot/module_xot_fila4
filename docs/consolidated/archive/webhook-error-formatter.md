@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -175,3 +176,5 @@ class WebhookErrorFormatter implements ErrorFormatterContract
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)

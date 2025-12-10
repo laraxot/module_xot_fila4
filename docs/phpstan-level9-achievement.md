@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🏆 PHPStan level 10 Achievement - Framework Xot
 
 **Data**: 18 Agosto 2025  
@@ -359,3 +360,5 @@ public function getRules(array $config): array
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)

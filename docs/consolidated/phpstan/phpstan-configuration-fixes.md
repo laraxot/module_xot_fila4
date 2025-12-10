@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -555,3 +556,5 @@ La configurazione PHPStan implementata mantiene un alto livello di qualità del 
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)

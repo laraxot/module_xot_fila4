@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 return [
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +74,7 @@ return [
 >>>>>>> 63ac839b (.)
 =======
     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -831,6 +833,11 @@ return [
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+
+     */
+
+>>>>>>> 71586de2 (.)
     'backend' => [
         'access' => [
             'roles' => [

@@ -13,6 +13,7 @@ namespace Modules\Xot\Console\Commands;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use SplFileInfo;
 use Exception;
@@ -47,6 +48,9 @@ use Exception;
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+use Exception;
+>>>>>>> 71586de2 (.)
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
@@ -70,6 +74,7 @@ class AddStrictTypesDeclarationCommand extends Command
 
     protected $description = 'Aggiunge la dichiarazione strict_types=1 ai file PHP che ne sono sprovvisti';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,6 +114,8 @@ class AddStrictTypesDeclarationCommand extends Command
      * @var array<int, string>
      */
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     private array $excludedPaths = [
         'views',
         'config',
@@ -175,6 +182,7 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 249a0067 (.)
                     $fileName = $file->getRealPath();
@@ -202,6 +210,9 @@ class AddStrictTypesDeclarationCommand extends Command
                     $filePath = $file->getRealPath();
                     $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
 >>>>>>> b7afadf9 (.)
+=======
+                    $this->info("Verrebbe processato: {$file}");
+>>>>>>> 71586de2 (.)
                     $count++;
 
                     continue;
@@ -249,8 +260,8 @@ class AddStrictTypesDeclarationCommand extends Command
                     $action->execute($path);
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;
-<<<<<<< HEAD
                 } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +287,8 @@ class AddStrictTypesDeclarationCommand extends Command
                 } catch (\Exception $e) {
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
                     $this->error("Errore nel processare {$path}: ".$e->getMessage());
 =======
                     $this->error("Errore nel processare {$path}: " . $e->getMessage());
@@ -299,6 +312,7 @@ class AddStrictTypesDeclarationCommand extends Command
         return 0;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -340,14 +354,14 @@ class AddStrictTypesDeclarationCommand extends Command
      * @return array<int, \Symfony\Component\Finder\SplFileInfo>
      */
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     private function findPhpFiles(string $path): array
     {
-        /** @var array<int, \Symfony\Component\Finder\SplFileInfo> $files */
-        $files = array_values(File::allFiles($path));
-
-        return $files;
+        return File::allFiles($path);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -359,6 +373,9 @@ class AddStrictTypesDeclarationCommand extends Command
 =======
     private function shouldProcessFile(SplFileInfo $file): bool
 >>>>>>> 53d6a6ba (.)
+=======
+    private function shouldProcessFile(SplFileInfo $file): bool
+>>>>>>> 71586de2 (.)
     {
         // Verifica l'estensione
 <<<<<<< HEAD
@@ -393,7 +410,7 @@ class AddStrictTypesDeclarationCommand extends Command
 
         // Verifica se il file è in un percorso escluso
         foreach ($this->excludedPaths as $excludedPath) {
-            if (str_contains($path, '/'.$excludedPath.'/')) {
+            if (str_contains($path, "/{$excludedPath}/")) {
                 return false;
             }
         }

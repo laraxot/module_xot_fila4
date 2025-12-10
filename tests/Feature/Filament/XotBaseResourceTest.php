@@ -2,31 +2,16 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Tests\TestCase;
 
-/**
- * @internal
- *
- * @coversNothing
- */
-class TestXotBaseResource extends XotBaseResource
-{
-    protected static ?string $model = null;
+uses(TestCase::class, RefreshDatabase::class);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -442,6 +427,8 @@ namespace Modules\Xot\Tests\Feature\Filament;
 =======
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
 beforeEach(function () {
     $this->resource = new class extends XotBaseResource
     {
@@ -452,6 +439,7 @@ beforeEach(function () {
         protected static string|\UnitEnum|null $navigationGroup = 'Test Group';
 
         protected static ?int $navigationSort = 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
@@ -494,10 +482,13 @@ test('xot base resource extends filament resource', function (): void {
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     };
 });
 
 test('xot base resource extends filament resource', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -529,25 +520,23 @@ test('xot base resource extends filament resource', function () {
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     expect($this->resource)->toBeInstanceOf(Resource::class);
 });
 
-test('xot base resource has navigation icon', function (): void {
-    /* @phpstan-ignore-next-line property.notFound */
+test('xot base resource has navigation icon', function () {
     expect($this->resource::getNavigationIcon())->toBe('heroicon-o-rectangle-stack');
 });
 
-test('xot base resource has navigation group', function (): void {
-    /* @phpstan-ignore-next-line property.notFound */
+test('xot base resource has navigation group', function () {
     expect($this->resource::getNavigationGroup())->toBe('Test Group');
 });
 
-test('xot base resource has navigation sort', function (): void {
-    /* @phpstan-ignore-next-line property.notFound */
+test('xot base resource has navigation sort', function () {
     expect($this->resource::getNavigationSort())->toBe(1);
 });
 
-test('xot base resource can be instantiated', function (): void {
-    /* @phpstan-ignore-next-line property.notFound */
+test('xot base resource can be instantiated', function () {
     expect($this->resource)->toBeInstanceOf(XotBaseResource::class);
 });

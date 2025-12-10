@@ -46,23 +46,7 @@ class ArtisanCommandsManager extends XotBasePage
 
     /**
      * Livewire event listeners for this component.
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-     *
-=======
-     * 
->>>>>>> f1d4085 (.)
-=======
-     *
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-     *
->>>>>>> 300ef70 (.)
      * @var array<string, string>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,6 +118,7 @@ class ArtisanCommandsManager extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
                 ->disabled(fn() => $this->isRunning)
@@ -333,6 +318,10 @@ class ArtisanCommandsManager extends XotBasePage
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+                ->disabled(fn () => $this->isRunning)
+                ->action(fn () => $this->executeCommand('migrate')),
+>>>>>>> 71586de2 (.)
             Action::make('filament_upgrade')
                 ->label(__('xot::artisan-commands-manager.commands.filament_upgrade.label'))
                 ->icon('heroicon-o-arrow-path')
@@ -359,6 +348,7 @@ class ArtisanCommandsManager extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
                 ->disabled(fn() => $this->isRunning)
@@ -558,6 +548,10 @@ class ArtisanCommandsManager extends XotBasePage
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+                ->disabled(fn () => $this->isRunning)
+                ->action(fn () => $this->executeCommand('filament:upgrade')),
+>>>>>>> 71586de2 (.)
             Action::make('filament_optimize')
                 ->label(__('xot::artisan-commands-manager.commands.filament_optimize.label'))
                 ->icon('heroicon-o-sparkles')
@@ -584,6 +578,7 @@ class ArtisanCommandsManager extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
                 ->disabled(fn() => $this->isRunning)
@@ -783,6 +778,10 @@ class ArtisanCommandsManager extends XotBasePage
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+                ->disabled(fn () => $this->isRunning)
+                ->action(fn () => $this->executeCommand('filament:optimize')),
+>>>>>>> 71586de2 (.)
             Action::make('view_cache')
                 ->label(__('xot::artisan-commands-manager.commands.view_cache.label'))
                 ->icon('heroicon-o-eye')
@@ -809,6 +808,7 @@ class ArtisanCommandsManager extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
                 ->disabled(fn() => $this->isRunning)
@@ -1008,6 +1008,10 @@ class ArtisanCommandsManager extends XotBasePage
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+                ->disabled(fn () => $this->isRunning)
+                ->action(fn () => $this->executeCommand('view:cache')),
+>>>>>>> 71586de2 (.)
             Action::make('config_cache')
                 ->label(__('xot::artisan-commands-manager.commands.config_cache.label'))
                 ->icon('heroicon-o-cog-6-tooth')
@@ -1034,6 +1038,7 @@ class ArtisanCommandsManager extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
                 ->disabled(fn() => $this->isRunning)
@@ -1233,6 +1238,10 @@ class ArtisanCommandsManager extends XotBasePage
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+                ->disabled(fn () => $this->isRunning)
+                ->action(fn () => $this->executeCommand('config:cache')),
+>>>>>>> 71586de2 (.)
             Action::make('route_cache')
                 ->label(__('xot::artisan-commands-manager.commands.route_cache.label'))
                 ->icon('heroicon-o-map')
@@ -1259,6 +1268,7 @@ class ArtisanCommandsManager extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
                 ->disabled(fn() => $this->isRunning)
@@ -1458,6 +1468,10 @@ class ArtisanCommandsManager extends XotBasePage
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+                ->disabled(fn () => $this->isRunning)
+                ->action(fn () => $this->executeCommand('route:cache')),
+>>>>>>> 71586de2 (.)
             Action::make('event_cache')
                 ->label(__('xot::artisan-commands-manager.commands.event_cache.label'))
                 ->icon('heroicon-o-bell')
@@ -1484,6 +1498,7 @@ class ArtisanCommandsManager extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
                 ->disabled(fn() => $this->isRunning)
@@ -1683,12 +1698,17 @@ class ArtisanCommandsManager extends XotBasePage
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+                ->disabled(fn () => $this->isRunning)
+                ->action(fn () => $this->executeCommand('event:cache')),
+>>>>>>> 71586de2 (.)
             Action::make('queue_restart')
                 ->label(__('xot::artisan-commands-manager.commands.queue_restart.label'))
                 ->icon('heroicon-o-arrow-path')
                 ->color('gray')
                 ->size('lg')
                 ->iconPosition(IconPosition::Before)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1799,6 +1819,10 @@ class ArtisanCommandsManager extends XotBasePage
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+                ->disabled(fn () => $this->isRunning)
+                ->action(fn () => $this->executeCommand('queue:restart')),
+>>>>>>> 71586de2 (.)
         ];
     }
 

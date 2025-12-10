@@ -67,6 +67,7 @@ trait CreatesApplication
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $app = require __DIR__.'/../../../bootstrap/app.php';
 =======
         $app = require __DIR__ . '/../../../bootstrap/app.php';
@@ -379,9 +380,10 @@ trait CreatesApplication
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+        $app = require __DIR__.'/../../../bootstrap/app.php';
+>>>>>>> 71586de2 (.)
 
-        assert($app instanceof Application);
-        /* @phpstan-ignore-next-line method.nonObject */
         $app->make(Kernel::class)->bootstrap();
 
         return $app;

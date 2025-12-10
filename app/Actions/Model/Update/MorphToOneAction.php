@@ -234,6 +234,7 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! isset($data['lang'])) {
 =======
         if (!isset($data['lang'])) {
@@ -543,6 +544,9 @@ class MorphToOneAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+        if (! isset($data['lang'])) {
+>>>>>>> 71586de2 (.)
             $data['lang'] = App::getLocale();
         }
 
@@ -599,6 +603,7 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -908,5 +913,8 @@ class MorphToOneAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+        return array_filter($data, static fn ($value) => $value !== null);
+>>>>>>> 71586de2 (.)
     }
 }

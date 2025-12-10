@@ -72,6 +72,7 @@ class GetModelByModelTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -90,26 +91,9 @@ class GetModelByModelTypeAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     public function execute(string $model_type, ?string $model_id): Model
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function execute(string $model_type, ?string $model_id): Model
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function execute(string $model_type, null|string $model_id): Model
-=======
-    public function execute(string $model_type, ?string $model_id): Model
->>>>>>> f1d4085 (.)
-=======
-    public function execute(string $model_type, null|string $model_id): Model
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function execute(string $model_type, null|string $model_id): Model
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
     {
         $model_class = app(GetModelClassByModelTypeAction::class)->execute($model_type);
         Assert::isInstanceOf($model = app($model_class), Model::class);
@@ -117,9 +101,9 @@ class GetModelByModelTypeAction
             $model = $model->find($model_id);
         }
 
-<<<<<<< HEAD
         if ($model === null) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -525,6 +509,8 @@ class GetModelByModelTypeAction
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
         }
 
         return $model;

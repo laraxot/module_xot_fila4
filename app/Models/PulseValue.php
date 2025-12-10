@@ -89,6 +89,7 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -254,6 +255,9 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+ * @mixin IdeHelperPulseValue
+>>>>>>> 71586de2 (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

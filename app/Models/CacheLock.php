@@ -67,6 +67,7 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -178,6 +179,9 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+ * @mixin IdeHelperCacheLock
+>>>>>>> 71586de2 (.)
  * @mixin \Eloquent
  */
 class CacheLock extends BaseModel

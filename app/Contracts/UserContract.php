@@ -57,6 +57,7 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\Team;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -100,6 +101,10 @@ use DateTime;
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+use BackedEnum;
+use DateTime;
+>>>>>>> 71586de2 (.)
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
 <<<<<<< HEAD
@@ -411,6 +416,7 @@ use Illuminate\Support\Collection;
 use Laravel\Passport\Token;
 use Modules\User\Contracts\HasTeamsContract;
 use Modules\User\Models\Tenant;
+use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
 <<<<<<< HEAD
@@ -977,11 +983,12 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string|null $first_name
  * @property string|null $last_name
  * @property string|null $full_name
- * @property \BackedEnum&HasLabel $type
+ * @property BackedEnum&HasLabel $type
  * @property string|null $password
  * @property string|int|null $current_team_id
  * @property string|null $phone
  * @property string|null $email
+<<<<<<< HEAD
  * @property \DateTime|null $email_verified_at
 <<<<<<< HEAD
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
@@ -1025,6 +1032,9 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string|null $phone
  * @property string|null $email
  * @property \DateTime|null $email_verified_at
+=======
+ * @property DateTime|null $email_verified_at
+>>>>>>> 71586de2 (.)
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
  * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
  *
@@ -1100,6 +1110,8 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @method bool canAccessSocialite()
  *
  * @phpstan-require-extends Model
+ *
+ * @mixin \Eloquent
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1434,9 +1446,6 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * public function areas();
      * public function avatar();
      */
-    /**
-     * Get the user's profile.
-     */
     public function profile(): HasOne;
 
     /**
@@ -1459,6 +1468,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 >>>>>>> 5a14301c (.)
      * Update the model in the database.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1652,10 +1662,18 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      *
      * @param  string  $key
+=======
+>>>>>>> 71586de2 (.)
      * @return bool
+     */
     /**
      * Get a relationship.
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+     *
+     * @param  string  $key
+>>>>>>> 71586de2 (.)
      * @return mixed|null
      */
     public function getRelationValue($key);
@@ -1853,7 +1871,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @return mixed|int|string
      */
-    #[\Override]
+    #[Override]
     public function getKey();
 
     /**
@@ -2136,6 +2154,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string|int|Role|BackedEnum  $role
 =======
 <<<<<<< HEAD
@@ -2318,6 +2337,9 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
      * @param  string|int|Role|\BackedEnum  $role
 >>>>>>> b7afadf9 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 71586de2 (.)
      * @return self
      */
     public function removeRole($role);
@@ -2340,6 +2362,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -2363,6 +2386,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @return BelongsToMany
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
      */
     public function roles(): BelongsToMany;
 
@@ -2415,8 +2440,6 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
 >>>>>>> 5a14301c (.)
      * Get all of the tenants the user belongs to.
-     *
-     * @return BelongsToMany
      */
     public function tenants(): BelongsToMany;
 
@@ -2525,9 +2548,11 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Determine if the role may perform the given permission.
      *
+     * @param  string|int|Permission|BackedEnum  $permission
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2876,4 +2901,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
     public function hasPermissionTo(string|int|Permission|\BackedEnum $permission, ?string $guardName = null): bool;
 >>>>>>> b7afadf9 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 71586de2 (.)
 }

@@ -14,27 +14,6 @@ class ImportButton
     public function execute(): Action
     {
         return Action::make('import')
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-            ->tooltip('import XLS')
-            ->icon('heroicon-o-arrow-up-on-square')
-            // ->visible(null != $year)
-<<<<<<< HEAD
-            ->action(static fn () => dddx('WIP'));
-=======
-            ->action(static fn() => dddx('WIP'));
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            
->>>>>>> d2b0a27 (.)
             ->tooltip('import XLS')
             ->icon('heroicon-o-arrow-up-on-square')
             // ->visible(null != $year)
@@ -54,6 +33,7 @@ class ImportButton
 <<<<<<< HEAD
 <<<<<<< HEAD
             ->action(static fn () => dddx('WIP'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,5 +376,7 @@ class ImportButton
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
     }
 }

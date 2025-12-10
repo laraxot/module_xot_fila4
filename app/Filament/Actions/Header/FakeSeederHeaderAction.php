@@ -44,19 +44,6 @@ class FakeSeederHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
             ->tooltip(__('xot::actions.fake_seeder'))
             ->icon('fas-seedling')
             ->schema([
@@ -66,6 +53,7 @@ class FakeSeederHeaderAction extends Action
                     ->minValue(1)
                     ->integer(),
             ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,6 +99,9 @@ class FakeSeederHeaderAction extends Action
 =======
             ->action(function (array $data, ListRecords $livewire): void {
 >>>>>>> b7afadf9 (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 71586de2 (.)
                 $resource = $livewire->getResource();
                 /** @var class-string<Model> $modelClass */
                 $modelClass = $resource::getModel();
@@ -121,12 +112,6 @@ class FakeSeederHeaderAction extends Action
                 $qty = max(1, (int) $qtyRaw);
                 Assert::greaterThanEq($qty, 1, 'Quantity must be greater than 0');
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d2b0a27 (.)
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
 
 <<<<<<< HEAD
@@ -142,6 +127,7 @@ class FakeSeederHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
                 $title = 'On Queue '.$qty.' '.$modelClass;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -508,6 +494,8 @@ class FakeSeederHeaderAction extends Action
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
                 Notification::make()
                     ->title($title)
                     ->success()
@@ -516,6 +504,7 @@ class FakeSeederHeaderAction extends Action
             ->visible(false);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -877,6 +866,9 @@ class FakeSeederHeaderAction extends Action
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 71586de2 (.)
     {
         return 'fake_seeder';
     }

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -20,6 +21,8 @@
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 71586de2 (.)
 # Code Quality Guidelines for Laravel Modules
 
 ## Overview
@@ -77,6 +80,9 @@ This document outlines the best practices for maintaining high code quality with
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 71586de2 (.)
 =======
 >>>>>>> 71586de2 (.)
 ## Code Quality Tools
@@ -93,6 +99,7 @@ This document outlines the best practices for maintaining high code quality with
 - [fix_docs_case](../../../../../bashscripts/project_docs/docs/fix_docs_case.md) - Standardizzazione automatica dei nomi file nella documentazione
 - Eseguire gli script di automazione regolarmente per mantenere la coerenza del codice
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
@@ -126,6 +133,8 @@ This document outlines the best practices for maintaining high code quality with
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 71586de2 (.)
 ## Common Issues and Fixes
 - **Type Errors**: Ensure all methods and functions have explicit return types and parameter types to avoid type-related bugs.
 - **Static Analysis Failures**: Address PHPStan errors by refining code or updating the baseline for existing code.
@@ -156,6 +165,7 @@ This document outlines the best practices for maintaining high code quality with
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -176,3 +186,5 @@ This document outlines the best practices for maintaining high code quality with
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)

@@ -86,6 +86,7 @@ class StoreAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 17684f52 (.)
@@ -600,57 +601,31 @@ class StoreAction
 =======
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+    public function execute(Model $model, array $data, array $rules): Model
+    {
+        if (! isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+>>>>>>> 71586de2 (.)
             $data['lang'] = app()->getLocale();
         }
         $data['updated_by'] = authId();
         $data['created_by'] = authId();
         /*if (
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
          * ! isset($data['user_id'])
          * && \in_array('user_id',  $row->getFillable(), false)
          * && 'user_id' !== $row->getKeyName()
          * ) {
          * $data['user_id'] = \Auth::id();
          * }*/
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-            ! isset($data['user_id'])
-            && \in_array('user_id',  $row->getFillable(), false)
-            && 'user_id' !== $row->getKeyName()
-        ) {
-            $data['user_id'] = \Auth::id();
-        }*/
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
         $validator = Validator::make($data, $rules);
         $validator->validate();
 
-        /** @var array<string, mixed> $validatedData */
-        $validatedData = $data;
-        $model = $model->fill($validatedData);
+        $model = $model->fill($data);
 
         $model->save();
 
-        /** @var array<string, mixed> $relationData */
-        $relationData = $data;
-        $relations = app(FilterRelationsAction::class)->execute($model, $relationData);
+        $relations = app(FilterRelationsAction::class)->execute($model, $data);
 
         foreach ($relations as $relation) {
             // Ottieni il tipo di relazione dal nome della classe
@@ -853,6 +828,7 @@ class StoreAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca9324a4 (.)
 =======
 <<<<<<< HEAD
@@ -982,11 +958,14 @@ class StoreAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
             $action_class = __NAMESPACE__.'\\Store\\'.$relationshipType.'Action';
             $action = app($action_class);
             Assert::object($action);
             if (! method_exists($action, 'execute')) {
                 throw new Exception('method [execute] not found in ['.$action_class.']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1325,6 +1304,8 @@ class StoreAction
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
             }
             $action->execute($model, $relation);
         }

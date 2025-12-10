@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Risoluzione Conflitti di Merge 
 
 <<<<<<< HEAD
@@ -459,3 +460,5 @@ La risoluzione dei conflitti di merge ha ripristinato la corretta funzionalità 
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)

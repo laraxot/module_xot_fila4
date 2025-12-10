@@ -128,6 +128,7 @@ class GetModulesNavigationItems
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // TenantService::allModules() restituisce sempre array
         // Pre-load user roles to avoid N+1 queries
         /** @var Authenticatable|null $user */
@@ -166,6 +167,9 @@ class GetModulesNavigationItems
 =======
         Assert::isArray($modules);
 >>>>>>> b7afadf9 (.)
+=======
+        Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
+>>>>>>> 71586de2 (.)
 
         // Pre-load user roles to avoid N+1 queries
         $user = auth()->user();

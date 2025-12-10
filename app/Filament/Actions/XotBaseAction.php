@@ -52,6 +52,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class XotBaseAction extends FilamentAction {}
 =======
 abstract class XotBaseAction extends Action
@@ -109,3 +110,8 @@ abstract class XotBaseAction extends FilamentAction {
 abstract class XotBaseAction extends Action {}
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+abstract class XotBaseAction extends FilamentAction {
+    
+}
+>>>>>>> 71586de2 (.)

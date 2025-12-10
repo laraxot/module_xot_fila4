@@ -56,6 +56,7 @@ namespace Modules\Xot\Interfaces;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -222,6 +223,11 @@ use Filament\Actions\Action;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+use Filament\Tables\Columns\Column;
+>>>>>>> 71586de2 (.)
 
 interface HasTableFunctions
 {
@@ -242,23 +248,7 @@ interface HasTableFunctions
     /**
      * Get the table bulk actions.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return array<string, BulkAction>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @return array<string, BulkAction>
-=======
-     * @return array<string, \Filament\Actions\BulkAction>
->>>>>>> f1d4085 (.)
-=======
-     * @return array<string, BulkAction>
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-     * @return array<string, BulkAction>
->>>>>>> 300ef70 (.)
      */
     public function getTableBulkActions(): array;
 }

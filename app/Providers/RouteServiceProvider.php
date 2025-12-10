@@ -16,6 +16,7 @@ namespace Modules\Xot\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Filament\Facades\Filament;
 <<<<<<< HEAD
@@ -163,27 +164,11 @@ use Filament\Facades\Filament;
 =======
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
-=======
-use Filament\Facades\Filament;
->>>>>>> a6ef6dc7 (.)
-use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
-use Illuminate\Routing\Router;
-use Illuminate\Support\Facades\Route;
-<<<<<<< HEAD
-=======
-use Illuminate\Routing\Router;
->>>>>>> f1d4085 (.)
-=======
-use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
-use Illuminate\Routing\Router;
-use Illuminate\Support\Facades\Route;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
@@ -207,20 +192,6 @@ use Modules\Xot\Http\Middleware\SetDefaultLocaleForUrls;
 use Modules\Xot\Http\Middleware\SetDefaultLocaleForUrls;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Http\Middleware\SetDefaultTenantForUrlsMiddleware;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
-use Illuminate\Support\Facades\Route;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 
 // public function boot(\Illuminate\Routing\Router $router)
 
@@ -327,25 +298,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapWebRoutes(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
-=======
-        Route::middleware('web')
-            ->namespace($this->moduleNamespace)
-            ->group(base_path('Modules/Xot/routes/web.php'));
->>>>>>> f1d4085 (.)
-=======
-        Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        Route::middleware('web')->namespace($this->moduleNamespace)->group(base_path('Modules/Xot/routes/web.php'));
->>>>>>> 300ef70 (.)
     }
 
     /**
@@ -389,28 +342,8 @@ class RouteServiceProvider extends ServiceProvider
         }
 
         // ✅ Controllo sicuro della configurazione laravellocalization
-<<<<<<< HEAD
-<<<<<<< HEAD
         $locales = config()->has('laravellocalization.supportedLocales')
             ? config('laravellocalization.supportedLocales')
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $locales = config()->has('laravellocalization.supportedLocales')
-            ? config('laravellocalization.supportedLocales')
-=======
-        $locales = config()->has('laravellocalization.supportedLocales') 
-            ? config('laravellocalization.supportedLocales') 
->>>>>>> f1d4085 (.)
-=======
-        $locales = config()->has('laravellocalization.supportedLocales')
-            ? config('laravellocalization.supportedLocales')
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        $locales = config()->has('laravellocalization.supportedLocales')
-            ? config('laravellocalization.supportedLocales')
->>>>>>> 300ef70 (.)
             : null;
 
         if (is_array($locales)) {
@@ -432,20 +365,11 @@ class RouteServiceProvider extends ServiceProvider
     public function registerRoutePattern(Router $router): void
     {
         // ✅ Controllo sicuro della configurazione laravellocalization
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         $langs = config()->has('laravellocalization.supportedLocales')
             ? config('laravellocalization.supportedLocales')
             : ['it' => 'it', 'en' => 'en'];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -838,6 +762,9 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> 300ef70 (.)
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+        if (! is_array($langs)) {
+>>>>>>> 71586de2 (.)
             $langs = ['it' => 'it', 'en' => 'en'];
         }
 
@@ -894,6 +821,7 @@ class RouteServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $lang_pattern = '/|'.$lang_pattern.'|/i';
 =======
         $lang_pattern = '/|' . $lang_pattern . '|/i';
@@ -1203,6 +1131,9 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+        $lang_pattern = '/|'.$lang_pattern.'|/i';
+>>>>>>> 71586de2 (.)
 
         $router->pattern('lang', $lang_pattern);
 
@@ -1259,6 +1190,7 @@ class RouteServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_array($models)) {
 =======
         if (!is_array($models)) {
@@ -1568,6 +1500,9 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+        if (! is_array($models)) {
+>>>>>>> 71586de2 (.)
             $models = [];
         }
 
@@ -1625,6 +1560,7 @@ class RouteServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -1643,28 +1579,9 @@ class RouteServiceProvider extends ServiceProvider
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
         $models_collect->map(fn ($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $models_collect->map(fn ($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $models_collect->map(fn($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
-=======
-        $models_collect->map(
-            fn ($item) => Str::plural(is_string($item) ? $item : (string) $item)
-        )->implode('|');
->>>>>>> f1d4085 (.)
-=======
-        $models_collect->map(fn($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        $models_collect->map(fn($item) => Str::plural(is_string($item) ? $item : ((string) $item)))->implode('|');
->>>>>>> 300ef70 (.)
->>>>>>> a6ef6dc7 (.)
     }
 
     /**

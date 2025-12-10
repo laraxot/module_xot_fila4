@@ -442,6 +442,7 @@ class MetatagPage extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             ->visible(fn(Get $get) => $get('color') === 'custom')
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -477,6 +478,9 @@ class MetatagPage extends Page implements HasForms
                             ->visible(fn (callable $get) => $get('color') === 'custom')
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
+=======
+                            ->visible(fn ($get) => $get('color') === 'custom')
+>>>>>>> 71586de2 (.)
                             ->required(),
                     ])
                     ->columns(3),

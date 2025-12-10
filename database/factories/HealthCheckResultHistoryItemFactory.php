@@ -9,23 +9,7 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 
 /**
  * HealthCheckResultHistoryItem Factory
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
- *
-=======
- * 
->>>>>>> f1d4085 (.)
-=======
- *
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
- *
->>>>>>> 300ef70 (.)
  * @extends Factory<HealthCheckResultHistoryItem>
  */
 class HealthCheckResultHistoryItemFactory extends Factory
@@ -37,23 +21,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return [
             'check_name' => $this->faker->randomElement([
                 'DatabaseCheck',
-<<<<<<< HEAD
-<<<<<<< HEAD
                 'CacheCheck',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                'CacheCheck',
-=======
-                'CacheCheck', 
->>>>>>> f1d4085 (.)
-=======
-                'CacheCheck',
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-                'CacheCheck',
->>>>>>> 300ef70 (.)
                 'QueueCheck',
                 'StorageCheck',
                 'MemoryCheck',
@@ -72,6 +40,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 
     public function ok(): static
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -437,6 +406,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 71586de2 (.)
             'status' => 'ok',
             'notification_message' => null,
         ]);
@@ -444,6 +416,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 
     public function failed(): static
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -805,6 +778,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 71586de2 (.)
             'status' => 'failed',
             'notification_message' => $this->faker->sentence(),
         ]);

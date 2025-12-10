@@ -94,6 +94,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -746,7 +747,13 @@ use Spatie\QueueableAction\QueueableAction;
  * 
 >>>>>>> c06600c (.)
 >>>>>>> 931910ce (.)
+<<<<<<< HEAD
 >>>>>>> 7126d1599 (.)
+=======
+=======
+ *
+>>>>>>> 63ac839b (.)
+>>>>>>> 4adb2fbfb (.)
  * Questa action centralizza la logica di generazione dell'espressione SQL
  * per il calcolo della distanza tra due punti geografici.
  */
@@ -933,7 +940,21 @@ class GetDistanceExpressionAction
 >>>>>>> 5df5c7505 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7126d1599 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4adb2fbfb (.)
 =======
 =======
 =======
@@ -1084,7 +1105,12 @@ class GetDistanceExpressionAction
 =======
 =======
 >>>>>>> 931910ce (.)
+<<<<<<< HEAD
 >>>>>>> 7126d1599 (.)
+=======
+=======
+>>>>>>> 63ac839b (.)
+>>>>>>> 4adb2fbfb (.)
     public function execute(
         float $latitude,
         float $longitude,
@@ -1225,7 +1251,21 @@ class GetDistanceExpressionAction
 >>>>>>> 5df5c7505 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7126d1599 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4adb2fbfb (.)
 =======
      * @return \Illuminate\Contracts\Database\Query\Expression Espressione SQL per il calcolo della distanza
      */
@@ -2274,13 +2314,19 @@ class GetDistanceExpressionAction
 =======
 >>>>>>> c06600c (.)
 >>>>>>> 931910ce (.)
+<<<<<<< HEAD
 >>>>>>> 7126d1599 (.)
+=======
+=======
+>>>>>>> 63ac839b (.)
+>>>>>>> 4adb2fbfb (.)
         }
 
         return DB::raw($sql);
     }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2990,4 +3036,10 @@ class GetDistanceExpressionAction
 } 
 >>>>>>> c06600c (.)
 >>>>>>> 931910ce (.)
+<<<<<<< HEAD
 >>>>>>> 7126d1599 (.)
+=======
+=======
+}
+>>>>>>> 63ac839b (.)
+>>>>>>> 4adb2fbfb (.)

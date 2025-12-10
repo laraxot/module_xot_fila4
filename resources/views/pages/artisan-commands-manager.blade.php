@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -52,11 +53,14 @@
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117,6 +121,8 @@ declare(strict_types=1);
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 <x-filament::page>
     <div class="space-y-6">
         <div class="p-6 bg-white rounded-xl shadow dark:bg-gray-800">
@@ -155,6 +161,7 @@ declare(strict_types=1);
     </script>
     @endscript
     --}}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,3 +273,6 @@ declare(strict_types=1);
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+</x-filament::page>
+>>>>>>> 5cb992cc6 (.)

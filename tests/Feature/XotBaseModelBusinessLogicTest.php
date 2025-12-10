@@ -33,6 +33,7 @@ namespace Modules\Xot\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
 <<<<<<< HEAD
@@ -41,6 +42,7 @@ namespace Modules\Xot\Tests\Feature;
 >>>>>>> b956ebe0 (.)
 =======
 >>>>>>> cc52d333 (.)
+<<<<<<< HEAD
 use Illuminate\Database\ConnectionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60,12 +62,17 @@ use Illuminate\Database\ConnectionInterface;
 >>>>>>> 5ca118c34 (.)
 =======
 =======
-<<<<<<< HEAD
+>>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> 0123915b (.)
 use Illuminate\Database\ConnectionInterface;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
@@ -95,6 +102,7 @@ use Modules\Xot\Tests\TestCase;
 use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Tests\TestCase;
 <<<<<<< HEAD
 =======
@@ -174,6 +182,8 @@ use Tests\TestCase;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 
 class XotBaseModelBusinessLogicTest extends TestCase
 {
@@ -1075,6 +1085,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
         // Assert
         $this->assertNotNull($connection);
+<<<<<<< HEAD
         $this->assertInstanceOf(ConnectionInterface::class, $connection);
     }
 
@@ -1529,6 +1540,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+        $this->assertInstanceOf(ConnectionInterface::class, $connection);
+>>>>>>> 5cb992cc6 (.)
     }
 
     /** @test */
@@ -2425,6 +2439,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
@@ -2566,4 +2581,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> 5cd593a5 (.)
 =======
 >>>>>>> cc52d333 (.)
+<<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> 0123915b (.)
+>>>>>>> 5cb992cc6 (.)

@@ -10,6 +10,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -58,6 +59,8 @@ return [
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -67,6 +70,7 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +202,8 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 
     'backend' => [
         'access' => [
@@ -211,6 +217,7 @@ return [
                 'not_found' => 'Die rol bestaat niet.',
                 'update_error' => 'Er is een probleem opgetreden bij het bijwerken van deze rol. Probeer het nogmaals.',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,6 +323,8 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
             'users' => [
                 'cant_deactivate_self' => 'U kunt uzelf niet deactiveren',
                 'cant_delete_self' => 'U kunt uzelf niet verwijderen.',
@@ -348,6 +357,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -439,6 +449,8 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -460,6 +472,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Uw account is gedactiveerd.',
             'email_taken' => 'Dat emailadres is al in gebruik.',
 <<<<<<< HEAD
@@ -624,6 +637,10 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+            'deactivated' => 'Uw account is gedactiveerd.',
+            'email_taken' => 'Dat emailadres is al in gebruik.',
+>>>>>>> 5cb992cc6 (.)
             'password' => [
                 'change_mismatch' => 'Dat is niet uw oude wachtwoord',
             ],

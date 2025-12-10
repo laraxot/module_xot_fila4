@@ -24,6 +24,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -72,6 +73,8 @@ return [
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
      * |--------------------------------------------------------------------------
      * | Default Preset
      * |--------------------------------------------------------------------------
@@ -83,10 +86,6 @@ return [
      * | Supported: "default", "laravel", "symfony", "magento2", "drupal", "wordpress"
      * |
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
     'preset' => 'laravel',
     /*
@@ -118,6 +117,7 @@ return [
      * | mind, that all added `Insights` must belong to a specific `Metric`.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -423,10 +423,13 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 
     'exclude' => [
         //  'path/to/directory-or-file'
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -532,6 +535,8 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
     'add' => [
         Classes::class => [
             ForbiddenFinalClasses::class,
@@ -551,6 +556,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -642,6 +648,8 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
     'remove' => [
         AlphabeticallySortedUsesSniff::class,
         DeclareStrictTypesSniff::class,
@@ -668,6 +676,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -759,11 +768,14 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
     'config' => [
         ForbiddenPrivateMethods::class => [
             'title' => 'The usage of private methods is not idiomatic in Laravel.',
         ],
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -809,6 +821,8 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Requirements
@@ -819,6 +833,7 @@ return [
      * | code will be returned. This is optional and individually defined.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -953,6 +968,8 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 
     'requirements' => [
         //        'min-quality' => 0,
@@ -961,6 +978,7 @@ return [
         //        'min-style' => 0,
         //        'disable-security-check' => false,
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1010,6 +1028,8 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Threads
@@ -1032,6 +1052,7 @@ return [
      * | of Symfony's setTimeout function.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1263,6 +1284,8 @@ return [
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 
     'timeout' => 60,
 ];

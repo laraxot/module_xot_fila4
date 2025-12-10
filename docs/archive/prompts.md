@@ -90,6 +90,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -121,6 +122,9 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+* [prompts.md](../../../Xot/docs/prompts.md)
+>>>>>>> 5cb992cc6 (.)
 
 
 ## Modifiche al Prompt docs.txt
@@ -148,6 +152,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 ⚠️ **Problema Identificato**: Uso di percorsi assoluti nei collegamenti
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,7 +430,13 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
+<<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+=======
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+>>>>>>> 0123915b (.)
+>>>>>>> 5cb992cc6 (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore
@@ -514,6 +525,7 @@ Il prompt `docs.txt` serve come:
    [Documento](./path/relativo) #tag-correlati
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -690,4 +702,9 @@ Il prompt `docs.txt` serve come:
 =======
    ```
 >>>>>>> 03ceeac3 (.)
+<<<<<<< HEAD
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 0123915b (.)
+>>>>>>> 5cb992cc6 (.)

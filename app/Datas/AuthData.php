@@ -54,6 +54,7 @@ class AuthData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -180,6 +181,9 @@ class AuthData extends Data
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+    ) {}
+>>>>>>> 5cb992cc6 (.)
 
     /**
      * Create a new instance of AuthData with default values.

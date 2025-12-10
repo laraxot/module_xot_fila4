@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -52,15 +53,13 @@
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 <div>
     <div class="btn-group group-toggle">
         <label class="btn btn-danger">
@@ -70,6 +69,7 @@ declare(strict_types=1);
             <input wire:model="animal" name="animal" type="radio" value="dogs" /> Dogs
         </label>
         <label class="btn btn-danger">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,6 +228,8 @@ declare(strict_types=1);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
             <input wire:model="animal" name="animal" type="radio" value="both" /> Both
         </label>
     </div>
@@ -249,6 +251,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <label class="inline-flex items-center">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,6 +351,9 @@ declare(strict_types=1);
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+                <label class="inline-flex items-center">
+>>>>>>> 5cb992cc6 (.)
                     <input wire:model="options.{{ $key }}" name="options[{{ $key }}]" value="1" type="checkbox">
                     <span class="ml-2">{{ $key }}</span>
                 </label>
@@ -371,6 +377,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -411,6 +418,8 @@ declare(strict_types=1);
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
             <label class="btn btn-danger">
                 <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="-1" />
                 <span>-</span>
@@ -420,6 +429,7 @@ declare(strict_types=1);
                 <span>&nbsp;</span>
             </label>
             <label class="btn btn-primary">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -579,6 +589,8 @@ declare(strict_types=1);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
                 <input type="radio" wire:model="qty1.{{ $i }}" name="qty1[{{ $i }}]" value="1" />
                 <span>+</span>
             </label>
@@ -607,6 +619,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <label class="btn btn-danger">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -706,6 +719,9 @@ declare(strict_types=1);
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+                    <label class="btn btn-danger">
+>>>>>>> 5cb992cc6 (.)
                         <input type="radio" wire:model="qty.{{ $change_cat-> }}.{{ $change-> }}"
                             name="qty[{{ $change_cat-> }}][{{ $change-> }}]" autocomplete="off" value="-1">
                         @if (isset($qty[$change_cat->][$change->]) && $qty[$change_cat->][$change->] == -1)
@@ -723,6 +739,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <label class="btn btn-secondary">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -822,6 +839,9 @@ declare(strict_types=1);
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+                    <label class="btn btn-secondary">
+>>>>>>> 5cb992cc6 (.)
                         <input type="radio" wire:model="qty.{{ $change_cat-> }}.{{ $change-> }}"
                             name="qty[{{ $change_cat-> }}][{{ $change-> }}]" autocomplete="off" value="0">
                         @if (isset($qty[$change_cat->][$change->]) && $qty[$change_cat->][$change->] == 0)
@@ -839,6 +859,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <label class="btn btn-primary active">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -938,6 +959,9 @@ declare(strict_types=1);
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+                    <label class="btn btn-primary active">
+>>>>>>> 5cb992cc6 (.)
                         <input type="radio" wire:model="qty.{{ $change_cat-> }}.{{ $change-> }}"
                             name="qty[{{ $change_cat-> }}][{{ $change-> }}]" autocomplete="off" value="1">
                         @if (isset($qty[$change_cat->][$change->]) && $qty[$change_cat->][$change->] == 1)

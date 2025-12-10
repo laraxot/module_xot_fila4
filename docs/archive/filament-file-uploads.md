@@ -226,6 +226,7 @@ FileUpload::make('certifications')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -257,6 +258,9 @@ FileUpload::make('certifications')
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+È fondamentale che i campi utilizzati nei componenti `FileUpload` corrispondano ai campi disponibili nel database. Per una documentazione dettagliata sulla mappatura dei campi, consulta la [Mappatura dei Campi Database nel Modulo Patient](/laravel/Modules/Patient/docs/DATABASE_FIELD_MAPPING.md).
+>>>>>>> 5cb992cc6 (.)
 
 ### Campi per File Singoli
 
@@ -342,12 +346,12 @@ Forms\Components\FileUpload::make('certifications')
 
 ## Documentazione Correlata
 
-<<<<<<< HEAD
 - [Mappatura dei Campi Database nel Modulo Patient](/laravel/Modules/Patient/docs/DATABASE_FIELD_MAPPING.md)
 - [Migrazioni del Database](/docs/database-migrations.md)
 - [Gestione degli Utenti](/docs/user-management.md)
 - [Pattern di Ereditarietà dei Modelli](/docs/model-inheritance-patterns.md)
 - [Documentazione Ufficiale di Filament](https://filamentphp.com/docs/3.x/forms/fields/file-upload)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -387,6 +391,8 @@ Forms\Components\FileUpload::make('certifications')
 >>>>>>> 92cca5ade (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -443,4 +449,9 @@ Forms\Components\FileUpload::make('certifications')
 =======
 =======
 >>>>>>> cc52d333 (.)
+<<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> 0123915b (.)
+>>>>>>> 5cb992cc6 (.)

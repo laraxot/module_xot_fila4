@@ -44,6 +44,7 @@ Questo documento fornisce un indice della documentazione del modulo Xot, organiz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Framework](https://laravel.com/docs/12.x)
 >>>>>>> 85cdef688 (.)
@@ -92,6 +93,9 @@ Questo documento fornisce un indice della documentazione del modulo Xot, organiz
 - [Laravel Framework](https://laravel.com/project_docs/12.x)
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+- [Laravel Framework](https://laravel.com/docs/12.x)
+>>>>>>> 5cb992cc6 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)

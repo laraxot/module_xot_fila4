@@ -19,7 +19,6 @@
 >>>>>>> 92cca5ade (.)
 # Testing Best Practices - Laraxot Framework
 
-<<<<<<< HEAD
 ## 🏆 **Gold Standard Pattern**
 
 Basato sui successi misurabili dei test RegisterTypeWidgetTest.php (9/9 test passati) e RegisterTypeTest.php (10/14 test passati).
@@ -42,6 +41,7 @@ uses(\Modules\Xot\Tests\TestCase::class);
 // ✅ CRITICO: Mock XotData per ogni test
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,11 +324,17 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
+<<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> 0123915b (.)
+>>>>>>> 5cb992cc6 (.)
 beforeEach(function (): void {
     mockXotData();
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -366,13 +372,15 @@ beforeEach(function (): void {
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+// ✅ CRITICO: Test diretti senza describe() o dataset()
+>>>>>>> 5cb992cc6 (.)
 test('widget can be rendered', function () {
     Livewire::test({WidgetName}::class)
         ->assertStatus(200);
 });
 ```
 
-<<<<<<< HEAD
 ### XotData Mock Pattern (Obbligatorio)
 
 ```php
@@ -858,6 +866,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 =======
 **Last Update**: Dicembre 2024 
+<<<<<<< HEAD
 =======
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
@@ -1196,4 +1205,9 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
+<<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> 0123915b (.)
+>>>>>>> 5cb992cc6 (.)

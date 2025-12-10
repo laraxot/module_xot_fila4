@@ -105,6 +105,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 =======
@@ -127,11 +128,11 @@ return [
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> f8f76a284 (.)
-- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 =======
-- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
->>>>>>> 6cba4fe (.)
+>>>>>>> 5cb992cc6 (.)
+- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,3 +190,5 @@ return [
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 5cb992cc6 (.)

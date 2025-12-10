@@ -32,6 +32,7 @@ class RenderContextNavigation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -72,6 +73,8 @@ class RenderContextNavigation
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
     public function execute(string $module, string $_context): void
     {
         Filament::registerRenderHook(
@@ -104,6 +107,7 @@ class RenderContextNavigation
          * fn (): string => Blade::render('@livewire(\'switchable-team\')'),
          * );
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,5 +329,7 @@ class RenderContextNavigation
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
     }
 }

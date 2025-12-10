@@ -899,6 +899,7 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -914,6 +915,8 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 - [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -959,6 +962,7 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 - [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament_xot_architecture.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1353,4 +1357,9 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 =======
 =======
 >>>>>>> cc52d333 (.)
+<<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> 0123915b (.)
+>>>>>>> 5cb992cc6 (.)

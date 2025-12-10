@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\Pages;
 
-<<<<<<< HEAD
 use Filament\Actions\Action;
-=======
-<<<<<<< HEAD
-use Filament\Actions\Action;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Filament\Resources\Pages\ListRecords as FilamentListRecords;
 use Filament\Actions\Action;
 use Filament\Actions\Action;
@@ -39,6 +32,7 @@ use Modules\UI\Enums\TableLayoutEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -56,6 +50,8 @@ use Modules\UI\Enums\TableLayoutEnum;
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 <<<<<<< HEAD
 =======
@@ -121,7 +117,10 @@ use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\TransTrait;
 =======
@@ -403,7 +402,12 @@ use Modules\Xot\Actions\ModelClass\UpdateCountAction;
 >>>>>>> 5cd593a5 (.)
 =======
 >>>>>>> cc52d333 (.)
+<<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> 0123915b (.)
+>>>>>>> 5cb992cc6 (.)
 use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
@@ -461,6 +465,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -501,10 +506,13 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
      *
      * abstract public function getTableColumns(): array;
      */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -648,6 +656,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
     /**
      * Get the default sort column and direction.
      *
@@ -661,8 +671,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
     /**
      * Get the header actions.
      *
-<<<<<<< HEAD
      * @return array<string, Action>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -693,11 +703,14 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> aba62c408 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
      */
     protected function getHeaderActions(): array
     {
         return [
             // \Filament\Actions\CreateAction::make(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -809,6 +822,9 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+            // ExportXlsAction::make('export_xls'),
+>>>>>>> 5cb992cc6 (.)
         ];
     }
 
@@ -825,6 +841,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
         return $resource;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -870,6 +887,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> 5ca118c34 (.)
 =======
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)
     /**
 =======
 =======
@@ -953,6 +972,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
         return $paginator;
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1122,3 +1142,5 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 5cb992cc6 (.)

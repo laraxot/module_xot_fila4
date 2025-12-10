@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione generale progetto](/docs/README.md)
 >>>>>>> 85cdef688 (.)
@@ -61,6 +62,9 @@
 - [Documentazione generale progetto](/project_docs/README.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 5cb992cc6 (.)
 - [Regole Filament](filament-best-practices.md)
 - [Convenzioni Namespace](namespace-conventions.md)
 - [Standard di Codice](code-standards.md)
@@ -320,6 +324,7 @@ protected function casts(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
 >>>>>>> 85cdef688 (.)
@@ -368,6 +373,9 @@ protected function casts(): array
 - **Modules/{Module}/project_docs/**: Documentazione specifica di ogni modulo
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 5cb992cc6 (.)
 - **Collegamenti bidirezionali**: Root ↔ Moduli per navigazione fluida
 
 ### Naming Convention Docs
@@ -395,6 +403,7 @@ docs/                           # Generale + collegamenti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Modules/{Module}/docs/          # Specifica modulo
 >>>>>>> 85cdef688 (.)
@@ -443,6 +452,9 @@ Modules/{Module}/docs/          # Specifica modulo
 Modules/{Module}/project_docs/          # Specifica modulo
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 5cb992cc6 (.)
 ├── index.md                    # Indice del modulo
 ├── feature-name.md            # Documentazione feature specifica
 ├── api/                       # Documentazione API
@@ -526,6 +538,7 @@ Progettare sempre pensando che il codice dovrà superare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - `Modules/Xot/docs/`
 >>>>>>> 85cdef688 (.)
@@ -574,6 +587,9 @@ Progettare sempre pensando che il codice dovrà superare:
 - `Modules/Xot/project_docs/`
 >>>>>>> 6cba4fe (.)
 >>>>>>> f8f76a284 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 5cb992cc6 (.)
 - Memoria personale
 - Collegamenti bidirezionali
 

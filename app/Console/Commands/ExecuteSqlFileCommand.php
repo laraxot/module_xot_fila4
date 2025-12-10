@@ -169,6 +169,7 @@ class ExecuteSqlFileCommand extends Command
         $filePath = $this->ask('Inserisci il percorso del file .sql');
         Assert::string($filePath, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         if (! file_exists($filePath)) {
+<<<<<<< HEAD
     public function handle(): int
      */
     {
@@ -177,6 +178,22 @@ class ExecuteSqlFileCommand extends Command
         Assert::string($filePath, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         if (! file_exists($filePath)) {
     public function handle(): int
+=======
+=======
+     *
+     * @return int
+     */
+<<<<<<< HEAD
+    public function handle(): int
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e9ee2ea9 (.)
      *
      * @return int
      */
@@ -315,7 +332,15 @@ class ExecuteSqlFileCommand extends Command
 =======
     public function handle(): int
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+=======
+    public function handle()
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');

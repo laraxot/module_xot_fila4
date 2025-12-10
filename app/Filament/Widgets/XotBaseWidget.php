@@ -4,6 +4,45 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+>>>>>>> e9ee2ea9 (.)
 use Filament\Forms\Form;
 use Filament\Forms\Form;
 use Illuminate\Contracts\Support\Htmlable;
@@ -29,6 +68,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
@@ -41,6 +81,97 @@ use Filament\Schemas\Schema;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
+=======
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+>>>>>>> c06600c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
+use Exception;
+use Filament\Actions\Action;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Wizard\Step;
+use Filament\Schemas\Schema;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+<<<<<<< HEAD
+use Illuminate\Contracts\Support\Htmlable;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> e9ee2ea9 (.)
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -60,32 +191,6 @@ use Filament\Schemas\Components\Component;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
-use Filament\Widgets\Concerns\InteractsWithPageFilters;
-use Filament\Widgets\Widget as FilamentWidget;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Schemas\Components\Component;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
-use Exception;
-use Filament\Actions\Action;
-use Filament\Actions\Concerns\InteractsWithActions;
-use Filament\Actions\Contracts\HasActions;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Wizard\Step;
-use Filament\Schemas\Schema;
-use Filament\Widgets\Concerns\InteractsWithPageFilters;
-use Filament\Widgets\Widget as FilamentWidget;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Widgets\Concerns\InteractsWithPageFilters;
-use Filament\Widgets\Widget as FilamentWidget;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Schemas\Components\Component;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Schema;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
@@ -109,6 +214,7 @@ use Illuminate\Contracts\Support\Htmlable;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Schemas\Components\Component;
@@ -189,6 +295,19 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -201,14 +320,147 @@ use Webmozart\Assert\Assert;
  * Classe base astratta per tutti i widget Filament.
  * Fornisce funzionalità comuni e standardizzate per la gestione dei widget.
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
  * @property bool $shouldRender Indica se il widget deve essere renderizzato
  * @property string $title Titolo del widget
  * @property string $icon Icona del widget
  * @property array<string, mixed>|null $data Dati del form
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
  * @property bool                      $shouldRender Indica se il widget deve essere renderizzato
  * @property string                    $title        Titolo del widget
  * @property string                    $icon         Icona del widget
  * @property array<string, mixed>|null $data         Dati del form
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
  * @property Schema $form
  */
 abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
@@ -273,7 +525,10 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     public string $title = '';
 
     public string $icon = '';
+<<<<<<< HEAD
 
+=======
+>>>>>>> c06600c (.)
     protected int|string|array $columnSpan = 'full';
  * @property Schema $form
  */
@@ -361,7 +616,62 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
      *
      * @var array<string, mixed>
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
     public ?array $data = [];
+=======
+    public null|array $data = [];
+>>>>>>> c06600c (.)
 
     /**
      * Vista predefinita per widget che estendono XotBaseWidget.
@@ -462,6 +772,40 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
     /**
      * Configura il form del widget.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e9ee2ea9 (.)
      * @param  Schema  $schema  Il form da configurare
      * @param Schema $schema Il form da configurare
      *
@@ -471,6 +815,59 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
      * @param Schema $schema Il form da configurare
      *
      * @param  Schema  $schema  Il form da configurare
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+     * @param  Schema  $schema  Il form da configurare
+=======
+     * @param Schema $schema Il form da configurare
+     *
+>>>>>>> c06600c (.)
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> e9ee2ea9 (.)
      * @param Schema $schema Il form da configurare
      *
      * @return Form Il form configurato
@@ -583,6 +980,31 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
                 $schema->model($model);
             }
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e9ee2ea9 (.)
         if (! empty($data)) {
         if (!empty($data)) {
         if (! empty($data)) {
@@ -623,6 +1045,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
         if (! empty($data)) {
         if (!empty($data)) {
         if (! empty($data)) {
+<<<<<<< HEAD
         if (!empty($data)) {
         if (! empty($data)) {
         if (! empty($data)) {
@@ -696,6 +1119,15 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
         if (!empty($data)) {
         if (! empty($data)) {
         if (!empty($data)) {
+=======
+>>>>>>> 5842a556 (.)
+=======
+        if (! empty($data)) {
+=======
+        if (!empty($data)) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
             // $form->fill($data);
             // $this->data=$data;
         }
@@ -708,7 +1140,115 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e9ee2ea9 (.)
         if ($model === null) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null == $model) {
+        if ($model === null) {
+        if (null === $model) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null == $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null == $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null == $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+<<<<<<< HEAD
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if (null === $model) {
+        if (null === $model) {
+        if (null == $model) {
+        if (null === $model) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
+        if ($model === null) {
+        if ($model === null) {
+        if (null === $model) {
         if (null === $model) {
         if (null === $model) {
         if (null === $model) {
@@ -780,84 +1320,20 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
         if ($model === null) {
         if (null === $model) {
         if ($model === null) {
-        if ($model === null) {
-        if (null === $model) {
-        if (null === $model) {
-        if (null === $model) {
-        if (null === $model) {
-        if (null === $model) {
-        if (null === $model) {
-        if (null === $model) {
-        if (null === $model) {
-        if (null === $model) {
-        if (null == $model) {
-        if ($model === null) {
-        if (null === $model) {
-        if (null === $model) {
-        if ($model === null) {
-        if ($model === null) {
-        if (null === $model) {
-        if ($model === null) {
         if (null === $model) {
         if (null === $model) {
         if (null == $model) {
         if (null === $model) {
         if (null === $model) {
+=======
+>>>>>>> 5842a556 (.)
+=======
         if ($model === null) {
-        if ($model === null) {
-        if ($model === null) {
+=======
         if (null === $model) {
-        if ($model === null) {
-        if ($model === null) {
-        if (null === $model) {
-        if ($model === null) {
-        if (null === $model) {
-        if (null === $model) {
-        if (null == $model) {
-        if (null === $model) {
-        if (null === $model) {
-        if ($model === null) {
-        if ($model === null) {
-        if ($model === null) {
-        if (null === $model) {
-        if ($model === null) {
-        if (null === $model) {
-        if (null === $model) {
-        if (null == $model) {
-        if (null === $model) {
-        if (null === $model) {
-        if ($model === null) {
-        if ($model === null) {
-        if ($model === null) {
-        if (null === $model) {
-        if ($model === null) {
-        if ($model === null) {
-        if (null === $model) {
-        if ($model === null) {
-        if ($model === null) {
-        if (null === $model) {
-        if ($model === null) {
-        if (null === $model) {
-        if (null === $model) {
-        if (null == $model) {
-        if (null === $model) {
-        if (null === $model) {
-        if ($model === null) {
-        if ($model === null) {
-        if ($model === null) {
-        if (null === $model) {
-        if ($model === null) {
-        if ($model === null) {
-        if (null === $model) {
-        if ($model === null) {
-        if ($model === null) {
-        if (null === $model) {
-        if ($model === null) {
-        if (null === $model) {
-        if (null === $model) {
-        if (null == $model) {
-        if (null === $model) {
-        if (null === $model) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
             return [];
         }
         if (is_string($model)) {
@@ -875,6 +1351,33 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
                     $defaults = $model->getDataDefaults();
                     $merge1 = array_merge($defaults, $res);
                     $merge1 = Arr::map($merge1, function ($value, string|int $key) use ($defaults) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e9ee2ea9 (.)
                         if ($value === null) {
                         if (null === $value) {
                         if (null === $value) {
@@ -919,6 +1422,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
                         if ($value === null) {
                         if (null === $value) {
                         if ($value === null) {
+<<<<<<< HEAD
                         if (null === $value) {
                         if ($value === null) {
                         if ($value === null) {
@@ -990,6 +1494,15 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
                         if (null === $value) {
                         if ($value === null) {
                         if (null === $value) {
+=======
+>>>>>>> 5842a556 (.)
+=======
+                        if ($value === null) {
+=======
+                        if (null === $value) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
                             $value = Arr::get($defaults, $key, null);
                         }
 
@@ -1351,9 +1864,119 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
         /** @var view-string $submit_view */
         $submit_view = 'pub_theme::filament.wizard.submit-button';
 
+<<<<<<< HEAD
         /** @var view-string $submit_view */
         $submit_view = 'pub_theme::filament.wizard.submit-button';
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> e9ee2ea9 (.)
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+<<<<<<< HEAD
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+>>>>>>> c06600c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e9ee2ea9 (.)
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
         if (! view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
@@ -1374,12 +1997,11 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
             throw new Exception("View {$submit_view} does not exist");
         }
 
-        if (!view()->exists($submit_view)) {
+        if (! view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
-        if (!view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
-        }
+
+<<<<<<< HEAD
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
@@ -1425,20 +2047,15 @@ abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActi
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
-        if (!view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
-        }
-        if (! view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
-        }
-
-        if (! view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
-        }
-
-        if (!view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
-        }
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
         return Action::make('submit')
             ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
             ->submit('save')

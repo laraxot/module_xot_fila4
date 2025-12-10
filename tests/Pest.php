@@ -51,6 +51,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -296,8 +297,18 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 14edd1a1 (.)
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
+<<<<<<< HEAD
+=======
+=======
+uses(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> c06600c (.)
+
+/*
+>>>>>>> e9ee2ea9 (.)
 <<<<<<< HEAD
 =======
 uses(TestCase::class)->in('Feature', 'Unit');
@@ -339,11 +350,14 @@ pest()->extend(TestCase::class)
  * | Qui puoi definire aspettative globali per il modulo Xot.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * | Quando definisci aspettative globali, saranno disponibili
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> ecd5ec32 (.)
+=======
+>>>>>>> e9ee2ea9 (.)
  * | Quando definisci here expectation globali, saranno disponibili
 >>>>>>> 62cc8443 (.)
  * | in tutti i test del modulo.
@@ -368,6 +382,7 @@ namespace Modules\Xot\Tests\Pest;
 =======
 namespace Modules\Xot\Tests\Pest;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -783,10 +798,13 @@ use Modules\Xot\Tests\TestCase;
 =======
 >>>>>>> 472bd9dc (.)
 =======
+>>>>>>> 14edd1a1 (.)
+=======
  * | Quando definisci aspettative globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1249,7 +1267,13 @@ namespace Modules\Xot\Tests\Pest;
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -1348,6 +1372,7 @@ namespace Modules\Xot\Tests\Pest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 >>>>>>> a67e542f (.)
@@ -1390,7 +1415,12 @@ namespace Modules\Xot\Tests\Pest;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
 
 // function something() {
 //     // ...
@@ -1400,6 +1430,7 @@ namespace Modules\Xot\Tests\Pest;
 //     // ...
 // }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1447,9 +1478,12 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> 472bd9dc (.)
 =======
+>>>>>>> 14edd1a1 (.)
+=======
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1870,4 +1904,10 @@ namespace Modules\Xot\Tests\Pest;
 //     // ...
 // }
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)

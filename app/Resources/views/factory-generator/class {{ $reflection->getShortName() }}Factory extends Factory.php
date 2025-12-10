@@ -161,6 +161,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pace Database\Factories;
 >>>>>>> 6ca989d8 (.)
 =======
@@ -307,14 +308,22 @@ namespace Database\Factories;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 ?>
 namespace Database\Factories;
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
 ?>
 namespace Database\Factories;
 pace Database\Factories;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> e9ee2ea9 (.)
 <<<<<<< HEAD
 >>>>>>> c06600c (.)
 >>>>>>> e59778ae (.)
@@ -798,7 +807,81 @@ namespace Database\Factories;
 ?>
 namespace Database\Factories;
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+?>
+namespace Database\Factories;
+>>>>>>> 16dc7ab0 (.)
+=======
+?>
+namespace Database\Factories;
+>>>>>>> 5a14301c (.)
+=======
+pace Database\Factories;
+>>>>>>> 849568d9 (.)
+=======
+pace Database\Factories;
+=======
+?>
+namespace Database\Factories;
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+?>
+namespace Database\Factories;
+>>>>>>> 492d6d3c (.)
+=======
+?>
+namespace Database\Factories;
+=======
+pace Database\Factories;
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+?>
+namespace Database\Factories;
+>>>>>>> 43d67f21 (.)
+=======
+?>
+namespace Database\Factories;
+=======
+pace Database\Factories;
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+?>
+namespace Database\Factories;
+>>>>>>> 5842a556 (.)
+=======
+pace Database\Factories;
+>>>>>>> 37de20a7 (.)
+=======
+pace Database\Factories;
+=======
+?>
+namespace Database\Factories;
+>>>>>>> c84488b (.)
+>>>>>>> c35986f4 (.)
+=======
+?>
+namespace Database\Factories;
+>>>>>>> fb8add77 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+?>
+namespace Database\Factories;
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 @isset($properties['remember_token'])

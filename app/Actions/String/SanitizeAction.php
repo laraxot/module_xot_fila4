@@ -218,6 +218,7 @@ class SanitizeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 43d67f21 (.)
 =======
@@ -251,7 +252,12 @@ class SanitizeAction
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
 
         $replaced = preg_replace('/\s+/', ' ', $str);
         $str = is_string($replaced) ? $replaced : $str;
@@ -270,6 +276,46 @@ class SanitizeAction
             $afterStr = Str::after($str, '-');
             // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
             $str = $this->execute($afterStr);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+        $str = trim($str);
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> e9ee2ea9 (.)
         $str = trim($str);
         $str = trim($str);
 <<<<<<< HEAD
@@ -291,13 +337,20 @@ class SanitizeAction
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
         $str = preg_replace('/\s+/', ' ', $str);
         if (Str::startsWith($str, '-')) {
             $str = Str::after($str, '-');
             $str = $this->execute($str);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,7 +458,13 @@ class SanitizeAction
             // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
             $str = $this->execute($afterStr);
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
         }
 
         return $str;

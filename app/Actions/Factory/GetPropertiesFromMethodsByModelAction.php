@@ -44,6 +44,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -95,9 +96,31 @@ use ReflectionMethod;
 use SplFileObject;
 use ReflectionMethod;
 use SplFileObject;
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> e9ee2ea9 (.)
 use ReflectionMethod;
 use SplFileObject;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e59778ae (.)
+>>>>>>> e9ee2ea9 (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -110,7 +133,12 @@ use SplFileObject;
 >>>>>>> 5842a556 (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
@@ -426,6 +454,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Model  $model  Il modello da analizzare
 =======
 >>>>>>> d86d643a (.)
@@ -589,7 +618,17 @@ use SplFileObject;
 =======
      * @param  Model  $model  Il modello da analizzare
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+     * @param  Model  $model  Il modello da analizzare
+=======
+     * @param Model $model Il modello da analizzare
+     *
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
@@ -747,6 +786,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e59778ae (.)
 =======
@@ -755,10 +795,25 @@ use SplFileObject;
 >>>>>>> 14edd1a1 (.)
 =======
 >>>>>>> e59778ae (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
                 $codeStr = trim(preg_replace('/\s\s+/', '', $code));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> e9ee2ea9 (.)
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
 <<<<<<< HEAD
@@ -860,7 +915,13 @@ use SplFileObject;
                 $replaced = preg_replace('/\s\s+/', '', $code);
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
 
                 // Estrazione del corpo della funzione
                 $begin = mb_strpos($codeStr, 'function(');
@@ -976,6 +1037,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ca9324a4 (.)
 =======
@@ -1011,13 +1073,19 @@ use SplFileObject;
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
      * @param  string  $codeStr  Il codice da analizzare
      * @param  Model  $model  Il modello
      * @param  string  $method  Il nome del metodo
      * @param  array<string, string>  &$data  L'array in cui salvare i dati estratti
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1075,11 +1143,67 @@ use SplFileObject;
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
      * @param string $codeStr Il codice da analizzare
      * @param Model $model Il modello
      * @param string $method Il nome del metodo
      * @param array<string, string> &$data L'array in cui salvare i dati estratti
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> e9ee2ea9 (.)
      *
      * @return void
 <<<<<<< HEAD
@@ -1152,7 +1276,15 @@ use SplFileObject;
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+     *
+     * @return void
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
      */
     private function extractBelongsToRelations(string $codeStr, Model $model, string $method, array &$data): void
     {
@@ -1229,6 +1361,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! ($relationObj instanceof Relation)) {
 >>>>>>> ecd5ec32 (.)
 =======
@@ -1354,7 +1487,16 @@ use SplFileObject;
 =======
             if (! ($relationObj instanceof Relation)) {
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+            if (! ($relationObj instanceof Relation)) {
+=======
+            if (!($relationObj instanceof Relation)) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
                 return;
             }
 
@@ -1385,6 +1527,7 @@ use SplFileObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! method_exists($relationObj, 'getForeignKeyName')) {
 >>>>>>> ecd5ec32 (.)
 =======
@@ -1510,7 +1653,16 @@ use SplFileObject;
 =======
             if (! method_exists($relationObj, 'getForeignKeyName')) {
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+=======
+            if (!method_exists($relationObj, 'getForeignKeyName')) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
                 throw new Exception('Il metodo getForeignKeyName non esiste nella relazione');
             }
 
@@ -1550,6 +1702,7 @@ use SplFileObject;
 <<<<<<< HEAD
         } catch (Exception $e) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1941,7 +2094,16 @@ use SplFileObject;
 =======
             $type = 'factory('.$relatedClass.'::class)';
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+            $type = 'factory('.$relatedClass.'::class)';
+=======
+            $type = 'factory(' . $relatedClass . '::class)';
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+>>>>>>> e9ee2ea9 (.)
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
         } catch (Exception $e) {
             

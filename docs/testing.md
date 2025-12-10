@@ -838,7 +838,10 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> 34579462 (.)
 >>>>>>> e769883c (.)
 - [Root Testing Organization](../../../docs/testing-organization.md)
+<<<<<<< HEAD
 - [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
+=======
+>>>>>>> 6cba4fe (.)
 - [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
 - [Cms Testing Guidelines](../../Cms/docs/testing.md)
 <<<<<<< HEAD

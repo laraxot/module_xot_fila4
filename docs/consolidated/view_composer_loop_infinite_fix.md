@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 # XotComposer - Loop Infinito Fix
 
 ## 🚨 Problema Critico Risolto
@@ -235,6 +242,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 <<<<<<< HEAD
 =======
@@ -333,7 +341,13 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 =======
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+- [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
 
@@ -353,6 +367,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 **Pattern**: View Composer Loop Prevention 
 **Pattern**: View Composer Loop Prevention 
@@ -374,10 +389,29 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 **Pattern**: View Composer Loop Prevention 
 **Pattern**: View Composer Loop Prevention 
 **Pattern**: View Composer Loop Prevention 
+=======
+>>>>>>> 2bad128c (.)
 **Pattern**: View Composer Loop Prevention 
 =======
 >>>>>>> 399f46d3 (.)
 =======
 **Pattern**: View Composer Loop Prevention 
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 5a14301c (.)
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 399f46d3 (.)
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)

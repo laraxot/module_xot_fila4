@@ -95,6 +95,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 =======
@@ -107,7 +108,12 @@ return [
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 2bad128c (.)
 - [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
+=======
+- [Documentazione Principale Traduzioni](../../../project_docs/translation_rules.md)
+>>>>>>> 6cba4fe (.)
 
 <<<<<<< HEAD
 *Ultimo aggiornamento: 27 Gennaio 2025* 

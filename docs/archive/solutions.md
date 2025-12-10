@@ -254,6 +254,7 @@ class CacheTest extends TestCase {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [solutions.md](../../../Gdpr/docs/solutions.md)
 * [solutions.md](../../../Xot/docs/solutions.md)
@@ -269,10 +270,16 @@ class CacheTest extends TestCase {
 * [solutions.md](../../../Xot/docs/solutions.md)
 * [solutions.md](../../../Job/docs/solutions.md)
 =======
+* [solutions.md](../../../Gdpr/docs/solutions.md)
+* [solutions.md](../../../Xot/docs/solutions.md)
+* [solutions.md](../../../Job/docs/solutions.md)
+>>>>>>> 2bad128c (.)
+=======
 * [solutions.md](../../../Gdpr/project_docs/solutions.md)
 * [solutions.md](../../../Xot/project_docs/solutions.md)
 * [solutions.md](../../../Job/project_docs/solutions.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 * [solutions.md](../../../Gdpr/docs/solutions.md)
@@ -284,6 +291,8 @@ class CacheTest extends TestCase {
 * [solutions.md](../../../Xot/docs/solutions.md)
 * [solutions.md](../../../Job/docs/solutions.md)
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
 
 
 ### Versione Incoming

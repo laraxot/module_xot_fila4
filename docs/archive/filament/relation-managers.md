@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 # XotBaseRelationManager per Laraxot PTVX
 
 ## Panoramica
@@ -206,6 +213,7 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -242,13 +250,19 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 - [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
 - [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
 - [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,4 +406,47 @@ Per garantire la compatibilità con PHPStan livello 9, assicurarsi di:
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> d86d643a (.)
+=======
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 43d67f21 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 472bd9dc (.)
+=======
+- [Filament Resources](/laravel/Modules/Xot/project_docs/filament/resources.md)
+- [HasXotTable Trait](/laravel/Modules/Xot/project_docs/filament/xot_table.md)
+- [Regole di Traduzione](/laravel/Modules/Xot/project_docs/translation_rules.md)
+
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+*Ultimo aggiornamento: 3 Giugno 2025*
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)

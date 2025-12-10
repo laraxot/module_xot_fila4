@@ -44,6 +44,7 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/scope.txt}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [models.md](../../../Notify/docs/models.md)
 >>>>>>> 85cdef688 (.)
@@ -62,6 +63,12 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/scope.txt}
 =======
 * [models.md](../../../Notify/docs/models.md)
 >>>>>>> 67be6ac0 (.)
+=======
+* [models.md](../../../Notify/docs/models.md)
+=======
+* [models.md](../../../Notify/project_docs/models.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 
 
 ### Versione Incoming

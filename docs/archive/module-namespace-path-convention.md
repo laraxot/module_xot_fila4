@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 # convenzioni per namespace e percorsi dei moduli
 
 ## struttura corretta del percorso
@@ -29,11 +36,14 @@ i file dei moduli devono sempre seguire questa struttura:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> ecd5ec32 (.)
+=======
+>>>>>>> 2bad128c (.)
 /var/www/html/base_<nome progetto>/laravel/Modules/{NomeModulo}/app/{Tipo}/...
 ```
 
@@ -92,7 +102,12 @@ per esempio:
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/app/{Tipo}/...
 ```
 
@@ -102,6 +117,7 @@ per esempio:
 - `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Http/Controllers/...`
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,7 +269,12 @@ per esempio:
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 
 ### namespace corretto
 
@@ -266,6 +287,7 @@ namespace Modules\{NomeModulo}\{Tipo}\...;
 per esempio:
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -469,7 +491,15 @@ per esempio:
 - `namespace Modules\SaluteOra\Models;`
 - `namespace Modules\SaluteOra\Http\Controllers;`
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+- `namespace Modules\SaluteOra\Filament\Resources;`
+- `namespace Modules\SaluteOra\Models;`
+- `namespace Modules\SaluteOra\Http\Controllers;`
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 
 ## errore comune
 
@@ -478,6 +508,7 @@ spesso si confonde il percorso fisico con il namespace, cercando file in:
 ```
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -594,7 +625,13 @@ spesso si confonde il percorso fisico con il namespace, cercando file in:
 =======
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+/var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 ```
 
 questo è **errato** perché omette la directory `app/` nel percorso fisico.
@@ -610,6 +647,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 |-----------|----------------|
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -768,7 +806,14 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 | `Modules\SaluteOra\Filament\Resources\DoctorResource` | `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Filament/Resources/DoctorResource.php` |
 | `Modules\User\Models\User` | `/var/www/html/base_saluteora/laravel/Modules/User/app/Models/User.php` |
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+| `Modules\SaluteOra\Filament\Resources\DoctorResource` | `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Filament/Resources/DoctorResource.php` |
+| `Modules\User\Models\User` | `/var/www/html/base_saluteora/laravel/Modules/User/app/Models/User.php` |
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 
 ## come evitare l'errore
 
@@ -780,6 +825,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -917,4 +963,35 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 - [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
 - [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+- [convenzioni di codice](/var/www/html/base_saluteora/laravel/project_docs/conventions.md)
+- [struttura progetto](/var/www/html/base_saluteora/laravel/project_docs/project-structure.md)
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)

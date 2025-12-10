@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 
 
 
@@ -14,6 +17,7 @@ Trovati 4 errori al livello 9.
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,7 +134,13 @@ Trovati 4 errori al livello 9.
 =======
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -168,6 +178,7 @@ Trovati 4 errori al livello 9.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 =======
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -266,7 +277,13 @@ Trovati 4 errori al livello 9.
 =======
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 
@@ -310,5 +327,8 @@ aurmich/dev
 * [level_9.md](laravel/Modules/Patient/project_docs/phpstan/level_9.md)
 * [level_9.md](laravel/Modules/Cms/project_docs/phpstan/level_9.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

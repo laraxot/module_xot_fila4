@@ -18,6 +18,7 @@ gia installato su activity
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Bisogna definire gli eventi (https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-defining-events)  
 >>>>>>> 85cdef688 (.)
@@ -36,10 +37,17 @@ Bisogna definire gli eventi (https://spatie.be/docs/laravel-event-sourcing/v7/us
 =======
 Bisogna definire gli eventi (https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-defining-events)  
 >>>>>>> 67be6ac0 (.)
+=======
+Bisogna definire gli eventi (https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-defining-events)  
+=======
+Bisogna definire gli eventi (https://spatie.be/project_docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-defining-events)  
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 Ogni classe evento deve estendere \Spatie\EventSourcing\StoredEvents\ShouldBeStored    
 classe astratta indica al nostro pacchetto che l'evento deve essere archiviato
 
 ## Classe Projection/Attivazione Evento
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63,6 +71,12 @@ https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-f
 =======
 https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-lets-fire-off-some-events  
 >>>>>>> 67be6ac0 (.)
+=======
+https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-lets-fire-off-some-events  
+=======
+https://spatie.be/project_docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-lets-fire-off-some-events  
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 Per dare il "via/attivare" gli eventi, bisogna farlo tramite una classe che estende Projection (classe estende Eloquent Model)  
 che include funzionalità che impediscono di salvare una proiezione che non è basata sul flusso di eventi.  
 Il salvataggio senza chiamata writeable() genererà un'eccezione.
@@ -71,6 +85,7 @@ Il salvataggio senza chiamata writeable() genererà un'eccezione.
 ## Proiettore  
 Un proiettore è una classe che ascolta gli eventi archiviati
 Quando sente un evento che gli interessa, può eseguire del lavoro.  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,6 +109,12 @@ per crearlo https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/wr
 =======
 per crearlo https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-creating-your-first-projector  
 >>>>>>> 67be6ac0 (.)
+=======
+per crearlo https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-creating-your-first-projector  
+=======
+per crearlo https://spatie.be/project_docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-creating-your-first-projector  
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 classe che ascolta gli eventi archiviati che gli interessano 
 
 ModelloProjection::funzione_con_all_interno_la_chiamata_dell_evento(['name' => 'Luke']);  
@@ -155,6 +176,7 @@ class EventSourcingServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-getting-the-uuid-of-an-event  
 >>>>>>> 85cdef688 (.)
@@ -173,10 +195,17 @@ https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-c
 =======
 https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-getting-the-uuid-of-an-event  
 >>>>>>> 67be6ac0 (.)
+=======
+https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-getting-the-uuid-of-an-event  
+=======
+https://spatie.be/project_docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-getting-the-uuid-of-an-event  
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 
 Nella maggior parte dei casi si desidera avere accesso all'evento attivato. Quando utilizzi gli aggregati, i tuoi eventi probabilmente non conterranno l'uuid associato a quell'evento. Per ottenere l'uuid di un evento è sufficiente chiamare il aggregateRootUuid()metodo sull'oggetto evento.
 
 ## Test
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,10 +229,17 @@ https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-f
 =======
 https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-using-factories-in-tests
 >>>>>>> 67be6ac0 (.)
+=======
+https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-using-factories-in-tests
+=======
+https://spatie.be/project_docs/laravel-event-sourcing/v7/using-projectors/writing-your-first-projector#content-using-factories-in-tests
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 
 
 ## Proprietà $handlesEvents 
 Registrazione manuale dei metodi di gestione degli eventi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,10 +254,13 @@ https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-c
 https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-manually-registering-event-handling-methods
 >>>>>>> 6ca989d8 (.)
 =======
+=======
+>>>>>>> 2bad128c (.)
 https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-manually-registering-event-handling-methods
 =======
 https://spatie.be/project_docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-manually-registering-event-handling-methods
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-manually-registering-event-handling-methods
@@ -238,3 +277,5 @@ https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-c
 =======
 https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-manually-registering-event-handling-methods
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)

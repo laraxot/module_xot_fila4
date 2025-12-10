@@ -1,3 +1,10 @@
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.):docs/git_conflicts_resolution_2025_01_06.md
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
@@ -30,7 +37,11 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 >>>>>>> 62cc8443 (.):docs/git_conflicts_resolution_2025_01_06.md
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 >>>>>>> ecd5ec32 (.):docs/git_conflicts_resolution_2025_01_06.md
+=======
+<<<<<<< HEAD
+>>>>>>> 2bad128c (.):docs/git_conflicts_resolution_2025_01_06.md
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto <nome progetto>, coinvolgendo moduli Geo, User e tema Two.
@@ -113,7 +124,13 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto <no
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 >>>>>>> ecd5ec32 (.):docs/git_conflicts_resolution_2025_01_06.md
+=======
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.):docs/git_conflicts_resolution_2025_01_06.md
 
 ## File Corretti
 
@@ -310,6 +327,19 @@ php artisan lang:check
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
 <<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Stato**: ✅ Completato
+>>>>>>> 2bad128c (.):docs/git_conflicts_resolution_2025_01_06.md
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -349,4 +379,21 @@ php artisan lang:check
 =======
 **Stato**: ✅ Completato
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD:docs/git-conflicts-resolution-conflict-5ba246.md
 >>>>>>> ce6fc085 (.):docs/git_conflicts_resolution_2025_01_06.md
+=======
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 399f46d3 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.):docs/git_conflicts_resolution_2025_01_06.md

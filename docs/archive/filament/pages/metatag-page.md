@@ -88,6 +88,7 @@ use Modules\Xot\Filament\Pages\MetatagPage;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](../../../docs/filament/index.md)
 - [Configurazione SEO](../../../docs/seo/index.md)
@@ -105,10 +106,16 @@ use Modules\Xot\Filament\Pages\MetatagPage;
 - [Configurazione SEO](../../../docs/seo/index.md)
 - [Gestione Temi](../../../docs/themes/index.md) 
 =======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Configurazione SEO](../../../docs/seo/index.md)
+- [Gestione Temi](../../../docs/themes/index.md) 
+>>>>>>> 2bad128c (.)
+=======
 - [Documentazione Filament](../../../project_docs/filament/index.md)
 - [Configurazione SEO](../../../project_docs/seo/index.md)
 - [Gestione Temi](../../../project_docs/themes/index.md) 
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 - [Documentazione Filament](../../../docs/filament/index.md)
@@ -127,3 +134,5 @@ use Modules\Xot\Filament\Pages\MetatagPage;
 - [Configurazione SEO](../../../docs/seo/index.md)
 - [Gestione Temi](../../../docs/themes/index.md) 
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)

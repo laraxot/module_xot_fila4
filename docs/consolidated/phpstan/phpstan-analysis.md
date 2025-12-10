@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # PHPStan Analysis Report - 18 Agosto 2025
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,7 +125,13 @@
 =======
 **NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 
 ## Analisi Completa
 
@@ -186,6 +196,7 @@ Accesso a proprietà non definite nei modelli.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 3. **<nome modulo>** (Applicazione) - 15% errori
 =======
 >>>>>>> ce6fc085 (.)
@@ -215,7 +226,13 @@ Accesso a proprietà non definite nei modelli.
 =======
 ### 3. **SaluteMo** (Applicazione) - 15% errori
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 - Risorse Filament
 - Modelli dominio
 - Widget personalizzati
@@ -246,6 +263,7 @@ Accesso a proprietà non definite nei modelli.
 ### Priorità 3 (Applicazione)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,7 +323,14 @@ Accesso a proprietà non definite nei modelli.
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 3. `Geo/app/Models/*` - Proprietà geografiche
 
 ## Strategia di Correzione
@@ -318,6 +343,7 @@ Sistemare traits e contratti utilizzati in tutto il progetto.
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -355,7 +381,13 @@ Sistemare traits e contratti utilizzati in tutto il progetto.
 =======
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 Correggere errori specifici dell'applicazione.
 
 ### Fase 4: Verifica Finale
@@ -448,5 +480,8 @@ class MyModel extends BaseModel
 **Stato**: 🔄 Analisi Completata - Correzioni in Corso  
 **phpstan.neon**: ✅ INTOCCATO  
 **Approccio**: DRY + KISS + Type Safety
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

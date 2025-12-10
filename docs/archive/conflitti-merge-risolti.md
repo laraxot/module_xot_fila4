@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 2bad128c (.)
 # Risoluzione Conflitti di Merge 
 
 <<<<<<< HEAD
@@ -103,7 +107,14 @@ Durante lo sviluppo del progetto , sono stati identificati diversi file con conf
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+# Risoluzione Conflitti di Merge 
+
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 # Risoluzione Conflitti di Merge in SaluteOra
 
 ## Problema
@@ -111,6 +122,7 @@ Durante lo sviluppo del progetto , sono stati identificati diversi file con conf
 Durante lo sviluppo del progetto SaluteOra, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,7 +211,12 @@ Durante lo sviluppo del progetto <nome progetto>, sono stati identificati divers
 =======
 =======
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 
 I file principali con conflitti erano:
 - `Modules/Xot/app/Datas/MetatagData.php`
@@ -311,3 +328,11 @@ Durante la risoluzione dei conflitti, nel file `Modules/Xot/app/Filament/Resourc
 ## Conclusioni
 
 La risoluzione dei conflitti di merge ha ripristinato la corretta funzionalità delle classi nel modulo Xot, permettendo l'analisi statica con PHPStan e garantendo il corretto funzionamento dell'applicazione. Le soluzioni implementate hanno mantenuto la coerenza del codice e migliorato la robustezza delle classi interessate.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)

@@ -236,6 +236,7 @@ public function test_registration_widget_loads_without_errors_for_existing_user(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields/file-upload)
 - [Laravel Eloquent Accessors](https://laravel.com/docs/eloquent-accessors)
@@ -251,10 +252,16 @@ public function test_registration_widget_loads_without_errors_for_existing_user(
 - [Laravel Eloquent Accessors](https://laravel.com/docs/eloquent-accessors)
 - [Livewire File Uploads](https://livewire.laravel.com/docs/file-uploads)
 =======
+- [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields/file-upload)
+- [Laravel Eloquent Accessors](https://laravel.com/docs/eloquent-accessors)
+- [Livewire File Uploads](https://livewire.laravel.com/docs/file-uploads)
+>>>>>>> 2bad128c (.)
+=======
 - [Filament FileUpload Documentation](https://filamentphp.com/project_docs/forms/fields/file-upload)
 - [Laravel Eloquent Accessors](https://laravel.com/project_docs/eloquent-accessors)
 - [Livewire File Uploads](https://livewire.laravel.com/project_docs/file-uploads)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 - [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields/file-upload)
@@ -266,6 +273,8 @@ public function test_registration_widget_loads_without_errors_for_existing_user(
 - [Laravel Eloquent Accessors](https://laravel.com/docs/eloquent-accessors)
 - [Livewire File Uploads](https://livewire.laravel.com/docs/file-uploads)
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
 
 ## Casi Correlati
 

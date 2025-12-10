@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 > - [README.md documentazione generale](../../../../project_docs/README.md)
 
 > - [README.md documentazione generale](../../../../project_docs/README.md)
@@ -39,6 +40,10 @@
 > - [README.md documentazione generale](../../../../project_docs/README.md)
 
 > - [README.md documentazione generale](../../../../project_docs/README.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2bad128c (.)
 # Analisi e Miglioramenti del Prompt docs.txt
 
 > **Collegamenti correlati**
@@ -134,7 +139,16 @@
 =======
 > - [README.md documentazione generale](../../../../project_docs/README.md)
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+# Analisi e Miglioramenti del Prompt docs.txt
+
+> **Collegamenti correlati**
+> - [README.md documentazione generale](../../../../project_docs/README.md)
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 > - [Struttura dei Prompt](./prompts.md)
 > - [Regole per i Prompt](./PROMPT_RULES.md)
 > - [Regole per i Percorsi Relativi](./RELATIVE_PATHS_RULES.md)
@@ -158,9 +172,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> ecd5ec32 (.)
+=======
+>>>>>>> 2bad128c (.)
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/docs/prompt_docs_analysis.md)
 
 <<<<<<< HEAD
@@ -273,7 +290,14 @@
 > - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
 
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+> - [Analisi nel modulo bashscripts](../../../../bashscripts/project_docs/prompt_docs_analysis.md)
+
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 ## Analisi della Struttura Attuale
 
 Il prompt `docs.txt` attuale presenta diverse problematiche strutturali che possono essere migliorate:
@@ -354,6 +378,7 @@ Il prompt `docs.txt` è un componente critico per garantire la coerenza e la qua
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -372,4 +397,11 @@ Il prompt `docs.txt` è un componente critico per garantire la coerenza e la qua
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)

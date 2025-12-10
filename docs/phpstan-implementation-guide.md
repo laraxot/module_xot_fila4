@@ -237,11 +237,17 @@ Creare script di shell per automatizzare l'analisi e la verifica:
 #!/bin/bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 # analyze_module.sh
 MODULE=$1
 echo "Analizzando il modulo $MODULE..."
@@ -278,11 +284,17 @@ Ogni modulo dovrebbe documentare le soluzioni ai problemi PHPStan specifici in `
 ```markdown
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 # Soluzioni PHPStan per il Modulo NomeModulo
 
 ## Problema: Namespace Errati
@@ -309,6 +321,7 @@ Ogni modulo dovrebbe documentare le soluzioni ai problemi PHPStan specifici in `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i problemi rilevati da PHPStan nel tuo codebase Laraxot <nome progetto>, migliorando la qualità complessiva del codice e riducendo gli errori a runtime. 
 >>>>>>> 6ca989d8 (.)
@@ -320,3 +333,8 @@ Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i 
 =======
 Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i problemi rilevati da PHPStan nel tuo codebase Laraxot <nome progetto>, migliorando la qualità complessiva del codice e riducendo gli errori a runtime. 
 >>>>>>> 67be6ac0 (.)
+=======
+Seguendo questa guida pratica, potrai affrontare e risolvere in modo metodico i problemi rilevati da PHPStan nel tuo codebase Laraxot <nome progetto>, migliorando la qualità complessiva del codice e riducendo gli errori a runtime. 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)

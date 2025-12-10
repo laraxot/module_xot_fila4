@@ -9283,16 +9283,22 @@ php scripts/check-namespaces.php
 - [PSR-4: Autoloader Standard](https://www.php-fig.org/psr/psr-4/)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 2bad128c (.)
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 =======
 - [Laravel Namespacing Conventions](https://laravel.com/project_docs/master/structure)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 2bad128c (.)
 - [Nwidart/Laravel-Modules Documentation](https://nwidart.com/laravel-modules/v6/introduction)
 
 

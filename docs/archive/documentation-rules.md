@@ -40,16 +40,22 @@ Questo documento serve come indice centrale per tutta la documentazione del prog
 Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 2bad128c (.)
 - [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
 =======
 - [Linee Guida per la Documentazione](../../../Xot/project_docs/guidelines/documentation.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 - [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 2bad128c (.)
 
 ## Documentazione per Modulo
 
@@ -57,11 +63,14 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 2bad128c (.)
 - [Xot Module](../../../Xot/docs/README.md)
 - [UI Module](../../../UI/docs/README.md)
 - [CMS Module](../../../Cms/docs/README.md)
@@ -107,6 +116,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -125,7 +135,12 @@ Le linee guida complete per la documentazione sono disponibili in:
 =======
 >>>>>>> 17684f52 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 2bad128c (.)
 - [Xot Module](../../../Xot/project_docs/README.md)
 - [UI Module](../../../UI/project_docs/README.md)
 - [CMS Module](../../../Cms/project_docs/README.md)
@@ -155,6 +170,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,4 +219,9 @@ Le linee guida complete per la documentazione sono disponibili in:
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)

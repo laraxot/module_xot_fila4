@@ -65,11 +65,17 @@ PHPStan offre più livelli di rigore nell'analisi (da 0 a 10). Il framework Lara
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 # Analisi a livello 9 (standard corrente)
 ./vendor/bin/phpstan analyse Modules/NomeModulo --level=9
 
@@ -203,11 +209,17 @@ public function post(): \Illuminate\Database\Eloquent\Relations\BelongsTo
 ```yaml
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 # Esempio per GitHub Actions
 name: PHPStan
 
@@ -241,11 +253,17 @@ Seguendo questa guida, sarai in grado di utilizzare efficacemente PHPStan all'in
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 # Dalla directory laravel del progetto
 cd /percorso/al/progetto/laravel
 
@@ -260,6 +278,7 @@ cd /percorso/al/progetto/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ``` 
 >>>>>>> 6ca989d8 (.)
@@ -271,3 +290,8 @@ cd /percorso/al/progetto/laravel
 =======
 ``` 
 >>>>>>> 67be6ac0 (.)
+=======
+``` 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)

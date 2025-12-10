@@ -34,11 +34,14 @@ ModuleName/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
 =======
 =======
 =======
@@ -98,6 +101,7 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 >>>>>>> 7dd92412 (.)
 >>>>>>> b258042 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 =======
@@ -109,6 +113,10 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 >>>>>>> 7dd92412 (.)
 >>>>>>> b258042 (.)
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 ```
 
 ## Collegamenti
@@ -124,6 +132,7 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 62cc8443 (.)
 - [UI](../UI/project_docs/README.md) - Componenti di interfaccia
@@ -136,25 +145,33 @@ class NomeModuloServiceProvider extends XotBaseServiceProvider {
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
 - [UI](../UI/docs/README.md) - Componenti di interfaccia
 - [Cms](../Cms/docs/README.md) - Gestione contenuti
 - [Lang](../Lang/docs/README.md) - Traduzioni
 - [User](../User/docs/README.md) - Gestione utenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
+=======
+>>>>>>> 2bad128c (.)
 =======
 - [UI](../UI/project_docs/README.md) - Componenti di interfaccia
 - [Cms](../Cms/project_docs/README.md) - Gestione contenuti
 - [Lang](../Lang/project_docs/README.md) - Traduzioni
 - [User](../User/project_docs/README.md) - Gestione utenti
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
 
 ## Struttura Dettagliata
 
@@ -270,6 +287,7 @@ php artisan xot:analyze-naming
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
 >>>>>>> 85cdef688 (.)
@@ -288,6 +306,12 @@ Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni
 =======
 Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/docs/convenzioni-naming-campi.md).
 >>>>>>> 67be6ac0 (.)
+=======
+Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/docs/convenzioni-naming-campi.md).
+=======
+Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 
 ## Esempi
 
@@ -334,6 +358,7 @@ User/
 ## Collegamenti Moduli
 
 ### Modulo UI
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,6 +436,8 @@ User/
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
 - [Componenti Volt](../UI/docs/components/volt.md)
 - [Layout](../UI/docs/layouts.md)
 - [Temi](../UI/docs/themes.md)
@@ -478,8 +505,11 @@ User/
 - [Visualizzazione](../Chart/docs/visualization.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
+=======
+>>>>>>> 2bad128c (.)
 =======
 - [Componenti Volt](../UI/project_docs/components/volt.md)
 - [Layout](../UI/project_docs/layouts.md)
@@ -547,11 +577,14 @@ User/
 - [Dashboard](../Chart/project_docs/dashboard.md)
 - [Visualizzazione](../Chart/project_docs/visualization.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
 
 # Struttura dei Moduli Laravel
 
@@ -699,6 +732,7 @@ Se trovi una directory con case errato:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
 >>>>>>> 85cdef688 (.)
@@ -717,4 +751,10 @@ Se trovi una directory con case errato:
 =======
 * [module_structure.md](../../../../docs/error_analysis/module_structure.md)
 >>>>>>> 67be6ac0 (.)
+=======
+* [module_structure.md](../../../../docs/error_analysis/module_structure.md)
+=======
+* [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 

@@ -23,16 +23,22 @@ Questo documento sostituisce e consolida **35+ file di troubleshooting duplicati
 ### ✅ Unica Fonte di Verità
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 2bad128c (.)
 - **Questo file**: `/laravel/Modules/Xot/docs/troubleshooting-consolidated.md`
 =======
 - **Questo file**: `/laravel/Modules/Xot/project_docs/troubleshooting-consolidated.md`
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/troubleshooting-consolidated.md`
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 2bad128c (.)
 - **Implementazione**: Fix nei singoli moduli (solo fix, non docs)
 
 ## Problemi Comuni e Soluzioni
@@ -625,6 +631,7 @@ public function test_b(): void
 >>>>>>> 6ca989d8 (.)
 ### Errore: Conflitti Git
 
+<<<<<<< HEAD
 **Sintomo**
 ### Errore: Conflitti Git
 
@@ -670,6 +677,7 @@ public function test_b(): void
 ```
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -815,7 +823,15 @@ public function test_b(): void
 =======
 =======
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 
 **Soluzione**
 1. **Analizzare i conflitti**:

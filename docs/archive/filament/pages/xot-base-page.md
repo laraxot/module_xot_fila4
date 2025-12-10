@@ -103,6 +103,7 @@ Verifica se l'utente ha l'accesso alla pagina.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Compatibile con Filament 3.x
 >>>>>>> 85cdef688 (.)
@@ -130,6 +131,12 @@ Verifica se l'utente ha l'accesso alla pagina.
 =======
    - Compatibile con Filament 4.x
 >>>>>>> 67be6ac0 (.)
+=======
+   - Compatibile con Filament 4.x
+=======
+   - Compatibile con Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
    - Richiede PHP 8.1+
 
 ## Link Correlati
@@ -139,6 +146,7 @@ Verifica se l'utente ha l'accesso alla pagina.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](../../../docs/filament/index.md)
 - [Best Practices](../../../docs/best-practices.md)
@@ -156,10 +164,16 @@ Verifica se l'utente ha l'accesso alla pagina.
 - [Best Practices](../../../docs/best-practices.md)
 - [Guida Traduzioni](../../../docs/translations.md) 
 =======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 2bad128c (.)
+=======
 - [Documentazione Filament](../../../project_docs/filament/index.md)
 - [Best Practices](../../../project_docs/best-practices.md)
 - [Guida Traduzioni](../../../project_docs/translations.md) 
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 - [Documentazione Filament](../../../docs/filament/index.md)
@@ -178,3 +192,5 @@ Verifica se l'utente ha l'accesso alla pagina.
 - [Best Practices](../../../docs/best-practices.md)
 - [Guida Traduzioni](../../../docs/translations.md) 
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)

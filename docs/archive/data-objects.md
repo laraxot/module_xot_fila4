@@ -250,16 +250,22 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 2bad128c (.)
 - [Data Objects Patient](../Patient/docs/data-objects.md)
 =======
 - [Data Objects Patient](../Patient/project_docs/data-objects.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 - [Data Objects Patient](../Patient/docs/data-objects.md)
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 2bad128c (.)
 - [Best Practices](./best-practices.md)
 - [Convenzioni di Codice](./coding-standards.md) 
 <<<<<<< HEAD

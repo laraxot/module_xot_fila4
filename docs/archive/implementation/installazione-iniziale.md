@@ -113,6 +113,7 @@ Dopo l'installazione iniziale, procedere con:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [installazione-iniziale.md](../../../Xot/docs/implementation/installazione-iniziale.md)
 >>>>>>> 85cdef688 (.)
@@ -131,4 +132,10 @@ Dopo l'installazione iniziale, procedere con:
 =======
 * [installazione-iniziale.md](../../../Xot/docs/implementation/installazione-iniziale.md)
 >>>>>>> 67be6ac0 (.)
+=======
+* [installazione-iniziale.md](../../../Xot/docs/implementation/installazione-iniziale.md)
+=======
+* [installazione-iniziale.md](../../../Xot/project_docs/implementation/installazione-iniziale.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 

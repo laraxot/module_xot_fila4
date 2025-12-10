@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
 # Raccomandazioni di Ottimizzazione - Modulo Xot
 
 ## 🎯 Stato Attuale e Problemi Critici
@@ -14,6 +17,7 @@
 // ❌ PROBLEMA ATTUALE
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,7 +170,14 @@ public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 public static string $projectBasePath = '/var/www/html/saluteora';
 public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 ```
 
 #### 2. XotData Incompleto
@@ -187,6 +198,7 @@ public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 - **Migration Base**: XotBaseMigration ben progettata
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,7 +236,13 @@ public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 =======
 - **Type Safety**: PHPStan Level 9 compliance
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 
 ### Consolidamento Documentazione
 - **Approccio DRY+KISS**: Eliminazione duplicazioni
@@ -441,6 +459,7 @@ abstract class XotBaseModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **Type safety** con PHPStan level 10
 =======
 >>>>>>> ce6fc085 (.)
@@ -470,7 +489,13 @@ abstract class XotBaseModel extends Model
 =======
 - [ ] **Type safety** con PHPStan Level 9
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 - [ ] **Performance** < 1ms per risoluzione classe
 
 ### Documentazione
@@ -503,6 +528,7 @@ abstract class XotBaseModel extends Model
 # Verifica path hardcoded
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -611,7 +637,13 @@ grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
 =======
 grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
 >>>>>>> b7ea1cd1 (.)
+<<<<<<< HEAD
 >>>>>>> ecd5ec32 (.)
+=======
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 
 # Verifica XotData usage
 grep -r "XotData::make()" Modules/Xot/ --include="*.php"
@@ -660,5 +692,8 @@ php artisan xot:test-framework
 - [XotData Current](../Datas/XotData.php)
 
 *Ultimo aggiornamento: gennaio 2025*
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)

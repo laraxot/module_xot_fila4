@@ -13,11 +13,17 @@ Prima di riavviare il sistema, è importante pulire tutte le cache per assicurar
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -43,6 +49,7 @@ composer dump-autoload
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
@@ -51,16 +58,23 @@ sudo systemctl restart apache2
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
 =======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 2bad128c (.)
+=======
 
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
 
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
 # oppure
 sudo systemctl restart nginx
 
@@ -73,11 +87,17 @@ sudo systemctl restart php8.1-fpm
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -93,11 +113,17 @@ php artisan queue:work --daemon
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -127,11 +153,17 @@ Se si verificano errori di autoloading dopo il riavvio:
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 # Rigenerare l'autoloader di Composer
 composer dump-autoload -o
 
@@ -147,11 +179,17 @@ Se si verificano errori di permessi dopo il riavvio:
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 # Correggere i permessi delle directory di storage e bootstrap/cache
 sudo chown -R www-data:www-data storage bootstrap/cache
 sudo chmod -R 775 storage bootstrap/cache
@@ -164,11 +202,17 @@ Se si verificano errori di configurazione dopo il riavvio:
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 # Rigenerare la cache delle configurazioni
 php artisan config:cache
 

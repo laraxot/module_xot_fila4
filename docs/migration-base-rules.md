@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Update migrazioni Performance](../../Performance/docs/migration_update_rules.md)
 - [Root MODULE_NAMESPACE_RULES.md](../../../docs/MODULE_NAMESPACE_RULES.md)
@@ -42,9 +43,14 @@
 - [Update migrazioni Performance](../../Performance/docs/migration_update_rules.md)
 - [Root MODULE_NAMESPACE_RULES.md](../../../docs/MODULE_NAMESPACE_RULES.md)
 =======
+- [Update migrazioni Performance](../../Performance/docs/migration_update_rules.md)
+- [Root MODULE_NAMESPACE_RULES.md](../../../docs/MODULE_NAMESPACE_RULES.md)
+>>>>>>> 2bad128c (.)
+=======
 - [Update migrazioni Performance](../../Performance/project_docs/migration_update_rules.md)
 - [Root MODULE_NAMESPACE_RULES.md](../../../project_docs/MODULE_NAMESPACE_RULES.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 - [Update migrazioni Performance](../../Performance/docs/migration_update_rules.md)
@@ -63,6 +69,8 @@
 - [Update migrazioni Performance](../../Performance/docs/migration_update_rules.md)
 - [Root MODULE_NAMESPACE_RULES.md](../../../docs/MODULE_NAMESPACE_RULES.md)
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
 
 ---
 
@@ -72,6 +80,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Regole update migrazioni Performance](../../Performance/docs/migration_update_rules.md) ← questa doc è sempre aggiornata
 - [Ripresa lavoro migrazioni in root](../../../docs/MODULE_NAMESPACE_RULES.md)
@@ -88,9 +97,14 @@
 - [Regole update migrazioni Performance](../../Performance/docs/migration_update_rules.md) ← questa doc è sempre aggiornata
 - [Ripresa lavoro migrazioni in root](../../../docs/MODULE_NAMESPACE_RULES.md)
 =======
+- [Regole update migrazioni Performance](../../Performance/docs/migration_update_rules.md) ← questa doc è sempre aggiornata
+- [Ripresa lavoro migrazioni in root](../../../docs/MODULE_NAMESPACE_RULES.md)
+>>>>>>> 2bad128c (.)
+=======
 - [Regole update migrazioni Performance](../../Performance/project_docs/migration_update_rules.md) ← questa doc è sempre aggiornata
 - [Ripresa lavoro migrazioni in root](../../../project_docs/MODULE_NAMESPACE_RULES.md)
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 - [Regole update migrazioni Performance](../../Performance/docs/migration_update_rules.md) ← questa doc è sempre aggiornata
@@ -109,6 +123,8 @@
 - [Regole update migrazioni Performance](../../Performance/docs/migration_update_rules.md) ← questa doc è sempre aggiornata
 - [Ripresa lavoro migrazioni in root](../../../docs/MODULE_NAMESPACE_RULES.md)
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
 
 Ultimo aggiornamento: 2025-05-13
 
@@ -122,6 +138,7 @@ Ultimo aggiornamento: 2025-05-13
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Vedi esempio e motivazione in [Modules/Performance/docs/azioni_organizzativa.md](../../Performance/docs/azioni_organizzativa.md#2025-05-14-regola-nome-univoco-per-headeraction-filament)
 <<<<<<< HEAD
@@ -151,10 +168,17 @@ Ultimo aggiornamento: 2025-05-13
 =======
 - Vedi esempio e motivazione in [Modules/Performance/docs/azioni_organizzativa.md](../../Performance/docs/azioni_organizzativa.md#2025-05-14-regola-nome-univoco-per-headeraction-filament)
 >>>>>>> 67be6ac0 (.)
+=======
+- Vedi esempio e motivazione in [Modules/Performance/docs/azioni_organizzativa.md](../../Performance/docs/azioni_organizzativa.md#2025-05-14-regola-nome-univoco-per-headeraction-filament)
+=======
+- Vedi esempio e motivazione in [Modules/Performance/project_docs/azioni_organizzativa.md](../../Performance/project_docs/azioni_organizzativa.md#2025-05-14-regola-nome-univoco-per-headeraction-filament)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 
 ---
 
 **Backlink modulo Performance:**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,6 +205,8 @@ Ultimo aggiornamento: 2025-05-13
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 2bad128c (.)
 - [Modules/Performance/docs/azioni_organizzativa.md](../../Performance/docs/azioni_organizzativa.md)
 
 ---
@@ -193,10 +219,13 @@ Ultimo aggiornamento: 2025-05-13
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 =======
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> 2bad128c (.)
 =======
 - [Modules/Performance/project_docs/azioni_organizzativa.md](../../Performance/project_docs/azioni_organizzativa.md)
 
@@ -204,6 +233,7 @@ Ultimo aggiornamento: 2025-05-13
 
 ## Pattern definitivo HeaderAction custom Filament 3
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Segui SEMPRE il pattern documentato in [Modules/Performance/project_docs/azioni_organizzativa.md#2025-05-14-pattern-definitivo-headeraction-custom-filament-3]
 >>>>>>> 6cba4fe (.)
@@ -219,6 +249,10 @@ Ultimo aggiornamento: 2025-05-13
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+- Segui SEMPRE il pattern documentato in [Modules/Performance/project_docs/azioni_organizzativa.md#2025-05-14-pattern-definitivo-headeraction-custom-filament-3]
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 - Il pattern Filament 2 (override statico di make) è obsoleto e genera errori: non usarlo mai nei nuovi moduli o refactoring.
 
 ---
@@ -232,6 +266,7 @@ Ultimo aggiornamento: 2025-05-13
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Ogni modifica va documentata in [Modules/Performance/docs/list_table_columns_analysis.md#organizzativacatcoeff]
 <<<<<<< HEAD
@@ -261,6 +296,12 @@ Ultimo aggiornamento: 2025-05-13
 =======
 - Ogni modifica va documentata in [Modules/Performance/docs/list_table_columns_analysis.md#organizzativacatcoeff]
 >>>>>>> 67be6ac0 (.)
+=======
+- Ogni modifica va documentata in [Modules/Performance/docs/list_table_columns_analysis.md#organizzativacatcoeff]
+=======
+- Ogni modifica va documentata in [Modules/Performance/project_docs/list_table_columns_analysis.md#organizzativacatcoeff]
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 
 ---
 
@@ -270,10 +311,12 @@ Ultimo aggiornamento: 2025-05-13
 - **Motivazione**: isolamento, override locale, necessità di personalizzazione e compatibilità con logiche specifiche del modulo Performance.
 - **Pattern**: i modelli aggregati e di totali in Performance estendono sempre il BaseModel locale.
 - **Anti-pattern**: estendere `Modules\Xot\Models\BaseModel` o centralizzare logiche che devono restare locali.
+<<<<<<< HEAD
 - **Memoria storica**: rollback della regola il 2025-05-15, documentato in Performance/docs/organizzativa-models.md e qui. Precedente regola (2025-05-14) annullata per esigenze di override e compatibilità.
 - Ogni violazione va documentata e corretta anche nella root docs.
 - Vedi dettaglio e memoria storica in [Modules/Performance/docs/organizzativa-models.md](../../Performance/docs/organizzativa-models.md#organizzativatotvalutatoreid-regola-di-estensione)
 - [docs/links.md root](../../../docs/links.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -286,10 +329,14 @@ Ultimo aggiornamento: 2025-05-13
 =======
 =======
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> 2bad128c (.)
 - **Memoria storica**: rollback della regola il 2025-05-15, documentato in Performance/project_docs/organizzativa-models.md e qui. Precedente regola (2025-05-14) annullata per esigenze di override e compatibilità.
 - Ogni violazione va documentata e corretta anche nella root docs.
 - Vedi dettaglio e memoria storica in [Modules/Performance/project_docs/organizzativa-models.md](../../Performance/project_docs/organizzativa-models.md#organizzativatotvalutatoreid-regola-di-estensione)
 - [docs/links.md root](../../../project_docs/links.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -306,6 +353,9 @@ Ultimo aggiornamento: 2025-05-13
 >>>>>>> ecd5ec32 (.)
 =======
 >>>>>>> 67be6ac0 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 
 > ⚠️ **Warning**: Estendere Xot\BaseModel può causare override indesiderati, perdita di flessibilità e problemi di compatibilità con logiche locali. Seguire sempre la regola sopra per tutti i modelli di totali/aggregati in Performance.
 

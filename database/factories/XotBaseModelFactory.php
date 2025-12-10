@@ -8,12 +8,16 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\XotBaseModel;
 
 /**
+<<<<<<< HEAD
  * @extends Factory<XotBaseModel>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @extends Factory<XotBaseModel>
  * @extends Factory<XotBaseModel>
 =======
+=======
+>>>>>>> 2bad128c (.)
 =======
 <<<<<<< HEAD
  * @extends Factory<XotBaseModel>
@@ -21,21 +25,28 @@ use Modules\Xot\Models\XotBaseModel;
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\Modules\Xot\Models\XotBaseModel>
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 2bad128c (.)
  */
 class XotBaseModelFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
+<<<<<<< HEAD
      * @var class-string<XotBaseModel>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @var class-string<XotBaseModel>
      * @var class-string<XotBaseModel>
 =======
+=======
+>>>>>>> 2bad128c (.)
 =======
 <<<<<<< HEAD
      * @var class-string<XotBaseModel>
@@ -43,9 +54,12 @@ class XotBaseModelFactory extends Factory
      * @var class-string<\Modules\Xot\Models\XotBaseModel>
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 2bad128c (.)
      */
     protected $model = XotBaseModel::class;
 

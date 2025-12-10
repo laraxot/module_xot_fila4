@@ -33,11 +33,14 @@ This is a starter template for creating a beautiful, customizable documentation 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 2bad128c (.)
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
 <<<<<<< HEAD
 =======
@@ -152,7 +155,10 @@ As with all Jigsaw sites, configuration settings can be found in `config.php`; y
 >>>>>>> 17684f52 (.)
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
 =======
+=======
+>>>>>>> 88e35986 (.)
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,6 +168,10 @@ As with all Jigsaw sites, configuration settings can be found in `config.php`; y
 <<<<<<< HEAD
 =======
 >>>>>>> e769883c (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,11 +225,14 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 2bad128c (.)
 > Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/project_docs/collections/) to learn more.
 <<<<<<< HEAD
 =======
@@ -334,7 +347,10 @@ return [
 >>>>>>> 17684f52 (.)
 > Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/docs/collections/) to learn more.
 =======
+=======
+>>>>>>> 88e35986 (.)
 > Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/project_docs/collections/) to learn more.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,6 +360,10 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> e769883c (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 > Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/docs/collections/) to learn more.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -388,10 +408,13 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> ce6fc085 (.)
 =======
+=======
+>>>>>>> 2bad128c (.)
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
@@ -585,7 +608,17 @@ You can write your content using a [variety of file types](http://jigsaw.tighten
 =======
 =======
 >>>>>>> 6a1fe786 (.)
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
+=======
+=======
+You can write your content using a [variety of file types](http://jigsaw.tighten.co/project_docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in [navigation.php](/project_docs/navigation.php).
+
+[Read more about navigation.](/project_docs/navigation)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 You can write your content using a [variety of file types](http://jigsaw.tighten.co/docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in [navigation.php](/docs/navigation.php).
 
 [Read more about navigation.](/docs/navigation)
@@ -647,11 +680,14 @@ section: content
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 2bad128c (.)
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/project_docs/content-blade/)
 <<<<<<< HEAD
 =======
@@ -766,7 +802,10 @@ section: content
 >>>>>>> 17684f52 (.)
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/docs/content-blade/)
 =======
+=======
+>>>>>>> 88e35986 (.)
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/project_docs/content-blade/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -776,6 +815,10 @@ section: content
 <<<<<<< HEAD
 =======
 >>>>>>> e769883c (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/docs/content-blade/)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -826,11 +869,14 @@ Files that don't require processing (such as images and fonts) can be added dire
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 2bad128c (.)
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/project_docs/compiling-assets/)
 <<<<<<< HEAD
 =======
@@ -945,7 +991,10 @@ Files that don't require processing (such as images and fonts) can be added dire
 >>>>>>> 17684f52 (.)
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/docs/compiling-assets/)
 =======
+=======
+>>>>>>> 88e35986 (.)
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/project_docs/compiling-assets/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -955,6 +1004,10 @@ Files that don't require processing (such as images and fonts) can be added dire
 <<<<<<< HEAD
 =======
 >>>>>>> e769883c (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 2bad128c (.)
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/docs/compiling-assets/)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1024,6 +1077,7 @@ npm run dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ed734516 (.)
 =======
@@ -1054,10 +1108,13 @@ npm run dev
 >>>>>>> 6a1fe786 (.)
 =======
 >>>>>>> 34579462 (.)
+=======
+>>>>>>> 88e35986 (.)
 # options: dev, prod
 npm run dev
 ```
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1266,7 +1323,18 @@ npm run dev
 =======
 =======
 >>>>>>> 34579462 (.)
+<<<<<<< HEAD
 >>>>>>> e769883c (.)
+=======
+=======
+# options: dev, prod
+npm run dev
+```
+>>>>>>> b3cc10f7 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 
 # options: dev, prod
 npm run dev
@@ -1278,6 +1346,7 @@ npm run dev
 ## Collegamenti tra versioni di getting-started.md
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1318,7 +1387,12 @@ npm run dev
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 * [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
 * [getting-started.md](../../../Xot/project_docs/getting-started.md)
 * [getting-started.md](../../../UI/project_docs/getting-started.md)
@@ -1350,6 +1424,7 @@ npm run dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
@@ -1445,7 +1520,16 @@ npm run dev
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 34579462 (.)
+<<<<<<< HEAD
 >>>>>>> e769883c (.)
+=======
+=======
+>>>>>>> b3cc10f7 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+>>>>>>> 2bad128c (.)
 * [getting-started.md](../../../Gdpr/docs/getting-started.md)
 * [getting-started.md](../../../Xot/docs/getting-started.md)
 * [getting-started.md](../../../UI/docs/getting-started.md)

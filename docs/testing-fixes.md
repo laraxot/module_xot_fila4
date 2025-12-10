@@ -222,8 +222,11 @@ Dopo le correzioni:
 - Documentare eventuali modifiche alla struttura di testing
 
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 53d6a6ba (.)

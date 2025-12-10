@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 # Best Practices per Model States e Transizioni Custom
@@ -126,3 +127,5 @@
 >>>>>>> a5dccfe (.)
   - [README.md centrale](../../../docs/README.md) 
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)

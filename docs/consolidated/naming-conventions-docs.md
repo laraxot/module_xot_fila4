@@ -159,6 +159,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices Documentazione](documentation-guidelines.md) 
 <<<<<<< HEAD
 =======
@@ -264,6 +265,8 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 =======
 >>>>>>> 90d386aa (.)
 =======
+=======
+>>>>>>> 6d05deed (.)
 - [Best Practices Documentazione](documentation-guidelines.md) 
 =======
 <<<<<<< HEAD
@@ -271,6 +274,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 - [Best Practices Documentazione](documentation-guidelines.md) 
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+<<<<<<< HEAD
 >>>>>>> 6d05deed (.)
 =======
 - [Best Practices Documentazione](documentation-guidelines.md) 
@@ -326,3 +330,5 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 6d05deed (.)

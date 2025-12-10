@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -75,10 +76,13 @@
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
 # Approccio Sistematico PHPStan - Framework Laraxot
 
 **Creato**: 2025-09-10
 **Scopo**: Guida operativa per correggere sistematicamente TUTTI gli errori PHPStan
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +168,9 @@
 =======
 **Principi**: DRY + KISS + Type Safety Level 9/10
 >>>>>>> e7da37af (.)
+=======
+**Principi**: DRY + KISS + Type Safety Level 9/10
+>>>>>>> 6d05deed (.)
 
 ## 🏗️ Architettura Fondamentale
 
@@ -316,6 +323,7 @@ $collection->get('key', 'default');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Zero errori PHPStan level 10+ su tutti i moduli
 =======
 - [ ] Zero errori PHPStan Level 9+ su tutti i moduli
@@ -380,6 +388,9 @@ $collection->get('key', 'default');
 =======
 - [ ] Zero errori PHPStan Level 9+ su tutti i moduli
 >>>>>>> e7da37af (.)
+=======
+- [ ] Zero errori PHPStan Level 9+ su tutti i moduli
+>>>>>>> 6d05deed (.)
 - [ ] Documentazione aggiornata per ogni modulo
 - [ ] Pattern comuni documentati e riutilizzabili
 - [ ] Framework robusto per sviluppi futuri
@@ -391,6 +402,7 @@ $collection->get('key', 'default');
 - [PHPStan Consolidated Guide](consolidated/phpstan/phpstan-consolidated.md)
 
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -508,3 +520,6 @@ $collection->get('key', 'default');
 >>>>>>> e7da37af (.)
 =======
 >>>>>>> 55fe1822 (.)
+=======
+*Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
+>>>>>>> 6d05deed (.)

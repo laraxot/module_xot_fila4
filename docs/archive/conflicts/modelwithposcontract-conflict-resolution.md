@@ -130,6 +130,7 @@ La correzione è stata verificata assicurandosi che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -251,11 +252,14 @@ La correzione è stata verificata assicurandosi che:
 >>>>>>> 90d386aa (.)
 =======
 =======
+>>>>>>> 6d05deed (.)
+=======
 <<<<<<< HEAD
 
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+<<<<<<< HEAD
 >>>>>>> 6d05deed (.)
 =======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../docs/risoluzione_conflitti_git.md) 
@@ -321,3 +325,5 @@ La correzione è stata verificata assicurandosi che:
 =======
 - [Best Practices per la Gestione dei Conflitti Git](../../../../project_docs/risoluzione_conflitti_git.md) 
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 6d05deed (.)

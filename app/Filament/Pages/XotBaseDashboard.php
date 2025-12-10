@@ -597,8 +597,10 @@ abstract class XotBaseDashboard extends FilamentDashboard
 =======
 >>>>>>> 53d6a6ba (.)
 
+<<<<<<< HEAD
     protected static ?int $navigationSort = 1;
 
+<<<<<<< HEAD
 >>>>>>> 249a0067 (.)
 =======
 
@@ -656,6 +658,20 @@ abstract class XotBaseDashboard extends FilamentDashboard
     protected static null|int $navigationSort = 1;
 >>>>>>> f5516a5 (.)
 >>>>>>> 4a40af71 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+    /**
+     * Navigation icon compatible with Filament 4.
+     * Supports BackedEnum, string, or null values.
+     */
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
+    
+>>>>>>> a5dccfe (.)
+    protected static null|int $navigationSort = 1;
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
     protected bool $persistsFiltersInSession = true;
 
     final public function filtersForm(Schema $schema): Schema

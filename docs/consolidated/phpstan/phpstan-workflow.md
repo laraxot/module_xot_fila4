@@ -224,6 +224,7 @@ class MyModel extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -280,6 +281,9 @@ class MyModel extends BaseModel
 =======
 =======
 >>>>>>> e7da37af (.)
+=======
+=======
+>>>>>>> 6d05deed (.)
 ## Struttura del Progetto e Workflow
 
 ### Architettura Modulare
@@ -318,6 +322,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -427,6 +432,9 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 6d05deed (.)
 2. **Approccio Efficiente**
    - Identificare pattern comuni di errori
    - Correggere tutti gli errori dello stesso tipo in una volta
@@ -503,6 +511,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -550,10 +559,13 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 >>>>>>> e7da37af (.)
 =======
 =======
+>>>>>>> 6d05deed (.)
+=======
 <<<<<<< HEAD
    - Mantenere coerenza tra le diverse documentazioni 
 =======
 >>>>>>> 6821f7a (.)
+<<<<<<< HEAD
 >>>>>>> 6d05deed (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -577,6 +589,8 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
    - Mantenere coerenza tra le diverse documentazioni 
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
    - Mantenere coerenza tra le diverse documentazioni 
 ## Collegamenti tra versioni di PHPSTAN_WORKFLOW.md
 * [PHPSTAN_WORKFLOW.md](../../../Xot/project_docs/phpstan/PHPSTAN_WORKFLOW.md)
@@ -602,6 +616,7 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Mantenere coerenza tra le diverse documentazioni 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -718,9 +733,12 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 6d05deed (.)
+=======
    - Mantenere coerenza tra le diverse documentazioni 
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+<<<<<<< HEAD
 >>>>>>> 6d05deed (.)
 =======
    - Mantenere coerenza tra le diverse documentazioni 
@@ -781,3 +799,5 @@ Il progetto utilizza un'architettura modulare con Laravel Modules:
 =======
    - Mantenere coerenza tra le diverse documentazioni 
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 6d05deed (.)

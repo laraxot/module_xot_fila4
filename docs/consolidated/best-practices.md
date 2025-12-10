@@ -52,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -89,10 +90,13 @@
 =======
 >>>>>>> e7da37af (.)
 =======
+=======
+>>>>>>> 6d05deed (.)
 # Best Practices per Laraxot
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 6d05deed (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -111,6 +115,8 @@
 =======
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
 # Best Practices per Laraxot
 
 ## Riferimenti al modello User
@@ -179,6 +185,7 @@ public function process(\Modules\User\Models\User $user) {
     // Codice
 }
 ``` 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1085,6 +1092,8 @@ public function createModel(array $data): MioModello
 =======
 >>>>>>> 90d386aa (.)
 =======
+=======
+>>>>>>> 6d05deed (.)
 >>>>>>> a5dccfe (.)
 # 🔧 **Best Practices Modulo Xot**
 >>>>>>> 6821f7a (.)
@@ -1154,6 +1163,7 @@ public function process(UserContract $user) {
 public function process(\Modules\User\Models\User $user) {
     // Codice
 }
+<<<<<<< HEAD
 ``` 
 >>>>>>> 6d05deed (.)
 =======
@@ -1176,3 +1186,6 @@ public function process(\Modules\User\Models\User $user) {
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+``` 
+>>>>>>> 6d05deed (.)

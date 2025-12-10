@@ -159,6 +159,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -173,6 +174,17 @@ Now that you’ve edited your configuration variables and know how to customize 
 =======
 >>>>>>> e7da37af (.)
 =======
+=======
+=======
+<<<<<<< HEAD
+=======
+# options: dev, prod
+npm run dev
+```
+>>>>>>> a5dccfe (.)
+
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
 # options: dev, prod
 npm run dev
 ```

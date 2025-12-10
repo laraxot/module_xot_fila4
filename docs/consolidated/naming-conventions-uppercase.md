@@ -52,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -89,10 +90,13 @@
 =======
 >>>>>>> e7da37af (.)
 =======
+=======
+>>>>>>> 6d05deed (.)
 # Convenzioni di Nomenclatura in <nome progetto>
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 6d05deed (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -111,6 +115,8 @@
 =======
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
 # Convenzioni di Nomenclatura in <nome progetto>
 
 Questo documento definisce le convenzioni ufficiali di nomenclatura da utilizzare in tutto il progetto <nome progetto>.
@@ -255,6 +261,7 @@ Descrizione dettagliata se necessaria
 ```
 
 Tipi: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -498,6 +505,8 @@ Questo documento descrive le convenzioni di denominazione da seguire all'interno
 =======
 >>>>>>> 90d386aa (.)
 =======
+=======
+>>>>>>> 6d05deed (.)
 >>>>>>> a5dccfe (.)
 # Convenzioni di Nomenclatura in Laravel Modules
 >>>>>>> 6821f7a (.)
@@ -644,6 +653,7 @@ Descrizione dettagliata se necessaria
 ```
 
 Tipi: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
+<<<<<<< HEAD
 >>>>>>> 6d05deed (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -665,3 +675,5 @@ Tipi: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 6d05deed (.)

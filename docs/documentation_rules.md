@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3bf39332 (.)
 =======
@@ -37,6 +38,8 @@
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
 # Regole di Documentazione
 
 ## Panoramica
@@ -78,6 +81,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 =======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
@@ -142,6 +146,9 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 =======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> e7da37af (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 6d05deed (.)
 
 ### Formato Corretto
 ```markdown
@@ -181,6 +188,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -213,10 +221,13 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291,6 +302,8 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
 ```
 
 ### Checklist di Validazione
@@ -330,6 +343,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 =======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
@@ -394,6 +408,9 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 =======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> e7da37af (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 6d05deed (.)
 
 ### Formato Corretto
 ```markdown
@@ -433,6 +450,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -465,10 +483,13 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,6 +564,8 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
 ```
 
 ### Checklist di Validazione
@@ -583,6 +606,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 =======
 - MAI usare percorsi che includono `saluteora` o altri nomi specifici
@@ -647,6 +671,9 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 =======
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> e7da37af (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 6d05deed (.)
 
 ### Formato Corretto
 ```markdown
@@ -686,6 +713,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -718,10 +746,13 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -796,6 +827,8 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
 ```
 
 ### Checklist di Validazione
@@ -904,6 +937,7 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -938,3 +972,5 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 >>>>>>> cf971011 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)

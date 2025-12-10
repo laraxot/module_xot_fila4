@@ -117,6 +117,7 @@ Questo documento descrive il processo per determinare il logo di un'applicazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -280,11 +281,14 @@ Questo documento descrive il processo per determinare il logo di un'applicazione
 >>>>>>> 90d386aa (.)
 =======
 =======
+>>>>>>> 6d05deed (.)
+=======
 <<<<<<< HEAD
 
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
+<<<<<<< HEAD
 >>>>>>> 6d05deed (.)
 =======
 - Per ulteriori dettagli sul progetto specifico, consultare la documentazione nella root del progetto: [INDEX.md](../../../docs/INDEX.md).
@@ -372,3 +376,5 @@ Questo documento descrive il processo per determinare il logo di un'applicazione
 - Linee guida generali per i loghi: [Linee Guida per i Loghi](../../../project_docs/standards/logo_guidelines.md).
 - Convenzioni sui namespace e Filament: [Convenzioni Namespace Filament](../Cms/project_docs/convenzioni-namespace-filament.md).
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 6d05deed (.)

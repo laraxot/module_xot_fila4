@@ -33,6 +33,9 @@ class CookieData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
     ) {}
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +58,7 @@ class CookieData extends Data
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,6 +114,11 @@ class CookieData extends Data
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+    ) {}
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
 
     /**
      * Create a new instance of CookieData with default values.

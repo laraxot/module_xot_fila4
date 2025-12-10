@@ -40,6 +40,7 @@ class SetDefaultTenantForUrlsMiddleware
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -56,6 +57,10 @@ class SetDefaultTenantForUrlsMiddleware
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
     public function handle(
         Request $request,
         Closure $next,
@@ -72,9 +77,12 @@ class SetDefaultTenantForUrlsMiddleware
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 218dfed3 (.)
+=======
+>>>>>>> 6be8834c2 (.)
 =======
     public function handle(Request $request, Closure $next): Response|JsonResponse|\Symfony\Component\HttpFoundation\Response
 >>>>>>> 2f3197ab (.)
@@ -116,6 +124,7 @@ class SetDefaultTenantForUrlsMiddleware
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -149,6 +158,10 @@ class SetDefaultTenantForUrlsMiddleware
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
 
         // @phpstan-ignore return.type
         return $next($request);

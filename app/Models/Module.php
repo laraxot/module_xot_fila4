@@ -78,6 +78,15 @@ use Nwidart\Modules\Module as NModule;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 73eab74 (.)
+use Sushi\Sushi;
+
+use function Safe\json_encode;
+
+>>>>>>> 6be8834c2 (.)
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
@@ -138,6 +147,7 @@ use Sushi\Sushi;
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -176,6 +186,10 @@ use function Safe\json_encode;
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
 /**
  * @property int $id
  * @property string|null $name
@@ -315,6 +329,7 @@ class Module extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -331,6 +346,10 @@ class Module extends Model
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
             if (!is_array($config)) {
@@ -362,6 +381,9 @@ class Module extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -472,6 +494,7 @@ class Module extends Model
 
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -483,6 +506,10 @@ class Module extends Model
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
         return array_values($modules);
     }
 

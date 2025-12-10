@@ -125,6 +125,9 @@ class PulseEntryFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
         return [];
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +153,7 @@ class PulseEntryFactory extends Factory
         return [
         ];
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,5 +209,10 @@ class PulseEntryFactory extends Factory
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+        return [];
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
     }
 }

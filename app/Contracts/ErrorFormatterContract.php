@@ -57,6 +57,7 @@ interface ErrorFormatterContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104,6 +105,8 @@ interface ErrorFormatterContract
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
 }
 =======
 } 
@@ -111,6 +114,7 @@ interface ErrorFormatterContract
 =======
 }
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
@@ -125,3 +129,5 @@ interface ErrorFormatterContract
 } 
 >>>>>>> f1d4085 (.)
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 6be8834c2 (.)

@@ -113,6 +113,7 @@ interface ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -129,6 +130,10 @@ interface ModelContract
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
 
     /**
      * Convert the model instance to an array representation.
@@ -143,6 +148,7 @@ interface ModelContract
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /*
          * Save a new model and return the instance. Allow mass-assignment.
          *
@@ -167,6 +173,8 @@ interface ModelContract
 =======
 >>>>>>> dbce41cec (.)
 =======
+>>>>>>> 6be8834c2 (.)
+=======
     /*
          * Save a new model and return the instance. Allow mass-assignment.
          *
@@ -175,6 +183,7 @@ interface ModelContract
         public function forceCreate(array $attributes);
         */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
@@ -186,6 +195,10 @@ interface ModelContract
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
 
     /**
      * Convert the model instance to an array.
@@ -241,6 +254,7 @@ interface ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public function where($column, $operator = null, $value = null, $boolean = 'and');
     */
@@ -263,6 +277,8 @@ interface ModelContract
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 6be8834c2 (.)
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
@@ -282,11 +298,15 @@ interface ModelContract
 
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
 =======
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
 =======
@@ -298,6 +318,8 @@ interface ModelContract
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 6be8834c2 (.)
     /*
      * Execute the query and get the first result or throw an exception.
      *
@@ -305,6 +327,7 @@ interface ModelContract
      * @return \Illuminate\Database\Eloquent\Model|static
      *
      * @throws \Illuminate\Database\Eloquent\ModelNotFoundException<\Illuminate\Database\Eloquent\Model>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,6 +351,8 @@ interface ModelContract
 >>>>>>> 7468a7d2 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
      *
      * public function firstOrFail($columns = ['*']);
      */
@@ -359,6 +384,7 @@ interface ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -372,9 +398,12 @@ interface ModelContract
 >>>>>>> f1d4085 (.)
 >>>>>>> 5cf46378 (.)
 =======
+>>>>>>> 6be8834c2 (.)
+=======
      *
      * public function firstOrFail($columns = ['*']);
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,4 +438,7 @@ interface ModelContract
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
 }

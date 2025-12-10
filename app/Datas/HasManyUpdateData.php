@@ -24,6 +24,9 @@ class HasManyUpdateData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
     ) {}
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +49,7 @@ class HasManyUpdateData extends Data
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,4 +105,9 @@ class HasManyUpdateData extends Data
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+    ) {}
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
 }

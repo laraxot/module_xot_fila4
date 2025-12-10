@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -120,7 +121,14 @@
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 5e58b29b (.)
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+>>>>>>> 6be8834c2 (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -364,6 +372,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -471,7 +480,16 @@ php artisan view:clear
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5e58b29b (.)
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
+=======
+=======
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+>>>>>>> 6be8834c2 (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica
@@ -9726,7 +9744,10 @@ php scripts/check-namespaces.php
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 6be8834c2 (.)
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9782,6 +9803,8 @@ php scripts/check-namespaces.php
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 1c4bb8cf (.)
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 =======
 - [Laravel Namespacing Conventions](https://laravel.com/project_docs/master/structure)
@@ -9789,6 +9812,7 @@ php scripts/check-namespaces.php
 =======
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
@@ -9802,7 +9826,12 @@ php scripts/check-namespaces.php
 - [Laravel Namespacing Conventions](https://laravel.com/project_docs/master/structure)
 >>>>>>> f1d4085 (.)
 >>>>>>> 5e58b29b (.)
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 1c4bb8cf (.)
+>>>>>>> 6be8834c2 (.)
 - [Nwidart/Laravel-Modules Documentation](https://nwidart.com/laravel-modules/v6/introduction)
 
 

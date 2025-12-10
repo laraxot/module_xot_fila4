@@ -16,6 +16,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
     /**
      * Traccia i panel che hanno già gli hook registrati.
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31,6 +32,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
      * 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
@@ -77,6 +79,11 @@ class CoolModulesServiceProvider extends PackageServiceProvider
      * 
 >>>>>>> f1d4085 (.)
 >>>>>>> dbce41cec (.)
+=======
+=======
+     *
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
      * @var array<string, bool>
      */
     private static array $processedPanels = [];
@@ -92,6 +99,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -99,6 +107,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
         $package->name('cool-modules');
 =======
         $package
@@ -107,6 +117,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
         $package->name('cool-modules');
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
     }
@@ -128,6 +139,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
             ->name('cool-modules');
 >>>>>>> f1d4085 (.)
 >>>>>>> dbce41cec (.)
+=======
+>>>>>>> 6be8834c2 (.)
     }
 
     public function register(): void
@@ -147,6 +160,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -163,6 +177,10 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
 
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
@@ -175,6 +193,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -220,6 +241,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -251,10 +273,15 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
                 // Controlla se questo panel è già stato processato
                 if (isset(self::$processedPanels[$panelId])) {
                     continue;
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,6 +301,10 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> 5cf46378 (.)
 =======
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
 
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
@@ -307,6 +338,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6be8834c2 (.)
 =======
 =======
 =======
@@ -415,6 +449,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 =======
@@ -446,6 +481,10 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> dbce41cec (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 6be8834c2 (.)
                     // Marca questo panel come processato
                     self::$processedPanels[$panelId] = true;
                 }

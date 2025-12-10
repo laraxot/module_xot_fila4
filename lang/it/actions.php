@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
     // NAVIGATION & STRUCTURE
     'navigation' => [
         'label' => 'Azioni',
@@ -39,5 +40,7 @@ return [
         'success_operation' => 'Operazione completata con successo',
     ],
     // LEGACY SUPPORT - Compatibilità con codice esistente
+=======
+>>>>>>> f1d4085 (.)
     'export_xls' => 'Esporta Dati',
 ];

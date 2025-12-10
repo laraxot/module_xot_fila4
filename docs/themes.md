@@ -462,6 +462,7 @@ Per personalizzare un tema:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -570,11 +571,14 @@ Per personalizzare un tema:
 >>>>>>> 5cd593a5 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 099ab7a0 (.)
 * [themes.md](../../../Xot/docs/themes.md)
 * [themes.md](../../../Cms/docs/frontoffice/themes.md)
 
 * [README.md Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/docs/README.md)
 * [Convenzioni Namespace Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/docs/namespace-conventions.md)b6f667c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -654,12 +658,15 @@ Per personalizzare un tema:
 =======
 >>>>>>> d79d36e0 (.)
 =======
+>>>>>>> 099ab7a0 (.)
+=======
 * [themes.md](../../../Xot/project_docs/themes.md)
 * [themes.md](../../../Cms/project_docs/frontoffice/themes.md)
 
 * [README.md Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/project_docs/README.md)
 * [Convenzioni Namespace Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/project_docs/namespace-conventions.md)b6f667c (.)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -741,6 +748,8 @@ Per personalizzare un tema:
 >>>>>>> d79d36e0 (.)
 =======
 >>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 099ab7a0 (.)
 
 
 <<<<<<< HEAD

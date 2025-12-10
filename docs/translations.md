@@ -145,6 +145,7 @@ Modules/<NomeModulo>/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 =======
@@ -372,6 +373,14 @@ Modules/<NomeModulo>/
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 >>>>>>> 03ceeac3 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
 
 ## Struttura
 
@@ -711,6 +720,7 @@ Action::make('delete')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -819,6 +829,8 @@ Action::make('delete')
 >>>>>>> 5cd593a5 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 099ab7a0 (.)
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -877,6 +889,7 @@ Action::make('delete')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -922,6 +935,8 @@ Action::make('delete')
 =======
 >>>>>>> d79d36e0 (.)
 =======
+>>>>>>> 099ab7a0 (.)
+=======
 * [translations.md](../../../Chart/project_docs/translations.md)
 * [translations.md](../../../Reporting/project_docs/translations.md)
 * [translations.md](../../../Gdpr/project_docs/translations.md)
@@ -940,6 +955,7 @@ Action::make('delete')
 * [translations.md](../../../Patient/project_docs/translations.md)
 * [translations.md](../../../Cms/project_docs/translations.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1066,6 +1082,8 @@ Action::make('delete')
 >>>>>>> 5cd593a5 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 099ab7a0 (.)
 
 
 ### Versione Incoming

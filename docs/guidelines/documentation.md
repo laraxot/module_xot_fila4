@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -11,7 +12,12 @@
 =======
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 # Linee Guida per la Documentazione
 
 ## Principi Fondamentali
@@ -36,6 +42,7 @@
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
@@ -46,6 +53,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 92cca5ade (.)
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
 <<<<<<< HEAD
@@ -264,7 +274,18 @@
 =======
 =======
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
+   - Le regole generali sono in `/Modules/Xot/docs/`
+>>>>>>> 5cd593a5 (.)
+=======
+   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
+   - Le regole generali sono in `/Modules/Xot/docs/`
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
    - La root `/docs` contiene solo indici e collegamenti
 
 2. **Collegamenti Bidirezionali**
@@ -293,6 +314,7 @@
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
@@ -303,6 +325,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 92cca5ade (.)
    Modules/Xot/docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,7 +475,16 @@
 =======
 =======
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+   Modules/Xot/docs/
+>>>>>>> 5cd593a5 (.)
+=======
+   Modules/Xot/docs/
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
    ├── guidelines/           # Linee guida generali
    ├── conventions/          # Convenzioni di codice
    ├── architecture/         # Architettura del framework
@@ -535,6 +569,7 @@ public function example(): void
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
@@ -545,6 +580,9 @@ public function example(): void
 =======
 <<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 92cca5ade (.)
 Modules/{ModuleName}/docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -692,7 +730,16 @@ Modules/{ModuleName}/project_docs/
 =======
 =======
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+Modules/{ModuleName}/docs/
+>>>>>>> 5cd593a5 (.)
+=======
+Modules/{ModuleName}/docs/
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 ├── README.md              # Panoramica del modulo
 ├── installation.md        # Istruzioni di installazione
 ├── configuration.md       # Configurazione
@@ -799,6 +846,7 @@ php artisan api:generate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -839,6 +887,7 @@ php artisan api:generate
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
 =======
+<<<<<<< HEAD
 * [documentation.md](../../../Xot/project_docs/documentation.md)
 * [documentation.md](../../../Xot/project_docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/project_docs/roadmap/features/documentation.md)
@@ -849,11 +898,17 @@ php artisan api:generate
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
 >>>>>>> 73eab74 (.)
 
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 * [documentation.md](../../../Xot/docs/documentation.md)
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -934,4 +989,9 @@ php artisan api:generate
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)

@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -156,7 +157,14 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 # Convenzioni per i Namespace nei Moduli
 
 ## Struttura Base
@@ -405,6 +413,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -551,7 +560,14 @@ php artisan view:clear
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica
@@ -9815,6 +9831,7 @@ php scripts/check-namespaces.php
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
@@ -9822,6 +9839,9 @@ php scripts/check-namespaces.php
 =======
 <<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 92cca5ade (.)
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9931,7 +9951,16 @@ php scripts/check-namespaces.php
 =======
 =======
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+- [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
+>>>>>>> 5cd593a5 (.)
+=======
+- [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 - [Nwidart/Laravel-Modules Documentation](https://nwidart.com/laravel-modules/v6/introduction)
 
 
@@ -9943,6 +9972,7 @@ php scripts/check-namespaces.php
 Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerente e a evitare errori comuni durante l'analisi statica del codice con PHPStan. 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9987,4 +10017,9 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)

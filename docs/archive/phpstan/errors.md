@@ -76,6 +76,7 @@ Questa sezione documenta tutti gli errori rilevati da PHPStan nel modulo Xot.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [errors.md](../../../Xot/docs/phpstan/errors.md)
 >>>>>>> 85cdef688 (.)
@@ -115,4 +116,7 @@ Questa sezione documenta tutti gli errori rilevati da PHPStan nel modulo Xot.
 =======
 * [errors.md](../../../Xot/docs/phpstan/errors.md)
 >>>>>>> aba62c408 (.)
+=======
+* [errors.md](../../../Xot/docs/phpstan/errors.md)
+>>>>>>> 92cca5ade (.)
 

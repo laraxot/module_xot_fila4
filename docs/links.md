@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -156,7 +157,14 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 # Links
 
 ## Documentazione Generale
@@ -178,6 +186,7 @@
 ### Sviluppo e Qualità
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,7 +238,13 @@
 =======
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 - [PHPStan Usage](phpstan-usage.md) - Guida all'uso di PHPStan per l'analisi statica
 - [Testing Guidelines](testing-guidelines.md) - Linee guida per i test
 - [Code Quality](code-quality.md) - Metriche e standard di qualità del codice
@@ -392,6 +407,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 =======
@@ -442,7 +458,12 @@
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 # Collegamenti Documentazione Modulo Xot
 
 ## Documentazione Generica
@@ -462,6 +483,7 @@
 >>>>>>> 2f3197ab (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
@@ -549,7 +571,14 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 
 ## Documentazione Tecnica
 - [Regole di Progetto](./rules/PROMPT_RULES.md)
@@ -574,6 +603,7 @@
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
@@ -581,6 +611,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 92cca5ade (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,7 +652,14 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 - [Cms](../Cms/docs/README.md) - Frontend
 - [UI](../UI/docs/README.md) - Componenti
 - [User](../User/docs/README.md) - Utenti e Permessi
@@ -679,6 +719,7 @@
 - [Gdpr](../Gdpr/project_docs/README.md) - GDPR
 - [Job](../Job/project_docs/README.md) - Jobs
 - [Chart](../Chart/project_docs/README.md) - Grafici 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1043,4 +1084,10 @@
 =======
 
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 <<<<<<< HEAD
@@ -10,13 +11,19 @@
 =======
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 # XotBaseServiceProvider
 
 ## Descrizione
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,7 +174,13 @@
 =======
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+`XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 
 ## Caratteristiche Principali
 
@@ -349,6 +362,7 @@ try {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 5. La registrazione dei componenti è automatica ma configurabile 
 5. La registrazione dei componenti è automatica ma configurabile 
@@ -368,6 +382,8 @@ try {
 5. La registrazione dei componenti è automatica ma configurabile 
 5. La registrazione dei componenti è automatica ma configurabile 
 5. La registrazione dei componenti è automatica ma configurabile 
+=======
+>>>>>>> 92cca5ade (.)
 5. La registrazione dei componenti è automatica ma configurabile 
 =======
 >>>>>>> 88ee35c4e (.)
@@ -407,4 +423,10 @@ try {
 =======
 5. La registrazione dei componenti è automatica ma configurabile 
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+5. La registrazione dei componenti è automatica ma configurabile 
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)

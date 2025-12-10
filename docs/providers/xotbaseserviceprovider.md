@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -11,7 +12,12 @@
 =======
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 # XotBaseServiceProvider
 
 ## Descrizione
@@ -82,6 +88,7 @@
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
 =======
 <<<<<<< HEAD
@@ -89,6 +96,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 92cca5ade (.)
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 <<<<<<< HEAD
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
@@ -362,7 +372,14 @@
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in <nome progetto>. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+`XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+`XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 
 ## Caratteristiche Principali
 
@@ -544,6 +561,7 @@ try {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 5. La registrazione dei componenti è automatica ma configurabile 
 5. La registrazione dei componenti è automatica ma configurabile 
@@ -566,6 +584,8 @@ try {
 5. La registrazione dei componenti è automatica ma configurabile 
 5. La registrazione dei componenti è automatica ma configurabile 
 5. La registrazione dei componenti è automatica ma configurabile 
+=======
+>>>>>>> 92cca5ade (.)
 5. La registrazione dei componenti è automatica ma configurabile 
 =======
 >>>>>>> 88ee35c4e (.)
@@ -603,4 +623,10 @@ try {
 =======
 5. La registrazione dei componenti è automatica ma configurabile 
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+5. La registrazione dei componenti è automatica ma configurabile 
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)

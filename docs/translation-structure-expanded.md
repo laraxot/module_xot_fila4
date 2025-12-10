@@ -34,7 +34,10 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 92cca5ade (.)
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
@@ -164,10 +167,13 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 >>>>>>> ecd5ec32 (.)
 =======
 =======
+=======
+>>>>>>> 03ceeac3 (.)
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 33af3e61 (.)
@@ -205,7 +211,12 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 =======
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 
 ## Problema Identificato
 Il file di traduzione spagnolo `/lang/es/labels.php` contiene alcune strutture che potrebbero beneficiare della struttura espansa, specialmente per campi geografici come "province".
@@ -400,6 +411,7 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 **Data**: 2025-08-08
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -415,4 +427,9 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)

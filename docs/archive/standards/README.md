@@ -23,6 +23,7 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
@@ -73,6 +74,10 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
 >>>>>>> aba62c408 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 92cca5ade (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)
@@ -194,6 +199,7 @@ class Doctor extends User
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
 >>>>>>> 85cdef688 (.)
@@ -233,5 +239,8 @@ class Doctor extends User
 =======
 - [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
 >>>>>>> aba62c408 (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+>>>>>>> 92cca5ade (.)
 // Aggiungere qui altri moduli se necessario
 

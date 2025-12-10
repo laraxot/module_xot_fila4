@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6ca989d8 (.)
 # PHPStan Fixes - Xot Module
@@ -504,7 +505,12 @@ protected $model = Cache::class;
 =======
 =======
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 # Correzioni PHPStan Livello 7 - Modulo Xot
 # Correzioni PHPStan - 6 Gennaio 2025
 
@@ -1221,6 +1227,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 =======
@@ -1287,7 +1294,12 @@ private function exportTablesToCSV(string $mdbFile): array
 =======
 =======
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 ### 1. Chart/app/Datas/AnswersChartData.php
 
 **Problema**: Errori `argument.type` e `offsetAccess.nonOffsetAccessible`
@@ -1325,6 +1337,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
@@ -1386,7 +1399,13 @@ private function exportTablesToCSV(string $mdbFile): array
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 
 **Problema**: Linea 21 - Tipo di ritorno errato
 - Metodo doveva restituire `array<string, mixed>` ma restituiva `array<mixed, mixed>`
@@ -1404,6 +1423,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
@@ -1412,6 +1432,8 @@ private function exportTablesToCSV(string $mdbFile): array
 =======
 >>>>>>> 88ee35c4e (.)
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
+=======
+>>>>>>> 92cca5ade (.)
 ### 4. <nome progetto>/app/States/Appointment/ReportPending.php
 =======
 >>>>>>> 5a14301c (.)
@@ -1424,7 +1446,12 @@ private function exportTablesToCSV(string $mdbFile): array
 =======
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 ### 4. SaluteOra/app/States/Appointment/ReportPending.php
 
 **Problema**: Linea 27 - Tipo di ritorno errato
@@ -1446,6 +1473,7 @@ private function exportTablesToCSV(string $mdbFile): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -1479,7 +1507,12 @@ private function exportTablesToCSV(string $mdbFile): array
 =======
 =======
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
     foreach ($tables as $table) {
         // ... codice per importare i dati ...
     }
@@ -1505,6 +1538,7 @@ Queste modifiche garantiscono che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 =======
@@ -1553,7 +1587,12 @@ Queste modifiche garantiscono che:
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 **Soluzione**:
 - Aggiunto PHPDoc con tipo di ritorno corretto
 - Aggiunto cast esplicito al risultato
@@ -1604,6 +1643,7 @@ Queste modifiche garantiscono che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> abfbbdf (.)
 >>>>>>> 71f31700 (.)
@@ -1665,7 +1705,13 @@ Queste modifiche garantiscono che:
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+>>>>>>> abfbbdf (.)
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 
 **Soluzione**:
 - Separato controllo per `UserContract` e `null`
@@ -1704,6 +1750,7 @@ Queste modifiche garantiscono che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
@@ -1730,6 +1777,9 @@ Queste modifiche garantiscono che:
 
 >>>>>>> 5bd842e3 (.)
 <<<<<<< HEAD
+=======
+
+>>>>>>> 03ceeac3 (.)
 <<<<<<< HEAD
 ### 18. Correzione in Console/Commands/SearchStringInDatabaseCommand.php
 
@@ -1809,6 +1859,7 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 =======
 *Ultimo aggiornamento: 6 Gennaio 2025*
 >>>>>>> abfbbdf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1946,4 +1997,9 @@ L'aggiunta dell'annotazione `@phpstan-var` fornisce a PHPStan un'informazione pi
 
 *Ultimo aggiornamento: 6 Gennaio 2025*
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)

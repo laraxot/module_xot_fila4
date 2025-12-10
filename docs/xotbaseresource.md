@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -11,7 +12,12 @@
 =======
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 # XotBaseResource
 
 ## Panoramica
@@ -27,6 +33,7 @@ Alcuni metodi sono marcati come `final` e non possono essere sovrascritti nelle 
 ```php
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,7 +85,13 @@ final public static function form(Form $form): Form
 =======
 final public static function form(Form $form): Form
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+final public static function form(Form $form): Form
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 {
     return $form->schema(static::getFormSchema());
 }
@@ -162,6 +175,7 @@ class NotificationResource extends XotBaseResource
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
@@ -172,6 +186,9 @@ class NotificationResource extends XotBaseResource
 =======
 <<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 92cca5ade (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,7 +241,14 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 - [Architettura Filament](../../../docs/architecture/filament.md)
 - [Gestione Risorse](../../../docs/architecture/resources.md)
 - [Regole XotBaseResource](../../../docs/regole/xotbaseresource-rules.md)
@@ -248,11 +272,16 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
 =======
 =======
 >>>>>>> e769883c (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 92cca5ade (.)
 =======
 <<<<<<< HEAD
 =======
@@ -361,7 +390,14 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 
 ## Note Importanti
 
@@ -371,6 +407,7 @@ class NotificationResource extends XotBaseResource
 4. Evitare override non necessari di metodi
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,6 +440,8 @@ class NotificationResource extends XotBaseResource
 5. Seguire le convenzioni di Filament 
 5. Seguire le convenzioni di Filament 
 5. Seguire le convenzioni di Filament 
+=======
+>>>>>>> 92cca5ade (.)
 5. Seguire le convenzioni di Filament 
 =======
 >>>>>>> 88ee35c4e (.)
@@ -440,4 +479,10 @@ class NotificationResource extends XotBaseResource
 =======
 5. Seguire le convenzioni di Filament 
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+5. Seguire le convenzioni di Filament 
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)

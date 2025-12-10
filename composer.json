@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -60,8 +61,14 @@
 <<<<<<< HEAD
 =======
 >>>>>>> 5ca118c34 (.)
+=======
+>>>>>>> 92cca5ade (.)
         "filament/filament": "*",
         "filament/spatie-laravel-media-library-plugin": "*",
+=======
+        "filament/filament": "^4.0",
+        "filament/spatie-laravel-media-library-plugin": "^4.0",
+>>>>>>> c84488b (.)
         
 >>>>>>> 5cf46378 (.)
 =======

@@ -600,12 +600,19 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
  * @mixin IdeHelperUserContract
 =======
 =======
 >>>>>>> 309cf3180 (.)
  * @mixin \Eloquent
+=======
+ * @mixin IdeHelperUserContract
+=======
+ * @mixin \Eloquent
+>>>>>>> c84488b (.)
+>>>>>>> 92cca5ade (.)
  */
 interface UserContract extends
     Authenticatable,

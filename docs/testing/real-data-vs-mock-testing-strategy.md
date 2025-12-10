@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -11,7 +12,12 @@
 =======
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 # Real Data vs Mock Testing Strategy - Xot Module
 
 ## 🎯 Strategic Testing Approaches
@@ -271,6 +277,7 @@ test('complete tax filing process', function () {
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
 =======
 <<<<<<< HEAD
@@ -278,6 +285,9 @@ test('complete tax filing process', function () {
 =======
 <<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 92cca5ade (.)
 ### Healthcare Domain () - **Real Data Preferred**
 <<<<<<< HEAD
 ### Healthcare Domain () - **Real Data Preferred**
@@ -551,7 +561,14 @@ test('complete tax filing process', function () {
 ### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -798,6 +815,7 @@ test('legacy feature with mocks', function () {
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
 =======
 <<<<<<< HEAD
@@ -805,6 +823,9 @@ test('legacy feature with mocks', function () {
 =======
 <<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 92cca5ade (.)
 **For  Healthcare Domain**: 
 <<<<<<< HEAD
 **For  Healthcare Domain**: 
@@ -1078,7 +1099,14 @@ test('legacy feature with mocks', function () {
 **For <nome progetto> Healthcare Domain**: 
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 
@@ -1096,6 +1124,7 @@ test('legacy feature with mocks', function () {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1140,4 +1169,9 @@ test('legacy feature with mocks', function () {
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)

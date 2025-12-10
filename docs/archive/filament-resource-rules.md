@@ -41,10 +41,14 @@
 >>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 92cca5ade (.)
 # Regole per le Risorse Filament in <nome progetto>
 
 ## Panoramica
@@ -132,7 +136,12 @@ Tutte le risorse Filament in  **DEVONO** estendere `Modules\Xot\Filament\Resourc
 =======
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 # Regole per le Risorse Filament in SaluteOra
 
 ## Panoramica
@@ -144,6 +153,7 @@ Questo documento definisce le regole fondamentali per l'implementazione delle ri
 Tutte le risorse Filament in SaluteOra **DEVONO** estendere `Modules\Xot\Filament\Resources\XotBaseResource` invece di `Filament\Resources\Resource`. Questa classe base personalizzata fornisce funzionalità specifiche per il progetto e garantisce coerenza in tutta l'applicazione.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,7 +292,12 @@ Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\F
 =======
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 
 ```php
 // ✅ CORRETTO
@@ -486,6 +501,7 @@ class DoctorResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Filament Form Builder](/project_docs/filament-form-builder.md)
@@ -539,4 +555,9 @@ class DoctorResource extends XotBaseResource
 =======
 =======
 >>>>>>> b956ebe0 (.)
+<<<<<<< HEAD
 >>>>>>> aba62c408 (.)
+=======
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)

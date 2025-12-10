@@ -28,7 +28,10 @@ il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+>>>>>>> 92cca5ade (.)
 # Temi in il progetto
 
 <<<<<<< HEAD
@@ -119,7 +122,15 @@ il progetto utilizza un sistema di temi basato su Filament 4.3. Ogni tema è un 
 il progetto utilizza un sistema di temi basato su Filament 3.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+# Temi in il progetto
+
+il progetto utilizza un sistema di temi basato su Filament 4.3. Ogni tema è un pacchetto Laravel indipendente che può essere installato e configurato separatamente.
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 
 ## Struttura dei Temi
 
@@ -168,6 +179,7 @@ Le viste devono essere organizzate in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,7 +295,13 @@ Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e i
 Il tema One è il tema predefinito di il progetto. È basato su Filament 3.3 e include:
 >>>>>>> 6cba4fe (.)
 >>>>>>> e0b8ebe3 (.)
+<<<<<<< HEAD
 >>>>>>> 358ba79a7 (.)
+=======
+=======
+Il tema One è il tema predefinito di il progetto. È basato su Filament 4.3 e include:
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 
 ### Blocchi Disponibili
 - Hero
@@ -340,6 +358,7 @@ Per personalizzare un tema:
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
 =======
 <<<<<<< HEAD
@@ -350,6 +369,9 @@ Per personalizzare un tema:
 =======
 <<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 92cca5ade (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,7 +424,14 @@ Per personalizzare un tema:
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d79d36e0 (.)
+<<<<<<< HEAD
 >>>>>>> 5ca118c34 (.)
+=======
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)
 * [themes.md](../../../Xot/docs/themes.md)
 * [themes.md](../../../Cms/docs/frontoffice/themes.md)
 
@@ -410,6 +439,7 @@ Per personalizzare un tema:
 * [Convenzioni Namespace Tema One](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Themes/One/docs/namespace-conventions.md)b6f667c (.)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -589,4 +619,11 @@ Per personalizzare un tema:
 
 
 >>>>>>> 5bd842e3 (.)
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+
+
+>>>>>>> 03ceeac3 (.)
+>>>>>>> 92cca5ade (.)

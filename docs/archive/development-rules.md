@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione generale progetto](/docs/README.md)
 >>>>>>> 85cdef688 (.)
@@ -50,6 +51,9 @@
 =======
 - [Documentazione generale progetto](/docs/README.md)
 >>>>>>> aba62c408 (.)
+=======
+- [Documentazione generale progetto](/docs/README.md)
+>>>>>>> 92cca5ade (.)
 - [Regole Filament](filament-best-practices.md)
 - [Convenzioni Namespace](namespace-conventions.md)
 - [Standard di Codice](code-standards.md)
@@ -307,6 +311,7 @@ protected function casts(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
 >>>>>>> 85cdef688 (.)
@@ -346,6 +351,9 @@ protected function casts(): array
 =======
 - **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
 >>>>>>> aba62c408 (.)
+=======
+- **Modules/{Module}/docs/**: Documentazione specifica di ogni modulo
+>>>>>>> 92cca5ade (.)
 - **Collegamenti bidirezionali**: Root ↔ Moduli per navigazione fluida
 
 ### Naming Convention Docs
@@ -371,6 +379,7 @@ docs/                           # Generale + collegamenti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Modules/{Module}/docs/          # Specifica modulo
 >>>>>>> 85cdef688 (.)
@@ -410,6 +419,9 @@ Modules/{Module}/project_docs/          # Specifica modulo
 =======
 Modules/{Module}/docs/          # Specifica modulo
 >>>>>>> aba62c408 (.)
+=======
+Modules/{Module}/docs/          # Specifica modulo
+>>>>>>> 92cca5ade (.)
 ├── index.md                    # Indice del modulo
 ├── feature-name.md            # Documentazione feature specifica
 ├── api/                       # Documentazione API
@@ -491,6 +503,7 @@ Progettare sempre pensando che il codice dovrà superare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - `Modules/Xot/docs/`
 >>>>>>> 85cdef688 (.)
@@ -530,6 +543,9 @@ Progettare sempre pensando che il codice dovrà superare:
 =======
 - `Modules/Xot/docs/`
 >>>>>>> aba62c408 (.)
+=======
+- `Modules/Xot/docs/`
+>>>>>>> 92cca5ade (.)
 - Memoria personale
 - Collegamenti bidirezionali
 

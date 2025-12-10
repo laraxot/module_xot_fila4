@@ -70,6 +70,7 @@ class YourModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices](BEST-PRACTICES.md) 
 =======
 - [Laravel Relationships](https://laravel.com/docs/relationships)
@@ -153,3 +154,8 @@ class YourModel extends Model
 >>>>>>> 88e745db5 (.)
 =======
 >>>>>>> 5e6aa70fe (.)
+=======
+- [Laravel Relationships](https://laravel.com/docs/relationships)
+- [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+- [Best Practices](BEST-PRACTICES.md) 
+>>>>>>> 92cca5ade (.)

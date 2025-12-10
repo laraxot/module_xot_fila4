@@ -74,6 +74,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -257,6 +258,8 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 # Regole per le Risorse Filament in 
 
 ## Panoramica
@@ -266,6 +269,7 @@ Questo documento definisce le regole fondamentali per l'implementazione delle ri
 ## Estensione di XotBaseResource
 
 Tutte le risorse Filament in  **DEVONO** estendere `Modules\Xot\Filament\Resources\XotBaseResource` invece di `Filament\Resources\Resource`. Questa classe base personalizzata fornisce funzionalità specifiche per il progetto e garantisce coerenza in tutta l'applicazione.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -628,6 +632,8 @@ Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\F
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 # Regole per le Risorse Filament in SaluteOra
 
 ## Panoramica
@@ -1124,6 +1130,7 @@ class DoctorResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
@@ -1489,3 +1496,8 @@ class DoctorResource extends XotBaseResource
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+- [Filament Form Builder](/docs/filament-form-builder.md)
+- [Gestione delle Traduzioni](/docs/translation-management.md)
+- [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
+>>>>>>> 3fbbf1f5 (.)

@@ -108,10 +108,6 @@ class BelongsToManyAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
@@ -120,28 +116,15 @@ class BelongsToManyAction
             \in_array('to', array_keys($relationDTO->data), false) ||
                 \in_array('from', array_keys($relationDTO->data), false)
         ) {
-<<<<<<< HEAD
-=======
-    public function execute(Model $model, RelationDTO $relationDTO): void
-    {
-        Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
-        // dddx(['row' => $row, 'relation' => $relation]);
-        if (\in_array('to', array_keys($relationDTO->data), false) || \in_array('from', array_keys($relationDTO->data), false)) {
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
             // $this->saveMultiselectTwoSides($row, $relation->name, $relation->data);
             $to = $relationDTO->data['to'] ?? [];
 
             // Assicura che $to sia un array di ID validi
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
             $to = is_iterable($to) ? iterator_to_array($to) : ((array) $to);
             Assert::allScalar($to, 'The "to" field must contain only scalar values.');
 
             $rows->sync($to);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,6 +550,9 @@ class BelongsToManyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+>>>>>>> 3fbbf1f5 (.)
             Session::flash('status', $status);
 
             return;
@@ -604,10 +590,9 @@ class BelongsToManyAction
 <<<<<<< HEAD
 =======
                 Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
-<<<<<<< HEAD
-<<<<<<< HEAD
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $data, []);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1039,6 +1024,8 @@ class BelongsToManyAction
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();
@@ -1049,6 +1036,7 @@ class BelongsToManyAction
         }
 
         // Sincronizza gli ID raccolti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1434,6 +1422,9 @@ class BelongsToManyAction
         if (!empty($ids)) {
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+        if (!empty($ids)) {
+>>>>>>> 3fbbf1f5 (.)
             try {
                 // Assicura che $ids sia un array di valori scalari
                 // $ids è già un array non vuoto a questo punto, quindi non serve verificare se è iterabile

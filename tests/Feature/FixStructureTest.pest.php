@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -122,6 +123,8 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -179,9 +182,9 @@ declare(strict_types=1);
 use Modules\Xot\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
-
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -259,6 +262,9 @@ use Modules\Xot\Tests\TestCase;
 =======
 
 >>>>>>> cafe8bed (.)
+=======
+
+>>>>>>> 3fbbf1f5 (.)
 uses(TestCase::class);
 
 <<<<<<< HEAD
@@ -275,6 +281,7 @@ beforeEach(function (): void {
     $this->testDir = sys_get_temp_dir().'/fix_structure_test_'.uniqid();
 =======
     $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,6 +712,10 @@ beforeEach(function () {
 
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+    mkdir($this->testDir, 0o755, true);
+
+>>>>>>> 3fbbf1f5 (.)
     // Set the working directory
     chdir($this->testDir);
 });
@@ -772,6 +783,7 @@ afterEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -879,6 +891,8 @@ afterEach(function () {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 function rrmdir($dir)
 {
     if (is_dir($dir)) {
@@ -1006,6 +1020,7 @@ function rrmdir($dir)
 >>>>>>> a12f125f4a (.)
 =======
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1415,6 +1430,8 @@ function rrmdir($dir) {
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                 }
             }
         }
@@ -1453,6 +1470,7 @@ test('creates necessary directories and files', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
@@ -1654,6 +1672,9 @@ test('creates necessary directories and files', function () {
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 3fbbf1f5 (.)
 
     // Check if directories were created
     $directories = [
@@ -1842,6 +1863,7 @@ test('does not overwrite existing files', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -2058,6 +2080,9 @@ test('does not overwrite existing files', function () {
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+    $this->artisan('xot:fix-structure')->assertExitCode(0);
+>>>>>>> 3fbbf1f5 (.)
 
     // Verify the file was not overwritten
     $this->assertStringEqualsFile($testFile, $testContent);
@@ -2307,6 +2332,7 @@ test('handles errors gracefully', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
@@ -2384,6 +2410,8 @@ test('handles errors gracefully', function () {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error
@@ -2391,6 +2419,7 @@ test('handles errors gracefully', function () {
 
     // Restore permissions
     chmod($nonWritableDir, 0o755);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3112,3 +3141,6 @@ test('handles errors gracefully', function () {
 =======
 });
 >>>>>>> 5a14301c (.)
+=======
+});
+>>>>>>> 3fbbf1f5 (.)

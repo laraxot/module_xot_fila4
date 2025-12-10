@@ -78,6 +78,7 @@ class ListFilamentPanels extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -583,20 +584,15 @@ class ListFilamentPanels extends Command
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             $providersPath = $module->getPath() . '/Providers';
             if (!is_dir($providersPath)) {
-=======
-            $providersPath = $module->getPath().'/Providers';
-            if (! is_dir($providersPath)) {
->>>>>>> f1d4085 (.)
-=======
-            $providersPath = $module->getPath() . '/Providers';
-            if (!is_dir($providersPath)) {
->>>>>>> 73eab74 (.)
                 continue;
             }
 
             $providers = collect(scandir($providersPath))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -653,11 +649,14 @@ class ListFilamentPanels extends Command
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                 ->filter(fn(string $file): bool => str_ends_with($file, 'ServiceProvider.php'));
 
             foreach ($providers as $provider) {
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
                 if (!class_exists($providerClass)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -979,6 +978,8 @@ class ListFilamentPanels extends Command
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
                     continue;
                 }
 

@@ -78,11 +78,10 @@ use RuntimeException;
 >>>>>>> 5a14301c (.)
 use RuntimeException;
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Facades\DB;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -434,6 +433,8 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -500,6 +501,7 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $modelClass  La classe del modello
 =======
      * @param string $modelClass La classe del modello
@@ -829,6 +831,9 @@ class GetSchemaManagerByModelClassAction
      * @param string $modelClass La classe del modello
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+     * @param string $modelClass La classe del modello
+>>>>>>> 3fbbf1f5 (.)
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
     public function execute(string $modelClass): AbstractSchemaManager
@@ -840,6 +845,7 @@ class GetSchemaManagerByModelClassAction
         // ma getDoctrineConnection() non esiste, dobbiamo usare getDoctrineSchemaManager direttamente
         if (method_exists($connection, 'getDoctrineSchemaManager')) {
             /** @phpstan-ignore deprecated.method */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1303,6 +1309,9 @@ class GetSchemaManagerByModelClassAction
             return $connection->getDoctrineSchemaManager();
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+            return $connection->getDoctrineSchemaManager();
+>>>>>>> 3fbbf1f5 (.)
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

@@ -272,6 +272,7 @@ use Filament\Widgets\WidgetConfiguration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
 <<<<<<< HEAD
@@ -568,6 +569,10 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+class Dashboard extends XotBaseDashboard
+{
+>>>>>>> 3fbbf1f5 (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -631,6 +636,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -912,4 +918,6 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 }

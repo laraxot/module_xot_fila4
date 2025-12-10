@@ -9,7 +9,10 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Arrayable;
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -31,7 +34,10 @@ use Modules\Lang\Actions\TransCollectionAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Traversable;
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -47,6 +53,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 
     public array $headings;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -297,11 +304,15 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 =======
     public ?string $transKey;
 >>>>>>> 71586de2 (.)
+=======
+    public null|string $transKey;
+>>>>>>> 5a14301c (.)
 
     /** @var array<int, string> */
     public array $fields = [];
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +363,8 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param array<int, string> $fields
      */
     public function __construct(
@@ -360,6 +373,9 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -378,6 +394,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -438,11 +455,17 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
      *
      * @param  Collection  $item
 >>>>>>> 249a0067 (.)
+=======
+     * Undocumented function.
+     *
+     * @param Collection $item
+>>>>>>> 5a14301c (.)
      */
     public function map($item): array
     {
         $data = $item->only($this->fields);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,6 +514,9 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 =======
         return $data->toArray();
 >>>>>>> 249a0067 (.)
+=======
+        return $data->toArray();
+>>>>>>> 5a14301c (.)
 
         /*
          * return [
@@ -498,6 +524,9 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -511,6 +540,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 
     public function getHead(): Collection
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -636,6 +666,8 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!empty($this->fields)) {
             return collect($this->fields);
         }
@@ -646,6 +678,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
         $head = $this->collection->first();
 
         return collect($head)->keys();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -696,6 +729,8 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 
         return collect($head)->keys();
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
     }
 
     public function headings(): array
@@ -720,6 +755,7 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
         /* @phpstan-ignore return.type */
         return $this->collection->getIterator();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -752,6 +788,8 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 
         return (array) $row;
     }
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

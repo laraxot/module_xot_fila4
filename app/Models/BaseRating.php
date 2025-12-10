@@ -19,6 +19,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseRating extends BaseModel
 =======
 abstract class BaseRating extends Model
@@ -44,6 +45,9 @@ abstract class BaseRating extends Model
 =======
 abstract class BaseRating extends Model
 >>>>>>> 249a0067 (.)
+=======
+abstract class BaseRating extends Model
+>>>>>>> 5a14301c (.)
 {
     // Common properties and methods for ratings can be added here.
 }

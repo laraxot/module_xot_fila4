@@ -4,12 +4,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Regole Generali sulle State Machine
 
 ## Transizioni
@@ -21,6 +24,7 @@
 - Ogni errore e soluzione va documentato sia nella docs del modulo sia qui, con link bidirezionali.
 
 ## Collegamenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,3 +265,9 @@
 - [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
 - [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)
 >>>>>>> 03ceeac3 (.)
+=======
+- [../../<nome progetto>/docs/state-machine.md](../../<nome progetto>/docs/state-machine.md)
+- [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
+- [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
+- [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)
+>>>>>>> 5a14301c (.)

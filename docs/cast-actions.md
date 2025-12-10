@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,6 +14,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 # Azioni di Cast Sicure - Sostituzione di property_exists
 
 ## Panoramica
@@ -21,6 +24,7 @@ Questo documento descrive le azioni di cast sicure che sostituiscono completamen
 
 ## Problema con property_exists
 
+<<<<<<< HEAD
 **REGOLA CRITICA**: `property_exists()` NON può essere usato con i modelli Eloquent perché gli attributi sono magici (gestiti tramite `__get()` e `__set()`).
 
 L'uso di `property_exists()` con modelli Laravel è problematico perché:
@@ -28,12 +32,17 @@ L'uso di `property_exists()` con modelli Laravel è problematico perché:
 - **Gli attributi Eloquent sono magici**: Non sono proprietà reali della classe, ma vengono gestiti tramite magic methods (`__get()`, `__set()`, `__isset()`)
 - `property_exists()` controlla solo le proprietà reali della classe, NON gli attributi magici
 - Può dare falsi negativi: un attributo può esistere ma `property_exists()` restituisce `false`
+=======
+L'uso di `property_exists()` con modelli Laravel è problematico perché:
+
+>>>>>>> 5a14301c (.)
 - È una funzione PHP generica che non conosce l'architettura Laravel
 - Può dare falsi positivi con proprietà dinamiche di Eloquent
 - È meno performante e meno leggibile
 - Non segue i principi DRY e KISS
 - Può causare errori di tipo e comportamenti imprevedibili
 
+<<<<<<< HEAD
 ### Soluzione Corretta: Usare `isset()`
 
 Per i modelli Eloquent, utilizzare SEMPRE `isset()` invece di `property_exists()`:
@@ -56,6 +65,8 @@ if ($email !== null) {
 }
 ```
 
+=======
+>>>>>>> 5a14301c (.)
 ## Soluzioni Implementate
 
 ### 1. SafeEloquentCastAction
@@ -279,6 +290,7 @@ Le azioni di cast sono completamente testate e supportano PHPStan livello 9+:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -315,3 +327,5 @@ Le azioni di cast sono completamente testate e supportano PHPStan livello 9+:
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)

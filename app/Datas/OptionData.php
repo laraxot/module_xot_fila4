@@ -17,12 +17,15 @@ class OptionData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $cache_driver  Driver per la cache delle opzioni
      * @param  bool  $enable_cache  Se abilitare la cache delle opzioni
      * @param  int  $cache_ttl  TTL cache in secondi
      * @param  string  $prefix  Prefisso per le chiavi delle opzioni
      * @param  array  $autoload  Opzioni da caricare automaticamente
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -37,6 +40,9 @@ class OptionData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -59,11 +65,14 @@ class OptionData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public static function make(): static
     {
         return new static;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -79,6 +88,9 @@ class OptionData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

@@ -19,6 +19,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseRatingMorph extends BaseModel
 =======
 abstract class BaseRatingMorph extends Model
@@ -44,6 +45,9 @@ abstract class BaseRatingMorph extends Model
 =======
 abstract class BaseRatingMorph extends Model
 >>>>>>> 249a0067 (.)
+=======
+abstract class BaseRatingMorph extends Model
+>>>>>>> 5a14301c (.)
 {
     // Common properties and methods for rating morphs can be added here.
 }

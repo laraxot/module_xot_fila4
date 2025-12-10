@@ -13,9 +13,12 @@ use Filament\Actions\Action;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Set;
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -32,6 +35,9 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -45,6 +51,7 @@ class FieldRefreshAction extends Action
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,10 +71,13 @@ class FieldRefreshAction extends Action
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
             ->action(function ($state, Set $set, $record) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,11 +97,14 @@ class FieldRefreshAction extends Action
 =======
             ->action(function ($state, $set, $record) {
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
                 $name = $this->getName();
                 if ($name === null) {
                     return;
                 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117,12 +130,15 @@ class FieldRefreshAction extends Action
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
                 $method = 'get' . Str::studly($name) . '';
                 $value = $record->$method();
                 $set($name, $value);
                 Notification::make()
                     ->title('Ricalcolato ' . $name)
                     ->body('vecchio valore: ' . $state . ' nuovo valore: ' . $value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +186,8 @@ class FieldRefreshAction extends Action
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
                     ->success()
                     ->send();
             });
@@ -179,7 +197,11 @@ class FieldRefreshAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
 =======
     public static function getDefaultName(): null|string
 >>>>>>> 5a14301c (.)

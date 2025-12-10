@@ -22,6 +22,7 @@ namespace Modules\Xot\Exceptions\Formatters;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -81,6 +82,10 @@ use function Safe\json_encode;
 use function Safe\json_encode;
 =======
 >>>>>>> 71586de2 (.)
+=======
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+>>>>>>> 5a14301c (.)
 
 class WebhookErrorFormatter
 {

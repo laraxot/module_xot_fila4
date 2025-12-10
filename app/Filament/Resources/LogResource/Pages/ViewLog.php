@@ -16,6 +16,7 @@ namespace Modules\Xot\Filament\Resources\LogResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Infolists\Components\TextEntry;
 use Filament\Schemas\Components\Grid;
 use Filament\Schemas\Components\Section;
@@ -45,6 +46,8 @@ use Override;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 use Override;
 use Filament\Schemas\Components\Section;
@@ -55,6 +58,9 @@ use Modules\Xot\Filament\Resources\LogResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -89,6 +95,7 @@ class ViewLog extends XotBaseViewRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     /**
      * @return array<int, \Filament\Support\Components\Component>
@@ -135,10 +142,13 @@ class ViewLog extends XotBaseViewRecord
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     #[Override]
     protected function getInfolistSchema(): array
     {
         $log = $this->getRecord()->getModel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,6 +235,9 @@ class ViewLog extends XotBaseViewRecord
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        return [
+>>>>>>> 5a14301c (.)
             'log_info' => Section::make('Informazioni Log')->schema([
                 'log_grid' => Grid::make(['default' => 3])->schema([
                     'id' => TextEntry::make('id'),
@@ -234,6 +247,7 @@ class ViewLog extends XotBaseViewRecord
                     'channel' => TextEntry::make('channel'),
                     'datetime' => TextEntry::make('datetime')->dateTime(),
                     'context' => TextEntry::make('context')->formatStateUsing(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,6 +296,8 @@ class ViewLog extends XotBaseViewRecord
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
                         fn($state) => json_encode($state, JSON_PRETTY_PRINT),
                     ),
                     'extra' => TextEntry::make('extra')->formatStateUsing(
@@ -295,6 +311,7 @@ class ViewLog extends XotBaseViewRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
@@ -313,6 +330,8 @@ class ViewLog extends XotBaseViewRecord
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
                 ]),
             ]),
         ];

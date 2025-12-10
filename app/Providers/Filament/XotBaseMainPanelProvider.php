@@ -17,6 +17,7 @@ namespace Modules\Xot\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
@@ -61,6 +62,8 @@ use Nwidart\Modules\Facades\Module;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Exception;
 use Filament\Panel;
 use Filament\PanelProvider;
@@ -82,6 +85,7 @@ use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Modules\Xot\Actions\Filament\GetModulesNavigationItems;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,6 +260,8 @@ use Nwidart\Modules\Facades\Module;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 abstract class XotBaseMainPanelProvider extends PanelProvider
 {
@@ -271,8 +277,12 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! Module::has('Cms')) {
             // $panel->login(Login::class);
+=======
+        if (!Module::has('Cms')) {
+>>>>>>> 5a14301c (.)
 =======
         if (!Module::has('Cms')) {
 >>>>>>> 5a14301c (.)
@@ -292,6 +302,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 
         app(ApplyMetatagToPanelAction::class)->execute(panel: $panel);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -413,6 +424,9 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+        $panel = $panel
+>>>>>>> 5a14301c (.)
             ->discoverResources(
                 in: app_path('Filament/Resources'),
                 for: 'App\\Filament\\Resources',
@@ -429,6 +443,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
                 in: app_path('Filament/Widgets'),
                 for: 'App\\Filament\\Widgets',
             )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -537,6 +552,8 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
             ->widgets([
                 // Widgets\AccountWidget::class,
             ])
@@ -560,7 +577,11 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 5a14301c (.)
 =======
         
 >>>>>>> 5a14301c (.)

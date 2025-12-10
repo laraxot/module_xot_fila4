@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -11,6 +12,8 @@
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Colli di Bottiglia e Soluzioni - Modulo Xot
 
 ## Panoramica
@@ -719,6 +722,7 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -771,10 +775,13 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 >>>>>>> 3ae5e299 (.)
 =======
 >>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 5a14301c (.)
 * [BOTTLENECKS.md](../../../Xot/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../User/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Media/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Cms/docs/BOTTLENECKS.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -928,3 +935,6 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 =======
 
 >>>>>>> 03ceeac3 (.)
+=======
+
+>>>>>>> 5a14301c (.)

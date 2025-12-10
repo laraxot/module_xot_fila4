@@ -7,6 +7,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Tests\Feature;
 
 =======
@@ -998,13 +999,18 @@ use Tests\TestCase;
 =======
 >>>>>>> c2f6854c (.)
 =======
+=======
+>>>>>>> 5a14301c (.)
 namespace Modules\Xot\Tests\Feature;
 
 use Illuminate\Database\Eloquent\Relations\Pivot;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\BaseMorphPivot;
 use Tests\TestCase;
+<<<<<<< HEAD
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 class BaseMorphPivotBusinessLogicTest extends TestCase
 {
@@ -1020,6 +1026,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1039,6 +1046,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
 
         // Assert
         $this->assertInstanceOf(Pivot::class, $pivot);
@@ -1054,6 +1064,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1073,6 +1084,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->morph_type = 'App\Models\User';
 
         // Act
@@ -1092,6 +1106,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1111,6 +1126,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->morph_id = 123;
 
         // Act
@@ -1130,6 +1148,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1149,6 +1168,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->related_type = 'App\Models\Post';
 
         // Act
@@ -1168,6 +1190,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1187,6 +1210,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->related_id = 456;
 
         // Act
@@ -1206,6 +1232,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1225,6 +1252,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->setAttribute('custom_field', 'custom_value');
         $pivot->setAttribute('numeric_field', 42);
 
@@ -1247,6 +1277,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1266,6 +1297,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $now = now();
         $pivot->created_at = $now;
         $pivot->updated_at = $now;
@@ -1289,6 +1323,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1308,6 +1343,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $deletedAt = now();
         $pivot->deleted_at = $deletedAt;
 
@@ -1328,6 +1366,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1347,6 +1386,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->tenant_id = 789;
 
         // Act
@@ -1366,6 +1408,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1385,6 +1428,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->user_id = 101;
 
         // Act
@@ -1411,6 +1457,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1430,6 +1477,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->metadata = $metadata;
 
         // Act
@@ -1461,6 +1511,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1480,6 +1531,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->extra_data = $extraData;
 
         // Act
@@ -1502,6 +1556,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1521,6 +1576,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->status = 'active';
 
         // Act
@@ -1540,6 +1598,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1559,6 +1618,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->priority = 5;
 
         // Act
@@ -1578,6 +1640,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1597,6 +1660,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->sort_order = 10;
 
         // Act
@@ -1616,6 +1682,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1635,6 +1702,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $expiresAt = now()->addDays(30);
         $pivot->expires_at = $expiresAt;
 
@@ -1655,6 +1725,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1674,6 +1745,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $startsAt = now()->addHours(2);
         $pivot->starts_at = $startsAt;
 
@@ -1694,6 +1768,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1713,6 +1788,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $endsAt = now()->addDays(7);
         $pivot->ends_at = $endsAt;
 
@@ -1733,6 +1811,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1752,6 +1831,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->is_active = true;
 
         // Act
@@ -1777,6 +1859,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1796,6 +1879,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->is_public = false;
 
         // Act
@@ -1821,6 +1907,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1840,6 +1927,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->is_featured = false;
 
         // Act
@@ -1867,6 +1957,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1886,6 +1977,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->tags = $tags;
 
         // Act
@@ -1911,6 +2005,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1930,6 +2025,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->categories = $categories;
 
         // Act
@@ -1958,6 +2056,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -1977,6 +2076,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->permissions = $permissions;
 
         // Act
@@ -2005,6 +2107,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2024,6 +2127,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->settings = $settings;
 
         // Act
@@ -2048,6 +2154,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2067,6 +2174,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->notes = $notes;
 
         // Act
@@ -2088,6 +2198,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2107,6 +2218,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->description = $description;
 
         // Act
@@ -2128,6 +2242,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2147,6 +2262,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->url = $url;
 
         // Act
@@ -2168,6 +2286,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2187,6 +2306,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->image_url = $imageUrl;
 
         // Act
@@ -2208,6 +2330,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2227,6 +2350,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->external_id = $externalId;
 
         // Act
@@ -2248,6 +2374,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2267,6 +2394,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->source = $source;
 
         // Act
@@ -2288,6 +2418,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2307,6 +2438,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->version = $version;
 
         // Act
@@ -2328,6 +2462,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2347,6 +2482,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->hash = $hash;
 
         // Act
@@ -2368,6 +2506,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2387,6 +2526,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->checksum = $checksum;
 
         // Act
@@ -2408,6 +2550,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2427,6 +2570,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->size = $size;
 
         // Act
@@ -2448,6 +2594,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2467,6 +2614,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->mime_type = $mimeType;
 
         // Act
@@ -2488,6 +2638,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2507,6 +2658,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->encoding = $encoding;
 
         // Act
@@ -2528,6 +2682,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2547,6 +2702,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->language = $language;
 
         // Act
@@ -2568,6 +2726,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2587,6 +2746,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->locale = $locale;
 
         // Act
@@ -2608,6 +2770,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2627,6 +2790,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->timezone = $timezone;
 
         // Act
@@ -2648,6 +2814,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2667,6 +2834,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->currency = $currency;
 
         // Act
@@ -2688,6 +2858,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2707,6 +2878,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->decimal_places = $decimalPlaces;
 
         // Act
@@ -2728,6 +2902,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pivot = new BaseMorphPivot;
 =======
         $pivot = new BaseMorphPivot();
@@ -2747,6 +2922,9 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
         $pivot = new BaseMorphPivot;
 >>>>>>> 249a0067 (.)
+=======
+        $pivot = new BaseMorphPivot();
+>>>>>>> 5a14301c (.)
         $pivot->rounding_mode = $roundingMode;
 
         // Act
@@ -2756,6 +2934,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
         $this->assertEquals($roundingMode, $pivotRoundingMode);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2773,3 +2952,5 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)

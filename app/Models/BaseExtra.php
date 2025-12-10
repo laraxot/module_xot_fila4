@@ -41,6 +41,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -205,6 +206,14 @@ use Modules\Xot\Contracts\ExtraContract;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+use Override;
+use Modules\Xot\Database\Factories\ExtraFactory;
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Contracts\ExtraContract;
+>>>>>>> 5a14301c (.)
 use Spatie\SchemalessAttributes\Casts\SchemalessAttributes;
 use Spatie\SchemalessAttributes\SchemalessAttributesTrait;
 use Webmozart\Assert\Assert;
@@ -216,9 +225,15 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int $id
  * @property int|null $model_id
  * @property string|null $model_type
+=======
+ * @property int                                               $id
+ * @property int|null                                          $model_id
+ * @property string|null                                       $model_type
+>>>>>>> 5a14301c (.)
 =======
  * @property int                                               $id
  * @property int|null                                          $model_id
@@ -255,11 +270,14 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property string|null $updated_by
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -273,6 +291,9 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -308,6 +329,7 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
         'extra_attributes',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -386,6 +408,14 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
 =======
 >>>>>>> 5a14301c (.)
 =======
+>>>>>>> 5a14301c (.)
+=======
+    public function scopeWithExtraAttributes(): Builder
+    {
+        Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
+
+        return $this->extra_attributes->modelScope();
+    }
 >>>>>>> 5a14301c (.)
 
     /**

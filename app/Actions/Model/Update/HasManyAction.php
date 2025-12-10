@@ -20,6 +20,7 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -55,6 +56,8 @@ use InvalidArgumentException;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -62,6 +65,9 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -106,7 +112,11 @@ class HasManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed> $data
 >>>>>>> 5a14301c (.)
@@ -147,6 +157,7 @@ class HasManyAction
 
         foreach ($relationDTO->data as $item) {
             Assert::isArray($item);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,6 +408,9 @@ class HasManyAction
 =======
             if (! isset($item[$keyName])) {
 >>>>>>> 71586de2 (.)
+=======
+            if (!isset($item[$keyName])) {
+>>>>>>> 5a14301c (.)
                 continue;
             }
 
@@ -425,7 +439,11 @@ class HasManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<int|string>  $updatedIds
+=======
+     * @param array<int|string> $updatedIds
+>>>>>>> 5a14301c (.)
 =======
      * @param array<int|string> $updatedIds
 >>>>>>> 5a14301c (.)

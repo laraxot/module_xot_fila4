@@ -11,6 +11,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /**
 <<<<<<< HEAD
@@ -60,11 +61,17 @@ use Illuminate\Support\Str;
  * Helper per la gestione dei percorsi nel progetto SaluteOra.
  */
 >>>>>>> 5a14301c (.)
+=======
+/**
+ * Helper per la gestione dei percorsi nel progetto SaluteOra.
+ */
+>>>>>>> 5a14301c (.)
 class PathHelper
 {
     /**
      * Percorso base del progetto.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,20 +313,26 @@ class PathHelper
      * @var string
 >>>>>>> origin/develop
      */
+=======
+>>>>>>> 5a14301c (.)
     public static string $projectBasePath = '/var/www/html/saluteora';
 
     /**
      * Percorso base di Laravel.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      *
      * @var string
 >>>>>>> origin/develop
+=======
+>>>>>>> 5a14301c (.)
      */
     public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 
     /**
      * Percorso base dei moduli.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
 <<<<<<< HEAD
@@ -420,6 +433,10 @@ class PathHelper
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+     */
+    public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
+>>>>>>> 5a14301c (.)
 
     /**
      * Ottiene il percorso completo di un modulo.
@@ -433,7 +450,11 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self::$modulesBasePath.'/'.$moduleName;
+=======
+        return self::$modulesBasePath . '/' . $moduleName;
+>>>>>>> 5a14301c (.)
 =======
         return self::$modulesBasePath . '/' . $moduleName;
 >>>>>>> 5a14301c (.)
@@ -460,7 +481,11 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self::modulePath($moduleName).'/app/Models';
+=======
+        return self::modulePath($moduleName) . '/app/Models';
+>>>>>>> 5a14301c (.)
 =======
         return self::modulePath($moduleName) . '/app/Models';
 >>>>>>> 5a14301c (.)
@@ -487,7 +512,11 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self::modulePath($moduleName).'/database/migrations';
+=======
+        return self::modulePath($moduleName) . '/database/migrations';
+>>>>>>> 5a14301c (.)
 =======
         return self::modulePath($moduleName) . '/database/migrations';
 >>>>>>> 5a14301c (.)
@@ -514,7 +543,11 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self::modulePath($moduleName).'/database/seeders';
+=======
+        return self::modulePath($moduleName) . '/database/seeders';
+>>>>>>> 5a14301c (.)
 =======
         return self::modulePath($moduleName) . '/database/seeders';
 >>>>>>> 5a14301c (.)
@@ -541,7 +574,11 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self::modulePath($moduleName).'/app/Http/Controllers';
+=======
+        return self::modulePath($moduleName) . '/app/Http/Controllers';
+>>>>>>> 5a14301c (.)
 =======
         return self::modulePath($moduleName) . '/app/Http/Controllers';
 >>>>>>> 5a14301c (.)
@@ -568,7 +605,11 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self::modulePath($moduleName).'/app/Filament/Resources';
+=======
+        return self::modulePath($moduleName) . '/app/Filament/Resources';
+>>>>>>> 5a14301c (.)
 =======
         return self::modulePath($moduleName) . '/app/Filament/Resources';
 >>>>>>> 5a14301c (.)
@@ -595,7 +636,11 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self::modulePath($moduleName).'/app/Providers';
+=======
+        return self::modulePath($moduleName) . '/app/Providers';
+>>>>>>> 5a14301c (.)
 =======
         return self::modulePath($moduleName) . '/app/Providers';
 >>>>>>> 5a14301c (.)
@@ -622,7 +667,11 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self::modulePath($moduleName).'/resources/views';
+=======
+        return self::modulePath($moduleName) . '/resources/views';
+>>>>>>> 5a14301c (.)
 =======
         return self::modulePath($moduleName) . '/resources/views';
 >>>>>>> 5a14301c (.)
@@ -646,6 +695,7 @@ class PathHelper
     public static function isValidPath(string $path): bool
     {
         // Verifica che il percorso contenga /laravel/Modules/ e non solo /Modules/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -942,12 +992,15 @@ class PathHelper
 >>>>>>> 17684f52 (.)
 >>>>>>> a12f125f4a (.)
 =======
+=======
+>>>>>>> 5a14301c (.)
         if (Str::contains($path, '/saluteora/Modules/')) {
             return false;
         }
 
         // Verifica che il percorso contenga /laravel/ dopo /saluteora/
         if (Str::contains($path, '/saluteora/') && !Str::contains($path, '/saluteora/laravel/')) {
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -1075,6 +1128,8 @@ class PathHelper
 =======
         if (Str::contains($path, '/saluteora/') && ! Str::contains($path, '/saluteora/laravel/')) {
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
             return false;
         }
 
@@ -1089,6 +1144,7 @@ class PathHelper
      */
     public static function correctPath(string $path): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1271,10 +1327,16 @@ class PathHelper
         if (Str::contains($path, '/saluteora/Modules/')) {
             return str_replace('/saluteora/Modules/', '/saluteora/laravel/Modules/', $path);
 >>>>>>> 71586de2 (.)
+=======
+        // Corregge /var/www/html/saluteora/Modules/ in /var/www/html/saluteora/laravel/Modules/
+        if (Str::contains($path, '/saluteora/Modules/')) {
+            return str_replace('/saluteora/Modules/', '/saluteora/laravel/Modules/', $path);
+>>>>>>> 5a14301c (.)
         }
 
         // Corregge /var/www/html/Modules/ in /var/www/html/saluteora/laravel/Modules/
         if (Str::contains($path, '/var/www/html/Modules/')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1545,6 +1607,9 @@ class PathHelper
 =======
             return str_replace('/var/www/html/Modules/', '/var/www/html/saluteora/laravel/Modules/', $path);
 >>>>>>> 71586de2 (.)
+=======
+            return str_replace('/var/www/html/Modules/', '/var/www/html/saluteora/laravel/Modules/', $path);
+>>>>>>> 5a14301c (.)
         }
 
         return $path;
@@ -1563,7 +1628,11 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! File::exists($modulesPath)) {
+=======
+        if (!File::exists($modulesPath)) {
+>>>>>>> 5a14301c (.)
 =======
         if (!File::exists($modulesPath)) {
 >>>>>>> 5a14301c (.)

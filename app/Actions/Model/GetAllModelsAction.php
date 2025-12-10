@@ -54,6 +54,7 @@ use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -156,6 +157,8 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetAllModelsAction
@@ -164,6 +167,7 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,6 +250,8 @@ class GetAllModelsAction
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> b956ebe0 (.)
+=======
+>>>>>>> 5a14301c (.)
      */
     public function execute(): array
     {
@@ -254,6 +260,7 @@ class GetAllModelsAction
         foreach ($modules as $module) {
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($module->getName());
             $res = array_merge($res, $tmp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -544,6 +551,8 @@ class GetAllModelsAction
 =======
             $res = array_merge($res, $tmp);
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
         }
 
         return $res;

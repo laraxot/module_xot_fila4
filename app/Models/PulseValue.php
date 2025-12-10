@@ -13,9 +13,12 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property string $id
  * @property int $timestamp
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -33,6 +36,9 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -44,6 +50,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $key
  * @property string|null $key_hash
  * @property string $value
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +157,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
  * @method static Builder|PulseValue whereId($value)
  * @method static Builder|PulseValue whereKey($value)
  * @method static Builder|PulseValue whereKeyHash($value)
@@ -157,6 +166,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder|PulseValue whereType($value)
  * @method static Builder|PulseValue whereValue($value)
  * @mixin IdeHelperPulseValue
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,6 +213,8 @@ use Illuminate\Database\Eloquent\Builder;
 =======
  * @mixin IdeHelperPulseValue
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

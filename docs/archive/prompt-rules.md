@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,6 +14,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 # Regole per i Prompt
 
 ## Regola Universale
@@ -46,6 +49,7 @@ La documentazione del frontend deve essere sempre inserita nella cartella `docs`
 La documentazione generica deve essere sempre inserita nella cartella `docs` del modulo `Xot`.
 
 ### Collocazione della documentazione dei componenti UI
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +224,10 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
+=======
+La documentazione dei componenti UI deve essere sempre inserita nella cartella `docs` del modulo `UI`. Vedi [ui-link.md](../UI/docs/README.md) per i dettagli.
+
+>>>>>>> 5a14301c (.)
 ## Collegamenti Bidirezionali
 - [Documentazione Generale](./documentation.md)
 - [Regole del Progetto](./rules.md)
@@ -246,6 +254,9 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -257,6 +268,7 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 ## Collegamenti tra versioni di PROMPT_RULES.md
 * [PROMPT_RULES.md](../../../Xot/docs/PROMPT_RULES.md)
 * [PROMPT_RULES.md](../../../Xot/docs/rules/PROMPT_RULES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,11 +386,14 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 
 
 ## Collegamenti tra versioni di prompt_rules.md
 * [prompt_rules.md](rules/prompt_rules.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,3 +444,5 @@ La documentazione dei componenti UI deve essere sempre inserita nella cartella `
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)

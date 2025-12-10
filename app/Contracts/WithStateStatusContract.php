@@ -20,6 +20,7 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Spatie\ModelStates\State;
 =======
@@ -65,6 +66,10 @@ use Spatie\ModelStates\State;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+use Spatie\ModelStates\State;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
+=======
 use Spatie\ModelStates\State;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 5a14301c (.)
@@ -90,7 +95,13 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface WithStateStatusContract {}
+=======
+interface WithStateStatusContract
+{
+}
+>>>>>>> 5a14301c (.)
 =======
 interface WithStateStatusContract
 {

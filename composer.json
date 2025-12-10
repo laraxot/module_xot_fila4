@@ -43,7 +43,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "predis/predis": "*",
+=======
+        "predis/predis": "^2.2",
+>>>>>>> 5a14301c (.)
 =======
         "predis/predis": "^2.2",
 >>>>>>> 5a14301c (.)
@@ -131,11 +135,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "autoload-dev": {
         "psr-4": {
             "Modules\\Xot\\Tests\\": "tests/"
         }
     },
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======

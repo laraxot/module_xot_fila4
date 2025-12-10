@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,6 +14,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 # Sistema di Traduzione 
 
 ## Regola Fondamentale: NO ->label()
@@ -270,6 +273,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 <<<<<<< HEAD
 =======
@@ -383,3 +387,6 @@ php artisan view:clear
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
+=======
+- [Schema Conventions](../project_docs/schema-conventions.md) 
+>>>>>>> 5a14301c (.)

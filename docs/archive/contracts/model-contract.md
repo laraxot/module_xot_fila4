@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 6e7c1905 (.)
 =======
 >>>>>>> 334816e8 (.)
+=======
+>>>>>>> 5a14301c (.)
 # ModelContract
 
 ## Descrizione
@@ -63,6 +66,7 @@ interface ModelContract
 ## Collegamenti
 - [Model Guidelines](../models/README.md)
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,3 +140,7 @@ interface ModelContract
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
 - [Contracts Overview](./README.md) 
 >>>>>>> 334816e8 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 5a14301c (.)

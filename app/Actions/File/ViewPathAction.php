@@ -23,6 +23,7 @@ class ViewPathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename(static::class).']',
         );
         $res = $ns_dir.'/'.$group_dir.'.blade.php';
@@ -243,6 +244,11 @@ class ViewPathAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+            '[' . __LINE__ . '][' . class_basename(static::class) . ']',
+        );
+        $res = $ns_dir . '/' . $group_dir . '.blade.php';
+>>>>>>> 5a14301c (.)
 
         return app(FixPathAction::class)->execute($res);
     }

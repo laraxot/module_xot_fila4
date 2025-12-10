@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -158,6 +159,8 @@
 >>>>>>> 03ceeac3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Regole per le Risorse Filament in 
 
 ## Panoramica
@@ -167,6 +170,7 @@ Questo documento definisce le regole fondamentali per l'implementazione delle ri
 ## Estensione di XotBaseResource
 
 Tutte le risorse Filament in  **DEVONO** estendere `Modules\Xot\Filament\Resources\XotBaseResource` invece di `Filament\Resources\Resource`. Questa classe base personalizzata fornisce funzionalità specifiche per il progetto e garantisce coerenza in tutta l'applicazione.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +399,8 @@ Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\F
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 5a14301c (.)
 # Regole per le Risorse Filament in SaluteOra
 
 ## Panoramica
@@ -404,6 +410,7 @@ Questo documento definisce le regole fondamentali per l'implementazione delle ri
 ## Estensione di XotBaseResource
 
 Tutte le risorse Filament in SaluteOra **DEVONO** estendere `Modules\Xot\Filament\Resources\XotBaseResource` invece di `Filament\Resources\Resource`. Questa classe base personalizzata fornisce funzionalità specifiche per il progetto e garantisce coerenza in tutta l'applicazione.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,6 +510,8 @@ Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\F
 >>>>>>> 03ceeac3 (.)
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ```php
 // ✅ CORRETTO
@@ -548,6 +557,7 @@ public static function getModelLabel(): string
 ### Metodi di Tabella
 
 ```php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -639,6 +649,11 @@ public static function getListTableColumns(): array
 public static function table(Table $table): Table
 public static function getListTableColumns(): array
 >>>>>>> 03ceeac3 (.)
+=======
+// ❌ NON DICHIARARE QUESTI METODI
+public static function table(Table $table): Table
+public static function getListTableColumns(): array
+>>>>>>> 5a14301c (.)
 ```
 
 ## Cosa Dichiarare
@@ -766,6 +781,7 @@ class DoctorResource extends XotBaseResource
 
 ## Documentazione Correlata
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -983,3 +999,8 @@ class DoctorResource extends XotBaseResource
 - [Gestione delle Traduzioni](/docs/translation-management.md)
 - [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
 >>>>>>> 03ceeac3 (.)
+=======
+- [Filament Form Builder](/docs/filament-form-builder.md)
+- [Gestione delle Traduzioni](/docs/translation-management.md)
+- [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
+>>>>>>> 5a14301c (.)

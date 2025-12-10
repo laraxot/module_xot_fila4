@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura Traduzioni Espansa - Modulo Xot
 
 ## Scopo
@@ -163,6 +164,13 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 >>>>>>> e7da37af (.)
 =======
 >>>>>>> 55fe1822 (.)
+=======
+# Struttura Traduzioni Espansa - Modulo Xot
+
+## Scopo
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto .
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> 5a14301c (.)
 
 ## Problema Identificato
 Il file di traduzione spagnolo `/lang/es/labels.php` contiene alcune strutture che potrebbero beneficiare della struttura espansa, specialmente per campi geografici come "province".
@@ -350,6 +358,7 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 399f46d3 (.)
 =======
@@ -467,12 +476,15 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 =======
 =======
 >>>>>>> e7da37af (.)
+=======
+>>>>>>> 5a14301c (.)
 - [Struttura Traduzioni Espansa](/docs/translation-structure-expanded.md)
 - [Principi DRY/KISS](/docs/dry-kiss-principles.md)
 
 ### Documentazione Moduli Correlati
 - [Geo Module Translations](/Modules/Geo/docs/translation-structure-expanded.md)
 - [User Module Translations](/Modules/User/docs/translation-guidelines.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,6 +565,8 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 >>>>>>> e7da37af (.)
 =======
 >>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ### File di Implementazione
 - `lang/es/labels.php` - Etichette generali spagnole
@@ -585,6 +599,7 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -597,3 +612,5 @@ Il file attuale contiene principalmente etichette generali per l'interfaccia amm
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)

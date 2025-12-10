@@ -20,6 +20,7 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Fidum\EloquentMorphToOne\MorphToOne;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
@@ -55,6 +56,8 @@ use InvalidArgumentException;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use InvalidArgumentException;
 use Fidum\EloquentMorphToOne\MorphToOne;
 use Illuminate\Database\Eloquent\Model;
@@ -62,6 +65,9 @@ use Illuminate\Support\Facades\App;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -91,8 +97,13 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Model  $model  The parent model
      * @param  RelationDTO  $relationDTO  Data transfer object containing relationship information
+=======
+     * @param Model       $model       The parent model
+     * @param RelationDTO $relationDTO Data transfer object containing relationship information
+>>>>>>> 5a14301c (.)
 =======
      * @param Model       $model       The parent model
      * @param RelationDTO $relationDTO Data transfer object containing relationship information
@@ -132,7 +143,12 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data  The input data array
+=======
+     * @param array<string, mixed> $data The input data array
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param array<string, mixed> $data The input data array
      *
@@ -191,6 +207,7 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! isset($data['lang'])) {
 =======
         if (!isset($data['lang'])) {
@@ -404,6 +421,9 @@ class MorphToOneAction
 =======
         if (! isset($data['lang'])) {
 >>>>>>> 71586de2 (.)
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 5a14301c (.)
             $data['lang'] = App::getLocale();
         }
 
@@ -445,6 +465,7 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
         return array_filter($data, static fn ($value) => $value !== null);
@@ -658,5 +679,8 @@ class MorphToOneAction
 =======
         return array_filter($data, static fn ($value) => $value !== null);
 >>>>>>> 71586de2 (.)
+=======
+        return array_filter($data, static fn($value) => null !== $value);
+>>>>>>> 5a14301c (.)
     }
 }

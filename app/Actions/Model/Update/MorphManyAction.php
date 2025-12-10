@@ -56,6 +56,7 @@ class MorphManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -66,10 +67,13 @@ class MorphManyAction
 >>>>>>> 73eab74 (.)
 =======
 >>>>>>> 300ef70 (.)
+=======
+>>>>>>> 5a14301c (.)
         if ([] === $relationDTO->data) {
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model
             $model->{$relationDTO->name}()->saveMany($relationDTO->data);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -462,6 +466,12 @@ class MorphManyAction
 
 =======
 >>>>>>> 249a0067 (.)
+=======
+
+            return;
+        }
+
+>>>>>>> 5a14301c (.)
         $related = $relationDTO->related;
         $keyName = $related->getKeyName();
         $models = [];
@@ -474,6 +484,7 @@ class MorphManyAction
                  * $row = $related->firstOrCreate([$keyName => $related_id]);
                  * $res = app(\Modules\Xot\Actions\Model\UpdateAction::class)->execute($row, $data, []);
                  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -804,6 +815,9 @@ class MorphManyAction
                 $safeData = $data;
                 $res = app(UpdateAction::class)->execute($related, $safeData, []);
 >>>>>>> 249a0067 (.)
+=======
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+>>>>>>> 5a14301c (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {
@@ -811,6 +825,7 @@ class MorphManyAction
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1104,6 +1119,9 @@ class MorphManyAction
         $model->{$relationDTO->name}()->saveMany($models);
 =======
 >>>>>>> 249a0067 (.)
+=======
+        $model->{$relationDTO->name}()->saveMany($models);
+>>>>>>> 5a14301c (.)
 
         // dddx(['model' => $model, 'relationDTO' => $relationDTO]);
     }

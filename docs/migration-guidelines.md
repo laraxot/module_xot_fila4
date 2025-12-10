@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -11,6 +12,8 @@
 >>>>>>> 5bd842e3 (.)
 =======
 >>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Migration Guidelines for Project Modules
 
 ## Overview
@@ -48,6 +51,7 @@ return new class extends XotBaseMigration
 ```
 
 ## Related Documentation
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,10 +123,13 @@ return new class extends XotBaseMigration
 >>>>>>> 3ae5e299 (.)
 =======
 >>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 5a14301c (.)
 - [User Module Database Errors](../../User/docs/DATABASE_ERRORS.md)
 - [Xot Base Classes](../XOT_BASE_CLASSES.md)
 - [Code Quality](../CODE_QUALITY.md)
 - [Root Documentation](../../../../docs/collegamenti-documentazione.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,3 +283,6 @@ return new class extends XotBaseMigration
 =======
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 >>>>>>> 03ceeac3 (.)
+=======
+- [Database Guidelines](../DATABASE_GUIDELINES.md)
+>>>>>>> 5a14301c (.)

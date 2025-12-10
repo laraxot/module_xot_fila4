@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 90d386aa (.)
 =======
 >>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> 5a14301c (.)
 # ErrorFormatterContract
 
 ## Descrizione
@@ -55,6 +58,7 @@ interface ErrorFormatterContract
 ## Collegamenti
 - [Error Handling Guidelines](../EXCEPTION-HANDLING-GUIDE.md)
 - [Error Formatters](../exceptions/formatters/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,3 +126,6 @@ interface ErrorFormatterContract
 =======
 - [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
 >>>>>>> 3eee6f79 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 5a14301c (.)

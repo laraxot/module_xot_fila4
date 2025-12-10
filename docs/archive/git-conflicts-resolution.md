@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -35,11 +36,14 @@
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Risoluzione Conflitti Git - 6 Gennaio 2025
 
 ## Data: 2025-01-06
 
 ## Contesto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +177,9 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto , c
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 55fe1822 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 5a14301c (.)
 
 ## File Corretti
 
@@ -287,6 +294,7 @@ $res=Locality::query()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -383,6 +391,9 @@ $res=Locality::query()
 =======
 
 >>>>>>> 55fe1822 (.)
+=======
+
+>>>>>>> 5a14301c (.)
 ### 2. Validazione PHPStan
 ```bash
 cd laravel
@@ -416,6 +427,7 @@ php artisan lang:check
 ## Documentazione Aggiornata
 
 ### Modulo Geo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -636,6 +648,16 @@ php artisan lang:check
 - [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
 
 >>>>>>> 55fe1822 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
+
+### Modulo User
+- [Theme Translation Conflicts](laravel/Modules/User/docs/theme-translation-conflicts-resolution.md)
+
+### Modulo Xot
+- [Git Conflicts Resolution](laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> 5a14301c (.)
 ## Best Practices Applicate
 
 ### 1. Gestione Conflitti
@@ -708,6 +730,9 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -721,6 +746,7 @@ php artisan lang:check
 - [Translation Standards](../../docs/translation-standards.md)
 - [PHPStan Guidelines](../../docs/phpstan_usage.md)
 - [Git Best Practices](../../docs/git-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -906,10 +932,14 @@ php artisan lang:check
 - [Git Best Practices](../../project_docs/git-best-practices.md)
 
 >>>>>>> 55fe1822 (.)
+=======
+
+>>>>>>> 5a14301c (.)
 ---
 
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -965,3 +995,6 @@ php artisan lang:check
 =======
 **Stato**: ✅ Completato
 >>>>>>> cc52d333 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)

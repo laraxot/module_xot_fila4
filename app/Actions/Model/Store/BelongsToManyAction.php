@@ -43,6 +43,7 @@ class BelongsToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
             $status = 'collegati ['.implode(', ', $to).'] ';
@@ -323,6 +324,9 @@ class BelongsToManyAction
 =======
             $status = 'collegati ['.implode(', ', $to).'] ';
 >>>>>>> 71586de2 (.)
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+>>>>>>> 5a14301c (.)
             Session::flash('status', $status);
 
             return;

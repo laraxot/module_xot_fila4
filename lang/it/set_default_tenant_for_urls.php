@@ -6,6 +6,10 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a14301c (.)
 =======
 
 >>>>>>> 5a14301c (.)
@@ -22,6 +26,7 @@ return [
     'actions' => [
         'authenticate' => [
             'label' => 'authenticate',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +50,8 @@ return [
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         ],
         'login' => [
             'label' => 'login',
@@ -54,6 +61,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -84,6 +94,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hidePassword' => [
             'icon' => 'hidePassword',
             'label' => 'hidePassword',
@@ -94,6 +105,8 @@ return [
             'label' => 'showPassword',
             'tooltip' => 'showPassword',
         ],
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -346,7 +359,11 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             [
+=======
+            4 => [
+>>>>>>> 5a14301c (.)
 =======
             4 => [
 >>>>>>> 5a14301c (.)

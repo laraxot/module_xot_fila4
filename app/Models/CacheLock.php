@@ -10,6 +10,10 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> 5a14301c (.)
 =======
 use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5a14301c (.)
@@ -28,6 +32,7 @@ use Modules\Xot\Contracts\ProfileContract;
  *
  * @property string $key
  * @property string $owner
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +91,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
  * @property int    $expiration
  * @method static CacheLockFactory factory($count = null, $state = [])
  * @method static Builder|CacheLock newModelQuery()
@@ -105,6 +112,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @mixin IdeHelperCacheLock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +154,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
  * @mixin \Eloquent
  */
 class CacheLock extends BaseModel

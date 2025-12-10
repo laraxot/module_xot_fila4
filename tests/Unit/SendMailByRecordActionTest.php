@@ -39,6 +39,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -151,6 +152,8 @@ it('throws if record has no email', function (): void {
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Illuminate\Mail\Mailable;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
@@ -159,6 +162,7 @@ it('throws if record has no email', function (): void {
     $record = new class extends Model {
         // no email attribute
         public function option(string $key): null|string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,10 +184,13 @@ it('throws if record has no email', function (): void {
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
         {
             return null;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,6 +221,10 @@ it('throws if record has no email', function (): void {
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+        public function myLogs()
+        {
+>>>>>>> 5a14301c (.)
             return new class {
                 public function create(array $data): void
                 {
@@ -221,6 +232,9 @@ it('throws if record has no email', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -232,6 +246,7 @@ it('throws if record has no email', function (): void {
         }
     };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -471,5 +486,8 @@ namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 =======
     expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
 >>>>>>> 71586de2 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 5a14301c (.)
         ->toThrow(InvalidArgumentException::class);
 });

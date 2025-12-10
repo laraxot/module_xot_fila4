@@ -41,6 +41,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -87,6 +88,8 @@ use Override;
 <<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Filament\Schemas\Components\Component;
 use Override;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\ListCacheLocks;
@@ -99,6 +102,7 @@ use Modules\Xot\Models\CacheLock;
 
 class CacheLockResource extends XotBaseResource
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected static null|string $model = CacheLock::class;
 <<<<<<< HEAD
@@ -587,6 +591,9 @@ class CacheLockResource extends XotBaseResource
 =======
     protected static ?string $model = CacheLock::class;
 >>>>>>> 71586de2 (.)
+=======
+    protected static null|string $model = CacheLock::class;
+>>>>>>> 5a14301c (.)
 
     /**
      * Get the form schema for the resource.

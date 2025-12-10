@@ -19,29 +19,9 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 399f46d3 (.)
-=======
->>>>>>> ca9324a4 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
->>>>>>> 17684f52 (.)
-=======
->>>>>>> 9db27d12 (.)
-=======
 =======
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
@@ -62,6 +42,30 @@ namespace Modules\Xot\Models;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> 5a14301c (.)
+=======
 use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5a14301c (.)
 =======
@@ -81,10 +85,13 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property string $id
  * @property int $bucket
  * @property int $period
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -103,6 +110,9 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -115,6 +125,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string|null $key_hash
  * @property string $aggregate
  * @property string $value
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,6 +186,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
  * @property int|null    $count
  * @method static Builder|PulseAggregate whereAggregate($value)
  * @method static Builder|PulseAggregate whereBucket($value)
@@ -186,6 +199,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder|PulseAggregate whereType($value)
  * @method static Builder|PulseAggregate whereValue($value)
  * @mixin IdeHelperPulseAggregate
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,6 +250,8 @@ use Illuminate\Database\Eloquent\Builder;
 =======
  * @mixin IdeHelperPulseAggregate
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
  * @mixin \Eloquent
  */
 class PulseAggregate extends BaseModel

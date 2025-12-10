@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,6 +14,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 ---
 title: Customizing Your Site
 description: Customizing your Jigsaw docs site
@@ -85,6 +88,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -125,10 +129,13 @@ Here’s a quick preview of what some of the basic type styles will look like in
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
 ##### h5 Heading
+<<<<<<< HEAD
 >>>>>>> a5dccfe (.)
 
 >>>>>>> 6821f7a (.)
@@ -218,6 +225,8 @@ Here’s a quick preview of what some of the basic type styles will look like in
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 
 ## h2 Heading
 
@@ -289,6 +298,7 @@ class Foo extends bar
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -325,3 +335,5 @@ class Foo extends bar
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)

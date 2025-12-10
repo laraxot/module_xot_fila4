@@ -4,12 +4,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Testing Guidelines - Modulo Xot
 
 ## Framework di Testing: Pest
@@ -715,9 +718,12 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [<nome progetto> Testing Guidelines](../../<nome progetto>/project_docs/testing.md)
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -729,6 +735,7 @@ test('no memory leaks in repeated operations', function (): void {
 - [Cms Testing Guidelines](../../Cms/docs/testing.md)
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -874,6 +881,8 @@ test('no memory leaks in repeated operations', function (): void {
 - [Root Testing Organization](../../../project_docs/testing-organization.md)
 - [SaluteOra Testing Guidelines](../../SaluteOra/project_docs/testing.md)
 >>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
 - [Cms Testing Guidelines](../../Cms/project_docs/testing.md)
 
 ### Framework Documentation
@@ -894,6 +903,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -906,3 +916,5 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)

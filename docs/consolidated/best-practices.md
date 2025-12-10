@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -75,6 +76,8 @@
 <<<<<<< HEAD
 =======
 >>>>>>> 6d05deed (.)
+=======
+>>>>>>> 5a14301c (.)
 # Best Practices per Laraxot
 
 ## Riferimenti al modello User
@@ -143,6 +146,7 @@ public function process(\Modules\User\Models\User $user) {
     // Codice
 }
 ``` 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,6 +233,8 @@ public function process(\Modules\User\Models\User $user) {
 >>>>>>> 55fe1822 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -963,6 +969,7 @@ public function createModel(array $data): MioModello
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -1070,3 +1077,5 @@ public function process(\Modules\User\Models\User $user) {
 }
 ``` 
 >>>>>>> 6d05deed (.)
+=======
+>>>>>>> 5a14301c (.)

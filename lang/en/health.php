@@ -11,6 +11,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -224,6 +225,9 @@ declare(strict_types=1);
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+
+>>>>>>> 5a14301c (.)
 return [
     'pages' => [
         'health_check_results' => [

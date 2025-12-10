@@ -91,6 +91,7 @@ it('casts objects', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
 =======
@@ -173,6 +174,9 @@ it('casts objects', function (): void {
 =======
     $result = $this->action->execute(new stdClass());
 >>>>>>> 9db27d12 (.)
+=======
+    $result = $this->action->execute(new stdClass());
+>>>>>>> 5a14301c (.)
     expect($result)->toBe(0.0)->toBeFloat();
 });
 

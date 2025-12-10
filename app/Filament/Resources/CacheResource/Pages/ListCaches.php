@@ -9,6 +9,7 @@ use Filament\Actions\Action;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\CreateAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,6 +69,11 @@ use Filament\Actions;
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+use Override;
+use Filament\Actions\CreateAction;
+use Filament\Actions;
+>>>>>>> 5a14301c (.)
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Enums\TableLayoutEnum;
@@ -78,7 +84,11 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
+=======
+use Modules\Xot\Filament\Widgets\Clock;
+>>>>>>> 5a14301c (.)
 =======
 use Modules\Xot\Filament\Widgets\Clock;
 >>>>>>> 5a14301c (.)

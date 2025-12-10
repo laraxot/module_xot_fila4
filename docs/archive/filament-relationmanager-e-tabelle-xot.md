@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,6 +14,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 # Linee Guida per RelationManager e Tabelle Personalizzate Xot in Filament
 
 Questa documentazione descrive come implementare e configurare i `RelationManager` e le loro tabelle all'interno dell'ecosistema PTVX/Laraxot, utilizzando le classi base e i trait forniti dal modulo `Xot`.
@@ -202,6 +205,7 @@ class MioRelatedRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Vedi anche: [Documentazione Ufficiale Filament](https://filamentphp.com/docs/3.x/relations/overview)* (Per concetti base di Filament)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,3 +345,6 @@ class MioRelatedRelationManager extends XotBaseRelationManager
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
+=======
+*Vedi anche: [Documentazione Ufficiale Filament](https://filamentphp.com/docs/3.x/relations/overview)* (Per concetti base di Filament)
+>>>>>>> 5a14301c (.)

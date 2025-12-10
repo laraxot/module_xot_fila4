@@ -78,6 +78,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
         return $this->state(fn (array $_attributes): array => [
@@ -294,6 +295,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 249a0067 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 5a14301c (.)
             'status' => 'ok',
             'notification_message' => null,
         ]);
@@ -301,6 +305,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 
     public function failed(): static
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -551,6 +556,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 71586de2 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 5a14301c (.)
             'status' => 'failed',
             'notification_message' => $this->faker->sentence(),
         ]);

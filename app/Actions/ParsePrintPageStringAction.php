@@ -26,7 +26,12 @@ class ParsePrintPageStringAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $str  The page range string to parse
+=======
+     * @param string $str The page range string to parse
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param string $str The page range string to parse
      *
@@ -55,12 +60,15 @@ class ParsePrintPageStringAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::notEmpty($matches[0], 'No valid page numbers found');
         $matchCount = count($matches[0]);
         $res = [];
 
         for ($i = 0; $i < $matchCount; $i++) {
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -77,6 +85,9 @@ class ParsePrintPageStringAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -94,7 +105,11 @@ class ParsePrintPageStringAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ($secondNumber === '') {
+=======
+            if ('' === $secondNumber) {
+>>>>>>> 5a14301c (.)
 =======
             if ('' === $secondNumber) {
 >>>>>>> 5a14301c (.)
@@ -123,8 +138,14 @@ class ParsePrintPageStringAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  int  $from  Starting number
      * @param  int  $to  Ending number
+=======
+     * @param int $from Starting number
+     * @param int $to   Ending number
+     *
+>>>>>>> 5a14301c (.)
 =======
      * @param int $from Starting number
      * @param int $to   Ending number

@@ -23,6 +23,7 @@ class RelationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @param  array<string, mixed>  $data
 =======
@@ -45,6 +46,8 @@ class RelationAction
      *
      * @param array<string, mixed> $data
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
      */
     public function execute(Model $model, array $data): void
     {
@@ -65,6 +68,7 @@ class RelationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $relationClass = $relation::class;
             $relationshipType = class_basename($relationClass);
 
@@ -80,10 +84,13 @@ class RelationAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
 
             $actionClass = __NAMESPACE__ . '\\' . $relationshipType . 'Action';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,6 +284,8 @@ class RelationAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
             Assert::object($action = app($actionClass));
 
             if (method_exists($action, 'execute')) {

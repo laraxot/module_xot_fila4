@@ -4,18 +4,22 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
 # Xot Module - Framework Base Laraxot
 
 ## Overview
 Modulo base del framework Laraxot con funzionalità core e best practices.
 
 ## Quick Links
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +73,9 @@ Modulo base del framework Laraxot con funzionalità core e best practices.
 =======
 - [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
 >>>>>>> cc52d333 (.)
+=======
+- [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
+>>>>>>> 5a14301c (.)
 - [🎨 Theme Assets Workflow](theme-assets-workflow.md) - **⚠️ CRITICO** - Workflow CSS/JS per temi
 - [PHPStan Array Types Fixes](phpstan-array-types-fixes.md) - **✅ COMPLETATO** - Correzioni complete tipi array
 - [Filament Complete Guide](consolidated/filament-complete-guide.md)
@@ -132,9 +139,12 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Documentation](../../../project_docs/)
 - [<nome progetto> Module](../<nome progetto>/project_docs/)
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -145,6 +155,7 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - [Module Documentation](../<nome modulo>/docs/)
 - [Root Documentation](../../../project_docs/)
 - [SaluteOra Module](../SaluteOra/project_docs/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -286,3 +297,6 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - [SaluteOra Module](../SaluteOra/project_docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 >>>>>>> cc52d333 (.)
+=======
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+>>>>>>> 5a14301c (.)

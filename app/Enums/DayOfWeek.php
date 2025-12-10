@@ -25,7 +25,11 @@ use Illuminate\Support\Collection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 enum DayOfWeek: int implements HasColor, HasDescription, HasIcon, HasLabel
+=======
+enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
+>>>>>>> 5a14301c (.)
 =======
 enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
 >>>>>>> 5a14301c (.)
@@ -59,7 +63,10 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -111,6 +118,7 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
      */
     public function getDescription(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,6 +331,9 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+        return match ($this) {
+>>>>>>> 5a14301c (.)
             self::MONDAY => __('saluteora::common.days.description.monday'),
             self::TUESDAY => __('saluteora::common.days.description.tuesday'),
             self::WEDNESDAY => __('saluteora::common.days.description.wednesday'),
@@ -330,6 +341,7 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
             self::FRIDAY => __('saluteora::common.days.description.friday'),
             self::SATURDAY => __('saluteora::common.days.description.saturday'),
             self::SUNDAY => __('saluteora::common.days.description.sunday'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -354,6 +366,8 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
         };
     }
 
@@ -368,7 +382,10 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -395,7 +412,10 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -414,6 +434,7 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
      */
     public static function workingDays(): Collection
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,6 +507,11 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
         $filtered = collect(self::cases())->filter(fn(self $day): bool => $day->value <= 5);
         return $filtered;
 >>>>>>> 5a14301c (.)
+=======
+        /** @var Collection<int, self> $filtered */
+        $filtered = collect(self::cases())->filter(fn(self $day): bool => $day->value <= 5);
+        return $filtered;
+>>>>>>> 5a14301c (.)
     }
 
     /**
@@ -495,6 +521,7 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
      */
     public static function weekendDays(): Collection
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -550,6 +577,11 @@ enum DayOfWeek: int implements HasLabel, HasColor, HasIcon, HasDescription
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+        return $filtered;
+>>>>>>> 5a14301c (.)
+=======
+        /** @var Collection<int, self> $filtered */
+        $filtered = collect(self::cases())->filter(fn(self $day): bool => $day->value > 5);
         return $filtered;
 >>>>>>> 5a14301c (.)
 =======

@@ -21,6 +21,7 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -120,15 +121,29 @@ final class Module extends BaseModel
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Arr;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+use Nwidart\Modules\Module as NModule;
+use Sushi\Sushi;
+
+use function Safe\json_encode;
+
+/**
+>>>>>>> 5a14301c (.)
  * @property int         $id
  * @property string|null $name
  * @property string|null $description
  * @property bool|null   $status
  * @property int|null    $priority
  * @property string|null $path
+<<<<<<< HEAD
 =======
  *
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 5a14301c (.)
  * @method static Builder|Module newModelQuery()
  * @method static Builder|Module newQuery()
  * @method static Builder|Module query()
@@ -138,6 +153,7 @@ final class Module extends BaseModel
  * @method static Builder|Module wherePath($value)
  * @method static Builder|Module wherePriority($value)
  * @method static Builder|Module whereStatus($value)
+<<<<<<< HEAD
  *
  * @property string|null $icon
  * @property array<string, string>|null $colors
@@ -176,6 +192,16 @@ class Module extends Model
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+ * @property string|null $icon
+ * @property array<string, string>|null $colors
+ * @method static Builder|Module whereColors($value)
+ * @method static Builder|Module whereIcon($value)
+ * @mixin IdeHelperModule
+ * @mixin \Eloquent
+ */
+class Module extends Model
+>>>>>>> 5a14301c (.)
 {
     use Sushi;
 
@@ -202,7 +228,11 @@ class Module extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! is_array($config)) {
+=======
+            if (!is_array($config)) {
+>>>>>>> 5a14301c (.)
 =======
             if (!is_array($config)) {
 >>>>>>> 5a14301c (.)

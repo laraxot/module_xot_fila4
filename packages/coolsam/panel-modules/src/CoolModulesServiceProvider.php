@@ -35,6 +35,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function register(): void
     {
         $this->app->register(LaravelModulesServiceProvider::class);
@@ -48,11 +49,14 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
     public function register()
     {
         $this->app->register(LaravelModulesServiceProvider::class);
 
         $this->app->afterResolving('filament', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +73,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
             $panels = Filament::getPanels();
 
             foreach ($panels as $panel) {
@@ -88,12 +94,15 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         fn () => new HtmlString("<h2 class='m-2 p-2 font-black text-xl'>{$title}</h2>"),
                     )->renderHook(
                         'panels::sidebar.nav.end',
                         fn () => new HtmlString('<a href="'.
                         url('/admin').
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -108,6 +117,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

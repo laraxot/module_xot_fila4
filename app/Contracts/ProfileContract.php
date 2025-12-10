@@ -11,6 +11,10 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Query\Builder;
+>>>>>>> 5a14301c (.)
 =======
 use Illuminate\Database\Query\Builder;
 >>>>>>> 5a14301c (.)
@@ -40,8 +44,13 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property int|null $roles_count
  * @property UserContract $user
+=======
+ * @property int|null              $roles_count
+ * @property UserContract          $user
+>>>>>>> 5a14301c (.)
 =======
  * @property int|null              $roles_count
  * @property UserContract          $user
@@ -77,6 +86,7 @@ interface ProfileContract extends HasMedia
      *
      * @return $this
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,10 +147,15 @@ interface ProfileContract extends HasMedia
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
 >>>>>>> 249a0067 (.)
+=======
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+>>>>>>> 5a14301c (.)
 
     /**
      * Determine if the model has (one of) the given role(s).
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,12 +244,19 @@ interface ProfileContract extends HasMedia
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+    public function hasRole(
+        string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
+        null|string $guard = null,
+    ): bool;
+>>>>>>> 5a14301c (.)
 
     /**
      * Determine if the model has any of the given role(s).
      *
      * Alias to hasRole() but without Guard controls
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,12 +317,17 @@ interface ProfileContract extends HasMedia
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]): bool;
 >>>>>>> 249a0067 (.)
+=======
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+>>>>>>> 5a14301c (.)
 
     /**
      * Determine if the model may perform the given permission.
      *
      * @throws PermissionDoesNotExist
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,10 +475,14 @@ interface ProfileContract extends HasMedia
 =======
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
 >>>>>>> 249a0067 (.)
+=======
+    public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
+>>>>>>> 5a14301c (.)
 
     /**
      * Create a new Eloquent query builder for the model.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param Builder $query
      *
@@ -481,6 +512,13 @@ interface ProfileContract extends HasMedia
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+     * @param Builder $query
+     *
+     * @return \Illuminate\Database\Eloquent\Builder|static
+     */
+    public function newEloquentBuilder($query);
+>>>>>>> 5a14301c (.)
 
     /**
      * Undocumented function.
@@ -488,6 +526,7 @@ interface ProfileContract extends HasMedia
     public function toggleSuperAdmin(): void;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -509,6 +548,9 @@ interface ProfileContract extends HasMedia
 =======
      * ---return BelongsTo<UserContract, self>.
 >>>>>>> 249a0067 (.)
+=======
+     * ---return BelongsTo<UserContract, self>.
+>>>>>>> 5a14301c (.)
      */
     public function user(): BelongsTo;
 

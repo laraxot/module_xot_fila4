@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -13,6 +14,8 @@
 >>>>>>> cc52d333 (.)
 =======
 >>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
 # Risoluzione Conflitto in ModelWithPosContract
 
 ## Panoramica
@@ -40,6 +43,7 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
   }
   ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,6 +223,10 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
+=======
+
+
+>>>>>>> 5a14301c (.)
 ## Approccio alla Risoluzione
 
 La risoluzione seguirà questi principi:
@@ -309,6 +317,7 @@ Questa risoluzione garantisce:
 
 ## Collegamento con la Documentazione Principale
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -474,3 +483,6 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 =======
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
+=======
+Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
+>>>>>>> 5a14301c (.)

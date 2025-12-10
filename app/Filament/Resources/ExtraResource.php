@@ -41,6 +41,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -92,6 +93,8 @@ use Override;
 <<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Filament\Schemas\Components\Component;
 use Override;
 use Modules\Xot\Filament\Resources\ExtraResource\Pages\ListExtras;
@@ -105,6 +108,7 @@ use Modules\Xot\Models\Extra;
 
 class ExtraResource extends XotBaseResource
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected static null|string $model = Extra::class;
 <<<<<<< HEAD
@@ -595,6 +599,9 @@ class ExtraResource extends XotBaseResource
 =======
     protected static ?string $model = Extra::class;
 >>>>>>> 71586de2 (.)
+=======
+    protected static null|string $model = Extra::class;
+>>>>>>> 5a14301c (.)
 
     /**
      * Get the form schema for the resource.

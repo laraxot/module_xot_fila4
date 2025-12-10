@@ -20,6 +20,7 @@ namespace Modules\Xot\Filament\Resources\CacheResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\CacheResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 =======
@@ -47,6 +48,11 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
+use Modules\Xot\Filament\Resources\CacheResource;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 5a14301c (.)
+=======
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 use Modules\Xot\Filament\Resources\CacheResource;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;

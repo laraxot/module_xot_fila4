@@ -8,6 +8,7 @@ namespace Modules\Xot\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
@@ -21,6 +22,8 @@ use PDO;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
 use PDO;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\DB;
@@ -29,6 +32,9 @@ use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -96,6 +102,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         DB::listen(function ($query): void {
 =======
         DB::listen(function ($query) {
@@ -137,20 +144,26 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         DB::listen(function ($query) {
             // Log query che superano la soglia di tempo
             $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
             
             if ($query->time > $threshold) {
                 Log::warning('Slow query detected', [
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
                     'sql' => $query->sql,
                     'bindings' => $query->bindings,
                     'time' => $query->time,
                     'connection' => $query->connectionName,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,6 +192,8 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                     'time' => $query->time,
                     'connection' => property_exists($query, 'connectionName') ? $query->connectionName : '',
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
                 ]);
             }
         });
@@ -201,6 +216,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             // Log delle query alla fine della richiesta
             app()->terminating(function () {
@@ -209,6 +225,8 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 $totalTime = array_sum(array_column($queries, 'time'));
 
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -225,6 +243,9 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -263,11 +284,14 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         // Ottimizza la configurazione di Eloquent
         $this->optimizeEloquentConfiguration();
 
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -281,6 +305,9 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -305,7 +332,11 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 5a14301c (.)
 =======
         
 >>>>>>> 5a14301c (.)
@@ -348,7 +379,11 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 5a14301c (.)
 =======
         
 >>>>>>> 5a14301c (.)
@@ -379,6 +414,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 // Carica tutte le configurazioni dei moduli
                 $configs = [];
                 $modules = app('modules')->all();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -434,11 +470,14 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
                 
                 foreach ($modules as $module) {
                     $configPath = $module->getPath() . '/Config/config.php';
                     if (file_exists($configPath)) {
                         $configs[$module->getName()] = require $configPath;
+<<<<<<< HEAD
 =======
                         $configs[$moduleName] = require $configPath;
 >>>>>>> b7afadf9 (.)
@@ -455,6 +494,11 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+                    }
+                }
+                
+>>>>>>> 5a14301c (.)
                 return $configs;
             });
         });
@@ -470,12 +514,15 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         app()->terminating(function () use ($maxQueries) {
             $queries = DB::getQueryLog();
             $totalQueries = count($queries);
 
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -490,6 +537,9 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -511,6 +561,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
      */
     private function isFilamentAdminRequest(): bool
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -549,6 +600,8 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
         if (!app()->runningInConsole() && request()) {
             $path = request()->path();
             return str_contains($path, '/admin') || 
@@ -559,6 +612,9 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)

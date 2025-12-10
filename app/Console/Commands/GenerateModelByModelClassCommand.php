@@ -34,6 +34,7 @@ class GenerateModelByModelClassCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,6 +42,8 @@ class GenerateModelByModelClassCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -51,6 +54,7 @@ class GenerateModelByModelClassCommand extends Command
      * @return void
      */
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +298,8 @@ class GenerateModelByModelClassCommand extends Command
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
 
     /**
      * Execute the console command.
@@ -307,6 +313,7 @@ class GenerateModelByModelClassCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '['.__LINE__.']['.class_basename($this).']',
 =======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
@@ -314,6 +321,9 @@ class GenerateModelByModelClassCommand extends Command
 =======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 3fbbf1f5 (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 5a14301c (.)
 =======
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)

@@ -26,6 +26,7 @@ namespace Modules\Xot\Filament\Resources\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Resources\Pages\ViewRecord as FilamentViewRecord;
 =======
 >>>>>>> ed734516 (.)
@@ -125,6 +126,10 @@ use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 >>>>>>> ca9324a4 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+>>>>>>> 5a14301c (.)
 use Filament\Resources\Pages\ViewRecord as FilamentViewRecord;
 
 abstract class XotBaseViewRecord extends FilamentViewRecord
@@ -141,6 +146,7 @@ abstract class XotBaseViewRecord extends FilamentViewRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
@@ -165,6 +171,8 @@ abstract class XotBaseViewRecord extends FilamentViewRecord
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
     final public function infolist(Schema $schema): Schema
     {
         return $schema->components($this->getInfolistSchema());
@@ -174,6 +182,7 @@ abstract class XotBaseViewRecord extends FilamentViewRecord
      * Restituisce lo schema dell'infolist per la visualizzazione dei dettagli del record.
      * Questo metodo deve sempre restituire un array con chiavi di tipo stringa.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,6 +233,9 @@ abstract class XotBaseViewRecord extends FilamentViewRecord
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+     * @return array<int|string, Component>
+>>>>>>> 5a14301c (.)
+=======
      * @return array<int|string, Component>
 >>>>>>> 5a14301c (.)
 =======

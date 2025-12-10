@@ -42,6 +42,7 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $value  Il valore da convertire
      * @param  float|null  $default  Valore di default se la conversione fallisce (default: 0.0)
      * @return float Il valore convertito
@@ -58,12 +59,15 @@ class SafeFloatCastAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * @param mixed $value Il valore da convertire
      * @param float|null $default Valore di default se la conversione fallisce (default: 0.0)
      *
      * @return float Il valore convertito
      */
     public function execute(mixed $value, null|float $default = 0.0): float
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +259,8 @@ class SafeFloatCastAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
     {
         // Se è già un float, verifica che sia valido
         if (is_float($value)) {
@@ -296,6 +302,7 @@ class SafeFloatCastAction
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -485,6 +492,8 @@ class SafeFloatCastAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
      * Converte una stringa in float con gestione avanzata.
      *
      * @param string $value La stringa da convertire
@@ -496,6 +505,9 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -522,7 +534,11 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (is_numeric($cleaned) && ! empty($cleaned)) {
+=======
+        if (is_numeric($cleaned) && !empty($cleaned)) {
+>>>>>>> 5a14301c (.)
 =======
         if (is_numeric($cleaned) && !empty($cleaned)) {
 >>>>>>> 5a14301c (.)
@@ -550,9 +566,12 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -690,6 +709,7 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 5a14301c (.)
@@ -733,4 +753,6 @@ class SafeFloatCastAction
     {
         return app(self::class)->executeAsCurrency($value, $default);
     }
+=======
+>>>>>>> 5a14301c (.)
 }

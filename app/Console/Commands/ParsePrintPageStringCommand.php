@@ -63,7 +63,9 @@ class ParsePrintPageStringCommand extends Command
      *
      * @return void
      */
+<<<<<<< HEAD
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,10 +208,14 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
     public function __construct()
     {
         parent::__construct();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -424,6 +430,9 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
     /**
      * Execute the console command.
@@ -431,6 +440,7 @@ class ParsePrintPageStringCommand extends Command
     public function handle(): void
     {
         $str = $this->argument('str');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -748,6 +758,12 @@ class ParsePrintPageStringCommand extends Command
 =======
         if (!is_string($str)) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!is_string($str)) {
+=======
+        if (! is_string($str)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             throw new Exception('argument str must be a string');
         }
         dddx(app(ParsePrintPageStringAction::class)->execute($str));

@@ -75,6 +75,7 @@ class GetViewByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return $module_low.'::'.$model_name.$suffix;
 =======
@@ -239,7 +240,12 @@ class GetViewByModelClassAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
         $view = $module_low . '::' . $model_name . $suffix;
+=======
+        $view = $module_low.'::'.$model_name.$suffix;
+>>>>>>> f1d4085 (.)
 
         return $view;
 >>>>>>> 5a14301c (.)

@@ -109,6 +109,7 @@ class HasManyRelationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -254,6 +255,8 @@ class HasManyRelationData extends Data
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
         public null|array $from = null,
         #[MapInputName('to')]
         public null|array $to = null,
@@ -289,4 +292,11 @@ class HasManyRelationData extends Data
         public null|array $to = null,
 >>>>>>> 5a14301c (.)
     ) {}
+=======
+        public ?array $from = null,
+        #[MapInputName('to')]
+        public ?array $to = null,
+    ) {
+    }
+>>>>>>> f1d4085 (.)
 }

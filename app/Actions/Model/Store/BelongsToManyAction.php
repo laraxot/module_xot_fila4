@@ -15,6 +15,7 @@ class BelongsToManyAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
@@ -55,6 +56,7 @@ class BelongsToManyAction
 <<<<<<< HEAD
 =======
             $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
 <<<<<<< HEAD
@@ -237,6 +239,9 @@ class BelongsToManyAction
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
@@ -250,6 +255,7 @@ class BelongsToManyAction
             Assert::isArray($to = $relationDTO->data['to'] ?? []);
             $rows->sync($to);
             $status = 'collegati ['.implode(', ', $to).'] ';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -453,6 +459,9 @@ class BelongsToManyAction
 =======
             $status = 'collegati [' . implode(', ', $to) . '] ';
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             Session::flash('status', $status);
 
             return;

@@ -119,12 +119,21 @@ use Illuminate\Support\Str;
 >>>>>>> 5a14301c (.)
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 use function Safe\error_log;
 use function Safe\file_get_contents;
 use function Safe\file_put_contents;
 use function Safe\glob;
 use function Safe\preg_match;
 use function Safe\preg_replace;
+=======
+use function Safe\glob;
+use function Safe\error_log;
+use function Safe\preg_match;
+use function Safe\preg_replace;
+use function Safe\file_get_contents;
+use function Safe\file_put_contents;
+>>>>>>> f1d4085 (.)
 
 class ResourceFormSchemaGenerator
 {
@@ -270,7 +279,11 @@ class ResourceFormSchemaGenerator
             $fileContents = file_get_contents($filename);
 
             // Check if getFormSchema method already exists
+<<<<<<< HEAD
             if (str_contains($fileContents, 'public function getFormSchema')) {
+=======
+            if (strpos($fileContents, 'public function getFormSchema') !== false) {
+>>>>>>> f1d4085 (.)
                 return false;
             }
 
@@ -284,6 +297,7 @@ class ResourceFormSchemaGenerator
             $formSchemaMethod .= "        ];\n    }\n";
 
             // Insert the method before the last closing brace
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -487,11 +501,16 @@ class ResourceFormSchemaGenerator
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+            $modifiedContents = preg_replace('/}(\s*)$/', $formSchemaMethod . '}$1', $fileContents);
+=======
+>>>>>>> ed734516 (.)
             $modifiedContents = preg_replace(
                 '/}(\s*)$/',
                 $formSchemaMethod.'}$1',
                 $fileContents
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -730,12 +749,16 @@ class ResourceFormSchemaGenerator
 =======
             $modifiedContents = preg_replace('/}(\s*)$/', $formSchemaMethod . '}$1', $fileContents);
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
             // Write back to the file
             file_put_contents($filename, $modifiedContents);
 
             return true;
         } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1100,6 +1123,12 @@ class ResourceFormSchemaGenerator
 =======
             error_log("Error generating form schema for {$resourceClass}: " . $e->getMessage());
 >>>>>>> 5a14301c (.)
+=======
+            error_log("Error generating form schema for {$resourceClass}: " . $e->getMessage());
+=======
+            error_log("Error generating form schema for {$resourceClass}: ".$e->getMessage());
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             return false;
         }
     }
@@ -1109,14 +1138,19 @@ class ResourceFormSchemaGenerator
      */
     public static function generateForAllResources(): array
     {
+<<<<<<< HEAD
         $resourceFiles = glob(
             '/var/www/html/base_orisbroker_fila3/laravel/Modules/*/app/Filament/Resources/*Resource.php',
         );
+=======
+        $resourceFiles = glob('/var/www/html/base_orisbroker_fila3/laravel/Modules/*/app/Filament/Resources/*Resource.php');
+>>>>>>> f1d4085 (.)
 
         $results = ['updated' => [], 'skipped' => []];
 
         foreach ($resourceFiles as $file) {
             try {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1488,10 +1522,17 @@ class ResourceFormSchemaGenerator
 =======
                 Assert::string($file, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 5a14301c (.)
+=======
+                Assert::string($file, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+=======
+                Assert::string($file);
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
                 $content = file_get_contents($file);
                 $namespaceMatch = [];
                 $classMatch = [];
 
+<<<<<<< HEAD
                 if (
                     preg_match('/namespace\s+([\w\\\\\\\\]+);/', $content, $namespaceMatch) &&
                         preg_match('/class\s+(\w+)\s+extends\s+XotBaseResource/', $content, $classMatch) &&
@@ -1528,6 +1569,7 @@ class ResourceFormSchemaGenerator
                         !empty($classMatch[1])
                 ) {
                     $fullClassName = $namespaceMatch[1] . '\\' . $classMatch[1];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1679,10 +1721,14 @@ class ResourceFormSchemaGenerator
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
                 if (preg_match('/namespace\s+([\w\\\\\\\\]+);/', $content, $namespaceMatch) &&
                     preg_match('/class\s+(\w+)\s+extends\s+XotBaseResource/', $content, $classMatch) &&
                     !empty($namespaceMatch[1]) && !empty($classMatch[1])) {
                     $fullClassName = $namespaceMatch[1].'\\'.$classMatch[1];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1885,6 +1931,9 @@ class ResourceFormSchemaGenerator
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
                     if (class_exists($fullClassName)) {
                         /** @var class-string $fullClassName */
@@ -1894,6 +1943,7 @@ class ResourceFormSchemaGenerator
                     }
                 }
             } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2249,6 +2299,12 @@ class ResourceFormSchemaGenerator
 =======
                 $results['skipped'][] = is_string($file) ? $file : (((string) $file) . ': ' . $e->getMessage());
 >>>>>>> 5a14301c (.)
+=======
+                $results['skipped'][] = is_string($file) ? $file : (((string) $file) . ': ' . $e->getMessage());
+=======
+                $results['skipped'][] = is_string($file) ? $file : (string) $file.': '.$e->getMessage();
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             }
         }
 

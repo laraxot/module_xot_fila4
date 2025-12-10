@@ -135,7 +135,12 @@ class XDebug extends Component
         // public Post $article,
         // public bool $showAuthor = false,
         public string $tpl = 'v1',
+<<<<<<< HEAD
     ) {}
+=======
+    ) {
+    }
+>>>>>>> f1d4085 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +221,7 @@ class XDebug extends Component
 
     public function debugStack(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -532,6 +538,12 @@ class XDebug extends Component
 =======
         if (!extension_loaded('xdebug')) {
 >>>>>>> 5a14301c (.)
+=======
+        if (!extension_loaded('xdebug')) {
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             throw new RuntimeException('XDebug must be installed to use this function');
         }
 
@@ -551,6 +563,7 @@ class XDebug extends Component
         $out1 = ob_get_contents();
         ob_end_clean();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -913,5 +926,11 @@ class XDebug extends Component
 =======
         return is_string($out1) ? $out1 : ((string) $out1);
 >>>>>>> 5a14301c (.)
+=======
+        return is_string($out1) ? $out1 : ((string) $out1);
+=======
+        return is_string($out1) ? $out1 : (string) $out1;
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     }
 }

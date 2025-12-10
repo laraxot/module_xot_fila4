@@ -35,6 +35,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 249a0067 (.)
 =======
@@ -134,6 +135,8 @@ class SessionResource extends XotBaseResource
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
 use Override;
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
@@ -212,4 +215,42 @@ class SessionResource extends XotBaseResource
 >>>>>>> 5a14301c (.)
         ];
     }
+=======
+use Filament\Forms\Components\KeyValue;
+use Filament\Forms\Components\TextInput;
+use Modules\Xot\Filament\Resources\SessionResource\Pages;
+use Modules\Xot\Models\Session;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+class SessionResource extends XotBaseResource
+{
+    protected static ?string $model = Session::class;
+
+    public static function getFormSchema(): array
+    {
+        return [
+            'id' => TextInput::make('id')
+                ->required()
+                ->maxLength(255),
+
+            'user_id' => TextInput::make('user_id')
+                ->numeric(),
+
+            'ip_address' => TextInput::make('ip_address')
+                ->maxLength(45),
+
+            'user_agent' => TextInput::make('user_agent')
+                ->maxLength(255),
+
+            'payload' => KeyValue::make('payload')
+                ->columnSpanFull(),
+
+            'last_activity' => TextInput::make('last_activity')
+                ->required()
+                ->numeric(),
+        ];
+    }
+
+
+>>>>>>> f1d4085 (.)
 }

@@ -58,6 +58,7 @@ namespace Modules\Xot\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -171,7 +172,11 @@ use Override;
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> ed734516 (.)
 use Override;
+=======
+>>>>>>> f1d4085 (.)
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Models\Extra;
 >>>>>>> 5a14301c (.)
@@ -324,7 +329,10 @@ class ExtraPolicy extends XotBasePolicy
     /**
      * Determine whether the user can view any models.
      */
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> f1d4085 (.)
     public function viewAny(UserContract $user): bool
     {
         return $user->hasPermissionTo('extra.viewAny');
@@ -333,7 +341,11 @@ class ExtraPolicy extends XotBasePolicy
     /**
      * Determine whether the user can view the model.
      */
+<<<<<<< HEAD
     public function view(UserContract $user, Extra $_extra): bool
+=======
+    public function view(UserContract $user, Extra $extra): bool
+>>>>>>> f1d4085 (.)
     {
         return $user->hasPermissionTo('extra.view');
     }
@@ -349,7 +361,11 @@ class ExtraPolicy extends XotBasePolicy
     /**
      * Determine whether the user can update the model.
      */
+<<<<<<< HEAD
     public function update(UserContract $user, Extra $_extra): bool
+=======
+    public function update(UserContract $user, Extra $extra): bool
+>>>>>>> f1d4085 (.)
     {
         return $user->hasPermissionTo('extra.update');
     }
@@ -357,7 +373,11 @@ class ExtraPolicy extends XotBasePolicy
     /**
      * Determine whether the user can delete the model.
      */
+<<<<<<< HEAD
     public function delete(UserContract $user, Extra $_extra): bool
+=======
+    public function delete(UserContract $user, Extra $extra): bool
+>>>>>>> f1d4085 (.)
     {
         return $user->hasPermissionTo('extra.delete');
     }
@@ -365,7 +385,11 @@ class ExtraPolicy extends XotBasePolicy
     /**
      * Determine whether the user can restore the model.
      */
+<<<<<<< HEAD
     public function restore(UserContract $user, Extra $_extra): bool
+=======
+    public function restore(UserContract $user, Extra $extra): bool
+>>>>>>> f1d4085 (.)
     {
         return $user->hasPermissionTo('extra.restore');
     }
@@ -378,3 +402,7 @@ class ExtraPolicy extends XotBasePolicy
         return $user->hasPermissionTo('extra.forceDelete');
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)

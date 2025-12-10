@@ -50,6 +50,7 @@ class GetFirstModelClassByModelNameAction
 =======
 >>>>>>> 5a14301c (.)
         $models = app(GetAllModelsAction::class)->execute();
+<<<<<<< HEAD
         Assert::string(
             $modelClass = collect($models)->get($modelName),
             '[' . __LINE__ . '][' . class_basename($this) . ']',
@@ -70,6 +71,9 @@ class GetFirstModelClassByModelNameAction
 =======
 >>>>>>> 5a14301c (.)
         );
+=======
+        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
 
         return $modelClass;
     }

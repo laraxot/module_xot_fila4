@@ -79,6 +79,7 @@ use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -242,7 +243,14 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
 use Spatie\QueueableAction\QueueableAction;
+=======
+use Nwidart\Modules\Module as ModuleInstance;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+>>>>>>> f1d4085 (.)
 
 class GetAllModelsAction
 {
@@ -317,6 +325,7 @@ class GetAllModelsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e0b8ebe3 (.)
@@ -433,6 +442,8 @@ class GetAllModelsAction
 >>>>>>> b956ebe0 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
      */
     public function execute(): array
     {
@@ -441,6 +452,7 @@ class GetAllModelsAction
         foreach ($modules as $module) {
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($module->getName());
             $res = array_merge($res, $tmp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -698,6 +710,9 @@ class GetAllModelsAction
 =======
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
      *
      * @return array<string, string> Array associativo con snake_case come chiave e FQCN come valore
      */
@@ -707,6 +722,7 @@ class GetAllModelsAction
         $res = [];
         $modules = Module::all();
         foreach ($modules as $module) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -753,11 +769,14 @@ class GetAllModelsAction
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> ed734516 (.)
             Assert::isInstanceOf($module, ModuleInstance::class, 'Module must be instance of ModuleInstance');
             $moduleName = $module->getName();
             Assert::string($moduleName, 'Module name must be a string');
 
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleName);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -793,6 +812,8 @@ class GetAllModelsAction
 >>>>>>> e0b8ebe3 (.)
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> ed734516 (.)
             Assert::isArray($tmp, 'GetAllModelsByModuleNameAction must return array');
 
             // Type-safe merge per mantenere array<string, string>
@@ -801,6 +822,7 @@ class GetAllModelsAction
                 Assert::string($value, 'Value must be string');
                 $res[$key] = $value;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -945,6 +967,9 @@ class GetAllModelsAction
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         }
 
         return $res;

@@ -183,6 +183,7 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
         Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir.'/../../routes/web.php');
@@ -463,10 +464,15 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+        Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
+=======
+>>>>>>> ed734516 (.)
         Route::middleware('web')
             ->namespace($this->moduleNamespace)
             ->group($this->module_dir.'/../../routes/web.php');
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -556,6 +562,8 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 =======
         Route::middleware('web')->namespace($this->moduleNamespace)->group($this->module_dir . '/../../routes/web.php');
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
     }
 
     /**
@@ -687,7 +695,9 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 >>>>>>> ca9324a4 (.)
 =======
         if ('' === $this->name) {
+<<<<<<< HEAD
             throw new Exception('name is empty on [' . static::class . ']');
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 =======
@@ -901,10 +911,16 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
         if ('' === $this->name) {
             throw new Exception('name is empty on [' . static::class . ']');
 >>>>>>> 5a14301c (.)
+=======
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         }
         Route::prefix('api')
             ->middleware('api')
             ->namespace($this->moduleNamespace)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1274,5 +1290,11 @@ abstract class XotBaseRouteServiceProvider extends RouteServiceProvider
 =======
             ->group($this->module_dir . '/../../routes/api.php');
 >>>>>>> 5a14301c (.)
+=======
+            ->group($this->module_dir . '/../../routes/api.php');
+=======
+            ->group($this->module_dir.'/../../routes/api.php');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     }
 }

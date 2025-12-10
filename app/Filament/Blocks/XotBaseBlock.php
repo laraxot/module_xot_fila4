@@ -33,6 +33,7 @@ namespace Modules\Xot\Filament\Blocks;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
 use Filament\Schemas\Components\Component;
@@ -108,6 +109,8 @@ use Filament\Schemas\Components\Component;
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
 use Filament\Schemas\Components\Component;
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
@@ -139,10 +142,17 @@ use Filament\Forms\Components\Select;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 use Modules\Xot\Filament\Traits\TransTrait;
+=======
+use Filament\Forms\Components\Select;
+use Modules\Xot\Filament\Traits\TransTrait;
+use Filament\Forms\Components\Builder\Block;
+use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
+>>>>>>> f1d4085 (.)
 
 abstract class XotBaseBlock
 {
     use TransTrait;
+<<<<<<< HEAD
 
     public static function make(string $name = 'article_list', string $context = 'form'): Block
     {
@@ -205,6 +215,7 @@ abstract class XotBaseBlock
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 21348520 (.)
@@ -246,6 +257,9 @@ abstract class XotBaseBlock
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
     
     public static function make(
         string $name = 'article_list',
@@ -258,6 +272,9 @@ abstract class XotBaseBlock
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ed734516 (.)
 =======
 >>>>>>> ed734516 (.)
 =======
@@ -269,6 +286,7 @@ abstract class XotBaseBlock
          */
         $schema = array_merge(static::getBlockSchema(), static::getBlockVarSchema());
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -314,10 +332,13 @@ abstract class XotBaseBlock
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
         return Block::make($name)
             ->schema($schema)
 
             ->columns('form' === $context ? 3 : 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,6 +426,9 @@ abstract class XotBaseBlock
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     }
 
     /**
@@ -438,6 +462,7 @@ abstract class XotBaseBlock
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -495,7 +520,12 @@ abstract class XotBaseBlock
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
      * @return array<Component>
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+>>>>>>> f1d4085 (.)
      */
     public static function getBlockSchema(): array
     {
@@ -513,6 +543,7 @@ abstract class XotBaseBlock
 =======
      * Undocumented function.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -630,6 +661,8 @@ abstract class XotBaseBlock
      * Undocumented function.
      *
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
      * @return array<Component>
      */
     public static function getBlockVarSchema(): array
@@ -638,6 +671,18 @@ abstract class XotBaseBlock
 
         return [
             Select::make('view')->options($options),
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+     */
+    public static function getBlockVarSchema(): array
+    {
+        $options = app(GetViewBlocksOptionsByTypeAction::class)
+            ->execute('article_list', false);
+
+        return [
+            Select::make('view')
+                ->options($options),
+>>>>>>> f1d4085 (.)
         ];
     }
 }

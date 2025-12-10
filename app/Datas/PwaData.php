@@ -97,6 +97,7 @@ class PwaData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new static;
 =======
         return new static();
@@ -412,5 +413,11 @@ class PwaData extends Data
 =======
         return new static();
 >>>>>>> 5a14301c (.)
+=======
+        return new static();
+=======
+        return new static;
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     }
 }

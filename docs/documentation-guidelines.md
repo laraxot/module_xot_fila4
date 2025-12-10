@@ -619,8 +619,14 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/d
 >>>>>>> 03ceeac3 (.)
 =======
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+<<<<<<< HEAD
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 ```
 
 ### 2. Documentazione Centralizzata
@@ -991,8 +997,14 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 >>>>>>> 03ceeac3 (.)
 =======
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+<<<<<<< HEAD
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 ```
 
 ## Esempi di Eccellenza

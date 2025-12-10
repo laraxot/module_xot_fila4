@@ -121,7 +121,9 @@ use Modules\Xot\Datas\XotData;
 abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -330,6 +332,10 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     //use DatabaseMigrations;
 
     // =============================================================================
@@ -474,18 +480,31 @@ abstract class TestCase extends BaseTestCase
             'password' => Hash::make('password123'),
             'name' => fake()->name(),
         ];
+<<<<<<< HEAD
 
         $userData = array_merge($defaultData, $attributes);
 
         /** @var UserContract&Model $user */
         $user = $userClass::factory()->create($userData);
 
+=======
+        
+        $userData = array_merge($defaultData, $attributes);
+        
+        /** @var UserContract&Model $user */
+        $user = $userClass::factory()->create($userData);
+        
+>>>>>>> f1d4085 (.)
         return $user;
     }
 
     /**
      * Mock XotData for widget testing (Gold Standard Pattern).
+<<<<<<< HEAD
      *
+=======
+     * 
+>>>>>>> f1d4085 (.)
      * Prevents "Class not found" errors and provides consistent behavior
      * across all widget tests.
 <<<<<<< HEAD
@@ -583,6 +602,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
@@ -639,6 +659,8 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
 
         // Mock dei metodi critici con fallback sicuri
         $mockXotData->shouldReceive('getUserClass')->andReturn(User::class);
@@ -742,9 +764,27 @@ abstract class TestCase extends BaseTestCase
         $mockXotData->shouldReceive('make')->andReturn($mockXotData);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7afadf9 (.)
+=======
+=======
+        
+        // Mock dei metodi critici con fallback sicuri
+        $mockXotData->shouldReceive('getUserClass')
+            ->andReturn(User::class);
+            
+        $mockXotData->shouldReceive('getUserResourceClassByType')
+            ->with('patient')
+            ->andReturn('\\Modules\\User\\Filament\\Resources\\PatientResource');
+            
+        $mockXotData->shouldReceive('getUserResourceClassByType')
+            ->with('doctor')  
+            ->andReturn('\\Modules\\User\\Filament\\Resources\\DoctorResource');
+            
+        $mockXotData->shouldReceive('getUserResourceClassByType')
+>>>>>>> ed734516 (.)
             ->with(Mockery::any())
             ->andReturn('\\Modules\\User\\Filament\\Resources\\UserResource');
             
@@ -752,6 +792,7 @@ abstract class TestCase extends BaseTestCase
             ->andReturn($mockXotData);
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -782,6 +823,8 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         // ✅ CRITICO: Bind nel container per risoluzione automatica
         app()->instance(XotData::class, $mockXotData);
     }
@@ -906,7 +949,11 @@ abstract class TestCase extends BaseTestCase
             'password' => 'password123',
             'password_confirmation' => 'password123',
         ];
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> f1d4085 (.)
         return array_merge($defaultData, $overrides);
     }
 
@@ -935,6 +982,7 @@ abstract class TestCase extends BaseTestCase
      * @param string|null $expectedType
      * @return void
      */
+<<<<<<< HEAD
     protected function assertUserAuthenticated(null|string $expectedType = null): void
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -955,6 +1003,12 @@ abstract class TestCase extends BaseTestCase
     {
         $this->assertAuthenticated();
 
+=======
+    protected function assertUserAuthenticated(?string $expectedType = null): void
+    {
+        $this->assertAuthenticated();
+        
+>>>>>>> f1d4085 (.)
         if ($expectedType !== null) {
             /** @var UserContract|null $user */
             $user = auth()->user();
@@ -980,7 +1034,11 @@ abstract class TestCase extends BaseTestCase
 =======
 >>>>>>> 5a14301c (.)
             $this->assertNotNull($user);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> f1d4085 (.)
             if ($user && method_exists($user, 'type')) {
                 $this->assertEquals($expectedType, $user->type ?? null);
 <<<<<<< HEAD

@@ -62,6 +62,7 @@ namespace Modules\Xot\Exceptions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -207,7 +208,11 @@ use Override;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
 use Override;
+=======
+>>>>>>> f1d4085 (.)
 use Exception;
 use Illuminate\Http\Response;
 >>>>>>> 5a14301c (.)
@@ -239,12 +244,16 @@ use Illuminate\Http\Response;
 
 class JsonEncodeException extends ApplicationException
 {
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> f1d4085 (.)
     public function status(): int
     {
         return Response::HTTP_BAD_REQUEST;
     }
 
+<<<<<<< HEAD
     #[Override]
     public function help(): string
     {
@@ -269,6 +278,7 @@ class JsonEncodeException extends ApplicationException
 =======
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -623,12 +633,15 @@ class JsonEncodeException extends ApplicationException
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> ed734516 (.)
+=======
     public function help(): string
     {
         $res = trans('exception.json_not_encoded.help');
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -676,11 +689,14 @@ class JsonEncodeException extends ApplicationException
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         }
 
         return $res;
     }
 
+<<<<<<< HEAD
     #[Override]
     public function error(): string
     {
@@ -705,6 +721,7 @@ class JsonEncodeException extends ApplicationException
 =======
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1059,12 +1076,15 @@ class JsonEncodeException extends ApplicationException
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> ed734516 (.)
+=======
     public function error(): string
     {
         $res = trans('exception.json_not_encoded.error');
         if (! \is_string($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -1112,6 +1132,8 @@ class JsonEncodeException extends ApplicationException
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
         }
 
         return $res;

@@ -14,6 +14,7 @@ namespace Modules\Xot\Console\Commands;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use SplFileInfo;
 use Exception;
@@ -57,14 +58,19 @@ use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
 use SplFileInfo;
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> ed734516 (.)
 use Exception;
 use SplFileInfo;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> ed734516 (.)
 
 class AddStrictTypesDeclarationCommand extends Command
 {
@@ -74,6 +80,7 @@ class AddStrictTypesDeclarationCommand extends Command
 
     protected $description = 'Aggiunge la dichiarazione strict_types=1 ai file PHP che ne sono sprovvisti';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,6 +126,8 @@ class AddStrictTypesDeclarationCommand extends Command
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> ed734516 (.)
     private array $excludedPaths = [
         'views',
         'config',
@@ -138,12 +147,15 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($moduleOption && is_string($moduleOption)) {
             $modulePath .= '/'.$moduleOption;
             if (! File::isDirectory($modulePath)) {
                 $this->error("Il modulo {$moduleOption} non esiste");
 
 =======
+=======
+>>>>>>> ed734516 (.)
 =======
 >>>>>>> ed734516 (.)
 =======
@@ -157,6 +169,9 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> ed734516 (.)
@@ -172,6 +187,7 @@ class AddStrictTypesDeclarationCommand extends Command
         $count = 0;
 
         foreach ($files as $file) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +259,8 @@ class AddStrictTypesDeclarationCommand extends Command
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
                     $this->info("Verrebbe processato: {$file}");
@@ -259,6 +277,9 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> ed734516 (.)
@@ -270,6 +291,7 @@ class AddStrictTypesDeclarationCommand extends Command
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;
                 } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -311,6 +333,9 @@ class AddStrictTypesDeclarationCommand extends Command
 =======
                     $this->error("Errore nel processare {$path}: " . $e->getMessage());
 >>>>>>> ed734516 (.)
+=======
+                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
+>>>>>>> ed734516 (.)
                 }
             }
         }
@@ -321,6 +346,7 @@ class AddStrictTypesDeclarationCommand extends Command
         return 0;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,11 +396,14 @@ class AddStrictTypesDeclarationCommand extends Command
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> ed734516 (.)
     private function findPhpFiles(string $path): array
     {
         return File::allFiles($path);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -418,6 +447,12 @@ class AddStrictTypesDeclarationCommand extends Command
         // Verifica l'estensione
         if (!str_ends_with($file->getFilename(), '.php')) {
 >>>>>>> ed734516 (.)
+=======
+    private function shouldProcessFile(SplFileInfo $file): bool
+    {
+        // Verifica l'estensione
+        if (!str_ends_with($file->getFilename(), '.php')) {
+>>>>>>> ed734516 (.)
             return false;
         }
 
@@ -439,8 +474,12 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return ! str_contains($content, 'declare(strict_types=1)');
+=======
+        return !str_contains($content, 'declare(strict_types=1)');
+>>>>>>> ed734516 (.)
 =======
         return !str_contains($content, 'declare(strict_types=1)');
 >>>>>>> ed734516 (.)

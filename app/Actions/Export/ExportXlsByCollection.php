@@ -87,6 +87,7 @@ use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 =======
 >>>>>>> 9db27d12 (.)
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 >>>>>>> 5a14301c (.)
 =======
@@ -164,6 +165,17 @@ use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+=======
+use Illuminate\Support\Collection;
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Maatwebsite\Excel\Facades\Excel;
+use Modules\Xot\Exports\CollectionExport;
+use Spatie\QueueableAction\QueueableAction;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+>>>>>>> f1d4085 (.)
 
 /**
  * Classe per l'esportazione di collezioni in formato Excel.
@@ -324,6 +336,7 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -387,6 +400,8 @@ class ExportXlsByCollection
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> ed734516 (.)
         null|string $transKey = null,
 =======
 =======
@@ -409,6 +424,7 @@ class ExportXlsByCollection
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -613,6 +629,8 @@ class ExportXlsByCollection
 =======
 >>>>>>> 17684f52 (.)
 =======
+>>>>>>> ed734516 (.)
+=======
         ?string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
@@ -628,6 +646,7 @@ class ExportXlsByCollection
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -708,6 +727,9 @@ class ExportXlsByCollection
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         );
 
         return Excel::download($export, $filename);

@@ -78,9 +78,11 @@ use RuntimeException;
 >>>>>>> 5a14301c (.)
 use RuntimeException;
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
+<<<<<<< HEAD
 use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Facades\DB;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -420,6 +422,11 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+use Illuminate\Database\Eloquent\Model as EloquentModel;
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -484,6 +491,7 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $modelClass  La classe del modello
 =======
      * @param string $modelClass La classe del modello
@@ -799,6 +807,12 @@ class GetSchemaManagerByModelClassAction
 =======
      * @param string $modelClass La classe del modello
 >>>>>>> 5a14301c (.)
+=======
+     * @param string $modelClass La classe del modello
+=======
+     * @param  string  $modelClass  La classe del modello
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
     public function execute(string $modelClass): AbstractSchemaManager
@@ -810,6 +824,7 @@ class GetSchemaManagerByModelClassAction
         // ma getDoctrineConnection() non esiste, dobbiamo usare getDoctrineSchemaManager direttamente
         if (method_exists($connection, 'getDoctrineSchemaManager')) {
             /** @phpstan-ignore deprecated.method */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1019,10 +1034,15 @@ class GetSchemaManagerByModelClassAction
             return $connection->getDoctrineSchemaManager();
 =======
 >>>>>>> 17684f52 (.)
+=======
+            return $connection->getDoctrineSchemaManager();
+=======
+>>>>>>> ed734516 (.)
             $schemaManager = $connection->getDoctrineSchemaManager();
             Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class, 'Schema manager must be instance of AbstractSchemaManager');
 
             return $schemaManager;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1255,6 +1275,9 @@ class GetSchemaManagerByModelClassAction
 =======
             return $connection->getDoctrineSchemaManager();
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

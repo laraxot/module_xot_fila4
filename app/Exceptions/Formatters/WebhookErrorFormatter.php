@@ -108,6 +108,8 @@ use Illuminate\Support\Facades\Auth;
 =======
 >>>>>>> b7afadf9 (.)
 
+use function Safe\json_encode;
+
 class WebhookErrorFormatter
 {
     public function __construct(

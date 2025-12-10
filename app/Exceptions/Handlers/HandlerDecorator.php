@@ -18,6 +18,7 @@ namespace Modules\Xot\Exceptions\Handlers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 use Throwable;
@@ -40,14 +41,14 @@ use Throwable;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use Throwable;
 =======
-<<<<<<< HEAD
-use Throwable;
+>>>>>>> 091f883c (.)
 =======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
+>>>>>>> 9db27d12 (.)
+use Throwable;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 use Throwable;
@@ -86,6 +87,7 @@ class HandlerDecorator implements ExceptionHandler
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     public function report(Throwable $e): void
@@ -97,6 +99,9 @@ class HandlerDecorator implements ExceptionHandler
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+    public function report(Throwable $e): void
+>>>>>>> 091f883c (.)
     {
         foreach ($this->repository->getReportersByException($e) as $reporter) {
             if (is_callable($reporter)) {
@@ -107,6 +112,7 @@ class HandlerDecorator implements ExceptionHandler
         $this->defaultHandler->report($e);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -119,6 +125,9 @@ class HandlerDecorator implements ExceptionHandler
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+    public function render($request, Throwable $e): SymfonyResponse
+>>>>>>> 091f883c (.)
     {
         foreach ($this->repository->getRenderersByException($e) as $renderer) {
             if (is_callable($renderer)) {
@@ -136,6 +145,7 @@ class HandlerDecorator implements ExceptionHandler
      * @phpstan-ignore-next-line
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     public function renderForConsole($output, Throwable $e): void
@@ -147,6 +157,9 @@ class HandlerDecorator implements ExceptionHandler
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+    public function renderForConsole($output, Throwable $e): void
+>>>>>>> 091f883c (.)
     {
         foreach ($this->repository->getConsoleRenderersByException($e) as $renderer) {
             if (is_callable($renderer)) {
@@ -174,6 +187,7 @@ class HandlerDecorator implements ExceptionHandler
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     public function shouldReport(Throwable $e): bool
@@ -185,6 +199,9 @@ class HandlerDecorator implements ExceptionHandler
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+    public function shouldReport(Throwable $e): bool
+>>>>>>> 091f883c (.)
     {
         return $this->defaultHandler->shouldReport($e);
     }

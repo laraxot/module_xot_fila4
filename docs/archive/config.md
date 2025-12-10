@@ -287,6 +287,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [config.md](../../../Xot/docs/config.md)
 * [config.md](../../../../Themes/One/docs/config.md)
@@ -303,4 +304,8 @@ return [
 * [config.md](../../../../Themes/One/project_docs/config.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+* [config.md](../../../Xot/docs/config.md)
+* [config.md](../../../../Themes/One/docs/config.md)
+>>>>>>> 091f883c (.)
 

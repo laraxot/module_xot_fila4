@@ -1,8 +1,11 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 091f883c (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -22,6 +25,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,14 +194,19 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 namespace Modules\Xot\Datas\Transformers;
 
 use Modules\Xot\Actions\File\AssetAction;
 use Spatie\LaravelData\Support\DataProperty;
-<<<<<<< HEAD
 use Spatie\LaravelData\Support\Transformation\TransformationContext;
 use Spatie\LaravelData\Transformers\Transformer;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,6 +248,8 @@ use Spatie\LaravelData\Support\Transformation\TransformationContext;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
 /**
  * AssetTransformer - Trasforma riferimenti di file in percorsi completi per le risorse
@@ -278,6 +289,7 @@ class AssetTransformer implements Transformer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -285,6 +297,8 @@ class AssetTransformer implements Transformer
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
      * @param  DataProperty  $_property  La proprietà di dati (non utilizzata)
      * @param  mixed  $value  Il valore da trasformare (es. "user::image.png")
      * @param  TransformationContext  $_context  Il contesto di trasformazione (non utilizzato)
@@ -381,7 +395,12 @@ class AssetTransformer implements Transformer
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
      * @param DataProperty $_property La proprietà di dati (non utilizzata)
      * @param mixed $value Il valore da trasformare (es. "user::image.png")
      * @param TransformationContext $_context Il contesto di trasformazione (non utilizzato)
@@ -389,6 +408,7 @@ class AssetTransformer implements Transformer
      */
     public function transform(DataProperty $_property, $value, TransformationContext $_context): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -454,11 +474,14 @@ class AssetTransformer implements Transformer
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         if (!is_string($value) || empty($value)) {
             return '';
         }
         return app(AssetAction::class)->execute($value);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -497,4 +520,6 @@ class AssetTransformer implements Transformer
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 }

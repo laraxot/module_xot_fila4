@@ -18,6 +18,7 @@ namespace Modules\Xot\View\Composers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Auth\Authenticatable;
 use Exception;
 =======
@@ -150,7 +151,15 @@ use Modules\Xot\Actions\File\AssetAction;
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+use Exception;
+use Jenssegers\Agent\Agent;
+use Modules\Xot\Actions\File\AssetAction;
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
@@ -170,6 +179,7 @@ use Modules\Xot\Datas\XotData;
 use Nwidart\Modules\Facades\Module;
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -229,6 +239,8 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
 /**
  * Class XotComposer.
@@ -248,14 +260,6 @@ class XotComposer
     {
         $modules = Module::getOrdered();
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         $module = Arr::first($modules, static function ($module) use ($name): bool {
             // Ensure the module is an instance of LaravelModule
             if (!($module instanceof LaravelModule)) {
@@ -264,10 +268,6 @@ class XotComposer
             if (!($module instanceof LaravelModule)) {
             if (!($module instanceof LaravelModule)) {
                 return false;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
             }
 
             Assert::string($moduleName = $module->getName());
@@ -306,6 +306,33 @@ class XotComposer
 
         Assert::isInstanceOf($module, LaravelModule::class, '['.__LINE__.']['.class_basename($this).']');
         $class = '\Modules\\'.$module->getName().'\View\Composers\ThemeComposer';
+<<<<<<< HEAD
+=======
+=======
+        if (!\is_object($module)) {
+            throw new Exception('Create a View\Composers\ThemeComposer.php inside a module with [' .
+                $name .
+                '] method');
+        }
+
+        Assert::isInstanceOf($module, LaravelModule::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        $class = '\Modules\\' . $module->getName() . '\View\Composers\ThemeComposer';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 091f883c (.)
         $module = Arr::first(
             $modules,
             static function ($module) use ($name): bool {
@@ -647,7 +674,12 @@ class XotComposer
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 
         $app = app($class);
         $callback = [$app, $name];
@@ -669,6 +701,7 @@ class XotComposer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 218dfed3 (.)
@@ -677,6 +710,8 @@ class XotComposer
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         if (class_exists('\Jenssegers\Agent\Agent')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -776,6 +811,7 @@ class XotComposer
             $agent = new Agent();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -836,7 +872,23 @@ class XotComposer
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+=======
+            $agent = new Agent();
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             $view->with('isMobile', $agent->isMobile());
             $view->with('isTablet', $agent->isTablet());
             $view->with('isDesktop', $agent->isDesktop());
@@ -856,6 +908,7 @@ class XotComposer
     public function asset(string $str): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         return asset(app(AssetAction::class)->execute($str));
@@ -867,12 +920,15 @@ class XotComposer
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+        return asset(app(AssetAction::class)->execute($str));
+>>>>>>> 091f883c (.)
     }
 
     public function path(string $str): string
     {
-<<<<<<< HEAD
         return app(AssetPathAction::class)->execute($str);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -907,6 +963,8 @@ class XotComposer
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 
     public function metatag(string $str): string|bool|null
@@ -950,6 +1008,7 @@ class XotComposer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -965,6 +1024,8 @@ class XotComposer
         $fun = 'get'.Str::studly($str);
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
         $fun = 'get'.Str::studly($str);
 =======
         $fun = 'get' . Str::studly($str);
@@ -1113,7 +1174,13 @@ class XotComposer
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+        $fun = 'get' . Str::studly($str);
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         if (method_exists($metatag, $fun)) {
             // @phpstan-ignore return.type
             return $metatag->{$fun}();

@@ -18,6 +18,7 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 =======
@@ -39,14 +40,14 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 =======
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
+>>>>>>> 091f883c (.)
 =======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
+>>>>>>> 9db27d12 (.)
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Model;
@@ -312,15 +313,7 @@ interface HasRecursiveRelationshipsContract
      * @return BelongsTo
      * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
      *
-<<<<<<< HEAD
      * @return BelongsTo
-=======
-<<<<<<< HEAD
-     * @return BelongsTo
-=======
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      */
     public function parent();
      * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>

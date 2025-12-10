@@ -59,6 +59,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
 =======
@@ -139,7 +140,12 @@ return new class extends XotBaseMigration {
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         if (!$this->shouldRun()) {
         if (!$this->shouldRun()) {
         if (!$this->shouldRun()) {
@@ -202,6 +208,7 @@ return new class extends XotBaseMigration {
             $table->index('type'); // For fast lookups and purging...
             $table->unique(['type', 'key_hash']); // For data integrity and upserts...
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,5 +301,7 @@ return new class extends XotBaseMigration {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 };

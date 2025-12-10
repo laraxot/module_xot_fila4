@@ -18,7 +18,10 @@ namespace Modules\Xot\Database\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\PulseEntry;
 
@@ -46,14 +49,14 @@ use Modules\Xot\Models\PulseEntry;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use Modules\Xot\Models\PulseEntry;
 =======
-<<<<<<< HEAD
-use Modules\Xot\Models\PulseEntry;
+>>>>>>> 091f883c (.)
 =======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
+>>>>>>> 9db27d12 (.)
+use Modules\Xot\Models\PulseEntry;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 use Modules\Xot\Models\PulseEntry;
@@ -94,8 +97,8 @@ class PulseEntryFactory extends Factory
      *
      * @var class-string<PulseEntry>
      */
-<<<<<<< HEAD
     protected $model = PulseEntry::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @var class-string<PulseEntry>
@@ -111,14 +114,16 @@ class PulseEntryFactory extends Factory
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     /**
      * Define the model's default state.
      */
     public function definition(): array
     {
-<<<<<<< HEAD
         return [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,5 +165,7 @@ class PulseEntryFactory extends Factory
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 }

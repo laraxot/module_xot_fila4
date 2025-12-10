@@ -33,6 +33,7 @@ Questo documento serve come indice centrale per tutta la documentazione del prog
 ## Linee Guida Generali
 Le linee guida complete per la documentazione sono disponibili in:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
@@ -40,15 +41,21 @@ Le linee guida complete per la documentazione sono disponibili in:
 - [Linee Guida per la Documentazione](../../../Xot/project_docs/guidelines/documentation.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+- [Linee Guida per la Documentazione](../../../Xot/docs/guidelines/documentation.md)
+>>>>>>> 091f883c (.)
 
 ## Documentazione per Modulo
 
 ### Core
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 - [Xot Module](../../../Xot/docs/README.md)
 - [UI Module](../../../UI/docs/README.md)
 - [CMS Module](../../../Cms/docs/README.md)
@@ -75,6 +82,7 @@ Le linee guida complete per la documentazione sono disponibili in:
 - [Changelog](../../../Xot/docs/changelog/README.md)
 - [Contributing](../../../Xot/docs/contributing.md)
 - [Security](../../../Xot/docs/security.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,4 +184,9 @@ Le linee guida complete per la documentazione sono disponibili in:
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)

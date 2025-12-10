@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Tests\Feature;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Tests\Feature;
 
 namespace Modules\Xot\Tests\Feature;
@@ -12,13 +13,9 @@ namespace Modules\Xot\Tests\Feature;
 =======
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
-use Illuminate\Database\ConnectionInterface;
 =======
-<<<<<<< HEAD
+>>>>>>> 091f883c (.)
 use Illuminate\Database\ConnectionInterface;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Modules\Xot\Models\BaseModel;
@@ -68,30 +65,6 @@ use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
 use Modules\Xot\Models\XotBaseModel;
 use Tests\TestCase;
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-use Modules\Xot\Models\XotBaseModel;
-use Modules\Xot\Models\BaseModel;
-use Modules\Xot\Models\Module;
-use Tests\TestCase;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\DB;
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\DB;
-use Modules\Xot\Models\BaseModel;
-use Modules\Xot\Models\Module;
-use Modules\Xot\Models\XotBaseModel;
-use Tests\TestCase;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
 class XotBaseModelBusinessLogicTest extends TestCase
 {
@@ -357,15 +330,7 @@ test('it supports relationship loading', function (): void {
 
         // Assert
         $this->assertNotNull($connection);
-<<<<<<< HEAD
         $this->assertInstanceOf(ConnectionInterface::class, $connection);
-=======
-<<<<<<< HEAD
-        $this->assertInstanceOf(ConnectionInterface::class, $connection);
-=======
-        $this->assertInstanceOf(\Illuminate\Database\ConnectionInterface::class, $connection);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     /** @test */
@@ -1621,6 +1586,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -1665,3 +1631,5 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)

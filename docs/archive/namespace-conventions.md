@@ -9276,6 +9276,7 @@ php scripts/check-namespaces.php
 
 - [PSR-4: Autoloader Standard](https://www.php-fig.org/psr/psr-4/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
@@ -9283,6 +9284,9 @@ php scripts/check-namespaces.php
 - [Laravel Namespacing Conventions](https://laravel.com/project_docs/master/structure)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+- [Laravel Namespacing Conventions](https://laravel.com/docs/master/structure)
+>>>>>>> 091f883c (.)
 - [Nwidart/Laravel-Modules Documentation](https://nwidart.com/laravel-modules/v6/introduction)
 
 

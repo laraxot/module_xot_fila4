@@ -31,6 +31,7 @@ use Illuminate\Mail\Mailable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -38,6 +39,8 @@ use Illuminate\Mail\Mailable;
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailable;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
@@ -118,50 +121,15 @@ use Modules\Xot\Actions\Mail\SendMailByRecordAction;
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use Illuminate\Mail\Mailable;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Mail\Mailable;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Xot\Actions\Mail\SendMailByRecordAction;
-=======
-use Modules\Xot\Actions\Mail\SendMailByRecordAction;
-use Illuminate\Database\Eloquent\Model;
->>>>>>> origin/develop
-
-it('throws if record has no email', function (): void {
-    $record = new class extends Model {
-        // no email attribute
-<<<<<<< HEAD
-        public function option(string $key): null|string
-        {
-            return null;
-        }
-
-        public function myLogs()
-        {
-            return new class {
-                public function create(array $data): void
-                {
-                }
-            };
-        }
-    };
-
-    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
-=======
-namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
-=======
-use Illuminate\Mail\Mailable;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Xot\Actions\Mail\SendMailByRecordAction;
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
 
 it('throws if record has no email', function (): void {
     $record = new class extends Model {
@@ -180,6 +148,7 @@ it('throws if record has no email', function (): void {
         }
     };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 it('throws if record has no email', function (): void {
@@ -206,6 +175,22 @@ it('throws if record has no email', function (): void {
         }
     };
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 091f883c (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,6 +387,12 @@ namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         ->toThrow(InvalidArgumentException::class);
 });

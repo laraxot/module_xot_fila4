@@ -18,6 +18,7 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 =======
@@ -39,14 +40,14 @@ use Illuminate\Support\Carbon;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use Illuminate\Support\Carbon;
 =======
-<<<<<<< HEAD
-use Illuminate\Support\Carbon;
+>>>>>>> 091f883c (.)
 =======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
+>>>>>>> 9db27d12 (.)
+use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
@@ -63,10 +64,14 @@ use Illuminate\Database\Eloquent\Model;
  * Modules\Xot\Contracts\UpdaterContract.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 091f883c (.)
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +126,7 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
  * @property string|null                     $created_by
  * @property string|null                     $updated_by
@@ -128,6 +134,10 @@ use Illuminate\Database\Eloquent\Model;
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
  * @property string|null                     $updated_by
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
  * @property string|null                     $created_by
  * @property string|null                     $updated_by
  * @property string|null                     $created_by

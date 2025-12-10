@@ -139,6 +139,7 @@ interface ModelInputContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -162,6 +163,8 @@ interface ModelInputContract
 interface ModelInputContract {}
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
 interface ModelInputContract {}
 =======
 interface ModelInputContract
@@ -417,4 +420,12 @@ interface ModelInputContract
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+interface ModelInputContract
+{
+}
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)

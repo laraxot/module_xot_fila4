@@ -18,7 +18,10 @@ namespace Modules\Xot\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Exception;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\File\FixPathAction;
@@ -48,16 +51,14 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
->>>>>>> ce6fc085 (.)
-use Modules\Xot\Actions\File\FixPathAction;
-use Exception;
-=======
 <<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use Modules\Xot\Actions\File\FixPathAction;
 use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -83,7 +84,10 @@ class GetViewAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
      * @return view-string
      *
      * @throws Exception
@@ -116,15 +120,14 @@ class GetViewAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
      * @throws Exception
 =======
-<<<<<<< HEAD
-     * @throws Exception
+>>>>>>> 091f883c (.)
 =======
-     * @throws \Exception
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
+>>>>>>> 9db27d12 (.)
+     * @throws Exception
      *
      * @return view-string
      */
@@ -132,6 +135,7 @@ class GetViewAction
     {
         if ('' === $file0) {
             $backtrace = debug_backtrace();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -144,6 +148,9 @@ class GetViewAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+            $file0 = app(FixPathAction::class)->execute($backtrace[0]['file'] ?? '');
+>>>>>>> 091f883c (.)
         }
 
         $file0 = Str::after($file0, base_path());
@@ -161,12 +168,6 @@ class GetViewAction
         // $tmp = array_slice($arr, 3);//senza "app"
         $tmp = array_slice($arr, 4); // con "app"
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         $tmp = collect($tmp)
             ->map(static function ($item) {
                 $item = str_replace('.php', '', $item);
@@ -206,6 +207,7 @@ class GetViewAction
 
         if ('' !== $tpl) {
             $pub_view .= '.' . $tpl;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -274,6 +276,8 @@ class GetViewAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         }
         if (view()->exists($pub_view)) {
             return $pub_view;
@@ -285,6 +289,7 @@ class GetViewAction
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,6 +489,8 @@ class GetViewAction
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         $view = Str::lower($mod).'::'.$tmp;
 
         if ($tpl !== '') {
@@ -564,10 +571,13 @@ class GetViewAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
         $view = Str::lower($mod) . '::' . $tmp;
 
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -746,7 +756,12 @@ class GetViewAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         }
 
         // if (inAdmin()) {
@@ -789,6 +804,7 @@ class GetViewAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -804,6 +820,8 @@ class GetViewAction
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
 =======
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
@@ -952,7 +970,13 @@ class GetViewAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             $view = Str::replace('::panels.actions.', $to, $view);
             $view = Str::replace('-action', '', $view);
         }
@@ -963,6 +987,7 @@ class GetViewAction
         if (! view()->exists($view)) {
             throw new Exception('View ['.$view.'] not found');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1335,7 +1360,15 @@ class GetViewAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         }
 
         return $view;

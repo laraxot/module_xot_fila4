@@ -18,7 +18,10 @@ namespace Modules\Xot\Actions\Query;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use InvalidArgumentException;
@@ -49,16 +52,14 @@ use Throwable;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
->>>>>>> ce6fc085 (.)
-use InvalidArgumentException;
-use Throwable;
-=======
 <<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use InvalidArgumentException;
 use Throwable;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Spatie\QueueableAction\QueueableAction;
@@ -81,18 +82,14 @@ final class GetFieldnamesByTablenameAction
      * @param string $table          Table name to get columns from
      * @param string|null $connectionName Database connection name (optional)
      *
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
      * @throws InvalidArgumentException
      *
      * @return list
      */
-<<<<<<< HEAD
     public function execute(string $table, null|string $connectionName = null): array
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,7 +242,12 @@ final class GetFieldnamesByTablenameAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     {
         // Validate table name
         if (empty(trim($table))) {
@@ -253,11 +255,6 @@ final class GetFieldnamesByTablenameAction
         }
 
         // Use default connection if none is provided
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         Assert::string($connectionName ??= config('database.default'));
 
         // Validate database connection
@@ -280,6 +277,7 @@ final class GetFieldnamesByTablenameAction
                 $table,
                 $connectionName,
             ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +372,8 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         }
 
         // Get and return column listing
@@ -383,12 +383,6 @@ final class GetFieldnamesByTablenameAction
             // $columns = array_map('strval', $columns);
 
             return $columns;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
             // return array_values(array_map(static fn ($value): string => is_string($value) ? $value : (string) $value, $columns));
         } catch (Throwable $e) {
@@ -397,6 +391,7 @@ final class GetFieldnamesByTablenameAction
                 $table,
                 $e->getMessage(),
             ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -447,6 +442,8 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         }
     }
 
@@ -460,6 +457,7 @@ final class GetFieldnamesByTablenameAction
 
             return true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         } catch (Throwable $e) {
@@ -471,6 +469,9 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+        } catch (Throwable $e) {
+>>>>>>> 091f883c (.)
             return false;
         }
     }

@@ -140,16 +140,17 @@ php artisan config:cache
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 2025-01-06* 
 =======
 =======
 >>>>>>> ce6fc085 (.)
-- [Documentazione Root](/docs/env-config-loading-issue.md)
 =======
-- [Documentazione Root](/project_docs/env-config-loading-issue.md)
->>>>>>> 6cba4fe (.)
+>>>>>>> 091f883c (.)
+- [Documentazione Root](/docs/env-config-loading-issue.md)
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 85cdef688 (.)
 =======
@@ -157,3 +158,5 @@ php artisan config:cache
 
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 091f883c (.)

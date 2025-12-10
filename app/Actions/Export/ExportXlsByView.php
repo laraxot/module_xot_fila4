@@ -34,6 +34,7 @@ use Illuminate\Contracts\View\View;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -123,7 +124,12 @@ use Illuminate\Support\Collection;
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -134,6 +140,7 @@ use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\ViewExport;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -185,6 +192,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
 /**
  * Classe per l'esportazione di viste in formato Excel.
@@ -241,6 +250,7 @@ class ExportXlsByView
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?string $transKey = null,
 =======
 =======
@@ -321,7 +331,12 @@ class ExportXlsByView
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         null|string $transKey = null,
         null|string $transKey = null,
         null|string $transKey = null,
@@ -341,34 +356,12 @@ class ExportXlsByView
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(strval(...), array_values($fields));
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-        ?string $transKey = null,
-    ): BinaryFileResponse {
-        // Assicuriamo che $fields sia un array di stringhe
-        $stringFields = array_map(function (string|int|float|bool $field): string {
-                return strval($field);
-            }, array_values($fields));
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-        null|string $transKey = null,
-    ): BinaryFileResponse {
-        // Assicuriamo che $fields sia un array di stringhe
-        $stringFields = array_map(strval(...), array_values($fields));
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
         $export = new ViewExport(
             view: $view,
             transKey: $transKey,
-<<<<<<< HEAD
             fields: $stringFields,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,6 +396,8 @@ class ExportXlsByView
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         );
 
         return Excel::download($export, $filename);

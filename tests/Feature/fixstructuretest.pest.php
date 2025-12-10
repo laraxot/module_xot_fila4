@@ -1,11 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 declare(strict_types=1);
 
 use Modules\Xot\Tests\TestCase;
@@ -15,6 +9,7 @@ use Illuminate\Support\Facades\Storage;
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,13 +72,16 @@ uses(\Modules\Xot\Tests\TestCase::class);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+uses(TestCase::class);
+>>>>>>> 091f883c (.)
 
 beforeEach(function () {
     // Create a temporary directory for testing
     $this->testDir = sys_get_temp_dir() . '/fix_structure_test_' . uniqid();
-<<<<<<< HEAD
     mkdir($this->testDir, 0o755, true);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +123,8 @@ beforeEach(function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     // Set the working directory
     chdir($this->testDir);
 });
@@ -135,12 +135,6 @@ afterEach(function () {
 });
 
 // Recursive function to remove a directory and its contents
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 function rrmdir($dir)
 {
     if (is_dir($dir)) {
@@ -151,6 +145,7 @@ function rrmdir($dir)
                     rrmdir($dir . DIRECTORY_SEPARATOR . $object);
                 } else {
                     unlink($dir . DIRECTORY_SEPARATOR . $object);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,6 +207,8 @@ function rrmdir($dir) {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
                 }
             }
         }
@@ -221,8 +218,8 @@ function rrmdir($dir) {
 
 test('creates necessary directories and files', function () {
     // Run the command
-<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +258,8 @@ test('creates necessary directories and files', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     // Check if directories were created
     $directories = [
@@ -305,8 +304,8 @@ test('does not overwrite existing files', function () {
     file_put_contents($testFile, $testContent);
 
     // Run the command
-<<<<<<< HEAD
     $this->artisan('xot:fix-structure')->assertExitCode(0);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,6 +344,8 @@ test('does not overwrite existing files', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     // Verify the file was not overwritten
     $this->assertStringEqualsFile($testFile, $testContent);
@@ -353,12 +354,6 @@ test('does not overwrite existing files', function () {
 test('handles errors gracefully', function () {
     // Make a directory non-writable to test error handling
     $nonWritableDir = $this->testDir . '/app';
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     chmod($nonWritableDir, 0o555);
 
     // Run the command and expect an error
@@ -366,6 +361,7 @@ test('handles errors gracefully', function () {
 
     // Restore permissions
     chmod($nonWritableDir, 0o755);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -423,4 +419,6 @@ test('handles errors gracefully', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 });

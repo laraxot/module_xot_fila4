@@ -28,8 +28,8 @@ class CustomRelationAction
         foreach ($relationDTO->data as $data) {
             Assert::isArray($data);
             if (\in_array($keyName, array_keys($data), false)) {
-<<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -72,6 +72,8 @@ class CustomRelationAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {

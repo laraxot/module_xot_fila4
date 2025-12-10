@@ -4,14 +4,6 @@ declare(strict_types=1);
 
 return [
     /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -21,6 +13,7 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63,6 +56,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     'backend' => [
         'access' => [
@@ -76,6 +71,7 @@ return [
                 'not_found' => 'El Rol requerido no existe.',
                 'update_error' => 'Hubo un problema al modificar el Rol. Intentelo de nuevo.',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,6 +107,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             'users' => [
                 'cant_deactivate_self' => 'No puede desactivarse a sí mismo.',
                 'cant_delete_self' => 'No puede eliminarse usted mismo.',
@@ -133,6 +131,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -164,6 +163,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -176,9 +177,9 @@ return [
                 'success' => 'Su cuenta ha sido verificada satisfactoriamente!',
                 'resent' => 'Un nuevo correo de verificación le ha sido enviado.',
             ],
-<<<<<<< HEAD
             'deactivated' => 'Su cuenta ha sido desactivada.',
             'email_taken' => 'El correo especificado ya está registrado.',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -229,6 +230,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             'password' => [
                 'change_mismatch' => 'La contraseña antigua no coincide.',
             ],

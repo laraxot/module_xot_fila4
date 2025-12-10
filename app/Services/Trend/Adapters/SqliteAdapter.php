@@ -31,6 +31,7 @@ namespace Modules\Xot\Services\Trend\Adapters;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2f3197ab (.)
 use Override;
@@ -99,18 +100,9 @@ use Override;
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
-use Override;
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+>>>>>>> 9db27d12 (.)
 use Override;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Override;
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
 use Error;
 use Override;
 use Error;
@@ -119,8 +111,8 @@ use Error;
 
 class SqliteAdapter extends AbstractAdapter
 {
-<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,6 +173,8 @@ class SqliteAdapter extends AbstractAdapter
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     public function format(string $column, string $interval): string
     {
         $format = match ($interval) {
@@ -189,8 +183,8 @@ class SqliteAdapter extends AbstractAdapter
             'day' => '%Y-%m-%d',
             'month' => '%Y-%m',
             'year' => '%Y',
-<<<<<<< HEAD
             default => throw new Error('Invalid interval.'),
+<<<<<<< HEAD
 <<<<<<< HEAD
             default => throw new Error('Invalid interval.'),
             default => throw new Error('Invalid interval.'),
@@ -203,6 +197,8 @@ class SqliteAdapter extends AbstractAdapter
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         };
 
         return sprintf("strftime('%s', %s)", $format, $column);

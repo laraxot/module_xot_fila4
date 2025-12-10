@@ -19,6 +19,7 @@ PROMPT='%F{green}%n@%m%f %F{magenta}arm64 %F{yellow}%~ %F{cyan}${vcs_info_msg_0_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [zsh.md](../../../Xot/docs/install/zsh.md)
 * [zsh.md](../../../Xot/docs/ubuntu/zsh.md)
@@ -35,6 +36,10 @@ PROMPT='%F{green}%n@%m%f %F{magenta}arm64 %F{yellow}%~ %F{cyan}${vcs_info_msg_0_
 * [zsh.md](../../../Xot/project_docs/ubuntu/zsh.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+* [zsh.md](../../../Xot/docs/install/zsh.md)
+* [zsh.md](../../../Xot/docs/ubuntu/zsh.md)
+>>>>>>> 091f883c (.)
 
 
 ### Versione Incoming

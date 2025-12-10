@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\File;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -15,6 +16,9 @@ use Exception;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+use Exception;
+>>>>>>> 091f883c (.)
 use Illuminate\Support\Facades\File;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -51,6 +55,7 @@ class CopyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -58,6 +63,8 @@ class CopyAction
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         if (! File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
@@ -151,7 +158,12 @@ class CopyAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         if (!File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
@@ -161,6 +173,7 @@ class CopyAction
                     $e->getMessage(),
                     '\n[' . __LINE__ . '][' . class_basename(static::class) . ']',
                 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,6 +234,8 @@ class CopyAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             }
         }
 
@@ -235,6 +250,7 @@ class CopyAction
         // not rewite
         try {
             File::copy($from, $to);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -261,6 +277,9 @@ class CopyAction
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+        } catch (Exception $exception) {
+>>>>>>> 091f883c (.)
             throw new Exception(
                 'Unable to copy
                     from ['.
@@ -283,6 +302,7 @@ class CopyAction
                 $exception->getCode(),
                 $exception,
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -327,6 +347,8 @@ class CopyAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         }
     }
 }

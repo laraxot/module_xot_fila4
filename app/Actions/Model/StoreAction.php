@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -15,6 +16,9 @@ use Exception;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+use Exception;
+>>>>>>> 091f883c (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Session;
@@ -40,6 +44,7 @@ class StoreAction
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,26 +347,27 @@ class StoreAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+    public function execute(Model $model, array $data, array $rules): Model
+    {
+        if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             $data['lang'] = app()->getLocale();
         }
         $data['updated_by'] = authId();
         $data['created_by'] = authId();
         /*if (
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
          * ! isset($data['user_id'])
          * && \in_array('user_id',  $row->getFillable(), false)
          * && 'user_id' !== $row->getKeyName()
          * ) {
          * $data['user_id'] = \Auth::id();
          * }*/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,6 +407,8 @@ class StoreAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
         $validator = Validator::make($data, $rules);
         $validator->validate();
@@ -425,13 +433,13 @@ class StoreAction
             $relationshipType = class_basename($relationClass);
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
-<<<<<<< HEAD
 
 <<<<<<< HEAD
             $relationClass = get_class($relation);
             $relationshipType = class_basename($relationClass);
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,7 +527,12 @@ class StoreAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             $action_class = __NAMESPACE__ . '\\Store\\' . $relationshipType . 'Action';
             $action = app($action_class);
             Assert::object($action);
@@ -527,6 +540,7 @@ class StoreAction
                 throw new Exception('method [execute] not found in [' . $action_class . ']');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -740,7 +754,12 @@ class StoreAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             }
             $action->execute($model, $relation);
         }

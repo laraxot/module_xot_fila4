@@ -8,8 +8,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
-<<<<<<< HEAD
 use Exception;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Exception;
 use Exception;
@@ -21,6 +21,8 @@ use Exception;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Illuminate\Console\Command;
 use Modules\Xot\Actions\ParsePrintPageStringAction;
 
@@ -46,7 +48,6 @@ class ParsePrintPageStringCommand extends Command
      *
      * @return void
      */
-<<<<<<< HEAD
     
 <<<<<<< HEAD
     
@@ -57,6 +58,7 @@ class ParsePrintPageStringCommand extends Command
     
     
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,7 +264,12 @@ class ParsePrintPageStringCommand extends Command
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 
     /**
      * Execute the console command.
@@ -272,6 +279,7 @@ class ParsePrintPageStringCommand extends Command
         $str = $this->argument('str');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +360,8 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         if (! is_string($str)) {
 =======
 =======
@@ -372,6 +382,8 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
         if (!is_string($str)) {
 >>>>>>> 5a14301c (.)
 =======
@@ -460,6 +472,7 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> 3310e9c6 (.)
 >>>>>>> a67e542f (.)
             throw new Exception('argument str must be a string');
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! is_string($str)) {
         if (!is_string($str)) {
@@ -538,6 +551,8 @@ class ParsePrintPageStringCommand extends Command
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         }
         dddx(app(ParsePrintPageStringAction::class)->execute($str));
     }

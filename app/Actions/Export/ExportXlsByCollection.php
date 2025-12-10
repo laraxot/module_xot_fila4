@@ -18,6 +18,7 @@ namespace Modules\Xot\Actions\Export;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Model;
 =======
@@ -54,14 +55,14 @@ use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use Illuminate\Database\Eloquent\Model;
 =======
-<<<<<<< HEAD
+>>>>>>> 091f883c (.)
+=======
+>>>>>>> 9db27d12 (.)
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -85,6 +86,7 @@ use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -144,6 +146,8 @@ use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
 /**
  * Classe per l'esportazione di collezioni in formato Excel.
@@ -169,7 +173,10 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
      * @param  Collection<int|string, mixed>|EloquentCollection<int, Model>  $collection  La collezione da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  string|null  $transKey  Chiave di traduzione per i campi
@@ -199,15 +206,14 @@ class ExportXlsByCollection
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
      * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $collection La collezione da esportare
 =======
-<<<<<<< HEAD
-     * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $collection La collezione da esportare
+>>>>>>> 091f883c (.)
 =======
-     * @param Collection<int|string, mixed>|EloquentCollection<int, \Illuminate\Database\Eloquent\Model> $collection La collezione da esportare
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
+>>>>>>> 9db27d12 (.)
+     * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $collection La collezione da esportare
      * @param string $filename Nome del file Excel
      * @param string|null $transKey Chiave di traduzione per i campi
      * @param array<int, string> $fields Campi da includere nell'export
@@ -223,6 +229,7 @@ class ExportXlsByCollection
         null|string $transKey = null,
         ?string $transKey = null,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -336,7 +343,12 @@ class ExportXlsByCollection
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         null|string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
@@ -347,6 +359,7 @@ class ExportXlsByCollection
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +454,8 @@ class ExportXlsByCollection
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         );
 
         return Excel::download($export, $filename);
@@ -451,6 +466,7 @@ class ExportXlsByCollection
      *
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -489,15 +505,14 @@ class ExportXlsByCollection
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
      * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $rows La collezione da esportare
 =======
-<<<<<<< HEAD
-     * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $rows La collezione da esportare
+>>>>>>> 091f883c (.)
 =======
-     * @param Collection<int|string, mixed>|EloquentCollection<int, \Illuminate\Database\Eloquent\Model> $rows La collezione da esportare
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
+>>>>>>> 9db27d12 (.)
+     * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $rows La collezione da esportare
      * @param array<int, string> $fields Campi da includere nell'export
      * @param string $filename Nome del file Excel
      *
@@ -621,6 +636,7 @@ class ExportXlsByCollection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  EloquentCollection<int, Model>  $eloquentCollection
 =======
 >>>>>>> ce6fc085 (.)
@@ -671,7 +687,13 @@ class ExportXlsByCollection
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
      * @return Collection<int|string, mixed>
      */
     protected function convertToSupportCollection(EloquentCollection $eloquentCollection): Collection

@@ -39,8 +39,8 @@ class PdfByHtmlAction
 
         return match ($out) {
             'download' => response()->download($path, $filename, $headers),
-<<<<<<< HEAD
             'content' => $html2pdf->output($path, 'S'), // D
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,6 +75,8 @@ class PdfByHtmlAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             default => $path,
         };
     }

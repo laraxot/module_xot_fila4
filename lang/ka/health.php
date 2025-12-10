@@ -8,8 +8,8 @@ return [
             'buttons' => [
                 'refresh' => 'განახლება',
             ],
-<<<<<<< HEAD
             'heading' => 'აპლიკაციის სტატუსი',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +54,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             'navigation' => [
                 'group' => 'პარამეტრები',
                 'label' => 'სერვერის ჯანმრთელობა',
@@ -62,6 +64,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -93,6 +96,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             'notifications' => [
                 'check_results' => 'ბოლოს შემოწმდა:',
             ],

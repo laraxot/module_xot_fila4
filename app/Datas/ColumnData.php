@@ -11,8 +11,8 @@ class ColumnData extends Data
     public function __construct(
         public string $name,
         public string $type,
-<<<<<<< HEAD
     ) {}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,4 +51,6 @@ class ColumnData extends Data
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 }

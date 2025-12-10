@@ -40,7 +40,10 @@ use Filament\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\Arr\SaveArrayAction;
@@ -65,7 +68,12 @@ use Modules\Xot\Filament\Resources\ModuleResource;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 <<<<<<< HEAD
 =======
@@ -117,20 +125,6 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 3310e9c6 (.)
 use Illuminate\Database\Eloquent\Model;
-=======
-<<<<<<< HEAD
-use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Model;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Illuminate\Database\Eloquent\Model;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Filament\Actions;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\Arr\SaveArrayAction;
@@ -156,31 +150,10 @@ use Modules\Xot\Actions\Array\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Models\Module;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
 /**
  * @property Module $record
  */
 class EditModule extends XotBaseEditRecord
-<<<<<<< HEAD
-=======
-=======
-
-/**
- * @property Module $record
- */
-class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 {
     protected static string $resource = ModuleResource::class;
 
@@ -228,6 +201,7 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -235,6 +209,8 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         if (! ($module instanceof Model) || ! isset($module->path)) {
             return;
         }
@@ -329,13 +305,17 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         if (!($module instanceof Model) || !isset($module->path)) {
             return;
         }
 
         $config_path = $module->path . '/config/config.php';
-<<<<<<< HEAD
         $data = File::getRequire($config_path);
         if (!is_array($data)) {
 <<<<<<< HEAD
@@ -405,6 +385,7 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
         $data = File::getRequire($config_path);
         if (! is_array($data)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -579,7 +560,12 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             $data = [];
         }
         $data = array_merge($data, $module->toArray());
@@ -587,14 +573,6 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
         app(SaveArrayAction::class)->execute($data, $config_path);
 
         /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
          * $configPath = config_path('modules/colors.php');
          *
          * // Prepara l'array di colori
@@ -617,6 +595,7 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
          * // Richiama il file di configurazione per essere sicuro che i colori siano caricati
          * Config::set('modules.colors', $colorsConfig);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -672,5 +651,7 @@ class EditModule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 }

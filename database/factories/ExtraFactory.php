@@ -18,7 +18,10 @@ namespace Modules\Xot\Database\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\Extra;
 
@@ -46,14 +49,14 @@ use Modules\Xot\Models\Extra;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use Modules\Xot\Models\Extra;
 =======
-<<<<<<< HEAD
-use Modules\Xot\Models\Extra;
+>>>>>>> 091f883c (.)
 =======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
+>>>>>>> 9db27d12 (.)
+use Modules\Xot\Models\Extra;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 use Modules\Xot\Models\Extra;
@@ -94,8 +97,8 @@ class ExtraFactory extends Factory
      *
      * @var class-string<Extra>
      */
-<<<<<<< HEAD
     protected $model = Extra::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @var class-string<Extra>
@@ -111,6 +114,8 @@ class ExtraFactory extends Factory
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     /**
      * Define the model's default state.

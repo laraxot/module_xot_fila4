@@ -8,6 +8,7 @@ namespace Modules\Xot\Http\Middleware;
  * https://laravel.com/docs/8.x/urls#default-values
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Closure;
@@ -19,6 +20,9 @@ use Closure;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+use Closure;
+>>>>>>> 091f883c (.)
 use Filament\Facades\Filament;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -33,14 +37,6 @@ class SetDefaultTenantForUrlsMiddleware
     /**
      * Handle the incoming request.
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
     public function handle(
         Request $request,
         Closure $next,
@@ -49,6 +45,7 @@ class SetDefaultTenantForUrlsMiddleware
             'tenant' => Filament::getTenant(),
             // 'referrer' => url()->previous(),
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95,6 +92,8 @@ class SetDefaultTenantForUrlsMiddleware
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
         // @phpstan-ignore return.type
         return $next($request);

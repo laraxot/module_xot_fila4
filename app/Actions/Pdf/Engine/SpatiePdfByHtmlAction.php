@@ -32,8 +32,8 @@ class SpatiePdfByHtmlAction
 
         return match ($out) {
             'download' => response()->download($path, $filename, $headers),
-<<<<<<< HEAD
             'content' => $html2pdf->output($path, 'S'), // D
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,6 +68,8 @@ class SpatiePdfByHtmlAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             default => $path,
         };
     }

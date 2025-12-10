@@ -14,8 +14,8 @@ class HasManyAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,6 +50,8 @@ class HasManyAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, HasMany::class);
 

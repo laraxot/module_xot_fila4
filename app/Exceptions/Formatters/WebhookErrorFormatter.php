@@ -20,6 +20,7 @@ use Throwable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Auth;
 use Throwable;
 =======
@@ -41,14 +42,14 @@ use Throwable;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use Throwable;
 =======
-<<<<<<< HEAD
-use Throwable;
+>>>>>>> 091f883c (.)
 =======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
+>>>>>>> 9db27d12 (.)
+use Throwable;
 use Illuminate\Support\Facades\Auth;
 use Throwable;
 use Illuminate\Support\Facades\Auth;
@@ -70,8 +71,8 @@ use Illuminate\Support\Facades\Auth;
 class WebhookErrorFormatter
 {
     public function __construct(
-<<<<<<< HEAD
         private Throwable $exception,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,6 +107,8 @@ class WebhookErrorFormatter
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     ) {}
 
     /**
@@ -121,12 +124,6 @@ class WebhookErrorFormatter
             'file' => $this->exception->getFile(),
             'line' => $this->exception->getLine(),
             'trace' => $this->exception->getTraceAsString(),
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
             'exception' => sprintf('`%s` (Code `%s`)', get_class($this->exception), $this->exception->getCode()),
             'thrown_in' => sprintf('`%s`:%d', $this->exception->getFile(), $this->exception->getLine()),
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
@@ -140,6 +137,7 @@ class WebhookErrorFormatter
              * $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
              * ),
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,6 +231,8 @@ class WebhookErrorFormatter
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         ];
     }
 }

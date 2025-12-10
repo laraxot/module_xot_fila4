@@ -35,20 +35,6 @@ class SanitizeFieldsHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-            
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             ->tooltip('sanitize')
             ->icon('heroicon-o-shield-exclamation')
             ->action(function (ListRecords $livewire): void {
@@ -112,6 +98,7 @@ class SanitizeFieldsHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -139,6 +126,8 @@ class SanitizeFieldsHeaderAction extends Action
                 if (! is_iterable($rows)) {
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
                 if (! is_iterable($rows)) {
 =======
                 if (!is_iterable($rows)) {
@@ -353,7 +342,13 @@ class SanitizeFieldsHeaderAction extends Action
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
                     $rows = [];
                 }
                 $c = 0;
@@ -388,6 +383,7 @@ class SanitizeFieldsHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -395,6 +391,8 @@ class SanitizeFieldsHeaderAction extends Action
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
                         $fieldName = is_string($field) ? $field : (string) $field;
                         $item = $row->{$fieldName};
                         Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
@@ -492,33 +490,15 @@ class SanitizeFieldsHeaderAction extends Action
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
                         Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
                         $string = app(SanitizeAction::class)->execute($item);
                         if ($string !== $item) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-                        $string = app(SanitizeAction::class)->execute($item);
-                        if ($string !== $item) {
-=======
-                        Assert::string($item = $row->{$field});
-                        $string = app(SanitizeAction::class)->execute($item);
-                        if ($string != $item) {
->>>>>>> a12f125f4a (.)
-=======
-                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-                        $string = app(SanitizeAction::class)->execute($item);
-                        if ($string !== $item) {
->>>>>>> b93ef594b4 (.)
-=======
-                        Assert::string($item = $row->{$field});
-                        $string = app(SanitizeAction::class)->execute($item);
-                        if ($string != $item) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                             $row->{$field} = $string;
                             $save = true;
                             ++$c;
@@ -643,6 +623,7 @@ class SanitizeFieldsHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -670,6 +651,8 @@ class SanitizeFieldsHeaderAction extends Action
                     ->title(''.$c.' record sanitized')
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
                     ->title(''.$c.' record sanitized')
 =======
                     ->title('' . $c . ' record sanitized')
@@ -884,7 +867,13 @@ class SanitizeFieldsHeaderAction extends Action
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
                     ->success()
                     ->send();
             });
@@ -924,6 +913,7 @@ class SanitizeFieldsHeaderAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -951,6 +941,8 @@ class SanitizeFieldsHeaderAction extends Action
     public static function getDefaultName(): ?string
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
@@ -1165,7 +1157,13 @@ class SanitizeFieldsHeaderAction extends Action
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     {
         return 'sanitize-fields-header';
     }

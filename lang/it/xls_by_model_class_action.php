@@ -2,14 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
 return [
     'id' => 'id',
     'level' => 'level',
@@ -22,6 +14,7 @@ return [
     'updated_at' => 'updated_at',
     'deleted_at' => 'deleted_at',
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,3 +47,5 @@ return ['id' => 'id', 'level' => 'level', 'name' => 'name', 'color' => 'color', 
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)

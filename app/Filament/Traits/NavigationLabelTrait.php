@@ -17,19 +17,12 @@ trait NavigationLabelTrait
 {
     use TransTrait;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
     // public function getModelLabel(): string
     // {
     //     return static::transFunc(__FUNCTION__);
     // }
     // Rimosso per compatibilità Filament v4 - il metodo è già definito nella classe Resource
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,12 +60,14 @@ trait NavigationLabelTrait
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     public static function getPluralModelLabel(): string
     {
         return static::getNavigationLabel();
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,6 +101,8 @@ trait NavigationLabelTrait
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         // return static::transFunc(__FUNCTION__);
     }
 
@@ -161,6 +158,7 @@ trait NavigationLabelTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -188,6 +186,8 @@ trait NavigationLabelTrait
     public static function getNavigationSort(): ?int
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
     public static function getNavigationSort(): ?int
 =======
     public static function getNavigationSort(): null|int
@@ -402,7 +402,13 @@ trait NavigationLabelTrait
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+    public static function getNavigationSort(): null|int
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     {
         $res = static::transFunc(__FUNCTION__);
 
@@ -435,6 +441,7 @@ trait NavigationLabelTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -442,6 +449,8 @@ trait NavigationLabelTrait
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         if ($value === 0) {
         if (0 === $value) {
         if (0 === $value) {
@@ -654,7 +663,13 @@ trait NavigationLabelTrait
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+        if (0 === $value) {
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             $key = static::getKeyTransFunc(__FUNCTION__);
             $value = rand(1, 100);
             app(SaveTransAction::class)->execute($key, $value);
@@ -675,12 +690,6 @@ trait NavigationLabelTrait
 
         return $default;
     }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
     /*
      *
@@ -728,6 +737,7 @@ trait NavigationLabelTrait
  * return $res;
  * }
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -870,3 +880,5 @@ public static function transPath(string $key): string
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)

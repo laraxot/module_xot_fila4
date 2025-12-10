@@ -45,8 +45,8 @@ class AuthData extends Data
             'twitter' => false,
             'github' => false,
         ],
-<<<<<<< HEAD
     ) {}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +85,8 @@ class AuthData extends Data
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     /**
      * Create a new instance of AuthData with default values.

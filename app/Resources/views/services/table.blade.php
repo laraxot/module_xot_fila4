@@ -1,26 +1,8 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 <table border="1" class="table table-bordered">
 @foreach ($rows as $row)
     <tr>
@@ -29,8 +11,8 @@ declare(strict_types=1);
         @endforeach
     </td>
 @endforeach
-<<<<<<< HEAD
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -64,3 +46,5 @@ declare(strict_types=1);
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)

@@ -123,6 +123,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - `/laravel/Modules/Lang/docs/`: Documentazione tradotta
 >>>>>>> 85cdef688 (.)
@@ -135,24 +136,19 @@
    - `/laravel/Modules/Lang/project_docs/`: Documentazione tradotta
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+   - `/laravel/Modules/Lang/docs/`: Documentazione tradotta
+>>>>>>> 091f883c (.)
    - `/laravel/Modules/Lang/resources/lang/`: File di traduzione
    - Struttura per lingua: `it/`, `en/`, etc.
 
 2. **Moduli con Traduzioni**
    - Ogni modulo ha la sua cartella `docs/`
-<<<<<<< HEAD
    - Collegamenti bidirezionali con `Lang/docs/`
    - File di traduzione nel modulo `Lang`
 
 3. **Collegamenti Bidirezionali**
    - Ogni file `.md` deve avere un corrispondente in `Lang/docs/`
-=======
-   - Collegamenti bidirezionali con `Lang/project_docs/`
-   - File di traduzione nel modulo `Lang`
-
-3. **Collegamenti Bidirezionali**
-   - Ogni file `.md` deve avere un corrispondente in `Lang/project_docs/`
->>>>>>> 6cba4fe (.)
    - I collegamenti devono essere mantenuti aggiornati
    - Le traduzioni devono essere sincronizzate
 
@@ -164,19 +160,11 @@
 
 5. **Struttura dei File**
    ```
-<<<<<<< HEAD
    Module/docs/
    ├── it/
    │   └── file.md -> ../../Lang/docs/it/file.md
    └── en/
        └── file.md -> ../../Lang/docs/en/file.md
-=======
-   Module/project_docs/
-   ├── it/
-   │   └── file.md -> ../../Lang/project_docs/it/file.md
-   └── en/
-       └── file.md -> ../../Lang/project_docs/en/file.md
->>>>>>> 6cba4fe (.)
    ```
 
 6. **Validazione**
@@ -203,6 +191,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [search.md](../../../Xot/docs/features/search.md)
 * [search.md](../../../Xot/docs/rules/search.md)
@@ -219,4 +208,8 @@
 * [search.md](../../../Xot/project_docs/rules/search.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+* [search.md](../../../Xot/docs/features/search.md)
+* [search.md](../../../Xot/docs/rules/search.md)
+>>>>>>> 091f883c (.)
 

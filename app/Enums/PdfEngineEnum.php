@@ -35,6 +35,7 @@ namespace Modules\Xot\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -85,6 +86,7 @@ use Filament\Support\Contracts\HasColor;
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 <<<<<<< HEAD
@@ -95,11 +97,12 @@ use Filament\Support\Contracts\HasIcon;
 >>>>>>> a67e542f (.)
 =======
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+>>>>>>> 091f883c (.)
+=======
+>>>>>>> 9db27d12 (.)
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
+<<<<<<< HEAD
 =======
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
@@ -114,6 +117,8 @@ use Filament\Support\Contracts\HasColor;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Filament\Support\Contracts\HasLabel;
 
 enum PdfEngineEnum: string implements HasColor, HasIcon, HasLabel

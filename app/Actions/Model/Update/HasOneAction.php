@@ -18,7 +18,10 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use InvalidArgumentException;
@@ -49,16 +52,14 @@ use RuntimeException;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
->>>>>>> ce6fc085 (.)
-use RuntimeException;
-use InvalidArgumentException;
-=======
 <<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use RuntimeException;
 use InvalidArgumentException;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Modules\Xot\Datas\RelationData as RelationDTO;
@@ -91,6 +92,7 @@ class HasOneAction
      * @param RelationDTO $relationDTO Data transfer object containing relationship information
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
      * @throws InvalidArgumentException When relationship type is invalid
@@ -105,23 +107,20 @@ class HasOneAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+     * @throws InvalidArgumentException When relationship type is invalid
+     * @throws RuntimeException When relationship data is invalid
+>>>>>>> 091f883c (.)
      */
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
         // Validate that the relationship is of type HasOne
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         Assert::isInstanceOf(
             $relationDTO->rows,
             HasOne::class,
             sprintf('Expected HasOne relationship, got %s', get_debug_type($relationDTO->rows)),
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,12 +158,15 @@ class HasOneAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
         /** @var HasOne $relation */
         $relation = $relationDTO->rows;
 
         // Validate that the relationship data is not empty
         if (empty($relationDTO->data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -177,6 +179,9 @@ class HasOneAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+            throw new RuntimeException('Relationship data cannot be empty');
+>>>>>>> 091f883c (.)
         }
 
         // Check if the related model exists

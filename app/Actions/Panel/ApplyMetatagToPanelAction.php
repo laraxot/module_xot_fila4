@@ -5,8 +5,11 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Panel;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 091f883c (.)
 use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,13 +21,6 @@ use Filament\Panel;
 use Illuminate\Support\Facades\Log;
 use Filament\Panel;
 use Illuminate\Support\Facades\Log;
-=======
-<<<<<<< HEAD
-use Exception;
-use Illuminate\Support\Facades\Log;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Filament\Panel;
 use Illuminate\Support\Facades\Log;
 use Filament\Panel;
@@ -70,7 +66,10 @@ class ApplyMetatagToPanelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
 =======
 <<<<<<< HEAD
@@ -221,7 +220,12 @@ class ApplyMetatagToPanelAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             return $panel
                 // @phpstan-ignore argument.type
                 ->colors($metatag->getColors())
@@ -231,10 +235,13 @@ class ApplyMetatagToPanelAction
                 ->brandLogoHeight($metatag->getBrandLogoHeight())
                 ->favicon($metatag->getFavicon());
 <<<<<<< HEAD
+<<<<<<< HEAD
             Log::error('Error applying metatag to panel: ' . $e->getMessage());
             Log::error('Error applying metatag to panel: ' . $e->getMessage());
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 091f883c (.)
         } catch (Exception $e) {
             // Log l'errore ma non bloccare l'applicazione
 <<<<<<< HEAD
@@ -244,6 +251,7 @@ class ApplyMetatagToPanelAction
 
 =======
             Log::error('Error applying metatag to panel: ' . $e->getMessage());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,7 +303,23 @@ class ApplyMetatagToPanelAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+=======
+            Log::error('Error applying metatag to panel: ' . $e->getMessage());
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             return $panel;
         }
     }

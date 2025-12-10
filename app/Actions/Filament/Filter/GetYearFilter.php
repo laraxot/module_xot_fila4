@@ -26,8 +26,8 @@ class GetYearFilter
             $opts[$currStr] = $currStr;
         }
 
-<<<<<<< HEAD
         return SelectFilter::make($fieldName)->options($opts);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,5 +66,7 @@ class GetYearFilter
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 }

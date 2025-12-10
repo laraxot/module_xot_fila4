@@ -8,8 +8,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Actions\Table;
 
-<<<<<<< HEAD
 use Filament\Actions\Action;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\Action;
@@ -24,6 +24,8 @@ use Filament\Tables\Actions\Action;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Export\PdfByModelAction;
 
@@ -33,6 +35,7 @@ class PdfAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,6 +71,8 @@ class PdfAction extends Action
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             ->tooltip('pdf')
             ->openUrlInNewTab()
             // ->icon('heroicon-o-cloud-arrow-down')
@@ -75,6 +80,7 @@ class PdfAction extends Action
             ->icon('heroicon-o-document-arrow-down')
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +151,8 @@ class PdfAction extends Action
             ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
             ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
             ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
+=======
+>>>>>>> 091f883c (.)
             ->action(fn (Model $record) => app(PdfByModelAction::class)->execute(model: $record));
 =======
 =======
@@ -320,6 +328,12 @@ class PdfAction extends Action
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+            ->action(fn(Model $record) => app(PdfByModelAction::class)->execute(model: $record));
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     }
 }

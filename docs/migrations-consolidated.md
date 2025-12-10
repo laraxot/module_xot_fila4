@@ -19,6 +19,7 @@ Questo documento sostituisce e consolida **26+ file migrazioni duplicati** trova
 
 ### ✅ Unica Fonte di Verità
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
@@ -26,6 +27,9 @@ Questo documento sostituisce e consolida **26+ file migrazioni duplicati** trova
 - **Questo file**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
+>>>>>>> 091f883c (.)
 - **File migrazione**: Solo nei singoli moduli (codice, non docs)
 
 ## Principi Fondamentali Universali
@@ -543,7 +547,6 @@ Tutti questi file sono DUPLICATI e vanno eliminati:
 
 ```bash
 # Activity
-<<<<<<< HEAD
 rm Modules/Activity/docs/database/migrations.md
 
 # Cms
@@ -587,6 +590,7 @@ rm Modules/<nome modulo>/docs/database/migrations.md
 rm Modules/SaluteMo/docs/database/migrations.md
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,12 +709,18 @@ rm Modules/SaluteMo/docs/database/migrations.md
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 
 # E tutti gli altri file duplicati...
 ```
 
 ### Mantenere Solo
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -719,6 +729,9 @@ rm Modules/SaluteMo/docs/database/migrations.md
 - **Questo file**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
+>>>>>>> 091f883c (.)
 - **File migrazione**: Solo codice nei singoli moduli
 
 ## Troubleshooting Universale

@@ -18,6 +18,7 @@ namespace Modules\Xot\Actions\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use RuntimeException;
@@ -40,7 +41,12 @@ use RuntimeException;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use RuntimeException;
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
 use Illuminate\Database\Connection;
@@ -48,6 +54,7 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Facades\DB;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,7 +233,12 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -278,11 +290,14 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
      * @param  string  $modelClass  La classe del modello
 =======
 >>>>>>> 218dfed3 (.)
 =======
+=======
+>>>>>>> 091f883c (.)
      * @param  string  $modelClass  La classe del modello
 =======
      * @param string $modelClass La classe del modello
@@ -437,13 +452,20 @@ class GetSchemaManagerByModelClassAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+     * @param string $modelClass La classe del modello
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
     public function execute(string $modelClass): AbstractSchemaManager
     {
         Assert::isInstanceOf($model = app($modelClass), EloquentModel::class);
         $connection = $model->getConnection();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -456,6 +478,9 @@ class GetSchemaManagerByModelClassAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+
+>>>>>>> 091f883c (.)
         // In Laravel 9+ il metodo getDoctrineSchemaManager è stato deprecato
         // ma getDoctrineConnection() non esiste, dobbiamo usare getDoctrineSchemaManager direttamente
         if (method_exists($connection, 'getDoctrineSchemaManager')) {
@@ -494,6 +519,7 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -501,6 +527,8 @@ class GetSchemaManagerByModelClassAction
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             $schemaManager = $connection->getDoctrineSchemaManager();
 
             Assert::isInstanceOf($schemaManager, AbstractSchemaManager::class);
@@ -677,20 +705,16 @@ class GetSchemaManagerByModelClassAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+            return $connection->getDoctrineSchemaManager();
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo
         throw new RuntimeException('Non è possibile ottenere lo schema manager Doctrine per questo modello.');
-<<<<<<< HEAD
-=======
-=======
-            return $connection->getDoctrineSchemaManager();
-        }
-
-        // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo
-        throw new \RuntimeException('Non è possibile ottenere lo schema manager Doctrine per questo modello.');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 }

@@ -9,8 +9,8 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Traits;
 
-<<<<<<< HEAD
 use Closure;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Closure;
 use Closure;
@@ -22,6 +22,8 @@ use Closure;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Relations\CustomRelation;
 use Webmozart\Assert\Assert;
@@ -33,14 +35,6 @@ use Webmozart\Assert\Assert;
  */
 trait HasCustomRelations
 {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
     public function customRelation(
         string $related,
         Closure $baseConstraints,
@@ -109,13 +103,13 @@ trait HasCustomRelations
         null|Closure $eagerConstraints = null,
         null|Closure $eagerMatcher = null,
     ): CustomRelation {
-<<<<<<< HEAD
         $instance = new $related();
         // Call to an undefined method object::newQuery()
         Assert::isInstanceOf($instance, Model::class, '[' . __LINE__ . '][' . class_basename($this) . ']');
 <<<<<<< HEAD
     public function customRelation(string $related, Closure $baseConstraints, ?Closure $eagerConstraints = null, ?Closure $eagerMatcher = null): CustomRelation
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -349,7 +343,12 @@ trait HasCustomRelations
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         $query = $instance->newQuery();
 
         return new CustomRelation($query, $this, $baseConstraints, $eagerConstraints, $eagerMatcher);

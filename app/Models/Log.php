@@ -27,6 +27,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Database\Factories\LogFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\File;
@@ -49,7 +50,12 @@ use Override;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use Sushi\Sushi;
 <<<<<<< HEAD
 =======
@@ -100,23 +106,6 @@ use Override;
 use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
-=======
-<<<<<<< HEAD
-use Sushi\Sushi;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Override;
->>>>>>> b93ef594b4 (.)
-use Modules\Xot\Database\Factories\FeedFactory;
-use Illuminate\Database\Eloquent\Builder;
-use Modules\Xot\Contracts\ProfileContract;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Support\Facades\File;
 use Sushi\Sushi;
 use Override;
@@ -148,7 +137,10 @@ use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
  * @property string|null $id
  * @property string|null $name
  * @property int|null $size
@@ -201,7 +193,12 @@ use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
  * @method static FeedFactory factory($count = null, $state = [])
  * @method static Builder|Feed newModelQuery()
  * @method static Builder|Feed newQuery()
@@ -209,31 +206,16 @@ use Illuminate\Support\Facades\File;
  * @method static Builder|Feed newModelQuery()
  * @method static Builder|Feed newQuery()
  * @method static Builder|Feed query()
-<<<<<<< HEAD
-=======
-=======
- * @method static \Modules\Xot\Database\Factories\FeedFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|Feed  newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Feed  newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Feed  query()
- * @method static \Illuminate\Database\Eloquent\Builder|Feed  newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Feed  newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Feed  query()
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
  * @property string|null $id
  * @property string|null $name
  * @property int|null    $size
  * @property string|null $file_content
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
  * @method static Builder|Log whereId($value)
  * @method static Builder|Log whereName($value)
  * @method static Builder|Log whereSize($value)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -274,11 +256,14 @@ use Illuminate\Support\Facades\File;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
  * @mixin IdeHelperLog
  * @mixin \Eloquent
  */
 class Log extends BaseModel
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -291,6 +276,9 @@ class Log extends BaseModel
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+    use Sushi;
+>>>>>>> 091f883c (.)
 
     protected $fillable = ['id', 'name', 'size'];
 
@@ -346,6 +334,7 @@ class Log extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getFileContentAttribute(?string $value): ?string
     {
         return File::get(storage_path('logs/'.$this->id.'.log'));
@@ -428,7 +417,12 @@ class Log extends BaseModel
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     public function getFileContentAttribute(null|string $value): null|string
     {
         return File::get(storage_path('logs/' . $this->id . '.log'));
@@ -436,6 +430,7 @@ class Log extends BaseModel
 
     /** @return array<string, string> */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function getFileContentAttribute(?string $value): ?string
@@ -522,12 +517,15 @@ class Log extends BaseModel
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'name' => 'string',
             'size' => 'integer',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -547,34 +545,11 @@ class Log extends BaseModel
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
-=======
-=======
->>>>>>> origin/develop
-
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
-
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -583,14 +558,6 @@ class Log extends BaseModel
 }
 
 /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
  * dddx([
  * 'getRelativePath' => $file->getRelativePath(), // ""
  * 'getRelativePathname' => $file->getRelativePathname(),
@@ -649,6 +616,7 @@ class Log extends BaseModel
  * "getLinkTarget" => "C:\var\www\_bases\base_camping_fila3\laravel\storage\logs\laravel-2024-03-01.log"
  * "getRealPath" => "C:\var\www\_bases\base_camping_fila3\laravel\storage\logs\laravel-2024-03-01.log"
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -740,3 +708,5 @@ class Log extends BaseModel
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)

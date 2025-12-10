@@ -25,7 +25,10 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use JsonSerializable;
@@ -65,8 +68,11 @@ use Override;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
 use JsonSerializable;
 use Override;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use JsonSerializable;
@@ -96,17 +102,13 @@ use Override;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 
 use function Safe\json_encode;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
 {
     public function __construct(
@@ -123,30 +125,6 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
         private  string $help = '',
         private  string $error = '',
     ) {}
-<<<<<<< HEAD
-=======
-=======
-class ApplicationError implements JsonSerializable, Arrayable, Jsonable
-=======
-class ApplicationError implements \JsonSerializable, Arrayable, Jsonable
->>>>>>> origin/develop
-{
-    public function __construct(private readonly string $help = '', private readonly string $error = '')
-    {
-    }
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
-{
-    public function __construct(
-        private  string $help = '',
-        private  string $error = '',
-    ) {}
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
     public function toArray(): array
     {
@@ -156,21 +134,7 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
         ];
     }
 
-<<<<<<< HEAD
     #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     public function jsonSerialize(): array
     {
         return $this->toArray();

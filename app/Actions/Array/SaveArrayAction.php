@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Array;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use InvalidArgumentException;
@@ -15,6 +16,9 @@ use InvalidArgumentException;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+use InvalidArgumentException;
+>>>>>>> 091f883c (.)
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
@@ -28,8 +32,8 @@ class SaveArrayAction
         return match ($format) {
             'json' => app(SaveJsonArrayAction::class)->execute($data, $filename),
             'php' => app(SavePhpArrayAction::class)->execute($data, $filename),
-<<<<<<< HEAD
             default => throw new InvalidArgumentException("Formato non supportato: {$format}"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +68,8 @@ class SaveArrayAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         };
     }
 }

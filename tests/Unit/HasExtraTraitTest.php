@@ -18,6 +18,7 @@ namespace Modules\Xot\Tests\Unit;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce6fc085 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -60,14 +61,14 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 =======
-<<<<<<< HEAD
+>>>>>>> 091f883c (.)
+=======
+>>>>>>> 9db27d12 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Exception;
@@ -80,6 +81,7 @@ use Modules\Xot\Models\Traits\HasExtraTrait;
 use ReflectionClass;
 use ReflectionMethod;
 use stdClass;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,6 +144,8 @@ use Exception;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
 describe('HasExtraTrait', function () {
     beforeEach(function () {
@@ -154,12 +158,6 @@ describe('HasExtraTrait', function () {
 
         $this->testModel = new class extends Model {
             use HasExtraTrait;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
             protected $table = 'test_models';
             protected $fillable = ['name'];
@@ -172,26 +170,6 @@ describe('HasExtraTrait', function () {
             protected $table = 'test_models';
             protected $fillable = ['name'];
 
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-            
-            protected $table = 'test_models';
-            protected $fillable = ['name'];
-            
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-
-            protected $table = 'test_models';
-            protected $fillable = ['name'];
-
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             // Mock the getExtraClass method
             public function getExtraClass(): string
             {
@@ -215,8 +193,8 @@ describe('HasExtraTrait', function () {
         $this->extraClass = new class extends Model implements ExtraContract {
             protected $table = 'test_extras';
             protected $fillable = ['model_id', 'model_type', 'extra_attributes'];
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,14 +229,16 @@ describe('HasExtraTrait', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             protected function casts(): array
             {
                 return [
                     'extra_attributes' => 'collection',
                 ];
             }
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,6 +298,8 @@ describe('HasExtraTrait', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             public function model()
             {
                 return $this->morphTo();
@@ -327,8 +309,8 @@ describe('HasExtraTrait', function () {
 
     it('uses the trait correctly', function () {
         $traits = class_uses($this->testModel);
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,6 +345,8 @@ describe('HasExtraTrait', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         expect($traits)->toContain(HasExtraTrait::class);
     });
 
@@ -373,12 +357,12 @@ describe('HasExtraTrait', function () {
     it('returns null for non-existent extra', function () {
         // Mock the extra relationship to be null
         $this->testModel->extra = null;
-<<<<<<< HEAD
 
         /** @phpstan-ignore-next-line property.notFound */
 
         $result = $this->testModel->getExtra('non_existent_key');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -443,6 +427,8 @@ describe('HasExtraTrait', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         expect($result)->toBeNull();
     });
 
@@ -468,12 +454,6 @@ describe('HasExtraTrait', function () {
             public $extra_attributes;
         $mockExtra = new class {
             public $extra_attributes;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
             public function __construct()
             {
@@ -485,6 +465,7 @@ describe('HasExtraTrait', function () {
 
         $result = $this->testModel->getExtra('test_key');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,6 +539,8 @@ describe('HasExtraTrait', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         expect($result)->toBe('test_value');
     });
 
@@ -618,10 +601,10 @@ describe('HasExtraTrait', function () {
         $mockExtra = new class
         {
             public $extra_attributes;
-<<<<<<< HEAD
 
             public function __construct()
             {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -670,6 +653,8 @@ describe('HasExtraTrait', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
                 $this->extra_attributes = collect([
                     'string_value' => 'test_string',
                     'int_value' => 123,
@@ -679,12 +664,6 @@ describe('HasExtraTrait', function () {
                 ]);
             }
         };
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         $this->testModel->extra = $mockExtra;
 
@@ -698,39 +677,6 @@ describe('HasExtraTrait', function () {
             ->toBe(['nested', 'array'])
             ->and($this->testModel->getExtra('null_value'))
             ->toBeNull();
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-        
-        $this->testModel->extra = $mockExtra;
-        
-        expect($this->testModel->getExtra('string_value'))->toBe('test_string')
-            ->and($this->testModel->getExtra('int_value'))->toBe(123)
-            ->and($this->testModel->getExtra('bool_value'))->toBe(true)
-            ->and($this->testModel->getExtra('array_value'))->toBe(['nested', 'array'])
-            ->and($this->testModel->getExtra('null_value'))->toBeNull();
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-
-        $this->testModel->extra = $mockExtra;
-
-        expect($this->testModel->getExtra('string_value'))
-            ->toBe('test_string')
-            ->and($this->testModel->getExtra('int_value'))
-            ->toBe(123)
-            ->and($this->testModel->getExtra('bool_value'))
-            ->toBe(true)
-            ->and($this->testModel->getExtra('array_value'))
-            ->toBe(['nested', 'array'])
-            ->and($this->testModel->getExtra('null_value'))
-            ->toBeNull();
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     });
 
     it('throws exception for invalid data types', function () {
@@ -800,31 +746,9 @@ describe('HasExtraTrait', function () {
         $mockExtra = new class
         {
             public $extra_attributes;
-<<<<<<< HEAD
 
             public function __construct()
             {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-            public function __construct()
-            {
-=======
-            
-            public function __construct() {
->>>>>>> a12f125f4a (.)
-=======
-
-            public function __construct()
-            {
->>>>>>> b93ef594b4 (.)
-=======
-            
-            public function __construct() {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                 $this->extra_attributes = collect([
             public $extra_attributes;
 
@@ -842,12 +766,6 @@ describe('HasExtraTrait', function () {
                 ]);
             }
         };
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         $this->testModel->extra = $mockExtra;
 
@@ -869,12 +787,15 @@ describe('HasExtraTrait', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 >>>>>>> 88ea7103 (.)
 =======
         expect(fn() => $this->testModel->getExtra('invalid_value'))->toThrow(Exception::class);
@@ -1075,7 +996,12 @@ describe('HasExtraTrait', function () {
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     });
 
     it('has setExtra method', function () {
@@ -1084,12 +1010,6 @@ describe('HasExtraTrait', function () {
 
     it('validates method signatures', function () {
         $reflection = new ReflectionClass($this->testModel);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         // Check getExtra method signature
         $getExtraMethod = $reflection->getMethod('getExtra');
@@ -1208,71 +1128,13 @@ describe('HasExtraTrait', function () {
             ->toBe('name')
             ->and($setParameters[0]->getType()?->getName())
             ->toBe('string');
-<<<<<<< HEAD
-=======
-=======
-        
-=======
-
->>>>>>> b93ef594b4 (.)
-        // Check getExtra method signature
-        $getExtraMethod = $reflection->getMethod('getExtra');
-        expect($getExtraMethod->isPublic())->toBeTrue();
-
-        $parameters = $getExtraMethod->getParameters();
-        expect(count($parameters))
-            ->toBe(1)
-            ->and($parameters[0]->getName())
-            ->toBe('name')
-            ->and($parameters[0]->getType()?->getName())
-            ->toBe('string');
-
-        // Check setExtra method signature
-        $setExtraMethod = $reflection->getMethod('setExtra');
-        expect($setExtraMethod->isPublic())->toBeTrue();
-
-        $setParameters = $setExtraMethod->getParameters();
-<<<<<<< HEAD
-        expect(count($setParameters))->toBe(2)
-            ->and($setParameters[0]->getName())->toBe('name')
-            ->and($setParameters[0]->getType()?->getName())->toBe('string');
->>>>>>> a12f125f4a (.)
-=======
-        expect(count($setParameters))
-            ->toBe(2)
-            ->and($setParameters[0]->getName())
-            ->toBe('name')
-            ->and($setParameters[0]->getType()?->getName())
-            ->toBe('string');
->>>>>>> b93ef594b4 (.)
-=======
-        
-        // Check getExtra method signature
-        $getExtraMethod = $reflection->getMethod('getExtra');
-        expect($getExtraMethod->isPublic())->toBeTrue();
-        
-        $parameters = $getExtraMethod->getParameters();
-        expect(count($parameters))->toBe(1)
-            ->and($parameters[0]->getName())->toBe('name')
-            ->and($parameters[0]->getType()?->getName())->toBe('string');
-        
-        // Check setExtra method signature
-        $setExtraMethod = $reflection->getMethod('setExtra');
-        expect($setExtraMethod->isPublic())->toBeTrue();
-        
-        $setParameters = $setExtraMethod->getParameters();
-        expect(count($setParameters))->toBe(2)
-            ->and($setParameters[0]->getName())->toBe('name')
-            ->and($setParameters[0]->getType()?->getName())->toBe('string');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     });
 
     it('has proper return type annotations', function () {
         $reflection = new ReflectionClass($this->testModel);
         $method = $reflection->getMethod('getExtra');
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1307,6 +1169,8 @@ describe('HasExtraTrait', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         // Check that method has return type hint
         $returnType = $method->getReturnType();
         expect($returnType)->not->toBeNull();
@@ -1314,8 +1178,8 @@ describe('HasExtraTrait', function () {
 
     it('handles extra relationship correctly', function () {
         $extraMethod = new ReflectionMethod($this->testModel, 'extra');
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1350,6 +1214,8 @@ describe('HasExtraTrait', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         expect($extraMethod->isPublic())->toBeTrue();
     });
 
@@ -1382,12 +1248,6 @@ describe('HasExtraTrait', function () {
         {
         $mockExtra = new class {
             public $extra_attributes;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
             public function __construct()
             {
@@ -1397,6 +1257,7 @@ describe('HasExtraTrait', function () {
 
         $this->testModel->extra = $mockExtra;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1463,6 +1324,8 @@ describe('HasExtraTrait', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         $result = $this->testModel->getExtra('non_existent');
         expect($result)->toBeNull();
     });
@@ -1471,8 +1334,8 @@ describe('HasExtraTrait', function () {
         // Test that the extra class implements the required contract
         $extraClass = $this->testModel->getExtraClass();
         $reflection = new ReflectionClass($extraClass);
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1507,13 +1370,14 @@ describe('HasExtraTrait', function () {
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         expect($reflection->implementsInterface(ExtraContract::class))->toBeTrue();
     });
 
     it('has proper documentation', function () {
         $reflection = new ReflectionClass(HasExtraTrait::class);
         $getExtraMethod = $reflection->getMethod('getExtra');
-<<<<<<< HEAD
 
         /** @phpstan-ignore-next-line method.nonObject */
 
@@ -1542,42 +1406,12 @@ describe('HasExtraTrait', function () {
 
         $docComment = $getExtraMethod->getDocComment();
         expect($docComment)->toBeString()->and($docComment)->toContain('@return');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-        $docComment = $getExtraMethod->getDocComment();
-        expect($docComment)->toBeString()->and($docComment)->toContain('@return');
-=======
-=======
->>>>>>> origin/develop
-        
-        $docComment = $getExtraMethod->getDocComment();
-        expect($docComment)->toBeString()
-            ->and($docComment)->toContain('@return');
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-
-        $docComment = $getExtraMethod->getDocComment();
-        expect($docComment)->toBeString()->and($docComment)->toContain('@return');
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     });
 });
 
 /**
  * Helper class for testing HasExtraTrait.
  */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 class HasExtraTraitTest extends Model implements ExtraContract
 {
     protected $table = 'test_extras';
@@ -1585,6 +1419,7 @@ class HasExtraTraitTest extends Model implements ExtraContract
     /** @var list<string> */
     protected $fillable = ['model_id', 'model_type', 'extra_attributes'];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1641,6 +1476,8 @@ class HasExtraTraitTest extends Model implements ExtraContract
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     /**
      * Get the attributes that should be cast.
      *
@@ -1652,34 +1489,11 @@ class HasExtraTraitTest extends Model implements ExtraContract
             'extra_attributes' => 'collection',
         ];
     }
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
     /**
      * Get the parent model.
      *
      * @return MorphTo
-<<<<<<< HEAD
-=======
-=======
-    
-    /**
-     * Get the parent model.
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\MorphTo
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      */
     public function model()
     {

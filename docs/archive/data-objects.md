@@ -204,6 +204,7 @@
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Data Objects Patient](../Patient/docs/data-objects.md)
@@ -211,5 +212,8 @@
 - [Data Objects Patient](../Patient/project_docs/data-objects.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+- [Data Objects Patient](../Patient/docs/data-objects.md)
+>>>>>>> 091f883c (.)
 - [Best Practices](./best-practices.md)
 - [Convenzioni di Codice](./coding-standards.md) 

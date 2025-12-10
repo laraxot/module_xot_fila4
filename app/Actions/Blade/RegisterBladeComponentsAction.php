@@ -57,6 +57,7 @@ class RegisterBladeComponentsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $comps = app(GetComponentsAction::class)->execute($path, $namespace.'\View\Components', $prefix);
 
         if ($comps->count() === 0) {
@@ -117,24 +118,9 @@ class RegisterBladeComponentsAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
         $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\View\Components', $prefix);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\View\Components', $prefix);
-=======
-        $comps = app(GetComponentsAction::class)
-            ->execute($path, $namespace.'\View\Components', $prefix);
->>>>>>> a12f125f4a (.)
-=======
-        $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\View\Components', $prefix);
->>>>>>> b93ef594b4 (.)
-=======
-        $comps = app(GetComponentsAction::class)
-            ->execute($path, $namespace.'\View\Components', $prefix);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
         if (0 === $comps->count()) {
         $comps = app(GetComponentsAction::class)->execute($path, $namespace . '\View\Components', $prefix);
@@ -174,6 +160,7 @@ class RegisterBladeComponentsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -181,6 +168,8 @@ class RegisterBladeComponentsAction
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             if (! ($comp instanceof ComponentFileData)) {
             if (!($comp instanceof ComponentFileData)) {
             if (!($comp instanceof ComponentFileData)) {
@@ -326,7 +315,13 @@ class RegisterBladeComponentsAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+            if (!($comp instanceof ComponentFileData)) {
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
                 continue;
             }
             Blade::component($comp->name, $comp->ns);

@@ -160,6 +160,7 @@ Our current MySQL-based testing approach without `RefreshDatabase` provides the 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 >>>>>>> 85cdef688 (.)
@@ -172,5 +173,8 @@ Our current MySQL-based testing approach without `RefreshDatabase` provides the 
 - [Laravel Testing Documentation](https://laravel.com/project_docs/testing)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+- [Laravel Testing Documentation](https://laravel.com/docs/testing)
+>>>>>>> 091f883c (.)
 - [Database Testing Best Practices](https://laracasts.com/series/phpunit-testing-in-laravel-6)
 - [Testing Strategies for Laravel Applications](https://tighten.co/blog/5-questions-every-laravel-test-answers)

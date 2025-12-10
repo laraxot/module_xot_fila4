@@ -18,6 +18,7 @@ namespace Modules\Xot\Actions\ModelClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce6fc085 (.)
 use InvalidArgumentException;
@@ -90,7 +91,14 @@ use RuntimeException;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+use InvalidArgumentException;
+use RuntimeException;
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -121,21 +129,10 @@ class FakeSeederAction
      * @param class-string<Model> $modelClass The fully qualified model class name
      * @param int<1, max>         $qty        Number of records to generate
      *
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
      * @throws InvalidArgumentException When model class is invalid
      */
     public function execute(string $modelClass, int $qty): void
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         if (
             !class_exists($modelClass) ||
                 !is_subclass_of($modelClass, Model::class) ||
@@ -153,8 +150,8 @@ class FakeSeederAction
                 !is_subclass_of($modelClass, Model::class) ||
                 !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
         ) {
-<<<<<<< HEAD
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -178,6 +175,8 @@ class FakeSeederAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         }
 
         $qtyToDo = min($qty, self::MAX_RECORDS);
@@ -216,6 +215,7 @@ class FakeSeederAction
      * @param class-string<Model> $modelClass
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
      * @throws RuntimeException
@@ -227,6 +227,9 @@ class FakeSeederAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+     * @throws RuntimeException
+>>>>>>> 091f883c (.)
      */
     private function getModelFactory(string $modelClass): Factory
     {
@@ -234,6 +237,7 @@ class FakeSeederAction
             return $modelClass::factory();
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -246,6 +250,9 @@ class FakeSeederAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+        throw new RuntimeException("Unable to create factory for model: {$modelClass}");
+>>>>>>> 091f883c (.)
     }
 
     /**
@@ -265,18 +272,11 @@ class FakeSeederAction
     private function sendNotification(string $modelClass, int $count): void
     {
         $title = sprintf('Created %d %s !', $count, $modelClass);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         Notification::make()
             ->title($title)
             ->success()
             ->send();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +309,8 @@ class FakeSeederAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 
     /**
@@ -330,8 +332,8 @@ class FakeSeederAction
         if ($qty <= self::MAX_RECORDS) {
             return;
         }
-<<<<<<< HEAD
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,21 +375,18 @@ class FakeSeederAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 
     private function getTableName(string $modelClass): string
     {
         Assert::classExists($modelClass, 'La classe del modello deve esistere');
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         /** @var Model */
         $model = app($modelClass);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -437,6 +436,8 @@ class FakeSeederAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         return $model->getTable();
     }
 }

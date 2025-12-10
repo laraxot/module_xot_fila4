@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -19,6 +20,9 @@ use Exception;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+use Exception;
+>>>>>>> 091f883c (.)
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -57,6 +61,7 @@ class GetModelByModelTypeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -64,6 +69,8 @@ class GetModelByModelTypeAction
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     public function execute(string $model_type, ?string $model_id): Model
     {
         $model_class = app(GetModelClassByModelTypeAction::class)->execute($model_type);
@@ -138,7 +145,10 @@ class GetModelByModelTypeAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
     public function execute(string $model_type, null|string $model_id): Model
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 73eab74 (.)
@@ -162,6 +172,8 @@ class GetModelByModelTypeAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     {
         $model_class = app(GetModelClassByModelTypeAction::class)->execute($model_type);
         Assert::isInstanceOf($model = app($model_class), Model::class);
@@ -170,10 +182,10 @@ class GetModelByModelTypeAction
         }
 
         if (null === $model) {
-<<<<<<< HEAD
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,7 +349,12 @@ class GetModelByModelTypeAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         }
 
         return $model;

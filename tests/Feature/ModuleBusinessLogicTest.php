@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Feature;
 
-<<<<<<< HEAD
 use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -57,6 +57,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -154,6 +156,7 @@ class ModuleBusinessLogicTest extends TestCase
 
         // Act & Assert - Try to create module with same slug
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         $this->expectException(QueryException::class);
@@ -165,6 +168,9 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+        $this->expectException(QueryException::class);
+>>>>>>> 091f883c (.)
 
         Module::create([
             'name' => 'Another Module',
@@ -439,6 +445,7 @@ class ModuleBusinessLogicTest extends TestCase
 
             // Act & Assert
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
             $this->expectException(QueryException::class);
@@ -450,6 +457,9 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+            $this->expectException(QueryException::class);
+>>>>>>> 091f883c (.)
 
             Module::create($moduleData);
         }
@@ -541,6 +551,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -572,3 +583,5 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)

@@ -59,6 +59,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -74,6 +75,8 @@ class MorphToManyAction
             if (! isset($data['to'])) {
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
             if (! isset($data['to'])) {
 =======
             if (!isset($data['to'])) {
@@ -222,7 +225,13 @@ class MorphToManyAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
                 $data['to'] = [];
             }
 
@@ -269,6 +278,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -284,6 +294,8 @@ class MorphToManyAction
         if (! Arr::isAssoc($data)) {
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
         if (! Arr::isAssoc($data)) {
 =======
         if (!Arr::isAssoc($data)) {
@@ -432,20 +444,18 @@ class MorphToManyAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+        if (!Arr::isAssoc($data)) {
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             $relationDTO->rows->sync($data);
 
             return;
         }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         dddx([
             'message' => 'wip',
             'row' => $model,
@@ -453,10 +463,6 @@ class MorphToManyAction
             'relation_rows' => $relationDTO->rows->exists(),
             't' => $model->{$relationDTO->name},
         ]);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
         dddx('wip');
 
@@ -478,6 +484,7 @@ class MorphToManyAction
          * }
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -579,5 +586,7 @@ class MorphToManyAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 }

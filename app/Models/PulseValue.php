@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseValueFactory;
@@ -16,6 +17,8 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\PulseValueFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -27,18 +30,6 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder|PulseValue newModelQuery()
  * @method static Builder|PulseValue newQuery()
  * @method static Builder|PulseValue query()
-<<<<<<< HEAD
-=======
-=======
-/**
- * @property \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property \Modules\Xot\Contracts\ProfileContract|null $updater
- * @method static \Modules\Xot\Database\Factories\PulseValueFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|PulseValue  newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|PulseValue  newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|PulseValue  query()
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
  * @property int         $id
  * @property int         $timestamp
  * @property string $type
@@ -101,7 +92,10 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *
@@ -156,12 +150,15 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
  * @method static Builder|PulseValue whereId($value)
  * @method static Builder|PulseValue whereKey($value)
  * @method static Builder|PulseValue whereKeyHash($value)
  * @method static Builder|PulseValue whereTimestamp($value)
  * @method static Builder|PulseValue whereType($value)
  * @method static Builder|PulseValue whereValue($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -176,6 +173,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> ce6fc085 (.)
  * @mixin IdeHelperPulseValue
  * @mixin IdeHelperPulseValue
+=======
+>>>>>>> 091f883c (.)
  * @mixin IdeHelperPulseValue
  * @mixin \Eloquent
  */

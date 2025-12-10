@@ -11,16 +11,11 @@ namespace Modules\Xot\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Webmozart\Assert\Assert;
 
 use function Safe\exec;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,6 +60,8 @@ use function Safe\exec;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 class DatabaseBackUpCommand extends Command
 {
     /**
@@ -87,7 +84,6 @@ class DatabaseBackUpCommand extends Command
      *
      * @return void
      */
-<<<<<<< HEAD
     
 <<<<<<< HEAD
     
@@ -98,6 +94,7 @@ class DatabaseBackUpCommand extends Command
     
     
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,7 +300,12 @@ class DatabaseBackUpCommand extends Command
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 
     /**
      * Execute the console command.
@@ -314,6 +316,7 @@ class DatabaseBackUpCommand extends Command
         $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
         $backup_path = storage_path('app/backup/'.$filename);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,7 +425,12 @@ class DatabaseBackUpCommand extends Command
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         $filename = 'backup-' . Carbon::now()->format('Y-m-d') . '.gz';
         $backup_path = storage_path('app/backup/' . $filename);
         $filename = 'backup-' . Carbon::now()->format('Y-m-d') . '.gz';
@@ -495,6 +503,7 @@ class DatabaseBackUpCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
         $backup_path = storage_path('app/backup/'.$filename);
         Assert::string($backup_path = Str::replace(['/', '\\'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $backup_path), 'wip');
@@ -530,18 +539,12 @@ class DatabaseBackUpCommand extends Command
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         Assert::string($user = config('database.connections.mysql.username'));
         Assert::string($password = config('database.connections.mysql.password'));
         Assert::string($host = config('database.connections.mysql.host'));
         Assert::string($database = config('database.connections.mysql.database'));
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
         $command =
         $command =
             'mysqldump --user='.
@@ -567,6 +570,7 @@ class DatabaseBackUpCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $backup_path;
         $command = 'mysqldump --user='.$user.' --password='.$password.' --host='.$host.' '.$database.'  | gzip > '.$backup_path;
 =======
@@ -596,6 +600,8 @@ class DatabaseBackUpCommand extends Command
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
         $returnVar = null;
         $output = null;

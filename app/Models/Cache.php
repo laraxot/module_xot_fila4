@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Modules\Xot\Database\Factories\CacheFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
@@ -16,11 +12,6 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 /**
  * Modules\Xot\Models\Cache.
  *
@@ -42,10 +33,6 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Cache whereValue($value)
  *
  * @property int    $expiration
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
  * @method static CacheFactory factory($count = null, $state = [])
  * @method static Builder|Cache newModelQuery()
  * @method static Builder|Cache newQuery()
@@ -63,28 +50,6 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder|Cache whereValue($value)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
-<<<<<<< HEAD
-=======
-=======
- * @method static \Modules\Xot\Database\Factories\CacheFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|Cache  newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Cache  newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Cache  query()
- * @method static \Illuminate\Database\Eloquent\Builder|Cache  whereExpiration($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Cache  whereKey($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Cache  whereValue($value)
- * @property int $expiration
- * @method static \Modules\Xot\Database\Factories\CacheFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|Cache  newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Cache  newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Cache  query()
- * @method static \Illuminate\Database\Eloquent\Builder|Cache  whereExpiration($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Cache  whereKey($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Cache  whereValue($value)
- * @property \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property \Modules\Xot\Contracts\ProfileContract|null $updater
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
  * @mixin IdeHelperCache
  * @mixin IdeHelperCache
  * @mixin IdeHelperCache

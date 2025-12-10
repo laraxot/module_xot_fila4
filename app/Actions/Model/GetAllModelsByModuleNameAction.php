@@ -22,6 +22,7 @@ namespace Modules\Xot\Actions\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -41,21 +42,19 @@ namespace Modules\Xot\Actions\Model;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use stdClass;
 use stdClass;
 use stdClass;
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use stdClass;
 use stdClass;
 use stdClass;
 use Exception;
-=======
-<<<<<<< HEAD
-use stdClass;
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Nwidart\Modules\Facades\Module;
@@ -99,6 +98,7 @@ class GetAllModelsByModuleNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -106,6 +106,8 @@ class GetAllModelsByModuleNameAction
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
             return [];
         }
@@ -181,7 +183,10 @@ class GetAllModelsByModuleNameAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
         if (!($mod instanceof \Nwidart\Modules\Module)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 73eab74 (.)
@@ -205,6 +210,8 @@ class GetAllModelsByModuleNameAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             return [];
         }
 
@@ -222,6 +229,7 @@ class GetAllModelsByModuleNameAction
             if (Str::endsWith($filename, $ext)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,7 +292,13 @@ class GetAllModelsByModuleNameAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+                $tmp = new stdClass();
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
                 $name = mb_substr($filename, 0, -mb_strlen($ext));
                 // dddx(['name' => $name, 'name1' => $file->getFilenameWithoutExtension()]);
                 /**
@@ -310,9 +324,12 @@ class GetAllModelsByModuleNameAction
                 try {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
                     $reflection_class = new ReflectionClass($tmp->class);
                     if (!$reflection_class->isAbstract()) {
 <<<<<<< HEAD
@@ -420,6 +437,7 @@ class GetAllModelsByModuleNameAction
                     }
                 } catch (Exception) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (!$reflection_class->isAbstract()) {
                         $data[$tmp->name] = $tmp->class;
                     }
@@ -452,6 +470,8 @@ class GetAllModelsByModuleNameAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
                 }
             }
         }

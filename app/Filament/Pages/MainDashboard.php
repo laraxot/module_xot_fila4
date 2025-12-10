@@ -6,21 +6,7 @@ namespace Modules\Xot\Filament\Pages;
 
 use Filament\Panel;
 use Filament\Facades\Filament;
-<<<<<<< HEAD
 use Filament\Panel;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Panel;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Filament\Panel;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Filament\Pages\Dashboard;
 use Filament\Facades\Filament;
 use Filament\Panel;
@@ -64,6 +50,7 @@ use Webmozart\Assert\Assert;
 class MainDashboard extends XotBaseDashboard
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
 =======
@@ -72,6 +59,8 @@ class MainDashboard extends XotBaseDashboard
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
 
     protected string $view = 'xot::filament.pages.dashboard';
@@ -83,6 +72,7 @@ class MainDashboard extends XotBaseDashboard
 
     protected static ?int $navigationSort = 1;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,7 +206,12 @@ class MainDashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     protected static null|string $title = 'Main Dashboard';
 
     protected static null|int $navigationSort = 1;
@@ -316,6 +311,7 @@ class MainDashboard extends XotBaseDashboard
     public function getColumns(): int|array
     {
         return 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,5 +446,7 @@ class MainDashboard extends XotBaseDashboard
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 }

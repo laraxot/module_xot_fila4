@@ -63,8 +63,8 @@ class ThemeService
         return resource_path('themes/' . self::$currentTheme);
         return resource_path('themes/' . self::$currentTheme);
     }
-<<<<<<< HEAD
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 }
@@ -99,3 +99,5 @@ class ThemeService
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)

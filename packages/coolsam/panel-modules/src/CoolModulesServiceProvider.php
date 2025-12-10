@@ -15,8 +15,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 {
     /**
      * Traccia i panel che hanno già gli hook registrati.
-<<<<<<< HEAD
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +54,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
      * @var array<string, bool>
      */
     private static array $processedPanels = [];
@@ -66,25 +68,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
 
-<<<<<<< HEAD
         $package->name('cool-modules');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $package->name('cool-modules');
-=======
-        $package
-            ->name('cool-modules');
->>>>>>> a12f125f4a (.)
-=======
-        $package->name('cool-modules');
->>>>>>> b93ef594b4 (.)
-=======
-        $package
-            ->name('cool-modules');
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
         $package->name('cool-modules');
@@ -108,17 +92,12 @@ class CoolModulesServiceProvider extends PackageServiceProvider
         $this->app->afterResolving('filament', function () {
         $this->app->afterResolving('filament', function () {
             $panels = Filament::getPanels();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
                 $panelId = $panel->getId();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,16 +143,12 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
                 // Controlla se questo panel è già stato processato
                 if (isset(self::$processedPanels[$panelId])) {
                     continue;
                 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
@@ -199,6 +174,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                                      '),
                     );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,6 +266,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
                     // Marca questo panel come processato
                     self::$processedPanels[$panelId] = true;
                 }

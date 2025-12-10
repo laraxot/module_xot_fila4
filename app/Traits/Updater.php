@@ -18,6 +18,7 @@ use Webmozart\Assert\Assert;
  * @property int|null $updated_by ID dell'utente che ha aggiornato il record
  * @property int|null $deleted_by ID dell'utente che ha eliminato il record
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
@@ -29,20 +30,11 @@ use Webmozart\Assert\Assert;
 =======
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  * @property-read ProfileContract|null $deleter
-=======
-<<<<<<< HEAD
- * @property-read ProfileContract|null $creator
- * @property-read ProfileContract|null $updater
- * @property-read ProfileContract|null $deleter
-=======
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
  */
 trait Updater
 {
@@ -107,6 +99,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -191,28 +184,9 @@ trait Updater
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $this->belongsTo($profileClass, 'created_by', 'user_id');
-=======
-=======
->>>>>>> origin/develop
-        return $this->belongsTo(
-            $profileClass,
-            'created_by',
-            'user_id'
-        );
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-        return $this->belongsTo($profileClass, 'created_by', 'user_id');
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     /**
@@ -266,6 +240,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -353,28 +328,9 @@ trait Updater
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
-=======
-=======
->>>>>>> origin/develop
-        return $this->belongsTo(
-            $profileClass,
-            'updated_by',
-            'user_id'
-        );
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     /**
@@ -393,12 +349,6 @@ trait Updater
      */
     protected static function bootUpdater(): void
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         static::creating(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
 
@@ -418,6 +368,7 @@ trait Updater
                 $model->setAttribute('updated_by', authId());
             }
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -507,16 +458,12 @@ trait Updater
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         /*
          * Deleting a model is slightly different than creating or deleting.
          * For deletes we need to save the model first with the deleted_by field
          */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         static::deleting(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
             Assert::isArray($attributes = $model->attributes);
@@ -539,6 +486,7 @@ trait Updater
 }
 
 // end trait Updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -608,3 +556,5 @@ trait Updater
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)

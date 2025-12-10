@@ -4,14 +4,6 @@ declare(strict_types=1);
 
 return [
     /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -21,6 +13,7 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63,6 +56,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     'backend' => [
         'access' => [
@@ -76,6 +71,7 @@ return [
                 'not_found' => 'Άυτός ο ρόλος δεν υπάρχει.',
                 'update_error' => 'Παρουσιάστηκε πρόβλημα κατά την ανανέωση του ρόλου. Παρακαλώ ξαναπροσπαθήστε.',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,6 +107,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             'users' => [
                 'cant_deactivate_self' => 'Δεν μπορείτε να το κάνετε αυτό στον εαυτό σας.',
                 'cant_delete_self' => 'Δεν μπορείτε να διαγράψετε τον εαυτό σας.',
@@ -133,6 +131,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -164,6 +163,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -176,9 +177,9 @@ return [
                 'success' => 'Your account has been successfully confirmed!',
                 'resent' => 'A new confirmation e-mail has been sent to the address on file.',
             ],
-<<<<<<< HEAD
             'deactivated' => 'Ο λογαριασμός σας απενεργοποιήθηκε.',
             'email_taken' => 'Αυτό το e-mail χρησιμοποιείται ήδη.',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -229,6 +230,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             'password' => [
                 'change_mismatch' => 'Αυτός δεν είναι ο παλιός σου κωδικός.',
             ],

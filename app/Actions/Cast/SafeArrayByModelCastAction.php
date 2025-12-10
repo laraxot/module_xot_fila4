@@ -18,7 +18,10 @@ namespace Modules\Xot\Actions\Cast;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Error;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
@@ -49,18 +52,15 @@ use ValueError;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
->>>>>>> ce6fc085 (.)
-use ValueError;
-use Error;
-use Exception;
-=======
 <<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use ValueError;
 use Error;
 use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Doctrine\DBAL\Schema\Index;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
@@ -74,7 +74,6 @@ class SafeArrayByModelCastAction
      */
     public function execute(Model $model): array
     {
-<<<<<<< HEAD
         try {
         try {
             /** @var array<string, mixed> */
@@ -85,6 +84,7 @@ class SafeArrayByModelCastAction
         try {
             return $model->attributesToArray();
         } catch (ValueError|Error|Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,6 +137,8 @@ class SafeArrayByModelCastAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             return $this->safeExecute($model);
         }
     }
@@ -146,6 +148,7 @@ class SafeArrayByModelCastAction
      * @return array<string, mixed>
      */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,7 +261,12 @@ class SafeArrayByModelCastAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -281,6 +289,7 @@ class SafeArrayByModelCastAction
 =======
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
 <<<<<<< HEAD
@@ -589,6 +598,11 @@ class SafeArrayByModelCastAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     }
 }

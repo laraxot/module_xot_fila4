@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Http\Middleware;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Closure;
@@ -19,6 +20,9 @@ use Closure;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+use Closure;
+>>>>>>> 091f883c (.)
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\URL;
 use Symfony\Component\HttpFoundation\Response;
@@ -30,6 +34,7 @@ class SetDefaultLocaleForUrls
      *
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,26 +67,20 @@ class SetDefaultLocaleForUrls
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
      * @param Closure(Request):Response $next
      * @param Closure(Request):Response $next
      * @param Closure(Request):Response $next
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
      * @param Closure(Request):Response $next
      * @param Closure(Request):Response $next
      * @param Closure(Request):Response $next
      */
     public function handle(Request $request, Closure $next): Response
-=======
-<<<<<<< HEAD
-     * @param Closure(Request):Response $next
-     */
-    public function handle(Request $request, Closure $next): Response
-=======
-     * @param \Closure(Request): (Response) $next
-     */
-    public function handle(Request $request, \Closure $next): Response
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     {
         $user = $request->user();
         $lang = app()->getLocale();

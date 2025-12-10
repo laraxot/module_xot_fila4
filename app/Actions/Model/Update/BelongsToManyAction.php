@@ -18,6 +18,7 @@ namespace Modules\Xot\Actions\Model\Update;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -37,21 +38,19 @@ namespace Modules\Xot\Actions\Model\Update;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use RuntimeException;
 use RuntimeException;
 use RuntimeException;
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use RuntimeException;
 use RuntimeException;
 use RuntimeException;
 use Exception;
-=======
-<<<<<<< HEAD
-use RuntimeException;
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\Session;
@@ -64,12 +63,6 @@ class BelongsToManyAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
@@ -78,6 +71,7 @@ class BelongsToManyAction
             \in_array('to', array_keys($relationDTO->data), false) ||
                 \in_array('from', array_keys($relationDTO->data), false)
         ) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,16 +120,12 @@ class BelongsToManyAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             // $this->saveMultiselectTwoSides($row, $relation->name, $relation->data);
             $to = $relationDTO->data['to'] ?? [];
 
             // Assicura che $to sia un array di ID validi
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
             $to = is_iterable($to) ? iterator_to_array($to) : ((array) $to);
             Assert::allScalar($to, 'The "to" field must contain only scalar values.');
 
@@ -169,6 +159,7 @@ class BelongsToManyAction
             $status = 'collegati ['.implode(', ', $to).'] ';
 =======
             $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379,7 +370,12 @@ class BelongsToManyAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             Session::flash('status', $status);
 
             return;
@@ -411,9 +407,9 @@ class BelongsToManyAction
 =======
 =======
                 Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
-<<<<<<< HEAD
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $data, []);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -649,12 +645,18 @@ class BelongsToManyAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -667,6 +669,9 @@ class BelongsToManyAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+                throw new RuntimeException(sprintf('Key "%s" not found in relation data.', $keyName));
+>>>>>>> 091f883c (.)
             }
         }
 
@@ -709,6 +714,7 @@ class BelongsToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -724,6 +730,8 @@ class BelongsToManyAction
         if (! empty($ids)) {
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
         if (! empty($ids)) {
 =======
         if (!empty($ids)) {
@@ -872,13 +880,20 @@ class BelongsToManyAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+        if (!empty($ids)) {
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             try {
                 // Assicura che $ids sia un array di valori scalari
                 // $ids è già un array non vuoto a questo punto, quindi non serve verificare se è iterabile
                 Assert::allScalar($ids, 'The "ids" array must contain only scalar values.');
 
                 $rows->syncWithoutDetaching($ids);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -894,6 +909,10 @@ class BelongsToManyAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+            } catch (Exception $e) {
+                throw new RuntimeException(sprintf('Error during syncWithoutDetaching: %s', $e->getMessage()));
+>>>>>>> 091f883c (.)
             }
         }
     }

@@ -1,11 +1,11 @@
 <?php
 
-<<<<<<< HEAD
 declare(strict_types=1);
 
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209,13 +209,18 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 return [
     'backend' => [
         'takeaway' => [
             'newsletterSubscribe' => [
-<<<<<<< HEAD
                 'messages' => [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,6 +262,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             ],
             'category' => [
                 'create_error' => 'Create Error',

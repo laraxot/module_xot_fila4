@@ -18,7 +18,10 @@ namespace Modules\Xot\Database\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\PulseAggregate;
 
@@ -46,14 +49,14 @@ use Modules\Xot\Models\PulseAggregate;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use Modules\Xot\Models\PulseAggregate;
 =======
-<<<<<<< HEAD
-use Modules\Xot\Models\PulseAggregate;
+>>>>>>> 091f883c (.)
 =======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
+>>>>>>> 9db27d12 (.)
+use Modules\Xot\Models\PulseAggregate;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 use Modules\Xot\Models\PulseAggregate;
@@ -94,8 +97,8 @@ class PulseAggregateFactory extends Factory
      *
      * @var class-string<PulseAggregate>
      */
-<<<<<<< HEAD
     protected $model = PulseAggregate::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @var class-string<PulseAggregate>
@@ -111,14 +114,16 @@ class PulseAggregateFactory extends Factory
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     /**
      * Define the model's default state.
      */
     public function definition(): array
     {
-<<<<<<< HEAD
         return [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,5 +165,7 @@ class PulseAggregateFactory extends Factory
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 }

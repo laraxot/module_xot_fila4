@@ -54,6 +54,7 @@ class GetTransKeyByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -69,6 +70,8 @@ class GetTransKeyByModelClassAction
         return Str::lower($moduleName).'::'.Str::kebab($modelName);
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
         return Str::lower($moduleName).'::'.Str::kebab($modelName);
 =======
         return Str::lower($moduleName) . '::' . Str::kebab($modelName);
@@ -217,6 +220,12 @@ class GetTransKeyByModelClassAction
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+        return Str::lower($moduleName) . '::' . Str::kebab($modelName);
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     }
 }

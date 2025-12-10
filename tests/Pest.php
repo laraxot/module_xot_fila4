@@ -2,12 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -325,6 +319,7 @@ pest()->extend(TestCase::class)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Tests\Pest;
 namespace Modules\Xot\Tests\Pest;
 namespace Modules\Xot\Tests\Pest;
@@ -332,6 +327,8 @@ namespace Modules\Xot\Tests\Pest;
 
 
 =======
+=======
+>>>>>>> 091f883c (.)
 <<<<<<< HEAD
 =======
 =======
@@ -434,6 +431,8 @@ pest()->extend(TestCase::class)
 namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
 
 
 
@@ -1148,14 +1147,6 @@ namespace Modules\Xot\Tests\Pest;
 // });
 
 /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -1203,6 +1194,7 @@ namespace Modules\Xot\Tests\Pest;
 //     // ...
 // }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1735,4 +1727,13 @@ namespace Modules\Xot\Tests\Pest;
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+
+// function something() {
+//     // ...
+// }
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)

@@ -1,11 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 declare(strict_types=1);
 
 
@@ -50,51 +44,10 @@ return [
      * | Ogni server ha un comando e argomenti specifici.
      * |
      */
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-return [
-    /*
-    |--------------------------------------------------------------------------
-    | MCP Servers Configuration
-    |--------------------------------------------------------------------------
-    |
-    | Configurazione dei server MCP disponibili nel sistema.
-    | Ogni server ha un comando e argomenti specifici.
-    |
-    */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-declare(strict_types=1);
-
-
-return [
-    /*
-     * |--------------------------------------------------------------------------
-     * | MCP Servers Configuration
-     * |--------------------------------------------------------------------------
-     * |
-     * | Configurazione dei server MCP disponibili nel sistema.
-     * | Ogni server ha un comando e argomenti specifici.
-     * |
-     */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
     'servers' => [
         'filesystem' => [
             'command' => 'npx',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem'],
         ],
         'memory' => [
@@ -123,6 +76,7 @@ return [
      * | Ogni contesto definisce trait, relazioni e validazioni richieste.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,6 +182,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     'contexts' => [
         'User' => [
@@ -235,12 +191,6 @@ return [
             'traits' => [
                 'HasFactory',
                 'Notifiable',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
                 'HasParent',
             ],
             'relationships' => [
@@ -249,6 +199,7 @@ return [
             ],
             'table' => 'users',
             'type_column' => 'type',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,13 +259,15 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         ],
         'Doctor' => [
             'extends' => 'User',
             'type' => 'child',
             'traits' => [
-<<<<<<< HEAD
                 'HasParent',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,13 +305,15 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'medical_license',
-<<<<<<< HEAD
                 'specialization',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -406,13 +361,15 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         ],
         'Patient' => [
             'extends' => 'User',
             'type' => 'child',
             'traits' => [
-<<<<<<< HEAD
                 'HasParent',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,16 +407,12 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'health_insurance',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
                 'medical_history',
             ],
         ],
@@ -472,6 +425,7 @@ return [
      * | Regole di validazione per i contesti dei modelli.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -545,13 +499,15 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     'validation' => [
         'strict' => true,
         'log_violations' => true,
-<<<<<<< HEAD
         'throw_exceptions' => false,
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -599,4 +555,6 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 ];

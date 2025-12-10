@@ -18,7 +18,10 @@ namespace Modules\Xot\Exceptions\Handlers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Closure;
 use ReflectionClass;
 use ReflectionFunction;
@@ -63,17 +66,17 @@ use Throwable;
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use Throwable;
 use Closure;
 use ReflectionFunction;
 use ReflectionClass;
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 /**
  * The handlers repository.
  */
@@ -123,6 +126,7 @@ class HandlersRepository
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public function getReportersByException(Throwable $e): array
     {
@@ -150,6 +154,10 @@ class HandlersRepository
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+    public function getReportersByException(Throwable $e): array
+    {
+>>>>>>> 091f883c (.)
         return array_filter(
             $this->reporters,
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
@@ -159,6 +167,7 @@ class HandlersRepository
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201,11 +210,14 @@ class HandlersRepository
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 
     /**
      * Retrieve all renderers handling the given exception.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -235,6 +247,10 @@ class HandlersRepository
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+    public function getRenderersByException(Throwable $e): array
+    {
+>>>>>>> 091f883c (.)
         return array_filter(
             $this->renderers,
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
@@ -244,6 +260,7 @@ class HandlersRepository
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -286,11 +303,14 @@ class HandlersRepository
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 
     /**
      * Retrieve all console renderers handling the given exception.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -320,6 +340,10 @@ class HandlersRepository
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+    public function getConsoleRenderersByException(Throwable $e): array
+    {
+>>>>>>> 091f883c (.)
         return array_filter(
             $this->consoleRenderers,
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
@@ -329,6 +353,7 @@ class HandlersRepository
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -371,15 +396,13 @@ class HandlersRepository
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     }
 
     /**
      * Determine whether the given handler can handle the provided exception.
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     protected function handlesException(callable $handler, Throwable $e): bool
     {
         if ($handler instanceof Closure) {
@@ -415,6 +438,7 @@ class HandlersRepository
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -422,6 +446,8 @@ class HandlersRepository
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         if (! ($params = $reflection->getParameters())) {
             return false;
         }
@@ -511,7 +537,12 @@ class HandlersRepository
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         if (!($params = $reflection->getParameters())) {
             return false;
         }
@@ -519,6 +550,7 @@ class HandlersRepository
         return ($params[0]->getClass() instanceof ReflectionClass) ? $params[0]->getClass()->isInstance($e) : true;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -719,6 +751,11 @@ class HandlersRepository
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     }
 }

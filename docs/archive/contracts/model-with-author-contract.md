@@ -24,6 +24,7 @@ interface ModelWithAuthorContract extends ModelContract
 ## Fix/Modifiche recenti
 - [2025-04-16] Correzione conflitti git, uniformazione tipizzazione, aggiunta firme metodi autore/editor, aggiornamento PHPDoc e struttura secondo convenzioni Laraxot/<nome progetto>.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
@@ -31,6 +32,9 @@ interface ModelWithAuthorContract extends ModelContract
 - Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../project_docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+- Link bidirezionale: [Vai a PHPSTAN-FIXES-SUMMARY.md](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
+>>>>>>> 091f883c (.)
 
 ## Collegamenti
 - [ModelContract](model-contract.md)
@@ -81,6 +85,7 @@ interface ModelWithAuthorContract extends ModelContract
 >>>>>>> 6ca989d8 (.)
 - [Contracts Overview](./README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Documentazione root](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
@@ -88,6 +93,9 @@ interface ModelWithAuthorContract extends ModelContract
 - [Documentazione root](../../../project_docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+- [Documentazione root](../../../docs/PHPSTAN-FIXES-SUMMARY.md)
+>>>>>>> 091f883c (.)
 
     $table->foreign('deleter_id')->references('id')->on('users');
 });
@@ -155,6 +163,7 @@ class Article extends Model implements ModelWithAuthorContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6ca989d8 (.)
 - Documentare eventuali personalizzazioni 
@@ -205,4 +214,9 @@ class Article extends Model implements ModelWithAuthorContract
 =======
 - Documentare eventuali personalizzazioni 
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)

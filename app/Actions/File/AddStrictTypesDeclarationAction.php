@@ -18,6 +18,7 @@ namespace Modules\Xot\Actions\File;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use InvalidArgumentException;
 use RuntimeException;
@@ -40,16 +41,14 @@ use RuntimeException;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
->>>>>>> ce6fc085 (.)
-use InvalidArgumentException;
-use RuntimeException;
-=======
 <<<<<<< HEAD
+>>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use InvalidArgumentException;
 use RuntimeException;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Support\Facades\File;
 use InvalidArgumentException;
 use RuntimeException;
@@ -92,6 +91,7 @@ class AddStrictTypesDeclarationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
@@ -113,15 +113,25 @@ class AddStrictTypesDeclarationAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
             throw new InvalidArgumentException("Il file {$filePath} non esiste");
 =======
-<<<<<<< HEAD
-            throw new InvalidArgumentException("Il file {$filePath} non esiste");
 =======
-            throw new \InvalidArgumentException("Il file {$filePath} non esiste");
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
+>>>>>>> 9db27d12 (.)
+=======
+        if (!File::exists($filePath)) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+>>>>>>> 091f883c (.)
+=======
+>>>>>>> 9db27d12 (.)
+            throw new InvalidArgumentException("Il file {$filePath} non esiste");
         }
 
         $content = File::get($filePath);
@@ -135,6 +145,7 @@ class AddStrictTypesDeclarationAction
         $phpTagPos = strpos($content, '<?php');
         if ($phpTagPos === false) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
             throw new RuntimeException("Il file {$filePath} non ha un tag di apertura PHP valido");
@@ -146,6 +157,9 @@ class AddStrictTypesDeclarationAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+            throw new RuntimeException("Il file {$filePath} non ha un tag di apertura PHP valido");
+>>>>>>> 091f883c (.)
         }
 
         // Trova la prima riga non vuota dopo il tag PHP

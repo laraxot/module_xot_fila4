@@ -18,14 +18,6 @@ use SlevomatCodingStandard\Sniffs\TypeHints\ReturnTypeHintSniff;
 
 return [
     /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
      * |--------------------------------------------------------------------------
      * | Default Preset
      * |--------------------------------------------------------------------------
@@ -37,10 +29,6 @@ return [
      * | Supported: "default", "laravel", "symfony", "magento2", "drupal", "wordpress"
      * |
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
     'preset' => 'laravel',
     /*
@@ -72,6 +60,7 @@ return [
      * | mind, that all added `Insights` must belong to a specific `Metric`.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,10 +193,13 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     'exclude' => [
         //  'path/to/directory-or-file'
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +235,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     'add' => [
         Classes::class => [
             ForbiddenFinalClasses::class,
@@ -252,6 +246,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -283,6 +278,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     'remove' => [
         AlphabeticallySortedUsesSniff::class,
         DeclareStrictTypesSniff::class,
@@ -299,6 +296,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -330,17 +328,13 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     'config' => [
         ForbiddenPrivateMethods::class => [
             'title' => 'The usage of private methods is not idiomatic in Laravel.',
         ],
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     /*
      * |--------------------------------------------------------------------------
      * | Requirements
@@ -351,39 +345,6 @@ return [
      * | code will be returned. This is optional and individually defined.
      * |
      */
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-
-    /*
-    |--------------------------------------------------------------------------
-    | Requirements
-    |--------------------------------------------------------------------------
-    |
-    | Here you may define a level you want to reach per `Insights` category.
-    | When a score is lower than the minimum level defined, then an error
-    | code will be returned. This is optional and individually defined.
-    |
-    */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    /*
-     * |--------------------------------------------------------------------------
-     * | Requirements
-     * |--------------------------------------------------------------------------
-     * |
-     * | Here you may define a level you want to reach per `Insights` category.
-     * | When a score is lower than the minimum level defined, then an error
-     * | code will be returned. This is optional and individually defined.
-     * |
-     */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -413,12 +374,6 @@ return [
         //        'min-style' => 0,
         //        'disable-security-check' => false,
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     /*
      * |--------------------------------------------------------------------------
      * | Threads
@@ -441,6 +396,7 @@ return [
      * | of Symfony's setTimeout function.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -535,6 +491,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 
     'timeout' => 60,
 ];

@@ -31,6 +31,7 @@ namespace Modules\Xot\Filament\Resources\ExtraResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -38,6 +39,8 @@ namespace Modules\Xot\Filament\Resources\ExtraResource\Pages;
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Filament\Actions\BulkAction;
@@ -133,7 +136,12 @@ use Override;
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 use Filament\Actions\BulkAction;
 use Filament\Tables\Filters\BaseFilter;
 use Filament\Actions\Action;
@@ -141,32 +149,7 @@ use Filament\Actions\ActionGroup;
 use Override;
 use Filament\Actions\EditAction;
 use Filament\Actions\DeleteBulkAction;
-<<<<<<< HEAD
 use Filament\Tables;
-=======
-=======
-use Filament\Actions\EditAction;
-use Filament\Actions\DeleteBulkAction;
-use Filament\Tables\Filters\BaseFilter;
-use Filament\Actions\Action;
-use Filament\Actions\ActionGroup;
->>>>>>> a12f125f4a (.)
-=======
-use Filament\Actions\BulkAction;
-use Filament\Tables\Filters\BaseFilter;
-use Filament\Actions\Action;
-use Filament\Actions\ActionGroup;
-use Override;
-use Filament\Actions\EditAction;
-use Filament\Actions\DeleteBulkAction;
->>>>>>> b93ef594b4 (.)
-use Filament\Tables;
-=======
-use Filament\Tables;
-use Filament\Tables\Actions\DeleteBulkAction;
-use Filament\Tables\Actions\EditAction;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\ExtraResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
@@ -188,20 +171,6 @@ use Modules\Xot\Filament\Resources\ExtraResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 /**
  * @see ExtraResource
  */
@@ -209,12 +178,6 @@ class ListExtras extends XotBaseListRecords
 {
     protected static string $resource = ExtraResource::class;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -223,6 +186,7 @@ class ListExtras extends XotBaseListRecords
             'model_type' => TextColumn::make('model_type')->searchable()->label('Model Type'),
             'model_id' => TextColumn::make('model_id')->sortable()->label('Model ID'),
             'extra_attributes' => TextColumn::make('extra_attributes')->searchable()->label('Extra Attributes'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,14 +248,16 @@ class ListExtras extends XotBaseListRecords
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         ];
     }
 
     /**
-<<<<<<< HEAD
      * @return array<BaseFilter>
      */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,16 +301,18 @@ class ListExtras extends XotBaseListRecords
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     public function getTableFilters(): array
     {
         return [];
     }
 
     /**
-<<<<<<< HEAD
      * @return array<string, Action|ActionGroup>
      */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -388,6 +356,8 @@ class ListExtras extends XotBaseListRecords
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     public function getTableActions(): array
     {
         return [
@@ -396,10 +366,10 @@ class ListExtras extends XotBaseListRecords
     }
 
     /**
-<<<<<<< HEAD
      * @return array<string, BulkAction>
      */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -452,6 +422,8 @@ class ListExtras extends XotBaseListRecords
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     public function getTableBulkActions(): array
     {
         return [

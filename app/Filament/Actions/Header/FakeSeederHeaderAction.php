@@ -34,10 +34,10 @@ class FakeSeederHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
-<<<<<<< HEAD
             ->tooltip(__('xot::actions.fake_seeder'))
             ->icon('fas-seedling')
             ->schema([
+<<<<<<< HEAD
 <<<<<<< HEAD
             ->tooltip(__('xot::actions.fake_seeder'))
             ->icon('fas-seedling')
@@ -69,6 +69,8 @@ class FakeSeederHeaderAction extends Action
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
                 TextInput::make('qty')
                     ->required()
                     ->numeric()
@@ -112,7 +114,6 @@ class FakeSeederHeaderAction extends Action
                 $qty = max(1, (int) $qtyRaw);
                 Assert::greaterThanEq($qty, 1, 'Quantity must be greater than 0');
 
-<<<<<<< HEAD
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
 
 <<<<<<< HEAD
@@ -139,6 +140,7 @@ class FakeSeederHeaderAction extends Action
 
                 $title = 'On Queue ' . $qty . ' ' . $modelClass;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -382,7 +384,12 @@ class FakeSeederHeaderAction extends Action
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
                 Notification::make()
                     ->title($title)
                     ->success()
@@ -393,6 +400,7 @@ class FakeSeederHeaderAction extends Action
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,6 +453,8 @@ class FakeSeederHeaderAction extends Action
     public static function getDefaultName(): ?string
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
     public static function getDefaultName(): ?string
 =======
     public static function getDefaultName(): null|string
@@ -659,7 +669,13 @@ class FakeSeederHeaderAction extends Action
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     {
         return 'fake_seeder';
     }

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Datas;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -15,6 +16,9 @@ use Exception;
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+use Exception;
+>>>>>>> 091f883c (.)
 use Illuminate\Support\Facades\File;
 use Livewire\Wireable;
 use Spatie\LaravelData\Concerns\WireableData;
@@ -37,6 +41,7 @@ class EnvData extends Data implements Wireable
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,7 +135,12 @@ class EnvData extends Data implements Wireable
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     private static null|self $instance = null;
 
     public static function make(): self
@@ -138,6 +148,7 @@ class EnvData extends Data implements Wireable
         if (!self::$instance) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -355,7 +366,12 @@ class EnvData extends Data implements Wireable
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
             $data = [];
 
             foreach ($_ENV as $k => $v) {
@@ -444,6 +460,7 @@ class EnvData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -451,6 +468,8 @@ class EnvData extends Data implements Wireable
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
         $pos_start = mb_strpos($env_content, $key.'=');
         if ($pos_start === false) {
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -544,7 +563,12 @@ class EnvData extends Data implements Wireable
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         $pos_start = mb_strpos($env_content, $key . '=');
         if (false === $pos_start) {
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -555,6 +579,7 @@ class EnvData extends Data implements Wireable
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -771,7 +796,12 @@ class EnvData extends Data implements Wireable
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         }
 
         $length = $pos_end - $pos_start;
@@ -834,6 +864,7 @@ class EnvData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -849,6 +880,8 @@ class EnvData extends Data implements Wireable
         $replace = $key.'=';
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
         $replace = $key.'=';
 =======
         $replace = $key . '=';
@@ -997,7 +1030,13 @@ class EnvData extends Data implements Wireable
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+        $replace = $key . '=';
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         if (is_bool($value)) {
             $replace .= $value ? 'true' : 'false';
         }
@@ -1040,6 +1079,7 @@ class EnvData extends Data implements Wireable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -1055,6 +1095,8 @@ class EnvData extends Data implements Wireable
             $replace .= '"'.$value.'"';
 =======
 =======
+=======
+>>>>>>> 091f883c (.)
             $replace .= '"'.$value.'"';
 =======
             $replace .= '"' . $value . '"';
@@ -1203,7 +1245,13 @@ class EnvData extends Data implements Wireable
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+            $replace .= '"' . $value . '"';
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
         }
         if (is_int($value)) {
             $replace .= $value;

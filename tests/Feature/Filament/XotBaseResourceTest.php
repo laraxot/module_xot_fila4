@@ -6,6 +6,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -58,6 +59,8 @@ namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
@@ -65,13 +68,6 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Tests\TestCase;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        protected static ?int $navigationSort = 1;
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> 6cba4fe (.)
 uses(TestCase::class, RefreshDatabase::class);
 
     $this->resource = new class extends XotBaseResource {
@@ -108,6 +104,7 @@ namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
         protected static null|int $navigationSort = 1;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -358,7 +355,12 @@ beforeEach(function () {
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
     };
 });
 

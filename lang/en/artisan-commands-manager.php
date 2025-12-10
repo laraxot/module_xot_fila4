@@ -1,11 +1,11 @@
 <?php
 
-<<<<<<< HEAD
 declare(strict_types=1);
 
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209,7 +209,12 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 return [
     'navigation' => [
         'icon' => 'heroicon-o-command-line',

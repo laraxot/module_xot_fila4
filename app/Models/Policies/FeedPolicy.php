@@ -31,6 +31,7 @@ namespace Modules\Xot\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2f3197ab (.)
 use Override;
@@ -188,28 +189,22 @@ use Modules\Xot\Models\Feed;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+use Override;
+use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\Feed;
+>>>>>>> 9db27d12 (.)
+>>>>>>> 091f883c (.)
 
 class FeedPolicy extends XotBasePolicy
 {
     /**
      * Determine whether the user can view any models.
      */
-<<<<<<< HEAD
     #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     public function viewAny(UserContract $user): bool
     {
         return $user->hasPermissionTo('feed.viewAny');
@@ -218,8 +213,8 @@ class FeedPolicy extends XotBasePolicy
     /**
      * Determine whether the user can view the model.
      */
-<<<<<<< HEAD
     public function view(UserContract $user, Feed $_feed): bool
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,6 +249,8 @@ class FeedPolicy extends XotBasePolicy
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     {
         return $user->hasPermissionTo('feed.view');
     }
@@ -269,8 +266,8 @@ class FeedPolicy extends XotBasePolicy
     /**
      * Determine whether the user can update the model.
      */
-<<<<<<< HEAD
     public function update(UserContract $user, Feed $_feed): bool
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,6 +302,8 @@ class FeedPolicy extends XotBasePolicy
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     {
         return $user->hasPermissionTo('feed.update');
     }
@@ -312,8 +311,8 @@ class FeedPolicy extends XotBasePolicy
     /**
      * Determine whether the user can delete the model.
      */
-<<<<<<< HEAD
     public function delete(UserContract $user, Feed $_feed): bool
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,6 +347,8 @@ class FeedPolicy extends XotBasePolicy
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     {
         return $user->hasPermissionTo('feed.delete');
     }
@@ -355,8 +356,8 @@ class FeedPolicy extends XotBasePolicy
     /**
      * Determine whether the user can restore the model.
      */
-<<<<<<< HEAD
     public function restore(UserContract $user, Feed $_feed): bool
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -391,6 +392,8 @@ class FeedPolicy extends XotBasePolicy
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 091f883c (.)
     {
         return $user->hasPermissionTo('feed.restore');
     }
@@ -403,6 +406,7 @@ class FeedPolicy extends XotBasePolicy
         return $user->hasPermissionTo('feed.forceDelete');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 }
@@ -414,3 +418,6 @@ class FeedPolicy extends XotBasePolicy
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> ce6fc085 (.)
+=======
+}
+>>>>>>> 091f883c (.)

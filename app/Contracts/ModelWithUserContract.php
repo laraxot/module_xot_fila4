@@ -161,6 +161,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 interface ModelWithUserContract {}
 =======
 interface ModelWithUserContract
@@ -338,12 +339,15 @@ interface ModelWithUserContract {}
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
 interface ModelWithUserContract
 {
 }
 =======
 interface ModelWithUserContract {}
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,10 +382,13 @@ interface ModelWithUserContract {}
 =======
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 21348520 (.)
+=======
 interface ModelWithUserContract
 {
 }
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -611,3 +618,5 @@ interface ModelWithUserContract
 interface ModelWithUserContract {}
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)

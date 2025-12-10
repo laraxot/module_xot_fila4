@@ -223,9 +223,13 @@ use Modules\Xot\Filament\Resources\ModuleResource;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 73eab74 (.)
 use Filament\Actions;
 use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
@@ -239,9 +243,12 @@ use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Models\Module;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 /**
  * @property Module $record
  */
@@ -264,6 +271,7 @@ class EditModule extends XotBaseEditRecord
     protected function afterSave(): void
     {
         $module = $this->record; // Ottiene il record corrente
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,6 +527,10 @@ class EditModule extends XotBaseEditRecord
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         if (!($module instanceof Model) || !isset($module->path)) {
             return;
         }
@@ -526,6 +538,7 @@ class EditModule extends XotBaseEditRecord
         $config_path = $module->path . '/config/config.php';
         $data = File::getRequire($config_path);
         if (!is_array($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -664,6 +677,8 @@ class EditModule extends XotBaseEditRecord
 =======
 >>>>>>> ed734516 (.)
 =======
+>>>>>>> 21348520 (.)
+=======
         $config_path = $module->path.'/config/config.php';
         $data = File::getRequire($config_path);
         if (! is_array($data)) {
@@ -739,6 +754,7 @@ class EditModule extends XotBaseEditRecord
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -891,6 +907,10 @@ class EditModule extends XotBaseEditRecord
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             $data = [];
         }
         $data = array_merge($data, $module->toArray());
@@ -899,6 +919,9 @@ class EditModule extends XotBaseEditRecord
 
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
          * $configPath = config_path('modules/colors.php');
          *
          * // Prepara l'array di colori
@@ -921,6 +944,7 @@ class EditModule extends XotBaseEditRecord
          * // Richiama il file di configurazione per essere sicuro che i colori siano caricati
          * Config::set('modules.colors', $colorsConfig);
          */
+<<<<<<< HEAD
 =======
         $configPath = config_path('modules/colors.php');
 
@@ -945,5 +969,7 @@ class EditModule extends XotBaseEditRecord
         Config::set('modules.colors', $colorsConfig);
         */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 }

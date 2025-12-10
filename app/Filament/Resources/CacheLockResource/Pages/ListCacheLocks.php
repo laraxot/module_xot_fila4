@@ -59,6 +59,7 @@ namespace Modules\Xot\Filament\Resources\CacheLockResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -220,6 +221,10 @@ use Override;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 use Override;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
@@ -283,6 +288,7 @@ use Override;
 =======
 >>>>>>> 5a14301c (.)
 
+<<<<<<< HEAD
 =======
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\CacheLockResource;
@@ -298,14 +304,20 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 class ListCacheLocks extends XotBaseListRecords
 {
     protected static string $resource = CacheLockResource::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 >>>>>>> f1d4085 (.)
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
     public function getTableColumns(): array
     {
         return [
@@ -318,12 +330,16 @@ class ListCacheLocks extends XotBaseListRecords
                 ->sortable()
                 ->wrap(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
 =======
             'expiration' => TextColumn::make('expiration')
                 ->numeric()
                 ->sortable(),
 >>>>>>> f1d4085 (.)
+=======
+            'expiration' => TextColumn::make('expiration')->numeric()->sortable(),
+>>>>>>> 73eab74 (.)
         ];
     }
 }

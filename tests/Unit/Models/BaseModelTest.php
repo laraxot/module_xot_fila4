@@ -3,11 +3,15 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 namespace Modules\Xot\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,17 +58,25 @@ use Modules\Xot\Tests\TestCase;
 >>>>>>> 5a14301c (.)
 =======
 =======
+>>>>>>> 21348520 (.)
+=======
 namespace Modules\Xot\Tests\Unit\Models\BaseModelTest;
 
 namespace Modules\Xot\Tests\Unit\Models;
 
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 
 uses(TestCase::class);
 
 beforeEach(function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     $this->baseModel = new class() extends BaseModel
@@ -400,10 +412,13 @@ beforeEach(function () {
     $this->baseModel = new class extends BaseModel {
 >>>>>>> 5a14301c (.)
 =======
+=======
+>>>>>>> 21348520 (.)
     $this->baseModel = new class extends BaseModel {
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -562,6 +577,11 @@ beforeEach(function () {
 
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         protected $table = 'test_table';
     };
 });

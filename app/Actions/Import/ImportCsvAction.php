@@ -43,11 +43,15 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Modules\Xot\Datas\ColumnData;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\ini_set;
 
+<<<<<<< HEAD
 =======
 
 use function Safe\ini_set;
@@ -56,6 +60,8 @@ use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 class ImportCsvAction
 {
     use QueueableAction;
@@ -242,6 +248,9 @@ class ImportCsvAction
         $excludedColumns = ['id'];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         return array_map(
             function (string $column) use ($conn, $tbl) {
                 $type = $conn->getColumnType($tbl, $column);
@@ -253,6 +262,7 @@ class ImportCsvAction
             },
             array_diff($columns, $excludedColumns),
         );
+<<<<<<< HEAD
 =======
         return array_map(function (string $column) use ($conn, $tbl) {
             $type = $conn->getColumnType($tbl, $column);
@@ -263,6 +273,8 @@ class ImportCsvAction
             );
         }, array_diff($columns, $excludedColumns));
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 
     /**
@@ -310,6 +322,9 @@ class ImportCsvAction
     private function prepareFields(array $columns): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         return array_map(
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -338,11 +353,14 @@ class ImportCsvAction
 >>>>>>> 5a14301c (.)
             $columns,
         );
+<<<<<<< HEAD
 =======
         return array_map(function (ColumnData $column) {
             return 'decimal' === $column->type ? '@'.$column->name : $column->name;
         }, $columns);
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 
     /**
@@ -377,6 +395,9 @@ class ImportCsvAction
     private function buildSql(string $path, string $db, string $tbl, string $fieldsUpList, array $columns): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $sql =
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -428,6 +449,7 @@ class ImportCsvAction
 =======
 >>>>>>> 5a14301c (.)
             "LINES TERMINATED BY '\r\n' ({$fieldsUpList})";
+<<<<<<< HEAD
 =======
         $sql = "LOAD DATA LOW_PRIORITY LOCAL INFILE '{$path}' "
             ."INTO TABLE `{$db}`.`{$tbl}` CHARACTER SET latin1 "
@@ -435,6 +457,8 @@ class ImportCsvAction
             ."ESCAPED BY '".'"'."' "
             ."LINES TERMINATED BY '\r\n' ({$fieldsUpList})";
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         $sqlReplace = [];
         foreach ($columns as $column) {
@@ -467,6 +491,7 @@ class ImportCsvAction
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,6 +641,8 @@ class ImportCsvAction
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 21348520 (.)
         if (!empty($sqlReplace)) {
             $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
 =======
@@ -729,6 +756,7 @@ class ImportCsvAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -754,9 +782,12 @@ class ImportCsvAction
 =======
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 21348520 (.)
+=======
         if (!empty($sqlReplace)) {
             $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -929,6 +960,8 @@ class ImportCsvAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
         }
 
         return $sql;
@@ -984,6 +1017,9 @@ class ImportCsvAction
     private function transformColumnsToColumnData(array $columns): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         return array_map(
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1029,6 +1065,7 @@ class ImportCsvAction
             },
             $columns,
         );
+<<<<<<< HEAD
 =======
         return array_map(function ($column): ColumnData {
             Assert::string($column, 'Column must be a string');
@@ -1039,5 +1076,7 @@ class ImportCsvAction
             );
         }, $columns);
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 }

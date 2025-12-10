@@ -93,6 +93,7 @@ class StoreAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 17684f52 (.)
@@ -135,6 +136,8 @@ class StoreAction
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
@@ -389,6 +392,7 @@ class StoreAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -420,10 +424,13 @@ class StoreAction
 >>>>>>> f1d4085 (.)
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 21348520 (.)
+=======
     public function execute(Model $model, array $data, array $rules): Model
     {
         if (!isset($data['lang']) && \in_array('lang', $model->getFillable(), false)) {
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -626,18 +633,24 @@ class StoreAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
             $data['lang'] = app()->getLocale();
         }
         $data['updated_by'] = authId();
         $data['created_by'] = authId();
         /*if (
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
          * ! isset($data['user_id'])
          * && \in_array('user_id',  $row->getFillable(), false)
          * && 'user_id' !== $row->getKeyName()
          * ) {
          * $data['user_id'] = \Auth::id();
          * }*/
+<<<<<<< HEAD
 =======
             ! isset($data['user_id'])
             && \in_array('user_id',  $row->getFillable(), false)
@@ -646,6 +659,8 @@ class StoreAction
             $data['user_id'] = \Auth::id();
         }*/
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         $validator = Validator::make($data, $rules);
         $validator->validate();
@@ -860,6 +875,7 @@ class StoreAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ca9324a4 (.)
 =======
 <<<<<<< HEAD
@@ -897,6 +913,10 @@ class StoreAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             $action_class = __NAMESPACE__ . '\\Store\\' . $relationshipType . 'Action';
             $action = app($action_class);
             Assert::object($action);
@@ -944,6 +964,9 @@ class StoreAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
 =======
@@ -1205,6 +1228,7 @@ class StoreAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -1355,6 +1379,10 @@ class StoreAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             }
             $action->execute($model, $relation);
         }

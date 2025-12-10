@@ -69,6 +69,7 @@ class CopyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -226,6 +227,10 @@ class CopyAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
         if (!File::exists(\dirname($to))) {
             try {
                 File::makeDirectory(\dirname($to), 0o755, true, true);
@@ -251,6 +256,7 @@ class CopyAction
 =======
 >>>>>>> 5a14301c (.)
                 );
+<<<<<<< HEAD
 =======
         if (! File::exists(\dirname($to))) {
             try {
@@ -258,6 +264,8 @@ class CopyAction
             } catch (Exception $e) {
                 dd('Caught exception: ', $e->getMessage(), '\n['.__LINE__.']['.class_basename(static::class).']');
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             }
         }
 
@@ -274,6 +282,9 @@ class CopyAction
             File::copy($from, $to);
         } catch (Exception $exception) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             throw new Exception(
                 'Unable to copy
 <<<<<<< HEAD
@@ -329,12 +340,15 @@ class CopyAction
                 $exception->getCode(),
                 $exception,
             );
+<<<<<<< HEAD
 =======
             throw new Exception('Unable to copy
                     from ['.$from.']
                     to ['.$to.']
                     message ['.$exception->getMessage().']', $exception->getCode(), $exception);
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         }
     }
 }

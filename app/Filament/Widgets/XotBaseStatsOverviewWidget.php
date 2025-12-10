@@ -59,6 +59,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -241,6 +242,10 @@ use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 use Filament\Actions\Action;
 use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
@@ -265,6 +270,7 @@ use Illuminate\Support\Facades\Log;
 =======
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Traits\TransTrait;
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
@@ -275,6 +281,8 @@ use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Filament\Actions\Action;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
 /**
  * Classe base per i widget StatsOverview del sistema Xot.
@@ -316,9 +324,13 @@ abstract class XotBaseStatsOverviewWidget extends FilamentStatsOverviewWidget
 {
     use TransTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 
    
 } 
 >>>>>>> f1d4085 (.)
+=======
+}
+>>>>>>> 73eab74 (.)

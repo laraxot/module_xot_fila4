@@ -36,6 +36,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 249a0067 (.)
 =======
@@ -193,6 +194,14 @@ use Override;
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+use Override;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Override;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 use Modules\Xot\Filament\Resources\CacheResource\Pages\ListCaches;
 use Modules\Xot\Filament\Resources\CacheResource\Pages\CreateCache;
 use Modules\Xot\Filament\Resources\CacheResource\Pages\EditCache;
@@ -200,6 +209,9 @@ use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\CacheResource\Pages;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\Cache;
 
@@ -299,6 +311,7 @@ class CacheResource extends XotBaseResource
     }
 
     #[Override]
+<<<<<<< HEAD
 =======
 use Modules\Xot\Models\Cache;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
@@ -330,6 +343,8 @@ class CacheResource extends XotBaseResource
     }
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     public static function getPages(): array
     {
         return [

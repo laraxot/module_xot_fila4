@@ -101,6 +101,7 @@ class ArticleData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new static;
 =======
         return new static();
@@ -209,10 +210,13 @@ class ArticleData extends Data
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
         return new static();
 =======
         return new static;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,5 +426,10 @@ class ArticleData extends Data
         return new static;
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+        return new static();
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
     }
 }

@@ -10,10 +10,14 @@ use Modules\Xot\Models\InformationSchemaTable;
 /**
  * InformationSchemaTable Factory
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
  * 
 >>>>>>> f1d4085 (.)
+=======
+ *
+>>>>>>> 73eab74 (.)
  * @extends Factory<InformationSchemaTable>
  */
 class InformationSchemaTableFactory extends Factory
@@ -25,6 +29,9 @@ class InformationSchemaTableFactory extends Factory
         /** @var string $tableName */
         $tableName = $this->faker->randomElement([
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             'users',
             'posts',
             'comments',
@@ -36,12 +43,15 @@ class InformationSchemaTableFactory extends Factory
             'invoices',
         ]);
 
+<<<<<<< HEAD
 =======
             'users', 'posts', 'comments', 'categories', 'tags',
             'orders', 'products', 'customers', 'invoices'
         ]);
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         return [
             'table_catalog' => 'def',
 <<<<<<< HEAD
@@ -180,6 +190,7 @@ class InformationSchemaTableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -288,10 +299,13 @@ class InformationSchemaTableFactory extends Factory
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
         return $this->state(fn(array $_attributes): array => [
 =======
         return $this->state(fn (array $attributes): array => [
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,6 +515,11 @@ class InformationSchemaTableFactory extends Factory
         return $this->state(fn (array $attributes): array => [
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             'table_type' => 'BASE TABLE',
         ]);
     }
@@ -562,6 +581,7 @@ class InformationSchemaTableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -670,10 +690,13 @@ class InformationSchemaTableFactory extends Factory
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
         return $this->state(fn(array $_attributes): array => [
 =======
         return $this->state(fn (array $attributes): array => [
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -883,6 +906,11 @@ class InformationSchemaTableFactory extends Factory
         return $this->state(fn (array $attributes): array => [
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             'table_type' => 'VIEW',
         ]);
     }

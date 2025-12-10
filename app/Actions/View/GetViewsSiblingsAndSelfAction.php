@@ -84,6 +84,7 @@ class GetViewsSiblingsAndSelfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
 =======
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
@@ -192,10 +193,13 @@ class GetViewsSiblingsAndSelfAction
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
 =======
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,6 +409,11 @@ class GetViewsSiblingsAndSelfAction
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
                 continue;
             }
 

@@ -10,10 +10,14 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 /**
  * HealthCheckResultHistoryItem Factory
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
  * 
 >>>>>>> f1d4085 (.)
+=======
+ *
+>>>>>>> 73eab74 (.)
  * @extends Factory<HealthCheckResultHistoryItem>
  */
 class HealthCheckResultHistoryItemFactory extends Factory
@@ -26,10 +30,14 @@ class HealthCheckResultHistoryItemFactory extends Factory
             'check_name' => $this->faker->randomElement([
                 'DatabaseCheck',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'CacheCheck',
 =======
                 'CacheCheck', 
 >>>>>>> f1d4085 (.)
+=======
+                'CacheCheck',
+>>>>>>> 73eab74 (.)
                 'QueueCheck',
                 'StorageCheck',
                 'MemoryCheck',
@@ -105,6 +113,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -213,10 +222,13 @@ class HealthCheckResultHistoryItemFactory extends Factory
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
         return $this->state(fn(array $_attributes): array => [
 =======
         return $this->state(fn (array $attributes): array => [
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -432,6 +444,11 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return $this->state(fn (array $attributes): array => [
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             'status' => 'ok',
             'notification_message' => null,
         ]);
@@ -494,6 +511,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -602,10 +620,13 @@ class HealthCheckResultHistoryItemFactory extends Factory
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
         return $this->state(fn(array $_attributes): array => [
 =======
         return $this->state(fn (array $attributes): array => [
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -815,6 +836,11 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return $this->state(fn (array $attributes): array => [
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
+=======
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
             'status' => 'failed',
             'notification_message' => $this->faker->sentence(),
         ]);

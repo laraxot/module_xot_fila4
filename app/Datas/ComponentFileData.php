@@ -49,6 +49,7 @@ class ComponentFileData extends Data
 >>>>>>> 5a14301c (.)
     public string $class;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|string $module = null;
     public null|string $path = null;
     public null|string $ns = null;
@@ -63,11 +64,15 @@ class ComponentFileData extends Data
     public ?string $ns = null;
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
 =======
     public null|string $module = null;
     public null|string $path = null;
     public null|string $ns = null;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -440,13 +445,18 @@ class ComponentFileData extends Data
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
 
     public static function collection(EloquentCollection|Collection|array $data): DataCollection
     {
         return self::collect($data, DataCollection::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 }

@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -37,6 +40,7 @@ return [
      * | Ogni server ha un comando e argomenti specifici.
      * |
      */
+<<<<<<< HEAD
 =======
 return [
     /*
@@ -49,11 +53,16 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
     'servers' => [
         'filesystem' => [
             'command' => 'npx',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem'],
         ],
         'memory' => [
@@ -82,6 +91,7 @@ return [
      * | Ogni contesto definisce trait, relazioni e validazioni richieste.
      * |
      */
+<<<<<<< HEAD
 =======
             'args' => ['-y', '@modelcontextprotocol/server-filesystem']
         ],
@@ -113,6 +123,8 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
     'contexts' => [
         'User' => [
@@ -121,6 +133,9 @@ return [
                 'HasFactory',
                 'Notifiable',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                 'HasParent',
             ],
             'relationships' => [
@@ -129,6 +144,7 @@ return [
             ],
             'table' => 'users',
             'type_column' => 'type',
+<<<<<<< HEAD
 =======
                 'HasParent'
             ],
@@ -139,20 +155,27 @@ return [
             'table' => 'users',
             'type_column' => 'type'
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         ],
         'Doctor' => [
             'extends' => 'User',
             'type' => 'child',
             'traits' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 =======
                 'HasParent'
 >>>>>>> f1d4085 (.)
+=======
+                'HasParent',
+>>>>>>> 73eab74 (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'medical_license',
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'specialization',
             ],
@@ -160,21 +183,32 @@ return [
                 'specialization'
             ]
 >>>>>>> f1d4085 (.)
+=======
+                'specialization',
+            ],
+>>>>>>> 73eab74 (.)
         ],
         'Patient' => [
             'extends' => 'User',
             'type' => 'child',
             'traits' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 =======
                 'HasParent'
 >>>>>>> f1d4085 (.)
+=======
+                'HasParent',
+>>>>>>> 73eab74 (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'health_insurance',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                 'medical_history',
             ],
         ],
@@ -187,6 +221,7 @@ return [
      * | Regole di validazione per i contesti dei modelli.
      * |
      */
+<<<<<<< HEAD
 =======
                 'medical_history'
             ]
@@ -202,10 +237,13 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
     'validation' => [
         'strict' => true,
         'log_violations' => true,
+<<<<<<< HEAD
 <<<<<<< HEAD
         'throw_exceptions' => false,
     ],
@@ -213,4 +251,8 @@ return [
         'throw_exceptions' => false
     ]
 >>>>>>> f1d4085 (.)
+=======
+        'throw_exceptions' => false,
+    ],
+>>>>>>> 73eab74 (.)
 ];

@@ -36,6 +36,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 249a0067 (.)
 =======
@@ -137,6 +138,10 @@ class SessionResource extends XotBaseResource
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
 use Override;
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
@@ -215,6 +220,7 @@ class SessionResource extends XotBaseResource
 >>>>>>> 5a14301c (.)
         ];
     }
+<<<<<<< HEAD
 =======
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\TextInput;
@@ -253,4 +259,6 @@ class SessionResource extends XotBaseResource
 
 
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 }

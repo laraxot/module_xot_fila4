@@ -8,24 +8,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exceptions;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 abstract class ApplicationException extends Exception
-<<<<<<< HEAD
-=======
-=======
-use Illuminate\Http\Request;
-use Illuminate\Http\Response;
-
-abstract class ApplicationException extends \Exception
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 {
     abstract public function status(): int;
 
@@ -33,6 +20,7 @@ abstract class ApplicationException extends \Exception
 
     abstract public function error(): string;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +153,9 @@ abstract class ApplicationException extends \Exception
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+    public function render(Request $_request): Response
+>>>>>>> 3c8d62b79 (.)
     {
         $applicationError = new ApplicationError($this->help(), $this->error());
 

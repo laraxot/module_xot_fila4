@@ -19,6 +19,7 @@ namespace Modules\Xot\Actions\Cast;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,6 +139,9 @@ namespace Modules\Xot\Actions\Cast;
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+ *
+>>>>>>> 3c8d62b79 (.)
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  */
@@ -165,6 +169,7 @@ class SafeStringCastAction
             return $value;
         }
         /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,15 +241,13 @@ class SafeStringCastAction
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
          * if ($value instanceof \BackedEnum) {
          * return $value->value;
          * }
          */
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         if (is_null($value)) {
             return '';
         }
@@ -261,6 +264,7 @@ class SafeStringCastAction
         return '';
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534,6 +538,8 @@ class SafeStringCastAction
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
     /**
      * Metodo statico di convenienza per chiamate dirette.
      *

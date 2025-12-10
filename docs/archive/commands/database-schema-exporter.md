@@ -147,6 +147,7 @@ Il file JSON generato contiene:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -192,6 +193,10 @@ Il file JSON generato contiene:
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+>>>>>>> 3c8d62b79 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

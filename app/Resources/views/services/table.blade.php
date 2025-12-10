@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -69,11 +70,14 @@
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,6 +158,8 @@ declare(strict_types=1);
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 <table border="1" class="table table-bordered">
 @foreach ($rows as $row)
     <tr>
@@ -162,6 +168,7 @@ declare(strict_types=1);
         @endforeach
     </td>
 @endforeach
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,3 +327,6 @@ declare(strict_types=1);
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+</table>
+>>>>>>> 3c8d62b79 (.)

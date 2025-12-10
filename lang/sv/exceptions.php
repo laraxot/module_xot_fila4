@@ -14,6 +14,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -75,6 +76,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -84,6 +87,7 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,6 +250,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 
     'backend' => [
         'access' => [
@@ -259,6 +265,7 @@ return [
                 'not_found' => 'Det finns inte en sådan roll i systemet.',
                 'update_error' => 'Det uppstod ett fel då rollen skulle uppdateras. Försök igen.',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -387,6 +394,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
             'users' => [
                 'cant_deactivate_self' => 'Du har inte rättighet att utföra denna handling mot ditt eget konto.',
                 'cant_delete_self' => 'Du kan inte radera ditt eget konto.',
@@ -423,6 +432,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -533,6 +543,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -558,6 +570,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Ditt konto har inaktiverats.',
             'email_taken' => 'Det finns redan ett konto registrerat med den e-postadressen.',
 <<<<<<< HEAD
@@ -760,6 +773,10 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+            'deactivated' => 'Ditt konto har inaktiverats.',
+            'email_taken' => 'Det finns redan ett konto registrerat med den e-postadressen.',
+>>>>>>> 3c8d62b79 (.)
             'password' => [
                 'change_mismatch' => 'Det där var inte ditt gamla lösenord.',
             ],

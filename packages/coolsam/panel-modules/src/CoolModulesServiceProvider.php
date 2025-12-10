@@ -26,6 +26,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,6 +140,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+     *
+>>>>>>> 3c8d62b79 (.)
      * @var array<string, bool>
      */
     private static array $processedPanels = [];
@@ -151,6 +155,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,6 +242,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+        $package->name('cool-modules');
+>>>>>>> 3c8d62b79 (.)
     }
 
         $package->name('cool-modules');
@@ -316,6 +324,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -369,11 +378,14 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
                 $panelId = $panel->getId();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -554,10 +566,13 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
                 // Controlla se questo panel è già stato processato
                 if (isset(self::$processedPanels[$panelId])) {
                     continue;
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -624,6 +639,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
@@ -649,6 +666,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                                      '),
                     );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -944,6 +962,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
                     // Marca questo panel come processato
                     self::$processedPanels[$panelId] = true;
                 }

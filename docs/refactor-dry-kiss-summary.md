@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -73,6 +74,9 @@
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+- ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/phpstan-consolidated.md`
+>>>>>>> 3c8d62b79 (.)
 - ✅ **99% riduzione duplicazioni**
 - ✅ **Single Source of Truth** implementato
 
@@ -96,6 +100,7 @@
 - Standard inconsistenti
 
 **Dopo il refactor:**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +149,9 @@
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+- ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
+>>>>>>> 3c8d62b79 (.)
 - ✅ **99% riduzione duplicazioni**
 - ✅ **Regole universali** per tutti i moduli
 
@@ -164,6 +172,7 @@
 - Best practices frammentate
 
 **Dopo il refactor:**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,6 +221,9 @@
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+- ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
+>>>>>>> 3c8d62b79 (.)
 - ✅ **96% riduzione duplicazioni**
 - ✅ **Procedure universali** standardizzate
 
@@ -471,6 +483,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -510,6 +523,9 @@
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+/laravel/Modules/Xot/docs/
+>>>>>>> 3c8d62b79 (.)
 ├── phpstan-consolidated.md          # TUTTE le regole PHPStan
 ├── translations-consolidated.md     # TUTTE le regole traduzioni
 ├── migrations-consolidated.md       # TUTTE le regole migrazioni
@@ -526,6 +542,7 @@
 
 ### Documentazione Moduli (Solo Specifiche)
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -574,6 +591,9 @@
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+/laravel/Modules/{Module}/docs/
+>>>>>>> 3c8d62b79 (.)
 ├── README.md                        # Overview modulo
 ├── api.md                          # API specifiche modulo
 └── features/                       # Funzionalità specifiche

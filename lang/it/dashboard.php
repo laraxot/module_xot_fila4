@@ -16,6 +16,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -69,6 +70,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
     // NAVIGATION & STRUCTURE
     'navigation' => [
         'label' => 'Dashboard',
@@ -147,6 +150,7 @@ return [
                 'success' => 'Dati importati con successo',
                 'error' => 'Errore durante l\'importazione',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,11 +445,14 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
             'fields' => [
                 'import_file' => 'Seleziona un file XLS o CSV da caricare',
             ],
         ],
         'export' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -517,6 +524,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
             'label' => 'Esporta Dati',
             'icon' => 'heroicon-o-arrow-down-tray',
             'color' => 'success',
@@ -531,6 +540,7 @@ return [
                 'success' => 'Dati esportati con successo',
                 'error' => 'Errore durante l\'esportazione',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -611,6 +621,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
             'filename_prefix' => 'Aree al',
             'columns' => [
                 'name' => 'Nome area',
@@ -618,6 +630,7 @@ return [
             ],
         ],
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -689,6 +702,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
     // SECTIONS - ORGANIZZAZIONE FORM
     'sections' => [
         'overview' => [
@@ -739,6 +754,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -806,4 +822,6 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 ];

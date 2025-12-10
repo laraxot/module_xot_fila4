@@ -60,6 +60,7 @@ Per ogni modulo, gli script generano:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - File JSON con i risultati dell'analisi: `Modules/[ModuleName]/docs/phpstan/level_[1-9].json`
 - File Markdown con suggerimenti per le correzioni: `Modules/[ModuleName]/docs/phpstan/correction.md`
@@ -136,6 +137,10 @@ Per ogni modulo, gli script generano:
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+- File JSON con i risultati dell'analisi: `Modules/[ModuleName]/docs/phpstan/level_[1-9].json`
+- File Markdown con suggerimenti per le correzioni: `Modules/[ModuleName]/docs/phpstan/correction.md`
+>>>>>>> 3c8d62b79 (.)
 
 ## Livelli di analisi
 
@@ -193,6 +198,7 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 ``` 
 
 ## Collegamenti tra versioni di README.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,6 +290,10 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 3c8d62b79 (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)
@@ -314,7 +324,6 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 * [README.md](docs/implementazione/reporting/README.md)
 * [README.md](docs/implementazione/isee/README.md)
 * [README.md](docs/it/README.md)
-<<<<<<< HEAD
 * [README.md](laravel/vendor/mockery/mockery/docs/README.md)
 * [README.md](../../../Chart/docs/README.md)
 * [README.md](../../../Reporting/docs/README.md)
@@ -359,50 +368,4 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 * [README.md](../../../Cms/docs/components/README.md)
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
-=======
-* [README.md](laravel/vendor/mockery/mockery/project_docs/README.md)
-* [README.md](../../../Chart/project_docs/README.md)
-* [README.md](../../../Reporting/project_docs/README.md)
-* [README.md](../../../Gdpr/project_docs/phpstan/README.md)
-* [README.md](../../../Gdpr/project_docs/README.md)
-* [README.md](../../../Notify/project_docs/phpstan/README.md)
-* [README.md](../../../Notify/project_docs/README.md)
-* [README.md](../../../Xot/project_docs/filament/README.md)
-* [README.md](../../../Xot/project_docs/phpstan/README.md)
-* [README.md](../../../Xot/project_docs/exceptions/README.md)
-* [README.md](../../../Xot/project_docs/README.md)
-* [README.md](../../../Xot/project_docs/standards/README.md)
-* [README.md](../../../Xot/project_docs/conventions/README.md)
-* [README.md](../../../Xot/project_docs/development/README.md)
-* [README.md](../../../Dental/project_docs/README.md)
-* [README.md](../../../User/project_docs/phpstan/README.md)
-* [README.md](../../../User/project_docs/README.md)
-* [README.md](../../../User/project_docs/README.md)
-* [README.md](../../../UI/project_docs/phpstan/README.md)
-* [README.md](../../../UI/project_docs/README.md)
-* [README.md](../../../UI/project_docs/standards/README.md)
-* [README.md](../../../UI/project_docs/themes/README.md)
-* [README.md](../../../UI/project_docs/components/README.md)
-* [README.md](../../../Lang/project_docs/phpstan/README.md)
-* [README.md](../../../Lang/project_docs/README.md)
-* [README.md](../../../Job/project_docs/phpstan/README.md)
-* [README.md](../../../Job/project_docs/README.md)
-* [README.md](../../../Media/project_docs/phpstan/README.md)
-* [README.md](../../../Media/project_docs/README.md)
-* [README.md](../../../Tenant/project_docs/phpstan/README.md)
-* [README.md](../../../Tenant/project_docs/README.md)
-* [README.md](../../../Activity/project_docs/phpstan/README.md)
-* [README.md](../../../Activity/project_docs/README.md)
-* [README.md](../../../Patient/project_docs/README.md)
-* [README.md](../../../Patient/project_docs/standards/README.md)
-* [README.md](../../../Patient/project_docs/value-objects/README.md)
-* [README.md](../../../Cms/project_docs/blocks/README.md)
-* [README.md](../../../Cms/project_docs/README.md)
-* [README.md](../../../Cms/project_docs/standards/README.md)
-* [README.md](../../../Cms/project_docs/content/README.md)
-* [README.md](../../../Cms/project_docs/frontoffice/README.md)
-* [README.md](../../../Cms/project_docs/components/README.md)
-* [README.md](../../../../Themes/Two/project_docs/README.md)
-* [README.md](../../../../Themes/One/project_docs/README.md)
->>>>>>> 6cba4fe (.)
 

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\SessionResource\Pages;
 
-<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 <<<<<<< HEAD
 =======
@@ -170,6 +169,7 @@ class CreateSession extends XotBaseCreateRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 class CreateSession extends \Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord
 =======
@@ -237,6 +237,8 @@ class CreateSession extends \Modules\Xot\Filament\Resources\Pages\XotBaseCreateR
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 {
     protected static string $resource = SessionResource::class;
 }

@@ -53,6 +53,7 @@ define ROOT "C:/var/www/nome_giunzione/public_html"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [url-not-found.md](../../../Xot/docs/base/url-not-found.md)
 * [url-not-found.md](../../../Xot/docs/errors/url-not-found.md)
@@ -129,6 +130,10 @@ define ROOT "C:/var/www/nome_giunzione/public_html"
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+* [url-not-found.md](../../../Xot/docs/base/url-not-found.md)
+* [url-not-found.md](../../../Xot/docs/errors/url-not-found.md)
+>>>>>>> 3c8d62b79 (.)
 
 
 ### Versione Incoming

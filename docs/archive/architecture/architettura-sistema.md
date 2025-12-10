@@ -35,6 +35,7 @@ il progetto è basato su un'architettura modulare che utilizza Laravel come fram
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Filament 3**: Framework di amministrazione per il backend
 >>>>>>> 85cdef688 (.)
@@ -128,6 +129,9 @@ il progetto è basato su un'architettura modulare che utilizza Laravel come fram
 - **Filament 3**: Framework di amministrazione per il backend
 >>>>>>> 6cba4fe (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+- **Filament 4**: Framework di amministrazione per il backend
+>>>>>>> 3c8d62b79 (.)
 
 ### 2. Sistema Modulare
 - **Laraxot**: Sistema di moduli personalizzato

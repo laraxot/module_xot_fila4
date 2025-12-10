@@ -11,6 +11,7 @@ namespace Modules\Xot\Actions\Dummy;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -45,6 +46,9 @@ use Exception;
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+use Exception;
+>>>>>>> 3c8d62b79 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Http;
 use Spatie\QueueableAction\QueueableAction;
@@ -57,6 +61,7 @@ class GetProductsArrayDummyAction
     /**
      * Execute the function with the given model class.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,6 +104,9 @@ class GetProductsArrayDummyAction
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+     * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
+>>>>>>> 3c8d62b79 (.)
      */
     public function execute(): array
     {
@@ -116,6 +124,7 @@ class GetProductsArrayDummyAction
             if (!is_array($item)) {
                 return []; // Restituiamo un array vuoto se $item non è un array
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,6 +196,8 @@ class GetProductsArrayDummyAction
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 
             return Arr::only($item, [
                 'id',
@@ -198,6 +209,7 @@ class GetProductsArrayDummyAction
                 'category',
                 'thumbnail',
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,6 +377,8 @@ class GetProductsArrayDummyAction
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
         });
 
         return $products;

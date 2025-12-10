@@ -14,6 +14,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -75,6 +76,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -84,6 +87,7 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,6 +250,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 
     'backend' => [
         'access' => [
@@ -259,6 +265,7 @@ return [
                 'not_found' => "Ce rôle n'existe pas.",
                 'update_error' => 'Un problème est survenu lors de la mise à jour du rôle. Veuillez réessayer.',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -387,6 +394,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
             'users' => [
                 'cant_deactivate_self' => 'Vous ne pouvez pas vous désactiver vous-même.',
                 'cant_delete_self' => 'Vous ne pouvez pas vous supprimer vous-même.',
@@ -423,6 +432,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -533,6 +543,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -558,6 +570,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Votre compte a été désactivé.',
             'email_taken' => 'Cet email est déjà utilisé.',
 <<<<<<< HEAD
@@ -760,6 +773,10 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+            'deactivated' => 'Votre compte a été désactivé.',
+            'email_taken' => 'Cet email est déjà utilisé.',
+>>>>>>> 3c8d62b79 (.)
             'password' => [
                 'change_mismatch' => "L'ancien mot de passe est invalide.",
             ],

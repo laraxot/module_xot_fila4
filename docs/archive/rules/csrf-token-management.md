@@ -56,6 +56,7 @@ class MyWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Livewire](https://livewire.laravel.com/docs/security)
 - [Documentazione Laravel CSRF](https://laravel.com/docs/csrf)
@@ -132,6 +133,10 @@ class MyWidget extends XotBaseWidget
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+- [Documentazione Livewire](https://livewire.laravel.com/docs/security)
+- [Documentazione Laravel CSRF](https://laravel.com/docs/csrf)
+>>>>>>> 3c8d62b79 (.)
 - [XotBaseWidget Implementation](../xot_base_classes.md)
 
 ## Esempio di Correzione
@@ -161,6 +166,7 @@ class FindDoctorAndAppointmentWidget extends XotBaseWidget
 - [ ] Token CSRF gestito nel mount()
 - [ ] Token presente nella vista
 - [ ] Meta tag CSRF nel layout
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,3 +237,5 @@ class FindDoctorAndAppointmentWidget extends XotBaseWidget
 =======
 - [ ] Dipendenze Livewire aggiornate 
 >>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 3c8d62b79 (.)

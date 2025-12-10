@@ -161,6 +161,7 @@ protected function casts(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 18. `/Modules/Chart/project_docs/Chart.php`
 19. `/Modules/Chart/project_docs/Chart_conflict.php`
@@ -278,6 +279,10 @@ protected function casts(): array
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+18. `/Modules/Chart/docs/Chart.php`
+19. `/Modules/Chart/docs/Chart_conflict.php`
+>>>>>>> 3c8d62b79 (.)
 20. `/Modules/Chart/app/Models/Chart.php`
 
 ### Priorità di Refactoring
@@ -391,6 +396,7 @@ class User extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [../../project_docs/phpstan-cast-fixes-guide.md](../../project_docs/phpstan-cast-fixes-guide.md)
 - [Laravel 11 Model Casts Documentation](https://laravel.com/project_docs/11.x/eloquent-mutators#attribute-casting)
@@ -508,5 +514,9 @@ class User extends BaseModel
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+- [../../docs/phpstan-cast-fixes-guide.md](../../docs/phpstan-cast-fixes-guide.md)
+- [Laravel 11 Model Casts Documentation](https://laravel.com/docs/11.x/eloquent-mutators#attribute-casting)
+>>>>>>> 3c8d62b79 (.)
 
 *Ultimo aggiornamento: agosto 2025*

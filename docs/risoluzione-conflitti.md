@@ -37,6 +37,7 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Componenti Filament](../../Themes/One/docs/FILAMENT_COMPONENTS.md)
 - [Registrazione Utenti](../../Themes/One/docs/AUTH.md)
@@ -150,6 +151,10 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+- [Componenti Filament](../../Themes/One/docs/FILAMENT_COMPONENTS.md)
+- [Registrazione Utenti](../../Themes/One/docs/AUTH.md)
+>>>>>>> 3c8d62b79 (.)
   - Implementazione completa sistema registrazione
   - Gestione tipi utente dinamica
   - UI moderna con Filament
@@ -247,6 +252,7 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione generale sulla risoluzione dei conflitti git](../../../docs/risoluzione_conflitti_git.md)
 - [Report completo di intervento](../../../docs/logs/conflict_resolution_report.md)
@@ -360,6 +366,10 @@ Per le best practices complete, consultare il file [best_practices.md](conflicts
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+- [Documentazione generale sulla risoluzione dei conflitti git](../../../docs/risoluzione_conflitti_git.md)
+- [Report completo di intervento](../../../docs/logs/conflict_resolution_report.md)
+>>>>>>> 3c8d62b79 (.)
 - [Dettagli risoluzione ModelWithPosContract](./conflicts/model_with_pos_contract_resolution.md)
 
 ## XotBaseMainPanelProvider.php
@@ -470,6 +480,7 @@ Le modifiche sono state applicate seguendo le best practice documentate in `CONF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Diversi file di documentazione in `Activity/docs/phpstan/` (level_1.md fino a level_10.md)
 <<<<<<< HEAD
@@ -565,6 +576,9 @@ Le modifiche sono state applicate seguendo le best practice documentate in `CONF
 - Diversi file di documentazione in `Activity/project_docs/phpstan/` (level_1.md fino a level_10.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+- Diversi file di documentazione in `Activity/docs/phpstan/` (level_1.md fino a level_10.md)
+>>>>>>> 3c8d62b79 (.)
 - File README.md del modulo Activity
 
 ### Modulo Xot
@@ -603,6 +617,7 @@ La risoluzione dei conflitti rimanenti dovrebbe seguire questi principi:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [risoluzione_conflitti.md](../../../Xot/docs/risoluzione_conflitti.md)
 * [risoluzione_conflitti.md](../../../Tenant/docs/risoluzione_conflitti.md)
@@ -716,6 +731,10 @@ La risoluzione dei conflitti rimanenti dovrebbe seguire questi principi:
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+* [risoluzione_conflitti.md](../../../Xot/docs/risoluzione_conflitti.md)
+* [risoluzione_conflitti.md](../../../Tenant/docs/risoluzione_conflitti.md)
+>>>>>>> 3c8d62b79 (.)
 
 aurmich/dev
 5693302 (.)
@@ -735,6 +754,7 @@ b6f667c (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [Risoluzione Conflitti Xot](../../../Xot/docs/risoluzione_conflitti.md)
 * [Risoluzione Conflitti Tenant](../../../Tenant/docs/risoluzione_conflitti.md)
@@ -872,5 +892,10 @@ b6f667c (.)
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+* [Risoluzione Conflitti Xot](../../../Xot/docs/risoluzione_conflitti.md)
+* [Risoluzione Conflitti Tenant](../../../Tenant/docs/risoluzione_conflitti.md)
+* [Linee Guida Principali Risoluzione Conflitti](../../../../docs/conflict_resolution.md)
+>>>>>>> 3c8d62b79 (.)
 fc83074 (.)
 

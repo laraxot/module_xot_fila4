@@ -287,6 +287,7 @@ $pendingWorkflows = DoctorRegistrationWorkflow::whereState('status', PendingMode
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Queueable Actions](queueable-actions.md) 
 =======
 - [Spatie Laravel Model States](https://spatie.be/docs/laravel-model-states)
@@ -409,3 +410,7 @@ $pendingWorkflows = DoctorRegistrationWorkflow::whereState('status', PendingMode
 =======
 - [Queueable Actions](queueable-actions.md) 
 >>>>>>> 5e6e0d054 (.)
+=======
+- [Spatie Laravel Model States](https://spatie.be/docs/laravel-model-states)
+- [Laravel Events](https://laravel.com/docs/events)
+>>>>>>> 3c8d62b79 (.)

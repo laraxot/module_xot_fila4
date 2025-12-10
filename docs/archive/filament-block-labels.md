@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Convenzioni Namespace per Filament](../laravel/Modules/Cms/docs/convenzioni-namespace-filament.md) - Include le regole per le traduzioni nei Blocks Filament
 - [Traduzioni nei Blocks](../laravel/Modules/Cms/docs/blocks/footer.md#label-translation) - Esempio di implementazione
@@ -95,6 +96,10 @@
 >>>>>>> 6a52563d6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+- [Convenzioni Namespace per Filament](../laravel/Modules/Cms/docs/convenzioni-namespace-filament.md) - Include le regole per le traduzioni nei Blocks Filament
+- [Traduzioni nei Blocks](../laravel/Modules/Cms/docs/blocks/footer.md#label-translation) - Esempio di implementazione
+>>>>>>> 3c8d62b79 (.)
 
 ## Regola Fondamentale
 

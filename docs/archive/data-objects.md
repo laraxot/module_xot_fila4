@@ -339,6 +339,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -378,6 +379,9 @@
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+- [Data Objects Patient](../Patient/docs/data-objects.md)
+>>>>>>> 3c8d62b79 (.)
 - [Best Practices](./best-practices.md)
 - [Convenzioni di Codice](./coding-standards.md) 
 <<<<<<< HEAD

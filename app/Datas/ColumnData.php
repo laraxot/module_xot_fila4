@@ -24,6 +24,7 @@ class ColumnData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -179,4 +180,7 @@ class ColumnData extends Data
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+    ) {}
+>>>>>>> 3c8d62b79 (.)
 }

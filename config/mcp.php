@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -62,6 +63,8 @@
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 declare(strict_types=1);
 
 
@@ -87,6 +90,7 @@ return [
      * | Ogni server ha un comando e argomenti specifici.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,10 +243,13 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 
     'servers' => [
         'filesystem' => [
             'command' => 'npx',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +316,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem'],
         ],
         'memory' => [
@@ -337,6 +346,7 @@ return [
      * | Ogni contesto definisce trait, relazioni e validazioni richieste.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -630,6 +640,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 
     'contexts' => [
         'User' => [
@@ -637,6 +649,7 @@ return [
             'traits' => [
                 'HasFactory',
                 'Notifiable',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -703,6 +716,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
                 'HasParent',
             ],
             'relationships' => [
@@ -711,6 +726,7 @@ return [
             ],
             'table' => 'users',
             'type_column' => 'type',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -905,6 +921,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
         ],
         'Doctor' => [
             'extends' => 'User',
@@ -923,6 +941,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1045,6 +1064,9 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+                'HasParent',
+>>>>>>> 3c8d62b79 (.)
             ],
             'context' => 'medical',
             'validations' => [
@@ -1062,6 +1084,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'specialization',
             ],
 <<<<<<< HEAD
@@ -1236,6 +1259,10 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+                'specialization',
+            ],
+>>>>>>> 3c8d62b79 (.)
         ],
         'Patient' => [
             'extends' => 'User',
@@ -1254,6 +1281,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1376,10 +1404,14 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+                'HasParent',
+>>>>>>> 3c8d62b79 (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'health_insurance',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1446,6 +1478,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
                 'medical_history',
             ],
         ],
@@ -1458,6 +1492,7 @@ return [
      * | Regole di validazione per i contesti dei modelli.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1696,10 +1731,13 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
 
     'validation' => [
         'strict' => true,
         'log_violations' => true,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1887,4 +1925,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+        'throw_exceptions' => false,
+    ],
+>>>>>>> 3c8d62b79 (.)
 ];

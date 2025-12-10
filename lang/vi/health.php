@@ -21,6 +21,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -187,6 +188,9 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+            'heading' => 'Tình trạng ứng dụng',
+>>>>>>> 3c8d62b79 (.)
             'navigation' => [
                 'group' => 'Cài đặt',
                 'label' => 'Tình trạng ứng dụng',
@@ -209,6 +213,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -319,6 +324,8 @@ return [
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 3c8d62b79 (.)
             'notifications' => [
                 'check_results' => 'Kết quả được kiểm tra từ',
             ],

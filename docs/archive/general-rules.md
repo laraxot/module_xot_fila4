@@ -325,6 +325,7 @@ Questo documento contiene le regole generali che devono essere seguite in tutto 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -370,6 +371,10 @@ Questo documento contiene le regole generali che devono essere seguite in tutto 
 >>>>>>> 5cb992cc6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+  - [Patient Module Documentation](../../../Patient/docs/doctor-model-update.md)
+  - [User Module Documentation](../../../User/docs/user-model-guidelines.md)
+>>>>>>> 3c8d62b79 (.)
 
 Queste regole devono essere seguite per garantire che il codice passi i controlli di qualità futuri e aderisca ai principi DRY (Don't Repeat Yourself) e KISS (Keep It Simple, Stupid). Considerare sempre le implicazioni di politica, filosofia, religione e zen nelle soluzioni implementate.
 <<<<<<< HEAD

@@ -32,6 +32,7 @@ Questo documento sostituisce e consolida **25+ file di testing duplicati** trova
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
 >>>>>>> 85cdef688 (.)
@@ -92,6 +93,9 @@ Questo documento sostituisce e consolida **25+ file di testing duplicati** trova
 - **Questo file**: `/laravel/Modules/Xot/project_docs/testing-consolidated.md`
 >>>>>>> 6cba4fe (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/testing-consolidated.md`
+>>>>>>> 3c8d62b79 (.)
 - **Implementazione**: Test nei singoli moduli (solo test, non docs)
 
 ## Principi Fondamentali

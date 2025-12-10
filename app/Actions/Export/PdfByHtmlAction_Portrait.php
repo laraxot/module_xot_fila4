@@ -44,6 +44,7 @@ class PdfByHtmlAction_Portrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'content' => $html2pdf->output($path, 'S'), // D
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,6 +164,9 @@ class PdfByHtmlAction_Portrait
 >>>>>>> f7e6113c6 (.)
 =======
 >>>>>>> 5e6e0d054 (.)
+=======
+            'content' => $html2pdf->output($path, 'S'), // D
+>>>>>>> 3c8d62b79 (.)
             default => $path,
         };
     }

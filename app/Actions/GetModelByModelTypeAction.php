@@ -35,6 +35,7 @@ class GetModelByModelTypeAction
      * Execute the action.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +90,8 @@ class GetModelByModelTypeAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     public function execute(string $model_type, ?string $model_id): Model
 =======
 <<<<<<< HEAD
@@ -125,6 +128,7 @@ class GetModelByModelTypeAction
 <<<<<<< HEAD
         if ($model === null) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(string $model_type, null|string $model_id): Model
@@ -458,6 +462,8 @@ class GetModelByModelTypeAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         }
 
         return $model;

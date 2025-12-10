@@ -13,6 +13,7 @@ class CopyFromLastYearButton
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $modelClass, string $fieldName, ?string $year): Action
 =======
 <<<<<<< HEAD
@@ -64,13 +65,16 @@ class CopyFromLastYearButton
 <<<<<<< HEAD
 =======
 >>>>>>> a6ef6dc7 (.)
+=======
+    public function execute(string $modelClass, string $fieldName, ?string $year): Action
+>>>>>>> 551c768c4 (.)
     {
         return Action::make('copy_from_last_year')
             ->tooltip('copy from last year')
             ->icon('heroicon-o-document-duplicate')
-<<<<<<< HEAD
             ->visible($year !== null)
             ->action(static fn () => app(CopyFromLastYearAction::class)->execute($modelClass, $fieldName, $year));
+<<<<<<< HEAD
 =======
             ->visible(null !== $year)
             ->action(static fn() => app(CopyFromLastYearAction::class)->execute($modelClass, $fieldName, $year));
@@ -467,5 +471,7 @@ class CopyFromLastYearButton
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     }
 }

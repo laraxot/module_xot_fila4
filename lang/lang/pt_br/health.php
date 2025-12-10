@@ -8,6 +8,7 @@ return [
             'buttons' => [
                 'refresh' => 'Recarregar',
             ],
+<<<<<<< HEAD:lang/pt_BR/health.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,10 +321,16 @@ return [
 =======
             'heading' => 'Saúde da aplicação',
 >>>>>>> 851793957 (.)
+=======
+
+            'heading' => 'Saúde da aplicação',
+
+>>>>>>> 551c768c4 (.):lang/lang/pt_br/health.php
             'navigation' => [
                 'group' => 'Configurações',
                 'label' => 'Saúde da aplicação',
             ],
+<<<<<<< HEAD:lang/pt_BR/health.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -371,6 +378,9 @@ return [
 >>>>>>> 8fd88dd43 (.)
 =======
 >>>>>>> 851793957 (.)
+=======
+
+>>>>>>> 551c768c4 (.):lang/lang/pt_br/health.php
             'notifications' => [
                 'check_results' => 'Ver resultados de verificação',
             ],

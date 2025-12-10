@@ -20,6 +20,7 @@ class GetViewDirAction
         $relative_path = str_replace('.', '/', Str::after($view, '::'));
         $pack_dir = app(GetViewNameSpacePathAction::class)->execute($ns);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view_dir = $pack_dir.'/'.$relative_path;
 
         return str_replace('/', \DIRECTORY_SEPARATOR, $view_dir);
@@ -163,5 +164,10 @@ class GetViewDirAction
         $res = str_replace('/', \DIRECTORY_SEPARATOR, $view_dir);
 
         return $res;
+=======
+        $view_dir = $pack_dir.'/'.$relative_path;
+
+        return str_replace('/', \DIRECTORY_SEPARATOR, $view_dir);
+>>>>>>> 551c768c4 (.)
     }
 }

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17,6 +18,8 @@
 =======
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # errore di compatibilità nelle firme dei metodi
 
 ## problema
@@ -35,6 +38,7 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 ```
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -212,6 +216,9 @@ Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource
 Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+Access level to Modules\<nome progetto>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 551c768c4 (.)
 ```
 
 esempio di errore:
@@ -318,6 +325,7 @@ $returnType = $parentMethod->getReturnType();
 
 ## collegamento ad altre risorse
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -589,3 +597,7 @@ $returnType = $parentMethod->getReturnType();
 - [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_<nome progetto>/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 551c768c4 (.)

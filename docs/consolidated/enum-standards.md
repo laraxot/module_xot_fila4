@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -297,6 +298,11 @@ This document defines the standards and best practices for working with Enums in
 This document defines the standards and best practices for working with Enums in the SaluteOra project.
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+# Enum Standards in <nome progetto>
+
+This document defines the standards and best practices for working with Enums in the <nome progetto> project.
+>>>>>>> 551c768c4 (.)
 
 ## Naming Conventions
 
@@ -367,6 +373,7 @@ This document defines the standards and best practices for working with Enums in
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -544,6 +551,9 @@ namespace Modules\SaluteOra\Enums;
 namespace Modules\SaluteOra\Enums;
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+namespace Modules\<nome progetto>\Enums;
+>>>>>>> 551c768c4 (.)
 
 use Filament\Support\Contracts\HasLabel;
 
@@ -563,6 +573,7 @@ enum AppointmentTypeEnum: string implements HasLabel
     {
         return match ($this) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -797,6 +808,10 @@ enum AppointmentTypeEnum: string implements HasLabel
             self::CLEANING => __('saluteora::app.cleaning'),
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+            self::CONSULTATION => __('<nome progetto>::app.consultation'),
+            self::CLEANING => __('<nome progetto>::app.cleaning'),
+>>>>>>> 551c768c4 (.)
             // ... other cases
         };
     }
@@ -804,6 +819,7 @@ enum AppointmentTypeEnum: string implements HasLabel
 
 // Alias for backward compatibility
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -980,6 +996,9 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentT
 class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+>>>>>>> 551c768c4 (.)
 ```
 
 ## Updating Existing Enums
@@ -995,18 +1014,3 @@ class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentT
 1. **Class not found**: Ensure the class name matches the filename exactly
 2. **Translation not working**: Verify the translation key exists in the language files
 3. **Backward compatibility issues**: Check that the alias is correctly defined
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,6 +51,8 @@
 ### Versione HEAD
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 
 # Roadmap Modulo Xot
 
@@ -89,6 +92,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -114,12 +118,15 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 ### 5. Documentazione (75%)
 - [x] Struttura base
 - [x] Guide principali
 - [x] Collegamenti bidirezionali
 - [ ] Completamento esempi
 - [ ] Testi in italiano
+<<<<<<< HEAD
 <<<<<<< HEAD
   - [Dettagli e Passi](./roadmap/docs/status.md)
 <<<<<<< HEAD
@@ -289,6 +296,9 @@
   - [Dettagli e Passi](./roadmap/docs/status.md)
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 551c768c4 (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -322,6 +332,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -348,6 +359,8 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 ### Testing & Quality [60%]
 - [-] Unit Tests [50%](roadmap/unit-tests.md)
 - [-] Feature Tests [45%](roadmap/feature-tests.md)
@@ -512,6 +525,7 @@
 ## Collegamenti Bidirezionali
 
 ### Collegamenti ad Altri Moduli
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -760,21 +774,16 @@
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 551c768c4 (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
 - [Best Practices](./BEST-PRACTICES.md)
 - [Testing](./testing-best-practices.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d2b0a27 (.)
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
 
 ## Prossimi Passi
 
@@ -783,13 +792,6 @@
 2. Migliorare la copertura dei test [60% → 85%]
 3. Implementare nuovi traits [95% → 100%]
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
 ### Q3 2024
 1. Ottimizzare l'integrazione Filament [70% → 90%]
 2. Rafforzare la sicurezza [65% → 85%]
@@ -1008,6 +1010,7 @@
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1311,6 +1314,8 @@
 =======
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -1327,6 +1332,7 @@
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1518,6 +1524,8 @@
 =======
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
 
 ---
@@ -1605,11 +1613,3 @@ Overall Module Completion: 60%
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)

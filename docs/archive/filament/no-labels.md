@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # DIVIETO ASSOLUTO DI USARE ->label(), ->placeholder() e ->helperText()
 
 ## Regola Fondamentale Inviolabile
@@ -129,6 +132,7 @@ Se trovi codice che viola questa regola:
 ## Link a Risorse Correlate
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,11 +157,14 @@ Se trovi codice che viola questa regola:
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 551c768c4 (.)
 - [Documentazione sulla struttura delle traduzioni](/laravel/Modules/Xot/docs/translation_rules.md)
 - [Esempio pratico nel TeamsRelationManager](/laravel/Modules/User/docs/filament/teams_relation_manager.md)
 - [Regole per RelationManager](/docs/filament/relation_managers.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,11 +178,14 @@ Se trovi codice che viola questa regola:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
+<<<<<<< HEAD
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 5a14301c (.)
@@ -487,3 +497,5 @@ Se trovi codice che viola questa regola:
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> 551c768c4 (.)

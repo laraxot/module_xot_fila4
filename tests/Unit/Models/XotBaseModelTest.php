@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20,10 +21,13 @@ declare(strict_types=1);
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Traits\Updater;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -100,6 +104,8 @@ use function Safe\file_get_contents;
 >>>>>>> 5cf46378 (.)
 
 use function Safe\file_get_contents;
+=======
+>>>>>>> 551c768c4 (.)
 
 uses(TestCase::class);
 
@@ -240,6 +246,7 @@ test('xot base model has correct property types', function (): void {
     // Some properties may not have explicit type declarations; in that case just ensure defaults are as expected
     if ($snakeType !== null) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     if ($snakeType !== null) {
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
@@ -257,10 +264,13 @@ test('xot base model has correct property types', function (): void {
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         expect($snakeType->getName())->toBe('bool');
     } else {
         expect(XotBaseModel::$snakeAttributes)->toBeTrue();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     if ($perPageType !== null) {
@@ -296,6 +306,10 @@ test('xot base model has correct property types', function (): void {
         /* @phpstan-ignore-next-line method.notFound, argument.templateType */
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+
+    if ($perPageType !== null) {
+>>>>>>> 551c768c4 (.)
         expect($perPageType->getName())->toBe('int');
     } else {
         expect($perPageProperty->getDefaultValue())->toBe(30);

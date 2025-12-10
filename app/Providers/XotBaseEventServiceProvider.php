@@ -25,6 +25,7 @@ abstract class XotBaseEventServiceProvider extends BaseEventServiceProvider
     /**
      * Configure the proper event listeners for email verification.
      */
+<<<<<<< HEAD
     protected function configureEmailVerification(): void
     {
     }
@@ -40,4 +41,7 @@ abstract class XotBaseEventServiceProvider extends BaseEventServiceProvider
     protected function configureEmailVerification(): void
     {
     }
+=======
+    protected function configureEmailVerification(): void {}
+>>>>>>> 551c768c4 (.)
 }

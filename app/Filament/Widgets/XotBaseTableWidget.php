@@ -95,6 +95,7 @@
 >>>>>>> 851793957 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 
 
@@ -191,6 +192,8 @@ declare(strict_types=1);
 
 
 >>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 551c768c4 (.)
 namespace Modules\Xot\Filament\Widgets;
 
 use Filament\Widgets\TableWidget as FilamentTableWidget;

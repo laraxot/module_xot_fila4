@@ -1,21 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
 # Xot Module - Framework Base Laraxot
 
 ## Overview
 Modulo base del framework Laraxot con funzionalità core e best practices.
 
 ## Quick Links
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -77,6 +66,9 @@ Modulo base del framework Laraxot con funzionalità core e best practices.
 - [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+- [🏆 PHPStan level 10 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
+>>>>>>> 551c768c4 (.)
 - [🎨 Theme Assets Workflow](theme-assets-workflow.md) - **⚠️ CRITICO** - Workflow CSS/JS per temi
 - [PHPStan Array Types Fixes](phpstan-array-types-fixes.md) - **✅ COMPLETATO** - Correzioni complete tipi array
 - [Filament Complete Guide](consolidated/filament-complete-guide.md)
@@ -110,6 +102,7 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - **Documentation**: Documentazione essenziale
 
 ## Links
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -297,29 +290,8 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 >>>>>>> e7da37af (.)
 =======
 >>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 551c768c4 (.)
 - [Root Documentation](../../../project_docs/)
 - [<nome progetto> Module](../<nome progetto>/project_docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-- [Root Documentation](../../../project_docs/)
-- [SaluteOra Module](../SaluteOra/project_docs/)
-=======
-- [Root Documentation](../../../docs/)
-- [Module Documentation](../<nome modulo>/docs/)
-- [Root Documentation](../../../project_docs/)
-- [<nome progetto> Module](../<nome progetto>/project_docs/)
->>>>>>> a5dccfe (.)
-- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
->>>>>>> e0b8ebe3 (.)
-=======
-- [Root Documentation](../../../project_docs/)
-- [SaluteOra Module](../SaluteOra/project_docs/)
-- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
->>>>>>> cc52d333 (.)

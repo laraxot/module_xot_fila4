@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
 # Regole di Namespace 
 
 ## Struttura dei Namespace
@@ -28,6 +16,7 @@ Nonostante le classi possano risiedere fisicamente nella sottodirectory `app/` d
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,10 +44,13 @@ Nonostante le classi possano risiedere fisicamente nella sottodirectory `app/` d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 // File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
 // File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -354,6 +346,8 @@ namespace Modules\Patient\Models;
 // File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 551c768c4 (.)
 namespace Modules\Dental\Services;
 ```
 
@@ -423,18 +417,3 @@ Se si verificano errori "Class not found" o problemi di autoloading:
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 
 Ultima modifica: 31/03/2025 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)

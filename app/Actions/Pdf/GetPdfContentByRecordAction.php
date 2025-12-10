@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Pdf;
 
 use Exception;
+<<<<<<< HEAD
 use Log;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
@@ -20,6 +21,11 @@ use Illuminate\Support\Str;
 use Log;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+use Log;
+>>>>>>> 551c768c4 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Webmozart\Assert\Assert;
@@ -51,6 +57,7 @@ class GetPdfContentByRecordAction
      */
 <<<<<<< HEAD
     public function execute(Model $record, ?string $filename = null): string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -279,6 +286,8 @@ class GetPdfContentByRecordAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     {
         // Generate view name following Laraxot conventions
         $viewName = $this->generateViewName($record);
@@ -287,6 +296,7 @@ class GetPdfContentByRecordAction
         $viewParams = $this->prepareViewParameters($record, $viewName);
 
         // Validate view existence
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -640,6 +650,10 @@ class GetPdfContentByRecordAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".$record::class);
+>>>>>>> 551c768c4 (.)
         }
 
         // Render view to HTML
@@ -653,11 +667,15 @@ class GetPdfContentByRecordAction
         }
 
         // Generate filename if not provided
+<<<<<<< HEAD
         if (null === $filename) {
         if (null === $filename) {
         if (null === $filename) {
         if (null === $filename) {
         if (null === $filename) {
+=======
+        if ($filename === null) {
+>>>>>>> 551c768c4 (.)
             $filename = $this->generateFilename($record);
         }
 
@@ -668,6 +686,7 @@ class GetPdfContentByRecordAction
     /**
      * Metodo di convenienza per generare PDF da record con nome file personalizzato.
      *
+<<<<<<< HEAD
      * @param Model  $record   Record Eloquent
      * @param string $filename Nome file personalizzato
      *
@@ -683,6 +702,10 @@ class GetPdfContentByRecordAction
      * @param Model  $record   Record Eloquent
      * @param string $filename Nome file personalizzato
      *
+=======
+     * @param  Model  $record  Record Eloquent
+     * @param  string  $filename  Nome file personalizzato
+>>>>>>> 551c768c4 (.)
      * @return string Contenuto binario del PDF
      */
     public function fromRecord(Model $record, string $filename): string
@@ -693,6 +716,7 @@ class GetPdfContentByRecordAction
     /**
      * Genera il nome della vista seguendo le convenzioni Laraxot.
      *
+<<<<<<< HEAD
      * @param Model $record Record Eloquent
      *
      * @param Model $record Record Eloquent
@@ -703,6 +727,9 @@ class GetPdfContentByRecordAction
      *
      * @param Model $record Record Eloquent
      *
+=======
+     * @param  Model  $record  Record Eloquent
+>>>>>>> 551c768c4 (.)
      * @return string Nome della vista nel formato {module}::{model-kebab}.show.pdf
      */
     protected function generateViewName(Model $record): string
@@ -713,6 +740,7 @@ class GetPdfContentByRecordAction
 
 <<<<<<< HEAD
         return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -938,11 +966,14 @@ class GetPdfContentByRecordAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     }
 
     /**
      * Prepara i parametri standard per la vista.
      *
+<<<<<<< HEAD
      * @param Model  $record   Record Eloquent
      * @param string $viewName Nome della vista
      *
@@ -958,21 +989,30 @@ class GetPdfContentByRecordAction
      * @param Model  $record   Record Eloquent
      * @param string $viewName Nome della vista
      *
+=======
+     * @param  Model  $record  Record Eloquent
+     * @param  string  $viewName  Nome della vista
+>>>>>>> 551c768c4 (.)
      * @return array<string, mixed> Parametri per la vista
      */
     protected function prepareViewParameters(Model $record, string $viewName): array
     {
+<<<<<<< HEAD
         $modelClass = get_class($record);
         $modelClass = get_class($record);
         $modelClass = get_class($record);
         $modelClass = get_class($record);
         $modelClass = get_class($record);
+=======
+        $modelClass = $record::class;
+>>>>>>> 551c768c4 (.)
         $modelName = class_basename($modelClass);
         $module = Str::between($modelClass, 'Modules\\', '\\Models');
 
         $params = [
             'view' => $viewName,
             'row' => $record,
+<<<<<<< HEAD
 <<<<<<< HEAD
             'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
             'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
@@ -1142,6 +1182,9 @@ class GetPdfContentByRecordAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+>>>>>>> 551c768c4 (.)
         ];
 
         // Add specific relationship data if available
@@ -1213,6 +1256,7 @@ class GetPdfContentByRecordAction
     /**
      * Genera nome file automatico basato sul record.
      *
+<<<<<<< HEAD
      * @param Model $record Record Eloquent
      *
      * @param Model $record Record Eloquent
@@ -1223,10 +1267,14 @@ class GetPdfContentByRecordAction
      *
      * @param Model $record Record Eloquent
      *
+=======
+     * @param  Model  $record  Record Eloquent
+>>>>>>> 551c768c4 (.)
      * @return string Nome file generato
      */
     protected function generateFilename(Model $record): string
     {
+<<<<<<< HEAD
         $modelName = class_basename(get_class($record));
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1246,6 +1294,11 @@ class GetPdfContentByRecordAction
 >>>>>>> 5cf46378 (.)
         $recordKey = $record->getKey();
         $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+=======
+        $modelName = class_basename($record::class);
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName).'_'.(string) ($recordKey ?? 'unknown');
+>>>>>>> 551c768c4 (.)
 
         // Enhanced filename for records with identification fields
         if (isset($record->matr, $record->cognome, $record->nome)) {
@@ -1253,6 +1306,7 @@ class GetPdfContentByRecordAction
             $cognome = is_string($record->cognome) ? $record->cognome : 'unknown';
             $nome = is_string($record->nome) ? $record->nome : 'unknown';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             return
                 'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
@@ -1291,10 +1345,14 @@ class GetPdfContentByRecordAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            return 'scheda_'.(string) ($recordKey ?? 'unknown').'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+>>>>>>> 551c768c4 (.)
         }
 
         // Enhanced filename for records with name field
         if (isset($record->name) && is_string($record->name)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1331,11 +1389,14 @@ class GetPdfContentByRecordAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
             return $baseFilename.'_'.Str::slug($record->name).'.pdf';
         }
 
         // Default filename pattern
         return $baseFilename.'.pdf';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1682,6 +1743,8 @@ class GetPdfContentByRecordAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     }
 
     /**
@@ -1692,12 +1755,15 @@ class GetPdfContentByRecordAction
      * @return string Contenuto binario del PDF
      *
      * @throws Exception Se si verificano errori durante la generazione PDF
+<<<<<<< HEAD
      * @param string $html     Contenuto HTML da convertire
      * @param string $filename Nome file per riferimento
      *
      * @throws Exception Se si verificano errori durante la generazione PDF
      *
      * @return string Contenuto binario del PDF
+=======
+>>>>>>> 551c768c4 (.)
      */
     protected function generatePdfContent(string $html, string $filename): string
     {
@@ -1787,6 +1853,7 @@ class GetPdfContentByRecordAction
             ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2050,6 +2117,9 @@ class GetPdfContentByRecordAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> 551c768c4 (.)
         }
     }
 }

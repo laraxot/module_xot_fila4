@@ -7,6 +7,7 @@
 >>>>>>> 5cf46378 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,6 +269,8 @@ declare(strict_types=1);
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 return [
     'pages' => [
         'artisan-commands-manager' => [

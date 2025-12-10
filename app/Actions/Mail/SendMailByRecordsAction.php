@@ -13,10 +13,15 @@ class SendMailByRecordsAction
 
     /**
      * Undocumented function.
+<<<<<<< HEAD
      *
      * @return bool
      */
     public function execute(Collection $records, string $mail_class)
+=======
+     */
+    public function execute(Collection $records, string $mail_class): bool
+>>>>>>> 551c768c4 (.)
     {
         foreach ($records as $record) {
             app(SendMailByRecordAction::class)->execute($record, $mail_class);

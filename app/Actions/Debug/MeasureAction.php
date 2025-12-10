@@ -20,6 +20,7 @@ use Closure;
 use Closure;
 >>>>>>> 091f883c (.)
 use Filament\Notifications\Notification;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Log;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Log;
@@ -30,6 +31,8 @@ use Illuminate\Support\Facades\Log;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Log;
 use Webmozart\Assert\Assert;
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * Classe per misurare le performance di esecuzione di un blocco di codice.
@@ -105,6 +108,7 @@ class MeasureAction
      * Esegue una closure misurando il tempo di esecuzione e l'utilizzo di memoria.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,10 +183,15 @@ class MeasureAction
      * @param Closure():T $closure La closure da eseguire e misurare
      * @param string $label Etichetta opzionale per identificare la misurazione
      *
+=======
+     * @param  Closure():T  $closure  La closure da eseguire e misurare
+     * @param  string  $label  Etichetta opzionale per identificare la misurazione
+>>>>>>> 551c768c4 (.)
      * @return T Il risultato dell'esecuzione della closure
      */
     public function execute(Closure $closure, string $label = ''): mixed
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -419,6 +428,8 @@ class MeasureAction
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         $start = microtime(true);
         $memory_start = memory_get_usage();
 
@@ -435,6 +446,7 @@ class MeasureAction
         $metrics = [
             'label' => $label,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'execution_time' => round($execution_time, 2) . ' ms',
             'memory_usage' => round($memory_usage, 2) . ' KB',
             'execution_time' => round($execution_time, 2) . ' ms',
@@ -805,12 +817,17 @@ class MeasureAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            'execution_time' => round($execution_time, 2).' ms',
+            'memory_usage' => round($memory_usage, 2).' KB',
+>>>>>>> 551c768c4 (.)
             // 'peak_memory' => round(memory_get_peak_usage() / 1024 / 1024, 2).' MB',
         ];
 
         // Mostriamo una notifica con le metriche
         Notification::make()
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->title('Performance Metrics ' . ($label !== '' ? $label : 'Unnamed'))
             ->body($metrics['execution_time'] . '  ' . $metrics['memory_usage'])
             ->title('Performance Metrics ' . ($label !== '' ? $label : 'Unnamed'))
@@ -1181,6 +1198,10 @@ class MeasureAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            ->title('Performance Metrics '.($label !== '' ? $label : 'Unnamed'))
+            ->body($metrics['execution_time'].'  '.$metrics['memory_usage'])
+>>>>>>> 551c768c4 (.)
             ->success()
             ->persistent()
             ->send();

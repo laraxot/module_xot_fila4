@@ -24,6 +24,7 @@ use Modules\Xot\Database\Factories\PulseValueFactory;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
+<<<<<<< HEAD
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @method static PulseValueFactory factory($count = null, $state = [])
@@ -32,10 +33,15 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder|PulseValue query()
  * @property int         $id
  * @property int         $timestamp
+=======
+ * @property string $id
+ * @property int $timestamp
+>>>>>>> 551c768c4 (.)
  * @property string $type
  * @property string $key
  * @property string|null $key_hash
  * @property string $value
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -221,6 +227,8 @@ use Illuminate\Database\Eloquent\Builder;
  * @property string $key
  * @property string $key_hash
  * @property string $value
+=======
+>>>>>>> 551c768c4 (.)
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *
@@ -235,9 +243,12 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseValue whereType($value)
  * @method static Builder<static>|PulseValue whereValue($value)
  *
+<<<<<<< HEAD
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
  * @mixin \Eloquent
  */
 class PulseValue extends BaseModel

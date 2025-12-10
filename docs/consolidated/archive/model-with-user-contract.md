@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35,6 +36,8 @@
 =======
 >>>>>>> 9e42a036 (.)
 >>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # ModelWithUserContract
 
 ## Descrizione
@@ -106,6 +109,7 @@ class Article extends Model implements ModelWithUserContract
 ## Collegamenti
 - [ModelContract](model-contract.md)
 - [User Management](../features/USER-MANAGEMENT.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -221,3 +225,7 @@ class Article extends Model implements ModelWithUserContract
 - [Contracts Overview](./README.md) 
 >>>>>>> 9e42a036 (.)
 >>>>>>> 80bc07e81 (.)
+=======
+- [PHPStan level 10 Guide](../PHPSTAN-LEVEL9-GUIDE.md)
+- [Contracts Overview](./README.md) 
+>>>>>>> 551c768c4 (.)

@@ -343,6 +343,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> 851793957 (.)
     }
 
+<<<<<<< HEAD
         $package->name('cool-modules');
         $package->name('cool-modules');
         $package->name('cool-modules');
@@ -393,11 +394,14 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 >>>>>>> 5ca118c34 (.)
     }
 
+=======
+>>>>>>> 551c768c4 (.)
     public function register(): void
     {
         $this->app->register(LaravelModulesServiceProvider::class);
 
         $this->app->afterResolving('filament', function (): void {
+<<<<<<< HEAD
             $panels = Filament::getPanels();
         $this->app->afterResolving('filament', function (): void {
     public function register()
@@ -406,6 +410,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 
         $this->app->afterResolving('filament', function () {
         $this->app->afterResolving('filament', function () {
+=======
+>>>>>>> 551c768c4 (.)
             $panels = Filament::getPanels();
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -858,12 +864,15 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                         'panels::sidebar.nav.end',
                         fn () => new HtmlString('<a href="'.
                         url('/admin').
+<<<<<<< HEAD
                         '" class="fi-sidebar-item-btn">
                         fn() => new HtmlString("<h2 class='m-2 p-2 font-black text-xl'>{$title}</h2>"),
                     )->renderHook(
                         'panels::sidebar.nav.end',
                         fn() => new HtmlString('<a href="' .
                         url('/admin') .
+=======
+>>>>>>> 551c768c4 (.)
                             '" class="fi-sidebar-item-btn">
                                         <svg class="fi-icon fi-size-lg fi-sidebar-item-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3">
                                           <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />

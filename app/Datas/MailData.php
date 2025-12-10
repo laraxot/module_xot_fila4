@@ -23,6 +23,7 @@ class MailData extends Data
      * @param  string  $from_name  Nome mittente
      * @param  string|null  $reply_to  Indirizzo per le risposte
      * @param  bool  $verify_peer  Verifica certificato peer SSL
+<<<<<<< HEAD
      * @param string $driver         Driver per l'invio delle email
      * @param string $host           Host SMTP
      * @param int         $port           Porta SMTP
@@ -33,6 +34,8 @@ class MailData extends Data
      * @param string $from_name      Nome mittente
      * @param string|null $reply_to       Indirizzo per le risposte
      * @param bool        $verify_peer    Verifica certificato peer SSL
+=======
+>>>>>>> 551c768c4 (.)
      */
     public function __construct(
         public readonly string $driver = 'smtp',
@@ -43,6 +46,7 @@ class MailData extends Data
         public readonly string $password = '',
         public readonly string $from_address = 'no-reply@example.com',
         public readonly string $from_name = 'Laraxot App',
+<<<<<<< HEAD
 <<<<<<< HEAD
         public readonly ?string $reply_to = null,
         public readonly ?string $reply_to = null,
@@ -166,6 +170,9 @@ class MailData extends Data
     ) {
     }
         public readonly null|string $reply_to = null,
+=======
+        public readonly ?string $reply_to = null,
+>>>>>>> 551c768c4 (.)
         public readonly bool $verify_peer = true,
     ) {}
 
@@ -175,11 +182,14 @@ class MailData extends Data
     public static function make(): static
     {
         return new static;
+<<<<<<< HEAD
      *
      * @return static
      */
     public static function make(): static
     {
         return new static();
+=======
+>>>>>>> 551c768c4 (.)
     }
 }

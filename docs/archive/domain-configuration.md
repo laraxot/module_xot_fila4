@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Gestione Domini e Configurazioni
 
 ## Prerequisiti
@@ -106,6 +109,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Gestione Asset](assets.md)
 - [Struttura Temi](themes.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +134,8 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 551c768c4 (.)
 - [Linee Guida per i Loghi](../../../docs/standards/logo_guidelines.md)
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Progetto](../../../docs/standards/README.md)
@@ -138,6 +144,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Gestione Temi](../../Cms/docs/themes.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -407,6 +414,9 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)
 ## Collegamenti Correlati
 - [Configurazione Moduli](MODULE_CONFIGURATION.md)
 - [Gestione Risorse](ASSETS.md)
@@ -415,6 +425,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 
 ## Vedi Anche
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,12 +450,15 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 551c768c4 (.)
 - [Documentazione UI](../../UI/docs/configuration.md)
 - [Documentazione Media](../../Media/docs/assets.md)
 - [Documentazione Temi](../../Cms/docs/theming.md)
 - [Standard Interfaccia](../../../docs/standards/interface_guidelines.md)
 - [Best Practices](../../../docs/standards/best_practices.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -699,6 +713,9 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)
 # Configurazione Basata sul Dominio
 
 ## Introduzione
@@ -771,6 +788,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Configurazione Generale](CONFIGURATION.md)
 - [Gestione Asset](assets.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -784,6 +802,8 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 =======
 >>>>>>> ce6fc085 (.)
 - [Struttura Temi](themes.md) 
@@ -810,6 +830,7 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Struttura Temi](themes.md) 
 - [Struttura Temi](themes.md) 
 =======
+<<<<<<< HEAD
 >>>>>>> 399f46d3 (.)
 =======
 - [Struttura Temi](themes.md) 
@@ -854,3 +875,5 @@ patient::images/logo-horizontal.svg -> /Modules/Patient/resources/images/logo-ho
 - [Struttura Temi](themes.md) 
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 551c768c4 (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Guida all'Utilizzo di PHPStan nel Framework Laraxot <nome progetto>
 
 ## Introduzione
@@ -266,6 +269,7 @@ cd /percorso/al/progetto/laravel
 ./vendor/bin/phpstan analyse Modules/NomeModulo --level=9 --verbose
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,8 +297,9 @@ cd /percorso/al/progetto/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 ``` 
-<<<<<<< HEAD
 =======
 >>>>>>> 358ba79a7 (.)
 =======
@@ -320,6 +325,7 @@ cd /percorso/al/progetto/laravel
 >>>>>>> ce6fc085 (.)
 ``` 
 =======
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
 ``` 
 ``` 
@@ -461,3 +467,5 @@ cd /percorso/al/progetto/laravel
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> 551c768c4 (.)

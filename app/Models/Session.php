@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,10 +23,13 @@ namespace Modules\Xot\Models;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\SessionFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -76,10 +80,17 @@ use Illuminate\Support\Carbon;
 use Modules\Xot\Database\Factories\SessionFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * Modules\Xot\Models\Session.
  *
+<<<<<<< HEAD
+=======
+ * @property string $id
+ * @property string|null $user_id
+>>>>>>> 551c768c4 (.)
  * @property string|null $ip_address
  * @property string|null $user_agent
  * @property string $payload
@@ -110,6 +121,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Session whereUserAgent($value)
  * @method static Builder<static>|Session whereUserId($value)
  *
+<<<<<<< HEAD
  * @property int                             $id
  * @property int|null                        $user_id
  * @property string|null                     $ip_address
@@ -267,6 +279,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
  * @mixin \Eloquent
  */
 class Session extends BaseModel

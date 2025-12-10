@@ -252,6 +252,7 @@ declare(strict_types=1);
                     <div class="text-gray-400 dark:text-gray-600">
                         <x-heroicon-o-calendar class="w-12 h-12 mx-auto mb-2" />
                         <p class="text-sm">{{ __('<nome modulo>::widgets.appointment_overview.empty_state') }}</p>
+<<<<<<< HEAD
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
@@ -263,6 +264,8 @@ declare(strict_types=1);
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
                         <p class="text-sm">{{ __('salutemo::widgets.appointment_overview.empty_state') }}</p>
+=======
+>>>>>>> 551c768c4 (.)
                     </div>
                 </div>
             @endforelse

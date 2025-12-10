@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Colli di Bottiglia e Soluzioni - Modulo Xot
 
 ## Panoramica
@@ -709,6 +712,7 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 ## Collegamenti tra versioni di BOTTLENECKS.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,10 +877,13 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 =======
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
 * [BOTTLENECKS.md](../../../Xot/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../User/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Media/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Cms/docs/BOTTLENECKS.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -957,9 +964,11 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 >>>>>>> 8cf76e7 (.)
 =======
 >>>>>>> 28fc70fe (.)
-
->>>>>>> 44948f13 (.)
 =======
+>>>>>>> 551c768c4 (.)
+
+=======
+<<<<<<< HEAD
 =======
 >>>>>>> 3ae5e299 (.)
 =======
@@ -1119,3 +1128,5 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)

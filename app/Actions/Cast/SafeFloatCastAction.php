@@ -302,6 +302,7 @@ class SafeFloatCastAction
     public function execute(mixed $value, ?float $default = 0.0): float
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -524,6 +525,8 @@ class SafeFloatCastAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     {
         // Se è già un float, verifica che sia valido
         if (is_float($value)) {
@@ -1011,6 +1014,7 @@ class SafeFloatCastAction
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
     private function parseStringToFloat(string $value, ?float $default = 0.0): float
     private function parseStringToFloat(string $value, ?float $default = 0.0): float
 =======
@@ -1236,6 +1240,8 @@ class SafeFloatCastAction
     /**
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 551c768c4 (.)
      * Metodo statico di convenienza per chiamate dirette.
      *
      * @param  mixed  $value  Il valore da convertire
@@ -1599,6 +1605,7 @@ class SafeFloatCastAction
      * @return float Il valore convertito come importo monetario
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1609,6 +1616,9 @@ class SafeFloatCastAction
 >>>>>>> 73eab74 (.)
 >>>>>>> 7468a7d2 (.)
     public static function castAsCurrency(mixed $value, null|float $default = 0.0): float
+=======
+    public static function castAsCurrency(mixed $value, ?float $default = 0.0): float
+>>>>>>> 551c768c4 (.)
     {
         return app(self::class)->executeAsCurrency($value, $default);
     }
@@ -1621,6 +1631,7 @@ class SafeFloatCastAction
      * @return float Il valore convertito
      */
     private function parseStringToFloat(string $value, ?float $default = 0.0): float
+<<<<<<< HEAD
      * Converte una stringa in float con gestione avanzata.
      *
      * @param string $value La stringa da convertire
@@ -1629,6 +1640,8 @@ class SafeFloatCastAction
      * @return float Il valore convertito
      */
     private function parseStringToFloat(string $value, null|float $default = 0.0): float
+=======
+>>>>>>> 551c768c4 (.)
     {
         $trimmed = trim($value);
 
@@ -1644,11 +1657,15 @@ class SafeFloatCastAction
         $cleaned = preg_replace('/[^0-9.\-+eE]/', '', $normalized);
 
         // Verifica se è un numero valido dopo la pulizia
+<<<<<<< HEAD
         if (is_numeric($cleaned) && !empty($cleaned)) {
         if (is_numeric($cleaned) && !empty($cleaned)) {
         if (is_numeric($cleaned) && !empty($cleaned)) {
         if (is_numeric($cleaned) && !empty($cleaned)) {
         if (is_numeric($cleaned) && !empty($cleaned)) {
+=======
+        if (is_numeric($cleaned) && ! empty($cleaned)) {
+>>>>>>> 551c768c4 (.)
             $float = (float) $cleaned;
 
             // Verifica che non sia infinito o NaN
@@ -1659,6 +1676,7 @@ class SafeFloatCastAction
 
         return $default ?? 0.0;
     }
+<<<<<<< HEAD
 
     /**
      * Metodo statico di convenienza per chiamate dirette.
@@ -2179,6 +2197,8 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 }
 }
 } 

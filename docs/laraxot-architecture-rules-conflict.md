@@ -151,19 +151,27 @@ class MyAction
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
 =======
 namespace Modules\<nome progetto>\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
 >>>>>>> 92bc33604 (.)
+=======
+namespace Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\Pages;
+>>>>>>> 551c768c4 (.)
 
 use Filament\Actions\Action;
 use Filament\Actions\DeleteAction;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\QuestionChartResource;
 =======
 use Modules\<nome progetto>\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\QuestionChartResource;
 >>>>>>> 92bc33604 (.)
+=======
+use Modules\Quaeris\Filament\Resources\SurveyPdfResource\Resources\QuestionCharts\QuestionChartResource;
+>>>>>>> 551c768c4 (.)
 
 class ViewQuestionChart extends XotBaseViewRecord
 {
@@ -206,10 +214,14 @@ class ViewQuestionChart extends XotBaseViewRecord
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Quaeris\Filament\Widgets;
 =======
 namespace Modules\<nome progetto>\Filament\Widgets;
 >>>>>>> 92bc33604 (.)
+=======
+namespace Modules\Quaeris\Filament\Widgets;
+>>>>>>> 551c768c4 (.)
 
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\Select;
@@ -266,6 +278,7 @@ class QuestionChartFilterWidget extends XotBaseWidget
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Quaeris\Filament\Resources;
 
 use Modules\Xot\Filament\Resources\XotBaseResource;
@@ -276,6 +289,12 @@ namespace Modules\<nome progetto>\Filament\Resources;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\<nome progetto>\Models\QuestionChart;
 >>>>>>> 92bc33604 (.)
+=======
+namespace Modules\Quaeris\Filament\Resources;
+
+use Modules\Xot\Filament\Resources\XotBaseResource;
+use Modules\Quaeris\Models\QuestionChart;
+>>>>>>> 551c768c4 (.)
 
 class QuestionChartResource extends XotBaseResource
 {

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Contracts;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,12 +74,17 @@ use Spatie\ModelStates\State;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\ModelStates\State;
 use Illuminate\Database\Eloquent\Model;
+=======
+use Illuminate\Database\Eloquent\Model;
+use Spatie\ModelStates\State;
+>>>>>>> 551c768c4 (.)
 
 /**
  * @property State $status
  *
  * @phpstan-require-extends Model
  */
+<<<<<<< HEAD
 interface WithStateStatusContract
 {
 }
@@ -94,3 +100,6 @@ interface WithStateStatusContract
 interface WithStateStatusContract
 {
 }
+=======
+interface WithStateStatusContract {}
+>>>>>>> 551c768c4 (.)

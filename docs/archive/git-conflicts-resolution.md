@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -512,11 +513,15 @@ php artisan lang:check
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
+>>>>>>> 551c768c4 (.)
 
 ### Modulo User
-- [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+- [Theme Translation Conflicts](laravel/Modules/User/docs/theme-translation-conflicts-resolution.md)
 
 ### Modulo Xot
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -782,6 +787,10 @@ php artisan lang:check
 
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+- [Git Conflicts Resolution](laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> 551c768c4 (.)
 ## Best Practices Applicate
 
 ### 1. Gestione Conflitti
@@ -836,6 +845,7 @@ php artisan lang:check
 
 ### Documentazione Moduli
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -858,6 +868,8 @@ php artisan lang:check
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> 551c768c4 (.)
 - [Geo Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
 - [User Theme Conflicts](laravel/Modules/User/docs/theme-translation-conflicts-resolution.md)
 
@@ -866,6 +878,7 @@ php artisan lang:check
 - [PHPStan Guidelines](../../docs/phpstan_usage.md)
 - [Git Best Practices](../../docs/git-best-practices.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1108,10 +1121,13 @@ php artisan lang:check
 
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 551c768c4 (.)
 ---
 
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1179,3 +1195,8 @@ php artisan lang:check
 **Stato**: ✅ Completato
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+**Stato**: ✅ Completato
+=======
+=======
+>>>>>>> 551c768c4 (.)

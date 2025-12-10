@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Risoluzione Conflitto in ModelWithPosContract
 
 ## Panoramica
@@ -50,6 +53,7 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
   }
   ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -313,17 +317,20 @@ Il file presenta diversi conflitti nei blocchi di annotazioni PHPDoc e nella def
 >>>>>>> 5e6e0d054 (.)
 =======
 =======
+=======
+>>>>>>> 551c768c4 (.)
 
 
 =======
+
+
 <<<<<<< HEAD
-=======
-
-
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> 551c768c4 (.)
 ## Approccio alla Risoluzione
 
 La risoluzione seguirà questi principi:
@@ -415,6 +422,7 @@ Questa risoluzione garantisce:
 ## Collegamento con la Documentazione Principale
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -444,11 +452,14 @@ Questa risoluzione garantisce:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 =======
 =======
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 =======
+<<<<<<< HEAD
 =======
 Per una panoramica di tutti i conflitti risolti, vedere il documento principale sulla [risoluzione dei conflitti nel progetto](../../../../docs/logs/conflict_resolution_progress.md). 
 >>>>>>> 5a14301c (.)
@@ -643,3 +654,5 @@ Per una panoramica di tutti i conflitti risolti, vedere il documento principale 
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> 551c768c4 (.)

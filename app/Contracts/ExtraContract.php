@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Contracts;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26,10 +27,13 @@ namespace Modules\Xot\Contracts;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Spatie\SchemalessAttributes\SchemalessAttributes;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -65,6 +69,8 @@ use Spatie\SchemalessAttributes\SchemalessAttributes;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * Modules\Xot\Contracts\ExtraContract.
@@ -76,11 +82,15 @@ use Illuminate\Support\Carbon;
  * @method static Builder|ExtraContract query()
  * @method static Builder|ExtraContract withExtraAttributes()
  *
+<<<<<<< HEAD
  * @property int         $id
  * @property int         $id
  * @property int         $id
  * @property int         $id
  * @property int         $id
+=======
+ * @property int $id
+>>>>>>> 551c768c4 (.)
  * @property string $model_type
  * @property string $model_id
  * @property Carbon|null $created_at
@@ -105,6 +115,7 @@ use Illuminate\Support\Carbon;
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 interface ExtraContract
 {
 }
@@ -120,3 +131,6 @@ interface ExtraContract
 interface ExtraContract
 {
 }
+=======
+interface ExtraContract {}
+>>>>>>> 551c768c4 (.)

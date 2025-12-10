@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Exceptions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90,10 +91,13 @@ use Override;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Exception;
 use Illuminate\Http\Response;
 use Illuminate\Support\Str;
 use Override;
+<<<<<<< HEAD
 use Override;
 use Exception;
 =======
@@ -160,6 +164,8 @@ use Override;
 use Exception;
 use Illuminate\Http\Response;
 use Illuminate\Support\Str;
+=======
+>>>>>>> 551c768c4 (.)
 
 class ModelDeletionException extends ApplicationException
 {
@@ -288,6 +294,7 @@ class ModelDeletionException extends ApplicationException
     public function help(): string
     {
         $res = trans('exception.model_not_deleted.help');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -592,6 +599,10 @@ class ModelDeletionException extends ApplicationException
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if (! \is_string($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 551c768c4 (.)
         }
 
         return $res;
@@ -620,6 +631,7 @@ class ModelDeletionException extends ApplicationException
             'id' => $this->id,
             'model' => $this->model,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -929,6 +941,10 @@ class ModelDeletionException extends ApplicationException
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if (! \is_string($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 551c768c4 (.)
         }
 
         return $res;

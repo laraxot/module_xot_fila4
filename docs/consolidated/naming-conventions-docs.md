@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Convenzioni di Naming nella Documentazione
 
 ## Regola: Nome del Progetto nei Moduli
@@ -100,6 +103,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 - [Convenzioni Generali](conventions.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,8 +131,9 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 - [Best Practices Documentazione](documentation-guidelines.md) 
-<<<<<<< HEAD
 =======
 >>>>>>> 358ba79a7 (.)
 =======
@@ -154,6 +159,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> ce6fc085 (.)
 - [Best Practices Documentazione](documentation-guidelines.md) 
 =======
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
 - [Best Practices Documentazione](documentation-guidelines.md) 
 - [Best Practices Documentazione](documentation-guidelines.md) 
@@ -295,3 +301,5 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> 551c768c4 (.)

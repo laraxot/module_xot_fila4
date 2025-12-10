@@ -138,10 +138,13 @@ class GetProductsArrayDummyAction
         return Arr::map($products['products'], function ($item) {
             // Verifichiamo che $item sia un array prima di usare Arr::only
             if (! is_array($item)) {
+<<<<<<< HEAD
         // filtering some attributes
         $products = Arr::map($products['products'], function ($item) {
             // Verifichiamo che $item sia un array prima di usare Arr::only
             if (!is_array($item)) {
+=======
+>>>>>>> 551c768c4 (.)
                 return []; // Restituiamo un array vuoto se $item non è un array
             }
 <<<<<<< HEAD
@@ -478,6 +481,7 @@ class GetProductsArrayDummyAction
 =======
 >>>>>>> 851793957 (.)
         });
+<<<<<<< HEAD
 
         return $products;
 
@@ -488,5 +492,7 @@ class GetProductsArrayDummyAction
         return $products;
 
         return $products;
+=======
+>>>>>>> 551c768c4 (.)
     }
 }

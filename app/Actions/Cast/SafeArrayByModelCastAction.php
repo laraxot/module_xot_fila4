@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Cast;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,11 +23,14 @@ namespace Modules\Xot\Actions\Cast;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Error;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use ValueError;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -64,6 +68,8 @@ use Exception;
 use Doctrine\DBAL\Schema\Index;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
+=======
+>>>>>>> 551c768c4 (.)
 
 class SafeArrayByModelCastAction
 {
@@ -74,6 +80,7 @@ class SafeArrayByModelCastAction
      */
     public function execute(Model $model): array
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -180,6 +187,8 @@ class SafeArrayByModelCastAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 551c768c4 (.)
         try {
             return $model->attributesToArray();
         } catch (ValueError|Error|Exception $e) {
@@ -192,6 +201,7 @@ class SafeArrayByModelCastAction
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * @return array<string, mixed>
@@ -357,6 +367,11 @@ class SafeArrayByModelCastAction
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    /**
+     * @return array<string, mixed>
+     */
+>>>>>>> 551c768c4 (.)
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -370,6 +385,7 @@ class SafeArrayByModelCastAction
         }
 
         return $data;
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -762,5 +778,7 @@ class SafeArrayByModelCastAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     }
 }

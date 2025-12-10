@@ -47,6 +47,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -366,6 +367,11 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Spipu\Html2Pdf\Html2Pdf;
+use Symfony\Component\HttpFoundation\StreamedResponse;
+>>>>>>> 551c768c4 (.)
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 =======
@@ -415,6 +421,7 @@ class StreamDownloadPdfAction
     /**
      * Genera un PDF dall'HTML fornito.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  string  $html  Contenuto HTML da convertire
      * @param  string  $html  Contenuto HTML da convertire
@@ -525,6 +532,11 @@ class StreamDownloadPdfAction
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+     * @param  string|null  $html  Contenuto HTML da convertire
+     * @param  string|null  $view  Nome della view da renderizzare
+     * @param  array<string, mixed>|null  $data  Dati da passare alla view
+>>>>>>> 551c768c4 (.)
      * @param  string  $filename  Nome del file PDF
      */
     public function execute(
@@ -542,6 +554,7 @@ class StreamDownloadPdfAction
             $html = view($view, $viewData)->render();
         }
         Assert::string($html, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1010,10 +1023,13 @@ class StreamDownloadPdfAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [10, 10, 10, 10]);
         $html2pdf->writeHTML($html);
 
         // Genera e scarica il PDF
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1538,5 +1554,10 @@ class StreamDownloadPdfAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        return response()->streamDownload(function () use ($html2pdf): void {
+            $html2pdf->output();
+        }, 'report-'.$filename);
+>>>>>>> 551c768c4 (.)
     }
 }

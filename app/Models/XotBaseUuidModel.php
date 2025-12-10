@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 
 use Illuminate\Database\Eloquent\Model;
@@ -14,6 +15,8 @@ use Illuminate\Database\Eloquent\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
+=======
+>>>>>>> 551c768c4 (.)
 /**
  * Class XotBaseUuidModel.
  *
@@ -26,6 +29,7 @@ abstract class XotBaseUuidModel extends XotBaseModel
 {
     public $incrementing = false;
 
+<<<<<<< HEAD
 abstract class XotBaseUuidModel extends Model
 {
     use \Modules\Xot\Traits\Updater;
@@ -50,11 +54,14 @@ abstract class XotBaseUuidModel extends Model
     /** @var string */
     protected $primaryKey = 'id';
 
+=======
+>>>>>>> 551c768c4 (.)
     /** @var bool */
     public $timestamps = true;
 
     /** @var int */
     protected $perPage = 30;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -63,6 +70,8 @@ abstract class XotBaseUuidModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
     protected $keyType = 'string';
 
@@ -74,6 +83,7 @@ abstract class XotBaseUuidModel extends Model
     /**
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -93,10 +103,13 @@ abstract class XotBaseUuidModel extends Model
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'uuid' => 'string',
             'published_at' => 'datetime',
@@ -107,6 +120,8 @@ abstract class XotBaseUuidModel extends Model
             'published_at' => 'datetime',
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -115,6 +130,7 @@ abstract class XotBaseUuidModel extends Model
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -129,4 +145,6 @@ abstract class XotBaseUuidModel extends Model
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 }

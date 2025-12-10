@@ -4,16 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Feature\Actions\Pdf;
 
+<<<<<<< HEAD
 use ReflectionClass;
 use ReflectionClass;
 use ReflectionClass;
 use ReflectionClass;
 use ReflectionClass;
 use ReflectionClass;
+=======
+>>>>>>> 551c768c4 (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Modules\User\Models\User;
 use Modules\Xot\Actions\Pdf\GetPdfContentByRecordAction;
+<<<<<<< HEAD
+=======
+use ReflectionClass;
+>>>>>>> 551c768c4 (.)
 use Tests\TestCase;
 
 /**
@@ -26,12 +33,16 @@ class GetPdfContentByRecordActionTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
         $this->action = new GetPdfContentByRecordAction();
         $this->action = new GetPdfContentByRecordAction();
         $this->action = new GetPdfContentByRecordAction();
         $this->action = new GetPdfContentByRecordAction();
         $this->action = new GetPdfContentByRecordAction();
         $this->action = new GetPdfContentByRecordAction();
+=======
+        $this->action = new GetPdfContentByRecordAction;
+>>>>>>> 551c768c4 (.)
     }
 
     /** @test */
@@ -1535,6 +1546,7 @@ class GetPdfContentByRecordActionTest extends TestCase
             protected $table = 'test_performance';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -1583,6 +1595,9 @@ class GetPdfContentByRecordActionTest extends TestCase
             public function getKey(): int
 =======
 >>>>>>> a6ef6dc7 (.)
+=======
+
+>>>>>>> 551c768c4 (.)
             protected $fillable = ['id', 'matr', 'cognome', 'nome'];
 <<<<<<< HEAD
 <<<<<<< HEAD

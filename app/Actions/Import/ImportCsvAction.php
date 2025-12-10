@@ -14,6 +14,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use Filament\Notifications\Notification;
 use Illuminate\Database\Schema\Builder;
@@ -26,6 +27,10 @@ use Illuminate\Database\Schema\Builder;
 use Filament\Notifications\Notification;
 use Illuminate\Database\Schema\Builder;
 use Filament\Notifications\Notification;
+=======
+use Filament\Notifications\Notification;
+use Illuminate\Database\Schema\Builder;
+>>>>>>> 551c768c4 (.)
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Storage;
@@ -139,10 +144,13 @@ class ImportCsvAction
      * @param  string  $filename  the name of the file to import
      * @param  string  $db  the database connection name
      * @param  string  $tbl  the table name where data will be imported
+<<<<<<< HEAD
      * @param string $disk     the storage disk where the file is located
      * @param string $filename the name of the file to import
      * @param string $db       the database connection name
      * @param string $tbl      the table name where data will be imported
+=======
+>>>>>>> 551c768c4 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,6 +211,7 @@ class ImportCsvAction
      * Get table columns excluding certain fields.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +264,11 @@ class ImportCsvAction
      * @return ColumnData[]
      */
     private function getTableColumns($conn, string $tbl): array
+=======
+     * @return array<ColumnData>
+     */
+    private function getTableColumns(Builder $conn, string $tbl): array
+>>>>>>> 551c768c4 (.)
     {
         $columns = $conn->getColumnListing($tbl);
         $excludedColumns = ['id'];
@@ -375,6 +389,7 @@ class ImportCsvAction
     /**
      * Prepare fields for the SQL query.
      *
+<<<<<<< HEAD
      * @param ColumnData[] $columns
      *
      * @return string[]
@@ -390,6 +405,10 @@ class ImportCsvAction
      * @param ColumnData[] $columns
      *
      * @return string[]
+=======
+     * @param  array<ColumnData>  $columns
+     * @return array<string>
+>>>>>>> 551c768c4 (.)
      */
     private function prepareFields(array $columns): array
     {
@@ -410,11 +429,15 @@ class ImportCsvAction
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
         return array_map(
+<<<<<<< HEAD
             fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
             fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
             fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
             fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
             fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
+=======
+            fn (ColumnData $column) => $column->type === 'decimal' ? '@'.$column->name : $column->name,
+>>>>>>> 551c768c4 (.)
             $columns,
         );
 <<<<<<< HEAD
@@ -489,11 +512,15 @@ class ImportCsvAction
     /**
      * Build the SQL query for importing data.
      *
+<<<<<<< HEAD
      * @param ColumnData[] $columns
      * @param ColumnData[] $columns
      * @param ColumnData[] $columns
      * @param ColumnData[] $columns
      * @param ColumnData[] $columns
+=======
+     * @param  array<ColumnData>  $columns
+>>>>>>> 551c768c4 (.)
      */
     private function buildSql(string $path, string $db, string $tbl, string $fieldsUpList, array $columns): string
     {
@@ -522,6 +549,7 @@ class ImportCsvAction
             "ESCAPED BY '".
             '"'.
             "' ".
+<<<<<<< HEAD
             "LOAD DATA LOW_PRIORITY LOCAL INFILE '{$path}' " .
             "INTO TABLE `{$db}`.`{$tbl}` CHARACTER SET latin1 " .
             "FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '" .
@@ -530,6 +558,8 @@ class ImportCsvAction
             "ESCAPED BY '" .
             '"' .
             "' " .
+=======
+>>>>>>> 551c768c4 (.)
             "LINES TERMINATED BY '\r\n' ({$fieldsUpList})";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -602,15 +632,20 @@ class ImportCsvAction
 
         $sqlReplace = [];
         foreach ($columns as $column) {
+<<<<<<< HEAD
             if ('decimal' === $column->type) {
             if ('decimal' === $column->type) {
             if ('decimal' === $column->type) {
             if ('decimal' === $column->type) {
             if ('decimal' === $column->type) {
+=======
+            if ($column->type === 'decimal') {
+>>>>>>> 551c768c4 (.)
                 $sqlReplace[] = "{$column->name} = REPLACE(@{$column->name}, ',', '.')";
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!empty($sqlReplace)) {
             $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
@@ -982,6 +1017,10 @@ class ImportCsvAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+>>>>>>> 551c768c4 (.)
         }
 
         return $sql;
@@ -995,10 +1034,13 @@ class ImportCsvAction
      *
      * @deprecated This method is currently unused but kept for future expansion.
      *
+<<<<<<< HEAD
      * @param string[] $columns
      *
      * @return ColumnData[]
      * @deprecated This method is currently unused but kept for future expansion.
+=======
+>>>>>>> 551c768c4 (.)
      * @phpstan-ignore method.unused
      */
     private function transformColumnsToColumnData(array $columns): array
@@ -1020,6 +1062,7 @@ class ImportCsvAction
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
         return array_map(
+<<<<<<< HEAD
             function ($column): ColumnData {
                 Assert::string($column, 'Column must be a string');
 
@@ -1035,6 +1078,9 @@ class ImportCsvAction
             function ($column): ColumnData {
                 Assert::string($column, 'Column must be a string');
 
+=======
+            function (string $column): ColumnData {
+>>>>>>> 551c768c4 (.)
                 return new ColumnData(
                     name: $column,
                     type: 'string', // Default type, modify if necessary

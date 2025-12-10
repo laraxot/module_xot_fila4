@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Filament\Actions;
 use Illuminate\Database\Eloquent\Model;
@@ -87,10 +88,13 @@ use Illuminate\Database\Eloquent\Model;
 use Filament\Actions;
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\Arr\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -178,6 +182,9 @@ use Filament\Actions;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\Arr\SaveArrayAction;
 use Modules\Xot\Filament\Resources\ModuleResource;
+=======
+use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Models\Module;
 
 <<<<<<< HEAD
@@ -234,6 +241,7 @@ class EditModule extends XotBaseEditRecord
     protected function afterSave(): void
     {
         $module = $this->record; // Ottiene il record corrente
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! ($module instanceof Model) || ! isset($module->path)) {
         if (! ($module instanceof Model) || ! isset($module->path)) {
@@ -295,6 +303,8 @@ class EditModule extends XotBaseEditRecord
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         if (! ($module instanceof Model) || ! isset($module->path)) {
             return;
         }
@@ -302,6 +312,7 @@ class EditModule extends XotBaseEditRecord
         $config_path = $module->path.'/config/config.php';
         $data = File::getRequire($config_path);
         if (! is_array($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -723,6 +734,8 @@ class EditModule extends XotBaseEditRecord
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
             $data = [];
         }
         $data = array_merge($data, $module->toArray());

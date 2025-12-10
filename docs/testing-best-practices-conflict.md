@@ -1,5 +1,33 @@
+<<<<<<< HEAD
 <<<<<<< HEAD:docs/testing-best-practices-conflict.md
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 551c768c4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,6 +50,27 @@
 >>>>>>> d86d643a (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -43,7 +92,14 @@
 =======
 =======
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.):docs/TESTING_BEST_PRACTICES.md
+=======
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+>>>>>>> 50d6b63f (.)
+>>>>>>> 551c768c4 (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -100,9 +156,39 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 =======
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.):docs/TESTING_BEST_PRACTICES.md
+=======
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> 551c768c4 (.)
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
@@ -130,6 +216,46 @@ function mockXotData(): void
 <<<<<<< HEAD:docs/testing-best-practices-conflict.md
 >>>>>>> 62cc8443 (.):docs/TESTING_BEST_PRACTICES.md
 =======
+<<<<<<< HEAD
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> d86d643a (.)
+=======
+<<<<<<< HEAD
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 50d6b63f (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 472bd9dc (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 3bf39332 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> cf971011 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> e7da37af (.)
+<<<<<<< HEAD
+=======
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> d86d643a (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 472bd9dc (.)
+>>>>>>> 551c768c4 (.)
 =======
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
 >>>>>>> 3bf39332 (.)
@@ -145,7 +271,15 @@ function mockXotData(): void
 =======
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
 >>>>>>> e7da37af (.)
+<<<<<<< HEAD
 >>>>>>> 7e4835b8e (.):docs/TESTING_BEST_PRACTICES.md
+=======
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+>>>>>>> 50d6b63f (.)
+>>>>>>> 551c768c4 (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -323,6 +457,21 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+**Last Update**: Dicembre 2024 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -387,6 +536,51 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 >>>>>>> 43d67f21 (.)
 =======
 **Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 50d6b63f (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+<<<<<<< HEAD
+=======
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+**Last Update**: Dicembre 2024 
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
@@ -421,4 +615,12 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 =======
 =======
 >>>>>>> 55fe1822 (.)
+<<<<<<< HEAD
 >>>>>>> e39b54ba7 (.):docs/TESTING_BEST_PRACTICES.md
+=======
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+>>>>>>> 50d6b63f (.)
+>>>>>>> 551c768c4 (.)

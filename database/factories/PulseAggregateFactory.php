@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Database\Factories;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,6 +23,8 @@ namespace Modules\Xot\Database\Factories;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\PulseAggregate;
 
@@ -29,6 +32,7 @@ use Modules\Xot\Models\PulseAggregate;
  * @extends Factory<PulseAggregate>
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -90,16 +94,21 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\PulseAggregate;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
+=======
+>>>>>>> 551c768c4 (.)
 class PulseAggregateFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
+<<<<<<< HEAD
      *
      * @var class-string<PulseAggregate>
      */
     protected $model = PulseAggregate::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
      *
      * @var class-string<PulseAggregate>
      */

@@ -16,6 +16,7 @@ per esempio:
 - `/var/www/html/<directory progetto>/laravel/Modules/<main module>/app/Filament/Resources/...`
 - `/var/www/html/<directory progetto>/laravel/Modules/<main module>/app/Models/...`
 - `/var/www/html/<directory progetto>/laravel/Modules/<main module>/app/Http/Controllers/...`
+<<<<<<< HEAD
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/app/{Tipo}/...
 ```
 
@@ -37,6 +38,8 @@ per esempio:
 - `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Filament/Resources/...`
 - `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Models/...`
 - `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Http/Controllers/...`
+=======
+>>>>>>> 551c768c4 (.)
 
 ### namespace corretto
 
@@ -47,6 +50,7 @@ namespace Modules\{NomeModulo}\{Tipo}\...;
 ```
 
 per esempio:
+<<<<<<< HEAD
 - `namespace Modules\SaluteOra\Filament\Resources;`
 - `namespace Modules\SaluteOra\Models;`
 - `namespace Modules\SaluteOra\Http\Controllers;`
@@ -68,12 +72,18 @@ per esempio:
 - `namespace Modules\SaluteOra\Filament\Resources;`
 - `namespace Modules\SaluteOra\Models;`
 - `namespace Modules\SaluteOra\Http\Controllers;`
+=======
+- `namespace Modules\<main module>\Filament\Resources;`
+- `namespace Modules\<main module>\Models;`
+- `namespace Modules\<main module>\Http\Controllers;`
+>>>>>>> 551c768c4 (.)
 
 ## errore comune
 
 spesso si confonde il percorso fisico con il namespace, cercando file in:
 
 ```
+<<<<<<< HEAD
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
@@ -81,6 +91,9 @@ spesso si confonde il percorso fisico con il namespace, cercando file in:
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
 /var/www/html/base_saluteora/laravel/Modules/{NomeModulo}/{Tipo}/...
+=======
+/var/www/html/<directory progetto>/laravel/Modules/{NomeModulo}/{Tipo}/...
+>>>>>>> 551c768c4 (.)
 ```
 
 questo è **errato** perché omette la directory `app/` nel percorso fisico.
@@ -94,6 +107,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 
 | namespace | percorso fisico |
 |-----------|----------------|
+<<<<<<< HEAD
 | `Modules\SaluteOra\Filament\Resources\DoctorResource` | `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Filament/Resources/DoctorResource.php` |
 | `Modules\User\Models\User` | `/var/www/html/base_saluteora/laravel/Modules/User/app/Models/User.php` |
 | `Modules\SaluteOra\Filament\Resources\DoctorResource` | `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Filament/Resources/DoctorResource.php` |
@@ -108,6 +122,10 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 | `Modules\User\Models\User` | `/var/www/html/base_saluteora/laravel/Modules/User/app/Models/User.php` |
 | `Modules\SaluteOra\Filament\Resources\DoctorResource` | `/var/www/html/base_saluteora/laravel/Modules/SaluteOra/app/Filament/Resources/DoctorResource.php` |
 | `Modules\User\Models\User` | `/var/www/html/base_saluteora/laravel/Modules/User/app/Models/User.php` |
+=======
+| `Modules\<main module>\Filament\Resources\DoctorResource` | `/var/www/html/<directory progetto>/laravel/Modules/<main module>/app/Filament/Resources/DoctorResource.php` |
+| `Modules\User\Models\User` | `/var/www/html/<directory progetto>/laravel/Modules/User/app/Models/User.php` |
+>>>>>>> 551c768c4 (.)
 
 ## come evitare l'errore
 
@@ -117,6 +135,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 
 ## linkback
 
+<<<<<<< HEAD
 - [convenzioni di codice](/var/www/html/base_saluteora/laravel/docs/conventions.md)
 - [struttura progetto](/var/www/html/base_saluteora/laravel/docs/project-structure.md)
 - [convenzioni di codice](/var/www/html/base_saluteora/laravel/docs/conventions.md)
@@ -131,3 +150,7 @@ questo è **errato** perché omette la directory `app/` nel percorso fisico.
 - [struttura progetto](/var/www/html/base_saluteora/laravel/docs/project-structure.md)
 - [convenzioni di codice](/var/www/html/base_saluteora/laravel/docs/conventions.md)
 - [struttura progetto](/var/www/html/base_saluteora/laravel/docs/project-structure.md)
+=======
+- [convenzioni di codice](/var/www/html/<directory progetto>/laravel/docs/conventions.md)
+- [struttura progetto](/var/www/html/<directory progetto>/laravel/docs/project-structure.md)
+>>>>>>> 551c768c4 (.)

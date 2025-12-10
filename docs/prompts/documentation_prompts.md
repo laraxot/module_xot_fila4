@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +65,8 @@
 =======
 >>>>>>> 9e42a036 (.)
 >>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Prompt di Documentazione
 
 ## Panoramica
@@ -120,6 +123,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 - MAI includere il nome del progetto nei percorsi
 - MAI usare percorsi che iniziano con `/var/www/html/` o simili
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -221,6 +225,9 @@ Questo documento descrive le regole e le best practices per i prompt di document
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 551c768c4 (.)
 
 ### Formato Corretto
 ```markdown
@@ -239,6 +246,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -292,10 +300,13 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 >>>>>>> 39bb163e (.)
 >>>>>>> d9f43fce9 (.)
+=======
+>>>>>>> 551c768c4 (.)
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -383,6 +394,8 @@ Questo documento descrive le regole e le best practices per i prompt di document
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
 ```
 
 ### Checklist di Validazione
@@ -450,6 +463,7 @@ con collegamenti bidirezionali...
    - Mantenere aggiornate le regole
    - Documentare le correzioni
    - Aggiornare gli esempi
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -546,3 +560,5 @@ con collegamenti bidirezionali...
 =======
 >>>>>>> 9e42a036 (.)
 >>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 551c768c4 (.)

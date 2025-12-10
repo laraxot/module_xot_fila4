@@ -50,6 +50,7 @@ use Illuminate\Foundation\Configuration\Exceptions;
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
 use Illuminate\Http\Request;
+<<<<<<< HEAD
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\View;
 use Illuminate\Http\Response;
@@ -60,6 +61,8 @@ use Illuminate\Http\Response;
 use Illuminate\Support\Facades\View;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\View;
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Actions\View\GetViewPathAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +124,7 @@ class ExceptionHandler
     /**
      * Configura la gestione delle eccezioni.
      *
+<<<<<<< HEAD
      * @param Exceptions $exceptions Configuratore eccezioni Laravel
      * @return void
      * @param Exceptions $exceptions Configuratore eccezioni Laravel
@@ -131,6 +135,9 @@ class ExceptionHandler
      * @return void
      * @param Exceptions $exceptions Configuratore eccezioni Laravel
      * @return void
+=======
+     * @param  Exceptions  $exceptions  Configuratore eccezioni Laravel
+>>>>>>> 551c768c4 (.)
      */
     public static function handles(Exceptions $exceptions): void
     {
@@ -252,6 +259,7 @@ class ExceptionHandler
             $view_params = ['exception' => $e];
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -544,6 +552,8 @@ class ExceptionHandler
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
             return response()->view($view, $view_params, $status_code);
         });
     }

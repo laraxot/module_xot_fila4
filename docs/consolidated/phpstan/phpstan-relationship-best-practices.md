@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
 # PHPStan Best Practices per Relazioni Eloquent
 
 ## Regola Fondamentale
@@ -237,6 +225,7 @@ Prima di committare modelli con relazioni, verificare:
 - [ ] I tipi di relazione sono corretti nel tipo di ritorno del metodo
 - [ ] PHPStan livello 9+ passa senza errori
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -420,6 +409,9 @@ Prima di committare modelli con relazioni, verificare:
 - [ ] **MAI** modificare `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+- [ ] **MAI** modificare `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+>>>>>>> 551c768c4 (.)
 
 ## Verifica PHPStan
 
@@ -507,18 +499,3 @@ L'uso di `self` nelle annotazioni PHPDoc delle relazioni Eloquent è la best pra
 **Laravel Version**: 10+  
 **Priorità**: Alta (Obbligatorio per nuovi modelli)  
 **Stato**: ✅ Standard Adottato
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)

@@ -4,12 +4,15 @@ declare(strict_types=1);
 
 use Rector\Config\RectorConfig;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
 
@@ -57,6 +60,7 @@ return static function (RectorConfig $rectorConfig): void {
 
     // Import short classes
     $rectorConfig->importShortClasses(false);
+<<<<<<< HEAD
 use Rector\PHPUnit\Set\PHPUnitLevelSetList;
 =======
 >>>>>>> 28fc70fe (.)
@@ -826,4 +830,6 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->importShortClasses(false);
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
 };

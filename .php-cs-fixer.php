@@ -292,6 +292,7 @@ $finder = PhpCsFixer\Finder::create()
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
     ->ignoreVCS(true);
+<<<<<<< HEAD
     ->ignoreVCS(true)
     ->ignoreVCS(true)
     ->ignoreVCS(true)
@@ -303,6 +304,8 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreVCS(true)
     ->ignoreVCS(true)
     ->ignoreVCS(true)
+=======
+>>>>>>> 551c768c4 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -330,10 +333,13 @@ $config
         'elseif' => true,
     ])
     ->setFinder($finder);
+<<<<<<< HEAD
     ->setFinder($finder)
     ->setFinder($finder)
     ->setFinder($finder)
     ->setFinder($finder)
+=======
+>>>>>>> 551c768c4 (.)
 
 return $config;
     ->setFinder($finder);

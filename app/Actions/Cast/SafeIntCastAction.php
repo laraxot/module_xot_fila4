@@ -128,6 +128,7 @@ use Spatie\QueueableAction\QueueableAction;
  * - KISS: Logica semplice e diretta, facile da comprendere e mantenere
  * - Robustezza: Gestisce tutti i casi edge e mantiene la type safety
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  *
  * 
@@ -270,6 +271,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
  */
 class SafeIntCastAction
 {
@@ -284,6 +287,7 @@ class SafeIntCastAction
      */
 <<<<<<< HEAD
     public function execute(mixed $value, ?int $default = 0): int
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -508,6 +512,8 @@ class SafeIntCastAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     {
         // Se è già un int, restituiscilo direttamente
         if (is_int($value)) {
@@ -969,6 +975,7 @@ class SafeIntCastAction
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
     private function parseStringToInt(string $value, ?int $default = 0): int
     private function parseStringToInt(string $value, ?int $default = 0): int
 =======
@@ -1210,6 +1217,8 @@ class SafeIntCastAction
     /**
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 551c768c4 (.)
      * Metodo statico di convenienza per chiamate dirette.
      *
      * @param  mixed  $value  Il valore da convertire
@@ -1455,6 +1464,7 @@ class SafeIntCastAction
      * @return int Il valore convertito
      */
     private function parseStringToInt(string $value, ?int $default = 0): int
+<<<<<<< HEAD
      * Converte una stringa in int con gestione avanzata.
      *
      * @param string $value La stringa da convertire
@@ -1463,6 +1473,8 @@ class SafeIntCastAction
      * @return int Il valore convertito
      */
     private function parseStringToInt(string $value, null|int $default = 0): int
+=======
+>>>>>>> 551c768c4 (.)
     {
         $trimmed = trim($value);
 
@@ -1476,6 +1488,7 @@ class SafeIntCastAction
 
         // Verifica se è un numero valido
         if (is_numeric($normalized)) {
+<<<<<<< HEAD
             $int = (int) $normalized;
             return $int;
             $int = (int) $normalized;
@@ -1486,20 +1499,28 @@ class SafeIntCastAction
             return $int;
             $int = (int) $normalized;
             return $int;
+=======
+            return (int) $normalized;
+>>>>>>> 551c768c4 (.)
         }
 
         // Prova a estrarre solo i numeri
         $matches = [];
+<<<<<<< HEAD
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && !empty($matches[0])) {
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && !empty($matches[0])) {
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && !empty($matches[0])) {
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && !empty($matches[0])) {
         if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && !empty($matches[0])) {
+=======
+        if (preg_match('/^[+-]?[0-9]+/', $normalized, $matches) === 1 && ! empty($matches[0])) {
+>>>>>>> 551c768c4 (.)
             return (int) $matches[0];
         }
 
         return $default ?? 0;
     }
+<<<<<<< HEAD
 
     /**
      * Metodo statico di convenienza per chiamate dirette.
@@ -1793,4 +1814,6 @@ class SafeIntCastAction
     {
         return app(self::class)->executeAsId($value, $default);
     }
+=======
+>>>>>>> 551c768c4 (.)
 }

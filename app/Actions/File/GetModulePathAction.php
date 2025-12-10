@@ -113,6 +113,7 @@ class GetModulePathAction
      * Ottiene il percorso di un modulo.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -394,6 +395,9 @@ class GetModulePathAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+     * @param  string  $moduleName  Il nome del modulo
+>>>>>>> 551c768c4 (.)
      * @return string Il percorso completo del modulo
      */
     public function execute(string $moduleName): string
@@ -414,6 +418,7 @@ class GetModulePathAction
 >>>>>>> 091f883c (.)
         } catch (Exception) {
             $modulesPath = base_path('Modules');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -757,6 +762,10 @@ class GetModulePathAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            if (! File::exists($modulesPath)) {
+                return __DIR__.'/../';
+>>>>>>> 551c768c4 (.)
             }
 
             $files = scandir($modulesPath);
@@ -783,6 +792,7 @@ class GetModulePathAction
                     return false;
                 }
 
+<<<<<<< HEAD
                 if (!is_string($item)) {
                     return false;
                 }
@@ -798,10 +808,13 @@ class GetModulePathAction
                 if (!is_string($item)) {
                     return false;
                 }
+=======
+>>>>>>> 551c768c4 (.)
                 return Str::lower($item) === $moduleNameLower;
             })->first();
 
             // Se non troviamo il modulo, restituiamo un percorso di fallback
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -820,11 +833,14 @@ class GetModulePathAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 551c768c4 (.)
             if ($foundModule === null || ! is_string($foundModule)) {
                 return base_path('Modules/'.$moduleName);
             }
 
             $module_path = base_path('Modules/'.$foundModule);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1179,6 +1195,8 @@ class GetModulePathAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         }
 
         return $module_path;

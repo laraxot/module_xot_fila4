@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17,10 +18,13 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Gestione dei File Upload in Filament
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -198,6 +202,9 @@ Questo documento descrive le best practice per la gestione dei file upload nei f
 Questo documento descrive le best practice per la gestione dei file upload nei form Filament di SaluteOra, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+Questo documento descrive le best practice per la gestione dei file upload nei form Filament di <nome progetto>, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
+>>>>>>> 551c768c4 (.)
 
 ## Configurazione del Componente FileUpload
 
@@ -379,6 +386,7 @@ Forms\Components\FileUpload::make('certifications')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -472,3 +480,5 @@ Forms\Components\FileUpload::make('certifications')
 =======
 >>>>>>> 0123915b (.)
 >>>>>>> 5cb992cc6 (.)
+=======
+>>>>>>> 551c768c4 (.)

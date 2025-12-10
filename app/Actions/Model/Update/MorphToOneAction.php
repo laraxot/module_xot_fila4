@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model\Update;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,10 +23,13 @@ namespace Modules\Xot\Actions\Model\Update;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Fidum\EloquentMorphToOne\MorphToOne;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
 use InvalidArgumentException;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -62,6 +66,8 @@ use InvalidArgumentException;
 use Fidum\EloquentMorphToOne\MorphToOne;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Datas\RelationData as RelationDTO;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -80,6 +86,7 @@ class MorphToOneAction
     /**
      * Execute the action to create a MorphToOne relationship.
      *
+<<<<<<< HEAD
      * @param Model       $model       The parent model
      * @param RelationDTO $relationDTO Data transfer object containing relationship information
      * @param Model       $model       The parent model
@@ -90,6 +97,10 @@ class MorphToOneAction
      * @param RelationDTO $relationDTO Data transfer object containing relationship information
      * @param Model       $model       The parent model
      * @param RelationDTO $relationDTO Data transfer object containing relationship information
+=======
+     * @param  Model  $model  The parent model
+     * @param  RelationDTO  $relationDTO  Data transfer object containing relationship information
+>>>>>>> 551c768c4 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,6 +135,7 @@ class MorphToOneAction
     /**
      * Prepare the data array for creation.
      *
+<<<<<<< HEAD
      * @param array<string, mixed> $data The input data array
      *
      * @param array<string, mixed> $data The input data array
@@ -134,11 +146,15 @@ class MorphToOneAction
      *
      * @param array<string, mixed> $data The input data array
      *
+=======
+     * @param  array<string, mixed>  $data  The input data array
+>>>>>>> 551c768c4 (.)
      * @return array<string, mixed> The prepared data array
      */
     private function prepareData(array $data): array
     {
         // Ensure the 'lang' key is set to the current locale if not provided
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!isset($data['lang'])) {
         if (!isset($data['lang'])) {
@@ -410,10 +426,14 @@ class MorphToOneAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if (! isset($data['lang'])) {
+>>>>>>> 551c768c4 (.)
             $data['lang'] = App::getLocale();
         }
 
         // Return the prepared data
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -692,5 +712,8 @@ class MorphToOneAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        return array_filter($data, static fn ($value) => $value !== null);
+>>>>>>> 551c768c4 (.)
     }
 }

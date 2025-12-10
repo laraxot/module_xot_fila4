@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Xot Module - Framework Base Laraxot
 =======
 <<<<<<< HEAD
@@ -65,6 +66,9 @@
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica
@@ -102,6 +106,7 @@ Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Liv
 **Dettagli**: vedi [bugfix-hasxottable-duplicate-if.md](./bugfix-hasxottable-duplicate-if.md), [syntax-errors-mass-fix.md](./syntax-errors-mass-fix.md) e [QUALITY_IMPROVEMENTS_SUMMARY_2025_11_18.md](./QUALITY_IMPROVEMENTS_SUMMARY_2025_11_18.md)
 
 ---
+<<<<<<< HEAD
 Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
 Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
 Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
@@ -113,6 +118,8 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per appl
 Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
 Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
 Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
+=======
+>>>>>>> 551c768c4 (.)
 
 ## Architettura Modulare
 
@@ -131,6 +138,7 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 
 - **Laravel 11**: Framework PHP moderno e potente
 - **Filament 3**: Server-Driven UI framework per Laravel
+<<<<<<< HEAD
 - **Laravel 12**: Framework PHP moderno e potente
 - **Filament 4**: Server-Driven UI framework per Laravel
 - **Laravel 11**: Framework PHP moderno e potente
@@ -149,6 +157,8 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 - **Filament 3**: Server-Driven UI framework per Laravel
 - **Laravel 12**: Framework PHP moderno e potente
 - **Filament 4**: Server-Driven UI framework per Laravel
+=======
+>>>>>>> 551c768c4 (.)
 - **Livewire 3**: Full-stack framework per Laravel
 - **PHPStan 3**: Static analysis tool (Livello 9/10)
 - **Pest 3**: PHP testing framework
@@ -175,10 +185,13 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 - [Laravel Framework](laravel-framework.md) - Documentazione completa del framework
 - [Model Context Protocol](model-context-protocol.md) - Implementazione MCP
 - [Cast Actions](cast-actions.md) - Azioni di cast sicure
+<<<<<<< HEAD
 - [Convenzioni Laraxot](conventions.md) - Regole e convenzioni per lo sviluppo
 - [Laravel Framework](laravel-framework.md) - Documentazione completa del framework
 - [Model Context Protocol](model-context-protocol.md) - Implementazione MCP
 - [Piano Consolidamento](DOCS_CONSOLIDATION_PLAN.md) - Piano per consolidare documentazione
+=======
+>>>>>>> 551c768c4 (.)
 - [Collegamenti](links.md) - Raccolta di link e riferimenti
 
 ### Moduli del Sistema
@@ -257,6 +270,7 @@ composer require laraxot/xot
 Configurazione automatica tramite service providers.
 
 ## Documentation Archive
+<<<<<<< HEAD
 **Data Creazione**: 27 Gennaio 2025  
 **Stato**: Consolidato da docs/ root  
 **Priorità**: CRITICA (Documentazione principale)
@@ -762,10 +776,15 @@ Configurazione automatica tramite service providers.
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+>>>>>>> 551c768c4 (.)
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -788,6 +807,8 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 551c768c4 (.)
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -797,14 +818,18 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 ## Links
 - [Root Documentation](../../../project_docs/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Quick Links Legacy
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> 551c768c4 (.)
+=======
 ## Quick Links Legacy
 =======
 ## Quick Links Legacy
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -911,3 +936,9 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - [Root Documentation](../../../docs/)
 - [SaluteOra Module](../SaluteOra/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+=======
+- [Root Documentation](../../../docs/)
+- [<main module> Module](../<main module>/docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+=======
+>>>>>>> 551c768c4 (.)

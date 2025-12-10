@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model\Update;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,11 +23,14 @@ namespace Modules\Xot\Actions\Model\Update;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use InvalidArgumentException;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 use RuntimeException;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -63,6 +67,8 @@ use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Modules\Xot\Datas\RelationData as RelationDTO;
+=======
+>>>>>>> 551c768c4 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -80,6 +86,7 @@ class HasOneAction
     /**
      * Execute the update operation for a HasOne relationship.
      *
+<<<<<<< HEAD
      * @param Model       $model       The parent model instance
      * @param RelationDTO $relationDTO Data transfer object containing relationship information
      * @param Model       $model       The parent model instance
@@ -90,6 +97,10 @@ class HasOneAction
      * @param RelationDTO $relationDTO Data transfer object containing relationship information
      * @param Model       $model       The parent model instance
      * @param RelationDTO $relationDTO Data transfer object containing relationship information
+=======
+     * @param  Model  $model  The parent model instance
+     * @param  RelationDTO  $relationDTO  Data transfer object containing relationship information
+>>>>>>> 551c768c4 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD

@@ -26,6 +26,7 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 ## Esempio errato
 - Modules/<main module>/Filament/Resources/UserResource.php
 - Modules/<main module>/Enums/UserType.php
+<<<<<<< HEAD
 - Modules/SaluteOra/app/Filament/Resources/UserResource.php
 - Modules/SaluteOra/app/Filament/Resources/UserResource/Pages/CreateUser.php
 - Modules/SaluteOra/app/Enums/UserType.php
@@ -50,6 +51,8 @@ Tutti i file di risorsa (Resource), enum e pages dei moduli Laravel devono esser
 ## Esempio errato
 - Modules/SaluteOra/Filament/Resources/UserResource.php
 - Modules/SaluteOra/Enums/UserType.php
+=======
+>>>>>>> 551c768c4 (.)
 
 Questa regola garantisce coerenza, manutenibilità e rispetto delle convenzioni PSR-4 e delle best practice del progetto.
 
@@ -107,6 +110,7 @@ class User extends Model {
 ## Docs collegate
 - [.windsurf/rules/model-states.mdc](../../../.windsurf/rules/model-states.mdc)
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
+<<<<<<< HEAD
 - [<main module>/docs/uso-label-filament.mdc](../../<main module>/docs/uso-label-filament.mdc)
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
@@ -115,6 +119,8 @@ class User extends Model {
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
+=======
+>>>>>>> 551c768c4 (.)
 - https://github.com/spatie/laravel-model-states
 
 ---
@@ -145,6 +151,7 @@ class User extends Model {
 - https://github.com/spatie/laravel-model-states
 
 [← Torna a <main module>/docs](../../<main module>/docs/uso-label-filament.mdc)
+<<<<<<< HEAD
 - [SaluteOra/docs/uso-label-filament.mdc](../../SaluteOra/docs/uso-label-filament.mdc)
 - https://github.com/spatie/laravel-model-states
 
@@ -157,6 +164,8 @@ class User extends Model {
 - https://github.com/spatie/laravel-model-states
 
 [← Torna a SaluteOra/docs](../../SaluteOra/docs/uso-label-filament.mdc)
+=======
+>>>>>>> 551c768c4 (.)
 
 # Regola sui Path dei File di Codice nei Moduli Laravel
 
@@ -180,6 +189,7 @@ Modules/<main module>/app/Actions/Patient/Calendar/FetchEventsAction.php
 
 // Errato
 Modules/<main module>/Actions/Patient/Calendar/FetchEventsAction.php
+<<<<<<< HEAD
 Modules/SaluteOra/app/Actions/Patient/Calendar/FetchEventsAction.php
 
 // Errato
@@ -192,6 +202,8 @@ Modules/SaluteOra/app/Actions/Patient/Calendar/FetchEventsAction.php
 
 // Errato
 Modules/SaluteOra/Actions/Patient/Calendar/FetchEventsAction.php
+=======
+>>>>>>> 551c768c4 (.)
 ```
 
 ## Collegamenti
@@ -218,6 +230,7 @@ final class FetchEventsAction
 ```
 
 Vedi anche: [<main module>/docs/queueable-actions-guide.md](../../<main module>/docs/queueable-actions-guide.md)
+<<<<<<< HEAD
 Vedi anche: [<main module>/docs/queueable-actions-guide.md](../../<main module>/docs/queueable-actions-guide.md)
 Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
 Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
@@ -226,6 +239,8 @@ Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/que
 Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
 Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
 Vedi anche: [SaluteOra/docs/queueable-actions-guide.md](../../SaluteOra/docs/queueable-actions-guide.md)
+=======
+>>>>>>> 551c768c4 (.)
 
 # Regola Namespace per Actions
 
@@ -239,6 +254,7 @@ Esempio:
 namespace Modules\<main module>\Actions\Patient\Calendar;
 // Errato
 namespace Modules\<main module>\App\Actions\Patient\Calendar;
+<<<<<<< HEAD
 ```
 
 Vedi anche: <main module>/docs/directory-structure.md
@@ -257,3 +273,8 @@ namespace Modules\SaluteOra\App\Actions\Patient\Calendar;
 Vedi anche: SaluteOra/docs/directory-structure.md
 Vedi anche: SaluteOra/docs/directory-structure.md
 Vedi anche: SaluteOra/docs/directory-structure.md
+=======
+```
+
+Vedi anche: <main module>/docs/directory-structure.md
+>>>>>>> 551c768c4 (.)

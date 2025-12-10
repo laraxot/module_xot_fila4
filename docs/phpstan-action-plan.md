@@ -3,12 +3,28 @@
 ## Executive Summary
 
 **Total Issues Identified:** 744 PHPStan errors
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+**Critical Modules:** Chart, Quaeris
+=======
+**Critical Modules:** Chart, <nome progetto>
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
 **Status:** 🔴 **Requires Immediate Action**
 
 ## Quick Start Guide
 
 ### Immediate Actions (Today)
 1. **Add Safe function imports** to all problematic files
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+2. **Comment out quantum code** in Quaeris module
+=======
+2. **Comment out quantum code** in <nome progetto> module
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
 3. **Run PHPStan again** to verify progress
 
 ### Week 1 Goals
@@ -30,6 +46,14 @@
 Modules/Chart/app/Actions/ChartJs/ExportToSvgAction.php
 Modules/Chart/app/Actions/ExportChartToPngAction.php
 Modules/Chart/app/Actions/ExportChartToSvgAction.php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Modules/Quaeris/app/Actions/Charts/Export/Concerns/HandlesChartWidgetData.php
+=======
+Modules/<nome progetto>/app/Actions/Charts/Export/Concerns/HandlesChartWidgetData.php
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
 # ... and others identified in analysis
 ```
 
@@ -47,6 +71,14 @@ use function Safe\htmlspecialchars;
 #### Task 1.2: Quantum Code Stabilization
 **Priority:** 🔴 CRITICAL
 **Estimated Time:** 1-2 hours
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+**Files:** Quaeris quantum actions
+=======
+**Files:** <nome progetto> quantum actions
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
 
 **Options:**
 1. **Comment out** quantum features temporarily
@@ -221,6 +253,14 @@ class ChartDataValidator
 - [Safe Library Documentation](https://github.com/thecodingmachine/safe)
 - [PHPStan Configuration](../phpstan.neon)
 - [Chart Module Documentation](../Chart/docs/)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [Quaeris Module Documentation](../Quaeris/docs/)
+=======
+- [<nome progetto> Module Documentation](../<nome progetto>/docs/)
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
 
 ## Emergency Procedures
 

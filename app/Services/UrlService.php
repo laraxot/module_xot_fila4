@@ -15,6 +15,7 @@ namespace Modules\Xot\Services;
 class UrlService
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,11 +353,15 @@ class UrlService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    private static ?self $instance = null;
+>>>>>>> 551c768c4 (.)
 
     public function __construct()
     {
         // ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -694,10 +699,14 @@ class UrlService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        include_once __DIR__.'/vendor/autoload.php';
+>>>>>>> 551c768c4 (.)
     }
 
     public static function getInstance(): self
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
@@ -900,6 +909,10 @@ class UrlService
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if (! (self::$instance instanceof self)) {
+            self::$instance = new self;
+>>>>>>> 551c768c4 (.)
         }
 
         return self::$instance;
@@ -916,6 +929,7 @@ class UrlService
     public function checkValidUrl(string $url): bool
     {
         return filter_var($url, FILTER_VALIDATE_URL) !== false;
+<<<<<<< HEAD
         return false !== filter_var($url, FILTER_VALIDATE_URL);
         return false !== filter_var($url, FILTER_VALIDATE_URL);
         return false !== filter_var($url, FILTER_VALIDATE_URL);
@@ -926,5 +940,7 @@ class UrlService
         return false !== filter_var($url, FILTER_VALIDATE_URL);
         return false !== filter_var($url, FILTER_VALIDATE_URL);
         return false !== filter_var($url, FILTER_VALIDATE_URL);
+=======
+>>>>>>> 551c768c4 (.)
     }
 }

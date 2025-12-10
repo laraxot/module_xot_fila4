@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 > - [README.md documentazione generale](../../../../project_docs/README.md)
 > - [README.md documentazione generale](../../../../project_docs/README.md)
 > - [README.md documentazione generale](../../../../project_docs/README.md)
@@ -60,24 +61,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+# Miglioramenti al Prompt docs.txt
+
+> **Collegamenti correlati**
+>>>>>>> 551c768c4 (.)
 > - [README.md documentazione generale](../../../../docs/README.md)
-=======
-> - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 43d67f21 (.)
-=======
-> - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> b7ea1cd1 (.)
-=======
-> - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> b7ea1cd1 (.)
-=======
-> - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 76bec91a (.)
-=======
-> - [README.md documentazione generale](../../../../project_docs/README.md)
->>>>>>> 55fe1822 (.)
 > - [Struttura dei Prompt](./prompts.md)
 > - [Regole per i Prompt](./PROMPT_RULES.md)
+<<<<<<< HEAD
 > - [README.md toolkit bashscripts](../../../../bashscripts/project_docs/README.md)
 > - [Documentazione miglioramenti prompt docs.txt](../../../../bashscripts/project_docs/prompt_docs_improvements.md)
 
@@ -281,6 +273,12 @@
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+> - [README.md toolkit bashscripts](../../../../bashscripts/docs/README.md)
+> - [Documentazione miglioramenti prompt docs.txt](../../../../bashscripts/docs/prompt_docs_improvements.md)
+
+=======
+>>>>>>> 551c768c4 (.)
 ## Introduzione
 
 Il file `/bashscripts/prompts/docs.txt` contiene un prompt utilizzato per guidare la documentazione nei progetti modulari Laravel. Questo documento descrive i miglioramenti apportati al prompt per renderlo completamente indipendente dal progetto e riutilizzabile.
@@ -341,6 +339,7 @@ Il prompt rimane conforme alla [Regola Universale](./prompt_rules.md) per i prom
 
 Il prompt aggiornato può essere utilizzato in qualsiasi progetto modulare Laravel senza modifiche, rendendo il modulo `bashscripts` completamente riutilizzabile.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -399,3 +398,7 @@ Il prompt aggiornato può essere utilizzato in qualsiasi progetto modulare Larav
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+=======
+>>>>>>> 551c768c4 (.)

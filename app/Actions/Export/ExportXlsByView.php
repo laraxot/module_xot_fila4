@@ -8,6 +8,7 @@ namespace Modules\Xot\Actions\Export;
 
 use Illuminate\Contracts\View\View;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +172,8 @@ use Illuminate\Support\Collection;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\ViewExport;
 use Spatie\QueueableAction\QueueableAction;
@@ -271,17 +274,21 @@ class ExportXlsByView
      * @param  array<int, string>  $fields  Campi da includere nell'export
      * @param  string  $filename  Nome del file Excel
      * @param  string|null  $transKey  Chiave di traduzione per i campi
+<<<<<<< HEAD
      * @param View $view La vista da esportare
      * @param array<int, string> $fields Campi da includere nell'export
      * @param string $filename Nome del file Excel
      * @param string|null $transKey Chiave di traduzione per i campi
      *
      * @return BinaryFileResponse
+=======
+>>>>>>> 551c768c4 (.)
      */
     public function execute(
         View $view,
         array $fields,
         string $filename = 'test.xlsx',
+<<<<<<< HEAD
 <<<<<<< HEAD
         ?string $transKey = null,
         ?string $transKey = null,
@@ -422,6 +429,9 @@ class ExportXlsByView
         null|string $transKey = null,
         null|string $transKey = null,
         null|string $transKey = null,
+=======
+        ?string $transKey = null,
+>>>>>>> 551c768c4 (.)
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(strval(...), array_values($fields));

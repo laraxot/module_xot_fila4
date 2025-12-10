@@ -35,6 +35,7 @@ class SearchTextInDbCommand extends Command
         } else {
             $tables = collect($specificTables);
         }
+<<<<<<< HEAD
         $tables = empty($specificTables)
             ? collect(DB::select('SHOW TABLES'))
             : collect($specificTables);
@@ -56,6 +57,8 @@ class SearchTextInDbCommand extends Command
         $tables = empty($specificTables)
             ? collect(DB::select('SHOW TABLES'))
             : collect($specificTables);
+=======
+>>>>>>> 551c768c4 (.)
 
         foreach ($tables as $table) {
             // Get table name with proper type checking
@@ -63,6 +66,7 @@ class SearchTextInDbCommand extends Command
             if (is_object($table)) {
                 // Usa isset() invece di property_exists per oggetti stdClass
                 if (isset($table->$tableProp) && is_string($table->$tableProp)) {
+<<<<<<< HEAD
                 if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
                 if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
                 if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
@@ -72,6 +76,8 @@ class SearchTextInDbCommand extends Command
                 if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
                 if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
                 if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+=======
+>>>>>>> 551c768c4 (.)
                     $tableName = $table->$tableProp;
                 }
             } elseif (is_string($table)) {
@@ -121,6 +127,7 @@ class SearchTextInDbCommand extends Command
 
                 if ($results->isNotEmpty()) {
                     $this->info("Found in column: {$column}");
+<<<<<<< HEAD
                     $this->info("Found in column: $column");
                     $this->info("Found in column: $column");
                     $this->info("Found in column: $column");
@@ -129,6 +136,8 @@ class SearchTextInDbCommand extends Command
                     $this->info("Found in column: $column");
                     $this->info("Found in column: $column");
                     $this->info("Found in column: $column");
+=======
+>>>>>>> 551c768c4 (.)
                     foreach ($results as $result) {
                         $this->table(
                             ['Column', 'Value'],

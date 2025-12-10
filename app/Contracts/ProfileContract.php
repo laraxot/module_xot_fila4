@@ -7,11 +7,14 @@ namespace Modules\Xot\Contracts;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+<<<<<<< HEAD
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Builder;
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\User\Models\Role;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\Permission\Contracts\Permission;
@@ -25,6 +28,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string $slug
  * @property string $user_id
  * @property Collection<int, Role> $roles
+<<<<<<< HEAD
  * @property int|null              $roles_count
  * @property UserContract          $user
  * @property int|null              $roles_count
@@ -35,6 +39,10 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property UserContract          $user
  * @property int|null              $roles_count
  * @property UserContract          $user
+=======
+ * @property int|null $roles_count
+ * @property UserContract $user
+>>>>>>> 551c768c4 (.)
  *
  * @phpstan-require-extends Model
  *
@@ -57,6 +65,7 @@ interface ProfileContract extends HasMedia
      * @return $this
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]);
 <<<<<<< HEAD
@@ -198,6 +207,10 @@ interface ProfileContract extends HasMedia
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public function assignRole(array|string|int|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]);
+>>>>>>> 551c768c4 (.)
 
     /**
      * Determine if the model has (one of) the given role(s).
@@ -206,6 +219,7 @@ interface ProfileContract extends HasMedia
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,10 +270,13 @@ interface ProfileContract extends HasMedia
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     public function hasRole(
         string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles,
         null|string $guard = null,
     ): bool;
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
     public function hasRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
@@ -327,6 +344,8 @@ interface ProfileContract extends HasMedia
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
     /**
      * Determine if the model has any of the given role(s).
@@ -336,6 +355,7 @@ interface ProfileContract extends HasMedia
      * @param  string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection  $roles
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
     ]): bool;
 <<<<<<< HEAD
@@ -477,12 +497,17 @@ interface ProfileContract extends HasMedia
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public function hasAnyRole(string|int|array|\Spatie\Permission\Contracts\Role|\Illuminate\Support\Collection $roles = [
+    ]): bool;
+>>>>>>> 551c768c4 (.)
 
     /**
      * Determine if the model may perform the given permission.
      *
      * @throws PermissionDoesNotExist
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function hasPermissionTo(string|int|Permission $permission, null|string $guardName = null): bool;
     public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
@@ -683,6 +708,9 @@ interface ProfileContract extends HasMedia
      * @return \Illuminate\Database\Eloquent\Builder|static
      */
     public function newEloquentBuilder($query);
+=======
+    public function hasPermissionTo(string|int|Permission $permission, ?string $guardName = null): bool;
+>>>>>>> 551c768c4 (.)
 
     /**
      * Undocumented function.
@@ -690,6 +718,7 @@ interface ProfileContract extends HasMedia
     public function toggleSuperAdmin(): void;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -713,6 +742,9 @@ interface ProfileContract extends HasMedia
      * Get the user that owns the profile.
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+     * ---return BelongsTo<UserContract, self>.
+>>>>>>> 551c768c4 (.)
      */
     public function user(): BelongsTo;
 

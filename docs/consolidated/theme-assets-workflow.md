@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17,6 +18,8 @@
 =======
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # 🎨 Theme Assets Workflow - CSS/JS Frontend
 
 **⚠️ REGOLA CRITICA**: Per modifiche CSS/JS del frontend, lavorare SEMPRE nella cartella del tema, NON nella root Laravel.
@@ -65,6 +68,7 @@ npm run copy
 ### Tema One
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,6 +252,9 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
+>>>>>>> 551c768c4 (.)
 npm install          # Prima volta
 npm run build        # Compila Sass/JS
 npm run copy         # Copia in /public/
@@ -256,6 +263,7 @@ npm run copy         # Copia in /public/
 ### Tema Two
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,6 +447,9 @@ cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two
 cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
+>>>>>>> 551c768c4 (.)
 npm install
 npm run build
 npm run copy
@@ -481,6 +492,7 @@ export default defineConfig({
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -561,3 +573,6 @@ export default defineConfig({
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 551c768c4 (.)

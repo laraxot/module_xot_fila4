@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,10 +23,13 @@ namespace Modules\Xot\Actions\Model;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Doctrine\DBAL\Schema\Index;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -61,6 +65,8 @@ use Webmozart\Assert\Assert;
 use Illuminate\Database\Eloquent\Model;
 use Doctrine\DBAL\Schema\Index;
 use Spatie\QueueableAction\QueueableAction;
+=======
+>>>>>>> 551c768c4 (.)
 
 class GetTableIndexesByModelClassAction
 {
@@ -88,6 +94,7 @@ class GetTableIndexesByModelClassAction
         Assert::isInstanceOf($model = app($modelClass), Model::class);
 >>>>>>> 091f883c (.)
         $table = $model->getTable();
+<<<<<<< HEAD
         $schemaManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
 
         return $schemaManager->listTableIndexes($table);
@@ -103,5 +110,10 @@ class GetTableIndexesByModelClassAction
         $schemaManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
 
         return $schemaManager->listTableIndexes($table);
+=======
+        $formManager = app(GetSchemaManagerByModelClassAction::class)->execute($modelClass);
+
+        return $formManager->listTableIndexes($table);
+>>>>>>> 551c768c4 (.)
     }
 }

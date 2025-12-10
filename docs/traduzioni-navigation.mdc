@@ -5,6 +5,7 @@ Questa regola è valida per tutti i moduli. Fare sempre riferimento alla documen
 ## Collegamenti
 - [docs di Lang](../../Lang/docs/traduzioni-navigation.mdc)
 - [docs di <main module>](../../<main module>/docs/traduzioni-navigation.mdc)
+<<<<<<< HEAD
 - [docs di <main module>](../../<main module>/docs/traduzioni-navigation.mdc)
 - [docs di SaluteOra](../../SaluteOra/docs/traduzioni-navigation.mdc)
 - [docs di SaluteOra](../../SaluteOra/docs/traduzioni-navigation.mdc)
@@ -13,3 +14,5 @@ Questa regola è valida per tutti i moduli. Fare sempre riferimento alla documen
 - [docs di SaluteOra](../../SaluteOra/docs/traduzioni-navigation.mdc)
 - [docs di SaluteOra](../../SaluteOra/docs/traduzioni-navigation.mdc)
 - [docs di SaluteOra](../../SaluteOra/docs/traduzioni-navigation.mdc)
+=======
+>>>>>>> 551c768c4 (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10,6 +11,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 ```bash
 # Rimuovere duplicato lowercase
 rm tests/Feature/fixstructuretest.pest.php
@@ -176,6 +179,7 @@ Aggiungere a `.gitignore`:
 **Data ultima verifica**: Novembre 2025  
 **Status**: ✅ 0 duplicati rilevati su 3151 directory verificate
 =======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -386,3 +390,5 @@ Questo documento descrive le convenzioni di denominazione da seguire all'interno
 =======
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 551c768c4 (.)

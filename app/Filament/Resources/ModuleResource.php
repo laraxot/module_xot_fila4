@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Resources\Pages\Page;
 use Filament\Forms\Components\Select;
 =======
@@ -87,6 +88,10 @@ use Filament\Forms;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+use Filament\Resources\Pages\Page;
+use Filament\Forms\Components\Select;
+>>>>>>> 551c768c4 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Schemas\Components\Component;
@@ -151,6 +156,7 @@ class ModuleResource extends XotBaseResource
 {
     protected static ?string $model = Module::class;
 
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -516,6 +522,8 @@ class ModuleResource extends XotBaseResource
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 551c768c4 (.)
     #[Override]
 <<<<<<< HEAD
 =======
@@ -561,6 +569,7 @@ class ModuleResource extends XotBaseResource
             'name' => TextInput::make('name')->required(),
             'description' => TextInput::make('description'),
             'icon' => Select::make('icon')->options([]),
+<<<<<<< HEAD
             'icon' => IconPicker::make('icon'),
             'icon' => IconPicker::make('icon'),
             'icon' => IconPicker::make('icon'),
@@ -571,6 +580,8 @@ class ModuleResource extends XotBaseResource
             'icon' => IconPicker::make('icon'),
             'icon' => IconPicker::make('icon'),
             'icon' => IconPicker::make('icon'),
+=======
+>>>>>>> 551c768c4 (.)
             'priority' => TextInput::make('priority'),
             'status' => Toggle::make('status'),
         ];
@@ -650,6 +661,7 @@ class ModuleResource extends XotBaseResource
             'index' => $index::route('/'),
             'create' => $create::route('/create'),
             'edit' => $edit::route('/{record}/edit'),
+<<<<<<< HEAD
         return [
             'index' => ListModules::route('/'),
             'create' => CreateModule::route('/create'),
@@ -729,6 +741,8 @@ class ModuleResource extends XotBaseResource
 =======
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
         ];
     }
 }

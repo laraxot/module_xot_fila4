@@ -41,6 +41,7 @@ use Illuminate\Support\Carbon;
  * @method array treeLabel()
  * @method array treeSons()
  * @method array toArray()
+<<<<<<< HEAD
  * @property int                $id
  * @property int|null           $user_id
  * @property string|null        $post_type
@@ -71,12 +72,15 @@ use Illuminate\Support\Carbon;
  * @method array     treeLabel()
  * @method array     treeSons()
  * @method array     toArray()
+=======
+>>>>>>> 551c768c4 (.)
  * @method BelongsTo user()
  *
  * @phpstan-require-extends Model
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 interface ModelWithAuthorContract
 {
@@ -485,3 +489,6 @@ interface ModelWithAuthorContract {}
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+interface ModelWithAuthorContract {}
+>>>>>>> 551c768c4 (.)

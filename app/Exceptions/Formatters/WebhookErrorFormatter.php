@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Exceptions\Formatters;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Auth;
 use Throwable;
 =======
@@ -89,6 +90,10 @@ use function Safe\json_encode;
 >>>>>>> 5cf46378 (.)
 
 use function Safe\json_encode;
+=======
+use Illuminate\Support\Facades\Auth;
+use Throwable;
+>>>>>>> 551c768c4 (.)
 
 class WebhookErrorFormatter
 {

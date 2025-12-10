@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,6 +139,9 @@ use Spatie\Health\Checks\Check;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+use Filament\Widgets\WidgetConfiguration;
+>>>>>>> 551c768c4 (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -146,6 +150,7 @@ use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -175,6 +180,9 @@ use Spatie\Health\Checks\Check;
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
 use Spatie\Health\Checks\Checks;
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 551c768c4 (.)
 use Spatie\Health\Checks\Checks\CacheCheck;
 use Spatie\Health\Checks\Checks\DatabaseCheck;
 use Spatie\Health\Checks\Checks\DatabaseConnectionCountCheck;
@@ -194,6 +202,7 @@ use Spatie\Health\Commands\RunHealthChecksCommand;
 use Spatie\Health\Facades\Health;
 use Spatie\Health\ResultStores\ResultStore;
 use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
@@ -398,6 +407,8 @@ use Spatie\Health\Checks\Checks;
 use Spatie\Health\Commands\RunHealthChecksCommand;
 use Spatie\Health\Facades\Health;
 use Spatie\Health\ResultStores\ResultStore;
+=======
+>>>>>>> 551c768c4 (.)
 
 class HealthPage extends Page
 {
@@ -415,6 +426,7 @@ class HealthPage extends Page
     public function refresh(): void
     {
         /** @var array<int, Check> $checks */
+<<<<<<< HEAD
         $checks = [
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-heart';
 
@@ -426,6 +438,8 @@ class HealthPage extends Page
     public function refresh(): void
     {
         /** @var array<int, Check> $checks */
+=======
+>>>>>>> 551c768c4 (.)
         $checks = [
             OptimizedAppCheck::new(),
             DebugModeCheck::new(),
@@ -439,6 +453,7 @@ class HealthPage extends Page
             FlareErrorOccurrenceCountCheck::new(),
             HorizonCheck::new(),
             // Checks\MeiliSearchCheck::new(),
+<<<<<<< HEAD
             //Checks\MeiliSearchCheck::new(),
             //Checks\MeiliSearchCheck::new(),
             //Checks\MeiliSearchCheck::new(),
@@ -449,6 +464,8 @@ class HealthPage extends Page
             //Checks\MeiliSearchCheck::new(),
             //Checks\MeiliSearchCheck::new(),
             //Checks\MeiliSearchCheck::new(),
+=======
+>>>>>>> 551c768c4 (.)
             QueueCheck::new(),
             RedisCheck::new(),
             ScheduleCheck::new(),
@@ -472,6 +489,7 @@ class HealthPage extends Page
          *
          * @phpstan-ignore-next-line argument.type
          */
+<<<<<<< HEAD
             /** @var CpuLoadCheck $check */
             $check = CpuLoadCheck::new();
             $checks[] = $check;
@@ -607,6 +625,8 @@ class HealthPage extends Page
         /** @var array<int, \Spatie\Health\Checks\Check> $checks */
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -619,9 +639,12 @@ class HealthPage extends Page
     /**
      * @return array<int, Action>
      */
+<<<<<<< HEAD
     /**
      * @return array<int, Action>
      */
+=======
+>>>>>>> 551c768c4 (.)
     protected function getHeaderActions(): array
     {
         return [
@@ -708,6 +731,7 @@ class HealthPage extends Page
     /**
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
     /**
      * @return array<int, WidgetConfiguration>
      */
@@ -722,6 +746,8 @@ class HealthPage extends Page
     /**
      * @return array<string, mixed>
      */
+=======
+>>>>>>> 551c768c4 (.)
     protected function getViewData(): array
     {
         $checkResults = app(ResultStore::class)->latestResults();

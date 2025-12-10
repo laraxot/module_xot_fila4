@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,10 +19,13 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # XotBaseServiceProvider
 
 ## Descrizione
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -401,6 +405,10 @@
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
 >>>>>>> 7e4835b8e (.)
+=======
+`XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+`XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in <nome progetto>. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+>>>>>>> 551c768c4 (.)
 
 ## Caratteristiche Principali
 
@@ -571,6 +579,7 @@ try {
 3. I percorsi sono relativi alla root del modulo
 4. Le eccezioni vengono gestite con fallback appropriati
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -651,3 +660,7 @@ try {
 5. La registrazione dei componenti è automatica ma configurabile 
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+5. La registrazione dei componenti è automatica ma configurabile 
+=======
+>>>>>>> 551c768c4 (.)

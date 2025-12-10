@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura dei Moduli in il progetto
 # Struttura dei Moduli in il progetto
 =======
@@ -82,6 +83,8 @@
 # Struttura dei Moduli in il progetto
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 =======
 # Struttura dei Moduli in il progetto
 
@@ -392,6 +395,7 @@ laravel/Modules/Patient/
 ├── app/
 │   ├── Filament/
 │   ├── Http/
+<<<<<<< HEAD
 >>>>>>> a5dccfe (.)
 # Module Structure in Laraxot
 >>>>>>> 6821f7a (.)
@@ -1427,6 +1431,8 @@ laravel/Modules/Patient/
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Module Structure in Laraxot
 
 ## Directory Structure
@@ -1446,6 +1452,7 @@ Module/
 ├── config/
 ├── database/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1524,6 +1531,8 @@ Module/
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 =======
 │   ├── migrations/
 │   └── seeders/
@@ -1623,6 +1632,7 @@ Se trovi una directory con case errato:
 
 ## Collegamenti tra versioni di module_structure.md
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
+<<<<<<< HEAD
 >>>>>>> a5dccfe (.)
 │   ├── factories/
 >>>>>>> 6821f7a (.)
@@ -2034,6 +2044,9 @@ Se trovi una directory con case errato:
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)
 │   ├── factories/
 │   ├── migrations/
 │   └── seeders/
@@ -2132,6 +2145,7 @@ Route::middleware('api')->prefix('api')->group(function () {
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2189,3 +2203,6 @@ Route::middleware('api')->prefix('api')->group(function () {
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

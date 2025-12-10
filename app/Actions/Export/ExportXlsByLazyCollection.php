@@ -4,11 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Export;
 
+<<<<<<< HEAD
 use Illuminate\Http\Response;
 use Illuminate\Http\Response;
 use Illuminate\Http\Response;
 use Illuminate\Http\Response;
 use Illuminate\Http\Response;
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Support\LazyCollection;
 use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\LazyCollectionExport;
@@ -22,6 +25,7 @@ class ExportXlsByLazyCollection
     /**
      * Esporta una lazy collection in Excel.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  LazyCollection  $collection  La lazy collection da esportare
      * @param  string  $filename  Nome del file Excel
@@ -124,6 +128,11 @@ class ExportXlsByLazyCollection
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+     * @param  LazyCollection  $collection  La lazy collection da esportare
+     * @param  string  $filename  Nome del file Excel
+     * @param  array<int, string>  $fields  Campi da includere nell'export
+>>>>>>> 551c768c4 (.)
      */
     public function execute(
         LazyCollection $collection,

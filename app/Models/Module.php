@@ -24,6 +24,7 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -121,10 +122,16 @@ use Sushi\Sushi;
 =======
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+use Illuminate\Support\Arr;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+use Nwidart\Modules\Module as NModule;
+>>>>>>> 551c768c4 (.)
 use Sushi\Sushi;
 
 use function Safe\json_encode;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,6 +327,8 @@ use function Safe\json_encode;
 =======
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
 /**
  * @property int $id
  * @property string|null $name
@@ -345,6 +354,7 @@ use function Safe\json_encode;
  * @mixin \Eloquent
  */
 final class Module extends BaseModel
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
@@ -436,6 +446,8 @@ class Module extends Model
  * @mixin \Eloquent
  */
 class Module extends Model
+=======
+>>>>>>> 551c768c4 (.)
 {
     use Sushi;
 
@@ -517,11 +529,15 @@ class Module extends Model
 >>>>>>> 851793957 (.)
         $modules = Arr::map($modules, function (NModule $module): array {
             $config = config('tenant::config');
+<<<<<<< HEAD
             if (!is_array($config)) {
             if (!is_array($config)) {
             if (!is_array($config)) {
             if (!is_array($config)) {
             if (!is_array($config)) {
+=======
+            if (! is_array($config)) {
+>>>>>>> 551c768c4 (.)
                 $config = [];
             }
             $colors = Arr::get($config, 'colors', []);

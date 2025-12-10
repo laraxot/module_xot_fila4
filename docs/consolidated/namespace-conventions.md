@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni per i Namespace nei Moduli
 # Convenzioni per i Namespace nei Moduli
 =======
@@ -82,6 +83,8 @@
 # Convenzioni per i Namespace nei Moduli
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 =======
 # Convenzioni per i Namespace nei Moduli
 
@@ -300,11 +303,11 @@ php artisan cache:clear
 php artisan config:clear
 php artisan view:clear
 ```
->>>>>>> a5dccfe (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica
 Questo documento definisce le convenzioni per l'organizzazione dei namespace nel modulo Xot.
+<<<<<<< HEAD
 >>>>>>> 6821f7a (.)
 
 ## Struttura Base
@@ -1124,6 +1127,9 @@ Questo documento definisce le convenzioni per l'organizzazione dei namespace nel
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)
 
 ## Struttura Base
 - `Xot\App`: Classi principali dell'applicazione
@@ -10380,6 +10386,7 @@ php scripts/check-namespaces.php
  aurmich/dev
 Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerente e a evitare errori comuni durante l'analisi statica del codice con PHPStan. 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10437,3 +10444,6 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

@@ -15,6 +15,7 @@ use Modules\Xot\Filament\Resources\LogResource\Pages\ViewLog;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Models\Log;
 use Override;
+<<<<<<< HEAD
 use Override;
 use Override;
 use Override;
@@ -154,6 +155,8 @@ use Modules\Xot\Models\Log;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Models\Log;
+=======
+>>>>>>> 551c768c4 (.)
 
 class LogResource extends XotBaseResource
 {
@@ -164,6 +167,7 @@ class LogResource extends XotBaseResource
     /**
      * @return array<string, Component>
      */
+<<<<<<< HEAD
     protected static null|string $model = Log::class;
 
     protected static null|string $model = Log::class;
@@ -186,6 +190,8 @@ class LogResource extends XotBaseResource
 
     protected static null|string $model = Log::class;
 
+=======
+>>>>>>> 551c768c4 (.)
     #[Override]
     public static function getFormSchema(): array
     {
@@ -196,6 +202,7 @@ class LogResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
 
     #[Override]
     public static function getFormSchema(): array
@@ -217,10 +224,13 @@ class LogResource extends XotBaseResource
         ];
     }
 
+=======
+>>>>>>> 551c768c4 (.)
     public static function getInfolistSchema(): array
     {
         return [
             'name' => TextEntry::make('name')->columnSpanFull(),
+<<<<<<< HEAD
     public static function infolist(Schema $schema): Schema
     {
         return $schema->components([
@@ -229,6 +239,8 @@ class LogResource extends XotBaseResource
     {
         return $schema->components([
             TextEntry::make('name')->columnSpanFull(),
+=======
+>>>>>>> 551c768c4 (.)
             /*
              * Infolists\Components\TextEntry::make('email')
              * ->columnSpanFull(),
@@ -238,6 +250,7 @@ class LogResource extends XotBaseResource
              * ->columnSpanFull(),
              */
             'file-content' => FileContentEntry::make('file-content'),
+<<<<<<< HEAD
             FileContentEntry::make('file-content'),
             FileContentEntry::make('file-content'),
             FileContentEntry::make('file-content'),
@@ -248,6 +261,8 @@ class LogResource extends XotBaseResource
             FileContentEntry::make('file-content'),
             FileContentEntry::make('file-content'),
             FileContentEntry::make('file-content'),
+=======
+>>>>>>> 551c768c4 (.)
             /*
              * RepeatableEntry::make('lines')
              * ->schema([
@@ -255,6 +270,7 @@ class LogResource extends XotBaseResource
              * ])
              */
         ];
+<<<<<<< HEAD
         ]);
         ]);
         ]);
@@ -290,6 +306,8 @@ class LogResource extends XotBaseResource
              * ])
              */
         ]);
+=======
+>>>>>>> 551c768c4 (.)
     }
 
     #[Override]

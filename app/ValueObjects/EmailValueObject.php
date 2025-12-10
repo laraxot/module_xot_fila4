@@ -120,6 +120,7 @@ class EmailValueObject
         public string $email,
     ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -314,6 +315,9 @@ class EmailValueObject
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
+>>>>>>> 551c768c4 (.)
             throw new InvalidArgumentException(sprintf('Email address %s is considered valid.', $email));
 <<<<<<< HEAD
 =======

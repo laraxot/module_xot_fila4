@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Trans;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,6 +67,11 @@ use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Throwable;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+=======
+use Illuminate\Support\Str;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Throwable;
+>>>>>>> 551c768c4 (.)
 use Webmozart\Assert\Assert;
 
 class GetTransFilenameAction
@@ -88,6 +94,7 @@ class GetTransFilenameAction
 =======
 >>>>>>> 091f883c (.)
         } catch (Throwable $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,10 +149,13 @@ class GetTransFilenameAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
             $langPath = base_path('Modules/'.$ns.'/lang');
         }
 
         $lang_path_full = $langPath.'/'.$lang.'/'.$file.'.php';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -366,5 +376,9 @@ class GetTransFilenameAction
         $lang_path_full = str_replace(['\\', '/'], [DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $lang_path_full);
 
         return $lang_path_full;
+=======
+
+        return str_replace(['\\', '/'], [DIRECTORY_SEPARATOR, DIRECTORY_SEPARATOR], $lang_path_full);
+>>>>>>> 551c768c4 (.)
     }
 }

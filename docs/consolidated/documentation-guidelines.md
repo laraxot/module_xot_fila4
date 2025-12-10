@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
 # Linee Guida per la Documentazione in Laraxot
 
@@ -80,26 +83,6 @@ Ogni documento dovrebbe iniziare con:
 
 ```markdown
 <<<<<<< HEAD
-
-
-
-
-
-
-
-
-=======
->>>>>>> 1a525d0ea (.)
-# Titolo Principale
-
-Breve introduzione che spiega lo scopo del documento e il contesto.
-```
-
-### 3. Struttura delle Sezioni
-
-Utilizzare una gerarchia chiara di intestazioni:
-
-```markdown
 <<<<<<< HEAD
 
 
@@ -111,6 +94,34 @@ Utilizzare una gerarchia chiara di intestazioni:
 
 =======
 >>>>>>> 1a525d0ea (.)
+=======
+
+>>>>>>> 551c768c4 (.)
+# Titolo Principale
+
+Breve introduzione che spiega lo scopo del documento e il contesto.
+```
+
+### 3. Struttura delle Sezioni
+
+Utilizzare una gerarchia chiara di intestazioni:
+
+```markdown
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+=======
+>>>>>>> 1a525d0ea (.)
+=======
+
+>>>>>>> 551c768c4 (.)
 ## Sezione Principale
 
 Descrizione della sezione principale.
@@ -183,6 +194,7 @@ La documentazione dei modelli dovrebbe includere:
 Esempio:
 ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -193,6 +205,9 @@ Esempio:
 
 =======
 >>>>>>> 1a525d0ea (.)
+=======
+
+>>>>>>> 551c768c4 (.)
 ## NomeModello
 
 ```php
@@ -253,6 +268,7 @@ Utilizzare strumenti di generazione automatica quando possibile:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -263,6 +279,9 @@ Utilizzare strumenti di generazione automatica quando possibile:
 
 =======
 >>>>>>> 1a525d0ea (.)
+=======
+
+>>>>>>> 551c768c4 (.)
 # Esempio: Generare documentazione per lo schema del database
 php artisan xot:generate-db-documentation /path/to/schema.json /path/to/output
 ```
@@ -300,6 +319,7 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 
 ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -310,6 +330,9 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 
 =======
 >>>>>>> 1a525d0ea (.)
+=======
+
+>>>>>>> 551c768c4 (.)
 # Modelli del Modulo Brain
 
 Questo documento descrive i modelli disponibili nel modulo Brain, che rappresentano le entità del database braindb.
@@ -360,6 +383,7 @@ Per implementare queste linee guida:
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Documentazione Laravel](https://laravel.com/docs)
 - [Documentazione PHPDoc](https://docs.phpdoc.org/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -419,3 +443,7 @@ Per implementare queste linee guida:
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+=======
+>>>>>>> 551c768c4 (.)

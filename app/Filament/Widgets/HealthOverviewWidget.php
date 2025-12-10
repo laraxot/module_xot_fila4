@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
@@ -88,6 +89,11 @@ use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
+=======
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+use Spatie\Health\Enums\Status;
+>>>>>>> 551c768c4 (.)
 use Spatie\Health\ResultStores\ResultStore;
 
 class HealthOverviewWidget extends BaseWidget
@@ -109,6 +115,7 @@ class HealthOverviewWidget extends BaseWidget
 
         $checkResults = app(ResultStore::class)->latestResults();
         if ($checkResults === null) {
+<<<<<<< HEAD
         if (null === $checkResults) {
         if (null === $checkResults) {
         if (null === $checkResults) {
@@ -119,12 +126,15 @@ class HealthOverviewWidget extends BaseWidget
         if (null === $checkResults) {
         if (null === $checkResults) {
         if (null === $checkResults) {
+=======
+>>>>>>> 551c768c4 (.)
             return $stats;
         }
         foreach ($checkResults->storedCheckResults as $result) {
             $label = $result->label;
             $value = $result->shortSummary;
             $stats[] = Stat::make($label, $value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -463,6 +473,9 @@ class HealthOverviewWidget extends BaseWidget
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> 551c768c4 (.)
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }

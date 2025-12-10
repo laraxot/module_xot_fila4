@@ -11,15 +11,19 @@ use Modules\Xot\Models\Log;
 /**
  * @extends Factory<Log>
  */
+<<<<<<< HEAD
 /**
  * @extends Factory<Log>
  */
+=======
+>>>>>>> 551c768c4 (.)
 class LogFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var class-string<Log>
+<<<<<<< HEAD
      * @var class-string<Model>
      * @var class-string<Model>
      * @var class-string<Model>
@@ -31,6 +35,8 @@ class LogFactory extends Factory
      * @var class-string<Model>
      * @var class-string<Model>
      * @var class-string<Model>
+=======
+>>>>>>> 551c768c4 (.)
      */
     protected $model = Log::class;
 

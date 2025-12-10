@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model\Update;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,10 +23,13 @@ namespace Modules\Xot\Actions\Model\Update;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use InvalidArgumentException;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -62,6 +66,8 @@ use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Actions\Model\UpdateAction;
 use Modules\Xot\Datas\HasManyUpdateData;
 use Modules\Xot\Datas\RelationData;
@@ -173,11 +179,15 @@ class HasManyAction
     /**
      * Determine if the update is a direct update.
      *
+<<<<<<< HEAD
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
+=======
+     * @param  array<string, mixed>  $data
+>>>>>>> 551c768c4 (.)
      */
     private function isDirectUpdate(array $data): bool
     {
@@ -317,6 +327,7 @@ class HasManyAction
 
         foreach ($relationDTO->data as $item) {
             Assert::isArray($item);
+<<<<<<< HEAD
 <<<<<<< HEAD
             if (!isset($item[$keyName])) {
             if (!isset($item[$keyName])) {
@@ -588,6 +599,9 @@ class HasManyAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            if (! isset($item[$keyName])) {
+>>>>>>> 551c768c4 (.)
                 continue;
             }
 
@@ -666,11 +680,15 @@ class HasManyAction
     /**
      * Clean up orphaned records after batch update.
      *
+<<<<<<< HEAD
      * @param array<int|string> $updatedIds
      * @param array<int|string> $updatedIds
      * @param array<int|string> $updatedIds
      * @param array<int|string> $updatedIds
      * @param array<int|string> $updatedIds
+=======
+     * @param  array<int|string>  $updatedIds
+>>>>>>> 551c768c4 (.)
      */
     private function cleanupOrphanedRecords(
         RelationData $relationDTO,

@@ -42,6 +42,7 @@ namespace Filament\Resources\Pages;
 
 // namespace corretto nel modulo
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,6 +66,9 @@ namespace Modules\SaluteOra\Filament\Resources\Pages;
 namespace Modules\<nome progetto>\Filament\Resources\Pages;
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+namespace Modules\<nome progetto>\Filament\Resources\Pages;
+>>>>>>> 551c768c4 (.)
 ```
 
 ## metodi delle classi base
@@ -99,6 +103,7 @@ protected function getInfolistSchema(): array
 ## linkback
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,3 +136,7 @@ protected function getInfolistSchema(): array
 - [linee guida filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/docs/filament-resources.md)
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+- [errore override metodo final](/var/www/html/base_<nome progetto>/laravel/docs/errors/filament_final_method_override.md)
+- [linee guida filament](/var/www/html/base_<nome progetto>/laravel/Modules/<nome progetto>/docs/filament-resources.md)
+>>>>>>> 551c768c4 (.)

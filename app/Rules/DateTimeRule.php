@@ -17,6 +17,7 @@ use Exception;
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Carbon;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,6 +275,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * Class DateTimeRule.
@@ -312,6 +315,7 @@ class DateTimeRule implements Rule
             return false;
         }
 
+<<<<<<< HEAD
      * @param string $_attribute The attribute name being validated
      * @param mixed $value The value being validated
      */
@@ -628,6 +632,8 @@ class DateTimeRule implements Rule
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         $format = 'd/m/Y H:i';
         try {
             $value_new = Carbon::createFromFormat($format, $value);

@@ -48,6 +48,7 @@ describe('XotBaseModel Business Logic', function (): void {
 <<<<<<< HEAD
     test('xot base model can be instantiated', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('xot base model can be instantiated', function (): void {
         /* @phpstan-ignore-next-line new.abstract */
 =======
@@ -118,6 +119,9 @@ describe('XotBaseModel Business Logic', function (): void {
 =======
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
+=======
+        $model = new XotBaseModel;
+>>>>>>> 551c768c4 (.)
 
         expect($model)->toBeInstanceOf(XotBaseModel::class);
         expect($model)->toBeInstanceOf(Model::class);

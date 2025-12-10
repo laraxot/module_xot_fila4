@@ -21,3 +21,9 @@
 - mantenere l'uso delle Assert solo dove realmente necessario (niente assert ridondanti su variabili già tipizzate)
 
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 551c768c4 (.)

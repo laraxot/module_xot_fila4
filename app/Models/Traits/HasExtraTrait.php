@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models\Traits;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,15 +75,21 @@ use Exception;
 use Exception;
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\ExtraContract;
+<<<<<<< HEAD
 use Modules\Xot\Models\Extra;
 use Modules\Xot\Models\Extra;
 use Modules\Xot\Models\Extra;
 use Modules\Xot\Models\Extra;
 use Modules\Xot\Models\Extra;
+=======
+use Spatie\SchemalessAttributes\SchemalessAttributes;
+>>>>>>> 551c768c4 (.)
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
@@ -129,12 +136,16 @@ trait HasExtraTrait
         Assert::isAOf(
             $extra_class,
             Model::class,
+<<<<<<< HEAD
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
             '[' . __LINE__ . '][' . class_basename($this) . '][' . $extra_class . ']',
+=======
+            '['.__LINE__.']['.class_basename($this).']['.$extra_class.']',
+>>>>>>> 551c768c4 (.)
         );
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +231,7 @@ trait HasExtraTrait
         }
 
         return null;
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>|bool|int|string|null
      */
@@ -637,6 +649,8 @@ trait HasExtraTrait
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     }
 
     /**
@@ -658,6 +672,7 @@ trait HasExtraTrait
         }
 
         $attributes->set($name, $value);
+<<<<<<< HEAD
      * @return void
      */
     public function setExtra(string $name, $value)
@@ -725,6 +740,8 @@ trait HasExtraTrait
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
         $extra->extra_attributes->set($name, $value);
+=======
+>>>>>>> 551c768c4 (.)
         $extra->save();
     }
 }

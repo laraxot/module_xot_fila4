@@ -376,6 +376,7 @@ class ParsePrintPageStringAction
     /**
      * Execute the page string parsing.
      *
+<<<<<<< HEAD
      * @param string $str The page range string to parse
      *
      * @param string $str The page range string to parse
@@ -386,6 +387,9 @@ class ParsePrintPageStringAction
      *
      * @param string $str The page range string to parse
      *
+=======
+     * @param  string  $str  The page range string to parse
+>>>>>>> 551c768c4 (.)
      * @return array<int> Array of page numbers
      */
     public static function execute(string $str): array
@@ -399,6 +403,7 @@ class ParsePrintPageStringAction
         $res = [];
 
         for ($i = 0; $i < $matchCount; $i++) {
+<<<<<<< HEAD
         Assert::isArray($matches);
         Assert::notEmpty($matches[0], 'No valid page numbers found');
         Assert::isArray($matches[0]);
@@ -406,17 +411,23 @@ class ParsePrintPageStringAction
         $res = [];
 
         for ($i = 0; $i < $matchCount; ++$i) {
+=======
+>>>>>>> 551c768c4 (.)
             $firstNumber = Arr::get($matches, "1.{$i}");
             $secondNumber = Arr::get($matches, "2.{$i}");
 
             Assert::string($firstNumber, 'First number must be a string');
             Assert::string($secondNumber, 'Second number must be a string');
 
+<<<<<<< HEAD
             if ('' === $secondNumber) {
             if ('' === $secondNumber) {
             if ('' === $secondNumber) {
             if ('' === $secondNumber) {
             if ('' === $secondNumber) {
+=======
+            if ($secondNumber === '') {
+>>>>>>> 551c768c4 (.)
                 $res[] = (int) $firstNumber;
             } else {
 <<<<<<< HEAD
@@ -656,6 +667,7 @@ class ParsePrintPageStringAction
     /**
      * Generate an array of numbers from start to end inclusive.
      *
+<<<<<<< HEAD
      * @param int $from Starting number
      * @param int $to   Ending number
      *
@@ -671,6 +683,10 @@ class ParsePrintPageStringAction
      * @param int $from Starting number
      * @param int $to   Ending number
      *
+=======
+     * @param  int  $from  Starting number
+     * @param  int  $to  Ending number
+>>>>>>> 551c768c4 (.)
      * @return array<int> Array of sequential numbers
      */
     public static function fromTo(int $from, int $to): array

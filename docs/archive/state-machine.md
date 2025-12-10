@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
 # Regole Generali sulle State Machine
 
 ## Transizioni
@@ -21,6 +9,7 @@
 - Ogni errore e soluzione va documentato sia nella docs del modulo sia qui, con link bidirezionali.
 
 ## Collegamenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -205,52 +194,8 @@
 - [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
 >>>>>>> b7ea1cd1 (.)
 >>>>>>> ecd5ec32 (.)
-- [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
-- [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)
-=======
->>>>>>> cc7fb225 (.)
-=======
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> ba1d49f3 (.)
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> cc52d333 (.)
-=======
->>>>>>> 0123915b (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-- [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
-- [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
-- [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> b956ebe0 (.)
-=======
->>>>>>> cf971011 (.)
-- [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
 =======
 - [../../<nome progetto>/docs/state-machine.md](../../<nome progetto>/docs/state-machine.md)
-- [../../../docs/state-machine.md](../../../docs/state-machine.md)
->>>>>>> a5dccfe (.)
+>>>>>>> 551c768c4 (.)
 - [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
 - [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)
->>>>>>> 5bd842e3 (.)
-=======
-- [../../saluteora/docs/state-machine.md](../../saluteora/docs/state-machine.md)
-- [../../.windsurf/rules/filament-state-transitions.mdc](../../.windsurf/rules/filament-state-transitions.mdc)
-- [../../.cursor/rules/filament-state-transitions.mdc](../../.cursor/rules/filament-state-transitions.mdc)
->>>>>>> 03ceeac3 (.)

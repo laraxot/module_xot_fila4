@@ -37,6 +37,7 @@ class SearchEngineData extends Data
     public static function make(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new static();
         return new static();
         return new static();
@@ -307,5 +308,8 @@ class SearchEngineData extends Data
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        return new static;
+>>>>>>> 551c768c4 (.)
     }
 }

@@ -27,6 +27,7 @@ class GetViewBlocksOptionsByTypeAction
      * Ottiene le opzioni dei blocchi di vista per un determinato tipo.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +296,10 @@ class GetViewBlocksOptionsByTypeAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+     * @param  string  $type  Il tipo di blocco da cercare
+     * @param  bool  $img  Se includere i percorsi delle immagini invece dei nomi
+>>>>>>> 551c768c4 (.)
      * @return array<string, string> Array di opzioni con chiave = vista e valore = nome o percorso immagine
      */
     public function execute(string $type, bool $img = false): array
@@ -320,6 +325,7 @@ class GetViewBlocksOptionsByTypeAction
         $basePath = base_path('Modules');
         Assert::directory($basePath, 'Il percorso base dei moduli non esiste');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -389,6 +395,8 @@ class GetViewBlocksOptionsByTypeAction
             return []; // Ritorna un array vuoto se non ci sono file
         }
 
+=======
+>>>>>>> 551c768c4 (.)
         $globPattern = $basePath.'/*/resources/views/components/blocks/'.$type.'/*.blade.php';
         $files = File::glob($globPattern);
 
@@ -531,6 +539,7 @@ class GetViewBlocksOptionsByTypeAction
 
             // Estraiamo il nome del modulo dal percorso
             $modulePath = Str::of($pathStr)->between(
+<<<<<<< HEAD
                 DIRECTORY_SEPARATOR . 'Modules' . DIRECTORY_SEPARATOR,
                 DIRECTORY_SEPARATOR . 'resources' . DIRECTORY_SEPARATOR,
                 DIRECTORY_SEPARATOR . 'Modules' . DIRECTORY_SEPARATOR,
@@ -541,15 +550,23 @@ class GetViewBlocksOptionsByTypeAction
                 DIRECTORY_SEPARATOR . 'resources' . DIRECTORY_SEPARATOR,
                 DIRECTORY_SEPARATOR . 'Modules' . DIRECTORY_SEPARATOR,
                 DIRECTORY_SEPARATOR . 'resources' . DIRECTORY_SEPARATOR,
+=======
+                DIRECTORY_SEPARATOR.'Modules'.DIRECTORY_SEPARATOR,
+                DIRECTORY_SEPARATOR.'resources'.DIRECTORY_SEPARATOR,
+>>>>>>> 551c768c4 (.)
             );
 
             Assert::notEmpty($modulePath, 'Impossibile estrarre il nome del modulo dal percorso');
 
+<<<<<<< HEAD
             $module_low = is_string($modulePath) ? $modulePath : ((string) $modulePath->lower());
             $module_low = is_string($modulePath) ? $modulePath : ((string) $modulePath->lower());
             $module_low = is_string($modulePath) ? $modulePath : ((string) $modulePath->lower());
             $module_low = is_string($modulePath) ? $modulePath : ((string) $modulePath->lower());
             $module_low = is_string($modulePath) ? $modulePath : ((string) $modulePath->lower());
+=======
+            $module_low = is_string($modulePath) ? $modulePath : (string) $modulePath->lower();
+>>>>>>> 551c768c4 (.)
             Assert::stringNotEmpty($module_low, 'Il nome del modulo in minuscolo non può essere vuoto');
 
             // Estraiamo il nome del file
@@ -561,6 +578,7 @@ class GetViewBlocksOptionsByTypeAction
             Assert::stringNotEmpty($name, 'Il nome del componente non può essere vuoto');
 
             // Costruiamo il nome della vista
+<<<<<<< HEAD
             $view = $module_low . '::components.blocks.' . $type . '.' . $name;
             Assert::stringNotEmpty($view, 'Il nome della vista non può essere vuoto');
             $view = $module_low . '::components.blocks.' . $type . '.' . $name;
@@ -571,17 +589,25 @@ class GetViewBlocksOptionsByTypeAction
             Assert::stringNotEmpty($view, 'Il nome della vista non può essere vuoto');
             $view = $module_low . '::components.blocks.' . $type . '.' . $name;
             Assert::stringNotEmpty($view, 'Il nome della vista non può essere vuoto');
+=======
+            $view = $module_low.'::components.blocks.'.$type.'.'.$name;
+            // $view è sempre stringa non vuota perché costruita da stringhe non vuote
+>>>>>>> 551c768c4 (.)
 
             if ($img) {
                 // Se è richiesto il percorso dell'immagine, lo costruiamo
                 $assetAction = app(AssetAction::class);
                 Assert::isCallable([$assetAction, 'execute'], 'AssetAction::execute deve essere chiamabile');
 
+<<<<<<< HEAD
                 $imgPath = $module_low . '::img/screenshots/' . $name . '.png';
                 $imgPath = $module_low . '::img/screenshots/' . $name . '.png';
                 $imgPath = $module_low . '::img/screenshots/' . $name . '.png';
                 $imgPath = $module_low . '::img/screenshots/' . $name . '.png';
                 $imgPath = $module_low . '::img/screenshots/' . $name . '.png';
+=======
+                $imgPath = $module_low.'::img/screenshots/'.$name.'.png';
+>>>>>>> 551c768c4 (.)
                 $img_path = $assetAction->execute($imgPath);
                 Assert::stringNotEmpty($img_path, 'Il percorso dell\'immagine non può essere vuoto');
 

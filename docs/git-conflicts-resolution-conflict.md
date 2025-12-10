@@ -4,9 +4,16 @@
 
 ## Contesto
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> 92bc33604 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)
 
 ## File Corretti
 
@@ -95,6 +102,10 @@ $res=Locality::query()
 
 ## Verifiche Post-Correzione
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 
 ### 2. Validazione PHPStan
 ```bash
@@ -203,6 +214,17 @@ php artisan lang:check
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Stato**: ✅ Completato
 >>>>>>> 92bc33604 (.)
+=======
+**Stato**: ✅ Completato
+=======
+**Stato**: ✅ Completato
+=======
+### 1. Controllo Conflitti
+```bash
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
+>>>>>>> 551c768c4 (.)

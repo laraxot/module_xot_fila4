@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Console\Commands;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +150,8 @@ namespace Modules\Xot\Console\Commands;
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Exception;
 <<<<<<< HEAD
 use Illuminate\Console\Command;
@@ -173,6 +176,7 @@ use Webmozart\Assert\Assert;
 >>>>>>> d2b0a27 (.)
 
 use function Safe\file_get_contents;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Exception;
 <<<<<<< HEAD
@@ -297,6 +301,8 @@ use function Safe\file_get_contents;
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> 551c768c4 (.)
 
 class ExecuteSqlFileCommand extends Command
 {
@@ -317,9 +323,11 @@ class ExecuteSqlFileCommand extends Command
     /**
      * Execute the console command.
      */
+    public function handle(): int
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');
+<<<<<<< HEAD
 <<<<<<< HEAD
         Assert::string($filePath, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         if (! file_exists($filePath)) {
@@ -879,6 +887,10 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        Assert::string($filePath, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        if (! file_exists($filePath)) {
+>>>>>>> 551c768c4 (.)
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -915,6 +927,7 @@ class ExecuteSqlFileCommand extends Command
         } catch (Exception $e) {
 <<<<<<< HEAD
             $this->error("Errore durante l'esecuzione del file: ".$e->getMessage());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1181,6 +1194,8 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
             return Command::FAILURE;
         } finally {

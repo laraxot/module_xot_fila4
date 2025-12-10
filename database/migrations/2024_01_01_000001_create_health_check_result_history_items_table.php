@@ -7,6 +7,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 use Modules\Xot\Models\HealthCheckResultHistoryItem;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 return new class extends XotBaseMigration
 {
     protected ?string $model_class = HealthCheckResultHistoryItem::class;
@@ -58,6 +61,7 @@ return new class extends XotBaseMigration {
 
     /**
      * Run the migrations.
+<<<<<<< HEAD
 return new class extends XotBaseMigration {
     protected null|string $model_class = HealthCheckResultHistoryItem::class;
 <<<<<<< HEAD
@@ -106,6 +110,8 @@ return new class extends XotBaseMigration {
      * Run the migrations.
      *
      * @return void
+=======
+>>>>>>> 551c768c4 (.)
      */
     public function up(): void
     {

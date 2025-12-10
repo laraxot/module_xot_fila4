@@ -6,12 +6,15 @@ namespace Modules\Xot\Filament\Traits;
 
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
+<<<<<<< HEAD
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
 use Illuminate\Support\Str;
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\Xot\Actions\File\SvgExistsAction;
 use Webmozart\Assert\Assert;
+=======
+>>>>>>> 551c768c4 (.)
 
 trait NavigationLabelTrait
 {
@@ -199,6 +202,7 @@ trait NavigationLabelTrait
         return static::transFunc(__FUNCTION__);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -537,11 +541,15 @@ trait NavigationLabelTrait
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public static function getNavigationSort(): ?int
+>>>>>>> 551c768c4 (.)
     {
         $res = static::transFunc(__FUNCTION__);
 
         $value = intval($res);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -887,6 +895,9 @@ trait NavigationLabelTrait
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if ($value === 0) {
+>>>>>>> 551c768c4 (.)
             $key = static::getKeyTransFunc(__FUNCTION__);
             $value = rand(1, 100);
             app(SaveTransAction::class)->execute($key, $value);

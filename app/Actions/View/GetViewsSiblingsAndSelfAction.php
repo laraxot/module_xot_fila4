@@ -30,6 +30,7 @@ class GetViewsSiblingsAndSelfAction
         $views = [];
         foreach ($files as $file) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
@@ -300,6 +301,9 @@ class GetViewsSiblingsAndSelfAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 551c768c4 (.)
                 continue;
             }
 

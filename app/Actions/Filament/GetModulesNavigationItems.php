@@ -20,6 +20,7 @@ use function Safe\json_encode;
 
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 use Exception;
 use Exception;
 use Exception;
@@ -39,6 +40,8 @@ use Modules\Tenant\Services\TenantService;
 use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use function Safe\json_encode;
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * Classe per gestire gli elementi di navigazione per i moduli.
@@ -62,6 +65,7 @@ class GetModulesNavigationItems
 
         $modules = TenantService::allModules();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +73,8 @@ class GetModulesNavigationItems
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         // TenantService::allModules() restituisce sempre array
         // Pre-load user roles to avoid N+1 queries
         /** @var Authenticatable|null $user */
@@ -82,6 +88,7 @@ class GetModulesNavigationItems
                 $rolesCollection = $user->roles()->pluck('name');
                 $userRoles = $rolesCollection->toArray();
             } catch (Exception $e) {
+<<<<<<< HEAD
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
         Assert::isArray($modules);
         Assert::isArray($modules, 'TenantService::allModules() deve restituire un array');
@@ -103,10 +110,13 @@ class GetModulesNavigationItems
                 $userRoles = $user->roles()->pluck('name')->toArray();
             } catch (Exception $e) {
                 
+=======
+>>>>>>> 551c768c4 (.)
                 $userRoles = [];
             }
         }
 
+<<<<<<< HEAD
         
        
         
@@ -117,6 +127,8 @@ class GetModulesNavigationItems
        
         
        
+=======
+>>>>>>> 551c768c4 (.)
         foreach ($modules as $module) {
             Assert::string($module, 'Il nome del modulo deve essere una stringa');
 
@@ -134,12 +146,15 @@ class GetModulesNavigationItems
 
             // Verifichiamo che il file esista
             if (! File::exists($configFilePath)) {
+<<<<<<< HEAD
             $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
             $configFilePath = $configPath . '/config.php';
 
             // Verifichiamo che il file esista
             if (!File::exists($configFilePath)) {
               
+=======
+>>>>>>> 551c768c4 (.)
                 continue;
             }
 
@@ -201,6 +216,7 @@ class GetModulesNavigationItems
             $icon = $config['icon'] ?? 'heroicon-o-question-mark-circle';
             Assert::string($icon, "L'icona deve essere una stringa");
 
+<<<<<<< HEAD
             $role = $module_low . '::admin';
             Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
             $role = $module_low . '::admin';
@@ -211,6 +227,10 @@ class GetModulesNavigationItems
             Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
             $role = $module_low . '::admin';
             Assert::stringNotEmpty($role, 'Il ruolo non può essere vuoto');
+=======
+            // $role è sempre stringa non vuota (concatenazione di stringhe non vuote), check ridondante rimosso
+            $role = $module_low.'::admin';
+>>>>>>> 551c768c4 (.)
 
             $navigation_sort = $config['navigation_sort'] ?? 1;
             Assert::integerish($navigation_sort, 'navigation_sort deve essere un intero');
@@ -236,6 +256,7 @@ class GetModulesNavigationItems
             // Creiamo l'elemento di navigazione
             $nav = NavigationItem::make($module)
                 ->url('/'.$module_low.'/admin')
+<<<<<<< HEAD
            /*
             $hasRole = in_array($role, $userRoles, true);
 
@@ -255,21 +276,37 @@ class GetModulesNavigationItems
             // Creiamo l'elemento di navigazione
             $nav = NavigationItem::make($module)
                 ->url('/' . $module_low . '/admin')
+=======
+>>>>>>> 551c768c4 (.)
                 ->icon($icon)
                 ->group('Modules')
                 ->sort($navigation_sort)
                 ->visible(static function () use ($role): bool {
+<<<<<<< HEAD
+=======
+                    /**
+                     * @var Authenticatable|null $user
+                     */
+>>>>>>> 551c768c4 (.)
                     $user = Filament::auth()->user();
                     if (null === $user) {
                         return false;
                     }
 
                     // Verifichiamo che il metodo hasRole esista
+<<<<<<< HEAD
                     if (!method_exists($user, 'hasRole')) {
                         return false;
                     }
 
                     return (bool) $user->hasRole($role);
+=======
+                    if (! method_exists($user, 'hasRole')) {
+                        return false;
+                    }
+
+                    return $user->hasRole($role);
+>>>>>>> 551c768c4 (.)
                 });
                 continue;
             }
@@ -376,23 +413,12 @@ class GetModulesNavigationItems
         $modules = TenantService::allModules();
         // TenantService::allModules() restituisce sempre array
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         $cacheKey = 'xot:navigation:modules:'.md5((string) json_encode($modules));
-=======
-<<<<<<< HEAD
-        $cacheKey = 'xot:navigation:modules:'.md5(json_encode($modules));
-=======
-        $cacheKey = 'xot:navigation:modules:'.md5((string) json_encode($modules));
->>>>>>> 8cf76e7 (.)
->>>>>>> 0ae90b17 (.)
-=======
-        $cacheKey = 'xot:navigation:modules:'.md5((string) json_encode($modules));
->>>>>>> 28fc70fe (.)
 
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $cached */
         $cached = Cache::get($cacheKey);
         if (\is_array($cached)) {
+<<<<<<< HEAD
         Assert::isArray($modules);
 
         $cacheKey = 'xot:navigation:modules:' . md5(json_encode($modules));
@@ -400,10 +426,13 @@ class GetModulesNavigationItems
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $cached */
         $cached = Cache::get($cacheKey);
         if (is_array($cached)) {
+=======
+>>>>>>> 551c768c4 (.)
             return $cached;
         }
 
         // Se non presente in cache, rigenera usando la stessa logica di execute()
+<<<<<<< HEAD
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
         $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
@@ -414,12 +443,17 @@ class GetModulesNavigationItems
         $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
         /** @var array<int, array{module:string,module_low:string,icon:string,sort:int}> $regen */
         $regen = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($modules): array {
+=======
+        /** @var array<int, array{module: string, module_low: string, icon: string, sort: int}> $result */
+        $result = Cache::remember($cacheKey, now()->addMinutes(10), static function () use ($modules): array {
+>>>>>>> 551c768c4 (.)
             $out = [];
             foreach ($modules as $module) {
                 Assert::string($module, 'Il nome del modulo deve essere una stringa');
                 $module_low = Str::lower($module);
                 Assert::stringNotEmpty($module_low, 'Il nome del modulo convertito in minuscolo non può essere vuoto');
                 $configPath = app(GetModulePathByGeneratorAction::class)->execute($module, 'config');
+<<<<<<< HEAD
                 $configFilePath = $configPath . '/config.php';
                 if (!File::exists($configFilePath)) {
                 $configFilePath = $configPath . '/config.php';
@@ -430,6 +464,10 @@ class GetModulesNavigationItems
                 if (!File::exists($configFilePath)) {
                 $configFilePath = $configPath . '/config.php';
                 if (!File::exists($configFilePath)) {
+=======
+                $configFilePath = $configPath.'/config.php';
+                if (! File::exists($configFilePath)) {
+>>>>>>> 551c768c4 (.)
                     continue;
                 }
                 try {
@@ -453,9 +491,12 @@ class GetModulesNavigationItems
         });
 
         return $result;
+<<<<<<< HEAD
             return $out;
         });
 
         return $regen;
+=======
+>>>>>>> 551c768c4 (.)
     }
 }

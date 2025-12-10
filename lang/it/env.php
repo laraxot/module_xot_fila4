@@ -100,6 +100,7 @@
 >>>>>>> 851793957 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 
 
@@ -116,6 +117,8 @@ declare(strict_types=1);
 
 
 
+=======
+>>>>>>> 551c768c4 (.)
 return [
     'navigation' => [
         'name' => 'Ambiente',
@@ -197,7 +200,10 @@ return [
             'description' => 'google_maps_api_key',
             'helper_text' => 'google_maps_api_key',
             'placeholder' => 'google_maps_api_key',
+<<<<<<< HEAD
             'placeholder' => 'google_maps_api_key',
+=======
+>>>>>>> 551c768c4 (.)
         ],
     ],
     'actions' => [

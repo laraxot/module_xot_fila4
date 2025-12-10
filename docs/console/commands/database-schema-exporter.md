@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # DatabaseSchemaExporter Command Documentation
 
 ## Overview
@@ -72,61 +75,10 @@ Tabelle trovate: users, migrations, password_resets
 - Ottimizzata la query di estrazione tabelle 
 
 ## Collegamenti tra versioni di database-schema-exporter.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> cafe8bed (.)
-=======
->>>>>>> a62d7646 (.)
-=======
->>>>>>> d79d36e0 (.)
-=======
->>>>>>> 5cd593a5 (.)
-=======
->>>>>>> 099ab7a0 (.)
-=======
->>>>>>> 96276392 (.)
-=======
->>>>>>> 3baa48bd (.)
-=======
->>>>>>> 6d1255a8 (.)
-=======
->>>>>>> 3ae5e299 (.)
-=======
->>>>>>> 5b07d268 (.)
-=======
->>>>>>> 44948f13 (.)
-=======
->>>>>>> 0ae90b17 (.)
-=======
->>>>>>> 28fc70fe (.)
 * [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 * [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
@@ -229,3 +181,6 @@ Tabelle trovate: users, migrations, password_resets
 
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

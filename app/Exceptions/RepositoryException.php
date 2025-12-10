@@ -9,6 +9,7 @@ use Exception;
 /**
  * Class RepositoryException.
  */
+<<<<<<< HEAD
 {
 }
 class RepositoryException extends Exception
@@ -26,3 +27,6 @@ class RepositoryException extends Exception
 class RepositoryException extends Exception
 {
 }
+=======
+class RepositoryException extends Exception {}
+>>>>>>> 551c768c4 (.)

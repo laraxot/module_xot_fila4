@@ -48,6 +48,7 @@ class BelongsToManyAction
             $rows->sync($to);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -353,6 +354,9 @@ class BelongsToManyAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            $status = 'collegati ['.implode(', ', $to).'] ';
+>>>>>>> 551c768c4 (.)
             Session::flash('status', $status);
 
             return;

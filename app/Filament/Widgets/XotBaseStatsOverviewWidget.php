@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
 use Filament\Actions\Action;
 use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
@@ -185,6 +186,9 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+=======
+use Filament\Widgets\StatsOverviewWidget as FilamentStatsOverviewWidget;
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Filament\Traits\TransTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,6 +225,7 @@ use Filament\Actions\Action;
  *
  * Fornisce funzionalità comuni per tutti i widget di statistiche overview.
  * Estende Filament\Widgets\StatsOverviewWidget e aggiunge funzionalità specifiche del progetto.
+<<<<<<< HEAD
  *
  * @package Modules\Xot\Filament\Widgets
  *
@@ -239,6 +244,8 @@ use Filament\Actions\Action;
  * @package Modules\Xot\Filament\Widgets
  *
  * @package Modules\Xot\Filament\Widgets
+=======
+>>>>>>> 551c768c4 (.)
  */
 abstract class XotBaseStatsOverviewWidget extends FilamentStatsOverviewWidget
 {

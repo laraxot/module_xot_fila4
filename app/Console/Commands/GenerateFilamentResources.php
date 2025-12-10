@@ -23,8 +23,11 @@ class GenerateFilamentResources extends Command
         $moduleName = $this->argument('module');
 
         // Assicuriamoci che $moduleName sia una stringa
+<<<<<<< HEAD
 
         // Assicuriamoci che $moduleName sia una stringa
+=======
+>>>>>>> 551c768c4 (.)
         if (! is_string($moduleName)) {
             $this->error('Il nome del modulo deve essere una stringa.');
 
@@ -34,6 +37,7 @@ class GenerateFilamentResources extends Command
         $module = Module::find($moduleName);
 
         if (! $module) {
+<<<<<<< HEAD
         if (!$module) {
         
 
@@ -82,6 +86,8 @@ class GenerateFilamentResources extends Command
         if (!$module) {
         if (!$module) {
         if (!$module) {
+=======
+>>>>>>> 551c768c4 (.)
             $this->error("Il modulo '{$moduleName}' non esiste.");
 
             return Command::FAILURE;
@@ -91,6 +97,7 @@ class GenerateFilamentResources extends Command
 
         $modelsPath = $module->getPath().'/app/Models';
         if (! File::isDirectory($modelsPath)) {
+<<<<<<< HEAD
         $modelsPath = $module->getPath() . '/app/Models';
         if (!File::isDirectory($modelsPath)) {
         $modelsPath = $module->getPath() . '/app/Models';
@@ -217,6 +224,8 @@ class GenerateFilamentResources extends Command
         if (!File::isDirectory($modelsPath)) {
         $modelsPath = $module->getPath() . '/app/Models';
         if (!File::isDirectory($modelsPath)) {
+=======
+>>>>>>> 551c768c4 (.)
             $this->error("Nessuna cartella 'Models' trovata nel modulo {$moduleName}.");
 
             return Command::FAILURE;
@@ -231,6 +240,7 @@ class GenerateFilamentResources extends Command
             $panel = $panelName.'::admin';
             $params = [
                 $modelName, // Resource name as positional argument
+<<<<<<< HEAD
             $panel = $panelName . '::admin';
             $params = [
                 'name' => $modelName,
@@ -270,6 +280,8 @@ class GenerateFilamentResources extends Command
             $panel = $panelName . '::admin';
             $params = [
                 'name' => $modelName,
+=======
+>>>>>>> 551c768c4 (.)
                 '--panel' => $panel,
                 '--model-namespace' => "Modules\\{$moduleName}\\Models",
                 '--generate' => true,

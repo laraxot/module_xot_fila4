@@ -41,6 +41,7 @@ class MorphToManyAction
     /**
      * Execute the action to update morphToMany relationships.
      *
+<<<<<<< HEAD
      * @param Model       $row         The model instance to update
      * @param RelationDTO $relationDTO Data transfer object containing relation information
      * @param Model       $row         The model instance to update
@@ -51,6 +52,10 @@ class MorphToManyAction
      * @param RelationDTO $relationDTO Data transfer object containing relation information
      * @param Model       $row         The model instance to update
      * @param RelationDTO $relationDTO Data transfer object containing relation information
+=======
+     * @param  Model  $row  The model instance to update
+     * @param  RelationDTO  $relationDTO  Data transfer object containing relation information
+>>>>>>> 551c768c4 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +82,7 @@ class MorphToManyAction
         $model = $row;
 
         if (\in_array('to', array_keys($data), false) || \in_array('from', array_keys($data), false)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
@@ -348,11 +354,15 @@ class MorphToManyAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            if (! isset($data['to'])) {
+>>>>>>> 551c768c4 (.)
                 $data['to'] = [];
             }
             $data = $data['to'];
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -405,11 +415,14 @@ class MorphToManyAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         if (! \is_array($data)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
 
         if (! Arr::isAssoc($data)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -762,6 +775,8 @@ class MorphToManyAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
             $relation->sync($data);
 
             return;
@@ -769,6 +784,7 @@ class MorphToManyAction
 
         foreach ($data as $k => $v) {
             if (\is_array($v)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 if (!isset($v['pivot'])) {
                 if (!isset($v['pivot'])) {
@@ -1040,6 +1056,9 @@ class MorphToManyAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> 551c768c4 (.)
                     $v['pivot'] = [];
                 }
 

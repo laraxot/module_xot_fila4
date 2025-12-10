@@ -6,17 +6,21 @@ namespace Modules\Xot\Models;
 
 use Modules\Xot\Database\Factories\CacheFactory;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * Modules\Xot\Models\Cache.
  *
  * @property string $key
  * @property string $value
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -99,6 +103,8 @@ use Modules\Xot\Contracts\ProfileContract;
 /**
  * @property string $key
  * @property string $value
+=======
+>>>>>>> 551c768c4 (.)
  * @property int $expiration
 <<<<<<< HEAD
 =======
@@ -115,6 +121,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Cache whereValue($value)
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperCache
  * @mixin IdeHelperCache
  * @mixin IdeHelperCache
@@ -122,6 +129,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
  * @mixin \Eloquent
  */
 class Cache extends BaseModel

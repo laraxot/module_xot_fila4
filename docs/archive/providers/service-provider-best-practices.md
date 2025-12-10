@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Best Practices nei Service Provider
 
 ## Decisione Architetturale (2025-05-13)
@@ -53,6 +56,7 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 
 ## Backlink
 - [Torna a README.md del modulo Xot](../README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Collegamento a docs/links.md della root](../../../../project_docs/links.md)
 
@@ -287,6 +291,11 @@ Il provider `XotBaseServiceProvider` rappresenta la base architetturale per tutt
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+- [Collegamento a docs/links.md della root](../../../../docs/links.md)
+
+=======
+>>>>>>> 551c768c4 (.)
 ## Utilizzo di GetModulePathByGeneratorAction
 
 ### Panoramica
@@ -423,6 +432,7 @@ L'utilizzo di `GetModulePathByGeneratorAction` anziché chiamate dirette a `modu
 
 Si raccomanda di seguire questo pattern in tutti i service provider personalizzati per garantire coerenza e affidabilità nell'accesso ai percorsi dei moduli. 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481,3 +491,7 @@ Si raccomanda di seguire questo pattern in tutti i service provider personalizza
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+=======
+>>>>>>> 551c768c4 (.)

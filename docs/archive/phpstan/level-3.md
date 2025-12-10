@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +245,11 @@
 
 >>>>>>> 9e42a036 (.)
 >>>>>>> 80bc07e81 (.)
+=======
+
+
+
+>>>>>>> 551c768c4 (.)
 # Rapporto PHPStan Livello 3 per il modulo Xot
 
 Data analisi: 2025-04-15 21:53:24
@@ -255,6 +261,7 @@ Trovati 4 errori al livello 3.
 ## Errori e suggerimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -466,6 +473,11 @@ Trovati 4 errori al livello 3.
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 >>>>>>> 9e42a036 (.)
 >>>>>>> 80bc07e81 (.)
+=======
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> 551c768c4 (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -484,6 +496,7 @@ Trovati 4 errori al livello 3.
 - I nomi di metodi e proprietà siano corretti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -695,6 +708,11 @@ Trovati 4 errori al livello 3.
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 >>>>>>> 9e42a036 (.)
 >>>>>>> 80bc07e81 (.)
+=======
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> 551c768c4 (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 
@@ -723,6 +741,7 @@ aurmich/dev
 
 ## Collegamenti tra versioni di level_3.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -752,6 +771,8 @@ aurmich/dev
 =======
 >>>>>>> 9e42a036 (.)
 >>>>>>> 80bc07e81 (.)
+=======
+>>>>>>> 551c768c4 (.)
 * [level_3.md](laravel/Modules/Chart/docs/phpstan/level_3.md)
 * [level_3.md](laravel/Modules/Reporting/docs/phpstan/level_3.md)
 * [level_3.md](laravel/Modules/Gdpr/docs/phpstan/level_3.md)
@@ -767,6 +788,7 @@ aurmich/dev
 * [level_3.md](laravel/Modules/Activity/docs/phpstan/level_3.md)
 * [level_3.md](laravel/Modules/Patient/docs/phpstan/level_3.md)
 * [level_3.md](laravel/Modules/Cms/docs/phpstan/level_3.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1024,3 +1046,6 @@ aurmich/dev
 
 >>>>>>> 9e42a036 (.)
 >>>>>>> 80bc07e81 (.)
+=======
+
+>>>>>>> 551c768c4 (.)

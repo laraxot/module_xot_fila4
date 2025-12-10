@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Linee Guida per i Database in Laraxot
 
 Questo documento definisce le best practices per la gestione dei database nel framework Laraxot, inclusa la documentazione, la creazione di modelli e le migrazioni.
@@ -288,6 +291,7 @@ return new class extends XotBaseMigration {
 
 **Collegamenti:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,103 +510,12 @@ return new class extends XotBaseMigration {
 >>>>>>> 6cba4fe (.)
 >>>>>>> 88e35986 (.)
 >>>>>>> 2bad128c (.)
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
 =======
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
->>>>>>> d79d36e0 (.)
-=======
->>>>>>> 0ae90b17 (.)
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
-=======
->>>>>>> f1d4085 (.)
-=======
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
-<<<<<<< HEAD
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
->>>>>>> 6dcebf8a (.)
-=======
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
->>>>>>> b3cc10f7 (.)
-=======
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
->>>>>>> 1c4bb8cf (.)
-=======
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
->>>>>>> cafe8bed (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
 - [Regola Performance](../../Performance/project_docs/database_migrations.md)
 - [Regole globali root](../../../project_docs/database_migrations.md)
-=======
->>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
 - [Regola Performance](../../Performance/docs/database_migrations.md)
 - [Regole globali root](../../../docs/database_migrations.md)
->>>>>>> 5bd842e3 (.)
-=======
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
->>>>>>> d79d36e0 (.)
-=======
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
->>>>>>> 5cd593a5 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
-- [Regola Performance](../../Performance/project_docs/database_migrations.md)
-- [Regole globali root](../../../project_docs/database_migrations.md)
-=======
->>>>>>> 6cba4fe (.)
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
->>>>>>> 03ceeac3 (.)
-=======
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 44948f13 (.)
-=======
->>>>>>> 8cf76e7 (.)
->>>>>>> 0ae90b17 (.)
-=======
-- [Regola Performance](../../Performance/docs/database_migrations.md)
-- [Regole globali root](../../../docs/database_migrations.md)
->>>>>>> 28fc70fe (.)
 
     /**
      * Ottiene la sezione associata al socio.
@@ -821,6 +734,7 @@ php artisan db:analyze-usage --connection=nome_connessione
 - Controllare che i tipi di dati siano ottimali per l'uso previsto
 - Utilizzare query builder o raw queries per query complesse
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,3 +787,6 @@ php artisan db:analyze-usage --connection=nome_connessione
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

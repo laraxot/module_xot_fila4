@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42,6 +43,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 =======
 # Struttura dei percorsi nel progetto 
 
@@ -78,6 +81,7 @@ Tutti i percorsi assoluti DEVONO includere il segmento `laravel/` subito dopo la
 ├── docs/                 # Documentazione generale
 └── laravel/              # ⭐ Applicazione Laravel
     ├── app/
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -2724,12 +2728,15 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
     │   ├── Console/
     │   ├── Exceptions/
     │   ├── Http/
     │   ├── Models/
     │   ├── Providers/
     │   └── View/
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2750,6 +2757,8 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 >>>>>>> 88ee35c4e (.)
 =======
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
     ├── bootstrap/
     ├── config/
     ├── database/
@@ -2767,6 +2776,7 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
     ├── storage/
     ├── themes/
     └── vendor/
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -3002,6 +3012,8 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 ```
 
 ## Importanza della regola
@@ -3021,6 +3033,7 @@ Prima di ogni commit, eseguire questi comandi per verificare la presenza di perc
 ```bash
 
 # Verifica percorsi errati
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3204,10 +3217,13 @@ Prima di ogni commit, eseguire questi comandi per verificare la presenza di perc
 =======
 >>>>>>> e7da37af (.)
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> 551c768c4 (.)
 grep -r "/var/www/html/base_techplanner_fila3_mono/app" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
 grep -r "/var/www/html/base_techplanner_fila3_mono/Modules" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
 grep -r "/var/www/html/base_techplanner_fila3_mono/Themes" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
 grep -r "/var/www/html/base_techplanner_fila3_mono/resources" --include="*.php" /var/www/html/base_techplanner_fila3_mono/laravel
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3286,10 +3302,13 @@ grep -r "/var/www/html/base_techplanner_fila3_mono/resources" --include="*.php" 
 =======
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
 grep -r "/var/www/html/base_<nome progetto>/app" --include="*.php" /var/www/html/base_<nome progetto>/laravel
 grep -r "/var/www/html/base_<nome progetto>/Modules" --include="*.php" /var/www/html/base_<nome progetto>/laravel
 grep -r "/var/www/html/base_<nome progetto>/Themes" --include="*.php" /var/www/html/base_<nome progetto>/laravel
 grep -r "/var/www/html/base_<nome progetto>/resources" --include="*.php" /var/www/html/base_<nome progetto>/laravel
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3581,6 +3600,8 @@ grep -r "/var/www/_bases/base_ptv_fila3_mono/resources" --include="*.php" /var/w
 =======
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
 ```
 
 ## Correzzione automatica (opzionale)
@@ -3590,6 +3611,7 @@ Se si trovano percorsi errati, è possibile correggerli automaticamente con:
 ```bash
 
 # Correzione automatica (uso con cautela)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3778,6 +3800,8 @@ find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed 
 =======
 >>>>>>> e7da37af (.)
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> 551c768c4 (.)
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/app|/var/www/html/base_techplanner_fila3_mono/laravel/app|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Modules|/var/www/html/base_techplanner_fila3_mono/laravel/Modules|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Themes|/var/www/html/base_techplanner_fila3_mono/laravel/Themes|g' {} \;
@@ -3787,6 +3811,7 @@ find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed 
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/app|/var/www/html/base_techplanner_fila3_mono/laravel/app|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Modules|/var/www/html/base_techplanner_fila3_mono/laravel/Modules|g' {} \;
 find /var/www/html/base_techplanner_fila3_mono/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_techplanner_fila3_mono/Themes|/var/www/html/base_techplanner_fila3_mono/laravel/Themes|g' {} \;
+<<<<<<< HEAD
 <<<<<<< HEAD
 find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_saluteora/app|/var/www/html/base_saluteora/laravel/app|g' {} \;
 find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_saluteora/Modules|/var/www/html/base_saluteora/laravel/Modules|g' {} \;
@@ -4096,10 +4121,13 @@ find /var/www/_bases/base_ptv_fila3_mono/laravel -type f -name "*.php" -exec sed
 =======
 >>>>>>> e7da37af (.)
 >>>>>>> 7e4835b8e (.)
+=======
+>>>>>>> 551c768c4 (.)
 ```
 
 ## Riferimenti correlati
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -4258,6 +4286,11 @@ find /var/www/_bases/base_ptv_fila3_mono/laravel -type f -name "*.php" -exec sed
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 851793957 (.)
+=======
+- [Struttura del progetto](../Xot/docs/architecture/struttura-progetto.md)
+- [Regole di namespace](../Xot/docs/standards/namespace-conventions.md)
+- [Autoloading](../Xot/docs/standards/psr4-compliance.md)
+>>>>>>> 551c768c4 (.)
 - [Struttura del progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/architecture/struttura-progetto.md)
 - [Regole di namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/standards/namespace-conventions.md)
 - [Autoloading](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/standards/psr4-compliance.md)
@@ -4267,6 +4300,7 @@ find /var/www/_bases/base_ptv_fila3_mono/laravel -type f -name "*.php" -exec sed
 - [Struttura del progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/architecture/struttura-progetto.md)
 - [Regole di namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
 - [Autoloading](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/psr4-compliance.md)
+<<<<<<< HEAD
 - [Struttura del progetto](../Xot/docs/architecture/struttura-progetto.md)
 - [Regole di namespace](../Xot/docs/standards/namespace-conventions.md)
 - [Autoloading](../Xot/docs/standards/psr4-compliance.md)
@@ -4702,3 +4736,8 @@ find /var/www/_bases/base_ptv_fila3_mono/laravel -type f -name "*.php" -exec sed
 =======
 >>>>>>> e7da37af (.)
 >>>>>>> 7e4835b8e (.)
+=======
+=======
+=======
+=======
+>>>>>>> 551c768c4 (.)

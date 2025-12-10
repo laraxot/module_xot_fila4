@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions;
 
 use Filament\Actions\Action as FilamentAction;
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\Action;
 use Filament\Actions\Action;
@@ -19,6 +20,8 @@ use Filament\Actions\Action as FilamentAction;
 use Filament\Actions\Action;
 use Filament\Actions\Action as FilamentAction;
 use Filament\Actions\Action;
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -28,6 +31,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @method static static make(?string $name = null) Create a new instance of the action
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -117,3 +121,6 @@ abstract class XotBaseAction extends Action {}
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+abstract class XotBaseAction extends FilamentAction {}
+>>>>>>> 551c768c4 (.)

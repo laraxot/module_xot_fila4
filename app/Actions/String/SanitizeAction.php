@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\String;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,10 +319,15 @@ class SanitizeAction
 
 
 
+=======
+class SanitizeAction
+{
+>>>>>>> 551c768c4 (.)
     public function execute(string $str): string
     {
         $str = strip_tags($str);
         $str = html_entity_decode($str);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -783,6 +789,10 @@ class SanitizeAction
         }
 
         return $str;
+=======
+
+        return trim($str);
+>>>>>>> 551c768c4 (.)
     }
 }
 

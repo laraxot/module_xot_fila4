@@ -40,6 +40,7 @@ function mockXotData(): void
     
     $mockXotData->shouldReceive('getUserClass')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63,6 +64,9 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> 551c768c4 (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);

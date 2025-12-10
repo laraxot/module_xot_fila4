@@ -9,11 +9,14 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model;
 
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Session;
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Support\Facades\Validator;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -23,11 +26,15 @@ class UpdateAction
     use QueueableAction;
 
     /**
+<<<<<<< HEAD
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
      * @param array<string, mixed> $data
+=======
+     * @param  array<string, mixed>  $data
+>>>>>>> 551c768c4 (.)
      */
     public function execute(Model $model, array $data, array $rules): Model
     {
@@ -36,11 +43,15 @@ class UpdateAction
 
         $keyName = $model->getKeyName();
         // $data['updated_by'] = authId();
+<<<<<<< HEAD
         if (null === $model->getKey()) {
         if (null === $model->getKey()) {
         if (null === $model->getKey()) {
         if (null === $model->getKey()) {
         if (null === $model->getKey()) {
+=======
+        if ($model->getKey() === null) {
+>>>>>>> 551c768c4 (.)
             $key = $data[$keyName];
             /** @var array<string, mixed> $data */
             $data = collect($data)->except($keyName)->toArray();
@@ -55,6 +66,7 @@ class UpdateAction
 
         /**
          * @phpstan-ignore method.notFound (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -108,10 +120,13 @@ class UpdateAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
          */
         $model = tap($model)->update($data);
 
         app(__NAMESPACE__.'\\Update\RelationAction')->execute($model, $data);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -480,6 +495,8 @@ class UpdateAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
         // $msg = 'aggiornato! ['.$model->getKey().']!';
 

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -59,6 +62,7 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -376,6 +380,11 @@ function mockXotData(): void
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
 >>>>>>> 7e4835b8e (.)
+=======
+        ->andReturn(
+            \Modules\\<YourModule>\\Models\\User::class
+        );
+>>>>>>> 551c768c4 (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -541,6 +550,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 
 ## 🔗 **Related Documentation**
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -811,6 +821,12 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 - [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 551c768c4 (.)
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---
@@ -818,6 +834,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Status**: ✅ Best Practices Validate  
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -858,6 +875,9 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 551c768c4 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -902,6 +922,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 =======
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 **Last Update**: Dicembre 2024 
 <<<<<<< HEAD
@@ -1164,3 +1185,6 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,10 +23,13 @@ namespace Modules\Xot\Models;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Spatie\SchemalessAttributes\SchemalessAttributes;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -77,6 +81,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ProfileContract;
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * Model Extra.
@@ -111,6 +117,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @mixin \Eloquent
  */
 final class Extra extends BaseExtra {}
+<<<<<<< HEAD
  * @property int                                               $id
  * @property int|null                                          $model_id
  * @property string|null                                       $model_type
@@ -180,3 +187,5 @@ final class Extra extends BaseExtra {}
 class Extra extends BaseExtra
 {
 }
+=======
+>>>>>>> 551c768c4 (.)

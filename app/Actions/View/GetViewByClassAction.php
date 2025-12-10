@@ -25,6 +25,7 @@ use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Actions\Module\GetModuleNameByModelClassAction;
 =======
@@ -101,6 +102,8 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 5cf46378 (.)
 =======
@@ -190,6 +193,7 @@ class GetViewByClassAction
      * @param  string  $suffix  Suffisso opzionale da aggiungere al nome della vista
      * @return string Il nome della vista
      *
+<<<<<<< HEAD
      * @param string $class Il nome della classe da convertire
      * @param string $suffix Suffisso opzionale da aggiungere al nome della vista
      *
@@ -239,6 +243,8 @@ class GetViewByClassAction
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 551c768c4 (.)
      * @throws Exception Se la vista non esiste
      */
     public function execute(string $class, string $suffix = ''): string
@@ -246,6 +252,7 @@ class GetViewByClassAction
         $module = Str::of($class)->betweenFirst('Modules\\', '\\')->toString();
         $module_low = Str::of($module)->lower()->toString();
         $after = Str::of($class)
+<<<<<<< HEAD
 <<<<<<< HEAD
             ->after('Modules\\' . $module . '\\')
             ->after('Modules\\' . $module . '\\')
@@ -517,6 +524,9 @@ class GetViewByClassAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            ->after('Modules\\'.$module.'\\')
+>>>>>>> 551c768c4 (.)
             ->explode('\\')
             ->toArray();
 
@@ -547,6 +557,7 @@ class GetViewByClassAction
         });
 
         $implode = implode('.', $mapped);
+<<<<<<< HEAD
 <<<<<<< HEAD
         $view = $module_low . '::' . $implode . $suffix;
 
@@ -617,10 +628,13 @@ class GetViewByClassAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         $view = $module_low.'::'.$implode.$suffix;
 
         if (! view()->exists($view)) {
             throw new Exception('View not found: '.$view);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -962,6 +976,8 @@ class GetViewByClassAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         }
 
         return $view;

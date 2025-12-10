@@ -13,6 +13,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method ?Model getRecord()
  */
 abstract class XotBaseBulkAction extends BulkAction {}
+<<<<<<< HEAD
 abstract class XotBaseBulkAction extends BulkAction
 {
 }
@@ -41,3 +42,5 @@ abstract class XotBaseBulkAction extends BulkAction
 abstract class XotBaseBulkAction extends BulkAction
 {
 }
+=======
+>>>>>>> 551c768c4 (.)

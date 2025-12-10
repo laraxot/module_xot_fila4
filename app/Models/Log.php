@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Sushi\Sushi;
 use Override;
 use Modules\Xot\Database\Factories\FeedFactory;
@@ -146,12 +147,20 @@ use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Support\Facades\File;
+=======
+use Modules\Xot\Database\Factories\LogFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Facades\File;
+use Override;
+use Sushi\Sushi;
+>>>>>>> 551c768c4 (.)
 
 // --- services
 // --- TRAITS ---
 /**
  * Modules\Xot\Models\Feed.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -170,6 +179,8 @@ use Illuminate\Support\Facades\File;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
  * @property string|null $id
  * @property string|null $name
  * @property int|null $size
@@ -182,6 +193,7 @@ use Illuminate\Support\Facades\File;
  * @method static Builder<static>|Log whereName($value)
  * @method static Builder<static>|Log whereSize($value)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -312,6 +324,8 @@ use Illuminate\Support\Facades\File;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
  * @mixin \Eloquent
  */
 class Log extends BaseModel
@@ -344,11 +358,15 @@ class Log extends BaseModel
         $files = File::files(storage_path('logs'));
 
         foreach ($files as $file) {
+<<<<<<< HEAD
             if ('log' === $file->getExtension()) {
             if ('log' === $file->getExtension()) {
             if ('log' === $file->getExtension()) {
             if ('log' === $file->getExtension()) {
             if ('log' === $file->getExtension()) {
+=======
+            if ($file->getExtension() === 'log') {
+>>>>>>> 551c768c4 (.)
                 $rows[] = [
                     'id' => $file->getFilenameWithoutExtension(),
                     'name' => $file->getFilenameWithoutExtension(),
@@ -360,6 +378,7 @@ class Log extends BaseModel
         return $rows;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -592,6 +611,8 @@ class Log extends BaseModel
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     public function getFileContentAttribute(?string $value): ?string
     {
         return File::get(storage_path('logs/'.$this->id.'.log'));

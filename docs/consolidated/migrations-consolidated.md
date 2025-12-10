@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
 # Migrations - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTA la documentazione migrazioni del progetto
@@ -392,6 +380,7 @@ $table->foreign('user_id')->references('id')->on('users')
 - **Campi specifici**: `type`, `data`, `read_at`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -452,10 +441,14 @@ $table->foreign('user_id')->references('id')->on('users')
 ### SaluteMo Module
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+### <nome modulo> Module
+>>>>>>> 551c768c4 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -633,6 +626,9 @@ $table->foreign('user_id')->references('id')->on('users')
 ### SaluteOra Module (CRITICO)
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+### <nome progetto> Module (CRITICO)
+>>>>>>> 551c768c4 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`
@@ -689,6 +685,7 @@ rm Modules/Notify/project_docs/migration_rules.md
 rm Modules/Notify/project_docs/migrations.md
 rm Modules/Notify/project_docs/migrations_changelog.md
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -775,6 +772,10 @@ rm Modules/SaluteMo/project_docs/database/migrations.md
 rm Modules/SaluteMo/project_docs/database/migrations.md
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+# <nome modulo>
+rm Modules/<nome modulo>/project_docs/database/migrations.md
+>>>>>>> 551c768c4 (.)
 
 # E tutti gli altri file duplicati...
 ```
@@ -806,18 +807,3 @@ rm Modules/SaluteMo/project_docs/database/migrations.md
 **Aggiornato**: 2025-08-07  
 **Categoria**: database  
 **Priorità**: CRITICA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)

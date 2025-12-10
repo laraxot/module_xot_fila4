@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
 # Best Practices per Model States e Transizioni Custom
 
 ## Parametri aggiuntivi nelle transizioni custom
@@ -21,6 +9,7 @@
   - [ ] Tutte le chiamate a `transitionTo` forniscono i parametri richiesti
   - [ ] La documentazione delle transizioni specifica i parametri richiesti
 - **Collegamenti**:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/docs/model-states-errors.md)
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/docs/model-states-errors.md)
@@ -128,35 +117,7 @@
   - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/docs/model-states-errors.md)
 >>>>>>> b7ea1cd1 (.)
 >>>>>>> ecd5ec32 (.)
+=======
+  - [Errori comuni nelle transizioni custom (<nome progetto>)](../../<nome progetto>/docs/model-states-errors.md)
+>>>>>>> 551c768c4 (.)
   - [README.md centrale](../../../docs/README.md) 
-=======
->>>>>>> cc7fb225 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-  - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/docs/model-states-errors.md)
-  - [README.md centrale](../../../docs/README.md) 
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-  - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/docs/model-states-errors.md)
-=======
-  - [Errori comuni nelle transizioni custom ()](../../<nome modulo>/docs/model-states-errors.md)
->>>>>>> a5dccfe (.)
-  - [README.md centrale](../../../docs/README.md) 
->>>>>>> 5bd842e3 (.)
-=======
-  - [Errori comuni nelle transizioni custom (SaluteOra)](../../SaluteOra/docs/model-states-errors.md)
-  - [README.md centrale](../../../docs/README.md) 
->>>>>>> 03ceeac3 (.)

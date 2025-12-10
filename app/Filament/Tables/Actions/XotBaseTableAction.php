@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Tables\Actions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,16 +371,24 @@ use Filament\Actions\Action;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+use Closure;
+use Filament\Actions\Action;
+>>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * @property ?Model $record
  *
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 551c768c4 (.)
  * @method ?Model getRecord()
  */
 abstract class XotBaseTableAction extends Action
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -465,6 +474,9 @@ abstract class XotBaseTableAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public function getRecord(bool $withDefault = true): ?Model
+>>>>>>> 551c768c4 (.)
     {
         if ($this->record instanceof Closure) {
             return null;

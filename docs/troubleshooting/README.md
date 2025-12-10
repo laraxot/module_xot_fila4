@@ -6,6 +6,7 @@
 - **Issue**: Method not found errors
 - **Solution**: Check namespace imports and method signatures
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,6 +85,9 @@
 - **Prevention**: Always run PHPStan level 9+ before commits
 >>>>>>> 334816e8 (.)
 >>>>>>> 317b552da (.)
+=======
+- **Prevention**: Always run PHPStan level 10+ before commits
+>>>>>>> 551c768c4 (.)
 
 ### Translation Problems
 - **Issue**: Missing translations or hardcoded strings

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,10 +65,13 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Database\Factories\PulseAggregateFactory;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
+<<<<<<< HEAD
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @method static PulseAggregateFactory factory($count = null, $state = [])
@@ -77,11 +81,17 @@ use Illuminate\Database\Eloquent\Builder;
  * @property int         $id
  * @property int         $bucket
  * @property int         $period
+=======
+ * @property string $id
+ * @property int $bucket
+ * @property int $period
+>>>>>>> 551c768c4 (.)
  * @property string $type
  * @property string $key
  * @property string|null $key_hash
  * @property string $aggregate
  * @property string $value
+<<<<<<< HEAD
  * @method static Builder|PulseAggregate whereAggregate($value)
  * @method static Builder|PulseAggregate whereBucket($value)
  * @method static Builder|PulseAggregate whereCount($value)
@@ -152,6 +162,11 @@ use Illuminate\Database\Eloquent\Builder;
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
  * @method static \Modules\Xot\Database\Factories\PulseAggregateFactory factory($count = null, $state = [])
+=======
+ * @property int|null $count
+ *
+ * @method static PulseAggregateFactory factory($count = null, $state = [])
+>>>>>>> 551c768c4 (.)
  * @method static Builder<static>|PulseAggregate newModelQuery()
  * @method static Builder<static>|PulseAggregate newQuery()
  * @method static Builder<static>|PulseAggregate query()
@@ -165,6 +180,7 @@ use Illuminate\Database\Eloquent\Builder;
  * @method static Builder<static>|PulseAggregate whereType($value)
  * @method static Builder<static>|PulseAggregate whereValue($value)
  *
+<<<<<<< HEAD
  * @mixin IdeHelperPulseAggregate
  * @mixin IdeHelperPulseAggregate
 <<<<<<< HEAD
@@ -204,6 +220,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
  * @mixin \Eloquent
  */
 class PulseAggregate extends BaseModel

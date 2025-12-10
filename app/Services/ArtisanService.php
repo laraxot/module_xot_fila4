@@ -4,8 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Services;
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 551c768c4 (.)
 use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Contracts\Support\Renderable;
@@ -20,6 +23,7 @@ use function Safe\fopen;
 use function Safe\preg_match_all;
 
 if (! defined('STDIN')) {
+<<<<<<< HEAD
 if (!defined('STDIN')) {
 if (!defined('STDIN')) {
 if (!defined('STDIN')) {
@@ -118,6 +122,8 @@ if (!defined('STDIN')) {
 if (! defined('STDIN')) {
 if (!defined('STDIN')) {
 if (!defined('STDIN')) {
+=======
+>>>>>>> 551c768c4 (.)
     define('STDIN', fopen('php://stdin', 'r'));
 }
 
@@ -136,6 +142,7 @@ class ArtisanService
      */
     public static function act(string $act): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         // da fare anche in noconsole, e magari mettere un policy
         $module_name = Request::input('module', '');
@@ -250,6 +257,11 @@ class ArtisanService
         if (! is_string($module_name)) {
         if (!is_string($module_name)) {
         if (!is_string($module_name)) {
+=======
+        // da fare anche in noconsole, e magari mettere un policy
+        $module_name = Request::input('module', '');
+        if (! is_string($module_name)) {
+>>>>>>> 551c768c4 (.)
             $module_name = '';
         }
         switch ($act) {
@@ -260,6 +272,7 @@ class ArtisanService
                     echo '<h3>Module '.$module_name.'</h3>';
 
                     return self::exe('module:migrate '.$module_name.' --force');
+<<<<<<< HEAD
                 if ('' !== $module_name) {
                     echo '<h3>Module ' . $module_name . '</h3>';
 
@@ -1375,6 +1388,80 @@ class ArtisanService
         if ($handler === null) {
             return '';
 >>>>>>> b7afadf9 (.)
+=======
+                }
+
+                return self::exe('migrate --force');
+
+            case 'routelist':
+                return self::exe('route:list');
+            case 'queue:flush':
+                return self::exe('queue:flush');
+            case 'routelist1':
+                return self::showRouteList();
+            case 'optimize':
+                return self::exe('optimize');
+            case 'clear':
+                echo self::exe('cache:clear').PHP_EOL;
+                echo self::exe('config:clear').PHP_EOL;
+                echo self::exe('event:clear').PHP_EOL;
+                echo self::exe('route:clear').PHP_EOL;
+                echo self::exe('view:clear').PHP_EOL;
+                echo self::exe('debugbar:clear').PHP_EOL;
+                echo self::exe('opcache:clear').PHP_EOL;
+                echo self::exe('optimize:clear').PHP_EOL;
+                echo self::exe('key:generate').PHP_EOL;
+
+                // -- non artisan
+                echo self::sessionClear().PHP_EOL;
+                echo self::errorClear().PHP_EOL;
+                echo self::debugbarClear().PHP_EOL;
+                echo PHP_EOL.'DONE'.PHP_EOL;
+                break;
+            case 'clearcache':
+                return self::exe('cache:clear');
+            case 'routecache':
+                return self::exe('route:cache');
+            case 'routeclear':
+                return self::exe('route:clear');
+            case 'viewclear':
+                return self::exe('view:clear');
+            case 'configcache':
+                return self::exe('config:cache');
+                // -------------------------------------------------------------------
+            case 'debugbar:clear':
+                self::debugbarClear();
+                break;
+
+                // ------------------------------------------------------------------
+
+            case 'module-list':
+                return self::exe('module:list');
+            case 'module-disable':
+                return self::exe('module:disable '.$module_name);
+            case 'module-enable':
+                return self::exe('module:enable '.$module_name);
+                // ----------------------------------------------------------------------
+            case 'error':
+            case 'error-show':
+                return self::errorShow()->render();
+            case 'error-clear':
+                return self::errorClear();
+
+                // -------------------------------------------------------------------------
+            case 'spatiecache-clear':
+                /* da vedere se e' necessaria
+                 * try {
+                 * return \Spatie\ResponseCache\Facades\ResponseCache::clear();
+                 * } catch (\Exception $e) {
+                 * dddx($e);
+                 * }
+                 */
+                // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
+
+            default:
+                return '';
+>>>>>>> 551c768c4 (.)
         }
 
         return $handler->handle($moduleName);
@@ -1408,6 +1495,7 @@ class ArtisanService
         $content = '';
         if ($log !== '' && File::exists(storage_path('logs/'.$log))) {
             $content = File::get(storage_path('logs/'.$log));
+<<<<<<< HEAD
         if (!is_string($log)) {
             $log = '';
         }
@@ -1498,12 +1586,15 @@ class ArtisanService
             $content = File::get(storage_path('logs/'.$log));
         if ('' !== $log && File::exists(storage_path('logs/'.$log))) {
             $content = File::get(storage_path('logs/'.$log));
+=======
+>>>>>>> 551c768c4 (.)
         }
 
         $pattern = '/url":"([^"]*)"/';
         preg_match_all($pattern, $content, $matches);
 
         $urls = array_unique($matches[1]);
+<<<<<<< HEAD
         $urls = array_unique($matches[1]);
         // Verifica che l'array $matches contenga l'indice 1 prima di accedervi
         $urls = [];
@@ -1544,6 +1635,8 @@ class ArtisanService
         $urls = array_unique($matches[1]);
         //$urls = is_array($matches[1]) ? array_unique($matches[1]) : [];
         $urls = array_unique($matches[1]);
+=======
+>>>>>>> 551c768c4 (.)
         $view_params = [
             'view' => $view,
             'lang' => app()->getLocale(),
@@ -1627,6 +1720,7 @@ class ArtisanService
             if ($file->getExtension() === 'log' && $file->getRealPath() !== false) {
                 // Parameter #1 $paths of static method Illuminate\Filesystem\Filesystem::delete() expects array|string, Symfony\Component\Finder\SplFileInfo given.
                 echo '<br/>'.$file->getRealPath();
+<<<<<<< HEAD
             if ('log' === $file->getExtension() && false !== $file->getRealPath()) {
                 // Parameter #1 $paths of static method Illuminate\Filesystem\Filesystem::delete() expects array|string, Symfony\Component\Finder\SplFileInfo given.
                 echo '<br/>' . $file->getRealPath();
@@ -1807,12 +1901,15 @@ class ArtisanService
                 echo '<br/>' . $file->getRealPath();
                 echo '<br/>'.$file->getRealPath();
                 echo '<br/>' . $file->getRealPath();
+=======
+>>>>>>> 551c768c4 (.)
 
                 File::delete($file->getRealPath());
             }
         }
 
         return '<pre>laravel.log cleared !</pre> ('.\count($files).' Files )';
+<<<<<<< HEAD
         return '<pre>laravel.log cleared !</pre> (' . \count($files) . ' Files )';
         return '<pre>laravel.log cleared !</pre> (' . \count($files) . ' Files )';
         return '<pre>laravel.log cleared !</pre> (' . \count($files) . ' Files )';
@@ -1932,6 +2029,8 @@ class ArtisanService
         return '<pre>laravel.log cleared !</pre> ('.\count($files).' Files )';
         return '<pre>laravel.log cleared !</pre> (' . \count($files) . ' Files )';
         return '<pre>laravel.log cleared !</pre> (' . \count($files) . ' Files )';
+=======
+>>>>>>> 551c768c4 (.)
     }
 
     public static function sessionClear(): string
@@ -1940,6 +2039,7 @@ class ArtisanService
 
         foreach ($files as $file) {
             if ($file->getExtension() === '' && $file->getRealPath() !== false) {
+<<<<<<< HEAD
             if ($file->getExtension() === '' && $file->getRealPath() !== false) {
             if ('' === $file->getExtension() && false !== $file->getRealPath()) {
             if ('' === $file->getExtension() && false !== $file->getRealPath()) {
@@ -2004,6 +2104,8 @@ class ArtisanService
             if ('' === $file->getExtension() && false !== $file->getRealPath()) {
             if ($file->getExtension() === '' && $file->getRealPath() !== false) {
             if ('' === $file->getExtension() && false !== $file->getRealPath()) {
+=======
+>>>>>>> 551c768c4 (.)
                 // echo '<br/>'.$file->getRealPath();
 
                 File::delete($file->getRealPath());
@@ -2013,6 +2115,7 @@ class ArtisanService
         }
 
         return 'Session cleared! ('.\count($files).' Files )';
+<<<<<<< HEAD
         return 'Session cleared! (' . \count($files) . ' Files )';
         return 'Session cleared! (' . \count($files) . ' Files )';
         return 'Session cleared! (' . \count($files) . ' Files )';
@@ -2132,6 +2235,8 @@ class ArtisanService
         return 'Session cleared! ('.\count($files).' Files )';
         return 'Session cleared! (' . \count($files) . ' Files )';
         return 'Session cleared! (' . \count($files) . ' Files )';
+=======
+>>>>>>> 551c768c4 (.)
     }
 
     public static function debugbarClear(): string
@@ -2139,6 +2244,7 @@ class ArtisanService
         $files = File::files(storage_path('debugbar'));
         foreach ($files as $file) {
             if ($file->getExtension() === 'json' && $file->getRealPath() !== false) {
+<<<<<<< HEAD
             if ($file->getExtension() === 'json' && $file->getRealPath() !== false) {
             if ('json' === $file->getExtension() && false !== $file->getRealPath()) {
             if ('json' === $file->getExtension() && false !== $file->getRealPath()) {
@@ -2203,6 +2309,8 @@ class ArtisanService
             if ('json' === $file->getExtension() && false !== $file->getRealPath()) {
             if ($file->getExtension() === 'json' && $file->getRealPath() !== false) {
             if ('json' === $file->getExtension() && false !== $file->getRealPath()) {
+=======
+>>>>>>> 551c768c4 (.)
                 // echo '<br/>'.$file->getRealPath();
 
                 File::delete($file->getRealPath());
@@ -2212,6 +2320,7 @@ class ArtisanService
         }
 
         return 'Debugbar Storage cleared! ('.\count($files).' Files )';
+<<<<<<< HEAD
         return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
         return 'Debugbar Storage cleared! ('.\count($files).' Files )';
         return 'Debugbar Storage cleared! ('.\count($files).' Files )';
@@ -2225,24 +2334,15 @@ class ArtisanService
         return 'Debugbar Storage cleared! ('.\count($files).' Files )';
         return 'Debugbar Storage cleared! ('.\count($files).' Files )';
         return 'Debugbar Storage cleared! ('.\count($files).' Files )';
+=======
+>>>>>>> 551c768c4 (.)
     }
 
     /**
      * @param  array<string, mixed>  $arguments
+<<<<<<< HEAD
         return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
         return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
-        return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
-        return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
-        return 'Debugbar Storage cleared! ('.\count($files).' Files )';
-    }
-
-    /**
-     * @param array<string, mixed> $arguments
-     * @param  array<string, mixed>  $arguments
-        return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
-        return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
-     * @param array<string, mixed> $arguments
-     * @param  array<string, mixed>  $arguments
         return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
         return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
         return 'Debugbar Storage cleared! ('.\count($files).' Files )';
@@ -2288,6 +2388,18 @@ class ArtisanService
      * @param array<string, mixed> $arguments
      * @param  array<string, mixed>  $arguments
         return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
+        return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
+     * @param array<string, mixed> $arguments
+     * @param  array<string, mixed>  $arguments
+        return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
+        return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
+        return 'Debugbar Storage cleared! ('.\count($files).' Files )';
+    }
+
+    /**
+     * @param array<string, mixed> $arguments
+     * @param  array<string, mixed>  $arguments
+        return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
      * @param array<string, mixed> $arguments
      * @param  array<string, mixed>  $arguments
         return 'Debugbar Storage cleared! (' . \count($files) . ' Files )';
@@ -2298,6 +2410,8 @@ class ArtisanService
 
     /**
      * @param array<string, mixed> $arguments
+=======
+>>>>>>> 551c768c4 (.)
      */
     public static function exe(string $command, array $arguments = []): string
     {
@@ -2306,6 +2420,7 @@ class ArtisanService
 
             Artisan::call($command, $arguments);
 
+<<<<<<< HEAD
             return $output.'[<pre>'.Artisan::output().'</pre>]'; // dato che mi carico solo le route minime menufull.delete non esiste.. impostare delle route comuni.
         } catch (\Exception $exception) {
             // throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
@@ -2377,10 +2492,13 @@ class ArtisanService
         } /*
             return '[<pre>'.$exception->getMessage().'</pre>]';
             return '[<pre>'.$exception->getMessage().'</pre>]';
+=======
+>>>>>>> 551c768c4 (.)
             return $output.'[<pre>'.Artisan::output().'</pre>]'; // dato che mi carico solo le route minime menufull.delete non esiste.. impostare delle route comuni.
         } catch (Exception $exception) {
             // throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
             return '[<pre>'.$exception->getMessage().'</pre>]';
+<<<<<<< HEAD
 
             // dddx(get_class_methods($e));
             /*
@@ -2515,6 +2633,8 @@ class ArtisanService
         } catch (Exception $exception) {
             // throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
             return '[<pre>'.$exception->getMessage().'</pre>]';
+=======
+>>>>>>> 551c768c4 (.)
 
             // dddx(get_class_methods($e));
             /*

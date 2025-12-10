@@ -37,6 +37,7 @@ class GetModelClassByModelTypeAction
     {
         $morph_map = config('morph_map');
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_array($morph_map)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         if (!is_array($morph_map)) {
@@ -387,6 +388,10 @@ class GetModelClassByModelTypeAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if (! is_array($morph_map)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 551c768c4 (.)
         }
 
         Assert::string($res = collect($morph_map)->get($model_type));

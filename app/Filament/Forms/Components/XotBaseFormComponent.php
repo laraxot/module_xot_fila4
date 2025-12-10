@@ -2,6 +2,19 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+namespace Modules\Xot\Filament\Forms\Components;
+
+use Filament\Forms\Components\Field;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Forms\Components\Field;
+=======
+>>>>>>> 551c768c4 (.)
+namespace Modules\Xot\Filament\Forms\Components;
+
+use Filament\Forms\Components\Field;
+<<<<<<< HEAD
 namespace Modules\Xot\Filament\Forms\Components;
 
 use Filament\Forms\Components\Field;
@@ -11,18 +24,11 @@ use Filament\Forms\Components\Field;
 namespace Modules\Xot\Filament\Forms\Components;
 
 use Illuminate\Contracts\Support\Htmlable;
-use Filament\Forms\Components\Field;
-namespace Modules\Xot\Filament\Forms\Components;
-
-use Filament\Forms\Components\Field;
-use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Forms\Components\Field;
-namespace Modules\Xot\Filament\Forms\Components;
-
+=======
 use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Contracts\Support\Htmlable;
-use Filament\Forms\Components\Field;
+>>>>>>> 551c768c4 (.)
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
@@ -40,6 +46,7 @@ abstract class XotBaseFormComponent extends Field
         $this->dehydrated(true)->required(false);
     }
 
+<<<<<<< HEAD
  * Base class for form components.
  *
  * @method static static make(string $name) Create a new instance of the component
@@ -49,6 +56,8 @@ abstract class XotBaseFormComponent extends Field
     /**
      * Get the component name.
      */
+=======
+>>>>>>> 551c768c4 (.)
     public function getName(): string
     {
         $name = parent::getName();
@@ -69,6 +78,7 @@ abstract class XotBaseFormComponent extends Field
             return $label->toHtml();
         }
 
+<<<<<<< HEAD
     /**
      * Get the component label.
      */
@@ -85,10 +95,13 @@ abstract class XotBaseFormComponent extends Field
         if ($label instanceof Htmlable) {
             return $label->toHtml();
         }
+=======
+>>>>>>> 551c768c4 (.)
         return (string) $label;
     }
 
     /**
+<<<<<<< HEAD
      * Configure the component.
      */
     protected function setUp(): void
@@ -218,12 +231,15 @@ abstract class XotBaseFormComponent extends Field
     /**
      * Get the validation rules.
      *
+=======
+>>>>>>> 551c768c4 (.)
      * @return array<string, mixed>
      */
     public function getValidationRules(): array
     {
         /** @var array<string, mixed> */
         return parent::getValidationRules();
+<<<<<<< HEAD
         /** @var array<string, mixed> */
         return parent::getValidationRules();
         /** @var array<string, mixed> $rules */
@@ -231,5 +247,7 @@ abstract class XotBaseFormComponent extends Field
         Assert::isArray($rules);
 
         return $rules;
+=======
+>>>>>>> 551c768c4 (.)
     }
 }

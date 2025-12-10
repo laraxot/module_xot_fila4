@@ -13,11 +13,14 @@ use PDO;
 =======
 >>>>>>> a6ef6dc7 (.)
 
+<<<<<<< HEAD
 use PDO;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
+=======
+>>>>>>> 551c768c4 (.)
 use function Safe\preg_match;
 
 /**
@@ -71,6 +74,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     {
         // Ottimizza le query di default
 <<<<<<< HEAD
+<<<<<<< HEAD
         DB::listen(function ($query) {
 =======
 <<<<<<< HEAD
@@ -80,11 +84,15 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
         DB::listen(function ($query): void {
 >>>>>>> 5cf46378 (.)
+=======
+        DB::listen(function ($query): void {
+>>>>>>> 551c768c4 (.)
             // PHPStan: $query è \Illuminate\Database\Events\QueryExecuted
             if (! is_object($query) || ! isset($query->time)) {
                 return;
             }
 
+<<<<<<< HEAD
         DB::listen(function ($query): void {
         DB::listen(function ($query) {
         DB::listen(function ($query) {
@@ -97,6 +105,8 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         DB::listen(function ($query): void {
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
             // Log query che superano la soglia di tempo
             $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
 
@@ -117,14 +127,18 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> a6ef6dc7 (.)
                 Log::warning('Slow query detected', [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
                     'sql' => $query->sql ?? '',
                     'bindings' => $query->bindings ?? [],
                     'time' => $query->time,
                     'connection' => $query->connectionName ?? '',
+<<<<<<< HEAD
         DB::listen(function ($query) {
             // Log query che superano la soglia di tempo
             $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
@@ -165,6 +179,8 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
                 ]);
             }
         });
@@ -190,6 +206,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 $totalQueries = count($queries);
                 $totalTime = array_sum(array_column($queries, 'time'));
 
+<<<<<<< HEAD
             
             // Log delle query alla fine della richiesta
             app()->terminating(function () {
@@ -197,6 +214,8 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 $totalQueries = count($queries);
                 $totalTime = array_sum(array_column($queries, 'time'));
                 
+=======
+>>>>>>> 551c768c4 (.)
                 if ($totalQueries > 50 || $totalTime > 1000) {
                     Log::info('High query count or time detected', [
                         'total_queries' => $totalQueries,
@@ -228,10 +247,13 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         // Ottimizza la configurazione di Eloquent
         $this->optimizeEloquentConfiguration();
 
+<<<<<<< HEAD
         
         // Ottimizza la configurazione di Eloquent
         $this->optimizeEloquentConfiguration();
         
+=======
+>>>>>>> 551c768c4 (.)
         // Configura caching aggressivo
         $this->configureAggressiveCaching();
     }
@@ -245,11 +267,15 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         if (config('filament_optimization.query.disable_events', false)) {
             // Questo può essere fatto per modelli specifici se necessario
         }
+<<<<<<< HEAD
         
         
         
         
         
+=======
+
+>>>>>>> 551c768c4 (.)
         // Configura connection pooling se disponibile
         $currentOptions = config('database.connections.mysql.options');
         if ($currentOptions) {
@@ -276,11 +302,15 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             // Implementa caching per configurazioni moduli
             $this->cacheModuleConfigurations();
         }
+<<<<<<< HEAD
         
         
         
         
         
+=======
+
+>>>>>>> 551c768c4 (.)
         // Cache delle navigation items
         if (config('filament_optimization.cache.navigation', true)) {
             // Già implementato in GetModulesNavigationItems
@@ -300,6 +330,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 $configs = [];
                 $modules = app('modules')->all();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +340,10 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+
+                foreach ($modules as $module) {
+>>>>>>> 551c768c4 (.)
                     // PHPStan: $module è \Nwidart\Modules\Module
                     if (! is_object($module) || ! method_exists($module, 'getPath') || ! method_exists($module, 'getName')) {
                         continue;
@@ -325,6 +360,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                         if (is_string($moduleName)) {
                             $configs[$moduleName] = require $configPath;
                         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -377,6 +413,11 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                     }
                 }
                 
+=======
+                    }
+                }
+
+>>>>>>> 551c768c4 (.)
                 return $configs;
             });
         });
@@ -390,6 +431,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         $maxQueries = config('filament_optimization.development.max_queries_per_request', 100);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         app()->terminating(function () use ($maxQueries) {
 =======
         app()->terminating(function () use ($maxQueries): void {
@@ -402,6 +444,12 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             $queries = DB::getQueryLog();
             $totalQueries = count($queries);
             
+=======
+        app()->terminating(function () use ($maxQueries): void {
+            $queries = DB::getQueryLog();
+            $totalQueries = count($queries);
+
+>>>>>>> 551c768c4 (.)
             if ($totalQueries > $maxQueries) {
                 Log::warning("High query count detected: {$totalQueries} queries", [
                     'url' => request()->fullUrl(),
@@ -422,6 +470,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
             return str_contains($path, '/admin') ||
                    str_ends_with($path, '/admin') ||
+<<<<<<< HEAD
             return str_contains($path, '/admin')
                    || str_ends_with($path, '/admin')
                    || preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
@@ -449,6 +498,11 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                    preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
         }
         
+=======
+                   preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+        }
+
+>>>>>>> 551c768c4 (.)
         return false;
     }
 }

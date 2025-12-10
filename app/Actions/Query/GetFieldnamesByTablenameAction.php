@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Query;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,11 +23,14 @@ namespace Modules\Xot\Actions\Query;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use InvalidArgumentException;
 use Spatie\QueueableAction\QueueableAction;
 use Throwable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -63,6 +67,8 @@ use Throwable;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Spatie\QueueableAction\QueueableAction;
+=======
+>>>>>>> 551c768c4 (.)
 use Webmozart\Assert\Assert;
 
 final class GetFieldnamesByTablenameAction
@@ -80,6 +86,7 @@ final class GetFieldnamesByTablenameAction
      */
 <<<<<<< HEAD
     public function execute(string $table, ?string $connectionName = null): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -308,6 +315,8 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     {
         // Validate table name
         if (empty(trim($table))) {
@@ -334,20 +343,28 @@ final class GetFieldnamesByTablenameAction
         Assert::string($connectionName ??= config('database.default'));
 
         // Validate database connection
+<<<<<<< HEAD
         if (!$this->isValidConnection($connectionName)) {
         if (!$this->isValidConnection($connectionName)) {
         if (!$this->isValidConnection($connectionName)) {
         if (!$this->isValidConnection($connectionName)) {
         if (!$this->isValidConnection($connectionName)) {
+=======
+        if (! $this->isValidConnection($connectionName)) {
+>>>>>>> 551c768c4 (.)
             throw new InvalidArgumentException(sprintf('Invalid database connection: %s', $connectionName));
         }
 
         // Check if table exists in the database
+<<<<<<< HEAD
         if (!Schema::connection($connectionName)->hasTable($table)) {
         if (!Schema::connection($connectionName)->hasTable($table)) {
         if (!Schema::connection($connectionName)->hasTable($table)) {
         if (!Schema::connection($connectionName)->hasTable($table)) {
         if (!Schema::connection($connectionName)->hasTable($table)) {
+=======
+        if (! Schema::connection($connectionName)->hasTable($table)) {
+>>>>>>> 551c768c4 (.)
             throw new InvalidArgumentException(sprintf(
                 'Table "%s" does not exist in connection "%s".',
                 $table,
@@ -491,6 +508,7 @@ final class GetFieldnamesByTablenameAction
         // Get and return column listing
         try {
             $columns = Schema::connection($connectionName)->getColumnListing($table);
+<<<<<<< HEAD
             $columns = array_values($columns);
             // $columns = array_map('strval', $columns);
 
@@ -512,6 +530,11 @@ final class GetFieldnamesByTablenameAction
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
 
+=======
+
+            return array_values($columns);
+            // $columns = array_map('strval', $columns);
+>>>>>>> 551c768c4 (.)
             // return array_values(array_map(static fn ($value): string => is_string($value) ? $value : (string) $value, $columns));
         } catch (Throwable $e) {
             throw new InvalidArgumentException(sprintf(

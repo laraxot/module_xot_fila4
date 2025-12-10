@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17,11 +18,14 @@
 =======
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # XotBasePage - Classe Base per le Pagine Filament
 
 ## Descrizione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,11 +202,15 @@ La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura
 La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di SaluteOra, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura di <nome progetto>, fungendo da intermediario tra le pagine Filament e le implementazioni specifiche dell'applicazione. Questa classe astratta segue il pattern architetturale di non estendere mai direttamente le classi di Filament, ma utilizzare sempre classi wrapper con prefisso `XotBase`.
+>>>>>>> 551c768c4 (.)
 
 ## Percorso del File
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -386,6 +394,9 @@ La classe `XotBasePage` rappresenta un componente fondamentale nell'architettura
 /var/www/html/base_saluteora/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/Filament/Resources/Pages/XotBasePage.php
+>>>>>>> 551c768c4 (.)
 ```
 
 ## Gerarchia di Ereditarietà
@@ -424,6 +435,7 @@ public function getTitle(): string
 ### Form Standardizzato
 
 ```php
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -485,6 +497,9 @@ public function form(Form $form): Form
 public function form(Form $form): Form
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 551c768c4 (.)
 {
     return $form
         ->schema($this->getFormSchema())
@@ -506,6 +521,7 @@ public function form(Form $form): Form
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -682,6 +698,9 @@ namespace Modules\SaluteOra\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+namespace Modules\<nome progetto>\Filament\Pages;
+>>>>>>> 551c768c4 (.)
 
 use Modules\Xot\Filament\Resources\Pages\XotBasePage;
 
@@ -703,6 +722,7 @@ class MyCustomPage extends XotBasePage
 ```php
 // ❌ ERRORE: Non estendere mai direttamente Page
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -879,6 +899,9 @@ namespace Modules\SaluteOra\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+namespace Modules\<nome progetto>\Filament\Pages;
+>>>>>>> 551c768c4 (.)
 
 use Filament\Pages\Page;
 
@@ -960,6 +983,7 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 ## Collegamenti
 
 - [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1294,3 +1318,8 @@ La classe è progettata per essere compatibile con Filament v3+ e garantisce il 
 - [Architettura Filament-Xot](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_xot_architecture.md)
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+- [Pattern di Estensione](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [Architettura Filament-Xot](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament_xot_architecture.md)
+>>>>>>> 551c768c4 (.)

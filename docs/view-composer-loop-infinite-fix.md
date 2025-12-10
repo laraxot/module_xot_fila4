@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # XotComposer - Loop Infinito Fix
 
 ## 🚨 Problema Critico Risolto
@@ -237,6 +240,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 
 ## 🔗 Collegamenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -525,10 +529,17 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
 >>>>>>> 7e4835b8e (.)
+=======
+- [XotComposer](../Xot/app/View/Composers/XotComposer.php)
+- [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
+- [Container Resolution Laravel](https://laravel.com/project_docs/container)
+- [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+>>>>>>> 551c768c4 (.)
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
@@ -853,6 +864,12 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 - [Container Resolution Laravel](https://laravel.com/docs/container)
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+- [XotComposer](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+- [XotComposer](/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
+- [View Composer Laravel Docs](https://laravel.com/docs/views#view-composers)
+- [Container Resolution Laravel](https://laravel.com/docs/container)
+>>>>>>> 551c768c4 (.)
 
 ---
 
@@ -860,6 +877,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 **Priorità**: P0 (Critical) - Bloccava sistema completo  
 **Impatto**: Sistema completamente non funzionale  
 **Tempo di risoluzione**: 15 minuti  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -900,6 +918,9 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 551c768c4 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -944,6 +965,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 **Pattern**: View Composer Loop Prevention 
 **Pattern**: View Composer Loop Prevention 
 =======
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 **Pattern**: View Composer Loop Prevention 
 <<<<<<< HEAD
@@ -1206,3 +1228,6 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

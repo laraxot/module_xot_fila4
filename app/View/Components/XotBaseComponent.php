@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\View\Components;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,10 +23,13 @@ namespace Modules\Xot\View\Components;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
 use InvalidArgumentException;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -62,6 +66,8 @@ use InvalidArgumentException;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Str;
 use Illuminate\View\Component as IlluminateComponent;
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * Class XotBaseComponent.
@@ -85,11 +91,15 @@ abstract class XotBaseComponent extends IlluminateComponent
     /**
      * Cache for resolved views.
      *
+<<<<<<< HEAD
      * @var array<string, view-string>
      * @var array<string, view-string>
      * @var array<string, view-string>
      * @var array<string, view-string>
      * @var array<string, view-string>
+=======
+     * @var array<string, string>
+>>>>>>> 551c768c4 (.)
      */
     protected static array $viewCache = [];
 
@@ -104,11 +114,15 @@ abstract class XotBaseComponent extends IlluminateComponent
     }
 
     /**
+<<<<<<< HEAD
      * Summary of getView.
      * Summary of getView.
      * Summary of getView.
      * Summary of getView.
      * Summary of getView.
+=======
+     * Get the view name for this component.
+>>>>>>> 551c768c4 (.)
      *
      * @return view-string
      */
@@ -117,6 +131,10 @@ abstract class XotBaseComponent extends IlluminateComponent
         $class = static::class;
 
         if (isset(self::$viewCache[$class])) {
+<<<<<<< HEAD
+=======
+            /** @var view-string */
+>>>>>>> 551c768c4 (.)
             return self::$viewCache[$class];
         }
 
@@ -127,6 +145,7 @@ abstract class XotBaseComponent extends IlluminateComponent
         $comp_name = str_replace('\\', '.', $comp_name);
         $comp_name = Str::snake($comp_name);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         $view = $module_name_low . '::components.' . $comp_name;
         $view = str_replace('._', '.', $view);
@@ -235,6 +254,8 @@ abstract class XotBaseComponent extends IlluminateComponent
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 551c768c4 (.)
         $view = $module_name_low.'::components.'.$comp_name;
         $view = str_replace('._', '.', $view);
 
@@ -256,6 +277,7 @@ abstract class XotBaseComponent extends IlluminateComponent
         }
 
         /** @var view-string $view */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -404,6 +426,8 @@ abstract class XotBaseComponent extends IlluminateComponent
 =======
 >>>>>>> 091f883c (.)
         }
+=======
+>>>>>>> 551c768c4 (.)
         self::$viewCache[$class] = $view;
 
         return $view;

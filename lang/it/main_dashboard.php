@@ -37,6 +37,7 @@
 >>>>>>> 851793957 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 
 
@@ -62,6 +63,8 @@ declare(strict_types=1);
 
 
 
+=======
+>>>>>>> 551c768c4 (.)
 return [
     'sections' => [
         'empty' => [

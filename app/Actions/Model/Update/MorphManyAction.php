@@ -41,6 +41,7 @@ class MorphManyAction
     public function execute(Model $model, RelationDTO $relationDTO): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ([] === $relationDTO->data) {
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model
@@ -103,6 +104,8 @@ class MorphManyAction
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 551c768c4 (.)
         if ($relationDTO->data === []) {
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model
@@ -111,6 +114,7 @@ class MorphManyAction
                 return;
             }
             $relation->saveMany($relationDTO->data);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -536,6 +540,13 @@ class MorphManyAction
         }
 
 >>>>>>> 5cf46378 (.)
+=======
+
+            return;
+        }
+
+        $related = $relationDTO->related;
+>>>>>>> 551c768c4 (.)
         $keyName = $related->getKeyName();
         Assert::string($keyName, 'Key name must be a string');
         $models = [];
@@ -564,6 +575,7 @@ class MorphManyAction
                  * $row = $related->firstOrCreate([$keyName => $related_id]);
                  * $res = app(\Modules\Xot\Actions\Model\UpdateAction::class)->execute($row, $data, []);
                  */
+<<<<<<< HEAD
 <<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 <<<<<<< HEAD
@@ -912,6 +924,11 @@ class MorphManyAction
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                /** @var array<string, mixed> $safeData */
+                $safeData = $data;
+                $res = app(UpdateAction::class)->execute($related, $safeData, []);
+>>>>>>> 551c768c4 (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {
@@ -919,6 +936,7 @@ class MorphManyAction
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1199,6 +1217,13 @@ class MorphManyAction
         $relationName = $relationDTO->name;
         $morphRelation = $model->{$relationName}();
         Assert::object($morphRelation, sprintf('Relation "%s" must return an object', $relationName));
+=======
+        $relation = $model->{$relationDTO->name}();
+        if (! is_object($relation) || ! method_exists($relation, 'saveMany')) {
+            return;
+        }
+        $relation->saveMany($models);
+>>>>>>> 551c768c4 (.)
 
 <<<<<<< HEAD
         if (! method_exists($morphRelation, 'saveMany')) {

@@ -8,6 +8,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
@@ -42,11 +43,14 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
+=======
+>>>>>>> 551c768c4 (.)
 use Filament\Widgets\Widget;
 use Filament\Widgets\WidgetConfiguration;
 
 class Dashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
 =======
@@ -446,6 +450,8 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -464,6 +470,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -845,4 +852,6 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
 }

@@ -396,6 +396,7 @@ class GetMethodBodyAction
         $length = $end_line - $start_line;
         Assert::string($file_name = $table_method->getFileName());
         $source = file($file_name);
+<<<<<<< HEAD
         $body = implode('', \array_slice($source, $start_line, $length));
 
         return $body;
@@ -411,5 +412,9 @@ class GetMethodBodyAction
         $body = implode('', \array_slice($source, $start_line, $length));
 
         return $body;
+=======
+
+        return implode('', \array_slice($source, $start_line, $length));
+>>>>>>> 551c768c4 (.)
     }
 }

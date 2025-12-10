@@ -10,6 +10,7 @@ use Spatie\LaravelData\Data;
 class HasManyRelationData extends Data
 {
     /**
+<<<<<<< HEAD
      * @param array<string, mixed>   $updateData
      * @param array<int|string>|null $from
      * @param array<int|string>|null $to
@@ -25,12 +26,18 @@ class HasManyRelationData extends Data
      * @param array<string, mixed>   $updateData
      * @param array<int|string>|null $from
      * @param array<int|string>|null $to
+=======
+     * @param  array<string, mixed>  $updateData
+     * @param  array<int|string>|null  $from
+     * @param  array<int|string>|null  $to
+>>>>>>> 551c768c4 (.)
      */
     public function __construct(
         public string $foreignKey,
         public mixed $parentKey,
         public array $updateData,
         #[MapInputName('from')]
+<<<<<<< HEAD
 <<<<<<< HEAD
         public ?array $from = null,
         public ?array $from = null,
@@ -198,5 +205,10 @@ class HasManyRelationData extends Data
         public null|array $from = null,
         #[MapInputName('to')]
         public null|array $to = null,
+=======
+        public ?array $from = null,
+        #[MapInputName('to')]
+        public ?array $to = null,
+>>>>>>> 551c768c4 (.)
     ) {}
 }

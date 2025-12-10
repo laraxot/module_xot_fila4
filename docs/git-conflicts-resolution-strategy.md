@@ -12,11 +12,14 @@
 
 I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
 <<<<<<< HEAD
+<<<<<<< HEAD
 I conflitti Git `<<<<<<< HEAD` presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
 =======
 I conflitti Git  presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
 >>>>>>> 7ee87c138 (.)
 I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
+=======
+>>>>>>> 551c768c4 (.)
 
 1. **Bloccano l'esecuzione**: File con marker non sono validi PHP
 2. **Degradano qualità**: PHPStan e linter falliscono
@@ -154,10 +157,13 @@ public function test_example() {
 # Identifico conflitti
 
 # Conto sezioni conflittuali
+<<<<<<< HEAD
 ```bash
 # Identifico conflitti
 
 # Conto sezioni conflittuali
+=======
+>>>>>>> 551c768c4 (.)
 
 ### Fase 2: Decisione Strategica
 
@@ -192,6 +198,7 @@ public function test_example() {
 
 ### Tracking
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```bash
 # Conta conflitti rimanenti
 find . -type f -name "*.php" -exec grep -l "<<<<<<< HEAD" {} \; 2>/dev/null | wc -l
@@ -207,6 +214,10 @@ find . -type f -name "*.php" -exec grep -l "<<<<<<< HEAD" {} \; 2>/dev/null | wc
 
 # Conta conflitti rimanenti
 >>>>>>> 7ee87c138 (.)
+=======
+
+# Conta conflitti rimanenti
+>>>>>>> 551c768c4 (.)
 
 ## Best Practices Emerse
 
@@ -242,6 +253,7 @@ I conflitti sono stati causati da:
 
 **Git Hooks:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```bash
 # pre-commit: blocca commit con conflitti
 if git diff --cached --name-only | xargs grep -l "<<<<<<< HEAD" 2>/dev/null; then
@@ -255,6 +267,9 @@ fi
 # pre-commit: blocca commit con conflitti
 # pre-commit: blocca commit con conflitti
 >>>>>>> 7ee87c138 (.)
+=======
+# pre-commit: blocca commit con conflitti
+>>>>>>> 551c768c4 (.)
 
 **CI/CD:**
 - Aggiungere check per marker conflitti

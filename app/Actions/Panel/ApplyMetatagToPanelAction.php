@@ -14,6 +14,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use Filament\Panel;
 use Illuminate\Support\Facades\Log;
@@ -26,6 +27,10 @@ use Illuminate\Support\Facades\Log;
 use Filament\Panel;
 use Illuminate\Support\Facades\Log;
 use Filament\Panel;
+=======
+use Filament\Panel;
+use Illuminate\Support\Facades\Log;
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Datas\MetatagData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -37,6 +42,7 @@ class ApplyMetatagToPanelAction
     {
         try {
             $metatag = MetatagData::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,6 +329,9 @@ class ApplyMetatagToPanelAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+
+>>>>>>> 551c768c4 (.)
             return $panel
                 // @phpstan-ignore argument.type
                 ->colors($metatag->getColors())
@@ -341,11 +350,9 @@ class ApplyMetatagToPanelAction
 >>>>>>> 091f883c (.)
         } catch (Exception $e) {
             // Log l'errore ma non bloccare l'applicazione
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             Log::error('Error applying metatag to panel: '.$e->getMessage());
 
+<<<<<<< HEAD
 =======
             Log::error('Error applying metatag to panel: ' . $e->getMessage());
 <<<<<<< HEAD
@@ -417,6 +424,8 @@ class ApplyMetatagToPanelAction
 =======
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
             return $panel;
         }
     }

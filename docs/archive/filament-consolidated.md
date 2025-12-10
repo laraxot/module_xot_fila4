@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
 # Filament - Guida Completa Consolidata
 
 **Ultimo aggiornamento**: 2025-01-06  
@@ -48,6 +36,7 @@ class UserWidget extends Widget
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -225,6 +214,9 @@ namespace Modules\SaluteOra\Filament\Resources;
 namespace Modules\SaluteOra\Filament\Resources;
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+namespace Modules\<nome progetto>\Filament\Resources;
+>>>>>>> 551c768c4 (.)
 
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms\Components\TextInput;
@@ -264,6 +256,7 @@ class PatientResource extends XotBaseResource
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -441,12 +434,16 @@ namespace Modules\SaluteOra\Filament\Pages;
 namespace Modules\SaluteOra\Filament\Pages;
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+namespace Modules\<nome progetto>\Filament\Pages;
+>>>>>>> 551c768c4 (.)
 
 use Modules\Xot\Filament\Pages\XotBasePage;
 
 class DashboardPage extends XotBasePage
 {
     protected static ?string $navigationIcon = 'heroicon-o-home';
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -623,6 +620,9 @@ class DashboardPage extends XotBasePage
     protected static string $view = 'saluteora::filament.pages.dashboard';
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+    protected static string $view = '<nome progetto>::filament.pages.dashboard';
+>>>>>>> 551c768c4 (.)
 
     /**
      * @return array<class-string>
@@ -630,6 +630,7 @@ class DashboardPage extends XotBasePage
     protected function getHeaderWidgets(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -807,6 +808,9 @@ class DashboardPage extends XotBasePage
             \Modules\SaluteOra\Filament\Widgets\StatsWidget::class,
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+            \Modules\<nome progetto>\Filament\Widgets\StatsWidget::class,
+>>>>>>> 551c768c4 (.)
         ];
     }
 }
@@ -818,6 +822,7 @@ class DashboardPage extends XotBasePage
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -995,6 +1000,9 @@ namespace Modules\SaluteOra\Filament\Widgets;
 namespace Modules\SaluteOra\Filament\Widgets;
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+namespace Modules\<nome progetto>\Filament\Widgets;
+>>>>>>> 551c768c4 (.)
 
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
@@ -1020,6 +1028,7 @@ class StatsWidget extends XotBaseWidget
 ### Text Input
 ```php
 TextInput::make('name')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1312,6 +1321,11 @@ TextInput::make('name')
     ->helperText(__('saluteora::fields.name.help'))
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+    ->label(__('<nome progetto>::fields.name.label'))
+    ->placeholder(__('<nome progetto>::fields.name.placeholder'))
+    ->helperText(__('<nome progetto>::fields.name.help'))
+>>>>>>> 551c768c4 (.)
     ->required()
     ->maxLength(255);
 ```
@@ -1319,6 +1333,7 @@ TextInput::make('name')
 ### Select
 ```php
 Select::make('status')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1351,10 +1366,13 @@ Select::make('status')
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 551c768c4 (.)
     ->label(__('<nome progetto>::fields.status.label'))
     ->options([
         'active' => __('<nome progetto>::fields.status.options.active'),
         'inactive' => __('<nome progetto>::fields.status.options.inactive'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1601,6 +1619,8 @@ Select::make('status')
 =======
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 551c768c4 (.)
     ])
     ->required();
 ```
@@ -1608,6 +1628,7 @@ Select::make('status')
 ### Date Picker
 ```php
 DatePicker::make('appointment_date')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1843,6 +1864,10 @@ DatePicker::make('appointment_date')
     ->placeholder(__('saluteora::fields.appointment_date.placeholder'))
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+    ->label(__('<nome progetto>::fields.appointment_date.label'))
+    ->placeholder(__('<nome progetto>::fields.appointment_date.placeholder'))
+>>>>>>> 551c768c4 (.)
     ->required()
     ->minDate(now());
 ```
@@ -1853,6 +1878,7 @@ DatePicker::make('appointment_date')
 ```php
 Tables\Columns\TextColumn::make('name')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2028,6 +2054,9 @@ Tables\Columns\TextColumn::make('name')
     ->label(__('saluteora::fields.name.label'))
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+    ->label(__('<nome progetto>::fields.name.label'))
+>>>>>>> 551c768c4 (.)
     ->searchable()
     ->sortable();
 ```
@@ -2036,6 +2065,7 @@ Tables\Columns\TextColumn::make('name')
 ```php
 Tables\Columns\BadgeColumn::make('status')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2211,6 +2241,9 @@ Tables\Columns\BadgeColumn::make('status')
     ->label(__('saluteora::fields.status.label'))
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+    ->label(__('<nome progetto>::fields.status.label'))
+>>>>>>> 551c768c4 (.)
     ->colors([
         'success' => 'active',
         'danger' => 'inactive',
@@ -2221,6 +2254,7 @@ Tables\Columns\BadgeColumn::make('status')
 ```php
 Tables\Columns\TextColumn::make('actions')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2252,12 +2286,15 @@ Tables\Columns\TextColumn::make('actions')
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 551c768c4 (.)
     ->label(__('<nome progetto>::actions.label'))
     ->actions([
         Tables\Actions\EditAction::make()
             ->label(__('<nome progetto>::actions.edit.label')),
         Tables\Actions\DeleteAction::make()
             ->label(__('<nome progetto>::actions.delete.label')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2510,6 +2547,8 @@ Tables\Columns\TextColumn::make('actions')
 =======
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 551c768c4 (.)
     ]);
 ```
 
@@ -2519,6 +2558,7 @@ Tables\Columns\TextColumn::make('actions')
 ```php
 Tables\Actions\CreateAction::make()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2694,6 +2734,9 @@ Tables\Actions\CreateAction::make()
     ->label(__('saluteora::actions.create.label'))
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+    ->label(__('<nome progetto>::actions.create.label'))
+>>>>>>> 551c768c4 (.)
     ->icon('heroicon-o-plus')
     ->color('primary');
 ```
@@ -2702,6 +2745,7 @@ Tables\Actions\CreateAction::make()
 ```php
 Tables\Actions\EditAction::make()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2877,6 +2921,9 @@ Tables\Actions\EditAction::make()
     ->label(__('saluteora::actions.edit.label'))
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+    ->label(__('<nome progetto>::actions.edit.label'))
+>>>>>>> 551c768c4 (.)
     ->icon('heroicon-o-pencil')
     ->color('warning');
 ```
@@ -2884,6 +2931,7 @@ Tables\Actions\EditAction::make()
 ### Delete Action
 ```php
 Tables\Actions\DeleteAction::make()
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2916,12 +2964,15 @@ Tables\Actions\DeleteAction::make()
 =======
 >>>>>>> 5a14301c (.)
 >>>>>>> 6ca989d8 (.)
+=======
+>>>>>>> 551c768c4 (.)
     ->label(__('<nome progetto>::actions.delete.label'))
     ->icon('heroicon-o-trash')
     ->color('danger')
     ->requiresConfirmation()
     ->modalHeading(__('<nome progetto>::actions.delete.modal_heading'))
     ->modalDescription(__('<nome progetto>::actions.delete.modal_description'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3174,6 +3225,8 @@ Tables\Actions\DeleteAction::make()
 =======
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 551c768c4 (.)
 ```
 
 ## 🎯 Best Practices
@@ -3190,6 +3243,7 @@ TextInput::make('name')->label('Nome')
 ### 2. Namespace
 ```php
 // ✅ CORRETTO - Namespace senza 'App'
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3239,10 +3293,13 @@ TextInput::make('name')->label('Nome')
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 551c768c4 (.)
 namespace Modules\<nome progetto>\Filament\Resources;
 
 // ❌ ERRATO - Namespace con 'App'
 namespace Modules\<nome progetto>\App\Filament\Resources;
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources;
 
 // ❌ ERRATO - Namespace con 'App'
@@ -3491,6 +3548,8 @@ namespace Modules\<nome modulo>\App\Filament\Resources;
 =======
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 551c768c4 (.)
 ```
 
 ### 3. Ereditarietà
@@ -3505,6 +3564,7 @@ class PatientResource extends Resource
 ### 4. Service Providers
 ```php
 // ✅ CORRETTO - Estendere XotBaseServiceProvider
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3554,6 +3614,8 @@ class PatientResource extends Resource
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 551c768c4 (.)
 class <nome progetto>ServiceProvider extends XotBaseServiceProvider
 {
     protected string $module_name = '<nome progetto>';
@@ -3561,6 +3623,7 @@ class <nome progetto>ServiceProvider extends XotBaseServiceProvider
 
 // ❌ ERRATO - Estendere direttamente
 class <nome progetto>ServiceProvider extends ServiceProvider
+<<<<<<< HEAD
 class ServiceProvider extends XotBaseServiceProvider
 {
     protected string $module_name = '';
@@ -3821,6 +3884,8 @@ class <nome progetto>ServiceProvider extends ServiceProvider
 =======
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 551c768c4 (.)
 ```
 
 ## 🚨 Errori Comuni
@@ -3848,6 +3913,7 @@ TextInput::make('name')  // Traduzione automatica
 ### 3. Namespace Errato
 ```php
 // ❌ ERRATO
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3897,10 +3963,13 @@ TextInput::make('name')  // Traduzione automatica
 >>>>>>> 7e4835b8e (.)
 =======
 >>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 551c768c4 (.)
 namespace Modules\<nome progetto>\App\Filament\Resources;
 
 // ✅ CORRETTO
 namespace Modules\<nome progetto>\Filament\Resources;
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\App\Filament\Resources;
 
 // ✅ CORRETTO
@@ -4149,6 +4218,8 @@ namespace Modules\<nome modulo>\Filament\Resources;
 =======
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+>>>>>>> 551c768c4 (.)
 ```
 
 ## 📋 Checklist Pre-Commit
@@ -4175,18 +4246,3 @@ namespace Modules\<nome modulo>\Filament\Resources;
 ---
 
 *Guida consolidata che elimina duplicazioni e semplifica la manutenzione della documentazione Filament.*
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)

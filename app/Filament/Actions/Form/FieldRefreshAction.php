@@ -11,6 +11,7 @@ namespace Modules\Xot\Filament\Actions\Form;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Set;
+<<<<<<< HEAD
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Set;
 use Filament\Schemas\Components\Utilities\Set;
@@ -20,6 +21,8 @@ use Illuminate\Support\Str;
 use Modules\Xot\Actions\Export\ExportXlsByCollection;
 use Modules\Xot\Actions\GetTransKeyAction;
 use Webmozart\Assert\Assert;
+=======
+>>>>>>> 551c768c4 (.)
 
 class FieldRefreshAction extends Action
 {
@@ -30,6 +33,7 @@ class FieldRefreshAction extends Action
         $this->translateLabel();
         $this->icon('heroicon-o-arrow-path')
             ->tooltip('Ricalcola valore')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -60,6 +64,9 @@ class FieldRefreshAction extends Action
             ->action(function ($state, $set, $record): void {
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            ->action(function ($record, Set $set): void {
+>>>>>>> 551c768c4 (.)
                 $name = $this->getName();
                 if ($name === null) {
                     return;
@@ -78,6 +85,7 @@ class FieldRefreshAction extends Action
                 Notification::make()
                     ->title('Valore ricalcolato')
                     ->body('Il valore del campo è stato ricalcolato con successo')
+<<<<<<< HEAD
                 $method = 'get' . Str::studly($name) . '';
                 $method = 'get'.Str::studly($name).'';
                 $method = 'get' . Str::studly($name) . '';
@@ -140,12 +148,15 @@ class FieldRefreshAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
                     ->success()
                     ->send();
             });
     }
 
     public static function getDefaultName(): ?string
+<<<<<<< HEAD
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
@@ -156,6 +167,8 @@ class FieldRefreshAction extends Action
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
+=======
+>>>>>>> 551c768c4 (.)
     {
         return 'field_refresh';
     }

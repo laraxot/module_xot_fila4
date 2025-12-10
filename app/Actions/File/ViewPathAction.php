@@ -36,12 +36,15 @@ class ViewPathAction
         Assert::string(
             $group_dir = Str::replace('.', '/', $stringable),
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::string($group_dir = Str::replace('.', '/', $stringable), '['.__LINE__.']['.class_basename(static::class).']');
         $res = $ns_dir.'/'.$group_dir.'.blade.php';
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
             '['.__LINE__.']['.class_basename(static::class).']',
         );
 <<<<<<< HEAD
@@ -50,6 +53,7 @@ class ViewPathAction
 =======
 <<<<<<< HEAD
         $res = $ns_dir.'/'.$group_dir.'.blade.php';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -274,6 +278,8 @@ class ViewPathAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
         return app(FixPathAction::class)->execute($res);
     }

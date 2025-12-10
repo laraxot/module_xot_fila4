@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
 # Raccomandazioni di Ottimizzazione - Modulo Xot
 
 ## 🎯 Stato Attuale e Problemi Critici
@@ -23,6 +11,7 @@
 
 ```php
 // ❌ PROBLEMA ATTUALE
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -260,6 +249,10 @@ public static string $projectBasePath = '/var/www/html/saluteora';
 public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+public static string $projectBasePath = '/var/www/html/<nome progetto>';
+public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
+>>>>>>> 551c768c4 (.)
 ```
 
 #### 2. XotData Incompleto
@@ -278,6 +271,7 @@ public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 - **XotBase classes**: Eccellente pattern di estensione
 - **Service Provider**: Centralizzazione corretta
 - **Migration Base**: XotBaseMigration ben progettata
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -339,6 +333,9 @@ public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
 - **Type Safety**: PHPStan Level 9 compliance
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+- **Type Safety**: PHPStan level 10 compliance
+>>>>>>> 551c768c4 (.)
 
 ### Consolidamento Documentazione
 - **Approccio DRY+KISS**: Eliminazione duplicazioni
@@ -546,6 +543,7 @@ abstract class XotBaseModel extends Model
 - [ ] **Metodi completi** per tutte le classi comuni
 - [ ] **Documentazione** completa con esempi
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -606,6 +604,9 @@ abstract class XotBaseModel extends Model
 - [ ] **Type safety** con PHPStan Level 9
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+- [ ] **Type safety** con PHPStan level 10
+>>>>>>> 551c768c4 (.)
 - [ ] **Performance** < 1ms per risoluzione classe
 
 ### Documentazione
@@ -636,6 +637,7 @@ abstract class XotBaseModel extends Model
 ### Pre-Implementazione
 ```bash
 # Verifica path hardcoded
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -812,6 +814,9 @@ grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
 grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+>>>>>>> 551c768c4 (.)
 
 # Verifica XotData usage
 grep -r "XotData::make()" Modules/Xot/ --include="*.php"
@@ -860,18 +865,3 @@ php artisan xot:test-framework
 - [XotData Current](../Datas/XotData.php)
 
 *Ultimo aggiornamento: gennaio 2025*
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)

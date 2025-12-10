@@ -2,6 +2,7 @@
 
 ## 🎯 Overview
 
+<<<<<<< HEAD
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
@@ -9,6 +10,9 @@ Documentazione completa delle best practice PHPStan per le factory Laravel, basa
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <main module> e conformi ai principi del framework Laraxot.
+>>>>>>> 551c768c4 (.)
 
 ## 📚 Principi Fondamentali
 
@@ -270,6 +274,20 @@ $result = $string . (string) $faker->method();
 ## 📝 Esempi Pratici
 
 ### Correzione Completa UserFactory
+<<<<<<< HEAD
+Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
+=======
+Vedere: `Modules/<main module>/database/factories/UserFactory.php`
+>>>>>>> 551c768c4 (.)
+
+### Factory Specializzate Corrette
+Vedere:
+- `Modules/<main module>/database/factories/AdminFactory.php`
+- `Modules/<main module>/database/factories/DoctorFactory.php`
+- `Modules/<main module>/database/factories/PatientFactory.php`
+
+### Documentazione Implementazione
+<<<<<<< HEAD
 Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -279,18 +297,12 @@ Vedere:
 - `Modules/SaluteOra/database/factories/PatientFactory.php`
 
 ### Documentazione Implementazione
-Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
-
-### Factory Specializzate Corrette
-Vedere:
-- `Modules/SaluteOra/database/factories/AdminFactory.php`
-- `Modules/SaluteOra/database/factories/DoctorFactory.php`
-- `Modules/SaluteOra/database/factories/PatientFactory.php`
-
-### Documentazione Implementazione
 Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
 Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
 Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
+=======
+Vedere: `Modules/<main module>/docs/factories/phpstan-factory-compliance.md`
+>>>>>>> 551c768c4 (.)
 
 ## 📊 Metriche di Successo
 

@@ -18,6 +18,7 @@ namespace Modules\Xot\Filament\Clusters;
 >>>>>>> 60f0a1820 (.)
 use Filament\Clusters\Cluster as FilamentCluster;
 use Illuminate\Contracts\Support\Htmlable;
+<<<<<<< HEAD
 >>>>>>> efbf15eba (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -632,6 +633,8 @@ use Illuminate\Support\Facades\Lang;
 =======
 >>>>>>> c2f6854c (.)
 >>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 class XotBaseCluster extends FilamentCluster
@@ -938,6 +941,7 @@ class XotBaseCluster extends FilamentCluster
             'key' => $key,
             'res' => $res,
         ]);
+<<<<<<< HEAD
 
         // return Lang::get('broker::cliente.navigation_group');
         //return Lang::get('broker::cliente.navigation_group');
@@ -957,6 +961,10 @@ class XotBaseCluster extends FilamentCluster
         //return Lang::get('broker::cliente.navigation_group');
         //return Lang::get('broker::cliente.navigation_group');
         //return Lang::get('broker::cliente.navigation_group');
+=======
+
+        // return Lang::get('broker::cliente.navigation_group');
+>>>>>>> 551c768c4 (.)
         return 'AAAAAAAAA';
     }
 

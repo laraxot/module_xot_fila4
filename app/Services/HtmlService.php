@@ -205,10 +205,13 @@ class HtmlService
         // $pdforientation = 'L'; // default;
         // $out = 'show';
         if ($filename === '') {
+<<<<<<< HEAD
         if ('' === $filename) {
         if ('' === $filename) {
         if ('' === $filename) {
         if ('' === $filename) {
+=======
+>>>>>>> 551c768c4 (.)
             $filename = Storage::disk('local')->path('test.pdf');
         }
         /*
@@ -319,6 +322,7 @@ class HtmlService
             $html2pdf->setTestTdInOnePage(false);
             $html2pdf->WriteHTML($html);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,6 +345,8 @@ class HtmlService
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 551c768c4 (.)
             if ($out === 'content_PDF') {
                 return $html2pdf->Output($filename.'.pdf', 'S');
 =======
@@ -368,6 +374,7 @@ class HtmlService
             }
 
             if ($out === 'file') {
+<<<<<<< HEAD
             if ('content_PDF' === $out) {
                 return $html2pdf->Output($filename . '.pdf', 'S');
             }
@@ -381,6 +388,8 @@ class HtmlService
             }
 
             if ('file' === $out) {
+=======
+>>>>>>> 551c768c4 (.)
                 $html2pdf->Output($filename, 'F');
 
                 return $filename;

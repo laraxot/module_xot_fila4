@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 5bd842e3 (.)
-=======
->>>>>>> 03ceeac3 (.)
 # Clean Code: Linee Guida per il Progetto
 
 Questo documento definisce le linee guida di Clean Code adottate nel progetto, basate sui principi di Robert C. Martin. Queste regole sono adattate specificamente per la struttura modulare Laravel utilizzata nel progetto.
@@ -260,6 +248,7 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
 
 4. **Rispetta la struttura standard dei moduli**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -402,37 +391,7 @@ Questo documento definisce le linee guida di Clean Code adottate nel progetto, b
    - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
 >>>>>>> b7ea1cd1 (.)
 >>>>>>> ecd5ec32 (.)
-   - Usa il namespace `Modules\NomeModulo\Models` (senza "app")
 =======
->>>>>>> cc7fb225 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-   - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
-   - Usa il namespace `Modules\NomeModulo\Models` (senza "app")
->>>>>>> 33af3e61 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-   - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
-=======
-   - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
    - Usa il percorso `/var/www/html/base_<nome progetto>/laravel/Modules/NomeModulo/app/Models/` per i modelli
-   - Usa il percorso `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/NomeModulo/app/Models/` per i modelli
->>>>>>> a5dccfe (.)
+>>>>>>> 551c768c4 (.)
    - Usa il namespace `Modules\NomeModulo\Models` (senza "app")
->>>>>>> 5bd842e3 (.)
-=======
-   - Usa il percorso `/var/www/html/base_saluteora/laravel/Modules/NomeModulo/app/Models/` per i modelli
-   - Usa il namespace `Modules\NomeModulo\Models` (senza "app")
->>>>>>> 03ceeac3 (.)

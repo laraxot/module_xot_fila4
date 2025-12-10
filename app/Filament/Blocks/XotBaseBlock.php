@@ -7,6 +7,7 @@ namespace Modules\Xot\Filament\Blocks;
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
 use Filament\Schemas\Components\Component;
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
@@ -22,6 +23,8 @@ use Filament\Forms\Components\Select;
 use Filament\Schemas\Components\Component;
 use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\Select;
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Filament\Forms\Components\Builder\Block;
@@ -62,9 +65,12 @@ abstract class XotBaseBlock
 
     public static function make(string $name = 'article_list', string $context = 'form'): Block
     {
+<<<<<<< HEAD
 
     public static function make(string $name = 'article_list', string $context = 'form'): Block
     {
+=======
+>>>>>>> 551c768c4 (.)
         /** @var array<Component> $schema */
         $schema = array_merge(static::getBlockSchema(), static::getBlockVarSchema());
 
@@ -72,6 +78,7 @@ abstract class XotBaseBlock
     }
 
     /**
+<<<<<<< HEAD
         /**
          * @var array<Component>
          */
@@ -110,6 +117,8 @@ abstract class XotBaseBlock
     /**
      * Undocumented function.
      *
+=======
+>>>>>>> 551c768c4 (.)
      * @return array<Component>
      * @return array<Component>
      * @return array<Component>
@@ -122,6 +131,7 @@ abstract class XotBaseBlock
     }
 
     /**
+<<<<<<< HEAD
      * Undocumented function.
      *
      * Undocumented function.
@@ -144,6 +154,8 @@ abstract class XotBaseBlock
      *
      * Undocumented function.
      *
+=======
+>>>>>>> 551c768c4 (.)
      * @return array<Component>
      */
     public static function getBlockVarSchema(): array

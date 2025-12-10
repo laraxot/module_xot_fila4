@@ -16,6 +16,7 @@ class StartQueryLogAction
     public function execute(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
         Event::listen(QueryExecuted::class, function (QueryExecuted $query) {
@@ -43,6 +44,9 @@ class StartQueryLogAction
         Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        Event::listen(QueryExecuted::class, function (QueryExecuted $query): void {
+>>>>>>> 551c768c4 (.)
             $sql = $query->sql;
             $time = $query->time;
             $connection = $query->connection->getName();
@@ -51,6 +55,7 @@ class StartQueryLogAction
                 'driver' => 'daily',
                 'path' => storage_path('logs/querylog.log'),
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -249,10 +254,13 @@ class StartQueryLogAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
             $log->debug('query : '.$sql);
             $log->debug('time '.$time);
             $log->debug('connection '.$connection);
             $log->debug('bindings '.print_r($query->bindings, true));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -463,6 +471,8 @@ class StartQueryLogAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         });
     }
 }

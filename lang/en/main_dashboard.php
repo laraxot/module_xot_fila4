@@ -8,6 +8,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 return array (
   'sections' => 
   array (
@@ -18,3 +19,5 @@ return array (
     ),
   ),
 );
+=======
+>>>>>>> 551c768c4 (.)

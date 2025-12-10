@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Exceptions\Handlers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,10 +23,13 @@ namespace Modules\Xot\Exceptions\Handlers;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Closure;
 use ReflectionClass;
 use ReflectionFunction;
 use Throwable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -76,6 +80,8 @@ use Throwable;
 use Closure;
 use ReflectionFunction;
 use ReflectionClass;
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * The handlers repository.
@@ -177,12 +183,16 @@ class HandlersRepository
 >>>>>>> 5cf46378 (.)
         return array_filter(
             $this->reporters,
+<<<<<<< HEAD
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+=======
+            fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+>>>>>>> 551c768c4 (.)
         );
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,12 +318,16 @@ class HandlersRepository
 >>>>>>> 5cf46378 (.)
         return array_filter(
             $this->renderers,
+<<<<<<< HEAD
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+=======
+            fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+>>>>>>> 551c768c4 (.)
         );
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,12 +453,16 @@ class HandlersRepository
 >>>>>>> 5cf46378 (.)
         return array_filter(
             $this->consoleRenderers,
+<<<<<<< HEAD
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
             fn(mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+=======
+            fn (mixed $handler) => is_callable($handler) && $this->handlesException($handler, $e),
+>>>>>>> 551c768c4 (.)
         );
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,6 +544,7 @@ class HandlersRepository
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -580,6 +599,8 @@ class HandlersRepository
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         if (! ($params = $reflection->getParameters())) {
 =======
 <<<<<<< HEAD
@@ -606,6 +627,7 @@ class HandlersRepository
         }
 
         return $params[0]->getClass() instanceof ReflectionClass ? $params[0]->getClass()->isInstance($e) : true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -958,5 +980,7 @@ class HandlersRepository
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     }
 }

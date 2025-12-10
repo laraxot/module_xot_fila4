@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\ModelClass;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26,12 +27,13 @@ namespace Modules\Xot\Actions\ModelClass;
 =======
 =======
 =======
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Xot\Models\InformationSchemaTable;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -417,6 +419,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * Counts records for a given model class using optimized table information.
@@ -429,10 +433,15 @@ class CountAction
      * Execute the count action for the given model class.
      *
      * @param class-string<Model> $modelClass The fully qualified model class name
+<<<<<<< HEAD
+=======
+     * @return int The total count of records
+>>>>>>> 551c768c4 (.)
      *
 <<<<<<< HEAD
 =======
      * @throws InvalidArgumentException If model class is invalid or not found
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -453,6 +462,8 @@ class CountAction
 >>>>>>> 091f883c (.)
      *
      * @return int The total count of records
+=======
+>>>>>>> 551c768c4 (.)
      */
     public function execute(string $modelClass): int
     {

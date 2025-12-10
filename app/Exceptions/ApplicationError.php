@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Exceptions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use JsonSerializable;
 use Override;
 use Override;
@@ -70,6 +71,8 @@ use Override;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use JsonSerializable;
@@ -108,6 +111,7 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
     public function __construct(
         private string $help = '',
         private string $error = '',
+<<<<<<< HEAD
 <<<<<<< HEAD
 use JsonSerializable;
 use Override;
@@ -181,6 +185,8 @@ readonly class ApplicationError implements JsonSerializable, Arrayable, Jsonable
     public function __construct(
         private  string $help = '',
         private  string $error = '',
+=======
+>>>>>>> 551c768c4 (.)
     ) {}
 <<<<<<< HEAD
 {
@@ -258,9 +264,13 @@ class ApplicationError implements JsonSerializable, Arrayable, Jsonable
 
     public function toJson($options = 0): string
     {
+<<<<<<< HEAD
         $jsonEncoded = json_encode($this->jsonSerialize(), $options);
         // throw_unless($jsonEncoded, JsonEncodeException::class);
 
         return $jsonEncoded;
+=======
+        return json_encode($this->jsonSerialize(), $options);
+>>>>>>> 551c768c4 (.)
     }
 }

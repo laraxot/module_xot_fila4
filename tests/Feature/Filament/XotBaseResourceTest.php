@@ -32,6 +32,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 uses(TestCase::class, RefreshDatabase::class);
 
+<<<<<<< HEAD
 beforeEach(function () {
     $this->resource = new class extends XotBaseResource {
 <<<<<<< HEAD
@@ -464,6 +465,8 @@ test('xot base resource extends filament resource', function (): void {
 =======
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 551c768c4 (.)
 beforeEach(function () {
     $this->resource = new class extends XotBaseResource
     {
@@ -474,6 +477,7 @@ beforeEach(function () {
         protected static string | \UnitEnum | null $navigationGroup = 'Test Group';
 
         protected static ?int $navigationSort = 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
@@ -517,10 +521,13 @@ test('xot base resource extends filament resource', function (): void {
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     };
 });
 
 test('xot base resource extends filament resource', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -538,6 +545,8 @@ test('xot base resource extends filament resource', function () {
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     expect($this->resource)->toBeInstanceOf(Resource::class);
 });
 

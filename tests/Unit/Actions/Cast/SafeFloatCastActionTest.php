@@ -267,6 +267,7 @@ it('casts arrays', function (): void {
 it('casts objects', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @phpstan-ignore-next-line property.notFound */
     /** @phpstan-ignore-next-line property.notFound */
 =======
@@ -365,6 +366,9 @@ it('casts objects', function (): void {
     $result = $this->action->execute(new stdClass());
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
+=======
+    $result = $this->action->execute(new stdClass);
+>>>>>>> 551c768c4 (.)
     expect($result)->toBe(0.0)->toBeFloat();
 });
 

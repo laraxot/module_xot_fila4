@@ -125,6 +125,7 @@ class DatabaseBackUpCommand extends Command
      * Create a new command instance.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,12 +415,15 @@ class DatabaseBackUpCommand extends Command
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
     /**
      * Execute the console command.
      */
     public function handle(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
         $backup_path = storage_path('app/backup/'.$filename);
@@ -644,6 +648,10 @@ class DatabaseBackUpCommand extends Command
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
+        $backup_path = storage_path('app/backup/'.$filename);
+>>>>>>> 551c768c4 (.)
         Assert::string(
             $backup_path = Str::replace(['/', '\\'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $backup_path),
             'wip',
@@ -746,6 +754,7 @@ class DatabaseBackUpCommand extends Command
             ' '.
             $database.
             '  | gzip > '.
+<<<<<<< HEAD
             'mysqldump --user=' .
             $user .
             ' --password=' .
@@ -755,6 +764,8 @@ class DatabaseBackUpCommand extends Command
             ' ' .
             $database .
             '  | gzip > ' .
+=======
+>>>>>>> 551c768c4 (.)
             $backup_path;
 <<<<<<< HEAD
 <<<<<<< HEAD

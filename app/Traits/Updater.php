@@ -27,7 +27,10 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 551c768c4 (.)
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  * @property-read ProfileContract|null $deleter
@@ -64,6 +67,7 @@ trait Updater
 {
     /**
      * Get the user who created the model.
+<<<<<<< HEAD
      * Summary of creator.
      *
      * @return BelongsTo<ProfileContract&Model, static>
@@ -92,12 +96,15 @@ trait Updater
      * Summary of creator.
      *
      * @return BelongsTo<ProfileContract&Model, static>
+=======
+>>>>>>> 551c768c4 (.)
      */
     public function creator(): BelongsTo
     {
         /** @var class-string<ProfileContract&Model> $profileClass */
         $profileClass = XotData::make()->getProfileClass();
 
+<<<<<<< HEAD
         // @phpstan-ignore return.type
 <<<<<<< HEAD
 =======
@@ -292,6 +299,8 @@ trait Updater
 >>>>>>> 3eee6f79 (.)
 =======
 >>>>>>> c2f6854c (.)
+=======
+>>>>>>> 551c768c4 (.)
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
 <<<<<<< HEAD
 >>>>>>> 0117b849c (.)
@@ -406,27 +415,13 @@ trait Updater
 
     /**
      * Get the last user who updated the model.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-     *
-     * @return BelongsTo<ProfileContract&Model, static>
->>>>>>> 5a14301c (.)
-=======
-     *
-     * @return BelongsTo<ProfileContract&Model, static>
->>>>>>> 5a14301c (.)
-=======
-     *
-     * @return BelongsTo<ProfileContract&Model, static>
->>>>>>> 5a14301c (.)
      */
     public function updater(): BelongsTo
     {
         /** @var class-string<ProfileContract&Model> $profileClass */
         $profileClass = XotData::make()->getProfileClass();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -762,6 +757,8 @@ trait Updater
 >>>>>>> 3eee6f79 (.)
 =======
 >>>>>>> c2f6854c (.)
+=======
+>>>>>>> 551c768c4 (.)
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
 <<<<<<< HEAD
 >>>>>>> 0117b849c (.)
@@ -835,6 +832,7 @@ trait Updater
     }
 
     /**
+<<<<<<< HEAD
         // @phpstan-ignore return.type
         // @phpstan-ignore return.type
         // @phpstan-ignore return.type
@@ -974,6 +972,8 @@ trait Updater
     }
 
     /**
+=======
+>>>>>>> 551c768c4 (.)
      * Get the user who deleted the model.
      */
     public function deleter(): BelongsTo
@@ -1465,6 +1465,7 @@ trait Updater
 >>>>>>> 60f0a1820 (.)
         static::deleting(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
+<<<<<<< HEAD
             Assert::isArray($attributes = $model->attributes);
             Assert::isArray($attributes = $model->attributes);
             Assert::isArray($attributes = $model->attributes);
@@ -1476,6 +1477,8 @@ trait Updater
             Assert::isArray($attributes = $model->attributes);
             Assert::isArray($attributes = $model->attributes);
             Assert::isArray($attributes = $model->attributes);
+=======
+>>>>>>> 551c768c4 (.)
 
             if (\in_array('deleted_by', array_keys($attributes), false)) {
                 $model->setAttribute('deleted_by', authId());

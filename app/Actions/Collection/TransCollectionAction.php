@@ -100,6 +100,7 @@ class TransCollectionAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|string $transKey;
     public null|string $transKey;
     public null|string $transKey;
@@ -370,6 +371,9 @@ class TransCollectionAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public ?string $transKey;
+>>>>>>> 551c768c4 (.)
 
     /**
      * Esegue la traduzione di una collezione.
@@ -393,11 +397,15 @@ class TransCollectionAction
      * @param  Collection<int|string, mixed>  $collection
      * @return Collection<int|string, string>
      */
+<<<<<<< HEAD
     public function execute(Collection $collection, null|string $transKey): Collection
     public function execute(Collection $collection, null|string $transKey): Collection
     public function execute(Collection $collection, null|string $transKey): Collection
     public function execute(Collection $collection, null|string $transKey): Collection
     public function execute(Collection $collection, null|string $transKey): Collection
+=======
+    public function execute(Collection $collection, ?string $transKey): Collection
+>>>>>>> 551c768c4 (.)
     {
         if ($transKey === null) {
             return $collection->map(SafeStringCastAction::cast(...));
@@ -631,6 +639,7 @@ class TransCollectionAction
     {
         // Converte l'item in stringa se non lo è già
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!\is_string($item)) {
         if (!\is_string($item)) {
         if (!\is_string($item)) {
@@ -807,6 +816,9 @@ class TransCollectionAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if (! \is_string($item)) {
+>>>>>>> 551c768c4 (.)
             $item = SafeStringCastAction::cast($item);
         }
 
@@ -874,6 +886,7 @@ class TransCollectionAction
 
         // Prima prova la traduzione diretta
 <<<<<<< HEAD
+<<<<<<< HEAD
         $key = $this->transKey . '.' . $item;
         $key = $this->transKey . '.' . $item;
         $key = $this->transKey . '.' . $item;
@@ -1144,6 +1157,9 @@ class TransCollectionAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        $key = $this->transKey.'.'.$item;
+>>>>>>> 551c768c4 (.)
         $trans = trans($key);
 
         // Se la traduzione esiste ed è una stringa, la restituisce
@@ -1154,6 +1170,7 @@ class TransCollectionAction
         // Seconda prova: sostituisce i punti con underscore
         $itemWithUnderscore = str_replace('.', '_', $item);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $keyWithUnderscore = $this->transKey . '.' . $itemWithUnderscore;
         $keyWithUnderscore = $this->transKey . '.' . $itemWithUnderscore;
         $keyWithUnderscore = $this->transKey . '.' . $itemWithUnderscore;
@@ -1424,6 +1441,9 @@ class TransCollectionAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        $keyWithUnderscore = $this->transKey.'.'.$itemWithUnderscore;
+>>>>>>> 551c768c4 (.)
         $transWithUnderscore = trans($keyWithUnderscore);
 
         // Se la traduzione con underscore esiste ed è una stringa, la restituisce

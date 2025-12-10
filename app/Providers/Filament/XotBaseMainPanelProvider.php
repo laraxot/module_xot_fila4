@@ -23,6 +23,7 @@ use Modules\Xot\Actions\Panel\ApplyMetatagToPanelAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Pages\MainDashboard;
 use Nwidart\Modules\Facades\Module;
+<<<<<<< HEAD
 use Exception;
 use Filament\Panel;
 use Filament\PanelProvider;
@@ -87,6 +88,8 @@ use Modules\Xot\Actions\Panel\ApplyMetatagToPanelAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Pages\MainDashboard;
 use Nwidart\Modules\Facades\Module;
+=======
+>>>>>>> 551c768c4 (.)
 
 abstract class XotBaseMainPanelProvider extends PanelProvider
 {
@@ -98,11 +101,16 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
 
         $panel->id('admin')->path('admin');
 
+<<<<<<< HEAD
         if (!Module::has('Cms')) {
         if (!Module::has('Cms')) {
         if (!Module::has('Cms')) {
         if (!Module::has('Cms')) {
         if (!Module::has('Cms')) {
+=======
+        if (! Module::has('Cms')) {
+            // $panel->login(Login::class);
+>>>>>>> 551c768c4 (.)
             $panel->login();
         }
 
@@ -152,6 +160,7 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             );
         }
         $panel = $panel
+<<<<<<< HEAD
         $panel = $panel
         $panel = $panel
         $panel = $panel
@@ -185,6 +194,8 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
+=======
+>>>>>>> 551c768c4 (.)
             ->widgets([
                 // Widgets\AccountWidget::class,
             ])
@@ -204,11 +215,15 @@ abstract class XotBaseMainPanelProvider extends PanelProvider
             ]);
         $navs = app(GetModulesNavigationItems::class)->execute();
         $panel->navigationItems($navs);
+<<<<<<< HEAD
         
         
         
         
         
+=======
+
+>>>>>>> 551c768c4 (.)
         // Temporaneamente disabilitato per debug tenancy
         // $profile_url = MyProfilePage::getUrl(panel: $panel->getId());
         $profile_url = '#';

@@ -24,9 +24,12 @@ class PdfByViewAction
         $html = $view->render();
 
         return app(PdfByHtmlAction::class)->execute($html, $filename, $disk, $out, $orientation);
+<<<<<<< HEAD
     ): string|BinaryFileResponse {
         $html = $view->render();
 
         return app(PdfByHtmlAction::class)->execute($html, $filename, $disk, $out);
+=======
+>>>>>>> 551c768c4 (.)
     }
 }

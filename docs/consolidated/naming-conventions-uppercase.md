@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni di Nomenclatura in <nome progetto>
 =======
 <<<<<<< HEAD
@@ -82,6 +83,9 @@
 =======
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)
 # Convenzioni di Nomenclatura in <nome progetto>
 
 Questo documento definisce le convenzioni ufficiali di nomenclatura da utilizzare in tutto il progetto <nome progetto>.
@@ -227,6 +231,7 @@ Descrizione dettagliata se necessaria
 
 Tipi: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,6 +342,9 @@ Tipi: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)
 # Convenzioni di Nomenclatura in Laravel Modules
 
 Questo documento definisce le convenzioni ufficiali di nomenclatura da utilizzare in tutto il progetto Laravel Modules.
@@ -394,6 +402,7 @@ Questo documento descrive le convenzioni di denominazione da seguire all'interno
 - [Guida all'implementazione di PHPStan](./PHPSTAN-IMPLEMENTATION-GUIDE.md)
 - [Best practice per i provider di servizi](./SERVICE-PROVIDER-BEST-PRACTICES.md)
 - [Best practice per Filament](./FILAMENT-BEST-PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Convenzioni di Nomenclatura in Laravel Modules
 
@@ -747,3 +756,6 @@ Descrizione dettagliata se necessaria
 Tipi: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

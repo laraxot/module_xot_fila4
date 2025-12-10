@@ -29,6 +29,10 @@ class CustomRelationAction
         $keyName = $related->getKeyName();
         foreach ($relationDTO->data as $data) {
             Assert::isArray($data);
+<<<<<<< HEAD
+=======
+            /** @var array<string, mixed> $data PHPStan: ensure correct type */
+>>>>>>> 551c768c4 (.)
             if (\in_array($keyName, array_keys($data), false)) {
 <<<<<<< HEAD
 <<<<<<< HEAD

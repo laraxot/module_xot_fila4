@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Regola generale: Label e traduzioni in Filament
 
 ## Regola
@@ -44,6 +47,7 @@
 - Test che verifica la presenza di tutte le chiavi di traduzione.
 
 ## Collegamenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -97,10 +101,13 @@ Ultimo aggiornamento: maggio 2025.
 - [docs Lang](../../Lang/project_docs/filament-label.md)
 
 Ultimo aggiornamento: maggio 2025.
+=======
+>>>>>>> 551c768c4 (.)
 - [docs root](../../../../docs/actions.md)
 - [docs Lang](../../Lang/docs/filament-label.md)
 
 Ultimo aggiornamento: maggio 2025.
+<<<<<<< HEAD
 - [docs root](../../../../project_docs/actions.md)
 - [docs Lang](../../Lang/project_docs/filament-label.md)
 
@@ -420,3 +427,9 @@ Ultimo aggiornamento: maggio 2025.
 Ultimo aggiornamento: maggio 2025.
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+=======
+=======
+Ultimo aggiornamento: maggio 2025.
+=======
+>>>>>>> 551c768c4 (.)

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Schema;
@@ -30,6 +31,8 @@ use Filament\Schemas\Components\Utilities\Get;
 use Filament\Actions\Action;
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Utilities\Get;
+=======
+>>>>>>> 551c768c4 (.)
 use Filament\Actions\Action;
 use Filament\Forms\Components\ColorPicker;
 use Filament\Forms\Components\Repeater;
@@ -57,7 +60,10 @@ use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * @property Schema $form
@@ -82,6 +88,7 @@ class MetatagPage extends Page implements HasForms
     use NavigationLabelTrait;
 
     public ?array $data = [];
+<<<<<<< HEAD
     public null|array $data = [];
     public null|array $data = [];
     public null|array $data = [];
@@ -158,6 +165,8 @@ class MetatagPage extends Page implements HasForms
     public null|array $data = [];
     public null|array $data = [];
     public null|array $data = [];
+=======
+>>>>>>> 551c768c4 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
 
@@ -185,6 +194,7 @@ class MetatagPage extends Page implements HasForms
                 TextInput::make('author'),
                 TextInput::make('description'),
                 TextInput::make('keywords'),
+<<<<<<< HEAD
                 /*
                  * FileUpload::make('logo_header')
                  * ->preserveFilenames()
@@ -201,6 +211,8 @@ class MetatagPage extends Page implements HasForms
                  * })->first() )
                  * ,
                  */
+=======
+>>>>>>> 551c768c4 (.)
                 TextInput::make('logo_header'),
                 TextInput::make('logo_header_dark')->helperText('logo for dark css'),
                 TextInput::make('logo_height'),
@@ -213,6 +225,7 @@ class MetatagPage extends Page implements HasForms
                             ->options(array_combine(array_keys(Color::all()), array_keys(Color::all())))
                             ->reactive(),
                         ColorPicker::make('hex')
+<<<<<<< HEAD
                             ->label('Chiave')
                             ->required()
                             ->options($metatag->getFilamentColors()),
@@ -258,6 +271,8 @@ class MetatagPage extends Page implements HasForms
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
                             ->required(),
                     ])
                     ->columns(3),

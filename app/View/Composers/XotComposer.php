@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\View\Composers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,15 +195,17 @@ use Exception;
 use Jenssegers\Agent\Agent;
 use Modules\Xot\Actions\File\AssetAction;
 >>>>>>> 9db27d12 (.)
+=======
+use Illuminate\Contracts\Auth\Authenticatable;
+use Exception;
+>>>>>>> 551c768c4 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use Illuminate\View\View;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Jenssegers\Agent\Agent;
 use Modules\Xot\Actions\File\AssetAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,6 +248,8 @@ use Illuminate\View\View;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Actions\File\AssetPathAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
@@ -349,11 +354,15 @@ class XotComposer
     /**
      * Undocumented function.
      *
+<<<<<<< HEAD
      * @param array<mixed|void> $arguments
      * @param array<mixed|void> $arguments
      * @param array<mixed|void> $arguments
      * @param array<mixed|void> $arguments
      * @param array<mixed|void> $arguments
+=======
+     * @param  array<mixed|void>  $arguments
+>>>>>>> 551c768c4 (.)
      */
     public function __call(string $name, array $arguments): mixed
     {
@@ -377,19 +386,28 @@ class XotComposer
 >>>>>>> 5cf46378 (.)
         $module = Arr::first($modules, static function ($module) use ($name): bool {
             // Ensure the module is an instance of LaravelModule
+<<<<<<< HEAD
             if (!($module instanceof LaravelModule)) {
             if (!($module instanceof LaravelModule)) {
             if (!($module instanceof LaravelModule)) {
             if (!($module instanceof LaravelModule)) {
             if (!($module instanceof LaravelModule)) {
+=======
+            if (! ($module instanceof LaravelModule)) {
+>>>>>>> 551c768c4 (.)
                 return false;
             }
 
             Assert::string($moduleName = $module->getName());
+<<<<<<< HEAD
+=======
+            $class = '\Modules\\'.$moduleName.'\View\Composers\ThemeComposer';
+>>>>>>> 551c768c4 (.)
 
             return method_exists($class, $name);
         });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -438,6 +456,8 @@ class XotComposer
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         if (! \is_object($module)) {
             throw new Exception('Create a View\Composers\ThemeComposer.php inside a module with ['.
                 $name.
@@ -446,6 +466,7 @@ class XotComposer
 
         Assert::isInstanceOf($module, LaravelModule::class, '['.__LINE__.']['.class_basename($this).']');
         $class = '\Modules\\'.$module->getName().'\View\Composers\ThemeComposer';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -947,6 +968,8 @@ class XotComposer
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
         $app = app($class);
         $callback = [$app, $name];
@@ -986,19 +1009,8 @@ class XotComposer
 =======
 >>>>>>> 5cf46378 (.)
         if (class_exists('\Jenssegers\Agent\Agent')) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             $agent = new Agent;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1216,6 +1228,8 @@ class XotComposer
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
             $view->with('isMobile', $agent->isMobile());
             $view->with('isTablet', $agent->isTablet());
             $view->with('isDesktop', $agent->isDesktop());
@@ -1224,11 +1238,17 @@ class XotComposer
         if (Auth::check()) {
             $profile = XotData::make()->getProfileModel();
             $view->with('profile', $profile);
+<<<<<<< HEAD
             $view->with('user', auth()->user());
             $view->with('user', auth()->user());
             $view->with('user', auth()->user());
             $view->with('user', auth()->user());
             $view->with('user', auth()->user());
+=======
+            /** @var Authenticatable|null $user */
+            $user = auth()->user();
+            $view->with('user', $user);
+>>>>>>> 551c768c4 (.)
         }
     }
 
@@ -1323,6 +1343,7 @@ class XotComposer
     public function metatag(string $str): string|bool|null
     {
         $metatag = MetatagData::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
         $fun = 'get' . Str::studly($str);
         $fun = 'get' . Str::studly($str);
@@ -1594,6 +1615,9 @@ class XotComposer
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        $fun = 'get'.Str::studly($str);
+>>>>>>> 551c768c4 (.)
         if (method_exists($metatag, $fun)) {
             // @phpstan-ignore return.type
             return $metatag->{$fun}();

@@ -10,6 +10,7 @@ namespace Modules\Xot\Filament\Actions\Header;
 
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
 // use Filament\Actions\Action;
+<<<<<<< HEAD
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
@@ -20,6 +21,8 @@ namespace Modules\Xot\Filament\Actions\Header;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
+=======
+>>>>>>> 551c768c4 (.)
 use Filament\Actions\Action;
 use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
@@ -97,6 +100,7 @@ class FakeSeederHeaderAction extends Action
                     ->integer(),
             ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,6 +142,9 @@ class FakeSeederHeaderAction extends Action
             ->action(function (array $data, ListRecords $livewire): void {
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            ->action(function (array $data, ListRecords $livewire): void {
+>>>>>>> 551c768c4 (.)
                 $resource = $livewire->getResource();
                 /** @var class-string<Model> $modelClass */
                 $modelClass = $resource::getModel();
@@ -159,6 +166,7 @@ class FakeSeederHeaderAction extends Action
 >>>>>>> d2b0a27 (.)
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -493,6 +501,9 @@ class FakeSeederHeaderAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                $title = 'On Queue '.$qty.' '.$modelClass;
+>>>>>>> 551c768c4 (.)
                 Notification::make()
                     ->title($title)
                     ->success()
@@ -501,6 +512,7 @@ class FakeSeederHeaderAction extends Action
             ->visible(false);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -839,6 +851,9 @@ class FakeSeederHeaderAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 551c768c4 (.)
     {
         return 'fake_seeder';
     }

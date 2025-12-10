@@ -8,6 +8,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Datas;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -20,10 +21,16 @@ use Spatie\LaravelPdf\Facades\Pdf;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Illuminate\Database\Eloquent\Model;
+=======
+use Exception;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\File;
+>>>>>>> 551c768c4 (.)
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Modules\Xot\Enums\PdfEngineEnum;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 use Spatie\LaravelPdf\Enums\Format;
 use Spatie\LaravelPdf\Enums\Orientation;
 use Spatie\LaravelPdf\Enums\Unit;
@@ -31,10 +38,13 @@ use Spatie\LaravelPdf\Facades\Pdf;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
+=======
+>>>>>>> 551c768c4 (.)
 use Spipu\Html2Pdf\Exception\HtmlParsingException;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 use Illuminate\Support\Str;
 use Spatie\LaravelData\Data;
 use Spipu\Html2Pdf\Html2Pdf;
@@ -63,6 +73,8 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * Undocumented class.
@@ -172,6 +184,7 @@ class PdfData extends Data
                  *
                  * break;
                  */
+<<<<<<< HEAD
                 $html2pdf = new Html2Pdf($this->orientation, $this->format, $this->lang);
                 $html2pdf->writeHTML($html);
                 $html2pdf->output($this->getPath(), $this->dest);
@@ -189,6 +202,8 @@ class PdfData extends Data
              *
              * break;
              */
+=======
+>>>>>>> 551c768c4 (.)
         }
 
                 /*
@@ -235,6 +250,7 @@ class PdfData extends Data
         /**
          * @var non-falsy-string&view-string
          */
+<<<<<<< HEAD
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
@@ -274,6 +290,9 @@ class PdfData extends Data
         $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+=======
+        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
+>>>>>>> 551c768c4 (.)
         $view_params = [
             'view' => $view_name,
             'row' => $model,
@@ -288,18 +307,23 @@ class PdfData extends Data
     {
         Assert::notNull(
             $res = Storage::disk($this->disk)->get($this->filename),
+<<<<<<< HEAD
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
+=======
+            '['.__LINE__.']['.class_basename($this).']',
+>>>>>>> 551c768c4 (.)
         );
         Assert::notNull($res = Storage::disk($this->disk)->get($this->filename), '['.__LINE__.']['.class_basename($this).']');
 
         return $res;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * @param array<string, mixed> $params
@@ -340,6 +364,11 @@ class PdfData extends Data
      */
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    /**
+     * @param  array<string, mixed>  $params
+     */
+>>>>>>> 551c768c4 (.)
     public function view(string $view, array $params = []): self
     {
         if (! view()->exists($view)) {
@@ -350,6 +379,7 @@ class PdfData extends Data
         $out = view($view, $typedParams);
         $this->html = $out->render();
 
+<<<<<<< HEAD
     public function view(string $view, array $params = []): self
     {
         if (!view()->exists($view)) {
@@ -365,12 +395,18 @@ class PdfData extends Data
         }
         $out = view($view, $params);
         $this->html = $out->render();
+=======
+>>>>>>> 551c768c4 (.)
         return $this->fromHtml($this->html);
     }
 
     public function setEngine(PdfEngineEnum $engine): self
     {
         $this->engine = $engine;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 551c768c4 (.)
         return $this;
     }
 }

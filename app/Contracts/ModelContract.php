@@ -8,6 +8,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Relations\Pivot;
+>>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Carbon;
@@ -45,6 +49,7 @@ use Illuminate\Support\Carbon;
  * @method array toArray()
  * @method BelongsTo user()
  * @method mixed getAttributeValue(string $key)
+<<<<<<< HEAD
  * @property int                $id
  * @property int|null           $user_id
  * @property string|null        $post_type
@@ -75,6 +80,8 @@ use Illuminate\Support\Carbon;
  * @method array     toArray()
  * @method BelongsTo user()
  * @method mixed     getAttributeValue(string $key)
+=======
+>>>>>>> 551c768c4 (.)
  *
  * @phpstan-require-extends Model
  *
@@ -201,6 +208,7 @@ interface ModelContract
      * Convert the model instance to an array representation.
      *
      * @return array<mixed>
+<<<<<<< HEAD
     /*
      * Save a new model and return the instance. Allow mass-assignment.
      *
@@ -391,6 +399,8 @@ interface ModelContract
      * Convert the model instance to an array.
      *
      * @return array
+=======
+>>>>>>> 551c768c4 (.)
      */
     public function toArray();
 
@@ -421,10 +431,13 @@ interface ModelContract
      */
     public function newInstance($attributes = [], $exists = false);
 
+<<<<<<< HEAD
      * @return mixed|int|string
      */
     public function getKey();
 
+=======
+>>>>>>> 551c768c4 (.)
     /*
      * Add a basic where clause to the query.
      *

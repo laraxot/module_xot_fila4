@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,6 +51,9 @@
 =======
 >>>>>>> 6e7c1905 (.)
 >>>>>>> 6a52563d6 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)
 # Convenzioni dei Namespace nel Modulo Xot
 
 ## Panoramica
@@ -9371,6 +9375,7 @@ php scripts/check-namespaces.php
  aurmich/dev
 Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerente e a evitare errori comuni durante l'analisi statica del codice con PHPStan. 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9428,3 +9433,6 @@ Seguire queste convenzioni di namespace aiuterà a mantenere un codebase coerent
 =======
 >>>>>>> 6e7c1905 (.)
 >>>>>>> 6a52563d6 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

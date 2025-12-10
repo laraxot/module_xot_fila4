@@ -37,6 +37,7 @@
 >>>>>>> 851793957 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 
 
@@ -62,6 +63,8 @@ declare(strict_types=1);
 
 
 
+=======
+>>>>>>> 551c768c4 (.)
 return [
     'actions' => [
         'authenticate' => [
@@ -78,12 +81,15 @@ return [
             'label' => 'request',
             'tooltip' => 'request',
             'icon' => 'request',
+<<<<<<< HEAD
         ],
         'login' => [
             'label' => 'login',
         ],
         'request' => [
             'label' => 'request',
+=======
+>>>>>>> 551c768c4 (.)
         ],
         'activeLocale' => [
             'label' => 'activeLocale',
@@ -354,6 +360,7 @@ return [
                 'label' => 'zeusData.2',
             ],
             [
+<<<<<<< HEAD
             4 => [
             4 => [
             4 => [
@@ -365,6 +372,8 @@ return [
             4 => [
             4 => [
             4 => [
+=======
+>>>>>>> 551c768c4 (.)
                 'description' => 'zeusData.4',
                 'helper_text' => 'zeusData.4',
                 'placeholder' => 'zeusData.4',

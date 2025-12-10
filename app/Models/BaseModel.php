@@ -7,6 +7,7 @@ namespace Modules\Xot\Models;
 // use Laravel\Scout\Searchable;
 // ---------- traits
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,10 +45,13 @@ use Modules\Xot\Traits\Updater;
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * Class BaseModel.
  */
+<<<<<<< HEAD
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +154,12 @@ abstract class BaseModel extends XotBaseModel
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+abstract class BaseModel extends XotBaseModel
+{
+    protected $connection = 'xot';
+
+>>>>>>> 551c768c4 (.)
     /** @return array<string, class-string|string> */
     protected function casts(): array
     {
@@ -158,6 +168,7 @@ abstract class BaseModel extends XotBaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -485,11 +496,14 @@ abstract class BaseModel extends XotBaseModel
 =======
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected $connection = 'xot';
 =======
@@ -509,4 +523,6 @@ abstract class BaseModel extends XotBaseModel
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 }

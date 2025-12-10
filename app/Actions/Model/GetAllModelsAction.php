@@ -10,6 +10,7 @@ namespace Modules\Xot\Actions\Model;
 
 use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 use Nwidart\Modules\Laravel\Module as LaravelModule;
@@ -185,6 +186,9 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 <<<<<<< HEAD
 >>>>>>> 15def8d (.)
 >>>>>>> 3ae5e299 (.)
+=======
+use Nwidart\Modules\Laravel\Module as LaravelModule;
+>>>>>>> 551c768c4 (.)
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,6 +226,7 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     public function execute(): array
@@ -381,6 +386,8 @@ class GetAllModelsAction
 =======
 >>>>>>> 3ae5e299 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+>>>>>>> 551c768c4 (.)
      *
      * @return array<int, class-string>
 =======
@@ -410,6 +417,7 @@ class GetAllModelsAction
 
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleNameValue);
             /** @var array<int, class-string> $tmp */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -730,6 +738,9 @@ class GetAllModelsAction
 >>>>>>> 73eab74 (.)
 >>>>>>> 3ae5e299 (.)
 >>>>>>> 9f27fc9a6 (.)
+=======
+            $res = array_merge($res, $tmp);
+>>>>>>> 551c768c4 (.)
         }
 
         return $res;

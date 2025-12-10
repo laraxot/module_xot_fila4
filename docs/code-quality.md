@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +86,8 @@
 =======
 <<<<<<< HEAD
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Code Quality - Xot Module
 
 > Last Updated: 2025-11-15 08:05:46
@@ -225,6 +228,7 @@ vendor/bin/phpstan analyse path/to/changed/file.php --level=10
 ---
 
 **Analysis Reports**: `bashscripts/quality-improvement/results/Xot/`
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1371,3 +1375,5 @@ unset($translations['existing_key']); // MAI!
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)

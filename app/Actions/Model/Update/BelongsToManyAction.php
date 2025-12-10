@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model\Update;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,12 +51,18 @@ use RuntimeException;
 use RuntimeException;
 use RuntimeException;
 use RuntimeException;
+=======
+>>>>>>> 551c768c4 (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\Session;
 use Modules\Xot\Actions\Model\UpdateAction;
 use Modules\Xot\Datas\RelationData as RelationDTO;
+<<<<<<< HEAD
+=======
+use RuntimeException;
+>>>>>>> 551c768c4 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -189,6 +196,7 @@ class BelongsToManyAction
             Assert::allScalar($to, 'The "to" field must contain only scalar values.');
 
             $rows->sync($to);
+<<<<<<< HEAD
             $status = 'collegati ['.implode(', ', $to).'] ';
             $status = 'collegati [' . implode(', ', $to) . '] ';
 <<<<<<< HEAD
@@ -491,6 +499,9 @@ class BelongsToManyAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            $status = 'collegati ['.implode(', ', $to).'] ';
+>>>>>>> 551c768c4 (.)
             Session::flash('status', $status);
 
             return;
@@ -511,6 +522,7 @@ class BelongsToManyAction
                 $safeData = $data;
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $safeData, []);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
                 // Assicura che $data sia type-safe per UpdateAction
@@ -832,6 +844,8 @@ class BelongsToManyAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();
@@ -857,6 +871,7 @@ class BelongsToManyAction
         }
 
         // Sincronizza gli ID raccolti
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!empty($ids)) {
         if (!empty($ids)) {
@@ -1128,6 +1143,9 @@ class BelongsToManyAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if (! empty($ids)) {
+>>>>>>> 551c768c4 (.)
             try {
                 // Assicura che $ids sia un array di valori scalari
                 // $ids è già un array non vuoto a questo punto, quindi non serve verificare se è iterabile

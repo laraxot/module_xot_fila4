@@ -1,19 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
 # Analisi Completa Modulo Xot - Factory, Seeder e Test
 
 ## 📊 Panoramica Generale
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -191,6 +180,9 @@ Il modulo Xot è la base fondamentale del sistema SaluteOra, fornendo classi bas
 Il modulo Xot è la base fondamentale del sistema SaluteOra, fornendo classi base, trait e funzionalità condivise per tutti gli altri moduli. Questo documento fornisce un'analisi completa dello stato attuale di factory, seeder e test, con focus sulla business logic.
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+Il modulo Xot è la base fondamentale del sistema <nome progetto>, fornendo classi base, trait e funzionalità condivise per tutti gli altri moduli. Questo documento fornisce un'analisi completa dello stato attuale di factory, seeder e test, con focus sulla business logic.
+>>>>>>> 551c768c4 (.)
 
 ## 🏗️ Struttura Modelli e Relazioni
 
@@ -438,6 +430,7 @@ Il modulo Xot è la base fondamentale del sistema SaluteOra, fornendo classi bas
 **Versione**: 1.0
 **Stato**: In Progress
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -569,40 +562,8 @@ Il modulo Xot è la base fondamentale del sistema SaluteOra, fornendo classi bas
 **Responsabile**: Team Sviluppo SaluteOra
 >>>>>>> b7ea1cd1 (.)
 >>>>>>> ecd5ec32 (.)
-**Prossima Revisione**: Gennaio 2025
-
 =======
->>>>>>> cc7fb225 (.)
-=======
-=======
->>>>>>> 3bf39332 (.)
-=======
->>>>>>> 76bec91a (.)
-=======
->>>>>>> e7da37af (.)
-=======
->>>>>>> 55fe1822 (.)
-**Responsabile**: Team Sviluppo SaluteOra
-**Prossima Revisione**: Gennaio 2025
-
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
-=======
->>>>>>> cf971011 (.)
-**Responsabile**: Team Sviluppo SaluteOra
-=======
-**Responsabile**: Team Sviluppo 
 **Responsabile**: Team Sviluppo <nome progetto>
->>>>>>> a5dccfe (.)
+>>>>>>> 551c768c4 (.)
 **Prossima Revisione**: Gennaio 2025
 
->>>>>>> e0b8ebe3 (.)
-=======
-**Responsabile**: Team Sviluppo SaluteOra
-**Prossima Revisione**: Gennaio 2025
-
->>>>>>> cc52d333 (.)

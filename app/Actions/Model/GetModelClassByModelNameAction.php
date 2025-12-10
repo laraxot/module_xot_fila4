@@ -23,6 +23,7 @@ class GetModelClassByModelNameAction
         Assert::isArray($morph_map = config('morph_map'));
         $modelClass = collect($morph_map)->get($modelName);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +284,12 @@ class GetModelClassByModelNameAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if ($modelClass === null) {
+            return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
+        }
+        Assert::string($modelClass, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+>>>>>>> 551c768c4 (.)
 
         return $modelClass;
     }

@@ -22,6 +22,7 @@ Prima di riavviare il sistema, è importante pulire tutte le cache per assicurar
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
@@ -60,6 +61,11 @@ Prima di riavviare il sistema, è importante pulire tutte le cache per assicurar
 
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -82,6 +88,7 @@ composer dump-autoload
 ### 2. Riavvio dei Servizi Web
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,11 +129,16 @@ sudo systemctl restart apache2
 sudo systemctl restart apache2
 >>>>>>> 0117b849c (.)
 =======
+# Riavvio del server web (Apache/Nginx)
+sudo systemctl restart apache2
+>>>>>>> 551c768c4 (.)
+=======
 
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
 
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,6 +175,8 @@ sudo systemctl restart apache2
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 551c768c4 (.)
 # oppure
 sudo systemctl restart nginx
 
@@ -173,6 +187,7 @@ sudo systemctl restart php8.1-fpm
 ### 3. Riavvio dei Worker di Queue (se utilizzati)
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,6 +237,11 @@ sudo systemctl restart php8.1-fpm
 
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -246,6 +266,7 @@ php artisan queue:work --daemon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
@@ -284,6 +305,11 @@ php artisan queue:work --daemon
 
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
 # Posizionarsi nella directory principale di Laravel
 cd /path/to/laravel
 
@@ -322,6 +348,7 @@ Se si verificano errori di autoloading dopo il riavvio:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
@@ -360,6 +387,11 @@ Se si verificano errori di autoloading dopo il riavvio:
 
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
 # Rigenerare l'autoloader di Composer
 composer dump-autoload -o
 
@@ -384,6 +416,7 @@ Se si verificano errori di permessi dopo il riavvio:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
@@ -422,6 +455,11 @@ Se si verificano errori di permessi dopo il riavvio:
 
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
 # Correggere i permessi delle directory di storage e bootstrap/cache
 sudo chown -R www-data:www-data storage bootstrap/cache
 sudo chmod -R 775 storage bootstrap/cache
@@ -443,6 +481,7 @@ Se si verificano errori di configurazione dopo il riavvio:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 6cba4fe (.)
@@ -481,6 +520,11 @@ Se si verificano errori di configurazione dopo il riavvio:
 
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
 # Rigenerare la cache delle configurazioni
 php artisan config:cache
 

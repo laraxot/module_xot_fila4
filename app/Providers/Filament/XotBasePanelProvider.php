@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Providers\Filament;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Panel;
 use Filament\PanelProvider;
 use Illuminate\Support\Arr;
@@ -126,6 +127,8 @@ use Modules\Xot\Datas\MetatagData;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\File;
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 <<<<<<< HEAD
@@ -159,6 +162,7 @@ use Modules\Xot\Actions\Panel\ApplyMetatagToPanelAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -552,6 +556,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
 abstract class XotBasePanelProvider extends PanelProvider
 {
@@ -706,6 +712,7 @@ abstract class XotBasePanelProvider extends PanelProvider
             // ->tenant($teamClass,ownershipRelationship:'users')
             // ->tenant($teamClass)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -760,6 +767,8 @@ abstract class XotBasePanelProvider extends PanelProvider
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
             ->id($moduleLow.'::admin')
             ->path($moduleLow.'/admin')
 =======
@@ -801,6 +810,7 @@ abstract class XotBasePanelProvider extends PanelProvider
             )
             ->discoverClusters(
                 in: base_path('Modules/'.$this->module.'/app/Filament/Clusters'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -892,6 +902,8 @@ abstract class XotBasePanelProvider extends PanelProvider
             )
             ->discoverClusters(
                 in: base_path('Modules/' . $this->module . '/app/Filament/Clusters'),
+=======
+>>>>>>> 551c768c4 (.)
                 for: sprintf('%s\\Filament\\Clusters', $moduleNamespace),
             )
             ->middleware([
@@ -909,6 +921,7 @@ abstract class XotBasePanelProvider extends PanelProvider
                 Authenticate::class,
             ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1220,6 +1233,8 @@ abstract class XotBasePanelProvider extends PanelProvider
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         return $panel;
     }
 
@@ -1234,6 +1249,7 @@ abstract class XotBasePanelProvider extends PanelProvider
 =======
         Assert::string($ns = config('modules.namespace'));
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1478,5 +1494,8 @@ abstract class XotBasePanelProvider extends PanelProvider
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        return $ns.'\\'.$this->module;
+>>>>>>> 551c768c4 (.)
     }
 }

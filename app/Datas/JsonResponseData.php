@@ -17,6 +17,7 @@ class JsonResponseData extends Data
     public string $message;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|int $code = null;
     public null|int $code = null;
     public null|int $code = null;
@@ -287,6 +288,9 @@ class JsonResponseData extends Data
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public ?int $code = null;
+>>>>>>> 551c768c4 (.)
 
     public array $data = [];
 

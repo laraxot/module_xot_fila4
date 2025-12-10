@@ -98,6 +98,7 @@ class ModuleFactory extends Factory
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,6 +446,9 @@ class ModuleFactory extends Factory
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 551c768c4 (.)
             'is_active' => true,
         ]);
     }
@@ -453,6 +457,7 @@ class ModuleFactory extends Factory
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -800,6 +805,9 @@ class ModuleFactory extends Factory
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 551c768c4 (.)
             'is_active' => false,
         ]);
     }
@@ -808,6 +816,7 @@ class ModuleFactory extends Factory
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1151,6 +1160,9 @@ class ModuleFactory extends Factory
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 551c768c4 (.)
             'priority' => $this->faker->numberBetween(80, 100),
         ]);
     }

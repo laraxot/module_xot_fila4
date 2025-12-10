@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,11 +19,14 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Linee Guida per la Documentazione
 
 ## Principi Fondamentali
 
 1. **Struttura Modulare**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -391,6 +395,10 @@
    - Le regole generali sono in `/Modules/Xot/docs/`
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
+   - Le regole generali sono in `/Modules/Xot/docs/`
+>>>>>>> 551c768c4 (.)
    - La root `/docs` contiene solo indici e collegamenti
 
 2. **Collegamenti Bidirezionali**
@@ -402,6 +410,7 @@
    ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -682,6 +691,9 @@
    Modules/Xot/docs/
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+   Modules/Xot/docs/
+>>>>>>> 551c768c4 (.)
    ├── guidelines/           # Linee guida generali
    ├── conventions/          # Convenzioni di codice
    ├── architecture/         # Architettura del framework
@@ -749,6 +761,7 @@ public function example(): void
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1029,6 +1042,9 @@ Modules/{ModuleName}/project_docs/
 Modules/{ModuleName}/docs/
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+Modules/{ModuleName}/docs/
+>>>>>>> 551c768c4 (.)
 ├── README.md              # Panoramica del modulo
 ├── installation.md        # Istruzioni di installazione
 ├── configuration.md       # Configurazione
@@ -1116,6 +1132,7 @@ php artisan api:generate
 * [documentation.md](docs/rules/documentation.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1194,11 +1211,14 @@ php artisan api:generate
 >>>>>>> 0ae90b17 (.)
 =======
 >>>>>>> 28fc70fe (.)
+=======
+>>>>>>> 551c768c4 (.)
 * [documentation.md](../../../Xot/docs/documentation.md)
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
 >>>>>>> 851793957 (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> cafe8bed (.)
@@ -1390,3 +1410,6 @@ php artisan api:generate
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

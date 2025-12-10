@@ -125,6 +125,7 @@ class MorphToOneAction
 >>>>>>> 5cf46378 (.)
 
         // }
+<<<<<<< HEAD
         //if ($relationDTO === null) {
         //    return;
         //}
@@ -176,6 +177,8 @@ class MorphToOneAction
         $rows->create($relationDTO->data);
 
         //}
+=======
+>>>>>>> 551c768c4 (.)
         // } else {
         //    $rows->sync($relation->data);
         // }

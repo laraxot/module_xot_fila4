@@ -12,5 +12,9 @@ use Illuminate\Database\Eloquent\Model;
 class DummyTestModel extends Model
 {
     protected $table = 'dummy_test_models';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 551c768c4 (.)
     protected $fillable = ['name'];
 }

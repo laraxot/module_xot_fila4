@@ -159,6 +159,7 @@ class InformationSchemaTableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
             'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
             'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
@@ -178,6 +179,9 @@ class InformationSchemaTableFactory extends Factory
             'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
+>>>>>>> 551c768c4 (.)
             'table_name' => $tableName,
             'table_type' => $this->faker->randomElement(['BASE TABLE', 'VIEW']),
             'engine' => $this->faker->randomElement(['InnoDB', 'MyISAM']),
@@ -204,6 +208,7 @@ class InformationSchemaTableFactory extends Factory
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -548,6 +553,9 @@ class InformationSchemaTableFactory extends Factory
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 551c768c4 (.)
             'table_type' => 'BASE TABLE',
         ]);
     }
@@ -556,6 +564,7 @@ class InformationSchemaTableFactory extends Factory
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -900,6 +909,9 @@ class InformationSchemaTableFactory extends Factory
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+>>>>>>> 551c768c4 (.)
             'table_type' => 'VIEW',
         ]);
     }

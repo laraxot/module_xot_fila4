@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Linee Guida per i Database in Laraxot
 
 Questo documento definisce le best practices per la gestione dei database nel framework Laraxot, inclusa la documentazione, la creazione di modelli e le migrazioni.
@@ -126,6 +129,7 @@ Generare e mantenere aggiornata una documentazione dettagliata in formato Markdo
 
 ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -136,6 +140,9 @@ Generare e mantenere aggiornata una documentazione dettagliata in formato Markdo
 
 =======
 >>>>>>> 1a525d0ea (.)
+=======
+
+>>>>>>> 551c768c4 (.)
 ## Tabella: nome_tabella
 
 **Descrizione:** Questa tabella contiene dati relativi a...
@@ -463,26 +470,6 @@ public function up(): void
 
 ```bash
 <<<<<<< HEAD
-
-
-
-
-
-
-
-
-=======
->>>>>>> 1a525d0ea (.)
-# Genera documentazione dello schema da un file JSON
-php artisan xot:generate-db-documentation /path/to/schema.json /path/to/output
-
-# Genera diagramma ER
-php artisan schema:generate-diagram --tables=tabella1,tabella2 --path=/path/to/output
-```
-
-### 2. Analisi del Database
-
-```bash
 <<<<<<< HEAD
 
 
@@ -494,6 +481,34 @@ php artisan schema:generate-diagram --tables=tabella1,tabella2 --path=/path/to/o
 
 =======
 >>>>>>> 1a525d0ea (.)
+=======
+
+>>>>>>> 551c768c4 (.)
+# Genera documentazione dello schema da un file JSON
+php artisan xot:generate-db-documentation /path/to/schema.json /path/to/output
+
+# Genera diagramma ER
+php artisan schema:generate-diagram --tables=tabella1,tabella2 --path=/path/to/output
+```
+
+### 2. Analisi del Database
+
+```bash
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+=======
+>>>>>>> 1a525d0ea (.)
+=======
+
+>>>>>>> 551c768c4 (.)
 # Esporta lo schema del database in JSON
 php artisan db:export-schema --connection=nome_connessione --output=/path/to/output.json
 
@@ -541,6 +556,7 @@ php artisan db:analyze-usage --connection=nome_connessione
 - Verificare che ci siano indici appropriati
 - Controllare che i tipi di dati siano ottimali per l'uso previsto
 - Utilizzare query builder o raw queries per query complesse
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -600,3 +616,7 @@ php artisan db:analyze-usage --connection=nome_connessione
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+=======
+>>>>>>> 551c768c4 (.)

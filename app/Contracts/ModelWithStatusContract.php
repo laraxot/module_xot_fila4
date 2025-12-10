@@ -45,6 +45,7 @@ use Spatie\ModelStatus\Status;
  * @method array treeLabel()
  * @method array treeSons()
  * @method array toArray()
+<<<<<<< HEAD
  * @property int                      $id
  * @property int|null                 $user_id
  * @property string|null              $post_type
@@ -76,6 +77,8 @@ use Spatie\ModelStatus\Status;
  * @method array     treeLabel()
  * @method array     treeSons()
  * @method array     toArray()
+=======
+>>>>>>> 551c768c4 (.)
  * @method BelongsTo user()
  *
  * @phpstan-require-extends Model
@@ -86,6 +89,7 @@ interface ModelWithStatusContract
 {
     public function statuses(): MorphMany;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -594,4 +598,9 @@ interface ModelWithStatusContract
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+>>>>>>> 551c768c4 (.)
 }

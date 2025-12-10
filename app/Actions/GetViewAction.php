@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,10 +23,13 @@ namespace Modules\Xot\Actions;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Exception;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\File\FixPathAction;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -62,6 +66,8 @@ use Exception;
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+=======
+>>>>>>> 551c768c4 (.)
 
 class GetViewAction
 {
@@ -70,6 +76,7 @@ class GetViewAction
     /**
      * Summary of execute.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -88,6 +95,8 @@ class GetViewAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
      * @return view-string
      *
      * @throws Exception
@@ -95,6 +104,7 @@ class GetViewAction
     public function execute(string $tpl = '', string $file0 = ''): string
     {
         if ($file0 === '') {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -134,6 +144,8 @@ class GetViewAction
     public function execute(string $tpl = '', string $file0 = ''): string
     {
         if ('' === $file0) {
+=======
+>>>>>>> 551c768c4 (.)
             $backtrace = debug_backtrace();
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,11 +167,15 @@ class GetViewAction
 
         $file0 = Str::after($file0, base_path());
         $arr = explode(DIRECTORY_SEPARATOR, $file0);
+<<<<<<< HEAD
         if ('' === $arr[0]) {
         if ('' === $arr[0]) {
         if ('' === $arr[0]) {
         if ('' === $arr[0]) {
         if ('' === $arr[0]) {
+=======
+        if ($arr[0] === '') {
+>>>>>>> 551c768c4 (.)
             $arr = array_slice($arr, 1);
             $arr = array_values($arr);
         }
@@ -192,6 +208,7 @@ class GetViewAction
             })
             ->implode('.');
 
+<<<<<<< HEAD
         $pub_view = 'pub_theme::' . $tmp;
         Assert::string($pub_view, '[' . __LINE__ . '][' . class_basename($this) . ']');
 
@@ -264,6 +281,8 @@ class GetViewAction
         )->implode('.');
 
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 551c768c4 (.)
         $pub_view = 'pub_theme::'.$tmp;
         Assert::string($pub_view, '['.__LINE__.']['.class_basename($this).']');
 
@@ -284,6 +303,7 @@ class GetViewAction
 >>>>>>> 5cf46378 (.)
         }
         // PHPStan: $pub_view è sempre non-falsy-string, Assert ridondante rimosso
+<<<<<<< HEAD
         $pub_view = 'pub_theme::' . $tmp;
         Assert::string($pub_view, '[' . __LINE__ . '][' . class_basename($this) . ']');
 
@@ -361,12 +381,15 @@ class GetViewAction
 =======
 >>>>>>> 091f883c (.)
         }
+=======
+>>>>>>> 551c768c4 (.)
         if (view()->exists($pub_view)) {
             return $pub_view;
         }
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -451,10 +474,13 @@ class GetViewAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         $view = Str::lower($mod).'::'.$tmp;
 
         if ($tpl !== '') {
             $view .= '.'.$tpl;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -962,11 +988,14 @@ class GetViewAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         }
 
         // if (inAdmin()) {
         if (Str::contains($view, '::panels.actions.')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
@@ -1237,11 +1266,15 @@ class GetViewAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> 551c768c4 (.)
             $view = Str::replace('::panels.actions.', $to, $view);
             $view = Str::replace('-action', '', $view);
         }
 
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
         Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
         if (! view()->exists($view)) {
@@ -1694,6 +1727,11 @@ class GetViewAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        // $view è sempre stringa perché costruita da stringhe
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+>>>>>>> 551c768c4 (.)
         }
 
         return $view;

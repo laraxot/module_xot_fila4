@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Traits;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -626,6 +627,11 @@ use Filament\Tables\Columns\Column;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+use Filament\Tables\Columns\Column;
+>>>>>>> 551c768c4 (.)
 use Filament\Tables\Columns\TextColumn;
 
 trait HasTableFunctionsTrait
@@ -778,6 +784,7 @@ trait HasTableFunctionsTrait
             'edit' => Action::make('edit')
                 ->label('Modifica')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -917,10 +924,14 @@ trait HasTableFunctionsTrait
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                ->url(fn ($record): string => route('filament.resources.'.$this->getResourceSlug().'.edit', [
+>>>>>>> 551c768c4 (.)
                     'record' => $record,
                 ])),
             'delete' => Action::make('delete')
                 ->label('Elimina')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1274,6 +1285,9 @@ trait HasTableFunctionsTrait
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                ->action(fn ($record) => $record->delete())
+>>>>>>> 551c768c4 (.)
                 ->requiresConfirmation(),
         ];
     }
@@ -1355,6 +1369,7 @@ trait HasTableFunctionsTrait
             'delete' => BulkAction::make('delete')
                 ->label('Elimina selezionati')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1692,12 +1707,16 @@ trait HasTableFunctionsTrait
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                ->action(fn ($records) => $records->each->delete())
+>>>>>>> 551c768c4 (.)
                 ->requiresConfirmation(),
         ];
     }
 
     /**
      * Get the resource slug.
+<<<<<<< HEAD
      *
      * @return string
      *
@@ -1716,6 +1735,8 @@ trait HasTableFunctionsTrait
      * @return string
      *
      * @return string
+=======
+>>>>>>> 551c768c4 (.)
      */
     protected function getResourceSlug(): string
     {

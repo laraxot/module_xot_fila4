@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@
 =======
 >>>>>>> 6e7c1905 (.)
 >>>>>>> 6a52563d6 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Case Sensitivity e Struttura Corretta delle Directory nei Moduli Laravel
 
 ## Problemi Identificati
@@ -164,6 +167,7 @@ Rispettare la struttura corretta delle directory è fondamentale per garantire l
 - [FOLIO_VOLT_FILAMENT_INTEGRATION.md](./FOLIO_VOLT_FILAMENT_INTEGRATION.md) - Integrazione Folio, Volt e Filament
 - [filament/widgets/xot-base-widget.md](./filament/widgets/xot-base-widget.md) - Documentazione su XotBaseWidget
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,3 +226,7 @@ Rispettare la struttura corretta delle directory è fondamentale per garantire l
 =======
 >>>>>>> 6e7c1905 (.)
 >>>>>>> 6a52563d6 (.)
+=======
+=======
+=======
+>>>>>>> 551c768c4 (.)

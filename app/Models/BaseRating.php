@@ -12,6 +12,7 @@ namespace Modules\Xot\Models;
  * Provides common functionality for rating systems across all modules.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,6 +42,9 @@ abstract class BaseRating extends Model
 abstract class BaseRating extends XotBaseModel
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+abstract class BaseRating extends BaseModel
+>>>>>>> 551c768c4 (.)
 {
     // Common properties and methods for ratings can be added here.
 }

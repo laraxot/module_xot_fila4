@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Real Data vs Mock Testing Strategy - Xot Module
 
 ## 🎯 Strategic Testing Approaches
@@ -212,6 +215,7 @@ test('complete tax filing process', function () {
 ## 🏢 Domain-Specific Recommendations
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -590,6 +594,10 @@ test('complete tax filing process', function () {
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
 >>>>>>> 7e4835b8e (.)
+=======
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
+>>>>>>> 551c768c4 (.)
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -771,6 +779,7 @@ test('legacy feature with mocks', function () {
 ### Final Recommendation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,6 +1158,10 @@ test('legacy feature with mocks', function () {
 >>>>>>> a5dccfe (.)
 >>>>>>> e7da37af (.)
 >>>>>>> 7e4835b8e (.)
+=======
+**For  Healthcare Domain**: 
+**For <nome progetto> Healthcare Domain**: 
+>>>>>>> 551c768c4 (.)
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 
@@ -1164,6 +1177,7 @@ test('legacy feature with mocks', function () {
 **Decision Authority**: Technical Architecture Committee  
 **Implementation Timeline**: 4-week migration  
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1217,3 +1231,6 @@ test('legacy feature with mocks', function () {
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

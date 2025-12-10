@@ -10,6 +10,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +245,8 @@ use Illuminate\Support\Str;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetModuleConfigAction
@@ -276,6 +279,7 @@ class GetModuleConfigAction
     public function execute(string $moduleName, string $config): array
     {
         $configPath = app(GetModulePathByGeneratorAction::class)->execute($moduleName, 'config');
+<<<<<<< HEAD
 <<<<<<< HEAD
         $configFile = $configPath.'/'.$config.'.php';
         if (! file_exists($configFile)) {
@@ -388,6 +392,14 @@ class GetModuleConfigAction
 >>>>>>> 091f883c (.)
         }
         dddx(File::getRequire($configFile));
+=======
+        $configFile = $configPath.'/'.$config.'.php';
+        if (! file_exists($configFile)) {
+            throw new Exception('Config file not found: '.$configFile);
+        }
+        dddx(File::getRequire($configFile));
+
+>>>>>>> 551c768c4 (.)
         return [];
     }
 }

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Convenzioni di Naming nella Documentazione
 
 ## Regola: Nome del Progetto nei Moduli
@@ -43,6 +46,7 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 
 ### Dove Usare il Nome del Progetto
 ✅ CORRETTO:
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -259,6 +263,10 @@ Il nome specifico del progetto (es: "il progetto") NON DEVE MAI apparire nella d
 - `/docs/` (cartella root del progetto)
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+- `/project_docs/` (cartella root del progetto)
+- `/docs/` (cartella root del progetto)
+>>>>>>> 551c768c4 (.)
 - `README.md` principale
 - File di configurazione specifici del progetto
 - Documentazione di deployment
@@ -310,6 +318,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 - [Convenzioni Generali](conventions.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,6 +357,9 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+- [Best Practices Documentazione](documentation-guidelines.md) 
+>>>>>>> 551c768c4 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,6 +404,7 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 - [Best Practices Documentazione](documentation-guidelines.md) 
 - [Best Practices Documentazione](documentation-guidelines.md) 
 =======
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
 - [Best Practices Documentazione](documentation-guidelines.md) 
 <<<<<<< HEAD
@@ -654,3 +667,6 @@ Prima di committare modifiche alla documentazione di un modulo, verificare:
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

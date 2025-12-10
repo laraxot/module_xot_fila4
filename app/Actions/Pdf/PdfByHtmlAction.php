@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Pdf;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,6 +426,10 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+use Modules\Xot\Datas\PdfData;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 551c768c4 (.)
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class PdfByHtmlAction
@@ -442,6 +447,7 @@ class PdfByHtmlAction
      * @param  string  $out  Tipo di output (download, path, etc.)
      * @param  string  $orientation  Orientamento (P=Portrait, L=Landscape)
      * @param  PdfEngineEnum  $engine  Engine da utilizzare
+<<<<<<< HEAD
      * @param string $html Contenuto HTML da convertire
      * @param string $filename Nome del file PDF
      * @param string $disk Disco di storage
@@ -449,6 +455,8 @@ class PdfByHtmlAction
      * @param string $orientation Orientamento (P=Portrait, L=Landscape)
      * @param PdfEngineEnum $engine Engine da utilizzare
      * @return string|BinaryFileResponse
+=======
+>>>>>>> 551c768c4 (.)
      */
     public function execute(
         string $html,

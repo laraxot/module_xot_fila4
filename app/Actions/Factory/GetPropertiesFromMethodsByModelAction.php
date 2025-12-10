@@ -13,6 +13,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Factory;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
@@ -194,10 +195,13 @@ use SplFileObject;
 =======
 >>>>>>> f0e04b64 (.)
 >>>>>>> 87e9cbda1 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -356,6 +360,8 @@ use function Safe\preg_replace;
 =======
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use ReflectionMethod;
 use Spatie\QueueableAction\QueueableAction;
 use SplFileObject;
@@ -366,6 +372,7 @@ use Webmozart\Assert\Assert;
 
 use function Safe\file;
 use function Safe\preg_replace;
+<<<<<<< HEAD
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 0e51323 (.)
@@ -543,6 +550,8 @@ use Webmozart\Assert\Assert;
 use function Safe\preg_replace;
 >>>>>>> 76bec91a (.)
 >>>>>>> 5e6aa70fe (.)
+=======
+>>>>>>> 551c768c4 (.)
 
 /**
  * Classe per estrarre proprietà dai metodi di relazione di un modello.
@@ -571,6 +580,7 @@ use Webmozart\Assert\Assert;
  */
 class GetPropertiesFromMethodsByModelAction
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -659,10 +669,14 @@ use SplFileObject;
     use QueueableAction;
 >>>>>>> 76bec91a (.)
 >>>>>>> 5e6aa70fe (.)
+=======
+    use QueueableAction;
+>>>>>>> 551c768c4 (.)
 
     /**
      * Estrae le proprietà dai metodi di relazione del modello.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -925,6 +939,9 @@ use SplFileObject;
      * @param  Model  $model  Il modello da analizzare
 >>>>>>> f0e04b64 (.)
 >>>>>>> 87e9cbda1 (.)
+=======
+     * @param  Model  $model  Il modello da analizzare
+>>>>>>> 551c768c4 (.)
      * @return array<string, string> Dati estratti dalle relazioni
      */
     public function execute(Model $model): array
@@ -933,6 +950,7 @@ use SplFileObject;
         $methods = get_class_methods($model);
 
         foreach ($methods as $method) {
+<<<<<<< HEAD
         Assert::isInstanceOf($model, Model::class, 'Il parametro deve essere un\'istanza di Model');
 
         $methods = get_class_methods($model);
@@ -962,6 +980,8 @@ use SplFileObject;
         foreach ($methods as $method) {
             Assert::string($method, 'Il nome del metodo deve essere una stringa');
             
+=======
+>>>>>>> 551c768c4 (.)
             // Ignoriamo i metodi che iniziano con "get" e quelli ereditati da Model
             if (Str::startsWith($method, 'get') || method_exists(Model::class, $method)) {
                 continue;
@@ -980,11 +1000,14 @@ use SplFileObject;
 
                 // Leggiamo il contenuto del metodo
                 $file = new SplFileObject($filename);
+<<<<<<< HEAD
                 Assert::isInstanceOf(
                     $file,
                     SplFileObject::class,
                     'Errore nella creazione dell\'oggetto SplFileObject',
                 );
+=======
+>>>>>>> 551c768c4 (.)
 
                 $file->seek($reflection->getStartLine() - 1);
                 $startLine = $file->key();
@@ -1057,6 +1080,7 @@ use SplFileObject;
                 // Normalizziamo e analizziamo il codice
                 Assert::stringNotEmpty($code, 'Il codice del metodo non può essere vuoto');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1321,6 +1345,10 @@ use SplFileObject;
                 $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
 >>>>>>> f0e04b64 (.)
 >>>>>>> 87e9cbda1 (.)
+=======
+                $replaced = preg_replace('/\s\s+/', '', $code);
+                $codeStr = is_string($replaced) ? trim($replaced) : trim($code);
+>>>>>>> 551c768c4 (.)
 
                 // Estrazione del corpo della funzione
                 $begin = mb_strpos($codeStr, 'function(');
@@ -1329,6 +1357,7 @@ use SplFileObject;
                 $end = mb_strrpos($codeStr, '}');
                 $end = $end !== false ? $end : mb_strlen($codeStr);
 
+<<<<<<< HEAD
                 $length = ($end - $begin) + 1;
                 $length = ($end - $begin) + 1;
                 $length = ($end - $begin) + 1;
@@ -1361,6 +1390,9 @@ use SplFileObject;
                 $end = $end !== false ? $end : mb_strlen($codeStr);
 
                 $length = ($end - $begin) + 1;
+=======
+                $length = $end - $begin + 1;
+>>>>>>> 551c768c4 (.)
                 Assert::greaterThan($length, 0, 'La lunghezza del corpo della funzione deve essere positiva');
 
                 $codeStr = mb_substr($codeStr, $begin, $length);
@@ -1410,6 +1442,7 @@ use SplFileObject;
     /**
      * Estrae le relazioni belongsTo dal codice.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1513,10 +1546,13 @@ use SplFileObject;
 =======
 >>>>>>> f0e04b64 (.)
 >>>>>>> 87e9cbda1 (.)
+=======
+>>>>>>> 551c768c4 (.)
      * @param  string  $codeStr  Il codice da analizzare
      * @param  Model  $model  Il modello
      * @param  string  $method  Il nome del metodo
      * @param  array<string, string>  &$data  L'array in cui salvare i dati estratti
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1824,6 +1860,8 @@ use SplFileObject;
 =======
 >>>>>>> f0e04b64 (.)
 >>>>>>> 87e9cbda1 (.)
+=======
+>>>>>>> 551c768c4 (.)
      */
     private function extractBelongsToRelations(string $codeStr, Model $model, string $method, array &$data): void
     {
@@ -1876,6 +1914,7 @@ use SplFileObject;
             // Verifichiamo che sia effettivamente una relazione
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2129,12 +2168,16 @@ use SplFileObject;
             if (! ($relationObj instanceof Relation)) {
 >>>>>>> f0e04b64 (.)
 >>>>>>> 87e9cbda1 (.)
+=======
+            if (! ($relationObj instanceof Relation)) {
+>>>>>>> 551c768c4 (.)
                 return;
             }
 
             // Verifichiamo che il metodo getForeignKeyName esista
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2388,6 +2431,9 @@ use SplFileObject;
             if (! method_exists($relationObj, 'getForeignKeyName')) {
 >>>>>>> f0e04b64 (.)
 >>>>>>> 87e9cbda1 (.)
+=======
+            if (! method_exists($relationObj, 'getForeignKeyName')) {
+>>>>>>> 551c768c4 (.)
                 throw new Exception('Il metodo getForeignKeyName non esiste nella relazione');
             }
 
@@ -2403,6 +2449,7 @@ use SplFileObject;
             // Assert::isCallable rimosso - metodo verificato a compile time
 
             $type = 'factory('.$relatedClass.'::class)';
+<<<<<<< HEAD
             Assert::classExists($relatedClass, "La classe relazionata {$relatedClass} non esiste");
 
             // Chiamiamo GetFakerAction con parametri corretti
@@ -2886,6 +2933,8 @@ use SplFileObject;
 >>>>>>> f0e04b64 (.)
 >>>>>>> 87e9cbda1 (.)
             $data[$foreignKeyName] = $fakerAction->execute($foreignKeyName, $type, null);
+=======
+>>>>>>> 551c768c4 (.)
         } catch (Exception $e) {
             
 

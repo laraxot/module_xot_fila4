@@ -158,7 +158,7 @@ $pdfContent = $action->execute(
 | Return Type | `string` (binary content) | `StreamedResponse` |
 | Use Case | Email attachments, storage | Direct download |
 | Output Method | `output('', 'S')` | `response()->streamDownload()` |
-| Integration | Notification system | Web Actions (Livewire/Filament) |
+| Integration | Notification system | Web controllers |
 
 ## Integration with Email System
 

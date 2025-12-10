@@ -17,6 +17,7 @@
 >>>>>>> 5cf46378 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +146,10 @@ namespace Modules\Xot\Tests\Feature;
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+namespace Modules\Xot\Tests\Feature;
+
+>>>>>>> 551c768c4 (.)
 use PHPUnit\Framework\Attributes\Test;
 use Tests\TestCase;
 =======
@@ -177,6 +182,7 @@ afterEach(function (): void {
 // Recursive function to remove a directory and its contents
 function removeDirectory(string $dir): void
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     if (is_dir($dir)) {
         $objects = scandir($dir);
@@ -647,6 +653,8 @@ function removeDirectory(string $dir): void
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     private string $testDir;
 
     protected function setUp(): void
@@ -706,6 +714,7 @@ function removeDirectory(string $dir): void
 =======
 >>>>>>> 73eab74 (.)
                     }
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
@@ -718,9 +727,12 @@ function removeDirectory(string $dir): void
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
                 }
             }
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -831,12 +843,15 @@ function removeDirectory(string $dir): void
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     }
 
     #[Test]
     public function testMoveToAppFunctionality(): void
     {
         // Creiamo una struttura di directory di test
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         mkdir($this->testDir . '/Actions', 0o755, true);
@@ -849,10 +864,15 @@ function removeDirectory(string $dir): void
         file_put_contents($this->testDir . '/Actions/test.php', '<?php echo "test";');
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+        mkdir($this->testDir.'/Actions', 0o755, true);
+        file_put_contents($this->testDir.'/Actions/test.php', '<?php echo "test";');
+>>>>>>> 551c768c4 (.)
 
         // Copiamo lo script nella directory di test
         $script = base_path('../bashscripts/fix_structure.sh');
         $scriptContent = file_get_contents($script);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -860,6 +880,8 @@ function removeDirectory(string $dir): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 551c768c4 (.)
         file_put_contents($this->testDir.'/fix_structure.sh', $scriptContent);
         chmod($this->testDir.'/fix_structure.sh', 0o755);
 
@@ -878,6 +900,7 @@ function removeDirectory(string $dir): void
         // Creiamo una struttura di directory di test
         mkdir($this->testDir.'/Config', 0o755, true);
         file_put_contents($this->testDir.'/Config/test.php', '<?php echo "test";');
+<<<<<<< HEAD
         file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
         chmod($this->testDir . '/fix_structure.sh', 0o755);
 <<<<<<< HEAD
@@ -1147,10 +1170,13 @@ function removeDirectory(string $dir): void
         file_put_contents($this->testDir . '/Config/test.php', '<?php echo "test";');
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
         // Copiamo lo script nella directory di test
         $script = base_path('../bashscripts/fix_structure.sh');
         $scriptContent = file_get_contents($script);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1158,6 +1184,8 @@ function removeDirectory(string $dir): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 551c768c4 (.)
         file_put_contents($this->testDir.'/fix_structure.sh', $scriptContent);
         chmod($this->testDir.'/fix_structure.sh', 0o755);
 
@@ -1179,6 +1207,7 @@ function removeDirectory(string $dir): void
 
         mkdir($this->testDir.'/config', 0o755, true);
         file_put_contents($this->testDir.'/config/secondary.php', '<?php echo "secondary";');
+<<<<<<< HEAD
         file_put_contents($this->testDir . '/fix_structure.sh', $scriptContent);
         chmod($this->testDir . '/fix_structure.sh', 0o755);
 <<<<<<< HEAD
@@ -1473,10 +1502,13 @@ function removeDirectory(string $dir): void
         file_put_contents($this->testDir . '/config/secondary.php', '<?php echo "secondary";');
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
         // Copiamo lo script nella directory di test
         $script = base_path('../bashscripts/fix_structure.sh');
         $scriptContent = file_get_contents($script);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1484,6 +1516,8 @@ function removeDirectory(string $dir): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 551c768c4 (.)
         file_put_contents($this->testDir.'/fix_structure.sh', $scriptContent);
         chmod($this->testDir.'/fix_structure.sh', 0o755);
 
@@ -1497,6 +1531,7 @@ function removeDirectory(string $dir): void
         static::assertFileExists($this->testDir.'/config/secondary.php');
         static::assertDirectoryDoesNotExist($this->testDir.'/Config');
         static::assertDirectoryExists($this->testDir.'/config_old');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1855,6 +1890,8 @@ function removeDirectory(string $dir): void
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     }
 }
 

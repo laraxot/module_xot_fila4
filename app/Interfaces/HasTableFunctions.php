@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Interfaces;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -181,6 +182,11 @@ use Filament\Tables\Columns\Column;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+use Filament\Tables\Columns\Column;
+>>>>>>> 551c768c4 (.)
 
 interface HasTableFunctions
 {

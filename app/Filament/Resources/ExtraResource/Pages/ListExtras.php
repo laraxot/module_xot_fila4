@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Resources\ExtraResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,6 +60,8 @@ namespace Modules\Xot\Filament\Resources\ExtraResource\Pages;
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 =======
@@ -118,6 +121,7 @@ use Filament\Tables\Filters\BaseFilter;
 use Modules\Xot\Filament\Resources\ExtraResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -220,6 +224,8 @@ use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Xot\Filament\Resources\ExtraResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+=======
+>>>>>>> 551c768c4 (.)
 
 <<<<<<< HEAD
 use Filament\Tables;

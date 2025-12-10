@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Exceptions\Handlers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,6 +67,11 @@ use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 use Throwable;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
+=======
+use Illuminate\Contracts\Debug\ExceptionHandler;
+use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
+use Throwable;
+>>>>>>> 551c768c4 (.)
 
 class HandlerDecorator implements ExceptionHandler
 {

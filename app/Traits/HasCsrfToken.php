@@ -257,6 +257,7 @@ trait HasCsrfToken
 {
     /**
      * CSRF token for the current request.
+<<<<<<< HEAD
      *
      * @var string
      *
@@ -275,11 +276,14 @@ trait HasCsrfToken
      * @var string
      *
      * @var string
+=======
+>>>>>>> 551c768c4 (.)
      */
     public string $_token;
 
     /**
      * Mount the component and set the CSRF token.
+<<<<<<< HEAD
      *
      * @return void
      *
@@ -298,6 +302,8 @@ trait HasCsrfToken
      * @return void
      *
      * @return void
+=======
+>>>>>>> 551c768c4 (.)
      */
     public function mount(): void
     {
@@ -306,6 +312,7 @@ trait HasCsrfToken
 
     /**
      * Get the CSRF token.
+<<<<<<< HEAD
      *
      * @return string
      *
@@ -324,6 +331,8 @@ trait HasCsrfToken
      * @return string
      *
      * @return string
+=======
+>>>>>>> 551c768c4 (.)
      */
     public function getCsrfToken(): string
     {
@@ -332,6 +341,7 @@ trait HasCsrfToken
 
     /**
      * Verify if the CSRF token is valid.
+<<<<<<< HEAD
      *
      * @return bool
      *
@@ -350,6 +360,8 @@ trait HasCsrfToken
      * @return bool
      *
      * @return bool
+=======
+>>>>>>> 551c768c4 (.)
      */
     public function verifyCsrfToken(): bool
     {

@@ -4,14 +4,22 @@
 2025-10-22
 
 ## Contesto
+<<<<<<< HEAD
 Il progetto presentava **323 conflitti Git** distribuiti su tutto il modulo Xot, User e Quaeris, causando errori ParseError e blocco di `composer dump-autoload`.
+=======
+Il progetto presentava **323 conflitti Git** distribuiti su tutto il modulo Xot, User e <nome progetto>, causando errori ParseError e blocco di `composer dump-autoload`.
+>>>>>>> 551c768c4 (.)
 
 ## Strategia Adottata
 
 <<<<<<< HEAD
 ### 1. Identificazione Sistematica
 ```bash
+<<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches > /tmp/git-conflicts-list.txt
+=======
+
+>>>>>>> 551c768c4 (.)
 wc -l /tmp/git-conflicts-list.txt  # 323 file
 ```
 =======
@@ -63,7 +71,11 @@ Per conflitti complessi (3 file finali):
 <<<<<<< HEAD
 ### Verifica Finale
 ```bash
+<<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
+=======
+
+>>>>>>> 551c768c4 (.)
 # Output: 0 ✅
 ```
 =======
@@ -84,7 +96,11 @@ find Modules/Xot/app/Actions -name "*.php" | xargs php -l 2>&1 | grep -c "No syn
 
 **Soluzione**: Ripristino da Git dopo tentativo fallito con sed
 ```bash
+<<<<<<< HEAD
 git checkout HEAD -- $(find Modules/Quaeris -name "*Widget.php" -type f)
+=======
+git checkout HEAD -- $(find Modules/<nome progetto> -name "*Widget.php" -type f)
+>>>>>>> 551c768c4 (.)
 ```
 
 **Widget corretti**:
@@ -120,7 +136,11 @@ git checkout HEAD -- $(find Modules/Quaeris -name "*Widget.php" -type f)
 ```bash
 # Dopo ogni batch
 find $BATCH_DIR -name "*.php" | xargs php -l
+<<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" $BATCH_DIR | wc -l
+=======
+
+>>>>>>> 551c768c4 (.)
 ```
 =======
 >>>>>>> 7ee87c138 (.)
@@ -156,11 +176,17 @@ grep -r "^<<<<<<< HEAD" $BATCH_DIR | wc -l
 git status --porcelain | grep "^UU\|^AA\|^DD"
 
 # Conta conflitti
+<<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | wc -l
 
 # Lista per tipo
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.php$" | wc -l
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.md$" | wc -l
+=======
+
+
+# Lista per tipo
+>>>>>>> 551c768c4 (.)
 ```
 =======
 >>>>>>> 7ee87c138 (.)
@@ -172,9 +198,13 @@ grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.md$" | wc -l
 
 # Verifica
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" Modules/Xot/app --files-with-matches | wc -l
 =======
 >>>>>>> 7ee87c138 (.)
+=======
+
+>>>>>>> 551c768c4 (.)
 ```
 
 ### Verifica Finale
@@ -184,10 +214,14 @@ find Modules/ -name "*.php" -type f | xargs php -l 2>&1 | grep -c "No syntax err
 
 # Conflitti rimasti
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
 =======
 
 >>>>>>> 7ee87c138 (.)
+=======
+
+>>>>>>> 551c768c4 (.)
 
 # Test server
 php artisan serve --host=127.0.0.1 --port=8000
@@ -222,3 +256,9 @@ curl -I http://127.0.0.1:8000
 3. ⏳ Documentazione aggiornata per moduli
 4. ⏳ Test di regressione
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 551c768c4 (.)

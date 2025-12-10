@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +147,11 @@ use Modules\SaluteOra\Models\Appointment;
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+use Carbon\Carbon;
+use Flowframe\Trend\Trend;
+use Flowframe\Trend\TrendValue;
+>>>>>>> 551c768c4 (.)
 
 class ModelTrendChartWidget extends XotBaseChartWidget
 {
@@ -161,6 +167,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 
     #[\Override]
     public function getHeading(): ?string
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -723,10 +730,13 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     {
         return static::transClass($this->model, 'widgets.model_trend_chart.heading');
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1066,6 +1076,9 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    #[\Override]
+>>>>>>> 551c768c4 (.)
     protected function getData(): array
     {
         try {
@@ -1080,6 +1093,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
             return [
                 'datasets' => [
                     [
+<<<<<<< HEAD
                         'label' => __('<nome modulo>::widgets.appointment_creation_chart.label'),
                         'data' => $data->map(fn (mixed $value) => $value instanceof TrendValue
                         'data' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
@@ -1185,6 +1199,10 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 5cf46378 (.)
                         'data' => $data->map(fn (mixed $value) => ($value instanceof TrendValue)
 >>>>>>> ab8cc3f3 (.)
+=======
+                        'label' => __('<nome modulo>::widgets.appointment_creation_chart.label'),
+                        'data' => $data->map(fn (mixed $value) => $value instanceof TrendValue
+>>>>>>> 551c768c4 (.)
                             ? $value->aggregate
                             : 0),
 =======
@@ -1243,6 +1261,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
                         'tension' => 0.4,
                     ],
                 ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1304,10 +1323,14 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
                 'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
+=======
+                'labels' => $data->map(fn (mixed $value) => $value instanceof TrendValue
+>>>>>>> 551c768c4 (.)
                     ? Carbon::parse($value->date)->format('d/m')
                     : ''),
             ];
         } catch (\Exception $e) {
+<<<<<<< HEAD
                 'labels' => $data->map(fn(mixed $value) => ($value instanceof TrendValue)
                     ? Carbon::parse($value->date)->format('d/m')
                     : ''),
@@ -1549,11 +1572,14 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 =======
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
             // Fallback appropriato senza logging inutile
             return [
                 'datasets' => [
                     [
                         'label' => __('<nome modulo>::widgets.appointment_creation_chart.label'),
+<<<<<<< HEAD
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
@@ -1564,6 +1590,8 @@ class ModelTrendChartWidget extends XotBaseChartWidget
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
                         'label' => __('salutemo::widgets.appointment_creation_chart.label'),
+=======
+>>>>>>> 551c768c4 (.)
                         'data' => [],
                         'backgroundColor' => 'rgba(139, 92, 246, 0.5)',
                         'borderColor' => 'rgb(139, 92, 246)',
@@ -1577,6 +1605,7 @@ class ModelTrendChartWidget extends XotBaseChartWidget
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1915,6 +1944,9 @@ class ModelTrendChartWidget extends XotBaseChartWidget
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    #[\Override]
+>>>>>>> 551c768c4 (.)
     protected function getType(): string
     {
         return 'line';

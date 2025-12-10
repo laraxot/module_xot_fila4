@@ -20,6 +20,7 @@ class NotificationData extends Data
      * @param  array  $broadcast  Configurazione broadcast
      * @param  array  $slack  Configurazione Slack
      * @param  array  $telegram  Configurazione Telegram
+<<<<<<< HEAD
      * @param array  $channels        Canali di notifica disponibili
      * @param string $default_channel Canale predefinito
      * @param bool   $queue           Se accodare le notifiche
@@ -27,6 +28,8 @@ class NotificationData extends Data
      * @param array  $broadcast       Configurazione broadcast
      * @param array  $slack           Configurazione Slack
      * @param array  $telegram        Configurazione Telegram
+=======
+>>>>>>> 551c768c4 (.)
      */
     public function __construct(
         public readonly array $channels = ['mail', 'database'],
@@ -288,11 +291,14 @@ class NotificationData extends Data
     public static function make(): static
     {
         return new static;
+<<<<<<< HEAD
      *
      * @return static
      */
     public static function make(): static
     {
         return new static();
+=======
+>>>>>>> 551c768c4 (.)
     }
 }

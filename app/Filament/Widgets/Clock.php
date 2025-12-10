@@ -93,6 +93,7 @@ class Clock extends Widget
             // $this->start = $this->start - 1;
             $this->start = (string) now();
             if ($this->start === 'impossible') {
+<<<<<<< HEAD
             if ('impossible' === $this->start) {
             if ('impossible' === $this->start) {
             if ('impossible' === $this->start) {
@@ -103,6 +104,8 @@ class Clock extends Widget
             if ('impossible' === $this->start) {
             if ('impossible' === $this->start) {
             if ('impossible' === $this->start) {
+=======
+>>>>>>> 551c768c4 (.)
                 $cond = false;
             }
         }

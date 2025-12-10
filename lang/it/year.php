@@ -74,6 +74,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 300ef70 (.)
@@ -118,6 +119,10 @@ return [
  return [
  return [
  return [
+=======
+
+return [
+>>>>>>> 551c768c4 (.)
     'fields' => [
         'anno' => [
             'label' => 'anno',

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 declare(strict_types=1);
 
@@ -45,6 +46,8 @@ declare(strict_types=1);
 
 
 
+=======
+>>>>>>> 551c768c4 (.)
 return [
     'general' => [
         'home' => [
@@ -64,6 +67,7 @@ return [
         'login' => [
             'label' => 'Login',
             'icon' => 'ui-login',
+<<<<<<< HEAD
             'icon' => 'heroicon-o-login',
             'icon' => 'heroicon-o-login',
             'icon' => 'heroicon-o-login',
@@ -75,6 +79,8 @@ return [
             'icon' => 'heroicon-o-login',
             'icon' => 'heroicon-o-login',
             'icon' => 'heroicon-o-login',
+=======
+>>>>>>> 551c768c4 (.)
         ],
         'macros' => [
             'label' => 'Macro',

@@ -108,6 +108,7 @@ class ExportXlsTableAction extends Action
                     class_basename($livewire).
                     '-'.
                     collect($livewire->tableFilters)->flatten()->implode('-').
+<<<<<<< HEAD
                     class_basename($livewire) .
                     '-' .
                     collect($livewire->tableFilters)->flatten()->implode('-') .
@@ -138,6 +139,8 @@ class ExportXlsTableAction extends Action
                     class_basename($livewire) .
                     '-' .
                     collect($livewire->tableFilters)->flatten()->implode('-') .
+=======
+>>>>>>> 551c768c4 (.)
                     '.xlsx';
                 $transKey = app(GetTransKeyAction::class)->execute($livewire_class);
                 $transKey .= '.fields';
@@ -331,6 +334,7 @@ class ExportXlsTableAction extends Action
             });
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -669,6 +673,9 @@ class ExportXlsTableAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 551c768c4 (.)
     {
         return 'export_xls';
     }

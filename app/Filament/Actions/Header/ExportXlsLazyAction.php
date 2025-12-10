@@ -23,6 +23,7 @@ use Exception;
 >>>>>>> d2b0a27 (.)
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
+<<<<<<< HEAD
 use Exception;
 use Exception;
 =======
@@ -49,6 +50,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Builder;
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Actions\Export\ExportXlsByLazyCollection;
 use Modules\Xot\Actions\Export\ExportXlsByQuery;
 use Modules\Xot\Actions\Export\ExportXlsStreamByLazyCollection;
@@ -157,6 +160,7 @@ class ExportXlsLazyAction extends Action
                     class_basename($livewire).
                     '-'.
                     collect($livewire->tableFilters)->flatten()->implode('-').
+<<<<<<< HEAD
                     class_basename($livewire) .
                     '-' .
                     collect($livewire->tableFilters)->flatten()->implode('-') .
@@ -169,6 +173,8 @@ class ExportXlsLazyAction extends Action
                     class_basename($livewire) .
                     '-' .
                     collect($livewire->tableFilters)->flatten()->implode('-') .
+=======
+>>>>>>> 551c768c4 (.)
                     '.xlsx';
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +282,7 @@ class ExportXlsLazyAction extends Action
                             },
                             $rawFields
                         );
+<<<<<<< HEAD
                         $fields = array_map(static function ($field): string {
                             if (is_object($field) && method_exists($field, '__toString')) {
                                 return (string) $field->__toString();
@@ -285,6 +292,8 @@ class ExportXlsLazyAction extends Action
                             }
                             return '';
                         }, $rawFields);
+=======
+>>>>>>> 551c768c4 (.)
                     }
                     Assert::isArray($fields);
                 }
@@ -311,16 +320,22 @@ class ExportXlsLazyAction extends Action
                 }
 
                 if ($lazy->count() < 7) {
+<<<<<<< HEAD
                 if ($lazy->count() < 7) {
+=======
+>>>>>>> 551c768c4 (.)
                     /** @var array<int, string> $stringFields */
                     $stringFields = array_values($fields);
 
                     // PHPStan knows $lazy is Builder|Relation here, no need for Assert
+<<<<<<< HEAD
                     Assert::isInstanceOf($lazy, Builder::class);
 
                     /** @var array<int, string> $stringFields */
                     $stringFields = array_values($fields);
 
+=======
+>>>>>>> 551c768c4 (.)
                     return app(ExportXlsByQuery::class)->execute($lazy, $filename, $stringFields, null);
 <<<<<<< HEAD
                     return app(ExportXlsByQuery::class)->execute($lazy, $filename, $stringFields, null);
@@ -396,6 +411,7 @@ class ExportXlsLazyAction extends Action
             });
     }
 
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
     public static function getDefaultName(): null|string
 <<<<<<< HEAD
@@ -793,6 +809,9 @@ class ExportXlsLazyAction extends Action
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 551c768c4 (.)
     {
         return 'export_xls';
     }

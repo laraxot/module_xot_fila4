@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # XotBase Extension Rules - Comprehensive Guide
 =======
 <<<<<<< HEAD
@@ -82,6 +83,9 @@
 =======
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)
 # XotBase Extension Rules - Comprehensive Guide
 
 ## 🚨 Critical Architectural Rule
@@ -282,6 +286,7 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 *Last Updated: 2025-08-27*  
 *Architecture Version: XotBase 2.0*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -392,6 +397,9 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)
 # Regole di Estensione XotBase - Guida di Riferimento
 
 ## 🚨 REGOLA CRITICA FONDAMENTALE
@@ -585,6 +593,7 @@ jobs:
 *Documento aggiornato: 2025-07-30*  
 *Priorità: CRITICA*  
 *Stato: OBBLIGATORIO per tutti i moduli*
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Regole di Estensione XotBase - Guida di Riferimento
 
@@ -1048,3 +1057,6 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 *Architecture Version: XotBase 2.0*
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

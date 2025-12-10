@@ -23,6 +23,7 @@ class ListFilamentPanels extends Command
         /** @var Collection<string, \Nwidart\Modules\Module> $modules */
         foreach ($modules as $moduleName => $module) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -346,11 +347,14 @@ class ListFilamentPanels extends Command
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
             $providersPath = $module->getPath().'/Providers';
             if (! is_dir($providersPath)) {
                 continue;
             }
 
+<<<<<<< HEAD
             /** @var Collection<int, string> $providerFiles */
             $providerFiles = collect(scandir($providersPath));
             $providers = $providerFiles
@@ -404,6 +408,8 @@ class ListFilamentPanels extends Command
                 continue;
             }
 
+=======
+>>>>>>> 551c768c4 (.)
             $providers = collect(scandir($providersPath))
                 ->filter(function ($file): bool {
                     return is_string($file) && str_ends_with($file, 'ServiceProvider.php');
@@ -580,6 +586,7 @@ class ListFilamentPanels extends Command
                     continue;
                 }
 
+<<<<<<< HEAD
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
                 if (! class_exists($providerClass)) {
                     continue;
@@ -930,6 +937,9 @@ class ListFilamentPanels extends Command
 =======
                 $this->info('Found panel in '.$moduleName.': '.$provider);
 >>>>>>> b7afadf9 (.)
+=======
+                $this->info("Found panel in {$moduleName}: {$provider}");
+>>>>>>> 551c768c4 (.)
             }
         }
 

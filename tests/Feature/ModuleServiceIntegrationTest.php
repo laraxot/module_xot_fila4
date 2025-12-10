@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
@@ -95,6 +96,10 @@ use Modules\Xot\Services\ModuleService;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Support\Facades\File;
+=======
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Str;
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Services\ModuleService;
 <<<<<<< HEAD
 <<<<<<< HEAD

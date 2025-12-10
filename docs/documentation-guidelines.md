@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 
 # Linee Guida per la Documentazione in Laraxot
 
@@ -239,6 +242,7 @@ Quando si fa riferimento a concetti o classi in altri moduli, utilizzare collega
 
 ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -393,98 +397,10 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/p
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
 =======
-=======
->>>>>>> 88e35986 (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
-=======
->>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
-=======
->>>>>>> f1d4085 (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
->>>>>>> cafe8bed (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
-=======
->>>>>>> 6cba4fe (.)
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
->>>>>>> 5bd842e3 (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
-=======
->>>>>>> f1d4085 (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
->>>>>>> 5cd593a5 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
-=======
->>>>>>> 6cba4fe (.)
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
->>>>>>> 03ceeac3 (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 44948f13 (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
-=======
->>>>>>> f1d4085 (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
->>>>>>> 8cf76e7 (.)
->>>>>>> 0ae90b17 (.)
-=======
-Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
->>>>>>> 28fc70fe (.)
 ```
 
 ### 2. Documentazione Centralizzata
@@ -493,6 +409,7 @@ Alcuni argomenti comuni a più moduli dovrebbero essere documentati nel modulo X
 
 ```markdown
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -647,98 +564,10 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 =======
 >>>>>>> 6cba4fe (.)
 >>>>>>> 17684f52 (.)
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
 =======
-=======
->>>>>>> 88e35986 (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
-=======
->>>>>>> 6cba4fe (.)
+>>>>>>> 551c768c4 (.)
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
->>>>>>> 73eab74 (.)
-<<<<<<< HEAD
->>>>>>> ab8cc3f3 (.)
-=======
->>>>>>> 6dcebf8a (.)
-=======
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 6a1fe786 (.)
-=======
->>>>>>> 34579462 (.)
-=======
->>>>>>> b3cc10f7 (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 5e58b29b (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
-=======
->>>>>>> f1d4085 (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
->>>>>>> 73eab74 (.)
->>>>>>> 1c4bb8cf (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
->>>>>>> cafe8bed (.)
-=======
-=======
->>>>>>> e0b8ebe3 (.)
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
-=======
->>>>>>> 6cba4fe (.)
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
->>>>>>> 5bd842e3 (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
-=======
->>>>>>> f1d4085 (.)
->>>>>>> a62d7646 (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
-=======
->>>>>>> f1d4085 (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
->>>>>>> 73eab74 (.)
->>>>>>> d79d36e0 (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
->>>>>>> 5cd593a5 (.)
-=======
-=======
->>>>>>> cc52d333 (.)
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
-=======
->>>>>>> 6cba4fe (.)
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
->>>>>>> 03ceeac3 (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
-=======
->>>>>>> f1d4085 (.)
->>>>>>> 44948f13 (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
-=======
->>>>>>> f1d4085 (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
->>>>>>> 8cf76e7 (.)
->>>>>>> 0ae90b17 (.)
-=======
-Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
->>>>>>> 28fc70fe (.)
 ```
 
 ## Esempi di Eccellenza
@@ -798,6 +627,7 @@ Per implementare queste linee guida:
 - [Documentazione Laravel](https://laravel.com/docs)
 - [Documentazione PHPDoc](https://docs.phpdoc.org/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -850,3 +680,6 @@ Per implementare queste linee guida:
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

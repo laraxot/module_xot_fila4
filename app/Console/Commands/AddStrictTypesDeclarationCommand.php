@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Console\Commands;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +56,14 @@ use SplFileInfo;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
+=======
+use Webmozart\Assert\Assert;
+use SplFileInfo;
+use Exception;
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
+>>>>>>> 551c768c4 (.)
 
 class AddStrictTypesDeclarationCommand extends Command
 {
@@ -64,6 +73,7 @@ class AddStrictTypesDeclarationCommand extends Command
 
     protected $description = 'Aggiunge la dichiarazione strict_types=1 ai file PHP che ne sono sprovvisti';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * @var array<string>
@@ -103,6 +113,11 @@ class AddStrictTypesDeclarationCommand extends Command
      */
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    /**
+     * @var array<string>
+     */
+>>>>>>> 551c768c4 (.)
     private array $excludedPaths = [
         'views',
         'config',
@@ -123,10 +138,13 @@ class AddStrictTypesDeclarationCommand extends Command
             if (! File::isDirectory($modulePath)) {
                 $this->error("Il modulo {$moduleOption} non esiste");
 
+<<<<<<< HEAD
         if ($moduleOption) {
             $modulePath .= '/' . $moduleOption;
             if (!File::isDirectory($modulePath)) {
                 $this->error("Il modulo {$moduleOption} non esiste");
+=======
+>>>>>>> 551c768c4 (.)
                 return 1;
             }
         }
@@ -139,6 +157,7 @@ class AddStrictTypesDeclarationCommand extends Command
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             Assert::isInstanceOf($file, SplFileInfo::class);
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
@@ -146,11 +165,14 @@ class AddStrictTypesDeclarationCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
                     $fileName = $file->getRealPath();
                     if ($fileName === false) {
                         $fileName = $file->getPathname();
                     }
                     $this->info("Verrebbe processato: {$fileName}");
+<<<<<<< HEAD
                     $filePath = $file->getRealPath();
                     $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
                     $this->info("Verrebbe processato: {$file}");
@@ -173,6 +195,8 @@ class AddStrictTypesDeclarationCommand extends Command
                     $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
                     $count++;
 
                     continue;
@@ -187,6 +211,7 @@ class AddStrictTypesDeclarationCommand extends Command
                 assert(is_string($path));
 
                 try {
+<<<<<<< HEAD
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
                     $this->info("Verrebbe processato: {$file}");
@@ -200,11 +225,14 @@ class AddStrictTypesDeclarationCommand extends Command
                         continue;
                     }
                     
+=======
+>>>>>>> 551c768c4 (.)
                     $action->execute($path);
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;
 <<<<<<< HEAD
                 } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 } catch (\Exception $e) {
                 } catch (\Exception $e) {
@@ -234,6 +262,9 @@ class AddStrictTypesDeclarationCommand extends Command
                     $this->error("Errore nel processare {$path}: " . $e->getMessage());
                     $this->error("Errore nel processare {$path}: " . $e->getMessage());
                     $this->error("Errore nel processare {$path}: " . $e->getMessage());
+=======
+                    $this->error("Errore nel processare {$path}: ".$e->getMessage());
+>>>>>>> 551c768c4 (.)
                 }
             }
         }
@@ -244,6 +275,7 @@ class AddStrictTypesDeclarationCommand extends Command
         return 0;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -287,6 +319,11 @@ class AddStrictTypesDeclarationCommand extends Command
      */
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+    /**
+     * @return array<SplFileInfo>
+     */
+>>>>>>> 551c768c4 (.)
     private function findPhpFiles(string $path): array
     {
         /** @var array<int, \Symfony\Component\Finder\SplFileInfo> $files */
@@ -295,8 +332,8 @@ class AddStrictTypesDeclarationCommand extends Command
         return $files;
     }
 
-<<<<<<< HEAD
     private function shouldProcessFile(SplFileInfo $file): bool
+<<<<<<< HEAD
     private function shouldProcessFile(SplFileInfo $file): bool
     private function shouldProcessFile(SplFileInfo $file): bool
     private function shouldProcessFile(\SplFileInfo $file): bool
@@ -331,6 +368,11 @@ class AddStrictTypesDeclarationCommand extends Command
     {
         // Verifica l'estensione
         if (!str_ends_with($file->getFilename(), '.php')) {
+=======
+    {
+        // Verifica l'estensione
+        if (! str_ends_with($file->getFilename(), '.php')) {
+>>>>>>> 551c768c4 (.)
             return false;
         }
 
@@ -350,6 +392,7 @@ class AddStrictTypesDeclarationCommand extends Command
         $content = File::get($path);
 
         return ! str_contains($content, 'declare(strict_types=1)');
+<<<<<<< HEAD
         return !str_contains($content, 'declare(strict_types=1)');
         return !str_contains($content, 'declare(strict_types=1)');
         return !str_contains($content, 'declare(strict_types=1)');
@@ -359,5 +402,7 @@ class AddStrictTypesDeclarationCommand extends Command
         return !str_contains($content, 'declare(strict_types=1)');
         return !str_contains($content, 'declare(strict_types=1)');
         return !str_contains($content, 'declare(strict_types=1)');
+=======
+>>>>>>> 551c768c4 (.)
     }
 }

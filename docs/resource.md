@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # XotBaseResource
 
 ## Overview
@@ -540,6 +543,7 @@ public function getTableColumns(): array
 3. Mantieni la visibilità pubblica dei metodi
 4. Non aggiungere il prefisso "List" ai nomi dei metodi
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,6 +589,9 @@ public function getTableColumns(): array
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+5. **Bugfix 19/11/2025**: la classe dichiara `getResource()` una sola volta. Se vedi un errore “Cannot redeclare XotBaseListRecords::getResource”, assicurati di non introdurre duplicati.
+>>>>>>> 551c768c4 (.)
 
 ## Tipizzazione degli Array
 
@@ -671,6 +678,7 @@ public function getTableBulkActions(): array
 // ... existing code ... 
 
 ## Collegamenti tra versioni di resource.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1039,6 +1047,10 @@ public function getTableBulkActions(): array
 * [resource.md](../../../Xot/docs/resource.md)
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+* [resource.md](../../../Xot/docs/filament/resource.md)
+* [resource.md](../../../Xot/docs/resource.md)
+>>>>>>> 551c768c4 (.)
 
 
 ### Versione Incoming
@@ -1047,6 +1059,7 @@ public function getTableBulkActions(): array
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1100,3 +1113,6 @@ public function getTableBulkActions(): array
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

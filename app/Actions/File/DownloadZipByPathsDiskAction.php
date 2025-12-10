@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\File;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,10 +23,13 @@ namespace Modules\Xot\Actions\File;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Support\Facades\Storage;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use ZipArchive;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -63,6 +67,8 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+=======
+>>>>>>> 551c768c4 (.)
 
 class DownloadZipByPathsDiskAction
 {
@@ -83,6 +89,7 @@ class DownloadZipByPathsDiskAction
         // Crea un file temporaneo per lo ZIP usando Storage
         $zip = new ZipArchive();
         $tempFilePath = storage_path('app/'.$zipPath);
+<<<<<<< HEAD
      * @param array<string> $attachments Array di percorsi file
      * @param string $disk Nome del disco di storage
      * @return BinaryFileResponse|null Risposta di download o null se fallisce
@@ -107,6 +114,8 @@ class DownloadZipByPathsDiskAction
         // Crea un file temporaneo per lo ZIP usando Storage
         $zip = new ZipArchive();
         $tempFilePath = storage_path('app/' . $zipPath);
+=======
+>>>>>>> 551c768c4 (.)
 
         // Assicurati che la directory temp esista
         Storage::disk('local')->makeDirectory('temp');
@@ -173,11 +182,15 @@ class DownloadZipByPathsDiskAction
                 if (Storage::disk($disk)->exists($filePath)) {
                     $fileContent = Storage::disk($disk)->get($filePath);
                     if ($fileContent !== null) {
+<<<<<<< HEAD
                         $zip->addFromString($attachment . '.pdf', $fileContent);
                         $zip->addFromString($attachment . '.pdf', $fileContent);
                         $zip->addFromString($attachment . '.pdf', $fileContent);
                         $zip->addFromString($attachment . '.pdf', $fileContent);
                         $zip->addFromString($attachment . '.pdf', $fileContent);
+=======
+                        $zip->addFromString($attachment.'.pdf', $fileContent);
+>>>>>>> 551c768c4 (.)
                     }
                 } else {
                     dddx(['filePath' => $filePath]);
@@ -185,15 +198,20 @@ class DownloadZipByPathsDiskAction
             }
             $zip->close();
 
+<<<<<<< HEAD
             $downloadFileName = 'attachments_' . uniqid() . '.zip';
             $downloadFileName = 'attachments_' . uniqid() . '.zip';
             $downloadFileName = 'attachments_' . uniqid() . '.zip';
             $downloadFileName = 'attachments_' . uniqid() . '.zip';
             $downloadFileName = 'attachments_' . uniqid() . '.zip';
+=======
+            $downloadFileName = 'attachments_'.uniqid().'.zip';
+>>>>>>> 551c768c4 (.)
 
             // Usa response()->download() per il download
             return response()->download($tempFilePath, $downloadFileName, [
                 'Content-Type' => 'application/zip',
+<<<<<<< HEAD
             ]); //->deleteFileAfterSend(true);
             ]); //->deleteFileAfterSend(true);
             ]); //->deleteFileAfterSend(true);
@@ -207,6 +225,9 @@ class DownloadZipByPathsDiskAction
         
                 'Content-Type' => 'application/zip',
             ]); //->deleteFileAfterSend(true);
+=======
+            ]); // ->deleteFileAfterSend(true);
+>>>>>>> 551c768c4 (.)
         }
 
         return null;

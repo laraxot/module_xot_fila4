@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,6 +259,12 @@ https://curl.se/project_docs/caextract.html
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+=======
+Download the latest cacert.pem file from
+https://curl.se/docs/caextract.html
+
+>>>>>>> 551c768c4 (.)
 Update your php.ini file:  
 Locate your php.ini file and find the line ;curl.cainfo =.  
 Change it to: curl.cainfo = "C:\path\to\cacert.pem" (replace with the actual path where you saved the cacert.pem file).  
@@ -279,6 +286,7 @@ openssl.cafile = "C:\xampp\php\extras\ssl\cacert.pem"
 curl.cainfo = "PATH/TO/cacert.pem"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,6 +481,11 @@ curl.cainfo = "PATH/TO/cacert.pem"
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+ 
+=======
+ 
+>>>>>>> 551c768c4 (.)
 
 [openssl]
 openssl.capath = "PATH/TO/cacert.pem"  
@@ -488,6 +501,7 @@ $client->setHttpClient($http);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -749,17 +763,20 @@ $client->setHttpClient($http);
 >>>>>>> 5e6e0d054 (.)
 =======
 =======
+=======
+>>>>>>> 551c768c4 (.)
 
 
 =======
+
+
 <<<<<<< HEAD
-=======
-
-
 >>>>>>> a5dccfe (.)
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> 551c768c4 (.)
 --------------------
 composer config -g -- disable-tls true  
 composer config -g secure-http false   
@@ -770,6 +787,7 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -796,11 +814,11 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> 62cc8443 (.)
 =======
@@ -931,6 +949,7 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -1119,3 +1138,5 @@ composer config --global capath PATH/TO/DIRECTORY/WHERE cacert.pem is placed
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+>>>>>>> 551c768c4 (.)

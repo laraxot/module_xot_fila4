@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +81,11 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\FeedFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+=======
+use Illuminate\Support\Carbon;
+use Modules\Xot\Database\Factories\FeedFactory;
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> 551c768c4 (.)
 
 /**
  * Modules\Xot\Models\Feed.
@@ -100,6 +106,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Feed whereUpdatedAt($value)
  * @method static Builder<static>|Feed whereUpdatedBy($value)
  *
+<<<<<<< HEAD
  * @method static FeedFactory factory($count = null, $state = [])
  * @method static Builder|Feed newModelQuery()
  * @method static Builder|Feed newQuery()
@@ -177,6 +184,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

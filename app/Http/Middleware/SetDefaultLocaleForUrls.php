@@ -33,6 +33,7 @@ class SetDefaultLocaleForUrls
      * Handle an incoming request.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,16 +80,23 @@ class SetDefaultLocaleForUrls
      * @param Closure(Request):Response $next
      * @param Closure(Request):Response $next
      * @param Closure(Request):Response $next
+=======
+     * @param  Closure(Request):Response  $next
+>>>>>>> 551c768c4 (.)
      */
     public function handle(Request $request, Closure $next): Response
     {
         $user = $request->user();
         $lang = app()->getLocale();
+<<<<<<< HEAD
         if (null !== $user) {
         if (null !== $user) {
         if (null !== $user) {
         if (null !== $user) {
         if (null !== $user) {
+=======
+        if ($user !== null) {
+>>>>>>> 551c768c4 (.)
             $lang = $user->lang ?? app()->getLocale();
         }
 

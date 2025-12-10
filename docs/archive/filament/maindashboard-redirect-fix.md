@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Fix Redirect Loop - MainDashboard
 
 ## Problema Risolto
@@ -180,6 +183,7 @@ performance::admin
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
 - [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
@@ -217,23 +221,11 @@ performance::admin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 - [PDND Redirect Loop Fix](../../Pdnd/docs/redirect_loop_fix.md)
-=======
-- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
->>>>>>> 43d67f21 (.)
-=======
-- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
->>>>>>> b7ea1cd1 (.)
-=======
-- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
->>>>>>> b7ea1cd1 (.)
-=======
-- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
->>>>>>> 76bec91a (.)
-=======
-- [PDND Redirect Loop Fix](../../Pdnd/project_docs/redirect_loop_fix.md)
->>>>>>> 55fe1822 (.)
 - [XotBasePanelProvider](xotbasepanelprovider.md)
+<<<<<<< HEAD
 - [User Role Management](../../User/project_docs/console_commands/README.md)
 - [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 
@@ -428,6 +420,12 @@ performance::admin
 >>>>>>> 6821f7a (.)
 >>>>>>> 6d05deed (.)
 >>>>>>> 9f193021d (.)
+=======
+- [User Role Management](../../User/docs/console_commands/README.md)
+- [Filament Best Practices](../../../docs/FILAMENT-BEST-PRACTICES.md)
+
+=======
+>>>>>>> 551c768c4 (.)
 ## Aggiornamenti
 
 ### 2025-01-27 - Fix Implementato
@@ -442,6 +440,7 @@ performance::admin
 - ✅ **Multi-Ruolo**: Supporto mantenuto
 - ✅ **Performance**: Nessun impatto negativo
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -501,3 +500,7 @@ performance::admin
 =======
 >>>>>>> 90d386aa (.)
 >>>>>>> 5e6e0d054 (.)
+=======
+=======
+=======
+>>>>>>> 551c768c4 (.)

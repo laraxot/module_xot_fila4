@@ -14,6 +14,7 @@ class TestWidget extends Widget
     protected string $view = 'xot::filament.widgets.test';
 
     protected int|string|array $columnSpan = 'full';
+<<<<<<< HEAD
     protected int | string | array $columnSpan = 'full';
 
     protected int | string | array $columnSpan = 'full';
@@ -33,6 +34,8 @@ class TestWidget extends Widget
 
     protected int | string | array $columnSpan = 'full';
 
+=======
+>>>>>>> 551c768c4 (.)
 
     /**
      * Determina se il widget deve essere visibile.

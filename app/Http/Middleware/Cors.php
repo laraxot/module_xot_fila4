@@ -14,6 +14,7 @@ use Closure;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -26,11 +27,16 @@ use Illuminate\Http\Response;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Http\Request;
+=======
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+>>>>>>> 551c768c4 (.)
 
 class Cors
 {
     /**
      * Handle an incoming request.
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +111,10 @@ class Cors
 =======
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
+=======
+     */
+    public function handle(Request $request, Closure $next): Response
+>>>>>>> 551c768c4 (.)
     {
         $response = $next($request);
 

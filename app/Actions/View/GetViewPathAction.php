@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\View;
 
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,6 +138,8 @@ use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Spatie\QueueableAction\QueueableAction;
 =======
 <<<<<<< HEAD
@@ -208,6 +211,7 @@ class GetViewPathAction
         $relative_path = str_replace('.', '/', Str::after($view, '::'));
         $pack_dir = app(GetViewNameSpacePathAction::class)->execute($ns);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view_dir = $pack_dir . '/' . $relative_path;
         $view_dir = $pack_dir . '/' . $relative_path;
         $view_dir = $pack_dir . '/' . $relative_path;
@@ -478,6 +482,9 @@ class GetViewPathAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        $view_dir = $pack_dir.'/'.$relative_path;
+>>>>>>> 551c768c4 (.)
 
         $res = str_replace('/', \DIRECTORY_SEPARATOR, $view_dir);
         $res .= '.blade.php';

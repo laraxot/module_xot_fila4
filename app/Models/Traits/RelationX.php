@@ -9,11 +9,14 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\MorphPivot;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\Relations\Pivot;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\MorphPivot;
 use Illuminate\Database\Eloquent\Relations\Pivot;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 
@@ -39,6 +42,7 @@ trait RelationX
         ?string $parentKey = null,
         ?string $relatedKey = null,
         ?string $relation = null,
+<<<<<<< HEAD
      * @param class-string<Model>             $related         Related model class
      * @param class-string<Model>|string|null $_table          Pivot table name
      * @param string|null                     $foreignPivotKey Foreign pivot key
@@ -61,11 +65,14 @@ trait RelationX
         null|string $parentKey = null,
         null|string $relatedKey = null,
         null|string $relation = null,
+=======
+>>>>>>> 551c768c4 (.)
     ): BelongsToMany {
         Assert::isInstanceOf(
             $related_model = app($related),
             Model::class,
             '['.__LINE__.']['.class_basename($this).']',
+<<<<<<< HEAD
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
@@ -79,6 +86,8 @@ trait RelationX
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
+=======
+>>>>>>> 551c768c4 (.)
         );
      * @param class-string<Model>             $related         aaa
      * @param class-string<Model>|string|null $table           aaa
@@ -121,6 +130,7 @@ trait RelationX
         $dbName = $this->getConnection()->getDatabaseName();
         $relatedDbName = $related_model->getConnection()->getDatabaseName();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,12 +159,15 @@ trait RelationX
 >>>>>>> d86d643a (.)
 >>>>>>> 5cf46378 (.)
         // Handle cross-database relationships
+=======
+>>>>>>> 551c768c4 (.)
         // if ($pivotDbName !== $dbName) {
         if ($pivotDbName !== $dbName || $relatedDbName !== $dbName) {
             $pivotDriver = $pivot->getConnection()->getDriverName();
             // Only add database prefix for non-SQLite drivers
             // SQLite doesn't support database.table syntax
             if ($pivotDriver !== 'sqlite') {
+<<<<<<< HEAD
                 $table = $pivotDbName . '.' . $table;
             }
         }
@@ -264,6 +277,12 @@ trait RelationX
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                $table = $pivotDbName.'.'.$table;
+            }
+        }
+        // }
+>>>>>>> 551c768c4 (.)
 
         return $this->belongsToMany(
             related: $related,
@@ -285,6 +304,7 @@ trait RelationX
      *
      * @template TRelatedModel of \Illuminate\Database\Eloquent\Model
      *
+<<<<<<< HEAD
      * @param class-string<TRelatedModel> $related
      *
      * @param  class-string<TRelatedModel>  $related
@@ -301,6 +321,9 @@ trait RelationX
      * @param  string|null  $relatedKey
      * @param  string|null  $relation
      * @param  bool  $inverse
+=======
+     * @param  class-string<TRelatedModel>  $related
+>>>>>>> 551c768c4 (.)
      * @return MorphToMany<TRelatedModel, $this>
      */
     public function morphToManyX(
@@ -314,6 +337,7 @@ trait RelationX
         ?string $relation = null,
         bool $inverse = false,
     ): MorphToMany {
+<<<<<<< HEAD
         null|string $_table = null,
         null|string $foreignPivotKey = null,
         null|string $relatedPivotKey = null,
@@ -337,6 +361,8 @@ trait RelationX
     ) {
         bool $inverse = false,
     ) {
+=======
+>>>>>>> 551c768c4 (.)
         $pivot = $this->guessMorphPivot($related);
         $table = $pivot->getTable();
         $pivotFields = $pivot->getFillable();
@@ -344,16 +370,22 @@ trait RelationX
         $pivotDbName = $pivot->getConnection()->getDatabaseName();
         $dbName = $this->getConnection()->getDatabaseName();
         // $relatedDbName = $related_model->getConnection()->getDatabaseName();
+<<<<<<< HEAD
         //$relatedDbName = $related_model->getConnection()->getDatabaseName();
+=======
+>>>>>>> 551c768c4 (.)
         if ($table === null) {
             $table = $pivot->getTable();
         }
 
+<<<<<<< HEAD
         //$relatedDbName = $related_model->getConnection()->getDatabaseName();
         if ($table === null) {
         if($table==null){
             $table = $pivot->getTable();
         }
+=======
+>>>>>>> 551c768c4 (.)
         return $this->morphToMany(
             related: $related,
             name: $name,
@@ -370,6 +402,7 @@ trait RelationX
             ->withTimestamps();
     }
 
+<<<<<<< HEAD
     {
         $class = $this::class;
         $pivot_name = class_basename($related).'Morph';
@@ -395,10 +428,17 @@ trait RelationX
     {
         $class = $this::class;
         $pivot_name = class_basename($related) . 'Morph';
+=======
+    public function guessMorphPivot(string $related, ?string $_class = null): MorphPivot
+    {
+        $class = $this::class;
+        $pivot_name = class_basename($related).'Morph';
+>>>>>>> 551c768c4 (.)
 
         $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
         $pivot = app($pivot_class);
         Assert::isInstanceOf($pivot, MorphPivot::class);
+<<<<<<< HEAD
     public function guessMorphPivot(string $related,?string $class = null)
     public function guessMorphPivot(string $related, null|string $_class = null)
     {
@@ -448,12 +488,16 @@ trait RelationX
         Assert::isInstanceOf($pivot,\Illuminate\Database\Eloquent\Relations\MorphPivot::class);
         Assert::isInstanceOf($pivot,MorphPivot::class);
         Assert::isInstanceOf($pivot,\Illuminate\Database\Eloquent\Relations\MorphPivot::class);
+=======
+
+>>>>>>> 551c768c4 (.)
         return $pivot;
     }
 
     /**
      * Guess the pivot class for a many-to-many relationship.
      *
+<<<<<<< HEAD
      * @param string                   $related The related model class name
      * @param string|class-string|null $class   The class to use for parent class lookup (used internally)
      *
@@ -462,6 +506,12 @@ trait RelationX
     public function guessPivot(string $related, ?string $class = null): Pivot
      * @param string $related The related model class name
      * @param string|class-string|null $class The class to use for parent class lookup (used internally)
+=======
+     * @param  string  $related  The related model class name
+     * @param  string|class-string|null  $class  The class to use for parent class lookup (used internally)
+     */
+    public function guessPivot(string $related, ?string $class = null): Pivot
+>>>>>>> 551c768c4 (.)
     {
         $class ??= $this::class;
     public function guessPivot(string $related, null|string $class = null)
@@ -477,6 +527,7 @@ trait RelationX
             class_basename($related),
         ];
         sort($model_names);
+<<<<<<< HEAD
         $msg = '';
         $msg = '';
         $msg = '';
@@ -487,6 +538,8 @@ trait RelationX
 
         $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
 
+=======
+>>>>>>> 551c768c4 (.)
         $pivot_name = implode('', $model_names);
 
         $pivot_class = $this->guessPivotFullClass($pivot_name, $related, $class);
@@ -553,6 +606,7 @@ trait RelationX
         $new_pivot_name = implode('', $model_names);
 
         return $this->guessPivotFullClass($new_pivot_name, $related, $parent_class);
+<<<<<<< HEAD
     public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
     public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
     public function guessPivotFullClass(string $pivot_name, string $related, null|string $class = null): string
@@ -662,5 +716,7 @@ trait RelationX
             }
         }
         return $pivot_class;
+=======
+>>>>>>> 551c768c4 (.)
     }
 }

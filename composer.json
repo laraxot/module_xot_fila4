@@ -296,6 +296,7 @@
         "livewire/flux": "^2.1.1",
         "livewire/volt": "^1.0",
         "maatwebsite/excel": "^3.1",
+<<<<<<< HEAD
         "nwidart/laravel-modules": "*"
         "predis/predis": "*",
         "predis/predis": "^2.2",
@@ -308,6 +309,10 @@
         "predis/predis": "^2.2",
         "predis/predis": "^2.2",
         "predis/predis": "^2.2",
+=======
+        "nwidart/laravel-modules": "*",
+        "predis/predis": "*",
+>>>>>>> 551c768c4 (.)
         "spatie/cpu-load-health-check": "^1.0",
         "spatie/laravel-data": "^4.7",
         "spatie/laravel-health": "^1.29",

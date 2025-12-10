@@ -40,6 +40,7 @@ class EnvData extends Data implements Wireable
     public string $telegram_bot_token = '';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213,11 +214,14 @@ class EnvData extends Data implements Wireable
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
     private static ?self $instance = null;
 
     public static function make(): self
     {
         if (! self::$instance) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -454,6 +458,8 @@ class EnvData extends Data implements Wireable
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
             $data = [];
 
             foreach ($_ENV as $k => $v) {
@@ -462,10 +468,13 @@ class EnvData extends Data implements Wireable
                     $v = false;
                 }
                 if ($v === 'true') {
+<<<<<<< HEAD
                 if ('false' === $v) {
                     $v = false;
                 }
                 if ('true' === $v) {
+=======
+>>>>>>> 551c768c4 (.)
                     $v = true;
                 }
                 $data[$k] = $v;
@@ -483,11 +492,15 @@ class EnvData extends Data implements Wireable
         $env_content = File::get($env_path);
 
         foreach ($data as $k => $v) {
+<<<<<<< HEAD
             if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
             if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
             if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
             if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
             if ($this->$k !== $v && (is_bool($v) || is_int($v) || is_string($v))) {
+=======
+            if ($v !== $this->$k && (is_bool($v) || is_int($v) || is_string($v))) {
+>>>>>>> 551c768c4 (.)
                 $env_content = $this->updateVar($k, $v, $env_content);
             }
         }
@@ -500,6 +513,7 @@ class EnvData extends Data implements Wireable
         $key = str($key)->upper()->toString();
         $replace = $this->getLine($key, $value);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pos_start = mb_strpos($env_content, $key.'=');
         if ($pos_start === false) {
         $pos_start = mb_strpos($env_content, $key . '=');
@@ -605,6 +619,8 @@ class EnvData extends Data implements Wireable
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         $pos_start = mb_strpos($env_content, $key.'=');
         if ($pos_start === false) {
             // throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -613,6 +629,7 @@ class EnvData extends Data implements Wireable
         $pos_end = mb_strpos($env_content, "\n", $pos_start);
         if ($pos_end === false) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -971,11 +988,14 @@ class EnvData extends Data implements Wireable
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         }
 
         $length = $pos_end - $pos_start;
         $find = mb_substr($env_content, $pos_start, $length + 1);
 
+<<<<<<< HEAD
         $env_content = str($env_content)->replace($find, $replace)->toString();
 
         return $env_content;
@@ -991,11 +1011,15 @@ class EnvData extends Data implements Wireable
         $env_content = str($env_content)->replace($find, $replace)->toString();
 
         return $env_content;
+=======
+        return str($env_content)->replace($find, $replace)->toString();
+>>>>>>> 551c768c4 (.)
     }
 
     public function getLine(string $key, int|bool|string $value): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $replace = $key . '=';
         $replace = $key . '=';
         $replace = $key . '=';
@@ -1266,11 +1290,15 @@ class EnvData extends Data implements Wireable
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        $replace = $key.'=';
+>>>>>>> 551c768c4 (.)
         if (is_bool($value)) {
             $replace .= $value ? 'true' : 'false';
         }
         if (is_string($value)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $replace .= '"' . $value . '"';
             $replace .= '"' . $value . '"';
             $replace .= '"' . $value . '"';
@@ -1541,6 +1569,9 @@ class EnvData extends Data implements Wireable
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            $replace .= '"'.$value.'"';
+>>>>>>> 551c768c4 (.)
         }
         if (is_int($value)) {
             $replace .= $value;

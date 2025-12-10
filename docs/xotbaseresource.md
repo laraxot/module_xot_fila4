@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # XotBaseResource
 
 ## Panoramica
@@ -31,6 +34,7 @@ XotBaseResource è la classe base astratta per tutte le risorse Filament nel sis
 Alcuni metodi sono marcati come `final` e non possono essere sovrascritti nelle classi figlie:
 
 ```php
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -92,6 +96,9 @@ final public static function form(Form $form): Form
 final public static function form(Form $form): Form
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+final public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 551c768c4 (.)
 {
     return $form->schema(static::getFormSchema());
 }
@@ -156,6 +163,7 @@ class NotificationResource extends XotBaseResource
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -322,6 +330,8 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
 - [Architettura Filament](../../../docs/architecture/filament.md)
 - [Gestione Risorse](../../../docs/architecture/resources.md)
 - [Regole XotBaseResource](../../../docs/regole/xotbaseresource-rules.md)
@@ -329,6 +339,7 @@ class NotificationResource extends XotBaseResource
 ### Collegamenti ai Moduli
 - [Notify Resource](../../Notify/docs/filament-resources.md)
 - [User Resource](../../User/docs/filament-resources.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -583,6 +594,8 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
 ## Note Importanti
 
@@ -590,6 +603,7 @@ class NotificationResource extends XotBaseResource
 2. Implementare sempre i metodi astratti richiesti
 3. Utilizzare i file di traduzione per le label
 4. Evitare override non necessari di metodi
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -671,3 +685,7 @@ class NotificationResource extends XotBaseResource
 5. Seguire le convenzioni di Filament 
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+5. Seguire le convenzioni di Filament 
+=======
+>>>>>>> 551c768c4 (.)

@@ -8,6 +8,7 @@ use Filament\Actions\DeleteAction;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 use Filament\Support\Components\Component;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
@@ -23,6 +24,8 @@ use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Filament\Resources\Pages\EditRecord as FilamentEditRecord;
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Filament\Traits\TransTrait;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
@@ -55,6 +58,7 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 {
     use TransTrait;
 
+<<<<<<< HEAD
     /**
      * Configure the form.
      *
@@ -167,6 +171,8 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
         return [];
     }
 
+=======
+>>>>>>> 551c768c4 (.)
     public static function getNavigationLabel(): string
     {
         return static::transFunc(__FUNCTION__);
@@ -235,6 +241,7 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
             */
         ];
     }
+<<<<<<< HEAD
 
 
 
@@ -326,4 +333,6 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 
 
 
+=======
+>>>>>>> 551c768c4 (.)
 }

@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)
 # Filament Best Practices (Moduli Riutilizzabili)
 
 ## Descrizione
@@ -69,6 +57,7 @@ public static function getFormSchema(): array
 
 ```php
 // NON FARE MAI QUESTO
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -130,6 +119,9 @@ public static function form(Form $form): Form
 public static function form(Form $form): Form
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 551c768c4 (.)
 {
     return $form->schema([
         // componenti...
@@ -675,6 +667,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 ### Esempio corretto
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -850,12 +843,16 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
+>>>>>>> 551c768c4 (.)
 TextInput::make('location')->required()
 ```
 
 ### Esempio errato
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1031,6 +1028,9 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
 >>>>>>> 55fe1822 (.)
 >>>>>>> e39b54ba7 (.)
+=======
+protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
+>>>>>>> 551c768c4 (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 
@@ -1085,18 +1085,3 @@ Appointment::where('doctor_id', $doctorId)
 - DRY, KISS, serenità del codice
 - Refactoring sicuro, massima estendibilità
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cc7fb225 (.)
-=======
->>>>>>> 88e35986 (.)
-=======
->>>>>>> 53d6a6ba (.)
-=======
->>>>>>> 71586de2 (.)
-=======
->>>>>>> e0b8ebe3 (.)
-=======
->>>>>>> cc52d333 (.)

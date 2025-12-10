@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Database\Factories;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,6 +23,8 @@ namespace Modules\Xot\Database\Factories;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\Extra;
 
@@ -29,6 +32,7 @@ use Modules\Xot\Models\Extra;
  * @extends Factory<Extra>
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -90,16 +94,21 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\Extra;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
+=======
+>>>>>>> 551c768c4 (.)
 class ExtraFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
+<<<<<<< HEAD
      *
      * @var class-string<Extra>
      */
     protected $model = Extra::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
      *
      * @var class-string<Extra>
      */

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +151,9 @@
 =======
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)
 # Best Practices
 
 ## Laravel
@@ -197,6 +201,7 @@
 - Controllare la manutenibilità
 - Verificare la testabilità
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -383,6 +388,10 @@
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+=======
+=======
+>>>>>>> 551c768c4 (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -1099,6 +1108,7 @@ public function createModel(array $data): MioModello
 - [**README.md**](README.md) - Documentazione principale del modulo
 - [**Architettura**](architecture.md) - Architettura del modulo Xot
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
@@ -1247,10 +1257,15 @@ public function createModel(array $data): MioModello
 - [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
 >>>>>>> 5bd842e3 (.)
 >>>>>>> 88ee35c4e (.)
+=======
+- [**Best Practices Globali**](../project_docs/best-practices.md) - Best practices globali
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+>>>>>>> 551c768c4 (.)
 
 ---
 
 *Ultimo aggiornamento: giugno 2025 - Versione 2.0.0*
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1287,3 +1302,6 @@ public function createModel(array $data): MioModello
 =======
 >>>>>>> 5bd842e3 (.)
 >>>>>>> 88ee35c4e (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

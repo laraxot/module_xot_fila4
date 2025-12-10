@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 # Laravel XOT Architecture Documentation
 
 ## Overview
@@ -1424,6 +1427,7 @@ class MyAction extends XotBaseAction
 ### 1. Form Base
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1484,6 +1488,9 @@ public static function form(Form $form): Form
 public static function form(Form $form): Form
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 551c768c4 (.)
 {
     return $form->schema([
         // Utilizzare helper Xot
@@ -1864,6 +1871,7 @@ class ListSocialProviders extends XotBaseListRecords
 #### 1. Dichiarazione Duplicata del Metodo execute()
 L'errore `Cannot redeclare [Class]::execute()` si verifica quando:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1883,6 +1891,8 @@ L'errore `Cannot redeclare [Class]::execute()` si verifica quando:
 >>>>>>> 88ee35c4e (.)
 =======
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 
 #### 2. Dichiarazione Duplicata del Metodo getResource() in XotBaseListRecords
 L'errore `Cannot redeclare Modules\Xot\Filament\Resources\Pages\XotBaseListRecords::getResource()` si verifica quando il metodo `getResource()` è dichiarato due volte nella stessa classe.
@@ -1895,6 +1905,7 @@ Vedi [xotbaselistrecords-getresource-duplicate-fix.md](./filament/xotbaselistrec
 
 #### 1. Dichiarazione Duplicata del Metodo execute()
 L'errore `Cannot redeclare [Class]::execute()` si verifica quando:
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1929,6 +1940,8 @@ L'errore `Cannot redeclare [Class]::execute()` si verifica quando:
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+>>>>>>> 551c768c4 (.)
 - Si sta implementando un'interfaccia che definisce `execute()`
 - Si sta estendendo una classe base che già definisce `execute()`
 - Si sta usando un trait che contiene `execute()`
@@ -2443,6 +2456,7 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 3. Gli assets pubblici vanno in `public_html/`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2723,6 +2737,9 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 4. La documentazione va in `/docs/`
 >>>>>>> 28fc70fe (.)
 >>>>>>> 851793957 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 551c768c4 (.)
 
 # Gestione Temi e Assets
 
@@ -3374,6 +3391,7 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3508,6 +3526,9 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 551c768c4 (.)
 
 ## Componenti Forms vs UI
 
@@ -3595,6 +3616,7 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3729,6 +3751,9 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 551c768c4 (.)
 
 ## 1. Installazione Pacchetti Necessari
 ```bash
@@ -4234,6 +4259,7 @@ $remember = $data['remember'] ?? false;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4368,6 +4394,9 @@ $remember = $data['remember'] ?? false;
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> 551c768c4 (.)
 
 ## 1. Installazione Pacchetti NPM
 
@@ -6358,6 +6387,7 @@ class CustomAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6492,11 +6522,15 @@ class CustomAction
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+# Notifiche in Filament 3
+>>>>>>> 551c768c4 (.)
 
 ## Differenze con Filament 2
 
 ### ❌ Filament 2 (Vecchio Modo)
 ```php
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -6526,10 +6560,13 @@ class CustomAction
 =======
 >>>>>>> ab8cc3f3 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 551c768c4 (.)
 $this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
 ```
 
 ### ✅ Filament 3 (Modo Corretto)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -6685,6 +6722,8 @@ $this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
 =======
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+>>>>>>> 551c768c4 (.)
 ```php
 use Filament\Notifications\Notification;
 
@@ -7392,6 +7431,7 @@ $remember = $data['remember'] ?? false;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7526,6 +7566,9 @@ $remember = $data['remember'] ?? false;
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> 551c768c4 (.)
 
 ## 1. Installazione Pacchetti NPM
 
@@ -9677,6 +9720,7 @@ public static function table(Table $table): Table
 Le informazioni aggiuntive devono essere mostrate solo nella vista dettaglio:
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9737,6 +9781,9 @@ public static function form(Form $form): Form
 public static function form(Form $form): Form
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 551c768c4 (.)
 {
     return $form
         ->schema([
@@ -9839,6 +9886,7 @@ Framework based on Laravel for building modular applications.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9973,6 +10021,9 @@ Framework based on Laravel for building modular applications.
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 551c768c4 (.)
 
 ## Implementazione Corretta dei Widget
 
@@ -10067,6 +10118,7 @@ class ClientMapWidget extends Widget
 ### Note Importanti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10201,6 +10253,9 @@ class ClientMapWidget extends Widget
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 551c768c4 (.)
 2. Non è più necessario utilizzare `WidgetConfiguration::make()`
 3. I dati vengono gestiti direttamente nel widget tramite `getViewData()`
 4. Il componente Livewire padre è accessibile tramite `getLivewire()`
@@ -10209,6 +10264,7 @@ class ClientMapWidget extends Widget
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10343,6 +10399,9 @@ class ClientMapWidget extends Widget
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 551c768c4 (.)
 
 ## Implementazione Widget
 
@@ -10450,6 +10509,7 @@ class ClientMapWidget extends Widget
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10584,6 +10644,9 @@ class ClientMapWidget extends Widget
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 551c768c4 (.)
    - Rimossa la classe `WidgetConfiguration`
    - Semplificata la registrazione dei widget
    - Migliorato il sistema di type hinting
@@ -10603,6 +10666,7 @@ class ClientMapWidget extends Widget
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10737,6 +10801,9 @@ class ClientMapWidget extends Widget
 >>>>>>> 6cba4fe (.)
 >>>>>>> cc52d333 (.)
 >>>>>>> f8f76a284 (.)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 551c768c4 (.)
 
 ## Implementazione Widget
 
@@ -10855,6 +10922,7 @@ class ClientMapWidget extends Widget
 5. La reattività funziona automaticamente con Livewire 3
   - Contact section
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10907,3 +10975,6 @@ class ClientMapWidget extends Widget
 =======
 >>>>>>> 03ceeac3 (.)
 >>>>>>> 92cca5ade (.)
+=======
+=======
+>>>>>>> 551c768c4 (.)

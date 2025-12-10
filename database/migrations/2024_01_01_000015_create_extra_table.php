@@ -11,6 +11,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
  */
 return new class extends XotBaseMigration
 {
+<<<<<<< HEAD
 return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
@@ -30,6 +31,8 @@ return new class extends XotBaseMigration {
 return new class extends XotBaseMigration
 {
 return new class extends XotBaseMigration {
+=======
+>>>>>>> 551c768c4 (.)
     /**
      * Run the migrations.
      */
@@ -138,6 +141,7 @@ return new class extends XotBaseMigration {
             $table->increments('id');
             $table->uuidMorphs('model');
             // @phpstan-ignore-next-line method.notFound
+<<<<<<< HEAD
             $table->schemalessAttributes('extra_attributes');
             $table->unique(['model_id', 'model_type'], 'morph_unique');
         });
@@ -149,6 +153,8 @@ return new class extends XotBaseMigration {
             $table->increments('id');
             $table->uuidMorphs('model');
             // @phpstan-ignore-next-line method.notFound
+=======
+>>>>>>> 551c768c4 (.)
             $table->schemalessAttributes('extra_attributes');
             $table->unique(['model_id', 'model_type'], 'morph_unique');
         });
@@ -167,6 +173,7 @@ return new class extends XotBaseMigration {
             // }
 
             if ($this->hasColumn('model_id') && $this->getColumnType('model_id') === 'bigint') {
+<<<<<<< HEAD
             if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
             if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
             if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
@@ -181,6 +188,8 @@ return new class extends XotBaseMigration {
             if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
             if ($this->hasColumn('model_id') && $this->getColumnType('model_id') === 'bigint') {
             if ($this->hasColumn('model_id') && 'bigint' === $this->getColumnType('model_id')) {
+=======
+>>>>>>> 551c768c4 (.)
                 $table->string('model_id', 36)->index()->change();
             }
         });

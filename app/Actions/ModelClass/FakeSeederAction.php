@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\ModelClass;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,11 +100,18 @@ use InvalidArgumentException;
 use RuntimeException;
 >>>>>>> 9db27d12 (.)
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
+<<<<<<< HEAD
+=======
+use InvalidArgumentException;
+use RuntimeException;
+>>>>>>> 551c768c4 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -118,6 +126,7 @@ class FakeSeederAction
     /**
      * Execute the fake data seeding process.
      *
+<<<<<<< HEAD
      * @param class-string<Model> $modelClass The fully qualified model class name
      * @param int<1, max>         $qty        Number of records to generate
      * @param class-string<Model> $modelClass The fully qualified model class name
@@ -128,6 +137,10 @@ class FakeSeederAction
      * @param int<1, max>         $qty        Number of records to generate
      * @param class-string<Model> $modelClass The fully qualified model class name
      * @param int<1, max>         $qty        Number of records to generate
+=======
+     * @param  class-string<Model>  $modelClass  The fully qualified model class name
+     * @param  int<1, max>  $qty  Number of records to generate
+>>>>>>> 551c768c4 (.)
      *
      * @throws InvalidArgumentException When model class is invalid
      */
@@ -193,6 +206,7 @@ class FakeSeederAction
 =======
 >>>>>>> 851793957 (.)
         if (
+<<<<<<< HEAD
             !class_exists($modelClass) ||
                 !is_subclass_of($modelClass, Model::class) ||
                 !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
@@ -208,6 +222,11 @@ class FakeSeederAction
             !class_exists($modelClass) ||
                 !is_subclass_of($modelClass, Model::class) ||
                 !in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
+=======
+            ! class_exists($modelClass) ||
+                ! is_subclass_of($modelClass, Model::class) ||
+                ! in_array(HasFactory::class, class_uses_recursive($modelClass), strict: true)
+>>>>>>> 551c768c4 (.)
         ) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -349,11 +368,15 @@ class FakeSeederAction
     /**
      * Get the model factory.
      *
+<<<<<<< HEAD
      * @param class-string<Model> $modelClass
      * @param class-string<Model> $modelClass
      * @param class-string<Model> $modelClass
      * @param class-string<Model> $modelClass
      * @param class-string<Model> $modelClass
+=======
+     * @param  class-string<Model>  $modelClass
+>>>>>>> 551c768c4 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -399,6 +422,7 @@ class FakeSeederAction
     /**
      * Send a notification about the seeding completion.
      *
+<<<<<<< HEAD
      * @param class-string<Model> $modelClass
      * @param int<1, max>         $count
      * @param class-string<Model> $modelClass
@@ -409,6 +433,10 @@ class FakeSeederAction
      * @param int<1, max>         $count
      * @param class-string<Model> $modelClass
      * @param int<1, max>         $count
+=======
+     * @param  class-string<Model>  $modelClass
+     * @param  int<1, max>  $count
+>>>>>>> 551c768c4 (.)
      */
     private function sendNotification(string $modelClass, int $count): void
     {
@@ -609,6 +637,7 @@ class FakeSeederAction
     /**
      * Queue remaining records for processing.
      *
+<<<<<<< HEAD
      * @param class-string<Model> $modelClass
      * @param int<1, max>         $qty
      * @param class-string<Model> $modelClass
@@ -619,6 +648,10 @@ class FakeSeederAction
      * @param int<1, max>         $qty
      * @param class-string<Model> $modelClass
      * @param int<1, max>         $qty
+=======
+     * @param  class-string<Model>  $modelClass
+     * @param  int<1, max>  $qty
+>>>>>>> 551c768c4 (.)
      */
     private function queueRemainingRecords(string $modelClass, int $qty): void
     {

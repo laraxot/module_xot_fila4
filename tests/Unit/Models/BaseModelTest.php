@@ -29,6 +29,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -136,12 +137,15 @@ namespace Modules\Xot\Tests\Unit\Models;
 >>>>>>> 7468a7d2 (.)
 =======
 =======
+=======
+>>>>>>> 551c768c4 (.)
 
 uses(TestCase::class);
 
 beforeEach(function () {
     $this->baseModel = new class extends BaseModel
     {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -414,6 +418,8 @@ beforeEach(function () {
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         protected $table = 'test_table';
     };
 });

@@ -2,6 +2,12 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+/** @var \ReflectionClass $reflection */
+/** @var array<string, string> $properties */
+
+>>>>>>> 551c768c4 (.)
 ?>
 namespace Database\Factories;
 
@@ -29,6 +35,7 @@ class <?= $reflection->getShortName(); ?>Factory extends Factory
 <?php endforeach; ?>
         ];
     }
+<<<<<<< HEAD
 @isset($properties['remember_token'])
     use Illuminate\Support\Str;
 @endisset
@@ -56,4 +63,6 @@ return [
 @endforeach
 ];
 }
+=======
+>>>>>>> 551c768c4 (.)
 }

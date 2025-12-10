@@ -7,6 +7,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 return new class extends XotBaseMigration
 {
+<<<<<<< HEAD
 return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
 return new class extends XotBaseMigration {
@@ -26,11 +27,14 @@ return new class extends XotBaseMigration {
 return new class extends XotBaseMigration
 {
 return new class extends XotBaseMigration {
+=======
+>>>>>>> 551c768c4 (.)
     /**
      * Run the migrations.
      */
     public function up(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
@@ -221,6 +225,9 @@ return new class extends XotBaseMigration {
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        if (! $this->shouldRun()) {
+>>>>>>> 551c768c4 (.)
             return;
         }
         // -- CREATE --
@@ -235,6 +242,7 @@ return new class extends XotBaseMigration {
                 'pgsql' => $table->uuid('key_hash')->storedAs('md5("key")::uuid'),
                 'sqlite' => $table->string('key_hash'),
                 default => throw new InvalidArgumentException('Unsupported driver: '.$this->driver()),
+<<<<<<< HEAD
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
@@ -245,6 +253,8 @@ return new class extends XotBaseMigration {
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
                 default => throw new InvalidArgumentException('Unsupported driver: ' . $this->driver()),
+=======
+>>>>>>> 551c768c4 (.)
             };
             $table->string('aggregate');
             $table->decimal('value', 20, 2);

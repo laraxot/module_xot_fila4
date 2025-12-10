@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14,6 +15,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+>>>>>>> 551c768c4 (.)
 ## stato analisi phpstan
 
 - **data**: 2025-11-12  
@@ -25,6 +28,7 @@
 - mantenere le classi base allineate ai pattern Laraxot (`XotBase*`, trait condivisi);
 - proseguire con la normalizzazione dei file in `docs/` (evitare duplicati e nomi non conformi);
 - verificare dopo ogni refactor che gli helper condivisi rispettino la tipizzazione stretta.
+<<<<<<< HEAD
 # PHPStan Analysis Report - 18 Agosto 2025
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
@@ -326,3 +330,5 @@ class MyModel extends BaseModel
 =======
 >>>>>>> 76bec91a (.)
 >>>>>>> 5e6aa70fe (.)
+=======
+>>>>>>> 551c768c4 (.)

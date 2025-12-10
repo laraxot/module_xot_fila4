@@ -6,6 +6,7 @@ namespace Modules\Xot\Filament\Resources\SessionResource\Pages;
 
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,6 +162,8 @@ use Modules\Xot\Filament\Resources\SessionResource;
 
 
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+=======
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Filament\Resources\SessionResource;
 
 class CreateSession extends XotBaseCreateRecord

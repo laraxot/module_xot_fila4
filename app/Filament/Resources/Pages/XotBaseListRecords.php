@@ -6,6 +6,7 @@ namespace Modules\Xot\Filament\Resources\Pages;
 
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords as FilamentListRecords;
+<<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords as FilamentListRecords;
@@ -19,6 +20,8 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Filament\Tables;
 use Filament\Tables\Table;
+=======
+>>>>>>> 551c768c4 (.)
 use Illuminate\Contracts\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
@@ -77,6 +80,7 @@ use Modules\UI\Enums\TableLayoutEnum;
 =======
 >>>>>>> 60f0a1820 (.)
 use Modules\Xot\Actions\ModelClass\UpdateCountAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -551,6 +555,10 @@ use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Actions\Header\ExportXlsAction;
 use Modules\Xot\Filament\Traits\HasXotTable;
+=======
+use Modules\Xot\Filament\Traits\HasXotTable;
+use Modules\Xot\Filament\Traits\TransTrait;
+>>>>>>> 551c768c4 (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -568,10 +576,13 @@ abstract class XotBaseListRecords extends FilamentListRecords
 
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
+<<<<<<< HEAD
     use TransTrait;
 
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
+=======
+>>>>>>> 551c768c4 (.)
     /**
      * Get the resource class name.
      *
@@ -585,10 +596,13 @@ abstract class XotBaseListRecords extends FilamentListRecords
         return $resource;
     }
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 551c768c4 (.)
     /*
      * Get the table columns.
      *
@@ -1138,6 +1152,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
     }
 
     /**
+<<<<<<< HEAD
      * Get the resource class name.
      *
      * @return class-string
@@ -1238,6 +1253,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
     /**
+=======
+>>>>>>> 551c768c4 (.)
      * Paginate the table query.
      */
     protected function paginateTableQuery(Builder $query): Paginator
@@ -1245,6 +1262,7 @@ abstract class XotBaseListRecords extends FilamentListRecords
         $paginator = $query->fastPaginate(
             $this->getTableRecordsPerPage() === 'all' ? $query->count() : $this->getTableRecordsPerPage(),
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         Assert::isInstanceOf($paginator, Paginator::class);
@@ -1255,9 +1273,12 @@ abstract class XotBaseListRecords extends FilamentListRecords
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
 
 <<<<<<< HEAD
         Assert::isInstanceOf($paginator, Paginator::class);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b7afadf9 (.)
@@ -1296,6 +1317,8 @@ abstract class XotBaseListRecords extends FilamentListRecords
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
         if (! method_exists($paginator, 'total')) {
             return $paginator;
@@ -1317,12 +1340,15 @@ abstract class XotBaseListRecords extends FilamentListRecords
         Assert::isInstanceOf($paginator, Paginator::class);
 >>>>>>> eeaa032 (.)
 
+<<<<<<< HEAD
             'all' === $this->getTableRecordsPerPage() ? $query->count() : $this->getTableRecordsPerPage(),
         );
         $count = $paginator->total();
         $modelClass = $this->getModel();
         //dddx($modelClass);
         app(UpdateCountAction::class)->execute($modelClass, $count);
+=======
+>>>>>>> 551c768c4 (.)
         return $paginator;
     }
 }

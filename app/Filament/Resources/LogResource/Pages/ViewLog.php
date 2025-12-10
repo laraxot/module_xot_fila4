@@ -10,6 +10,7 @@ use Filament\Schemas\Components\Section;
 use Modules\Xot\Filament\Resources\LogResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 use Override;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 use Override;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
@@ -26,6 +27,8 @@ use Modules\Xot\Filament\Resources\LogResource;
 use function Safe\json_encode;
 
 use Modules\Xot\Filament\Resources\LogResource;
+=======
+>>>>>>> 551c768c4 (.)
 
 use function Safe\json_encode;
 
@@ -33,15 +36,19 @@ class ViewLog extends XotBaseViewRecord
 {
     protected static string $resource = LogResource::class;
 
+<<<<<<< HEAD
     /**
      * @return array<int, \Filament\Support\Components\Component>
      */
+=======
+>>>>>>> 551c768c4 (.)
     #[Override]
     protected function getInfolistSchema(): array
     {
         $log = $this->getRecord()->getModel();
 
         return [
+<<<<<<< HEAD
         return [
         return [
         return [
@@ -66,6 +73,8 @@ class ViewLog extends \Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord
         return [
         return [
         return [
+=======
+>>>>>>> 551c768c4 (.)
             'log_info' => Section::make('Informazioni Log')->schema([
                 'log_grid' => Grid::make(['default' => 3])->schema([
                     'id' => TextEntry::make('id'),
@@ -79,6 +88,7 @@ class ViewLog extends \Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord
                     ),
                     'extra' => TextEntry::make('extra')->formatStateUsing(
                         fn ($state) => json_encode($state, JSON_PRETTY_PRINT),
+<<<<<<< HEAD
             Section::make('Informazioni Log')->schema([
                 Grid::make(['default' => 3])->schema([
                     TextEntry::make('id'),
@@ -135,6 +145,9 @@ class ViewLog extends \Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord
                                 ->formatStateUsing(fn ($state) => json_encode($state, JSON_PRETTY_PRINT)),
                         ]),
                 ]),
+=======
+                    ),
+>>>>>>> 551c768c4 (.)
                 ]),
             ]),
         ];

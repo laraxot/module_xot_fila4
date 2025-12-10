@@ -29,6 +29,7 @@ class CopyAction
     public function execute(string $from, string $to): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,6 +84,8 @@ class CopyAction
 =======
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         if (! File::exists(\dirname($to))) {
 =======
 <<<<<<< HEAD
@@ -112,6 +115,7 @@ class CopyAction
                     'Caught exception: '.
                     $e->getMessage().
                     ' ['.__LINE__.']['.class_basename(static::class).']',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -211,6 +215,8 @@ class CopyAction
                     'Caught exception: ',
                     $e->getMessage(),
                     '\n[' . __LINE__ . '][' . class_basename(static::class) . ']',
+=======
+>>>>>>> 551c768c4 (.)
                 );
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,6 +378,7 @@ class CopyAction
                 ']
                     message ['.
                 $exception->getMessage().
+<<<<<<< HEAD
                     from [' .
                 $from .
                 ']
@@ -380,6 +387,8 @@ class CopyAction
                 ']
                     message [' .
                 $exception->getMessage() .
+=======
+>>>>>>> 551c768c4 (.)
                     ']',
                 $exception->getCode(),
                 $exception,

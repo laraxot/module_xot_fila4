@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Panel;
 
 use Filament\Panel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +161,10 @@ use Illuminate\Support\Facades\Gate;
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 use Modules\Xot\Datas\MetatagData;
+=======
+use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
+use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
+>>>>>>> 551c768c4 (.)
 use Modules\Xot\Datas\XotData;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
@@ -265,10 +270,13 @@ class ApplyTenancyToPanelAction
 
         // Controlla se l'utente è superadmin
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 551c768c4 (.)
         // $user = Auth::user();
 
 <<<<<<< HEAD
@@ -277,6 +285,7 @@ class ApplyTenancyToPanelAction
 =======
 <<<<<<< HEAD
         // if (Gate::allows('superadmin', $user)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -484,11 +493,14 @@ class ApplyTenancyToPanelAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
         // Configurazione completa per superadmin
         $panel
             ->tenant($tenant_class, 'slug', 'tenants')
             ->tenantRegistration(RegisterTenant::class)
             ->tenantProfile(EditTenantProfile::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -507,11 +519,14 @@ class ApplyTenancyToPanelAction
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 091f883c (.)
+=======
+>>>>>>> 551c768c4 (.)
         // } else {
         // Configurazione limitata per non-superadmin
 <<<<<<< HEAD
         // $panel->tenant($tenant_class, slugAttribute: 'slug');
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         //} else {
@@ -610,6 +625,8 @@ class ApplyTenancyToPanelAction
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 551c768c4 (.)
 
         return $panel;
     }

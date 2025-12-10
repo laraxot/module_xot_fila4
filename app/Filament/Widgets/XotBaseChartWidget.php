@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+use Filament\Support\RawJs;
 use Filament\Widgets\ChartWidget as FilamentChartWidget;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 <<<<<<< HEAD
@@ -176,9 +177,9 @@ abstract class XotBaseChartWidget extends FilamentChartWidget
     /**
      * Restituisce le opzioni del grafico.
      *
-     * @return array<string, mixed>
+     * @return array<string, mixed>|RawJs|null
      */
-    protected function getOptions(): array
+    protected function getOptions(): array|RawJs|null
     {
         return [
             'responsive' => true,

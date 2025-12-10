@@ -155,6 +155,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
   - [Dettagli e Passi](./roadmap/docs/status.md)
@@ -194,10 +195,13 @@
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
   - [Dettagli e Passi](./roadmap/docs/status.md)
 =======
   - [Dettagli e Passi](./roadmap/project_docs/status.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +284,11 @@
   - [Dettagli e Passi](./roadmap/project_docs/status.md)
 >>>>>>> f1d4085 (.)
 >>>>>>> 5e58b29b (.)
+=======
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -528,6 +537,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -548,6 +558,8 @@
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
@@ -590,6 +602,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1c4bb8cf (.)
 =======
@@ -601,10 +614,13 @@
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 1c4bb8cf (.)
+=======
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -686,6 +702,8 @@
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -901,10 +919,14 @@
 
 ### Documentazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Framework](https://laravel.com/docs/12.x)
 =======
 - [Laravel Framework](https://laravel.com/project_docs/12.x)
 >>>>>>> f1d4085 (.)
+=======
+- [Laravel Framework](https://laravel.com/docs/12.x)
+>>>>>>> 73eab74 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 
@@ -919,6 +941,7 @@
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1146,6 +1169,10 @@
 ## Collegamenti tra versioni di roadmap.md
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -1165,8 +1192,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 =======
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
@@ -1185,6 +1215,7 @@
 * [roadmap.md](../../../Cms/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/project_docs/roadmap.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
@@ -1384,6 +1415,10 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
 
 
 ---

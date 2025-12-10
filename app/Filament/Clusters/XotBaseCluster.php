@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Clusters;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Clusters\Cluster as FilamentCluster;
 use Illuminate\Contracts\Support\Htmlable;
 <<<<<<< HEAD
@@ -415,6 +416,7 @@ use Filament\Clusters\Cluster as FilamentCluster;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5e58b29b (.)
 =======
 =======
@@ -428,10 +430,13 @@ use Filament\Clusters\Cluster as FilamentCluster;
 =======
 >>>>>>> 88ea7103 (.)
 =======
+>>>>>>> 1c4bb8cf (.)
+=======
 use Filament\Clusters\Cluster as FilamentCluster;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\Facades\Lang;
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -512,6 +517,8 @@ use Illuminate\Support\Facades\Lang;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 class XotBaseCluster extends FilamentCluster
@@ -520,12 +527,16 @@ class XotBaseCluster extends FilamentCluster
 
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * public static function getNavigationGroup(): ?string
      * {
      *
      * return 'ZZZZZZZZZZZZZZZZZZ';
      * }
      */
+<<<<<<< HEAD
 =======
     public static function getNavigationGroup(): ?string
     {
@@ -534,6 +545,8 @@ class XotBaseCluster extends FilamentCluster
     }
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
     public function getTitle(): Htmlable|string
     {
@@ -569,6 +582,9 @@ class XotBaseCluster extends FilamentCluster
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     /*
      * protected static ?string $navigationIcon = 'heroicon-o-users';
      *
@@ -599,6 +615,7 @@ class XotBaseCluster extends FilamentCluster
      * ];
      * }
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -632,4 +649,6 @@ class XotBaseCluster extends FilamentCluster
     }
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 }

@@ -71,6 +71,7 @@ use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -207,12 +208,17 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
 use Spatie\QueueableAction\QueueableAction;
 =======
 use Nwidart\Modules\Module as ModuleInstance;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 >>>>>>> f1d4085 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 73eab74 (.)
 
 class GetAllModelsAction
 {
@@ -220,6 +226,7 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,6 +387,10 @@ class GetAllModelsAction
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
      */
     public function execute(): array
     {
@@ -415,6 +426,9 @@ class GetAllModelsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> 88ea7103 (.)
 =======
@@ -727,6 +741,7 @@ class GetAllModelsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> b7afadf9 (.)
@@ -827,6 +842,10 @@ class GetAllModelsAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
         }
 
         return $res;

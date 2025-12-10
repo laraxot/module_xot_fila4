@@ -15,10 +15,14 @@ class BelongsToAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
 =======
     public function execute(Model $model, RelationDTO $relationDTO): void
 >>>>>>> f1d4085 (.)
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> 73eab74 (.)
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsTo::class);
 
@@ -27,6 +31,7 @@ class BelongsToAction
         $relationDTO->rows->associate($related);
 
         // $rows = $relation->rows;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -329,6 +334,10 @@ class BelongsToAction
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
         // dd([$relation->name]);
 >>>>>>> 5a14301c (.)
 =======
@@ -360,6 +369,7 @@ class BelongsToAction
          * 't1'=>$rows,
          * ]);
          */
+<<<<<<< HEAD
 =======
 
         // dd([$relation->name]);
@@ -381,5 +391,7 @@ class BelongsToAction
         ]);
         */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 }

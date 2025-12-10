@@ -116,6 +116,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -838,11 +839,16 @@ use Modules\Xot\Datas\MetatagData;
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
+=======
+use Filament\Support\Colors\Color;
+use Modules\Xot\Datas\MetatagData;
+>>>>>>> 87a02960 (.)
 
 /**
  * Test che la classe MetatagData possa essere istanziata correttamente.
  * Questo test verifica che la classe possa essere istanziata senza errori.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -885,6 +891,10 @@ test('MetatagData può essere istanziata', function (): void {
 test('MetatagData può essere istanziata', function (): void {
     $metatagData = new MetatagData;
 >>>>>>> b7afadf9 (.)
+=======
+test('MetatagData può essere istanziata', function () {
+    $metatagData = new MetatagData();
+>>>>>>> 87a02960 (.)
     expect($metatagData)->toBeInstanceOf(MetatagData::class);
 });
 
@@ -893,6 +903,7 @@ test('MetatagData può essere istanziata', function (): void {
  * Questo test verifica che il metodo getFilamentColors() restituisca un array
  * con i colori Filament corretti.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1413,10 +1424,13 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
 >>>>>>> 849568d9 (.)
 =======
 >>>>>>> 37de20a7 (.)
+=======
+>>>>>>> 87a02960 (.)
 test('getFilamentColors restituisce i colori Filament corretti', function () {
     $metatagData = new MetatagData();
     $colors = $metatagData->getFilamentColors();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1481,10 +1495,13 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 =======
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 87a02960 (.)
     expect($colors)
         ->toBeArray()
         ->and($colors)
         ->toHaveKeys(['danger', 'gray', 'info', 'primary', 'success', 'warning'])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1951,10 +1968,13 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 87a02960 (.)
         ->and($colors['danger'])
         ->toBe(Color::Red)
         ->and($colors['primary'])
         ->toBe(Color::Amber);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2125,6 +2145,8 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 87a02960 (.)
 });
 
 /**
@@ -2132,6 +2154,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
  * Questo test verifica che il metodo getColors() gestisca correttamente i colori
  * personalizzati quando l'array colors contiene valori personalizzati.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2174,6 +2197,10 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
 test('getColors gestisce correttamente i colori personalizzati', function (): void {
     $metatagData = new MetatagData;
 >>>>>>> b7afadf9 (.)
+=======
+test('getColors gestisce correttamente i colori personalizzati', function () {
+    $metatagData = new MetatagData();
+>>>>>>> 87a02960 (.)
     $metatagData->colors = [
         'custom_color' => [
             'key' => 'custom_color',
@@ -2291,6 +2318,7 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -2523,12 +2551,15 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 87a02960 (.)
             'hex' => '#FF5500',
         ],
         'primary' => [
             'key' => 'primary',
             'color' => 'amber',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3982,10 +4013,13 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 96276392 (.)
+=======
+>>>>>>> 87a02960 (.)
     ];
 
     $colors = $metatagData->getColors();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4197,6 +4231,9 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+    expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+>>>>>>> 87a02960 (.)
 });
 
 /**
@@ -4204,6 +4241,7 @@ test('getColors gestisce correttamente i colori personalizzati', function (): vo
  * Questo test verifica che il metodo getLogoHeight() restituisca il valore
  * della proprietà logo_height.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4246,6 +4284,10 @@ test('getLogoHeight restituisce il valore corretto', function (): void {
 test('getLogoHeight restituisce il valore corretto', function (): void {
     $metatagData = new MetatagData;
 >>>>>>> b7afadf9 (.)
+=======
+test('getLogoHeight restituisce il valore corretto', function () {
+    $metatagData = new MetatagData();
+>>>>>>> 87a02960 (.)
     $metatagData->logo_height = '3em';
 
     expect($metatagData->getLogoHeight())->toBe('3em');
@@ -4256,6 +4298,7 @@ test('getLogoHeight restituisce il valore corretto', function (): void {
  * Questo test verifica che le proprietà della classe abbiano i valori di default
  * corretti quando viene istanziata la classe.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4747,6 +4790,11 @@ test('Le proprietà hanno i valori di default corretti', function () {
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+test('Le proprietà hanno i valori di default corretti', function () {
+    $metatagData = new MetatagData();
+
+>>>>>>> 87a02960 (.)
     expect($metatagData->generator)
         ->toBe('xot')
         ->and($metatagData->charset)
@@ -4860,6 +4908,7 @@ test('Le proprietà hanno i valori di default corretti', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 88ea7103 (.)
@@ -5433,4 +5482,6 @@ test('Le proprietà hanno i valori di default corretti', function () {
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 87a02960 (.)
 });

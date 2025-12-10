@@ -598,7 +598,9 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 =======
 >>>>>>> 71586de2 (.)
 
-        return $resource::canDelete($record);
+        $result = $resource::canDelete($record);
+
+        return is_bool($result) ? $result : false;
     }
 
     public static function canForceDelete(Model $record): bool
@@ -616,7 +618,9 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 =======
 >>>>>>> 71586de2 (.)
 
-        return $resource::canForceDelete($record);
+        $result = $resource::canForceDelete($record);
+
+        return is_bool($result) ? $result : false;
     }
 
     public static function canRestore(Model $record): bool
@@ -634,7 +638,9 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
 =======
 >>>>>>> 71586de2 (.)
 
-        return $resource::canRestore($record);
+        $result = $resource::canRestore($record);
+
+        return is_bool($result) ? $result : false;
     }
 >>>>>>> 53d6a6ba (.)
 =======

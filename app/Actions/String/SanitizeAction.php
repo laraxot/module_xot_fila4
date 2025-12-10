@@ -361,9 +361,12 @@ class SanitizeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
 =======
 >>>>>>> 5e6aa70fe (.)
+=======
+>>>>>>> b34b487c9 (.)
 =======
 >>>>>>> 43d67f21 (.)
 =======
@@ -439,7 +442,12 @@ class SanitizeAction
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> 3849ae0e (.)
+>>>>>>> b34b487c9 (.)
 
         $replaced = preg_replace('/\s+/', ' ', $str);
         $str = is_string($replaced) ? $replaced : $str;
@@ -473,6 +481,7 @@ class SanitizeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -544,13 +553,20 @@ class SanitizeAction
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> cf971011 (.)
+<<<<<<< HEAD
 >>>>>>> 88e745db5 (.)
+=======
+=======
+=======
+>>>>>>> 3849ae0e (.)
+>>>>>>> b34b487c9 (.)
         $str = preg_replace('/\s+/', ' ', $str);
         if (Str::startsWith($str, '-')) {
             $str = Str::after($str, '-');
             $str = $this->execute($str);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -737,7 +753,13 @@ class SanitizeAction
             // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
             $str = $this->execute($afterStr);
 >>>>>>> 76bec91a (.)
+<<<<<<< HEAD
 >>>>>>> 5e6aa70fe (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
+>>>>>>> b34b487c9 (.)
         }
 
         return $str;

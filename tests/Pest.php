@@ -2,10 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -17,6 +13,7 @@ use Modules\Xot\Tests\TestCase;
  * | Estende il TestCase specifico del modulo che fornisce il setup necessario.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +277,9 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 71586de2 (.)
+=======
+uses(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> cafe8bed (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -287,6 +287,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * |--------------------------------------------------------------------------
  * |
  * | Qui puoi definire aspettative globali per il modulo Xot.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1826,15 +1827,17 @@ namespace Modules\Xot\Tests\Pest;
  */
 
 >>>>>>> 71586de2 (.)
+=======
+ * | Quando definisci aspettative globali, saranno disponibili
+ * | in tutti i test del modulo.
+ * |
+ */
+>>>>>>> cafe8bed (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
 
 /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -1843,6 +1846,7 @@ namespace Modules\Xot\Tests\Pest;
  * | Queste funzioni saranno disponibili in tutti i test.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2912,3 +2916,8 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+=======
+// function something() {
+//     // ...
+// }
+>>>>>>> cafe8bed (.)

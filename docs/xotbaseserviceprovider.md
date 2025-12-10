@@ -162,6 +162,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,12 +257,15 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
 - [Architettura dei Provider](../../../docs/architecture/providers.md)
 - [Struttura dei Moduli](../../../docs/architecture/modules.md)
 
 ### Collegamenti ai Moduli
 - [Notify ServiceProvider](../../Notify/docs/service-provider.md)
 - [User ServiceProvider](../../User/docs/service-provider.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -455,6 +459,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
 
 ## Note Importanti
 
@@ -464,6 +470,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 4. Documentare ogni modifica o estensione
 5. Mantenere la coerenza tra i moduli 
 ## Collegamenti tra versioni di XotBaseServiceProvider.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -660,6 +667,9 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 5e58b29b (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+* [XotBaseServiceProvider.md](../../../../docs/moduli/xot/XotBaseServiceProvider.md)
+>>>>>>> cafe8bed (.)
 
 ## Correzione, motivazione e miglioramenti (2025-05-13)
 

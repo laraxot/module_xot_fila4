@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -203,6 +204,8 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
 # Best Practices
 
 ## Laravel
@@ -304,6 +307,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -512,6 +516,8 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**
@@ -1272,6 +1278,7 @@ public function createModel(array $data): MioModello
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -1423,6 +1430,9 @@ public function createModel(array $data): MioModello
 >>>>>>> 5e58b29b (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+- [**Best Practices Globali**](../docs/best-practices.md) - Best practices globali
+>>>>>>> cafe8bed (.)
 
 ---
 

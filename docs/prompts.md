@@ -122,6 +122,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [prompts.md](../../../Xot/docs/prompts.md)
 =======
 <<<<<<< HEAD
@@ -255,6 +256,9 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 >>>>>>> 5e58b29b (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+* [prompts.md](../../../Xot/docs/prompts.md)
+>>>>>>> cafe8bed (.)
 
 
 ## Modifiche al Prompt docs.txt
@@ -280,6 +284,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 
 ### Percorsi Assoluti
 ⚠️ **Problema Identificato**: Uso di percorsi assoluti nei collegamenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -823,6 +828,11 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+=======
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
+❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
+>>>>>>> cafe8bed (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore

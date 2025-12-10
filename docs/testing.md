@@ -737,6 +737,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -789,6 +790,8 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
 - [Root Testing Organization](../../../docs/testing-organization.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1012,6 +1015,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6a1fe786 (.)
@@ -1197,6 +1201,8 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
 
 ### Framework Documentation
 - [Xot Framework Architecture](./architecture.md)
@@ -1205,6 +1211,7 @@ test('no memory leaks in repeated operations', function (): void {
 
 ### External Resources
 - [Pest Documentation](https://pestphp.com/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1438,6 +1445,10 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> 5e58b29b (.)
 =======
 >>>>>>> 1c4bb8cf (.)
+=======
+- [Laravel Testing](https://laravel.com/docs/testing)
+- [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+>>>>>>> cafe8bed (.)
 
 ---
 

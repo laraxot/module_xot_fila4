@@ -27,6 +27,7 @@ Trovati 4 errori al livello max.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 =======
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
@@ -119,7 +120,13 @@ Trovati 4 errori al livello max.
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -156,6 +163,7 @@ Trovati 4 errori al livello max.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### File: `/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 =======
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -248,7 +256,13 @@ Trovati 4 errori al livello max.
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 

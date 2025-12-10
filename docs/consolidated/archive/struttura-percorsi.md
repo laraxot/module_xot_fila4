@@ -17,10 +17,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ecd5ec32 (.)
 # Struttura dei percorsi nel progetto <nome progetto>
 
 ## Regola fondamentale
@@ -70,7 +74,12 @@
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 # Struttura dei percorsi nel progetto SaluteOra
 
 ## Regola fondamentale
@@ -78,6 +87,7 @@
 **Tutti i percorsi assoluti nel progetto SaluteOra DEVONO includere il segmento `laravel/` dopo `base_saluteora/`.**
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,7 +181,12 @@
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 Questa regola è **ASSOLUTA** e non ammette eccezioni.
 
@@ -180,6 +195,7 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 ```
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,7 +305,13 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+/var/www/html/base_saluteora/laravel/{componente}/{resto-del-percorso}
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
                          ↑        ↑
                      progetto  segmento
                     principale OBBLIGATORIO
@@ -319,9 +341,12 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 /var/www/html/base_<nome progetto>/laravel/app/Models/User.php
 /var/www/html/base_<nome progetto>/laravel/Modules/Patient/Models/Doctor.php
 /var/www/html/base_<nome progetto>/laravel/Themes/One/resources/views/layouts/app.blade.php
@@ -371,7 +396,12 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 /var/www/html/base_saluteora/laravel/app/Models/User.php
 /var/www/html/base_saluteora/laravel/Modules/Patient/Models/Doctor.php
 /var/www/html/base_saluteora/laravel/Themes/One/resources/views/layouts/app.blade.php
@@ -379,6 +409,7 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 /var/www/html/base_saluteora/laravel/vendor/laravel/framework/...
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -461,7 +492,12 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ### ❌ Percorsi ERRATI
@@ -486,9 +522,12 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 /var/www/html/base_<nome progetto>/app/Models/User.php
 /var/www/html/base_<nome progetto>/Modules/Patient/Models/Doctor.php
 /var/www/html/base_<nome progetto>/Themes/One/resources/views/layouts/app.blade.php
@@ -538,7 +577,12 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 /var/www/html/base_saluteora/app/Models/User.php
 /var/www/html/base_saluteora/Modules/Patient/Models/Doctor.php
 /var/www/html/base_saluteora/Themes/One/resources/views/layouts/app.blade.php
@@ -546,6 +590,7 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 /var/www/html/base_saluteora/vendor/laravel/framework/...
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -628,7 +673,12 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ## Struttura completa del progetto
@@ -653,6 +703,7 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/base_<nome progetto>/
 =======
 /var/www/html/base_techplanner_fila3_mono/
@@ -745,7 +796,13 @@ Questa regola è **ASSOLUTA** e non ammette eccezioni.
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+/var/www/html/base_saluteora/
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ├── .cursor/                            # Configurazioni editor
 ├── .windsurf/                          # Configurazioni di sistema
 ├── docs/                               # Documentazione generale
@@ -812,9 +869,12 @@ Prima di ogni commit, eseguire questi comandi per verificare la presenza di perc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 grep -r "/var/www/html/base_<nome progetto>/app" --include="*.php" /var/www/html/base_<nome progetto>/laravel
 grep -r "/var/www/html/base_<nome progetto>/Modules" --include="*.php" /var/www/html/base_<nome progetto>/laravel
 grep -r "/var/www/html/base_<nome progetto>/Themes" --include="*.php" /var/www/html/base_<nome progetto>/laravel
@@ -862,13 +922,19 @@ grep -r "/var/www/html/base_techplanner_fila3_mono/resources" --include="*.php" 
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 grep -r "/var/www/html/base_saluteora/app" --include="*.php" /var/www/html/base_saluteora/laravel
 grep -r "/var/www/html/base_saluteora/Modules" --include="*.php" /var/www/html/base_saluteora/laravel
 grep -r "/var/www/html/base_saluteora/Themes" --include="*.php" /var/www/html/base_saluteora/laravel
 grep -r "/var/www/html/base_saluteora/resources" --include="*.php" /var/www/html/base_saluteora/laravel
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -949,7 +1015,12 @@ grep -r "/var/www/html/base_<nome progetto>/resources" --include="*.php" /var/ww
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ## Correzzione automatica (opzionale)
@@ -978,6 +1049,7 @@ Se si trovano percorsi errati, è possibile correggerli automaticamente con:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/app|/var/www/html/base_<nome progetto>/laravel/app|g' {} \;
 find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/Modules|/var/www/html/base_<nome progetto>/laravel/Modules|g' {} \;
 find /var/www/html/base_<nome progetto>/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_<nome progetto>/Themes|/var/www/html/base_<nome progetto>/laravel/Themes|g' {} \;
@@ -1161,7 +1233,15 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_saluteora/app|/var/www/html/base_saluteora/laravel/app|g' {} \;
+find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_saluteora/Modules|/var/www/html/base_saluteora/laravel/Modules|g' {} \;
+find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|/var/www/html/base_saluteora/Themes|/var/www/html/base_saluteora/laravel/Themes|g' {} \;
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ## Riferimenti correlati
@@ -1185,6 +1265,7 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Struttura del progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/architecture/struttura-progetto.md)
 - [Regole di namespace](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
 - [Autoloading](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/standards/psr4-compliance.md)
@@ -1368,4 +1449,12 @@ find /var/www/html/base_saluteora/laravel -type f -name "*.php" -exec sed -i 's|
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+- [Struttura del progetto](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/architecture/struttura-progetto.md)
+- [Regole di namespace](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/standards/namespace-conventions.md)
+- [Autoloading](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/standards/psr4-compliance.md)
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)

@@ -73,6 +73,7 @@ class EventSourcingServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ``` 
 =======
 ``` 
@@ -87,3 +88,5 @@ class EventSourcingServiceProvider extends ServiceProvider
 ``` 
 >>>>>>> a5dccfe (.)
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)

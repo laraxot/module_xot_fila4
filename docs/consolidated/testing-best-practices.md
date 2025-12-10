@@ -65,6 +65,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
 =======
     $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome modulo>\\Models\\User::class);
@@ -150,7 +151,13 @@ function mockXotData(): void
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
     $mock->shouldReceive('make')->andReturn($mock);
     app()->instance(\\Modules\\Xot\\Datas\\XotData::class, $mock);
 }

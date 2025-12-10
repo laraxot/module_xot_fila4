@@ -20,6 +20,7 @@ namespace Modules\Xot\Console\Commands;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 
 
@@ -40,6 +41,8 @@ namespace Modules\Xot\Console\Commands;
 
 
 
+=======
+>>>>>>> ecd5ec32 (.)
 
 
 =======
@@ -73,7 +76,12 @@ namespace Modules\Xot\Console\Commands;
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
@@ -94,6 +102,7 @@ use Illuminate\Support\Facades\DB;
 
 use function Safe\file_get_contents;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,7 +138,12 @@ use function Safe\file_get_contents;
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 class ExecuteSqlFileCommand extends Command
 {
@@ -166,6 +180,18 @@ class ExecuteSqlFileCommand extends Command
      *
      * @return int
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ecd5ec32 (.)
     public function handle()
     public function handle(): int
     public function handle(): int
@@ -283,7 +309,13 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> 5842a556 (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+    public function handle(): int
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
     {
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');

@@ -93,6 +93,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 =======
@@ -121,3 +122,7 @@ return [
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 >>>>>>> a5dccfe (.)
 >>>>>>> 62cc8443 (.)
+=======
+- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
+
+>>>>>>> ecd5ec32 (.)

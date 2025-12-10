@@ -98,6 +98,7 @@ class FindDoctorAndAppointmentWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Dipendenze Livewire aggiornate 
 =======
 - [ ] Dipendenze Livewire aggiornate 
@@ -112,3 +113,5 @@ class FindDoctorAndAppointmentWidget extends XotBaseWidget
 - [ ] Dipendenze Livewire aggiornate 
 >>>>>>> a5dccfe (.)
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)

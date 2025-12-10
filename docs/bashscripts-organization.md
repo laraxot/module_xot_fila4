@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La cartella `/var/www/html/_bases/base_<nome progetto>/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
 =======
 La cartella `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
@@ -113,7 +114,13 @@ La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **S
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+La cartella `/var/www/html/_bases/base_saluteora/bashscripts` deve contenere **SOLO** il file `README.md` nella root. Tutti gli altri file devono essere categorizzati e organizzati in sottocartelle tematiche.
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 ## Struttura Organizzata
 
@@ -151,6 +158,7 @@ bashscripts/
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -247,7 +255,12 @@ bashscripts/
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 #### 5. **maintenance/** - Manutenzione Sistema
 - `backup.sh` - Script di backup
 - `restore_disk.md` - Documentazione ripristino
@@ -267,6 +280,7 @@ bashscripts/
 - `fix_all_english_translations.sh` - Fix traduzioni inglesi
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,7 +383,13 @@ bashscripts/
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+- `fix_saluteora_translations.sh` - Fix traduzioni SaluteOra
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 - `verify_translations_syntax.sh` - Verifica sintassi traduzioni
 
 #### 9. **utilities/** - Utilità Generali

@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ecd5ec32 (.)
 ## stato analisi phpstan
 
 - **data**: 2025-11-12  
@@ -264,3 +275,23 @@ class MyModel extends BaseModel
 **Stato**: 🔄 Analisi Completata - Correzioni in Corso  
 **phpstan.neon**: ✅ INTOCCATO  
 **Approccio**: DRY + KISS + Type Safety
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)

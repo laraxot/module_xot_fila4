@@ -58,10 +58,14 @@ public function getTableColumns(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Nota:** Nei moduli come Performance, la logica tabellare (colonne, filtri, azioni) va sempre nelle pagine (che estendono `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`), non nelle Resource. Vedi esempio e motivazione nella [documentazione Performance](../../Performance/docs/filament-resources.md).
 =======
 **Nota:** Nei moduli come Performance, la logica tabellare (colonne, filtri, azioni) va sempre nelle pagine (che estendono `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`), non nelle Resource. Vedi esempio e motivazione nella [documentazione Performance](../../Performance/project_docs/filament-resources.md).
 >>>>>>> 43d67f21 (.)
+=======
+**Nota:** Nei moduli come Performance, la logica tabellare (colonne, filtri, azioni) va sempre nelle pagine (che estendono `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`), non nelle Resource. Vedi esempio e motivazione nella [documentazione Performance](../../Performance/project_docs/filament-resources.md).
+>>>>>>> b7ea1cd1 (.)
 =======
 **Nota:** Nei moduli come Performance, la logica tabellare (colonne, filtri, azioni) va sempre nelle pagine (che estendono `Modules\Xot\Filament\Resources\Pages\XotBaseListRecords`), non nelle Resource. Vedi esempio e motivazione nella [documentazione Performance](../../Performance/project_docs/filament-resources.md).
 >>>>>>> b7ea1cd1 (.)
@@ -70,6 +74,7 @@ public function getTableColumns(): array
 - [Esempio e Applicazione - Modulo User](../../../User/project_docs/filament/FILAMENT_TABLE_COLUMNS.md)
 - [Regola Globale - Root Docs](../../../../project_docs/filament-table-columns.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,7 +162,12 @@ public function getTableColumns(): array
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ## Nota storica: correzione XotBaseManageRelatedRecords
 
 - La classe XotBaseManageRelatedRecords è stata aggiornata per rispettare PHPStan livello 10.

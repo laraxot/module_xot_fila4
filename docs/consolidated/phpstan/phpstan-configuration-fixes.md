@@ -35,9 +35,12 @@ ignoreErrors:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 **Moduli Interessati**: <nome progetto>, Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
@@ -85,13 +88,19 @@ ignoreErrors:
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 **Moduli Interessati**: SaluteOra, Geo, User, e tutti i moduli con relazioni Eloquent
 
 **Documentazione Specifica**: 
 - [SaluteOra - PHPStan Relationship Covariance Fix](../SaluteOra/project_docs/phpstan-relationship-covariance-fix.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,7 +181,12 @@ ignoreErrors:
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 ### 2. Cast da Mixed
 

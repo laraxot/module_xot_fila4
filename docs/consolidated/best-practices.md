@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -165,7 +166,12 @@ public function process(\Modules\User\Models\User $user) {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 # 🔧 **Best Practices Modulo Xot**
 
 ## 📋 **Panoramica**

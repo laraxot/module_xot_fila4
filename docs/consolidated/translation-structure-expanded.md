@@ -46,6 +46,7 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto <nome progetto>.
 =======
 Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto .
@@ -142,7 +143,13 @@ Implementazione della struttura espansa per le traduzioni del modulo Xot, seguen
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+Implementazione della struttura espansa per le traduzioni del modulo Xot, seguendo i principi DRY/KISS e le regole del progetto SaluteOra.
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 ## Problema Identificato
 Il file di traduzione spagnolo `/lang/es/labels.php` contiene alcune strutture che potrebbero beneficiare della struttura espansa, specialmente per campi geografici come "province".

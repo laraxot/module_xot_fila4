@@ -297,6 +297,7 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -404,4 +405,10 @@ Questi pattern rappresentano le soluzioni standard da adottare in tutto il modul
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+3. Aggiornare regolarmente questo documento con nuovi pattern identificati 
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)

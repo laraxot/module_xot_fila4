@@ -133,9 +133,12 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
@@ -183,7 +186,12 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
@@ -203,6 +211,7 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 =======
@@ -277,7 +286,12 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -297,6 +311,32 @@ Questo fix dimostra l'importanza di:
 4. **Xdebug monitoring** per rilevazione loop infiniti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+*Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
+=======
+*Il sistema  ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ecd5ec32 (.)
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 *Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
 *Il sistema  ora è resiliente a questo tipo di errori critici.* 
@@ -412,4 +452,10 @@ Questo fix dimostra l'importanza di:
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+*Il sistema SaluteOra ora è resiliente a questo tipo di errori critici.* 
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)

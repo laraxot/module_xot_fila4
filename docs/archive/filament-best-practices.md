@@ -672,6 +672,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::filament.widgets.find-doctor-and-appointment';
 <<<<<<< HEAD
 =======
@@ -757,7 +758,13 @@ protected static string $view = 'saluteora::filament.widgets.find-doctor-and-app
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+protected static string $view = 'saluteora::filament.widgets.find-doctor-and-appointment';
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 TextInput::make('location')->required()
 ```
 
@@ -781,6 +788,7 @@ TextInput::make('location')->required()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 protected static string $view = '<nome progetto>::widgets.find-doctor-and-appointment';
 <<<<<<< HEAD
 =======
@@ -866,7 +874,13 @@ protected static string $view = 'saluteora::widgets.find-doctor-and-appointment'
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+protected static string $view = 'saluteora::widgets.find-doctor-and-appointment';
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 TextInput::make('location')->label(__('modulo::campo.label'))
 ```
 

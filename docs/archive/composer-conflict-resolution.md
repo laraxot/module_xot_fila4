@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -79,7 +80,12 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 - Rimozione dei marker di conflitto in `composer.json`.
 - Rimozione dei marker di conflitto  in `composer.json`.
 
@@ -98,6 +104,7 @@ Vedi `/docs/xot_conflict_links.md` per la mappatura dei file documentati localme
 ## Collegamento alla doc root
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,4 +176,10 @@ Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+Vedi `/project_docs/xot_conflict_links.md` per la mappatura dei file documentati localmente e i riferimenti incrociati.
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)

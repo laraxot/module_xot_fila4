@@ -52,6 +52,7 @@ composer dump-autoload
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2
 =======
@@ -91,7 +92,12 @@ sudo systemctl restart apache2
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 # Riavvio del server web (Apache/Nginx)
 sudo systemctl restart apache2

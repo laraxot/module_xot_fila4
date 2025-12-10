@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive le best practice per la gestione dei file upload nei form Filament di <nome progetto>, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
 =======
 Questo documento descrive le best practice per la gestione dei file upload nei form Filament di , con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
@@ -106,7 +107,13 @@ Questo documento descrive le best practice per la gestione dei file upload nei f
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+Questo documento descrive le best practice per la gestione dei file upload nei form Filament di SaluteOra, con particolare attenzione alla configurazione corretta dei componenti e alla mappatura dei campi del database.
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 ## Configurazione del Componente FileUpload
 

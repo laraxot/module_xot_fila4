@@ -90,8 +90,8 @@ Recupera tutti i modelli definiti nel modulo specificato.
 =======
 - [Documentazione Moduli](../../../docs/modules/index.md)
 - [Gestione Modelli](../../../docs/models/index.md)
-<<<<<<< HEAD
 - [Pattern Singleton](../../../docs/patterns/singleton.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
@@ -119,3 +119,5 @@ Recupera tutti i modelli definiti nel modulo specificato.
 - [Pattern Singleton](../../../docs/patterns/singleton.md) 
 >>>>>>> a5dccfe (.)
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)

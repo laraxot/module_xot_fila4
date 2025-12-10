@@ -48,9 +48,12 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
@@ -118,7 +121,13 @@ Sono stati identificati e risolti conflitti Git in diversi file del progetto Sal
 Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 ## File Corretti
 
@@ -224,6 +233,7 @@ $res=Locality::query()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 
 
@@ -267,6 +277,8 @@ $res=Locality::query()
 
 
 
+=======
+>>>>>>> ecd5ec32 (.)
 
 =======
 >>>>>>> 43d67f21 (.)
@@ -281,7 +293,13 @@ $res=Locality::query()
 
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ### 2. Validazione PHPStan
 ```bash
 cd laravel
@@ -328,23 +346,32 @@ php artisan lang:check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 >>>>>>> ce6fc085 (.)
 - [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+<<<<<<< HEAD
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
 - [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 ### Modulo User
 - [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
 
 ### Modulo Xot
+<<<<<<< HEAD
 
 - [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
 
@@ -424,6 +451,12 @@ php artisan lang:check
 - [Theme Translation Conflicts](laravel/Modules/User/docs/theme-translation-conflicts-resolution.md)
 
 ### Modulo Xot
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ecd5ec32 (.)
 - [Git Conflicts Resolution](laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md)
 
 <<<<<<< HEAD
@@ -532,7 +565,14 @@ php artisan lang:check
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ## Best Practices Applicate
 
 ### 1. Gestione Conflitti
@@ -588,6 +628,7 @@ php artisan lang:check
 ### Documentazione Moduli
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -774,7 +815,20 @@ php artisan lang:check
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ---
 
 **Ultimo aggiornamento**: 2025-01-06

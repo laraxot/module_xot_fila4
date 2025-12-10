@@ -27,6 +27,7 @@ Durante l'audit del modulo `Xot` (modulo base del framework), sono state identif
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static string $projectBasePath = '/var/www/html/<nome progetto>';
 <<<<<<< HEAD
 public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
@@ -207,7 +208,15 @@ public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 **File contaminati:**
@@ -218,6 +227,7 @@ public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules
 // ❌ ERRORE CRITICO - Dipendenze hardcoded nei test
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,7 +330,13 @@ public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 **File contaminati:**
@@ -347,6 +363,7 @@ public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 self::MONDAY => __('<nome progetto>::common.days.description.monday'),
 self::TUESDAY => __('<nome progetto>::common.days.description.tuesday'),
 <<<<<<< HEAD
@@ -473,7 +490,14 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+self::MONDAY => __('saluteora::common.days.description.monday'),
+self::TUESDAY => __('saluteora::common.days.description.tuesday'),
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 **File contaminati:**
@@ -500,6 +524,7 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 'table_schema' => $this->faker->randomElement(['<nome progetto>', 'public', 'main']),
 <<<<<<< HEAD
 =======
@@ -585,7 +610,13 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+'table_schema' => $this->faker->randomElement(['saluteora', 'public', 'main']),
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 **File contaminati:**
@@ -596,6 +627,7 @@ self::TUESDAY => __('saluteora::common.days.description.tuesday'),
 // ❌ ERRORE CRITICO - Import hardcoded
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -698,7 +730,13 @@ use Modules\SaluteOra\Models\Appointment;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+use Modules\SaluteOra\Models\Appointment;
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 **File contaminati:**
@@ -749,6 +787,7 @@ class PathHelper
         return str_replace(
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -850,7 +889,13 @@ class PathHelper
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+            ['/saluteora/', '/Modules/'],
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
             [$projectPath, $modulesPath],
             $path
         );
@@ -1021,6 +1066,7 @@ enum DayOfWeek: int
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 PROJECT_BASE_PATH=/var/www/html/<nome progetto>
 <<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
@@ -1075,7 +1121,12 @@ MODULES_BASE_PATH=/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modul
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 PROJECT_BASE_PATH=/var/www/html/saluteora
 LARAVEL_BASE_PATH=/var/www/html/saluteora/laravel
 MODULES_BASE_PATH=/var/www/html/saluteora/laravel/Modules
@@ -1174,6 +1225,7 @@ XOT_TABLE_SCHEMAS=saluteora,public,main,information_schema
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 399f46d3 (.)
@@ -1258,7 +1310,12 @@ XOT_TABLE_SCHEMAS=<nome progetto>,public,main,information_schema
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ### Override per Progetti Specifici
@@ -1287,7 +1344,10 @@ Ogni progetto può personalizzare path, modelli e traduzioni tramite variabili d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 grep -r "/var/www/html/<nome progetto>" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica dipendenze hardcoded
@@ -1345,7 +1405,12 @@ grep -r "<nome progetto>::" laravel/Modules/Xot/ --include="*.php"
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 grep -r "/var/www/html/saluteora" laravel/Modules/Xot/ --include="*.php"
 
 # Verifica dipendenze hardcoded
@@ -1355,6 +1420,7 @@ grep -r "Modules\\SaluteOra" laravel/Modules/Xot/ --include="*.php"
 grep -r "saluteora::" laravel/Modules/Xot/ --include="*.php"
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1441,7 +1507,12 @@ grep -r "<nome progetto>::" laravel/Modules/Xot/ --include="*.php"
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ### Risultato Atteso
@@ -1452,6 +1523,7 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1563,7 +1635,13 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 - [Root Docs: Modularity Hardcoded Names](../../../docs/modularity-hardcoded-names.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+- [Root Docs: Modularity Hardcoded Names](../../../project_docs/modularity-hardcoded-names.md)
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 - [Regole Cursor: Modularity Rules](../../../.cursor/rules/modularity-hardcoded-names.mdc)
 - [Xot Architecture Overview](./architecture-overview.md)
 - [Xot Best Practices](./best-practices/README.md)

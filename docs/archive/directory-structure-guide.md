@@ -143,6 +143,7 @@ Per correggere automaticamente la struttura delle directory, utilizza lo script 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
 =======
 5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
@@ -157,3 +158,5 @@ Per correggere automaticamente la struttura delle directory, utilizza lo script 
 5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
 >>>>>>> a5dccfe (.)
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)

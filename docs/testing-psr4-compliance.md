@@ -112,6 +112,7 @@ composer dump-autoload
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d86d643a (.)
@@ -194,7 +195,12 @@ composer dump-autoload
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ### File: `tests/Unit/HasExtraTraitTest.php`
 
 - **Problema**: Classe `TestExtra` senza namespace appropriato
@@ -210,6 +216,7 @@ composer dump-autoload
 - [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
 - [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -304,7 +311,13 @@ composer dump-autoload
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+- [Testing Guide - Modulo SaluteMo](../../SaluteMo/project_docs/testing.md)
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 - [PHPStan Configuration](./phpstan-configuration-fixes.md)
 - [Best Practices](./best-practices-consolidated.md)
 

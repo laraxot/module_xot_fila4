@@ -83,6 +83,7 @@ Questo è l'errore più comune e grave nelle convenzioni di namespace:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -133,13 +134,19 @@ namespace Modules\<nome progetto>\Controllers;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 namespace Modules\SaluteOra\App\Controllers;
 
 // CORRETTO
 namespace Modules\SaluteOra\Controllers;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,7 +227,12 @@ namespace Modules\<nome modulo>\Controllers;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ## esempi corretti vs errati
@@ -230,6 +242,7 @@ namespace Modules\<nome modulo>\Controllers;
 namespace Modules\Xot\Console\Commands;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,13 +309,19 @@ namespace Modules\<nome progetto>\Filament\Resources;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 namespace Modules\SaluteOra\Models;
 namespace Modules\User\Services;
 namespace Modules\Tenant\Repositories;
 namespace Modules\SaluteOra\Filament\Resources;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -383,7 +402,12 @@ namespace Modules\<nome modulo>\Filament\Resources;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ### errati ✗
@@ -391,6 +415,7 @@ namespace Modules\<nome modulo>\Filament\Resources;
 namespace Modules\Xot\app\Console\Commands;       // errato: 'app' nel namespace
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,13 +482,19 @@ namespace App\Modules\<nome progetto>\Controllers;      // errato: struttura com
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 namespace Modules\SaluteOra\App\Models;           // errato: 'App' nel namespace
 namespace Modules\User\App\Services;              // errato: 'App' nel namespace
 namespace Modules\Tenant\app\Repositories;        // errato: 'app' nel namespace
 namespace App\Modules\SaluteOra\Controllers;      // errato: struttura completamente sbagliata
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -544,7 +575,12 @@ namespace App\Modules\<nome modulo>\Controllers;      // errato: struttura compl
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ## struttura fisica vs namespace
@@ -556,6 +592,7 @@ Anche se i file sono fisicamente collocati in una directory `app/`, il namespace
 ```
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -698,7 +735,14 @@ Namespace corretto: namespace Modules\SaluteOra\Models;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+Percorso fisico:    /Modules/SaluteOra/app/Models/Patient.php
+Namespace corretto: namespace Modules\SaluteOra\Models;
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ### mappatura corretta percorso-namespace
@@ -707,6 +751,7 @@ Namespace corretto: namespace Modules\SaluteOra\Models;
 |-----------------|--------------------|
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -849,7 +894,14 @@ Namespace corretto: namespace Modules\SaluteOra\Models;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+| `/Modules/SaluteOra/app/Models/Patient.php` | `Modules\SaluteOra\Models` |
+| `/Modules/SaluteOra/app/Filament/Resources/PatientResource.php` | `Modules\SaluteOra\Filament\Resources` |
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 | `/Modules/Xot/app/Providers/XotServiceProvider.php` | `Modules\Xot\Providers` |
 
 ### struttura directory completa
@@ -858,6 +910,7 @@ Namespace corretto: namespace Modules\SaluteOra\Models;
 Modules/
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -930,7 +983,12 @@ Modules/
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
   SaluteOra/
     app/                        // directory fisica
       Console/
@@ -943,6 +1001,7 @@ Modules/
           PatientResource.php  // namespace Modules\SaluteOra\Filament\Resources;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1035,7 +1094,12 @@ Modules/
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ## come verificare i namespace
@@ -1055,6 +1119,7 @@ Utilizza phpstan per verificare automaticamente i namespace:
 ```bash
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1156,7 +1221,13 @@ php artisan phpstan:analyse --level=1 Modules/SaluteOra
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+php artisan phpstan:analyse --level=1 Modules/SaluteOra
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ## motivazione di questa convenzione
@@ -1181,6 +1252,7 @@ Un errore comune è includere `App` nel namespace:
 // ERRATO ❌
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1247,13 +1319,19 @@ namespace Modules\<nome progetto>\Console\Commands;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 namespace Modules\SaluteOra\App\Console\Commands;
 
 // CORRETTO ✓
 namespace Modules\SaluteOra\Console\Commands;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1334,7 +1412,12 @@ namespace Modules\<nome modulo>\Console\Commands;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ### Conseguenze dell'Errore
@@ -1352,6 +1435,7 @@ Utilizzare grep per trovare tutti i file con namespace errato:
 ```bash
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1460,7 +1544,13 @@ grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/larave
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+grep -r "namespace Modules\\\\.*\\\\App\\\\" /var/www/html/base_saluteora/laravel/Modules
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ```
 
 ### PHP Stan

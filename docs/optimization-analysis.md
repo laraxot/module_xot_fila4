@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 # Analisi di Ottimizzazione - Modulo Xot (Framework Base)
 
 ## 🎯 Principi Applicati: DRY + KISS + SOLID + ROBUST + Laraxot
@@ -828,6 +831,7 @@ class XotPerformanceMonitor
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Architecture Patterns](https://laravel.com/docs/architecture-concepts)
 - [PHPStan Level 10 Guidelines](../../../docs/phpstan-level-10.md)
@@ -836,10 +840,13 @@ class XotPerformanceMonitor
 <<<<<<< HEAD
 >>>>>>> 85cdef688 (.)
 =======
+=======
+>>>>>>> ecd5ec32 (.)
 - [Laravel Architecture Patterns](https://laravel.com/project_docs/architecture-concepts)
 - [PHPStan Level 10 Guidelines](../../../project_docs/phpstan-level-10.md)
 - [SOLID Principles in PHP](../../../project_docs/solid-principles.md)
 - [Performance Best Practices](../../../project_docs/performance-best-practices.md)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 
@@ -848,6 +855,9 @@ class XotPerformanceMonitor
 
 =======
 >>>>>>> a5dccfe (.)
+=======
+
+>>>>>>> ecd5ec32 (.)
 ---
 
 *Documento creato: Gennaio 2025*  
@@ -855,9 +865,12 @@ class XotPerformanceMonitor
 *Stato: 🟠 Framework Solido ma Necessita Refactoring Architetturale*
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)

@@ -42,10 +42,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Convenzioni di naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 =======
 - [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 >>>>>>> 43d67f21 (.)
+=======
+- [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
+>>>>>>> b7ea1cd1 (.)
 =======
 - [Convenzioni di naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 >>>>>>> b7ea1cd1 (.)
@@ -55,6 +59,7 @@
 - [Cms](../Cms/project_docs/README.md) - Gestione contenuti
 - [Lang](../Lang/project_docs/README.md) - Traduzioni
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,7 +152,12 @@
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ## Struttura
 
 ### Pagine Folio con Filament
@@ -266,6 +276,7 @@ $submit = function() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -275,10 +286,36 @@ $submit = function() {
 - [Layout](../UI/docs/layouts.md)
 - [Temi](../UI/docs/themes.md)
 - [Best Practices](../UI/docs/best-practices.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 - [Componenti Volt](../UI/project_docs/components/volt.md)
 - [Layout](../UI/project_docs/layouts.md)
 - [Temi](../UI/project_docs/themes.md)
 - [Best Practices](../UI/project_docs/best-practices.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 ### Modulo Cms
 - [Frontend](../Cms/project_docs/frontend.md)
@@ -339,6 +376,7 @@ $submit = function() {
 ### Modulo Chart
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Grafici](../Chart/docs/charts.md)
@@ -789,4 +827,12 @@ $submit = function() {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+- [Grafici](../Chart/project_docs/charts.md)
+- [Dashboard](../Chart/project_docs/dashboard.md)
+- [Visualizzazione](../Chart/project_docs/visualization.md)
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)

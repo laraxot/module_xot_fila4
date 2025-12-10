@@ -72,6 +72,7 @@ Imposta un nuovo stato per il modello con un motivo opzionale.
 =======
 - [Documentazione Laravel Eloquent](https://laravel.com/docs/eloquent)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione PHPStan](https://phpstan.org/) 
 >>>>>>> 85cdef688 (.)
 =======
@@ -94,3 +95,5 @@ Imposta un nuovo stato per il modello con un motivo opzionale.
 - [Documentazione PHPStan](https://phpstan.org/) 
 >>>>>>> a5dccfe (.)
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)

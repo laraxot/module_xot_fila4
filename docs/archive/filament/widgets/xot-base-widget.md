@@ -176,6 +176,7 @@ Questo trait permette al widget di aggiornarsi automaticamente a intervalli rego
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
 >>>>>>> 85cdef688 (.)
@@ -197,3 +198,6 @@ Questo trait permette al widget di aggiornarsi automaticamente a intervalli rego
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
 >>>>>>> a5dccfe (.)
 >>>>>>> 62cc8443 (.)
+=======
+- [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
+>>>>>>> ecd5ec32 (.)

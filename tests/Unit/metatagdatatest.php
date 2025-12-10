@@ -57,6 +57,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -593,7 +594,14 @@ use Modules\Xot\Datas\MetatagData;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+use Filament\Support\Colors\Color;
+use Modules\Xot\Datas\MetatagData;
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 /**
  * Test che la classe MetatagData possa essere istanziata correttamente.
@@ -698,6 +706,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -882,7 +891,12 @@ test('getFilamentColors restituisce i colori Filament corretti', function (): vo
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
     expect($colors)
         ->toBeArray()
         ->and($colors)
@@ -924,6 +938,7 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
         ->toBe(Color::Amber);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1248,7 +1263,12 @@ test('getFilamentColors restituisce i colori Filament corretti', function () {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 });
 
 /**
@@ -1338,6 +1358,7 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -1438,7 +1459,12 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
             'hex' => '#FF5500',
         ],
         'primary' => [
@@ -1447,6 +1473,7 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
         ],
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1940,7 +1967,12 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
     ];
 
     $colors = $metatagData->getColors();
@@ -1950,6 +1982,7 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
     expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2369,7 +2402,13 @@ test('getColors gestisce correttamente i colori personalizzati', function () {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+    expect($colors)->toBeArray()->and($colors)->toHaveKey('custom_color')->and($colors)->toHaveKey('primary');
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 });
 
 /**
@@ -2480,6 +2519,7 @@ test('Le proprietà hanno i valori di default corretti', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -2692,7 +2732,12 @@ test('Le proprietà hanno i valori di default corretti', function () {
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
     expect($metatagData->generator)
         ->toBe('xot')
         ->and($metatagData->charset)
@@ -2708,6 +2753,7 @@ test('Le proprietà hanno i valori di default corretti', function () {
     $metatagData = new MetatagData();
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3033,5 +3079,10 @@ test('Le proprietà hanno i valori di default corretti', function () {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 });

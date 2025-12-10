@@ -133,9 +133,12 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 - [DoctorResource.php](../../../Modules/<nome progetto>/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
@@ -183,10 +186,13 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
 - [DoctorResource.php](../../../Modules/SaluteOra/app/Filament/Resources/DoctorResource.php) - Utilizzo step
 
 ### **Documentazione Correlata**
 - [Wizard Step Implementation](../../../Modules/SaluteOra/docs/wizard-step-implementation.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,7 +340,12 @@ $prop = property_exists($class, 'property') ? $class::$property : [];
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 - [Infinite Loop Prevention](../critical-fixes/infinite-loop-prevention.md)
 
 ---
@@ -355,6 +366,7 @@ Questo fix dimostra l'importanza di:
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -459,4 +471,9 @@ Questo fix dimostra l'importanza di:
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)

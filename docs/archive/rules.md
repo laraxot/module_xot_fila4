@@ -72,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Vedi [Performance/docs/organizzativa_cat_coeffs.md](../../Performance/docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
 >>>>>>> 85cdef688 (.)
@@ -93,3 +94,6 @@
 - Vedi [Performance/docs/organizzativa_cat_coeffs.md](../../Performance/docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
 >>>>>>> a5dccfe (.)
 >>>>>>> 62cc8443 (.)
+=======
+- Vedi [Performance/docs/organizzativa_cat_coeffs.md](../../Performance/docs/organizzativa_cat_coeffs.md) per esempio pratico, motivazione, correzione e checklist. 
+>>>>>>> ecd5ec32 (.)

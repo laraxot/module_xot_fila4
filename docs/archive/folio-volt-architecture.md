@@ -54,12 +54,17 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Convenzioni di Naming](../../../docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Flusso di Registrazione](../../../docs/flusso-registrazione.md) - Implementazione del wizard multi-step
 =======
 - [Convenzioni di Naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Flusso di Registrazione](../../../project_docs/flusso-registrazione.md) - Implementazione del wizard multi-step
 >>>>>>> 43d67f21 (.)
+=======
+- [Convenzioni di Naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
+- [Flusso di Registrazione](../../../project_docs/flusso-registrazione.md) - Implementazione del wizard multi-step
+>>>>>>> b7ea1cd1 (.)
 =======
 - [Convenzioni di Naming](../../../project_docs/convenzioni-naming-campi.md) - Convenzioni per i nomi dei campi
 - [Flusso di Registrazione](../../../project_docs/flusso-registrazione.md) - Implementazione del wizard multi-step
@@ -71,6 +76,7 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 - [Lang](../../Lang/project_docs/README.md) - Traduzioni
 - [Patient](../../Patient/project_docs/README.md) - Gestione pazienti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,7 +182,12 @@ Questo documento descrive l'architettura frontend basata su Folio, Volt e Filame
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ## Regole Fondamentali
 
 ### Case Sensitivity e Struttura delle Directory
@@ -391,6 +402,7 @@ new class extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -400,10 +412,36 @@ new class extends Component {
 - [Layout](../UI/docs/layouts.md)
 - [Temi](../UI/docs/themes.md)
 - [Best Practices](../UI/docs/best-practices.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 - [Componenti Volt](../UI/project_docs/components/volt.md)
 - [Layout](../UI/project_docs/layouts.md)
 - [Temi](../UI/project_docs/themes.md)
 - [Best Practices](../UI/project_docs/best-practices.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 ### Modulo Cms
 - [Frontend](../Cms/project_docs/frontend.md)
@@ -464,6 +502,7 @@ new class extends Component {
 ### Modulo Chart
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Grafici](../Chart/docs/charts.md)
@@ -914,4 +953,12 @@ new class extends Component {
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+- [Grafici](../Chart/project_docs/charts.md)
+- [Dashboard](../Chart/project_docs/dashboard.md)
+- [Visualizzazione](../Chart/project_docs/visualization.md)
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)

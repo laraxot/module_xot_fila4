@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Durante l'audit del sistema <nome progetto>, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
 =======
 Durante l'audit del sistema , è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
@@ -106,7 +107,13 @@ Durante l'audit del sistema SaluteOra, è stata identificata una **violazione cr
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+Durante l'audit del sistema SaluteOra, è stata identificata una **violazione critica dell'architettura modulare**: l'esistenza di cartelle `docs/` in posizioni inappropriate che violano i principi di modularità e creano confusione nella struttura del progetto.
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 ## Violazioni Identificate e Corrette
 
@@ -246,6 +253,7 @@ laravel/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -333,7 +341,12 @@ laravel/
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 │   ├── Notify/project_docs/           # ✅ Documentazione modulo Notify
 │   ├── User/project_docs/             # ✅ Documentazione modulo User
 │   ├── UI/project_docs/               # ✅ Documentazione modulo UI
@@ -362,10 +375,10 @@ laravel/
 │   └── <nome progetto>/project_docs/        # ✅ Documentazione modulo <nome progetto>
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
 │   ├── SaluteMo/project_docs/         # ✅ Documentazione modulo SaluteMo
-<<<<<<< HEAD
 │   └── SaluteOra/project_docs/        # ✅ Documentazione modulo SaluteOra
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,7 +461,12 @@ laravel/
 │   └── <nome progetto>/project_docs/        # ✅ Documentazione modulo <nome progetto>
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 ├── Themes/
 │   ├── One/project_docs/              # ✅ Documentazione tema One
 │   └── Two/project_docs/              # ✅ Documentazione tema Two
@@ -562,9 +580,12 @@ find laravel/Themes -name "docs" -type d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 - [Modulo Notify](../Notify/project_docs/)
 - [Modulo User](../User/project_docs/)
 - [Modulo UI](../UI/project_docs/)
@@ -646,12 +667,18 @@ find laravel/Themes -name "docs" -type d
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 - [Modulo Notify](../Notify/project_docs/)
 - [Modulo User](../User/project_docs/)
 - [Modulo UI](../UI/project_docs/)
 - [Modulo SaluteMo](../SaluteMo/project_docs/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo <nome progetto>](../<nome progetto>/project_docs/)
 - [Modulo <nome progetto>](../<nome progetto>/project_docs/)
 - [Modulo <nome progetto>](../<nome progetto>/project_docs/)
@@ -663,9 +690,12 @@ find laravel/Themes -name "docs" -type d
 =======
 <<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 - [Modulo SaluteOra](../SaluteOra/project_docs/)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -732,7 +762,12 @@ find laravel/Themes -name "docs" -type d
 - [Modulo <nome progetto>](../<nome progetto>/project_docs/)
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 ### **Documentazione Correlata**:
 - [Regole Modularità](modularity-hardcoded-names.md)

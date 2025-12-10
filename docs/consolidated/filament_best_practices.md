@@ -526,7 +526,6 @@ use Modules\SaluteOra\Models\Report;
 namespace Modules\SaluteMo\Filament\Resources;
 
 use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
-<<<<<<< HEAD
 use Modules\SaluteOra\Models\Report;
 <<<<<<< HEAD
 use Modules\<nome progetto>\Models\Report;
@@ -542,6 +541,7 @@ use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
 use Modules\<nome progetto>\Models\Report;
 use Modules\<nome modulo>\Models\Report;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -605,7 +605,12 @@ use Modules\<nome modulo>\Models\Report;
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;
 

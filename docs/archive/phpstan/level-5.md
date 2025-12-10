@@ -2,6 +2,24 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> ecd5ec32 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113,7 +131,13 @@
 
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 # Rapporto PHPStan Livello 5 per il modulo Xot
 
 Data analisi: 2025-04-15 21:54:17
@@ -142,9 +166,12 @@ Trovati 4 errori al livello 5.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
@@ -234,7 +261,13 @@ Trovati 4 errori al livello 5.
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 #### Linea 40: Syntax error, unexpected T_SR on line 40
 
@@ -270,9 +303,12 @@ Trovati 4 errori al livello 5.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 62cc8443 (.)
+=======
+>>>>>>> ecd5ec32 (.)
 ### File: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
 ### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
@@ -362,7 +398,13 @@ Trovati 4 errori al livello 5.
 =======
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 #### Linea 47: Syntax error, unexpected T_SR on line 47
 
@@ -392,6 +434,7 @@ aurmich/dev
 ## Collegamenti tra versioni di level_5.md
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,7 +488,12 @@ aurmich/dev
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 17684f52 (.)
+<<<<<<< HEAD
 >>>>>>> ce6fc085 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 * [level_5.md](laravel/Modules/Chart/project_docs/phpstan/level_5.md)
 * [level_5.md](laravel/Modules/Reporting/project_docs/phpstan/level_5.md)
 * [level_5.md](laravel/Modules/Gdpr/project_docs/phpstan/level_5.md)
@@ -463,6 +511,7 @@ aurmich/dev
 * [level_5.md](laravel/Modules/Cms/project_docs/phpstan/level_5.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -542,4 +591,10 @@ aurmich/dev
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)

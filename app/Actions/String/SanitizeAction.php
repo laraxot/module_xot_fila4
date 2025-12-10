@@ -18,6 +18,7 @@ namespace Modules\Xot\Actions\String;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -62,7 +63,12 @@ class SanitizeAction
 >>>>>>> 43d67f21 (.)
 =======
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -131,6 +137,7 @@ class SanitizeAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 0e51323 (.)
@@ -165,10 +172,15 @@ class SanitizeAction
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 
 
 
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
 
 
@@ -185,6 +197,7 @@ class SanitizeAction
         return trim($str);
 =======
         $str = trim($str);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,11 +246,26 @@ class SanitizeAction
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
 
         $replaced = preg_replace('/\s+/', ' ', $str);
         $str = is_string($replaced) ? $replaced : $str;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ecd5ec32 (.)
         if (Str::startsWith($str, '-')) {
             $afterStr = Str::after($str, '-');
             // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
@@ -368,7 +396,16 @@ class SanitizeAction
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+        if (Str::startsWith($str, '-')) {
+            $afterStr = Str::after($str, '-');
+            // $afterStr è sempre una stringa perché Str::after restituisce sempre una stringa
+            $str = $this->execute($afterStr);
+>>>>>>> b7ea1cd1 (.)
+>>>>>>> ecd5ec32 (.)
         }
 
         return $str;

@@ -8,6 +8,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Filament;
 
+<<<<<<< HEAD
 // use Filament\Forms\Commands\Concerns\CanGenerateForms; // Non disponibile in Filament v4
 use Filament\Resources\Resource;
 use Filament\Resources\Resource;
@@ -16,6 +17,64 @@ use Filament\Resources\Resource;
 use Filament\Resources\Resource;
 use Filament\Support\Commands\Concerns\CanReadModelSchemas;
 // use Filament\Tables\Commands\Concerns\CanGenerateTables; // Non disponibile in Filament v4
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+// use Filament\Forms\Commands\Concerns\CanGenerateForms; // Non disponibile in Filament v4
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+use Filament\Resources\Resource;
+>>>>>>> 5a14301c (.)
+=======
+use Filament\Resources\Resource;
+>>>>>>> 5a14301c (.)
+=======
+use Filament\Resources\Resource;
+>>>>>>> 5a14301c (.)
+=======
+use Filament\Resources\Resource;
+>>>>>>> 5a14301c (.)
+=======
+use Filament\Resources\Resource;
+>>>>>>> 5a14301c (.)
+=======
+use Filament\Resources\Resource;
+>>>>>>> 5a14301c (.)
+use Filament\Support\Commands\Concerns\CanReadModelSchemas;
+// use Filament\Tables\Commands\Concerns\CanGenerateTables; // Non disponibile in Filament v4
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+use Filament\Forms\Commands\Concerns\CanGenerateForms;
+use Filament\Resources\Resource;
+use Filament\Support\Commands\Concerns\CanReadModelSchemas;
+use Filament\Tables\Commands\Concerns\CanGenerateTables;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+// use Filament\Forms\Commands\Concerns\CanGenerateForms; // Non disponibile in Filament v4
+use Filament\Resources\Resource;
+use Filament\Support\Commands\Concerns\CanReadModelSchemas;
+// use Filament\Tables\Commands\Concerns\CanGenerateTables; // Non disponibile in Filament v4
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File as LaravelFile;
 use Illuminate\Support\Str;
@@ -27,16 +86,58 @@ use Webmozart\Assert\Assert;
 
 class GenerateTableColumnsByFileAction
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     // use CanGenerateForms; // Non disponibile in Filament v4
 
     // use CanGenerateImporterColumns;
     // use CanGenerateTables; // Non disponibile in Filament v4
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+    use CanGenerateForms;
+
+    // use CanGenerateImporterColumns;
+    use CanGenerateTables;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    // use CanGenerateForms; // Non disponibile in Filament v4
+
+    // use CanGenerateImporterColumns;
+    // use CanGenerateTables; // Non disponibile in Filament v4
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     use CanReadModelSchemas;
     use QueueableAction;
 
     /**
      * Genera colonne per tabelle e form Filament basate su un file di risorsa.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @param  File  $file  Il file della risorsa Filament
      */
     public function execute(File $file): void
@@ -45,28 +146,406 @@ class GenerateTableColumnsByFileAction
             return;
         }
         if (! \in_array($file->getExtension(), ['php'], false)) {
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+     * @param File $file Il file della risorsa Filament
+<<<<<<< HEAD
+     *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+=======
+     * 
+>>>>>>> a12f125f4a (.)
+=======
+     *
+>>>>>>> b93ef594b4 (.)
+=======
+     * 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+     * @return void
+     */
+    public function execute(File $file): void
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/develop
      * @param File $file Il file della risorsa Filament
      *
      * @return void
      */
     public function execute(File $file): void
     {
+<<<<<<< HEAD
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         if (!$file->isFile()) {
             return;
         }
         if (!\in_array($file->getExtension(), ['php'], false)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         if (! $file->isFile()) {
             return;
         }
         if (! \in_array($file->getExtension(), ['php'], false)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
         if (!$file->isFile()) {
             return;
         }
         if (!\in_array($file->getExtension(), ['php'], false)) {
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
             return;
         }
         $filename = $file->getPathname();
         $class_name = Str::replace(base_path('Modules/'), 'Modules/', $filename);
+<<<<<<< HEAD
         Assert::string(
             $class_name = Str::replace('/', '\\', $class_name),
             '['.__LINE__.']['.class_basename($this).']',
@@ -76,21 +555,117 @@ class GenerateTableColumnsByFileAction
             '[' . __LINE__ . '][' . class_basename($this) . ']',
             '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+        Assert::string(
+            $class_name = Str::replace('/', '\\', $class_name),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            '['.__LINE__.']['.class_basename($this).']',
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 5a14301c (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 3fbbf1f5 (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 5a14301c (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 5a14301c (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 5a14301c (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 5a14301c (.)
+=======
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 5a14301c (.)
+        );
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        Assert::string($class_name = Str::replace('/', '\\', $class_name), '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        Assert::string($class_name = Str::replace('/', '\\', $class_name), '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $class_name = Str::substr($class_name, 0, -4);
 
         // Verifichiamo che la classe esista
         Assert::classExists($class_name);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         /** @var object $resourceInstance */
         $resourceInstance = app($class_name);
 
         // Verifichiamo che il metodo getModel esista
         if (! method_exists($resourceInstance, 'getModel')) {
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         /** @var Resource $resourceInstance */
         $resourceInstance = app($class_name);
 
         // Verifichiamo che il metodo getModel esista
         if (!method_exists($resourceInstance, 'getModel')) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             return;
         }
 
@@ -107,6 +682,7 @@ class GenerateTableColumnsByFileAction
         // *
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'table');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->columns(', '(', ')');
+<<<<<<< HEAD
         $body_new = '->columns(['.chr(13).'// TODO: Generate table columns'.chr(13).'])';
         $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
         $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
@@ -115,11 +691,144 @@ class GenerateTableColumnsByFileAction
         $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
         $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
         $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $body_new = '->columns(['.chr(13).'// TODO: Generate table columns'.chr(13).'])';
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
+=======
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+>>>>>>> 3fbbf1f5 (.)
+=======
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
+=======
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
+=======
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
+=======
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
+=======
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
+        $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+        $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+=======
+=======
+>>>>>>> origin/develop
+        $body_new = '->columns(['.chr(13).$this->getResourceTableColumns($modelClass).chr(13).'])';
+        $body_up = Str::of($body)
+            ->replace($body1, $body_new)
+            ->toString();
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+        $body_new = '->columns([' . chr(13) . '// TODO: Generate table columns' . chr(13) . '])';
+        $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
         // -------------------- FORM ------------------------------
         $body = app(GetMethodBodyAction::class)->execute($class_name, 'form');
         $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->schema(', '(', ')');
+<<<<<<< HEAD
         $body_new = '->schema(['.chr(13).'// TODO: Generate form schema'.chr(13).'])';
         $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
         $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
@@ -128,6 +837,138 @@ class GenerateTableColumnsByFileAction
         $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
         $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
         $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $body_new = '->schema(['.chr(13).'// TODO: Generate form schema'.chr(13).'])';
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
+=======
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+>>>>>>> 3fbbf1f5 (.)
+=======
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
+=======
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
+=======
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
+=======
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
+=======
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+>>>>>>> 5a14301c (.)
+        $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+        $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+=======
+=======
+>>>>>>> origin/develop
+        $body_new = '->schema(['.chr(13).$this->getResourceFormSchema($modelClass).chr(13).'])';
+        $body_up = Str::of($body)
+            ->replace($body1, $body_new)
+            ->toString();
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+        $body_new = '->schema([' . chr(13) . '// TODO: Generate form schema' . chr(13) . '])';
+        $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
         LaravelFile::put($filename, $content_new);
         // -----------------------------------------------------
@@ -137,42 +978,173 @@ class GenerateTableColumnsByFileAction
             $fillable = $modelInstance->getFillable();
 
             // Verifichiamo che $fillable sia un array e contenga 'anno'
+<<<<<<< HEAD
             if (is_array($fillable) && in_array('anno', $fillable, strict: true)) {
+=======
+<<<<<<< HEAD
+            if (is_array($fillable) && in_array('anno', $fillable, strict: true)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (is_array($fillable) && in_array('anno', $fillable, strict: true)) {
+=======
+            if (is_array($fillable) && in_array('anno', $fillable)) {
+>>>>>>> a12f125f4a (.)
+=======
+            if (is_array($fillable) && in_array('anno', $fillable, strict: true)) {
+>>>>>>> b93ef594b4 (.)
+=======
+            if (is_array($fillable) && in_array('anno', $fillable)) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 $body = app(GetMethodBodyAction::class)->execute($class_name, 'table');
                 $body1 = app(GetStrBetweenStartsWithAction::class)->execute($body, '->filters(', '(', ')');
                 $body_new = "->filters([
                         app(\Modules\Xot\Actions\Filament\Filter\GetYearFilter::class)->execute('anno',intval(date('Y')) - 3,intval(date('Y'))),
                     ],layout: \Filament\Tables\Enums\FiltersLayout::AboveContent)
                     ->persistFiltersInSession()";
+<<<<<<< HEAD
                 $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+=======
+<<<<<<< HEAD
+                $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+=======
+                $body_up = Str::of($body)
+                    ->replace($body1, $body_new)
+                    ->toString();
+>>>>>>> a12f125f4a (.)
+=======
+                $body_up = Str::of($body)->replace($body1, $body_new)->toString();
+>>>>>>> b93ef594b4 (.)
+=======
+                $body_up = Str::of($body)
+                    ->replace($body1, $body_new)
+                    ->toString();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 $content_new = Str::of($file->getContents())->replace($body, $body_up)->toString();
                 LaravelFile::put($filename, $content_new);
             }
         }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // */
     }
 
     /**
      * Mostra informazioni di debug su un file.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @param  File  $file  Il file da analizzare
      */
     public function ddFile(File $file): void
     {
         // Debug information - commented out for production
         /*
+<<<<<<< HEAD
      * @param File $file Il file da analizzare
      *
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+     * @param File $file Il file da analizzare
+<<<<<<< HEAD
+     *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+=======
+     * 
+>>>>>>> a12f125f4a (.)
+=======
+     *
+>>>>>>> b93ef594b4 (.)
+=======
+     * 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
      * @return void
      */
     public function ddFile(File $file): void
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         dd([
             'getRelativePath' => $file->getRelativePath(), // =  ""
             'getRelativePathname' => $file->getRelativePathname(), //  AssenzeResource.php
             'getFilenameWithoutExtension' => $file->getFilenameWithoutExtension(), // AssenzeResource
             // 'getContents' => $file->getContents(),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
             'getPath' => $file->getPath(),
             'getFilename' => $file->getFilename(), // = AssenzeResource.php
             'getExtension' => $file->getExtension(), // php
@@ -180,6 +1152,20 @@ class GenerateTableColumnsByFileAction
             'getPathname' => $file->getPathname(),
             'isFile' => $file->isFile(), // true
             'getRealPath' => $file->getRealPath(),
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             'getPath' => $file->getPath(), // = /var/www/html/ptvx/laravel/Modules/Progressioni/Filament/Resources
             'getFilename' => $file->getFilename(), // = AssenzeResource.php
             'getExtension' => $file->getExtension(), // php
@@ -187,10 +1173,51 @@ class GenerateTableColumnsByFileAction
             'getPathname' => $file->getPathname(), // "/var/www/html/ptvx/laravel/Modules/Progressioni/Filament/resources/AssenzeResource.php
             'isFile' => $file->isFile(), // true
             'getRealPath' => $file->getRealPath(), // /var/www/html/ptvx/laravel/Modules/Progressioni/Filament/resources/AssenzeResource.php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             // 'getFileInfo' => $file->getFileInfo(),
             // 'getPathInfo' => $file->getPathInfo(),
             'methods' => get_class_methods($file),
         ]);
+<<<<<<< HEAD
         */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        */
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     }
 }

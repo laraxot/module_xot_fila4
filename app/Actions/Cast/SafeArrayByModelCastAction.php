@@ -4,17 +4,121 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Cast;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 use Error;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use ValueError;
+<<<<<<< HEAD
 use ValueError;
 use Error;
 use Exception;
 use Doctrine\DBAL\Schema\Index;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+use ValueError;
+use Error;
+use Exception;
+=======
+<<<<<<< HEAD
+use ValueError;
+use Error;
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+use Doctrine\DBAL\Schema\Index;
+use Illuminate\Database\Eloquent\Model;
+use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
 class SafeArrayByModelCastAction
 {
@@ -25,13 +129,75 @@ class SafeArrayByModelCastAction
      */
     public function execute(Model $model): array
     {
+<<<<<<< HEAD
         try {
             return $model->attributesToArray();
         try {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+        try {
+<<<<<<< HEAD
+            return $model->attributesToArray();
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+        try {
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
             /** @var array<string, mixed> */
             $attributes = $model->attributesToArray();
 
             return $attributes;
+<<<<<<< HEAD
         } catch (ValueError|Error|Exception $e) {
         try {
             return $model->attributesToArray();
@@ -39,13 +205,378 @@ class SafeArrayByModelCastAction
         try {
             return $model->attributesToArray();
         } catch (ValueError|Error|Exception $e) {
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> b7afadf9 (.)
+        } catch (ValueError|Error|Exception $e) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+        try{
+            return $model->attributesToArray(); 
+        }catch(ValueError|Error|Exception $e){
+>>>>>>> f1d4085 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+        try {
+            return $model->attributesToArray();
+        } catch (ValueError|Error|Exception $e) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+        try{
+            return $model->attributesToArray(); 
+        }catch(ValueError|Error|Exception $e){
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        try {
+            return $model->attributesToArray();
+        } catch (ValueError|Error|Exception $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        try {
+            return $model->attributesToArray();
+        } catch (ValueError|Error|Exception $e) {
+=======
+        try{
+            return $model->attributesToArray(); 
+        }catch(ValueError|Error|Exception $e){
+>>>>>>> a12f125f4a (.)
+=======
+        try {
+            return $model->attributesToArray();
+        } catch (ValueError|Error|Exception $e) {
+>>>>>>> b93ef594b4 (.)
+=======
+        try{
+            return $model->attributesToArray(); 
+        }catch(\ValueError|\Error|\Exception $e){
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             return $this->safeExecute($model);
         }
     }
 
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+    /**
+     * @return array<string, mixed>
+     */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -59,11 +590,149 @@ class SafeArrayByModelCastAction
         }
 
         return $data;
+<<<<<<< HEAD
 
 
 
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+<<<<<<< HEAD
+=======
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
+=======
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+<<<<<<< HEAD
+=======
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+<<<<<<< HEAD
+=======
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
+=======
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+
+
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> laraxot/develop
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -75,12 +744,21 @@ class SafeArrayByModelCastAction
             } catch (ValueError|Error $e) {
             }
         }
+<<<<<<< HEAD
         
         return $data;;
+=======
+<<<<<<< HEAD
+        
+        return $data;;
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
 
         return $data;
 
 
+<<<<<<< HEAD
 
 
 
@@ -97,6 +775,103 @@ class SafeArrayByModelCastAction
 
 
 
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+
+=======
+=======
+
+>>>>>>> 7131bd09 (.)
+=======
+
+>>>>>>> 17684f52 (.)
+=======
+=======
+
+>>>>>>> ed734516 (.)
+=======
+
+>>>>>>> 399f46d3 (.)
+=======
+=======
+
+>>>>>>> ed734516 (.)
+=======
+
+>>>>>>> 399f46d3 (.)
+=======
+=======
+
+>>>>>>> 7131bd09 (.)
+=======
+
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+=======
+
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+=======
+
+>>>>>>> ed734516 (.)
+=======
+
+>>>>>>> 399f46d3 (.)
+=======
+=======
+
+>>>>>>> 7131bd09 (.)
+=======
+
+>>>>>>> 17684f52 (.)
+=======
+=======
+
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+=======
+
+>>>>>>> ed734516 (.)
+=======
+
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     public function safeExecute(Model $model): array
     {
         $data=[];
@@ -104,6 +879,7 @@ class SafeArrayByModelCastAction
             try{
                 $data[$key]=$model->$key;
                 /** @phpstan-ignore-next-line */
+<<<<<<< HEAD
             }catch(\ValueError|\Error $e){
             }catch(\ValueError|\Error $e){
             }catch(ValueError|Error $e){
@@ -122,11 +898,95 @@ class SafeArrayByModelCastAction
             }catch(\ValueError|\Error $e){
             }catch(ValueError|Error $e){
             }catch(ValueError|Error $e){
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            }catch(\ValueError|\Error $e){
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> ed734516 (.)
+=======
+            }catch(\ValueError|\Error $e){
+>>>>>>> 399f46d3 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> 7131bd09 (.)
+=======
+            }catch(\ValueError|\Error $e){
+>>>>>>> 17684f52 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> ed734516 (.)
+=======
+            }catch(\ValueError|\Error $e){
+>>>>>>> 399f46d3 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> ed734516 (.)
+=======
+            }catch(\ValueError|\Error $e){
+>>>>>>> 399f46d3 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> 7131bd09 (.)
+=======
+            }catch(\ValueError|\Error $e){
+>>>>>>> 17684f52 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> ab8cc3f3 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> b7afadf9 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> ed734516 (.)
+=======
+            }catch(\ValueError|\Error $e){
+>>>>>>> 399f46d3 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> 7131bd09 (.)
+=======
+            }catch(\ValueError|\Error $e){
+>>>>>>> 17684f52 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> ab8cc3f3 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> b7afadf9 (.)
+=======
+            }catch(ValueError|Error $e){
+>>>>>>> ed734516 (.)
+=======
+            }catch(\ValueError|\Error $e){
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
                 
             }
         }
         
         return $data;;
+<<<<<<< HEAD
 
 
 
@@ -147,5 +1007,237 @@ class SafeArrayByModelCastAction
 
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+
+
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+
+
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+
+
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+
+
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+
+
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+
+
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+
+
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     }
 }

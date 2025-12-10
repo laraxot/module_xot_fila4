@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotBase Extension Rules - Comprehensive Guide
 
 ## 🚨 Critical Architectural Rule
@@ -197,6 +198,8 @@ Always run `php artisan optimize:clear && ./vendor/bin/phpstan analyse` after ma
 
 *Last Updated: 2025-08-27*  
 *Architecture Version: XotBase 2.0*
+=======
+>>>>>>> laraxot/develop
 # Regole di Estensione XotBase - Guida di Riferimento
 
 ## 🚨 REGOLA CRITICA FONDAMENTALE
@@ -255,6 +258,13 @@ Le classi XotBase sono integrate con il sistema di configurazione, traduzioni e 
 
 ### Ricerca Violazioni
 ```bash
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 # Cerca estensioni dirette di Filament (dovrebbe restituire 0 risultati)
 grep -r "extends Filament\\" Modules/ --include="*.php"
 
@@ -264,6 +274,13 @@ grep -r "extends Modules\\Xot\\" Modules/ --include="*.php"
 
 ### Verifica Specifica per Tipo
 ```bash
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 # Dashboard
 grep -r "XotBaseDashboard" Modules/ --include="*.php"
 
@@ -345,6 +362,13 @@ Aggiungere un controllo pre-commit per verificare che non ci siano estensioni di
 
 ```bash
 #!/bin/bash
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 # .git/hooks/pre-commit
 
 if grep -r "extends Filament\\" Modules/ --include="*.php" > /dev/null; then
@@ -358,6 +382,13 @@ echo "✅ Controllo XotBase: PASSED"
 
 ### CI/CD Check
 ```yaml
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 # .github/workflows/xotbase-check.yml
 name: XotBase Extension Check
 on: [push, pull_request]

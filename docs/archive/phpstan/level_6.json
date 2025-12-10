@@ -1,4 +1,289 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 5a14301c (.)
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 71f31700 (.)
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+=======
+=======
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+=======
+=======
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+=======
+=======
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+=======
+=======
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+=======
+=======
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+=======
+=======
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+=======
+=======
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+=======
+=======
+>>>>>>> laraxot/develop
 {"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
 aurmich/dev
 {"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
@@ -15,4 +300,246 @@ aurmich/dev
 aurmich/dev
 
 {"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+<<<<<<< HEAD
 aurmich/dev
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+aurmich/dev
+
+{"totals":{"errors":0,"file_errors":4},"files":{"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 40","line":40,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 41","line":41,"ignorable":false,"identifier":"phpstan.parse"}]},"/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php":{"errors":2,"messages":[{"message":"Syntax error, unexpected T_SR on line 47","line":47,"ignorable":false,"identifier":"phpstan.parse"},{"message":"Syntax error, unexpected '}' on line 48","line":48,"ignorable":false,"identifier":"phpstan.parse"}]}},"errors":[]}
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+aurmich/dev
+=======
+>>>>>>> cc7fb225 (.)
+=======
+aurmich/dev
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+aurmich/dev
+>>>>>>> 5bd842e3 (.)
+=======
+aurmich/dev
+>>>>>>> 03ceeac3 (.)
+=======
+aurmich/dev
+>>>>>>> 5a14301c (.)
+=======
+aurmich/dev
+>>>>>>> 71f31700 (.)
+=======
+aurmich/dev
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+aurmich/dev
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+aurmich/dev
+>>>>>>> 5bd842e3 (.)
+=======
+aurmich/dev
+>>>>>>> 03ceeac3 (.)
+=======
+aurmich/dev
+>>>>>>> 5a14301c (.)
+=======
+aurmich/dev
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

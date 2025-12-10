@@ -1,8 +1,291 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 # PHPStan Best Practices per Factory Laravel - Laraxot Framework
 
 ## 🎯 Overview
 
+<<<<<<< HEAD
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <nome progetto> e conformi ai principi del framework Laraxot.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <nome progetto> e conformi ai principi del framework Laraxot.
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo  e conformi ai principi del framework Laraxot.
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 5a14301c (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 399f46d3 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> d86d643a (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 472bd9dc (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> d86d643a (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> d86d643a (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 472bd9dc (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 3bf39332 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> cf971011 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> e7da37af (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> d86d643a (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 472bd9dc (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 3bf39332 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> cf971011 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> e7da37af (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo  e conformi ai principi del framework Laraxot.
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <nome progetto> e conformi ai principi del framework Laraxot.
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 43d67f21 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo  e conformi ai principi del framework Laraxot.
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 5a14301c (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 43d67f21 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> b7ea1cd1 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo  e conformi ai principi del framework Laraxot.
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 5a14301c (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 43d67f21 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo  e conformi ai principi del framework Laraxot.
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 5a14301c (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 43d67f21 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> b7ea1cd1 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 76bec91a (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 55fe1822 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo  e conformi ai principi del framework Laraxot.
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 5a14301c (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 43d67f21 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> b7ea1cd1 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 76bec91a (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 55fe1822 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo  e conformi ai principi del framework Laraxot.
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 5a14301c (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## 📚 Principi Fondamentali
 
@@ -264,6 +547,56 @@ $result = $string . (string) $faker->method();
 ## 📝 Esempi Pratici
 
 ### Correzione Completa UserFactory
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 Vedere: `Modules/<nome progetto>/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -274,6 +607,337 @@ Vedere:
 
 ### Documentazione Implementazione
 Vedere: `Modules/<nome progetto>/project_docs/factories/phpstan-factory-compliance.md`
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+Vedere: `Modules//database/factories/UserFactory.php`
+
+### Factory Specializzate Corrette
+Vedere:
+- `Modules//database/factories/AdminFactory.php`
+- `Modules//database/factories/DoctorFactory.php`
+- `Modules//database/factories/PatientFactory.php`
+
+### Documentazione Implementazione
+Vedere: `Modules/<nome modulo>/docs/factories/phpstan-factory-compliance.md`
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
+
+### Factory Specializzate Corrette
+Vedere:
+- `Modules/SaluteOra/database/factories/AdminFactory.php`
+- `Modules/SaluteOra/database/factories/DoctorFactory.php`
+- `Modules/SaluteOra/database/factories/PatientFactory.php`
+
+### Documentazione Implementazione
+Vedere: `Modules/SaluteOra/project_docs/factories/phpstan-factory-compliance.md`
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+Vedere: `Modules//database/factories/UserFactory.php`
+
+### Factory Specializzate Corrette
+Vedere:
+- `Modules//database/factories/AdminFactory.php`
+- `Modules//database/factories/DoctorFactory.php`
+- `Modules//database/factories/PatientFactory.php`
+
+### Documentazione Implementazione
+Vedere: `Modules/<nome modulo>/docs/factories/phpstan-factory-compliance.md`
+Vedere: `Modules/<nome progetto>/database/factories/UserFactory.php`
+
+### Factory Specializzate Corrette
+Vedere:
+- `Modules/<nome progetto>/database/factories/AdminFactory.php`
+- `Modules/<nome progetto>/database/factories/DoctorFactory.php`
+- `Modules/<nome progetto>/database/factories/PatientFactory.php`
+
+### Documentazione Implementazione
+Vedere: `Modules/<nome progetto>/project_docs/factories/phpstan-factory-compliance.md`
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## 📊 Metriche di Successo
 
@@ -284,4 +948,104 @@ Vedere: `Modules/<nome progetto>/project_docs/factories/phpstan-factory-complian
 
 *Ultimo aggiornamento: Dicembre 2024*
 *Versione: 1.0*
+<<<<<<< HEAD
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 5a14301c (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 399f46d3 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 5a14301c (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 399f46d3 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 17684f52 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 5a14301c (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 399f46d3 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 5a14301c (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 399f46d3 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> e0b8ebe3 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> cc52d333 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 5a14301c (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 399f46d3 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> e0b8ebe3 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> cc52d333 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 5a14301c (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

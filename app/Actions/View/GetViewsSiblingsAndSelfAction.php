@@ -29,6 +29,7 @@ class GetViewsSiblingsAndSelfAction
         $files = File::files($dir);
         $views = [];
         foreach ($files as $file) {
+<<<<<<< HEAD
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
@@ -94,6 +95,404 @@ class GetViewsSiblingsAndSelfAction
             if (!Str::endsWith($file->getFilename(), '.blade.php')) {
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
             if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 399f46d3 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 17684f52 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 399f46d3 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 399f46d3 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 17684f52 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 399f46d3 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 17684f52 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> a12f125f4a (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> b93ef594b4 (.)
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 9db27d12 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 71586de2 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 71586de2 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+=======
+            if (! Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            if (!Str::endsWith($file->getFilename(), '.blade.php')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
                 continue;
             }
 

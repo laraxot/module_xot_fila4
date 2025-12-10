@@ -11,6 +11,15 @@ use Illuminate\Support\Carbon;
 /**
  * Modules\Xot\Contracts\ModelContract.
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
  * @property int $id
  * @property int|null $user_id
  * @property string|null $post_type
@@ -21,6 +30,20 @@ use Illuminate\Support\Carbon;
  * @property string|null $title
  * @property bool $is_reclamed
  * @property bool $table_enable
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  * @property int                $id
  * @property int|null           $user_id
  * @property string|null        $post_type
@@ -31,6 +54,25 @@ use Illuminate\Support\Carbon;
  * @property string|null        $title
  * @property bool               $is_reclamed
  * @property bool               $table_enable
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  * @property PivotContract|null $pivot
  * @property string $tennant_name
  * @property string $mail_subject
@@ -40,6 +82,15 @@ use Illuminate\Support\Carbon;
  * @property string $sms_body
  * @property string $sms_count
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
  * @method mixed getKey()
  * @method string getRouteKey()
  * @method string getRouteKeyName()
@@ -56,6 +107,20 @@ use Illuminate\Support\Carbon;
  * @method array treeLabel()
  * @method array treeSons()
  * @method array toArray()
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  * @method mixed     getKey()
  * @method string    getRouteKey()
  * @method string    getRouteKeyName()
@@ -72,6 +137,25 @@ use Illuminate\Support\Carbon;
  * @method array     treeLabel()
  * @method array     treeSons()
  * @method array     toArray()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  * @method BelongsTo user()
  *
  * @phpstan-require-extends Model

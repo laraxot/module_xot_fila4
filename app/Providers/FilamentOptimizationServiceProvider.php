@@ -4,17 +4,59 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
 use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
 use PDO;
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use PDO;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Modules\Xot\Http\Middleware\FilamentMemoryMonitorMiddleware;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use function Safe\preg_match;
 
 /**
@@ -67,49 +109,192 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     private function applyMemoryOptimizations(): void
     {
         // Ottimizza le query di default
+<<<<<<< HEAD
         DB::listen(function ($query): void {
         DB::listen(function ($query) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        DB::listen(function ($query): void {
+=======
+=======
+>>>>>>> 249a0067 (.)
+        DB::listen(function ($query) {
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
             // PHPStan: $query è \Illuminate\Database\Events\QueryExecuted
             if (! is_object($query) || ! isset($query->time)) {
                 return;
             }
 
+<<<<<<< HEAD
         DB::listen(function ($query): void {
         DB::listen(function ($query) {
         DB::listen(function ($query) {
         DB::listen(function ($query): void {
         DB::listen(function ($query) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        DB::listen(function ($query) {
+>>>>>>> 53d6a6ba (.)
+=======
+        DB::listen(function ($query): void {
+>>>>>>> b7afadf9 (.)
+=======
+        DB::listen(function ($query) {
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+        DB::listen(function ($query) {
+>>>>>>> 53d6a6ba (.)
+=======
+        DB::listen(function ($query): void {
+>>>>>>> b7afadf9 (.)
+=======
+        DB::listen(function ($query) {
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
             // Log query che superano la soglia di tempo
             $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
 
             if ($query->time > $threshold) {
                 Log::warning('Slow query detected', [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
                     'sql' => $query->sql ?? '',
                     'bindings' => $query->bindings ?? [],
                     'time' => $query->time,
                     'connection' => $query->connectionName ?? '',
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         DB::listen(function ($query) {
             // Log query che superano la soglia di tempo
             $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
             
             if ($query->time > $threshold) {
                 Log::warning('Slow query detected', [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                     'sql' => $query->sql,
                     'bindings' => $query->bindings,
                     'time' => $query->time,
                     'connection' => $query->connectionName,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
                     'sql' => $sql,
                     'bindings' => $bindings,
                     'time' => $timeValue,
                     'connection' => $connection,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> laraxot/develop
                     'sql' => property_exists($query, 'sql') ? $query->sql : '',
                     'bindings' => property_exists($query, 'bindings') ? $query->bindings : [],
                     'time' => $query->time,
                     'connection' => property_exists($query, 'connectionName') ? $query->connectionName : '',
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> laraxot/develop
                     'sql' => property_exists($query, 'sql') ? $query->sql : '',
                     'bindings' => property_exists($query, 'bindings') ? $query->bindings : [],
                     'time' => $query->time,
                     'connection' => property_exists($query, 'connectionName') ? $query->connectionName : '',
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                 ]);
             }
         });
@@ -128,6 +313,15 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         // Abilita query logging solo per richieste Filament admin
         if ($this->isFilamentAdminRequest()) {
             DB::enableQueryLog();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 
             // Log delle query alla fine della richiesta
             app()->terminating(function () {
@@ -135,6 +329,20 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 $totalQueries = count($queries);
                 $totalTime = array_sum(array_column($queries, 'time'));
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             
             // Log delle query alla fine della richiesta
             app()->terminating(function () {
@@ -142,6 +350,25 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 $totalQueries = count($queries);
                 $totalTime = array_sum(array_column($queries, 'time'));
                 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                 if ($totalQueries > 50 || $totalTime > 1000) {
                     Log::info('High query count or time detected', [
                         'total_queries' => $totalQueries,
@@ -169,14 +396,56 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     {
         // Disabilita query logging in produzione per performance
         DB::disableQueryLog();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 
         // Ottimizza la configurazione di Eloquent
         $this->optimizeEloquentConfiguration();
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         
         // Ottimizza la configurazione di Eloquent
         $this->optimizeEloquentConfiguration();
         
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         // Configura caching aggressivo
         $this->configureAggressiveCaching();
     }
@@ -190,11 +459,39 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
         if (config('filament_optimization.query.disable_events', false)) {
             // Questo può essere fatto per modelli specifici se necessario
         }
+<<<<<<< HEAD
 
         
         
         
         
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         // Configura connection pooling se disponibile
         $currentOptions = config('database.connections.mysql.options');
         if ($currentOptions) {
@@ -221,11 +518,39 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
             // Implementa caching per configurazioni moduli
             $this->cacheModuleConfigurations();
         }
+<<<<<<< HEAD
 
         
         
         
         
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         // Cache delle navigation items
         if (config('filament_optimization.cache.navigation', true)) {
             // Già implementato in GetModulesNavigationItems
@@ -244,8 +569,31 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                 // Carica tutte le configurazioni dei moduli
                 $configs = [];
                 $modules = app('modules')->all();
+<<<<<<< HEAD
 
                 foreach ($modules as $module) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+                foreach ($modules as $module) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
                     // PHPStan: $module è \Nwidart\Modules\Module
                     if (! is_object($module) || ! method_exists($module, 'getPath') || ! method_exists($module, 'getName')) {
                         continue;
@@ -262,6 +610,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                         if (is_string($moduleName)) {
                             $configs[$moduleName] = require $configPath;
                         }
+<<<<<<< HEAD
                     $configPath = $module->getPath().'/Config/config.php';
                     if (file_exists($configPath)) {
                         $configs[$module->getName()] = require $configPath;
@@ -274,17 +623,101 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                     }
                 }
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+                    $configPath = $module->getPath().'/Config/config.php';
+                    if (file_exists($configPath)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        $configs[$module->getName()] = require $configPath;
+>>>>>>> 53d6a6ba (.)
+=======
+                        $configs[$module->getName()] = require $configPath;
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+                    $configPath = $module->getPath().'/Config/config.php';
+                    if (file_exists($configPath)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        $configs[$module->getName()] = require $configPath;
+>>>>>>> 53d6a6ba (.)
+=======
+                        $configs[$moduleName] = require $configPath;
+>>>>>>> b7afadf9 (.)
+=======
+                        $configs[$module->getName()] = require $configPath;
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+                    }
+                }
+
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                 
                 foreach ($modules as $module) {
                     $configPath = $module->getPath() . '/Config/config.php';
                     if (file_exists($configPath)) {
                         $configs[$module->getName()] = require $configPath;
+<<<<<<< HEAD
                     }
                 }
                 
                     }
                 }
                 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        $configs[$moduleName] = require $configPath;
+>>>>>>> b7afadf9 (.)
+                    }
+                }
+                
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+                    }
+                }
+                
+>>>>>>> 5a14301c (.)
+=======
+                    }
+                }
+                
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                 return $configs;
             });
         });
@@ -296,16 +729,58 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
     private function limitQueriesInDevelopment(): void
     {
         $maxQueries = config('filament_optimization.development.max_queries_per_request', 100);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 
         app()->terminating(function () use ($maxQueries) {
             $queries = DB::getQueryLog();
             $totalQueries = count($queries);
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         
         app()->terminating(function () use ($maxQueries) {
             $queries = DB::getQueryLog();
             $totalQueries = count($queries);
             
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             if ($totalQueries > $maxQueries) {
                 Log::warning("High query count detected: {$totalQueries} queries", [
                     'url' => request()->fullUrl(),
@@ -320,11 +795,21 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
      */
     private function isFilamentAdminRequest(): bool
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         if (! app()->runningInConsole() && request()) {
             $path = request()->path();
 
             return str_contains($path, '/admin') ||
                    str_ends_with($path, '/admin') ||
+<<<<<<< HEAD
                    preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
             return str_contains($path, '/admin')
                    || str_ends_with($path, '/admin')
@@ -334,6 +819,58 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                    preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
         }
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                   preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+=======
+                   preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            return str_contains($path, '/admin')
+                   || str_ends_with($path, '/admin')
+                   || preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+                   preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+>>>>>>> 249a0067 (.)
+=======
+                   preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+                   preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
+>>>>>>> 249a0067 (.)
+        }
+
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         if (!app()->runningInConsole() && request()) {
             $path = request()->path();
             return str_contains($path, '/admin') || 
@@ -341,6 +878,25 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                    preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
         }
         
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         return false;
     }
 }

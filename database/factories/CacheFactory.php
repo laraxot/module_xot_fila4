@@ -8,19 +8,71 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\Cache;
 
+<<<<<<< HEAD
 /**
  * @extends Factory<Cache>
  */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/**
+ * @extends Factory<Cache>
+ */
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 class CacheFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
+<<<<<<< HEAD
      * @var class-string<Cache>
      * @var class-string<Model>
      * @var class-string<Model>
      * @var class-string<Model>
      * @var class-string<Model>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @var class-string<Cache>
+=======
+     * @var class-string<Model>
+>>>>>>> 5a14301c (.)
+=======
+     * @var class-string<Model>
+>>>>>>> 5a14301c (.)
+=======
+     * @var class-string<Model>
+>>>>>>> 5a14301c (.)
+=======
+     * @var class-string<Model>
+>>>>>>> 5a14301c (.)
+=======
+     * @var class-string<Model>
+>>>>>>> 5a14301c (.)
+=======
+     * @var class-string<Model>
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     protected $model = Cache::class;
 

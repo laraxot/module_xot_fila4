@@ -13,6 +13,15 @@ use Spatie\LaravelData\Data;
 class AuthData extends Data
 {
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @param  string  $guard  Guard predefinita
      * @param  array  $guards  Guards disponibili
      * @param  array  $providers  Provider di autenticazione
@@ -20,6 +29,20 @@ class AuthData extends Data
      * @param  int  $password_reset_timeout  Password reset timeout in minuti
      * @param  array  $throttle  Configurazione throttling
      * @param  array  $social  Provider social abilitati
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @param string $guard          Guard predefinita
      * @param array  $guards         Guards disponibili
      * @param array  $providers      Provider di autenticazione
@@ -27,6 +50,25 @@ class AuthData extends Data
      * @param int    $password_reset_timeout Password reset timeout in minuti
      * @param array  $throttle       Configurazione throttling
      * @param array  $social         Provider social abilitati
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function __construct(
         public readonly string $guard = 'web',
@@ -45,19 +87,83 @@ class AuthData extends Data
             'twitter' => false,
             'github' => false,
         ],
+<<<<<<< HEAD
     ) {}
 
     /**
      * Create a new instance of AuthData with default values.
+=======
+<<<<<<< HEAD
+    ) {}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ) {}
+=======
+    ) {
+    }
+>>>>>>> a12f125f4a (.)
+=======
+    ) {}
+>>>>>>> b93ef594b4 (.)
+=======
+    ) {
+    }
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+
+    /**
+     * Create a new instance of AuthData with default values.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      */
     public static function make(): static
     {
         return new static;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      *
      * @return static
      */
     public static function make(): static
     {
         return new static();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     }
 }

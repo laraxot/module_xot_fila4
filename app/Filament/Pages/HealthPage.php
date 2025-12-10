@@ -8,9 +8,162 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Pages;
 
+<<<<<<< HEAD
 use Filament\Widgets\WidgetConfiguration;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Widgets\WidgetConfiguration;
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+use Spatie\Health\Checks\Check;
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+use Spatie\Health\Checks\Check;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 5a14301c (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 3fbbf1f5 (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 use Spatie\Health\Checks\Checks\OptimizedAppCheck;
 use Spatie\Health\Checks\Checks\DebugModeCheck;
 use Spatie\Health\Checks\Checks\EnvironmentCheck;
@@ -30,7 +183,89 @@ use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
 use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
 use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -39,6 +274,7 @@ use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
@@ -46,6 +282,44 @@ use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Checks;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Spatie\Health\Checks\Check;
+=======
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 53d6a6ba (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 53d6a6ba (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 71586de2 (.)
+use Spatie\Health\Checks\Checks;
+>>>>>>> cc7fb225 (.)
+>>>>>>> laraxot/develop
 use Spatie\Health\Checks\Checks\CacheCheck;
 use Spatie\Health\Checks\Checks\DatabaseCheck;
 use Spatie\Health\Checks\Checks\DatabaseConnectionCountCheck;
@@ -65,6 +339,7 @@ use Spatie\Health\Commands\RunHealthChecksCommand;
 use Spatie\Health\Facades\Health;
 use Spatie\Health\ResultStores\ResultStore;
 use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
@@ -104,6 +379,164 @@ use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
+=======
+=======
+use Spatie\Health\Checks\Check;
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 3fbbf1f5 (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 399f46d3 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 17684f52 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 399f46d3 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 399f46d3 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> ca9324a4 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 5a14301c (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> ca9324a4 (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 9db27d12 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 5a14301c (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> ca9324a4 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 5a14301c (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> ca9324a4 (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+use Spatie\Health\Checks\Check;
+=======
+>>>>>>> f1d4085 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> 9db27d12 (.)
+>>>>>>> laraxot/develop
 use Spatie\Health\Checks\Checks\OptimizedAppCheck;
 use Spatie\Health\Checks\Checks\DebugModeCheck;
 use Spatie\Health\Checks\Checks\EnvironmentCheck;
@@ -123,8 +556,69 @@ use Spatie\CpuLoadHealthCheck\CpuLoadCheck;
 use Spatie\SecurityAdvisoriesHealthCheck\SecurityAdvisoriesCheck;
 use Laraxot\SmtpHealthCheck\SmtpCheck;
 use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
+<<<<<<< HEAD
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Check;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+use Spatie\Health\Checks\Check;
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -136,6 +630,25 @@ use Spatie\Health\Checks\Checks;
 use Spatie\Health\Commands\RunHealthChecksCommand;
 use Spatie\Health\Facades\Health;
 use Spatie\Health\ResultStores\ResultStore;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
 class HealthPage extends Page
 {
@@ -146,6 +659,7 @@ class HealthPage extends Page
      */
     protected $listeners = ['refresh-component' => '$refresh'];
 
+<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-heart';
 
     protected string $view = 'xot::filament.pages.health';
@@ -154,6 +668,50 @@ class HealthPage extends Page
     {
         /** @var array<int, Check> $checks */
         $checks = [
+=======
+<<<<<<< HEAD
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-heart';
+
+    protected string $view = 'xot::filament.pages.health';
+=======
+<<<<<<< HEAD
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-heart';
+
+    protected string $view = 'xot::filament.pages.health';
+=======
+    protected static ?string $navigationIcon = 'heroicon-o-heart';
+
+    protected static string $view = 'xot::filament.pages.health';
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+
+    public function refresh(): void
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @var array<int, Check> $checks */
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+        $checks = [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             OptimizedAppCheck::new(),
             DebugModeCheck::new(),
             EnvironmentCheck::new(),
@@ -165,11 +723,39 @@ class HealthPage extends Page
             DatabaseConnectionCountCheck::new(),
             FlareErrorOccurrenceCountCheck::new(),
             HorizonCheck::new(),
+<<<<<<< HEAD
             // Checks\MeiliSearchCheck::new(),
             //Checks\MeiliSearchCheck::new(),
             //Checks\MeiliSearchCheck::new(),
             //Checks\MeiliSearchCheck::new(),
             //Checks\MeiliSearchCheck::new(),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            // Checks\MeiliSearchCheck::new(),
+=======
+            //Checks\MeiliSearchCheck::new(),
+>>>>>>> 5a14301c (.)
+=======
+            //Checks\MeiliSearchCheck::new(),
+>>>>>>> 5a14301c (.)
+=======
+            //Checks\MeiliSearchCheck::new(),
+>>>>>>> 5a14301c (.)
+=======
+            //Checks\MeiliSearchCheck::new(),
+>>>>>>> 5a14301c (.)
+=======
+            //Checks\MeiliSearchCheck::new(),
+>>>>>>> 5a14301c (.)
+=======
+            //Checks\MeiliSearchCheck::new(),
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             QueueCheck::new(),
             RedisCheck::new(),
             ScheduleCheck::new(),
@@ -177,6 +763,15 @@ class HealthPage extends Page
             // Checks\PingCheck::new()->url('https://google.com')->name('Google'),
         ];
         if (class_exists(CpuLoadCheck::class)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
             $checks[] = CpuLoadCheck::new();
         }
         if (class_exists(SecurityAdvisoriesCheck::class)) {
@@ -193,6 +788,22 @@ class HealthPage extends Page
          *
          * @phpstan-ignore-next-line argument.type
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             /** @var CpuLoadCheck $check */
             $check = CpuLoadCheck::new();
             $checks[] = $check;
@@ -207,7 +818,60 @@ class HealthPage extends Page
             $check = SmtpCheck::new();
             $checks[] = $check;
         }
+<<<<<<< HEAD
         /** @var array<Check> $checks */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @var array<Check> $checks */
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> laraxot/develop
             Checks\OptimizedAppCheck::new(),
             Checks\DebugModeCheck::new(),
             Checks\EnvironmentCheck::new(),
@@ -242,12 +906,91 @@ class HealthPage extends Page
             $checks[] = $check;
         }
         /** @var array<\Spatie\Health\Checks\Check> $checks */
+<<<<<<< HEAD
         /** @var array<int, \Spatie\Health\Checks\Check> $checks */
         /** @var array<Check> $checks */
         /** @var array<Check> $checks */
         /** @var array<Check> $checks */
         /** @var array<int, \Spatie\Health\Checks\Check> $checks */
         /** @var array<Check> $checks */
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+        /** @var array<int, \Spatie\Health\Checks\Check> $checks */
+>>>>>>> b7afadf9 (.)
+=======
+        /** @var array<Check> $checks */
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+        /** @var array<Check> $checks */
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+        /** @var array<Check> $checks */
+>>>>>>> 53d6a6ba (.)
+=======
+        /** @var array<int, \Spatie\Health\Checks\Check> $checks */
+>>>>>>> b7afadf9 (.)
+=======
+        /** @var array<Check> $checks */
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+        /** @var array<Check> $checks */
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         Health::checks($checks);
         Artisan::call(RunHealthChecksCommand::class);
         $this->dispatch('refresh-component');
@@ -257,13 +1000,54 @@ class HealthPage extends Page
             ->send();
     }
 
+<<<<<<< HEAD
     /**
      * @return array<int, Action>
      */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    /**
+     * @return array<int, Action>
+     */
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     protected function getHeaderActions(): array
     {
         return [
             Action::make('refresh')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+                
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()
@@ -271,6 +1055,7 @@ class HealthPage extends Page
         ];
     }
 
+<<<<<<< HEAD
     /**
      * @return array<int, WidgetConfiguration>
      */
@@ -284,6 +1069,65 @@ class HealthPage extends Page
     /**
      * @return array<string, mixed>
      */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    /**
+     * @return array<int, WidgetConfiguration>
+     */
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+    protected function getHeaderWidgets(): array
+    {
+        return [
+<<<<<<< HEAD
+            HealthOverviewWidget::make(),
+=======
+<<<<<<< HEAD
+            HealthOverviewWidget::make(),
+=======
+            Widgets\HealthOverviewWidget::make(),
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+        ];
+    }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    /**
+     * @return array<string, mixed>
+     */
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     protected function getViewData(): array
     {
         $checkResults = app(ResultStore::class)->latestResults();

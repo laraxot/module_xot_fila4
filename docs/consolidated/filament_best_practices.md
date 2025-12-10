@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -78,9 +120,141 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\ReportResource;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
+
+use Modules\<nome modulo>\Filament\Resources\ReportResource;
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 17684f52 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 17684f52 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 88e35986 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> e0b8ebe3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> cc52d333 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 17684f52 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 88e35986 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> e0b8ebe3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> cc52d333 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource;
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Filament\Actions;
 use Filament\Tables;
@@ -179,9 +353,141 @@ public function getTableColumns(): array
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 17684f52 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 17684f52 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 88e35986 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> e0b8ebe3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> cc52d333 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 17684f52 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 88e35986 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> e0b8ebe3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> cc52d333 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 
@@ -216,9 +522,141 @@ class EditAppointment extends XotBaseEditRecord
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
 
 use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome modulo>\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\<nome modulo>\Filament\Resources\AppointmentResource;
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 17684f52 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 17684f52 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 88e35986 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> e0b8ebe3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> cc52d333 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 399f46d3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 17684f52 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 88e35986 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> e0b8ebe3 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> cc52d333 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources\AppointmentResource\Pages;
+
+use Modules\SaluteMo\Filament\Resources\AppointmentResource;
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 
 /**
@@ -245,10 +683,272 @@ class CreateAppointment extends XotBaseCreateRecord
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 namespace Modules\<nome modulo>\Filament\Resources;
 
 use Modules\<nome modulo>\Filament\Resources\ReportResource\Pages;
 use Modules\<nome progetto>\Models\Report;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+namespace Modules\SaluteMo\Filament\Resources;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+use Modules\<nome progetto>\Models\Report;
+use Modules\SaluteOra\Models\Report;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 399f46d3 (.)
+namespace Modules\SaluteMo\Filament\Resources;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+use Modules\SaluteOra\Models\Report;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+use Modules\<nome progetto>\Models\Report;
+use Modules\<nome modulo>\Models\Report;
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+<<<<<<< HEAD
+use Modules\SaluteOra\Models\Report;
+<<<<<<< HEAD
+>>>>>>> e0b8ebe3 (.)
+=======
+=======
+use Modules\<nome progetto>\Models\Report;
+use Modules\<nome modulo>\Models\Report;
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+namespace Modules\SaluteMo\Filament\Resources;
+
+use Modules\SaluteMo\Filament\Resources\ReportResource\Pages;
+<<<<<<< HEAD
+use Modules\SaluteOra\Models\Report;
+<<<<<<< HEAD
+>>>>>>> e0b8ebe3 (.)
+=======
+=======
+use Modules\<nome progetto>\Models\Report;
+use Modules\<nome modulo>\Models\Report;
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Filament\Forms;
 
@@ -352,3 +1052,51 @@ Prima di considerare completa una risorsa Filament, verificare:
 - `EditAppointment.php` - Estende `XotBaseEditRecord`
 
 *Ultimo aggiornamento: gennaio 2025 - Correzioni per campi reali e rimozione label hardcoded*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

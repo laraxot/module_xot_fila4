@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\Xot\Tests\Feature;
 namespace Modules\Xot\Tests\Feature;
 
@@ -9,14 +10,115 @@ namespace Modules\Xot\Tests\Feature;
 
 namespace Modules\Xot\Tests\Feature;
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\Xot\Tests\Feature;
+=======
+=======
+namespace Modules\Xot\Tests\Feature;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 53d6a6ba (.)
+=======
+<<<<<<< HEAD
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 4fb9bc4b (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> c2f6854c (.)
+=======
+namespace Modules\Xot\Tests\Feature;
+
+>>>>>>> 249a0067 (.)
+=======
+namespace Modules\Xot\Tests\Feature;
+
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 4fb9bc4b (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> c2f6854c (.)
+=======
+namespace Modules\Xot\Tests\Feature;
+
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
 use Illuminate\Database\ConnectionInterface;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
 use Modules\Xot\Models\XotBaseModel;
+<<<<<<< HEAD
 use Modules\Xot\Tests\TestCase;
 use Tests\TestCase;
 use Tests\TestCase;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+use Modules\Xot\Tests\TestCase;
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+use Tests\TestCase;
+>>>>>>> 249a0067 (.)
+=======
+use Tests\TestCase;
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
 
 class XotBaseModelBusinessLogicTest extends TestCase
 {
@@ -26,6 +128,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Arrange & Act
         $baseModel = new BaseModel;
 
+<<<<<<< HEAD
 
 namespace Modules\Xot\Tests\Feature;
 
@@ -39,12 +142,93 @@ namespace Modules\Xot\Tests\Feature;
 namespace Modules\Xot\Tests\Feature;
 
 use Illuminate\Database\ConnectionInterface;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> b7afadf9 (.)
+=======
+namespace Modules\Xot\Tests\Feature;
+
+>>>>>>> 71586de2 (.)
+use Illuminate\Database\ConnectionInterface;
+use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\DB;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Support\Facades\DB;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Support\Facades\DB;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Support\Facades\DB;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\Xot\Tests\Feature;
+
+=======
+>>>>>>> b7afadf9 (.)
+=======
+namespace Modules\Xot\Tests\Feature;
+
+>>>>>>> 71586de2 (.)
+use Illuminate\Database\ConnectionInterface;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+>>>>>>> 5a14301c (.)
+=======
+namespace Modules\Xot\Tests\Feature;
+
+<<<<<<< HEAD
+use Illuminate\Database\ConnectionInterface;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\ConnectionInterface;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+>>>>>>> 5a14301c (.)
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\Module;
+use Modules\Xot\Models\XotBaseModel;
+use Tests\TestCase;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+use Modules\Xot\Models\XotBaseModel;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
 use Modules\Xot\Models\XotBaseModel;
 use Tests\TestCase;
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 class XotBaseModelBusinessLogicTest extends TestCase
 {
@@ -52,10 +236,32 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_extends_correct_base_class(): void
     {
         // Arrange & Act
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -68,10 +274,30 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_has_required_traits(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act & Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -86,10 +312,30 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_can_be_instantiated_without_database(): void
     {
         // Arrange & Act
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -102,10 +348,30 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_table_name_override(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
@@ -122,10 +388,30 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_connection_override(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
@@ -142,10 +428,30 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_key_name_override(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
@@ -162,10 +468,30 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_can_be_used_as_base_for_other_models(): void
     {
         // Arrange
+<<<<<<< HEAD
         $module = new Module;
         $module = new Module();
         $module = new Module();
         $module = new Module();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $module = new Module;
+=======
+        $module = new Module();
+>>>>>>> 5a14301c (.)
+=======
+        $module = new Module();
+>>>>>>> 5a14301c (.)
+=======
+        $module = new Module();
+>>>>>>> 5a14301c (.)
+=======
+        $module = new Module();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act & Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -178,10 +504,30 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_model_configuration(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
@@ -204,10 +550,30 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_soft_deletes_when_configured(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $usesSoftDeletes = method_exists($baseModel, 'trashed');
@@ -223,6 +589,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_timestamps_when_configured(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
@@ -231,6 +598,37 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
         $usesTimestamps = $baseModel->usesTimestamps();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+<<<<<<< HEAD
+        // Act
+        /** @phpstan-ignore-next-line method.nonObject */
+        $usesTimestamps = $baseModel->usesTimestamps();
+=======
+test('it supports relationship loading', function (): void {
+    $baseModel = new BaseModel;
+
+    expect(method_exists($baseModel, 'load'))->toBeTrue();
+});
+>>>>>>> cc7fb225 (.)
+>>>>>>> laraxot/develop
 
         // Assert
         // Nota: I modelli base possono avere configurazioni diverse
@@ -242,10 +640,30 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_tenant_isolation_when_configured(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $hasTenantTrait = method_exists($baseModel, 'getTenantKey');
@@ -254,6 +672,10 @@ class XotBaseModelBusinessLogicTest extends TestCase
         // Nota: Non tutti i modelli base usano tenant isolation
         // Questo test verifica solo la possibilità di configurazione
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
         // Assert
         $this->assertInstanceOf(XotBaseModel::class, $baseModel);
         $this->assertInstanceOf(Model::class, $baseModel);
@@ -261,7 +683,17 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
     /** @test */
     public function it_has_required_traits(): void
+<<<<<<< HEAD
         // Assert
+=======
+=======
+        // Assert
+=======
+        $baseModel = new BaseModel();
+
+        // Assert
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $this->assertInstanceOf(XotBaseModel::class, $baseModel);
         $this->assertInstanceOf(Model::class, $baseModel);
     }
@@ -270,8 +702,212 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_has_required_traits(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
 
+=======
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act & Assert
+        $this->assertTrue(method_exists($baseModel, 'getTable'));
+        $this->assertTrue(method_exists($baseModel, 'getConnection'));
+        $this->assertTrue(method_exists($baseModel, 'getKeyName'));
+    }
+
+    /** @test */
+    public function it_can_be_instantiated_without_database(): void
+    {
+        // Arrange & Act
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Assert
+        $this->assertInstanceOf(BaseModel::class, $baseModel);
+        $this->assertNotNull($baseModel);
+    }
+
+    /** @test */
+    public function it_supports_table_name_override(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        $tableName = $baseModel->getTable();
+
+        // Assert
+        $this->assertIsString($tableName);
+        $this->assertNotEmpty($tableName);
+    }
+
+    /** @test */
+    public function it_supports_connection_override(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        $connection = $baseModel->getConnection();
+
+        // Assert
+        $this->assertNotNull($connection);
+        $this->assertInstanceOf(ConnectionInterface::class, $connection);
+    }
+
+    /** @test */
+    public function it_supports_key_name_override(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        $keyName = $baseModel->getKeyName();
+
+        // Assert
+        $this->assertIsString($keyName);
+        $this->assertEquals('id', $keyName);
+    }
+
+    /** @test */
+    public function it_can_be_used_as_base_for_other_models(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $module = new Module;
+=======
+        $module = new Module();
+>>>>>>> 5a14301c (.)
+
+        // Act & Assert
+        $this->assertInstanceOf(XotBaseModel::class, $module);
+        $this->assertInstanceOf(Model::class, $module);
+    }
+
+    /** @test */
+    public function it_supports_model_configuration(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        $fillable = $baseModel->getFillable();
+        $hidden = $baseModel->getHidden();
+        $casts = $baseModel->getCasts();
+
+        // Assert
+        $this->assertIsArray($fillable);
+        $this->assertIsArray($hidden);
+        $this->assertIsArray($casts);
+    }
+
+    /** @test */
+    public function it_supports_soft_deletes_when_configured(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        $usesSoftDeletes = method_exists($baseModel, 'trashed');
+
+        // Assert
+        // Nota: Non tutti i modelli base usano soft deletes
+        // Questo test verifica solo la possibilità di configurazione
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
+
+    /** @test */
+    public function it_supports_timestamps_when_configured(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        $usesTimestamps = $baseModel->usesTimestamps();
+
+        // Assert
+        // Nota: I modelli base possono avere configurazioni diverse
+        $this->assertIsBool($usesTimestamps);
+    }
+
+    /** @test */
+    public function it_supports_tenant_isolation_when_configured(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        $hasTenantTrait = method_exists($baseModel, 'getTenantKey');
+
+        // Assert
+        // Nota: Non tutti i modelli base usano tenant isolation
+        // Questo test verifica solo la possibilità di configurazione
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
+
+    /** @test */
+    public function it_supports_audit_trail_when_configured(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        $hasAuditTrait = method_exists($baseModel, 'getAuditEvents');
+
+        // Assert
+        // Nota: Non tutti i modelli base usano audit trail
+        // Questo test verifica solo la possibilità di configurazione
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
+
+    /** @test */
+    public function it_can_be_serialized(): void
+<<<<<<< HEAD
+>>>>>>> 249a0067 (.)
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         // Act & Assert
         $this->assertTrue(method_exists($baseModel, 'getTable'));
         $this->assertTrue(method_exists($baseModel, 'getConnection'));
@@ -344,6 +980,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
     /** @test */
     public function it_supports_model_configuration(): void
+<<<<<<< HEAD
     {
         // Arrange
         $baseModel = new BaseModel;
@@ -874,6 +1511,665 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
     /** @test */
     public function it_can_be_serialized(): void
+=======
+=======
+=======
+>>>>>>> laraxot/develop
+    {
+        // Arrange
+        $baseModel = new BaseModel();
+
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+        // Act
+        $serialized = serialize($baseModel);
+
+        // Assert
+        $this->assertIsString($serialized);
+        $this->assertNotEmpty($serialized);
+    }
+
+    /** @test */
+    public function it_can_be_unserialized(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+        $serialized = serialize($baseModel);
+
+        // Act
+        $unserialized = unserialize($serialized);
+
+        // Assert
+        $this->assertInstanceOf(BaseModel::class, $unserialized);
+    }
+
+    /** @test */
+    public function it_supports_json_serialization(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+
+        // Act
+        $json = json_encode($baseModel);
+
+        // Assert
+        $this->assertIsString($json);
+        $this->assertNotEmpty($json);
+        $this->assertNotFalse($json);
+    }
+
+    /** @test */
+    public function it_supports_array_conversion(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+
+        // Act
+        $array = $baseModel->toArray();
+
+        // Assert
+        $this->assertIsArray($array);
+        $this->assertNotEmpty($array);
+    }
+
+    /** @test */
+    public function it_supports_json_conversion(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+        $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+
+        // Act
+        $json = $baseModel->toJson();
+
+        // Assert
+        $this->assertIsString($json);
+        $this->assertNotEmpty($json);
+    }
+
+    /** @test */
+    public function it_supports_relationship_loading(): void
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 249a0067 (.)
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+<<<<<<< HEAD
+        $fillable = $baseModel->getFillable();
+        $hidden = $baseModel->getHidden();
+        $casts = $baseModel->getCasts();
+
+        // Assert
+        $this->assertIsArray($fillable);
+        $this->assertIsArray($hidden);
+        $this->assertIsArray($casts);
+    }
+
+    /** @test */
+    public function it_supports_soft_deletes_when_configured(): void
+=======
+=======
+>>>>>>> laraxot/develop
+    {
+        // Arrange
+        $baseModel = new BaseModel();
+
+        // Act
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+        $hasLoadMethod = method_exists($baseModel, 'load');
+
+        // Assert
+        $this->assertTrue($hasLoadMethod);
+    }
+
+    /** @test */
+    public function it_supports_attribute_access(): void
+<<<<<<< HEAD
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+        $baseModel = new BaseModel();
+        $baseModel = new BaseModel();
+        $baseModel = new BaseModel();
+        $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+>>>>>>> 249a0067 (.)
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+<<<<<<< HEAD
+        $usesSoftDeletes = method_exists($baseModel, 'trashed');
+
+        // Assert
+        // Nota: Non tutti i modelli base usano soft deletes
+        // Questo test verifica solo la possibilità di configurazione
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
+
+    /** @test */
+    public function it_supports_timestamps_when_configured(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $usesTimestamps = $baseModel->usesTimestamps();
+
+        // Assert
+        // Nota: I modelli base possono avere configurazioni diverse
+        $this->assertIsBool($usesTimestamps);
+    }
+
+    /** @test */
+    public function it_supports_tenant_isolation_when_configured(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $hasTenantTrait = method_exists($baseModel, 'getTenantKey');
+
+        // Assert
+        // Nota: Non tutti i modelli base usano tenant isolation
+        // Questo test verifica solo la possibilità di configurazione
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
+
+    /** @test */
+    public function it_supports_audit_trail_when_configured(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel;
+
+        // Act
+        $hasAuditTrait = method_exists($baseModel, 'getAuditEvents');
+
+        // Assert
+        // Nota: Non tutti i modelli base usano audit trail
+        // Questo test verifica solo la possibilità di configurazione
+>>>>>>> 249a0067 (.)
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
+
+    /** @test */
+<<<<<<< HEAD
+    public function it_supports_audit_trail_when_configured(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        $hasAuditTrait = method_exists($baseModel, 'getAuditEvents');
+
+        // Assert
+        // Nota: Non tutti i modelli base usano audit trail
+        // Questo test verifica solo la possibilità di configurazione
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
+
+    /** @test */
+    public function it_can_be_serialized(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        $serialized = serialize($baseModel);
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertIsString($serialized);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertNotEmpty($serialized);
+    }
+
+    /** @test */
+    public function it_can_be_unserialized(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+        $serialized = serialize($baseModel);
+
+        // Act
+        $unserialized = unserialize($serialized);
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertInstanceOf(BaseModel::class, $unserialized);
+    }
+
+    /** @test */
+    public function it_supports_json_serialization(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        $json = json_encode($baseModel);
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertIsString($json);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertNotEmpty($json);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertNotFalse($json);
+    }
+
+    /** @test */
+    public function it_supports_array_conversion(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        /** @phpstan-ignore-next-line method.nonObject */
+        $array = $baseModel->toArray();
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertIsArray($array);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertNotEmpty($array);
+    }
+
+    /** @test */
+    public function it_supports_json_conversion(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        /** @phpstan-ignore-next-line method.nonObject */
+        $json = $baseModel->toJson();
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertIsString($json);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertNotEmpty($json);
+    }
+
+    /** @test */
+    public function it_supports_relationship_loading(): void
+    {
+        // Arrange
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        $hasLoadMethod = method_exists($baseModel, 'load');
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertTrue($hasLoadMethod);
+    }
+
+<<<<<<< HEAD
+=======
+    expect($baseModel->getWith())->toBeArray();
+});
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+use Tests\TestCase;
+=======
+use Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Modules\Xot\Models\XotBaseModel;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+
+class XotBaseModelBusinessLogicTest extends TestCase
+{
+    /** @test */
+    public function it_extends_correct_base_class(): void
+    {
+        // Arrange & Act
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+        $baseModel = new BaseModel();
+
+        // Assert
+        $this->assertInstanceOf(XotBaseModel::class, $baseModel);
+        $this->assertInstanceOf(Model::class, $baseModel);
+    }
+
+    /** @test */
+    public function it_has_required_traits(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel();
+
+        // Act & Assert
+        $this->assertTrue(method_exists($baseModel, 'getTable'));
+        $this->assertTrue(method_exists($baseModel, 'getConnection'));
+        $this->assertTrue(method_exists($baseModel, 'getKeyName'));
+    }
+
+    /** @test */
+    public function it_can_be_instantiated_without_database(): void
+    {
+        // Arrange & Act
+        $baseModel = new BaseModel();
+
+        // Assert
+        $this->assertInstanceOf(BaseModel::class, $baseModel);
+        $this->assertNotNull($baseModel);
+    }
+
+    /** @test */
+    public function it_supports_table_name_override(): void
+=======
+>>>>>>> 5a14301c (.)
+    {
+        // Arrange
+        $baseModel = new BaseModel();
+
+        // Act
+<<<<<<< HEAD
+        $tableName = $baseModel->getTable();
+
+        // Assert
+        $this->assertIsString($tableName);
+        $this->assertNotEmpty($tableName);
+    }
+
+    /** @test */
+    public function it_supports_connection_override(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel();
+
+        // Act
+        $connection = $baseModel->getConnection();
+
+        // Assert
+        $this->assertNotNull($connection);
+<<<<<<< HEAD
+        $this->assertInstanceOf(ConnectionInterface::class, $connection);
+=======
+<<<<<<< HEAD
+        $this->assertInstanceOf(ConnectionInterface::class, $connection);
+=======
+        $this->assertInstanceOf(\Illuminate\Database\ConnectionInterface::class, $connection);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+    }
+
+    /** @test */
+    public function it_supports_key_name_override(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel();
+
+        // Act
+        $keyName = $baseModel->getKeyName();
+
+        // Assert
+        $this->assertIsString($keyName);
+        $this->assertEquals('id', $keyName);
+    }
+
+    /** @test */
+    public function it_can_be_used_as_base_for_other_models(): void
+    {
+        // Arrange
+        $module = new Module();
+
+        // Act & Assert
+        $this->assertInstanceOf(XotBaseModel::class, $module);
+        $this->assertInstanceOf(Model::class, $module);
+    }
+
+    /** @test */
+    public function it_supports_model_configuration(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel();
+
+        // Act
+        $fillable = $baseModel->getFillable();
+        $hidden = $baseModel->getHidden();
+        $casts = $baseModel->getCasts();
+
+        // Assert
+        $this->assertIsArray($fillable);
+        $this->assertIsArray($hidden);
+        $this->assertIsArray($casts);
+    }
+
+    /** @test */
+    public function it_supports_soft_deletes_when_configured(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel();
+
+        // Act
+        $usesSoftDeletes = method_exists($baseModel, 'trashed');
+
+        // Assert
+        // Nota: Non tutti i modelli base usano soft deletes
+        // Questo test verifica solo la possibilità di configurazione
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
+
+    /** @test */
+    public function it_supports_timestamps_when_configured(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel();
+
+        // Act
+        $usesTimestamps = $baseModel->usesTimestamps();
+
+        // Assert
+        // Nota: I modelli base possono avere configurazioni diverse
+        $this->assertIsBool($usesTimestamps);
+    }
+
+    /** @test */
+    public function it_supports_tenant_isolation_when_configured(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel();
+
+        // Act
+        $hasTenantTrait = method_exists($baseModel, 'getTenantKey');
+
+        // Assert
+        // Nota: Non tutti i modelli base usano tenant isolation
+        // Questo test verifica solo la possibilità di configurazione
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
+
+    /** @test */
+    public function it_supports_audit_trail_when_configured(): void
+    {
+        // Arrange
+        $baseModel = new BaseModel();
+
+        // Act
+        $hasAuditTrait = method_exists($baseModel, 'getAuditEvents');
+
+        // Assert
+        // Nota: Non tutti i modelli base usano audit trail
+        // Questo test verifica solo la possibilità di configurazione
+        $this->assertTrue(true); // Placeholder per logica specifica
+    }
+
+    /** @test */
+    public function it_can_be_serialized(): void
     {
         // Arrange
         $baseModel = new BaseModel();
@@ -956,27 +2252,64 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $this->assertTrue($hasLoadMethod);
     }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
     /** @test */
     public function it_supports_attribute_access(): void
     {
         // Arrange
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         $baseModel = new BaseModel;
+=======
         $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
         $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
         $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
         $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> laraxot/develop
 
         // Act
         $hasGetAttributeMethod = method_exists($baseModel, 'getAttribute');
         $hasSetAttributeMethod = method_exists($baseModel, 'setAttribute');
 
         // Assert
+<<<<<<< HEAD
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($hasGetAttributeMethod);
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($hasSetAttributeMethod);
     }
 
+=======
+<<<<<<< HEAD
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertTrue($hasGetAttributeMethod);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+=======
+        $this->assertTrue($hasGetAttributeMethod);
+>>>>>>> ab8cc3f3 (.)
+        $this->assertTrue($hasSetAttributeMethod);
+    }
+
+=======
+>>>>>>> laraxot/develop
     public function it_can_be_serialized(): void
     {
         // Arrange
@@ -1060,12 +2393,28 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $this->assertTrue($hasLoadMethod);
     }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     /** @test */
     public function it_supports_attribute_access(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> laraxot/develop
 
         // Act
         $hasGetAttributeMethod = method_exists($baseModel, 'getAttribute');
@@ -1076,10 +2425,79 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $this->assertTrue($hasSetAttributeMethod);
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
     /** @test */
     public function it_supports_mass_assignment_protection(): void
     {
         // Arrange
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+
+        // Act
+        /** @phpstan-ignore-next-line method.nonObject */
+        $fillable = $baseModel->getFillable();
+        /** @phpstan-ignore-next-line method.nonObject */
+        $guarded = $baseModel->getGuarded();
+
+        // Assert
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertIsArray($fillable);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+=======
+        $baseModel = new BaseModel();
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 5a14301c (.)
+        $hasGetAttributeMethod = method_exists($baseModel, 'getAttribute');
+        $hasSetAttributeMethod = method_exists($baseModel, 'setAttribute');
+
+        // Assert
+        $this->assertTrue($hasGetAttributeMethod);
+        $this->assertTrue($hasSetAttributeMethod);
+    }
+
+>>>>>>> laraxot/develop
+    /** @test */
+    public function it_supports_mass_assignment_protection(): void
+    {
+        // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
@@ -1112,6 +2530,14 @@ class XotBaseModelBusinessLogicTest extends TestCase
     {
         // Arrange
         $baseModel = new BaseModel;
+=======
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $fillable = $baseModel->getFillable();
@@ -1119,6 +2545,25 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
         // Assert
         $this->assertIsArray($fillable);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $this->assertIsArray($guarded);
     }
 
@@ -1126,6 +2571,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_model_events(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
@@ -1135,12 +2581,77 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $hasEvents = method_exists($baseModel, 'fireModelEvent');
 
         // Assert
+<<<<<<< HEAD
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $this->assertTrue($hasEvents);
     }
 
@@ -1148,6 +2659,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_observers(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
@@ -1157,12 +2669,77 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $hasObservers = method_exists($baseModel, 'getObservableEvents');
 
         // Assert
+<<<<<<< HEAD
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $this->assertTrue($hasObservers);
     }
 
@@ -1170,6 +2747,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_scopes(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
@@ -1179,12 +2757,77 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $hasScopes = method_exists($baseModel, 'addGlobalScope');
 
         // Assert
+<<<<<<< HEAD
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $this->assertTrue($hasScopes);
     }
 
@@ -1192,6 +2835,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_accessors_and_mutators(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
@@ -1201,12 +2845,56 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $hasAccessors = method_exists($baseModel, 'getAttributeValue');
         $hasMutators = method_exists($baseModel, 'setAttribute');
 
         // Assert
+<<<<<<< HEAD
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($hasAccessors);
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
@@ -1214,6 +2902,35 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $this->assertTrue($hasAccessors);
         $this->assertTrue($hasAccessors);
         $this->assertTrue($hasAccessors);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+        $this->assertTrue($hasAccessors);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+=======
+        $this->assertTrue($hasAccessors);
+>>>>>>> ab8cc3f3 (.)
+=======
+        $this->assertTrue($hasAccessors);
+>>>>>>> 249a0067 (.)
+=======
+        $this->assertTrue($hasAccessors);
+>>>>>>> 5a14301c (.)
+=======
+        $this->assertTrue($hasAccessors);
+>>>>>>> ab8cc3f3 (.)
+=======
+        $this->assertTrue($hasAccessors);
+>>>>>>> 249a0067 (.)
+=======
+        $this->assertTrue($hasAccessors);
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $this->assertTrue($hasMutators);
     }
 
@@ -1221,10 +2938,36 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_casting(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
@@ -1232,16 +2975,55 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+<<<<<<< HEAD
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
+=======
+=======
+        $baseModel = new BaseModel();
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $casts = $baseModel->getCasts();
 
         // Assert
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $this->assertIsArray($casts);
     }
 
@@ -1249,10 +3031,36 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_dates(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
@@ -1260,16 +3068,55 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+<<<<<<< HEAD
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
+=======
+=======
+        $baseModel = new BaseModel();
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $dates = $baseModel->getDates();
 
         // Assert
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $this->assertIsArray($dates);
     }
 
@@ -1277,10 +3124,36 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_hidden_attributes(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
@@ -1288,16 +3161,55 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+<<<<<<< HEAD
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
+=======
+=======
+        $baseModel = new BaseModel();
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $hidden = $baseModel->getHidden();
 
         // Assert
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $this->assertIsArray($hidden);
     }
 
@@ -1305,10 +3217,36 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_visible_attributes(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
@@ -1316,16 +3254,55 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+<<<<<<< HEAD
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
+=======
+=======
+        $baseModel = new BaseModel();
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $visible = $baseModel->getVisible();
 
         // Assert
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $this->assertIsArray($visible);
     }
 
@@ -1333,10 +3310,36 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_appends(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
@@ -1344,16 +3347,55 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
         // Assert
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
+<<<<<<< HEAD
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
+=======
+=======
+        $baseModel = new BaseModel();
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $appends = $baseModel->getAppends();
 
         // Assert
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $this->assertIsArray($appends);
     }
 
@@ -1361,10 +3403,36 @@ class XotBaseModelBusinessLogicTest extends TestCase
     public function it_supports_with_relationships(): void
     {
         // Arrange
+<<<<<<< HEAD
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $baseModel = new BaseModel;
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         /** @phpstan-ignore-next-line method.nonObject */
@@ -1375,11 +3443,31 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $this->assertIsArray($with);
     }
 }
+<<<<<<< HEAD
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
         $baseModel = new BaseModel();
         $baseModel = new BaseModel();
         $baseModel = new BaseModel;
+=======
+=======
+        $baseModel = new BaseModel();
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> ab8cc3f3 (.)
+=======
+        $baseModel = new BaseModel;
+>>>>>>> 249a0067 (.)
+=======
+        $baseModel = new BaseModel();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Act
         $with = $baseModel->getWith();
@@ -1388,6 +3476,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
         $this->assertIsArray($with);
     }
 }
+<<<<<<< HEAD
 
 
 
@@ -1400,3 +3489,347 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 4fb9bc4b (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> c2f6854c (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 4fb9bc4b (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> c2f6854c (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

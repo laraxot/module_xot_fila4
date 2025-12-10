@@ -81,7 +81,11 @@ actionlint -color
 
 ## CI Recommendations
 - Jobs:
+<<<<<<< HEAD
   - phpstan (level 9), psalm (informational), pint test, cs-fixer dry-run, phpmd report, phpqa report, actionlint.
+=======
+  - phpstan (level 10), psalm (informational), pint test, cs-fixer dry-run, phpmd report, phpqa report, actionlint.
+>>>>>>> laraxot/develop
 - Artifacts: store reports in CI artifacts, not in `docs/`.
 - Gates: start as advisory; enforce gradually per module after manual review.
 

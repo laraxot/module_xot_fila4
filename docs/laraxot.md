@@ -1,3 +1,47 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 # Laravel XOT Architecture Documentation
 
 ## Overview
@@ -1403,6 +1447,7 @@ class MyAction extends XotBaseAction
 
 ### 1. Form Base
 ```php
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 public static function form(Form $form): Form
 public static function form(Form $form): Form
@@ -1422,6 +1467,93 @@ public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> c35986f4 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> c35986f4 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> ab8cc3f3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5bd842e3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 03ceeac3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> c35986f4 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> ab8cc3f3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5bd842e3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 03ceeac3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 {
     return $form->schema([
         // Utilizzare helper Xot
@@ -1801,6 +1933,30 @@ class ListSocialProviders extends XotBaseListRecords
 
 #### 1. Dichiarazione Duplicata del Metodo execute()
 L'errore `Cannot redeclare [Class]::execute()` si verifica quando:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 
 #### 2. Dichiarazione Duplicata del Metodo getResource() in XotBaseListRecords
 L'errore `Cannot redeclare Modules\Xot\Filament\Resources\Pages\XotBaseListRecords::getResource()` si verifica quando il metodo `getResource()` è dichiarato due volte nella stessa classe.
@@ -1813,6 +1969,51 @@ Vedi [xotbaselistrecords-getresource-duplicate-fix.md](./filament/xotbaselistrec
 
 #### 1. Dichiarazione Duplicata del Metodo execute()
 L'errore `Cannot redeclare [Class]::execute()` si verifica quando:
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 - Si sta implementando un'interfaccia che definisce `execute()`
 - Si sta estendendo una classe base che già definisce `execute()`
 - Si sta usando un trait che contiene `execute()`
@@ -2325,6 +2526,7 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 1. Tutti i riferimenti ai moduli devono partire da `laravel/Modules/`
 2. I temi si trovano in `laravel/Themes/`
 3. Gli assets pubblici vanno in `public_html/`
+<<<<<<< HEAD
 4. La documentazione va in `/docs/`
 4. La documentazione va in `/docs/`
 4. La documentazione va in `/project_docs/`
@@ -2374,6 +2576,292 @@ F:\var\www\fixcity\Modules\Fixcity\     # ❌ ERRATO: manca laravel\
 4. La documentazione va in `/docs/`
 4. La documentazione va in `/project_docs/`
 4. La documentazione va in `/docs/`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+4. La documentazione va in `/docs/`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 21348520 (.)
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 6dcebf8a (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> b3cc10f7 (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> cafe8bed (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 5bd842e3 (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 5cd593a5 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 03ceeac3 (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 3baa48bd (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 5b07d268 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 5a14301c (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 3fbbf1f5 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 71f31700 (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 3310e9c6 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 6dcebf8a (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> b3cc10f7 (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> cafe8bed (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 5bd842e3 (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 5cd593a5 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 03ceeac3 (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 3baa48bd (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 5b07d268 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 5a14301c (.)
+=======
+4. La documentazione va in `/docs/`
+=======
+4. La documentazione va in `/project_docs/`
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 3fbbf1f5 (.)
+=======
+4. La documentazione va in `/docs/`
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 # Gestione Temi e Assets
 
@@ -3023,6 +3511,7 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
    - Mostrare feedback appropriati
    - Gestire stati loading
 
+<<<<<<< HEAD
 # Filament 3 Forms e Componenti
 # Filament 4 Forms e Componenti
 # Filament 3 Forms e Componenti
@@ -3065,6 +3554,180 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 # Filament 4 Forms e Componenti
 # Filament 4 Forms e Componenti
 # Filament 3 Forms e Componenti
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Filament 3 Forms e Componenti
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> 71f31700 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 5a14301c (.)
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> 71f31700 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> c35986f4 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 5a14301c (.)
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> 71f31700 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 5a14301c (.)
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> 71f31700 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> c35986f4 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> ab8cc3f3 (.)
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> 5bd842e3 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> 03ceeac3 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 5a14301c (.)
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> 71f31700 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> c35986f4 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> ab8cc3f3 (.)
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> 5bd842e3 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> 03ceeac3 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 5a14301c (.)
+=======
+# Filament 4 Forms e Componenti
+>>>>>>> 71f31700 (.)
+=======
+# Filament 4 Forms e Componenti
+=======
+# Filament 3 Forms e Componenti
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## Componenti Forms vs UI
 
@@ -3150,6 +3813,7 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
    </x-filament::button>
    ```
 
+<<<<<<< HEAD
 # Filament 3 Plugins e Notifiche
 # Filament 4 Plugins e Notifiche
 # Filament 3 Plugins e Notifiche
@@ -3192,6 +3856,180 @@ Theme::view('pub_theme::components.header') // Risolve views del tema pubblico
 # Filament 4 Plugins e Notifiche
 # Filament 4 Plugins e Notifiche
 # Filament 3 Plugins e Notifiche
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Filament 3 Plugins e Notifiche
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> 71f31700 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 5a14301c (.)
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> 71f31700 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> c35986f4 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 5a14301c (.)
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> 71f31700 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 5a14301c (.)
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> 71f31700 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> c35986f4 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> ab8cc3f3 (.)
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> 5bd842e3 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> 03ceeac3 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 5a14301c (.)
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> 71f31700 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> c35986f4 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> ab8cc3f3 (.)
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> 5bd842e3 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> 03ceeac3 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 5a14301c (.)
+=======
+# Filament 4 Plugins e Notifiche
+>>>>>>> 71f31700 (.)
+=======
+# Filament 4 Plugins e Notifiche
+=======
+# Filament 3 Plugins e Notifiche
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## 1. Installazione Pacchetti Necessari
 ```bash
@@ -3695,6 +4533,7 @@ $remember = $data['remember'] ?? false;
    }
    ```
 
+<<<<<<< HEAD
 # Setup Assets Filament 3
 # Setup Assets Filament 4
 # Setup Assets Filament 3
@@ -3737,6 +4576,180 @@ $remember = $data['remember'] ?? false;
 # Setup Assets Filament 4
 # Setup Assets Filament 4
 # Setup Assets Filament 3
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Setup Assets Filament 3
+=======
+# Setup Assets Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> c35986f4 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> c35986f4 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> ab8cc3f3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 5bd842e3 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 03ceeac3 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> c35986f4 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> ab8cc3f3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 5bd842e3 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 03ceeac3 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## 1. Installazione Pacchetti NPM
 
@@ -5725,6 +6738,7 @@ class CustomAction
    }
    ```
 
+<<<<<<< HEAD
 # Notifiche in Filament 3
 # Notifiche in Filament 4
 # Notifiche in Filament 3
@@ -5767,23 +6781,442 @@ class CustomAction
 # Notifiche in Filament 4
 # Notifiche in Filament 4
 # Notifiche in Filament 3
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Notifiche in Filament 3
+=======
+# Notifiche in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Notifiche in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Notifiche in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Notifiche in Filament 4
+>>>>>>> c35986f4 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Notifiche in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Notifiche in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Notifiche in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Notifiche in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Notifiche in Filament 4
+>>>>>>> c35986f4 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Notifiche in Filament 3
+>>>>>>> ab8cc3f3 (.)
+=======
+# Notifiche in Filament 4
+>>>>>>> 5bd842e3 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Notifiche in Filament 4
+>>>>>>> 03ceeac3 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Notifiche in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Notifiche in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Notifiche in Filament 4
+>>>>>>> c35986f4 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Notifiche in Filament 3
+>>>>>>> ab8cc3f3 (.)
+=======
+# Notifiche in Filament 4
+>>>>>>> 5bd842e3 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Notifiche in Filament 4
+>>>>>>> 03ceeac3 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Notifiche in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Notifiche in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Notifiche in Filament 4
+=======
+# Notifiche in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## Differenze con Filament 2
 
 ### ❌ Filament 2 (Vecchio Modo)
 ```php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 $this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
 ```
 
 ### ✅ Filament 3 (Modo Corretto)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 $this->notify('success', 'Messaggio');  // Non funziona più in Filament 4
 ```
 
 ### ✅ Filament 4 (Modo Corretto)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> laraxot/develop
 $this->notify('success', 'Messaggio');  // Non funziona più in Filament 3
 ```
 
 ### ✅ Filament 3 (Modo Corretto)
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 ```php
 use Filament\Notifications\Notification;
 
@@ -6489,6 +7922,7 @@ $remember = $data['remember'] ?? false;
    }
    ```
 
+<<<<<<< HEAD
 # Setup Assets Filament 3
 # Setup Assets Filament 4
 # Setup Assets Filament 3
@@ -6531,6 +7965,180 @@ $remember = $data['remember'] ?? false;
 # Setup Assets Filament 4
 # Setup Assets Filament 4
 # Setup Assets Filament 3
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Setup Assets Filament 3
+=======
+# Setup Assets Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> c35986f4 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> c35986f4 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> ab8cc3f3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 5bd842e3 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 03ceeac3 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> c35986f4 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> ab8cc3f3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 5bd842e3 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 03ceeac3 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Setup Assets Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Setup Assets Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Setup Assets Filament 4
+=======
+# Setup Assets Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## 1. Installazione Pacchetti NPM
 
@@ -8681,6 +10289,7 @@ public static function table(Table $table): Table
 2. **Dettaglio Completo**
 Le informazioni aggiuntive devono essere mostrate solo nella vista dettaglio:
 ```php
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 public static function form(Form $form): Form
 public static function form(Form $form): Form
@@ -8700,6 +10309,93 @@ public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> c35986f4 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> c35986f4 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> ab8cc3f3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5bd842e3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 03ceeac3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> c35986f4 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> ab8cc3f3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5bd842e3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 03ceeac3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 5a14301c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 {
     return $form
         ->schema([
@@ -8800,6 +10496,7 @@ Framework based on Laravel for building modular applications.
 ## Notes
 *This file will be updated as more technical information is gathered*
 
+<<<<<<< HEAD
 # Widget Configuration in Filament 3
 # Widget Configuration in Filament 4
 # Widget Configuration in Filament 3
@@ -8842,6 +10539,180 @@ Framework based on Laravel for building modular applications.
 # Widget Configuration in Filament 4
 # Widget Configuration in Filament 4
 # Widget Configuration in Filament 3
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Widget Configuration in Filament 3
+=======
+# Widget Configuration in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Widget Configuration in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Widget Configuration in Filament 4
+>>>>>>> c35986f4 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Widget Configuration in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Widget Configuration in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Widget Configuration in Filament 4
+>>>>>>> c35986f4 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Widget Configuration in Filament 3
+>>>>>>> ab8cc3f3 (.)
+=======
+# Widget Configuration in Filament 4
+>>>>>>> 5bd842e3 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Widget Configuration in Filament 4
+>>>>>>> 03ceeac3 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Widget Configuration in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Widget Configuration in Filament 4
+>>>>>>> c35986f4 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Widget Configuration in Filament 3
+>>>>>>> ab8cc3f3 (.)
+=======
+# Widget Configuration in Filament 4
+>>>>>>> 5bd842e3 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Widget Configuration in Filament 4
+>>>>>>> 03ceeac3 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+# Widget Configuration in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+# Widget Configuration in Filament 4
+=======
+# Widget Configuration in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## Implementazione Corretta dei Widget
 
@@ -8934,6 +10805,7 @@ class ClientMapWidget extends Widget
    - Soluzione: Aggiungere controllo `instanceof` e PHPDoc
 
 ### Note Importanti
+<<<<<<< HEAD
 1. La configurazione dei widget è stata semplificata in Filament 3
 1. La configurazione dei widget è stata semplificata in Filament 4
 1. La configurazione dei widget è stata semplificata in Filament 3
@@ -8976,12 +10848,187 @@ class ClientMapWidget extends Widget
 1. La configurazione dei widget è stata semplificata in Filament 4
 1. La configurazione dei widget è stata semplificata in Filament 4
 1. La configurazione dei widget è stata semplificata in Filament 3
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+1. La configurazione dei widget è stata semplificata in Filament 3
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> c35986f4 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> c35986f4 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> ab8cc3f3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> 5bd842e3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> 03ceeac3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> c35986f4 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> ab8cc3f3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> 5bd842e3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> 03ceeac3 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 5a14301c (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+>>>>>>> 71f31700 (.)
+=======
+1. La configurazione dei widget è stata semplificata in Filament 4
+=======
+1. La configurazione dei widget è stata semplificata in Filament 3
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 2. Non è più necessario utilizzare `WidgetConfiguration::make()`
 3. I dati vengono gestiti direttamente nel widget tramite `getViewData()`
 4. Il componente Livewire padre è accessibile tramite `getLivewire()`
 5. È importante implementare controlli di tipo per evitare errori
 ```
 
+<<<<<<< HEAD
 # Configurazione Widget in Filament 3 (Laravel 11+)
 # Configurazione Widget in Filament 4 (Laravel 11+)
 # Configurazione Widget in Filament 3 (Laravel 11+)
@@ -9024,6 +11071,180 @@ class ClientMapWidget extends Widget
 # Configurazione Widget in Filament 4 (Laravel 11+)
 # Configurazione Widget in Filament 4 (Laravel 11+)
 # Configurazione Widget in Filament 3 (Laravel 11+)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Configurazione Widget in Filament 3 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> 71f31700 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 5a14301c (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> 71f31700 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> c35986f4 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 5a14301c (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> 71f31700 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 5a14301c (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> 71f31700 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> c35986f4 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> ab8cc3f3 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> 5bd842e3 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> 03ceeac3 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 5a14301c (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> 71f31700 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> c35986f4 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> ab8cc3f3 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> 5bd842e3 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> 03ceeac3 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 5a14301c (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+>>>>>>> 71f31700 (.)
+=======
+# Configurazione Widget in Filament 4 (Laravel 11+)
+=======
+# Configurazione Widget in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## Implementazione Widget
 
@@ -9129,6 +11350,7 @@ class ClientMapWidget extends Widget
 
 ## Note sulla Migrazione
 
+<<<<<<< HEAD
 1. **Breaking Changes in Filament 3**
 1. **Breaking Changes in Filament 4**
 1. **Breaking Changes in Filament 3**
@@ -9171,6 +11393,180 @@ class ClientMapWidget extends Widget
 1. **Breaking Changes in Filament 4**
 1. **Breaking Changes in Filament 4**
 1. **Breaking Changes in Filament 3**
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+1. **Breaking Changes in Filament 3**
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> 71f31700 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 5a14301c (.)
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> 71f31700 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> c35986f4 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 5a14301c (.)
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> 71f31700 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 5a14301c (.)
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> 71f31700 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> c35986f4 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> ab8cc3f3 (.)
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> 5bd842e3 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> 03ceeac3 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 5a14301c (.)
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> 71f31700 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> c35986f4 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> ab8cc3f3 (.)
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> 5bd842e3 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> 03ceeac3 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 5a14301c (.)
+=======
+1. **Breaking Changes in Filament 4**
+>>>>>>> 71f31700 (.)
+=======
+1. **Breaking Changes in Filament 4**
+=======
+1. **Breaking Changes in Filament 3**
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
    - Rimossa la classe `WidgetConfiguration`
    - Semplificata la registrazione dei widget
    - Migliorato il sistema di type hinting
@@ -9188,6 +11584,7 @@ class ClientMapWidget extends Widget
    - Testare la funzionalità dopo la migrazione
 ```
 
+<<<<<<< HEAD
 # Widget Reattivi in Filament 3 (Laravel 11+)
 # Widget Reattivi in Filament 4 (Laravel 11+)
 # Widget Reattivi in Filament 3 (Laravel 11+)
@@ -9230,6 +11627,180 @@ class ClientMapWidget extends Widget
 # Widget Reattivi in Filament 4 (Laravel 11+)
 # Widget Reattivi in Filament 4 (Laravel 11+)
 # Widget Reattivi in Filament 3 (Laravel 11+)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Widget Reattivi in Filament 3 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> 71f31700 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 5a14301c (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> 71f31700 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> c35986f4 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 5a14301c (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> 71f31700 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 5a14301c (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> 71f31700 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> c35986f4 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> ab8cc3f3 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> 5bd842e3 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> 03ceeac3 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 5a14301c (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> 71f31700 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> c35986f4 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> ab8cc3f3 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> 5bd842e3 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> 03ceeac3 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 5a14301c (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+>>>>>>> 71f31700 (.)
+=======
+# Widget Reattivi in Filament 4 (Laravel 11+)
+=======
+# Widget Reattivi in Filament 3 (Laravel 11+)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## Implementazione Widget
 
@@ -9347,3 +11918,84 @@ class ClientMapWidget extends Widget
 4. Gestire i casi di errore in modo graceful
 5. La reattività funziona automaticamente con Livewire 3
   - Contact section
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 # Regole di Namespace 
 
 ## Struttura dei Namespace
@@ -15,10 +57,453 @@ Nonostante le classi possano risiedere fisicamente nella sottodirectory `app/` d
 ## Esempi Corretti
 
 ```php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 // File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
 // File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+// File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Dental/app/Services/AppointmentService.php
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 5a14301c (.)
+// File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Dental/app/Services/AppointmentService.php
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+// File in: /var/www/html/<nome progetto>/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/<nome progetto>/laravel/Modules/Dental/app/Services/AppointmentService.php
+// File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+// File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
+namespace Modules\Patient\Models;
+
+// File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 namespace Modules\Dental\Services;
 ```
 
@@ -82,9 +567,69 @@ Se si verificano errori "Class not found" o problemi di autoloading:
 
 ## Collegamenti Correlati
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 - [Convenzioni](../../../docs/conventions.md)
 - [Naming Conventions](../../../docs/naming-conventions.md)
 - [Documentazione Xot](../CODE-STANDARDS.md)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
+<<<<<<< HEAD
 
 Ultima modifica: 31/03/2025 
+=======
+=======
+- [Convenzioni](../../../project_docs/conventions.md)
+- [Naming Conventions](../../../project_docs/naming-conventions.md)
+- [Documentazione Xot](../CODE-STANDARDS.md)
+- [Collegamenti Documentazione](../../../../project_docs/collegamenti-documentazione.md)
+>>>>>>> 6cba4fe (.)
+
+Ultima modifica: 31/03/2025 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

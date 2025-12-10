@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 # Migrations - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTA la documentazione migrazioni del progetto
@@ -18,7 +60,15 @@ Questo documento sostituisce e consolida **26+ file migrazioni duplicati** trova
 - Qualsiasi documentazione migrazioni specifica di modulo
 
 ### ✅ Unica Fonte di Verità
+<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
+=======
+<<<<<<< HEAD
+- **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 - **File migrazione**: Solo nei singoli moduli (codice, non docs)
 
 ## Principi Fondamentali Universali
@@ -379,12 +429,341 @@ $table->foreign('user_id')->references('id')->on('users')
 - **Relazioni**: User, Notifiable polymorphic
 - **Campi specifici**: `type`, `data`, `read_at`
 
+<<<<<<< HEAD
 ### <nome modulo> Module
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### <nome modulo> Module
+=======
+### SaluteMo Module
+>>>>>>> 5a14301c (.)
+=======
+### SaluteMo Module
+>>>>>>> 71f31700 (.)
+=======
+### SaluteMo Module
+>>>>>>> 5a14301c (.)
+=======
+### SaluteMo Module
+>>>>>>> 71f31700 (.)
+=======
+### SaluteMo Module
+>>>>>>> c35986f4 (.)
+=======
+### SaluteMo Module
+>>>>>>> 5a14301c (.)
+=======
+### SaluteMo Module
+>>>>>>> 71f31700 (.)
+=======
+### SaluteMo Module
+>>>>>>> 5a14301c (.)
+=======
+### SaluteMo Module
+>>>>>>> 71f31700 (.)
+=======
+### SaluteMo Module
+>>>>>>> c35986f4 (.)
+=======
+### SaluteMo Module
+>>>>>>> 33af3e61 (.)
+=======
+### SaluteMo Module
+>>>>>>> 5bd842e3 (.)
+=======
+### SaluteMo Module
+>>>>>>> 03ceeac3 (.)
+=======
+### SaluteMo Module
+>>>>>>> 5a14301c (.)
+=======
+### SaluteMo Module
+>>>>>>> 71f31700 (.)
+=======
+### SaluteMo Module
+>>>>>>> c35986f4 (.)
+=======
+### SaluteMo Module
+>>>>>>> 33af3e61 (.)
+=======
+### SaluteMo Module
+>>>>>>> 5bd842e3 (.)
+=======
+### SaluteMo Module
+>>>>>>> 03ceeac3 (.)
+=======
+### SaluteMo Module
+>>>>>>> 5a14301c (.)
+=======
+### SaluteMo Module
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 - **Tabelle**: `appointments`, `patients`, `doctors`
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
+<<<<<<< HEAD
 ### <nome progetto> Module (CRITICO)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### <nome progetto> Module (CRITICO)
+=======
+###  Module (CRITICO)
+### SaluteOra Module (CRITICO)
+>>>>>>> 5a14301c (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 71f31700 (.)
+=======
+### SaluteOra Module (CRITICO)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 472bd9dc (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 472bd9dc (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 3bf39332 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> cf971011 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> e7da37af (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 472bd9dc (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 3bf39332 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> cf971011 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> e7da37af (.)
+=======
+###  Module (CRITICO)
+### <nome progetto> Module (CRITICO)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 43d67f21 (.)
+=======
+###  Module (CRITICO)
+### SaluteOra Module (CRITICO)
+>>>>>>> 5a14301c (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 43d67f21 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> b7ea1cd1 (.)
+=======
+###  Module (CRITICO)
+### SaluteOra Module (CRITICO)
+>>>>>>> 5a14301c (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 43d67f21 (.)
+=======
+###  Module (CRITICO)
+### SaluteOra Module (CRITICO)
+>>>>>>> 5a14301c (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 43d67f21 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> b7ea1cd1 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 76bec91a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 55fe1822 (.)
+=======
+###  Module (CRITICO)
+### SaluteOra Module (CRITICO)
+>>>>>>> 5a14301c (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 43d67f21 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> b7ea1cd1 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 76bec91a (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 55fe1822 (.)
+=======
+###  Module (CRITICO)
+### SaluteOra Module (CRITICO)
+>>>>>>> 5a14301c (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`
@@ -416,6 +795,10 @@ Tutti questi file sono DUPLICATI e vanno eliminati:
 
 ```bash
 # Activity
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 rm Modules/Activity/docs/database/migrations.md
 
 # Cms
@@ -441,14 +824,326 @@ rm Modules/Notify/docs/migration_rules.md
 rm Modules/Notify/docs/migrations.md
 rm Modules/Notify/docs/migrations_changelog.md
 
+<<<<<<< HEAD
 # <nome modulo>
 rm Modules/<nome modulo>/docs/database/migrations.md
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# <nome modulo>
+rm Modules/<nome modulo>/docs/database/migrations.md
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+rm Modules/Activity/project_docs/database/migrations.md
+
+# Cms
+rm Modules/Cms/project_docs/migration.md
+
+# Gdpr
+rm Modules/Gdpr/project_docs/migrations.md
+
+# Geo
+rm Modules/Geo/project_docs/migration-guide.md
+rm Modules/Geo/project_docs/migration-naming-pattern.md
+rm Modules/Geo/project_docs/migration_guide.md
+rm Modules/Geo/project_docs/migration_naming_pattern.md
+
+# Lang
+rm Modules/Lang/project_docs/migration_best_practices.md
+rm Modules/Lang/project_docs/migration_corrections_summary.md
+rm Modules/Lang/project_docs/migration_patterns.md
+
+# Notify
+rm Modules/Notify/project_docs/migration_changes.md
+rm Modules/Notify/project_docs/migration_rules.md
+rm Modules/Notify/project_docs/migrations.md
+rm Modules/Notify/project_docs/migrations_changelog.md
+
+# SaluteMo
+rm Modules/SaluteMo/project_docs/database/migrations.md
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 5a14301c (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 5a14301c (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 5a14301c (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> ba1d49f3 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 4fb9bc4b (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> c2f6854c (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 5a14301c (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> ba1d49f3 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 4fb9bc4b (.)
+=======
+>>>>>>> 3eee6f79 (.)
+=======
+>>>>>>> c2f6854c (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 5a14301c (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 # E tutti gli altri file duplicati...
 ```
 
 ### Mantenere Solo
+<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
+=======
+<<<<<<< HEAD
+- **Questo file**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 - **File migrazione**: Solo codice nei singoli moduli
 
 ## Troubleshooting Universale
@@ -474,3 +1169,51 @@ rm Modules/<nome modulo>/docs/database/migrations.md
 **Aggiornato**: 2025-08-07  
 **Categoria**: database  
 **Priorità**: CRITICA
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

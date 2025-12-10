@@ -1,5 +1,50 @@
+<<<<<<< HEAD
 # Testing Best Practices - Laraxot Framework
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+# Testing Best Practices - Laraxot Framework
+
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 ## 🏆 **Gold Standard Pattern**
 
 Basato sui successi misurabili dei test RegisterTypeWidgetTest.php (9/9 test passati) e RegisterTypeTest.php (10/14 test passati).
@@ -20,17 +65,434 @@ use Modules\{Module}\Filament\Widgets\{WidgetName};
 uses(\Modules\Xot\Tests\TestCase::class);
 
 // ✅ CRITICO: Mock XotData per ogni test
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+=======
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> 88e35986 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+=======
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+## 🏆 Gold Standard per i Test
+
+- Preferire Pest a PHPUnit class-based.
+- Usare `uses(\Modules\Xot\Tests\TestCase::class)` come base dei test.
+- Mockare sempre `XotData` in `beforeEach()` e registrarlo nel container.
+- Separare Page tests (routing/render) e Widget tests (logica Filament/Livewire).
+
+### Esempio Widget (Livewire/Filament)
+```php
+<?php
+declare(strict_types=1);
+
+use Livewire\\Livewire;
+use Modules\\{Module}\\Filament\\Widgets\\{WidgetName};
+
+uses(\\Modules\\Xot\\Tests\\TestCase::class);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> ba1d49f3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> ba1d49f3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 beforeEach(function (): void {
     mockXotData();
 });
 
+<<<<<<< HEAD
 // ✅ CRITICO: Test diretti senza describe() o dataset()
+=======
+<<<<<<< HEAD
+// ✅ CRITICO: Test diretti senza describe() o dataset()
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 test('widget can be rendered', function () {
     Livewire::test({WidgetName}::class)
         ->assertStatus(200);
 });
 ```
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 ### XotData Mock Pattern (Obbligatorio)
 
 ```php
@@ -39,7 +501,237 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
+<<<<<<< HEAD
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 71f31700 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 43d67f21 (.)
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 71f31700 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 43d67f21 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> c35986f4 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> b7ea1cd1 (.)
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 71f31700 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 43d67f21 (.)
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 71f31700 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 43d67f21 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> c35986f4 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> b7ea1cd1 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 33af3e61 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5bd842e3 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 76bec91a (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 03ceeac3 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 55fe1822 (.)
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 71f31700 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 43d67f21 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> c35986f4 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> b7ea1cd1 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 33af3e61 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5bd842e3 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 76bec91a (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 03ceeac3 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 55fe1822 (.)
+=======
+        ->andReturn(\Modules\<nome progetto>\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -213,4 +905,630 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Status**: ✅ Best Practices Validate  
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
+<<<<<<< HEAD
 **Last Update**: Dicembre 2024 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc52d333 (.)
+=======
+=======
+>>>>>>> e7da37af (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 472bd9dc (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+=======
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+=======
+>>>>>>> cc52d333 (.)
+=======
+=======
+>>>>>>> e7da37af (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 399f46d3 (.)
+### Esempio unit test semplice
+```php
+<?php
+declare(strict_types=1);
+
+use Illuminate\\Database\\Eloquent\\Relations\\Pivot;
+use Modules\\Xot\\Models\\BaseMorphPivot;
+
+it('extends pivot class', function () {
+    $pivot = new BaseMorphPivot();
+    expect($pivot)->toBeInstanceOf(Pivot::class);
+});
+```
+
+### Mock XotData (obbligatorio)
+```php
+function mockXotData(): void
+{
+    $mock = \\Mockery::mock(\\Modules\\Xot\\Datas\\XotData::class)->makePartial();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> d86d643a (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 5a14301c (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 399f46d3 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> d86d643a (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 17684f52 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> 472bd9dc (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 5a14301c (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 399f46d3 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> d86d643a (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 5a14301c (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 399f46d3 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> d86d643a (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 17684f52 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> 472bd9dc (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 88e35986 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> 3bf39332 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> e0b8ebe3 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> cf971011 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> cc52d333 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> e7da37af (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 5a14301c (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 399f46d3 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> d86d643a (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 17684f52 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> 472bd9dc (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 88e35986 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> 3bf39332 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> e0b8ebe3 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> cf971011 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> cc52d333 (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\<nome progetto>\\Models\\User::class);
+>>>>>>> e7da37af (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 5a14301c (.)
+=======
+    $mock->shouldReceive('getUserClass')->andReturn(\\Modules\\SaluteOra\\Models\\User::class);
+>>>>>>> 399f46d3 (.)
+    $mock->shouldReceive('make')->andReturn($mock);
+    app()->instance(\\Modules\\Xot\\Datas\\XotData::class, $mock);
+}
+```
+
+## 🚨 Regole Architetturali
+
+- Page vs Widget: non mischiare responsabilità nei test.
+- Base TestCase: usare sempre `\\Modules\\Xot\\Tests\\TestCase`.
+- Mock coerente delle dipendenze (XotData, servizi esterni).
+
+## ❌ Anti-pattern da evitare
+
+- TestCase errato (es. `Tests\\\\TestCase`).
+- Dataset eccessivamente complessi e non necessari.
+- Mock senza `makePartial()` o non registrati nel container.
+
+## 📊 Strategia Coverage
+
+- Widget: rendering (200), interazioni form, validazioni, integrazioni (XotData), lifecycle.
+- Page: route/status, contenuto, middleware, elementi UI principali.
+
+## 🔧 Workflow
+
+- Pre: definire architettura e template, predisporre mock.
+- Durante: TDD dove possibile, esecuzioni frequenti, attenzione alle performance.
+- Post: code review, aggiornamento documentazione, benchmark suite.
+
+## 🔗 Documentazione correlata
+
+- Widget Test Patterns (Cms)
+- Architecture Separation Rules (Cms)
+- XotData Testing Strategy (XOTDATA_TESTING.md)
+
+Status: Best Practices consolidate — Last Update: Dicembre 2024
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> ba1d49f3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> ba1d49f3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

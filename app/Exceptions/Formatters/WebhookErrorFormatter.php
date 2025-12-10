@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Exceptions\Formatters;
 
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Auth;
 use Throwable;
 use Throwable;
@@ -22,11 +23,158 @@ use Throwable;
 use Illuminate\Support\Facades\Auth;
 
 use function Safe\json_encode;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 249a0067 (.)
+use Illuminate\Support\Facades\Auth;
+use Throwable;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Throwable;
+=======
+<<<<<<< HEAD
+use Throwable;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+use Illuminate\Support\Facades\Auth;
+>>>>>>> 5a14301c (.)
+=======
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+>>>>>>> 5a14301c (.)
+=======
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+>>>>>>> 5a14301c (.)
+=======
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+
+use function Safe\json_encode;
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+
+use function Safe\json_encode;
+=======
+>>>>>>> 71586de2 (.)
+=======
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> b7afadf9 (.)
+
+use function Safe\json_encode;
+=======
+>>>>>>> 71586de2 (.)
+=======
+use Throwable;
+use Illuminate\Support\Facades\Auth;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
 class WebhookErrorFormatter
 {
     public function __construct(
+<<<<<<< HEAD
         private Throwable $exception,
+=======
+<<<<<<< HEAD
+        private Throwable $exception,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        private Throwable $exception,
+=======
+        private Throwable $exception
+>>>>>>> a12f125f4a (.)
+=======
+        private Throwable $exception,
+>>>>>>> b93ef594b4 (.)
+=======
+        private \Throwable $exception
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     ) {}
 
     /**
@@ -42,6 +190,15 @@ class WebhookErrorFormatter
             'file' => $this->exception->getFile(),
             'line' => $this->exception->getLine(),
             'trace' => $this->exception->getTraceAsString(),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             'exception' => sprintf('`%s` (Code `%s`)', get_class($this->exception), $this->exception->getCode()),
             'thrown_in' => sprintf('`%s`:%d', $this->exception->getFile(), $this->exception->getLine()),
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
@@ -55,6 +212,65 @@ class WebhookErrorFormatter
              * $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
              * ),
              */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+            'exception' => sprintf(
+                '`%s` (Code `%s`)',
+                get_class($this->exception),
+                $this->exception->getCode()
+            ),
+            'thrown_in' => sprintf(
+                '`%s`:%d',
+                $this->exception->getFile(),
+                $this->exception->getLine()
+            ),
+<<<<<<< HEAD
+=======
+            'exception' => sprintf('`%s` (Code `%s`)', get_class($this->exception), $this->exception->getCode()),
+            'thrown_in' => sprintf('`%s`:%d', $this->exception->getFile(), $this->exception->getLine()),
+>>>>>>> b93ef594b4 (.)
+            'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
+            'ip' => request()->ip(),
+            'thrown_while_calling' => sprintf('[%s] %s', request()->getMethod(), request()->fullUrl()),
+            'url_previous' => url()->previous(),
+            /*
+<<<<<<< HEAD
+=======
+            'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
+            'ip' => request()->ip(),
+            'thrown_while_calling' => sprintf(
+                '[%s] %s',
+                request()->getMethod(),
+                request()->fullUrl()
+            ),
+            'url_previous' => url()->previous(),
+            /*
+>>>>>>> origin/develop
+            'exception_details' => sprintf(
+                "Trace:\n```json \n %s \n ```\n\n Previous: \n `%s`",
+                json_encode($this->exception->getTrace(), JSON_PRETTY_PRINT),
+                $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
+            ),
+            */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+             * 'exception_details' => sprintf(
+             * "Trace:\n```json \n %s \n ```\n\n Previous: \n `%s`",
+             * json_encode($this->exception->getTrace(), JSON_PRETTY_PRINT),
+             * $this->exception->getPrevious() ? ('`' . get_class($this->exception->getPrevious()) . '`') : 'None'
+             * ),
+             */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         ];
     }
 }

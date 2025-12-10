@@ -4,11 +4,111 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+<<<<<<< HEAD
 use Filament\Forms\Form;
 use Filament\Forms\Form;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+use Filament\Forms\Form;
+use Filament\Forms\Form;
+=======
+=======
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> a5dccfe (.)
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 43d67f21 (.)
+>>>>>>> laraxot/develop
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -18,6 +118,7 @@ use Filament\Forms\Contracts\HasForms;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
+<<<<<<< HEAD
 use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Model;
@@ -27,6 +128,110 @@ use Filament\Schemas\Schema;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Widgets\Widget as FilamentWidget;
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Arr;
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+>>>>>>> c06600c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> laraxot/develop
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -39,6 +244,7 @@ use Filament\Schemas\Schema;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
+<<<<<<< HEAD
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
@@ -46,6 +252,74 @@ use Filament\Schemas\Components\Component;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+use Filament\Schemas\Components\Component;
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+=======
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -57,6 +331,7 @@ use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
@@ -65,6 +340,50 @@ use Filament\Schemas\Components\Component;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
+=======
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+use Filament\Schemas\Components\Component;
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+=======
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -76,6 +395,7 @@ use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
@@ -84,6 +404,44 @@ use Filament\Schemas\Components\Component;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
+=======
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+use Filament\Schemas\Components\Component;
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+=======
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -95,6 +453,7 @@ use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
@@ -103,6 +462,56 @@ use Filament\Schemas\Components\Component;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
+=======
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+use Filament\Schemas\Components\Component;
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+=======
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -114,14 +523,125 @@ use Filament\Schemas\Components\Wizard\Step;
 use Filament\Schemas\Schema;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\Widget as FilamentWidget;
 use Illuminate\Contracts\Support\Htmlable;
+=======
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+use Filament\Schemas\Components\Component;
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Illuminate\Contracts\Support\Htmlable;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Schema;
+use Exception;
+use Filament\Schemas\Components\Wizard\Step;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Contracts\Support\Htmlable;
+=======
+>>>>>>> 634583fb55 (.)
+use Filament\Schemas\Components\Component;
+>>>>>>> b93ef594b4 (.)
+use Filament\Schemas\Schema;
+use Exception;
+use Filament\Schemas\Components\Wizard\Step;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+use Filament\Actions\Action;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
+use Filament\Forms;
+<<<<<<< HEAD
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+=======
+<<<<<<< HEAD
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+=======
+use Filament\Forms\ComponentContainer;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Forms\Form as FilamentForm;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+use Filament\Widgets\Concerns\InteractsWithPageFilters;
+use Filament\Widgets\Widget as FilamentWidget;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
@@ -130,14 +650,284 @@ use Webmozart\Assert\Assert;
  * Classe base astratta per tutti i widget Filament.
  * Fornisce funzionalità comuni e standardizzate per la gestione dei widget.
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> laraxot/develop
  * @property bool $shouldRender Indica se il widget deve essere renderizzato
  * @property string $title Titolo del widget
  * @property string $icon Icona del widget
  * @property array<string, mixed>|null $data Dati del form
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  * @property bool                      $shouldRender Indica se il widget deve essere renderizzato
  * @property string                    $title        Titolo del widget
  * @property string                    $icon         Icona del widget
  * @property array<string, mixed>|null $data         Dati del form
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> laraxot/develop
  * @property Schema $form
  */
 abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
@@ -152,10 +942,148 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     public string $title = '';
 
     public string $icon = '';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> laraxot/develop
  * @property bool                      $shouldRender Indica se il widget deve essere renderizzato
  * @property string                    $title        Titolo del widget
  * @property string                    $icon         Icona del widget
  * @property array<string, mixed>|null $data         Dati del form
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+>>>>>>> laraxot/develop
+ * @property Schema $form
+ */
+abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
+{
+    use InteractsWithActions;
+
+    // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
+    // use InteractsWithPageTable;
+    use InteractsWithForms;
+    use TransTrait;
+
+    public string $title = '';
+
+    public string $icon = '';
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+    protected int|string|array $columnSpan = 'full';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+
+>>>>>>> 43d67f21 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+
+>>>>>>> 43d67f21 (.)
+    protected int|string|array $columnSpan = 'full';
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+>>>>>>> laraxot/develop
  * @property Schema $form
  */
 abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
@@ -171,14 +1099,22 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     public string $icon = '';
 
-
-
-
-
-
-
-
     protected int|string|array $columnSpan = 'full';
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
  * @property Schema $form
  */
 abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
@@ -195,6 +1131,21 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     public string $icon = '';
 
     protected int|string|array $columnSpan = 'full';
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
  * @property Schema $form
  */
 abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
@@ -211,6 +1162,21 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     public string $icon = '';
 
     protected int|string|array $columnSpan = 'full';
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
  * @property Schema $form
  */
 abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
@@ -227,22 +1193,64 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     public string $icon = '';
 
     protected int|string|array $columnSpan = 'full';
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
  * @property Schema $form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ * @property Schema $form
+=======
+ * @property \Filament\Schemas\Schema $form
+>>>>>>> a12f125f4a (.)
+=======
+ * @property Schema $form
+>>>>>>> b93ef594b4 (.)
+=======
+ * @property ComponentContainer        $form
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
  */
-abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasForms
+abstract class XotBaseWidget extends FilamentWidget implements HasForms, HasActions
 {
-    use InteractsWithActions;
-
+    use TransTrait;
+<<<<<<< HEAD
     // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
+=======
+    use InteractsWithPageFilters;
+>>>>>>> a12f125f4a (.)
+=======
+    // use InteractsWithPageFilters; // Rimosso per evitare conflitto con InteractsWithForms in Filament v4
+>>>>>>> b93ef594b4 (.)
+=======
+    use InteractsWithPageFilters;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     // use InteractsWithPageTable;
     use InteractsWithForms;
-    use TransTrait;
+    use InteractsWithActions;
 
     public string $title = '';
-
     public string $icon = '';
-
     protected int|string|array $columnSpan = 'full';
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Lista degli eventi ascoltati dal widget.
@@ -250,7 +1258,27 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
      * @var array<string, string>
      */
     public array $listener = [
+<<<<<<< HEAD
         // 'filters-updated' => 'filtersUpdated', // Rimosso per compatibilità Filament v4
+=======
+<<<<<<< HEAD
+        // 'filters-updated' => 'filtersUpdated', // Rimosso per compatibilità Filament v4
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        // 'filters-updated' => 'filtersUpdated', // Rimosso per compatibilità Filament v4
+=======
+        'filters-updated' => 'filtersUpdated',
+>>>>>>> a12f125f4a (.)
+=======
+        // 'filters-updated' => 'filtersUpdated', // Rimosso per compatibilità Filament v4
+>>>>>>> b93ef594b4 (.)
+=======
+        'filters-updated' => 'filtersUpdated',
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     ];
 
     /**
@@ -258,6 +1286,112 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
      *
      * @var array<string, mixed>
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> laraxot/develop
     public ?array $data = [];
 
     /**
@@ -267,6 +1401,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     protected string $view = 'xot::filament.widgets.base';
 
     protected int|string|array $columnSpan = 'full';
+<<<<<<< HEAD
     public null|array $data = [];
     public ?array $data = [];
     public null|array $data = [];
@@ -285,6 +1420,162 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     public null|array $data = [];
     public ?array $data = [];
     public ?array $data = [];
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+    public null|array $data = [];
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+    public ?array $data = [];
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+    public null|array $data = [];
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+    public ?array $data = [];
+>>>>>>> 43d67f21 (.)
+=======
+    public null|array $data = [];
+>>>>>>> 5a14301c (.)
+=======
+    public ?array $data = [];
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    public null|array $data = [];
+>>>>>>> 0e51323 (.)
+=======
+    public null|array $data = [];
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+    public ?array $data = [];
+>>>>>>> 43d67f21 (.)
+=======
+    public null|array $data = [];
+>>>>>>> 5a14301c (.)
+=======
+    public ?array $data = [];
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    public ?array $data = [];
+>>>>>>> 43d67f21 (.)
+=======
+    public null|array $data = [];
+>>>>>>> 5a14301c (.)
+=======
+    public ?array $data = [];
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    public ?array $data = [];
+>>>>>>> 43d67f21 (.)
+=======
+    public null|array $data = [];
+>>>>>>> 5a14301c (.)
+=======
+    public ?array $data = [];
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    public ?array $data = [];
+>>>>>>> 43d67f21 (.)
+=======
+    public null|array $data = [];
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /*
      * public function __construct()
@@ -302,17 +1593,94 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
      * $this->form->fill();
      * }
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    public ?array $data = [];
+=======
+    public null|array $data = [];
+>>>>>>> b93ef594b4 (.)
+
+    /*
+     * public function __construct()
+     * {
+     * //parent::__construct();//Cannot call constructor
+     * $view = app(GetViewByClassAction::class)->execute(static::class);
+     * if(view()->exists($view)){
+     * $this->view = $view;
+     * }
+     * }
+     */
+    /*
+<<<<<<< HEAD
+=======
+    public ?array $data = [];
+
+    /*
+    public function __construct()
+    {
+        //parent::__construct();//Cannot call constructor
+        $view = app(GetViewByClassAction::class)->execute(static::class);
+        if(view()->exists($view)){
+            $this->view = $view;
+        }
+    }
+    */
+    /*
+>>>>>>> origin/develop
+    public function mount(): void
+    {
+        $this->form->fill();
+    }
+    */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+     * public function mount(): void
+     * {
+     * $this->form->fill();
+     * }
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     /**
      * Ottiene lo schema del form.
      * Deve essere implementato nelle classi figlie.
      *
+<<<<<<< HEAD
      * @return array<int|string, Component>
+=======
+<<<<<<< HEAD
+     * @return array<int|string, Component>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<int|string, Component>
+=======
+     * @return array<int|string, \Filament\Schemas\Components\Component>
+>>>>>>> a12f125f4a (.)
+=======
+     * @return array<int|string, Component>
+>>>>>>> b93ef594b4 (.)
+=======
+     * @return array<int|string, Forms\Components\Component>
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
      */
     abstract public function getFormSchema(): array;
 
     /**
      * Configura il form del widget.
      *
+<<<<<<< HEAD
      * @param  Schema  $schema  Il form da configurare
      * @param Schema $schema Il form da configurare
      *
@@ -321,59 +1689,367 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     public function form(Form $form): Form
      * @param Schema $schema Il form da configurare
      *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  Schema  $schema  Il form da configurare
+=======
+=======
+>>>>>>> 399f46d3 (.)
+     * @param Schema $schema Il form da configurare
+     *
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+     * @return Form Il form configurato
+     */
+    public function form(Form $form): Form
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+     * @param Schema $schema Il form da configurare
+     *
+>>>>>>> 3fbbf1f5 (.)
+=======
+     * @param  Schema  $schema  Il form da configurare
+>>>>>>> ca9324a4 (.)
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> laraxot/develop
      * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
+<<<<<<< HEAD
      * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
      * @param Schema $schema Il form da configurare
      *
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+     * @param Schema $schema Il form da configurare
+     *
+=======
+     * @param  Schema  $schema  Il form da configurare
+>>>>>>> ca9324a4 (.)
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> laraxot/develop
      * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
+<<<<<<< HEAD
      * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
      * @param Schema $schema Il form da configurare
      *
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+     * @param Schema $schema Il form da configurare
+     *
+=======
+     * @param  Schema  $schema  Il form da configurare
+>>>>>>> ca9324a4 (.)
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> laraxot/develop
      * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
+<<<<<<< HEAD
      * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
      * @param Schema $schema Il form da configurare
      *
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+     * @param Schema $schema Il form da configurare
+     *
+=======
+     * @param  Schema  $schema  Il form da configurare
+>>>>>>> ca9324a4 (.)
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> laraxot/develop
      * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
+<<<<<<< HEAD
      * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
      * @param Schema $schema Il form da configurare
      *
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+     * @param Schema $schema Il form da configurare
+     *
+=======
+     * @param  Schema  $schema  Il form da configurare
+>>>>>>> ca9324a4 (.)
+     * @return Schema Il form configurato
+     */
+    public function form(Schema $schema): Schema
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> laraxot/develop
      * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
+<<<<<<< HEAD
      * @param  Schema  $schema  Il form da configurare
      * @return Schema Il form configurato
      */
     public function form(Schema $schema): Schema
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+     * @param Schema $schema Il form da configurare
+     *
+     * @return Schema Il form configurato
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param Schema $schema Il form da configurare
+     *
+     * @return Schema Il form configurato
+=======
+     * @param \Filament\Schemas\Schema $schema Il form da configurare
+     *
+     * @return \Filament\Schemas\Schema Il form configurato
+>>>>>>> a12f125f4a (.)
+=======
+     * @param Schema $schema Il form da configurare
+     *
+     * @return Schema Il form configurato
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+     */
+    public function form(Schema $schema): Schema
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     {
         $schema = $schema->components($this->getFormSchema());
         $schema->statePath('data');
         $data = $this->getFormFill();
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $model = $this->getFormModel();
         if ($model !== null) {
             // Ensure model is compatible with Schema::model()
@@ -387,8 +2063,102 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 $schema->model($model);
             }
         }
+<<<<<<< HEAD
         if (! empty($data)) {
         if (!empty($data)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! empty($data)) {
+=======
+        if (!empty($data)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+        if (!empty($data)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+=======
+        $schema->model($this->getFormModel());
+        if (! empty($data)) {
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> laraxot/develop
      * @param FilamentForm $form Il form da configurare
      *
      * @return FilamentForm Il form configurato
@@ -401,6 +2171,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
         $form->model($this->getFormModel());
         if (! empty($data)) {
+<<<<<<< HEAD
         if (! empty($data)) {
         if (!empty($data)) {
         if (!empty($data)) {
@@ -449,16 +2220,283 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         if (! empty($data)) {
         if (!empty($data)) {
         if (! empty($data)) {
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        if (! empty($data)) {
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        if (!empty($data)) {
+>>>>>>> 0e51323 (.)
+=======
+        if (!empty($data)) {
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 43d67f21 (.)
+=======
+        if (! empty($data)) {
+=======
+        if (!empty($data)) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 5842a556 (.)
+=======
+        if (!empty($data)) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        $schema->model($this->getFormModel());
+        if (! empty($data)) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (! empty($data)) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 43d67f21 (.)
+=======
+        if (! empty($data)) {
+=======
+        if (!empty($data)) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 5842a556 (.)
+=======
+        if (! empty($data)) {
+=======
+        if (!empty($data)) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 16dc7ab0 (.)
+=======
+        if (!empty($data)) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (! empty($data)) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 43d67f21 (.)
+=======
+        if (! empty($data)) {
+=======
+        if (!empty($data)) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 5842a556 (.)
+=======
+        if (!empty($data)) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (! empty($data)) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 43d67f21 (.)
+=======
+        if (! empty($data)) {
+=======
+        if (!empty($data)) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 5842a556 (.)
+=======
+        if (! empty($data)) {
+=======
+        if (!empty($data)) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 16dc7ab0 (.)
+=======
+        if (! empty($data)) {
+=======
+        if (!empty($data)) {
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
+=======
+        if (! empty($data)) {
+>>>>>>> f0e04b64 (.)
+=======
+        if (!empty($data)) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (! empty($data)) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 43d67f21 (.)
+=======
+        if (! empty($data)) {
+=======
+        if (!empty($data)) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 5842a556 (.)
+=======
+        if (! empty($data)) {
+=======
+        if (!empty($data)) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+        if (! empty($data)) {
+>>>>>>> 16dc7ab0 (.)
+=======
+        if (! empty($data)) {
+=======
+        if (!empty($data)) {
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
+=======
+        if (! empty($data)) {
+>>>>>>> f0e04b64 (.)
+=======
+        if (!empty($data)) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
             // $form->fill($data);
             // $this->data=$data;
         }
 
+<<<<<<< HEAD
         return $schema;
+=======
+<<<<<<< HEAD
+        return $schema;
+=======
+<<<<<<< HEAD
+        return $schema;
+=======
+        return $form;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 
     public function getFormFill(): array
     {
         $model = $this->getFormModel();
+<<<<<<< HEAD
         if ($model === null) {
         if (null === $model) {
         if (null === $model) {
@@ -531,6 +2569,374 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         if ($model === null) {
         if (null === $model) {
         if ($model === null) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if ($model === null) {
+=======
+        if (null === $model) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $model) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+        if (null === $model) {
+=======
+        if (null === $model) {
+>>>>>>> 399f46d3 (.)
+=======
+        if (null === $model) {
+>>>>>>> 399f46d3 (.)
+=======
+        if (null === $model) {
+>>>>>>> 399f46d3 (.)
+=======
+        if (null === $model) {
+>>>>>>> 399f46d3 (.)
+=======
+        if (null === $model) {
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (null === $model) {
+=======
+        if (null == $model) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (null === $model) {
+>>>>>>> b93ef594b4 (.)
+=======
+        if (null == $model) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        if ($model === null) {
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        if (null === $model) {
+>>>>>>> 0e51323 (.)
+=======
+        if (null === $model) {
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+        if ($model === null) {
+>>>>>>> 43d67f21 (.)
+=======
+        if ($model === null) {
+=======
+        if (null === $model) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        if ($model === null) {
+>>>>>>> 5842a556 (.)
+=======
+        if (null === $model) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+        if (null === $model) {
+=======
+        if (null == $model) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+        if (null === $model) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        if (null === $model) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if ($model === null) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        if ($model === null) {
+>>>>>>> 43d67f21 (.)
+=======
+        if ($model === null) {
+=======
+        if (null === $model) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        if ($model === null) {
+>>>>>>> 5842a556 (.)
+=======
+        if ($model === null) {
+=======
+        if (null === $model) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+        if ($model === null) {
+>>>>>>> 16dc7ab0 (.)
+=======
+        if (null === $model) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $model) {
+=======
+        if (null == $model) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        if (null === $model) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        if (null === $model) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if ($model === null) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        if ($model === null) {
+>>>>>>> 43d67f21 (.)
+=======
+        if ($model === null) {
+=======
+        if (null === $model) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        if ($model === null) {
+>>>>>>> 5842a556 (.)
+=======
+        if (null === $model) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $model) {
+=======
+        if (null == $model) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        if (null === $model) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        if (null === $model) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if ($model === null) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        if ($model === null) {
+>>>>>>> 43d67f21 (.)
+=======
+        if ($model === null) {
+=======
+        if (null === $model) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        if ($model === null) {
+>>>>>>> 5842a556 (.)
+=======
+        if ($model === null) {
+=======
+        if (null === $model) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+        if ($model === null) {
+>>>>>>> 16dc7ab0 (.)
+=======
+        if ($model === null) {
+=======
+        if (null === $model) {
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
+=======
+        if ($model === null) {
+>>>>>>> f0e04b64 (.)
+=======
+        if (null === $model) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $model) {
+=======
+        if (null == $model) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        if (null === $model) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        if (null === $model) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if ($model === null) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        if ($model === null) {
+>>>>>>> 43d67f21 (.)
+=======
+        if ($model === null) {
+=======
+        if (null === $model) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        if ($model === null) {
+>>>>>>> 5842a556 (.)
+=======
+        if ($model === null) {
+=======
+        if (null === $model) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+        if ($model === null) {
+>>>>>>> 16dc7ab0 (.)
+=======
+        if ($model === null) {
+=======
+        if (null === $model) {
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
+=======
+        if ($model === null) {
+>>>>>>> f0e04b64 (.)
+=======
+        if (null === $model) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $model) {
+=======
+        if (null == $model) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        if (null === $model) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        if (null === $model) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
             return [];
         }
         if (is_string($model)) {
@@ -544,25 +2950,200 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 $res = $model->toArray();
 
                 if (method_exists($model, 'getDataDefaults')) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                     /** @var array<string, mixed> $defaults */
                     $defaults = $model->getDataDefaults();
                     $merge1 = array_merge($defaults, $res);
                     $merge1 = Arr::map($merge1, function ($value, string|int $key) use ($defaults) {
+<<<<<<< HEAD
                         if ($value === null) {
                         if (null === $value) {
                         if (null === $value) {
                         if (null === $value) {
                         if (null === $value) {
                         if (null === $value) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        if ($value === null) {
+=======
+                        if (null === $value) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+                        if (null === $value) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+                        if (null === $value) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+                        if (null === $value) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+                        if (null === $value) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+                        if (null === $value) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+                        if (null === $value) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
                     $defaults = $model->getDataDefaults();
                     $merge1 = array_merge($defaults, $res);
                     $merge1 = Arr::map($merge1, function ($value, $key) use ($defaults) {
                         if (null == $value) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
                     /** @var array<string, mixed> $defaults */
                     $defaults = $model->getDataDefaults();
                     $merge1 = array_merge($defaults, $res);
                     $merge1 = Arr::map($merge1, function ($value, string|int $key) use ($defaults) {
                         if (null === $value) {
+<<<<<<< HEAD
                         if ($value === null) {
                         if (null === $value) {
                         if (null === $value) {
@@ -609,6 +3190,241 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                         if ($value === null) {
                         if (null === $value) {
                         if ($value === null) {
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+                        if ($value === null) {
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+                        if (null === $value) {
+>>>>>>> 0e51323 (.)
+=======
+                        if (null === $value) {
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+                        if ($value === null) {
+>>>>>>> 43d67f21 (.)
+=======
+                        if ($value === null) {
+=======
+                        if (null === $value) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+                        if ($value === null) {
+>>>>>>> 5842a556 (.)
+=======
+                        if (null === $value) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                        if ($value === null) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+                        if ($value === null) {
+>>>>>>> 43d67f21 (.)
+=======
+                        if ($value === null) {
+=======
+                        if (null === $value) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+                        if ($value === null) {
+>>>>>>> 5842a556 (.)
+=======
+                        if ($value === null) {
+=======
+                        if (null === $value) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+                        if ($value === null) {
+>>>>>>> 16dc7ab0 (.)
+=======
+                        if (null === $value) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                        if ($value === null) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+                        if ($value === null) {
+>>>>>>> 43d67f21 (.)
+=======
+                        if ($value === null) {
+=======
+                        if (null === $value) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+                        if ($value === null) {
+>>>>>>> 5842a556 (.)
+=======
+                        if (null === $value) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                        if ($value === null) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+                        if ($value === null) {
+>>>>>>> 43d67f21 (.)
+=======
+                        if ($value === null) {
+=======
+                        if (null === $value) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+                        if ($value === null) {
+>>>>>>> 5842a556 (.)
+=======
+                        if ($value === null) {
+=======
+                        if (null === $value) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+                        if ($value === null) {
+>>>>>>> 16dc7ab0 (.)
+=======
+                        if ($value === null) {
+=======
+                        if (null === $value) {
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
+=======
+                        if ($value === null) {
+>>>>>>> f0e04b64 (.)
+=======
+                        if (null === $value) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                        if ($value === null) {
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+                        if ($value === null) {
+>>>>>>> 43d67f21 (.)
+=======
+                        if ($value === null) {
+=======
+                        if (null === $value) {
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+                        if ($value === null) {
+>>>>>>> 5842a556 (.)
+=======
+                        if ($value === null) {
+=======
+                        if (null === $value) {
+>>>>>>> c06600c (.)
+>>>>>>> 14edd1a1 (.)
+=======
+                        if ($value === null) {
+>>>>>>> 16dc7ab0 (.)
+=======
+                        if ($value === null) {
+=======
+                        if (null === $value) {
+>>>>>>> c06600c (.)
+>>>>>>> 3849ae0e (.)
+=======
+                        if ($value === null) {
+>>>>>>> f0e04b64 (.)
+=======
+                        if (null === $value) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
                             $value = Arr::get($defaults, $key, null);
                         }
 
@@ -618,12 +3434,56 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 }
 
                 return $res;
+<<<<<<< HEAD
 
                 // dddx($model->with('studio')->relationsToArray());
             } catch (Exception $e) {
                 // Se toArray() fallisce (problemi con enum), usa getAttributes()
                 // Log::warning("Errore in toArray() per modello {$this->model}: " . $e->getMessage());
                 return $model->getAttributes();
+=======
+<<<<<<< HEAD
+
+                // dddx($model->with('studio')->relationsToArray());
+            } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+                // dddx($model->with('studio')->relationsToArray());
+            } catch (Exception $e) {
+=======
+                // dddx($model->with('studio')->relationsToArray());
+            } catch (\Exception $e) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+                // Se toArray() fallisce (problemi con enum), usa getAttributes()
+                // Log::warning("Errore in toArray() per modello {$this->model}: " . $e->getMessage());
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                return $model->getAttributes();
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                 $attributes = $model->getAttributes();
 
                 // Gestisci specificamente gli enum se presenti
@@ -632,6 +3492,25 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 // }
 
                 return $attributes;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             }
         }
 
@@ -644,11 +3523,30 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         $fields = array_fill_keys($fields, null);
         $fields = array_merge($fields, $attributes);
         if (method_exists($model, 'getDataDefaults')) {
+<<<<<<< HEAD
             /** @var array<string, mixed> $defaults */
+=======
+<<<<<<< HEAD
+            /** @var array<string, mixed> $defaults */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            /** @var array<string, mixed> $defaults */
+=======
+>>>>>>> a12f125f4a (.)
+=======
+            /** @var array<string, mixed> $defaults */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             $defaults = $model->getDataDefaults();
             $fields = array_merge($fields, $defaults);
         }
 
+<<<<<<< HEAD
         return $fieldsWithNull;
         /** @var array<string, mixed> */
         return $fieldsWithNull;
@@ -660,6 +3558,48 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     }
 
     /**
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $fieldsWithNull;
+=======
+        return $fields;
+>>>>>>> 53d6a6ba (.)
+=======
+        /** @var array<string, mixed> */
+        return $fieldsWithNull;
+>>>>>>> b7afadf9 (.)
+=======
+        return $fields;
+>>>>>>> 71586de2 (.)
+=======
+        return $fields;
+>>>>>>> 249a0067 (.)
+=======
+        return $fields;
+>>>>>>> 53d6a6ba (.)
+=======
+        return $fields;
+>>>>>>> 71586de2 (.)
+=======
+        return $fields;
+>>>>>>> 249a0067 (.)
+    }
+
+    /**
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * Salva i dati del form.
      * Override nelle classi figlie se necessario.
      */
@@ -702,12 +3642,39 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
     }
 
     /**
+<<<<<<< HEAD
         return $fields;
         /** @var array<string, mixed> */
         return $fieldsWithNull;
     }
 
     /**
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+        return $fields;
+=======
+        /** @var array<string, mixed> */
+        return $fieldsWithNull;
+>>>>>>> b7afadf9 (.)
+    }
+
+    /**
+>>>>>>> 5a14301c (.)
+=======
+        return $fields;
+    }
+
+    /**
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * Ottiene le azioni del form.
      *
      * @return array<int|string, Action>
@@ -730,6 +3697,26 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         return null;
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     /**
      * Salva i dati del form.
      * Override nelle classi figlie se necessario.
@@ -741,16 +3728,52 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     /**
      * Eseguito quando i filtri vengono aggiornati.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
      * Rimosso per compatibilità Filament v4 - da reimplementare se necessario
      */
     // public function filtersUpdated(): void
     // {
     //     $this->reset('data');
     // }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+     */
+    public function filtersUpdated(): void
+    {
+        $this->reset('data');
+    }
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+     * Rimosso per compatibilità Filament v4 - da reimplementare se necessario
+     */
+    // public function filtersUpdated(): void
+    // {
+    //     $this->reset('data');
+    // }
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     public static function getNavigationLabel(): string
     {
         /*
+<<<<<<< HEAD
          * return (string) (static::$navigationLabel ?? (string) str(static::getLabel())
          * ->headline());
          */
@@ -759,12 +3782,65 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 
     protected function getStepByName(string $name): Step
     {
+=======
+<<<<<<< HEAD
+         * return (string) (static::$navigationLabel ?? (string) str(static::getLabel())
+         * ->headline());
+         */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+         * return (string) (static::$navigationLabel ?? (string) str(static::getLabel())
+         * ->headline());
+         */
+=======
+        return (string) (static::$navigationLabel ?? (string) str(static::getLabel())
+            ->headline());
+        */
+>>>>>>> a12f125f4a (.)
+=======
+         * return (string) (static::$navigationLabel ?? (string) str(static::getLabel())
+         * ->headline());
+         */
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+        return static::transFunc(__FUNCTION__);
+    }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+    protected function getStepByName(string $name): Step
+    {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $schema = Str::of($name)
             ->snake()
             ->studly()
             ->prepend('get')
             ->append('Schema')
             ->toString();
+<<<<<<< HEAD
 
         /** @var array<Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
@@ -781,10 +3857,104 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
         return Step::make($name)->schema($schemaComponents);
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+
+<<<<<<< HEAD
+        return Step::make($name)->schema($schemaComponents);
+    }
+=======
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+<<<<<<< HEAD
+=======
+>>>>>>> 0e51323 (.)
+=======
+        /** @var array<Htmlable|string> $schemaComponents */
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+        $schemaComponents = $this->$schema();
+=======
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+>>>>>>> 5a14301c (.)
+        return Step::make($name)->schema($schemaComponents);
+=======
+>>>>>>> laraxot/develop
         $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
 
         return Step::make($name)
             ->schema($this->$schema());
+<<<<<<< HEAD
         /** @var array<Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
         /** @var array<Htmlable|string> $schemaComponents */
@@ -793,10 +3963,30 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
         return Step::make($name)->schema($schemaComponents);
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+=======
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+>>>>>>> 43d67f21 (.)
+
+=======
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+>>>>>>> 5a14301c (.)
+        return Step::make($name)->schema($schemaComponents);
+=======
+>>>>>>> laraxot/develop
         $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
 
         return Step::make($name)
             ->schema($this->$schema());
+<<<<<<< HEAD
         /** @var array<Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
         /** @var array<Htmlable|string> $schemaComponents */
@@ -805,10 +3995,30 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
         return Step::make($name)->schema($schemaComponents);
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+=======
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+>>>>>>> 43d67f21 (.)
+
+=======
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+>>>>>>> 5a14301c (.)
+        return Step::make($name)->schema($schemaComponents);
+=======
+>>>>>>> laraxot/develop
         $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
 
         return Step::make($name)
             ->schema($this->$schema());
+<<<<<<< HEAD
         /** @var array<Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
         /** @var array<Htmlable|string> $schemaComponents */
@@ -817,87 +4027,511 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
         /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
         return Step::make($name)->schema($schemaComponents);
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+=======
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+>>>>>>> 43d67f21 (.)
+
+=======
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+>>>>>>> 5a14301c (.)
+        return Step::make($name)->schema($schemaComponents);
+=======
+>>>>>>> laraxot/develop
         $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
 
         return Step::make($name)
             ->schema($this->$schema());
+<<<<<<< HEAD
         /** @var array<Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
         /** @var array<Htmlable|string> $schemaComponents */
         $schemaComponents = $this->$schema();
 
         return Step::make($name)->schema($schemaComponents);
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+=======
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+>>>>>>> 43d67f21 (.)
+
+=======
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+>>>>>>> 5a14301c (.)
+        return Step::make($name)->schema($schemaComponents);
+=======
+        $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
+
+        return Step::make($name)
+            ->schema($this->$schema());
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+        /** @var array<Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        return Step::make($name)->schema($schemaComponents);
+=======
+<<<<<<< HEAD
+
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        return Step::make($name)->schema($schemaComponents);
+=======
+        $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
+
+        return Step::make($name)
+            ->schema($this->$schema());
+>>>>>>> a12f125f4a (.)
+=======
+
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schemaComponents */
+        $schemaComponents = $this->$schema();
+        return Step::make($name)->schema($schemaComponents);
+>>>>>>> b93ef594b4 (.)
+=======
+        return (string) (static::$navigationLabel ?? (string) str(static::getLabel())
+            ->headline());
+        */
+        return static::transFunc(__FUNCTION__);
+    }
+
+    protected function getStepByName(string $name): Forms\Components\Wizard\Step
+    {
+        $schema = Str::of($name)->snake()->studly()->prepend('get')->append('Schema')->toString();
+
+        return Forms\Components\Wizard\Step::make($name)
+            ->schema($this->$schema());
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 
     public function getWizardSubmitAction(): Action
     {
+<<<<<<< HEAD
         /** @var view-string $submit_view */
         $submit_view = 'pub_theme::filament.wizard.submit-button';
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+        /** @var view-string $submit_view */
+        $submit_view = 'pub_theme::filament.wizard.submit-button';
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+>>>>>>> laraxot/develop
         if (! view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
 
+<<<<<<< HEAD
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+>>>>>>> 0e51323 (.)
+=======
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> laraxot/develop
         if (! view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
 
+<<<<<<< HEAD
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
-        if (! view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
-        }
-
-        if (! view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
-        }
-
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
-        if (! view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
-        }
-
-        if (! view()->exists($submit_view)) {
-            throw new Exception("View {$submit_view} does not exist");
-        }
-
+>>>>>>> c06600c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> laraxot/develop
         if (! view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
 
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> laraxot/develop
         if (! view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
 
+<<<<<<< HEAD
         if (!view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> laraxot/develop
         if (! view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
 
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> laraxot/develop
         if (! view()->exists($submit_view)) {
             throw new Exception("View {$submit_view} does not exist");
         }
 
+<<<<<<< HEAD
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> laraxot/develop
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> laraxot/develop
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+<<<<<<< HEAD
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> laraxot/develop
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> laraxot/develop
+        if (! view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+
+<<<<<<< HEAD
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         return Action::make('submit')
             ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
             ->submit('save')
             ->view((string) $submit_view);
+<<<<<<< HEAD
     }
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+        /** @var view-string $submit_view */
+>>>>>>> b93ef594b4 (.)
+        $submit_view = 'pub_theme::filament.wizard.submit-button';
+
+        if (!view()->exists($submit_view)) {
+            throw new Exception("View {$submit_view} does not exist");
+        }
+        return Action::make('submit')
+            ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
+            ->submit('save')
+<<<<<<< HEAD
+            ->view($submit_view);
+>>>>>>> a12f125f4a (.)
+=======
+            ->view((string) $submit_view);
+>>>>>>> b93ef594b4 (.)
+=======
+        $submit_view = 'pub_theme::filament.wizard.submit-button';
+
+        // if(!view()->exists($submit_view)){
+        //    throw new \Exception("View {$submit_view} does not exist");
+        // }
+        return Action::make('submit')
+            ->label(__('filament-panels::resources/pages/edit-record.form.actions.save.label'))
+            ->submit('save')
+            ->view($submit_view);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 }

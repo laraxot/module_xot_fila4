@@ -2,8 +2,123 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailable;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 300ef70 (.)
+use Illuminate\Mail\Mailable;
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+use Illuminate\Mail\Mailable;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailable;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
@@ -13,20 +128,162 @@ it('throws if record has no email', function (): void {
     {
         // no email attribute
         public function option(string $key): ?string
+<<<<<<< HEAD
 use Illuminate\Mail\Mailable;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Illuminate\Mail\Mailable;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Actions\Mail\SendMailByRecordAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Mail\Mailable;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Actions\Mail\SendMailByRecordAction;
+=======
+use Modules\Xot\Actions\Mail\SendMailByRecordAction;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> origin/develop
+>>>>>>> laraxot/develop
 
 it('throws if record has no email', function (): void {
     $record = new class extends Model {
         // no email attribute
+<<<<<<< HEAD
         public function option(string $key): null|string
         public function option(string $key): null
         public function option(string $key): null
+=======
+<<<<<<< HEAD
+        public function option(string $key): null|string
+>>>>>>> laraxot/develop
         {
             return null;
         }
 
+<<<<<<< HEAD
         public function myLogs(): object
         /** @return object */
         public function myLogs()
@@ -34,6 +291,8 @@ it('throws if record has no email', function (): void {
             return new class
             {
                 public function create(array $data): void {}
+=======
+>>>>>>> laraxot/develop
         public function myLogs()
         {
             return new class {
@@ -44,6 +303,7 @@ it('throws if record has no email', function (): void {
         }
     };
 
+<<<<<<< HEAD
     expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
     expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
     expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
@@ -57,6 +317,246 @@ it('throws if record has no email', function (): void {
     expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
     expect(fn () => app(SendMailByRecordAction::class)->execute($record, \Illuminate\Mail\Mailable::class))
     expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+=======
+namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
+=======
+use Illuminate\Mail\Mailable;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Actions\Mail\SendMailByRecordAction;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+
+it('throws if record has no email', function (): void {
+    $record = new class extends Model {
+        // no email attribute
+        public function option(string $key): null|string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        public function option(string $key): null
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        public function option(string $key): null
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+        {
+            return null;
+        }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        public function myLogs(): object
+=======
+=======
+        /** @return object */
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+        /** @return object */
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+        public function myLogs()
+>>>>>>> 53d6a6ba (.)
+        {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return new class
+            {
+                public function create(array $data): void {}
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+        public function myLogs()
+        {
+>>>>>>> 5a14301c (.)
+=======
+        public function myLogs()
+        {
+>>>>>>> 5a14301c (.)
+            return new class {
+                public function create(array $data): void
+                {
+                }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+            };
+        }
+    };
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 3fbbf1f5 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 399f46d3 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 17684f52 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 399f46d3 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 399f46d3 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 17684f52 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 399f46d3 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 17684f52 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, \Illuminate\Mail\Mailable::class))
+>>>>>>> a12f125f4a (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> laraxot/develop
         public function option(string $key): ?string { return null; }
         public function myLogs() { return new class {
             public function create(array $data): void {}
@@ -64,17 +564,95 @@ it('throws if record has no email', function (): void {
     };
 
     expect(fn () => app(SendMailByRecordAction::class)->execute($record, \Illuminate\Mail\Mailable::class))
+<<<<<<< HEAD
     expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
     expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
     expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
     expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
     expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> ca9324a4 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+=======
+=======
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+=======
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> laraxot/develop
 namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 
 
     };
 
     expect(fn () => app(SendMailByRecordAction::class)->execute($record, \Illuminate\Mail\Mailable::class))
+<<<<<<< HEAD
     expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
     expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
     expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
@@ -89,5 +667,184 @@ namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
     expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
     expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
     expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 9db27d12 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> ca9324a4 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 71586de2 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    expect(fn () => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 71586de2 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         ->toThrow(InvalidArgumentException::class);
 });

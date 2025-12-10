@@ -2,7 +2,11 @@
 
 ## Panoramica
 
+<<<<<<< HEAD
 Questo documento descrive la configurazione dei server MCP (Model Context Protocol) per gli editor AI utilizzati nello sviluppo del progetto Quaeris Fila4 Mono.
+=======
+Questo documento descrive la configurazione dei server MCP (Model Context Protocol) per gli editor AI utilizzati nello sviluppo del progetto <nome progetto> Fila4 Mono.
+>>>>>>> laraxot/develop
 
 ## Cos'è MCP?
 
@@ -89,7 +93,11 @@ claude mcp remove <nome-server>
   "mcpServers": {
     "filesystem": {
       "command": "npx",
+<<<<<<< HEAD
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_quaeris_fila4_mono"]
+=======
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_<nome progetto>_fila4_mono"]
+>>>>>>> laraxot/develop
     }
   }
 }
@@ -101,7 +109,11 @@ claude mcp remove <nome-server>
   "mcpServers": {
     "filesystem": {
       "command": "npx",
+<<<<<<< HEAD
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_quaeris_fila4_mono"]
+=======
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_<nome progetto>_fila4_mono"]
+>>>>>>> laraxot/develop
     }
   }
 }
@@ -233,7 +245,11 @@ File: `~/.cursor/mcp.json`
   "mcpServers": {
     "filesystem": {
       "command": "npx",
+<<<<<<< HEAD
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_quaeris_fila4_mono"]
+=======
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_<nome progetto>_fila4_mono"]
+>>>>>>> laraxot/develop
     },
     "fetch": {
       "command": "npx",
@@ -271,7 +287,11 @@ File: `~/.codeium/windsurf/mcp_config.json`
   "mcpServers": {
     "filesystem": {
       "command": "npx",
+<<<<<<< HEAD
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_quaeris_fila4_mono"]
+=======
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_<nome progetto>_fila4_mono"]
+>>>>>>> laraxot/develop
     },
     "fetch": {
       "command": "npx",

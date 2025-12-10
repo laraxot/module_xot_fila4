@@ -52,7 +52,11 @@ $user->hasAttribute('name');  // true
 | **Tenant** | 1 | 9 | ~3 min |
 | **Lang** | 1 | 2 | ~1 min |
 | **DbForge** | 1 | 1 | ~1 min |
+<<<<<<< HEAD
 | **Quaeris** | 1 | 1 | ~2 min |
+=======
+| **<nome progetto>** | 1 | 1 | ~2 min |
+>>>>>>> laraxot/develop
 | **Xot** | 0 | 0 (solo in commenti) | ~1 min |
 | **TOTALE** | **28** | **72** | **~36 min** |
 
@@ -67,7 +71,11 @@ $user->hasAttribute('name');  // true
 ✅ Tenant:  0 errori (già perfetto)
 ✅ Lang:    0 errori
 ✅ DbForge: 0 errori
+<<<<<<< HEAD
 ✅ Quaeris: 0 errori su file modificato
+=======
+✅ <nome progetto>: 0 errori su file modificato
+>>>>>>> laraxot/develop
 ⚠️  Xot:     4 errori pre-esistenti (non property_exists)
 ```
 
@@ -234,7 +242,11 @@ if (isset($graph->yaxis) && is_object($graph->yaxis)) {
 ### DbForge (1 file)
 1. `Console/Commands/SearchTextInDbCommand.php` - dynamic table property ✅
 
+<<<<<<< HEAD
 ### Quaeris (1 file)
+=======
+### <nome progetto> (1 file)
+>>>>>>> laraxot/develop
 1. `Filament/Resources/.../ViewQuestionChartVisualizationWidget.php` - livewire property ✅
 
 ---
@@ -302,7 +314,11 @@ if (isset($media->file_name)) {
 | **Tenant** | ✅ 0 errori | ⚠️ OK | ✅ OK |
 | **Lang** | ✅ 0 errori | ⚠️ OK | ✅ OK |
 | **DbForge** | ✅ 0 errori | ⚠️ OK | ✅ OK |
+<<<<<<< HEAD
 | **Quaeris** | ⚠️ 64 errori* | - | - |
+=======
+| **<nome progetto>** | ⚠️ 64 errori* | - | - |
+>>>>>>> laraxot/develop
 | **Xot** | ⚠️ 4 errori* | - | - |
 
 \* Errori pre-esistenti non correlati a property_exists
@@ -554,7 +570,11 @@ Ogni modulo ha ora:
 
 ### 1. Moduli Rimanenti con Errori
 
+<<<<<<< HEAD
 **Quaeris** (64 errori):
+=======
+**<nome progetto>** (64 errori):
+>>>>>>> laraxot/develop
 - Errori pre-esistenti non correlati a property_exists
 - Richiedono intervento separato per type hints
 - Priorità media

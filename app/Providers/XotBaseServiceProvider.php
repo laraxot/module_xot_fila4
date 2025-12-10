@@ -4,12 +4,94 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Providers;
 
+<<<<<<< HEAD
 use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use BladeUI\Icons\Factory as BladeIconsFactory;
+use Exception;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 use Exception;
 use Throwable;
 use Modules\Xot\Actions\File\GetComponentsAction;
 use BladeUI\Icons\Factory as BladeIconsFactory;
+<<<<<<< HEAD
 use BladeUI\Icons\Exceptions\CannotRegisterIconSet;
 use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
@@ -22,11 +104,80 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Blade\RegisterBladeComponentsAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+use BladeUI\Icons\Exceptions\CannotRegisterIconSet;
+use BladeUI\Icons\Factory as BladeIconsFactory;
+use Exception;
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+use BladeUI\Icons\Exceptions\CannotRegisterIconSet;
+use BladeUI\Icons\Factory as BladeIconsFactory;
+use Exception;
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+use Illuminate\Support\Facades\Blade;
+use Illuminate\Support\Facades\Config;
+<<<<<<< HEAD
+use Illuminate\Support\Facades\File;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Support\Facades\File;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Support\Facades\File;
+>>>>>>> b93ef594b4 (.)
+=======
+use BladeUI\Icons\Factory as BladeIconsFactory;
+use Illuminate\Support\Facades\Blade;
+use Illuminate\Support\Facades\Config;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Str;
+use Modules\Xot\Actions\Blade\RegisterBladeComponentsAction;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 use Modules\Xot\Actions\File\GetComponentsAction;
 use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Nwidart\Modules\Traits\PathNamespace;
 use Throwable;
+<<<<<<< HEAD
 use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Nwidart\Modules\Traits\PathNamespace;
@@ -39,6 +190,50 @@ use Nwidart\Modules\Traits\PathNamespace;
 use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Nwidart\Modules\Traits\PathNamespace;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Nwidart\Modules\Traits\PathNamespace;
+>>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Nwidart\Modules\Traits\PathNamespace;
+>>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Nwidart\Modules\Traits\PathNamespace;
+>>>>>>> 5a14301c (.)
+=======
+use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Nwidart\Modules\Traits\PathNamespace;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Nwidart\Modules\Traits\PathNamespace;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
+use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
+use Nwidart\Modules\Traits\PathNamespace;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Webmozart\Assert\Assert;
 
 /**
@@ -66,6 +261,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $this->registerTranslations();
         $this->registerConfig();
         $this->registerViews();
+<<<<<<< HEAD
         $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
         $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
         $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
@@ -101,6 +297,211 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
         $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
         $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 5a14301c (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 3fbbf1f5 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 399f46d3 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 399f46d3 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 399f46d3 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 399f46d3 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+=======
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+>>>>>>> a12f125f4a (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> b93ef594b4 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> ca9324a4 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+=======
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> ca9324a4 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 5a14301c (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+=======
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> ca9324a4 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 5a14301c (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+=======
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> ca9324a4 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 5a14301c (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+=======
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> ca9324a4 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 5a14301c (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+=======
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        $this->loadMigrationsFrom($this->module_dir . '/../Database/Migrations');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         $this->registerLivewireComponents();
         $this->registerBladeComponents();
         $this->registerCommands();
@@ -113,6 +514,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     {
         $this->nameLower = Str::lower($this->name);
         $this->module_ns = collect(explode('\\', $this->module_ns))->slice(0, -1)->implode('\\');
+<<<<<<< HEAD
         $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
@@ -173,23 +575,420 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 5a14301c (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 3fbbf1f5 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 399f46d3 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 399f46d3 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 399f46d3 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 399f46d3 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+=======
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+>>>>>>> a12f125f4a (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> b93ef594b4 (.)
+=======
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> ca9324a4 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> ed734516 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> ed734516 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> ed734516 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> ed734516 (.)
+=======
+        $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> ca9324a4 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> ca9324a4 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> ca9324a4 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> ca9324a4 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
+        $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         $this->registerBladeIcons();
     }
 
     public function registerBladeIcons(): void
     {
         if ($this->name === '') {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
             throw new Exception('name is empty on ['.static::class.']');
         }
 
         $this->callAfterResolving(BladeIconsFactory::class, function (BladeIconsFactory $factory) {
             $assetsPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'assets');
             $svgPath = $assetsPath.'/../svg';
+<<<<<<< HEAD
             throw new Exception('name is empty on [' . static::class . ']');
+=======
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> a12f125f4a (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> b93ef594b4 (.)
+=======
+            throw new \Exception('name is empty on ['.static::class.']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         }
 
         $this->callAfterResolving(BladeIconsFactory::class, function (BladeIconsFactory $factory) {
             $assetsPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'assets');
+<<<<<<< HEAD
             $svgPath = $assetsPath . '/../svg';
             $svgPath = $assetsPath . '/../svg';
             $svgPath = $assetsPath . '/../svg';
@@ -201,12 +1000,178 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             $svgPath = $assetsPath . '/../svg';
             $svgPath = $assetsPath.'/../svg';
             $svgPath = $assetsPath . '/../svg';
+=======
+<<<<<<< HEAD
+            $svgPath = $assetsPath . '/../svg';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $svgPath = $assetsPath . '/../svg';
+=======
+            $svgPath = $assetsPath.'/../svg';
+>>>>>>> a12f125f4a (.)
+=======
+            $svgPath = $assetsPath . '/../svg';
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+            $svgPath = $assetsPath.'/../svg';
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+            $svgPath = $assetsPath . '/../svg';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+            $svgPath = $assetsPath.'/../svg';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            $svgPath = $assetsPath . '/../svg';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+            $svgPath = $assetsPath.'/../svg';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            $svgPath = $assetsPath . '/../svg';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+            $svgPath = $assetsPath.'/../svg';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            $svgPath = $assetsPath . '/../svg';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+            $svgPath = $assetsPath.'/../svg';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            $svgPath = $assetsPath . '/../svg';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
             try {
                 $factory->add($this->nameLower, ['path' => $svgPath, 'prefix' => $this->nameLower]);
             } catch (Throwable $e) {
                 // Ignore missing SVG path
             }
         });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
         // $svgPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'svg');
         /*
@@ -232,6 +1197,77 @@ abstract class XotBaseServiceProvider extends ServiceProvider
          * Config::set('blade-icons.sets.'.$this->nameLower.'.path', $svgPath);
          * Config::set('blade-icons.sets.'.$this->nameLower.'.prefix', $this->nameLower);
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+            $svgPath = $assetsPath.'/../svg';
+            try {
+                $factory->add($this->nameLower, ['path' => $svgPath, 'prefix' => $this->nameLower]);
+            } catch (\Throwable $e) {
+                // Ignore missing SVG path
+            }
+        });
+>>>>>>> origin/develop
+        // $svgPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'svg');
+        /*
+        Assert::string($relativePath = config('modules.paths.generator.assets.path'));
+
+        try {
+            $svgPath = module_path($this->name, $relativePath.'/../svg');
+            if (! is_string($svgPath)) {
+                throw new \Exception('Invalid SVG path');
+            }
+            $resolvedPath = $svgPath;
+            $svgPath = $resolvedPath;
+        } catch (\Error $e) {
+            $svgPath = base_path('Modules/'.$this->name.'/'.$relativePath.'/../svg');
+            if (! is_string($svgPath)) {
+                throw new \Exception('Invalid fallback SVG path');
+            }
+        }
+
+        $basePath = base_path(DIRECTORY_SEPARATOR);
+        $svgPath = str_replace($basePath, '', $svgPath);
+
+        Config::set('blade-icons.sets.'.$this->nameLower.'.path', $svgPath);
+        Config::set('blade-icons.sets.'.$this->nameLower.'.prefix', $this->nameLower);
+        */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+        // $svgPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'svg');
+        /*
+         * Assert::string($relativePath = config('modules.paths.generator.assets.path'));
+         *
+         * try {
+         * $svgPath = module_path($this->name, $relativePath.'/../svg');
+         * if (! is_string($svgPath)) {
+         * throw new \Exception('Invalid SVG path');
+         * }
+         * $resolvedPath = $svgPath;
+         * $svgPath = $resolvedPath;
+         * } catch (\Error $e) {
+         * $svgPath = base_path('Modules/'.$this->name.'/'.$relativePath.'/../svg');
+         * if (! is_string($svgPath)) {
+         * throw new \Exception('Invalid fallback SVG path');
+         * }
+         * }
+         *
+         * $basePath = base_path(DIRECTORY_SEPARATOR);
+         * $svgPath = str_replace($basePath, '', $svgPath);
+         *
+         * Config::set('blade-icons.sets.'.$this->nameLower.'.path', $svgPath);
+         * Config::set('blade-icons.sets.'.$this->nameLower.'.prefix', $this->nameLower);
+         */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 
     /**
@@ -240,6 +1276,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     public function registerViews(): void
     {
         if ($this->name === '') {
+<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
             throw new Exception('name is empty on [' . static::class . ']');
             throw new Exception('name is empty on [' . static::class . ']');
@@ -285,6 +1322,249 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             throw new \Exception('name is empty on ['.static::class.']');
             throw new Exception('name is empty on ['.static::class.']');
             throw new Exception('name is empty on ['.static::class.']');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            throw new Exception('name is empty on ['.static::class.']');
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> a12f125f4a (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> b93ef594b4 (.)
+=======
+            throw new \Exception('name is empty on ['.static::class.']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 53d6a6ba (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+=======
+            throw new \Exception('name is empty on ['.static::class.']');
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 71586de2 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 249a0067 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 53d6a6ba (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+=======
+            throw new \Exception('name is empty on ['.static::class.']');
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 71586de2 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 249a0067 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         }
 
         $viewPath = module_path($this->name, 'resources/views');
@@ -296,12 +1576,33 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     }
 
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * Restituisce il path della cartella lang del modulo, con fallback robusto.
      */
     protected function getLangPath(): string
     {
         try {
             return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'lang');
+<<<<<<< HEAD
         } catch (Throwable $e) {
             return base_path('Modules/' . $this->name . '/lang');
         } catch (\Throwable $e) {
@@ -316,17 +1617,163 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             return base_path('Modules/' . $this->name . '/lang');
         } catch (\Throwable $e) {
             return base_path('Modules/'.$this->name.'/lang');
+=======
+<<<<<<< HEAD
+        } catch (Throwable $e) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return base_path('Modules/' . $this->name . '/lang');
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        } catch (\Throwable $e) {
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+=======
+        } catch (\Throwable $e) {
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+            return base_path('Modules/'.$this->name.'/lang');
+>>>>>>> 53d6a6ba (.)
+=======
+            return base_path('Modules/' . $this->name . '/lang');
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+            return base_path('Modules/' . $this->name . '/lang');
+=======
+            return base_path('Modules/'.$this->name.'/lang');
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+            return base_path('Modules/' . $this->name . '/lang');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            return base_path('Modules/' . $this->name . '/lang');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+        } catch (Throwable $e) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return base_path('Modules/' . $this->name . '/lang');
+=======
+            return base_path('Modules/'.$this->name.'/lang');
+>>>>>>> a12f125f4a (.)
+=======
+            return base_path('Modules/' . $this->name . '/lang');
+>>>>>>> b93ef594b4 (.)
+=======
+        } catch (\Throwable $e) {
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+            return base_path('Modules/'.$this->name.'/lang');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+            return base_path('Modules/' . $this->name . '/lang');
+>>>>>>> 5a14301c (.)
+=======
+            return base_path('Modules/' . $this->name . '/lang');
+=======
+            return base_path('Modules/'.$this->name.'/lang');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            return base_path('Modules/' . $this->name . '/lang');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            return base_path('Modules/' . $this->name . '/lang');
+>>>>>>> 3fbbf1f5 (.)
+=======
+            return base_path('Modules/'.$this->name.'/lang');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         }
     }
 
     /**
+<<<<<<< HEAD
      * Registra le traduzioni del modulo.
      *
      * @throws Exception
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+     * Registra le traduzioni del modulo.
+     *
+<<<<<<< HEAD
+     * @throws Exception
+=======
+<<<<<<< HEAD
+     * @throws Exception
+=======
+     * @throws \Exception
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
      */
     public function registerTranslations(): void
     {
         if ($this->name === '') {
+<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
             throw new Exception('name is empty on [' . static::class . ']');
             throw new Exception('name is empty on [' . static::class . ']');
@@ -372,6 +1819,249 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             throw new \Exception('name is empty on ['.static::class.']');
             throw new Exception('name is empty on ['.static::class.']');
             throw new Exception('name is empty on ['.static::class.']');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            throw new Exception('name is empty on ['.static::class.']');
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> a12f125f4a (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> b93ef594b4 (.)
+=======
+            throw new \Exception('name is empty on ['.static::class.']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 53d6a6ba (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+=======
+            throw new \Exception('name is empty on ['.static::class.']');
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 71586de2 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 249a0067 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 53d6a6ba (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+=======
+            throw new \Exception('name is empty on ['.static::class.']');
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 71586de2 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 249a0067 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('name is empty on [' . static::class . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         }
 
         $langPath = $this->getLangPath();
@@ -384,6 +2074,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
      */
     public function registerFactories(): void
     {
+<<<<<<< HEAD
         if (! app()->environment('production')) {
         if (!app()->environment('production')) {
         if (!app()->environment('production')) {
@@ -419,14 +2110,263 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         if (!app()->environment('production')) {
         if (!app()->environment('production')) {
         if (!app()->environment('production')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! app()->environment('production')) {
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 5a14301c (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+        if (!app()->environment('production')) {
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 399f46d3 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 399f46d3 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 399f46d3 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 399f46d3 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!app()->environment('production')) {
+=======
+        if (! app()->environment('production')) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! app()->environment('production')) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> ca9324a4 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+        if (!app()->environment('production')) {
+=======
+        if (! app()->environment('production')) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> ca9324a4 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 5a14301c (.)
+=======
+        if (!app()->environment('production')) {
+=======
+        if (! app()->environment('production')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> ca9324a4 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 5a14301c (.)
+=======
+        if (!app()->environment('production')) {
+=======
+        if (! app()->environment('production')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> ca9324a4 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 5a14301c (.)
+=======
+        if (!app()->environment('production')) {
+=======
+        if (! app()->environment('production')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> ca9324a4 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 5a14301c (.)
+=======
+        if (!app()->environment('production')) {
+=======
+        if (! app()->environment('production')) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        if (!app()->environment('production')) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
             // app(Factory::class)->load($this->module_dir.'/../Database/factories');
         }
     }
 
+<<<<<<< HEAD
                 Assert::string($file);
                 if (! is_string($file)) {
                     continue;
                 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    /**
+     * Register config.
+     */
+    protected function registerConfig(): void
+    {
+        try {
+            $configPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'config');
+
+            $files = File::glob($configPath.'/*.php');
+
+            foreach ($files as $file) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if (! is_string($file)) {
+                    continue;
+                }
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+                Assert::string($file);
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+                if (! is_string($file)) {
+                    continue;
+                }
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
                 $content = File::getRequire($file);
                 $info = pathinfo($file);
                 $key = $this->nameLower.'::'.$info['filename'];
@@ -438,11 +2378,16 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         }
     }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> laraxot/develop
     public function registerBladeComponents(): void
     {
         $componentViewPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');
         try {
             Blade::anonymousComponentPath($componentViewPath);
+<<<<<<< HEAD
         } catch (Exception $e) {
         } catch (Exception|CannotRegisterIconSet $e) {
         } catch (\Exception $e) {
@@ -453,6 +2398,47 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         } catch (\Exception $e) {
         } catch (Exception|CannotRegisterIconSet $e) {
         } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        } catch (Exception $e) {
+=======
+        } catch (Exception|CannotRegisterIconSet $e) {
+>>>>>>> 53d6a6ba (.)
+=======
+        } catch (Exception|CannotRegisterIconSet $e) {
+=======
+        } catch (\Exception $e) {
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        } catch (Exception|CannotRegisterIconSet $e) {
+>>>>>>> 71586de2 (.)
+=======
+        } catch (Exception $e) {
+>>>>>>> 249a0067 (.)
+=======
+        } catch (Exception|CannotRegisterIconSet $e) {
+>>>>>>> 53d6a6ba (.)
+=======
+        } catch (Exception|CannotRegisterIconSet $e) {
+=======
+        } catch (\Exception $e) {
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        } catch (Exception|CannotRegisterIconSet $e) {
+>>>>>>> 71586de2 (.)
+=======
+        } catch (Exception $e) {
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
             // Ignore missing component view path
             dddx([
                 'name' => $this->name,
@@ -464,6 +2450,20 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         $componentClassPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-class');
 
         $namespace = $this->module_ns.'\View\Components';
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     /**
      * Register config.
      */
@@ -472,6 +2472,17 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         try {
             $configPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'config');
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             $files = File::glob($configPath . '/*.php');
 
             foreach ($files as $file) {
@@ -480,7 +2491,25 @@ abstract class XotBaseServiceProvider extends ServiceProvider
                 $key = $this->nameLower . '::' . $info['filename'];
                 Config::set($key, $content);
             }
+<<<<<<< HEAD
         } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+        } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+=======
+            $this->mergeConfigFrom($configPath, $this->nameLower);
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+        } catch (Exception $e) {
+=======
+            $this->mergeConfigFrom($configPath, $this->nameLower);
+        } catch (\Exception $e) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             // Ignore missing configuration
             return;
         }
@@ -489,6 +2518,14 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     public function registerBladeComponents(): void
     {
         $componentViewPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         try{
             Blade::anonymousComponentPath($componentViewPath);
         } catch (Exception|\BladeUI\Icons\Exceptions\CannotRegisterIconSet $e) {
@@ -499,16 +2536,86 @@ abstract class XotBaseServiceProvider extends ServiceProvider
                 'e'=>$e->getMessage()
             ]);
         }
+<<<<<<< HEAD
         Blade::anonymousComponentPath($componentViewPath);
         Blade::anonymousComponentPath($componentViewPath);
         Blade::anonymousComponentPath($componentViewPath);
 
         $componentClassPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-class');
 
+=======
+=======
+        Blade::anonymousComponentPath($componentViewPath);
+>>>>>>> 5a14301c (.)
+=======
+        Blade::anonymousComponentPath($componentViewPath);
+>>>>>>> 5a14301c (.)
+=======
+        Blade::anonymousComponentPath($componentViewPath);
+>>>>>>> 5a14301c (.)
+=======
+        Blade::anonymousComponentPath($componentViewPath);
+>>>>>>> 5a14301c (.)
+=======
+        Blade::anonymousComponentPath($componentViewPath);
+>>>>>>> 5a14301c (.)
+
+        $componentClassPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-class');
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+        $namespace = $this->module_ns . '\View\Components';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+        Blade::componentNamespace($namespace, $this->nameLower);
+
+        app(RegisterBladeComponentsAction::class)->execute($componentClassPath, $this->module_ns);
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        $namespace = $this->module_ns.'\View\Components';
+        Blade::componentNamespace($namespace, $this->nameLower);
+
+        app(RegisterBladeComponentsAction::class)
+            ->execute(
+                $componentClassPath,
+                $this->module_ns
+            );
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
         $namespace = $this->module_ns . '\View\Components';
         Blade::componentNamespace($namespace, $this->nameLower);
 
         app(RegisterBladeComponentsAction::class)->execute($componentClassPath, $this->module_ns);
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 
     /**
@@ -518,6 +2625,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     {
         $prefix = '';
         app(RegisterLivewireComponentsAction::class)
+<<<<<<< HEAD
             ->execute($this->module_dir.'/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
@@ -529,11 +2637,124 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->execute($this->module_dir.'/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 5a14301c (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
             ->execute(
                 $this->module_dir.'/../Http/Livewire',
                 Str::before($this->module_ns, '\Providers'),
                 $prefix
             );
+<<<<<<< HEAD
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
@@ -552,12 +2773,149 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
             ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> ca9324a4 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> ca9324a4 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> ca9324a4 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> ca9324a4 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> ca9324a4 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            ->execute($this->module_dir . '/../Http/Livewire', Str::before($this->module_ns, '\Providers'), $prefix);
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     }
 
     public function registerCommands(): void
     {
         $prefix = '';
 
+<<<<<<< HEAD
         $comps = app(GetComponentsAction::class)
             ->execute(
                 $this->module_dir.'/../Console/Commands',
@@ -572,15 +2930,191 @@ abstract class XotBaseServiceProvider extends ServiceProvider
                 'Modules\\' . $this->name . '\\Console\\Commands',
                 $this->module_dir . '/../Console/Commands',
                 'Modules\\' . $this->name . '\\Console\\Commands',
+=======
+<<<<<<< HEAD
+        $comps = app(GetComponentsAction::class)
+            ->execute(
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                $this->module_dir.'/../Console/Commands',
+                'Modules\\'.$this->name.'\\Console\\Commands',
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+        $comps = app(GetComponentsAction::class)
+            ->execute(
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+                $this->module_dir . '/../Console/Commands',
+                'Modules\\' . $this->name . '\\Console\\Commands',
+>>>>>>> 5a14301c (.)
+=======
+                $this->module_dir . '/../Console/Commands',
+                'Modules\\' . $this->name . '\\Console\\Commands',
+>>>>>>> 5a14301c (.)
+=======
+                $this->module_dir . '/../Console/Commands',
+                'Modules\\' . $this->name . '\\Console\\Commands',
+>>>>>>> 5a14301c (.)
+=======
+                $this->module_dir . '/../Console/Commands',
+                'Modules\\' . $this->name . '\\Console\\Commands',
+>>>>>>> 5a14301c (.)
+=======
+                $this->module_dir . '/../Console/Commands',
+                'Modules\\' . $this->name . '\\Console\\Commands',
+>>>>>>> 5a14301c (.)
+=======
+                $this->module_dir . '/../Console/Commands',
+                'Modules\\' . $this->name . '\\Console\\Commands',
+>>>>>>> 5a14301c (.)
+                $prefix,
+            );
+        if ($comps->count() === 0) {
+<<<<<<< HEAD
+=======
+=======
+=======
+        $comps = app(\Modules\Xot\Actions\File\GetComponentsAction::class)
+            ->execute(
+>>>>>>> origin/develop
+                $this->module_dir.'/../Console/Commands',
+                'Modules\\'.$this->name.'\\Console\\Commands',
+                $prefix,
+            );
+        if ($comps->count() == 0) {
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
                 $this->module_dir . '/../Console/Commands',
                 'Modules\\' . $this->name . '\\Console\\Commands',
                 $prefix,
             );
         if ($comps->count() === 0) {
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             return;
         }
         $commands = $comps->toArray();
         /** @var array<int, array{ns: string}> $commands */
+<<<<<<< HEAD
         $commands = array_map(static function (mixed $item): string {
             Assert::isArray($item);
             Assert::keyExists($item, 'ns');
@@ -592,6 +3126,109 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 
             return $item['ns'];
         }, $commands);
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+        $commands = array_map(static function (mixed $item): string {
+            Assert::isArray($item);
+            Assert::keyExists($item, 'ns');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            Assert::string($item['ns'], __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+=======
+            Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+            Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+            Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+            Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+            Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+            Assert::string($item['ns'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+
+            return $item['ns'];
+        }, $commands);
+=======
+<<<<<<< HEAD
+
+            return $item['ns'];
+        }, $commands);
+=======
+=======
+>>>>>>> origin/develop
+        $commands = array_map(
+            static function (mixed $item): string {
+                Assert::isArray($item);
+                Assert::keyExists($item, 'ns');
+                Assert::string($item['ns']);
+
+                return $item['ns'];
+            },
+            $commands
+        );
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+            return $item['ns'];
+        }, $commands);
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $this->commands($commands);
     }
 
@@ -604,6 +3241,15 @@ abstract class XotBaseServiceProvider extends ServiceProvider
     {
         return [];
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 
     /**
      * Restituisce il path della cartella lang del modulo, con fallback robusto.
@@ -641,4 +3287,19 @@ abstract class XotBaseServiceProvider extends ServiceProvider
             return;
         }
     }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 }

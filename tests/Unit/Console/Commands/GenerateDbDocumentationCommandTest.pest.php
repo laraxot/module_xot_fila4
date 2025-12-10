@@ -2,19 +2,153 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Tests\TestCase;
 
 uses(TestCase::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+=======
+>>>>>>> 399f46d3 (.)
+use Modules\Xot\Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Modules\Xot\Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+=======
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Artisan;
+>>>>>>> f1d4085 (.)
+=======
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+>>>>>>> 73eab74 (.)
+use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
+>>>>>>> 5a14301c (.)
+
+uses(TestCase::class);
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Artisan;
+=======
+=======
+>>>>>>> 492d6d3c (.)
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
+
+<<<<<<< HEAD
+uses(\Modules\Xot\Tests\TestCase::class);
+>>>>>>> 849568d9 (.)
+=======
+uses(TestCase::class);
+=======
+<<<<<<< HEAD
+use Modules\Xot\Tests\TestCase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+=======
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Artisan;
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
+>>>>>>> b93ef594b4 (.)
+use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
+
+uses(TestCase::class);
+=======
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Artisan;
+use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
+
+uses(\Modules\Xot\Tests\TestCase::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 beforeEach(function () {
     $this->testSchemaPath = storage_path('tests/schema.json');
     $this->testOutputDir = storage_path('tests/docs');
 
     // Create test directory if it doesn't exist
+<<<<<<< HEAD
     if (! File::exists(dirname($this->testSchemaPath))) {
         File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    if (! File::exists(dirname($this->testSchemaPath))) {
+=======
+    if (!File::exists(dirname($this->testSchemaPath))) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+=======
+        File::makeDirectory(dirname($this->testSchemaPath), 0755, true);
+>>>>>>> f1d4085 (.)
+=======
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+>>>>>>> 73eab74 (.)
+=======
+    if (!File::exists(dirname($this->testSchemaPath))) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        File::makeDirectory(dirname($this->testSchemaPath), 0755, true);
+<<<<<<< HEAD
+>>>>>>> 849568d9 (.)
+=======
+=======
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+>>>>>>> 492d6d3c (.)
+=======
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+=======
+        File::makeDirectory(dirname($this->testSchemaPath), 0755, true);
+>>>>>>> a12f125f4a (.)
+=======
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+>>>>>>> b93ef594b4 (.)
+=======
+        File::makeDirectory(dirname($this->testSchemaPath), 0755, true);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     }
 
     // Create a test schema file
@@ -81,10 +215,86 @@ test('it generates database documentation', function () {
     expect($exitCode)->toBe(0);
 
     // Check if output files were created
+<<<<<<< HEAD
     expect(File::exists($this->testOutputDir.'/database-documentation.md'))
         ->toBeTrue()
         ->and(File::exists($this->testOutputDir.'/tables/users.md'))
         ->toBeTrue();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    expect(File::exists($this->testOutputDir.'/database-documentation.md'))
+        ->toBeTrue()
+        ->and(File::exists($this->testOutputDir.'/tables/users.md'))
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+    expect(File::exists($this->testOutputDir . '/database-documentation.md'))
+        ->toBeTrue()
+        ->and(File::exists($this->testOutputDir . '/tables/users.md'))
+>>>>>>> 5a14301c (.)
+        ->toBeTrue();
+<<<<<<< HEAD
+=======
+    expect(File::exists($this->testOutputDir . '/database-documentation.md'))->toBeTrue()
+        ->and(File::exists($this->testOutputDir . '/tables/users.md'))->toBeTrue();
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+=======
+    expect(File::exists($this->testOutputDir . '/database-documentation.md'))->toBeTrue()
+        ->and(File::exists($this->testOutputDir . '/tables/users.md'))->toBeTrue();
+>>>>>>> 849568d9 (.)
+=======
+    expect(File::exists($this->testOutputDir . '/database-documentation.md'))->toBeTrue()
+        ->and(File::exists($this->testOutputDir . '/tables/users.md'))->toBeTrue();
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+    expect(File::exists($this->testOutputDir . '/database-documentation.md'))
+        ->toBeTrue()
+        ->and(File::exists($this->testOutputDir . '/tables/users.md'))
+        ->toBeTrue();
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 492d6d3c (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+    expect(File::exists($this->testOutputDir . '/database-documentation.md'))->toBeTrue()
+        ->and(File::exists($this->testOutputDir . '/tables/users.md'))->toBeTrue();
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+    expect(File::exists($this->testOutputDir . '/database-documentation.md'))->toBeTrue()
+        ->and(File::exists($this->testOutputDir . '/tables/users.md'))->toBeTrue();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 });
 
 test('it handles missing schema file', function () {
@@ -128,5 +338,56 @@ test('it handles missing output directory', function () {
     ]);
 
     // Assert command was successful and created the output directory
+<<<<<<< HEAD
     expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+=======
+    expect($exitCode)->toBe(0)
+        ->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+>>>>>>> f1d4085 (.)
+=======
+    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+>>>>>>> 73eab74 (.)
+=======
+    expect($exitCode)->toBe(0)
+        ->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+>>>>>>> 849568d9 (.)
+=======
+    expect($exitCode)->toBe(0)
+        ->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+=======
+    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+>>>>>>> 492d6d3c (.)
+=======
+    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+=======
+    expect($exitCode)->toBe(0)
+        ->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+>>>>>>> a12f125f4a (.)
+=======
+    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+>>>>>>> b93ef594b4 (.)
+=======
+    expect($exitCode)->toBe(0)
+        ->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 });

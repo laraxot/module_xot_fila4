@@ -8,9 +8,35 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Actions\Table;
 
+<<<<<<< HEAD
 use Exception;
 use Filament\Actions\Action;
 use Filament\Resources\RelationManagers\RelationManager;
+=======
+<<<<<<< HEAD
+use Exception;
+use Filament\Actions\Action;
+use Filament\Resources\RelationManagers\RelationManager;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Exception;
+>>>>>>> b93ef594b4 (.)
+use Filament\Actions\Action;
+use Filament\Resources\RelationManagers\RelationManager;
+=======
+use Filament\Resources\RelationManagers\RelationManager;
+// Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
+// use Filament\Tables\Actions\Action;
+use Filament\Tables\Actions\Action;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 use Modules\Xot\Actions\Export\ExportXlsByCollection;
 use Modules\Xot\Actions\GetTransKeyAction;
 use Webmozart\Assert\Assert;
@@ -21,12 +47,22 @@ class ExportXlsTableAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             ->tooltip(__('xot::actions.export_xls'))
             // ->icon('fas-file-excel')
             ->icon('heroicon-o-arrow-down-tray')
             ->action(static function (RelationManager $livewire) {
                 $livewire_class = $livewire::class;
                 $filename =
+<<<<<<< HEAD
                     class_basename($livewire).
                     '-'.
                     collect($livewire->tableFilters)->flatten()->implode('-').
@@ -42,6 +78,47 @@ class ExportXlsTableAction extends Action
                     class_basename($livewire) .
                     '-' .
                     collect($livewire->tableFilters)->flatten()->implode('-') .
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    class_basename($livewire).
+                    '-'.
+                    collect($livewire->tableFilters)->flatten()->implode('-').
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                     '.xlsx';
                 $transKey = app(GetTransKeyAction::class)->execute($livewire_class);
                 $transKey .= '.fields';
@@ -49,6 +126,48 @@ class ExportXlsTableAction extends Action
                 if ($query === null) {
                     throw new Exception('Query is null');
                 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+            
+=======
+>>>>>>> b93ef594b4 (.)
+            ->tooltip(__('xot::actions.export_xls'))
+            // ->icon('fas-file-excel')
+            ->icon('heroicon-o-arrow-down-tray')
+            ->action(static function (RelationManager $livewire) {
+                $livewire_class = $livewire::class;
+                $filename =
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+                    '.xlsx';
+                $transKey = app(GetTransKeyAction::class)->execute($livewire_class);
+                $transKey .= '.fields';
+                $query = $livewire->getFilteredTableQuery();
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+                if ($query === null) {
+                    throw new Exception('Query is null');
+                }
+>>>>>>> b93ef594b4 (.)
+=======
+            
+            ->tooltip(__('xot::actions.export_xls'))
+             // ->icon('fas-file-excel')
+            ->icon('heroicon-o-arrow-down-tray')
+            ->action(static function (RelationManager $livewire) {
+                $livewire_class = $livewire::class;
+                $filename = class_basename($livewire).'-'.collect($livewire->tableFilters)->flatten()->implode('-').'.xlsx';
+                $transKey = app(GetTransKeyAction::class)->execute($livewire_class);
+                $transKey .= '.fields';
+                $query = $livewire->getFilteredTableQuery();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
                 $rows = $query->get();
                 /** @var array<int, string> $fields */
@@ -56,7 +175,27 @@ class ExportXlsTableAction extends Action
                 if (method_exists($livewire_class, 'getXlsFields')) {
                     $rawFields = $livewire_class::getXlsFields($livewire->tableFilters);
                     Assert::isArray($rawFields);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+                    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+                    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                     // Ensure fields are properly formatted as array<int, string>
                     $fields = [];
                     foreach ($rawFields as $key => $field) {
@@ -72,6 +211,7 @@ class ExportXlsTableAction extends Action
             });
     }
 
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
@@ -137,6 +277,404 @@ class ExportXlsTableAction extends Action
     public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
     public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public static function getDefaultName(): ?string
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> a12f125f4a (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 9db27d12 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 71586de2 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 71586de2 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     {
         return 'export_xls';
     }

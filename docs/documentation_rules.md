@@ -1,3 +1,54 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 # Regole di Documentazione
 
 ## Panoramica
@@ -18,7 +69,107 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 - MAI includere il nome del progetto nei percorsi
 - MAI usare percorsi che iniziano con `/var/www/html/` o simili
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 3bf39332 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> cf971011 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> e7da37af (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 6d05deed (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 39bb163e (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 3bf39332 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> cf971011 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> e7da37af (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 6d05deed (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 39bb163e (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
 ### Formato Corretto
 ```markdown
@@ -37,10 +188,161 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+>>>>>>> laraxot/develop
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 ```
 
 ### Checklist di Validazione
@@ -59,7 +361,107 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 - MAI includere il nome del progetto nei percorsi
 - MAI usare percorsi che iniziano con `/var/www/html/` o simili
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 3bf39332 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> cf971011 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> e7da37af (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 6d05deed (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 39bb163e (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 3bf39332 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> cf971011 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> e7da37af (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 6d05deed (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 39bb163e (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
 ### Formato Corretto
 ```markdown
@@ -78,10 +480,161 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+>>>>>>> laraxot/develop
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 ```
 
 ### Checklist di Validazione
@@ -101,7 +654,107 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 - MAI includere il nome del progetto nei percorsi
 - MAI usare percorsi che iniziano con `/var/www/html/` o simili
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+<<<<<<< HEAD
 - MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 3bf39332 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> cf971011 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> e7da37af (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 6d05deed (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 39bb163e (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> d86d643a (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 472bd9dc (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 3bf39332 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> cf971011 (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> e7da37af (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 6d05deed (.)
+=======
+- MAI usare percorsi che includono `<nome progetto>` o altri nomi specifici
+>>>>>>> 39bb163e (.)
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
 ### Formato Corretto
 ```markdown
@@ -120,10 +773,161 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+>>>>>>> laraxot/develop
 [Documento Correlato](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/documento.md)
 [Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
 [Documento in Sottodirectory](https://github.com/<nome progetto>/progetto/blob/main/docs/documento.md)
 [Documento in Modulo Altro](C:\progetti\<nome progetto>\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento Correlato](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 ```
 
 ### Checklist di Validazione
@@ -221,3 +1025,60 @@ Questo documento descrive le regole fondamentali per la creazione e la manutenzi
 - Una buona documentazione riduce il tempo di onboarding
 - La documentazione deve evolversi insieme al codice
 - I collegamenti bidirezionali sono essenziali per la navigabilità
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> 39bb163e (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop

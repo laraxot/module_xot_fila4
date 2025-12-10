@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -16,6 +17,97 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Model;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Staudenmeir\LaravelAdjacencyList\Eloquent\Collection;
 use Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors;
@@ -28,6 +120,15 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings;
 /**
  * Modules\Xot\Contracts\HasRecursiveRelationshipsContract.
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
  * @property int $id
  * @property string $name
  * @property int $depth
@@ -47,6 +148,20 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings;
  * @property int|null $descendants_and_self_count
  * @property Collection<static> $parentAndSelf The model's direct parent and itself.
  * @property int|null $parent_and_self_count
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  * @property int                $id
  * @property string $name
  * @property int                $depth
@@ -66,6 +181,25 @@ use Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings;
  * @property int|null           $descendants_and_self_count
  * @property Collection<static> $parentAndSelf              The model's direct parent and itself.
  * @property int|null           $parent_and_self_count
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  *
  * @phpstan-require-extends Model
  *
@@ -80,6 +214,15 @@ interface HasRecursiveRelationshipsContract
 
     /**
      * Get the name of the parent key column.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      */
     public function getParentKeyName(): string;
 
@@ -92,6 +235,20 @@ interface HasRecursiveRelationshipsContract
      * Get the path separator.
      */
     public function getPathSeparator(): string;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      *
      * @return string
      */
@@ -138,10 +295,38 @@ interface HasRecursiveRelationshipsContract
      * @return string
      */
     public function getPathSeparator();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the additional custom paths.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @return array<string>
      */
     public function getCustomPaths(): array;
@@ -150,6 +335,20 @@ interface HasRecursiveRelationshipsContract
      * Get the name of the common table expression.
      */
     public function getExpressionName(): string;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return array
      */
     public function getCustomPaths();
@@ -160,43 +359,186 @@ interface HasRecursiveRelationshipsContract
      * @return string
      */
     public function getExpressionName();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the model's ancestors.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors<static>
+<<<<<<< HEAD
      */
     public function ancestors(): Ancestors;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function ancestors(): Ancestors;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      *
      * @return Ancestors
      */
     public function ancestors();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the model's ancestors and itself.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors<static>
+<<<<<<< HEAD
      */
     public function ancestorsAndSelf(): Ancestors;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function ancestorsAndSelf(): Ancestors;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      *
      * @return Ancestors
      */
     public function ancestorsAndSelf();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the model's bloodline.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Bloodline<static>
+<<<<<<< HEAD
      */
     public function bloodline(): Bloodline;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function bloodline(): Bloodline;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      *
      * @return Bloodline
      */
     public function bloodline();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the model's children.
      *
+<<<<<<< HEAD
      * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
      */
     public function children(): HasMany;
@@ -215,54 +557,263 @@ interface HasRecursiveRelationshipsContract
      * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
      *
      * @return HasMany
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function children(): HasMany;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+     *
+     * @return HasMany
+=======
+     * @return HasMany<Model, Model>
+>>>>>>> b7afadf9 (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
+     *
+     * @return HasMany
+>>>>>>> 71586de2 (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
+     *
+     * @return HasMany
+>>>>>>> 249a0067 (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
+     *
+     * @return HasMany
+>>>>>>> 53d6a6ba (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
+     *
+     * @return HasMany
+>>>>>>> 71586de2 (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
+     *
+     * @return HasMany
+>>>>>>> 249a0067 (.)
+     */
+    public function children();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
+     *
+     * @return HasMany
+=======
+     * @return HasMany<Model, Model>
+>>>>>>> b7afadf9 (.)
+     */
+    public function children();
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> laraxot/develop
      * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
      *
      * @return HasMany
      */
     public function children();
+<<<<<<< HEAD
      * return \Illuminate\Database\Eloquent\Relations\HasMany<static>
      *
      * @return HasMany
      * @return HasMany<Model, Model>
      */
     public function children();
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the model's children and itself.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Descendants<static>
+<<<<<<< HEAD
      */
     public function childrenAndSelf(): Descendants;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function childrenAndSelf(): Descendants;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      *
      * @return Descendants
      */
     public function childrenAndSelf();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the model's descendants.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Descendants<static>
+<<<<<<< HEAD
      */
     public function descendants(): Descendants;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function descendants(): Descendants;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      *
      * @return Descendants
      */
     public function descendants();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the model's descendants and itself.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Descendants<static>
+<<<<<<< HEAD
      */
     public function descendantsAndSelf(): Descendants;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function descendantsAndSelf(): Descendants;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      *
      * @return Descendants
      */
     public function descendantsAndSelf();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the model's parent.
      *
+<<<<<<< HEAD
      * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
      */
     public function parent(): BelongsTo;
@@ -292,21 +843,158 @@ interface HasRecursiveRelationshipsContract
      * @return BelongsTo<Model, Model>
      */
     public function parent();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function parent(): BelongsTo;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+     *
+     * @return BelongsTo
+=======
+     * @return BelongsTo<Model, Model>
+>>>>>>> b7afadf9 (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
+     *
+     * @return BelongsTo
+>>>>>>> 71586de2 (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
+     *
+     * @return BelongsTo
+>>>>>>> 249a0067 (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
+     *
+     * @return BelongsTo
+>>>>>>> 53d6a6ba (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
+     *
+     * @return BelongsTo
+>>>>>>> 71586de2 (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
+     *
+     * @return BelongsTo
+>>>>>>> 249a0067 (.)
+     */
+    public function parent();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
+     *
+     * @return BelongsTo
+=======
+     * @return BelongsTo<Model, Model>
+>>>>>>> b7afadf9 (.)
+     */
+    public function parent();
+>>>>>>> 5a14301c (.)
+=======
+     * return \Illuminate\Database\Eloquent\Relations\BelongsTo<static, static>
+     *
+<<<<<<< HEAD
+     * @return BelongsTo
+=======
+<<<<<<< HEAD
+     * @return BelongsTo
+=======
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+     */
+    public function parent();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the model's parent and itself.
      *
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Ancestors<static>
+<<<<<<< HEAD
      */
     public function parentAndSelf(): Ancestors;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function parentAndSelf(): Ancestors;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      *
      * @return Ancestors
      */
     public function parentAndSelf();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the model's root ancestor.
      *
+<<<<<<< HEAD
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
      */
     public function rootAncestor(): RootAncestor;
@@ -325,17 +1013,102 @@ interface HasRecursiveRelationshipsContract
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
      *
      * @return RootAncestor
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function rootAncestor(): RootAncestor;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+     *
+     * @return RootAncestor
+=======
+     * @return RootAncestor<Model, Model>
+>>>>>>> b7afadf9 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
+     *
+     * @return RootAncestor
+>>>>>>> 71586de2 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
+     *
+     * @return RootAncestor
+>>>>>>> 249a0067 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
+     *
+     * @return RootAncestor
+>>>>>>> 53d6a6ba (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
+     *
+     * @return RootAncestor
+>>>>>>> 71586de2 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
+     *
+     * @return RootAncestor
+>>>>>>> 249a0067 (.)
+     */
+    public function rootAncestor();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
+     *
+     * @return RootAncestor
+=======
+     * @return RootAncestor<Model, Model>
+>>>>>>> b7afadf9 (.)
+     */
+    public function rootAncestor();
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> laraxot/develop
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
      *
      * @return RootAncestor
      */
     public function rootAncestor();
+<<<<<<< HEAD
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\RootAncestor<static>
      *
      * @return RootAncestor
      * @return RootAncestor<Model, Model>
      */
     public function rootAncestor();
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the model's root ancestor or self.
@@ -347,6 +1120,7 @@ interface HasRecursiveRelationshipsContract
     /**
      * Get the model's siblings.
      *
+<<<<<<< HEAD
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
      */
     public function siblings(): Siblings;
@@ -365,22 +1139,125 @@ interface HasRecursiveRelationshipsContract
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
      *
      * @return Siblings
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function siblings(): Siblings;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+     *
+     * @return Siblings
+=======
+     * @return Siblings<Model, Model>
+>>>>>>> b7afadf9 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+>>>>>>> 71586de2 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+>>>>>>> 249a0067 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+>>>>>>> 53d6a6ba (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+>>>>>>> 71586de2 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+>>>>>>> 249a0067 (.)
+     */
+    public function siblings();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+=======
+     * @return Siblings<Model, Model>
+>>>>>>> b7afadf9 (.)
+     */
+    public function siblings();
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> laraxot/develop
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
      *
      * @return Siblings
      */
     public function siblings();
+<<<<<<< HEAD
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
      *
      * @return Siblings
      * @return Siblings<Model, Model>
      */
     public function siblings();
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get the model's siblings and itself.
      *
+<<<<<<< HEAD
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      */
     public function siblingsAndSelf(): Siblings;
 
@@ -398,6 +1275,7 @@ interface HasRecursiveRelationshipsContract
      * Determine if an attribute is an integer.
      */
     public function isIntegerAttribute(string $attribute): bool;
+<<<<<<< HEAD
      *
      * @return Siblings
      * @return Siblings<Model, Model>
@@ -420,6 +1298,60 @@ interface HasRecursiveRelationshipsContract
      * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
      *
      * @return Siblings
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+     *
+     * @return Siblings
+=======
+     * @return Siblings<Model, Model>
+>>>>>>> b7afadf9 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+>>>>>>> 71586de2 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+>>>>>>> 249a0067 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+>>>>>>> 5a14301c (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+>>>>>>> 53d6a6ba (.)
+=======
+     * @return Siblings<Model, Model>
+>>>>>>> b7afadf9 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+>>>>>>> 71586de2 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+>>>>>>> 249a0067 (.)
+=======
+     * return \Staudenmeir\LaravelAdjacencyList\Eloquent\Relations\Siblings<static>
+     *
+     * @return Siblings
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function siblingsAndSelf();
 
@@ -445,6 +1377,25 @@ interface HasRecursiveRelationshipsContract
      * @return bool
      */
     public function isIntegerAttribute($attribute);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * added by XOT, viene utilizzato nelle options delle select.

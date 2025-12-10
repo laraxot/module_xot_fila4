@@ -4,7 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Model\Update;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Support\Arr;
@@ -27,6 +38,7 @@ class MorphToManyAction
     /**
      * Execute the action to update morphToMany relationships.
      *
+<<<<<<< HEAD
      * @param  Model  $row  The model instance to update
      * @param  RelationDTO  $relationDTO  Data transfer object containing relation information
      * @param Model       $row         The model instance to update
@@ -39,6 +51,50 @@ class MorphToManyAction
      * @param RelationDTO $relationDTO Data transfer object containing relation information
      *
      * @throws Exception When data is not in correct format or relation is invalid
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  Model  $row  The model instance to update
+     * @param  RelationDTO  $relationDTO  Data transfer object containing relation information
+=======
+     * @param Model       $row         The model instance to update
+     * @param RelationDTO $relationDTO Data transfer object containing relation information
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model       $row         The model instance to update
+     * @param RelationDTO $relationDTO Data transfer object containing relation information
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model       $row         The model instance to update
+     * @param RelationDTO $relationDTO Data transfer object containing relation information
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model       $row         The model instance to update
+     * @param RelationDTO $relationDTO Data transfer object containing relation information
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model       $row         The model instance to update
+     * @param RelationDTO $relationDTO Data transfer object containing relation information
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model       $row         The model instance to update
+     * @param RelationDTO $relationDTO Data transfer object containing relation information
+>>>>>>> 5a14301c (.)
+     *
+<<<<<<< HEAD
+     * @throws Exception When data is not in correct format or relation is invalid
+=======
+<<<<<<< HEAD
+     * @throws Exception When data is not in correct format or relation is invalid
+=======
+     * @throws \Exception When data is not in correct format or relation is invalid
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
      */
     public function execute(Model $row, RelationDTO $relationDTO): void
     {
@@ -48,6 +104,7 @@ class MorphToManyAction
         $model = $row;
 
         if (\in_array('to', array_keys($data), false) || \in_array('from', array_keys($data), false)) {
+<<<<<<< HEAD
             if (! isset($data['to'])) {
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
@@ -113,41 +170,1075 @@ class MorphToManyAction
             if (!isset($data['to'])) {
             if (! isset($data['to'])) {
             if (! isset($data['to'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (! isset($data['to'])) {
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+            if (!isset($data['to'])) {
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 17684f52 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 17684f52 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 17684f52 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> a12f125f4a (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> b93ef594b4 (.)
+=======
+            if (! isset($data['to'])) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+            if (! isset($data['to'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+            if (! isset($data['to'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+            if (! isset($data['to'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+            if (! isset($data['to'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 9db27d12 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            if (! isset($data['to'])) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+            if (! isset($data['to'])) {
+>>>>>>> 71586de2 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            if (! isset($data['to'])) {
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            if (! isset($data['to'])) {
+>>>>>>> 71586de2 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
                 $data['to'] = [];
             }
             $data = $data['to'];
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         if (!\is_array($data)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         }
 
         if (!Arr::isAssoc($data)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         if (! \is_array($data)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
 
         if (! Arr::isAssoc($data)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
         if (!\is_array($data)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         }
 
         if (!Arr::isAssoc($data)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
         if (! \is_array($data)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
 
         if (! Arr::isAssoc($data)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
         if (!\is_array($data)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         }
 
         if (!Arr::isAssoc($data)) {
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> laraxot/develop
         if (! \is_array($data)) {
             throw new \Exception('['.__LINE__.']['.class_basename($this).']');
         }
 
         if (! Arr::isAssoc($data)) {
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
             $relation->sync($data);
 
             return;
@@ -155,6 +1246,7 @@ class MorphToManyAction
 
         foreach ($data as $k => $v) {
             if (\is_array($v)) {
+<<<<<<< HEAD
                 if (! isset($v['pivot'])) {
                 if (!isset($v['pivot'])) {
                 if (!isset($v['pivot'])) {
@@ -220,6 +1312,404 @@ class MorphToManyAction
                 if (!isset($v['pivot'])) {
                 if (! isset($v['pivot'])) {
                 if (! isset($v['pivot'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                if (! isset($v['pivot'])) {
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 5a14301c (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+                if (!isset($v['pivot'])) {
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 399f46d3 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 17684f52 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 399f46d3 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 399f46d3 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 17684f52 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 399f46d3 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 17684f52 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                if (!isset($v['pivot'])) {
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> a12f125f4a (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> b93ef594b4 (.)
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> ca9324a4 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+                if (! isset($v['pivot'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+                if (! isset($v['pivot'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+                if (! isset($v['pivot'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+                if (! isset($v['pivot'])) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+                if (!isset($v['pivot'])) {
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> ca9324a4 (.)
+=======
+                if (!isset($v['pivot'])) {
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 9db27d12 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 5a14301c (.)
+=======
+                if (!isset($v['pivot'])) {
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> ca9324a4 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 5a14301c (.)
+=======
+                if (!isset($v['pivot'])) {
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> ca9324a4 (.)
+=======
+                if (!isset($v['pivot'])) {
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> 71586de2 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 5a14301c (.)
+=======
+                if (!isset($v['pivot'])) {
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> ca9324a4 (.)
+=======
+                if (!isset($v['pivot'])) {
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> 71586de2 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 5a14301c (.)
+=======
+                if (!isset($v['pivot'])) {
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
                     $v['pivot'] = [];
                 }
 

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Error;
@@ -15,11 +16,296 @@ use Error;
 use Error;
 use Error;
 use Error;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Error;
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+use Error;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+use Error;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+use Error;
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+use Error;
+>>>>>>> 71586de2 (.)
+=======
+use Error;
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+use Error;
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+use Error;
+>>>>>>> 71586de2 (.)
+=======
+use Error;
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
 use Filament\Schemas\Components\Component;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\StateContract;
 use Override;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 use Filament\Schemas\Components\Component;
 use Override;
 use Error;
@@ -28,8 +314,76 @@ use Illuminate\Support\Str;
 use Modules\SaluteOra\Models\Appointment;
 use Modules\Xot\Contracts\StateContract;
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+use Webmozart\Assert\Assert;
+
+<<<<<<< HEAD
+=======
+=======
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Error;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Str;
+use Modules\SaluteOra\Models\Appointment;
+use Modules\Xot\Contracts\StateContract;
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
+use Webmozart\Assert\Assert;
+
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Support\Str;
+use Webmozart\Assert\Assert;
+
+use Illuminate\Support\Facades\Cache;
+use Modules\Xot\Contracts\StateContract;
+use Modules\SaluteOra\Models\Appointment;
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 /**
  * Widget per la panoramica degli appuntamenti per stato.
  * Mostra statistiche compatte degli appuntamenti raggruppati per stato.
@@ -37,27 +391,90 @@ use Webmozart\Assert\Assert;
 class StateOverviewWidget extends XotBaseWidget
 {
     /**
+<<<<<<< HEAD
      * Vista del widget.
      */
     protected string $view = 'xot::filament.widgets.state-overview';
 
     /**
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+     * Vista del widget.
+     */
+<<<<<<< HEAD
+    protected string $view = 'xot::filament.widgets.state-overview';
+
+=======
+<<<<<<< HEAD
+    protected string $view = 'xot::filament.widgets.state-overview';
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+    protected static string $view = 'xot::filament.widgets.state-overview';
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+    /**
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+>>>>>>> laraxot/develop
      * Titolo del widget.
      */
     public string $title = '';
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
     public string $stateClass;
 
     public string $model;
 
     public string $cacheKey = '';
 
+<<<<<<< HEAD
     /**
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+    /**
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * Vista del widget.
      */
     protected string $view = 'xot::filament.widgets.state-overview';
 
     /**
+<<<<<<< HEAD
      * Titolo del widget.
      */
     public string $title = '';
@@ -66,10 +483,71 @@ class StateOverviewWidget extends XotBaseWidget
      * Occupa tutta la larghezza disponibile.
      */
     protected int|string|array $columnSpan = 'full';
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+     * Titolo del widget.
+     */
+    public string $title = '';
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+    /**
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+     * Occupa tutta la larghezza disponibile.
+     */
+    protected int|string|array $columnSpan = 'full';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     /**
      * Intervallo di polling disabilitato per performance.
      */
+<<<<<<< HEAD
     /** @var class-string */
     protected static ?string $pollingInterval = null;
     protected static null|string $pollingInterval = null;
@@ -87,27 +565,216 @@ class StateOverviewWidget extends XotBaseWidget
     public string $stateClass;
 
     protected static ?string $pollingInterval = null;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    protected static ?string $pollingInterval = null;
+
+<<<<<<< HEAD
+    /** @var class-string */
+=======
+    protected static null|string $pollingInterval = null;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+    /**
+     * Intervallo di polling disabilitato per performance.
+     */
+>>>>>>> ab8cc3f3 (.)
+    protected static ?string $pollingInterval = null;
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+    protected static null|string $pollingInterval = null;
+
+<<<<<<< HEAD
+=======
+=======
+    protected static ?string $pollingInterval = null;
+
+<<<<<<< HEAD
+    /** @var class-string */
+=======
+    protected static null|string $pollingInterval = null;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+    /**
+     * Intervallo di polling disabilitato per performance.
+     */
+    protected static ?string $pollingInterval = null;
+
+>>>>>>> ab8cc3f3 (.)
+
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6dcebf8a (.)
+
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+    public string $stateClass;
+=======
+=======
+    protected static ?string $pollingInterval = null;
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+    protected static ?string $pollingInterval = null;
+
+=======
+
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+    public string $stateClass;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 53d6a6ba (.)
+=======
+<<<<<<< HEAD
+=======
+    /** @var class-string<\Illuminate\Database\Eloquent\Model> */
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+    public string $stateClass;
+
+>>>>>>> 249a0067 (.)
+=======
+=======
+    protected static ?string $pollingInterval = null;
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
     protected static ?string $pollingInterval = null;
 
     public string $stateClass;
 
+<<<<<<< HEAD
     public string $stateClass;
 
     public string $model;
 
     public string $cacheKey = '';
     protected static null|string $pollingInterval = null;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 53d6a6ba (.)
+=======
+<<<<<<< HEAD
+=======
+    /** @var class-string<\Illuminate\Database\Eloquent\Model> */
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+    public string $stateClass;
+
+>>>>>>> 249a0067 (.)
+    public string $model;
+
+    public string $cacheKey = '';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 5a14301c (.)
+    protected static null|string $pollingInterval = null;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+    
+    /**
+     * Intervallo di polling disabilitato per performance.
+     */
+    protected static ?string $pollingInterval = null;
+
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+    /**
+     * Intervallo di polling disabilitato per performance.
+     */
+    protected static null|string $pollingInterval = null;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     public string $stateClass;
     public string $model;
 
+<<<<<<< HEAD
     public string $cacheKey = '';
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+    public string $cacheKey = '';
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Schema del form (vuoto per questo widget).
      *
      * @return array<int|string, Component>
      */
+<<<<<<< HEAD
     #[Override]
     #[\Override]
     public string $cacheKey='';
@@ -121,16 +788,145 @@ class StateOverviewWidget extends XotBaseWidget
     public string $cacheKey='';
     public string $cacheKey = '';
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[\Override]
+=======
+    #[Override]
+=======
+    #[\Override]
+=======
+    #[Override]
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+=======
+    #[\Override]
+=======
+    #[Override]
+>>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    #[\Override]
+=======
+    #[Override]
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+    public string $cacheKey='';
+>>>>>>> d2b0a27 (.)
+    /**
+     * @return array<string, mixed>
+     */
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    #[Override]
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+    #[Override]
+>>>>>>> 71586de2 (.)
+=======
+    #[Override]
+>>>>>>> 249a0067 (.)
+=======
+    #[Override]
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+    public string $cacheKey='';
+=======
+    public string $cacheKey = '';
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> laraxot/develop
     /**
      * Schema del form (vuoto per questo widget).
      *
      * @return array<int|string, Component>
      */
+<<<<<<< HEAD
     #[Override]
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> laraxot/develop
     public string $cacheKey='';
     /**
      * Schema del form (vuoto per questo widget).
      *
+<<<<<<< HEAD
      * @return array<int|string, \Filament\Schemas\Components\Component>
      */
      * @return array<int|string, \Filament\Forms\Components\Component>
@@ -140,11 +936,115 @@ class StateOverviewWidget extends XotBaseWidget
     #[Override]
     #[Override]
     #[Override]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<int|string, \Filament\Schemas\Components\Component>
+     */
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+     * @return array<int|string, \Filament\Forms\Components\Component>
+     */
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+     * @return array<int|string, \Filament\Schemas\Components\Component>
+     */
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    #[Override]
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+    #[Override]
+>>>>>>> 71586de2 (.)
+=======
+    #[Override]
+>>>>>>> 249a0067 (.)
+=======
+    #[Override]
+>>>>>>> 5a14301c (.)
+=======
+     * @return array<int|string, \Filament\Schemas\Components\Component>
+     */
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     public function getFormSchema(): array
     {
         return [];
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     /**
      * Dati da passare alla vista.
      *
@@ -152,6 +1052,7 @@ class StateOverviewWidget extends XotBaseWidget
      */
     protected function getViewData(): array
     {
+<<<<<<< HEAD
         return [
             'states' => $this->getStates(),
             // 'title' => $this->getWidgetTitle(),
@@ -161,14 +1062,75 @@ class StateOverviewWidget extends XotBaseWidget
             //'title' => $this->getWidgetTitle(),
         ];
     }
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+        return [
+            'states' => $this->getStates(),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            // 'title' => $this->getWidgetTitle(),
+=======
+            //'title' => $this->getWidgetTitle(),
+>>>>>>> 5a14301c (.)
+=======
+            //'title' => $this->getWidgetTitle(),
+>>>>>>> 5a14301c (.)
+=======
+            //'title' => $this->getWidgetTitle(),
+>>>>>>> 5a14301c (.)
+=======
+            //'title' => $this->getWidgetTitle(),
+>>>>>>> 5a14301c (.)
+=======
+            //'title' => $this->getWidgetTitle(),
+>>>>>>> 5a14301c (.)
+=======
+            //'title' => $this->getWidgetTitle(),
+>>>>>>> 5a14301c (.)
+        ];
+    }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     protected function getCacheKey(): string
     {
         try {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
             $cacheKey = 'states-'.class_basename($this->model).'-'.class_basename($this->stateClass);
             $cacheKey = Str::slug($cacheKey);
             $this->cacheKey = $cacheKey;
 
+<<<<<<< HEAD
             $cacheKey = 'states-' . class_basename($this->model) . '-' . class_basename($this->stateClass);
             $cacheKey = Str::slug($cacheKey);
             $this->cacheKey = $cacheKey;
@@ -178,10 +1140,58 @@ class StateOverviewWidget extends XotBaseWidget
             $cacheKey = 'states-' . class_basename($this->model) . '-' . class_basename($this->stateClass);
             $cacheKey = Str::slug($cacheKey);
             $this->cacheKey = $cacheKey;
+=======
+=======
+            $cacheKey = 'states-' . class_basename($this->model) . '-' . class_basename($this->stateClass);
+            $cacheKey = Str::slug($cacheKey);
+            $this->cacheKey = $cacheKey;
+>>>>>>> 5a14301c (.)
+=======
+            $cacheKey = 'states-' . class_basename($this->model) . '-' . class_basename($this->stateClass);
+            $cacheKey = Str::slug($cacheKey);
+            $this->cacheKey = $cacheKey;
+>>>>>>> 5a14301c (.)
+=======
+            $cacheKey = 'states-' . class_basename($this->model) . '-' . class_basename($this->stateClass);
+            $cacheKey = Str::slug($cacheKey);
+            $this->cacheKey = $cacheKey;
+>>>>>>> 5a14301c (.)
+=======
+            $cacheKey = 'states-' . class_basename($this->model) . '-' . class_basename($this->stateClass);
+            $cacheKey = Str::slug($cacheKey);
+            $this->cacheKey = $cacheKey;
+>>>>>>> 5a14301c (.)
+=======
+            $cacheKey = 'states-' . class_basename($this->model) . '-' . class_basename($this->stateClass);
+            $cacheKey = Str::slug($cacheKey);
+            $this->cacheKey = $cacheKey;
+>>>>>>> 5a14301c (.)
+=======
+            $cacheKey = 'states-' . class_basename($this->model) . '-' . class_basename($this->stateClass);
+            $cacheKey = Str::slug($cacheKey);
+            $this->cacheKey = $cacheKey;
+>>>>>>> 5a14301c (.)
+            return $cacheKey;
+        } catch (Error $e) {
+            if ($this->cacheKey === '') {
+<<<<<<< HEAD
+=======
+=======
+    
+    
+
+=======
+>>>>>>> b93ef594b4 (.)
+
+    protected function getCacheKey(): string
+    {
+        try {
+>>>>>>> laraxot/develop
             $cacheKey = 'states-' . class_basename($this->model) . '-' . class_basename($this->stateClass);
             $cacheKey = Str::slug($cacheKey);
             $this->cacheKey = $cacheKey;
             return $cacheKey;
+<<<<<<< HEAD
         } catch (Error $e) {
             if ($this->cacheKey === '') {
                 $this->cacheKey = Str::uuid()->toString();
@@ -191,6 +1201,73 @@ class StateOverviewWidget extends XotBaseWidget
         }
     }
 
+=======
+<<<<<<< HEAD
+        }catch(Error $e){
+            if($this->cacheKey==''){
+>>>>>>> a12f125f4a (.)
+=======
+        } catch (Error $e) {
+            if ($this->cacheKey === '') {
+>>>>>>> b93ef594b4 (.)
+=======
+    
+    
+
+
+    protected function getCacheKey(): string
+    {
+        try{
+            $cacheKey = 'states-' . class_basename($this->model).'-'.class_basename($this->stateClass);
+            $cacheKey = Str::slug($cacheKey);
+            $this->cacheKey = $cacheKey;
+            return $cacheKey;
+        }catch(\Error $e){
+            if($this->cacheKey==''){
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+                $this->cacheKey = Str::uuid()->toString();
+            }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+            return $this->cacheKey;
+        }
+    }
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     /**
      * Ottiene gli stati degli appuntamenti con statistiche.
      *
@@ -198,6 +1275,7 @@ class StateOverviewWidget extends XotBaseWidget
      */
     protected function getStates(): array
     {
+<<<<<<< HEAD
         /** @var array<int, array<string, mixed>> $res */
         $res = Cache::remember($this->getCacheKey(), now()->addMinutes(5), $this->calculateStates(...));
 
@@ -210,6 +1288,204 @@ class StateOverviewWidget extends XotBaseWidget
         return $res;
     }
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+        /** @var array<int, array<string, mixed>> $res */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        $res = Cache::remember($this->getCacheKey(), now()->addMinutes(5), $this->calculateStates(...));
+
+        Assert::isArray($res);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+        /** @var array<int, array<string, mixed>> $res */
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+        $res = Cache::remember($this->getCacheKey(), now()->addMinutes(5), $this->calculateStates(...));
+
+        Assert::isArray($res);
+>>>>>>> 5a14301c (.)
+=======
+        $res = Cache::remember($this->getCacheKey(), now()->addMinutes(5), $this->calculateStates(...));
+
+        Assert::isArray($res);
+>>>>>>> 5a14301c (.)
+        return $res;
+    }
+
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+       
+        
+        $res= Cache::remember(
+            $this->getCacheKey(),
+            now()->addMinutes(5),
+            fn () => $this->calculateStates()
+        );
+<<<<<<< HEAD
+=======
+        $res = Cache::remember($this->getCacheKey(), now()->addMinutes(5), $this->calculateStates(...));
+>>>>>>> b93ef594b4 (.)
+
+        Assert::isArray($res);
+        return $res;
+    }
+<<<<<<< HEAD
+    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+
+        Assert::isArray($res);
+        return $res;
+        
+    }
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     /**
      * Calcola le statistiche degli stati degli appuntamenti.
      *
@@ -218,17 +1494,96 @@ class StateOverviewWidget extends XotBaseWidget
     protected function calculateStates(): array
     {
         $states = [];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
         Assert::isArray($states);
 
         if (! class_exists($this->model) || ! class_exists($this->stateClass)) {
             return $states;
         }
+<<<<<<< HEAD
 
         $modelInstance = app($this->model);
 
 
         $modelInstance = app($this->model);
 
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+
+        $modelInstance = app($this->model);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        $modelInstance = app($this->model);
+
+>>>>>>> 249a0067 (.)
+=======
+
+        $modelInstance = app($this->model);
+
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
         $stateMappingCollection = $this->stateClass::getStateMapping();
         if (! is_object($stateMappingCollection) || ! method_exists($stateMappingCollection, 'toArray')) {
             return [];
@@ -247,10 +1602,35 @@ class StateOverviewWidget extends XotBaseWidget
                 'icon' => $this->cleanIconName($state->icon()),
                 'color' => $state->bgColor(),
                 'count' => $this->getCountForState($stateName),
+<<<<<<< HEAD
 
         $modelInstance = app($this->model);
 
         $stateMapping = $this->stateClass::getStateMapping()->toArray();
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+
+        $modelInstance = app($this->model);
+
+>>>>>>> 53d6a6ba (.)
+        $stateMapping = $this->stateClass::getStateMapping()->toArray();
+=======
+=======
+>>>>>>> 300ef70 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+>>>>>>> laraxot/develop
 
         $modelInstance = app($this->model);
 
@@ -261,14 +1641,84 @@ class StateOverviewWidget extends XotBaseWidget
 
         $stateMapping = $stateMappingResult->toArray();
         Assert::isArray($stateMapping);
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
         $modelInstance = app($this->model);
 
         $stateMapping = $this->stateClass::getStateMapping()->toArray();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> laraxot/develop
 
         $modelInstance = app($this->model);
 
         $stateMapping = $this->stateClass::getStateMapping()->toArray();
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> laraxot/develop
 
         $modelInstance = app($this->model);
 
@@ -279,10 +1729,64 @@ class StateOverviewWidget extends XotBaseWidget
 
         $stateMapping = $stateMappingResult->toArray();
         Assert::isArray($stateMapping);
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> laraxot/develop
 
         $modelInstance = app($this->model);
 
         $stateMapping = $this->stateClass::getStateMapping()->toArray();
+<<<<<<< HEAD
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+
+        foreach ($stateMapping as $name => $stateClass) {
+            $state = new $stateClass($modelInstance);
+            Assert::isInstanceOf($state, StateContract::class);
+            $states[] = [
+                'name' => $name,
+                'label' => $state->label(),
+                'icon' => $this->cleanIconName($state->icon()),
+                'color' => $state->bgColor(),
+                'count' => $this->getCountForState($name),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+            ];
+        }
+
+        return $states;
+    }
+
+<<<<<<< HEAD
+=======
+=======
+        
+        
+=======
+
+>>>>>>> b93ef594b4 (.)
+        $modelInstance = app($this->model);
+
+        $stateMapping = $this->stateClass::getStateMapping()->toArray();
+>>>>>>> laraxot/develop
 
         foreach ($stateMapping as $name => $stateClass) {
             $state = new $stateClass($modelInstance);
@@ -298,7 +1802,43 @@ class StateOverviewWidget extends XotBaseWidget
 
         return $states;
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+        
+        $modelInstance = app($this->model);
+        
+        $stateMapping = $this->stateClass::getStateMapping()->toArray();
+        
+        foreach ($stateMapping as $name => $stateClass) {
+           
+                
+                $state = new $stateClass($modelInstance);
+                Assert::isInstanceOf($state, StateContract::class);                
+                $states[] = [
+                    'name' => $name,
+                    'label' => $state->label(),
+                    'icon' => $this->cleanIconName($state->icon()),
+                    'color' => $state->bgColor(),
+                    'count' => $this->getCountForState($name),
+                ];
+           
+        }
+        
+        return $states;
+    }
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     /**
      * Ottiene il conteggio degli appuntamenti per uno stato specifico.
      * IMPORTANTE: Mostra TUTTI gli appuntamenti, non filtrati per utente.
@@ -306,17 +1846,71 @@ class StateOverviewWidget extends XotBaseWidget
      */
     protected function getCountForState(string $stateName): int
     {
+<<<<<<< HEAD
         /** @var Builder<Model> $query */
         /** @var \Illuminate\Database\Eloquent\Builder<\Illuminate\Database\Eloquent\Model> $query */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        /** @var Builder<Model> $query */
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 249a0067 (.)
+        /** @var \Illuminate\Database\Eloquent\Builder<\Illuminate\Database\Eloquent\Model> $query */
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
         $query = $this->model::where('state', $stateName);
         $count = $query->count();
 
         return is_int($count) ? $count : (int) $count;
+<<<<<<< HEAD
         return $this->model::where('state', $stateName)->count();
         return $this->model::where('state', $stateName)->count();
         return $this->model::where('state', $stateName)->count();
     }
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return $this->model::where('state', $stateName)->count();
+>>>>>>> 5a14301c (.)
+=======
+        return $this->model::where('state', $stateName)->count();
+>>>>>>> 5a14301c (.)
+=======
+        return $this->model::where('state', $stateName)->count();
+>>>>>>> 5a14301c (.)
+=======
+        return $this->model::where('state', $stateName)->count();
+>>>>>>> 5a14301c (.)
+    }
+
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
         $query = $this->model::where('state', $stateName);
         if (! is_object($query) || ! method_exists($query, 'count')) {
             return 0;
@@ -326,6 +1920,7 @@ class StateOverviewWidget extends XotBaseWidget
         Assert::integer($count);
 
         return $count;
+<<<<<<< HEAD
     }
 
         return $this->model::where('state', $stateName)->count();
@@ -342,6 +1937,97 @@ class StateOverviewWidget extends XotBaseWidget
         return $this->model::where('state', $stateName)->count();
     }
 
+=======
+=======
+>>>>>>> 249a0067 (.)
+    }
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+        return $this->model::where('state', $stateName)->count();
+=======
+>>>>>>> 249a0067 (.)
+=======
+        return $this->model::where('state', $stateName)->count();
+>>>>>>> 5a14301c (.)
+    }
+
+=======
+=======
+>>>>>>> b7afadf9 (.)
+        return $this->model::where('state', $stateName)->count();
+    }
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        return $this->model::where('state', $stateName)->count();
+    }
+
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        return $this->model::where('state', $stateName)->count();
+    }
+
+>>>>>>> 71586de2 (.)
+=======
+        return $this->model::where('state', $stateName)->count();
+    }
+
+>>>>>>> 5a14301c (.)
+=======
+=======
+    
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     /**
      * Pulisce il nome dell'icona rimuovendo prefissi non necessari.
      */
@@ -349,5 +2035,22 @@ class StateOverviewWidget extends XotBaseWidget
     {
         // Rimuove prefissi comuni come 'heroicon-o-' se presenti
         return str_replace(['heroicon-o-', 'heroicon-s-'], '', $iconName);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 }

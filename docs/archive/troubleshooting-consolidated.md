@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 # Troubleshooting - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTI i problemi comuni e le soluzioni del progetto
@@ -17,7 +59,15 @@ Questo documento sostituisce e consolida **35+ file di troubleshooting duplicati
 - Qualsiasi documentazione troubleshooting specifica di modulo
 
 ### ✅ Unica Fonte di Verità
+<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/docs/troubleshooting-consolidated.md`
+=======
+<<<<<<< HEAD
+- **Questo file**: `/laravel/Modules/Xot/docs/troubleshooting-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/troubleshooting-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 - **Implementazione**: Fix nei singoli moduli (solo fix, non docs)
 
 ## Problemi Comuni e Soluzioni
@@ -206,7 +256,255 @@ Codice non conforme agli standard di tipizzazione.
 **Soluzione**
 ```bash
 # Eseguire da directory Laravel
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 55fe1822 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 55fe1822 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -430,9 +728,488 @@ public function test_b(): void
 }
 ```
 
+<<<<<<< HEAD
 ### Errore: Conflitti Git
 
 **Sintomo**
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+### Errore: Conflitti Git
+
+<<<<<<< HEAD
+**Sintomo**
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+<<<<<<< HEAD
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 71f31700 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> c35986f4 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 71f31700 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 71f31700 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> c35986f4 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 33af3e61 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 5bd842e3 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 03ceeac3 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 71f31700 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> c35986f4 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 33af3e61 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 5bd842e3 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 03ceeac3 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 71f31700 (.)
+```
+<<<<<<< HEAD
+// Codice locale
+=======
+// Codice remoto
+>>>>>>> branch-name
+```
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> ba1d49f3 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> ba1d49f3 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 0123915b (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+### Errore: Conflitti Git
+
+**Sintomo**
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 **Soluzione**
 1. **Analizzare i conflitti**:
@@ -594,3 +1371,51 @@ php artisan view:clear
 *Ultimo aggiornamento: 2025-08-04*
 *Modulo: Xot*
 *Categoria: Troubleshooting*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

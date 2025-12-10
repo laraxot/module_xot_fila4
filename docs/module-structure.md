@@ -29,6 +29,62 @@ ModuleName/
 ├── routes/
 ├── tests/
 └── composer.json
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+# Struttura dei Moduli in <nome progetto>
+
+Questo documento definisce le linee guida ufficiali per la struttura dei moduli all'interno del framework <nome progetto>.
+
+<<<<<<< HEAD
+>>>>>>> 7ce328e (.)
+=======
+>>>>>>> 995f7cae (.)
+---
+
+## Gestione dati geografici statici: GeoJsonModel readonly (ispirato a Squire)
+
+Per tutti i dati geografici statici (regioni, province, comuni, cap) di dimensioni gestibili, NON creare tabelle/migration dedicate. Utilizzare invece un modello base readonly (`GeoJsonModel`) che legge i dati direttamente da file JSON (es: `Modules/Geo/resources/json/comuni.json`).
+
+- I model specialistici (Region, Province, City, Cap) devono estendere la base GeoJsonModel e fornire metodi di filtro.
+- Versionare sempre il file json e documentare la struttura.
+- Aggiornare la documentazione di Geo/docs, SaluteOra/docs e questa stessa doc con collegamenti bidirezionali.
+
+Per dettagli implementativi e best practice vedi:
+- [Geo/docs/geo-json-model.md](../../Geo/docs/geo-json-model.md)
+- [SaluteOra/docs/geo-integration.md](../../SaluteOra/docs/geo-integration.md)
+- [Questa stessa doc (Xot/module-structure.md)](module-structure.md)
+
+---
+
+## Service Provider
+
+### Convenzioni Base
+
+Ogni modulo deve avere un ServiceProvider che estende `XotBaseServiceProvider`. Questo provider è responsabile della registrazione delle risorse del modulo (routes, views, translations, etc.) nell'applicazione.
+
+```php
+<?php
+
+declare(strict_types=1);
+
+namespace Modules\NomeModulo\Providers;
+
+use Modules\Xot\Providers\XotBaseServiceProvider;
+
+class NomeModuloServiceProvider extends XotBaseServiceProvider {
+    // Implementazione
+}
+<<<<<<< HEAD
+>>>>>>> 7dd92412 (.)
+>>>>>>> b258042 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 ```
 
 ## Collegamenti
@@ -40,10 +96,23 @@ ModuleName/
 - [Namespace Rules](./NAMESPACE-RULES.md) - Regole per i namespace
 
 ### Moduli Collegati
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [UI](../UI/docs/README.md) - Componenti di interfaccia
+- [Cms](../Cms/docs/README.md) - Gestione contenuti
+- [Lang](../Lang/docs/README.md) - Traduzioni
+- [User](../User/docs/README.md) - Gestione utenti
+=======
+>>>>>>> laraxot/develop
 - [UI](../UI/project_docs/README.md) - Componenti di interfaccia
 - [Cms](../Cms/project_docs/README.md) - Gestione contenuti
 - [Lang](../Lang/project_docs/README.md) - Traduzioni
 - [User](../User/project_docs/README.md) - Gestione utenti
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 ## Struttura Dettagliata
 
@@ -154,7 +223,15 @@ Utilizzare il comando di analisi per verificare la conformità:
 php artisan xot:analyze-naming
 ```
 
+<<<<<<< HEAD
 Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
+=======
+<<<<<<< HEAD
+Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/docs/convenzioni-naming-campi.md).
+=======
+Per ulteriori dettagli, consultare la [documentazione completa sulle convenzioni di naming](/project_docs/convenzioni-naming-campi.md).
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 ## Esempi
 
@@ -201,6 +278,76 @@ User/
 ## Collegamenti Moduli
 
 ### Modulo UI
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [Componenti Volt](../UI/docs/components/volt.md)
+- [Layout](../UI/docs/layouts.md)
+- [Temi](../UI/docs/themes.md)
+- [Best Practices](../UI/docs/best-practices.md)
+
+### Modulo Cms
+- [Frontend](../Cms/docs/frontend.md)
+- [Temi](../Cms/docs/themes.md)
+- [Contenuti](../Cms/docs/content.md)
+- [Convenzioni Filament](../Cms/docs/convenzioni-namespace-filament.md)
+
+### Modulo Lang
+- [Traduzioni](../Lang/docs/translations.md)
+- [Localizzazione](../Lang/docs/localization.md)
+- [API Traduzioni](../Lang/docs/api.md)
+
+### Modulo User
+- [Autenticazione](../User/docs/auth.md)
+- [Permessi](../User/docs/permissions.md)
+- [Profilo](../User/docs/profile.md)
+
+### Modulo Patient
+- [Gestione Pazienti](../Patient/docs/patients.md)
+- [Cartelle Cliniche](../Patient/docs/records.md)
+- [Appuntamenti](../Patient/docs/appointments.md)
+
+### Modulo Dental
+- [Trattamenti](../Dental/docs/treatments.md)
+- [Pianificazione](../Dental/docs/planning.md)
+- [Documenti](../Dental/docs/documents.md)
+
+### Modulo Tenant
+- [Multi-tenant](../Tenant/docs/multi-tenant.md)
+- [Configurazione](../Tenant/docs/configuration.md)
+- [Migrazione](../Tenant/docs/migration.md)
+
+### Modulo Media
+- [Gestione File](../Media/docs/files.md)
+- [Upload](../Media/docs/upload.md)
+- [Storage](../Media/docs/storage.md)
+
+### Modulo Notify
+- [Notifiche](../Notify/docs/notifications.md)
+- [Email](../Notify/docs/email.md)
+- [SMS](../Notify/docs/sms.md)
+
+### Modulo Reporting
+- [Report](../Reporting/docs/reports.md)
+- [Esportazione](../Reporting/docs/export.md)
+- [Analytics](../Reporting/docs/analytics.md)
+
+### Modulo Gdpr
+- [Privacy](../Gdpr/docs/privacy.md)
+- [Consensi](../Gdpr/docs/consents.md)
+- [Sicurezza](../Gdpr/docs/security.md)
+
+### Modulo Job
+- [Jobs](../Job/docs/jobs.md)
+- [Queue](../Job/docs/queue.md)
+- [Scheduling](../Job/docs/scheduling.md)
+
+### Modulo Chart
+- [Grafici](../Chart/docs/charts.md)
+- [Dashboard](../Chart/docs/dashboard.md)
+- [Visualizzazione](../Chart/docs/visualization.md)
+=======
+>>>>>>> laraxot/develop
 - [Componenti Volt](../UI/project_docs/components/volt.md)
 - [Layout](../UI/project_docs/layouts.md)
 - [Temi](../UI/project_docs/themes.md)
@@ -266,6 +413,10 @@ User/
 - [Grafici](../Chart/project_docs/charts.md)
 - [Dashboard](../Chart/project_docs/dashboard.md)
 - [Visualizzazione](../Chart/project_docs/visualization.md)
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 # Struttura dei Moduli Laravel
 
@@ -408,5 +559,13 @@ Se trovi una directory con case errato:
 6. Committa le modifiche
 
 ## Collegamenti tra versioni di module_structure.md
+<<<<<<< HEAD
 * [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
+=======
+<<<<<<< HEAD
+* [module_structure.md](../../../../docs/error_analysis/module_structure.md)
+=======
+* [module_structure.md](../../../../project_docs/error_analysis/module_structure.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 

@@ -54,7 +54,11 @@ MCP agisce come un **"ponte universale"** tra il tuo IDE/AI assistant e:
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
+<<<<<<< HEAD
         "/var/www/_bases/base_quaeris_fila4_mono"
+=======
+        "/var/www/_bases/base_<nome progetto>_fila4_mono"
+>>>>>>> laraxot/develop
       ]
     },
     "brave-search": {
@@ -123,9 +127,15 @@ MCP agisce come un **"ponte universale"** tra il tuo IDE/AI assistant e:
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
+<<<<<<< HEAD
         "/var/www/_bases/base_quaeris_fila4_mono/laravel",
         "/var/www/_bases/base_quaeris_fila4_mono/Modules",
         "/var/www/_bases/base_quaeris_fila4_mono/Themes"
+=======
+        "/var/www/_bases/base_<nome progetto>_fila4_mono/laravel",
+        "/var/www/_bases/base_<nome progetto>_fila4_mono/Modules",
+        "/var/www/_bases/base_<nome progetto>_fila4_mono/Themes"
+>>>>>>> laraxot/develop
       ]
     },
     "github": {
@@ -243,7 +253,11 @@ Cline ha un **MCP Marketplace** integrato per installare server con 1 click.
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
+<<<<<<< HEAD
         "/var/www/_bases/base_quaeris_fila4_mono"
+=======
+        "/var/www/_bases/base_<nome progetto>_fila4_mono"
+>>>>>>> laraxot/develop
       ]
     },
     "github": {
@@ -538,5 +552,9 @@ iflow
 
 ## Licenza
 
+<<<<<<< HEAD
 Questa documentazione è parte del progetto **base_quaeris_fila4_mono** ed è soggetta alla stessa licenza del progetto principale.
+=======
+Questa documentazione è parte del progetto **base_<nome progetto>_fila4_mono** ed è soggetta alla stessa licenza del progetto principale.
+>>>>>>> laraxot/develop
 

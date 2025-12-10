@@ -8,18 +8,30 @@ Analisi completa dell'architettura dei modelli Eloquent nel monorepo Laravel con
 
 - **Violazioni critiche trovate**: 5
 - **Linee di codice eliminate**: ~200+
+<<<<<<< HEAD
 - **Moduli interessati**: 4 (Geo, Cms, Quaeris, User)
+=======
+- **Moduli interessati**: 4 (Geo, Cms, <nome progetto>, User)
+>>>>>>> laraxot/develop
 - **Impatto**: Riduzione drastica della duplicazione, miglioramento della manutenibilità
 
 ---
 
 ## Problemi Identificati e Risolti
 
+<<<<<<< HEAD
 ### 1. ❌ Quaeris\Models\BaseModel estendeva Model invece di XotBaseModel
 
 **Prima** (VIOLAZIONE CRITICA):
 ```php
 namespace Modules\Quaeris\Models;
+=======
+### 1. ❌ <nome progetto>\Models\BaseModel estendeva Model invece di XotBaseModel
+
+**Prima** (VIOLAZIONE CRITICA):
+```php
+namespace Modules\<nome progetto>\Models;
+>>>>>>> laraxot/develop
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -33,7 +45,11 @@ abstract class BaseModel extends Model
 
     public $incrementing = true;
     public $timestamps = true;
+<<<<<<< HEAD
     protected $connection = 'quaeris';
+=======
+    protected $connection = '<nome progetto>';
+>>>>>>> laraxot/develop
     protected $casts = ['published_at' => 'datetime', ...];
     protected $primaryKey = 'id';
     protected $hidden = [];
@@ -47,7 +63,11 @@ abstract class BaseModel extends Model
 
 **Dopo** (✅ DRY & KISS):
 ```php
+<<<<<<< HEAD
 namespace Modules\Quaeris\Models;
+=======
+namespace Modules\<nome progetto>\Models;
+>>>>>>> laraxot/develop
 
 use Modules\Xot\Models\XotBaseModel;
 
@@ -57,7 +77,11 @@ abstract class BaseModel extends XotBaseModel implements HasMedia, ModelContract
     use HasExtraTrait;
     use InteractsWithMedia;
 
+<<<<<<< HEAD
     protected $connection = 'quaeris';
+=======
+    protected $connection = '<nome progetto>';
+>>>>>>> laraxot/develop
     protected $with = ['extra'];
 }
 ```
@@ -342,7 +366,11 @@ BaseModel → BaseModelLang → Post
 
 | Modulo | Classe | Righe Prima | Righe Dopo | Riduzione |
 |--------|--------|-------------|------------|-----------|
+<<<<<<< HEAD
 | Quaeris | BaseModel | 66 | 20 | -70% |
+=======
+| <nome progetto> | BaseModel | 66 | 20 | -70% |
+>>>>>>> laraxot/develop
 | Geo | BasePivot | 59 | 8 | -86% |
 | Geo | BaseMorphPivot | 67 | 8 | -88% |
 | Cms | BasePivot | 60 | 8 | -87% |
@@ -504,4 +532,8 @@ Il refactoring ha applicato con successo i principi DRY e KISS alla gerarchia de
 
 *Refactoring completato: 15 ottobre 2025*
 *Analizzato da: Claude Code*
+<<<<<<< HEAD
 *Validato: ✅ Test passed, PHPStan level 9 passed*
+=======
+*Validato: ✅ Test passed, PHPStan level 10 passed*
+>>>>>>> laraxot/develop

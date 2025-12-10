@@ -8,7 +8,29 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\Pivot;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Relations\Pivot;
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Carbon;
@@ -16,6 +38,15 @@ use Illuminate\Support\Carbon;
 /**
  * Modules\Xot\Contracts\ModelContract.
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
  * @property int $id
  * @property int|null $user_id
  * @property string|null $post_type
@@ -46,6 +77,20 @@ use Illuminate\Support\Carbon;
  * @method array toArray()
  * @method BelongsTo user()
  * @method mixed getAttributeValue(string $key)
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  * @property int                $id
  * @property int|null           $user_id
  * @property string|null        $post_type
@@ -76,6 +121,25 @@ use Illuminate\Support\Carbon;
  * @method array     toArray()
  * @method BelongsTo user()
  * @method mixed     getAttributeValue(string $key)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  *
  * @phpstan-require-extends Model
  *
@@ -84,6 +148,15 @@ use Illuminate\Support\Carbon;
 interface ModelContract
 {
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * Save a new model and return the instance. Allow mass-assignment.
      *
      * @return Model|$this
@@ -92,6 +165,21 @@ interface ModelContract
      */
 
     /**
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * Duplicate the instance and unset all the loaded relations.
      *
      * @return $this
@@ -111,11 +199,41 @@ interface ModelContract
      * @return bool
      */
     public function save(array $options = []);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
     /**
      * Convert the model instance to an array representation.
      *
      * @return array<mixed>
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     /*
      * Save a new model and return the instance. Allow mass-assignment.
      *
@@ -123,17 +241,75 @@ interface ModelContract
      *
      * public function forceCreate(array $attributes);
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+    /*
+         * Save a new model and return the instance. Allow mass-assignment.
+         *
+         * @return \Illuminate\Database\Eloquent\Model|$this
+
+        public function forceCreate(array $attributes);
+        */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+    /*
+     * Save a new model and return the instance. Allow mass-assignment.
+     *
+     * @return \Illuminate\Database\Eloquent\Model|$this
+     *
+     * public function forceCreate(array $attributes);
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     /**
      * Convert the model instance to an array.
      *
      * @return array
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function toArray();
 
     /**
      * Get the value of the model's primary key.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @return mixed
      */
     public function getKey();
@@ -158,10 +334,43 @@ interface ModelContract
      */
     public function newInstance($attributes = [], $exists = false);
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return mixed|int|string
      */
     public function getKey();
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     /*
      * Add a basic where clause to the query.
      *
@@ -170,9 +379,40 @@ interface ModelContract
      * @param  mixed  $value
      * @param  string $boolean
      * @return $this
+<<<<<<< HEAD
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
+=======
+<<<<<<< HEAD
+     *
+     * public function where($column, $operator = null, $value = null, $boolean = 'and');
+     */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+     * public function where($column, $operator = null, $value = null, $boolean = 'and');
+     */
+=======
+=======
+>>>>>>> origin/develop
+
+    public function where($column, $operator = null, $value = null, $boolean = 'and');
+    */
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+     *
+     * public function where($column, $operator = null, $value = null, $boolean = 'and');
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     /*
      * Execute the query and get the first result or throw an exception.
      *
@@ -180,7 +420,37 @@ interface ModelContract
      * @return \Illuminate\Database\Eloquent\Model|static
      *
      * @throws \Illuminate\Database\Eloquent\ModelNotFoundException<\Illuminate\Database\Eloquent\Model>
+<<<<<<< HEAD
      *
      * public function firstOrFail($columns = ['*']);
      */
+=======
+<<<<<<< HEAD
+     *
+     * public function firstOrFail($columns = ['*']);
+     */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+     * public function firstOrFail($columns = ['*']);
+     */
+=======
+
+    public function firstOrFail($columns = ['*']);
+    */
+>>>>>>> a12f125f4a (.)
+=======
+     *
+     * public function firstOrFail($columns = ['*']);
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+
+    public function firstOrFail($columns = ['*']);
+    */
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 }

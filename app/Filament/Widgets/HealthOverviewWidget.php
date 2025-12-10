@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Widgets;
 
+<<<<<<< HEAD
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
@@ -22,6 +23,104 @@ use Filament\Widgets\StatsOverviewWidget\Stat;
 use Spatie\Health\Enums\Status;
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+use Spatie\Health\Enums\Status;
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Spatie\Health\Enums\Status;
+=======
+<<<<<<< HEAD
+use Spatie\Health\Enums\Status;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+>>>>>>> 5a14301c (.)
+=======
+use Spatie\Health\Enums\Status;
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+>>>>>>> 5a14301c (.)
+=======
+use Spatie\Health\Enums\Status;
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+>>>>>>> 5a14301c (.)
+=======
+use Spatie\Health\Enums\Status;
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+>>>>>>> 5a14301c (.)
+=======
+use Spatie\Health\Enums\Status;
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+>>>>>>> 5a14301c (.)
+=======
+use Spatie\Health\Enums\Status;
+use Filament\Widgets\StatsOverviewWidget as BaseWidget;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Spatie\Health\ResultStores\ResultStore;
 
 class HealthOverviewWidget extends BaseWidget
@@ -29,10 +128,29 @@ class HealthOverviewWidget extends BaseWidget
     public function iconColor(string $status): string
     {
         return match ($status) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             Status::ok()->value => 'success',
             Status::warning()->value => 'warning',
             Status::skipped()->value => 'warning',
             Status::failed()->value, Status::crashed()->value => 'danger',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+            \Spatie\Health\Enums\Status::ok()->value => 'success',
+            \Spatie\Health\Enums\Status::warning()->value => 'warning',
+            \Spatie\Health\Enums\Status::skipped()->value => 'warning',
+            \Spatie\Health\Enums\Status::failed()->value, \Spatie\Health\Enums\Status::crashed()->value => 'danger',
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             default => 'secondary',
         };
     }
@@ -42,17 +160,46 @@ class HealthOverviewWidget extends BaseWidget
         $stats = [];
 
         $checkResults = app(ResultStore::class)->latestResults();
+<<<<<<< HEAD
         if ($checkResults === null) {
         if (null === $checkResults) {
         if (null === $checkResults) {
         if (null === $checkResults) {
         if (null === $checkResults) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if ($checkResults === null) {
+=======
+        if (null === $checkResults) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $checkResults) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $checkResults) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $checkResults) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $checkResults) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $checkResults) {
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             return $stats;
         }
         foreach ($checkResults->storedCheckResults as $result) {
             $label = $result->label;
             $value = $result->shortSummary;
             $stats[] = Stat::make($label, $value)
+<<<<<<< HEAD
                 ->description($result->notificationMessage.' '.$result->status)
                 ->description($result->notificationMessage . ' ' . $result->status)
                 ->description($result->notificationMessage . ' ' . $result->status)
@@ -118,17 +265,448 @@ class HealthOverviewWidget extends BaseWidget
                 ->description($result->notificationMessage . ' ' . $result->status)
                 ->description($result->notificationMessage.' '.$result->status)
                 ->description($result->notificationMessage.' '.$result->status)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                ->description($result->notificationMessage.' '.$result->status)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 5a14301c (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 3fbbf1f5 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 399f46d3 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 17684f52 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 399f46d3 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 399f46d3 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 17684f52 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 399f46d3 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 17684f52 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> a12f125f4a (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> b93ef594b4 (.)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> ca9324a4 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+                ->description($result->notificationMessage.' '.$result->status)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+                ->description($result->notificationMessage.' '.$result->status)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> ca9324a4 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 9db27d12 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 5a14301c (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> ca9324a4 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 5a14301c (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> ca9324a4 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> 71586de2 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 5a14301c (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> ca9324a4 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> 71586de2 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 5a14301c (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+=======
+                ->description($result->notificationMessage.' '.$result->status)
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                ->description($result->notificationMessage . ' ' . $result->status)
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
                 // ->descriptionIcon('heroicon-m-arrow-trending-up')
                 ->color($this->iconColor($result->status));
         }
 
         /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
          * return [
          * Stat::make('Unique views', '192.1k'),
          * Stat::make('Bounce rate', '21%'),
          * Stat::make('Average time on page', '3:12'),
          * ];
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+        return [
+            Stat::make('Unique views', '192.1k'),
+            Stat::make('Bounce rate', '21%'),
+            Stat::make('Average time on page', '3:12'),
+        ];
+        */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         return $stats;
     }
 }

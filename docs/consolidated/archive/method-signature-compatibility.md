@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 # errore di compatibilità nelle firme dei metodi
 
 ## problema
@@ -16,7 +58,248 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 ```
 
 ```
+<<<<<<< HEAD
 Access level to Modules\<nome progetto>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Access level to Modules\<nome progetto>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+=======
+Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 5a14301c (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 399f46d3 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> d86d643a (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 472bd9dc (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> d86d643a (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> d86d643a (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 472bd9dc (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 3bf39332 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> cf971011 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> e7da37af (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> d86d643a (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 472bd9dc (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 3bf39332 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> cf971011 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> e7da37af (.)
+=======
+Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 43d67f21 (.)
+=======
+Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 5a14301c (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 43d67f21 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> b7ea1cd1 (.)
+=======
+Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 5a14301c (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 43d67f21 (.)
+=======
+Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 5a14301c (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 43d67f21 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> b7ea1cd1 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 76bec91a (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 55fe1822 (.)
+=======
+Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 5a14301c (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 43d67f21 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> b7ea1cd1 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 76bec91a (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 55fe1822 (.)
+=======
+Access level to Modules\<nome modulo>\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 5a14301c (.)
+=======
+Access level to Modules\SaluteOra\Filament\Resources\AppointmentWorkflowResource\Pages\WorkflowAppointment::getFormActionsAlignment() must be public (as in class Filament\Pages\BasePage)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 ```
 
 esempio di errore:
@@ -123,5 +406,313 @@ $returnType = $parentMethod->getReturnType();
 
 ## collegamento ad altre risorse
 
+<<<<<<< HEAD
 - [regole di ereditarietà in php](/var/www/html/base_<nome progetto>/laravel/project_docs/standards/php-inheritance-rules.md)
 - [estensione pattern filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [regole di ereditarietà in php](/var/www/html/base_<nome progetto>/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+- [regole di ereditarietà in php](/var/www/html/base_techplanner_fila3_mono/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](../Xot/project_docs/filament_extension_pattern.md)
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+- [regole di ereditarietà in php](/var/www/html/base_techplanner_fila3_mono/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](../Xot/project_docs/filament_extension_pattern.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 399f46d3 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> d86d643a (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 472bd9dc (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> d86d643a (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> d86d643a (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 472bd9dc (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 3bf39332 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> cf971011 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> e7da37af (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> d86d643a (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 472bd9dc (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 3bf39332 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> cf971011 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> e7da37af (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_techplanner_fila3_mono/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](../Xot/project_docs/filament_extension_pattern.md)
+- [regole di ereditarietà in php](/var/www/html/base_<nome progetto>/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+- [regole di ereditarietà in php](/var/www/html/base_techplanner_fila3_mono/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](../Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 76bec91a (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 76bec91a (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [regole di ereditarietà in php](/var/www/html/base_saluteora/laravel/project_docs/standards/php-inheritance-rules.md)
+- [estensione pattern filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament_extension_pattern.md)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

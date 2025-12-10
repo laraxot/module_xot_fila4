@@ -1,3 +1,47 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 # DatabaseSchemaExporter Command Documentation
 
 ## Overview
@@ -52,6 +96,7 @@ Tabelle trovate: users, migrations, password_resets
 - Ottimizzata la query di estrazione tabelle 
 
 ## Collegamenti tra versioni di database-schema-exporter.md
+<<<<<<< HEAD
 * [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
 
@@ -82,3 +127,244 @@ Tabelle trovate: users, migrations, password_resets
 * [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> b3cc10f7 (.)
+=======
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> b3cc10f7 (.)
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> 5bd842e3 (.)
+=======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> 03ceeac3 (.)
+=======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> 5a14301c (.)
+=======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> 71f31700 (.)
+=======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> 5bd842e3 (.)
+=======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> 03ceeac3 (.)
+=======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> 5a14301c (.)
+=======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

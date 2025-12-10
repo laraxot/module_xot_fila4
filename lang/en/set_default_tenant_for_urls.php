@@ -1,11 +1,48 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
 
 
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+declare(strict_types=1);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 return [
     'actions' => [
         'authenticate' => [
@@ -51,3 +88,75 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+return array (
+  'actions' => 
+  array (
+    'authenticate' => 
+    array (
+      'label' => 'authenticate',
+    ),
+    'login' => 
+    array (
+      'label' => 'login',
+    ),
+    'request' => 
+    array (
+      'label' => 'request',
+    ),
+    'test' => 
+    array (
+      'label' => 'test',
+    ),
+  ),
+  'fields' => 
+  array (
+    'email' => 
+    array (
+      'label' => 'email',
+      'description' => 'email',
+      'helper_text' => '',
+      'placeholder' => 'email',
+    ),
+    'password' => 
+    array (
+      'label' => 'password',
+      'description' => 'password',
+      'helper_text' => '',
+      'placeholder' => 'password',
+    ),
+    'remember' => 
+    array (
+      'label' => 'remember',
+      'description' => 'remember',
+      'helper_text' => '',
+      'placeholder' => 'remember',
+    ),
+    'cap' => 
+    array (
+      'description' => 'cap',
+      'helper_text' => 'cap',
+      'placeholder' => 'cap',
+      'label' => 'cap',
+    ),
+    'city' => 
+    array (
+      'description' => 'city',
+    ),
+  ),
+);
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop

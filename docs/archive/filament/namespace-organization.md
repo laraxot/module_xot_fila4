@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 # Organizzazione dei Namespace Filament nel Modulo Xot
 
 ## Problema Identificato: Duplicazione di Classi Base
@@ -63,6 +105,324 @@ Questo errore indica che un metodo è stato erroneamente definito come statico q
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Documentazione Filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
 - [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
 - [Linee Guida per l'Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Documentazione Filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+- [Documentazione Filament](../Xot/docs/filament/filament_best_practices.md)
+- [XotBasePage](../Xot/docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](../Xot/docs/filament/filament_inheritance_guidelines.md)
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_inheritance_guidelines.md)
+- [Documentazione Filament](../Xot/docs/filament/filament_best_practices.md)
+- [XotBasePage](../Xot/docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](../Xot/docs/filament/filament_inheritance_guidelines.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/filament_inheritance_guidelines.md)
+
+=======
+- [Documentazione Filament](../Xot/docs/filament/filament_best_practices.md)
+- [XotBasePage](../Xot/docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](../Xot/docs/filament/filament_inheritance_guidelines.md)
+- [Documentazione Filament](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament/filament_inheritance_guidelines.md)
+- [Documentazione Filament](../Xot/docs/filament/filament_best_practices.md)
+- [XotBasePage](../Xot/docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](../Xot/docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 76bec91a (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 76bec91a (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione Filament](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_best_practices.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+- [Linee Guida per l'Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/filament_inheritance_guidelines.md)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

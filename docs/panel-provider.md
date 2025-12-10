@@ -1,3 +1,47 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 # Panel Provider in Modulo Xot
 
 ## XotBaseMainPanelProvider
@@ -87,6 +131,273 @@ public function panel(Panel $panel): Panel
 
 ### Collegamenti
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+- [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
+- [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
+- [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-06* 
+=======
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 71f31700 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 71f31700 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> c35986f4 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 71f31700 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 71f31700 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> b3cc10f7 (.)
+=======
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> b3cc10f7 (.)
+>>>>>>> laraxot/develop
+- [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
+- [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
+- [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
+
+*Ultimo aggiornamento: 2025-01-06* 
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06* 
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 5bd842e3 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 03ceeac3 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 5a14301c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 71f31700 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+>>>>>>> laraxot/develop
+- [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
+- [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
+- [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
+
+*Ultimo aggiornamento: 2025-01-06* 
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06* 
+*Ultimo aggiornamento: 2025-01-06* 
 - [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
 - [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
 - [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
@@ -94,27 +405,23 @@ public function panel(Panel $panel): Panel
 *Ultimo aggiornamento: 2025-01-06* 
 *Ultimo aggiornamento: 2025-01-06* 
 *Ultimo aggiornamento: 2025-01-06* 
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
 *Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 5bd842e3 (.)
+=======
 *Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 03ceeac3 (.)
+=======
 *Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 5a14301c (.)
+=======
 *Ultimo aggiornamento: 2025-01-06* 
-*Ultimo aggiornamento: 2025-01-06* 
-*Ultimo aggiornamento: 2025-01-06* 
-*Ultimo aggiornamento: 2025-01-06* 
-- [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
-- [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
-- [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
-
-*Ultimo aggiornamento: 2025-01-06* 
-*Ultimo aggiornamento: 2025-01-06* 
-*Ultimo aggiornamento: 2025-01-06* 
-*Ultimo aggiornamento: 2025-01-06* 
-*Ultimo aggiornamento: 2025-01-06* 
-*Ultimo aggiornamento: 2025-01-06* 
-- [Documentazione Root](../../../docs/filament_panel_provider_rules.md)
-- [Architettura Filament](../../../docs/FILAMENT_BEST_PRACTICES.md)
-- [Configurazione Moduli](../../../docs/MODULE_ARCHITECTURE.md)
-
-*Ultimo aggiornamento: 2025-01-06* 
-*Ultimo aggiornamento: 2025-01-06* 
-*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

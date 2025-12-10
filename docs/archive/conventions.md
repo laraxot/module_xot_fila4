@@ -130,11 +130,25 @@ Modules/User/resources/views/pages/Auth/Logout.blade.php  # NO: maiuscole
    ```
 
 ## Collegamenti
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 - [Laravel Filesystem](https://laravel.com/docs/filesystem)
 - [Nwidart Module Structure](https://nwidart.com/laravel-modules/v6/introduction)
 - [PSR-4 Autoloading](https://www.php-fig.org/psr/psr-4/)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Folio Documentation](https://laravel.com/docs/folio)
+<<<<<<< HEAD
+=======
+=======
+- [Laravel Filesystem](https://laravel.com/project_docs/filesystem)
+- [Nwidart Module Structure](https://nwidart.com/laravel-modules/v6/introduction)
+- [PSR-4 Autoloading](https://www.php-fig.org/psr/psr-4/)
+- [Filament Documentation](https://filamentphp.com/docs)
+- [Folio Documentation](https://laravel.com/project_docs/folio)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 ## Note Importanti
 - Mantenere questa convenzione in tutti i nuovi moduli
@@ -145,6 +159,10 @@ Modules/User/resources/views/pages/Auth/Logout.blade.php  # NO: maiuscole
 - Le cartelle standard Laravel devono sempre essere in lowercase
 - Le pagine Folio devono seguire la struttura `resources/views/pages/` 
 ## Collegamenti tra versioni di CONVENTIONS.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 * [CONVENTIONS.md](../../../Xot/docs/CONVENTIONS.md)
 * [CONVENTIONS.md](../../../Dental/docs/CONVENTIONS.md)
 * [CONVENTIONS.md](../../../Patient/docs/CONVENTIONS.md)
@@ -155,4 +173,19 @@ Modules/User/resources/views/pages/Auth/Logout.blade.php  # NO: maiuscole
 * [conventions.md](../../../../docs/conventions.md)
 * [conventions.md](../../Dental/docs/conventions.md)
 * [conventions.md](../../Patient/docs/conventions.md)
+<<<<<<< HEAD
+=======
+=======
+* [CONVENTIONS.md](../../../Xot/project_docs/CONVENTIONS.md)
+* [CONVENTIONS.md](../../../Dental/project_docs/CONVENTIONS.md)
+* [CONVENTIONS.md](../../../Patient/project_docs/CONVENTIONS.md)
+
+
+## Collegamenti tra versioni di conventions.md
+* [conventions.md](../../../../project_docs/tecnico/filament/conventions.md)
+* [conventions.md](../../../../project_docs/conventions.md)
+* [conventions.md](../../Dental/project_docs/conventions.md)
+* [conventions.md](../../Patient/project_docs/conventions.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 

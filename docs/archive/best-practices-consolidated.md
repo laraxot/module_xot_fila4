@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 # Best Practices - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTE le best practices del progetto
@@ -17,7 +59,15 @@ Questo documento sostituisce e consolida **40+ file di best practices duplicati*
 - Qualsiasi documentazione best practices specifica di modulo
 
 ### ✅ Unica Fonte di Verità
+<<<<<<< HEAD
 - **Questo file**: `/laravel/Modules/Xot/docs/best-practices-consolidated.md`
+=======
+<<<<<<< HEAD
+- **Questo file**: `/laravel/Modules/Xot/docs/best-practices-consolidated.md`
+=======
+- **Questo file**: `/laravel/Modules/Xot/project_docs/best-practices-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 - **Implementazione**: Codice nei singoli moduli (solo implementazione, non docs)
 
 ## Principi Fondamentali
@@ -446,7 +496,255 @@ Modules/UI/resources/views/components/ui/
 
 ### Livello 9+ Obbligatorio
 ```bash
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 55fe1822 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 55fe1822 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -649,7 +947,255 @@ return new class extends XotBaseMigration {
 **Soluzione**:
 ```bash
 # Eseguire da directory Laravel
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 55fe1822 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 55fe1822 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 ./vendor/bin/phpstan analyze --level=9 --memory-limit=2G
 ```
 
@@ -834,3 +1380,51 @@ php artisan view:clear
 *Ultimo aggiornamento: 2025-08-04*
 *Modulo: Xot*
 *Categoria: Best Practices*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

@@ -48,8 +48,21 @@ Il [ModelWithStatusContract](model-with-status-contract.md) definisce l'interfac
 
 [Vai alla documentazione completa](model-with-status-contract.md) 
 ## Collegamenti tra versioni di index.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 * [index.md](../../../Xot/docs/contracts/index.md)
 * [index.md](../../../Cms/docs/frontend-architecture/index.md)
 * [index.md](../../../../Themes/One/docs/roadmap/philosophy/index.md)
 * [index.md](../../../../Themes/One/docs/roadmap/inspiration/index.md)
+<<<<<<< HEAD
+=======
+=======
+* [index.md](../../../Xot/project_docs/contracts/index.md)
+* [index.md](../../../Cms/project_docs/frontend-architecture/index.md)
+* [index.md](../../../../Themes/One/project_docs/roadmap/philosophy/index.md)
+* [index.md](../../../../Themes/One/project_docs/roadmap/inspiration/index.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 

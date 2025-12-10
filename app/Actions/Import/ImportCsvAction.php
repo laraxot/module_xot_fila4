@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Import;
 
+<<<<<<< HEAD
 use Exception;
 use Filament\Notifications\Notification;
 use Illuminate\Database\Schema\Builder;
@@ -15,16 +16,94 @@ use Illuminate\Database\Schema\Builder;
 use Filament\Notifications\Notification;
 use Illuminate\Database\Schema\Builder;
 use Filament\Notifications\Notification;
+=======
+<<<<<<< HEAD
+use Exception;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Notifications\Notification;
+use Illuminate\Database\Schema\Builder;
+=======
+use Illuminate\Database\Schema\Builder;
+=======
+<<<<<<< HEAD
+use Exception;
+use Illuminate\Database\Schema\Builder;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+use Filament\Notifications\Notification;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Schema\Builder;
+use Filament\Notifications\Notification;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Schema\Builder;
+use Filament\Notifications\Notification;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Schema\Builder;
+use Filament\Notifications\Notification;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Schema\Builder;
+use Filament\Notifications\Notification;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Schema\Builder;
+use Filament\Notifications\Notification;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Modules\Xot\Datas\ColumnData;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\ini_set;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+
+use function Safe\ini_set;
+
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+
+use function Safe\ini_set;
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 class ImportCsvAction
 {
     use QueueableAction;
@@ -32,16 +111,68 @@ class ImportCsvAction
     /**
      * Import a CSV file into a database table.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @param  string  $disk  the storage disk where the file is located
      * @param  string  $filename  the name of the file to import
      * @param  string  $db  the database connection name
      * @param  string  $tbl  the table name where data will be imported
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @param string $disk     the storage disk where the file is located
      * @param string $filename the name of the file to import
      * @param string $db       the database connection name
      * @param string $tbl      the table name where data will be imported
+<<<<<<< HEAD
      *
      * @throws Exception
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+     *
+<<<<<<< HEAD
+     * @throws Exception
+=======
+<<<<<<< HEAD
+     * @throws Exception
+=======
+     * @throws \Exception
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
      */
     public function execute(string $disk, string $filename, string $db, string $tbl): void
     {
@@ -84,18 +215,128 @@ class ImportCsvAction
     /**
      * Get table columns excluding certain fields.
      *
+<<<<<<< HEAD
      * @return array<ColumnData>
      */
     private function getTableColumns(Builder $conn, string $tbl): array
      * @param Builder $conn
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<ColumnData>
+     */
+    private function getTableColumns(Builder $conn, string $tbl): array
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+     * @param Builder $conn
+=======
+<<<<<<< HEAD
+     * @param Builder $conn
+=======
+     * @param \Illuminate\Database\Schema\Builder $conn
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
      *
      * @return ColumnData[]
      */
     private function getTableColumns($conn, string $tbl): array
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     {
         $columns = $conn->getColumnListing($tbl);
         $excludedColumns = ['id'];
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         return array_map(
             function (string $column) use ($conn, $tbl) {
                 $type = $conn->getColumnType($tbl, $column);
@@ -107,11 +348,46 @@ class ImportCsvAction
             },
             array_diff($columns, $excludedColumns),
         );
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        return array_map(function (string $column) use ($conn, $tbl) {
+            $type = $conn->getColumnType($tbl, $column);
+
+            return new ColumnData(
+                name: $column,
+                type: $type
+            );
+        }, array_diff($columns, $excludedColumns));
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+        return array_map(
+            function (string $column) use ($conn, $tbl) {
+                $type = $conn->getColumnType($tbl, $column);
+
+                return new ColumnData(
+                    name: $column,
+                    type: $type,
+                );
+            },
+            array_diff($columns, $excludedColumns),
+        );
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 
     /**
      * Prepare fields for the SQL query.
      *
+<<<<<<< HEAD
      * @param  array<ColumnData>  $columns
      * @return array<string>
      * @param ColumnData[] $columns
@@ -137,11 +413,107 @@ class ImportCsvAction
             fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
             $columns,
         );
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  array<ColumnData>  $columns
+     * @return array<string>
+=======
+     * @param ColumnData[] $columns
+     *
+     * @return string[]
+>>>>>>> 5a14301c (.)
+=======
+     * @param ColumnData[] $columns
+     *
+     * @return string[]
+>>>>>>> 5a14301c (.)
+=======
+     * @param ColumnData[] $columns
+     *
+     * @return string[]
+>>>>>>> 5a14301c (.)
+=======
+     * @param ColumnData[] $columns
+     *
+     * @return string[]
+>>>>>>> 5a14301c (.)
+=======
+     * @param ColumnData[] $columns
+     *
+     * @return string[]
+>>>>>>> 5a14301c (.)
+=======
+     * @param ColumnData[] $columns
+     *
+     * @return string[]
+>>>>>>> 5a14301c (.)
+     */
+    private function prepareFields(array $columns): array
+    {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+        return array_map(
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            fn (ColumnData $column) => $column->type === 'decimal' ? '@'.$column->name : $column->name,
+=======
+            fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
+>>>>>>> 5a14301c (.)
+=======
+            fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
+>>>>>>> 5a14301c (.)
+=======
+            fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
+>>>>>>> 5a14301c (.)
+=======
+            fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
+>>>>>>> 5a14301c (.)
+=======
+            fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
+>>>>>>> 5a14301c (.)
+=======
+            fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
+>>>>>>> 5a14301c (.)
+            $columns,
+        );
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        return array_map(function (ColumnData $column) {
+            return 'decimal' === $column->type ? '@'.$column->name : $column->name;
+        }, $columns);
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        return array_map(function (ColumnData $column) {
+            return 'decimal' === $column->type ? '@'.$column->name : $column->name;
+        }, $columns);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 
     /**
      * Build the SQL query for importing data.
      *
+<<<<<<< HEAD
      * @param  array<ColumnData>  $columns
      * @param ColumnData[] $columns
      * @param ColumnData[] $columns
@@ -151,6 +523,51 @@ class ImportCsvAction
     private function buildSql(string $path, string $db, string $tbl, string $fieldsUpList, array $columns): string
     {
         $sql =
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  array<ColumnData>  $columns
+=======
+     * @param ColumnData[] $columns
+>>>>>>> 5a14301c (.)
+=======
+     * @param ColumnData[] $columns
+>>>>>>> 5a14301c (.)
+=======
+     * @param ColumnData[] $columns
+>>>>>>> 5a14301c (.)
+=======
+     * @param ColumnData[] $columns
+>>>>>>> 5a14301c (.)
+=======
+     * @param ColumnData[] $columns
+>>>>>>> 5a14301c (.)
+=======
+     * @param ColumnData[] $columns
+>>>>>>> 5a14301c (.)
+     */
+    private function buildSql(string $path, string $db, string $tbl, string $fieldsUpList, array $columns): string
+    {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+        $sql =
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
             "LOAD DATA LOW_PRIORITY LOCAL INFILE '{$path}' ".
             "INTO TABLE `{$db}`.`{$tbl}` CHARACTER SET latin1 ".
             "FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '".
@@ -159,6 +576,20 @@ class ImportCsvAction
             "ESCAPED BY '".
             '"'.
             "' ".
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             "LOAD DATA LOW_PRIORITY LOCAL INFILE '{$path}' " .
             "INTO TABLE `{$db}`.`{$tbl}` CHARACTER SET latin1 " .
             "FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '" .
@@ -167,6 +598,7 @@ class ImportCsvAction
             "ESCAPED BY '" .
             '"' .
             "' " .
+<<<<<<< HEAD
             "LINES TERMINATED BY '\r\n' ({$fieldsUpList})";
 
         $sqlReplace = [];
@@ -176,10 +608,76 @@ class ImportCsvAction
             if ('decimal' === $column->type) {
             if ('decimal' === $column->type) {
             if ('decimal' === $column->type) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+            "LINES TERMINATED BY '\r\n' ({$fieldsUpList})";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+        $sql = "LOAD DATA LOW_PRIORITY LOCAL INFILE '{$path}' "
+            ."INTO TABLE `{$db}`.`{$tbl}` CHARACTER SET latin1 "
+            ."FIELDS TERMINATED BY ';' OPTIONALLY ENCLOSED BY '".'"'."' "
+            ."ESCAPED BY '".'"'."' "
+            ."LINES TERMINATED BY '\r\n' ({$fieldsUpList})";
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+
+        $sqlReplace = [];
+        foreach ($columns as $column) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if ($column->type === 'decimal') {
+=======
+            if ('decimal' === $column->type) {
+>>>>>>> 5a14301c (.)
+=======
+            if ('decimal' === $column->type) {
+>>>>>>> 5a14301c (.)
+=======
+            if ('decimal' === $column->type) {
+>>>>>>> 5a14301c (.)
+=======
+            if ('decimal' === $column->type) {
+>>>>>>> 5a14301c (.)
+=======
+            if ('decimal' === $column->type) {
+>>>>>>> 5a14301c (.)
+=======
+            if ('decimal' === $column->type) {
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                 $sqlReplace[] = "{$column->name} = REPLACE(@{$column->name}, ',', '.')";
             }
         }
 
+<<<<<<< HEAD
         if (! empty($sqlReplace)) {
             $sql .= ' SET '.implode(', ', $sqlReplace).';';
         if (!empty($sqlReplace)) {
@@ -284,6 +782,498 @@ class ImportCsvAction
             $sql .= ' SET '.implode(', ', $sqlReplace).';';
         if (! empty($sqlReplace)) {
             $sql .= ' SET '.implode(', ', $sqlReplace).';';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 5a14301c (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 3fbbf1f5 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 17684f52 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 17684f52 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 17684f52 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> ca9324a4 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 7131bd09 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> ed734516 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> ed734516 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 7131bd09 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> ed734516 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> ed734516 (.)
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 9db27d12 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> ca9324a4 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+>>>>>>> 71586de2 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+>>>>>>> 71586de2 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         }
 
         return $sql;
@@ -292,19 +1282,62 @@ class ImportCsvAction
     /**
      * Transform columns into ColumnData objects.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @param  array<string>  $columns
      * @return array<ColumnData>
      *
      * @deprecated This method is currently unused but kept for future expansion.
      *
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @param string[] $columns
      *
      * @return ColumnData[]
      * @deprecated This method is currently unused but kept for future expansion.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @phpstan-ignore method.unused
      */
     private function transformColumnsToColumnData(array $columns): array
     {
+<<<<<<< HEAD
         return array_map(
             function (string $column): ColumnData {
             function ($column): ColumnData {
@@ -316,6 +1349,76 @@ class ImportCsvAction
             function ($column): ColumnData {
                 Assert::string($column, 'Column must be a string');
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+        return array_map(
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            function (string $column): ColumnData {
+=======
+            function ($column): ColumnData {
+                Assert::string($column, 'Column must be a string');
+
+>>>>>>> 5a14301c (.)
+=======
+            function ($column): ColumnData {
+                Assert::string($column, 'Column must be a string');
+
+>>>>>>> 5a14301c (.)
+=======
+            function ($column): ColumnData {
+                Assert::string($column, 'Column must be a string');
+
+>>>>>>> 5a14301c (.)
+=======
+            function ($column): ColumnData {
+                Assert::string($column, 'Column must be a string');
+
+>>>>>>> 5a14301c (.)
+=======
+            function ($column): ColumnData {
+                Assert::string($column, 'Column must be a string');
+
+>>>>>>> 5a14301c (.)
+=======
+            function ($column): ColumnData {
+                Assert::string($column, 'Column must be a string');
+
+>>>>>>> 5a14301c (.)
+                return new ColumnData(
+                    name: $column,
+                    type: 'string', // Default type, modify if necessary
+                );
+            },
+            $columns,
+        );
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        return array_map(function ($column): ColumnData {
+            Assert::string($column, 'Column must be a string');
+
+            return new ColumnData(
+                name: $column,
+                type: 'string' // Default type, modify if necessary
+            );
+        }, $columns);
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+        return array_map(
+>>>>>>> laraxot/develop
             function ($column): ColumnData {
                 Assert::string($column, 'Column must be a string');
 
@@ -326,5 +1429,12 @@ class ImportCsvAction
             },
             $columns,
         );
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 }

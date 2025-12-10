@@ -13,6 +13,7 @@ class TestWidget extends Widget
 {
     protected string $view = 'xot::filament.widgets.test';
 
+<<<<<<< HEAD
     protected int|string|array $columnSpan = 'full';
     protected int | string | array $columnSpan = 'full';
 
@@ -22,6 +23,39 @@ class TestWidget extends Widget
 
     protected int | string | array $columnSpan = 'full';
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected int|string|array $columnSpan = 'full';
+=======
+    protected int | string | array $columnSpan = 'full';
+
+>>>>>>> 5a14301c (.)
+=======
+    protected int | string | array $columnSpan = 'full';
+
+>>>>>>> 5a14301c (.)
+=======
+    protected int | string | array $columnSpan = 'full';
+
+>>>>>>> 5a14301c (.)
+=======
+    protected int | string | array $columnSpan = 'full';
+
+>>>>>>> 5a14301c (.)
+=======
+    protected int | string | array $columnSpan = 'full';
+
+>>>>>>> 5a14301c (.)
+=======
+    protected int | string | array $columnSpan = 'full';
+
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Determina se il widget deve essere visibile.

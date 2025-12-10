@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 # Filament
 
 Questa cartella contiene la documentazione relativa all'implementazione di Filament nel progetto.
@@ -117,7 +159,248 @@ Questa documentazione si applica a tutti i moduli che utilizzano Filament per il
 - Aggiornare la documentazione ogni volta che si corregge questo errore.
 
 ### Collegamento
+<<<<<<< HEAD
 - Vedi anche: [<nome progetto>/project_docs/filament-best-practices.mdc](../../../<nome progetto>/project_docs/filament-best-practices.mdc)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Vedi anche: [<nome progetto>/project_docs/filament-best-practices.mdc](../../../<nome progetto>/project_docs/filament-best-practices.mdc)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 5a14301c (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 399f46d3 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 472bd9dc (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 472bd9dc (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 3bf39332 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> cf971011 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> e7da37af (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 472bd9dc (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 3bf39332 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> cf971011 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> e7da37af (.)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [<nome progetto>/project_docs/filament-best-practices.mdc](../../../<nome progetto>/project_docs/filament-best-practices.mdc)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 43d67f21 (.)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 5a14301c (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 43d67f21 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> b7ea1cd1 (.)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 5a14301c (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 43d67f21 (.)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 5a14301c (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 43d67f21 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> b7ea1cd1 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 76bec91a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 55fe1822 (.)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 5a14301c (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 43d67f21 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> b7ea1cd1 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 76bec91a (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 55fe1822 (.)
+=======
+- Vedi anche: [<nome modulo>/docs/filament-best-practices.mdc](../../../<nome modulo>/docs/filament-best-practices.mdc)
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 5a14301c (.)
+=======
+- Vedi anche: [SaluteOra/project_docs/filament-best-practices.mdc](../../../SaluteOra/project_docs/filament-best-practices.mdc)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ### Checklist
 - [ ] Nessuna closure void restituisce un valore
@@ -154,3 +437,51 @@ $prefix = static::$translationPrefix;
 - [Patient: DoctorResource](../../../Patient/project_docs/filament/resources/doctor-resource.md)
 // Aggiungere qui altri moduli se necessario
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

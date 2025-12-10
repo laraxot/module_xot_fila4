@@ -1,0 +1,425 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+# Gestione Best Practice per File di Configurazione PHP basati su Array
+
+I file di configurazione e traduzione in PHP che restituiscono array sono comuni in Laravel e nei moduli PTVX. Per garantire stabilità e manutenibilità, è cruciale seguire alcune best practice.
+
+## Sintassi e Validazione
+
+1.  **Correttezza Sintattica**:
+    -   Assicurarsi che tutte le parentesi `()` e `[]` siano correttamente bilanciate.
+    -   Verificare che le virgole `,` siano usate correttamente per separare gli elementi degli array.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+<<<<<<< HEAD
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+=======
+>>>>>>> 5a14301c (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+=======
+<<<<<<< HEAD
+>>>>>>> 6d05deed (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+=======
+<<<<<<< HEAD
+>>>>>>> 6d05deed (.)
+-   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 43d67f21 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+>>>>>>> 5a14301c (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 43d67f21 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> b7ea1cd1 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+>>>>>>> 5a14301c (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 43d67f21 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+>>>>>>> 5a14301c (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 43d67f21 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> b7ea1cd1 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 76bec91a (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 55fe1822 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+>>>>>>> 5a14301c (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 43d67f21 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> b7ea1cd1 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 76bec91a (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 55fe1822 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 6821f7a (.)
+>>>>>>> 6d05deed (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/docs/translation_file_syntax.md).
+>>>>>>> 5a14301c (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> 399f46d3 (.)
+
+2.  **Validazione**:
+    -   Utilizzare un IDE con linting PHP attivo.
+    -   Validare la sintassi dei file modificati con `php -l nome_del_file.php` prima del commit.
+    -   Considerare l'integrazione di linter PHP negli script di CI/CD.
+
+## Struttura e Leggibilità
+
+1.  **Indentazione e Formattazione**:
+    -   Usare un'indentazione consistente (es. 2 o 4 spazi) per riflettere la struttura nidificata degli array.
+    -   Allineare chiavi e valori se migliora la leggibilità per array associativi semplici.
+    -   Per array complessi, considerare di andare a capo per ogni elemento chiave-valore.
+
+    ```php
+    // Esempio di buona formattazione
+    return [
+        'key1' => 'value1',
+        'another_key' => [
+            'nested_key1' => 'nested_value1',
+            'nested_key2' => 'nested_value2',
+        ],
+        'last_key' => 'value3', // Trailing comma opzionale ma permessa
+    ];
+    ```
+
+2.  **Commenti**:
+    -   Aggiungere commenti per chiarire lo scopo di chiavi di configurazione complesse o poco ovvie.
+
+## Manutenzione
+
+1.  **Modularità**:
+    -   Suddividere configurazioni molto grandi in file più piccoli e specifici, se possibile.
+2.  **Consistenza**:
+    -   Mantenere uno stile di scrittura e formattazione consistente attraverso tutti i file di configurazione del progetto.
+
+## Risoluzione dei Problemi
+
+-   Se si verifica un `ParseError`, controllare attentamente la linea indicata e quelle immediatamente precedenti.
+-   Errori come `unexpected token ";", expecting ")"` alla fine di un file `return array(...);` spesso indicano una parentesi `(` non chiusa all'interno dell'array.
+-   Commentare sezioni dell'array (approccio divide et impera) può aiutare a isolare la riga o la sezione che causa l'errore.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 90d386aa (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)

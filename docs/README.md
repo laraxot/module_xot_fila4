@@ -1,8 +1,177 @@
+<<<<<<< HEAD
 # Xot Module - Framework Base Laraxot
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+# Xot Module - Framework Base Laraxot
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 # Laraxot PTVX - Documentazione Consolidata
 
 ## Panoramica
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 Il modulo **Xot** è il core framework di Laraxot PTVX. Fornisce:
 - Classi base (`XotBase*`) per Resources, Widgets, Actions, Blocks
 - Pattern architetturali condivisi (Accessors, Traits, Delegation)
@@ -36,6 +205,7 @@ Laraxot PTVX è un ecosistema modulare basato su **Laravel 12**, Filament 4, Liv
 **Dettagli**: vedi [bugfix-hasxottable-duplicate-if.md](./bugfix-hasxottable-duplicate-if.md), [syntax-errors-mass-fix.md](./syntax-errors-mass-fix.md) e [QUALITY_IMPROVEMENTS_SUMMARY_2025_11_18.md](./QUALITY_IMPROVEMENTS_SUMMARY_2025_11_18.md)
 
 ---
+<<<<<<< HEAD
 Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
 Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
 Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
@@ -45,14 +215,94 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per appl
 Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
 Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
 Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
+=======
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
+>>>>>>> 5a14301c (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
+>>>>>>> 71f31700 (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
+>>>>>>> 5a14301c (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
+>>>>>>> 71f31700 (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
+>>>>>>> 5a14301c (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
+>>>>>>> 71f31700 (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
+>>>>>>> 5a14301c (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
+>>>>>>> 71f31700 (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
+>>>>>>> 5a14301c (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
+>>>>>>> 71f31700 (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 11, progettato per applicazioni enterprise.
+>>>>>>> 5a14301c (.)
+=======
+Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per applicazioni enterprise.
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 ## Architettura Modulare
 
 ### Principi Fondamentali
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 - **Modularità**: 36 moduli indipendenti
 - **Coerenza**: Convenzioni namespace, file system uniforme
 - **Estensibilità**: Classi base estendibili
 - **Manutenibilità**: Strumenti comuni, automazioni
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 - **Modularità**: Ogni funzionalità è organizzata in moduli indipendenti
 - **Coerenza**: Struttura uniforme e convenzioni standardizzate
@@ -61,6 +311,7 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 
 ## Caratteristiche Tecniche
 
+<<<<<<< HEAD
 - **Laravel 11**: Framework PHP moderno e potente
 - **Filament 3**: Server-Driven UI framework per Laravel
 - **Laravel 11**: Framework PHP moderno e potente
@@ -79,6 +330,65 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 - **Filament 3**: Server-Driven UI framework per Laravel
 - **Laravel 12**: Framework PHP moderno e potente
 - **Filament 4**: Server-Driven UI framework per Laravel
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **Laravel 11**: Framework PHP moderno e potente
+- **Filament 3**: Server-Driven UI framework per Laravel
+=======
+- **Laravel 12**: Framework PHP moderno e potente
+- **Filament 4**: Server-Driven UI framework per Laravel
+>>>>>>> 71f31700 (.)
+=======
+- **Laravel 11**: Framework PHP moderno e potente
+- **Filament 3**: Server-Driven UI framework per Laravel
+>>>>>>> 5a14301c (.)
+=======
+- **Laravel 12**: Framework PHP moderno e potente
+- **Filament 4**: Server-Driven UI framework per Laravel
+>>>>>>> 71f31700 (.)
+=======
+- **Laravel 11**: Framework PHP moderno e potente
+- **Filament 3**: Server-Driven UI framework per Laravel
+>>>>>>> 5a14301c (.)
+=======
+- **Laravel 12**: Framework PHP moderno e potente
+- **Filament 4**: Server-Driven UI framework per Laravel
+>>>>>>> 71f31700 (.)
+=======
+- **Laravel 11**: Framework PHP moderno e potente
+- **Filament 3**: Server-Driven UI framework per Laravel
+>>>>>>> 5a14301c (.)
+=======
+- **Laravel 12**: Framework PHP moderno e potente
+- **Filament 4**: Server-Driven UI framework per Laravel
+>>>>>>> 71f31700 (.)
+=======
+- **Laravel 11**: Framework PHP moderno e potente
+- **Filament 3**: Server-Driven UI framework per Laravel
+>>>>>>> 5a14301c (.)
+=======
+- **Laravel 12**: Framework PHP moderno e potente
+- **Filament 4**: Server-Driven UI framework per Laravel
+>>>>>>> 71f31700 (.)
+=======
+- **Laravel 11**: Framework PHP moderno e potente
+- **Filament 3**: Server-Driven UI framework per Laravel
+>>>>>>> 5a14301c (.)
+=======
+- **Laravel 12**: Framework PHP moderno e potente
+- **Filament 4**: Server-Driven UI framework per Laravel
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 - **Livewire 3**: Full-stack framework per Laravel
 - **PHPStan 3**: Static analysis tool (Livello 9/10)
 - **Pest 3**: PHP testing framework
@@ -94,6 +404,21 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 
 ### Documenti Principali
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 #### Qualità del Codice
 - **[Lo Zen degli Strumenti di Qualità](quality-tools-zen.md)** ⭐ NUOVO - Filosofia completa PHPStan, Larastan, Safe, Assert, PHPMD, PHP Insights
 - **[Best Practices Eloquent](eloquent-properties-best-practices.md)** - Guida completa per proprietà Eloquent
@@ -105,10 +430,73 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 - [Laravel Framework](laravel-framework.md) - Documentazione completa del framework
 - [Model Context Protocol](model-context-protocol.md) - Implementazione MCP
 - [Cast Actions](cast-actions.md) - Azioni di cast sicure
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 - [Convenzioni Laraxot](conventions.md) - Regole e convenzioni per lo sviluppo
 - [Laravel Framework](laravel-framework.md) - Documentazione completa del framework
 - [Model Context Protocol](model-context-protocol.md) - Implementazione MCP
 - [Piano Consolidamento](DOCS_CONSOLIDATION_PLAN.md) - Piano per consolidare documentazione
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 - [Collegamenti](links.md) - Raccolta di link e riferimenti
 
 ### Moduli del Sistema
@@ -132,6 +520,21 @@ Laraxot PTVX è un ecosistema modulare basato su Laravel 12, progettato per appl
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 ## Strumenti Principali
 
 | Componente | Descrizione |
@@ -187,12 +590,41 @@ composer require laraxot/xot
 Configurazione automatica tramite service providers.
 
 ## Documentation Archive
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 **Data Creazione**: 27 Gennaio 2025  
 **Stato**: Consolidato da docs/ root  
 **Priorità**: CRITICA (Documentazione principale)
 # 🏗️ **Xot Module** - Framework Base Laraxot
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
+<<<<<<< HEAD
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
@@ -202,6 +634,53 @@ Configurazione automatica tramite service providers.
 [![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+=======
+[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 71f31700 (.)
+=======
+[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 5a14301c (.)
+=======
+[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 71f31700 (.)
+=======
+[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 5a14301c (.)
+=======
+[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 71f31700 (.)
+=======
+[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 5a14301c (.)
+=======
+[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 71f31700 (.)
+=======
+[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 5a14301c (.)
+=======
+[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 71f31700 (.)
+=======
+[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 5a14301c (.)
+=======
+[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN%20%7C%20DE-green.svg)](https://laravel.com/docs/localization)
 [![Base Framework](https://img.shields.io/badge/Framework-Base%20Core-orange.svg)](https://laraxot.com/)
@@ -425,8 +904,25 @@ return [
 
 ### 🏗️ **Architettura**
 - [🏆 PHPStan Level 9 Achievement](phpstan-level9-achievement.md) - **✅ COMPLETATO** - 832→0 errori PHPStan
+<<<<<<< HEAD
 - [👑 PHPStan Victory 2025](phpstan-victory-2025.md) - **🎊 PERFEZIONE ASSOLUTA** - 19,337→0 (100%) - Hall of Fame
 - [📋 PHPStan Fixes Report 2025](phpstan-fixes-report.md) - **✅ COMPLETATO** - Report dettagliato correzioni
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [👑 PHPStan Victory 2025](phpstan-victory-2025.md) - **🎊 PERFEZIONE ASSOLUTA** - 19,337→0 (100%) - Hall of Fame
+- [📋 PHPStan Fixes Report 2025](phpstan-fixes-report.md) - **✅ COMPLETATO** - Report dettagliato correzioni
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 - [🎨 Theme Assets Workflow](theme-assets-workflow.md) - **⚠️ CRITICO** - Workflow CSS/JS per temi
 - [PHPStan Array Types Fixes](phpstan-array-types-fixes.md) - **✅ COMPLETATO** - Correzioni complete tipi array
 - [Base Classes Guide](base-classes/README.md) - Guida alle classi base
@@ -558,6 +1054,114 @@ ls Modules/*/lang/*/
 **🚀 Performance**: 98/100 score
 
 ## Documentation Archive & Legacy
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> cc7fb225 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 # Xot Module - Framework Base Laraxot
 
 ## Overview
@@ -577,12 +1181,60 @@ Modulo base del framework Laraxot con funzionalità core e best practices.
 - Base classes per tutti i moduli
 - Service providers centralizzati
 - Convenzioni e standard
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
 - Actions per operazioni PDF e business logic
 
 ### Actions
 - [GetPdfContentByRecordAction](actions/get-pdf-content-by-record-action.md) - Generazione contenuto PDF da record Eloquent
 - [ContentPdfAction](archive/actions/content-pdf-action.md) - Generazione PDF da HTML/viste
 - [StreamDownloadPdfAction](archive/actions/pdf-stream-download-action.md) - Download PDF diretto
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## Installation
 ```bash
@@ -593,10 +1245,195 @@ composer require laraxot/xot
 Configurazione automatica tramite service providers.
 
 ## Documentation Archive
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 I file di documentazione originali sono stati consolidati per seguire i principi DRY + KISS.
 Per accedere alla documentazione dettagliata originale, vedere il backup in:
 `docs-consolidation-backup-*/Xot-docs-original/`
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -605,7 +1442,36 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 
 ## Links
 - [Root Documentation](../../../project_docs/)
+<<<<<<< HEAD
 ## Quick Links Legacy
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Quick Links Legacy
+=======
+## Quick Links Legacy
+=======
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+## Quick Links Legacy
+=======
+>>>>>>> laraxot/develop
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -614,6 +1480,7 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 
 ## Links
 - [Root Documentation](../../../project_docs/)
+<<<<<<< HEAD
 ## Quick Links Legacy
 ## Quick Links Legacy
 ## Quick Links Legacy
@@ -623,6 +1490,59 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - [<main module> Module](../<main module>/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 ## Quick Links Legacy
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cc7fb225 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+## Quick Links Legacy
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+## Quick Links Legacy
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+## Quick Links Legacy
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+## Quick Links Legacy
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+## Quick Links Legacy
+>>>>>>> 71586de2 (.)
+- [Root Documentation](../../../docs/)
+- [<main module> Module](../<main module>/docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+=======
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+## Quick Links Legacy
+=======
+>>>>>>> laraxot/develop
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -630,10 +1550,34 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - **Documentation**: Documentazione essenziale
 
 ## Links
+<<<<<<< HEAD
 - [Root Documentation](../../../docs/)
 - [SaluteOra Module](../SaluteOra/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 ## Quick Links Legacy
+=======
+>>>>>>> 6cba4fe (.)
+- [Root Documentation](../../../docs/)
+- [SaluteOra Module](../SaluteOra/docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+## Quick Links Legacy
+=======
+>>>>>>> laraxot/develop
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -641,10 +1585,34 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - **Documentation**: Documentazione essenziale
 
 ## Links
+<<<<<<< HEAD
 - [Root Documentation](../../../docs/)
 - [SaluteOra Module](../SaluteOra/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 ## Quick Links Legacy
+=======
+>>>>>>> 6cba4fe (.)
+- [Root Documentation](../../../docs/)
+- [SaluteOra Module](../SaluteOra/docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+## Quick Links Legacy
+=======
+>>>>>>> laraxot/develop
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -652,10 +1620,34 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - **Documentation**: Documentazione essenziale
 
 ## Links
+<<<<<<< HEAD
 - [Root Documentation](../../../docs/)
 - [SaluteOra Module](../SaluteOra/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 ## Quick Links Legacy
+=======
+>>>>>>> 6cba4fe (.)
+- [Root Documentation](../../../docs/)
+- [SaluteOra Module](../SaluteOra/docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+## Quick Links Legacy
+=======
+>>>>>>> laraxot/develop
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -663,10 +1655,34 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - **Documentation**: Documentazione essenziale
 
 ## Links
+<<<<<<< HEAD
 - [Root Documentation](../../../docs/)
 - [SaluteOra Module](../SaluteOra/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 ## Quick Links Legacy
+=======
+>>>>>>> 6cba4fe (.)
+- [Root Documentation](../../../docs/)
+- [SaluteOra Module](../SaluteOra/docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+## Quick Links Legacy
+=======
+>>>>>>> laraxot/develop
 ## Principles
 - **DRY**: Un solo punto di verità
 - **KISS**: Semplicità e chiarezza
@@ -674,6 +1690,45 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - **Documentation**: Documentazione essenziale
 
 ## Links
+<<<<<<< HEAD
 - [Root Documentation](../../../docs/)
 - [SaluteOra Module](../SaluteOra/docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+=======
+>>>>>>> 6cba4fe (.)
+- [Root Documentation](../../../docs/)
+- [SaluteOra Module](../SaluteOra/docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+## Quick Links Legacy
+=======
+## Principles
+- **DRY**: Un solo punto di verità
+- **KISS**: Semplicità e chiarezza
+- **Type Safety**: Tipizzazione rigorosa
+- **Documentation**: Documentazione essenziale
+
+## Links
+>>>>>>> 6cba4fe (.)
+- [Root Documentation](../../../docs/)
+- [SaluteOra Module](../SaluteOra/docs/)
+- [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

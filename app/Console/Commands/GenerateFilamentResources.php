@@ -4,7 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
@@ -19,6 +30,7 @@ class GenerateFilamentResources extends Command
     public function handle(): int
     {
         $moduleName = $this->argument('module');
+<<<<<<< HEAD
 
         // Assicuriamoci che $moduleName sia una stringa
         if (! is_string($moduleName)) {
@@ -34,15 +46,132 @@ class GenerateFilamentResources extends Command
         // Assicuriamoci che $moduleName sia una stringa
         if (!is_string($moduleName)) {
             $this->error('Il nome del modulo deve essere una stringa.');
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+
+        // Assicuriamoci che $moduleName sia una stringa
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! is_string($moduleName)) {
+            $this->error('Il nome del modulo deve essere una stringa.');
+
+=======
+        if (!is_string($moduleName)) {
+            $this->error('Il nome del modulo deve essere una stringa.');
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             return Command::FAILURE;
         }
 
         $module = Module::find($moduleName);
 
+<<<<<<< HEAD
         if (! $module) {
         if (!$module) {
         
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! $module) {
+=======
+        if (!$module) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+        if (!$module) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+        
+=======
+
+>>>>>>> b93ef594b4 (.)
+        // Assicuriamoci che $moduleName sia una stringa
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+        if (!is_string($moduleName)) {
+            $this->error('Il nome del modulo deve essere una stringa.');
+            return Command::FAILURE;
+        }
+
+        $module = Module::find($moduleName);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! $module) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!$module) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+        
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> laraxot/develop
         // Assicuriamoci che $moduleName sia una stringa
         if (!is_string($moduleName)) {
             $this->error('Il nome del modulo deve essere una stringa.');
@@ -51,8 +180,47 @@ class GenerateFilamentResources extends Command
 
         $module = Module::find($moduleName);
 
+<<<<<<< HEAD
         if (! $module) {
         if (!$module) {
+=======
+<<<<<<< HEAD
+        if (! $module) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!$module) {
+>>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> laraxot/develop
         
         // Assicuriamoci che $moduleName sia una stringa
         if (!is_string($moduleName)) {
@@ -63,10 +231,121 @@ class GenerateFilamentResources extends Command
         $module = Module::find($moduleName);
 
         if (! $module) {
+<<<<<<< HEAD
         if (!$module) {
         if (!$module) {
         if (!$module) {
         if (!$module) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        if (!$module) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        if (!$module) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        if (!$module) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        if (!$module) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        if (!$module) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
             $this->error("Il modulo '{$moduleName}' non esiste.");
 
             return Command::FAILURE;
@@ -74,6 +353,7 @@ class GenerateFilamentResources extends Command
 
         $this->info("Generazione delle Filament Resources per il modulo: {$moduleName}");
 
+<<<<<<< HEAD
         $modelsPath = $module->getPath().'/app/Models';
         if (! File::isDirectory($modelsPath)) {
         $modelsPath = $module->getPath() . '/app/Models';
@@ -134,6 +414,258 @@ class GenerateFilamentResources extends Command
         if (!File::isDirectory($modelsPath)) {
         $modelsPath = $module->getPath() . '/app/Models';
         if (!File::isDirectory($modelsPath)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $modelsPath = $module->getPath().'/app/Models';
+        if (! File::isDirectory($modelsPath)) {
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 5a14301c (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 399f46d3 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 399f46d3 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 399f46d3 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 399f46d3 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+=======
+        $modelsPath = $module->getPath().'/app/Models';
+        if (! File::isDirectory($modelsPath)) {
+>>>>>>> a12f125f4a (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> b93ef594b4 (.)
+=======
+        $modelsPath = $module->getPath().'/app/Models';
+        if (! File::isDirectory($modelsPath)) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> ca9324a4 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> ed734516 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> ed734516 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> ed734516 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> ed734516 (.)
+=======
+        $modelsPath = $module->getPath().'/app/Models';
+        if (! File::isDirectory($modelsPath)) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> ca9324a4 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> ca9324a4 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> ca9324a4 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> ca9324a4 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        $modelsPath = $module->getPath() . '/app/Models';
+        if (!File::isDirectory($modelsPath)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
             $this->error("Nessuna cartella 'Models' trovata nel modulo {$moduleName}.");
 
             return Command::FAILURE;
@@ -145,6 +677,7 @@ class GenerateFilamentResources extends Command
 
             // Assicuriamoci che $moduleName sia una stringa per strtolower
             $panelName = strtolower($moduleName);
+<<<<<<< HEAD
             $panel = $panelName.'::admin';
             $params = [
                 $modelName, // Resource name as positional argument
@@ -163,6 +696,143 @@ class GenerateFilamentResources extends Command
             $panel = $panelName . '::admin';
             $params = [
                 'name' => $modelName,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $panel = $panelName.'::admin';
+            $params = [
+                $modelName, // Resource name as positional argument
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+            $panel = $panelName . '::admin';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $panel = $panelName . '::admin';
+=======
+            $panel = $panelName.'::admin';
+>>>>>>> a12f125f4a (.)
+=======
+            $panel = $panelName . '::admin';
+>>>>>>> b93ef594b4 (.)
+=======
+            $panel = $panelName.'::admin';
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+            $params = [
+                'name' => $modelName,
+>>>>>>> 5a14301c (.)
+=======
+            $panel = $panelName . '::admin';
+            $params = [
+                'name' => $modelName,
+>>>>>>> 5a14301c (.)
+=======
+            $panel = $panelName . '::admin';
+            $params = [
+                'name' => $modelName,
+>>>>>>> 5a14301c (.)
+=======
+            $panel = $panelName . '::admin';
+            $params = [
+                'name' => $modelName,
+>>>>>>> 5a14301c (.)
+=======
+            $panel = $panelName . '::admin';
+            $params = [
+                'name' => $modelName,
+>>>>>>> 5a14301c (.)
+=======
+            $panel = $panelName . '::admin';
+            $params = [
+                'name' => $modelName,
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                 '--panel' => $panel,
                 '--model-namespace' => "Modules\\{$moduleName}\\Models",
                 '--generate' => true,
@@ -171,7 +841,19 @@ class GenerateFilamentResources extends Command
             ];
             try {
                 Artisan::call('make:filament-resource', $params);
+<<<<<<< HEAD
             } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+            } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+            } catch (Exception $e) {
+=======
+            } catch (\Exception $e) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 $this->error($e->getMessage());
             }
             $this->info("Resource generata per il modello: {$modelName}");

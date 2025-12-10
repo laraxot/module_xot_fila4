@@ -1,6 +1,7 @@
 # 🚀 Xot - Il MOTORE FONDAMENTALE di Laraxot! ⚡
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
+<<<<<<< HEAD
 [![Laravel Version](https://img.shields.io/badge/Laravel-12.x-orange.svg)](https://laravel.com)
 [![Filament Version](https://img.shields.io/badge/Filament-4.x-purple.svg)](https://filamentphp.com)
 [![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange.svg)](https://laravel.com)
@@ -11,6 +12,40 @@
 [![Filament Version](https://img.shields.io/badge/Filament-3.x-purple.svg)](https://filamentphp.com)
 [![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange.svg)](https://laravel.com)
 [![Filament Version](https://img.shields.io/badge/Filament-3.x-purple.svg)](https://filamentphp.com)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+[![Laravel Version](https://img.shields.io/badge/Laravel-12.x-orange.svg)](https://laravel.com)
+[![Filament Version](https://img.shields.io/badge/Filament-4.x-purple.svg)](https://filamentphp.com)
+=======
+[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange.svg)](https://laravel.com)
+[![Filament Version](https://img.shields.io/badge/Filament-3.x-purple.svg)](https://filamentphp.com)
+>>>>>>> 5a14301c (.)
+=======
+[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange.svg)](https://laravel.com)
+[![Filament Version](https://img.shields.io/badge/Filament-3.x-purple.svg)](https://filamentphp.com)
+>>>>>>> 5a14301c (.)
+=======
+[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange.svg)](https://laravel.com)
+[![Filament Version](https://img.shields.io/badge/Filament-3.x-purple.svg)](https://filamentphp.com)
+>>>>>>> 5a14301c (.)
+=======
+[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange.svg)](https://laravel.com)
+[![Filament Version](https://img.shields.io/badge/Filament-3.x-purple.svg)](https://filamentphp.com)
+>>>>>>> 5a14301c (.)
+=======
+[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange.svg)](https://laravel.com)
+[![Filament Version](https://img.shields.io/badge/Filament-3.x-purple.svg)](https://filamentphp.com)
+>>>>>>> 5a14301c (.)
+=======
+[![Laravel Version](https://img.shields.io/badge/Laravel-11.x-orange.svg)](https://laravel.com)
+[![Filament Version](https://img.shields.io/badge/Filament-3.x-purple.svg)](https://filamentphp.com)
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Code Quality](https://img.shields.io/badge/code%20quality-A+-brightgreen.svg)](.codeclimate.yml)
 [![Test Coverage](https://img.shields.io/badge/coverage-98%25-success.svg)](phpunit.xml.dist)
@@ -26,7 +61,27 @@
 [![Traits](https://img.shields.io/badge/traits-15+-blue.svg)](app/Models/Traits/)
 
 <div align="center">
+<<<<<<< HEAD
   <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
+=======
+<<<<<<< HEAD
+  <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
+=======
+  <img src="https://raw.githubusercontent.com/laraxot/xot/main/project_docs/assets/xot-banner.png" alt="Xot Banner" width="800">
+>>>>>>> a12f125f4a (.)
+=======
+  <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
+>>>>>>> b93ef594b4 (.)
+=======
+  <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
   <br>
   <em>🎯 Il modulo base che POTENZIA tutti gli altri moduli Laraxot!</em>
 </div>
@@ -119,6 +174,15 @@ class XotBaseResource extends Resource
 }
 ```
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 ## 🔧 Fix Testing Laravel 12
 
 Il modulo Xot include il trait `CreatesApplication` per tutti i test dei moduli:
@@ -130,6 +194,21 @@ Il modulo Xot include il trait `CreatesApplication` per tutti i test dei moduli:
 
 📚 **Documentazione Completa**: [Fix Testing Issues](docs/testing-fixes.md)
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 ## 🚀 Installazione SUPER VELOCE
 
 ```bash
@@ -378,6 +457,15 @@ Siamo aperti a contribuzioni! 🎉
 - ✅ Aggiorna la documentazione
 - ✅ Verifica PHPStan livello 10+
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 ## 🔄 Changelog
 
 ### v2.1.0 - 2025-01-27
@@ -387,6 +475,21 @@ Siamo aperti a contribuzioni! 🎉
 - **📝 Documentazione**: Aggiornata documentazione per nuove icone
 - **🌍 Multi-lingua**: Aggiornate traduzioni per tutte le lingue supportate
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 ## 🏆 Riconoscimenti
 
 ### 🏅 **Badge di Qualità**

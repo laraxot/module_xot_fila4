@@ -13,7 +13,11 @@
 ### **FASE 1: Analisi Modulo per Modulo**
 
 ```bash
+<<<<<<< HEAD
 cd /var/www/_bases/base_quaeris_fila4_mono/laravel
+=======
+cd /var/www/_bases/base_<nome progetto>_fila4_mono/laravel
+>>>>>>> laraxot/develop
 
 # Analizza OGNI modulo SINGOLARMENTE
 ./vendor/bin/phpstan analyse Modules/Activity --level=10 --memory-limit=-1
@@ -96,7 +100,11 @@ echo "=== Verifica completa ==="
 #!/bin/bash
 # File: scripts/phpstan-check-all-modules.sh
 
+<<<<<<< HEAD
 cd /var/www/_bases/base_quaeris_fila4_mono/laravel
+=======
+cd /var/www/_bases/base_<nome progetto>_fila4_mono/laravel
+>>>>>>> laraxot/develop
 
 echo "=== PHPStan Check - Modulo per Modulo ==="
 echo ""

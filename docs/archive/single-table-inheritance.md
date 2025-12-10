@@ -76,6 +76,14 @@
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Modelli Patient](../Patient/docs/models.md)
+=======
+<<<<<<< HEAD
+- [Modelli Patient](../Patient/docs/models.md)
+=======
+- [Modelli Patient](../Patient/project_docs/models.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 - [Best Practices Modelli](./models.md)
 - [Convenzioni di Codice](./coding-standards.md) 

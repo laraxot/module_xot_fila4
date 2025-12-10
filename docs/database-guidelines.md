@@ -1,3 +1,47 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 # Linee Guida per i Database in Laraxot
 
 Questo documento definisce le best practices per la gestione dei database nel framework Laraxot, inclusa la documentazione, la creazione di modelli e le migrazioni.
@@ -267,6 +311,7 @@ return new class extends XotBaseMigration {
 ```
 
 **Collegamenti:**
+<<<<<<< HEAD
 - [Regola Performance](../../Performance/project_docs/database_migrations.md)
 - [Regole globali root](../../../project_docs/database_migrations.md)
 - [Regola Performance](../../Performance/project_docs/database_migrations.md)
@@ -369,6 +414,446 @@ return new class extends XotBaseMigration {
 - [Regole globali root](../../../project_docs/database_migrations.md)
 - [Regola Performance](../../Performance/docs/database_migrations.md)
 - [Regole globali root](../../../docs/database_migrations.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+>>>>>>> 71f31700 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+>>>>>>> c35986f4 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+>>>>>>> 71f31700 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+>>>>>>> 71f31700 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+>>>>>>> c35986f4 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 88e35986 (.)
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+=======
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+=======
+>>>>>>> f1d4085 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 6dcebf8a (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> b3cc10f7 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> cafe8bed (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 5bd842e3 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 5cd593a5 (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 03ceeac3 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 71f31700 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 3310e9c6 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 6dcebf8a (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> b3cc10f7 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> cafe8bed (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 5bd842e3 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 5cd593a5 (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 03ceeac3 (.)
+=======
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+- [Regola Performance](../../Performance/project_docs/database_migrations.md)
+- [Regole globali root](../../../project_docs/database_migrations.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Regola Performance](../../Performance/docs/database_migrations.md)
+- [Regole globali root](../../../docs/database_migrations.md)
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
     /**
      * Ottiene la sezione associata al socio.
@@ -586,3 +1071,84 @@ php artisan db:analyze-usage --connection=nome_connessione
 - Verificare che ci siano indici appropriati
 - Controllare che i tipi di dati siano ottimali per l'uso previsto
 - Utilizzare query builder o raw queries per query complesse
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

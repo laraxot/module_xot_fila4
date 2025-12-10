@@ -9,12 +9,135 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Header;
 
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
+<<<<<<< HEAD
 // use Filament\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 use Exception;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+// use Filament\Actions\Action;
+=======
+// use Filament\Tables\Actions\Action;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Exception;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Exception;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
 use Modules\Xot\Actions\Export\ExportXlsByCollection;
@@ -27,11 +150,21 @@ class ExportXlsAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             ->label('')
             ->tooltip(__('xot::actions.export_xls'))
             ->icon('heroicon-o-arrow-down-tray')
             ->action(static function (ListRecords $livewire) {
                 $filename =
+<<<<<<< HEAD
                     class_basename($livewire).
                     '-'.
                     collect($livewire->tableFilters)->flatten()->implode('-').
@@ -44,6 +177,68 @@ class ExportXlsAction extends Action
                     class_basename($livewire) .
                     '-' .
                     collect($livewire->tableFilters)->flatten()->implode('-') .
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    class_basename($livewire).
+                    '-'.
+                    collect($livewire->tableFilters)->flatten()->implode('-').
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
+=======
+                    class_basename($livewire) .
+                    '-' .
+                    collect($livewire->tableFilters)->flatten()->implode('-') .
+>>>>>>> 5a14301c (.)
+                    '.xlsx';
+                $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
+                $transKey .= '.fields';
+                $query = $livewire->getFilteredTableQuery();
+                if ($query === null) {
+                    throw new Exception('Query is null');
+                }
+                $rows = $query->get();
+
+                $resource = $livewire->getResource();
+
+<<<<<<< HEAD
+=======
+=======
+=======
+            ->label('')
+>>>>>>> b93ef594b4 (.)
+            ->tooltip(__('xot::actions.export_xls'))
+            ->icon('heroicon-o-arrow-down-tray')
+            ->action(static function (ListRecords $livewire) {
+                $filename =
+>>>>>>> laraxot/develop
                     class_basename($livewire) .
                     '-' .
                     collect($livewire->tableFilters)->flatten()->implode('-') .
@@ -57,12 +252,71 @@ class ExportXlsAction extends Action
                 $rows = $query->get();
 
                 $resource = $livewire->getResource();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+                
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            ->tooltip(__('xot::actions.export_xls'))
+            ->icon('heroicon-o-arrow-down-tray')
+            ->action(static function (ListRecords $livewire) {
+                $filename = class_basename($livewire).'-'.collect($livewire->tableFilters)->flatten()->implode('-').'.xlsx';
+                $transKey = app(GetTransKeyAction::class)->execute($livewire::class);
+                $transKey .= '.fields';
+                $query = $livewire->getFilteredTableQuery();
+                $rows = $query->get();
+                
+                $resource = $livewire->getResource();
+                
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 /** @var array<int, string> $fields */
                 $fields = [];
                 if (method_exists($resource, 'getXlsFields')) {
                     $rawFields = $resource::getXlsFields($livewire->tableFilters);
+<<<<<<< HEAD
                     if (is_array($rawFields)) {
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                  
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+                  
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+                    if (is_array($rawFields)) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
                         $fields = array_map(
                             /**
                              * @param  mixed  $field
@@ -85,8 +339,36 @@ class ExportXlsAction extends Action
                             },
                             $rawFields
                         );
+<<<<<<< HEAD
                         /** @var array<int, string> $fields */
                         /** @var array<int, string> $fields */
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+                        /** @var array<int, string> $fields */
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+                        /** @var array<int, string> $fields */
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                         $fields = array_map(static function ($field): string {
                             if (is_object($field) && method_exists($field, '__toString')) {
                                 return $field->__toString();
@@ -96,20 +378,157 @@ class ExportXlsAction extends Action
                             }
                             return '';
                         }, $rawFields);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                     }
                     Assert::isArray($fields);
                 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 return app(ExportXlsByCollection::class)->execute($rows, $filename, $transKey, array_values($fields));
             });
     }
 
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public static function getDefaultName(): ?string
+=======
+    public static function getDefaultName(): null|string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
                 return app(ExportXlsByCollection::class)->execute(
                     $rows, 
                     $filename, 
@@ -120,15 +539,139 @@ class ExportXlsAction extends Action
     }
 
     public static function getDefaultName(): ?string
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
                 return app(ExportXlsByCollection::class)->execute($rows, $filename, $transKey, array_values($fields));
             });
     }
 
     public static function getDefaultName(): null|string
+<<<<<<< HEAD
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     {
         return 'export_xls';
     }

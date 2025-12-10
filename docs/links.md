@@ -1,3 +1,274 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 # Links
 
 ## Documentazione Generale
@@ -17,6 +288,7 @@
 ## Documentazione Tecnica
 
 ### Sviluppo e Qualità
+<<<<<<< HEAD
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan level 10
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
@@ -36,6 +308,93 @@
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
 - [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan level 10
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 5a14301c (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 71f31700 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 5a14301c (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 71f31700 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> c35986f4 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 5a14301c (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 71f31700 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 5a14301c (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 71f31700 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> c35986f4 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 5bd842e3 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 03ceeac3 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 5a14301c (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 71f31700 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> c35986f4 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 5bd842e3 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 03ceeac3 (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 5a14301c (.)
+=======
+- [Coding Standards](coding-standards.md) - Standard di codifica e PHPStan Level 9
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 - [PHPStan Usage](phpstan-usage.md) - Guida all'uso di PHPStan per l'analisi statica
 - [Testing Guidelines](testing-guidelines.md) - Linee guida per i test
 - [Code Quality](code-quality.md) - Metriche e standard di qualità del codice
@@ -183,18 +542,314 @@
 **Data Creazione**: 27 Gennaio 2025  
 **Stato**: Consolidato da docs/ root  
 **Priorità**: MEDIA (Raccolta link)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 # Collegamenti Documentazione Modulo Xot
 
 ## Documentazione Generica
 - [README](../docs/README.md) - Documentazione principale del progetto
 - [Roadmap](../docs/roadmap.md) - Piano di sviluppo
 - [Filosofia](../docs/filosofia.md) - Principi e filosofia del progetto
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> laraxot/develop
 # Collegamenti Documentazione Modulo Xot
 
 ## Documentazione Generica
 - [README](../project_docs/README.md) - Documentazione principale del progetto
 - [Roadmap](../project_docs/roadmap.md) - Piano di sviluppo
 - [Filosofia](../project_docs/filosofia.md) - Principi e filosofia del progetto
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 ## Documentazione Tecnica
 - [Regole di Progetto](./rules/PROMPT_RULES.md)
@@ -205,6 +860,131 @@
 - [Risoluzione Problemi](./troubleshooting.md)
 
 ## Collegamenti ai Moduli
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 - [Cms](../Cms/docs/README.md) - Frontend
 - [UI](../UI/docs/README.md) - Componenti
 - [User](../User/docs/README.md) - Utenti e Permessi
@@ -240,6 +1020,436 @@
 * [links.md](../../Tenant/docs/it/links/links.md)
 * [links.md](../../Cms/docs/links.md)
 * [links.md](../../../Themes/One/docs/links.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+- [Cms](../Cms/project_docs/README.md) - Frontend
+- [UI](../UI/project_docs/README.md) - Componenti
+- [User](../User/project_docs/README.md) - Utenti e Permessi
+- [Patient](../Patient/project_docs/README.md) - Pazienti
+- [Dental](../Dental/project_docs/README.md) - Odontoiatria
+- [Tenant](../Tenant/project_docs/README.md) - Multi-tenant
+- [Lang](../Lang/project_docs/README.md) - Traduzioni
+- [Media](../Media/project_docs/README.md) - Media
+- [Notify](../Notify/project_docs/README.md) - Notifiche
+- [Reporting](../Reporting/project_docs/README.md) - Report
+- [Gdpr](../Gdpr/project_docs/README.md) - GDPR
+- [Job](../Job/project_docs/README.md) - Jobs
+- [Chart](../Chart/project_docs/README.md) - Grafici 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+=======
+=======
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> laraxot/develop
+- [Cms](../Cms/project_docs/README.md) - Frontend
+- [UI](../UI/project_docs/README.md) - Componenti
+- [User](../User/project_docs/README.md) - Utenti e Permessi
+- [Patient](../Patient/project_docs/README.md) - Pazienti
+- [Dental](../Dental/project_docs/README.md) - Odontoiatria
+- [Tenant](../Tenant/project_docs/README.md) - Multi-tenant
+- [Lang](../Lang/project_docs/README.md) - Traduzioni
+- [Media](../Media/project_docs/README.md) - Media
+- [Notify](../Notify/project_docs/README.md) - Notifiche
+- [Reporting](../Reporting/project_docs/README.md) - Report
+- [Gdpr](../Gdpr/project_docs/README.md) - GDPR
+- [Job](../Job/project_docs/README.md) - Jobs
+- [Chart](../Chart/project_docs/README.md) - Grafici 
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+<<<<<<< HEAD
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+
 - [Cms](../Cms/project_docs/README.md) - Frontend
 - [UI](../UI/project_docs/README.md) - Componenti
 - [User](../User/project_docs/README.md) - Utenti e Permessi
@@ -276,129 +1486,6 @@
 * [links.md](../../Cms/project_docs/links.md)
 * [links.md](../../../Themes/One/project_docs/links.md)
 
-## Collegamenti tra versioni di LINKS.md
-* [LINKS.md](../../../Xot/project_docs/LINKS.md)
-* [LINKS.md](../../../User/project_docs/LINKS.md)
-* [LINKS.md](../../../UI/project_docs/LINKS.md)
-* [LINKS.md](../../../Cms/project_docs/LINKS.md)
-* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
-
-
-## Collegamenti tra versioni di links.md
-* [links.md](../../Gdpr/project_docs/links.md)
-* [links.md](../../Notify/project_docs/links.md)
-* [links.md](ci/links.md)
-* [links.md](open_sources/links.md)
-* [links.md](../../User/project_docs/links.md)
-* [links.md](../../User/project_docs/links.md)
-* [links.md](../../UI/project_docs/links.md)
-* [links.md](../../Lang/project_docs/links.md)
-* [links.md](../../Job/project_docs/links.md)
-* [links.md](../../Tenant/project_docs/it/links/links.md)
-* [links.md](../../Cms/project_docs/links.md)
-* [links.md](../../../Themes/One/project_docs/links.md)
-
-## Collegamenti tra versioni di LINKS.md
-* [LINKS.md](../../../Xot/project_docs/LINKS.md)
-* [LINKS.md](../../../User/project_docs/LINKS.md)
-* [LINKS.md](../../../UI/project_docs/LINKS.md)
-* [LINKS.md](../../../Cms/project_docs/LINKS.md)
-* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
-
-
-## Collegamenti tra versioni di links.md
-* [links.md](../../Gdpr/project_docs/links.md)
-* [links.md](../../Notify/project_docs/links.md)
-* [links.md](ci/links.md)
-* [links.md](open_sources/links.md)
-* [links.md](../../User/project_docs/links.md)
-* [links.md](../../User/project_docs/links.md)
-* [links.md](../../UI/project_docs/links.md)
-* [links.md](../../Lang/project_docs/links.md)
-* [links.md](../../Job/project_docs/links.md)
-* [links.md](../../Tenant/project_docs/it/links/links.md)
-* [links.md](../../Cms/project_docs/links.md)
-* [links.md](../../../Themes/One/project_docs/links.md)
-
-## Collegamenti tra versioni di LINKS.md
-* [LINKS.md](../../../Xot/project_docs/LINKS.md)
-* [LINKS.md](../../../User/project_docs/LINKS.md)
-* [LINKS.md](../../../UI/project_docs/LINKS.md)
-* [LINKS.md](../../../Cms/project_docs/LINKS.md)
-* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
-
-
-## Collegamenti tra versioni di links.md
-* [links.md](../../Gdpr/project_docs/links.md)
-* [links.md](../../Notify/project_docs/links.md)
-* [links.md](ci/links.md)
-* [links.md](open_sources/links.md)
-* [links.md](../../User/project_docs/links.md)
-* [links.md](../../User/project_docs/links.md)
-* [links.md](../../UI/project_docs/links.md)
-* [links.md](../../Lang/project_docs/links.md)
-* [links.md](../../Job/project_docs/links.md)
-* [links.md](../../Tenant/project_docs/it/links/links.md)
-* [links.md](../../Cms/project_docs/links.md)
-* [links.md](../../../Themes/One/project_docs/links.md)
-
-## Collegamenti tra versioni di LINKS.md
-* [LINKS.md](../../../Xot/project_docs/LINKS.md)
-* [LINKS.md](../../../User/project_docs/LINKS.md)
-* [LINKS.md](../../../UI/project_docs/LINKS.md)
-* [LINKS.md](../../../Cms/project_docs/LINKS.md)
-* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
-
-
-## Collegamenti tra versioni di links.md
-* [links.md](../../Gdpr/project_docs/links.md)
-* [links.md](../../Notify/project_docs/links.md)
-* [links.md](ci/links.md)
-* [links.md](open_sources/links.md)
-* [links.md](../../User/project_docs/links.md)
-* [links.md](../../User/project_docs/links.md)
-* [links.md](../../UI/project_docs/links.md)
-* [links.md](../../Lang/project_docs/links.md)
-* [links.md](../../Job/project_docs/links.md)
-* [links.md](../../Tenant/project_docs/it/links/links.md)
-* [links.md](../../Cms/project_docs/links.md)
-* [links.md](../../../Themes/One/project_docs/links.md)
-
-- [Cms](../Cms/project_docs/README.md) - Frontend
-- [UI](../UI/project_docs/README.md) - Componenti
-- [User](../User/project_docs/README.md) - Utenti e Permessi
-- [Patient](../Patient/project_docs/README.md) - Pazienti
-- [Dental](../Dental/project_docs/README.md) - Odontoiatria
-- [Tenant](../Tenant/project_docs/README.md) - Multi-tenant
-- [Lang](../Lang/project_docs/README.md) - Traduzioni
-- [Media](../Media/project_docs/README.md) - Media
-- [Notify](../Notify/project_docs/README.md) - Notifiche
-- [Reporting](../Reporting/project_docs/README.md) - Report
-- [Gdpr](../Gdpr/project_docs/README.md) - GDPR
-- [Job](../Job/project_docs/README.md) - Jobs
-- [Chart](../Chart/project_docs/README.md) - Grafici 
-
-## Collegamenti tra versioni di LINKS.md
-* [LINKS.md](../../../Xot/project_docs/LINKS.md)
-* [LINKS.md](../../../User/project_docs/LINKS.md)
-* [LINKS.md](../../../UI/project_docs/LINKS.md)
-* [LINKS.md](../../../Cms/project_docs/LINKS.md)
-* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
-
-
-## Collegamenti tra versioni di links.md
-* [links.md](../../Gdpr/project_docs/links.md)
-* [links.md](../../Notify/project_docs/links.md)
-* [links.md](ci/links.md)
-* [links.md](open_sources/links.md)
-* [links.md](../../User/project_docs/links.md)
-* [links.md](../../User/project_docs/links.md)
-* [links.md](../../UI/project_docs/links.md)
-* [links.md](../../Lang/project_docs/links.md)
-* [links.md](../../Job/project_docs/links.md)
-* [links.md](../../Tenant/project_docs/it/links/links.md)
-* [links.md](../../Cms/project_docs/links.md)
-* [links.md](../../../Themes/One/project_docs/links.md)
 
 
 
@@ -407,4 +1494,89 @@
 
 
 
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+
+>>>>>>> 5bd842e3 (.)
+=======
+
+>>>>>>> 03ceeac3 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 71f31700 (.)
+=======
+
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+
+>>>>>>> 5bd842e3 (.)
+=======
+
+>>>>>>> 03ceeac3 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

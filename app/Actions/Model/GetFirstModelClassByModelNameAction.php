@@ -20,6 +20,15 @@ class GetFirstModelClassByModelNameAction
      */
     public function execute(string $modelName): string
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         /** @var array<string, class-string> $models */
         $models = app(GetAllModelsAction::class)->execute();
         Assert::keyExists(
@@ -32,11 +41,66 @@ class GetFirstModelClassByModelNameAction
         Assert::string(
             $modelClass,
             '['.__LINE__.']['.class_basename($this).']',
+<<<<<<< HEAD
         $models = app(GetAllModelsAction::class)->execute();
         Assert::string(
             $modelClass = collect($models)->get($modelName),
             '[' . __LINE__ . '][' . class_basename($this) . ']',
         );
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+        $models = app(GetAllModelsAction::class)->execute();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+        Assert::string(
+            $modelClass = collect($models)->get($modelName),
+            '[' . __LINE__ . '][' . class_basename($this) . ']',
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+        );
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        Assert::string($modelClass = collect($models)->get($modelName), '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
         return $modelClass;
     }

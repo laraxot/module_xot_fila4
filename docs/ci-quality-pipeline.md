@@ -3,7 +3,11 @@
 This pipeline defines a staged adoption of linters/scanners across the monorepo. All jobs run in report/dry-run mode initially. Enforce gates only after manual review.
 
 ## Stage 0 (Advisory Only)
+<<<<<<< HEAD
 - phpstan (level 9) — pass/fail (already 0 errors)
+=======
+- phpstan (level 10) — pass/fail (already 0 errors)
+>>>>>>> laraxot/develop
 - pint (test) — advisory
 - php-cs-fixer (dry-run) — advisory
 - phpmd (report) — advisory

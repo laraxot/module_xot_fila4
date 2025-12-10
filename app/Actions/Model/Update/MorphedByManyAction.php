@@ -7,10 +7,37 @@ namespace Modules\Xot\Actions\Model\Update;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Datas\RelationData as RelationDTO;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
 class MorphedByManyAction
 {
@@ -19,6 +46,15 @@ class MorphedByManyAction
     /**
      * Undocumented function.
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     public function execute(Model $_model, RelationDTO $_relationDTO): void
     {
         // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
@@ -37,5 +73,59 @@ class MorphedByManyAction
          * $model->$name()->touch();
          * }
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+=======
+    public function execute(Model $_model, RelationDTO $_relationDTO): void
+>>>>>>> b93ef594b4 (.)
+    {
+        // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
+        dddx('wip');
+
+        /*
+<<<<<<< HEAD
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+    {
+        // Assert::isInstanceOf($relation = $relationDTO->rows, HasMany::class);
+        dddx('wip');
+        /*
+>>>>>>> origin/develop
+        foreach ($data as $k => $v) {
+            if (! \is_array($v)) {
+                $v = [];
+            }
+            if (! isset($v['pivot'])) {
+                $v['pivot'] = [];
+            }
+            // Call to undefined method Illuminate\Database\Eloquent\Relations\MorphMany::syncWithoutDetaching()
+            // $res = $model->$name()->syncWithoutDetaching([$k => $v['pivot']]);
+            $model->$name()->touch();
+        }
+        */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+         * foreach ($data as $k => $v) {
+         * if (! \is_array($v)) {
+         * $v = [];
+         * }
+         * if (! isset($v['pivot'])) {
+         * $v['pivot'] = [];
+         * }
+         * // Call to undefined method Illuminate\Database\Eloquent\Relations\MorphMany::syncWithoutDetaching()
+         * // $res = $model->$name()->syncWithoutDetaching([$k => $v['pivot']]);
+         * $model->$name()->touch();
+         * }
+         */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 }

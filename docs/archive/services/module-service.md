@@ -83,6 +83,18 @@ Recupera tutti i modelli definiti nel modulo specificato.
 
 ## Link Correlati
 
+<<<<<<< HEAD
 - [Documentazione Moduli](../../../docs/modules/index.md)
 - [Gestione Modelli](../../../docs/models/index.md)
 - [Pattern Singleton](../../../docs/patterns/singleton.md) 
+=======
+<<<<<<< HEAD
+- [Documentazione Moduli](../../../docs/modules/index.md)
+- [Gestione Modelli](../../../docs/models/index.md)
+- [Pattern Singleton](../../../docs/patterns/singleton.md) 
+=======
+- [Documentazione Moduli](../../../project_docs/modules/index.md)
+- [Gestione Modelli](../../../project_docs/models/index.md)
+- [Pattern Singleton](../../../project_docs/patterns/singleton.md) 
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop

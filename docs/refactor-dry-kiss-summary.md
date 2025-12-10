@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 # Refactor Radicale DRY + KISS - Riepilogo Completo
 
 > **🎯 Obiettivo Raggiunto**: Eliminazione massiva duplicazioni documentali
@@ -13,7 +55,15 @@
 - Manutenzione impossibile
 
 **Dopo il refactor:**
+<<<<<<< HEAD
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/phpstan-consolidated.md`
+=======
+<<<<<<< HEAD
+- ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/phpstan-consolidated.md`
+=======
+- ✅ **1 file centralizzato**: `/laravel/Modules/Xot/project_docs/phpstan-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 - ✅ **99% riduzione duplicazioni**
 - ✅ **Single Source of Truth** implementato
 
@@ -37,7 +87,15 @@
 - Standard inconsistenti
 
 **Dopo il refactor:**
+<<<<<<< HEAD
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
+=======
+<<<<<<< HEAD
+- ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/translations-consolidated.md`
+=======
+- ✅ **1 file centralizzato**: `/laravel/Modules/Xot/project_docs/translations-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 - ✅ **99% riduzione duplicazioni**
 - ✅ **Regole universali** per tutti i moduli
 
@@ -58,7 +116,15 @@
 - Best practices frammentate
 
 **Dopo il refactor:**
+<<<<<<< HEAD
 - ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
+=======
+<<<<<<< HEAD
+- ✅ **1 file centralizzato**: `/laravel/Modules/Xot/docs/migrations-consolidated.md`
+=======
+- ✅ **1 file centralizzato**: `/laravel/Modules/Xot/project_docs/migrations-consolidated.md`
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 - ✅ **96% riduzione duplicazioni**
 - ✅ **Procedure universali** standardizzate
 
@@ -98,8 +164,248 @@
 | Lang | 22+ | Localizzazione standardizzata |
 | Media | 9+ | Asset management unificato |
 | Notify | 19+ | Notifiche standardizzate |
+<<<<<<< HEAD
 | <nome modulo> | 13+ | Business logic semplificata |
 | <nome progetto> | 45+ | Core business centralizzato |
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+| <nome modulo> | 13+ | Business logic semplificata |
+| <nome progetto> | 45+ | Core business centralizzato |
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+|  | 45+ | Core business centralizzato |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 5a14301c (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+|  | 45+ | Core business centralizzato |
+| <nome progetto> | 45+ | Core business centralizzato |
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+|  | 45+ | Core business centralizzato |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 5a14301c (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+<<<<<<< HEAD
+| SaluteOra | 45+ | Core business centralizzato |
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+<<<<<<< HEAD
+| SaluteOra | 45+ | Core business centralizzato |
+<<<<<<< HEAD
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+|  | 45+ | Core business centralizzato |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 5a14301c (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+|  | 45+ | Core business centralizzato |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 5a14301c (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 5bd842e3 (.)
+=======
+=======
+>>>>>>> cf971011 (.)
+=======
+|  | 45+ | Core business centralizzato |
+| <nome progetto> | 45+ | Core business centralizzato |
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+|  | 45+ | Core business centralizzato |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 5a14301c (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+|  | 45+ | Core business centralizzato |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 5a14301c (.)
+=======
+| SaluteMo | 13+ | Business logic semplificata |
+| SaluteOra | 45+ | Core business centralizzato |
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 | Tenant | 7+ | Multi-tenancy unificata |
 | UI | 14+ | Componenti standardizzati |
 | User | 21+ | Autenticazione centralizzata |
@@ -121,7 +427,15 @@
 
 ### Documentazione Tecnica Centralizzata
 ```
+<<<<<<< HEAD
 /laravel/Modules/Xot/docs/
+=======
+<<<<<<< HEAD
+/laravel/Modules/Xot/docs/
+=======
+/laravel/Modules/Xot/project_docs/
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 ├── phpstan-consolidated.md          # TUTTE le regole PHPStan
 ├── translations-consolidated.md     # TUTTE le regole traduzioni
 ├── migrations-consolidated.md       # TUTTE le regole migrazioni
@@ -138,7 +452,15 @@
 
 ### Documentazione Moduli (Solo Specifiche)
 ```
+<<<<<<< HEAD
 /laravel/Modules/{Module}/docs/
+=======
+<<<<<<< HEAD
+/laravel/Modules/{Module}/docs/
+=======
+/laravel/Modules/{Module}/project_docs/
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 ├── README.md                        # Overview modulo
 ├── api.md                          # API specifiche modulo
 └── features/                       # Funzionalità specifiche
@@ -214,3 +536,51 @@
 **Completato**: 2025-08-07  
 **Durata refactor**: 15 minuti  
 **Impatto**: TRASFORMATIVO
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

@@ -4,15 +4,117 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 use Exception;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\File\FixPathAction;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 use Modules\Xot\Actions\File\FixPathAction;
 use Exception;
 use Illuminate\Support\Str;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Modules\Xot\Actions\File\FixPathAction;
+use Exception;
+=======
+<<<<<<< HEAD
+use Modules\Xot\Actions\File\FixPathAction;
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+use Illuminate\Support\Str;
+use Spatie\QueueableAction\QueueableAction;
+use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
 class GetViewAction
 {
@@ -21,6 +123,32 @@ class GetViewAction
     /**
      * Summary of execute.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @return view-string
      *
      * @throws Exception
@@ -28,24 +156,137 @@ class GetViewAction
     public function execute(string $tpl = '', string $file0 = ''): string
     {
         if ($file0 === '') {
+<<<<<<< HEAD
      * @throws Exception
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+     * @throws Exception
+=======
+<<<<<<< HEAD
+     * @throws Exception
+=======
+     * @throws \Exception
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
      *
      * @return view-string
      */
     public function execute(string $tpl = '', string $file0 = ''): string
     {
         if ('' === $file0) {
+<<<<<<< HEAD
             $backtrace = debug_backtrace();
             $file0 = app(FixPathAction::class)->execute($backtrace[0]['file'] ?? '');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+            $backtrace = debug_backtrace();
+<<<<<<< HEAD
+            $file0 = app(FixPathAction::class)->execute($backtrace[0]['file'] ?? '');
+=======
+<<<<<<< HEAD
+            $file0 = app(FixPathAction::class)->execute($backtrace[0]['file'] ?? '');
+=======
+            $file0 = app(File\FixPathAction::class)->execute($backtrace[0]['file'] ?? '');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         }
 
         $file0 = Str::after($file0, base_path());
         $arr = explode(DIRECTORY_SEPARATOR, $file0);
+<<<<<<< HEAD
         if ($arr[0] === '') {
         if ('' === $arr[0]) {
         if ('' === $arr[0]) {
         if ('' === $arr[0]) {
         if ('' === $arr[0]) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if ($arr[0] === '') {
+=======
+        if ('' === $arr[0]) {
+>>>>>>> 5a14301c (.)
+=======
+        if ('' === $arr[0]) {
+>>>>>>> 5a14301c (.)
+=======
+        if ('' === $arr[0]) {
+>>>>>>> 5a14301c (.)
+=======
+        if ('' === $arr[0]) {
+>>>>>>> 5a14301c (.)
+=======
+        if ('' === $arr[0]) {
+>>>>>>> 5a14301c (.)
+=======
+        if ('' === $arr[0]) {
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             $arr = array_slice($arr, 1);
             $arr = array_values($arr);
         }
@@ -54,6 +295,15 @@ class GetViewAction
         // $tmp = array_slice($arr, 3);//senza "app"
         $tmp = array_slice($arr, 4); // con "app"
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $tmp = collect($tmp)
             ->map(static function ($item) {
                 $item = str_replace('.php', '', $item);
@@ -62,11 +312,119 @@ class GetViewAction
             })
             ->implode('.');
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
         $pub_view = 'pub_theme::' . $tmp;
         Assert::string($pub_view, '[' . __LINE__ . '][' . class_basename($this) . ']');
 
         if ('' !== $tpl) {
             $pub_view .= '.' . $tpl;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        $tmp = collect($tmp)->map(
+            static function ($item) {
+                $item = str_replace('.php', '', $item);
+
+                return Str::slug(Str::snake($item));
+            }
+        )->implode('.');
+
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+        $pub_view = 'pub_theme::'.$tmp;
+        // $pub_view è sempre stringa perché costruita da stringhe
+
+        if ($tpl !== '') {
+            $pub_view .= '.'.$tpl;
+        }
+        // PHPStan: $pub_view è sempre non-falsy-string, Assert ridondante rimosso
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+        $pub_view = 'pub_theme::' . $tmp;
+        Assert::string($pub_view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+
+        if ('' !== $tpl) {
+            $pub_view .= '.' . $tpl;
+<<<<<<< HEAD
+=======
+=======
+        $tmp = collect($tmp)->map(
+            static function ($item) {
+=======
+        $tmp = collect($tmp)
+            ->map(static function ($item) {
+>>>>>>> b93ef594b4 (.)
+                $item = str_replace('.php', '', $item);
+
+                return Str::slug(Str::snake($item));
+            })
+            ->implode('.');
+
+>>>>>>> laraxot/develop
+        $pub_view = 'pub_theme::' . $tmp;
+        Assert::string($pub_view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+
+        if ('' !== $tpl) {
+<<<<<<< HEAD
+            $pub_view .= '.' . $tpl;
+=======
+<<<<<<< HEAD
+            $pub_view .= '.'.$tpl;
+>>>>>>> a12f125f4a (.)
+=======
+            $pub_view .= '.' . $tpl;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> laraxot/develop
         $tmp = collect($tmp)->map(
             static function ($item) {
                 $item = str_replace('.php', '', $item);
@@ -76,6 +434,7 @@ class GetViewAction
         )->implode('.');
 
         $pub_view = 'pub_theme::'.$tmp;
+<<<<<<< HEAD
         // $pub_view è sempre stringa perché costruita da stringhe
 
         if ($tpl !== '') {
@@ -88,38 +447,720 @@ class GetViewAction
         if ('' !== $tpl) {
             $pub_view .= '.' . $tpl;
         }
+=======
+        Assert::string($pub_view, '['.__LINE__.']['.class_basename($this).']');
+
+        if ('' !== $tpl) {
+            $pub_view .= '.'.$tpl;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+        }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         if (view()->exists($pub_view)) {
             return $pub_view;
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         $view = Str::lower($mod) . '::' . $tmp;
 
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
         $view = Str::lower($mod).'::'.$tmp;
 
         if ($tpl !== '') {
             $view .= '.'.$tpl;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
         $view = Str::lower($mod) . '::' . $tmp;
 
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         $view = Str::lower($mod).'::'.$tmp;
 
         if ('' !== $tpl) {
             $view .= '.'.$tpl;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
         $view = Str::lower($mod) . '::' . $tmp;
 
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
         $view = Str::lower($mod).'::'.$tmp;
 
         if ($tpl !== '') {
             $view .= '.'.$tpl;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         }
 
         // if (inAdmin()) {
         if (Str::contains($view, '::panels.actions.')) {
+<<<<<<< HEAD
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
@@ -185,11 +1226,410 @@ class GetViewAction
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 5a14301c (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 3fbbf1f5 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 399f46d3 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 17684f52 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 399f46d3 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 399f46d3 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 17684f52 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 399f46d3 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 17684f52 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> a12f125f4a (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> b93ef594b4 (.)
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> ca9324a4 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> ca9324a4 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 9db27d12 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 5a14301c (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> ca9324a4 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 5a14301c (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> ca9324a4 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> 71586de2 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 5a14301c (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> ca9324a4 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> 71586de2 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 5a14301c (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
             $view = Str::replace('::panels.actions.', $to, $view);
             $view = Str::replace('-action', '', $view);
         }
 
         // }
+<<<<<<< HEAD
         // $view è sempre stringa perché costruita da stringhe
         Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
         if (! view()->exists($view)) {
@@ -350,6 +1790,611 @@ class GetViewAction
         Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
         if (! view()->exists($view)) {
             throw new Exception('View ['.$view.'] not found');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        // $view è sempre stringa perché costruita da stringhe
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 6dcebf8a (.)
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+<<<<<<< HEAD
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 399f46d3 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 17684f52 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 399f46d3 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 399f46d3 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 17684f52 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 399f46d3 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 17684f52 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> ed734516 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 7131bd09 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> ed734516 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> ed734516 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 7131bd09 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> ed734516 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 7131bd09 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> ed734516 (.)
+=======
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+=======
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+>>>>>>> ab8cc3f3 (.)
+=======
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> b93ef594b4 (.)
+=======
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new \Exception('View ['.$view.'] not found');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> ca9324a4 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 9db27d12 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> ca9324a4 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+>>>>>>> 71586de2 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+        if (! view()->exists($view)) {
+            throw new Exception('View ['.$view.'] not found');
+>>>>>>> 71586de2 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         }
 
         return $view;

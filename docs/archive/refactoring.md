@@ -60,6 +60,16 @@ class YourModel extends Model
 ```
 
 ## Collegamenti
+<<<<<<< HEAD
 - [Laravel Relationships](https://laravel.com/docs/relationships)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+=======
+<<<<<<< HEAD
+- [Laravel Relationships](https://laravel.com/docs/relationships)
+- [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+=======
+- [Laravel Relationships](https://laravel.com/project_docs/relationships)
+- [Spatie Laravel Data](https://spatie.be/project_docs/laravel-data)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 - [Best Practices](BEST-PRACTICES.md) 

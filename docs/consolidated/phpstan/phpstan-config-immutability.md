@@ -1,6 +1,298 @@
+<<<<<<< HEAD
 # PHPStan Config Immutability (Global Project Rule)
 
 - File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# PHPStan Config Immutability (Global Project Rule)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 399f46d3 (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> d86d643a (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 472bd9dc (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> d86d643a (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> d86d643a (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 472bd9dc (.)
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 43d67f21 (.)
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 43d67f21 (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> b7ea1cd1 (.)
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 43d67f21 (.)
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> 5a14301c (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 43d67f21 (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> b7ea1cd1 (.)
+=======
+# PHPStan Config Immutability (Global Project Rule)
+
+<<<<<<< HEAD
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+<<<<<<< HEAD
+>>>>>>> 88e35986 (.)
+=======
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+# PHPStan Config Immutability (Global Project Rule)
+
+<<<<<<< HEAD
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+<<<<<<< HEAD
+>>>>>>> e0b8ebe3 (.)
+=======
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 76bec91a (.)
+=======
+# PHPStan Config Immutability (Global Project Rule)
+
+<<<<<<< HEAD
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+<<<<<<< HEAD
+>>>>>>> cc52d333 (.)
+=======
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 55fe1822 (.)
+=======
+=======
+>>>>>>> 5a14301c (.)
+# PHPStan Config Immutability (Global Project Rule)
+
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+# PHPStan Config Immutability (Global Project Rule)
+
+<<<<<<< HEAD
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 43d67f21 (.)
+=======
+# PHPStan Config Immutability (Global Project Rule)
+
+<<<<<<< HEAD
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+<<<<<<< HEAD
+>>>>>>> 17684f52 (.)
+=======
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> b7ea1cd1 (.)
+=======
+# PHPStan Config Immutability (Global Project Rule)
+
+<<<<<<< HEAD
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+<<<<<<< HEAD
+>>>>>>> 88e35986 (.)
+=======
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+# PHPStan Config Immutability (Global Project Rule)
+
+<<<<<<< HEAD
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+<<<<<<< HEAD
+>>>>>>> e0b8ebe3 (.)
+=======
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 76bec91a (.)
+=======
+# PHPStan Config Immutability (Global Project Rule)
+
+<<<<<<< HEAD
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+<<<<<<< HEAD
+>>>>>>> cc52d333 (.)
+=======
+=======
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_<nome progetto>/laravel/phpstan.neon`
+- File target: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/phpstan.neon`
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+# PHPStan Config Immutability (Global Project Rule)
+
+- File target: `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 - Status: IMMUTABLE — never modify this file via automation or PRs. Only the user may edit it manually.
 
 ## Rationale
@@ -30,3 +322,51 @@ find Modules -maxdepth 2 -type d -name app ! -path 'Modules/Activity/*' -print0 
 - `.ai/guidelines/phpstan-config-immutability.md`
 - `.cursor/rules/phpstan-config-immutability.mdc`
 - `.windsurf/rules/phpstan-config-immutability.mdc`
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

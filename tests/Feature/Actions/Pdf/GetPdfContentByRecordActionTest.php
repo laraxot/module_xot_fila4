@@ -4,15 +4,64 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Feature\Actions\Pdf;
 
+<<<<<<< HEAD
 use ReflectionClass;
 use ReflectionClass;
 use ReflectionClass;
 use ReflectionClass;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use ReflectionClass;
+>>>>>>> 5a14301c (.)
+=======
+use ReflectionClass;
+>>>>>>> 5a14301c (.)
+=======
+use ReflectionClass;
+>>>>>>> 5a14301c (.)
+=======
+use ReflectionClass;
+>>>>>>> 5a14301c (.)
+=======
+use ReflectionClass;
+>>>>>>> 5a14301c (.)
+=======
+use ReflectionClass;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Modules\User\Models\User;
 use Modules\Xot\Actions\Pdf\GetPdfContentByRecordAction;
+<<<<<<< HEAD
 use ReflectionClass;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use ReflectionClass;
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Tests\TestCase;
 
 /**
@@ -25,11 +74,39 @@ class GetPdfContentByRecordActionTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
         $this->action = new GetPdfContentByRecordAction;
         $this->action = new GetPdfContentByRecordAction();
         $this->action = new GetPdfContentByRecordAction();
         $this->action = new GetPdfContentByRecordAction();
         $this->action = new GetPdfContentByRecordAction();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->action = new GetPdfContentByRecordAction;
+=======
+        $this->action = new GetPdfContentByRecordAction();
+>>>>>>> 5a14301c (.)
+=======
+        $this->action = new GetPdfContentByRecordAction();
+>>>>>>> 5a14301c (.)
+=======
+        $this->action = new GetPdfContentByRecordAction();
+>>>>>>> 5a14301c (.)
+=======
+        $this->action = new GetPdfContentByRecordAction();
+>>>>>>> 5a14301c (.)
+=======
+        $this->action = new GetPdfContentByRecordAction();
+>>>>>>> 5a14301c (.)
+=======
+        $this->action = new GetPdfContentByRecordAction();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     }
 
     /** @test */
@@ -38,16 +115,60 @@ class GetPdfContentByRecordActionTest extends TestCase
         // Arrange
         $user = User::factory()->create([
             'name' => 'Test User',
+<<<<<<< HEAD
             'email' => 'test@example.com',
+=======
+<<<<<<< HEAD
+            'email' => 'test@example.com',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'email' => 'test@example.com',
+=======
+            'email' => 'test@example.com'
+>>>>>>> a12f125f4a (.)
+=======
+            'email' => 'test@example.com',
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         ]);
 
         // Mock view existence
         view()->addNamespace('user', resource_path('views'));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
         // Act & Assert
         $this->expectException(Exception::class);
         $this->expectExceptionMessage("View 'user::user.show.pdf' not found");
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        
+        // Act & Assert
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage("View 'user::user.show.pdf' not found");
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+        // Act & Assert
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage("View 'user::user.show.pdf' not found");
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $this->action->execute($user);
     }
 
@@ -56,15 +177,57 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         $user = User::factory()->create();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // Use reflection to test protected method
         $reflection = new ReflectionClass($this->action);
         $method = $reflection->getMethod('generateViewName');
         $method->setAccessible(true);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
         // Act
         $viewName = $method->invoke($this->action, $user);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        
+        // Act
+        $viewName = $method->invoke($this->action, $user);
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+        // Act
+        $viewName = $method->invoke($this->action, $user);
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // Assert
         $this->assertEquals('user::user.show.pdf', $viewName);
     }
@@ -74,15 +237,57 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         $user = User::factory()->create(['id' => 123, 'name' => 'Test User']);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // Use reflection to test protected method
         $reflection = new ReflectionClass($this->action);
         $method = $reflection->getMethod('generateFilename');
         $method->setAccessible(true);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
         // Act
         $filename = $method->invoke($this->action, $user);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        
+        // Act
+        $filename = $method->invoke($this->action, $user);
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+        // Act
+        $filename = $method->invoke($this->action, $user);
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // Assert
         $this->assertEquals('user_123_test-user.pdf', $filename);
     }
@@ -91,10 +296,20 @@ class GetPdfContentByRecordActionTest extends TestCase
     public function it_generates_enhanced_filename_for_performance_models(): void
     {
         // Arrange - Create a mock model with performance fields
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         $record = new class extends Model
         {
             protected $table = 'test_performance';
 
+<<<<<<< HEAD
 
 
         $record = new class extends Model {
@@ -103,6 +318,32 @@ class GetPdfContentByRecordActionTest extends TestCase
             protected $table = 'test_performance';
         $record = new class extends Model {
             protected $table = 'test_performance';
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+        $record = new class extends Model {
+            protected $table = 'test_performance';
+>>>>>>> 5a14301c (.)
+=======
+        $record = new class extends Model {
+            protected $table = 'test_performance';
+>>>>>>> 5a14301c (.)
+=======
+        $record = new class extends Model {
+            protected $table = 'test_performance';
+>>>>>>> 5a14301c (.)
+=======
+        $record = new class extends Model {
+            protected $table = 'test_performance';
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             protected $fillable = ['id', 'matr', 'cognome', 'nome'];
 
             public string $matr = '';
@@ -112,8 +353,19 @@ class GetPdfContentByRecordActionTest extends TestCase
             public string $nome = '';
 
             public function getKey(): int
+<<<<<<< HEAD
         $record = new class extends Model {
             protected $table = 'test_performance';
+=======
+=======
+>>>>>>> a6ef6dc7 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+        $record = new class extends Model {
+            protected $table = 'test_performance';
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             protected $fillable = ['id', 'matr', 'cognome', 'nome'];
 
             public string $matr = '';
@@ -123,26 +375,105 @@ class GetPdfContentByRecordActionTest extends TestCase
             public string $nome = '';
 
             public function getKey(): int
+<<<<<<< HEAD
             protected $fillable = ['id', 'matr', 'cognome', 'nome'];
 
+=======
+=======
+>>>>>>> a6ef6dc7 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+        $record = new class extends Model {
+            protected $table = 'test_performance';
+>>>>>>> 5a14301c (.)
+            protected $fillable = ['id', 'matr', 'cognome', 'nome'];
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             public function getKey()
             {
                 return 456;
             }
         };
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
         $record->matr = 'ABC123';
         $record->cognome = 'Rossi';
         $record->nome = 'Mario';
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        
+        $record->matr = 'ABC123';
+        $record->cognome = 'Rossi';
+        $record->nome = 'Mario';
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+        $record->matr = 'ABC123';
+        $record->cognome = 'Rossi';
+        $record->nome = 'Mario';
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // Use reflection to test protected method
         $reflection = new ReflectionClass($this->action);
         $method = $reflection->getMethod('generateFilename');
         $method->setAccessible(true);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
         // Act
         $filename = $method->invoke($this->action, $record);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        
+        // Act
+        $filename = $method->invoke($this->action, $record);
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+        // Act
+        $filename = $method->invoke($this->action, $record);
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // Assert
         $this->assertEquals('scheda_456_ABC123_Rossi_Mario.pdf', $filename);
     }
@@ -152,15 +483,57 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         $user = User::factory()->create(['name' => 'Test User']);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // Use reflection to test protected method
         $reflection = new ReflectionClass($this->action);
         $method = $reflection->getMethod('prepareViewParameters');
         $method->setAccessible(true);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
         // Act
         $params = $method->invoke($this->action, $user, 'user::user.show.pdf');
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        
+        // Act
+        $params = $method->invoke($this->action, $user, 'user::user.show.pdf');
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+        // Act
+        $params = $method->invoke($this->action, $user, 'user::user.show.pdf');
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // Assert
         $this->assertIsArray($params);
         $this->assertArrayHasKey('view', $params);
@@ -176,11 +549,39 @@ class GetPdfContentByRecordActionTest extends TestCase
     {
         // Arrange
         $user = User::factory()->create();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
         // Act & Assert
         $this->expectException(Exception::class);
         $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        
+        // Act & Assert
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+        // Act & Assert
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $this->action->execute($user);
     }
 
@@ -198,10 +599,36 @@ class GetPdfContentByRecordActionTest extends TestCase
         // Arrange
         $user = User::factory()->create();
         $customFilename = 'custom-report.pdf';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
         // Act & Assert - Should use custom filename in error message
         $this->expectException(Exception::class);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        
+        // Act & Assert - Should use custom filename in error message
+        $this->expectException(Exception::class);
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+        // Act & Assert - Should use custom filename in error message
+        $this->expectException(Exception::class);
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $this->action->execute($user, $customFilename);
     }
 
@@ -211,11 +638,39 @@ class GetPdfContentByRecordActionTest extends TestCase
         // Arrange
         $user = User::factory()->create();
         $filename = 'convenience-test.pdf';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
         // Act & Assert
         $this->expectException(Exception::class);
         $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        
+        // Act & Assert
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+        // Act & Assert
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessageMatches("/View 'user::user\.show\.pdf' not found/");
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $this->action->fromRecord($user, $filename);
     }
 

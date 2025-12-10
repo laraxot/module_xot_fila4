@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 # Best Practices per Volt e Folio
 
 ## Collegamenti correlati
@@ -257,7 +299,248 @@ return redirect()->to('/' . $locale);
 
 ## Conclusione
 
+<<<<<<< HEAD
 Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di <nome progetto>, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di <nome progetto>, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 5a14301c (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 399f46d3 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 472bd9dc (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 472bd9dc (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 3bf39332 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> cf971011 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> e7da37af (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 472bd9dc (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 3bf39332 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> cf971011 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> e7da37af (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di <nome progetto>, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 43d67f21 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 5a14301c (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 43d67f21 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> b7ea1cd1 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 5a14301c (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 43d67f21 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 5a14301c (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 43d67f21 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> b7ea1cd1 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 76bec91a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 55fe1822 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 5a14301c (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 43d67f21 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> b7ea1cd1 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 76bec91a (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 55fe1822 (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di , sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 5a14301c (.)
+=======
+Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il tuo codice sia conforme alle convenzioni di SaluteOra, sia facile da mantenere e sfrutti al meglio le capacità di Laravel, Livewire, Volt e Folio.
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## Riferimenti
 
@@ -265,3 +548,51 @@ Seguendo queste best practices per l'utilizzo di Volt e Folio, garantirai che il
 - [Documentazione Folio](https://laravel.com/project_docs/10.x/folio)
 - [Documentazione Livewire](https://livewire.laravel.com/docs)
 - [Documentazione Filament](https://filamentphp.com/docs)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

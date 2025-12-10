@@ -4,6 +4,68 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Contracts;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 use Modules\User\Models\Team;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -11,6 +73,7 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Laravel\Passport\PersonalAccessTokenResult;
+<<<<<<< HEAD
 use BackedEnum;
 use BackedEnum;
 use DateTime;
@@ -27,6 +90,53 @@ use DateTime;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
 use Illuminate\Support\Collection;
+=======
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+use BackedEnum;
+=======
+use BackedEnum;
+use DateTime;
+>>>>>>> 53d6a6ba (.)
+=======
+use BackedEnum;
+use DateTime;
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+use BackedEnum;
+use DateTime;
+>>>>>>> 71586de2 (.)
+=======
+use BackedEnum;
+use DateTime;
+>>>>>>> 53d6a6ba (.)
+=======
+use BackedEnum;
+use DateTime;
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+use BackedEnum;
+use DateTime;
+>>>>>>> 71586de2 (.)
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+<<<<<<< HEAD
+use Illuminate\Support\Collection;
+>>>>>>> d86d643a (.)
+>>>>>>> laraxot/develop
 use Laravel\Passport\Token;
 use Laravel\Passport\TransientToken;
 use Modules\User\Contracts\TeamContract;
@@ -57,6 +167,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @mixin IdeHelperUserContract
  */
 interface UserContract extends Authenticatable
+<<<<<<< HEAD
 use BackedEnum;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
@@ -69,10 +180,131 @@ use Filament\Support\Contracts\HasLabel;
 use BackedEnum;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+=======
+<<<<<<< HEAD
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 use Filament\Support\Contracts\HasLabel;
 use Spatie\Permission\Contracts\Permission;
 use Override;
 use Illuminate\Support\Collection;
+<<<<<<< HEAD
 use BackedEnum;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
@@ -124,6 +356,151 @@ use Filament\Support\Contracts\HasLabel;
 use BackedEnum;
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca9324a4 (.)
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> ca9324a4 (.)
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+<<<<<<< HEAD
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> ca9324a4 (.)
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> ca9324a4 (.)
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> ca9324a4 (.)
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+<<<<<<< HEAD
+>>>>>>> c06600c (.)
+<<<<<<< HEAD
+>>>>>>> e59778ae (.)
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> ca9324a4 (.)
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> ca9324a4 (.)
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> 5842a556 (.)
+=======
+use BackedEnum;
+use Modules\User\Models\Tenant;
+use Filament\Models\Contracts\FilamentUser;
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> ca9324a4 (.)
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> e59778ae (.)
+use BackedEnum;
+use Modules\User\Models\Tenant;
+use Filament\Models\Contracts\FilamentUser;
+>>>>>>> c06600c (.)
+<<<<<<< HEAD
+>>>>>>> e59778ae (.)
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> 5842a556 (.)
+=======
+use BackedEnum;
+use Modules\User\Models\Tenant;
+use Filament\Models\Contracts\FilamentUser;
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+use BackedEnum;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> 5842a556 (.)
+=======
+use BackedEnum;
+use Modules\User\Models\Tenant;
+use Filament\Models\Contracts\FilamentUser;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Illuminate\Contracts\Auth\Access\Authorizable;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\CanResetPassword;
@@ -132,6 +509,30 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 43d67f21 (.)
+>>>>>>> laraxot/develop
 use Illuminate\Support\Collection;
 use Laravel\Passport\Token;
 use Modules\User\Contracts\HasTeamsContract;
@@ -139,26 +540,373 @@ use Modules\User\Models\Tenant;
 use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
+<<<<<<< HEAD
 use Spatie\Permission\Contracts\Permission;
 use Spatie\Permission\Contracts\Permission;
 use Spatie\Permission\Contracts\Permission;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Spatie\Permission\Contracts\Permission;
+=======
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+use Spatie\Permission\Contracts\Permission;
+>>>>>>> 43d67f21 (.)
+=======
+use Spatie\Permission\Contracts\Permission;
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+use Spatie\Permission\Contracts\Permission;
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+use Spatie\Permission\Contracts\Role;
+use Spatie\Permission\Exceptions\GuardDoesNotMatch;
+use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+=======
+=======
+use Illuminate\Support\Collection;
+>>>>>>> ca9324a4 (.)
+use Laravel\Passport\Token;
+use Modules\User\Contracts\HasTeamsContract;
+use Modules\User\Models\Tenant;
+use Override;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\MediaCollections\FileAdder;
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+>>>>>>> laraxot/develop
 use Spatie\Permission\Contracts\Permission;
 use Spatie\Permission\Contracts\Role;
 use Spatie\Permission\Exceptions\GuardDoesNotMatch;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+<<<<<<< HEAD
 use Illuminate\Support\Collection;
+=======
+<<<<<<< HEAD
+use Spatie\Permission\Exceptions\RoleAlreadyExists;
+use Spatie\Permission\Exceptions\RoleDoesNotExist;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+use Illuminate\Support\Collection;
+use BackedEnum;
+use Filament\Support\Contracts\HasLabel;
+use Modules\User\Models\Tenant;
+use Laravel\Passport\Token;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\Permission\Contracts\Role;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Models\Contracts\FilamentUser;
+use Modules\User\Contracts\HasTeamsContract;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Contracts\Auth\CanResetPassword;
+use Illuminate\Contracts\Auth\Access\Authorizable;
+use Illuminate\Database\Eloquent\Relations\HasOne;
+use Spatie\MediaLibrary\MediaCollections\FileAdder;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+use Spatie\Permission\Contracts\Permission;
+use Spatie\Permission\Contracts\Role;
+use Spatie\Permission\Exceptions\GuardDoesNotMatch;
+use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+>>>>>>> 43d67f21 (.)
+=======
+=======
+use Illuminate\Support\Collection;
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
 use Laravel\Passport\Token;
 use Modules\User\Contracts\HasTeamsContract;
 use Modules\User\Models\Tenant;
 use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+>>>>>>> laraxot/develop
 use Spatie\Permission\Contracts\Permission;
+use Spatie\Permission\Contracts\Role;
+use Spatie\Permission\Exceptions\GuardDoesNotMatch;
+use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+<<<<<<< HEAD
+use Spatie\Permission\Exceptions\RoleAlreadyExists;
+use Spatie\Permission\Exceptions\RoleDoesNotExist;
+=======
+<<<<<<< HEAD
+use Spatie\Permission\Exceptions\RoleAlreadyExists;
+use Spatie\Permission\Exceptions\RoleDoesNotExist;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+use Illuminate\Support\Collection;
+use BackedEnum;
+use Filament\Support\Contracts\HasLabel;
+use Modules\User\Models\Tenant;
+use Laravel\Passport\Token;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\Permission\Contracts\Role;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Models\Contracts\FilamentUser;
+use Modules\User\Contracts\HasTeamsContract;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Contracts\Auth\CanResetPassword;
+use Illuminate\Contracts\Auth\Access\Authorizable;
+use Illuminate\Database\Eloquent\Relations\HasOne;
+use Spatie\MediaLibrary\MediaCollections\FileAdder;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+use Spatie\Permission\Contracts\Permission;
+use Spatie\Permission\Contracts\Role;
+use Spatie\Permission\Exceptions\GuardDoesNotMatch;
+use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+>>>>>>> 43d67f21 (.)
+=======
+=======
+use Illuminate\Support\Collection;
+>>>>>>> ca9324a4 (.)
+use Laravel\Passport\Token;
+use Modules\User\Contracts\HasTeamsContract;
+use Modules\User\Models\Tenant;
+use Override;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\MediaCollections\FileAdder;
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+use Spatie\Permission\Contracts\Permission;
+use Spatie\Permission\Contracts\Role;
+use Spatie\Permission\Exceptions\GuardDoesNotMatch;
+use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+<<<<<<< HEAD
+use Spatie\Permission\Exceptions\RoleAlreadyExists;
+use Spatie\Permission\Exceptions\RoleDoesNotExist;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+use Illuminate\Support\Collection;
+use BackedEnum;
+use Filament\Support\Contracts\HasLabel;
+use Modules\User\Models\Tenant;
+use Laravel\Passport\Token;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\Permission\Contracts\Role;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Models\Contracts\FilamentUser;
+use Modules\User\Contracts\HasTeamsContract;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Contracts\Auth\CanResetPassword;
+use Illuminate\Contracts\Auth\Access\Authorizable;
+use Illuminate\Database\Eloquent\Relations\HasOne;
+use Spatie\MediaLibrary\MediaCollections\FileAdder;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+use Spatie\Permission\Contracts\Permission;
+use Spatie\Permission\Contracts\Role;
+use Spatie\Permission\Exceptions\GuardDoesNotMatch;
+use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+>>>>>>> 43d67f21 (.)
+=======
+=======
+use Illuminate\Support\Collection;
+>>>>>>> ca9324a4 (.)
+use Laravel\Passport\Token;
+use Modules\User\Contracts\HasTeamsContract;
+use Modules\User\Models\Tenant;
+use Override;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\MediaCollections\FileAdder;
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+use Spatie\Permission\Contracts\Permission;
+use Spatie\Permission\Contracts\Role;
+use Spatie\Permission\Exceptions\GuardDoesNotMatch;
+use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+<<<<<<< HEAD
+use Spatie\Permission\Exceptions\RoleAlreadyExists;
+use Spatie\Permission\Exceptions\RoleDoesNotExist;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+use Illuminate\Support\Collection;
+use BackedEnum;
+use Filament\Support\Contracts\HasLabel;
+use Modules\User\Models\Tenant;
+use Laravel\Passport\Token;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\Permission\Contracts\Role;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Models\Contracts\FilamentUser;
+use Modules\User\Contracts\HasTeamsContract;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Contracts\Auth\CanResetPassword;
+use Illuminate\Contracts\Auth\Access\Authorizable;
+use Illuminate\Database\Eloquent\Relations\HasOne;
+use Spatie\MediaLibrary\MediaCollections\FileAdder;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+use Spatie\Permission\Contracts\Permission;
+use Spatie\Permission\Contracts\Role;
+use Spatie\Permission\Exceptions\GuardDoesNotMatch;
+use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+>>>>>>> 43d67f21 (.)
+=======
+use Laravel\Passport\Token;
+use Modules\User\Contracts\HasTeamsContract;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\MediaCollections\FileAdder;
 use Spatie\Permission\Contracts\Role;
 use Spatie\Permission\Exceptions\GuardDoesNotMatch;
 use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 use Spatie\Permission\Exceptions\RoleAlreadyExists;
 use Spatie\Permission\Exceptions\RoleDoesNotExist;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> laraxot/develop
 use Illuminate\Support\Collection;
 use BackedEnum;
 use Filament\Support\Contracts\HasLabel;
@@ -177,6 +925,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 use Spatie\MediaLibrary\MediaCollections\FileAdder;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+<<<<<<< HEAD
 use Spatie\Permission\Contracts\Permission;
 use Spatie\Permission\Contracts\Role;
 use Spatie\Permission\Exceptions\GuardDoesNotMatch;
@@ -310,16 +1059,197 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property ProfileContract|null                                                       $profile
  * @property ProfileContract|null $profile
  * @property ProfileContract|null $profile
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+
+// use Filament\Models\Contracts\HasTenants;
+=======
+=======
+=======
+use Filament\Support\Contracts\HasLabel;
+use Spatie\Permission\Contracts\Permission;
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Illuminate\Support\Collection;
+use BackedEnum;
+use Modules\User\Models\Tenant;
+use Filament\Models\Contracts\FilamentUser;
+use Illuminate\Contracts\Auth\Access\Authorizable;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Contracts\Auth\CanResetPassword;
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Database\Eloquent\Relations\HasOne;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Laravel\Passport\Token;
+use Modules\User\Contracts\HasTeamsContract;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\MediaCollections\FileAdder;
+use Spatie\Permission\Contracts\Role;
+use Spatie\Permission\Exceptions\GuardDoesNotMatch;
+use Spatie\Permission\Exceptions\PermissionDoesNotExist;
+use Spatie\Permission\Exceptions\RoleAlreadyExists;
+use Spatie\Permission\Exceptions\RoleDoesNotExist;
+>>>>>>> b93ef594b4 (.)
+
+// use Filament\Models\Contracts\HasTenants;
+=======
+use Laravel\Passport\Token;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\Permission\Contracts\Role;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Models\Contracts\FilamentUser;
+use Modules\User\Contracts\HasTeamsContract;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Contracts\Auth\CanResetPassword;
+use Illuminate\Contracts\Auth\Access\Authorizable;
+use Illuminate\Database\Eloquent\Relations\HasOne;
+use Spatie\MediaLibrary\MediaCollections\FileAdder;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+
+// use Filament\Models\Contracts\HasTenants;
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+/**
+ * Modules\User\Contracts\UserContract.
+ *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ * @property ProfileContract|null $profile
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> a5dccfe (.)
+ * @property ProfileContract|null                                                       $profile
+>>>>>>> d86d643a (.)
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> 43d67f21 (.)
+=======
+ * @property ProfileContract|null $profile
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+ * @property ProfileContract|null                                                       $profile
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> 5842a556 (.)
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> 43d67f21 (.)
+=======
+ * @property ProfileContract|null $profile
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+ * @property ProfileContract|null                                                       $profile
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> 5842a556 (.)
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> 43d67f21 (.)
+=======
+ * @property ProfileContract|null $profile
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+ * @property ProfileContract|null                                                       $profile
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> 5842a556 (.)
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> 43d67f21 (.)
+=======
+ * @property ProfileContract|null $profile
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+ * @property ProfileContract|null                                                       $profile
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> 5842a556 (.)
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> 43d67f21 (.)
+>>>>>>> laraxot/develop
  * @property string $id
  * @property string $handle
  * @property string|null $first_name
  * @property string|null $last_name
  * @property string|null $full_name
  * @property BackedEnum&HasLabel $type
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
  * @property string|null $password
  * @property string|int|null $current_team_id
  * @property string|null $phone
  * @property string|null $email
+<<<<<<< HEAD
  * @property \DateTime|null $email_verified_at
  * @property DateTime|null $email_verified_at
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
@@ -379,16 +1309,80 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
  * @property ProfileContract|null                                                       $profile
  * @property ProfileContract|null $profile
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @property \DateTime|null $email_verified_at
+>>>>>>> b7afadf9 (.)
+ * @property \DateTime|null $email_verified_at
+=======
+ * @property DateTime|null $email_verified_at
+>>>>>>> 71586de2 (.)
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
+ * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
+ *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+=======
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+<<<<<<< HEAD
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 43d67f21 (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+=======
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5842a556 (.)
+=======
+ * @property ProfileContract|null                                                       $profile
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
  * @property string $id
  * @property string $handle
  * @property string|null $first_name
  * @property string|null $last_name
  * @property string|null $full_name
  * @property BackedEnum&HasLabel $type
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> laraxot/develop
  * @property string|null $password
  * @property string|int|null $current_team_id
  * @property string|null $phone
  * @property string|null $email
+<<<<<<< HEAD
  * @property \DateTime|null $email_verified_at
  * @property DateTime|null $email_verified_at
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
@@ -402,6 +1396,135 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
  * @property ProfileContract|null                                                       $profile
  * @property ProfileContract|null $profile
+=======
+<<<<<<< HEAD
+ * @property \DateTime|null $email_verified_at
+=======
+ * @property DateTime|null $email_verified_at
+>>>>>>> 53d6a6ba (.)
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
+ * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
+ *
+<<<<<<< HEAD
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5a14301c (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 43d67f21 (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+=======
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5842a556 (.)
+=======
+ * @property ProfileContract|null                                                       $profile
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> ca9324a4 (.)
+=======
+ * @property ProfileContract|null $profile
+=======
+ * @property ProfileContract|null                                                       $profile
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> 5842a556 (.)
+ * @property string $id
+ * @property string $handle
+ * @property string|null $first_name
+ * @property string|null $last_name
+ * @property string|null $full_name
+ * @property BackedEnum&HasLabel $type
+ * @property string|null $password
+ * @property string|int|null $current_team_id
+ * @property string|null $phone
+ * @property string|null $email
+<<<<<<< HEAD
+ * @property \DateTime|null $email_verified_at
+<<<<<<< HEAD
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
+ * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
+ *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5a14301c (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 43d67f21 (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+=======
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5842a556 (.)
+=======
+ * @property ProfileContract|null                                                       $profile
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> ca9324a4 (.)
+ * @property string $id
+ * @property string $handle
+ * @property string|null $first_name
+ * @property string|null $last_name
+ * @property string|null $full_name
+ * @property BackedEnum&HasLabel $type
+ * @property string|null $password
+ * @property string|int|null $current_team_id
+ * @property string|null $phone
+ * @property string|null $email
+ * @property \DateTime|null $email_verified_at
+=======
+ * @property DateTime|null $email_verified_at
+>>>>>>> 71586de2 (.)
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
+ * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
+ *
+<<<<<<< HEAD
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5a14301c (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 43d67f21 (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+=======
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5842a556 (.)
+=======
+ * @property ProfileContract|null                                                       $profile
+=======
+ * @property ProfileContract|null $profile
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
  * @property string $id
  * @property string $handle
  * @property string|null $first_name
@@ -416,26 +1539,260 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
  * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
  *
+<<<<<<< HEAD
  * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
  * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
  * @property \DateTime|null $email_verified_at
  * @property DateTime|null $email_verified_at
  * @property \DateTime|null $email_verified_at
+=======
+<<<<<<< HEAD
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5a14301c (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+ * @property \DateTime|null $email_verified_at
+=======
+ * @property DateTime|null $email_verified_at
+>>>>>>> 53d6a6ba (.)
+=======
+ * @property \DateTime|null $email_verified_at
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
  * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
  *
  * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+<<<<<<< HEAD
  * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
  * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
  * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+=======
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+ * @method FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5842a556 (.)
+=======
+ * @property ProfileContract|null                                                       $profile
+ * @property string $id
+ * @property string $handle
+ * @property string|null                                                                $first_name
+ * @property string|null                                                                $last_name
+ * @property string|null                                                                $full_name
+<<<<<<< HEAD
+ * @property BackedEnum&HasLabel $type
+=======
+<<<<<<< HEAD
+ * @property BackedEnum&HasLabel $type
+=======
+ * @property \BackedEnum&\Filament\Support\Contracts\HasLabel                           $type
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+ * @property string|null                                                                $password
+ * @property string|int|null                                                            $current_team_id
+ * @property string|null                                                                $phone
+ * @property string|null                                                                $email
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role>   $roles
+<<<<<<< HEAD
+ * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
+=======
+<<<<<<< HEAD
+ * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
+=======
+ * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Tenant> $tenants
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+ *
+ * @method  FileAdder addMediaFromDisk(string $key, ?string $disk = null)
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  * @method bool canAccessSocialite()
  *
  * @phpstan-require-extends Model
  *
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
  * @mixin IdeHelperUserContract
  */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+ * @mixin IdeHelperUserContract
+ */
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 interface UserContract extends
     Authenticatable,
     Authorizable,
@@ -446,6 +1803,7 @@ interface UserContract extends
     MustVerifyEmail,
     PassportHasApiTokensContract,
     HasMedia
+<<<<<<< HEAD
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
  * @mixin IdeHelperUserContract
@@ -458,6 +1816,74 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
  */
  * @mixin IdeHelperUserContract
  */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> 43d67f21 (.)
+=======
+=======
+ * @mixin IdeHelperUserContract
+ */
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+ * @mixin IdeHelperUserContract
+ */
+>>>>>>> e59778ae (.)
+=======
+=======
+ * @mixin IdeHelperUserContract
+ */
+>>>>>>> e59778ae (.)
+=======
+=======
+ * @mixin IdeHelperUserContract
+ */
+>>>>>>> e59778ae (.)
+=======
+=======
+ * @mixin IdeHelperUserContract
+ */
+>>>>>>> e59778ae (.)
+>>>>>>> laraxot/develop
 interface UserContract extends
     Authenticatable,
     Authorizable,
@@ -468,6 +1894,7 @@ interface UserContract extends
     MustVerifyEmail,
     PassportHasApiTokensContract,
     HasMedia
+<<<<<<< HEAD
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
@@ -480,6 +1907,115 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
 interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+=======
+>>>>>>> c06600c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasMedia, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 {
     /*
      * public function isSuperAdmin();
@@ -487,14 +2023,54 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * public function areas();
      * public function avatar();
      */
+<<<<<<< HEAD
     public function profile(): HasOne;
 
     /**
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+interface UserContract extends Authenticatable, Authorizable, CanResetPassword, FilamentUser, HasTeamsContract, ModelContract, MustVerifyEmail, PassportHasApiTokensContract,HasMedia
+{
+    /*
+    public function isSuperAdmin();
+    public function name();
+    public function areas();
+    public function avatar();
+    */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+{
+    /*
+     * public function isSuperAdmin();
+     * public function name();
+     * public function areas();
+     * public function avatar();
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+    public function profile(): HasOne;
+
+    /**
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * Determine if the model has (one of) the given role(s).
      */
     public function hasRole(
         string|int|array|UserRole|Collection $roles,
         ?string $guard = null,
+<<<<<<< HEAD
      * Update the model in the database.
      *
     /**
@@ -536,10 +2112,175 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * @param  string  $key
      * Update the model in the database.
      *
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+     * Update the model in the database.
+     *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    /**
+     *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  string  $key
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param string $key
+     *
+>>>>>>> 0e51323 (.)
+=======
+     * @param string $key
+     *
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+     * @param  string  $key
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string  $key
+=======
+     * @param string $key
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string  $key
+>>>>>>> 5842a556 (.)
+=======
+     * @param string $key
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  string  $key
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  string  $key
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string  $key
+=======
+     * @param string $key
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string  $key
+>>>>>>> 5842a556 (.)
+=======
+     * @param string $key
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  string  $key
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  string  $key
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string  $key
+=======
+     * @param string $key
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string  $key
+>>>>>>> 5842a556 (.)
+=======
+     * @param string $key
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  string  $key
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  string  $key
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string  $key
+=======
+     * @param string $key
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string  $key
+>>>>>>> 5842a556 (.)
+=======
+     * @param  string  $key
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+     * Update the model in the database.
+     *
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+     * Update the model in the database.
+     *
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return bool
      */
     /**
      * Get a relationship.
+<<<<<<< HEAD
      *
      * @param  string  $key
      *
@@ -555,12 +2296,72 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      *
      * @param  string  $key
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+     *
+<<<<<<< HEAD
+     * @param  string  $key
+<<<<<<< HEAD
+>>>>>>> 71586de2 (.)
+=======
+     *
+<<<<<<< HEAD
+     * @param string $key
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  string  $key
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  string  $key
+>>>>>>> 43d67f21 (.)
+=======
+=======
+     * @param string $key
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string  $key
+>>>>>>> 5842a556 (.)
+=======
+     *
+     * @param  string  $key
+>>>>>>> 53d6a6ba (.)
+=======
+    /**
+     *
+     * @param  string  $key
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
      * @return bool
      */
     /**
      * Get a relationship.
+<<<<<<< HEAD
      *
      * @param  string  $key
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+     *
+     * @param  string  $key
+>>>>>>> 71586de2 (.)
+=======
+     *
+     * @param string $key
+     *
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return mixed|null
      */
     public function getRelationValue($key);
@@ -568,6 +2369,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     /**
      * Create a new instance of the given model.
      *
+<<<<<<< HEAD
      * @param  array  $attributes
      * @param  bool  $exists
      * @param array $attributes
@@ -629,6 +2431,195 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * @param  bool  $exists
      * @param  array  $attributes
      * @param  bool  $exists
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  array  $attributes
+     * @param  bool  $exists
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param array $attributes
+     * @param bool  $exists
+     *
+>>>>>>> 0e51323 (.)
+=======
+     * @param array $attributes
+     * @param bool  $exists
+     *
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+=======
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+=======
+>>>>>>> e59778ae (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+=======
+>>>>>>> e59778ae (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+=======
+>>>>>>> e59778ae (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+=======
+>>>>>>> e59778ae (.)
+     * @param array $attributes
+     * @param bool  $exists
+     *
+>>>>>>> c06600c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e59778ae (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> 5842a556 (.)
+=======
+     * @param array $attributes
+     * @param bool  $exists
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> 5842a556 (.)
+=======
+     * @param array $attributes
+     * @param bool  $exists
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> 5842a556 (.)
+=======
+     * @param array $attributes
+     * @param bool  $exists
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> 5842a556 (.)
+=======
+     * @param array $attributes
+     * @param bool  $exists
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+     * @param  array  $attributes
+     * @param  bool  $exists
+>>>>>>> 5842a556 (.)
+=======
+     * @param array $attributes
+     * @param bool  $exists
+     *
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return static
      */
     public function newInstance($attributes = [], $exists = false);
@@ -638,12 +2629,31 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @return mixed|int|string
      */
+<<<<<<< HEAD
     #[Override]
+=======
+<<<<<<< HEAD
+    #[Override]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     public function getKey();
 
     /**
      * Determine if the model has (one of) the given role(s).
      */
+<<<<<<< HEAD
     public function hasRole(
         string|int|array|Role|Collection $roles,
         null|string $guard = null,
@@ -679,12 +2689,208 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
         null|string $guard = null,
         ?string $guard = null,
     ): bool;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+    public function hasRole(
+        string|int|array|Role|Collection $roles,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        null|string $guard = null,
+>>>>>>> 5a14301c (.)
+=======
+        ?string $guard = null,
+>>>>>>> ca9324a4 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        null|string $guard = null,
+>>>>>>> 0e51323 (.)
+=======
+        null|string $guard = null,
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+        ?string $guard = null,
+>>>>>>> 43d67f21 (.)
+=======
+        ?string $guard = null,
+=======
+        null|string $guard = null,
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        ?string $guard = null,
+>>>>>>> 5842a556 (.)
+=======
+        null|string $guard = null,
+>>>>>>> 5a14301c (.)
+=======
+        ?string $guard = null,
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        ?string $guard = null,
+>>>>>>> 43d67f21 (.)
+=======
+        ?string $guard = null,
+=======
+        null|string $guard = null,
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        ?string $guard = null,
+>>>>>>> 5842a556 (.)
+=======
+        null|string $guard = null,
+>>>>>>> 5a14301c (.)
+=======
+        ?string $guard = null,
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        ?string $guard = null,
+>>>>>>> 43d67f21 (.)
+=======
+        ?string $guard = null,
+=======
+        null|string $guard = null,
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        ?string $guard = null,
+>>>>>>> 5842a556 (.)
+=======
+        null|string $guard = null,
+>>>>>>> 5a14301c (.)
+=======
+        ?string $guard = null,
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        ?string $guard = null,
+>>>>>>> 43d67f21 (.)
+=======
+        ?string $guard = null,
+=======
+        null|string $guard = null,
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        ?string $guard = null,
+>>>>>>> 5842a556 (.)
+=======
+        null|string $guard = null,
+>>>>>>> 5a14301c (.)
+=======
+        ?string $guard = null,
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+        ?string $guard = null,
+>>>>>>> 43d67f21 (.)
+=======
+        ?string $guard = null,
+=======
+        null|string $guard = null,
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        ?string $guard = null,
+>>>>>>> 5842a556 (.)
+=======
+        null|string $guard = null,
+>>>>>>> 5a14301c (.)
+    ): bool;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    public function hasRole(string|int|array|Role|Collection $roles, ?string $guard = null): bool;
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+    public function hasRole(string|int|array|Role|\Illuminate\Support\Collection $roles, ?string $guard = null): bool;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     /**
      * Assign the given role to the model.
      *
      * @return $this
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
     public function assignRole(array|string|int|UserRole|Collection $roles = []);
 
     /**
@@ -720,11 +2926,56 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 
     /**
      * Get the user's roles.
+<<<<<<< HEAD
     public function assignRole(array|string|int|Role|Collection $roles = []);
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+    public function assignRole(array|string|int|Role|Collection $roles = []);
+=======
+<<<<<<< HEAD
+    public function assignRole(array|string|int|Role|Collection $roles = []);
+=======
+    public function assignRole(array|string|int|Role|\Illuminate\Support\Collection $roles = []);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     /**
      * Revoke the given role from the model.
      *
+<<<<<<< HEAD
      * @param  string|int|Role|BackedEnum  $role
      * @param string|int|Role|BackedEnum $role
      * @param string|int|Role|BackedEnum $role
@@ -785,6 +3036,264 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      */
     public function removeRole($role);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  string|int|Role|BackedEnum  $role
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+     * @param string|int|Role|BackedEnum $role
+=======
+<<<<<<< HEAD
+     * @param string|int|Role|BackedEnum $role
+=======
+     * @param string|int|Role|\BackedEnum $role
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+     *
+>>>>>>> 0e51323 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+     * @param string|int|Role|BackedEnum $role
+=======
+<<<<<<< HEAD
+     * @param string|int|Role|BackedEnum $role
+=======
+     * @param string|int|Role|\BackedEnum $role
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+     *
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+=======
+=======
+>>>>>>> 399f46d3 (.)
+     * @param string|int|Role|BackedEnum $role
+=======
+<<<<<<< HEAD
+     * @param string|int|Role|BackedEnum $role
+=======
+     * @param string|int|Role|\BackedEnum $role
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 5842a556 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+     * @param string|int|Role|BackedEnum $role
+=======
+<<<<<<< HEAD
+     * @param string|int|Role|BackedEnum $role
+=======
+     * @param string|int|Role|\BackedEnum $role
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+     * @param string|int|Role|BackedEnum $role
+=======
+<<<<<<< HEAD
+     * @param string|int|Role|BackedEnum $role
+=======
+     * @param string|int|Role|\BackedEnum $role
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+     *
+>>>>>>> 0e51323 (.)
+=======
+     * @param string|int|Role|BackedEnum $role
+     *
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+=======
+     * @param string|int|Role|BackedEnum $role
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 5842a556 (.)
+=======
+     * @param string|int|Role|BackedEnum $role
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+=======
+     * @param string|int|Role|BackedEnum $role
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 5842a556 (.)
+=======
+     * @param string|int|Role|BackedEnum $role
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+=======
+     * @param string|int|Role|BackedEnum $role
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 5842a556 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 53d6a6ba (.)
+=======
+     * @param  string|int|Role|\BackedEnum  $role
+>>>>>>> b7afadf9 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 71586de2 (.)
+=======
+     * @param string|int|Role|BackedEnum $role
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 43d67f21 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+=======
+     * @param string|int|Role|BackedEnum $role
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 5842a556 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 53d6a6ba (.)
+=======
+     * @param  string|int|Role|\BackedEnum  $role
+>>>>>>> b7afadf9 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 71586de2 (.)
+=======
+     * @param string|int|Role|BackedEnum $role
+     *
+>>>>>>> 5a14301c (.)
+     * @return self
+     */
+    public function removeRole($role);
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     /**
      * Get the current access token being used by the user.
      *
@@ -794,14 +3303,64 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 
     /**
      * A model may have multiple roles.
+<<<<<<< HEAD
      *
      * @return BelongsToMany
      *
      * @return BelongsToMany
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+     *
+     * @return BelongsToMany
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+     *
+     * @return BelongsToMany
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function roles(): BelongsToMany;
 
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * Get the user's teams.
      */
     public function teams(): BelongsToMany;
@@ -835,11 +3394,26 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * Switch the user's context to the given team.
      */
     public function switchTeam(TeamContract $team): bool;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * Get all of the tenants the user belongs to.
      */
     public function tenants(): BelongsToMany;
 
     // public function canAccessSocialite(): bool;
+<<<<<<< HEAD
     /**
      * Get all consents for the model (polymorphic).
      *
@@ -848,6 +3422,122 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      *
      *
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+    /**
+     * Get all consents for the model (polymorphic).
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> a5dccfe (.)
+     *
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> a5dccfe (.)
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+=======
+     *
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+>>>>>>> laraxot/develop
      */
     // public function consents(): MorphMany;
     /**
@@ -857,6 +3547,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
+<<<<<<< HEAD
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
     
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
@@ -865,6 +3556,78 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
      *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 43d67f21 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+=======
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 5842a556 (.)
+=======
+     *
+=======
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
      */
     // public function consents(): MorphMany;
     /**
@@ -874,6 +3637,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
+<<<<<<< HEAD
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
     
     
@@ -884,6 +3648,66 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
      *
+=======
+<<<<<<< HEAD
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+    
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 43d67f21 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+=======
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 5842a556 (.)
+=======
+     *
+=======
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
      */
     // public function consents(): MorphMany;
     /**
@@ -893,6 +3717,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
+<<<<<<< HEAD
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
     
     
@@ -903,6 +3728,66 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
      *
+=======
+<<<<<<< HEAD
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+    
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 43d67f21 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+=======
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 5842a556 (.)
+=======
+     *
+=======
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
      */
     // public function consents(): MorphMany;
     /**
@@ -912,6 +3797,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
+<<<<<<< HEAD
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
     
     
@@ -925,6 +3811,75 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     public function hasPermissionTo(string|int|Permission|\BackedEnum $permission, ?string $guardName = null): bool;
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
      *
+=======
+<<<<<<< HEAD
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+    
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 43d67f21 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+=======
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 5842a556 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 53d6a6ba (.)
+=======
+    public function hasPermissionTo(string|int|Permission|\BackedEnum $permission, ?string $guardName = null): bool;
+>>>>>>> b7afadf9 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 71586de2 (.)
+=======
+     *
+=======
+>>>>>>> ca9324a4 (.)
+>>>>>>> laraxot/develop
      */
     // public function consents(): MorphMany;
     /**
@@ -934,6 +3889,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
+<<<<<<< HEAD
     public function hasPermissionTo($permission, null|string $guardName = null): bool;
     
     
@@ -946,4 +3902,121 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
     public function hasPermissionTo(string|int|Permission|\BackedEnum $permission, ?string $guardName = null): bool;
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
+=======
+<<<<<<< HEAD
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+    
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 0e51323 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 43d67f21 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+=======
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 5842a556 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 53d6a6ba (.)
+=======
+    public function hasPermissionTo(string|int|Permission|\BackedEnum $permission, ?string $guardName = null): bool;
+>>>>>>> b7afadf9 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 71586de2 (.)
+=======
+     *
+     */
+    //public function consents(): MorphMany;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+    /**
+     * Determine if the role may perform the given permission.
+     *
+     * @param string|int|Permission|BackedEnum $permission
+     *
+     * @throws PermissionDoesNotExist|GuardDoesNotMatch
+     */
+    public function hasPermissionTo($permission, null|string $guardName = null): bool;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+    
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 }

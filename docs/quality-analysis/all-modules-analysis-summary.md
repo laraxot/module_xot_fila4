@@ -128,3 +128,7 @@
 4. **Architecture score**: Richiede refactoring strutturale (interfacce, final classes)
 5. **PHPMD warnings**: Principalmente Facades Laravel (accettabili)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/develop

@@ -13,16 +13,58 @@ use Spatie\LaravelData\Data;
 class CookieData extends Data
 {
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @param  bool  $accept  Se il cookie è stato accettato
      * @param  string  $type  Tipo di cookie (es. necessari, analitici, marketing)
      * @param  int  $duration_days  Durata dei cookie in giorni
      * @param  string  $policy_url  URL della cookie policy
      * @param  string  $banner_style  Stile del banner dei cookie
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @param bool   $accept         Se il cookie è stato accettato
      * @param string $type           Tipo di cookie (es. necessari, analitici, marketing)
      * @param int    $duration_days  Durata dei cookie in giorni
      * @param string $policy_url     URL della cookie policy
      * @param string $banner_style   Stile del banner dei cookie
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function __construct(
         public readonly bool $accept = false,
@@ -30,19 +72,83 @@ class CookieData extends Data
         public readonly int $duration_days = 365,
         public readonly string $policy_url = '/cookie-policy',
         public readonly string $banner_style = 'bottom',
+<<<<<<< HEAD
     ) {}
 
     /**
      * Create a new instance of CookieData with default values.
+=======
+<<<<<<< HEAD
+    ) {}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ) {}
+=======
+    ) {
+    }
+>>>>>>> a12f125f4a (.)
+=======
+    ) {}
+>>>>>>> b93ef594b4 (.)
+=======
+    ) {
+    }
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+
+    /**
+     * Create a new instance of CookieData with default values.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      */
     public static function make(): static
     {
         return new static;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      *
      * @return static
      */
     public static function make(): static
     {
         return new static();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     }
 }

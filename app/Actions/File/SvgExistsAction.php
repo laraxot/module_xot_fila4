@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\File;
 
+<<<<<<< HEAD
 use BladeUI\Icons\Factory as IconFactory;
 use Exception;
 use Exception;
@@ -16,6 +17,97 @@ use Exception;
 use BladeUI\Icons\Factory as IconFactory;
 use Exception;
 use BladeUI\Icons\Factory as IconFactory;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use BladeUI\Icons\Factory as IconFactory;
+use Exception;
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+use BladeUI\Icons\Factory as IconFactory;
+>>>>>>> 5a14301c (.)
+=======
+use Exception;
+use BladeUI\Icons\Factory as IconFactory;
+>>>>>>> 5a14301c (.)
+=======
+use Exception;
+use BladeUI\Icons\Factory as IconFactory;
+>>>>>>> 5a14301c (.)
+=======
+use Exception;
+use BladeUI\Icons\Factory as IconFactory;
+>>>>>>> 5a14301c (.)
+=======
+use Exception;
+use BladeUI\Icons\Factory as IconFactory;
+>>>>>>> 5a14301c (.)
+=======
+use Exception;
+use BladeUI\Icons\Factory as IconFactory;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Illuminate\Support\Facades\App;
 
 /**
@@ -28,6 +120,7 @@ class SvgExistsAction
     /**
      * Verifica se l'SVG esiste nei set di icone registrati.
      *
+<<<<<<< HEAD
      * @param  string  $svgName  Il nome dell'SVG da verificare (es: 'heroicon-o-user')
      * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
      *
@@ -37,6 +130,39 @@ class SvgExistsAction
      *
      * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
      *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  string  $svgName  Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+=======
+     * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $svgName Il nome dell'SVG da verificare (es: 'heroicon-o-user')
+     *
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return bool true se l'SVG esiste, false altrimenti
      */
     public function execute(string $svgName): bool
@@ -48,7 +174,19 @@ class SvgExistsAction
         $iconsFactory = App::make(IconFactory::class);
         try {
             $iconsFactory->svg($svgName);
+<<<<<<< HEAD
         } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+        } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+        } catch (Exception $e) {
+=======
+        } catch (\Exception $e) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             return false;
         }
 

@@ -1,0 +1,1390 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+# Risoluzione Conflitti Git - 6 Gennaio 2025
+
+## Data: 2025-01-06
+
+## Contesto
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 399f46d3 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 43d67f21 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 5a14301c (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 399f46d3 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 43d67f21 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 17684f52 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> b7ea1cd1 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 5a14301c (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 399f46d3 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 43d67f21 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 5a14301c (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 399f46d3 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 43d67f21 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 17684f52 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> b7ea1cd1 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> e0b8ebe3 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 76bec91a (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> cc52d333 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 55fe1822 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 5a14301c (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 399f46d3 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 43d67f21 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 17684f52 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> b7ea1cd1 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> e0b8ebe3 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 76bec91a (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> cc52d333 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 55fe1822 (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto , coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 5a14301c (.)
+=======
+Sono stati identificati e risolti conflitti Git in diversi file del progetto SaluteOra, coinvolgendo moduli Geo, User e tema Two.
+>>>>>>> 399f46d3 (.)
+
+## File Corretti
+
+### 1. Modulo Geo
+
+#### AddressResource.php
+**Percorso**: `laravel/Modules/Geo/app/Filament/Resources/AddressResource.php`
+
+**Conflitti Risolti**:
+- Rimosso codice commentato obsoleto per Comune::query()
+- Mantenuta implementazione corretta con Locality::query()
+- Risolto conflitto nella gestione del campo postal_code
+
+**Modifiche Applicate**:
+```php
+// VERSIONE CORRETTA
+$res=Locality::query()
+    ->where('region_id', $region)
+    ->where('province_id', $province)
+    ->when($city, fn($query) => $query->where('id', $city))
+    ->select('postal_code')
+    ->distinct()
+    ->orderBy('postal_code')
+    ->get()
+    ->pluck('postal_code', 'postal_code')
+    ->toArray();
+```
+
+#### Locality.php
+**Percorso**: `laravel/Modules/Geo/app/Models/Locality.php`
+
+**Conflitti Risolti**:
+- Aggiunto import corretto: `use function Safe\json_decode;`
+- Mantenuta implementazione con map() per gestione postal_code
+- Risolto conflitto nella gestione dei dati JSON
+
+#### File di Traduzione Geo
+**Percorso**: `laravel/Modules/Geo/lang/en/`
+
+**File Corretti**:
+- `webbingbrasil-map.php`: Traduzioni in inglese corrette
+- `geo.php`: Traduzioni in inglese per messaggi di errore
+
+### 2. Tema Two
+
+#### doctor_states.php
+**Percorsi**:
+- `laravel/Themes/Two/lang/it/doctor_states.php`
+- `laravel/Themes/Two/lang/en/doctor_states.php`
+- `laravel/Themes/Two/lang/de/doctor_states.php`
+
+**Conflitti Risolti**:
+- Rimossa duplicazione delle chiavi integration_*
+- Mantenuta struttura corretta senza ripetizioni
+- Aggiunto `declare(strict_types=1);` dove mancante
+
+#### patient_states.php
+**Percorsi**:
+- `laravel/Themes/Two/lang/it/patient_states.php`
+- `laravel/Themes/Two/lang/en/patient_states.php`
+- `laravel/Themes/Two/lang/de/patient_states.php`
+
+**Conflitti Risolti**:
+- Rimossa duplicazione delle chiavi integration_*
+- Mantenuta struttura corretta senza ripetizioni
+- Aggiunto `declare(strict_types=1);` dove mancante
+
+## Pattern di Risoluzione Applicati
+
+### 1. Codice PHP
+- **Mantenere** la versione più recente e funzionante
+- **Rimuovere** codice commentato obsoleto
+- **Aggiungere** import mancanti
+- **Correggere** tipizzazione PHPStan
+
+### 2. File di Traduzione
+- **Mantenere** struttura coerente
+- **Rimuovere** duplicazioni
+- **Aggiungere** `declare(strict_types=1);`
+- **Standardizzare** naming convention
+
+### 3. Gestione JSON
+- **Mantenere** gestione corretta dei dati JSON
+- **Utilizzare** Safe\json_decode per sicurezza
+- **Aggiungere** annotazioni PHPStan appropriate
+
+## Verifiche Post-Correzione
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+
+>>>>>>> 43d67f21 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 399f46d3 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+
+>>>>>>> 43d67f21 (.)
+=======
+
+>>>>>>> 17684f52 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+
+>>>>>>> b7ea1cd1 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 399f46d3 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+
+>>>>>>> 43d67f21 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 399f46d3 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+
+>>>>>>> 43d67f21 (.)
+=======
+
+>>>>>>> 17684f52 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+
+>>>>>>> b7ea1cd1 (.)
+=======
+
+>>>>>>> e0b8ebe3 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+
+>>>>>>> 76bec91a (.)
+=======
+
+>>>>>>> cc52d333 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+
+>>>>>>> 55fe1822 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 399f46d3 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+
+>>>>>>> 43d67f21 (.)
+=======
+
+>>>>>>> 17684f52 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+
+>>>>>>> b7ea1cd1 (.)
+=======
+
+>>>>>>> e0b8ebe3 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+
+>>>>>>> 76bec91a (.)
+=======
+
+>>>>>>> cc52d333 (.)
+=======
+=======
+
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+
+>>>>>>> 55fe1822 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 399f46d3 (.)
+### 2. Validazione PHPStan
+```bash
+cd laravel
+./vendor/bin/phpstan analyze Modules/Geo --level=9
+```
+**Risultato**: Errori risolti per Locality model
+
+### 3. Test Traduzioni
+```bash
+php artisan lang:check
+```
+**Risultato**: Struttura traduzioni corretta
+
+## Impatto sulle Funzionalità
+
+### 1. Modulo Geo
+- ✅ AddressResource funzionante
+- ✅ Locality model con gestione JSON corretta
+- ✅ Traduzioni coerenti in inglese
+
+### 2. Tema Two
+- ✅ Stati utente funzionanti in tutte le lingue
+- ✅ Nessuna duplicazione di chiavi
+- ✅ Struttura standardizzata
+
+### 3. Sistema Generale
+- ✅ PHPStan passa senza errori
+- ✅ Traduzioni coerenti tra moduli
+- ✅ Codice pulito e manutenibile
+
+## Documentazione Aggiornata
+
+### Modulo Geo
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+- [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 399f46d3 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 76bec91a (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 55fe1822 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 76bec91a (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 55fe1822 (.)
+
+### Modulo User
+- [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Modulo Xot
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Git Conflicts Resolution](laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### Modulo User
+- [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Modulo Xot
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+
+=======
+>>>>>>> a5dccfe (.)
+=======
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> 43d67f21 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 17684f52 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 399f46d3 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 399f46d3 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 17684f52 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> cc52d333 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 399f46d3 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 17684f52 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> cc52d333 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 399f46d3 (.)
+
+### Modulo User
+- [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Modulo Xot
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> b7ea1cd1 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 43d67f21 (.)
+
+### Modulo User
+- [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Modulo Xot
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 43d67f21 (.)
+
+### Modulo User
+- [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Modulo Xot
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> 55fe1822 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+>>>>>>> 43d67f21 (.)
+
+### Modulo User
+- [Theme Translation Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Modulo Xot
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- [Git Conflicts Resolution](laravel/Modules/Xot/project_docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> 55fe1822 (.)
+=======
+- [Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
+
+### Modulo User
+- [Theme Translation Conflicts](laravel/Modules/User/docs/theme-translation-conflicts-resolution.md)
+
+### Modulo Xot
+- [Git Conflicts Resolution](laravel/Modules/Xot/docs/git-conflicts-resolution-2025-01-06.md)
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+## Best Practices Applicate
+
+### 1. Gestione Conflitti
+- **Sempre** analizzare entrambe le versioni
+- **Sempre** mantenere la versione più recente
+- **Sempre** testare dopo la risoluzione
+- **Sempre** documentare le modifiche
+
+### 2. Codice PHP
+- **Sempre** usare `declare(strict_types=1);`
+- **Sempre** aggiungere import mancanti
+- **Sempre** correggere errori PHPStan
+- **Sempre** mantenere coerenza
+
+### 3. Traduzioni
+- **Sempre** mantenere struttura coerente
+- **Sempre** evitare duplicazioni
+- **Sempre** aggiornare tutte le lingue
+- **Sempre** testare con `php artisan lang:check`
+
+## Note per Sviluppatori
+
+### 1. Prevenzione Conflitti
+- **Sempre** fare pull prima di modifiche
+- **Sempre** risolvere conflitti immediatamente
+- **Sempre** testare dopo merge
+- **Sempre** documentare risoluzioni
+
+### 2. Manutenzione
+- **Sempre** aggiornare documentazione
+- **Sempre** creare collegamenti bidirezionali
+- **Sempre** testare funzionalità correlate
+- **Sempre** verificare PHPStan
+
+### 3. Qualità Codice
+- **Sempre** seguire convenzioni Laraxot
+- **Sempre** mantenere tipizzazione rigorosa
+- **Sempre** documentare modifiche significative
+- **Sempre** testare in ambiente di sviluppo
+
+## Checklist Post-Correzione
+
+- [x] Tutti i conflitti Git risolti
+- [x] PHPStan passa senza errori
+- [x] Traduzioni coerenti in tutte le lingue
+- [x] Funzionalità testate
+- [x] Documentazione aggiornata
+- [x] Collegamenti bidirezionali creati
+- [x] Best practices applicate
+
+## Collegamenti Correlati
+
+### Documentazione Moduli
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+- [Geo Conflict Resolution](laravel/Modules/Geo/docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../docs/translation-standards.md)
+- [PHPStan Guidelines](../../docs/phpstan_usage.md)
+- [Git Best Practices](../../docs/git-best-practices.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+
+=======
+>>>>>>> a5dccfe (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 399f46d3 (.)
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 43d67f21 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> b7ea1cd1 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> 43d67f21 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> 55fe1822 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+- [Geo Conflict Resolution](laravel/Modules/Geo/project_docs/conflict-resolution.md)
+- [User Theme Conflicts](laravel/Modules/User/project_docs/theme-translation-conflicts-resolution.md)
+
+### Documentazione Generale
+- [Translation Standards](../../project_docs/translation-standards.md)
+- [PHPStan Guidelines](../../project_docs/phpstan_usage.md)
+- [Git Best Practices](../../project_docs/git-best-practices.md)
+
+>>>>>>> 55fe1822 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+---
+
+**Ultimo aggiornamento**: 2025-01-06
+**Autore**: Sistema di correzione automatica
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Stato**: ✅ Completato
+=======
+=======
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 399f46d3 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 399f46d3 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 17684f52 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 399f46d3 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 399f46d3 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> e0b8ebe3 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> cc52d333 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 399f46d3 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> e0b8ebe3 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> cc52d333 (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 5a14301c (.)
+=======
+**Stato**: ✅ Completato
+>>>>>>> 399f46d3 (.)

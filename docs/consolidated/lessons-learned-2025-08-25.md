@@ -43,6 +43,7 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 ## 9. URL Localization & Frontoffice
 - URLs prefixed by locale: `/{locale}/...`; get locale via `app()->getLocale()`.
 - Homepage blade: `Themes/One/resources/views/pages/index.blade.php` (`pub_theme::pages.index`).
+<<<<<<< HEAD
 - Content from `config/local/<nome progetto>/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
 
 ## 10. Icons & Assets ()
@@ -51,6 +52,12 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 
 ## 10. Icons & Assets (<nome progetto>)
 - SVG in `laravel/Modules/<nome progetto>/resources/svg/`, kebab-case; reference as `<nome progetto>-{name}`.
+=======
+- Content from `config/local/saluteora/database/content/pages/home.json`. Root `/` redirects to `/{locale}`.
+
+## 10. Icons & Assets (SaluteOra)
+- SVG in `laravel/Modules/SaluteOra/resources/svg/`, kebab-case; reference as `saluteora-{name}`.
+>>>>>>> laraxot/develop
 
 ## 11. Translation Hygiene
 - Never remove keys/content; only add.
@@ -69,4 +76,8 @@ This document consolidates recurring fixes and rules applied across modules. Kee
 - Add JS callbacks: `eventDidMount`, `eventClassNames`, `selectAllow`, `eventAllow`.
 
 ---
+<<<<<<< HEAD
 - Backlinks: see `Modules/<nome modulo>/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
+=======
+- Backlinks: see `Modules/SaluteMo/project_docs/translation-rules-consolidated.md`, `Modules/Xot/project_docs/translation-structure-expanded.md`, `.windsurf/rules/full_calendar*.mdc`.
+>>>>>>> laraxot/develop

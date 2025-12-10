@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 # Raccomandazioni di Ottimizzazione - Modulo Xot
 
 ## 🎯 Stato Attuale e Problemi Critici
@@ -11,8 +53,303 @@
 
 ```php
 // ❌ PROBLEMA ATTUALE
+<<<<<<< HEAD
 public static string $projectBasePath = '/var/www/html/<nome progetto>';
 public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+public static string $projectBasePath = '/var/www/html/<nome progetto>';
+<<<<<<< HEAD
+public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
+=======
+public static string $laravelBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel';
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+public static string $laravelBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel';
+>>>>>>> 5a14301c (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 399f46d3 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> d86d643a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 472bd9dc (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> d86d643a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> d86d643a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 472bd9dc (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 3bf39332 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> cf971011 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> e7da37af (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> d86d643a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 472bd9dc (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 3bf39332 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> cf971011 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> e7da37af (.)
+=======
+public static string $projectBasePath = '/var/www/html/<nome progetto>';
+public static string $laravelBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel';
+public static string $projectBasePath = '/var/www/html/<nome progetto>';
+public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
+public static string $laravelBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel';
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 43d67f21 (.)
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+public static string $projectBasePath = '/var/www/html/<nome progetto>';
+public static string $laravelBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel';
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+public static string $laravelBasePath = '/var/www/html/_bases/base_techplanner_fila3_mono/laravel';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 43d67f21 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 43d67f21 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> b7ea1cd1 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 76bec91a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 43d67f21 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> b7ea1cd1 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 76bec91a (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+public static string $projectBasePath = '/var/www/html/saluteora';
+public static string $laravelBasePath = '/var/www/html/saluteora/laravel';
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 ```
 
 #### 2. XotData Incompleto
@@ -31,7 +368,95 @@ public static string $laravelBasePath = '/var/www/html/<nome progetto>/laravel';
 - **XotBase classes**: Eccellente pattern di estensione
 - **Service Provider**: Centralizzazione corretta
 - **Migration Base**: XotBaseMigration ben progettata
+<<<<<<< HEAD
 - **Type Safety**: PHPStan Level 9 compliance
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **Type Safety**: PHPStan level 10 compliance
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 5a14301c (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 399f46d3 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 5a14301c (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 399f46d3 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 17684f52 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 5a14301c (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 399f46d3 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 5a14301c (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 399f46d3 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 17684f52 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 88e35986 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> e0b8ebe3 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> cc52d333 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 5a14301c (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 399f46d3 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 17684f52 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 88e35986 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> e0b8ebe3 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> cc52d333 (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 5a14301c (.)
+=======
+- **Type Safety**: PHPStan Level 9 compliance
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ### Consolidamento Documentazione
 - **Approccio DRY+KISS**: Eliminazione duplicazioni
@@ -238,7 +663,95 @@ abstract class XotBaseModel extends Model
 ### XotData
 - [ ] **Metodi completi** per tutte le classi comuni
 - [ ] **Documentazione** completa con esempi
+<<<<<<< HEAD
 - [ ] **Type safety** con PHPStan Level 9
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [ ] **Type safety** con PHPStan level 10
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 5a14301c (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 399f46d3 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 5a14301c (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 399f46d3 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 17684f52 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 5a14301c (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 399f46d3 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 5a14301c (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 399f46d3 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 17684f52 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 88e35986 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> e0b8ebe3 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> cc52d333 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 5a14301c (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 399f46d3 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 17684f52 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 88e35986 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> e0b8ebe3 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> cc52d333 (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 5a14301c (.)
+=======
+- [ ] **Type safety** con PHPStan Level 9
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 - [ ] **Performance** < 1ms per risoluzione classe
 
 ### Documentazione
@@ -269,7 +782,247 @@ abstract class XotBaseModel extends Model
 ### Pre-Implementazione
 ```bash
 # Verifica path hardcoded
+<<<<<<< HEAD
 grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+<<<<<<< HEAD
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 5a14301c (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 399f46d3 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> d86d643a (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 472bd9dc (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> d86d643a (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> d86d643a (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 472bd9dc (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 3bf39332 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> cf971011 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> e7da37af (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> d86d643a (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 472bd9dc (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 3bf39332 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> cf971011 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> e7da37af (.)
+=======
+grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 43d67f21 (.)
+=======
+grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 5a14301c (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 43d67f21 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> b7ea1cd1 (.)
+=======
+grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 5a14301c (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 43d67f21 (.)
+=======
+grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 5a14301c (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 43d67f21 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> b7ea1cd1 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 76bec91a (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 55fe1822 (.)
+=======
+grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 5a14301c (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 43d67f21 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> b7ea1cd1 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 76bec91a (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 55fe1822 (.)
+=======
+grep -r "/var/www/html/<nome progetto>" Modules/Xot/ --include="*.php"
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 5a14301c (.)
+=======
+grep -r "/var/www/html/saluteora" Modules/Xot/ --include="*.php"
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 # Verifica XotData usage
 grep -r "XotData::make()" Modules/Xot/ --include="*.php"
@@ -318,3 +1071,51 @@ php artisan xot:test-framework
 - [XotData Current](../Datas/XotData.php)
 
 *Ultimo aggiornamento: gennaio 2025*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

@@ -63,6 +63,10 @@
 
 
 ## Collegamenti tra versioni di packages.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 * [packages.md](../../../Gdpr/docs/packages.md)
 * [packages.md](../../../Notify/docs/packages.md)
 * [packages.md](../../../Xot/docs/packages.md)
@@ -72,6 +76,20 @@
 * [packages.md](../../../Job/docs/packages.md)
 * [packages.md](../../../Media/docs/packages.md)
 * [packages.md](../../../Tenant/docs/packages.md)
+<<<<<<< HEAD
+=======
+=======
+* [packages.md](../../../Gdpr/project_docs/packages.md)
+* [packages.md](../../../Notify/project_docs/packages.md)
+* [packages.md](../../../Xot/project_docs/packages.md)
+* [packages.md](../../../User/project_docs/packages.md)
+* [packages.md](../../../UI/project_docs/packages.md)
+* [packages.md](../../../Lang/project_docs/packages.md)
+* [packages.md](../../../Job/project_docs/packages.md)
+* [packages.md](../../../Media/project_docs/packages.md)
+* [packages.md](../../../Tenant/project_docs/packages.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 
 ### Versione Incoming

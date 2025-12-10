@@ -30,11 +30,20 @@ class SearchTextInDbCommand extends Command
         $tableProp = 'Tables_in_'.$databaseName;
 
         // Get tables either from specific option or all tables
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         if (empty($specificTables) || ! is_array($specificTables)) {
             $tables = collect(DB::select('SHOW TABLES'));
         } else {
             $tables = collect($specificTables);
         }
+<<<<<<< HEAD
         $tables = empty($specificTables)
             ? collect(DB::select('SHOW TABLES'))
             : collect($specificTables);
@@ -44,16 +53,68 @@ class SearchTextInDbCommand extends Command
         $tables = empty($specificTables)
             ? collect(DB::select('SHOW TABLES'))
             : collect($specificTables);
+=======
+=======
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+>>>>>>> ed734516 (.)
+=======
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+>>>>>>> ed734516 (.)
+=======
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+>>>>>>> ed734516 (.)
+=======
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+>>>>>>> ed734516 (.)
+=======
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
 
         foreach ($tables as $table) {
             // Get table name with proper type checking
             $tableName = null;
             if (is_object($table)) {
+<<<<<<< HEAD
                 // Usa isset() invece di property_exists per oggetti stdClass
                 if (isset($table->$tableProp) && is_string($table->$tableProp)) {
                 if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
                 if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
                 if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                // Usa isset() invece di property_exists per oggetti stdClass
+                if (isset($table->$tableProp) && is_string($table->$tableProp)) {
+=======
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+>>>>>>> ed734516 (.)
+=======
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+>>>>>>> ed734516 (.)
+=======
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+>>>>>>> ed734516 (.)
+=======
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+>>>>>>> ed734516 (.)
+=======
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
                     $tableName = $table->$tableProp;
                 }
             } elseif (is_string($table)) {
@@ -102,10 +163,34 @@ class SearchTextInDbCommand extends Command
                     ->get();
 
                 if ($results->isNotEmpty()) {
+<<<<<<< HEAD
                     $this->info("Found in column: {$column}");
                     $this->info("Found in column: $column");
                     $this->info("Found in column: $column");
                     $this->info("Found in column: $column");
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    $this->info("Found in column: {$column}");
+=======
+                    $this->info("Found in column: $column");
+>>>>>>> ed734516 (.)
+=======
+                    $this->info("Found in column: $column");
+>>>>>>> ed734516 (.)
+=======
+                    $this->info("Found in column: $column");
+>>>>>>> ed734516 (.)
+=======
+                    $this->info("Found in column: $column");
+>>>>>>> ed734516 (.)
+=======
+                    $this->info("Found in column: $column");
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
                     foreach ($results as $result) {
                         $this->table(
                             ['Column', 'Value'],

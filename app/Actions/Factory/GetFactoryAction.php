@@ -12,15 +12,67 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Factory;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
+<<<<<<< HEAD
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+use InvalidArgumentException;
+=======
+<<<<<<< HEAD
+use Exception;
+use InvalidArgumentException;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Str;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -34,6 +86,7 @@ class GetFactoryAction
     /**
      * Execute the function with the given model class.
      *
+<<<<<<< HEAD
      * @param  string  $model_class  the class name of the model
      *
      * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
@@ -42,10 +95,70 @@ class GetFactoryAction
      * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
      *
      * @return Factory
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  string  $model_class  the class name of the model
+     *
+     * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+     * @param string $model_class the class name of the model
+     *
+<<<<<<< HEAD
+     * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
+=======
+<<<<<<< HEAD
+     * @throws Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
+=======
+     * @throws \Exception Generating Factory [factory_class] press [F5] to refresh page [__LINE__][__FILE__]
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+     *
+     * @return Factory
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function execute(string $model_class): Factory
     {
         Assert::stringNotEmpty($model_class, 'Model class non può essere vuota');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         Assert::classExists($model_class, "La classe del modello {$model_class} non esiste");
 
         $factory_class = $this->getFactoryClass($model_class);
@@ -64,6 +177,40 @@ class GetFactoryAction
             return $factory;
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        Assert::classExists($model_class, "La classe del modello $model_class non esiste");
+        
+=======
+        Assert::classExists($model_class, "La classe del modello {$model_class} non esiste");
+
+>>>>>>> b93ef594b4 (.)
+        $factory_class = $this->getFactoryClass($model_class);
+
+        if (class_exists($factory_class)) {
+            /** @var Factory $factory */
+            $factory = $factory_class::new();
+
+            // Verifichiamo che il risultato sia effettivamente un'istanza di Factory
+            Assert::isInstanceOf(
+                $factory,
+                Factory::class,
+                "La classe {$factory_class}::new() non ha restituito un'istanza di Factory",
+            );
+
+            return $factory;
+        }
+<<<<<<< HEAD
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $this->createFactory($model_class);
 
         // Lancia un'eccezione con informazioni specifiche
@@ -71,26 +218,126 @@ class GetFactoryAction
             'Generating Factory [%s] press [F5] to refresh page [%d][%s]',
             $factory_class,
             __LINE__,
+<<<<<<< HEAD
             class_basename($this),
+=======
+<<<<<<< HEAD
+            class_basename($this),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            class_basename($this),
+=======
+            class_basename($this)
+>>>>>>> a12f125f4a (.)
+=======
+            class_basename($this),
+>>>>>>> b93ef594b4 (.)
+=======
+        Assert::classExists($model_class, "La classe del modello $model_class non esiste");
+        
+        $factory_class = $this->getFactoryClass($model_class);
+        
+        
+        if (class_exists($factory_class)) {
+            /** @var Factory $factory */
+            $factory = $factory_class::new();
+            
+            // Verifichiamo che il risultato sia effettivamente un'istanza di Factory
+            Assert::isInstanceOf($factory, Factory::class, 
+                "La classe $factory_class::new() non ha restituito un'istanza di Factory");
+                
+            return $factory;
+        }
+        
+        $this->createFactory($model_class);
+
+        // Lancia un'eccezione con informazioni specifiche
+        throw new \Exception(sprintf(
+            'Generating Factory [%s] press [F5] to refresh page [%d][%s]',
+            $factory_class,
+            __LINE__,
+            class_basename($this)
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         ));
     }
 
     /**
      * Get the factory class name for a model class.
      *
+<<<<<<< HEAD
      * @param  string  $model_class  The model class name
      * @param string $model_class The model class name
      * @param string $model_class The model class name
      * @param string $model_class The model class name
      * @param string $model_class The model class name
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  string  $model_class  The model class name
+=======
+     * @param string $model_class The model class name
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $model_class The model class name
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $model_class The model class name
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $model_class The model class name
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $model_class The model class name
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $model_class The model class name
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return string The fully qualified factory class name
      */
     public function getFactoryClass(string $model_class): string
     {
         Assert::stringNotEmpty($model_class, 'Model class non può essere vuota');
+<<<<<<< HEAD
 
         $model_name = class_basename($model_class);
 
+=======
+<<<<<<< HEAD
+
+        $model_name = class_basename($model_class);
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+        $model_name = class_basename($model_class);
+
+=======
+        
+        $model_name = class_basename($model_class);
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+        $model_name = class_basename($model_class);
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+        $model_name = class_basename($model_class);
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // Costruiamo il nome della classe factory seguendo le convenzioni di Laravel
         $factory_class = Str::of($model_class)
             ->before('\Models\\')
@@ -98,15 +345,46 @@ class GetFactoryAction
             ->append($model_name)
             ->append('Factory')
             ->toString();
+<<<<<<< HEAD
 
         Assert::stringNotEmpty($factory_class, 'Factory class non può essere vuota');
 
+=======
+<<<<<<< HEAD
+
+        Assert::stringNotEmpty($factory_class, 'Factory class non può essere vuota');
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+        Assert::stringNotEmpty($factory_class, 'Factory class non può essere vuota');
+
+=======
+            
+        Assert::stringNotEmpty($factory_class, 'Factory class non può essere vuota');
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+        Assert::stringNotEmpty($factory_class, 'Factory class non può essere vuota');
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+        Assert::stringNotEmpty($factory_class, 'Factory class non può essere vuota');
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         return $factory_class;
     }
 
     /**
      * Create a factory for the given model class.
      *
+<<<<<<< HEAD
      * @param  string  $model_class  The class name of the model to create the factory for
      * @param string $model_class The class name of the model to create the factory for
      *
@@ -120,10 +398,58 @@ class GetFactoryAction
      * @param string $model_class The class name of the model to create the factory for
      *
      * @return void
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  string  $model_class  The class name of the model to create the factory for
+=======
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+>>>>>>> 5a14301c (.)
+=======
+     * @param string $model_class The class name of the model to create the factory for
+     *
+     * @return void
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function createFactory(string $model_class): void
     {
         Assert::stringNotEmpty($model_class, 'Model class non può essere vuota');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         Assert::classExists($model_class, "La classe del modello {$model_class} non esiste");
 
         $model_name = class_basename($model_class);
@@ -143,6 +469,62 @@ class GetFactoryAction
         $artisan_cmd = 'module:make-factory';
         $artisan_params = ['name' => $model_name, 'module' => $module_name];
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        Assert::classExists($model_class, "La classe del modello $model_class non esiste");
+        
+=======
+        Assert::classExists($model_class, "La classe del modello {$model_class} non esiste");
+
+>>>>>>> b93ef594b4 (.)
+        $model_name = class_basename($model_class);
+
+        // Estraiamo il nome del modulo dal namespace della classe
+        $module_parts = Str::of($model_class)->between('Modules\\', '\Models\\');
+
+        if ($module_parts === '') {
+            throw new InvalidArgumentException(
+                "Impossibile determinare il nome del modulo dal namespace {$model_class}",
+            );
+        }
+
+        $module_name = is_string($module_parts) ? $module_parts : ((string) $module_parts);
+
+        // Eseguiamo il comando Artisan per generare la factory
+        $artisan_cmd = 'module:make-factory';
+        $artisan_params = ['name' => $model_name, 'module' => $module_name];
+<<<<<<< HEAD
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        Assert::classExists($model_class, "La classe del modello $model_class non esiste");
+        
+        $model_name = class_basename($model_class);
+        
+        // Estraiamo il nome del modulo dal namespace della classe
+        $module_parts = Str::of($model_class)->between('Modules\\', '\Models\\');
+        
+        if ($module_parts === '') {
+            throw new \InvalidArgumentException(
+                "Impossibile determinare il nome del modulo dal namespace $model_class"
+            );
+        }
+        
+        $module_name = is_string($module_parts) ? $module_parts : (string) $module_parts;
+        
+        // Eseguiamo il comando Artisan per generare la factory
+        $artisan_cmd = 'module:make-factory';
+        $artisan_params = ['name' => $model_name, 'module' => $module_name];
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         Artisan::call($artisan_cmd, $artisan_params);
     }
 }

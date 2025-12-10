@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 # 🎨 Theme Assets Workflow - CSS/JS Frontend
 
 **⚠️ REGOLA CRITICA**: Per modifiche CSS/JS del frontend, lavorare SEMPRE nella cartella del tema, NON nella root Laravel.
@@ -45,7 +87,255 @@ npm run copy
 
 ### Tema One
 ```bash
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 71f31700 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/One
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 55fe1822 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 55fe1822 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/One
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/One
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 npm install          # Prima volta
 npm run build        # Compila Sass/JS
 npm run copy         # Copia in /public/
@@ -53,7 +343,255 @@ npm run copy         # Copia in /public/
 
 ### Tema Two
 ```bash
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 71f31700 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+cd /var/www/html/_bases/base_<nome progetto>/laravel/Themes/Two  
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 55fe1822 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 43d67f21 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> b7ea1cd1 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 76bec91a (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 55fe1822 (.)
+=======
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Themes/Two  
+>>>>>>> 5a14301c (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel/Themes/Two  
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 npm install
 npm run build
 npm run copy
@@ -96,4 +634,104 @@ export default defineConfig({
 
 ---
 
+<<<<<<< HEAD
 **⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 5a14301c (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 71f31700 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 5a14301c (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 71f31700 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> c35986f4 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 5a14301c (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 71f31700 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 5a14301c (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 71f31700 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 5bd842e3 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 03ceeac3 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 5a14301c (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 71f31700 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 5bd842e3 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 03ceeac3 (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 5a14301c (.)
+=======
+**⚠️ RICORDA**: Il workflow dei temi è DIVERSO dal normale workflow Laravel. Sempre theme → build → copy → public!
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

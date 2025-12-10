@@ -11,7 +11,15 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Blade templating
 - [Documentazione Laravel](https://laravel.com/docs)
 
+<<<<<<< HEAD
 ### Filament 3.x
+=======
+<<<<<<< HEAD
+### Filament 4.x
+=======
+### Filament 3.x
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 - Pannello amministrativo
 - Form builder
 - Table builder
@@ -22,13 +30,29 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Componenti reattivi
 - Stato locale
 - Azioni e eventi
+<<<<<<< HEAD
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+=======
+<<<<<<< HEAD
+- [Documentazione Volt](https://livewire.laravel.com/docs/volt)
+=======
+- [Documentazione Volt](https://livewire.laravel.com/project_docs/volt)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 ### Laravel Folio
 - Routing basato su file
 - Pagine dinamiche
 - Middleware per pagine
+<<<<<<< HEAD
 - [Documentazione Folio](https://laravel.com/docs/folio)
+=======
+<<<<<<< HEAD
+- [Documentazione Folio](https://laravel.com/docs/folio)
+=======
+- [Documentazione Folio](https://laravel.com/project_docs/folio)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 ## Database e Cache
 
@@ -37,7 +61,15 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Supporto transazioni
 - Indici e ottimizzazioni
 - [MySQL Docs](https://dev.mysql.com/doc/)
+<<<<<<< HEAD
 - [PostgreSQL Docs](https://www.postgresql.org/docs/)
+=======
+<<<<<<< HEAD
+- [PostgreSQL Docs](https://www.postgresql.org/docs/)
+=======
+- [PostgreSQL Docs](https://www.postgresql.org/project_docs/)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 ### Redis
 - Cache distribuita
@@ -105,7 +137,15 @@ Questo documento definisce lo stack tecnologico standard utilizzato in tutti i m
 - Debug e profiling
 - Query monitoring
 - Cache inspection
+<<<<<<< HEAD
 - [Telescope Docs](https://laravel.com/docs/telescope)
+=======
+<<<<<<< HEAD
+- [Telescope Docs](https://laravel.com/docs/telescope)
+=======
+- [Telescope Docs](https://laravel.com/project_docs/telescope)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 ## Versioni Minime Richieste
 

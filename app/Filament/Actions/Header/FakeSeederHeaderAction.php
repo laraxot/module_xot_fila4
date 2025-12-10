@@ -9,11 +9,39 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Header;
 
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
+<<<<<<< HEAD
 // use Filament\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+// use Filament\Actions\Action;
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Filament\Actions\Action;
 use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
@@ -28,15 +56,42 @@ class FakeSeederHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
+<<<<<<< HEAD
             ->tooltip(__('xot::actions.fake_seeder'))
             ->icon('fas-seedling')
             ->schema([
+=======
+<<<<<<< HEAD
+            ->tooltip(__('xot::actions.fake_seeder'))
+            ->icon('fas-seedling')
+            ->schema([
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+            ->tooltip(__('xot::actions.fake_seeder'))
+            ->icon('fas-seedling')
+            ->schema([
+=======
+            
+            ->tooltip(__('xot::actions.fake_seeder'))
+            ->icon('fas-seedling')
+            ->form([
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 TextInput::make('qty')
                     ->required()
                     ->numeric()
                     ->minValue(1)
                     ->integer(),
             ])
+<<<<<<< HEAD
             ->action(function (array $data, ListRecords $livewire): void {
             ->action(function (array $data, ListRecords $livewire) {
             ->action(function (array $data, ListRecords $livewire) {
@@ -50,6 +105,65 @@ class FakeSeederHeaderAction extends Action
             ->action(function (array $data, ListRecords $livewire): void {
             ->action(function (array $data, ListRecords $livewire) {
             ->action(function (array $data, ListRecords $livewire) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->action(function (array $data, ListRecords $livewire): void {
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 53d6a6ba (.)
+=======
+            ->action(function (array $data, ListRecords $livewire): void {
+>>>>>>> b7afadf9 (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 71586de2 (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 249a0067 (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 53d6a6ba (.)
+=======
+            ->action(function (array $data, ListRecords $livewire): void {
+>>>>>>> b7afadf9 (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 71586de2 (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 249a0067 (.)
+=======
+            ->action(function (array $data, ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                 $resource = $livewire->getResource();
                 /** @var class-string<Model> $modelClass */
                 $modelClass = $resource::getModel();
@@ -60,6 +174,7 @@ class FakeSeederHeaderAction extends Action
                 $qty = max(1, (int) $qtyRaw);
                 Assert::greaterThanEq($qty, 1, 'Quantity must be greater than 0');
 
+<<<<<<< HEAD
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
 
                 $title = 'On Queue '.$qty.' '.$modelClass;
@@ -67,11 +182,171 @@ class FakeSeederHeaderAction extends Action
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
 
                 $title = 'On Queue ' . $qty . ' ' . $modelClass;
+=======
+<<<<<<< HEAD
+                app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                $title = 'On Queue '.$qty.' '.$modelClass;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
+
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
                 app(FakeSeederAction::class)
                     ->onQueue()
                     ->execute($modelClass, $qty);
 
                 $title = 'On Queue '.$qty.' '.$modelClass;
+<<<<<<< HEAD
                 app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
 
                 $title = 'On Queue ' . $qty . ' ' . $modelClass;
@@ -94,6 +369,268 @@ class FakeSeederHeaderAction extends Action
                 $title = 'On Queue ' . $qty . ' ' . $modelClass;
                 $title = 'On Queue ' . $qty . ' ' . $modelClass;
                 $title = 'On Queue ' . $qty . ' ' . $modelClass;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+                app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
+
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+                app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
+
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+                app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
+
+<<<<<<< HEAD
+                $title = 'On Queue '.$qty.' '.$modelClass;
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                app(FakeSeederAction::class)->onQueue()->execute($modelClass, $qty);
+
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+                $title = 'On Queue ' . $qty . ' ' . $modelClass;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
                 Notification::make()
                     ->title($title)
                     ->success()
@@ -102,6 +639,7 @@ class FakeSeederHeaderAction extends Action
             ->visible(false);
     }
 
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
@@ -167,6 +705,404 @@ class FakeSeederHeaderAction extends Action
     public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
     public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public static function getDefaultName(): ?string
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> a12f125f4a (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 9db27d12 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 71586de2 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 71586de2 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     {
         return 'fake_seeder';
     }

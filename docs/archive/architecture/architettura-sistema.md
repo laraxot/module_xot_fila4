@@ -13,7 +13,15 @@ il progetto è basato su un'architettura modulare che utilizza Laravel come fram
 
 ### 1. Core Framework
 - **Laravel 12**: Framework PHP per lo sviluppo web
+<<<<<<< HEAD
 - **Filament 3**: Framework di amministrazione per il backend
+=======
+<<<<<<< HEAD
+- **Filament 4**: Framework di amministrazione per il backend
+=======
+- **Filament 3**: Framework di amministrazione per il backend
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 ### 2. Sistema Modulare
 - **Laraxot**: Sistema di moduli personalizzato

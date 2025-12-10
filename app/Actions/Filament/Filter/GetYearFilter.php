@@ -17,15 +17,65 @@ class GetYearFilter
     public function execute(string $fieldName, int $from, int $to): SelectFilter
     {
         $opts = [];
+<<<<<<< HEAD
         for ($curr = $from; $curr <= $to; $curr++) {
         for ($curr = $from; $curr <= $to; ++$curr) {
         for ($curr = $from; $curr <= $to; ++$curr) {
         for ($curr = $from; $curr <= $to; ++$curr) {
         for ($curr = $from; $curr <= $to; ++$curr) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        for ($curr = $from; $curr <= $to; $curr++) {
+=======
+        for ($curr = $from; $curr <= $to; ++$curr) {
+>>>>>>> 5a14301c (.)
+=======
+        for ($curr = $from; $curr <= $to; ++$curr) {
+>>>>>>> 5a14301c (.)
+=======
+        for ($curr = $from; $curr <= $to; ++$curr) {
+>>>>>>> 5a14301c (.)
+=======
+        for ($curr = $from; $curr <= $to; ++$curr) {
+>>>>>>> 5a14301c (.)
+=======
+        for ($curr = $from; $curr <= $to; ++$curr) {
+>>>>>>> 5a14301c (.)
+=======
+        for ($curr = $from; $curr <= $to; ++$curr) {
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             $currStr = (string) $curr;
             $opts[$currStr] = $currStr;
         }
 
+<<<<<<< HEAD
         return SelectFilter::make($fieldName)->options($opts);
+=======
+<<<<<<< HEAD
+        return SelectFilter::make($fieldName)->options($opts);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return SelectFilter::make($fieldName)->options($opts);
+=======
+        return SelectFilter::make($fieldName)
+            ->options($opts);
+>>>>>>> a12f125f4a (.)
+=======
+        return SelectFilter::make($fieldName)->options($opts);
+>>>>>>> b93ef594b4 (.)
+=======
+        return SelectFilter::make($fieldName)
+            ->options($opts);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 }

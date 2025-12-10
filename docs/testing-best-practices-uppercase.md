@@ -1,3 +1,47 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -39,6 +83,7 @@ function mockXotData(): void
     $mockXotData = \Mockery::mock(\Modules\Xot\Datas\XotData::class)->makePartial();
     
     $mockXotData->shouldReceive('getUserClass')
+<<<<<<< HEAD
         ->andReturn(
             \Modules\\<YourModule>\\Models\\User::class
         );
@@ -130,6 +175,473 @@ function mockXotData(): void
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        ->andReturn(
+            \Modules\\<YourModule>\\Models\\User::class
+        );
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 3310e9c6 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 3310e9c6 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 6dcebf8a (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> cafe8bed (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 5cd593a5 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 3310e9c6 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 6dcebf8a (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> cafe8bed (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> f1d4085 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> 5cd593a5 (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+<<<<<<< HEAD
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 6cba4fe (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+<<<<<<< HEAD
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 6cba4fe (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> c35986f4 (.)
+=======
+<<<<<<< HEAD
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 6cba4fe (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+<<<<<<< HEAD
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 6cba4fe (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+<<<<<<< HEAD
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 6cba4fe (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> c35986f4 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> ab8cc3f3 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 6cba4fe (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5bd842e3 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 6cba4fe (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 03ceeac3 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 6cba4fe (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+<<<<<<< HEAD
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 6cba4fe (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> c35986f4 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> 472bd9dc (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> ab8cc3f3 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> 3bf39332 (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 6cba4fe (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5bd842e3 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> cf971011 (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 6cba4fe (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 03ceeac3 (.)
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+>>>>>>> a5dccfe (.)
+>>>>>>> e7da37af (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+=======
+>>>>>>> 6cba4fe (.)
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5a14301c (.)
+=======
+        ->andReturn(\Modules\<nome modulo>\Models\User::class);
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -295,6 +807,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 
 ## 🔗 **Related Documentation**
 
+<<<<<<< HEAD
 - [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
 - [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
 - [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
@@ -385,6 +898,396 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 - [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
 - [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
 - [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cba4fe (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> 71f31700 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> c35986f4 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> 71f31700 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> 71f31700 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+>>>>>>> c35986f4 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+=======
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> f1d4085 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 6dcebf8a (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> cafe8bed (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 5bd842e3 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 5cd593a5 (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 03ceeac3 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 71f31700 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 3310e9c6 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 6dcebf8a (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> cafe8bed (.)
+=======
+=======
+>>>>>>> e0b8ebe3 (.)
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 5bd842e3 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 5cd593a5 (.)
+=======
+=======
+>>>>>>> cc52d333 (.)
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 03ceeac3 (.)
+=======
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+- [Widget Test Patterns](../Cms/project_docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/project_docs/tests/architecture-separation-rules.md)
+=======
+>>>>>>> 6cba4fe (.)
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---
@@ -392,6 +1295,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Status**: ✅ Best Practices Validate  
 **Enforcement**: Obbligatorio per tutti i test  
 **Version**: 1.0 - Gold Standard
+<<<<<<< HEAD
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
@@ -463,3 +1367,437 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Last Update**: Dicembre 2024 
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 3fbbf1f5 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+**Last Update**: Dicembre 2024 
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 3310e9c6 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> c35986f4 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 3fbbf1f5 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 3fbbf1f5 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 3310e9c6 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> c35986f4 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> cafe8bed (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5bd842e3 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5cd593a5 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 03ceeac3 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 3fbbf1f5 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 3310e9c6 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> c35986f4 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> cafe8bed (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5bd842e3 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> e0b8ebe3 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5cd593a5 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 03ceeac3 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> cc52d333 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5a14301c (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 3fbbf1f5 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 71f31700 (.)
+=======
+**Last Update**: Dicembre 2024 
+=======
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

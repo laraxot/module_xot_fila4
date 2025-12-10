@@ -1,6 +1,60 @@
+<<<<<<< HEAD
 # Enum Standards in <nome progetto>
 
 This document defines the standards and best practices for working with Enums in the <nome progetto> project.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Enum Standards in <nome progetto>
+
+This document defines the standards and best practices for working with Enums in the <nome progetto> project.
+=======
+# Enum Standards in SaluteOra
+
+This document defines the standards and best practices for working with Enums in the SaluteOra project.
+>>>>>>> 71f31700 (.)
+=======
+# Enum Standards in SaluteOra
+
+This document defines the standards and best practices for working with Enums in the SaluteOra project.
+>>>>>>> 71f31700 (.)
+=======
+# Enum Standards in SaluteOra
+
+This document defines the standards and best practices for working with Enums in the SaluteOra project.
+>>>>>>> 71f31700 (.)
+=======
+# Enum Standards in SaluteOra
+
+This document defines the standards and best practices for working with Enums in the SaluteOra project.
+>>>>>>> 71f31700 (.)
+=======
+# Enum Standards in SaluteOra
+
+This document defines the standards and best practices for working with Enums in the SaluteOra project.
+>>>>>>> 53d6a6ba (.)
+=======
+# Enum Standards in SaluteOra
+
+This document defines the standards and best practices for working with Enums in the SaluteOra project.
+>>>>>>> 71f31700 (.)
+=======
+# Enum Standards in SaluteOra
+
+This document defines the standards and best practices for working with Enums in the SaluteOra project.
+>>>>>>> 53d6a6ba (.)
+=======
+# Enum Standards in SaluteOra
+
+This document defines the standards and best practices for working with Enums in the SaluteOra project.
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 ## Naming Conventions
 
@@ -71,7 +125,43 @@ This document defines the standards and best practices for working with Enums in
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\<nome progetto>\Enums;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace Modules\<nome progetto>\Enums;
+=======
+namespace Modules\SaluteOra\Enums;
+>>>>>>> 71f31700 (.)
+=======
+namespace Modules\SaluteOra\Enums;
+>>>>>>> 71f31700 (.)
+=======
+namespace Modules\SaluteOra\Enums;
+>>>>>>> 71f31700 (.)
+=======
+namespace Modules\SaluteOra\Enums;
+>>>>>>> 71f31700 (.)
+=======
+namespace Modules\SaluteOra\Enums;
+>>>>>>> 53d6a6ba (.)
+=======
+namespace Modules\SaluteOra\Enums;
+>>>>>>> 71f31700 (.)
+=======
+namespace Modules\SaluteOra\Enums;
+>>>>>>> 53d6a6ba (.)
+=======
+namespace Modules\SaluteOra\Enums;
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 use Filament\Support\Contracts\HasLabel;
 
@@ -90,15 +180,96 @@ enum AppointmentTypeEnum: string implements HasLabel
     public function getLabel(): ?string
     {
         return match ($this) {
+<<<<<<< HEAD
             self::CONSULTATION => __('<nome progetto>::app.consultation'),
             self::CLEANING => __('<nome progetto>::app.cleaning'),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            self::CONSULTATION => __('<nome progetto>::app.consultation'),
+            self::CLEANING => __('<nome progetto>::app.cleaning'),
+=======
+            self::CONSULTATION => __('saluteora::app.consultation'),
+            self::CLEANING => __('saluteora::app.cleaning'),
+>>>>>>> 71f31700 (.)
+=======
+            self::CONSULTATION => __('saluteora::app.consultation'),
+            self::CLEANING => __('saluteora::app.cleaning'),
+>>>>>>> 71f31700 (.)
+=======
+            self::CONSULTATION => __('saluteora::app.consultation'),
+            self::CLEANING => __('saluteora::app.cleaning'),
+>>>>>>> 71f31700 (.)
+=======
+            self::CONSULTATION => __('saluteora::app.consultation'),
+            self::CLEANING => __('saluteora::app.cleaning'),
+>>>>>>> 71f31700 (.)
+=======
+            self::CONSULTATION => __('saluteora::app.consultation'),
+            self::CLEANING => __('saluteora::app.cleaning'),
+>>>>>>> 53d6a6ba (.)
+=======
+            self::CONSULTATION => __('saluteora::app.consultation'),
+            self::CLEANING => __('saluteora::app.cleaning'),
+>>>>>>> 71f31700 (.)
+=======
+            self::CONSULTATION => __('saluteora::app.consultation'),
+            self::CLEANING => __('saluteora::app.cleaning'),
+>>>>>>> 53d6a6ba (.)
+=======
+            self::CONSULTATION => __('saluteora::app.consultation'),
+            self::CLEANING => __('saluteora::app.cleaning'),
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
             // ... other cases
         };
     }
 }
 
 // Alias for backward compatibility
+<<<<<<< HEAD
 class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+class_alias(AppointmentTypeEnum::class, 'Modules\\<nome progetto>\\Enums\\AppointmentType');
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
+>>>>>>> 71f31700 (.)
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
+>>>>>>> 71f31700 (.)
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
+>>>>>>> 71f31700 (.)
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
+>>>>>>> 71f31700 (.)
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
+>>>>>>> 53d6a6ba (.)
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
+>>>>>>> 71f31700 (.)
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
+>>>>>>> 53d6a6ba (.)
+=======
+class_alias(AppointmentTypeEnum::class, 'Modules\\SaluteOra\\Enums\\AppointmentType');
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 ```
 
 ## Updating Existing Enums

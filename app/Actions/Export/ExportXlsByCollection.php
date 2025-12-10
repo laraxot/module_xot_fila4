@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Actions\Export;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -20,6 +21,169 @@ use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Model;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> ca9324a4 (.)
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Model;
+=======
+>>>>>>> 3fbbf1f5 (.)
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Illuminate\Database\Eloquent\Model;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 300ef70 (.)
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+>>>>>>> 5a14301c (.)
+=======
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Facades\Excel;
 use Modules\Xot\Exports\CollectionExport;
@@ -28,6 +192,40 @@ use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+use Illuminate\Support\Collection;
+=======
+>>>>>>> b93ef594b4 (.)
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+use Illuminate\Support\Collection;
+use Maatwebsite\Excel\Facades\Excel;
+use Modules\Xot\Exports\CollectionExport;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use Spatie\QueueableAction\QueueableAction;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+>>>>>>> b93ef594b4 (.)
+=======
+use Illuminate\Support\Collection;
+use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Maatwebsite\Excel\Facades\Excel;
+use Modules\Xot\Exports\CollectionExport;
+use Spatie\QueueableAction\QueueableAction;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 /**
  * Classe per l'esportazione di collezioni in formato Excel.
@@ -39,24 +237,275 @@ class ExportXlsByCollection
     /**
      * Esporta una collezione in Excel.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @param  Collection<int|string, mixed>|EloquentCollection<int, Model>  $collection  La collezione da esportare
      * @param  string  $filename  Nome del file Excel
      * @param  string|null  $transKey  Chiave di traduzione per i campi
      * @param  array<int, string>  $fields  Campi da includere nell'export
+<<<<<<< HEAD
      * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $collection La collezione da esportare
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+     * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $collection La collezione da esportare
+=======
+<<<<<<< HEAD
+     * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $collection La collezione da esportare
+=======
+     * @param Collection<int|string, mixed>|EloquentCollection<int, \Illuminate\Database\Eloquent\Model> $collection La collezione da esportare
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
      * @param string $filename Nome del file Excel
      * @param string|null $transKey Chiave di traduzione per i campi
      * @param array<int, string> $fields Campi da includere nell'export
      *
      * @return BinaryFileResponse
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function execute(
         Collection|EloquentCollection $collection,
         string $filename = 'test.xlsx',
+<<<<<<< HEAD
         ?string $transKey = null,
         null|string $transKey = null,
         null|string $transKey = null,
         ?string $transKey = null,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        ?string $transKey = null,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        null|string $transKey = null,
+=======
+=======
+>>>>>>> 300ef70 (.)
+        null|string $transKey = null,
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        ?string $transKey = null,
+>>>>>>> 71586de2 (.)
+=======
+        null|string $transKey = null,
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         array $fields = [],
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
@@ -66,25 +515,252 @@ class ExportXlsByCollection
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
         ?string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(fn (mixed $field): string => (string) $field, array_values($fields));
+<<<<<<< HEAD
         null|string $transKey = null,
         ?string $transKey = null,
         null|string $transKey = null,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+        null|string $transKey = null,
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+        ?string $transKey = null,
+=======
+        null|string $transKey = null,
+>>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         array $fields = [],
     ): BinaryFileResponse {
         // Assicuriamo che $fields sia un array di stringhe
         $stringFields = array_map(fn(mixed $field): string => (string) $field, array_values($fields));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+
+        $export = new CollectionExport(
+<<<<<<< HEAD
+            collection: $collection,
+            transKey: $transKey,
+<<<<<<< HEAD
+<<<<<<< HEAD
+            fields: $stringFields,
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> laraxot/develop
 
         $export = new CollectionExport(
             collection: $collection,
             transKey: $transKey,
+<<<<<<< HEAD
             fields: $stringFields,
             fields: $stringFields
             fields: $stringFields,
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+            fields: $stringFields
+>>>>>>> a12f125f4a (.)
+=======
+            fields: $stringFields,
+>>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> laraxot/develop
         ?string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
@@ -100,20 +776,117 @@ class ExportXlsByCollection
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields
+<<<<<<< HEAD
             collection: $normalizedCollection,
             headings: [],
             columns: $stringFields,
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+<<<<<<< HEAD
+=======
+
+        $export = new CollectionExport(
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+            collection: $normalizedCollection,
+            headings: [],
+            columns: $stringFields,
+=======
+            collection: $collection,
+            transKey: $transKey,
+            fields: $stringFields
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> laraxot/develop
 
         $export = new CollectionExport(
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields,
+<<<<<<< HEAD
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields,
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+            collection: $collection,
+            transKey: $transKey,
+            fields: $stringFields,
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         );
 
         return Excel::download($export, $filename);
@@ -122,6 +895,7 @@ class ExportXlsByCollection
     /**
      * Esporta una collezione in Excel utilizzando PhpSpreadsheet direttamente.
      *
+<<<<<<< HEAD
      * @param  Collection<int|string, mixed>|EloquentCollection<int, Model>  $rows  La collezione da esportare
      * @param  array<int, string>  $fields  Campi da includere nell'export
      * @param  string  $filename  Nome del file Excel
@@ -129,6 +903,106 @@ class ExportXlsByCollection
      * @param array<int, string> $fields Campi da includere nell'export
      * @param string $filename Nome del file Excel
      *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  Collection<int|string, mixed>|EloquentCollection<int, Model>  $rows  La collezione da esportare
+     * @param  array<int, string>  $fields  Campi da includere nell'export
+     * @param  string  $filename  Nome del file Excel
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+     * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $rows La collezione da esportare
+=======
+<<<<<<< HEAD
+     * @param Collection<int|string, mixed>|EloquentCollection<int, Model> $rows La collezione da esportare
+=======
+     * @param Collection<int|string, mixed>|EloquentCollection<int, \Illuminate\Database\Eloquent\Model> $rows La collezione da esportare
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+     * @param array<int, string> $fields Campi da includere nell'export
+     * @param string $filename Nome del file Excel
+     *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return string Il percorso del file generato
      */
     public function executeWithSpreadsheet(Collection|EloquentCollection $rows, array $fields, string $filename): string
@@ -138,11 +1012,39 @@ class ExportXlsByCollection
             $rows = Collection::make($rows->toArray());
         }
 
+<<<<<<< HEAD
         $spreadsheet = new Spreadsheet;
         $spreadsheet = new Spreadsheet();
         $spreadsheet = new Spreadsheet();
         $spreadsheet = new Spreadsheet();
         $spreadsheet = new Spreadsheet();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $spreadsheet = new Spreadsheet;
+=======
+        $spreadsheet = new Spreadsheet();
+>>>>>>> 5a14301c (.)
+=======
+        $spreadsheet = new Spreadsheet();
+>>>>>>> 5a14301c (.)
+=======
+        $spreadsheet = new Spreadsheet();
+>>>>>>> 5a14301c (.)
+=======
+        $spreadsheet = new Spreadsheet();
+>>>>>>> 5a14301c (.)
+=======
+        $spreadsheet = new Spreadsheet();
+>>>>>>> 5a14301c (.)
+=======
+        $spreadsheet = new Spreadsheet();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $sheet = $spreadsheet->getActiveSheet();
 
         $this->writeHeader($sheet, $fields);
@@ -157,6 +1059,7 @@ class ExportXlsByCollection
     /**
      * Scrive l'intestazione nel foglio Excel.
      *
+<<<<<<< HEAD
      * @param  Worksheet  $sheet  Il foglio Excel
      * @param  array<int, string>  $fields  I campi da utilizzare come intestazioni
      * @param Worksheet $sheet Il foglio Excel
@@ -167,6 +1070,40 @@ class ExportXlsByCollection
      * @param array<int, string> $fields I campi da utilizzare come intestazioni
      * @param Worksheet $sheet Il foglio Excel
      * @param array<int, string> $fields I campi da utilizzare come intestazioni
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  Worksheet  $sheet  Il foglio Excel
+     * @param  array<int, string>  $fields  I campi da utilizzare come intestazioni
+=======
+     * @param Worksheet $sheet Il foglio Excel
+     * @param array<int, string> $fields I campi da utilizzare come intestazioni
+>>>>>>> 5a14301c (.)
+=======
+     * @param Worksheet $sheet Il foglio Excel
+     * @param array<int, string> $fields I campi da utilizzare come intestazioni
+>>>>>>> 5a14301c (.)
+=======
+     * @param Worksheet $sheet Il foglio Excel
+     * @param array<int, string> $fields I campi da utilizzare come intestazioni
+>>>>>>> 5a14301c (.)
+=======
+     * @param Worksheet $sheet Il foglio Excel
+     * @param array<int, string> $fields I campi da utilizzare come intestazioni
+>>>>>>> 5a14301c (.)
+=======
+     * @param Worksheet $sheet Il foglio Excel
+     * @param array<int, string> $fields I campi da utilizzare come intestazioni
+>>>>>>> 5a14301c (.)
+=======
+     * @param Worksheet $sheet Il foglio Excel
+     * @param array<int, string> $fields I campi da utilizzare come intestazioni
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     protected function writeHeader(Worksheet $sheet, array $fields): void
     {
@@ -178,6 +1115,7 @@ class ExportXlsByCollection
     /**
      * Scrive le righe nel foglio di lavoro.
      *
+<<<<<<< HEAD
      * @param  Worksheet  $sheet  Il foglio di lavoro
      * @param  Collection<int|string, mixed>  $rows  I dati da scrivere
      * @param  array<int, string>  $fields  I campi da utilizzare per le colonne
@@ -193,6 +1131,47 @@ class ExportXlsByCollection
      * @param Worksheet $sheet Il foglio di lavoro
      * @param Collection<int|string, mixed> $rows I dati da scrivere
      * @param array<int, string> $fields I campi da utilizzare per le colonne
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  Worksheet  $sheet  Il foglio di lavoro
+     * @param  Collection<int|string, mixed>  $rows  I dati da scrivere
+     * @param  array<int, string>  $fields  I campi da utilizzare per le colonne
+=======
+     * @param Worksheet $sheet Il foglio di lavoro
+     * @param Collection<int|string, mixed> $rows I dati da scrivere
+     * @param array<int, string> $fields I campi da utilizzare per le colonne
+>>>>>>> 5a14301c (.)
+=======
+     * @param Worksheet $sheet Il foglio di lavoro
+     * @param Collection<int|string, mixed> $rows I dati da scrivere
+     * @param array<int, string> $fields I campi da utilizzare per le colonne
+>>>>>>> 5a14301c (.)
+=======
+     * @param Worksheet $sheet Il foglio di lavoro
+     * @param Collection<int|string, mixed> $rows I dati da scrivere
+     * @param array<int, string> $fields I campi da utilizzare per le colonne
+>>>>>>> 5a14301c (.)
+=======
+     * @param Worksheet $sheet Il foglio di lavoro
+     * @param Collection<int|string, mixed> $rows I dati da scrivere
+     * @param array<int, string> $fields I campi da utilizzare per le colonne
+>>>>>>> 5a14301c (.)
+=======
+     * @param Worksheet $sheet Il foglio di lavoro
+     * @param Collection<int|string, mixed> $rows I dati da scrivere
+     * @param array<int, string> $fields I campi da utilizzare per le colonne
+>>>>>>> 5a14301c (.)
+=======
+     * @param Worksheet $sheet Il foglio di lavoro
+     * @param Collection<int|string, mixed> $rows I dati da scrivere
+     * @param array<int, string> $fields I campi da utilizzare per le colonne
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     protected function writeRows(Worksheet $sheet, Collection $rows, array $fields): void
     {
@@ -209,6 +1188,7 @@ class ExportXlsByCollection
     /**
      * Estrae il valore da un oggetto o array usando il campo specificato.
      *
+<<<<<<< HEAD
      * @param  mixed  $data  I dati da cui estrarre il valore
      * @param  string  $field  Il campo da estrarre
      * @param mixed $data I dati da cui estrarre il valore
@@ -223,6 +1203,46 @@ class ExportXlsByCollection
      * @param mixed $data I dati da cui estrarre il valore
      * @param string $field Il campo da estrarre
      *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  mixed  $data  I dati da cui estrarre il valore
+     * @param  string  $field  Il campo da estrarre
+=======
+     * @param mixed $data I dati da cui estrarre il valore
+     * @param string $field Il campo da estrarre
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param mixed $data I dati da cui estrarre il valore
+     * @param string $field Il campo da estrarre
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param mixed $data I dati da cui estrarre il valore
+     * @param string $field Il campo da estrarre
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param mixed $data I dati da cui estrarre il valore
+     * @param string $field Il campo da estrarre
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param mixed $data I dati da cui estrarre il valore
+     * @param string $field Il campo da estrarre
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param mixed $data I dati da cui estrarre il valore
+     * @param string $field Il campo da estrarre
+     *
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return mixed Il valore estratto
      */
     protected function extractValue(mixed $data, string $field): mixed
@@ -234,6 +1254,7 @@ class ExportXlsByCollection
     /**
      * Converte EloquentCollection in Support\Collection mantenendo i dati.
      *
+<<<<<<< HEAD
      * @param  EloquentCollection<int, Model>  $eloquentCollection
      * @param EloquentCollection<int, Model> $eloquentCollection
      * @param EloquentCollection<int, Model> $eloquentCollection
@@ -256,6 +1277,132 @@ class ExportXlsByCollection
      * @param EloquentCollection<int, Model> $eloquentCollection
      * @param EloquentCollection<int, Model> $eloquentCollection
      * @param EloquentCollection<int, Model> $eloquentCollection
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  EloquentCollection<int, Model>  $eloquentCollection
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 5a14301c (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 399f46d3 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 17684f52 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 399f46d3 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 399f46d3 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 17684f52 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 399f46d3 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 17684f52 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+     * @param EloquentCollection<int, Model> $eloquentCollection
+=======
+     * @param EloquentCollection<int, \Illuminate\Database\Eloquent\Model> $eloquentCollection
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> ca9324a4 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 9db27d12 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> ca9324a4 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 9db27d12 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 9db27d12 (.)
+=======
+     * @param EloquentCollection<int, Model> $eloquentCollection
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
      * @return Collection<int|string, mixed>
      */
     protected function convertToSupportCollection(EloquentCollection $eloquentCollection): Collection

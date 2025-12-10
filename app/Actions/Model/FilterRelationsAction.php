@@ -11,6 +11,7 @@ use Webmozart\Assert\Assert;
 class FilterRelationsAction
 {
     /**
+<<<<<<< HEAD
      * @param  array<string, mixed>  $relations
      * @param array<string, mixed> $relations
      *
@@ -23,6 +24,58 @@ class FilterRelationsAction
      * @return array<string, Relation>
      */
     public function execute(Model $_model, array $relations): array
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $relations
+=======
+     * @param array<string, mixed> $relations
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $relations
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $relations
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $relations
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $relations
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $relations
+     *
+>>>>>>> 5a14301c (.)
+     * @return array<string, Relation>
+     */
+<<<<<<< HEAD
+    public function execute(Model $_model, array $relations): array
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(Model $_model, array $relations): array
+=======
+    public function execute(Model $model, array $relations): array
+>>>>>>> a12f125f4a (.)
+=======
+    public function execute(Model $_model, array $relations): array
+>>>>>>> b93ef594b4 (.)
+=======
+    public function execute(Model $model, array $relations): array
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     {
         $filtered = [];
 

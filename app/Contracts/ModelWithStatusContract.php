@@ -14,6 +14,15 @@ use Spatie\ModelStatus\Status;
 /**
  * Modules\Xot\Contracts\ModelWithStatusContract.
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
  * @property int $id
  * @property int|null $user_id
  * @property string|null $post_type
@@ -45,6 +54,20 @@ use Spatie\ModelStatus\Status;
  * @method array treeLabel()
  * @method array treeSons()
  * @method array toArray()
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  * @property int                      $id
  * @property int|null                 $user_id
  * @property string|null              $post_type
@@ -76,6 +99,25 @@ use Spatie\ModelStatus\Status;
  * @method array     treeLabel()
  * @method array     treeSons()
  * @method array     toArray()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  * @method BelongsTo user()
  *
  * @phpstan-require-extends Model
@@ -86,6 +128,7 @@ interface ModelWithStatusContract
 {
     public function statuses(): MorphMany;
 
+<<<<<<< HEAD
     public function status(): ?Status;
 
     public function setStatus(string $name, ?string $reason = null): self;
@@ -242,4 +285,600 @@ interface ModelWithStatusContract
     public function status(): ?Status;
 
     public function setStatus(string $name, ?string $reason = null): self;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 399f46d3 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 17684f52 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 399f46d3 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 399f46d3 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+=======
+>>>>>>> 399f46d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 7131bd09 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> ed734516 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> ed734516 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 7131bd09 (.)
+=======
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+>>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> b93ef594b4 (.)
+=======
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> ca9324a4 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> ed734516 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 7131bd09 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> ed734516 (.)
+=======
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 9db27d12 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> ca9324a4 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+>>>>>>> 71586de2 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+    public function status(): ?Status;
+
+    public function setStatus(string $name, ?string $reason = null): self;
+>>>>>>> 71586de2 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+    public function status(): null|Status;
+
+    public function setStatus(string $name, null|string $reason = null): self;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 }

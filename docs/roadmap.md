@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Versione HEAD
 ### Versione HEAD
 ### Versione HEAD
@@ -14,6 +15,86 @@
 ### Versione HEAD
 ### Versione HEAD
 ### Versione HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+### Versione HEAD
+>>>>>>> 5a14301c (.)
+=======
+### Versione HEAD
+>>>>>>> 71f31700 (.)
+=======
+### Versione HEAD
+>>>>>>> 5a14301c (.)
+=======
+### Versione HEAD
+>>>>>>> 71f31700 (.)
+=======
+### Versione HEAD
+>>>>>>> c35986f4 (.)
+=======
+### Versione HEAD
+>>>>>>> 5a14301c (.)
+=======
+### Versione HEAD
+>>>>>>> 71f31700 (.)
+=======
+### Versione HEAD
+>>>>>>> 5a14301c (.)
+=======
+### Versione HEAD
+>>>>>>> 71f31700 (.)
+=======
+### Versione HEAD
+>>>>>>> c35986f4 (.)
+=======
+### Versione HEAD
+>>>>>>> 5bd842e3 (.)
+=======
+### Versione HEAD
+>>>>>>> 03ceeac3 (.)
+=======
+### Versione HEAD
+>>>>>>> 5a14301c (.)
+=======
+### Versione HEAD
+>>>>>>> 71f31700 (.)
+=======
+### Versione HEAD
+>>>>>>> c35986f4 (.)
+=======
+### Versione HEAD
+>>>>>>> 5bd842e3 (.)
+=======
+### Versione HEAD
+>>>>>>> 03ceeac3 (.)
+=======
+### Versione HEAD
+>>>>>>> 5a14301c (.)
+=======
+### Versione HEAD
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 # Roadmap Modulo Xot
 
@@ -50,17 +131,62 @@
 - [ ] Ottimizzazione cache
   - [Dettagli e Passi](./roadmap/lang/translations.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> laraxot/develop
 ### Fase 1: Core Foundation (COMPLETATA)
 - ✅ Base classes
 - ✅ Contracts system
 - ✅ Basic services
 - ✅ Utility functions
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 ### 5. Documentazione (75%)
 - [x] Struttura base
 - [x] Guide principali
 - [x] Collegamenti bidirezionali
 - [ ] Completamento esempi
 - [ ] Testi in italiano
+<<<<<<< HEAD
   - [Dettagli e Passi](./roadmap/docs/status.md)
   - [Dettagli e Passi](./roadmap/docs/status.md)
   - [Dettagli e Passi](./roadmap/project_docs/status.md)
@@ -96,6 +222,224 @@
   - [Dettagli e Passi](./roadmap/docs/status.md)
   - [Dettagli e Passi](./roadmap/docs/status.md)
   - [Dettagli e Passi](./roadmap/docs/status.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+<<<<<<< HEAD
+=======
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+=======
+>>>>>>> ab8cc3f3 (.)
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+>>>>>>> f1d4085 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 21348520 (.)
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+=======
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5e58b29b (.)
+=======
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> cafe8bed (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 5bd842e3 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+=======
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 5cd593a5 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 03ceeac3 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 5a14301c (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+=======
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 3fbbf1f5 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 71f31700 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+=======
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 3310e9c6 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+=======
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> cafe8bed (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 5bd842e3 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+=======
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 5cd593a5 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 03ceeac3 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 5a14301c (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+=======
+  - [Dettagli e Passi](./roadmap/project_docs/status.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 3fbbf1f5 (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -126,12 +470,56 @@
 - [-] Custom Fields [60%](roadmap/custom-fields.md)
 - [-] Widgets [55%](roadmap/widgets.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> laraxot/develop
 ## Metriche di Successo
 - **Performance**: < 50ms response time
 - **Memory Usage**: < 128MB per request
 - **Code Coverage**: > 90% test coverage
 - **Uptime**: 99.99% availability
 - **Reliability**: Zero critical bugs
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 ### Testing & Quality [60%]
 - [-] Unit Tests [50%](roadmap/unit-tests.md)
 - [-] Feature Tests [45%](roadmap/feature-tests.md)
@@ -296,6 +684,7 @@
 ## Collegamenti Bidirezionali
 
 ### Collegamenti ad Altri Moduli
+<<<<<<< HEAD
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
@@ -353,11 +742,318 @@
 - [Roadmap Modulo User](../User/docs/roadmap.md)
 - [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
 - [Roadmap Modulo UI](../UI/docs/roadmap.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+=======
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> ed734516 (.)
+- [Roadmap Modulo User](../User/project_docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/project_docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/project_docs/roadmap.md)
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> cafe8bed (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 5cd593a5 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 03ceeac3 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 3310e9c6 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> cafe8bed (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 5cd593a5 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 03ceeac3 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
 - [Best Practices](./BEST-PRACTICES.md)
 - [Testing](./testing-best-practices.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 ## Prossimi Passi
 
@@ -366,6 +1062,38 @@
 2. Migliorare la copertura dei test [60% → 85%]
 3. Implementare nuovi traits [95% → 100%]
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 ### Q3 2024
 1. Ottimizzare l'integrazione Filament [70% → 90%]
 2. Rafforzare la sicurezza [65% → 85%]
@@ -542,6 +1270,43 @@
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> laraxot/develop
 ## Risorse e Documentazione
 - [Architecture Guide](./architecture.md)
 - [API Documentation](./api-docs.md)
@@ -550,6 +1315,10 @@
 - [Deployment Guide](./deployment.md)
 
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
 ### Q3 2024
 1. Ottimizzare l'integrazione Filament [70% → 90%]
 2. Rafforzare la sicurezza [65% → 85%]
@@ -711,10 +1480,30 @@
 ## Riferimenti
 
 ### Documentazione
+<<<<<<< HEAD
 - [Laravel Framework](https://laravel.com/docs/12.x)
 - [Laravel Framework](https://laravel.com/docs/12.x)
 - [Laravel Framework](https://laravel.com/docs/12.x)
 - [Laravel Framework](https://laravel.com/docs/12.x)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel Framework](https://laravel.com/docs/12.x)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel Framework](https://laravel.com/docs/12.x)
+=======
+- [Laravel Framework](https://laravel.com/project_docs/12.x)
+>>>>>>> f1d4085 (.)
+=======
+- [Laravel Framework](https://laravel.com/docs/12.x)
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Laravel Framework](https://laravel.com/docs/12.x)
+>>>>>>> 6dcebf8a (.)
+>>>>>>> laraxot/develop
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 
@@ -724,6 +1513,7 @@
 - [Testing](testing.md)
 
 ### Versione HEAD
+<<<<<<< HEAD
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -756,11 +1546,50 @@
 * [roadmap.md](../../../Patient/project_docs/roadmap.md)
 * [roadmap.md](../../../Cms/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/project_docs/roadmap.md)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/develop
 
 
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -777,6 +1606,37 @@
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> laraxot/develop
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/project_docs/roadmap.md)
@@ -793,6 +1653,244 @@
 * [roadmap.md](../../../Patient/project_docs/roadmap.md)
 * [roadmap.md](../../../Cms/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/project_docs/roadmap.md)
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+
+
+### Versione Incoming
+
+## Collegamenti tra versioni di roadmap.md
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 5e58b29b (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+* [roadmap.md](bashscripts/docs/roadmap.md)
+* [roadmap.md](docs/roadmap.md)
+* [roadmap.md](../../../Gdpr/docs/roadmap.md)
+* [roadmap.md](../../../Notify/docs/roadmap.md)
+* [roadmap.md](../../../Xot/docs/roadmap.md)
+* [roadmap.md](../../../Dental/docs/roadmap.md)
+* [roadmap.md](../../../User/docs/roadmap.md)
+* [roadmap.md](../../../UI/docs/roadmap.md)
+* [roadmap.md](../../../Lang/docs/roadmap.md)
+* [roadmap.md](../../../Job/docs/roadmap.md)
+* [roadmap.md](../../../Media/docs/roadmap.md)
+* [roadmap.md](../../../Tenant/docs/roadmap.md)
+* [roadmap.md](../../../Activity/docs/roadmap.md)
+* [roadmap.md](../../../Patient/docs/roadmap.md)
+* [roadmap.md](../../../Cms/docs/roadmap.md)
+* [roadmap.md](../../../../Themes/One/docs/roadmap.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+* [roadmap.md](bashscripts/project_docs/roadmap.md)
+* [roadmap.md](docs/roadmap.md)
+* [roadmap.md](../../../Gdpr/project_docs/roadmap.md)
+* [roadmap.md](../../../Notify/project_docs/roadmap.md)
+* [roadmap.md](../../../Xot/project_docs/roadmap.md)
+* [roadmap.md](../../../Dental/project_docs/roadmap.md)
+* [roadmap.md](../../../User/project_docs/roadmap.md)
+* [roadmap.md](../../../UI/project_docs/roadmap.md)
+* [roadmap.md](../../../Lang/project_docs/roadmap.md)
+* [roadmap.md](../../../Job/project_docs/roadmap.md)
+* [roadmap.md](../../../Media/project_docs/roadmap.md)
+* [roadmap.md](../../../Tenant/project_docs/roadmap.md)
+* [roadmap.md](../../../Activity/project_docs/roadmap.md)
+* [roadmap.md](../../../Patient/project_docs/roadmap.md)
+* [roadmap.md](../../../Cms/project_docs/roadmap.md)
+* [roadmap.md](../../../../Themes/One/project_docs/roadmap.md)
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 
 ---
@@ -880,3 +1978,37 @@ Overall Module Completion: 60%
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

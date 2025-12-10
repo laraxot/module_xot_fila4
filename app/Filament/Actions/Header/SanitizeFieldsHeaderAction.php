@@ -9,11 +9,39 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Header;
 
 // Header actions must be an instance of Filament\Actions\Action, or Filament\Actions\ActionGroup.
+<<<<<<< HEAD
 // use Filament\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
 // use Filament\Tables\Actions\Action;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+// use Filament\Actions\Action;
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+=======
+// use Filament\Tables\Actions\Action;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Resources\Pages\ListRecords;
@@ -29,6 +57,7 @@ class SanitizeFieldsHeaderAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
+<<<<<<< HEAD
             ->tooltip('sanitize')
             ->icon('heroicon-o-shield-exclamation')
             ->action(function (ListRecords $livewire): void {
@@ -44,10 +73,86 @@ class SanitizeFieldsHeaderAction extends Action
             ->action(function (ListRecords $livewire): void {
             ->action(function (ListRecords $livewire) {
             ->action(function (ListRecords $livewire) {
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+            ->tooltip('sanitize')
+            ->icon('heroicon-o-shield-exclamation')
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->action(function (ListRecords $livewire): void {
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 53d6a6ba (.)
+=======
+            ->action(function (ListRecords $livewire): void {
+>>>>>>> b7afadf9 (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 71586de2 (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 249a0067 (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 53d6a6ba (.)
+=======
+            ->action(function (ListRecords $livewire): void {
+>>>>>>> b7afadf9 (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 71586de2 (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 249a0067 (.)
+=======
+            ->action(function (ListRecords $livewire) {
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                 $resource = $livewire->getResource();
                 $modelClass = $resource::getModel();
                 // @phpstan-ignore staticMethod.nonObject
                 $rows = $modelClass::get();
+<<<<<<< HEAD
                 if (! is_iterable($rows)) {
                 if (!is_iterable($rows)) {
                 if (!is_iterable($rows)) {
@@ -113,6 +218,404 @@ class SanitizeFieldsHeaderAction extends Action
                 if (!is_iterable($rows)) {
                 if (! is_iterable($rows)) {
                 if (! is_iterable($rows)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                if (! is_iterable($rows)) {
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 5a14301c (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+                if (!is_iterable($rows)) {
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 399f46d3 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 17684f52 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 399f46d3 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 399f46d3 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 17684f52 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 399f46d3 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 17684f52 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                if (!is_iterable($rows)) {
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> a12f125f4a (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> b93ef594b4 (.)
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> ca9324a4 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+                if (! is_iterable($rows)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+                if (! is_iterable($rows)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+                if (! is_iterable($rows)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+                if (! is_iterable($rows)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+                if (!is_iterable($rows)) {
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> ca9324a4 (.)
+=======
+                if (!is_iterable($rows)) {
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 9db27d12 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 5a14301c (.)
+=======
+                if (!is_iterable($rows)) {
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> ca9324a4 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 5a14301c (.)
+=======
+                if (!is_iterable($rows)) {
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> ca9324a4 (.)
+=======
+                if (!is_iterable($rows)) {
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> 71586de2 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 5a14301c (.)
+=======
+                if (!is_iterable($rows)) {
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> ca9324a4 (.)
+=======
+                if (!is_iterable($rows)) {
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> 71586de2 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 5a14301c (.)
+=======
+                if (!is_iterable($rows)) {
+=======
+                if (! is_iterable($rows)) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                if (!is_iterable($rows)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
                     $rows = [];
                 }
                 $c = 0;
@@ -120,6 +623,69 @@ class SanitizeFieldsHeaderAction extends Action
                     Assert::isInstanceOf($row, Model::class);
                     $save = false;
                     foreach ($this->fields as $field) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
                         $fieldName = is_string($field) ? $field : (string) $field;
                         $item = $row->{$fieldName};
                         Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
@@ -128,6 +694,7 @@ class SanitizeFieldsHeaderAction extends Action
                             $row->{$fieldName} = $string;
                             $save = true;
                             $c++;
+<<<<<<< HEAD
                         Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
                         $string = app(SanitizeAction::class)->execute($item);
                         if ($string !== $item) {
@@ -150,6 +717,116 @@ class SanitizeFieldsHeaderAction extends Action
                             $save = true;
                             ++$c;
                         Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+=======
+<<<<<<< HEAD
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+=======
+                        Assert::string($item = $row->{$field});
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string != $item) {
+>>>>>>> a12f125f4a (.)
+=======
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+>>>>>>> b93ef594b4 (.)
+=======
+                        Assert::string($item = $row->{$field});
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string != $item) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+>>>>>>> ca9324a4 (.)
+                            $row->{$field} = $string;
+                            $save = true;
+                            ++$c;
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+>>>>>>> laraxot/develop
                         if (! is_string($field)) {
                             continue;
                         }
@@ -157,9 +834,24 @@ class SanitizeFieldsHeaderAction extends Action
                         $item = $row->{$field};
                         Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
+<<<<<<< HEAD
                         Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
                         Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
                         Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 53d6a6ba (.)
+=======
+                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
                         if (! is_string($field)) {
                             continue;
                         }
@@ -167,6 +859,7 @@ class SanitizeFieldsHeaderAction extends Action
                         $item = $row->{$field};
                         Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
+<<<<<<< HEAD
                         Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
                         $fieldName = is_string($field) ? $field : (string) $field;
                         $item = $row->{$fieldName};
@@ -176,17 +869,116 @@ class SanitizeFieldsHeaderAction extends Action
                         $fieldName = is_string($field) ? $field : (string) $field;
                         $item = $row->{$fieldName};
                         Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 71586de2 (.)
+=======
+                        $fieldName = is_string($field) ? $field : (string) $field;
+                        $item = $row->{$fieldName};
+                        Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 249a0067 (.)
+=======
+                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                        Assert::string($item = $row->{$field}, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 71586de2 (.)
+=======
+                        $fieldName = is_string($field) ? $field : (string) $field;
+                        $item = $row->{$fieldName};
+                        Assert::string($item, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
                         $string = app(SanitizeAction::class)->execute($item);
                         if ($string !== $item) {
                             $row->{$field} = $string;
                             $save = true;
                             ++$c;
+<<<<<<< HEAD
                         Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
                         $string = app(SanitizeAction::class)->execute($item);
                         if ($string !== $item) {
                             $row->{$field} = $string;
                             $save = true;
                             ++$c;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+=======
+                        Assert::string($item = $row->{$field});
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string != $item) {
+>>>>>>> a12f125f4a (.)
+=======
+                        Assert::string($item = $row->{$field}, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string !== $item) {
+>>>>>>> b93ef594b4 (.)
+=======
+                        Assert::string($item = $row->{$field});
+                        $string = app(SanitizeAction::class)->execute($item);
+                        if ($string != $item) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+                            $row->{$field} = $string;
+                            $save = true;
+                            ++$c;
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                         }
                     }
                     if ($save) {
@@ -194,6 +986,7 @@ class SanitizeFieldsHeaderAction extends Action
                     }
                 }
                 Notification::make()
+<<<<<<< HEAD
                     ->title(''.$c.' record sanitized')
                     ->title('' . $c . ' record sanitized')
                     ->title('' . $c . ' record sanitized')
@@ -259,6 +1052,404 @@ class SanitizeFieldsHeaderAction extends Action
                     ->title('' . $c . ' record sanitized')
                     ->title(''.$c.' record sanitized')
                     ->title(''.$c.' record sanitized')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    ->title(''.$c.' record sanitized')
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 5a14301c (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 3fbbf1f5 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 399f46d3 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 17684f52 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 399f46d3 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 399f46d3 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 17684f52 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 399f46d3 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 17684f52 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    ->title('' . $c . ' record sanitized')
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> a12f125f4a (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> b93ef594b4 (.)
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> ca9324a4 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+                    ->title(''.$c.' record sanitized')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+                    ->title(''.$c.' record sanitized')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+                    ->title(''.$c.' record sanitized')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+                    ->title(''.$c.' record sanitized')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+                    ->title('' . $c . ' record sanitized')
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> ca9324a4 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 9db27d12 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 5a14301c (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> ca9324a4 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 5a14301c (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> ca9324a4 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> 71586de2 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 5a14301c (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> ca9324a4 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> 71586de2 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 5a14301c (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+=======
+                    ->title(''.$c.' record sanitized')
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+                    ->title('' . $c . ' record sanitized')
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
                     ->success()
                     ->send();
             });
@@ -271,6 +1462,7 @@ class SanitizeFieldsHeaderAction extends Action
         return $this;
     }
 
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
@@ -336,6 +1528,404 @@ class SanitizeFieldsHeaderAction extends Action
     public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
     public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public static function getDefaultName(): ?string
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> a12f125f4a (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): ?string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 9db27d12 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 71586de2 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> 71586de2 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     {
         return 'sanitize-fields-header';
     }

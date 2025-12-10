@@ -4,10 +4,37 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Datas;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 use Filament\Support\Colors\Color;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
 use Throwable;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Log;
@@ -17,6 +44,146 @@ use Filament\Support\Colors\Color;
 use Illuminate\Support\Arr;
 use Filament\Support\Colors\Color;
 use Illuminate\Support\Arr;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Throwable;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Log;
+=======
+<<<<<<< HEAD
+use Throwable;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+use Filament\Support\Colors\Color;
+use Illuminate\Support\Arr;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 300ef70 (.)
+use Filament\Support\Colors\Color;
+use Illuminate\Support\Arr;
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+use Filament\Support\Colors\Color;
+use Illuminate\Support\Arr;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
 use Livewire\Wireable;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Actions\File\AssetAction;
@@ -25,6 +192,58 @@ use Modules\Xot\Datas\Transformers\AssetTransformer;
 use Spatie\LaravelData\Attributes\WithTransformer;
 use Spatie\LaravelData\Concerns\WireableData;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Throwable;
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
+=======
+use Throwable;
+>>>>>>> 249a0067 (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
+=======
+use Throwable;
+>>>>>>> 249a0067 (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 5a14301c (.)
+
+<<<<<<< HEAD
+=======
+=======
+use Livewire\Wireable;
+=======
+use Filament\Support\Colors\Color;
+>>>>>>> b93ef594b4 (.)
+use Illuminate\Support\Arr;
+>>>>>>> laraxot/develop
+use Livewire\Wireable;
+use Modules\Tenant\Services\TenantService;
+use Modules\Xot\Actions\File\AssetAction;
+use Modules\Xot\Actions\File\AssetPathAction;
+use Modules\Xot\Datas\Transformers\AssetTransformer;
+use Spatie\LaravelData\Attributes\WithTransformer;
+use Spatie\LaravelData\Concerns\WireableData;
+use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 use Throwable;
 use Webmozart\Assert\Assert;
 use Webmozart\Assert\Assert;
@@ -33,6 +252,31 @@ use Throwable;
 use Webmozart\Assert\Assert;
 use Throwable;
 
+=======
+use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+=======
+use Livewire\Wireable;
+use Illuminate\Support\Arr;
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+>>>>>>> origin/develop
+use Filament\Support\Colors\Color;
+use Modules\Xot\Actions\File\AssetAction;
+use Modules\Tenant\Services\TenantService;
+use Modules\Xot\Actions\File\AssetPathAction;
+use Spatie\LaravelData\Concerns\WireableData;
+use Spatie\LaravelData\Attributes\WithTransformer;
+use Modules\Xot\Datas\Transformers\AssetTransformer;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 use function Safe\file_get_contents;
 
 /**
@@ -69,13 +313,42 @@ use function Safe\file_get_contents;
  * @property string $color_banner
  * @property string $favicon
  * @property array<string, array{key?: string, color: string, hex?: string}> $colors
+<<<<<<< HEAD
  *
+=======
+<<<<<<< HEAD
+ *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ *
+=======
+ * 
+>>>>>>> a12f125f4a (.)
+=======
+ *
+>>>>>>> b93ef594b4 (.)
+=======
+ * 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
  * @method string getBrandLogoBase64() Get the brand logo as base64 data URI for inline embedding
  */
 class MetatagData extends Data implements Wireable
 {
     use WireableData;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
     public string $title = '';
 
     public string $sitename = '';
@@ -135,6 +408,20 @@ class MetatagData extends Data implements Wireable
 
     public string $color_banner = '';
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     /** @var string */
     public string $title = '';
 
@@ -145,12 +432,41 @@ class MetatagData extends Data implements Wireable
     public string $subtitle = '';
 
     /** @var string|null */
+<<<<<<< HEAD
     public null|string $generator = 'xot';
+=======
+<<<<<<< HEAD
+    public null|string $generator = 'xot';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|string $generator = 'xot';
+=======
+    public ?string $generator = 'xot';
+>>>>>>> a12f125f4a (.)
+=======
+    public null|string $generator = 'xot';
+>>>>>>> b93ef594b4 (.)
+=======
+    public ?string $generator = 'xot';
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     /** @var string */
     public string $charset = 'UTF-8';
 
     /** @var string|null */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     public null|string $author = 'xot';
 
     /** @var string|null */
@@ -158,6 +474,37 @@ class MetatagData extends Data implements Wireable
 
     /** @var string|null */
     public null|string $keywords = null;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    public ?string $author = 'xot';
+=======
+    public null|string $author = 'xot';
+>>>>>>> b93ef594b4 (.)
+
+    /** @var string|null */
+    public null|string $description = null;
+
+    /** @var string|null */
+<<<<<<< HEAD
+    public ?string $keywords = null;
+>>>>>>> a12f125f4a (.)
+=======
+    public null|string $keywords = null;
+>>>>>>> b93ef594b4 (.)
+=======
+    public ?string $author = 'xot';
+
+    /** @var string|null */
+    public ?string $description = null;
+
+    /** @var string|null */
+    public ?string $keywords = null;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     /** @var string */
     public string $nome_regione = '';
@@ -224,6 +571,25 @@ class MetatagData extends Data implements Wireable
     public string $color_banner = '';
 
     /** @var string */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     public string $favicon = '/favicon.ico';
 
     /**
@@ -234,6 +600,87 @@ class MetatagData extends Data implements Wireable
     /**
      * Singleton instance.
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
     private static ?self $instance = null;
 
     /**
@@ -242,7 +689,121 @@ class MetatagData extends Data implements Wireable
     public static function make(): self
     {
         if (! self::$instance) {
+<<<<<<< HEAD
     private static null|self $instance = null;
+=======
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+    private static null|self $instance = null;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    private static null|self $instance = null;
+=======
+    private static ?self $instance = null;
+>>>>>>> a12f125f4a (.)
+=======
+    private static null|self $instance = null;
+>>>>>>> b93ef594b4 (.)
+=======
+    private static ?self $instance = null;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     /**
      * Creates or returns the singleton instance.
@@ -251,10 +812,57 @@ class MetatagData extends Data implements Wireable
      */
     public static function make(): self
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+        if (!self::$instance) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+            /** @var array<string, mixed> $data */
+            $data = TenantService::getConfig('metatag');
+            $data['description'] = TenantService::trans('metatag.description');
+<<<<<<< HEAD
+=======
+=======
+        if (! self::$instance) {
+            /** @var array<string, mixed> $data */
+            $data = TenantService::getConfig('metatag');
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
         if (!self::$instance) {
             /** @var array<string, mixed> $data */
             $data = TenantService::getConfig('metatag');
             $data['description'] = TenantService::trans('metatag.description');
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! self::$instance) {
+            /** @var array<string, mixed> $data */
+            $data = TenantService::getConfig('metatag');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             self::$instance = self::from($data);
         }
 
@@ -265,6 +873,7 @@ class MetatagData extends Data implements Wireable
      * Get the brand name.
      * This method reflects the semantic purpose of getting the brand name,
      * which is the title of the page.
+<<<<<<< HEAD
      *
      * @return string
      *
@@ -273,6 +882,38 @@ class MetatagData extends Data implements Wireable
      * @return string
      *
      * @return string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function getBrandName(): string
     {
@@ -283,6 +924,7 @@ class MetatagData extends Data implements Wireable
      * Get the brand logo.
      * This method reflects the semantic purpose of getting the brand logo,
      * rather than exposing implementation details about where the logo is used.
+<<<<<<< HEAD
      *
      * @return string
      *
@@ -291,20 +933,104 @@ class MetatagData extends Data implements Wireable
      * @return string
      *
      * @return string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function getBrandLogo(): string
     {
         try {
             /** @var string $path */
             $path = app(AssetAction::class)->execute($this->logo_header);
+<<<<<<< HEAD
 
             return asset($path);
         } catch (Throwable $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+            return asset($path);
+<<<<<<< HEAD
+        } catch (Throwable $e) {
+=======
+<<<<<<< HEAD
+        } catch (Throwable $e) {
+=======
+        } catch (\Throwable $e) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             return asset($this->logo_header);
         }
     }
 
+<<<<<<< HEAD
     public function getBrandLogoPath(): string
+=======
+<<<<<<< HEAD
+    public function getBrandLogoPath(): string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function getBrandLogoPath(): string
+=======
+    public function getBrandLogoPath():string
+>>>>>>> a12f125f4a (.)
+=======
+    public function getBrandLogoPath(): string
+>>>>>>> b93ef594b4 (.)
+=======
+    public function getBrandLogoPath():string
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     {
         return app(AssetPathAction::class)->execute($this->logo_header);
     }
@@ -312,6 +1038,7 @@ class MetatagData extends Data implements Wireable
     /**
      * Get the dark mode brand logo.
      * This method reflects the semantic purpose of getting the dark mode brand logo.
+<<<<<<< HEAD
      *
      * @return string
      *
@@ -320,15 +1047,79 @@ class MetatagData extends Data implements Wireable
      * @return string
      *
      * @return string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function getDarkModeBrandLogo(): string
     {
         try {
             /** @var string $path */
             $path = app(AssetAction::class)->execute($this->logo_header_dark);
+<<<<<<< HEAD
 
             return asset($path);
         } catch (Throwable $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+            return asset($path);
+<<<<<<< HEAD
+        } catch (Throwable $e) {
+=======
+<<<<<<< HEAD
+        } catch (Throwable $e) {
+=======
+        } catch (\Throwable $e) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             return asset($this->logo_header_dark);
         }
     }
@@ -336,6 +1127,7 @@ class MetatagData extends Data implements Wireable
     /**
      * Get the brand logo height.
      * This method reflects the semantic purpose of getting the brand logo height.
+<<<<<<< HEAD
      *
      * @return string
      *
@@ -344,6 +1136,38 @@ class MetatagData extends Data implements Wireable
      * @return string
      *
      * @return string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function getBrandLogoHeight(): string
     {
@@ -363,10 +1187,20 @@ class MetatagData extends Data implements Wireable
             // Get the asset path using AssetAction (same as getBrandLogo)
             /** @var string $assetPath */
             $assetPath = app(AssetAction::class)->execute($this->logo_header);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
             // Get the physical file path
             $physicalPath = public_path($assetPath);
 
+<<<<<<< HEAD
             // Check if file exists
             if (! File::exists($physicalPath)) {
             if (!File::exists($physicalPath)) {
@@ -375,6 +1209,59 @@ class MetatagData extends Data implements Wireable
             if (!File::exists($physicalPath)) {
                 return '';
             }
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+            
+            // Get the physical file path
+            $physicalPath = public_path($assetPath);
+            
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+            // Get the physical file path
+            $physicalPath = public_path($assetPath);
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+            // Check if file exists
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (! File::exists($physicalPath)) {
+=======
+            if (!File::exists($physicalPath)) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!File::exists($physicalPath)) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!File::exists($physicalPath)) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!File::exists($physicalPath)) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!File::exists($physicalPath)) {
+>>>>>>> 5a14301c (.)
+=======
+            if (!File::exists($physicalPath)) {
+>>>>>>> 5a14301c (.)
+                return '';
+            }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
             // Read file content
             $fileContent = File::get($physicalPath);
@@ -387,12 +1274,40 @@ class MetatagData extends Data implements Wireable
 
             // Return as data URI
             return "data:{$mimeType};base64,{$base64Content}";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+            
+=======
+
+>>>>>>> b93ef594b4 (.)
+            // Read file content
+            $fileContent = File::get($physicalPath);
+
+            // Get MIME type
+            $mimeType = $this->getMimeTypeFromPath($physicalPath);
+
+            // Convert to base64
+            $base64Content = base64_encode($fileContent);
+
+            // Return as data URI
+            return "data:{$mimeType};base64,{$base64Content}";
+<<<<<<< HEAD
+            
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         } catch (Throwable $e) {
             // Fallback: try with the raw logo_header path
             try {
                 $fallbackPath = public_path($this->logo_header);
                 if (File::exists($fallbackPath)) {
                     $fileContent = File::get($fallbackPath);
+<<<<<<< HEAD
                     $mimeType = $this->getMimeTypeFromPath($fallbackPath);
                     $base64Content = base64_encode($fileContent);
 
@@ -401,17 +1316,125 @@ class MetatagData extends Data implements Wireable
             } catch (Throwable $fallbackException) {
                 // Log the error but don't break the application
                 Log::warning('Could not generate base64 logo', [
+=======
+<<<<<<< HEAD
+=======
+=======
+            // Check if file exists
+            if (!\Illuminate\Support\Facades\File::exists($physicalPath)) {
+                return '';
+            }
+            
+            // Read file content
+            $fileContent = \Illuminate\Support\Facades\File::get($physicalPath);
+            
+            // Get MIME type
+            $mimeType = $this->getMimeTypeFromPath($physicalPath);
+            
+            // Convert to base64
+            $base64Content = base64_encode($fileContent);
+            
+            // Return as data URI
+            return "data:{$mimeType};base64,{$base64Content}";
+            
+        } catch (\Throwable $e) {
+            // Fallback: try with the raw logo_header path
+            try {
+                $fallbackPath = public_path($this->logo_header);
+                if (\Illuminate\Support\Facades\File::exists($fallbackPath)) {
+                    $fileContent = \Illuminate\Support\Facades\File::get($fallbackPath);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+                    $mimeType = $this->getMimeTypeFromPath($fallbackPath);
+                    $base64Content = base64_encode($fileContent);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+                    return "data:{$mimeType};base64,{$base64Content}";
+                }
+<<<<<<< HEAD
+            } catch (Throwable $fallbackException) {
+                // Log the error but don't break the application
+                Log::warning('Could not generate base64 logo', [
+=======
+<<<<<<< HEAD
+            } catch (Throwable $fallbackException) {
+                // Log the error but don't break the application
+                Log::warning('Could not generate base64 logo', [
+=======
+            } catch (\Throwable $fallbackException) {
+                // Log the error but don't break the application
+                \Illuminate\Support\Facades\Log::warning('Could not generate base64 logo', [
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                     'original_error' => $e->getMessage(),
                     'fallback_error' => $fallbackException->getMessage(),
                     'logo_header' => $this->logo_header,
                 ]);
             }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             return '';
         }
     }
 
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * Get MIME type from file path extension.
      * Helper method for getBrandLogoBase64().
      *
@@ -421,7 +1444,27 @@ class MetatagData extends Data implements Wireable
     private function getMimeTypeFromPath(string $filePath): string
     {
         $extension = \strtolower(\pathinfo($filePath, PATHINFO_EXTENSION));
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         return match ($extension) {
             'png' => 'image/png',
             'jpg', 'jpeg' => 'image/jpeg',
@@ -435,6 +1478,25 @@ class MetatagData extends Data implements Wireable
     }
 
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * Get the theme colors.
      * This method reflects the semantic purpose of getting theme colors,
      * rather than exposing the raw color data structure.
@@ -445,6 +1507,7 @@ class MetatagData extends Data implements Wireable
     {
         $filamentColors = $this->getFilamentColors();
         $defaults = [];
+<<<<<<< HEAD
 
         // Convert Filament color arrays to simple string format
         foreach ($filamentColors as $key => $colorArray) {
@@ -455,18 +1518,112 @@ class MetatagData extends Data implements Wireable
             if (is_array($colorArray) && ! empty($colorArray)) {
             if (is_array($colorArray) && !empty($colorArray)) {
             if (is_array($colorArray) && ! empty($colorArray)) {
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+        // Convert Filament color arrays to simple string format
+        foreach ($filamentColors as $key => $colorArray) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (is_array($colorArray) && ! empty($colorArray)) {
+=======
+            if (is_array($colorArray) && !empty($colorArray)) {
+>>>>>>> 5a14301c (.)
+=======
+            if (is_array($colorArray) && !empty($colorArray)) {
+>>>>>>> 5a14301c (.)
+=======
+            if (is_array($colorArray) && !empty($colorArray)) {
+>>>>>>> 5a14301c (.)
+=======
+            if (is_array($colorArray) && !empty($colorArray)) {
+>>>>>>> 5a14301c (.)
+=======
+            if (is_array($colorArray) && ! empty($colorArray)) {
+>>>>>>> 249a0067 (.)
+=======
+            if (is_array($colorArray) && !empty($colorArray)) {
+>>>>>>> 5a14301c (.)
+=======
+            if (is_array($colorArray) && ! empty($colorArray)) {
+>>>>>>> 249a0067 (.)
+=======
+            if (is_array($colorArray) && !empty($colorArray)) {
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                 // Use the first color in the array as the default
                 $defaults[$key] = (string) $colorArray[0];
             }
         }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $custom = [];
         foreach ($this->colors as $key => $value) {
             if (Arr::has($value, 'color')) {
                 $custom[$key] = (string) $value['color'];
             }
         }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         return array_merge($defaults, $custom);
     }
 
@@ -490,6 +1647,7 @@ class MetatagData extends Data implements Wireable
     /**
      * Get the brand description.
      * This method reflects the semantic purpose of getting the brand description.
+<<<<<<< HEAD
      */
     public function getBrandDescription(): ?string
      *
@@ -518,6 +1676,357 @@ class MetatagData extends Data implements Wireable
     public function getBrandDescription(): ?string
     public function getBrandDescription(): null|string
     public function getBrandDescription(): null|string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function getBrandDescription(): ?string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+     *
+     * @return string|null
+     */
+<<<<<<< HEAD
+    public function getBrandDescription(): null|string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function getBrandDescription(): ?string
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 17684f52 (.)
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+<<<<<<< HEAD
+    public function getBrandDescription(): null|string
+=======
+    public function getBrandDescription(): ?string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+    public function getBrandDescription(): ?string
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function getBrandDescription(): ?string
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+    public function getBrandDescription(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function getBrandDescription(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function getBrandDescription(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+    public function getBrandDescription(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> f1d4085 (.)
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function getBrandDescription(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+    public function getBrandDescription(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function getBrandDescription(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public function getBrandDescription(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     {
         return $this->description;
     }
@@ -567,6 +2076,7 @@ class MetatagData extends Data implements Wireable
 
     /**
      * Get the favicon URL.
+<<<<<<< HEAD
      *
      * @return string
      *
@@ -575,10 +2085,43 @@ class MetatagData extends Data implements Wireable
      * @return string
      *
      * @return string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+=======
+     *
+     * @return string
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function getFavicon(): string
     {
         try {
+<<<<<<< HEAD
             return app(AssetAction::class)->execute($this->favicon);
             /** @var string $path */
             $path = app(AssetAction::class)->execute($this->favicon);
@@ -593,10 +2136,116 @@ class MetatagData extends Data implements Wireable
             $path = app(AssetAction::class)->execute($this->favicon);
             return $path;
         } catch (Throwable $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return app(AssetAction::class)->execute($this->favicon);
+=======
+            /** @var string $path */
+            $path = app(AssetAction::class)->execute($this->favicon);
+            return $path;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+            /** @var string $path */
+            $path = app(AssetAction::class)->execute($this->favicon);
+            return $path;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+            /** @var string $path */
+            $path = app(AssetAction::class)->execute($this->favicon);
+            return $path;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+            /** @var string $path */
+            $path = app(AssetAction::class)->execute($this->favicon);
+            return $path;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+            /** @var string $path */
+            $path = app(AssetAction::class)->execute($this->favicon);
+            return $path;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+            /** @var string $path */
+            $path = app(AssetAction::class)->execute($this->favicon);
+            return $path;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+        } catch (Throwable $e) {
+=======
+<<<<<<< HEAD
+        } catch (Throwable $e) {
+=======
+        } catch (\Throwable $e) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             return asset($this->favicon);
         }
     }
 
+<<<<<<< HEAD
     public function getFaviconBySize(string $size, string $format): string
     {
         $xot = XotData::make();
@@ -604,25 +2253,251 @@ class MetatagData extends Data implements Wireable
         $file = 'favicon-'.$size.'.'.$format;
 
         return $xot->getPubThemePublicAsset($file);
+=======
+<<<<<<< HEAD
+    public function getFaviconBySize(string $size, string $format): string
+    {
+=======
+<<<<<<< HEAD
+    public function getFaviconBySize(string $size, string $format): string
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+        $xot = XotData::make();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        // return app(AssetAction::class)->execute($this->favicon, $size, $format);
+        $file = 'favicon-'.$size.'.'.$format;
+
+<<<<<<< HEAD
+        return $xot->getPubThemePublicAsset($file);
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         //return app(AssetAction::class)->execute($this->favicon, $size, $format);
         $file = 'favicon-' . $size . '.' . $format;
 
         $res = $xot->getPubThemePublicAsset($file);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
         $xot=XotData::make();
         //return app(AssetAction::class)->execute($this->favicon, $size, $format);
         $file='favicon-'.$size.'.'.$format;
 
         $res= $xot->getPubThemePublicAsset($file);
+<<<<<<< HEAD
         return $res;
         return $res;
     }
 
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        return $res;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+        return $res;
+>>>>>>> 5a14301c (.)
+=======
+        return $res;
+>>>>>>> 5a14301c (.)
+    }
+
+=======
+=======
+        $xot=XotData::make();
+=======
+        $xot = XotData::make();
+>>>>>>> b93ef594b4 (.)
+        //return app(AssetAction::class)->execute($this->favicon, $size, $format);
+        $file = 'favicon-' . $size . '.' . $format;
+
+<<<<<<< HEAD
+        $res= $xot->getPubThemePublicAsset($file);
+>>>>>>> a12f125f4a (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+>>>>>>> b93ef594b4 (.)
+        return $res;
+    }
+
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     /**
      * @deprecated Use getThemeColors() instead as it better reflects the semantic purpose
      */
     public function getColors(): array
     {
+<<<<<<< HEAD
         return $this->colors;
 
         // return $this->getThemeColors();
@@ -647,6 +2522,348 @@ class MetatagData extends Data implements Wireable
         //return $this->getThemeColors();
         //return $this->getThemeColors();
         //return $this->getThemeColors();
+=======
+<<<<<<< HEAD
+        return $this->colors;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        // return $this->getThemeColors();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+        return $this->colors;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        return ($this->colors);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+        return $this->colors;
+
+<<<<<<< HEAD
+=======
+
+        return ($this->colors);
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $this->colors;
+
+=======
+
+        return ($this->colors);
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+        return $this->colors;
+
+>>>>>>> b93ef594b4 (.)
+=======
+
+        return ($this->colors);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+
+        return ($this->colors);
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        return $this->colors;
+
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        //return $this->getThemeColors();
+>>>>>>> 5a14301c (.)
+=======
+        //return $this->getThemeColors();
+>>>>>>> 5a14301c (.)
+=======
+        //return $this->getThemeColors();
+>>>>>>> 5a14301c (.)
+=======
+        //return $this->getThemeColors();
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6dcebf8a (.)
+        //return $this->getThemeColors();
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+        // return $this->getThemeColors();
+=======
+        //return $this->getThemeColors();
+>>>>>>> d2b0a27 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+        //return $this->getThemeColors();
+>>>>>>> 5a14301c (.)
+=======
+        //return $this->getThemeColors();
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+        //return $this->getThemeColors();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     }
 
     /**
@@ -676,7 +2893,27 @@ class MetatagData extends Data implements Wireable
     {
         $filamentColors = $this->getFilamentColors();
         $customColors = [];
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // Convert custom color format to Filament color format
         foreach ($this->colors as $key => $value) {
             if (is_array($value) && Arr::has($value, 'color')) {
@@ -685,7 +2922,27 @@ class MetatagData extends Data implements Wireable
                 $customColors[$key] = [$colorValue];
             }
         }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         return array_merge($filamentColors, $customColors);
     }
 
@@ -797,30 +3054,663 @@ class MetatagData extends Data implements Wireable
      */
     public function getTitle(): string
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
         // return $this->getBrandName();
         return $this->title;
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         // return $this->getBrandName();
         return $this->title;
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         //return $this->getBrandName();
         return $this->title;
     }
 
 
+<<<<<<< HEAD
         return $this->getBrandName();
     }
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        return $this->getBrandName();
+    }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
         //return $this->getBrandName();
         return $this->title;
     }
 
 
+<<<<<<< HEAD
         return $this->getBrandName();
     }
 
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        return $this->getBrandName();
+    }
+
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     /**
      * @deprecated Use getBrandLogo() instead as it better reflects the semantic purpose
      */
@@ -847,6 +3737,7 @@ class MetatagData extends Data implements Wireable
 
     public function getBrandLogoSvg(): string
     {
+<<<<<<< HEAD
         $xot = XotData::make();
         $path = base_path('Modules/'.$xot->main_module.'/resources/svg/logo.svg');
 
@@ -854,6 +3745,41 @@ class MetatagData extends Data implements Wireable
         $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
         $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
         $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+        $xot = XotData::make();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $path = base_path('Modules/'.$xot->main_module.'/resources/svg/logo.svg');
+
+=======
+        $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
+>>>>>>> 5a14301c (.)
+=======
+        $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
+>>>>>>> 5a14301c (.)
+=======
+        $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
+>>>>>>> 5a14301c (.)
+=======
+        $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
+>>>>>>> 5a14301c (.)
+=======
+        $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
+>>>>>>> 5a14301c (.)
+=======
+        $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         return file_get_contents($path);
     }
 
@@ -862,11 +3788,112 @@ class MetatagData extends Data implements Wireable
         return $this->description ?? '';
     }
 
+<<<<<<< HEAD
 
         $xot=XotData::make();
         $path=base_path('Modules/'.$xot->main_module.'/resources/svg/logo.svg');
         $xot = XotData::make();
         $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+        $xot=XotData::make();
+        $path=base_path('Modules/'.$xot->main_module.'/resources/svg/logo.svg');
+=======
+        $xot = XotData::make();
+        $path = base_path('Modules/' . $xot->main_module . '/resources/svg/logo.svg');
+>>>>>>> b93ef594b4 (.)
+>>>>>>> laraxot/develop
         return file_get_contents($path);
     }
 
@@ -875,10 +3902,83 @@ class MetatagData extends Data implements Wireable
         return $this->description ?? '';
     }
 
+<<<<<<< HEAD
 
 
 
 
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> laraxot/develop
         $xot=XotData::make();
         $path=base_path('Modules/'.$xot->main_module.'/resources/svg/logo.svg');
         return file_get_contents($path);
@@ -890,9 +3990,178 @@ class MetatagData extends Data implements Wireable
         return TenantService::trans('metatag.description');
     }
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     public function getKeywords(): string
     {
         return TenantService::trans('metatag.keywords');
@@ -907,7 +4176,23 @@ class MetatagData extends Data implements Wireable
     {
         return TenantService::trans('metatag.sitename');
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     public function getRobots(): string
     {
         return 'index, follow';
@@ -918,16 +4203,63 @@ class MetatagData extends Data implements Wireable
         return 'website';
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     public function getCanonical(): string
     {
         return url()->current();
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     public function getImage(): string
     {
         return asset('images/logo.png');
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     public function getLocale(): string
     {
         return app()->getLocale();
@@ -937,6 +4269,14 @@ class MetatagData extends Data implements Wireable
     {
         return url()->current();
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     public function getSiteWebmanifest(): string
     {
@@ -944,11 +4284,69 @@ class MetatagData extends Data implements Wireable
 
         $file = 'site.webmanifest';
 
+<<<<<<< HEAD
         return $xot->getPubThemePublicAsset($file);
         $res = $xot->getPubThemePublicAsset($file);
 
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $xot->getPubThemePublicAsset($file);
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+        $res = $xot->getPubThemePublicAsset($file);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
     
     public function getSiteWebmanifest(): string
     {
@@ -957,6 +4355,7 @@ class MetatagData extends Data implements Wireable
         $file='site.webmanifest';
 
         $res= $xot->getPubThemePublicAsset($file);
+<<<<<<< HEAD
 
 
 
@@ -970,10 +4369,97 @@ class MetatagData extends Data implements Wireable
         return $res;
         $res = $xot->getPubThemePublicAsset($file);
         return $res;
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+
+>>>>>>> 71586de2 (.)
+        return $res;
+>>>>>>> 5a14301c (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+<<<<<<< HEAD
+=======
+=======
+    
+=======
+
+>>>>>>> b93ef594b4 (.)
+    public function getSiteWebmanifest(): string
+    {
+        $xot = XotData::make();
+
+<<<<<<< HEAD
+        $res= $xot->getPubThemePublicAsset($file);
+>>>>>>> a12f125f4a (.)
+=======
+        $file = 'site.webmanifest';
+
+        $res = $xot->getPubThemePublicAsset($file);
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+        return $res;
+>>>>>>> 5a14301c (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+        return $res;
+>>>>>>> 5a14301c (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+        return $res;
+>>>>>>> 5a14301c (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+        return $res;
+>>>>>>> 5a14301c (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+        return $res;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     }
 
     public function getPubThemeAsset(string $file): string
     {
+<<<<<<< HEAD
         $xot = XotData::make();
 
         return $xot->getPubThemePublicAsset($file);
@@ -997,12 +4483,171 @@ class MetatagData extends Data implements Wireable
         return $res;
         $res = $xot->getPubThemePublicAsset($file);
         return $res;
+=======
+<<<<<<< HEAD
+        $xot = XotData::make();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $xot->getPubThemePublicAsset($file);
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+        $res = $xot->getPubThemePublicAsset($file);
+=======
+>>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+=======
+=======
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $xot = XotData::make();
+        $res = $xot->getPubThemePublicAsset($file);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+        $xot=XotData::make();
+        $res= $xot->getPubThemePublicAsset($file);
+>>>>>>> f1d4085 (.)
+=======
+        $xot = XotData::make();
+        $res = $xot->getPubThemePublicAsset($file);
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        $xot = XotData::make();
+        $res = $xot->getPubThemePublicAsset($file);
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+        return $res;
+>>>>>>> 5a14301c (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $xot = XotData::make();
+        $res = $xot->getPubThemePublicAsset($file);
+=======
+        $xot=XotData::make();
+        $res= $xot->getPubThemePublicAsset($file);
+>>>>>>> a12f125f4a (.)
+=======
+        $xot = XotData::make();
+        $res = $xot->getPubThemePublicAsset($file);
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+        return $res;
+>>>>>>> 5a14301c (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+=======
+        $xot=XotData::make();
+        $res= $xot->getPubThemePublicAsset($file);
+>>>>>>> f1d4085 (.)
+        return $res;
+>>>>>>> 5a14301c (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+        return $res;
+>>>>>>> 5a14301c (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+        return $res;
+>>>>>>> 5a14301c (.)
+=======
+        $res = $xot->getPubThemePublicAsset($file);
+        return $res;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     }
 
     public function getPubTheme(): string
     {
+<<<<<<< HEAD
         $xot = XotData::make();
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+        $xot = XotData::make();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         return $xot->pub_theme;
     }
 
@@ -1010,13 +4655,31 @@ class MetatagData extends Data implements Wireable
      * Concatenate a title to the existing title.
      * This method allows adding page-specific titles to the base site title.
      *
+<<<<<<< HEAD
      * @param  string|null  $title  The title to concatenate
      */
     public function concatTitle(?string $title): self
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 249a0067 (.)
+     * @param  string|null  $title  The title to concatenate
+     */
+    public function concatTitle(?string $title): self
+=======
+>>>>>>> laraxot/develop
      * @param string|null $title The title to concatenate
      * @return self
      */
     public function concatTitle(null|string $title): self
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     {
         // Skip concatenation if title is null or empty
         if (empty($title)) {
@@ -1026,7 +4689,15 @@ class MetatagData extends Data implements Wireable
         if (empty($this->title)) {
             $this->title = $title;
         } else {
+<<<<<<< HEAD
             $this->title = $title.' - '.$this->title;
+=======
+<<<<<<< HEAD
+            $this->title = $title.' - '.$this->title;
+=======
+            $this->title = $title . ' - ' . $this->title;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         }
 
         return $this;
@@ -1036,9 +4707,22 @@ class MetatagData extends Data implements Wireable
      * Concatenate a description to the existing description.
      * This method allows adding page-specific descriptions to the base site description.
      *
+<<<<<<< HEAD
      * @param  string|null  $description  The description to concatenate
      */
     public function concatDescription(?string $description): self
+=======
+<<<<<<< HEAD
+     * @param  string|null  $description  The description to concatenate
+     */
+    public function concatDescription(?string $description): self
+=======
+     * @param string|null $description The description to concatenate
+     * @return self
+     */
+    public function concatDescription(null|string $description): self
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     {
         // Skip concatenation if description is null or empty
         if (empty($description)) {
@@ -1048,11 +4732,36 @@ class MetatagData extends Data implements Wireable
         if (empty($this->description)) {
             $this->description = $description;
         } else {
+<<<<<<< HEAD
             $this->description = $description.' '.$this->description;
+=======
+<<<<<<< HEAD
+            $this->description = $description.' '.$this->description;
+=======
+            $this->description = $description . ' ' . $this->description;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         }
 
         return $this;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 
     /**
      * Get MIME type from file path extension.
@@ -1073,10 +4782,91 @@ class MetatagData extends Data implements Wireable
             default => 'image/png', // Fallback default
         };
     }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+=======
+>>>>>>> laraxot/develop
         $xot=XotData::make();
         return $xot->pub_theme;
     }
     
+<<<<<<< HEAD
+        $xot = XotData::make();
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        $xot = XotData::make();
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+        return $xot->pub_theme;
+    }
+
+    /**
+     * Concatenate a title to the existing title.
+     * This method allows adding page-specific titles to the base site title.
+     *
+     * @param string|null $title The title to concatenate
+     * @return self
+     */
+    public function concatTitle(null|string $title): self
+    {
+        // Skip concatenation if title is null or empty
+        if (empty($title)) {
+            return $this;
+        }
+
+        if (empty($this->title)) {
+            $this->title = $title;
+        } else {
+            $this->title = $title . ' - ' . $this->title;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Concatenate a description to the existing description.
+     * This method allows adding page-specific descriptions to the base site description.
+     *
+<<<<<<< HEAD
+     * @param string|null $description The description to concatenate
+     * @return self
+=======
+<<<<<<< HEAD
+     * @param string|null $description The description to concatenate
+     * @return self
+=======
+     * @param  string|null  $description  The description to concatenate
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
+     */
+    public function concatDescription(null|string $description): self
+    {
+        // Skip concatenation if description is null or empty
+        if (empty($description)) {
+            return $this;
+        }
+
+        if (empty($this->description)) {
+            $this->description = $description;
+        } else {
+            $this->description = $description . ' ' . $this->description;
+        }
+
+        return $this;
+    }
+<<<<<<< HEAD
         $xot = XotData::make();
         return $xot->pub_theme;
     }
@@ -1126,60 +4916,36 @@ class MetatagData extends Data implements Wireable
 
         return $this;
     }
-        $xot = XotData::make();
-        return $xot->pub_theme;
-    }
-
-    /**
-     * Concatenate a title to the existing title.
-     * This method allows adding page-specific titles to the base site title.
-     *
-     * @param string|null $title The title to concatenate
-     * @return self
-     */
-    public function concatTitle(null|string $title): self
-    {
-        // Skip concatenation if title is null or empty
-        if (empty($title)) {
-            return $this;
-        }
-
-        if (empty($this->title)) {
-            $this->title = $title;
-        } else {
-            $this->title = $title . ' - ' . $this->title;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Concatenate a description to the existing description.
-     * This method allows adding page-specific descriptions to the base site description.
-     *
-     * @param string|null $description The description to concatenate
-     * @return self
-     */
-    public function concatDescription(null|string $description): self
-    {
-        // Skip concatenation if description is null or empty
-        if (empty($description)) {
-            return $this;
-        }
-
-        if (empty($this->description)) {
-            $this->description = $description;
-        } else {
-            $this->description = $description . ' ' . $this->description;
-        }
-
-        return $this;
-    }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> laraxot/develop
         $xot=XotData::make();
         return $xot->pub_theme;
     }
     
+<<<<<<< HEAD
         $xot = XotData::make();
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        $xot = XotData::make();
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         return $xot->pub_theme;
     }
 
@@ -1210,8 +4976,17 @@ class MetatagData extends Data implements Wireable
      * Concatenate a description to the existing description.
      * This method allows adding page-specific descriptions to the base site description.
      *
+<<<<<<< HEAD
      * @param string|null $description The description to concatenate
      * @return self
+=======
+<<<<<<< HEAD
+     * @param string|null $description The description to concatenate
+     * @return self
+=======
+     * @param  string|null  $description  The description to concatenate
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
      */
     public function concatDescription(null|string $description): self
     {
@@ -1228,10 +5003,128 @@ class MetatagData extends Data implements Wireable
 
         return $this;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> laraxot/develop
         $xot=XotData::make();
         return $xot->pub_theme;
     }
     
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        $xot = XotData::make();
+=======
+>>>>>>> 5a14301c (.)
+        return $xot->pub_theme;
+    }
+
+    /**
+     * Concatenate a title to the existing title.
+     * This method allows adding page-specific titles to the base site title.
+     *
+     * @param string|null $title The title to concatenate
+     * @return self
+     */
+    public function concatTitle(null|string $title): self
+    {
+        // Skip concatenation if title is null or empty
+        if (empty($title)) {
+            return $this;
+        }
+
+        if (empty($this->title)) {
+            $this->title = $title;
+        } else {
+            $this->title = $title . ' - ' . $this->title;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Concatenate a description to the existing description.
+     * This method allows adding page-specific descriptions to the base site description.
+     *
+     * @param string|null $description The description to concatenate
+     * @return self
+     */
+    public function concatDescription(null|string $description): self
+    {
+        // Skip concatenation if description is null or empty
+        if (empty($description)) {
+            return $this;
+        }
+
+        if (empty($this->description)) {
+            $this->description = $description;
+        } else {
+            $this->description = $description . ' ' . $this->description;
+        }
+
+        return $this;
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+        $xot=XotData::make();
+        return $xot->pub_theme;
+    }
+    
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
         $xot = XotData::make();
         return $xot->pub_theme;
     }
@@ -1281,13 +5174,319 @@ class MetatagData extends Data implements Wireable
 
         return $this;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+=======
+        $xot=XotData::make();
+        return $xot->pub_theme;
+    }
+    
+>>>>>>> a12f125f4a (.)
+=======
+        $xot = XotData::make();
+        return $xot->pub_theme;
+    }
+
+    /**
+     * Concatenate a title to the existing title.
+     * This method allows adding page-specific titles to the base site title.
+     *
+     * @param string|null $title The title to concatenate
+     * @return self
+     */
+    public function concatTitle(null|string $title): self
+    {
+        // Skip concatenation if title is null or empty
+        if (empty($title)) {
+            return $this;
+        }
+
+        if (empty($this->title)) {
+            $this->title = $title;
+        } else {
+            $this->title = $title . ' - ' . $this->title;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Concatenate a description to the existing description.
+     * This method allows adding page-specific descriptions to the base site description.
+     *
+     * @param string|null $description The description to concatenate
+     * @return self
+     */
+    public function concatDescription(null|string $description): self
+    {
+        // Skip concatenation if description is null or empty
+        if (empty($description)) {
+            return $this;
+        }
+
+        if (empty($this->description)) {
+            $this->description = $description;
+        } else {
+            $this->description = $description . ' ' . $this->description;
+        }
+
+        return $this;
+    }
+>>>>>>> 399f46d3 (.)
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> laraxot/develop
         $xot=XotData::make();
         $path=base_path('Modules/'.$xot->main_module.'/resources/svg/logo.svg');
         return file_get_contents($path);
 
     }
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> laraxot/develop
         $xot=XotData::make();
         return $xot->pub_theme;
     }
     
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 }

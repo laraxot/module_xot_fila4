@@ -1,3 +1,47 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 # Pagine Dashboard Filament - Best Practices
 
 ## Panoramica
@@ -195,6 +239,7 @@ Il modulo Xot è il modulo core e potrebbe non necessitare di una dashboard trad
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Documentazione Root](../../../docs/filament-dashboard-pages.md)
 - [Documentazione Root](../../../docs/filament-dashboard-pages.md)
 - [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
@@ -244,9 +289,376 @@ Il modulo Xot è il modulo core e potrebbe non necessitare di una dashboard trad
 - [Documentazione Root](../../../docs/filament-dashboard-pages.md)
 - [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
 - [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 21348520 (.)
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 6dcebf8a (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> b3cc10f7 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> cafe8bed (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 5bd842e3 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 5cd593a5 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 03ceeac3 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 3baa48bd (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 5b07d268 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 71f31700 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 3310e9c6 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 6dcebf8a (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> b3cc10f7 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> cafe8bed (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 5bd842e3 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 5cd593a5 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 03ceeac3 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 3baa48bd (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 5b07d268 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+=======
+- [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Heroicons](https://heroicons.com/)
 
 ---
 
 **Ultimo aggiornamento**: Giugno 2025
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

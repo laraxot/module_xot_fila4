@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Console\Commands;
 
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 use SplFileInfo;
 use Exception;
@@ -17,10 +18,78 @@ use Exception;
 use Exception;
 use Exception;
 use Exception;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Webmozart\Assert\Assert;
+use SplFileInfo;
+use Exception;
+=======
+use Exception;
+use SplFileInfo;
+>>>>>>> ed734516 (.)
+=======
+use Exception;
+use SplFileInfo;
+>>>>>>> ed734516 (.)
+=======
+use Exception;
+use SplFileInfo;
+>>>>>>> ed734516 (.)
+=======
+use Exception;
+>>>>>>> 53d6a6ba (.)
+=======
+use Exception;
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+use Exception;
+>>>>>>> 71586de2 (.)
+=======
+use Exception;
+>>>>>>> 53d6a6ba (.)
+=======
+use Exception;
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+use Exception;
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
 use SplFileInfo;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ed734516 (.)
+use Exception;
+use SplFileInfo;
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Actions\File\AddStrictTypesDeclarationAction;
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
 
 class AddStrictTypesDeclarationCommand extends Command
 {
@@ -30,6 +99,7 @@ class AddStrictTypesDeclarationCommand extends Command
 
     protected $description = 'Aggiunge la dichiarazione strict_types=1 ai file PHP che ne sono sprovvisti';
 
+<<<<<<< HEAD
     /**
      * @var array<string>
      */
@@ -39,6 +109,56 @@ class AddStrictTypesDeclarationCommand extends Command
     /**
      * @var array<int, string>
      */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 249a0067 (.)
+    /**
+     * @var array<string>
+     */
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+    /**
+     * @var array<int, string>
+     */
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+    /**
+     * @var array<int, string>
+     */
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
     private array $excludedPaths = [
         'views',
         'config',
@@ -54,15 +174,51 @@ class AddStrictTypesDeclarationCommand extends Command
         $moduleOption = $this->option('module');
         $dryRun = $this->option('dry-run');
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         if ($moduleOption && is_string($moduleOption)) {
             $modulePath .= '/'.$moduleOption;
             if (! File::isDirectory($modulePath)) {
                 $this->error("Il modulo {$moduleOption} non esiste");
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
         if ($moduleOption) {
             $modulePath .= '/' . $moduleOption;
             if (!File::isDirectory($modulePath)) {
                 $this->error("Il modulo {$moduleOption} non esiste");
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
                 return 1;
             }
         }
@@ -71,14 +227,38 @@ class AddStrictTypesDeclarationCommand extends Command
         $count = 0;
 
         foreach ($files as $file) {
+<<<<<<< HEAD
             Assert::isInstanceOf($file, SplFileInfo::class);
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            Assert::isInstanceOf($file, SplFileInfo::class);
+            if ($this->shouldProcessFile($file)) {
+                if ($dryRun) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
                     $fileName = $file->getRealPath();
                     if ($fileName === false) {
                         $fileName = $file->getPathname();
                     }
                     $this->info("Verrebbe processato: {$fileName}");
+<<<<<<< HEAD
                     $filePath = $file->getRealPath();
                     $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
                     $this->info("Verrebbe processato: {$file}");
@@ -86,6 +266,34 @@ class AddStrictTypesDeclarationCommand extends Command
                     $filePath = $file->getRealPath();
                     $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
                     $this->info("Verrebbe processato: {$file}");
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    $this->info("Verrebbe processato: {$file}");
+>>>>>>> 53d6a6ba (.)
+=======
+                    $filePath = $file->getRealPath();
+                    $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
+>>>>>>> b7afadf9 (.)
+=======
+                    $this->info("Verrebbe processato: {$file}");
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+                    $this->info("Verrebbe processato: {$file}");
+>>>>>>> 53d6a6ba (.)
+=======
+                    $filePath = $file->getRealPath();
+                    $this->info('Verrebbe processato: '.($filePath !== false ? $filePath : $file->getFilename()));
+>>>>>>> b7afadf9 (.)
+=======
+                    $this->info("Verrebbe processato: {$file}");
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
                     $count++;
 
                     continue;
@@ -100,6 +308,18 @@ class AddStrictTypesDeclarationCommand extends Command
                 assert(is_string($path));
 
                 try {
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
             if ($this->shouldProcessFile($file)) {
                 if ($dryRun) {
                     $this->info("Verrebbe processato: {$file}");
@@ -113,10 +333,27 @@ class AddStrictTypesDeclarationCommand extends Command
                         continue;
                     }
                     
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
                     $action->execute($path);
                     $this->info("Aggiunta dichiarazione strict_types a: {$path}");
                     $count++;
                 } catch (Exception $e) {
+<<<<<<< HEAD
                 } catch (\Exception $e) {
                 } catch (\Exception $e) {
                     $this->error("Errore nel processare {$path}: ".$e->getMessage());
@@ -124,6 +361,53 @@ class AddStrictTypesDeclarationCommand extends Command
                     $this->error("Errore nel processare {$path}: " . $e->getMessage());
                     $this->error("Errore nel processare {$path}: " . $e->getMessage());
                     $this->error("Errore nel processare {$path}: " . $e->getMessage());
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+                } catch (\Exception $e) {
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+                } catch (\Exception $e) {
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+                    $this->error("Errore nel processare {$path}: ".$e->getMessage());
+=======
+                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
+>>>>>>> ed734516 (.)
+=======
+                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
+>>>>>>> ed734516 (.)
+=======
+                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
+>>>>>>> ed734516 (.)
+=======
+                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
+>>>>>>> ed734516 (.)
+=======
+                    $this->error("Errore nel processare {$path}: " . $e->getMessage());
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
                 }
             }
         }
@@ -134,6 +418,7 @@ class AddStrictTypesDeclarationCommand extends Command
         return 0;
     }
 
+<<<<<<< HEAD
     /**
      * @return array<SplFileInfo>
     /**
@@ -145,11 +430,66 @@ class AddStrictTypesDeclarationCommand extends Command
     /**
      * @return array<int, \Symfony\Component\Finder\SplFileInfo>
      */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    /**
+     * @return array<SplFileInfo>
+=======
+    /**
+     * @return array<\SplFileInfo>
+>>>>>>> 249a0067 (.)
+=======
+    /**
+     * @return array<\SplFileInfo>
+>>>>>>> 249a0067 (.)
+     */
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+    /**
+     * @return array<int, \Symfony\Component\Finder\SplFileInfo>
+     */
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+    /**
+     * @return array<int, \Symfony\Component\Finder\SplFileInfo>
+     */
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
     private function findPhpFiles(string $path): array
     {
         return File::allFiles($path);
     }
 
+<<<<<<< HEAD
     private function shouldProcessFile(SplFileInfo $file): bool
     private function shouldProcessFile(SplFileInfo $file): bool
     private function shouldProcessFile(SplFileInfo $file): bool
@@ -164,6 +504,58 @@ class AddStrictTypesDeclarationCommand extends Command
     {
         // Verifica l'estensione
         if (!str_ends_with($file->getFilename(), '.php')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    private function shouldProcessFile(SplFileInfo $file): bool
+=======
+    private function shouldProcessFile(\SplFileInfo $file): bool
+>>>>>>> 249a0067 (.)
+=======
+    private function shouldProcessFile(SplFileInfo $file): bool
+>>>>>>> 53d6a6ba (.)
+=======
+    private function shouldProcessFile(SplFileInfo $file): bool
+>>>>>>> 71586de2 (.)
+=======
+    private function shouldProcessFile(\SplFileInfo $file): bool
+>>>>>>> 249a0067 (.)
+    {
+        // Verifica l'estensione
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! str_ends_with($file->getFilename(), '.php')) {
+=======
+        if (!str_ends_with($file->getFilename(), '.php')) {
+>>>>>>> ed734516 (.)
+=======
+        if (!str_ends_with($file->getFilename(), '.php')) {
+>>>>>>> ed734516 (.)
+=======
+        if (!str_ends_with($file->getFilename(), '.php')) {
+>>>>>>> ed734516 (.)
+=======
+    private function shouldProcessFile(SplFileInfo $file): bool
+=======
+    private function shouldProcessFile(\Symfony\Component\Finder\SplFileInfo $file): bool
+>>>>>>> b7afadf9 (.)
+    {
+        // Verifica l'estensione
+        if (!str_ends_with($file->getFilename(), '.php')) {
+>>>>>>> ed734516 (.)
+=======
+    private function shouldProcessFile(SplFileInfo $file): bool
+    {
+        // Verifica l'estensione
+        if (!str_ends_with($file->getFilename(), '.php')) {
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
             return false;
         }
 
@@ -181,10 +573,35 @@ class AddStrictTypesDeclarationCommand extends Command
 
         // Verifica se il file ha già la dichiarazione strict_types
         $content = File::get($path);
+<<<<<<< HEAD
 
         return ! str_contains($content, 'declare(strict_types=1)');
         return !str_contains($content, 'declare(strict_types=1)');
         return !str_contains($content, 'declare(strict_types=1)');
         return !str_contains($content, 'declare(strict_types=1)');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+        return ! str_contains($content, 'declare(strict_types=1)');
+=======
+        return !str_contains($content, 'declare(strict_types=1)');
+>>>>>>> ed734516 (.)
+=======
+        return !str_contains($content, 'declare(strict_types=1)');
+>>>>>>> ed734516 (.)
+=======
+        return !str_contains($content, 'declare(strict_types=1)');
+>>>>>>> ed734516 (.)
+=======
+        return !str_contains($content, 'declare(strict_types=1)');
+>>>>>>> ed734516 (.)
+=======
+        return !str_contains($content, 'declare(strict_types=1)');
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
     }
 }

@@ -54,7 +54,11 @@ class ConnectionManagerService
     public static function getConnectionForModule(string $module): string
     {
         return match($module) {
+<<<<<<< HEAD
             'Quaeris' => 'quaeris',
+=======
+            '<nome progetto>' => '<nome progetto>',
+>>>>>>> laraxot/develop
             'User' => 'user',
             'Notify' => 'notify',
             default => 'mysql'
@@ -137,14 +141,22 @@ class ContactValidationService
 **Solution**: Strategy pattern con interfaces
 
 ```php
+<<<<<<< HEAD
 // Modules/Quaeris/Contracts/ChartRendererContract.php
+=======
+// Modules/<nome progetto>/Contracts/ChartRendererContract.php
+>>>>>>> laraxot/develop
 interface ChartRendererContract
 {
     public function supports(string $type): bool;
     public function render(array $data, array $config): string;
 }
 
+<<<<<<< HEAD
 // Modules/Quaeris/Services/Chart/Renderers/PieChartRenderer.php
+=======
+// Modules/<nome progetto>/Services/Chart/Renderers/PieChartRenderer.php
+>>>>>>> laraxot/develop
 class PieChartRenderer implements ChartRendererContract
 {
     public function supports(string $type): bool
@@ -310,7 +322,11 @@ $contacts = Contact::forContext('dashboard')->get(); // Optimized loading
 **Solution**: Chunking e memory management
 
 ```php
+<<<<<<< HEAD
 // Modules/Quaeris/Services/BulkProcessingService.php
+=======
+// Modules/<nome progetto>/Services/BulkProcessingService.php
+>>>>>>> laraxot/develop
 class BulkProcessingService
 {
     public function processLargeDataset(\Closure $processor, Builder $query, int $chunkSize = 1000): void
@@ -578,7 +594,11 @@ public function processContacts(): Collection
 
 ### 1. Static Analysis
 ```bash
+<<<<<<< HEAD
 # PHPStan Level 9+ compliance
+=======
+# PHPStan level 10+ compliance
+>>>>>>> laraxot/develop
 vendor/bin/phpstan analyse --level=9
 
 # Laravel Pint formatting
@@ -627,7 +647,11 @@ jobs:
 ## 🎯 Success Criteria
 
 ### Technical
+<<<<<<< HEAD
 - [ ] PHPStan Level 9+ compliance
+=======
+- [ ] PHPStan level 10+ compliance
+>>>>>>> laraxot/develop
 - [ ] 85%+ test coverage
 - [ ] <5% code duplication
 - [ ] All SOLID principles followed

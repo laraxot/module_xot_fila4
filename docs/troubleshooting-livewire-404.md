@@ -19,13 +19,21 @@ Failed to load resource: the server responded with a status of 404 (Not Found)
 
 ```bash
 # Configurazione .env
+<<<<<<< HEAD
 APP_URL=http://quaeris.local
+=======
+APP_URL=http://<nome progetto>.local
+>>>>>>> laraxot/develop
 
 # Browser accede a
 http://127.0.0.1:8000
 ```
 
+<<<<<<< HEAD
 **Risultato**: Livewire genera URL con `quaeris.local` ma browser invia richieste a `127.0.0.1:8000` → 404
+=======
+**Risultato**: Livewire genera URL con `<nome progetto>.local` ma browser invia richieste a `127.0.0.1:8000` → 404
+>>>>>>> laraxot/develop
 
 ## ✅ Soluzioni
 
@@ -41,7 +49,11 @@ APP_URL=http://127.0.0.1:8000
 APP_URL=http://localhost:8000
 
 # Se accedi tramite dominio locale
+<<<<<<< HEAD
 APP_URL=http://quaeris.local
+=======
+APP_URL=http://<nome progetto>.local
+>>>>>>> laraxot/develop
 ```
 
 **Dopo la modifica**:
@@ -53,19 +65,34 @@ php artisan optimize:clear
 
 ### Soluzione 2: Aggiungere Host al Sistema
 
+<<<<<<< HEAD
 Se vuoi usare `quaeris.local`, aggiungi al file hosts:
 
 **Linux/Mac**: `/etc/hosts`
 ```
 127.0.0.1 quaeris.local
+=======
+Se vuoi usare `<nome progetto>.local`, aggiungi al file hosts:
+
+**Linux/Mac**: `/etc/hosts`
+```
+127.0.0.1 <nome progetto>.local
+>>>>>>> laraxot/develop
 ```
 
 **Windows**: `C:\Windows\System32\drivers\etc\hosts`
 ```
+<<<<<<< HEAD
 127.0.0.1 quaeris.local
 ```
 
 Poi accedi tramite: `http://quaeris.local:8000`
+=======
+127.0.0.1 <nome progetto>.local
+```
+
+Poi accedi tramite: `http://<nome progetto>.local:8000`
+>>>>>>> laraxot/develop
 
 ### Soluzione 3: Trusted Proxies (Per Ambienti Complessi)
 
@@ -136,21 +163,33 @@ APP_URL=http://127.0.0.1:8000
 
 ```bash
 # .env per sviluppo con virtual host
+<<<<<<< HEAD
 APP_URL=http://quaeris.local
+=======
+APP_URL=http://<nome progetto>.local
+>>>>>>> laraxot/develop
 ```
 
 ### Produzione
 
 ```bash
 # .env per produzione
+<<<<<<< HEAD
 APP_URL=https://quaeris.com
+=======
+APP_URL=https://<nome progetto>.com
+>>>>>>> laraxot/develop
 ```
 
 ## 🔧 Comandi Rapidi Fix
 
 ```bash
 # Quick fix completo
+<<<<<<< HEAD
 cd /var/www/_bases/base_quaeris_fila4_mono/laravel
+=======
+cd /var/www/_bases/base_<nome progetto>_fila4_mono/laravel
+>>>>>>> laraxot/develop
 
 # 1. Modifica APP_URL in .env
 nano .env  # o vim .env

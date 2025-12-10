@@ -3,6 +3,15 @@
 declare(strict_types=1);
 
 use Rector\Config\RectorConfig;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
 
@@ -50,13 +59,41 @@ return static function (RectorConfig $rectorConfig): void {
 
     // Import short classes
     $rectorConfig->importShortClasses(false);
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Rector\PHPUnit\Set\PHPUnitLevelSetList;
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
 use RectorLaravel\Set\LaravelSetList;
 
 return static function (RectorConfig $rectorConfig): void {
+<<<<<<< HEAD
     $rectorConfig->paths([
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+    $rectorConfig->paths([
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         __DIR__.'/Modules',
         __DIR__.'/app',
         __DIR__.'/bootstrap',
@@ -70,16 +107,99 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->skip([
         __DIR__.'/Modules/*/docs',
         __DIR__.'/Modules/*/vendor',
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+        __DIR__ . '/Modules',
+        __DIR__ . '/app',
+        __DIR__ . '/bootstrap',
+        __DIR__ . '/config',
+        __DIR__ . '/lang',
+        __DIR__ . '/resources',
+        __DIR__ . '/routes',
+        __DIR__ . '/tests',
+    ]);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+
+    $rectorConfig->skip([
+        __DIR__ . '/Modules/*/docs',
+        __DIR__ . '/Modules/*/vendor',
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         '*/docs',
         '*/vendor',
         './vendor/',
     ]);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+    $rectorConfig->paths(
+        [
+            __DIR__.'/Modules',
+            __DIR__.'/app',
+            __DIR__.'/bootstrap',
+            __DIR__.'/config',
+            __DIR__.'/lang',
+            __DIR__.'/resources',
+            __DIR__.'/routes',
+            __DIR__.'/tests',
+        ]
+    );
+
+    $rectorConfig->skip(
+        [
+            __DIR__.'/Modules/*/docs',
+            __DIR__.'/Modules/*/vendor',
+            '*/docs',
+            '*/vendor',
+            './vendor/',
+        ]
+    );
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+    $rectorConfig->skip([
+        __DIR__ . '/Modules/*/docs',
+        __DIR__ . '/Modules/*/vendor',
+        '*/docs',
+        '*/vendor',
+        './vendor/',
+    ]);
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     // register a single rule
     // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
     // $rectorConfig->rule(RedirectRouteToToRouteHelperRector::class);
 
     // define sets of rules
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     $rectorConfig->sets([
         PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
         // SetList::DEAD_CODE,
@@ -93,6 +213,56 @@ return static function (RectorConfig $rectorConfig): void {
         // SetList::EARLY_RETURN,
         // SetList::INSTANCEOF,
     ]);
+<<<<<<< HEAD
 
     $rectorConfig->importNames();
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+    $rectorConfig->sets(
+        [
+            PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
+            // SetList::DEAD_CODE,
+            // SetList::CODE_QUALITY,
+            LevelSetList::UP_TO_PHP_81,
+            LaravelSetList::LARAVEL_100,
+
+            // SetList::NAMING, //problemi con injuction
+            SetList::TYPE_DECLARATION,
+            // SetList::CODING_STYLE,
+            // SetList::PRIVATIZATION,//problemi con final
+            // SetList::EARLY_RETURN,
+            // SetList::INSTANCEOF,
+        ]
+    );
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+
+    $rectorConfig->importNames();
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 };

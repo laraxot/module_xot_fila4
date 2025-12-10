@@ -18,11 +18,39 @@ class FilamentMemoryMonitorMiddleware
     /**
      * Handle an incoming request.
      *
+<<<<<<< HEAD
      * @param  Closure(Request):Response  $next
      * @param Closure(Request):Response $next
      * @param Closure(Request):Response $next
      * @param Closure(Request):Response $next
      * @param Closure(Request):Response $next
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  Closure(Request):Response  $next
+=======
+     * @param Closure(Request):Response $next
+>>>>>>> 5a14301c (.)
+=======
+     * @param Closure(Request):Response $next
+>>>>>>> 5a14301c (.)
+=======
+     * @param Closure(Request):Response $next
+>>>>>>> 5a14301c (.)
+=======
+     * @param Closure(Request):Response $next
+>>>>>>> 5a14301c (.)
+=======
+     * @param Closure(Request):Response $next
+>>>>>>> 5a14301c (.)
+=======
+     * @param Closure(Request):Response $next
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function handle(Request $request, Closure $next): Response
     {
@@ -68,6 +96,7 @@ class FilamentMemoryMonitorMiddleware
 
         // Aggiungi header per debug (solo in development)
         if (config('app.debug') && config('filament_optimization.development.show_memory_stats', false)) {
+<<<<<<< HEAD
             $response->headers->set('X-Memory-Used', $memoryUsedMB.'MB');
             $response->headers->set('X-Memory-Peak', $memoryPeakMB.'MB');
             $response->headers->set('X-Execution-Time', round($executionTime, 2).'ms');
@@ -83,6 +112,47 @@ class FilamentMemoryMonitorMiddleware
             $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
             $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
             $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $response->headers->set('X-Memory-Used', $memoryUsedMB.'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB.'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2).'ms');
+=======
+            $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
+>>>>>>> 5a14301c (.)
+=======
+            $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
+>>>>>>> 5a14301c (.)
+=======
+            $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
+>>>>>>> 5a14301c (.)
+=======
+            $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
+>>>>>>> 5a14301c (.)
+=======
+            $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
+>>>>>>> 5a14301c (.)
+=======
+            $response->headers->set('X-Memory-Used', $memoryUsedMB . 'MB');
+            $response->headers->set('X-Memory-Peak', $memoryPeakMB . 'MB');
+            $response->headers->set('X-Execution-Time', round($executionTime, 2) . 'ms');
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         }
 
         return $response;
@@ -94,15 +164,44 @@ class FilamentMemoryMonitorMiddleware
     private function isFilamentAdminRequest(Request $request): bool
     {
         $path = $request->path();
+<<<<<<< HEAD
 
         
         
         
         
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         // Pattern per riconoscere richieste admin Filament
         $adminPatterns = [
             '/admin',
             '/user/admin',
+<<<<<<< HEAD
             '/<nome progetto>/admin',
             '/techplanner/admin',
             '/techplanner/admin',
@@ -114,6 +213,57 @@ class FilamentMemoryMonitorMiddleware
             '/techplanner/admin',
             '/<nome progetto>/admin',
             '/techplanner/admin',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            '/<nome progetto>/admin',
+=======
+            '/techplanner/admin',
+>>>>>>> 5a14301c (.)
+=======
+            '/techplanner/admin',
+>>>>>>> 5a14301c (.)
+=======
+            '/techplanner/admin',
+>>>>>>> 5a14301c (.)
+=======
+            '/techplanner/admin',
+>>>>>>> 5a14301c (.)
+=======
+            '/techplanner/admin',
+>>>>>>> 53d6a6ba (.)
+=======
+            '/<nome progetto>/admin',
+>>>>>>> b7afadf9 (.)
+=======
+            '/techplanner/admin',
+>>>>>>> 71586de2 (.)
+=======
+            '/techplanner/admin',
+>>>>>>> 5a14301c (.)
+=======
+            '/techplanner/admin',
+>>>>>>> 53d6a6ba (.)
+=======
+            '/<nome progetto>/admin',
+>>>>>>> b7afadf9 (.)
+=======
+            '/techplanner/admin',
+>>>>>>> 71586de2 (.)
+=======
+            '/techplanner/admin',
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             '/cms/admin',
             '/geo/admin',
             '/notify/admin',
@@ -144,20 +294,76 @@ class FilamentMemoryMonitorMiddleware
     /**
      * Logga l'uso della memoria.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $metrics
      * @param array<string, mixed> $metrics
      * @param array<string, mixed> $metrics
      * @param array<string, mixed> $metrics
      * @param array<string, mixed> $metrics
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $metrics
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     private function logMemoryUsage(Request $request, array $metrics): void
     {
         $logLevel = $this->determineLogLevel($metrics);
+<<<<<<< HEAD
 
         
         
         
         
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+=======
+        
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $message = sprintf(
             'Filament Memory Usage: %sMB used, %sMB peak, %sms execution time - %s %s',
             (string) $metrics['memory_used_mb'],
@@ -186,11 +392,39 @@ class FilamentMemoryMonitorMiddleware
     /**
      * Determina il livello di log basato sulle metriche.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $metrics
      * @param array<string, mixed> $metrics
      * @param array<string, mixed> $metrics
      * @param array<string, mixed> $metrics
      * @param array<string, mixed> $metrics
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $metrics
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
+=======
+     * @param array<string, mixed> $metrics
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     private function determineLogLevel(array $metrics): string
     {

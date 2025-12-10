@@ -18,6 +18,7 @@ class PdfByHtmlAction
         string $filename = 'my_doc.pdf',
         string $disk = 'cache',
         string $out = 'download',
+<<<<<<< HEAD
         string $orientation = 'L',
     ): string|BinaryFileResponse {
         $html2pdf = new Html2Pdf($orientation, 'A4', 'it');
@@ -29,6 +30,41 @@ class PdfByHtmlAction
         $html2pdf = new Html2Pdf('L', 'A4', 'it');
     ): string|BinaryFileResponse {
         $html2pdf = new Html2Pdf('L', 'A4', 'it');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        string $orientation = 'L',
+    ): string|BinaryFileResponse {
+        $html2pdf = new Html2Pdf($orientation, 'A4', 'it');
+=======
+    ): string|BinaryFileResponse {
+        $html2pdf = new Html2Pdf('L', 'A4', 'it');
+>>>>>>> 5a14301c (.)
+=======
+    ): string|BinaryFileResponse {
+        $html2pdf = new Html2Pdf('L', 'A4', 'it');
+>>>>>>> 5a14301c (.)
+=======
+    ): string|BinaryFileResponse {
+        $html2pdf = new Html2Pdf('L', 'A4', 'it');
+>>>>>>> 5a14301c (.)
+=======
+    ): string|BinaryFileResponse {
+        $html2pdf = new Html2Pdf('L', 'A4', 'it');
+>>>>>>> 5a14301c (.)
+=======
+    ): string|BinaryFileResponse {
+        $html2pdf = new Html2Pdf('L', 'A4', 'it');
+>>>>>>> 5a14301c (.)
+=======
+    ): string|BinaryFileResponse {
+        $html2pdf = new Html2Pdf('L', 'A4', 'it');
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $html2pdf->setTestTdInOnePage(false);
         $html2pdf->writeHTML($html);
         $path = Storage::disk($disk)->path($filename);
@@ -40,7 +76,27 @@ class PdfByHtmlAction
 
         return match ($out) {
             'download' => response()->download($path, $filename, $headers),
+<<<<<<< HEAD
             'content' => $html2pdf->output($path, 'S'), // D
+=======
+<<<<<<< HEAD
+            'content' => $html2pdf->output($path, 'S'), // D
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'content' => $html2pdf->output($path, 'S'), // D
+=======
+            'content' => $html2pdf->output($path, 'S'),  // D
+>>>>>>> a12f125f4a (.)
+=======
+            'content' => $html2pdf->output($path, 'S'), // D
+>>>>>>> b93ef594b4 (.)
+=======
+            'content' => $html2pdf->output($path, 'S'),  // D
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             default => $path,
         };
     }

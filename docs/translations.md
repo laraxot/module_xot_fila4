@@ -1,3 +1,47 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 ### Versione HEAD
 
 # Traduzioni
@@ -69,6 +113,7 @@ Modules/<NomeModulo>/
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
@@ -167,6 +212,346 @@ Modules/<NomeModulo>/
 - [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 21348520 (.)
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 6dcebf8a (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> b3cc10f7 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> cafe8bed (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 5bd842e3 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 5cd593a5 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 03ceeac3 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 3baa48bd (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 5b07d268 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 5a14301c (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 71f31700 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 3310e9c6 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 6dcebf8a (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> b3cc10f7 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> cafe8bed (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 5bd842e3 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 5cd593a5 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 03ceeac3 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 3baa48bd (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 5b07d268 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 5a14301c (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+=======
+- [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 3fbbf1f5 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 ## Struttura
 
@@ -465,6 +850,197 @@ Action::make('delete')
 - Test di performance 
 
 ## Collegamenti tra versioni di translations.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6a1fe786 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> b3cc10f7 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6a1fe786 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> b3cc10f7 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -482,6 +1058,118 @@ Action::make('delete')
 * [translations.md](../../../Activity/docs/translations.md)
 * [translations.md](../../../Patient/docs/translations.md)
 * [translations.md](../../../Cms/docs/translations.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> laraxot/develop
 * [translations.md](../../../Chart/project_docs/translations.md)
 * [translations.md](../../../Reporting/project_docs/translations.md)
 * [translations.md](../../../Gdpr/project_docs/translations.md)
@@ -499,6 +1187,170 @@ Action::make('delete')
 * [translations.md](../../../Activity/project_docs/translations.md)
 * [translations.md](../../../Patient/project_docs/translations.md)
 * [translations.md](../../../Cms/project_docs/translations.md)
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6a1fe786 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> b3cc10f7 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6a1fe786 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 34579462 (.)
+=======
+>>>>>>> b3cc10f7 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> a62d7646 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d79d36e0 (.)
+=======
+>>>>>>> 5cd593a5 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 099ab7a0 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 96276392 (.)
+=======
+>>>>>>> 3baa48bd (.)
+=======
+>>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 3ae5e299 (.)
+=======
+>>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 
 ### Versione Incoming
@@ -507,3 +1359,84 @@ Action::make('delete')
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+>>>>>>> 03ceeac3 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop

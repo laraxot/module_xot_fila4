@@ -13,6 +13,15 @@ use Spatie\LaravelData\Data;
 class NotificationData extends Data
 {
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @param  array  $channels  Canali di notifica disponibili
      * @param  string  $default_channel  Canale predefinito
      * @param  bool  $queue  Se accodare le notifiche
@@ -20,6 +29,20 @@ class NotificationData extends Data
      * @param  array  $broadcast  Configurazione broadcast
      * @param  array  $slack  Configurazione Slack
      * @param  array  $telegram  Configurazione Telegram
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @param array  $channels        Canali di notifica disponibili
      * @param string $default_channel Canale predefinito
      * @param bool   $queue           Se accodare le notifiche
@@ -27,6 +50,25 @@ class NotificationData extends Data
      * @param array  $broadcast       Configurazione broadcast
      * @param array  $slack           Configurazione Slack
      * @param array  $telegram        Configurazione Telegram
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     public function __construct(
         public readonly array $channels = ['mail', 'database'],
@@ -56,19 +98,83 @@ class NotificationData extends Data
             'bot_token' => '',
             'chat_id' => '',
         ],
+<<<<<<< HEAD
     ) {}
 
     /**
      * Create a new instance of NotificationData with default values.
+=======
+<<<<<<< HEAD
+    ) {}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    ) {}
+=======
+    ) {
+    }
+>>>>>>> a12f125f4a (.)
+=======
+    ) {}
+>>>>>>> b93ef594b4 (.)
+=======
+    ) {
+    }
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+
+    /**
+     * Create a new instance of NotificationData with default values.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      */
     public static function make(): static
     {
         return new static;
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      *
      * @return static
      */
     public static function make(): static
     {
         return new static();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     }
 }

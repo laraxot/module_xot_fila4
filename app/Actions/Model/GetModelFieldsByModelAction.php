@@ -20,6 +20,30 @@ class GetModelFieldsByModelAction
      */
     public function execute(Model $model): array
     {
+<<<<<<< HEAD
         return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
+=======
+<<<<<<< HEAD
+        return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
+=======
+        return $model->getConnection()
+            ->getSchemaBuilder()
+            ->getColumnListing($model->getTable());
+>>>>>>> a12f125f4a (.)
+=======
+        return $model->getConnection()->getSchemaBuilder()->getColumnListing($model->getTable());
+>>>>>>> b93ef594b4 (.)
+=======
+        return $model->getConnection()
+            ->getSchemaBuilder()
+            ->getColumnListing($model->getTable());
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 }

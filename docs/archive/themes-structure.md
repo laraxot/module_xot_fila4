@@ -228,5 +228,13 @@ resources/views/
 
 ## Collegamenti tra versioni di themes-structure.md
 * [themes-structure.md](docs/tecnico/themes-structure.md)
+<<<<<<< HEAD
 * [themes-structure.md](../../../Xot/docs/themes-structure.md)
+=======
+<<<<<<< HEAD
+* [themes-structure.md](../../../Xot/docs/themes-structure.md)
+=======
+* [themes-structure.md](../../../Xot/project_docs/themes-structure.md)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 

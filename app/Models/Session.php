@@ -4,34 +4,193 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Models;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Database\Factories\SessionFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 use Illuminate\Support\Carbon;
 use Modules\Xot\Database\Factories\SessionFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< HEAD
 
 /**
  * Modules\Xot\Models\Session.
  *
  * @property string $id
  * @property string|null $user_id
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+/**
+ * Modules\Xot\Models\Session.
+ *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ * @property string $id
+ * @property string|null $user_id
+=======
+ * @property int $id
+ * @property int|null $user_id
+>>>>>>> 53d6a6ba (.)
+>>>>>>> laraxot/develop
  * @property string|null $ip_address
  * @property string|null $user_agent
  * @property string $payload
  * @property int $last_activity
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
  * @property string|null $updated_by
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $updater
  *
  * @method static SessionFactory factory($count = null, $state = [])
+<<<<<<< HEAD
+=======
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Xot\Database\Factories\SessionFactory factory($count = null, $state = [])
+>>>>>>> cc7fb225 (.)
+>>>>>>> laraxot/develop
  * @method static Builder<static>|Session newModelQuery()
  * @method static Builder<static>|Session newQuery()
  * @method static Builder<static>|Session query()
@@ -48,12 +207,34 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Session whereUserAgent($value)
  * @method static Builder<static>|Session whereUserId($value)
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  * @property int                             $id
  * @property int|null                        $user_id
  * @property string|null                     $ip_address
  * @property string|null                     $user_agent
  * @property string $payload
  * @property int                             $last_activity
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property string|null                     $created_by
@@ -72,12 +253,45 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder|Session whereUpdatedBy($value)
  * @method static Builder|Session whereUserAgent($value)
  * @method static Builder|Session whereUserId($value)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string|null                     $created_by
+ * @property string|null                     $updated_by
+ * @method static \Modules\Xot\Database\Factories\SessionFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereIpAddress($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereLastActivity($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  wherePayload($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereUpdatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereUserAgent($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereUserId($value)
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
  * @property int                             $id
  * @property int|null                        $user_id
  * @property string|null                     $ip_address
  * @property string|null                     $user_agent
  * @property string $payload
  * @property int                             $last_activity
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property string|null                     $created_by
@@ -102,7 +316,55 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder|Session whereDeletedBy($value)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
  * @mixin IdeHelperSession
+=======
+<<<<<<< HEAD
+=======
+=======
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string|null                     $created_by
+ * @property string|null                     $updated_by
+ * @method static \Modules\Xot\Database\Factories\SessionFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereIpAddress($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereLastActivity($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  wherePayload($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereUpdatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereUserAgent($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session  whereUserId($value)
+ * @property \Illuminate\Support\Carbon|null $deleted_at
+ * @property string|null                     $deleted_by
+ * @method static \Illuminate\Database\Eloquent\Builder|Session whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Session whereDeletedBy($value)
+ * @property \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+ * @mixin IdeHelperSession
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> laraxot/develop
  * @property string|null $created_by
  * @property string|null $updated_by
  *
@@ -157,6 +419,19 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property ProfileContract|null $updater
  *
  * @mixin IdeHelperSession
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> laraxot/develop
  * @mixin \Eloquent
  */
 /**
@@ -172,10 +447,25 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
  * @property-read \Modules\Quaeris\Models\Profile|null $creator
  * @property-read \Modules\Quaeris\Models\Profile|null $updater
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ * @property-read \Modules\Quaeris\Models\Profile|null $creator
+ * @property-read \Modules\Quaeris\Models\Profile|null $updater
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+>>>>>>> cc7fb225 (.)
+=======
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
  *
  * @method static \Modules\Xot\Database\Factories\SessionFactory factory($count = null, $state = [])
  * @method static Builder<static>|Session newModelQuery()
@@ -194,6 +484,34 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|Session whereUserAgent($value)
  * @method static Builder<static>|Session whereUserId($value)
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
  * @mixin \Eloquent
  */
 class Session extends BaseModel

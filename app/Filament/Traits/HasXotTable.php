@@ -4,11 +4,103 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Traits;
 
+<<<<<<< HEAD
 use Exception;
 use Exception;
 use Exception;
 use Exception;
 use Exception;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+use Exception;
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+use Exception;
+>>>>>>> 53d6a6ba (.)
+=======
+use Exception;
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+use Exception;
+>>>>>>> 53d6a6ba (.)
+=======
+use Exception;
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
 use Filament\Actions;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
@@ -22,6 +114,7 @@ use Filament\Actions\DetachAction;
 use Filament\Actions\EditAction;
 use Filament\Actions\ReplicateAction;
 use Filament\Actions\ViewAction;
+<<<<<<< HEAD
 use Filament\Actions\BulkAction;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
@@ -94,6 +187,327 @@ use Filament\Actions\ActionGroup;
 use Filament\Actions\BulkAction;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> ca9324a4 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 9db27d12 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> ca9324a4 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 9db27d12 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 9db27d12 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+use Filament\Actions\BulkAction;
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 use Filament\Actions\CreateAction;
 use Filament\Actions\AssociateAction;
 use Filament\Actions\AttachAction;
@@ -105,15 +519,199 @@ use Filament\Actions\DeleteAction;
 use Filament\Actions\ReplicateAction;
 use Filament\Actions\DetachAction;
 use Filament\Actions\DeleteBulkAction;
+<<<<<<< HEAD
 use Filament\Actions;
 use Filament\Actions;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+use Filament\Actions;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 300ef70 (.)
+use Filament\Actions;
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+use Filament\Actions;
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+use Filament\Notifications\Notification;
+use Filament\Tables;
+use Filament\Tables\Columns\Layout\Stack;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Enums\FiltersLayout;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Tables\Enums\RecordActionsPosition;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+use Filament\Tables\Filters\BaseFilter;
+use Filament\Tables\Filters\TernaryFilter;
+=======
+>>>>>>> cc7fb225 (.)
+use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\Relation;
+use Modules\UI\Enums\TableLayoutEnum;
+use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
+use Modules\Xot\Actions\Model\TableExistsByModelClassActions;
+use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+use Filament\Tables;
+use Filament\Actions;
+use Filament\Tables\Table;
+use Webmozart\Assert\Assert;
+use Modules\UI\Enums\TableLayoutEnum;
+use Filament\Tables\Columns\TextColumn;
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+use Filament\Tables\Filters\BaseFilter;
+use Filament\Tables\Filters\TernaryFilter;
+=======
+>>>>>>> cc7fb225 (.)
+use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\Relation;
+use Modules\UI\Enums\TableLayoutEnum;
+use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
+use Modules\Xot\Actions\Model\TableExistsByModelClassActions;
+use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+use Filament\Tables;
+use Filament\Actions;
+use Filament\Tables\Table;
+use Webmozart\Assert\Assert;
+use Modules\UI\Enums\TableLayoutEnum;
+use Filament\Tables\Columns\TextColumn;
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+use Filament\Tables\Filters\BaseFilter;
+use Filament\Tables\Filters\TernaryFilter;
+use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\Relation;
+use Modules\UI\Enums\TableLayoutEnum;
+use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
+use Modules\Xot\Actions\Model\TableExistsByModelClassActions;
+use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+=======
+=======
+use Filament\Actions\Action;
+use Filament\Actions\ActionGroup;
+use Filament\Tables;
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> laraxot/develop
 use Filament\Actions;
 use Filament\Notifications\Notification;
 use Filament\Tables;
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Enums\FiltersLayout;
+<<<<<<< HEAD
 use Filament\Tables\Enums\RecordActionsPosition;
+=======
+>>>>>>> laraxot/develop
 use Filament\Tables\Filters\BaseFilter;
 use Filament\Tables\Filters\TernaryFilter;
 use Filament\Tables\Table;
@@ -122,6 +720,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
+<<<<<<< HEAD
 use Modules\Xot\Actions\Model\TableExistsByModelClassActions;
 use Webmozart\Assert\Assert;
 use Filament\Tables\Filters\BaseFilter;
@@ -144,6 +743,38 @@ use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 use Modules\Xot\Actions\Model\TableExistsByModelClassActions;
 use Webmozart\Assert\Assert;
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Modules\Xot\Actions\Model\TableExistsByModelClassActions;
+use Webmozart\Assert\Assert;
+>>>>>>> b93ef594b4 (.)
+=======
+use Filament\Tables;
+use Filament\Actions;
+use Filament\Tables\Table;
+use Webmozart\Assert\Assert;
+use Filament\Tables\Actions\Action;
+use Modules\UI\Enums\TableLayoutEnum;
+use Filament\Tables\Actions\BulkAction;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Filters\BaseFilter;
+use Illuminate\Database\Eloquent\Model;
+use Filament\Notifications\Notification;
+use Filament\Tables\Actions\ActionGroup;
+use Filament\Tables\Enums\FiltersLayout;
+use Filament\Tables\Columns\Layout\Stack;
+use Illuminate\Database\Eloquent\Builder;
+use Filament\Tables\Enums\ActionsPosition;
+use Filament\Tables\Filters\TernaryFilter;
+use Filament\Tables\Actions\DeleteBulkAction;
+use Illuminate\Database\Eloquent\Relations\Relation;
+use Modules\Xot\Actions\Model\TableExistsByModelClassActions;
+use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 /**
  * Trait HasXotTable.
@@ -159,6 +790,7 @@ trait HasXotTable
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
     protected static bool $canReplicate = false;
+<<<<<<< HEAD
 
     protected static bool $canView = true;
 
@@ -166,17 +798,59 @@ trait HasXotTable
     protected static bool $canView = true;
     protected static bool $canView = true;
     protected static bool $canView = true;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+    protected static bool $canView = true;
+
+=======
+    protected static bool $canView = true;
+>>>>>>> 5a14301c (.)
+=======
+    protected static bool $canView = true;
+>>>>>>> 5a14301c (.)
+=======
+    protected static bool $canView = true;
+>>>>>>> 5a14301c (.)
+=======
+    protected static bool $canView = true;
+>>>>>>> 5a14301c (.)
+=======
+    protected static bool $canView = true;
+>>>>>>> 5a14301c (.)
+=======
+    protected static bool $canView = true;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     protected static bool $canEdit = true;
 
     /**
      * Get table header actions.
      *
+<<<<<<< HEAD
      * @return array<string, Action|ActionGroup>
+=======
+<<<<<<< HEAD
+     * @return array<string, Action|ActionGroup>
+=======
+<<<<<<< HEAD
+     * @return array<string, Action|ActionGroup>
+=======
+     * @return array<string, \Filament\Tables\Actions\Action|\Filament\Tables\Actions\ActionGroup>
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
      */
     public function getTableHeaderActions(): array
     {
         $actions = [];
 
+<<<<<<< HEAD
         $actions['create'] = CreateAction::make();
         $actions[] = CreateAction::make();
         $actions['create'] = CreateAction::make();
@@ -185,6 +859,98 @@ trait HasXotTable
         $actions['create'] = CreateAction::make();
         $actions[] = CreateAction::make();
         $actions['create'] = CreateAction::make();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        $actions['create'] = CreateAction::make();
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+        $actions[] = CreateAction::make();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $actions['create'] = CreateAction::make();
+=======
+<<<<<<< HEAD
+=======
+        $actions[] = CreateAction::make();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $actions['create'] = CreateAction::make();
+=======
+>>>>>>> b7afadf9 (.)
+=======
+        $actions['create'] = CreateAction::make();
+=======
+>>>>>>> ed734516 (.)
+=======
+        $actions['create'] = CreateAction::make();
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+        $actions[] = CreateAction::make();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $actions['create'] = CreateAction::make();
+=======
+>>>>>>> b7afadf9 (.)
+=======
+        $actions['create'] = CreateAction::make();
+=======
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
         $resource = $this->getResource();
         
         if (method_exists($resource, 'canCreate')) {
@@ -193,6 +959,7 @@ trait HasXotTable
                 ->tooltip(__('user::actions.create'))
                 ->visible(fn (?Model $record): bool => $resource::canCreate());
         }
+<<<<<<< HEAD
         $actions['create'] = CreateAction::make();
         $actions['create'] = CreateAction::make();
         $actions['create'] = CreateAction::make();
@@ -212,13 +979,157 @@ trait HasXotTable
 
         if ($this->shouldShowAssociateAction()) {
             $actions['associate'] = AssociateAction::make()
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 71586de2 (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 249a0067 (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 71586de2 (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 249a0067 (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> 3fbbf1f5 (.)
+
+        if ($this->shouldShowAssociateAction()) {
+            $actions['associate'] = AssociateAction::make()
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $actions['create'] = CreateAction::make();
+=======
+        $resource = $this->getResource();
+        
+        if (method_exists($resource, 'canCreate')) {
+            $actions['create'] = CreateAction::make()
+                ->iconButton()
+                ->tooltip(__('user::actions.create'))
+                ->visible(fn (?Model $record): bool => $resource::canCreate());
+        }
+>>>>>>> a12f125f4a (.)
+=======
+        $actions['create'] = CreateAction::make();
+>>>>>>> b93ef594b4 (.)
+
+        if ($this->shouldShowAssociateAction()) {
+            $actions['associate'] = AssociateAction::make()
+=======
+        $actions['create'] = Tables\Actions\CreateAction::make();
+
+        if ($this->shouldShowAssociateAction()) {
+            $actions['associate'] = Tables\Actions\AssociateAction::make()
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 ->label('')
                 ->icon('heroicon-o-paper-clip')
                 ->tooltip(__('user::actions.associate_user'));
         }
 
         if ($this->shouldShowAttachAction()) {
+<<<<<<< HEAD
             $actions['attach'] = AttachAction::make()
+=======
+<<<<<<< HEAD
+            $actions['attach'] = AttachAction::make()
+=======
+<<<<<<< HEAD
+            $actions['attach'] = AttachAction::make()
+=======
+            $actions['attach'] = Tables\Actions\AttachAction::make()
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 ->label('')
                 ->icon('heroicon-o-link')
                 ->tooltip(__('user::actions.attach_user'))
@@ -230,6 +1141,26 @@ trait HasXotTable
         return $actions;
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     protected function shouldShowAssociateAction(): bool
     {
         return false;
@@ -237,21 +1168,77 @@ trait HasXotTable
 
     protected function shouldShowAttachAction(): bool
     {
+<<<<<<< HEAD
         //@phpstan-ignore-next-line
         // @phpstan-ignore-next-line
         //@phpstan-ignore-next-line
         // @phpstan-ignore-next-line
         // @phpstan-ignore-next-line
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        //@phpstan-ignore-next-line
+=======
+        // @phpstan-ignore-next-line
+>>>>>>> 53d6a6ba (.)
+=======
+        // @phpstan-ignore-next-line
+>>>>>>> 249a0067 (.)
+=======
+        //@phpstan-ignore-next-line
+>>>>>>> 5a14301c (.)
+=======
+        // @phpstan-ignore-next-line
+>>>>>>> 53d6a6ba (.)
+=======
+        // @phpstan-ignore-next-line
+>>>>>>> 249a0067 (.)
+=======
+        //@phpstan-ignore-next-line
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         return method_exists($this, 'getRelationship');
     }
 
     protected function shouldShowDetachAction(): bool
     {
+<<<<<<< HEAD
         //@phpstan-ignore-next-line
         // @phpstan-ignore-next-line
         //@phpstan-ignore-next-line
         // @phpstan-ignore-next-line
         // @phpstan-ignore-next-line
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        //@phpstan-ignore-next-line
+=======
+        // @phpstan-ignore-next-line
+>>>>>>> 53d6a6ba (.)
+=======
+        // @phpstan-ignore-next-line
+>>>>>>> 249a0067 (.)
+=======
+        //@phpstan-ignore-next-line
+>>>>>>> 5a14301c (.)
+=======
+        // @phpstan-ignore-next-line
+>>>>>>> 53d6a6ba (.)
+=======
+        // @phpstan-ignore-next-line
+>>>>>>> 249a0067 (.)
+=======
+        //@phpstan-ignore-next-line
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         return method_exists($this, 'getRelationship');
     }
 
@@ -278,10 +1265,51 @@ trait HasXotTable
     protected function getHeaderActions(): array
     {
         return [
+<<<<<<< HEAD
             'create' => CreateAction::make()->icon('heroicon-o-plus'),
         ];
     }
 
+=======
+<<<<<<< HEAD
+            'create' => CreateAction::make()->icon('heroicon-o-plus'),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'create' => CreateAction::make()->icon('heroicon-o-plus'),
+=======
+            'create' => CreateAction::make()
+                ->icon('heroicon-o-plus'),
+>>>>>>> a12f125f4a (.)
+=======
+            'create' => CreateAction::make()->icon('heroicon-o-plus'),
+>>>>>>> b93ef594b4 (.)
+=======
+            'create' => Actions\CreateAction::make()
+                ->icon('heroicon-o-plus'),
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+        ];
+    }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     /**
      * Get grid table columns.
      *
@@ -300,6 +1328,23 @@ trait HasXotTable
      * @return array<string, Tables\Columns\Column>
      */
     abstract public function getTableColumns(): array;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+    
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get table filters form columns.
@@ -322,19 +1367,234 @@ trait HasXotTable
     /**
      * Get table heading.
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> laraxot/develop
     public function getTableHeading(): ?string
     {
         $key = static::getKeyTrans('table.heading');
         /** @var string|array<int|string,mixed>|null $trans */
         // @phpstan-ignore-next-line
+<<<<<<< HEAD
     public function getTableHeading(): null|string
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+    public function getTableHeading(): null|string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function getTableHeading(): null|string
+=======
+    public function getTableHeading(): ?string
+>>>>>>> a12f125f4a (.)
+=======
+    public function getTableHeading(): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+    public function getTableHeading(): ?string
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     {
         $key = static::getKeyTrans('table.heading');
         /** @var string|array<int|string,mixed>|null $trans */
         //@phpstan-ignore-next-line
+<<<<<<< HEAD
         $trans = trans($key);
 
         return is_string($trans) && $trans !== $key ? $trans : null;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+        $trans = trans($key);
+
+<<<<<<< HEAD
+        return is_string($trans) && $trans !== $key ? $trans : null;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return is_string($trans) && $trans !== $key ? $trans : null;
+=======
+        return (is_string($trans) && $trans !== $key) ? $trans : null;
+>>>>>>> a12f125f4a (.)
+=======
+        return is_string($trans) && $trans !== $key ? $trans : null;
+>>>>>>> b93ef594b4 (.)
+=======
+        return (is_string($trans) && $trans !== $key) ? $trans : null;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 
     /**
@@ -367,6 +1627,7 @@ trait HasXotTable
     public function table(Table $table): Table
     {
         $modelClass = $this->getModelClass();
+<<<<<<< HEAD
         if (! app(TableExistsByModelClassActions::class)->execute($modelClass)) {
             $this->notifyTableMissing();
 
@@ -380,6 +1641,191 @@ trait HasXotTable
             $this->notifyTableMissing();
         if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
             $this->notifyTableMissing();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+        if (! app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+            $this->notifyTableMissing();
+
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+=======
+        if (! app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+            $this->notifyTableMissing();
+>>>>>>> 5a14301c (.)
+=======
+        if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+            $this->notifyTableMissing();
+>>>>>>> 5a14301c (.)
+=======
+        if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+            $this->notifyTableMissing();
+>>>>>>> 5a14301c (.)
+=======
+        if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+            $this->notifyTableMissing();
+>>>>>>> 5a14301c (.)
+=======
+        if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+            $this->notifyTableMissing();
+>>>>>>> 5a14301c (.)
+=======
+        if (!app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+            $this->notifyTableMissing();
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             return $this->configureEmptyTable($table);
         }
 
@@ -388,6 +1834,7 @@ trait HasXotTable
         Assert::isInstanceOf($model, Model::class);
 
         // Configurazione base della tabella
+<<<<<<< HEAD
         return $table
         $table = $table
         $table = $table
@@ -397,6 +1844,61 @@ trait HasXotTable
             ->heading($this->getTableHeading())
             ->columns($this->layoutView->getTableColumns($this->getTableColumns(), $this->getGridTableColumns()))
             ->contentGrid($this->layoutView->getTableContentGrid())
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $table
+=======
+        $table = $table
+>>>>>>> 5a14301c (.)
+=======
+        $table = $table
+>>>>>>> 5a14301c (.)
+=======
+        $table = $table
+>>>>>>> 5a14301c (.)
+=======
+        $table = $table
+>>>>>>> 5a14301c (.)
+=======
+        $table = $table
+>>>>>>> 5a14301c (.)
+=======
+        $table = $table
+>>>>>>> 5a14301c (.)
+            ->recordTitleAttribute($this->getTableRecordTitleAttribute())
+            ->heading($this->getTableHeading())
+<<<<<<< HEAD
+            ->columns($this->layoutView->getTableColumns($this->getTableColumns(), $this->getGridTableColumns()))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->columns($this->layoutView->getTableColumns($this->getTableColumns(), $this->getGridTableColumns()))
+=======
+=======
+>>>>>>> origin/develop
+            ->columns($this->layoutView->getTableColumns(
+                $this->getTableColumns(),
+                $this->getGridTableColumns()
+            ))
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+            ->columns($this->layoutView->getTableColumns($this->getTableColumns(), $this->getGridTableColumns()))
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+            ->contentGrid($this->layoutView->getTableContentGrid())
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
             ->filters(array_values($this->getTableFilters()))
             ->filtersLayout(FiltersLayout::AboveContent)
             ->filtersFormColumns($this->getTableFiltersFormColumns())
@@ -404,11 +1906,20 @@ trait HasXotTable
             ->headerActions(array_values($this->getTableHeaderActions()))
             ->recordActions($this->getTableActions())
             ->toolbarActions(array_values($this->getTableBulkActions()))
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->filtersFormColumns($this->getTableFiltersFormColumns())
             ->persistFiltersInSession()
             ->headerActions($this->getTableHeaderActions())
+<<<<<<< HEAD
             ->recordActions($this->getTableActions())
             ->toolbarActions($this->getTableBulkActions())
             ->recordActionsPosition(RecordActionsPosition::BeforeColumns)
@@ -417,16 +1928,411 @@ trait HasXotTable
             ->paginated($this->getTablePaginated());
 
         /*
+=======
+<<<<<<< HEAD
+            ->recordActions($this->getTableActions())
+            ->toolbarActions($this->getTableBulkActions())
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+            ->recordActionsPosition(RecordActionsPosition::BeforeColumns)
+=======
+<<<<<<< HEAD
+            ->recordActions($this->getTableActions())
+            ->toolbarActions($this->getTableBulkActions())
+            ->recordActionsPosition(RecordActionsPosition::BeforeColumns)
+=======
+            ->actions($this->getTableActions())
+            ->bulkActions($this->getTableBulkActions())
+            ->actionsPosition(ActionsPosition::BeforeColumns)
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+            ->emptyStateActions($this->getTableEmptyStateActions())
+            ->striped()
+            ->paginated($this->getTablePaginated());
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+        /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
          * ->defaultSort(
          * column: $this->getDefaultTableSortColumn(),
          * direction: $this->getDefaultTableSortDirection(),
          * );
          */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
             ->defaultSort(
                 column: $this->getDefaultTableSortColumn(),
                 direction: $this->getDefaultTableSortDirection(),
             );
         */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         return $table;
     }
 
@@ -438,7 +2344,77 @@ trait HasXotTable
     /**
      * Get default table sort column.
      */
+<<<<<<< HEAD
     protected function getDefaultTableSortColumn(): null|string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+    protected function getDefaultTableSortColumn(): null|string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function getDefaultTableSortColumn(): null|string
+=======
+    protected function getDefaultTableSortColumn(): ?string
+>>>>>>> a12f125f4a (.)
+=======
+    protected function getDefaultTableSortColumn(): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+    protected function getDefaultTableSortColumn(): ?string
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     {
         try {
             $modelClass = $this->getModelClass();
@@ -446,8 +2422,31 @@ trait HasXotTable
             $model = app($modelClass);
             Assert::isInstanceOf($model, Model::class);
 
+<<<<<<< HEAD
             return $model->getTable() . '.id';
         } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+            return $model->getTable() . '.id';
+        } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return $model->getTable() . '.id';
+=======
+            return $model->getTable().'.id';
+>>>>>>> a12f125f4a (.)
+=======
+            return $model->getTable() . '.id';
+>>>>>>> b93ef594b4 (.)
+        } catch (Exception $e) {
+=======
+            return $model->getTable().'.id';
+        } catch (\Exception $e) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             return null;
         }
     }
@@ -455,9 +2454,47 @@ trait HasXotTable
     /**
      * Get default table sort direction.
      */
+<<<<<<< HEAD
     protected function getDefaultTableSortDirection(): null|string
     {
         return 'desc';
+=======
+<<<<<<< HEAD
+    protected function getDefaultTableSortDirection(): null|string
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function getDefaultTableSortDirection(): null|string
+=======
+    protected function getDefaultTableSortDirection(): ?string
+>>>>>>> a12f125f4a (.)
+=======
+    protected function getDefaultTableSortDirection(): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+    protected function getDefaultTableSortDirection(): ?string
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+    {
+        return 'desc';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     }
 
     /**
@@ -479,35 +2516,153 @@ trait HasXotTable
     {
         $actions = [];
         $resource = $this->getResource();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         if (method_exists($resource, 'canView')) {
             $actions['view'] = ViewAction::make()
                 ->iconButton()
                 ->tooltip(__('user::actions.view'))
+<<<<<<< HEAD
                 ->visible($resource::canView(...));
+=======
+<<<<<<< HEAD
+                ->visible($resource::canView(...));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                ->visible($resource::canView(...));
+=======
+                ->visible(fn (Model $record): bool => $resource::canView($record));
+>>>>>>> a12f125f4a (.)
+=======
+                ->visible($resource::canView(...));
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         }
 
         if (method_exists($resource, 'canEdit')) {
             $actions['edit'] = EditAction::make()
                 ->iconButton()
                 ->tooltip(__('user::actions.edit'))
+<<<<<<< HEAD
                 ->visible($resource::canEdit(...));
         }
 
+=======
+<<<<<<< HEAD
+                ->visible($resource::canEdit(...));
+        }
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                ->visible($resource::canEdit(...));
+        }
+
+=======
+                ->visible(fn (Model $record): bool => $resource::canEdit($record));
+        }
+        
+>>>>>>> a12f125f4a (.)
+=======
+                ->visible($resource::canEdit(...));
+        }
+
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         if (method_exists($resource, 'canDelete')) {
             $actions['delete'] = DeleteAction::make()
                 ->iconButton()
                 ->tooltip(__('user::actions.delete'))
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
                 ->visible($resource::canDelete(...));
         }
 
         if ($this->shouldShowReplicateAction()) {
             $actions['replicate'] = ReplicateAction::make()
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                ->visible($resource::canDelete(...));
+        }
+
+=======
+                ->visible(fn (Model $record): bool => $resource::canDelete($record));
+        }
+        
+>>>>>>> a12f125f4a (.)
+=======
+                ->visible($resource::canDelete(...));
+        }
+
+>>>>>>> b93ef594b4 (.)
+        if ($this->shouldShowReplicateAction()) {
+            $actions['replicate'] = ReplicateAction::make()
+=======
+        
+        if (method_exists($resource, 'canView')) {
+            $actions['view'] = Tables\Actions\ViewAction::make()
+                ->iconButton()
+                ->tooltip(__('user::actions.view'))
+                ->visible(fn (Model $record): bool => $resource::canView($record));
+        }
+
+        if (method_exists($resource, 'canEdit')) {
+            $actions['edit'] = Tables\Actions\EditAction::make()
+                ->iconButton()
+                ->tooltip(__('user::actions.edit'))
+                ->visible(fn (Model $record): bool => $resource::canEdit($record));
+        }
+        
+        if (method_exists($resource, 'canDelete')) {
+            $actions['delete'] = Tables\Actions\DeleteAction::make()
+                ->iconButton()
+                ->tooltip(__('user::actions.delete'))
+                ->visible(fn (Model $record): bool => $resource::canDelete($record));
+        }
+        
+        if ($this->shouldShowReplicateAction()) {
+            $actions['replicate'] = Tables\Actions\ReplicateAction::make()
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 ->iconButton()
                 ->tooltip(__('user::actions.replicate'));
         }
 
         // Check if class has the getRelationship method
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         // Note: In some contexts (ListRecords), getRelationship() may not exist
         // @phpstan-ignore-next-line function.alreadyNarrowedType (needed for contexts where method doesn't exist)
         if ($this->shouldShowDetachAction() && method_exists($this, 'getRelationship')) {
@@ -534,6 +2689,20 @@ trait HasXotTable
             }
         }
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         if ($this->shouldShowDetachAction()) {
             //@phpstan-ignore-next-line
             if (method_exists($this, 'getRelationship')) {
@@ -542,7 +2711,19 @@ trait HasXotTable
                     //@phpstan-ignore-next-line
                     $pivotClass = $this->getRelationship()->getPivotClass();
                     if (method_exists($pivotClass, 'getKeyName')) {
+<<<<<<< HEAD
                         $actions['detach'] = DetachAction::make()
+=======
+<<<<<<< HEAD
+                        $actions['detach'] = DetachAction::make()
+=======
+<<<<<<< HEAD
+                        $actions['detach'] = DetachAction::make()
+=======
+                        $actions['detach'] = Tables\Actions\DetachAction::make()
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                             ->iconButton()
                             ->tooltip(__('user::actions.detach'));
                     }
@@ -550,13 +2731,52 @@ trait HasXotTable
             }
         }
         //@phpstan-ignore-next-line
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         return $actions;
     }
 
     /**
      * Get table bulk actions.
      *
+<<<<<<< HEAD
      * @return array<string, BulkAction>
+=======
+<<<<<<< HEAD
+     * @return array<string, BulkAction>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<string, BulkAction>
+=======
+     * @return array<string, \Filament\Actions\BulkAction>
+>>>>>>> a12f125f4a (.)
+=======
+     * @return array<string, BulkAction>
+>>>>>>> b93ef594b4 (.)
+=======
+     * @return array<string, BulkAction>
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
      */
     public function getTableBulkActions(): array
     {
@@ -572,6 +2792,32 @@ trait HasXotTable
     /**
      * Get model class.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @return class-string<Model>
      *
      * @throws Exception Se non viene trovata una classe modello valida
@@ -583,7 +2829,63 @@ trait HasXotTable
             $relationship = $this->getRelationship();
             if ($relationship instanceof Relation) {
                 /** @var class-string<Model> */
+<<<<<<< HEAD
      * @throws Exception Se non viene trovata una classe modello valida
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+     * @throws Exception Se non viene trovata una classe modello valida
+=======
+<<<<<<< HEAD
+     * @throws Exception Se non viene trovata una classe modello valida
+=======
+     * @throws \Exception Se non viene trovata una classe modello valida
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
      *
      * @return class-string<Model>
      */
@@ -594,12 +2896,40 @@ trait HasXotTable
             $relationship = $this->getRelationship();
             if ($relationship instanceof Relation) {
                 /* @var class-string<Model> */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                 return get_class($relationship->getModel());
             }
         }
 
         if (method_exists($this, 'getModel')) {
             $model = $this->getModel();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
             // @phpstan-ignore-next-line
             if (is_string($model)) {
                 Assert::classExists($model);
@@ -673,6 +3003,112 @@ trait HasXotTable
         ];
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    /**
+     * Get grid table columns.
+     *
+     * @return array<int, Tables\Columns\Column|Stack>
+     */
+    public function getGridTableColumns(): array
+    {
+        return [
+            Stack::make($this->getTableColumns()),
+        ];
+    }
+
+    /**
+     * Get list table columns.
+     *
+     * @return array<string, Tables\Columns\Column>
+     */
+    abstract public function getTableColumns(): array;
+
+    /**
+     * Get table filters form columns.
+     */
+    public function getTableFiltersFormColumns(): int
+    {
+        $count = count($this->getTableFilters()) + 1;
+
+        return min($count, 6);
+    }
+
+    /**
+     * Get table record title attribute.
+     */
+    public function getTableRecordTitleAttribute(): string
+    {
+        return 'name';
+    }
+
+    /**
+     * Get table heading.
+     */
+    public function getTableHeading(): ?string
+    {
+        $key = static::getKeyTrans('table.heading');
+        /** @var string|array<int|string,mixed>|null $trans */
+        // @phpstan-ignore-next-line
+        $trans = trans($key);
+
+        return is_string($trans) && $trans !== $key ? $trans : null;
+    }
+
+    /**
+     * Get table empty state actions.
+     *
+     * @return array<string, Action>
+     */
+    public function getTableEmptyStateActions(): array
+    {
+        return [];
+    }
+
+    /**
+     * Configura una tabella Filament.
+     *
+     * Nota: Questo metodo è stato modificato per risolvere l'errore
+     * "Method Filament\Actions\Action::table does not exist" in Filament 3.
+     * La soluzione verifica l'esistenza dei metodi getTableHeaderActions(),
+     * getTableActions() e getTableBulkActions() prima di chiamarli,
+     * garantendo la compatibilità con diverse versioni di Filament.
+     *
+     * Problema: Il trait chiamava direttamente metodi che potrebbero non esistere
+     * nelle classi che lo utilizzano, causando errori in Filament 3.
+     *
+     * Soluzione: Verifica condizionale dell'esistenza dei metodi prima di chiamarli,
+     * mantenendo la retrocompatibilità e prevenendo errori.
+     *
+     * Ultimo aggiornamento: 10/2023
+     */
+    public function table(Table $table): Table
+    {
+        $modelClass = $this->getModelClass();
+        if (! app(TableExistsByModelClassActions::class)->execute($modelClass)) {
+            $this->notifyTableMissing();
+
+            return $this->configureEmptyTable($table);
+        }
+
+        /** @var Model $model */
+        $model = app($modelClass);
+        Assert::isInstanceOf($model, Model::class);
+
+        // Configurazione base della tabella
+        $table = $table
+            ->recordTitleAttribute($this->getTableRecordTitleAttribute())
+            ->heading($this->getTableHeading())
+            ->columns($this->layoutView->getTableColumns($this->getTableColumns(), $this->getGridTableColumns()))
+            ->contentGrid($this->layoutView->getTableContentGrid())
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
             ->filters(array_values($this->getTableFilters()))
             ->filtersLayout(FiltersLayout::AboveContent)
             ->filtersFormColumns($this->getTableFiltersFormColumns())
@@ -680,6 +3116,27 @@ trait HasXotTable
             ->headerActions(array_values($this->getTableHeaderActions()))
             ->recordActions($this->getTableActions())
             ->toolbarActions(array_values($this->getTableBulkActions()))
+<<<<<<< HEAD
+=======
+=======
+            ->filters($this->getTableFilters())
+=======
+            ->filters(/** @phpstan-ignore-line argument.type */ array_values($this->getTableFilters()))
+>>>>>>> b7afadf9 (.)
+=======
+            ->filters($this->getTableFilters())
+>>>>>>> 71586de2 (.)
+            ->filtersLayout(FiltersLayout::AboveContent)
+            ->filtersFormColumns($this->getTableFiltersFormColumns())
+            ->persistFiltersInSession()
+            ->headerActions($this->getTableHeaderActions())
+            ->recordActions($this->getTableActions())
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->toolbarActions($this->getTableBulkActions())
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> laraxot/develop
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->filtersFormColumns($this->getTableFiltersFormColumns())
@@ -687,6 +3144,7 @@ trait HasXotTable
             ->headerActions($this->getTableHeaderActions())
             ->recordActions($this->getTableActions())
             ->toolbarActions($this->getTableBulkActions())
+<<<<<<< HEAD
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->filtersFormColumns($this->getTableFiltersFormColumns())
@@ -696,6 +3154,16 @@ trait HasXotTable
             ->toolbarActions($this->getTableBulkActions())
             ->toolbarActions(/** @phpstan-ignore-line argument.type */ array_values($this->getTableBulkActions()))
             ->toolbarActions($this->getTableBulkActions())
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+            ->toolbarActions(/** @phpstan-ignore-line argument.type */ array_values($this->getTableBulkActions()))
+>>>>>>> b7afadf9 (.)
+=======
+            ->toolbarActions($this->getTableBulkActions())
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> laraxot/develop
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->filtersFormColumns($this->getTableFiltersFormColumns())
@@ -703,6 +3171,10 @@ trait HasXotTable
             ->headerActions($this->getTableHeaderActions())
             ->recordActions($this->getTableActions())
             ->toolbarActions($this->getTableBulkActions())
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
             ->recordActionsPosition(RecordActionsPosition::BeforeColumns)
             ->emptyStateActions($this->getTableEmptyStateActions())
             ->striped()
@@ -717,6 +3189,10 @@ trait HasXotTable
         return $table;
     }
 
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
     protected function getTablePaginated(): bool
     {
         return true;
@@ -725,6 +3201,39 @@ trait HasXotTable
     /**
      * Get default table sort column.
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
     protected function getDefaultTableSortColumn(): ?string
     {
         try {
@@ -734,6 +3243,7 @@ trait HasXotTable
             Assert::isInstanceOf($model, Model::class);
 
             return $model->getTable().'.id';
+<<<<<<< HEAD
         } catch (Exception $e) {
             return $model->getTable() . '.id';
         } catch (Exception $e) {
@@ -755,6 +3265,94 @@ trait HasXotTable
         } catch (Exception $e) {
         } catch (Exception $e) {
         } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        } catch (Exception $e) {
+=======
+        } catch (\Exception $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+            return $model->getTable() . '.id';
+        } catch (Exception $e) {
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+        } catch (Exception $e) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return $model->getTable().'.id';
+        } catch (\Exception $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+            return $model->getTable() . '.id';
+>>>>>>> a6ef6dc7 (.)
+        } catch (Exception $e) {
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        } catch (Exception $e) {
+>>>>>>> 71586de2 (.)
+=======
+        } catch (Exception $e) {
+>>>>>>> 249a0067 (.)
+=======
+            return $model->getTable() . '.id';
+=======
+            return $model->getTable().'.id';
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 300ef70 (.)
+            return $model->getTable() . '.id';
+        } catch (Exception $e) {
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+        } catch (Exception $e) {
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return $model->getTable().'.id';
+        } catch (\Exception $e) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+            return $model->getTable() . '.id';
+>>>>>>> a6ef6dc7 (.)
+        } catch (Exception $e) {
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        } catch (Exception $e) {
+>>>>>>> 71586de2 (.)
+=======
+        } catch (Exception $e) {
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
             return null;
         }
     }
@@ -765,6 +3363,21 @@ trait HasXotTable
     protected function getDefaultTableSortDirection(): ?string
     {
         return 'desc';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             //@phpstan-ignore-next-line
             if (is_string($model)) {
                 Assert::classExists($model);
@@ -777,6 +3390,63 @@ trait HasXotTable
             if ($model instanceof Model) {
                 /* @var class-string<Model> */
                 //@phpstan-ignore-next-line
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    }
+
+    /**
+     * Get table filters.
+     *
+     * @return array<string|int, Tables\Filters\Filter|TernaryFilter|BaseFilter>
+     */
+    public function getTableFilters(): array
+    {
+        return [];
+    }
+
+    /**
+     * Get table actions.
+     *
+     * @return array<string, Action|ActionGroup>
+     */
+    public function getTableActions(): array
+    {
+        $actions = [];
+        $resource = $this->getResource();
+
+        if (method_exists($resource, 'canView')) {
+            $actions['view'] = ViewAction::make()
+                ->iconButton()
+                ->tooltip(__('user::actions.view'))
+                ->visible($resource::canView(...));
+        }
+
+        if (method_exists($resource, 'canEdit')) {
+            $actions['edit'] = EditAction::make()
+                ->iconButton()
+                ->tooltip(__('user::actions.edit'))
+                ->visible($resource::canEdit(...));
+        }
+
+        if (method_exists($resource, 'canDelete')) {
+            $actions['delete'] = DeleteAction::make()
+                ->iconButton()
+                ->tooltip(__('user::actions.delete'))
+                ->visible($resource::canDelete(...));
+        }
+
+        if ($this->shouldShowReplicateAction()) {
+            $actions['replicate'] = ReplicateAction::make()
+                ->iconButton()
+                ->tooltip(__('user::actions.replicate'));
+        }
+
+        // Check if class has the getRelationship method
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         // Note: In some contexts (ListRecords), getRelationship() may not exist
         // @phpstan-ignore-next-line function.alreadyNarrowedType (needed for contexts where method doesn't exist)
         if ($this->shouldShowDetachAction() && method_exists($this, 'getRelationship')) {
@@ -799,6 +3469,26 @@ trait HasXotTable
                     $actions['detach'] = DetachAction::make()
                         ->iconButton()
                         ->tooltip(__('user::actions.detach'));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        if ($this->shouldShowDetachAction()) {
+            // @phpstan-ignore-next-line
+            if (method_exists($this, 'getRelationship')) {
+                // @phpstan-ignore-next-line
+                if (method_exists($this->getRelationship(), 'getTable')) {
+                    // @phpstan-ignore-next-line
+                    $pivotClass = $this->getRelationship()->getPivotClass();
+                    if (method_exists($pivotClass, 'getKeyName')) {
+                        $actions['detach'] = DetachAction::make()
+                            ->iconButton()
+                            ->tooltip(__('user::actions.detach'));
+                    }
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
                 }
             }
         }
@@ -810,6 +3500,7 @@ trait HasXotTable
     /**
      * Get table bulk actions.
      *
+<<<<<<< HEAD
      * @return array<string, BulkAction>
      * @return array<int|string, \Filament\Actions\Action|\Filament\Actions\ActionGroup>
      * @return array<string, BulkAction>
@@ -821,6 +3512,61 @@ trait HasXotTable
      * @return array<string, BulkAction>
      * @return array<string, BulkAction>
      * @return array<string, BulkAction>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<string, BulkAction>
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+<<<<<<< HEAD
+     * @return array<int|string, \Filament\Actions\Action|\Filament\Actions\ActionGroup>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<string, BulkAction>
+=======
+=======
+     * @return array<int|string, \Filament\Actions\Action|\Filament\Actions\ActionGroup>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<string, BulkAction>
+=======
+>>>>>>> b7afadf9 (.)
+     * @return array<string, \Filament\Actions\BulkAction>
+>>>>>>> f1d4085 (.)
+=======
+     * @return array<string, BulkAction>
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+     * @return array<string, BulkAction>
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+     * @return array<string, BulkAction>
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+     * @return array<string, BulkAction>
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+     * @return array<string, BulkAction>
+>>>>>>> 71586de2 (.)
+=======
+     * @return array<string, BulkAction>
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
      */
     public function getTableBulkActions(): array
     {
@@ -847,10 +3593,34 @@ trait HasXotTable
         if (method_exists($this, 'getRelationship')) {
             $relationship = $this->getRelationship();
             if ($relationship instanceof Relation) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                $model = $relationship->getModel();
+
+                /** @var class-string<Model> */
+>>>>>>> ab8cc3f3 (.)
+                return get_class($model);
+=======
+                /* @var class-string<Model> */
+                return get_class($relationship->getModel());
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
                 $model = $relationship->getModel();
 
                 /** @var class-string<Model> */
                 return get_class($model);
+<<<<<<< HEAD
                 /* @var class-string<Model> */
                 return get_class($relationship->getModel());
                 $model = $relationship->getModel();
@@ -884,11 +3654,227 @@ trait HasXotTable
         throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
         throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
         throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+                /* @var class-string<Model> */
+                return get_class($relationship->getModel());
+>>>>>>> 71586de2 (.)
+=======
+                /* @var class-string<Model> */
+                return get_class($relationship->getModel());
+>>>>>>> 249a0067 (.)
+=======
+                /* @var class-string<Model> */
+                return get_class($relationship->getModel());
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+                /* @var class-string<Model> */
+                return get_class($relationship->getModel());
+>>>>>>> 71586de2 (.)
+=======
+                /* @var class-string<Model> */
+                return get_class($relationship->getModel());
+>>>>>>> 249a0067 (.)
+            }
+        }
+
+<<<<<<< HEAD
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> a12f125f4a (.)
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> b93ef594b4 (.)
+=======
+        throw new \Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> laraxot/develop
         if (method_exists($this, 'getModel')) {
             $model = $this->getModel();
             // @phpstan-ignore-next-line
             if (is_string($model)) {
                 Assert::classExists($model);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> laraxot/develop
 
                 // Assert::isAOf($model, Model::class);
                 /* @var class-string<Model> */
@@ -899,10 +3885,21 @@ trait HasXotTable
             if ($model instanceof Model) {
                 /* @var class-string<Model> */
                 // @phpstan-ignore-next-line
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
                 return get_class($model);
             }
         }
 
+<<<<<<< HEAD
         throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
 
                 // Assert::isAOf($model, Model::class);
@@ -922,6 +3919,24 @@ trait HasXotTable
         throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
             // If getModel() returns a string, it's already a class name
             Assert::classExists($model);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+            // If getModel() returns a string, it's already a class name
+            Assert::classExists($model);
+=======
+>>>>>>> 249a0067 (.)
+>>>>>>> laraxot/develop
 
                 // Assert::isAOf($model, Model::class);
                 /* @var class-string<Model> */
@@ -936,6 +3951,7 @@ trait HasXotTable
             }
         }
 
+<<<<<<< HEAD
         throw new \Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
         throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
         throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
@@ -951,6 +3967,161 @@ trait HasXotTable
         throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
         throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
         throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+        throw new \Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            // If getModel() returns a string, it's already a class name
+            Assert::classExists($model);
+=======
+>>>>>>> 249a0067 (.)
+
+                // Assert::isAOf($model, Model::class);
+                /* @var class-string<Model> */
+                // @phpstan-ignore-next-line
+                return $model;
+            }
+            // @phpstan-ignore-next-line
+            if ($model instanceof Model) {
+                /* @var class-string<Model> */
+                // @phpstan-ignore-next-line
+                return get_class($model);
+            }
+        }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        throw new \Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> b7afadf9 (.)
+>>>>>>> f1d4085 (.)
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> 249a0067 (.)
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 5a14301c (.)
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> 249a0067 (.)
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 5a14301c (.)
+=======
+=======
+        throw new Exception('No model found in '.class_basename(__CLASS__).'::'.__FUNCTION__);
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        throw new Exception('No model found in ' . class_basename(__CLASS__) . '::' . __FUNCTION__);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     }
 
     /**
@@ -979,6 +4150,7 @@ trait HasXotTable
     protected function configureEmptyTable(Table $table): Table
     {
         return $table
+<<<<<<< HEAD
             ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
             ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
             ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
@@ -988,11 +4160,237 @@ trait HasXotTable
             ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
             ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
             ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+            ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+            ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+            ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+            ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
+>>>>>>> 5a14301c (.)
+=======
+            ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
+>>>>>>> 3fbbf1f5 (.)
+=======
+            ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
+>>>>>>> 5a14301c (.)
+=======
+            ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
+>>>>>>> 5a14301c (.)
+=======
+            ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
+>>>>>>> 5a14301c (.)
+=======
+            ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
+>>>>>>> 5a14301c (.)
+=======
+            ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             ->columns([
                 TextColumn::make('message')->default(__('user::fields.message.default'))->html(),
             ])
             ->headerActions([])
             ->recordActions([]);
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
+            ->columns([
+                TextColumn::make('message')->default(__('user::fields.message.default'))->html(),
+=======
+=======
+>>>>>>> origin/develop
+            ->modifyQueryUsing(static fn (Builder $query) => $query->whereNull('id'))
+            ->columns([
+                TextColumn::make('message')
+                    ->default(__('user::fields.message.default'))
+                    ->html(),
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+            ->modifyQueryUsing(static fn(Builder $query) => $query->whereNull('id'))
+            ->columns([
+                TextColumn::make('message')->default(__('user::fields.message.default'))->html(),
+>>>>>>> b93ef594b4 (.)
+            ])
+            ->headerActions([])
+            ->recordActions([]);
+=======
+            ])
+            ->headerActions([])
+            ->actions([]);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 
     /**
@@ -1012,6 +4410,26 @@ trait HasXotTable
     {
         return true;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
     /**
      * Get table search query.
@@ -1021,4 +4439,23 @@ trait HasXotTable
         /* @var string */
         return $this->tableSearch ?? '';
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 }

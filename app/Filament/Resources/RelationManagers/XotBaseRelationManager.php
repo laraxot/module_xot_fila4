@@ -4,6 +4,26 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\RelationManagers;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\Layout\Component;
 use Filament\Actions\AttachAction;
@@ -18,13 +38,83 @@ use Illuminate\Support\Arr;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Override;
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 use Override;
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+use Filament\Schemas\Schema;
+use Override;
+=======
+<<<<<<< HEAD
+use Filament\Schemas\Schema;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 use Filament\Actions\EditAction;
 use Filament\Actions\DetachAction;
 use Filament\Actions\DetachBulkAction;
 use Filament\Actions\AttachAction;
+<<<<<<< HEAD
 use Filament\Actions\CreateAction;
+=======
+<<<<<<< HEAD
+use Filament\Actions\CreateAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Actions\CreateAction;
+=======
+use Illuminate\Database\Eloquent\Relations\Relation;
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> a12f125f4a (.)
+=======
+use Filament\Actions\CreateAction;
+>>>>>>> b93ef594b4 (.)
+=======
+use Filament\Forms\Form;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 use Filament\Resources\RelationManagers\RelationManager as FilamentRelationManager;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -33,6 +123,25 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Modules\Xot\Filament\Traits\HasXotTable;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Webmozart\Assert\Assert;
 
 /**
@@ -47,6 +156,15 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     /** @var class-string<XotBaseResource> */
     protected static string $resourceClass;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
     /**
      * Resolve the parent Resource class for this RelationManager.
      *
@@ -79,17 +197,55 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         return static::$resourceClass;
     }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     public static function getModuleName(): string
     {
         $class = static::class;
         $arr = explode('\\', $class);
+<<<<<<< HEAD
 
         return $arr[1];
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+        return $arr[1];
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $module_name = $arr[1];
 
         return $module_name;
     }
 
+<<<<<<< HEAD
     final public function form(Schema $schema): Schema
     {
         return $schema->components($this->getFormSchema());
@@ -106,11 +262,99 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
             $this->getFormSchema()
         );
         return $schema->components($this->getFormSchema());
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    final public function form(Schema $schema): Schema
+    {
+        return $schema->components($this->getFormSchema());
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+    final public function form(Schema $schema): Schema
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $schema->components($this->getFormSchema());
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+        return $schema->components(
+            $this->getFormSchema()
+        );
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return $schema->components(
+            $this->getFormSchema()
+        );
+>>>>>>> 399f46d3 (.)
+=======
+        return $schema->components(
+            $this->getFormSchema()
+        );
+>>>>>>> 399f46d3 (.)
+=======
+        return $schema->components(
+            $this->getFormSchema()
+        );
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+        return $schema->components($this->getFormSchema());
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> laraxot/develop
     final public function form(Form $form): Form
     {
         return $form->schema(
             $this->getFormSchema()
         );
+<<<<<<< HEAD
         return $schema->components($this->getFormSchema());
         return $schema->components($this->getFormSchema());
         return $schema->components($this->getFormSchema());
@@ -130,24 +374,221 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     /**
      * @return list<\Illuminate\Contracts\Support\Htmlable|string>
      */
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+        return $schema->components($this->getFormSchema());
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        return $schema->components($this->getFormSchema());
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        return $schema->components($this->getFormSchema());
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+    public function getFormSchema(): array
+    {
+        return $this->getResource()::getFormSchema();
+>>>>>>> 53d6a6ba (.)
+    }
+
+=======
+    /**
+     * @return list<\Illuminate\Contracts\Support\Htmlable|string>
+     */
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+    final public function form(Schema $schema): Schema
+    {
+        return $schema->components($this->getFormSchema());
+=======
+<<<<<<< HEAD
+    final public function form(Schema $schema): Schema
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $schema->components($this->getFormSchema());
+=======
+        return $schema->components(
+            $this->getFormSchema()
+        );
+>>>>>>> a12f125f4a (.)
+=======
+        return $schema->components($this->getFormSchema());
+>>>>>>> b93ef594b4 (.)
+=======
+    final public function form(Form $form): Form
+    {
+        return $form->schema(
+            $this->getFormSchema()
+        );
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+    }
+
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+    /**
+     * @return list<\Illuminate\Contracts\Support\Htmlable|string>
+     */
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     public function getFormSchema(): array
     {
         return $this->getResource()::getFormSchema();
     }
+<<<<<<< HEAD
 
     // *
     //*
     //*
     //*
     //*
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    // *
+=======
+    //*
+>>>>>>> 5a14301c (.)
+=======
+    //*
+>>>>>>> 5a14301c (.)
+=======
+    //*
+>>>>>>> 5a14301c (.)
+=======
+    //*
+>>>>>>> 5a14301c (.)
+=======
+    //*
+>>>>>>> 5a14301c (.)
+=======
+    //*
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     #[Override]
     public function getTableColumns(): array
     {
         $index = Arr::get($this->getResource()::getPages(), 'index');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
         if (! $index) {
             // throw new \Exception('Index page not found');
             return [];
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 
         if (! is_object($index) || ! method_exists($index, 'getPage')) {
             return [];
@@ -159,6 +600,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
             return [];
         }
 
+<<<<<<< HEAD
         /** @var class-string<\Filament\Resources\Pages\Page> $index_page */
         $index_page = $index->getPage();
 
@@ -174,10 +616,53 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         /** @phpstan-ignore method.nonObject */
         $index_page = $index->getPage();
 
+=======
+=======
+        /** @phpstan-ignore method.nonObject */
+        $index_page = $index->getPage();
+
+>>>>>>> 53d6a6ba (.)
+=======
+        /** @var class-string<\Filament\Resources\Pages\Page> $index_page */
+        $index_page = $index->getPage();
+
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+        /** @phpstan-ignore method.nonObject */
+        $index_page = $index->getPage();
+
+>>>>>>> 71586de2 (.)
+=======
+        /** @phpstan-ignore method.nonObject */
+        $index_page = $index->getPage();
+
+>>>>>>> 53d6a6ba (.)
+=======
+        /** @var class-string<\Filament\Resources\Pages\Page> $index_page */
+        $index_page = $index->getPage();
+
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+        /** @phpstan-ignore method.nonObject */
+        $index_page = $index->getPage();
+
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
         if (! method_exists($index_page, 'getTableColumns')) {
             // throw new \Exception('method  getTableColumns on '.print_r($index_page,true).' not found');
             return [];
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 
         $instance = is_string($index_page) ? app($index_page) : $index_page;
         if (! is_object($instance) || ! method_exists($instance, 'getTableColumns')) {
@@ -192,26 +677,62 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
         // Ensure string keys always
         /** @var array<string, Column|Component> $assoc */
+<<<<<<< HEAD
+=======
+=======
+        /** @phpstan-ignore argument.type */
+        $res = app($index_page)->getTableColumns();
+
+        // Ensure string keys always
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> laraxot/develop
         // @phpstan-ignore-next-line
         $res = app($index_page)->getTableColumns();
 
         // Ensure string keys always
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> laraxot/develop
         /** @phpstan-ignore argument.type */
         $res = app($index_page)->getTableColumns();
 
         // Ensure string keys always
+<<<<<<< HEAD
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> laraxot/develop
         /** @phpstan-ignore argument.type */
         $res = app($index_page)->getTableColumns();
 
         // Ensure string keys always
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> laraxot/develop
         // @phpstan-ignore-next-line
         $res = app($index_page)->getTableColumns();
 
         // Ensure string keys always
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> laraxot/develop
         /** @phpstan-ignore argument.type */
         $res = app($index_page)->getTableColumns();
 
         // Ensure string keys always
+<<<<<<< HEAD
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
         $assoc = [];
         foreach ($res as $key => $column) {
             if (is_string($key)) {
@@ -220,13 +741,39 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 continue;
             }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
             if (is_object($column)) {
                 $name = method_exists($column, 'getName') ? $column->getName() : (string) spl_object_hash($column);
                 $nameStr = is_string($name) ? $name : (string) $name;
                 $assoc[$nameStr] = $column;
             }
+<<<<<<< HEAD
             $name = method_exists($column, 'getName') ? $column->getName() : (string) spl_object_hash($column);
             $assoc[$name] = $column;
+=======
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+            $name = method_exists($column, 'getName') ? $column->getName() : (string) spl_object_hash($column);
+            $assoc[$name] = $column;
+>>>>>>> 53d6a6ba (.)
+>>>>>>> laraxot/develop
         }
 
         /** @var array<string, Column|Component> $assoc */
@@ -238,6 +785,15 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
     {
         $actions = [];
         $resource = static::class;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 
         $actions['edit'] = EditAction::make()
             ->iconButton()
@@ -260,6 +816,20 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
                 return is_bool($result) ? $result : (bool) $result;
             });
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
         if (method_exists($resource, 'canEdit')) {
             $actions['edit'] = EditAction::make()
                 ->iconButton()
@@ -270,49 +840,228 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 ->iconButton()
                 ->visible(fn (?Model $record): bool => $resource::canDetach($record));
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> laraxot/develop
         $actions['edit'] = EditAction::make()
             ->iconButton()
             ->visible(fn (?Model $record): bool => $record !== null && $resource::canEdit($record));
         $actions['detach'] = DetachAction::make()
             ->iconButton()
             ->visible(fn (?Model $record): bool => $record !== null && $resource::canDetach($record));
+<<<<<<< HEAD
 
         return $actions;
         if (!$index) {
+=======
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+
+        return $actions;
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+        if (!$index) {
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+//*
+    public function getTableColumns(): array
+    {
+        $index=Arr::get($this->getResource()::getPages(),'index');
+        if(!$index){
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+    //*
+    #[Override]
+    public function getTableColumns(): array
+    {
+        $index = Arr::get($this->getResource()::getPages(), 'index');
+        if (!$index) {
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             //throw new \Exception('Index page not found');
             return [];
         }
         /** @phpstan-ignore method.nonObject */
+<<<<<<< HEAD
         $index_page = $index->getPage();
 
         if (!method_exists($index_page, 'getTableColumns')) {
+=======
+<<<<<<< HEAD
+        $index_page = $index->getPage();
+
+        if (!method_exists($index_page, 'getTableColumns')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $index_page = $index->getPage();
+
+        if (!method_exists($index_page, 'getTableColumns')) {
+=======
+        $index_page=$index->getPage();
+        
+        if(!method_exists($index_page,'getTableColumns')){
+>>>>>>> a12f125f4a (.)
+=======
+        $index_page = $index->getPage();
+
+        if (!method_exists($index_page, 'getTableColumns')) {
+>>>>>>> b93ef594b4 (.)
+=======
+        $index_page=$index->getPage();
+        
+        if(!method_exists($index_page,'getTableColumns')){
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             //throw new \Exception('method  getTableColumns on '.print_r($index_page,true).' not found');
             return [];
         }
         /** @phpstan-ignore argument.type */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $res = app($index_page)->getTableColumns();
 
         return $res;
     }
 
     //*/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        $res= app($index_page)->getTableColumns();
+
+        return $res;
+    }
+//*/
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+        $res = app($index_page)->getTableColumns();
+
+        return $res;
+    }
+
+    //*/
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     public function getTableActions(): array
     {
         return [
             EditAction::make(),
             //Tables\Actions\DeleteAction::make(),
             DetachAction::make(),
+<<<<<<< HEAD
         ];
+=======
+<<<<<<< HEAD
+=======
+=======
+    public function getTableActions(): array
+    {
+        return [
+            Tables\Actions\EditAction::make(),
+            //Tables\Actions\DeleteAction::make(),
+            Tables\Actions\DetachAction::make(),
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+        ];
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     }
 
     public function getTableBulkActions(): array
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         $actions = [];
         $resource = static::class;
 
         if (method_exists($resource, 'canDeleteBulk')) {
             $actions['delete_bulk'] = DeleteBulkAction::make()
                 ->iconButton()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
                 ->visible(function (?Model $record) use ($resource): bool {
                     if ($record === null) {
                         return false;
@@ -321,6 +1070,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
                     return is_bool($result) ? $result : (bool) $result;
                 });
+<<<<<<< HEAD
                 ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
                 ->visible(fn (?Model $record): bool => (bool) $resource::canDeleteBulk($record));
                 ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
@@ -328,11 +1078,46 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
                 ->visible(fn (?Model $record): bool => (bool) $resource::canDeleteBulk($record));
                 ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+=======
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+>>>>>>> 53d6a6ba (.)
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+=======
+                ->visible(fn (?Model $record): bool => (bool) $resource::canDeleteBulk($record));
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+>>>>>>> 71586de2 (.)
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+>>>>>>> 53d6a6ba (.)
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+=======
+                ->visible(fn (?Model $record): bool => (bool) $resource::canDeleteBulk($record));
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDeleteBulk($record));
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
         }
 
         if (method_exists($resource, 'canDetachBulk')) {
             $actions['detach_bulk'] = DetachBulkAction::make()
                 ->iconButton()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
                 ->visible(function (?Model $record) use ($resource): bool {
                     if ($record === null) {
                         return false;
@@ -341,6 +1126,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 
                     return is_bool($result) ? $result : (bool) $result;
                 });
+<<<<<<< HEAD
                 ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
                 ->visible(fn (?Model $record): bool => (bool) $resource::canDetachBulk($record));
                 ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
@@ -355,10 +1141,89 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
             //Tables\Actions\DeleteBulkAction::make(),
             DetachBulkAction::make(),
         ];
+=======
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+>>>>>>> 53d6a6ba (.)
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+=======
+                ->visible(fn (?Model $record): bool => (bool) $resource::canDetachBulk($record));
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+>>>>>>> 71586de2 (.)
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+>>>>>>> 53d6a6ba (.)
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+=======
+                ->visible(fn (?Model $record): bool => (bool) $resource::canDetachBulk($record));
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+                ->visible(fn (?Model $record): bool => $resource::canDetachBulk($record));
+>>>>>>> 71586de2 (.)
+        }
+
+        return $actions;
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+        return [
+            //Tables\Actions\DeleteBulkAction::make(),
+<<<<<<< HEAD
+            DetachBulkAction::make(),
+=======
+<<<<<<< HEAD
+            DetachBulkAction::make(),
+=======
+            Tables\Actions\DetachBulkAction::make(),
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+        ];
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
     }
 
     public function getTableHeaderActions(): array
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $actions = [];
         $resource = static::class;
         // @phpstan-ignore function.alreadyNarrowedType
@@ -367,11 +1232,39 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 ->icon('heroicon-o-link')
                 ->iconButton()
                 ->tooltip(__('user::actions.attach.label'))
+<<<<<<< HEAD
                 ->visible(fn (?Model $_record): bool => $resource::canAttach());
                 ->visible(fn(null|Model $_record): bool => $resource::canAttach());
                 ->visible(fn(null|Model $_record): bool => $resource::canAttach());
                 ->visible(fn(null|Model $_record): bool => $resource::canAttach());
                 ->visible(fn(null|Model $_record): bool => $resource::canAttach());
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                ->visible(fn (?Model $_record): bool => $resource::canAttach());
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canAttach());
+>>>>>>> 5a14301c (.)
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canAttach());
+>>>>>>> 5a14301c (.)
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canAttach());
+>>>>>>> 5a14301c (.)
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canAttach());
+>>>>>>> 5a14301c (.)
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canAttach());
+>>>>>>> 5a14301c (.)
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canAttach());
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         }
         // @phpstan-ignore function.alreadyNarrowedType
         if (method_exists($resource, 'canCreate')) {
@@ -379,6 +1272,7 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 ->icon('heroicon-o-plus')
                 ->iconButton()
                 ->tooltip(static::trans('actions.create.tooltip'))
+<<<<<<< HEAD
                 ->visible(fn (?Model $_record): bool => $resource::canCreate());
         }
 
@@ -393,6 +1287,64 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
                 ->visible(fn(null|Model $_record): bool => $resource::canCreate());
         }
         return $actions;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 249a0067 (.)
+=======
+>>>>>>> 249a0067 (.)
+                ->visible(fn (?Model $_record): bool => $resource::canCreate());
+        }
+
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canCreate());
+        }
+>>>>>>> 5a14301c (.)
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canCreate());
+        }
+>>>>>>> 5a14301c (.)
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canCreate());
+        }
+>>>>>>> 5a14301c (.)
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canCreate());
+        }
+>>>>>>> 5a14301c (.)
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canCreate());
+        }
+>>>>>>> 5a14301c (.)
+=======
+                ->visible(fn(null|Model $_record): bool => $resource::canCreate());
+        }
+>>>>>>> 5a14301c (.)
+        return $actions;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        return [
+            AttachAction::make(),
+        ];
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        return [
+            Tables\Actions\AttachAction::make(),
+        ];
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     }
 
     public function getTableFilters(): array
@@ -400,30 +1352,286 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
         return [];
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
     // public function getRelationship(): \Illuminate\Database\Eloquent\Relations\Relation|\Illuminate\Database\Eloquent\Builder
     // {
     //    return parent::getRelationship();
     // }
+<<<<<<< HEAD
     public function getResource(): string
     {
         // @phpstan-ignore property.staticAccess
         $resource = static::$resource;
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+    public function getResource(): string
+    {
+<<<<<<< HEAD
+        // @phpstan-ignore property.staticAccess
+        $resource = static::$resource;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        // @phpstan-ignore property.staticAccess
+        $resource = static::$resource;
+=======
+        $resource = static::$resourceClass;
+>>>>>>> a12f125f4a (.)
+=======
+        // @phpstan-ignore property.staticAccess
+        $resource = static::$resource;
+>>>>>>> b93ef594b4 (.)
+=======
+        $resource = static::$resourceClass;
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         Assert::classExists($resource);
         Assert::isAOf($resource, XotBaseResource::class);
 
         return $resource;
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     //public function getRelationship(): \Illuminate\Database\Eloquent\Relations\Relation|\Illuminate\Database\Eloquent\Builder
     //{
     //    return parent::getRelationship();
     //}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> laraxot/develop
     public function getRelationship(): Relation|Builder
     {
         return parent::getRelationship();
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> laraxot/develop
     public function getRelationship(): \Illuminate\Database\Eloquent\Relations\Relation|\Illuminate\Database\Eloquent\Builder
     {
         return parent::getRelationship();
     }
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 }

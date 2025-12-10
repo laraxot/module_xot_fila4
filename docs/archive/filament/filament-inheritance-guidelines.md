@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 # Linee Guida per l'Ereditarietà da Classi Filament
 
 ## Problema di Compatibilità con Metodi Statici/Non Statici
@@ -17,7 +59,255 @@ Cannot make non static method Filament\Pages\BasePage::getView() static in class
 
 2. **Verifica prima di implementare**: Prima di implementare un metodo, verificare la sua definizione nella classe genitore:
    ```bash
+<<<<<<< HEAD
    grep -r "function methodName" /var/www/html/base_<nome progetto>/laravel/vendor/filament
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+   grep -r "function methodName" /var/www/html/base_<nome progetto>/laravel/vendor/filament
+=======
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+>>>>>>> 5a14301c (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 399f46d3 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> d86d643a (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 472bd9dc (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> d86d643a (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> d86d643a (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 472bd9dc (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 3bf39332 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> cf971011 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> e7da37af (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> d86d643a (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 472bd9dc (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 3bf39332 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> cf971011 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> e7da37af (.)
+=======
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_<nome progetto>/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 43d67f21 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+>>>>>>> 5a14301c (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 43d67f21 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> b7ea1cd1 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+>>>>>>> 5a14301c (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 43d67f21 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+>>>>>>> 5a14301c (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 43d67f21 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> b7ea1cd1 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 76bec91a (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 55fe1822 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+>>>>>>> 5a14301c (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 43d67f21 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> b7ea1cd1 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 76bec91a (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 55fe1822 (.)
+=======
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+   grep -r "function methodName" /var/www/html/base_techplanner_fila3_mono/laravel/vendor/filament
+>>>>>>> 5a14301c (.)
+=======
+   grep -r "function methodName" /var/www/html/base_saluteora/laravel/vendor/filament
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
    ```
 
 3. **Principio di Sostituzione di Liskov**: Le sottoclassi devono essere sostituibili alle loro classi base senza alterare il comportamento corretto del programma.
@@ -92,6 +382,324 @@ public function getNavigationLabel(): string // Non static!
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
 - [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
 - [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+=======
+- [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/docs/3.x/panels/pages)
+>>>>>>> 5a14301c (.)
+- [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
+- [XotBasePage](../Xot/docs/filament/pages/xotbasepage.md)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
+- [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
+- [XotBasePage](../Xot/docs/filament/pages/xotbasepage.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
+
+=======
+- [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
+- [XotBasePage](../Xot/docs/filament/pages/xotbasepage.md)
+- [Principi di Ereditarietà](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/filament/pages/xotbasepage.md)
+- [Principi di Ereditarietà](../Xot/docs/class_inheritance_principles.md)
+- [XotBasePage](../Xot/docs/filament/pages/xotbasepage.md)
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 76bec91a (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 43d67f21 (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 76bec91a (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+- [Documentazione di Filament](https://filamentphp.com/project_docs/3.x/panels/pages)
+- [Principi di Ereditarietà](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/class_inheritance_principles.md)
+- [XotBasePage](/var/www/html/base_saluteora/laravel/Modules/Xot/project_docs/filament/pages/xotbasepage.md)
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

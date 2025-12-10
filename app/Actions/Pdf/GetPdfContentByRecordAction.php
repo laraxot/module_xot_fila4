@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Pdf;
 
 use Exception;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Log;
@@ -20,6 +21,47 @@ use Illuminate\Support\Str;
 use Log;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+use Log;
+=======
+use Log;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+>>>>>>> 5a14301c (.)
+=======
+use Log;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+>>>>>>> 5a14301c (.)
+=======
+use Log;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+>>>>>>> 5a14301c (.)
+=======
+use Log;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+>>>>>>> 5a14301c (.)
+=======
+use Log;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+>>>>>>> 5a14301c (.)
+=======
+use Log;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Webmozart\Assert\Assert;
@@ -43,6 +85,15 @@ class GetPdfContentByRecordAction
     /**
      * Genera contenuto PDF binario da un record Eloquent.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @param  Model  $record  Record Eloquent da cui generare il PDF
      * @param  string|null  $filename  Nome file PDF personalizzato (opzionale)
      * @return string Contenuto binario del PDF
@@ -50,6 +101,28 @@ class GetPdfContentByRecordAction
      * @throws Exception Se la vista non esiste o si verificano errori di generazione
      */
     public function execute(Model $record, ?string $filename = null): string
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @param Model       $record   Record Eloquent da cui generare il PDF
      * @param string|null $filename Nome file PDF personalizzato (opzionale)
      *
@@ -57,6 +130,7 @@ class GetPdfContentByRecordAction
      *
      * @return string Contenuto binario del PDF
      */
+<<<<<<< HEAD
     public function execute(Model $record, null|string $filename = null): string
     public function execute(Model $record, ?string $filename = null): string
     public function execute(Model $record, null|string $filename = null): string
@@ -79,6 +153,321 @@ class GetPdfContentByRecordAction
     public function execute(Model $record, ?string $filename = null): string
     public function execute(Model $record, null|string $filename = null): string
     public function execute(Model $record, null|string $filename = null): string
+=======
+<<<<<<< HEAD
+    public function execute(Model $record, null|string $filename = null): string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(Model $record, ?string $filename = null): string
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+    public function execute(Model $record, null|string $filename = null): string
+=======
+    public function execute(Model $record, ?string $filename = null): string
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(Model $record, null|string $filename = null): string
+=======
+    public function execute(Model $record, ?string $filename = null): string
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function execute(Model $record, ?string $filename = null): string
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+    public function execute(Model $record, ?string $filename = null): string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function execute(Model $record, ?string $filename = null): string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function execute(Model $record, ?string $filename = null): string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+    public function execute(Model $record, ?string $filename = null): string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> f1d4085 (.)
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function execute(Model $record, ?string $filename = null): string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+    public function execute(Model $record, ?string $filename = null): string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function execute(Model $record, ?string $filename = null): string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+    public function execute(Model $record, null|string $filename = null): string
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     {
         // Generate view name following Laraxot conventions
         $viewName = $this->generateViewName($record);
@@ -87,6 +476,7 @@ class GetPdfContentByRecordAction
         $viewParams = $this->prepareViewParameters($record, $viewName);
 
         // Validate view existence
+<<<<<<< HEAD
         if (! view()->exists($viewName)) {
             throw new Exception("View '{$viewName}' not found for model ".$record::class);
         if (!view()->exists($viewName)) {
@@ -191,6 +581,484 @@ class GetPdfContentByRecordAction
             throw new Exception("View '{$viewName}' not found for model ".get_class($record));
         if (! view()->exists($viewName)) {
             throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".$record::class);
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 5a14301c (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 3fbbf1f5 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+=======
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+>>>>>>> a12f125f4a (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> ca9324a4 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 7131bd09 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> ed734516 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> ed734516 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+=======
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+>>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> ed734516 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> b7afadf9 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> ed734516 (.)
+=======
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 9db27d12 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> ca9324a4 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+>>>>>>> 71586de2 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+        if (! view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model ".get_class($record));
+>>>>>>> 71586de2 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+        if (!view()->exists($viewName)) {
+            throw new Exception("View '{$viewName}' not found for model " . get_class($record));
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         }
 
         // Render view to HTML
@@ -204,11 +1072,39 @@ class GetPdfContentByRecordAction
         }
 
         // Generate filename if not provided
+<<<<<<< HEAD
         if ($filename === null) {
         if (null === $filename) {
         if (null === $filename) {
         if (null === $filename) {
         if (null === $filename) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if ($filename === null) {
+=======
+        if (null === $filename) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $filename) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $filename) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $filename) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $filename) {
+>>>>>>> 5a14301c (.)
+=======
+        if (null === $filename) {
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
             $filename = $this->generateFilename($record);
         }
 
@@ -219,6 +1115,7 @@ class GetPdfContentByRecordAction
     /**
      * Metodo di convenienza per generare PDF da record con nome file personalizzato.
      *
+<<<<<<< HEAD
      * @param  Model  $record  Record Eloquent
      * @param  string  $filename  Nome file personalizzato
      * @param Model  $record   Record Eloquent
@@ -233,6 +1130,46 @@ class GetPdfContentByRecordAction
      * @param Model  $record   Record Eloquent
      * @param string $filename Nome file personalizzato
      *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  Model  $record  Record Eloquent
+     * @param  string  $filename  Nome file personalizzato
+=======
+     * @param Model  $record   Record Eloquent
+     * @param string $filename Nome file personalizzato
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model  $record   Record Eloquent
+     * @param string $filename Nome file personalizzato
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model  $record   Record Eloquent
+     * @param string $filename Nome file personalizzato
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model  $record   Record Eloquent
+     * @param string $filename Nome file personalizzato
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model  $record   Record Eloquent
+     * @param string $filename Nome file personalizzato
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model  $record   Record Eloquent
+     * @param string $filename Nome file personalizzato
+     *
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return string Contenuto binario del PDF
      */
     public function fromRecord(Model $record, string $filename): string
@@ -243,6 +1180,7 @@ class GetPdfContentByRecordAction
     /**
      * Genera il nome della vista seguendo le convenzioni Laraxot.
      *
+<<<<<<< HEAD
      * @param  Model  $record  Record Eloquent
      * @param Model $record Record Eloquent
      *
@@ -252,19 +1190,84 @@ class GetPdfContentByRecordAction
      *
      * @param Model $record Record Eloquent
      *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  Model  $record  Record Eloquent
+=======
+     * @param Model $record Record Eloquent
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model $record Record Eloquent
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model $record Record Eloquent
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model $record Record Eloquent
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model $record Record Eloquent
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model $record Record Eloquent
+     *
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return string Nome della vista nel formato {module}::{model-kebab}.show.pdf
      */
     protected function generateViewName(Model $record): string
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
         $modelClass = $record::class;
         $modelName = class_basename($modelClass);
         $module = Str::between($modelClass, 'Modules\\', '\\Models');
 
         return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $modelClass = get_class($record);
         $modelName = class_basename($modelClass);
         $module = Str::between($modelClass, 'Modules\\', '\\Models');
 
+<<<<<<< HEAD
         return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
         return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
         return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
@@ -287,11 +1290,327 @@ class GetPdfContentByRecordAction
         return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
         return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
         return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+=======
+<<<<<<< HEAD
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+=======
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+=======
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> f1d4085 (.)
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+        return mb_strtolower($module).'::'.Str::kebab($modelName).'.show.pdf';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+        return mb_strtolower($module) . '::' . Str::kebab($modelName) . '.show.pdf';
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     }
 
     /**
      * Prepara i parametri standard per la vista.
      *
+<<<<<<< HEAD
      * @param  Model  $record  Record Eloquent
      * @param  string  $viewName  Nome della vista
      * @param Model  $record   Record Eloquent
@@ -306,21 +1625,90 @@ class GetPdfContentByRecordAction
      * @param Model  $record   Record Eloquent
      * @param string $viewName Nome della vista
      *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  Model  $record  Record Eloquent
+     * @param  string  $viewName  Nome della vista
+=======
+     * @param Model  $record   Record Eloquent
+     * @param string $viewName Nome della vista
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model  $record   Record Eloquent
+     * @param string $viewName Nome della vista
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model  $record   Record Eloquent
+     * @param string $viewName Nome della vista
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model  $record   Record Eloquent
+     * @param string $viewName Nome della vista
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model  $record   Record Eloquent
+     * @param string $viewName Nome della vista
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model  $record   Record Eloquent
+     * @param string $viewName Nome della vista
+     *
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return array<string, mixed> Parametri per la vista
      */
     protected function prepareViewParameters(Model $record, string $viewName): array
     {
+<<<<<<< HEAD
         $modelClass = $record::class;
         $modelClass = get_class($record);
         $modelClass = get_class($record);
         $modelClass = get_class($record);
         $modelClass = get_class($record);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $modelClass = $record::class;
+=======
+        $modelClass = get_class($record);
+>>>>>>> 5a14301c (.)
+=======
+        $modelClass = get_class($record);
+>>>>>>> 5a14301c (.)
+=======
+        $modelClass = get_class($record);
+>>>>>>> 5a14301c (.)
+=======
+        $modelClass = get_class($record);
+>>>>>>> 5a14301c (.)
+=======
+        $modelClass = get_class($record);
+>>>>>>> 5a14301c (.)
+=======
+        $modelClass = get_class($record);
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         $modelName = class_basename($modelClass);
         $module = Str::between($modelClass, 'Modules\\', '\\Models');
 
         $params = [
             'view' => $viewName,
             'row' => $record,
+<<<<<<< HEAD
             'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
             'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
             'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
@@ -337,6 +1725,278 @@ class GetPdfContentByRecordAction
             'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
             'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
             'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+>>>>>>> 5a14301c (.)
+=======
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+>>>>>>> 5a14301c (.)
+=======
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+>>>>>>> 5a14301c (.)
+=======
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+=======
+=======
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+=======
+>>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 300ef70 (.)
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+>>>>>>> 71586de2 (.)
+=======
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+>>>>>>> 5a14301c (.)
+=======
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+>>>>>>> 71586de2 (.)
+=======
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         ];
 
         // Add specific relationship data if available
@@ -348,6 +2008,34 @@ class GetPdfContentByRecordAction
             $valutatore = $record->valutatore;
             if (is_object($valutatore) && isset($valutatore->nome_diri)) {
                 $params['firma'] = $valutatore->nome_diri;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+            'transKey' => mb_strtolower($module).'::'.Str::plural(mb_strtolower($modelName)).'.fields',
+=======
+            'transKey' => mb_strtolower($module) . '::' . Str::plural(mb_strtolower($modelName)) . '.fields',
+>>>>>>> b93ef594b4 (.)
+        ];
+
+        // Add specific relationship data if available
+        if (
+            method_exists($record, 'valutatore') &&
+                $record->relationLoaded('valutatore') &&
+                isset($record->valutatore)
+        ) {
+            $valutatore = $record->valutatore;
+<<<<<<< HEAD
+            if (null !== $valutatore) {
+                $params['firma'] = $valutatore->nome_diri ?? null;
+>>>>>>> a12f125f4a (.)
+=======
+            if (is_object($valutatore) && isset($valutatore->nome_diri)) {
+                $params['firma'] = $valutatore->nome_diri;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             }
         }
 
@@ -357,6 +2045,7 @@ class GetPdfContentByRecordAction
     /**
      * Genera nome file automatico basato sul record.
      *
+<<<<<<< HEAD
      * @param  Model  $record  Record Eloquent
      * @param Model $record Record Eloquent
      *
@@ -366,16 +2055,74 @@ class GetPdfContentByRecordAction
      *
      * @param Model $record Record Eloquent
      *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  Model  $record  Record Eloquent
+=======
+     * @param Model $record Record Eloquent
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model $record Record Eloquent
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model $record Record Eloquent
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model $record Record Eloquent
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model $record Record Eloquent
+     *
+>>>>>>> 5a14301c (.)
+=======
+     * @param Model $record Record Eloquent
+     *
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @return string Nome file generato
      */
     protected function generateFilename(Model $record): string
     {
+<<<<<<< HEAD
         $modelName = class_basename($record::class);
         $recordKey = $record->getKey();
         $baseFilename = mb_strtolower($modelName).'_'.(string) ($recordKey ?? 'unknown');
         $modelName = class_basename(get_class($record));
         $recordKey = $record->getKey();
         $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $modelName = class_basename($record::class);
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName).'_'.(string) ($recordKey ?? 'unknown');
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+        $modelName = class_basename(get_class($record));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Enhanced filename for records with identification fields
         if (isset($record->matr, $record->cognome, $record->nome)) {
@@ -383,6 +2130,7 @@ class GetPdfContentByRecordAction
             $cognome = is_string($record->cognome) ? $record->cognome : 'unknown';
             $nome = is_string($record->nome) ? $record->nome : 'unknown';
 
+<<<<<<< HEAD
             return 'scheda_'.(string) ($recordKey ?? 'unknown').'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
             return
                 'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
@@ -398,15 +2146,89 @@ class GetPdfContentByRecordAction
             return 'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
             return
                 'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return 'scheda_'.(string) ($recordKey ?? 'unknown').'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+=======
+            return (
+                'scheda_' . ((string) ($recordKey ?? 'unknown')) . '_' . $matr . '_' . $cognome . '_' . $nome . '.pdf'
+            );
+>>>>>>> 5a14301c (.)
+=======
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+>>>>>>> 53d6a6ba (.)
+=======
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+=======
+            return 'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+>>>>>>> 71586de2 (.)
+=======
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+>>>>>>> 53d6a6ba (.)
+=======
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+=======
+            return 'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+            return
+                'scheda_'.((string) ($recordKey ?? 'unknown')).'_'.$matr.'_'.$cognome.'_'.$nome.'.pdf';
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
         }
 
         // Enhanced filename for records with name field
         if (isset($record->name) && is_string($record->name)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> laraxot/develop
             return $baseFilename . '_' . Str::slug($record->name) . '.pdf';
         }
 
         // Default filename pattern
         return $baseFilename . '.pdf';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> laraxot/develop
         $baseFilename = mb_strtolower($modelName).'_'.$record->getKey();
 
         // Enhanced filename for records with identification fields
@@ -417,16 +2239,61 @@ class GetPdfContentByRecordAction
 
         // Enhanced filename for records with name field
         if (isset($record->name)) {
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+>>>>>>> laraxot/develop
             return $baseFilename.'_'.Str::slug($record->name).'.pdf';
         }
 
         // Default filename pattern
         return $baseFilename.'.pdf';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
             return $baseFilename . '_' . Str::slug($record->name) . '.pdf';
         }
 
         // Default filename pattern
         return $baseFilename . '.pdf';
+<<<<<<< HEAD
         $baseFilename = mb_strtolower($modelName).'_'.$record->getKey();
         $recordKey = $record->getKey();
         $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
@@ -442,6 +2309,49 @@ class GetPdfContentByRecordAction
         $modelName = class_basename(get_class($record));
         $recordKey = $record->getKey();
         $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+=======
+        $baseFilename = mb_strtolower($modelName).'_'.$record->getKey();
+=======
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+>>>>>>> b93ef594b4 (.)
+=======
+        $modelName = class_basename(get_class($record));
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+>>>>>>> 5a14301c (.)
+=======
+        $modelName = class_basename(get_class($record));
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+>>>>>>> 5a14301c (.)
+=======
+        $modelName = class_basename(get_class($record));
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+>>>>>>> 5a14301c (.)
+=======
+        $modelName = class_basename(get_class($record));
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+>>>>>>> 5a14301c (.)
+=======
+        $modelName = class_basename(get_class($record));
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
 
         // Enhanced filename for records with identification fields
         if (isset($record->matr, $record->cognome, $record->nome)) {
@@ -460,9 +2370,105 @@ class GetPdfContentByRecordAction
         }
 
         // Default filename pattern
+<<<<<<< HEAD
         return $baseFilename.'.pdf';
         return $baseFilename . '.pdf';
         return $baseFilename . '.pdf';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $baseFilename.'.pdf';
+>>>>>>> a12f125f4a (.)
+=======
+        return $baseFilename . '.pdf';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        return $baseFilename . '.pdf';
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> laraxot/develop
         $baseFilename = mb_strtolower($modelName).'_'.$record->getKey();
 
         // Enhanced filename for records with identification fields
@@ -473,14 +2479,84 @@ class GetPdfContentByRecordAction
 
         // Enhanced filename for records with name field
         if (isset($record->name)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ed734516 (.)
+>>>>>>> laraxot/develop
             return $baseFilename.'_'.Str::slug($record->name).'.pdf';
         }
 
         // Default filename pattern
         return $baseFilename.'.pdf';
+<<<<<<< HEAD
         $baseFilename = mb_strtolower($modelName).'_'.$record->getKey();
         $recordKey = $record->getKey();
         $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+        $baseFilename = mb_strtolower($modelName).'_'.$record->getKey();
+=======
+        $recordKey = $record->getKey();
+        $baseFilename = mb_strtolower($modelName) . '_' . ((string) ($recordKey ?? 'unknown'));
+>>>>>>> b93ef594b4 (.)
+>>>>>>> laraxot/develop
 
         // Enhanced filename for records with identification fields
         if (isset($record->matr, $record->cognome, $record->nome)) {
@@ -499,39 +2575,272 @@ class GetPdfContentByRecordAction
         }
 
         // Default filename pattern
+<<<<<<< HEAD
         return $baseFilename.'.pdf';
         return $baseFilename . '.pdf';
         return $baseFilename . '.pdf';
         return $baseFilename . '.pdf';
         return $baseFilename . '.pdf';
+=======
+<<<<<<< HEAD
+        return $baseFilename.'.pdf';
+>>>>>>> a12f125f4a (.)
+=======
+        return $baseFilename . '.pdf';
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+        return $baseFilename . '.pdf';
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        return $baseFilename . '.pdf';
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+        return $baseFilename . '.pdf';
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+        return $baseFilename . '.pdf';
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
     }
 
     /**
      * Genera contenuto PDF binario utilizzando spipu/html2pdf.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
      * @param  string  $html  Contenuto HTML da convertire
      * @param  string  $filename  Nome file per riferimento
      * @return string Contenuto binario del PDF
      *
      * @throws Exception Se si verificano errori durante la generazione PDF
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      * @param string $html     Contenuto HTML da convertire
      * @param string $filename Nome file per riferimento
      *
      * @throws Exception Se si verificano errori durante la generazione PDF
      *
      * @return string Contenuto binario del PDF
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
      */
     protected function generatePdfContent(string $html, string $filename): string
     {
         try {
             // Create Html2Pdf instance with standard configuration
             $html2pdf = new Html2Pdf(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 orientation: 'P', // Portrait
                 format: 'A4', // A4 format
                 lang: 'it', // Italian language
                 unicode: true, // Unicode support
                 encoding: 'UTF-8', // UTF-8 encoding
                 margins: [10, 10, 10, 10], // 10mm margins on all sides
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                orientation: 'P',        // Portrait
+                format: 'A4',           // A4 format
+                lang: 'it',             // Italian language
+                unicode: true,          // Unicode support
+                encoding: 'UTF-8',      // UTF-8 encoding
+                margins: [10, 10, 10, 10] // 10mm margins on all sides
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
             );
 
             // Configure additional settings
@@ -545,10 +2854,25 @@ class GetPdfContentByRecordAction
         } catch (Exception $e) {
             Log::error('PDF generation failed in GetPdfContentByRecordAction', [
                 'filename' => $filename,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'record_type' => get_class($record ?? null),
+                'record_id' => $record->getKey() ?? null,
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
                 'error' => $e->getMessage(),
                 'trace' => $e->getTraceAsString(),
             ]);
 
+<<<<<<< HEAD
             throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
             throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
             throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
@@ -615,6 +2939,406 @@ class GetPdfContentByRecordAction
             throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
             throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
             throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6dcebf8a (.)
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 3fbbf1f5 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 17684f52 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 17684f52 (.)
+=======
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+=======
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+=======
+>>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+>>>>>>> 17684f52 (.)
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+>>>>>>> 399f46d3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 9db27d12 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> f1d4085 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> 53d6a6ba (.)
+=======
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 300ef70 (.)
+>>>>>>> a6ef6dc7 (.)
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> 71586de2 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> 71586de2 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 5a14301c (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+=======
+            throw new Exception('Failed to generate PDF content: '.$e->getMessage(), 0, $e);
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+            throw new Exception('Failed to generate PDF content: ' . $e->getMessage(), 0, $e);
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         }
     }
 }

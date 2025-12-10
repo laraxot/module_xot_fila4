@@ -2,10 +2,48 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 uses(TestCase::class);
 
 describe('ModuleService', function () {
     beforeEach(function () {});
+<<<<<<< HEAD
 use Modules\Xot\Services\ModuleService;
 use Nwidart\Modules\Module;
 use Tests\TestCase;
@@ -14,15 +52,121 @@ use Nwidart\Modules\Module;
 use Tests\TestCase;
 use Modules\Xot\Services\ModuleService;
 use Nwidart\Modules\Module;
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+use Modules\Xot\Services\ModuleService;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+use Nwidart\Modules\Module;
+>>>>>>> ab8cc3f3 (.)
+use Tests\TestCase;
+=======
+>>>>>>> b7afadf9 (.)
+use Modules\Xot\Services\ModuleService;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Nwidart\Modules\Module;
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+use Tests\TestCase;
+=======
+>>>>>>> b7afadf9 (.)
+use Modules\Xot\Services\ModuleService;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Nwidart\Modules\Module;
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 use Tests\TestCase;
 use Modules\Xot\Services\ModuleService;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module;
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+use Tests\TestCase;
+use Modules\Xot\Services\ModuleService;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+use Nwidart\Modules\Module;
+=======
+use Nwidart\Modules\Module;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+>>>>>>> a12f125f4a (.)
+=======
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+use Nwidart\Modules\Module;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
 uses(TestCase::class);
 
 describe('ModuleService', function () {
     beforeEach(function () {
+<<<<<<< HEAD
         $this->service = new ModuleService()->setName('TestModule');
         $this->service = new ModuleService();
         $this->service = $this->service->setName('TestModule');
@@ -37,6 +181,179 @@ use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module;
 use Tests\TestCase;
 use Modules\Xot\Services\ModuleService;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> e59778ae (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+=======
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> 492d6d3c (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+=======
+use Tests\TestCase;
+use Modules\Xot\Services\ModuleService;
+>>>>>>> 53d6a6ba (.)
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+use Nwidart\Modules\Module;
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+=======
+use Tests\TestCase;
+use Modules\Xot\Services\ModuleService;
+>>>>>>> 53d6a6ba (.)
+>>>>>>> laraxot/develop
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module;
 
@@ -46,11 +363,18 @@ describe('ModuleService', function () {
     beforeEach(function () {
         $this->service = new ModuleService()->setName('TestModule');
     });
+<<<<<<< HEAD
 
+=======
+>>>>>>> ab8cc3f3 (.)
+
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 uses(TestCase::class);
 
 describe('ModuleService', function () {
     beforeEach(function () {
+<<<<<<< HEAD
         $this->service = new ModuleService()->setName('TestModule');
         $this->service = new ModuleService()->setName('TestModule');
 use Modules\Xot\Services\ModuleService;
@@ -60,12 +384,420 @@ use Nwidart\Modules\Facades\Module as ModuleFacade;
         $this->service = $this->service->setName('TestModule');
         $this->service = new ModuleService()->setName('TestModule');
     });
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Xot\Services\ModuleService;
+use Nwidart\Modules\Module;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> b7afadf9 (.)
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+<<<<<<< HEAD
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> 53d6a6ba (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> 71586de2 (.)
+    });
+>>>>>>> ab8cc3f3 (.)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+uses(Tests\TestCase::class);
+
+describe('ModuleService', function () {
+    beforeEach(function () {
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> 5842a556 (.)
+    });
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+=======
+=======
+>>>>>>> fb8add77 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+=======
+=======
+>>>>>>> fb8add77 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+>>>>>>> b7afadf9 (.)
+    });
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+=======
+=======
+>>>>>>> f3f26717 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+        $this->service = new ModuleService()->setName('TestModule');
+    });
+>>>>>>> 5a14301c (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+    });
+>>>>>>> 5a14301c (.)
+
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+    it('can be instantiated', function () {
+=======
+    it('can be instantiated', function (): void {
+        /** @phpstan-ignore-next-line property.notFound */
+>>>>>>> b7afadf9 (.)
+=======
+    it('can be instantiated', function () {
+>>>>>>> 71586de2 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+=======
+=======
+>>>>>>> fb8add77 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+=======
+=======
+>>>>>>> f3f26717 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> 399f46d3 (.)
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->service = new ModuleService()->setName('TestModule');
+=======
+        $this->service = (new ModuleService())->setName('TestModule');
+>>>>>>> a12f125f4a (.)
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Xot\Services\ModuleService;
+use Nwidart\Modules\Module;
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+>>>>>>> laraxot/develop
 
 uses(Tests\TestCase::class);
 
 describe('ModuleService', function () {
     beforeEach(function () {
         $this->service = (new ModuleService())->setName('TestModule');
+<<<<<<< HEAD
         $this->service = new ModuleService()->setName('TestModule');
         $this->service = new ModuleService()->setName('TestModule');
         $this->service = new ModuleService()->setName('TestModule');
@@ -122,14 +854,38 @@ describe('ModuleService', function () {
 
     it('can be instantiated', function () {
     it('can be instantiated', function () {
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+    });
+
+    it('can be instantiated', function () {
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+    it('can be instantiated', function () {
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> laraxot/develop
     });
 
     it('can be instantiated', function (): void {
         /** @phpstan-ignore-next-line property.notFound */
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> laraxot/develop
         $this->service = new ModuleService()->setName('TestModule');
     });
 
     it('can be instantiated', function () {
+<<<<<<< HEAD
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
         expect($this->service)->toBeInstanceOf(ModuleService::class);
     });
 
@@ -137,6 +893,7 @@ describe('ModuleService', function () {
         $reflection = new ReflectionClass($this->service);
         $nameProperty = $reflection->getProperty('name');
         $nameProperty->setAccessible(true);
+<<<<<<< HEAD
 
         expect($nameProperty->getValue($this->service))->toBe('TestModule');
     });
@@ -167,74 +924,442 @@ describe('ModuleService', function () {
         $service2 = new ModuleService()->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+        expect($nameProperty->getValue($this->service))->toBe('TestModule');
+    });
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    it('can be instantiated with different module names', function () {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+=======
+>>>>>>> d86d643a (.)
+=======
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+=======
+>>>>>>> e59778ae (.)
+        $service1 = new ModuleService();
+=======
+<<<<<<< HEAD
+    it('can be instantiated with different module names', function (): void {
+        $service1 = new ModuleService;
+        /** @phpstan-ignore-next-line method.nonObject */
+>>>>>>> ab8cc3f3 (.)
+        $service1 = $service1->setName('Chart');
+        $service2 = new ModuleService();
+        $service2 = $service2->setName('User');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+>>>>>>> 5842a556 (.)
+=======
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+>>>>>>> 5a14301c (.)
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+=======
+>>>>>>> laraxot/develop
         $service1 = (new ModuleService())->setName('Chart');
         $service2 = (new ModuleService())->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)
             ->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
         $service1 = new ModuleService();
         $service1 = $service1->setName('Chart');
         $service2 = new ModuleService();
         $service2 = $service2->setName('User');
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> laraxot/develop
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
         $service1 = (new ModuleService())->setName('Chart');
         $service2 = (new ModuleService())->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)
             ->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> laraxot/develop
         $service1 = new ModuleService();
         $service1 = $service1->setName('Chart');
         $service2 = new ModuleService();
         $service2 = $service2->setName('User');
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> fb8add77 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+>>>>>>> laraxot/develop
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
         $service1 = (new ModuleService())->setName('Chart');
         $service2 = (new ModuleService())->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)
             ->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
         $service1 = new ModuleService();
         $service1 = $service1->setName('Chart');
         $service2 = new ModuleService();
         $service2 = $service2->setName('User');
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+>>>>>>> laraxot/develop
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
         $service1 = (new ModuleService())->setName('Chart');
         $service2 = (new ModuleService())->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)
             ->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
         $service1 = new ModuleService();
         $service1 = $service1->setName('Chart');
         $service2 = new ModuleService();
         $service2 = $service2->setName('User');
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> laraxot/develop
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
         $service1 = (new ModuleService())->setName('Chart');
         $service2 = (new ModuleService())->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)
             ->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+>>>>>>> laraxot/develop
         $service1 = new ModuleService();
         $service1 = $service1->setName('Chart');
         $service2 = new ModuleService();
         $service2 = $service2->setName('User');
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> fb8add77 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+>>>>>>> laraxot/develop
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
     it('can be instantiated with different module names', function () {
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
+=======
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+    it('can be instantiated with different module names', function () {
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> b7afadf9 (.)
+>>>>>>> laraxot/develop
     it('can be instantiated with different module names', function (): void {
         $service1 = new ModuleService;
         /** @phpstan-ignore-next-line method.nonObject */
@@ -242,23 +1367,86 @@ describe('ModuleService', function () {
         $service2 = new ModuleService;
         /** @phpstan-ignore-next-line method.nonObject */
         $service2 = $service2->setName('User');
+<<<<<<< HEAD
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+=======
+<<<<<<< HEAD
+>>>>>>> b7afadf9 (.)
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+>>>>>>> laraxot/develop
+    it('can be instantiated with different module names', function () {
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
     it('can be instantiated with different module names', function () {
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
     it('can be instantiated with different module names', function () {
-        $service1 = new ModuleService()->setName('Chart');
-        $service2 = new ModuleService()->setName('User');
-
-        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+=======
+=======
+=======
+>>>>>>> 53d6a6ba (.)
     it('can be instantiated with different module names', function () {
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
+=======
+>>>>>>> b7afadf9 (.)
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+    it('can be instantiated with different module names', function () {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
+=======
+=======
+        $service1 = (new ModuleService())->setName('Chart');
+        $service2 = (new ModuleService())->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)
+            ->and($service2)->toBeInstanceOf(ModuleService::class);
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> laraxot/develop
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        $service1 = (new ModuleService())->setName('Chart');
+        $service2 = (new ModuleService())->setName('User');
+        
+        expect($service1)->toBeInstanceOf(ModuleService::class)
+            ->and($service2)->toBeInstanceOf(ModuleService::class);
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     });
 
     it('has getModels method', function () {
@@ -268,25 +1456,82 @@ describe('ModuleService', function () {
     it('returns array from getModels method', function () {
         // Mock the Module facade to avoid database dependencies
         $result = $this->service->getModels();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         expect($result)->toBeArray();
     });
 
     it('getModels returns correct array structure', function () {
         $result = $this->service->getModels();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
 
         expect($result)->toBeArray();
 
         // Each value should be a class string
         foreach ($result as $key => $value) {
+<<<<<<< HEAD
             expect($key)->toBeString()->and($value)->toBeString();
+=======
+<<<<<<< HEAD
+            expect($key)->toBeString()->and($value)->toBeString();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            expect($key)->toBeString()->and($value)->toBeString();
+=======
+            expect($key)->toBeString()
+                ->and($value)->toBeString();
+>>>>>>> a12f125f4a (.)
+=======
+            expect($key)->toBeString()->and($value)->toBeString();
+>>>>>>> b93ef594b4 (.)
+=======
+        
+        expect($result)->toBeArray();
+        
+        // Each value should be a class string
+        foreach ($result as $key => $value) {
+            expect($key)->toBeString()
+                ->and($value)->toBeString();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         }
     });
 
     it('filters abstract classes correctly', function () {
         // Test the logic that filters out abstract classes
         $result = $this->service->getModels();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // The result should not contain BaseModel (which is abstract)
         expect($result)->not->toHaveKey('base_model');
     });
@@ -294,7 +1539,19 @@ describe('ModuleService', function () {
     it('handles reflection exceptions gracefully', function () {
         // Test that the service handles reflection errors without throwing
         $result = $this->service->getModels();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         expect($result)->toBeArray();
     });
 
@@ -302,14 +1559,38 @@ describe('ModuleService', function () {
         // Test that model names are converted to snake_case
         $reflection = new ReflectionClass($this->service);
         $method = $reflection->getMethod('getModels');
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue();
     });
 
     it('has proper return type annotation', function () {
         $reflection = new ReflectionClass($this->service);
         $method = $reflection->getMethod('getModels');
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         $docComment = $method->getDocComment();
         expect($docComment)->toContain('@return array<string, class-string>');
     });
@@ -317,8 +1598,98 @@ describe('ModuleService', function () {
     it('validates method signature', function () {
         $reflection = new ReflectionClass($this->service);
         $method = $reflection->getMethod('getModels');
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
     });
 
@@ -327,10 +1698,48 @@ describe('ModuleService', function () {
         /** @phpstan-ignore-next-line method.nonObject */
         $emptyService = $emptyService->setName('NonExistentModule');
         /** @phpstan-ignore-next-line method.nonObject */
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
     });
 
     it('handles empty module gracefully', function () {
+<<<<<<< HEAD
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
@@ -350,6 +1759,144 @@ describe('ModuleService', function () {
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 21348520 (.)
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+>>>>>>> 5a14301c (.)
+=======
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+<<<<<<< HEAD
+>>>>>>> 3fbbf1f5 (.)
+=======
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+=======
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+>>>>>>> 492d6d3c (.)
+=======
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+=======
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+>>>>>>> 43d67f21 (.)
+=======
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+=======
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+>>>>>>> c06600c (.)
+>>>>>>> e59778ae (.)
+=======
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+>>>>>>> 5842a556 (.)
+=======
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+>>>>>>> 5a14301c (.)
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+=======
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()
             ->and($method->getNumberOfParameters())->toBe(0);
     });
@@ -360,12 +1907,40 @@ describe('ModuleService', function () {
 
         expect($result)->toBeArray()
             ->and($result)->toBeEmpty();
+<<<<<<< HEAD
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> laraxot/develop
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()
             ->and($method->getNumberOfParameters())->toBe(0);
     });
@@ -376,12 +1951,42 @@ describe('ModuleService', function () {
 
         expect($result)->toBeArray()
             ->and($result)->toBeEmpty();
+<<<<<<< HEAD
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+=======
+=======
+>>>>>>> fb8add77 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
+>>>>>>> laraxot/develop
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()
             ->and($method->getNumberOfParameters())->toBe(0);
     });
@@ -392,12 +1997,42 @@ describe('ModuleService', function () {
 
         expect($result)->toBeArray()
             ->and($result)->toBeEmpty();
+<<<<<<< HEAD
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
+>>>>>>> laraxot/develop
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()
             ->and($method->getNumberOfParameters())->toBe(0);
     });
@@ -408,12 +2043,40 @@ describe('ModuleService', function () {
 
         expect($result)->toBeArray()
             ->and($result)->toBeEmpty();
+<<<<<<< HEAD
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> laraxot/develop
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()
             ->and($method->getNumberOfParameters())->toBe(0);
     });
@@ -424,9 +2087,38 @@ describe('ModuleService', function () {
 
         expect($result)->toBeArray()
             ->and($result)->toBeEmpty();
+<<<<<<< HEAD
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
         $emptyService = new ModuleService()->setName('NonExistentModule');
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+=======
+=======
+>>>>>>> fb8add77 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+=======
+=======
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
     });
 
@@ -434,31 +2126,128 @@ describe('ModuleService', function () {
         $emptyService = new ModuleService;
         /** @phpstan-ignore-next-line method.nonObject */
         $emptyService = $emptyService->setName('NonExistentModule');
+<<<<<<< HEAD
         /** @phpstan-ignore-next-line method.nonObject */
+=======
+>>>>>>> b7afadf9 (.)
+        /** @phpstan-ignore-next-line method.nonObject */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 1c4bb8cf (.)
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
     });
 
     it('handles empty module gracefully', function () {
+<<<<<<< HEAD
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $emptyService = new ModuleService()->setName('NonExistentModule');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+>>>>>>> laraxot/develop
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
     });
 
+<<<<<<< HEAD
     it('uses correct namespace patterns', function () {
     it('uses correct namespace patterns', function (): void {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    it('uses correct namespace patterns', function () {
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> ab8cc3f3 (.)
+    it('uses correct namespace patterns', function (): void {
+=======
+>>>>>>> laraxot/develop
     it('handles empty module gracefully', function () {
         $emptyService = (new ModuleService())->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()
             ->and($result)->toBeEmpty();
+<<<<<<< HEAD
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
+=======
+>>>>>>> f1d4085 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 300ef70 (.)
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+<<<<<<< HEAD
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+=======
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()
             ->and($method->getNumberOfParameters())->toBe(0);
     });
@@ -469,12 +2258,42 @@ describe('ModuleService', function () {
 
         expect($result)->toBeArray()
             ->and($result)->toBeEmpty();
+<<<<<<< HEAD
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+=======
+=======
+>>>>>>> f3f26717 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
+>>>>>>> laraxot/develop
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()
             ->and($method->getNumberOfParameters())->toBe(0);
     });
@@ -485,12 +2304,40 @@ describe('ModuleService', function () {
 
         expect($result)->toBeArray()
             ->and($result)->toBeEmpty();
+<<<<<<< HEAD
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> laraxot/develop
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()
             ->and($method->getNumberOfParameters())->toBe(0);
     });
@@ -501,12 +2348,44 @@ describe('ModuleService', function () {
 
         expect($result)->toBeArray()
             ->and($result)->toBeEmpty();
+<<<<<<< HEAD
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+=======
+=======
+>>>>>>> fb8add77 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 14edd1a1 (.)
+=======
+>>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 1c4bb8cf (.)
+>>>>>>> laraxot/develop
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/develop
         expect($method->isPublic())->toBeTrue()
             ->and($method->getNumberOfParameters())->toBe(0);
     });
@@ -517,12 +2396,39 @@ describe('ModuleService', function () {
 
         expect($result)->toBeArray()
             ->and($result)->toBeEmpty();
+<<<<<<< HEAD
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
+=======
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+=======
+=======
+>>>>>>> f3f26717 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> 3849ae0e (.)
+=======
+>>>>>>> f0e04b64 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 21348520 (.)
+>>>>>>> laraxot/develop
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();
+<<<<<<< HEAD
     });
 
     it('uses correct namespace patterns', function () {
@@ -538,6 +2444,129 @@ describe('ModuleService', function () {
         // Test that the service uses correct namespace patterns
         $reflection = new ReflectionClass($this->service);
 
+=======
+=======
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+>>>>>>> f1d4085 (.)
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 71f31700 (.)
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+=======
+=======
+>>>>>>> 492d6d3c (.)
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+<<<<<<< HEAD
+=======
+=======
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+=======
+        expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
+>>>>>>> b93ef594b4 (.)
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+<<<<<<< HEAD
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+>>>>>>> a12f125f4a (.)
+=======
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+>>>>>>> b93ef594b4 (.)
+=======
+        
+        expect($method->isPublic())->toBeTrue()
+            ->and($method->getNumberOfParameters())->toBe(0);
+    });
+
+    it('handles empty module gracefully', function () {
+        $emptyService = (new ModuleService())->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+        
+        expect($result)->toBeArray()
+            ->and($result)->toBeEmpty();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+    });
+
+    it('uses correct namespace patterns', function () {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+=======
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+>>>>>>> 53d6a6ba (.)
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+    });
+
+    it('uses correct namespace patterns', function () {
+<<<<<<< HEAD
+>>>>>>> d2b0a27 (.)
+>>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> d2b0a27 (.)
+>>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5a14301c (.)
+        // Test that the service uses correct namespace patterns
+        $reflection = new ReflectionClass($this->service);
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         expect($reflection->hasProperty('name'))->toBeTrue();
     });
 
@@ -545,27 +2574,92 @@ describe('ModuleService', function () {
         // ModuleService doesn't have a constructor with parameters
         // It uses setName() method for configuration (fluent interface)
         $reflection = new ReflectionClass($this->service);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         expect($reflection->hasMethod('setName'))
             ->toBeTrue()
             ->and($reflection->getMethod('setName')->isPublic())
             ->toBeTrue();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        expect($reflection->hasMethod('setName'))->toBeTrue()
+            ->and($reflection->getMethod('setName')->isPublic())->toBeTrue();
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        
+        expect($reflection->hasMethod('setName'))->toBeTrue()
+            ->and($reflection->getMethod('setName')->isPublic())->toBeTrue();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     });
 
     it('validates class structure', function () {
         $reflection = new ReflectionClass($this->service);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         expect($reflection->isInstantiable())
             ->toBeTrue()
             ->and($reflection->isFinal())
             ->toBeFalse()
             ->and($reflection->isAbstract())
             ->toBeFalse();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        expect($reflection->isInstantiable())->toBeTrue()
+            ->and($reflection->isFinal())->toBeFalse()
+            ->and($reflection->isAbstract())->toBeFalse();
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        
+        expect($reflection->isInstantiable())->toBeTrue()
+            ->and($reflection->isFinal())->toBeFalse()
+            ->and($reflection->isAbstract())->toBeFalse();
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
     });
 
     it('has proper method visibility', function () {
         $reflection = new ReflectionClass($this->service);
         $methods = $reflection->getMethods();
+<<<<<<< HEAD
 
         $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
         /** @phpstan-ignore-next-line method.nonObject */
@@ -594,6 +2688,187 @@ describe('ModuleService', function () {
 
         $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
 
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+=======
+        /** @phpstan-ignore-next-line method.nonObject */
+        $publicMethods = array_filter($methods, fn ($method) => $method->isPublic());
+>>>>>>> b7afadf9 (.)
+=======
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+>>>>>>> 71586de2 (.)
+=======
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+>>>>>>> 53d6a6ba (.)
+=======
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+>>>>>>> 71586de2 (.)
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+<<<<<<< HEAD
+
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+=======
+        /** @phpstan-ignore-next-line method.nonObject */
+        $publicMethods = array_filter($methods, fn ($method) => $method->isPublic());
+>>>>>>> b7afadf9 (.)
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+=======
+<<<<<<< HEAD
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 399f46d3 (.)
+        
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> b956ebe0 (.)
+=======
+        $publicMethods = array_filter($methods, fn($method) => $method->isPublic());
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
         expect(count($publicMethods))->toBeGreaterThan(0);
     });
 
@@ -605,7 +2880,19 @@ describe('ModuleService', function () {
     it('processes file extensions correctly', function () {
         // Test that the service correctly processes .php files
         $result = $this->service->getModels();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         expect($result)->toBeArray();
     });
 
@@ -622,7 +2909,19 @@ describe('ModuleService', function () {
     it('has proper error handling', function () {
         // Test that exceptions are caught and handled gracefully
         $result = $this->service->getModels();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> laraxot/develop
         // Should not throw exceptions
         expect($result)->toBeArray();
     });

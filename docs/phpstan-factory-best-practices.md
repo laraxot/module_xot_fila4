@@ -2,7 +2,43 @@
 
 ## 🎯 Overview
 
+<<<<<<< HEAD
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <main module> e conformi ai principi del framework Laraxot.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo <main module> e conformi ai principi del framework Laraxot.
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 71f31700 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 71f31700 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 71f31700 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 71f31700 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 53d6a6ba (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 71f31700 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 53d6a6ba (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 ## 📚 Principi Fondamentali
 
@@ -264,6 +300,7 @@ $result = $string . (string) $faker->method();
 ## 📝 Esempi Pratici
 
 ### Correzione Completa UserFactory
+<<<<<<< HEAD
 Vedere: `Modules/<main module>/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -274,6 +311,77 @@ Vedere:
 
 ### Documentazione Implementazione
 Vedere: `Modules/<main module>/docs/factories/phpstan-factory-compliance.md`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Vedere: `Modules/<main module>/database/factories/UserFactory.php`
+=======
+Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
+>>>>>>> 53d6a6ba (.)
+=======
+Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
+>>>>>>> 53d6a6ba (.)
+
+### Factory Specializzate Corrette
+Vedere:
+- `Modules/SaluteOra/database/factories/AdminFactory.php`
+- `Modules/SaluteOra/database/factories/DoctorFactory.php`
+- `Modules/SaluteOra/database/factories/PatientFactory.php`
+
+### Documentazione Implementazione
+<<<<<<< HEAD
+<<<<<<< HEAD
+Vedere: `Modules/<main module>/docs/factories/phpstan-factory-compliance.md`
+=======
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 71f31700 (.)
+Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
+
+### Factory Specializzate Corrette
+Vedere:
+- `Modules/SaluteOra/database/factories/AdminFactory.php`
+- `Modules/SaluteOra/database/factories/DoctorFactory.php`
+- `Modules/SaluteOra/database/factories/PatientFactory.php`
+
+### Documentazione Implementazione
+Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71f31700 (.)
+>>>>>>> laraxot/develop
 
 ## 📊 Metriche di Successo
 

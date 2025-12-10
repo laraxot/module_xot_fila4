@@ -1,8 +1,375 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/develop
 # Standard per le Migrazioni in <nome progetto>
 
 ## Introduzione
 
 Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di <nome progetto>. Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 5a14301c (.)
+# Standard per le Migrazioni in 
+
+## Introduzione
+
+Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di . Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+# Standard per le Migrazioni in SaluteOra
+
+## Introduzione
+
+Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di SaluteOra. Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+# Standard per le Migrazioni in 
+
+## Introduzione
+
+Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di . Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+# Standard per le Migrazioni in <nome progetto>
+
+## Introduzione
+
+Questo documento definisce gli standard e le best practices da seguire per tutte le migrazioni nei moduli di <nome progetto>. Questi standard sono fondamentali per garantire la coerenza e la correttezza delle migrazioni in tutto il progetto.
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+>>>>>>> 76bec91a (.)
+=======
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+>>>>>>> 55fe1822 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 ## Principi Fondamentali
 
@@ -74,7 +441,248 @@ return new class extends XotBaseMigration
 
 ## Connessioni al Database
 
+<<<<<<< HEAD
 <nome progetto> utilizza diverse connessioni al database per diversi tipi di dati:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<nome progetto> utilizza diverse connessioni al database per diversi tipi di dati:
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 5a14301c (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 399f46d3 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> d86d643a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 472bd9dc (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> d86d643a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> d86d643a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 472bd9dc (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 3bf39332 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> cf971011 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> e7da37af (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> d86d643a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 472bd9dc (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 3bf39332 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> cf971011 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> e7da37af (.)
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+<nome progetto> utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 43d67f21 (.)
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 5a14301c (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 43d67f21 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> b7ea1cd1 (.)
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 5a14301c (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 43d67f21 (.)
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 5a14301c (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 43d67f21 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> b7ea1cd1 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 76bec91a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 55fe1822 (.)
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 5a14301c (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 43d67f21 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> b7ea1cd1 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 76bec91a (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 55fe1822 (.)
+=======
+ utilizza diverse connessioni al database per diversi tipi di dati:
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 5a14301c (.)
+=======
+SaluteOra utilizza diverse connessioni al database per diversi tipi di dati:
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop
 
 1. **mysql**: Connessione principale per la maggior parte delle tabelle
 2. **user**: Connessione per i dati degli utenti
@@ -207,4 +815,257 @@ protected ?string $connection = 'user'; // Stessa connessione del modello
 
 ## Conclusione
 
+<<<<<<< HEAD
 Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in <nome progetto>. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in <nome progetto>. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 5a14301c (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 399f46d3 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> d86d643a (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 472bd9dc (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> d86d643a (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> d86d643a (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 472bd9dc (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 3bf39332 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> cf971011 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> e7da37af (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> d86d643a (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 472bd9dc (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 3bf39332 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> cf971011 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> e7da37af (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in <nome progetto>. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> a5dccfe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d86d643a (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 43d67f21 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 5a14301c (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 43d67f21 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> b7ea1cd1 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 5a14301c (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 43d67f21 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 5a14301c (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 43d67f21 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 76bec91a (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 55fe1822 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 5a14301c (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 43d67f21 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 472bd9dc (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> cc7fb225 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 88e35986 (.)
+=======
+>>>>>>> 3bf39332 (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> cf971011 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 76bec91a (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> cc52d333 (.)
+=======
+>>>>>>> e7da37af (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 55fe1822 (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in . Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 5a14301c (.)
+=======
+Seguire questi standard per le migrazioni è fondamentale per garantire la coerenza e la correttezza del database in SaluteOra. Assicurarsi di consultare sempre la documentazione specifica del modulo prima di creare o modificare una migrazione.
+>>>>>>> 399f46d3 (.)
+>>>>>>> laraxot/develop

@@ -40,6 +40,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -541,3 +542,5 @@ $collection->get('key', 'default');
 =======
 *Documento di lavoro per correzione sistematica PHPStan - Framework Laraxot*
 >>>>>>> 39bb163e (.)
+=======
+>>>>>>> b396242e (.)

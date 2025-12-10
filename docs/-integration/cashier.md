@@ -5,26 +5,17 @@
 Create a Laravel Marketplace with Stripe using Cashier and this package
 https://hbakouane.medium.com/create-a-laravel-marketplace-with-stripe-using-cashier-and-this-package-9bbf56078215
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> a5dccfe (.)
 https://github.com/driesvints/cashier-paddle-talk
 This repo contains the Cashier Paddle demo app I used during my Laracon 2021 talk.
 ma fa un po cagare
 
-<<<<<<< HEAD
-https://github.com/christophrumpel/larastreamers
-bello per il tema fatto per i video
-
-=======
 
 https://github.com/christophrumpel/larastreamers
 bello per il tema fatto per i video
 
 
->>>>>>> a5dccfe (.)
 ------------- videocorsi
 -----------------------------------------------------
 Creating Laravel 6 SaaS with Cashier/Stripe
@@ -60,14 +51,11 @@ https://www.youtube.com/watch?v=z9e8G4kRfoI
 
 -------------------------------------------------------------
 
-<<<<<<< HEAD
-=======
 
 
 
 
 
->>>>>>> a5dccfe (.)
 --- repository ---
 https://github.com/scotch-io/laravel-cashier-course
 Code for the Scotch School course: Build a Monthly Subscription App with Laravel Cashier
@@ -103,8 +91,6 @@ This repository implements Laravel and Vue.js as a product shopping cart
 single page application(SPA). Laravel Cashier(stripe) is used as the payment gateway.
 ---------------------------------------------------------------
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -115,7 +101,6 @@ single page application(SPA). Laravel Cashier(stripe) is used as the payment gat
 
 
 
->>>>>>> a5dccfe (.)
 //----------- TUTORIALS -------------
 How to configure Laravel Cashier with multiple models - January 2, 2021
 https://swapnil.dev/blog/how-to-configure-laravel-cashier-with-multiple-models/
@@ -124,12 +109,7 @@ https://medium.com/fabcoding/laravel-7-create-a-subscription-system-using-cashie
 Laravel: Implementing a Shopping Cart for Your Website
 https://meritocracy.is/blog/2021/06/08/laravel-implementing-a-shopping-cart-for-your-website/    !!!!!!!!!!!!!!!
 w3cubdoc
-<<<<<<< HEAD
-https://docs.w3cub.com/laravel~8/docs/8.x/billing
-
-=======
 https://docs.w3cub.com/laravel~8/project_docs/8.x/billing
->>>>>>> a5dccfe (.)
 Examples of using Laravel Cashier v.10
 https://reposhub.com/php/web-frameworks/tnylea-laravel-cashier-examples.html          !!!!!!!!!!!!!!!!!!!!!
 Laravel Jetstream Subscription Billing With Stripe Checkout and Customer Portal
@@ -175,12 +155,7 @@ forked from fhsinchy/laravel-livewire-shopping-cart
 --------------------------------------------------------------------------------
 https://thecodelearners.com/laravel-livewire-build-ecommerce-application-with-turbolinks/ !!!!
 Livewire no longer supports Turbolinks out of the box
-<<<<<<< HEAD
-https://laravel-livewire.com/docs/2.x/upgrading#turbolinks
-
-=======
 https://laravel-livewire.com/project_docs/2.x/upgrading#turbolinks
->>>>>>> a5dccfe (.)
 --------------------------------------------------------------
 https://liveshop.herokuapp.com/
 https://github.com/webong/livewire-eshop !!!!
@@ -235,10 +210,7 @@ https://www.youtube.com/watch?v=gvnxd1xne7Q
 https://www.youtube.com/watch?v=jNWDrw3vRU4
 ---------------------------
 
-<<<<<<< HEAD
-=======
 
->>>>>>> a5dccfe (.)
 //--- links vari -----
 https://laravel-news.com/links
 https://awesomeopensource.com/projects/jetstream/laravel?ref=hackernoon.com
@@ -255,15 +227,6 @@ https://owenconti.com/posts/building-a-search-drop-down-component-with-laravel-l
 //-- Replacing Laravel Mix with Vite
 https://owenconti.com/posts/replacing-laravel-mix-with-vite
 
-<<<<<<< HEAD
-https://freek.dev/1622-replacing-websockets-with-livewire
-
-//--- scelta lingua carina
-https://it.player.fm/podcasts/laravel
-
-https://spatie.be/
-
-=======
 
 https://freek.dev/1622-replacing-websockets-with-livewire
 
@@ -276,7 +239,6 @@ https://spatie.be/
 
 
 
->>>>>>> a5dccfe (.)
 da crinsane
 https://github.com/hardevine/LaravelShoppingcart
 https://github.com/Tefoh/Cart                          !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -286,8 +248,6 @@ https://github.com/wowpowhub/shopping-cart-php/tree/main/app/Models/Cart   !!!! 
 
 https://git.tibidono.com/package/laravelshoppingcart
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -308,4 +268,3 @@ https://git.tibidono.com/package/laravelshoppingcart
 
 
 
->>>>>>> a5dccfe (.)

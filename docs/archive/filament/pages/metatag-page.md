@@ -85,8 +85,4 @@ use Modules\Xot\Filament\Pages\MetatagPage;
 
 - [Documentazione Filament](../../../docs/filament/index.md)
 - [Configurazione SEO](../../../docs/seo/index.md)
-<<<<<<< HEAD
 - [Gestione Temi](../../../docs/themes/index.md) 
-=======
-- [Gestione Temi](../../../docs/themes/index.md) 
->>>>>>> a5dccfe (.)

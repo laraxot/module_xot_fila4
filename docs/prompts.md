@@ -116,6 +116,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [prompts.md](../../../Xot/docs/prompts.md)
 =======
 <<<<<<< HEAD
@@ -132,6 +133,8 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 34579462 (.)
 * [prompts.md](../../../Xot/docs/prompts.md)
 =======
 * [prompts.md](../../../Xot/project_docs/prompts.md)
@@ -139,6 +142,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 =======
 * [prompts.md](../../../Xot/docs/prompts.md)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,6 +234,8 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 * [prompts.md](../../../Xot/project_docs/prompts.md)
 >>>>>>> f1d4085 (.)
 >>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
 
 
 ## Modifiche al Prompt docs.txt
@@ -255,6 +261,7 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 
 ### Percorsi Assoluti
 ⚠️ **Problema Identificato**: Uso di percorsi assoluti nei collegamenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -478,12 +485,15 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 =======
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/project_docs/file.md`
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -516,10 +526,13 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 34579462 (.)
+=======
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/saluteora/laravel/Modules/Xot/docs/file.md`
 ❌ Esempio errato: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/docs/file.md`
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -753,6 +766,8 @@ Per la regola universale sui prompt condivisi (come quelli in bashscripts/prompt
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
 ✅ Esempio corretto: `./file.md` o `../altro-modulo/file.md`
 
 ### Impatto dell'Errore

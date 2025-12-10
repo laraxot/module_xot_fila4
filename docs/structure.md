@@ -1081,6 +1081,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 =======
@@ -1102,6 +1103,8 @@ tests_old
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 34579462 (.)
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 =======
@@ -1112,6 +1115,7 @@ tests_old
 - [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/docs/phpstan/)
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1257,6 +1261,8 @@ tests_old
 - [Report PHPStan](/project_docs/phpstan/)
 >>>>>>> f1d4085 (.)
 >>>>>>> 6a1fe786 (.)
+=======
+>>>>>>> 34579462 (.)
 
 
 ### Versione Incoming
@@ -1295,6 +1301,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1377,6 +1384,10 @@ tests_old
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 6a1fe786 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 34579462 (.)
 * [structure.md](bashscripts/docs/structure.md)
 * [structure.md](../../../Gdpr/docs/structure.md)
 * [structure.md](../../../Notify/docs/structure.md)
@@ -1424,6 +1435,7 @@ tests_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1459,6 +1471,8 @@ tests_old
 =======
 >>>>>>> 6a1fe786 (.)
 =======
+>>>>>>> 34579462 (.)
+=======
 * [structure.md](bashscripts/project_docs/structure.md)
 * [structure.md](../../../Gdpr/project_docs/structure.md)
 * [structure.md](../../../Notify/project_docs/structure.md)
@@ -1476,6 +1490,7 @@ tests_old
 * [structure.md](../../../Cms/project_docs/themes/structure.md)
 * [structure.md](../../../Cms/project_docs/components/structure.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1571,6 +1586,10 @@ tests_old
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 6a1fe786 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 34579462 (.)
 
 
 ---

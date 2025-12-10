@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -20,10 +21,13 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
 # PHPStan Best Practices per Factory Laravel - Laraxot Framework
 
 ## 🎯 Overview
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,6 +215,9 @@ Documentazione completa delle best practice PHPStan per le factory Laravel, basa
 =======
 Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
 >>>>>>> b7ea1cd1 (.)
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 33af3e61 (.)
 
 ## 📚 Principi Fondamentali
 
@@ -508,6 +515,7 @@ $result = $string . (string) $faker->method();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -604,6 +612,8 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
 Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -614,6 +624,7 @@ Vedere:
 
 ### Documentazione Implementazione
 Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -775,6 +786,8 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
 
 ## 📊 Metriche di Successo
 
@@ -785,6 +798,7 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 
 *Ultimo aggiornamento: Dicembre 2024*
 *Versione: 1.0*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -858,3 +872,6 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 33af3e61 (.)

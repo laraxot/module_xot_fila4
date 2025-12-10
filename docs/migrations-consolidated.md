@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -20,6 +21,8 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
 # Migrations - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTA la documentazione migrazioni del progetto
@@ -417,6 +420,7 @@ $table->foreign('user_id')->references('id')->on('users')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome modulo> Module
 =======
 ### SaluteMo Module
@@ -466,10 +470,14 @@ $table->foreign('user_id')->references('id')->on('users')
 =======
 ### SaluteMo Module
 >>>>>>> c35986f4 (.)
+=======
+### SaluteMo Module
+>>>>>>> 33af3e61 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -658,6 +666,9 @@ $table->foreign('user_id')->references('id')->on('users')
 =======
 ### SaluteOra Module (CRITICO)
 >>>>>>> b7ea1cd1 (.)
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 33af3e61 (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`
@@ -714,6 +725,7 @@ rm Modules/Notify/docs/migration_rules.md
 rm Modules/Notify/docs/migrations.md
 rm Modules/Notify/docs/migrations_changelog.md
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -939,6 +951,10 @@ rm Modules/SaluteMo/docs/database/migrations.md
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 33af3e61 (.)
 
 # E tutti gli altri file duplicati...
 ```
@@ -976,6 +992,7 @@ rm Modules/SaluteMo/docs/database/migrations.md
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -996,3 +1013,5 @@ rm Modules/SaluteMo/docs/database/migrations.md
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

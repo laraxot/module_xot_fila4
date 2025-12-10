@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # List Records in Filament
 
 > **AGGIORNAMENTO 2025-05-28:**
@@ -196,10 +197,13 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
 # List Records in Filament
 
 > **AGGIORNAMENTO 2025-05-28:**
 > Questa policy è stata aggiornata e propagata anche in [SaluteOra/docs/resources/studio-resource.md](../../SaluteOra/docs/resources/studio-resource.md) e [SaluteOra/docs/README.md](../../SaluteOra/docs/README.md). Vedi esempi di implementazione e note di propagazione.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +316,8 @@
 >>>>>>> 472bd9dc (.)
 =======
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
 
 ## Estensione Corretta
 
@@ -388,6 +394,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **❌ Metodi Duplicati**:
    ```php
    // NON dichiarare lo stesso metodo due volte
@@ -446,6 +453,9 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 =======
 2. **❌ Metodi Senza Prefisso List**:
 >>>>>>> c35986f4 (.)
+=======
+2. **❌ Metodi Senza Prefisso List**:
+>>>>>>> 33af3e61 (.)
    ```php
    // NON usare i metodi senza prefisso List
    public function getTableColumns(): array
@@ -537,6 +547,7 @@ public function getTableColumns(): array
 ```
 
 ## PROPAGAZIONE (2025-05-28):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -854,3 +865,6 @@ La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metod
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+La pagina ListStudios del modulo SaluteOra implementa ora correttamente il metodo getTableColumns() secondo questa policy, con array associativo e chiavi stringa. Vedi esempio e dettagli in [SaluteOra/docs/resources/studio-resource.md](../../SaluteOra/docs/resources/studio-resource.md).
+>>>>>>> 33af3e61 (.)

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -20,6 +21,8 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
 # Regole di Namespace 
 
 ## Struttura dei Namespace
@@ -37,6 +40,7 @@ Nonostante le classi possano risiedere fisicamente nella sottodirectory `app/` d
 ## Esempi Corretti
 
 ```php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,10 +151,13 @@ namespace Modules\Patient\Models;
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 33af3e61 (.)
 // File in: /var/www/html/saluteora/laravel/Modules/Patient/app/Models/Patient.php
 namespace Modules\Patient\Models;
 
 // File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,6 +396,8 @@ namespace Modules\Patient\Models;
 
 // File in: /var/www/html/saluteora/laravel/Modules/Dental/app/Services/AppointmentService.php
 >>>>>>> b7ea1cd1 (.)
+=======
+>>>>>>> 33af3e61 (.)
 namespace Modules\Dental\Services;
 ```
 
@@ -464,6 +473,7 @@ Ultima modifica: 31/03/2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -484,3 +494,5 @@ Ultima modifica: 31/03/2025
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 33af3e61 (.)

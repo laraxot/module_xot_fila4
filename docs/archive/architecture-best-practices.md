@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -23,6 +24,8 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
 ## Convenzioni di naming per le azioni (Actions)
 
 Per tutte le azioni che operano su chiavi di aggregazione specifiche (es. stabi, valutatore_id, ecc.), si raccomanda l'uso esplicito del suffisso `By<Chiave>` nel nome della classe. Esempio:
@@ -32,6 +35,7 @@ Per tutte le azioni che operano su chiavi di aggregazione specifiche (es. stabi,
 Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo immediatamente evidente la logica di aggregazione utilizzata.
 
 **Collegamento bidirezionale:**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +244,9 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 =======
 - [Motivazione e applicazione nel modulo Performance](../../Performance/docs/azioni_organizzativa.md)
 >>>>>>> 9db27d12 (.)
+=======
+- [Motivazione e applicazione nel modulo Performance](../../Performance/docs/azioni_organizzativa.md)
+>>>>>>> 33af3e61 (.)
 
 ## Memo e regole operative permanenti (per tutti i moduli che seguono Xot)
 
@@ -249,6 +256,7 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 - **Le duplicazioni vanno eliminate**: ogni refactoring deve essere documentato con motivazione e percorso nella sezione dedicata.
 - **Tipizzazione rigorosa**: tutto il codice deve essere conforme a phpstan livello 10.
 - **Collegamenti rapidi**:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -605,3 +613,9 @@ Questa convenzione migliora la leggibilità e la chiarezza del codice, rendendo 
 >>>>>>> b7ea1cd1 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+  - [Documentazione generale e convenzioni di progetto](../../../../docs/coding-standards.md)
+  - [Esempio e memo nel modulo Performance](../../Performance/docs/azioni_organizzativa.md#memo-e-regole-operative-permanenti-per-evitare-perdita-di-tempo-e-memoria)
+
+> **Nota**: Consulta sempre questa sezione prima di aggiungere nuovi model o azioni di aggregazione in qualsiasi modulo che si rifà alle regole Xot. In caso di dubbio, aggiorna prima la documentazione e confronta con le regole generali. 
+>>>>>>> 33af3e61 (.)

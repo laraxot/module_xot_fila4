@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -26,6 +27,8 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+=======
+>>>>>>> 33af3e61 (.)
 # GenerateDbDocumentationCommand
 
 ## Descrizione
@@ -66,6 +69,7 @@ php artisan xot:generate-db-documentation {schema_file} {output_dir?}
 ## Collegamenti
 - [Database Guidelines](../DATABASE-GUIDELINES.md)
 - [Documentation Guidelines](../DOCUMENTATION-GUIDELINES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,3 +151,6 @@ php artisan xot:generate-db-documentation {schema_file} {output_dir?}
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+- [PHPStan Level 9 Guide](../PHPSTAN-LEVEL9-GUIDE.md) 
+>>>>>>> 33af3e61 (.)

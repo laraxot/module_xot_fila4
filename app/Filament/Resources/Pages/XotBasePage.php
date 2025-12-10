@@ -29,6 +29,7 @@ namespace Modules\Xot\Filament\Resources\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use LogicException;
 use Illuminate\Database\Eloquent\Model;
 use Filament\Forms\Concerns\InteractsWithForms;
@@ -115,6 +116,8 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Schema;
 use Closure;
@@ -158,23 +161,6 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 5a14301c (.)
 
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Schema;
-use Closure;
-use Illuminate\Support\Str;
-use Webmozart\Assert\Assert;
-use Illuminate\Support\Collection;
-use Illuminate\Contracts\View\View;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Pages\Page as FilamentPage;
-use Modules\Xot\Filament\Traits\TransTrait;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Pages\Concerns\InteractsWithFormActions;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
 /**
  * Base class for all custom pages in the application.
  *
@@ -206,18 +192,8 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 =======
 >>>>>>> 5a14301c (.)
  * @property ?array $data
-<<<<<<< HEAD
-<<<<<<< HEAD
  * @property Schema $form
  */
-=======
- * @property \Filament\Schemas\Schema $form
-*/
->>>>>>> f1d4085 (.)
-=======
- * @property Schema $form
- */
->>>>>>> 73eab74 (.)
 abstract class XotBasePage extends FilamentPage implements HasForms
 {
     use InteractsWithForms;
@@ -244,6 +220,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     /**
      * The model class associated with this page, if any.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,6 +378,9 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     public static null|string $model = null;
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+    public static null|string $model = null;
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * The form data.
@@ -432,6 +412,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?array $data = [];
 =======
 =======
@@ -472,6 +453,8 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     public null|array $data = [];
 >>>>>>> 5a14301c (.)
 =======
@@ -490,32 +473,13 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     public null|array $data = [];
 >>>>>>> 5a14301c (.)
 
-=======
-    public ?array $data = [];
-
-    
->>>>>>> f1d4085 (.)
-=======
-    public null|array $data = [];
-
->>>>>>> 73eab74 (.)
     /**
      * Get the view that should be used for the page.
      */
     public function getView(): string
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (isset($this->view)) {
             return $this->view;
-=======
-        if (isset(static::$view)) {
-            return static::$view;
->>>>>>> f1d4085 (.)
-=======
-        if (isset($this->view)) {
-            return $this->view;
->>>>>>> 73eab74 (.)
         }
 
         $view = Str::of(static::class)
@@ -523,24 +487,11 @@ abstract class XotBasePage extends FilamentPage implements HasForms
             ->before('\\Filament\\')
             ->lower()
             ->append('::filament.pages.')
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
             ->append(
                 Str::of(static::class)
                     ->afterLast('\\')
                     ->kebab()
                     ->toString(),
-<<<<<<< HEAD
-=======
-            ->append(Str::of(static::class)
-                ->afterLast('\\')
-                ->kebab()
-                ->toString()
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
             );
 
         return $view->toString();
@@ -575,17 +526,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      */
     public function form(Schema $schema): Schema
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $schema->components($this->getFormSchema())->statePath('data');
-=======
-        return $schema
-            ->components($this->getFormSchema())
-            ->statePath('data');
->>>>>>> f1d4085 (.)
-=======
-        return $schema->components($this->getFormSchema())->statePath('data');
->>>>>>> 73eab74 (.)
     }
 
     /**
@@ -640,15 +581,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 >>>>>>> 5a14301c (.)
      * Get the form schema for the page.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return array<string, Component>
-=======
-     * @return array<string, \Filament\Schemas\Components\Component>
->>>>>>> f1d4085 (.)
-=======
-     * @return array<string, Component>
->>>>>>> 73eab74 (.)
      */
     protected function getFormSchema(): array
     {
@@ -684,15 +617,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
     /**
      * Get the associated model class for this page.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public static function getModel(): null|string
-=======
-    public static function getModel(): ?string
->>>>>>> f1d4085 (.)
-=======
-    public static function getModel(): null|string
->>>>>>> 73eab74 (.)
     {
         /** @phpstan-ignore property.staticAccess */
 <<<<<<< HEAD
@@ -743,10 +668,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 >>>>>>> 5a14301c (.)
     /*
      * Hook chiamato all'inizializzazione del componente.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
      *
      * public function mount(int|string $record): void
      * {
@@ -754,18 +675,6 @@ abstract class XotBasePage extends FilamentPage implements HasForms
      * $this->form->fill($this->data ?? []);
      * }
      */
-<<<<<<< HEAD
-=======
-     
-    public function mount(int|string $record): void
-    {
-        parent::mount($record);
-        $this->form->fill($this->data ?? []);
-    }
-    */
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     /**
      * Get the view data for the page.
      *

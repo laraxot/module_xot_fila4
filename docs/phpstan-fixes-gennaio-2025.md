@@ -675,6 +675,7 @@ public function getModels(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -691,3 +692,7 @@ public function getModels(): array
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+
+
+>>>>>>> 3fbbf1f5 (.)

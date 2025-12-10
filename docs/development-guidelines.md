@@ -312,14 +312,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 # Development Guidelines - Xot Module
 
 ## Panoramica
-<<<<<<< HEAD
-<<<<<<< HEAD
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
-=======
->>>>>>> f1d4085 (.)
-=======
-Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
->>>>>>> 73eab74 (.)
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 >>>>>>> 5a14301c (.)
 
@@ -359,6 +352,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
 =======
@@ -455,6 +449,10 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+- [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 3fbbf1f5 (.)
 
 ## Principi di Correzione
 
@@ -491,6 +489,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
 =======
@@ -587,6 +586,10 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 3fbbf1f5 (.)
 - [Xot Architecture](./architecture.md)
 
 ## Note per Sviluppo Futuro

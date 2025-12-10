@@ -49,14 +49,7 @@ use Override;
 =======
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Override;
-=======
->>>>>>> f1d4085 (.)
-=======
-use Override;
->>>>>>> 73eab74 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Grid;
 use Filament\Actions;
@@ -82,6 +75,7 @@ class ViewLog extends XotBaseViewRecord
 {
     protected static string $resource = LogResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157,12 +151,9 @@ class ViewLog extends XotBaseViewRecord
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
-    #[Override]
 =======
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 3fbbf1f5 (.)
     #[Override]
->>>>>>> 73eab74 (.)
     protected function getInfolistSchema(): array
     {
         $log = $this->getRecord()->getModel();
@@ -191,6 +182,7 @@ class ViewLog extends XotBaseViewRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -264,6 +256,8 @@ class ViewLog extends XotBaseViewRecord
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
             'log_info' => Section::make('Informazioni Log')->schema([
                 'log_grid' => Grid::make(['default' => 3])->schema([
                     'id' => TextEntry::make('id'),
@@ -360,28 +354,6 @@ class ViewLog extends XotBaseViewRecord
 >>>>>>> 5a14301c (.)
                 ]),
             ]),
-<<<<<<< HEAD
-=======
-            'log_info' => Section::make('Informazioni Log')
-                ->schema([
-                    'log_grid' => Grid::make(['default' => 3])
-                        ->schema([
-                            'id' => TextEntry::make('id'),
-                            'message' => TextEntry::make('message'),
-                            'level' => TextEntry::make('level'),
-                            'level_name' => TextEntry::make('level_name'),
-                            'channel' => TextEntry::make('channel'),
-                            'datetime' => TextEntry::make('datetime')
-                                ->dateTime(),
-                            'context' => TextEntry::make('context')
-                                ->formatStateUsing(fn ($state) => json_encode($state, JSON_PRETTY_PRINT)),
-                            'extra' => TextEntry::make('extra')
-                                ->formatStateUsing(fn ($state) => json_encode($state, JSON_PRETTY_PRINT)),
-                        ]),
-                ]),
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         ];
     }
 }

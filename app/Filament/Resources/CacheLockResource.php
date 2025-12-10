@@ -44,6 +44,7 @@ namespace Modules\Xot\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -96,23 +97,15 @@ use Override;
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 use Filament\Schemas\Components\Component;
 use Override;
-=======
->>>>>>> f1d4085 (.)
-=======
-use Filament\Schemas\Components\Component;
-use Override;
->>>>>>> 73eab74 (.)
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\ListCacheLocks;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\CreateCacheLock;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages\EditCacheLock;
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\CacheLockResource\Pages;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Models\CacheLock;
 
@@ -121,6 +114,7 @@ class CacheLockResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
     protected static null|string $model = CacheLock::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -628,14 +622,12 @@ class CacheLockResource extends XotBaseResource
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 
     /**
      * Get the form schema for the resource.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
      * @return array<string, Component>
      */
     #[Override]
@@ -655,36 +647,6 @@ class CacheLockResource extends XotBaseResource
     }
 
     #[Override]
-<<<<<<< HEAD
-=======
-     * @return array<string, \Filament\Schemas\Components\Component>
-     */
-    public static function getFormSchema(): array
-    {
-        return [
-            'key' => TextInput::make('key')
-                ->required()
-                ->maxLength(255),
-
-            'owner' => TextInput::make('owner')
-                ->required()
-                ->maxLength(255),
-
-            'expiration' => TextInput::make('expiration')
-                ->required()
-                ->numeric(),
-        ];
-    }
-
-    public static function getRelations(): array
-    {
-        return [
-        ];
-    }
-
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     public static function getPages(): array
     {
         return [

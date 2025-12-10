@@ -1,7 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -131,6 +129,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -241,20 +240,13 @@ declare(strict_types=1);
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
 return [
     'backend' => [
         'takeaway' => [
             'newsletterSubscribe' => [
-<<<<<<< HEAD
-<<<<<<< HEAD
                 'messages' => [],
-=======
-                'messages' => [
-                ],
->>>>>>> f1d4085 (.)
-=======
-                'messages' => [],
->>>>>>> 73eab74 (.)
             ],
             'category' => [
                 'create_error' => 'Create Error',

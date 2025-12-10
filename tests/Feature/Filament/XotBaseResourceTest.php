@@ -2,10 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
@@ -83,6 +79,7 @@ namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
         protected static ?int $navigationSort = 1;
 =======
         protected static null|int $navigationSort = 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,6 +360,8 @@ namespace Modules\Xot\Tests\Feature\Filament;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
     };
 });
 

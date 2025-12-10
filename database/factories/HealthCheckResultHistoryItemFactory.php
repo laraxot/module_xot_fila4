@@ -9,15 +9,7 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 
 /**
  * HealthCheckResultHistoryItem Factory
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-=======
- * 
->>>>>>> f1d4085 (.)
-=======
- *
->>>>>>> 73eab74 (.)
  * @extends Factory<HealthCheckResultHistoryItem>
  */
 class HealthCheckResultHistoryItemFactory extends Factory
@@ -29,15 +21,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return [
             'check_name' => $this->faker->randomElement([
                 'DatabaseCheck',
-<<<<<<< HEAD
-<<<<<<< HEAD
                 'CacheCheck',
-=======
-                'CacheCheck', 
->>>>>>> f1d4085 (.)
-=======
-                'CacheCheck',
->>>>>>> 73eab74 (.)
                 'QueueCheck',
                 'StorageCheck',
                 'MemoryCheck',
@@ -56,6 +40,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 
     public function ok(): static
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -330,6 +315,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 3fbbf1f5 (.)
             'status' => 'ok',
             'notification_message' => null,
         ]);
@@ -337,6 +325,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 
     public function failed(): static
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,6 +596,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 73eab74 (.)
 >>>>>>> 21348520 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 3fbbf1f5 (.)
             'status' => 'failed',
             'notification_message' => $this->faker->sentence(),
         ]);

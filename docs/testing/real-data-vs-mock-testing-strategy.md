@@ -225,6 +225,7 @@ test('complete tax filing process', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -236,6 +237,9 @@ test('complete tax filing process', function () {
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> cc1bbf15 (.)
 ### Healthcare Domain () - **Real Data Preferred**
 <<<<<<< HEAD
 ### Healthcare Domain () - **Real Data Preferred**
@@ -335,6 +339,23 @@ test('complete tax filing process', function () {
 >>>>>>> a67e542f (.)
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
 ### Healthcare Domain () - **Real Data Preferred**
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+### Healthcare Domain () - **Real Data Preferred**
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 6a1fe786 (.)
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+>>>>>>> 5a14301c (.)
+=======
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+>>>>>>> 71f31700 (.)
+=======
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+=======
+>>>>>>> cc1bbf15 (.)
 ### Healthcare Domain (<nome progetto>) - **Real Data Preferred**
 ### Healthcare Domain () - **Real Data Preferred**
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
@@ -616,6 +637,7 @@ test('legacy feature with mocks', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> 218dfed3 (.)
@@ -627,6 +649,9 @@ test('legacy feature with mocks', function () {
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> cc1bbf15 (.)
 **For  Healthcare Domain**: 
 <<<<<<< HEAD
 **For  Healthcare Domain**: 
@@ -726,6 +751,23 @@ test('legacy feature with mocks', function () {
 >>>>>>> a67e542f (.)
 **For SaluteOra Healthcare Domain**: 
 **For  Healthcare Domain**: 
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+**For  Healthcare Domain**: 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 6a1fe786 (.)
+**For SaluteOra Healthcare Domain**: 
+>>>>>>> 5a14301c (.)
+=======
+**For SaluteOra Healthcare Domain**: 
+>>>>>>> 71f31700 (.)
+=======
+**For SaluteOra Healthcare Domain**: 
+=======
+>>>>>>> cc1bbf15 (.)
 **For <nome progetto> Healthcare Domain**: 
 **For  Healthcare Domain**: 
 **For SaluteOra Healthcare Domain**: 

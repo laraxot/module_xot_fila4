@@ -7,10 +7,14 @@ Documentazione della risoluzione dei conflitti Git nel modulo Xot che bloccavano
 
 ### 1. Helpers/Helper.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Problema**: Marker di conflitto  causavano ParseError
 =======
 **Problema**: Marker di conflitto `<<<<<<< HEAD` causavano ParseError
 >>>>>>> 639df80 (.)
+=======
+**Problema**: Marker di conflitto  causavano ParseError
+>>>>>>> a0b522b (.)
 **Risoluzione**: Selezione della "current change" per tutti i conflitti
 
 **Conflitti risolti**:
@@ -53,10 +57,14 @@ Documentazione della risoluzione dei conflitti Git nel modulo Xot che bloccavano
 
 ## Metodologia di Risoluzione
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Identificazione**: Script automatico per trovare tutti i marker 
 =======
 1. **Identificazione**: Script automatico per trovare tutti i marker `<<<<<<< HEAD`
 >>>>>>> 639df80 (.)
+=======
+1. **Identificazione**: Script automatico per trovare tutti i marker 
+>>>>>>> a0b522b (.)
 2. **Selezione**: Sempre "current change" (contenuto tra `=======` e `>>>>>>>`)
 3. **Backup**: Backup automatico prima delle modifiche
 4. **Verifica**: Controllo che non rimangano marker di conflitto

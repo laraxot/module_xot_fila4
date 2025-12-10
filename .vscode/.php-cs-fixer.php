@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -521,6 +522,8 @@ declare(strict_types=1);
 >>>>>>> 399f46d3 (.)
 >>>>>>> laraxot/develop
 >>>>>>> 7e824610 (.)
+=======
+>>>>>>> 7ee87c138 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')

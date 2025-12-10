@@ -1,3 +1,4 @@
+<<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 # Report Consolidamento Documentazione - 27 Gennaio 2025
 
 ## Panoramica
@@ -229,3 +230,5 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 **Data Report**: 27 Gennaio 2025  
 **Stato**: Consolidamento in corso  
 **Prossimo Update**: Completamento consolidamento root docs
+========
+>>>>>>>> 7ee87c138 (.):docs/DOCS_CONSOLIDATION_REPORT.md

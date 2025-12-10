@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+<<<<<<<< HEAD:docs/script-risoluzione-conflitti-conflict.md
+=======
+>>>>>>> 7ee87c138 (.)
 # Script di Risoluzione Conflitti Git - FixCity Project
 
 ## Panoramica
@@ -700,6 +704,7 @@ Gli script risolvono i conflitti Git prendendo sempre la **"incoming change"** (
 ```
 ```
 
+<<<<<<< HEAD
 ### Algoritmo AWK
 ```awk
 BEGIN { skip = 0 }
@@ -708,6 +713,8 @@ BEGIN { skip = 0 }
 /^>>>>>>> / { next }                  # Rimuove marker finale
 !skip { print }                       # Stampa solo se non sta saltando
 ```
+=======
+>>>>>>> 7ee87c138 (.)
 
 ## RISULTATI OTTENUTI
 
@@ -3430,3 +3437,8 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 - [Regole Laraxot](../laraxot-rules.md)
 - [Best Practices PHP](../php-best-practices.md)
 - [Architettura Modulare](../modular-architecture.md)
+<<<<<<< HEAD
+========
+>>>>>>>> 7ee87c138 (.):docs/SCRIPT_RISOLUZIONE_CONFLITTI.md
+=======
+>>>>>>> 7ee87c138 (.)

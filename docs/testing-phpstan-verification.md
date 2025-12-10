@@ -113,11 +113,15 @@ Modules/{ModuleName}/
 - ✅ **Namespace Conventions**: Rispettate le regole moduli
 
 ### PHPStan Compliance
+<<<<<<<< HEAD:docs/testing-phpstan-verification.md
 - ✅ **Level 9/10**: Target raggiunto
 - ✅ **Level 9/10**: Target raggiunto
 - ✅ **Level 9/10**: Target raggiunto
 - ✅ **Level 9/10**: Target raggiunto
 - ✅ **Level 9/10**: Target raggiunto
+========
+- ✅ **level 10/10**: Target raggiunto
+>>>>>>>> 7ee87c138 (.):docs/testing-phpstan-verification-2025.md
 - ✅ **Strict Types**: `declare(strict_types=1);` presente
 - ✅ **Type Hints**: Rigorous typing mantenuto
 - ✅ **No Mixed Types**: Evitati dove possibile
@@ -165,5 +169,9 @@ vendor/bin/phpstan analyse Modules/Activity/ --configuration=Modules/Activity/ph
 
 **Verifica completata con successo**: Tutti i conflitti Git risolti, errori PHPStan critici fixati, e test suite verificata per funzionalità corretta.
 
+<<<<<<<< HEAD:docs/testing-phpstan-verification.md
 *Documento di verifica - Framework Laraxot PTVX*
 *Documento di verifica - Framework Laraxot PTVX*
+========
+*Documento di verifica - Framework Laraxot PTVX*
+>>>>>>>> 7ee87c138 (.):docs/testing-phpstan-verification-2025.md

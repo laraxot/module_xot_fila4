@@ -1,5 +1,8 @@
 # 🔧 PHPStan Fixes - Modulo Xot - Gennaio 2025
+<<<<<<<< HEAD:docs/phpstan-fixes-gennaio.md
 # Correzioni PHPStan - Gennaio 2025
+========
+>>>>>>>> 7ee87c138 (.):docs/phpstan-fixes-gennaio-2025.md
 
 **Data**: 27 Gennaio 2025  
 **Status**: ✅ COMPLETATO CON SUCCESSO  
@@ -74,8 +77,12 @@ PHPStan aveva difficoltà nel riconoscere la sintassi method chaining su istanze
 - **Leggibilità migliorata**: Codice più esplicito e chiaro
 
 ### **Benefici**
+<<<<<<<< HEAD:docs/phpstan-fixes-gennaio.md
 - ✅ **PHPStan Level 9**: Compatibilità completa
 - ✅ **PHPStan Level 9**: Compatibilità completa
+========
+- ✅ **PHPStan level 10**: Compatibilità completa
+>>>>>>>> 7ee87c138 (.):docs/phpstan-fixes-gennaio-2025.md
 - ✅ **Leggibilità**: Codice più esplicito e chiaro
 - ✅ **Type Safety**: Mantenuta con type hints espliciti
 - ✅ **Debugging**: Più facile identificare problemi
@@ -205,6 +212,7 @@ public function getModels(): array
 **🌐 Translation Standards**: IT/EN complete ✅  
 **🚀 Performance**: 98/100 score  
 **✨ Test Coverage**: 90% ✅
+<<<<<<<< HEAD:docs/phpstan-fixes-gennaio.md
 # PHPStan Fixes Gennaio 2025 - Modulo Xot
 
 ## Riassunto delle Correzioni
@@ -607,3 +615,8 @@ public function getModels(): array
 
 
 *Ultimo aggiornamento: Gennaio 2025* 
+========
+
+
+=======
+>>>>>>>> 7ee87c138 (.):docs/phpstan-fixes-gennaio-2025.md

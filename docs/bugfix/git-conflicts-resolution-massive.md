@@ -8,11 +8,14 @@ Il progetto presentava **323 conflitti Git** distribuiti su tutto il modulo Xot,
 
 ## Strategia Adottata
 
+<<<<<<< HEAD
 ### 1. Identificazione Sistematica
 ```bash
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches > /tmp/git-conflicts-list.txt
 wc -l /tmp/git-conflicts-list.txt  # 323 file
 ```
+=======
+>>>>>>> 7ee87c138 (.)
 
 ### 2. Batch Processing
 Organizzati in 8 batch prioritari:
@@ -57,11 +60,14 @@ Per conflitti complessi (3 file finali):
 - **Totale**: **134 file corretti manualmente**
 - **Rimanenti 189**: Puliti automaticamente con script batch
 
+<<<<<<< HEAD
 ### Verifica Finale
 ```bash
 grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
 # Output: 0 ✅
 ```
+=======
+>>>>>>> 7ee87c138 (.)
 
 ### Sintassi Verificata
 ```bash
@@ -110,11 +116,14 @@ git checkout HEAD -- $(find Modules/Quaeris -name "*Widget.php" -type f)
 - ⚠️ MAI usare sed per rimozioni multi-linea complesse
 
 ### 3. Verifica Continua
+<<<<<<< HEAD
 ```bash
 # Dopo ogni batch
 find $BATCH_DIR -name "*.php" | xargs php -l
 grep -r "^<<<<<<< HEAD" $BATCH_DIR | wc -l
 ```
+=======
+>>>>>>> 7ee87c138 (.)
 
 ## Impatto sul Sistema
 
@@ -141,6 +150,7 @@ grep -r "^<<<<<<< HEAD" $BATCH_DIR | wc -l
 ## Comandi di Riferimento
 
 ### Identificazione Conflitti
+<<<<<<< HEAD
 ```bash
 # Lista file con conflitti
 git status --porcelain | grep "^UU\|^AA\|^DD"
@@ -152,6 +162,8 @@ grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | wc -l
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.php$" | wc -l
 grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.md$" | wc -l
 ```
+=======
+>>>>>>> 7ee87c138 (.)
 
 ### Pulizia Batch
 ```bash
@@ -159,7 +171,10 @@ grep -r "^<<<<<<< HEAD" Modules/ --files-with-matches | grep "\.md$" | wc -l
 /tmp/clean-git-markers.sh $(grep "^Modules/Xot/app" /tmp/git-conflicts-list.txt)
 
 # Verifica
+<<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" Modules/Xot/app --files-with-matches | wc -l
+=======
+>>>>>>> 7ee87c138 (.)
 ```
 
 ### Verifica Finale
@@ -168,7 +183,11 @@ grep -r "^<<<<<<< HEAD" Modules/Xot/app --files-with-matches | wc -l
 find Modules/ -name "*.php" -type f | xargs php -l 2>&1 | grep -c "No syntax errors"
 
 # Conflitti rimasti
+<<<<<<< HEAD
 grep -r "^<<<<<<< HEAD" Modules/ 2>/dev/null | wc -l
+=======
+
+>>>>>>> 7ee87c138 (.)
 
 # Test server
 php artisan serve --host=127.0.0.1 --port=8000

@@ -11,7 +11,11 @@
 ### Perché i Conflitti Esistono
 
 I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
+<<<<<<< HEAD
 I conflitti Git `<<<<<<< HEAD` presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
+=======
+I conflitti Git  presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
+>>>>>>> 7ee87c138 (.)
 I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
 
 1. **Bloccano l'esecuzione**: File con marker non sono validi PHP
@@ -187,6 +191,7 @@ public function test_example() {
 - **Performance:** Test suite < 30 secondi
 
 ### Tracking
+<<<<<<< HEAD
 ```bash
 # Conta conflitti rimanenti
 find . -type f -name "*.php" -exec grep -l "<<<<<<< HEAD" {} \; 2>/dev/null | wc -l
@@ -195,6 +200,13 @@ find . -type f -name "*.php" -exec grep -l "<<<<<<< HEAD" {} \; 2>/dev/null | wc
 # Conta conflitti rimanenti
 
 # Conta conflitti rimanenti
+=======
+
+
+# Conta conflitti rimanenti
+
+# Conta conflitti rimanenti
+>>>>>>> 7ee87c138 (.)
 
 ## Best Practices Emerse
 
@@ -229,6 +241,7 @@ I conflitti sono stati causati da:
 ### Prevenzione Futura
 
 **Git Hooks:**
+<<<<<<< HEAD
 ```bash
 # pre-commit: blocca commit con conflitti
 if git diff --cached --name-only | xargs grep -l "<<<<<<< HEAD" 2>/dev/null; then
@@ -238,6 +251,10 @@ fi
 ```
 # pre-commit: blocca commit con conflitti
 # pre-commit: blocca commit con conflitti
+=======
+# pre-commit: blocca commit con conflitti
+# pre-commit: blocca commit con conflitti
+>>>>>>> 7ee87c138 (.)
 
 **CI/CD:**
 - Aggiungere check per marker conflitti

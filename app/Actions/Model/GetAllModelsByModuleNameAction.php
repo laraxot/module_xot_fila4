@@ -165,6 +165,7 @@ class GetAllModelsByModuleNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -265,13 +266,9 @@ class GetAllModelsByModuleNameAction
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
-        if (!($mod instanceof \Nwidart\Modules\Module)) {
 =======
-        if (! $mod instanceof \Nwidart\Modules\Module) {
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 3310e9c6 (.)
         if (!($mod instanceof \Nwidart\Modules\Module)) {
->>>>>>> 73eab74 (.)
             return [];
         }
 
@@ -444,9 +441,8 @@ class GetAllModelsByModuleNameAction
                 // 434    Parameter #1 $argument of class ReflectionClass constructor expects class-string<T of object>|T of object, string given.
                 try {
                     $reflection_class = new ReflectionClass($tmp->class);
-<<<<<<< HEAD
-<<<<<<< HEAD
                     if (!$reflection_class->isAbstract()) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -600,6 +596,8 @@ class GetAllModelsByModuleNameAction
                     if (!$reflection_class->isAbstract()) {
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

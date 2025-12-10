@@ -49,6 +49,7 @@ namespace Modules\Xot\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -109,15 +110,10 @@ use Override;
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
 use Override;
 use Modules\Xot\Contracts\UserContract;
-=======
-use Modules\Xot\Contracts\ProfileContract;
->>>>>>> f1d4085 (.)
-=======
-use Override;
-use Modules\Xot\Contracts\UserContract;
->>>>>>> 73eab74 (.)
 use Modules\Xot\Models\PulseAggregate;
 >>>>>>> 5a14301c (.)
 =======
@@ -253,17 +249,8 @@ class PulseAggregatePolicy extends XotBasePolicy
     /**
      * Determine whether the user can view any models.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
     public function viewAny(UserContract $user): bool
-=======
-    public function viewAny(ProfileContract $user): bool
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
-    public function viewAny(UserContract $user): bool
->>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.viewAny');
     }
@@ -271,15 +258,7 @@ class PulseAggregatePolicy extends XotBasePolicy
     /**
      * Determine whether the user can view the model.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function view(UserContract $user, PulseAggregate $_pulse_aggregate): bool
-=======
-    public function view(ProfileContract $user, PulseAggregate $pulse_aggregate): bool
->>>>>>> f1d4085 (.)
-=======
-    public function view(UserContract $user, PulseAggregate $_pulse_aggregate): bool
->>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.view');
     }
@@ -287,15 +266,7 @@ class PulseAggregatePolicy extends XotBasePolicy
     /**
      * Determine whether the user can create models.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function create(UserContract $user): bool
-=======
-    public function create(ProfileContract $user): bool
->>>>>>> f1d4085 (.)
-=======
-    public function create(UserContract $user): bool
->>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.create');
     }
@@ -303,15 +274,7 @@ class PulseAggregatePolicy extends XotBasePolicy
     /**
      * Determine whether the user can update the model.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function update(UserContract $user, PulseAggregate $_pulse_aggregate): bool
-=======
-    public function update(ProfileContract $user, PulseAggregate $pulse_aggregate): bool
->>>>>>> f1d4085 (.)
-=======
-    public function update(UserContract $user, PulseAggregate $_pulse_aggregate): bool
->>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.update');
     }
@@ -319,15 +282,7 @@ class PulseAggregatePolicy extends XotBasePolicy
     /**
      * Determine whether the user can delete the model.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function delete(UserContract $user, PulseAggregate $_pulse_aggregate): bool
-=======
-    public function delete(ProfileContract $user, PulseAggregate $pulse_aggregate): bool
->>>>>>> f1d4085 (.)
-=======
-    public function delete(UserContract $user, PulseAggregate $_pulse_aggregate): bool
->>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.delete');
     }
@@ -335,15 +290,7 @@ class PulseAggregatePolicy extends XotBasePolicy
     /**
      * Determine whether the user can restore the model.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function restore(UserContract $user, PulseAggregate $_pulse_aggregate): bool
-=======
-    public function restore(ProfileContract $user, PulseAggregate $pulse_aggregate): bool
->>>>>>> f1d4085 (.)
-=======
-    public function restore(UserContract $user, PulseAggregate $_pulse_aggregate): bool
->>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.restore');
     }
@@ -351,15 +298,7 @@ class PulseAggregatePolicy extends XotBasePolicy
     /**
      * Determine whether the user can permanently delete the model.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function forceDelete(UserContract $user, PulseAggregate $pulse_aggregate): bool
-=======
-    public function forceDelete(ProfileContract $user, PulseAggregate $pulse_aggregate): bool
->>>>>>> f1d4085 (.)
-=======
-    public function forceDelete(UserContract $user, PulseAggregate $pulse_aggregate): bool
->>>>>>> 73eab74 (.)
     {
         return $user->hasPermissionTo('pulse_aggregate.forceDelete');
     }

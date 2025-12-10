@@ -82,6 +82,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
 =======
@@ -191,6 +192,8 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
         if (!$this->shouldRun()) {
 >>>>>>> 5a14301c (.)
 =======
@@ -279,37 +282,5 @@ return new class extends XotBaseMigration {
             $table->index('type'); // For purging...
             $table->index(['period', 'type', 'aggregate', 'bucket']); // For aggregate queries...
         });
-<<<<<<< HEAD
-=======
-        if (! $this->shouldRun()) {
-            return;
-        }
-        // -- CREATE --
-        $this->tableCreate(
-            function (Blueprint $table): void {
-                $table->id();
-                $table->unsignedInteger('bucket');
-                $table->unsignedMediumInteger('period');
-                $table->string('type');
-                $table->mediumText('key');
-                match ($this->driver()) {
-                    'mariadb', 'mysql' => $table->char('key_hash', 16)->charset('binary')->virtualAs('unhex(md5(`key`))'),
-                    'pgsql' => $table->uuid('key_hash')->storedAs('md5("key")::uuid'),
-                    'sqlite' => $table->string('key_hash'),
-                    default => throw new InvalidArgumentException('Unsupported driver: '.$this->driver()),
-                };
-                $table->string('aggregate');
-                $table->decimal('value', 20, 2);
-                $table->unsignedInteger('count')->nullable();
-
-                $table->unique(['bucket', 'period', 'type', 'aggregate', 'key_hash']); // Force "on duplicate update"...
-                $table->index(['period', 'bucket']); // For trimming...
-                $table->index('type'); // For purging...
-                $table->index(['period', 'type', 'aggregate', 'bucket']); // For aggregate queries...
-            }
-        );
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
     }
 };

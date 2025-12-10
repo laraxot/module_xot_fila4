@@ -62,6 +62,7 @@ abstract class XotBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
     public function before(UserContract $user, string $_ability): ?bool
@@ -318,6 +319,9 @@ abstract class XotBasePolicy
     public function before(UserContract $user, string $_ability): null|bool
 >>>>>>> 73eab74 (.)
 >>>>>>> 88ea7103 (.)
+=======
+    public function before(UserContract $user, string $_ability): null|bool
+>>>>>>> 3310e9c6 (.)
     {
         return once(function () use ($user) {
             if ($user->hasRole('super-admin')) {

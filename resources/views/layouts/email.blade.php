@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 <!DOCTYPE html>
 <html>
 <head>
@@ -53,7 +59,11 @@ declare(strict_types=1);
     </div>
 </body>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </html>
 =======
 </html> 
 >>>>>>> f1d4085 (.)
+=======
+</html>
+>>>>>>> 73eab74 (.)

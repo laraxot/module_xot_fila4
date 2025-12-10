@@ -274,7 +274,7 @@ Le classi anonime nei test causano errori PHPStan perché l'analisi statica non 
 
 ## 🔗 Collegamenti
 
-- [PHPStan Level 9 Achievement](phpstan-level9-achievement.md)
+- [PHPStan level 10 Achievement](phpstan-level9-achievement.md)
 - [PHPStan Complete Guide](consolidated/phpstan-complete-guide.md)
 - [Testing Complete Guide](consolidated/testing-complete-guide.md)
 

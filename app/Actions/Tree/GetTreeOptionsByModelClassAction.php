@@ -46,7 +46,11 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 5a14301c (.)
      * @return array<int|string, string>
      */
+<<<<<<< HEAD
     public function execute(string $class, Model|callable|null $_where = null): array
+=======
+    public function execute(string $class, Model|callable|null $where = null): array
+>>>>>>> f1d4085 (.)
     {
         /** @var HasRecursiveRelationshipsContract $model */
 <<<<<<< HEAD
@@ -100,10 +104,12 @@ class GetTreeOptionsByModelClassAction
 =======
 >>>>>>> 5a14301c (.)
             /* @var HasRecursiveRelationshipsContract $row */
+<<<<<<< HEAD
             $key = $row->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] = is_string($row)
                 ? $row
                 : ((string) $row->getLabel());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,6 +308,11 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+            $this->options[$row->getKey()] = is_string($row) ? $row : (string) $row->getLabel();
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             $this->parse($row);
         }
 
@@ -311,6 +322,7 @@ class GetTreeOptionsByModelClassAction
     public function parse(HasRecursiveRelationshipsContract $model): void
     {
         foreach ($model->children as $child) {
+<<<<<<< HEAD
             /** @var HasRecursiveRelationshipsContract $child */
             $key = $child->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] =
@@ -327,6 +339,7 @@ class GetTreeOptionsByModelClassAction
 =======
 <<<<<<< HEAD
                 Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -539,6 +552,11 @@ class GetTreeOptionsByModelClassAction
 =======
                 Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
 >>>>>>> 5a14301c (.)
+=======
+=======
+            $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         }
     }
 }

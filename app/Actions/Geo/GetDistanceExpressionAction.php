@@ -114,6 +114,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 849568d9 (.)
 =======
@@ -646,6 +647,12 @@ use Spatie\QueueableAction\QueueableAction;
 =======
  *
 >>>>>>> 5a14301c (.)
+=======
+ *
+=======
+ * 
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
  * Questa action centralizza la logica di generazione dell'espressione SQL
  * per il calcolo della distanza tra due punti geografici.
  */
@@ -1098,6 +1105,7 @@ class GetDistanceExpressionAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 <<<<<<< HEAD
@@ -1246,6 +1254,8 @@ class GetDistanceExpressionAction
 >>>>>>> 16dc7ab0 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
     public function execute(
         float $latitude,
         float $longitude,
@@ -1263,6 +1273,7 @@ class GetDistanceExpressionAction
 
         if (null !== $alias) {
             $sql .= " AS {$alias}";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1536,6 +1547,11 @@ class GetDistanceExpressionAction
     public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
     {
 >>>>>>> 14edd1a1 (.)
+=======
+=======
+    public function execute(float $latitude, float $longitude, ?string $alias = null): Expression
+    {
+>>>>>>> ed734516 (.)
         $sql = "
             (6371 * acos(
                 cos(radians($latitude)) *
@@ -1548,6 +1564,7 @@ class GetDistanceExpressionAction
         
         if (null !== $alias) {
             $sql .= " AS $alias";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1865,10 +1882,14 @@ class GetDistanceExpressionAction
 >>>>>>> 63ac839b (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         }
 
         return DB::raw($sql);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2500,3 +2521,9 @@ class GetDistanceExpressionAction
 =======
 }
 >>>>>>> 5a14301c (.)
+=======
+}
+=======
+} 
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)

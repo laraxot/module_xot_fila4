@@ -33,11 +33,17 @@ class SearchTextInDbCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (empty($specificTables) || ! is_array($specificTables)) {
             $tables = collect(DB::select('SHOW TABLES'));
         } else {
             $tables = collect($specificTables);
         }
+=======
+        $tables = empty($specificTables)
+            ? collect(DB::select('SHOW TABLES'))
+            : collect($specificTables);
+>>>>>>> ed734516 (.)
 =======
         $tables = empty($specificTables)
             ? collect(DB::select('SHOW TABLES'))
@@ -61,8 +67,12 @@ class SearchTextInDbCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // Usa isset() invece di property_exists per oggetti stdClass
                 if (isset($table->$tableProp) && is_string($table->$tableProp)) {
+=======
+                if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
+>>>>>>> ed734516 (.)
 =======
                 if (property_exists($table, $tableProp) && is_string($table->$tableProp)) {
 >>>>>>> ed734516 (.)
@@ -123,7 +133,11 @@ class SearchTextInDbCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     $this->info("Found in column: {$column}");
+=======
+                    $this->info("Found in column: $column");
+>>>>>>> ed734516 (.)
 =======
                     $this->info("Found in column: $column");
 >>>>>>> ed734516 (.)

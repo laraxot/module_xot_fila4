@@ -60,6 +60,7 @@ class ListFilamentPanels extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -483,18 +484,29 @@ class ListFilamentPanels extends Command
 =======
 >>>>>>> 9db27d12 (.)
 =======
+=======
+>>>>>>> ed734516 (.)
             $providersPath = $module->getPath() . '/Providers';
             if (!is_dir($providersPath)) {
+=======
+            $providersPath = $module->getPath().'/Providers';
+            if (! is_dir($providersPath)) {
+>>>>>>> f1d4085 (.)
                 continue;
             }
 
             $providers = collect(scandir($providersPath))
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
                 ->filter(fn(string $file): bool => str_ends_with($file, 'ServiceProvider.php'));
 
             foreach ($providers as $provider) {
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
                 if (!class_exists($providerClass)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,11 +597,15 @@ class ListFilamentPanels extends Command
 >>>>>>> 7131bd09 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
                 ->filter(fn (string $file): bool => str_ends_with($file, 'ServiceProvider.php'));
 
             foreach ($providers as $provider) {
                 $providerClass = "Modules\\{$moduleName}\\Providers\\{$provider}";
                 if (! class_exists($providerClass)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -722,6 +738,9 @@ class ListFilamentPanels extends Command
                 $this->info("Found panel in {$moduleName}: {$provider}");
 >>>>>>> 249a0067 (.)
 =======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
                     continue;
                 }
 

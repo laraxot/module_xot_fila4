@@ -8,7 +8,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Actions\Table;
 
+<<<<<<< HEAD
 use Exception;
+=======
+>>>>>>> f1d4085 (.)
 use Filament\Actions\Action;
 use Filament\Resources\RelationManagers\RelationManager;
 use Modules\Xot\Actions\Export\ExportXlsByCollection;
@@ -21,6 +24,7 @@ class ExportXlsTableAction extends Action
     {
         parent::setUp();
         $this->translateLabel()
+<<<<<<< HEAD
             ->tooltip(__('xot::actions.export_xls'))
             // ->icon('fas-file-excel')
             ->icon('heroicon-o-arrow-down-tray')
@@ -67,6 +71,18 @@ class ExportXlsTableAction extends Action
                 if ($query === null) {
                     throw new Exception('Query is null');
                 }
+=======
+            
+            ->tooltip(__('xot::actions.export_xls'))
+             // ->icon('fas-file-excel')
+            ->icon('heroicon-o-arrow-down-tray')
+            ->action(static function (RelationManager $livewire) {
+                $livewire_class = $livewire::class;
+                $filename = class_basename($livewire).'-'.collect($livewire->tableFilters)->flatten()->implode('-').'.xlsx';
+                $transKey = app(GetTransKeyAction::class)->execute($livewire_class);
+                $transKey .= '.fields';
+                $query = $livewire->getFilteredTableQuery();
+>>>>>>> f1d4085 (.)
                 // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
                 $rows = $query->get();
                 /** @var array<int, string> $fields */
@@ -74,7 +90,11 @@ class ExportXlsTableAction extends Action
                 if (method_exists($livewire_class, 'getXlsFields')) {
                     $rawFields = $livewire_class::getXlsFields($livewire->tableFilters);
                     Assert::isArray($rawFields);
+<<<<<<< HEAD
 
+=======
+                    
+>>>>>>> f1d4085 (.)
                     // Ensure fields are properly formatted as array<int, string>
                     $fields = [];
                     foreach ($rawFields as $key => $field) {
@@ -90,6 +110,7 @@ class ExportXlsTableAction extends Action
             });
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,6 +365,12 @@ class ExportXlsTableAction extends Action
 =======
     public static function getDefaultName(): null|string
 >>>>>>> 5a14301c (.)
+=======
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
     {
         return 'export_xls';
     }

@@ -12,6 +12,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 249a0067 (.)
 use Illuminate\Database\Eloquent\Model;
@@ -79,6 +80,8 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -92,6 +95,7 @@ use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2850177 (.)
 >>>>>>> 3a08b27 (.)
 =======
@@ -102,6 +106,23 @@ use Webmozart\Assert\Assert;
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+use Illuminate\Support\Str;
+use Spatie\LaravelData\Data;
+use Spipu\Html2Pdf\Html2Pdf;
+use Webmozart\Assert\Assert;
+use Spatie\LaravelPdf\Enums\Unit;
+use Spatie\LaravelPdf\Facades\Pdf;
+use Spatie\LaravelPdf\Enums\Format;
+use Modules\Xot\Enums\PdfEngineEnum;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Storage;
+use Spatie\LaravelPdf\Enums\Orientation;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
 
 /**
  * Undocumented class.
@@ -134,6 +155,7 @@ class PdfData extends Data
 
     public string $dest = 'F';
     /*
+<<<<<<< HEAD
      * Dest can be :
      * I : send the file inline to the browser (default). The plug-in is used if available. The name given by name is used when one selects the "Save as" option on the link generating the PDF.
      * D : send to the browser and force a file download with the name given by name.
@@ -146,6 +168,21 @@ class PdfData extends Data
 
     // public static function make(Model $model = null, string $html = null): self
 
+=======
+        Dest can be :
+        I : send the file inline to the browser (default). The plug-in is used if available. The name given by name is used when one selects the "Save as" option on the link generating the PDF.
+        D : send to the browser and force a file download with the name given by name.
+        F : save to a local server file with the name given by name.
+        S : return the document as a string (name is ignored).
+        FI: equivalent to F + I option
+        FD: equivalent to F + D option
+        E : return the document as base64 mime multi-part email attachment
+        */
+
+    // public static function make(Model $model = null, string $html = null): self
+
+
+>>>>>>> f1d4085 (.)
     public PdfEngineEnum $engine = PdfEngineEnum::SPIPU;
 
     public string $html = '';
@@ -212,6 +249,7 @@ class PdfData extends Data
                 $html2pdf->writeHTML($html);
                 $html2pdf->output($this->getPath(), $this->dest);
                 break;
+<<<<<<< HEAD
 
             /*
              * case PdfEngineEnum::SPATIE:
@@ -240,6 +278,23 @@ class PdfData extends Data
 >>>>>>> 5a14301c (.)
         }
 
+=======
+                /*
+            case PdfEngineEnum::SPATIE:
+                Pdf::html($this->html)
+                ->orientation(Orientation::Portrait)
+                ->format(Format::A4)
+                ->margins(10, 10, 20, 0, Unit::Pixel)
+                // ->name(str_slug($project->nome).'-REPORT.pdf')
+                ->save($this->getPath());
+                ;
+                
+                break;
+                */
+        }
+
+
+>>>>>>> f1d4085 (.)
         $this->html = $html;
         // $this->engine->build($this);
 
@@ -254,6 +309,7 @@ class PdfData extends Data
         /**
          * @var non-falsy-string&view-string
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +451,12 @@ class PdfData extends Data
 =======
         $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
 >>>>>>> 5a14301c (.)
+=======
+        $view_name = mb_strtolower($module) . '::' . Str::kebab($model_name) . '.show.pdf';
+=======
+        $view_name = mb_strtolower($module).'::'.Str::kebab($model_name).'.show.pdf';
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
         $view_params = [
             'view' => $view_name,
             'row' => $model,
@@ -407,6 +469,7 @@ class PdfData extends Data
 
     public function getContent(): string
     {
+<<<<<<< HEAD
         Assert::notNull(
             $res = Storage::disk($this->disk)->get($this->filename),
 <<<<<<< HEAD
@@ -435,10 +498,14 @@ class PdfData extends Data
             '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 5a14301c (.)
         );
+=======
+        Assert::notNull($res = Storage::disk($this->disk)->get($this->filename), '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> f1d4085 (.)
 
         return $res;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -555,10 +622,18 @@ class PdfData extends Data
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
     public function view(string $view, array $params = []): self
     {
         if (!view()->exists($view)) {
             throw new Exception('View ' . $view . ' not found');
+=======
+    public function view(string $view, array $params=[]): self
+    {
+        if(!view()->exists($view)){
+            throw new Exception('View '.$view.' not found');
+>>>>>>> f1d4085 (.)
         }
         $out = view($view, $params);
         $this->html = $out->render();

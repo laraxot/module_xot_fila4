@@ -81,6 +81,7 @@ class ApplyMetatagToPanelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 5a14301c (.)
@@ -255,6 +256,11 @@ class ApplyMetatagToPanelAction
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+=======
+            
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
             return $panel
                 // @phpstan-ignore argument.type
                 ->colors($metatag->getColors())

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 return [
     /*
+<<<<<<< HEAD
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -13,6 +14,17 @@ return [
      * | found in a intuitive way.
      * |
      */
+=======
+    |--------------------------------------------------------------------------
+    | Exception Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used in Exceptions thrown throughout the system.
+    | Regardless where it is placed, a button can be listed here so it is easily
+    | found in a intuitive way.
+    |
+    */
+>>>>>>> f1d4085 (.)
 
     'backend' => [
         'access' => [
@@ -26,6 +38,10 @@ return [
                 'not_found' => 'Questo ruolo non esiste.',
                 'update_error' => "C'è stato un problema durante l'aggiornamento di questo ruolo. Si prega di riprovare più tardi.",
             ],
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
             'users' => [
                 'cant_deactivate_self' => 'Non puoi eseguire questa operazione su te stesso.',
                 'cant_delete_self' => 'Non puoi cancellare te stesso.',
@@ -44,6 +60,10 @@ return [
             ],
         ],
     ],
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1d4085 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -56,8 +76,15 @@ return [
                 'success' => 'Il tuo account è stato confermato con successo!',
                 'resent' => "Una nuova e-mail di conferma è stata inviata all'indirizzo registrato.",
             ],
+<<<<<<< HEAD
             'deactivated' => 'Il tuo account è stato disattivato.',
             'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
+=======
+
+            'deactivated' => 'Il tuo account è stato disattivato.',
+            'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
+
+>>>>>>> f1d4085 (.)
             'password' => [
                 'change_mismatch' => 'Questa non è la tua vecchia password.',
             ],

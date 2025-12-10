@@ -92,21 +92,7 @@ use function Safe\preg_replace;
 >>>>>>> 0e51323 (.)
 =======
 use Spatie\QueueableAction\QueueableAction;
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use function Safe\preg_replace;
 <<<<<<< HEAD
 >>>>>>> a5dccfe (.)
@@ -190,23 +176,7 @@ use function Safe\preg_replace;
 
 /**
  * Action per normalizzare i nomi dei driver.
-<<<<<<< HEAD
  *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- *
-=======
- * 
->>>>>>> a12f125f4a (.)
-=======
- *
->>>>>>> b93ef594b4 (.)
-=======
- * 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
  * Questa action centralizza la logica di normalizzazione dei nomi dei driver
  * per evitare duplicazione di codice e garantire consistenza in tutta l'applicazione.
  */
@@ -352,6 +322,7 @@ class NormalizeDriverNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -512,11 +483,15 @@ class NormalizeDriverNameAction
 =======
      * @param string $driver Nome del driver da normalizzare
 >>>>>>> 5a14301c (.)
+=======
+     * @param  string  $driver  Nome del driver da normalizzare
+>>>>>>> ca9324a4 (.)
      * @return string Nome normalizzato
      */
     public function execute(string $driver): string
     {
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -618,10 +593,13 @@ class NormalizeDriverNameAction
 >>>>>>> 3849ae0e (.)
 =======
 >>>>>>> f0e04b64 (.)
+=======
+>>>>>>> ca9324a4 (.)
         $result = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
 
         // Assicuriamo che il risultato sia sempre una stringa
         return is_string($result) ? $result : '';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -778,21 +756,7 @@ class NormalizeDriverNameAction
 =======
         return preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower($driver)));
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> ca9324a4 (.)
     }
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
-} 
->>>>>>> a12f125f4a (.)
-=======
-}
->>>>>>> b93ef594b4 (.)
-=======
-} 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)

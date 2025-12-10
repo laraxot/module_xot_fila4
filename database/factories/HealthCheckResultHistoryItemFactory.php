@@ -9,23 +9,7 @@ use Modules\Xot\Models\HealthCheckResultHistoryItem;
 
 /**
  * HealthCheckResultHistoryItem Factory
-<<<<<<< HEAD
  *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- *
-=======
- * 
->>>>>>> a12f125f4a (.)
-=======
- *
->>>>>>> b93ef594b4 (.)
-=======
- * 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
  * @extends Factory<HealthCheckResultHistoryItem>
  */
 class HealthCheckResultHistoryItemFactory extends Factory
@@ -37,23 +21,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
         return [
             'check_name' => $this->faker->randomElement([
                 'DatabaseCheck',
-<<<<<<< HEAD
                 'CacheCheck',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                'CacheCheck',
-=======
-                'CacheCheck', 
->>>>>>> a12f125f4a (.)
-=======
-                'CacheCheck',
->>>>>>> b93ef594b4 (.)
-=======
-                'CacheCheck', 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
                 'QueueCheck',
                 'StorageCheck',
                 'MemoryCheck',
@@ -72,6 +40,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 
     public function ok(): static
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,6 +326,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> ca9324a4 (.)
             'status' => 'ok',
             'notification_message' => null,
         ]);
@@ -364,6 +336,7 @@ class HealthCheckResultHistoryItemFactory extends Factory
 
     public function failed(): static
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -645,6 +618,9 @@ class HealthCheckResultHistoryItemFactory extends Factory
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> ca9324a4 (.)
             'status' => 'failed',
             'notification_message' => $this->faker->sentence(),
         ]);

@@ -48,8 +48,8 @@ class GetModelClassByModelNameAction
         if (null === $modelClass) {
             return app(GetFirstModelClassByModelNameAction::class)->execute($modelName);
         }
-<<<<<<< HEAD
         Assert::string($modelClass, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,6 +278,8 @@ class GetModelClassByModelNameAction
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 
         return $modelClass;
     }

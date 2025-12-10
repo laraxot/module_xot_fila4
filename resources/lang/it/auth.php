@@ -1,6 +1,5 @@
 <?php
 
-<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -15,6 +14,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +255,8 @@ declare(strict_types=1);
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 return [
     'failed' => 'Queste credenziali non corrispondono ai nostri dati.',
     'password' => 'La password fornita non è corretta.',
@@ -327,19 +329,4 @@ return [
         'profile' => 'Profilo Utente',
         'settings' => 'Impostazioni Utente',
     ],
-<<<<<<< HEAD
 ];
-=======
-<<<<<<< HEAD
-];
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-]; 
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)

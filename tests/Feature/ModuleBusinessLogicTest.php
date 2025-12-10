@@ -4,35 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Feature;
 
-<<<<<<< HEAD
 use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
-=======
-<<<<<<< HEAD
-use Illuminate\Database\QueryException;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Modules\Xot\Models\Module;
-use Tests\TestCase;
-=======
-use Modules\Xot\Models\Module;
-use Tests\TestCase;
-use Illuminate\Foundation\Testing\RefreshDatabase;
->>>>>>> a12f125f4a (.)
-=======
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Modules\Xot\Models\Module;
-use Tests\TestCase;
->>>>>>> b93ef594b4 (.)
-=======
-use Modules\Xot\Models\Module;
-use Tests\TestCase;
-use Illuminate\Foundation\Testing\RefreshDatabase;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -129,15 +104,7 @@ class ModuleBusinessLogicTest extends TestCase
         Module::factory()->create(['slug' => 'unique-module']);
 
         // Act & Assert - Try to create module with same slug
-<<<<<<< HEAD
         $this->expectException(QueryException::class);
-=======
-<<<<<<< HEAD
-        $this->expectException(QueryException::class);
-=======
-        $this->expectException(\Illuminate\Database\QueryException::class);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
         Module::create([
             'name' => 'Another Module',
@@ -411,15 +378,7 @@ class ModuleBusinessLogicTest extends TestCase
             unset($moduleData[$field]);
 
             // Act & Assert
-<<<<<<< HEAD
             $this->expectException(QueryException::class);
-=======
-<<<<<<< HEAD
-            $this->expectException(QueryException::class);
-=======
-            $this->expectException(\Illuminate\Database\QueryException::class);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 
             Module::create($moduleData);
         }
@@ -507,17 +466,3 @@ class ModuleBusinessLogicTest extends TestCase
         $this->assertEquals(42, $moduleErrorLog[0]['context']['line']);
     }
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)

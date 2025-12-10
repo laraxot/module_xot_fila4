@@ -178,7 +178,11 @@ When contributing to PHPStan documentation:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **2025-01-10**: PHPStan level 10 configuration implemented
+=======
+- **2025-01-10**: PHPStan level 9 configuration implemented
+>>>>>>> ca9324a4 (.)
 =======
 - **2025-01-10**: PHPStan level 9 configuration implemented
 >>>>>>> ca9324a4 (.)

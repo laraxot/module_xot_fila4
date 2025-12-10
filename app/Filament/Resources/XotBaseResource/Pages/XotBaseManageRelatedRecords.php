@@ -4,12 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Filament\Resources\XotBaseResource\Pages;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 use Filament\Schemas\Components\Component;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39,16 +33,6 @@ use Filament\Schemas\Schema;
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
-<<<<<<< HEAD
-=======
-=======
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Form;
-use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecords;
-use Filament\Tables\Actions\Action;
-use Filament\Tables\Actions\CreateAction;
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 <<<<<<< HEAD
@@ -108,6 +92,7 @@ use Illuminate\Support\Str;
 use Modules\Xot\Filament\Traits\HasXotTable;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -285,6 +270,8 @@ use Filament\Resources\Pages\ManageRelatedRecords as FilamentManageRelatedRecord
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 
 /**
  * Classe base per la gestione delle relazioni nelle risorse Filament.
@@ -631,59 +618,15 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      *
      * @return array<string, TextColumn>
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     #[Override]
     public function getTableColumns(): array
     {
         return [
             'id' => TextColumn::make('id')->label('ID')->sortable(),
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => TextColumn::make('id')
-                ->label('ID')
-                ->sortable(),
-
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => TextColumn::make('id')->label('ID')->sortable(),
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             'name' => TextColumn::make('name')
                 ->label('Nome')
                 ->searchable()
                 ->sortable(),
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             'created_at' => TextColumn::make('created_at')
                 ->label('Data Creazione')
                 ->dateTime('d/m/Y H:i')
@@ -699,63 +642,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      */
     public function getTableHeaderActions(): array
     {
-<<<<<<< HEAD
         return [
             'create' => CreateAction::make()->label('Crea Nuovo')->disableCreateAnother(),
         ];
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return [
-            'create' => CreateAction::make()->label('Crea Nuovo')->disableCreateAnother(),
-        ];
-=======
-        $actions = [];
-        $resource = static::class;
-        // if (method_exists($resource, 'canCreate')) {
-        //     $actions['create'] = Tables\Actions\CreateAction::make()
-        //         ->iconButton()
-        //         ->tooltip(__('user::actions.create'))
-        //         ->visible(fn (?Model $record): bool => $resource::canCreate());
-        // }
-
-        // if (method_exists($resource, 'canAssociate')) {
-        //     $actions['associate'] = Tables\Actions\AssociateAction::make()
-        //         ->label('')
-        //         ->icon('heroicon-o-paper-clip')
-        //         ->tooltip(__('user::actions.associate_user'))
-        //         ->visible(fn (?Model $record): bool => $resource::canAssociate());
-
-        // }
-
-        if (method_exists($resource, 'canAttach')) {
-            $actions['attach'] = AttachAction::make()
-                ->label('')
-                ->icon('heroicon-o-link')
-                ->tooltip(__('user::actions.attach_user'))
-                ->visible(fn (?Model $record): bool => $resource::canAttach())
-                // ->recordSelectOptionsQuery(fn (Builder $query) => 
-                //     $query->addSelect(DB::raw("CONCAT(nome, ' ', cognome, ' (ID: ', matricola, ')') as display_name"))
-                // )
-            // ->recordTitleAttribute('display_name')
-            ->preloadRecordSelect();
-        }
-        return $actions;
->>>>>>> a12f125f4a (.)
-=======
-        return [
-            'create' => CreateAction::make()->label('Crea Nuovo')->disableCreateAnother(),
-        ];
->>>>>>> b93ef594b4 (.)
-=======
-        return [
-            'create' => CreateAction::make()
-                ->label('Crea Nuovo')
-                ->disableCreateAnother(),
-        ];
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     /**
@@ -770,6 +659,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
             'edit' => Action::make('edit')
                 ->label('Modifica')
                 ->icon('heroicon-o-pencil')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -994,21 +884,13 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+                ->url(fn(Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
+>>>>>>> ca9324a4 (.)
             // 'view' => Action::make('view')
             //     ->label('Visualizza')
             //     ->icon('heroicon-o-eye')
             //     ->url(fn (Model $record): string => static::getResource()::getUrl('view', ['record' => $record])),
-<<<<<<< HEAD
-=======
-=======
-                ->url(fn (Model $record): string => static::getResource()::getUrl('edit', ['record' => $record])),
-
-            'view' => Action::make('view')
-                ->label('Visualizza')
-                ->icon('heroicon-o-eye')
-                ->url(fn (Model $record): string => static::getResource()::getUrl('view', ['record' => $record])),
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
         ];
     }
 
@@ -1027,14 +909,6 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * ->disableCreateAnother(),
      * ]);
      * }.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
      *
      * public function table(Table $table): Table
      * {
@@ -1064,64 +938,14 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
      * ]);
      * }
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
-     
-    public function table(Table $table): Table
-    {
-        return $table
-            ->columns($this->getTableColumns())
-            ->headerActions($this->getTableHeaderActions())
-            ->actions($this->getTableActions())
-            ->bulkActions([])
-            ->emptyStateActions([
-                'create' => CreateAction::make()
-                    ->label('Crea Nuovo')
-                    ->disableCreateAnother(),
-            ]);
-    }
-    */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
     /**
      * Configura il form per la creazione/modifica dei record correlati.
      */
     public function form(Schema $form): Schema
     {
-<<<<<<< HEAD
         /** @var array<Component> $schema */
         $schema = $this->getFormSchema();
         return $form->components($schema);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        /** @var array<Component> $schema */
-=======
-        /** @var array<\Filament\Schemas\Components\Component> $schema */
->>>>>>> a12f125f4a (.)
-=======
-        /** @var array<Component> $schema */
->>>>>>> b93ef594b4 (.)
-        $schema = $this->getFormSchema();
-        return $form->components($schema);
-=======
-    /**
-     * Configura il form per la creazione/modifica dei record correlati.
-     */
-    public function form(Form $form): Form
-    {
-        /** @var array<\Filament\Forms\Components\Component> $schema */
-        $schema = $this->getFormSchema();
-        return $form->schema($schema);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1147,15 +971,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
         $relationship = static::getRelationshipName();
 
         $titleString = '';
-<<<<<<< HEAD
         if ($recordTitle instanceof Htmlable) {
-=======
-<<<<<<< HEAD
-        if ($recordTitle instanceof Htmlable) {
-=======
-        if ($recordTitle instanceof \Illuminate\Contracts\Support\Htmlable) {
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
             $titleString = $recordTitle->toHtml();
         } else {
             $titleString = (string) $recordTitle;
@@ -1190,6 +1006,7 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->prepend($titleString.' - ')
 =======
             ->prepend($titleString . ' - ')
@@ -1331,6 +1148,9 @@ abstract class XotBaseManageRelatedRecords extends FilamentManageRelatedRecords
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+            ->prepend($titleString . ' - ')
+>>>>>>> ca9324a4 (.)
             ->toString();
     }
 }

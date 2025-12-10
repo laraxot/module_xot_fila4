@@ -277,10 +277,10 @@ Questa struttura deriva dall'architettura Livewire+Filament in cui:
 
 ## Collegamenti Correlati
 
-<<<<<<< HEAD
 - [Livewire Properties Documentation](https://livewire.laravel.com/docs/properties)
 - [Filament Forms Documentation](https://filamentphp.com/docs/3.x/forms/installation)
 - [RegistrationWidget Example](../../User/docs/filament/widgets/registration-widget.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,3 +337,5 @@ Questa struttura deriva dall'architettura Livewire+Filament in cui:
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)

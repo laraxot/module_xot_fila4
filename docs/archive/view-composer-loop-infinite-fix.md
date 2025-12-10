@@ -290,6 +290,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 >>>>>>> 5a14301c (.)
 =======
@@ -461,12 +462,10 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 - [View Composer Laravel Docs](https://laravel.com/docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/docs/container)
-=======
-- [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
-- [Container Resolution Laravel](https://laravel.com/project_docs/container)
->>>>>>> 6cba4fe (.)
 
 ---
 

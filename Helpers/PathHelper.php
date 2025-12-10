@@ -48,23 +48,7 @@ use Illuminate\Support\Str;
 >>>>>>> 5a14301c (.)
 =======
 /**
-<<<<<<< HEAD
  * Helper per la gestione dei percorsi nel progetto SaluteOra.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- * Helper per la gestione dei percorsi nel progetto SaluteOra.
-=======
- * Helper per la gestione dei percorsi nel progetto TechPlanner.
->>>>>>> a12f125f4a (.)
-=======
- * Helper per la gestione dei percorsi nel progetto SaluteOra.
->>>>>>> b93ef594b4 (.)
-=======
- * Helper per la gestione dei percorsi nel progetto SaluteOra.
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
  */
 >>>>>>> 5a14301c (.)
 =======
@@ -86,12 +70,6 @@ class PathHelper
 {
     /**
      * Percorso base del progetto.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,6 +118,7 @@ class PathHelper
     public static string $modulesBasePath = '/var/www/html/<nome progetto>/laravel/Modules';
 =======
     public static string $modulesBasePath = '/var/www/html/saluteora/laravel/Modules';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -535,27 +514,13 @@ class PathHelper
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 
     /**
      * Ottiene il percorso completo di un modulo.
      *
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $moduleName  Nome del modulo
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> a12f125f4a (.)
-=======
-     * @param  string  $moduleName  Nome del modulo
->>>>>>> b93ef594b4 (.)
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return string Percorso completo del modulo
      */
     public static function modulePath(string $moduleName): string
@@ -586,23 +551,7 @@ class PathHelper
     /**
      * Ottiene il percorso dei modelli di un modulo.
      *
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $moduleName  Nome del modulo
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> a12f125f4a (.)
-=======
-     * @param  string  $moduleName  Nome del modulo
->>>>>>> b93ef594b4 (.)
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return string Percorso dei modelli
      */
     public static function modelsPath(string $moduleName): string
@@ -633,23 +582,7 @@ class PathHelper
     /**
      * Ottiene il percorso delle migrazioni di un modulo.
      *
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $moduleName  Nome del modulo
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> a12f125f4a (.)
-=======
-     * @param  string  $moduleName  Nome del modulo
->>>>>>> b93ef594b4 (.)
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return string Percorso delle migrazioni
      */
     public static function migrationsPath(string $moduleName): string
@@ -680,23 +613,7 @@ class PathHelper
     /**
      * Ottiene il percorso dei seeder di un modulo.
      *
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $moduleName  Nome del modulo
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> a12f125f4a (.)
-=======
-     * @param  string  $moduleName  Nome del modulo
->>>>>>> b93ef594b4 (.)
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return string Percorso dei seeder
      */
     public static function seedersPath(string $moduleName): string
@@ -727,23 +644,7 @@ class PathHelper
     /**
      * Ottiene il percorso dei controller di un modulo.
      *
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $moduleName  Nome del modulo
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> a12f125f4a (.)
-=======
-     * @param  string  $moduleName  Nome del modulo
->>>>>>> b93ef594b4 (.)
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return string Percorso dei controller
      */
     public static function controllersPath(string $moduleName): string
@@ -774,23 +675,7 @@ class PathHelper
     /**
      * Ottiene il percorso delle risorse Filament di un modulo.
      *
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $moduleName  Nome del modulo
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> a12f125f4a (.)
-=======
-     * @param  string  $moduleName  Nome del modulo
->>>>>>> b93ef594b4 (.)
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return string Percorso delle risorse Filament
      */
     public static function filamentResourcesPath(string $moduleName): string
@@ -821,23 +706,7 @@ class PathHelper
     /**
      * Ottiene il percorso dei provider di un modulo.
      *
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $moduleName  Nome del modulo
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> a12f125f4a (.)
-=======
-     * @param  string  $moduleName  Nome del modulo
->>>>>>> b93ef594b4 (.)
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return string Percorso dei provider
      */
     public static function providersPath(string $moduleName): string
@@ -868,23 +737,7 @@ class PathHelper
     /**
      * Ottiene il percorso delle viste di un modulo.
      *
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $moduleName  Nome del modulo
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> a12f125f4a (.)
-=======
-     * @param  string  $moduleName  Nome del modulo
->>>>>>> b93ef594b4 (.)
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return string Percorso delle viste
      */
     public static function viewsPath(string $moduleName): string
@@ -915,28 +768,13 @@ class PathHelper
     /**
      * Verifica se un percorso è corretto secondo le convenzioni del progetto.
      *
-<<<<<<< HEAD
      * @param  string  $path  Percorso da verificare
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $path  Percorso da verificare
-=======
-     * @param string $path Percorso da verificare
->>>>>>> a12f125f4a (.)
-=======
-     * @param  string  $path  Percorso da verificare
->>>>>>> b93ef594b4 (.)
-=======
-     * @param string $path Percorso da verificare
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return bool True se il percorso è corretto, false altrimenti
      */
     public static function isValidPath(string $path): bool
     {
         // Verifica che il percorso contenga /laravel/Modules/ e non solo /Modules/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1095,6 +933,8 @@ class PathHelper
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> ca9324a4 (.)
         if (Str::contains($path, '/saluteora/Modules/')) {
             return false;
         }
@@ -1103,6 +943,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (Str::contains($path, '/saluteora/') && !Str::contains($path, '/saluteora/laravel/')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1426,6 +1267,8 @@ class PathHelper
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
             return false;
         }
 
@@ -1435,27 +1278,12 @@ class PathHelper
     /**
      * Corregge un percorso errato secondo le convenzioni del progetto.
      *
-<<<<<<< HEAD
      * @param  string  $path  Percorso da correggere
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $path  Percorso da correggere
-=======
-     * @param string $path Percorso da correggere
->>>>>>> a12f125f4a (.)
-=======
-     * @param  string  $path  Percorso da correggere
->>>>>>> b93ef594b4 (.)
-=======
-     * @param string $path Percorso da correggere
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return string Percorso corretto
      */
     public static function correctPath(string $path): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1609,6 +1437,8 @@ class PathHelper
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         // Corregge /var/www/html/saluteora/Modules/ in /var/www/html/saluteora/laravel/Modules/
         if (Str::contains($path, '/saluteora/Modules/')) {
             return str_replace('/saluteora/Modules/', '/saluteora/laravel/Modules/', $path);
@@ -1671,6 +1501,7 @@ class PathHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
             return str_replace('/var/www/html/Modules/', '/var/www/html/saluteora/laravel/Modules/', $path);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1970,6 +1801,8 @@ class PathHelper
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         }
 
         return $path;
@@ -1983,12 +1816,6 @@ class PathHelper
     public static function getModules(): array
     {
         $modulesPath = self::$modulesBasePath;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2018,61 +1845,12 @@ class PathHelper
         $directories = File::directories($modulesPath);
 
         return array_map(basename(...), $directories);
-<<<<<<< HEAD
-=======
-=======
-        
-=======
-
->>>>>>> b93ef594b4 (.)
-        if (!File::exists($modulesPath)) {
-            return [];
-        }
-
-        /** @var array<string> $directories */
-        $directories = File::directories($modulesPath);
-<<<<<<< HEAD
-        
-        return array_map(fn(string $path): string => basename($path), $directories);
->>>>>>> a12f125f4a (.)
-=======
-
-        return array_map(basename(...), $directories);
->>>>>>> b93ef594b4 (.)
-=======
-        
-        if (!File::exists($modulesPath)) {
-            return [];
-        }
-        
-        /** @var array<string> $directories */
-        $directories = File::directories($modulesPath);
-        
-        return array_map(fn(string $path): string => basename($path), $directories);
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     }
 
     /**
      * Verifica se un modulo esiste.
      *
-<<<<<<< HEAD
      * @param  string  $moduleName  Nome del modulo
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $moduleName  Nome del modulo
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> a12f125f4a (.)
-=======
-     * @param  string  $moduleName  Nome del modulo
->>>>>>> b93ef594b4 (.)
-=======
-     * @param string $moduleName Nome del modulo
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
      * @return bool True se il modulo esiste, false altrimenti
      */
     public static function moduleExists(string $moduleName): bool

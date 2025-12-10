@@ -1,26 +1,8 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 {{-- Vista per il widget AppointmentOverviewWidget --}}
 <x-filament-widgets::widget>
         {{-- Grid responsive per gli stati degli appuntamenti (ottimizzato per 17 stati) --}}
@@ -75,20 +57,4 @@ declare(strict_types=1);
             @endforelse
         </div>
 
-<<<<<<< HEAD
 </x-filament-widgets::widget>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-</x-filament-widgets::widget>
-=======
-</x-filament-widgets::widget>
->>>>>>> a12f125f4a (.)
-=======
-</x-filament-widgets::widget>
->>>>>>> b93ef594b4 (.)
-=======
-</x-filament-widgets::widget>
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)

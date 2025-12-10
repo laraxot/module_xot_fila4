@@ -50,6 +50,7 @@ namespace Modules\Xot\Exceptions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3fbbf1f5 (.)
@@ -164,22 +165,10 @@ use Override;
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
 use Override;
 use Exception;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Override;
->>>>>>> b93ef594b4 (.)
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 use Illuminate\Http\Response;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
@@ -200,58 +189,19 @@ class ModelDeletionException extends ApplicationException
 {
     private readonly string $model;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> 6cba4fe (.)
     public function __construct(
         private readonly int $id,
         string $model,
     ) {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
         $this->model = Str::afterLast($model, '\\');
     }
 
     #[Override]
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-    public function __construct(private readonly int $id, string $model)
-    {
-        $this->model = Str::afterLast($model, '\\');
-    }
-
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-        $this->model = Str::afterLast($model, '\\');
-    }
-
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
     public function status(): int
     {
         return Response::HTTP_BAD_REQUEST;
     }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     #[Override]
     public function help(): string
     {
@@ -271,6 +221,7 @@ class ModelDeletionException extends ApplicationException
 =======
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -582,17 +533,13 @@ class ModelDeletionException extends ApplicationException
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         }
 
         return $res;
     }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
     #[Override]
     public function error(): string
     {
@@ -626,6 +573,7 @@ class ModelDeletionException extends ApplicationException
 >>>>>>> b7afadf9 (.)
         if (!\is_string($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -934,6 +882,8 @@ class ModelDeletionException extends ApplicationException
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
         }
 
         return $res;

@@ -848,18 +848,18 @@ class ContactDashboard extends Dashboard
         return [
             'overview' => [
                 'label' => 'Overview',
-                'url' => route('filament.<nome progetto>.dashboard'),
-                'isActive' => request()->routeIs('filament.<nome progetto>.dashboard'),
+                'url' => route('filament.quaeris.dashboard'),
+                'isActive' => request()->routeIs('filament.quaeris.dashboard'),
             ],
             'analytics' => [
                 'label' => 'Analytics',
-                'url' => route('filament.<nome progetto>.analytics'),
-                'isActive' => request()->routeIs('filament.<nome progetto>.analytics'),
+                'url' => route('filament.quaeris.analytics'),
+                'isActive' => request()->routeIs('filament.quaeris.analytics'),
             ],
             'reports' => [
                 'label' => 'Reports',
-                'url' => route('filament.<nome progetto>.reports'),
-                'isActive' => request()->routeIs('filament.<nome progetto>.reports'),
+                'url' => route('filament.quaeris.reports'),
+                'isActive' => request()->routeIs('filament.quaeris.reports'),
             ],
         ];
     }

@@ -46,23 +46,7 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 5a14301c (.)
      * @return array<int|string, string>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function execute(string $class, Model|callable|null $_where = null): array
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function execute(string $class, Model|callable|null $_where = null): array
-=======
-    public function execute(string $class, Model|callable|null $where = null): array
->>>>>>> f1d4085 (.)
-=======
-    public function execute(string $class, Model|callable|null $_where = null): array
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    public function execute(string $class, Model|callable|null $_where = null): array
->>>>>>> 300ef70 (.)
     {
         /** @var HasRecursiveRelationshipsContract $model */
 <<<<<<< HEAD
@@ -116,20 +100,11 @@ class GetTreeOptionsByModelClassAction
 =======
 >>>>>>> 5a14301c (.)
             /* @var HasRecursiveRelationshipsContract $row */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
             $key = $row->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] = is_string($row)
                 ? $row
                 : ((string) $row->getLabel());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,6 +378,8 @@ class GetTreeOptionsByModelClassAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
             $this->parse($row);
         }
 
@@ -412,8 +389,6 @@ class GetTreeOptionsByModelClassAction
     public function parse(HasRecursiveRelationshipsContract $model): void
     {
         foreach ($model->children as $child) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             /** @var HasRecursiveRelationshipsContract $child */
             $key = $child->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] =
@@ -424,6 +399,7 @@ class GetTreeOptionsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
                 Str::repeat('---', $child->depth).'   '.$child->getLabel();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,6 +699,8 @@ class GetTreeOptionsByModelClassAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
         }
     }
 }

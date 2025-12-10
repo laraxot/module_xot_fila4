@@ -12,6 +12,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
 =======
 I conflitti Git `<<<<<<< HEAD` presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
@@ -19,6 +20,9 @@ I conflitti Git `<<<<<<< HEAD` presenti nel codice sono **residui di merge passa
 =======
 I conflitti Git presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
 >>>>>>> 71586de2 (.)
+=======
+I conflitti Git `<<<<<<< HEAD` presenti nel codice sono **residui di merge passati non completati**. Non sono conflitti attivi (Git status mostra 0 unmerged files), ma **marker lasciati nel codice** che:
+>>>>>>> 53d6a6ba (.)
 
 1. **Bloccano l'esecuzione**: File con marker non sono validi PHP
 2. **Degradano qualità**: PHPStan e linter falliscono
@@ -155,6 +159,7 @@ public function test_example() {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Identifico conflitti
 
 # Conto sezioni conflittuali
@@ -171,6 +176,15 @@ grep -c "<<<<<<< HEAD" file.php
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+```bash
+# Identifico conflitti
+grep -n "<<<<<<< HEAD" file.php
+
+# Conto sezioni conflittuali
+grep -c "<<<<<<< HEAD" file.php
+```
+>>>>>>> 53d6a6ba (.)
 
 ### Fase 2: Decisione Strategica
 
@@ -207,18 +221,24 @@ grep -c "<<<<<<< HEAD" file.php
 ### Tracking
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Conta conflitti rimanenti
 =======
+=======
+>>>>>>> 53d6a6ba (.)
 ```bash
 # Conta conflitti rimanenti
 find . -type f -name "*.php" -exec grep -l "<<<<<<< HEAD" {} \; 2>/dev/null | wc -l
 ```
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
 
 # Conta conflitti rimanenti
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 
 ## Best Practices Emerse
 
@@ -255,8 +275,11 @@ I conflitti sono stati causati da:
 **Git Hooks:**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # pre-commit: blocca commit con conflitti
 =======
+=======
+>>>>>>> 53d6a6ba (.)
 ```bash
 # pre-commit: blocca commit con conflitti
 if git diff --cached --name-only | xargs grep -l "<<<<<<< HEAD" 2>/dev/null; then
@@ -264,10 +287,13 @@ if git diff --cached --name-only | xargs grep -l "<<<<<<< HEAD" 2>/dev/null; the
     exit 1
 fi
 ```
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
 # pre-commit: blocca commit con conflitti
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 
 **CI/CD:**
 - Aggiungere check per marker conflitti

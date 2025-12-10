@@ -55,6 +55,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -474,6 +475,11 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Spipu\Html2Pdf\Html2Pdf;
+use Symfony\Component\HttpFoundation\StreamedResponse;
+>>>>>>> 53d6a6ba (.)
 use Webmozart\Assert\Assert;
 
 class StreamDownloadPdfAction
@@ -485,6 +491,7 @@ class StreamDownloadPdfAction
     /**
      * Genera un PDF dall'HTML fornito.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1103,6 +1110,9 @@ class StreamDownloadPdfAction
      * @param  string|null  $view  Nome della vista Blade
      * @param  array<mixed, mixed>|null  $data  Dati da passare alla vista
 >>>>>>> d2b0a27 (.)
+=======
+     * @param  string  $html  Contenuto HTML da convertire
+>>>>>>> 53d6a6ba (.)
      * @param  string  $filename  Nome del file PDF
      * @return StreamedResponse
      */
@@ -1119,12 +1129,10 @@ class StreamDownloadPdfAction
             if (! is_array($data)) {
                 $data = [];
             }
-            /** @var array<string, mixed> $viewData */
-            $viewData = $data;
-            $html = view($view, $viewData)->render();
+            $html = view($view, $data)->render();
         }
-<<<<<<< HEAD
         Assert::string($html, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+<<<<<<< HEAD
 =======
         Assert::string($html);
 >>>>>>> f1d4085 (.)
@@ -1175,10 +1183,13 @@ class StreamDownloadPdfAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
         $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [10, 10, 10, 10]);
         $html2pdf->writeHTML($html);
 
         // Genera e scarica il PDF
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1771,5 +1782,10 @@ class StreamDownloadPdfAction
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+        return response()->streamDownload(function () use ($html2pdf) {
+            $html2pdf->output();
+        }, 'report-'.$filename);
+>>>>>>> 53d6a6ba (.)
     }
 }

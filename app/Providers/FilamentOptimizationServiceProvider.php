@@ -103,6 +103,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         DB::listen(function ($query): void {
 =======
         DB::listen(function ($query) {
@@ -124,11 +125,15 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+        DB::listen(function ($query) {
+>>>>>>> 53d6a6ba (.)
             // Log query che superano la soglia di tempo
             $threshold = config('filament_optimization.monitoring.slow_query_threshold', 1000);
 
             if ($query->time > $threshold) {
                 Log::warning('Slow query detected', [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,10 +164,13 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
                     'sql' => $query->sql,
                     'bindings' => $query->bindings,
                     'time' => $query->time,
                     'connection' => $query->connectionName,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,6 +202,8 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 ]);
             }
         });
@@ -425,6 +435,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 249a0067 (.)
                     // PHPStan: $module è \Nwidart\Modules\Module
@@ -460,6 +471,11 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+                    $configPath = $module->getPath().'/Config/config.php';
+                    if (file_exists($configPath)) {
+                        $configs[$module->getName()] = require $configPath;
+>>>>>>> 53d6a6ba (.)
                     }
                 }
 
@@ -573,6 +589,7 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
                    str_ends_with($path, '/admin') ||
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                    preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
 =======
                    preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
@@ -591,6 +608,9 @@ class FilamentOptimizationServiceProvider extends ServiceProvider
 =======
                    preg_match('/\/(user|<nome progetto>|cms|geo|notify|tenant)\/admin/', $path);
 >>>>>>> 249a0067 (.)
+=======
+                   preg_match('/\/(user|techplanner|cms|geo|notify|tenant)\/admin/', $path);
+>>>>>>> 53d6a6ba (.)
         }
 
 =======

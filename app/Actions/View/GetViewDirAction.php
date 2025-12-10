@@ -69,6 +69,7 @@ class GetViewDirAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -83,21 +84,9 @@ class GetViewDirAction
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
         $view_dir = $pack_dir.'/'.$relative_path;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $view_dir = $pack_dir . '/' . $relative_path;
-=======
-        $view_dir = $pack_dir.'/'.$relative_path;
->>>>>>> f1d4085 (.)
-=======
-        $view_dir = $pack_dir . '/' . $relative_path;
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-        $view_dir = $pack_dir . '/' . $relative_path;
->>>>>>> 300ef70 (.)
 
         return str_replace('/', \DIRECTORY_SEPARATOR, $view_dir);
 =======

@@ -41,6 +41,7 @@ use InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -600,6 +601,10 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+use Modules\Xot\Models\InformationSchemaTable;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 53d6a6ba (.)
 
 /**
  * Counts records for a given model class using optimized table information.
@@ -649,7 +654,6 @@ class CountAction
      */
     public function execute(string $modelClass): int
     {
-        /* @phpstan-ignore-next-line staticMethod.notFound, return.type */
         return InformationSchemaTable::getModelCount($modelClass);
     }
 }

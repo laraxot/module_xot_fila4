@@ -658,6 +658,7 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
 <<<<<<< HEAD
@@ -666,6 +667,8 @@ abstract class XotBasePage extends FilamentPage implements HasForms
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
         return static::$model;
     }
 

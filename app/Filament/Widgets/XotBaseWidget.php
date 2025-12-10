@@ -63,6 +63,7 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d86d643a (.)
@@ -189,6 +190,8 @@ use Filament\Schemas\Schema;
 >>>>>>> 14edd1a1 (.)
 =======
 >>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
@@ -2553,7 +2556,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                     $res = $merge1;
                 }
 
-                /** @var array<string, mixed> */
                 return $res;
 
                 // dddx($model->with('studio')->relationsToArray());
@@ -2582,7 +2584,6 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
                 //    $attributes['type'] = $model->type->value;
                 // }
 
-                /** @var array<string, mixed> */
                 return $attributes;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2619,6 +2620,7 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $fieldsWithNull;
 =======
         return $fields;
@@ -2633,6 +2635,9 @@ abstract class XotBaseWidget extends FilamentWidget implements HasActions, HasFo
 =======
         return $fields;
 >>>>>>> 249a0067 (.)
+=======
+        return $fields;
+>>>>>>> 53d6a6ba (.)
     }
 
     /**

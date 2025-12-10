@@ -22,6 +22,7 @@ namespace Modules\Xot\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BladeUI\Icons\Factory as BladeIconsFactory;
 use Exception;
 <<<<<<< HEAD
@@ -97,6 +98,11 @@ use Exception;
 >>>>>>> 249a0067 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+use BladeUI\Icons\Exceptions\CannotRegisterIconSet;
+use BladeUI\Icons\Factory as BladeIconsFactory;
+use Exception;
+>>>>>>> 53d6a6ba (.)
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\File;
@@ -113,6 +119,7 @@ use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Nwidart\Modules\Traits\PathNamespace;
 use Throwable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -144,6 +151,8 @@ use Modules\Xot\Actions\Livewire\RegisterLivewireComponentsAction;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Nwidart\Modules\Traits\PathNamespace;
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -605,6 +614,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
 =======
@@ -613,6 +623,8 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 53d6a6ba (.)
             throw new Exception('name is empty on ['.static::class.']');
         }
 
@@ -881,6 +893,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
 =======
             throw new Exception('name is empty on [' . static::class . ']');
@@ -1040,6 +1053,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
             throw new Exception('name is empty on [' . static::class . ']');
 >>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 53d6a6ba (.)
         }
 
         $viewPath = module_path($this->name, 'resources/views');
@@ -1072,6 +1088,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
         try {
             return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'lang');
         } catch (Throwable $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1129,6 +1146,8 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 >>>>>>> b93ef594b4 (.)
 =======
         } catch (\Throwable $e) {
+=======
+>>>>>>> 53d6a6ba (.)
             return base_path('Modules/'.$this->name.'/lang');
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
@@ -1191,6 +1210,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('name is empty on ['.static::class.']');
 =======
             throw new Exception('name is empty on [' . static::class . ']');
@@ -1350,6 +1370,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
             throw new Exception('name is empty on [' . static::class . ']');
 >>>>>>> ca9324a4 (.)
+=======
+            throw new Exception('name is empty on ['.static::class.']');
+>>>>>>> 53d6a6ba (.)
         }
 
         $langPath = $this->getLangPath();
@@ -1557,11 +1580,14 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 
             foreach ($files as $file) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 if (! is_string($file)) {
                     continue;
                 }
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 $content = File::getRequire($file);
                 $info = pathinfo($file);
                 $key = $this->nameLower.'::'.$info['filename'];
@@ -1583,6 +1609,7 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (Exception $e) {
 =======
         } catch (Exception|CannotRegisterIconSet $e) {
@@ -1599,6 +1626,9 @@ abstract class XotBaseServiceProvider extends ServiceProvider
 =======
         } catch (Exception $e) {
 >>>>>>> 249a0067 (.)
+=======
+        } catch (Exception|CannotRegisterIconSet $e) {
+>>>>>>> 53d6a6ba (.)
             // Ignore missing component view path
             dddx([
                 'name' => $this->name,

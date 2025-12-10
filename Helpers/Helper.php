@@ -23570,6 +23570,7 @@ if (! function_exists('removeQueryParams')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $key = is_string($param) ? $param : (string) $param;
             unset($query[$key]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
 =======
@@ -23914,6 +23915,13 @@ if (! function_exists('removeQueryParams')) {
 >>>>>>> 14edd1a1 (.)
 =======
 >>>>>>> 16dc7ab0 (.)
+=======
+            unset($query[$param]); // loop through the array of parameters we wish to remove and unset the parameter from the query array
+        }
+
+        // 924    Parameter #1 $querydata of function http_build_query expects array|object, array|string given.
+        return $query ? ($url.'?'.http_build_query($query)) : $url; // rebuild the URL with the remaining parameters, don't append the "?" if there aren't any query parameters left
+>>>>>>> 53d6a6ba (.)
     }
 }
 
@@ -28209,6 +28217,7 @@ if (! function_exists('debugStack')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
         if (! extension_loaded('xdebug')) {
@@ -28666,6 +28675,10 @@ if (! function_exists('debugStack')) {
         if (! extension_loaded('xdebug')) {
             throw new RuntimeException('XDebug must be installed to use this function');
 >>>>>>> 249a0067 (.)
+=======
+        if (! extension_loaded('xdebug')) {
+            throw new RuntimeException('XDebug must be installed to use this function');
+>>>>>>> 53d6a6ba (.)
         }
 
         if (
@@ -28674,6 +28687,7 @@ if (! function_exists('debugStack')) {
                 defined('XDEBUG_PATH_EXCLUDE')
         ) {
             xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> cf971011 (.)
@@ -28725,6 +28739,8 @@ if (! function_exists('debugStack')) {
 =======
             xdebug_set_filter(constant('XDEBUG_FILTER_TRACING'), constant('XDEBUG_PATH_EXCLUDE'), [__DIR__.
 >>>>>>> 16dc7ab0 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 '/../../vendor/']);
         }
 
@@ -33922,6 +33938,7 @@ function safe_object_call($object, string $method, ...$args)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34064,6 +34081,8 @@ function safe_object_call($object, string $method, ...$args) {
 =======
 =======
     if (!is_object($object)) {
+=======
+>>>>>>> 53d6a6ba (.)
         return null;
     }
 

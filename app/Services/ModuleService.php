@@ -153,6 +153,7 @@ class ModuleService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private static ?self $_instance = null;
 =======
     private static null|self $_instance = null;
@@ -441,6 +442,9 @@ class ModuleService
     private static null|self $_instance = null;
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+    private static ?self $_instance = null;
+>>>>>>> 53d6a6ba (.)
 
     /**
      * getInstance.
@@ -499,6 +503,7 @@ class ModuleService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! (self::$_instance instanceof self)) {
             self::$_instance = new self;
 =======
@@ -644,6 +649,10 @@ class ModuleService
             self::$_instance = new self();
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+        if (! (self::$_instance instanceof self)) {
+            self::$_instance = new self;
+>>>>>>> 53d6a6ba (.)
         }
 
         return self::$_instance;
@@ -675,21 +684,12 @@ class ModuleService
     public function getModels(): array
     {
         /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
          * if (null == $module) {
          * return [];
          * }
          */
         $mod = Module::find($this->name);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -710,27 +710,14 @@ class ModuleService
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
-=======
-        if (!($mod instanceof \Nwidart\Modules\Module)) {
-            return [];
-        }
-
-        $mod_path = $mod->getPath() . '/Models';
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        if (null == $module) {
-            return [];
-        }
-        */
-        $mod = Module::find($this->name);
-        if (! $mod instanceof \Nwidart\Modules\Module) {
->>>>>>> d2b0a27 (.)
             return [];
         }
 
         $mod_path = $mod->getPath().'/Models';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1157,6 +1144,8 @@ class ModuleService
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
         $mod_path = str_replace(['\\', '/'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $mod_path);
 
         $files = File::files($mod_path);
@@ -1211,6 +1200,7 @@ class ModuleService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -1499,6 +1489,9 @@ class ModuleService
         $ns = 'Modules\\' . $mod->getName() . '\\Models'; // con la barra davanti non va il search ?
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+        $ns = 'Modules\\'.$mod->getName().'\\Models'; // con la barra davanti non va il search ?
+>>>>>>> 53d6a6ba (.)
         foreach ($files as $file) {
             $filename = $file->getRelativePathname();
             $ext = '.php';
@@ -1600,24 +1593,6 @@ class ModuleService
 
                 $name = mb_substr($filename, 0, -mb_strlen($ext));
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-                /**
-                 * @var class-string
-                 */
-                $class = $ns . '\\' . $name;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-                
->>>>>>> d2b0a27 (.)
                 /**
                  * @var class-string
                  */
@@ -1628,16 +1603,7 @@ class ModuleService
 <<<<<<< HEAD
 <<<<<<< HEAD
                 $class = $ns.'\\'.$name;
-<<<<<<< HEAD
                 // Strict comparison using === between stdClass and null will always evaluate to false.
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-                //Strict comparison using === between stdClass and null will always evaluate to false.
->>>>>>> d2b0a27 (.)
 
                 // if ($tmp === null) {
                 //    continue;
@@ -1678,6 +1644,7 @@ class ModuleService
 
                 try {
                     $reflection_class = new ReflectionClass($tmp->class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1916,6 +1883,9 @@ class ModuleService
                     if (!$reflection_class->isAbstract()) {
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+                    if (! $reflection_class->isAbstract()) {
+>>>>>>> 53d6a6ba (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

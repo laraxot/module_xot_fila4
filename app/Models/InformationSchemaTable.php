@@ -225,6 +225,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b7afadf9 (.)
 =======
@@ -295,6 +296,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 53d6a6ba (.)
  * @mixin \Eloquent
  */
 class InformationSchemaTable extends Model

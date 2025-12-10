@@ -26,8 +26,6 @@ namespace Modules\Xot\Filament\Resources\CacheResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\Filament\Resources\CacheResource;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 =======
 =======
@@ -87,32 +85,6 @@ use Modules\Xot\Filament\Resources\CacheResource;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 5a14301c (.)
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-
-=======
-
-
-
-
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-
-
-
-
-
->>>>>>> f1d4085 (.)
-=======
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-
->>>>>>> 300ef70 (.)
 class CreateCache extends XotBaseCreateRecord
 {
     protected static string $resource = CacheResource::class;

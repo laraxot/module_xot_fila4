@@ -9,6 +9,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Tests\Feature;
 
 =======
@@ -456,8 +457,14 @@ namespace Modules\Xot\Tests\Feature;
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 300ef70 (.)
+=======
+namespace Modules\Xot\Tests\Feature;
+
+>>>>>>> 53d6a6ba (.)
 use Illuminate\Database\Eloquent\Relations\Pivot;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\BaseMorphPivot;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
@@ -860,6 +867,8 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\BaseMorphPivot;
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3224,6 +3233,7 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -3241,3 +3251,5 @@ class BaseMorphPivotBusinessLogicTest extends TestCase
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)

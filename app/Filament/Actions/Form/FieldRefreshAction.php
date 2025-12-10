@@ -63,6 +63,7 @@ class FieldRefreshAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(function ($record, Set $set): void {
 =======
 =======
@@ -99,6 +100,9 @@ class FieldRefreshAction extends Action
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+            ->action(function ($state, $set, $record) {
+>>>>>>> 53d6a6ba (.)
                 $name = $this->getName();
                 if ($name === null) {
                     return;
@@ -153,6 +157,7 @@ class FieldRefreshAction extends Action
                 $method = 'get'.Str::studly($name).'';
                 $value = $record->$method();
                 $set($name, $value);
+<<<<<<< HEAD
                 Notification::make()
                     ->title('Ricalcolato '.$name)
                     ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
@@ -188,6 +193,11 @@ class FieldRefreshAction extends Action
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+                Notification::make()
+                    ->title('Ricalcolato '.$name)
+                    ->body('vecchio valore: '.$state.' nuovo valore: '.$value)
+>>>>>>> 53d6a6ba (.)
                     ->success()
                     ->send();
             });

@@ -55,6 +55,7 @@ namespace Modules\Xot\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\Team;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -88,6 +89,10 @@ use DateTime;
 use BackedEnum;
 use DateTime;
 >>>>>>> 71586de2 (.)
+=======
+use BackedEnum;
+use DateTime;
+>>>>>>> 53d6a6ba (.)
 use Filament\Models\Contracts\FilamentUser;
 use Filament\Support\Contracts\HasLabel;
 <<<<<<< HEAD
@@ -846,6 +851,7 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string|null $last_name
  * @property string|null $full_name
  * @property BackedEnum&HasLabel $type
+<<<<<<< HEAD
  * @property string|null $password
  * @property string|int|null $current_team_id
  * @property string|null $phone
@@ -912,10 +918,13 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
  * @property string|null $last_name
  * @property string|null $full_name
  * @property BackedEnum&HasLabel $type
+=======
+>>>>>>> 53d6a6ba (.)
  * @property string|null $password
  * @property string|int|null $current_team_id
  * @property string|null $phone
  * @property string|null $email
+<<<<<<< HEAD
  * @property \DateTime|null $email_verified_at
 =======
  * @property DateTime|null $email_verified_at
@@ -1061,6 +1070,9 @@ use Spatie\Permission\Exceptions\PermissionDoesNotExist;
 >>>>>>> d86d643a (.)
 =======
  * @property \DateTime|null $email_verified_at
+=======
+ * @property DateTime|null $email_verified_at
+>>>>>>> 53d6a6ba (.)
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Role> $roles
  * @property \Illuminate\Database\Eloquent\Collection<int, Tenant> $tenants
  *
@@ -1437,6 +1449,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * Update the model in the database.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      *
 <<<<<<< HEAD
@@ -1580,10 +1593,13 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      * Update the model in the database.
      *
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
      * @return bool
      */
     /**
      * Get a relationship.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
@@ -1616,6 +1632,10 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
      * @param  string  $key
 >>>>>>> 5842a556 (.)
+=======
+     *
+     * @param  string  $key
+>>>>>>> 53d6a6ba (.)
      * @return mixed|null
      */
     public function getRelationValue($key);
@@ -2094,6 +2114,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string|int|Role|BackedEnum  $role
 =======
 <<<<<<< HEAD
@@ -2270,6 +2291,9 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
      * @param  string|int|Role|BackedEnum  $role
 >>>>>>> 5842a556 (.)
+=======
+     * @param  string|int|Role|BackedEnum  $role
+>>>>>>> 53d6a6ba (.)
      * @return self
      */
     public function removeRole($role);
@@ -2283,6 +2307,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 
     /**
      * A model may have multiple roles.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2307,6 +2332,8 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
      */
     public function roles(): BelongsToMany;
 
@@ -2471,6 +2498,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
      *
      * @throws PermissionDoesNotExist|GuardDoesNotMatch
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2811,4 +2839,7 @@ interface UserContract extends Authenticatable, Authorizable, CanResetPassword, 
 =======
     public function hasPermissionTo($permission, ?string $guardName = null): bool;
 >>>>>>> 5842a556 (.)
+=======
+    public function hasPermissionTo($permission, ?string $guardName = null): bool;
+>>>>>>> 53d6a6ba (.)
 }

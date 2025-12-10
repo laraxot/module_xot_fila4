@@ -167,6 +167,7 @@ use Modules\Xot\Contracts\ProfileContract;
 /**
  * Modules\Xot\Models\Feed.
  *
+<<<<<<< HEAD
  * @method static \Modules\Xot\Database\Factories\FeedFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Feed  newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Feed  newQuery()
@@ -233,6 +234,9 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+ * @mixin IdeHelperFeed
+>>>>>>> 53d6a6ba (.)
  * @mixin \Eloquent
  */
 class Feed extends BaseModel

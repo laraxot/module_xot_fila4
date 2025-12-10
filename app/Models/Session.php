@@ -300,6 +300,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @mixin IdeHelperSession
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
 =======
@@ -355,6 +356,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 53d6a6ba (.)
  * @mixin \Eloquent
  */
 class Session extends BaseModel

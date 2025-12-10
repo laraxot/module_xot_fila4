@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
 =======
@@ -250,3 +251,5 @@ public function processData(array $data): void
 **🏆 STATUS**: PERFETTO - PHPStan Level 9 CLEAN  
 **📊 QUALITÀ CODICE**: Maximum Type Safety Achieved
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 53d6a6ba (.)

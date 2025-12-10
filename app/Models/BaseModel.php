@@ -16,6 +16,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -29,11 +30,14 @@ namespace Modules\Xot\Models;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 53d6a6ba (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Modules\Xot\Traits\Updater;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,10 +63,13 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 
 /**
  * Class BaseModel.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,6 +89,11 @@ abstract class BaseModel extends Model
 =======
     use HasFactory;
 >>>>>>> f1570712 (.)
+=======
+abstract class BaseModel extends Model
+{
+    use HasFactory;
+>>>>>>> 53d6a6ba (.)
 
     // use Searchable;
     // //use Cachable;
@@ -103,6 +115,7 @@ abstract class BaseModel extends Model
     protected $perPage = 30;
 
     protected $connection = 'xot';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,6 +180,8 @@ abstract class BaseModel extends Model
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 
     /** @var list<string> */
     protected $fillable = ['id'];
@@ -451,6 +466,7 @@ abstract class BaseModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -471,4 +487,6 @@ abstract class BaseModel extends Model
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 }

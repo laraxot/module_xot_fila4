@@ -1,9 +1,8 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,6 +307,8 @@ declare(strict_types=1);
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
 return [
     'navigation' => [
         'name' => 'Cache Lock',
@@ -381,20 +382,4 @@ return [
             'lock_extended' => 'Durata del lock estesa',
         ],
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
 ];
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-];
-=======
-]; 
->>>>>>> f1d4085 (.)
-=======
-];
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-];
->>>>>>> 300ef70 (.)

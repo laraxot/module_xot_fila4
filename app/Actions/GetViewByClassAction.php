@@ -108,8 +108,6 @@ class GetViewByClassAction
      * @param  array<string, mixed>  $params  Parametri da passare alla vista
      * @param  string|null  $viewName  Nome personalizzato della vista
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function execute(string $class, array $params = [], ?string $viewName = null): View
 =======
 =======
@@ -143,30 +141,6 @@ class GetViewByClassAction
     {
         $viewName ??= $this->getViewNameFromClass($class);
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
-=======
->>>>>>> 300ef70 (.)
-    public function execute(string $class, array $params = [], null|string $viewName = null): View
-    {
-        $viewName ??= $this->getViewNameFromClass($class);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    public function execute(string $class, array $params = [], ?string $viewName = null): View
-    {
-        $viewName = $viewName ?? $this->getViewNameFromClass($class);
-        
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
         /** @var view-string $viewName */
         return view($viewName, $params);
     }
@@ -472,9 +446,8 @@ class GetViewByClassAction
         $class_name = Str::kebab(class_basename($class));
 
         // Costruisci il percorso della view
-<<<<<<< HEAD
-<<<<<<< HEAD
         return $module_low.'::pages.'.$class_name;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -688,5 +661,7 @@ class GetViewByClassAction
         return $module_low . '::pages.' . $class_name;
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
     }
 }

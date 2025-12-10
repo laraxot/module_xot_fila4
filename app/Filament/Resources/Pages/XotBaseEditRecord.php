@@ -586,28 +586,37 @@ abstract class XotBaseEditRecord extends FilamentEditRecord
     public static function canDelete(Model $record): bool
     {
         $resource = static::$resource;
+<<<<<<< HEAD
 
         $result = $resource::canDelete($record);
+=======
+>>>>>>> 53d6a6ba (.)
 
-        return is_bool($result) ? $result : false;
+        return $resource::canDelete($record);
     }
 
     public static function canForceDelete(Model $record): bool
     {
         $resource = static::$resource;
+<<<<<<< HEAD
 
         $result = $resource::canForceDelete($record);
+=======
+>>>>>>> 53d6a6ba (.)
 
-        return is_bool($result) ? $result : false;
+        return $resource::canForceDelete($record);
     }
 
     public static function canRestore(Model $record): bool
     {
         $resource = static::$resource;
+<<<<<<< HEAD
 
         $result = $resource::canRestore($record);
+=======
+>>>>>>> 53d6a6ba (.)
 
-        return is_bool($result) ? $result : false;
+        return $resource::canRestore($record);
     }
 >>>>>>> 53d6a6ba (.)
 =======

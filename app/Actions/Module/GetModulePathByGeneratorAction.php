@@ -141,6 +141,7 @@ class GetModulePathByGeneratorAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -176,6 +177,8 @@ class GetModulePathByGeneratorAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
         $relativePath = Config::string('modules.paths.generator.'.$generatorPath.'.path');
 =======
 <<<<<<< HEAD
@@ -238,8 +241,8 @@ class GetModulePathByGeneratorAction
             $e->getMessage().
                 ']');
         }
-<<<<<<< HEAD
         Assert::string($res, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         Assert::string($res, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
@@ -776,6 +779,8 @@ class GetModulePathByGeneratorAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
 
         return $res;
     }

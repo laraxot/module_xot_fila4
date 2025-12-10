@@ -1,29 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
->>>>>>> 300ef70 (.)
 <x-filament::page>
     <div class="space-y-6">
         <div class="p-6 bg-white rounded-xl shadow dark:bg-gray-800">
@@ -62,20 +41,4 @@ declare(strict_types=1);
     </script>
     @endscript
     --}}
-<<<<<<< HEAD
-<<<<<<< HEAD
 </x-filament::page>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-</x-filament::page>
-=======
-</x-filament::page> 
->>>>>>> f1d4085 (.)
-=======
-</x-filament::page>
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-</x-filament::page>
->>>>>>> 300ef70 (.)

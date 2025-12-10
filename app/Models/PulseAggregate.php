@@ -166,6 +166,7 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 /**
@@ -276,6 +277,9 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+ * @mixin IdeHelperPulseAggregate
+>>>>>>> 53d6a6ba (.)
  * @mixin \Eloquent
  */
 class PulseAggregate extends BaseModel

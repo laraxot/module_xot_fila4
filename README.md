@@ -43,23 +43,7 @@
 [![Traits](https://img.shields.io/badge/traits-15+-blue.svg)](app/Models/Traits/)
 
 <div align="center">
-<<<<<<< HEAD
-<<<<<<< HEAD
   <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
-=======
-  <img src="https://raw.githubusercontent.com/laraxot/xot/main/project_docs/assets/xot-banner.png" alt="Xot Banner" width="800">
->>>>>>> f1d4085 (.)
-=======
-  <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-  <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
->>>>>>> 300ef70 (.)
   <br>
   <em>🎯 Il modulo base che POTENZIA tutti gli altri moduli Laraxot!</em>
 </div>

@@ -54,6 +54,7 @@ namespace Modules\Xot\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -93,6 +94,8 @@ use Modules\Xot\Database\Factories\ExtraFactory;
 use Illuminate\Support\Carbon;
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 53d6a6ba (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ExtraContract;
@@ -397,6 +400,7 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
 =======
 =======
@@ -459,6 +463,9 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
         Assert::notNull($this->extra_attributes, '[' . __FILE__ . '][' . __LINE__ . ']');
 >>>>>>> 300ef70 (.)
 >>>>>>> 6dcebf8a (.)
+=======
+        Assert::notNull($this->extra_attributes, '['.__FILE__.']['.__LINE__.']');
+>>>>>>> 53d6a6ba (.)
 
         return $this->extra_attributes->modelScope();
     }
@@ -486,55 +493,14 @@ abstract class BaseExtra extends BaseModel implements ExtraContract
      *
      * @return array<string, string>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> f1d4085 (.)
-=======
-    #[Override]
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-    #[Override]
->>>>>>> 300ef70 (.)
     protected function casts(): array
     {
         return [
             'extra_attributes' => SchemalessAttributes::class,
-<<<<<<< HEAD
-<<<<<<< HEAD
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
-=======
-
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
-
->>>>>>> f1d4085 (.)
-=======
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
->>>>>>> 73eab74 (.)
->>>>>>> d2b0a27 (.)
-=======
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
->>>>>>> 300ef70 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

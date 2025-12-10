@@ -341,6 +341,7 @@ class ArtisanService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // da fare anche in noconsole, e magari mettere un policy
         $module_name = Request::input('module', '');
 <<<<<<< HEAD
@@ -547,12 +548,18 @@ class ArtisanService
 =======
         if (! is_string($module_name)) {
 >>>>>>> 43d67f21 (.)
+=======
+        // da fare anche in noconsole, e magari mettere un policy
+        $module_name = Request::input('module', '');
+        if (! is_string($module_name)) {
+>>>>>>> 53d6a6ba (.)
             $module_name = '';
         }
         switch ($act) {
             case 'migrate':
                 DB::purge('mysql');
                 DB::reconnect('mysql');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3124,10 +3131,15 @@ class ArtisanService
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> 249a0067 (.)
+=======
+                if ($module_name !== '') {
+                    echo '<h3>Module '.$module_name.'</h3>';
+>>>>>>> 53d6a6ba (.)
 
                     return self::exe('module:migrate '.$module_name.' --force');
                 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if ($handler === null) {
@@ -3136,6 +3148,8 @@ class ArtisanService
 =======
 =======
 >>>>>>> 249a0067 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 return self::exe('migrate --force');
 
             case 'routelist':
@@ -3147,12 +3161,15 @@ class ArtisanService
             case 'optimize':
                 return self::exe('optimize');
             case 'clear':
+<<<<<<< HEAD
 =======
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 echo self::exe('cache:clear').PHP_EOL;
                 echo self::exe('config:clear').PHP_EOL;
                 echo self::exe('event:clear').PHP_EOL;
@@ -3168,6 +3185,7 @@ class ArtisanService
                 echo self::errorClear().PHP_EOL;
                 echo self::debugbarClear().PHP_EOL;
                 echo PHP_EOL.'DONE'.PHP_EOL;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3202,6 +3220,8 @@ class ArtisanService
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 break;
             case 'clearcache':
                 return self::exe('cache:clear');
@@ -3218,6 +3238,7 @@ class ArtisanService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // -------------------------------------------------------------------
 =======
 <<<<<<< HEAD
@@ -3245,6 +3266,9 @@ class ArtisanService
 =======
                 // -------------------------------------------------------------------
 >>>>>>> 5842a556 (.)
+=======
+                // -------------------------------------------------------------------
+>>>>>>> 53d6a6ba (.)
             case 'debugbar:clear':
                 self::debugbarClear();
                 break;
@@ -3254,6 +3278,7 @@ class ArtisanService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // ------------------------------------------------------------------
 =======
 <<<<<<< HEAD
@@ -3281,6 +3306,9 @@ class ArtisanService
 =======
                 // ------------------------------------------------------------------
 >>>>>>> 5842a556 (.)
+=======
+                // ------------------------------------------------------------------
+>>>>>>> 53d6a6ba (.)
 
             case 'module-list':
                 return self::exe('module:list');
@@ -3290,6 +3318,7 @@ class ArtisanService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3311,10 +3340,13 @@ class ArtisanService
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 return self::exe('module:disable '.$module_name);
             case 'module-enable':
                 return self::exe('module:enable '.$module_name);
                 // ----------------------------------------------------------------------
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3338,12 +3370,15 @@ class ArtisanService
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 53d6a6ba (.)
             case 'error':
             case 'error-show':
                 return self::errorShow()->render();
             case 'error-clear':
                 return self::errorClear();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3376,6 +3411,8 @@ class ArtisanService
 >>>>>>> e59778ae (.)
 =======
 >>>>>>> 5842a556 (.)
+=======
+>>>>>>> 53d6a6ba (.)
                 // -------------------------------------------------------------------------
             case 'spatiecache-clear':
                 /* da vedere se e' necessaria
@@ -3386,6 +3423,7 @@ class ArtisanService
                  * }
                  */
                 // case 'spatiecache-clear1': return ArtisanService::exe('responsecache:clear'); //The command "responsecache:clear" does not exist.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3427,6 +3465,11 @@ class ArtisanService
             default:
                 return '';
 >>>>>>> 5a14301c (.)
+=======
+
+            default:
+                return '';
+>>>>>>> 53d6a6ba (.)
         }
 
         return '';
@@ -5864,7 +5907,7 @@ class ArtisanService
 =======
 >>>>>>> 5842a556 (.)
             return $output.'[<pre>'.Artisan::output().'</pre>]'; // dato che mi carico solo le route minime menufull.delete non esiste.. impostare delle route comuni.
-        } catch (\Exception $exception) {
+        } catch (Exception $exception) {
             // throw new Exception('['.__LINE__.']['.class_basename(__CLASS__).']');
             return '[<pre>'.$exception->getMessage().'</pre>]';
 <<<<<<< HEAD

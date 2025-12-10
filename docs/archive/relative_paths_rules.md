@@ -42,6 +42,7 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    [ERRATO](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/README.md)
 =======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/docs/README.md)
@@ -61,6 +62,9 @@ Questa regola è fondamentale per garantire la portabilità della documentazione
 =======
    [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/docs/README.md)
 >>>>>>> 71f31700 (.)
+=======
+   [ERRATO](/var/www/html/saluteora/laravel/Modules/Xot/docs/README.md)
+>>>>>>> 53d6a6ba (.)
    ```
 
 2. **MAI utilizzare percorsi che iniziano con /**:

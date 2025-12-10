@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -363,3 +364,5 @@ Per accedere alla documentazione dettagliata originale, vedere il backup in:
 - [SaluteOra Module](../SaluteOra/project_docs/)
 - [Original Documentation Backup](../../../docs-consolidation-backup-*/Xot-docs-original/)
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> 53d6a6ba (.)

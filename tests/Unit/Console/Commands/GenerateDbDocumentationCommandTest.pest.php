@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,11 +245,15 @@ uses(TestCase::class);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+use Modules\Xot\Tests\TestCase;
+>>>>>>> 4dafbb257 (.)
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 use Modules\Xot\Console\Commands\GenerateDbDocumentationCommand;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce6fc085 (.)
@@ -325,10 +330,15 @@ uses(\Modules\Xot\Tests\TestCase::class);
 >>>>>>> 091f883c (.)
 
 beforeEach(function (): void {
+=======
+
+beforeEach(function () {
+>>>>>>> 4dafbb257 (.)
     $this->testSchemaPath = storage_path('tests/schema.json');
     $this->testOutputDir = storage_path('tests/docs');
 
     // Create test directory if it doesn't exist
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
@@ -740,6 +750,10 @@ beforeEach(function (): void {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+    if (!File::exists(dirname($this->testSchemaPath))) {
+        File::makeDirectory(dirname($this->testSchemaPath), 0o755, true);
+>>>>>>> 4dafbb257 (.)
     }
 
     // Create a test schema file
@@ -785,7 +799,11 @@ beforeEach(function (): void {
     }
 });
 
+<<<<<<< HEAD
 afterEach(function (): void {
+=======
+afterEach(function () {
+>>>>>>> 4dafbb257 (.)
     // Clean up test files
     if (File::exists($this->testSchemaPath)) {
         File::delete($this->testSchemaPath);
@@ -795,7 +813,11 @@ afterEach(function (): void {
     }
 });
 
+<<<<<<< HEAD
 test('it generates database documentation', function (): void {
+=======
+test('it generates database documentation', function () {
+>>>>>>> 4dafbb257 (.)
     // Run the command
     $exitCode = Artisan::call('xot:generate-db-documentation', [
         '--schema' => $this->testSchemaPath,
@@ -806,6 +828,7 @@ test('it generates database documentation', function (): void {
     expect($exitCode)->toBe(0);
 
     // Check if output files were created
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1058,10 +1081,13 @@ test('it generates database documentation', function (): void {
 =======
 >>>>>>> 16dc7ab0 (.)
 >>>>>>> 01502290 (.)
+=======
+>>>>>>> 4dafbb257 (.)
     expect(File::exists($this->testOutputDir . '/database-documentation.md'))
         ->toBeTrue()
         ->and(File::exists($this->testOutputDir . '/tables/users.md'))
         ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1374,6 +1400,11 @@ test('it generates database documentation', function (): void {
 });
 
 test('it handles missing schema file', function (): void {
+=======
+});
+
+test('it handles missing schema file', function () {
+>>>>>>> 4dafbb257 (.)
     // Delete the schema file
     File::delete($this->testSchemaPath);
 
@@ -1387,7 +1418,11 @@ test('it handles missing schema file', function (): void {
     expect($exitCode)->not->toBe(0);
 });
 
+<<<<<<< HEAD
 test('it handles invalid schema file', function (): void {
+=======
+test('it handles invalid schema file', function () {
+>>>>>>> 4dafbb257 (.)
     // Write invalid JSON to the schema file
     file_put_contents($this->testSchemaPath, 'invalid json');
 
@@ -1401,7 +1436,11 @@ test('it handles invalid schema file', function (): void {
     expect($exitCode)->not->toBe(0);
 });
 
+<<<<<<< HEAD
 test('it handles missing output directory', function (): void {
+=======
+test('it handles missing output directory', function () {
+>>>>>>> 4dafbb257 (.)
     // Delete the output directory if it exists
     if (File::exists($this->testOutputDir)) {
         File::deleteDirectory($this->testOutputDir);
@@ -1414,6 +1453,7 @@ test('it handles missing output directory', function (): void {
     ]);
 
     // Assert command was successful and created the output directory
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1813,4 +1853,7 @@ test('it handles missing output directory', function (): void {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> 7468a7d2 (.)
+=======
+    expect($exitCode)->toBe(0)->and(File::isDirectory($this->testOutputDir))->toBeTrue();
+>>>>>>> 4dafbb257 (.)
 });

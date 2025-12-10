@@ -102,6 +102,7 @@ Prima di eseguire PHPStan o fare commit, verifica la correttezza della struttura
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/docs/"
 >>>>>>> 85cdef688 (.)
@@ -129,6 +130,9 @@ find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/conf
 =======
 find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/docs/"
 >>>>>>> 59259b43 (.)
+=======
+find Modules/NomeModulo -type f -name "*.php" | grep -v "/app/" | grep -v "/config/" | grep -v "/database/" | grep -v "/routes/" | grep -v "/resources/" | grep -v "/docs/"
+>>>>>>> 88ee35c4e (.)
 ```
 
 Se questo comando restituisce dei file, significa che sono posizionati in modo errato.
@@ -154,6 +158,7 @@ Per correggere automaticamente la struttura delle directory, utilizza lo script 
 2. **Autoloading Corretto**: Il PSR-4 autoloader è configurato per cercare le classi in `app/`
 3. **Compatibilità con PHPStan**: Evita errori di classi non trovate durante l'analisi statica
 4. **Manutenibilità**: Struttura coerente e prevedibile per tutti i moduli
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,3 +193,6 @@ Per correggere automaticamente la struttura delle directory, utilizza lo script 
 5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
 >>>>>>> a5dccfe (.)
 >>>>>>> ab5b3a4f (.)
+=======
+5. **Chiarezza**: Separazione netta tra codice applicativo e supporto (config, routes, ecc.) 
+>>>>>>> 88ee35c4e (.)

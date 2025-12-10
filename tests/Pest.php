@@ -78,6 +78,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -126,13 +127,19 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 =======
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 uses(TestCase::class)->in('Feature', 'Unit');
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,7 +194,24 @@ uses(TestCase::class)->in('Feature', 'Unit');
 
 pest()->extend(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> fb8add77 (.)
+<<<<<<< HEAD
 >>>>>>> e6745a06 (.)
+=======
+=======
+
+pest()->extend(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> 53d6a6ba (.)
+=======
+
+pest()->extend(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> 71586de2 (.)
+=======
+uses(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -197,6 +221,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * | Qui puoi definire aspettative globali per il modulo Xot.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -383,6 +408,11 @@ pest()->extend(TestCase::class)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
  * | Quando definisci aspettative globali, saranno disponibili
 =======
 <<<<<<< HEAD
@@ -413,6 +443,7 @@ namespace Modules\Xot\Tests\Pest;
 >>>>>>> 091f883c (.)
 =======
 >>>>>>> 7468a7d2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1419,7 +1450,29 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+=======
+ * | Quando definisci here expectation globali, saranno disponibili
+ * | in tutti i test del modulo.
+ * |
+ */
+
+<<<<<<< HEAD
+>>>>>>> 71586de2 (.)
+=======
+ * | Quando definisci aspettative globali, saranno disponibili
+ * | in tutti i test del modulo.
+ * |
+ */
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -1496,6 +1549,7 @@ namespace Modules\Xot\Tests\Pest;
 //     // ...
 // }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1638,7 +1692,18 @@ namespace Modules\Xot\Tests\Pest;
 |
 */
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+// function something() {
+//     // ...
+// }
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 // function something() {
 //     // ...
@@ -1654,6 +1719,7 @@ namespace Modules\Xot\Tests\Pest;
 //     // ...
 // }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2210,4 +2276,15 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+// function something() {
+//     // ...
+// }
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

@@ -2,10 +2,16 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 # Sistema di Traduzione 
 
 ## Regola Fondamentale: NO ->label()
@@ -244,6 +250,7 @@ php artisan view:clear
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -272,6 +279,7 @@ php artisan view:clear
 =======
 =======
 >>>>>>> 88e35986 (.)
+<<<<<<< HEAD
 >>>>>>> 2bad128c (.)
 - [Documentazione Laravel Translations](https://laravel.com/project_docs/localization)
 - [Filament Form Components](https://filamentphp.com/project_docs/forms)
@@ -282,6 +290,10 @@ php artisan view:clear
 >>>>>>> 73eab74 (.)
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 - [Documentazione Laravel Translations](https://laravel.com/project_docs/localization)
 - [Filament Form Components](https://filamentphp.com/project_docs/forms)
 - [Best Practices Filament](../project_docs/filament-best-practices.md)
@@ -291,6 +303,7 @@ php artisan view:clear
 - [Best Practices Filament](../project_docs/filament-best-practices.md)
 - [Schema Conventions](../project_docs/schema-conventions.md) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -538,4 +551,14 @@ php artisan view:clear
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+- [Documentazione Laravel Translations](https://laravel.com/docs/localization)
+- [Filament Form Components](https://filamentphp.com/docs/forms)
+- [Best Practices Filament](../docs/filament-best-practices.md)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

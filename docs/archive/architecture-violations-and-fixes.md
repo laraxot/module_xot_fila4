@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Violazioni Architetturali e Correzioni - Pattern XotData
 
 ## 🚨 **Violazioni Architetturali Critiche**
@@ -16,6 +19,7 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 // ❌ VIOLAZIONE CRITICA
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,7 +146,13 @@ use Modules\SaluteOra\Models\User;
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+use Modules\SaluteOra\Models\User;
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 /** @var User $user */
 $user = User::factory()->create([...]);
@@ -152,6 +162,7 @@ $user = User::factory()->create([...]);
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,7 +289,13 @@ $user = User::factory()->create([...]);
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 2. **Configurabilità Persa**: La classe User è **dinamica** e configurabile
 3. **Multi-tenancy Rotta**: XotData supporta tenant con User diverse
 4. **Pattern Ignorato**: XotData è il **core** dell'architettura Laraxot
@@ -312,6 +329,7 @@ $user = $userClass::factory()->create($attributes);
         'driver' => 'eloquent',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -438,7 +456,13 @@ $user = $userClass::factory()->create($attributes);
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
     ],
 ],
 ```
@@ -498,6 +522,7 @@ public function processUser(UserContract $user): void
 // ❌ MAI implementazione specifica
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -624,7 +649,13 @@ public function processUser(\Modules\SaluteOra\Models\User $user): void
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+public function processUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 ```
 
 ### **Regola 3: Factory tramite XotData**
@@ -758,6 +789,7 @@ class ChangeTypeCommand extends Command
 // ❌ VIETATO
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -985,7 +1017,15 @@ use Modules\SaluteOra\Models\Doctor;
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+use Modules\SaluteOra\Models\User;
+use Modules\SaluteOra\Models\Patient;
+use Modules\SaluteOra\Models\Doctor;
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 // ✅ CONSENTITO
 use Modules\Xot\Contracts\UserContract;
@@ -997,6 +1037,7 @@ use Modules\Xot\Datas\XotData;
 // ❌ VIETATO
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1123,7 +1164,13 @@ $user = \Modules\SaluteOra\Models\User::find($id);
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+$user = \Modules\SaluteOra\Models\User::find($id);
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 // ✅ CONSENTITO  
 $userClass = XotData::make()->getUserClass();
@@ -1135,6 +1182,7 @@ $user = $userClass::find($id);
 // ❌ VIETATO
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1261,7 +1309,13 @@ function updateUser(\Modules\SaluteOra\Models\User $user): void
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+function updateUser(\Modules\SaluteOra\Models\User $user): void
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 // ✅ CONSENTITO
 function updateUser(UserContract $user): void
@@ -1331,6 +1385,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. PHPStan level 10+ compliance
 =======
 >>>>>>> 6ca989d8 (.)
@@ -1366,7 +1421,13 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 3. PHPStan level 9+ compliance
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+3. PHPStan level 9+ compliance
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 4. Test di regressione
 
 ## 📚 **Link e Riferimenti**
@@ -1399,6 +1460,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 >>>>>>> 59259b43 (.)
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1592,12 +1654,19 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+- [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ---
 
 **Ultimo Aggiornamento**: Gennaio 2025  
 **Stato**: ✅ Pattern Documentato e Implementato  
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
@@ -1607,3 +1676,5 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

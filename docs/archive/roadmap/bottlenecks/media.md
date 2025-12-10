@@ -228,6 +228,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [media.md](../../../Xot/docs/features/media.md)
 * [media.md](../../../Xot/docs/roadmap/bottlenecks/media.md)
@@ -263,4 +264,8 @@
 * [media.md](../../../Xot/docs/features/media.md)
 * [media.md](../../../Xot/docs/roadmap/bottlenecks/media.md)
 >>>>>>> 59259b43 (.)
+=======
+* [media.md](../../../Xot/docs/features/media.md)
+* [media.md](../../../Xot/docs/roadmap/bottlenecks/media.md)
+>>>>>>> 88ee35c4e (.)
 

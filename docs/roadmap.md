@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6ca989d8 (.)
 ### Versione HEAD
@@ -35,7 +36,13 @@
 =======
 ### Versione HEAD
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+### Versione HEAD
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 # Roadmap Modulo Xot
 
@@ -73,6 +80,7 @@
   - [Dettagli e Passi](./roadmap/lang/translations.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -87,7 +95,12 @@
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 ### 5. Documentazione (75%)
 - [x] Struttura base
 - [x] Guide principali
@@ -96,6 +109,7 @@
 - [ ] Testi in italiano
 <<<<<<< HEAD
   - [Dettagli e Passi](./roadmap/docs/status.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,7 +205,16 @@
   - [Dettagli e Passi](./roadmap/docs/status.md)
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> cafe8bed (.)
+=======
+  - [Dettagli e Passi](./roadmap/docs/status.md)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -223,6 +246,7 @@
 - [-] Widgets [55%](roadmap/widgets.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -238,7 +262,12 @@
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 ### Testing & Quality [60%]
 - [-] Unit Tests [50%](roadmap/unit-tests.md)
 - [-] Feature Tests [45%](roadmap/feature-tests.md)
@@ -409,6 +438,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 <<<<<<< HEAD
@@ -542,16 +572,32 @@
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> cafe8bed (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
 - [Best Practices](./BEST-PRACTICES.md)
 - [Testing](./testing-best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 
 ## Prossimi Passi
 
@@ -561,6 +607,9 @@
 3. Implementare nuovi traits [95% → 100%]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5bd842e3 (.)
 ### Q3 2024
 1. Ottimizzare l'integrazione Filament [70% → 90%]
 2. Rafforzare la sicurezza [65% → 85%]
@@ -750,6 +799,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88ee35c4e (.)
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -992,7 +1044,14 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -1009,6 +1068,7 @@
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1125,7 +1185,14 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 
 ---
@@ -1213,5 +1280,8 @@ Overall Module Completion: 60%
 
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 5bd842e3 (.)

@@ -127,6 +127,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - `/laravel/Modules/Lang/docs/`: Documentazione tradotta
 >>>>>>> 85cdef688 (.)
@@ -154,6 +155,9 @@
 =======
    - `/laravel/Modules/Lang/docs/`: Documentazione tradotta
 >>>>>>> 59259b43 (.)
+=======
+   - `/laravel/Modules/Lang/docs/`: Documentazione tradotta
+>>>>>>> 88ee35c4e (.)
    - `/laravel/Modules/Lang/resources/lang/`: File di traduzione
    - Struttura per lingua: `it/`, `en/`, etc.
 
@@ -210,6 +214,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [search.md](../../../Xot/docs/features/search.md)
 * [search.md](../../../Xot/docs/rules/search.md)
@@ -245,4 +250,8 @@
 * [search.md](../../../Xot/docs/features/search.md)
 * [search.md](../../../Xot/docs/rules/search.md)
 >>>>>>> 59259b43 (.)
+=======
+* [search.md](../../../Xot/docs/features/search.md)
+* [search.md](../../../Xot/docs/rules/search.md)
+>>>>>>> 88ee35c4e (.)
 

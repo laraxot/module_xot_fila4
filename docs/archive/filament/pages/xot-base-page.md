@@ -106,6 +106,7 @@ Verifica se l'utente ha l'accesso alla pagina.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Compatibile con Filament 3.x
 >>>>>>> 85cdef688 (.)
@@ -148,10 +149,14 @@ Verifica se l'utente ha l'accesso alla pagina.
    - Compatibile con Filament 3.x
 >>>>>>> a5dccfe (.)
 >>>>>>> ab5b3a4f (.)
+=======
+   - Compatibile con Filament 4.x
+>>>>>>> 88ee35c4e (.)
    - Richiede PHP 8.1+
 
 ## Link Correlati
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,3 +223,8 @@ Verifica se l'utente ha l'accesso alla pagina.
 - [Guida Traduzioni](../../../docs/translations.md) 
 >>>>>>> a5dccfe (.)
 >>>>>>> ab5b3a4f (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Best Practices](../../../docs/best-practices.md)
+- [Guida Traduzioni](../../../docs/translations.md) 
+>>>>>>> 88ee35c4e (.)

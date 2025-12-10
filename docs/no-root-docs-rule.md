@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # REGOLA CRITICA: Cartelle docs root VIETATE
 
 ## CARTELLE CHE NON DEVONO MAI ESISTERE:
@@ -236,7 +237,17 @@
 - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs` ❌ VIETATA ASSOLUTA
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+# REGOLA CRITICA: Cartelle docs root VIETATE
+
+## CARTELLE CHE NON DEVONO MAI ESISTERE:
+- `/var/www/html/_bases/base_saluteora/docs` ❌ VIETATA ASSOLUTA
+- `/var/www/html/_bases/base_saluteora/laravel/docs` ❌ VIETATA ASSOLUTA
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ## REGOLA FONDAMENTALE:
 **TUTTA la documentazione va SOLO nelle cartelle `docs` dei moduli specifici**
@@ -285,6 +296,7 @@ Questa regola ha priorità assoluta su qualsiasi altra considerazione.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/_bases/base_<nome progetto> -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_<nome progetto>/docs$|^/var/www/html/_bases/base_<nome progetto>/laravel/docs$)"
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_techplanner_fila3_mono/docs$|^/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs$)"
@@ -398,7 +410,13 @@ find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep -E "(^/var/www/html/_bases/base_saluteora/docs$|^/var/www/html/_bases/base_saluteora/laravel/docs$)"
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 # Se il comando restituisce output = ERRORE CRITICO
 # Se il comando non restituisce output = OK
 ```
@@ -409,6 +427,7 @@ find /var/www/html/_bases/base_saluteora -maxdepth 2 -name "docs" -type d | grep
 ## RESPONSABILITÀ:
 Tutti gli sviluppatori e AI devono rispettare questa regola senza eccezioni.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -417,3 +436,5 @@ Tutti gli sviluppatori e AI devono rispettare questa regola senza eccezioni.
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

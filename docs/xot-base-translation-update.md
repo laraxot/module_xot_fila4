@@ -98,6 +98,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 27 Gennaio 2025* 
 =======
@@ -149,3 +150,8 @@ return [
 >>>>>>> 59259b43 (.)
 =======
 >>>>>>> ab5b3a4f (.)
+=======
+- [Documentazione Principale Traduzioni](../../../docs/translation_rules.md)
+
+*Ultimo aggiornamento: 27 Gennaio 2025* 
+>>>>>>> 88ee35c4e (.)

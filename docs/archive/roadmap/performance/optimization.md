@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [optimization.md](../../../Xot/docs/roadmap/performance/optimization.md)
 * [optimization.md](../../../Job/docs/optimization.md)
@@ -98,4 +99,9 @@
 * [optimization.md](../../../Job/docs/optimization.md)
 * [optimization.md](../../../Cms/docs/roadmap/performance/optimization.md)
 >>>>>>> 59259b43 (.)
+=======
+* [optimization.md](../../../Xot/docs/roadmap/performance/optimization.md)
+* [optimization.md](../../../Job/docs/optimization.md)
+* [optimization.md](../../../Cms/docs/roadmap/performance/optimization.md)
+>>>>>>> 88ee35c4e (.)
 

@@ -51,6 +51,7 @@ Per prevenire questo errore in futuro:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Xot Component System](../structure.md) 
 =======
 - [Documentazione Laravel Cache](https://laravel.com/docs/cache)
@@ -100,3 +101,7 @@ Per prevenire questo errore in futuro:
 - [Documentazione Xot Component System](../structure.md) 
 >>>>>>> a5dccfe (.)
 >>>>>>> ab5b3a4f (.)
+=======
+- [Documentazione Laravel Cache](https://laravel.com/docs/cache)
+- [Documentazione Xot Component System](../structure.md) 
+>>>>>>> 88ee35c4e (.)

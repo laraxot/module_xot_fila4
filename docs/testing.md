@@ -2,10 +2,16 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 # Testing Guidelines - Modulo Xot
 
 ## Framework di Testing: Pest
@@ -768,6 +774,7 @@ test('no memory leaks in repeated operations', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -928,7 +935,18 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+- [Root Testing Organization](../../../docs/testing-organization.md)
+- [ Testing Guidelines](../../<nome modulo>/docs/testing.md)
+- [SaluteOra Testing Guidelines](../../SaluteOra/docs/testing.md)
+- [Cms Testing Guidelines](../../Cms/docs/testing.md)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ### Framework Documentation
 - [Xot Framework Architecture](./architecture.md)
@@ -950,10 +968,14 @@ test('no memory leaks in repeated operations', function (): void {
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
 <<<<<<< HEAD
@@ -1140,7 +1162,18 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+- [Laravel Testing](https://laravel.com/docs/testing)
+- [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+>>>>>>> cafe8bed (.)
+=======
+- [Laravel Testing](https://laravel.com/docs/testing)
+- [Spatie Laravel Data](https://spatie.be/docs/laravel-data)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ---
 
@@ -1149,6 +1182,7 @@ test('no memory leaks in repeated operations', function (): void {
 **Coverage Target**: 90%+ per core framework  
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1183,4 +1217,13 @@ test('no memory leaks in repeated operations', function (): void {
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

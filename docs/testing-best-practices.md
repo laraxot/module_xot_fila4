@@ -2,9 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 # Testing Best Practices - Laraxot Framework
 
 ## 🏆 **Gold Standard Pattern**
@@ -29,6 +35,7 @@ uses(\Modules\Xot\Tests\TestCase::class);
 // ✅ CRITICO: Mock XotData per ogni test
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -245,7 +252,12 @@ uses(\\Modules\\Xot\\Tests\\TestCase::class);
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 beforeEach(function (): void {
     mockXotData();
 });
@@ -307,6 +319,7 @@ function mockXotData(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 62cc8443 (.)
@@ -316,6 +329,8 @@ function mockXotData(): void
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> ab5b3a4f (.)
+=======
+>>>>>>> 88ee35c4e (.)
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
         ->andReturn(\Modules\SaluteOra\Models\User::class);
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
@@ -410,7 +425,13 @@ function mockXotData(): void
         ->andReturn(\Modules\<nome progetto>\Models\User::class);
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+        ->andReturn(\Modules\SaluteOra\Models\User::class);
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
         
     $mockXotData->shouldReceive('make')
         ->andReturn($mockXotData);
@@ -600,6 +621,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 **Last Update**: Dicembre 2024 
 **Last Update**: Dicembre 2024 
@@ -625,6 +647,8 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
 **Last Update**: Dicembre 2024 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -949,4 +973,14 @@ Status: Best Practices consolidate — Last Update: Dicembre 2024
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**Last Update**: Dicembre 2024 
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

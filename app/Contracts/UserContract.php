@@ -594,8 +594,16 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
  * @method bool canAccessSocialite()
  *
  * @phpstan-require-extends Model
+<<<<<<< HEAD
  */
+=======
+ *
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
  * @mixin IdeHelperUserContract
+=======
+ * @mixin \Eloquent
+>>>>>>> c84488b (.)
  */
 interface UserContract extends
     Authenticatable,

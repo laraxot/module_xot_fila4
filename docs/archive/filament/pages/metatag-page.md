@@ -90,6 +90,7 @@ use Modules\Xot\Filament\Pages\MetatagPage;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](../../../docs/filament/index.md)
 - [Configurazione SEO](../../../docs/seo/index.md)
@@ -149,3 +150,8 @@ use Modules\Xot\Filament\Pages\MetatagPage;
 - [Gestione Temi](../../../docs/themes/index.md) 
 >>>>>>> a5dccfe (.)
 >>>>>>> ab5b3a4f (.)
+=======
+- [Documentazione Filament](../../../docs/filament/index.md)
+- [Configurazione SEO](../../../docs/seo/index.md)
+- [Gestione Temi](../../../docs/themes/index.md) 
+>>>>>>> 88ee35c4e (.)

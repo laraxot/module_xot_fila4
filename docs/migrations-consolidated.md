@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Migrations - Documentazione Consolidata DRY + KISS
 
 > **🎯 Single Source of Truth**: Questo documento centralizza TUTTA la documentazione migrazioni del progetto
@@ -417,6 +420,7 @@ $table->foreign('user_id')->references('id')->on('users')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### <nome modulo> Module
 =======
 >>>>>>> 6ca989d8 (.)
@@ -452,13 +456,20 @@ $table->foreign('user_id')->references('id')->on('users')
 =======
 ### SaluteMo Module
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+### SaluteMo Module
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`
 - **Relazioni**: User, Studio, Treatment
 - **Campi specifici**: `appointment_date`, `status`, `notes`
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,7 +596,13 @@ $table->foreign('user_id')->references('id')->on('users')
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+### SaluteOra Module (CRITICO)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 - **Tabelle**: `appointments`, `patients`, `doctors`, `studios`
 - **Relazioni**: User, Studio, Doctor, Patient
 - **Campi specifici**: `appointment_id`, `patient_id`, `doctor_id`
@@ -644,6 +661,7 @@ rm Modules/Notify/docs/migrations_changelog.md
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -810,7 +828,14 @@ rm Modules/SaluteMo/docs/database/migrations.md
 =======
 =======
 >>>>>>> ba1d49f3 (.)
+<<<<<<< HEAD
 >>>>>>> 59259b43 (.)
+=======
+=======
+# SaluteMo
+rm Modules/SaluteMo/docs/database/migrations.md
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 # E tutti gli altri file duplicati...
 ```
@@ -864,6 +889,7 @@ rm Modules/SaluteMo/docs/database/migrations.md
 **Categoria**: database  
 **Priorità**: CRITICA
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -872,3 +898,5 @@ rm Modules/SaluteMo/docs/database/migrations.md
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

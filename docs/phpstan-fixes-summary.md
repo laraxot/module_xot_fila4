@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 71f31700 (.)
@@ -22,7 +23,12 @@
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 # PHPStan Fixes Summary - 18 Agosto 2025
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
@@ -102,6 +108,7 @@ Tutti i tipi di ritorno non corrispondenti sono stati corretti:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> 71f31700 (.)
@@ -111,7 +118,12 @@ Tutti i tipi di ritorno non corrispondenti sono stati corretti:
 >>>>>>> 71f31700 (.)
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 ```php
 // PRIMA (errore PHPStan)
 public function provides(): array
@@ -243,6 +255,7 @@ Questi errori non compromettono la funzionalità e possono essere risolti in una
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, <nome modulo>, Geo, Cms, <main module>) sono completamente conformi al livello 9 di PHPStan.
 =======
 >>>>>>> 6ca989d8 (.)
@@ -264,7 +277,13 @@ Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli
 =======
 Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, SaluteMo, Geo, Cms, SaluteOra) sono completamente conformi al livello 9 di PHPStan.
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli errori PHPStan risolti. I moduli critici (Xot, User, SaluteMo, Geo, Cms, SaluteOra) sono completamente conformi al livello 9 di PHPStan.
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ---
 
@@ -275,6 +294,7 @@ Il progetto ha raggiunto un livello di type safety eccellente con il 99.1% degli
 **Stato**: ✅ COMPLETATO CON SUCCESSO
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -393,4 +413,26 @@ The fixes maintain backward compatibility while significantly improving type saf
 =======
 The fixes maintain backward compatibility while significantly improving type safety and code reliability.
 >>>>>>> 472bd9dc (.)
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
+=======
+=======
+The fixes maintain backward compatibility while significantly improving type safety and code reliability.
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 71f31700 (.)
+=======
+The fixes maintain backward compatibility while significantly improving type safety and code reliability.
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> c35986f4 (.)
+=======
+The fixes maintain backward compatibility while significantly improving type safety and code reliability.
+>>>>>>> 472bd9dc (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

@@ -30,6 +30,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
 >>>>>>> 85cdef688 (.)
@@ -57,6 +58,9 @@ return [
 =======
     'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
 >>>>>>> 59259b43 (.)
+=======
+    'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
+>>>>>>> 88ee35c4e (.)
 ];
 
 // config.php

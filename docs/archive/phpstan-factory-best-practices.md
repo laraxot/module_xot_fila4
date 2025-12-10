@@ -2,15 +2,22 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 # PHPStan Best Practices per Factory Laravel - Laraxot Framework
 
 ## 🎯 Overview
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,7 +143,13 @@ Documentazione completa delle best practice PHPStan per le factory Laravel, basa
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+Documentazione completa delle best practice PHPStan per le factory Laravel, basata sulle correzioni implementate nel modulo SaluteOra e conformi ai principi del framework Laraxot.
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ## 📚 Principi Fondamentali
 
@@ -419,6 +432,7 @@ $result = $string . (string) $faker->method();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -490,7 +504,12 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 Vedere: `Modules/SaluteOra/database/factories/UserFactory.php`
 
 ### Factory Specializzate Corrette
@@ -503,6 +522,7 @@ Vedere:
 Vedere: `Modules/SaluteOra/docs/factories/phpstan-factory-compliance.md`
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,7 +639,12 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ## 📊 Metriche di Successo
 
@@ -632,6 +657,7 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 *Versione: 1.0*
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -661,6 +687,8 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+=======
+>>>>>>> 88ee35c4e (.)
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
 =======
 >>>>>>> 67be6ac0 (.)
@@ -687,4 +715,14 @@ Vedere: `Modules/<nome progetto>/docs/factories/phpstan-factory-compliance.md`
 =======
 *Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+*Compatibilità: PHPStan 1.10+, Larastan 3.x, Laravel 11+* 
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

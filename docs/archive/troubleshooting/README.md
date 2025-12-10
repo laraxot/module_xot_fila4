@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Troubleshooting Guide
 
 ## Common Issues
@@ -13,6 +16,7 @@
 - **Solution**: Check namespace imports and method signatures
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,7 +65,13 @@
 =======
 - **Prevention**: Always run PHPStan level 9+ before commits
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+- **Prevention**: Always run PHPStan level 9+ before commits
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ### Translation Problems
 - **Issue**: Missing translations or hardcoded strings
@@ -92,6 +102,7 @@
 - Consult best practices documentation
 - Use project memory system for context
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -100,3 +111,5 @@
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Laraxot Code Quality Standards
 
 ## Overview
@@ -14,6 +17,7 @@ This document defines the mandatory code quality standards for Laraxot projects.
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104,7 +108,15 @@ This document defines the mandatory code quality standards for Laraxot projects.
 - **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
 - **MINIMUM** PHPStan level 9 for all new code
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+### 1. Strict Typing and PHPStan Level 9+
+- **ALWAYS** use `declare(strict_types=1);` at the beginning of every PHP file
+- **MINIMUM** PHPStan level 9 for all new code
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 - **NEVER** use `mixed` types unless absolutely necessary
 - **ALWAYS** provide explicit return types and parameter types
 
@@ -297,6 +309,7 @@ $content = \file_get_contents($path); // Può restituire false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -410,7 +423,13 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 ./vendor/bin/phpstan analyze Modules/ModuleName --level=9
 ```
 
@@ -530,6 +549,7 @@ unset($translations['existing_key']); // MAI!
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibilità**: Laraxot <nome progetto>, PHP 8.2+, Laravel 11+
 =======
 **Compatibilità**: Laraxot , PHP 8.2+, Laravel 11+
@@ -636,11 +656,18 @@ unset($translations['existing_key']); // MAI!
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+**Compatibilità**: Laraxot SaluteOra, PHP 8.2+, Laravel 11+
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ---
 
 *"Nel codice Laraxot, ogni riga è un verso della sinfonia dell'architettura perfetta."*
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
@@ -650,3 +677,5 @@ unset($translations['existing_key']); // MAI!
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

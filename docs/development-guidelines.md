@@ -2,6 +2,7 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -287,7 +288,17 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+# Development Guidelines - Xot Module
+
+## Panoramica
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto .
+Questo documento fornisce linee guida generali per lo sviluppo e la qualità del codice nel progetto SaluteOra.
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ## PHPStan Best Practices
 
@@ -322,10 +333,14 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
 - [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
 <<<<<<< HEAD
@@ -488,7 +503,18 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+- [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
+>>>>>>> cafe8bed (.)
+=======
+- [FormBuilder FieldOption Model](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang Console Commands](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ## Principi di Correzione
 
@@ -522,10 +548,14 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
 - [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
 - [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
 <<<<<<< HEAD
@@ -688,7 +718,18 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> cafe8bed (.)
+=======
+- [FormBuilder PHPStan Corrections](../FormBuilder/docs/phpstan-corrections.md)
+- [Lang PHPStan Corrections](../Lang/docs/phpstan-corrections.md)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 - [Xot Architecture](./architecture.md)
 
 ## Note per Sviluppo Futuro
@@ -698,6 +739,7 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 3. **Mixed Types**: Gestire sempre i tipi `mixed` con type casting appropriato
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -730,6 +772,8 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+=======
+>>>>>>> 88ee35c4e (.)
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 =======
 >>>>>>> 71f31700 (.)
@@ -754,4 +798,14 @@ Questo documento fornisce linee guida generali per lo sviluppo e la qualità del
 4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+4. **Documentation**: Aggiornare sempre la documentazione dopo correzioni significative 
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

@@ -122,6 +122,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [auth.md](../../../Xot/docs/install/auth.md)
 * [auth.md](../../../User/docs/lang/en/auth.md)
@@ -165,6 +166,11 @@ return [
 * [auth.md](../../../User/docs/lang/en/auth.md)
 * [auth.md](../../../Tenant/docs/it/config/auth.md)
 >>>>>>> 59259b43 (.)
+=======
+* [auth.md](../../../Xot/docs/install/auth.md)
+* [auth.md](../../../User/docs/lang/en/auth.md)
+* [auth.md](../../../Tenant/docs/it/config/auth.md)
+>>>>>>> 88ee35c4e (.)
 
 
 ### Versione Incoming

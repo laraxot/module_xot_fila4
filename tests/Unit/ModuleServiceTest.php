@@ -203,6 +203,7 @@ describe('ModuleService', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -544,9 +545,21 @@ describe('ModuleService', function () {
         $this->service = (new ModuleService())->setName('TestModule');
 >>>>>>> f1d4085 (.)
 =======
+<<<<<<< HEAD
         $this->service = new ModuleService();
         $this->service = $this->service->setName('TestModule');
 >>>>>>> 73eab74 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+=======
+        $this->service = new ModuleService()->setName('TestModule');
+>>>>>>> c84488b (.)
+>>>>>>> 88ee35c4e (.)
     });
 
 <<<<<<< HEAD
@@ -1051,11 +1064,18 @@ describe('ModuleService', function () {
     it('can be instantiated with different module names', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> 88ee35c4e (.)
         $service1 = new ModuleService();
         $service1 = $service1->setName('Chart');
         $service2 = new ModuleService();
         $service2 = $service2->setName('User');
+=======
+        $service1 = new ModuleService()->setName('Chart');
+        $service2 = new ModuleService()->setName('User');
+>>>>>>> c84488b (.)
 
         expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
 <<<<<<< HEAD
@@ -1381,6 +1401,7 @@ describe('ModuleService', function () {
     it('handles empty module gracefully', function () {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1826,8 +1847,17 @@ describe('ModuleService', function () {
 >>>>>>> dbce41cec (.)
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
+=======
+        $emptyService = new ModuleService()->setName('NonExistentModule');
+>>>>>>> c84488b (.)
         $result = $emptyService->getModels();
 
         expect($result)->toBeArray()->and($result)->toBeEmpty();

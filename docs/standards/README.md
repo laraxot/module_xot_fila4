@@ -18,6 +18,7 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
@@ -45,6 +46,10 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 88ee35c4e (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)
@@ -78,10 +83,13 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
 * [README.md](laravel/vendor/mockery/mockery/docs/README.md)
 * [README.md](../../../Chart/docs/README.md)
 * [README.md](../../../Reporting/docs/README.md)
@@ -126,6 +134,7 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 * [README.md](../../../Cms/docs/components/README.md)
 * [README.md](../../../../Themes/Two/docs/README.md)
 * [README.md](../../../../Themes/One/docs/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -181,6 +190,8 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
 
 # Standard Xot: Ereditarietà dei Modelli
 
@@ -195,15 +206,19 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
 - [Modello Doctor (Patient)](../../../Patient/docs/Models/Doctor.md)
 - [Gestione campi e migrazioni con STI (README Patient)](../../../Patient/docs/README.md)
 - [DoctorResource: Step Informazioni Personali (Patient)](../../../Patient/docs/filament/resources/doctor-resource.md)
 - [Struttura progetto e STI (Patient)](../../../Patient/docs/architecture/struttura-progetto.md)
 - [Migrazioni e database (Patient)](../../../Patient/docs/database/migrations.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -220,6 +235,8 @@ Questi standard si applicano a tutti i moduli del progetto e devono essere segui
 >>>>>>> 67be6ac0 (.)
 =======
 >>>>>>> 2bad128c (.)
+=======
+>>>>>>> 88ee35c4e (.)
 
 ## Regola generale
 
@@ -246,6 +263,7 @@ class Doctor extends User
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
 >>>>>>> 85cdef688 (.)
@@ -267,5 +285,8 @@ class Doctor extends User
 - [Patient: Modello Doctor](../../../Patient/project_docs/Models/Doctor.md)
 >>>>>>> 6cba4fe (.)
 >>>>>>> 2bad128c (.)
+=======
+- [Patient: Modello Doctor](../../../Patient/docs/Models/Doctor.md)
+>>>>>>> 88ee35c4e (.)
 // Aggiungere qui altri moduli se necessario
 

@@ -2,10 +2,16 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 ---
 title: Event Sourcing
 description: Event Sourcing
@@ -56,10 +62,14 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
 * [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
 * [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
 <<<<<<< HEAD
@@ -246,7 +256,18 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+* [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
+>>>>>>> cafe8bed (.)
+=======
+* [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 
 ### Versione Incoming
@@ -256,6 +277,7 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,4 +312,13 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

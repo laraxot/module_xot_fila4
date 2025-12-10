@@ -2,10 +2,16 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 # Linee Guida per la Documentazione
 
 ## Principi Fondamentali
@@ -24,10 +30,14 @@
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
 <<<<<<< HEAD
@@ -214,7 +224,18 @@
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
+   - Le regole generali sono in `/Modules/Xot/docs/`
+>>>>>>> cafe8bed (.)
+=======
+   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
+   - Le regole generali sono in `/Modules/Xot/docs/`
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
    - La root `/docs` contiene solo indici e collegamenti
 
 2. **Collegamenti Bidirezionali**
@@ -237,10 +258,14 @@
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
    Modules/Xot/docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362,7 +387,16 @@
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+   Modules/Xot/docs/
+>>>>>>> cafe8bed (.)
+=======
+   Modules/Xot/docs/
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
    ├── guidelines/           # Linee guida generali
    ├── conventions/          # Convenzioni di codice
    ├── architecture/         # Architettura del framework
@@ -441,10 +475,14 @@ public function example(): void
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
 Modules/{ModuleName}/docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -566,7 +604,16 @@ Modules/{ModuleName}/project_docs/
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+Modules/{ModuleName}/docs/
+>>>>>>> cafe8bed (.)
+=======
+Modules/{ModuleName}/docs/
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 ├── README.md              # Panoramica del modulo
 ├── installation.md        # Istruzioni di installazione
 ├── configuration.md       # Configurazione
@@ -670,6 +717,7 @@ php artisan api:generate
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -679,6 +727,7 @@ php artisan api:generate
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
 =======
+<<<<<<< HEAD
 * [documentation.md](../../../Xot/project_docs/documentation.md)
 * [documentation.md](../../../Xot/project_docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/project_docs/roadmap/features/documentation.md)
@@ -690,6 +739,11 @@ php artisan api:generate
 >>>>>>> 73eab74 (.)
 
 <<<<<<< HEAD
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 * [documentation.md](../../../Xot/docs/documentation.md)
 * [documentation.md](../../../Xot/docs/guidelines/documentation.md)
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
@@ -699,6 +753,7 @@ php artisan api:generate
 * [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -769,4 +824,13 @@ php artisan api:generate
 
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

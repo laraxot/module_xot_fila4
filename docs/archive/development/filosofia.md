@@ -126,6 +126,7 @@ Lo sviluppo del progetto il progetto è guidato dai seguenti principi fondamenta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [filosofia.md](../../../Xot/docs/development/filosofia.md)
 >>>>>>> 85cdef688 (.)
@@ -153,4 +154,7 @@ Lo sviluppo del progetto il progetto è guidato dai seguenti principi fondamenta
 =======
 * [filosofia.md](../../../Xot/docs/development/filosofia.md)
 >>>>>>> 59259b43 (.)
+=======
+* [filosofia.md](../../../Xot/docs/development/filosofia.md)
+>>>>>>> 88ee35c4e (.)
 

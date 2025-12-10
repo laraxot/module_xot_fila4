@@ -2,13 +2,24 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 # Standard di Codice per il progetto
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
+=======
+>>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
 =======
@@ -84,7 +95,14 @@
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 Questo documento contiene gli standard di codice specifici per il progetto il progetto. Per le linee guida generali sulla scrittura del codice, consultare la [documentazione del modulo Xot](../CODE-STANDARDS.md).
 
@@ -173,10 +191,14 @@ Il codice del progetto il progetto **deve** aderire ai seguenti principi fondame
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
 > **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,7 +320,16 @@ Il codice del progetto il progetto **deve** aderire ai seguenti principi fondame
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+> **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
+>>>>>>> cafe8bed (.)
+=======
+> **Nota**: Questo documento è correlato a [Convenzioni](../../../docs/conventions.md) e [Naming Conventions](../../../docs/naming-conventions.md). Per una panoramica completa, consulta tutti i documenti correlati.
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 Questo documento contiene gli standard di codice specifici per il progetto il progetto. Per le linee guida generali sulla scrittura del codice, consultare la [documentazione del modulo Xot](../CODE-STANDARDS.md).
 
@@ -581,10 +612,14 @@ class StorePatientRequest extends FormRequest
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -618,7 +653,14 @@ class StorePatientRequest extends FormRequest
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 - [Convenzioni](../../../docs/conventions.md)
 - [Naming Conventions](../../../docs/naming-conventions.md)
 - [Documentazione Xot](../CODE-STANDARDS.md)
@@ -635,6 +677,7 @@ class StorePatientRequest extends FormRequest
 >>>>>>> 2f3197ab (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
@@ -715,7 +758,14 @@ class StorePatientRequest extends FormRequest
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ### PHPDoc
 
@@ -982,10 +1032,14 @@ git commit -m "fix: correzione calcolo età paziente"
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1019,7 +1073,14 @@ git commit -m "fix: correzione calcolo età paziente"
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 * [coding-standards.md](../../../Xot/docs/standards/coding-standards.md)
 * [coding-standards.md](../../../Xot/docs/conventions/coding-standards.md)
 
@@ -1029,6 +1090,7 @@ git commit -m "fix: correzione calcolo età paziente"
 - [Naming Conventions](../../../docs/naming-conventions.md)
 - [Documentazione Xot](../CODE-STANDARDS.md)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1055,6 +1117,9 @@ git commit -m "fix: correzione calcolo età paziente"
 =======
 =======
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
@@ -1276,4 +1341,14 @@ git commit -m "fix: correzione calcolo età paziente"
 
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

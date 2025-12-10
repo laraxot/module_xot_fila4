@@ -2,8 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
+=======
+>>>>>>> 5bd842e3 (.)
 # Prompt di Documentazione
 
 ## Panoramica
@@ -61,6 +64,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 - MAI usare percorsi che iniziano con `/var/www/html/` o simili
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,7 +190,13 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+- MAI usare percorsi che includono `saluteora` o altri nomi specifici
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ### Formato Corretto
 ```markdown
@@ -210,6 +220,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 >>>>>>> 59259b43 (.)
 [Documento in Modulo Altro](../../AltroModulo/docs/documento.md)
 [Documento in Root](../../../docs/documento.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -393,7 +404,12 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 ```
 
 ### Formato Non Corretto
@@ -402,6 +418,7 @@ Questo documento descrive le regole e le best practices per i prompt di document
 # Collegamenti Non Corretti
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -685,7 +702,15 @@ Questo documento descrive le regole e le best practices per i prompt di document
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+[Documento Correlato](/var/www/html/saluteora/laravel/Modules/Xot/docs/documento.md)
+[Documento in Sottodirectory](https://github.com/saluteora/progetto/blob/main/docs/documento.md)
+[Documento in Modulo Altro](C:\progetti\saluteora\laravel\Modules\Xot\docs\documento.md)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 ```
 
 ### Checklist di Validazione
@@ -754,6 +779,7 @@ con collegamenti bidirezionali...
    - Documentare le correzioni
    - Aggiornare gli esempi
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -762,3 +788,5 @@ con collegamenti bidirezionali...
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)

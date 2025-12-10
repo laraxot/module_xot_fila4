@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -128,7 +129,14 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 # Regole per le Risorse Filament in 
 
 ## Panoramica
@@ -190,6 +198,7 @@ Tutte le risorse Filament in  **DEVONO** estendere `Modules\Xot\Filament\Resourc
 >>>>>>> 7468a7d2 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
 =======
 <<<<<<< HEAD
@@ -197,6 +206,9 @@ Tutte le risorse Filament in  **DEVONO** estendere `Modules\Xot\Filament\Resourc
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
 # Regole per le Risorse Filament in <nome progetto>
 
 ## Panoramica
@@ -349,7 +361,14 @@ Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\F
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+>>>>>>> cafe8bed (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 # Regole per le Risorse Filament in SaluteOra
 
 ## Panoramica
@@ -361,6 +380,7 @@ Questo documento definisce le regole fondamentali per l'implementazione delle ri
 Tutte le risorse Filament in SaluteOra **DEVONO** estendere `Modules\Xot\Filament\Resources\XotBaseResource` invece di `Filament\Resources\Resource`. Questa classe base personalizzata fornisce funzionalità specifiche per il progetto e garantisce coerenza in tutta l'applicazione.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,7 +468,12 @@ Tutte le risorse Filament in <nome progetto> **DEVONO** estendere `Modules\Xot\F
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ```php
 // ✅ CORRETTO
@@ -505,9 +530,12 @@ public static function getModelLabel(): string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> 88ee35c4e (.)
 // ❌ NON DICHIARARE QUESTI METODI NELLE RESOURCE
 public static function table(Table $table): Table
 public static function getListTableColumns(): array
@@ -597,7 +625,15 @@ public static function getListTableColumns(): array
 public static function table(Table $table): Table
 public static function getListTableColumns(): array
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+// ❌ NON DICHIARARE QUESTI METODI
+public static function table(Table $table): Table
+public static function getListTableColumns(): array
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 ```
 
 ## Cosa Dichiarare
@@ -729,6 +765,7 @@ class DoctorResource extends XotBaseResource
 - [Filament Form Builder](/docs/filament-form-builder.md)
 - [Gestione delle Traduzioni](/docs/translation-management.md)
 - [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -981,4 +1018,17 @@ class DoctorResource extends XotBaseResource
 =======
 =======
 >>>>>>> 1c4bb8cf (.)
+<<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+=======
+- [Filament Form Builder](/docs/filament-form-builder.md)
+- [Gestione delle Traduzioni](/docs/translation-management.md)
+- [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
+>>>>>>> cafe8bed (.)
+=======
+- [Filament Form Builder](/docs/filament-form-builder.md)
+- [Gestione delle Traduzioni](/docs/translation-management.md)
+- [Estensione delle Classi Filament](/docs/filament-extension-pattern.md)
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

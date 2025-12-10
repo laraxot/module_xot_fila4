@@ -88,6 +88,7 @@ Elenco di pratiche da evitare nello sviluppo.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [patterns.md](../../../Xot/docs/en/patterns.md)
 * [patterns.md](../../../Xot/docs/it/patterns.md)
@@ -131,6 +132,11 @@ Elenco di pratiche da evitare nello sviluppo.
 * [patterns.md](../../../Xot/docs/it/patterns.md)
 * [patterns.md](../../../Xot/docs/architecture/patterns.md)
 >>>>>>> 59259b43 (.)
+=======
+* [patterns.md](../../../Xot/docs/en/patterns.md)
+* [patterns.md](../../../Xot/docs/it/patterns.md)
+* [patterns.md](../../../Xot/docs/architecture/patterns.md)
+>>>>>>> 88ee35c4e (.)
 
 
 ### Versione Incoming

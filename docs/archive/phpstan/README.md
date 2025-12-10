@@ -52,6 +52,7 @@ Per ogni modulo, gli script generano:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - File JSON con i risultati dell'analisi: `Modules/[ModuleName]/docs/phpstan/level_[1-9].json`
 - File Markdown con suggerimenti per le correzioni: `Modules/[ModuleName]/docs/phpstan/correction.md`
@@ -87,6 +88,10 @@ Per ogni modulo, gli script generano:
 - File JSON con i risultati dell'analisi: `Modules/[ModuleName]/docs/phpstan/level_[1-9].json`
 - File Markdown con suggerimenti per le correzioni: `Modules/[ModuleName]/docs/phpstan/correction.md`
 >>>>>>> 59259b43 (.)
+=======
+- File JSON con i risultati dell'analisi: `Modules/[ModuleName]/docs/phpstan/level_[1-9].json`
+- File Markdown con suggerimenti per le correzioni: `Modules/[ModuleName]/docs/phpstan/correction.md`
+>>>>>>> 88ee35c4e (.)
 
 ## Livelli di analisi
 
@@ -151,6 +156,7 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
@@ -186,6 +192,10 @@ php -d memory_limit=1G analyze_modules_phpstan.php
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
 >>>>>>> 59259b43 (.)
+=======
+* [README.md](bashscripts/docs/README.md)
+* [README.md](bashscripts/docs/it/README.md)
+>>>>>>> 88ee35c4e (.)
 * [README.md](docs/laravel-app/phpstan/README.md)
 * [README.md](docs/laravel-app/README.md)
 * [README.md](docs/moduli/struttura/README.md)

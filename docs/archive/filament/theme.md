@@ -10,6 +10,7 @@ https://fly.io/laravel-bytes/filamentphp-adding-some-style/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [theme.md](../../../Xot/docs/filament/theme.md)
 * [theme.md](../../../../Themes/One/docs/theme.md)
@@ -45,6 +46,10 @@ https://fly.io/laravel-bytes/filamentphp-adding-some-style/
 * [theme.md](../../../Xot/docs/filament/theme.md)
 * [theme.md](../../../../Themes/One/docs/theme.md)
 >>>>>>> 59259b43 (.)
+=======
+* [theme.md](../../../Xot/docs/filament/theme.md)
+* [theme.md](../../../../Themes/One/docs/theme.md)
+>>>>>>> 88ee35c4e (.)
 
 
 ### Versione Incoming

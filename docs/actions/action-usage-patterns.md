@@ -44,6 +44,7 @@ Prima di usare un'Action:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 85cdef688 (.)
@@ -69,6 +70,9 @@ Prima di usare un'Action:
 =======
 
 >>>>>>> 59259b43 (.)
+=======
+
+>>>>>>> 88ee35c4e (.)
 # Cerca pattern errati
 grep -r "::cast(" Modules/
 grep -r "::execute(" Modules/
@@ -84,6 +88,7 @@ grep -r "ActionClass::" Modules/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 85cdef688 (.)
@@ -109,6 +114,9 @@ grep -r "ActionClass::" Modules/
 =======
 
 >>>>>>> 59259b43 (.)
+=======
+
+>>>>>>> 88ee35c4e (.)
 # Verifica pattern corretti
 grep -r "app.*Action.*->execute" Modules/
 ```
@@ -145,6 +153,7 @@ $expression = \Modules\Xot\Actions\Geo\GetDistanceExpressionAction::getExpressio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 85cdef688 (.)
@@ -170,6 +179,9 @@ $expression = \Modules\Xot\Actions\Geo\GetDistanceExpressionAction::getExpressio
 =======
 
 >>>>>>> 59259b43 (.)
+=======
+
+>>>>>>> 88ee35c4e (.)
 # Cerca pattern errati nelle Action
 echo "Cercando pattern errati..."
 find Modules/ -name "*.php" -exec grep -l "Actions.*::" {} \;
@@ -188,6 +200,7 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 
 ## 📖 **RIFERIMENTI**
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249,6 +262,10 @@ Aggiungere regole PHPStan per identificare automaticamente questi pattern.
 >>>>>>> 59259b43 (.)
 =======
 >>>>>>> ab5b3a4f (.)
+=======
+- [Laravel Service Container](https://laravel.com/docs/container)
+- [Dependency Injection Patterns](https://laravel.com/docs/providers)
+>>>>>>> 88ee35c4e (.)
 - [Spatie QueueableAction](https://github.com/spatie/laravel-queueable-action)
 
 ---

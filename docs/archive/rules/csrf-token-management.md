@@ -48,6 +48,7 @@ class MyWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Livewire](https://livewire.laravel.com/docs/security)
 - [Documentazione Laravel CSRF](https://laravel.com/docs/csrf)
@@ -83,6 +84,10 @@ class MyWidget extends XotBaseWidget
 - [Documentazione Livewire](https://livewire.laravel.com/docs/security)
 - [Documentazione Laravel CSRF](https://laravel.com/docs/csrf)
 >>>>>>> 59259b43 (.)
+=======
+- [Documentazione Livewire](https://livewire.laravel.com/docs/security)
+- [Documentazione Laravel CSRF](https://laravel.com/docs/csrf)
+>>>>>>> 88ee35c4e (.)
 - [XotBaseWidget Implementation](../xot_base_classes.md)
 
 ## Esempio di Correzione
@@ -120,6 +125,7 @@ class FindDoctorAndAppointmentWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Dipendenze Livewire aggiornate 
 =======
 - [ ] Dipendenze Livewire aggiornate 
@@ -146,3 +152,6 @@ class FindDoctorAndAppointmentWidget extends XotBaseWidget
 - [ ] Dipendenze Livewire aggiornate 
 >>>>>>> a5dccfe (.)
 >>>>>>> ab5b3a4f (.)
+=======
+- [ ] Dipendenze Livewire aggiornate 
+>>>>>>> 88ee35c4e (.)

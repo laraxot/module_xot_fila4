@@ -53,10 +53,14 @@ Ogni widget deve implementare il proprio schema di form:
 abstract public function getFormSchema(): array;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 final public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 final public function form(Form $form): Form
 >>>>>>> 67be6ac0 (.)
+=======
+final public function form(Form $form): Form
+>>>>>>> 88ee35c4e (.)
 {
     return $form
         ->schema($this->getFormSchema())
@@ -185,6 +189,7 @@ Questo trait permette al widget di aggiornarsi automaticamente a intervalli rego
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
 >>>>>>> 85cdef688 (.)
@@ -226,3 +231,6 @@ Questo trait permette al widget di aggiornarsi automaticamente a intervalli rego
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
 >>>>>>> a5dccfe (.)
 >>>>>>> ab5b3a4f (.)
+=======
+- [Documentazione Filament](https://filamentphp.com/docs/3.x/widgets/installation) 
+>>>>>>> 88ee35c4e (.)

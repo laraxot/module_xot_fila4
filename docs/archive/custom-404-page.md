@@ -27,6 +27,7 @@ This starter template includes a custom __404 Not Found__ error page, located at
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <p class="text-xl">Need to update this page? See the <a title="404 Page Documentation" href="/docs/404"> documentation here</a>.</p>
 >>>>>>> 85cdef688 (.)
@@ -54,6 +55,9 @@ This starter template includes a custom __404 Not Found__ error page, located at
 =======
     <p class="text-xl">Need to update this page? See the <a title="404 Page Documentation" href="/docs/404"> documentation here</a>.</p>
 >>>>>>> 59259b43 (.)
+=======
+    <p class="text-xl">Need to update this page? See the <a title="404 Page Documentation" href="/docs/404"> documentation here</a>.</p>
+>>>>>>> 88ee35c4e (.)
 </div>
 @endsection
 ```
@@ -67,6 +71,7 @@ This starter template includes a custom __404 Not Found__ error page, located at
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Depending on where your site is hosted, you may need to configure your server to use the custom 404 page. For more details, visit the [Jigsaw documentation about configuring a custom 404 page.](https://jigsaw.tighten.co/docs/custom-404-page/)
 >>>>>>> 85cdef688 (.)
@@ -94,6 +99,9 @@ Depending on where your site is hosted, you may need to configure your server to
 =======
 Depending on where your site is hosted, you may need to configure your server to use the custom 404 page. For more details, visit the [Jigsaw documentation about configuring a custom 404 page.](https://jigsaw.tighten.co/docs/custom-404-page/)
 >>>>>>> 59259b43 (.)
+=======
+Depending on where your site is hosted, you may need to configure your server to use the custom 404 page. For more details, visit the [Jigsaw documentation about configuring a custom 404 page.](https://jigsaw.tighten.co/docs/custom-404-page/)
+>>>>>>> 88ee35c4e (.)
 ### Versione HEAD
 
 

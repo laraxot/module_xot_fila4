@@ -22,6 +22,7 @@ bisogna modificare il file /laravel/config/modules.php ed indicare la cartella g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [modules.md](../../../Xot/docs/filament/modules.md)
 * [modules.md](../../../Xot/docs/config/modules.md)
@@ -57,6 +58,10 @@ bisogna modificare il file /laravel/config/modules.php ed indicare la cartella g
 * [modules.md](../../../Xot/docs/filament/modules.md)
 * [modules.md](../../../Xot/docs/config/modules.md)
 >>>>>>> 59259b43 (.)
+=======
+* [modules.md](../../../Xot/docs/filament/modules.md)
+* [modules.md](../../../Xot/docs/config/modules.md)
+>>>>>>> 88ee35c4e (.)
 
 
 ### Versione Incoming

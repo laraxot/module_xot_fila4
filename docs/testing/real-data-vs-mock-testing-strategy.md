@@ -2,10 +2,16 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 # Real Data vs Mock Testing Strategy - Xot Module
 
 ## 🎯 Strategic Testing Approaches
@@ -246,6 +252,7 @@ test('complete tax filing process', function () {
 >>>>>>> cc1bbf15 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
@@ -256,6 +263,9 @@ test('complete tax filing process', function () {
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
 ### Healthcare Domain () - **Real Data Preferred**
 <<<<<<< HEAD
 ### Healthcare Domain () - **Real Data Preferred**
@@ -484,7 +494,14 @@ test('complete tax filing process', function () {
 =======
 ### Healthcare Domain (SaluteOra) - **Real Data Preferred**
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+### Healthcare Domain () - **Real Data Preferred**
+### Healthcare Domain (SaluteOra) - **Real Data Preferred**
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 **Rationale**: 
 - **Regulatory Compliance**: GDPR, medical data validation
@@ -712,6 +729,7 @@ test('legacy feature with mocks', function () {
 >>>>>>> cc1bbf15 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e769883c (.)
 =======
 <<<<<<< HEAD
@@ -722,6 +740,9 @@ test('legacy feature with mocks', function () {
 =======
 <<<<<<< HEAD
 >>>>>>> 6be8834c2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 88ee35c4e (.)
 **For  Healthcare Domain**: 
 <<<<<<< HEAD
 **For  Healthcare Domain**: 
@@ -950,7 +971,14 @@ test('legacy feature with mocks', function () {
 =======
 **For SaluteOra Healthcare Domain**: 
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+**For  Healthcare Domain**: 
+**For SaluteOra Healthcare Domain**: 
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 ✅ **Real Data Testing (80%) + Mock Testing (20%)**
 
 **Rationale**: 
@@ -968,6 +996,7 @@ test('legacy feature with mocks', function () {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1002,4 +1031,13 @@ test('legacy feature with mocks', function () {
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

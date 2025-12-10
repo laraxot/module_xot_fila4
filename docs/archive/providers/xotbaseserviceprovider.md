@@ -2,15 +2,22 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 # XotBaseServiceProvider
 
 ## Descrizione
 `XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli . Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,7 +144,13 @@
 =======
 =======
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+`XotBaseServiceProvider` è una classe astratta che fornisce l'implementazione base per i Service Provider di tutti i moduli in SaluteOra. Estende `Illuminate\Support\ServiceProvider` e implementa funzionalità comuni per la registrazione di componenti, traduzioni, configurazioni e altro.
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)
 
 ## Caratteristiche Principali
 
@@ -318,6 +331,7 @@ try {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
 5. La registrazione dei componenti è automatica ma configurabile 
 5. La registrazione dei componenti è automatica ma configurabile 
@@ -338,6 +352,8 @@ try {
 5. La registrazione dei componenti è automatica ma configurabile 
 5. La registrazione dei componenti è automatica ma configurabile 
 5. La registrazione dei componenti è automatica ma configurabile 
+=======
+>>>>>>> 88ee35c4e (.)
 5. La registrazione dei componenti è automatica ma configurabile 
 =======
 >>>>>>> 67be6ac0 (.)
@@ -364,4 +380,14 @@ try {
 =======
 5. La registrazione dei componenti è automatica ma configurabile 
 >>>>>>> 33af3e61 (.)
+<<<<<<< HEAD
 >>>>>>> 67be6ac0 (.)
+=======
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+5. La registrazione dei componenti è automatica ma configurabile 
+>>>>>>> 5bd842e3 (.)
+>>>>>>> 88ee35c4e (.)

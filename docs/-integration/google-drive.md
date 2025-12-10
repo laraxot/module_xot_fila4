@@ -16,7 +16,11 @@ https://www.myphpnotes.com/post/integrate-google-drive-as-laravel-filesystem
 
 //-- dropbox, ma solo perche' e' di spatie e documentato nella doc ufficiale
 spatie/flysystem-dropbox
+<<<<<<< HEAD
 https://laravel.com/project_docs/8.x/filesystem#custom-filesystems
+=======
+https://laravel.com/docs/8.x/filesystem#custom-filesystems
+>>>>>>> 0218cd5 (.)
 
 FlySystem adapter for Google Drive (work with path)
 https://packagist.org/packages/private-it/flysystem-google-drive
@@ -29,4 +33,8 @@ https://medium.com/@dennissmink/laravel-backup-database-to-your-google-drive-f47
 
 
 
+<<<<<<< HEAD
 https://flysystem.thephpleague.com/v1/project_docs/adapter/google-cloud-storage/
+=======
+https://flysystem.thephpleague.com/v1/docs/adapter/google-cloud-storage/
+>>>>>>> 0218cd5 (.)

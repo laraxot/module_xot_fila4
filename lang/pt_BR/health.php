@@ -125,7 +125,7 @@ return [
 >>>>>>> 5cb992cc6 (.)
             'navigation' => [
                 'group' => 'Configurações',
-                'label' => 'Saúde da aplicação',
+                'label' => 'Verificações de saúde',
             ],
 <<<<<<< HEAD
 <<<<<<< HEAD

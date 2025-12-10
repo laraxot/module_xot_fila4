@@ -603,13 +603,15 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ee35c4e (.)
  * @mixin IdeHelperUserContract
 =======
  * @mixin IdeHelperUserContract
 =======
+=======
+>>>>>>> 6e42a2f13 (.)
  * @mixin \Eloquent
->>>>>>> c84488b (.)
  */
 <<<<<<< HEAD
 <<<<<<< HEAD

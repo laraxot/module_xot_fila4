@@ -40,6 +40,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -89,9 +90,10 @@
         "filament/filament": "*",
         "filament/spatie-laravel-media-library-plugin": "*",
 =======
+=======
+>>>>>>> 6e42a2f13 (.)
         "filament/filament": "^4.0",
         "filament/spatie-laravel-media-library-plugin": "^4.0",
->>>>>>> c84488b (.)
         
 <<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)

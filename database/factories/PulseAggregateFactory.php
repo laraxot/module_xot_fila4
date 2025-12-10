@@ -112,10 +112,14 @@ class PulseAggregateFactory extends Factory
     public function definition(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [];
 =======
         return [
         ];
 >>>>>>> f1d4085 (.)
+=======
+        return [];
+>>>>>>> 73eab74 (.)
     }
 }

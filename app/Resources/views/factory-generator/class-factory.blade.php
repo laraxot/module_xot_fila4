@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 <?php
 
 declare(strict_types=1);
@@ -22,8 +25,11 @@ declare(strict_types=1);
 =======
 >>>>>>> 5a14301c (.)
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;

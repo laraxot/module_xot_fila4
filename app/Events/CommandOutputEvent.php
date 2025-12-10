@@ -23,7 +23,7 @@ class CommandOutputEvent implements ShouldBroadcast
     ) {}
 
     /**
-     * @return array<string, mixed>
+     * @return list<Channel>
      */
     public function broadcastOn(): array
     {

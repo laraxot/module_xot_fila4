@@ -121,6 +121,8 @@ use function Safe\file_get_contents;
 =======
 >>>>>>> 5a14301c (.)
 
+use function Safe\file_get_contents;
+
 uses(TestCase::class);
 
 test('xot base model extends eloquent model', function (): void {

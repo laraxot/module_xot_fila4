@@ -48,6 +48,7 @@ use Modules\Xot\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71f31700 (.)
 =======
@@ -150,7 +151,14 @@ uses(TestCase::class)->in('Feature', 'Unit');
 =======
 >>>>>>> c84488b (.)
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+
+pest()->extend(TestCase::class)->in('Feature', 'Unit');
+>>>>>>> fb8add77 (.)
+>>>>>>> e6745a06 (.)
 
 /*
  * |--------------------------------------------------------------------------
@@ -160,6 +168,7 @@ uses(TestCase::class)->in('Feature', 'Unit');
  * | Qui puoi definire aspettative globali per il modulo Xot.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,7 +239,12 @@ uses(TestCase::class)->in('Feature', 'Unit');
 >>>>>>> 492d6d3c (.)
 =======
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> fb8add77 (.)
+>>>>>>> e6745a06 (.)
  * | Quando definisci here expectation globali, saranno disponibili
  * | in tutti i test del modulo.
  * |
@@ -1054,9 +1068,15 @@ namespace Modules\Xot\Tests\Pest;
 =======
 =======
 
+<<<<<<< HEAD
 >>>>>>> c84488b (.)
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> fb8add77 (.)
+>>>>>>> e6745a06 (.)
 // expect()->extend('toBeOne', function () {
 //     return $this->toBe(1);
 // });
@@ -1109,6 +1129,7 @@ namespace Modules\Xot\Tests\Pest;
 //     // ...
 // }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1400,11 +1421,25 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> 399f46d3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 218dfed3 (.)
+=======
+=======
+>>>>>>> fb8add77 (.)
+>>>>>>> e6745a06 (.)
 
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> a5dccfe (.)
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> e6745a06 (.)
 
 // function something() {
 //     // ...
@@ -1550,4 +1585,9 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> c84488b (.)
 >>>>>>> c35986f4 (.)
+<<<<<<< HEAD
 >>>>>>> 6ca989d8 (.)
+=======
+=======
+>>>>>>> fb8add77 (.)
+>>>>>>> e6745a06 (.)

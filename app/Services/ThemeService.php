@@ -80,6 +80,7 @@ class ThemeService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,3 +220,6 @@ class ThemeService
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+}
+>>>>>>> 60f0a1820 (.)

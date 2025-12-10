@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,6 +198,9 @@
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+  <img src="https://raw.githubusercontent.com/laraxot/xot/main/docs/assets/xot-banner.png" alt="Xot Banner" width="800">
+>>>>>>> 60f0a1820 (.)
   <br>
   <em>🎯 Il modulo base che POTENZIA tutti gli altri moduli Laraxot!</em>
 </div>

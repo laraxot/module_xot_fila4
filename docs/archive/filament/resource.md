@@ -59,6 +59,7 @@ class UserResource extends \Modules\Xot\Filament\Resources\XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [resource.md](../../../Xot/docs/filament/resource.md)
 * [resource.md](../../../Xot/docs/resource.md)
@@ -150,6 +151,10 @@ class UserResource extends \Modules\Xot\Filament\Resources\XotBaseResource
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+* [resource.md](../../../Xot/docs/filament/resource.md)
+* [resource.md](../../../Xot/docs/resource.md)
+>>>>>>> 60f0a1820 (.)
 
 
 ### Versione Incoming

@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 =======
@@ -319,7 +320,12 @@
 =======
 =======
 >>>>>>> 3eee6f79 (.)
+<<<<<<< HEAD
 >>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> c2f6854c (.)
+>>>>>>> 60f0a1820 (.)
 <?php
 
 declare(strict_types=1);
@@ -620,16 +626,6 @@ namespace Database\Factories;
 >>>>>>> b7afadf9 (.)
 >>>>>>> 5cf46378 (.)
 ?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> 6cba4fe (.)
 namespace Database\Factories;
 pace Database\Factories;
 <<<<<<< HEAD

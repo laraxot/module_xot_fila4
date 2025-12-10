@@ -203,6 +203,7 @@ class AddressPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Best Practices Filament](../../../docs/filament-best-practices.md)
 - [Clean Code](../../../docs/clean-code.md) 
@@ -337,3 +338,7 @@ class AddressPage extends XotBasePage
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+- [Best Practices Filament](../../../docs/filament-best-practices.md)
+- [Clean Code](../../../docs/clean-code.md) 
+>>>>>>> 60f0a1820 (.)

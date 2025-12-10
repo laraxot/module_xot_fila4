@@ -404,6 +404,7 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -458,6 +459,10 @@ app()->instance(\Modules\Xot\Datas\XotData::class, $mock);
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+- [Widget Test Patterns](../Cms/docs/tests/widget-test-patterns.md)
+- [Architecture Separation Rules](../Cms/docs/tests/architecture-separation-rules.md)
+>>>>>>> 60f0a1820 (.)
 - [XotData Testing Strategy](XOTDATA_TESTING.md)
 
 ---

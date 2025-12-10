@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Xot\Tests\Feature;
 
-<<<<<<< HEAD
 use Illuminate\Database\QueryException;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19,6 +18,7 @@ use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,6 +267,8 @@ use Tests\TestCase;
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -372,6 +374,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -415,6 +418,9 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+        $this->expectException(QueryException::class);
+>>>>>>> 60f0a1820 (.)
 
         Module::create([
             'name' => 'Another Module',
@@ -697,6 +703,7 @@ class ModuleBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -740,6 +747,9 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+            $this->expectException(QueryException::class);
+>>>>>>> 60f0a1820 (.)
 
             Module::create($moduleData);
         }
@@ -827,6 +837,7 @@ class ModuleBusinessLogicTest extends TestCase
         $this->assertEquals(42, $moduleErrorLog[0]['context']['line']);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -978,3 +989,5 @@ class ModuleBusinessLogicTest extends TestCase
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)

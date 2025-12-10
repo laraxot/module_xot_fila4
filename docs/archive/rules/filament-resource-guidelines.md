@@ -196,6 +196,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -257,6 +258,11 @@
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+- [Documentazione Principale sui Problemi di Namespace](../../../../docs/references/namespace-issues.md)
+- [Documentazione del Modulo Patient](../Patient/docs/errors/undefined-type-pending.md)
+- [Riferimento alle Linee Guida nel Modulo Patient](../Patient/docs/references/filament-guidelines-link.md)
+>>>>>>> 60f0a1820 (.)
 
 ## Note
 

@@ -18,6 +18,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -92,6 +93,8 @@ return [
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -101,6 +104,7 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +298,8 @@ return [
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
 
     'backend' => [
         'access' => [
@@ -307,6 +313,7 @@ return [
                 'not_found' => 'El Rol requerido no existe.',
                 'update_error' => 'Hubo un problema al modificar el Rol. Intentelo de nuevo.',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,6 +465,8 @@ return [
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
             'users' => [
                 'cant_deactivate_self' => 'No puede desactivarse a sí mismo.',
                 'cant_delete_self' => 'No puede eliminarse usted mismo.',
@@ -498,6 +507,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -627,6 +637,8 @@ return [
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -656,6 +668,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Su cuenta ha sido desactivada.',
             'email_taken' => 'El correo especificado ya está registrado.',
 <<<<<<< HEAD
@@ -896,6 +909,10 @@ return [
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+            'deactivated' => 'Su cuenta ha sido desactivada.',
+            'email_taken' => 'El correo especificado ya está registrado.',
+>>>>>>> 60f0a1820 (.)
             'password' => [
                 'change_mismatch' => 'La contraseña antigua no coincide.',
             ],

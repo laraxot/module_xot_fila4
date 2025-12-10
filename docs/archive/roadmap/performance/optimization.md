@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [optimization.md](../../../Xot/docs/roadmap/performance/optimization.md)
 * [optimization.md](../../../Job/docs/optimization.md)
@@ -176,4 +177,9 @@
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+* [optimization.md](../../../Xot/docs/roadmap/performance/optimization.md)
+* [optimization.md](../../../Job/docs/optimization.md)
+* [optimization.md](../../../Cms/docs/roadmap/performance/optimization.md)
+>>>>>>> 60f0a1820 (.)
 

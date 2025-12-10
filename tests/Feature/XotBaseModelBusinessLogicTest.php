@@ -37,6 +37,7 @@ namespace Modules\Xot\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 53d6a6ba (.)
 =======
 <<<<<<< HEAD
@@ -95,6 +96,7 @@ use Illuminate\Database\ConnectionInterface;
 >>>>>>> 4fb9bc4b (.)
 =======
 >>>>>>> 3eee6f79 (.)
+<<<<<<< HEAD
 use Illuminate\Database\ConnectionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,12 +116,17 @@ use Illuminate\Database\ConnectionInterface;
 >>>>>>> 9f27fc9a6 (.)
 =======
 =======
-<<<<<<< HEAD
+>>>>>>> 60f0a1820 (.)
+=======
+>>>>>>> c2f6854c (.)
 use Illuminate\Database\ConnectionInterface;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\Module;
@@ -147,6 +154,7 @@ use Modules\Xot\Models\Module;
 use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Tests\TestCase;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +284,8 @@ use Tests\TestCase;
 >>>>>>> efbf15eba (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
 
 class XotBaseModelBusinessLogicTest extends TestCase
 {
@@ -1200,6 +1210,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 
         // Assert
         $this->assertNotNull($connection);
+<<<<<<< HEAD
         $this->assertInstanceOf(ConnectionInterface::class, $connection);
 <<<<<<< HEAD
     }
@@ -1672,6 +1683,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+        $this->assertInstanceOf(ConnectionInterface::class, $connection);
+>>>>>>> 60f0a1820 (.)
     }
 
     /** @test */
@@ -2576,6 +2590,7 @@ class XotBaseModelBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
@@ -2779,4 +2794,9 @@ class XotBaseModelBusinessLogicTest extends TestCase
 >>>>>>> 5b07d268 (.)
 =======
 >>>>>>> 3eee6f79 (.)
+<<<<<<< HEAD
 >>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> c2f6854c (.)
+>>>>>>> 60f0a1820 (.)

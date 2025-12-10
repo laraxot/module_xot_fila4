@@ -195,6 +195,7 @@ Assicurati semplicemente di impostare uno slug personalizzato per le risorse in 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 https://filamentphp.com/docs/2.x/admin/resources/getting-started#customizing-the-url-slug
 >>>>>>> 85cdef688 (.)
@@ -267,3 +268,6 @@ https://filamentphp.com/docs/2.x/admin/resources/getting-started#customizing-the
 https://filamentphp.com/project_docs/2.x/admin/resources/getting-started#customizing-the-url-slug
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+https://filamentphp.com/docs/2.x/admin/resources/getting-started#customizing-the-url-slug
+>>>>>>> 60f0a1820 (.)

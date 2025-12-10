@@ -33,6 +33,7 @@ Modulo test serve per mettere azioni da testare.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [test.md](../../../Xot/docs/modules/test.md)
 * [test.md](../../../Lang/docs/test.md)
@@ -124,6 +125,10 @@ Modulo test serve per mettere azioni da testare.
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+* [test.md](../../../Xot/docs/modules/test.md)
+* [test.md](../../../Lang/docs/test.md)
+>>>>>>> 60f0a1820 (.)
 
 
 ### Versione Incoming

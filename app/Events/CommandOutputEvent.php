@@ -37,6 +37,7 @@ class CommandOutputEvent implements ShouldBroadcast
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -221,6 +222,9 @@ class CommandOutputEvent implements ShouldBroadcast
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+    ) {}
+>>>>>>> 60f0a1820 (.)
 
     /**
      * @return list<Channel>

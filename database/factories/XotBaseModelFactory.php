@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Xot\Models\XotBaseModel;
 
 /**
-<<<<<<< HEAD
  * @extends Factory<XotBaseModel>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,14 +67,16 @@ use Modules\Xot\Models\XotBaseModel;
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
  */
 class XotBaseModelFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
-<<<<<<< HEAD
      * @var class-string<XotBaseModel>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,6 +134,8 @@ class XotBaseModelFactory extends Factory
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
      */
     protected $model = XotBaseModel::class;
 

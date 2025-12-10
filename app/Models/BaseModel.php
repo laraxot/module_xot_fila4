@@ -183,6 +183,7 @@ abstract class BaseModel extends XotBaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -242,6 +243,10 @@ abstract class BaseModel extends XotBaseModel
 >>>>>>> aa96bb619 (.)
 =======
 >>>>>>> f7e6113c6 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 60f0a1820 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -437,7 +442,12 @@ abstract class BaseModel extends XotBaseModel
 
 >>>>>>> 6cba4fe (.)
 >>>>>>> 3eee6f79 (.)
+<<<<<<< HEAD
 >>>>>>> 0117b849c (.)
+=======
+=======
+>>>>>>> c2f6854c (.)
+>>>>>>> 60f0a1820 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

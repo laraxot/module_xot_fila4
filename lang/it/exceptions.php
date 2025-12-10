@@ -18,6 +18,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -92,6 +93,8 @@ return [
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -101,6 +104,7 @@ return [
      * | found in a intuitive way.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +298,8 @@ return [
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
 
     'backend' => [
         'access' => [
@@ -307,6 +313,7 @@ return [
                 'not_found' => 'Questo ruolo non esiste.',
                 'update_error' => "C'è stato un problema durante l'aggiornamento di questo ruolo. Si prega di riprovare più tardi.",
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,6 +465,8 @@ return [
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
             'users' => [
                 'cant_deactivate_self' => 'Non puoi eseguire questa operazione su te stesso.',
                 'cant_delete_self' => 'Non puoi cancellare te stesso.',
@@ -498,6 +507,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -627,6 +637,8 @@ return [
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -656,6 +668,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Il tuo account è stato disattivato.',
             'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
 <<<<<<< HEAD
@@ -896,6 +909,10 @@ return [
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+            'deactivated' => 'Il tuo account è stato disattivato.',
+            'email_taken' => 'Questo indirizzo e-mail è stato già utilizzato.',
+>>>>>>> 60f0a1820 (.)
             'password' => [
                 'change_mismatch' => 'Questa non è la tua vecchia password.',
             ],

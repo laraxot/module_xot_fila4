@@ -21,6 +21,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5ca118c34 (.)
 =======
@@ -295,10 +296,14 @@ return [
 >>>>>>> 73eab74 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+            'heading' => 'Saúde da aplicação',
+>>>>>>> 60f0a1820 (.)
             'navigation' => [
                 'group' => 'Configurações',
                 'label' => 'Saúde da aplicação',
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,6 +331,8 @@ return [
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
             'notifications' => [
                 'check_results' => 'Ver resultados de verificação',
             ],

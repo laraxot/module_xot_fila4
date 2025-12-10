@@ -18,6 +18,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 73eab74 (.)
@@ -28,11 +29,14 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match_all;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9f27fc9a6 (.)
 <<<<<<< HEAD
@@ -326,6 +330,8 @@ use function Safe\preg_match_all;
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
 /**
  * Parses a print page string into an array of page numbers.
  *
@@ -403,6 +409,7 @@ class ParsePrintPageStringAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f7e6113c6 (.)
@@ -583,6 +590,9 @@ class ParsePrintPageStringAction
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+                $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
+>>>>>>> 60f0a1820 (.)
             }
         }
 

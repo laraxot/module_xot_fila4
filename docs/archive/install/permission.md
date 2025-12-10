@@ -187,6 +187,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [permission.md](../../../Xot/docs/install/permission.md)
 * [permission.md](../../../Tenant/docs/it/config/permission.md)
@@ -278,6 +279,10 @@ return [
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+* [permission.md](../../../Xot/docs/install/permission.md)
+* [permission.md](../../../Tenant/docs/it/config/permission.md)
+>>>>>>> 60f0a1820 (.)
 
 
 ### Versione Incoming

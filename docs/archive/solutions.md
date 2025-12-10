@@ -267,6 +267,7 @@ class CacheTest extends TestCase {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [solutions.md](../../../Gdpr/docs/solutions.md)
 * [solutions.md](../../../Xot/docs/solutions.md)
@@ -377,6 +378,11 @@ class CacheTest extends TestCase {
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+* [solutions.md](../../../Gdpr/docs/solutions.md)
+* [solutions.md](../../../Xot/docs/solutions.md)
+* [solutions.md](../../../Job/docs/solutions.md)
+>>>>>>> 60f0a1820 (.)
 
 
 ### Versione Incoming

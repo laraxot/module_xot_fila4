@@ -16,6 +16,7 @@ namespace Modules\Xot\Http\Middleware;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -59,6 +60,9 @@ use Closure;
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+use Closure;
+>>>>>>> 60f0a1820 (.)
 use Filament\Facades\Filament;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -73,6 +77,7 @@ class SetDefaultTenantForUrlsMiddleware
     /**
      * Handle the incoming request.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,6 +166,8 @@ class SetDefaultTenantForUrlsMiddleware
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
     public function handle(
         Request $request,
         Closure $next,
@@ -169,6 +176,7 @@ class SetDefaultTenantForUrlsMiddleware
             'tenant' => Filament::getTenant(),
             // 'referrer' => url()->previous(),
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -382,6 +390,8 @@ class SetDefaultTenantForUrlsMiddleware
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
 
         // @phpstan-ignore return.type
         return $next($request);

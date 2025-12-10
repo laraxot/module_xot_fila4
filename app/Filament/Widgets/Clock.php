@@ -12,8 +12,8 @@ class Clock extends Widget
 {
     public string $start = '';
 
-<<<<<<< HEAD
     protected string $view = 'xot::filament.widgets.clock';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,6 +71,8 @@ class Clock extends Widget
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
 
     public function begin(): void
     {

@@ -16,6 +16,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -90,6 +91,8 @@ declare(strict_types=1);
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
 return [
     'id' => 'id',
     'level' => 'level',
@@ -102,6 +105,7 @@ return [
     'updated_at' => 'updated_at',
     'deleted_at' => 'deleted_at',
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,3 +250,5 @@ return ['id' => 'id', 'level' => 'level', 'name' => 'name', 'color' => 'color', 
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)

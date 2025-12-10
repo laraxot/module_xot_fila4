@@ -105,6 +105,7 @@ return $def1;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [database.md](../../../Xot/docs/install/database.md)
 * [database.md](../../../Tenant/docs/it/config/database.md)
@@ -196,6 +197,10 @@ return $def1;
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+* [database.md](../../../Xot/docs/install/database.md)
+* [database.md](../../../Tenant/docs/it/config/database.md)
+>>>>>>> 60f0a1820 (.)
 
 
 ### Versione Incoming

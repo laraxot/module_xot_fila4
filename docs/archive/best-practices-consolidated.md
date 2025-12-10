@@ -40,6 +40,7 @@ Questo documento sostituisce e consolida **40+ file di best practices duplicati*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -87,6 +88,9 @@ Questo documento sostituisce e consolida **40+ file di best practices duplicati*
 >>>>>>> 3c8d62b79 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+- **Questo file**: `/laravel/Modules/Xot/docs/best-practices-consolidated.md`
+>>>>>>> 60f0a1820 (.)
 - **Implementazione**: Codice nei singoli moduli (solo implementazione, non docs)
 
 ## Principi Fondamentali

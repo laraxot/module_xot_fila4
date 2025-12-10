@@ -86,6 +86,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [configuration.md](../../../Xot/docs/configuration.md)
 * [configuration.md](../../../Cms/docs/configuration.md)
@@ -177,4 +178,8 @@ return [
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+* [configuration.md](../../../Xot/docs/configuration.md)
+* [configuration.md](../../../Cms/docs/configuration.md)
+>>>>>>> 60f0a1820 (.)
 

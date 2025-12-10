@@ -167,6 +167,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 3 Giugno 2025*
 =======
@@ -227,15 +228,13 @@ return [
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
 - [Errori comuni nei file di traduzione](/laravel/Modules/Lang/docs/errori_comuni_traduzione.md)
 - [Convenzioni di documentazione](/laravel/Modules/Xot/docs/documentation_conventions.md)
 - [Documentazione principale sulle traduzioni](/docs/translation_rules.md)
-=======
-- [Errori comuni nei file di traduzione](/laravel/Modules/Lang/project_docs/errori_comuni_traduzione.md)
-- [Convenzioni di documentazione](/laravel/Modules/Xot/project_docs/documentation_conventions.md)
-- [Documentazione principale sulle traduzioni](/project_docs/translation_rules.md)
->>>>>>> 6cba4fe (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,3 +318,5 @@ return [
 =======
 *Ultimo aggiornamento: 3 Giugno 2025*
 >>>>>>> 317b552da (.)
+=======
+>>>>>>> 60f0a1820 (.)

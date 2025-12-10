@@ -49,6 +49,7 @@ class SpatiePdfByHtmlAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'content' => $html2pdf->output($path, 'S'), // D
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,6 +189,9 @@ class SpatiePdfByHtmlAction
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+            'content' => $html2pdf->output($path, 'S'), // D
+>>>>>>> 60f0a1820 (.)
             default => $path,
         };
     }

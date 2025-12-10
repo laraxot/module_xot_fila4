@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [status.md](../../../Xot/docs/roadmap/docs/status.md)
 * [status.md](../../../Xot/docs/roadmap/testing/status.md)
@@ -176,4 +177,9 @@
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+* [status.md](../../../Xot/docs/roadmap/docs/status.md)
+* [status.md](../../../Xot/docs/roadmap/testing/status.md)
+* [status.md](../../../Xot/docs/roadmap/security/status.md)
+>>>>>>> 60f0a1820 (.)
 

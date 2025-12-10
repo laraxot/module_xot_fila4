@@ -17,6 +17,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -91,6 +92,8 @@ declare(strict_types=1);
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
  * |--------------------------------------------------------------------------
  * | API Routes
  * |--------------------------------------------------------------------------
@@ -100,15 +103,12 @@ declare(strict_types=1);
  * | is assigned the "api" middleware group. Enjoy building your API!
  * |
  */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6cba4fe (.)
 /*
  * Route::middleware('auth:api')->get('/xot', function (Request $request) {
  * return $request->user();
  * });
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,3 +334,5 @@ Route::middleware('auth:api')->get('/xot', function (Request $request) {
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)

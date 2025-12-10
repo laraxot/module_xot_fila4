@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
    - Le regole generali sono in `/Modules/Xot/docs/`
@@ -112,6 +113,10 @@
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+   - Ogni modulo ha la sua documentazione in `/Modules/{ModuleName}/docs/`
+   - Le regole generali sono in `/Modules/Xot/docs/`
+>>>>>>> 60f0a1820 (.)
    - La root `/docs` contiene solo indici e collegamenti
 
 2. **Collegamenti Bidirezionali**
@@ -121,6 +126,7 @@
 
 3. **Organizzazione dei Contenuti**
    ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,6 +217,9 @@
    Modules/Xot/project_docs/
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+   Modules/Xot/docs/
+>>>>>>> 60f0a1820 (.)
    ├── guidelines/           # Linee guida generali
    ├── conventions/          # Convenzioni di codice
    ├── architecture/         # Architettura del framework
@@ -294,6 +303,7 @@ public function example(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Modules/{ModuleName}/docs/
 >>>>>>> 85cdef688 (.)
@@ -366,6 +376,9 @@ Modules/{ModuleName}/docs/
 Modules/{ModuleName}/project_docs/
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+Modules/{ModuleName}/docs/
+>>>>>>> 60f0a1820 (.)
 ├── README.md              # Panoramica del modulo
 ├── installation.md        # Istruzioni di installazione
 ├── configuration.md       # Configurazione
@@ -451,6 +464,7 @@ php artisan api:generate
 
 ## Collegamenti tra versioni di documentation.md
 * [documentation.md](docs/rules/documentation.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -579,4 +593,9 @@ php artisan api:generate
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+* [documentation.md](../../../Xot/docs/documentation.md)
+* [documentation.md](../../../Xot/docs/guidelines/documentation.md)
+* [documentation.md](../../../Cms/docs/roadmap/features/documentation.md)
+>>>>>>> 60f0a1820 (.)
 

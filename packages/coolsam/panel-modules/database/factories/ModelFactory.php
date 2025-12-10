@@ -21,6 +21,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 358ba79a7 (.)
@@ -95,6 +96,8 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
  * class ModelFactory extends Factory
  * {
  * protected $model = YourModel::class;
@@ -107,6 +110,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  * }
  * }
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,3 +307,5 @@ class ModelFactory extends Factory
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)

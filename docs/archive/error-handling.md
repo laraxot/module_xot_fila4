@@ -47,6 +47,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Patient Errori e Soluzioni](../../Patient/docs/models.md)
 - [Patient Workflow](../../Patient/docs/doctor-registration-workflow.md)
@@ -138,6 +139,10 @@
 >>>>>>> 317b552da (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+- [Patient Errori e Soluzioni](../../Patient/docs/models.md)
+- [Patient Workflow](../../Patient/docs/doctor-registration-workflow.md)
+>>>>>>> 60f0a1820 (.)
 - [README Xot](./README.md)
 
 # Errori di Validazione Custom (Laravel)
@@ -163,6 +168,7 @@ throw new \Illuminate\Validation\ValidationException(
 - Questo genera errori runtime e non è supportato.
 
 ## Approfondimenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,3 +259,6 @@ throw new \Illuminate\Validation\ValidationException(
 - [Patient: errors/validation.md](../../Patient/project_docs/errors/validation.md) 
 >>>>>>> 6cba4fe (.)
 >>>>>>> 0117b849c (.)
+=======
+- [Patient: errors/validation.md](../../Patient/docs/errors/validation.md) 
+>>>>>>> 60f0a1820 (.)

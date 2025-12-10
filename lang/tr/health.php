@@ -25,6 +25,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6be8834c2 (.)
 =======
@@ -221,6 +222,9 @@ return [
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+            'heading' => 'Uygulama Sağlığı',
+>>>>>>> 60f0a1820 (.)
             'navigation' => [
                 'group' => 'Ayarlar',
                 'label' => 'Uygulama Sağlığı',
@@ -247,6 +251,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -376,6 +381,8 @@ return [
 >>>>>>> 9f27fc9a6 (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 60f0a1820 (.)
             'notifications' => [
                 'check_results' => 'Sonuçları kontrol et.',
             ],

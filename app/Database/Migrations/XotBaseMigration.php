@@ -162,7 +162,7 @@ use Webmozart\Assert\Assert;
  */
 abstract class XotBaseMigration extends Migration
 {
-    protected Model $model;
+    protected ?Model $model = null; // Make it nullable and initialize to null
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,12 +445,36 @@ abstract class XotBaseMigration extends Migration
 =======
 >>>>>>> 71586de2 (.)
     protected ?string $model_class = null;
+    protected ?string $table_name = null; // Add this property
 
     public function __construct()
     {
+        // Only try to resolve model_class if not explicitly set by child migration
         $this->model_class ??= $this->getModelClass();
-        Assert::isInstanceOf($model = app($this->model_class), Model::class);
-        $this->model = $model;
+
+        // Instantiate model only if model_class is valid and extends Model
+        if ($this->model_class && class_exists($this->model_class) && is_a($this->model_class, Model::class, true)) {
+            $this->model = app($this->model_class);
+            // Assert::isInstanceOf($this->model, Model::class); // No need for assert here as condition checks it
+        }
+
+        // Set table_name if explicitly defined in child migration, or derive from model if available
+        if ($this->table_name === null && $this->model !== null) {
+            $this->table_name = $this->model->getTable();
+        } elseif ($this->table_name === null) {
+            // Attempt to derive table name from migration class name as a last resort
+            $name = class_basename($this);
+            if (Str::startsWith($name, 'Create') && Str::endsWith($name, 'Table')) {
+                $this->table_name = Str::snake(Str::between($name, 'Create', 'Table'));
+            } elseif (Str::startsWith($name, 'Add') && Str::endsWith($name, 'Table')) {
+                 $this->table_name = Str::snake(Str::between($name, 'To', 'Table'));
+            } else {
+                // For migrations not following CreateXTable or AddXToYTable convention,
+                // table_name must be explicitly set in the child migration.
+                // Or, use reflection to get table name if possible.
+                // For now, leave as null if cannot be derived.
+            }
+        }
     }
 
     /**
@@ -1078,7 +1102,14 @@ abstract class XotBaseMigration extends Migration
 
     public function getTable(): string
     {
-        return $this->model->getTable();
+        if ($this->table_name !== null) {
+            return $this->table_name;
+        }
+        // Fallback to model if available (though it should have been set in construct)
+        if ($this->model !== null) {
+            return $this->model->getTable();
+        }
+        throw new RuntimeException('Table name not defined for migration. Please set $table_name property or ensure $model_class is set correctly.');
     }
 
     public function getConn(): Builder

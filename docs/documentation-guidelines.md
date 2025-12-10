@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -17,6 +18,8 @@
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
 
 # Linee Guida per la Documentazione in Laraxot
 
@@ -260,6 +263,7 @@ Quando si fa riferimento a concetti o classi in altri moduli, utilizzare collega
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,6 +495,10 @@ Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/d
 =======
 Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
 >>>>>>> 3310e9c6 (.)
+=======
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/project_docs/README.md).
+Per ulteriori informazioni, consultare la [documentazione del modulo UI](../UI/docs/README.md).
+>>>>>>> c35986f4 (.)
 ```
 
 ### 2. Documentazione Centralizzata
@@ -521,6 +529,7 @@ Alcuni argomenti comuni a più moduli dovrebbero essere documentati nel modulo X
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -752,6 +761,10 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 =======
 Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
 >>>>>>> 3310e9c6 (.)
+=======
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/project_docs/best-practices.md).
+Per le best practices generali sul framework, consultare la [guida principale](../Xot/docs/best-practices.md).
+>>>>>>> c35986f4 (.)
 ```
 
 ## Esempi di Eccellenza
@@ -825,6 +838,7 @@ Per implementare queste linee guida:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -863,3 +877,5 @@ Per implementare queste linee guida:
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)

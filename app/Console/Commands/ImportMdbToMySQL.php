@@ -8,11 +8,14 @@ use Illuminate\Console\Command;
 use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
 use function Safe\shell_exec;
 
 class ImportMdbToMySQL extends Command
@@ -39,6 +42,7 @@ class ImportMdbToMySQL extends Command
         $mdbFile = $this->ask('Inserisci il percorso del file .mdb');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($mdbFile)) {
 =======
         if (!is_string($mdbFile)) {
@@ -46,10 +50,14 @@ class ImportMdbToMySQL extends Command
 =======
         if (!is_string($mdbFile)) {
 >>>>>>> 71f31700 (.)
+=======
+        if (!is_string($mdbFile)) {
+>>>>>>> c35986f4 (.)
             throw new RuntimeException('Il percorso del file deve essere una stringa');
         }
 
         $mysqlDb = $this->ask('Inserisci il nome del database MySQL');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! is_string($mysqlDb)) {
@@ -61,6 +69,8 @@ class ImportMdbToMySQL extends Command
 =======
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
         if (!is_string($mysqlDb)) {
             throw new RuntimeException('Il nome del database deve essere una stringa');
         }
@@ -68,9 +78,12 @@ class ImportMdbToMySQL extends Command
         $this->info("File .mdb: $mdbFile");
         $this->info("Database MySQL: $mysqlDb");
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
 
         $this->info('Esportando tabelle dal file .mdb...');
         $tables = $this->exportTablesToSQL($mdbFile);
@@ -78,11 +91,14 @@ class ImportMdbToMySQL extends Command
             $this->error('Nessuna tabella trovata nel file .mdb');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
             return Command::FAILURE;
         }
 
@@ -92,11 +108,14 @@ class ImportMdbToMySQL extends Command
         $this->info('Importazione completata con successo!');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> ed734516 (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
         return Command::SUCCESS;
     }
 
@@ -110,6 +129,7 @@ class ImportMdbToMySQL extends Command
         $tables = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $tableList = shell_exec("mdb-tables {$mdbFile}");
         if (! $tableList) {
 =======
@@ -120,6 +140,10 @@ class ImportMdbToMySQL extends Command
         $tableList = shell_exec("mdb-tables $mdbFile");
         if (!$tableList) {
 >>>>>>> 71f31700 (.)
+=======
+        $tableList = shell_exec("mdb-tables $mdbFile");
+        if (!$tableList) {
+>>>>>>> c35986f4 (.)
             return [];
         }
 
@@ -133,6 +157,7 @@ class ImportMdbToMySQL extends Command
             $sqlFile = storage_path("app/{$table}.sql");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             shell_exec("mdb-schema {$mdbFile} mysql > {$sqlFile}");
             shell_exec("mdb-export -I mysql {$mdbFile} {$table} >> {$sqlFile}");
 =======
@@ -143,6 +168,10 @@ class ImportMdbToMySQL extends Command
             shell_exec("mdb-schema $mdbFile mysql > $sqlFile");
             shell_exec("mdb-export -I mysql $mdbFile $table >> $sqlFile");
 >>>>>>> 71f31700 (.)
+=======
+            shell_exec("mdb-schema $mdbFile mysql > $sqlFile");
+            shell_exec("mdb-export -I mysql $mdbFile $table >> $sqlFile");
+>>>>>>> c35986f4 (.)
         }
 
         return $tables;
@@ -153,6 +182,7 @@ class ImportMdbToMySQL extends Command
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<int, string>  $tables
 =======
      * @param array<int, string> $tables
@@ -160,11 +190,15 @@ class ImportMdbToMySQL extends Command
 =======
      * @param array<int, string> $tables
 >>>>>>> 71f31700 (.)
+=======
+     * @param array<int, string> $tables
+>>>>>>> c35986f4 (.)
      */
     private function importTablesIntoMySQL(array $tables, string $mysqlDb): void
     {
         foreach ($tables as $table) {
             $sqlFile = storage_path("app/{$table}.sql");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $command = "mysql -u root {$mysqlDb} < {$sqlFile}";
@@ -174,6 +208,9 @@ class ImportMdbToMySQL extends Command
 =======
             $command = "mysql -u root $mysqlDb < $sqlFile";
 >>>>>>> 71f31700 (.)
+=======
+            $command = "mysql -u root $mysqlDb < $sqlFile";
+>>>>>>> c35986f4 (.)
             shell_exec($command);
         }
     }

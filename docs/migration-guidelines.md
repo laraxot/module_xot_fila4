@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -17,6 +18,8 @@
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
 # Migration Guidelines for Project Modules
 
 ## Overview
@@ -54,6 +57,7 @@ return new class extends XotBaseMigration
 ```
 
 ## Related Documentation
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,10 +157,13 @@ return new class extends XotBaseMigration
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> c35986f4 (.)
 - [User Module Database Errors](../../User/docs/DATABASE_ERRORS.md)
 - [Xot Base Classes](../XOT_BASE_CLASSES.md)
 - [Code Quality](../CODE_QUALITY.md)
 - [Root Documentation](../../../../docs/collegamenti-documentazione.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,3 +359,6 @@ return new class extends XotBaseMigration
 =======
 - [Database Guidelines](../DATABASE_GUIDELINES.md)
 >>>>>>> 71f31700 (.)
+=======
+- [Database Guidelines](../DATABASE_GUIDELINES.md)
+>>>>>>> c35986f4 (.)

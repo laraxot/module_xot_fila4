@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -17,6 +18,8 @@
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 71f31700 (.)
+=======
+>>>>>>> c35986f4 (.)
 # DatabaseSchemaExporter Command Documentation
 
 ## Overview
@@ -71,6 +74,7 @@ Tabelle trovate: users, migrations, password_resets
 - Ottimizzata la query di estrazione tabelle 
 
 ## Collegamenti tra versioni di database-schema-exporter.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,3 +214,8 @@ Tabelle trovate: users, migrations, password_resets
 * [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
 
 >>>>>>> 71f31700 (.)
+=======
+* [database-schema-exporter.md](../../../Xot/docs/commands/database-schema-exporter.md)
+* [database-schema-exporter.md](../../../Xot/docs/console/commands/database-schema-exporter.md)
+
+>>>>>>> c35986f4 (.)

@@ -42,8 +42,10 @@ use Filament\Pages\Dashboard\Concerns\HasFiltersForm;
 use Filament\Widgets\Widget;
 use Filament\Widgets\WidgetConfiguration;
 
+<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,11 +104,16 @@ class Dashboard extends XotBaseDashboard
 =======
 <<<<<<< HEAD
 >>>>>>> e0b8ebe3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 3eee6f79 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,6 +169,10 @@ class Dashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> 6d1255a8 (.)
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> 3eee6f79 (.)
 
 class Dashboard extends XotBaseDashboard
 {
@@ -182,6 +193,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 17684f52 (.)
 =======
@@ -192,6 +204,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> e0b8ebe3 (.)
+=======
+>>>>>>> 3eee6f79 (.)
 >>>>>>> a12f125f4a (.)
 =======
 class Dashboard extends XotBaseDashboard
@@ -200,6 +214,7 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -521,6 +536,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 3ae5e299 (.)
 =======
 >>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 3eee6f79 (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -528,6 +545,7 @@ class Dashboard extends XotBaseDashboard
     {
         return [];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -601,6 +619,8 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> e0b8ebe3 (.)
 =======
+>>>>>>> 3eee6f79 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -615,6 +635,7 @@ class Dashboard extends XotBaseDashboard
     
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -842,4 +863,6 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 3ae5e299 (.)
 =======
 >>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 3eee6f79 (.)
 }

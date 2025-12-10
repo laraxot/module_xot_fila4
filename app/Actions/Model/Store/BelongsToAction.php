@@ -14,7 +14,23 @@ class BelongsToAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+>>>>>>> a12f125f4a (.)
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> b93ef594b4 (.)
+=======
+    public function execute(Model $model, RelationDTO $relationDTO): void
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsTo::class);
 
@@ -23,6 +39,7 @@ class BelongsToAction
         $relationDTO->rows->associate($related);
 
         // $rows = $relation->rows;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,10 +164,13 @@ class BelongsToAction
 =======
 >>>>>>> 90d386aa (.)
 =======
+>>>>>>> 3eee6f79 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -393,6 +413,8 @@ class BelongsToAction
 >>>>>>> 3ae5e299 (.)
 =======
 >>>>>>> 5b07d268 (.)
+=======
+>>>>>>> 3eee6f79 (.)
         // dd([$relation->name]);
 >>>>>>> 5a14301c (.)
 =======
@@ -424,5 +446,58 @@ class BelongsToAction
          * 't1'=>$rows,
          * ]);
          */
+<<<<<<< HEAD
+=======
+=======
+
+=======
+>>>>>>> b93ef594b4 (.)
+        // dd([$relation->name]);
+        /*
+         * if (null == $row->{$relation->name}) {
+         * $row->{$relation->name}()->create($relation->data);
+         *
+         * return;
+         * }
+         */
+        /*
+<<<<<<< HEAD
+=======
+
+        // dd([$relation->name]);
+        /*
+        if (null == $row->{$relation->name}) {
+            $row->{$relation->name}()->create($relation->data);
+
+            return;
+        }
+        */
+        /*
+>>>>>>> origin/develop
+        dddx([
+            'message' => 'wip',
+            'row' => $row,
+            'relation' => $relation,
+            'relation_rows' => $relation->rows->exists(),
+            't' => $row->{$relation->name},
+            't1'=>$rows,
+        ]);
+        */
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+         * dddx([
+         * 'message' => 'wip',
+         * 'row' => $row,
+         * 'relation' => $relation,
+         * 'relation_rows' => $relation->rows->exists(),
+         * 't' => $row->{$relation->name},
+         * 't1'=>$rows,
+         * ]);
+         */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
     }
 }

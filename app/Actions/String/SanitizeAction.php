@@ -10,6 +10,9 @@ class SanitizeAction
 {
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
@@ -30,7 +33,12 @@ use function Safe\preg_replace;
 
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 class SanitizeAction
 {
     use QueueableAction;
@@ -140,6 +148,9 @@ class SanitizeAction
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  * $string = trim($item);
  *
  *
@@ -171,4 +182,9 @@ $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)

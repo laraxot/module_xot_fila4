@@ -18,6 +18,7 @@ class SaveArrayAction
             'json' => app(SaveJsonArrayAction::class)->execute($data, $filename),
             'php' => app(SavePhpArrayAction::class)->execute($data, $filename),
 <<<<<<< HEAD
+<<<<<<< HEAD
             default => throw new InvalidArgumentException("Formato non supportato: {$format}"),
 <<<<<<< HEAD
             default => throw new \InvalidArgumentException("Formato non supportato: {$format}")
@@ -25,7 +26,13 @@ class SaveArrayAction
 =======
             default => throw new InvalidArgumentException("Formato non supportato: {$format}")
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            default => throw new InvalidArgumentException("Formato non supportato: {$format}"),
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         };
     }
 }

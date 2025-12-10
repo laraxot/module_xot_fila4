@@ -28,7 +28,10 @@ namespace Modules\Xot\Filament\Widgets;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
 use RuntimeException;
 use Illuminate\Database\Eloquent\Model;
 use Webmozart\Assert\Assert;
@@ -186,7 +189,14 @@ class StatesChartWidget extends XotBaseChartWidget
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 use Override;
 use Exception;
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
@@ -196,10 +206,13 @@ class StatesChartWidget extends XotBaseChartWidget
     protected null|string $heading = null;
     protected static null|int $sort = 4;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
 use Exception;
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
@@ -222,12 +235,18 @@ class StatesChartWidget extends XotBaseChartWidget
     protected static ?int $sort = 4;
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     protected static bool $isLazy = true;
 
     public string $stateClass;
     public string $model;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
     public function getHeading(): null|string
@@ -389,6 +408,75 @@ class StatesChartWidget extends XotBaseChartWidget
     #[Override]
     public function getHeading(): null|string
 =======
+<<<<<<< HEAD
+=======
+    public function getHeading(): ?string
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+    public function getHeading(): null|string
+>>>>>>> b93ef594b4 (.)
+=======
+    public function getHeading(): ?string
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function getHeading(): ?string
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+    #[Override]
+    public function getHeading(): null|string
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+    public function getHeading(): ?string
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function getHeading(): ?string
+>>>>>>> 218dfed3 (.)
 >>>>>>> f1d4085 (.)
 >>>>>>> ed734516 (.)
 =======
@@ -404,11 +492,17 @@ class StatesChartWidget extends XotBaseChartWidget
     public function getHeading(): ?string
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     {
         return static::transClass($this->model, 'widgets.states_chart.heading');
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
@@ -481,7 +575,13 @@ class StatesChartWidget extends XotBaseChartWidget
 =======
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     protected function getData(): array
     {
         $label = static::transClass($this->model, 'widgets.states_chart.label');
@@ -574,6 +674,9 @@ class StatesChartWidget extends XotBaseChartWidget
                         'label' => $label,
                         'data' => $states->pluck('count')->toArray(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                         'backgroundColor' => $states
                             ->keys()
                         'backgroundColor' => $states
@@ -652,6 +755,7 @@ class StatesChartWidget extends XotBaseChartWidget
                     ->map(fn ($state) => static::transClass($this->model, 'states.'.$state.'.label'))
                     ->map(fn ($state) => static::transClass($this->model, 'states.'.((string) $state).'.label'))
                     ->toArray(),
+<<<<<<< HEAD
 =======
                         'backgroundColor' => $states->keys()->map(fn($state) => $colors[$state] ?? 'rgb(156, 163, 175)')->toArray(),
                         'borderColor' => $states->keys()->map(fn($state) => $colors[$state] ?? 'rgb(156, 163, 175)')->toArray(),
@@ -660,6 +764,8 @@ class StatesChartWidget extends XotBaseChartWidget
                 ],
                 'labels' => $states->keys()->map(fn($state) => static::transClass($this->model, 'states.'.$state.'.label'))->toArray(),
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             ];
         } catch (Exception $e) {
                     ->map(fn ($state) => static::transClass($this->model, 'states.'.$state.'.label'))
@@ -706,6 +812,7 @@ class StatesChartWidget extends XotBaseChartWidget
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
     #[\Override]
@@ -777,12 +884,19 @@ class StatesChartWidget extends XotBaseChartWidget
 =======
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     protected function getType(): string
     {
         return 'bar';
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 }
@@ -793,4 +907,10 @@ class StatesChartWidget extends XotBaseChartWidget
 =======
 } 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+}
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)

@@ -45,6 +45,7 @@ abstract class BaseMorphPivot extends MorphPivot
     protected $fillable = [
         'id',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'post_id',
         'post_type',
 <<<<<<< HEAD
@@ -53,7 +54,14 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
         'post_id', 'post_type',
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+        'post_id',
+        'post_type',
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         'related_type',
         'user_id',
         'note',
@@ -66,6 +74,7 @@ abstract class BaseMorphPivot extends MorphPivot
             'id' => 'string', // must be string else primary key of related model will be typed as int
             'uuid' => 'string',
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -74,6 +83,9 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -84,6 +96,11 @@ abstract class BaseMorphPivot extends MorphPivot
             'deleted_at' => 'datetime',
 
 >>>>>>> f1d4085 (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 73eab74 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

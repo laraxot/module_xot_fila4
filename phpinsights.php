@@ -19,6 +19,9 @@ use SlevomatCodingStandard\Sniffs\TypeHints\ReturnTypeHintSniff;
 return [
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * |--------------------------------------------------------------------------
      * | Default Preset
      * |--------------------------------------------------------------------------
@@ -143,32 +146,53 @@ return [
      */
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
     'exclude' => [
         //  'path/to/directory-or-file'
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     'add' => [
         Classes::class => [
             ForbiddenFinalClasses::class,
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     'remove' => [
         AlphabeticallySortedUsesSniff::class,
         DeclareStrictTypesSniff::class,
@@ -182,19 +206,30 @@ return [
         UselessFunctionDocCommentSniff::class,
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     'config' => [
         ForbiddenPrivateMethods::class => [
             'title' => 'The usage of private methods is not idiomatic in Laravel.',
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Requirements
@@ -205,6 +240,7 @@ return [
      * | code will be returned. This is optional and individually defined.
      * |
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -218,6 +254,8 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -248,6 +286,9 @@ return [
         //        'disable-security-check' => false,
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Threads
@@ -271,6 +312,7 @@ return [
      * |
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     /*
      * |--------------------------------------------------------------------------
      * | Threads
@@ -284,6 +326,8 @@ return [
 
     'threads' => null,
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
 
     /*
@@ -322,7 +366,12 @@ return [
      */
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
     'timeout' => 60,
 ];

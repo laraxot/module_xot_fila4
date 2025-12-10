@@ -28,6 +28,7 @@ namespace Modules\Xot\Actions\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2f3197ab (.)
 use ValueError;
@@ -87,10 +88,18 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 use ValueError;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use ValueError;
+>>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Model;
 use Spatie\QueueableAction\QueueableAction;
 use ValueError;
@@ -110,6 +119,9 @@ class GetSicureArrayByModelAction
     public function execute(Model $model): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         try {
             return $model->attributesToArray(); // "" is not a valid backing value for enum Modules\SaluteOra\Enums\OccurrenceFrequencyEnum
             return $model->attributesToArray(); // "" is not a valid backing value for enum Modules\SaluteOra\Enums\OccurrenceFrequencyEnum
@@ -132,8 +144,11 @@ class GetSicureArrayByModelAction
                 } catch (ValueError $e) {
                 }
             }
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         try{
             return $model->attributesToArray(); //"" is not a valid backing value for enum Modules\SaluteOra\Enums\OccurrenceFrequencyEnum

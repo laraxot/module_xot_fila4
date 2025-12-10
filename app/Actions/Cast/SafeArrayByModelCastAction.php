@@ -26,6 +26,7 @@ class SafeArrayByModelCastAction
     public function execute(Model $model): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         try {
         try {
             /** @var array<string, mixed> */
@@ -52,7 +53,15 @@ class SafeArrayByModelCastAction
             return $model->attributesToArray(); 
         }catch(ValueError|Error|Exception $e){
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+        try {
+            return $model->attributesToArray();
+        } catch (ValueError|Error|Exception $e) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             return $this->safeExecute($model);
         }
     }
@@ -62,6 +71,7 @@ class SafeArrayByModelCastAction
      * @return array<string, mixed>
      */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151,7 +161,14 @@ class SafeArrayByModelCastAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -169,6 +186,16 @@ class SafeArrayByModelCastAction
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 88ea7103 (.)
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291,6 +318,7 @@ class SafeArrayByModelCastAction
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -307,6 +335,16 @@ class SafeArrayByModelCastAction
 
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+>>>>>>> 218dfed3 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
 =======
@@ -318,6 +356,51 @@ class SafeArrayByModelCastAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+
+
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+
+
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+
+
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     }
 }

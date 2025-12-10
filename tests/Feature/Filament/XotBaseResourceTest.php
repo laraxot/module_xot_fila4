@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 uses(TestCase::class, RefreshDatabase::class);
 
@@ -11,6 +12,11 @@ beforeEach(function () {
 =======
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 namespace Modules\Xot\Tests\Feature\Filament;
 
 use Filament\Resources\Resource;
@@ -72,6 +78,7 @@ namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 2f3197ab (.)
@@ -98,7 +105,12 @@ namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
 =======
 >>>>>>> 7131bd09 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 218dfed3 (.)
 namespace Modules\Xot\Tests\Feature\Filament\XotBaseResourceTest;
 
 namespace Modules\Xot\Tests\Feature\Filament;
@@ -208,6 +220,7 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -248,7 +261,14 @@ beforeEach(function () {
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     };
 });
 

@@ -19,6 +19,7 @@ use Webmozart\Assert\InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -46,10 +47,34 @@ use Filament\Notifications\Notification as FilamentNotification;
 >>>>>>> 3fbbf1f5 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+use TypeError;
+use Webmozart\Assert\InvalidArgumentException;
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 use Filament\Notifications\Notification as FilamentNotification;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Filament\Notifications\Notification as FilamentNotification;
+>>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Str;
@@ -75,6 +100,7 @@ use Webmozart\Assert\InvalidArgumentException;
 use TypeError;
 use Webmozart\Assert\InvalidArgumentException;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,7 +189,14 @@ use Webmozart\Assert\InvalidArgumentException;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 
 abstract class XotBaseTransition extends Transition
 {
@@ -190,6 +223,7 @@ abstract class XotBaseTransition extends Transition
         public Model $record,
         public null|string $message = '',
     ) {}
+<<<<<<< HEAD
 =======
 use Filament\Notifications\Notification as FilamentNotification;
 
@@ -199,6 +233,8 @@ abstract class XotBaseTransition extends Transition
     {
     }
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
     public function handle(): Model
     {
@@ -242,14 +278,52 @@ abstract class XotBaseTransition extends Transition
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
         $newStateClass = $stateNamespace . '\\' . $stateClassName;
         $newStateClass = $stateNamespace . '\\' . $stateClassName;
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
+<<<<<<< HEAD
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+>>>>>>> ca9324a4 (.)
+=======
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+=======
+        $newStateClass = $stateNamespace.'\\'.$stateClassName;
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
         $newStateClass = $stateNamespace . '\\' . $stateClassName;
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
         $newStateClass = $stateNamespace . '\\' . $stateClassName;
@@ -310,7 +384,15 @@ abstract class XotBaseTransition extends Transition
         $newStateClass = $stateNamespace.'\\'.$stateClassName;
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+        $newStateClass = $stateNamespace . '\\' . $stateClassName;
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 
         /* @phpstan-ignore-next-line */
         $this->record->state = new $newStateClass($this->record);
@@ -325,6 +407,7 @@ abstract class XotBaseTransition extends Transition
         $recipients = $this->getNotificationRecipients();
         foreach ($recipients as $recipient) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $this->sendRecipientNotification($recipient, $data);
 <<<<<<< HEAD
             
@@ -336,7 +419,13 @@ abstract class XotBaseTransition extends Transition
             $this->sendRecipientNotification($recipient,$data);
             
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            $this->sendRecipientNotification($recipient, $data);
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         }
     }
 
@@ -380,6 +469,9 @@ abstract class XotBaseTransition extends Transition
             '-'.
         $type = $recipient->type->value;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $slug =
             class_basename($this->record) .
             '-' .
@@ -387,12 +479,20 @@ abstract class XotBaseTransition extends Transition
             '-' .
             Str::of(class_basename(static::class))->kebab()->toString();
 <<<<<<< HEAD
+<<<<<<< HEAD
         $slug = class_basename($this->record).'-'.$type.'-'.Str::of(class_basename(static::class))->kebab()->toString();
 =======
 =======
         $slug = class_basename($this->record).'-'.$type.'-'.Str::of(class_basename(static::class))->kebab()->toString();
 >>>>>>> f1d4085 (.)
 >>>>>>> 2f3197ab (.)
+=======
+=======
+        $slug = class_basename($this->record).'-'.$type.'-'.Str::of(class_basename(static::class))->kebab()->toString();
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         $slug = Str::slug($slug);
 
         return $slug;
@@ -400,6 +500,7 @@ abstract class XotBaseTransition extends Transition
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -489,7 +590,14 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     public function sendRecipientNotification(RecordNotificationData $recipient, array $data): void
     {
         $slug = $this->getNotificationSlug($recipient->record);
@@ -516,6 +624,7 @@ abstract class XotBaseTransition extends Transition
             $slug
         );
         $notify = new RecordNotification($this->record, $slug);
+<<<<<<< HEAD
 =======
     public function sendRecipientNotification(RecordNotificationData $recipient,array $data): void
     {
@@ -528,6 +637,8 @@ abstract class XotBaseTransition extends Transition
             $slug
         );
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
         //$data = $this->getNotificationData();
         $notify = $notify->mergeData($data);
@@ -541,6 +652,7 @@ abstract class XotBaseTransition extends Transition
         $notify = $notify->mergeData($data);
         $notify = $notify->addAttachments($this->getNotificationAttachments());
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -625,7 +737,14 @@ abstract class XotBaseTransition extends Transition
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 
         try {
             Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);
@@ -654,9 +773,68 @@ abstract class XotBaseTransition extends Transition
         } catch (TypeError|InvalidArgumentException $e) {
             $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
 <<<<<<< HEAD
+<<<<<<< HEAD
             $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
             $message = 'channel :['.$recipient->getChannel().'] error: ['.$e->getMessage().']';
 =======
+<<<<<<< HEAD
+=======
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
+=======
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
+=======
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+>>>>>>> 3fbbf1f5 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+        
+=======
+
+>>>>>>> b93ef594b4 (.)
+        try {
+            Notification::route($recipient->getChannel(), $recipient->getRoute())->notify($notify);
+        } catch (TypeError|InvalidArgumentException $e) {
+<<<<<<< HEAD
+            $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+>>>>>>> a12f125f4a (.)
+=======
+            $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
+>>>>>>> 218dfed3 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 <<<<<<< HEAD
@@ -707,6 +885,26 @@ abstract class XotBaseTransition extends Transition
             $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
         } catch (TypeError|InvalidArgumentException $e) {
             $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 218dfed3 (.)
         } catch (TypeError|InvalidArgumentException $e) {
             $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
             $message = 'channel :[' . $recipient->getChannel() . '] error: [' . $e->getMessage() . ']';
@@ -755,20 +953,35 @@ abstract class XotBaseTransition extends Transition
             $message = 'channel :['.$recipient->getChannel() .'] error: ['.$e->getMessage().']';
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
             FilamentNotification::make()
                 ->title('Error')
                 ->danger()
                 ->body($message)
                 ->send();
 <<<<<<< HEAD
+<<<<<<< HEAD
             
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
             
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         }
     }
 

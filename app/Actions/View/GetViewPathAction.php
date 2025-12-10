@@ -29,6 +29,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -66,10 +67,15 @@ use Illuminate\Support\Str;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
 use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
 use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
 use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
 use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
@@ -85,7 +91,14 @@ use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
 use Spatie\QueueableAction\QueueableAction;
 use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+use Modules\Xot\Actions\View\GetViewNameSpacePathAction;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
 class GetViewPathAction
 {
@@ -134,14 +147,52 @@ class GetViewPathAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
         $view_dir = $pack_dir.'/'.$relative_path;
         $view_dir = $pack_dir . '/' . $relative_path;
         $view_dir = $pack_dir . '/' . $relative_path;
         $view_dir = $pack_dir.'/'.$relative_path;
         $view_dir = $pack_dir.'/'.$relative_path;
+<<<<<<< HEAD
         $view_dir = $pack_dir.'/'.$relative_path;
         $view_dir = $pack_dir.'/'.$relative_path;
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        $view_dir = $pack_dir . '/' . $relative_path;
+>>>>>>> ca9324a4 (.)
+=======
+        $view_dir = $pack_dir . '/' . $relative_path;
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+        $view_dir = $pack_dir . '/' . $relative_path;
+=======
+        $view_dir = $pack_dir.'/'.$relative_path;
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
         $view_dir = $pack_dir . '/' . $relative_path;
         $view_dir = $pack_dir.'/'.$relative_path;
         $view_dir = $pack_dir . '/' . $relative_path;
@@ -202,7 +253,15 @@ class GetViewPathAction
         $view_dir = $pack_dir.'/'.$relative_path;
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+        $view_dir = $pack_dir . '/' . $relative_path;
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 
         $res = str_replace('/', \DIRECTORY_SEPARATOR, $view_dir);
         $res .= '.blade.php';

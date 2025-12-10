@@ -6,6 +6,7 @@ namespace Modules\Xot\Tests\Feature;
 
 use Illuminate\Database\QueryException;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\Module;
 use Tests\TestCase;
@@ -22,7 +23,15 @@ use Modules\Xot\Models\Module;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Xot\Models\Module;
+use Tests\TestCase;
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
 class ModuleBusinessLogicTest extends TestCase
 {
@@ -480,10 +489,18 @@ class ModuleBusinessLogicTest extends TestCase
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)

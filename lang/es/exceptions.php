@@ -5,6 +5,9 @@ declare(strict_types=1);
 return [
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -30,7 +33,12 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
     'backend' => [
         'access' => [
@@ -45,13 +53,21 @@ return [
                 'update_error' => 'Hubo un problema al modificar el Rol. Intentelo de nuevo.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             'users' => [
                 'cant_deactivate_self' => 'No puede desactivarse a sí mismo.',
                 'cant_delete_self' => 'No puede eliminarse usted mismo.',
@@ -71,13 +87,21 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -91,6 +115,7 @@ return [
                 'resent' => 'Un nuevo correo de verificación le ha sido enviado.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Su cuenta ha sido desactivada.',
             'email_taken' => 'El correo especificado ya está registrado.',
 <<<<<<< HEAD
@@ -110,7 +135,14 @@ return [
             'email_taken' => 'El correo especificado ya está registrado.',
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            'deactivated' => 'Su cuenta ha sido desactivada.',
+            'email_taken' => 'El correo especificado ya está registrado.',
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             'password' => [
                 'change_mismatch' => 'La contraseña antigua no coincide.',
             ],

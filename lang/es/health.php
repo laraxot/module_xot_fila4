@@ -9,6 +9,7 @@ return [
                 'refresh' => 'Refrescar',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'heading' => 'Salud de la aplicación',
 <<<<<<< HEAD
             'heading' => 'Salud de la aplicación',
@@ -23,19 +24,33 @@ return [
             'heading' => 'Salud de la aplicación',
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            'heading' => 'Salud de la aplicación',
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             'navigation' => [
                 'group' => 'Configuración',
                 'label' => 'Salud de la aplicación',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             'notifications' => [
                 'check_results' => 'Revisar resultados desde',
             ],

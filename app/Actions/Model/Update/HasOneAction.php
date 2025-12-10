@@ -47,6 +47,9 @@ class HasOneAction
     {
         // Validate that the relationship is of type HasOne
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         Assert::isInstanceOf(
             $relationDTO->rows,
             HasOne::class,
@@ -63,7 +66,12 @@ class HasOneAction
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
         /** @var HasOne $relation */
         $relation = $relationDTO->rows;

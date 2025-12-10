@@ -28,7 +28,10 @@ use Illuminate\Mail\Mailable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailable;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
@@ -92,7 +95,14 @@ use Modules\Xot\Actions\Mail\SendMailByRecordAction;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 use Illuminate\Mail\Mailable;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Mail\SendMailByRecordAction;
@@ -153,6 +163,7 @@ it('throws if record has no email', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 2f3197ab (.)
@@ -196,7 +207,12 @@ it('throws if record has no email', function (): void {
 =======
 >>>>>>> 7131bd09 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 218dfed3 (.)
 namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 
 
@@ -206,6 +222,7 @@ namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +260,42 @@ namespace Modules\Xot\Tests\Unit\SendMailByRecordActionTest;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 9db27d12 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+    expect(fn() => app(SendMailByRecordAction::class)->execute($record, Mailable::class))
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         ->toThrow(InvalidArgumentException::class);
 });

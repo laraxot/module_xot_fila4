@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 <?php
 
 declare(strict_types=1);
@@ -7,14 +10,22 @@ declare(strict_types=1);
 @php
 '<?phpxml version="1.0" encoding="UTF-8"?>'.PHP_EOL
 <<<<<<< HEAD
+<<<<<<< HEAD
 @php
 '<?xml version="1.0" encoding="UTF-8"?>'.PHP_EOL
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
 @php
 '<?xml version="1.0" encoding="UTF-8"?>'.PHP_EOL
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 @endphp
 <rss version="2.0">
     <channel>

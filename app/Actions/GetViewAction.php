@@ -54,6 +54,9 @@ class GetViewAction
         $tmp = array_slice($arr, 4); // con "app"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $tmp = collect($tmp)
             ->map(static function ($item) {
                 $item = str_replace('.php', '', $item);
@@ -67,6 +70,11 @@ class GetViewAction
 
         if ('' !== $tpl) {
             $pub_view .= '.' . $tpl;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 218dfed3 (.)
         $tmp = collect($tmp)->map(
             static function ($item) {
                 $item = str_replace('.php', '', $item);
@@ -118,7 +126,12 @@ class GetViewAction
         if ('' !== $tpl) {
             $pub_view .= '.'.$tpl;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         }
         if (view()->exists($pub_view)) {
             return $pub_view;
@@ -130,6 +143,7 @@ class GetViewAction
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,11 +334,175 @@ class GetViewAction
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
 <<<<<<< HEAD
+=======
+>>>>>>> 218dfed3 (.)
         $view = Str::lower($mod).'::'.$tmp;
 
         if ($tpl !== '') {
             $view .= '.'.$tpl;
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+        $view = Str::lower($mod) . '::' . $tmp;
+
+        if ('' !== $tpl) {
+            $view .= '.' . $tpl;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+>>>>>>> 7131bd09 (.)
+        $view = Str::lower($mod).'::'.$tmp;
+
+        if ('' !== $tpl) {
+            $view .= '.'.$tpl;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+>>>>>>> a12f125f4a (.)
+=======
+        $view = Str::lower($mod) . '::' . $tmp;
+
+        if ('' !== $tpl) {
+            $view .= '.' . $tpl;
+>>>>>>> 218dfed3 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -339,6 +517,7 @@ class GetViewAction
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -384,7 +563,14 @@ class GetViewAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         }
 
         // if (inAdmin()) {
@@ -424,14 +610,52 @@ class GetViewAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+<<<<<<< HEAD
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> ca9324a4 (.)
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+=======
+            $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
@@ -492,7 +716,15 @@ class GetViewAction
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
             $view = Str::replace('::panels.actions.', $to, $view);
             $view = Str::replace('-action', '', $view);
         }
@@ -503,6 +735,7 @@ class GetViewAction
         if (! view()->exists($view)) {
             throw new Exception('View ['.$view.'] not found');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -540,6 +773,8 @@ class GetViewAction
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
         Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
         if (!view()->exists($view)) {
             throw new Exception('View [' . $view . '] not found');
@@ -701,9 +936,37 @@ class GetViewAction
         Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
         if (!view()->exists($view)) {
             throw new Exception('View [' . $view . '] not found');
+<<<<<<< HEAD
         Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
         if (!view()->exists($view)) {
             throw new Exception('View [' . $view . '] not found');
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!view()->exists($view)) {
+            throw new Exception('View [' . $view . '] not found');
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 218dfed3 (.)
         Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
         if (!view()->exists($view)) {
             throw new Exception('View [' . $view . '] not found');
@@ -779,7 +1042,12 @@ class GetViewAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         }
 
         return $view;

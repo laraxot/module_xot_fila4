@@ -29,6 +29,7 @@ class CustomRelationAction
             Assert::isArray($data);
             if (\in_array($keyName, array_keys($data), false)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 <<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
@@ -43,7 +44,13 @@ class CustomRelationAction
 
                 $res = app(UpdateAction::class)->execute($related, $typedData, []);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {

@@ -28,6 +28,7 @@ namespace Modules\Xot\Traits;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
@@ -54,10 +55,60 @@ use Filament\Tables\Columns\Column;
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 <<<<<<< HEAD
+=======
+>>>>>>> 218dfed3 (.)
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
 =======
+<<<<<<< HEAD
+=======
+use Filament\Tables\Columns\Column;
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+use Filament\Tables\Columns\Column;
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+=======
+use Filament\Tables\Columns\Column;
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+>>>>>>> 399f46d3 (.)
+=======
+use Filament\Tables\Columns\Column;
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+>>>>>>> 17684f52 (.)
+=======
+use Filament\Tables\Columns\Column;
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Tables\Columns\Column;
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Tables\Columns\Column;
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+>>>>>>> 218dfed3 (.)
 >>>>>>> ed734516 (.)
 =======
 use Filament\Tables\Columns\Column;
@@ -143,9 +194,37 @@ use Filament\Actions\BulkAction;
 use Filament\Tables\Columns\Column;
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
+<<<<<<< HEAD
 use Filament\Tables\Columns\Column;
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+use Filament\Tables\Columns\Column;
+use Filament\Actions\Action;
+use Filament\Actions\BulkAction;
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 218dfed3 (.)
 use Filament\Tables\Columns\Column;
 use Filament\Actions\Action;
 use Filament\Actions\BulkAction;
@@ -397,7 +476,12 @@ use Filament\Actions\BulkAction;
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 use Filament\Tables\Columns\TextColumn;
 
 trait HasTableFunctionsTrait
@@ -414,6 +498,7 @@ trait HasTableFunctionsTrait
         return [
             'id' => TextColumn::make('id'),
             'name' => TextColumn::make('name'),
+<<<<<<< HEAD
 <<<<<<< HEAD
             'created_at' => TextColumn::make('created_at')->dateTime(),
             'updated_at' => TextColumn::make('updated_at')->dateTime(),
@@ -434,7 +519,14 @@ trait HasTableFunctionsTrait
             'updated_at' => TextColumn::make('updated_at')->dateTime(),
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            'created_at' => TextColumn::make('created_at')->dateTime(),
+            'updated_at' => TextColumn::make('updated_at')->dateTime(),
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         ];
     }
 
@@ -474,7 +566,10 @@ trait HasTableFunctionsTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
                 ->url(fn ($record): string => route('filament.resources.'.$this->getResourceSlug().'.edit', [
                 ->url(fn($record): string => route('filament.resources.' . $this->getResourceSlug() . '.edit', [
                 ->url(fn ($record): string => route('filament.resources.'.$this->getResourceSlug().'.edit', [
@@ -560,7 +655,14 @@ trait HasTableFunctionsTrait
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                 ->url(fn($record): string => route('filament.resources.' . $this->getResourceSlug() . '.edit', [
                     'record' => $record,
                 ])),
@@ -584,7 +686,10 @@ trait HasTableFunctionsTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -640,6 +745,7 @@ trait HasTableFunctionsTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -715,7 +821,14 @@ trait HasTableFunctionsTrait
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                 ->requiresConfirmation(),
         ];
     }
@@ -723,6 +836,7 @@ trait HasTableFunctionsTrait
     /**
      * Get the table bulk actions.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, BulkAction>
 <<<<<<< HEAD
@@ -734,7 +848,13 @@ trait HasTableFunctionsTrait
 =======
      * @return array<string, \Filament\Actions\BulkAction>
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+     * @return array<string, BulkAction>
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
      */
     public function getTableBulkActions(): array
     {
@@ -765,7 +885,10 @@ trait HasTableFunctionsTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
                 ->action(fn ($records) => $records->each->delete())
                 ->action(fn($records) => $records->each->delete())
                 ->action(fn($records) => $records->each->delete())
@@ -784,7 +907,42 @@ trait HasTableFunctionsTrait
                 ->action(fn ($records) => $records->each->delete())
                 ->action(fn ($records) => $records->each->delete())
                 ->action(fn ($records) => $records->each->delete())
+<<<<<<< HEAD
                 ->action(fn ($records) => $records->each->delete())
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+                ->action(fn($records) => $records->each->delete())
+>>>>>>> ca9324a4 (.)
+=======
+                ->action(fn($records) => $records->each->delete())
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+                ->action(fn($records) => $records->each->delete())
+=======
+                ->action(fn ($records) => $records->each->delete())
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
                 ->action(fn($records) => $records->each->delete())
                 ->action(fn ($records) => $records->each->delete())
                 ->action(fn($records) => $records->each->delete())
@@ -911,7 +1069,15 @@ trait HasTableFunctionsTrait
                 ->action(fn ($records) => $records->each->delete())
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+                ->action(fn($records) => $records->each->delete())
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                 ->requiresConfirmation(),
         ];
     }

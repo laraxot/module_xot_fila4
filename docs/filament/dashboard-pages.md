@@ -196,6 +196,7 @@ Il modulo Xot è il modulo core e potrebbe non necessitare di una dashboard trad
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Root](../../../docs/filament-dashboard-pages.md)
 <<<<<<< HEAD
 - [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
@@ -254,7 +255,13 @@ Il modulo Xot è il modulo core e potrebbe non necessitare di una dashboard trad
 =======
 - [Documentazione Root](../../../project_docs/filament-dashboard-pages.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+- [Documentazione Root](../../../docs/filament-dashboard-pages.md)
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Heroicons](https://heroicons.com/)
 

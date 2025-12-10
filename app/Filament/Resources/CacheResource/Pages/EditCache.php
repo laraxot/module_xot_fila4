@@ -10,6 +10,9 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Filament\Actions;
 use Modules\Xot\Filament\Resources\CacheResource;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
@@ -30,9 +33,12 @@ class EditCache extends XotBaseEditRecord
 {
     protected static string $resource = CacheResource::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
 
 
@@ -70,5 +76,10 @@ class EditCache extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
 
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 }

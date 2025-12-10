@@ -14,6 +14,7 @@ use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
@@ -30,7 +31,14 @@ use Illuminate\Support\Facades\File;
 use Modules\Xot\Services\ModuleService;
 use Illuminate\Support\Facades\File;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+use Illuminate\Support\Facades\File;
+use Modules\Xot\Services\ModuleService;
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
 describe('ModuleService Integration', function () {
     beforeEach(function () {
@@ -39,19 +47,30 @@ describe('ModuleService Integration', function () {
 
     it('integrates with Nwidart Modules system', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         expect(class_exists('Nwidart\Modules\Facades\Module'))
             ->toBeTrue()
             ->and(class_exists('Nwidart\Modules\Module'))
             ->toBeTrue();
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(class_exists('Nwidart\Modules\Facades\Module'))->toBeTrue()
             ->and(class_exists('Nwidart\Modules\Module'))->toBeTrue();
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
         expect(class_exists('Nwidart\Modules\Facades\Module'))->toBeTrue()
             ->and(class_exists('Nwidart\Modules\Module'))->toBeTrue();
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     });
 
     it('can find existing modules', function () {
@@ -61,6 +80,9 @@ describe('ModuleService Integration', function () {
         $xotService = new ModuleService('Xot');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         expect($chartService)
             ->toBeInstanceOf(ModuleService::class)
             ->and($userService)
@@ -68,16 +90,24 @@ describe('ModuleService Integration', function () {
             ->and($xotService)
             ->toBeInstanceOf(ModuleService::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($chartService)->toBeInstanceOf(ModuleService::class)
             ->and($userService)->toBeInstanceOf(ModuleService::class)
             ->and($xotService)->toBeInstanceOf(ModuleService::class);
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
         expect($chartService)->toBeInstanceOf(ModuleService::class)
             ->and($userService)->toBeInstanceOf(ModuleService::class)
             ->and($xotService)->toBeInstanceOf(ModuleService::class);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     });
 
     it('returns models from existing modules', function () {
@@ -130,13 +160,20 @@ describe('ModuleService Integration', function () {
 
         foreach ($models as $key => $modelClass) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             expect($key)
                 ->toBeString()
                 ->and($modelClass)
                 ->toBeString()
                 ->and(str_contains($modelClass, 'Modules\\'))
                 ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
         
         foreach ($models as $key => $modelClass) {
@@ -145,11 +182,18 @@ describe('ModuleService Integration', function () {
                 ->and(str_contains($modelClass, 'Modules\\'))->toBeTrue();
 =======
 =======
+>>>>>>> 218dfed3 (.)
+=======
             expect($key)->toBeString()
                 ->and($modelClass)->toBeString()
                 ->and(str_contains($modelClass, 'Modules\\'))->toBeTrue();
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         }
     });
 
@@ -206,12 +250,19 @@ describe('ModuleService Integration', function () {
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($models)->toBeArray()->and($models)->toBeEmpty();
 =======
         expect($models)->toBeArray()
             ->and($models)->toBeEmpty();
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+        expect($models)->toBeArray()->and($models)->toBeEmpty();
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     });
 
     it('handles namespace construction correctly', function () {
@@ -230,6 +281,7 @@ describe('ModuleService Integration', function () {
         // All returned classes should be valid PHP classes
         foreach ($models as $modelClass) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
 <<<<<<< HEAD
             expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
@@ -243,7 +295,13 @@ describe('ModuleService Integration', function () {
             expect(is_string($modelClass))->toBeTrue()
                 ->and(strlen($modelClass))->toBeGreaterThan(0);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            expect(is_string($modelClass))->toBeTrue()->and(strlen($modelClass))->toBeGreaterThan(0);
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         }
     });
 
@@ -257,6 +315,7 @@ describe('ModuleService Integration', function () {
 
         foreach ($edgeCaseServices as $service) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect($service->getModels(...))->not->toThrow(Exception::class);
 <<<<<<< HEAD
             expect(fn () => $service->getModels())->not->toThrow(Exception::class);
@@ -264,7 +323,13 @@ describe('ModuleService Integration', function () {
 =======
             expect(fn () => $service->getModels())->not->toThrow(Exception::class);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            expect($service->getModels(...))->not->toThrow(Exception::class);
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         }
     });
 
@@ -276,6 +341,9 @@ describe('ModuleService Integration', function () {
         // Validate that all keys are strings and all values are class strings
         foreach ($models as $key => $value) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             expect($key)
                 ->toBeString()
                 ->and($value)
@@ -295,7 +363,12 @@ describe('ModuleService Integration', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         }
     });
 
@@ -315,6 +388,7 @@ describe('ModuleService Integration', function () {
 
         // All results should be consistent
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
 <<<<<<< HEAD
         expect($results[0])->toBe($results[1])
@@ -324,7 +398,13 @@ describe('ModuleService Integration', function () {
         expect($results[0])->toBe($results[1])
             ->and($results[1])->toBe($results[2]);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+        expect($results[0])->toBe($results[1])->and($results[1])->toBe($results[2]);
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     });
 
     it('validates module path resolution', function () {
@@ -361,12 +441,19 @@ describe('ModuleService Integration', function () {
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
 =======
         expect($constructor)->not->toBeNull()
             ->and($constructor->isPublic())->toBeTrue();
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+        expect($constructor)->not->toBeNull()->and($constructor->isPublic())->toBeTrue();
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     });
 
     it('can handle model discovery efficiently', function () {
@@ -378,6 +465,7 @@ describe('ModuleService Integration', function () {
         $endTime = microtime(true);
         $executionTime = $endTime - $startTime;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         expect($models)->toBeArray()->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
 <<<<<<< HEAD
@@ -394,6 +482,12 @@ describe('ModuleService Integration', function () {
         expect($models)->toBeArray()
             ->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+        expect($models)->toBeArray()->and($executionTime)->toBeLessThan(5.0); // Should complete within 5 seconds
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     });
 });

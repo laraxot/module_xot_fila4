@@ -70,6 +70,7 @@ Modules/<NomeModulo>/
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 <<<<<<< HEAD
@@ -182,7 +183,14 @@ Modules/<NomeModulo>/
 - [Modulo Lang](../../Lang/project_docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/project_docs/translations.md) - Regole base
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
 ## Struttura
 
@@ -482,6 +490,9 @@ Action::make('delete')
 
 ## Collegamenti tra versioni di translations.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -523,7 +534,12 @@ Action::make('delete')
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
 
 ### Versione Incoming

@@ -89,7 +89,10 @@ class GetFilenameByClassnameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
             $filename = base_path($filename).'.php';
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename) . '.php';
@@ -115,8 +118,32 @@ class GetFilenameByClassnameAction
             $filename = base_path($filename).'.php';
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename) . '.php';
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename).'.php';
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename) . '.php';
             $filename = base_path($filename) . '.php';
@@ -175,7 +202,15 @@ class GetFilenameByClassnameAction
             $filename = base_path($filename).'.php';
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+            $filename = base_path($filename) . '.php';
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         }
 
         if (is_string($filename)) {
@@ -183,6 +218,7 @@ class GetFilenameByClassnameAction
         }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,10 +258,34 @@ class GetFilenameByClassnameAction
         throw new \Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+<<<<<<< HEAD
         throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
         throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
         throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
         throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+=======
+        throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
         throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
         throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
@@ -286,6 +346,14 @@ class GetFilenameByClassnameAction
         throw new Exception('['.__LINE__.']['.class_basename($this).']['.$class_name.']');
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+        throw new Exception('[' . __LINE__ . '][' . class_basename($this) . '][' . $class_name . ']');
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     }
 }

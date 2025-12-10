@@ -21,6 +21,7 @@ interface ErrorFormatterContract
      */
     public function format(): array;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 } 
@@ -28,4 +29,10 @@ interface ErrorFormatterContract
 =======
 } 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+}
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)

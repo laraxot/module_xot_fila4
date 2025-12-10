@@ -3,6 +3,9 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Modules\Xot\Tests\TestCase;
 
 /*
@@ -152,6 +155,7 @@ pest()->extend(TestCase::class)
  * |
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Xot\Tests\Pest;
 namespace Modules\Xot\Tests\Pest;
 namespace Modules\Xot\Tests\Pest;
@@ -183,6 +187,8 @@ namespace Modules\Xot\Tests\Pest;
 |
 */
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
@@ -196,6 +202,8 @@ namespace Modules\Xot\Tests\Pest;
 =======
 >>>>>>> ca9324a4 (.)
 =======
+=======
+>>>>>>> 88ea7103 (.)
 =======
 namespace Modules\Xot\Tests\Pest;
 
@@ -225,8 +233,16 @@ namespace Modules\Xot\Tests\Pest;
 |
 */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 
 use Modules\Xot\Tests\TestCase;
 
@@ -869,6 +885,9 @@ namespace Modules\Xot\Tests\Pest;
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -917,6 +936,21 @@ namespace Modules\Xot\Tests\Pest;
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 71f31700 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 6cba4fe (.)
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> e59778ae (.)
+>>>>>>> 218dfed3 (.)
 
 // function something() {
 //     // ...
@@ -1105,6 +1139,38 @@ namespace Modules\Xot\Tests\Pest;
 // function something() {
 //     // ...
 // }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+// function something() {
+//     // ...
+// }
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> c84488b (.)
+>>>>>>> 71f31700 (.)
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 218dfed3 (.)
 
 // function something() {
 //     // ...
@@ -1233,4 +1299,11 @@ namespace Modules\Xot\Tests\Pest;
 
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)

@@ -24,6 +24,9 @@ class BelongsToManyAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function execute(Model $_model, RelationDTO $relationDTO): void
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsToMany::class);
@@ -52,12 +55,20 @@ class BelongsToManyAction
         ) {
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             // $this->saveMultiselectTwoSides($row, $relation->name, $relation->data);
             $to = $relationDTO->data['to'] ?? [];
 
             // Assicura che $to sia un array di ID validi
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             $to = is_iterable($to) ? iterator_to_array($to) : ((array) $to);
             Assert::allScalar($to, 'The "to" field must contain only scalar values.');
 
@@ -79,11 +90,53 @@ class BelongsToManyAction
             $status = 'collegati [' . implode(', ', $to) . '] ';
             $status = 'collegati [' . implode(', ', $to) . '] ';
 <<<<<<< HEAD
+<<<<<<< HEAD
             $status = 'collegati [' . implode(', ', $to) . '] ';
             $status = 'collegati [' . implode(', ', $to) . '] ';
             $status = 'collegati ['.implode(', ', $to).'] ';
             $status = 'collegati ['.implode(', ', $to).'] ';
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $status = 'collegati ['.implode(', ', $to).'] ';
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+            $status = 'collegati [' . implode(', ', $to) . '] ';
+>>>>>>> 218dfed3 (.)
 >>>>>>> 3fbbf1f5 (.)
 =======
 <<<<<<< HEAD
@@ -149,6 +202,41 @@ class BelongsToManyAction
             $rows->sync($to);
             $status = 'collegati [' . implode(', ', $to) . '] ';
             $status = 'collegati [' . implode(', ', $to) . '] ';
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 218dfed3 (.)
             $status = 'collegati [' . implode(', ', $to) . '] ';
 <<<<<<< HEAD
             $status = 'collegati [' . implode(', ', $to) . '] ';
@@ -179,7 +267,14 @@ class BelongsToManyAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
             Session::flash('status', $status);
 
             return;
@@ -211,6 +306,7 @@ class BelongsToManyAction
 =======
 =======
                 Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
+<<<<<<< HEAD
 <<<<<<< HEAD
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $data, []);
@@ -313,8 +409,52 @@ class BelongsToManyAction
                 Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $data, []);
+<<<<<<< HEAD
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $data, []);
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+                /** @var Model $res */
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 218dfed3 (.)
                 Assert::isArray($data, 'Data passed to UpdateAction must be an associative array.');
                 /** @var Model $res */
                 $res = app(UpdateAction::class)->execute($related, $data, []);
@@ -364,7 +504,12 @@ class BelongsToManyAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                 Assert::isInstanceOf($res, Model::class, 'UpdateAction must return an instance of Model.');
 
                 $ids[] = $res->getKey();
@@ -409,14 +554,52 @@ class BelongsToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
         if (! empty($ids)) {
         if (!empty($ids)) {
         if (!empty($ids)) {
         if (! empty($ids)) {
         if (! empty($ids)) {
+<<<<<<< HEAD
         if (! empty($ids)) {
         if (! empty($ids)) {
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($ids)) {
+>>>>>>> ca9324a4 (.)
+=======
+        if (!empty($ids)) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+        if (!empty($ids)) {
+=======
+        if (! empty($ids)) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
         if (!empty($ids)) {
         if (! empty($ids)) {
         if (!empty($ids)) {
@@ -477,7 +660,15 @@ class BelongsToManyAction
         if (! empty($ids)) {
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+        if (!empty($ids)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
             try {
                 // Assicura che $ids sia un array di valori scalari
                 // $ids è già un array non vuoto a questo punto, quindi non serve verificare se è iterabile

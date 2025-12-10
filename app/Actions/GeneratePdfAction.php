@@ -60,14 +60,52 @@ final class GeneratePdfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
                 'content' => $html2pdf->Output($filename . '.pdf', 'S'),
                 'content' => $html2pdf->Output($filename . '.pdf', 'S'),
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
+<<<<<<< HEAD
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> ca9324a4 (.)
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+=======
+                'content' => $html2pdf->Output($filename.'.pdf', 'S'),
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
                 'content' => $html2pdf->Output($filename . '.pdf', 'S'),
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
                 'content' => $html2pdf->Output($filename . '.pdf', 'S'),
@@ -128,7 +166,15 @@ final class GeneratePdfAction
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                 'file' => $this->saveToFile($html2pdf, $filename),
                 default => $html2pdf->Output(),
             };

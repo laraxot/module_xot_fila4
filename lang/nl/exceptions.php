@@ -5,6 +5,9 @@ declare(strict_types=1);
 return [
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -30,7 +33,12 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
     'backend' => [
         'access' => [
@@ -45,13 +53,21 @@ return [
                 'update_error' => 'Er is een probleem opgetreden bij het bijwerken van deze rol. Probeer het nogmaals.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             'users' => [
                 'cant_deactivate_self' => 'U kunt uzelf niet deactiveren',
                 'cant_delete_self' => 'U kunt uzelf niet verwijderen.',
@@ -71,13 +87,21 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -91,6 +115,7 @@ return [
                 'resent' => 'Een nieuwe bevestigings email is naar het ingegeven adres verstuurd.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Uw account is gedactiveerd.',
             'email_taken' => 'Dat emailadres is al in gebruik.',
 <<<<<<< HEAD
@@ -110,7 +135,14 @@ return [
             'email_taken' => 'Dat emailadres is al in gebruik.',
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            'deactivated' => 'Uw account is gedactiveerd.',
+            'email_taken' => 'Dat emailadres is al in gebruik.',
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             'password' => [
                 'change_mismatch' => 'Dat is niet uw oude wachtwoord',
             ],

@@ -9,6 +9,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 use Modules\Xot\Filament\Resources\CacheResource;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 use Modules\Xot\Filament\Resources\CacheResource;
@@ -35,6 +36,10 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
 >>>>>>> f1d4085 (.)
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+>>>>>>> 73eab74 (.)
 class CreateCache extends XotBaseCreateRecord
 use Modules\Xot\Filament\Resources\CacheResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;

@@ -24,6 +24,7 @@ class XDebug extends Component
         // public bool $showAuthor = false,
         public string $tpl = 'v1',
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 <<<<<<< HEAD
     ) {
@@ -33,7 +34,13 @@ class XDebug extends Component
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    ) {}
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
     public function render(): View
     {
@@ -85,6 +92,7 @@ class XDebug extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \extension_loaded('xdebug')) {
 =======
 =======
@@ -107,9 +115,33 @@ class XDebug extends Component
         if (!extension_loaded('xdebug')) {
         if (!extension_loaded('xdebug')) {
         if (!extension_loaded('xdebug')) {
+<<<<<<< HEAD
         if (! extension_loaded('xdebug')) {
         if (! extension_loaded('xdebug')) {
         if (! extension_loaded('xdebug')) {
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+        if (!extension_loaded('xdebug')) {
+=======
+        if (! extension_loaded('xdebug')) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
         if (!extension_loaded('xdebug')) {
         if (! extension_loaded('xdebug')) {
         if (!extension_loaded('xdebug')) {
@@ -164,7 +196,15 @@ class XDebug extends Component
         if (! extension_loaded('xdebug')) {
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+        if (!extension_loaded('xdebug')) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
             throw new RuntimeException('XDebug must be installed to use this function');
         if (!extension_loaded('xdebug')) {
             throw new RuntimeException('XDebug must be installed to use this function');
@@ -212,6 +252,7 @@ class XDebug extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return \is_string($out1) ? $out1 : ((string) $out1);
 =======
 >>>>>>> 2f3197ab (.)
@@ -237,9 +278,33 @@ class XDebug extends Component
         return is_string($out1) ? $out1 : (string) $out1;
         return is_string($out1) ? $out1 : ((string) $out1);
         return is_string($out1) ? $out1 : ((string) $out1);
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         return is_string($out1) ? $out1 : ((string) $out1);
         return is_string($out1) ? $out1 : ((string) $out1);
         return is_string($out1) ? $out1 : (string) $out1;
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
         return is_string($out1) ? $out1 : ((string) $out1);
         return is_string($out1) ? $out1 : ((string) $out1);
         return is_string($out1) ? $out1 : ((string) $out1);
@@ -294,6 +359,14 @@ class XDebug extends Component
         return is_string($out1) ? $out1 : (string) $out1;
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+        return is_string($out1) ? $out1 : ((string) $out1);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     }
 }

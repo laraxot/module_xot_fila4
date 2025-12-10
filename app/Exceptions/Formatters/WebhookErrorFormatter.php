@@ -29,6 +29,7 @@ class WebhookErrorFormatter
 {
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Throwable $exception,
 <<<<<<< HEAD
         private \Throwable $exception
@@ -36,7 +37,13 @@ class WebhookErrorFormatter
 =======
         private Throwable $exception
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+        private Throwable $exception,
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     ) {}
 
     /**
@@ -53,6 +60,9 @@ class WebhookErrorFormatter
             'line' => $this->exception->getLine(),
             'trace' => $this->exception->getTraceAsString(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             'exception' => sprintf('`%s` (Code `%s`)', get_class($this->exception), $this->exception->getCode()),
             'thrown_in' => sprintf('`%s`:%d', $this->exception->getFile(), $this->exception->getLine()),
             'user' => sprintf('%d <%s>', Auth::id() ?? 0, $email),
@@ -108,7 +118,12 @@ class WebhookErrorFormatter
              */
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         ];
     }
 }

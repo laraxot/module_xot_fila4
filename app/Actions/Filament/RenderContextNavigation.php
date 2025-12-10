@@ -24,6 +24,9 @@ class RenderContextNavigation
      * Undocumented function.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function execute(string $module, string $_context): void
     {
         Filament::registerRenderHook(
@@ -57,6 +60,7 @@ class RenderContextNavigation
          * );
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
     {
         Filament::registerRenderHook(
             'sidebar.start',
@@ -71,6 +75,8 @@ class RenderContextNavigation
         );
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
     public function execute(string $module, string $context): void
     {
@@ -97,6 +103,11 @@ class RenderContextNavigation
          */
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     }
 }

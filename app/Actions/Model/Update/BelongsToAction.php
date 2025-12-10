@@ -18,6 +18,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -98,7 +99,17 @@ use InvalidArgumentException;
 use InvalidArgumentException;
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+use InvalidArgumentException;
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Arr;
@@ -117,6 +128,9 @@ class BelongsToAction
 
         /*$relationDTO->data e' un array
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
          * if (! \is_array($relationDTO->data)) {
          * $related = $rows->getRelated();
          * $related = $related->find($relationDTO->data);
@@ -162,7 +176,10 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -291,6 +308,7 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -333,7 +351,14 @@ class BelongsToAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                 return;
             }
 
@@ -344,11 +369,36 @@ class BelongsToAction
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!($related instanceof Model)) {
             if (!($related instanceof Model)) {
             if (!($related instanceof Model)) {
             if (! ($related instanceof Model)) {
             if (! ($related instanceof Model)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
             if (! ($related instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -376,7 +426,37 @@ class BelongsToAction
 >>>>>>> 2f3197ab (.)
             if (! ($related instanceof Model)) {
             if (!($related instanceof Model)) {
+<<<<<<< HEAD
             if (! $related instanceof Model) {
+=======
+>>>>>>> 5a14301c (.)
+=======
+            if (!($related instanceof Model)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+            if (!($related instanceof Model)) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+            if (!($related instanceof Model)) {
+=======
+            if (! $related instanceof Model) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
             if (!($related instanceof Model)) {
             if (!($related instanceof Model)) {
             if (!($related instanceof Model)) {
@@ -428,7 +508,15 @@ class BelongsToAction
             if (! $related instanceof Model) {
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+            if (!($related instanceof Model)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                 throw new Exception('Expected a single model, got null or invalid object.');
             if (!($related instanceof Model)) {
                 throw new Exception('Expected a single model, got null or invalid object.');
@@ -505,9 +593,56 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
             if ($sub === null) {
                 throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+            if ($sub === null) {
+                throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+            if (null === $sub) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 5a14301c (.)
+=======
+            if (null === $sub) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 3fbbf1f5 (.)
+=======
+            if (null === $sub) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+=======
+            if (null === $sub) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 399f46d3 (.)
+=======
+            if (null === $sub) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 17684f52 (.)
+=======
+            if (null === $sub) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 88ea7103 (.)
+            if (null === $sub) {
+                throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+=======
+>>>>>>> 218dfed3 (.)
             if ($sub === null) {
                 throw new Exception('['.__LINE__.']['.class_basename($this).']');
             if (null === $sub) {
@@ -557,6 +692,7 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -564,6 +700,7 @@ class BelongsToAction
 =======
 >>>>>>> 21348520 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
             if (null === $sub) {
                 throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
@@ -581,9 +718,20 @@ class BelongsToAction
                 throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
             if (null === $sub) {
                 throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 218dfed3 (.)
             if (null === $sub) {
                 throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 218dfed3 (.)
             if (null === $sub) {
                 throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
             if (null === $sub) {
@@ -624,7 +772,12 @@ class BelongsToAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
             }
 
             app(RelationAction::class)->execute($sub, $relationDTO->data);
@@ -659,7 +812,10 @@ class BelongsToAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
             $relationName = Str::camel($relationDTO->name);
             $relation = $model->{$relationName};
 
@@ -673,6 +829,17 @@ class BelongsToAction
             $relation->update($data);
             $model->{Str::camel($relationDTO->name)}->update($data);
             $model->{Str::camel($relationDTO->name)}->update($data);
+<<<<<<< HEAD
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
             $model->{Str::camel($relationDTO->name)}->update($data);
             $model->{Str::camel($relationDTO->name)}->update($data);
             $model->{Str::camel($relationDTO->name)}->update($data);
@@ -744,6 +911,19 @@ class BelongsToAction
 <<<<<<< HEAD
             $model->{Str::camel($relationDTO->name)}->update($data);
             $model->{Str::camel($relationDTO->name)}->update($data);
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
             $model->{Str::camel($relationDTO->name)}->update($data);
             $model->{Str::camel($relationDTO->name)}->update($data);
             $model->{Str::camel($relationDTO->name)}->update($data);
@@ -774,7 +954,15 @@ class BelongsToAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+            $model->{Str::camel($relationDTO->name)}->update($data);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 
             return;
         }

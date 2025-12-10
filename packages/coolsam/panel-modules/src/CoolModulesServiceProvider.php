@@ -16,6 +16,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
     /**
      * Traccia i panel che hanno già gli hook registrati.
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
      *
@@ -26,7 +27,13 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 =======
      * 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+     *
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
      * @var array<string, bool>
      */
     private static array $processedPanels = [];
@@ -40,11 +47,15 @@ class CoolModulesServiceProvider extends PackageServiceProvider
          */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $package->name('cool-modules');
 =======
         $package
             ->name('cool-modules');
 >>>>>>> f1d4085 (.)
+=======
+        $package->name('cool-modules');
+>>>>>>> 73eab74 (.)
     }
 
         $package->name('cool-modules');
@@ -69,6 +80,9 @@ class CoolModulesServiceProvider extends PackageServiceProvider
         $this->app->afterResolving('filament', function () {
             $panels = Filament::getPanels();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
             foreach ($panels as $panel) {
                 $id = Str::of($panel->getId());
@@ -91,12 +105,20 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
                 // Controlla se questo panel è già stato processato
                 if (isset(self::$processedPanels[$panelId])) {
                     continue;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
@@ -123,6 +145,7 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                     );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if ($id->contains('::')) {
                     $title = $id->replace(['::', '-'], [' ', ' '])->title()->toString();
                     $panel->renderHook(
@@ -135,6 +158,8 @@ class CoolModulesServiceProvider extends PackageServiceProvider
                             '" class="fi-sidebar-item-btn">
                                         <svg class="fi-icon fi-size-lg fi-sidebar-item-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3">
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
                 
                 if ($id->contains('::')) {
@@ -166,7 +191,12 @@ class CoolModulesServiceProvider extends PackageServiceProvider
 
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
                     // Marca questo panel come processato
                     self::$processedPanels[$panelId] = true;
                 }

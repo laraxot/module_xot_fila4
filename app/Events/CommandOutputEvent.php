@@ -21,6 +21,7 @@ class CommandOutputEvent implements ShouldBroadcast
         public string $output,
         public string $type = 'output',
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 <<<<<<< HEAD
     ) {
@@ -30,7 +31,13 @@ class CommandOutputEvent implements ShouldBroadcast
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    ) {}
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
     public function broadcastOn(): array
     {

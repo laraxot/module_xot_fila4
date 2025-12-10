@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 declare(strict_types=1);
 
 
@@ -45,6 +48,7 @@ return [
      * | Ogni server ha un comando e argomenti specifici.
      * |
      */
+<<<<<<< HEAD
 =======
 return [
     /*
@@ -57,11 +61,16 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 
     'servers' => [
         'filesystem' => [
             'command' => 'npx',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem'],
         ],
         'memory' => [
@@ -91,6 +100,7 @@ return [
      * |
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
         ],
         'memory' => [
             'command' => 'npx',
@@ -110,6 +120,8 @@ return [
         ],
     ],
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
             'args' => ['-y', '@modelcontextprotocol/server-filesystem']
         ],
@@ -152,7 +164,12 @@ return [
      */
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
     'contexts' => [
         'User' => [
@@ -161,6 +178,9 @@ return [
                 'HasFactory',
                 'Notifiable',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                 'HasParent',
             ],
             'relationships' => [
@@ -170,6 +190,7 @@ return [
             'table' => 'users',
             'type_column' => 'type',
 <<<<<<< HEAD
+<<<<<<< HEAD
             ],
             'relationships' => [
                 'doctor',
@@ -178,6 +199,8 @@ return [
             'table' => 'users',
             'type_column' => 'type'
             'type_column' => 'type',
+=======
+>>>>>>> 218dfed3 (.)
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -192,13 +215,19 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         ],
         'Doctor' => [
             'extends' => 'User',
             'type' => 'child',
             'traits' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 <<<<<<< HEAD
                 'HasParent',
@@ -209,12 +238,19 @@ return [
 =======
                 'HasParent'
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+                'HasParent',
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'medical_license',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'specialization',
             ],
 <<<<<<< HEAD
@@ -231,13 +267,21 @@ return [
                 'specialization'
             ]
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+                'specialization',
+            ],
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         ],
         'Patient' => [
             'extends' => 'User',
             'type' => 'child',
             'traits' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 <<<<<<< HEAD
                 'HasParent',
@@ -248,12 +292,21 @@ return [
 =======
                 'HasParent'
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+                'HasParent',
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'health_insurance',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                 'medical_history',
             ],
         ],
@@ -267,8 +320,11 @@ return [
      * |
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     ],
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
                 'medical_history'
             ]
@@ -294,11 +350,17 @@ return [
      */
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
     'validation' => [
         'strict' => true,
         'log_violations' => true,
+<<<<<<< HEAD
 <<<<<<< HEAD
         'throw_exceptions' => false,
     ],
@@ -316,5 +378,12 @@ return [
         'throw_exceptions' => false
     ]
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+        'throw_exceptions' => false,
+    ],
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 ];

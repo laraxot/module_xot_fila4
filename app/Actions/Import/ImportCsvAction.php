@@ -21,6 +21,9 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Modules\Xot\Datas\ColumnData;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -44,7 +47,12 @@ use function Safe\ini_set;
 
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 class ImportCsvAction
 {
     use QueueableAction;
@@ -113,6 +121,9 @@ class ImportCsvAction
         $excludedColumns = ['id'];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         return array_map(
             function (string $column) use ($conn, $tbl) {
                 $type = $conn->getColumnType($tbl, $column);
@@ -150,7 +161,12 @@ class ImportCsvAction
         );
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     }
 
     /**
@@ -175,6 +191,9 @@ class ImportCsvAction
     private function prepareFields(array $columns): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         return array_map(
             fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
             fn(ColumnData $column) => 'decimal' === $column->type ? ('@' . $column->name) : $column->name,
@@ -184,16 +203,24 @@ class ImportCsvAction
             $columns,
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
         return array_map(function (ColumnData $column) {
             return 'decimal' === $column->type ? '@'.$column->name : $column->name;
         }, $columns);
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
         return array_map(function (ColumnData $column) {
             return 'decimal' === $column->type ? '@'.$column->name : $column->name;
         }, $columns);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     }
 
     /**
@@ -208,6 +235,9 @@ class ImportCsvAction
     private function buildSql(string $path, string $db, string $tbl, string $fieldsUpList, array $columns): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         $sql =
             "LOAD DATA LOW_PRIORITY LOCAL INFILE '{$path}' ".
             "INTO TABLE `{$db}`.`{$tbl}` CHARACTER SET latin1 ".
@@ -238,7 +268,12 @@ class ImportCsvAction
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
         $sqlReplace = [];
         foreach ($columns as $column) {
@@ -295,6 +330,7 @@ class ImportCsvAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         if (! empty($sqlReplace)) {
             $sql .= ' SET '.implode(', ', $sqlReplace).';';
@@ -310,6 +346,71 @@ class ImportCsvAction
         if (! empty($sqlReplace)) {
             $sql .= ' SET '.implode(', ', $sqlReplace).';';
 =======
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 5a14301c (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 3fbbf1f5 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 17684f52 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 88ea7103 (.)
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+>>>>>>> a12f125f4a (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! empty($sqlReplace)) {
+            $sql .= ' SET '.implode(', ', $sqlReplace).';';
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        if (!empty($sqlReplace)) {
+            $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+>>>>>>> 218dfed3 (.)
 >>>>>>> ca9324a4 (.)
 =======
         if (!empty($sqlReplace)) {
@@ -342,6 +443,7 @@ class ImportCsvAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -349,6 +451,7 @@ class ImportCsvAction
 =======
 >>>>>>> 21348520 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         if (!empty($sqlReplace)) {
             $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
@@ -364,9 +467,20 @@ class ImportCsvAction
             $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
         if (!empty($sqlReplace)) {
             $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 218dfed3 (.)
         if (!empty($sqlReplace)) {
             $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 218dfed3 (.)
         if (!empty($sqlReplace)) {
             $sql .= ' SET ' . implode(', ', $sqlReplace) . ';';
         if (! empty($sqlReplace)) {
@@ -431,7 +545,12 @@ class ImportCsvAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         }
 
         return $sql;
@@ -454,6 +573,9 @@ class ImportCsvAction
     private function transformColumnsToColumnData(array $columns): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
         return array_map(
             function ($column): ColumnData {
                 Assert::string($column, 'Column must be a string');
@@ -496,6 +618,7 @@ class ImportCsvAction
             },
             $columns,
         );
+<<<<<<< HEAD
 =======
         return array_map(function ($column): ColumnData {
             Assert::string($column, 'Column must be a string');
@@ -506,5 +629,7 @@ class ImportCsvAction
             );
         }, $columns);
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     }
 }

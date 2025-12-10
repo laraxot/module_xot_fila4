@@ -9,6 +9,9 @@ use function Safe\preg_replace;
 /**
  * Action per convertire in modo sicuro un valore mixed in float.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  *
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
@@ -28,12 +31,18 @@ use function Safe\preg_replace;
  *
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
  * Principi applicati:
  * - DRY: Evita duplicazione di logica di cast float in tutto il progetto
  * - KISS: Logica semplice e diretta, facile da comprendere e mantenere
  * - Sicurezza: Gestisce tutti i casi edge e previene errori di cast
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
  * 
@@ -41,13 +50,22 @@ use function Safe\preg_replace;
 =======
  * 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+ *
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
  * Casi d'uso tipici:
  * - Conversione di valori da API esterne
  * - Parsing di dati da file CSV/JSON
  * - Gestione di input utente
  * - Risoluzione errori PHPStan "Cannot cast mixed to float"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
  *
  * @example
  * // Uso base
@@ -57,6 +75,7 @@ use function Safe\preg_replace;
  * $value = SafeFloatCastAction::cast($mixedValue, 10.5);
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @example
  * // Uso base
  * $value = SafeFloatCastAction::cast($mixedValue);
@@ -64,6 +83,8 @@ use function Safe\preg_replace;
  * // Con default personalizzato
  * $value = SafeFloatCastAction::cast($mixedValue, 10.5);
  *
+=======
+>>>>>>> 218dfed3 (.)
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -78,7 +99,12 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
  * // Con validazione di range
  * $percentage = SafeFloatCastAction::castWithRange($mixedValue, 0.0, 100.0);
  */
@@ -97,6 +123,7 @@ class SafeFloatCastAction
      *
      * @return float Il valore convertito
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function execute(mixed $value, null|float $default = 0.0): float
 <<<<<<< HEAD
@@ -140,6 +167,64 @@ class SafeFloatCastAction
     public function execute(mixed $value, ?float $default = 0.0): float
     public function execute(mixed $value, null|float $default = 0.0): float
     public function execute(mixed $value, ?float $default = 0.0): float
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function execute(mixed $value, ?float $default = 0.0): float
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+    public function execute(mixed $value, null|float $default = 0.0): float
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+    public function execute(mixed $value, ?float $default = 0.0): float
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    public function execute(mixed $value, null|float $default = 0.0): float
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+    public function execute(mixed $value, ?float $default = 0.0): float
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
     public function execute(mixed $value, null|float $default = 0.0): float
     public function execute(mixed $value, ?float $default = 0.0): float
     public function execute(mixed $value, null|float $default = 0.0): float
@@ -172,13 +257,22 @@ class SafeFloatCastAction
     public function execute(mixed $value, ?float $default = 0.0): float
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+    public function execute(mixed $value, null|float $default = 0.0): float
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     {
         // Se è già un float, verifica che sia valido
         if (is_float($value)) {
             return is_finite($value) ? $value : ($default ?? 0.0);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
         
@@ -186,12 +280,19 @@ class SafeFloatCastAction
 =======
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         // Se è un intero, convertilo in float
         if (is_int($value)) {
             return (float) $value;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
         
@@ -199,12 +300,19 @@ class SafeFloatCastAction
 =======
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         // Se è null, restituisci il default
         if (is_null($value)) {
             return $default ?? 0.0;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
         
@@ -212,12 +320,19 @@ class SafeFloatCastAction
 =======
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         // Se è una stringa, prova a convertirla
         if (is_string($value)) {
             return $this->parseStringToFloat($value, $default);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
         
@@ -225,12 +340,19 @@ class SafeFloatCastAction
 =======
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         // Se è un booleano, convertilo (true = 1.0, false = 0.0)
         if (is_bool($value)) {
             return $value ? 1.0 : 0.0;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
         
@@ -238,11 +360,18 @@ class SafeFloatCastAction
 =======
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         // Se è un array e ha un solo elemento numerico
         if (is_array($value) && count($value) === 1) {
             return $this->execute(reset($value), $default);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -256,6 +385,8 @@ class SafeFloatCastAction
         if (is_object($value) && method_exists($value, '__toString')) {
             return $this->parseStringToFloat((string) $value, $default);
         }
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -264,7 +395,26 @@ class SafeFloatCastAction
 =======
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+
+>>>>>>> 73eab74 (.)
+        // Se è un oggetto con metodo __toString, prova a convertirlo
+        if (is_object($value) && method_exists($value, '__toString')) {
+            return $this->parseStringToFloat((string) $value, $default);
+        }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> f1d4085 (.)
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         // Per tutti gli altri tipi, restituisci il default
         return $default ?? 0.0;
     }
@@ -474,21 +624,30 @@ class SafeFloatCastAction
      * @return float Il valore convertito
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     private function parseStringToFloat(string $value, null|float $default = 0.0): float
     {
         $trimmed = trim($value);
 
+<<<<<<< HEAD
 =======
     private function parseStringToFloat(string $value, ?float $default = 0.0): float
     {
         $trimmed = trim($value);
         
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         // Stringa vuota o solo spazi
         if (empty($trimmed)) {
             return $default ?? 0.0;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         // Gestisci separatori decimali comuni (virgola europea)
         $normalized = str_replace(',', '.', $trimmed);
@@ -504,6 +663,7 @@ class SafeFloatCastAction
         if (is_numeric($cleaned) && !empty($cleaned)) {
             $float = (float) $cleaned;
 
+<<<<<<< HEAD
 =======
         
         // Gestisci separatori decimali comuni (virgola europea)
@@ -517,22 +677,30 @@ class SafeFloatCastAction
             $float = (float) $cleaned;
             
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             // Verifica che non sia infinito o NaN
             if (is_finite($float)) {
                 return $float;
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         return $default ?? 0.0;
     }
 
+<<<<<<< HEAD
 =======
         
         return $default ?? 0.0;
     }
     
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
     /**
      * Metodo statico di convenienza per chiamate dirette.
      *
@@ -542,6 +710,9 @@ class SafeFloatCastAction
      * @return float Il valore convertito in float
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public static function cast(mixed $value, null|float $default = 0.0): float
     {
         return app(self::class)->execute($value, $default);
@@ -564,7 +735,12 @@ class SafeFloatCastAction
 
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     /**
      * Converte un valore in float con validazione di range.
      *
@@ -576,6 +752,9 @@ class SafeFloatCastAction
      * @return float Il valore convertito e validato
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function executeWithRange(mixed $value, float $min, float $max, null|float $default = null): float
     {
         $float = $this->execute($value, $default);
@@ -585,6 +764,7 @@ class SafeFloatCastAction
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     {
         $float = $this->execute($value, $default);
 
@@ -592,6 +772,8 @@ class SafeFloatCastAction
         return max($min, min($max, $float));
     }
 
+=======
+>>>>>>> 218dfed3 (.)
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -606,7 +788,12 @@ class SafeFloatCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     /**
      * Metodo statico di convenienza per cast con range.
      *
@@ -618,6 +805,7 @@ class SafeFloatCastAction
      * @return float Il valore convertito e validato
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function castWithRange(mixed $value, float $min, float $max, null|float $default = null): float
 <<<<<<< HEAD
     public static function castWithRange(mixed $value, float $min, float $max, ?float $default = null): float
@@ -625,7 +813,13 @@ class SafeFloatCastAction
 =======
     public static function castWithRange(mixed $value, float $min, float $max, ?float $default = null): float
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    public static function castWithRange(mixed $value, float $min, float $max, null|float $default = null): float
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     {
         return app(self::class)->executeWithRange($value, $min, $max, $default);
     }
@@ -640,6 +834,7 @@ class SafeFloatCastAction
      * @return float Il valore convertito con precisione specificata
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function executeWithPrecision(mixed $value, int $precision = 2, null|float $default = 0.0): float
 <<<<<<< HEAD
     public function executeWithPrecision(mixed $value, int $precision = 2, ?float $default = 0.0): float
@@ -647,7 +842,13 @@ class SafeFloatCastAction
 =======
     public function executeWithPrecision(mixed $value, int $precision = 2, ?float $default = 0.0): float
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    public function executeWithPrecision(mixed $value, int $precision = 2, null|float $default = 0.0): float
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     {
         $float = $this->execute($value, $default);
         return round($float, max(0, $precision));
@@ -663,6 +864,7 @@ class SafeFloatCastAction
      * @return float Il valore convertito con precisione specificata
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function castWithPrecision(mixed $value, int $precision = 2, null|float $default = 0.0): float
 <<<<<<< HEAD
     public static function castWithPrecision(mixed $value, int $precision = 2, ?float $default = 0.0): float
@@ -670,7 +872,13 @@ class SafeFloatCastAction
 =======
     public static function castWithPrecision(mixed $value, int $precision = 2, ?float $default = 0.0): float
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    public static function castWithPrecision(mixed $value, int $precision = 2, null|float $default = 0.0): float
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     {
         return app(self::class)->executeWithPrecision($value, $precision, $default);
     }
@@ -684,6 +892,7 @@ class SafeFloatCastAction
      * @return float Il valore convertito come percentuale (0-100)
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function executeAsPercentage(mixed $value, null|float $default = 0.0): float
 <<<<<<< HEAD
     public function executeAsPercentage(mixed $value, ?float $default = 0.0): float
@@ -691,7 +900,13 @@ class SafeFloatCastAction
 =======
     public function executeAsPercentage(mixed $value, ?float $default = 0.0): float
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    public function executeAsPercentage(mixed $value, null|float $default = 0.0): float
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     {
         return $this->executeWithRange($value, 0.0, 100.0, $default);
     }
@@ -705,6 +920,7 @@ class SafeFloatCastAction
      * @return float Il valore convertito come percentuale (0-100)
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function castAsPercentage(mixed $value, null|float $default = 0.0): float
 <<<<<<< HEAD
     public static function castAsPercentage(mixed $value, ?float $default = 0.0): float
@@ -712,7 +928,13 @@ class SafeFloatCastAction
 =======
     public static function castAsPercentage(mixed $value, ?float $default = 0.0): float
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    public static function castAsPercentage(mixed $value, null|float $default = 0.0): float
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     {
         return app(self::class)->executeAsPercentage($value, $default);
     }
@@ -726,6 +948,7 @@ class SafeFloatCastAction
      * @return float Il valore convertito come importo monetario
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function executeAsCurrency(mixed $value, null|float $default = 0.0): float
 <<<<<<< HEAD
     public function executeAsCurrency(mixed $value, ?float $default = 0.0): float
@@ -733,7 +956,13 @@ class SafeFloatCastAction
 =======
     public function executeAsCurrency(mixed $value, ?float $default = 0.0): float
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    public function executeAsCurrency(mixed $value, null|float $default = 0.0): float
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     {
         $float = $this->execute($value, $default);
         return round(abs($float), 2);
@@ -748,6 +977,9 @@ class SafeFloatCastAction
      * @return float Il valore convertito come importo monetario
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public static function castAsCurrency(mixed $value, null|float $default = 0.0): float
     {
         return app(self::class)->executeAsCurrency($value, $default);
@@ -761,6 +993,7 @@ class SafeFloatCastAction
         return app(self::class)->executeAsCurrency($value, $default);
     }
 }
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -786,4 +1019,9 @@ class SafeFloatCastAction
 =======
 } 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)

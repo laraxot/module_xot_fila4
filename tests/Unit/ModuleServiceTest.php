@@ -38,12 +38,17 @@ use Nwidart\Modules\Module;
 use Tests\TestCase;
 use Modules\Xot\Services\ModuleService;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 use Nwidart\Modules\Module;
 =======
 use Nwidart\Modules\Module;
 use Nwidart\Modules\Facades\Module as ModuleFacade;
 >>>>>>> f1d4085 (.)
+=======
+use Nwidart\Modules\Facades\Module as ModuleFacade;
+use Nwidart\Modules\Module;
+>>>>>>> 73eab74 (.)
 
 uses(TestCase::class);
 
@@ -51,6 +56,7 @@ describe('ModuleService', function () {
     beforeEach(function () {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,11 +306,20 @@ describe('ModuleService', function () {
 >>>>>>> 5842a556 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         $this->service = new ModuleService()->setName('TestModule');
 =======
         $this->service = (new ModuleService())->setName('TestModule');
 >>>>>>> f1d4085 (.)
+=======
+        $this->service = new ModuleService();
+        $this->service = $this->service->setName('TestModule');
+>>>>>>> 73eab74 (.)
     });
 
     it('can be instantiated', function () {
@@ -420,6 +435,7 @@ describe('ModuleService', function () {
     it('can be instantiated with different module names', function () {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -634,6 +650,8 @@ describe('ModuleService', function () {
 >>>>>>> 5842a556 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
         $service1 = new ModuleService()->setName('Chart');
         $service2 = new ModuleService()->setName('User');
 
@@ -645,7 +663,18 @@ describe('ModuleService', function () {
         expect($service1)->toBeInstanceOf(ModuleService::class)
             ->and($service2)->toBeInstanceOf(ModuleService::class);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+        $service1 = new ModuleService();
+        $service1 = $service1->setName('Chart');
+        $service2 = new ModuleService();
+        $service2 = $service2->setName('User');
+
+        expect($service1)->toBeInstanceOf(ModuleService::class)->and($service2)->toBeInstanceOf(ModuleService::class);
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     });
 
     it('has getModels method', function () {
@@ -666,6 +695,7 @@ describe('ModuleService', function () {
         // Each value should be a class string
         foreach ($result as $key => $value) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect($key)->toBeString()->and($value)->toBeString();
 <<<<<<< HEAD
         
@@ -680,7 +710,13 @@ describe('ModuleService', function () {
             expect($key)->toBeString()
                 ->and($value)->toBeString();
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            expect($key)->toBeString()->and($value)->toBeString();
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         }
     });
 
@@ -718,6 +754,7 @@ describe('ModuleService', function () {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     it('handles empty module gracefully', function (): void {
         $emptyService = new ModuleService;
         /** @phpstan-ignore-next-line method.nonObject */
@@ -726,10 +763,56 @@ describe('ModuleService', function () {
 =======
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         expect($method->isPublic())->toBeTrue()->and($method->getNumberOfParameters())->toBe(0);
     });
 
     it('handles empty module gracefully', function () {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 21348520 (.)
+>>>>>>> 218dfed3 (.)
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
@@ -793,6 +876,7 @@ describe('ModuleService', function () {
             ->and($result)->toBeEmpty();
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
+<<<<<<< HEAD
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
@@ -956,6 +1040,21 @@ describe('ModuleService', function () {
     it('uses correct namespace patterns', function () {
         $emptyService = new ModuleService();
         $emptyService = $emptyService->setName('NonExistentModule');
+=======
+=======
+=======
+>>>>>>> 492d6d3c (.)
+=======
+>>>>>>> d86d643a (.)
+=======
+>>>>>>> 43d67f21 (.)
+=======
+>>>>>>> e59778ae (.)
+=======
+>>>>>>> 5842a556 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         $emptyService = new ModuleService()->setName('NonExistentModule');
         $result = $emptyService->getModels();
 
@@ -972,6 +1071,13 @@ describe('ModuleService', function () {
         expect($result)->toBeArray()
             ->and($result)->toBeEmpty();
 >>>>>>> f1d4085 (.)
+=======
+        $emptyService = new ModuleService();
+        $emptyService = $emptyService->setName('NonExistentModule');
+        $result = $emptyService->getModels();
+
+        expect($result)->toBeArray()->and($result)->toBeEmpty();
+>>>>>>> 73eab74 (.)
     });
 
     it('uses correct namespace patterns', function () {
@@ -988,21 +1094,35 @@ describe('ModuleService', function () {
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         expect($reflection->hasMethod('setName'))
             ->toBeTrue()
             ->and($reflection->getMethod('setName')->isPublic())
             ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
         
         expect($reflection->hasMethod('setName'))->toBeTrue()
             ->and($reflection->getMethod('setName')->isPublic())->toBeTrue();
 =======
 =======
+>>>>>>> 218dfed3 (.)
+=======
         expect($reflection->hasMethod('setName'))->toBeTrue()
             ->and($reflection->getMethod('setName')->isPublic())->toBeTrue();
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     });
 
     it('validates class structure', function () {
@@ -1011,7 +1131,13 @@ describe('ModuleService', function () {
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         expect($reflection->isInstantiable())
             ->toBeTrue()
             ->and($reflection->isFinal())
@@ -1019,17 +1145,25 @@ describe('ModuleService', function () {
             ->and($reflection->isAbstract())
             ->toBeFalse();
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         expect($reflection->isInstantiable())->toBeTrue()
             ->and($reflection->isFinal())->toBeFalse()
             ->and($reflection->isAbstract())->toBeFalse();
 =======
 =======
+>>>>>>> 218dfed3 (.)
+=======
         expect($reflection->isInstantiable())->toBeTrue()
             ->and($reflection->isFinal())->toBeFalse()
             ->and($reflection->isAbstract())->toBeFalse();
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     });
 
     it('has proper method visibility', function () {

@@ -55,7 +55,10 @@ class GetAllModelsByModuleNameAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
         if (! ($mod instanceof \Nwidart\Modules\Module)) {
             return [];
         }
@@ -115,11 +118,19 @@ class GetAllModelsByModuleNameAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 88ea7103 (.)
         if (!($mod instanceof \Nwidart\Modules\Module)) {
 =======
         if (! $mod instanceof \Nwidart\Modules\Module) {
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+        if (!($mod instanceof \Nwidart\Modules\Module)) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             return [];
         }
 
@@ -184,6 +195,7 @@ class GetAllModelsByModuleNameAction
 =======
                     $reflection_class = new ReflectionClass($tmp->class);
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (!$reflection_class->isAbstract()) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,6 +216,43 @@ class GetAllModelsByModuleNameAction
 =======
 >>>>>>> 2f3197ab (.)
                     if (! $reflection_class->isAbstract()) {
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+                    if (!$reflection_class->isAbstract()) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+                    if (! $reflection_class->isAbstract()) {
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+                    if (!$reflection_class->isAbstract()) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+                    if (! $reflection_class->isAbstract()) {
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
                     if (!$reflection_class->isAbstract()) {
                     if (! $reflection_class->isAbstract()) {
                     if (!$reflection_class->isAbstract()) {
@@ -234,7 +283,15 @@ class GetAllModelsByModuleNameAction
                     if (! $reflection_class->isAbstract()) {
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+                    if (!$reflection_class->isAbstract()) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                         $data[$tmp->name] = $tmp->class;
                     }
                 } catch (Exception) {

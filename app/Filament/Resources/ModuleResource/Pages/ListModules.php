@@ -28,7 +28,10 @@ namespace Modules\Xot\Filament\Resources\ModuleResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Filament\Actions\BulkAction;
@@ -114,30 +117,44 @@ use Override;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 use Filament\Actions\BulkAction;
 use Filament\Tables\Filters\BaseFilter;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 use Override;
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 use Filament\Actions\ViewAction;
 use Filament\Actions\EditAction;
 use Filament\Actions\DeleteAction;
 use Filament\Actions\DeleteBulkAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Filament\Tables\Filters\BaseFilter;
 use Filament\Actions\Action;
 use Filament\Actions\ActionGroup;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 use Filament\Tables;
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\Xot\Filament\Resources\ModuleResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Nwidart\Modules\Facades\Module;
@@ -186,12 +203,18 @@ use Nwidart\Modules\Facades\Module;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 >>>>>>> f1d4085 (.)
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Nwidart\Modules\Facades\Module;
+
+>>>>>>> 73eab74 (.)
 class ListModules extends XotBaseListRecords
 {
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
     protected static string $resource = ModuleResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
@@ -201,7 +224,13 @@ class ListModules extends XotBaseListRecords
 =======
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -213,6 +242,9 @@ class ListModules extends XotBaseListRecords
      * @return array<string, Tables\Columns\Column>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -245,7 +277,12 @@ class ListModules extends XotBaseListRecords
             'enabled' => TextColumn::make('enabled')->sortable(),
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         ];
     }
 
@@ -254,6 +291,7 @@ class ListModules extends XotBaseListRecords
      *
      * @return array<BaseFilter>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
@@ -269,7 +307,13 @@ class ListModules extends XotBaseListRecords
 =======
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     public function getTableFilters(): array
     {
         return [
@@ -289,6 +333,7 @@ class ListModules extends XotBaseListRecords
      * @return array<Action|ActionGroup>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<Action|ActionGroup>
      */
      * @return array<Action|ActionGroup>
@@ -313,6 +358,11 @@ class ListModules extends XotBaseListRecords
 =======
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     #[Override]
     public function getTableActions(): array
     {
@@ -320,6 +370,7 @@ class ListModules extends XotBaseListRecords
             ViewAction::make(),
             EditAction::make(),
             DeleteAction::make()->requiresConfirmation(),
+<<<<<<< HEAD
 =======
     public function getTableActions(): array
     {
@@ -332,10 +383,13 @@ class ListModules extends XotBaseListRecords
 
                 ->requiresConfirmation(),
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         ];
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, BulkAction>
      */
@@ -357,7 +411,15 @@ class ListModules extends XotBaseListRecords
      * @return array<string, \Filament\Actions\BulkAction>
      */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+     * @return array<string, BulkAction>
+     */
+    #[Override]
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     public function getTableBulkActions(): array
     {
         return [

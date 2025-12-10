@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions\Cast;
 /**
  * Action per convertire in modo sicuro un valore mixed in string.
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
  * 
@@ -14,7 +15,13 @@ namespace Modules\Xot\Actions\Cast;
 =======
  * 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+ *
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  */
@@ -43,6 +50,9 @@ class SafeStringCastAction
         }
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
          * if ($value instanceof \BackedEnum) {
          * return $value->value;
          * }
@@ -111,7 +121,12 @@ class SafeStringCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     /**
      * Metodo statico di convenienza per chiamate dirette.
      *

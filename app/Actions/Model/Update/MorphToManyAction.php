@@ -81,14 +81,52 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
             if (! isset($data['to'])) {
             if (!isset($data['to'])) {
             if (!isset($data['to'])) {
             if (! isset($data['to'])) {
             if (! isset($data['to'])) {
+<<<<<<< HEAD
             if (! isset($data['to'])) {
             if (! isset($data['to'])) {
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> ca9324a4 (.)
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+            if (!isset($data['to'])) {
+=======
+            if (! isset($data['to'])) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
             if (!isset($data['to'])) {
             if (! isset($data['to'])) {
             if (!isset($data['to'])) {
@@ -149,7 +187,15 @@ class MorphToManyAction
             if (! isset($data['to'])) {
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                 $data['to'] = [];
             }
             $data = $data['to'];
@@ -157,6 +203,7 @@ class MorphToManyAction
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -247,7 +294,14 @@ class MorphToManyAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         if (!\is_array($data)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         }
@@ -255,6 +309,7 @@ class MorphToManyAction
         if (!Arr::isAssoc($data)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,7 +360,12 @@ class MorphToManyAction
 =======
 >>>>>>> 7131bd09 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 218dfed3 (.)
         if (! \is_array($data)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
@@ -366,6 +426,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -408,7 +469,14 @@ class MorphToManyAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
             $relation->sync($data);
 
             return;
@@ -451,14 +519,52 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
                 if (! isset($v['pivot'])) {
                 if (!isset($v['pivot'])) {
                 if (!isset($v['pivot'])) {
                 if (! isset($v['pivot'])) {
                 if (! isset($v['pivot'])) {
+<<<<<<< HEAD
                 if (! isset($v['pivot'])) {
                 if (! isset($v['pivot'])) {
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> ca9324a4 (.)
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+                if (!isset($v['pivot'])) {
+=======
+                if (! isset($v['pivot'])) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
                 if (!isset($v['pivot'])) {
                 if (! isset($v['pivot'])) {
                 if (!isset($v['pivot'])) {
@@ -519,7 +625,15 @@ class MorphToManyAction
                 if (! isset($v['pivot'])) {
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                     $v['pivot'] = [];
                 }
 

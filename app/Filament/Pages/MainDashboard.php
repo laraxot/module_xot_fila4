@@ -7,9 +7,13 @@ namespace Modules\Xot\Filament\Pages;
 use Filament\Panel;
 use Filament\Facades\Filament;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Panel;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Filament\Panel;
+>>>>>>> 73eab74 (.)
 use Filament\Pages\Dashboard;
 use Filament\Facades\Filament;
 use Filament\Panel;
@@ -65,6 +69,7 @@ class MainDashboard extends XotBaseDashboard
 
     protected static ?int $navigationSort = 1;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,6 +153,7 @@ class MainDashboard extends XotBaseDashboard
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
     protected static null|string $title = 'Main Dashboard';
 
@@ -176,6 +182,12 @@ class MainDashboard extends XotBaseDashboard
     protected static null|string $title = 'Main Dashboard';
 
     protected static null|int $navigationSort = 1;
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     protected static null|string $title = 'Main Dashboard';
 
     protected static null|int $navigationSort = 1;
@@ -276,6 +288,7 @@ class MainDashboard extends XotBaseDashboard
     {
         return 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     protected static null|int $navigationSort = 1;
 
@@ -338,6 +351,8 @@ class MainDashboard extends XotBaseDashboard
     // protected static string $routePath = 'main';
 
 =======
+>>>>>>> 218dfed3 (.)
+=======
 =======
 >>>>>>> 2f3197ab (.)
     protected static ?string $title = 'Main Dashboard';
@@ -369,6 +384,11 @@ class MainDashboard extends XotBaseDashboard
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     }
 }

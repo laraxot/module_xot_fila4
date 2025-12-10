@@ -22,6 +22,9 @@ class SetDefaultTenantForUrlsMiddleware
      * Handle the incoming request.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
     public function handle(
         Request $request,
         Closure $next,
@@ -31,7 +34,10 @@ class SetDefaultTenantForUrlsMiddleware
             // 'referrer' => url()->previous(),
         ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
     public function handle(Request $request, Closure $next): Response|JsonResponse|\Symfony\Component\HttpFoundation\Response
 >>>>>>> 2f3197ab (.)
@@ -45,7 +51,12 @@ class SetDefaultTenantForUrlsMiddleware
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
         // @phpstan-ignore return.type
         return $next($request);

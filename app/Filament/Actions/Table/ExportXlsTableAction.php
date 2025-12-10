@@ -9,9 +9,13 @@ declare(strict_types=1);
 namespace Modules\Xot\Filament\Actions\Table;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Exception;
+>>>>>>> 73eab74 (.)
 use Filament\Actions\Action;
 use Filament\Resources\RelationManagers\RelationManager;
 use Exception;
@@ -36,6 +40,9 @@ class ExportXlsTableAction extends Action
         parent::setUp();
         $this->translateLabel()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
             ->tooltip(__('xot::actions.export_xls'))
             // ->icon('fas-file-excel')
             ->icon('heroicon-o-arrow-down-tray')
@@ -99,6 +106,7 @@ class ExportXlsTableAction extends Action
                 if ($query === null) {
                     throw new Exception('Query is null');
                 }
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -115,7 +123,12 @@ class ExportXlsTableAction extends Action
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
                 // ->getQuery(); // Staudenmeir\LaravelCte\Query\Builder
                 $rows = $query->get();
                 /** @var array<int, string> $fields */
@@ -123,6 +136,7 @@ class ExportXlsTableAction extends Action
                 if (method_exists($livewire_class, 'getXlsFields')) {
                     $rawFields = $livewire_class::getXlsFields($livewire->tableFilters);
                     Assert::isArray($rawFields);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -134,7 +148,13 @@ class ExportXlsTableAction extends Action
 =======
                     
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
                     // Ensure fields are properly formatted as array<int, string>
                     $fields = [];
                     foreach ($rawFields as $key => $field) {
@@ -174,7 +194,10 @@ class ExportXlsTableAction extends Action
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
     public static function getDefaultName(): ?string
     public static function getDefaultName(): null|string
     public static function getDefaultName(): null|string
@@ -193,7 +216,42 @@ class ExportXlsTableAction extends Action
     public static function getDefaultName(): ?string
     public static function getDefaultName(): ?string
     public static function getDefaultName(): ?string
+<<<<<<< HEAD
     public static function getDefaultName(): ?string
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> ca9324a4 (.)
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+    public static function getDefaultName(): null|string
+=======
+    public static function getDefaultName(): ?string
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
     public static function getDefaultName(): null|string
     public static function getDefaultName(): ?string
     public static function getDefaultName(): null|string
@@ -320,7 +378,15 @@ class ExportXlsTableAction extends Action
     public static function getDefaultName(): ?string
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+    public static function getDefaultName(): null|string
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     {
         return 'export_xls';
     }

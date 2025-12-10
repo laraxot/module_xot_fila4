@@ -5,11 +5,14 @@ declare(strict_types=1);
 namespace Modules\Xot\Actions\Model\Update;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Model\UpdateAction;
 use Modules\Xot\Datas\RelationData as RelationDTO;
@@ -53,7 +56,10 @@ class MorphManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
         if ($relationDTO->data === []) {
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model
@@ -129,13 +135,21 @@ class MorphManyAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         if ([] === $relationDTO->data) {
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model
             $model->{$relationDTO->name}()->saveMany($relationDTO->data);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,7 +204,12 @@ class MorphManyAction
 =======
 >>>>>>> 7131bd09 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 218dfed3 (.)
         if ($relationDTO->data === []) {
             // dddx(['model'=>$model,'relationDTO'=>$relationDTO]);
             // save Model - type assertion per dynamic relationship
@@ -264,6 +283,7 @@ class MorphManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -306,7 +326,14 @@ class MorphManyAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 
             return;
         }
@@ -347,13 +374,36 @@ class MorphManyAction
             if (\in_array($keyName, array_keys($data), false)) {
                 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                  * $related_id = $data[$keyName];
                  * $row = $related->firstOrCreate([$keyName => $related_id]);
                  * $res = app(\Modules\Xot\Actions\Model\UpdateAction::class)->execute($row, $data, []);
                  */
+<<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                /** @var array<string, mixed> $safeData */
+                $safeData = $data;
+                $res = app(UpdateAction::class)->execute($related, $safeData, []);
+=======
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+<<<<<<< HEAD
+>>>>>>> 88ea7103 (.)
+=======
+                $res = app(UpdateAction::class)->execute($related, $data, []);
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,6 +534,41 @@ class MorphManyAction
 >>>>>>> 2f3197ab (.)
                 $res = app(UpdateAction::class)->execute($related, $data, []);
                 $res = app(UpdateAction::class)->execute($related, $data, []);
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 218dfed3 (.)
                 $res = app(UpdateAction::class)->execute($related, $data, []);
 <<<<<<< HEAD
                 $res = app(UpdateAction::class)->execute($related, $data, []);
@@ -523,7 +608,14 @@ class MorphManyAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                 $ids[] = $res->getKey();
                 $models[] = $res;
             } else {
@@ -555,7 +647,10 @@ class MorphManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
         $relation = $model->{$relationDTO->name}();
         if (! is_object($relation) || ! method_exists($relation, 'saveMany')) {
             return;
@@ -565,6 +660,17 @@ class MorphManyAction
         $relation->saveMany($models);
         $model->{$relationDTO->name}()->saveMany($models);
         $model->{$relationDTO->name}()->saveMany($models);
+<<<<<<< HEAD
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         $model->{$relationDTO->name}()->saveMany($models);
         $model->{$relationDTO->name}()->saveMany($models);
         $model->{$relationDTO->name}()->saveMany($models);
@@ -643,6 +749,19 @@ class MorphManyAction
 <<<<<<< HEAD
         $model->{$relationDTO->name}()->saveMany($models);
         $model->{$relationDTO->name}()->saveMany($models);
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
         $model->{$relationDTO->name}()->saveMany($models);
         $model->{$relationDTO->name}()->saveMany($models);
         $model->{$relationDTO->name}()->saveMany($models);
@@ -673,7 +792,15 @@ class MorphManyAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+        $model->{$relationDTO->name}()->saveMany($models);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 
         // dddx(['model' => $model, 'relationDTO' => $relationDTO]);
     }

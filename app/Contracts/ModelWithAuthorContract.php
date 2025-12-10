@@ -131,7 +131,10 @@ interface ModelWithAuthorContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
 interface ModelWithAuthorContract {}
 interface ModelWithAuthorContract
 {
@@ -141,12 +144,68 @@ interface ModelWithAuthorContract
 }
 interface ModelWithAuthorContract {}
 interface ModelWithAuthorContract {}
+<<<<<<< HEAD
 interface ModelWithAuthorContract {}
 interface ModelWithAuthorContract {}
 interface ModelWithAuthorContract
 {
 }
 interface ModelWithAuthorContract {}
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+interface ModelWithAuthorContract
+{
+}
+>>>>>>> ca9324a4 (.)
+=======
+interface ModelWithAuthorContract
+{
+}
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+interface ModelWithAuthorContract
+{
+}
+=======
+interface ModelWithAuthorContract {}
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+interface ModelWithAuthorContract
+{
+}
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 218dfed3 (.)
 interface ModelWithAuthorContract
 {
 }
@@ -253,4 +312,9 @@ interface ModelWithAuthorContract
 interface ModelWithAuthorContract {}
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)

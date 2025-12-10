@@ -55,11 +55,15 @@ class AssetAction
         $ns_after0 = Str::before($ns_after, '/');
         $ns_after1 = Str::after($ns_after, '/');
 <<<<<<< HEAD
+<<<<<<< HEAD
             str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
         $ns_after = str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : (string) $ns_after0).'/'.$ns_after1;
 =======
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
         $ns_after =
             str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
         $ns_after = str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : (string) $ns_after0).'/'.$ns_after1;
@@ -114,7 +118,39 @@ class AssetAction
             str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
             str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
         $ns_after = str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : (string) $ns_after0).'/'.$ns_after1;
+<<<<<<< HEAD
             str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        $ns_after =
+            str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
         $ns_after = str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : (string) $ns_after0).'/'.$ns_after1;
             str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
             str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : ((string) $ns_after0)) . '/' . $ns_after1;
@@ -136,7 +172,12 @@ class AssetAction
         $ns_after = str_replace('.', '/', is_string($ns_after0) ? $ns_after0 : (string) $ns_after0).'/'.$ns_after1;
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 
         if (Str::startsWith($ns_after, '/')) {
             $ns_after = Str::after($ns_after, '/');
@@ -147,6 +188,9 @@ class AssetAction
             $theme = $xot->{$ns};
             Assert::string($theme, 'Il tema deve essere una stringa');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
             // Costruiamo i percorsi
 
@@ -190,7 +234,10 @@ class AssetAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -289,6 +336,7 @@ class AssetAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -337,7 +385,14 @@ class AssetAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
             $asset = $themeAssetPath;
             $filename_to = app(FixPathAction::class)->execute(public_path($asset));
             $asset = Str::replace(url(''), '', asset($asset));
@@ -356,6 +411,7 @@ class AssetAction
             if (!File::exists($filename_to)) {
                 if (!File::exists(\dirname($filename_to))) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -417,7 +473,12 @@ class AssetAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
             if (!File::exists($filename_to)) {
                 if (!File::exists(\dirname($filename_to))) {
             if (!File::exists($filename_to)) {
@@ -440,7 +501,15 @@ class AssetAction
                 if (! File::exists(\dirname($filename_to))) {
                     File::makeDirectory(\dirname($filename_to), 0755, true, true);
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            if (!File::exists($filename_to)) {
+                if (!File::exists(\dirname($filename_to))) {
+                    File::makeDirectory(\dirname($filename_to), 0o755, true, true);
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
                 }
 
                 try {
@@ -449,7 +518,13 @@ class AssetAction
 =======
                 } catch (Exception $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
                     throw new Exception(
                         'message:['.
                         $e->getMessage().
@@ -508,6 +583,7 @@ class AssetAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 2f3197ab (.)
@@ -515,6 +591,33 @@ class AssetAction
                     throw new Exception('message:['.$e->getMessage().']
                 } catch (\Exception $e) {
                     throw new \Exception('message:['.$e->getMessage().']
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+                    throw new Exception('message:['.$e->getMessage().']
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+                    throw new Exception('message:['.$e->getMessage().']
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
                     throw new Exception('message:['.$e->getMessage().']
                     throw new Exception('message:['.$e->getMessage().']
                     throw new Exception('message:['.$e->getMessage().']
@@ -569,6 +672,41 @@ class AssetAction
 
             Assert::string($asset, '[' . __LINE__ . '][' . class_basename(static::class) . ']');
             Assert::string($asset, '[' . __LINE__ . '][' . class_basename(static::class) . ']');
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 218dfed3 (.)
             Assert::string($asset, '[' . __LINE__ . '][' . class_basename(static::class) . ']');
 <<<<<<< HEAD
             Assert::string($asset, '[' . __LINE__ . '][' . class_basename(static::class) . ']');
@@ -596,7 +734,14 @@ class AssetAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 
             return $asset;
         }
@@ -611,6 +756,7 @@ class AssetAction
         $filename_from = app(FixPathAction::class)->execute($module_path.'/resources/'.$ns_after);
         $asset = 'assets/'.$ns.'/'.$ns_after;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -710,7 +856,14 @@ class AssetAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         $filename_from = app(FixPathAction::class)->execute($module_path . '/resources/' . $ns_after);
         $asset = 'assets/' . $ns . '/' . $ns_after;
         $filename_to = app(FixPathAction::class)->execute(public_path($asset));
@@ -781,6 +934,7 @@ class AssetAction
         if (!File::exists($filename_to) || 'production' !== app()->environment()) {
             if (!File::exists(\dirname($filename_to))) {
                 File::makeDirectory(\dirname($filename_to), 0o755, true, true);
+<<<<<<< HEAD
 =======
         $filename_from = app(FixPathAction::class)->execute($module_path.'/resources/'.$ns_after);
         $asset = 'assets/'.$ns.'/'.$ns_after;
@@ -798,11 +952,16 @@ class AssetAction
             if (! File::exists(\dirname($filename_to))) {
                 File::makeDirectory(\dirname($filename_to), 0755, true, true);
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
             }
             try {
                 File::copy($filename_from, $filename_to);
             } catch (Exception $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
                 throw new Exception(
                     'message:['.
                     $e->getMessage().
@@ -861,6 +1020,7 @@ class AssetAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 2f3197ab (.)
@@ -886,6 +1046,33 @@ class AssetAction
                 File::copy($filename_from, $filename_to);
             } catch (\Exception $e) {
                 throw new \Exception('message:['.$e->getMessage().']
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+                throw new Exception('message:['.$e->getMessage().']
+>>>>>>> ed734516 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+=======
+                throw new Exception('message:['.$e->getMessage().']
+>>>>>>> 7131bd09 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
                 throw new Exception('message:['.$e->getMessage().']
                 throw new Exception('message:['.$e->getMessage().']
                 throw new Exception('message:['.$e->getMessage().']
@@ -940,6 +1127,41 @@ class AssetAction
 
         Assert::string($asset, '[' . __LINE__ . '][' . class_basename(static::class) . ']');
         Assert::string($asset, '[' . __LINE__ . '][' . class_basename(static::class) . ']');
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 218dfed3 (.)
         Assert::string($asset, '[' . __LINE__ . '][' . class_basename(static::class) . ']');
 <<<<<<< HEAD
         Assert::string($asset, '[' . __LINE__ . '][' . class_basename(static::class) . ']');
@@ -967,7 +1189,14 @@ class AssetAction
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 
         return $asset;
     }

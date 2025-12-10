@@ -28,6 +28,7 @@ namespace Modules\Xot\Services\Trend\Adapters;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2f3197ab (.)
 use Override;
@@ -80,10 +81,18 @@ use Error;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 use Override;
 =======
 >>>>>>> f1d4085 (.)
+=======
+use Override;
+>>>>>>> 73eab74 (.)
 use Error;
 use Override;
 use Error;
@@ -92,6 +101,7 @@ use Error;
 
 class MySqlAdapter extends AbstractAdapter
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
@@ -127,7 +137,13 @@ class MySqlAdapter extends AbstractAdapter
 =======
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    #[Override]
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     public function format(string $column, string $interval): string
     {
         $format = match ($interval) {

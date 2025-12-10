@@ -15,6 +15,7 @@ class BelongsToAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
 <<<<<<< HEAD
     public function execute(Model $model, RelationDTO $relationDTO): void
@@ -22,7 +23,13 @@ class BelongsToAction
 =======
     public function execute(Model $model, RelationDTO $relationDTO): void
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     {
         Assert::isInstanceOf($rows = $relationDTO->rows, BelongsTo::class);
 
@@ -33,6 +40,7 @@ class BelongsToAction
         // $rows = $relation->rows;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,10 +122,17 @@ class BelongsToAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         // dd([$relation->name]);
         // dd([$relation->name]);
         // dd([$relation->name]);
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         // dd([$relation->name]);
         // dd([$relation->name]);
         // dd([$relation->name]);
@@ -139,6 +154,7 @@ class BelongsToAction
          * ]);
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
         // dd([$relation->name]);
         /*
          * if (null == $row->{$relation->name}) {
@@ -148,6 +164,8 @@ class BelongsToAction
          * }
          */
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
 
         // dd([$relation->name]);
@@ -181,6 +199,11 @@ class BelongsToAction
          */
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     }
 }

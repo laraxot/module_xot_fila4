@@ -688,6 +688,9 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 
 ## Collegamenti tra versioni di BOTTLENECKS.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 * [BOTTLENECKS.md](../../../Xot/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../User/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Media/docs/BOTTLENECKS.md)
@@ -701,6 +704,7 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 * [BOTTLENECKS.md](../../../Media/project_docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Cms/project_docs/BOTTLENECKS.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 * [BOTTLENECKS.md](../../../Xot/project_docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../User/project_docs/BOTTLENECKS.md)
@@ -735,6 +739,11 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 
 
 
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
 =======
 >>>>>>> f1d4085 (.)

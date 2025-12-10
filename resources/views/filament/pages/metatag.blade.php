@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 <?php
 
 declare(strict_types=1);
@@ -14,6 +17,7 @@ declare(strict_types=1);
 
     </x-filament-schemas::form>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-filament-panels::page>
     <x-filament-schemas::form wire:submit="save">
         {{ $this->form }}
@@ -24,6 +28,8 @@ declare(strict_types=1);
 
     </x-filament-panels::form>
     </x-filament-schemas::form>
+=======
+>>>>>>> 218dfed3 (.)
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -39,5 +45,10 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 </x-filament-panels::page>

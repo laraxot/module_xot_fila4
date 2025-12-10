@@ -46,6 +46,7 @@ class ListFilamentPanels extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
             $providersPath = $module->getPath().'/Providers';
             if (! is_dir($providersPath)) {
@@ -91,6 +92,88 @@ class ListFilamentPanels extends Command
             $providersPath = $module->getPath().'/Providers';
             if (! is_dir($providersPath)) {
 =======
+=======
+            $providersPath = $module->getPath().'/Providers';
+            if (! is_dir($providersPath)) {
+=======
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+>>>>>>> 5a14301c (.)
+=======
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+>>>>>>> 3fbbf1f5 (.)
+=======
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+=======
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+>>>>>>> 399f46d3 (.)
+=======
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+>>>>>>> 17684f52 (.)
+=======
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 88ea7103 (.)
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+=======
+            $providersPath = $module->getPath().'/Providers';
+            if (! is_dir($providersPath)) {
+>>>>>>> a12f125f4a (.)
+=======
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+>>>>>>> b93ef594b4 (.)
+=======
+            $providersPath = $module->getPath().'/Providers';
+            if (! is_dir($providersPath)) {
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+>>>>>>> ca9324a4 (.)
+=======
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+=======
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+>>>>>>> 7131bd09 (.)
+=======
+            $providersPath = $module->getPath() . '/Providers';
+            if (!is_dir($providersPath)) {
+>>>>>>> 218dfed3 (.)
 >>>>>>> ed734516 (.)
 =======
             $providersPath = $module->getPath() . '/Providers';
@@ -106,6 +189,7 @@ class ListFilamentPanels extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -113,6 +197,7 @@ class ListFilamentPanels extends Command
 =======
 >>>>>>> 21348520 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
             $providersPath = $module->getPath() . '/Providers';
             if (!is_dir($providersPath)) {
@@ -128,9 +213,20 @@ class ListFilamentPanels extends Command
             if (!is_dir($providersPath)) {
             $providersPath = $module->getPath() . '/Providers';
             if (!is_dir($providersPath)) {
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 218dfed3 (.)
             $providersPath = $module->getPath() . '/Providers';
             if (!is_dir($providersPath)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 218dfed3 (.)
             $providersPath = $module->getPath() . '/Providers';
             if (!is_dir($providersPath)) {
             $providersPath = $module->getPath() . '/Providers';
@@ -276,7 +372,12 @@ class ListFilamentPanels extends Command
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                 continue;
             }
 
@@ -305,7 +406,10 @@ class ListFilamentPanels extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
                 ->filter(function ($file): bool {
                     return is_string($file) && str_ends_with($file, 'ServiceProvider.php');
                 });
@@ -413,7 +517,14 @@ class ListFilamentPanels extends Command
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                 ->filter(fn(string $file): bool => str_ends_with($file, 'ServiceProvider.php'));
 
             foreach ($providers as $provider) {
@@ -442,7 +553,10 @@ class ListFilamentPanels extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
+=======
+>>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
 =======
@@ -532,6 +646,7 @@ class ListFilamentPanels extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -574,7 +689,14 @@ class ListFilamentPanels extends Command
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
                     continue;
                 }
 

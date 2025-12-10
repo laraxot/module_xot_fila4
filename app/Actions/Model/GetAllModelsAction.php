@@ -39,6 +39,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -84,13 +85,21 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 use Spatie\QueueableAction\QueueableAction;
 =======
 use Nwidart\Modules\Module as ModuleInstance;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 >>>>>>> f1d4085 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 73eab74 (.)
 
 class GetAllModelsAction
 {
@@ -130,7 +139,10 @@ class GetAllModelsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
      *
      * @return array<int, class-string>
      */
@@ -219,7 +231,14 @@ class GetAllModelsAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
      */
     public function execute(): array
     {
@@ -279,6 +298,7 @@ class GetAllModelsAction
             $res = array_merge($res, $tmp);
             $res = array_merge($res, $tmp);
             $res = array_merge($res, $tmp);
+<<<<<<< HEAD
 =======
      *
      * @return array<string, string> Array associativo con snake_case come chiave e FQCN come valore
@@ -303,6 +323,8 @@ class GetAllModelsAction
                 $res[$key] = $value;
             }
 >>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
         }
 
         return $res;

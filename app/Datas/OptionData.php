@@ -31,6 +31,7 @@ class OptionData extends Data
         public readonly string $prefix = 'options_',
         public readonly array $autoload = ['site_name', 'site_description', 'site_logo'],
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 <<<<<<< HEAD
     ) {
@@ -40,7 +41,13 @@ class OptionData extends Data
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    ) {}
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
     /**
      * Create a new instance of OptionData with default values.

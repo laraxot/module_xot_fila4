@@ -5,6 +5,9 @@ declare(strict_types=1);
 return [
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -30,7 +33,12 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
     'backend' => [
         'access' => [
@@ -45,13 +53,21 @@ return [
                 'update_error' => 'Det uppstod ett fel då rollen skulle uppdateras. Försök igen.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             'users' => [
                 'cant_deactivate_self' => 'Du har inte rättighet att utföra denna handling mot ditt eget konto.',
                 'cant_delete_self' => 'Du kan inte radera ditt eget konto.',
@@ -71,13 +87,21 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -91,6 +115,7 @@ return [
                 'resent' => 'Ett nytt mail med länk för bekräftelse och aktivering har nu skickats till den angivna e-posten.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Ditt konto har inaktiverats.',
             'email_taken' => 'Det finns redan ett konto registrerat med den e-postadressen.',
 <<<<<<< HEAD
@@ -110,7 +135,14 @@ return [
             'email_taken' => 'Det finns redan ett konto registrerat med den e-postadressen.',
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            'deactivated' => 'Ditt konto har inaktiverats.',
+            'email_taken' => 'Det finns redan ett konto registrerat med den e-postadressen.',
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             'password' => [
                 'change_mismatch' => 'Det där var inte ditt gamla lösenord.',
             ],

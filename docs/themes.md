@@ -176,6 +176,9 @@ Per personalizzare un tema:
 ## Collegamenti tra versioni di themes.md
 * [themes.md](docs/rules/themes.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 * [themes.md](../../../Xot/docs/themes.md)
 * [themes.md](../../../Cms/docs/frontoffice/themes.md)
 
@@ -220,6 +223,11 @@ Per personalizzare un tema:
 
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
 

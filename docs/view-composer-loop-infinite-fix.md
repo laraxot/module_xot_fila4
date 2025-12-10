@@ -238,6 +238,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7131bd09 (.)
 =======
@@ -248,7 +249,14 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 - [XotComposer](../Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
@@ -349,6 +357,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 - [View Composer Laravel Docs](https://laravel.com/docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/docs/container)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
@@ -410,12 +419,19 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
 - [XotComposer](/var/www/html/base_saluteora/laravel/Modules/Xot/app/View/Composers/XotComposer.php)
 - [View Composer Laravel Docs](https://laravel.com/project_docs/views#view-composers)
 - [Container Resolution Laravel](https://laravel.com/project_docs/container)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
 ---
 
@@ -444,6 +460,7 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 **Pattern**: View Composer Loop Prevention 
 **Pattern**: View Composer Loop Prevention 
@@ -466,6 +483,8 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 **Pattern**: View Composer Loop Prevention 
 **Pattern**: View Composer Loop Prevention 
 **Pattern**: View Composer Loop Prevention 
+=======
+>>>>>>> 218dfed3 (.)
 **Pattern**: View Composer Loop Prevention 
 <<<<<<< HEAD
 **Pattern**: View Composer Loop Prevention 
@@ -532,4 +551,15 @@ grep -r "auth()->user()" Modules/*/View/Composers/
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+**Pattern**: View Composer Loop Prevention 
+=======
+>>>>>>> f1d4085 (.)
+=======
+**Pattern**: View Composer Loop Prevention 
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)

@@ -34,6 +34,7 @@ class XlsByModelClassAction
      * @param array<int, string> $excludes Campi da escludere
      * @param callable|null $callback Callback per manipolare i dati
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
      *
@@ -52,7 +53,13 @@ class XlsByModelClassAction
 =======
      * 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+     *
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
      * @return BinaryFileResponse
      */
     public function execute(
@@ -95,14 +102,52 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
         ?callable $callback = null,
         null|callable $callback = null,
         null|callable $callback = null,
         ?callable $callback = null,
         ?callable $callback = null,
+<<<<<<< HEAD
         ?callable $callback = null,
         ?callable $callback = null,
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        null|callable $callback = null,
+>>>>>>> ca9324a4 (.)
+=======
+        null|callable $callback = null,
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+        null|callable $callback = null,
+=======
+        ?callable $callback = null,
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
         null|callable $callback = null,
         ?callable $callback = null,
         null|callable $callback = null,
@@ -163,11 +208,20 @@ class XlsByModelClassAction
         ?callable $callback = null,
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+        null|callable $callback = null,
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     ): BinaryFileResponse {
         // Verifichiamo che la classe del modello esista
         Assert::classExists($modelClass);
         Assert::subclassOf($modelClass, Model::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -176,7 +230,13 @@ class XlsByModelClassAction
 =======
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         $with = $this->getWithByIncludes($includes);
 
         // Creiamo l'istanza del modello e costruiamo la query
@@ -184,6 +244,7 @@ class XlsByModelClassAction
         $model = app($modelClass);
         $query = $model->query()->with($with);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
         
@@ -191,7 +252,13 @@ class XlsByModelClassAction
 =======
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         // Applichiamo le condizioni where
         foreach ($where as $key => $value) {
             $query->where($key, $value);
@@ -201,6 +268,9 @@ class XlsByModelClassAction
         /** @var Collection $rows */
         $rows = $query->get();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 
         // Filtriamo i campi se sono specificati gli includes
         if ([] !== $includes) {
@@ -227,6 +297,7 @@ class XlsByModelClassAction
 
                 return $data;
             });
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -246,7 +317,12 @@ class XlsByModelClassAction
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         }
 
         // Nascondiamo i campi esclusi
@@ -347,9 +423,112 @@ class XlsByModelClassAction
 <<<<<<< HEAD
      * @param  array<int, string>  $includes  Campi da includere
      * @param  array<int, string>  $includes  Campi da includere
+<<<<<<< HEAD
+=======
+=======
+     * @param array<int, string> $includes Campi da includere
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+     *
+=======
+     * 
+>>>>>>> a12f125f4a (.)
+=======
+     *
+>>>>>>> b93ef594b4 (.)
+=======
+     * 
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 218dfed3 (.)
      * @param array<int, string> $includes Campi da includere
      *
      * 
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+     *
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+=======
+     * 
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+     *
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+     * @param array<int, string> $includes Campi da includere
+     *
+>>>>>>> 5a14301c (.)
+=======
+=======
+     * 
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
      *
      * 
      *
@@ -373,7 +552,15 @@ class XlsByModelClassAction
      * 
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+     *
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
      * @return array<int, string>
      */
     private function getWithByIncludes(array $includes): array
@@ -381,6 +568,7 @@ class XlsByModelClassAction
         $with = [];
         foreach ($includes as $include) {
             // Assicuriamo che $include sia una stringa
+<<<<<<< HEAD
 <<<<<<< HEAD
             $includeStr = is_string($include) ? $include : ((string) $include);
 
@@ -392,7 +580,14 @@ class XlsByModelClassAction
             $includeStr = is_string($include) ? $include : (string) $include;
             
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            $includeStr = is_string($include) ? $include : ((string) $include);
+
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             // Verifichiamo se contiene un punto (indicatore di relazione)
             if (!Str::contains($includeStr, '.')) {
             if (!Str::contains($includeStr, '.')) {
@@ -402,6 +597,7 @@ class XlsByModelClassAction
                 continue;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
             
@@ -409,7 +605,13 @@ class XlsByModelClassAction
 =======
             
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             // Estraiamo il nome della relazione (prima parte prima del punto)
             $parts = explode('.', $includeStr);
             if (!empty($parts[0])) {
@@ -442,10 +644,14 @@ class XlsByModelClassAction
      * @return string
      * @param string $modelClass Classe del modello
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
      * 
 >>>>>>> f1d4085 (.)
+=======
+     *
+>>>>>>> 73eab74 (.)
      * @return string
      * @param string $modelClass Classe del modello
      *
@@ -457,6 +663,7 @@ class XlsByModelClassAction
     private function getExportName(string $modelClass): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return sprintf(
             '%s %s.xlsx',
             Str::slug(class_basename($modelClass)),
@@ -465,6 +672,9 @@ class XlsByModelClassAction
 =======
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 218dfed3 (.)
         return sprintf('%s %s.xlsx', Str::slug(class_basename($modelClass)), Carbon::now()->format('d-m-Y His'));
 =======
         return sprintf(
@@ -473,5 +683,8 @@ class XlsByModelClassAction
             Carbon::now()->format('d-m-Y His'),
         );
 >>>>>>> f1d4085 (.)
+=======
+        return sprintf('%s %s.xlsx', Str::slug(class_basename($modelClass)), Carbon::now()->format('d-m-Y His'));
+>>>>>>> 73eab74 (.)
     }
 }

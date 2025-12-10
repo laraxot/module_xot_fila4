@@ -35,6 +35,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
@@ -102,7 +103,14 @@ use Exception;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
@@ -147,6 +155,7 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -170,10 +179,13 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 =======
 >>>>>>> 7131bd09 (.)
 =======
+>>>>>>> 88ea7103 (.)
+=======
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,7 +231,14 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 use Webmozart\Assert\Assert;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
@@ -274,6 +293,7 @@ class StreamDownloadPdfAction
         Assert::string($html, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
      * @param  string  $html  Contenuto HTML da convertire
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -382,7 +402,14 @@ class StreamDownloadPdfAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
      * @param string $html Contenuto HTML da convertire
      * @param string $filename Nome del file PDF
      * @return StreamedResponse
@@ -405,6 +432,7 @@ class StreamDownloadPdfAction
         Assert::string($html, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -455,7 +483,12 @@ class StreamDownloadPdfAction
 =======
 >>>>>>> 7131bd09 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 218dfed3 (.)
      * @param  string|null  $html  Contenuto HTML da convertire
      * @param  string|null  $view  Nome della vista Blade
      * @param  array<mixed, mixed>|null  $data  Dati da passare alla vista
@@ -602,6 +635,7 @@ class StreamDownloadPdfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ed734516 (.)
 =======
 =======
@@ -641,7 +675,14 @@ class StreamDownloadPdfAction
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [10, 10, 10, 10]);
         $html2pdf->writeHTML($html);
 
@@ -670,13 +711,29 @@ class StreamDownloadPdfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
         return response()->streamDownload(function () use ($html2pdf): void {
             $html2pdf->output();
         }, 'report-'.$filename);
         return response()->streamDownload(function () use ($html2pdf) {
             $html2pdf->output();
         }, 'report-' . $filename);
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         return response()->streamDownload(function () use ($html2pdf) {
             $html2pdf->output();
         }, 'report-' . $filename);
@@ -799,11 +856,37 @@ class StreamDownloadPdfAction
         }, 'report-' . $filename);
             'report-'.$filename
         );
+<<<<<<< HEAD
             'report-'.$filename
         );
         return response()->streamDownload(function () use ($html2pdf) {
             $html2pdf->output();
         }, 'report-' . $filename);
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+        return response()->streamDownload(function () use ($html2pdf) {
+            $html2pdf->output();
+        }, 'report-' . $filename);
+>>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 218dfed3 (.)
         return response()->streamDownload(function () use ($html2pdf) {
             $html2pdf->output();
         }, 'report-' . $filename);
@@ -916,6 +999,11 @@ class StreamDownloadPdfAction
         );
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     }
 }

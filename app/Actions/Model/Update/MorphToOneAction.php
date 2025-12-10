@@ -108,14 +108,52 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
         if (! isset($data['lang'])) {
         if (!isset($data['lang'])) {
         if (!isset($data['lang'])) {
         if (! isset($data['lang'])) {
         if (! isset($data['lang'])) {
+<<<<<<< HEAD
         if (! isset($data['lang'])) {
         if (! isset($data['lang'])) {
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> ca9324a4 (.)
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+        if (!isset($data['lang'])) {
+=======
+        if (! isset($data['lang'])) {
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
         if (!isset($data['lang'])) {
         if (! isset($data['lang'])) {
         if (!isset($data['lang'])) {
@@ -176,7 +214,15 @@ class MorphToOneAction
         if (! isset($data['lang'])) {
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+        if (!isset($data['lang'])) {
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
             $data['lang'] = App::getLocale();
         }
 
@@ -205,7 +251,10 @@ class MorphToOneAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> 218dfed3 (.)
         return array_filter($data, static fn ($value) => $value !== null);
         return array_filter($data, static fn($value) => null !== $value);
         return array_filter($data, static fn($value) => null !== $value);
@@ -230,9 +279,33 @@ class MorphToOneAction
         return array_filter($data, static fn ($value) => null !== $value);
         return array_filter($data, static fn($value) => null !== $value);
         return array_filter($data, static fn($value) => null !== $value);
+<<<<<<< HEAD
+=======
+>>>>>>> 5a14301c (.)
+=======
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         return array_filter($data, static fn($value) => null !== $value);
         return array_filter($data, static fn($value) => null !== $value);
         return array_filter($data, static fn ($value) => null !== $value);
+<<<<<<< HEAD
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
         return array_filter($data, static fn($value) => null !== $value);
         return array_filter($data, static fn($value) => null !== $value);
         return array_filter($data, static fn($value) => null !== $value);
@@ -286,6 +359,14 @@ class MorphToOneAction
         return array_filter($data, static fn ($value) => null !== $value);
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+        return array_filter($data, static fn($value) => null !== $value);
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
     }
 }

@@ -56,6 +56,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
 =======
@@ -116,7 +117,14 @@ return new class extends XotBaseMigration {
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         if (!$this->shouldRun()) {
         if (!$this->shouldRun()) {
         if (!$this->shouldRun()) {
@@ -180,6 +188,7 @@ return new class extends XotBaseMigration {
             $table->unique(['type', 'key_hash']); // For data integrity and upserts...
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
             return;
         }
         // -- CREATE --
@@ -196,6 +205,8 @@ return new class extends XotBaseMigration {
             };
             $table->mediumText('value');
 =======
+=======
+>>>>>>> 218dfed3 (.)
 =======
         if (! $this->shouldRun()) {
             return;
@@ -228,6 +239,11 @@ return new class extends XotBaseMigration {
         });
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     }
 };

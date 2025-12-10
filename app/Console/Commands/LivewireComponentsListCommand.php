@@ -35,6 +35,7 @@ class LivewireComponentsListCommand extends Command
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 <<<<<<< HEAD
     
@@ -127,6 +128,60 @@ class LivewireComponentsListCommand extends Command
 =======
 >>>>>>> 2f3197ab (.)
     
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ed734516 (.)
+=======
+=======
+    
+>>>>>>> 73eab74 (.)
+>>>>>>> 21348520 (.)
+=======
+>>>>>>> 3fbbf1f5 (.)
+=======
+>>>>>>> 399f46d3 (.)
+=======
+>>>>>>> ca9324a4 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 7131bd09 (.)
+=======
+=======
+    
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 17684f52 (.)
+=======
+>>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 5a14301c (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> ed734516 (.)
+=======
+=======
+>>>>>>> 218dfed3 (.)
     
     
     
@@ -164,7 +219,15 @@ class LivewireComponentsListCommand extends Command
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+    
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
 
     /**
      * Execute the console command.
@@ -174,6 +237,7 @@ class LivewireComponentsListCommand extends Command
         // Call to undefined method Livewire\LivewireManager::getComponents()
         // $registeredComponents = Livewire::getComponents();
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Stampa o manipola l'array di componenti come desiderato
         // print_r($registeredComponents);
 <<<<<<< HEAD
@@ -193,7 +257,14 @@ class LivewireComponentsListCommand extends Command
         // print_r($registeredComponents);
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+        // Stampa o manipola l'array di componenti come desiderato
+        // print_r($registeredComponents);
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         // dddx(get_class_methods(app(ComponentRegistry::class)));
         // $manifest = app(\Livewire\LivewireComponentsFinder::class)->getManifest();
         // dddx($manifest);
@@ -201,13 +272,21 @@ class LivewireComponentsListCommand extends Command
         // Ottieni tutti i componenti registrati
         // $registeredComponents = LivewireManager::getAliases();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         // Stampa o manipola l'array di componenti come desiderato
         // print_r($registeredComponents);
         // dddx(get_class_methods(app(LivewireManager::class)));

@@ -34,6 +34,7 @@ class FilemanagerData extends Data
         public readonly string $route_prefix = 'filemanager',
         public readonly bool $enable_crop = true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 <<<<<<< HEAD
     ) {
@@ -43,7 +44,13 @@ class FilemanagerData extends Data
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+    ) {}
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
     /**
      * Create a new instance of FilemanagerData with default values.

@@ -6,6 +6,9 @@ namespace Modules\Xot\Actions\Export;
 
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -39,6 +42,7 @@ use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -54,7 +58,12 @@ use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
 /**
  * Classe per l'esportazione di collezioni in formato Excel.
@@ -86,6 +95,7 @@ class ExportXlsByCollection
         null|string $transKey = null,
         ?string $transKey = null,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,7 +186,14 @@ class ExportXlsByCollection
 >>>>>>> ca9324a4 (.)
 =======
 >>>>>>> 7131bd09 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 88ea7103 (.)
+>>>>>>> 218dfed3 (.)
         null|string $transKey = null,
         array $fields = [],
     ): BinaryFileResponse {
@@ -187,6 +204,7 @@ class ExportXlsByCollection
             collection: $collection,
             transKey: $transKey,
             fields: $stringFields,
+<<<<<<< HEAD
 <<<<<<< HEAD
         ?string $transKey = null,
         array $fields = [],
@@ -208,6 +226,8 @@ class ExportXlsByCollection
             transKey: $transKey,
             fields: $stringFields
             fields: $stringFields,
+=======
+>>>>>>> 218dfed3 (.)
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -243,7 +263,12 @@ class ExportXlsByCollection
             fields: $stringFields,
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
         );
 
         return Excel::download($export, $filename);

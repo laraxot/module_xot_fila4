@@ -129,6 +129,9 @@ php artisan serve
 
 ## Collegamenti tra versioni di installation.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
 * [installation.md](../../../Xot/docs/filament/installation.md)
 * [installation.md](../../../Xot/docs/installation.md)
 * [installation.md](../../../Xot/docs/base/installation.md)
@@ -148,6 +151,7 @@ php artisan serve
 * [installation.md](../../../Cms/project_docs/installation.md)
 * [installation.md](../../../../Themes/One/project_docs/installation.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 * [installation.md](../../../Xot/project_docs/filament/installation.md)
 * [installation.md](../../../Xot/project_docs/installation.md)
@@ -197,6 +201,11 @@ php artisan serve
 
 
 
+=======
+>>>>>>> f1d4085 (.)
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
 =======
 >>>>>>> f1d4085 (.)

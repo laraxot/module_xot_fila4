@@ -5,6 +5,9 @@ declare(strict_types=1);
 return [
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73eab74 (.)
      * |--------------------------------------------------------------------------
      * | Exception Language Lines
      * |--------------------------------------------------------------------------
@@ -30,7 +33,12 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
 
     'backend' => [
         'access' => [
@@ -45,13 +53,21 @@ return [
                 'update_error' => 'Un problème est survenu lors de la mise à jour du rôle. Veuillez réessayer.',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             'users' => [
                 'cant_deactivate_self' => 'Vous ne pouvez pas vous désactiver vous-même.',
                 'cant_delete_self' => 'Vous ne pouvez pas vous supprimer vous-même.',
@@ -71,13 +87,21 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 218dfed3 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
     'frontend' => [
         'auth' => [
             'confirmation' => [
@@ -91,6 +115,7 @@ return [
                 'resent' => "Un nouvel email a été envoyé à l'adresse enregistrée.",
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'deactivated' => 'Votre compte a été désactivé.',
             'email_taken' => 'Cet email est déjà utilisé.',
 <<<<<<< HEAD
@@ -110,7 +135,14 @@ return [
             'email_taken' => 'Cet email est déjà utilisé.',
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+=======
+            'deactivated' => 'Votre compte a été désactivé.',
+            'email_taken' => 'Cet email est déjà utilisé.',
+>>>>>>> 73eab74 (.)
+>>>>>>> 218dfed3 (.)
             'password' => [
                 'change_mismatch' => "L'ancien mot de passe est invalide.",
             ],

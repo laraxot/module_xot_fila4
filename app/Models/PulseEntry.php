@@ -175,7 +175,27 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 5cf46378 (.)
  * @mixin \Eloquent
  */
-/** */
+/**
+ * @property string $id
+ * @property int $timestamp
+ * @property string $type
+ * @property string $key
+ * @property string $key_hash
+ * @property int|null $value
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Xot\Database\Factories\PulseEntryFactory factory($count = null, $state = [])
+ * @method static Builder<static>|PulseEntry newModelQuery()
+ * @method static Builder<static>|PulseEntry newQuery()
+ * @method static Builder<static>|PulseEntry query()
+ * @method static Builder<static>|PulseEntry whereId($value)
+ * @method static Builder<static>|PulseEntry whereKey($value)
+ * @method static Builder<static>|PulseEntry whereKeyHash($value)
+ * @method static Builder<static>|PulseEntry whereTimestamp($value)
+ * @method static Builder<static>|PulseEntry whereType($value)
+ * @method static Builder<static>|PulseEntry whereValue($value)
+ * @mixin \Eloquent
+ */
 class PulseEntry extends BaseModel
 {
     /** @var list<string> */

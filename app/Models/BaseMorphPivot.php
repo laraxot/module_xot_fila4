@@ -54,7 +54,7 @@ use Modules\Xot\Traits\Updater;
  * @property int|null $decimal_places
  * @property string|null $rounding_mode
  */
-abstract class BaseMorphPivot extends MorphPivot
+abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 {
     use Updater;
 

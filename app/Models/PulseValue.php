@@ -260,7 +260,27 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 71586de2 (.)
  * @mixin \Eloquent
  */
-/** */
+/**
+ * @property string $id
+ * @property int $timestamp
+ * @property string $type
+ * @property string $key
+ * @property string $key_hash
+ * @property string $value
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Xot\Database\Factories\PulseValueFactory factory($count = null, $state = [])
+ * @method static Builder<static>|PulseValue newModelQuery()
+ * @method static Builder<static>|PulseValue newQuery()
+ * @method static Builder<static>|PulseValue query()
+ * @method static Builder<static>|PulseValue whereId($value)
+ * @method static Builder<static>|PulseValue whereKey($value)
+ * @method static Builder<static>|PulseValue whereKeyHash($value)
+ * @method static Builder<static>|PulseValue whereTimestamp($value)
+ * @method static Builder<static>|PulseValue whereType($value)
+ * @method static Builder<static>|PulseValue whereValue($value)
+ * @mixin \Eloquent
+ */
 class PulseValue extends BaseModel
 {
     /** @var list<string> */

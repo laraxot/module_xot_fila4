@@ -7,6 +7,7 @@ namespace Modules\Xot\Actions;
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -21,11 +22,14 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\preg_match_all;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,12 +55,16 @@ use function Safe\preg_match_all;
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
 
 use function Safe\preg_match_all;
 
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,6 +110,9 @@ use function Safe\preg_match_all;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 /**
  * Parses a print page string into an array of page numbers.
  *
@@ -164,6 +175,7 @@ class ParsePrintPageStringAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $res = array_merge(
                     $res,
                     self::fromTo((int) $firstNumber, (int) $secondNumber)
@@ -190,11 +202,16 @@ class ParsePrintPageStringAction
 <<<<<<< HEAD
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
 =======
+=======
+                $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
+=======
+>>>>>>> dbce41cec (.)
                 $res = array_merge(
                     $res,
                     self::fromTo((int) $firstNumber, (int) $secondNumber)
                 );
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
 >>>>>>> 73eab74 (.)
@@ -205,6 +222,8 @@ class ParsePrintPageStringAction
                 $res = array_merge($res, self::fromTo((int) $firstNumber, (int) $secondNumber));
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
             }
         }
 

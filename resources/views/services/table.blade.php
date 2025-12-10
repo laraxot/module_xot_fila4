@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -14,11 +15,14 @@
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -36,6 +40,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 <table border="1" class="table table-bordered">
 @foreach ($rows as $row)
     <tr>
@@ -44,6 +52,7 @@ declare(strict_types=1);
         @endforeach
     </td>
 @endforeach
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 </table>
@@ -111,3 +120,9 @@ declare(strict_types=1);
 </table>
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+</table>
+=======
+</table>
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)

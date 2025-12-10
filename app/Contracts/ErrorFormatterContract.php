@@ -56,6 +56,7 @@ interface ErrorFormatterContract
     public function format(): array;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,3 +119,9 @@ interface ErrorFormatterContract
 }
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+}
+=======
+} 
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)

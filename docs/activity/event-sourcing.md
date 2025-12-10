@@ -49,9 +49,13 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
 =======
 >>>>>>> e769883c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> dbce41cec (.)
 * [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
 * [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
 <<<<<<< HEAD
@@ -213,7 +217,22 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 =======
 =======
 >>>>>>> 34579462 (.)
+<<<<<<< HEAD
 >>>>>>> e769883c (.)
+=======
+=======
+* [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
+>>>>>>> b3cc10f7 (.)
+=======
+* [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
+=======
+* [event-sourcing.md](../../../Xot/project_docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/project_docs/it/config/event-sourcing.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 
 
 ### Versione Incoming

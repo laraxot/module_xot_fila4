@@ -701,9 +701,13 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc1bbf15 (.)
 =======
 >>>>>>> e769883c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,11 +727,19 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> 34579462 (.)
+<<<<<<< HEAD
 >>>>>>> e769883c (.)
+=======
+=======
+>>>>>>> b3cc10f7 (.)
+=======
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 * [BOTTLENECKS.md](../../../Xot/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../User/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Media/docs/BOTTLENECKS.md)
 * [BOTTLENECKS.md](../../../Cms/docs/BOTTLENECKS.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -781,6 +793,17 @@ Implementando queste soluzioni, il modulo Xot potrà superare i principali colli
 >>>>>>> cc1bbf15 (.)
 =======
 >>>>>>> e769883c (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+* [BOTTLENECKS.md](../../../Xot/project_docs/BOTTLENECKS.md)
+* [BOTTLENECKS.md](../../../User/project_docs/BOTTLENECKS.md)
+* [BOTTLENECKS.md](../../../Media/project_docs/BOTTLENECKS.md)
+* [BOTTLENECKS.md](../../../Cms/project_docs/BOTTLENECKS.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 
 <<<<<<< HEAD
 =======

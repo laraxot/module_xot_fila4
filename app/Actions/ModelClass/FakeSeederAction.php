@@ -135,6 +135,7 @@ class FakeSeederAction
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -149,6 +150,8 @@ class FakeSeederAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
         if (
             !class_exists($modelClass) ||
                 !is_subclass_of($modelClass, Model::class) ||
@@ -168,6 +171,7 @@ class FakeSeederAction
         ) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -184,6 +188,11 @@ class FakeSeederAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+=======
+        if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class) || ! in_array(HasFactory::class, class_uses_recursive($modelClass))) {
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
             throw new InvalidArgumentException("Invalid model class or missing HasFactory trait: {$modelClass}");
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,6 +317,7 @@ class FakeSeederAction
         $title = sprintf('Created %d %s !', $count, $modelClass);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -322,10 +332,13 @@ class FakeSeederAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
         Notification::make()
             ->title($title)
             ->success()
             ->send();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -381,6 +394,11 @@ class FakeSeederAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+=======
+        Notification::make()->title($title)->success()->send();
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
     }
 
     /**
@@ -404,6 +422,7 @@ class FakeSeederAction
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -435,9 +454,13 @@ class FakeSeederAction
 =======
 >>>>>>> 5cf46378 (.)
 =======
+        app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
+>>>>>>> dbce41cec (.)
+=======
         app(self::class)
             ->onQueue()
             ->execute($modelClass, $qty - self::MAX_RECORDS);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -480,11 +503,15 @@ class FakeSeederAction
         app(self::class)->onQueue()->execute($modelClass, $qty - self::MAX_RECORDS);
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
     }
 
     private function getTableName(string $modelClass): string
     {
         Assert::classExists($modelClass, 'La classe del modello deve esistere');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -501,10 +528,13 @@ class FakeSeederAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 
         /** @var Model */
         $model = app($modelClass);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -550,11 +580,15 @@ class FakeSeederAction
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
         
         /** @var Model */
         $model = app($modelClass);
         
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -583,6 +617,8 @@ class FakeSeederAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
         return $model->getTable();
     }
 }

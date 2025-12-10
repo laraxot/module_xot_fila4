@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 /*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -23,6 +24,8 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
  * class ModelFactory extends Factory
  * {
  * protected $model = YourModel::class;
@@ -35,6 +38,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  * }
  * }
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,6 +65,9 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
 class ModelFactory extends Factory
 {
     protected $model = YourModel::class;
@@ -73,6 +80,7 @@ class ModelFactory extends Factory
     }
 }
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,3 +118,6 @@ class ModelFactory extends Factory
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)

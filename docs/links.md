@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -110,7 +111,16 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 # Links
 
 ## Documentazione Generale
@@ -385,6 +395,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -393,6 +404,13 @@
 <<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5e58b29b (.)
+=======
+>>>>>>> dbce41cec (.)
 # Collegamenti Documentazione Modulo Xot
 
 ## Documentazione Generica
@@ -413,10 +431,18 @@
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 
 ## Documentazione Tecnica
 - [Regole di Progetto](./rules/PROMPT_RULES.md)
@@ -428,12 +454,24 @@
 
 ## Collegamenti ai Moduli
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> dbce41cec (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 - [Cms](../Cms/docs/README.md) - Frontend
 - [UI](../UI/docs/README.md) - Componenti
 - [User](../User/docs/README.md) - Utenti e Permessi
@@ -474,7 +512,10 @@
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
+=======
+>>>>>>> dbce41cec (.)
 - [Cms](../Cms/project_docs/README.md) - Frontend
 - [UI](../UI/project_docs/README.md) - Componenti
 - [User](../User/project_docs/README.md) - Utenti e Permessi
@@ -488,8 +529,35 @@
 - [Gdpr](../Gdpr/project_docs/README.md) - GDPR
 - [Job](../Job/project_docs/README.md) - Jobs
 - [Chart](../Chart/project_docs/README.md) - Grafici 
+<<<<<<< HEAD
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+
+## Collegamenti tra versioni di LINKS.md
+* [LINKS.md](../../../Xot/project_docs/LINKS.md)
+* [LINKS.md](../../../User/project_docs/LINKS.md)
+* [LINKS.md](../../../UI/project_docs/LINKS.md)
+* [LINKS.md](../../../Cms/project_docs/LINKS.md)
+* [LINKS.md](../../../../Themes/One/project_docs/LINKS.md)
+
+
+## Collegamenti tra versioni di links.md
+* [links.md](../../Gdpr/project_docs/links.md)
+* [links.md](../../Notify/project_docs/links.md)
+* [links.md](ci/links.md)
+* [links.md](open_sources/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../User/project_docs/links.md)
+* [links.md](../../UI/project_docs/links.md)
+* [links.md](../../Lang/project_docs/links.md)
+* [links.md](../../Job/project_docs/links.md)
+* [links.md](../../Tenant/project_docs/it/links/links.md)
+* [links.md](../../Cms/project_docs/links.md)
+* [links.md](../../../Themes/One/project_docs/links.md)
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 
 ## Collegamenti tra versioni di LINKS.md
 * [LINKS.md](../../../Xot/project_docs/LINKS.md)

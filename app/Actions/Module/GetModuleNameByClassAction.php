@@ -17,6 +17,7 @@ class GetModuleNameByClassAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return is_string($module) ? $module : ((string) $module);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,5 +80,11 @@ class GetModuleNameByClassAction
         return is_string($module) ? $module : ((string) $module);
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        return is_string($module) ? $module : ((string) $module);
+=======
+        return is_string($module) ? $module : (string) $module;
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
     }
 }

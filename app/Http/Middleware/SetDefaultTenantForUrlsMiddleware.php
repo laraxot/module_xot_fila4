@@ -39,6 +39,7 @@ class SetDefaultTenantForUrlsMiddleware
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -53,6 +54,8 @@ class SetDefaultTenantForUrlsMiddleware
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
     public function handle(
         Request $request,
         Closure $next,
@@ -61,6 +64,7 @@ class SetDefaultTenantForUrlsMiddleware
             'tenant' => Filament::getTenant(),
             // 'referrer' => url()->previous(),
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93,6 +97,10 @@ class SetDefaultTenantForUrlsMiddleware
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+    public function handle(Request $request, Closure $next): Response|JsonResponse|\Symfony\Component\HttpFoundation\Response
+>>>>>>> dbce41cec (.)
     {
         URL::defaults(
             [
@@ -100,6 +108,7 @@ class SetDefaultTenantForUrlsMiddleware
                 // 'referrer' => url()->previous(),
             ]
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,6 +146,9 @@ class SetDefaultTenantForUrlsMiddleware
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 
         // @phpstan-ignore return.type
         return $next($request);

@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -12,6 +13,8 @@
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+=======
+>>>>>>> dbce41cec (.)
 declare(strict_types=1);
 
 
@@ -37,6 +40,7 @@ return [
      * | Ogni server ha un comando e argomenti specifici.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 return [
     /*
@@ -67,6 +71,8 @@ return [
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> dbce41cec (.)
 =======
 return [
     /*
@@ -79,6 +85,7 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -87,12 +94,15 @@ return [
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 
     'servers' => [
         'filesystem' => [
             'command' => 'npx',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -107,6 +117,8 @@ return [
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem'],
         ],
         'memory' => [
@@ -135,6 +147,7 @@ return [
      * | Ogni contesto definisce trait, relazioni e validazioni richieste.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,6 +200,9 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
             'args' => ['-y', '@modelcontextprotocol/server-filesystem']
         ],
         'memory' => [
@@ -210,6 +226,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
     /*
 =======
@@ -222,6 +239,9 @@ return [
 =======
     /*
 >>>>>>> 5cf46378 (.)
+=======
+    /*
+>>>>>>> dbce41cec (.)
     |--------------------------------------------------------------------------
     | MCP Model Contexts
     |--------------------------------------------------------------------------
@@ -230,6 +250,7 @@ return [
     | Ogni contesto definisce trait, relazioni e validazioni richieste.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,6 +299,9 @@ return [
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 
     'contexts' => [
         'User' => [
@@ -285,6 +309,7 @@ return [
             'traits' => [
                 'HasFactory',
                 'Notifiable',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -301,6 +326,8 @@ return [
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
                 'HasParent',
             ],
             'relationships' => [
@@ -309,6 +336,7 @@ return [
             ],
             'table' => 'users',
             'type_column' => 'type',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,6 +385,9 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
                 'HasParent'
             ],
             'relationships' => [
@@ -369,6 +400,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -398,6 +430,9 @@ return [
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
         ],
         'Doctor' => [
             'extends' => 'User',
@@ -405,6 +440,7 @@ return [
             'traits' => [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -470,12 +506,19 @@ return [
                 'HasParent',
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                'HasParent',
+=======
+                'HasParent'
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'medical_license',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'specialization',
             ],
 <<<<<<< HEAD
@@ -508,9 +551,14 @@ return [
 =======
 >>>>>>> 5cf46378 (.)
 =======
+                'specialization',
+            ],
+>>>>>>> dbce41cec (.)
+=======
                 'specialization'
             ]
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -562,6 +610,8 @@ return [
             ],
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
         ],
         'Patient' => [
             'extends' => 'User',
@@ -569,6 +619,7 @@ return [
             'traits' => [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'HasParent',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -634,10 +685,17 @@ return [
                 'HasParent',
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+                'HasParent',
+=======
+                'HasParent'
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
             ],
             'context' => 'medical',
             'validations' => [
                 'health_insurance',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -654,6 +712,8 @@ return [
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
                 'medical_history',
             ],
         ],
@@ -673,6 +733,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ],
 =======
 =======
@@ -701,11 +762,14 @@ return [
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 =======
+>>>>>>> dbce41cec (.)
+=======
                 'medical_history'
             ]
         ]
     ],
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -721,6 +785,9 @@ return [
 =======
     /*
 >>>>>>> 5cf46378 (.)
+=======
+    /*
+>>>>>>> dbce41cec (.)
     |--------------------------------------------------------------------------
     | MCP Validation Rules
     |--------------------------------------------------------------------------
@@ -732,6 +799,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -775,10 +843,14 @@ return [
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 
     'validation' => [
         'strict' => true,
         'log_violations' => true,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         'throw_exceptions' => false,
@@ -813,9 +885,14 @@ return [
 =======
 >>>>>>> 5cf46378 (.)
 =======
+        'throw_exceptions' => false,
+    ],
+>>>>>>> dbce41cec (.)
+=======
         'throw_exceptions' => false
     ]
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -867,4 +944,6 @@ return [
     ],
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 ];

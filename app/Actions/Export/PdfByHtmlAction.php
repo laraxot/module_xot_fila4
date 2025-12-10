@@ -41,6 +41,7 @@ class PdfByHtmlAction
             'download' => response()->download($path, $filename, $headers),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'content' => $html2pdf->output($path, 'S'), // D
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103,6 +104,12 @@ class PdfByHtmlAction
             'content' => $html2pdf->output($path, 'S'), // D
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+            'content' => $html2pdf->output($path, 'S'), // D
+=======
+            'content' => $html2pdf->output($path, 'S'),  // D
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
             default => $path,
         };
     }

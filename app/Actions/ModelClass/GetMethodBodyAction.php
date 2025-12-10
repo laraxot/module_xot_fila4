@@ -12,6 +12,7 @@ namespace Modules\Xot\Actions\ModelClass;
 use ReflectionClass;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21,11 +22,14 @@ use ReflectionClass;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 use function Safe\file;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 use function Safe\file;
 
@@ -79,12 +83,15 @@ use function Safe\file;
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> dbce41cec (.)
+=======
 use function Safe\file;
 
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -93,6 +100,8 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 class GetMethodBodyAction
 {
     use QueueableAction;

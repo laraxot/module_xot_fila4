@@ -117,6 +117,7 @@ class HasOneAction
         // Validate that the relationship is of type HasOne
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -131,11 +132,14 @@ class HasOneAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
         Assert::isInstanceOf(
             $relationDTO->rows,
             HasOne::class,
             sprintf('Expected HasOne relationship, got %s', get_debug_type($relationDTO->rows)),
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,10 +166,14 @@ class HasOneAction
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
         Assert::isInstanceOf($relationDTO->rows, HasOne::class, sprintf(
             'Expected HasOne relationship, got %s',
             get_debug_type($relationDTO->rows)
         ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,6 +211,9 @@ class HasOneAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 
         /** @var HasOne $relation */
         $relation = $relationDTO->rows;

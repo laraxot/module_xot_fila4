@@ -1657,6 +1657,7 @@ test('it can manage rounding mode', function (): void {
 =======
 namespace Modules\Xot\Tests\Feature;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\Pivot;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Xot\Models\BaseMorphPivot;
@@ -1664,17 +1665,23 @@ use Modules\Xot\Models\BaseMorphPivot;
 use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e58b29b (.)
 =======
 use Modules\Xot\Models\BaseMorphPivot;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Database\Eloquent\Relations\Pivot;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
 
 class BaseMorphPivotBusinessLogicTest extends TestCase
 {

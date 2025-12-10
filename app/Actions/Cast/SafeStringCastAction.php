@@ -8,6 +8,7 @@ namespace Modules\Xot\Actions\Cast;
  * Action per convertire in modo sicuro un valore mixed in string.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,6 +71,12 @@ namespace Modules\Xot\Actions\Cast;
  *
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+ *
+=======
+ * 
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
  * Questa action centralizza la logica di cast sicuro per evitare duplicazioni
  * di codice (principio DRY) e garantire comportamento consistente in tutto il codebase.
  */
@@ -99,6 +106,7 @@ class SafeStringCastAction
         /*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -113,6 +121,8 @@ class SafeStringCastAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
          * if ($value instanceof \BackedEnum) {
          * return $value->value;
          * }
@@ -140,6 +150,7 @@ class SafeStringCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2f3197ab (.)
@@ -159,11 +170,15 @@ class SafeStringCastAction
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
         if ($value instanceof \BackedEnum) {
             return $value->value;
         }
             */
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +235,11 @@ class SafeStringCastAction
             return '';
         }
 >>>>>>> 5cf46378 (.)
+=======
+        if (is_null($value)) {
+            return '';
+        }
+>>>>>>> dbce41cec (.)
         
         if (is_bool($value)) {
             return $value ? '1' : '0';
@@ -233,6 +253,7 @@ class SafeStringCastAction
         return '';
     }
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,6 +287,9 @@ class SafeStringCastAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
     /**
      * Metodo statico di convenienza per chiamate dirette.
      *

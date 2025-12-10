@@ -112,6 +112,7 @@ interface ModelContract
     public function save(array $options = []);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -126,6 +127,8 @@ interface ModelContract
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 
     /**
      * Convert the model instance to an array representation.
@@ -139,6 +142,7 @@ interface ModelContract
      * public function forceCreate(array $attributes);
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     /*
          * Save a new model and return the instance. Allow mass-assignment.
          *
@@ -161,6 +165,8 @@ interface ModelContract
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> dbce41cec (.)
+=======
     /*
          * Save a new model and return the instance. Allow mass-assignment.
          *
@@ -169,6 +175,7 @@ interface ModelContract
         public function forceCreate(array $attributes);
         */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -177,6 +184,8 @@ interface ModelContract
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 
     /**
      * Convert the model instance to an array.
@@ -231,6 +240,7 @@ interface ModelContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public function where($column, $operator = null, $value = null, $boolean = 'and');
     */
@@ -251,21 +261,27 @@ interface ModelContract
 >>>>>>> 7468a7d2 (.)
 =======
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
      */
 =======
+=======
+>>>>>>> dbce41cec (.)
 
     public function where($column, $operator = null, $value = null, $boolean = 'and');
     */
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
      *
      * public function where($column, $operator = null, $value = null, $boolean = 'and');
@@ -280,6 +296,8 @@ interface ModelContract
      */
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
     /*
      * Execute the query and get the first result or throw an exception.
      *
@@ -287,6 +305,7 @@ interface ModelContract
      * @return \Illuminate\Database\Eloquent\Model|static
      *
      * @throws \Illuminate\Database\Eloquent\ModelNotFoundException<\Illuminate\Database\Eloquent\Model>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      *
@@ -327,9 +346,15 @@ interface ModelContract
 =======
 >>>>>>> 5cf46378 (.)
 =======
+     *
+     * public function firstOrFail($columns = ['*']);
+     */
+>>>>>>> dbce41cec (.)
+=======
 
     public function firstOrFail($columns = ['*']);
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -381,4 +406,7 @@ interface ModelContract
      */
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 }

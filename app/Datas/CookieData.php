@@ -32,6 +32,7 @@ class CookieData extends Data
         public readonly string $banner_style = 'bottom',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,9 +49,13 @@ class CookieData extends Data
     ) {}
 >>>>>>> 7468a7d2 (.)
 =======
+    ) {}
+>>>>>>> dbce41cec (.)
+=======
     ) {
     }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
@@ -103,6 +108,8 @@ class CookieData extends Data
     ) {}
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 
     /**
      * Create a new instance of CookieData with default values.

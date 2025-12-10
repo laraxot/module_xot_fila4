@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -14,11 +15,14 @@
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -36,6 +40,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 @extends('pub_theme::layouts.app')
 @section('title', 'Web Routes List')
 @section('content')
@@ -87,6 +95,7 @@ declare(strict_types=1);
         });
     });
 </script>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 @endsection
@@ -154,3 +163,9 @@ declare(strict_types=1);
 @endsection
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+@endsection
+=======
+@endsection
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)

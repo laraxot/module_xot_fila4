@@ -45,6 +45,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -116,6 +117,7 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -123,10 +125,19 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 =======
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
+use Spatie\QueueableAction\QueueableAction;
+=======
+>>>>>>> dbce41cec (.)
 use Nwidart\Modules\Module as ModuleInstance;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 73eab74 (.)
@@ -137,6 +148,8 @@ use Spatie\QueueableAction\QueueableAction;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 
 class GetAllModelsAction
 {
@@ -194,7 +207,11 @@ class GetAllModelsAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> dbce41cec (.)
 =======
 =======
 =======
@@ -213,7 +230,14 @@ class GetAllModelsAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
      */
     public function execute(): array
     {
@@ -228,7 +252,11 @@ class GetAllModelsAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> dbce41cec (.)
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -452,6 +480,23 @@ class GetAllModelsAction
 >>>>>>> 5cf46378 (.)
             $res = array_merge($res, $tmp);
 =======
+=======
+=======
+     *
+     * @return array<string, string> Array associativo con snake_case come chiave e FQCN come valore
+     */
+    public function execute(): array
+    {
+        /** @var array<string, string> $res */
+        $res = [];
+        $modules = Module::all();
+        foreach ($modules as $module) {
+            Assert::isInstanceOf($module, ModuleInstance::class, 'Module must be instance of ModuleInstance');
+            $moduleName = $module->getName();
+            Assert::string($moduleName, 'Module name must be a string');
+
+            $tmp = app(GetAllModelsByModuleNameAction::class)->execute($moduleName);
+>>>>>>> 5e58b29b (.)
             Assert::isArray($tmp, 'GetAllModelsByModuleNameAction must return array');
 
             // Type-safe merge per mantenere array<string, string>
@@ -461,6 +506,7 @@ class GetAllModelsAction
                 $res[$key] = $value;
             }
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -473,7 +519,14 @@ class GetAllModelsAction
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
         }
 
         return $res;

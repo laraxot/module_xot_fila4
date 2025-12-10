@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -14,11 +15,14 @@
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -36,6 +40,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 <x-filament::page>
     <div class="space-y-6">
         <div class="p-6 bg-white rounded-xl shadow dark:bg-gray-800">
@@ -74,6 +82,7 @@ declare(strict_types=1);
     </script>
     @endscript
     --}}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 </x-filament::page>
@@ -141,3 +150,9 @@ declare(strict_types=1);
 </x-filament::page>
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+</x-filament::page>
+=======
+</x-filament::page> 
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)

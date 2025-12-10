@@ -36,12 +36,14 @@ Durante lo sviluppo è stata identificata una **violazione architetturale critic
 
 ```php
 // ❌ VIOLAZIONE CRITICA
+<<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\User;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,6 +77,7 @@ use Modules\<nome modulo>\Models\User;
 =======
 >>>>>>> 472bd9dc (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 62cc8443 (.)
 use Modules\SaluteOra\Models\User;
 use Modules\<nome modulo>\Models\User;
@@ -88,6 +91,14 @@ use Modules\SaluteOra\Models\User;
 =======
 >>>>>>> 3bf39332 (.)
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 3bf39332 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 use Modules\SaluteOra\Models\User;
 =======
 >>>>>>> a5dccfe (.)
@@ -265,6 +276,7 @@ $user = User::factory()->create([...]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
@@ -280,6 +292,9 @@ $user = User::factory()->create([...]);
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> dbce41cec (.)
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,6 +379,15 @@ $user = User::factory()->create([...]);
 >>>>>>> a67e542f (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 1. **Accoppiamento Stretto**: Cms conosce SaluteOra → viola principio di disaccoppiamento
 1. **Accoppiamento Stretto**: Cms conosce  → viola principio di disaccoppiamento
 1. **Accoppiamento Stretto**: Cms conosce <nome progetto> → viola principio di disaccoppiamento
@@ -511,6 +535,7 @@ $user = $userClass::factory()->create($attributes);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
@@ -526,6 +551,9 @@ $user = $userClass::factory()->create($attributes);
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> dbce41cec (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -626,6 +654,23 @@ $user = $userClass::factory()->create($attributes);
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+        'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+>>>>>>> 5a14301c (.)
+=======
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+>>>>>>> 71f31700 (.)
+=======
+        'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
+=======
+>>>>>>> dbce41cec (.)
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
         'model' => \Modules\SaluteOra\Models\User::class, // CONFIGURABILE!
         'model' => \Modules\<nome modulo>\Models\User::class, // CONFIGURABILE!
@@ -802,11 +847,15 @@ public function processUser(UserContract $user): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> dbce41cec (.)
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 =======
@@ -900,7 +949,18 @@ public function processUser(\Modules\<nome modulo>\Models\User $user): void
 =======
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+>>>>>>> 6dcebf8a (.)
+=======
+public function processUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 public function processUser(\Modules\SaluteOra\Models\User $user): void
 public function processUser(\Modules\<nome modulo>\Models\User $user): void
 public function processUser(\Modules\SaluteOra\Models\User $user): void
@@ -1156,6 +1216,7 @@ class ChangeTypeCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
@@ -1182,6 +1243,9 @@ use Modules\<nome modulo>\Models\Doctor;
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> dbce41cec (.)
 use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
@@ -1293,6 +1357,7 @@ use Modules\<nome modulo>\Models\User;
 use Modules\<nome modulo>\Models\Patient;
 use Modules\<nome modulo>\Models\Doctor;
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
@@ -1343,6 +1408,20 @@ use Modules\SaluteOra\Models\Doctor;
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
+=======
+=======
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Doctor;
+>>>>>>> 6dcebf8a (.)
+=======
+use Modules\<nome modulo>\Models\User;
+use Modules\<nome modulo>\Models\Patient;
+use Modules\<nome modulo>\Models\Doctor;
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 use Modules\SaluteOra\Models\Doctor;
@@ -1538,11 +1617,15 @@ use Modules\Xot\Datas\XotData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> dbce41cec (.)
 $user = \Modules\<nome modulo>\Models\User::find($id);
 <<<<<<< HEAD
 =======
@@ -1636,7 +1719,18 @@ $user = \Modules\<nome modulo>\Models\User::find($id);
 =======
 $user = \Modules\<nome modulo>\Models\User::find($id);
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+$user = \Modules\<nome modulo>\Models\User::find($id);
+>>>>>>> 6dcebf8a (.)
+=======
+$user = \Modules\<nome modulo>\Models\User::find($id);
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 $user = \Modules\SaluteOra\Models\User::find($id);
 $user = \Modules\<nome modulo>\Models\User::find($id);
 $user = \Modules\SaluteOra\Models\User::find($id);
@@ -1770,11 +1864,15 @@ $user = $userClass::find($id);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f3197ab (.)
 =======
 >>>>>>> ce6fc085 (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> dbce41cec (.)
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 <<<<<<< HEAD
 =======
@@ -1868,7 +1966,18 @@ function updateUser(\Modules\<nome modulo>\Models\User $user): void
 =======
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 >>>>>>> 3310e9c6 (.)
+<<<<<<< HEAD
 >>>>>>> a67e542f (.)
+=======
+=======
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+>>>>>>> 6dcebf8a (.)
+=======
+function updateUser(\Modules\<nome modulo>\Models\User $user): void
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 function updateUser(\Modules\SaluteOra\Models\User $user): void
 function updateUser(\Modules\<nome modulo>\Models\User $user): void
 function updateUser(\Modules\SaluteOra\Models\User $user): void
@@ -2090,6 +2199,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
 - [Testing Strategy](../../SaluteOra/docs/testing/real-data-testing-strategy.md)
@@ -2109,6 +2219,8 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 >>>>>>> a67e542f (.)
 =======
 >>>>>>> 7468a7d2 (.)
+=======
+>>>>>>> dbce41cec (.)
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
 <<<<<<< HEAD
@@ -2200,6 +2312,13 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 - [Cms Architecture](../../Cms/docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/docs/traits_complete_guide.md)
 - [Testing Strategy](../../<nome modulo>/docs/testing/real-data-testing-strategy.md)
@@ -2210,13 +2329,19 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+>>>>>>> dbce41cec (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 5e58b29b (.)
 =======
 - [Cms Architecture](../../Cms/project_docs/architecture-xotdata-pattern.md)
 - [User Module Traits](../../User/project_docs/traits_complete_guide.md)
 - [Testing Strategy](../../SaluteOra/project_docs/testing/real-data-testing-strategy.md)
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2347,7 +2472,12 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 - [Testing Strategy](../../../docs/testing/real-data-testing-strategy.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+<<<<<<< HEAD
 >>>>>>> ab5b3a4f (.)
+=======
+=======
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)
 
 ---
 
@@ -2356,6 +2486,7 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2610,4 +2741,20 @@ grep -r "function.*\\\Modules\\\.*\\\Models\\\User" --include="*.php" ./
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+<<<<<<< HEAD
 >>>>>>> 7468a7d2 (.)
+=======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 53d6a6ba (.)
+=======
+>>>>>>> 71586de2 (.)
+=======
+**Responsabile**: Team Architettura Laraxot 
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> 5e58b29b (.)
+>>>>>>> dbce41cec (.)

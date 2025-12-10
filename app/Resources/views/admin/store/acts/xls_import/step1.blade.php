@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -14,11 +15,14 @@
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -36,6 +40,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 @extends('adm_theme::layouts.app')
 @section('content')
 PASSO 1
@@ -60,6 +68,7 @@ PASSO 1
 </form>
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 @endsection
@@ -126,3 +135,9 @@ PASSO 1
 @endsection
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+@endsection
+=======
+@endsection
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)

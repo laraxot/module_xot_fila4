@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -12,6 +13,8 @@
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+=======
+>>>>>>> dbce41cec (.)
 declare(strict_types=1);
 
 
@@ -37,6 +40,7 @@ return [
      * | Using these constants instead of hardcoded paths helps prevent path-related errors.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 return [
     /*
@@ -67,6 +71,8 @@ return [
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> dbce41cec (.)
 =======
 return [
     /*
@@ -79,6 +85,7 @@ return [
     |
     */
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -87,6 +94,8 @@ return [
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
     'paths' => [
         'base' => '/var/www/html/exa/base_orisbroker_fila3',
         'laravel' => '/var/www/html/exa/base_orisbroker_fila3/laravel',
@@ -95,6 +104,7 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -109,6 +119,8 @@ return [
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
     /*
      * |--------------------------------------------------------------------------
      * | Module Paths
@@ -118,6 +130,7 @@ return [
      * | and should be used when referencing module-specific directories.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,6 +156,9 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -153,6 +169,7 @@ return [
     | and should be used when referencing module-specific directories.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,6 +219,9 @@ return [
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
     'module_paths' => [
         'xot' => '/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot',
         'broker' => '/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Broker',

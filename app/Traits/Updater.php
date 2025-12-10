@@ -102,6 +102,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -198,6 +199,7 @@ trait Updater
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
 =======
@@ -205,12 +207,21 @@ trait Updater
 <<<<<<< HEAD
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
 =======
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
+        return $this->belongsTo($profileClass, 'created_by', 'user_id');
+=======
+>>>>>>> dbce41cec (.)
         return $this->belongsTo(
             $profileClass,
             'created_by',
             'user_id'
         );
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
 >>>>>>> 73eab74 (.)
@@ -221,6 +232,8 @@ trait Updater
         return $this->belongsTo($profileClass, 'created_by', 'user_id');
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
     }
 
     /**
@@ -277,6 +290,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -376,6 +390,7 @@ trait Updater
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> b7afadf9 (.)
+<<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
 =======
@@ -383,12 +398,21 @@ trait Updater
 <<<<<<< HEAD
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
 =======
+=======
+=======
+>>>>>>> 71586de2 (.)
+=======
+>>>>>>> 5e58b29b (.)
+        return $this->belongsTo($profileClass, 'updated_by', 'user_id');
+=======
+>>>>>>> dbce41cec (.)
         return $this->belongsTo(
             $profileClass,
             'updated_by',
             'user_id'
         );
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
 >>>>>>> 73eab74 (.)
@@ -399,6 +423,8 @@ trait Updater
         return $this->belongsTo($profileClass, 'updated_by', 'user_id');
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
     }
 
     /**
@@ -419,6 +445,7 @@ trait Updater
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -433,6 +460,8 @@ trait Updater
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
         static::creating(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
 
@@ -452,6 +481,7 @@ trait Updater
                 $model->setAttribute('updated_by', authId());
             }
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,6 +545,9 @@ trait Updater
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
         static::creating(
             static function (Model $model): void {
                 Assert::isArray($attributes = $model->getAttributes());
@@ -542,6 +575,7 @@ trait Updater
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 <<<<<<< HEAD
@@ -571,10 +605,14 @@ trait Updater
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
         /*
          * Deleting a model is slightly different than creating or deleting.
          * For deletes we need to save the model first with the deleted_by field
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -591,6 +629,8 @@ trait Updater
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
         static::deleting(static function (Model $model): void {
             Assert::isArray($attributes = $model->getAttributes());
             Assert::isArray($attributes = $model->attributes);
@@ -613,6 +653,7 @@ trait Updater
 }
 
 // end trait Updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -668,6 +709,9 @@ trait Updater
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
         static::deleting(
             static function (Model $model): void {
                 Assert::isArray($attributes = $model->attributes);
@@ -679,6 +723,7 @@ trait Updater
         );
     }
 }// end trait Updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -712,3 +757,6 @@ trait Updater
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)

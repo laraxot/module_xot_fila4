@@ -72,6 +72,7 @@ class SanitizeAction
 use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -86,10 +87,13 @@ use Illuminate\Support\Str;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,11 +119,15 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
 
 use function Safe\preg_replace;
 
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +172,9 @@ use function Safe\preg_replace;
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 class SanitizeAction
 {
     use QueueableAction;
@@ -614,6 +625,7 @@ class SanitizeAction
 /*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -628,6 +640,8 @@ class SanitizeAction
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
  * $string = trim($item);
  *
  *
@@ -640,6 +654,7 @@ class SanitizeAction
  * // Additional removal of non-printable characters
  * $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -666,6 +681,9 @@ class SanitizeAction
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
 $string = trim($item);
 
 
@@ -678,6 +696,7 @@ $string = strip_tags($string);
 // Additional removal of non-printable characters
 $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -715,3 +734,6 @@ $string = preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)

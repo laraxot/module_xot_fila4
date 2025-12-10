@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -14,11 +15,14 @@
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -36,6 +40,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 <div
     x-data="{
         output: @entangle('output'),
@@ -94,6 +102,7 @@ declare(strict_types=1);
 .animate-blink {
     animation: blink 1s infinite;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 </style>
@@ -161,3 +170,9 @@ declare(strict_types=1);
 </style>
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+</style>
+=======
+</style> 
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)

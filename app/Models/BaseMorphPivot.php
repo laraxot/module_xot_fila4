@@ -89,6 +89,7 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
         'id',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'post_id',
         'post_type',
 <<<<<<< HEAD
@@ -162,6 +163,13 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
         'post_type',
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+        'post_id',
+        'post_type',
+=======
+        'post_id', 'post_type',
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
         'related_type',
         'user_id',
         'note',
@@ -173,6 +181,7 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
         return [
             'id' => 'string', // must be string else primary key of related model will be typed as int
             'uuid' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,12 +223,18 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 =======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> dbce41cec (.)
+=======
 
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 
 >>>>>>> f1d4085 (.)
+<<<<<<< HEAD
 =======
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -234,6 +249,8 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
             'deleted_at' => 'datetime',
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

@@ -25,6 +25,7 @@ class RenderContextNavigation
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -39,6 +40,8 @@ class RenderContextNavigation
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
     public function execute(string $module, string $_context): void
     {
         Filament::registerRenderHook(
@@ -71,6 +74,7 @@ class RenderContextNavigation
          * fn (): string => Blade::render('@livewire(\'switchable-team\')'),
          * );
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,6 +122,9 @@ class RenderContextNavigation
 <<<<<<< HEAD
 =======
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> dbce41cec (.)
     public function execute(string $module, string $context): void
     {
         Filament::registerRenderHook(
@@ -128,6 +135,7 @@ class RenderContextNavigation
             'sidebar.end',
             static fn (): string => Blade::render('<a class="p-2 px-6 bg-primary-100 font-black w-full inline-flex space-x-2" href="'.route('filament.pages.dashboard').'"><x-heroicon-o-arrow-left class="w-5"/> Main Module</a>')
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,11 +151,15 @@ class RenderContextNavigation
 =======
         /* -- esiste in filament 3
 >>>>>>> 5cf46378 (.)
+=======
+        /* -- esiste in filament 3
+>>>>>>> dbce41cec (.)
         Filament::registerRenderHook(
             'user-menu.start',
             fn (): string => Blade::render('@livewire(\'switchable-team\')'),
         );
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,5 +205,8 @@ class RenderContextNavigation
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
     }
 }

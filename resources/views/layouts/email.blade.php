@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 5cf46378 (.)
@@ -14,11 +15,14 @@
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+>>>>>>> dbce41cec (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -36,6 +40,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+=======
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)
 <!DOCTYPE html>
 <html>
 <head>
@@ -82,6 +90,7 @@ declare(strict_types=1);
         @yield('content')
     </div>
 </body>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 </html>
@@ -149,3 +158,9 @@ declare(strict_types=1);
 </html>
 >>>>>>> 300ef70 (.)
 >>>>>>> 5cf46378 (.)
+=======
+</html>
+=======
+</html> 
+>>>>>>> f1d4085 (.)
+>>>>>>> dbce41cec (.)

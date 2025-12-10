@@ -10,6 +10,7 @@ namespace Modules\Xot\Exceptions;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Configuration\Exceptions;
 =======
 <<<<<<< HEAD
@@ -21,6 +22,9 @@ use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Exceptions;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Illuminate\Foundation\Configuration\Exceptions;
+>>>>>>> 300ef70 (.)
 use Illuminate\Http\Request;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49,6 +53,7 @@ use Illuminate\Support\Facades\View;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Actions\View\GetViewPathAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class ExceptionHandler
@@ -70,6 +75,11 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 class ExceptionHandler
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Symfony\Component\HttpKernel\Exception\HttpException;
+
+class ExceptionHandler
+>>>>>>> 300ef70 (.)
 {
     /**
      * Configura la gestione delle eccezioni.
@@ -104,6 +114,7 @@ class ExceptionHandler
     public static function handles(Exceptions $exceptions): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $exceptions->render(function (HttpException $e, Request $request) {
             $status_code = $e->getStatusCode();
 =======
@@ -121,11 +132,16 @@ class ExceptionHandler
             $status_code = $e->getStatusCode();
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        $exceptions->render(function (HttpException $e, Request $request) {
+            $status_code = $e->getStatusCode();
+>>>>>>> 300ef70 (.)
             if ($request->wantsJson()) {
                 return response()->json([
                     'message' => $e->getMessage(),
                 ], $status_code);
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -133,6 +149,8 @@ class ExceptionHandler
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +164,7 @@ class ExceptionHandler
                 );
             }
             $view_params = ['exception' => $e];
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -482,6 +501,7 @@ class ExceptionHandler
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -530,6 +550,10 @@ class ExceptionHandler
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
             return response()->view($view, $view_params, $status_code);
         });
     }

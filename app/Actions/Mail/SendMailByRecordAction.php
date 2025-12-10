@@ -59,6 +59,7 @@ use InvalidArgumentException;
 >>>>>>> ab8cc3f3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Relations\Relation;
 <<<<<<< HEAD
@@ -84,6 +85,7 @@ use InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -100,6 +102,10 @@ use InvalidArgumentException;
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailable;
 use Illuminate\Support\Facades\Mail;
@@ -212,6 +218,7 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 399f46d3 (.)
@@ -225,15 +232,20 @@ class SendMailByRecordAction
 =======
 =======
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
      * @param Model  $record    Il record da utilizzare come dati per la mail
      * @param string $mailClass La classe Mailable da utilizzare
      */
     public function execute(Model $record, string $mailClass): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -427,6 +439,8 @@ class SendMailByRecordAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         Assert::classExists($mailClass);
         // Expected an implementation of "Illuminate\Mail\Mailable". Got: "Modules\Performance\Mail\SchedaMail"
         // Assert::implementsInterface($mailClass, Mailable::class);
@@ -468,6 +482,7 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -476,6 +491,8 @@ class SendMailByRecordAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
         // Mail::send($mail);
         // dddx(Mail::to($record)->send(new $mailClass($record)));
         // $res=Mail::to('marco.sottana@gmail.com')->send($mail);
@@ -834,16 +851,20 @@ class SendMailByRecordAction
 =======
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
         //Mail::send($mail);
         //dddx(Mail::to($record)->send(new $mailClass($record)));
         //$res=Mail::to('marco.sottana@gmail.com')->send($mail);
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
@@ -899,6 +920,8 @@ class SendMailByRecordAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 
         // Verifica che il model abbia le proprietà/metodi necessari
         if (($record->email ?? null) === null || empty($record->email)) {
@@ -954,21 +977,29 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         if (!method_exists($record, 'option')) {
             throw new InvalidArgumentException('Model must implement option method');
         }
@@ -977,6 +1008,9 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -1001,6 +1035,8 @@ class SendMailByRecordAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             throw new InvalidArgumentException('Model must implement myLogs method');
         }
 
@@ -1208,6 +1244,7 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -1317,11 +1354,14 @@ class SendMailByRecordAction
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1366,10 +1406,15 @@ class SendMailByRecordAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
                 app(PdfByModelAction::class)->execute(
                     model: $record,
                     out: 'path',
                 ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1379,6 +1424,8 @@ class SendMailByRecordAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             ],
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1425,11 +1472,22 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 71586de2 (.)
 =======
+        $myLogs = $record->myLogs();
+        if (is_object($myLogs) && method_exists($myLogs, 'create')) {
+            $myLogs->create([
+                'act' => 'sendMail',
+                'handle' => authId(),
+            ]);
+        }
+>>>>>>> 6dcebf8a (.)
+=======
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -1443,6 +1501,10 @@ class SendMailByRecordAction
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         $record
             ->myLogs()
             ->create([
@@ -1495,6 +1557,7 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -1545,6 +1608,8 @@ class SendMailByRecordAction
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
         // Type assertion: myLogs() deve restituire una relazione che supporta create()
         $logsRelation = $record->myLogs();
@@ -1812,6 +1877,7 @@ class SendMailByRecordAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -1857,5 +1923,9 @@ class SendMailByRecordAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
     }
 }

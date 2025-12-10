@@ -119,6 +119,7 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -356,6 +357,8 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 >>>>>>> 88ea7103 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
         $this->loadViewsFrom($this->module_dir.'/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir.'/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir.'/../resources/lang');
@@ -509,16 +512,20 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 =======
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
         $this->loadViewsFrom($this->module_dir . '/../resources/views', $this->nameLower);
         $this->loadTranslationsFrom($this->module_dir . '/../resources/lang', $this->nameLower);
         $this->loadJsonTranslationsFrom($this->module_dir . '/../resources/lang');
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
@@ -574,6 +581,8 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
         $this->registerBladeComponents();
     }
 
@@ -628,6 +637,7 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
 =======
@@ -791,6 +801,8 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
 >>>>>>> 7131bd09 (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
         $this->app->register($this->module_ns.'\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns.'\Providers\EventServiceProvider');
 =======
@@ -930,15 +942,19 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 =======
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
         $this->app->register($this->module_ns . '\Providers\RouteServiceProvider');
         $this->app->register($this->module_ns . '\Providers\EventServiceProvider');
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
@@ -987,6 +1003,8 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
     }
 
     protected function registerBladeComponents(): void
@@ -1040,16 +1058,20 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
@@ -1089,6 +1111,10 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         $componentNamespace = $this->module_ns . '\View\Components';
         Blade::componentNamespace($componentNamespace, $this->nameLower);
 
@@ -1110,10 +1136,13 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -1361,4 +1390,9 @@ abstract class XotBaseThemeServiceProvider extends ServiceProvider
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)

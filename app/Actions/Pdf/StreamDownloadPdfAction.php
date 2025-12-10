@@ -54,6 +54,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -62,6 +63,8 @@ use Exception;
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
@@ -109,6 +112,7 @@ use Exception;
 =======
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -219,6 +223,10 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
@@ -271,6 +279,7 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5a14301c (.)
 =======
 >>>>>>> 3fbbf1f5 (.)
@@ -315,6 +324,8 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 use Spipu\Html2Pdf\Html2Pdf;
 use Symfony\Component\HttpFoundation\StreamedResponse;
@@ -404,6 +415,7 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -458,6 +470,10 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 use Webmozart\Assert\Assert;
 
 class StreamDownloadPdfAction
@@ -518,10 +534,13 @@ class StreamDownloadPdfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string|null  $html  Contenuto HTML da convertire
      * @param  string|null  $view  Nome della view da renderizzare
      * @param  array<string, mixed>|null  $data  Dati da passare alla view
 =======
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 6dcebf8a (.)
      * @param  string  $html  Contenuto HTML da convertire
@@ -542,6 +561,7 @@ class StreamDownloadPdfAction
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
@@ -728,6 +748,10 @@ class StreamDownloadPdfAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
      * @param string $html Contenuto HTML da convertire
      * @param string $filename Nome del file PDF
      * @return StreamedResponse
@@ -748,6 +772,7 @@ class StreamDownloadPdfAction
             $html = view($view, $data)->render();
         }
         Assert::string($html, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1072,6 +1097,8 @@ class StreamDownloadPdfAction
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
      * @param  string|null  $html  Contenuto HTML da convertire
      * @param  string|null  $view  Nome della vista Blade
      * @param  array<mixed, mixed>|null  $data  Dati da passare alla vista
@@ -1104,6 +1131,7 @@ class StreamDownloadPdfAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
@@ -1143,10 +1171,15 @@ class StreamDownloadPdfAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         $html2pdf = new Html2Pdf('P', 'A4', 'it', true, 'UTF-8', [10, 10, 10, 10]);
         $html2pdf->writeHTML($html);
 
         // Genera e scarica il PDF
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1629,6 +1662,8 @@ class StreamDownloadPdfAction
         }, 'report-'.$filename);
 >>>>>>> 53d6a6ba (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
         return response()->streamDownload(function () use ($html2pdf): void {
             $html2pdf->output();
         }, 'report-'.$filename);
@@ -1686,6 +1721,7 @@ class StreamDownloadPdfAction
             $html2pdf->output();
         }, 'report-' . $filename);
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 =======
@@ -1733,5 +1769,7 @@ class StreamDownloadPdfAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
     }
 }

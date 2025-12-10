@@ -114,6 +114,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! isset($data['to'])) {
 =======
             if (!isset($data['to'])) {
@@ -188,6 +189,8 @@ class MorphToManyAction
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
             if (! isset($data['to'])) {
 =======
 <<<<<<< HEAD
@@ -333,6 +336,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -394,11 +398,17 @@ class MorphToManyAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
                 $data['to'] = [];
             }
             $data = $data['to'];
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -454,10 +464,13 @@ class MorphToManyAction
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
@@ -497,6 +510,10 @@ class MorphToManyAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         if (!\is_array($data)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         }
@@ -516,10 +533,13 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -896,6 +916,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -940,6 +961,10 @@ class MorphToManyAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
             $relation->sync($data);
 
             return;
@@ -947,6 +972,7 @@ class MorphToManyAction
 
         foreach ($data as $k => $v) {
             if (\is_array($v)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1070,6 +1096,8 @@ class MorphToManyAction
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
                 if (! isset($v['pivot'])) {
 =======
 <<<<<<< HEAD
@@ -1215,6 +1243,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -1276,6 +1305,11 @@ class MorphToManyAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+                if (!isset($v['pivot'])) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
                     $v['pivot'] = [];
                 }
 

@@ -16,6 +16,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -143,6 +147,7 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1489,6 +1494,8 @@ php -l path/to/file.php
 find . -name "*.php" -exec php -l {} \;
 ```
 
+=======
+>>>>>>> 6dcebf8a (.)
 ### Verifica PHPStan
 ```bash
 # Verifica singolo file
@@ -1642,6 +1649,7 @@ grep -r "<<< HEAD" . | wc -l
 ### Caso 1: File PHP con Import Duplicati
 ```php
 // Conflitto
+<<<<<<< HEAD
 >>>>>>> 3310e9c6 (.)
 use Modules\Xot\Tests\TestCase;
 use function Pest\Laravel\artisan;
@@ -2217,6 +2225,8 @@ grep -r "<<< HEAD" . | wc -l
 ### Caso 1: File PHP con Import Duplicati
 ```php
 // Conflitto
+=======
+>>>>>>> 6dcebf8a (.)
 use Modules\Xot\Tests\TestCase;
 use function Pest\Laravel\artisan;
 use function Pest\Laravel\assertDatabaseHas;
@@ -2289,6 +2299,7 @@ La risoluzione sistematica dei conflitti Git richiede:
 4. **Verifica completa** della sintassi e struttura
 5. **Aggiornamento documentazione** correlata
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 *Script creati il: 2025-09-18*  
@@ -2631,6 +2642,8 @@ La risoluzione sistematica dei conflitti Git richiede:
 =======
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6dcebf8a (.)
 Seguendo questo workflow, è possibile risolvere anche grandi quantità di conflitti mantenendo la qualità del codice e la coerenza del progetto.
 
 ## Collegamenti Correlati
@@ -2639,6 +2652,7 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 - [Regole Laraxot](../laraxot-rules.md)
 - [Best Practices PHP](../php-best-practices.md)
 - [Architettura Modulare](../modular-architecture.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
 =======
@@ -3038,3 +3052,6 @@ Seguendo questo workflow, è possibile risolvere anche grandi quantità di confl
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)

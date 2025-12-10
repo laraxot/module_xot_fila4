@@ -61,16 +61,21 @@ class CopyFromLastYearButton
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
 =======
 =======
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function execute(string $modelClass, string $fieldName, null|string $year): Action
     {
         return Action::make('copy_from_last_year')
@@ -78,6 +83,7 @@ class CopyFromLastYearButton
             ->icon('heroicon-o-document-duplicate')
             ->visible(null !== $year)
             ->action(static fn() => app(CopyFromLastYearAction::class)->execute($modelClass, $fieldName, $year));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d2b0a27 (.)
@@ -553,6 +559,7 @@ class CopyFromLastYearButton
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -601,5 +608,9 @@ class CopyFromLastYearButton
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
     }
 }

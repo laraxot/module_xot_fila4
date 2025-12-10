@@ -12,16 +12,20 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Webmozart\Assert\Assert;
 
 use function Safe\exec;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -35,6 +39,8 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 class DatabaseBackUpCommand extends Command
 {
     /**
@@ -65,6 +71,9 @@ class DatabaseBackUpCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -360,6 +369,7 @@ class DatabaseBackUpCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -408,12 +418,18 @@ class DatabaseBackUpCommand extends Command
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+    
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
     /**
      * Execute the console command.
      */
     public function handle(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -603,6 +619,8 @@ class DatabaseBackUpCommand extends Command
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
         $filename = 'backup-'.Carbon::now()->format('Y-m-d').'.gz';
         $backup_path = storage_path('app/backup/'.$filename);
 =======
@@ -622,6 +640,9 @@ class DatabaseBackUpCommand extends Command
 =======
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 300ef70 (.)
         $filename = 'backup-' . Carbon::now()->format('Y-m-d') . '.gz';
@@ -654,6 +675,7 @@ class DatabaseBackUpCommand extends Command
             'wip',
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -664,10 +686,13 @@ class DatabaseBackUpCommand extends Command
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         Assert::string($user = config('database.connections.mysql.username'));
         Assert::string($password = config('database.connections.mysql.password'));
         Assert::string($host = config('database.connections.mysql.host'));
         Assert::string($database = config('database.connections.mysql.database'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -675,6 +700,8 @@ class DatabaseBackUpCommand extends Command
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $command =
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,6 +750,7 @@ class DatabaseBackUpCommand extends Command
 >>>>>>> 5a14301c (.)
             $backup_path;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -731,6 +759,8 @@ class DatabaseBackUpCommand extends Command
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         $returnVar = null;
         $output = null;

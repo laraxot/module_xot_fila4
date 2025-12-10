@@ -153,6 +153,7 @@ namespace Modules\Xot\Console\Commands;
 >>>>>>> b7ea1cd1 (.)
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Webmozart\Assert\Assert;
@@ -173,6 +174,11 @@ use Illuminate\Support\Facades\DB;
 use Webmozart\Assert\Assert;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
+use Webmozart\Assert\Assert;
+>>>>>>> 300ef70 (.)
 
 use function Safe\file_get_contents;
 <<<<<<< HEAD
@@ -772,6 +778,7 @@ class ExecuteSqlFileCommand extends Command
         // Chiedi il percorso del file .sql
         $filePath = $this->ask('Inserisci il percorso del file .sql');
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::string($filePath, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         if (! file_exists($filePath)) {
 <<<<<<< HEAD
@@ -812,6 +819,7 @@ class ExecuteSqlFileCommand extends Command
         Assert::string($filePath, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         if (!file_exists($filePath)) {
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 >>>>>>> a6ef6dc7 (.)
 >>>>>>> b7afadf9 (.)
 =======
@@ -843,6 +851,8 @@ class ExecuteSqlFileCommand extends Command
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
             $this->error('Il file specificato non esiste.');
 
             return Command::FAILURE;
@@ -882,6 +892,7 @@ class ExecuteSqlFileCommand extends Command
             DB::connection('temp')->unprepared($sql);
             $this->info('File .sql eseguito con successo!');
         } catch (Exception $e) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             $this->error("Errore durante l'esecuzione del file: ".$e->getMessage());
 <<<<<<< HEAD
@@ -1117,6 +1128,7 @@ class ExecuteSqlFileCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -1169,6 +1181,11 @@ class ExecuteSqlFileCommand extends Command
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+            $this->error("Errore durante l'esecuzione del file: " . $e->getMessage());
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
             return Command::FAILURE;
         } finally {

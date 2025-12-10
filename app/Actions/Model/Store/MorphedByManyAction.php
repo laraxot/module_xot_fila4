@@ -13,6 +13,7 @@ class MorphedByManyAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 =======
 <<<<<<< HEAD
@@ -25,6 +26,9 @@ class MorphedByManyAction
     public function execute(Model $_model, RelationDTO $_relationDTO): void
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    public function execute(Model $_model, RelationDTO $_relationDTO): void
+>>>>>>> 300ef70 (.)
     {
         // Assert::isInstanceOf($rows = $relationDTO->rows, HasOne::class);
         dddx('wip');

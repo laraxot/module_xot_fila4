@@ -61,6 +61,7 @@ class CopyFromLastYearAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -298,6 +299,8 @@ class CopyFromLastYearAction
 >>>>>>> 88ea7103 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
     public function execute(string $modelClass, string $fieldName, ?string $year): void
     {
         if (! class_exists($modelClass) || ! is_subclass_of($modelClass, Model::class)) {
@@ -451,16 +454,20 @@ class CopyFromLastYearAction
 =======
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
     public function execute(string $modelClass, string $fieldName, null|string $year): void
     {
         if (!class_exists($modelClass) || !is_subclass_of($modelClass, Model::class)) {
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
@@ -516,6 +523,8 @@ class CopyFromLastYearAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
             return;
         }
 

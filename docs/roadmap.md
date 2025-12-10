@@ -152,7 +152,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
   - [Dettagli e Passi](./roadmap/docs/status.md)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +175,7 @@
   - [Dettagli e Passi](./roadmap/docs/status.md)
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -263,6 +268,10 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
 ### 6. Testing (65%)
 - [x] Setup base
@@ -509,6 +518,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5e58b29b (.)
 =======
@@ -654,6 +664,11 @@
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+- [Roadmap Modulo User](../User/docs/roadmap.md)
+- [Roadmap Modulo Lang](../Lang/docs/roadmap.md)
+- [Roadmap Modulo UI](../UI/docs/roadmap.md)
+>>>>>>> 6dcebf8a (.)
 
 ### Collegamenti Interni
 - [Architettura](./structure.md)
@@ -1075,6 +1090,7 @@
 
 ### Documentazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Framework](https://laravel.com/docs/12.x)
 =======
 <<<<<<< HEAD
@@ -1087,6 +1103,9 @@
 - [Laravel Framework](https://laravel.com/docs/12.x)
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+- [Laravel Framework](https://laravel.com/docs/12.x)
+>>>>>>> 6dcebf8a (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Livewire Documentation](https://livewire.laravel.com/docs)
 
@@ -1103,10 +1122,6 @@
 ### Versione Incoming
 
 ## Collegamenti tra versioni di roadmap.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -1123,6 +1138,7 @@
 * [roadmap.md](../../../Patient/docs/roadmap.md)
 * [roadmap.md](../../../Cms/docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
@@ -1145,7 +1161,12 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
 
 ### Versione Incoming

@@ -66,6 +66,7 @@ use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Nwidart\Modules\Laravel\Module as LaravelModule;
 =======
 >>>>>>> 5a14301c (.)
@@ -192,6 +193,8 @@ use Nwidart\Modules\Laravel\Module as LaravelModule;
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 use Spatie\QueueableAction\QueueableAction;
 =======
 <<<<<<< HEAD
@@ -206,6 +209,9 @@ use Webmozart\Assert\Assert;
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 300ef70 (.)
 
 class GetAllModelsAction
 {
@@ -213,6 +219,7 @@ class GetAllModelsAction
 
     /**
      * Execute the action.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,10 +289,13 @@ class GetAllModelsAction
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
@@ -348,6 +358,10 @@ class GetAllModelsAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
      */
     public function execute(): array
     {
@@ -356,6 +370,7 @@ class GetAllModelsAction
         foreach ($modules as $module) {
             $tmp = app(GetAllModelsByModuleNameAction::class)->execute($module->getName());
             $res = array_merge($res, $tmp);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -530,6 +545,8 @@ class GetAllModelsAction
 =======
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> d2b0a27 (.)
      *
@@ -748,7 +765,12 @@ class GetAllModelsAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         }
 
         return $res;

@@ -189,16 +189,20 @@ class CustomRelation extends Relation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
@@ -237,6 +241,10 @@ class CustomRelation extends Relation
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         protected null|Closure $eagerConstraints,
         /**
          * The eager constraints model matcher.
@@ -256,10 +264,13 @@ class CustomRelation extends Relation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -639,6 +650,7 @@ class CustomRelation extends Relation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -683,6 +695,10 @@ class CustomRelation extends Relation
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
     ) {
         parent::__construct($query, $model);
     }
@@ -701,6 +717,7 @@ class CustomRelation extends Relation
     public function addEagerConstraints(array $models): void
     {
         // Parameter #1 $function of function call_user_func expects callable(): mixed, Closure|null given.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -807,6 +824,8 @@ class CustomRelation extends Relation
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
         if (! \is_callable($this->eagerConstraints)) {
 =======
 <<<<<<< HEAD
@@ -927,6 +946,7 @@ class CustomRelation extends Relation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -978,6 +998,11 @@ class CustomRelation extends Relation
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+        if (!\is_callable($this->eagerConstraints)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
             throw new Exception('eagerConstraints is not callable');
         }
 
@@ -1098,6 +1123,7 @@ class CustomRelation extends Relation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! \is_callable($this->eagerMatcher)) {
 =======
 =======
@@ -1155,6 +1181,8 @@ class CustomRelation extends Relation
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
         if (! \is_callable($this->eagerMatcher)) {
 =======
 <<<<<<< HEAD
@@ -1275,6 +1303,7 @@ class CustomRelation extends Relation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -1326,6 +1355,11 @@ class CustomRelation extends Relation
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+        if (!\is_callable($this->eagerMatcher)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
             throw new Exception('eagerMatcher is not callable');
         }
 
@@ -1397,6 +1431,7 @@ class CustomRelation extends Relation
         // models with the result of those columns as a separate model relation.
         $columns = $this->query->getQuery()->columns ? [] : $columns;
         if ($columns === ['*']) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1520,6 +1555,8 @@ class CustomRelation extends Relation
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
             $columns = [$this->related->getTable().'.*'];
 =======
 <<<<<<< HEAD
@@ -1665,6 +1702,7 @@ class CustomRelation extends Relation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -1726,6 +1764,11 @@ class CustomRelation extends Relation
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+            $columns = [$this->related->getTable() . '.*'];
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         }
 
         $query = $this->query->applyScopes();

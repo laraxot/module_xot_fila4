@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3310e9c6 (.)
 =======
@@ -286,6 +287,10 @@ Il progetto è ora pronto per lo sviluppo continuo con una base solida e manuten
 =======
 # Report Risoluzione Conflitti Git - FixCity Project
 >>>>>>> 6dcebf8a (.)
+=======
+=======
+# Report Risoluzione Conflitti Git - FixCity Project
+>>>>>>> 6dcebf8a (.)
 
 ## Panoramica
 
@@ -448,6 +453,7 @@ La risoluzione sistematica di tutti i 161 conflitti Git è stata completata con 
 
 Il progetto è ora pronto per lo sviluppo continuo con una base solida e manutenibile.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 **Script Creato**: 2025-01-27  
@@ -850,12 +856,15 @@ Il progetto è ora pronto per lo sviluppo continuo con una base solida e manuten
 =======
 =======
 >>>>>>> 6dcebf8a (.)
+=======
+>>>>>>> 6dcebf8a (.)
 ## Collegamenti Correlati
 
 - [Regole Laraxot](../laraxot-rules.md)
 - [Best Practices PHP](../php-best-practices.md)
 - [Architettura Modulare](../modular-architecture.md)
 - [Guida Risoluzione Conflitti](../conflict-resolution-guide.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3fbbf1f5 (.)
 =======
@@ -1241,3 +1250,6 @@ Il progetto è ora pronto per lo sviluppo continuo con una base solida e manuten
 >>>>>>> 3310e9c6 (.)
 =======
 >>>>>>> cc7fb225 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)

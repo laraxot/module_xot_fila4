@@ -125,6 +125,7 @@ Modules/<NomeModulo>/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
 - [Regole Generali](../../Xot/docs/translations.md) - Regole base
 =======
@@ -289,6 +290,10 @@ Modules/<NomeModulo>/
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale
+- [Regole Generali](../../Xot/docs/translations.md) - Regole base
+>>>>>>> 6dcebf8a (.)
 
 ## Struttura
 
@@ -616,6 +621,7 @@ Action::make('delete')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -694,6 +700,8 @@ Action::make('delete')
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -711,6 +719,7 @@ Action::make('delete')
 * [translations.md](../../../Activity/docs/translations.md)
 * [translations.md](../../../Patient/docs/translations.md)
 * [translations.md](../../../Cms/docs/translations.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -881,6 +890,8 @@ Action::make('delete')
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 
 
 ### Versione Incoming

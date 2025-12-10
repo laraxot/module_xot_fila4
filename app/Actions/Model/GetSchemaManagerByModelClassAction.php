@@ -27,6 +27,7 @@ namespace Modules\Xot\Actions\Model;
 <<<<<<< HEAD
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use RuntimeException;
 <<<<<<< HEAD
@@ -333,16 +334,20 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 =======
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Support\Facades\DB;
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
@@ -383,6 +388,8 @@ use Illuminate\Database\Eloquent\Model as EloquentModel;
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
@@ -442,6 +449,7 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $modelClass  La classe del modello
 =======
      * @param string $modelClass La classe del modello
@@ -516,6 +524,8 @@ class GetSchemaManagerByModelClassAction
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
      * @param  string  $modelClass  La classe del modello
 =======
 <<<<<<< HEAD
@@ -661,6 +671,7 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -722,6 +733,11 @@ class GetSchemaManagerByModelClassAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+     * @param string $modelClass La classe del modello
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
      * @return AbstractSchemaManager Lo schema manager di Doctrine
      */
     public function execute(string $modelClass): AbstractSchemaManager
@@ -733,6 +749,7 @@ class GetSchemaManagerByModelClassAction
         // ma getDoctrineConnection() non esiste, dobbiamo usare getDoctrineSchemaManager direttamente
         if (method_exists($connection, 'getDoctrineSchemaManager')) {
             /** @phpstan-ignore deprecated.method */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -801,6 +818,8 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1079,6 +1098,7 @@ class GetSchemaManagerByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -1133,6 +1153,11 @@ class GetSchemaManagerByModelClassAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+            return $connection->getDoctrineSchemaManager();
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         }
 
         // Se in futuro il metodo getDoctrineConnection diventa disponibile, possiamo usare questo

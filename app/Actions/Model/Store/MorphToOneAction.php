@@ -16,6 +16,7 @@ class MorphToOneAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(Model $_model, RelationDTO $relationDTO): void
 =======
 <<<<<<< HEAD
@@ -28,6 +29,9 @@ class MorphToOneAction
     public function execute(Model $_model, RelationDTO $relationDTO): void
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    public function execute(Model $_model, RelationDTO $relationDTO): void
+>>>>>>> 300ef70 (.)
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,6 +45,7 @@ class MorphToOneAction
         Assert::isInstanceOf($rows = $relationDTO->rows, MorphToOne::class);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! isset($relationDTO->data['lang'])) {
 =======
 <<<<<<< HEAD
@@ -53,11 +58,15 @@ class MorphToOneAction
         if (!isset($relationDTO->data['lang'])) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        if (!isset($relationDTO->data['lang'])) {
+>>>>>>> 300ef70 (.)
             $relationDTO->data['lang'] = App::getLocale();
         }
 
         // if ($rows !== null) {
         $rows->create($relationDTO->data);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         // }
@@ -103,21 +112,21 @@ class MorphToOneAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-
 =======
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 300ef70 (.)
 
->>>>>>> 73eab74 (.)
         //}
         // } else {
         //    $rows->sync($relation->data);
         // }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         /*
          * dddx([
          * 'message' => 'wip',
@@ -129,6 +138,7 @@ class MorphToOneAction
          *
          * dddx('wip');
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -149,5 +159,7 @@ class MorphToOneAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 }

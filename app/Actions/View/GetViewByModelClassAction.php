@@ -70,6 +70,7 @@ class GetViewByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return $module_low.'::'.$model_name.$suffix;
 =======
@@ -137,6 +138,8 @@ class GetViewByModelClassAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
         $view = $module_low.'::'.$model_name.$suffix;
 =======
 <<<<<<< HEAD
@@ -162,6 +165,7 @@ class GetViewByModelClassAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -182,6 +186,11 @@ class GetViewByModelClassAction
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+        $view = $module_low . '::' . $model_name . $suffix;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
         return $view;
 >>>>>>> 5a14301c (.)

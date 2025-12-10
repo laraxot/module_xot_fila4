@@ -27,6 +27,7 @@ namespace Modules\Xot\Filament\Resources\LogResource\Pages;
 <<<<<<< HEAD
 use Modules\Xot\Filament\Resources\LogResource;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103,6 +104,9 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 300ef70 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
@@ -127,6 +131,7 @@ class EditLog extends XotBaseEditRecord
 {
     protected static string $resource = LogResource::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -149,4 +154,6 @@ class EditLog extends XotBaseEditRecord
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 }

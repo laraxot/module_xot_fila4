@@ -91,6 +91,7 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
 * [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
 =======
@@ -255,6 +256,10 @@ avere un controllo su un eventuale corruzione dei dati (bug, malicius, errore um
 >>>>>>> c35986f4 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+* [event-sourcing.md](../../../Xot/docs/activity/event-sourcing.md)
+* [event-sourcing.md](../../../Tenant/docs/it/config/event-sourcing.md)
+>>>>>>> 6dcebf8a (.)
 
 
 ### Versione Incoming

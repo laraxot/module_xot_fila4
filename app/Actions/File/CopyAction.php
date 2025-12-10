@@ -63,6 +63,7 @@ class CopyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -75,12 +76,16 @@ class CopyAction
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
         if (! File::exists(\dirname($to))) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
         if (!File::exists(\dirname($to))) {
 >>>>>>> d2b0a27 (.)
             try {
@@ -238,6 +243,7 @@ class CopyAction
 >>>>>>> 5a14301c (.)
                 );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -250,6 +256,8 @@ class CopyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             }
         }
 
@@ -266,12 +274,15 @@ class CopyAction
             File::copy($from, $to);
         } catch (Exception $exception) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             throw new Exception(
                 'Unable to copy
 <<<<<<< HEAD
@@ -322,6 +333,7 @@ class CopyAction
                 $exception,
             );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -333,6 +345,8 @@ class CopyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         }
     }
 }

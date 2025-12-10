@@ -47,6 +47,7 @@ class GetTreeOptionsByModelClassAction
      * @return array<int|string, string>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(string $class, Model|callable|null $_where = null): array
 =======
 <<<<<<< HEAD
@@ -59,6 +60,9 @@ class GetTreeOptionsByModelClassAction
     public function execute(string $class, Model|callable|null $_where = null): array
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    public function execute(string $class, Model|callable|null $_where = null): array
+>>>>>>> 300ef70 (.)
     {
         /** @var HasRecursiveRelationshipsContract $model */
 <<<<<<< HEAD
@@ -113,16 +117,20 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 5a14301c (.)
             /* @var HasRecursiveRelationshipsContract $row */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             $key = $row->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] = is_string($row)
                 ? $row
                 : ((string) $row->getLabel());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,6 +201,8 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 399f46d3 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 <<<<<<< HEAD
 =======
@@ -324,6 +334,7 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -388,6 +399,10 @@ class GetTreeOptionsByModelClassAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
             $this->parse($row);
         }
 
@@ -397,6 +412,7 @@ class GetTreeOptionsByModelClassAction
     public function parse(HasRecursiveRelationshipsContract $model): void
     {
         foreach ($model->children as $child) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             /** @var HasRecursiveRelationshipsContract $child */
             $key = $child->getKey();
@@ -512,6 +528,7 @@ class GetTreeOptionsByModelClassAction
 =======
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
             /** @var HasRecursiveRelationshipsContract $child */
@@ -534,12 +551,20 @@ class GetTreeOptionsByModelClassAction
 <<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
 =======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
             /** @var HasRecursiveRelationshipsContract $child */
             $key = $child->getKey();
             $this->options[is_string($key) ? $key : ((string) $key)] =
                 Str::repeat('---', $child->depth) . '   ' . $child->getLabel();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 6dcebf8a (.)
 =======
             $this->options[$child->getKey()] = Str::repeat('---', $child->depth).'   '.$child->getLabel();
 >>>>>>> f1d4085 (.)
@@ -635,6 +660,7 @@ class GetTreeOptionsByModelClassAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -693,6 +719,10 @@ class GetTreeOptionsByModelClassAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         }
     }
 }

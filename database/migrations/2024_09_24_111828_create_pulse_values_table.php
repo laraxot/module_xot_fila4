@@ -86,6 +86,7 @@ return new class extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->shouldRun()) {
 =======
 =======
@@ -219,6 +220,8 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
         if (! $this->shouldRun()) {
 =======
 <<<<<<< HEAD
@@ -235,6 +238,9 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 300ef70 (.)
         if (!$this->shouldRun()) {
@@ -298,6 +304,7 @@ return new class extends XotBaseMigration {
             $table->unique(['type', 'key_hash']); // For data integrity and upserts...
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -328,5 +335,7 @@ return new class extends XotBaseMigration {
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 };

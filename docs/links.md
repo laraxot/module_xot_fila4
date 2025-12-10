@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5a14301c (.)
@@ -139,10 +140,13 @@
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -202,6 +206,10 @@
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 # Links
 
 ## Documentazione Generale
@@ -555,6 +563,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -643,6 +652,8 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 
 ## Documentazione Tecnica
 - [Regole di Progetto](./rules/PROMPT_RULES.md)
@@ -653,6 +664,7 @@
 - [Risoluzione Problemi](./troubleshooting.md)
 
 ## Collegamenti ai Moduli
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -727,6 +739,8 @@
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 - [Cms](../Cms/docs/README.md) - Frontend
 - [UI](../UI/docs/README.md) - Componenti
 - [User](../User/docs/README.md) - Utenti e Permessi
@@ -762,6 +776,7 @@
 * [links.md](../../Tenant/docs/it/links/links.md)
 * [links.md](../../Cms/docs/links.md)
 * [links.md](../../../Themes/One/docs/links.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1018,6 +1033,8 @@
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> 3310e9c6 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)

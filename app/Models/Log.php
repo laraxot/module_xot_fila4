@@ -53,14 +53,7 @@ use Modules\Xot\Database\Factories\FeedFactory;
 =======
 =======
 use Sushi\Sushi;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Override;
-=======
->>>>>>> f1d4085 (.)
-=======
-use Override;
->>>>>>> 73eab74 (.)
 use Modules\Xot\Database\Factories\FeedFactory;
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -485,16 +478,20 @@ class Log extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
@@ -534,6 +531,10 @@ class Log extends BaseModel
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
     public function getFileContentAttribute(null|string $value): null|string
     {
         return File::get(storage_path('logs/' . $this->id . '.log'));
@@ -555,8 +556,11 @@ class Log extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -785,13 +789,19 @@ class Log extends BaseModel
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'name' => 'string',
             'size' => 'integer',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -815,6 +825,11 @@ class Log extends BaseModel
             'deleted_at' => 'datetime',
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 300ef70 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -824,12 +839,15 @@ class Log extends BaseModel
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
  * dddx([
  * 'getRelativePath' => $file->getRelativePath(), // ""
  * 'getRelativePathname' => $file->getRelativePathname(),
@@ -888,6 +906,7 @@ class Log extends BaseModel
  * "getLinkTarget" => "C:\var\www\_bases\base_camping_fila3\laravel\storage\logs\laravel-2024-03-01.log"
  * "getRealPath" => "C:\var\www\_bases\base_camping_fila3\laravel\storage\logs\laravel-2024-03-01.log"
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -954,3 +973,5 @@ class Log extends BaseModel
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)

@@ -74,6 +74,7 @@ final class GeneratePdfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
 =======
                 'content' => $html2pdf->Output($filename . '.pdf', 'S'),
@@ -148,6 +149,8 @@ final class GeneratePdfAction
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
                 'content' => $html2pdf->Output($filename.'.pdf', 'S'),
 =======
 <<<<<<< HEAD
@@ -293,6 +296,7 @@ final class GeneratePdfAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -354,6 +358,11 @@ final class GeneratePdfAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+                'content' => $html2pdf->Output($filename . '.pdf', 'S'),
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
                 'file' => $this->saveToFile($html2pdf, $filename),
                 default => $html2pdf->Output(),
             };

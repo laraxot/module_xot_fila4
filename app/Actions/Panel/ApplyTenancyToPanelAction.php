@@ -54,6 +54,7 @@ use Filament\Panel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 =======
@@ -163,11 +164,14 @@ use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,6 +216,10 @@ use Modules\User\Filament\Pages\Tenancy\RegisterTenant;
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
@@ -232,6 +240,7 @@ use Modules\Xot\Datas\MetatagData;
 >>>>>>> 5a14301c (.)
 use Modules\Xot\Datas\XotData;
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -247,6 +256,8 @@ use Modules\User\Filament\Pages\Tenancy\EditTenantProfile;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
 class ApplyTenancyToPanelAction
 {
@@ -441,6 +452,7 @@ class ApplyTenancyToPanelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
@@ -494,6 +506,13 @@ class ApplyTenancyToPanelAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 73eab74 (.)
+>>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         // Configurazione completa per superadmin
         $panel
             ->tenant($tenant_class, 'slug', 'tenants')
@@ -610,19 +629,6 @@ class ApplyTenancyToPanelAction
 =======
 =======
         //$panel->tenant($tenant_class, slugAttribute: 'slug');
-<<<<<<< HEAD
-=======
-            // Configurazione completa per superadmin
-            $panel
-                ->tenant($tenant_class, 'slug', 'tenants')
-                ->tenantRegistration(RegisterTenant::class)
-                ->tenantProfile(EditTenantProfile::class);
-        //} else {
-            // Configurazione limitata per non-superadmin
-            //$panel->tenant($tenant_class, slugAttribute: 'slug');
->>>>>>> f1d4085 (.)
-=======
->>>>>>> 73eab74 (.)
         //}
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)

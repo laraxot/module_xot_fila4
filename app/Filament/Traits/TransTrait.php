@@ -237,6 +237,7 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, bool|float|int|string|null>  $params
      *
 =======
@@ -403,6 +404,8 @@ trait TransTrait
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
      * @param  array<string, bool|float|int|string|null>  $params
      *
 =======
@@ -422,6 +425,9 @@ trait TransTrait
 =======
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 300ef70 (.)
      * @param array<string, bool|float|int|string|null> $params
@@ -572,6 +578,7 @@ trait TransTrait
 =======
                 throw new Exception('[' . __LINE__ . '][' . class_basename(__CLASS__) . ']');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * @throws Exception Se exceptionIfNotExist è true e la traduzione non esiste
 >>>>>>> ab8cc3f3 (.)
@@ -805,6 +812,7 @@ trait TransTrait
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -857,6 +865,10 @@ trait TransTrait
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
             }
 
             return $res;
@@ -866,12 +878,15 @@ trait TransTrait
             $first = current($res);
             if (is_string($first) || is_numeric($first)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
                 return is_string($first) ? $first : ((string) $first);
             }
         }
@@ -922,7 +937,10 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 >>>>>>> 6dcebf8a (.)
 =======
@@ -1198,6 +1216,7 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -1247,6 +1266,10 @@ trait TransTrait
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
     }
 
     /**
@@ -1257,6 +1280,7 @@ trait TransTrait
         /** @var string */
         $transKey = app(GetTransKeyAction::class)->execute(static::class);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1380,6 +1404,8 @@ trait TransTrait
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
         $key = $transKey.'.'.$key;
 =======
 <<<<<<< HEAD
@@ -1525,6 +1551,7 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -1586,6 +1613,11 @@ trait TransTrait
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+        $key = $transKey . '.' . $key;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         $key = Str::of($key)->replace('.cluster.pages.', '.')->toString();
         if (Str::startsWith($key, 'edit_')) {
             $key = Str::after($key, 'edit_');
@@ -1659,6 +1691,7 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $key = $transKey.'.'.$key;
 =======
         $key = $transKey . '.' . $key;
@@ -1733,6 +1766,8 @@ trait TransTrait
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
         $key = $transKey.'.'.$key;
 =======
 <<<<<<< HEAD
@@ -1878,6 +1913,7 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -1939,6 +1975,11 @@ trait TransTrait
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+        $key = $transKey . '.' . $key;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         $key = Str::of($key)->replace('.cluster.pages.', '.')->toString();
         $key = Str::of($key)->replace('::edit_', '::')->toString();
 
@@ -2001,6 +2042,7 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var string $type */
         $type = $piece[2] ?? '';
         Assert::string($type, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
@@ -2013,12 +2055,15 @@ trait TransTrait
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
         Assert::string($type = $piece[2], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
@@ -2053,6 +2098,10 @@ trait TransTrait
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         Assert::string($type = $piece[2], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         $module = Str::of($class)->between('Modules\\', '\\' . $type . '\\')->toString();
 
@@ -2073,8 +2122,11 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
         Assert::string($type = $piece[2]);
 >>>>>>> d2b0a27 (.)
@@ -2268,6 +2320,7 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -2320,6 +2373,10 @@ trait TransTrait
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
         return $key;
 <<<<<<< HEAD
@@ -2393,6 +2450,9 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
         $key_full = $class_key.'.'.$key;
         /** @var array<string, mixed>|Translator|string $result */
         $result = trans($key_full);
@@ -2483,6 +2543,7 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -2503,6 +2564,11 @@ trait TransTrait
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+        $key_full = $class_key . '.' . $key;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
         return trans($key_full);
 >>>>>>> 5a14301c (.)
@@ -2552,6 +2618,7 @@ trait TransTrait
      * Get translation for a given function name.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function transFunc(string $func, bool $_exceptionIfNotExist = false): string
 =======
 <<<<<<< HEAD
@@ -2564,6 +2631,9 @@ trait TransTrait
     public static function transFunc(string $func, bool $_exceptionIfNotExist = false): string
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    public static function transFunc(string $func, bool $_exceptionIfNotExist = false): string
+>>>>>>> 300ef70 (.)
     {
         $key = static::getKeyTransFunc($func);
 <<<<<<< HEAD
@@ -2661,6 +2731,9 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
             $item = Str::of($key)->after($group.'.')->toString();
             /** @var array<string, mixed>|Translator|string $group_arr */
             $group_arr = trans($group);
@@ -2761,6 +2834,7 @@ trait TransTrait
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -2781,6 +2855,11 @@ trait TransTrait
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+            $item = Str::of($key)->after($group . '.')->toString();
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
             $group_arr = trans($group);
             if (is_array($group_arr)) {
                 $trans = Arr::get($group_arr, $item);
@@ -2830,6 +2909,7 @@ trait TransTrait
             $first = current($trans);
             if (is_string($first) || is_numeric($first)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return is_string($first) ? $first : ((string) $first);
 =======
 <<<<<<< HEAD
@@ -2842,6 +2922,9 @@ trait TransTrait
                 return is_string($first) ? $first : ((string) $first);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+                return is_string($first) ? $first : ((string) $first);
+>>>>>>> 300ef70 (.)
             }
         }
 
@@ -2869,6 +2952,7 @@ trait TransTrait
             return $newTrans;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2992,6 +3076,8 @@ trait TransTrait
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
         return 'fix:'.$key;
 =======
 <<<<<<< HEAD
@@ -3134,6 +3220,7 @@ trait TransTrait
         return 'fix:' . $key;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3198,11 +3285,17 @@ trait TransTrait
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+        return 'fix:' . $key;
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
     }
 
     /**
      * Get a translation according to an integer value.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3264,6 +3357,8 @@ trait TransTrait
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
      * @param  array<string, bool|float|int|string|null>  $replace
 =======
 <<<<<<< HEAD
@@ -3276,6 +3371,9 @@ trait TransTrait
      * @param array<string, bool|float|int|string|null> $replace
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+     * @param array<string, bool|float|int|string|null> $replace
+>>>>>>> 300ef70 (.)
      */
     protected function transChoice(string $key, int $number, array $replace = []): string
     {

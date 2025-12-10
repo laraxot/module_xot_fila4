@@ -773,6 +773,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cba4fe (.)
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
@@ -828,8 +829,11 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 >>>>>>> f1d4085 (.)
 >>>>>>> ab8cc3f3 (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
 - [Documentazione XotBaseResource](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/resource.md)
 - [Best Practices Laraxot](/var/www/html/exa/base_orisbroker_fila3/laravel/Modules/Xot/docs/best-practices.md)
+<<<<<<< HEAD
 =======
 >>>>>>> f1d4085 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -983,6 +987,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 >>>>>>> cc7fb225 (.)
 =======
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
@@ -1094,3 +1099,7 @@ Consulta l'esempio completo all'inizio di questo documento per una implementazio
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)

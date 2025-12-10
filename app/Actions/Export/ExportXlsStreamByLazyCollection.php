@@ -8,6 +8,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\LazyCollection;
 use Illuminate\Support\Str;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Webmozart\Assert\Assert;
@@ -25,12 +26,18 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 use Webmozart\Assert\Assert;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+use Spatie\QueueableAction\QueueableAction;
+use Symfony\Component\HttpFoundation\StreamedResponse;
+use Webmozart\Assert\Assert;
+>>>>>>> 300ef70 (.)
 
 use function Safe\fclose;
 use function Safe\fopen;
 use function Safe\fputcsv;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43,6 +50,8 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 class ExportXlsStreamByLazyCollection
 {
     use QueueableAction;
@@ -117,6 +126,7 @@ class ExportXlsStreamByLazyCollection
      * @param string $filename Nome del file CSV
      * @param string|null $transKey Chiave di traduzione per le intestazioni
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string>|null $_fields Campi da includere nell'export (attualmente non utilizzato)
      *
      * @return StreamedResponse
@@ -135,16 +145,10 @@ class ExportXlsStreamByLazyCollection
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 6dcebf8a (.)
      * @param array<string>|null $_fields Campi da includere nell'export (attualmente non utilizzato)
      *
-=======
-     * @param array<string>|null $fields Campi da includere nell'export
-     * 
->>>>>>> f1d4085 (.)
-=======
-     * @param array<string>|null $_fields Campi da includere nell'export (attualmente non utilizzato)
-     *
->>>>>>> 73eab74 (.)
      * @return StreamedResponse
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
@@ -152,6 +156,7 @@ class ExportXlsStreamByLazyCollection
     public function execute(
         LazyCollection $data,
         string $filename = 'test.csv',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213,6 +218,8 @@ class ExportXlsStreamByLazyCollection
 >>>>>>> 71586de2 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
         ?string $transKey = null,
         ?array $_fields = null,
 =======
@@ -229,6 +236,10 @@ class ExportXlsStreamByLazyCollection
         null|array $_fields = null,
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        null|string $transKey = null,
+        null|array $_fields = null,
+>>>>>>> 300ef70 (.)
     ): StreamedResponse {
         $headers = [
             'Content-Disposition' => 'attachment; filename='.$filename,
@@ -344,6 +355,7 @@ class ExportXlsStreamByLazyCollection
 
                 // Assicuriamo che le intestazioni siano stringhe
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $headStrings = array_map(strval(...), $head);
 =======
 <<<<<<< HEAD
@@ -359,6 +371,9 @@ class ExportXlsStreamByLazyCollection
                 $headStrings = array_map(strval(...), $head);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+                $headStrings = array_map(strval(...), $head);
+>>>>>>> 300ef70 (.)
 
                 fputcsv($file, $headStrings);
 
@@ -396,6 +411,7 @@ class ExportXlsStreamByLazyCollection
                             return null;
 >>>>>>> 71586de2 (.)
                         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -544,6 +560,9 @@ class ExportXlsStreamByLazyCollection
                         return is_string($item) ? $item : ((string) $item);
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+                        return is_string($item) ? $item : ((string) $item);
+>>>>>>> 300ef70 (.)
                     }, $rowData);
 
                     fputcsv($file, $safeRowData);
@@ -559,6 +578,7 @@ class ExportXlsStreamByLazyCollection
             },
             200,
 <<<<<<< HEAD
+<<<<<<< HEAD
             $headers,
 =======
 <<<<<<< HEAD
@@ -571,6 +591,9 @@ class ExportXlsStreamByLazyCollection
             $headers,
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            $headers,
+>>>>>>> 300ef70 (.)
         );
     }
 
@@ -605,14 +628,11 @@ class ExportXlsStreamByLazyCollection
 =======
      * @param LazyCollection $data I dati da cui estrarre le intestazioni
      * @param string|null $transKey Chiave di traduzione per le intestazioni
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 73eab74 (.)
      *
      * @return array<string>
      */
     public function headings(LazyCollection $data, null|string $transKey = null): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
      * 
@@ -623,6 +643,8 @@ class ExportXlsStreamByLazyCollection
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     {
         $first = $data->first();
         if (! is_array($first) && (! is_object($first) || ! method_exists($first, 'toArray'))) {
@@ -694,9 +716,12 @@ class ExportXlsStreamByLazyCollection
         if (null !== $transKey) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             $headings = $headings->map(static function (string $item) use ($transKey) {
                 $key = $transKey.'.fields.'.$item;
 =======
@@ -770,6 +795,7 @@ class ExportXlsStreamByLazyCollection
         /** @var array<string> */
         return $headings->map(strval(...))->toArray();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -799,5 +825,7 @@ class ExportXlsStreamByLazyCollection
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 }

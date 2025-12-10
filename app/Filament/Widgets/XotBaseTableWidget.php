@@ -1,12 +1,15 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -35,6 +38,7 @@ use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\TableWidget as FilamentTableWidget;
 use Modules\Xot\Filament\Traits\TransTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -45,6 +49,8 @@ use Filament\Widgets\TableWidget as FilamentTableWidget;
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
 abstract class XotBaseTableWidget extends FilamentTableWidget
 {

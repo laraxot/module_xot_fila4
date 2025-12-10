@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -252,16 +253,20 @@ declare(strict_types=1);
 =======
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 declare(strict_types=1);
 
 
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
@@ -301,6 +306,8 @@ declare(strict_types=1);
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 return [
     'navigation' => [
         'name' => 'Cache Lock',
@@ -375,6 +382,7 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 ];
 =======
 <<<<<<< HEAD
@@ -387,3 +395,6 @@ return [
 ];
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+];
+>>>>>>> 300ef70 (.)

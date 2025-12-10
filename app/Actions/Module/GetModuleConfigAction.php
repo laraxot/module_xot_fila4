@@ -6,6 +6,7 @@ namespace Modules\Xot\Actions\Module;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,15 +256,19 @@ use Illuminate\Support\Str;
 =======
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
@@ -299,12 +304,15 @@ use Illuminate\Support\Str;
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetModuleConfigAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * @return array<string, mixed>
@@ -325,12 +333,15 @@ class GetModuleConfigAction
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function execute(string $moduleName, string $config): array
     {
         $configPath = app(GetModulePathByGeneratorAction::class)->execute($moduleName, 'config');
         $configFile = $configPath . '/' . $config . '.php';
         if (!file_exists($configFile)) {
             throw new Exception('Config file not found: ' . $configFile);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public function execute(string $moduleName,string $config): array
@@ -343,6 +354,8 @@ class GetModuleConfigAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         }
         dddx(File::getRequire($configFile));
 

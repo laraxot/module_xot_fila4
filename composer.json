@@ -26,6 +26,7 @@
         "doctrine/dbal": "*",
         "fidum/laravel-eloquent-morph-to-one": "*",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "filament/filament": "*",
         "filament/spatie-laravel-media-library-plugin": "*",
         
@@ -46,6 +47,11 @@
         
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+        "filament/filament": "*",
+        "filament/spatie-laravel-media-library-plugin": "*",
+        
+>>>>>>> 300ef70 (.)
         "guzzlehttp/guzzle": "*",
         "laravel/folio": "^1.1",
         "laravel/framework": "*",
@@ -98,6 +104,7 @@
         "tightenco/parental": "*"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "require_comment": {
        "filament/spatie-laravel-translatable-plugin": "*"
     },
@@ -115,6 +122,11 @@
     },
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+    "require_comment": {
+       "filament/spatie-laravel-translatable-plugin": "*"
+    },
+>>>>>>> 300ef70 (.)
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.14",
         "barryvdh/laravel-ide-helper": "^3.2",

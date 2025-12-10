@@ -33,6 +33,7 @@ class SpipuPdfByHtmlAction
         return match ($out) {
             'download' => response()->download($path, $filename, $headers),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'content' => $html2pdf->output($path, 'S'), // D
 =======
 <<<<<<< HEAD
@@ -45,6 +46,9 @@ class SpipuPdfByHtmlAction
             'content' => $html2pdf->output($path, 'S'), // D
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+            'content' => $html2pdf->output($path, 'S'), // D
+>>>>>>> 300ef70 (.)
             default => $path,
         };
     }

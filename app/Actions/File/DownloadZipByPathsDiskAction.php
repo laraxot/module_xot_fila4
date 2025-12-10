@@ -106,12 +106,15 @@ class DownloadZipByPathsDiskAction
      * @return BinaryFileResponse|null Risposta di download o null se fallisce
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function execute(array $attachments, string $disk): ?BinaryFileResponse
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function execute(array $attachments, string $disk): null|BinaryFileResponse
 >>>>>>> d2b0a27 (.)
     {
@@ -161,6 +164,7 @@ class DownloadZipByPathsDiskAction
 
         if ($zip->open($tempFilePath, ZipArchive::CREATE) === true) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -181,6 +185,8 @@ class DownloadZipByPathsDiskAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             foreach ($attachments as $attachment) {
                 $filePath = $attachment;
 
@@ -240,12 +246,15 @@ class DownloadZipByPathsDiskAction
             // Usa response()->download() per il download
             return response()->download($tempFilePath, $downloadFileName, [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
                 'Content-Type' => 'application/zip',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +280,7 @@ class DownloadZipByPathsDiskAction
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -282,6 +292,8 @@ class DownloadZipByPathsDiskAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         return null;
     }
 }

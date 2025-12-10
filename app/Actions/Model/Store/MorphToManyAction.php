@@ -70,6 +70,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! isset($data['to'])) {
 =======
             if (!isset($data['to'])) {
@@ -144,6 +145,8 @@ class MorphToManyAction
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
             if (! isset($data['to'])) {
 =======
 <<<<<<< HEAD
@@ -289,6 +292,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -350,6 +354,11 @@ class MorphToManyAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+            if (!isset($data['to'])) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
                 $data['to'] = [];
             }
 
@@ -407,6 +416,7 @@ class MorphToManyAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! Arr::isAssoc($data)) {
 =======
         if (!Arr::isAssoc($data)) {
@@ -481,6 +491,8 @@ class MorphToManyAction
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
         if (! Arr::isAssoc($data)) {
 =======
 <<<<<<< HEAD
@@ -623,6 +635,7 @@ class MorphToManyAction
         if (!Arr::isAssoc($data)) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -687,11 +700,17 @@ class MorphToManyAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+        if (!Arr::isAssoc($data)) {
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
             $relationDTO->rows->sync($data);
 
             return;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -699,6 +718,8 @@ class MorphToManyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         dddx([
             'message' => 'wip',
             'row' => $model,
@@ -727,6 +748,7 @@ class MorphToManyAction
          * }
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -764,5 +786,7 @@ class MorphToManyAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 }

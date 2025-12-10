@@ -57,6 +57,7 @@ namespace Modules\Xot\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Widgets\WidgetConfiguration;
 =======
 =======
@@ -96,15 +97,18 @@ use Filament\Widgets\WidgetConfiguration;
 use Spatie\Health\Checks\Check;
 =======
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
-use Spatie\Health\Checks\Check;
 =======
->>>>>>> f1d4085 (.)
-=======
+>>>>>>> 300ef70 (.)
 use Spatie\Health\Checks\Check;
+<<<<<<< HEAD
 >>>>>>> 73eab74 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 use Spatie\Health\Checks\Checks\OptimizedAppCheck;
 use Spatie\Health\Checks\Checks\DebugModeCheck;
 use Spatie\Health\Checks\Checks\EnvironmentCheck;
@@ -139,12 +143,15 @@ use Modules\Xot\Filament\Widgets\HealthOverviewWidget;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 21348520 (.)
 =======
 >>>>>>> 88ea7103 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
 use Spatie\Health\Checks\Check;
 >>>>>>> f1d4085 (.)
@@ -154,6 +161,7 @@ use Spatie\Health\Checks\Check;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
@@ -173,6 +181,10 @@ use Spatie\Health\Checks\Check;
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
@@ -748,6 +760,7 @@ class HealthPage extends Page
         return [
             Action::make('refresh')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -757,6 +770,8 @@ class HealthPage extends Page
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
                 ->tooltip('refresh')
                 ->icon('heroicon-o-arrow-path')
                 ->button()

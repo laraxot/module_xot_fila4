@@ -221,12 +221,15 @@ class GetViewAction
         $tmp = array_slice($arr, 4); // con "app"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         $tmp = collect($tmp)
             ->map(static function ($item) {
                 $item = str_replace('.php', '', $item);
@@ -257,8 +260,11 @@ class GetViewAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 =======
         $tmp = collect($tmp)->map(
             static function ($item) {
@@ -290,6 +296,8 @@ class GetViewAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         }
         // PHPStan: $pub_view è sempre non-falsy-string, Assert ridondante rimosso
 =======
@@ -373,6 +381,7 @@ class GetViewAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6dcebf8a (.)
@@ -564,17 +573,23 @@ class GetViewAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 =======
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 >>>>>>> b7afadf9 (.)
+=======
+>>>>>>> 6dcebf8a (.)
         $view = Str::lower($mod) . '::' . $tmp;
 
         if ('' !== $tpl) {
             $view .= '.' . $tpl;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -816,6 +831,8 @@ class GetViewAction
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 >>>>>>> d2b0a27 (.)
         $view = Str::lower($mod).'::'.$tmp;
 
@@ -830,6 +847,7 @@ class GetViewAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -877,6 +895,10 @@ class GetViewAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         }
 
         // if (inAdmin()) {
@@ -930,6 +952,7 @@ class GetViewAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
 =======
             $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
@@ -1004,6 +1027,8 @@ class GetViewAction
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
             $to = '::'.(inAdmin() ? 'admin.' : '').'home.acts.';
 =======
 <<<<<<< HEAD
@@ -1149,6 +1174,7 @@ class GetViewAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -1210,6 +1236,11 @@ class GetViewAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+            $to = '::' . (inAdmin() ? 'admin.' : '') . 'home.acts.';
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
             $view = Str::replace('::panels.actions.', $to, $view);
             $view = Str::replace('-action', '', $view);
         }
@@ -1264,7 +1295,11 @@ class GetViewAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // $view è sempre stringa perché costruita da stringhe
+=======
+        Assert::string($view, '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 6dcebf8a (.)
         if (! view()->exists($view)) {
             throw new Exception('View ['.$view.'] not found');
 =======
@@ -1653,16 +1688,20 @@ class GetViewAction
 =======
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
         Assert::string($view, '[' . __LINE__ . '][' . class_basename($this) . ']');
         if (!view()->exists($view)) {
             throw new Exception('View [' . $view . '] not found');
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
@@ -1720,6 +1759,8 @@ class GetViewAction
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
         }
 
         return $view;

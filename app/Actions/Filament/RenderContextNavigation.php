@@ -39,12 +39,15 @@ class RenderContextNavigation
 >>>>>>> 5a14301c (.)
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     public function execute(string $module, string $_context): void
     {
         Filament::registerRenderHook(
@@ -111,6 +114,7 @@ class RenderContextNavigation
          * );
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -134,5 +138,7 @@ class RenderContextNavigation
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
     }
 }

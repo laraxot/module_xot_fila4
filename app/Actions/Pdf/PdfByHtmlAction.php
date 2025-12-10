@@ -53,6 +53,7 @@ namespace Modules\Xot\Actions\Pdf;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 =======
@@ -180,6 +181,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 9db27d12 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
@@ -332,6 +335,7 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 73eab74 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
 use Illuminate\Support\Facades\Storage;
@@ -361,10 +365,15 @@ use Spipu\Html2Pdf\Html2Pdf;
 =======
 >>>>>>> 17684f52 (.)
 =======
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 use Illuminate\Support\Facades\Storage;
 use Modules\Xot\Datas\PdfData;
 use Spatie\QueueableAction\QueueableAction;
 use Spipu\Html2Pdf\Html2Pdf;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ab8cc3f3 (.)
@@ -494,6 +503,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -548,6 +558,10 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class PdfByHtmlAction
@@ -617,16 +631,20 @@ class PdfByHtmlAction
             'engine' => $engine,
         ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 
         // Genera il PDF utilizzando PdfData
         $data->fromHtml($html);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -639,6 +657,8 @@ class PdfByHtmlAction
 =======
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
         // Restituisce il risultato in base al tipo di output richiesto
         return match ($out) {
             'download' => $data->download(),

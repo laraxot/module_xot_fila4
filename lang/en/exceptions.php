@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -252,16 +253,20 @@ declare(strict_types=1);
 =======
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> b7afadf9 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 declare(strict_types=1);
 
 
 >>>>>>> 300ef70 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6dcebf8a (.)
 =======
@@ -301,10 +306,13 @@ declare(strict_types=1);
 =======
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 return [
     'backend' => [
         'takeaway' => [
             'newsletterSubscribe' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'messages' => [],
 =======
@@ -319,6 +327,9 @@ return [
                 'messages' => [],
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+                'messages' => [],
+>>>>>>> 300ef70 (.)
             ],
             'category' => [
                 'create_error' => 'Create Error',

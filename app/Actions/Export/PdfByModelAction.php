@@ -77,6 +77,7 @@ class PdfByModelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view_name = $module_low.'::'.Str::kebab($model_name).'.show.pdf';
 =======
         $view_name = $module_low . '::' . Str::kebab($model_name) . '.show.pdf';
@@ -151,6 +152,8 @@ class PdfByModelAction
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
         $view_name = $module_low.'::'.Str::kebab($model_name).'.show.pdf';
 =======
 <<<<<<< HEAD
@@ -296,6 +299,7 @@ class PdfByModelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -357,6 +361,11 @@ class PdfByModelAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+        $view_name = $module_low . '::' . Str::kebab($model_name) . '.show.pdf';
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
 
         $view_params = [
             'view' => $view_name,
@@ -410,6 +419,7 @@ class PdfByModelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'transKey' => $module_low.'::'.Str::plural($model_name_low).'.fields',
 =======
             'transKey' => $module_low . '::' . Str::plural($model_name_low) . '.fields',
@@ -484,6 +494,8 @@ class PdfByModelAction
 =======
 >>>>>>> 6dcebf8a (.)
 =======
+=======
+>>>>>>> 6dcebf8a (.)
             'transKey' => $module_low.'::'.Str::plural($model_name_low).'.fields',
 =======
 <<<<<<< HEAD
@@ -629,6 +641,7 @@ class PdfByModelAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -690,6 +703,11 @@ class PdfByModelAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+            'transKey' => $module_low . '::' . Str::plural($model_name_low) . '.fields',
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         ];
         $view = view($view_name, $view_params);
 

@@ -161,10 +161,9 @@ use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 =======
 //use Modules\Xot\Datas\PdfData;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
+<<<<<<< HEAD
 =======
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
@@ -174,6 +173,8 @@ use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
 use Filament\Support\Contracts\HasLabel;
 
 enum PdfEngineEnum: string implements HasColor, HasIcon, HasLabel

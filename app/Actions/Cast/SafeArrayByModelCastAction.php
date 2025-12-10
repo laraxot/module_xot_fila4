@@ -117,19 +117,27 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
 =======
+>>>>>>> 6dcebf8a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d2b0a27 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 300ef70 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
         try {
 <<<<<<< HEAD
             return $model->attributesToArray();
@@ -182,6 +190,7 @@ class SafeArrayByModelCastAction
             return $model->attributesToArray();
         } catch (ValueError|Error|Exception $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
         try{
@@ -194,10 +203,13 @@ class SafeArrayByModelCastAction
         } catch (ValueError|Error|Exception $e) {
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
+=======
+>>>>>>> 300ef70 (.)
             return $this->safeExecute($model);
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +267,8 @@ class SafeArrayByModelCastAction
 >>>>>>> b7afadf9 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+>>>>>>> 6dcebf8a (.)
     /**
      * @return array<string, mixed>
      */
@@ -371,6 +385,7 @@ class SafeArrayByModelCastAction
 >>>>>>> d2b0a27 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -415,6 +430,10 @@ class SafeArrayByModelCastAction
 >>>>>>> 73eab74 (.)
 >>>>>>> d2b0a27 (.)
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
     public function safeExecute(Model $model): array
     {
         $data = [];
@@ -446,10 +465,13 @@ class SafeArrayByModelCastAction
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 88ea7103 (.)
+=======
+>>>>>>> 6dcebf8a (.)
 <<<<<<< HEAD
 =======
 
@@ -860,6 +882,7 @@ class SafeArrayByModelCastAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab8cc3f3 (.)
 =======
 =======
@@ -914,5 +937,9 @@ class SafeArrayByModelCastAction
 >>>>>>> 9db27d12 (.)
 =======
 >>>>>>> ab8cc3f3 (.)
+=======
+=======
+>>>>>>> 300ef70 (.)
+>>>>>>> 6dcebf8a (.)
     }
 }

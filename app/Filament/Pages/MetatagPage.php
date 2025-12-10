@@ -332,7 +332,7 @@ class MetatagPage extends Page implements HasForms
     public null|array $data = [];
 >>>>>>> ca9324a4 (.)
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
 
     protected string $view = 'xot::filament.pages.metatag';
 

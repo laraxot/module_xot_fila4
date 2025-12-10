@@ -10,13 +10,13 @@ use function Safe\ob_get_clean;
 use function Safe\ob_start;
 
 test('migration handler supports migrate command', function (): void {
-    $handler = new MigrationCommandHandler;
+    $handler = new MigrationCommandHandler();
 
     expect($handler->supports('migrate'))->toBeTrue();
 });
 
 test('migration handler does not support other commands', function (): void {
-    $handler = new MigrationCommandHandler;
+    $handler = new MigrationCommandHandler();
 
     expect($handler->supports('clear'))->toBeFalse();
 });
@@ -34,7 +34,7 @@ test('migration handler executes migrate without module', function (): void {
         ->once()
         ->andReturn('Migration completed');
 
-    $handler = new MigrationCommandHandler;
+    $handler = new MigrationCommandHandler();
     $result = $handler->handle('');
 
     expect($result)->toContain('Migration completed');
@@ -53,7 +53,7 @@ test('migration handler executes module migration', function (): void {
         ->once()
         ->andReturn('Module migration completed');
 
-    $handler = new MigrationCommandHandler;
+    $handler = new MigrationCommandHandler();
 
     ob_start();
     $result = $handler->handle('TestModule');

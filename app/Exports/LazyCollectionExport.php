@@ -1087,7 +1087,6 @@ class LazyCollectionExport implements FromIterator, ShouldQueue, WithHeadings, W
 <<<<<<< HEAD
 
     /**
-     * @param  mixed  $row
      * @return array<int|string, mixed>
      */
     private function normalizeRow(mixed $row): array

@@ -1722,7 +1722,7 @@ class BelongsToAction
             }
 =======
             }
-            
+
             $relation->update($data);
 >>>>>>> 249a0067 (.)
 

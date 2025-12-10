@@ -772,7 +772,7 @@ class ContentPdfAction
 >>>>>>> 71586de2 (.)
 =======
     /**
-     * @param array<string, mixed> $data
+     * @param  array<string, mixed>  $data
      */
     public function fromView(string $view, array $data = [], string $filename = 'document.pdf'): string
     {

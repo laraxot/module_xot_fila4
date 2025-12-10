@@ -42,8 +42,10 @@ use Filament\Pages\Dashboard\Concerns\HasFiltersForm;
 use Filament\Widgets\Widget;
 use Filament\Widgets\WidgetConfiguration;
 
+<<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95,11 +97,16 @@ class Dashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> b7afadf9 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e0b8ebe3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 class Dashboard extends XotBaseDashboard
 {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,10 +154,15 @@ class Dashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> 5e58b29b (.)
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> e0b8ebe3 (.)
 
 class Dashboard extends XotBaseDashboard
 {
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +185,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 3eee6f79 (.)
 =======
 >>>>>>> 17684f52 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 >>>>>>> a12f125f4a (.)
 =======
 class Dashboard extends XotBaseDashboard
@@ -181,6 +195,7 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -488,6 +503,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> e0b8ebe3 (.)
     /**
      * @return array<class-string<Widget>|WidgetConfiguration>
      */
@@ -495,6 +512,7 @@ class Dashboard extends XotBaseDashboard
     {
         return [];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -562,6 +580,8 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 17684f52 (.)
 =======
+>>>>>>> e0b8ebe3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -576,6 +596,7 @@ class Dashboard extends XotBaseDashboard
     
 >>>>>>> origin/develop
 >>>>>>> 6cba4fe (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -786,4 +807,6 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 1c4bb8cf (.)
 =======
 >>>>>>> cafe8bed (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 }

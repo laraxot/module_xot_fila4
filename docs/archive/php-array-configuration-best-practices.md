@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -28,6 +29,8 @@
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Gestione Best Practice per File di Configurazione PHP basati su Array
 
 I file di configurazione e traduzione in PHP che restituiscono array sono comuni in Laravel e nei moduli PTVX. Per garantire stabilità e manutenibilità, è cruciale seguire alcune best practice.
@@ -37,6 +40,7 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 1.  **Correttezza Sintattica**:
     -   Assicurarsi che tutte le parentesi `()` e `[]` siano correttamente bilanciate.
     -   Verificare che le virgole `,` siano usate correttamente per separare gli elementi degli array.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235,6 +239,9 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+    -   Le "trailing commas" (virgole dopo l'ultimo elemento) sono permesse in PHP >= 7.3 e possono migliorare la manutenibilità (facilitano l'aggiunta di nuovi elementi e riducono i diff). Tuttavia, in caso di errori di parsing inspiegabili, la loro rimozione temporanea può aiutare nella diagnosi. Vedi [Caso Specifico di Errore di Parsing in File di Lingua](../../Lang/project_docs/translation_file_syntax.md).
+>>>>>>> e0b8ebe3 (.)
 
 2.  **Validazione**:
     -   Utilizzare un IDE con linting PHP attivo.
@@ -275,6 +282,7 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 -   Se si verifica un `ParseError`, controllare attentamente la linea indicata e quelle immediatamente precedenti.
 -   Errori come `unexpected token ";", expecting ")"` alla fine di un file `return array(...);` spesso indicano una parentesi `(` non chiusa all'interno dell'array.
 -   Commentare sezioni dell'array (approccio divide et impera) può aiutare a isolare la riga o la sezione che causa l'errore.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -343,3 +351,5 @@ I file di configurazione e traduzione in PHP che restituiscono array sono comuni
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -25,6 +26,8 @@
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # Sistema di Prompt per la Documentazione
 
 ## Panoramica
@@ -33,6 +36,7 @@ Questo documento descrive l'integrazione tra il sistema di documentazione di Xot
 
 ## Collegamenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,6 +219,9 @@ Questo documento descrive l'integrazione tra il sistema di documentazione di Xot
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+=======
+- [Documentazione Completa del Sistema di Prompt](../../../../bashscripts/project_docs/PROMPTS_DOCUMENTATION_SYSTEM.md)
+>>>>>>> e0b8ebe3 (.)
 - [Linee Guida Generali per la Documentazione](./DOCUMENTATION-GUIDELINES.md)
 
 ## Cos'è il Sistema di Prompt
@@ -260,6 +267,7 @@ Il modulo bashscripts include un sistema di prompt che fornisce istruzioni stand
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il file principale è `/var/www/html/<nome progetto>/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
 =======
 Il file principale è `/var/www/html/_bases/base_techplanner_fila3_mono/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
@@ -426,6 +434,9 @@ Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, ch
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+Il file principale è `/var/www/html/saluteora/bashscripts/prompts/docs.txt`, che contiene linee guida dettagliate su:
+>>>>>>> e0b8ebe3 (.)
 
 1. Struttura gerarchica della documentazione
 2. Sistema di collegamenti bidirezionali
@@ -469,6 +480,7 @@ Il sistema di documentazione di Xot e il sistema di prompt di bashscripts si com
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. Utilizzare il [Sistema di Prompt](../../../../bashscripts/project_docs/PROMPTS_DOCUMENTATION_SYSTEM.md) per istruzioni dettagliate
 =======
 2. Utilizzare il [Sistema di Prompt](../../../../bashscripts/docs/PROMPTS_DOCUMENTATION_SYSTEM.md) per istruzioni dettagliate
@@ -651,6 +663,10 @@ Il sistema di documentazione di Xot e il sistema di prompt di bashscripts si com
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+=======
+2. Utilizzare il [Sistema di Prompt](../../../../bashscripts/project_docs/PROMPTS_DOCUMENTATION_SYSTEM.md) per istruzioni dettagliate
+
+>>>>>>> e0b8ebe3 (.)
 ## Miglioramenti Recenti
 
 Il file di prompt `docs.txt` è stato recentemente migliorato per:
@@ -690,6 +706,7 @@ Qualsiasi aggiornamento al sistema di prompt deve essere:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. Documentato in `../../../../bashscripts/project_docs/PROMPTS_DOCUMENTATION_SYSTEM.md`
 =======
 1. Documentato in `../../../../bashscripts/docs/PROMPTS_DOCUMENTATION_SYSTEM.md`
@@ -845,11 +862,15 @@ Qualsiasi aggiornamento al sistema di prompt deve essere:
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> 3bf39332 (.)
+=======
+1. Documentato in `../../../../bashscripts/project_docs/PROMPTS_DOCUMENTATION_SYSTEM.md`
+>>>>>>> e0b8ebe3 (.)
 2. Riflesso in questo documento
 3. Coerente con le linee guida generali di documentazione di Xot
 
 ## Collegamenti Correlati
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -901,10 +922,13 @@ Qualsiasi aggiornamento al sistema di prompt deve essere:
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 - [Sistema di Collegamenti della Documentazione](../../../../project_docs/collegamenti-documentazione.md)
 - [Linee Guida per la Documentazione in Xot](./DOCUMENTATION-GUIDELINES.md)
 - [Percorsi Relativi nella Documentazione](../../../../bashscripts/project_docs/PERCORSI_RELATIVI_DOCUMENTAZIONE.md)
 - [Documentazione del Sistema di Prompt](../../../../bashscripts/project_docs/PROMPTS_DOCUMENTATION_SYSTEM.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1112,3 +1136,5 @@ Qualsiasi aggiornamento al sistema di prompt deve essere:
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

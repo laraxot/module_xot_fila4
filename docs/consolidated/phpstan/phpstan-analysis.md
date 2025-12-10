@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -25,10 +26,13 @@
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 # PHPStan Analysis Report - 18 Agosto 2025
 
 ## 🚨 REGOLA CRITICA RISPETTATA 🚨
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -234,6 +238,9 @@
 >>>>>>> 88e35986 (.)
 =======
 >>>>>>> 3bf39332 (.)
+=======
+**NON è stato modificato** `/var/www/html/_bases/base_saluteora/laravel/phpstan.neon`
+>>>>>>> e0b8ebe3 (.)
 
 ## Analisi Completa
 
@@ -305,6 +312,7 @@ Accesso a proprietà non definite nei modelli.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 3. **<nome modulo>** (Applicazione) - 15% errori
 =======
 ### 3. **SaluteMo** (Applicazione) - 15% errori
@@ -357,6 +365,9 @@ Accesso a proprietà non definite nei modelli.
 =======
 ### 3. **SaluteMo** (Applicazione) - 15% errori
 >>>>>>> 88e35986 (.)
+=======
+### 3. **SaluteMo** (Applicazione) - 15% errori
+>>>>>>> e0b8ebe3 (.)
 - Risorse Filament
 - Modelli dominio
 - Widget personalizzati
@@ -385,6 +396,7 @@ Accesso a proprietà non definite nei modelli.
 4. `User/app/Models/Profile.php` - Metodi e proprietà
 
 ### Priorità 3 (Applicazione)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,6 +484,10 @@ Accesso a proprietà non definite nei modelli.
 1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
 2. `SaluteMo/app/Models/*` - Proprietà e relazioni
 >>>>>>> 88e35986 (.)
+=======
+1. `SaluteMo/app/Filament/Resources/*` - Form schemas e table columns
+2. `SaluteMo/app/Models/*` - Proprietà e relazioni
+>>>>>>> e0b8ebe3 (.)
 3. `Geo/app/Models/*` - Proprietà geografiche
 
 ## Strategia di Correzione
@@ -482,6 +498,7 @@ Correggere tutti gli errori nel modulo Xot per stabilizzare la base.
 ### Fase 2: Autenticazione (User)
 Sistemare traits e contratti utilizzati in tutto il progetto.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -551,6 +568,9 @@ Sistemare traits e contratti utilizzati in tutto il progetto.
 =======
 ### Fase 3: Applicazione (SaluteMo, Geo, Cms)
 >>>>>>> 88e35986 (.)
+=======
+### Fase 3: Applicazione (SaluteMo, Geo, Cms)
+>>>>>>> e0b8ebe3 (.)
 Correggere errori specifici dell'applicazione.
 
 ### Fase 4: Verifica Finale
@@ -650,6 +670,7 @@ class MyModel extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cc7fb225 (.)
 =======
@@ -676,3 +697,5 @@ class MyModel extends BaseModel
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

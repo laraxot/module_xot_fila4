@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 88e35986 (.)
 =======
@@ -28,6 +29,8 @@
 >>>>>>> 17684f52 (.)
 =======
 >>>>>>> 88e35986 (.)
+=======
+>>>>>>> e0b8ebe3 (.)
 
 # Linee Guida per la Documentazione in Laraxot
 
@@ -88,6 +91,7 @@ Ogni documento dovrebbe iniziare con:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -100,6 +104,9 @@ Ogni documento dovrebbe iniziare con:
 =======
 
 >>>>>>> 88e35986 (.)
+=======
+
+>>>>>>> e0b8ebe3 (.)
 # Titolo Principale
 
 Breve introduzione che spiega lo scopo del documento e il contesto.
@@ -114,6 +121,7 @@ Utilizzare una gerarchia chiara di intestazioni:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -126,6 +134,9 @@ Utilizzare una gerarchia chiara di intestazioni:
 =======
 
 >>>>>>> 88e35986 (.)
+=======
+
+>>>>>>> e0b8ebe3 (.)
 ## Sezione Principale
 
 Descrizione della sezione principale.
@@ -201,6 +212,7 @@ Esempio:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -213,6 +225,9 @@ Esempio:
 =======
 
 >>>>>>> 88e35986 (.)
+=======
+
+>>>>>>> e0b8ebe3 (.)
 ## NomeModello
 
 ```php
@@ -276,6 +291,7 @@ Utilizzare strumenti di generazione automatica quando possibile:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -288,6 +304,9 @@ Utilizzare strumenti di generazione automatica quando possibile:
 =======
 
 >>>>>>> 88e35986 (.)
+=======
+
+>>>>>>> e0b8ebe3 (.)
 # Esempio: Generare documentazione per lo schema del database
 php artisan xot:generate-db-documentation /path/to/schema.json /path/to/output
 ```
@@ -328,6 +347,7 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 5a14301c (.)
@@ -340,6 +360,9 @@ Per le best practices generali sul framework, consultare la [guida principale](.
 =======
 
 >>>>>>> 88e35986 (.)
+=======
+
+>>>>>>> e0b8ebe3 (.)
 # Modelli del Modulo Brain
 
 Questo documento descrive i modelli disponibili nel modulo Brain, che rappresentano le entità del database braindb.
@@ -408,6 +431,7 @@ Per implementare queste linee guida:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -458,3 +482,5 @@ Per implementare queste linee guida:
 >>>>>>> 53d6a6ba (.)
 =======
 >>>>>>> 71586de2 (.)
+=======
+>>>>>>> e0b8ebe3 (.)

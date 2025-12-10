@@ -92,6 +92,7 @@ $res=Locality::query()
 
 ## Verifiche Post-Correzione
 
+<<<<<<< HEAD
 
 ### 2. Validazione PHPStan
 ```bash
@@ -200,3 +201,7 @@ php artisan lang:check
 **Ultimo aggiornamento**: 2025-01-06
 **Autore**: Sistema di correzione automatica
 **Stato**: ✅ Completato
+=======
+### 1. Controllo Conflitti
+```bash
+>>>>>>> 6cba4fe (.)

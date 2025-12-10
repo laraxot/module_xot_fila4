@@ -14,7 +14,11 @@ http://pchart.sourceforge.net/screenshots.php?ID=8  --- 2008
 
 pagamento e versione gratuita
 https://www.amcharts.com/demos/
+<<<<<<< HEAD
 https://www.amcharts.com/project_docs/v4/tutorials/generating-multi-content-pdf-export/   PDF !
+=======
+https://www.amcharts.com/docs/v4/tutorials/generating-multi-content-pdf-export/   PDF !
+>>>>>>> 0218cd5 (.)
 
 ---------------------------------------------------
 
@@ -29,7 +33,11 @@ https://github.com/naku/libchart  2019
 
 Hicharts    !!!
 https://www.highcharts.com/
+<<<<<<< HEAD
 https://www.highcharts.com/project_docs/working-with-data/data-from-a-database
+=======
+https://www.highcharts.com/docs/working-with-data/data-from-a-database
+>>>>>>> 0218cd5 (.)
 
 https://jsfiddle.net/gh/get/jquery/1.11.0/highslide-software/highcharts.com/tree/master/samples/highcharts/exporting/offline-download/
 http://jsfiddle.net/gh/get/jquery/1.7.2/highcharts/highcharts/tree/master/samples/highcharts/exporting/multiple-charts-offline/

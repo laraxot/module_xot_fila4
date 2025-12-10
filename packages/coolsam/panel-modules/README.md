@@ -69,6 +69,7 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -621,7 +622,13 @@ Modules is a FilamentPHP Plugin to enable easy integration with `nwidart/laravel
 =======
 =======
 >>>>>>> 39bb163e (.)
+<<<<<<< HEAD
 >>>>>>> d9f43fce9 (.)
+=======
+=======
+**NB: These docs are for v3, which only supports Filament 3. If you are using Filament
+>>>>>>> b396242e (.)
+>>>>>>> 5df5c7505 (.)
 v2, [see the documentation here](https://github.com/savannabits/filament-modules/tree/main#readme) to get started.**
 
 For example, if you have two modules (**Blog** and **Pos**), you should be able to have filament installed in each module with separate resources as below:
@@ -637,6 +644,7 @@ You can read more about Multiple Context for Filament [Here](https://github.com/
 If this is your goal, then you are in the right place.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -842,7 +850,13 @@ If this is your goal, then you are in the right place.
 =======
 =======
 >>>>>>> 39bb163e (.)
+<<<<<<< HEAD
 >>>>>>> d9f43fce9 (.)
+=======
+=======
+ 
+>>>>>>> b396242e (.)
+>>>>>>> 5df5c7505 (.)
 
 ## Installation
 Before you proceed, this guide assumes that you have configured your app fully to work with Laravel Modules. If you haven't, follow the [Laravel Modules Docs](https://docs.laravelmodules.com/v9/installation-and-setup) before proceeding.
@@ -890,6 +904,7 @@ If this is your goal, then you are in the right place.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d86d643a (.)
 =======
@@ -1073,7 +1088,13 @@ If this is your goal, then you are in the right place.
 =======
 =======
 >>>>>>> 39bb163e (.)
+<<<<<<< HEAD
 >>>>>>> d9f43fce9 (.)
+=======
+=======
+ 
+>>>>>>> b396242e (.)
+>>>>>>> 5df5c7505 (.)
 
 ## Installation
 Before you proceed, this guide assumes that you have configured your app fully to work with Laravel Modules. If you haven't, follow the [Laravel Modules Docs](https://docs.laravelmodules.com/v9/installation-and-setup) before proceeding.

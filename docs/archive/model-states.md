@@ -305,6 +305,7 @@ $pendingWorkflows = DoctorRegistrationWorkflow::whereState('status', PendingMode
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Queueable Actions](queueable-actions.md) 
 >>>>>>> 85cdef688 (.)
 =======
@@ -449,3 +450,5 @@ $pendingWorkflows = DoctorRegistrationWorkflow::whereState('status', PendingMode
 - [Queueable Actions](queueable-actions.md) 
 >>>>>>> a5dccfe (.)
 >>>>>>> d9f43fce9 (.)
+=======
+>>>>>>> 5df5c7505 (.)

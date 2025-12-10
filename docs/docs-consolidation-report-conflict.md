@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5a14301c (.)
 =======
@@ -485,4 +486,9 @@ Le prossime fasi si concentreranno sul completamento del consolidamento e sul mi
 =======
 =======
 >>>>>>> 39bb163e (.)
+<<<<<<< HEAD:docs/docs-consolidation-report-conflict.md
 >>>>>>> d9f43fce9 (.):docs/DOCS_CONSOLIDATION_REPORT.md
+=======
+=======
+>>>>>>> b396242e (.)
+>>>>>>> 5df5c7505 (.):docs/DOCS_CONSOLIDATION_REPORT.md

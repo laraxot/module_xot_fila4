@@ -76,6 +76,7 @@ Per prevenire questo errore in futuro:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Xot Component System](../structure.md) 
 >>>>>>> 85cdef688 (.)
 =======
@@ -201,3 +202,5 @@ Per prevenire questo errore in futuro:
 - [Documentazione Xot Component System](../structure.md) 
 >>>>>>> a5dccfe (.)
 >>>>>>> d9f43fce9 (.)
+=======
+>>>>>>> 5df5c7505 (.)

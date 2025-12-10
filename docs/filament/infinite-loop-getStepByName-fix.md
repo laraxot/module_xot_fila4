@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -424,4 +425,9 @@ Questo fix dimostra l'importanza di:
 =======
 *Il sistema <nome progetto> ora è resiliente a questo tipo di errori critici.* 
 >>>>>>> 39bb163e (.)
+<<<<<<< HEAD
 >>>>>>> d9f43fce9 (.)
+=======
+=======
+>>>>>>> b396242e (.)
+>>>>>>> 5df5c7505 (.)

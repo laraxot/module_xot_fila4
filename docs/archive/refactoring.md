@@ -93,6 +93,7 @@ class YourModel extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices](BEST-PRACTICES.md) 
 >>>>>>> 85cdef688 (.)
 =======
@@ -237,3 +238,5 @@ class YourModel extends Model
 - [Best Practices](BEST-PRACTICES.md) 
 >>>>>>> a5dccfe (.)
 >>>>>>> d9f43fce9 (.)
+=======
+>>>>>>> 5df5c7505 (.)

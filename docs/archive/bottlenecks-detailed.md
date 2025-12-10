@@ -295,6 +295,7 @@ trait HasXotOptimizations
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [bottlenecks_detailed.md](../../../Xot/docs/bottlenecks_detailed.md)
 * [bottlenecks_detailed.md](../../../Job/docs/bottlenecks_detailed.md)
@@ -355,6 +356,11 @@ trait HasXotOptimizations
 * [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
 * [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
 >>>>>>> 0117b849c (.)
+=======
+* [bottlenecks_detailed.md](../../../Xot/project_docs/bottlenecks_detailed.md)
+* [bottlenecks_detailed.md](../../../Job/project_docs/bottlenecks_detailed.md)
+* [bottlenecks_detailed.md](../../../Media/project_docs/bottlenecks_detailed.md)
+>>>>>>> 5df5c7505 (.)
 
 
 ### Versione Incoming

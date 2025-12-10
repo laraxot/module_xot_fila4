@@ -528,6 +528,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1a525d0ea (.)
@@ -563,6 +564,8 @@
 >>>>>>> ba7efc23f (.)
 =======
 >>>>>>> 0117b849c (.)
+=======
+>>>>>>> 5df5c7505 (.)
 * [level_10.md](laravel/Modules/Gdpr/project_docs/phpstan/level_10.md)
 * [level_10.md](laravel/Modules/Notify/project_docs/phpstan/level_10.md)
 * [level_10.md](laravel/Modules/Xot/project_docs/phpstan/level_10.md)
@@ -573,6 +576,7 @@
 * [level_10.md](laravel/Modules/Media/project_docs/phpstan/level_10.md)
 * [level_10.md](laravel/Modules/Tenant/project_docs/phpstan/level_10.md)
 * [level_10.md](laravel/Modules/Activity/project_docs/phpstan/level_10.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -651,3 +655,6 @@
 =======
 >>>>>>> a5dccfe (.)
 >>>>>>> d9f43fce9 (.)
+=======
+
+>>>>>>> 5df5c7505 (.)

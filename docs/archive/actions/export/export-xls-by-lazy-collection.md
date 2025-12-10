@@ -199,6 +199,7 @@ return $response; // Scarica il file Excel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [PHPStan Fixes Summary](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> 85cdef688 (.)
@@ -317,3 +318,6 @@ return $response; // Scarica il file Excel
 - [PHPStan Fixes Summary](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
 >>>>>>> a5dccfe (.)
 >>>>>>> d9f43fce9 (.)
+=======
+- [PHPStan Fixes Summary](../../../../docs/PHPSTAN-FIXES-SUMMARY.md)
+>>>>>>> 5df5c7505 (.)

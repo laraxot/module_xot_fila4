@@ -347,7 +347,8 @@ abstract class XotBaseRelationManager extends FilamentRelationManager
 >>>>>>> 5a14301c (.)
     public function getFormSchema(): array
     {
-        return array_values($this->getResource()::getFormSchema());
+        $schema = $this->getResource()::getFormSchema();
+        return is_array($schema) ? array_values($schema) : [];
     }
 
 <<<<<<< HEAD
